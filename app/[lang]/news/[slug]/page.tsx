@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang, slug } = await params;
   const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;
   const index = loadIndex();
-  const entry = index.articles.find((a) => a.lang === langOk && a.slug === slug);
+  const entry = index.articles.find((a) => a.lang === langOk && a.slug === decodeURIComponent(slug));
   if (!entry) return {};
   return buildArticleMetadata(loadArticle(langOk, entry.id));
 }
@@ -23,7 +23,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ lang: 
   const { lang, slug } = await params;
   const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;
   const index = loadIndex();
-  const entry = index.articles.find((a) => a.lang === langOk && a.slug === slug);
+  const entry = index.articles.find((a) => a.lang === langOk && a.slug === decodeURIComponent(slug));
   if (!entry) notFound();
   const article = loadArticle(langOk, entry.id);
   return (

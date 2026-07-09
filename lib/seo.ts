@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { Article, Day, Lang } from "@/shared/schema";
 import { findTranslation } from "@/lib/hreflang";
+import { loadArticle } from "@/lib/content";
 
 const SITE = "https://example.com";
 
@@ -53,7 +54,7 @@ export function itemListJsonLd(day: Day, lang: Lang) {
     "@type": "ItemList",
     name: lang === "zh" ? `${day.date} 日报` : `${day.date} Daily`,
     itemListElement: day.articleIds.map((id, i) => ({
-      "@type": "ListItem", position: i + 1, url: `${SITE}/${lang}/news/?id=${id}`,
+      "@type": "ListItem", position: i + 1, url: `${SITE}/${lang}/news/${loadArticle(lang, id).slug}/`,
     })),
   };
 }
