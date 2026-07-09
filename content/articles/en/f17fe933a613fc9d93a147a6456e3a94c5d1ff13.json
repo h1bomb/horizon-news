@@ -1,0 +1,31 @@
+{
+  "id": "f17fe933a613fc9d93a147a6456e3a94c5d1ff13",
+  "canonicalId": "6c5e4f4debc50329efc0325980e59c2146fd52a7",
+  "slug": "anthropic-reports-major-chinese-ai-labs-launched-large-scale-distillation-attacks-on-claude",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T01:48:00Z",
+  "lang": "en",
+  "title": "Anthropic Reports Major Chinese AI Labs Launched Large-Scale Distillation Attacks on Claude",
+  "summary": "Anthropic released a report detailing that Chinese AI labs DeepSeek, Moonshot AI, and MiniMax conducted systematic distillation attacks on its Claude model. The labs created over 24,000 fake accounts and engaged in more than 16 million conversational interactions to extract Claude's capabilities for training their own models. This incident highlights a significant emerging threat to intellectual property and security in the commercial AI sector, where proprietary models are targeted for capability extraction. It underscores the geopolitical dimensions of AI competition and raises urgent questions about the enforceability of export controls and safety regulations in the digital realm. Anthropic identified the attacks through patterns like massive, concentrated interaction volumes, highly repetitive query structures, and content focused on extracting high-value training data. The company is responding by investing in defenses like behavioral fingerprinting to make such attacks harder to execute and easier to detect.",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Model Distillation",
+    "AI Ethics",
+    "Geopolitics",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+  "originalSite": "anthropic.com",
+  "context": "Model distillation, or extraction, is a technique where an adversary interacts extensively with a target AI model (like Claude) to generate a dataset of its inputs and outputs. This dataset is then used to train a new, often smaller, model that mimics the capabilities of the original, potentially circumventing the need for expensive, proprietary training. Such attacks are considered a form of intellectual property theft in the AI domain. Behavioral fingerprinting is a security technique that analyzes unique patterns in user or system behavior (like interaction sequences or timing) to identify and block malicious activity.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

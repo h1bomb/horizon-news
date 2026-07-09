@@ -1,0 +1,31 @@
+{
+  "id": "0348bc7792304c8145d96510fc9c9dd83f9d0fe5",
+  "canonicalId": "d74391cf6b6975ae2febd7d56ab4285ed2ceae82",
+  "slug": "nanollama-open-source-framework-enables-one-command-llama-3-training-from-scratch-with-gguf-export",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-22T20:17:00Z",
+  "lang": "en",
+  "title": "Nanollama: Open-source framework enables one-command Llama 3 training from scratch with GGUF export.",
+  "summary": "The developer released nanollama, an open-source framework that allows users to train Llama 3 architecture models from complete scratch (not fine-tuning) using a single command and directly export them to the llama.cpp-compatible GGUF format. The framework includes eight model configurations ranging from 46 million to 7 billion parameters and features a multi-corpus training recipe, a native GGUF v3 exporter, and a personality injection technique. This tool addresses a significant gap in the local LLM ecosystem by providing a modern, streamlined pipeline for full pretraining of state-of-the-art Llama 3 models, which was previously lacking. It lowers the barrier to entry for creating custom base models and experimenting with novel training techniques, potentially accelerating innovation and customization in the open-source AI community. The framework is a rewrite of Karpathy's nanochat, updated for the Llama 3 architecture (featuring RoPE, SwiGLU, RMSNorm, and GQA) and released under the GPLv3 license. It includes a pure Go inference engine (~9MB) for lightweight deployment and has been verified to train models up to 1.1B parameters, with a beginner's guide promising a first model in about 30 minutes on rented GPU hardware.",
+  "score": 8,
+  "tags": [
+    "llama-3",
+    "model-training",
+    "gguf",
+    "open-source",
+    "local-llm"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "ataeff"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rbwbgl/nanollama_train_llama_3_from_scratch_and_export/",
+  "originalSite": "reddit.com",
+  "context": "Llama 3 is a family of open-source large language models developed by Meta, known for its modern transformer architecture components. GGUF is a binary file format designed for efficient model inference, particularly with the llama.cpp framework, and has become a standard for distributing and running models locally. Full pretraining (training from scratch) involves building a model's foundational knowledge from raw data, which is computationally intensive and more complex than fine-tuning an existing model.",
+  "discussion": "The community expressed strong excitement and gratitude for the tool, with comments like \"Awesome work!\" and \"What a freaking chad.\" Key practical concerns centered on hardware requirements, with multiple users asking if it can run on desktop-class hardware like consumer GPUs (e.g., RTX 3090/4090) or AMD's Strix Halo, and requesting example datasets for easier setup. There was also a noted observation that initial results showcased were from high-end H100 GPUs.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

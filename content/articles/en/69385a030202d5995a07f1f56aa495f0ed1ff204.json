@@ -1,0 +1,31 @@
+{
+  "id": "69385a030202d5995a07f1f56aa495f0ed1ff204",
+  "canonicalId": "c722d57661a0dfc8a77df150ef12b73d66331e71",
+  "slug": "openai-engineer-clarifies-codex-architecture-as-model-harness-surfaces",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-22T15:53:00Z",
+  "lang": "en",
+  "title": "OpenAI Engineer Clarifies Codex Architecture as Model + Harness + Surfaces",
+  "summary": "Gabriel Chua, a Developer Experience Engineer at OpenAI, published an article explaining the three-part architecture of Codex: Model, Harness, and Surfaces. He clarified that the term 'Codex' refers to OpenAI's software engineering agent, where the Model and Harness together form the agent, and Surfaces are the interfaces through which users interact with it. This clarification is significant because it resolves widespread confusion in the developer community about what 'Codex' actually encompasses, distinguishing between the core agent system and its various user-facing applications. A clear architectural understanding helps developers and researchers better utilize, build upon, and discuss OpenAI's software engineering agent technology. A key technical detail is that the Harness, defined as the collection of instructions and tools, is open source and available in the `openai/codex` GitHub repository. Furthermore, Chua revealed that Codex models are specifically trained in conjunction with the Harness, meaning capabilities like tool use and iterative verification are learned behaviors, not post-hoc additions.",
+  "score": 6,
+  "tags": [
+    "openai",
+    "codex",
+    "ai-agents",
+    "software-engineering",
+    "developer-tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "OpenAI's Codex is a system designed to act as a software engineering agent, capable of assisting with or automating coding tasks. The term 'agent' in AI typically refers to a system that perceives its environment and takes actions to achieve goals, often using a large language model (LLM) as its core reasoning engine. Prior to this clarification, 'Codex' was used ambiguously to refer to the underlying model, the agent system, or specific products like the Codex CLI, causing confusion.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

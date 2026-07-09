@@ -1,0 +1,31 @@
+{
+  "id": "0845f4b052c4e2fab2cf4adbb20547db97217456",
+  "canonicalId": "c722d57661a0dfc8a77df150ef12b73d66331e71",
+  "slug": "openai-工程师澄清-codex-架构模型工具套件交互界面",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-23T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 工程师澄清 Codex 架构：模型+工具套件+交互界面",
+  "summary": "OpenAI 的开发者体验工程师 Gabriel Chua 发表文章，解释了 Codex 的三部分架构：模型（Model）、工具套件（Harness）和交互界面（Surfaces）。他澄清了“Codex”这一术语指的是 OpenAI 的软件工程智能体，其中模型和工具套件共同构成智能体，而交互界面是用户与之交互的接口。 这一澄清非常重要，因为它解决了开发者社区中普遍存在的关于“Codex”实际含义的困惑，区分了核心智能体系统与其各种面向用户的应用。清晰的架构理解有助于开发者和研究人员更好地利用、构建和讨论 OpenAI 的软件工程智能体技术。 一个关键的技术细节是，被定义为指令和工具集合的“工具套件”（Harness）是开源的，可在`openai/codex`的 GitHub 仓库中找到。此外，Chua 透露，Codex 模型是专门与工具套件协同训练的，这意味着工具使用、迭代验证等能力是模型学习到的行为，而非事后附加的功能。",
+  "score": 6,
+  "tags": [
+    "openai",
+    "codex",
+    "ai-agents",
+    "software-engineering",
+    "developer-tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Feb 22, 15:53"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "OpenAI 的 Codex 是一个旨在充当软件工程智能体的系统，能够协助或自动化编码任务。在 AI 领域，“智能体”通常指感知环境并采取行动以实现目标的系统，其核心推理引擎通常是大型语言模型（LLM）。在此澄清之前，“Codex”一词被模糊地用于指代底层模型、智能体系统或像 Codex CLI 这样的具体产品，造成了混淆。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

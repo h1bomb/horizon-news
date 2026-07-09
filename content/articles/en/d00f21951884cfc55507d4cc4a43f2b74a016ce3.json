@@ -1,0 +1,30 @@
+{
+  "id": "d00f21951884cfc55507d4cc4a43f2b74a016ce3",
+  "canonicalId": "8fe87d8cf6c4dd7cf2e2c87b71f63cfb9cb76707",
+  "slug": "simon-willison-launches-agentic-engineering-patterns-project-to-document-best-practices-for-ai-coding-agents",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-23T17:43:00Z",
+  "lang": "en",
+  "title": "Simon Willison launches Agentic Engineering Patterns project to document best practices for AI coding agents",
+  "summary": "Simon Willison has launched a new project called 'Agentic Engineering Patterns' to systematically document coding practices and patterns for developing software with autonomous coding agents like Claude Code and OpenAI Codex. He published the first two chapters on February 23, 2026, discussing how cheap code generation changes development workflows and how test-driven development improves agent output. This represents an early attempt to formalize patterns for the emerging field of agentic engineering, which could become foundational as AI coding agents mature and see wider adoption. By distinguishing between unstructured 'vibe coding' and disciplined agentic engineering, Willison provides a valuable conceptual framework that helps professional developers leverage these tools effectively while maintaining engineering rigor. The project is structured as a series of 'chapters' or 'guides' that Willison plans to update over time, inspired by the classic 'Design Patterns' book format. Willison explicitly states that all written content will be human-authored, though he uses LLMs for proofreading and generating example code, and he aims to publish 1-2 new chapters per week.",
+  "score": 7,
+  "tags": [
+    "AI Programming",
+    "Software Engineering",
+    "LLM Agents",
+    "Development Patterns"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Agentic Engineering refers to a disciplined approach to AI-assisted software development where autonomous coding agents can both generate and execute code, allowing them to test and iterate independently. Tools like Claude Code and OpenAI Codex represent this new generation of AI assistants that go beyond simple code completion. This contrasts with 'vibe coding,' a term describing unstructured coding where users pay minimal attention to the code itself, often associated with non-programmers using LLMs.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

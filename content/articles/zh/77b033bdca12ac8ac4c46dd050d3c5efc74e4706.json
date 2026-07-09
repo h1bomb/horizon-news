@@ -1,0 +1,30 @@
+{
+  "id": "77b033bdca12ac8ac4c46dd050d3c5efc74e4706",
+  "canonicalId": "a461f0770948605a9a9ed98f4c1b18bfe43d96b7",
+  "slug": "将红绿-tdd-应用于-ai-编码智能体可提升代码质量",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-23T00:00:00Z",
+  "lang": "zh",
+  "title": "将红/绿 TDD 应用于 AI 编码智能体可提升代码质量",
+  "summary": "Simon Willison 提出将“红/绿”测试优先的测试驱动开发（TDD）方法专门应用于 AI 编码智能体。这包括指示智能体先编写失败的测试（红阶段），然后实现代码使其通过（绿阶段），正如向 Claude 和 ChatGPT 等模型发出的提示所演示的那样。 这很重要，因为它直接解决了 AI 编码智能体的关键可靠性问题，例如生成无法运行或不必要的代码。通过强制执行测试优先的规范，它不仅产生可工作的代码，还能自动构建一个健壮的测试套件，防止项目扩展时出现回归问题，从而使智能体工程更加可靠。 一个关键步骤是初始验证测试失败（“红”阶段），以确保它们真正检验了新实现；跳过此步骤可能导致创建轻易通过的无效测试。作者指出，虽然示例使用了 Claude 和 ChatGPT 等通用模型，但“使用红/绿 TDD”这个提示能被优秀的模型理解，作为完整测试优先 TDD 过程的简写。",
+  "score": 7,
+  "tags": [
+    "AI Coding Agents",
+    "Test-Driven Development",
+    "Agentic Engineering",
+    "Software Engineering Practices"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Feb 23, 07:12"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "测试驱动开发（TDD）是一种软件开发实践，开发人员在编写功能实现代码之前，先为其编写自动化测试。最严格的形式是测试优先开发。“红/绿”指的是 TDD 工具中的常见做法，失败的测试显示为红色，通过的测试显示为绿色。AI 编码智能体，如 Claude Code 或 OpenAI Codex，是旨在协助或自动化编程任务的 AI 系统。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

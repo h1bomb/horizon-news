@@ -1,0 +1,31 @@
+{
+  "id": "ffad828498f004213916a6ce4580d19eeedf7797",
+  "canonicalId": "b406261d924f840231a37eb5ba73b07700016977",
+  "slug": "qwen-team-confirms-serious-data-quality-flaws-in-gpqa-and-hle-ai-benchmarks",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-22T14:34:00Z",
+  "lang": "en",
+  "title": "Qwen Team Confirms Serious Data Quality Flaws in GPQA and HLE AI Benchmarks",
+  "summary": "The Qwen research team has published a paper confirming that the GPQA (Graduate-Level Google-Proof Q&A) and HLE (Humanity's Last Exam) benchmark datasets contain serious data quality issues. This finding validates earlier independent investigations, including one from the DeepSeek-Overclock project, which found models producing technically correct answers that contradicted the flawed 'gold standard' labels. These benchmarks are widely used to evaluate and rank the performance of large language models (LLMs), meaning flawed data can distort our understanding of model capabilities and mislead research directions. The revelation calls into question the reliability of leaderboards and progress claims based on these tests, highlighting a systemic issue in AI evaluation methodology. The issues include incorrect 'gold standard' answers, with one review estimating only about 51.3% of HLE answers are research-supported, and the use of Optical Character Recognition (OCR) on LaTeX-heavy content, which introduced noise and errors. The problems were identified through line-by-line verification of mathematical derivations from first principles.",
+  "score": 8,
+  "tags": [
+    "AI Evaluation",
+    "Benchmarking",
+    "Data Quality",
+    "Machine Learning",
+    "Research Methodology"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "w1nter5n0w"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rbnczy/the_qwen_team_verified_that_there_are_serious/",
+  "originalSite": "reddit.com",
+  "context": "GPQA and HLE are challenging benchmark datasets designed to test the advanced reasoning and knowledge capabilities of large language models (LLMs). GPQA focuses on graduate-level, 'Google-proof' questions, while HLE is a broad exam covering mathematics, humanities, and sciences. Benchmarks like these are crucial for measuring AI progress, but their quality depends entirely on the accuracy of their questions and answer keys.",
+  "discussion": "The community largely agrees with the findings, noting that HLE was already known to have a high error rate (~40% dubious answers) and that similar issues plague other benchmarks like MMLU. Key concerns raised include the questionable practice of using OCR for LaTeX content, the possibility that model 'progress' may just be learning to interpret corrupted data, and a broader sentiment that serious data quality issues are common in many non-trivial benchmarks.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

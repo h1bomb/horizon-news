@@ -1,0 +1,31 @@
+{
+  "id": "be3443130dc4fe38feae3d8d1689e102d66d411f",
+  "canonicalId": "09df3a186b8e9668493b6def5cb416bbc3d4aafb",
+  "slug": "sglang-v059-发布带来大语言模型推理的重大性能优化",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.9 发布，带来大语言模型推理的重大性能优化",
+  "summary": "SGLang v0.5.9 引入了多项关键性能优化，包括将 LoRA 权重加载与计算重叠以减少首字延迟约 78%，集成 TRT-LLM 原生稀疏注意力内核使 DeepSeek V3.2 性能提升 3-5 倍，并为多模态编码器添加了 FP4 注意力后端。它还新增了对 Anthropic API 的原生兼容性，以及一个用于专家混合模型的高效 Flashinfer all-to-all 调度器。 这些优化显著降低了在生产环境中部署大语言模型的成本和延迟，使得高效的 LoRA 切换、高性能稀疏注意力以及低精度多模态推理等先进功能更易实现。这些改进对于扩展实时 AI 应用、跟上最新且日益复杂的模型架构（如专家混合模型和长上下文模型）至关重要。 LoRA 权重加载重叠技术为首字延迟带来了约 78% 的降低，并为大型适配器带来了约 34.88% 的每输出令牌时间降低。针对 DeepSeek V3.2 的 TRT-LLM NSA 内核集成在 NVIDIA Blackwell 平台上实现了 3-5 倍的加速，但可能伴随轻微的精度损失。此版本还新增了对 Kimi-K2.5、GLM-5 和 Qwen 3.5 等众多新模型的支持。",
+  "score": 8,
+  "tags": [
+    "llm-inference",
+    "performance-optimization",
+    "tensorrt-llm",
+    "model-serving",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Feb 24, 01:14"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.9",
+  "originalSite": "github.com",
+  "context": "SGLang 是一个专为高效部署和执行大语言模型而设计的框架。LoRA 是一种参数高效的微调方法，它向基础模型添加小型、可训练的适配器权重，从而无需完全重新训练即可实现模型定制。原生稀疏注意力是一种注意力机制，通过仅计算相关令牌的子集来提高长序列的处理效率。专家混合模型使用路由机制，动态地将令牌发送到专门的子网络以高效地增加模型容量。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

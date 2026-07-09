@@ -1,0 +1,31 @@
+{
+  "id": "94a84b33cc68d67dc5ef18d43494208ac73823a6",
+  "canonicalId": "f17b7701013c524fba84ef91984b7006c0a85aeb",
+  "slug": "ladybird-浏览器引擎通过-ai-辅助翻译并严格验证输出正式采用-rust-语言",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "Ladybird 浏览器引擎通过 AI 辅助翻译并严格验证输出，正式采用 Rust 语言",
+  "summary": "Ladybird 浏览器引擎开发团队宣布，他们正在将引擎的代码库从 C++迁移到 Rust，并使用了 Claude Code 和 Codex 等 AI 辅助翻译工具。此次迁移的一个核心要求是，翻译后的 Rust 代码必须产生与原始 C++代码字节级完全相同的输出，这使得可以并行执行新旧代码并进行差异比较，从而立即发现翻译错误。 此次迁移意义重大，因为它代表了一个主要的浏览器引擎为了内存安全和并发优势而采用 Rust，这可能会影响其他系统软件项目。将 AI 辅助翻译与严格的字节级等效性要求相结合的新颖方法，为浏览器引擎这类复杂、对性能要求苛刻的软件进行大规模、低风险的编程语言迁移树立了新的先例。 翻译过程是人为引导的，涉及数百个小型提示来引导 AI 代理，随后使用不同模型进行多轮对抗性审查，以分析代码中的错误和不良模式。Ladybird 是一个真正独立的、非营利性的、从头构建（而非分叉）的浏览器引擎，目前处于预发布阶段，仅适用于开发和测试。",
+  "score": 8,
+  "tags": [
+    "rust",
+    "browser-engineering",
+    "code-migration",
+    "ai-programming",
+    "systems-programming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Feb 23, 11:29"
+    }
+  ],
+  "originalUrl": "https://ladybird.org/posts/adopting-rust/",
+  "originalSite": "ladybird.org",
+  "context": "Ladybird 是一个正在从头开发的新兴、独立的网络浏览器及其引擎（LibWeb），它与 SerenityOS 项目是分离的。Rust 是一种专注于性能、可靠性和内存安全的系统编程语言，无需垃圾回收，这使其对浏览器引擎等基础软件具有吸引力。字节级完全相同输出是一种验证技术，要求新系统的输出必须在二进制层面与旧系统的输出完全一致，这在迁移过程中可作为强有力的正确性保证。",
+  "discussion": "社区讨论高度认可字节级完全相同输出这一要求，认为这是避免在翻译过程中引入错误的明智策略。同时，讨论也涉及项目的领导力及其过去的语言转向（从 Jakt 到 Swift 再到 Rust），部分人视其为战略性的创业行为。此外，社区对该团队先前“反对 Rust”的立场以及这一转变将如何影响贡献者群体感到好奇并持有一定的怀疑态度。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

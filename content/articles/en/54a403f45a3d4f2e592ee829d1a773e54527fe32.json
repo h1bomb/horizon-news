@@ -1,0 +1,30 @@
+{
+  "id": "54a403f45a3d4f2e592ee829d1a773e54527fe32",
+  "canonicalId": "a461f0770948605a9a9ed98f4c1b18bfe43d96b7",
+  "slug": "applying-redgreen-tdd-to-ai-coding-agents-improves-code-quality",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-23T07:12:00Z",
+  "lang": "en",
+  "title": "Applying Red/Green TDD to AI Coding Agents Improves Code Quality",
+  "summary": "Simon Willison proposes applying the \"red/green\" test-first Test-Driven Development (TDD) methodology specifically to AI coding agents. This involves instructing the agent to write failing tests first (red phase), then implementing code to make them pass (green phase), as demonstrated in prompts to models like Claude and ChatGPT. This matters because it directly addresses key reliability issues with AI coding agents, such as generating non-functional or unnecessary code. By enforcing a test-first discipline, it not only produces working code but also automatically builds a robust test suite that guards against future regressions as projects scale, making agentic engineering more trustworthy. A crucial step is verifying the tests fail initially (the \"red\" phase) to ensure they actually exercise the new implementation; skipping this risks creating tests that pass trivially. The author notes that while the example uses general models like Claude and ChatGPT, the prompt \"Use red/green TDD\" is understood by good models as shorthand for the full test-first TDD process.",
+  "score": 7,
+  "tags": [
+    "AI Coding Agents",
+    "Test-Driven Development",
+    "Agentic Engineering",
+    "Software Engineering Practices"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Test-Driven Development (TDD) is a software development practice where developers write automated tests for a piece of functionality before writing the implementation code itself. The strictest form is test-first development. \"Red/green\" refers to the common practice in TDD tools where a failing test is indicated in red and a passing test in green. AI coding agents, like Claude Code or OpenAI Codex, are AI systems designed to assist with or automate programming tasks.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

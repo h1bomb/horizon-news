@@ -1,0 +1,31 @@
+{
+  "id": "870c732802c3804f9a0b052b7dbbc3fdd6767ec5",
+  "canonicalId": "b5e91118a760842081af36c64371541dee48cbb6",
+  "slug": "linux-70-ends-rusts-experimental-phase-establishing-it-as-a-permanent-kernel-component",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-23T01:25:00Z",
+  "lang": "en",
+  "title": "Linux 7.0 ends Rust's experimental phase, establishing it as a permanent kernel component.",
+  "summary": "Linux 7.0 has merged patches submitted by Miguel Ojeda, officially declaring the end of Rust's experimental phase and establishing it as a permanent component of the kernel. The patch also introduced the `__rust_helper` annotation to optimize kernel builds when Link Time Optimization (LTO) is enabled. This is a major industry validation of Rust for systems programming, signaling to companies to invest more resources in Rust-based kernel development. It marks a paradigm shift in operating system development and is expected to accelerate Rust adoption across the broader ecosystem, given its current use in some Linux distributions and hundreds of millions of Android devices. The `__rust_helper` annotation is specifically added to C helper functions to allow them to be inlined into Rust code, improving performance. This change is part of broader efforts to optimize the kernel build process with LTO, which can improve runtime performance but has historically been associated with increased build times and occasional subtle bugs.",
+  "score": 9,
+  "tags": [
+    "linux-kernel",
+    "rust",
+    "systems-programming",
+    "operating-systems",
+    "compiler-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/39806",
+  "originalSite": "t.me",
+  "context": "The Linux kernel has historically been written primarily in C and assembly. The 'Rust for Linux' project, started around 2020 by Miguel Ojeda, aims to add Rust as a supported language for writing kernel components, particularly drivers, to leverage Rust's memory safety guarantees and reduce certain classes of bugs. Link Time Optimization (LTO) is a compiler optimization technique that performs analysis and optimization across multiple compilation units during the linking stage, potentially improving performance but at the cost of increased build complexity.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

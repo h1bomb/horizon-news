@@ -1,0 +1,31 @@
+{
+  "id": "32786bd714749b62750eb34a337033883cd6b9e1",
+  "canonicalId": "a461f0770948605a9a9ed98f4c1b18bfe43d96b7",
+  "slug": "将红绿测试驱动开发应用于-ai-编码代理可提升代码质量",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "将红/绿测试驱动开发应用于 AI 编码代理可提升代码质量",
+  "summary": "Simon Willison 提出将\"红/绿\"测试优先的测试驱动开发方法应用于 Claude 和 ChatGPT 等 AI 编码代理。这种方法首先编写失败的测试（红阶段），然后实现代码使其通过（绿阶段），有助于防止编写错误或不必要的代码，同时确保强大的测试覆盖。 这很重要，因为它解决了 AI 编码代理的两个主要风险：生成无法运行的代码和构建不必要的功能。通过强制执行测试优先开发，开发者可以提高代理的可靠性，减少调试时间，并创建全面的测试套件，防止项目扩展时出现回归问题。 作者通过一个具体示例演示了这种方法：要求编码代理\"构建一个从 Markdown 字符串中提取标题的 Python 函数。使用红/绿测试驱动开发。\"他指出，对于 ChatGPT，需要附加\"使用你的代码环境\"来确保代理实际执行测试而不仅仅是编写测试。",
+  "score": 7,
+  "tags": [
+    "AI-assisted-development",
+    "test-driven-development",
+    "coding-agents",
+    "software-engineering",
+    "agentic-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Feb 23, 07:12"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "测试驱动开发是一种软件开发方法，在实际实现代码之前编写自动化测试。\"红/绿\"模式指的是两阶段过程：首先编写失败的测试（红），然后实现代码使其通过（绿）。AI 编码代理是设计用于通过基于自然语言提示生成、分析或修改代码来协助编程任务的 AI 系统。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

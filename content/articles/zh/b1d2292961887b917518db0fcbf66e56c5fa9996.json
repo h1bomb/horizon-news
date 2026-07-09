@@ -1,0 +1,31 @@
+{
+  "id": "b1d2292961887b917518db0fcbf66e56c5fa9996",
+  "canonicalId": "3cbe7f3062acd2228e7dc810b925efe63ce0adc6",
+  "slug": "英特尔组建统一核心团队研发新架构或于-2028-年起取代混合核心设计",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "英特尔组建'统一核心'团队研发新架构，或于 2028 年起取代混合核心设计。",
+  "summary": "英特尔近期在领英发布的招聘信息显示，该公司正在组建名为'统一核心'的设计团队，负责开发下一代 CPU 的全新微架构。此举表明英特尔计划改变其当前的性能核与能效核混合设计，新架构可能在 2028 年左右的 Titan Lake 架构中首次亮相。 这对英特尔而言是一次重大的战略转向，意味着它将放弃自第 12 代酷睿（Alder Lake）以来引领的混合架构行业趋势。如果成功，统一核心设计可以简化软件优化，可能为更多性能核心腾出芯片面积，并重塑其与 AMD、苹果等竞争对手的竞争格局。 该项目目前处于早期开发阶段，重点在于优化处理器的性能功耗面积比。在统一架构准备就绪之前，英特尔将继续迭代现有的混合核心设计。新架构下的产品定位区分，可能通过调整缓存容量而非核心类型来实现。",
+  "score": 7,
+  "tags": [
+    "cpu-architecture",
+    "intel",
+    "microarchitecture",
+    "hardware-design",
+    "semiconductors"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 24, 00:35"
+    }
+  ],
+  "originalUrl": "https://wccftech.com/intels-unified-core-ambitions-with-next-gen-cpus-remain-intact/",
+  "originalSite": "wccftech.com",
+  "context": "自第 12 代酷睿（Alder Lake）处理器起，英特尔采用了混合架构，在同一芯片上集成高性能的'性能核'（P-core）和高能效的'能效核'（E-core），类似于 ARM 的 big.LITTLE 设计。这种方法旨在平衡高负载任务所需的峰值性能与后台工作负载的能效。而'统一核心'架构将回归到在整个处理器中使用单一、同质化的核心设计。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

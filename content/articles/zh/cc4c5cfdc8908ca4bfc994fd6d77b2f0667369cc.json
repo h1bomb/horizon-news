@@ -1,0 +1,31 @@
+{
+  "id": "cc4c5cfdc8908ca4bfc994fd6d77b2f0667369cc",
+  "canonicalId": "74d4c050ea57af98751e088672023df2b9d801dd",
+  "slug": "anthropic-指控中国-ai-公司进行工业级模型蒸馏攻击",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 指控中国 AI 公司进行工业级模型蒸馏攻击。",
+  "summary": "Anthropic 公开指控三家中国领先的 AI 开发商——深度求索（DeepSeek）、月之暗面（Moonshot AI，Kimi 的创造者）和 MiniMax——对其 Claude 模型进行了“工业级蒸馏攻击”。该公司指控这些公司使用超过 24,000 个虚假账户，与 Claude 进行了超过 1600 万次交互，系统地提取其能力以改进它们自己的竞争模型。 这一指控凸显了 AI 行业在大型语言模型知识产权保护方面一个关键且不断升级的冲突，其中合法 API 使用与非法模型提取之间的界限存在激烈争议。它引发了关于模型训练伦理、前沿 AI 商业模式可持续性的根本性问题，并可能引发更严格的 API 控制，甚至围绕 AI 开发的地缘政治紧张局势。 Anthropic 将“蒸馏攻击”定义为具有大规模、集中的查询量、高度重复的结构以及针对 AI 模型最有价值训练数据的内容等模式。该公司表示正在积极投资防御措施，以使此类攻击更难执行、更易检测，但强调需要行业更广泛或协作性的回应来解决此问题。",
+  "score": 8,
+  "tags": [
+    "AI Ethics",
+    "Model Distillation",
+    "AI Industry",
+    "Copyright",
+    "LLM Training"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Feb 23, 18:32"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/94fbimavfalg1.png",
+  "originalSite": "i.redd.it",
+  "context": "模型蒸馏或模型提取是一种技术，通过查询“教师”模型的 API，训练一个较弱的“学生”模型来模仿更强大的“教师”模型的输出。虽然知识蒸馏是模型压缩领域一个合法的研究方向，但当未经许可大规模用于复制专有模型时，就会引发争议，可能构成知识产权盗窃。Anthropic 和谷歌等公司最近报告称，从其服务中进行大规模模型提取的尝试有所增加。",
+  "discussion": "社区讨论主要集中在对 Anthropic 的批评上，许多评论者指出了其 perceived hypocrisy，因为大型 AI 公司自身也使用从网络抓取的大量受版权保护的数据训练模型。关键观点包括：对“蒸馏攻击”一词的怀疑，认为中国公司只是使用 API 的付费客户，以及认为这代表了“诗意的正义”或竞争。在所见的评论中，几乎没有人同情 Anthropic 的立场。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

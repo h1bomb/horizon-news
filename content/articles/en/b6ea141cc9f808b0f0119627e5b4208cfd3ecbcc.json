@@ -1,0 +1,31 @@
+{
+  "id": "b6ea141cc9f808b0f0119627e5b4208cfd3ecbcc",
+  "canonicalId": "09df3a186b8e9668493b6def5cb416bbc3d4aafb",
+  "slug": "sglang-v059-released-with-major-performance-optimizations-for-llm-inference",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T01:14:00Z",
+  "lang": "en",
+  "title": "SGLang v0.5.9 Released with Major Performance Optimizations for LLM Inference",
+  "summary": "SGLang v0.5.9 introduces several key performance optimizations, including overlapping LoRA weight loading with computation to reduce Time To First Token (TTFT) by ~78%, integrating TRT-LLM Native Sparse Attention (NSA) kernels for a 3-5x speedup on DeepSeek V3.2, and adding an FP4 attention backend for multimodal encoders. It also adds native Anthropic API compatibility and a Flashinfer all-to-all dispatcher for Mixture-of-Experts (MoE) models. These optimizations significantly lower the cost and latency of serving large language models in production, making advanced features like efficient LoRA switching, high-performance sparse attention, and low-precision multimodal inference more accessible. The improvements are crucial for scaling real-time AI applications and keeping pace with the latest, increasingly complex model architectures like MoE and long-context models. The LoRA weight loading overlap achieves a ~78% reduction in TTFT and a ~34.88% reduction in Time Per Output Token (TPOT) for large adapters. The TRT-LLM NSA kernel integration for DeepSeek V3.2 delivers a 3-5x speedup on NVIDIA Blackwell platforms, though it may come with a minor accuracy trade-off. The release also includes support for numerous new models like Kimi-K2.5, GLM-5, and Qwen 3.5.",
+  "score": 8,
+  "tags": [
+    "llm-inference",
+    "performance-optimization",
+    "tensorrt-llm",
+    "model-serving",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Kangyan-Zhou"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.9",
+  "originalSite": "github.com",
+  "context": "SGLang is a framework designed for efficient serving and execution of large language models. LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning method that adds small, trainable adapter weights to a base model, allowing for customization without full retraining. Native Sparse Attention (NSA) is an attention mechanism that improves efficiency for long sequences by only computing on a subset of relevant tokens. Mixture-of-Experts (MoE) models use a routing mechanism to dynamically send tokens to specialized sub-networks (experts) to increase model capacity efficiently.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

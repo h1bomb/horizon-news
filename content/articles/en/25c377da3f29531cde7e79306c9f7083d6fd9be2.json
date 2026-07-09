@@ -1,0 +1,31 @@
+{
+  "id": "25c377da3f29531cde7e79306c9f7083d6fd9be2",
+  "canonicalId": "dd3ee86359d2ca53d90a5dd770c41b94e04e11f1",
+  "slug": "developer-creates-godot-platformer-using-local-claude-code-ai-sharing-vibecoding-experience",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-23T01:13:00Z",
+  "lang": "en",
+  "title": "Developer creates Godot platformer using local Claude Code AI, sharing 'vibecoding' experience",
+  "summary": "A developer spent two weeks experimenting with local LLMs for game development, ultimately using Claude Code to create a Godot platformer featuring a grumpy mage NPC that mocks the player. The developer compared multiple AI coding assistants (Cline, Codex, Claude Code) and found Claude Code exceeded expectations for this specific use case. This demonstrates the practical application of local AI coding assistants for indie game development, particularly with accessible engines like Godot. It shows how developers can leverage AI to accelerate prototyping and implement creative game mechanics that would otherwise require significant manual coding effort. The developer initially tried gpt-oss-120b and other models but encountered technical issues like GPU overheating and CPU switching. The game's AI behavior is currently hard-coded but plans to implement a hybrid approach using LLM tool calls for more dynamic responses. The setup involved using Claude Code with VSCode and Godot's IDE/extension.",
+  "score": 6,
+  "tags": [
+    "AI-Assisted Development",
+    "Game Development",
+    "Local LLMs",
+    "Godot Engine",
+    "Claude Code"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "swagonflyyyy"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/jl31wp5085lg1",
+  "originalSite": "v.redd.it",
+  "context": "Godot is a free, open-source game engine popular for 2D and 3D game development, particularly among indie developers. 'Vibecoding' refers to an informal, flow-state approach to coding often assisted by AI tools. Claude Code is an AI coding assistant that can understand codebases and generate code suggestions, while gpt-oss-120b is a large language model variant designed for open-source applications.",
+  "discussion": "The discussion focused on technical implementation details, with questions about model selection (Claude Code vs. opencode), setup process (connecting to Godot editor), hardware specifications, and cooling solutions. Several users shared their own experiences with AI-assisted Godot development, noting issues with outdated API references in generated code. The game's humorous concept received positive feedback, with suggestions for UI improvements like chat bubbles.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

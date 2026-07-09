@@ -1,0 +1,31 @@
+{
+  "id": "5b41111b0eda3f17253f58854281df8712647da7",
+  "canonicalId": "ce7af5e210d472e6c2070845f16114e10c9a320e",
+  "slug": "engineer-uses-ai-coding-agent-to-build-freebsd-wi-fi-driver-for-unsupported-macbook",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-23T21:44:00Z",
+  "lang": "en",
+  "title": "Engineer uses AI coding agent to build FreeBSD Wi-Fi driver for unsupported MacBook",
+  "summary": "An engineer successfully used an AI coding agent to create a working FreeBSD Wi-Fi driver (brcmfmac) for an old, unsupported MacBook. The process involved the AI agent analyzing existing code, generating specifications, and writing the necessary driver code. This demonstrates a practical, novel application of LLMs and AI agents in low-level systems programming, specifically for hardware driver development. It suggests AI could significantly lower the barrier to hardware support for niche or legacy systems, potentially solving long-standing compatibility issues. The engineer used a planning technique, having the AI first generate a detailed specification (in Markdown) of how the brcmfmac driver works before writing code. This approach highlights the importance of structured planning for complex LLM tasks in systems programming.",
+  "score": 8,
+  "tags": [
+    "AI-assisted-programming",
+    "systems-programming",
+    "FreeBSD",
+    "hardware-drivers",
+    "LLM-applications"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "varankinv"
+    }
+  ],
+  "originalUrl": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
+  "originalSite": "vladimir.varank.in",
+  "context": "FreeBSD is an open-source Unix-like operating system. Hardware drivers, like Wi-Fi drivers, are software components that allow the OS to communicate with specific hardware. Developing drivers for unsupported hardware is traditionally a complex, low-level programming task requiring deep knowledge of both the hardware and the OS kernel. AI coding agents are tools that use large language models (LLMs) to assist with or automate coding tasks.",
+  "discussion": "The discussion highlights excitement about AI's potential to automate complex systems tasks, with users sharing similar success stories like patching QEMU for older macOS. A key viewpoint is that AI could soon make ubiquitous hardware support a \"solved problem,\" as agents can brute-force driver development. Some find the alternative workarounds (like using a VM to manage Wi-Fi) cumbersome compared to native driver support.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

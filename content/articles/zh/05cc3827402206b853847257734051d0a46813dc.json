@@ -1,0 +1,31 @@
+{
+  "id": "05cc3827402206b853847257734051d0a46813dc",
+  "canonicalId": "6c5e4f4debc50329efc0325980e59c2146fd52a7",
+  "slug": "anthropic-披露多家中国-ai-实验室对-claude-发起大规模蒸馏攻击",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 披露多家中国 AI 实验室对 Claude 发起大规模蒸馏攻击",
+  "summary": "Anthropic 近日发布报告，详细披露中国 AI 实验室 DeepSeek、月之暗面（Moonshot AI）及 MiniMax 对其 Claude 模型发起了系统性的蒸馏攻击。这些实验室创建了超过 24,000 个虚假账号，并与 Claude 进行了超过 1,600 万次对话交互，旨在提取其能力以训练和提升他们自己的模型。 这一事件凸显了商业 AI 领域知识产权与安全面临的新兴重大威胁，即专有模型成为能力提取的目标。它揭示了 AI 竞争中的地缘政治维度，并对数字领域出口管制和安全法规的可执行性提出了紧迫问题。 Anthropic 通过识别大规模、集中的交互量、高度重复的查询结构以及专注于提取高价值训练数据的内容等模式，发现了这些攻击。该公司正在通过投资行为指纹识别等防御技术来应对，以使此类攻击更难执行、更易被发现。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Model Distillation",
+    "AI Ethics",
+    "Geopolitics",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 24, 01:48"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+  "originalSite": "anthropic.com",
+  "context": "模型蒸馏或提取是一种攻击技术，攻击者与目标 AI 模型（如 Claude）进行大量交互，以生成其输入和输出的数据集。该数据集随后被用于训练一个新的（通常更小的）模型，以模仿原始模型的能力，从而可能规避昂贵、专有的训练需求。此类攻击被视为 AI 领域的一种知识产权盗窃形式。行为指纹识别是一种安全技术，通过分析用户或系统行为的独特模式（如交互序列或时序）来识别和阻止恶意活动。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

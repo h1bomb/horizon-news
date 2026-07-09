@@ -1,0 +1,31 @@
+{
+  "id": "0c2cd7348c1ecfe4f9bdc6d138e68d2c38b410e6",
+  "canonicalId": "a461f0770948605a9a9ed98f4c1b18bfe43d96b7",
+  "slug": "applying-redgreen-tdd-to-ai-coding-agents-improves-code-quality-0c2cd734",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-23T07:12:00Z",
+  "lang": "en",
+  "title": "Applying Red/Green TDD to AI Coding Agents Improves Code Quality",
+  "summary": "Simon Willison proposes applying the \"red/green\" test-first Test Driven Development methodology to AI coding agents like Claude and ChatGPT. This approach involves writing failing tests first (red phase), then implementing code to make them pass (green phase), which helps prevent incorrect or unnecessary code while ensuring robust test coverage. This matters because it addresses two major risks with AI coding agents: producing non-functional code and building unnecessary features. By enforcing test-first development, developers can improve agent reliability, reduce debugging time, and create comprehensive test suites that protect against future regressions as projects scale. The author demonstrates this approach with a concrete example: asking coding agents to \"Build a Python function to extract headers from a markdown string. Use red/green TDD.\" He notes that with ChatGPT, he needed to append \"Use your code environment\" to ensure the agent actually executed the tests rather than just writing them.",
+  "score": 7,
+  "tags": [
+    "AI-assisted-development",
+    "test-driven-development",
+    "coding-agents",
+    "software-engineering",
+    "agentic-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Test Driven Development is a software development methodology where automated tests are written before the actual implementation code. The \"red/green\" pattern refers to the two-phase process: first writing tests that fail (red), then implementing code to make them pass (green). AI coding agents are AI systems designed to assist with programming tasks by generating, analyzing, or modifying code based on natural language prompts.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

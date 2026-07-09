@@ -1,0 +1,31 @@
+{
+  "id": "2a5566fafe0c74a9902e822ac14f7be26889bca2",
+  "canonicalId": "e967cf42b630bf5496fcc4a9a531d348028182b1",
+  "slug": "netease-mumu-pro-android-emulator-allegedly-executes-17-system-reconnaissance-commands-silently-every-30-minutes",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-22T11:31:00Z",
+  "lang": "en",
+  "title": "NetEase MuMu Pro Android emulator allegedly executes 17 system reconnaissance commands silently every 30 minutes.",
+  "summary": "NetEase's MuMu Player Pro, an Android emulator for macOS, has been alleged to silently execute 17 system reconnaissance commands every 30 minutes, collecting data such as hardware serial numbers, UUIDs, and network information via the SensorsData analytics tool. The privacy policy mentions collecting device identifiers and process information for security and anti-cheat purposes, but the specific scope, frequency, and depth of this data collection were not fully disclosed. This matters because it raises serious privacy and transparency concerns for users of a widely-used emulator from a major tech company, NetEase. If proven true, the systematic, undisclosed collection of detailed system and network data could constitute excessive surveillance beyond functional necessity, potentially exposing users to profiling or security risks without their informed consent. The alleged commands include scanning the local network for devices, capturing running processes with full command-line arguments, reading the hosts file, and querying kernel parameters. While the privacy policy cites security and anti-cheat as reasons for data collection, the investigation suggests the actual practices may involve more extensive and frequent reconnaissance than explicitly stated.",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "security",
+    "android-emulators",
+    "data-collection",
+    "telemetry"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea",
+  "originalSite": "gist.github.com",
+  "context": "Android emulators like MuMu Pro allow users to run Android applications on non-Android operating systems such as macOS or Windows. Telemetry, the automated collection and transmission of data from software or hardware, is common for analytics and debugging but should be transparently disclosed. SensorsData is a known analytics SDK used for collecting user and system data. Hardware identifiers like UUIDs can be used for persistent device tracking across applications.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

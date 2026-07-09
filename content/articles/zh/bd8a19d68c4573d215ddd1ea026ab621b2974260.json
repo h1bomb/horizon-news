@@ -1,0 +1,31 @@
+{
+  "id": "bd8a19d68c4573d215ddd1ea026ab621b2974260",
+  "canonicalId": "b5e91118a760842081af36c64371541dee48cbb6",
+  "slug": "linux-70-正式结束-rust-实验阶段确立其作为内核长期组成部分的地位",
+  "date": "2026-02-23",
+  "publishedAt": "2026-02-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 7.0 正式结束 Rust 实验阶段，确立其作为内核长期组成部分的地位。",
+  "summary": "Linux 7.0 合并了由 Miguel Ojeda 提交的补丁，正式宣布 Rust 实验阶段结束，确立其作为内核长期组成部分的地位。该补丁还引入了 `__rust_helper` 注解，旨在优化内核在开启链接时优化（LTO）时的构建表现。 这是 Rust 在系统编程领域获得的一次重大行业认可，旨在向业界释放明确信号，鼓励企业加大对 Rust 内核开发的资源投入。这标志着操作系统开发模式的转变，鉴于 Rust 已在部分 Linux 发行版及数亿台 Android 设备中投入使用，此举有望在整个生态系统中加速 Rust 的采用。 `__rust_helper` 注解被专门添加到 C 辅助函数中，以便这些函数能够内联到 Rust 代码中，从而提升性能。这一变更是更广泛的、利用 LTO 优化内核构建过程工作的一部分；LTO 能提升运行时性能，但历史上也伴随着构建时间增加和偶尔引入难以察觉的 Bug 等问题。",
+  "score": 9,
+  "tags": [
+    "linux-kernel",
+    "rust",
+    "systems-programming",
+    "operating-systems",
+    "compiler-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 23, 01:25"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/39806",
+  "originalSite": "t.me",
+  "context": "Linux 内核历来主要使用 C 语言和汇编语言编写。由 Miguel Ojeda 于 2020 年左右发起的 'Rust for Linux' 项目，旨在将 Rust 添加为编写内核组件（尤其是驱动程序）的受支持语言，以利用 Rust 的内存安全特性来减少特定类别的错误。链接时优化（LTO）是一种编译器优化技术，它在链接阶段对多个编译单元进行分析和优化，有可能提升性能，但代价是增加了构建的复杂性。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

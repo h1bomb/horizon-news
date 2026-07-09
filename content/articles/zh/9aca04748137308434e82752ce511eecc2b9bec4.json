@@ -1,0 +1,31 @@
+{
+  "id": "9aca04748137308434e82752ce511eecc2b9bec4",
+  "canonicalId": "9d380a7ea78080a81fd0fdc791c71a113385d13f",
+  "slug": "deepmind-旗下-isomorphic-发布-isodde-模型药物发现性能比肩-alphafold-4-但拒绝开源",
+  "date": "2026-02-24",
+  "publishedAt": "2026-02-24T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepMind 旗下 Isomorphic 发布 IsoDDE 模型，药物发现性能比肩 AlphaFold 4 但拒绝开源。",
+  "summary": "DeepMind 旗下的 Isomorphic Labs 发布了名为 IsoDDE 的新一代药物研发 AI 模型。该模型在预测蛋白质与药物分子结合亲和力及抗体结构方面的表现被认为达到了 AlphaFold 4 的水平，但与此前开源的 AlphaFold 系列不同，Isomorphic Labs 选择将其作为专有技术，并未公开具体实现细节。 这标志着 AI 驱动药物发现领域的一项重大进展，通过精准预测分子与生物靶点的相互作用，有望加速新候选药物的发现。然而，将其作为专有技术的决定，标志着与 AlphaFold 的开源科学方法发生了显著转变，可能会限制学术界对这一强大工具的广泛访问，从而引发关于商业创新与科学合作之间平衡的讨论。 据报道，该模型在处理与训练数据差异巨大的分子时仍能保持精度，显示出较强的泛化能力。目前其技术信息仅限于一份 27 页的技术报告，其内部架构和完整实现细节并未向公众公开。",
+  "score": 9,
+  "tags": [
+    "AI-drug-discovery",
+    "protein-prediction",
+    "DeepMind",
+    "proprietary-AI",
+    "structural-biology"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 23, 14:00"
+    }
+  ],
+  "originalUrl": "https://www.nature.com/articles/d41586-026-00365-7",
+  "originalSite": "nature.com",
+  "context": "AlphaFold 是由 DeepMind 开发的一款革命性 AI 系统，能够根据氨基酸序列精确预测蛋白质的三维结构，这一突破性成果获得了诺贝尔奖，并被开源以加速科学研究。预测小分子药物（配体）如何与蛋白质靶点结合及其结合亲和力，是计算药物发现中一个关键但不同的挑战，通常需要与单纯的蛋白质结构预测不同的方法。Isomorphic Labs 是从 DeepMind 分拆出来的一家独立公司，专门致力于将 AI 应用于药物发现。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
