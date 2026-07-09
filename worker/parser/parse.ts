@@ -33,10 +33,10 @@ export interface ParsedBriefing {
 
 const ITEM_ANCHOR_RE = /^<a id="item-(\d+)"><\/a>\s*$/;
 const HEADING_RE = /^##\s+\[(.+?)\]\((https?:\/\/[^)]+)\)\s+⭐️\s+([\d.]+)\/10\s*$/m;
-const BG_RE_EN = /^\*\*Background\*\*:\s*([\s\S]*)$/m;
-const BG_RE_ZH = /^\*\*背景\*\*:\s*([\s\S]*)$/m;
-const DISC_RE_EN = /^\*\*Discussion\*\*:\s*([\s\S]*)$/m;
-const DISC_RE_ZH = /^\*\*社区讨论\*\*:\s*([\s\S]*)$/m;
+const BG_RE_EN = /\*\*Background\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
+const BG_RE_ZH = /\*\*背景\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
+const DISC_RE_EN = /\*\*Discussion\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
+const DISC_RE_ZH = /\*\*社区讨论\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
 const TAGS_RE_EN = /^\*\*Tags\*\*:\s*(.*)$/m;
 const TAGS_RE_ZH = /^\*\*标签\*\*:\s*(.*)$/m;
 const DETAILS_RE = /<details>[\s\S]*?<\/details>/i;
