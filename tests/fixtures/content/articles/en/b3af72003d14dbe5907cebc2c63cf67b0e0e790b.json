@@ -1,0 +1,36 @@
+{
+  "id": "b3af72003d14dbe5907cebc2c63cf67b0e0e790b",
+  "canonicalId": "e042a47a4b09dd9fbd682400a03a9382d7c5c4a8",
+  "slug": "critical-android-remote-root-exploit-chain-disclosed",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:01:00Z",
+  "lang": "en",
+  "title": "Critical Android remote root exploit chain disclosed",
+  "summary": "Nebula Security disclosed a remote root exploit chain targeting all Android versions, combining a Firefox browser vulnerability and a 15-year-old Linux kernel flaw.",
+  "score": 9,
+  "tags": [
+    "Android",
+    "security",
+    "vulnerability",
+    "root",
+    "exploit"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.coolapk.com/feed/72700258",
+  "originalSite": "coolapk.com",
+  "context": "Android Debug Bridge (adb) is a command-line tool for debugging and managing Android devices.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Android Debug Bridge - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Android_Debug_Bridge"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
