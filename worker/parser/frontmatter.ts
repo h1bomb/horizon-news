@@ -23,6 +23,6 @@ export function stripFrontmatter(
       : rawDate instanceof Date && !Number.isNaN(rawDate.getTime())
         ? rawDate.toISOString().slice(0, 10)
         : fallbackDate;
-  const body = parsed.matter.length > 0 ? parsed.content.trim() : md;
+  const body = parsed.content !== md ? parsed.content.trim() : md;
   return { body, lang, date };
 }
