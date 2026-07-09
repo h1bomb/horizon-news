@@ -2,11 +2,21 @@ import { notFound } from "next/navigation";
 import { ArticleBody } from "@/components/ArticleBody";
 import { TagList } from "@/components/TagList";
 import { loadIndex, loadArticle } from "@/lib/content";
+import { buildArticleMetadata, newsArticleJsonLd } from "@/lib/seo";
 import type { Lang } from "@/shared/schema";
 
 export function generateStaticParams() {
   const index = loadIndex();
   return index.articles.map((a) => ({ lang: a.lang, slug: a.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }) {
+  const { lang, slug } = await params;
+  const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;
+  const index = loadIndex();
+  const entry = index.articles.find((a) => a.lang === langOk && a.slug === slug);
+  if (!entry) return {};
+  return buildArticleMetadata(loadArticle(langOk, entry.id));
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ lang: string; slug: string }> }) {
@@ -26,6 +36,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ lang: 
         <TagList tags={article.tags} lang={langOk} />
       </header>
       <ArticleBody article={article} lang={langOk} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(newsArticleJsonLd(article)) }} />
     </div>
   );
 }
