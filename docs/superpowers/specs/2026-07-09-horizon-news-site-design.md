@@ -167,7 +167,7 @@ Fetching full text introduces republication risk. Mitigations: prominent "阅读
 
 ## 10. Tech Stack
 
-- **Next.js 15** (App Router, `output: 'export'`, Turbopack) — latest.
+- **Next.js 16** (App Router, `output: 'export'`, Turbopack) — latest (16.2.10 at time of writing). Scaffold with `pnpm create next-app@latest cms --yes` (App Router + TypeScript + Tailwind defaults), then set `output: 'export'` in `next.config`.
 - **TypeScript** throughout.
 - **Tailwind CSS** + **shadcn/ui** for clean UI.
 - **react-markdown** + **rehype-sanitize** to render summary/discussion/context markdown safely.
