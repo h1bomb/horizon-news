@@ -4,6 +4,14 @@ export function generateStaticParams() {
   return [{ lang: "en" }, { lang: "zh" }];
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;
+  const title = langOk === "zh" ? "关于" : "About";
+  const description = langOk === "zh" ? "关于本站" : "About this site";
+  return { title, description, alternates: { canonical: `/${langOk}/about/` } };
+}
+
 export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;

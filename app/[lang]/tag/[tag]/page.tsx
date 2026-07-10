@@ -13,6 +13,15 @@ export function generateStaticParams() {
   return params;
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ lang: string; tag: string }> }) {
+  const { lang, tag } = await params;
+  const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;
+  const decoded = decodeURIComponent(tag);
+  const title = `#${decoded}`;
+  const description = langOk === "zh" ? `标签 ${decoded} 的所有文章` : `All articles tagged ${decoded}`;
+  return { title, description, alternates: { canonical: `/${langOk}/tag/${encodeURIComponent(decoded)}/` } };
+}
+
 export default async function TagPage({ params }: { params: Promise<{ lang: string; tag: string }> }) {
   const { lang, tag } = await params;
   const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;

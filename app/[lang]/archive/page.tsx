@@ -6,6 +6,14 @@ export function generateStaticParams() {
   return [{ lang: "en" }, { lang: "zh" }];
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;
+  const title = langOk === "zh" ? "归档" : "Archive";
+  const description = langOk === "zh" ? "所有每日简报的 chronological 归档" : "Chronological archive of all daily briefings";
+  return { title, description, alternates: { canonical: `/${langOk}/archive/` } };
+}
+
 export default async function ArchivePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const langOk = (lang === "en" || lang === "zh" ? lang : "en") as Lang;

@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ArticleSchema, IndexSchema, MetaSchema, DaySchema, type Article, type Index, type Meta, type Day } from "@/shared/schema";
 import type { ParsedBriefing, ParsedItem } from "@/worker/parser/parse";
@@ -22,6 +22,11 @@ export async function writeContentStore(
   const slugCounts = new Map<string, number>(); // lang|slugBase -> count
   const articles: Article[] = [];
   const days: Day[] = [];
+
+  for (const sub of ["articles", "days"]) {
+    const dir = join(rootDir, sub);
+    if (existsSync(dir)) rmSync(dir, { recursive: true, force: true });
+  }
 
   for (const b of briefings) {
     const articleIds: string[] = [];

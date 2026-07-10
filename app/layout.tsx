@@ -6,6 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://example.com"),
   title: { default: "Horizon Daily", template: "%s · Horizon Daily" },
   description: "AI-curated daily tech news, bilingual EN/ZH.",
 };
