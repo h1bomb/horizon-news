@@ -27,7 +27,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Run worker (regenerate content)
-        run: pnpm worker
+        run: pnpm worker --no-fetch
+        env:
+          GIT_TERMINAL_PROMPT: "0"
 
       - name: Typecheck + tests + build
         run: |
