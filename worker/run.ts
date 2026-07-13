@@ -38,7 +38,7 @@ async function main() {
   const tmp = join(CACHE_DIR, "_horizon");
   const { postsDir, commit } = cloneHorizonPosts(tmp, args.horizonRef);
 
-  const files = readdirSync(postsDir).filter((f) => /-summary-(en|zh)\.md$/.test(f));
+  const files = readdirSync(postsDir).filter((f) => /-summary-(en|zh)\.md$/.test(f)).sort().reverse();
   const selected = args.limit ? files.slice(0, args.limit) : files;
   console.log(`> Found ${files.length} briefings, parsing ${selected.length}.`);
 
