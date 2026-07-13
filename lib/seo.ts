@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import type { Article, Day, Lang } from "@/shared/schema";
 import { findTranslation } from "@/lib/hreflang";
 import { loadArticle } from "@/lib/content";
-
-const SITE = "https://example.com";
+import { SITE_URL } from "@/lib/site";
 
 export function buildArticleMetadata(article: Article): Metadata {
   const description = article.fullText?.excerpt || stripMd(article.summary).slice(0, 160);
@@ -18,7 +17,7 @@ export function buildArticleMetadata(article: Article): Metadata {
     openGraph: {
       title: article.title,
       description,
-      url: `${SITE}/${article.lang}/news/${article.slug}/`,
+      url: `${SITE_URL}/${article.lang}/news/${article.slug}/`,
       type: "article",
       images: article.image ? [{ url: article.image }] : undefined,
       publishedTime: article.publishedAt,
@@ -44,7 +43,7 @@ export function newsArticleJsonLd(article: Article) {
     author: article.sources[0]?.author ? { "@type": "Person", name: article.sources[0].author } : undefined,
     image: article.image ? [article.image] : undefined,
     publisher: { "@type": "Organization", name: "Horizon Daily" },
-    mainEntityOfPage: `${SITE}/${article.lang}/news/${article.slug}/`,
+    mainEntityOfPage: `${SITE_URL}/${article.lang}/news/${article.slug}/`,
   };
 }
 
@@ -54,7 +53,7 @@ export function itemListJsonLd(day: Day, lang: Lang) {
     "@type": "ItemList",
     name: lang === "zh" ? `${day.date} 日报` : `${day.date} Daily`,
     itemListElement: day.articleIds.map((id, i) => ({
-      "@type": "ListItem", position: i + 1, url: `${SITE}/${lang}/news/${loadArticle(lang, id).slug}/`,
+      "@type": "ListItem", position: i + 1, url: `${SITE_URL}/${lang}/news/${loadArticle(lang, id).slug}/`,
     })),
   };
 }

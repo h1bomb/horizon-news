@@ -1,8 +1,8 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { loadIndex } from "@/lib/content";
+import { SITE_URL } from "@/lib/site";
 
-const SITE = "https://example.com";
 const PUBLIC = join(process.cwd(), "public");
 
 function atomFeed(lang: "en" | "zh"): string {
@@ -11,17 +11,17 @@ function atomFeed(lang: "en" | "zh"): string {
   const updated = items[0]?.date ? new Date(items[0].date).toISOString() : new Date().toISOString();
   const entries = items.map((a) => `    <entry>
       <title>${escape(a.title)}</title>
-      <link href="${SITE}/${lang}/news/${a.slug}/"/>
+      <link href="${SITE_URL}/${lang}/news/${a.slug}/"/>
       <updated>${new Date(a.date).toISOString()}</updated>
-      <id>${SITE}/${lang}/news/${a.slug}/</id>
+      <id>${SITE_URL}/${lang}/news/${a.slug}/</id>
     </entry>`).join("\n");
   return `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Horizon Daily (${lang.toUpperCase()})</title>
-  <link href="${SITE}/feed-${lang}.xml" rel="self"/>
-  <link href="${SITE}/${lang}/"/>
+  <link href="${SITE_URL}/feed-${lang}.xml" rel="self"/>
+  <link href="${SITE_URL}/${lang}/"/>
   <updated>${updated}</updated>
-  <id>${SITE}/${lang}/</id>
+  <id>${SITE_URL}/${lang}/</id>
 ${entries}
 </feed>`;
 }

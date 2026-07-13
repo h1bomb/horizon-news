@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  packages: write
 
 jobs:
   build:
@@ -44,11 +43,9 @@ jobs:
           git diff --staged --quiet || git commit -m "chore(content): daily regeneration [skip ci]"
           git push
 
-      - name: Build Docker image
-        run: docker build -t ghcr.io/${{ github.repository }}:latest .
-
-      - name: Login to GHCR
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-
-      - name: Push image
-        run: docker push ghcr.io/${{ github.repository }}:latest
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy out/ --project-name=horizon-news
