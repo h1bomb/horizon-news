@@ -1,0 +1,45 @@
+{
+  "id": "f75dd75041b26867af4c1d3c669e49cf3922a81d",
+  "canonicalId": "e564b16eb8ba6f4a5793bc3f89fdcbb96fb23dd8",
+  "slug": "rfc-10008-定义-http-query-方法用于安全幂等的带体请求",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T10:51:00Z",
+  "lang": "zh",
+  "title": "RFC 10008 定义 HTTP QUERY 方法，用于安全、幂等的带体请求",
+  "summary": "RFC 10008 已正式发布，标准化了 HTTP QUERY 方法作为新的 HTTP 请求方法，该方法安全且幂等，并允许请求体，为 GET 带体请求提供了标准化替代方案。 这解决了 HTTP 中长期存在的空白：GET 不能携带请求体，但许多应用需要带体的复杂查询。QUERY 支持缓存、自动重试以及更安全的 API、HTML 表单和复杂数据检索交互。 QUERY 方法类似于 POST，但必须安全且幂等，即相同请求产生相同结果且无副作用。缓存可以使用请求体作为缓存键的一部分，但这引发了关于键大小无限制的担忧。",
+  "score": 8,
+  "tags": [
+    "HTTP",
+    "RFC",
+    "web standards",
+    "API design",
+    "protocol"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "schappim",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48568502"
+    }
+  ],
+  "originalUrl": "https://www.rfc-editor.org/info/rfc10008/",
+  "originalSite": "rfc-editor.org",
+  "context": "HTTP GET 是幂等且可缓存的，但历史上不能包含请求体。POST 支持请求体，但不要求幂等，导致重试和缓存问题。IETF 曾考虑允许 GET 带体，但由于现有实现的互操作性问题，最终选择了新方法。",
+  "discussion": "社区评论讨论了缓存键实现挑战、HTML 表单支持 QUERY 以避免 POST 重新提交警告的可能性，以及历史上发送 GET 带体的变通方法。讨论总体上表示支持，但也提出了合理的技术担忧。",
+  "references": [
+    {
+      "title": "RFC 10008 : The HTTP QUERY Method | RFC Editor",
+      "url": "https://www.rfc-editor.org/info/rfc10008/"
+    },
+    {
+      "title": "The HTTP QUERY Method",
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-safe-method-w-body.html"
+    },
+    {
+      "title": "HTTP‘s New Method For Data APIs: HTTP QUERY | by Horovits | Medium",
+      "url": "https://horovits.medium.com/http-s-new-method-for-data-apis-http-query-1ff71e6f73f3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

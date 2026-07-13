@@ -1,0 +1,44 @@
+{
+  "id": "44b8cf69497a638a3e2170d34aac0cee410f7a48",
+  "canonicalId": "75ba68c21a9afabcf25c58f1a5dacf4e0dfa1e99",
+  "slug": "zer0fit-将-google-tabfmtimesfm-封装成-mcp-服务器实现零样本机器学习",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T12:32:00Z",
+  "lang": "zh",
+  "title": "Zer0Fit 将 Google TabFM/TimesFM 封装成 MCP 服务器实现零样本机器学习",
+  "summary": "一名研究生创建了 Zer0Fit——一个封装了 Google 最新发布的 TabFM 和 TimesFM 基础模型的 MCP 服务器，允许通过 Open WebUI、Claude Code 或 Codex CLI 等聊天界面进行零样本分类、回归和时间序列预测。 这降低了使用最新零样本机器学习模型的门槛，使开发者和研究人员无需训练或调参即可直接从本地 LLM 界面执行复杂的表格和时间序列任务。 该服务器需要约 16GB 显存且仅支持 CUDA（不支持 Mac），具备动态模型加载/卸载功能，TTL 为 5 分钟。在 Iris 数据集上达到 94.7% 的准确率，在 California housing 回归测试中 R2 为 0.91。",
+  "score": 8,
+  "tags": [
+    "MCP",
+    "zero-shot ML",
+    "TimesFM",
+    "TabFM",
+    "ML server"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Porespellar"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+  "originalSite": "reddit.com",
+  "context": "TabFM 和 TimesFM 是 Google Research 分别针对表格数据和时间序列推出的零样本基础模型，在大规模合成数据上训练而成。模型上下文协议 (MCP) 是一种开放标准，允许 AI 应用安全地连接外部工具和数据源。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing TabFM : A zero-shot foundation model for tabular data",
+      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/"
+    },
+    {
+      "title": "What is the Model Context Protocol ( MCP )? - Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/"
+    },
+    {
+      "title": "Google TabFM : LLM for Tabular Data, Bye XGBoost | Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/google-tabfm-llm-for-tabular-data-bye-xgboost-f91e440aeb03"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

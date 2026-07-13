@@ -1,0 +1,44 @@
+{
+  "id": "203d851d59b88b7bcd0656f6ef2f2319ac80219d",
+  "canonicalId": "16f0b15513f9bb00fe5caa89d347f7e7bf73127e",
+  "slug": "skillopt将-markdown-技能文件视为可训练参数",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T09:20:00Z",
+  "lang": "zh",
+  "title": "SkillOpt：将 Markdown 技能文件视为可训练参数",
+  "summary": "SkillOpt 提出了一套系统化的优化框架，针对 LLM 智能体的 Markdown 技能文件，通过有界编辑和验证门控迭代改进技能描述。 该工作将此前智能体构建中的临时做法形式化，实现了可跨模型和基准迁移的自动技能优化，有望减少人工提示工程的工作量。 最佳技能在众多提议中仅接受 1 到 4 次编辑即可收敛，每步 4 到 8 次的编辑预算效果最佳，最终技能中位数约为 920 个 token。在 Codex 上优化的技能无需修改即可迁移到 Claude Code，在 SpreadsheetBench 上提升了 59.7 分。",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "skill optimization",
+    "markdown",
+    "code generation",
+    "AI research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/agentic-doc"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1to1mey/skillopt_treats_markdown_skill_files_as_trainable/",
+  "originalSite": "reddit.com",
+  "context": "LLM 智能体通常依赖描述任务执行方式的 Markdown 技能文件，但这些文件通常是手工编写的。SkillOpt 将这些技能文件视为可训练参数，使用优化模型提出有界编辑（添加、删除、替换），并通过验证集进行门控接受，类似于文本空间中的梯度下降。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SkillOpt : Optimizing LLM Agent Skills",
+      "url": "https://www.emergentmind.com/topics/skillopt"
+    },
+    {
+      "title": "Paper page - SkillOpt : Executive Strategy for Self-Evolving Agent Skills",
+      "url": "https://huggingface.co/papers/2605.23904"
+    },
+    {
+      "title": "Microsoft Research releases SkillOpt , an optimization method that...",
+      "url": "https://digg.com/ai/gulp2jzs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

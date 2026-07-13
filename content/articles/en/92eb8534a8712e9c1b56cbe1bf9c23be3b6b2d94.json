@@ -1,0 +1,41 @@
+{
+  "id": "92eb8534a8712e9c1b56cbe1bf9c23be3b6b2d94",
+  "canonicalId": "0928cabef376bc09ed2ef1b792fcffacf6cbfd37",
+  "slug": "z-lab-releases-dflash-speculator-for-gemma-4-26b",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-08T14:18:00Z",
+  "lang": "en",
+  "title": "Z-lab releases DFlash speculator for Gemma 4 26B",
+  "summary": "Z-lab released a DFlash speculator for the Gemma 4 26B model on Hugging Face, enabling faster speculative decoding via block diffusion drafting. DFlash promises better long-context performance than MTP due to its stateful design and parallel drafting, potentially benefiting users of large language models in inference serving. DFlash uses a lightweight block diffusion model for parallel token drafting, and it maintains persistent KV cache and RoPE offset state across iterations, which may degrade more gracefully than MTP in long contexts.",
+  "score": 8,
+  "tags": [
+    "gemma-4",
+    "dflash",
+    "speculative decoding",
+    "vLLM",
+    "inference acceleration"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "PaceZealousideal6091",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t79ayh/zlab_released_gemma426ba4bitdflash_anybody_tried/"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/z-lab/gemma-4-26B-A4B-it-DFlash",
+  "originalSite": "huggingface.co",
+  "context": "Speculative decoding accelerates autoregressive generation by using a draft model to propose multiple tokens verified jointly by the target model. DFlash is a variant that generates drafts via block diffusion in a single forward pass, while MTP (Multi-Token Prediction) reuses the target model's KV cache but may suffer from ballooning cache in long contexts. The DFlash speculator is currently optimized for vLLM and may have higher memory requirements than MTP.",
+  "discussion": "Community members corrected a misconception that MTP degrades faster in long contexts, pointing out that Gemma 4's MTP reuses the model's KV cache. Users reported mixed results: some saw high memory usage, others noted DFlash's stateful design is promising but limited to vLLM and small context sizes for now.",
+  "references": [
+    {
+      "title": "GitHub - z-lab/dflash: DFlash: Block Diffusion for Flash Speculative Decoding · GitHub",
+      "url": "https://github.com/z-lab/dflash"
+    },
+    {
+      "title": "[2602.06036] DFlash: Block Diffusion for Flash Speculative",
+      "url": "https://arxiv.org/abs/2602.06036"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

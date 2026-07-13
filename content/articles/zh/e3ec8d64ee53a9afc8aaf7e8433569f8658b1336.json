@@ -1,0 +1,45 @@
+{
+  "id": "e3ec8d64ee53a9afc8aaf7e8433569f8658b1336",
+  "canonicalId": "d8e0220915bf39b49ee56aaae8898050f1a6e4ba",
+  "slug": "linkedin-工作邀请通过-npm-嵌入后门攻击开发者",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T20:00:00Z",
+  "lang": "zh",
+  "title": "LinkedIn 工作邀请通过 npm 嵌入后门攻击开发者",
+  "summary": "一个恶意的 LinkedIn 工作邀请引导开发者查看一个包含已弃用 Node 模块的 GitHub 仓库；执行 npm install 会通过 prepare 脚本自动运行后门。 这次攻击展示了一种针对开发者的复杂社交工程手段，利用了招聘过程中的信任以及 npm 的自动化生命周期脚本。它凸显了供应链攻击日益增长的威胁，以及在求职相关活动中加强安全意识的必要性。 后门被隐藏在已弃用的 npm 包中，当受害者运行 npm install 时，由于 prepare 生命周期脚本而自动执行。攻击者伪装成一家小型加密货币初创公司的招聘人员，要求受害者审查一个包含已弃用模块的“破损概念验证”。",
+  "score": 8,
+  "tags": [
+    "security",
+    "backdoor",
+    "job scams",
+    "Node.js",
+    "LinkedIn"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lwhsiao",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48546294"
+    }
+  ],
+  "originalUrl": "https://roman.pt/posts/linkedin-backdoor/",
+  "originalSite": "roman.pt",
+  "context": "npm install 会自动运行诸如'prepare'之类的生命周期脚本，这可以被滥用来执行任意代码。攻击者经常以看似合法的名称发布恶意包，或复用已弃用的包名以逃避检测。针对开发者的求职诈骗日益普遍，攻击者利用虚假工作邀请诱骗开发者运行恶意软件。",
+  "discussion": "评论者对 LinkedIn 的工作发布质量表示沮丧，有人考虑离开该平台。其他人呼吁建立一个集中的网络犯罪举报系统，指出个人没有简便的方式举报此类攻击。几位评论者观察到，这种攻击与正常的面试任务异常相似，开发者可能会在毫无怀疑的情况下运行 npm install。",
+  "references": [
+    {
+      "title": "I Was Targeted by a Fake Employer Running a Real NPM Supply...",
+      "url": "https://dev.to/alien45/i-was-targeted-by-a-fake-employer-running-a-real-npm-supply-chain-attack-54i5"
+    },
+    {
+      "title": "Job scams targeting developers and tech professionals: The ...",
+      "url": "https://www.linkedin.com/pulse/job-scams-targeting-developers-tech-professionals-hidden-yhspf"
+    },
+    {
+      "title": "North Korean Hackers Attacking Developers with 338 Malicious ...",
+      "url": "https://cybersecuritynews.com/north-korean-hackers-attacking-developers/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

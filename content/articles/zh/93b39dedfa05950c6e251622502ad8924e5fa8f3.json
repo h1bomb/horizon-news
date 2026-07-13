@@ -1,0 +1,41 @@
+{
+  "id": "93b39dedfa05950c6e251622502ad8924e5fa8f3",
+  "canonicalId": "f175ab3a1af7dbeb0b80b34d97afa5de1a5515c3",
+  "slug": "氛围编码与代理工程在实践中界限模糊",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-07T00:00:00Z",
+  "lang": "zh",
+  "title": "氛围编码与代理工程在实践中界限模糊",
+  "summary": "西蒙·威利森在播客中透露，他原本认为截然不同的“氛围编码”和“代理工程”在自己的工作中正日益重叠，这让他对代码质量和责任感到不安。 这种融合挑战了 AI 在软件开发中的负责任使用，因为即使经验丰富的工程师在 AI 代理变得可靠时也可能跳过代码审查，可能损害生产软件的质量和安全性。 威利森指出，对于生成 JSON API 端点等常规任务，他信任 Claude Code 能产出正确代码而不审查每一行，但他质疑这对于生产系统是否负责任。",
+  "score": 8,
+  "tags": [
+    "vibe coding",
+    "agentic engineering",
+    "AI coding tools",
+    "software engineering",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 6, 14:24",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48037128"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "“氛围编码”由安德烈·卡帕西于 2025 年提出，是一种 AI 辅助编程方式，程序员接受生成的代码而不进行深入审查。“代理工程”也由卡帕西提出，指在专业工程工作流程中将 AI 代理作为工具使用，强调监督和质量。威利森此前认为氛围编码适用于个人工具，但对生产软件不负责任，而代理工程则保持高标准。",
+  "discussion": "评论者对 AI 的可靠性表示怀疑，指出错误变得更加微妙且难以发现，有人指出使用代码行数作为指标是有问题的。另有人强调，在 AI 出现之前就已经存在不规范的工程实践，现在只是被加速了。",
+  "references": [
+    {
+      "title": "Vibe coding",
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding"
+    },
+    {
+      "title": "What is agentic engineering? - IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-engineering"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

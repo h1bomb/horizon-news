@@ -1,0 +1,40 @@
+{
+  "id": "1f01e9a8810417278d44bbf42a1195584989441d",
+  "canonicalId": "79f8b69d5c3d0fcf185e8b194336405dee6c9633",
+  "slug": "lm-studio-malware-scare-resolved-as-windows-defender-false-positive",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-24T12:39:00Z",
+  "lang": "en",
+  "title": "LM Studio malware scare resolved as Windows Defender false positive",
+  "summary": "A Reddit user reported Windows Defender flagging LM Studio as malware, but LM Studio developers investigated and confirmed it was a false positive, with Microsoft quickly updating their detection to resolve the issue. This incident occurred in late 2024 and affected versions including 0.3.5 and 0.4.7. This incident highlights the tension between security vigilance and false alarms in the rapidly growing local AI tools ecosystem, where users run sensitive models on personal devices. It demonstrates how quickly security concerns can spread in AI communities and the importance of transparent developer responses to maintain trust. The detection was specifically flagged as 'Trojan:Win32/Cinjo.O!cl' by Windows Defender, with only 1 out of 60+ antivirus engines on VirusTotal identifying it as malicious. The timing coincided with the recent LiteLLM PyPI supply chain attack, which initially raised concerns but was confirmed unrelated as LM Studio does not use LiteLLM.",
+  "score": 7,
+  "tags": [
+    "security",
+    "AI-tools",
+    "false-positive",
+    "community-discussion",
+    "malware-detection"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "mooncatx3"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/kmwwgv6bmzqg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "LM Studio is a popular desktop application that allows users to run local large language models (LLMs) like Llama and Mistral privately on their computers without cloud dependencies. False positives occur when security software mistakenly identifies legitimate files as malware, which can disrupt user workflows and erode trust in software tools. Windows Defender is Microsoft's built-in antivirus protection that scans for and removes malicious software from Windows systems.",
+  "discussion": "The community discussion showed initial concern and skepticism, with users sharing technical evidence and personal experiences, but overall sentiment shifted to relief after developer confirmation. Key viewpoints included analysis of VirusTotal results, comparisons to previous false positives, and discussions about supply chain attack risks, though most accepted the false positive explanation once supported by evidence.",
+  "references": [
+    {
+      "title": "LM Studio",
+      "url": "https://lmstudio.ai/"
+    },
+    {
+      "title": "Resolve False Positive Malware Detections ... | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/sharepoint/security/false-positive-malware-detections"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

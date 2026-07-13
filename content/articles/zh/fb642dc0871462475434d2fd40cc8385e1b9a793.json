@@ -1,0 +1,44 @@
+{
+  "id": "fb642dc0871462475434d2fd40cc8385e1b9a793",
+  "canonicalId": "121a6abe2f7aed15a44b38e4f4f87822a59d4c7e",
+  "slug": "开发者逆向工程-apple-neural-engine在-m4-mac-上训练-microgpt",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-02T00:00:00Z",
+  "lang": "zh",
+  "title": "开发者逆向工程 Apple Neural Engine，在 M4 Mac 上训练 MicroGPT",
+  "summary": "一位开发者利用 Claude 逆向工程了 Apple Neural Engine (ANE) 的私有 API，绕过了 CoreML 框架，创建了一个自定义的训练流程。该流程被用于在 M4 Mac mini 上训练一个 1.1 亿参数的 MicroGPT 模型，据称实现了每瓦 6.6 TFLOPS 的能效。 这项工作解锁了 Apple 高效但专有的 Neural Engine 用于机器学习训练的潜力，这是一个 Apple 官方并不支持的使用场景。它展示了一条路径，可以将消费级的 Apple Silicon 硬件用作训练和微调较小 AI 模型的潜在高性价比、高能效平台。 M4 上的 ANE 据称提供 38 TFLOPS 的 INT8 算力，但作为一个 FP16 处理器，其实际算力大约只有一半。开发者指出，虽然单芯片无法实际训练非常大的模型，但它应该能够对 30 亿或 70 亿参数的模型进行 LoRA 微调，并且此类设备的集群理论上可以训练更大的模型。",
+  "score": 8,
+  "tags": [
+    "reverse-engineering",
+    "apple-neural-engine",
+    "ml-training",
+    "hardware-acceleration",
+    "efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 1, 13:21"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/vl6kd7lvpfmg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Apple Neural Engine (ANE) 是集成在 Apple Silicon 芯片中的神经网络处理单元 (NPU)，旨在高效加速机器学习推理任务。CoreML 是 Apple 用于部署 ML 模型的官方框架，它可以自动利用 ANE、GPU 或 CPU。MicroGPT 是 Andrej Karpathy 设计的一种小型、计算量轻的语言模型架构。LoRA（低秩适应）是一种流行的参数高效微调技术，它向预训练模型添加小的、可训练的矩阵，使得用有限资源适配大模型成为可能。",
+  "discussion": "社区赞扬了这一技术成就，特别关注了其惊人的每瓦 6.6 TFLOPS 的能效，这几乎是 NVIDIA H100 GPU 的 5 倍。讨论澄清了逆向工程的范围，指出其目标是 CoreML 与 ANE 的通信层，而非 ANE 的内部指令集。成员们还探讨了与其他项目集成的可能性，并对 Apple 未开源支持 ANE 训练表示失望。",
+  "references": [
+    {
+      "title": "Everything we actually know about the Apple Neural Engine (ANE) - GitHub",
+      "url": "https://github.com/hollance/neural-engine"
+    },
+    {
+      "title": "microgpt - Andrej Karpathy blog",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/"
+    },
+    {
+      "title": "A gentle introduction to LoRA for fine-tuning large language",
+      "url": "https://machinecurve.com/index.php/2023/11/19/a-gentle-introduction-to-lora-for-fine-tuning-large-language-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

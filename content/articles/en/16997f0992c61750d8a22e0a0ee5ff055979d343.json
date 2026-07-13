@@ -1,0 +1,40 @@
+{
+  "id": "16997f0992c61750d8a22e0a0ee5ff055979d343",
+  "canonicalId": "e9fcd551eb577cb21e391a619cdcaca00c8ca640",
+  "slug": "best-llamacpp-fork-for-qwen-36-27b-on-24gb-vram",
+  "date": "2026-05-19",
+  "publishedAt": "2026-05-18T10:43:00Z",
+  "lang": "en",
+  "title": "Best llama.cpp fork for Qwen 3.6 27B on 24GB VRAM",
+  "summary": "A benchmark comparison of llama.cpp forks for running Qwen 3.6 27B on an RTX 3090 24GB found ik_llama.cpp with IQ4_KS quantization and 156k context achieved 1261 tok/s prefill and 72.9 tok/s decode. This provides a practical, validated configuration for running a 27B parameter model on widely available consumer hardware, enabling users with limited VRAM to leverage advanced features like long context and multi-token prediction. The benchmark used a 5.9k token prompt and 1024 token output, with Q8/Q8 KV cache and vision offloaded to CPU. The author noted that vLLM had high-context OOM issues and was excluded.",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "benchmarking",
+    "inference-backends",
+    "quantization",
+    "vram-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "VolandBerlioz"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tgis7s/qwen_36_27b_on_24gb_vram_setup_backend/",
+  "originalSite": "reddit.com",
+  "context": "Quantization reduces model precision to fit memory constraints; IQ4_KS is a 4-bit quant method from ik_llama.cpp. Multi-token prediction (MTP) allows predicting multiple tokens per step, boosting decode speed. Various llama.cpp forks optimize for different hardware and use cases.",
+  "discussion": "Commenters appreciated the practical benchmark but noted methodology flaws: different context lengths and quant types between tests. Anbeeld from BeeLlama promised upcoming improvements, while others praised the vision-offload trick and suggested additional tools like Ollama.",
+  "references": [
+    {
+      "title": "Multi-Token Prediction Tutorial: How To Speed Up LLMs",
+      "url": "https://www.datacamp.com/tutorial/multi-token-prediction-llama-cpp"
+    },
+    {
+      "title": "How Multi-Token Prediction Makes Local LLMs Faster – Without ...",
+      "url": "https://www.hardware-corner.net/multi-token-prediction-llm-speed/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

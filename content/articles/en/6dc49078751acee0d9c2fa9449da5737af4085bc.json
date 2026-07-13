@@ -1,0 +1,41 @@
+{
+  "id": "6dc49078751acee0d9c2fa9449da5737af4085bc",
+  "canonicalId": "f175ab3a1af7dbeb0b80b34d97afa5de1a5515c3",
+  "slug": "vibe-coding-and-agentic-engineering-blur-in-practice",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-06T14:24:00Z",
+  "lang": "en",
+  "title": "Vibe coding and agentic engineering blur in practice",
+  "summary": "Simon Willison reveals in a podcast that vibe coding and agentic engineering, which he once considered distinct, are increasingly overlapping in his own work, causing him unease about code quality and responsibility. This convergence challenges the responsible use of AI in software development, as even experienced engineers may skip code review when AI agents become reliable, potentially compromising production software quality and security. Willison notes that for routine tasks like generating a JSON API endpoint, he trusts Claude Code to produce correct code without reviewing every line, but he questions whether this is responsible for production systems.",
+  "score": 8,
+  "tags": [
+    "vibe coding",
+    "agentic engineering",
+    "AI coding tools",
+    "software engineering",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48037128"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Vibe coding, coined by Andrej Karpathy in 2025, is an AI-assisted approach where programmers accept generated code without deep review. Agentic engineering, also coined by Karpathy, refers to using AI agents as tools within a professional engineering workflow, emphasizing oversight and quality. Willison had previously argued that vibe coding is fine for personal tools but irresponsible for production software, while agentic engineering maintains high standards.",
+  "discussion": "Commenters express skepticism about AI trustworthiness, noting that errors become more subtle and harder to detect, with one pointing out that using lines of code as a metric is problematic. Another highlights that undisciplined engineering practices existed before AI, which are now accelerated.",
+  "references": [
+    {
+      "title": "Vibe coding",
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding"
+    },
+    {
+      "title": "What is agentic engineering? - IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-engineering"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

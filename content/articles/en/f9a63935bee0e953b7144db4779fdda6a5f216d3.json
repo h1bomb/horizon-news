@@ -1,0 +1,41 @@
+{
+  "id": "f9a63935bee0e953b7144db4779fdda6a5f216d3",
+  "canonicalId": "a514c6210db8e960f04e4e11040ff03ca5e78da3",
+  "slug": "nvidias-sana-wm-26b-parameter-world-model-for-1-minute-720p-video",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-16T12:06:00Z",
+  "lang": "en",
+  "title": "NVIDIA's SANA-WM: 2.6B Parameter World Model for 1-Minute 720p Video",
+  "summary": "NVIDIA has released SANA-WM, a 2.6 billion parameter world model that can generate one-minute-long 720p videos with 6-degree-of-freedom camera control. The model is available on Hugging Face but its weights are marked as 'coming soon', leading to debate about its open-source status. SANA-WM pushes the boundary of video generation by achieving world model capabilities at minute-scale with high resolution, which could significantly impact game development, simulation, and autonomous systems. However, the delayed release of model weights tempers enthusiasm, as true open-source validation remains pending. The model uses a hybrid linear diffusion transformer architecture and is trained on synthetic data, likely from Unreal Engine. Despite claims of open-source release under NVIDIA's Open Model License, only code and a subset of assets are currently available, with weights promised 'soon'.",
+  "score": 8,
+  "tags": [
+    "world model",
+    "video generation",
+    "NVIDIA",
+    "AI research",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mjgil",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48159445"
+    }
+  ],
+  "originalUrl": "https://nvlabs.github.io/Sana/WM/",
+  "originalSite": "nvlabs.github.io",
+  "context": "A world model in AI is a neural network that learns an internal representation of an environment, enabling it to predict future states and simulate dynamics like physics and object interactions. Unlike traditional video generation models, world models are designed to support planning and reasoning, making them valuable for robotics, autonomous driving, and interactive media. SANA-WM builds on prior works like SANA-Video but extends to longer durations with camera control.",
+  "discussion": "Community comments express skepticism about the open-source claim, with one commenter stating 'weights coming soon == currently vaporware'. Another notes that while code license is Apache 2.0, the model license allows commercial use, but until weights are released, reproducibility is impossible. Some commenters are impressed by the technical achievement while others worry about synthetic data bias and lack of intentionality in game contexts.",
+  "references": [
+    {
+      "title": "World model (artificial intelligence)",
+      "url": "https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)"
+    },
+    {
+      "title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid",
+      "url": "https://arxiv.org/html/2605.15178v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

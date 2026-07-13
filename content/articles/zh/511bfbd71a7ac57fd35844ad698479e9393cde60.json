@@ -1,0 +1,44 @@
+{
+  "id": "511bfbd71a7ac57fd35844ad698479e9393cde60",
+  "canonicalId": "a66b175ccbe9d9204a504195920c31b71d7c7270",
+  "slug": "谷歌在-chrome-146-中推出-dbsc-技术通过设备绑定强化-cookie-安全防护",
+  "date": "2026-04-12",
+  "publishedAt": "2026-04-12T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌在 Chrome 146 中推出 DBSC 技术，通过设备绑定强化 Cookie 安全防护",
+  "summary": "谷歌在 Chrome 浏览器 Windows 版 146 更新中正式引入了设备绑定会话凭据（DBSC）功能，该技术利用 TPM 等硬件安全模块将身份验证会话与物理设备进行加密绑定。这确保了即使 Cookie 被盗取也无法在其他设备上非法使用，macOS 版本将在后续更新中推出。 这项技术通过解决会话劫持攻击中 Cookie 被盗的根本漏洞，代表了网络身份验证安全的重要进步。作为实施硬件绑定保护的主要浏览器厂商，谷歌的这一举措可能会影响行业标准，并推动其他浏览器采用类似的安全措施。 DBSC 生成存储在设备本地且无法导出的加密密钥对，确保会话凭据始终与特定硬件绑定。该技术目前已在 Chrome 146 中为 Windows 用户提供，并计划在后续版本中扩展到 macOS 平台。",
+  "score": 8,
+  "tags": [
+    "web-security",
+    "browser-technology",
+    "authentication",
+    "cookies",
+    "hardware-security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 11, 00:18"
+    }
+  ],
+  "originalUrl": "https://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
+  "originalSite": "security.googleblog.com",
+  "context": "会话劫持攻击通常涉及窃取身份验证 Cookie 以未经授权访问 Web 服务器上的用户账户。传统 Cookie 一旦被盗，可以轻松复制并在不同设备上使用。可信平台模块（TPM）是一种基于硬件的安全芯片，提供加密功能和安全的密钥存储，通常用于设备身份验证和加密。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Device Bound Session Credentials (DBSC) - Chrome Developers",
+      "url": "https://developer.chrome.com/docs/web-platform/device-bound-session-credentials"
+    },
+    {
+      "title": "Protecting Cookies with Device Bound Session Credentials",
+      "url": "https://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html"
+    },
+    {
+      "title": "Trusted Platform Module - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trusted_Platform_Module"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

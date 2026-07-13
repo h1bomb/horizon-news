@@ -1,0 +1,44 @@
+{
+  "id": "e7f8cfdd4fff311f4026e2c5e7cebed591d0c635",
+  "canonicalId": "d33a2c01867b4cc91a6d79882c7369e8cd6ca81a",
+  "slug": "research-finds-nearly-half-of-third-party-ai-api-proxies-have-model-identity-issues",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-06T07:02:00Z",
+  "lang": "en",
+  "title": "Research finds nearly half of third-party AI API proxies have model identity issues",
+  "summary": "A research paper published on arXiv on March 5 audited 17 third-party API proxies used in 187 academic papers, finding that 45.83% of 24 tested endpoints failed model identity verification. Performance on tasks like MedQA degraded significantly, with Gemini-2.5-flash's accuracy dropping from ~84% to ~37% on average through these proxies. This finding is significant because it directly threatens the reliability and reproducibility of AI research, especially in high-stakes fields like medicine and law where results depend on specific model capabilities. It exposes a critical vulnerability in the research infrastructure that relies on third-party API access, potentially invalidating conclusions drawn from compromised data. The study used performance benchmarking and model fingerprinting techniques to verify if the APIs were actually calling the claimed models. The dramatic performance drop for Gemini-2.5-flash on MedQA (from 83.82% to ~36.95% accuracy) is a concrete example of the degradation observed.",
+  "score": 8,
+  "tags": [
+    "AI Research",
+    "Model Integrity",
+    "API Security",
+    "Research Reproducibility",
+    "Large Language Models"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2603.01919",
+  "originalSite": "arxiv.org",
+  "context": "Third-party API proxies are services that act as intermediaries, providing access to official AI model APIs (like those from OpenAI or Google) without being the official provider. Researchers and developers sometimes use them for convenience, cost, or access reasons. Model fingerprinting is a technique used to identify a specific AI model by analyzing its unique responses to a set of targeted prompts, similar to finding a model's \"tell.\"",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A Fingerprint for Large Language Models | PromptLayer",
+      "url": "https://www.promptlayer.com/research-papers/a-fingerprint-for-large-language-models"
+    },
+    {
+      "title": "Advanced AI Hack: \" Fingerprinting \" Models to See Who... - OneHack",
+      "url": "https://onehack.us/t/advanced-ai-hack-fingerprinting-models-to-see-who-youre-really-talking-to/307232"
+    },
+    {
+      "title": "Your API might be someone else's model | Ready, Set, Cloud!",
+      "url": "https://www.readysetcloud.io/blog/allen.helton/your-api-might-be-someone-elses-model/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "01fd7b56d13a993bdf076fa4af21f504dba59de0",
+  "canonicalId": "95ae361f3deba13ec5ec852e7595cfb3a1a551c1",
+  "slug": "warp-开源客户端代码库集成-gpt-代理工作流",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "zh",
+  "title": "Warp 开源客户端代码库，集成 GPT 代理工作流",
+  "summary": "Warp，一个基于终端的智能开发环境，已将其客户端代码库以双重许可证（UI 框架采用 MIT，其余采用 AGPL v3）开源，并引入了由 GPT 驱动的代理工作流用于编码任务。 此举使一个流行的 AI 增强终端对开源社区开放，可能加速开发者工具的创新，并支持与 Claude Code 和 Gemini CLI 等自定义 AI 代理的集成。 代码库托管在 GitHub 上的 Warpdotdev 组织下；OpenAI 是创始赞助商。内置编码代理由 GPT 模型驱动，用户还可以连接第三方 CLI 代理，如 Claude Code、Codex 和 Gemini CLI。",
+  "score": 7,
+  "tags": [
+    "open source",
+    "terminal",
+    "AI",
+    "developer tools",
+    "Warp"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 28, 17:04"
+    }
+  ],
+  "originalUrl": "https://github.com/warpdotdev/warp",
+  "originalSite": "github.com",
+  "context": "Warp 是一个集成了 AI 功能的现代终端模拟器，旨在提高命令行生产力。AGPL v3 许可证要求修改后的软件版本必须提供给通过网络与其交互的用户，从而确保改进保持开放。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Warp isn't really a terminal anymore, and I tried its new",
+      "url": "https://www.xda-developers.com/warp-isnt-terminal-tried-new-agentic-coding-mode/"
+    },
+    {
+      "title": "AGPL license",
+      "url": "https://en.wikipedia.org/wiki/AGPL_license"
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT - OpenAI",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

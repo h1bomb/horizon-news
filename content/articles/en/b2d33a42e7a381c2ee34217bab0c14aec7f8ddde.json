@@ -1,0 +1,40 @@
+{
+  "id": "b2d33a42e7a381c2ee34217bab0c14aec7f8ddde",
+  "canonicalId": "e18f402d650803233d2089df35b59be5c5571b0f",
+  "slug": "linux-71-kernel-sets-developer-record-with-15849-commits",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T16:36:00Z",
+  "lang": "en",
+  "title": "Linux 7.1 Kernel Sets Developer Record with 15,849 Commits",
+  "summary": "The Linux 7.1 kernel was released on June 14, 2026, with 15,849 non-merge changesets from 2,479 developers, making it one of the busiest cycles and setting a new record for the number of developers. This milestone highlights the growing and vibrant contributor base of the Linux kernel, reflecting the health of the open-source ecosystem and the increasing complexity of kernel development. Only four other releases (6.7, 5.8, 5.10, 5.13) have had more commits, with the 6.7 record driven by the inclusion of the bcachefs filesystem. The top contributor by changesets was Johan Hovold with 181 commits, while Jakub Kicinski changed the most lines (126,367).",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "development statistics",
+    "kernel release",
+    "LWN",
+    "open source community"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077425/",
+  "originalSite": "lwn.net",
+  "context": "LWN.net is a respected publication covering Linux and free software development, often providing detailed analysis of kernel releases. Each Linux kernel development cycle lasts about two months, and the number of commits and developers are key metrics for community activity. The bcachefs filesystem, a copy-on-write filesystem merged in kernel 6.7, caused an unusually high number of commits.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LWN.net - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LWN.net"
+    },
+    {
+      "title": "Bcachefs - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bcachefs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

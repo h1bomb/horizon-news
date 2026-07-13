@@ -1,0 +1,44 @@
+{
+  "id": "1f0308ce811e44a7b6cc4996e5df9e37dd7e8edd",
+  "canonicalId": "5bc8d5397943fdf611613bfcedbf6b685ca71bdd",
+  "slug": "bram-cohen-proposes-a-crdt-based-version-control-system-for-conflict-free-merges",
+  "date": "2026-03-23",
+  "publishedAt": "2026-03-22T15:16:00Z",
+  "lang": "en",
+  "title": "Bram Cohen proposes a CRDT-based version control system for conflict-free merges.",
+  "summary": "Bram Cohen published a proposal titled 'Manyana' that rethinks version control systems using Conflict-Free Replicated Data Types (CRDTs) to enable merges that never fail, sparking technical debate with 216 comments. This matters because it challenges traditional version control paradigms like Git, potentially simplifying distributed collaboration by eliminating merge conflicts, which could impact software engineering workflows and developer tools. The proposal builds on Cohen's earlier work from Codeville in the 2000s, but critics argue that CRDTs may produce semantically incorrect code by avoiding conflicts, and the system's ability to handle semantic issues remains unclear.",
+  "score": 7,
+  "tags": [
+    "version-control",
+    "crdt",
+    "software-engineering",
+    "distributed-systems",
+    "developer-tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "c17r"
+    }
+  ],
+  "originalUrl": "https://bramcohen.com/p/manyana",
+  "originalSite": "bramcohen.com",
+  "context": "Version control systems like Git track changes to software code, with merges combining different versions that can lead to conflicts requiring manual resolution. CRDTs are data structures designed for distributed systems to ensure consistency without conflicts, commonly used in multi-user applications. This proposal applies CRDTs to version control to automate merges, aiming to improve efficiency in collaborative development.",
+  "discussion": "Community sentiment is mixed, with some praising the innovation for better developer UX, while others argue that merge conflicts are essential for semantic correctness and that CRDTs could produce garbage code. Key viewpoints include concerns about handling semantic conflicts and comparisons to existing tools like p4merge.",
+  "references": [
+    {
+      "title": "About CRDTs • Conflict-free Replicated Data Types",
+      "url": "https://crdt.tech/"
+    },
+    {
+      "title": "[1805.06358] Conflict-free Replicated Data Types (CRDTs) - arXiv",
+      "url": "https://arxiv.org/abs/1805.06358"
+    },
+    {
+      "title": "What is version control | Atlassian Git Tutorial",
+      "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "94200be888af9fcde3326492321850128ef82fab",
+  "canonicalId": "630e2194d1ae9190df5569aa6a99c9b3be15f50f",
+  "slug": "meta-confirms-ai-chatbot-bug-led-to-instagram-account-hacks",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T18:35:00Z",
+  "lang": "en",
+  "title": "Meta confirms AI chatbot bug led to Instagram account hacks",
+  "summary": "Meta confirmed that attackers exploited a bug in its AI chatbot's account recovery process to bypass email verification and hijack thousands of Instagram accounts, beginning around April 17 and lasting for several weeks. This incident underscores critical security risks in AI-powered customer support and account recovery systems, affecting over 20,000 users and potentially eroding trust in Meta's platform security. The hackers gained full control of hijacked accounts, including access to direct messages, posts, and linked accounts. Meta notified at least 20,225 affected individuals, and the vulnerability existed from April 17 until it was fixed.",
+  "score": 8,
+  "tags": [
+    "security",
+    "Instagram",
+    "AI chatbot",
+    "account hijacking",
+    "Meta"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48427643"
+    }
+  ],
+  "originalUrl": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+  "originalSite": "this.weekinsecurity.com",
+  "context": "AI chatbots are increasingly used by companies like Meta for automated account recovery to streamline user support. However, this incident shows that when identity verification mechanisms are flawed, these AI systems can be manipulated to bypass security checks, enabling account takeovers without proper authorization.",
+  "discussion": "Commenters criticized Meta's description that the tool 'worked properly,' arguing the bug represents a severe security failure. Some expressed frustration with Meta's automated systems while others hope this incident accelerates the decline of Meta's platforms.",
+  "references": [
+    {
+      "title": "Instagram Meta AI Vulnerability Allegedly Enables Password ...",
+      "url": "https://cybersecuritynews.com/instagram-meta-ai-vulnerability/"
+    },
+    {
+      "title": "The Meta AI Account Recovery Incident Wasn’t Just a Chatbot ...",
+      "url": "https://blog.checkpoint.com/ai-security/the-meta-ai-account-recovery-incident-wasnt-just-a-chatbot-problem/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

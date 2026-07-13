@@ -1,0 +1,32 @@
+{
+  "id": "fab392c8d6746e11e5eb186f7a0cee80d417017c",
+  "canonicalId": "427594395e18036852937ae8dd8e5d9c3350789b",
+  "slug": "obsidian-推出新插件审核系统与社区站点",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-13T00:00:00Z",
+  "lang": "zh",
+  "title": "Obsidian 推出新插件审核系统与社区站点",
+  "summary": "Obsidian 宣布推出新的社区站点和自动化审核系统，以处理插件提交积压问题并减少开发者的挫败感，该项目已开发近一年。 这解决了 Obsidian 插件生态的关键扩展瓶颈，减少了开发者的挫败感，防止团队过劳，同时提升了插件质量和潜在安全性。 自动化系统旨在评估插件的安全性和功能性，但社区成员对可靠检测恶意代码表示怀疑，且 iOS 代码执行限制的担忧依然存在。",
+  "score": 8,
+  "tags": [
+    "obsidian",
+    "plugins",
+    "community",
+    "review-system",
+    "automation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 12, 15:45",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48109970"
+    }
+  ],
+  "originalUrl": "https://obsidian.md/blog/future-of-plugins/",
+  "originalSite": "obsidian.md",
+  "context": "Obsidian 是一款流行的笔记应用，支持庞大的社区插件生态。此前，所有插件需要由一个小团队（仅七人）手动审核，导致严重的积压和开发者不满。新系统引入自动化检查以简化提交流程。",
+  "discussion": "CEO kepano 表达了兴奋之情并承认了挑战，dtkav 称赞该方案缓解了扩展瓶颈。其他人如 varun_ch 质疑自动化安全检查的有效性，ydj 则质疑插件如何遵守 iOS 对下载代码的限制。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "9dd5397becb3091fa244fd5118479cee709b546a",
+  "canonicalId": "715222cef12ef951396f09f9d511a303a2065f4c",
+  "slug": "controversy-over-googles-turboquant-paper-alleges-improper-attribution-and-unfair-comparisons",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-30T09:57:00Z",
+  "lang": "en",
+  "title": "Controversy over Google's TurboQuant paper alleges improper attribution and unfair comparisons.",
+  "summary": "A Reddit discussion highlights allegations that Google's new TurboQuant paper, published in early 2025, failed to properly attribute prior work, specifically the RaBitQ quantization algorithm, and conducted unfair experimental comparisons by testing RaBitQ on a single-core CPU versus TurboQuant on a GPU. This controversy matters because it raises concerns about research ethics and fairness in AI academia, potentially undermining trust in large tech companies' publications and affecting the credibility of quantization advancements crucial for efficient AI deployment. The allegations include that TurboQuant did not fully attribute RaBitQ, which was released in May 2024, and that comparisons were skewed by using different hardware setups, potentially misrepresenting performance differences. TurboQuant is a compression method aiming for zero accuracy loss in models like LLMs.",
+  "score": 7,
+  "tags": [
+    "Machine Learning",
+    "Research Ethics",
+    "Google",
+    "Academic Controversy",
+    "Quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Striking-Warning9533"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/",
+  "originalSite": "reddit.com",
+  "context": "Quantization in machine learning is a technique to reduce model size and computational cost while maintaining accuracy, enabling faster and more efficient AI deployment. TurboQuant is Google's recent quantization method designed for extreme compression in LLMs and vector search, while RaBitQ is an earlier algorithm from NTU that provides high accuracy with minimal space usage for vector quantization.",
+  "discussion": "The Reddit discussion expresses concern over the lack of attention to these issues, with users criticizing Google for alleged unethical practices and highlighting the importance of proper attribution in research. Sentiment is largely negative, focusing on fairness and transparency in academic comparisons.",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "Introduction - RaBitQ Library",
+      "url": "https://vectordb-ntu.github.io/RaBitQ-Library/rabitq/rabitq/"
+    },
+    {
+      "title": "What is quantization in machine learning? | Cloudflare",
+      "url": "https://www.cloudflare.com/learning/ai/what-is-quantization/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

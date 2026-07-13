@@ -1,0 +1,40 @@
+{
+  "id": "8e9285b3778da42b8a8d92111aa5dc56f9f29b69",
+  "canonicalId": "aea9b4b626169871f437b1d124bea57fbecdf5a8",
+  "slug": "critique-of-ai-agent-speed-advocating-for-discipline-over-code-output",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T21:47:00Z",
+  "lang": "en",
+  "title": "Critique of AI Agent Speed: Advocating for Discipline Over Code Output",
+  "summary": "Mario Zechner, creator of the Pi agent framework used by OpenClaw, published a critique arguing that the AI agent trend prioritizes maximizing code output at the expense of software engineering discipline and quality. He warns that agent-generated mistakes accumulate rapidly without human oversight, creating unsustainable complexity. This critique highlights a critical tension in agentic engineering between productivity gains and code quality, affecting developers and organizations adopting AI agents. It raises important questions about sustainable software development practices as autonomous systems become more prevalent in coding workflows. Zechner specifically recommends setting daily limits on agent-generated code aligned with review capacity and manually writing architectural components like APIs. The author Simon Willison agrees with the core concern about cognitive debt but questions whether manual writing is the optimal solution.",
+  "score": 7,
+  "tags": [
+    "AI Agents",
+    "Software Engineering",
+    "Code Quality",
+    "Productivity",
+    "Ethics"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Agentic engineering is an emerging discipline focused on designing autonomous AI agents that can plan, take actions, and complete complex tasks with minimal human management. The Pi agent framework is a development environment for creating such agents, while OpenClaw is an open-source autonomous AI agent that uses large language models to execute tasks through messaging platforms. These technologies enable rapid code generation but raise concerns about oversight and quality control.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Agentic Engineering",
+      "url": "https://grokipedia.com/page/Agentic_Engineering"
+    },
+    {
+      "title": "OpenClaw - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenClaw"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

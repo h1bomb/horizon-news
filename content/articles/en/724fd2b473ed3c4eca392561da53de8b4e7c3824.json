@@ -1,0 +1,40 @@
+{
+  "id": "724fd2b473ed3c4eca392561da53de8b4e7c3824",
+  "canonicalId": "417167848d29539ca001969202f140f4270b09f2",
+  "slug": "github-actions-supply-chain-risk-exposed",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T11:58:00Z",
+  "lang": "en",
+  "title": "GitHub Actions Supply Chain Risk Exposed",
+  "summary": "A blog post by nesbitt.io highlights that GitHub Actions' reliance on mutable tags for third-party actions introduces significant supply-chain security risks, advocating for using commit hashes instead or switching to more secure CI platforms. This matters because GitHub Actions is widely used in CI/CD pipelines, and a compromised third-party action could inject malicious code into thousands of projects, affecting the entire software supply chain. Tags in Git can be moved to point to different commits, allowing an attacker to replace a legitimate action with a malicious version without changing the tag reference. Using commit hashes (SHA) ensures immutability and precise version control.",
+  "score": 8,
+  "tags": [
+    "security",
+    "CI/CD",
+    "GitHub Actions",
+    "supply chain",
+    "DevOps"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dochtman"
+    }
+  ],
+  "originalUrl": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
+  "originalSite": "nesbitt.io",
+  "context": "GitHub Actions allows workflows to reference third-party actions via tags (e.g., v1) or commit hashes. Tags are mutable and can be updated, while commit hashes are immutable and uniquely identify a specific version. Recent supply-chain attacks on GitHub Actions have demonstrated the real-world risk of mutable tag references.",
+  "discussion": "Commenters largely agree with the article's premise, with some noting they have always used commit hashes for third-party actions. Others discuss alternative CI platforms like Dagger and Blacksmith, and tools like ratchet for pinning actions to hashes.",
+  "references": [
+    {
+      "title": "GitHub Actions supply chain attack spotlights CI/CD risks |",
+      "url": "https://www.techtarget.com/searchitoperations/news/366621078/GitHub-Actions-supply-chain-attack-spotlights-CI-CD-risks"
+    },
+    {
+      "title": "GitHub Actions Supply Chain Attack Puts Thousands of Project...",
+      "url": "https://socket.dev/blog/github-actions-supply-chain-attack-puts-thousands-of-projects-at-risk"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

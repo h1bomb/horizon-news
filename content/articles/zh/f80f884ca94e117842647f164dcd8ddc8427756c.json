@@ -1,0 +1,44 @@
+{
+  "id": "f80f884ca94e117842647f164dcd8ddc8427756c",
+  "canonicalId": "0580198d32acb0012b9b05cbfe9d4724029feadb",
+  "slug": "星链故障中断美海军无人艇测试暴露五角大楼依赖风险",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "星链故障中断美海军无人艇测试，暴露五角大楼依赖风险",
+  "summary": "内部文件显示，SpaceX 的星链卫星网络故障曾多次导致美国海军无人艇测试中断，包括 2025 年 8 月的一次全球性断网，使 24 艘无人艇在加州海岸失去通信并滞留近一小时。同年 4 月的测试也表明，星链在多设备高负载环境下存在连接瓶颈，难以稳定支撑复杂无人系统操作。 这很重要，因为星链凭借其成本优势和近 1 万颗卫星的规模，已成为美军无人机控制和导弹追踪等任务的关键支撑，其可靠性关乎国家安全。对单一商业供应商的深度依赖可能演变为单点故障，增加了国防基础设施的脆弱性。 故障发生在 2025 年的特定测试中，其中 8 月的事件涉及全球网络中断，同时影响了多艘无人艇。限制包括高负载场景下的连接瓶颈，这对复杂军事系统的稳定运行构成挑战。",
+  "score": 7,
+  "tags": [
+    "satellite-communications",
+    "military-technology",
+    "cybersecurity",
+    "spacex",
+    "drones"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 17, 04:19"
+    }
+  ],
+  "originalUrl": "https://www.reuters.com/business/media-telecom/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-spacex-2026-04-16/",
+  "originalSite": "reuters.com",
+  "context": "星链是由 SpaceX 运营的卫星互联网星座，由数千颗低地球轨道卫星组成，提供全球宽带覆盖。军用无人机通常依赖 MAVLink 等通信协议进行控制和数据传输，卫星网络是远程操作的核心支撑。单点故障指的是系统中一旦失效就会导致广泛中断的组件，突显了集中依赖的风险。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SpaceX Starlink Network Architecture and System Elements | RF",
+      "url": "https://www.rfwireless-world.com/articles/spacex-starlink-network-architecture"
+    },
+    {
+      "title": "Drone Communication Systems - Fly Eye",
+      "url": "https://www.flyeye.io/drone-technology-communication/"
+    },
+    {
+      "title": "single point of failure | THE SCRIPTORVM",
+      "url": "http://scriptorum.imagicity.com/tag/single-point-of-failure/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

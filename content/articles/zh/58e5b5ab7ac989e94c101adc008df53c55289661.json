@@ -1,0 +1,44 @@
+{
+  "id": "58e5b5ab7ac989e94c101adc008df53c55289661",
+  "canonicalId": "16f5537eea680ba50c016b61a1dee4ebcf9cc582",
+  "slug": "beellama-v031-通过-dflash-和-mtp-将推理速度提升至-493-倍",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T21:25:00Z",
+  "lang": "zh",
+  "title": "BeeLlama v0.3.1 通过 DFlash 和 MTP 将推理速度提升至 4.93 倍",
+  "summary": "BeeLlama v0.3.1 是 llama.cpp 的一个分支，新增了 DFlash 推测解码、MTP 支持、q6_0 KV 缓存和 TurboQuant。在单张 RTX 3090 上，Gemma 4 31B 模型达到每秒 177.8 token，是基准速度的 4.93 倍。 这代表了本地 LLM 推理速度的重大飞跃，使 Gemma 4 31B 等强大模型能够在消费级硬件上高效运行。通过在一个易用的分支中集成 DFlash 和 MTP 等先进技术，降低了本地运行大语言模型的门槛。 DFlash 技术使用轻量级块扩散模型进行推测解码，实现了高接受率（例如在 Gemma 4 31B 上接受率为 65.7%，最终生成 token 中接受部分占比 90.0%）。MTP 本身可提供 1.8-1.9 倍加速。该更新与上游 llama.cpp 对齐，并为所有平台提供预编译二进制文件。",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "local LLM",
+    "inference optimization",
+    "BeeLlama",
+    "Quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Anbeeld"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tx12t1/beellama_v031_latest_llamacpp_with_extras_dflash/",
+  "originalSite": "reddit.com",
+  "context": "推测解码通过使用小型草稿模型提出多个 token，再由大目标模型并行验证，从而加速 LLM 推理。DFlash 是一种基于块扩散的轻量级草稿模型，而 MTP（多 token 预测）是一种训练方法，使模型本身能够预测多个 token。量化减少模型内存占用，q6_0 是 KV 缓存的 6 位量化格式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "z-lab/ dflash : DFlash : Block Diffusion for Flash Speculative Decoding ...",
+      "url": "https://github.com/z-lab/dflash"
+    },
+    {
+      "title": "Qwen 3.6 27B and 35B MTP vs Standard on 16GB GPU - Rost Glukhov",
+      "url": "https://www.glukhov.org/llm-performance/benchmarks/comparing-qwen-3-6-mtp-vs-standard/"
+    },
+    {
+      "title": "GGUF Quantization Explained: Q4_K_M vs Q8_0 vs F16 — Which to ...",
+      "url": "https://vucense.com/dev-corner/gguf-quantization-explained-q4-k-m-vs-q8-0-vs-f16-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "08c7b5e3881afcec5e54c36048f260424e385791",
+  "canonicalId": "395afc4c9060ba04bd4811ed2d21c97caa9ab8a7",
+  "slug": "cohere-发布开源-2b-参数转录模型支持-14-种语言",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-27T00:00:00Z",
+  "lang": "zh",
+  "title": "Cohere 发布开源 2B 参数转录模型，支持 14 种语言",
+  "summary": "Cohere 发布了 Cohere Transcribe，这是一个拥有 20 亿参数的开源转录模型，采用 Apache 2.0 许可证，声称在开源模型中达到最先进性能，并支持包括英语、中文和阿拉伯语在内的 14 种语言。 此次发布之所以重要，是因为它提供了一个高性能、可自由访问的替代方案，以替代专有转录工具，可能降低开发者和研究人员在多语言语音识别应用中的门槛。 该模型缺少时间戳和说话人分离等高级功能，虽然其源代码中包含时间戳标记，但目前仅输出转录文本，不提供词级概率或说话人区分。",
+  "score": 7,
+  "tags": [
+    "speech-recognition",
+    "open-source",
+    "multilingual",
+    "transcription",
+    "cohere"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 26, 14:11"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+  "originalSite": "huggingface.co",
+  "context": "在机器学习中，2B 参数模型指的是拥有 20 亿个可调整权重的神经网络，在转录等任务中平衡了性能和计算效率。SOTA（最先进技术）表示该模型在其类别中达到了当前最佳性能，例如在 Hugging Face Open ASR 排行榜等基准测试中。Apache 2.0 许可证是一种宽松的开源许可证，允许以最小限制自由使用、修改和分发软件，常用于 TensorFlow 和 Kubernetes 等项目。",
+  "discussion": "社区情绪复杂，有人赞扬其速度和 Hugging Face 排行榜上的性能，但也担忧缺少时间戳和说话人分离等功能，一些用户指出它在所有情况下并未超越 Whisper，尤其是在日语转录方面。",
+  "references": [
+    {
+      "title": "AI Model Parameters Explained: 2B vs 7B vs 40B and Beyond",
+      "url": "https://travis.media/blog/ai-model-parameters-explained/"
+    },
+    {
+      "title": "State-of-the-Art (SOTA) AI Models: LLMs, NLP, and Computer",
+      "url": "https://automatio.ai/blog/sota-models-llm-nlp/"
+    },
+    {
+      "title": "Apache License 2.0 Explained | Apache 2.0 Uses, Benefits ... Apache 2.0 License - Open Licenses: An Alternative to ... Unveiling Apache License 2.0: A Comprehensive Exploration and ... How to apply the Apache 2.0 License to your Open Source ... Open Source Licenses 101: Apache License 2.0 | FOSSA Blog",
+      "url": "https://snyk.io/articles/apache-license/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

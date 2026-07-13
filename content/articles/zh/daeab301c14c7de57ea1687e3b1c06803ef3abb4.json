@@ -1,0 +1,45 @@
+{
+  "id": "daeab301c14c7de57ea1687e3b1c06803ef3abb4",
+  "canonicalId": "fcd5b3e782e6da2b7fe1ede976b09634bd89e988",
+  "slug": "ai-发展放缓收入需求不可持续",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T15:46:00Z",
+  "lang": "zh",
+  "title": "AI 发展放缓，收入需求不可持续",
+  "summary": "Ed Zitron 的一篇文章指出，人工智能的进步正在放缓，且该行业到 2030 年底需要超过 3 万亿美元的收入才能维持生存，凸显了财务可持续性危机。 这挑战了 AI 无限增长的主流叙事，并对大规模 AI 投资的经济可行性提出了关键质疑，影响风险投资、企业战略和公众预期。 文章声称，尽管资本支出巨大，但 AI 公司远未产生足够的收入，且规模定律可能正呈现收益递减。它还指出了高昂的运营成本和云提供商之间的竞争。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "economics",
+    "industry analysis",
+    "scaling",
+    "sustainability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "crescit_eundo",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48446893"
+    }
+  ],
+  "originalUrl": "https://www.wheresyoured.at/ai-is-slowing-down/",
+  "originalSite": "wheresyoured.at",
+  "context": "AI 规模定律描述了模型性能与计算量、数据和参数等因素之间的经验关系。DeepMind 在 2022 年提出的 Chinchilla 规模定律强调通过平衡模型大小和数据来进行计算最优训练。然而，最近的观察表明，单纯扩大规模可能正在触及极限，引发了关于 AI 进展及其支撑经济模式的辩论。",
+  "discussion": "评论意见分歧：一些人同意财务分析，指出巨大的收入缺口，而另一些人则认为文章低估了现实世界的生产力提升和新应用的潜力。一位评论者指出，苹果与谷歌的低成本许可交易表明消费级 AI 可以盈利，反驳了关于无利可图的说法。",
+  "references": [
+    {
+      "title": "AI scaling laws are rewriting the rules of innovation: why",
+      "url": "https://www.remio.ai/post/ai-scaling-laws-are-rewriting-the-rules-of-innovation-why-bigger-models-don-t-just-mean-better-resu"
+    },
+    {
+      "title": "Neural scaling law - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neural_scaling_law"
+    },
+    {
+      "title": "[2203.15556] Training Compute-Optimal Large Language Models Chinchilla Scaling Laws: Compute-Optimal Training and ... Chinchilla Scaling Laws - GeeksforGeeks Chinchilla scaling laws - AI Wiki Neural scaling law - Wikipedia Images Chinchilla data-optimal scaling laws: In plain English Chinchilla Scaling Laws for Large Language Models (LLMs)",
+      "url": "https://arxiv.org/abs/2203.15556"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

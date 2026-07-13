@@ -1,0 +1,44 @@
+{
+  "id": "6817df23cefa9964cb65f39580496563402f8fd2",
+  "canonicalId": "ef37907a14e112139f5a27e8b8643cf15a9bc608",
+  "slug": "llm-runs-locally-on-1998-imac-g3-with-only-32-mb-ram-through-cross-compilation-and-memory-hacks",
+  "date": "2026-04-07",
+  "publishedAt": "2026-04-06T03:36:00Z",
+  "lang": "en",
+  "title": "LLM runs locally on 1998 iMac G3 with only 32 MB RAM through cross-compilation and memory hacks",
+  "summary": "A developer successfully ran Andrej Karpathy's 260K TinyStories model (based on Llama 2 architecture) on a stock 1998 iMac G3 with 32 MB RAM by cross-compiling using Retro68 GCC, implementing custom memory management with MaxApplZone() and NewPtr(), and fixing weight layout issues for grouped-query attention. This demonstrates how modern AI models can be adapted to run on extremely constrained retro hardware through clever optimization techniques, highlighting the importance of cross-platform compatibility and memory efficiency in AI deployment scenarios. The implementation required endian-swapping from little-endian to big-endian for PowerPC architecture, used static buffers for KV cache to avoid malloc failures, and outputs results to a text file since RetroConsole crashes on this hardware. The model checkpoint is only about 1 MB in size.",
+  "score": 7,
+  "tags": [
+    "retro-computing",
+    "LLM-inference",
+    "hardware-hacking",
+    "AI-optimization",
+    "cross-compilation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "maddiedreese"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/p4vfca76qhtg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Retro68 is a GCC-based cross-compiler that allows developers to compile code for classic Mac OS systems from modern computers. The Mac Memory Manager's MaxApplZone() function expands the application heap space, while NewPtr() allocates non-relocatable memory blocks. Grouped-query attention is a memory-efficient attention mechanism where multiple query heads share key-value heads, reducing memory bandwidth requirements during inference.",
+  "discussion": "Community reactions are overwhelmingly positive, with users praising the creativity and humor of running an LLM on such outdated hardware. Comments highlight appreciation for the technical achievement as a fun experiment rather than practical application, with some users noting the model's surprisingly coherent outputs and others expressing interest in trying similar projects on other retro systems.",
+  "references": [
+    {
+      "title": "GitHub - autc04/Retro68: a gcc-based cross-compiler for ...",
+      "url": "https://github.com/autc04/Retro68"
+    },
+    {
+      "title": "Full text of \"Programming Starter Kit for Macintosh \"",
+      "url": "https://archive.org/stream/programming-starter-kit-for-macintosh/Programming+Starter+Kit+for+Macintosh_djvu.txt"
+    },
+    {
+      "title": "Grouped Query Attention (GQA) vs. Multi Head Attention ... | Medium",
+      "url": "https://medium.com/friendliai/grouped-query-attention-gqa-vs-multi-head-attention-mha-optimizing-llm-inference-serving-eaa732beaeac"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

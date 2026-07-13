@@ -1,0 +1,44 @@
+{
+  "id": "c328964054731d848a7714885f1b094953216013",
+  "canonicalId": "a5293835bf45e911e06ef313d412b5e6d33e8728",
+  "slug": "dependency-cooldowns-gain-traction-to-counter-open-source-supply-chain-attacks",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-22T15:21:00Z",
+  "lang": "en",
+  "title": "Dependency cooldowns gain traction to counter open-source supply-chain attacks",
+  "summary": "In November 2025, William Woodruff published a blog post advocating for dependency cooldowns, a practice that delays pulling updates for a few days to mitigate supply-chain attacks, and this approach is now being adopted by users and some package managers. The article highlights community debates over the effectiveness and ethical implications, such as concerns about free-riding. This matters because supply-chain attacks are increasing in open-source software, and dependency cooldowns offer a simple, cost-effective way to reduce exposure by 80-90%, potentially protecting millions of projects from malicious code injections. It reflects a broader shift towards proactive security measures in software development, impacting developers, maintainers, and package ecosystems. Woodruff's analysis of ten major attacks from 2024-2025, including the XZ backdoor and Python ultralytics attack, showed that attackers' exploitation window is typically less than a week before detection, making a seven-day cooldown effective. However, cooldowns are not a complete solution, as they rely on social trust and may not prevent attacks from undetected malicious maintainers.",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "security",
+    "supply-chain",
+    "dependency-management",
+    "software-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1068692/",
+  "originalSite": "lwn.net",
+  "context": "Supply-chain attacks involve compromising third-party components like libraries or packages to inject malicious code into software, similar to infiltrating a factory that produces money. Dependency cooldowns delay automatic updates to dependencies, giving security researchers time to detect and flag malicious publishes before they are widely adopted. This practice is being integrated into package managers like npm and pip to retrofit security into ecosystems that previously lacked such review windows.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "We should all be using dependency cooldowns",
+      "url": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns"
+    },
+    {
+      "title": "PYPI Security: How to Prevent Supply Chain Attacks in Python Projects",
+      "url": "https://bolster.ai/blog/pypi-supply-chain-attacks"
+    },
+    {
+      "title": "Package Managers Need to Cool Down | Andrew Nesbitt",
+      "url": "https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

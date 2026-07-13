@@ -1,0 +1,44 @@
+{
+  "id": "5e7b1836d58f05317ad55e1fbd178e06c9b3b7ec",
+  "canonicalId": "61aa6d0024c990f55ca6ee1f8ae11f4f196f23ae",
+  "slug": "7-zip-高危堆溢出漏洞可致任意代码执行",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T08:01:00Z",
+  "lang": "zh",
+  "title": "7-Zip 高危堆溢出漏洞可致任意代码执行",
+  "summary": "7-Zip 26.00 版本中被披露一个高危堆缓冲区溢出漏洞（CVE-2026-48095），影响 NTFS 归档处理程序。攻击者可诱导用户打开特制的压缩文件，实现任意代码执行或导致应用程序崩溃。 7-Zip 是世界上最广泛使用的文件压缩工具之一，此漏洞使数百万用户面临远程代码执行风险。7-Zip 基于签名的回退逻辑扩大了攻击面，因为带有.7z、.zip 或.rar 等常见扩展名的恶意文件可被路由到有漏洞的 NTFS 处理程序。 该漏洞是 NTFS 压缩流缓冲区中的堆缓冲区写入溢出（GetCuSize 移位未定义行为），可实现虚函数表劫持以执行任意代码。该问题已在 2026 年 4 月 27 日发布的 7-Zip 26.01 版本中修复。",
+  "score": 9,
+  "tags": [
+    "安全漏洞",
+    "7-Zip",
+    "CVE-2026-48095",
+    "任意代码执行",
+    "压缩软件"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://socprime.com/blog/cve-2026-48095-7-zip-heap-overflow-flaw/",
+  "originalSite": "socprime.com",
+  "context": "7-Zip 是一款免费开源的文件压缩工具，广泛用于文件的压缩与解压。NTFS 归档处理程序是处理压缩包内 NTFS 卷的模块。堆缓冲区溢出是指程序向堆内存缓冲区写入超过其容量的数据，可能导致代码执行。基于签名的回退逻辑允许 7-Zip 根据文件签名尝试不同处理程序，但无意中将精心构造的文件路由到有漏洞的 NTFS 处理程序，即使文件扩展名暗示其他格式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "New 7-Zip Vulnerabilities Let Attackers Execute Arbitrary ...",
+      "url": "https://cybersecuritynews.com/7-zip-vulnerabilities-code-execution/"
+    },
+    {
+      "title": "CVE-2026-48095: 7-Zip Heap Buffer Overflow Vulnerability ...",
+      "url": "https://thecybersecguru.com/exploits/cve-2026-48095-7-zip-heap-buffer-overflow/"
+    },
+    {
+      "title": "GHSL-2026-140: Heap Buffer Write Overflow in 7-Zip",
+      "url": "https://securitylab.github.com/advisories/GHSL-2026-140_7-Zip/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

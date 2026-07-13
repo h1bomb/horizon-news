@@ -1,0 +1,36 @@
+{
+  "id": "3dd7a36d24746aeb84727ad28a8e72d3f65343ea",
+  "canonicalId": "d43805edc510900ee02d088f3212de9d36c24ac0",
+  "slug": "google-chrome-silently-downloads-4gb-ai-model-without-consent",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-06T11:15:00Z",
+  "lang": "en",
+  "title": "Google Chrome silently downloads 4GB AI model without consent",
+  "summary": "Security researcher Alexander Hanff reported that Google Chrome silently downloads a 4GB Gemini Nano AI model (weights.bin) to compatible devices without user permission, and the file reappears even after manual deletion. This practice could violate EU GDPR and other privacy laws, and may waste significant energy and bandwidth, potentially affecting billions of users. It highlights the broader trend of tech companies forcefully deploying AI features without user consent. The model file is approximately 4GB, and the researcher estimates that distributing it to 1 billion users could generate up to 60,000 tonnes of carbon emissions. Similar behavior was also reported for Anthropic's Claude app.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "google-chrome",
+    "AI",
+    "GDPR",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/cyber-security/google-chrome-silently-downloads-4gb-ai-model-to-your-device-without-permission-report-claims-researcher-says-practice-may-violate-eu-law-waste-thousands-of-kilowatts-of-energy",
+  "originalSite": "tomshardware.com",
+  "context": "Gemini Nano is a lightweight AI model developed by Google DeepMind, designed to run on-device for tasks like summarization and smart replies. Chrome has been integrating AI features, but this silent download raises concerns about user control and data privacy. The file 'weights.bin' contains the trained neural network parameters.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemini (language model) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

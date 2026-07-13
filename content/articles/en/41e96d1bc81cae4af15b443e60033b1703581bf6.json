@@ -1,0 +1,45 @@
+{
+  "id": "41e96d1bc81cae4af15b443e60033b1703581bf6",
+  "canonicalId": "4a5791968d27b5b5fef60ddeabfd3f3c97827477",
+  "slug": "us-lifts-export-controls-on-claude-fable-5-and-mythos-5",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T23:55:00Z",
+  "lang": "en",
+  "title": "US Lifts Export Controls on Claude Fable 5 and Mythos 5",
+  "summary": "The US Department of Commerce has lifted export controls on Anthropic's advanced AI models Claude Fable 5 and Mythos 5, but Fable 5 now has new restrictions that block its cybersecurity and coding capabilities. This policy change affects the availability of frontier AI models, raising concerns about business reliance on US AI companies and the unpredictability of regulation. Fable 5 now uses classifiers to block cybersecurity tasks, causing routine coding and debugging to fall back to Opus 4.8. Mythos 5, designed for vulnerability detection, remains available to select businesses and cybersecurity experts.",
+  "score": 8,
+  "tags": [
+    "AI regulation",
+    "export controls",
+    "Anthropic",
+    "policy",
+    "frontier models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Pragmata",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48740771"
+    }
+  ],
+  "originalUrl": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+  "originalSite": "twitter.com",
+  "context": "Export controls on advanced AI models aim to prevent misuse by restricting access to powerful capabilities. Claude Fable 5 and Mythos 5 are large language models developed by Anthropic, with Mythos specifically focused on identifying software vulnerabilities. The US government previously restricted exports due to safety concerns, and these controls have now been partially lifted with new safety measures.",
+  "discussion": "Commenters expressed concern about the unpredictability of US policy, with some arguing that business-critical functions cannot rely on American frontier models. Others noted the lack of clear laws and the slippery slope of regulation, while some highlighted the damage to trust in US AI companies.",
+  "references": [
+    {
+      "title": "Claude Fable 5",
+      "url": "https://en.wikipedia.org/wiki/Claude_Fable_5"
+    },
+    {
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "title": "Fable and Mythos : Anthropic says US lifts export ban on its advanced...",
+      "url": "https://www.bbc.com/news/articles/cdr42623e1do"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

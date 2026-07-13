@@ -1,0 +1,44 @@
+{
+  "id": "faea4da23d854a0b9e1e0a8cdb82a53c1ccad83e",
+  "canonicalId": "a51184366f5ffd3f38fcbb2810261af4078c17ae",
+  "slug": "linux-内核-spawn-模板提案旨在替代-forkexec",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T14:06:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 spawn 模板提案旨在替代 fork+exec",
+  "summary": "李晨提出了一组新的系统调用 spawn_template_create()和 spawn_template_spawn()，允许缓存可执行文件数据以加速重复进程创建，可能取代传统的 fork()+exec()模式。 该提案可显著提升重复启动同一可执行文件的应用程序（如持续集成系统或 shell 脚本）的性能，通过减少复制进程状态并立即丢弃的开销。 spawn 模板通过 spawn_template_create()创建，缓存可执行文件数据，之后通过 spawn_template_spawn()使用，附带每次调用的参数、文件描述符操作和信号处理。当前补丁系列是 RFC，不太可能原样接受。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "process creation",
+    "system calls",
+    "fork",
+    "exec"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1076018/",
+  "originalSite": "lwn.net",
+  "context": "在类 Unix 系统中，进程创建传统上使用 fork()创建子进程作为父进程的副本，然后 exec()替换为新程序。这很效率低下，因为 fork()复制整个进程状态，而该状态常常立即被 exec()丢弃。尽管存在 vfork()等优化，但未能完全解决重复启动同一程序的问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linux-Kernel Archive: [RFC PATCH v1 09/13] Documentation ...",
+      "url": "https://lkml.iu.edu/2605.3/07508.html"
+    },
+    {
+      "title": "Linux Kernel: [RFC PATCH v1 00/13] exec: add spawn templates ...",
+      "url": "https://www.spinics.net/lists/kernel/msg6232310.html"
+    },
+    {
+      "title": "[RFC PATCH v1 04/13] exec: add spawn template UAPI definitions",
+      "url": "https://www.mail-archive.com/linux-kernel@vger.kernel.org/msg2633355.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

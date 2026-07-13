@@ -1,0 +1,45 @@
+{
+  "id": "40270e7c016abc1307a1ad6fa5f14f4519252580",
+  "canonicalId": "fec14e452e9395e4f0c82354526fa7ffb96abfd8",
+  "slug": "xiaomi-mimo-v25-pro-ultraspeed-1000-tokenssec-on-1t-model",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T15:27:00Z",
+  "lang": "en",
+  "title": "Xiaomi MiMo v2.5 Pro UltraSpeed: 1000 tokens/sec on 1T model",
+  "summary": "Xiaomi released MiMo-v2.5-Pro-UltraSpeed, achieving up to 1200 tokens per second inference speed on a 1.02 trillion parameter Mixture-of-Experts model. This breakthrough could dramatically reduce AI inference costs and latency, potentially democratizing access to trillion-parameter models for real-time applications. The model has 42 billion active parameters due to MoE sparsity, uses hybrid attention and multi-token prediction, and supports up to 1 million token context with pricing at $0.14 per million input tokens and $0.28 per million output tokens.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "LLM",
+    "inference",
+    "performance",
+    "Xiaomi"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gainsurier",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48446639"
+    }
+  ],
+  "originalUrl": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+  "originalSite": "mimo.xiaomi.com",
+  "context": "MiMo is an open-source Mixture-of-Experts (MoE) model developed by Xiaomi. MiMo-v2.5-Pro has 1.02 trillion total parameters but only 42 billion active per token, making it efficient. The UltraSpeed variant uses optimized inference to achieve extremely high throughput.",
+  "discussion": "Commenters expressed mixed feelings: some find the speed exciting but unsettling for workflow, others question productivity gains given fixed work hours. There is also commentary on price competition between Chinese and American providers, with MiMo's fast mode being very competitive.",
+  "references": [
+    {
+      "title": "Xiaomi MiMo , Explore and Love",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps"
+    },
+    {
+      "title": "XiaomiMiMo/ MiMo - V 2 . 5 - Pro -Base · Hugging Face",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-Base"
+    },
+    {
+      "title": "MiMo - V 2 . 5 - API Pricing & Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ac3d85748ed2731d98683764301243921b6d5f10",
+  "canonicalId": "79748bf07fced3aae350ded217cbd44b9854ac39",
+  "slug": "llamacpps-auto-fit-enables-qwen36-q8-with-256k-context-on-32gb-vram-at-57-ts",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-21T18:07:00Z",
+  "lang": "en",
+  "title": "Llama.cpp's auto-fit enables Qwen3.6 Q8 with 256k context on 32GB VRAM at 57 t/s",
+  "summary": "A user discovered that llama.cpp's auto-fit feature allows running the Qwen3.6 Q8 model with 256k context length on 32GB VRAM at 57 tokens per second, even though the model weights alone exceed the available VRAM capacity. This challenges the common assumption that models must fully fit in VRAM to achieve reasonable performance. This breakthrough significantly expands what's possible with limited GPU memory, allowing users to run larger models and longer contexts than previously thought feasible. It democratizes access to state-of-the-art language models for users with consumer-grade hardware rather than requiring expensive professional GPUs. The user achieved this performance using an RTX 5090 connected via Oculink, with the auto-fit feature automatically managing memory allocation between VRAM and system RAM. Community comments suggest further optimizations are possible, including using Q8_0 quantization for KV cache and adjusting the fit target parameter to 512 instead of the default 1024.",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "local-llm",
+    "vram-optimization",
+    "quantization",
+    "performance-tuning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "a9udn9u"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1srvqar/llamacpps_auto_fit_works_much_better_than_i/",
+  "originalSite": "reddit.com",
+  "context": "Llama.cpp is an open-source C/C++ inference engine optimized for running large language models in the GGUF format, known for its efficiency on consumer hardware. The auto-fit feature intelligently splits model layers between GPU VRAM and system RAM when the model doesn't fully fit in VRAM. Qwen3.6 is a large language model from Alibaba that uses a Mixture of Experts (MoE) architecture, where only a subset of parameters are active during inference, making it more memory-efficient than dense models of similar size.",
+  "discussion": "The community discussion shows enthusiastic reception with users sharing their own successful experiences using auto-fit, including running Qwen3.6 35B Q3_K_M with 256k context on 24GB VRAM at 84 t/s. Technical tips include optimizing KV cache quantization and adjusting fit target parameters, while some note that performance benefits are more pronounced with MoE models like Qwen3.6 compared to dense architectures.",
+  "references": [
+    {
+      "title": "GitHub - ggml-org/ llama . cpp : LLM inference in C/C++ · GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "Qwen 3 . 6 LLM: Technical Analysis, Features & Comparison (2026)",
+      "url": "https://qwen3lm.com/qwen3.6/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

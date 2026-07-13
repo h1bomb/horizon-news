@@ -1,0 +1,32 @@
+{
+  "id": "baf8d658707a9fc1dc661dc93fd65bb015008ce7",
+  "canonicalId": "25cf783499d7da1c7ee4822cfd27ee1243721915",
+  "slug": "radicle基于-git-的点对点代码锻造平台",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Radicle：基于 Git 的点对点代码锻造平台",
+  "summary": "Radicle 是一个基于 Git 的点对点代码锻造平台，作为 GitHub 等中心化平台的去中心化替代方案，使用 P2P 网络进行协作。 它提供了抗审查的去中心化代码托管方案，让开发者掌握自身基础设施和数据，对关注中心化问题的开源社区至关重要。 Radicle 支持私有仓库，但历史记录仍公开，仅不公开新更新；默认使用加密身份和签名构件。该项目近期迁移至 radicle.dev 域名。",
+  "score": 8,
+  "tags": [
+    "git",
+    "distributed-vcs",
+    "forge",
+    "open-source",
+    "p2p"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 15, 12:07",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48147603"
+    }
+  ],
+  "originalUrl": "https://radicle.dev/",
+  "originalSite": "radicle.dev",
+  "context": "代码锻造平台是托管和协作代码仓库的平台。中心化平台如 GitHub 占主导地位，但依赖单一公司的基础设施。Radicle 利用 Git 的分布式特性和点对点网络，创建用户自行托管数据的去中心化锻造平台。",
+  "discussion": "社区对 Radicle 未采用 AGPL 许可证表示担忧，认为 SaaS 公司可能利用漏洞。其他用户则赞赏其本地优先设计、私有仓库支持及在代理工作流中的应用。域名迁移也受到关注。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

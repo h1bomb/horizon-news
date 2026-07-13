@@ -1,0 +1,44 @@
+{
+  "id": "1fc6bb69c880ad288d935c757470b0879fcc02c0",
+  "canonicalId": "6624926212dc2eb5edbb40092ef56bd7997ae5e1",
+  "slug": "苹果确认-ios-13-和-14-存在严重安全风险敦促用户立即升级至-ios-15-或更高版本",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-21T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果确认 iOS 13 和 14 存在严重安全风险，敦促用户立即升级至 iOS 15 或更高版本",
+  "summary": "苹果确认所有运行 iOS 13 或 14 的 iPhone 用户需立即更新，因为常规网页浏览可能触发利用 WebKit 漏洞的攻击，导致个人数据暴露。苹果已于 3 月 11 日发布安全更新，包括 iOS 15.8.7 和 iOS 16.7.15，但完整防护仅支持 iOS 15 及以上版本。 这很重要，因为该漏洞影响了数百万仍在使用旧版 iOS 的设备，通过日益普遍的基于网页的攻击带来数据泄露的高风险。它强调了及时软件更新对维护安全的关键性，尤其是在移动浏览器因沙箱较弱和运行时可见性有限而面临更多威胁的背景下。 该漏洞编号为 CVE-2026-20643，源于 WebKit 导航 API 中的跨源问题，允许恶意网页内容绕过安全防护。苹果已实施背景安全改进机制来静默修补此类漏洞，无需完整系统更新，但这仅适用于 iOS 15 及更高版本等受支持的系统。",
+  "score": 8,
+  "tags": [
+    "iOS",
+    "Security",
+    "Apple",
+    "Vulnerability",
+    "Software Update"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 20, 01:12"
+    }
+  ],
+  "originalUrl": "https://appleinsider.com/articles/26/03/19/iphone-isnt-safe-on-old-ios-anymore-update-to-at-least-ios-15-now?utm_source=rss",
+  "originalSite": "appleinsider.com",
+  "context": "WebKit 是 Safari 和其他 iOS 应用用于渲染网页内容的浏览器引擎，其中的漏洞可能允许攻击者跨源执行代码或访问数据。iOS 安全更新通常包含对此类漏洞的修补，苹果最近转向背景安全改进机制以实现更快、更少干扰的修复。由于浏览器沙箱较弱且黑客攻击增加，针对移动设备的基于网页的攻击正在上升。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Apple WebKit Vulnerability Enables Malicious Web Content ...",
+      "url": "https://cybersecuritynews.com/apple-webkit-vulnerability/"
+    },
+    {
+      "title": "Apple's First (BSI) for macOS, iOS, & iPad: What You Need to Know",
+      "url": "https://addigy.com/blog/apple-releases-first-background-security-improvement-for-macos-ios-and-ipados/"
+    },
+    {
+      "title": "Hackers are cracking mobile browsers to bypass security ...",
+      "url": "https://www.techradar.com/pro/security/hackers-are-cracking-mobile-browsers-to-bypass-security-heres-how-they-do-it-and-how-to-stay-safe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

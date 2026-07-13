@@ -1,0 +1,44 @@
+{
+  "id": "d08321926a4d701166ccebe44ee5431ce76bebcb",
+  "canonicalId": "3f6feb236fe47709a23212393066d2a9a3fdf15c",
+  "slug": "zhipu-ai-releases-glm-5v-turbo-a-multimodal-programming-foundation-model-with-native-visual-encoding-and-agent-collaboration",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T01:48:00Z",
+  "lang": "en",
+  "title": "Zhipu AI releases GLM-5V-Turbo, a multimodal programming foundation model with native visual encoding and Agent collaboration",
+  "summary": "Zhipu AI (Z.ai) released GLM-5V-Turbo, its first multimodal programming foundation model, which natively supports multimodal inputs like images, videos, and text and is optimized for Agent collaboration to complete tasks such as GUI exploration and code debugging. The model is deeply optimized for Agent systems like Claude Code and OpenClaw and extends a multimodal toolchain including functions like drawing boxes, taking screenshots, and reading web pages with image recognition. This release represents a novel advancement in AI for programming tasks, potentially enhancing software engineering efficiency by enabling AI agents to autonomously handle complex visual and coding workflows. It aligns with industry trends toward multimodal reasoning and agent collaboration, which could impact fields like AI/ML development and automation. GLM-5V-Turbo is designed for a complete Agent loop of 'understand environment—plan action—execute task' and supports tasks like GUI exploration, code debugging, and webpage reproduction. It is part of a broader update that includes upgrades to base models like GLM-4-Air/Flash and inference models like GLM-Z1 series, along with an AI search tool supporting multi-engine switching.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Multimodal Models",
+    "Programming",
+    "Agent Systems",
+    "Computer Vision"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://docs.bigmodel.cn/cn/update/new-releases",
+  "originalSite": "docs.bigmodel.cn",
+  "context": "Multimodal models combine different types of data inputs, such as text and images, to perform complex reasoning tasks. Native visual encoding refers to a model's ability to process visual information directly without relying on separate encoders, improving efficiency and accuracy. Agent collaboration involves multiple AI agents working together autonomously to solve larger problems, often used in systems for automation and task decomposition.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Z.ai debuts open source GLM-4.6V, a native tool-calling vision",
+      "url": "https://tradepoint.io/z-ai-debuts-open-source-glm-4-6v-a-native-tool-calling-vision-model-for-multimodal-reasoning/"
+    },
+    {
+      "title": "Multi-Agent Collaboration: A Guide to Distributed AI",
+      "url": "https://www.salesforce.com/agentforce/ai-agents/multi-agent-collaboration/"
+    },
+    {
+      "title": "[2511.21150] LLaVA-UHD v3: Progressive Visual Compression for",
+      "url": "https://arxiv.org/abs/2511.21150"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

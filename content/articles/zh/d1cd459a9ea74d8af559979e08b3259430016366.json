@@ -1,0 +1,44 @@
+{
+  "id": "d1cd459a9ea74d8af559979e08b3259430016366",
+  "canonicalId": "8e2a6bc6e401baa9ceab1e62db32602ab3c604b8",
+  "slug": "研究者发现-cbse-在线阅卷系统严重漏洞",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T05:52:00Z",
+  "lang": "zh",
+  "title": "研究者发现 CBSE 在线阅卷系统严重漏洞",
+  "summary": "这些漏洞影响数百万学生参加的高利害全国性考试系统，一旦被利用，可导致未经授权的成绩修改，破坏整个考试过程的公正性。 研究者发现系统使用了硬编码主密码、完全在客户端验证 OTP、允许绕过登录页面，并且存在 SQL 注入漏洞；他于 2026 年 2 月向 CERT-In 报告，但 CBSE 起初否认漏洞存在。",
+  "score": 9,
+  "tags": [
+    "security vulnerability",
+    "CBSE",
+    "online exam system",
+    "India",
+    "cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://ni5arga.com/blog/posts/hacking-cbse/",
+  "originalSite": "ni5arga.com",
+  "context": "硬编码密码是嵌入在源代码中的固定凭证，攻击者可轻易提取并绕过认证。客户端 OTP 验证意味着一次性密码在用户浏览器中校验，可通过浏览器开发者工具绕过。SQL 注入允许攻击者在数据库上执行任意 SQL 命令，可能读取或修改敏感数据。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Hardcoded Password Found in Cisco Software",
+      "url": "https://www.bleepingcomputer.com/news/security/hardcoded-password-found-in-cisco-software/"
+    },
+    {
+      "title": "logging - What security risks do you see with wrong OTPs",
+      "url": "https://security.stackexchange.com/questions/276635/what-security-risks-do-you-see-with-wrong-otps-appearing-in-application-logs"
+    },
+    {
+      "title": "SQL injection - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SQL_injection"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

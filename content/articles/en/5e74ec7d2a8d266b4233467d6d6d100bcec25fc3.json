@@ -1,0 +1,45 @@
+{
+  "id": "5e74ec7d2a8d266b4233467d6d6d100bcec25fc3",
+  "canonicalId": "065047e21dc358331dc431a2d80e7db6e64fc8ad",
+  "slug": "claude-code-burns-33k-tokens-before-reading-prompt-opencode-uses-7k",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T18:25:00Z",
+  "lang": "en",
+  "title": "Claude Code burns 33k tokens before reading prompt; OpenCode uses 7k",
+  "summary": "A systematic comparison reveals that Claude Code uses approximately 33,000 tokens before processing the user's prompt, while OpenCode uses only about 7,000 tokens — a roughly 4.7x difference in overhead. The study logged all requests between the tools and Anthropic's endpoint to capture token usage data. This token inefficiency directly impacts developers' costs when using Claude Code, as users pay per token. The findings also raise broader questions about business incentives and design choices in AI coding tools, especially as agentic coding becomes more popular. The overhead is attributed to Claude Code's cache strategy and harness token usage, including a large system prompt and aggressive tool calling. Community reports also indicate that sub-agents launched by Claude Code can burn through budgets rapidly, even before completing a task.",
+  "score": 8,
+  "tags": [
+    "AI coding tools",
+    "token efficiency",
+    "Claude Code",
+    "OpenCode",
+    "agentic coding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "systima",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48883275"
+    }
+  ],
+  "originalUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+  "originalSite": "systima.ai",
+  "context": "Agentic coding tools are AI systems that perform multi-step software development tasks autonomously by breaking goals into steps, calling tools, and iterating until done. A 'harness' in this context refers to the orchestration layer that manages tool usage and communication; inefficient harnesses consume tokens on system prompts, context caching, and unnecessary tool calls before the model even sees the user's request.",
+  "discussion": "Commenters largely agree that Claude Code's token overhead is excessive, with some attributing it to sub-agent orchestration inefficiency or Anthropic's profit incentives. Others suggest that the problem extends beyond Claude Code, noting a broader trend of 'tokenflation' where tools increase token consumption over time. The post author has pledged to follow up with more rigorous tests including qualitative results.",
+  "references": [
+    {
+      "title": "Agentic Coding Tools : 5 AI Assistants That Actually Work (And 3 That...",
+      "url": "https://www.linkedin.com/pulse/agentic-coding-tools-5-ai-assistants-actually-work-3-dont-kuhnicai-8pnwe"
+    },
+    {
+      "title": "How to Measure AI Agent Token Usage | Tokenade",
+      "url": "https://tokenade.net/en/articles/measure-agent-token-usage"
+    },
+    {
+      "title": "Stop Your AI Agent From Bleeding Tokens . | Level Up Coding",
+      "url": "https://levelup.gitconnected.com/stop-your-ai-agent-from-bleeding-tokens-start-building-harnesses-b855ce210a9b"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2d27ac3ca148fbb40dc1acd054e74d3bae22d7e9",
+  "canonicalId": "9e8a638b92d05a2f5bd236d2e71eb3375c9909c9",
+  "slug": "llm-辅助的内存管理补丁集被评估",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T14:06:00Z",
+  "lang": "zh",
+  "title": "LLM 辅助的内存管理补丁集被评估",
+  "summary": "两个由资深内核开发者借助 LLM 开发的大型内存管理补丁集正在被 Linux 内核社区评估。 这标志着 AI 生成贡献被接受的方式的转变，来自受尊敬开发者的补丁被认真对待，可能为未来的 LLM 辅助工作树立先例。 其中一套由 Rik van Riel 提出的补丁引入了“超级页块”，旨在无需依赖不灵活的 hugetlbfs 预留系统即可可靠分配 1GB 大页，解决内存碎片化挑战。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "LLM",
+    "memory management",
+    "patch sets",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1080162/",
+  "originalSite": "lwn.net",
+  "context": "长期运行的 Linux 系统中内存碎片化使得大块连续内存分配变得困难。内核使用页块（如 4MB）来管理碎片，但 1GB 分配在没有 hugetlbfs 的情况下不可靠，而 hugetlbfs 在启动时预留内存。超级页块旨在为分配决策提供新的可见性层次。",
+  "discussion": "文章指出，来自未知开发者的 LLM 贡献曾受到质疑，但来自资深开发者的补丁得到了更认真的评估，凸显了贡献者声誉的重要性。",
+  "references": [
+    {
+      "title": "Memory Fragmentation in Linux: Causes, Fixes & Tools",
+      "url": "https://www.pingcap.com/blog/linux-kernel-vs-memory-fragmentation-1/"
+    },
+    {
+      "title": "Fix performance issues due to Linux memory fragmentation - Alibaba Cloud Linux - Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/alinux/support/solutions-to-memory-fragmentation-in-linux-operating-systems"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

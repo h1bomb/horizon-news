@@ -1,0 +1,44 @@
+{
+  "id": "5cd1c0cc3269bffd3d2f7b568dca7bee8112b092",
+  "canonicalId": "40c17347f3a109527207354f0c9f8e11cffbcaba",
+  "slug": "veridisquo-open-source-deepfake-detector-combines-spatial-and-frequency-analysis-with-visual-heatmaps",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-07T13:53:00Z",
+  "lang": "en",
+  "title": "VeridisQuo: Open-source deepfake detector combines spatial and frequency analysis with visual heatmaps",
+  "summary": "Researchers have released VeridisQuo, an open-source deepfake detection system that uniquely combines parallel spatial analysis using an EfficientNet-B4 model with frequency analysis using FFT and DCT. The system generates GradCAM heatmaps that visually highlight manipulated facial regions in videos, such as blending boundaries and jawlines. This matters because it addresses a key limitation of many deepfake detectors that rely solely on pixel-level features, potentially improving detection robustness by capturing frequency-domain artifacts left by generation algorithms. As deepfakes become more sophisticated and widespread, open-source, multimodal detection tools with explainable outputs are crucial for media forensics, content moderation, and building public trust. The model has about 25 million parameters, fuses a 1792-dim spatial vector with a 1024-dim frequency vector, and was trained on the FaceForensics++ (C23) dataset covering multiple manipulation methods. A notable technical feature is its integration of GradCAM to produce video overlays showing detection triggers, though its performance on unseen datasets like Celeb-DF or DFDC remains to be fully validated.",
+  "score": 7,
+  "tags": [
+    "deepfake-detection",
+    "computer-vision",
+    "multimodal-analysis",
+    "open-source",
+    "frequency-analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Gazeux_ML"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/j51nr1pqomng1.gif",
+  "originalSite": "i.redd.it",
+  "context": "Deepfake detection aims to identify AI-generated or manipulated media, often focusing on visual inconsistencies. Many detectors analyze spatial features (pixel patterns, textures), but recent research explores frequency-domain analysis (using transforms like FFT or DCT) to find compression artifacts or spectral anomalies introduced during generation. EfficientNet-B4 is a convolutional neural network architecture known for balancing accuracy and computational efficiency, often used as a feature extractor. GradCAM is a visualization technique that produces heatmaps showing which regions of an input image most influenced a model's decision.",
+  "discussion": "Community discussion focused on practical evaluation and implications. Key questions asked about the false positive rate, performance on cross-dataset benchmarks like Celeb-DF/DFDC, and hardware requirements. Some noted the GradCAM visualization as a useful feature for interpretability, while others speculated that such detectors could inadvertently serve as adversarial training objectives to improve deepfake generation methods.",
+  "references": [
+    {
+      "title": "Efficientnet Architecture - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/computer-vision/efficientnet-architecture/"
+    },
+    {
+      "title": "DCT vs. FFT Frequency Features for Compression-Robust Deepfake ...",
+      "url": "https://ieeexplore.ieee.org/iel8/11367820/11367822/11368196.pdf"
+    },
+    {
+      "title": "GradCAM Heatmaps for Segmentation with UNet in PyTorch - Idiot",
+      "url": "https://idiotdeveloper.com/gradcam-heatmaps-for-segmentation-with-unet-in-pytorch/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "a4526c2db3abb536a41c55d5cef0ee2735e95cb6",
+  "canonicalId": "a9ae4c2a4e8186406560d8b9493041eb8c451bc4",
+  "slug": "codex-免费和-go-订阅重置周期改为-30-天",
+  "date": "2026-06-03",
+  "publishedAt": "2026-06-02T02:02:00Z",
+  "lang": "zh",
+  "title": "Codex 免费和 Go 订阅重置周期改为 30 天",
+  "summary": "据报道，Codex 免费账号和 Go 订阅账号的配额重置周期已从 7 天延长至 30 天，OpenAI 未发布任何官方公告。 此变更大幅降低了受影响用户的每月重置次数，从 4 次减至 1 次，影响依赖 Codex 进行编码辅助的开发者，并可能促使他们升级到 Team 订阅。 每个周期的单独配额数值似乎没有变化，但免费和 Go 订阅现在每月重置一次而非每周，而 Team 订阅仍保持 7 天周期。",
+  "score": 8,
+  "tags": [
+    "Codex",
+    "GitHub Copilot",
+    "developer tools",
+    "API",
+    "service change"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41701",
+  "originalSite": "t.me",
+  "context": "Codex 是 OpenAI 开发的 AI 编码助手，可协助编写代码、调试和代码审查。它提供不同的订阅层级：免费版有月度使用限制，Go 订阅面向个人开发者，Team 订阅面向组织。重置周期决定了使用配额多久补充一次。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Codex ( AI agent) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Codex_(AI_agent)"
+    },
+    {
+      "title": "Codex | AI Coding Partner from OpenAI | OpenAI",
+      "url": "https://openai.com/codex/"
+    },
+    {
+      "title": "Subscriptions - Codex",
+      "url": "https://docs.codex.io/concepts/subscriptions"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

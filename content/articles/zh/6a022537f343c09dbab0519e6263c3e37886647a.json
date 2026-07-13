@@ -1,0 +1,40 @@
+{
+  "id": "6a022537f343c09dbab0519e6263c3e37886647a",
+  "canonicalId": "f34cbf4010cf037560c1c29e94c796b7d0e419bb",
+  "slug": "下一潜在状态预测变压器学习紧凑世界模型",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T08:44:00Z",
+  "lang": "zh",
+  "title": "下一潜在状态预测：变压器学习紧凑世界模型",
+  "summary": "微软研究院提出下一潜在状态预测（NextLat），一种自监督方法，训练变压器在给定当前潜在状态和下一词元的情况下预测自身的下一潜在状态，从而构建更好的世界模型，并通过自推测解码实现高达 3.3 倍的推理加速。 NextLat 相较于标准下一词元预测，提升了数据效率和表示学习，提供了一种将历史压缩为紧凑信念状态的原则性方法。这有望带来更强大、更快的自回归模型，用于推理和规划任务。 该方法理论上收敛到信念状态——预测未来所需的压缩信息。自推测解码支持多步前瞻，在不牺牲输出质量的情况下实现高达 3.3 倍的无损加速。",
+  "score": 8,
+  "tags": [
+    "transformers",
+    "self-supervised learning",
+    "representation learning",
+    "efficient inference",
+    "Microsoft Research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/jayden_teoh_"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/",
+  "originalSite": "reddit.com",
+  "context": "标准变压器通过下一词元预测进行训练，每个词元提供稀疏的监督。NextLat 增加了一个辅助任务：预测下一个潜在表示，从而压缩序列历史。自推测解码是一种技术，同一模型同时起草和验证词元块，减少顺序生成步骤。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2511.05963] Next-Latent Prediction Transformers Learn Compact World Models",
+      "url": "https://arxiv.org/abs/2511.05963"
+    },
+    {
+      "title": "NeurIPS Keynote #7 Next-Latent Prediction Transformers Learn Compact World Models",
+      "url": "https://neurips.cc/virtual/2025/132811"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

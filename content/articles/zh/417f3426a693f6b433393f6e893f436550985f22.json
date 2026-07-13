@@ -1,0 +1,45 @@
+{
+  "id": "417f3426a693f6b433393f6e893f436550985f22",
+  "canonicalId": "bb83d039abe201ab7748b9bbdd618c050fc958b4",
+  "slug": "人工智能正在打破两种漏洞披露文化",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-09T00:00:00Z",
+  "lang": "zh",
+  "title": "人工智能正在打破两种漏洞披露文化",
+  "summary": "人工智能正在加速协调漏洞披露（CVD）与完全披露之间长期存在的冲突，这一趋势在大语言模型兴起之前就已被预测。 这一转变削弱了传统的 CVD 模式，因为 AI 生成漏洞利用的速度快于补丁协调的速度，增加了无法快速修补的组织面临的风险，并可能使安全态势向完全披露倾斜。 催化剂是软件透明化：开源广泛采用和逆向工具改进使得闭源软件不再有效隐藏。AI 进一步降低了漏洞利用生成的门槛，使封禁补丁越来越难以保护。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "vulnerability disclosure",
+    "security",
+    "open source",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 8, 17:55",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48066524"
+    }
+  ],
+  "originalUrl": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+  "originalSite": "jefftk.com",
+  "context": "在计算机安全领域，协调漏洞披露（CVD）允许供应商在公开披露前有时间修补漏洞，而完全披露则立即公开细节。这两种方法之间的紧张关系已存在数十年，但 AI 快速分析代码并生成漏洞利用的能力正在加剧这一冲突。",
+  "discussion": "tptacek、freeqaz 和 rikafurude21 等专家指出，这种分裂在 LLM 出现前就被预测，并以 Log4Shell 为例说明补丁提交在正式发布前就被利用。Animats 警告 AI 使攻击更快，而世界已处于网络战状态。总体而言，社区认为 AI 是在放大现有漏洞问题，而非创造新问题。",
+  "references": [
+    {
+      "title": "Coordinated vulnerability disclosure",
+      "url": "https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure"
+    },
+    {
+      "title": "Full disclosure (computer security) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Full_disclosure_(computer_security)"
+    },
+    {
+      "title": "Vulnerability Disclosure - OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4daea6f5657a359443d615116d7a7ceaf615069d",
+  "canonicalId": "855a8fa0751bff1ff664dd51090006b1c8a6ef79",
+  "slug": "linux-70s-lazy-preemption-scheduler-change-causes-postgresql-performance-regression-investigation",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-17T13:34:00Z",
+  "lang": "en",
+  "title": "Linux 7.0's lazy-preemption scheduler change causes PostgreSQL performance regression investigation",
+  "summary": "A reported 50% PostgreSQL performance regression with Linux kernel 7.0's default lazy-preemption scheduler change was investigated and found to be less severe than initially reported. The investigation revealed that the regression was caused by increased lock contention due to PostgreSQL's user-space spinlocks being more frequently preempted under the new scheduler mode. This matters because it highlights how sensitive database workloads can be to kernel scheduler changes, potentially affecting many production systems. The incident also illustrates the ongoing challenge for kernel developers to balance latency and throughput across diverse workloads while simplifying scheduler configuration. The time-slice extension feature in Linux 7.0 could mitigate the issue by allowing processes to request temporary preemption protection during critical sections, but PostgreSQL developers noted this would require significant code changes and wouldn't help older kernel versions. The lazy-preemption mode defers preemption until task time slices expire or scheduler ticks occur, unlike full-preemption modes that respond immediately.",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "cpu-scheduler",
+    "performance",
+    "postgresql",
+    "kernel-development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067029/",
+  "originalSite": "lwn.net",
+  "context": "CPU scheduler preemption determines when a running process is removed from the CPU to allow another to run, balancing latency (quick response) against throughput (system efficiency). Linux has offered multiple preemption modes (like PREEMPT_NONE, PREEMPT_VOLUNTARY, and realtime) to accommodate different workloads, with lazy preemption being a newer mode designed to serve both latency-sensitive and throughput-driven applications. PostgreSQL uses user-space spinlocks for concurrency control, which can cause performance issues if lock holders are preempted before releasing locks.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The long road to lazy preemption - lwn.net",
+      "url": "https://lwn.net/Articles/994322/"
+    },
+    {
+      "title": "Lazy Preemption Merged Along With Other Scheduler ... - Phoronix",
+      "url": "https://www.phoronix.com/news/Linux-6.13-Sched-Lazy-Preempt"
+    },
+    {
+      "title": "Preemption (computing) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Preemption_(computing)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

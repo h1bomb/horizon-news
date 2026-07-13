@@ -1,0 +1,45 @@
+{
+  "id": "9104a0ab82a433f0721606b55b1483fe00763de2",
+  "canonicalId": "f0dede98f159d2f9a78f6dde289deafac50db2f9",
+  "slug": "m5dgx-sparkstrix-halo-与-rtx-6000-ai-推理基准对比",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-18T00:00:00Z",
+  "lang": "zh",
+  "title": "M5、DGX Spark、Strix Halo 与 RTX 6000 AI 推理基准对比",
+  "summary": "经过三天的标准化基准测试，对比 M5、DGX Spark、Strix Halo 和 RTX 6000 在 AI 推理上的表现，结果显示 RTX 6000 在模型适配 VRAM 时性能最佳，而 M5 在模型超出 VRAM 时性能保持稳定。 此次对比为 AI 推理硬件选型提供了实际权衡，凸显了内存带宽和 VRAM 溢出惩罚的重要性，帮助开发者在统一内存（Apple）与独立 GPU 方案间做出选择。 RTX 6000 内存带宽约 1800 GB/s，M5 约 600 GB/s，DGX Spark 和 Strix Halo 约 256 GB/s。长时间运行时，M5 MacBook Pro 温度保持在 80°C 左右但噪音类似游戏本，而 EVO X2（Strix Halo）存在散热问题。",
+  "score": 8,
+  "tags": [
+    "hardware comparison",
+    "AI inference",
+    "benchmarking",
+    "LLM",
+    "Apple M5"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 17, 19:49",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tfzsd6/m5_vs_dgx_spark_vs_strix_halo_vs_rtx_6000/"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/mk82wx765r1h1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "AI 推理性能严重依赖内存带宽，每秒生成的 token 数大致与带宽成正比。Apple M5 等统一内存架构无需担心 VRAM 溢出，而 RTX 6000 等独立 GPU 在模型超过显存时性能骤降。DGX Spark 是 NVIDIA 的紧凑型 AI 超级计算机，Strix Halo 是 AMD 面向迷你 PC 的高性能 APU。",
+  "discussion": "高赞评论指出 RTX 6000 在小模型上胜出，但 M5 因统一内存在大模型上表现稳定。其他评论讨论价格差异（M5 Max 128GB 售价 5500 美元 vs DGX Spark 3800 美元），批评 Apple 不可升级和生态封闭，并质疑 M5 在并行请求上的性能（与搭配 vLLM 的 4090 相比）。",
+  "references": [
+    {
+      "title": "Personal AI Supercomputer Powered by Blackwell | NVIDIA DGX",
+      "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/"
+    },
+    {
+      "title": "GMKtec EVO-X2 AI Mini PC AMD Ryzen™ AI Max+ 395",
+      "url": "https://www.gmktec.com/products/amd-ryzen™-ai-max-395-evo-x2-ai-mini-pc"
+    },
+    {
+      "title": "NVIDIA DGX Spark: great hardware, early days for the ecosystem",
+      "url": "https://simonwillison.net/2025/Oct/14/nvidia-dgx-spark/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

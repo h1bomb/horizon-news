@@ -1,0 +1,44 @@
+{
+  "id": "5b9929285355e00a75849f296bde9497d8e7cf90",
+  "canonicalId": "d72113a08701e2c04d3579723f2552b6e704fb4b",
+  "slug": "anthropic-指控阿里巴巴对-claude-发动大规模蒸馏攻击-5b992928",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T06:21:00Z",
+  "lang": "zh",
+  "title": "Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击",
+  "summary": "Anthropic 指控阿里巴巴对其 Claude AI 模型发动大规模蒸馏攻击，利用约 2.5 万个欺诈账户在 2026 年 4 月 22 日至 6 月 5 日期间进行了超过 2880 万次交互。作为回应，阿里巴巴下令要求所有员工卸载 Claude 相关产品，包括 Sonnet、Opus、Fable 及 Claude Code，禁令于 7 月 10 日生效。 此次事件是已知针对 AI 公司规模最大的蒸馏攻击，凸显了通过 API 滥用进行模型提取的威胁日益增长。它可能加剧中美科技公司之间的紧张关系，并促使整个行业采取更严格的安全措施。 该攻击在 45 天内涉及 2.5 万个账户和 2880 万次交互，目标是 Claude 的推理能力。Anthropic 随后收紧了风控策略，而阿里巴巴内部对 Claude 产品的禁令追溯性地禁止使用 Anthropic 的模型，包括 Sonnet、Opus、Fable 和 Claude Code。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Model Distillation",
+    "Anthropic",
+    "Alibaba",
+    "Intellectual Property"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42327",
+  "originalSite": "t.me",
+  "context": "模型蒸馏攻击是指通过反复查询专有的大语言模型，利用输入-输出对来训练竞争模型，从而有效窃取其能力。Anthropic 已开发出分类器和行为指纹识别系统来检测此类攻击，包括思维链诱导和协调账户活动。此次对阿里巴巴及其 Qwen AI 实验室的指控凸显了基于 API 的 AI 服务所面临的风险。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Detecting and preventing distillation attacks \\ Anthropic",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "title": "Claude (AI) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_(AI)"
+    },
+    {
+      "title": "GTIG AI Threat Tracker: Distillation, Experimentation, and (Continued) Integration of AI for Adversarial Use | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "9586f5b40a581994962db868fbb721659d84cfee",
+  "canonicalId": "3e882e8f467ff525cd854cfb35df2031e5ba5877",
+  "slug": "苹果协助-fbi-追踪使用-icloud-匿名邮箱发送威胁信息的用户真实身份",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-28T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果协助 FBI 追踪使用 iCloud 匿名邮箱发送威胁信息的用户真实身份",
+  "summary": "苹果在一项威胁邮件调查中，向 FBI 提供了与匿名“隐藏邮箱地址”功能关联的真实 iCloud 邮箱及账户信息。涉案用户 Alden Ruml 曾生成 134 个匿名邮箱，并承认向 FBI 局长女友发送了威胁邮件。 这一事件揭示了苹果“隐藏邮箱地址”功能在隐私保护方面的局限性，表明其仍可被执法部门追踪，引发了用户匿名性和数据安全性的担忧。它凸显了科技公司透明度、监控以及数字通信中隐私与执法访问权平衡的更广泛讨论。 “隐藏邮箱地址”功能是 iCloud+ 的一部分，允许用户生成唯一的随机邮箱地址并转发到收件箱，但苹果保留在法律合规下将这些地址关联到真实账户的能力。此案涉及一项具体的威胁调查，苹果在法律授权下配合，类似于 Proton Mail 等其他服务的事件。",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "security",
+    "law-enforcement",
+    "apple",
+    "data-protection"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 27, 13:09"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature/",
+  "originalSite": "404media.co",
+  "context": "苹果的“隐藏邮箱地址”是 iCloud+ 中的一项隐私功能，可生成一次性邮箱地址以保护用户真实邮箱免受垃圾邮件和追踪。匿名邮箱服务旨在保护用户身份，但在法律请求下通常存在限制，因为公司可能存储元数据或账户关联信息。执法部门可通过传票或与服务提供商合作追踪此类邮件，这在涉及其他平台的事件中也有体现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How to use Hide My Email with Sign in with Apple",
+      "url": "https://support.apple.com/en-us/105078"
+    },
+    {
+      "title": "Caution: a non privacy reason to not use iCloud+ Hide My Email",
+      "url": "https://discuss.techlore.tech/t/caution-a-non-privacy-reason-to-not-use-icloud-hide-my-email/14142"
+    },
+    {
+      "title": "Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester",
+      "url": "https://www.reddit.com/r/technology/comments/1rlxac2/proton_mail_helped_fbi_unmask_anonymous_stop_cop/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

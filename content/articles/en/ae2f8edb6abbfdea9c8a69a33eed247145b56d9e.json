@@ -1,0 +1,44 @@
+{
+  "id": "ae2f8edb6abbfdea9c8a69a33eed247145b56d9e",
+  "canonicalId": "d72113a08701e2c04d3579723f2552b6e704fb4b",
+  "slug": "anthropic-accuses-alibaba-of-massive-distillation-attack-on-claude",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T06:21:00Z",
+  "lang": "en",
+  "title": "Anthropic Accuses Alibaba of Massive Distillation Attack on Claude",
+  "summary": "Anthropic has accused Alibaba of conducting a massive distillation attack on its Claude AI model, using approximately 25,000 fraudulent accounts to carry out over 28.8 million interactions between April 22 and June 5, 2026. In response, Alibaba ordered all employees to uninstall Claude-related products, including Sonnet, Opus, Fable, and Claude Code, effective July 10. This incident represents the largest known distillation attack against an AI company, highlighting the growing threat of model extraction via API abuse. It could escalate tensions between US and Chinese tech firms and spur stricter security measures across the industry. The attack involved 25,000 accounts and 28.8 million interactions over a 45-day period, targeting Claude's reasoning capabilities. Anthropic has since tightened its risk-control policies, and Alibaba's internal ban on Claude products retroactively prohibits use of Anthropic's models including Sonnet, Opus, Fable, and Claude Code.",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Model Distillation",
+    "Anthropic",
+    "Alibaba",
+    "Intellectual Property"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42327",
+  "originalSite": "t.me",
+  "context": "Model distillation attacks involve repeatedly querying a proprietary large language model and using the input-output pairs to train a competing model, effectively stealing its capabilities. Anthropic has developed classifiers and behavioral fingerprinting systems to detect such attacks, including chain-of-thought elicitation and coordinated account activity. The accusation against Alibaba and its Qwen AI lab underscores the risks of API-based AI services.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Detecting and preventing distillation attacks \\ Anthropic",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "title": "Claude (AI) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_(AI)"
+    },
+    {
+      "title": "GTIG AI Threat Tracker: Distillation, Experimentation, and (Continued) Integration of AI for Adversarial Use | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

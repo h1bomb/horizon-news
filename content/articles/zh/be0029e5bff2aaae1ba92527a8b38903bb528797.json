@@ -1,0 +1,44 @@
+{
+  "id": "be0029e5bff2aaae1ba92527a8b38903bb528797",
+  "canonicalId": "e861c4fa85a418941d4c11564152713c99c420ab",
+  "slug": "scale-23x-会议展示针对-tpm-中间人攻击的内核级防护措施",
+  "date": "2026-04-07",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "lang": "zh",
+  "title": "SCALE 23x 会议展示针对 TPM 中间人攻击的内核级防护措施",
+  "summary": "在 SCALE 23x 会议上，内核开发者 James Bottomley 介绍了针对 TPM 与 Linux 内核间通信的中间人攻击，并描述了为缓解这些威胁而开发的内核级防护措施。他还提到为 GPG 和 OpenSSL 等工具编写代码，以支持 TPM 密钥存储。 这很重要，因为 TPM 中间人攻击可能危及笔记本电脑和服务器等系统中的硬件安全，暴露敏感密钥和数据。内核级防护通过防止主动和被动中间人窃听或篡改 TPM 通信来增强系统安全性，这对于符合 NSA 等组织的标准至关重要。 这些攻击利用 LPC 或 I2C 等总线上的离散 TPM，其通信通常未加密，可用廉价硬件捕获。内核防护包括加密和完整性措施，如 Linux 6.10 的 TPM2 支持，但存在限制，例如 OpenSSH 因转向 LibreSSL 而拒绝补丁。",
+  "score": 7,
+  "tags": [
+    "TPM",
+    "Linux Kernel",
+    "Hardware Security",
+    "System Security",
+    "Kernel Development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 6, 14:08"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064685/",
+  "originalSite": "lwn.net",
+  "context": "可信平台模块（TPM）是大多数 x86 计算机中的硬件或固件组件，提供安全密钥存储和加密功能。中间人攻击涉及在 TPM 总线上插入设备以拦截或修改通信，这可用低成本设备实现。Linux 内核已更新以添加针对此类攻击的防护，如内核安全文档所述。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TPM Security — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/next/security/tpm/tpm-security.html"
+    },
+    {
+      "title": "Linux 6.10 Adding TPM Bus Encryption & Integrity Protection",
+      "url": "https://www.phoronix.com/news/Linux-610-TPM-Encrypt-Integrity"
+    },
+    {
+      "title": "Protecting TPM Commands from Active Interposers - OSFC",
+      "url": "https://www.osfc.io/2022/talks/protecting-tpm-commands-from-active-interposers/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

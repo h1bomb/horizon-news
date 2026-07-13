@@ -1,0 +1,40 @@
+{
+  "id": "f8d7f1e3fa84a49d804cad5ea735d6aef4de0c58",
+  "canonicalId": "0830ce55b8bb49b502acdaf4de67ae2b08a79658",
+  "slug": "cloudflare-experiences-intermittent-global-outages-affecting-many-sites",
+  "date": "2026-06-13",
+  "publishedAt": "2026-06-12T14:31:00Z",
+  "lang": "en",
+  "title": "Cloudflare Experiences Intermittent Global Outages Affecting Many Sites",
+  "summary": "On November 18, 2025, Cloudflare suffered intermittent global outages causing repeated disruptions to multiple websites. The status page was updated multiple times, confirming the issue and implementing fixes, including disabling WARP access in London. As a major global content delivery network and internet infrastructure provider, Cloudflare outages impact a vast number of websites and services worldwide. This incident highlights the fragility of centralized internet infrastructure and the importance of robust redundancy measures. The outage saw multiple cycles of partial recovery and renewed disruption between 20:13 and 21:13 UTC+8. Cloudflare acknowledged the issue and implemented fixes, including disabling WARP access in London, but the root cause has not been disclosed.",
+  "score": 8,
+  "tags": [
+    "Cloudflare",
+    "outage",
+    "global",
+    "network",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41922",
+  "originalSite": "t.me",
+  "context": "Cloudflare provides content delivery network (CDN), DDoS protection, and other internet security services to millions of websites. Its infrastructure includes services like WARP (a VPN-like acceleration service) and Cloudflare Access (a Zero Trust network access solution). Outages of this scale can disrupt a significant portion of the internet.",
+  "discussion": "Comments from the Telegram channel (zaihuapd) are not provided in detail, but the repeated 'explosions' and recovery updates indicate user frustration and concern. The community likely discussed the frequency of disruptions and the need for more transparent communication.",
+  "references": [
+    {
+      "title": "Cloudflare Warp",
+      "url": "https://grokipedia.com/page/Cloudflare_Warp"
+    },
+    {
+      "title": "Cloudflare Access",
+      "url": "https://grokipedia.com/page/Cloudflare_Access"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

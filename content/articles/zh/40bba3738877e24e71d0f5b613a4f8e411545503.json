@@ -1,0 +1,44 @@
+{
+  "id": "40bba3738877e24e71d0f5b613a4f8e411545503",
+  "canonicalId": "8d8e0598795f7b947f443dd9e8184359af1c0974",
+  "slug": "英伟达发布-dlss-5ai-神经渲染实现游戏视觉保真度突破",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "英伟达发布 DLSS 5：AI 神经渲染实现游戏视觉保真度突破",
+  "summary": "英伟达发布了 DLSS 5，该技术引入实时神经渲染模型，为像素注入照片级光照和材质，桥接渲染与现实的差距。该技术将于 2026 年秋季推出，Bethesda、CAPCOM、腾讯、育碧等主要发行商将支持 DLSS 5，支持游戏包括《星空》和《生化危机：安魂曲》。 这代表了自 2018 年实时光线追踪以来计算机图形学领域最重大的突破，使游戏开发者能够实现此前仅好莱坞视觉特效才能达到的照片级计算机图形。生成式 AI 与传统渲染的融合创造了范式转变，可在保持艺术控制的同时显著提升整个游戏行业的视觉真实感。 DLSS 5 将传统渲染与生成式 AI 相结合，在保持艺术家所需创意控制的同时提供视觉真实感的戏剧性飞跃。英伟达 CEO 黄仁勋将其描述为\"图形学的 GPT 时刻\"，将其重要性比作大语言模型在自然语言处理领域的变革性影响。",
+  "score": 9,
+  "tags": [
+    "Computer Graphics",
+    "AI/ML",
+    "Gaming Technology",
+    "Neural Rendering",
+    "NVIDIA"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 16, 20:21"
+    }
+  ],
+  "originalUrl": "https://www.nvidia.com/en-us/geforce/news/dlss5-breakthrough-in-visual-fidelity-for-games/",
+  "originalSite": "nvidia.com",
+  "context": "DLSS（深度学习超级采样）是英伟达的神经渲染技术套件，通过 AI 以较低分辨率渲染然后推断出更高分辨率图像，从而提高帧率、降低延迟并改善图像质量。神经渲染是一种突破性方法，将传统计算机图形学与机器学习相结合，可实现图像合成，在比传统方法更快评估的同时保留复杂的材质属性。之前的 DLSS 版本引入了多帧生成和 Transformer 模型等技术，DLSS 4.5 则带来了动态多帧生成能力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Deep Learning Super Sampling - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deep_Learning_Super_Sampling"
+    },
+    {
+      "title": "3D Neural Rendering and Its Real-Time Power",
+      "url": "https://rebusfarm.net/blog/3d-neural-rendering-and-its-real-time-power"
+    },
+    {
+      "title": "DLSS 4 Technology | NVIDIA",
+      "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

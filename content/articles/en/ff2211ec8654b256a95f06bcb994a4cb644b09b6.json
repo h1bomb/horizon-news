@@ -1,0 +1,40 @@
+{
+  "id": "ff2211ec8654b256a95f06bcb994a4cb644b09b6",
+  "canonicalId": "8477121fa9d44280c59667e5458343b5caa69f9a",
+  "slug": "loadable-crypto-module-proposed-for-fips-certification",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T14:29:00Z",
+  "lang": "en",
+  "title": "Loadable Crypto Module Proposed for FIPS Certification",
+  "summary": "A patch series by Amazon engineer Jay Wang proposes decoupling the Linux kernel crypto subsystem into a standalone loadable module, enabling a FIPS-certified module to be reused across multiple kernel versions without requiring full recertification. This proposal addresses a major pain point for organizations requiring FIPS compliance, as kernel updates currently invalidate certification and force lengthy recertification cycles, reducing the cost and delay of maintaining FIPS-certified Linux deployments. The proposal must overcome three obstacles: the build system cannot easily collect built-in objects into a module, the kernel's one-way symbol resolution prevents modules from exporting symbols to the main kernel, and the crypto subsystem must be available early in boot before the root filesystem is mounted.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "crypto",
+    "FIPS",
+    "kernel modules",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073759/",
+  "originalSite": "lwn.net",
+  "context": "FIPS (Federal Information Processing Standards) 140-3 certification is a rigorous validation process for cryptographic modules required by US government agencies and regulated industries. The certification is tied to the exact binary, so any kernel change invalidates it. Currently, Linux crypto is built into the main kernel, causing lengthy recertification after every update. This proposal aims to isolate the crypto code into a loadable module that can be certified once and reused across kernel versions.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "FIPS Certification Process - Corsec Security, Inc.",
+      "url": "https://www.corsec.com/fips-certification-process/"
+    },
+    {
+      "title": "FIPS Certification and Why Its Important for the Public Sector - ORDR",
+      "url": "https://ordr.net/blog/ordr-and-fips-certification"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "6bf8972d4fa3cba2087e5f5f4a34244441754011",
+  "canonicalId": "939a6738aaab3a3f5acbdd0ccbf992555de151b9",
+  "slug": "hauhaucs-的未审查-llm-基于抄袭的-heretic-工具",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-27T00:00:00Z",
+  "lang": "zh",
+  "title": "HauhauCS 的未审查 LLM 基于抄袭的 Heretic 工具",
+  "summary": "以流行未审查 LLM 模型闻名的 HauhauCS 发布了一个名为'reaper-abliteration'的软件包，该包是 Heretic abliteration 工具的抄袭分支，违反了 AGPL-3.0 许可证，删除了署名并添加了商业限制。 这一事件破坏了开源 LLM 社区的信任，因为 HauhauCS 的模型每月下载量超过 500 万次，抄袭行为违反了软件伦理和许可证合规性，可能影响依赖正确署名的用户和开发者。 证据显示，7/7 的模块文件名、30/32 的拒绝标记以及 30 多个函数名与 Heretic v1.2.0 完全相同，内部变量名如'good_residuals'和'bad_residuals'未作更改。Heretic 的原始创建者证实了这些发现。",
+  "score": 8,
+  "tags": [
+    "plagiarism",
+    "open-source",
+    "LLM",
+    "ethics",
+    "license-violation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 26, 13:13"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sw77p0/hauhaucs_of_uncensored_aggressive_fame_published/",
+  "originalSite": "reddit.com",
+  "context": "Abliteration 是一种无需重新训练即可从 LLM 中移除拒绝行为的技术，常用于创建未审查模型。Heretic 是一个开源工具，使用 Optuna 参数优化自动化此过程，采用 AGPL-3.0 许可证，要求衍生作品保留署名并采用相同许可证。",
+  "discussion": "社区表达了强烈谴责，许多用户报告称因提问而被 HauhauCS 屏蔽。Heretic 的原始创建者确认了抄袭行为，用户指出这种不当行为损害了声誉和信任。",
+  "references": [
+    {
+      "title": "GitHub - p-e-w/ heretic : Fully automatic censorship removal for...",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "title": "Uncensor any LLM with abliteration",
+      "url": "https://huggingface.co/blog/mlabonne/abliteration"
+    },
+    {
+      "title": "agpl 3.0 - Are license headers required under the AGPLv3? -",
+      "url": "https://opensource.stackexchange.com/questions/5524/are-license-headers-required-under-the-agplv3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

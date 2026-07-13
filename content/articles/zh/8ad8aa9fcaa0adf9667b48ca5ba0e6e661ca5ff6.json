@@ -1,0 +1,44 @@
+{
+  "id": "8ad8aa9fcaa0adf9667b48ca5ba0e6e661ca5ff6",
+  "canonicalId": "dfbbe48e9d0c8cddd782d3b6d02238aade6848df",
+  "slug": "社区创建新颖基准测试评估-ai-模型生成-threejs-动画场景代码的能力",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-12T00:00:00Z",
+  "lang": "zh",
+  "title": "社区创建新颖基准测试，评估 AI 模型生成 Three.js 动画场景代码的能力",
+  "summary": "一位 Reddit 用户提出了一个创意基准测试，用于评估多个 AI 模型生成完整 Three.js 代码的能力，要求创建一个电影级场景，其中包含迈克尔·杰克逊、佩佩蛙、唐纳德·特朗普和埃隆·马斯克表演《Thriller》舞蹈，并具备详细的动画、灯光和渲染效果。该基准测试引发了广泛的社区讨论，用户们比较了包括 Claude 3.5 Sonnet、Gemini、ChatGPT、Deepseek、Qwen、GLM 和 Minimax 在内的多个模型的输出结果。 这很重要，因为它代表了一种新颖的 AI 基准测试方法，测试的是创意编码能力而非传统指标，能够揭示不同模型在处理需要技术精度和艺术解释的复杂多层面任务时的表现。这种创意基准测试可以展示模型在 Web 开发和数字内容创作等实际应用中的优势和不足，同时也突显了防止模型针对基准测试问题进行专门训练的挑战。 该基准测试专门评估模型生成 Three.js 代码的能力，要求实现\"视觉完美最大化\"，包含详细角色动画、灯光效果和电影级渲染质量。社区评论显示，Claude 3.5 Sonnet 在灯光和角色模型方面表现特别出色，而 Gemini 在舞蹈编排动画方面表现优异，但一些模型如 Minimax 和 GLM 未能完成任务，Qwen 则完全误解了要求。",
+  "score": 7,
+  "tags": [
+    "AI Benchmarking",
+    "Three.js",
+    "LLM Evaluation",
+    "Creative Coding",
+    "Community Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 11, 05:35"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/fbh8py3srcog1",
+  "originalSite": "v.redd.it",
+  "context": "Three.js 是一个流行的 JavaScript 库，用于在 Web 浏览器中创建 3D 图形，广泛应用于交互式可视化、游戏和创意编码项目。LLM 评估通常涉及系统性地评估语言模型在特定任务上的表现，使用从自动评分到针对自定义标准的人工判断等多种指标。像这样的创意编码基准测试评估 AI 模型为复杂视觉场景生成功能完善、美观的代码的能力，超越了传统的编码挑战，评估艺术性和技术性的整合。",
+  "discussion": "社区讨论显示出用户们积极参与，比较了具体模型的表现，指出 Claude 3.5 Sonnet 在灯光和角色建模方面表现优异，而 Gemini 在舞蹈动画方面表现最佳。几位用户称赞该基准测试的创意性和自发性，认为这是防止模型针对测试问题进行专门训练的有效方法，不过也有人对角色选择提出疑问，并担心基准测试的激增可能会让模型训练过程不堪重负。",
+  "references": [
+    {
+      "title": "Arena AI: The Official AI Ranking & LLM Leaderboard",
+      "url": "https://arena.ai/"
+    },
+    {
+      "title": "LLM evaluation metrics and methods",
+      "url": "https://www.evidentlyai.com/llm-guide/llm-evaluation-metrics"
+    },
+    {
+      "title": "A Side-by-Side Comparison of AI Code Generation Engines -",
+      "url": "https://www.inspyrsolutions.com/comparison-of-ai-code-generation-engines/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

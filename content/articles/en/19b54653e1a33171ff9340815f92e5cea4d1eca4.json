@@ -1,0 +1,41 @@
+{
+  "id": "19b54653e1a33171ff9340815f92e5cea4d1eca4",
+  "canonicalId": "6b89a90e69f128dbe436536960780764f11ed998",
+  "slug": "project-valhallas-value-types-arrive-in-jdk-28",
+  "date": "2026-06-20",
+  "publishedAt": "2026-06-19T06:35:00Z",
+  "lang": "en",
+  "title": "Project Valhalla's value types arrive in JDK 28",
+  "summary": "After a decade of development, Project Valhalla's value types are finally arriving in JDK 28, fundamentally changing how the JVM handles memory layout for objects. This significantly improves performance and memory efficiency for Java applications, especially for data-intensive workloads, by enabling dense storage of values without object headers or pointers. Value types allow arrays of objects to be stored contiguously with no per-element headers, but heap flattening is limited to objects with representations up to 64 bits; larger objects still incur indirection.",
+  "score": 9,
+  "tags": [
+    "Java",
+    "Project Valhalla",
+    "JVM",
+    "value types",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "philonoist",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48595511"
+    }
+  ],
+  "originalUrl": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+  "originalSite": "jvm-weekly.com",
+  "context": "Project Valhalla is an OpenJDK project started in 2014 to introduce value types to Java. Value types are user-defined types that behave like primitives, with no identity and compact memory layout. This is a major evolution of the Java object model, aiming to combine the performance of primitives with the abstraction of objects.",
+  "discussion": "The community discussion shows a mix of appreciation for the hard work and criticism, particularly around the complexity of the null safety model and the limitations of heap flattening for larger objects. Some commenters defend Java's evolution, noting that Java has improved significantly since its early days.",
+  "references": [
+    {
+      "title": "Project Valhalla (Java language)",
+      "url": "https://en.wikipedia.org/wiki/Project_Valhalla_(Java_language)"
+    },
+    {
+      "title": "Project Valhalla",
+      "url": "https://openjdk.org:443/projects/valhalla/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

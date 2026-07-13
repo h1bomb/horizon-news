@@ -1,0 +1,44 @@
+{
+  "id": "388b600b31047364355bbc65ae224f5c1b0ef228",
+  "canonicalId": "31cf0be9dd41785ebadffddc2946ecfe36ff94e1",
+  "slug": "基准测试显示-qwen35-397b-nvfp4-在-rtx-pro-6000-上存在-505-toks-上限原因为-cutlass-内核错误",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-13T00:00:00Z",
+  "lang": "zh",
+  "title": "基准测试显示 Qwen3.5-397B NVFP4 在 RTX PRO 6000 上存在 50.5 tok/s 上限，原因为 CUTLASS 内核错误",
+  "summary": "针对 4 块 RTX PRO 6000 GPU 上 Qwen3.5-397B NVFP4 模型的 16 种配置进行全面基准测试，发现性能上限为每秒 50.5 个 token，这被追踪到 NVIDIA CUTLASS 内核在 SM120 硬件上的错误。Marlin W4A16 后端配合 TP=4 且无 MTP 的设置获得了最佳性能，而基于 CUTLASS 的配置则表现出显著性能下降。 这一发现具有重要意义，因为它揭示了一个影响高端工作站 GPU 的关键软硬件兼容性问题，可能影响依赖 NVIDIA Blackwell 架构进行 MoE 模型推理的开发者和研究人员。这些发现挑战了夸大的性能宣称，并为优化推理设置提供了具体数据，突显了在实际部署场景中进行全面基准测试的重要性。 基准测试涵盖了包括 Marlin W4A16 和 FlashInfer CUTLASS 在内的多个后端，测试了张量并行（TP）和流水线并行（PP）配置，发现多 token 预测（MTP）实际上会降低性能。CUTLASS 错误导致内核跳过和崩溃，迫使系统回退到较慢的内核，而测试硬件专门使用 SM120 架构（工作站版 Blackwell）而非数据中心版 B200（SM100）。",
+  "score": 8,
+  "tags": [
+    "LLM Benchmarking",
+    "MoE Models",
+    "GPU Performance",
+    "NVIDIA CUTLASS",
+    "Hardware Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 12, 03:22"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rrfqlu/i_spent_8_hours_benchmarking_every_moe_backend/",
+  "originalSite": "reddit.com",
+  "context": "像 Qwen3.5-397B 这样的混合专家（MoE）模型使用专门架构，其中每个 token 仅激活参数子集（专家），从而提高大型模型的效率。NVFP4 是 NVIDIA 专有的 4 位浮点量化格式，旨在减小模型大小同时保持推理精度。CUTLASS 是 NVIDIA 的 CUDA 模板库，用于高性能线性代数运算，为 GPU 上的矩阵计算提供优化内核。",
+  "discussion": "社区讨论包含关于错误报告实践的建设性反馈，建议简化报告并包含复现步骤。一些用户报告了不同设置下的更高性能，表明与裸机 Linux 相比，WSL2 可能导致性能损失。多条评论提到了 Discord 社区，其中用户宣称获得显著更高的速度，但这些宣称在基准测试背景下缺乏验证。",
+  "references": [
+    {
+      "title": "Making MoE based LLM inference resilient with Tarragon",
+      "url": "https://arxiv.org/html/2601.01310v1"
+    },
+    {
+      "title": "Advanced Quantization Formats | pytorch/ao | DeepWiki",
+      "url": "https://deepwiki.com/pytorch/ao/6-advanced-quantization-formats"
+    },
+    {
+      "title": "Overview — NVIDIA CUTLASS Documentation",
+      "url": "https://docs.nvidia.com/cutlass/overview.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

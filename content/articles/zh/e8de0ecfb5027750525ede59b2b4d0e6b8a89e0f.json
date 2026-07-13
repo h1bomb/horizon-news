@@ -1,0 +1,45 @@
+{
+  "id": "e8de0ecfb5027750525ede59b2b4d0e6b8a89e0f",
+  "canonicalId": "19b687fd529fce8cb1c16082a68a92e9bc183ae2",
+  "slug": "transformer-语言模型在未修改的-game-boy-color-上运行",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-13T00:00:00Z",
+  "lang": "zh",
+  "title": "Transformer 语言模型在未修改的 Game Boy Color 上运行",
+  "summary": "一个 Transformer 语言模型（TinyStories-260K）已成功在未修改的 Game Boy Color 上本地运行，使用定点算术和存储体切换的卡带 ROM 来存储模型权重。 这表明即使是资源严重受限的 8 位硬件也能运行现代 Transformer 模型，推动了边缘推理的边界，并展示了低功耗离线 AI 应用的潜力。 该模型是 Andrej Karpathy 的 TinyStories-260K，转换为 INT8 权重，并使用带有定点算术的自定义内核。KV 缓存存储在卡带 SRAM 中，提示输入通过 Game Boy 的十字键和按钮完成。",
+  "score": 8,
+  "tags": [
+    "transformer",
+    "Game Boy",
+    "edge inference",
+    "quantization",
+    "hobbyist"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 12, 23:15",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tbi2n3/i_got_a_real_transformer_language_model_running/"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/1hl9id7ghs0h1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Game Boy Color 拥有约 8 MHz 的 8 位 CPU，32 KB 的工作 RAM 和有限的卡带 ROM/RAM。TinyStories-260K 是一个极小的 Transformer，基于简单故事训练，仅 26 万个参数。定点算术避免了浮点硬件，MBC5 存储体切换允许通过交换存储体访问最多 8 MB 的 ROM。",
+  "discussion": "社区表达了强烈的钦佩和兴奋，评论如“哇，太棒了”和“极其令人印象深刻，做得好！”。一些用户开玩笑说要在其他复古游戏机上运行模型，比如 N64，并提到了类似的项目。",
+  "references": [
+    {
+      "title": "On-Chip LM: TinyStories 260K on Cortex-M7 - Hackaday.io",
+      "url": "https://hackaday.io/project/205074-on-chip-lm-tinystories-260k-on-cortex-m7"
+    },
+    {
+      "title": "Mokey: Enabling Narrow Fixed-Point Inference for Out-of-the ...",
+      "url": "https://arxiv.org/abs/2203.12758"
+    },
+    {
+      "title": "GBDK 2020 Docs: ROM/RAM Banking and MBCs",
+      "url": "https://gbdk.org/docs/api/docs_rombanking_mbcs.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

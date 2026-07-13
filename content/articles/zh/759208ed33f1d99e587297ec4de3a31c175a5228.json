@@ -1,0 +1,44 @@
+{
+  "id": "759208ed33f1d99e587297ec4de3a31c175a5228",
+  "canonicalId": "0f666941bda3b674cbc4aaa161d2ded9a144ccc5",
+  "slug": "包管理器实施依赖冷却期以应对供应链攻击",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "包管理器实施依赖冷却期以应对供应链攻击",
+  "summary": "包括 pnpm、Yarn、Bun、Deno、uv、pip 和 npm 在内的主要包管理器最近都实现了依赖冷却期功能，这些功能可将新发布包的安装延迟一段可配置的时间，通常为数天到数周。这些功能在 2025 年 9 月至 2026 年 2 月期间陆续添加，其中 pnpm 10.16 于 2025 年 9 月引入了 minimumReleaseAge 设置，而 npm 11.10.0 则在 2026 年 2 月添加了 min-release-age 功能。 这很重要，因为依赖冷却期通过创建一个缓冲期来提供对抗供应链攻击的实际防御手段，在此期间社区可以在恶意更新被广泛采用之前检测到它们。根据 Sonatype 的研究，软件供应链攻击在 2023 年增加了 200%，这些安全措施有助于保护数百万开发者和组织免受受损依赖的影响。 不同的包管理器以不同的配置实现冷却期：pnpm 使用 minimumReleaseAge 配合 minimumReleaseAgeExclude 来排除受信任的包，Yarn 具有 npmMinimalAgeGate（以分钟为单位）配合 npmPreapprovedPackages，Bun 通过 bunfig.toml 配置 minimumReleaseAge，而 pip 26.0 目前仅支持使用--uploaded-prior-to 的绝对时间戳而非相对时长。大多数工具允许对受信任的包进行豁免，并且 Seth Larson 为 pip 的限制提供了一个使用 cron 作业更新绝对日期的变通方案。",
+  "score": 7,
+  "tags": [
+    "package-management",
+    "security",
+    "supply-chain-attacks",
+    "software-engineering",
+    "dependency-management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 24, 21:11"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "依赖冷却期是一种安全措施，它在软件包发布后和可安装前创建一个等待期，为社区检测潜在的恶意更新留出时间。软件供应链攻击发生在恶意行为者破坏开发流水线中的依赖时，这种情况变得越来越普遍，2023 年攻击增加了 200%。包管理器是自动化开发项目中软件依赖的安装、更新和管理过程的工具。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "We should all be using dependency cooldowns",
+      "url": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns"
+    },
+    {
+      "title": "Software Supply Chain Attacks Up 200%: New Sonatype Research",
+      "url": "https://www.techrepublic.com/article/sonatype-state-software-supply-chain-security/"
+    },
+    {
+      "title": "Settings ( pnpm -workspace.yaml) | pnpm",
+      "url": "https://pnpm.io/settings"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

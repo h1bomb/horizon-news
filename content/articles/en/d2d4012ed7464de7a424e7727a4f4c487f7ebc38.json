@@ -1,0 +1,40 @@
+{
+  "id": "d2d4012ed7464de7a424e7727a4f4c487f7ebc38",
+  "canonicalId": "02a47746cc17c2d40bfce5f07e584151a99bd7a8",
+  "slug": "vllm-v0160-released-with-30-throughput-gains-realtime-api-and-major-xpu-updates",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T19:58:00Z",
+  "lang": "en",
+  "title": "vLLM v0.16.0 released with 30%+ throughput gains, Realtime API, and major XPU updates.",
+  "summary": "vLLM v0.16.0 introduces async scheduling with pipeline parallelism, delivering over 30% end-to-end throughput improvement, and launches a new WebSocket-based Realtime API for streaming audio interactions. The release also includes a major overhaul of its XPU platform, deprecating IPEX in favor of new vllm-xpu-kernels with expanded support for models like MoE and new data types. This release significantly boosts the efficiency and scalability of large language model inference, a critical bottleneck for AI applications, making high-volume, low-latency serving more cost-effective. The new Realtime API and expanded hardware support directly enable new interactive, voice-based applications and broaden the range of deployable hardware for AI workloads. The performance gains are quantified as a 30.8% end-to-end throughput improvement and a 31.8% improvement in tokens per output token (TPOT). The Realtime API builds on infrastructure from Mistral AI's Voxtral models, enabling sub-500ms latency streaming ASR. The XPU platform update adds support for mixed experts (MoE) models, MXFP4, WNA16, scaled matrix multiplication (scaled_mm), and FP8 data types.",
+  "score": 8,
+  "tags": [
+    "llm-inference",
+    "model-serving",
+    "performance-optimization",
+    "parallel-computing",
+    "hardware-acceleration"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0",
+  "originalSite": "github.com",
+  "context": "vLLM is a high-throughput and memory-efficient inference and serving engine for large language models (LLMs). Pipeline parallelism is a technique to split a model across multiple GPUs to handle larger models or increase throughput. The term 'XPU' is an Intel abstraction for heterogeneous compute architectures that can map to CPUs, GPUs, FPGAs, or other accelerators. The Realtime API is designed for low-latency, streaming interactions, particularly for voice applications using models like Voxtral.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI Realtime Client - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/examples/online_serving/openai_realtime_client/"
+    },
+    {
+      "title": "What exactly is an XPU? - Artificial Intelligence Stack Exchange",
+      "url": "https://ai.stackexchange.com/questions/28760/what-exactly-is-an-xpu"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dbc4174fccd78a853e31e4330c09df1c3492a7cc",
+  "canonicalId": "a5317f7461f25c09f08e2e406030ae3c1c5e04f2",
+  "slug": "gemma-4-秘密包含多令牌预测权重为兼容性而被移除",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Gemma 4 秘密包含多令牌预测权重，为兼容性而被移除",
+  "summary": "一名开发者发现谷歌的 Gemma 4 模型在其 LiteRT API 文件中包含了多令牌预测（MTP）权重，谷歌员工证实这些权重是为了确保兼容性和广泛可用性而被故意移除的。这一发现源于该模型在 Google Pixel 9 设备上加载时抛出关于张量形状不兼容的错误。 这一发现引发了关于开源 AI 发布透明度的质疑，并突显了潜在的性能权衡，因为 MTP 通过推测解码可以显著加速推理速度。它还反映了 AI 模型部署中开源可访问性与商业利益之间更广泛的紧张关系。 MTP 实现似乎是为推测解码而设计，以实现更快的输出，但尽管存在于 LiteRT 文件中，它仍从标准版本中被移除。技术限制包括 MTP 可能无法在所有场景下加速推理，特别是在 MoE 架构上批处理大小为 1 时，并非所有专家都被激活。",
+  "score": 7,
+  "tags": [
+    "Gemma 4",
+    "Multi-Token Prediction",
+    "Open-Source AI",
+    "Model Inference",
+    "Google AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 7, 08:42"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/7ujshksgdqtg1.png",
+  "originalSite": "i.redd.it",
+  "context": "多令牌预测（MTP）是一种先进的训练技术，使语言模型能够在预训练期间同时预测多个未来令牌，不同于传统的下一令牌预测。它通常用作一种推测解码方法，通过允许模型在单次前向传递中草拟多个令牌来加速推理。LiteRT 是谷歌的高性能设备端机器学习框架，旨在通过硬件加速和简化的 API 优化移动设备上的 AI 模型性能。",
+  "discussion": "社区情绪复杂，一些用户批评谷歌缺乏透明度，并认为其试图将用户锁定在 LiteRT 生态系统中，而其他人则将其视为务实的兼容性决策。关键观点包括对所有场景下性能收益的怀疑、与包含 MTP 且无问题的其他模型（如 Qwen3.5）的比较，以及关于通过逆向工程恢复功能可能性的讨论。",
+  "references": [
+    {
+      "title": "[2505.17505] L-MTP: Leap Multi-Token Prediction Beyond ... L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context ... MTP (Multi-Token Prediction) - vLLM Awesome Multi-Token Prediction (MTP!) - GitHub Evolving LLMs from Next-Token Prediction to Multi-Token ... Multi-Token Prediction (MTP) — Megatron Bridge NeurIPS Poster L-MTP: Leap Multi-Token Prediction Beyond ...",
+      "url": "https://arxiv.org/abs/2505.17505"
+    },
+    {
+      "title": "MTP (Multi-Token Prediction) - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/"
+    },
+    {
+      "title": "LiteRT : High-Performance On-Device Machine Learning Framework",
+      "url": "https://ai.google.dev/edge/litert"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "1d89981dad387c1249101d78df67f3c0e3ea3dcb",
+  "canonicalId": "0186dce28112b4b215f421d797efc3289f6264ef",
+  "slug": "openai-developing-internal-code-repository-to-reduce-github-dependency",
+  "date": "2026-03-05",
+  "publishedAt": "2026-03-04T02:16:00Z",
+  "lang": "en",
+  "title": "OpenAI Developing Internal Code Repository to Reduce GitHub Dependency",
+  "summary": "OpenAI is developing a new internal code repository platform to reduce its reliance on Microsoft-owned GitHub, following recent service disruptions that impacted its engineers' ability to access and collaborate on code. The project is reportedly in early stages and will take several months to complete, with no current plans to offer the platform externally. This move signals a strategic effort by a major AI company to gain more control over its core development infrastructure and mitigate risks from third-party service outages. If successful, it could inspire other large tech organizations to reconsider their dependency on external code hosting platforms and invest in internal developer platforms (IDPs) for greater resilience and efficiency. The initiative was reportedly prompted by multiple GitHub service disruptions that directly hindered OpenAI's development workflows. The platform is intended solely for internal use at this time, focusing on improving development efficiency and stability for OpenAI's own engineering teams.",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "GitHub",
+    "Developer Tools",
+    "AI Infrastructure",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theinformation.com/articles/openai-developing-alternative-microsofts-github",
+  "originalSite": "theinformation.com",
+  "context": "GitHub is a widely used cloud-based platform for version control and collaboration, hosting millions of code repositories. Many organizations rely on such external services, but service disruptions can severely impact development productivity, leading some to consider self-hosted or internal alternatives. An internal developer platform (IDP) is a curated set of tools and capabilities that platform teams provide to developers to standardize workflows and accelerate development.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Platform as code: Reference architectures to simplify ... Internal Developer Platform (IDP) Reference Architectures Building an Internal Developer Platform: 4 Essential Pillars AWS Prescriptive Guidance - Building an internal developer ... Exploring repository architecture strategy – GitHub Well ...",
+      "url": "https://medium.com/digital-mckinsey/platform-as-code-reference-architectures-to-simplify-developer-platforms-f2fb48e0c874"
+    },
+    {
+      "title": "Degradation vs disruption - Alex Ewerlöf Notes",
+      "url": "https://blog.alexewerlof.com/p/service-degradation-vs-disruption"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

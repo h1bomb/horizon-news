@@ -1,0 +1,40 @@
+{
+  "id": "4e4921bac52044faf2658fd094c113373c8a5319",
+  "canonicalId": "133bdf7f42c952b4e686c1efe0ec936716a8b20f",
+  "slug": "armin-ronacher-批评-ai-生成的错误报告不准确",
+  "date": "2026-05-25",
+  "publishedAt": "2026-05-24T18:46:00Z",
+  "lang": "zh",
+  "title": "Armin Ronacher 批评 AI 生成的错误报告不准确",
+  "summary": "Flask 和 Jinja2 的创建者 Armin Ronacher 指出了 AI 生成错误报告日益严重的问题，这些报告虽然自信但内容不准确。他主张将问题报告简化为仅包含人类观察：运行了什么命令、预期行为、实际发生的情况以及确切的错误或日志。 这个问题影响开源维护者，他们浪费时间解读不准确的 AI 生成报告，导致倦怠和生产力下降。这凸显了在软件开发（尤其是错误报告）中更好地使用 AI 的必要性。 Ronacher 将 AI 改写称为“clanker”（对 AI 的贬义称呼），并指出提示不当的 AI 通常会产生虚假的最小复现、错误的原因猜测和不相关的错误列表。他建议采用简单的四点模板来记录人类观察。",
+  "score": 8,
+  "tags": [
+    "open source",
+    "bug reporting",
+    "AI misuse",
+    "software maintenance",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "错误报告对于开源维护至关重要，但像 LLM 这样的 AI 工具越来越多地被用于生成或完善报告。“最小复现”（minimal repro）是一个代码片段，能以最简上下文可靠地重现错误。Armin Ronacher 是知名开发者，创建了 Flask、Jinja2 和 Werkzeug。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Clanker - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clanker"
+    },
+    {
+      "title": "repro.fyi — The Art of the Minimal Reproduction",
+      "url": "https://repro.fyi/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

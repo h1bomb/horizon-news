@@ -1,0 +1,31 @@
+{
+  "id": "1317425efffa96f4bb0e64665e94c3334ec5d4ec",
+  "canonicalId": "fa31b4c2d1a487be56f7b5afde32519444aff45d",
+  "slug": "critique-of-ml-conference-papers-lacking-code-and-reproducibility",
+  "date": "2026-02-25",
+  "publishedAt": "2026-02-24T10:05:00Z",
+  "lang": "en",
+  "title": "Critique of ML conference papers lacking code and reproducibility",
+  "summary": "A Reddit post criticizes the acceptance of machine learning papers at major conferences without accompanying code or reproducible evidence, citing a specific example where a paper promising fast protein MSA generation via RAG linked to an empty GitHub repository. The post highlights this as a systemic issue enabling potentially fabricated results or methodological errors to go unchecked. This matters because it exacerbates the reproducibility crisis in machine learning, undermining scientific integrity and slowing genuine progress. When papers claiming state-of-the-art (SOTA) performance on expensive-to-train models cannot be verified, it wastes community resources, erodes trust in published research, and hinders the practical application of potentially groundbreaking methods. The critique specifically mentions papers that claim to train huge models and present SOTA results but provide no code, making independent verification impossible due to the high computational cost. A noted example is a paper on protein MSA generation using RAG, which provided a link to a completely empty GitHub repository with no author response regarding code release.",
+  "score": 8,
+  "tags": [
+    "reproducibility",
+    "machine-learning",
+    "academic-research",
+    "open-science",
+    "peer-review"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "osamabinpwnn"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rdca7x/d_papers_with_no_code/",
+  "originalSite": "reddit.com",
+  "context": "In machine learning, 'SOTA' (State-Of-The-Art) refers to the best currently known performance on a specific benchmark task. Major conferences often use platforms like OpenReview for submission and peer review. Reproducibility—the ability for other researchers to obtain the same results using the provided code and data—is a cornerstone of scientific research but is a recognized challenge in computational fields like ML.",
+  "discussion": "Community sentiment is strongly critical, viewing the lack of code as symptomatic of a deeper reproducibility crisis and misaligned career incentives in academia. Key viewpoints include: even provided code is often non-functional or obfuscated; unavailable code prevents detection of results within statistical noise; and some argue the field prioritizes career advancement over rigorous science. Several commenters note that code quality is often poor because academics are not professional software developers.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

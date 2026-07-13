@@ -1,0 +1,40 @@
+{
+  "id": "30666b7986c69289bb458a282e46263d4a3a6f93",
+  "canonicalId": "43aa283f9fcd038d6efdc1e0408fa2a9014f0cb5",
+  "slug": "cxl-使内存管理问题恶化及未来发展方向",
+  "date": "2026-05-20",
+  "publishedAt": "2026-05-20T00:00:00Z",
+  "lang": "zh",
+  "title": "CXL 使内存管理问题恶化及未来发展方向",
+  "summary": "Dan Williams 在 2026 年 Linux 存储、文件系统、内存管理和 BPF 峰会上介绍了 Compute Express Link (CXL)技术如何加剧 Linux 中的内存管理问题，并讨论了未来的发展。 随着 CXL 在数据中心越来越普及，内核必须解决热插拔内存、固件干扰和错误处理等挑战，以确保下一代系统的可靠和高效内存管理。 CXL 内存通过 PCIe 访问，延迟高于远程 NUMA 节点，其热插拔特性意味着部分 RAM 可能消失。内核正在采用“代码优先”策略记录硬件偏差，错误处理可能涉及内核崩溃。",
+  "score": 8,
+  "tags": [
+    "CXL",
+    "memory management",
+    "Linux kernel",
+    "data center",
+    "hardware architecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 19, 14:15"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072858/",
+  "originalSite": "lwn.net",
+  "context": "Compute Express Link (CXL)是一种开放标准互连，用于高速 CPU 到设备和 CPU 到内存的连接，面向高性能数据中心。它通过 PCIe 提供共享内存节点，但延迟高于本地内存。非一致性内存访问（NUMA）是一种内存设计，其中访问时间取决于内存相对于处理器的位置；远程 NUMA 节点比本地节点慢。CXL 内存的延迟通常比远程 NUMA 节点更差，对现有内存管理构成挑战。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Compute Express Link - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compute_Express_Link"
+    },
+    {
+      "title": "Non-uniform memory access - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Non-uniform_memory_access"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

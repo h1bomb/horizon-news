@@ -1,0 +1,44 @@
+{
+  "id": "aa04ab33477b107afd285f3567ec05f9cabc5f4b",
+  "canonicalId": "01b7318dc8e8926882789a25c8cc08b9b4b786f6",
+  "slug": "google-search-updates-anti-spam-policy-to-penalize-back-button-hijacking-with-enforcement-starting-june-15-2026",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-14T08:48:00Z",
+  "lang": "en",
+  "title": "Google Search updates anti-spam policy to penalize back button hijacking, with enforcement starting June 15, 2026.",
+  "summary": "Google Search has updated its anti-spam policy to classify back button hijacking as a malicious violation, with enforcement set to begin on June 15, 2026. This policy targets websites that use scripts to interfere with browser functionality, preventing users from navigating back to the previous page and redirecting them to ads or unsolicited pages. This update is significant because it addresses a growing trend of deceptive practices that harm user experience and trust, potentially improving web navigation standards. It will impact SEO and web development by penalizing non-compliant sites with manual actions or automatic ranking demotions, encouraging cleaner, user-friendly designs across the industry. Google has observed an increase in back button hijacking and is providing a two-month grace period for site owners to review and remove offending code, libraries, or ad platform configurations. Penalties may include manual actions or automatic ranking reductions, which could significantly affect a site's visibility in search results.",
+  "score": 7,
+  "tags": [
+    "Google Search",
+    "Web Development",
+    "SEO",
+    "User Experience",
+    "Anti-Spam"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://9to5google.com/2026/04/13/google-search-back-button-hijacking/",
+  "originalSite": "9to5google.com",
+  "context": "Back button hijacking is a technique where websites use JavaScript scripts to manipulate the browser's history API, such as by adding entries or altering responses to the back command, preventing users from returning to the previous page. This often redirects users to ads or unwanted pages, exploiting browser functionality for spam or deceptive purposes. The practice has become a concern in web development and SEO due to its negative impact on user experience and trust.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing a new spam policy for \"back button hijacking\" | Google Search Central Blog | Google for Developers",
+      "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking"
+    },
+    {
+      "title": "What is Back Button Hijack? A glossary entry about online risks",
+      "url": "https://wolf-of-seo.de/en/what-is/back-button-hijack/"
+    },
+    {
+      "title": "History API - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

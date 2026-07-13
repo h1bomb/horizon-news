@@ -1,0 +1,45 @@
+{
+  "id": "66be5f75792da3c1be9a41e4512b35555a0e2a7a",
+  "canonicalId": "74835346f967f5b8eb53d20dc04e082ddad9aef1",
+  "slug": "duckdb-unveils-quack-protocol-for-client-server-mode",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T17:54:00Z",
+  "lang": "en",
+  "title": "DuckDB Unveils Quack Protocol for Client-Server Mode",
+  "summary": "On May 12, 2026, DuckDB Labs announced Quack, an HTTP-based client-server protocol that enables remote query execution and horizontal scaling for DuckDB, allowing it to run as a server with multiple concurrent writers for the first time. This addresses DuckDB's historical limitation as an embedded database without a server mode, making it suitable for shared team servers and small-ball internal analytics. The protocol claims to be 32x faster than PostgreSQL for bulk analytics workloads. Quack is implemented as an extension called 'duckdb-quack' available on GitHub. It uses HTTP as the transport layer and supports multiple concurrent writers, a significant improvement over the previous single-user embedded model.",
+  "score": 8,
+  "tags": [
+    "DuckDB",
+    "database",
+    "client-server",
+    "scalability",
+    "analytics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "aduffy",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48111765"
+    }
+  ],
+  "originalUrl": "https://duckdb.org/2026/05/12/quack-remote-protocol",
+  "originalSite": "duckdb.org",
+  "context": "DuckDB is an in-process SQL OLAP database that traditionally runs embedded within applications and does not have a client-server interface. This means it was limited to single-user scenarios without remote access. Quack changes that by adding a network protocol, enabling DuckDB to be used as a lightweight analytics server.",
+  "discussion": "The community is excited, with users seeing Quack as a solution for horizontal scaling in internal apps and small team servers. One user considered using it via SSH for remote queries, while another questioned its suitability for multi-user read/write scenarios with low performance requirements compared to SQLite. Overall, sentiment is positive and curious about practical applications.",
+  "references": [
+    {
+      "title": "If It Quacks Like a Duck: DuckDB Gets a Client-Server Protocol",
+      "url": "https://motherduck.com/blog/first-variant/duckdb-client-server/"
+    },
+    {
+      "title": "Quack Protocol: DuckDB Client-Server 32x Faster | byteiota",
+      "url": "https://byteiota.com/quack-protocol-duckdb-client-server-32x-faster/"
+    },
+    {
+      "title": "GitHub - duckdb/duckdb-quack · GitHub",
+      "url": "https://github.com/duckdb/duckdb-quack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

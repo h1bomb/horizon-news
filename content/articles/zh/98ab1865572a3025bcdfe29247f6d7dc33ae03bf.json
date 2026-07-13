@@ -1,0 +1,44 @@
+{
+  "id": "98ab1865572a3025bcdfe29247f6d7dc33ae03bf",
+  "canonicalId": "0d0dd9283d54559bf773a05e465de55218b02167",
+  "slug": "nvidia-发布-nemotron-3-ultra550b-参数开源大模型支持-1m-上下文",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T11:48:00Z",
+  "lang": "zh",
+  "title": "NVIDIA 发布 Nemotron-3-Ultra：550B 参数开源大模型，支持 1M 上下文",
+  "summary": "NVIDIA 发布了 Nemotron-3-Ultra，这是一个 550B 参数的开源大语言模型，其中 55B 参数处于活跃状态，采用混合 LatentMoE、Mamba-2 和 Attention 架构，支持高达 100 万个 token 的上下文。 该模型代表了开源前沿大语言模型的重大飞跃，结合了创新架构以实现极致效率与超长上下文能力，有望支持复杂的智能体工作流和高级推理任务。 该模型至少需要 8 块 GB200/B200/GB300/B300、16 块 H100 或 8 块 H200 GPU，采用 OpenMDW 许可证 1.1 版，发布日期为 2026 年 6 月 4 日。它包含多 token 预测（MTP）以实现更快的生成，并支持通过聊天模板切换推理模式。",
+  "score": 9,
+  "tags": [
+    "NVIDIA",
+    "Nemotron",
+    "LLM",
+    "MoE",
+    "Mamba"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/jacek2023"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1twla1k/nvidianvidianemotron3ultra550ba55bbf16_hugging/",
+  "originalSite": "reddit.com",
+  "context": "Nemotron-3-Ultra 采用混合架构，交错使用 Mamba-2（一种状态空间模型）、混合专家（MoE）和注意力层。LatentMoE 是一种改进的 MoE 设计，针对每 FLOP 和每参数的准确率进行了优化。多 token 预测（MTP）是一种训练技术，模型同时预测多个未来 token，通过推测解码提升推理速度。",
+  "discussion": "Reddit 社区对模型的能力表示兴奋，但指出其极高的硬件要求，一位用户评论道“太大无法在本地运行，有人有 8 块 H200 吗？”，反映出可及性方面的担忧。",
+  "references": [
+    {
+      "title": "Think Smart About Sparse Compute: LatentMoE for Higher Accuracy per ...",
+      "url": "https://research.nvidia.com/labs/nemotron/LatentMoE/"
+    },
+    {
+      "title": "GitHub - state-spaces/mamba: Mamba SSM architecture Mamba 2 - Hugging Face [2405.21060] Transformers are SSMs: Generalized Models and ... A Visual Guide to Mamba and State Space Models State Space Duality (Mamba-2) Part I - The Model | Goomba Lab Mamba (deep learning architecture) - Wikipedia",
+      "url": "https://github.com/state-spaces/mamba"
+    },
+    {
+      "title": "Multi-token prediction",
+      "url": "https://grokipedia.com/page/Multi-token_prediction"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

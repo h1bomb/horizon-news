@@ -1,0 +1,44 @@
+{
+  "id": "bc0015423a00acec5b8f928a479e5a64b31866b0",
+  "canonicalId": "e3ac772790d1f2c712aebc7f4b0cc52ba034e806",
+  "slug": "dram-价格上涨威胁爱好者单板计算机市场的可负担性",
+  "date": "2026-04-02",
+  "publishedAt": "2026-04-02T00:00:00Z",
+  "lang": "zh",
+  "title": "DRAM 价格上涨威胁爱好者单板计算机市场的可负担性",
+  "summary": "Hacker News 讨论显示，DRAM 价格上涨正在对爱好者单板计算机市场产生负面影响，行业预测显示 2026 年第二季度 DRAM 合约价格可能环比上涨 58-63%。社区评论表明这种价格压力不仅限于 SBC 市场，还影响了包括智能手机和通用计算硬件在内的多个技术领域。 这很重要，因为 DRAM 是大多数计算设备的关键组件，价格上涨直接影响消费电子市场的产品可负担性和可用性。对于依赖可访问、低成本硬件进行教育和项目开发的爱好者 SBC 社区来说，这些价格压力可能会限制技术创新和技术开发的参与度。 TrendForce 预测，2026 年第二季度常规 DRAM 合约价格将环比上涨 58-63%，而 NAND 闪存价格同期可能上涨 70-75%。全球单板计算机市场在 2023 年估值约为 31.7 亿美元，考虑到该市场对可负担性的重视，使其特别容易受到组件价格波动的影响。",
+  "score": 7,
+  "tags": [
+    "hardware",
+    "economics",
+    "supply-chain",
+    "single-board-computers",
+    "DRAM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 1, 21:36"
+    }
+  ],
+  "originalUrl": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+  "originalSite": "jeffgeerling.com",
+  "context": "DRAM（动态随机存取存储器）是一种用于计算机和电子设备中临时数据存储的易失性存储器。单板计算机是在单个电路板上构建的完整计算机，在爱好者和教育工作者中很受欢迎，用于类似树莓派这样的项目。SBC 市场在 COVID-19 大流行期间曾面临供应链挑战，组件短缺影响了整个技术领域的可用性和定价。",
+  "discussion": "社区情绪表达了对广泛市场影响的担忧，评论指出 DRAM 定价正在影响从智能手机到工业机器的\"一切\"。一些用户强调，除了内存组件之外的供应链问题正在导致价格上涨，而其他人则认为这可能会出于成本原因将某些应用推回微控制器。几位评论者将其与大流行期间先前的组件短缺相提并论，表明这代表了更广泛供应链挑战的延续。",
+  "references": [
+    {
+      "title": "DRAM prices predicted to jump 63% in Q2, NAND up to 75% ...",
+      "url": "https://www.tomshardware.com/pc-components/dram/dram-and-nand-contract-prices-to-climb-again-in-q2"
+    },
+    {
+      "title": "Single Board Computer Market Industry Insights, Growth, Trends,",
+      "url": "https://www.zionmarketresearch.com/report/single-board-computer-market"
+    },
+    {
+      "title": "PC makers report surging prices across different... | Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/pc-makers-report-surging-prices-across-different-components-increasing-costs-are-going-beyond-memory-chip-and-processors-now-affecting-pcbs-plastic-materials-and-more"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

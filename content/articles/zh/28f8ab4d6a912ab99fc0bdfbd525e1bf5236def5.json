@@ -1,0 +1,40 @@
+{
+  "id": "28f8ab4d6a912ab99fc0bdfbd525e1bf5236def5",
+  "canonicalId": "2ba33715934fa76bed6c71f14bf6b5cada4e2e80",
+  "slug": "近半数-lg-智能电视应用含住宅代理-sdk-28f8ab4d",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T02:26:00Z",
+  "lang": "zh",
+  "title": "近半数 LG 智能电视应用含住宅代理 SDK",
+  "summary": "一项安全扫描发现，在抽样的 6038 款 LG 和三星智能电视应用中，有 2058 款包含住宅代理 SDK，其中 LG 平台占比接近一半。这些应用如屏保、小游戏等在用户关闭后仍可继续运行代理功能。 这暴露了一个广泛的隐私风险：家庭 IP 地址可能在用户不知情的情况下被劫持用于代理网络，从而可能为欺诈或内容抓取等恶意活动提供便利。该事件突显了主要电视制造商尚未解决的关键物联网安全漏洞。 受影响的应用包括屏保、时钟和小游戏；部分应用在关闭后仍然活跃。亚马逊和 Roku 已在其平台上禁止此类 SDK，但 LG 和三星尚未公开实施同等限制。",
+  "score": 8,
+  "tags": [
+    "smart-tv",
+    "security",
+    "privacy",
+    "IoT",
+    "residential-proxy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+  "originalSite": "spur.us",
+  "context": "住宅代理是指互联网服务提供商分配给真实家庭用户的 IP 地址，常用于匿名或绕过地理限制。嵌入智能电视应用的住宅代理 SDK 可以将电视变成代理网络中的一个节点，允许第三方通过家庭 IP 路由流量。这可能使用户面临因 IP 被用于非法活动而承担法律责任的风险，并降低网络性能。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "什么是住宅代理（Residential Proxy）？详解原理、优势与应用场景",
+      "url": "https://segmentfault.com/a/1190000047344538"
+    },
+    {
+      "title": "住宅IP代理详解：工作原理、类型与使用场景选型指南（2026）-CSDN博客",
+      "url": "https://blog.csdn.net/2303_78381320/article/details/161290563"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "7766389b126d0641bd3267b6633968e2c93ed4a7",
+  "canonicalId": "08359b5eddee9c62de83e4d59528f25321bcecd2",
+  "slug": "subagents-pattern-addresses-llm-context-limits-by-dispatching-fresh-agent-copies",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T12:32:00Z",
+  "lang": "en",
+  "title": "Subagents pattern addresses LLM context limits by dispatching fresh agent copies",
+  "summary": "Simon Willison's guide introduces the Subagents pattern as a practical solution for managing LLM context limits, where a coding agent dispatches fresh copies of itself with new context windows to handle larger tasks efficiently. The pattern is demonstrated through Claude Code's Explore subagent, which autonomously explores code repositories to gather information needed for programming tasks. This pattern matters because it enables more complex and scalable AI agent workflows by working around the fixed context limits that constrain current LLMs, allowing agents to tackle larger problems without exhausting their main context window. It represents an important engineering approach for building more capable AI systems that can handle real-world tasks requiring extensive context. The Subagents pattern works similarly to tool calls, where the parent agent dispatches subagents and waits for their responses, with models effectively prompting themselves in ways that leverage their own prompting expertise. Claude Code's implementation shows subagents can autonomously explore codebases, identify relevant files, and return structured summaries that enable the main agent to proceed with complex programming tasks.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "LLM",
+    "Agentic Engineering",
+    "Context Management",
+    "Software Patterns"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "LLMs (Large Language Models) have context limits that restrict how many tokens they can process at once, typically ranging from 16k to 128k tokens for current models, with quality often degrading beyond certain thresholds. Agentic engineering refers to patterns and practices for building AI systems where agents (typically LLM-powered) can reason, plan, and act autonomously to accomplish tasks. The context limit challenge has persisted despite improvements in LLM capabilities, making efficient context management crucial for practical applications.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Token Limit | LLM Knowledge Base",
+      "url": "https://promptmetheus.com/resources/llm-knowledge-base/token-limit"
+    },
+    {
+      "title": "Agentic Engineering Patterns - Simon Willison's Weblog",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/"
+    },
+    {
+      "title": "Subagents in the SDK - Claude Docs",
+      "url": "https://docs.claude.com/en/api/agent-sdk/subagents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

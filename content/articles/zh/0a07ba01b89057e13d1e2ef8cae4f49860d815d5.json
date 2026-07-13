@@ -1,0 +1,41 @@
+{
+  "id": "0a07ba01b89057e13d1e2ef8cae4f49860d815d5",
+  "canonicalId": "630e2194d1ae9190df5569aa6a99c9b3be15f50f",
+  "slug": "meta-确认-ai-聊天机器人漏洞导致-instagram-账户被黑",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T18:35:00Z",
+  "lang": "zh",
+  "title": "Meta 确认 AI 聊天机器人漏洞导致 Instagram 账户被黑",
+  "summary": "Meta 证实，攻击者利用其 AI 聊天机器人在账户恢复流程中的一个漏洞，绕过了电子邮件验证，劫持了数千个 Instagram 账户，该攻击从 4 月 17 日左右开始，持续了数周。 此事件凸显了 AI 驱动的客户支持和账户恢复系统中的关键安全风险，影响了超过 2 万名用户，并可能削弱用户对 Meta 平台安全的信任。 黑客获得了被劫持账户的完全控制权，包括访问私信、帖子和关联账户。Meta 通知了至少 20,225 名受影响的用户，该漏洞从 4 月 17 日一直存在直到被修复。",
+  "score": 8,
+  "tags": [
+    "security",
+    "Instagram",
+    "AI chatbot",
+    "account hijacking",
+    "Meta"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48427643"
+    }
+  ],
+  "originalUrl": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+  "originalSite": "this.weekinsecurity.com",
+  "context": "像 Meta 这样的公司越来越多地使用 AI 聊天机器人来自动化账户恢复，以简化用户支持。然而，此事件表明，当身份验证机制存在缺陷时，这些 AI 系统可能被操纵以绕过安全检查，从而实现未经授权的账户劫持。",
+  "discussion": "评论者批评 Meta 称该工具“正常工作”的说法，认为该漏洞代表了严重的安全失败。一些人对 Meta 的自动化系统表示沮丧，而另一些人则希望这一事件加速 Meta 平台的衰落。",
+  "references": [
+    {
+      "title": "Instagram Meta AI Vulnerability Allegedly Enables Password ...",
+      "url": "https://cybersecuritynews.com/instagram-meta-ai-vulnerability/"
+    },
+    {
+      "title": "The Meta AI Account Recovery Incident Wasn’t Just a Chatbot ...",
+      "url": "https://blog.checkpoint.com/ai-security/the-meta-ai-account-recovery-incident-wasnt-just-a-chatbot-problem/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

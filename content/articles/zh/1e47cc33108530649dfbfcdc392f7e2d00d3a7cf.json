@@ -1,0 +1,44 @@
+{
+  "id": "1e47cc33108530649dfbfcdc392f7e2d00d3a7cf",
+  "canonicalId": "c04993821cda90f927b93d59c5774a0161dddb7b",
+  "slug": "qwen-发布新款小型-35-模型08b2b9b面向资源受限硬件",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 发布新款小型 3.5 模型（0.8B、2B、9B），面向资源受限硬件",
+  "summary": "阿里巴巴云的 Qwen 团队发布了 Qwen 3.5 系列中的新款小型模型，具体包括 0.8B、2B 和 9B 参数版本，旨在在有限硬件上提供强劲性能。社区在公告发布后立即开始了对这些模型的量化和测试，各种量化版本很快出现在 Hugging Face 上。 此次发布极大地扩展了拥有消费级或边缘硬件（如旧款 GPU、移动设备和树莓派等单板计算机）的用户对高性能语言模型的访问。这代表了 AI 民主化的重要一步，允许更多开发者和爱好者无需昂贵的云基础设施即可在本地运行强大的模型。 早期的社区测试表明，9B 模型的性能介于 200 亿和 1200 亿参数的开源模型之间。用户报告称，这些 3.5 变体可能与此前的一些 Qwen 版本一样存在“过度思考”的倾向；一个提示工程技巧建议调整提示模板以关闭“思考”模式，并将温度设置为 0.45 左右，以获得更准确的响应，尤其是在视觉任务中。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "model-release",
+    "edge-ai",
+    "quantization",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 12:32"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/trjsrjbzlmmg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Qwen 是阿里巴巴云开发的大型语言模型系列，采用宽松的 Apache 2.0 许可证发布。模型量化是边缘设备部署模型的关键优化技术，通过使用更低精度的数据类型（例如，从 32 位浮点数到 8 位整数）表示权重和激活值，来减小模型大小和计算需求。小型语言模型（SLM）通常参数在 100 亿以下，专为在消费级硬件上进行高效推理而设计，基准测试表明，针对特定任务进行微调后，其性能有时能匹配甚至超过大得多的模型。",
+  "discussion": "社区反应 overwhelmingly 积极，用户将此次发布庆祝为 GPU 资源有限者的“圣诞节”。讨论非常务实，集中在即时的量化工作、性能比较（例如，9B 模型性能被定位在 200 亿和 1200 亿模型之间）以及优化输出的提示工程技巧上。社区也对最小模型（0.8B、2B）的能力及其在树莓派等设备上运行的潜力感到好奇。",
+  "references": [
+    {
+      "title": "Qwen - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Qwen"
+    },
+    {
+      "title": "Model Quantization: Concepts, Methods, and Why It Matters",
+      "url": "https://developer.nvidia.com/blog/model-quantization-concepts-methods-and-why-it-matters/"
+    },
+    {
+      "title": "Top 15 Small Language Models for 2026 - DataCamp",
+      "url": "https://www.datacamp.com/blog/top-small-language-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

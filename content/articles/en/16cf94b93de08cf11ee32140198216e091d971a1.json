@@ -1,0 +1,40 @@
+{
+  "id": "16cf94b93de08cf11ee32140198216e091d971a1",
+  "canonicalId": "88cf3dd0d29445b1d2db0ee4882e3078b6a643b5",
+  "slug": "revisiting-mshare-page-table-sharing-for-linux-shared-memory",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-13T13:19:00Z",
+  "lang": "en",
+  "title": "Revisiting mshare: page table sharing for Linux shared memory",
+  "summary": "At the 2026 LSFMM+BPF Summit, Anthony Yznaga presented an updated mshare patch set that introduces a new system-call-based API (mshare_create, mshare_attach, etc.) for sharing page tables among unrelated processes sharing memory, replacing the earlier msharefs filesystem approach. This work directly addresses a scalability issue where the page table overhead for large shared memory regions can exceed the memory itself, impacting workloads like databases and virtualization. If merged, mshare could significantly reduce memory consumption and improve performance for multi-process shared-memory applications in Linux. The new API includes mshare_create() returning a file descriptor, with region size set via ftruncate(), and mshare_attach() to map the region. Other calls like mshare_map(), mshare_advise(), and mshare_protect() handle mapping, advice, and protection changes.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "page tables",
+    "mshare",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072333/",
+  "originalSite": "lwn.net",
+  "context": "In Linux, processes that share memory each maintain their own copy of page tables, leading to significant overhead when many processes share large regions. Page tables are data structures used by the CPU to translate virtual addresses to physical addresses. mshare aims to allow unrelated processes to share a single set of page tables for the same physical memory, reducing duplication and memory pressure.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Sharing page tables with mshare () - LWN.net",
+      "url": "https://lwn.net/Articles/895217/"
+    },
+    {
+      "title": "Introduction to mshare | linux - Oracle Blogs",
+      "url": "https://blogs.oracle.com/linux/mshare"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

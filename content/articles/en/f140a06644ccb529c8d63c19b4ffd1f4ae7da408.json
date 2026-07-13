@@ -1,0 +1,44 @@
+{
+  "id": "f140a06644ccb529c8d63c19b4ffd1f4ae7da408",
+  "canonicalId": "96940d4c6cd804467aa8c664c6aa0ae89627bdc4",
+  "slug": "bytedance-releases-seed3d-20-3d-generation-goes-production-ready",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T08:15:00Z",
+  "lang": "en",
+  "title": "ByteDance Releases Seed3D 2.0, 3D Generation Goes Production-Ready",
+  "summary": "ByteDance launched Seed3D 2.0 on April 23, 2026, a new generation 3D generation model that achieves state-of-the-art (SOTA) results in geometry and texture quality, with a human evaluation preference rate over 69% compared to mainstream models. This marks a significant step from demo-level 3D generation to production-ready assets, potentially accelerating the adoption of AI-generated 3D content in gaming, robotics, and simulation industries. Seed3D 2.0 also supports part-level generation and scene composition, outputting assets with complete joint information compatible with standard formats like URDF and physics simulation engines like NVIDIA Isaac Sim.",
+  "score": 8,
+  "tags": [
+    "3D Generation",
+    "ByteDance",
+    "AI",
+    "Computer Graphics",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://seed.bytedance.com/zh/blog/seed3d-2-0-released-higher-precision-and-greater-usability",
+  "originalSite": "seed.bytedance.com",
+  "context": "3D generation models aim to create 3D models from text or images. Previous models often produced low-quality geometry or textures, limiting their use to prototypes or visualizations. URDF is a standard XML format for robot models, and Isaac Sim is a robotics simulation platform from NVIDIA.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ByteDance Launches Seed3D 2.0: Geometry and Texture Dual SOTA ...",
+      "url": "https://news.aibase.com/news/27393"
+    },
+    {
+      "title": "GitHub - aitools12/seed3d20: Seed3d 2.0 AI 3D model generator ...",
+      "url": "https://github.com/aitools12/seed3d20"
+    },
+    {
+      "title": "Isaac Sim - Robotics Simulation and Synthetic Data Generation ...",
+      "url": "https://developer.nvidia.com/isaac/sim"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

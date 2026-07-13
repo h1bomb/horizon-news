@@ -1,0 +1,44 @@
+{
+  "id": "7d5deb580c8d1169e03d8156355444ac197f18e8",
+  "canonicalId": "0812619efcc2bb6c3fce9853ecd07efe03a0a88c",
+  "slug": "bundler-引入冷却机制防范供应链攻击",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T12:57:00Z",
+  "lang": "zh",
+  "title": "Bundler 引入冷却机制防范供应链攻击",
+  "summary": "Bundler 4.0.13 于 2026 年 6 月 3 日发布，新增了依赖冷却功能，将解析新 gem 版本的时间延迟可配置的天数，以帮助缓解供应链攻击。 该功能缩小了攻击者通过自动安装利用新发布恶意 gem 的时间窗口，为 Ruby 生态系统增加了一道基于时间的关键防线。 冷却功能为可选启用，补充了强制 2FA 和可信发布等现有安全措施，延迟期可配置（通常为 3 到 7 天）。",
+  "score": 8,
+  "tags": [
+    "Ruby",
+    "Bundler",
+    "security",
+    "supply-chain-attack",
+    "package-manager"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1076526/",
+  "originalSite": "lwn.net",
+  "context": "对包注册表的供应链攻击发生在攻击者入侵账户或发布恶意包时。自动安装会立即获取恶意版本。依赖冷却强制在新版本被解析前有一个强制性延迟，让社区有时间检测和报告威胁。在 Axios npm 事件等高知名度事件后，这种做法逐渐流行。",
+  "discussion": "该功能在 GitHub（讨论 #9113）上公开设计，吸取了社区意见并与其他生态系统进行了比较。总体情绪积极，因为它增加了一层实用的防御，而不干扰现有工作流程。",
+  "references": [
+    {
+      "title": "Dependency Cooldowns - Dependency Cooldowns",
+      "url": "https://cooldowns.dev/"
+    },
+    {
+      "title": "The case for dependency cooldowns in a post-axios world",
+      "url": "https://securitylabs.datadoghq.com/articles/dependency-cooldowns/"
+    },
+    {
+      "title": "Dependency cooldowns , redux",
+      "url": "https://blog.yossarian.net/2025/12/13/cooldowns-redux"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

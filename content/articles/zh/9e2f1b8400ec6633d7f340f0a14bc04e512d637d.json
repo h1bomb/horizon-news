@@ -1,0 +1,40 @@
+{
+  "id": "9e2f1b8400ec6633d7f340f0a14bc04e512d637d",
+  "canonicalId": "cd84ae7390b0714cede25ceab908aec43fb3cbf6",
+  "slug": "优先使用-sqlite-的-strict-表",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T17:33:00Z",
+  "lang": "zh",
+  "title": "优先使用 SQLite 的 STRICT 表",
+  "summary": "一篇文章推荐使用 SQLite 3.37.0 版本（2021 年 11 月 27 日）引入的 STRICT 表，以强制数据类型约束，提高数据库可靠性，特别是在多个应用共享同一个数据库时。 这个建议解决了 SQLite 动态类型（dynamic typing）的常见批评，使其在多应用场景中更可靠，并鼓励更安全的数据库实践。它可能会推动 STRICT 表的采用，并可能影响未来的默认设置。 STRICT 表强制执行精确的数据类型，禁止类型强制转换，但不支持 DATE 等某些类型。每个表必须显式声明为 STRICT。",
+  "score": 8,
+  "tags": [
+    "SQLite",
+    "databases",
+    "type safety",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ingve",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48873940"
+    }
+  ],
+  "originalUrl": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+  "originalSite": "evanhahn.com",
+  "context": "SQLite 传统上使用动态类型（灵活类型），列可以存储任何数据类型，无论声明的类型如何，这可能导致意外的类型不匹配。自 SQLite 3.37.0 起可用的 STRICT 表改变了这一点，它强制进行严格的类型检查，确保插入的数据与声明的列类型匹配。当数据库被多个应用共享或需要更强的类型安全时，这尤其有益。",
+  "discussion": "评论普遍欢迎这一功能，一些用户希望 STRICT 成为默认设置。担忧包括缺少 DATE 等数据类型，以及关于 SQLite 作为嵌入式数据库与共享数据库的不同用例的辩论。讨论反映了对更强类型安全的渴望，同时也承认 SQLite 的灵活性。",
+  "references": [
+    {
+      "title": "STRICT Tables",
+      "url": "https://www.sqlite.org/stricttables.html"
+    },
+    {
+      "title": "SQLite Strict Tables",
+      "url": "https://www.sqlitetutorial.net/sqlite-strict-tables/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

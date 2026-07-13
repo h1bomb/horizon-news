@@ -1,0 +1,44 @@
+{
+  "id": "be26eecf6cc4bd419470bc79b785f60fd289601f",
+  "canonicalId": "74c93dd3cdf3a712318b17d141c9334983aceb82",
+  "slug": "critical-ffmpeg-bug-allows-remote-code-execution-via-video-files",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T15:00:00Z",
+  "lang": "en",
+  "title": "Critical FFmpeg Bug Allows Remote Code Execution via Video Files",
+  "summary": "FFmpeg disclosed a critical vulnerability (CVE-2026-8461, codenamed PixelSmash) in the MagicYUV decoder, enabling remote code execution via crafted video files. The flaw is fixed in version 8.1.2 released urgently. With FFmpeg embedded in countless media players, servers, and IoT devices, unpatched systems are at risk of complete compromise through seemingly innocuous video files. This high-severity flaw (CVSS 8.8) demands immediate updates across the ecosystem. The vulnerability is a heap out-of-bounds write in FFmpeg's libavcodec component, triggered by maliciously crafted MagicYUV-encoded videos. Attackers can exploit it not only via direct playback but also through thumbnail generation or media library scanning, with minimal traces.",
+  "score": 8,
+  "tags": [
+    "FFmpeg",
+    "security vulnerability",
+    "remote code execution",
+    "CVE",
+    "multimedia"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://cybernews.com/security/critical-ffmpeg-vulnerability-enables-complete-compromise/",
+  "originalSite": "cybernews.com",
+  "context": "FFmpeg is a widely used open-source multimedia library that powers video processing in applications like VLC, Jellyfin, Kodi, and OBS. The MagicYUV decoder handles a lossless video codec. A heap out-of-bounds write occurs when data is written outside the allocated memory region, potentially allowing code execution or system crashes.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media ...",
+      "url": "https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/"
+    },
+    {
+      "title": "PixelSmash Exposes a Hidden Threat: How One FFmpeg Flaw Could ...",
+      "url": "https://undercodenews.com/pixelsmash-exposes-a-hidden-threat-how-one-ffmpeg-flaw-could-turn-everyday-video-files-into-remote-attack-weapons/"
+    },
+    {
+      "title": "Critical FFmpeg Vulnerability Allows Attackers to Weaponize ...",
+      "url": "https://cybersecuritynews.com/ffmpeg-vulnerability-weaponize-media-files/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "f1db5ae09b2538efb1a638311415711283993acb",
+  "canonicalId": "e7490463cb3810659a14e8e311284ad2183cf572",
+  "slug": "google-deepmind-releases-gemma-4-open-multimodal-models",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T15:57:00Z",
+  "lang": "en",
+  "title": "Google DeepMind Releases Gemma 4 Open Multimodal Models",
+  "summary": "Google DeepMind released Gemma 4, a family of open-weight multimodal models supporting text, image, video, and audio input, with up to 256K context window, configurable reasoning modes, and both Dense and Mixture-of-Experts (MoE) architectures. Gemma 4 democratizes state-of-the-art AI by offering models from 2B to 31B parameters deployable on phones to servers, with competitive coding and reasoning capabilities that challenge proprietary models. The smallest models (E2B, E4B, 12B) natively support audio; the encoder-free vision approach uses a lightweight embedding module instead of a dedicated vision encoder like SigLIP. All models support over 140 languages and native system prompts.",
+  "score": 9,
+  "tags": [
+    "Gemma 4",
+    "Google DeepMind",
+    "open-source AI",
+    "multimodal",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/jacek2023"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/",
+  "originalSite": "reddit.com",
+  "context": "Gemma is Google's family of open LLMs, with Gemma 4 being the latest iteration. MoE architecture activates only a subset of parameters per token, improving efficiency. Configurable reasoning allows models to spend more compute on complex tasks like math or coding.",
+  "discussion": "Community feedback on Reddit is positive overall, with users noting decent performance on vibe-coding benchmarks despite some syntax errors. Questions were raised about Google's business motives for releasing open models and the implications of the encoder-free vision approach.",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "What Is Mixture of Experts (MoE) and How It Works? - NVIDIA",
+      "url": "https://www.nvidia.com/en-us/glossary/mixture-of-experts/"
+    },
+    {
+      "title": "Mixture of Experts Explained - Hugging Face",
+      "url": "https://huggingface.co/blog/moe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

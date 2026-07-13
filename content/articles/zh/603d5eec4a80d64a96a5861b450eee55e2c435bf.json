@@ -1,0 +1,44 @@
+{
+  "id": "603d5eec4a80d64a96a5861b450eee55e2c435bf",
+  "canonicalId": "18dbcef726329dfef5bf9d20330cbca838ead9fa",
+  "slug": "锻造厂联邦提案",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-30T00:00:00Z",
+  "lang": "zh",
+  "title": "锻造厂联邦提案",
+  "summary": "Tangled 博客上的一篇文章提议创建一个锻造厂联邦，以分散代码托管，减少对 GitHub 等中心化平台的依赖。 该提案可能通过实现不同代码锻造厂之间的互操作性来重塑开源协作，减少供应商锁定并促进竞争。 该联邦将使用 ForgeFed 等现有协议连接锻造厂，使用户能够跨平台处理问题、拉取请求和仓库。",
+  "score": 8,
+  "tags": [
+    "federation",
+    "forge",
+    "decentralization",
+    "open source",
+    "github alternative"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 29, 14:00"
+    }
+  ],
+  "originalUrl": "https://blog.tangled.org/federation/",
+  "originalSite": "blog.tangled.org",
+  "context": "Git 是去中心化的，但 GitHub 等代码托管平台是中心化的，造成了单点故障和控制。锻造厂联邦旨在将去中心化扩展到整个开发工作流程，类似于电子邮件或 Mastodon 的联邦方式。",
+  "discussion": "评论褒贬不一：一些人将其与 Mastodon 的挑战（如去联邦化和审核争论）相比较，而另一些人则支持竞争并指出 ForgeFed 等现有项目。少数人建议使用 Fossil 等更丰富的 git 仓库作为替代方案。",
+  "references": [
+    {
+      "title": "we need a federation of forges — tangled blog",
+      "url": "https://blog.tangled.org/federation/"
+    },
+    {
+      "title": "ForgeFed",
+      "url": "https://forgefed.org/"
+    },
+    {
+      "title": "Federated Code Forges: The Blueprint for Interoperable ...",
+      "url": "https://thecodersblog.com/federation-of-code-forges-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

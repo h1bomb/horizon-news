@@ -1,0 +1,40 @@
+{
+  "id": "ccd3d6ee9aa344774b2c8902da915a214d584d2b",
+  "canonicalId": "6e5e77efaace471dfe7734307f15d167d565a23c",
+  "slug": "koboldcpp-1110-released-with-qwen3-tts-voice-cloning-and-native-ace-step-music-generation-support",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-19T08:18:00Z",
+  "lang": "en",
+  "title": "KoboldCpp 1.110 released with Qwen3 TTS voice cloning and native Ace Step music generation support.",
+  "summary": "KoboldCpp version 1.110 was released as a 3-year anniversary edition, introducing high-quality Qwen3 TTS 0.6/1.7B with voice cloning and native support for Ace Step 1.5 for music generation. This release enhances KoboldCpp's capabilities as a versatile local AI tool, making advanced text-to-speech and music generation more accessible to users who prefer privacy and offline operation, aligning with trends toward open-source and user-controlled AI applications. The update includes Qwen3 TTS models for voice cloning and Ace Step 1.5 integration for music generation, with the software remaining a single-file executable that works on older hardware without requiring accounts or cloud dependencies.",
+  "score": 7,
+  "tags": [
+    "local-ai",
+    "open-source",
+    "text-to-speech",
+    "music-generation",
+    "anniversary-release"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "HadesThrowaway"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rxunqq/koboldcpp_1110_3_yr_anniversary_edition_native/",
+  "originalSite": "reddit.com",
+  "context": "KoboldCpp is an open-source software that allows users to run AI models locally on their computers without internet access, providing privacy and control. Qwen3 TTS is a text-to-speech model capable of voice cloning and multilingual synthesis, while Ace Step is an open-source foundation model for music generation that aims to offer fast and controllable AI music creation. These tools are part of a broader movement toward democratizing AI by making advanced features available offline.",
+  "discussion": "Community comments are overwhelmingly positive, praising KoboldCpp for its reliability, ease of use, and all-in-one functionality compared to alternatives like Ollama. Users highlight its ability to run on old machines and its role in making local AI accessible, with specific appreciation for the new music generation and voice cloning features.",
+  "references": [
+    {
+      "title": "Qwen3-TTS vs ElevenLabs : Voice Cloning & Real-Time",
+      "url": "https://www.geeky-gadgets.com/qwen3-tts-voice-cloning/"
+    },
+    {
+      "title": "ACE-Step - Next-Gen Open-Source Music Generation Foundation Model",
+      "url": "https://ace-step.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

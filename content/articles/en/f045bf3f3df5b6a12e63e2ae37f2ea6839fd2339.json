@@ -1,0 +1,44 @@
+{
+  "id": "f045bf3f3df5b6a12e63e2ae37f2ea6839fd2339",
+  "canonicalId": "2d558b35ee2eda1b6904720ae276ffa7e964716f",
+  "slug": "analysis-of-anonymized-chatgpt-data-reveals-healthcare-queries-from-hospital-deserts",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-05T21:47:00Z",
+  "lang": "en",
+  "title": "Analysis of Anonymized ChatGPT Data Reveals Healthcare Queries from Hospital Deserts",
+  "summary": "An analysis of anonymized U.S. ChatGPT data shows approximately 2 million weekly messages on health insurance and 600,000 weekly healthcare messages from people living in 'hospital deserts,' defined as areas with a 30-minute drive to the nearest hospital, with 70% of these messages occurring outside clinic hours. This highlights how AI tools like ChatGPT are being used to address healthcare accessibility gaps, particularly by underserved populations in remote areas and during non-traditional hours, underscoring the potential for LLMs to supplement traditional healthcare services and inform policy on digital health equity. The data is anonymized to protect user privacy, but it raises concerns about data governance and the accuracy of AI-generated health advice, as ChatGPT's responses are based on training data that may not always be up-to-date or medically validated.",
+  "score": 7,
+  "tags": [
+    "ai-ethics",
+    "generative-ai",
+    "healthcare",
+    "data-analysis",
+    "llms"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Hospital deserts, or medical deserts, are regions where populations have inadequate access to healthcare due to factors like distance or lack of facilities, affecting nearly half of Americans who live over 25 miles from top-ranked hospitals. Large language models (LLMs) like ChatGPT are AI systems trained on extensive text data to generate human-like responses, with applications in healthcare for tasks such as patient education and data analysis. Anonymized data techniques involve removing personally identifiable information from datasets to protect privacy while enabling analysis.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Medical deserts in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Medical_deserts_in_the_United_States"
+    },
+    {
+      "title": "Current applications and challenges in large language models ... - Nature",
+      "url": "https://www.nature.com/articles/s43856-024-00717-2"
+    },
+    {
+      "title": "ChatGPT Privacy: Secure Usage Without Data Sharing",
+      "url": "https://wald.ai/blog/chatgpt-privacy-secure-usage-without-data-sharing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "b0f0f6c4c7188bf1596e15095d7d2b631b899861",
+  "canonicalId": "681745404ea7359ac19bdebab1a704dae33da094",
+  "slug": "deepseek-v4-旗舰大模型拟于-4-月下旬发布首次实现国产芯片深度适配",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-11T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepSeek V4 旗舰大模型拟于 4 月下旬发布，首次实现国产芯片深度适配",
+  "summary": "DeepSeek 创始人梁文锋在内部沟通中表示，新一代旗舰大模型 DeepSeek V4 将于 2026 年 4 月下旬正式发布，该模型具备万亿级参数规模和百万级上下文窗口，并首次实现与华为昇腾等国产芯片的深度适配。受此影响，阿里巴巴、字节跳动及腾讯等科技巨头已预订数十万片 AI 芯片，相关产品价格近期上涨约 20%。 这标志着中国 AI 产业在'去 CUDA 化'进程中取得关键进展，减少了对国外技术的依赖。国产芯片的深度适配将加速国内 AI 基础设施建设，并可能重塑全球 AI 芯片市场格局，从科技巨头的预订需求和价格上涨可见其影响。 据报道，该模型采用混合专家（MoE）架构，参数规模达 1 万亿，是目前最大的开源 MoE 模型之一。DeepSeek 已在网页端上线'快速模式'和'专家模式'为新模型预热，但官方尚未对发布消息作出正式回应。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Large Language Models",
+    "Chip Technology",
+    "Industry News",
+    "China Tech"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 10, 05:16"
+    }
+  ],
+  "originalUrl": "https://finance.sina.com.cn/tech/2026-04-10/doc-inhtymqf5317301.shtml",
+  "originalSite": "finance.sina.com.cn",
+  "context": "DeepSeek 是一家中国人工智能公司，专注于开发大语言模型，DeepSeek V4 是其即将发布的旗舰模型，具备万亿级参数规模。华为昇腾是面向数据中心设计的 AI 芯片系列，其中昇腾 910 采用 7 纳米工艺，旨在与 NVIDIA 竞争。CUDA 是 NVIDIA 的并行计算平台，在 AI 芯片市场占据主导地位，这种依赖性引发了担忧，促使业界开发 chipStar 等替代方案和开放标准。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DeepSeek - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DeepSeek"
+    },
+    {
+      "title": "DeepSeek - V 4 MoE: The 1-Trillion Parameter Breakthrough - Macaron",
+      "url": "https://macaron.im/nn/blog/deepseek-v4-moe-1-trillion"
+    },
+    {
+      "title": "Huawei Announces Ascend AI Chips | [H]ard|Forum",
+      "url": "https://hardforum.com/threads/huawei-announces-ascend-ai-chips.1969505/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

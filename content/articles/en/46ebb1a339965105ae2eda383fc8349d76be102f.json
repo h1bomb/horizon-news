@@ -1,0 +1,40 @@
+{
+  "id": "46ebb1a339965105ae2eda383fc8349d76be102f",
+  "canonicalId": "0cb57c78925d5548cc439e31124f637c05fc20bb",
+  "slug": "lookahead-sparse-attention-cuts-kv-cache-to-135",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T16:30:00Z",
+  "lang": "en",
+  "title": "Lookahead Sparse Attention Cuts KV Cache to 13.5%",
+  "summary": "FlashMemory-DeepSeek-V4 introduces Lookahead Sparse Attention (LSA) with a Neural Memory Indexer that predicts and caches only critical KV chunks, reducing GPU memory usage during ultra-long context decoding. The model achieves an average KV cache footprint of just 13.5% of the full-context baseline on LongBench-v2, LongMemEval, and RULER, while slightly improving downstream accuracy by 0.6%. This technique directly addresses the memory bottleneck in serving ultra-long context LLMs, making them more practical for tasks like document analysis and long-form generation. By decoupling the indexer training from the backbone model, it offers a scalable and efficient way to handle extremely long sequences without sacrificing accuracy. The Neural Memory Indexer is trained independently using a backbone-free decoupled training strategy, avoiding the need to load the massive backbone into GPU memory. At extreme 500K context lengths, FlashMemory suppresses the physical KV cache overhead by over 90% without destabilizing reasoning capacities.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "attention mechanism",
+    "long context",
+    "GPU memory",
+    "DeepSeek"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/pmttyji"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u277fg/flashmemorydeepseekv4_lightning_index_ultralong/",
+  "originalSite": "reddit.com",
+  "context": "In LLM decoding, the key-value (KV) cache stores attention keys and values for previous tokens, but grows linearly with context length, causing GPU memory exhaustion for ultra-long sequences. Traditional methods keep the entire cache, while sparse attention selectively drops tokens, risking information loss. LSA uses a lightweight indexer to predict which KV chunks future queries will need, caching only those, inspired by retrieval-augmented generation principles.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Revolutionizing Memory Efficiency with Lookahead Sparse Attention",
+      "url": "https://www.machinebrief.com/news/revolutionizing-memory-efficiency-with-lookahead-sparse-atte-s4d3"
+    },
+    {
+      "title": "Lookahead Sparse Attention: cut the KV cache to 13.5% ... Paper page - FlashMemory-DeepSeek-V4: Lightning Index Ultra ... trtllm-suffix-lookahead/docs/source/features/sparse-attention ... “FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context ... Attention Mechanisms Explained: Self-Attention, Cross ...",
+      "url": "https://www.youtube.com/watch?v=CdIAWRAIHy4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

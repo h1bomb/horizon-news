@@ -1,0 +1,44 @@
+{
+  "id": "9acb2843543f48a402f1b0ed91a0e536e55a21b8",
+  "canonicalId": "b9f7099cb5137acbbc6edb39e1e5f4805a02dd9f",
+  "slug": "qwen-35-27b-demonstrates-strong-performance-for-local-llm-tasks-sparking-community-discussion",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-08T05:37:00Z",
+  "lang": "en",
+  "title": "Qwen 3.5 27B demonstrates strong performance for local LLM tasks, sparking community discussion.",
+  "summary": "A Reddit user shared practical test results showing that the Qwen 3.5 27B model, specifically a quantized version (Q4_KXL_UD), generated code for a complex PDF merging application at 90 tokens per second on their hardware. While the generated application had a minor GUI issue, the model's overall performance and speed for a local, 27-billion-parameter model impressed the community. This demonstrates that high-quality, open-source models like Qwen 3.5 27B are becoming viable for complex, real-world tasks on consumer hardware, challenging the notion that only massive, proprietary models are capable. It empowers developers and researchers to run powerful multimodal AI locally, enhancing privacy, reducing costs, and fostering innovation in the open-source AI ecosystem. The test was conducted on a system with an Intel i7-12700K CPU, an NVIDIA RTX 3090 Ti GPU (24GB VRAM), and 96GB of RAM. The model version tested was a 4-bit quantized variant (Q4_KXL_UD), which reduces memory footprint at a potential cost to precision, and it was run at its maximum context length. The user noted that while the 27B version succeeded, a larger 35B variant failed the same task due to an incomplete GUI.",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "qwen",
+    "model-evaluation",
+    "open-source-ai",
+    "hardware-performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "GrungeWerX"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnwiyx/qwen_35_27b_is_the_real_deal_beat_gpt5_on_my/",
+  "originalSite": "reddit.com",
+  "context": "Qwen 3.5 is a series of large language models developed by Alibaba Cloud. The 27B version is a \"dense\" model with 27 billion parameters, as opposed to a Mixture of Experts (MoE) architecture. Quantization is a technique to reduce the memory and computational requirements of a model by representing its weights with fewer bits (e.g., 4 bits instead of 16), enabling it to run on hardware with limited VRAM. 'Tokens per second' (tok/s) is a common metric for measuring the inference speed of a language model.",
+  "discussion": "The community sentiment is overwhelmingly positive, with users praising Qwen 3.5 27B's quality and capability for its size, noting it handles simple to medium-complexity coding tasks well. Discussions highlight practical trade-offs: some find larger variants too slow, others note a longer 'time-to-first-token' but high output quality, and several are exploring its multimodal vision capabilities for the first time. Concerns were raised about the model's tendency to \"overthink\" (produce excessive reasoning tokens) and the accuracy impact of quantizing the key-value cache for higher context lengths.",
+  "references": [
+    {
+      "title": "Qwen3.5-27B: Specifications and GPU VRAM Requirements - ApX Machine Learning",
+      "url": "https://apxml.com/models/qwen35-27b"
+    },
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0, and Q6_K Really Mean | by Paul Ilvez | Medium",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "How many tok/s is enough? : r/LocalLLaMA - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1jze7v5/how_many_toks_is_enough/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

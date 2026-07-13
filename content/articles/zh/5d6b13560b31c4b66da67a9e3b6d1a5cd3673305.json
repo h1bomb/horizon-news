@@ -1,0 +1,43 @@
+{
+  "id": "5d6b13560b31c4b66da67a9e3b6d1a5cd3673305",
+  "canonicalId": "494edd9c0081ff30e19df05dcc5abe52c3564559",
+  "slug": "airsnitch-研究揭示-wi-fi-客户端隔离根本性缺陷可实现中间人攻击",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-27T00:00:00Z",
+  "lang": "zh",
+  "title": "AirSnitch 研究揭示 Wi-Fi 客户端隔离根本性缺陷，可实现中间人攻击",
+  "summary": "研究人员在 NDSS 2026 会议上提出了 AirSnitch，这是一种利用物理层（第 1 层）和数据链路层（第 2 层）协议之间的跨层身份去同步来破坏 Wi-Fi 客户端隔离的新型攻击框架。这使得攻击者能够在同一网络上本应隔离的设备之间实施双向中间人攻击，拦截并修改流量。 这项研究意义重大，因为客户端隔离是部署在数百万公共 Wi-Fi 网络、酒店、机场和企业访客网络中的基本安全功能，旨在防止设备间攻击。该研究表明，这种保护措施可以在协议层面被系统性破坏，这暴露了组织和个人所依赖的基本网络分段安全机制存在广泛漏洞。 攻击要求攻击者已经连接到目标 Wi-Fi 网络，这与一些现有的共享网络威胁类似，但利用了新颖的跨层去同步弱点。论文指出，某些攻击专门针对路由器未能正确隔离访客网络与正常网络流量的实现缺陷，但核心漏洞源于协议设计问题。",
+  "score": 8,
+  "tags": [
+    "network-security",
+    "wi-fi",
+    "vulnerability-research",
+    "ndss"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Feb 26, 15:55"
+    }
+  ],
+  "originalUrl": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf",
+  "originalSite": "ndss-symposium.org",
+  "context": "客户端隔离是一种网络安全功能，可防止连接到同一 Wi-Fi 网络（例如在咖啡馆或机场）的设备彼此直接通信，从而限制攻击者的横向移动。它通常通过无线接入点配置在访客和公共 Wi-Fi 的 SSID 上实现。网络与分布式系统安全（NDSS）研讨会是一个领先的学术会议，此类前沿安全研究通常在此发表并经过同行评审。",
+  "discussion": "Hacker News 上的讨论反应不一，一些评论者质疑其新颖性，指出攻击需要事先接入网络，并且类似于已知的共享 Wi-Fi 风险。另一些人则强调其对日常用户的实际影响，因为他们的路由器可能在多个频段使用相同的 SSID。还有一些人争论标题是否夸大了研究结果，因为它没有强调 Wi-Fi 加密本身并未被攻破。",
+  "references": [
+    {
+      "title": "What does Client Isolation mean",
+      "url": "https://multitech.com/iot-wiki/client-isolation/"
+    },
+    {
+      "title": "Wireless Client Isolation - Cisco Meraki Documentation",
+      "url": "https://documentation.meraki.com/MR/Firewall_and_Traffic_Shaping/Wireless_Client_Isolation"
+    },
+    {
+      "title": "Network and Distributed System Security (NDSS) Symposium",
+      "url": "https://www.ndss-symposium.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

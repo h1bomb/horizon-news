@@ -1,0 +1,43 @@
+{
+  "id": "9ecc34a5ed732ba27cb86d74e72ce1631ed139af",
+  "canonicalId": "e4fd20c8da56e98b8733b60f491d552cc370a7ba",
+  "slug": "pip-261-introduces-lockfiles-and-dependency-cooldowns",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T05:23:00Z",
+  "lang": "en",
+  "title": "Pip 26.1 introduces lockfiles and dependency cooldowns",
+  "summary": "Pip 26.1 adds support for lockfiles via the new `pip lock` command, which generates a `pylock.toml` file, and introduces dependency cooldowns through the `--uploaded-prior-to` option using ISO 8601 duration format. It also drops support for Python 3.9. Lockfiles improve reproducibility by pinning exact dependency versions, which is crucial for production deployments and collaborative projects. Dependency cooldowns help mitigate supply-chain attacks by preventing installations of very recently uploaded packages. The `pip lock` command writes all resolved dependencies to a `pylock.toml` file, which can be used with `pip install --lock` for reproducible installs. The `--uploaded-prior-to` option accepts values like `P4D` to require packages uploaded at least 4 days ago.",
+  "score": 8,
+  "tags": [
+    "pip",
+    "Python",
+    "dependency management",
+    "lockfiles"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Pip is the default package installer for Python. Lockfiles have long been available in other tools like Pipenv and Poetry, but pip itself lacked native support until now. Dependency cooldowns are a security measure that reduces the window for malicious packages to be installed immediately after upload.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns! | Richard Si",
+      "url": "https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/"
+    },
+    {
+      "title": "pip lock - pip documentation v26.0.1",
+      "url": "https://pip.pypa.io/en/stable/cli/pip_lock/"
+    },
+    {
+      "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
+      "url": "https://simonwillison.net/2026/Apr/28/pip-261/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "772b8687a255602d111ddcf55aba41827447c99f",
+  "canonicalId": "8060be85de8162545273254102ad667664b53909",
+  "slug": "anthropic-apologizes-for-hidden-guardrails-in-claude-fable",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T12:05:00Z",
+  "lang": "en",
+  "title": "Anthropic apologizes for hidden guardrails in Claude Fable",
+  "summary": "Anthropic apologized for covertly adding invisible guardrails to Claude Fable 5 that silently modified prompts to prevent model distillation, and announced it will make these guardrails visible in future updates. This breach of trust raises critical questions about transparency and user autonomy in AI deployment, potentially affecting how developers and researchers rely on AI models for their work. The guardrails were documented in Fable’s 319-page system card, using methods like prompt modification and steering vectors to degrade responses without user notification; Anthropic acknowledged the wrong tradeoff and will change the safeguards to be visible.",
+  "score": 8,
+  "tags": [
+    "Anthropic",
+    "AI safety",
+    "guardrails",
+    "transparency",
+    "ethics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rarisma",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48489229"
+    }
+  ],
+  "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+  "originalSite": "theverge.com",
+  "context": "Model distillation is a technique where a smaller model learns from a larger one, often used to create cheaper alternatives. AI companies sometimes deploy guardrails to prevent misuse, but hidden modifications erode user trust. Anthropic’s Fable 5 is a frontier model, and the company had previously emphasized safety and transparency.",
+  "discussion": "Commenters expressed strong distrust, noting that the invisible guardrails undermine claims of empowering users, and that an apology does not restore trust since the capability remains secret. Some appreciated the model's utility but criticized the paternalism and lack of transparency.",
+  "references": [
+    {
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail"
+    },
+    {
+      "title": "Anthropic Apologizes For One of the Guardrails on Its Fable 5 Model, and Will Change It",
+      "url": "https://gizmodo.com/anthropic-apologizes-for-one-of-the-guardrails-on-its-fable-5-model-and-will-change-it-2000770365"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

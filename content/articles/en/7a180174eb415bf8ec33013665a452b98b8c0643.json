@@ -1,0 +1,44 @@
+{
+  "id": "7a180174eb415bf8ec33013665a452b98b8c0643",
+  "canonicalId": "70ff8fe105015665782688930692d27f985c88f9",
+  "slug": "linux-kernel-to-replace-struct-page-with-memory-descriptors",
+  "date": "2026-05-29",
+  "publishedAt": "2026-05-28T13:09:00Z",
+  "lang": "en",
+  "title": "Linux kernel to replace struct page with memory descriptors",
+  "summary": "Vishal Moola presented the current state and future plans for replacing struct page with memory descriptors at the LSFMM+BPF 2026 summit. This fundamental change to Linux memory management reduces memory overhead and complexity, potentially improving performance and maintainability across the kernel. The memory descriptors are intended to be only 8 bytes, with types such as folio, slab, ptdesc, zsmalloc, and netmem. The transition involves a double-allocation cost and a proposed CONFIG_MEMDESC option, initially disabled by default.",
+  "score": 9,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "memory descriptors",
+    "struct page",
+    "LSFMM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073425/",
+  "originalSite": "lwn.net",
+  "context": "The struct page has been a core part of Linux memory management since 1995, but it has grown to 64 bytes and is cluttered with unions to support different page types, leading to inefficiencies. Memory descriptors aim to separate type-specific information, making the structure smaller and more maintainable by only storing a pointer to a type-specific descriptor.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Memdesc | linux",
+      "url": "https://blogs.oracle.com/linux/introducing-memdesc"
+    },
+    {
+      "title": "The state of the page in 2025 [LWN.net]",
+      "url": "https://lwn.net/Articles/1015320/"
+    },
+    {
+      "title": "Dynamically allocated memory descriptors",
+      "url": "https://lore.kernel.org/linux-mm/5a55874d-80b9-b622-ec98-1bfdf3b251bf@redhat.com/T/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "b2b2614fcc7efd65d598fbc85de170b7ea86c323",
+  "canonicalId": "28b73006ce904ad877eeb3732c6dfc3de19a22d2",
+  "slug": "qwen35-9b-发布采用混合-gated-deltanetattention-架构的-90-亿参数视觉语言模型",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-9B 发布：采用混合 Gated DeltaNet/Attention 架构的 90 亿参数视觉语言模型",
+  "summary": "Qwen 团队发布了 Qwen3.5-9B，这是一个新颖的 90 亿参数视觉语言模型。它采用了一种混合架构，以 8 × (3 × (Gated DeltaNet → FFN) → 1 × (Gated Attention → FFN)) 的模式，将 Gated DeltaNet 层与标准的 Gated Attention 层相结合，并在基准测试中表现出色，据报道其性能超越了一些更大的前代模型。 此次发布意义重大，因为它提供了一个能力强大、中等规模的模型，其效率足以在 16GB GPU 等消费级硬件上运行，使得先进的视觉语言 AI 技术更加普及。其新颖的混合架构在部分基准测试中超越了更大的模型，这代表了开源 AI 社区在模型效率和设计方面迈出的重要一步。 该模型原生支持 262,144 个令牌的上下文长度，并可扩展至 1,010,000 个令牌。它采用了多步训练（MTP）方法，并且 GGUF 格式的量化版本已经可用，这对于在资源受限的硬件上部署至关重要。",
+  "score": 8,
+  "tags": [
+    "large-language-models",
+    "computer-vision",
+    "model-architecture",
+    "open-source",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 12:33"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+  "originalSite": "huggingface.co",
+  "context": "Gated DeltaNet 是最近提出的一种架构，它结合了来自 Mamba2 的门控机制和来自 DeltaNet 的 delta 规则，旨在改进线性注意力模型，以获得更好的效率和性能。GGUF（Generic GPT Unified Format）是一种专门为存储和高效运行量化后的大型语言模型而设计的二进制文件格式，使其能够在性能较低的硬件上运行。多步训练（MTP）是一种训练模型同时预测多个未来令牌的技术，可以提高推理速度和模型的泛化能力。",
+  "discussion": "社区反应非常积极，兴奋点主要集中在该模型对于拥有 16GB GPU 用户的易用性，以及其与更大模型相比令人惊讶的强大基准测试性能。关键的讨论点包括对各种量化版本的请求（\"QUANTS PLEASE\"）、关于哪个特定的量化版本最适合 16GB VRAM 的疑问，以及对使这个 90 亿参数模型能够超越更大前代模型的架构创新的猜测。",
+  "references": [
+    {
+      "title": "[2412.06464] Gated Delta Networks: Improving Mamba2 with Delta Rule",
+      "url": "https://arxiv.org/abs/2412.06464"
+    },
+    {
+      "title": "Understanding the GGUF Format: A Comprehensive Guide - Medium",
+      "url": "https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256"
+    },
+    {
+      "title": "GitHub - NeuraLiying/ mtp _ train : Multi -token prediction ( MTP ) training ...",
+      "url": "https://github.com/NeuraLiying/mtp_train"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "d214518c82bca4ba4efb249411ab73474f5895de",
+  "canonicalId": "d6cfda0393f182597372cb68e353870214d59eb5",
+  "slug": "中国灵晟超算以-2198-exaflops-登顶-top500",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T15:30:00Z",
+  "lang": "zh",
+  "title": "中国'灵晟'超算以 2.198 ExaFLOPS 登顶 TOP500",
+  "summary": "2026 年 6 月 23 日公布的 TOP500 榜单中，中国'灵晟'超算以 2.198 ExaFLOPS 的 HPL 性能位居榜首，成为全球首台纯 CPU 设计突破 2 ExaFLOPS 的系统。 这标志着中国时隔八年重回超算榜首，预示着高性能计算领域向纯 CPU 百亿亿次架构的转变，减少了对 GPU 加速器的依赖。 该系统由 20,480 个节点构成，每个节点配备两颗 LX2 处理器（ARMv9 架构，每颗 304 核心），总计近 1400 万 CPU 核心，功耗约 42.2 MW，能效为 52.07 GigaFLOPS/W。",
+  "score": 9,
+  "tags": [
+    "supercomputing",
+    "TOP500",
+    "HPC",
+    "China",
+    "exascale"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://news.mydrivers.com/1/1131/1131573.htm",
+  "originalSite": "news.mydrivers.com",
+  "context": "TOP500 榜单根据 HPL 基准测试对全球最强超算进行排名。ExaFLOPS（每秒百亿亿次浮点运算）是百亿亿次计算的门槛。近年来多数百亿亿次系统依赖 GPU 加速器，而灵晟仅凭 CPU 达到了这一水平。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "更多的资料： LineShine超级计算机由深圳国家超级计算中心（NSCC-SZ）...",
+      "url": "https://x.com/Compute_King/status/2069348374609080753"
+    },
+    {
+      "title": "245万个CPU核心，中国超算“灵晟”突破2EFlops_凤凰网",
+      "url": "https://tech.ifeng.com/c/8tCEPugIDxu"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

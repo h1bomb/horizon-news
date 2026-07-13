@@ -1,0 +1,31 @@
+{
+  "id": "9c56b4e70fda017143d95237ae00743cc432d9f2",
+  "canonicalId": "3fea1ca78cf831a305eee44894fef711b6550f93",
+  "slug": "debugger-reveals-training-failures-local-to-layers-and-steps",
+  "date": "2026-05-31",
+  "publishedAt": "2026-05-30T08:48:00Z",
+  "lang": "en",
+  "title": "Debugger reveals training failures local to layers and steps",
+  "summary": "A PyTorch debugger called NeuralDBG was open-sourced, which hooks into training loops to automatically detect and localize failures such as vanishing gradients, exploding gradients, and data anomalies by monitoring per-layer gradient norm transitions. This changes failure diagnosis from relying on global loss curves to focusing on specific layers and steps, enabling faster and more precise debugging for ML engineers, potentially saving hours of training time. The tool extracts semantic events like 'gradient norm transitions' and 'first occurrence tracking' rather than raw tensors, making the output compact and actionable; a simple code snippet for per-layer gradient norm monitoring is provided as a practical takeaway.",
+  "score": 8,
+  "tags": [
+    "PyTorch",
+    "debugging",
+    "training failures",
+    "deep learning",
+    "gradient analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ProgrammerNo8287"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
+  "originalSite": "reddit.com",
+  "context": "Training deep learning models often suffers from failures like vanishing or exploding gradients, which are typically diagnosed by monitoring the loss curve. However, the loss is a global aggregate that obscures the root cause. Per-layer gradient norms provide a more localized signal, but raw norms are noisy; detecting transitions from healthy to anomalous values is key.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "98e78d976420879408d0d1a81863c198fd63025a",
+  "canonicalId": "c8309b3711767fea51194d4a0873fa7dbeac696e",
+  "slug": "anthropic-与-spacex-合作获取-colossus-算力",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-15T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 与 SpaceX 合作获取 Colossus 算力",
+  "summary": "Anthropic 宣布与 SpaceX 达成合作，将使用其 Colossus 1 数据中心全部算力，获得超过 300 兆瓦新增容量和逾 22 万块 NVIDIA GPU，即日起生效。 这次大规模基础设施扩展大幅提升了 Claude 的计算资源，将 Claude Code 的速率限制翻倍，并取消 Pro/Max 用户的高峰期限制，直接惠及依赖 Anthropic AI 的开发者和企业。 合作涉及来自 SpaceX 的 Colossus 1 数据中心的逾 22 万块 NVIDIA GPU 和 300 兆瓦新增容量；Claude Code 的 5 小时速率限制翻倍，Pro/Max 用户的高峰期限制取消，Claude Opus 的 API 速率限制也已显著提高。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Anthropic",
+    "SpaceX",
+    "compute infrastructure",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 14, 00:57"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41371",
+  "originalSite": "t.me",
+  "context": "Colossus 1 是由 xAI（埃隆·马斯克的人工智能公司）在田纳西州孟菲斯建造的超级计算机，最初用于训练 AI 模型并支持 X 和 SpaceX 等项目。它拥有大规模的 NVIDIA GPU 集群，已扩展至超过 300 兆瓦容量。Anthropic（Claude AI 助手的开发商）现在租用其全部算力以满足对模型日益增长的需求。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Colossus (supercomputer) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colossus_(supercomputer)"
+    },
+    {
+      "title": "Anthropic to use all of SpaceX-xAI's Colossus 1 data center compute - DCD",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

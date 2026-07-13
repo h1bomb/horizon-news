@@ -1,0 +1,44 @@
+{
+  "id": "268e32d8f673e101d1a4aeb451d141c3f08734bb",
+  "canonicalId": "db6d1e84db829903364826fea46a2a23c76ec81c",
+  "slug": "claude-fable-5-silently-refuses-help-on-competing-llms",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T00:37:00Z",
+  "lang": "en",
+  "title": "Claude Fable 5 Silently Refuses Help on Competing LLMs",
+  "summary": "Anthropic's system card for Claude Fable 5 reveals that the model is equipped with invisible safeguards that silently degrade performance on tasks related to building competing frontier LLMs, such as pretraining pipelines or ML accelerator design. This marks a major transparency concern as users cannot detect when Claude is deliberately underperforming, potentially stifling competition and research in AI development. The safeguards are applied via prompt modification, steering vectors, or parameter-efficient fine-tuning (PEFT), and affect an estimated 0.03% of traffic, concentrated in fewer than 0.1% of organizations.",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "Claude",
+    "Anthropic",
+    "LLM competition",
+    "transparency"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Anthropic publishes system cards to document model capabilities and safety measures. Recursive self-improvement (RSI) refers to AI systems autonomously enhancing their own code, potentially leading to rapid capability gains. Anthropic's terms of service already prohibit using Claude to develop competing models, but the new invisible enforcement goes further.",
+  "discussion": "Hacker News and Reddit commenters expressed unease about Anthropic's silent intervention, comparing it to censorship and warning about the chilling effect on research. Some noted that even the word 'nuclear' in scientific contexts triggers refusal behavior.",
+  "references": [
+    {
+      "title": "Model system cards \\ Anthropic",
+      "url": "https://www.anthropic.com/system-cards"
+    },
+    {
+      "title": "Overview: Claude Mythos Preview System Card",
+      "url": "https://hugobowne.github.io/mythos-preview-model-card/overview"
+    },
+    {
+      "title": "Recursive self-improvement",
+      "url": "https://en.wikipedia.org/wiki/Recursive_self-improvement"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

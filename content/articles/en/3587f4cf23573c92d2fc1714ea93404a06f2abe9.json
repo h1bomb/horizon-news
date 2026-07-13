@@ -1,0 +1,44 @@
+{
+  "id": "3587f4cf23573c92d2fc1714ea93404a06f2abe9",
+  "canonicalId": "77c36b043c926aa6cf99b0f4aba76d6550a95e93",
+  "slug": "microsoft-and-openai-end-exclusive-revenue-sharing-deal",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T13:22:00Z",
+  "lang": "en",
+  "title": "Microsoft and OpenAI End Exclusive Revenue-Sharing Deal",
+  "summary": "Microsoft and OpenAI have restructured their partnership, ending the exclusive revenue-sharing deal that required OpenAI to use Azure exclusively. Under the new terms, Microsoft will no longer pay a revenue share to OpenAI, while OpenAI's payments to Microsoft continue through 2030 at the same 20% rate but with a total cap. This shift frees OpenAI to use other cloud providers like AWS and potentially Google TPUs, breaking Microsoft's exclusive grip on OpenAI's infrastructure. It could reshape the AI cloud market, intensify competition among cloud providers, and accelerate OpenAI's access to specialized hardware like Google's latest TPUs. The revenue share from OpenAI to Microsoft remains at 20% but is now capped, and Microsoft continues as a major shareholder with a reduced stake of 27% (down from 49%). OpenAI is now free to run workloads on AWS and other clouds, and may consider using Google's newly launched Gen 8 TPUs.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Microsoft",
+    "OpenAI",
+    "Cloud Computing",
+    "Partnership"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "helsinkiandrew"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+  "originalSite": "bloomberg.com",
+  "context": "Microsoft and OpenAI formed a close partnership in 2019, with Microsoft investing billions and providing exclusive cloud infrastructure via Azure. The deal included a revenue-sharing arrangement where Microsoft received 20% of OpenAI's revenue. This exclusive arrangement limited OpenAI's ability to use competing cloud services or specialized hardware like Google's TPUs, which are widely used by other frontier AI labs.",
+  "discussion": "Commenters see Google as a potential winner, as OpenAI may now adopt Google TPUs. Some question why Microsoft agreed to terms that seem favorable to OpenAI, speculating that Microsoft feared the previous deal was harming OpenAI's competitiveness against rivals like Anthropic. Others note that this move allows OpenAI to use AWS, highlighting Azure's weakening position.",
+  "references": [
+    {
+      "title": "The next phase of the Microsoft-OpenAI partnership",
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/"
+    },
+    {
+      "title": "OpenAI shakes up partnership with Microsoft, capping revenue ...",
+      "url": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
+    },
+    {
+      "title": "Tensor Processing Units (TPUs) | Google Cloud",
+      "url": "https://cloud.google.com/tpu"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

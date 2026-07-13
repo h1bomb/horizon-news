@@ -1,0 +1,44 @@
+{
+  "id": "b7299a2f4719d9925273266d8175b2e04ca8b53a",
+  "canonicalId": "36b1e4fe49d63bf84606469232c97099c4af7737",
+  "slug": "nezha-monitoring-v2013-and-below-has-critical-path-traversal-cvss-91",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T01:25:00Z",
+  "lang": "en",
+  "title": "Nezha Monitoring v2.0.13 and Below Has Critical Path Traversal (CVSS 9.1)",
+  "summary": "A severe unauthenticated path traversal vulnerability (CVE-2026-53519) has been disclosed in Nezha Monitoring versions below v2.0.13, with a CVSS score of 9.1. Attackers can read arbitrary files, such as the config.yaml, to extract JWT secrets by crafting a GET request like /dashboard../data/config.yaml. Nezha Monitoring is a widely used self-hosted server monitoring tool; the vulnerability allows unauthorized access to sensitive JWT keys, enabling attackers to forge sessions and compromise entire server fleets. Immediate upgrade is critical for all users. The vulnerability resides in the dashboard component and affects all versions prior to v2.0.13. The exploit requires no authentication and can be triggered over HTTP, making it remotely exploitable with low complexity.",
+  "score": 9,
+  "tags": [
+    "网络安全",
+    "漏洞",
+    "哪吒监控",
+    "路径穿越",
+    "CVSS"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42001",
+  "originalSite": "t.me",
+  "context": "Path traversal (or directory traversal) attacks allow an attacker to read files outside the intended directory by using sequences like '../' in file paths. Nezha Monitoring is an open-source, self-hosted monitoring and operation tool that supports multiple servers and websites, making such a vulnerability particularly dangerous for infrastructure security.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - nezhahq/nezha: :trollface: Self-hosted, lightweight ...",
+      "url": "https://github.com/nezhahq/nezha"
+    },
+    {
+      "title": "Path traversal vulnerability",
+      "url": "https://en.wikipedia.org/wiki/Path_traversal_vulnerability"
+    },
+    {
+      "title": "Path Traversal | OWASP Foundation",
+      "url": "https://owasp.org/www-community/attacks/Path_Traversal"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

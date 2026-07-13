@@ -1,0 +1,45 @@
+{
+  "id": "16446dbb30a7af009044ba17b14207f31a5feaa5",
+  "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
+  "slug": "qwen37-max-the-agent-frontier-model",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T10:35:00Z",
+  "lang": "en",
+  "title": "Qwen3.7-Max: The Agent Frontier Model",
+  "summary": "Alibaba's Qwen team released Qwen3.7-Max, a frontier AI model designed for agentic tasks, claiming state-of-the-art non-hallucination performance and 10x speedup in a 35-hour optimization task on domestic chips. This release demonstrates that open-source models are approaching the frontier of proprietary models, offering a free alternative to expensive services like Claude Code. It also showcases significant progress in long-horizon autonomous agents and non-hallucination, which are critical for enterprise adoption. Qwen3.7-Max supports a 1M token context window, integrates seamlessly with frameworks like Claude Code and OpenClaw, and scored 57 on the Artificial Analysis Intelligence Index. The model achieved SOTA non-hallucination rate on AA-omniscience benchmarks, outperforming Opus 4.7 and GPT-5.5 according to community claims.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "large language models",
+    "Qwen",
+    "open-source AI",
+    "benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kevinsimper",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48205626"
+    }
+  ],
+  "originalUrl": "https://qwen.ai/blog?id=qwen3.7",
+  "originalSite": "qwen.ai",
+  "context": "AI hallucination refers to models generating confident but factually incorrect outputs. The 'agent frontier' concept involves autonomous AI agents that can execute long-horizon tasks with minimal human intervention. Qwen is Alibaba's large language model series, with Qwen3.7-Max being their latest flagship agent-oriented model.",
+  "discussion": "The community is excited about the non-hallucination performance being SOTA, with users noting it as a viable free alternative to Claude Code. Some commentators wish for US-based hosting options, while others criticize the lack of direct comparisons against latest competitor versions in benchmarks.",
+  "references": [
+    {
+      "title": "Qwen3.7-Max : Modèle Agentic D’Alibaba, Cap Sur MCP",
+      "url": "https://pausehardware.com/qwen3-7-max-modele-agentic-alibaba-mcp/"
+    },
+    {
+      "title": "Qwen3.7 Max - Intelligence, Performance & Price Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-7-max"
+    },
+    {
+      "title": "Qwen3.7-Max Achieves 10x Performance Improvement on Domestic Chip in 35-Hour Optimization Task | KuCoin",
+      "url": "https://www.kucoin.com/news/flash/qwen3-7-max-achieves-10x-performance-boost-on-domestic-chip-in-35-hour-optimization-task"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

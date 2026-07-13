@@ -1,0 +1,40 @@
+{
+  "id": "18fbca50bc0a613637172f315f793f76191b359b",
+  "canonicalId": "83d495c3ce964cdf3104632b29241c2801a553fb",
+  "slug": "critique-anthropics-safety-claims-for-claude-mythos-preview-mask-high-compute-costs",
+  "date": "2026-04-10",
+  "publishedAt": "2026-04-09T13:00:00Z",
+  "lang": "en",
+  "title": "Critique: Anthropic's safety claims for Claude Mythos Preview mask high compute costs.",
+  "summary": "A critical analysis argues that Anthropic's portrayal of Claude Mythos Preview as 'too dangerous' to release due to its ability to find zero-day vulnerabilities in OpenBSD is primarily a cover for exorbitant compute costs, based on their system documentation. The analysis highlights that the model's reported success in finding bugs involved uncensored checkpoints, stripped guardrails, extended thinking time, domain-specific tools, and thousands of brute-force runs at about $50 per run. This critique matters because it challenges the transparency of AI companies in justifying model restrictions, potentially influencing industry discussions on ethical AI deployment and cost-benefit analysis. If safety concerns are misrepresented to hide computational inefficiencies, it could undermine trust in AI safety narratives and shift focus toward open-source alternatives that achieve similar capabilities more efficiently. The analysis notes that the single-shot probability of Claude Mythos Preview finding a bug is likely fractions of a percent, suggesting the model is not inherently dangerous but rather unscalable due to high compute requirements. It contrasts this with open-source models like GLM-5.1 and Kimi 2.5, which are already performing agentic scaling with iterative loops and parallel tool calls locally, indicating that similar capabilities are achievable without prohibitive costs.",
+  "score": 7,
+  "tags": [
+    "AI Safety",
+    "Compute Costs",
+    "Anthropic",
+    "Model Transparency",
+    "Critical Analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "GWGSYT"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1sgoy17",
+  "originalSite": "reddit.com",
+  "context": "Claude Mythos Preview is a large language model developed by Anthropic, described as their most capable frontier model to date, with advanced performance on coding benchmarks and safety evaluations. Uncensored checkpoints refer to AI model versions that have had safety filters or content restrictions removed, often used in testing to explore raw capabilities without ethical constraints. Zero-day vulnerabilities are security flaws in software unknown to developers, which can be exploited by attackers before a fix is available, making them a critical concern in cybersecurity.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Mythos Preview System Card - anthropic.com",
+      "url": "https://www.anthropic.com/claude-mythos-preview-system-card"
+    },
+    {
+      "title": "Zero - day vulnerability - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

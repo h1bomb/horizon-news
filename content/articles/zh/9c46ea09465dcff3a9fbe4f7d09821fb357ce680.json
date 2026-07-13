@@ -1,0 +1,36 @@
+{
+  "id": "9c46ea09465dcff3a9fbe4f7d09821fb357ce680",
+  "canonicalId": "30d2d6731b139e2517664c148381552798861c5e",
+  "slug": "linux-内核密码学-api-现代化",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:14:00Z",
+  "lang": "zh",
+  "title": "Linux 内核密码学 API 现代化",
+  "summary": "在 2026 年北美 Linux 安全峰会上，Eric Biggers 介绍了正在进行的将传统 Linux 内核密码学 API 替换为更安全、更易使用的新库 API 的工作。 这一现代化改造降低了内核密码学的复杂性和潜在安全漏洞，惠及所有依赖加密、哈希和认证的内核子系统。 自 2002 年引入的传统密码学 API 已变得复杂、缓慢，且未能针对现代基于 CPU 的加速进行优化，导致维护和性能问题。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "cryptography",
+    "security",
+    "API design",
+    "LSS NA"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077427/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核密码学 API 是一个为加密算法（如密码、哈希和消息认证码）提供标准化接口的框架。自内核 2.5.45 版本以来一直存在，但其设计已过时，因此推动了采用库 API 以实现更安全、更高效的密码学操作。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linux kernel crypto API",
+      "url": "https://en.wikipedia.org/wiki/Linux_kernel_crypto_API"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

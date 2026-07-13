@@ -1,0 +1,40 @@
+{
+  "id": "21952c751185d918b7c1372c9d78911f58bf738d",
+  "canonicalId": "85daad0293fb6cbd91d26a08ca93120a3d40acfa",
+  "slug": "tencent-open-sources-hy3-preview-295b-moe-with-256k-context",
+  "date": "2026-07-06",
+  "publishedAt": "2026-07-06T10:09:00Z",
+  "lang": "en",
+  "title": "Tencent Open-Sources Hy3 Preview: 295B MoE with 256K Context",
+  "summary": "Tencent has released and open-sourced the Hunyuan Hy3 preview, a Mixture-of-Experts (MoE) language model with 295 billion total parameters and 21 billion active parameters, supporting a 256K token context length. This release significantly enriches the open-source LLM ecosystem with a large-scale MoE model focused on complex reasoning and agent tasks, potentially accelerating development in AI-powered coding and scientific applications. The model achieves a 54% reduction in first-token latency for products like CodeBuddy, thanks to deep co-optimization of model architecture and inference framework. It targets enhanced performance in math, science, and code generation.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "MoE",
+    "open-source",
+    "LLM",
+    "Tencent"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42385",
+  "originalSite": "t.me",
+  "context": "Mixture-of-Experts (MoE) is an architecture that uses multiple specialized sub-networks (experts) and a router to activate only a subset of parameters per token, enabling large model capacity with lower computational cost. First-token latency is the time it takes for a model to start generating its first output token, critical for real-time interactive applications. Tencent's Hunyuan Hy3 leverages these techniques to balance scale and efficiency.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A Visual Guide to Mixture of Experts ( MoE )",
+      "url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts"
+    },
+    {
+      "title": "Why Faster First Tokens Matter More Than Total Response Time",
+      "url": "https://www.codeant.ai/blogs/ai-first-token-latency"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

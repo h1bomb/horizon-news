@@ -1,0 +1,40 @@
+{
+  "id": "be887ae2712c4a714feb967378ae428f43fb24af",
+  "canonicalId": "ac7437d01aba09b25294dc2287ef68e01357e342",
+  "slug": "google-chrome-downloads-4gb-local-ai-model-gemini-nano-by-default",
+  "date": "2026-03-01",
+  "publishedAt": "2026-02-28T05:02:00Z",
+  "lang": "en",
+  "title": "Google Chrome downloads 4GB local AI model Gemini Nano by default",
+  "summary": "Google Chrome has been discovered to automatically download a roughly 4GB local AI model file named 'weights.bin' by default. This file powers built-in AI features like the Prompt API, translation, and summarization. This move signifies a major shift towards integrating powerful, on-device AI directly into web browsers, prioritizing speed and user privacy over cloud dependency. However, the automatic, large download impacts user storage and bandwidth without explicit consent, raising concerns about transparency and control. Users can disable this feature by turning off the relevant experimental flags in Chrome and manually deleting the corresponding folder to free up disk space. Deleting the 'weights.bin' file will cause the associated AI features to stop working.",
+  "score": 7,
+  "tags": [
+    "browser",
+    "ai-models",
+    "privacy",
+    "google-chrome",
+    "local-ai"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://winaero.com/google-chrome-secretly-downloads-huge-local-ai-models/",
+  "originalSite": "winaero.com",
+  "context": "Gemini is a family of multimodal large language models developed by Google DeepMind. Gemini Nano is a lightweight version designed to run efficiently on local devices. Chrome's Prompt API is an experimental browser feature that allows web applications to leverage these local AI models for tasks like translation and summarization without sending data to external servers, enhancing privacy and enabling offline use.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemini (language model ) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)"
+    },
+    {
+      "title": "Build a local and offline-capable chatbot with the Prompt API",
+      "url": "https://web.dev/articles/ai-chatbot-promptapi"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

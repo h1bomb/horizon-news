@@ -1,0 +1,41 @@
+{
+  "id": "4acd2d095c43c069c3c14f7e03aa9a94af777e54",
+  "canonicalId": "693436487620f72169cfe3a82b957e4629bff9ac",
+  "slug": "80386-微码逆向工程解析",
+  "date": "2026-05-24",
+  "publishedAt": "2026-05-24T00:00:00Z",
+  "lang": "zh",
+  "title": "80386 微码逆向工程解析",
+  "summary": "一篇关于 Intel 80386 微码的详细反汇编报告已发布，揭示了这款经典 32 位处理器的内部控制逻辑。 这一逆向工程成果为基础 CPU 的设计提供了前所未有的洞察，惠及复古计算爱好者和计算机架构研究人员。 反汇编可能涉及分析高分辨率芯片显微照片并重建微码 ROM 内容；80386 使用微程序设计来实现其 x86 指令集。",
+  "score": 8,
+  "tags": [
+    "reverse engineering",
+    "CPU microcode",
+    "80386",
+    "computer architecture",
+    "retrocomputing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 23, 12:11",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48247004"
+    }
+  ],
+  "originalUrl": "https://www.reenigne.org/blog/80386-microcode-disassembled/",
+  "originalSite": "reenigne.org",
+  "context": "微码是一层低级指令，控制 CPU 的内部操作，充当机器码的解释器。Intel 80386 于 1985 年发布，是 x86 系列中首款 32 位处理器，也是现代计算的基石。反汇编其微码是一项高度复杂的逆向工程任务，需要对芯片布局和逻辑有深入了解。",
+  "discussion": "评论者对逆向工程工作表示钦佩，有些人询问从芯片图像中提取微码的技术过程。还提到了相关项目如 z386，一个基于原始微码构建的开源 80386。",
+  "references": [
+    {
+      "title": "Microcode - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Microcode"
+    },
+    {
+      "title": "Intel 80386",
+      "url": "https://en.wikipedia.org/wiki/Intel_80386"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

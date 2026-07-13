@@ -1,0 +1,44 @@
+{
+  "id": "fe71af7f5291bcdfe7a79fe78e19df29821b9659",
+  "canonicalId": "a4cc7467e69595d530092b62d9f1e12c09ed4085",
+  "slug": "anthropic-推出-claude-code-routines实现-llm-工作流自动化",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-15T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 推出 Claude Code Routines，实现 LLM 工作流自动化",
+  "summary": "Anthropic 推出了 Claude Code Routines 功能，目前处于研究预览阶段，允许开发者使用大语言模型创建可重复的自动化工作流。这些例程可以按计划触发、通过 API 调用触发，或响应 GitHub 活动等事件触发。 这标志着大语言模型向生产工作流实用化迈出了重要一步，从一次性交互转向计划性和事件驱动的自动化。通过减少重复编码任务中的人工干预，该功能可能加速 AI 在软件开发中的采用。 该功能目前处于研究预览阶段，可与 Claude Code 订阅配合使用，但用户注意到文档与实现之间存在关于可用 GitHub 触发器的差异。社区讨论强调了性能可靠性问题以及对第三方集成的服务条款解释的担忧。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "LLM",
+    "Automation",
+    "Developer Tools",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 14, 16:54"
+    }
+  ],
+  "originalUrl": "https://code.claude.com/docs/en/routines",
+  "originalSite": "code.claude.com",
+  "context": "Claude Code 是 Anthropic 的 AI 驱动编码助手，帮助开发者完成代码生成、调试和文档编写等任务。LLM 工作流自动化指的是将大语言模型任务嵌入自动化流程，这代表了从机器人流程自动化向代理流程自动化的转变，即由 LLM 编排工作流。Anthropic 的服务条款区分了消费者服务和商业服务，API 使用通常属于商业条款范畴。",
+  "discussion": "社区情绪复杂，用户对 LLM 提供商功能持久性和性能一致性的信任表示担忧。具体讨论集中在第三方集成的服务条款解释、Claude 模型近期性能下降问题，以及文档记载与实际可用的 GitHub 事件触发器之间的差异。",
+  "references": [
+    {
+      "title": "Anthropic adds routines to redesigned Claude Code, here's how it works - 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/"
+    },
+    {
+      "title": "[2411.05451] WorkflowLLM: Enhancing Workflow Orchestration ... GitHub - Skyvern-AI/skyvern: Automate browser based workflows ... LLM4Workflow: An LLM-based Automated Workflow Model ... LLM Automation: Top 7 Tools & 8 Case Studies How to Build Workflows with Prefect and LLM Frameworks ...",
+      "url": "https://arxiv.org/abs/2411.05451"
+    },
+    {
+      "title": "Terms of Service Updates | Anthropic Privacy Center",
+      "url": "https://privacy.claude.com/en/articles/9190861-terms-of-service-updates"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

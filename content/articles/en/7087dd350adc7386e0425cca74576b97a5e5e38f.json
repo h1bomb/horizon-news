@@ -1,0 +1,44 @@
+{
+  "id": "7087dd350adc7386e0425cca74576b97a5e5e38f",
+  "canonicalId": "2342daad418b8af05f4ba07b9b4ac55c393592dd",
+  "slug": "atomic-buffered-writes-discussed-at-lsfmmbpf-2026",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-14T14:54:00Z",
+  "lang": "en",
+  "title": "Atomic buffered writes discussed at LSFMM+BPF 2026",
+  "summary": "At the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), developers discussed atomic-buffered writes for the Linux kernel. PostgreSQL's need for 8KB atomic writes and a new writethrough-based approach were presented. This feature could dramatically improve performance for databases like PostgreSQL by eliminating the need for full-page writes in the write-ahead log (WAL), reducing write amplification and increasing transaction throughput. It also advances Linux kernel filesystem capabilities for modern NVMe storage. PostgreSQL currently uses full-page writes to the WAL to prevent torn 8KB pages, leading to a 14x increase in WAL size and lower transaction rates. The proposed writethrough approach writes data directly to disk instead of relying on page cache writeback, enabling atomic guarantees for buffered I/O.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "filesystem",
+    "storage",
+    "database",
+    "atomic writes"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072019/",
+  "originalSite": "lwn.net",
+  "context": "Atomic writes ensure that a write operation is either fully committed to disk or not at all, preventing torn writes. For buffered I/O, the Linux kernel typically uses a page cache with delayed writeback, which is incompatible with atomic guarantees. A writethrough cache strategy writes data immediately to the underlying storage, bypassing the cache's delayed writeback.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2.10. Atomic Block Writes — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/latest/filesystems/ext4/atomic_writes.html"
+    },
+    {
+      "title": "The ongoing quest for atomic buffered writes [LWN.net]",
+      "url": "https://lwn.net/Articles/1060063/"
+    },
+    {
+      "title": "Supporting untorn buffered writes [LWN.net]",
+      "url": "https://lwn.net/Articles/1016015/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

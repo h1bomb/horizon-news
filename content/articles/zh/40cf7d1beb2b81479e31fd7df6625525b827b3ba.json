@@ -1,0 +1,31 @@
+{
+  "id": "40cf7d1beb2b81479e31fd7df6625525b827b3ba",
+  "canonicalId": "b55191057fa6df72d75e63ce2a72875623d0a3bb",
+  "slug": "github-copilot-转向按用量计费",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub Copilot 转向按用量计费",
+  "summary": "GitHub 宣布 Copilot 将从固定月费订阅转为按用量计费模式，用户每月获得一定数量的 AI 积分，可充值或累积。此变更影响 Copilot Pro（每月 10 美元，含 10 美元积分）和 Pro+（每月 39 美元，含 39 美元积分）套餐。 此次定价转变结束了 Copilot 用户的补贴推理时代，可能增加重度用户的成本，并促使许多人评估 OpenRouter 或 DeepSeek 等替代方案。这反映了 AI 工具提供商转向按用量定价的行业趋势，以使成本与实际使用量相匹配。 新模型倍率从基础模型的 1 倍到 GPT-4 和 Sonnet 的 6 倍，最高达 Opus 的 27 倍，这意味着单个请求可能消耗大量积分。此前用户每月支付 10 美元即可获得价值数百美元的 Opus 使用量，但现在这种使用成本将大幅增加。",
+  "score": 8,
+  "tags": [
+    "GitHub Copilot",
+    "pricing",
+    "AI tools",
+    "developer tools",
+    "billing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 27, 16:03"
+    }
+  ],
+  "originalUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+  "originalSite": "github.blog",
+  "context": "GitHub Copilot 是一款 AI 驱动的代码补全工具，可实时建议代码片段和函数。它于 2021 年推出，迅速受到开发者欢迎。原定价为固定月费，实际上补贴了 GPT-4 和 Claude Opus 等昂贵 AI 模型的重度使用。",
+  "discussion": "社区情绪普遍负面，用户称这一变化对重度 Opus 用户是“50 倍涨价”，并质疑其价值主张。许多人考虑转向 OpenRouter 等按需付费提供商或 DeepSeek 等免费替代品，认为补贴推理时代已经结束。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

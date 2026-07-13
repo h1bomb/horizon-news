@@ -1,0 +1,44 @@
+{
+  "id": "176755b186a8c3efb95631629e6e1de15d4122b1",
+  "canonicalId": "a44ae99ded0be7cd553d8bb9375c4a12c78d989a",
+  "slug": "netflix-在-hugging-face-上发布首个公开-ai-模型-void用于视频对象及交互删除",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "Netflix 在 Hugging Face 上发布首个公开 AI 模型 VOID，用于视频对象及交互删除。",
+  "summary": "Netflix 在 Hugging Face 和 GitHub 上公开发布了 VOID（视频对象及交互删除）模型，这是该公司在该平台上的首个开源模型发布。该模型旨在从视频中移除对象，同时处理其物理交互，如阴影、反射和物体碰撞，以生成合理的结果。 此次发布具有重要意义，标志着 Netflix 进入开源 AI 贡献领域，可能通过物理合理的修复能力推动视频编辑和内容审核工具的发展。它可能通过为复杂视频处理任务提供高质量模型，影响电影制作、内容审核和 AI 研究等行业。 VOID 使用基于 Kubric 和 HUMOTO 生成的新配对数据集进行训练，用于反事实对象移除，专注于碰撞等交互发生的复杂场景。该模型在 Hugging Face 上提供，并有一个演示空间，在合成和真实世界数据的评估中优于基准修复和文本引导视频模型。",
+  "score": 8,
+  "tags": [
+    "video-editing",
+    "AI-models",
+    "open-source",
+    "computer-vision",
+    "content-moderation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 3, 12:25"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/bgt3czvcwysg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "视频对象移除涉及使用 AI 从视频中擦除不需要的对象，同时保持视觉一致性，通常通过修复技术填充缺失区域。Hugging Face 是一个用于分享 AI 模型、数据集和演示的流行平台，促进了机器学习社区的开源协作。物理合理的修复指的是 AI 生成的内容能真实地考虑物理交互，例如移除对象如何影响阴影或掉落物品等周围元素。",
+  "discussion": "社区评论显示高度参与，用户称赞 VOID 能够移除对象及其物理交互（如阴影和碰撞）的能力令人印象深刻。然而，一些人担心其可能被滥用于审查，例如从电影中移除香烟或修改内容，而其他人则幽默地推测其应用，如移除主角或马赛克。",
+  "references": [
+    {
+      "title": "VOID: Video Object and Interaction Deletion",
+      "url": "https://void-model.github.io/"
+    },
+    {
+      "title": "Now even Netflix has its own video AI • The Register",
+      "url": "https://www.theregister.com/2026/04/03/netflix_video_ai/"
+    },
+    {
+      "title": "[2604.02296] VOID: Video Object and Interaction Deletion",
+      "url": "https://arxiv.org/abs/2604.02296"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

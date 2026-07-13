@@ -1,0 +1,44 @@
+{
+  "id": "2e84777648b4cb4546323714a0102184a74b5248",
+  "canonicalId": "7ff873e9e9fa756f8013ee0fdf9e015d3194c9bd",
+  "slug": "xiaomi-12-pro-transformed-into-247-headless-ai-server-running-gemma4-via-ollama",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-14T11:44:00Z",
+  "lang": "en",
+  "title": "Xiaomi 12 Pro transformed into 24/7 headless AI server running Gemma4 via Ollama",
+  "summary": "A user successfully converted a Xiaomi 12 Pro smartphone into a dedicated local AI server by flashing LineageOS to remove Android UI bloat, implementing custom thermal management and battery protection systems, and deploying Gemma4 via Ollama as a LAN-accessible API. The setup includes a custom daemon that triggers external cooling at 45°C and a script that limits charging to 80% for 24/7 operation. This demonstrates how consumer mobile hardware with powerful chips like Snapdragon 8 Gen 1 can be repurposed for edge AI computing, potentially lowering the barrier to entry for local LLM deployment and enabling privacy-focused applications. It showcases practical solutions for thermal management and battery longevity in continuous mobile hardware operation, which could inspire similar projects in the growing edge AI ecosystem. The setup achieves approximately 9GB of available RAM for LLM computation by stripping Android UI components, and maintains network connectivity through a manually compiled wpa_supplicant in headless mode. The external cooling module is controlled via a Wi-Fi smart plug, while the battery protection script helps prevent degradation during continuous operation.",
+  "score": 7,
+  "tags": [
+    "Local AI",
+    "Hardware Hacking",
+    "Ollama",
+    "Mobile Computing",
+    "Edge Computing"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Aromatic_Ad_7557"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/fo3jf5vk85vg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Ollama is an open-source tool that simplifies running large language models locally, enabling privacy-focused AI applications without cloud dependencies. Gemma4 is Google's latest open-source LLM family released in April 2026, offering multimodal capabilities with text and image input. wpa_supplicant is a Linux daemon that handles WPA/WPA2 wireless authentication, commonly used for command-line network connectivity in headless systems.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ollama | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/agents/providers/ollama"
+    },
+    {
+      "title": "Gemma (language model)",
+      "url": "https://en.wikipedia.org/wiki/Gemma_(language_model)"
+    },
+    {
+      "title": "How to Use WPA_Supplicant: An In-Depth Guide - TheLinuxCode",
+      "url": "https://thelinuxcode.com/how-to-use-wpa-supplicant/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

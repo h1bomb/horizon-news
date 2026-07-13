@@ -1,0 +1,41 @@
+{
+  "id": "1fd43f3969755be36e252337e041333e4808ab19",
+  "canonicalId": "a5586005ca534425a5ab00e19a4ee7c4c853a069",
+  "slug": "mtp-拉取请求已合并至-llamacpp用于投机性解码",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-17T00:00:00Z",
+  "lang": "zh",
+  "title": "MTP 拉取请求已合并至 llama.cpp，用于投机性解码",
+  "summary": "一项为 llama.cpp 添加多令牌预测 (MTP) 支持的拉取请求已被合并，实现了投机性解码，有望将令牌生成速度提升 1.5 到 1.8 倍。 此次合并为 llama.cpp 的令牌生成带来了最显著的加速之一，极大地提升了本地 LLM 推理的用户体验。社区的高度热情反映了其对日常 AI 工作流的实际影响。 加速仅适用于令牌生成，不适用于提示处理；早期实现会降低提示处理速度，但后续修复可能已解决。用户需要支持 MTP 的 GGUF 模型才能受益，且性能在不同后端间可能有差异（例如，在 AMD APU 上使用 Vulkan 时仅提升 30%）。",
+  "score": 9,
+  "tags": [
+    "llama.cpp",
+    "MTP",
+    "speculative decoding",
+    "LLM inference",
+    "token generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 16, 12:13",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1terzq4/mtp_pr_merged/"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/1mwo5r3wqh1h1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "多令牌预测 (MTP) 是一种训练技术，模型通过共享主干和多个输出头同时学习预测多个未来令牌。投机性解码通过使用快速草稿模型生成多个候选令牌，再由目标模型验证，从而加速推理，同时保持输出质量。模型中的 MTP 层可作为草稿机制，在不增加额外模型开销的情况下实现显著加速。",
+  "discussion": "社区反响极其热烈，称赞 llama.cpp 团队并将其影响与 AI CEO 相提并论。用户分享了具体的加速数据（1.5-1.8 倍）和后端对比，同时询问了视觉能力、是否需要特殊 GGUF 模型以及慢速提示处理是否已修复。部分用户对在不同硬件上结合 MTP 与基于 ngram 的投机性解码表示好奇。",
+  "references": [
+    {
+      "title": "[2404.19737] Better & Faster Large Language Models via Multi-token Prediction",
+      "url": "https://arxiv.org/abs/2404.19737"
+    },
+    {
+      "title": "An Introduction to Speculative Decoding for Reducing Latency in AI Inference | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

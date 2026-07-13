@@ -1,0 +1,40 @@
+{
+  "id": "50965aa35477197b3049a3a66beb8d0e98bf5188",
+  "canonicalId": "6b2bcbc40781314a6b04de4f4d9b6bd997f07cd4",
+  "slug": "heretic-13-reproducible-uncensoring-with-benchmarking-and-vram-reduction",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-05T14:57:00Z",
+  "lang": "en",
+  "title": "Heretic 1.3: Reproducible Uncensoring with Benchmarking and VRAM Reduction",
+  "summary": "Heretic 1.3 introduces reproducible model runs, an integrated benchmarking system, reduced peak VRAM usage, and broader model support. It captures full environment details like PyTorch version and GPU driver to ensure reproducibility. Reproducible decensoring fosters trust and scientific rigor in open-source AI, while the integrated benchmarks streamline evaluation of decensored models. These improvements accelerate community-driven innovation and adoption. The release overcomes reproducibility challenges by recording all tensor operation dependencies, including GPU and driver specifics. It reduces VRAM usage and expands model support, though some models like Kimi k2.5/k2.6 are reported not yet compatible.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "model-decensoring",
+    "open-source",
+    "benchmarking",
+    "LocalLLaMA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "-p-e-w-"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t4hwup/heretic_13_released_reproducible_models/",
+  "originalSite": "reddit.com",
+  "context": "Heretic is an open-source tool for automatically removing censorship from large language models (LLMs), a process known as abliteration. LLMs often contain refusal patterns for sensitive topics, and Heretic aims to eliminate these while preserving intelligence. Reproducibility is critical to verify that decensoring works consistently across different systems.",
+  "discussion": "Community reception is overwhelmingly positive, with users calling Heretic the greatest OSS project for local LLMs. Discussions include questions about support for specific models like Kimi k2.5/k2.6 and upcoming MTP architecture, along with ongoing concerns about a competitor copying code.",
+  "references": [
+    {
+      "title": "GitHub - p-e-w/heretic: Fully automatic censorship removal for language models · GitHub",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "title": "Reproducible AI: Why it Matters & How to Improve it",
+      "url": "https://aimultiple.com/reproducible-ai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

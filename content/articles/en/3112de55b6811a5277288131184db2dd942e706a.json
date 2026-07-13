@@ -1,0 +1,44 @@
+{
+  "id": "3112de55b6811a5277288131184db2dd942e706a",
+  "canonicalId": "07d8701d1850fa2a2aa84e962e0e44c0e822c641",
+  "slug": "deepseek-proposes-dualpath-to-overcome-kv-cache-bandwidth-bottleneck-in-agentic-llm-inference",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-26T10:53:00Z",
+  "lang": "en",
+  "title": "DeepSeek Proposes DualPath to Overcome KV-Cache Bandwidth Bottleneck in Agentic LLM Inference",
+  "summary": "A joint research team from Peking University, Tsinghua University, and DeepSeek-AI has released a new paper introducing DualPath, a novel inference system architecture designed to address the KV-Cache storage I/O bandwidth bottleneck specifically in agentic LLM workloads. This matters because the KV-Cache management has become a prominent bottleneck for LLM inference optimization, especially for long-running, interactive agentic workloads where unpredictable access patterns and persistent sessions exacerbate memory bandwidth pressure. Efficiently addressing this bottleneck is critical for the practical deployment and scalability of LLM-based autonomous agents. The DualPath framework addresses the imbalance of KV-Cache reading under a PD-disaggregated architecture through dual-path KV-Cache loading. The approach falls under the category of 'architecture alterations' for KV optimization, which involves designing new attention mechanisms or constructing extrinsic modules.",
+  "score": 8,
+  "tags": [
+    "llm-inference",
+    "kv-cache",
+    "systems-research",
+    "agentic-ai",
+    "optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "External_Mood4719"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rf740o/deepseek_released_new_paper_dualpath_breaking_the/",
+  "originalSite": "reddit.com",
+  "context": "During LLM inference, the Key-Value (KV) cache stores intermediate computations from previous tokens to avoid redundant calculations in subsequent generation steps, significantly speeding up the decoding phase. However, this comes at the cost of substantially increased memory usage, making KV cache management a critical bottleneck. Agentic LLM workloads, where models act as autonomous agents in long-running, interactive tasks, have less predictable access patterns than standard inference, putting even greater strain on storage bandwidth for the KV cache.",
+  "discussion": "Community discussion highlights the practical relevance of the storage bandwidth problem, with one user noting it's an 'underrated bottleneck' in agentic deployment. Technical questions focus on the system's performance with unpredictable agent trajectories, different hardware configurations, and at very long contexts (128k+). There is also curiosity about the availability of a related 27B model and anticipation for a future 'DeepSeek V4' release.",
+  "references": [
+    {
+      "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM ...",
+      "url": "https://arxiv.org/pdf/2602.21548"
+    },
+    {
+      "title": "Managing the KV Cache Bottleneck in Large Language Model...",
+      "url": "https://cse.seu.edu.cn/2026/0109/c53564a551929/page.htm"
+    },
+    {
+      "title": "Making sense of KV Cache optimizations, Ep. 1: An overview",
+      "url": "https://www.zansara.dev/posts/2025-10-26-kv-caching-optimizations-intro/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

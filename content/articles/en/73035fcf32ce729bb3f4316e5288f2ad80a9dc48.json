@@ -1,0 +1,44 @@
+{
+  "id": "73035fcf32ce729bb3f4316e5288f2ad80a9dc48",
+  "canonicalId": "7e7cee23a3562f742456e8d59d5380b8eb2a6f68",
+  "slug": "security-expert-urges-developers-to-stop-using-passkeys-for-data-encryption",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-27T22:49:00Z",
+  "lang": "en",
+  "title": "Security Expert Urges Developers to Stop Using Passkeys for Data Encryption",
+  "summary": "Security expert Tim Cappalli issued a public plea in February 2026, urging the identity industry to stop promoting and using passkeys for encrypting user data. He warns that this practice leads to permanent data loss when users inevitably lose their passkeys. This warning highlights a critical misuse pattern where developers confuse authentication with encryption, potentially locking users out of their own data forever. As passkey adoption grows, this distinction becomes crucial to prevent widespread, irreversible data loss and maintain user trust in passwordless technologies. The warning specifically addresses the use of the WebAuthn PRF (Pseudorandom Function) extension, which allows deriving encryption keys from passkeys. While tools like 1Password have implemented this for encryption, the core issue is the lack of user-friendly recovery mechanisms when a passkey is lost, unlike traditional password reset flows.",
+  "score": 7,
+  "tags": [
+    "security",
+    "passkeys",
+    "encryption",
+    "authentication",
+    "usability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Passkeys are digital credentials that use public-private key pairs for phishing-resistant, passwordless authentication, often built on the WebAuthn standard. They are designed primarily to prove a user's identity to a service (authentication). The WebAuthn PRF extension is a newer feature that enables deriving encryption keys from the same cryptographic material, blurring the line between authentication and encryption. While services may offer recovery options like iCloud Keychain escrow, these are not universal and users may not understand the permanence of encryption.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Passkeys & WebAuthn PRF for End-to-End Encryption (2026)",
+      "url": "https://www.corbado.com/blog/passkeys-prf-webauthn"
+    },
+    {
+      "title": "1Password can now encrypt data using your saved passkeys |",
+      "url": "https://1password.com/blog/encrypt-data-saved-passkeys"
+    },
+    {
+      "title": "About the security of passkeys - Apple Support",
+      "url": "https://support.apple.com/en-us/102195"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

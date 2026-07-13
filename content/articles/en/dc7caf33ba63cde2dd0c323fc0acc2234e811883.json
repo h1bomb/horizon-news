@@ -1,0 +1,40 @@
+{
+  "id": "dc7caf33ba63cde2dd0c323fc0acc2234e811883",
+  "canonicalId": "6c6dd7db4f004ef01fa4f49e24a4dc8ec38b72e2",
+  "slug": "ai-assistant-hack-challenge-fails-after-6000-attempts",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T18:33:00Z",
+  "lang": "en",
+  "title": "AI Assistant Hack Challenge Fails After 6,000 Attempts",
+  "summary": "Fernando Irarrázaval's OpenClaw AI assistant challenge, where 2,000 people attempted to leak secrets via email, ended with zero successful breaches after 6,000 attempts. The underlying model, Anthropic's Opus 4.6, was protected by anti-prompt-injection rules. This experiment provides real-world evidence that frontier models are becoming significantly more robust against prompt injection attacks, a critical AI safety concern. It suggests that security improvements in large language models are translating into practical defenses, though not guaranteeing complete invulnerability. The challenge cost $500 in tokens and triggered a Google account suspension due to excessive inbound emails. Despite 6,000 attempts, no participant managed to leak the secret, but the author warns against deploying production systems where prompt injection could cause irreversible damage.",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "prompt injection",
+    "LLM",
+    "security",
+    "frontier models"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Prompt injection is a technique where an attacker crafts input to override or bypass an AI system's instructions, potentially revealing sensitive data or executing unintended actions. OpenClaw is an open-source personal AI assistant that can be self-hosted and integrates with multiple messaging platforms. Anthropic's Opus 4.6 is a frontier model with a 1M token context window and advanced capabilities in coding and long-running tasks.",
+  "discussion": "The Hacker News discussion featured well-founded skepticism and constructive debate, with participants questioning the robustness claims and Fernando providing good-faith responses. Many noted that 6,000 failures do not guarantee security against more sophisticated attacks, aligning with the author's own caution.",
+  "references": [
+    {
+      "title": "OpenClaw — Personal AI Assistant",
+      "url": "https://openclaw.ai/"
+    },
+    {
+      "title": "Claude Opus 4 . 6 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

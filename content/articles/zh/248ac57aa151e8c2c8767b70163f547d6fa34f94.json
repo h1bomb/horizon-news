@@ -1,0 +1,44 @@
+{
+  "id": "248ac57aa151e8c2c8767b70163f547d6fa34f94",
+  "canonicalId": "f3f73133dc489299709346cb7aae7ba6dcf35fd6",
+  "slug": "arm-将首次销售自研芯片meta-成首个主要客户台积电代工",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Arm 将首次销售自研芯片，Meta 成首个主要客户、台积电代工",
+  "summary": "Arm Holdings 宣布将首次销售其自研芯片 Arm AGI CPU，Meta 成为首个主要客户，台积电负责制造。该芯片最高可配置 136 个核心，功耗 300 瓦，设计用于与英伟达等公司的加速器芯片协同工作。 这标志着 Arm 从其传统的纯授权模式向直接参与数据中心 CPU 市场竞争的重大战略转变，可能打破英特尔和 AMD 在该领域的垄断地位。此举瞄准快速增长的人工智能基础设施市场，其中能效和性能密度对于大规模部署至关重要。 Arm AGI CPU 基于 Neoverse V3 架构构建，声称在能效方面优于英特尔和 AMD 的传统 CPU 设计。包括 OpenAI、Cerebras 和 SK Telecom 在内的其他公司也计划部署该芯片，广达电脑和超微电脑已推出基于该芯片的现成系统，预计 2026 年下半年将扩大供货量。",
+  "score": 9,
+  "tags": [
+    "Semiconductors",
+    "AI Hardware",
+    "Arm",
+    "Data Centers",
+    "Industry News"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 25, 02:45"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-24/arm-to-sell-its-own-chips-for-first-time-in-bid-for-ai-revenue",
+  "originalSite": "bloomberg.com",
+  "context": "Arm Holdings 历史上主要开发指令集架构并授权给其他公司制造物理处理器，而非自行设计和销售芯片。该公司的架构广泛应用于移动设备，并正扩展到数据中心领域，特别是在能效至关重要的人工智能工作负载中。台积电是全球领先的半导体代工厂，使用其 3 纳米等先进工艺为众多公司制造芯片。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Arm AGI CPU – Arm®",
+      "url": "https://www.arm.com/products/cloud-datacenter/arm-agi-cpu"
+    },
+    {
+      "title": "Arm AGI CPU Debuts with 136 Cores, Focuses on AI Infrastructure",
+      "url": "https://circuitdigest.com/news/arm-agi-cpu-debuts-with-136-cores-focuses-on-ai-infrastructure"
+    },
+    {
+      "title": "ARM architecture family - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ARM_architecture_family"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

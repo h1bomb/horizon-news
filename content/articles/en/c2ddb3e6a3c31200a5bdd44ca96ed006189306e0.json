@@ -1,0 +1,45 @@
+{
+  "id": "c2ddb3e6a3c31200a5bdd44ca96ed006189306e0",
+  "canonicalId": "cd3e8353a3c8d96cf95b6f886a4c6276a36e043f",
+  "slug": "github-confirms-breach-of-3800-repos-via-malicious-vscode-extension",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T13:43:00Z",
+  "lang": "en",
+  "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+  "summary": "GitHub confirmed that an employee's workstation was compromised by a malicious VSCode extension, leading to unauthorized access to approximately 3,800 internal repositories. The company has removed the malicious extension, isolated the endpoint, and rotated critical keys, with investigations ongoing. This incident underscores the critical risk of supply-chain attacks through IDE extensions, especially on a platform like GitHub that hosts millions of developers. It highlights the need for stricter security policies around extension installation and dependency management in development environments. The breach affected internal GitHub repositories but the company stated there is no evidence of customer code or enterprise repositories being compromised. Security sources suggest that leaked content may include source code for core projects like Copilot and CodeQL.",
+  "score": 9,
+  "tags": [
+    "security",
+    "GitHub",
+    "VSCode",
+    "supply-chain attack",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Timofeibu",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48207660"
+    }
+  ],
+  "originalUrl": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+  "originalSite": "bleepingcomputer.com",
+  "context": "A supply chain attack targets less secure elements in the software development process, such as third-party extensions or dependencies. VSCode extensions, while enhancing functionality, can introduce significant security risks if malicious code is executed. The Visual Studio Marketplace has protections, but users often install extensions without thorough vetting. This incident is a concrete example of how a single compromised extension can lead to a large-scale data breach.",
+  "discussion": "Commenters expressed frustration with the lack of security policies for extensions, with one noting that while their company has strict software installation rules, extensions and npm/pip packages are unregulated. Another quipped that Microsoft (owner of VSCode, NPM, and GitHub) should collaborate on a solution. There was also concern about why the malicious extension was not named.",
+  "references": [
+    {
+      "title": "Supply chain attack",
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    },
+    {
+      "title": "Extension runtime security - Visual Studio Code",
+      "url": "https://code.visualstudio.com/docs/configure/extensions/extension-runtime-security"
+    },
+    {
+      "title": "Flaws in popular VSCode extensions expose developers to attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "8db6c89778f5bfa9d761c6e09bbd9e71a89b4c10",
+  "canonicalId": "c1e213416d32f4abfff821c71cc2caf3b50c4a98",
+  "slug": "sqlite-utils-40-adds-database-migrations-and-nested-transactions",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T19:32:00Z",
+  "lang": "en",
+  "title": "sqlite-utils 4.0 adds database migrations and nested transactions",
+  "summary": "sqlite-utils 4.0, released on July 7, 2026, introduces three major features: database schema migrations, nested transactions via a new db.atomic() method, and support for compound foreign keys. This release significantly enhances sqlite-utils as a tool for managing SQLite databases, addressing common needs for schema versioning and transactional safety. Developers using Python for data management will benefit from easier migration workflows and more robust transaction handling. Migrations are defined in Python files using the Migrations class and the table.transform() method, which implements SQLite's recommended pattern of creating a temporary table. Nested transactions use SQLite savepoints under the hood, and compound foreign keys allow referencing multiple columns.",
+  "score": 8,
+  "tags": [
+    "sqlite-utils",
+    "SQLite",
+    "database migrations",
+    "Python",
+    "schema"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "SQLite is an embedded SQL database engine that does not natively support schema migrations or nested transactions. The sqlite-utils library, created by Simon Willison, provides a Python API and CLI for manipulating SQLite databases. Prior to version 4.0, users had to manually handle schema changes using SQLite's limited ALTER TABLE capabilities. This release automates migration tracking and execution, and introduces nested transactions via savepoints.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Transaction - SQLite java - SQLiteDatabase nested transaction and workaround ... Code sample How to Handle Nested Transactions in SQLite - Sling Academy Understanding Nested Transactions in SQLite and Effective ... How to use transactions — sqlite7 documentation sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "url": "https://sqlite.org/lang_transaction.html"
+    },
+    {
+      "title": "SQLite Foreign Key Support",
+      "url": "https://sqlite.org/foreignkeys.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

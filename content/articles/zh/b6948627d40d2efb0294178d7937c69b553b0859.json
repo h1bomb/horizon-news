@@ -1,0 +1,39 @@
+{
+  "id": "b6948627d40d2efb0294178d7937c69b553b0859",
+  "canonicalId": "1789ad810cd31088294e5f9a953de267f6b4e592",
+  "slug": "linux-内核因内存子系统变化移除页面缓存中的只读透明大页支持",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-11T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核因内存子系统变化移除页面缓存中的只读透明大页支持。",
+  "summary": "Linux 内核正在移除页面缓存中的只读透明大页（THP）支持，该功能于 2019 年引入，原计划添加可写支持但从未实现。这一变化反映了内存子系统的底层架构转变，配置变量 CONFIG_READ_ONLY_THP_FOR_FS 将被弃用。 这一移除标志着内核开发优先级的转变，因为该功能是实验性的且仅限于可执行文本段，影响了文件支持内存的性能优化。它影响了启用该功能的发行版，并突显了不断发展的内存管理如何淘汰不完整的功能。 该功能仅适用于标记为 VM_DENYWRITE 的内存区域，通常是可执行文本段，并且需要调用 madvise()来启用 THP 合并。如果在只读 THP 存在时文件被打开进行写访问，内核会将所有页面从缓存中逐出，并使用基础页面重新开始。",
+  "score": 7,
+  "tags": [
+    "Linux Kernel",
+    "Memory Management",
+    "Transparent Huge Pages",
+    "Systems Programming"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 10, 13:26"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066582/",
+  "originalSite": "lwn.net",
+  "context": "透明大页（THP）自动将基础页面合并为更大的 2MB 页面，以减少内存管理开销和 TLB 压力，最初仅支持匿名内存（如程序数据）。页面缓存处理文件支持的内存，但缺乏大页感知能力，使得 THP 集成具有挑战性。Kconfig 是 Linux 内核中的配置系统，用于管理构建选项和依赖关系。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Transparent Hugepage Support — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/latest/admin-guide/mm/transhuge.html"
+    },
+    {
+      "title": "Exploring the Linux kernel: The secrets of Kconfig/kbuild |",
+      "url": "https://opensource.com/article/18/10/kbuild-and-kconfig"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

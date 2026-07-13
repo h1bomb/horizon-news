@@ -1,0 +1,44 @@
+{
+  "id": "dbe3272ba3e7558872e9594b468203109bc61989",
+  "canonicalId": "c6e7ec6ab9c847b7b57b588e20dd3ff1f32ea020",
+  "slug": "custom-llamacpp-fork-runs-gemma4-26b-a4b-on-rockchip-npu-with-4w-power-usage",
+  "date": "2026-04-05",
+  "publishedAt": "2026-04-04T12:56:00Z",
+  "lang": "en",
+  "title": "Custom llama.cpp fork runs Gemma4 26B A4B on Rockchip NPU with 4W power usage",
+  "summary": "A developer has created a custom fork of llama.cpp that enables running the Gemma4 26B A4B large language model on Rockchip NPU hardware with impressive efficiency, achieving operation at just 4W of power consumption. The fork introduces new backend capabilities including removal of memory limits and hybrid quantization support. This breakthrough demonstrates that large language models can run efficiently on low-power edge devices, potentially enabling AI applications on resource-constrained hardware like single-board computers and embedded systems. It represents significant progress in making advanced AI more accessible and energy-efficient for edge computing scenarios. The custom backend removes previous 2GB and 4GB memory limits by utilizing IOMMU domains to support up to 32GB of cache, enabling models of any size to run. It also implements hybrid quantization where model layers can be dynamically quantized and distributed across available hardware pipelines, including mixing NPU and CPU processing.",
+  "score": 8,
+  "tags": [
+    "edge-ai",
+    "hardware-acceleration",
+    "llama.cpp",
+    "low-power-computing",
+    "model-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Inv1si"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/kkbh41ino5tg1",
+  "originalSite": "v.redd.it",
+  "context": "llama.cpp is an open-source C++ implementation for running large language models efficiently on various hardware, originally focused on CPU inference but now extended to support different accelerators. Rockchip NPUs are specialized processors designed for neural network computations, commonly found in single-board computers like those using the RK3588 chip. Gemma4 is Google's family of open language models, with the 26B A4B variant being a 26-billion parameter model optimized for on-device execution.",
+  "discussion": "Community members expressed excitement about the technical achievement, with some noting it exceeds expectations for RK3588 NPU capabilities and enables running larger models than previously possible. Concerns were raised about performance speed and stability with growing context, while others highlighted the sensitivity to quantization and current high hardware prices as limitations.",
+  "references": [
+    {
+      "title": "CryptoCrocodile/rk- llama . cpp : Llama . cpp with the Rockchip NPU ...",
+      "url": "https://github.com/CryptoCrocodile/rk-llama.cpp"
+    },
+    {
+      "title": "Rockchip RK3588 NPU Deep Dive: Real-World AI... | TinyComputers.io",
+      "url": "https://tinycomputers.io/posts/rockchip-rk3588-npu-benchmarks.html"
+    },
+    {
+      "title": "Gemma 4 - How to Run Locally | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/gemma-4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

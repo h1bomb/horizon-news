@@ -1,0 +1,44 @@
+{
+  "id": "648cbfafadad689f3a478deb5a45dfb475d65f39",
+  "canonicalId": "eb705b1ab2f3bb3c869f102081dedf1c78309d4b",
+  "slug": "bpf-integration-with-io-uring-reduces-kernel-user-space-switching-overhead",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-18T14:57:00Z",
+  "lang": "en",
+  "title": "BPF Integration with io_uring Reduces Kernel-User Space Switching Overhead",
+  "summary": "A patch set from Pavel Begunkov has been accepted, integrating BPF with io_uring to allow BPF programs to enqueue additional work in response to completion events, minimizing kernel-user space switching overhead. This enables programmers to extend the io_uring event loop with BPF programs that can process completions and queue subsequent work without returning to user space. This integration significantly reduces latency and improves performance for high-throughput I/O applications by eliminating unnecessary context switches between kernel and user space. It represents an important advancement in Linux kernel optimization, enabling more complex asynchronous I/O workflows while maintaining safety through BPF's sandboxed execution environment. The patch introduces new kfuncs including bpf_io_uring_submit_sqes() to process submission queue entries and bpf_io_uring_get_region() to access queue contents. BPF programs can return IOU_LOOP_CONTINUE to keep running with configurable delays or IOU_LOOP_STOP to return to user space, effectively bypassing BPF's single-execution operation limits through looping.",
+  "score": 8,
+  "tags": [
+    "Linux Kernel",
+    "io_uring",
+    "BPF",
+    "Systems Programming",
+    "Performance Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1062286/",
+  "originalSite": "lwn.net",
+  "context": "io_uring is a Linux kernel interface for asynchronous I/O that uses two shared ring buffers: a submission queue for sending requests to the kernel and a completion queue for results. BPF (Berkeley Packet Filter) is a Linux kernel technology that allows running sandboxed programs in the kernel space, originally for packet filtering but now extended to various kernel subsystems. The overhead of kernel-user space switching occurs when the kernel must switch to user space to process completion requests and queue subsequent work, even with shared memory reducing communication overhead.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "io_uring_queue_init: setup io_uring submission and completion",
+      "url": "https://www.mankier.com/3/io_uring_queue_init"
+    },
+    {
+      "title": "Long-lived kernel pointers in BPF [LWN.net]",
+      "url": "https://lwn.net/Articles/900749/"
+    },
+    {
+      "title": "BPF as a safer kernel programming environment [LWN.net]",
+      "url": "https://lwn.net/Articles/909095/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

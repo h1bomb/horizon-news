@@ -1,0 +1,44 @@
+{
+  "id": "2749df47f87a451817d625394af62c92db97a312",
+  "canonicalId": "1bf0a3becbcbdaa14f62b430ff01b445e5ca13a4",
+  "slug": "glm-51-achieves-near-opus-performance-at-one-third-the-cost-in-agentic-benchmarks",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-10T18:23:00Z",
+  "lang": "en",
+  "title": "GLM 5.1 achieves near-Opus performance at one-third the cost in agentic benchmarks.",
+  "summary": "GLM 5.1, a large language model from Zhipu AI, has been tested in an agentic benchmark using OpenClaw and achieved performance comparable to Opus 4.6 while costing only about $0.4 per run versus Opus's $1.2. It outperformed all other models tested, establishing itself as a top choice for agentic tasks like those on OpenClaw. This breakthrough significantly advances cost-effectiveness in agentic AI, making high-performance models more accessible for real-world applications like autonomous assistants and complex task automation. It challenges the dominance of expensive models like Opus and could accelerate adoption of open-source or lower-cost alternatives in the AI agent ecosystem. The testing methodology used OpenClaw in a real environment with user-submitted tasks, employing an LLM-as-a-judge approach similar to Chatbot Arena to avoid static benchmark optimization issues. Qwen 3.6 also performed well but currently lacks prompt caching support on OpenRouter, which inflates its price; with caching, it could reach cost levels similar to minimax m2.7.",
+  "score": 8,
+  "tags": [
+    "AI Agents",
+    "Benchmarking",
+    "Cost Efficiency",
+    "Large Language Models",
+    "Open Source AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "zylskysniper"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1shus54/glm_51_crushes_every_other_model_except_opus_in/",
+  "originalSite": "reddit.com",
+  "context": "GLM 5.1 is the most powerful model in the GLM series developed by Zhipu AI, designed for complex systems engineering and long-horizon agentic tasks. OpenClaw is a free, open-source autonomous AI agent that executes tasks via LLMs, using messaging platforms as its interface. Agentic benchmarks differ from classical ML benchmarks by emphasizing multi-step interaction, environment manipulation, and outcome verification in real scenarios, often using LLM-as-a-Judge methods for evaluation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GLM-5 | SGLang Cookbook",
+      "url": "https://cookbook.sglang.io/autoregressive/GLM/GLM-5"
+    },
+    {
+      "title": "OpenClaw - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenClaw"
+    },
+    {
+      "title": "Agentic Benchmarks",
+      "url": "https://www.emergentmind.com/topics/agentic-benchmarks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

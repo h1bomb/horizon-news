@@ -1,0 +1,40 @@
+{
+  "id": "a489008f7eecd3a3069a4e9383b337d922cdafe1",
+  "canonicalId": "b32b82be1f082000c68094b72b73d8adc3cc377b",
+  "slug": "micro-diffusion约-150-行-python-代码实现的极简离散文本扩散模型",
+  "date": "2026-03-01",
+  "publishedAt": "2026-03-01T00:00:00Z",
+  "lang": "zh",
+  "title": "Micro Diffusion：约 150 行 Python 代码实现的极简离散文本扩散模型",
+  "summary": "一位开发者发布了名为“Micro Diffusion”的项目，这是一个用约 150 行纯 Python/NumPy 代码实现的极简离散文本扩散模型，灵感来源于 Karpathy 的 MicroGPT。该项目包含三个不同复杂度的版本，它们共享相同的核心扩散循环但使用不同的去噪器，并且可以在 CPU 上使用 32,000 个 SSA 婴儿名字的数据集在几分钟内完成训练。 该项目通过剥离大型框架的复杂性，显著降低了理解文本扩散模型的门槛，使得核心算法易于用于教学目的。它证明了基于扩散的文本生成的基本概念可以用最少的代码实现和理解，这对于该领域的新学生和研究人员非常有价值。 该实现包含一个 143 行纯 NumPy 的“最简”版本、一个带有注释和可视化的版本，以及一个使用双向 Transformer 作为去噪器的 PyTorch 版本。一个关键的见解是去噪器是一个可插拔的组件，这突出了扩散过程的模块化特性。该模型在 SSA 婴儿名字数据集上训练，该数据集为演示提供了一个简单、结构化的文本语料库。",
+  "score": 7,
+  "tags": [
+    "diffusion-models",
+    "educational",
+    "minimal-implementation",
+    "python",
+    "text-generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Feb 28, 03:57"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rgsgt6/p_micro_diffusion_discrete_text_diffusion_in_150/",
+  "originalSite": "reddit.com",
+  "context": "文本扩散模型是一类生成式 AI，它通过从随机噪声开始迭代地优化一系列 token 来生成文本，这与自回归模型（如 GPT）从左到右顺序生成 token 的方式不同。离散扩散模型直接在离散的 token（如单词或子词）上操作，这与在连续潜在空间中工作的连续扩散模型形成对比。美国社会保障局（SSA）婴儿名字数据集是一个公开可用的、经过整理的美国常用名字列表，通常被用作机器学习教程中的简单基准数据集。",
+  "discussion": "社区反应积极，赞扬了该实现的教育价值和极简主义。一位用户表示“非常敬佩将扩散模型浓缩到仅 150 行代码”，强调了其对于学习核心逻辑的实用性。另一位用户幽默地指出该项目可能会消耗大量时间（“好吧，接下来一周没了”）。另有一条评论讨论了 AI 辅助写作的可识别性，并建议非英语母语者使用更明确的免责声明。",
+  "references": [
+    {
+      "title": "[2407.10998] Discrete Diffusion Language Model for Efficient Text Summarization - arXiv.org",
+      "url": "https://arxiv.org/abs/2407.10998"
+    },
+    {
+      "title": "Popular Baby Names | SSA",
+      "url": "https://www.ssa.gov/OACT/babynames/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

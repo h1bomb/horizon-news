@@ -1,0 +1,32 @@
+{
+  "id": "019ae9e7dc326ec9b6a05509c2909792c218d12b",
+  "canonicalId": "7747c24ca7fad9a80c3e8f9cc78bbf79d268e1d9",
+  "slug": "anthropic-的-fable-分类器过于敏感导致误报",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T20:41:00Z",
+  "lang": "zh",
+  "title": "Anthropic 的 Fable 分类器过于敏感，导致误报",
+  "summary": "这削弱了 Fable 在代码审查或数据分析等合法任务中的实用性，并且由于 Anthropic 对被标记的输入输出保留长达两年的政策，引发了严重的隐私担忧。 分类器似乎对涉及网络安全、生物学或越狱的术语反应过度，即使是微不足道的话题也常常将请求传递给 Opus 4.8；用户报告称，甚至医学物理问题也被拒绝。",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "classifiers",
+    "censorship",
+    "Anthropic",
+    "Fable"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "karrot-kake",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48837162"
+    }
+  ],
+  "originalUrl": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+  "originalSite": "combine-lab.github.io",
+  "context": "Fable 是 Anthropic 开发的一款强大 AI 模型，其设计配合了旨在防止滥用的安全分类器。然而，这些分类器可能标记良性请求，从而触发数据保留政策，将用户的输入和输出保留长达两年以供安全分析。",
+  "discussion": "用户分享了真实案例：有人请求审查私有代码仓库却被标记，另有人无法回答医学物理问题。用户对分类器在真正技术工作中毫无用处感到沮丧，并对高误报率下的隐私问题表示担忧。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

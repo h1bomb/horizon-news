@@ -1,0 +1,44 @@
+{
+  "id": "14f71783533debd5429946446678c781e9ebcafc",
+  "canonicalId": "70cf12e389d5bb226a4d81a947658b3b8279aebb",
+  "slug": "annas-archive-完成-spotify-大规模备份发布全球首个开放音乐档案馆",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Anna's Archive 完成 Spotify 大规模备份，发布全球首个开放音乐档案馆",
+  "summary": "影子图书馆 Anna's Archive 于 12 月 20 日宣布，已完成对 Spotify 平台的大规模备份，并推出全球首个完全开放的音乐保存档案馆，数据量约 300 TB，包含 2.56 亿条音轨元数据及 8600 万个音乐文件，覆盖了该平台 99.6% 的用户播放量。 此举意义重大，因为它通过保护现有存档常忽视的非主流和冷门音乐作品，弥补了数字保存的空白，可能确保更广泛文化遗产的长期可访问性，并推动音乐行业的开放获取。 元数据以 SQLite 格式发布，这是一种轻量级关系数据库系统，将数据存储在单个文件中以便移植，而音乐文件则按流行度分批分发，以有效管理庞大的数据集。",
+  "score": 8,
+  "tags": [
+    "digital-archiving",
+    "open-access",
+    "data-preservation",
+    "music-technology",
+    "shadow-library"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 15, 14:25"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40881",
+  "originalSite": "t.me",
+  "context": "Anna's Archive 是一个影子图书馆，即未经授权的在线存储库，提供对书籍和学术论文等数字媒体的免费访问，通常绕过付费墙。数字保存涉及确保数字信息长期可访问和可用的正式流程，这对文化遗产至关重要。SQLite 是一种广泛使用的嵌入式数据库引擎，将数据存储在单个文件中，适合需要简单性和可移植性的应用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Shadow library",
+      "url": "https://en.wikipedia.org/wiki/Shadow_library"
+    },
+    {
+      "title": "Digital preservation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Digital_preservation"
+    },
+    {
+      "title": "SQLITE File - What is an .sqlite file and how do I open it? SQLITE File - What is an . sqlite file and how do I open it? Database File Format - SQLite SQLite , Version 3 - Library of Congress Database File Format - SQLite SQLite Tutorial - GeeksforGeeks SQLite, Version 3 - Library of Congress SQLite Home Page Introduction to SQLite - GeeksforGeeks Documentation - SQLite",
+      "url": "https://fileinfo.com/extension/sqlite"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

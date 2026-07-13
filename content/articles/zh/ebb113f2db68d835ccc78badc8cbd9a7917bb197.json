@@ -1,0 +1,44 @@
+{
+  "id": "ebb113f2db68d835ccc78badc8cbd9a7917bb197",
+  "canonicalId": "ef8c63bc0085d63f46994559a5b0522afd2d522f",
+  "slug": "javascript-无法绕过注入到-iframe-内容顶部的-csp-meta-标签",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "JavaScript 无法绕过注入到 iframe 内容顶部的 CSP meta 标签",
+  "summary": "Simon Willison 的研究表明，在 iframe 内容的顶部注入 <meta http-equiv=\"Content-Security-Policy\"> 标签可以有效强制执行安全策略，即使不受信任的 JavaScript 试图操纵它们。这一发现源于他在构建 Claude Artifacts 版本时探索不使用单独域名的沙盒化方案，证明了 CSP meta 标签优先于后续脚本修改。 这很重要，因为它为在沙盒化 iframe 中应用内容安全策略（CSP）提供了一种实用方法，无需单独的托管域名，从而简化了嵌入不受信任内容的 Web 应用的安全实现。它通过防止沙盒环境中的 JavaScript 注入攻击来增强 Web 安全性，这对于保护用户免受第三方小部件或广告中的恶意代码侵害至关重要。 CSP meta 标签必须放置在 iframe HTML 内容的顶部才能生效，因为浏览器在渲染管道的早期阶段就会处理它。该技术依赖于 http-equiv 属性来模拟 HTTP 头，并且即使 JavaScript 随后尝试移除或修改该标签，由于浏览器在解析时强制执行 CSP 策略，它仍然有效。",
+  "score": 7,
+  "tags": [
+    "security",
+    "javascript",
+    "content-security-policy",
+    "sandboxing",
+    "web-development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 3, 16:05"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "内容安全策略（CSP）是一种安全标准，通过指定浏览器可以加载哪些资源来帮助防止跨站脚本（XSS）和其他代码注入攻击。Iframe 是用于嵌入外部内容的 HTML 元素，沙盒化通过限制其功能来增强安全性。meta 标签中的 http-equiv 属性允许开发者在 HTML 中直接设置如 CSP 这样的 HTTP 头，作为服务器端头的替代方案。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "http-equiv attribute - HTML | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv"
+    },
+    {
+      "title": "Content-Security-Policy: sandbox directive - MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/sandbox"
+    },
+    {
+      "title": "Content Security Policy - OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

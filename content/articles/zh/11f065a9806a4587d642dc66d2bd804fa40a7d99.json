@@ -1,0 +1,40 @@
+{
+  "id": "11f065a9806a4587d642dc66d2bd804fa40a7d99",
+  "canonicalId": "e0408f634fee801c4c793bd070e9513a7d407669",
+  "slug": "ladybird-浏览器因-ai-代码信任问题停止接受公开拉取请求",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T11:10:00Z",
+  "lang": "zh",
+  "title": "Ladybird 浏览器因 AI 代码信任问题停止接受公开拉取请求",
+  "summary": "Ladybird 浏览器宣布不再接受公开的拉取请求，认为 AI 生成的代码使得无法信任贡献的出处和责任归属。 这标志着开源开发中的一项重大政策转变，应对了 AI 生成代码在维护代码出处和问责方面日益增长的挑战。可能影响其他开源项目如何处理 AI 辅助贡献。 这一决定意味着所有代码现在必须来自可信的、具名的贡献者，他们对变更负责。Andreas Kling 表示，假定大量努力代表善意的假设已不再成立。",
+  "score": 8,
+  "tags": [
+    "ladybird",
+    "open-source",
+    "ai-ethics",
+    "software-governance",
+    "code-provenance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Ladybird 是一个由非营利组织 Ladybird 浏览器倡议开发的开源浏览器。它最初是 SerenityOS 的一部分，现已独立，旨在注重隐私和独立性。代码出处是指追踪代码的来源，对安全和问责至关重要。随着 AI 代码生成的兴起，验证作者身份变得更加困难。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ladybird browser",
+      "url": "https://en.wikipedia.org/wiki/Ladybird_browser"
+    },
+    {
+      "title": "What is \"code provenance\" and why does it matter? - GitClear",
+      "url": "https://www.gitclear.com/help/technical/code_provenance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "119d8100004d2aa0b8b10eb821739d99a3c1b7e3",
+  "canonicalId": "47b0f9215efe0de30c421d360dc320fced31fb00",
+  "slug": "arc-agi-3-technical-report-released-with-interactive-puzzle-solving-benchmark-for-agi-evaluation",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T18:16:00Z",
+  "lang": "en",
+  "title": "ARC-AGI-3 Technical Report Released with Interactive Puzzle-Solving Benchmark for AGI Evaluation",
+  "summary": "The ARC-AGI-3 technical report was published, introducing a new interactive reasoning benchmark with over 1,000 levels across 150+ environments designed to measure human-like intelligence in AI. The benchmark launches on March 25, 2026, and uses a scoring methodology that compares AI performance against a human baseline defined as the second-best first-run human by action count. This matters because ARC-AGI-3 represents the first interactive reasoning benchmark specifically designed to evaluate artificial general intelligence through puzzle-solving tasks that require exploration, learning, planning, and adaptation. It provides a formal measure to compare human and AI skill acquisition efficiency, addressing a critical gap in AGI assessment beyond traditional LLM benchmarks. The benchmark includes a graph-based exploration strategy that has shown promising results, solving a median of 30 out of 52 levels in preview challenges and substantially outperforming frontier LLM-based agents. However, the scoring methodology has been criticized for using an unconventional human baseline (second-best first-run human) rather than average human performance, and the report doesn't clearly indicate how many levels models complete.",
+  "score": 8,
+  "tags": [
+    "AGI",
+    "AI Benchmarking",
+    "Machine Learning",
+    "Technical Evaluation",
+    "Research Methodology"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lairv"
+    }
+  ],
+  "originalUrl": "https://arcprize.org/arc-agi/3",
+  "originalSite": "arcprize.org",
+  "context": "ARC-AGI is a series of benchmarks developed by the ARC Prize organization to evaluate artificial general intelligence (AGI), which refers to AI systems that match or surpass human capabilities across virtually all cognitive tasks. Previous versions include ARC-AGI-1 with 800 grid-based visual reasoning puzzles and ARC-AGI-2 with more complex tasks, both designed as few-shot learning assessments where tasks are trivial for humans but challenging for machines. The ARC Prize is a $1,000,000+ nonprofit competition to beat and open source solutions to these benchmarks.",
+  "discussion": "Community discussion reveals mixed sentiment, with some praising ARC-AGI-3 as a valuable estimation of AGI that provides equal input for humans and AI, while others criticize its methodology, particularly the unconventional human baseline definition. Notable viewpoints include concerns that the scoring doesn't clearly show how many levels models complete, debates about whether AGI should be measured against human-like learning processes, and observations that current AI performance remains far from human efficiency in building mental models and refining ideas quickly.",
+  "references": [
+    {
+      "title": "ARC - AGI - 3",
+      "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf"
+    },
+    {
+      "title": "ARC-AGI-3",
+      "url": "https://arcprize.org/arc-agi/3/"
+    },
+    {
+      "title": "Artificial general intelligence - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

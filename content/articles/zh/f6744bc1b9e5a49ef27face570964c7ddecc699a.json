@@ -1,0 +1,37 @@
+{
+  "id": "f6744bc1b9e5a49ef27face570964c7ddecc699a",
+  "canonicalId": "7c70aaf21743378b70fbcb69c4f44a294a4b8cec",
+  "slug": "苹果推出-safari-mcp-服务器支持-llm-驱动的浏览器自动化",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T01:37:00Z",
+  "lang": "zh",
+  "title": "苹果推出 Safari MCP 服务器，支持 LLM 驱动的浏览器自动化",
+  "summary": "苹果推出了 Safari MCP 服务器，该工具允许大型语言模型（LLM）与 Safari 浏览器交互并自动化执行调试、测试和布局检查等网页开发任务。 这一整合标志着苹果生态系统在 AI 驱动的浏览器自动化方面迈出了重要一步，有望简化网页开发者的工作流程，实现更高效的跨浏览器测试。同时，它使 Safari 与 Chrome 和 Firefox 在支持 MCP 方面并驾齐驱，促进了开发者工具领域的竞争与创新。 Safari MCP 服务器是 WebKit 开发者工具的一部分，通过模型上下文协议（MCP）暴露浏览器状态和操作，使 LLM 能够执行打开页面、检查计算样式和布局等操作。该服务器可供下载，并可与各种 LLM 驱动的代理配合使用。",
+  "score": 8,
+  "tags": [
+    "safari",
+    "webkit",
+    "mcp",
+    "web development",
+    "AI integration"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "coloneltcb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48769639"
+    }
+  ],
+  "originalUrl": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+  "originalSite": "webkit.org",
+  "context": "MCP（模型上下文协议）是一种开放标准，使 AI 模型能够与外部工具和数据源交互。它让语言模型可以访问实时信息并执行操作，超越了静态文本生成。苹果在 Safari 中采用 MCP，符合浏览器厂商整合 AI 以提升开发者生产力的行业趋势。",
+  "discussion": "社区反应总体积极，开发者对使用 MCP 将 Safari 纳入跨浏览器测试设置表示兴奋。一些评论者提到 Playwright-CLI 和苹果的 safaridriver 等现有替代方案，其他人则分享了浏览器自动化的个人用例。讨论还指出，Chrome 和 Firefox 已有官方 MCP 服务器，Safari 的加入是对主要浏览器全集的一个受欢迎的补充。",
+  "references": [
+    {
+      "title": "Introducing the Safari MCP server for web developers | WebKit",
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

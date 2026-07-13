@@ -1,0 +1,44 @@
+{
+  "id": "8994d08a3b7e5007d7dc795f5ed236446ca496aa",
+  "canonicalId": "88545f72c2da6f048afd40279ebbff7cf1365525",
+  "slug": "qwen3-27b-gets-25x-speed-with-mtp-graft-on-unsloth-ud-xl-gguf",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-06T11:45:00Z",
+  "lang": "en",
+  "title": "Qwen3-27B gets 2.5x speed with MTP graft on Unsloth UD XL GGUF",
+  "summary": "A user grafted Multi-Token Prediction (MTP) draft heads onto a quantized Qwen3-27B GGUF model using Unsloth's UD XL quantization and a custom build of llama.cpp that includes the unmerged PR #22673, achieving 2-2.5x token throughput improvement. This optimization significantly speeds up local LLM inference for the 27B parameter model, making it practical for users with limited hardware like partial CPU offload setups, and demonstrates a viable way to enable MTP on quantized models before official support lands in llama.cpp. The base model uses Unsloth's UD XL quantization (e.g., Q4_K_XL) while the three MTP layers are kept at Q8_0 to preserve speculative accuracy; all GGUF files and a conversion script are shared on Hugging Face for replication.",
+  "score": 8,
+  "tags": [
+    "LLM inference",
+    "Multi-Token Prediction",
+    "GGUF quantization",
+    "llama.cpp",
+    "optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "havenoammo"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5ageq/qwen3627b_with_mtp_grafted_on_unsloth_ud_xl_25x/",
+  "originalSite": "reddit.com",
+  "context": "Multi-Token Prediction (MTP) is a training technique where a language model predicts multiple future tokens simultaneously, improving inference efficiency through speculative decoding. GGUF is a binary format optimized for running quantized models locally with executors like llama.cpp. Unsloth's UD XL quantization reduces model size while maintaining quality. The PR #22673 in llama.cpp adds MTP support but has not yet been merged into the main branch.",
+  "discussion": "Comments were overwhelmingly positive, with users reporting 2-2.5x speedups on various hardware including RTX Pro 6000 and AMD ROCm (RDNA 3.5). Some users noted the benefit for partial CPU offload scenarios and appreciated the shared conversion script for grafting MTP onto other models.",
+  "references": [
+    {
+      "title": "[2404.19737] Better & Faster Large Language Models via Multi-token Prediction",
+      "url": "https://arxiv.org/abs/2404.19737"
+    },
+    {
+      "title": "GGUF · Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    },
+    {
+      "title": "Unsloth Dynamic 2.0 GGUFs | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

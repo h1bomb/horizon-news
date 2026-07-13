@@ -1,0 +1,45 @@
+{
+  "id": "9805b8940264f859908754f6978241bee2266c20",
+  "canonicalId": "7ca41dfbdac8a894c4e447ddb7296f043047a1c3",
+  "slug": "openai-携手-broadcom-推出首款定制芯片-jalapeno",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-24T17:47:00Z",
+  "lang": "zh",
+  "title": "OpenAI 携手 Broadcom 推出首款定制芯片 'Jalapeno'",
+  "summary": "OpenAI 与 Broadcom 宣布推出 Jalapeno，这是一款专为大语言模型设计的定制 AI 推理芯片，在九个月内通过 AI 加速设计完成，并由台积电（TSMC）制造。 这标志着 OpenAI 战略性地进入定制芯片领域，有望减少对 Nvidia GPU 的依赖，并提升如 ChatGPT 等 AI 服务的推理效率，为 AI 公司自研硬件树立了先例。 该芯片是一款为大语言模型定制的推理加速器，采用台积电的先进制程。从概念到量产仅用九个月完成，期间 OpenAI 使用自己的 AI 模型辅助设计优化。",
+  "score": 9,
+  "tags": [
+    "OpenAI",
+    "AI chips",
+    "inference hardware",
+    "Broadcom",
+    "TSMC"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jamdesk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48663324"
+    }
+  ],
+  "originalUrl": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+  "originalSite": "techcrunch.com",
+  "context": "AI 推理是运行训练好的模型以产生输出的过程，需要大量计算资源。像谷歌的 TPU 和 Groq 的 LPU 等定制芯片已被开发出来以优化性能和成本。OpenAI 此前主要依赖 Nvidia GPU，现在通过为其模型专门设计硬件，进入了定制芯片竞赛以获得竞争优势。",
+  "discussion": "社区对 AI 辅助设计的说法表示怀疑，有人认为这只是营销噱头。其他人澄清了台积电是制造商，并讨论了效率提升，将 Jalapeno 与 Taalas 等其他推理芯片进行了比较。",
+  "references": [
+    {
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip | OpenAI",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+    },
+    {
+      "title": "OpenAI and Broadcom reveal Jalapeno, first AI chip in partnership",
+      "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
+    },
+    {
+      "title": "Jalapeño is the first AI chip from OpenAI and Broadcom - Engadget",
+      "url": "https://www.engadget.com/2201045/openai-broadcom-jalapeno-inference-processor-ai-accelerator/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

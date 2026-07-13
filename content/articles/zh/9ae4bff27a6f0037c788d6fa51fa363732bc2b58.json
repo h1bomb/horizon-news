@@ -1,0 +1,39 @@
+{
+  "id": "9ae4bff27a6f0037c788d6fa51fa363732bc2b58",
+  "canonicalId": "0e50add22cf9f74c6fb2a8b64b70470b65676207",
+  "slug": "skymizer-发布-384gb-pcie-卡支持-700b-参数大模型推理",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "Skymizer 发布 384GB PCIe 卡，支持 700B 参数大模型推理",
+  "summary": "台湾 Skymizer 公司发布了一款突破性 PCIe 卡，搭载六颗 HTX301 芯片和 384GB 内存，可在约 240W 功耗下本地运行 700B 参数大语言模型推理，其核心创新是将解码阶段从 GPU 卸载到 HTX301 卡上。 这种架构使企业无需昂贵的多 GPU 配置，即可在单卡上运行超大规模模型，有望以更低功耗和成本普及大模型推理能力。 该卡将大模型推理分为两个阶段：GPU 处理计算密集的预填充阶段，HTX301 卡处理内存带宽密集的解码阶段。内存并非 HBM，而是采用类似 GDDR6/6X/7 的封装，带宽细节尚未公布。",
+  "score": 7,
+  "tags": [
+    "LLM inference",
+    "hardware architecture",
+    "AI hardware",
+    "edge AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 27, 12:56"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx2vxp/skymizer_taiwan_inc_unveils_breakthrough/",
+  "originalSite": "reddit.com",
+  "context": "大语言模型推理包含两个阶段：预填充（处理输入提示）和解码（逐个生成 token）。解码受内存带宽限制，而预填充受计算能力限制。传统 GPU 同时处理两者，而 Skymizer 的方法为每个阶段分配专用硬件以提高效率。",
+  "discussion": "社区对未公开的带宽、潜在的高成本（数万美元）以及过去的“雾件”承诺表示怀疑。有人质疑在卡之间传输权重是否会导致延迟，也有人指出缺乏具体的性能数据。",
+  "references": [
+    {
+      "title": "Skymizer Announces HTX301 — Reinventing On-Prem AI Inference",
+      "url": "https://skymizer.ai/skymizer-announces-htx301-reinventing-on-prem-ai-inference/"
+    },
+    {
+      "title": "Understanding the Two Key Stages of LLM Inference : Prefill and...",
+      "url": "https://medium.com/@sailakkshmiallada/understanding-the-two-key-stages-of-llm-inference-prefill-and-decode-29ec2b468114"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

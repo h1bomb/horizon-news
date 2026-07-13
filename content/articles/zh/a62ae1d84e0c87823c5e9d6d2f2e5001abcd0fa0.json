@@ -1,0 +1,44 @@
+{
+  "id": "a62ae1d84e0c87823c5e9d6d2f2e5001abcd0fa0",
+  "canonicalId": "edf3e0702a2e109ad203a35fb4b828dcbdf25875",
+  "slug": "claude-code-推出自动模式ai-自主决策权限内置安全审查",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Claude Code 推出自动模式：AI 自主决策权限，内置安全审查",
+  "summary": "Claude Code 发布了自动模式（Auto Mode），允许 AI 在任务执行中自主决定权限，通过分类器在每次工具调用前审查操作，自动放行安全动作并拦截批量删文件、敏感数据外泄等高风险行为。该功能目前以研究预览形式向 Team 计划用户开放，未来数日将覆盖 Enterprise 及 API 用户，支持 Claude Sonnet 4.6 与 Opus 4.6 模型。 这一进展具有重要意义，因为它平衡了 AI 工具中的自动化与安全性，减少了开发人员的手动中断，同时降低了完全跳过权限带来的风险，可能提升软件工程和 AI/ML 应用中的工作流效率。这反映了 AI 系统向更自主化、内置安全措施的趋势发展，影响了开发者在编码和其他任务中与 AI 助手的交互方式。 开发者可通过命令行执行 `claude --enable-auto-mode` 启用自动模式，Desktop 与 VS Code 用户可在设置中开启，但该模式并非零风险，建议在隔离环境中使用，且可能轻微增加 Token 消耗与延迟。它比 `--dangerously-skip-permissions` 参数更安全，但仍需谨慎，因为它处于研究预览阶段，安全评估仍在进行中。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Software Engineering",
+    "Security",
+    "Automation",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 25, 01:15"
+    }
+  ],
+  "originalUrl": "https://claude.com/blog/auto-mode",
+  "originalSite": "claude.com",
+  "context": "Claude Code 是由 Anthropic 开发的 AI 驱动编码助手，旨在帮助开发者进行代码生成、调试和自动化等任务。Claude Sonnet 4.6 和 Opus 4.6 是 Anthropic 近期发布的模型升级，其中 Sonnet 4.6 提升了编码能力并支持 100 万 Token 上下文，而 Opus 4.6 增强了智能体规划和并行任务执行能力。自动模式基于 Claude Code 现有的权限系统构建，该系统之前需要手动批准某些操作，以减少中断同时保持安全性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Sonnet 4.6 Model Brings 'Much-Improved Coding",
+      "url": "https://startupnews.fyi/2026/02/18/claude-sonnet-4-6-model-brings-much-improved-coding-skills-upgraded-free-tier/"
+    },
+    {
+      "title": "Introducing Claude Opus 4.6 - Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "title": "What's new in Claude 4.6 - Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

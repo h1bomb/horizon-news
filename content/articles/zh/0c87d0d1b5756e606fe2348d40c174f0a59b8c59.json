@@ -1,0 +1,40 @@
+{
+  "id": "0c87d0d1b5756e606fe2348d40c174f0a59b8c59",
+  "canonicalId": "8ffed2502175348b76a1ae54c9fd81d652d7d172",
+  "slug": "anthropic-发布-claude-opus-47具备自适应思考能力分词器更新和网络安全防护",
+  "date": "2026-04-17",
+  "publishedAt": "2026-04-17T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Claude Opus 4.7，具备自适应思考能力、分词器更新和网络安全防护。",
+  "summary": "Anthropic 发布了 Claude Opus 4.7，这是一个重要的 AI 模型更新，引入了自适应思考能力以动态调整推理努力，更新了分词器以改进文本处理但使 token 数量增加 1.0–1.35 倍，并增强了网络安全防护，能自动检测和阻止高风险请求。 此次发布很重要，因为自适应思考能力可以通过减少简单任务的不必要计算来提高 AI 效率，而分词器更新可能改善多语言和复杂文本处理，网络安全防护则解决了对 AI 在黑客攻击或恶意活动中被滥用的日益增长的担忧，影响依赖 Claude 进行敏感应用的开发者和用户。 值得注意的细节包括自适应思考不再默认在输出中包含人类可读的推理 token 摘要，需要设置 'display': 'summarized' 来获取，且网络安全防护不如 Claude Mythos Preview 先进，因为 Anthropic 先在能力较低的模型上进行了测试。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLM",
+    "Claude",
+    "Machine Learning",
+    "Cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 16, 14:23"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+  "originalSite": "anthropic.com",
+  "context": "Claude Opus 是 Anthropic 开发的大型语言模型（LLM），以其推理能力和安全特性而闻名。自适应思考指的是模型根据问题复杂性动态调整其推理深度的系统，不同于传统的固定上下文方法。分词器是 LLM 中将文本转换为 token（数值表示）以进行处理的组件，其更新会影响效率和语言处理。AI 模型中的网络安全防护是防止滥用的措施，例如生成恶意代码或协助网络攻击。",
+  "discussion": "社区评论显示出复杂的情绪，包括对自适应思考变化的困惑和对 token 数量增加的担忧，同时一些用户赞赏网络安全防护但指出与 Mythos Preview 相比的局限性，其他人则批评了 Opus 4.6 等先前版本的性能问题。",
+  "references": [
+    {
+      "title": "Beyond Context Windows: The Technical Reality Of Adaptive ...",
+      "url": "https://susiloharjo.web.id/beyond-context-windows-the-technical-reality-of-adaptive-thinking-in-claude-opus-4-6/"
+    },
+    {
+      "title": "How tokenizers work in AI models: A beginner-friendly guide",
+      "url": "https://nebius.com/blog/posts/how-tokenizers-work-in-ai-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

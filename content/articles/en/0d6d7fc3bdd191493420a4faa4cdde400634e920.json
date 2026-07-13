@@ -1,0 +1,40 @@
+{
+  "id": "0d6d7fc3bdd191493420a4faa4cdde400634e920",
+  "canonicalId": "5fcb5d0c86d15c53e1d9e88239ca5ad031ef1787",
+  "slug": "linux-kernel-developers-debate-approaches-to-implement-atomic-buffered-writes",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-02T22:27:00Z",
+  "lang": "en",
+  "title": "Linux kernel developers debate approaches to implement atomic buffered writes",
+  "summary": "A discussion initiated in February 2026 by Pankaj Raghav highlights that while ext4 and XFS now support atomic direct I/O, atomic buffered I/O remains unimplemented despite multiple proposals. The conversation reveals ongoing disagreement about the necessity and complexity of this feature, with PostgreSQL cited as a primary potential user. Atomic buffered writes are crucial for ensuring data integrity in applications like databases that write multi-block data, preventing partial \"torn writes\" that can corrupt data. Implementing this feature would benefit important workloads like PostgreSQL that rely on buffered I/O for performance or memory management reasons, addressing a long-standing gap in Linux filesystem capabilities. Two major patch sets have been proposed but stalled: one from John Garry in 2024 and another more recent one from Ojaswin Mujoo. The main concerns center on the added complexity to I/O paths and debates about whether the feature is truly needed, with some developers suggesting applications should migrate to direct I/O instead.",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "filesystems",
+    "storage",
+    "io",
+    "atomic-operations"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1060063/",
+  "originalSite": "lwn.net",
+  "context": "Atomic writes ensure that multi-block data operations either complete entirely or fail completely, preventing \"torn writes\" where only part of the data is written. Direct I/O bypasses the kernel's page cache, while buffered I/O uses it for performance. Some filesystems like ext4 and XFS already support atomic direct I/O, but extending this to buffered I/O is more complex due to interactions with the page cache and writeback mechanisms.",
+  "discussion": "The discussion reveals a split in the developer community: PostgreSQL developer Andres Freund argues that many users cannot benefit from direct I/O due to memory constraints or performance reasons, creating a legitimate need for atomic buffered writes. However, developers like Christoph Hellwig contend that helping PostgreSQL move off buffered I/O would be preferable to adding complex kernel special cases.",
+  "references": [
+    {
+      "title": "Atomic writes without tears [LWN.net]",
+      "url": "https://lwn.net/Articles/974578/"
+    },
+    {
+      "title": "An update on torn-write protection - LWN.net",
+      "url": "https://lwn.net/Articles/1016406/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

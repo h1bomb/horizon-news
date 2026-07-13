@@ -1,0 +1,40 @@
+{
+  "id": "cfdec6f5248866e01e6e433db9659eba86552a39",
+  "canonicalId": "b21c70de14cb3e02b9cc2d2bfdb0099bcedbe7a0",
+  "slug": "grok-cli-默认上传整个代码库和密钥文件",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T04:19:00Z",
+  "lang": "zh",
+  "title": "Grok CLI 默认上传整个代码库和密钥文件",
+  "summary": "安全研究人员发现，xAI 的 Grok CLI（版本 0.2.93）会默认将整个 Git 仓库和.env 等敏感文件自动上传至 Google Cloud Storage，即使提示词指示不要读取特定文件。关闭\"改进模型\"设置也无法阻止上传。 该漏洞默认暴露了用户的专有代码、API 密钥和凭证，带来了严重的隐私和安全风险。它破坏了用户对 AI 辅助编程工具的信任，并引发了对数据处理方式的质疑。 该工具通过两种渠道发送文件内容：嵌入模型对话请求中以及作为 git bundle 文件。在 12 GB 仓库的测试中，超过 5 GiB 的数据成功上传且未被拒绝。设置中的关闭开关对上传行为没有影响。",
+  "score": 9,
+  "tags": [
+    "security",
+    "privacy",
+    "AI tools",
+    "xAI",
+    "Grok CLI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+  "originalSite": "gist.github.com",
+  "context": "Grok CLI 是 xAI 开发的命令行工具，利用 Grok 模型协助开发者完成编程任务。它可以读取整个代码库以提供上下文感知的建议。git bundle 是 Git 仓库的单个文件归档。这种自动上传整个仓库以获取上下文的设计在 AI 编程助手中很常见，但此处缺乏有效的退出机制是有问题的。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Automate Your Terminal with Grok CLI : A Developer’s Guide... | Medium",
+      "url": "https://lalatenduswain.medium.com/automate-your-terminal-with-grok-cli-a-developers-guide-to-xai-s-ai-powered-tool-eb8e2b0460bf"
+    },
+    {
+      "title": "Git - git-bundle Documentation",
+      "url": "https://git-scm.com/docs/git-bundle"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

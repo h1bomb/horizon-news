@@ -1,0 +1,40 @@
+{
+  "id": "f4b76bf4dcb0570fd7079719065bce1474a2af85",
+  "canonicalId": "8b0fcb852961f662db9ed68ec5ce858fd5b43809",
+  "slug": "对比目标-sft-绘制-llm-因果依赖图",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T18:31:00Z",
+  "lang": "zh",
+  "title": "对比目标 SFT 绘制 LLM 因果依赖图",
+  "summary": "一位研究者提出使用对比目标监督微调（SFT）来发现大型语言模型中不同能力维度之间的因果依赖图，通过训练一对仅在某一维度上有差异的检查点，然后消融识别出的电路并测量其他维度的性能下降。 该方法有望系统性地理解 LLM 内部不同能力如何相互作用，可能优化训练顺序和定向行为控制，这是机械可解释性和模型操控的关键目标。 对比方法从同一基础模型创建一对检查点——一个维度深度代表，另一个浅层代表——然后通过差异补丁定位电路并消融它们以映射因果依赖。研究者还计划通过需要因果链的提示测试组合性，并使用激活引导作为诊断工具。",
+  "score": 8,
+  "tags": [
+    "mechanistic interpretability",
+    "SFT",
+    "causal dependencies",
+    "LLMs",
+    "circuit discovery"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Substantial_Diver469"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u8if6l/contrastive_targeted_sft_as_a_mechinterp_method/",
+  "originalSite": "reddit.com",
+  "context": "机械可解释性旨在逆向工程神经网络中实现特定行为的内部组件（电路）。监督微调（SFT）使用标注数据使预训练模型适应特定任务。对比学习技术通过比较正负样本来学习表示。该帖子将这些思想结合起来，以映射 LLM 中能力维度之间的因果依赖，这是一种尚未在现有文献中探索的新方法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2304.14997] Towards Automated Circuit Discovery for Mechanistic Interpretability",
+      "url": "https://arxiv.org/abs/2304.14997"
+    },
+    {
+      "title": "Large Language Models for Causal Discovery: Current Landscape ...",
+      "url": "https://arxiv.org/html/2402.11068v2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

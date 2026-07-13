@@ -1,0 +1,44 @@
+{
+  "id": "00b974051997233cd5532131ec3c31c825f01c80",
+  "canonicalId": "7ec4f858db2d864eff08d6062c808b472ca7fc0e",
+  "slug": "us-memo-on-adversarial-distillation-raises-open-model-concerns",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T15:59:00Z",
+  "lang": "en",
+  "title": "US Memo on Adversarial Distillation Raises Open Model Concerns",
+  "summary": "A US government memo from the Office of Science and Technology Policy expresses concern about large-scale extraction of frontier model capabilities through adversarial distillation, potentially leading to tighter controls on open models. This could reshape the future of open-source AI by treating model weights as strategic assets, balancing national security against innovation and accessibility. The memo specifically targets industrialized distillation using proxy accounts and jailbreak techniques, focusing on protecting proprietary models rather than open-source directly.",
+  "score": 8,
+  "tags": [
+    "AI regulation",
+    "open source",
+    "adversarial distillation",
+    "national security",
+    "frontier models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "MLExpert000"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/jp8emg4cqywg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Adversarial distillation is a technique where a target model's outputs are used to train a new model that mimics its behavior, potentially extracting proprietary capabilities. Frontier models are advanced AI systems with significant capabilities that could pose national security risks if widely accessible.",
+  "discussion": "Community comments are skeptical, with some comparing the move to historical overreactions like the search for WMDs, and others accusing AI companies like Anthropic and OpenAI of lobbying for regulation to stifle open-weight competition. Many see it as a pretext to restrict Chinese models and force US users to pay more.",
+  "references": [
+    {
+      "title": "Adversarial Distillation - Frontier Model Forum",
+      "url": "https://www.frontiermodelforum.org/issue-briefs/issue-brief-adversarial-distillation/"
+    },
+    {
+      "title": "The Case for Imposing Costs on China's AI Distillation Campaigns",
+      "url": "https://www.justsecurity.org/134124/costs-china-ai-distillation/"
+    },
+    {
+      "title": "Adversarial Distillation AI: How to Protect Your AI Models - Rejoicehub",
+      "url": "https://rejoicehub.com/blogs/adversarial-distillation-ai-model-security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

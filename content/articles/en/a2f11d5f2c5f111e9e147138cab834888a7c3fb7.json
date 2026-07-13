@@ -1,0 +1,36 @@
+{
+  "id": "a2f11d5f2c5f111e9e147138cab834888a7c3fb7",
+  "canonicalId": "37e45d8c223a005281f3994434f73e185a822433",
+  "slug": "github-copilot-desktop-app-enters-technical-preview",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-16T15:07:00Z",
+  "lang": "en",
+  "title": "GitHub Copilot Desktop App Enters Technical Preview",
+  "summary": "GitHub Copilot desktop app is now available in technical preview, allowing developers to launch isolated development sessions directly from issues, pull requests, prompts, or history, and to view diffs, run tests, create PRs, and use Agent Merge for automated review handling. This release significantly enhances developer workflow by providing a self-contained environment for task-focused development and automated merge conflict resolution, potentially reducing context switching and manual overhead. The technical preview is available immediately for Copilot Pro and Pro+ subscribers, while Business and Enterprise users gain access within the week, pending organizational admin policy enabling CLI and preview permissions.",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "Copilot",
+    "AI",
+    "developer tools",
+    "technical preview"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/",
+  "originalSite": "github.blog",
+  "context": "GitHub Copilot is an AI-powered code completion tool that suggests code snippets and entire functions. A technical preview is an early release for testing feedback before general availability. Isolated development sessions allow developers to work on a specific task in a sandboxed environment without affecting their main codebase, improving focus and safety.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Fix merge conflicts in three clicks with Copilot cloud agent",
+      "url": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

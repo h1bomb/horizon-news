@@ -1,0 +1,44 @@
+{
+  "id": "3122421a086f2ab950c9dd95c4753687259dd41a",
+  "canonicalId": "4e1eb6ae0ed3474970aa8733933607cf83374128",
+  "slug": "360-漏洞挖掘智能体发现两项全球高危漏洞影响逾-10-亿用户",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "360 漏洞挖掘智能体发现两项全球高危漏洞，影响逾 10 亿用户",
+  "summary": "360 集团自主研发的漏洞挖掘智能体近日发现两项潜伏多年的重大安全漏洞，分别为 Windows 内核提权漏洞和 Office 远程代码执行漏洞，目前已上报国家漏洞库并完成修复。这是我国首次公开披露智能体规模化发现基础软件核心漏洞的能力成果。 这一突破展示了 AI 在网络安全中日益重要的作用，推动行业从人工防御转向自动化机器对抗，有望提升全球软件漏洞的威胁检测能力和响应速度。它强调了组织采用 AI 驱动安全工具的必要性，以应对 Windows 和 Office 等关键系统中不断演变的威胁。 这些漏洞影响全球超过 10 亿 Windows 及 Office 用户，波及个人终端、政企办公系统及关键基础设施。该智能体体系目前已累计挖掘近千个漏洞，其中高危漏洞超过 50 项，显示了其在大规模安全审计中的可扩展性和有效性。",
+  "score": 8,
+  "tags": [
+    "Cybersecurity",
+    "AI",
+    "Vulnerability Detection",
+    "Windows",
+    "Office"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 17, 05:06"
+    }
+  ],
+  "originalUrl": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupth6598363.shtml",
+  "originalSite": "finance.sina.com.cn",
+  "context": "漏洞检测系统使用自动化工具识别软件中的安全缺陷，AI 通过分析代码模式和行为来增强此能力，以发现隐藏问题。Windows 内核提权漏洞允许攻击者获取更高系统权限，可能危及整个系统，而 Office 远程代码执行漏洞则使恶意代码能通过文档远程运行，带来广泛风险。传统网络安全依赖人工分析和基于签名的检测，但像 360 系统这样的 AI 驱动方法旨在自动化和扩展此过程，以实现更快响应。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "覆盖10亿用户！ 360...",
+      "url": "http://news.cnfol.com/chanyejingji/20260417/32150992.shtml"
+    },
+    {
+      "title": "Windows 内核 0Day 漏洞遭野外利用提权（CVE-2025-62215） - FreeBuf...",
+      "url": "https://www.freebuf.com/articles/system/456703.html"
+    },
+    {
+      "title": "Office 远 程 代 码 执 行 漏 洞 _视频教 程 _i春秋_培育数字时 代 的安全感",
+      "url": "https://www.ichunqiu.com/course/58915"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

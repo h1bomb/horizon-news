@@ -1,0 +1,44 @@
+{
+  "id": "f2b57e55c10b737e8915265ded93d882581a37c3",
+  "canonicalId": "53d82ce87163003b79828150aea66d1da891dd14",
+  "slug": "4b-llm-benchmark-nemotron-3-nano-tops-finance-reasoning-code",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T18:36:00Z",
+  "lang": "en",
+  "title": "4B LLM Benchmark: Nemotron 3 Nano Tops Finance, Reasoning, Code",
+  "summary": "A community benchmark compared five 4B-parameter LLMs (Gemma 4, Qwen 3.5, Granite 4, Nemotron Nano, Phi-4 Mini) on 39 tasks covering finance, reasoning, and code, with Nemotron 3 Nano achieving the highest overall score of 85%. This benchmark provides a timely, head-to-head comparison of the latest small LLMs, highlighting Nemotron 3 Nano's strong finance performance and sparking debate about benchmark methodology and token budget fairness. The benchmark used a 1024-token max output, temperature=0, seed=42, and median aggregation over 3 trials per task. Nemotron 3 Nano scored 100% on finance, 80% on reasoning, and 67% on code, while Qwen 3.5 scored only 15% overall, likely due to inadequate thinking token budget.",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "benchmark",
+    "local LLM",
+    "model comparison",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "FederalAnalysis420"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/fj2b1am41sxg1.png",
+  "originalSite": "i.redd.it",
+  "context": "4B-parameter LLMs are small enough to run on consumer hardware like laptops, making them attractive for local deployment. The benchmark tested models from Google, Alibaba, IBM, NVIDIA, and Microsoft, all released between late 2024 and early 2026. Token budget is critical for thinking models that use internal reasoning tokens before outputting an answer.",
+  "discussion": "Commenters questioned the 1024-token budget, arguing it unfairly penalizes thinking models like Qwen 3.5. Some suggested disabling thinking or using external budget control. Others noted that Phi-4 Mini's high code score despite being older indicates potential benchmark flaws.",
+  "references": [
+    {
+      "title": "LLM Benchmarks 2026 - Compare AI Benchmarks and Tests",
+      "url": "https://llm-stats.com/benchmarks"
+    },
+    {
+      "title": "nemotron-3-nano:4b",
+      "url": "https://ollama.com/library/nemotron-3-nano:4b"
+    },
+    {
+      "title": "Granite 4.0 - IBM Granite",
+      "url": "https://www.ibm.com/granite/docs/models/granite"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

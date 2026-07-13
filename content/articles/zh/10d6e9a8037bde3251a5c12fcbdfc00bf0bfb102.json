@@ -1,0 +1,40 @@
+{
+  "id": "10d6e9a8037bde3251a5c12fcbdfc00bf0bfb102",
+  "canonicalId": "8ceaac1d43a06a9a33c817f3770938ec580915e6",
+  "slug": "lwn-详解-linux-内核中页与-folio-的区别",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "LWN 详解 Linux 内核中页与 folio 的区别",
+  "summary": "Jonathan Corbet 于 2026 年 4 月 24 日在 LWN 上发表文章，详细解释了 Linux 内核内存管理中页（page）与 folio 的区别以及 folio 过渡的当前状态。 随着内核逐渐转向使用 folio 而非页进行内存管理，开发者需要清晰理解这两个概念以编写正确高效的代码。本文为正在进行的过渡提供了权威参考。 文章解释页是由硬件管理的固定大小内存单元（通常为 4KB），而 folio 是内核抽象，可表示一个或多个连续页。该过渡旨在简化内存管理并提升性能，尤其适用于大型 I/O 操作。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "folios",
+    "pages",
+    "kernel development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 24, 13:08"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064861/",
+  "originalSite": "lwn.net",
+  "context": "在 Linux 内存管理中，“页”是硬件 MMU 和 TLB 操作的最小内存单元。内核为每个物理页维护一个“struct page”，这消耗了大量内存。folio 概念在 Linux 5.16 左右引入，通过将页分组来减少开销并提高缓存效率。从页到 folio 的过渡正在进行中，许多子系统已经完成转换。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The kernel radar: folios, multi-generational LRU, and Rust",
+      "url": "https://lwn.net/Articles/881675/"
+    },
+    {
+      "title": "New Features of Linux Memory Management - Memory folios -",
+      "url": "https://www.alibabacloud.com/blog/new-features-of-linux-memory-management---memory-folios_600565"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

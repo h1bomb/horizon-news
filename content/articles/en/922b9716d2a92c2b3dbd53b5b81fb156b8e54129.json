@@ -1,0 +1,36 @@
+{
+  "id": "922b9716d2a92c2b3dbd53b5b81fb156b8e54129",
+  "canonicalId": "abee034ce975d4fb895cbc44f8621ce094e237c6",
+  "slug": "microsoft-open-sources-vibevoice-with-speaker-diarization",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T23:46:00Z",
+  "lang": "en",
+  "title": "Microsoft Open-Sources VibeVoice with Speaker Diarization",
+  "summary": "Microsoft released VibeVoice, an MIT-licensed speech-to-text model with built-in speaker diarization, on January 21, 2026. Simon Willison demonstrated running it on a Mac using mlx-audio, transcribing a 99-minute podcast in under 9 minutes. This open-source release makes advanced speaker-aware transcription accessible to developers, potentially accelerating applications in meeting transcription, podcast analysis, and accessibility tools. The MIT license encourages broad adoption and community contributions. The model requires significant memory, peaking at 61.5GB during prefill on a 128GB M5 Max MacBook Pro. It handles up to one hour of audio per run; longer recordings must be split with overlap to avoid errors.",
+  "score": 8,
+  "tags": [
+    "speech-to-text",
+    "open-source",
+    "machine learning",
+    "Microsoft",
+    "audio processing"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Speaker diarization identifies 'who spoke when' in an audio stream, partitioning speech into segments by speaker identity. Traditional systems separate transcription and diarization into distinct pipelines, but VibeVoice integrates both into a single model, simplifying deployment. MLX is Apple's machine learning framework optimized for Apple Silicon, and mlx-audio provides audio processing tools built on it.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - Blaizzy/ mlx - audio : A text-to-speech (TTS), speech-to-text...",
+      "url": "https://github.com/Blaizzy/mlx-audio"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "3f39c9b641ac82ebfed360c6cf236fe9aab9702a",
+  "canonicalId": "a01612d1a876f260fbb4c4ec8b225d25465d5614",
+  "slug": "谷歌静默更新威胁安卓开放性",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌静默更新威胁安卓开放性",
+  "summary": "从 2026 年 9 月起，谷歌将要求所有安卓应用由经过验证的开发者注册，阻止未经批准的应用安装在认证设备上，并对侧载应用强制设置 24 小时等待期。 这一变化削弱了安卓开放性的核心承诺，可能使其变成类似 iOS 的围墙花园，并可能损害依赖侧载获取自由、隐私或地区应用访问的用户。 该政策适用于全球所有认证安卓设备，无法选择退出，尽管存在面向开发者的“高级流程”。用户若禁用开发者选项，必须重新启用才能关闭新的侧载限制。",
+  "score": 8,
+  "tags": [
+    "Android",
+    "Google",
+    "open source",
+    "vendor lock-in",
+    "mobile ecosystem"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 28, 15:21"
+    }
+  ],
+  "originalUrl": "https://keepandroidopen.org/en/",
+  "originalSite": "keepandroidopen.org",
+  "context": "安卓长期以来一直允许用户从官方 Google Play 商店之外安装应用（即侧载），这使其与 iOS 区分开来。这种开放性一直是许多用户选择安卓而非 iPhone 的关键原因。谷歌的新限制旨在打击诈骗和胁迫，但批评者认为这是迈向供应商锁定的步骤。",
+  "discussion": "社区评论分歧明显：一些用户感到被背叛，认为安卓的开放性是其相对于 iOS 的唯一优势；而另一些人指出，限制并非如声称的那样绝对，存在可选择的退出流程。普遍的担忧是，这为进一步的锁定设下了先例，减少了用户选择。",
+  "references": [
+    {
+      "title": "Android's new sideloading rules are here, and they come with a 24-hour lock!",
+      "url": "https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/"
+    },
+    {
+      "title": "New restrictions on Android app sideloading [LWN.net]",
+      "url": "https://lwn.net/Articles/1034989/"
+    },
+    {
+      "title": "Android Sideloading Restrictions Explained: Why Even Supporters Object << Android :: Gadget Hacks",
+      "url": "https://android.gadgethacks.com/news/android-sideloading-restrictions-explained-why-even-supporters-object/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

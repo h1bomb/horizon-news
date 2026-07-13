@@ -1,0 +1,40 @@
+{
+  "id": "244957f8632e5ea73a73a7d6863e4f33bc163b1e",
+  "canonicalId": "52560c7988e5c1ef6836dd0139dfe4ca9effcc28",
+  "slug": "深度学习科学理论正在浮现",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "深度学习科学理论正在浮现",
+  "summary": "一篇由 14 位作者合著的视角论文认为，深度学习的科学理论正在浮现，并得到五个证据线索的支持：可解的玩具设定、有洞见的极限、简单的经验定律、超参数理论以及普适现象。 这项工作旨在推动对深度学习系统工作原理的严谨科学研究，可能将该领域从经验工程转向类似物理学的原理性科学。 论文借鉴了物理学的类比（如热力学），并将其提出的“学习力学”与机械可解释性区分开来，强调架构、数据和训练动态如何共同塑造学习到的函数。",
+  "score": 9,
+  "tags": [
+    "deep learning theory",
+    "machine learning",
+    "scientific theory",
+    "physics",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 24, 17:58"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2604.21691",
+  "originalSite": "arxiv.org",
+  "context": "深度学习理论旨在理解为什么大型神经网络在过参数化的情况下仍能良好泛化。最近的进展包括简化的玩具模型、经验缩放定律以及像“grokking”这样的普适现象，论文将这些综合成一个连贯的框架。",
+  "discussion": "社区反应总体积极，评论者称赞其连贯的框架和与物理学的联系。一些人注意到与机械可解释性的区别，并对数学基础表示兴趣，而另一些人则质疑论文中是否包含定理。",
+  "references": [
+    {
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/html/2604.21691"
+    },
+    {
+      "title": "Deep learning - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deep_learning"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

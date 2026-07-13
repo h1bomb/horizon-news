@@ -1,0 +1,40 @@
+{
+  "id": "83480ba1988b5cf6f5f2cad3484cc79c1bde0e35",
+  "canonicalId": "2ba33715934fa76bed6c71f14bf6b5cada4e2e80",
+  "slug": "nearly-half-of-lg-smart-tv-apps-contain-residential-proxy-sdks-83480ba1",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T02:26:00Z",
+  "lang": "en",
+  "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
+  "summary": "A security scan found that 2,058 out of 6,038 sampled LG and Samsung smart TV apps include residential proxy SDKs, with LG accounting for nearly half. These apps, such as screensavers and games, can continue running proxy functions even after being closed. This exposes a widespread privacy risk where home IP addresses can be hijacked for proxy networks without user consent, potentially enabling malicious activities like fraud or content scraping. It highlights a critical IoT security gap that major TV manufacturers have not yet addressed. The affected apps include screensavers, clocks, and casual games; some remain active after closure. Amazon and Roku have already banned such SDKs on their platforms, while LG and Samsung have not publicly implemented equivalent restrictions.",
+  "score": 8,
+  "tags": [
+    "smart-tv",
+    "security",
+    "privacy",
+    "IoT",
+    "residential-proxy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+  "originalSite": "spur.us",
+  "context": "A residential proxy is an IP address assigned by an internet service provider to a real household, often used for anonymity or bypassing geographic restrictions. Residential proxy SDKs embedded in smart TV apps can turn the TV into a node in a proxy network, allowing third parties to route traffic through the home IP. This potentially exposes users to legal liability if the IP is used for illegal activities, and degrades network performance.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "什么是住宅代理（Residential Proxy）？详解原理、优势与应用场景",
+      "url": "https://segmentfault.com/a/1190000047344538"
+    },
+    {
+      "title": "住宅IP代理详解：工作原理、类型与使用场景选型指南（2026）-CSDN博客",
+      "url": "https://blog.csdn.net/2303_78381320/article/details/161290563"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

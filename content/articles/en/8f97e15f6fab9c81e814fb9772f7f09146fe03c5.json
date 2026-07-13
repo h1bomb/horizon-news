@@ -1,0 +1,44 @@
+{
+  "id": "8f97e15f6fab9c81e814fb9772f7f09146fe03c5",
+  "canonicalId": "f8c7a1b4e678d92984bcdd61a96ed3e07358ee48",
+  "slug": "bytedance-launches-native-full-duplex-voice-model-seeduplex-now-fully-deployed-in-doubao-app",
+  "date": "2026-04-10",
+  "publishedAt": "2026-04-09T05:35:00Z",
+  "lang": "en",
+  "title": "ByteDance launches native full-duplex voice model Seeduplex, now fully deployed in Doubao app",
+  "summary": "ByteDance has officially launched Seeduplex, a native full-duplex voice large model that is now fully available in the Doubao app. This marks the first large-scale commercial deployment of full-duplex technology in the industry, enabling real-time, high-quality voice interactions for hundreds of millions of users. This represents a significant advancement in voice AI technology as full-duplex models enable more natural, human-like conversations by allowing simultaneous listening and speaking. The deployment in Doubao, a major app with massive user base, could accelerate adoption of real-time voice interfaces across various applications and set new standards for conversational AI. Seeduplex achieves true 'listen-and-speak' capability through voice pre-training and reinforcement learning (RL) techniques, maintaining rapid response while implementing precise interference suppression and dynamic endpoint detection. Unlike traditional half-duplex systems that require turn-taking, this model can handle overlapping speech and interruptions for more fluid conversations.",
+  "score": 8,
+  "tags": [
+    "voice AI",
+    "full-duplex",
+    "ByteDance",
+    "reinforcement learning",
+    "real-time systems"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://seed.bytedance.com/seeduplex",
+  "originalSite": "seed.bytedance.com",
+  "context": "Full-duplex voice models represent an advancement over traditional half-duplex systems where participants must take turns speaking and listening. These models enable simultaneous bidirectional communication, allowing for natural conversation patterns like interruptions and backchannels. Dynamic endpoint detection is a speech processing technique that determines when a speaker has finished talking, with modern approaches using regression-based methods to adjust detection behavior based on context. Reinforcement learning in voice AI systems helps optimize dialogue strategies through trial-and-error learning from interactions.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2405.19487] A Full-duplex Speech Dialogue Scheme Based On Large Language Models",
+      "url": "https://arxiv.org/abs/2405.19487"
+    },
+    {
+      "title": "Full-Duplex Spoken Dialogue Model",
+      "url": "https://www.emergentmind.com/topics/full-duplex-spoken-dialogue-model"
+    },
+    {
+      "title": "[2210.14252] Dynamic Speech Endpoint Detection with Regression Targets",
+      "url": "https://arxiv.org/abs/2210.14252"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

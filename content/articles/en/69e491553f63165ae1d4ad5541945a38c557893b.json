@@ -1,0 +1,40 @@
+{
+  "id": "69e491553f63165ae1d4ad5541945a38c557893b",
+  "canonicalId": "b819b2e40e7044940aa7cab6f8061de191af9e05",
+  "slug": "chinese-enthusiasts-create-single-slot-half-height-v100-with-nvlink",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T14:22:00Z",
+  "lang": "en",
+  "title": "Chinese Enthusiasts Create Single-Slot Half-Height V100 with NVLink",
+  "summary": "A Chinese creator nicknamed 'GPU God' has designed and tested a custom single-slot, half-height PCIe V100 GPU with NVLink support, running on a custom PCB with soldered GV100 core rather than an adapter. This engineering feat could make high-performance GPU compute more accessible for compact AI/ML workstations, as the card is expected to sell for around $220 USD while retaining full V100 performance and NVLink capability. The card is 16cm long, 7.5cm tall, designed for passive cooling; a default version is capped at 75W via PCIe slot power only, but an alternative version supports up to 300W with an external power connector. A 32GB version is also planned.",
+  "score": 8,
+  "tags": [
+    "hardware",
+    "GPU",
+    "custom PCB",
+    "NVLink",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/OwnMathematician2620"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u16eyk/people_are_making_singleslot_half_height_pcie/",
+  "originalSite": "reddit.com",
+  "context": "The NVIDIA V100 is a data-center GPU based on the Volta architecture, originally available only in full-height, dual-slot PCIe form factors or SXM2 modules. NVLink is a high-speed interconnect technology that allows multiple GPUs to share memory and data efficiently. Converting such a GPU into a single-slot half-height card with NVLink requires significant custom PCB engineering.",
+  "discussion": "The Reddit community reacted with excitement and skepticism, but the included benchmarks and promised price ($220) garnered strong interest. One user mentioned a friend had already pre-ordered two units, suggesting perceived legitimacy.",
+  "references": [
+    {
+      "title": "NVLink - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NVLink"
+    },
+    {
+      "title": "NVIDIA Tesla V100 PCIe 16 GB Specs | TechPowerUp GPU Database",
+      "url": "https://www.techpowerup.com/gpu-specs/tesla-v100-pcie-16-gb.c2957"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

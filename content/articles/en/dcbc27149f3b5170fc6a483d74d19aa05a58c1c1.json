@@ -1,0 +1,44 @@
+{
+  "id": "dcbc27149f3b5170fc6a483d74d19aa05a58c1c1",
+  "canonicalId": "2524798f2f8ef2ac7bc75f1ce1c54a069ef3ecb2",
+  "slug": "south-koreas-tax-service-exposes-hardware-wallet-seed-phrase-leading-to-48m-crypto-transfer",
+  "date": "2026-03-01",
+  "publishedAt": "2026-02-28T11:27:00Z",
+  "lang": "en",
+  "title": "South Korea's Tax Service Exposes Hardware Wallet Seed Phrase, Leading to $4.8M Crypto Transfer",
+  "summary": "South Korea's National Tax Service (NTS) accidentally published the complete mnemonic seed phrase of a seized Ledger hardware wallet in a press release, which led to the unauthorized transfer of 4 million PRTG tokens worth approximately $4.8 million. The tokens were returned to the original wallet about 20 hours later. This incident highlights a severe security failure by a major government institution, demonstrating how basic operational oversights can compromise high-value digital assets. It serves as a critical case study for institutional cryptocurrency custody and the importance of secure handling of sensitive recovery information, even by authorities. The exposed wallet was a Ledger hardware wallet, and the leak occurred because an image containing the seed phrase was published without redaction. On-chain data shows at least three wallets that had been inactive since January 2023 were affected, collectively holding 40% of the total PRTG supply, a token with extremely low liquidity traded primarily on MEXC.",
+  "score": 7,
+  "tags": [
+    "cryptocurrency",
+    "security",
+    "blockchain",
+    "government",
+    "hardware-wallet"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.mk.co.kr/cn/stock/11974731",
+  "originalSite": "mk.co.kr",
+  "context": "A hardware wallet is a physical device designed to securely store the private keys needed to access cryptocurrency. A mnemonic seed phrase, typically 12 or 24 words, is a human-readable backup of these private keys; anyone with this phrase can fully control the associated assets. Ledger is a prominent manufacturer of such hardware wallets. Exposing a seed phrase is equivalent to handing over complete control of a wallet and its funds.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Three lessons about hardware wallet security and their exploits",
+      "url": "https://vacuumlabs.com/3-lessons-about-hardware-wallet-security-and-their-exploits/"
+    },
+    {
+      "title": "Mnemonic Phrase: Wallet Keys Explained",
+      "url": "https://plisio.net/blog/mnemonic-phrases"
+    },
+    {
+      "title": "Ledger Hardware Wallet For Bitcoin & Cryptocurrency Storage",
+      "url": "https://www.mybitcoin.com/ledger-hardware-wallet/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dd6bb09ce79f380463e62ba53b8cc4ca57456a27",
+  "canonicalId": "884b66ac86ddc76e8daeeb6b50a4b3c9edd6a6c4",
+  "slug": "long-appendices-in-conference-papers-challenge-page-limit-purpose",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T09:09:00Z",
+  "lang": "en",
+  "title": "Long Appendices in Conference Papers Challenge Page Limit Purpose",
+  "summary": "A Reddit discussion highlights the trend of increasingly lengthy appendices in machine learning conference papers, such as those for ICML and NeurIPS, which are becoming essential rather than supplementary, undermining the purpose of page limits. The author notes that appendices often include extensive experiments that cannot fit within the main 8–10 pages, effectively making them mandatory. This trend raises concerns about research standards and fairness in academic publishing, as it may disadvantage authors who adhere to page limits and overload reviewers with excessive material. It could shift the focus from concise contributions to volume-driven submissions, impacting the quality and accessibility of conference proceedings in the machine learning community. Conferences like ICML allow unlimited appendix pages alongside a strict 8-page main body, while NeurIPS has similar policies, creating a loophole where appendices can exceed main content length. This practice blurs the line between conferences and journals, as papers with 25+ pages become common despite nominal page limits.",
+  "score": 7,
+  "tags": [
+    "academic-publishing",
+    "conferences",
+    "machine-learning",
+    "research-standards",
+    "peer-review"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "kostaspap90"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1s4yyyi/d_on_conferences_and_page_limitations/",
+  "originalSite": "reddit.com",
+  "context": "Machine learning conferences such as ICML and NeurIPS set page limits (e.g., 8 pages for ICML) to ensure concise submissions and manageable review processes, with appendices intended for supplementary material like additional experiments or proofs. The rise of lengthy appendices reflects a broader trend in academia where extensive data and reproducibility requirements push authors to include more content beyond the main paper.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ICML 2025 Author Instructions",
+      "url": "https://icml.cc/Conferences/2025/AuthorInstructions"
+    },
+    {
+      "title": "NeurIPS 2025 FAQ for Authors",
+      "url": "https://neurips.cc/Conferences/2025/PaperInformation/NeurIPS-FAQ"
+    },
+    {
+      "title": "Understanding Word Count and Page Limit Requirements for ...",
+      "url": "http://www.iconf.com/news/818"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

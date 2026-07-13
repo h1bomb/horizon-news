@@ -1,0 +1,44 @@
+{
+  "id": "5200911be412d5727afc848f69fd69bd61610214",
+  "canonicalId": "7980c9499f3a812a64716bfab076b5e21636d001",
+  "slug": "nginx-曝-18-年远程代码执行漏洞-cve-2026-42945",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-15T00:00:00Z",
+  "lang": "zh",
+  "title": "NGINX 曝 18 年远程代码执行漏洞 CVE-2026-42945",
+  "summary": "2026 年 5 月 13 日，depthfirst 与 F5 披露了编号 CVE-2026-42945 的严重漏洞，它是 NGINX rewrite 模块中的堆缓冲区溢出漏洞，允许未经身份验证的远程代码执行。该漏洞自 2008 年起就存在于 NGINX 代码中，影响 0.6.27 至 1.30.0 版本，现已发布补丁。 该漏洞影响全球数十亿台服务器，包括 NGINX 开源版、NGINX Plus 及众多企业产品，对基础设施安全构成严重威胁。强烈建议立即打补丁，以防止潜在的大规模攻击。 该漏洞是堆缓冲区溢出，源于两遍执行引擎在 rewrite 指令包含问号时的状态不一致，导致内存损坏。利用需要特定的 rewrite 配置模式，成功攻击可在 NGINX worker 进程中执行代码。",
+  "score": 9,
+  "tags": [
+    "nginx",
+    "vulnerability",
+    "rce",
+    "CVE-2026-42945",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 14, 02:41"
+    }
+  ],
+  "originalUrl": "https://depthfirst.com/research/nginx-rift-achieving-nginx-rce-via-an-18-year-old-vulnerability",
+  "originalSite": "depthfirst.com",
+  "context": "NGINX 是一种广泛使用的 Web 服务器和反向代理，尤其在云原生环境中。其 rewrite 模块通过两遍执行处理 URI 重写：先计算缓冲区长度，再写入结果。一个标志位不一致导致第二遍写入的数据超过分配的缓冲区，从而引发溢出。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NGINX Rift: CVE-2026-42945 Critical Heap Buffer Overflow ...",
+      "url": "https://www.picussecurity.com/resource/blog/nginx-rift-cve-2026-42945-critical-heap-buffer-overflow-vulnerability-explained"
+    },
+    {
+      "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html"
+    },
+    {
+      "title": "Critical NGINX RCE vulnerability CVE-2026-42945",
+      "url": "https://community.broadcom.com/tanzu/blogs/beltran-rueda-borrego/2026/05/14/critical-nginx-rce-vulnerability-cve-2026-42945"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

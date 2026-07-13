@@ -1,0 +1,40 @@
+{
+  "id": "f5649a0dd0bea7d48ba7d4c74c3bc24797f77a69",
+  "canonicalId": "8a4d6528c3bea7f71fe2dcea7acb57624fe4d78f",
+  "slug": "mozilla-cto-就开源-ai-报告举办-ama",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T14:51:00Z",
+  "lang": "zh",
+  "title": "Mozilla CTO 就开源 AI 报告举办 AMA",
+  "summary": "Mozilla CTO Raffi Krikorian 宣布将于 2026 年 7 月 14 日举办 AMA，讨论首份《开源 AI 现状报告》，内容涵盖“免费”模型的隐藏成本、企业采用情况、中国效应、开发者信任以及代理套件（agentic harness）。 此次 AMA 讨论生产环境中开源 AI 的关键且常被误解的方面，可为开发者和企业在 AI 生态中应对真实成本、信任和战略杠杆提供指导。 该报告及 AMA 聚焦五大主题：“免费”模型的隐藏成本、企业采用中的现实与营销差异、中国模型如何重塑杠杆、基于 950 多名开发者调查的信任度，以及为何“代理套件”（agentic harness）层成为开源的新战场。",
+  "score": 8,
+  "tags": [
+    "open source AI",
+    "Mozilla",
+    "AI industry",
+    "enterprise AI",
+    "developer trust"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/raffikrikorian"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/",
+  "originalSite": "reddit.com",
+  "context": "像 Llama 和 Mistral 这样的开源 AI 模型被广泛使用，但在生产环境中部署时，常因基础设施和专有工具而产生意外成本。“代理套件”（agentic harness）是指围绕模型的管理上下文、工具访问和安全的操作层，现在成为竞争焦点。该报告旨在澄清这些现实动态，超越流行叙事。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Complete Guide to Agent Harness: What It Is and Why It ...",
+      "url": "https://harness-engineering.ai/blog/agent-harness-complete-guide/"
+    },
+    {
+      "title": "What is an Agent Harness? The Architecture Behind Agentic AI",
+      "url": "https://opendatascience.com/what-is-an-agent-harness-the-architecture-behind-reliable-agentic-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "6cfe64b9324f2ce8afa99ae54554c268caeb92e0",
+  "canonicalId": "36c0162996b9b070082fafe205d4a3a51c17012e",
+  "slug": "linux-kernel-developers-reach-consensus-on-a-new-api-for-handling-integer-overflow-errors",
+  "date": "2026-04-09",
+  "publishedAt": "2026-04-08T14:53:00Z",
+  "lang": "en",
+  "title": "Linux kernel developers reach consensus on a new API for handling integer overflow errors.",
+  "summary": "On March 31, 2026, Kees Cook shared a patch set that introduces a new API for handling integer overflow in the Linux kernel, culminating over a year of work, with Linus Torvalds initially objecting but developers eventually reaching consensus on a different API design. The API uses annotations like __ob_wrap and __ob_trap to specify expected or unexpected overflow behavior, overriding compiler flags to ensure consistent handling. This matters because integer overflows are a common source of security vulnerabilities in systems programming, and the new API aims to eliminate silent, unintentional overflows in the kernel, potentially reducing bugs and hardening security. It reflects a broader trend in kernel hardening efforts, impacting developers who write low-level code and improving overall system reliability. The API includes annotations such as __ob_wrap for expected wrapping and __ob_trap for unexpected overflow, which causes an oops (kernel crash) by default; it also supports saturating integers as suggested by Vincent Mailhol, with typedefs like u8t and s64w for easy reference. The design overrides compiler flags like -fno-strict-overflow, ensuring consistent behavior regardless of compilation settings.",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "security",
+    "api-design",
+    "integer-overflow",
+    "systems-programming"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065889/",
+  "originalSite": "lwn.net",
+  "context": "Integer overflow occurs when an arithmetic operation produces a value outside the representable range, potentially leading to security vulnerabilities like buffer overflows in systems programming. In the Linux kernel, integer overflow is not undefined behavior due to the -fno-strict-overflow flag, but it can cause unexpected code paths, such as incorrect pointer calculations in buffer handling. Kernel hardening techniques aim to mitigate such errors by adding safety checks and APIs to prevent exploitation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Integer overflow - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Integer_overflow"
+    },
+    {
+      "title": "Hardening the Linux Kernel with Sysctl on Debian 12 | Reintech media",
+      "url": "https://reintech.io/blog/hardening-linux-kernel-sysctl-debian-12"
+    },
+    {
+      "title": "GitHub - intel/safe-arithmetic: Safe arithmetic library for C++20 and above. Safe arithmetic ensures correctness of arithmetic operations at compile-time. It protects against overflow, underflow, divide by zero, and out-of-bounds index access. This provides both functional correctness as well as greater protection against related security threats. · GitHub",
+      "url": "https://github.com/intel/safe-arithmetic"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

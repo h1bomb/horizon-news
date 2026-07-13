@@ -1,0 +1,44 @@
+{
+  "id": "31438a155b7d35a6eefe95481a67ac435d1d402b",
+  "canonicalId": "896bc20de26131514e802ec4843ef258708697bd",
+  "slug": "cloudflare-to-default-block-mixed-use-ai-crawlers-calls-out-google",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T05:37:00Z",
+  "lang": "en",
+  "title": "Cloudflare to Default-Block Mixed-Use AI Crawlers, Calls Out Google",
+  "summary": "Cloudflare announced that starting September 15, 2026, it will default-block mixed-use AI crawlers—those that simultaneously scrape for search indexing and AI training—on ad-supported pages. The company specifically criticized Google for exploiting a loophole where publishers block AI crawlers but allow Google's search bot, which Google then uses to train its AI models. This policy shift forces AI companies to either separate their crawlers by function or pay for content usage, potentially altering the economic balance between web publishers and AI developers. It could set a precedent for other internet infrastructure providers and empower publishers to control how their content is used for AI training. The default block applies to new Cloudflare websites and existing free-tier customers, while paid customers can opt in or out. Cloudflare also partnered with Ceramic.ai and You.com to enable a pay-per-use revenue model, allowing AI companies to compensate publishers based on actual usage.",
+  "score": 8,
+  "tags": [
+    "Cloudflare",
+    "AI crawlers",
+    "web scraping",
+    "Google",
+    "publisher rights"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+  "originalSite": "techcrunch.com",
+  "context": "Cloudflare is a major internet infrastructure company that powers a significant portion of the web, providing security and performance services. AI crawlers are automated programs that scrape website content to train large language models. Publishers have faced a dilemma: they want to allow search engine crawlers to index their content for visibility, but they want to prevent AI companies from scraping their content for training without compensation. Google has been accused of ignoring publisher opt-outs and using its search crawler data to train AI, despite claims that its Google-Extended crawler allows opting out.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Cloudflare Changes AI Crawling Rules, Blocking Mixed - Use ... | ChatAI",
+      "url": "https://www.chatai.com/posts/cloudflare-changes-ai-crawling-rules-blocking-mixed-use-ai-bots-by-default"
+    },
+    {
+      "title": "Cloudflare Is Blocking AI Crawlers by Default | WIRED",
+      "url": "https://www.wired.com/story/cloudflare-blocks-ai-crawlers-default/"
+    },
+    {
+      "title": "Google can train AI using web content despite publisher opt-out",
+      "url": "https://www.newsbytesapp.com/news/science/google-reveals-ai-training-loophole-in-court-testimony/story"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

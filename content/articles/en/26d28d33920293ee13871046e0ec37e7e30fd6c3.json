@@ -1,0 +1,45 @@
+{
+  "id": "26d28d33920293ee13871046e0ec37e7e30fd6c3",
+  "canonicalId": "d8e0220915bf39b49ee56aaae8898050f1a6e4ba",
+  "slug": "linkedin-job-offer-backdoor-targets-developers-via-npm",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T20:00:00Z",
+  "lang": "en",
+  "title": "LinkedIn Job Offer Backdoor Targets Developers via npm",
+  "summary": "A malicious job offer on LinkedIn directed a developer to a GitHub repository containing deprecated Node modules; running npm install automatically executed a backdoor via the prepare script. This attack demonstrates a sophisticated social engineering vector targeting developers, exploiting trust in recruitment processes and npm's automated lifecycle scripts. It underscores the growing threat of supply chain attacks and the need for heightened security awareness in job-related activities. The backdoor was hidden in deprecated npm packages and executed automatically when the victim ran npm install due to the prepare lifecycle script. The attacker posed as a recruiter from a small crypto startup and asked the victim to review a 'broken proof-of-concept' with deprecated modules.",
+  "score": 8,
+  "tags": [
+    "security",
+    "backdoor",
+    "job scams",
+    "Node.js",
+    "LinkedIn"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lwhsiao",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48546294"
+    }
+  ],
+  "originalUrl": "https://roman.pt/posts/linkedin-backdoor/",
+  "originalSite": "roman.pt",
+  "context": "npm install automatically runs lifecycle scripts like 'prepare', which can be abused to execute arbitrary code. Attackers often publish malicious packages under legitimate-seeming names or reuse deprecated package names to evade detection. Job scams targeting developers have become increasingly common, with attackers using fake offers to trick developers into running malware.",
+  "discussion": "Commenters expressed frustration with LinkedIn's job posting quality, with some considering leaving the platform. Others called for a centralized cybercrime reporting system, noting that individuals have no easy way to report such attacks. Several observed that the attack is uncomfortably close to normal interview tasks, where developers might run npm install without suspicion.",
+  "references": [
+    {
+      "title": "I Was Targeted by a Fake Employer Running a Real NPM Supply...",
+      "url": "https://dev.to/alien45/i-was-targeted-by-a-fake-employer-running-a-real-npm-supply-chain-attack-54i5"
+    },
+    {
+      "title": "Job scams targeting developers and tech professionals: The ...",
+      "url": "https://www.linkedin.com/pulse/job-scams-targeting-developers-tech-professionals-hidden-yhspf"
+    },
+    {
+      "title": "North Korean Hackers Attacking Developers with 338 Malicious ...",
+      "url": "https://cybersecuritynews.com/north-korean-hackers-attacking-developers/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

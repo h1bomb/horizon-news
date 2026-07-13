@@ -1,0 +1,44 @@
+{
+  "id": "1edc1166866e655ec45fe5202066258164f110d7",
+  "canonicalId": "e8cf87b16802fc05048479ac31b9b6c4ec31d53e",
+  "slug": "sarvam-ai-发布来自印度的-300-亿和-1050-亿参数开源大语言模型采用混合专家架构",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-07T00:00:00Z",
+  "lang": "zh",
+  "title": "Sarvam AI 发布来自印度的 300 亿和 1050 亿参数开源大语言模型，采用混合专家架构。",
+  "summary": "印度人工智能公司 Sarvam AI 在 Hugging Face 上发布了两个新的大语言模型：Sarvam-30B 和 Sarvam-105B。这些模型是从头开始构建的，并采用了具有稀疏激活功能的混合专家架构。 此次发布标志着印度 AI 生态系统取得了一项重大技术成就，展示了其开发大规模、尖端模型的能力。它将更多的竞争和多样性引入了全球开源大语言模型领域，其高效的 MoE 设计可能带来更快的推理速度。 105B 模型采用了 top-8 + 1 共享专家路由策略，而 30B 模型采用了 top-6 + 1 共享策略，这形成了稀疏激活模式，即每个输入仅激活一小部分参数（例如，105B 模型激活参数 <80 亿），这可以显著提高推理效率。这些模型是印度主权大语言模型计划的一部分，也是 Sarvam AI 首次从头开始构建并发布的主要模型。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "mixture-of-experts",
+    "open-source",
+    "india",
+    "huggingface"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 6, 17:37"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/sarvamai/sarvam-105b",
+  "originalSite": "huggingface.co",
+  "context": "混合专家是一种神经网络架构，模型由许多“专家”子网络组成，一个门控网络将每个输入仅路由到少数几个相关的专家。这种稀疏激活使得模型总参数量可以非常大（例如 1050 亿），同时保持每次前向传播的计算成本可控，因为只需要计算被激活的专家。Sarvam AI 是一家印度 AI 初创公司，由 Vivek Raghavan 和 Pratyush Kumar 于 2023 年创立，专注于为印度语言和语境构建语言 AI，并获得了风险投资和印度 AI 使命等政府计划的支持。",
+  "discussion": "社区情绪 overwhelmingly 积极且支持，庆祝印度加入大规模模型竞赛。评论强调了对此技术成就的兴奋、对未来迭代的期望，以及对参数稀疏性和潜在推理速度等具体细节的兴趣。同时也有一些实用性的请求，例如要求提供 GGUF 格式转换，以及询问模型的审查政策。",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Sarvam AI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sarvam_AI"
+    },
+    {
+      "title": "Five new sovereign AI models signal India’s bold leap at AI",
+      "url": "https://www.forbesindia.com/article/ai-tracker/five-new-sovereign-ai-models-signal-indias-bold-leap-at-ai-summit/2991615/1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

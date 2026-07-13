@@ -1,0 +1,41 @@
+{
+  "id": "97badc849d903813a2896597ab85514b457cca4c",
+  "canonicalId": "84e0d65e5b7f08627962028629abe920700c715f",
+  "slug": "亚洲-ai-初创公司推出类似-mythos-的模型应对出口禁令",
+  "date": "2026-06-28",
+  "publishedAt": "2026-06-27T13:10:00Z",
+  "lang": "zh",
+  "title": "亚洲 AI 初创公司推出类似 Mythos 的模型应对出口禁令",
+  "summary": "多家亚洲 AI 初创公司发布了与 Anthropic 的 Mythos 相当模型，例如 Sakana AI 的 Fugu Ultra（一种多代理编排系统），而 Anthropic 对 Mythos 的出口限制仍在持续。 这一发展标志着 AI 领导地位的转变，亚洲初创公司开始与西方前沿模型竞争，可能重塑全球 AI 供应链并引发监管反应。 Fugu Ultra 并非单一模型，而是一个学习的多代理编排系统，可在底层模型池中路由任务（如 OpenRouter 所述）。早期用户报告称其可能比 Anthropic 的 Opus 更慢且成本更高。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "startups",
+    "LLMs",
+    "regulation",
+    "multi-agent systems"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bogdiyan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48697958"
+    }
+  ],
+  "originalUrl": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+  "originalSite": "techcrunch.com",
+  "context": "Anthropic 的 Mythos 类 AI 模型专为网络安全和生物学等高级能力设计，因安全担忧和出口禁令受到限制。多代理系统（MAS）涉及多个 AI 代理协同工作；Fugu Ultra 通过将任务路由到专门模型体现了这一方法。",
+  "discussion": "Hacker News 上的用户反馈不一：有人发现 Fugu Ultra 比 Opus 更慢且更昂贵，而其他人指出它并非单一模型而是一个路由系统。对“类似 Mythos”的标签也存在怀疑，因为基准测试可能无法反映实际性能。",
+  "references": [
+    {
+      "title": "Claude Mythos - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos"
+    },
+    {
+      "title": "What is a Multi-Agent System? | IBM",
+      "url": "https://www.ibm.com/think/topics/multiagent-system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

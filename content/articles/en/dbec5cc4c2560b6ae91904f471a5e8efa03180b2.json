@@ -1,0 +1,44 @@
+{
+  "id": "dbec5cc4c2560b6ae91904f471a5e8efa03180b2",
+  "canonicalId": "d1c78cec3dd38bceda29d5fb5f4d9839675e59c3",
+  "slug": "apifox-desktop-clients-compromised-in-supply-chain-attack-via-cdn-script-tampering",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T11:10:00Z",
+  "lang": "en",
+  "title": "Apifox Desktop Clients Compromised in Supply Chain Attack via CDN Script Tampering",
+  "summary": "Apifox desktop clients were compromised in a supply chain attack where attackers tampered with event tracking scripts on the CDN, injecting malicious code that steals SSH keys, Git credentials, shell history, and process lists from affected systems. The attack has been active since March 4, affecting Windows, macOS, and Linux users, with security researcher phith0n independently analyzing the malicious payload. This attack highlights critical vulnerabilities in software supply chains, particularly through CDN dependencies, potentially compromising developer credentials and enabling further lateral movement in networks. As Apifox is widely used for API development, the breach could affect numerous development teams and organizations, underscoring the need for robust security practices in DevOps tools. The malicious code specifically targets sensitive data including SSH keys and Git credentials, with detection possible by checking Network Persistent State files for the domain 'apifox.it.com' or LevelDB entries. Mitigation involves blocking suspicious domains like apifox.it.com, cdn.openroute.dev, and upgrade.feishu.it.com, and reinstalling the latest Apifox version, which no longer requests the malicious domain.",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain-attack",
+    "apifox",
+    "malware",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "http://apifox.it.xn--comcdn-kr3e.openroute.xn--devupgrade-eh3i.feishu.it.com/",
+  "originalSite": "apifox.it.xn--comcdn-kr3e.openroute.xn--devupgrade-eh3i.feishu.it.com",
+  "context": "A supply chain attack involves compromising a trusted component (like a CDN script) to distribute malware to downstream users. CDN scripts are commonly used for loading external resources in applications, but if tampered with, they can inject malicious code. SSH keys and Git credentials are critical for secure access to servers and version control systems, and their theft can lead to unauthorized access and data breaches. LevelDB is a key-value storage system used by applications like Chromium and Electron for persistent data, including network state information.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "More than 100K sites impacted by Polyfill supply chain attack",
+      "url": "https://www.mend.io/blog/more-than-100k-sites-impacted-by-polyfill-supply-chain-attack/"
+    },
+    {
+      "title": "Checkmarx KICS GitHub Action Compromised: Malware ... - StepSecurity",
+      "url": "https://www.stepsecurity.io/blog/checkmarx-kics-github-action-compromised-malware-injected-in-all-git-tags"
+    },
+    {
+      "title": "Hang on! That’s not SQLite! Chrome, Electron and LevelDB - CCL",
+      "url": "https://www.cclsolutionsgroup.com/post/hang-on-thats-not-sqlite-chrome-electron-and-leveldb"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "8447bcf48f5e47f95d6a7e4d8516c0ee7ce8c182",
+  "canonicalId": "afdbbcf9ddbc6722173816a5d555a5cf27e19466",
+  "slug": "现代大语言模型凭借长上下文窗口能有效使用新工具挑战了无聊技术的担忧",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-10T00:00:00Z",
+  "lang": "zh",
+  "title": "现代大语言模型凭借长上下文窗口能有效使用新工具，挑战了'无聊技术'的担忧。",
+  "summary": "Simon Willison 报告称，最新的大语言模型，尤其是在编码智能体框架中使用时，能够有效地处理其训练数据中未包含的全新或私有工具。他通过提示智能体首先阅读 `uvx showboat`、`rodney` 和 `chartroom` 等工具的 `--help` 文档来演示这一点，模型的长上下文窗口使其能够成功理解并使用这些工具。 这挑战了一个主要担忧，即 AI 辅助开发会因偏爱拥有大量训练数据的工具而将行业锁定在成熟的'无聊'技术上。现代智能体适应新工具的能力表明，AI 可以加速创新而非扼杀创新，有可能降低新库和新框架的采用门槛。 Willison 指出，大语言模型*推荐*何种技术是另一个问题，他引用了一项研究，显示 Claude Code 对 GitHub Actions 和 Stripe 等特定工具有强烈偏好。他还强调了'技能'机制日益增长的重要性，像 Remotion 和 Supabase 这样的项目会发布官方技能包，以帮助智能体更有效地与其工具交互。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "Programming",
+    "AI-Assisted Development",
+    "Tooling",
+    "Future of Coding"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 9, 13:37"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "'选择无聊技术'的理念主张在软件项目中选择成熟、易于理解的技术，而非更新、风险更高的替代方案，以降低复杂性和故障点。大语言模型是在海量文本语料上训练的 AI 系统，而'编码智能体'是利用 LLM 来协助或自动化编程任务的应用程序。'上下文窗口'指的是 LLM 在单次交互中能够处理的文本量（以令牌计），更长的窗口使其能够考虑更多信息，例如大量的文档。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Showboat and Rodney, so agents can demo what they’ve built",
+      "url": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/"
+    },
+    {
+      "title": "Two new Showboat tools: Chartroom and datasette-showboat",
+      "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

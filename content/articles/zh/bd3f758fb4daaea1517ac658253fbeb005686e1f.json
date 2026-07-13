@@ -1,0 +1,31 @@
+{
+  "id": "bd3f758fb4daaea1517ac658253fbeb005686e1f",
+  "canonicalId": "fa31b4c2d1a487be56f7b5afde32519444aff45d",
+  "slug": "对缺乏代码和可复现性的机器学习会议论文的批评",
+  "date": "2026-02-25",
+  "publishedAt": "2026-02-25T00:00:00Z",
+  "lang": "zh",
+  "title": "对缺乏代码和可复现性的机器学习会议论文的批评",
+  "summary": "一篇 Reddit 帖子批评了主要机器学习会议接受那些没有附带代码或可复现证据的论文，并引用了一个具体例子：一篇承诺通过 RAG 快速生成蛋白质 MSA 的论文，其链接指向一个空的 GitHub 仓库。该帖子指出这是一个系统性问题，可能导致捏造的结果或方法学错误无法被核查。 这个问题很重要，因为它加剧了机器学习领域的可复现性危机，损害了科学诚信并阻碍了真正的进步。当那些声称在训练成本高昂的模型上取得最先进（SOTA）性能的论文无法被验证时，会浪费社区资源，削弱对已发表研究的信任，并阻碍潜在突破性方法的实际应用。 批评特别提到了那些声称训练了大型模型并展示了 SOTA 结果但不提供代码的论文，由于高昂的计算成本，这使得独立验证无法进行。一个被引用的例子是一篇关于使用 RAG 生成蛋白质 MSA 的论文，它提供了一个指向完全空白的 GitHub 仓库的链接，且作者未就代码发布做出任何回应。",
+  "score": 8,
+  "tags": [
+    "reproducibility",
+    "machine-learning",
+    "academic-research",
+    "open-science",
+    "peer-review"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Feb 24, 10:05"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rdca7x/d_papers_with_no_code/",
+  "originalSite": "reddit.com",
+  "context": "在机器学习中，“SOTA”（State-Of-The-Art，最先进水平）指的是在特定基准任务上当前已知的最佳性能。主要会议通常使用像 OpenReview 这样的平台进行投稿和同行评审。可复现性——即其他研究人员能够使用提供的代码和数据获得相同结果的能力——是科学研究的基石，但在 ML 等计算领域是一个公认的挑战。",
+  "discussion": "社区情绪持强烈批评态度，认为缺乏代码是更深层次的可复现性危机以及学术界职业激励错位的表现。关键观点包括：即使提供了代码也常常无法运行或被混淆；代码的缺失使得无法检测结果是否在统计噪声范围内；一些人认为该领域将职业晋升置于严谨科学之上。几位评论者指出，由于学者并非专业软件开发人员，代码质量通常很差。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "9d8145949bac49a5f33ef78770ad0c88c73b3b56",
+  "canonicalId": "28b73006ce904ad877eeb3732c6dfc3de19a22d2",
+  "slug": "qwen35-9b-released-a-9b-parameter-vision-language-model-with-hybrid-gated-deltanetattention-architecture",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-02T12:33:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-9B Released: A 9B Parameter Vision-Language Model with Hybrid Gated DeltaNet/Attention Architecture",
+  "summary": "The Qwen team has released Qwen3.5-9B, a novel 9-billion parameter vision-language model. It features a hybrid architecture that combines Gated DeltaNet layers with standard Gated Attention layers in an 8 × (3 × (Gated DeltaNet → FFN) → 1 × (Gated Attention → FFN)) pattern and demonstrates strong performance on benchmarks, reportedly surpassing some larger predecessor models. This release is significant because it provides a highly capable, mid-sized model that is efficient enough to run on consumer-grade hardware like 16GB GPUs, making advanced vision-language AI more accessible. Its novel hybrid architecture, which outperforms larger models in some benchmarks, represents a meaningful step forward in model efficiency and design for the open-source AI community. The model natively supports a context length of 262,144 tokens and is extensible up to 1,010,000 tokens. It was trained using multi-step training (MTP), and quantized versions in the GGUF format are already available, which is crucial for deployment on resource-constrained hardware.",
+  "score": 8,
+  "tags": [
+    "large-language-models",
+    "computer-vision",
+    "model-architecture",
+    "open-source",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+  "originalSite": "huggingface.co",
+  "context": "Gated DeltaNet is a recently proposed architecture that combines the gating mechanism from Mamba2 with the delta rule from DeltaNet, aiming to improve upon linear attention models for better efficiency and performance. The GGUF (Generic GPT Unified Format) is a binary file format specifically designed for storing and efficiently running quantized large language models, enabling them to run on less powerful hardware. Multi-step training (MTP) is a technique where models are trained to predict multiple future tokens simultaneously, which can improve inference speed and model generalization.",
+  "discussion": "The community reaction is overwhelmingly positive, with excitement focused on the model's accessibility for users with 16GB GPUs and its surprisingly strong benchmark performance compared to larger models. Key discussion points include requests for various quantization options (\"QUANTS PLEASE\"), questions about which specific quantized version is best for 16GB VRAM, and speculation about the architectural innovations that allow a 9B model to outperform much larger predecessors.",
+  "references": [
+    {
+      "title": "[2412.06464] Gated Delta Networks: Improving Mamba2 with Delta Rule",
+      "url": "https://arxiv.org/abs/2412.06464"
+    },
+    {
+      "title": "Understanding the GGUF Format: A Comprehensive Guide - Medium",
+      "url": "https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256"
+    },
+    {
+      "title": "GitHub - NeuraLiying/ mtp _ train : Multi -token prediction ( MTP ) training ...",
+      "url": "https://github.com/NeuraLiying/mtp_train"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

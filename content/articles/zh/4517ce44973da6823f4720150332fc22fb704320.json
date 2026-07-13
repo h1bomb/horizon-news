@@ -1,0 +1,44 @@
+{
+  "id": "4517ce44973da6823f4720150332fc22fb704320",
+  "canonicalId": "03fcfead514e9946ac3761ce4879b4f24fe18d15",
+  "slug": "2026-年-4-月中旬多个主流-ai-模型被报告出现普遍智能下降",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "lang": "zh",
+  "title": "2026 年 4 月中旬多个主流 AI 模型被报告出现普遍智能下降",
+  "summary": "一位 Reddit 用户在 2026 年 4 月中旬报告称，包括 Claude、Gemini、z.ai 和 Grok 在内的多个主流 AI 模型出现了显著的智能退化，症状包括忽略基本指令、处理简单任务困难、响应缓慢以及输出内容肤浅。用户通过对比在租用 H100 GPU 上运行的 GLM-5 模型与 z.ai 托管版本，发现本地版本表现正常而托管版本失败。 这种潜在的行业性模型退化可能标志着 AI 服务经济模式的转变，提供商正通过激进的量化来优化成本，这可能影响数百万依赖这些服务完成日常任务的用户。如果得到证实，这一趋势可能加速用户转向本地部署和自托管，以寻求稳定的性能表现。 用户特别使用了'开车去洗车'的提示进行测试，并假设提供商可能已将量化降低到 Q2 级别以减少计算成本。测试涉及比较 GLM-5 在租用 H100 GPU 上与 z.ai 托管服务的性能，只有本地版本提供了正确答案。",
+  "score": 8,
+  "tags": [
+    "AI Models",
+    "Model Degradation",
+    "Quantization",
+    "Community Discussion",
+    "LLM Performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 15, 08:40"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sm08m6/major_drop_in_intelligence_across_most_major/",
+  "originalSite": "reddit.com",
+  "context": "量化是一种降低神经网络参数精度（例如从 32 位浮点数降至 8 位或更低的整数）的技术，旨在减少模型大小和推理计算需求。GLM-5 是智谱 AI 最新的开源语言模型系列，专为复杂系统工程和长视野智能体任务设计。NVIDIA H100 GPU 是专为大型语言模型推理优化的高性能加速器，配备了专用的 Transformer 引擎和张量核心。",
+  "discussion": "社区讨论集中在潜在原因上，许多人认为提供商在财务压力下通过激进的量化来降低成本。几位用户提出了动态量化策略的可能性，即模型可能根据用户行为或时间段被选择性降级。整体情绪倾向于对托管服务持怀疑态度并倡导自托管，用户分享了搭建个人服务器以保持模型性能一致的经验。",
+  "references": [
+    {
+      "title": "Quantization for Neural Networks - Lei Mao's Log Book",
+      "url": "https://leimao.github.io/article/Neural-Networks-Quantization/"
+    },
+    {
+      "title": "GLM - 5 - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/llm/glm-5"
+    },
+    {
+      "title": "H100 GPU | NVIDIA",
+      "url": "https://www.nvidia.com/en-us/data-center/h100/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

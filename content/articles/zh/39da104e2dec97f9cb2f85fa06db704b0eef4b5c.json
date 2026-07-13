@@ -1,0 +1,37 @@
+{
+  "id": "39da104e2dec97f9cb2f85fa06db704b0eef4b5c",
+  "canonicalId": "a473463326805da921293d1ac38a9131309dd383",
+  "slug": "以-postgres-为基础构建持久化工作流",
+  "date": "2026-05-29",
+  "publishedAt": "2026-05-28T18:41:00Z",
+  "lang": "zh",
+  "title": "以 Postgres 为基础构建持久化工作流",
+  "summary": "DBOS 发布了一篇博客，主张仅用 Postgres 就能构建持久化工作流执行，将其作为 Temporal 等专用工作流引擎的更简单替代方案。 这一提议可能通过减少依赖来简化系统架构，但也引发了关于可扩展性与成熟平台功能对等性的疑问。评估工作流解决方案的工程师必须权衡以数据库为中心的方法与专用服务之间的利弊。 DBOS 依赖一个名为 Conductor 的付费组件来实现扩展和恢复，一些社区成员认为这是一个限制。还存在 Armin Ronacher 的 absurd 和 River 等替代方案，每个方案都有自己的权衡，例如 River 的免费版本缺少死信队列支持。",
+  "score": 8,
+  "tags": [
+    "durable workflows",
+    "Postgres",
+    "database",
+    "engineering",
+    "temporal"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "KraftyOne",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48313530"
+    }
+  ],
+  "originalUrl": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+  "originalSite": "dbos.dev",
+  "context": "持久化工作流通过持久化状态确保长时间运行的过程在故障后仍能继续。像 Temporal 这样的专用工作流引擎提供了这些能力，但增加了基础设施的复杂性。DBOS 的博客认为，已经广泛用于数据存储的 Postgres 可以作为数据和工作流状态的单一事实来源，从而消除对单独引擎的需求。",
+  "discussion": "评论者指出 DBOS 依赖付费的 Conductor 组件是阻碍因素。一些人分享了他们自己使用 Postgres 和其他后端实现的轻量级方案，而另一些人则讨论了 DBOS、Temporal、absurd 和 River 之间的权衡，突出了诸如负载大小限制和缺失功能等问题。",
+  "references": [
+    {
+      "title": "Durable Execution Solutions | Temporal",
+      "url": "https://temporal.io/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

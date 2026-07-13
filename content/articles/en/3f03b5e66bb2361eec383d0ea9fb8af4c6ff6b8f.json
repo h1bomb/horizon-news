@@ -1,0 +1,45 @@
+{
+  "id": "3f03b5e66bb2361eec383d0ea9fb8af4c6ff6b8f",
+  "canonicalId": "89ba061638f426a104f0f79a95d37eefca749208",
+  "slug": "xiaomi-open-sources-mimo-code-an-ai-coding-assistant",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T14:27:00Z",
+  "lang": "en",
+  "title": "Xiaomi Open-Sources MiMo Code, an AI Coding Assistant",
+  "summary": "Xiaomi has released MiMo Code, an open-source, terminal-native AI coding assistant forked from OpenCode, featuring persistent memory and subagent orchestration. This open-source release signals a shift toward community-driven AI coding tools, reducing vendor lock-in and challenging closed-source alternatives like Claude Code. MiMo Code retains all core OpenCode capabilities (multiple providers, TUI, LSP, MCP, plugins) and adds persistent memory, intelligent context management, subagent orchestration, goal-driven autonomous loops, compose workflows, and self-improvement via dream/distill.",
+  "score": 8,
+  "tags": [
+    "AI coding assistant",
+    "open-source",
+    "Xiaomi",
+    "software engineering",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "apeters",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48490826"
+    }
+  ],
+  "originalUrl": "https://mimo.xiaomi.com/mimocode",
+  "originalSite": "mimo.xiaomi.com",
+  "context": "OpenCode is a popular open-source AI coding agent with over 160,000 GitHub stars, used by millions of developers. Persistent memory enables coding assistants to remember project context across sessions, while subagent orchestration allows a coordinator agent to delegate tasks to specialized worker agents.",
+  "discussion": "The community largely applauds the open-source release, noting it aligns with the need for open alternatives to closed-source tools. Users highlighted the advanced features and praised Xiaomi's progress in AI, though some suggested linking directly to the GitHub repository.",
+  "references": [
+    {
+      "title": "OpenCode | The open source AI coding agent",
+      "url": "https://opencode.ai/"
+    },
+    {
+      "title": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "title": "Subagents in Visual Studio Code",
+      "url": "https://code.visualstudio.com/docs/agents/subagents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

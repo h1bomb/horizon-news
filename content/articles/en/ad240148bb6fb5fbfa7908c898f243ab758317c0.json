@@ -1,0 +1,44 @@
+{
+  "id": "ad240148bb6fb5fbfa7908c898f243ab758317c0",
+  "canonicalId": "d847d4524c3b8f334024579daa200db52e43c3e4",
+  "slug": "vercels-2026-oauth-breach-exposes-platform-environment-variables-via-ai-tool",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-21T17:14:00Z",
+  "lang": "en",
+  "title": "Vercel's 2026 OAuth breach exposes platform environment variables via AI tool",
+  "summary": "In April 2026, Vercel experienced a security breach where an attacker used an OAuth attack through an AI tool called ContextAI to access platform environment variables, which contained sensitive configuration data. The breach was linked to a Vercel employee granting excessive permissions to the AI tool, allowing lateral movement within the system. This incident highlights critical supply chain risks when third-party AI tools are integrated without proper security controls, potentially affecting thousands of developers and companies relying on Vercel's platform. It demonstrates how OAuth vulnerabilities combined with human error can lead to significant data exposure in cloud-native environments. The attack exploited OAuth misconfigurations where the AI tool requested broad access to Google Workspace services, and Vercel's environment variable management initially lacked a 'sensitive' flag for proper protection. Security researchers noted this was a relatively basic exploit that succeeded due to insufficient vendor risk assessment and enforcement of AI tool policies.",
+  "score": 8,
+  "tags": [
+    "security",
+    "OAuth",
+    "supply-chain",
+    "Vercel",
+    "AI-risk"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "queenelvis"
+    }
+  ],
+  "originalUrl": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
+  "originalSite": "trendmicro.com",
+  "context": "OAuth 2.0 is an authorization framework commonly used for third-party application access, but it's prone to implementation mistakes that can allow attackers to obtain sensitive data. Environment variables are configuration values stored outside application code, often containing secrets like API keys and database passwords that require secure management. Supply chain risks in software development refer to vulnerabilities introduced through third-party components or tools that can compromise entire systems.",
+  "discussion": "Community discussion revealed concerns about AI tool security practices, with users questioning why Vercel allowed such broad OAuth permissions and noting the platform's delayed implementation of sensitive environment variable protection. Some commenters criticized the attribution of the attack's speed to AI augmentation as speculative, while others warned this represents a growing trend of AI-enabled security threats in corporate environments.",
+  "references": [
+    {
+      "title": "OAuth 2.0 authentication vulnerabilities - PortSwigger",
+      "url": "https://portswigger.net/web-security/oauth"
+    },
+    {
+      "title": "Analyzing the Hidden Danger of Environment Variables for Keeping Secrets | Trend Micro (US)",
+      "url": "https://www.trendmicro.com/en_us/research/22/h/analyzing-hidden-danger-of-environment-variables-for-keeping-secrets.html"
+    },
+    {
+      "title": "How to Manage Software Supply Chain Risks",
+      "url": "https://www.informationweek.com/software-services/how-to-manage-software-supply-chain-risks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

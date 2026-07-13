@@ -1,0 +1,44 @@
+{
+  "id": "b58098c1e91e1ee37eda3b0e3f72fb41fe86b6c9",
+  "canonicalId": "a9bdbf5901acc74f1f9ced008edd999f65b24ab3",
+  "slug": "icml-reviewer-discovers-fully-ai-generated-paper-submission",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-11T12:19:00Z",
+  "lang": "en",
+  "title": "ICML Reviewer Discovers Fully AI-Generated Paper Submission",
+  "summary": "A reviewer for the International Conference on Machine Learning (ICML) reported receiving a paper to review that appears fully AI-generated, despite the conference's policy prohibiting the use of LLM assistants for writing or reviewing submissions. The reviewer described the paper as reading like a 'twitter hype-train type of thread' and questioned whether to flag it to the area chair. This incident highlights growing challenges in academic integrity as AI tools become more prevalent, potentially undermining peer review processes and research quality in top-tier conferences like ICML. It sparks debate on how to enforce policies against AI-generated content and whether such submissions should be rejected solely based on policy violations or evaluated for technical merit. The paper was submitted to an ICML track that explicitly prohibits LLM assistance for writing or reviewing, as per the conference's guidelines, which include policies on generative AI tools. The reviewer noted the writing style was annoying and hype-driven, raising concerns about the paper's authenticity and adherence to submission rules.",
+  "score": 8,
+  "tags": [
+    "AI Ethics",
+    "Academic Publishing",
+    "Peer Review",
+    "LLM Policy",
+    "Research Integrity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "pagggga"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rqs7gd/d_icml_paper_to_review_is_fully_ai_generated/",
+  "originalSite": "reddit.com",
+  "context": "ICML is a leading conference in machine learning that uses a double-blind peer review process, where papers are evaluated anonymously by experts. The conference has specific policies on the use of generative AI tools, including LLMs, in submissions and reviews, as outlined in its Author Instructions and Call for Papers. AI-generated content in academic publishing is a rising concern, with debates on ethics and detection methods, as seen in recent studies and incidents like AI-written peer reviews or fabricated images in papers.",
+  "discussion": "Community comments generally support rejecting the paper due to policy violation, with users advising to report it to the area chair, give a low score, and move on. Some argue that if the research is good, it might still be worth reviewing technically, but most emphasize that breaking the no-LLM policy is sufficient grounds for rejection. A minority viewpoint suggests that AI-assisted writing is valid if not explicitly banned, but this is countered by references to ICML's specific guidelines.",
+  "references": [
+    {
+      "title": "ICML 2026 Author Instructions",
+      "url": "https://icml.cc/Conferences/2026/AuthorInstructions"
+    },
+    {
+      "title": "ICML 2026 Call for Papers",
+      "url": "https://icml.cc/Conferences/2026/CallForPapers"
+    },
+    {
+      "title": "Scientists aghast at bizarre AI rat with huge genitals in peer - reviewed ...",
+      "url": "https://arstechnica.com/science/2024/02/scientists-aghast-at-bizarre-ai-rat-with-huge-genitals-in-peer-reviewed-article/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

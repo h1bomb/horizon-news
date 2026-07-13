@@ -1,0 +1,41 @@
+{
+  "id": "250028f7651f014d484fba699bcbde13ca57ef1c",
+  "canonicalId": "693436487620f72169cfe3a82b957e4629bff9ac",
+  "slug": "80386-microcode-disassembled-in-detail",
+  "date": "2026-05-24",
+  "publishedAt": "2026-05-23T12:11:00Z",
+  "lang": "en",
+  "title": "80386 Microcode Disassembled in Detail",
+  "summary": "A detailed disassembly of the Intel 80386's microcode has been published, revealing the internal control logic of this classic 32-bit processor. This reverse engineering achievement provides unprecedented insight into the design of a foundational CPU, benefiting retrocomputing enthusiasts and computer architecture researchers alike. The disassembly likely involved analyzing high-resolution die photographs and reconstructing the microcode ROM contents; the 80386 uses microprogramming to implement its x86 instruction set.",
+  "score": 8,
+  "tags": [
+    "reverse engineering",
+    "CPU microcode",
+    "80386",
+    "computer architecture",
+    "retrocomputing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nand2mario",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48247004"
+    }
+  ],
+  "originalUrl": "https://www.reenigne.org/blog/80386-microcode-disassembled/",
+  "originalSite": "reenigne.org",
+  "context": "Microcode is a low-level layer of instructions that controls a CPU's internal operations, acting as an interpreter for machine code. The Intel 80386, released in 1985, was the first 32-bit processor in the x86 line and a cornerstone of modern computing. Disassembling its microcode is a highly complex reverse engineering task that requires deep knowledge of the chip's layout and logic.",
+  "discussion": "Commenters expressed admiration for the reverse engineering effort, with some asking about the technical process of extracting microcode from die images. Related projects like z386, an open-source 80386 built around original microcode, were also mentioned.",
+  "references": [
+    {
+      "title": "Microcode - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Microcode"
+    },
+    {
+      "title": "Intel 80386",
+      "url": "https://en.wikipedia.org/wiki/Intel_80386"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "a8cdd64e6c271e987dd05208c6bc2f045dc7390b",
+  "canonicalId": "8a4be69ea9e3ede38fcded3bab9cd19936d43828",
+  "slug": "amd-removes-linux-support-from-free-vivado-tier",
+  "date": "2026-05-25",
+  "publishedAt": "2026-05-24T04:14:00Z",
+  "lang": "en",
+  "title": "AMD Removes Linux Support from Free Vivado Tier",
+  "summary": "AMD's Vivado 2026.1 drops Linux support for the free (Basic/WebPACK) tier, while retaining it for paid editions. This change has sparked widespread backlash in the FPGA developer community. This decision alienates students, hobbyists, and developers who rely on Linux, potentially shrinking the FPGA ecosystem and driving users to competitors like Lattice or Intel. It undermines community goodwill that Xilinx had built before the AMD acquisition. The free Vivado tier (formerly WebPACK) is permanently free for supported devices, but version 2026.1 restricts it to Windows only. Paid editions (Standard, Enterprise) continue to support Linux.",
+  "score": 8,
+  "tags": [
+    "FPGA",
+    "AMD/Xilinx",
+    "Vivado",
+    "Linux",
+    "Community backlash"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zdw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48254309"
+    }
+  ],
+  "originalUrl": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
+  "originalSite": "adaptivesupport.amd.com",
+  "context": "Vivado is AMD's FPGA design suite, offering free and paid tiers. The free WebPACK edition has long been a gateway for students and hobbyists to learn and develop on AMD FPGAs. Linux support is critical for many developers, especially in academic and open-source environments. Removing it from the free tier threatens accessibility and community growth.",
+  "discussion": "Community sentiment is overwhelmingly negative. Users express frustration that AMD ignores the real issue—Linux removal—while answering unasked questions. Long-time AMD users and educators plan to switch to competitors like Lattice. Some note parallels to Intel's acquisition of Altera, which also shuttered community forums.",
+  "references": [
+    {
+      "title": "Design Smarter FPGAs with the Vivado FPGA Design Suite –",
+      "url": "https://ebics.net/vivado-fpga/"
+    },
+    {
+      "title": "Vivado WebPACK vs Standard vs Enterprise: Which Edition Do ...",
+      "url": "https://pcbsync.com/xilinx-vivado-editions/"
+    },
+    {
+      "title": "Vivado WebPack Download",
+      "url": "https://adaptivesupport.amd.com/s/question/0D52E00006hpVwQSAU/vivado-webpack-download?language=en_US"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

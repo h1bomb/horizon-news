@@ -1,0 +1,40 @@
+{
+  "id": "9a0d11491323a1fe96d489044174a0035679d81f",
+  "canonicalId": "4eb03014e2a9fc6f1b98a1ccf3bacf1d12b49ac8",
+  "slug": "vllm-v0250-默认启用-model-runner-v2",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T20:06:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.25.0 默认启用 Model Runner V2",
+  "summary": "vLLM v0.25.0 将 Model Runner V2 设为所有稠密模型的默认运行路径，移除了旧版 PagedAttention 实现，并使 Transformers 建模后端的性能与原生 vLLM 持平。 此次发布是一次重大的架构改革，简化了代码库，消除了技术债务，并扩展了模型支持，以更高的性能和兼容性惠及 LLM 推理社区。 该版本包含来自 232 位贡献者的 558 次提交，新增了 LLaVA-OneVision-2 和 GLM-5 等模型，并引入了用于工具调用/推理解析的全新流式解析引擎。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "vLLM",
+    "inference",
+    "open-source",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个开源的高吞吐量 LLM 推理引擎。Model Runner V2 采用模块化设计和 GPU 原生内核重建了执行核心，取代了旧的 V1 后端。PagedAttention 曾是一项关键的内存管理优化技术，但已被 V2 的改进所取代。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model Runner V2: A Modular and Faster Core for vLLM | vLLM Blog",
+      "url": "https://vllm.ai/blog/2026-03-24-mrv2"
+    },
+    {
+      "title": "Model Runner V2 Design Document - vLLM",
+      "url": "https://docs.vllm.ai/en/v0.22.1/design/model_runner_v2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

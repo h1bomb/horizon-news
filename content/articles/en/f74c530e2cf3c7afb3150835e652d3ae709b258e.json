@@ -1,0 +1,41 @@
+{
+  "id": "f74c530e2cf3c7afb3150835e652d3ae709b258e",
+  "canonicalId": "9d54ae6bb718efc4ec5cfa7b385c3f33ce86b0a3",
+  "slug": "zeroserve-a-zero-config-web-server-with-ebpf-scripting",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T14:59:00Z",
+  "lang": "en",
+  "title": "Zeroserve: A zero-config web server with eBPF scripting",
+  "summary": "Zeroserve is introduced as a zero-configuration web server that uses eBPF for scripting, offering an alternative to traditional servers like nginx and Caddy. It is built in Rust and allows users to write eBPF programs in C to handle HTTP requests. This approach shifts web server configuration from declarative languages to programmable eBPF, enabling high-performance, flexible request handling. It could simplify deployment and open new possibilities for low-latency web serving, though it may have a steeper learning curve. Zeroserve is single-threaded and focuses on static file serving, with community suggestions to explore multi-threading via SO_REUSEPORT and integration with other eBPF program types like XDP. The project's design bet is on configuration paradigm rather than performance alone.",
+  "score": 8,
+  "tags": [
+    "eBPF",
+    "web server",
+    "zero-config",
+    "Rust",
+    "networking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "losfair",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48425723"
+    }
+  ],
+  "originalUrl": "https://su3.io/posts/introducing-zeroserve",
+  "originalSite": "su3.io",
+  "context": "eBPF (extended Berkeley Packet Filter) is a Linux kernel technology that allows running sandboxed programs in kernel space, traditionally used for networking, observability, and security. Web servers like nginx and Caddy use declarative config files, whereas Zeroserve uses eBPF programs (written in C) to define request handling logic, potentially allowing direct kernel interaction for performance gains.",
+  "discussion": "Commenters expressed interest in the concept, with some noting the missed opportunity for a Rust-based eBPF script interface. Others highlighted the impressive performance of nginx and questioned the focus on static files given modern trends. There was also discussion about the potential for kernel-accelerated web serving using eBPF, though the current implementation is userspace.",
+  "references": [
+    {
+      "title": "eBPF - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EBPF"
+    },
+    {
+      "title": "What is eBPF? An Introduction and Deep Dive into the eBPF ...",
+      "url": "https://ebpf.io/what-is-ebpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

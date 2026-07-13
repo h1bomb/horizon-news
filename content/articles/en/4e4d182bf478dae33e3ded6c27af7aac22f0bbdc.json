@@ -1,0 +1,40 @@
+{
+  "id": "4e4d182bf478dae33e3ded6c27af7aac22f0bbdc",
+  "canonicalId": "29267be46fe9ea0952e92b3104303c39abefea01",
+  "slug": "google-launches-android-task-automation-framework-enabling-gemini-to-control-third-party-apps",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-26T04:35:00Z",
+  "lang": "en",
+  "title": "Google Launches Android Task Automation Framework, Enabling Gemini to Control Third-Party Apps",
+  "summary": "Google has announced an Android task automation framework that allows its Gemini AI assistant to directly control third-party applications like Uber and Grubhub. The framework combines a new AppFunctions API for Android 16 with UI automation capabilities, enabling both developer-integrated and AI-driven automated interactions. This represents a significant evolution of the Android platform, transforming AI assistants from passive information providers into active agents that can complete real-world tasks across multiple applications. It could fundamentally change how users interact with their devices, enabling complex multi-app workflows through natural language commands. The framework uses a dual approach: for apps that integrate the AppFunctions API, Gemini can directly call specific functions; for non-integrated apps, Gemini will use UI automation to identify and interact with interface elements. The preview is initially available on Pixel 10 series and Samsung Galaxy S26 series with OneUI 8.5 in the US and South Korea, with broader rollout planned for Android 17.",
+  "score": 8,
+  "tags": [
+    "Android",
+    "AI-Agents",
+    "Automation",
+    "Mobile-Development",
+    "Google-Gemini"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://9to5google.com/2026/02/25/android-appfunctions-gemini/",
+  "originalSite": "9to5google.com",
+  "context": "The AppFunctions API is a new developer interface in Android 16 that allows apps to expose specific functions to external systems, similar in concept to Anthropic's Model Context Protocol (MCP) which provides a standard way for AI applications to connect to external data sources and tools. UI automation frameworks on Android, like those used for testing, enable programmatic interaction with app interfaces by simulating user actions such as taps and swipes. Together, these technologies create a comprehensive system for AI-driven task automation on mobile devices.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model Context Protocol",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+    },
+    {
+      "title": "Automate UI tests | Test your app on Android",
+      "url": "https://developer.android.com/training/testing/ui-tests"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

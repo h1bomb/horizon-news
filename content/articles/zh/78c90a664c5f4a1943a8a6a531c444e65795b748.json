@@ -1,0 +1,44 @@
+{
+  "id": "78c90a664c5f4a1943a8a6a531c444e65795b748",
+  "canonicalId": "29530e98bb4f4272bb3a231f50040735372a3e4a",
+  "slug": "qwen-35-08b-多模态模型通过-webgpu-和-transformersjs-在浏览器中本地运行",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.5 0.8B 多模态模型通过 WebGPU 和 Transformers.js 在浏览器中本地运行",
+  "summary": "一位开发者创建了一个演示，利用 WebGPU API 和 Transformers.js 库，在 Web 浏览器中完全本地化地运行了 Qwen 3.5 0.8B 多模态模型。这是在 Qwen 3.5 Small 模型系列发布之后实现的，该系列包含多个为端侧应用设计的参数量版本（0.8B、2B、4B、9B）。 这证明了无需依赖云服务器，直接在用户设备上运行复杂的多模态 AI 模型的可行性，从而增强了隐私性、降低了延迟，并使 AI 功能在离线或低连接性场景中成为可能。它展示了先进浏览器 API 与高效模型架构的融合，正在拓展 Web 应用中端侧 AI 能力的边界。 该演示的主要性能瓶颈在于模型的视觉编码器组件。开发者指出，虽然这是一个限制，但模型能够运行本身就是一个重要的成就。该演示可以在线公开访问，所使用的具体模型变体是新发布的 Qwen 3.5 Small 系列的一部分。",
+  "score": 7,
+  "tags": [
+    "WebGPU",
+    "On-Device AI",
+    "Multimodal Models",
+    "Browser ML",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 17:46"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/hta9o2i95omg1",
+  "originalSite": "v.redd.it",
+  "context": "WebGPU 是一个现代 Web API，它提供对设备图形处理器（GPU）的低层级、高性能访问，用于通用计算和图形处理，使得机器学习推理等复杂任务可以直接在浏览器中运行。Transformers.js 是 Hugging Face 推出的一个 JavaScript 库，它将流行的 Python transformers 库的功能移植到浏览器中，允许预训练的 AI 模型在客户端运行而无需服务器。Qwen 3.5 是阿里云推出的一系列多模态大语言模型（VLM），能够处理和理解文本与图像，其中的 'Small' 变体专门针对在消费级硬件上的高效部署进行了优化。",
+  "discussion": "讨论中包含技术见解和故障排查。一位评论者指出视觉编码器是 WebGPU 的常见瓶颈，并建议使用通过 llama.cpp 的 WebAssembly 端口运行的量化 GGUF 模型作为替代方案以获得更好性能。其他评论包括用户报告演示中“开始”按钮无响应、请求查看源代码，以及询问具体使用了哪个 Qwen 变体，此外还有一些幽默或离题的言论。",
+  "references": [
+    {
+      "title": "WebGPU API - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API"
+    },
+    {
+      "title": "Transformers.js - Hugging Face",
+      "url": "https://huggingface.co/docs/transformers.js/en/index"
+    },
+    {
+      "title": "Qwen 3.5 Explained: Architecture, Upgrades Over Qwen 3, Benchmarks, and Real‑World Use Cases | by Sai Dheeraj Gummadi | Mar, 2026 | Medium",
+      "url": "https://medium.com/@gsaidheeraj/qwen-3-5-explained-architecture-upgrades-over-qwen-3-benchmarks-and-real-world-use-cases-af38b01e9888"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

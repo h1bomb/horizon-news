@@ -1,0 +1,32 @@
+{
+  "id": "b255443be2f12fc4c9e2ab3ad92fc9b4544d4935",
+  "canonicalId": "a81f6aca47bf06b0438a126a14122d7224baabec",
+  "slug": "railway-details-gcp-suspension-plans-to-reduce-dependency",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T08:37:00Z",
+  "lang": "en",
+  "title": "Railway Details GCP Suspension, Plans to Reduce Dependency",
+  "summary": "Railway published an incident report on May 19, 2026, detailing how a Google Cloud account suspension caused a major service disruption, and announced plans to remove Google Cloud services from their data plane's hot path. This incident underscores the risks of relying on a single cloud provider, especially one known for arbitrary account suspensions, prompting Railway and potentially others to rethink vendor lock-in and infrastructure resilience. The report includes a timeline of events and Railway's admission that they should have anticipated this failure; they now plan to keep GCP only for secondary/failover purposes.",
+  "score": 8,
+  "tags": [
+    "Google Cloud",
+    "incident report",
+    "cloud reliability",
+    "vendor lock-in",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "0xedb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48204770"
+    }
+  ],
+  "originalUrl": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
+  "originalSite": "blog.railway.com",
+  "context": "Railway is a cloud platform that likely used Google Cloud for critical infrastructure. Google Cloud Platform (GCP) has a history of suspending accounts for policy violations, sometimes affecting legitimate businesses. Vendor lock-in occurs when a company becomes overly dependent on a single provider, making it difficult to switch. This incident highlights the operational risks of such dependency.",
+  "discussion": "Commenters expressed strong criticism of GCP's arbitrary account suspensions and lack of trust, with one noting that 'Google can no longer be trusted as a B2B service provider.' Railway's candid acknowledgment and plan to reduce dependency were praised, though some questioned the unrevealed root cause for the suspension.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

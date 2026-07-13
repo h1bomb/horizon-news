@@ -1,0 +1,44 @@
+{
+  "id": "ddbebfd75f37bf228a7e3d6f9ec26a884e653621",
+  "canonicalId": "5a97aebdce0f318784d76582414d138f2018f6cf",
+  "slug": "exelbierd-analyzes-sashiko-llm-review-tools-bi-modal-bug-detection-patterns",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T13:27:00Z",
+  "lang": "en",
+  "title": "Exelbierd analyzes Sashiko LLM review tool's bi-modal bug detection patterns",
+  "summary": "Brian Exelbierd published a blog post analyzing the Sashiko LLM-based code review tool, finding that its reviews exhibit a bi-modal pattern: most reviews do not report on pre-existing bugs in surrounding code, but those that do often contain multiple such comments. He tested hypotheses that Sashiko flags pre-existing bugs in code touched by patches and that the same bugs can surface repeatedly across reviews. This matters because it highlights potential inefficiencies and noise in automated code review systems, which could burden patch authors with irrelevant bug reports and clutter mailing lists with duplicate findings. Understanding these patterns is crucial for improving LLM-based tools in open-source software development, where efficient review processes are essential for maintaining code quality and developer productivity. Exelbierd used data from Sashiko's public API to test his hypotheses, focusing on how the tool's protocol instructs the LLM to read surrounding code beyond just the diff. Sashiko is designed for Linux kernel-specific reviews and can work with various LLM providers, though it has been most tested with Gemini Pro 3.1.",
+  "score": 7,
+  "tags": [
+    "code-review",
+    "LLM-tools",
+    "software-engineering",
+    "bug-detection",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065971/",
+  "originalSite": "lwn.net",
+  "context": "Sashiko is an LLM-based tool for reviewing Linux kernel code changes, using a protocol that analyzes not only the patch diff but also surrounding code to identify potential issues. LLM-based code review tools aim to automate parts of the review process by detecting bugs, style violations, or other problems, but their effectiveness and impact on developer workflows are still being evaluated. The tool has sparked recent debate in the memory-management subsystem community, prompting further analysis of its behavior and outputs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - sashiko-dev/sashiko: Agentic review of Linux Kernel ...",
+      "url": "https://github.com/sashiko-dev/sashiko"
+    },
+    {
+      "title": "Exelbierd: What's actually in a Sashiko review? [LWN.net]",
+      "url": "https://lwn.net/Articles/1065971/"
+    },
+    {
+      "title": "Linux kernel engineer introduces Sashiko code review system",
+      "url": "https://www.theregister.com/2026/03/20/sashiko_code_review_linux/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

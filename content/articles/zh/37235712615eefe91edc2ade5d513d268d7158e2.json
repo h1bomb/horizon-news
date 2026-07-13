@@ -1,0 +1,44 @@
+{
+  "id": "37235712615eefe91edc2ade5d513d268d7158e2",
+  "canonicalId": "164bf0b006555f75b3226b2056e4989118218c94",
+  "slug": "github-copilot-个人版计划重大调整限制收紧价格重组",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub Copilot 个人版计划重大调整：限制收紧、价格重组",
+  "summary": "GitHub 宣布对其 Copilot 个人版计划进行重大调整，包括收紧使用限制、暂停个人版新用户注册，并重组价格层级，将 Claude Opus 4.7 模型的访问权限限制在每月 39 美元的 \"Pro+\" 高级计划中，同时完全移除了之前的 Opus 模型。 这些调整直接影响数百万依赖 GitHub Copilot 进行 AI 辅助编程的开发者，反映了智能体工作流不断上升的计算成本，并预示着 AI 编程助手行业向基于令牌的定价模式转变的广泛趋势。 这些调整具体影响 GitHub Copilot CLI、云端智能体、GitHub.com 上的代码审查功能，以及 VS Code、Zed 和 JetBrains 中的 IDE 集成，并引入了基于令牌的会话级和每周使用限制，以应对智能体编程会话的高计算需求。",
+  "score": 7,
+  "tags": [
+    "GitHub Copilot",
+    "AI Coding Assistants",
+    "Pricing Changes",
+    "Software Development Tools",
+    "Industry News"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 22, 03:30"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "GitHub Copilot 是由 GitHub 和 Microsoft 开发的 AI 编程助手，通过建议代码补全和完整函数来帮助开发者更快地编写代码。智能体工作流指的是能够自主执行复杂多步骤任务（如代码生成和审查）的 AI 系统，其消耗的计算资源远高于简单的代码补全。Claude Opus 是 Anthropic 最先进的 AI 模型系列，其中 4.7 版本在软件工程能力方面有显著提升。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Claude Opus 4.7 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "title": "The Rise of Agentic Workflows in Enterprise AI Development",
+      "url": "https://www.qodo.ai/blog/agentic-workflows-in-ai-development/"
+    },
+    {
+      "title": "Plans for GitHub Copilot - GitHub Docs",
+      "url": "https://docs.github.com/en/copilot/get-started/plans"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

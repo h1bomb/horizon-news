@@ -1,0 +1,44 @@
+{
+  "id": "8bbe9f69378e10bb5437b7cdb96f199c34dbc7a5",
+  "canonicalId": "ac56a85bf077ab2b66e3399b02c0d8eed2f4e51c",
+  "slug": "wasserstein-metric-fixes-tensor-drift-in-quantized-qwen36-35b-a3b-gguf-models",
+  "date": "2026-04-19",
+  "publishedAt": "2026-04-18T16:42:00Z",
+  "lang": "en",
+  "title": "Wasserstein metric fixes tensor drift in quantized Qwen3.6-35B-A3B GGUF models",
+  "summary": "A Reddit user discovered and fixed tensor drift in the SSM layers of quantized Qwen3.6-35B-A3B GGUF models using the Wasserstein metric (W1), which proved more effective than Kullback-Leibler divergence for detecting numerical instability. The fix specifically addresses three ssm_conv1d.weight layers (blocks 36-38) and a corrected model has been published on Hugging Face. This matters because tensor drift in quantized models can degrade performance and reliability, particularly in SSM layers crucial for long-context memory in state-space models. The Wasserstein-based approach offers a more robust debugging tool for quantization issues, potentially improving stability across various quantized LLMs and benefiting developers working with resource-constrained deployments. The fix reduced Wasserstein distance (W1) values from 0.0038-0.0040 to 0.0006-0.0009 for the affected layers, while other tensors remained healthy. The corrected model is based on HauhauCS's Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive version and recommends Q4_K_P quantization for optimal performance.",
+  "score": 8,
+  "tags": [
+    "Quantization",
+    "Numerical Stability",
+    "LLM Optimization",
+    "Wasserstein Metric",
+    "Model Debugging"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "EvilEnginer"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sp2l72/qwen3635ba3buncensoredwassersteingguf/",
+  "originalSite": "reddit.com",
+  "context": "GGUF (GGML Universal Format) is a file format for running large language models on consumer hardware by compressing weights to reduce file size and speed up inference, though quantization can introduce numerical instability. State-space models (SSMs) are architectures used in some transformers for handling long-context sequences, with SSM layers like ssm_conv1d managing state transitions. The Wasserstein metric (W1) is a mathematical tool for comparing probability distributions, often applied in machine learning to measure differences between data distributions or model outputs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Wasserstein metric - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wasserstein_metric"
+    },
+    {
+      "title": "GGUF Quantization Explained — Q4_K_M vs Q5_K_M vs Q8: VRAM ...",
+      "url": "https://willitrunai.com/blog/quantization-guide-gguf-explained"
+    },
+    {
+      "title": "[2405.21060] Transformers are SSMs: Generalized Models and",
+      "url": "https://arxiv.org/abs/2405.21060"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

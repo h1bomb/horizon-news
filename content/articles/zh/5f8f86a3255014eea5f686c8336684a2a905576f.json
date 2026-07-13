@@ -1,0 +1,40 @@
+{
+  "id": "5f8f86a3255014eea5f686c8336684a2a905576f",
+  "canonicalId": "23302509b81ae3d04d51bc712fd74347497de2f5",
+  "slug": "ietf-探索后量子密码学用于-https-证书以应对量子计算威胁",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-12T00:00:00Z",
+  "lang": "zh",
+  "title": "IETF 探索后量子密码学用于 HTTPS 证书以应对量子计算威胁",
+  "summary": "IETF 成立了一个新的工作组，研究在 HTTPS 证书的认证和证书透明度中采用后量子密码学，以应对证书尺寸可能比传统证书大 40 倍左右的挑战。这项工作建立在 IETF 先前专注于后量子密钥交换的努力基础上，旨在开发可能同时有益于传统证书效率的技术。 这很重要，因为量子计算机最终可能破解当前的加密算法，威胁互联网通信安全，而 IETF 的标准化工作对于为互联网基础设施应对这一未来威胁至关重要。研究减少证书尺寸开销的技术可能同时有益于抗量子系统和传统系统，有望改善整体互联网性能和安全性。 像 ML-DSA-44 这样的后量子签名方案产生的签名尺寸可比传统算法如 Ed25519 大 37 倍，这可能导致证书链比实际网站内容还要大，特别是对于文本密集型网站。虽然密钥交换机制需要抗量子性来防止'现在存储，以后解密'攻击，但认证机制主要需要防御当前计算机，因为以后泄露认证密钥不会影响当前连接的正确性。",
+  "score": 8,
+  "tags": [
+    "Cybersecurity",
+    "Post-Quantum Cryptography",
+    "HTTPS",
+    "IETF",
+    "Internet Standards"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 11, 13:26"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1060941/",
+  "originalSite": "lwn.net",
+  "context": "后量子密码学指的是设计用于抵御量子计算机攻击的加密算法，量子计算机可能破解广泛使用的公钥算法如 RSA 和 ECC，这些算法依赖于可通过量子算法如 Shor 算法解决的数学问题。HTTPS 证书使用数字签名来认证网站，通常涉及从网站通过中间证书颁发机构到根证书的签名链，证书透明度日志提供证书颁发的额外验证。IETF（互联网工程任务组）制定和推广自愿性互联网标准，特别是 HTTPS 中使用的协议，HTTPS 将 HTTP 与 TLS/SSL 加密结合以保护网络通信安全。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Post-quantum cryptography",
+      "url": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+    },
+    {
+      "title": "Distributed Trust Models:TLS Certificate Transparency and DANE",
+      "url": "https://www.internetsociety.org/blog/2014/07/distributed-trust-modelstls-certificate-transparency-and-dane/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

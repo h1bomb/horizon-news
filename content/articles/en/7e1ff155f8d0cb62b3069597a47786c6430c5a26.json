@@ -1,0 +1,40 @@
+{
+  "id": "7e1ff155f8d0cb62b3069597a47786c6430c5a26",
+  "canonicalId": "2cb84b8dfef899691cf19d7e17a85bb959cea0d2",
+  "slug": "85-gpu-hour-comparison-of-5-abliteration-methods-on-qwen36-27b",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-17T11:18:00Z",
+  "lang": "en",
+  "title": "85 GPU-Hour Comparison of 5 Abliteration Methods on Qwen3.6-27B",
+  "summary": "The author released Abliterlitics, an open-source toolkit that systematically compares five abliteration techniques on the Qwen3.6-27B model using 85 GPU-hours of benchmarks, safety evaluations, and weight-level forensics. The analysis reveals that Heretic and Huihui variants best preserve capabilities, while all methods achieve near-complete safety removal. This work provides the first rigorous, open-source comparison of abliteration methods, helping the LLM safety community understand trade-offs between capability retention and refusal suppression. It establishes a reproducible benchmarking methodology that can guide future alignment research and model selection. The author recovered safetensors from a Q8_K_P GGUF file and ran 85 hours of benchmarks including HarmBench, KL divergence, and weight forensics across six models (base plus five abliterated). The AEON variant's claim of 'enhanced capabilities' is contradicted by the data, and Abliterix shows the worst capability preservation.",
+  "score": 8,
+  "tags": [
+    "abliteration",
+    "LLM safety",
+    "model alignment",
+    "benchmarking",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "nathandreamfast"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tfmocw/85_gpuhours_comparing_5_abliteration_methods_on/",
+  "originalSite": "reddit.com",
+  "context": "Abliteration is a technique that identifies and suppresses a single latent direction responsible for refusal behavior in LLMs, effectively 'uncensoring' the model. Safetensors is a secure tensor file format that prevents code execution, and GGUF is a quantization format that reduces model size. This work uses these formats to recover and compare models.",
+  "discussion": "The community highly appreciates the effort, with comments calling it a 'high-effort post' and thanking the author. One user provided constructive technical feedback suggesting measuring distribution shifts at every token position rather than just the first, and offered example code. Several users asked for a simpler breakdown and best use cases.",
+  "references": [
+    {
+      "title": "Uncensor any LLM with abliteration",
+      "url": "https://huggingface.co/blog/mlabonne/abliteration"
+    },
+    {
+      "title": "GitHub - NousResearch/llm-abliteration: Make abliterated models with transformers, easy and fast · GitHub",
+      "url": "https://github.com/NousResearch/llm-abliteration/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

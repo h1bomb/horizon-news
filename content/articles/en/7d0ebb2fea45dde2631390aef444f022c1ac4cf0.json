@@ -1,0 +1,44 @@
+{
+  "id": "7d0ebb2fea45dde2631390aef444f022c1ac4cf0",
+  "canonicalId": "1be2550d73a6bcac971f8fea417360c87d4265db",
+  "slug": "llamacpp-update-delivers-major-token-generation-speedup-for-qwen35-and-qwen-next-models",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-07T11:38:00Z",
+  "lang": "en",
+  "title": "Llama.cpp update delivers major token generation speedup for Qwen3.5 and Qwen-Next models",
+  "summary": "A recent update to the llama.cpp inference framework, specifically through GitHub pull request #19504, has significantly improved token generation speed for Qwen3.5 and Qwen-Next models when using CUDA or CPU backends. User benchmarks show token generation speeds increasing from around 9.67 tokens/second to 17.32 tokens/second for a Qwen3.5-35B model, representing a substantial performance gain. This optimization matters because llama.cpp is a widely used, open-source library for running large language models locally, and Qwen models are popular open-source alternatives. Faster token generation directly improves the responsiveness and user experience of applications built on these models, making them more practical for real-time use cases like chatbots and coding assistants. The speed improvement is primarily observed in the token generation (TG) phase, with some users reporting a near doubling of prompt processing (PP) speed as well, though results can vary. The update currently only affects the CUDA and CPU backends, meaning users of other backends like Vulkan will not see these benefits from this specific change.",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "model-inference",
+    "performance-optimization",
+    "qwen",
+    "cuda"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rn7w7b/update_your_llamacpp_great_tg_speedup_on_qwen35/",
+  "originalSite": "reddit.com",
+  "context": "Llama.cpp is an open-source C/C++ library for efficient inference of large language models, known for its memory optimizations that allow running models on consumer hardware. Qwen3.5 and Qwen-Next are families of open-source LLMs developed by Alibaba Cloud, with variants ranging from billions of parameters and supporting long contexts. In LLM inference, 'prompt processing' refers to the initial, compute-bound phase of feeding the entire input through the model, while 'token generation' is the subsequent, often memory-bound phase where the model outputs tokens one by one.",
+  "discussion": "Community sentiment is largely positive, with users validating the performance gains through their own benchmarks, reporting doubled prompt processing speeds in some cases. However, some users noted no improvement in token generation, highlighting that results can be hardware or configuration dependent. Discussions also included requests for similar optimizations for the Vulkan backend and clarification on which backends are affected.",
+  "references": [
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "Qwen 3.5: The Complete Guide - Benchmarks, Local Setup, and ...",
+      "url": "https://techie007.substack.com/p/qwen-35-the-complete-guide-benchmarks"
+    },
+    {
+      "title": "Optimizing Token Generation in llama.cpp's CUDA Backend · ggml-org/llama.cpp · Discussion #17621",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/17621"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

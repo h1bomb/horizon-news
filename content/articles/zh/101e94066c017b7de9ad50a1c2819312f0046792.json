@@ -1,0 +1,44 @@
+{
+  "id": "101e94066c017b7de9ad50a1c2819312f0046792",
+  "canonicalId": "173f115af2819a94c01a80d15a0bed305af3963e",
+  "slug": "英伟达展示神经纹理压缩技术显存占用降低-85画质近乎无损",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-06T00:00:00Z",
+  "lang": "zh",
+  "title": "英伟达展示神经纹理压缩技术：显存占用降低 85%，画质近乎无损",
+  "summary": "在 GTC 2026 大会上，英伟达展示了其神经纹理压缩技术，该技术使用小型神经网络替代传统块压缩算法，在保持画质的同时将显存占用降低 85%。演示中显存使用从 6.5GB 骤降至 970MB，微软已将该技术以'协作向量'名义纳入 DirectX 标准。 这一突破解决了现代游戏和图形应用对显存日益增长的需求，有望在现有硬件上实现更高分辨率的纹理和更复杂的场景。该技术被纳入 DirectX 标准意味着将在游戏行业广泛采用，减少游戏安装包大小，让高质量图形更加普及。 NTC 将单个材质的所有 PBR 纹理一起压缩，在纹理通道相关时效果最佳，某些测试中压缩效率比传统方法提升约 24 倍。该技术利用英伟达 GPU 中的 Tensor Core 运行，不占用基础性能，并辅以'神经材质'技术，可将 1080p 渲染速度最高提升 7.7 倍。",
+  "score": 9,
+  "tags": [
+    "Graphics Technology",
+    "AI/ML",
+    "Hardware Optimization",
+    "Game Development",
+    "Neural Networks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 5, 01:48"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-ai-tech-claims-to-slash-vram-usage-by-85-percent-with-zero-quality-loss-neural-texture-compression-demo-reveals-stunning-visual-parity-between-6-5gb-of-memory-and-970mb",
+  "originalSite": "tomshardware.com",
+  "context": "纹理压缩对于减少图形应用的内存使用至关重要，传统块压缩算法使用固定速率的有损压缩处理小像素块，常导致可见的块状伪影。英伟达的 Tensor Core 是专为矩阵运算设计的硬件单元，能够高效执行神经网络推理。神经纹理压缩代表了从传统算法压缩向基于 AI 方法的范式转变。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - NVIDIA-RTX/RTXNTC: NVIDIA Neural Texture Compression SDK · GitHub",
+      "url": "https://github.com/NVIDIA-RTX/RTXNTC"
+    },
+    {
+      "title": "Nvidia AI tech claims to slash gaming GPU memory usage by 85% with zero quality loss — Neural Texture Compression demo reveals stunning visual parity between 6.5GB of VRAM and 970MB | Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-ai-tech-claims-to-slash-vram-usage-by-85-percent-with-zero-quality-loss-neural-texture-compression-demo-reveals-stunning-visual-parity-between-6-5gb-of-memory-and-970mb"
+    },
+    {
+      "title": "Texture compression - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Texture_compression"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

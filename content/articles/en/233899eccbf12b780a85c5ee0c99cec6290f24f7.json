@@ -1,0 +1,44 @@
+{
+  "id": "233899eccbf12b780a85c5ee0c99cec6290f24f7",
+  "canonicalId": "164bf0b006555f75b3226b2056e4989118218c94",
+  "slug": "github-copilot-individual-plans-undergo-major-changes-with-tighter-limits-and-pricing-restructuring",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-22T03:30:00Z",
+  "lang": "en",
+  "title": "GitHub Copilot Individual Plans Undergo Major Changes with Tighter Limits and Pricing Restructuring",
+  "summary": "GitHub announced significant changes to its Copilot Individual plans, including tighter usage limits, pausing new signups for individual plans, and restructuring pricing tiers to restrict access to the Claude Opus 4.7 model to the higher-priced $39/month \"Pro+\" plan while dropping previous Opus models entirely. These changes directly impact millions of developers who rely on GitHub Copilot for AI-assisted coding, reflecting the rising computational costs of agentic workflows and signaling a broader industry trend toward token-based pricing models for AI coding assistants. The changes specifically affect GitHub Copilot CLI, cloud agent, code review features on GitHub.com, and IDE integrations in VS Code, Zed, and JetBrains, with new token-based usage limits implemented on both per-session and weekly bases to address the high compute demands of agentic coding sessions.",
+  "score": 7,
+  "tags": [
+    "GitHub Copilot",
+    "AI Coding Assistants",
+    "Pricing Changes",
+    "Software Development Tools",
+    "Industry News"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "GitHub Copilot is an AI-powered coding assistant developed by GitHub and Microsoft that helps developers write code faster by suggesting completions and entire functions. Agentic workflows refer to AI systems that can autonomously perform complex, multi-step tasks like code generation and review, which consume significantly more computational resources than simple code completion. Claude Opus is Anthropic's most advanced AI model series, with version 4.7 offering notable improvements in software engineering capabilities.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Claude Opus 4.7 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "title": "The Rise of Agentic Workflows in Enterprise AI Development",
+      "url": "https://www.qodo.ai/blog/agentic-workflows-in-ai-development/"
+    },
+    {
+      "title": "Plans for GitHub Copilot - GitHub Docs",
+      "url": "https://docs.github.com/en/copilot/get-started/plans"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cf9930b951fee38be3d010f6cace1c355806e8fc",
+  "canonicalId": "720a6826a076adde44ae8d15e61c695db36dd814",
+  "slug": "shopifys-river-agent-turns-slack-into-a-public-teaching-workshop",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T15:46:00Z",
+  "lang": "en",
+  "title": "Shopify's River Agent Turns Slack into a Public Teaching Workshop",
+  "summary": "Shopify CEO Tobias Lütke revealed that their internal AI coding agent, River, operates exclusively in public Slack channels rather than via direct messages, turning every interaction into a transparent learning opportunity for all employees. This approach creates a 'Lehrwerkstatt' (teaching workshop) culture, enabling osmotic learning where employees improve by observing each other's work with the AI agent, potentially serving as a model for collaborative AI integration in organizations. In the last 30 days, 5,938 employees used River across 4,450 channels, and River authored one in eight merged pull requests at Shopify. The agent handles tasks from code review to pull-request creation, but refuses direct messages and directs users to public channels.",
+  "score": 8,
+  "tags": [
+    "AI coding assistant",
+    "collaborative learning",
+    "transparency",
+    "software engineering",
+    "internal tool"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Shopify developed River as an internal AI coding agent integrated into Slack. The constraint of public-only operation was designed to foster a transparent environment where employees learn from observing each other's interactions, similar to how Midjourney's early public Discord channels helped users learn prompt engineering through shared experimentation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Building a Public AI Agent Workspace for Organizational Learning",
+      "url": "https://www.zenml.io/llmops-database/building-a-public-ai-agent-workspace-for-organizational-learning"
+    },
+    {
+      "title": "Shopify's River agent system lives in Slack and can only be ...",
+      "url": "https://x.com/simonw/status/2053529689122328947"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

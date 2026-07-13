@@ -1,0 +1,45 @@
+{
+  "id": "f6aa95ce23b5cc4006b4fe752c5ab3f8a7e88316",
+  "canonicalId": "89ba061638f426a104f0f79a95d37eefca749208",
+  "slug": "小米开源-mimo-code一款-ai-编程助手",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T14:27:00Z",
+  "lang": "zh",
+  "title": "小米开源 MiMo Code，一款 AI 编程助手",
+  "summary": "小米发布了 MiMo Code，这是一个开源的终端原生 AI 编程助手，基于 OpenCode 分支，具备持久记忆和子智能体编排等特性。 此次开源发布标志着向社区驱动的 AI 编程工具转变，减少了供应商锁定，并对 Claude Code 等闭源替代品构成挑战。 MiMo Code 保留了 OpenCode 的所有核心能力（多提供商、TUI、LSP、MCP、插件），并增加了持久记忆、智能上下文管理、子智能体编排、目标驱动自主循环、组合工作流和通过 dream/distill 进行自我改进。",
+  "score": 8,
+  "tags": [
+    "AI coding assistant",
+    "open-source",
+    "Xiaomi",
+    "software engineering",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "apeters",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48490826"
+    }
+  ],
+  "originalUrl": "https://mimo.xiaomi.com/mimocode",
+  "originalSite": "mimo.xiaomi.com",
+  "context": "OpenCode 是一个流行的开源 AI 编程智能体，拥有超过 16 万 GitHub 星标，每月被数百万开发者使用。持久记忆功能使编程助手能跨对话记住项目上下文，而子智能体编排则让协调智能体能将任务委派给专门的工人智能体。",
+  "discussion": "社区普遍欢迎这一开源发布，指出这符合对闭源工具的开源替代品的需求。用户强调了其高级功能，并赞扬了小米在 AI 方面的进步，但也有建议直接链接到 GitHub 仓库。",
+  "references": [
+    {
+      "title": "OpenCode | The open source AI coding agent",
+      "url": "https://opencode.ai/"
+    },
+    {
+      "title": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "title": "Subagents in Visual Studio Code",
+      "url": "https://code.visualstudio.com/docs/agents/subagents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

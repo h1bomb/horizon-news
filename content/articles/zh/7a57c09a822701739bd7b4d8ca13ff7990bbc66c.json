@@ -1,0 +1,41 @@
+{
+  "id": "7a57c09a822701739bd7b4d8ca13ff7990bbc66c",
+  "canonicalId": "b8c7fd931d56f1062770192e20cbf04f91cb0311",
+  "slug": "用-rust-重写的-postgres-通过所有回归测试",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T06:18:00Z",
+  "lang": "zh",
+  "title": "用 Rust 重写的 Postgres 通过所有回归测试",
+  "summary": "一个名为 pgrust 的项目使用大型语言模型 (LLM) 将 PostgreSQL 完全用 Rust 重写，目前已通过官方 PostgreSQL 回归测试的 100%。 这证明了使用 AI 重写关键基础设施软件（如数据库）的可行性，可能带来更快的创新和更安全的内存管理，同时也引发了关于许可证、代码审查以及对 AI 生成代码信任度的辩论。 该重写项目使用 LLM 生成代码，在不到一个月内产生了超过 7,000 次提交，使得传统代码审查变得不切实际。项目采用 AGPL 许可证，这与 PostgreSQL 的宽松许可证不同。",
+  "score": 9,
+  "tags": [
+    "postgres",
+    "rust",
+    "llm",
+    "database",
+    "ai"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "SweetSoftPillow",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48841676"
+    }
+  ],
+  "originalUrl": "https://github.com/malisper/pgrust",
+  "originalSite": "github.com",
+  "context": "PostgreSQL 回归测试是一套全面的测试套件，用于验证 SQL 实现和扩展功能。基于 LLM 的代码生成是一种新兴技术，利用大型语言模型生成源代码，可以加速开发，但引发了关于正确性、安全性和可维护性的担忧。",
+  "discussion": "作者解释该项目是使用 LLM 构建更好 Postgres 的实验，并正在开发新版本。评论者因大量提交日志而担忧 AI 生成代码的审查问题，并讨论了从 PostgreSQL 许可证改为 AGPL 的争议。有人建议通过镜像流量来比较实际负载下的行为。",
+  "references": [
+    {
+      "title": "PostgreSQL: Documentation: 18: Chapter 31. Regression Tests",
+      "url": "https://www.postgresql.org/docs/current/regress.html"
+    },
+    {
+      "title": "A Survey on Code Generation with LLM-based Agents",
+      "url": "https://arxiv.org/abs/2508.00083"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

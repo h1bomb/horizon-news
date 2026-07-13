@@ -1,0 +1,40 @@
+{
+  "id": "d299d54a87a7802ee9e2fd472315d294bbb726c8",
+  "canonicalId": "f7acaf82071e4cc581033023efd096df76613acb",
+  "slug": "微软开源-trellis240-亿参数图像转-3d-模型",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "微软开源 TRELLIS.2：40 亿参数图像转 3D 模型",
+  "summary": "微软发布了 TRELLIS.2，这是一个开源的 40 亿参数图像转 3D 生成模型，能够生成高达 1536³分辨率、带有完整 PBR 材质的高保真 3D 资产，采用了新颖的 O-Voxel 结构和具有 16 倍空间压缩的原生 3D VAE。 此次开源发布使最先进的 3D 生成技术得以普及，开发者和艺术家可以高效地从单张图像创建高质量 3D 资产，有望加速游戏、VR/AR 和数字内容创作等领域的工作流程。 该模型采用名为 O-Voxel 的无场稀疏体素结构来处理复杂拓扑和锐利特征，并使用具有 16 倍空间压缩的原生 3D VAE 实现高效的潜在表示。代码和在线演示已在 GitHub 和 Hugging Face 上提供。",
+  "score": 7,
+  "tags": [
+    "3D generation",
+    "image-to-3D",
+    "open-source",
+    "generative AI",
+    "computer vision"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 27, 20:07"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/0flkmb04isxg1",
+  "originalSite": "v.redd.it",
+  "context": "图像转 3D 生成旨在从单张 2D 图像创建 3D 模型，由于需要推断深度、几何和材质，这一任务颇具挑战。传统方法常依赖神经辐射场或符号距离函数，而 TRELLIS.2 通过 O-Voxel 和 3D VAE 引入紧凑的潜在空间，提高了效率和保真度。PBR（基于物理的渲染）材质模拟真实的光照交互，增强了视觉质量。",
+  "discussion": "社区评论指出该模型实际上在四个月前就已发布，降低了新闻的紧迫性。一些用户反映难以复现演示中的高质量结果，并且有用户请求 ROCm 支持，虽然已有合并请求被批准，但在 AMD GPU 上仍存在兼容性问题。",
+  "references": [
+    {
+      "title": "GitHub - microsoft/TRELLIS.2: Native and Compact Structured Latents for 3D Generation · GitHub",
+      "url": "https://github.com/microsoft/TRELLIS.2"
+    },
+    {
+      "title": "TRELLIS.2: Native and Compact Structured Latents for 3D Generation",
+      "url": "https://microsoft.github.io/TRELLIS.2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

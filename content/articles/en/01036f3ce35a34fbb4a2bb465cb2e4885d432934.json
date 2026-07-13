@@ -1,0 +1,40 @@
+{
+  "id": "01036f3ce35a34fbb4a2bb465cb2e4885d432934",
+  "canonicalId": "880937a99f56ec604ebb1fba9ff0640aaadb25fc",
+  "slug": "reducing-drift-in-interactive-world-models-with-moba-attention-and-self-rollout-distillation",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T20:23:00Z",
+  "lang": "en",
+  "title": "Reducing drift in interactive world models with MoBA attention and self-rollout distillation",
+  "summary": "Researchers at LingBot World have released an open-weights interactive world model that uses a MoBA attention mask (mixing bidirectional and autoregressive attention) and post-training distillation over long self-rollout trajectories to significantly reduce drift, demonstrated by a continuous 60-minute stable rollout. This work addresses a critical challenge in interactive world models—drift accumulation during long rollouts—which has limited their practical usability. The combination of MoBA attention and long-rollout distillation could enable more stable and reliable interactive simulations for applications like video games, robotics, and virtual environments. The MoBA attention mask dynamically schedules KV-cache to keep long rollouts tractable, and the model uses Plücker embeddings plus AdaLN for camera control. A limitation is that persistence is only in appearance, not identity, meaning regions leaving the context window are regenerated on revisit, not recalled. The weights are released under CC-BY-NC-SA license.",
+  "score": 8,
+  "tags": [
+    "world models",
+    "drift reduction",
+    "attention mechanisms",
+    "distillation",
+    "video generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Purple-Low-2779"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ur4hkc/reducing_drift_in_interactive_worldmodel_rollouts/",
+  "originalSite": "reddit.com",
+  "context": "Interactive world models generate video frames conditioned on user input, essentially serving as a learned simulator. A common problem is drift: as the model autoregressively generates new frames based on its own previous outputs, small errors accumulate, causing the simulation to diverge from plausible reality over time. Existing methods often use teacher forcing during training, where the model sees ground-truth frames, but this does not translate to stable self-rollouts during inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Self-Consistent Distribution Matching with Cache-Aware Training for Fast ...",
+      "url": "https://arxiv.org/html/2604.03118v2"
+    },
+    {
+      "title": "Self-Consistent Distribution Matching with Cache-Aware Training for Fast ...",
+      "url": "https://huggingface.co/papers/2604.03118"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

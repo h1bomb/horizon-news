@@ -1,0 +1,44 @@
+{
+  "id": "e69eb2082f8d5754f26622237ff25d3eff241253",
+  "canonicalId": "09083bdf11c6acdc8a85389eb9c4c5a45c56cb34",
+  "slug": "kde-plasma-67-发布支持每屏虚拟桌面和-union-主题系统",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T13:22:00Z",
+  "lang": "zh",
+  "title": "KDE Plasma 6.7 发布，支持每屏虚拟桌面和 Union 主题系统",
+  "summary": "KDE Plasma 6.7 于 2026 年 6 月发布，引入了多显示器设置的每屏虚拟桌面、更快的桌面切换以及 Union 主题系统的技术预览。 此版本解决了长期以来的每屏虚拟桌面功能请求，显著改善了 Plasma 用户的多显示器工作流。Union 主题系统有望统一并现代化 KDE 的样式方法。 每屏虚拟桌面允许每个显示器拥有自己独立的虚拟桌面集，不受其他屏幕影响。Union 主题系统目前处于技术预览阶段，旨在为 QML 和 Kirigami 应用程序提供统一的样式引擎。",
+  "score": 8,
+  "tags": [
+    "KDE",
+    "Plasma",
+    "Linux",
+    "desktop environment",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078160/",
+  "originalSite": "lwn.net",
+  "context": "KDE Plasma 是 Linux 上流行的开源桌面环境。虚拟桌面允许用户跨多个工作区组织窗口，但此前切换虚拟桌面会同时移动所有显示器。每屏功能允许每个显示器独立管理工作区。Union 主题系统是一个新项目，旨在集中管理 KDE 多样应用程序技术的样式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "KDE Plasma Finally Gets Per - Screen Virtual Desktops | SnipGeek",
+      "url": "https://snipgeek.com/blog/kde-plasma-per-screen-virtual-desktops"
+    },
+    {
+      "title": "KDE Plasma 6.7 released - OMG! Ubuntu",
+      "url": "https://www.omgubuntu.co.uk/2026/06/kde-plasma-6-7-released"
+    },
+    {
+      "title": "KDE Plasma 6.7 Beta Debuts Union Theming System for Public ...",
+      "url": "https://lunar.computer/kde-plasma-6-7-beta-debuts-union-theming-system-20260514"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

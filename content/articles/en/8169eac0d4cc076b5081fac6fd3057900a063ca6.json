@@ -1,0 +1,44 @@
+{
+  "id": "8169eac0d4cc076b5081fac6fd3057900a063ca6",
+  "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
+  "slug": "qwen-open-sources-flashqla-2-3x-faster-linear-attention-kernels",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T14:11:00Z",
+  "lang": "en",
+  "title": "Qwen Open-Sources FlashQLA: 2-3x Faster Linear Attention Kernels",
+  "summary": "Qwen team open-sourced FlashQLA, a high-performance linear attention kernel library built on TileLang for Gated Delta Networks, achieving 2-3x speedup on forward pass and 2x on backward pass on NVIDIA Hopper GPUs. This release significantly accelerates linear attention models, making them more practical for long-sequence pretraining and on-device agent inference, potentially reducing costs and latency in AI applications. FlashQLA leverages operator fusion and algebraic optimization, and introduces automatic intra-card context parallelism using gated decay properties, along with warpgroup-specialized kernels to overlap computation and data movement.",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "open-source",
+    "attention mechanism",
+    "GPU optimization",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://qwen.ai/blog?id=flashqla",
+  "originalSite": "qwen.ai",
+  "context": "Linear attention mechanisms like Gated Delta Networks (GDN) aim to reduce the quadratic complexity of standard attention, enabling efficient processing of long sequences. FlashQLA is built on TileLang, a tiled programming model that decouples dataflow and scheduling for efficient AI kernel programming.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "QwenLM/ FlashQLA : high-performance linear attention kernel library...",
+      "url": "https://github.com/QwenLM/FlashQLA"
+    },
+    {
+      "title": "TileLang 0.1.9 documentation",
+      "url": "https://tilelang.com/"
+    },
+    {
+      "title": "[2412.06464] Gated Delta Networks: Improving Mamba2 with Delta",
+      "url": "https://arxiv.org/abs/2412.06464"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

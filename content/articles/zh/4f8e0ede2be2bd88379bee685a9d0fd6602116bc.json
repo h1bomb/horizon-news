@@ -1,0 +1,40 @@
+{
+  "id": "4f8e0ede2be2bd88379bee685a9d0fd6602116bc",
+  "canonicalId": "545334b90f6f29ba65b555830e9fc3423e780039",
+  "slug": "谷歌发布-gemini-omni支持对话式视频编辑",
+  "date": "2026-05-20",
+  "publishedAt": "2026-05-20T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemini Omni，支持对话式视频编辑",
+  "summary": "谷歌发布了全新的多模态 AI 模型 Gemini Omni，用户可以通过自然语言对话编辑视频，具备物理规律理解、角色一致性保持和 SynthID 数字水印等能力。首个型号 Gemini Omni Flash 已向 Google AI Plus、Pro 和 Ultra 订阅用户开放，支持在 Gemini 应用、Google Flow、YouTube Shorts 和 YouTube Create App 中使用。 这标志着向直观的 AI 辅助视频创作迈出了重要一步，可能降低内容创作者的门槛，并支持更动态的实时编辑。SynthID 水印的加入也回应了人们对 AI 生成内容真实性的日益关注。 该模型具备对重力、流体力学等物理规律的直观理解，并能确保多次编辑中角色一致性。所有生成的视频都嵌入了 SynthID 数字水印以确保透明度，谷歌计划在未来几周内向开发者开放 API。",
+  "score": 9,
+  "tags": [
+    "multimodal AI",
+    "video generation",
+    "Google Gemini",
+    "AI model",
+    "natural language processing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 19, 18:23"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+  "originalSite": "blog.google",
+  "context": "多模态 AI 模型能处理文本、图像和音频等多种数据类型。Gemini Omni 是谷歌最新的此类模型，将推理与创作能力融合，支持通过自然语言直接编辑视频。SynthID 由 Google DeepMind 开发，能在 AI 生成内容中嵌入人类无法感知的水印，并可通过专用工具检测，有助于区分 AI 内容与真实拍摄画面。",
+  "discussion": "社区评论持谨慎乐观态度，但对物理真实感提出批评。用户指出模型违反物理定律的具体例子（例如弹珠无故加速、积木塔砖块消失）。一些人认为其不如现有工具如 Seedance，另一些人指出视频生成在深层空间理解方面仍存在根本性问题。",
+  "references": [
+    {
+      "title": "Introducing Gemini Omni",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+    },
+    {
+      "title": "SynthID — Google DeepMind",
+      "url": "https://deepmind.google/models/synthid/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

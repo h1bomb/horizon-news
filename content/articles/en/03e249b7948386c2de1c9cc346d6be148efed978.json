@@ -1,0 +1,40 @@
+{
+  "id": "03e249b7948386c2de1c9cc346d6be148efed978",
+  "canonicalId": "35a0a058cf4b8998d9bf4c0c85c5a15d28ae5274",
+  "slug": "ietf-releases-ipv8-draft-with-100-backward-compatibility-and-64-bit-addressing-to-solve-ipv4-exhaustion",
+  "date": "2026-04-17",
+  "publishedAt": "2026-04-16T08:43:00Z",
+  "lang": "en",
+  "title": "IETF releases IPv8 draft with 100% backward compatibility and 64-bit addressing to solve IPv4 exhaustion.",
+  "summary": "The Internet Engineering Task Force (IETF) has released the IPv8 draft protocol, which features 64-bit addressing, full backward compatibility with IPv4, integrated service management via a 'zone server' architecture, and enhanced security and routing efficiency. It introduces mandatory OAuth2-based authorization, a 'Cost Factor' algorithm for optimal path selection, and mechanisms like WHOIS8 routing validation and /16 minimum injection prefixes to prevent BGP hijacking and routing table growth. This draft represents a potential paradigm shift in internet infrastructure by addressing the long-standing IPv4 address exhaustion issue with a scalable 64-bit address space, while ensuring seamless migration through 100% backward compatibility. It could significantly impact network operators, device manufacturers, and service providers by simplifying deployment, improving security against routing attacks, and enhancing overall internet performance and management. IPv8 allocates over 4.2 billion host addresses per Autonomous System Number (ASN), uses 8to4 tunneling for interoperability during transition, and enforces rules like /16 minimum injection prefixes to curb global routing table expansion. However, as a draft, it is still under development and subject to changes based on IETF review and community feedback.",
+  "score": 9,
+  "tags": [
+    "Networking",
+    "Internet Protocols",
+    "IPv8",
+    "IETF",
+    "Network Security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ietf.org/archive/id/draft-thain-ipv8-00.html",
+  "originalSite": "ietf.org",
+  "context": "The Internet Protocol (IP) is the core communication protocol for the internet, with IPv4 being the widely used version that has faced address exhaustion due to its 32-bit address space. IPv6 was developed to replace IPv4 with a larger 128-bit address space, but adoption has been slow due to compatibility and migration challenges. IETF is the standards organization responsible for developing and promoting internet standards, including IP protocols.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "IP – Wikipedia",
+      "url": "https://fi.wikipedia.org/wiki/IP"
+    },
+    {
+      "title": "6to4 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/6to4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

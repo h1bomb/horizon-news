@@ -1,0 +1,40 @@
+{
+  "id": "b05e460f15e8ddba206611fdb21069840bf41855",
+  "canonicalId": "d8b661e3e11d6ef654071a001f8b43f8ea64a8ac",
+  "slug": "vllm-v0200-released-with-deepseek-v4-and-cuda-130",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T21:20:00Z",
+  "lang": "en",
+  "title": "vLLM v0.20.0 Released with DeepSeek V4 and CUDA 13.0",
+  "summary": "vLLM v0.20.0 introduces initial support for DeepSeek V4, switches the default CUDA wheel to CUDA 13.0, upgrades to PyTorch 2.11, and adds Python 3.14 support. This release significantly enhances vLLM's capabilities for serving cutting-edge large language models, particularly DeepSeek V4, and aligns with the latest CUDA and PyTorch ecosystems, benefiting the AI inference community. The release includes 752 commits from 320 contributors, with notable features like FlashAttention 4 as default MLA prefill, TurboQuant 2-bit KV cache, and a new online quantization frontend.",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "DeepSeek",
+    "CUDA",
+    "PyTorch"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
+  "originalSite": "github.com",
+  "context": "vLLM is an open-source high-throughput LLM inference engine widely used in production. DeepSeek V4 is the latest model from DeepSeek, known for strong coding capabilities. CUDA 13.0 and PyTorch 2.11 are the latest versions of NVIDIA's parallel computing platform and the popular deep learning framework, respectively.",
+  "discussion": "The community has reported a DSML token-leakage bug in DeepSeek V4, which v0.20.0 addresses. There is also discussion about the CUDA version policy following PyTorch's lead, with recommendations to use `--torch-backend=cu129` for CUDA 12.9 users.",
+  "references": [
+    {
+      "title": "[Bug]: DeepSeek V4 intermittently leaks DSML fragments in ...",
+      "url": "https://github.com/vllm-project/vllm/issues/40800"
+    },
+    {
+      "title": "MTP (Multi-Token Prediction) - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

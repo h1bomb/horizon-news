@@ -1,0 +1,44 @@
+{
+  "id": "6065d139afadc789b8da35f3ecf1e20eb6f197d8",
+  "canonicalId": "a0762558ac902446084688fe1ad2bafd64f71fa7",
+  "slug": "rio-35-exposed-as-wrapper-of-open-source-models-nex-and-qwen",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T12:39:00Z",
+  "lang": "en",
+  "title": "Rio 3.5 Exposed as Wrapper of Open-Source Models Nex and Qwen",
+  "summary": "The Rio 3.5 model, previously celebrated as an open-source state-of-the-art, was revealed by the Nex team to be a wrapper combining Nex and Qwen models. Evidence showed a 79% probability it identifies as Nex and linear interpolation of weights with a mix ratio of 0.57:0.43. This incident severely undermines trust in the open-source AI community, highlighting the need for transparency and integrity in model releases. It also draws attention to recurring plagiarism issues in the Chinese AI ecosystem. Rio 3.5 was removed from Hugging Face after the exposure, with the team apologizing and claiming the uploaded version was an unrefined distillation error. The collinearity between Rio and the model pair exceeded 0.98, making independent training highly unlikely.",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "AI model",
+    "controversy",
+    "plagiarism",
+    "community trust"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/0oYevRBT8PPxG5hudOXxug",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Model distillation is a knowledge transfer technique where a smaller model learns from a larger teacher model, often used to reduce size and cost. However, 'wrapper' or 'sleeve' models directly combine or mimic existing models without proper attribution, amounting to plagiarism. Similar incidents include Cursor's Composer 2 being revealed as Kimi and Stanford's Llama3-V copying MiniCPM-Llama3-V 2.5.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NEX ：下一代能动性 模 型 体系与开源生态",
+      "url": "https://www.sii.edu.cn/2025/1120/c27a605/page.htm"
+    },
+    {
+      "title": "模型蒸馏是什么？一文带你搞懂“模型蒸馏”看这篇就够了！ - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/1914629163857473685"
+    },
+    {
+      "title": "一文读懂到底什么是“模型蒸馏（Model Distillation）”技术？-腾讯云开...",
+      "url": "https://cloud.tencent.com/developer/article/2517760"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

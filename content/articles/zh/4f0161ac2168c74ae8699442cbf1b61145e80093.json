@@ -1,0 +1,36 @@
+{
+  "id": "4f0161ac2168c74ae8699442cbf1b61145e80093",
+  "canonicalId": "2f78f6186664164cd6d293647963b3726f4f9bca",
+  "slug": "mistral-发布稠密-128b-参数模型支持-256k-上下文",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-30T00:00:00Z",
+  "lang": "zh",
+  "title": "Mistral 发布稠密 128B 参数模型，支持 256k 上下文",
+  "summary": "Mistral 发布了 Mistral Medium 3.5，这是一个稠密 128B 参数、支持 256k 上下文窗口的模型，将指令遵循、推理和编码能力统一到一组权重中。 该模型在 SWE-bench 上与 Sonnet 竞争，并提供可配置的推理努力，使其成为快速聊天和复杂代理任务的通用选择。其稠密架构与混合专家趋势形成对比，可能在某些工作负载上提供更好的性能。 该模型接受多模态输入（文本和图像），并支持函数调用。它取代了 Le Chat 中的 Mistral Medium 3.1 和 Magistral，以及编码代理 Vibe 中的 Devstral 2。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "Mistral",
+    "open-source",
+    "model-release",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 29, 15:14"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+  "originalSite": "huggingface.co",
+  "context": "稠密模型对每个 token 激活所有参数，而混合专家（MoE）模型仅激活子集。128B 稠密模型需要大量计算，但可以在任务间提供更一致的性能。可配置的推理努力允许模型根据请求复杂度调整测试时计算量。",
+  "discussion": "社区对稠密 128B 架构感到兴奋，用户认为这是一个有趣的细分领域。一些人质疑它与 Qwen 3.5 Large 等 MoE 模型的比较，后者仅激活 17B 参数，速度更快。其他人对其 SWE-bench 性能印象深刻，并渴望在本地进行测试。",
+  "references": [
+    {
+      "title": "Reasoning model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Reasoning_model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

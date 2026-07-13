@@ -1,0 +1,40 @@
+{
+  "id": "0a066a0ed543eca50ffd2318b75ad5b40efe3029",
+  "canonicalId": "fe71403b9bfa4a9e43a175657fa4c33f33a469f5",
+  "slug": "spyware-backdoor-found-in-telegram-on-apkpure",
+  "date": "2026-05-25",
+  "publishedAt": "2026-05-24T11:38:00Z",
+  "lang": "en",
+  "title": "Spyware Backdoor Found in Telegram on APKPure",
+  "summary": "A repackaged version of Telegram 12.6.5 on APKPure was found to contain the DataCollector spyware framework (classes3.dex, over 3000 lines of code), which can steal chat history, contacts, photos, documents, GPS location, and SIM card data, encrypted via AES-GCM and exfiltrated to C2 server 38.190.225.166. This highlights the security risks of downloading apps from third-party stores, as even official-looking packages can contain powerful spyware. Millions of users who downloaded Telegram from APKPure may have had their private communications and sensitive data compromised. The backdoor is embedded in a repackaged APK signed with a different certificate, and the DataCollector spyware uses AES-GCM encryption to evade detection. The C2 server IP (38.190.225.166) may be used for further analysis.",
+  "score": 9,
+  "tags": [
+    "security",
+    "malware",
+    "Telegram",
+    "APKPure",
+    "spyware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/EricParker/status/2058411298195661221",
+  "originalSite": "x.com",
+  "context": "APKPure is a third-party Android app store that distributes APK files outside of Google Play. While it offers apps that may not be available in official stores, its vetting process is less rigorous, making it a target for malware injection. Telegram is a widely used encrypted messaging app; modifying its official build grants the spyware access to all user data.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "APKPure",
+      "url": "https://grokipedia.com/page/APKPure"
+    },
+    {
+      "title": "Is APKPure Safe to Download Apps and Games?",
+      "url": "https://apkpure.com/how-to/is-apkpure-safe-to-download-apps-and-games"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "5af224ff7b0b49e35b7d01c800bc9ce65041634b",
+  "canonicalId": "d84e59f4c33d8d095629280e3b462114c8f9bcdb",
+  "slug": "forgejo-carrot-disclosure-sparks-security-debate",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-08T16:30:00Z",
+  "lang": "en",
+  "title": "Forgejo 'carrot disclosure' sparks security debate",
+  "summary": "Security researcher Julien Voisin used a controversial 'carrot disclosure' method to reveal alleged RCE vulnerabilities in Forgejo, bypassing the project's security policy. This incident highlights tensions between security researchers and open-source projects over disclosure norms, and could influence how projects handle future security reports. Voisin opened non-urgent pull requests for minor fixes rather than reporting the RCE privately, and only later published a blog post claiming a full RCE chain. He criticized Forgejo's security policy as overly formal.",
+  "score": 8,
+  "tags": [
+    "Forgejo",
+    "security",
+    "RCE",
+    "open-source",
+    "disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1071499/",
+  "originalSite": "lwn.net",
+  "context": "Forgejo is a software collaboration platform forked from Gitea in 2022, used by Codeberg and upcoming Fedora. 'Carrot disclosure' is a term coined by Voisin in 2024, where a researcher demonstrates exploitability by publishing redacted output, aiming to incentivize fixes without full disclosure.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Carrot disclosure | Personal blog of Julien (jvoisin) Voisin",
+      "url": "https://dustri.org/b/carrot-disclosure.html?ref=securitricks.com"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

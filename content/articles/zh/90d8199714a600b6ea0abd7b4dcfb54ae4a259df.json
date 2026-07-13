@@ -1,0 +1,40 @@
+{
+  "id": "90d8199714a600b6ea0abd7b4dcfb54ae4a259df",
+  "canonicalId": "6aad402ec421ef05587b46961164a2245b2341d5",
+  "slug": "spacex-s-1-文件披露与-anthropic-的月均-125-亿美元-ai-计算协议",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-21T00:00:00Z",
+  "lang": "zh",
+  "title": "SpaceX S-1 文件披露与 Anthropic 的月均 12.5 亿美元 AI 计算协议",
+  "summary": "SpaceX 向 SEC 提交的 S-1 文件披露了与 Anthropic 的云计算服务协议，Anthropic 将获得 COLOSSUS 和 COLOSSUS II 的计算能力，并同意每月支付 12.5 亿美元，协议持续至 2029 年 5 月。 这一巨额承诺标志着对 AI 计算基础设施前所未有的需求，并凸显了 AI 实验室与基础设施提供商之间战略合作的重要性，可能重塑云计算商业模式。 协议包含 2026 年 5 月和 6 月的容量爬坡期，期间费用较低，任何一方可提前 90 天通知终止。COLOSSUS I 拥有超过 22 万块 NVIDIA H100、H200 及其他 GPU。",
+  "score": 10,
+  "tags": [
+    "AI",
+    "cloud computing",
+    "SpaceX",
+    "Anthropic",
+    "compute infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 20, 22:26"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "SpaceX 运营着 COLOSSUS I 和 II，这些是用 NVIDIA GPU 构建的巨型 AI 超级计算机，最初用于训练 Grok。Anthropic 是一家专注于 AI 安全的公司，开发了 Claude 大语言模型。此次合作为 Anthropic 提供了训练和推理其模型的专用计算能力。",
+  "discussion": "评论者对这笔交易的规模感到震惊，一些人质疑 SpaceX 整体的盈利能力，因为 2025 年净亏损 49 亿美元。另一些人则对空间数据中心的可行性表示怀疑，同时指出 Starlink 的盈利能力支撑了此类 AI 基础设施押注。",
+  "references": [
+    {
+      "title": "Anthropic Signs SpaceX Colossus 1 Data Center to... - ServeTheHome",
+      "url": "https://www.servethehome.com/anthropic-signs-spacex-colossus-1-data-center-to-boost-capacity/"
+    },
+    {
+      "title": "Anthropic and SpaceX Compute Partnership — May 2026",
+      "url": "https://sourceryintel.com/reports/anthropic-spacex-partnership"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

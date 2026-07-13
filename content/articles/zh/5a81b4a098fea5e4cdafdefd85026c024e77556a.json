@@ -1,0 +1,44 @@
+{
+  "id": "5a81b4a098fea5e4cdafdefd85026c024e77556a",
+  "canonicalId": "5f58f838ca41a70943270d255c24970c9692745a",
+  "slug": "fragnesialinux-内核新本地提权漏洞",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-14T00:00:00Z",
+  "lang": "zh",
+  "title": "Fragnesia：Linux 内核新本地提权漏洞",
+  "summary": "新发现了一个名为 Fragnesia 的本地提权漏洞，影响 Linux 内核的 XFRM ESP 子系统。该漏洞无需竞态条件即可实现向只读文件内核页缓存的任意字节写入。 该漏洞构成严重安全风险，允许非特权用户在受影响的 Linux 系统上提升至 root 权限。它属于与近期披露的 Dirty Frag 漏洞相同的类别，扩大了攻击面。 该漏洞利用无需竞态条件，且概念验证代码已公开。补丁已提出但尚未合并到 Linus Torvalds 的主线或任何稳定内核分支。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "security",
+    "vulnerability",
+    "LPE",
+    "privilege escalation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 13, 15:26"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072647/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核中的 XFRM（转换）子系统负责处理 IPsec 数据包的转换，包括加密和认证。ESP（封装安全载荷）是 IPsec 中的一种协议，提供机密性和数据完整性。Fragnesia 是 ESP-over-TCP 处理代码中的一个逻辑漏洞，允许对只读文件页缓存进行任意写入，从而实现权限提升。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "XFRM Reference Guide — Cilium 1.20.0-dev documentation",
+      "url": "https://docs.cilium.io/en/latest/reference-guides/xfrm/index.html"
+    },
+    {
+      "title": "IPsec - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IPsec"
+    },
+    {
+      "title": "Dirty Frag (CVE-2026-43284,CVE-2026-43500): Linux Kernel ...",
+      "url": "https://www.tenable.com/blog/dirty-frag-cve-2026-43284-cve-2026-43500-frequently-asked-questions-linux-kernel-lpe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

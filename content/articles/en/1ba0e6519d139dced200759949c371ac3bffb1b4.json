@@ -1,0 +1,41 @@
+{
+  "id": "1ba0e6519d139dced200759949c371ac3bffb1b4",
+  "canonicalId": "b2899054e0aef20455a3222ae9370f68452a5e63",
+  "slug": "amateur-may-have-cracked-linear-a-using-ai",
+  "date": "2026-06-20",
+  "publishedAt": "2026-06-19T16:04:00Z",
+  "lang": "en",
+  "title": "Amateur May Have Cracked Linear A Using AI",
+  "summary": "An amateur researcher, Tom Di Mino, has used Claude Code to build Python scripts that analyze the Linear A corpus, claiming to have translated over 300 words. His work is currently under review by linguistics experts at Rutgers and Cambridge. If validated, this would be the first decipherment of Linear A, a script that has remained undeciphered for over a century. It also showcases how AI tools can assist in complex cryptographic and linguistic research. The researcher used Claude Code to create a suite of Python scripts that query, cross-reference, and organize the digitized Linear A corpus from the GORILA and SigLA databases. The total corpus contains only about 7500 characters across roughly 1500 inscriptions, making systematic analysis extremely challenging.",
+  "score": 8,
+  "tags": [
+    "Linear A",
+    "cryptography",
+    "AI-assisted research",
+    "ancient scripts",
+    "linguistics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Kosturdistan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48600107"
+    }
+  ],
+  "originalUrl": "https://aiclambake.com/clamtakes/linear-a/",
+  "originalSite": "aiclambake.com",
+  "context": "Linear A is a writing system used by the Minoan civilization of Crete from 1800 to 1450 BC. It has not been deciphered since its rediscovery in 1900, unlike its descendant Linear B, which was deciphered in the 1950s and represents Mycenaean Greek. The small corpus size and the lack of a bilingual text have been major obstacles.",
+  "discussion": "Commenters express cautious optimism, noting that the researcher's work is being reviewed by experts and that his approach produces tangible results (over 300 translated words). Some highlight the extremely small corpus size (7500 characters) and caution against false claims, but the use of AI tools is seen as a promising methodology.",
+  "references": [
+    {
+      "title": "Linear A script",
+      "url": "https://en.wikipedia.org/wiki/Linear_A_script"
+    },
+    {
+      "title": "Linear A Script - World History Encyclopedia",
+      "url": "https://www.worldhistory.org/Linear_A_Script/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

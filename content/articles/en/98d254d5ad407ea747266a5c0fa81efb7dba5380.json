@@ -1,0 +1,45 @@
+{
+  "id": "98d254d5ad407ea747266a5c0fa81efb7dba5380",
+  "canonicalId": "9b8bac1fd57c7d188abeca9c73070dce046fe341",
+  "slug": "glm-52-fully-open-frontier-model-released-by-zai",
+  "date": "2026-06-14",
+  "publishedAt": "2026-06-13T16:18:00Z",
+  "lang": "en",
+  "title": "GLM 5.2 Fully Open Frontier Model Released by Z.ai",
+  "summary": "Z.ai released GLM 5.2, a fully open frontir model, on March 5, 2026, under the MIT license, making it available for anyone to use, modify, and distribute. This release is significant because it provides a high-performance, open-source alternative at a time when some US labs are restricting access to their frontier models, highlighting the global debate on AI openness and censorship. GLM 5.2 is based on a Mixture-of-Experts architecture with 744 billion parameters and 256 experts, trained on 28.5 trillion tokens, and its predecessor GLM-5 shared the same structure as DeepSeek-V3.2.",
+  "score": 8,
+  "tags": [
+    "GLM",
+    "open-source",
+    "AI",
+    "frontier models",
+    "Chinese AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "aloknnikhil",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48518684"
+    }
+  ],
+  "originalUrl": "https://twitter.com/jietang/status/2065784751345287314",
+  "originalSite": "twitter.com",
+  "context": "Frontier models are the most advanced AI models that push the boundaries of capability. Z.ai (formerly Zhipu AI) is a leading Chinese AI company, one of the 'AI tigers,' and has been releasing open-source models since July 2025. The release comes amid controversy over US government letters restricting access to certain frontier models, fueling debate about openness in AI development.",
+  "discussion": "The community largely expressed gratitude for Z.ai's open release, contrasting it with recent US restrictions on models like Fable 5. Several commenters noted the timing, with some suggesting it was a direct response to the US government's letter to Anthropic banning Fable. There was also anticipation for a potential flash version of GLM 5.2 for local use.",
+  "references": [
+    {
+      "title": "Z.ai",
+      "url": "https://en.wikipedia.org/wiki/Z.ai"
+    },
+    {
+      "title": "What Are Frontier AI Models and How They Work - NVIDIA",
+      "url": "https://www.nvidia.com/en-us/glossary/frontier-models/"
+    },
+    {
+      "title": "GLM-5 - SGLang Documentation",
+      "url": "https://docs.sglang.io/cookbook/autoregressive/GLM/GLM-5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

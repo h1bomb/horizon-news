@@ -1,0 +1,44 @@
+{
+  "id": "c3921e7e94cae5857537027873e08b1c2801c1bd",
+  "canonicalId": "3f6feb236fe47709a23212393066d2a9a3fdf15c",
+  "slug": "智谱-ai-发布首款多模态编程基础模型-glm-5v-turbo支持原生视觉编码与-agent-协同",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "智谱 AI 发布首款多模态编程基础模型 GLM-5V-Turbo，支持原生视觉编码与 Agent 协同",
+  "summary": "智谱 AI（Z.ai）发布了其首款多模态编程基础模型 GLM-5V-Turbo，该模型原生支持图像、视频、文本等多模态输入，并针对 Agent 协同进行了深度优化，可完成 GUI 自主探索、代码调试等复杂任务。该模型扩展了画框、截图、读网页（含图片识别）等多模态工具链，并与 GLM-4-Air/Flash 基座模型等同期升级。 这一发布代表了 AI 在编程任务中的新进展，通过使 AI 智能体自主处理复杂的视觉和编码工作流，可能提升软件工程效率。它符合多模态推理和智能体协同的行业趋势，可能影响 AI/ML 开发和自动化等领域。 GLM-5V-Turbo 专为“理解环境—规划动作—执行任务”的完整 Agent 闭环设计，支持 GUI 自主探索、代码调试、网页复现等任务。此次发布还包括对 GLM-4-Air/Flash 基座模型、GLM-Z1 系列推理模型及支持多引擎切换的 AI 搜索工具的升级。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Multimodal Models",
+    "Programming",
+    "Agent Systems",
+    "Computer Vision"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 2, 01:48"
+    }
+  ],
+  "originalUrl": "https://docs.bigmodel.cn/cn/update/new-releases",
+  "originalSite": "docs.bigmodel.cn",
+  "context": "多模态模型结合不同类型的数据输入（如文本和图像）来执行复杂的推理任务。原生视觉编码指模型直接处理视觉信息的能力，无需依赖单独的编码器，从而提高效率和准确性。Agent 协同涉及多个 AI 智能体自主协作以解决更大问题，常用于自动化和任务分解的系统。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Z.ai debuts open source GLM-4.6V, a native tool-calling vision",
+      "url": "https://tradepoint.io/z-ai-debuts-open-source-glm-4-6v-a-native-tool-calling-vision-model-for-multimodal-reasoning/"
+    },
+    {
+      "title": "Multi-Agent Collaboration: A Guide to Distributed AI",
+      "url": "https://www.salesforce.com/agentforce/ai-agents/multi-agent-collaboration/"
+    },
+    {
+      "title": "[2511.21150] LLaVA-UHD v3: Progressive Visual Compression for",
+      "url": "https://arxiv.org/abs/2511.21150"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

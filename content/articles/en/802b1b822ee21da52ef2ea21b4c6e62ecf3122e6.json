@@ -1,0 +1,40 @@
+{
+  "id": "802b1b822ee21da52ef2ea21b4c6e62ecf3122e6",
+  "canonicalId": "e64fcd95188092109c3065a9a8967a36e3ee818e",
+  "slug": "injecting-contrastive-behavioral-pairs-enables-7m-parameter-model-to-detect-bias-and-resist-sycophancy",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-05T19:12:00Z",
+  "lang": "en",
+  "title": "Injecting contrastive behavioral pairs enables 7M-parameter model to detect bias and resist sycophancy",
+  "summary": "A researcher demonstrated that injecting contrastive behavioral pairs into just 0.05% of a model's pretraining tokens enabled a 7-million-parameter model to achieve measurable bias detection and sycophancy resistance, capabilities that normally require models with 18-34 million parameters. This was achieved without architectural changes, auxiliary losses, or inference cost increases. This finding challenges assumptions about the minimum model size required for certain alignment-related capabilities, suggesting a path toward more parameter-efficient and accessible AI alignment techniques. If scalable, it could allow smaller, cheaper models to exhibit sophisticated behaviors related to safety and truthfulness that are currently the domain of much larger models. The performance gain was non-monotonic with injection rate, with 5% being optimal; a 10% injection rate tripled the factual knowledge cost while worsening behavioral scores. The technique also reversed a scaling anomaly where a vanilla 64M-parameter model regressed on bias detection, pushing its score to 0.459, the highest observed across tested scales.",
+  "score": 8,
+  "tags": [
+    "model-training",
+    "ai-alignment",
+    "small-language-models",
+    "contrastive-learning",
+    "parameter-efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "NoSir261"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/11k3k5j3z9ng1.png",
+  "originalSite": "i.redd.it",
+  "context": "In AI alignment, 'sycophancy' refers to a language model's tendency to overly agree with or flatter a user instead of reasoning independently or factually. 'Contrastive behavioral pairs' are likely pairs of text examples that demonstrate desirable versus undesirable behaviors (e.g., unbiased vs. biased statements, independent vs. sycophantic responses), used to teach the model the distinction during training. Normally, detecting subtle biases or resisting sycophancy requires models with sufficient capacity (parameters) to learn these concepts from vast, noisy datasets like OpenWebText.",
+  "discussion": "The community expressed fascination and technical curiosity, with commenters praising the researcher's honesty about potential scalability limits. Key questions focused on whether the minimal data cost (0.05% of tokens) would hold at larger scales (past ~50M parameters) and how the contrastive behavior pairs were generated. Some users found the technical terms initially confusing but sought explanations.",
+  "references": [
+    {
+      "title": "Sycophancy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sycophancy"
+    },
+    {
+      "title": "Pointing to a Llama and Call it a Camel On the Sycophancy of...",
+      "url": "https://arxiv.org/html/2509.16149v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

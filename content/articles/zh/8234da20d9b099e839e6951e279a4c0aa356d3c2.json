@@ -1,0 +1,44 @@
+{
+  "id": "8234da20d9b099e839e6951e279a4c0aa356d3c2",
+  "canonicalId": "aa2c114efa9475b0a8d4d737a669dc066f67f6fb",
+  "slug": "llama-server-集成-gemma-4-模型新增音频处理功能",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-13T00:00:00Z",
+  "lang": "zh",
+  "title": "llama-server 集成 Gemma-4 模型，新增音频处理功能",
+  "summary": "llama.cpp 项目的 llama-server 组件现已支持使用 Gemma-4 E2A 和 E4A 模型进行语音转文本处理，实现了无需依赖 Whisper 等外部管道的原生音频转录功能。 这一集成简化了本地 AI 工作流，无需单独的语音转文本系统，使得构建端到端的音频应用更加便捷，同时保持了隐私性并降低了基础设施的复杂性。 当前实现对于较长音频文件（5 分钟以上）存在限制，可能出现断言错误，用户反馈 Voxtral 在长转录任务中表现更佳。硬件要求较高，8GB VRAM 的显卡可能仅限于运行 GGUF 量化模型。",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "audio-processing",
+    "speech-to-text",
+    "local-llm",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 12, 15:42"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjhxrw/audio_processing_landed_in_llamaserver_with_gemma4/",
+  "originalSite": "reddit.com",
+  "context": "llama.cpp 是一个用于高效本地 LLM 推理的开源 C/C++ 库，支持包括 Gemma 模型在内的多种架构，通过 GGUF 格式实现。Gemma-4 是谷歌最新的开源 LLM 系列，具备多语言支持以及密集和 MoE 架构，专为文本生成和推理等任务设计。本地 LLM 允许在用户设备上直接进行 AI 处理，无需依赖云端，类似于语音转文本技术从服务器向移动设备的演进。",
+  "discussion": "社区成员对无需单独 Whisper 管道表示兴奋，但也指出长音频文件的性能问题和硬件限制。一些用户报告在西班牙语等特定语言中比 Whisper 更准确，而其他人则质疑是否支持实时麦克风输入，并呼吁进行基准测试。",
+  "references": [
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+    },
+    {
+      "title": "Local LLM Models: Are They Actually Useful?",
+      "url": "https://www.maximepeabody.com/blog/local-llm-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

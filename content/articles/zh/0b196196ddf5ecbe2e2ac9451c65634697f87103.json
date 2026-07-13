@@ -1,0 +1,45 @@
+{
+  "id": "0b196196ddf5ecbe2e2ac9451c65634697f87103",
+  "canonicalId": "ca783fcf2ea519a7c4b2c6a3e1d37cabf9b237df",
+  "slug": "llamacpp-测试版新增多令牌预测支持",
+  "date": "2026-05-05",
+  "publishedAt": "2026-05-05T00:00:00Z",
+  "lang": "zh",
+  "title": "llama.cpp 测试版新增多令牌预测支持",
+  "summary": "llama.cpp 项目在拉取请求中发布了多令牌预测（MTP）的测试版支持，目前支持 Qwen3.5 模型，并计划扩展到其他模型。 MTP 支持能显著加速稠密模型的令牌生成，有可能消除与 vLLM 的性能差距，标志着本地大语言模型推理的重大进步。 该测试版目前仅适用于 Qwen3.5，并需要包含 MTP 层的特制 GGUF 文件；社区提供了一个脚本，可从现有模型中提取这些层用于其他量化版本。MTP 预计对稠密模型的增益大于混合专家模型。",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "multi-token-prediction",
+    "speculative-decoding",
+    "LLM-inference",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 4, 12:54",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t3guzw/llamacpp_mtp_support_now_in_beta/"
+    }
+  ],
+  "originalUrl": "https://github.com/ggml-org/llama.cpp/pull/22673",
+  "originalSite": "github.com",
+  "context": "多令牌预测 (MTP) 训练模型从每个位置预测多个未来令牌，提高生成速度与样本效率。张量并行将模型层分布到多个 GPU 上以处理更大的模型。vLLM 是一个高吞吐量的大语言模型服务引擎，此前在推理性能上领先。",
+  "discussion": "社区反响热烈，有人称其可能是 llama.cpp 最大的突破；用户对速度提升表示赞赏，并分享模型兼容的变通方案，但也存在对 MTP 的困惑，以及希望了解不同推测解码方法的对比基准。",
+  "references": [
+    {
+      "title": "Multi-token prediction",
+      "url": "https://grokipedia.com/page/Multi-token_prediction"
+    },
+    {
+      "title": "Multi Token Prediction (MTP) — vllm-ascend",
+      "url": "https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/Multi_Token_Prediction.html"
+    },
+    {
+      "title": "Tensor Parallelism - torch.distributed.tensor.parallel",
+      "url": "https://docs.pytorch.org/docs/stable/distributed.tensor.parallel.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

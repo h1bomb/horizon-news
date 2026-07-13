@@ -1,0 +1,40 @@
+{
+  "id": "a6d57d064aa0e48728d0f6750e15c8c384f1f082",
+  "canonicalId": "55b0865699dcb6bafffa11b6e610e8ebf14d7281",
+  "slug": "多令牌预测将推理速度提升高达-334-倍",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T20:42:00Z",
+  "lang": "zh",
+  "title": "多令牌预测将推理速度提升高达 3.34 倍",
+  "summary": "一位 Reddit 用户在 RTX PRO 6000 Blackwell GPU 上，使用 vLLM 和 llama.cpp 对 Gemma 4 31B 和 Qwen 3.6 27B 进行多令牌预测（MTP）基准测试，最高达到 132.52 tok/s（加速 3.34 倍）。 MTP 是一种推测解码技术，能在不显著降低质量的前提下大幅提升推理吞吐量，使大型密集模型更适用于实时应用和本地部署。 最佳结果是 vLLM 搭配 Gemma 4 使用 n=5 个推测令牌，达到 132.52 tok/s，基线为 39.69 tok/s；llama.cpp 搭配 Qwen 3.6 在 n=3 时达到峰值 117.70 tok/s。草稿模型非常小（Gemma 4 为 76M 参数），VRAM 开销似乎可忽略不计。",
+  "score": 8,
+  "tags": [
+    "Multi-Token Prediction",
+    "vLLM",
+    "llama.cpp",
+    "LLM inference",
+    "benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/FantasticNature7590"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/",
+  "originalSite": "reddit.com",
+  "context": "多令牌预测（MTP）是一种推测解码技术：轻量级草稿模型预测多个未来令牌，目标模型在一次前向传播中验证它们。这分摊了内存带宽成本，加速了自回归解码。vLLM 和 llama.cpp 是流行的开源推理引擎，近期加入了 MTP 支持。GGUF 是一种用于高效本地部署的量化格式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GGUF Quantization for Fast and Memory-Efficient Inference... | Medium",
+      "url": "https://medium.com/@bnjmn_marie/gguf-quantization-for-fast-and-memory-efficient-inference-on-your-cpu-d10fbe58fbca"
+    },
+    {
+      "title": "What is GGUF ? Complete Guide to GGUF Format & Quantization",
+      "url": "https://ggufloader.github.io/what-is-gguf.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

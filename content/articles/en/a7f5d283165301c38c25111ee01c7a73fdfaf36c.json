@@ -1,0 +1,44 @@
+{
+  "id": "a7f5d283165301c38c25111ee01c7a73fdfaf36c",
+  "canonicalId": "64acf8e56b388ce19fab1f0e70bdfdcd89183079",
+  "slug": "anthropics-project-glasswing-ai-finds-10000-critical-vulnerabilities",
+  "date": "2026-05-24",
+  "publishedAt": "2026-05-23T03:16:00Z",
+  "lang": "en",
+  "title": "Anthropic's Project Glasswing AI Finds 10,000+ Critical Vulnerabilities",
+  "summary": "Anthropic's Project Glasswing, using the Claude Mythos Preview model, discovered over 10,000 high-risk vulnerabilities across critical software and open-source projects within a month, with a 90.6% true positive rate across reviewed submissions. This breakthrough demonstrates that AI can dramatically accelerate vulnerability discovery, but also exposes a critical patching bottleneck that the software industry must address to keep pace. Partners such as Cloudflare report vulnerability discovery speeds increased by over tenfold. Of 1,752 reviewed vulnerabilities, 90.6% were true positives, and Anthropic has open-sourced the Claude Security tool to help enterprises with remediation.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "cybersecurity",
+    "vulnerability discovery",
+    "Anthropic",
+    "software security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/glasswing-initial-update",
+  "originalSite": "anthropic.com",
+  "context": "Project Glasswing is a cybersecurity initiative by Anthropic that brings together over 45 organizations, including Apple and Google, to use the unreleased Claude Mythos Preview model for vulnerability discovery. The model is described as a new frontier-tier model above Opus. The project highlights that while AI can find vulnerabilities faster than humans, the manual process of verification, disclosure, and patching remains a bottleneck.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Project Glasswing: An initial update \\ Anthropic",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update"
+    },
+    {
+      "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking ...",
+      "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/"
+    },
+    {
+      "title": "Five Reasons Anthropic Kept Its Cybersecurity Breakthrough ...",
+      "url": "https://www.forbes.com/sites/paulocarvao/2026/04/08/five-reasons-anthropic-kept-its-cybersecurity-breakthrough-invite-only/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

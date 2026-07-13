@@ -1,0 +1,45 @@
+{
+  "id": "863bb2c8a737fc98d8111768afeeebb3d2f2852d",
+  "canonicalId": "e3125d6216c61e0c3c70cb3edbb6f58644fee0ba",
+  "slug": "propublica-reveals-algorithmic-health-insurance-denial-system",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-13T19:01:00Z",
+  "lang": "en",
+  "title": "ProPublica Reveals Algorithmic Health Insurance Denial System",
+  "summary": "ProPublica published an investigation detailing how health insurers including Cigna, UnitedHealthcare, and Aetna use algorithms and non-physician reviewers to systematically deny coverage, often labeling procedures as 'not medically necessary'. This practice raises profound ethical concerns about the use of AI in healthcare, as algorithmic denials can bypass individualized clinical judgment, leading to inappropriate denials and patient harm, affecting millions of insured Americans. According to the report, the algorithm flags potential issues and sends requests to in-house nurses and doctors for review, but only physicians can issue a final denial; a 2022 settlement with Carelon for $13 million highlighted tactics such as limiting fax machines to receive only 5–10 pages.",
+  "score": 8,
+  "tags": [
+    "healthcare",
+    "AI ethics",
+    "insurance",
+    "algorithm bias",
+    "investigative journalism"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ceejayoz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48126000"
+    }
+  ],
+  "originalUrl": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+  "originalSite": "propublica.org",
+  "context": "Prior authorization is a common insurance process requiring pre-approval for medical services. Concerns about algorithmic bias and lack of transparency in such decisions have been growing, with similar issues seen in Medicare Advantage plans. Federal regulations proposed in 2024 to address AI bias were not finalized, and the government is testing AI in traditional Medicare through a pilot program.",
+  "discussion": "Physician commenters expressed frustration with non-physician 'peers' conducting denial reviews, while others criticized the high per capita healthcare spending in the US and the use of algorithms to control costs. One commenter highlighted a lawsuit revealing tactics like limiting fax pages to obstruct coverage requests.",
+  "references": [
+    {
+      "title": "Regulation of AI in Prior Authorization and Claims Review: A Look at Federal and State Consumer Protections | KFF",
+      "url": "https://www.kff.org/patient-consumer-protections/regulation-of-ai-in-prior-authorization-and-claims-review-a-look-at-federal-and-state-consumer-protections/"
+    },
+    {
+      "title": "How algorithms are being used to deny health insurance claims",
+      "url": "https://www.pbs.org/newshour/show/how-algorithms-are-being-used-to-deny-health-insurance-claims-in-bulk"
+    },
+    {
+      "title": "How AI Is Reshaping Prior Authorization in Health Insurance",
+      "url": "https://councils.forbes.com/blog/how-ai-is-reshaping-prior-authorization-in-health-insurance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

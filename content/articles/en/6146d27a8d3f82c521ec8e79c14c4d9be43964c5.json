@@ -1,0 +1,40 @@
+{
+  "id": "6146d27a8d3f82c521ec8e79c14c4d9be43964c5",
+  "canonicalId": "a3c8e7ea588caa434d70ede091a10c7a9d0bac79",
+  "slug": "proposal-private-memory-nodes-for-linux-kernel",
+  "date": "2026-05-22",
+  "publishedAt": "2026-05-21T13:22:00Z",
+  "lang": "en",
+  "title": "Proposal: Private Memory Nodes for Linux Kernel",
+  "summary": "Gregory Price proposed making NUMA memory nodes private to specific processes at the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit, aiming to restrict access to device-attached memory such as compressed RAM. This feature would enable more efficient use of specialized memory devices (e.g., accelerators, smart NICs) by preventing the kernel's buddy allocator from falling back to them, potentially improving performance and security. It also addresses a growing challenge as heterogeneous memory architectures proliferate. Price's preferred solution adds a __GFP_PRIVATE allocation flag, allowing fallback to ordinary RAM if private node memory is unavailable. However, he noted that existing kernel code using for_each_online_node() loops can still accidentally allocate from private nodes, making the approach fragile.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "NUMA",
+    "LSFMM+BPF",
+    "private memory nodes"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072881/",
+  "originalSite": "lwn.net",
+  "context": "NUMA (Non-Uniform Memory Access) systems categorize memory into nodes based on access latency; typically, any process can allocate from any node. Devices like CXL memory expanders or compressed RAM (zram) attach large memory pools, but the kernel's buddy allocator may treat them as general-purpose RAM, causing unwanted usage. Private memory nodes would restrict allocation to only explicitly authorized processes.",
+  "discussion": "David Hildenbrand questioned the correctness of the for_each_online_node() pattern, while John Hubbard noted that the code was correct when written but the world has changed. Kiryl Shutsemau argued that fixing broken allocation patterns would be better than adding a new flag, but Price countered that fixing all such patterns could take years.",
+  "references": [
+    {
+      "title": "Non-uniform memory access - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Non-uniform_memory_access"
+    },
+    {
+      "title": "zram - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zram"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

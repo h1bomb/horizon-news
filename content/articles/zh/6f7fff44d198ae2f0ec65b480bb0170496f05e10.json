@@ -1,0 +1,44 @@
+{
+  "id": "6f7fff44d198ae2f0ec65b480bb0170496f05e10",
+  "canonicalId": "33564e0c2247ccbd2155dafb46a144b576d68bac",
+  "slug": "claude-code-源代码通过-npm-源映射文件泄露",
+  "date": "2026-04-01",
+  "publishedAt": "2026-04-01T00:00:00Z",
+  "lang": "zh",
+  "title": "Claude Code 源代码通过 npm 源映射文件泄露",
+  "summary": "2026 年 3 月 31 日，安全研究员 Chaofan Shou 发现 Anthropic 的 Claude Code CLI 工具通过发布到 npm 注册表的 57 MB 源映射文件泄露了其全部源代码，涉及版本 2.1.88。这次意外泄露暴露了内部细节，包括隐藏模型和 AI 归属机制。 这一事件凸显了 AI 工具部署中的重大安全漏洞，可能暴露专有算法和敏感数据，从而削弱对 Anthropic 系统的信任，并影响整个 AI 行业的安全实践。它还引发了关于 AI 归属和公共仓库中源映射文件风险的担忧。 泄露是通过构建过程中生成的源映射文件（.map）发生的，该文件将压缩代码映射回可读源代码，使开发者能够重建整个代码库。这并非 Anthropic 首次面临此类问题，表明其发布流程中存在反复的安全疏忽。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Source Code Leak",
+    "Claude Code",
+    "npm Registry",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 31, 09:25"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/cwesagvvmcsg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Claude Code 是 Anthropic 开发的 AI 驱动编码代理和 CLI 工具，旨在使用 Opus 4.6 等模型协助软件开发任务。源映射文件通常由 webpack 或 Vite 等构建工具生成，通过将压缩的 JavaScript 或 TypeScript 代码链接到原始源代码来帮助调试。npm 注册表是 JavaScript 包的公共仓库，开发者在此发布和共享代码，但源映射文件处理不当可能导致代码意外暴露。",
+  "discussion": "社区评论混合了幽默和担忧，用户调侃 AI 工具未能检测自身安全泄露的讽刺性，并猜测内部实践如 AI 归属的“卧底模式”。一些人强调了安全影响，质疑 Claude 发现漏洞的能力，而另一些人则将其视为修复漏洞或分析代码的机会。",
+  "references": [
+    {
+      "title": "Claude Code's Entire Source Code Was Just Leaked via npm ...",
+      "url": "https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo"
+    },
+    {
+      "title": "Anthropic’s Claude source code leaked via a map file in their ...",
+      "url": "https://techstartups.com/2026/03/31/anthropics-claude-source-code-leak-goes-viral-again-after-full-source-hits-npm-registry-revealing-hidden-capybara-models-and-ai-pet/"
+    },
+    {
+      "title": "GitHub - soufianebouaddis/claude-code: Claude Code's leaked source ...",
+      "url": "https://github.com/soufianebouaddis/claude-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

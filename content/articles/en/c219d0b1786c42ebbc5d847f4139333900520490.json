@@ -1,0 +1,44 @@
+{
+  "id": "c219d0b1786c42ebbc5d847f4139333900520490",
+  "canonicalId": "d52f981d15d1675fbc9a2eeaea68c9d60a2c49e3",
+  "slug": "agent-safehouse-launches-macos-native-sandboxing-tool-for-local-ai-agents",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-08T20:30:00Z",
+  "lang": "en",
+  "title": "Agent Safehouse launches macOS-native sandboxing tool for local AI agents",
+  "summary": "Developer e1g has released Agent Safehouse, a tool that generates security policies for macOS's built-in `sandbox-exec` command to create isolated environments for locally running AI agents. The project is implemented as a shell script with pre-configured policy presets, aiming to simplify the complex process of correctly scoping sandbox permissions. This tool addresses a critical security gap for the growing trend of running powerful AI agents locally, which can autonomously execute code and access files. Effective sandboxing is widely seen as a prerequisite for the safe, widespread adoption of AI agents, especially in corporate or production environments where uncontrolled access poses significant risks. The tool is a policy generator wrapper around macOS's native `sandbox-exec` utility, which is noted in documentation as deprecated but remains a core part of the system's Seatbelt security framework. It focuses on identifying the minimum required permissions for agents to function, avoiding dependencies on virtualization or containers for isolation.",
+  "score": 7,
+  "tags": [
+    "macos",
+    "security",
+    "sandboxing",
+    "ai-agents",
+    "local-ai"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "atombender"
+    }
+  ],
+  "originalUrl": "https://agent-safehouse.dev/",
+  "originalSite": "agent-safehouse.dev",
+  "context": "`sandbox-exec` is a built-in macOS command-line utility that allows applications to run within a restricted, isolated environment with limited access to system resources. AI agents are software programs that can autonomously perform tasks, such as writing code or manipulating files, which necessitates strong isolation to prevent unintended system modifications or data breaches. Running agents locally, as opposed to in remote containers or servers, is preferred by some developers for performance and control but increases security concerns.",
+  "discussion": "The community reaction is positive, recognizing sandboxing as a major challenge for AI agent adoption. Commenters appreciate the practical, dependency-free approach using native macOS tools and the value of pre-configured presets that simplify a complex process. Discussions also highlight limitations of `sandbox-exec`, such as the lack of copy-on-write or overlay filesystem support, and mention alternative projects like Sandvault that use Unix user accounts for isolation.",
+  "references": [
+    {
+      "title": "sandbox-exec: macOS's Little-Known Command-Line Sandboxing Tool",
+      "url": "https://igorstechnoclub.com/sandbox-exec/"
+    },
+    {
+      "title": "How to sandbox third party applications when `sandbox-exec ...",
+      "url": "https://stackoverflow.com/questions/56703697/how-to-sandbox-third-party-applications-when-sandbox-exec-is-deprecated-now"
+    },
+    {
+      "title": "The situation on macOS is so frustrating. sandbox-exec ...",
+      "url": "https://news.ycombinator.com/item?id=44283454"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

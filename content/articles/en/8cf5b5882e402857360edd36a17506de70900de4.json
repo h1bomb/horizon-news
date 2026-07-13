@@ -1,0 +1,44 @@
+{
+  "id": "8cf5b5882e402857360edd36a17506de70900de4",
+  "canonicalId": "28930664182dceb9f3a92fc5fe924284c4fbe0d4",
+  "slug": "anthropic-details-sandboxing-techniques-for-claude-across-products",
+  "date": "2026-05-31",
+  "publishedAt": "2026-05-30T21:36:00Z",
+  "lang": "en",
+  "title": "Anthropic details sandboxing techniques for Claude across products",
+  "summary": "Anthropic published a detailed blog post explaining how they sandbox Claude across Claude.ai, Claude Code, and Cowork using gVisor, Seatbelt, and Bubblewrap respectively. This documentation addresses a common trust gap in AI sandboxing by providing thorough details on containment strategies, which helps users and developers assess security risks and build confidence in deploying agentic AI. Claude.ai uses gVisor; Claude Code on macOS uses Apple's Seatbelt framework and on Linux uses Bubblewrap; Claude Cowork runs in a full virtual machine (Apple Virtualization on macOS, HCS on Windows). The post also describes past risks like the api.anthropic.com/v1/files exfiltration vector.",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "Claude",
+    "sandboxing",
+    "security",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Sandboxing is a security technique that isolates applications to prevent them from affecting the host system or accessing unauthorized data. gVisor is an open-source application kernel developed by Google that implements many Linux system calls in userspace for stronger isolation than traditional containers. Seatbelt is Apple's sandboxing framework on macOS, and Bubblewrap is a lightweight Linux sandbox used by tools like Flatpak. Understanding these methods helps readers appreciate the layered security approach Anthropic employs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "gVisor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GVisor"
+    },
+    {
+      "title": "Bubblewrap - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Bubblewrap"
+    },
+    {
+      "title": "macOS Seatbelt - Nono Docs",
+      "url": "https://nono.sh/docs/cli/internals/seatbelt"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

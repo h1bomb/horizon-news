@@ -1,0 +1,44 @@
+{
+  "id": "19c9651dce9690a18ec8755948feab24281907ea",
+  "canonicalId": "1f991c146d52ba405aae745596f440f0a3fd9f5b",
+  "slug": "openai-开源-symphony-框架实现-ai-智能体驱动的项目流程自动化",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-06T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 开源 Symphony 框架，实现 AI 智能体驱动的项目流程自动化。",
+  "summary": "OpenAI 近日在 GitHub 上开源了 Symphony 框架，该框架旨在将项目任务转化为独立的、自动化的执行流程。该框架可以实时监测 Linear 等任务看板，并根据需求生成 AI 智能体来完成编码、CI 测试和代码审查等环节，最终实现 Pull Request 的安全合并。 这标志着在软件开发中实现完全自主的 AI 智能体工作流程迈出了重要一步，可能将开发者的角色从直接监督编码智能体转向更高层级的项目管理和战略规划。通过自动化重复的多步骤流程，它有望显著提高开发速度和一致性。 该项目目前处于工程预览阶段，并采用宽松的 Apache 2.0 协议发布。其核心由 Elixir 编程语言编写，并提供了完整的规范以支持其他语言的实现。",
+  "score": 8,
+  "tags": [
+    "AI-agents",
+    "open-source",
+    "developer-tools",
+    "workflow-automation",
+    "OpenAI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 5, 08:44"
+    }
+  ],
+  "originalUrl": "https://github.com/orgs/openai/repositories",
+  "originalSite": "github.com",
+  "context": "智能体工作流程是一种 AI 驱动的流程，其中自主的 AI 智能体以最少的人工干预做出决策、采取行动并协调任务。这些工作流程利用了智能体的核心组件，如推理和规划。用于 Symphony 核心的 Elixir 编程语言是一种函数式、并发式语言，以构建可扩展和可维护的应用程序而闻名，常用于支持处理高并发的系统。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "symphony /README.md at main · openai / symphony · GitHub",
+      "url": "https://github.com/openai/symphony/blob/main/README.md"
+    },
+    {
+      "title": "What are Agentic Workflows? | IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-workflows"
+    },
+    {
+      "title": "Elixir (programming language ) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

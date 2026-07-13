@@ -1,0 +1,36 @@
+{
+  "id": "d56af77a2d9d30aa566d4f44991d97580abc984e",
+  "canonicalId": "30d2d6731b139e2517664c148381552798861c5e",
+  "slug": "modernizing-linux-kernel-cryptography-api",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:14:00Z",
+  "lang": "en",
+  "title": "Modernizing Linux kernel cryptography API",
+  "summary": "At the 2026 Linux Security Summit North America, Eric Biggers presented ongoing efforts to replace the traditional Linux kernel crypto API with new library APIs that are safer and simpler to use. This modernization reduces complexity and potential security bugs in kernel cryptography, benefiting all kernel subsystems that rely on encryption, hashing, and authentication. The traditional crypto API, introduced in 2002, has become complex, slow, and poorly optimized for modern CPU-based acceleration, leading to maintenance and performance issues.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "cryptography",
+    "security",
+    "API design",
+    "LSS NA"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077427/",
+  "originalSite": "lwn.net",
+  "context": "The Linux kernel crypto API is a framework providing standardized interfaces for cryptographic algorithms such as ciphers, hashes, and message authentication codes. It has been part of the kernel since version 2.5.45 but its design has become outdated, prompting efforts to adopt library APIs for safer and more efficient crypto operations.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linux kernel crypto API",
+      "url": "https://en.wikipedia.org/wiki/Linux_kernel_crypto_API"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

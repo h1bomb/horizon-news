@@ -1,0 +1,40 @@
+{
+  "id": "9e951f1d43fbb86de820631aef348a1a1f5b81f5",
+  "canonicalId": "d092c17cfd63331c2ce50231b7aeba9b74c909e3",
+  "slug": "go-将支持泛型方法",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T09:02:00Z",
+  "lang": "zh",
+  "title": "Go 将支持泛型方法",
+  "summary": "Go 团队正在实现泛型方法支持，允许类型上的方法拥有自己的类型参数，该功能在 GitHub issue #77273 中提出。 该特性填补了 Go 泛型的一个主要空白，使代码更具表达力和可重用性，尤其适用于像 monad 或数据访问层这样的设计模式。 实现是渐进式的；泛型方法最初在最初的泛型提案中被推迟为“现在不做”的项目，但团队现在正谨慎地推进设计。",
+  "score": 8,
+  "tags": [
+    "Go",
+    "generics",
+    "programming languages",
+    "type parameters"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "f311a",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48291575"
+    }
+  ],
+  "originalUrl": "https://github.com/golang/go/issues/77273",
+  "originalSite": "github.com",
+  "context": "Go 在 1.18 版本中引入了泛型，允许函数和类型拥有类型参数。然而，泛型类型上的方法不能定义额外的类型参数，限制了某些模式。该提案解决了这一限制，使 Go 更接近 Java 或 C#等语言的灵活性。",
+  "discussion": "社区评论非常积极，用户对 monad 库等潜在模式表示兴奋，并指出该特性解决了从其他语言迁移过来的用户面临的一个重大差距。",
+  "references": [
+    {
+      "title": "generics - Go: How to specify a type constraint in which a",
+      "url": "https://stackoverflow.com/questions/77546447/go-how-to-specify-a-type-constraint-in-which-a-methods-argument-type-is-the-sa"
+    },
+    {
+      "title": "How to create generic method in Go? (method must have no type",
+      "url": "https://stackoverflow.com/questions/70668236/how-to-create-generic-method-in-go-method-must-have-no-type-parameters"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

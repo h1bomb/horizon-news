@@ -1,0 +1,40 @@
+{
+  "id": "02d177b8bffc7a970158727c8f25cc1e6d7828f1",
+  "canonicalId": "d1ea07384df05b040822b6d7cbc49d379fa6e076",
+  "slug": "苹果发布-xcode-263引入代理式编码并更新-sdk-要求",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T04:04:00Z",
+  "lang": "zh",
+  "title": "苹果发布 Xcode 26.3，引入代理式编码并更新 SDK 要求",
+  "summary": "苹果发布了 Xcode 26.3，引入了代理式编码功能，开发者可在 Xcode 内通过自然语言调用 OpenAI 的 Codex 和 Anthropic 的 Claude Agent，以理解项目、编写代码、构建应用、运行测试并修复错误。此外，苹果宣布自 2026 年 4 月 28 日起，提交至 App Store Connect 的应用必须使用 iOS 26、iPadOS 26、tvOS 26、visionOS 26 或 watchOS 26 的 SDK。 此次更新标志着苹果平台在 AI 辅助开发方面的重大飞跃，有望提升开发者的生产力，并改变应用构建的方式。强制性的 SDK 更新确保应用利用最新的操作系统功能和安全性。 Xcode 26.3 中的代理式编码使用 AI 代理（如 Anthropic 的 Claude Agent 和 OpenAI 的 Codex），这些代理可以自主分解任务、做出架构决策，并使用 Xcode 内置工具。更新的 SDK 要求适用于 2026 年 4 月 28 日起提交至 App Store Connect 的所有应用和游戏。",
+  "score": 8,
+  "tags": [
+    "Xcode",
+    "AI coding",
+    "Apple",
+    "developer tools",
+    "software update"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42187",
+  "originalSite": "t.me",
+  "context": "代理式编码是一种新的范式，AI 代理能够以更大的自主性规划和执行开发任务，超越简单的代码补全。Xcode 是苹果的集成开发环境（IDE），用于构建苹果平台上的应用。此前，Xcode 已有基本的 AI 代码补全功能，但此次更新引入了更高级的自主代理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Xcode 26.3 unlocks the power of agentic coding - Apple",
+      "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/"
+    },
+    {
+      "title": "Xcode 26.3 Lets AI Agents From Anthropic and OpenAI Build ...",
+      "url": "https://www.macrumors.com/2026/02/03/xcode-26-3-agentic-coding/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

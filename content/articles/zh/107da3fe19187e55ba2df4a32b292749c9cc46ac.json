@@ -1,0 +1,44 @@
+{
+  "id": "107da3fe19187e55ba2df4a32b292749c9cc46ac",
+  "canonicalId": "d7b33b405b21dc0d3e12f43aaf62fe256dbdc079",
+  "slug": "linux-内核-70-发布包含-rust-代码稳定化io-uring-过滤和调度器改进",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-13T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 7.0 发布，包含 Rust 代码稳定化、io_uring 过滤和调度器改进",
+  "summary": "Linus Torvalds 在九周开发周期后发布了 Linux 内核 7.0，移除了 Rust 代码的实验状态，为 io_uring 操作添加了新的过滤机制，并在 CPU 调度器中默认启用了惰性抢占。 此版本意义重大，因为它稳定了 Rust 以支持更安全的内核开发，通过 io_uring 过滤提升了 I/O 性能，并通过惰性抢占提高了系统吞吐量，影响全球服务器、云和嵌入式系统。 其他重要变化包括时间片扩展支持、nullfs 文件系统、XFS 的自愈功能、交换子系统改进和 AccECN 拥塞通知，详细信息可在 LWN 合并窗口摘要和 KernelNewbies 页面找到。",
+  "score": 9,
+  "tags": [
+    "linux-kernel",
+    "systems-programming",
+    "operating-systems",
+    "rust",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 12, 21:09"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067279/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核是 Linux 操作系统的核心，负责管理硬件和软件资源。Rust 是一种以内存安全著称的编程语言，其引入旨在减少内核代码中的漏洞。io_uring 是 Linux 的高性能异步 I/O 接口，而惰性抢占是一种调度器模式，通过延迟任务切换来平衡吞吐量和延迟。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "As the Kernel Turns: Rust in Linux saga reaches the... - Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2025/02/linux-leaders-pave-a-path-for-rust-in-kernel-while-supporting-c-veterans/"
+    },
+    {
+      "title": "io_uring - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Io_uring"
+    },
+    {
+      "title": "The long road to lazy preemption [LWN.net]",
+      "url": "https://lwn.net/Articles/994322/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

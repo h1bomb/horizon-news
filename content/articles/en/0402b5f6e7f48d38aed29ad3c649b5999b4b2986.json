@@ -1,0 +1,40 @@
+{
+  "id": "0402b5f6e7f48d38aed29ad3c649b5999b4b2986",
+  "canonicalId": "a01f3cf0a55a5b18842ec98372f87d843f46ea96",
+  "slug": "microsoft-launches-three-proprietary-ai-models-for-transcription-voice-and-image-generation",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T11:31:00Z",
+  "lang": "en",
+  "title": "Microsoft launches three proprietary AI models for transcription, voice, and image generation.",
+  "summary": "On April 2, Microsoft released three proprietary AI models—MAI-Transcribe-1 for speech-to-text, MAI-Voice-1 for text-to-speech, and MAI-Image-2 for image generation—available through Microsoft Foundry and a new MAI Playground. These models target enterprise applications with improved performance, such as MAI-Transcribe-1 achieving a 3.8% average word error rate across 25 languages in the FLEURS benchmark, outperforming OpenAI's Whisper-large-v3. This release matters because it positions Microsoft as a direct competitor to OpenAI and Google in the enterprise AI market, offering specialized models for high-value applications like transcription, voice synthesis, and image generation. It could accelerate AI adoption in businesses by providing faster, more accurate tools integrated into Microsoft's ecosystem, such as Bing and PowerPoint. MAI-Voice-1 can generate 60 seconds of speech in 1 second and supports voice customization with just a few seconds of audio, while MAI-Image-2 offers at least 2x faster generation speeds in Foundry and Copilot compared to its predecessor. However, specific details on model architectures or training data are not provided in the content, and availability may be limited to enterprise users through Microsoft's platforms.",
+  "score": 8,
+  "tags": [
+    "AI Models",
+    "Microsoft",
+    "Enterprise AI",
+    "Speech Technology",
+    "Image Generation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google",
+  "originalSite": "venturebeat.com",
+  "context": "Microsoft Foundry is a platform for deploying and managing AI models, similar to other cloud-based AI services, while MAI Playground is a new tool for testing and experimenting with these models. The FLEURS benchmark is a multilingual evaluation framework for speech tasks like automatic speech recognition (ASR), measuring metrics such as word error rate (WER) across multiple languages to assess model accuracy. Proprietary AI models are developed in-house by companies like Microsoft, offering controlled performance and integration advantages over open-source alternatives.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2205.12446] FLEURS: Few-shot Learning Evaluation of ...",
+      "url": "https://arxiv.org/abs/2205.12446"
+    },
+    {
+      "title": "FLEURS Leaderboard - llm-stats.com",
+      "url": "https://llm-stats.com/benchmarks/fleurs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

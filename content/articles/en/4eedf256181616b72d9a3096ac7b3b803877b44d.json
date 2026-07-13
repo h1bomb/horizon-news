@@ -1,0 +1,31 @@
+{
+  "id": "4eedf256181616b72d9a3096ac7b3b803877b44d",
+  "canonicalId": "799d537700d6bb91cc396980d279e79b9623fecc",
+  "slug": "reflecting-on-githubs-transformation-of-open-source",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T21:17:00Z",
+  "lang": "en",
+  "title": "Reflecting on GitHub's Transformation of Open Source",
+  "summary": "A retrospective blog post by Armin Ronacher examines how GitHub shifted open source focus from projects to individuals, while also critiquing centralization and archival practices. This reflection highlights GitHub's profound cultural impact on open source, sparking ongoing debates about centralization versus decentralization and the preservation of software heritage. The post notes that GitHub made it easy to create repositories tied to individuals rather than formal projects, and argues that its role as a central archive may atrophy collective archival skills.",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "open source",
+    "version control",
+    "community",
+    "archival"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mlex"
+    }
+  ],
+  "originalUrl": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+  "originalSite": "lucumr.pocoo.org",
+  "context": "GitHub, launched in 2008, became the dominant platform for hosting Git repositories, introducing social features like profiles and forks that emphasized individual contributors. Before GitHub, platforms like SourceForge required more formal project setup. The post reflects on how this shift changed open source culture.",
+  "discussion": "Comments debate the merits of Git versus Fossil, with one user lamenting Git's dominance despite Fossil's integrated tools. Another commenter argues that GitHub's centralization is harmful because it atrophies collective archival skills, advocating for decentralized forges with federation.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

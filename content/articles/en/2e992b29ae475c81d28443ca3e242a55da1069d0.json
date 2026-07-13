@@ -1,0 +1,40 @@
+{
+  "id": "2e992b29ae475c81d28443ca3e242a55da1069d0",
+  "canonicalId": "fcc81927d00959a39d6d5727921a2deff2f8aa17",
+  "slug": "turboquant-in-llamacpp-benchmarks-shows-kv-memory-savings-but-performance-issues",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-26T16:16:00Z",
+  "lang": "en",
+  "title": "TurboQuant in llama.cpp benchmarks shows KV memory savings but performance issues",
+  "summary": "A user benchmarked Google's TurboQuant compression method in llama.cpp, demonstrating significant KV cache memory savings but encountering performance issues on both Metal (Apple Silicon) and CUDA platforms. The implementation showed 50% slower tokens per second on Metal compared to fp16 and produced incorrect outputs on CUDA. This matters because TurboQuant's ability to compress KV caches to 3 bits with minimal accuracy loss could dramatically reduce memory requirements for running large language models locally, making advanced AI more accessible on consumer hardware with limited VRAM. For GPU-rich users, it could enable context windows up to 1 million tokens. The benchmark specifically tested TurboQuant's implementation in llama.cpp, focusing on KV cache compression which achieved the expected memory savings. However, the author noted incomplete implementation likely caused the performance degradation on Metal and incorrect outputs on CUDA, suggesting further optimization is needed.",
+  "score": 7,
+  "tags": [
+    "AI Compression",
+    "llama.cpp",
+    "Benchmarking",
+    "Quantization",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "tcarambat"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1s4bzo2",
+  "originalSite": "reddit.com",
+  "context": "TurboQuant is a training-free compression algorithm developed by Google Research that quantizes LLM key-value (KV) caches to 3 bits with minimal accuracy loss, reducing memory usage by 6x and potentially speeding up attention computation. KV caches store the model's working memory during inference and grow proportionally with context length, creating memory bottlenecks for long-context applications. llama.cpp is an open-source inference engine optimized for running LLMs efficiently on consumer hardware, supporting various backends including Metal for Apple Silicon and CUDA for NVIDIA GPUs.",
+  "discussion": "Community discussion highlighted concerns about accuracy verification, with one commenter emphasizing the need for Kullback-Leibler divergence (KLD) checks to validate the compression's quality. Others requested testing at longer context lengths (e.g., 128k or 2048 tokens) to better assess performance, and questioned whether the compression merely enables longer contexts with existing accuracy degradation rather than improving accuracy itself.",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "Google's TurboQuant reduces AI LLM cache memory capacity requirements by at least six times — up to 8x performance boost on Nvidia H100 GPUs, compresses KV caches to 3 bits with no accuracy loss | Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-turboquant-compresses-llm-kv-caches-to-3-bits-with-no-accuracy-loss"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

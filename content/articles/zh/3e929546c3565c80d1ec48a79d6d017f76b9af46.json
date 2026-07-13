@@ -1,0 +1,44 @@
+{
+  "id": "3e929546c3565c80d1ec48a79d6d017f76b9af46",
+  "canonicalId": "7a33eae62bf523d16256b1055076551acd524793",
+  "slug": "stepfun-发布用于训练-step-35-flash-模型的-sft-数据集",
+  "date": "2026-03-15",
+  "publishedAt": "2026-03-15T00:00:00Z",
+  "lang": "zh",
+  "title": "StepFun 发布用于训练 Step 3.5 Flash 模型的 SFT 数据集",
+  "summary": "StepFun 已公开发布了用于训练其 Step 3.5 Flash 模型的监督微调 (SFT) 数据集，该数据集在 Hugging Face 上以非商业许可提供。 此次发布通过支持可复现性、进一步研究和模型比较，对开源 AI 社区做出了重要贡献，同时也为 StepFun 建立了透明度的声誉。 该数据集在 Hugging Face 上以非商业许可发布，这限制了商业用途但允许研究和实验。Step 3.5 Flash 以其在编码、智能体能力和工具使用方面的强大性能而著称，尽管一些用户指出其思考过程可能较慢。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Open Source",
+    "Fine-tuning",
+    "Datasets"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 14, 18:56"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT",
+  "originalSite": "huggingface.co",
+  "context": "监督微调 (SFT) 是一种使用标注数据将预训练的大型语言模型 (LLM) 适配到特定任务的技术，模型学习复制所提供示例的风格。Step 3.5 Flash 是 StepFun 为推理和智能体能力设计的开源基础模型，并以 INT4/GGUF 等格式提供以实现高效部署。Hugging Face 是一个共享 AI 模型和数据集的平台，通常附带指定使用权限的许可。",
+  "discussion": "社区反应非常积极，用户对 StepFun 的透明度和数据集在微调方面的潜力表示赞赏。评论强调了对此次发布的尊重、对未来模型（如 Step-3.6 或 StepFun 4）的期待，以及对 Step 3.5 Flash 在编码和工具使用方面性能的赞扬，尽管一些人指出其非商业许可是一个限制。",
+  "references": [
+    {
+      "title": "Understanding and Using Supervised Fine-Tuning (SFT) for Language Models",
+      "url": "https://cameronrwolfe.substack.com/p/understanding-and-using-supervised"
+    },
+    {
+      "title": "Running Step-3.5-Flash on Single Spark - DGX Spark / GB10",
+      "url": "https://forums.developer.nvidia.com/t/running-step-3-5-flash-on-single-spark/359457"
+    },
+    {
+      "title": "Licenses · Hugging Face",
+      "url": "https://huggingface.co/docs/hub/repositories-licenses"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

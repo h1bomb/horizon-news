@@ -1,0 +1,44 @@
+{
+  "id": "623d407abeb3d383794a6c1b9f6eb6899f66d449",
+  "canonicalId": "f6603bd1f004993dfaec51d370211e17046b7aa0",
+  "slug": "claude-sonnet-5-released-with-near-opus-performance",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T21:23:00Z",
+  "lang": "en",
+  "title": "Claude Sonnet 5 Released with Near-Opus Performance",
+  "summary": "Anthropic released Claude Sonnet 5 on June 30, 2026, claiming performance close to Opus 4.8 at lower prices, along with a system card detailing its safeguards. This release offers developers a more cost-effective alternative near the top-tier Opus performance, potentially accelerating adoption of Anthropic's models in applications requiring high intelligence. Sonnet 5 features a 1 million token context window, 128,000 output tokens, no longer supports sampling parameters like temperature, and uses a new tokenizer that increases token counts by about 30% for English, effectively raising prices despite unchanged per-token rates.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Claude",
+    "Anthropic",
+    "language models",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Anthropic classifies its models into tiers: Sonnet (mid-range), Opus (high-end), and Mythos (specialized for cybersecurity, not publicly released). The system card explains that Sonnet 5's safeguards are similar to Opus 4.7/4.8 because it is less capable at cyber tasks than Mythos 5. The new tokenizer standardizes tokenization across models, leading to higher token counts for most languages except Simplified Chinese.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Anthropic releases Opus 4 . 8 AI model with four times better... | dev.ua",
+      "url": "https://dev.ua/en/news/anthropic-vypustyla-opus-48-1780047525"
+    },
+    {
+      "title": "Claude Mythos - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos"
+    },
+    {
+      "title": "Security beyond the model: Introducing AI system cards",
+      "url": "https://www.redhat.com/en/blog/security-beyond-model-introducing-ai-system-cards"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

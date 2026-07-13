@@ -1,0 +1,45 @@
+{
+  "id": "dba77e9ffecf9da78b9a0b280ac4b51e5b542a94",
+  "canonicalId": "a2e900a63d1b6ce3339b12c053ed6763027fa1eb",
+  "slug": "claude-code-被发现嵌入隐秘隐写标记",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T15:44:00Z",
+  "lang": "zh",
+  "title": "Claude Code 被发现嵌入隐秘隐写标记",
+  "summary": "Anthropic 的终端编码工具 Claude Code 被发现未经披露便在发出的 API 请求中嵌入隐写标记。一名开发者逆向分析了该工具并公布了发现，引发了社区讨论。 这引发了依赖 Claude Code 的开发者的严重透明度和信任担忧，因为隐藏标记可能被用于追踪使用情况或识别特定用户。它还凸显了 AI 开发工具中的伦理和披露问题。 隐写标记被插入到 Base64 编码的字符串中，使用美元符号作为隐藏信号，可能旨在识别来自从事模型蒸馏的中国公司的请求。Anthropic 尚未对这些发现正式置评。",
+  "score": 8,
+  "tags": [
+    "steganography",
+    "AI",
+    "Anthropic",
+    "developer tools",
+    "transparency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kirushik",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48734373"
+    }
+  ],
+  "originalUrl": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+  "originalSite": "thereallo.dev",
+  "context": "隐写术是将信息隐藏在其他数据中以避免检测的做法，常用于数字水印或隐蔽通信。Claude Code 是 Anthropic 推出的代理型编码工具，运行在终端中，帮助开发者编辑代码和运行命令。未经披露就隐藏标记的行为因违背了类开源工具对透明度的期望而招致批评。",
+  "discussion": "社区反应不一：一些人淡化此事，认为用于识别中国公司模型蒸馏的意图显而易见；另一些人则谴责缺乏透明度是不道德的。几位评论者表达了对 Anthropic 的不信任，并建议使用 Codex CLI 等开源替代方案。还有少数人批评其实现草率，指出本可使用更巧妙的隐藏编码技术。",
+  "references": [
+    {
+      "title": "Steganography - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steganography"
+    },
+    {
+      "title": "Claude Code overview - Anthropic",
+      "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+    },
+    {
+      "title": "GitHub - anthropics/ claude - code : Claude Code is an agentic coding ...",
+      "url": "https://github.com/anthropics/claude-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

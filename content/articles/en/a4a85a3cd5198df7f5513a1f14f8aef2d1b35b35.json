@@ -1,0 +1,44 @@
+{
+  "id": "a4a85a3cd5198df7f5513a1f14f8aef2d1b35b35",
+  "canonicalId": "76cff0e36df3c6b7707203b1868dba30ef3f3a06",
+  "slug": "minimax-unveils-msa-1m-context-with-4x-speedup",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T01:26:00Z",
+  "lang": "en",
+  "title": "MiniMax Unveils MSA: 1M Context with 4x Speedup",
+  "summary": "MiniMax introduced MiniMax Sparse Attention (MSA), a new attention architecture that natively supports a 1-million-token context window, achieving 4x faster execution than Flash-Sparse-Attention and reducing per-token compute to 1/20th of previous models. This breakthrough enables efficient long-context processing for large language models, critical for advanced agentic tasks and multimodal applications, potentially setting a new standard for open-weight models with frontier coding, 1M context, and native multimodality. MSA uses a 'KV outer gather Q' approach that treats KV blocks as the outer loop to aggregate hit queries, ensuring contiguous memory reads and fetching each block exactly once. It achieves up to 9x speedup in prefilling and 15x speedup in decoding phases.",
+  "score": 9,
+  "tags": [
+    "attention architecture",
+    "LLM",
+    "context window",
+    "optimization",
+    "MiniMax"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/superintelligence03"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/",
+  "originalSite": "reddit.com",
+  "context": "Standard attention mechanisms scale quadratically with sequence length, making long-context inference expensive. Sparse attention methods reduce this complexity but often sacrifice recall or require complex implementations. MSA addresses these limitations by restructuring memory access patterns at the operator level.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MiniMax Releases MiniMax M3 with MSA Architecture... - MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/"
+    },
+    {
+      "title": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All...",
+      "url": "https://www.minimax.io/blog/minimax-m3"
+    },
+    {
+      "title": "MiniMax Goes Sparse : Decoding M3's Attention from a Single Diagram",
+      "url": "https://huggingface.co/blog/AtlasCloud-AI/minimax-goes-sparse"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

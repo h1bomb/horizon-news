@@ -1,0 +1,41 @@
+{
+  "id": "1baa225aadadeb1d92c2ceb2f233660ab1247334",
+  "canonicalId": "c40509b07ae7a870fe4a3ec8d6bc5a065a6c7003",
+  "slug": "astro-70-released-with-rust-powered-tooling-and-faster-builds",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T18:30:00Z",
+  "lang": "en",
+  "title": "Astro 7.0 Released with Rust-Powered Tooling and Faster Builds",
+  "summary": "Astro 7.0 has been released, featuring a new Rust-powered compiler and Markdown pipeline, reduced dependencies from 247 to 190, and build performance improvements of 15-61% when combined with Vite 8 and Rolldown bundler. This release marks a significant step in reducing JavaScript ecosystem bloat and improving build performance for static sites. Developers using Astro for content-driven websites will benefit from faster compilation and lower maintenance overhead. Astro 7.0 also stabilizes route caching and adds experimental CDN cache providers for Netlify, Vercel, and Cloudflare. The Rust compiler was contributed by a community member (Princesseuh).",
+  "score": 8,
+  "tags": [
+    "web development",
+    "Astro",
+    "JavaScript",
+    "static site generator",
+    "build tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "saikatsg",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48821653"
+    }
+  ],
+  "originalUrl": "https://astro.build/blog/astro-7/",
+  "originalSite": "astro.build",
+  "context": "Astro is a modern static site generator that allows developers to use components from various UI frameworks (React, Vue, Svelte, etc.) while shipping zero JavaScript by default. It has evolved from a JavaScript-based build tool to incorporate Rust for performance-critical tasks, following a trend seen in the developer tools ecosystem (e.g., Astral's Python tools). The reduction in dependencies aligns with a broader industry push toward leaner Node.js projects.",
+  "discussion": "Community reactions are mixed but largely positive. Princesseuh, the Rust compiler contributor, offered to answer questions. Some users praised the dependency reduction (from 247 to 190) and the familiar static-site workflow. However, concerns were raised about version instability (seven major versions implying frequent breaking changes) and confusion over Astro's role as a framework that also supports other frameworks.",
+  "references": [
+    {
+      "title": "Astro 7.0 | Astro - astro.build",
+      "url": "https://astro.build/blog/astro-7/"
+    },
+    {
+      "title": "Astro 6.0 | Astro",
+      "url": "https://astro.build/blog/astro-6/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

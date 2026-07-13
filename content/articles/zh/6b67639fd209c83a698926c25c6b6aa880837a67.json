@@ -1,0 +1,44 @@
+{
+  "id": "6b67639fd209c83a698926c25c6b6aa880837a67",
+  "canonicalId": "7e7cee23a3562f742456e8d59d5380b8eb2a6f68",
+  "slug": "安全专家呼吁开发者停止使用通行密钥加密用户数据",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-28T00:00:00Z",
+  "lang": "zh",
+  "title": "安全专家呼吁开发者停止使用通行密钥加密用户数据",
+  "summary": "安全专家 Tim Cappalli 于 2026 年 2 月公开发出呼吁，敦促身份识别行业停止推广和使用通行密钥（passkeys）来加密用户数据。他警告称，当用户不可避免地丢失其通行密钥时，这种做法将导致数据永久丢失。 这一警告突出了一个关键的错误使用模式，即开发者混淆了身份验证与数据加密，可能导致用户永久无法访问自己的数据。随着通行密钥的普及，区分这两者对于防止大规模、不可逆的数据丢失以及维护用户对无密码技术的信任至关重要。 该警告特别针对使用 WebAuthn PRF（伪随机函数）扩展的做法，该扩展允许从通行密钥派生加密密钥。尽管像 1Password 这样的工具已将其用于加密，但核心问题在于，与传统的密码重置流程不同，当通行密钥丢失时，缺乏用户友好的恢复机制。",
+  "score": 7,
+  "tags": [
+    "security",
+    "passkeys",
+    "encryption",
+    "authentication",
+    "usability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Feb 27, 22:49"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "通行密钥是一种数字凭证，它使用公钥-私钥对进行防网络钓鱼的无密码身份验证，通常基于 WebAuthn 标准构建。它们的主要设计目的是向服务证明用户身份（身份验证）。WebAuthn PRF 扩展是一项较新的功能，它允许从相同的加密材料中派生加密密钥，从而模糊了身份验证和加密之间的界限。虽然某些服务可能提供如 iCloud 钥匙串托管之类的恢复选项，但这些并非普遍存在，且用户可能不理解加密的永久性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Passkeys & WebAuthn PRF for End-to-End Encryption (2026)",
+      "url": "https://www.corbado.com/blog/passkeys-prf-webauthn"
+    },
+    {
+      "title": "1Password can now encrypt data using your saved passkeys |",
+      "url": "https://1password.com/blog/encrypt-data-saved-passkeys"
+    },
+    {
+      "title": "About the security of passkeys - Apple Support",
+      "url": "https://support.apple.com/en-us/102195"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

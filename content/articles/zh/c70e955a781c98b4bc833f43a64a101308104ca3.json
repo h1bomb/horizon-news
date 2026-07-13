@@ -1,0 +1,40 @@
+{
+  "id": "c70e955a781c98b4bc833f43a64a101308104ca3",
+  "canonicalId": "5be967de759c7e306fa035429899a14ed68979b2",
+  "slug": "openai-和-google-被指向黑名单中国公司子公司提供-ai",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T09:59:00Z",
+  "lang": "zh",
+  "title": "OpenAI 和 Google 被指向黑名单中国公司子公司提供 AI",
+  "summary": "据《金融时报》报道，OpenAI 和 Google 一直向阿里巴巴、百度和腾讯的新加坡子公司提供先进 AI 服务，这些母公司均被列入五角大楼的 1260H 名单（中国军方企业名单）。这些交易在美国现行出口管制下合法，但已重新引发实施更严格管制的呼声。 该报道揭示了美国 AI 技术出口管制中的潜在漏洞——海外子公司可能不受限制。这引发了对主要 AI 提供商合规性的重大质疑，并可能加速推动更广泛的 AI 出口限制。 OpenAI 最近在发现“模型蒸馏”行为后，暂停了阿里巴巴关联企业的 API 访问权限，并上报美国政府。相比之下，Anthropic 采取了更严格的政策，全面禁止所有中国实体及其海外子公司访问其前沿 AI 模型。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "export controls",
+    "geopolitics",
+    "OpenAI",
+    "Google"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f",
+  "originalSite": "ft.com",
+  "context": "五角大楼的 1260H 名单根据 FY2021 NDAA 第 1260H 条款每年更新，列出在美国运营且被认为与中国人民解放军有联系的中国公司。模型蒸馏是一种将大型 AI 模型的知识转移到较小模型的技术，可能被用于未经授权使用受限模型。美国当前的出口管制主要限制向中国直接转让 AI 技术，但可能不涵盖海外子公司。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model distillation",
+      "url": "https://en.wikipedia.org/wiki/Model_distillation"
+    },
+    {
+      "title": "Pentagon Adds 65 New Entities to the 1260H List of Chinese Military Companies",
+      "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260611-pentagon-adds-65-new-entities-to-the-1260h-list-of-chinese-military-companies"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

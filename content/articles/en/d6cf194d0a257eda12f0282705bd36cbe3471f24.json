@@ -1,0 +1,40 @@
+{
+  "id": "d6cf194d0a257eda12f0282705bd36cbe3471f24",
+  "canonicalId": "cd84ae7390b0714cede25ceab908aec43fb3cbf6",
+  "slug": "prefer-strict-tables-in-sqlite",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T17:33:00Z",
+  "lang": "en",
+  "title": "Prefer STRICT Tables in SQLite",
+  "summary": "An article recommends using STRICT tables in SQLite, introduced in version 3.37.0 (2021-11-27), to enforce data type constraints and improve database reliability, especially when multiple applications share the same database. This tip addresses a common criticism of SQLite's dynamic typing, making it more robust for multi-application scenarios and encouraging safer database practices. It could drive adoption of STRICT tables and potentially influence future defaults. STRICT tables enforce exact data types and disallow type coercion, but they do not support some types like DATE. Each table must be explicitly declared as STRICT.",
+  "score": 8,
+  "tags": [
+    "SQLite",
+    "databases",
+    "type safety",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ingve",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48873940"
+    }
+  ],
+  "originalUrl": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+  "originalSite": "evanhahn.com",
+  "context": "SQLite traditionally uses dynamic typing (flexible typing), where columns can store any data type regardless of the declared type, which can lead to accidental type mismatches. STRICT tables, available since SQLite 3.37.0, change this by enforcing strict type checking, ensuring that inserted data matches the declared column type. This is particularly beneficial when a database is shared across multiple applications or when stronger type safety is desired.",
+  "discussion": "Comments generally welcome the feature, with some users wishing STRICT were the default. Concerns include missing data types like DATE and debates about SQLite's use case as an embedded database versus shared databases. The discussion reflects a desire for more type safety while acknowledging SQLite's flexibility.",
+  "references": [
+    {
+      "title": "STRICT Tables",
+      "url": "https://www.sqlite.org/stricttables.html"
+    },
+    {
+      "title": "SQLite Strict Tables",
+      "url": "https://www.sqlitetutorial.net/sqlite-strict-tables/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

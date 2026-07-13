@@ -1,0 +1,40 @@
+{
+  "id": "66a851fe31151c11e1bfdf930cf837e2b265a5cf",
+  "canonicalId": "16880f5b8f301fa36317ab4d22c20482e915f27e",
+  "slug": "提议重构-linux-this-cpu-操作以提升性能",
+  "date": "2026-05-20",
+  "publishedAt": "2026-05-20T00:00:00Z",
+  "lang": "zh",
+  "title": "提议重构 Linux this_cpu 操作以提升性能",
+  "summary": "在 2026 年 LSFMM+BPF 峰会上，Yang Shi 提议使用每 CPU 页表重新实现 Linux 的 this_cpu 操作，让每个变量在每个 CPU 上拥有相同的地址，从而消除在 Arm 等架构上禁用抢占的需要。 这一改动能显著提升非 x86 架构的性能，通过减少多指令序列和禁用抢占的开销，可能惠及使用 Arm 及其他 CPU 的各类服务器和移动设备。 该提议需要对每 CPU 变量进行双重映射（一个全局映射用于初始化，一个每 CPU 映射用于访问），并面临 Linus Torvalds 因 TLB 管理难题而长期存在的反对意见。在 160 核 Arm 系统上的基准测试显示，内核构建的系统时间减少了 13-18%。",
+  "score": 8,
+  "tags": [
+    "kernel",
+    "performance",
+    "per-CPU",
+    "LSFMM",
+    "Linux"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 19, 14:30"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073395/",
+  "originalSite": "lwn.net",
+  "context": "内核的 this_cpu 操作用于快速访问每 CPU 变量，这些变量是按 CPU 编号索引的数组，以避免加锁。在 x86 上，段寄存器实现了单指令原子访问；而在 Arm 等架构上，多指令序列需要禁用抢占，导致性能损失。该提议旨在通过每 CPU 页表使每 CPU 变量拥有统一地址，从而消除这一惩罚。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "this_cpu operations — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/v7.1-rc4/core-api/this_cpu_ops.html"
+    },
+    {
+      "title": "Per-CPU variables · Linux Inside",
+      "url": "https://0xax.gitbooks.io/linux-insides/content/Concepts/linux-cpu-1.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

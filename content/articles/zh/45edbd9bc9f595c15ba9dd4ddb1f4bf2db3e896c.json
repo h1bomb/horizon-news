@@ -1,0 +1,45 @@
+{
+  "id": "45edbd9bc9f595c15ba9dd4ddb1f4bf2db3e896c",
+  "canonicalId": "2364ec8f54a56e258a2e7b1019ca0e95c9e32202",
+  "slug": "f-droidandroid-开发者验证是特洛伊木马",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T03:00:00Z",
+  "lang": "zh",
+  "title": "F-Droid：Android 开发者验证是特洛伊木马",
+  "summary": "F-Droid 发布文章称，Google 从 2026 年 9 月开始要求验证开发者身份并注册包名的 Android 开发者验证，实际上是一种伪装成保护的威胁，尤其危害开源应用分发。 此验证可能限制在认证 Android 设备上安装来自 F-Droid 等第三方商店的应用，损害用户自由和开源生态。这代表了平台控制的更广泛趋势，影响依赖替代应用来源的开发者与用户。 Google 的开发者验证要求开发者验证身份并注册包名，从 2026 年 9 月起，在特定地区，只有已验证开发者的应用才能安装在认证 Android 设备上。F-Droid 声称这给了 Google 对应用分发的控制权，如同特洛伊木马。",
+  "score": 8,
+  "tags": [
+    "Android",
+    "F-Droid",
+    "developer verification",
+    "open source",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "drewfax",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48755965"
+    }
+  ],
+  "originalUrl": "https://f-droid.org/2026/07/01/adv-malware.html",
+  "originalSite": "f-droid.org",
+  "context": "F-Droid 是 Android 的免费开源应用仓库，提供无用户跟踪或非自由依赖的应用。Google Play 商店长期以来要求开发者注册，但从其他来源侧载通常被允许。新的验证将这一要求扩展到认证设备上的所有应用，可能阻止所有来源的未验证应用。",
+  "discussion": "社区评论反应不一：一些人支持 F-Droid 的立场并建议切换到 GrapheneOS 等替代操作系统，另一些人则批评文章基调幼稚且适得其反。有评论指出恐慌情绪可能损害 F-Droid 的可信度。",
+  "references": [
+    {
+      "title": "F-Droid",
+      "url": "https://en.wikipedia.org/wiki/F-Droid"
+    },
+    {
+      "title": "Android developer verification | Android Developers",
+      "url": "https://developer.android.com/developer-verification"
+    },
+    {
+      "title": "F-Droid - Free and Open Source Android App Repository",
+      "url": "https://f-droid.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

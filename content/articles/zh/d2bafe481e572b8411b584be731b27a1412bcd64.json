@@ -1,0 +1,40 @@
+{
+  "id": "d2bafe481e572b8411b584be731b27a1412bcd64",
+  "canonicalId": "3bc9961713140c26e34123fbb62c56fa82ca78e3",
+  "slug": "scail-2开源端到端角色动画模型",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T18:43:00Z",
+  "lang": "zh",
+  "title": "SCAIL-2：开源端到端角色动画模型",
+  "summary": "SCAIL-2 是一个开源模型，可直接从视频驱动角色动画，无需中间姿态表示，基于 60K 运动对训练，支持角色替换和多角色场景。 通过消除脆弱的中间表示，SCAIL-2 实现了更鲁棒、更灵活的角色动画，支持多样化的驱动源，其开源发布可能加速计算机视觉和动画领域的研究。 SCAIL-2 采用统一运动迁移接口，包含专用掩码通道和旋转位置编码（RoPE），并通过偏置感知 DPO 后训练来减轻详细区域（如手指）的合成数据偏差。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "computer vision",
+    "character animation",
+    "open source",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/pmttyji"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/",
+  "originalSite": "reddit.com",
+  "context": "传统的角色动画方法通常依赖于骨骼图或掩码等中间表示，这在复杂运动中可能产生歧义，并将驱动源限制为人体运动。SCAIL-2 采用端到端潜视频扩散模型，结合上下文内条件，直接从视频对学习，无需显式姿态提取。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SCAIL-2: Unifying Controlled Character Animation with End - to - end ...",
+      "url": "https://teal024.github.io/SCAIL-2/"
+    },
+    {
+      "title": "RoPE : A Detailed Guide to Rotary Position Embedding in... | Medium",
+      "url": "https://medium.com/@mlshark/rope-a-detailed-guide-to-rotary-position-embedding-in-modern-llms-fde71785f152"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "0d6cff440d5182701aac83cf9fde9ab8b9b2e3bc",
+  "canonicalId": "cf50241b30f1c7d96e3bf88b659fc1d229ba799e",
+  "slug": "simon-willison-launches-syntaqlite-playground-a-browser-based-sqlite-ai-tool-compiled-to-webassembly",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-05T19:32:00Z",
+  "lang": "en",
+  "title": "Simon Willison launches Syntaqlite Playground, a browser-based SQLite AI tool compiled to WebAssembly.",
+  "summary": "Simon Willison introduced a browser-based playground for Syntaqlite, an AI-powered SQLite tool, on April 5, 2026, compiling it to a WebAssembly wheel for integration with Pyodide. This allows users to format, parse, validate, and tokenize SQLite SQL queries directly in a web browser. This matters because it makes advanced SQLite tooling accessible in any browser without local installation, lowering the barrier for developers to experiment with AI-assisted SQL validation and analysis. It reflects a trend towards browser-based development tools and showcases the practical use of WebAssembly for running complex, compiled code on the web. The playground is built by compiling Syntaqlite, which uses C and Rust, into a WebAssembly wheel for Pyodide, enabling Python library execution in the browser. Notably, Syntaqlite already has its own WebAssembly playground, which Simon Willison initially missed but later acknowledged in an update.",
+  "score": 7,
+  "tags": [
+    "SQLite",
+    "WebAssembly",
+    "AI Tools",
+    "Python",
+    "Browser Development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Syntaqlite is an AI-powered tool for SQLite, developed by Lalit Maganti to handle SQL validation, formatting, and parsing, stemming from experience with large-scale SQL codebases. WebAssembly is a binary instruction format that allows code written in languages like C and Rust to run efficiently in web browsers, while Pyodide is a Python distribution based on WebAssembly that enables Python packages to run in browsers without server-side processing.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "syntaqlite docs",
+      "url": "https://docs.syntaqlite.com/main/"
+    },
+    {
+      "title": "Pyodide — Version 0.29.3",
+      "url": "https://pyodide.org/en/stable/"
+    },
+    {
+      "title": "WebAssembly",
+      "url": "https://webassembly.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

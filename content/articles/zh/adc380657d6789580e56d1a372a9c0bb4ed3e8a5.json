@@ -1,0 +1,40 @@
+{
+  "id": "adc380657d6789580e56d1a372a9c0bb4ed3e8a5",
+  "canonicalId": "298923142828d40fd9f7fdbe92739f2a9bfc980c",
+  "slug": "stepfun-发布-step-37-flash196b-参数-moe-模型",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T00:32:00Z",
+  "lang": "zh",
+  "title": "StepFun 发布 Step 3.7 Flash，196B 参数 MoE 模型",
+  "summary": "StepFun 发布了 Step 3.7 Flash，这是一个多模态混合专家模型，总参数量 196B（激活 11B），可在 128GB 内存上本地运行，并在编程和智能体任务上取得了优异的基准成绩。 该模型在智能体和编程基准上媲美更大模型，为本地部署提供了极具竞争力的选择，对本地大语言模型社区和智能体工作流开发尤为重要。 该模型内置 1.8B 的视觉 Transformer（ViT），基准测试包括 SWE-Bench Pro 56.26%（超过 DeepSeek V4 Flash，与 Gemini 3.5 Flash 持平）、DeepSearchQA F1 92.82% 和带工具的 HLE 47.2%。用户可通过 OpenRouter 和 NVIDIA NIM 使用，无需自行部署。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "MoE",
+    "Local LLM",
+    "Multimodal",
+    "Model Release"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Everlier"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/",
+  "originalSite": "reddit.com",
+  "context": "MoE（混合专家）模型每个词元仅激活部分参数，从而在降低计算成本的同时实现大容量。SWE-Bench Pro 是评估真实软件工程任务的挑战性基准，DeepSearchQA 则测试多步信息检索能力。StepFun 是一家专注于高效大语言模型开发的中国人工智能公司。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SWE-Bench Pro",
+      "url": "https://scaleapi.github.io/SWE-bench_Pro-os/"
+    },
+    {
+      "title": "google/ deepsearchqa · Datasets at Hugging Face",
+      "url": "https://huggingface.co/datasets/google/deepsearchqa"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

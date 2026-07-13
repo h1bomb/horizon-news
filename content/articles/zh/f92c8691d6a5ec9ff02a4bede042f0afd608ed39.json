@@ -1,0 +1,45 @@
+{
+  "id": "f92c8691d6a5ec9ff02a4bede042f0afd608ed39",
+  "canonicalId": "554e8c99cf385b31960e1fe2f848c9541531e537",
+  "slug": "clickhouse-将-pgbouncer-吞吐量提升至-4-倍",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T15:28:00Z",
+  "lang": "zh",
+  "title": "ClickHouse 将 PgBouncer 吞吐量提升至 4 倍",
+  "summary": "ClickHouse 发表了一篇博客文章，描述了他们如何通过启用 SO_REUSEPORT 并实现进程间的 peering，将流行的 PostgreSQL 连接池工具 PgBouncer 的吞吐量提升至原来的 4 倍。 PgBouncer 在 PostgreSQL 部署中被广泛使用，这项性能提升将惠及众多依赖其进行连接池管理的用户。所使用的技术也可为其他网络服务的类似优化提供参考。 SO_REUSEPORT 允许多个进程绑定到同一个 TCP 端口，均匀分配传入的连接。Peering 机制将取消请求转发到正确的进程，消除了瓶颈并提高了可扩展性。",
+  "score": 8,
+  "tags": [
+    "PostgreSQL",
+    "PgBouncer",
+    "performance",
+    "connection pooling",
+    "scalability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "saisrirampur",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48872874"
+    }
+  ],
+  "originalUrl": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+  "originalSite": "clickhouse.com",
+  "context": "PgBouncer 是 PostgreSQL 的轻量级连接池工具，通过管理数据库连接来提升性能。传统上它以单进程运行，在多核系统上存在吞吐量瓶颈。SO_REUSEPORT 是一种 Linux 套接字选项，允许多个进程在同一端口上接受连接。PgBouncer 的 Peering 机制使不同进程能够协调并转发取消请求，解决了因取消请求发错进程而导致的问题。",
+  "discussion": "社区成员推荐了 Odyssey 和 pgdog 等替代方案，并询问了 peering 设置的简便性。其他人分享了在 Kubernetes 或多台机器上运行多个 PgBouncer 进程的经验。",
+  "references": [
+    {
+      "title": "The SO_REUSEPORT socket option [LWN.net]",
+      "url": "https://lwn.net/Articles/542629/"
+    },
+    {
+      "title": "Performance Optimisation using SO_REUSEPORT | by Marten Gartner | High Performance Network Programming | Medium",
+      "url": "https://medium.com/high-performance-network-programming/performance-optimisation-using-so-reuseport-c0fe4f2d3f88"
+    },
+    {
+      "title": "PgBouncer config",
+      "url": "https://www.pgbouncer.org/config.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

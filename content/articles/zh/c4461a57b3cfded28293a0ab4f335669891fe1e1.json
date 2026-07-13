@@ -1,0 +1,44 @@
+{
+  "id": "c4461a57b3cfded28293a0ab4f335669891fe1e1",
+  "canonicalId": "4b49585642d2633b02b7fbaa0624a3c073bb0fd5",
+  "slug": "calif-与-mythos-preview-5-天内攻破-apple-m5-内核",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Calif 与 Mythos Preview 5 天内攻破 Apple M5 内核",
+  "summary": "Calif 与 Anthropic 的 AI 系统 Mythos Preview 合作，在 5 天内（4 月 25 日至 5 月 1 日）为运行 macOS 26.4.1 的 Apple M5 硬件构建了可工作的内核内存破坏利用链。该利用链绕过了 Apple 的 Memory Integrity Enforcement (MIE) 硬件保护，使非特权用户仅通过正常系统调用即可获取 root shell 访问权限。 这是首个公开的 Apple M5 内核内存破坏利用演示，绕过了 Apple 花费五年时间和大量资源开发的 MIE 保护。这表明 AI 辅助的安全研究可以迅速击败前沿硬件防御，可能改变漏洞利用领域的格局。 该利用链涉及两个漏洞和多项技术，由 Mythos Preview 协助发现。完整的 55 页技术报告将在 Apple 发布修复后公开。",
+  "score": 9,
+  "tags": [
+    "security",
+    "macOS",
+    "kernel exploit",
+    "AI-assisted",
+    "Apple M5"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 15, 02:15"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+  "originalSite": "blog.calif.io",
+  "context": "Apple M5 是 Apple 自研芯片的最新一代，接替 M4，采用统一内存架构以提升 AI 性能。Memory Integrity Enforcement (MIE) 是一种硬件安全机制，旨在防止针对内核的内存破坏攻击，代表了五年的工程投入。Mythos Preview 是 Anthropic 的先进 AI 模型，用于网络安全研究和漏洞发现，已在主要操作系统和浏览器中发现了数千个高危漏洞。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption"
+    },
+    {
+      "title": "Mythos AI Cracked Apple 's Best Defense in 5 Days | InsiderLLM",
+      "url": "https://insiderllm.com/guides/mythos-cracked-apple-m5-5-days/"
+    },
+    {
+      "title": "Anthropic unveils powerful Mythos AI model, working with... - 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/07/anthropic-unveils-powerful-mythos-ai-model-working-with-apple-in-cybersecurity-initiative/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

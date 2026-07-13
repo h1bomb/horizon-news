@@ -1,0 +1,41 @@
+{
+  "id": "39d1041df8be4cf18fd970ac98c507b1c8a88f3c",
+  "canonicalId": "c041fe1a016178cde7cde6194c95f30f3b2599c5",
+  "slug": "moving-beyond-fork-exec",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T14:34:00Z",
+  "lang": "en",
+  "title": "Moving beyond fork() + exec()",
+  "summary": "The article discusses the historical rationale for Unix's fork()+exec() process creation model and argues that it is now outdated, proposing alternatives like posix_spawn and vfork. This matters because fork()+exec() is a fundamental OS primitive; rethinking it could simplify systems programming and improve performance, affecting many applications and developers. Key details include the overhead of fork() even with copy-on-write, and that posix_spawn provides a combined process creation and execution call that avoids unnecessary copying.",
+  "score": 8,
+  "tags": [
+    "systems programming",
+    "unix",
+    "process creation",
+    "fork",
+    "exec"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jwilk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48425528"
+    }
+  ],
+  "originalUrl": "https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/",
+  "originalSite": "lwn.net",
+  "context": "In Unix, fork() creates a child process that is an almost exact copy of the parent, while exec() replaces the child's memory with a new program. This two-step process was elegant for its time but incurs overhead. Alternatives like vfork() (which suspends the parent) and posix_spawn() (a combined call) exist but are less used. The debate is about whether the elegance justifies the performance cost.",
+  "discussion": "Comments highlight both sides: some argue fork()+exec() is elegant and extensible, while others lament its complexity and performance issues, citing personal bug experiences. There is reference to a Microsoft Research paper \"A fork() in the road\" that criticizes fork.",
+  "references": [
+    {
+      "title": "posix_spawn(3) - Linux manual page",
+      "url": "https://www.man7.org/linux/man-pages/man3/posix_spawn.3.html"
+    },
+    {
+      "title": "Fork (system call) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fork_(system_call)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

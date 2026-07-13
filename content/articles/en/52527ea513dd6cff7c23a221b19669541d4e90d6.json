@@ -1,0 +1,44 @@
+{
+  "id": "52527ea513dd6cff7c23a221b19669541d4e90d6",
+  "canonicalId": "50ca3cf531e4b912fdd2027a705538a88ebf1803",
+  "slug": "bun-rewritten-from-zig-to-rust",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-08T23:57:00Z",
+  "lang": "en",
+  "title": "Bun Rewritten from Zig to Rust",
+  "summary": "Jarred Sumner announced the successful rewrite of the Bun JavaScript runtime from Zig to Rust, a process that took 11 days of intensive agentic engineering using Claude and cost approximately $165,000 in API tokens. This rewrite demonstrates that modern AI coding agents can make large-scale rewrites feasible, challenging the long-held 'never rewrite' wisdom. It also shows how Rust's memory safety can eliminate common bugs like use-after-free that plagued Zig's manual memory management. The Bun test suite, written in TypeScript, served as a conformance suite to validate the port. The new Rust-based Bun has been running in Claude Code since June 17, 2026, with 10% faster startup on Linux and no noticeable changes for users.",
+  "score": 8,
+  "tags": [
+    "Bun",
+    "Rust",
+    "Zig",
+    "systems programming",
+    "engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Bun is a fast all-in-one JavaScript runtime, package manager, and test runner, originally written in Zig. Zig is a systems programming language that requires manual memory management, which led to use-after-free and double-free bugs in Bun. Rust provides memory safety guarantees via its ownership model and Drop trait, preventing such bugs at compile time. Agentic engineering refers to using AI agents that can plan, use tools, and autonomously complete tasks with human supervision.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Bun (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bun_(software)"
+    },
+    {
+      "title": "Zig (programming language)",
+      "url": "https://en.wikipedia.org/wiki/Zig_(programming_language)"
+    },
+    {
+      "title": "What is agentic engineering? - IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-engineering"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

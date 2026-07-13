@@ -1,0 +1,31 @@
+{
+  "id": "2c9283911348c8d72b3a361a00c57512b692a4aa",
+  "canonicalId": "d7499a6963c6e5c4d93bc34c41c648b8746b128e",
+  "slug": "openai-launches-gpt-live-voice-mode-with-gpt-55-delegation",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T17:03:00Z",
+  "lang": "en",
+  "title": "OpenAI Launches GPT-Live Voice Mode with GPT-5.5 Delegation",
+  "summary": "OpenAI has announced GPT-Live, a new voice mode that can delegate complex queries to GPT-5.5 for more advanced responses, as revealed in an official blog post. The feature aims to bridge the gap between voice assistants and frontier AI models. GPT-Live significantly enhances voice interactions by enabling real-time delegation to the latest model, making voice assistants far more capable. This could transform how users brainstorm, work, and communicate hands-free, potentially setting a new standard for AI voice interfaces. According to early access user simonw, GPT-Live allowed a full hour of conversation without restriction to an older voice model, though it had a bug where it interrupted and laughed at unintended cues. The delegation feature works in the background, so users are no longer limited to a voice model that is several years behind the frontier.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "voice mode",
+    "OpenAI",
+    "GPT-5.5"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "logickkk1",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48834405"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-live/",
+  "originalSite": "openai.com",
+  "context": "GPT-Live is a voice mode that lets users speak naturally and get responses from GPT-5.5, OpenAI's most advanced model. Previous voice modes used smaller, specialized models that lacked the full reasoning power of text-based GPT. This delegation approach combines low-latency speech recognition with the high intelligence of frontier models.",
+  "discussion": "Early access user simonw praised the feature for enabling long, productive conversations, but noted a bug involving unintended interruptions. Some commenters, like jonstaab, expressed ethical concerns about replacing human relationships, while artdigital criticized the lack of tool/connector support in voice mode across all frontier assistants.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

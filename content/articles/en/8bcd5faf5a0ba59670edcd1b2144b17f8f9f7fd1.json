@@ -1,0 +1,44 @@
+{
+  "id": "8bcd5faf5a0ba59670edcd1b2144b17f8f9f7fd1",
+  "canonicalId": "4b49585642d2633b02b7fbaa0624a3c073bb0fd5",
+  "slug": "calif-and-mythos-preview-crack-apple-m5-kernel-in-5-days",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-15T02:15:00Z",
+  "lang": "en",
+  "title": "Calif and Mythos Preview crack Apple M5 kernel in 5 days",
+  "summary": "Calif, in collaboration with Anthropic's AI system Mythos Preview, constructed a working kernel memory corruption exploit for Apple M5 hardware running macOS 26.4.1 in just five days, from April 25 to May 1. The exploit chain bypasses Apple's Memory Integrity Enforcement (MIE) hardware protection, allowing an unprivileged user to gain root shell access using only normal system calls. This is the first public demonstration of a kernel memory corruption exploit on Apple M5, bypassing MIE which Apple spent five years and significant resources to develop. It shows that AI-assisted security research can rapidly defeat cutting-edge hardware defenses, potentially shifting the balance in vulnerability exploitation. The exploit chain involves two vulnerabilities and multiple techniques discovered with Mythos Preview's assistance. A full 55-page technical report will be released after Apple issues a fix for the vulnerabilities.",
+  "score": 9,
+  "tags": [
+    "security",
+    "macOS",
+    "kernel exploit",
+    "AI-assisted",
+    "Apple M5"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+  "originalSite": "blog.calif.io",
+  "context": "Apple M5 is the latest generation of Apple's custom silicon, succeeding the M4, and features unified memory architecture for AI performance. Memory Integrity Enforcement (MIE) is a hardware security mechanism designed to prevent memory corruption attacks on the kernel, representing a five-year engineering investment. Mythos Preview is an advanced AI model from Anthropic, used for cybersecurity research and vulnerability discovery, and has already found thousands of high-severity vulnerabilities in major operating systems and browsers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption"
+    },
+    {
+      "title": "Mythos AI Cracked Apple 's Best Defense in 5 Days | InsiderLLM",
+      "url": "https://insiderllm.com/guides/mythos-cracked-apple-m5-5-days/"
+    },
+    {
+      "title": "Anthropic unveils powerful Mythos AI model, working with... - 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/07/anthropic-unveils-powerful-mythos-ai-model-working-with-apple-in-cybersecurity-initiative/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

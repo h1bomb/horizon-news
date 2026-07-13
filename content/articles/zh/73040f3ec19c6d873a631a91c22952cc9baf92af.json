@@ -1,0 +1,40 @@
+{
+  "id": "73040f3ec19c6d873a631a91c22952cc9baf92af",
+  "canonicalId": "1ec65b0e9c3ec66bb5e1e5f6b031ef940501cabe",
+  "slug": "sqlite-新增-agentsmd-定义-ai-贡献政策",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T23:44:00Z",
+  "lang": "zh",
+  "title": "SQLite 新增 AGENTS.md 定义 AI 贡献政策",
+  "summary": "SQLite 新增了一个 AGENTS.md 文件，明确表示该项目不接受智能体代码（由 AI 智能体自主编写的代码），但欢迎包含可复现测试用例的智能体错误报告以及用于文档目的的补丁。此外，由于 AI 生成的错误报告泛滥，SQLite 论坛已拆分出一个专门的 Bug 论坛。 该政策为关键开源项目如何平衡 AI 辅助的优势与维护代码质量和法律清晰度树立了先例。它将影响其他正在应对 AI 生成贡献的项目，并突显了在开源生态中区分人类编写和智能体工作的挑战。 AGENTS.md 文件于五日前提交，随后一次提交删除了“（目前）”一词以强化对智能体代码的拒绝态度。SQLite 不接受未经事先协议和法律文件（将贡献置于公共领域）的拉取请求，但人类开发者可能会审查简洁的拉取请求作为概念验证，然后再自行重新实现。",
+  "score": 8,
+  "tags": [
+    "sqlite",
+    "AI agents",
+    "open source",
+    "contribution policies",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "AGENTS.md 是一个文件，项目可用它来指定针对 AI 编码智能体的政策，类似于针对人类贡献者的 README.md。“智能体代码”指的是由 AI 智能体自主生成的代码，这些智能体从头到尾地规划、编写、测试和部署代码。SQLite 是一个广泛使用的嵌入式 SQL 数据库，以其严格的质量标准和保守的贡献模型而闻名，通常要求贡献者签署法律文件。项目创始人 D. Richard Hipp 一直在新的 Bug 论坛上积极修复问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AGENTS . md",
+      "url": "https://agents.md/"
+    },
+    {
+      "title": "What Is Agentic Coding ? The Next AI Dev Workflow",
+      "url": "https://tms-outsource.com/blog/posts/what-is-agentic-coding/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

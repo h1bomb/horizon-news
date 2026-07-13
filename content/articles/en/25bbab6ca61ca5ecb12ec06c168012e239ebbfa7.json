@@ -1,0 +1,44 @@
+{
+  "id": "25bbab6ca61ca5ecb12ec06c168012e239ebbfa7",
+  "canonicalId": "39ecaa9f59f62cea40a88e165c7161f696518312",
+  "slug": "skipping-90-of-kv-dequantization-boosts-decode-speed-by-228-in-llamacpp-turboquant",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T14:56:00Z",
+  "lang": "en",
+  "title": "Skipping 90% of KV dequantization boosts decode speed by 22.8% in llama.cpp TurboQuant",
+  "summary": "A developer implemented a simple optimization in llama.cpp's TurboQuant for KV cache compression, which skips dequantization for positions with negligible attention weights, resulting in a 22.8% increase in decode speed at 32K context length on an M5 Max without affecting model performance. This approach, involving just three lines of kernel code, leverages attention sparsity to bypass unnecessary computations. This optimization significantly enhances inference efficiency for large language models by reducing computational overhead in KV cache management, which is critical as models scale to longer contexts where memory and speed bottlenecks become more pronounced. It demonstrates a practical, low-cost method to improve performance without sacrificing accuracy, benefiting developers and users of open-source LLM frameworks like llama.cpp. The optimization was tested on a Qwen3.5-35B-A3B model with TurboQuant KV (turbo3), showing unchanged perplexity (PPL) and improved NIAH scores from 7/9 to 9/9, while a standard q8_0 KV cache only achieved a 5% speed boost. It is not specific to TurboQuant and can be applied to other setups, with independent CUDA ports currently under testing.",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "KV Cache",
+    "Quantization",
+    "Performance Optimization",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Pidtom"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s56g07/skipping_90_of_kv_dequant_work_228_decode_at_32k/",
+  "originalSite": "reddit.com",
+  "context": "KV cache is an optimization in Transformer-based LLMs that stores past token representations to avoid recomputation during autoregressive generation, but its memory footprint scales linearly with context length, creating bottlenecks. TurboQuant is a compression method for KV cache that reduces model size without accuracy loss, and dequantization is the process of converting quantized integer values back to floating-point approximations, which can be computationally expensive in long contexts.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2603.20397] KV Cache Optimization Strategies for Scalable ...",
+      "url": "https://arxiv.org/abs/2603.20397"
+    },
+    {
+      "title": "TurboQuant - Extreme Compression for AI Efficiency",
+      "url": "https://turboquant.net/"
+    },
+    {
+      "title": "Dequantization in Large Language Models: Enhancing Accuracy ... Implementing a simple quantization and dequantization process ... Pruning and quantization for deep neural network acceleration ... Working with Quantized Types — NVIDIA TensorRT A Survey On Neural Network Quantization | Proceedings of the 2025 6th Pruning and quantization for deep neural network acceleration : A survey From Theory to Practice: Quantization and Dequantization Made Simple From Theory to Practice: Quantization and Dequantization Made Simple From Theory to Practice: Quantization and Dequantization Made ...",
+      "url": "https://medium.com/@amresh.kumar11/dequantization-in-large-language-models-enhancing-accuracy-without-compromising-efficiency-5e84b6149181"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

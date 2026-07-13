@@ -1,0 +1,41 @@
+{
+  "id": "fd5cdcc715e82044cd23faeca11d89b373a28459",
+  "canonicalId": "dbad4cbbb6d2201b6701f18c645b70c3e5b9f8d4",
+  "slug": "ui-动画中完美帧的争论",
+  "date": "2026-06-14",
+  "publishedAt": "2026-06-13T11:40:00Z",
+  "lang": "zh",
+  "title": "UI 动画中完美帧的争论",
+  "summary": "一篇文章通过指出实际例子中的缺陷帧来批评 UI 动画质量，引发了专家之间关于实时图形中是否每一帧都必须完美的争论。 这一讨论挑战了核心 UI/UX 设计原则，可能影响开发者如何在动画完美与性能限制之间取得平衡。 文章使用 macOS 及其他界面动画的截图作为证据，但评论者认为，由于人类视觉感知的特性，孤立的帧可能看起来有误，但在动态中却是正确的。",
+  "score": 8,
+  "tags": [
+    "UI/UX",
+    "Animation",
+    "Graphics",
+    "Software Engineering",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ravenical",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48516251"
+    }
+  ],
+  "originalUrl": "https://tonsky.me/blog/every-frame-perfect/",
+  "originalSite": "tonsky.me",
+  "context": "UI 动画通常以每秒 60 帧（fps）运行以保持流畅。一个“卡顿”帧——渲染时间超过 16.6 毫秒——可能导致停顿。然而，人类视觉系统会整合多帧的运动，因此单个不完美的帧可能不会被注意到，甚至在上下文中还能提升感知流畅度。",
+  "discussion": "评论者表达了不同观点：一些人同意例子显示了糟糕的动画，但拒绝“每一帧都必须完美”的前提；另一些人则认为批评很薄弱，并指出截图无法捕捉实时动态。一位用户报告说 macOS Sonoma 的动画大多流畅，与文章中的例子矛盾。",
+  "references": [
+    {
+      "title": "UI jank detection | Android Studio | Android Developers",
+      "url": "https://developer.android.com/studio/profile/jank-detection"
+    },
+    {
+      "title": "Animation in UI Design: The Ultimate Guide",
+      "url": "https://createbytes.com/insights/Enhance-UX-via-Animation-in-UI-Design"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "e3f18e68d956fba3c17b25fd97b4defec4ae9032",
+  "canonicalId": "e9aef5f1289a1220674df8312114d15c0e02de8c",
+  "slug": "claude-code-launches-remote-control-feature-for-multi-device-access",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T17:33:00Z",
+  "lang": "en",
+  "title": "Claude Code Launches Remote Control Feature for Multi-Device Access",
+  "summary": "Anthropic released a new 'Remote Control' feature for Claude Code yesterday, allowing users to run a session locally on their computer and then send prompts to it from Claude Code's web, iOS, or native desktop app interfaces. The feature is activated by running the `claude remote-control` command in the terminal. This feature significantly enhances the flexibility and accessibility of Claude Code, enabling developers to start a coding or automation task on one device (like a desktop) and continue or monitor it from another (like a phone). It represents a step towards making AI-powered development tools more seamlessly integrated into multi-device workflows, competing with similar offerings like OpenClaw. The initial release has some rough edges: users may encounter account permission errors, the `--dangerously-skip-permissions` flag appears ineffective, and API 500 errors can occur. Furthermore, only one remote session can run per machine, and sessions terminate ungracefully if the local program is restarted.",
+  "score": 7,
+  "tags": [
+    "AI Development",
+    "Claude Code",
+    "Developer Tools",
+    "Remote Control"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Claude Code is a developer tool from Anthropic that allows users to interact with AI models (like Claude Opus and Sonnet) through a terminal or desktop app to execute code, automate tasks, and control applications. It typically operates locally on a user's machine. The 'Claw category' of software, mentioned for comparison, refers to tools like OpenClaw that enable remote control and automation of personal computers, often featuring scheduled task execution.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Continue local sessions from any device with Remote Control - Claude Code Docs",
+      "url": "https://code.claude.com/docs/en/remote-control"
+    },
+    {
+      "title": "Anthropic just released a mobile version of Claude Code called Remote Control | VentureBeat",
+      "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

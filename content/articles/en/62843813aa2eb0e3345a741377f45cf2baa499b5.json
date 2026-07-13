@@ -1,0 +1,45 @@
+{
+  "id": "62843813aa2eb0e3345a741377f45cf2baa499b5",
+  "canonicalId": "ab6bacc2dfd488fe4ab45a0a6855ac15c250ea9a",
+  "slug": "needle-26m-model-distilled-from-gemini-for-tool-calling",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T18:03:00Z",
+  "lang": "en",
+  "title": "Needle: 26M Model Distilled from Gemini for Tool Calling",
+  "summary": "Cactus Compute released Needle, a 26M parameter model distilled from Gemini for efficient single-shot function calling. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices. This demonstrates that large models are overkill for tool calling, enabling on-device agentic experiences on budget phones. It challenges the assumption that reasoning-heavy models are needed for structured output tasks. The model uses Simple Attention Networks (only attention and gating, no MLPs) and was pretrained on 200B tokens. It beats several larger models like FunctionGemma-270M but is limited to single-shot function calling, not conversational settings.",
+  "score": 8,
+  "tags": [
+    "distillation",
+    "tool-calling",
+    "small-models",
+    "on-device-AI",
+    "attention-networks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "HenryNdubuaku",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48111896"
+    }
+  ],
+  "originalUrl": "https://github.com/cactus-compute/needle",
+  "originalSite": "github.com",
+  "context": "Tool calling or function calling allows LLMs to interact with external APIs and tools. Distillation is a technique to create smaller, faster student models that mimic larger teacher models. Needle is an example of a highly specialized small model for a specific task.",
+  "discussion": "Community comments show interest in browser deployment, feasibility for CLI tools, and appreciation for tiny models. Suggestions include publishing a live demo and clarifying model size notation. Overall sentiment is positive, with excitement about on-device agents.",
+  "references": [
+    {
+      "title": "Clarifying Function Calling / Tool Use in LLMs | Medium",
+      "url": "https://medium.com/@aevalone/clarifying-function-calling-tool-use-in-llms-6511af510f99"
+    },
+    {
+      "title": "An introduction to function calling and tool use in LLMs",
+      "url": "https://dev.to/apideck/an-introduction-to-function-calling-and-tool-use-in-llms-9kl"
+    },
+    {
+      "title": "LLM Distillation : The Key to Efficient AI Models | by Piyush... | Medium",
+      "url": "https://medium.com/@piyushkashyap045/llm-distillation-the-key-to-efficient-ai-models-cb4026a655bf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

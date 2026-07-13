@@ -1,0 +1,32 @@
+{
+  "id": "3c876843ffa4b6332a85fc9ca76df821d9650b9a",
+  "canonicalId": "adeddefc487a0b26ec7de124bcceb9272b5cf525",
+  "slug": "github-major-outage-disrupts-core-development-workflows",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T12:15:00Z",
+  "lang": "en",
+  "title": "GitHub Major Outage Disrupts Core Development Workflows",
+  "summary": "GitHub suffered a significant incident on an unspecified date, impacting pull requests, issues, git operations, and API requests, with users reporting that recent outages have been frequent. This outage disrupts critical development workflows for millions of developers, raising concerns about GitHub's reliability as a central platform for software collaboration. The incident specifically affected pull requests on both web UI and API, which were not reflecting all commits or branch changes consistently, increasing the risk of merging incomplete code.",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "incident",
+    "outage",
+    "reliability",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "maxnoe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48293080"
+    }
+  ],
+  "originalUrl": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
+  "originalSite": "githubstatus.com",
+  "context": "GitHub is a widely-used platform for version control and collaboration, hosting millions of repositories. Frequent outages can severely impact developer productivity and trust. The recent pattern of incidents has led to community frustration.",
+  "discussion": "Community comments express frustration with the recurring outages, with one user noting that pull request diffs were inconsistent, making it easy to merge without full review. Another user compared reliability issues to other services like Supabase and Cloudflare since AI coding became common.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

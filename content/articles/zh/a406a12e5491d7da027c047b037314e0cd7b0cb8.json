@@ -1,0 +1,44 @@
+{
+  "id": "a406a12e5491d7da027c047b037314e0cd7b0cb8",
+  "canonicalId": "31e6340b5ed1a2263bf22c80bda546302b8f31ea",
+  "slug": "谷歌与-openai-推出-ai-内容检测工具",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-21T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌与 OpenAI 推出 AI 内容检测工具",
+  "summary": "谷歌将 SynthID 集成到搜索和 Chrome 中，用于检测 AI 生成的图像、视频和音频；OpenAI 也发布了验证工具，可检查 C2PA 元数据和 SynthID 水印。 主要 AI 公司在内容溯源标准上的合作，标志着在打击虚假信息和提高数字媒体透明度方面迈出了重要一步。 谷歌的工具通过 Google Lens 或“圈选即搜”功能使用，检测基于 C2PA 标准和嵌入的元数据。OpenAI 的工具能识别由 ChatGPT、OpenAI API 或 Codex 生成的内容。",
+  "score": 8,
+  "tags": [
+    "AI detection",
+    "SynthID",
+    "C2PA",
+    "digital transparency",
+    "content verification"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 20, 00:03"
+    }
+  ],
+  "originalUrl": "https://9to5google.com/2026/05/19/google-is-adding-ai-detection-for-photos-videos-and-audio-to-search-and-chrome/",
+  "originalSite": "9to5google.com",
+  "context": "SynthID 是 Google DeepMind 开发的水印技术，可将不可见的数字水印嵌入 AI 生成的内容中。C2PA（内容来源与真实性联盟）是一个开放的技术标准，用于追踪数字媒体的来源和编辑历史。这些工具帮助用户验证内容是否由 AI 创建或修改。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SynthID — Google DeepMind",
+      "url": "https://deepmind.google/models/synthid/"
+    },
+    {
+      "title": "C2PA | Verifying Media Content Sources",
+      "url": "https://c2pa.org/"
+    },
+    {
+      "title": "Google's SynthID AI watermarking tech is being adopted by ...",
+      "url": "https://arstechnica.com/google/2026/05/googles-synthid-ai-watermarking-tech-is-being-adopted-by-openai-nvidia-and-more/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

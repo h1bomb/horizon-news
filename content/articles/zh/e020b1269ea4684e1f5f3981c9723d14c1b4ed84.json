@@ -1,0 +1,40 @@
+{
+  "id": "e020b1269ea4684e1f5f3981c9723d14c1b4ed84",
+  "canonicalId": "09109b70a43ea7c067c32515c28bd3edf28b0cfb",
+  "slug": "imgnet通过符号模式匹配进行人脸验证",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T18:00:00Z",
+  "lang": "zh",
+  "title": "IMGNet：通过符号模式匹配进行人脸验证",
+  "summary": "IMGNet 提出了一种人脸验证模型，用滑动窗口符号模式匹配取代余弦相似度，在 LFW 上达到 96.27% 的准确率，模型大小仅 10.58 MB，在 CASIA-WebFace 上训练。 这种新颖的方法可能实现更高效、更紧凑的人脸验证系统，而符号模式匹配无需重新训练即可提升 ArcFace 嵌入的发现，表明这是良好训练的人脸嵌入的基本属性。 该模型使用 SW Block 替代标准卷积，采用多尺度关系操作；定义了纯基于符号模式一致性的 IMG Sign MSE Loss；以及结合三种度量的投票系统。在无需重新训练的情况下应用于 ArcFace (buffalo_l)，IMG Sign Score 在 LFW 上达到 99.58%，仅比 ArcFace+Cosine 低 0.24%。",
+  "score": 8,
+  "tags": [
+    "face verification",
+    "machine learning",
+    "computer vision",
+    "representation learning",
+    "embedding similarity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/img-_-"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1urxvxh/i_built_imgnet_a_face_verification_model_that/",
+  "originalSite": "reddit.com",
+  "context": "人脸验证通常使用余弦相似度比较嵌入向量，以判断两张脸是否属于同一个人。IMGNet 则比较嵌入向量在滑动窗口上的局部关系符号模式，其灵感来自语言学中表面形式不同但意义相同的例子。该模型在包含 49 万张图像的 CASIA-WebFace 数据集上训练。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - imamgh11/imgnet: NEW ERA OF AI",
+      "url": "https://github.com/imamgh11/imgnet"
+    },
+    {
+      "title": "imgnet/README.md at main · imamgh11/imgnet · GitHub",
+      "url": "https://github.com/imamgh11/imgnet/blob/main/README.md"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

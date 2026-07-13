@@ -1,0 +1,44 @@
+{
+  "id": "577d81e419d5ff6848641507780d825a08d077df",
+  "canonicalId": "efd7e8780800364eacf55211d6b2fe194963062c",
+  "slug": "asahi-linux-70音频驱动重大突破",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-27T00:00:00Z",
+  "lang": "zh",
+  "title": "Asahi Linux 7.0：音频驱动重大突破",
+  "summary": "Asahi Linux 的 7.0 进度报告详细介绍了通过逆向工程 CS42L84 音频编解码器，在 Apple Silicon Mac 音频驱动支持方面取得的重大进展。 这一进展使 Apple Silicon 上的 Linux 更接近完整的硬件支持，能够在苹果官方不支持 Linux 的 Mac 上实现高质量音频输出和输入。 该团队逆向工程了与有文档的 CS42L42 相似的 CS42L84 编解码器，并添加了对 48 和 96 kHz 采样率的支持，未来可能支持更多采样率。",
+  "score": 9,
+  "tags": [
+    "Asahi Linux",
+    "Apple Silicon",
+    "Linux kernel",
+    "reverse engineering",
+    "audio drivers"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 26, 10:50"
+    }
+  ],
+  "originalUrl": "https://asahilinux.org/2026/04/progress-report-7-0/",
+  "originalSite": "asahilinux.org",
+  "context": "Asahi Linux 是一个由志愿者驱动的项目，通过逆向工程未公开的硬件，将 Linux 移植到 Apple Silicon Mac 上。苹果不提供在其 M 系列芯片上运行 Linux 的官方文档或支持，因此这项工作对开源社区至关重要。",
+  "discussion": "评论者对技术成就表示钦佩，但一些人担心该项目仍独立于内核主线及主流发行版。其他人则希望苹果最终能提供文档以减轻工作量。",
+  "references": [
+    {
+      "title": "Asahi Linux",
+      "url": "https://asahilinux.org/"
+    },
+    {
+      "title": "Asahi linux project",
+      "url": "https://en.wikipedia.org/wiki/Asahi_linux_project"
+    },
+    {
+      "title": "Asahi Linux M2 Microphone: Reverse Engineering Apple Silicon | by Can Artuc | Medium",
+      "url": "https://canartuc.medium.com/asahi-linux-m2-microphone-reverse-engineering-apple-silicon-69d96cc886a6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

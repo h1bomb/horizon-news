@@ -1,0 +1,44 @@
+{
+  "id": "8c74ad06d660d95823a971350d8a72f3b45f369a",
+  "canonicalId": "64a0030655480ebfda6301cb1ba61a014c59ede4",
+  "slug": "glm-51-发布面向长时程任务的开源-ai-模型",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "GLM-5.1 发布：面向长时程任务的开源 AI 模型",
+  "summary": "Z.ai 发布了 GLM-5.1，这是一个拥有 7540 亿参数和 203K 令牌上下文窗口的开源 AI 模型，专门针对长时程任务设计，能够自主运行长达 8 小时。该模型以 MIT 许可证在 Hugging Face 和 OpenRouter 上提供，同时发布了 Unsloth 量化版本。 此次发布通过支持需要持续推理的复杂多步骤任务，推动了开源 AI 的发展，可能减少对 OpenAI 和 Anthropic 等专有模型的依赖。它顺应了本地推理的趋势，让用户能在自有硬件上运行强大模型，以提升隐私性和成本效益。 GLM-5.1 拥有 7540 亿参数和 1.51TB 大小，与其前身 GLM-5 相同，但在长时程任务上引入了性能改进，不过有用户报告在扩展上下文中偶尔会出现不稳定情况。基准测试显示它在 105 个模型中排名第 16，得分为 77/100，表明整体性能处于中游，但在特定领域有优势。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Open-Source",
+    "Machine-Learning",
+    "LLM",
+    "Software-Engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 7, 16:32"
+    }
+  ],
+  "originalUrl": "https://z.ai/blog/glm-5.1",
+  "originalSite": "z.ai",
+  "context": "GLM-5.1 是中国 AI 实验室 Z.ai 开发的 GLM 系列的一部分，专注于用于高级任务的大语言模型。长时程任务指的是需要 AI 在较长时间内规划、执行和优化的复杂活动，例如编码或创意项目，通过 50% 任务完成时间视界等指标来衡量。本地推理涉及在用户设备而非云服务器上运行 AI 模型，以增强隐私性和降低延迟，这随着 Unsloth 等量化工具的普及而日益流行。",
+  "discussion": "社区评论呈现多样化观点，一些用户赞扬 GLM-5.1 在 TypeScript 生成和动画等任务中的表现，而其他人则指出其在长上下文中偶尔不稳定。讨论还强调了该模型在推动本地推理和开源 AI 方面的作用，同时担忧本地运行如此大型模型的硬件需求。",
+  "references": [
+    {
+      "title": "GLM - 5 . 1 - Overview - Z. AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/llm/glm-5.1"
+    },
+    {
+      "title": "GLM - 5 . 1 Benchmarks 2026: Scores, Rankings... | BenchLM. ai",
+      "url": "https://benchlm.ai/models/glm-5-1"
+    },
+    {
+      "title": "AI Time Horizon Metric: Can AI Complete Long Tasks?",
+      "url": "https://www.analyticsvidhya.com/blog/2025/04/ai-time-horizon-can-ai-complete-long-tasks/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

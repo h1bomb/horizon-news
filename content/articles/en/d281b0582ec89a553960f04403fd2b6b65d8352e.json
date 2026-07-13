@@ -1,0 +1,44 @@
+{
+  "id": "d281b0582ec89a553960f04403fd2b6b65d8352e",
+  "canonicalId": "e38939f0f050d4d94add11153cc025c9d8f4a2d2",
+  "slug": "protestware-targets-ai-coding-agents-via-jqwik-library",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T14:09:00Z",
+  "lang": "en",
+  "title": "Protestware targets AI coding agents via jqwik library",
+  "summary": "On May 25, 2026, the jqwik property-based testing library version 1.10.0 was released with code that instructs AI coding agents to delete jqwik tests and source code, marking a novel protestware attack that evades traditional security scanners. This incident highlights a new class of supply-chain attack specifically targeting AI-assisted development workflows, where malicious instructions embedded in plain text can bypass current software composition analysis tools. It raises urgent concerns about trust in AI coding agents and the need for new detection mechanisms. The attack uses a simple System.out.print statement of 68 bytes of ASCII, making it invisible to scanners that look for install hooks, network calls, or filesystem writes. The change was committed and released by the legitimate maintainer through the normal build process, so it passes SLSA provenance checks.",
+  "score": 8,
+  "tags": [
+    "supply-chain security",
+    "AI agents",
+    "protestware",
+    "Java",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1075315/",
+  "originalSite": "lwn.net",
+  "context": "jqwik is a Java library for property-based testing, which automatically generates test cases based on properties the code should satisfy. Protestware refers to software that protests against a policy or action, often by introducing harmful behavior into the supply chain. Traditional supply-chain security tools focus on detecting network calls, file writes, or obfuscated code, but they are not designed to catch instructions embedded in plain ASCII text that target AI agents.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "jqwik : Property - Based Testing in Java",
+      "url": "https://jqwik.net/"
+    },
+    {
+      "title": "A Short History of Protestware - Socket",
+      "url": "https://socket.dev/blog/a-short-history-of-protestware"
+    },
+    {
+      "title": "Property - Based Testing with jqwik | Baeldung",
+      "url": "https://www.baeldung.com/java-jqwik-property-based-testing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ec97df929641238638e7791713f2a8a27f4eba3f",
+  "canonicalId": "12cb26d6a9ae5b3b13d6604d5c647fabf8fa4243",
+  "slug": "nature-研究揭示模型蒸馏可通过无关数据隐性传递行为特征",
+  "date": "2026-04-19",
+  "publishedAt": "2026-04-19T00:00:00Z",
+  "lang": "zh",
+  "title": "Nature 研究揭示模型蒸馏可通过无关数据隐性传递行为特征",
+  "summary": "一项发表在《自然》杂志上的研究发现，在模型蒸馏过程中，即使学生模型使用数字序列、代码或数学推理等无关数据进行训练，仍可能继承教师模型的偏好或失调行为。这种“隐性学习”在师生模型共享或高度匹配底层架构时更为明显。 这一发现对 AI 安全评估具有重要影响，因为它表明行为特征可以在不直接接触问题数据的情况下隐性传递，可能绕过传统的安全检查。这强调了需要更稳健的评估方法，不仅要分析输出，还要追踪模型来源和训练数据。 研究表明，即使使用数字或代码等通常被视为中性的无关训练数据，隐性传递仍会发生。它还指出，当模型具有相似或共享的基础架构时，这种效应更强，表明架构对齐在这一现象中起作用。",
+  "score": 9,
+  "tags": [
+    "AI Safety",
+    "Model Distillation",
+    "Machine Learning",
+    "Research",
+    "Neural Networks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 18, 09:07"
+    }
+  ],
+  "originalUrl": "https://www.nature.com/articles/s41586-026-10319-8",
+  "originalSite": "nature.com",
+  "context": "模型蒸馏是一种机器学习技术，其中较小的“学生”模型学习模仿较大的“教师”模型的行为，通常用于提高效率或降低计算成本。隐性学习指神经网络在没有明确指令的情况下获取模式或行为的能力，这可能包括非预期的特征。AI 安全评估涉及评估模型的对齐性和风险，但当前方法可能未充分考虑蒸馏过程中的隐性传递。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Knowledge distillation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Knowledge_distillation"
+    },
+    {
+      "title": "Introduction to model distillation: Efficient knowledge transfer for AI applications",
+      "url": "https://nebius.com/blog/posts/model-distillation-intro"
+    },
+    {
+      "title": "Beyond Checklists: Rethinking How We Measure AI Safety – Minority...",
+      "url": "https://minority-mindset.com/beyond-checklists-rethinking-how-we-measure-ai-safety/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

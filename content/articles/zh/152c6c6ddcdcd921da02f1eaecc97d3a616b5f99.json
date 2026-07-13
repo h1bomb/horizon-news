@@ -1,0 +1,44 @@
+{
+  "id": "152c6c6ddcdcd921da02f1eaecc97d3a616b5f99",
+  "canonicalId": "a8818820321b145885adef64ae2d4a46941406df",
+  "slug": "sglang-v0511-发布集成-cuda-13-与推测解码升级",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-06T00:00:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.11 发布，集成 CUDA 13 与推测解码升级",
+  "summary": "SGLang v0.5.11 将默认 CUDA 升级至 13.0、PyTorch 至 2.11，默认启用搭载重叠调度的推测解码 V2 以降低 CPU 开销，为预填充/解码分离新增解码端基数缓存，并引入 DFLASH 内核、社区 FA3 内核、对 DeepSeek-V3/Kimi-K2 的 LoRA 支持，以及对 Gemma 4、GLM-5.1、Qwen3.6 等众多新模型的部署指南。 该版本通过最新硬件支持使推理栈现代化，借助默认推测解码降低延迟，并利用基数缓存实现高效分离式服务，惠及文本与扩散模型的大规模 LLM 部署。 推测解码 V2 的重叠调度隐藏了 CPU 开销；解码基数缓存为共享前缀恢复首令牌时间收益；DFLASH 内核扩展至 AMD ROCm；上下文并行增强允许独立调整 MoE 与注意力并行度；为 FP4 路径提供 FlashInfer CuteDSL MoE 后端；新模型均附带调优部署的实操指南。",
+  "score": 8,
+  "tags": [
+    "sglang",
+    "inference",
+    "cuda",
+    "speculative-decoding",
+    "model-serving"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "May 5, 21:28"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.11",
+  "originalSite": "github.com",
+  "context": "推测解码利用草稿模型提出多个令牌，再由目标模型单次验证，从而加速 LLM 推理。预填充/解码分离将提示处理与令牌生成拆分到不同实例以优化资源利用。SGLang 的 RadixAttention 自动在请求间复用 KV 缓存，基数缓存以树结构存储共享前缀，实现高效查找。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Speculative decoding",
+      "url": "https://en.wikipedia.org/wiki/Speculative_decoding"
+    },
+    {
+      "title": "Fast and Expressive LLM Inference with RadixAttention and SGLang - LMSYS Blog | LMSYS Org",
+      "url": "https://www.lmsys.org/blog/2024-01-17-sglang/"
+    },
+    {
+      "title": "Prefill-decode disaggregation | LLM Inference Handbook",
+      "url": "https://bentoml.com/llm/inference-optimization/prefill-decode-disaggregation"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

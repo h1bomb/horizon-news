@@ -1,0 +1,44 @@
+{
+  "id": "7e7c0774947ecd951ec8b353b6c0c79ff05b551c",
+  "canonicalId": "df7bf4d22c22f2ed43ef59f8a870bc125e6cd074",
+  "slug": "rl-系统中训练器与生成器的吞吐量匹配",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T17:32:00Z",
+  "lang": "zh",
+  "title": "RL 系统中训练器与生成器的吞吐量匹配",
+  "summary": "文章分析了在强化学习系统中匹配训练器与生成器吞吐量的策略，涉及管道设计、异步 RL 以及策略陈旧度问题，以提升训练效率。 训练器与生成器之间的吞吐量不匹配是 RL 训练中的关键瓶颈，直接影响可扩展性和计算成本。这些见解有助于优化大规模 RL 的基础设施，尤其对使用 GRPO 等方法微调 LLM 十分关键。 文章涵盖了 PipelineRL 等用于异步在途权重更新的技术，并讨论了异步管道如何导致策略陈旧度。还评估了 RL 沙箱基础设施的 CPU 需求和总拥有成本（TCO）。",
+  "score": 8,
+  "tags": [
+    "reinforcement learning",
+    "training infrastructure",
+    "GRPO",
+    "async RL",
+    "ML systems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "在 RL 训练中，生成器（策略）产生动作或 token，而训练器使用收集的数据更新策略。当两者吞吐量不匹配时，一个组件会闲置，造成资源浪费。异步 RL 解耦两者但引入了策略陈旧度问题，即生成数据的策略落后于正在训练的策略。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2503.06639] Reinforcement Learning with Verifiable Rewards:",
+      "url": "https://arxiv.org/abs/2503.06639"
+    },
+    {
+      "title": "ServiceNow/ PipelineRL : A scalable asynchronous reinforcement ...",
+      "url": "https://github.com/ServiceNow/PipelineRL"
+    },
+    {
+      "title": "[2512.01374] Stabilizing Reinforcement Learning with LLMs ... Taming Stale Data: Off-Policy Reinforcement Learning for LLMs ... Stabilizing Reinforcement Learning with LLMs: Formulation and ... Taming Policy Staleness: A New Approach in LLM Reinforcement ... Stable Off-Policy RL with High Data Staleness Hetero RL: Heterogeneous Reinforcement Learning - GitHub First-Order Approximation for Stable LLM-RL Training",
+      "url": "https://arxiv.org/abs/2512.01374"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

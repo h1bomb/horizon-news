@@ -1,0 +1,45 @@
+{
+  "id": "45b689d2c5e2624cde2c4ef19b57018fd657dd3d",
+  "canonicalId": "78cdf62005037bb14bee9d5268d62653c5613fd5",
+  "slug": "critical-amd-rce-vulnerability-left-unfixed-with-flawed-crc-32-check",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T16:03:00Z",
+  "lang": "en",
+  "title": "Critical AMD RCE vulnerability left unfixed with flawed CRC-32 check",
+  "summary": "Security researcher mrbruh disclosed a critical remote code execution vulnerability in AMD's AutoUpdate software, which AMD attempted to fix with a non-cryptographic CRC-32 checksum instead of proper signature verification. This vulnerability allows attackers to execute arbitrary code on affected systems, and the inadequate fix undermines the security of AMD users, especially if the webserver is compromised. The vulnerability was discovered on January 27, 2026, and the AutoUpdate tool uses insecure HTTP for downloads. The patch only adds HTTPS but retains a CRC-32 integrity check, which is not cryptographically secure.",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "RCE",
+    "AMD",
+    "cryptography"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "MrBruh",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48492215"
+    }
+  ],
+  "originalUrl": "https://mrbruh.com/amd2/",
+  "originalSite": "mrbruh.com",
+  "context": "AutoUpdate software automatically downloads and executes updates on AMD systems. CRC-32 is an error-detecting code, not a cryptographic hash, so it can be easily bypassed by an attacker who controls the webserver or performs a MITM attack.",
+  "discussion": "Commenters expressed outrage at AMD's approach, calling the CRC-32 fix 'hilariously clueless.' They also highlighted that MITM attacks should not be dismissed, and that AMD has a history of poor software quality.",
+  "references": [
+    {
+      "title": "Cyclic redundancy check - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyclic_redundancy_check"
+    },
+    {
+      "title": "AMD AutoUpdate remote code execution vulnerability — Grokipedia",
+      "url": "https://grokipedia.com/page/AMD_AutoUpdate_remote_code_execution_vulnerability"
+    },
+    {
+      "title": "AMD Won’t Fix Critical RCE Vulnerability in its AutoUpdate Software",
+      "url": "https://winbuzzer.com/2026/02/07/amd-refuses-fix-critical-autoupdate-rce-vulnerability-xcxwbn/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

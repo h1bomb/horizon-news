@@ -1,0 +1,44 @@
+{
+  "id": "04f24fb12f7067dcdc2ece91b4e00db99104c092",
+  "canonicalId": "4d086444f94e72aa06351944cc19f32d3639811f",
+  "slug": "qwen35-models-challenge-gpt-oss-120b-for-agentic-coding-on-96gb-vram-systems",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-12T12:42:00Z",
+  "lang": "en",
+  "title": "Qwen3.5 models challenge GPT-OSS-120B for agentic coding on 96GB VRAM systems",
+  "summary": "The Qwen3.5 model family has emerged as a potential competitor to GPT-OSS-120B for agentic coding tasks on systems with 96GB VRAM, offering vision capabilities, parallel tool calls, and double the context length. However, users report higher quality variance and slower inference speeds compared to GPT-OSS-120B due to its larger active parameter count and novel architecture. This comparison matters because it highlights the evolving landscape of large language models for production coding applications, where developers must balance quality, speed, and features when choosing models for local deployment. The emergence of viable alternatives to established leaders like GPT-OSS-120B could drive innovation and better options for AI-assisted software development. GPT-OSS-120B uses a Mixture-of-Experts architecture with 120B total parameters but only 5.1B active per forward pass, making it efficient for single-GPU deployment. Qwen3.5 models offer native multimodal capabilities and longer context windows but suffer from performance issues in some inference frameworks like llama.cpp, with users recommending Q5 quantization over Q4 for better quality preservation.",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "Agentic-Coding",
+    "Model-Comparison",
+    "Local-Inference",
+    "AI-Engineering"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "bfroemel"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rrppv1/96gb_vram_agentic_coding_users_gptoss120b_vs/",
+  "originalSite": "reddit.com",
+  "context": "Agentic coding refers to using AI agents to autonomously generate, test, and deploy code based on high-level instructions, transforming how software is specified and developed. GPT-OSS-120B is OpenAI's most powerful open-weight model designed for high-reasoning tasks that fit into single high-memory GPUs like NVIDIA H100. Qwen3.5 is Alibaba's latest model family featuring multimodal capabilities and improved architecture over previous versions, with models ranging from 0.8B to 397B parameters.",
+  "discussion": "Community feedback shows divided opinions, with some users praising Qwen3.5's instruction-following capabilities and replacing GPT-OSS-120B in production using VLLM, while others criticize its reasoning loops and slow performance in llama.cpp. Several users mention alternative models like NVIDIA Nemotron 120B and StepFun 3.5, with discussions highlighting the trade-offs between speed and quality in practical deployments.",
+  "references": [
+    {
+      "title": "Agentic Coding: The Dawn of a New Engineering Primitive | Alpha",
+      "url": "https://slavakurilyak.com/posts/agentic-coding"
+    },
+    {
+      "title": "gpt-oss-120b Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-oss-120b"
+    },
+    {
+      "title": "Qwen 3.5 Explained: Architecture, Upgrades Over Qwen ... - Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/qwen-3-5-explained-architecture-upgrades-over-qwen-3-benchmarks-and-real-world-use-cases-af38b01e9888"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

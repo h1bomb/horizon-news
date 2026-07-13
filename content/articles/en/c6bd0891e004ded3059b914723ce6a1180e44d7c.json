@@ -1,0 +1,40 @@
+{
+  "id": "c6bd0891e004ded3059b914723ce6a1180e44d7c",
+  "canonicalId": "a19ffa4b4e7bd94ba53b65cb926d0e29495f1c58",
+  "slug": "litellm-pypi-versions-1827-and-1828-compromised-with-malicious-code",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-24T12:06:00Z",
+  "lang": "en",
+  "title": "LiteLLM PyPI versions 1.82.7 and 1.82.8 compromised with malicious code",
+  "summary": "Versions 1.82.7 and 1.82.8 of the LiteLLM Python package on PyPI were discovered to contain malicious code that executed a forkbomb attack, causing systems to run out of RAM. The maintainer identified the compromise originated from a vulnerability in their CI/CD pipeline using the trivy tool, and PyPI has quarantined the affected packages. This incident highlights critical supply chain vulnerabilities in widely-used AI/ML libraries, affecting potentially millions of downloads and exposing users to credential theft and denial-of-service attacks. It underscores the urgent need for improved security practices in open-source ecosystems, particularly for dependencies that power modern AI applications. The malicious code was base64-encoded and added to proxy_server.py, which decoded and executed another file, leading to a forkbomb that rapidly consumed system resources. The attack is linked to the TeamPCP hacking group's ongoing supply chain campaign, and while the proxy Docker version was unaffected due to pinned dependencies, the PyPI package had over 95 million downloads.",
+  "score": 9,
+  "tags": [
+    "security",
+    "ai-ml",
+    "python",
+    "supply-chain",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dot_treo"
+    }
+  ],
+  "originalUrl": "https://github.com/BerriAI/litellm/issues/24512",
+  "originalSite": "github.com",
+  "context": "LiteLLM is a popular Python library that provides a unified interface for calling various large language models (LLMs) from providers like OpenAI and Anthropic. PyPI (Python Package Index) is the official repository for Python packages, where developers publish and install software dependencies. Supply chain attacks involve compromising trusted software sources to distribute malware, often targeting widely-used packages to maximize impact.",
+  "discussion": "The community discussion includes the maintainer detailing the CI/CD vulnerability, calls for better sandboxing and isolation in development environments, and tools like canary for detecting unauthorized package access. Overall sentiment reflects concern over dependency trust and the need for more robust security measures in software supply chains.",
+  "references": [
+    {
+      "title": "Popular LiteLLM PyPI package compromised in TeamPCP supply ...",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/"
+    },
+    {
+      "title": "LiteLLM Python package compromised by supply-chain attack",
+      "url": "https://github.com/BerriAI/litellm/issues/24512"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

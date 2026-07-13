@@ -1,0 +1,44 @@
+{
+  "id": "eb54fa4dbfb291091bd172217aa54929e2e87462",
+  "canonicalId": "052c13c238d7234e14712f765b8c3c2d7cb22ac2",
+  "slug": "heretic-的-ara-方法据称击败了-gpt-oss-的拒绝机制",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Heretic 的 ARA 方法据称击败了 GPT-OSS 的拒绝机制。",
+  "summary": "Heretic 项目的一个 pull request 中引入了一种名为 Arbitrary-Rank Ablation (ARA) 的新实验性去审查方法。据报道，该方法显著减少了 GPT-OSS-20B 模型的拒绝行为，甚至无需系统提示即可获得结果。 这一进展代表了在规避 AI 安全对齐方面的重要进步，表明复杂的拒绝机制可以通过相对简单的技术被中和。它凸显了模型安全努力与开源社区修改模型行为能力之间持续的张力，可能使“未经审查”的模型更容易获得。 ARA 方法是早期 rank-1 消融技术的扩展，针对模型激活空间中据信控制拒绝行为的多个“方向”。生成的模型已在 Hugging Face 上提供，但该方法仍处于实验阶段，尚未集成到 Heretic 的主版本中，当前模型主要使用 MPOA+SOMA 技术。",
+  "score": 8,
+  "tags": [
+    "model-alignment",
+    "decensoring",
+    "llm-safety",
+    "openai",
+    "research-methods"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 7, 19:06"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnic0a/heretic_has_finally_defeated_gptoss_with_a_new/",
+  "originalSite": "reddit.com",
+  "context": "Heretic 是一个旨在自动移除大语言模型中审查或“拒绝”机制的开源工具。其原理基于一项研究发现：对齐模型中的拒绝行为通常由模型内部表征中特定的、可操控的方向所介导。GPT-OSS 是 OpenAI 开源的 200 亿参数语言模型，包含了拒绝有害或敏感请求的安全训练。此处的“消融”指选择性地修改或“擦除”神经网络激活中的特定组件以改变其行为。",
+  "discussion": "社区反应混杂着兴奋与技术审视。许多人赞扬了创造者的聪明才智，而另一些人则提出了疑问：该方法是否可能过拟合，或者基础模型是否缺乏敏感主题的训练数据，导致即使不拒绝请求，其输出也可能不理想。讨论还涉及更广泛的影响，指出同样的技术也可能被公司用来加强审查。",
+  "references": [
+    {
+      "title": "p-e-w/gpt-oss-20b-heretic-ara-v3 · Hugging Face",
+      "url": "https://huggingface.co/p-e-w/gpt-oss-20b-heretic-ara-v3"
+    },
+    {
+      "title": "GitHub - p-e-w/heretic: Fully automatic censorship removal for language models · GitHub",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "title": "The Geometry of Refusal in Large Language Models: Concept Cones and Representational Independence | OpenReview",
+      "url": "https://openreview.net/forum?id=80IwJqlXs8"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "300662b157bc8dfbf726272c17fe0f0f898a731c",
+  "canonicalId": "b8256dd440db90f79604d284127f3e54cd2e1953",
+  "slug": "openai-的-macos-chronicle-功能引发隐私与安全担忧",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 的 macOS Chronicle 功能引发隐私与安全担忧",
+  "summary": "OpenAI 为 macOS 版 Codex 应用推出了选择性加入的研究预览功能 Chronicle，该功能会定期截取屏幕并通过 OCR 提取文本作为持久记忆存储。安全研究人员指出，OCR 文本在本地以未加密形式存储，且容易受到提示注入攻击。 该功能与备受争议的微软 Recall 类似，给用户（尤其是处理敏感数据的开发者）带来了重大的隐私和安全风险。未加密的本地存储以及易受提示注入攻击的特性可能导致数据泄露和未授权访问。 Chronicle 目前仅限 macOS 上的 ChatGPT Pro 订阅用户使用，且未在欧盟、英国或瑞士推出。截屏数据仅在本地存储 6 小时，但 OCR 提取的文本以未加密形式无限期保存，并可被设备上的其他程序访问。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "privacy",
+    "security",
+    "OpenAI",
+    "macOS"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 23, 03:06"
+    }
+  ],
+  "originalUrl": "https://www.theregister.com/2026/04/22/openai_chronicle_no_privacy_screenshot/",
+  "originalSite": "theregister.com",
+  "context": "Chronicle 是一种屏幕感知记忆功能，通过分析屏幕内容构建用户活动的持久记录。提示注入攻击利用 AI 模型的漏洞注入恶意提示，可能导致模型泄露数据或执行非预期操作。OCR（光学字符识别）技术将文本图像转换为机器可读的文本。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI releases Codex ' Chronicle ' feature for enhancing... - 9to5 Mac",
+      "url": "https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/"
+    },
+    {
+      "title": "OpenAI introduces Chronicle for Codex, a Recall-like memory feature ...",
+      "url": "https://www.neowin.net/news/openai-introduces-chronicle-for-codex-a-recall-like-memory-feature-for-developers-on-macos/"
+    },
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

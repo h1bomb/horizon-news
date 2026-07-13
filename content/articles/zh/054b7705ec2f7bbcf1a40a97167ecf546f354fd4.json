@@ -1,0 +1,44 @@
+{
+  "id": "054b7705ec2f7bbcf1a40a97167ecf546f354fd4",
+  "canonicalId": "7892542f8c22518387047124c6831c1a1c5607f3",
+  "slug": "anthropic-的-claude-code-包版本-2188-通过-npm-pack-命令泄露",
+  "date": "2026-04-01",
+  "publishedAt": "2026-04-01T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 的 Claude Code 包版本 2.1.88 通过 npm pack 命令泄露",
+  "summary": "Reddit 上的一篇帖子披露，Anthropic 的 Claude Code 包版本 2.1.88 意外地通过 npm pack 命令变得可访问，允许用户直接下载该包存档。这一事件引发了社区关于 AI 工具可靠性和企业安全实践的辩论。 这次泄露之所以重要，是因为它暴露了主要 AI 公司在处理其专有工具时的漏洞，可能削弱人们对 AI 辅助编码解决方案的信任。它还突显了科技行业对 AI 生成代码可靠性的更广泛担忧，因为类似问题已经影响了 GitHub、Windows 和 AWS 等公司。 这次泄露具体涉及 npm 包@anthropic-ai/claude-code@2.1.88，用户可以使用命令'npm pack @anthropic-ai/claude-code@2.1.88'下载它。据报道，这是 Claude Code 第二次发生此类事件，首次发布时也有类似问题，导致了像 AnonKode 这样的分支。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Software Development",
+    "Anthropic",
+    "Open Source",
+    "Code Generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 31, 15:45"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/tem7w9sqiesg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Claude Code 是 Anthropic 开发的一种代理式编码工具，通过自然语言命令帮助开发者理解代码库、编辑文件、运行命令和处理 git 工作流。npm pack 命令是 Node 包管理器的一个实用工具，用于创建 npm 包的 tarball 文件而无需发布到注册表，通常用于测试或私有共享。像 Claude Code 这样的 AI 代码生成工具旨在帮助开发者，但需要对生成的代码进行仔细审查和验证以确保可靠性。",
+  "discussion": "社区评论显示出不同的反应，一些用户对 AI 工具的可靠性和企业责任表示担忧，并指出其他科技公司也有类似问题。其他人看到了开源 AI 的潜在好处，而几条评论强调了负责任地使用 AI 和彻底代码验证的必要性。一些用户还对泄露代码的质量分享了幽默的看法和技术观察。",
+  "references": [
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "@anthropic-ai/claude-code - npm",
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code"
+    },
+    {
+      "title": "npm-pack | npm Docs",
+      "url": "https://docs.npmjs.com/cli/v9/commands/npm-pack/?v=true"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

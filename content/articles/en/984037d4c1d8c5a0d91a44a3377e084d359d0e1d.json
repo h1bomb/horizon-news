@@ -1,0 +1,44 @@
+{
+  "id": "984037d4c1d8c5a0d91a44a3377e084d359d0e1d",
+  "canonicalId": "a44ae99ded0be7cd553d8bb9375c4a12c78d989a",
+  "slug": "netflix-releases-void-its-first-public-ai-model-for-video-object-and-interaction-removal-on-hugging-face",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-03T12:25:00Z",
+  "lang": "en",
+  "title": "Netflix releases VOID, its first public AI model for video object and interaction removal on Hugging Face.",
+  "summary": "Netflix has publicly released VOID (Video Object and Interaction Deletion), a video object removal framework, on Hugging Face and GitHub, marking its first open-source model release on the platform. The model is designed to remove objects from videos while also handling their physical interactions, such as shadows, reflections, and object collisions, to produce plausible results. This release is significant as it showcases Netflix's entry into open-source AI contributions, potentially advancing video editing and content moderation tools with physically-plausible inpainting capabilities. It could impact industries like film production, content moderation, and AI research by providing a high-quality model for complex video manipulation tasks. VOID is trained using a new paired dataset generated with Kubric and HUMOTO for counterfactual object removals, focusing on complex scenarios where interactions like collisions occur. The model is available on Hugging Face with a demo space, and it outperforms baseline inpainting and text-guided video models in evaluations on synthetic and real-world data.",
+  "score": 8,
+  "tags": [
+    "video-editing",
+    "AI-models",
+    "open-source",
+    "computer-vision",
+    "content-moderation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Nunki08"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/bgt3czvcwysg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Video object removal involves using AI to erase unwanted objects from videos while maintaining visual consistency, often through inpainting techniques that fill in missing areas. Hugging Face is a popular platform for sharing AI models, datasets, and demos, facilitating open-source collaboration in the machine learning community. Physically-plausible inpainting refers to AI-generated content that realistically accounts for physical interactions, such as how removing an object affects surrounding elements like shadows or falling items.",
+  "discussion": "Community comments show high engagement, with users praising VOID's ability to remove objects along with their physical interactions, such as shadows and collisions, as impressive. However, some express concerns about potential misuse for censorship, like removing cigarettes from movies or altering content, while others humorously speculate on applications like removing main characters or mosaics.",
+  "references": [
+    {
+      "title": "VOID: Video Object and Interaction Deletion",
+      "url": "https://void-model.github.io/"
+    },
+    {
+      "title": "Now even Netflix has its own video AI • The Register",
+      "url": "https://www.theregister.com/2026/04/03/netflix_video_ai/"
+    },
+    {
+      "title": "[2604.02296] VOID: Video Object and Interaction Deletion",
+      "url": "https://arxiv.org/abs/2604.02296"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

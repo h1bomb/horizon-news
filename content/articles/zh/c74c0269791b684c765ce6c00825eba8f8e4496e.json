@@ -1,0 +1,44 @@
+{
+  "id": "c74c0269791b684c765ce6c00825eba8f8e4496e",
+  "canonicalId": "e162dddfb7622b8cbf358716b87610c3c37913f7",
+  "slug": "在-btf-中记录优化后的内核函数签名",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T18:59:00Z",
+  "lang": "zh",
+  "title": "在 BTF 中记录优化后的内核函数签名",
+  "summary": "Alan Maguire 和 Yonghong Song 提出在 BTF 调试信息中记录变化的函数签名，以处理三种常见的编译器优化导致的内核函数签名变化。 这项工作使得追踪和 BPF 程序能够准确处理优化后的内核函数，从而改善内核的调试和可观测性基础设施。 三种情况包括：参数移除、从结构体中提取字段，以及结构体指针传值化。该方法使用 pahole 工具将 DWARF 数据逆向工程为 BTF 真实签名。",
+  "score": 8,
+  "tags": [
+    "kernel",
+    "BTF",
+    "BPF",
+    "tracing",
+    "compiling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073762/",
+  "originalSite": "lwn.net",
+  "context": "BTF（BPF 类型格式）是 Linux 内核用于 BPF 程序和追踪的调试信息格式。DWARF 是一种更广泛的调试格式，表示源代码级别的类型，但其维护者拒绝了为运行时签名信息扩展它的请求。Pahole 是一个解析 DWARF 并生成 BTF 的工具，常用于内核构建。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "BPF Type Format ( BTF ) — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/next/bpf/btf.html"
+    },
+    {
+      "title": "Linux Kernel Driver DataBase: CONFIG_ DEBUG _ INFO _ BTF ...",
+      "url": "https://cateee.net/lkddb/web-lkddb/DEBUG_INFO_BTF.html"
+    },
+    {
+      "title": "BTF debug information",
+      "url": "https://android.googlesource.com/kernel/build/+/master/kleaf/docs/btf.md"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

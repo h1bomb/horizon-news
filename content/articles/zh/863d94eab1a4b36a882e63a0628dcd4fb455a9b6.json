@@ -1,0 +1,44 @@
+{
+  "id": "863d94eab1a4b36a882e63a0628dcd4fb455a9b6",
+  "canonicalId": "f916aee2ba365bbfccd2fa2c2fef65f0e300b27b",
+  "slug": "qwen35-9b-在文档-ai-基准测试中于-ocr-和-vqa-任务上超越前沿模型",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-9B 在文档 AI 基准测试中，于 OCR 和 VQA 任务上超越前沿模型。",
+  "summary": "在一项涉及 20 个模型和超过 9,000 份真实文档的全面文档 AI 基准测试中，Qwen3.5-9B 在 OlmOCR（文本提取）任务上获得 78.1 分，超越了 Gemini 3.1 Pro（74.6 分）和 GPT-5.4（73.4 分）等前沿模型。此外，它在 VQA（视觉问答）任务上获得 79.5 分，仅次于 Gemini 3.1 Pro，并领先于 GPT-5.4。 这表明像 Qwen3.5-9B 这样的小型开源模型，在特定文档 AI 任务上能够与甚至超越更大规模的专有前沿模型竞争，可能降低本地部署的成本并提高可访问性。它突显了开源 AI 的快速发展，挑战了闭源模型在文档处理等实际应用中的主导地位。 基准测试还显示，Qwen3.5-4B 和 Qwen3.5-2B 表现具有竞争力，其中 4B 模型在 KIE（关键信息提取）任务上以 86.0 分匹配 GPT-5.4，2B 模型在 OlmOCR 任务上以 73.7 分匹配 GPT-5.4。然而，前沿模型在某些领域仍保持领先，例如 Gemini 3 Flash 在 KIE 任务上以 91.1 分表现出色，且基准测试未包含更大的 Qwen 变体，如 27B 或 35B MoE。",
+  "score": 7,
+  "tags": [
+    "Document AI",
+    "Benchmarking",
+    "Open Source Models",
+    "OCR",
+    "VQA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 16, 13:20"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/8u6eutqymepg1.png",
+  "originalSite": "i.redd.it",
+  "context": "文档 AI 涉及使用 AI 模型处理和理解文档，关键任务包括 OCR（光学字符识别）用于文本提取、VQA（视觉问答）用于回答关于文档内容的问题，以及 KIE（关键信息提取）用于提取日期或金额等特定字段。OlmOCR 是一个利用大语言模型从图像和 PDF 中高精度提取文本的工具，而 DocVQA 是一个用于文档图像 VQA 的数据集。Qwen3.5 是一系列开源语言模型，参数规模从 0.8B 到 9B 不等，专为高效的本地部署设计。",
+  "discussion": "社区整体表达了积极情绪，用户指出小型模型在本地使用中的高效性以及开源选项的竞争力。关键观点包括赞扬 Qwen3.5 的表现“低调而惊人”，建议增加如右边界框估计等基准测试，并质疑测试中未包含更大 Qwen 变体的原因。一些批评集中在展示问题上，如图表颜色编码不清晰。",
+  "references": [
+    {
+      "title": "OLMOCR | Free AI-Powered Text Extraction from Images and",
+      "url": "https://www.olmocr.com/en"
+    },
+    {
+      "title": "[2007.00398] DocVQA: A Dataset for VQA on Document Images",
+      "url": "https://arxiv.org/abs/2007.00398"
+    },
+    {
+      "title": "Qwen3.5 small models: Everything you need to know",
+      "url": "https://artificialanalysis.ai/articles/qwen3-5-small-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

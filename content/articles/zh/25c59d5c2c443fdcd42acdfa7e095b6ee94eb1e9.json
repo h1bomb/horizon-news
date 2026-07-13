@@ -1,0 +1,40 @@
+{
+  "id": "25c59d5c2c443fdcd42acdfa7e095b6ee94eb1e9",
+  "canonicalId": "fbb98b6c8823577eb4880c9802099efb5d71d4ef",
+  "slug": "本地-llm-速度两年内从-1-飙升至-100-令牌秒",
+  "date": "2026-05-04",
+  "publishedAt": "2026-05-04T00:00:00Z",
+  "lang": "zh",
+  "title": "本地 LLM 速度两年内从 1 飙升至 100 令牌/秒",
+  "summary": "两年前，运行量化密集模型 Llama 405B 约 1.2 令牌/秒已令人兴奋；现在，混合专家（MoE）架构让 Qwen 3.5 397B 等大规模前沿模型在相同硬件上达到 30–100 令牌/秒。 这一飞跃让个人无需昂贵基础设施即可在本地以实用速度运行 AGI 级模型，加速实验与创新。 性能提升主要源于 MoE 的稀疏激活而非密集计算；注意力机制的改进（如混合 Mamba、DSA）也提升了上下文处理能力。密集 LLaMA 405B 仅靠张量并行和内存卸载获得有限加速，量化（q4_k_m）仍是模型适配消费级 GPU 的关键。",
+  "score": 8,
+  "tags": [
+    "local LLM",
+    "Mixture of Experts",
+    "inference performance",
+    "hardware acceleration",
+    "model optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 3, 17:46"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t2s7ik/what_a_time_to_be_alive_from_1tksec_to_20100tksec/",
+  "originalSite": "reddit.com",
+  "context": "混合专家（MoE）架构采用多个专门子模型，每令牌仅激活部分专家以降低计算量。量化将模型权重压缩到低位宽（如 4 位），减少内存占用而几乎不损失精度，使巨型模型能在有限硬件上运行。密集模型对每令牌处理所有参数，速度较慢。本地 LLM 社区借助 GPU 卸载和张量并行等技术在个人设备上运行大模型。",
+  "discussion": "评论者指出速度提升主要源于密集到 MoE 的转变，而非硬件进步；密集 LLaMA 405B 如今速度仍相似。有人质疑“超级 AGI”的说法，也有人讨论硬件细节（如用二手 RTX 3090 需 900 美元以上才能以 50 令牌/秒运行 qwen3.6-36b）。整体上兴奋中夹杂着对架构差异的清醒认识。",
+  "references": [
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What... | Medium",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "[2507.11181] Mixture of Experts in Large Language Models",
+      "url": "https://arxiv.org/abs/2507.11181"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

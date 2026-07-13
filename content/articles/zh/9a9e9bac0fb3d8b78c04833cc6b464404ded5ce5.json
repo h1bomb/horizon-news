@@ -1,0 +1,44 @@
+{
+  "id": "9a9e9bac0fb3d8b78c04833cc6b464404ded5ce5",
+  "canonicalId": "884b66ac86ddc76e8daeeb6b50a4b3c9edd6a6c4",
+  "slug": "会议论文附录过长挑战页数限制初衷",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-28T00:00:00Z",
+  "lang": "zh",
+  "title": "会议论文附录过长挑战页数限制初衷",
+  "summary": "Reddit 上的讨论指出，机器学习会议论文（如 ICML 和 NeurIPS）的附录越来越长，正从补充材料变为核心部分，这削弱了页数限制的初衷。作者提到，附录常包含大量无法放入主论文 8-10 页的实验，使其实际上成为必需内容。 这一趋势引发了对学术出版研究标准和公平性的担忧，因为它可能使遵守页数限制的作者处于不利地位，并给审稿人带来过多负担。这可能导致会议论文从简洁贡献转向以数量为导向的提交，影响机器学习社区会议论文集的质量和可访问性。 像 ICML 这样的会议允许附录页数不限，而主论文严格限制在 8 页，NeurIPS 也有类似政策，这造成了附录可能超过主内容长度的漏洞。这种做法模糊了会议与期刊的界限，因为尽管有名义上的页数限制，但超过 25 页的论文变得普遍。",
+  "score": 7,
+  "tags": [
+    "academic-publishing",
+    "conferences",
+    "machine-learning",
+    "research-standards",
+    "peer-review"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 27, 09:09"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1s4yyyi/d_on_conferences_and_page_limitations/",
+  "originalSite": "reddit.com",
+  "context": "机器学习会议如 ICML 和 NeurIPS 设定页数限制（例如 ICML 为 8 页），以确保提交内容简洁且审稿过程可管理，附录本意用于补充材料，如额外实验或证明。附录变长的趋势反映了学术界更广泛的趋势，即大量数据和可重复性要求促使作者在主论文外包含更多内容。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ICML 2025 Author Instructions",
+      "url": "https://icml.cc/Conferences/2025/AuthorInstructions"
+    },
+    {
+      "title": "NeurIPS 2025 FAQ for Authors",
+      "url": "https://neurips.cc/Conferences/2025/PaperInformation/NeurIPS-FAQ"
+    },
+    {
+      "title": "Understanding Word Count and Page Limit Requirements for ...",
+      "url": "http://www.iconf.com/news/818"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2f0ad961245fd4f1b0decaf56e595521e5c2feda",
+  "canonicalId": "fb47a34deee5b5fa40dcc9db974dd8d2cc586cde",
+  "slug": "提出-cow-上下文替代匿名反向映射",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-15T00:00:00Z",
+  "lang": "zh",
+  "title": "提出 COW 上下文替代匿名反向映射",
+  "summary": "Lorenzo Stoakes 在 2026 年 Linux 存储、文件系统、内存管理和 BPF 峰会上提出了一个“COW 上下文”替换方案，用于替代内核的匿名反向映射，旨在降低复杂度并提升性能。 该提案解决了核心内核子系统中长期存在的性能问题和代码复杂性，有望提升所有 Linux 系统的可扩展性和可维护性。 COW 上下文在 mm_struct（每进程）级别跟踪匿名映射，而不是在每个 VMA 级别，从而减少了对象数量并降低了 fork 操作期间的锁竞争。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "reverse mapping",
+    "COW",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 14, 13:14"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072378/",
+  "originalSite": "lwn.net",
+  "context": "反向映射用于查找指向给定物理页的页表条目，这是内存管理所需要的。匿名页目前使用复杂的每 VMA 机制，存在高锁竞争和内存开销问题。Stoakes 的 COW 上下文旨在通过使用每 mm_struct 结构来简化这一过程，该结构可以比进程存活更久。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Reverse mapping of anonymous pages in Linux - SoByte",
+      "url": "https://www.sobyte.net/post/2022-08/linux-anonymous-pages-reverse-mapping/"
+    },
+    {
+      "title": "Kernel development [LWN.net]",
+      "url": "https://lwn.net/Articles/85050/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

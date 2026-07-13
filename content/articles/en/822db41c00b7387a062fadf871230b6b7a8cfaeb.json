@@ -1,0 +1,45 @@
+{
+  "id": "822db41c00b7387a062fadf871230b6b7a8cfaeb",
+  "canonicalId": "80d20b5bb703e51c04e6b169828beb2df794a068",
+  "slug": "antigravity-20-tops-openscad-llm-benchmark-for-3d-models",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-22T10:38:00Z",
+  "lang": "en",
+  "title": "Antigravity 2.0 Tops OpenSCAD LLM Benchmark for 3D Models",
+  "summary": "Antigravity 2.0, an AI agent powered by Gemini 3.5 Flash, achieved the top score in the OpenSCAD LLM benchmark by generating complex 3D architectural models like the Pantheon, including interior details such as coffered ceilings. This benchmark demonstrates that LLMs are advancing in parametric 3D modeling, which could significantly accelerate architectural design and 3D printing workflows. It also highlights the potential of AI agents to autonomously handle intricate geometric tasks. The benchmark used the Pantheon as a single test case, which some commenters noted limits generalizability. Antigravity 2.0 was the only agent that implemented the Pantheon's interior ceiling pattern with repeated square coffers visible through the oculus.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "3D modeling",
+    "OpenSCAD",
+    "benchmark",
+    "AI agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jetter",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48234090"
+    }
+  ],
+  "originalUrl": "https://modelrift.com/blog/openscad-llm-benchmark/",
+  "originalSite": "modelrift.com",
+  "context": "OpenSCAD is a free, script-based 3D CAD modeller that uses its own description language for creating solid objects via constructive solid geometry. Antigravity 2.0 is Google's AI agent platform that integrates with the Gemini API and provides CLI and IDE tools for orchestrating AI tasks.",
+  "discussion": "Community reactions were mixed. Some users praised Antigravity's output quality, while others criticized rollout stability issues and noted that the benchmark's single test case is insufficient to prove general superiority. A commenter also observed that Gemini models are the least 'jagged' across different 3D model types.",
+  "references": [
+    {
+      "title": "OpenSCAD",
+      "url": "https://en.wikipedia.org/wiki/OpenSCAD"
+    },
+    {
+      "title": "Google Antigravity Documentation",
+      "url": "https://antigravity.google/docs/overview"
+    },
+    {
+      "title": "Google Antigravity 2.0: The Complete Developer Guide (2026)",
+      "url": "https://www.buildfastwithai.com/blogs/google-antigravity-2-0-developer-guide-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

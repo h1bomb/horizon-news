@@ -1,0 +1,31 @@
+{
+  "id": "57de6bfa4ee8ec8a1017f59f8603b4b87f698635",
+  "canonicalId": "82769dc35d8d9ddf0fe91f5424ffc182e0d7dfe2",
+  "slug": "googles-ai-peer-reviewer-processes-10k-papers-at-top-conferences",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T10:05:00Z",
+  "lang": "en",
+  "title": "Google's AI peer reviewer processes 10K papers at top conferences",
+  "summary": "Google deployed an agentic AI peer-reviewer at ICML and STOC that reviewed approximately 10,000 papers with a 30-minute turnaround. A new research paper shows it detects 34% more mathematical errors than zero-shot prompting. This demonstrates a scalable, automated approach to scientific peer review, potentially reducing review bottlenecks and improving error detection. It sets a precedent for AI-assisted review at conference scale, which could impact how research is evaluated. The system uses an agentic framework that iteratively reasons about papers, combining retrieval and verification steps. It achieved the 34% improvement over baseline zero-shot prompting, which asks the model to review without additional guidance.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "peer review",
+    "conference",
+    "automation",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Justgototheeffinmoon"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/",
+  "originalSite": "reddit.com",
+  "context": "Peer review at large computer science conferences like ICML and STOC traditionally involves hundreds of human reviewers and can take weeks. Zero-shot prompting uses a large language model to answer tasks without task-specific examples. Agentic AI systems are designed to autonomously plan and execute multi-step tasks, such as fetching paper details, verifying mathematical claims, and synthesizing feedback.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "e991ba588b8aeaa7ff0f0692cbd8d3385cdd9253",
+  "canonicalId": "373fe1a31347589948afcf083ea6ec3d82a6a9b7",
+  "slug": "unsloth-studio-beta-receives-major-update-with-50-new-features-including-faster-inference-and-amd-support",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T15:06:00Z",
+  "lang": "en",
+  "title": "Unsloth Studio Beta receives major update with 50+ new features including faster inference and AMD support",
+  "summary": "Unsloth Studio Beta has been updated with over 50 new features and improvements, including 20-30% faster inference speeds, auto-detection of existing models from LM Studio and Hugging Face, enhanced tool calling capabilities, and preliminary AMD support for Linux systems. This update significantly improves the accessibility and performance of local LLM optimization tools, making it easier for developers to run and fine-tune large language models on consumer hardware while expanding hardware compatibility beyond NVIDIA GPUs. The update includes pre-compiled binaries for llama.cpp and mamba_ssm that reduce installation time to about 1 minute and cut package size by 50%, plus fixes for Windows and Mac setup issues, CPU RAM spikes, and improved inference token reporting that now reflects actual speed rather than including startup time.",
+  "score": 7,
+  "tags": [
+    "machine-learning",
+    "llm-optimization",
+    "local-llms",
+    "developer-tools",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "danielhanchen"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/89bl7grwqlrg1",
+  "originalSite": "v.redd.it",
+  "context": "Unsloth Studio is a tool for training and running large language models locally, focusing on optimization and ease of use. llama.cpp is an open-source software library that performs inference on various LLMs with minimal setup, while mamba_ssm is a Python module for state space models used in certain architectures. These tools are popular among developers working with local LLMs due to their hardware efficiency and open-source nature.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Export models with Unsloth Studio | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/new/studio/export"
+    },
+    {
+      "title": "Llama.cpp",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    },
+    {
+      "title": "mamba-ssm · PyPI",
+      "url": "https://pypi.org/project/mamba-ssm/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "85e02ce4e2be2be5397f22891de66a819a12f8c0",
+  "canonicalId": "0717dc22016e2fd67f9a1c4aed0758b1c203d8b5",
+  "slug": "ubuntu-2604-lts-resolute-raccoon-released",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T18:16:00Z",
+  "lang": "en",
+  "title": "Ubuntu 26.04 LTS 'Resolute Raccoon' Released",
+  "summary": "Ubuntu 26.04 LTS, codenamed 'Resolute Raccoon', has been released on schedule, introducing TPM-backed full-disk encryption, expanded memory-safe components, improved application permission controls, and Livepatch support for Arm systems. This release significantly enhances security and resilience for Ubuntu users across desktop, server, and cloud, with TPM-backed encryption reducing reliance on passphrases and Livepatch for Arm minimizing downtime on ARM-based systems. Maintenance updates will be provided for 5 years for Ubuntu Desktop, Server, Cloud, WSL, and Core, while flavors will be supported for 3 years. The release also includes official flavors like Edubuntu, Kubuntu, and Xubuntu.",
+  "score": 8,
+  "tags": [
+    "Ubuntu",
+    "Linux",
+    "LTS",
+    "security",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1069399/",
+  "originalSite": "lwn.net",
+  "context": "TPM (Trusted Platform Module) is a hardware security chip that stores encryption keys securely, enabling full-disk encryption without requiring a passphrase at boot. Livepatch allows kernel security updates to be applied without rebooting, reducing downtime. Memory-safe components are written in languages like Rust that prevent common memory bugs, improving security.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TPM-backed Full Disk Encryption is coming to Ubuntu | Ubuntu",
+      "url": "https://ubuntu.com/blog/tpm-backed-full-disk-encryption-is-coming-to-ubuntu"
+    },
+    {
+      "title": "Ubuntu to add TPM-backed full-disk encryption [LWN.net]",
+      "url": "https://lwn.net/Articles/943869/"
+    },
+    {
+      "title": "canonical-livepatch coming to ARM? : r/Ubuntu - Reddit",
+      "url": "https://www.reddit.com/r/Ubuntu/comments/15pnh0b/canonicallivepatch_coming_to_arm/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

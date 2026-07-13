@@ -1,0 +1,41 @@
+{
+  "id": "6ec423182dccbd0b55c45347af9cb219cdac9f6f",
+  "canonicalId": "2ba33715934fa76bed6c71f14bf6b5cada4e2e80",
+  "slug": "nearly-half-of-lg-smart-tv-apps-contain-residential-proxy-sdks",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T20:48:00Z",
+  "lang": "en",
+  "title": "Nearly half of LG smart TV apps contain residential proxy SDKs",
+  "summary": "An investigation by Spur.us reveals that nearly half of LG smart TV apps from the LG Content Store include residential proxy SDKs, which covertly turn users' TVs into proxy nodes without consent. This poses a severe privacy violation as users' home networks are used for proxy traffic without their knowledge, potentially enabling malicious activities such as web scraping or circumvention of geo-blocks. The affected apps are third-party apps, not LG's first-party apps. The SDKs are supplied by third-party proxy service providers and are embedded in popular apps like streaming and utility apps.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "smart TV",
+    "residential proxy",
+    "security",
+    "IoT"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "microcode",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48635954"
+    }
+  ],
+  "originalUrl": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+  "originalSite": "spur.us",
+  "context": "A residential proxy uses an IP address assigned by an Internet Service Provider (ISP) to a real household, making traffic appear to come from a legitimate home user rather than a data center. This is often used for web scraping, ad verification, or bypassing geo-restrictions. When embedded in smart TV apps without disclosure, it turns the TV into a node in a proxy network, consuming user bandwidth and potentially exposing their network to abuse.",
+  "discussion": "Comments express strong concern and distrust toward smart TVs. Users recommend never connecting smart TVs to the network or isolating them on a firewalled VLAN. Some point out that the affected apps are third-party, not built-in, and discuss the rise of scraping from residential IPs.",
+  "references": [
+    {
+      "title": "What Is a Residential Proxy? How It Works - Tech Review Advisor",
+      "url": "https://techreviewadvisor.com/what-is-a-residential-proxy/"
+    },
+    {
+      "title": "Evading Residential Proxy Networks: Protecting Your Devices ...",
+      "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/evading-residential-proxy-networks-protecting-your-devices-from-becoming-a-tool-for-criminals"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

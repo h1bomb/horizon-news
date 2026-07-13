@@ -1,0 +1,44 @@
+{
+  "id": "c66eb8f56b718f6a671dc06df00fcc636ba21c9e",
+  "canonicalId": "3b5fc77dfccfd6203c9a5bbc963d4926aaa4fafb",
+  "slug": "google-releases-gemini-31-flash-tts-a-prompt-controlled-text-to-speech-model-via-api",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-15T17:13:00Z",
+  "lang": "en",
+  "title": "Google releases Gemini 3.1 Flash TTS, a prompt-controlled text-to-speech model via API.",
+  "summary": "Google released Gemini 3.1 Flash TTS on April 15, 2026, a new text-to-speech model accessible through the Gemini API using the model ID 'gemini-3.1-flash-tts-preview', which allows users to direct speech generation with detailed prompts specifying audio profiles, accents, and styles. This release is significant because it introduces prompt-based control to text-to-speech, enabling more nuanced and customizable audio generation for applications like media production, accessibility tools, and interactive AI, potentially advancing the field beyond traditional fixed-voice TTS systems. The model currently only outputs audio files and cannot generate text or other formats, and its prompting guide includes advanced directives like audio profiles, scene settings, and accent specifications, as demonstrated in examples for London, Newcastle, and Devon accents.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Text-to-Speech",
+    "Google",
+    "API",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Text-to-speech (TTS) models convert written text into spoken audio, commonly used in virtual assistants, audiobooks, and accessibility tools. The Gemini API is Google's interface for accessing its AI models, allowing developers to integrate capabilities like language processing and speech generation into applications. Prompt engineering involves crafting natural language inputs to guide AI outputs, a technique increasingly applied to TTS for controlling voice characteristics and delivery styles.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Text-to-speech generation (TTS) | Gemini API | Google AI for ...",
+      "url": "https://ai.google.dev/gemini-api/docs/speech-generation"
+    },
+    {
+      "title": "Prompt design strategies - Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    },
+    {
+      "title": "Use device profiles for generated audio - Google Cloud",
+      "url": "https://docs.cloud.google.com/text-to-speech/docs/audio-profiles"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

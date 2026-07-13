@@ -1,0 +1,44 @@
+{
+  "id": "74eebd4c9c41c45dca8f443ace673c367a57c6fa",
+  "canonicalId": "cc74ffad6b166c10e4db2a4876712f1871670eaf",
+  "slug": "updated-qwen35-9b-quantization-comparison-using-kl-divergence",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-14T10:55:00Z",
+  "lang": "en",
+  "title": "Updated Qwen3.5-9B Quantization Comparison Using KL Divergence",
+  "summary": "A Reddit post published a quantitative comparison of community GGUF quantizations for the Qwen3.5-9B model, using KL divergence (KLD) to evaluate faithfulness to the original BF16 baseline. The analysis ranks quantizations like eaddario/Qwen3.5-9B-Q8_0 and unsloth/Qwen3.5-9B-UD-Q8_K_XL based on KLD scores, with lower scores indicating better fidelity. This matters because it provides a data-driven basis for selecting quantizations, helping users choose files that minimize information loss rather than relying on availability or guesswork. It supports the broader trend of optimizing large language models for efficiency on consumer hardware, benefiting developers and researchers deploying models locally. The comparison uses KL divergence as a metric for faithfulness, which is less noisy than perplexity (PPL) as it relies on the baseline distribution rather than a dataset. Quantizations with KLD scores below 0.01, such as eaddario/Qwen3.5-9B-Q8_0 (KLD 0.001198), are highlighted as the most faithful, though the analysis is limited to Qwen3.5-9B and may not generalize to other models.",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "model-evaluation",
+    "Qwen",
+    "LLM-optimization",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "TitwitMuffbiscuit"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sl59qq/updated_qwen359b_quantization_comparison/",
+  "originalSite": "reddit.com",
+  "context": "Quantization is a technique that reduces the precision of model weights (e.g., from 32-bit to 8-bit) to decrease memory usage and speed up inference, often at the cost of slight accuracy loss. GGUF is a unified format for storing quantized models, supporting levels like Q8_0, which balances size and performance. KL divergence measures how much a quantized model's probability distribution differs from the original, with lower values indicating less information loss. BF16 is a 16-bit floating-point format used as a baseline for high-precision comparisons in this context.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is GGUF? Complete Guide to GGUF Format & Quantization (2025)",
+      "url": "https://ggufloader.github.io/what-is-gguf.html"
+    },
+    {
+      "title": "KL Divergence in Machine Learning | Encord",
+      "url": "https://encord.com/blog/kl-divergence-in-machine-learning/"
+    },
+    {
+      "title": "BF 16 Precision in AI Training",
+      "url": "https://www.emergentmind.com/topics/bf16-precision"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

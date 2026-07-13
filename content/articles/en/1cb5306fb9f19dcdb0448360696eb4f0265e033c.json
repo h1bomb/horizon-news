@@ -1,0 +1,44 @@
+{
+  "id": "1cb5306fb9f19dcdb0448360696eb4f0265e033c",
+  "canonicalId": "289c6345d678978d32404cd577d12ebc2ba7b202",
+  "slug": "lemonade-v10-adds-linux-npu-support-and-expands-multi-modal-ai-capabilities",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-13T17:49:00Z",
+  "lang": "en",
+  "title": "Lemonade v10 adds Linux NPU support and expands multi-modal AI capabilities",
+  "summary": "Lemonade v10 was released this week, introducing Linux support for AMD NPUs (Neural Processing Units) and expanding multi-modal capabilities including image generation/editing, transcription, and speech generation accessible through a single base URL. The release also includes a control center web and desktop app for managing models and backends, with robust support for Ubuntu, Arch, Debian, Fedora, and Snap. This matters because it enables local AI applications to leverage AMD NPU hardware acceleration on Linux systems, significantly improving performance and efficiency for multi-modal AI tasks like image and speech processing. It enhances the local AI ecosystem by making it easier to deploy portable, cross-platform applications that reduce reliance on cloud services. The Linux NPU support requires specific setup steps on Ubuntu 24.04, including installing rocm-dkms/rocm-utils, configuring the amdgpu module with 'options amdgpu npt=3', and setting environment variables like HIP_VISIBLE_DEVICES=0 and LEMONADE_BACKEND=npu. The release builds on Lemonade v9's C++ implementation from four months ago and is part of the AMD Lemonade Developer Challenge, which offers high-end Strix Halo laptops as prizes.",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "NPU",
+    "Local AI",
+    "Multi-modal AI",
+    "AMD"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jfowers_amd"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/ndpi723pkuog1.png",
+  "originalSite": "i.redd.it",
+  "context": "Lemonade is a local AI framework that enables running language models and multi-modal AI applications on personal devices without cloud dependency. An NPU (Neural Processing Unit) is a specialized hardware accelerator designed for AI inference tasks, such as those in AMD client APUs, offering improved performance and efficiency over general-purpose CPUs or GPUs. Multi-modal AI combines different data types like text, images, and audio to enhance decision-making and user interactions.",
+  "discussion": "Community comments express excitement and gratitude for the Linux NPU support, with users sharing technical setup tips for Ubuntu and inquiring about optimization for Strix Halo hardware. There are requests for guides on model conversion to Hybrid mode and comparisons to other tools like LM Studio, highlighting practical concerns and enthusiasm for the advancements.",
+  "references": [
+    {
+      "title": "AMD NPU — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/accel/amdxdna/amdnpu.html"
+    },
+    {
+      "title": "Lemonade Server Examples | lemonade",
+      "url": "https://lemonade-server.ai/server/apps/"
+    },
+    {
+      "title": "How to a Multimodal LLM Locally - Jeremy Morgan",
+      "url": "https://www.jeremymorgan.com/blog/generative-ai/how-to-multimodal-llm-local/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

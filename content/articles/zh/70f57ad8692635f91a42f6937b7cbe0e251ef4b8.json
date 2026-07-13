@@ -1,0 +1,41 @@
+{
+  "id": "70f57ad8692635f91a42f6937b7cbe0e251ef4b8",
+  "canonicalId": "bc9588fd2be5cfc9eb9c4fd85cc7830e9cc45f54",
+  "slug": "quadrf开源射频增强现实工具可穿透墙壁探测无人机和-wifi-信号",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T15:59:00Z",
+  "lang": "zh",
+  "title": "QuadRF：开源射频增强现实工具，可穿透墙壁探测无人机和 WiFi 信号",
+  "summary": "QuadRF 是一款开源 4x4 MIMO 软件无线电（SDR）相控阵系统，被证明可作为射频增强现实工具，能够可视化 WiFi 信号并穿透墙壁探测无人机。 该项目将先进的射频感知技术普及化，使爱好者及研究人员能够在安全、隐私审计及无线网络诊断等应用中使用。同时引发了关于隐私以及消费级射频工具能力的重发讨论。 QuadRF 在 Crowd Supply 上作为开发套件提供，使用 Raspberry Pi 5 上的 GNU Radio 进行信号处理。创建者指出，演示需要精细的相机对准校准和无线电增益设置，目前正在根据用户反馈改进界面。",
+  "score": 8,
+  "tags": [
+    "RF",
+    "drones",
+    "WiFi",
+    "open-source",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48861717"
+    }
+  ],
+  "originalUrl": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+  "originalSite": "jeffgeerling.com",
+  "context": "相控阵技术传统上用于军用雷达和高端通信，通过多个天线电子方式控制并检测信号。软件无线电（SDR）允许通过软件而非硬件进行信号处理。QuadRF 将这些概念整合到一个价格适中的开源套件中。",
+  "discussion": "创建者 (mrtnmcc) 积极回答问题并分享了演示视频。评论者将其与热成像相机类比，并对类似的声音定位工具表示兴趣。部分评论讨论了隐私影响并猜测政府能力，还有建议将此技术集成到智能眼镜中。",
+  "references": [
+    {
+      "title": "QuadRF | Crowd Supply",
+      "url": "https://www.crowdsupply.com/scale-rf/quadrf"
+    },
+    {
+      "title": "QuadRF Documentation",
+      "url": "https://moonrf.com/docs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

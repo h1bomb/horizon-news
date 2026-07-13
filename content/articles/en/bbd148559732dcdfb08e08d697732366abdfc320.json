@@ -1,0 +1,41 @@
+{
+  "id": "bbd148559732dcdfb08e08d697732366abdfc320",
+  "canonicalId": "b8c7fd931d56f1062770192e20cbf04f91cb0311",
+  "slug": "rust-rewrite-of-postgres-passes-all-regression-tests",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T06:18:00Z",
+  "lang": "en",
+  "title": "Rust Rewrite of Postgres Passes All Regression Tests",
+  "summary": "A project called pgrust has rewritten PostgreSQL entirely in Rust using LLMs, and now passes 100% of the official PostgreSQL regression tests. This demonstrates the feasibility of using AI to rewrite large, critical infrastructure software, potentially enabling faster innovation and safer memory management in databases. It also sparks debate on licensing, code review, and trust in AI-generated code. The rewrite uses LLMs to generate code and has produced over 7,000 commits in less than a month, making traditional code review impractical. The project is licensed under AGPL, which differs from PostgreSQL's permissive license.",
+  "score": 9,
+  "tags": [
+    "postgres",
+    "rust",
+    "llm",
+    "database",
+    "ai"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "SweetSoftPillow",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48841676"
+    }
+  ],
+  "originalUrl": "https://github.com/malisper/pgrust",
+  "originalSite": "github.com",
+  "context": "PostgreSQL regression tests are a comprehensive test suite that validates SQL implementation and extended features. LLM-based code generation is an emerging technique where large language models produce source code, which can accelerate development but raises concerns about correctness, security, and maintainability.",
+  "discussion": "The author explained the project as an experiment in using LLMs to build a better Postgres, and is working on a new version. Commenters raised concerns about reviewing AI-generated code due to the massive commit log, and debated the license change from PostgreSQL license to AGPL. Some suggested mirroring traffic to compare behavior under real load.",
+  "references": [
+    {
+      "title": "PostgreSQL: Documentation: 18: Chapter 31. Regression Tests",
+      "url": "https://www.postgresql.org/docs/current/regress.html"
+    },
+    {
+      "title": "A Survey on Code Generation with LLM-based Agents",
+      "url": "https://arxiv.org/abs/2508.00083"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

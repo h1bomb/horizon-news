@@ -1,0 +1,44 @@
+{
+  "id": "89dc18d3b120579d582f122b6fa27e05c1eee54d",
+  "canonicalId": "f7a8f16a6d82eea3bd2e8521fc084f0ee38723f3",
+  "slug": "qwen-36-35b-a3b-在小众代码理解上大幅提升",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-12T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.6 35B A3B 在小众代码理解上大幅提升",
+  "summary": "一位 Reddit 用户报告称，新型 Qwen 3.6 35B A3B 模型以及其他近期小模型，借助 Gated DeltaNet 和 hybrid Mamba2 等先进长上下文机制，理解小众学术代码的能力显著提升。 这一突破使得小型本地模型能够胜任复杂的代码理解任务，让研究者可以将整篇学术论文和代码库输入到消费级硬件上运行的模型中。 用户测试了四个模型：Qwen 3.6 35B A3B、Qwen 3.6 27B、Gemma 4 26B A4B 和 Nemotron 3 Nano。所有模型相较于之前的小模型都有明显提升，但将长上下文装入 32GB 内存对某些模型（如 Devstral Small 2）仍具挑战。",
+  "score": 8,
+  "tags": [
+    "Qwen",
+    "LLM",
+    "local AI",
+    "model benchmark",
+    "long context"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 11, 07:51"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t9whrt/the_qwen_36_35b_a3b_hype_is_real/",
+  "originalSite": "reddit.com",
+  "context": "近期的开源权重模型引入了 Gated DeltaNet 和 hybrid Mamba2 等线性注意力机制，以高效处理超过 64K token 的长上下文。Qwen 3.6 35B A3B 采用混合架构，每三个 Gated DeltaNet 层搭配一个 Gated Attention 层，并采用稀疏 MoE，每个 token 仅激活 3B 参数，从而在消费级 GPU 上实现快速推理。",
+  "discussion": "用户分享了实际经验：有人推荐在长上下文任务中使用 Qwen 35B A3B 的思考模式，另一位用户指出 27B 模型与 DeepSeek V4 表现相似。部分用户讨论了合适的采样设置和量化级别。一位拥有 12GB GPU 的用户询问如何搭配第二张显卡。",
+  "references": [
+    {
+      "title": "Qwen3.6-35B-A3B Complete Review: Alibaba's ... - DEV Community",
+      "url": "https://dev.to/czmilo/qwen36-35b-a3b-complete-review-alibabas-open-source-coding-model-that-beats-frontier-giants-4382"
+    },
+    {
+      "title": "Qwen3.6 35B A3B: Specifications and GPU VRAM Requirements",
+      "url": "https://apxml.com/models/qwen36-35b-a3b"
+    },
+    {
+      "title": "Qwen 3.6 Complete Guide: 27B Dense, 35B-A3B MoE, and Which to ...",
+      "url": "https://insiderllm.com/guides/qwen-3-6-local-ai-guide/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

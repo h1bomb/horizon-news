@@ -1,0 +1,44 @@
+{
+  "id": "71072032d579f62c4ff808048df0fe29828da80a",
+  "canonicalId": "ec281455736983990929f231249a5c5070319d3e",
+  "slug": "google-推出基于-gemini-的暗网情报-ai-代理已开放预览",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Google 推出基于 Gemini 的暗网情报 AI 代理，已开放预览",
+  "summary": "Google 推出了一个基于 Gemini 的暗网情报与安全运营 AI 代理，并已接入 Google Threat Intelligence 开放预览。该服务每天分析约 800 万至 1000 万条暗网帖子，以识别初始访问中介活动、数据泄露和内部威胁等组织风险，内部测试显示准确率达 98%。 这一发布之所以重要，是因为它利用 Google 的先进 AI 技术来自动化和扩展暗网监控，通过提供近实时的威胁情报，可能提升组织的网络安全水平。这反映了 AI 驱动安全解决方案的趋势，能够处理海量数据以预先识别新兴威胁。 该 AI 代理首先为客户建立组织画像，然后筛查暗网帖子中的相关风险，专注于高容量分析并报告高准确率。目前处于公开预览阶段，表明它可能仍在开发中或会根据用户反馈进行调整。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Cybersecurity",
+    "Dark Web",
+    "Google",
+    "Threat Intelligence"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 24, 13:15"
+    }
+  ],
+  "originalUrl": "https://www.theregister.com/2026/03/23/google_dark_web_ai/",
+  "originalSite": "theregister.com",
+  "context": "Gemini 是 Google DeepMind 开发的多模态大语言模型系列，是 LaMDA 和 PaLM 2 等模型的继任者，为包括聊天机器人在内的多种 AI 应用提供支持。暗网监控涉及持续扫描 TOR 和加密频道等隐藏互联网部分，以收集关于数据泄露和初始访问中介等网络威胁的情报，这些中介将未经授权的网络访问权出售给其他威胁行为者。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemini (AI model)",
+      "url": "https://en.wikipedia.org/wiki/Gemini_(AI_model)"
+    },
+    {
+      "title": "What is Dark Web Monitoring? [Beginner's Guide] | CrowdStrike",
+      "url": "https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/dark-web-monitoring/"
+    },
+    {
+      "title": "Initial access broker - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Initial_access_broker"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

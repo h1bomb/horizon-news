@@ -1,0 +1,37 @@
+{
+  "id": "ca202ea619b074b01a9533f006449a1356ab1153",
+  "canonicalId": "bd60c9eb470ba0a421dabd68cdf1502704e238da",
+  "slug": "redis-creator-develops-new-array-type-with-ai-over-4-months",
+  "date": "2026-05-05",
+  "publishedAt": "2026-05-04T14:23:00Z",
+  "lang": "en",
+  "title": "Redis Creator Develops New Array Type with AI Over 4 Months",
+  "summary": "antirez, the original creator of Redis, developed a new native array data type for Redis over a four-month period, using AI tools like large language models as collaborative partners throughout the iterative design and implementation process. This adds native indexed array support to Redis, enabling new use cases and more natural data modeling. It also provides a high-profile case study of experienced developers effectively integrating AI into complex software creation. The new array type provides index-based access and ordered element semantics, filling a long-standing gap in Redis data structures. The implementation involved a pull request with extensive changes, reportedly nearing 22,000 lines of code.",
+  "score": 8,
+  "tags": [
+    "AI-assisted development",
+    "software engineering",
+    "Redis",
+    "LLM",
+    "development process"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "antirez",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48009172"
+    }
+  ],
+  "originalUrl": "https://antirez.com/news/164",
+  "originalSite": "antirez.com",
+  "context": "Redis is an open-source, in-memory data structure store used as a database, cache, and message broker. While it offers data types like strings, hashes, and sorted sets, it lacked a general-purpose indexed array. antirez is the pen name of Salvatore Sanfilippo, the creator of Redis. This development was detailed in his blog post about a lengthy, AI-assisted engineering effort.",
+  "discussion": "Community comments reflect cautious enthusiasm: some warn against generalizing antirez's success to mandate AI tools for all developers, while others share similar collaborative workflows where AI serves as a reviewer or creative partner, not a replacement. Concerns were raised about the large monolithic pull request lacking incremental design discussion, highlighting the challenge of integrating AI into traditional open-source review practices.",
+  "references": [
+    {
+      "title": "Implement the new Redis Array type by antirez · Pull Request #15162 · redis/redis",
+      "url": "https://github.com/redis/redis/pull/15162"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

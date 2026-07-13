@@ -1,0 +1,40 @@
+{
+  "id": "3106373c403dd5f928e393a7efbdb6b12407fa2c",
+  "canonicalId": "3e66a8047f7541e0b4916fe9c78871091173663c",
+  "slug": "bm25-outperforms-semantic-embeddings-for-tool-selection-in-agents",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T13:24:00Z",
+  "lang": "en",
+  "title": "BM25 outperforms semantic embeddings for tool selection in agents",
+  "summary": "A Reddit user reports that after testing three retrieval strategies on 200 query-tool pairs, BM25 achieved 81% top-1 accuracy for tool selection, outperforming semantic embeddings (64%) and a hybrid approach (78%). The author switched back to BM25 for a production agent system exposing 140 MCP tools. This challenges the common assumption that hybrid retrieval (semantic + BM25) always wins, showing that for tool selection—where descriptions are short and keyword-dependent—BM25 alone is more effective. Practitioners building agent gateways may need to reevaluate their retrieval strategies. The BM25 index included tool name, description, and a walk of input/output schema properties, which added discriminative keywords. Hybrid (0.7 semantic + 0.3 BM25) performed worse than BM25 alone because semantic noise diluted the clean BM25 signal. The author adopted Ratel's indexing approach documented in ADR-0004.",
+  "score": 8,
+  "tags": [
+    "tool selection",
+    "semantic embeddings",
+    "BM25",
+    "agents",
+    "information retrieval"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/AbjectBug5885"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u07tlm/why_i_stopped_using_semantic_embeddings_for_tool/",
+  "originalSite": "reddit.com",
+  "context": "The Model Context Protocol (MCP) is an open standard for connecting AI applications to external tools and data sources. Tool descriptions in MCP are typically short (under 50 tokens) and structurally similar, with discriminative information often contained in a single keyword. BM25 is a classic information retrieval algorithm that ranks documents based on keyword frequency and term importance, making it well-suited for such sparse, keyword-driven queries.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model Context Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+    },
+    {
+      "title": "What is the Model Context Protocol (MCP)? - Model Context",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

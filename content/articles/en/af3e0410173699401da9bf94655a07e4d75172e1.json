@@ -1,0 +1,44 @@
+{
+  "id": "af3e0410173699401da9bf94655a07e4d75172e1",
+  "canonicalId": "15641672e23945a73d32d6e796c408c6ac0c308f",
+  "slug": "glm-51-launches-with-coding-performance-matching-claude-opus-45",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T14:37:00Z",
+  "lang": "en",
+  "title": "GLM-5.1 launches with coding performance matching Claude Opus 4.5",
+  "summary": "Zhipu AI has released GLM-5.1, its latest flagship model, which achieves state-of-the-art coding performance among open-source models with scores of 77.8 on SWE-bench-Verified and 56.2 on Terminal Bench 2.0. The model is now available to all Coding Plan users on Zhipu AI's platform. This represents a significant advancement for open-source AI models, as GLM-5.1's coding capabilities now approach those of leading proprietary models like Claude Opus 4.5, potentially democratizing access to high-quality coding assistance. The breakthrough could accelerate software development workflows and make sophisticated AI coding tools more accessible to developers worldwide. GLM-5.1 features a 200K context window with 128K max output, 744B parameters (40B activated), and was trained on 28.5 trillion tokens of data. The model also includes native support for the Model Context Protocol (MCP), enabling better integration with external tools and systems.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Large Language Models",
+    "Software Engineering",
+    "Open Source",
+    "Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Which-Jello9157"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/ewzmimtzmlrg1.png",
+  "originalSite": "i.redd.it",
+  "context": "SWE-bench-Verified is a benchmark that evaluates AI models' ability to solve real-world software engineering problems, though it uses static datasets that may not reflect current development practices. Terminal Bench 2.0 tests AI agents' performance in command-line interface environments with tasks inspired by real workflows. The Model Context Protocol (MCP) is an open standard introduced by Anthropic in 2024 that standardizes how AI systems integrate with external tools and data sources.",
+  "discussion": "The Reddit discussion shows high community interest with 347 upvotes and an 89% upvote ratio, indicating strong validation of the model's significance. Users are asking for practical comparisons with Claude 4.6 for real production coding tasks, suggesting interest in hands-on testing and real-world performance evaluation.",
+  "references": [
+    {
+      "title": "Introducing SWE-bench Verified | OpenAI",
+      "url": "https://openai.com/index/introducing-swe-bench-verified/"
+    },
+    {
+      "title": "Terminal-Bench 2.0",
+      "url": "https://www.tbench.ai/"
+    },
+    {
+      "title": "Model Context Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

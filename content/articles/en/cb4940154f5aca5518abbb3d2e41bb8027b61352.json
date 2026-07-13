@@ -1,0 +1,44 @@
+{
+  "id": "cb4940154f5aca5518abbb3d2e41bb8027b61352",
+  "canonicalId": "052c13c238d7234e14712f765b8c3c2d7cb22ac2",
+  "slug": "heretics-ara-method-reportedly-defeats-gpt-oss-refusal-mechanisms",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-07T19:06:00Z",
+  "lang": "en",
+  "title": "Heretic's ARA method reportedly defeats GPT-OSS refusal mechanisms.",
+  "summary": "A new experimental decensoring method called Arbitrary-Rank Ablation (ARA) has been introduced in a pull request for the Heretic project. This method is reported to have significantly reduced refusals in the GPT-OSS-20B model, achieving results without the need for system messages. This development represents a significant advance in circumventing AI safety alignment, demonstrating that sophisticated refusal mechanisms can be neutralized with relatively simple techniques. It highlights the ongoing tension between model safety efforts and the open-source community's ability to modify model behavior, potentially making 'uncensored' models more accessible. The ARA method is an extension of earlier rank-1 ablation techniques, targeting multiple 'directions' in the model's activation space believed to govern refusal behavior. The resulting model is available on Hugging Face, but the method is still experimental and not yet part of the main Heretic release, with current models primarily using MPOA+SOMA techniques.",
+  "score": 8,
+  "tags": [
+    "model-alignment",
+    "decensoring",
+    "llm-safety",
+    "openai",
+    "research-methods"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "pigeon57434"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnic0a/heretic_has_finally_defeated_gptoss_with_a_new/",
+  "originalSite": "reddit.com",
+  "context": "Heretic is an open-source tool designed to automatically remove censorship or 'refusal' mechanisms from large language models (LLMs). It operates on the research finding that refusal behavior in aligned models is often mediated by specific, steerable directions within the model's internal representations. GPT-OSS is OpenAI's open-source 20-billion parameter language model, which includes safety training to refuse harmful or sensitive requests. Ablation in this context refers to selectively modifying or 'erasing' specific components of a neural network's activations to alter its behavior.",
+  "discussion": "The community reaction is a mix of excitement and technical scrutiny. Many praised the creator's ingenuity, while others raised questions about whether the method might overfit or if the underlying model lacks training data for sensitive topics, leading to undesirable outputs even when it doesn't refuse. There was also discussion about the broader implications, noting that the same techniques could potentially be used by companies to enhance censorship.",
+  "references": [
+    {
+      "title": "p-e-w/gpt-oss-20b-heretic-ara-v3 · Hugging Face",
+      "url": "https://huggingface.co/p-e-w/gpt-oss-20b-heretic-ara-v3"
+    },
+    {
+      "title": "GitHub - p-e-w/heretic: Fully automatic censorship removal for language models · GitHub",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "title": "The Geometry of Refusal in Large Language Models: Concept Cones and Representational Independence | OpenReview",
+      "url": "https://openreview.net/forum?id=80IwJqlXs8"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

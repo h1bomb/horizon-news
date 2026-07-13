@@ -1,0 +1,44 @@
+{
+  "id": "547c34c3314223c4427a8f75f566cc59c2053c4e",
+  "canonicalId": "5a97aebdce0f318784d76582414d138f2018f6cf",
+  "slug": "exelbierd-分析-sashiko-llm-代码审查工具的双峰式缺陷检测模式",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Exelbierd 分析 Sashiko LLM 代码审查工具的双峰式缺陷检测模式",
+  "summary": "Brian Exelbierd 发表了一篇博客文章，分析了基于 LLM 的代码审查工具 Sashiko，发现其审查报告呈现双峰模式：大多数审查不会报告周边代码中已存在的缺陷，但那些报告的审查通常包含多个此类评论。他验证了 Sashiko 会标记补丁触及代码中的既有缺陷，以及相同缺陷可能在多次审查中重复出现的假设。 这很重要，因为它揭示了自动化代码审查系统中潜在的效率低下和噪音问题，可能给补丁作者带来无关的缺陷报告，并用重复发现扰乱邮件列表。理解这些模式对于改进开源软件开发中基于 LLM 的工具至关重要，高效的审查流程对维护代码质量和开发者生产力至关重要。 Exelbierd 使用 Sashiko 的公共 API 数据来验证其假设，重点关注该工具的协议如何指示 LLM 读取补丁差异之外的周边代码。Sashiko 专为 Linux 内核特定审查设计，可与多种 LLM 提供商配合使用，尽管它主要在 Gemini Pro 3.1 上进行了测试。",
+  "score": 7,
+  "tags": [
+    "code-review",
+    "LLM-tools",
+    "software-engineering",
+    "bug-detection",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 2, 13:27"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065971/",
+  "originalSite": "lwn.net",
+  "context": "Sashiko 是一个基于 LLM 的工具，用于审查 Linux 内核代码变更，其协议不仅分析补丁差异，还检查周边代码以识别潜在问题。基于 LLM 的代码审查工具旨在通过检测缺陷、风格违规或其他问题来自动化部分审查流程，但其有效性和对开发者工作流程的影响仍在评估中。该工具最近在内存管理子系统社区引发了讨论，促使其行为和输出得到进一步分析。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - sashiko-dev/sashiko: Agentic review of Linux Kernel ...",
+      "url": "https://github.com/sashiko-dev/sashiko"
+    },
+    {
+      "title": "Exelbierd: What's actually in a Sashiko review? [LWN.net]",
+      "url": "https://lwn.net/Articles/1065971/"
+    },
+    {
+      "title": "Linux kernel engineer introduces Sashiko code review system",
+      "url": "https://www.theregister.com/2026/03/20/sashiko_code_review_linux/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

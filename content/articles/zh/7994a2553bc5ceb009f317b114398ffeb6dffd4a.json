@@ -1,0 +1,45 @@
+{
+  "id": "7994a2553bc5ceb009f317b114398ffeb6dffd4a",
+  "canonicalId": "54ee76ae9206d639c0800316ef4ab1a52b70d689",
+  "slug": "openai-发布-gpt-56-系列及-sol-模型",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T17:04:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-5.6 系列及 Sol 模型",
+  "summary": "OpenAI 发布了 GPT-5.6 系列，包含三个模型：旗舰 Sol、均衡 Terra 和低成本 Luna。旗舰 Sol 模型在 ARC-AGI-3 基准测试中取得 7.8% 的 SOTA 分数，成为首个经验证在 ARC-AGI-3 游戏中获胜的前沿模型。 此次发布标志着 AI 推理和代理能力的重大飞跃，尤其是在衡量交互式推理与适应的挑战性 ARC-AGI-3 基准上。GPT-5.6 系列增强了 OpenAI 相对于 Anthropic 的 Fable 5 等竞争对手的竞争地位，而 max/ultra 推理、多智能体协作和 Programmatic Tool Calling 的引入使得复杂任务执行更加高效。 GPT-5.6 系列包括 Sol、Terra 和 Luna 模型，其中 Sol 最为强大。GPT-5.6 Sol 使用最大推理努力在 ARC-AGI-3 上取得了 7.8% 的 SOTA，并在编码、科学和网络安全任务上提升了性能。开发者指南强调了改进的意图理解和图像细节保留，而 GPT-5.4 计划于 7 月 23 日下线。",
+  "score": 10,
+  "tags": [
+    "GPT-5.6",
+    "OpenAI",
+    "Language Models",
+    "AI Safety",
+    "Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "logickkk1",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48849066"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/gpt-5-6/",
+  "originalSite": "openai.com",
+  "context": "ARC-AGI-3 是一个基准测试，通过交互式回合制环境评估流体适应效率和代理智能。与衡量被动推理的前代 ARC-AGI-1 和 2 不同，ARC-AGI-3 要求智能体在没有明确指令的情况下探索、推断目标并规划行动。GPT-5.6 系列基于 OpenAI 之前的模型，引入三个层级以平衡能力、成本和速度，并包含多智能体协作和编程工具调用等功能。",
+  "discussion": "社区评论聚焦于开发者指南中使用 GPT-5.6 的技巧、ARC-AGI-3 的 SOTA 结果以及与其他模型的比较。一位用户指出该模型首次在 ARC-AGI-3 游戏中获胜，另一位用户质疑 Codex 能否取代 Claude Code。还有用户注意到，OpenAI 在特定基准测试中排除 Fable 5 的比较，因为它拒绝回答许多生物学问题。",
+  "references": [
+    {
+      "title": "ARC-AGI-3",
+      "url": "https://arcprize.org/arc-agi/3"
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model | OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
+    },
+    {
+      "title": "GPT-5.6 buzz builds. Here's what to know about OpenAI's new Sol model",
+      "url": "https://www.axios.com/2026/07/08/gpt-sol-ultra-openai-anthropic-grok"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

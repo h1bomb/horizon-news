@@ -1,0 +1,32 @@
+{
+  "id": "b07773ea86534884e15bb05ce30c359ca5cd5ee8",
+  "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
+  "slug": "typescript-70-announced-with-up-to-12x-speed-boost",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T16:06:00Z",
+  "lang": "en",
+  "title": "TypeScript 7.0 Announced with Up to 12x Speed Boost",
+  "summary": "Microsoft announced TypeScript 7.0, featuring a major compiler rewrite that delivers up to 12x faster build times across large codebases like VS Code, Sentry, and Playwright. This release dramatically reduces compilation time for TypeScript projects, which is critical for developer productivity in large-scale JavaScript/TypeScript applications. It also signals a new era of compiler performance for the ecosystem. Based on benchmarks, TypeScript 7.0 achieved 11.9x speedup on the VS Code codebase (from 125.7s to 10.6s), 8.9x on Sentry, and 8.7x on Playwright. The release also includes new language features, though details were not specified in the brief.",
+  "score": 9,
+  "tags": [
+    "TypeScript",
+    "compiler",
+    "performance",
+    "JavaScript",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "DanRosenwasser",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48833715"
+    }
+  ],
+  "originalUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+  "originalSite": "devblogs.microsoft.com",
+  "context": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. The TypeScript compiler (tsc) is responsible for type checking and transpilation. Prior to version 7, the compiler had undergone incremental improvements, but this release represents a ground-up rewrite focusing on performance.",
+  "discussion": "The community praised the team for achieving massive speedups while maintaining compatibility. However, some users noted issues with ts-jest compatibility and called for better out-of-the-box integration with common tools. Others highlighted lingering pain points with tsconfig scoping in monorepos.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

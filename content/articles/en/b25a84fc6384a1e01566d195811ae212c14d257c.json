@@ -1,0 +1,40 @@
+{
+  "id": "b25a84fc6384a1e01566d195811ae212c14d257c",
+  "canonicalId": "877b96ddaec701ddb96e78d4a639897c4ef3e183",
+  "slug": "heretics-ara-method-bypasses-gemma-4s-alignment-defenses-within-90-minutes-of-release",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T17:19:00Z",
+  "lang": "en",
+  "title": "Heretic's ARA method bypasses Gemma 4's alignment defenses within 90 minutes of release",
+  "summary": "The Arbitrary-Rank Ablation (ARA) method developed by Heretic successfully bypassed Google's Gemma 4 model's alignment defenses just 90 minutes after the model's official release, enabling uncensored responses without apparent model damage. The method uses matrix optimization to suppress refusal mechanisms in the model. This demonstrates how quickly new alignment bypass techniques can emerge even for major model releases, highlighting ongoing challenges in AI safety and alignment research. The rapid success of ARA against a newly released model from Google underscores the cat-and-mouse nature of alignment security in the open-source AI ecosystem. The ARA method remains experimental and is not yet available in the PyPI version of Heretic, requiring installation from a specific GitHub branch. Early experiments suggest that removing `mlp.down_proj` from the target components in the configuration may improve ablation effectiveness.",
+  "score": 8,
+  "tags": [
+    "AI Alignment",
+    "Model Security",
+    "Machine Learning",
+    "Open Source",
+    "Red Teaming"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "-p-e-w-"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/",
+  "originalSite": "reddit.com",
+  "context": "AI alignment refers to techniques used to ensure AI models behave according to human values and safety guidelines, often implemented through refusal mechanisms that prevent models from generating harmful or inappropriate content. Arbitrary-Rank Ablation (ARA) is a method that uses matrix optimization to selectively modify model parameters, specifically targeting components responsible for refusal behaviors. In transformer models like Gemma, MLP (Multi-Layer Perceptron) blocks contain down_proj matrices that project activated values back to output space, and these components can be targeted for ablation to alter model behavior.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ARA : метод децензурирования LLM от Heretic | AiManual",
+      "url": "https://ai-manual.ru/article/ara-arbitrary-rank-ablation-kak-rabotaet-novyij-metod-detsenzurirovaniya-llm-ot-heretic-i-kak-ego-primenit/"
+    },
+    {
+      "title": "Doubleword | MLP : Attention in a Trench Coat",
+      "url": "https://resources.doubleword.ai/resources/mlp-attention-in-a-trench-coat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

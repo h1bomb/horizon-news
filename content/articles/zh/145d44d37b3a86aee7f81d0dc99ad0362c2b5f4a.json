@@ -1,0 +1,40 @@
+{
+  "id": "145d44d37b3a86aee7f81d0dc99ad0362c2b5f4a",
+  "canonicalId": "47ad364433c47a72d5c63776dc65227021eb6e66",
+  "slug": "aur-遭持续攻击利用遗弃软件包植入恶意软件",
+  "date": "2026-06-20",
+  "publishedAt": "2026-06-19T14:40:00Z",
+  "lang": "zh",
+  "title": "AUR 遭持续攻击：利用遗弃软件包植入恶意软件",
+  "summary": "Arch 用户仓库（AUR）正遭受持续攻击，恶意行为者通过认领遗弃软件包来推送恶意软件。AUR 团队已于 2026 年 6 月 19 日暂时关闭新用户注册，以阻止攻击者账号涌入。 此次攻击削弱了用户对 AUR 的信任，而 AUR 是 Arch Linux 用户获取官方仓库之外软件的关键社区仓库。该事件暴露了 AUR 信任模型中的根本性安全缺陷，可能促使其治理结构发生重大变革。 AUR 托管超过 107,000 个软件包，其中近 14,000 个为遗弃软件包，任何注册用户均可无需审核直接认领。攻击者创建新账号认领遗弃软件包，然后推送包含恶意代码的 PKGBUILD 文件来安装恶意软件。",
+  "score": 8,
+  "tags": [
+    "security",
+    "Arch Linux",
+    "AUR",
+    "attacks",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077619/",
+  "originalSite": "lwn.net",
+  "context": "Arch 用户仓库（AUR）是一个由社区驱动的 Arch Linux 软件仓库，用户在此共享用于从源码构建软件的 PKGBUILD 脚本。与官方仓库不同，AUR 软件包在发布或更新前无需经过正式审核。遗弃软件包是指没有维护者的软件包，任何注册用户均可自由认领。许多 Arch Linux 用户依赖 yay 或 paru 等 AUR 辅助工具来管理 AUR 软件包。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Arch User Repository",
+      "url": "https://en.wikipedia.org/wiki/Arch_User_Repository"
+    },
+    {
+      "title": "Arch User Repository - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Arch_User_Repository"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

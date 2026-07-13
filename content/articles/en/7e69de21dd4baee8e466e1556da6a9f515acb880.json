@@ -1,0 +1,41 @@
+{
+  "id": "7e69de21dd4baee8e466e1556da6a9f515acb880",
+  "canonicalId": "bc9588fd2be5cfc9eb9c4fd85cc7830e9cc45f54",
+  "slug": "quadrf-open-source-rf-ar-tool-spots-drones-sees-wifi-through-walls",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T15:59:00Z",
+  "lang": "en",
+  "title": "QuadRF: Open-Source RF AR Tool Spots Drones, Sees WiFi Through Walls",
+  "summary": "QuadRF, an open-source 4x4 MIMO software-defined radio (SDR) phased-array system, has been demonstrated as a radio frequency augmented reality tool that can visualize WiFi signals and detect drones through walls. This project democratizes advanced RF sensing technology, making it accessible to hobbyists and researchers for applications in security, privacy auditing, and wireless network diagnostics. It also raises important discussions about privacy and the capabilities of consumer-grade RF tools. QuadRF is available as a development kit on Crowd Supply and uses GNU Radio on a Raspberry Pi 5 for signal processing. The creator noted that the demo required careful camera alignment calibration and radio gain settings, which are being improved based on user feedback.",
+  "score": 8,
+  "tags": [
+    "RF",
+    "drones",
+    "WiFi",
+    "open-source",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48861717"
+    }
+  ],
+  "originalUrl": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+  "originalSite": "jeffgeerling.com",
+  "context": "Phased-array technology, traditionally used in military radar and high-end communications, uses multiple antennas to steer and detect signals electronically. Software-defined radio (SDR) allows signal processing to be done in software rather than hardware. QuadRF combines these concepts into an affordable, open-source kit.",
+  "discussion": "The creator (mrtnmcc) actively answered questions and shared demo videos. Commenters drew parallels to thermal cameras and expressed interest in similar tools for sound localization. Some discussed privacy implications and speculated about government capabilities, while others suggested integrating the tech into smart glasses.",
+  "references": [
+    {
+      "title": "QuadRF | Crowd Supply",
+      "url": "https://www.crowdsupply.com/scale-rf/quadrf"
+    },
+    {
+      "title": "QuadRF Documentation",
+      "url": "https://moonrf.com/docs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

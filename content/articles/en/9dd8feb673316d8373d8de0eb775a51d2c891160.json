@@ -1,0 +1,32 @@
+{
+  "id": "9dd8feb673316d8373d8de0eb775a51d2c891160",
+  "canonicalId": "7747c24ca7fad9a80c3e8f9cc78bbf79d268e1d9",
+  "slug": "anthropics-fable-classifiers-too-zealous-causing-false-positives",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T20:41:00Z",
+  "lang": "en",
+  "title": "Anthropic's Fable Classifiers Too Zealous, Causing False Positives",
+  "summary": "Anthropic's safety classifiers for its Fable model are overly sensitive, frequently flagging benign requests as violations and downgrading them to a less capable model, causing frustration among users. This undermines the utility of Fable for legitimate tasks like code review or data analysis, and raises serious privacy concerns due to Anthropic's policy of retaining flagged inputs and outputs for up to two years. The classifiers seem to overreact to terms related to cybersecurity, biology, or jailbreaking, often passing requests to Opus 4.8 even for trivial topics; users report that even medical physics questions get waved off.",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "classifiers",
+    "censorship",
+    "Anthropic",
+    "Fable"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "karrot-kake",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48837162"
+    }
+  ],
+  "originalUrl": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+  "originalSite": "combine-lab.github.io",
+  "context": "Fable is a powerful AI model from Anthropic, designed to be used with safety classifiers that aim to prevent misuse. However, these classifiers can flag benign requests, triggering data retention policies that keep user inputs and outputs for up to two years for safety analysis.",
+  "discussion": "Users share real-world examples: one asked for code review on a private repo and was flagged, another couldn't get medical physics questions answered. There's frustration that the classifiers are useless for genuine technical work, and concern about privacy with high false-positive rates.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

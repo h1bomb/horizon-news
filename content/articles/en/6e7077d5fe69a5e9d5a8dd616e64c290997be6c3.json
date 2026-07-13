@@ -1,0 +1,40 @@
+{
+  "id": "6e7077d5fe69a5e9d5a8dd616e64c290997be6c3",
+  "canonicalId": "4894712ad8d3941db262b7789f70b7a26a3ef978",
+  "slug": "benchmark-reveals-q4-k-m-outperforms-ud-q4-k-xl-for-qwen35-35b-a3b-quantization-on-rtx-5080",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T16:35:00Z",
+  "lang": "en",
+  "title": "Benchmark reveals Q4_K_M outperforms UD-Q4_K_XL for Qwen3.5-35B-A3B quantization on RTX 5080.",
+  "summary": "A user ran detailed benchmarks on the Qwen3.5-35B-A3B model using llama.cpp on an RTX 5080 system, comparing the quality and speed of three quantization methods: Q8_0, Q4_K_M, and UD-Q4_K_XL. The results showed that the Unsloth Dynamic quant (UD-Q4_K_XL) performed significantly worse than the standard Q4_K_M, with nearly 10% higher perplexity and a larger file size. This benchmark provides crucial, practical guidance for the local LLM community on how to efficiently run large, state-of-the-art Mixture-of-Experts (MoE) models like Qwen3.5 on consumer hardware with limited VRAM. It highlights that not all advanced quantization techniques are universally beneficial, and choosing the wrong method can lead to significant performance degradation. The test used a CPU/GPU offloading setup over PCIe 5.0 because the full model didn't fit in the 16GB VRAM. The standard Q4_K_M quant achieved a perplexity of 6.6688 on WikiText-2 (only 2.1% worse than the Q8_0 baseline), while being nearly half the size. The author specifically recommends against using UD-Q4_K_XL for this MoE architecture, citing consistency with other reports.",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "llama.cpp",
+    "benchmarking",
+    "local-llm",
+    "hardware-performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "gaztrab"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rei65v/qwen3535ba3b_quantization_quality_speed/",
+  "originalSite": "reddit.com",
+  "context": "Quantization is a technique to reduce the memory and computational cost of large language models by representing their weights with fewer bits (e.g., 4-bit instead of 16-bit). llama.cpp is a popular framework for running LLMs locally, supporting various quantization formats like Q8_0 (8-bit) and Q4_K_M (a specific 4-bit method). Mixture-of-Experts (MoE) models, like Qwen3.5-35B-A3B, use a sparse architecture where only parts of the model are activated per input, making them more efficient but sometimes sensitive to quantization strategies.",
+  "discussion": "The community engaged deeply with the technical findings. One user questioned how \"free\" the performance gain from using q8_0 for the KV cache really is, suggesting further tests. Another was grateful for the specific configuration tips, which drastically improved their own inference speed. Several comments debated the merits of perplexity versus KL Divergence as a quality metric and suggested alternative quants like Bartowski's Q4_K_L might offer better trade-offs.",
+  "references": [
+    {
+      "title": "unsloth/Qwen3-30B-A3B-GGUF · `UD-Q4_K_XL` or `Q4_K_M`?",
+      "url": "https://huggingface.co/unsloth/Qwen3-30B-A3B-GGUF/discussions/6"
+    },
+    {
+      "title": "Difference in different quantization methods · ggml-org/llama.cpp · Discussion #2094",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/2094"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ea7b124f4674bb53a612df66f2d009cbb92f0db8",
+  "canonicalId": "6e092bbc457ecf2cc9e0f5faa6b5c181dec8e0d5",
+  "slug": "蚂蚁集团开源-lingbot-video首个-moe-具身视频基模",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T04:30:00Z",
+  "lang": "zh",
+  "title": "蚂蚁集团开源 LingBot-Video，首个 MoE 具身视频基模",
+  "summary": "蚂蚁集团开源了 LingBot-Video，这是全球首个基于混合专家（MoE）架构的具身智能视频生成基础模型，在 RBench 评测基准上取得 0.620 的 SOTA 分数，并在 GitHub 以 Apache 2.0 许可证发布。 该开源发布显著降低了具身 AI 研究门槛，其高效的 MoE 架构仅激活 30B 总参数中的 3B，推理效率是同等规模密集模型的 3 倍，可加速机器人动作预测、仿真数据生成和世界模型开发等方向。 LingBot-Video 在架构（DiT+MoE 平衡容量与成本）、数据（7 万小时具身数据，覆盖灵巧操作、机器人移动和第一视角交互）和训练（多维强化学习奖励，关注物理合理性和任务完成度）三方面创新，采用扩散变换器（DiT）骨干网络。",
+  "score": 9,
+  "tags": [
+    "Embodied AI",
+    "Video Generation",
+    "MoE",
+    "Open Source",
+    "Robotics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.qbitai.com/2026/07/446458.html",
+  "originalSite": "qbitai.com",
+  "context": "混合专家（MoE）是一种 AI 架构，使用多个专用子网络（专家）和门控机制，每个输入仅激活部分专家，提升效率。扩散变换器（DiT）在扩散模型中用变换器替代传统 U-Net 骨干，实现更好的可扩展性和性能。LingBot-Video 结合这些技术用于具身视频生成，即学习生成机器人执行任务的视频，对机器人学习和仿真有用。RBench 是评估机器人操作视频生成的基准。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "What Is Mixture of Experts (MoE) and How It Works?",
+      "url": "https://www.nvidia.com/en-us/glossary/mixture-of-experts/"
+    },
+    {
+      "title": "[2212.09748] Scalable Diffusion Models with Transformers",
+      "url": "https://arxiv.org/abs/2212.09748"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

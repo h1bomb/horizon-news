@@ -1,0 +1,40 @@
+{
+  "id": "898d54ec0e249f298777f5e418acff0091250705",
+  "canonicalId": "42688ad5724e28a857ef761cd44a395763fe531c",
+  "slug": "bankai-推出首个针对真-1-位大语言模型的训练后适配方法采用稀疏-xor-补丁",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Bankai 推出首个针对真 1 位大语言模型的训练后适配方法，采用稀疏 XOR 补丁。",
+  "summary": "Bankai 是一种新颖的方法，通过应用稀疏 XOR 补丁来适配真 1 位大语言模型（如 Bonsai 8B），通过翻转特定权重位来改善模型在目标任务上的行为，且不增加推理开销。它仅修改 0.007% 的权重，生成的补丁小至约 1 KB，可在微秒内应用或还原。 这一突破使得高度压缩的 1 位模型能够高效适配特定任务，使其在内存和能源受限的边缘 AI 和机器人领域更具实用性。它通过提供零推理开销，解决了训练后方法的一个关键限制，可能加速轻量级 AI 模型在实际应用中的部署。 该方法利用了真 1 位模型中权重的二进制特性，行为差异对应于 XOR 掩码，并专注于翻转高尺度行以获得更大影响。在多样化探针上训练的补丁能很好地泛化到未见问题，且补丁堆叠是顺序无关和可逆的，确保了适配的灵活性。",
+  "score": 9,
+  "tags": [
+    "LLM Optimization",
+    "Model Compression",
+    "1-bit Quantization",
+    "Post-training Adaptation",
+    "Efficient AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 2, 15:17"
+    }
+  ],
+  "originalUrl": "https://github.com/nikshepsvn/bankai",
+  "originalSite": "github.com",
+  "context": "真 1 位大语言模型，如 PrismML 的 Bonsai 8B，将所有权重表示为二进制值（0 或 1），提供极端压缩，模型比传统大语言模型小 14 倍且更节能。训练后适配方法修改预训练模型以适应新任务，无需完全重新训练，但先前方法常带来推理开销或未针对 1 位架构设计。XOR 操作是位逻辑函数，在此用于高效翻转权重。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs",
+      "url": "https://prismml.com/news/bonsai-8b"
+    },
+    {
+      "title": "Training-Free Adaptation of New-Generation LLMs using Legacy",
+      "url": "https://arxiv.org/html/2601.03423v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1638daadb5d5cacd492e0ddf810bd5e1e26faae1",
+  "canonicalId": "2d6b3c7828a530b120240cce344ec39b5276ec8c",
+  "slug": "linux-内核-70-引入类型安全的-kmalloc-函数",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 7.0 引入类型安全的 kmalloc() 函数",
+  "summary": "Linus Torvalds 在 7.0 合并窗口期间合并了 Kees Cook 的大量修改，创建了新的类型安全内存分配函数（kmalloc_obj、kmalloc_objs、kzalloc_obj、kzalloc_objs），影响了 Linux 内核中超过 8,000 个文件和 20,000 行代码。 这代表了内核内存管理的一次重大范式转变，通过防止常见的编程错误（如错误的大小计算）来显著提升安全性，这些错误历史上曾导致大量内核漏洞和安全问题。这一变化对整个 Linux 生态系统的内核安全性和可靠性有重大提升。 新函数以宏的形式实现，能够自动从指针类型推断对象大小，无需显式的 sizeof() 调用，并提供编译时类型检查。这些修改保持了向后兼容性，同时为自 1992 年以来基本未变的传统 kmalloc() 接口提供了更安全的替代方案。",
+  "score": 9,
+  "tags": [
+    "Linux Kernel",
+    "Memory Management",
+    "Kernel Security",
+    "Systems Programming",
+    "API Design"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 16, 14:22"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1062856/",
+  "originalSite": "lwn.net",
+  "context": "kmalloc() 是 Linux 内核通过 slab 分配器系统分配小块内存（小于一页）的主要函数。slab 分配器管理预分配对象的缓存，以高效处理固定大小内存块的频繁分配。类型安全指的是编程语言中防止对不兼容数据类型进行操作的特性，在 C 语言中传统上需要仔细的手动检查，而新的 kmalloc 函数实现了自动化。合并窗口是 Linus Torvalds 接受即将发布的内核版本新功能和修改的时期。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Looking at kmalloc() and the SLUB Memory Allocator · Matthew Ruffell",
+      "url": "https://ruffell.nz/programming/writeups/2019/02/15/looking-at-kmalloc-and-the-slub-memory-allocator.html"
+    },
+    {
+      "title": "Type safety - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Type_safety"
+    },
+    {
+      "title": "6.17 Merge window, part 1 [LWN.net]",
+      "url": "https://lwn.net/Articles/1031713/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

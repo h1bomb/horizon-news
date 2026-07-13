@@ -1,0 +1,44 @@
+{
+  "id": "5ee104f7b5ff5b9cce37ba9b364d7d7f5ba15eba",
+  "canonicalId": "f3e62d489285a827b6026da3992341a220fb0b6e",
+  "slug": "cloudflare-与-openai-联手推出-agent-cloud支持-gpt-54-部署企业级-ai-智能体",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-14T00:00:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 与 OpenAI 联手推出 Agent Cloud，支持 GPT-5.4 部署企业级 AI 智能体",
+  "summary": "Cloudflare 宣布与 OpenAI 合作推出 Agent Cloud 平台，将 OpenAI 的 GPT-5.4 和 Codex 模型接入 Cloudflare 全球边缘网络，支持企业级 AI 智能体部署。该平台基于 Cloudflare Workers AI 运行，让数百万企业客户能够构建并部署用于自动处理客户响应、系统更新及报告生成等业务的 AI 智能体。 此次合作将 OpenAI 的前沿模型与 Cloudflare 的低延迟边缘网络相结合，代表了企业 AI 基础设施的重要进步，可能加速 AI 在各行业的应用。它解决了企业在边缘进行安全、可扩展 AI 部署的关键需求，可能改变客户服务和自动化等业务应用。 Codex harness 已在 Cloudflare Sandboxes 安全虚拟环境中正式上线，并将于近期接入 Workers AI。目前已有包括沃尔玛、摩根士丹利和埃森哲在内的超过 100 万家企业客户在使用 OpenAI 的服务，其 API 每分钟处理的 Token 数量已超过 150 亿个。",
+  "score": 9,
+  "tags": [
+    "AI Deployment",
+    "Cloud Computing",
+    "Enterprise AI",
+    "Edge Computing",
+    "Partnership"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 13, 13:09"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/cloudflare-openai-agent-cloud/",
+  "originalSite": "openai.com",
+  "context": "Cloudflare Workers AI 是一个无服务器 AI 推理平台，可在 Cloudflare 全球网络上运行机器学习模型，让开发者无需管理 GPU 即可运行 AI 模型。Cloudflare Sandboxes 提供安全、隔离的代码执行环境，用于安全运行不受信任的代码。Agent Cloud 是一个开源平台，用于构建和部署私有 LLM 聊天应用程序，使团队能够安全地与数据交互。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Overview · Cloudflare Workers AI docs",
+      "url": "https://developers.cloudflare.com/workers-ai/"
+    },
+    {
+      "title": "Overview · Cloudflare Sandbox SDK docs",
+      "url": "https://developers.cloudflare.com/sandbox/"
+    },
+    {
+      "title": "Homepage | Agent Cloud - Open source platform to talk to your data",
+      "url": "https://www.agentcloud.dev/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

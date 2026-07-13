@@ -1,0 +1,44 @@
+{
+  "id": "ea4eb61d80818c9b69c3947c1503943e0019df45",
+  "canonicalId": "035a0afa0c30ebc95f628ff20f19ac3827fa53a1",
+  "slug": "qwen36-35b-a3b-on-8gb-vram-at-40-toks",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-10T18:24:00Z",
+  "lang": "en",
+  "title": "Qwen3.6 35B A3B on 8GB VRAM at 40 tok/s",
+  "summary": "A user shared a configuration to run Qwen3.6 35B A3B GGUF Q5 quant on an RTX 4060 with 8GB VRAM and 32GB RAM, achieving approximately 40 tokens per second with ~190k context. This shows that large mixture-of-experts (MoE) models can run efficiently on consumer hardware, making local LLM deployment more accessible to users with limited GPU memory. The setup uses llama-server with flags --ctx-size 192640, --n-gpu-layers 430, --n-cpu-moe 35, and flash-attention, achieving 40-43 tok/s on Q5_K_M quantized models. The model is a 35B parameter MoE with approximately 3B active parameters per token.",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "Qwen3.6",
+    "llama.cpp",
+    "model-optimization",
+    "gguf"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Atul_Kumar_97"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t9eo83/running_qwen36_35b_a3b_on_8gb_vram_and_32gb_ram/",
+  "originalSite": "reddit.com",
+  "context": "Qwen3.6 35B A3B is a hybrid sparse mixture-of-experts model combining Gated DeltaNet linear attention with standard gated attention. The GGUF format allows running quantized models on CPU/GPU via llama.cpp. The --n-cpu-moe flag offloads expert layers to CPU to fit larger models within limited VRAM by using system RAM for MoE components.",
+  "discussion": "Some users felt the 35B model produces noticeably worse quality than the 27B variant, suggesting a 27B Q6 at 125k context as a sweet spot. Others praised the speed and shared optimization tips such as using --fit-on instead of manual offloading.",
+  "references": [
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+    },
+    {
+      "title": "Qwen3.6 35B A3B - API Pricing & Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/qwen/qwen3.6-35b-a3b"
+    },
+    {
+      "title": "Performant local mixture-of-experts CPU inference with GPU ...",
+      "url": "https://huggingface.co/blog/Doctor-Shotgun/llamacpp-moe-offload-guide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

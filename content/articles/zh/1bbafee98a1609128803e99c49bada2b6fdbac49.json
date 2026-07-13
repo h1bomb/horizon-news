@@ -1,0 +1,44 @@
+{
+  "id": "1bbafee98a1609128803e99c49bada2b6fdbac49",
+  "canonicalId": "ef34ec23d5df54f5551f17b9c3a9c888720aa05d",
+  "slug": "glassworm-卷土重来针对-githubnpm-和-vscode-仓库的新一轮隐形-unicode-攻击",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Glassworm 卷土重来：针对 GitHub、npm 和 VSCode 仓库的新一轮隐形 Unicode 攻击",
+  "summary": "新一轮名为'Glassworm'的隐形 Unicode 攻击正在利用零宽度字符在 GitHub、npm 和 VSCode 等平台的 pull request 中隐藏恶意代码。尽管此前已意识到此类攻击向量，但这次卷土重来突显了软件供应链中持续存在的漏洞。 这很重要，因为它通过允许攻击者将恶意代码悄悄注入广泛使用的仓库，直接威胁软件供应链安全，可能危及无数下游应用程序和服务。GitHub、npm 和 VSCode 等主要平台受到影响，使开发者和最终用户面临供应链攻击的风险。 攻击使用零宽度 Unicode 字符（如 U+200B ZERO WIDTH SPACE）来隐藏恶意代码段，使其在标准代码审查中不可见。值得注意的是，据报道 GitHub 为此问题支付了漏洞赏金，但表示不会修复，这种矛盾回应引发了社区讨论。",
+  "score": 8,
+  "tags": [
+    "security",
+    "unicode",
+    "software-supply-chain",
+    "github",
+    "npm"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 15, 13:08"
+    }
+  ],
+  "originalUrl": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
+  "originalSite": "aikido.dev",
+  "context": "零宽度 Unicode 字符是用于文本格式化的不可见字符，例如单词分隔或换行控制，不显示任何可见字形。软件供应链攻击发生在恶意代码被注入软件依赖项或组件时，然后传播到下游应用程序。之前的攻击如'Trojan Source'同样滥用了 Unicode 将漏洞注入代码，表明这是一种既定的攻击向量。",
+  "discussion": "社区情绪复杂，一些人批评 GitHub 支付赏金但不修复问题的矛盾回应，而另一些人则认为防范此类攻击是仓库维护者的责任。技术讨论包括关于对源代码使用非 Unicode 模式的辩论，以及对维护者在未理解代码的情况下合并代码的担忧，特别是当代码包含 eval()调用等危险信号时。",
+  "references": [
+    {
+      "title": "Zero - width space - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-width_space"
+    },
+    {
+      "title": "Supply chain attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    },
+    {
+      "title": "'Trojan Source' Attack Abuses Unicode to Inject",
+      "url": "https://www.securityweek.com/trojan-source-attack-abuses-unicode-inject-vulnerabilities-code/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

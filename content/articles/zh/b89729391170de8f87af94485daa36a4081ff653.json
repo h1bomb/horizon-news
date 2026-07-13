@@ -1,0 +1,32 @@
+{
+  "id": "b89729391170de8f87af94485daa36a4081ff653",
+  "canonicalId": "174425f454f7c2a3476cf7e23a22079c1d8218a9",
+  "slug": "anthropic-要求-claude-用户进行身份验证",
+  "date": "2026-06-22",
+  "publishedAt": "2026-06-21T12:44:00Z",
+  "lang": "zh",
+  "title": "Anthropic 要求 Claude 用户进行身份验证",
+  "summary": "Anthropic 引入了身份验证要求，以访问 Claude 的某些功能，并使用第三方服务 Persona 扫描身份证件。这一政策变更引发了关于隐私以及验证失败可能导致账户被锁定的讨论。 此举表明 AI 服务在加强合规与安全措施，但引发了用户隐私、第三方数据处理以及非美国用户公平访问的担忧。这也反映了 OpenAI 等竞争对手的类似政策，表明行业趋势。 根据存档版本，身份验证帮助页面自 2024 年 4 月就已存在。如果验证失败，用户将被永久锁定，无法重试，这与 OpenAI 的政策类似。Anthropic 表示不会将身份数据用于模型训练，但第三方验证方 Persona 可能会使用数据改进欺诈预防。",
+  "score": 8,
+  "tags": [
+    "identity verification",
+    "Claude",
+    "privacy",
+    "AI regulation",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bathory",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48618455"
+    }
+  ],
+  "originalUrl": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+  "originalSite": "support.claude.com",
+  "context": "身份验证涉及提交政府颁发的身份证件以确认用户身份，通常用于具有法律或安全影响的服务。Claude 和 OpenAI 的 ChatGPT 等 AI 平台越来越多地采用此类措施以合规并防止滥用，特别是对于高级模型。然而，用户担心隐私、数据安全以及执行缺乏透明度。",
+  "discussion": "评论者对以美国为中心的限制以及非美国用户订阅价值感知下降表示不满。一些人指出验证页面并非新内容，而另一些人则批评永久锁定政策和第三方数据使用。有评论将网络中立性类比为“AI 中立性”，以突出把关问题。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

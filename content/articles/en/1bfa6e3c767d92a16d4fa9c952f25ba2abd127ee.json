@@ -1,0 +1,45 @@
+{
+  "id": "1bfa6e3c767d92a16d4fa9c952f25ba2abd127ee",
+  "canonicalId": "a355842d07a5baec75888eeaedb6579e6405223d",
+  "slug": "deflock-reaches-100k-mapped-alprs-in-the-us",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T17:04:00Z",
+  "lang": "en",
+  "title": "Deflock reaches 100k mapped ALPRs in the US",
+  "summary": "The open-source project Deflock announced it has mapped over 100,000 automated license plate readers (ALPRs) across the United States. This milestone highlights the scale of surveillance infrastructure and empowers communities to challenge privacy abuses. It also sparks debate on how to counterbalance the benefits of security cameras with individual privacy rights. However, some community members note the data may be overcounted by a few percent due to duplication in OpenStreetMap. Additionally, the new map interface requires WebGL, causing accessibility issues for some users.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "ALPR",
+    "openstreetmap",
+    "mapping"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pilingual",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48347370"
+    }
+  ],
+  "originalUrl": "https://deflock.org/",
+  "originalSite": "deflock.org",
+  "context": "Automated License Plate Readers (ALPRs) are high-speed cameras that capture license plate data, often used by law enforcement and private companies. Deflock is a community-driven open-source project that maps these devices to increase transparency and accountability. The project uses OpenStreetMap data and encourages public contributions. As surveillance concerns grow, initiatives like Deflock help individuals understand where they are being watched.",
+  "discussion": "Commenters expressed mixed feelings: some support the pushback against privacy abuses, while others raise concerns about data accuracy (e.g., ~2,500 duplicate entries) and technical limitations like WebGL requirements. A few suggest that companies like Flock could circumvent mapping by placing cameras on private property, advocating for stronger legislation instead.",
+  "references": [
+    {
+      "title": "Think You’re Not Being Watched? DeFlock Says Think Again",
+      "url": "https://www.forbes.com/sites/larsdaniel/2024/11/26/think-youre-not-being-watched-deflock-says-think-again/"
+    },
+    {
+      "title": "The Open Source Project DeFlock Is Mapping License Plate ...",
+      "url": "https://www.404media.co/the-open-source-project-deflock-is-mapping-license-plate-surveillance-cameras-all-over-the-world/"
+    },
+    {
+      "title": "Automated License Plate Readers",
+      "url": "https://sls.eff.org/technologies/automated-license-plate-readers-alprs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

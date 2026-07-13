@@ -1,0 +1,44 @@
+{
+  "id": "2d041d10c73465c2fc6add1e190d5d4393ad6c4a",
+  "canonicalId": "0d86717126cb0607cbde128c7557ea6d573f0475",
+  "slug": "pretext-a-new-browser-library-for-fast-text-height-calculation-without-dom-manipulation",
+  "date": "2026-03-30",
+  "publishedAt": "2026-03-29T20:08:00Z",
+  "lang": "en",
+  "title": "Pretext: A New Browser Library for Fast Text Height Calculation Without DOM Manipulation",
+  "summary": "Cheng Lou, a former React core developer, released Pretext, a browser library that efficiently calculates the height of line-wrapped text without DOM manipulation by using a prepare() function to cache segment measurements and a layout() function to emulate browser word-wrapping. The library has been tested with extensive corpora, including multilingual texts like Thai and Chinese, to ensure accuracy. This matters because DOM manipulation for text measurement is a major performance bottleneck in frontend development, often causing layout thrash and slow rendering; Pretext's approach enables faster text rendering effects, such as dynamic layouts and animations, improving user experience in web applications. It addresses a common challenge in creating responsive and interactive text-based UIs, aligning with trends toward performance optimization in modern web development. Pretext uses an off-screen canvas to measure text segments in the prepare() step, caching results for reuse, and the layout() function calculates wrapped lines and height based on specified width, with testing involving rendering entire books like The Great Gatsby and multilingual documents to validate accuracy. The library is designed to handle complex text elements like soft hyphens, emoji, and non-Latin characters, making it robust for diverse typographic needs.",
+  "score": 7,
+  "tags": [
+    "frontend",
+    "performance",
+    "browser-libraries",
+    "text-rendering",
+    "web-development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "In web development, calculating text height typically requires rendering text in the DOM and measuring its dimensions, which is computationally expensive and can cause performance issues like layout thrash due to repeated DOM manipulations. DOM manipulation involves direct changes to the browser's Document Object Model, and minimizing it is a key optimization strategy to improve rendering speed and user experience. Libraries like React Motion, also created by Cheng Lou, focus on smooth animations, highlighting the importance of efficient rendering techniques in frontend tools.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Performance Optimization in DOM Manipulation",
+      "url": "https://blog.carlosrojas.dev/performance-optimization-in-dom-manipulation-6669ae153847?gi=44c2c4d9fea9"
+    },
+    {
+      "title": "🔥 JavaScript Performance KILLERS: Fix These NOW! - Javascript Doctor",
+      "url": "https://www.javascriptdoctor.blog/2026/03/javascript-performance-killers-fix.html"
+    },
+    {
+      "title": "Motion — JavaScript & React animation library",
+      "url": "https://motion.dev/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

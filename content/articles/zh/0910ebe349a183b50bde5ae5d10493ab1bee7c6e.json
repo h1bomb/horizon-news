@@ -1,0 +1,40 @@
+{
+  "id": "0910ebe349a183b50bde5ae5d10493ab1bee7c6e",
+  "canonicalId": "3e5e389de4b4afe0ccd060dffb5d5fed9c8d767a",
+  "slug": "运行-9-张-rtx-3090-gpu-进行-ai-工作负载的实践见解",
+  "date": "2026-03-23",
+  "publishedAt": "2026-03-23T00:00:00Z",
+  "lang": "zh",
+  "title": "运行 9 张 RTX 3090 GPU 进行 AI 工作负载的实践见解",
+  "summary": "一位用户分享了使用 9 张 RTX 3090 GPU 进行 AI 工作的实践经验，揭示了超过 6 张 GPU 会导致性能递减，原因包括 PCIe 通道限制、稳定性问题和更慢的 token 生成速度。他们推荐 Proxmox 操作系统进行实验，并建议不要为一般 AI 使用过度构建本地系统。 这很重要，因为它提供了关于本地 AI 推理中多 GPU 扩展实际限制的真实数据，挑战了更多 GPU 总能带来更好性能的假设。它通过强调何时云解决方案或较小设置更高效，帮助爱好者和中小规模研究人员避免昂贵的硬件投资。 用户发现超过一定 GPU 数量后，token 生成速度会变慢，且达到 200GB VRAM 也无法在本地运行 Claude 级别的模型。他们指出主板对 4 张以上 GPU 的支持并不简单，且在此类设置中电源和热管理变得复杂。",
+  "score": 7,
+  "tags": [
+    "GPU Hardware",
+    "AI Infrastructure",
+    "Local LLM",
+    "Hardware Scaling",
+    "Cost Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 22, 15:48"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s0p28x/honest_take_on_running_9_rtx_3090_for_ai/",
+  "originalSite": "reddit.com",
+  "context": "RTX 3090 GPU 因其高显存（24GB）和良好的性价比在 AI 领域很受欢迎。PCIe 通道是 CPU 和 GPU 之间的通信路径；在多 GPU 设置中，有限的通道会限制数据传输，降低性能。Proxmox 是一个虚拟化平台，允许 GPU 直通，从而在虚拟机中高效管理 AI 工作负载。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Guide to PCIe Lanes: How many do you need for your workload?",
+      "url": "https://www.cgdirector.com/guide-to-pcie-lanes/"
+    },
+    {
+      "title": "How to Run AI Models on Proxmox VE w/ GPU Passthrough",
+      "url": "https://www.vminstall.com/run-ai-models-proxmox-ve/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

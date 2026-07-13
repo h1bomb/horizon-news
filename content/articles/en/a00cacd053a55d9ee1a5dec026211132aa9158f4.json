@@ -1,0 +1,44 @@
+{
+  "id": "a00cacd053a55d9ee1a5dec026211132aa9158f4",
+  "canonicalId": "f4b2b24f5610de0d6f2027ff427df009abc7f241",
+  "slug": "linux-kernel-development-tools-advance-with-sashiko-ai-review-b4-integration-and-api-specification-framework",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-19T14:19:00Z",
+  "lang": "en",
+  "title": "Linux kernel development tools advance with Sashiko AI review, b4 integration, and API specification framework",
+  "summary": "On March 17, 2026, Roman Gushchin announced Sashiko, an AI-powered code-review system that automatically reviews patches on Linux kernel mailing lists, while b4, a patch-management tool, integrated a TUI-based review workflow with AI assistance, and a new framework for specifying and verifying kernel APIs was proposed. These developments represent significant innovations in tooling for the Linux kernel community. These tools address long-standing challenges in kernel development by automating code review and improving API documentation, potentially reducing bugs and enhancing collaboration among thousands of contributors. They reflect a broader trend toward integrating AI and better tooling in large-scale open-source projects to handle complexity and scale. Sashiko uses Gemini 3.1 Pro and a multi-stage review protocol to find bugs, with initial tests detecting 53% of issues in a sample set, all missed by human reviewers, but it relies on proprietary LLMs and external funding. The b4 review tool offers a terminal-based interface with optional AI integration, while the API framework aims to create machine-readable specifications for kernel interfaces.",
+  "score": 7,
+  "tags": [
+    "Linux Kernel",
+    "Development Tools",
+    "Code Review",
+    "API Specification",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1063303/",
+  "originalSite": "lwn.net",
+  "context": "The Linux kernel is a large open-source project developed by a global community, relying on mailing lists for patch submission and review, which can be inefficient at scale. b4 is a tool created by Konstantin Ryabitsev to manage patches from mailing lists, while API specifications define how software components interact, and recent AI advancements have enabled automated code analysis.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - sashiko-dev/sashiko: Agentic review of Linux Kernel ...",
+      "url": "https://github.com/sashiko-dev/sashiko"
+    },
+    {
+      "title": "review: TUI-based patch review workflow (alpha) — B4 end-user ...",
+      "url": "https://b4.docs.kernel.org/en/latest/maintainer/review.html"
+    },
+    {
+      "title": "Kernel API Specification Framework [LWN.net]",
+      "url": "https://lwn.net/Articles/1062848/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

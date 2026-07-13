@@ -1,0 +1,44 @@
+{
+  "id": "991253cfc25dde0a7ed1ba3df4ae8eea83846d62",
+  "canonicalId": "21fce9479dd624710a28581bdf5826305ccb9074",
+  "slug": "http2-炸弹-dos-攻击影响主流服务器",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T15:00:00Z",
+  "lang": "zh",
+  "title": "HTTP/2 炸弹 DoS 攻击影响主流服务器",
+  "summary": "研究人员披露了一种名为 HTTP/2 Bomb 的新型远程拒绝服务攻击，该攻击利用 HPACK 头部压缩和连接占用机制耗尽服务器内存，影响 NGINX、Apache HTTPD、Microsoft IIS、Envoy 和 Cloudflare Pingora 的默认 HTTP/2 配置。 该漏洞对广泛使用的 Web 服务器构成实际威胁，部分服务器在低带宽连接下数秒内即不可用，且目前仅有部分修复可用。 单客户端通过 100 Mbps 家用网络可在数秒内使部分服务器不可用，Apache httpd 和 Envoy 单个客户端约 20 秒可占用 32 GB 内存；NGINX 在 1.29.8+ 修复，Apache mod_http2 v2.0.41 修复，而 IIS、Envoy 和 Pingora 尚无补丁。",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "DoS",
+    "HTTP/2",
+    "web servers"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
+  "originalSite": "blog.calif.io",
+  "context": "HPACK 是 HTTP/2 中用于高效编码头部字段的压缩格式。与早期的压缩算法不同，HPACK 设计时考虑了抵抗 CRIME 等攻击。Slowloris 是一种经典的 DoS 攻击，通过保持大量不完整的 HTTP 连接来耗尽服务器资源。HTTP/2 Bomb 结合了 HPACK 压缩放大技术与类似 Slowloris 的连接占用方式，形成一种新型的资源耗尽攻击。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "HPACK: the silent killer (feature) of HTTP/2",
+      "url": "https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/"
+    },
+    {
+      "title": "Slowloris (cyber attack) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Slowloris_(cyber_attack)"
+    },
+    {
+      "title": "RFC 7541 - HPACK: Header Compression for HTTP/2 | RFCinfo",
+      "url": "https://rfcinfo.com/rfc-7541/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "28e4a60b3614062efa5189c0e4bdfaff66f2b5a0",
+  "canonicalId": "3f705e5bcc540c57b5c6def4b3d1c73b5e9e26ba",
+  "slug": "jpl-keeps-curiosity-productive-with-software-hacks",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T17:30:00Z",
+  "lang": "en",
+  "title": "JPL Keeps Curiosity Productive with Software Hacks",
+  "summary": "JPL engineers have kept the Curiosity rover operational for over 13 years on Mars using software hacks and engineering tricks, including managing flash memory wear and upgrading the operating system. This demonstrates the cost-effectiveness and longevity of robotic space exploration, with Curiosity costing under 5% of a recent crewed lunar mission, while continuously yielding scientific data. It also showcases techniques for maintaining remote systems over decades. Curiosity has traveled 37 km, drilled 42 rocks, and captured 763,000 images. Engineers have implemented software workarounds for aging hardware, such as flash memory wear, and have performed major software upgrades to enable faster driving and reduced wheel wear.",
+  "score": 8,
+  "tags": [
+    "Mars rover",
+    "space exploration",
+    "embedded systems",
+    "longevity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pseudolus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48479705"
+    }
+  ],
+  "originalUrl": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+  "originalSite": "spectrum.ieee.org",
+  "context": "Curiosity is a car-sized Mars rover that landed in Gale Crater in 2012 as part of NASA's Mars Science Laboratory mission. It was originally designed for a two-year mission but has been operating for over 13 years. The rover uses a RAD750 processor, a radiation-hardened version of the 1990s-era PowerPC architecture, and runs custom flight software.",
+  "discussion": "Commenters highlighted the cost contrast: Curiosity's ~$3B total is under 5% of a recent ~$90B crewed lunar mission, sparking discussion on the value of robotic vs. crewed exploration. Others expressed excitement about newer rad-hard Snapdragon processors in upcoming missions, and marveled at Curiosity's longevity, with one commenter noting it will continue until at least 2035.",
+  "references": [
+    {
+      "title": "The Ingenious Fixes Keeping the Curiosity Rover Rolling ...",
+      "url": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science"
+    },
+    {
+      "title": "Curiosity ( rover ) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)"
+    },
+    {
+      "title": "NASA’s Curiosity Mars Rover Gets a Major Software Upgrade Curiosity’s 13 Years of Software Hacks Keeps It Alive on Mars How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science GitHub - nasa-jpl/osr-rover-code: Code that runs on the Open ...",
+      "url": "https://www.jpl.nasa.gov/news/nasas-curiosity-mars-rover-gets-a-major-software-upgrade/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

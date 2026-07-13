@@ -1,0 +1,41 @@
+{
+  "id": "91a4f8ea4a69c5be3cb9fc5a75809cee9a879924",
+  "canonicalId": "5dd82fcec89e6bccb8e41c4b3b3c593ba4139401",
+  "slug": "census-bureau-bans-noise-infusion-in-statistical-products",
+  "date": "2026-06-14",
+  "publishedAt": "2026-06-13T13:54:00Z",
+  "lang": "en",
+  "title": "Census Bureau Bans Noise Infusion in Statistical Products",
+  "summary": "The U.S. Census Bureau has banned the use of noise infusion, a differential privacy technique, from its statistical products, reversing the policy used for the 2020 Census. This decision removes a key privacy safeguard for individual data, potentially increasing re-identification risks and undermining public trust in official statistics. The ban follows a U.S. Department of Commerce administrative order that prohibits noise infusion for disclosure avoidance; social scientists and privacy advocates have raised concerns about the loss of privacy protection.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "census",
+    "differential privacy",
+    "government data",
+    "statistics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nl",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48517377"
+    }
+  ],
+  "originalUrl": "https://desfontain.es/blog/banning-noise.html",
+  "originalSite": "desfontain.es",
+  "context": "Noise infusion adds random perturbations to data to prevent identification of individuals while preserving aggregate statistics. Differential privacy provides a mathematical framework for this process. The Census Bureau had adopted noise infusion for the 2020 Census but now has reversed course for future statistical products.",
+  "discussion": "Commenters expressed widespread distrust and disappointment, with some noting the erosion of safeguards against weaponizing data. Others emphasized the need for ground truth but opposed publishing raw data, while many argued that differential privacy remains essential for protecting individual privacy.",
+  "references": [
+    {
+      "title": "Why didn’t BEA use noise infusion as its statistical disclosure limitation method in its June 10, 2026, news release on “New Foreign Direct Investment in the United States, 2025’’? | U.S. Bureau of Economic Analysis (BEA)",
+      "url": "https://www.bea.gov/help/faq/1490"
+    },
+    {
+      "title": "Differential privacy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Differential_privacy"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "faea637e373d5ca9ae262e49a2d8db35ba569f99",
+  "canonicalId": "d1a9bb0797df51e78f8bc5f0974aadafae9262b7",
+  "slug": "snowflake-cortex-ai-通过提示注入逃逸沙箱并执行恶意软件",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-19T00:00:00Z",
+  "lang": "zh",
+  "title": "Snowflake Cortex AI 通过提示注入逃逸沙箱并执行恶意软件",
+  "summary": "Snowflake Cortex AI 代理中的一次提示注入攻击，利用安全命令列表中的进程替换功能执行了恶意软件，绕过了沙箱和人工审批机制。该漏洞由 PromptArmor 报告详细披露，现已被 Snowflake 修复。 这一事件凸显了依赖命令白名单的 AI 代理平台面临的关键安全风险，展示了提示注入如何导致沙箱逃逸和实际恶意软件部署。它强调了在 Snowflake Cortex 等广泛使用的企业 AI 工具中，需要更强大的沙箱防护方法。 攻击链始于用户要求代理审查一个 GitHub 仓库，该仓库的 README 文件中隐藏了恶意提示，从而触发了使用 Bash 进程替换语法的命令执行。Snowflake 将 'cat' 列为安全命令，但未考虑到进程替换变体可能嵌入任意代码执行。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Prompt Injection",
+    "Snowflake",
+    "Malware",
+    "Sandbox Escape"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 18, 17:43"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Snowflake Cortex 是一个 AI 平台，包含能够执行命令的代理，通常在沙箱环境中运行以确保安全。提示注入是一种攻击技术，恶意输入操纵 LLM 等 AI 系统执行非预期操作。进程替换是 Bash shell 的一个功能，允许将命令输出视为文件，可能被利用来绕过命令限制。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
+      "url": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware"
+    },
+    {
+      "title": "Process substitution - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Process_substitution"
+    },
+    {
+      "title": "Understanding Prompt Injection: 8 Common Techniques,",
+      "url": "https://snyk.io/articles/understanding-prompt-injection-techniques-challenges-and-risks/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "e426a286ab01d8e9dcf12062e5f0b98e9ef0e447",
+  "canonicalId": "54ee76ae9206d639c0800316ef4ab1a52b70d689",
+  "slug": "openai-releases-gpt-56-series-with-sol-model",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T17:04:00Z",
+  "lang": "en",
+  "title": "OpenAI Releases GPT-5.6 Series with Sol Model",
+  "summary": "OpenAI has launched the GPT-5.6 series, featuring three models: Sol (flagship), Terra (balanced), and Luna (cost-efficient). The flagship Sol model achieves a state-of-the-art score of 7.8% on the ARC-AGI-3 benchmark, becoming the first verified frontier model to beat an ARC-AGI-3 game. This release marks a significant leap in AI reasoning and agentic capabilities, particularly on the challenging ARC-AGI-3 benchmark that measures interactive reasoning and adaptation. The GPT-5.6 series strengthens OpenAI's competitive position against rivals like Anthropic's Fable 5, and the introduction of max/ultra reasoning, multi-agent collaboration, and Programmatic Tool Calling enables more efficient complex task execution. The GPT-5.6 series includes Sol, Terra, and Luna models, with Sol being the most capable. GPT-5.6 Sol sets a new SOTA on ARC-AGI-3 at 7.8% using max reasoning effort, and also improves performance on coding, science, and cybersecurity tasks. The developer guide highlights improved intent understanding and image detail preservation, while GPT-5.4 is scheduled to be deprecated on July 23.",
+  "score": 10,
+  "tags": [
+    "GPT-5.6",
+    "OpenAI",
+    "Language Models",
+    "AI Safety",
+    "Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "logickkk1",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48849066"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/gpt-5-6/",
+  "originalSite": "openai.com",
+  "context": "ARC-AGI-3 is a benchmark designed to evaluate fluid adaptive efficiency and agentic intelligence through interactive, turn-based environments. Unlike its predecessors ARC-AGI-1 and 2, which measure passive reasoning, ARC-AGI-3 requires agents to explore, infer goals, and plan actions without explicit instructions. The GPT-5.6 series builds on OpenAI's previous models, introducing three tiers to balance capability, cost, and speed, and includes features like multi-agent collaboration and programmatic tool calling.",
+  "discussion": "Community comments focus on the developer guide's tips for using GPT-5.6, the SOTA ARC-AGI-3 result, and comparisons with competing models. One user notes that the model beats ARC-AGI-3 games for the first time, while another questions whether Codex can replace Claude Code. A user also highlights that OpenAI excluded Fable 5 from comparisons in certain benchmarks because it refuses many biology questions.",
+  "references": [
+    {
+      "title": "ARC-AGI-3",
+      "url": "https://arcprize.org/arc-agi/3"
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model | OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
+    },
+    {
+      "title": "GPT-5.6 buzz builds. Here's what to know about OpenAI's new Sol model",
+      "url": "https://www.axios.com/2026/07/08/gpt-sol-ultra-openai-anthropic-grok"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

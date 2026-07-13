@@ -1,0 +1,31 @@
+{
+  "id": "e5a4cc1e7c9094d660535e4661326a6dfd1b7ed0",
+  "canonicalId": "8da117aa8fc64c8673931560b8a1471bab306ca6",
+  "slug": "experienced-ml-professionals-discuss-public-misconceptions-about-ai-training-and-research",
+  "date": "2026-04-05",
+  "publishedAt": "2026-04-04T04:43:00Z",
+  "lang": "en",
+  "title": "Experienced ML professionals discuss public misconceptions about AI training and research.",
+  "summary": "A Reddit thread titled 'Those of you with 10+ years in ML — what is the public completely wrong about?' gathered insights from experienced machine learning professionals on common public misunderstandings about AI, such as misconceptions about training methods and the reality of research practices. The discussion highlighted gaps in understanding of concepts like reinforcement learning, model intuition, and expert communication. This discussion matters because it reveals significant gaps between public perception and the actual workings of AI, which can lead to unrealistic expectations, misuse of technology, and poor policy decisions. Addressing these misconceptions is crucial for fostering informed public discourse, improving AI literacy, and ensuring responsible development and deployment of AI systems. Key details include comments pointing out that the public often mistakenly believes all AI uses reinforcement learning with real-time feedback, whereas many systems rely on static models updated through batch training. Additionally, experts note that research often involves iterative trial-and-error rather than grand theoretical insights, and LLMs are frequently overestimated as infallible oracles despite generating inaccurate text.",
+  "score": 7,
+  "tags": [
+    "machine-learning",
+    "AI-misconceptions",
+    "public-perception",
+    "research-practices",
+    "expert-insights"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "PhattRatt"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/",
+  "originalSite": "reddit.com",
+  "context": "Machine learning (ML) is a subset of artificial intelligence (AI) that involves training algorithms on data to make predictions or decisions, with common methods including supervised learning, unsupervised learning, and reinforcement learning. Reinforcement learning (RL) is a specific type where an agent learns by receiving rewards or penalties based on actions, but many AI applications use other approaches like large language models (LLMs) trained on static datasets. Public misconceptions often stem from media portrayals and a lack of direct communication from experts, leading to confusion about how AI systems are developed and function.",
+  "discussion": "The community discussion reflects a consensus that the public holds significant misconceptions about AI, with key viewpoints including: the public wrongly assumes all AI uses reinforcement learning with real-time feedback; there is an overestimation of expert intuition and theoretical foresight in research, which is often more iterative and trial-based; and LLMs are mistakenly viewed as infallible oracles, leading to overreliance despite their inaccuracies. Some comments also critique the lack of expert communication to the public.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

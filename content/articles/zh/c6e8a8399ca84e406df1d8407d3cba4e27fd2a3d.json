@@ -1,0 +1,32 @@
+{
+  "id": "c6e8a8399ca84e406df1d8407d3cba4e27fd2a3d",
+  "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
+  "slug": "typescript-70-发布速度提升高达-12-倍",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T16:06:00Z",
+  "lang": "zh",
+  "title": "TypeScript 7.0 发布，速度提升高达 12 倍",
+  "summary": "微软发布了 TypeScript 7.0，其编译器经过重大重写，在 VS Code、Sentry 和 Playwright 等大型代码库上实现了高达 12 倍的构建速度提升。 此版本大幅减少了 TypeScript 项目的编译时间，对于大型 JavaScript/TypeScript 应用程序的开发者生产力至关重要。这也标志着 TypeScript 生态系统编译器性能的新时代。 根据基准测试，TypeScript 7.0 在 VS Code 代码库上实现了 11.9 倍加速（从 125.7 秒降至 10.6 秒），在 Sentry 上达到 8.9 倍，在 Playwright 上达到 8.7 倍。该版本还包含新的语言功能，但未在摘要中详细说明。",
+  "score": 9,
+  "tags": [
+    "TypeScript",
+    "compiler",
+    "performance",
+    "JavaScript",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "DanRosenwasser",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48833715"
+    }
+  ],
+  "originalUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+  "originalSite": "devblogs.microsoft.com",
+  "context": "TypeScript 是 JavaScript 的类型化超集，编译为纯 JavaScript。TypeScript 编译器（tsc）负责类型检查和转译。在 7.0 版本之前，编译器经历了渐进式改进，但此版本代表了专注于性能的从头重写。",
+  "discussion": "社区赞扬团队在保持兼容性的同时实现了巨大的速度提升。然而，一些用户指出与 ts-jest 的兼容性问题，并呼吁更好地与常用工具开箱即用集成。其他用户则强调了 monorepo 中 tsconfig 作用域配置的老大难问题。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

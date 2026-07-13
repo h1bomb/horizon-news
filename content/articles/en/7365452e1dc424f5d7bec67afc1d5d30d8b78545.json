@@ -1,0 +1,44 @@
+{
+  "id": "7365452e1dc424f5d7bec67afc1d5d30d8b78545",
+  "canonicalId": "ae09263e02bf7a3db69e38e23d620b8d0f5899c9",
+  "slug": "python-315-to-introduce-command-line-control-for-disabling-lazy-imports",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-10T22:17:00Z",
+  "lang": "en",
+  "title": "Python 3.15 to introduce command-line control for disabling lazy imports",
+  "summary": "Following the acceptance of PEP 810, Python 3.15 (scheduled for October 2026) will introduce explicit lazy imports using a new `lazy` soft keyword. A recent discussion highlighted concerns about the `-X lazy_imports=none` command-line flag, which can globally disable all lazy imports, potentially breaking modules that rely on them to avoid circular dependencies. This feature represents a significant evolution in Python's import system, aiming to improve startup performance, especially for command-line tools, by standardizing an opt-in mechanism for lazy loading. The debate over the global disable flag underscores the tension between performance optimization and the need for predictable, explicit control in library and application design. The `lazy` keyword can only be used at the module level, not inside functions or classes, and cannot be used with wildcard imports (e.g., `from foo import *`). The global control mechanism (`-X lazy_imports=none`, an environment variable, or `sys.set_lazy_imports()`) can override explicit `lazy` declarations, forcing all imports to be eager.",
+  "score": 8,
+  "tags": [
+    "python",
+    "programming-languages",
+    "performance",
+    "language-design",
+    "import-system"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1061112/",
+  "originalSite": "lwn.net",
+  "context": "Python's import system traditionally loads modules immediately ('eagerly') when an import statement is executed. Lazy imports defer the actual loading of a module until one of its attributes is first accessed, which can significantly reduce startup time. Previous proposals, like PEP 690 which aimed to make all imports lazy by default, were rejected due to concerns about breaking changes and ecosystem stability. PEP 810 succeeds by making lazy imports an explicit, opt-in feature.",
+  "discussion": "Developer Peter Bierma raised concerns that the `-X lazy_imports=none` flag could break standard library modules that were converted to use explicit lazy imports to resolve circular dependencies. This was confirmed when a pull request to update the standard library was closed after tests showed these modules would fail with ImportError under eager mode. The discussion highlights the need for careful testing to ensure the standard library remains functional when lazy imports are globally disabled.",
+  "references": [
+    {
+      "title": "PEP 810 – Explicit lazy imports - peps.python.org",
+      "url": "https://peps.python.org/pep-0810/"
+    },
+    {
+      "title": "The return of lazy imports for Python [LWN.net]",
+      "url": "https://lwn.net/Articles/917280/"
+    },
+    {
+      "title": "PEP 810 Proposes Explicit Lazy Imports for Python 3.15 - Soc...",
+      "url": "https://socket.dev/blog/pep-810-proposes-explicit-lazy-imports-for-python-3-15"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

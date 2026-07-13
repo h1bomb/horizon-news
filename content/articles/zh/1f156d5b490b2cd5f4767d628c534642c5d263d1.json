@@ -1,0 +1,41 @@
+{
+  "id": "1f156d5b490b2cd5f4767d628c534642c5d263d1",
+  "canonicalId": "93844a305390f1b67a7565571ebfd894e00b7ded",
+  "slug": "kokoro本地cpu-友好高质量的文本转语音模型",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T18:24:00Z",
+  "lang": "zh",
+  "title": "Kokoro：本地、CPU 友好、高质量的文本转语音模型",
+  "summary": "Kokoro 是一个开源文本转语音模型（8200 万参数），可在 CPU 上高效运行，包括 Apple Silicon，无需专用 GPU。 这填补了没有强大 GPU 的用户的空白，使得在日常计算机上实现高质量文本转语音成为可能，适用于无障碍、阅读和自动化工作流。 Kokoro 支持手动 IPA 发音指南，并带有命令行工具；它生成的语音自然，但在单个词或同形异义词上可能表现不佳。",
+  "score": 8,
+  "tags": [
+    "TTS",
+    "local",
+    "CPU",
+    "accessibility",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48821576"
+    }
+  ],
+  "originalUrl": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+  "originalSite": "ariya.io",
+  "context": "文本转语音（TTS）将书面文本转换为口语音频。高质量的 TTS 通常需要神经网络，这些网络受益于 GPU 加速，因此本地纯 CPU 解决方案较为罕见。Kokoro 设计为在 CPU 上高效运行，在 Apple Silicon 上利用 mlx-audio 库。",
+  "discussion": "社区评论显示热情的采用。用户赞赏 Kokoro 用于无障碍产品、通过 RSS 阅读文章，甚至作为语音控制界面的基础。一些人指出同形异义词和单个词语发声的限制，但整体情绪积极。",
+  "references": [
+    {
+      "title": "Kokoro TTS",
+      "url": "https://grokipedia.com/page/Kokoro_TTS"
+    },
+    {
+      "title": "GitHub - nazdridoy/kokoro-tts: A CLI text-to-speech tool using the ...",
+      "url": "https://github.com/nazdridoy/kokoro-tts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

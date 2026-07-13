@@ -1,0 +1,44 @@
+{
+  "id": "1b275da4c432ee090a9c0e74f4d1d1f3e2ec3881",
+  "canonicalId": "a641bbcb3eab5f840301cf237fe6bbf21dcffb95",
+  "slug": "simon-willison-提出-agentic-engineering-作为使用-coding-agents-开发软件的框架",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Simon Willison 提出 'agentic engineering' 作为使用 coding agents 开发软件的框架",
+  "summary": "Simon Willison 引入了 'agentic engineering' 这一术语，用于描述使用能够编写和执行代码的 coding agents（如 Claude Code、OpenAI Codex 和 Gemini CLI）来开发软件的实践。他将 agents 定义为通过循环运行工具以实现目标的系统，而代码执行能力是使这种工程方法成为可能的关键特性。 这一概念框架之所以重要，是因为它为在软件开发中利用 AI 驱动的 coding agents 提供了一种结构化方法，可能使工程师能够产出更多、质量更高的代码，同时专注于更高层次的问题解决。随着 AI 工具能够进行迭代式代码生成和执行，它代表了软件工程实践的一种转变。 Willison 强调，coding agents 需要适当的工具、详细的问题描述和人工验证才能获得可靠的结果，并指出虽然 LLMs 不会从过去的错误中学习，但 coding agents 可以通过更新指令和工具配置来改进。他还承认该领域正在快速发展，他关于 agentic engineering patterns 的指南是一个持续进行的工作，将随着技术进步而更新。",
+  "score": 7,
+  "tags": [
+    "AI-assisted development",
+    "software engineering",
+    "LLM agents",
+    "coding agents",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 15, 22:41"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "像 GPT、Gemini 和 Claude 这样的大型语言模型（LLMs）已经发展到能够生成代码的程度，但 AI 中的 'agents' 概念指的是能够通过循环使用工具来自主执行任务的系统。Coding agents 特别结合了代码生成和执行能力，使它们能够迭代地实现软件解决方案。传统的软件开发依赖于人类编写的固定、基于规则的代码，而 AI agents 可以进行实时决策并调整其行为。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Agentic Engineering Patterns - Simon Willison's Weblog",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/"
+    },
+    {
+      "title": "LLM Agents - What They Are, Tools, and Examples | Mirascope",
+      "url": "https://mirascope.com/blog/llm-agents"
+    },
+    {
+      "title": "AI Agents vs Traditional Code | What’s the Difference for... | Medium",
+      "url": "https://codewithpawan.medium.com/ai-agents-vs-traditional-code-whats-the-difference-for-developers-7f833ffedd7b"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

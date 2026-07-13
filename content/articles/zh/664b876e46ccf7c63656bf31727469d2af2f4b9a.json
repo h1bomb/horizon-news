@@ -1,0 +1,44 @@
+{
+  "id": "664b876e46ccf7c63656bf31727469d2af2f4b9a",
+  "canonicalId": "fdf6eb6cc9bb5b3a79c8cd9effbc74d586bb7add",
+  "slug": "tim-schilling-警告-llm-滥用会损害-django-开源社区",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-18T00:00:00Z",
+  "lang": "zh",
+  "title": "Tim Schilling 警告 LLM 滥用会损害 Django 开源社区",
+  "summary": "Tim Schilling 在 2026 年 3 月的一篇博客文章中提出，在不理解工单、解决方案或 PR 反馈的情况下使用大语言模型（LLMs）为 Django 做贡献，会损害项目的社区性质。他强调 LLMs 应作为辅助工具而非主要的贡献手段。 这很重要，因为它涉及 AI 在开源开发中作用的伦理问题，特别是缺乏人类理解的自动化贡献如何让审阅者士气低落并破坏协作努力。随着 LLMs 越来越多地融入软件工程，这一讨论强调了在像 Django 这样的社区项目中平衡效率与保持人类参与的必要性。 Schilling 特别批评了那些使用 LLMs 作为'伪装'而不与社区互动的贡献者，指出这会让审阅工作'士气低落'。他澄清，当 LLMs 被用作辅助工具而非贡献过程中人类理解和互动的替代品时，它们可以是有益的。",
+  "score": 7,
+  "tags": [
+    "AI Ethics",
+    "Open Source",
+    "Software Engineering",
+    "Django",
+    "LLM Usage"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 17, 16:13"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Django 是一个流行的 Python Web 框架，其开源贡献工作流程涉及需要社区审查的工单（问题）和拉取请求（PRs）。像代码专用模型这样的大语言模型（LLMs）越来越多地用于软件开发中以生成代码和协助任务，但它们可能产生缺乏上下文的非确定性输出。在开源项目中，贡献通常由人类维护者审查，他们评估代码质量、与项目目标的一致性以及社区标准。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Code LLMs Mean for the Future of Software Development | IBM",
+      "url": "https://www.ibm.com/think/insights/code-llm"
+    },
+    {
+      "title": "Some thoughts on LLMs and Software Development",
+      "url": "https://martinfowler.com/articles/202508-ai-thoughts.html"
+    },
+    {
+      "title": "Advice for new contributors | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

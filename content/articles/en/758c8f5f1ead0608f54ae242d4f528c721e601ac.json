@@ -1,0 +1,44 @@
+{
+  "id": "758c8f5f1ead0608f54ae242d4f528c721e601ac",
+  "canonicalId": "21ab5b982953ff1d4ac431d2bf536251152d9648",
+  "slug": "bonsai-1-bit-models-achieve-impressive-quality-with-extreme-compression",
+  "date": "2026-04-02",
+  "publishedAt": "2026-04-01T22:40:00Z",
+  "lang": "en",
+  "title": "Bonsai 1-bit models achieve impressive quality with extreme compression",
+  "summary": "PrismML released Bonsai 1-bit quantized models, including an 8B parameter version that achieves 14x size reduction compared to standard models while maintaining surprisingly good performance on practical tasks like chat and document summarization. The models require a specialized fork of llama.cpp for inference due to their unique 1-bit quantization approach. This breakthrough makes large language models significantly more accessible on consumer hardware, potentially enabling local deployment on laptops, mobile devices, and edge computing platforms without requiring expensive high-memory systems. The extreme compression could democratize AI capabilities while reducing computational costs and energy consumption. The Bonsai 8B model is only 1GB in size and requires a custom fork of llama.cpp for inference since standard llama.cpp doesn't support the specialized 1-bit operations. While impressive for its size, early testing shows limitations in code generation tasks and potential quality degradation with longer contexts beyond 4k tokens.",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "local-llms",
+    "model-compression",
+    "machine-learning",
+    "efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "tcarambat"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/1o2k0u2innsg1",
+  "originalSite": "v.redd.it",
+  "context": "1-bit quantization reduces model weights to binary values (typically -1 and 1), dramatically shrinking model size and memory requirements compared to standard 16-bit or 8-bit quantization. GGUF is a file format optimized for efficient loading and running of large language models on consumer hardware, commonly used with llama.cpp. MLX is Apple's framework for efficient machine learning on Apple Silicon chips, though the Bonsai tests mentioned didn't use MLX specifically.",
+  "discussion": "Community members expressed excitement about the model's quality-to-size ratio, with some noting it performs comparably to higher-bit models in certain tasks. Concerns were raised about limitations in code generation and potential degradation with longer contexts, while others highlighted the potential for deployment on low-end devices like Raspberry Pi. Several users requested comparisons with other models like Qwen 3.5 and expressed interest in larger Bonsai variants.",
+  "references": [
+    {
+      "title": "[2202.05292] On One-Bit Quantization",
+      "url": "https://arxiv.org/abs/2202.05292"
+    },
+    {
+      "title": "GGUF · Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    },
+    {
+      "title": "MLX",
+      "url": "https://mlx-framework.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

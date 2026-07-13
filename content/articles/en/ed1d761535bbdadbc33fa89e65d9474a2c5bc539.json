@@ -1,0 +1,39 @@
+{
+  "id": "ed1d761535bbdadbc33fa89e65d9474a2c5bc539",
+  "canonicalId": "a7a9f1d85600171790b6cdee1a62ad3ee29f2c5a",
+  "slug": "bryan-cantrill-critiques-llms-lack-of-human-laziness-in-abstraction-design",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-13T02:44:00Z",
+  "lang": "en",
+  "title": "Bryan Cantrill critiques LLMs' lack of human laziness in abstraction design",
+  "summary": "Bryan Cantrill argues that LLMs inherently lack human laziness, which drives efficient abstraction design in software engineering, potentially leading to bloated systems without meaningful improvement. He warns that without this constraint, LLMs may prioritize vanity metrics over creating better systems. This critique highlights a fundamental philosophical challenge in AI-assisted development, questioning whether LLMs can replicate human-driven design principles that optimize for long-term efficiency. It matters because it raises concerns about the sustainability and quality of AI-generated systems as LLMs become more integrated into software engineering workflows. Cantrill specifically notes that LLMs don't feel the need to optimize for future time, which can result in 'layercakes of garbage' rather than crisp abstractions. The argument connects to broader discussions about non-deterministic abstractions in LLMs, where prompts may not guarantee consistent behavior.",
+  "score": 7,
+  "tags": [
+    "AI Ethics",
+    "Software Engineering",
+    "LLM Critique",
+    "Abstraction Design"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "In software engineering, human laziness is often considered a virtue because it drives developers to create efficient abstractions and automate repetitive tasks, saving future effort. LLMs are AI models that generate human-like text and code, but their design principles differ from human cognitive constraints. Abstraction in computing refers to simplifying complex systems by hiding unnecessary details, which is crucial for maintainable software.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LLMs bring new nature of abstraction",
+      "url": "https://martinfowler.com/articles/2025-nature-abstraction.html"
+    },
+    {
+      "title": "On the Virtue of Laziness in Software Engineering –",
+      "url": "https://www.dmuth.org/on-the-virtue-of-laziness-in-software-engineering/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

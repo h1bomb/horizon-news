@@ -1,0 +1,44 @@
+{
+  "id": "91b231cf1e601eba62e8b5e80bf8e9c82c924760",
+  "canonicalId": "e874f1594ecd650f334e85a3c3cef9ac871fc4ea",
+  "slug": "lightgbm-第一重要特征因标签方差损害预测",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T18:20:00Z",
+  "lang": "zh",
+  "title": "LightGBM 第一重要特征因标签方差损害预测",
+  "summary": "一位实践者发现，一个 LightGBM 重要性排名第一的贝叶斯目标编码特征在 4 个种子×3 种变体的消融研究中，实际上使测试 MAPE 恶化了 0.28 个百分点。 这凸显了梯度提升中一个常见的陷阱：特征重要性可能因模型捕获不可约标签方差而产生误导，提醒从业者通过消融研究验证重要特征。 该编码器旨在隔离参考内定价动态，但却学到了无法泛化的分裂，因为信号来自未观测因素，如条件细节、卖家行为和时间安排。",
+  "score": 8,
+  "tags": [
+    "LightGBM",
+    "feature importance",
+    "ablation study",
+    "gradient boosting",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Nj-yeti"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tu0y14/why_our_1_lightgbm_feature_by_importance_made/",
+  "originalSite": "reddit.com",
+  "context": "LightGBM 是一种梯度提升框架，可以根据特征用于分裂的频率计算特征重要性分数。然而，高重要性并不保证预测价值，尤其是当特征捕获的是噪声而非信号时。贝叶斯目标编码使用目标统计量将分类变量映射为数值表示，但如果正则化不当，可能会泄露标签信息。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Target Encoding and Bayesian Target Encoding | by Michael ...",
+      "url": "https://medium.com/data-science/target-encoding-and-bayesian-target-encoding-5c6a6c58ae8c"
+    },
+    {
+      "title": "Gradient boosting - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gradient_boosting"
+    },
+    {
+      "title": "Bayesian target encoding documentation - bayte.readthedocs.io",
+      "url": "https://bayte.readthedocs.io/en/latest/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

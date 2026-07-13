@@ -1,0 +1,44 @@
+{
+  "id": "dac930a040c1e7186de86d618bf3cd99ace7adc0",
+  "canonicalId": "957bbeba93809e4d8725c389442a422a45eb386c",
+  "slug": "litellm-被入侵事件揭示软件供应链中的多重安全漏洞",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-28T00:00:00Z",
+  "lang": "zh",
+  "title": "LiteLLM 被入侵事件揭示软件供应链中的多重安全漏洞",
+  "summary": "2026 年 3 月 24 日，PyPI 上的 LiteLLM 库被植入窃取信息的恶意软件，导致 46 分钟内被下载 47,000 次；此前，Trivy 安全扫描器于 3 月 20 日被入侵，攻击者窃取了开发者的凭证。 这一事件凸显了软件供应链中的关键漏洞，影响了广泛使用的 AI/ML 工具，使数千用户面临数据窃取风险，强调了在开源生态系统中加强安全实践的必要性。 攻击涉及在 Trivy 中强制推送发布标签以触发自动扫描，窃取 LiteLLM 开发者的 PyPI 凭证，并使用垃圾机器人干扰 GitHub 议题的沟通，被入侵的版本 1.82.7 和 1.82.8 被上传到 PyPI。",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain",
+    "AI/ML",
+    "open-source",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 27, 16:44"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064693/",
+  "originalSite": "lwn.net",
+  "context": "LiteLLM 是一个流行的 Python 库，作为访问多个大型语言模型（LLM）的网关，简化了与 AI 服务的集成。Trivy 是一个开源安全扫描器，用于检测代码中的漏洞，常集成到自动化工作流中。PyPI（Python 包索引）是 Python 包的官方仓库，开发者在此发布和分发软件，使其成为供应链攻击的常见目标。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Getting Started | liteLLM",
+      "url": "https://docs.litellm.ai/docs/"
+    },
+    {
+      "title": "Trivy",
+      "url": "https://trivy.dev/"
+    },
+    {
+      "title": "Security · PyPI",
+      "url": "https://pypi.org/security/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "c5719111ee1db3a12ddace7968adc091ad4650b2",
+  "canonicalId": "0690f4b97da5a88f694fb2b45e51b5dbadfae300",
+  "slug": "hugging-face-上的-open-ossprivacy-filter-恶意软件下载量达-244-万",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Hugging Face 上的 Open-OSS/privacy-filter 恶意软件，下载量达 24.4 万",
+  "summary": "Hugging Face 上名为 Open-OSS/privacy-filter 的虚假 AI 模型被确认为信息窃取恶意软件，使用基于 Python 的 dropper 执行恶意 PowerShell 命令并下载 Windows 可执行文件。该模型已被下载超过 24.4 万次，相关仓库已向 Hugging Face 和微软举报。 此事件凸显了在 Hugging Face 等流行平台上伪装成 AI 模型的恶意软件日益增长的威胁，可能危及大量用户的敏感数据。它强调了在开源 AI 仓库中加强安全审查的必要性。 该恶意软件针对 Windows 系统；Linux 用户不受影响。恶意负载包括一个用 Rust 编译的程序，用于从 Chrome、WinSCP 等应用程序窃取数据，并通过任务计划程序持久化。攻击链涉及多层 base64 编码的命令。",
+  "score": 9,
+  "tags": [
+    "security",
+    "malware",
+    "huggingface",
+    "AI safety"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 7, 16:20"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6febk/warning_openossprivacyfilter_malware/",
+  "originalSite": "reddit.com",
+  "context": "信息窃取恶意软件是一种旨在从受害者设备窃取敏感数据的恶意软件。Python dropper 通常用作初始载荷，用于下载和执行进一步的恶意软件。Tria.ge 是一个用于可疑文件行为分析的在线沙箱，提供的链接显示了该恶意软件的行为。",
+  "discussion": "社区对 24.4 万次下载量表示震惊，并指出明显的危险信号，例如组织名称'Open open source software'。一位用户提供了攻击链的技术细节，另一位指出点赞该模型的账户可能表明存在多个恶意活动。还有对 Linux 免疫力的讽刺以及关于 GGUF 的幽默评论。",
+  "references": [
+    {
+      "title": "Infostealer malware",
+      "url": "https://grokipedia.com/page/infostealer-malware"
+    },
+    {
+      "title": "dropper · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/dropper?l=python"
+    },
+    {
+      "title": "Home - Triage",
+      "url": "https://sandbox.recordedfuture.com/docs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

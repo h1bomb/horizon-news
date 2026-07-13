@@ -1,0 +1,40 @@
+{
+  "id": "69124f86d4b2073d0cf41f39971b31a96d67c3c7",
+  "canonicalId": "7007df316e714c16f91f67e1bece7199e76185d0",
+  "slug": "rust-1970-发布新符号混淆方案与-cargo-警告拒绝",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T13:19:00Z",
+  "lang": "zh",
+  "title": "Rust 1.97.0 发布，新符号混淆方案与 Cargo 警告拒绝",
+  "summary": "Rust 1.97.0 引入了新的默认符号混淆方案，支持通过新标志拒绝 Cargo 警告，并且在成功构建后不再隐藏链接器输出。 这些更改提高了 Rust 开发者的构建可靠性和调试体验。拒绝警告有助于在 CI 管道中强制执行代码质量，而新的混淆方案提供了更稳定的符号名称。 新的符号混淆方案可跨 Rust 版本生成更一致的符号名称。Cargo 警告拒绝功能允许将警告视为错误，类似于 rustc 中的`-D warnings`。移除隐藏链接器输出意味着所有链接器消息现在都可见。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "release",
+    "programming language",
+    "tooling",
+    "build system"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1082032/",
+  "originalSite": "lwn.net",
+  "context": "符号混淆用于为链接器使用的符号编码唯一名称。Rust 之前的混淆方案在不同版本间可能变化，导致不稳定。拒绝 Cargo 警告是长期请求的功能，用于强制执行更严格的构建策略。之前成功构建后默认隐藏链接器输出，这可能会隐藏有用的诊断信息。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Symbol Mangling - The rustc book - Learn Rust",
+      "url": "https://doc.rust-lang.org/stable/rustc/symbol-mangling/index.html"
+    },
+    {
+      "title": "Add `--deny-warnings` functionality for all commands. · Issue ...",
+      "url": "https://github.com/rust-lang/cargo/issues/8424"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

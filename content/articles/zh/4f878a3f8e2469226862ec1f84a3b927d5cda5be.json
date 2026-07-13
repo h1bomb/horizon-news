@@ -1,0 +1,41 @@
+{
+  "id": "4f878a3f8e2469226862ec1f84a3b927d5cda5be",
+  "canonicalId": "5dd82fcec89e6bccb8e41c4b3b3c593ba4139401",
+  "slug": "人口普查局禁止在统计产品中使用噪声注入",
+  "date": "2026-06-14",
+  "publishedAt": "2026-06-13T13:54:00Z",
+  "lang": "zh",
+  "title": "人口普查局禁止在统计产品中使用噪声注入",
+  "summary": "美国人口普查局已禁止在其统计产品中使用噪声注入（一种差分隐私技术），推翻了 2020 年人口普查所使用的政策。 这一决定移除了一项保护个人数据的关键隐私措施，可能增加重新识别的风险，并削弱公众对官方统计数据的信任。 此项禁令遵循了美国商务部一项禁止将噪声注入用于避免信息披露的行政命令；社会科学家和隐私倡导者对隐私保护的缺失表示担忧。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "census",
+    "differential privacy",
+    "government data",
+    "statistics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nl",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48517377"
+    }
+  ],
+  "originalUrl": "https://desfontain.es/blog/banning-noise.html",
+  "originalSite": "desfontain.es",
+  "context": "噪声注入通过对数据添加随机扰动，在保留总体统计特征的同时防止个体识别。差分隐私为这一过程提供了数学框架。人口普查局曾在 2020 年人口普查中采用噪声注入，但现在已改变方向，不再用于未来的统计产品。",
+  "discussion": "评论者普遍表达了不信任和失望，一些人指出针对数据武器化的保护措施被削弱。其他人则强调需要真实数据但反对公开原始数据，许多人认为差分隐私对于保护个人隐私仍然至关重要。",
+  "references": [
+    {
+      "title": "Why didn’t BEA use noise infusion as its statistical disclosure limitation method in its June 10, 2026, news release on “New Foreign Direct Investment in the United States, 2025’’? | U.S. Bureau of Economic Analysis (BEA)",
+      "url": "https://www.bea.gov/help/faq/1490"
+    },
+    {
+      "title": "Differential privacy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Differential_privacy"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

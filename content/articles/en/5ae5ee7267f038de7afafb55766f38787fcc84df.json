@@ -1,0 +1,43 @@
+{
+  "id": "5ae5ee7267f038de7afafb55766f38787fcc84df",
+  "canonicalId": "0c3b55cf7c96a81c50ebd453bf6a95d261552744",
+  "slug": "tailscale-co-founder-critiques-cloud-complexity",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T04:44:00Z",
+  "lang": "en",
+  "title": "Tailscale Co-founder Critiques Cloud Complexity",
+  "summary": "Tailscale co-founder David Crawshaw published a blog post titled 'I am building a cloud,' criticizing the complexity of modern cloud infrastructure and Kubernetes, and proposing a simpler, more efficient cloud model. This critique from a respected industry figure highlights growing frustration with cloud complexity and could influence the direction of cloud infrastructure design, especially for smaller teams seeking simplicity. Crawshaw argues that Kubernetes is fundamentally flawed and that VMs are the wrong abstraction because they tie cost to CPU/memory rather than actual work done. He advocates for a cloud model that defaults to high performance and simplicity.",
+  "score": 8,
+  "tags": [
+    "cloud computing",
+    "kubernetes",
+    "infrastructure",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bumbledraven"
+    }
+  ],
+  "originalUrl": "https://crawshaw.io/blog/building-a-cloud",
+  "originalSite": "crawshaw.io",
+  "context": "Cloud computing typically offers IaaS, PaaS, and SaaS models. Kubernetes has become the de facto container orchestration platform but is widely criticized for its operational complexity. Many enterprises struggle with Kubernetes in production due to its steep learning curve and overhead.",
+  "discussion": "The Hacker News community largely agrees with Crawshaw's critique, with many sharing personal horror stories about Kubernetes complexity. Some express skepticism that a simpler cloud model can avoid the same bloat cycle, while others admire the vision but worry about profit motives.",
+  "references": [
+    {
+      "title": "Kubernetes Complexity - Deal With It; There Is No Way Around |",
+      "url": "https://tfir.io/kubernetes-complexity-deal-with-it-there-is-no-way-around-rob-hirschfeld-rackn/"
+    },
+    {
+      "title": "Too Complex: It’s Not Kubernetes, It’s What It Does | CNCF",
+      "url": "https://www.cncf.io/blog/2025/03/06/too-complex-its-not-kubernetes-its-what-it-does/"
+    },
+    {
+      "title": "Rethinking Kubernetes Complexity in the Enterprise with Paul",
+      "url": "https://cloudnativenow.com/video-interviews/rethinking-kubernetes-complexity-in-the-enterprise-with-paul-turner/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

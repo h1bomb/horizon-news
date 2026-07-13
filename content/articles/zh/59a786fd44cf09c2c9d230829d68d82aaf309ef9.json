@@ -1,0 +1,44 @@
+{
+  "id": "59a786fd44cf09c2c9d230829d68d82aaf309ef9",
+  "canonicalId": "0abe9f44a69cc65a1f05ddb0f6c9087dd90ac86f",
+  "slug": "开源-3d-打印听诊器成本仅-25-5-美元",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-30T00:00:00Z",
+  "lang": "zh",
+  "title": "开源 3D 打印听诊器成本仅 2.5-5 美元",
+  "summary": "GliaX 听诊器是一款开源、3D 打印的医疗设备，生产成本仅为 2.5 至 5 美元，旨在让资源匮乏地区也能进行听诊检查。 与传统听诊器（30-100 美元以上）相比，成本大幅降低，有望使医疗诊断民主化，特别是在发展中国家和冲突地区，通过早期发现心肺疾病来挽救生命。 该设计在《PLOS One》研究中得到验证，声学性能可与 Littmann Cardiology III 媲美，但社区评论质疑其频率响应曲线，并指出市面上已有 7 美元的廉价金属听诊器。",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "medical devices",
+    "3D printing",
+    "healthcare",
+    "DIY"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 29, 14:47"
+    }
+  ],
+  "originalUrl": "https://github.com/GliaX/Stethoscope",
+  "originalSite": "github.com",
+  "context": "听诊器是一种用于听取体内声音（听诊）的医疗仪器，主要用于心肺检查。传统声学听诊器依靠胸件、导管和耳件传输声音。GliaX 项目由 Tarek Loubani 博士领导，旨在利用 3D 打印和现成组件提供低成本、易复制的替代方案。",
+  "discussion": "社区评论对其声学性能的说法表示怀疑，有用户对比频率响应图，质疑 3D 打印设备如何能与金标准听诊器匹敌。另一用户指出，7 美元即可买到廉价金属听诊器，削弱了成本优势的新颖性。不过，也有人认为该项目鼓舞人心，并呼吁开发开源超声设备。",
+  "references": [
+    {
+      "title": "Validation of an effective, low cost, Free/open access 3D-printed stethoscope | PLOS One",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193087"
+    },
+    {
+      "title": "Stethoscope - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stethoscope"
+    },
+    {
+      "title": "stethoscope – Hackaday",
+      "url": "https://hackaday.com/tag/stethoscope/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

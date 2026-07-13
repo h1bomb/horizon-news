@@ -1,0 +1,40 @@
+{
+  "id": "c0c42e0bf0a0e6d5c740eade46e5ef3e4c442c51",
+  "canonicalId": "7de297e0901d7300142769723a5ea2b5f128aec1",
+  "slug": "user-seeks-high-intelligence-llm-recommendations-for-2x-h200-server-with-282gb-vram-for-coding-and-ai-agents",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-18T06:57:00Z",
+  "lang": "en",
+  "title": "User seeks high-intelligence LLM recommendations for 2x H200 server with 282GB VRAM for coding and AI agents.",
+  "summary": "A user on Reddit received access to a corporate server with 2x Nvidia H200 GPUs (141GB HBM3e each, totaling 282GB VRAM) and is seeking community recommendations for high-intelligence large language models (LLMs) to test, specifically for coding assistance and AI agent evaluation. The user clarified that the primary use cases include local coding in developer IDEs (e.g., code completion, generation, and reviews) and setting up AI agents like OpenClaw for task automation. This highlights the growing trend of enterprises deploying high-end hardware like Nvidia H200 servers for in-house AI workloads, enabling testing of cutting-edge LLMs that require substantial VRAM for optimal performance. It reflects a shift towards using local, powerful models for sensitive tasks like coding and automation, which can enhance developer productivity and reduce reliance on cloud-based AI services while ensuring data privacy. The server features 2x Nvidia H200 GPUs with HBM3e memory, offering 282GB of total VRAM, which is sufficient to run large, unquantized or lightly quantized models that prioritize intelligence over speed. The user is focused on models for coding tasks and AI agent frameworks like OpenClaw, indicating a need for models with strong reasoning and task-execution capabilities rather than just high throughput.",
+  "score": 7,
+  "tags": [
+    "LLM Deployment",
+    "Hardware Optimization",
+    "Enterprise AI",
+    "Code Generation",
+    "AI Agents"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "_camera_up"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rwwqbm/my_company_just_handed_me_a_2x_h200_282gb_vram/",
+  "originalSite": "reddit.com",
+  "context": "Nvidia H200 GPUs are high-performance accelerators designed for AI and HPC workloads, featuring HBM3e memory that provides high bandwidth and capacity for handling large models. HBM3e (High Bandwidth Memory 3e) is an advanced memory technology used in GPUs to deliver faster data transfer rates and improved efficiency, crucial for running memory-intensive LLMs. OpenClaw is an open-source AI agent framework that allows developers to build automations and assistants using LLMs, enabling tasks like document handling and workflow execution on local infrastructure.",
+  "discussion": "The Reddit post received high engagement with 411 score and 95% upvote ratio, indicating strong community interest. Comments likely included diverse recommendations for high-intelligence LLMs suitable for the 282GB VRAM setup, such as models like GPT-4 variants, Claude, or open-source alternatives, along with advice on quantization techniques to balance performance and resource usage. Users may have shared insights on optimizing inference for coding tasks and integrating with AI agent frameworks like OpenClaw.",
+  "references": [
+    {
+      "title": "HBM3E | Micron Technology Inc.",
+      "url": "https://www.micron.com/products/memory/hbm/hbm3e"
+    },
+    {
+      "title": "Openclaw - Open-Source AI Automation Framework | Build Your ...",
+      "url": "https://openclaw.im/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

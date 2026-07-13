@@ -1,0 +1,39 @@
+{
+  "id": "784f9488ce63871729ac93b9df606829e2a9a3c2",
+  "canonicalId": "948f44faf01c41cd31a0be117e4aa725e7644d01",
+  "slug": "推动-nts-采用为网络时间协议ntp安全化注入新动力",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-26T00:00:00Z",
+  "lang": "zh",
+  "title": "推动 NTS 采用，为网络时间协议（NTP）安全化注入新动力",
+  "summary": "在 FOSDEM 2026 上，Trifecta Tech 基金会的 Ruben Nijveld 介绍了加速采用网络时间安全（NTS）标准的工作，该标准是 IETF 的 RFC-8915，旨在保护 NTP 流量。该基金会获得了 ICANN 等机构的额外资助，正在测试相关技术，以帮助 pool.ntp.org 等大型时间服务器更轻松地部署 NTS。 NTP 是用于时间同步的基础性互联网协议，但其本身存在根本性的安全缺陷，易受欺骗攻击。用 NTS 对其进行保护至关重要，因为准确、可信的时间是无数系统的基石，从身份验证（Kerberos、TOTP）、分布式计算到蜂窝网络、金融交易和电网都依赖于此。 NTS 的重点是为 NTP 数据包提供身份验证和完整性保护，而非加密时间数据本身，因为时间载荷是公开的。该标准利用传输层安全（TLS）进行初始密钥交换，并使用关联数据认证加密（AEAD）来保护后续的时间同步交换。",
+  "score": 7,
+  "tags": [
+    "network-security",
+    "time-synchronization",
+    "protocols",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Feb 25, 14:26"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1059200/",
+  "originalSite": "lwn.net",
+  "context": "网络时间协议（NTP）创建于 1985 年，用于将互联网上的计算机时钟与协调世界时（UTC）同步，通常参考原子钟（Stratum 0 源）。它采用分层客户端-服务器模型运行，但设计时未内置安全机制，因此容易受到中间人攻击，导致时间戳被篡改。网络时间安全（NTS）是 IETF RFC 8915 中定义的一种加密机制，专门用于为 NTP 添加身份验证和完整性保护，以解决这一长期存在的安全漏洞。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "RFC 8915: Network Time Security for the Network Time Protocol",
+      "url": "https://datatracker.ietf.org/doc/html/rfc8915"
+    },
+    {
+      "title": "Information on RFC 8915",
+      "url": "https://www.rfc-editor.org/info/rfc8915"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

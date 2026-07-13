@@ -1,0 +1,44 @@
+{
+  "id": "ef524848d3efa2bb6bec827d01b82094c05ed8ef",
+  "canonicalId": "7b9a5d54553e7a7f8300ed9d8e826d36a902b048",
+  "slug": "litellm-供应链攻击引发开源替代方案评估",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "LiteLLM 供应链攻击引发开源替代方案评估",
+  "summary": "PyPI 上的 LiteLLM Python 包版本 1.82.7 和 1.82.8 被植入窃取凭证的恶意软件，这促使人们评估三个开源替代方案：Bifrost（基于 Go，速度快 50 倍）、Kosong（来自 Kimi 的面向代理方案）和 Helicone（功能丰富的可观测性平台）。 这一事件凸显了广泛使用的 AI 基础设施库中关键的供应链安全风险，迫使开发者重新考虑依赖管理和迁移策略，同时评估具有不同技术权衡的替代解决方案。 Bifrost 提供了从 LiteLLM 的一行代码迁移路径，采用 Apache 2.0 许可证并支持 20 多个提供商；而 Kosong 专注于具有统一消息结构的面向代理工作流；Helicone 则提供支持 100 多个提供商的广泛分析能力。",
+  "score": 7,
+  "tags": [
+    "supply-chain-security",
+    "llm-libraries",
+    "open-source-alternatives",
+    "python-security",
+    "ai-infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 25, 07:26"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/4hrn5eh985rg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "LiteLLM 是一个流行的 Python 库，为 OpenAI、Anthropic 和 Google 等多个大型语言模型（LLM）提供商提供统一接口。供应链攻击涉及在 PyPI 等公共存储库中植入恶意软件包，以向下游用户分发恶意软件。LLM 抽象层帮助开发者在不同 AI 提供商之间切换，而无需重写应用程序代码。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Popular LiteLLM PyPI package backdoored to steal credentials,",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/"
+    },
+    {
+      "title": "Bifrost: A Drop-in LLM Proxy, 50x Faster Than LiteLLM",
+      "url": "https://www.getmaxim.ai/blog/bifrost-a-drop-in-llm-proxy-40x-faster-than-litellm/"
+    },
+    {
+      "title": "The LLM abstraction layer for modern AI agent applications.",
+      "url": "https://github.com/MoonshotAI/kosong"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

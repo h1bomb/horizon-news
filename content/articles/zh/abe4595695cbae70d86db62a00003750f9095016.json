@@ -1,0 +1,40 @@
+{
+  "id": "abe4595695cbae70d86db62a00003750f9095016",
+  "canonicalId": "407862142309388c019bd972b7617dd634b41d20",
+  "slug": "腾讯发布-hy3-预览版295b-moe-模型21b-激活参数",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "腾讯发布 Hy3 预览版：295B MoE 模型，21B 激活参数",
+  "summary": "腾讯开源了 Hy3 预览版，这是一个总参数量达 2950 亿的混合专家模型（MoE），激活参数为 210 亿，支持 256K 上下文长度。该模型已在 Hugging Face 和 GitHub 上发布，腾讯云同步推出 API 及定价方案。 此次发布展示了一家中国大型科技公司在大规模开源 MoE 模型上的投入，可能加速复杂推理和智能体应用的 AI 发展。210 亿的激活参数理论上使其可在高端消费级硬件上运行，但实际部署仍具挑战。 该模型采用混合专家架构，总参数 2950 亿但每次仅激活 210 亿，从而实现高效推理。腾讯报告称，CodeBuddy 等产品的首 token 延迟降低了 54%，该模型已在元宝、腾讯文档、QQ 等内部产品上线。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "open-source",
+    "MoE",
+    "Tencent",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 23, 14:17"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1stk2mz",
+  "originalSite": "reddit.com",
+  "context": "混合专家模型（MoE）是一种神经网络架构，将模型划分为多个专门的子网络（专家），每个输入仅激活其中一部分。这使得模型总参数量很大，但每个 token 的计算成本较低，类似于 Gemma 4 的 26B A4B 模型仅激活 40 亿参数。Hy3 预览版总参数 2950 亿、激活 210 亿的规模，理论上可在配备足够内存（如 256GB）的消费级硬件上运行，但实际使用可能需要量化。",
+  "discussion": "社区反应不一：有人称赞模型规模及基础模型的发布，但许多人批评其许可证限制性强，称其为“权重可用”而非真正开源。其他人讨论硬件可行性，指出 AM5 主板上的 256GB 内存可运行该模型，并表示希望与 MiniMax 2.7 和 Qwen 3.5 等模型进行比较。",
+  "references": [
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+    },
+    {
+      "title": "Mixture of Experts Explained - Hugging Face",
+      "url": "https://huggingface.co/blog/moe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "96c81ed5f4b134f436373b039a4c37a7da647e9d",
+  "canonicalId": "0e08e1ee3bac19d8c06fc9466406e1038ddd6255",
+  "slug": "anthropic-reports-large-scale-distillation-attacks-on-claude-by-chinese-ai-labs",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T04:15:00Z",
+  "lang": "en",
+  "title": "Anthropic Reports Large-Scale Distillation Attacks on Claude by Chinese AI Labs",
+  "summary": "Anthropic published a report accusing three Chinese AI labs—DeepSeek, Moonshot AI, and MiniMax—of conducting large-scale 'distillation attacks' on its Claude model. The labs allegedly created over 24,000 fraudulent accounts and engaged in more than 16 million conversational interactions to extract Claude's capabilities for training their own models. This incident highlights a significant security and ethical challenge in the AI industry, where model capabilities and safety guardrails are being systematically extracted to bypass export controls and competitive barriers. It underscores the escalating tensions in global AI competition and raises questions about the effectiveness of current safeguards against industrial-scale intellectual property extraction. Anthropic stated that these attacks circumvented safety controls and export restrictions, and the company is now strengthening its defenses using techniques like behavioral fingerprinting. The scale of the operation—millions of interactions across tens of thousands of fake accounts—indicates a coordinated, industrial-level effort rather than isolated research attempts.",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Model Distillation",
+    "AI Ethics",
+    "Anthropic",
+    "Chinese AI Labs"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/39851",
+  "originalSite": "t.me",
+  "context": "Model distillation is a technique where a smaller or less capable model is trained on the outputs of a larger, more powerful model to replicate its capabilities. While knowledge distillation is a legitimate research method, it becomes an 'attack' or 'theft' when used at scale to systematically extract proprietary model intelligence, bypass terms of service, and evade safety filters. AI safety controls are measures implemented by companies like Anthropic to prevent their models from generating harmful, biased, or unsafe content, but techniques like multi-turn prompting can sometimes bypass these safeguards.",
+  "discussion": "The Reddit discussion reveals a debate within the technical community. Some users question why standard 'knowledge distillation' is suddenly being labeled as theft, suggesting a blurry line between legitimate research and malicious extraction. Others express concern about the industrial scale and coordinated nature of the attacks, viewing them as clear violations of terms of service and potential intellectual property infringement.",
+  "references": [
+    {
+      "title": "Detecting and preventing distillation attacks - Anthropic",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "title": "Anthropic joins OpenAI in flagging 'industrial-scale' distillation campaigns by Chinese AI firms - CNBC",
+      "url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html"
+    },
+    {
+      "title": "Anthropic: \"We've identified industrial-scale distillation attacks on our models by DeepSeek, Moonshot AI, and MiniMax.\" : r/ClaudeCode - Reddit",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rcp658/anthropic_weve_identified_industrialscale/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

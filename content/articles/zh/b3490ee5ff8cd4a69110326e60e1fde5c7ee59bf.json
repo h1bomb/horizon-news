@@ -1,0 +1,45 @@
+{
+  "id": "b3490ee5ff8cd4a69110326e60e1fde5c7ee59bf",
+  "canonicalId": "49e4f31a2c7997d4d7bcdce1f3668bcc8c76c7aa",
+  "slug": "自托管-ai-编程工具省钱指南",
+  "date": "2026-06-14",
+  "publishedAt": "2026-06-13T16:45:00Z",
+  "lang": "zh",
+  "title": "自托管 AI 编程工具省钱指南",
+  "summary": "Stephen Bochinski 发表了一篇实用指南，指导开发者通过自托管开源 AI 编程模型来减少或消除云订阅的持续费用。 这种方法对于能让硬件持续运行的开发者来说，可以大幅节省成本并保护隐私，但需要前期投资和技术知识，挑战了基于云的编程助手的主导地位。 前期硬件成本高昂，本地运行的模型通常弱于前沿云模型；只有那些有长时间运行任务、能让廉价模型彻夜工作的开发者才能获益。",
+  "score": 8,
+  "tags": [
+    "AI coding",
+    "self-hosting",
+    "cost optimization",
+    "developer tools",
+    "open source models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sbochins",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48518969"
+    }
+  ],
+  "originalUrl": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+  "originalSite": "stephen.bochinski.dev",
+  "context": "自托管 AI 编程工具是指在本地硬件（如高端 GPU 设备）上运行开源代码补全模型（如 StarCoder、Qwen 或 DeepSeek）。这与 GitHub Copilot 或 Cursor 等按 token 或月订阅收费的云服务形成对比，高频率使用可能成本高昂。开源模型已大幅改进，使本地部署成为注重隐私或希望降低成本的开发者的可行替代方案。",
+  "discussion": "社区评论显示了不同体验：一些用户认为每月 100 美元的 Codex 或 60 美元的 Cursor 等云计划已足够，无法证明自托管的合理性；而另一些人指出电费成本和模型较弱会抵消节省。一位用户指出自托管是为隐私支付的溢价，另一位则评论该文章是关于“氛围编程”而非真正的在家 AI 编程。",
+  "references": [
+    {
+      "title": "Best Open Source AI Coding Tools You Can Self-Host in 2026",
+      "url": "https://tcal.net/blog/open-source-ai-coding-tools-self-hosted/"
+    },
+    {
+      "title": "5 Open-Source Coding LLMs You Can Run Locally in 2026",
+      "url": "https://www.labellerr.com/blog/best-coding-llms/"
+    },
+    {
+      "title": "Best Self-Hosted AI Tools You Can Actually Run in Your Home Lab",
+      "url": "https://www.virtualizationhowto.com/2025/10/best-self-hosted-ai-tools-you-can-actually-run-in-your-home-lab/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

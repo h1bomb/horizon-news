@@ -1,0 +1,44 @@
+{
+  "id": "49f9a374ba9d87287159b496da103e4c7208ab21",
+  "canonicalId": "33f596b1fc089098a623f8019871aadd492f3512",
+  "slug": "openai-推出-gpt-live-语音模型可委托-gpt-55-执行复杂任务",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-08T23:20:00Z",
+  "lang": "zh",
+  "title": "OpenAI 推出 GPT-Live 语音模型，可委托 GPT-5.5 执行复杂任务",
+  "summary": "OpenAI 推出了 GPT-Live，这是一系列新的 ChatGPT 语音模型，支持全双工对话，并能将复杂任务委托给 GPT-5.5。两个版本可用：面向付费用户的 GPT-Live-1 和作为所有用户默认选项的 GPT-Live-1 mini，后者取代了高级语音模式。 此次升级通过使用更强大的模型和无缝的任务委托，显著提升了 ChatGPT 语音模式的用户体验，尤其适用于复杂查询。这展示了对话式 AI 的实用进展，使语音助手在头脑风暴和多步骤任务中更加有用。 GPT-Live 采用全双工架构，可同时听和说，保持自然对话流畅。它将网页搜索、深度推理等复杂工作委托给 OpenAI 最新前沿模型 GPT-5.5，且 OpenAI 将持续更新后台模型。较大的 GPT-Live-1 模型面向付费用户，而 GPT-Live-1 mini 免费可用。",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "GPT-Live",
+    "voice mode",
+    "GPT-5.5",
+    "AI assistants"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "ChatGPT 之前的语音模式基于较老的 GPT-4o 时代模型，知识截止于 2024 年，限制了其实用性。GPT-Live 利用了 2026 年 4 月发布的 GPT-5.5 前沿模型，该模型专为编码和研究等复杂任务设计。全双工语音允许双方同时说话和收听，实现更自然的交互。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GPT-Live: OpenAI Full-Duplex ChatGPT Voice | explainx.ai Blog",
+      "url": "https://www.explainx.ai/blog/gpt-live-openai-chatgpt-voice-july-2026"
+    },
+    {
+      "title": "ChatGPT Voice - OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/8400625-voice-mode"
+    },
+    {
+      "title": "OpenAI launches GPT-Live voice models for real-time conversations",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-launches-gpt-live-voice-130906310.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

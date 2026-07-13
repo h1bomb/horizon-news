@@ -1,0 +1,40 @@
+{
+  "id": "764f36b6df4c534977a5bc6d10cf5ceede20c4d5",
+  "canonicalId": "7007df316e714c16f91f67e1bece7199e76185d0",
+  "slug": "rust-1970-released-with-new-symbol-mangling-and-cargo-warnings-denial",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T13:19:00Z",
+  "lang": "en",
+  "title": "Rust 1.97.0 Released with New Symbol Mangling and Cargo Warnings Denial",
+  "summary": "Rust 1.97.0 introduces a new default symbol-mangling scheme, enables denying Cargo warnings via a new flag, and stops hiding linker output after a successful build. These changes improve build reliability and debugging for Rust developers. Denying warnings can help enforce code quality in CI pipelines, while the new mangling scheme ensures more stable symbol names. The new symbol-mangling scheme produces more consistent symbol names across different Rust versions. The Cargo deny warnings feature allows treating warnings as errors, similar to `-D warnings` in rustc. Removal of hidden linker output means all linker messages are now visible.",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "release",
+    "programming language",
+    "tooling",
+    "build system"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1082032/",
+  "originalSite": "lwn.net",
+  "context": "Symbol mangling encodes unique names for symbols used by the linker. Rust's previous mangling scheme could change between versions, causing instability. Denying warnings in Cargo has been a long-requested feature to enforce stricter build policies. Previously, linker output was hidden by default if the build succeeded, which could hide useful diagnostics.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Symbol Mangling - The rustc book - Learn Rust",
+      "url": "https://doc.rust-lang.org/stable/rustc/symbol-mangling/index.html"
+    },
+    {
+      "title": "Add `--deny-warnings` functionality for all commands. · Issue ...",
+      "url": "https://github.com/rust-lang/cargo/issues/8424"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

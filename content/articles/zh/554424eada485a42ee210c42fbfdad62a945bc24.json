@@ -1,0 +1,44 @@
+{
+  "id": "554424eada485a42ee210c42fbfdad62a945bc24",
+  "canonicalId": "dcf264213f23852036aee795353e94389a9870f1",
+  "slug": "suse-安全审查发现-plasma-登录管理器漏洞",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-30T00:00:00Z",
+  "lang": "zh",
+  "title": "SUSE 安全审查发现 Plasma 登录管理器漏洞",
+  "summary": "SUSE 安全团队发布了 Plasma Login Manager 6.6.2 的审查报告，指出其特权 D-Bus 助手 plasmaloginauthhelper 存在纵深防御安全问题，可能导致 plasmalogin 服务用户提升至 root 权限。 此事至关重要，因为 Plasma Login Manager 是处理用户身份验证的关键系统组件，这些漏洞实际上消除了服务用户与 root 之间的安全隔离，影响所有 KDE Plasma 用户。 问题出现在从 SDDM 分支出来的 6.6.2 版本中，该版本新增了特权助手。发布时上游尚未提供修复，但计划在 2026 年 5 月 12 日的下一个 Plasma 版本中修复。",
+  "score": 8,
+  "tags": [
+    "security",
+    "Linux",
+    "Plasma",
+    "D-Bus",
+    "KDE"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 29, 14:20"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1070434/",
+  "originalSite": "lwn.net",
+  "context": "Plasma Login Manager 是 KDE Plasma 的显示管理器，从 SDDM（Simple Desktop Display Manager）分支而来。D-Bus 是 Linux 上的进程间通信系统；特权 D-Bus 助手以高权限运行以执行身份验证任务。纵深防御问题意味着多层安全防护薄弱，可能导致权限提升。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "plasma-login-manager: Weaknesses in plasmaloginauthhelper ...",
+      "url": "https://security.opensuse.org/2026/04/27/plasma-login-manager.html"
+    },
+    {
+      "title": "Security review of Plasma Login Manager (SUSE Security Team ...",
+      "url": "https://lwn.net/Articles/1070434/"
+    },
+    {
+      "title": "oss-sec: plasma-login-manager: Weaknesses in ...",
+      "url": "https://seclists.org/oss-sec/2026/q2/228"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

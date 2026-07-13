@@ -1,0 +1,44 @@
+{
+  "id": "21aa086a7c12a2c88f5fde5feeb0da901cd4ab9e",
+  "canonicalId": "4c55439d34c35953803ae0b957872f225d312bb4",
+  "slug": "vllm-v0220-发布deepseek-v4-成熟化与-rust-前端",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T10:28:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.22.0 发布：DeepSeek V4 成熟化与 Rust 前端",
+  "summary": "vLLM 发布了 v0.22.0 版本，包含来自 230 位贡献者的 459 次提交，主要亮点包括 DeepSeek V4 的显著强化、模型运行器 V2 向默认进发，以及实验性的 Rust 前端。关键改进有 NVFP4 融合 MoE 支持、分段 CUDA 图、MTP 推测解码和多级 KV 缓存卸载。 该版本显著提升了 DeepSeek V4（一种先进的 MoE 模型）的推理效率与模型支持，同时推动模型运行器 V2 走向更广泛的应用。实验性的 Rust 前端也表明 vLLM 正在探索使用更安全的系统语言来优化性能关键路径。 DeepSeek V4 现在拥有专用包、NVFP4 融合 MoE、完整与分段 CUDA 图支持以及 MTP 推测解码。模型运行器 V2 新增了一个选择器（oracle），可自动为 Qwen3 稠密模型启用它，并在存在 KV 连接器时自动回退到 MRv1。",
+  "score": 9,
+  "tags": [
+    "vllm",
+    "LLM inference",
+    "DeepSeek",
+    "Rust",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个高吞吐量的 LLM 推理引擎，采用 PagedAttention 实现高效内存管理。DeepSeek V4 是一个混合专家（MoE）模型，需要专门的内核优化。NVFP4 融合 MoE 使用 4 位浮点加速专家计算，分段 CUDA 图减少图编译开销，MTP 推测解码利用多 Token 预测草稿模型加速生成。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "vllm.model_executor.layers. fused _ moe .oracle. nvfp4",
+      "url": "https://docs.vllm.ai/en/v0.15.0/api/vllm/model_executor/layers/fused_moe/oracle/nvfp4/"
+    },
+    {
+      "title": "Piecewise CUDA Graph - SGLang Documentation",
+      "url": "https://docs.sglang.io/docs/advanced_features/piecewise_cuda_graph"
+    },
+    {
+      "title": "MTP Speculative Decoding Actually Works on MoE: 144 t/s on a",
+      "url": "https://njannasch.dev/blog/mtp-speculative-decoding-qwen-3-6-5060ti/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "7f8288fe7a40606c595a73f4c6af3ab1d4d095ab",
+  "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
+  "slug": "阿里巴巴发布-qwen36-max-preview这是一款更智能编码能力更强的-ai-模型",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-21T00:00:00Z",
+  "lang": "zh",
+  "title": "阿里巴巴发布 Qwen3.6-Max-Preview，这是一款更智能、编码能力更强的 AI 模型。",
+  "summary": "阿里巴巴发布了 Qwen3.6-Max-Preview，这是一款托管在阿里云 Model Studio 上的专有 AI 模型，相比前代 Qwen3 在代理编码能力上有所提升。该模型仍处于预览阶段，正在积极开发中，预计后续版本会有更多改进。 这次发布很重要，因为它代表了阿里巴巴在 AI 领域的最新进展，在六个主要编码基准测试中领先，并提升了世界知识和指令遵循能力，可能影响依赖 AI 进行编码和自动化任务的开发者和企业。它还突显了 AI 模型开发的竞争格局，其中像这样的专有模型与开源替代品争夺市场主导地位。 Qwen3.6-Max-Preview 是一款仅限云端的专有模型，通过阿里云 Model Studio 提供，定价为每百万输入 token 1.3 美元，每百万输出 token 7.8 美元。它在 Terminal-Bench 2.0 上得分为 65.4，在 SWE-Bench Pro 上得分为 57.3，在这些基准测试中略低于 Kimi K2.6 等竞争对手。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Open Source",
+    "Model Comparison",
+    "HackerNews"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 20, 14:05"
+    }
+  ],
+  "originalUrl": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+  "originalSite": "qwen.ai",
+  "context": "Qwen 是阿里巴巴开发的一系列大型语言模型，以其在自然语言处理和编码任务中的能力而闻名。AI 模型比较涉及在 SWE-Bench Pro 和 Terminal-Bench 2.0 等基准测试上评估不同模型，以衡量在软件工程和终端操作等领域的性能。开源 AI 模型通常发布模型权重，但可能因不包含训练数据或代码而受到批评，引发关于真正开放性和滥用风险等问题的辩论。",
+  "discussion": "社区评论显示出复杂情绪，用户将 Qwen3.6-Max-Preview 与 Claude Code 和 Kimi K2.6 等其他模型进行比较，指出其成本较高且基准测试分数略低。一些人担心预览模型的专有性质，担忧开源发布减少的趋势，而另一些人则强调实际性能比基准测试更重要。",
+  "references": [
+    {
+      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview"
+    },
+    {
+      "title": "Qwen3.6 Max Preview - Intelligence, Performance & Price Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-6-max"
+    },
+    {
+      "title": "Alibaba Drops Qwen 3.6 Max Preview—Its Most Powerful Model ...",
+      "url": "https://decrypt.co/364948/alibaba-qwen-3-6-max-preview-most-powerful-model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

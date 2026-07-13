@@ -1,0 +1,41 @@
+{
+  "id": "e5baba03ca59393718515d39909114d37c414290",
+  "canonicalId": "5b7ef307fa8348fd75f0e76268dd495c701e6586",
+  "slug": "russian-satellite-cosmos-2546-identified-as-gnss-interference-source",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T08:32:00Z",
+  "lang": "en",
+  "title": "Russian Satellite Cosmos 2546 Identified as GNSS Interference Source",
+  "summary": "Researchers have identified the Russian satellite Cosmos 2546 (NORAD ID 45608) as a source of wide-area GNSS interference across Europe, linking it to the Edinaya Kosmicheskaya Sistema early warning constellation. This finding provides concrete attribution for persistent GNSS degradation affecting aviation, maritime, and civilian users across Europe since 2019, with significant geopolitical and operational implications. The satellite operates in Medium Earth Orbit (MEO) at altitudes between 1,403 km and 38,952 km with an inclination of 63.2°, and the analysis combined signal characterization, satellite tracking, and orbital data to achieve high-confidence identification.",
+  "score": 9,
+  "tags": [
+    "GNSS",
+    "interference",
+    "Russia",
+    "satellite",
+    "aerospace"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mimorigasaka",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48409664"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2606.03673",
+  "originalSite": "arxiv.org",
+  "context": "GNSS jamming is the intentional transmission of radio signals on or near GNSS frequencies to overpower weak satellite transmissions, preventing receivers from calculating position. The Russian Edinaya Kosmicheskaya Sistema (EKS) is a constellation of early warning satellites, and Cosmos 2546 launched in May 2020 is one of its members.",
+  "discussion": "Commenters noted the practical impact, with one reporting daily jamming near Romanian and Polish waters. Another speculated that Russian electronic warfare may have jammed Ukrainian marine drones, leading to their loss near Constanta. The power required for wide-area jamming was also questioned, with estimates in the kilowatt range.",
+  "references": [
+    {
+      "title": "GNSS jamming - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GNSS_jamming"
+    },
+    {
+      "title": "COSMOS 2546 Satellite details 2020-031A NORAD 45608 - N2YO.com",
+      "url": "https://www.n2yo.com/satellite/?s=45608"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

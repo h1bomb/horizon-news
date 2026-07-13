@@ -1,0 +1,44 @@
+{
+  "id": "8d2a91ca8de49ba282dc7a5c97e4ff80c519149f",
+  "canonicalId": "9019645846f4d0f0c89b484d03d5c305230eafb3",
+  "slug": "新款-10gbe-usb-适配器更小更凉更便宜",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-26T00:00:00Z",
+  "lang": "zh",
+  "title": "新款 10GbE USB 适配器：更小、更凉、更便宜",
+  "summary": "基于 Realtek RTL8159 芯片的新款 10GbE USB 适配器现已上市，相比之前的 Thunderbolt 方案，体积更小、发热更低、价格更便宜。但性能因主机的 USB 标准支持和中断处理能力而异。 这使得 10GbE 网络连接对更广泛的用户群体更加可及，尤其是拥有新 USB4 或 Thunderbolt 4 端口的用户，可能加速高速有线网络在家庭和小型办公环境中的普及。 这些适配器使用 Realtek RTL8159 芯片，支持 USB 3.2 Gen 2x2（20 Gbps）以实现完整的 10GbE 速度，但许多主机缺乏此标准，导致降级到 10 Gbps 的 USB 3.2 Gen 2。此外，低功耗设备（如 MacBook Neo）的中断率可能限制吞吐量，且 iperf3 默认单线程，可能低估性能。",
+  "score": 7,
+  "tags": [
+    "networking",
+    "hardware",
+    "USB",
+    "10GbE",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 25, 05:56"
+    }
+  ],
+  "originalUrl": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
+  "originalSite": "jeffgeerling.com",
+  "context": "10GbE（万兆以太网）是一种高速网络标准，提供 10 Gbps 数据传输，常用于数据中心和专业工作流。传统上，笔记本电脑的 10GbE 适配器使用 Thunderbolt 3/4，价格昂贵且体积较大。新型 USB 适配器利用 USB4 和 USB 3.2 Gen 2x2 标准，以更低成本提供类似速度，但兼容性和性能取决于主机硬件。",
+  "discussion": "社区讨论突出了技术细节：一位评论者指出 iperf3 默认单线程，建议使用-P 4 进行多线程测试以更好地衡量性能。另一位对 USB 版本命名感到困惑，还有一位指出 Apple 硬件不支持 USB 3.2 Gen 2x2，因此适配器会降级到 10 Gbps。还分享了一个 Framework 扩展卡的链接。",
+  "references": [
+    {
+      "title": "QNA-UC10G1SF | USB 4 Type-C to 10GbE SFP+ Network Adapter, Compatible with USB 4 and Thunderbolt™ 3/4 Ports | QNAP (US)",
+      "url": "https://www.qnap.com/en-us/product/qna-uc10g1sf"
+    },
+    {
+      "title": "IOCREST USB4 to 10GbE Adapter Review – NAS Compares",
+      "url": "https://nascompares.com/2024/07/05/iocrest-usb4-to-10gbe-adapter-review/"
+    },
+    {
+      "title": "networking - Is there a technical reason no 10GbE USB 3.1 Gen 2",
+      "url": "https://superuser.com/questions/1284506/is-there-a-technical-reason-no-10gbe-usb-3-1-gen-2-adapters-exist-yet"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

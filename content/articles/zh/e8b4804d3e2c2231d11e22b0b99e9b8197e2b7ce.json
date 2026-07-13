@@ -1,0 +1,44 @@
+{
+  "id": "e8b4804d3e2c2231d11e22b0b99e9b8197e2b7ce",
+  "canonicalId": "d4f83f6f506b0362277c15643c130cd37d886695",
+  "slug": "ai-爬虫机器人加剧住宅代理成为推手",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T15:20:00Z",
+  "lang": "zh",
+  "title": "AI 爬虫机器人加剧，住宅代理成为推手",
+  "summary": "LWN 报道称，自 2025 年初以来，AI 爬虫机器人淹没网站的问题进一步恶化，攻击主要追溯到由犯罪和表面合法的实体运营的住宅代理网络。 这种日益严重的爬取活动消耗服务器资源，削弱网站所有者对其内容的控制，威胁开放网络的可持续性，影响内容创作者和网络基础设施运营商。 攻击通过住宅代理来自数百万个独立 IP 地址，通常设备所有者不知情；2026 年初 IPIDEA 僵尸网络被摧毁后流量暂时减少，但喘息期很短。",
+  "score": 8,
+  "tags": [
+    "AI scraping",
+    "web infrastructure",
+    "bots",
+    "residential proxies",
+    "open web"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1080822/",
+  "originalSite": "lwn.net",
+  "context": "住宅代理是由 ISP 分配给真实用户的 IP 地址，被重新用于路由爬虫流量。攻击者利用这些代理伪装成合法人类访问者，规避简单的基于 IP 的封锁。网络从被恶意软件感染的设备到像 Bright Data 的免费 VPN 这样的“道德获取”代理服务不等。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Buy Residential Proxies - $1 per 1 GB | DataImpulse",
+      "url": "https://dataimpulse.com/residential-proxies/"
+    },
+    {
+      "title": "Buy Fast Residential IP Proxies From Best Provider - Free Trial",
+      "url": "https://oxylabs.io/products/residential-proxy-pool"
+    },
+    {
+      "title": "Residential Proxies | Proxyrack",
+      "url": "https://www.proxyrack.com/residential-proxies/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "56e1b0047e10f1ce7b9abfdcf85d02957faea62b",
+  "canonicalId": "59fe2a2ba40924a3ebe8d2000281791eecd2abe6",
+  "slug": "speculative-decoding-boosts-gemma-4-31b-inference-by-29-average-50-on-code-tasks",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-12T12:08:00Z",
+  "lang": "en",
+  "title": "Speculative decoding boosts Gemma 4 31B inference by 29% average, 50% on code tasks",
+  "summary": "A Reddit user benchmarked speculative decoding using Gemma 4 31B as the main model and Gemma 4 E2B (4.65B) as the draft model, achieving an average 29% speedup in token generation with peaks of 50% improvement on code generation tasks. The experiment was conducted on an RTX 5090 GPU using a llama.cpp fork with TurboQuant KV cache optimization. This demonstrates that speculative decoding can deliver substantial inference speed improvements for large language models without sacrificing output quality, making local deployment of 30B+ parameter models more practical for developers and researchers. The technique is particularly effective for code generation tasks where 50% speedup could significantly improve developer productivity and interactive coding experiences. The benchmark showed varying speedups across different query types, from 9.5% on Korean poetry to 50.5% on code generation, with an average acceptance rate of 52.2% for draft tokens. The user initially encountered performance issues due to GGUF version compatibility but resolved them by using proper configurations including --draft-max 8 and --draft-min 1 parameters.",
+  "score": 7,
+  "tags": [
+    "speculative-decoding",
+    "llm-optimization",
+    "gemma",
+    "benchmarking",
+    "local-llm"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "PerceptionGrouchy187"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjct6a/speculative_decoding_works_great_for_gemma_4_31b/",
+  "originalSite": "reddit.com",
+  "context": "Speculative decoding is an inference acceleration technique where a smaller 'draft' model predicts multiple future tokens, which are then verified in parallel by a larger 'target' model, reducing sequential computation. Gemma 4 is Google's latest open language model family, with the 31B parameter version being popular for local deployment. TurboQuant is a KV cache compression technique that reduces memory usage during inference by quantizing the key-value cache, which stores attention information.",
+  "discussion": "Community members validated the results with their own tests, reporting similar speedups on different hardware configurations including RTX 5070Ti/5060Ti combos and Strix Halo systems. Several users requested implementation details and shared optimization tips, such as adjusting draft parameters and offloading embeddings to CPU to save VRAM, while others discussed potential improvements with lower quantization levels.",
+  "references": [
+    {
+      "title": "[2310.07177] Online Speculative Decoding",
+      "url": "https://arxiv.org/abs/2310.07177"
+    },
+    {
+      "title": "TurboQuant: 7 Powerful Breakthroughs In KV Cache Efficiency",
+      "url": "https://binaryverseai.com/turboquant-kv-cache-compression-engineers-guide/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

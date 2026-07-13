@@ -1,0 +1,44 @@
+{
+  "id": "b12503d03d24921d65d5a108f8a01db6c3ec898e",
+  "canonicalId": "f9b055a1ff23711d177fba174a6b285cfe45fcac",
+  "slug": "andrej-karpathy-releases-autoresearch-a-framework-for-autonomous-ai-research-agents",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-09T10:36:00Z",
+  "lang": "en",
+  "title": "Andrej Karpathy releases 'autoresearch', a framework for autonomous AI research agents.",
+  "summary": "Andrej Karpathy introduced the 'autoresearch' framework, which enables AI agents to autonomously conduct LLM training experiments by interpreting research strategies defined in natural language markdown files (program.md). The agents can modify code, run short training cycles, evaluate results, and iterate overnight without human intervention. This represents a potential paradigm shift in AI research workflows, moving from manual coding to 'programming' autonomous agents with high-level instructions. If successful, it could dramatically accelerate the pace of experimentation and optimization in machine learning by automating tedious, iterative tasks, allowing human researchers to focus on higher-level strategy. The framework uses a simplified single-GPU implementation of nanochat for training, and the core innovation is the 'program.md' pattern where the entire research strategy is defined. The autonomous loop involves a 5-minute training cycle, evaluation, and code modification based on the outcome, but the project is currently experimental and demonstrated on a small-scale setup.",
+  "score": 8,
+  "tags": [
+    "AI-agents",
+    "autonomous-research",
+    "Karpathy",
+    "AI-development",
+    "paradigm-shift"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://github.com/karpathy/autoresearch",
+  "originalSite": "github.com",
+  "context": "Autonomous AI agents are systems that can perform complex tasks by planning, retrieving information, and taking actions with minimal human guidance. The concept of 'deep research' involves agents actively engaging in planning and synthesis to generate reports grounded in evidence. Self-modifying systems, which can rewrite their own code based on a fitness function, have been a topic of research in AI and computer science for decades, with applications aiming to improve autonomous learning.",
+  "discussion": "Community sentiment is mixed, with some praising the 'program.md' pattern as a genuine paradigm shift for programming agents with natural language. Others critique the underlying automation loop as not novel, comparing it to existing hyperparameter search tools, and question whether the dramatic framing matches the technical substance. There is also discussion about the project's scalability beyond small-scale experiments.",
+  "references": [
+    {
+      "title": "Deep Research: A Survey of Autonomous Research Agents",
+      "url": "https://arxiv.org/abs/2508.12752"
+    },
+    {
+      "title": "Self-modifying code - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Self-modifying_code"
+    },
+    {
+      "title": "GitHub - STUDIOPARCELS/autoresearch: Autonomous LLM training ...",
+      "url": "https://github.com/STUDIOPARCELS/autoresearch"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

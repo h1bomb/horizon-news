@@ -1,0 +1,40 @@
+{
+  "id": "1c068e223b5dc2085f042465354a996de818092c",
+  "canonicalId": "9a5fb42487e94d94fece72a3c14d88511faf8b25",
+  "slug": "skeptical-developer-tests-ai-coding-agents-by-attempting-to-port-scikit-learn-to-rust",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-27T20:43:00Z",
+  "lang": "en",
+  "title": "Skeptical developer tests AI coding agents by attempting to port scikit-learn to Rust",
+  "summary": "Developer Max Woolf, initially skeptical about AI coding agents, conducted a detailed experiment where he progressively assigned them more complex tasks, culminating in an attempt to port the Python machine learning library scikit-learn to Rust under the placeholder name 'rustlearn'. The experiment demonstrated that models like Anthropic's Opus 4.6 and OpenAI's Codex 5.3 could successfully handle complex coding projects that would previously have taken months of manual work. This experiment provides concrete, real-world evidence of a significant leap in AI-assisted programming capabilities, moving beyond simple code generation to managing complex, multi-step software engineering projects. It signals a potential shift in developer workflows, where AI agents could accelerate major undertakings like library ports or system rewrites, impacting software development productivity and the feasibility of large-scale code migration projects. The author noted the specific difficulty in communicating the magnitude of improvement, stating that models released around November 2025 (like Opus 4.5 and later) are 'an order of magnitude better' than coding LLMs from just months prior. The ambitious 'rustlearn' project aimed not just to translate algorithms but to implement fast versions of standard ML algorithms like logistic regression and k-means clustering, seeking to match or exceed scikit-learn's performance.",
+  "score": 8,
+  "tags": [
+    "AI-agents",
+    "software-development",
+    "machine-learning",
+    "Rust",
+    "code-generation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Scikit-learn is a foundational, open-source machine learning library for Python, widely considered the gold standard for data science tasks, offering implementations of various classification, regression, and clustering algorithms. AI coding agents are AI systems, often built on large language models (LLMs), that can autonomously or semi-autonomously perform software development tasks like writing, debugging, and refactoring code based on natural language instructions. Rust is a systems programming language praised for its performance and memory safety, and a 'crate' is Rust's term for a package or library of code.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "scikit-learn - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scikit-learn"
+    },
+    {
+      "title": "Best AI Coding Agents 2026: Complete Rankings & Reviews",
+      "url": "https://aiforcode.io/articles/best-ai-coding-agents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

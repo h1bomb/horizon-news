@@ -1,0 +1,40 @@
+{
+  "id": "35335e548c4b1a89452b3a174e3eddf1e1463940",
+  "canonicalId": "f39ef78757eeff2bd16a6f878619230cb37fba8c",
+  "slug": "kv-cache-offload-to-ram-may-be-worthwhile-for-limited-vram",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T16:23:00Z",
+  "lang": "en",
+  "title": "KV cache offload to RAM may be worthwhile for limited VRAM",
+  "summary": "A user demonstrates that offloading the KV cache to RAM in llama.cc allows fitting larger models on GPU with only a modest drop in tokens per second, e.g., from 23 tps to 19 tps peak for Qwen3.6 27B on an RTX 5060 Ti 16GB. This challenges the common belief that KV cache offloading severely hurts performance, showing it can be a practical trade-off for users with limited VRAM, enabling larger models or longer contexts without major speed loss. With the -nkvo option, the user achieved f16 KV cache quality on RAM instead of quantized q4_0, and could double the context window to 128k with only a slight speed drop (19 to 14 tps during long generation). KV cache quantization when offloaded did not improve performance.",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "KV cache",
+    "GPU optimization",
+    "local LLMs",
+    "Qwen3"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/bobaburger"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1txpqru/maybe_kv_cache_offload_to_ram_isnt_bad/",
+  "originalSite": "reddit.com",
+  "context": "KV cache stores intermediate key-value tensors during LLM inference to avoid recomputation, but it consumes significant GPU memory. Offloading it to CPU RAM frees VRAM for model weights but introduces a PCIe bandwidth bottleneck. Llama.cc's -nkvo option controls whether the KV cache is kept on GPU or offloaded to RAM.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "KV Cache Offloading | KServe",
+      "url": "https://kserve.github.io/website/docs/model-serving/generative-inference/kvcache-offloading"
+    },
+    {
+      "title": "KV cache offloading | LLM Inference Handbook",
+      "url": "https://bentoml.com/llm/inference-optimization/kv-cache-offloading"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

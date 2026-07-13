@@ -1,0 +1,36 @@
+{
+  "id": "31fb541f9f9b35c42676d9a0c3c32376b280e8a7",
+  "canonicalId": "f4089fa9b24892cbb014e6520460426ef4a3a5da",
+  "slug": "被控路由器用于钓鱼间谍活动",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-21T00:00:00Z",
+  "lang": "zh",
+  "title": "被控路由器用于钓鱼间谍活动",
+  "summary": "中国国家安全机关披露了一场钓鱼活动，利用被控制的路由器作为跳板，窃取政府工作人员的敏感邮件。 该通告揭示了一场针对政府工作人员的持续性间谍活动，强调了路由器安全和对钓鱼手段保持警惕的迫切必要性。 攻击者发送带有伪造登录页面的钓鱼邮件，要求受害者输入两次密码以获取准确凭证，随后利用窃取的凭证访问受害者邮箱进行情报窃取。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "phishing",
+    "routers",
+    "espionage",
+    "network security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 20, 03:54"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/_W_N7hOIQ9i72CdrdMyVYA",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "路由器常因固件过旧、使用弱口令或开启远程管理功能而成为攻击目标。一旦被控，可被用作跳板发起攻击，使攻击流量看似来自合法 IP 地址，增加检测难度。本次攻击采用两步密码输入方式，在伪造登录页面上要求用户两次输入密码，以避免因一次输入错误而误判，从而捕获真实密码。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "国安部：网速变慢，元凶竟是它",
+      "url": "https://www.guancha.cn/politics/2026_05_20_817631.shtml"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

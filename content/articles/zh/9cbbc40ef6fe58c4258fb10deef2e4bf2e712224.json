@@ -1,0 +1,44 @@
+{
+  "id": "9cbbc40ef6fe58c4258fb10deef2e4bf2e712224",
+  "canonicalId": "caade8de51ed3b3b2e9ad3cbc061770d22ad522a",
+  "slug": "研究称支付宝-deeplink-与-jsbridge-漏洞可致个人信息外泄",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-14T00:00:00Z",
+  "lang": "zh",
+  "title": "研究称支付宝 DeepLink 与 JSBridge 漏洞可致个人信息外泄",
+  "summary": "安全研究机构 Innora AI Security Research 发布技术分析称，在支付宝 com.eg.android.AlipayGphone v10.8.26.7000 和 v10.8.30.8000 版本中，DeepLink 与 WebView JSBridge 组合可形成攻击链，用户点击链接后外部页面即可调用部分 AlipayJSBridge API。报告称 iOS 有 18 个可用 API，高于 Android 的 13 个，涉及 tradePay、getLocation 等接口，API 被利用可导致网络和位置信息泄露。 该漏洞影响全球用户超 10 亿的最大移动支付平台之一，可能通过看似正常的应用功能泄露敏感金融和位置数据。此次披露凸显了移动应用生态系统中持续存在的安全挑战，其中 DeepLink 和 JavaScript 桥接技术虽然提升了用户体验，但如果安全防护不当可能形成攻击面。 研究团队已按负责任披露流程向蚂蚁集团提交多轮报告，蚂蚁集团于 2026 年 3 月 10 日回复相关问题属于“正常功能”。编辑注指出原文明确展示的“漏洞”仅有定位权限获取和直达支付弹窗两者，提示可能存在内容夸大。",
+  "score": 7,
+  "tags": [
+    "Security",
+    "Mobile Security",
+    "Alipay",
+    "JSBridge",
+    "Privacy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 13, 11:43"
+    }
+  ],
+  "originalUrl": "https://innora.ai/zfb/",
+  "originalSite": "innora.ai",
+  "context": "DeepLink（深度链接）允许移动应用从外部链接直接打开特定内容或功能，常用于实现网页与应用间的无缝用户体验。JSBridge（JavaScript 桥接）使 WebView 组件中加载的网页内容能与原生应用代码通信，允许 JavaScript 调用原生功能。AlipayJSBridge 是支付宝的具体实现，为应用内的网页内容提供支付、定位等服务的 API。当这些技术结合不当时，可能允许外部页面访问本应仅限于受信任域名的敏感 API。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A complete guide to mobile app deep linking | Adjust",
+      "url": "https://www.adjust.com/blog/dive-into-deeplinking/"
+    },
+    {
+      "title": "jsbridge · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/jsbridge"
+    },
+    {
+      "title": "Alipay JSAPI 使用说明 - 支付宝文档中心",
+      "url": "https://opendocs.alipay.com/open/024kz4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

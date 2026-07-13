@@ -1,0 +1,44 @@
+{
+  "id": "03fdf1414b0bb1e3f34d120d0f4aa47ba79315ae",
+  "canonicalId": "dcee5e597872cbbeb44b788c210956190e0ae688",
+  "slug": "cursor-的-composer-20-被曝基于-kimi25-模型",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-21T00:00:00Z",
+  "lang": "zh",
+  "title": "Cursor 的 Composer 2.0 被曝基于 Kimi2.5 模型",
+  "summary": "一位 Reddit 用户发现 Cursor 的 Composer 2.0 编码助手在其 API 调用中向 Kimi2.5 模型端点（accounts/anysphere/models/kimi-k2p5-rl-0317-s515-fast）发送请求，证实了它依赖这个第三方模型而非完全自主研发。这一发现后来通过官方渠道得到确认，埃隆·马斯克也对此发表了评论。 这一发现之所以重要，是因为它揭示了 AI 编码助手市场的竞争压力如何驱使公司悄悄集成第三方模型，同时将其营销为专有创新。这引发了关于透明度、商业模式可持续性以及竞争编码工具之间实际差异化的问题，因为它们可能共享底层技术。 Kimi2.5 模型使用修改后的 MIT 许可证，要求署名但不对商业使用施加重大限制，这使得 Cursor 的实现符合法律要求。Composer 2.0 此前被营销为 Cursor 的'首个内部编码模型'，声称比类似模型快 4 倍，但这一发现显示它实际上基于 Moonshot AI 的 Kimi2.5 架构。",
+  "score": 7,
+  "tags": [
+    "AI-Coding-Assistants",
+    "Model-Disclosure",
+    "Open-Source-Licensing",
+    "Competitive-Analysis",
+    "Reddit-Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 20, 11:21"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rytksg/cursors_new_composer_20_is_apparently_based_on/",
+  "originalSite": "reddit.com",
+  "context": "Cursor 是一款 AI 驱动的代码编辑器，最近推出了 Composer 2.0，被描述为用于低延迟智能体编码的前沿模型。Kimi2.5 是 Moonshot AI 于 2026 年 1 月发布的 1 万亿参数多模态模型，具有先进的编码能力，并通过开放平台提供。修改后的 MIT 许可证是一种宽松的开源许可证，通常要求保留版权声明，但可以包含额外的署名要求。",
+  "discussion": "社区评论显示出不同的反应，一些用户批评 Cursor 的商业模式与 Claude Code 等竞争对手相比不可持续，而其他人则指出其符合 Kimi2.5 许可证的法律要求。几位评论者对模型来源缺乏透明度表示担忧，认为即使性能良好也会产生信任问题。讨论还涉及用户是否更关心底层模型还是整体体验。",
+  "references": [
+    {
+      "title": "Introducing Cursor 2 . 0 and Composer · Cursor",
+      "url": "https://cursor.com/blog/2-0"
+    },
+    {
+      "title": "Kimi (chatbot) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kimi_(chatbot)"
+    },
+    {
+      "title": "MIT License | Choose a License",
+      "url": "https://choosealicense.com/licenses/mit/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

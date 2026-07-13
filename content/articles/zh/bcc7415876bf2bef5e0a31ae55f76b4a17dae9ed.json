@@ -1,0 +1,44 @@
+{
+  "id": "bcc7415876bf2bef5e0a31ae55f76b4a17dae9ed",
+  "canonicalId": "d1c78cec3dd38bceda29d5fb5f4d9839675e59c3",
+  "slug": "apifox-桌面端遭供应链投毒cdn-脚本被篡改窃取敏感凭证",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Apifox 桌面端遭供应链投毒：CDN 脚本被篡改窃取敏感凭证",
+  "summary": "Apifox 桌面端遭受供应链攻击，攻击者篡改了其 CDN 上的事件统计脚本，注入恶意代码以窃取受害主机的 SSH 密钥、Git 凭证、Shell 历史记录及进程列表等敏感信息。该攻击自 3 月 4 日起活跃，影响 Windows、macOS 和 Linux 三平台用户，安全研究者 phith0n 已独立还原并分析了恶意载荷。 此次攻击凸显了软件供应链（特别是通过 CDN 依赖）的重大安全风险，可能泄露开发者凭证并导致网络横向渗透。由于 Apifox 是广泛使用的 API 开发工具，此次漏洞可能影响大量开发团队和组织，强调了在 DevOps 工具中实施严格安全措施的必要性。 恶意代码专门针对 SSH 密钥和 Git 凭证等敏感数据，可通过检查 Network Persistent State 文件中是否包含'apifox.it.com'域名或 LevelDB 中的相关键值来检测。缓解措施包括封禁 apifox.it.com、cdn.openroute.dev 和 upgrade.feishu.it.com 等可疑域名，并重新安装最新版 Apifox（该版本已不再请求恶意域名）。",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain-attack",
+    "apifox",
+    "malware",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 25, 11:10"
+    }
+  ],
+  "originalUrl": "http://apifox.it.xn--comcdn-kr3e.openroute.xn--devupgrade-eh3i.feishu.it.com/",
+  "originalSite": "apifox.it.xn--comcdn-kr3e.openroute.xn--devupgrade-eh3i.feishu.it.com",
+  "context": "供应链攻击是指通过入侵受信任的组件（如 CDN 脚本）来向下游用户分发恶意软件。CDN 脚本常用于应用程序中加载外部资源，但若被篡改，可能注入恶意代码。SSH 密钥和 Git 凭证是安全访问服务器和版本控制系统的关键，一旦被盗可能导致未授权访问和数据泄露。LevelDB 是一种键值存储系统，被 Chromium 和 Electron 等应用程序用于持久化数据，包括网络状态信息。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "More than 100K sites impacted by Polyfill supply chain attack",
+      "url": "https://www.mend.io/blog/more-than-100k-sites-impacted-by-polyfill-supply-chain-attack/"
+    },
+    {
+      "title": "Checkmarx KICS GitHub Action Compromised: Malware ... - StepSecurity",
+      "url": "https://www.stepsecurity.io/blog/checkmarx-kics-github-action-compromised-malware-injected-in-all-git-tags"
+    },
+    {
+      "title": "Hang on! That’s not SQLite! Chrome, Electron and LevelDB - CCL",
+      "url": "https://www.cclsolutionsgroup.com/post/hang-on-thats-not-sqlite-chrome-electron-and-leveldb"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

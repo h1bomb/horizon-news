@@ -1,0 +1,40 @@
+{
+  "id": "3d0f2d40230c7eca58d016538362b1c0662c4e6d",
+  "canonicalId": "065f3eecf29283a3e45616147f84edf810e7634a",
+  "slug": "qwen35-models-show-dramatic-performance-leap-over-qwen3-challenging-scaling-assumptions",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-05T08:49:00Z",
+  "lang": "en",
+  "title": "Qwen3.5 Models Show Dramatic Performance Leap Over Qwen3, Challenging Scaling Assumptions",
+  "summary": "A performance comparison chart reveals that the newly released Qwen3.5 models significantly outperform their Qwen3 counterparts across all parameter sizes, with the Qwen3.5-27B model approaching the performance of much larger models. Notably, the Qwen3.5-4B model's performance is close to that of the older Qwen3-80B-Next model. This performance leap challenges the conventional assumption that model capability scales predictably with parameter count, suggesting that architectural and training improvements can yield disproportionate gains. It has significant implications for the practical deployment of open-source LLMs, as smaller, more efficient models can now deliver performance previously requiring massive computational resources. The chart uses a compute-equivalent scaling formula (√(total × active)) to compare dense models (e.g., 27B) with Mixture-of-Experts (MoE) models (e.g., 397B A17B) on a more fair basis. The data is sourced from the Artificial Analysis leaderboard, and the comparison includes both 'thinking' (reasoning) and 'non-thinking' inference modes for some models.",
+  "score": 7,
+  "tags": [
+    "llm-benchmarks",
+    "open-source-ai",
+    "model-comparison",
+    "qwen",
+    "mixture-of-experts"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Balance-"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/z947ipfiw6ng1.png",
+  "originalSite": "i.redd.it",
+  "context": "Large Language Models (LLMs) like Qwen are typically 'dense' models, where all parameters are activated for every input. In contrast, Mixture-of-Experts (MoE) models are 'sparse'; they contain a large total number of parameters but only activate a subset (the 'experts') for each token, making them computationally more efficient at inference for a given total size. The performance of LLMs is commonly measured on standardized benchmarks covering tasks like coding, reasoning, and general knowledge.",
+  "discussion": "The community is highly impressed by the performance gains, particularly praising the Qwen3.5-27B model for its balance of high capability and deployability on consumer hardware. Discussions highlight practical considerations like quantization levels for fitting models into limited VRAM, and some users report issues like infinite loops in the 'thinking' mode of smaller quantized models. There's also clarification that some outperformed large models are MoE architectures with lower active parameter counts.",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "MoE vs Dense vs Hybrid LLM architectures | hybridMoe ...",
+      "url": "https://wandb.ai/zaiinn440/hybridMoe/reports/MoE-vs-Dense-vs-Hybrid-LLM-Architectures--Vmlldzo3NzYwNzAw"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

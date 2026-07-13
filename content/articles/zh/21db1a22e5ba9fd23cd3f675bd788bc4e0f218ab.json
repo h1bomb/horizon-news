@@ -1,0 +1,44 @@
+{
+  "id": "21db1a22e5ba9fd23cd3f675bd788bc4e0f218ab",
+  "canonicalId": "7ec576216477c75d9297ec335249d1aae9b8d6be",
+  "slug": "博客探讨使用-llm-智能体对旧研究思路进行自动化研究",
+  "date": "2026-03-24",
+  "publishedAt": "2026-03-24T00:00:00Z",
+  "lang": "zh",
+  "title": "博客探讨使用 LLM 智能体对旧研究思路进行自动化研究",
+  "summary": "一篇博客文章详细介绍了使用 LLM 智能体对旧研究思路进行自动化研究的实验，该智能体类似于一个带有基本推理的超参数优化算法。该系统基于 program.md 文件中的一个简单循环，迭代地改进训练代码、运行实验并记录结果。 这种方法展示了 LLM 智能体如何通过自动化超参数调整和代码迭代等繁琐任务来加速研究，可能减少人力投入并实现大规模实验。它符合 AI 自动化的更广泛趋势，即开发智能体来处理科学和技术领域的复杂工作流程。 该系统的核心是 program.md 中的一个简单循环，强调简洁性，而其他文件包含用于训练的任意机器学习模型。然而，局限性包括如果智能体尝试所有 LLM 建议会产生高成本，以及依赖可能小众或维护不善的库。",
+  "score": 7,
+  "tags": [
+    "AI Research",
+    "LLM Agents",
+    "Automated Systems",
+    "Machine Learning",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 23, 18:40"
+    }
+  ],
+  "originalUrl": "https://ykumar.me/blog/eclip-autoresearch/",
+  "originalSite": "ykumar.me",
+  "context": "LLM 智能体是将大型语言模型与规划和记忆等模块结合以自主执行复杂任务的 AI 系统。自动化研究系统，例如由 Karpathy 推广的系统，使用智能体在一夜之间运行多个实验，自动化研究过程的某些部分。这些系统旨在通过处理代码优化和评估等迭代任务来降低成本并加速发现。",
+  "discussion": "社区评论强调了实际应用，例如使用 LLM 进行现有技术探索但效果不一，以及对成本效率和数据瓶颈的担忧。一些用户指出，带有反馈循环的类似迭代方法在复杂 LLM 部署中很常见，而其他人则质疑自动化研究是否比传统的超参数优化方法更有优势。",
+  "references": [
+    {
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "url": "https://arxiv.org/abs/2501.04227"
+    },
+    {
+      "title": "Karpathy Autoresearch Explained: 100 Experiments Overnight",
+      "url": "https://datasciencedojo.com/blog/karpathy-autoresearch-explained/"
+    },
+    {
+      "title": "LLM Agents | Prompt Engineering Guide",
+      "url": "https://www.promptingguide.ai/research/llm-agents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "02a6d70114e3da84995202ad0fe9f495f1e128eb",
+  "canonicalId": "8a88fab83faa50d5a6cd50d7c4de488777a38a73",
+  "slug": "开源-greenboost-驱动程序利用系统-ram-和-nvme-存储扩展-nvidia-gpu-显存",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-16T00:00:00Z",
+  "lang": "zh",
+  "title": "开源 GreenBoost 驱动程序利用系统 RAM 和 NVMe 存储扩展 NVIDIA GPU 显存",
+  "summary": "一个名为 GreenBoost 的开源 Linux 内核模块已被开发出来，通过智能利用系统 RAM 和 NVMe 存储作为额外的内存层级来扩展 NVIDIA GPU 显存。该驱动程序使 GPU 能够通过 CUDA 的外部内存 API 导入这些外部内存页面，使它们对 GPU 显示为设备可访问的内存。 这一发展解决了本地大型语言模型部署的关键瓶颈，使内存有限的消费级硬件能够运行更大的模型，否则这些模型需要昂贵的专业级 GPU。通过使中端消费级硬件更可行地运行大型 LLM，它可能使先进 AI 能力更加普及。 该驱动程序在内核级别而非用户空间运行，可能通过预取模型层实现更智能的内存管理。然而，数据移动仍通过 PCIe 4.0 x16 链路进行，带宽约为 32 GB/s，与原生显存访问相比会引入延迟。",
+  "score": 8,
+  "tags": [
+    "GPU",
+    "LLM",
+    "Open-Source",
+    "Memory Management",
+    "AI Hardware"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 15, 09:00"
+    }
+  ],
+  "originalUrl": "https://www.phoronix.com/news/Open-Source-GreenBoost-NVIDIA",
+  "originalSite": "phoronix.com",
+  "context": "显存（VRAM）是物理上更靠近 GPU 芯片的专用内存，专为高带宽图形处理设计，比系统 RAM 具有更低的延迟。大型语言模型在推理过程中需要大量内存来存储模型权重和激活值，通常超过消费级 GPU 的显存容量。现有解决方案如 llama.cpp 和 vLLM 实现了层卸载到 CPU 内存，但当模型因 PCIe 带宽限制而溢出显存时，性能会显著下降。",
+  "discussion": "社区讨论显示出谨慎的乐观态度，同时对性能限制有现实的预期。评论者指出类似的内存扩展概念已存在于 llama.cpp 等用户空间解决方案中，但质疑驱动程序级方法是否能通过预取更智能地管理数据移动。几位用户强调了 PCIe 带宽限制的实际挑战，当在内存层级之间频繁传输权重时会导致性能下降。",
+  "references": [
+    {
+      "title": "Open-Source \"GreenBoost\" Driver Aims To Augment NVIDIA GPUs ...",
+      "url": "https://www.phoronix.com/news/Open-Source-GreenBoost-NVIDIA"
+    },
+    {
+      "title": "Video random - access memory - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Video_random-access_memory"
+    },
+    {
+      "title": "Adding NVMe SSDs to Enable and Accelerate 100B Model Fine ...",
+      "url": "https://arxiv.org/html/2403.06504v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

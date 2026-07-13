@@ -1,0 +1,43 @@
+{
+  "id": "5cd981ff6be1a202dc625d1a3e514860489c102f",
+  "canonicalId": "5a5a210e7b4834e6169dbee39c0a56d53f4c1d88",
+  "slug": "damon-subsystem-gets-major-update-at-lsfmmbpf-2026",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-08T13:20:00Z",
+  "lang": "en",
+  "title": "DAMON Subsystem Gets Major Update at LSFMM+BPF 2026",
+  "summary": "SeongJae Park presented new DAMON capabilities including memory tiering via TPP-DAMON and NUMA-TPP-DAMON, data attributes monitoring, transparent huge pages support, and dynamic interleaving for CXL memory. These enhancements significantly improve Linux memory management efficiency, enabling better utilization of heterogeneous memory like CXL and providing user-space with finer-grained control. TPP-DAMON moved to a multiple-thread model due to single-thread slowness, and was merged for kernel 6.16 with control-group awareness in 6.19. Dynamic interleaving supports multiple destination nodes with weights but works only in virtual address spaces, merged in 6.17.",
+  "score": 8,
+  "tags": [
+    "Linux Kernel",
+    "DAMON",
+    "Memory Management",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1071256/",
+  "originalSite": "lwn.net",
+  "context": "DAMON (Data Access MONitor) is a Linux kernel subsystem that efficiently monitors memory access patterns and provides operations to manage memory accordingly. It spawns a kernel thread sampling accesses every 5ms, with results reported every 100ms, and imposes <0.1% overhead. Memory tiering refers to placing data across different memory types (e.g., RAM and CXL) based on access frequency.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DAMON: Data Access MONitoring and Access-aware System Operations",
+      "url": "https://docs.kernel.org/mm/damon/index.html"
+    },
+    {
+      "title": "DAMON: Data Access Monitor | DAMON Project Website",
+      "url": "https://damonitor.github.io/"
+    },
+    {
+      "title": "Memory hierarchy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Memory_hierarchy"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

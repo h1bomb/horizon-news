@@ -1,0 +1,44 @@
+{
+  "id": "beb4868393a8d5d7b64291f08b32375857319f8e",
+  "canonicalId": "e042a47a4b09dd9fbd682400a03a9382d7c5c4a8",
+  "slug": "安卓全版本远程-root-攻击链曝光",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:01:00Z",
+  "lang": "zh",
+  "title": "安卓全版本远程 Root 攻击链曝光",
+  "summary": "Nebula Security 曝光了一条针对所有安卓版本的远程 Root 攻击链，该链结合了 Firefox 浏览器漏洞（影响 151.0.2 及更早版本）和一个存在 15 年的 Linux 内核漏洞（CVE-2026-43499，GhostLock），概念验证代码已发布在 GitHub 上。 该攻击链只需诱骗用户点击恶意链接即可在任何安卓设备上获得持久 Root 权限，对数十亿用户构成严重安全风险，可能导致大规模利用。 该攻击利用 Mozilla Firefox 中的远程代码执行漏洞和 GhostLock 内核提权漏洞，使攻击者能够通过 ADB 执行任意命令并植入文件以实现持久控制。",
+  "score": 9,
+  "tags": [
+    "Android",
+    "security",
+    "vulnerability",
+    "root",
+    "exploit"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.coolapk.com/feed/72700258?s=ZGQ2MTVlZjYxMDYyNTM3ZzZhNGUzOThjega1640",
+  "originalSite": "coolapk.com",
+  "context": "Android Debug Bridge (adb) 是一种用于调试和管理安卓设备的命令行工具，常用于开发。远程 Root 漏洞使攻击者能通过网络获得超级用户（Root）权限。GhostLock 漏洞是 Linux 内核中的一个本地提权漏洞，已潜伏 15 年未被发现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Android Debug Bridge - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Android_Debug_Bridge"
+    },
+    {
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
+    },
+    {
+      "title": "Mozilla Firefox Remote Code Execution Vulnerability",
+      "url": "https://www.hkcert.org/security-bulletin/mozilla-firefox-remote-code-execution-vulnerability_20250220"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

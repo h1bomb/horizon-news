@@ -1,0 +1,36 @@
+{
+  "id": "39ece5d8aff7a93cc22161a9332a968eed444341",
+  "canonicalId": "2f16ef07357ced5f23a27e629a6102421edadbe5",
+  "slug": "andrew-morton-to-step-down-from-linux-memory-management",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T14:42:00Z",
+  "lang": "en",
+  "title": "Andrew Morton to Step Down from Linux Memory Management",
+  "summary": "On April 21, 2026, Andrew Morton announced his intention to step down as maintainer of the Linux kernel's memory-management subsystem, a role he has held for decades. The future of maintainership was discussed at the 2026 LSFMM+BPF Summit, with David Hildenbrand set to take over the integration tree. This transition marks a generational shift in leadership for one of the kernel's most critical subsystems, impacting the entire Linux ecosystem. The community must reorganize to ensure continued high-quality maintenance and review. Morton noted that the memory-management code is heavily interlinked, making it difficult to split the subsystem into separate parts. David Hildenbrand will handle the catch-all integration tree, but many details about future maintainership remain unresolved.",
+  "score": 9,
+  "tags": [
+    "linux kernel",
+    "memory management",
+    "maintainership",
+    "open source",
+    "community"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1070994/",
+  "originalSite": "lwn.net",
+  "context": "The memory-management subsystem handles virtual memory, page allocation, and other core functions in the Linux kernel. Andrew Morton has been its maintainer since before it became a separate subsystem, and the LSFMM+BPF Summit is an annual conference where kernel developers discuss storage, filesystem, memory management, and BPF topics.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The 2023 LSFMM+BPF Summit [LWN.net]",
+      "url": "https://lwn.net/Articles/lsfmmbpf2023/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

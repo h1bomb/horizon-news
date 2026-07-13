@@ -1,0 +1,44 @@
+{
+  "id": "1982324be5d1142988bdfb11152b825b39f7c5a9",
+  "canonicalId": "4096ef694de12684f4fe80799478803161e09c5d",
+  "slug": "lm-studio-and-apple-run-1t-parameter-model-on-four-mac-studios",
+  "date": "2026-06-21",
+  "publishedAt": "2026-06-20T07:02:00Z",
+  "lang": "en",
+  "title": "LM Studio and Apple Run 1T-Parameter Model on Four Mac Studios",
+  "summary": "At WWDC, LM Studio and Apple demonstrated running the 1 trillion parameter Kimi K2.6 model on a cluster of four Mac Studios using a preview version of LM Studio, and also showcased secure remote access via LM Link from a MacBook and iPhone. This demonstration highlights the feasibility of running massive models on consumer hardware via distributed inference, potentially democratizing access to large language models without expensive dedicated servers. The model used is Kimi K2.6, an open-source multimodal agentic model by Moonshot AI with strong coding capabilities. LM Link enables remote access to local models across devices, making it possible to use a laptop or phone to interact with a model running on a powerful cluster.",
+  "score": 8,
+  "tags": [
+    "LM Studio",
+    "Apple",
+    "Mac Studio",
+    "large language model",
+    "distributed inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/lmstudio/status/2067301278976180531",
+  "originalSite": "x.com",
+  "context": "LM Studio is a beginner-friendly desktop application for running local AI models on personal computers without requiring command-line skills. Apple's Mac Studio features unified memory which allows large models to be loaded across multiple machines. Distributed inference techniques split a model across multiple devices to handle larger models than a single device can support.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LM Studio - Local AI on your computer",
+      "url": "https://lmstudio.ai/"
+    },
+    {
+      "title": "moonshotai/Kimi-K2.6 · Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+    },
+    {
+      "title": "LM Link | LM Studio Docs",
+      "url": "https://lmstudio.ai/docs/lmlink"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

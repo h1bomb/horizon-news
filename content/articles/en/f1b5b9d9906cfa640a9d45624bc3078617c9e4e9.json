@@ -1,0 +1,44 @@
+{
+  "id": "f1b5b9d9906cfa640a9d45624bc3078617c9e4e9",
+  "canonicalId": "2916021074df517993ce8e6f1401d1244be93b45",
+  "slug": "tesla-model-3-computer-successfully-run-on-desk-using-salvaged-parts-from-crashed-cars",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T21:11:00Z",
+  "lang": "en",
+  "title": "Tesla Model 3 computer successfully run on desk using salvaged parts from crashed cars",
+  "summary": "A developer has successfully reverse-engineered and powered up a Tesla Model 3's computer system on a desk using salvaged components from crashed vehicles, documenting the technical challenges and solutions in detail. The project involved identifying and connecting the necessary power, communication, and display interfaces to bring the automotive computer to life outside of its original vehicle environment. This demonstrates practical reverse-engineering of modern automotive embedded systems, which has significant implications for security research, aftermarket diagnostics, and understanding proprietary vehicle architectures. It provides valuable insights into how Tesla's computer systems function independently and could enable further development in automotive hacking, repair tools, and embedded system education. The project required working with Tesla's Media Control Unit (MCU) hardware, likely MCU 2 or MCU 3 variants with Intel Atom or AMD Ryzen processors, and dealing with automotive-specific wiring harnesses rather than individual cables. Key technical hurdles included providing proper 12V DC power, establishing communication through diagnostic interfaces, and connecting display outputs using LVDS (Low-Voltage Differential Signaling) protocols commonly found in both automotive and laptop display applications.",
+  "score": 8,
+  "tags": [
+    "embedded-systems",
+    "reverse-engineering",
+    "automotive",
+    "hardware-hacking",
+    "tesla"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "driesdep"
+    }
+  ],
+  "originalUrl": "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/",
+  "originalSite": "bugs.xdavidhu.me",
+  "context": "Modern vehicles like the Tesla Model 3 rely heavily on embedded computer systems, particularly the Media Control Unit (MCU), which handles infotainment, displays, and various vehicle functions. Tesla has iterated on its MCU hardware, with MCU 2 using Intel Atom processors and MCU 3 featuring AMD Ryzen chips, both representing sophisticated automotive-grade computing platforms. Reverse-engineering such systems involves analyzing hardware and software to understand their operation without official documentation, a common practice in security research and embedded development.",
+  "discussion": "Community comments highlight both technical insights and industry perspectives, with one user noting the surprise at discovering automotive wiring uses bundled harnesses rather than individual cables, while another compares the setup to standard automotive development test benches. Additional discussion points include the use of LVDS beyond automotive contexts and reminiscences about power supply safety features in educational settings.",
+  "references": [
+    {
+      "title": "Tesla Intel Atom (MCU 2) and AMD Ryzen (MCU 3): Feature",
+      "url": "https://www.notateslaapp.com/news/2417/tesla-intel-atom-mcu-2-and-amd-ryzen-mcu-3-feature-differences-and-how-to-tell-what-you-have"
+    },
+    {
+      "title": "Reverse engineering - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Reverse_engineering"
+    },
+    {
+      "title": "Vehicle Computer Systems Explained: Architecture, Components ...",
+      "url": "https://www.sintrones.com/application/understanding-vehicle-computer-system-key-components-and-how-it-works/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4b894ecb35e22780723144c9b478f47f596dfacd",
+  "canonicalId": "b1925d6af52ac2754fe81655f4faef69232dd424",
+  "slug": "cursor-推出-warp-decode-技术在-blackwell-gpu-上实现-moe-推理吞吐量提升-184-倍",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Cursor 推出 'warp decode' 技术，在 Blackwell GPU 上实现 MoE 推理吞吐量提升 1.84 倍",
+  "summary": "Cursor 推出名为 'warp decode' 的 MoE 推理优化技术，将计算组织方式从'围绕专家'改为'围绕输出'，消除了传统流程中 8 个阶段里的 5 个数据整理环节，并将整个 MoE 计算层压缩为两个 kernel。在基于 NVIDIA B200 GPU 的测试中，该技术实现了 1.84 倍的吞吐量提升，同时提高了数值精度。 这项优化解决了 MoE 模型推理中的关键瓶颈，特别适用于实时应用中常见的小批量场景，使 AI 模型响应更快、成本效益更高。随着 MoE 架构在大型语言模型中日益普及，此类内核级改进直接影响先进 AI 系统的可扩展性和可访问性。 该技术专门针对小批量解码场景，并非专家中心执行方式的通用替代方案，后者在预填充和大批量推理中仍具优势。在 Qwen-3 风格模型的测试中，它在批次大小为 32 时实现了 3.95 TB/s 的持续带宽，达到测得峰值带宽 6.8 TB/s 的 58%。",
+  "score": 8,
+  "tags": [
+    "GPU Optimization",
+    "Mixture-of-Experts",
+    "Inference Acceleration",
+    "NVIDIA Blackwell",
+    "Kernel Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 7, 04:00"
+    }
+  ],
+  "originalUrl": "https://cursor.com/blog/warp-decode",
+  "originalSite": "cursor.com",
+  "context": "混合专家（MoE）是一种机器学习架构，其中多个专门的神经网络（专家）处理输入空间的不同部分，通过门控机制将每个 token 路由到相关专家。NVIDIA 的 Blackwell GPU 架构代表了最新一代 AI 加速器，在 Hopper 等前代架构基础上构建，增强了生成式 AI 工作负载的特性。CUDA warp 是 NVIDIA GPU 上以 SIMT（单指令多线程）方式执行的 32 个线程组，warp 级优化可以显著提高并行执行效率。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Better MoE model inference with warp decode · Cursor",
+      "url": "https://cursor.com/blog/warp-decode"
+    },
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Using CUDA Warp-Level Primitives | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/using-cuda-warp-level-primitives/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

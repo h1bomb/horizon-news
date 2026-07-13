@@ -1,0 +1,40 @@
+{
+  "id": "8e7004e49718035e8a561fef584177b635d19e8e",
+  "canonicalId": "bed35cf1aaf90dde3fe4646c5122d1b69c75b637",
+  "slug": "openai-发布-codex-重大更新支持自动操作电脑与长期任务自动化",
+  "date": "2026-04-17",
+  "publishedAt": "2026-04-17T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 Codex 重大更新，支持自动操作电脑与长期任务自动化。",
+  "summary": "OpenAI 宣布为其开发者工具 Codex 推出重大更新，使其能够通过视觉、点击和输入来操作电脑应用程序，并新增后台运行、长期记忆功能，以及集成 90 多个新插件以实现任务自动化。目前，这些功能已面向登录 ChatGPT 的桌面端用户开放，其中电脑操作功能首发支持 macOS 平台。 此次更新将 Codex 的能力从代码生成扩展到完整的计算机自动化，可能彻底改变开发者和非开发者与计算机的交互方式，实现无需人工干预的 AI 驱动任务执行。这符合 AI 驱动自动化和人机交互的广泛趋势，使 Codex 成为未来“超级应用”开发的基础工具。 关键技术细节包括在 Mac 上支持后台运行，允许多个智能体并行工作而不干扰用户，以及内置浏览器、图像生成、SSH 远程连接和多终端标签。限制包括电脑操作功能目前仅支持 macOS，且依赖基于云的 AI API，这可能对敏感任务带来安全隐患。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Automation",
+    "OpenAI",
+    "Human-Computer Interaction",
+    "Code Generation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 16, 17:12"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/codex-for-almost-everything/",
+  "originalSite": "openai.com",
+  "context": "Codex 是 OpenAI 开发的 AI 驱动开发者工具，最初专注于代码生成和辅助。它基于大语言模型来理解和执行任务，早期版本已集成插件用于应用交互。此次更新标志着向智能体 AI 系统的转变，使其能自主控制软件和硬件，类似于 Claude Desktop 等工具，但增强了自动化和记忆功能。",
+  "discussion": "社区讨论情绪复杂，部分用户指出类似功能已在 Claude Desktop 等工具中存在，质疑 Codex 的创新性。另一些用户对其简化非开发者使用电脑的潜力表示热情，同时担忧授予 AI 控制电脑可能带来的安全风险，并对 OpenAI 的竞争时机表示怀疑。",
+  "references": [
+    {
+      "title": "OpenAI ’s Codex Mac app adds three key features that go... - 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/16/openais-codex-app-adds-three-key-features-for-expanding-beyond-agentic-coding/"
+    },
+    {
+      "title": "These New Codex Updates Are the 'First Phase' of OpenAI 's Dream.....",
+      "url": "https://www.cnet.com/tech/services-and-software/openai-codex-updates-automation-computer-ai-super-app/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

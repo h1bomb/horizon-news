@@ -1,0 +1,44 @@
+{
+  "id": "cef5f219ed5784547d1df4ce146b692f5e779554",
+  "canonicalId": "0f9fc758c28e22a0516a218a1ed4b843e016c8f0",
+  "slug": "mimo-v25-pro开源-ai-模型挑战-claude-opus",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "MiMo-V2.5-Pro：开源 AI 模型挑战 Claude Opus",
+  "summary": "小米发布了 MiMo-V2.5-Pro，这是一个采用 MIT 许可证的开源 AI 模型，据报道其性能可与 Claude Opus 相媲美，尤其在编码和长上下文任务方面表现出色。 此次发布通过提供高质量的开源模型，显著推动了开源 AI 的发展，该模型可在本地运行且不受企业限制，有望使尖端 AI 能力更加普及。 MiMo-V2.5-Pro 拥有超过 1 万亿总参数，支持 100 万 token 的上下文长度，在 GDPval-AA 基准测试中 Elo 得分为 1426，超越了众多同类模型。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "open-source",
+    "LLM",
+    "machine learning",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 27, 17:57"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+  "originalSite": "huggingface.co",
+  "context": "像 Claude Opus 这样的大型语言模型通常是专有的，需要云端访问。采用 MIT 等宽松许可证的开源模型允许任何人下载、修改并在本地运行，从而减少对商业 API 的依赖，并支持私密、可定制的 AI 应用。",
+  "discussion": "社区反应热烈，许多人称赞该模型的质量和 MIT 许可证。一些用户指出它在推理和长上下文方面表现出色，但在编码代理方面较弱。硬件需求是一个问题，因为运行完整模型需要多块高端 GPU。",
+  "references": [
+    {
+      "title": "MiMo-V2.5-Pro: A Coding Model Taking On Claude Opus 4.6 and",
+      "url": "https://firethering.com/mimo-v2-5-pro-xiaomi-coding-model/"
+    },
+    {
+      "title": "MiMo-V2-Pro: Everything you need to know",
+      "url": "https://artificialanalysis.ai/articles/mimo-v2-pro-everything-you-need-to-know"
+    },
+    {
+      "title": "Claude Opus 4.7 \\ Anthropic",
+      "url": "https://www.anthropic.com/claude/opus"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "b4ce9448ae6adce2d9f47c8b7092075d91f2fefa",
+  "canonicalId": "3bd22405a2c5704dfc5ce6ecb459ee39dece8d09",
+  "slug": "curl-maintainers-overwhelmed-by-ai-generated-security-reports",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T23:48:00Z",
+  "lang": "en",
+  "title": "Curl maintainers overwhelmed by AI-generated security reports",
+  "summary": "Daniel Stenberg, the lead maintainer of the curl project, reports that the team is facing an unprecedented deluge of credible AI-assisted security reports, with incoming reports now exceeding one per day—a 4-5x increase over 2024 and double the rate of 2025. This highlights a systemic issue where AI tools are dramatically increasing the volume and quality of security reports, straining maintainers of critical open-source projects and threatening project sustainability. Despite the surge, the vulnerabilities found are mostly LOW or MEDIUM severity; the last HIGH severity CVE was in October 2023. The project has already confirmed 12 vulnerabilities in the current release cycle, a new record, and is on track to publish at least 30 CVEs in 2026 by mid-year.",
+  "score": 8,
+  "tags": [
+    "curl",
+    "security",
+    "open source",
+    "AI",
+    "vulnerability management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "curl is a widely used open-source command-line tool and library for transferring data with URLs, installed on billions of devices. The project's security team processes vulnerability reports and publishes CVEs (Common Vulnerabilities and Exposures). Recently, AI-assisted security research tools have enabled more thorough and automated vulnerability discovery, leading to a surge in detailed reports.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

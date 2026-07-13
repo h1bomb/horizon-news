@@ -1,0 +1,45 @@
+{
+  "id": "f17344175183dcca296afa0d0eeceb5ced1f7a3c",
+  "canonicalId": "c67823bff2e2b41313b1b21b61d3be886080335e",
+  "slug": "unlimited-ocr-one-shot-long-horizon-parsing-with-constant-kv-cache",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T11:35:00Z",
+  "lang": "en",
+  "title": "Unlimited OCR: One-shot Long-horizon Parsing with Constant KV Cache",
+  "summary": "Baidu researchers introduced Unlimited OCR, a method that uses a clever architectural trick (R-SWA) to keep the KV cache size fixed during long document parsing, enabling one-shot processing of hundreds of pages without running out of memory. This overcomes the fundamental memory bottleneck in long-document OCR, enabling much longer context windows without expensive hardware, which could significantly improve applications like document digitization, RAG, and automated data extraction. The key innovation is R-SWA (Restricted Sliding Window Attention), which restricts attention to a sliding window and uses a special prefill strategy to maintain a constant KV cache size, regardless of input length. The model can process tens to hundreds of pages in a single forward pass and parse continuously from first page to last without growing memory.",
+  "score": 9,
+  "tags": [
+    "OCR",
+    "deep learning",
+    "memory optimization",
+    "natural language processing",
+    "document analysis"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ingve",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48643426"
+    }
+  ],
+  "originalUrl": "https://github.com/baidu/Unlimited-OCR",
+  "originalSite": "github.com",
+  "context": "Traditional OCR systems process document pages independently, losing cross-page context. Transformer-based models use a KV cache to store previously computed key-value pairs for attention, which grows linearly with input length, causing out-of-memory errors for long documents. This limitation forces developers to chunk documents into small pieces, compromising contextual understanding. Unlimited OCR proposes an architecture that maintains a fixed-size KV cache, enabling true one-shot parsing of long documents.",
+  "discussion": "The community response is highly positive, with many praising the clever architectural hack. Commenters note the practical significance for long-document processing, with some sharing related experiences in music scanning and local OCR. The acknowledgment of prior work (Deepseek-OCR, PaddleOCR) is also appreciated.",
+  "references": [
+    {
+      "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. · GitHub",
+      "url": "https://github.com/baidu/Unlimited-OCR"
+    },
+    {
+      "title": "Unlimited OCR Works Welcome the Era of One-shot Long-horizon Parsing Baidu Inc.",
+      "url": "https://arxiv.org/pdf/2606.23050"
+    },
+    {
+      "title": "Unlimited OCR: One-Shot Long-Horizon Parsing | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48643426"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "0bb9ff1530b92c69028222ac78f4ba2a38c74959",
+  "canonicalId": "ebb3a794aeeb9827a14f5795d129bc2db82146eb",
+  "slug": "critique-of-using-child-protection-as-pretext-for-internet-access-control",
+  "date": "2026-03-22",
+  "publishedAt": "2026-03-21T20:32:00Z",
+  "lang": "en",
+  "title": "Critique of Using Child Protection as Pretext for Internet Access Control",
+  "summary": "The news item argues against leveraging child protection to justify internet access control, proposing alternative technical solutions and highlighting underlying motives like identity verification and liability shifting. It critiques policies that use safety narratives to impose broader restrictions. This matters because it addresses a critical tension between child safety and digital rights, potentially influencing internet governance policies worldwide. If unchecked, such measures could erode privacy, enable surveillance, and shift liability away from platforms, affecting all users. The article suggests that child protection can be achieved without internet-wide access control through simple technical features, such as content filtering tools like NextDNS. It notes that proposed laws often involve age verification systems that collect extensive personal data, raising privacy concerns.",
+  "score": 8,
+  "tags": [
+    "internet-governance",
+    "privacy",
+    "child-safety",
+    "policy-debate",
+    "digital-rights"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "smartmic"
+    }
+  ],
+  "originalUrl": "https://news.dyne.org/child-protection-is-not-access-control/",
+  "originalSite": "news.dyne.org",
+  "context": "Internet governance involves policies for access and usage, often debated in multi-stakeholder models. Age verification systems are technical solutions to confirm user age but can expand to full identity verification, shifting liability from platforms to third parties. Network access control regulates network entry and activities, which can be misapplied for broader restrictions under child safety pretexts.",
+  "discussion": "Community comments express skepticism about the motives behind child protection bills, with users arguing they are used to shift liability from platforms, reduce moderation costs, and push for verified identity systems. Some share personal experiences with unrestricted internet access, while others propose technical alternatives to avoid new laws.",
+  "references": [
+    {
+      "title": "Network access control - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Network_access_control"
+    },
+    {
+      "title": "NextDNS - The new firewall for the modern Internet",
+      "url": "https://nextdns.io/"
+    },
+    {
+      "title": "Age Verification Is Coming: ID Gates Threaten Privacy Online",
+      "url": "https://atomicmail.io/blog/age-verification-is-coming-id-gates-threaten-privacy-online?ref=dangai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "95183359b869fc00010f04b3bfc071c37f592fc1",
+  "canonicalId": "2d38cfb8c7a075219afe66778940402e649ff20e",
+  "slug": "glm-52-成为首个在-terminal-bench-上超越-80的开源权重模型",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T18:48:00Z",
+  "lang": "zh",
+  "title": "GLM-5.2 成为首个在 Terminal-Bench 上超越 80%的开源权重模型",
+  "summary": "GLM-5.2 以 MIT 许可证在 HuggingFace 和 Ollama 上发布，在 Terminal-Bench 2.1 上达到 81.0%，超越了所有其他开源模型甚至 Gemini。 这标志着开源权重 AI 的重大飞跃，证明了开源模型能够以极低的成本与前沿闭源模型竞争。 该模型每百万输入令牌收费 1.4 美元，输出收费 4.4 美元，拥有 100 万上下文窗口和两种思考模式（High 和 Max）。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "open-weights",
+    "benchmarks",
+    "LLM",
+    "GLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/BuildwithVignesh"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u7mexd/glm52_is_the_first_openweights_model_to_cross_80/",
+  "originalSite": "reddit.com",
+  "context": "Terminal-Bench 是一个评估 AI 智能体在真实终端任务上表现的基准，包含 89 个精心设计的任务，涵盖软件工程、机器学习、安全等领域。此前，开源权重模型在这一基准上难以超过 80%，而 GPT-5.5 和 Opus 4.8 等闭源模型得分更高。",
+  "discussion": "社区成员称赞此次发布，并讨论了实际应用场景，如提取支持日志和起草摘要。一位用户指出，虽然该模型并非在所有基准测试中都获胜，但其具有竞争力的价格使其在路由日常任务时颇具吸引力。",
+  "references": [
+    {
+      "title": "Terminal-Bench",
+      "url": "https://www.tbench.ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

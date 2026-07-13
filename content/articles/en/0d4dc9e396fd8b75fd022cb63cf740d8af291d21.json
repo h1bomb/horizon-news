@@ -1,0 +1,40 @@
+{
+  "id": "0d4dc9e396fd8b75fd022cb63cf740d8af291d21",
+  "canonicalId": "fe751a73bcc1186490a6e0bbe67da4418fab4bb7",
+  "slug": "superhuman-generalsio-agent-via-self-play-rl-in-jax",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-24T16:18:00Z",
+  "lang": "en",
+  "title": "Superhuman Generals.io agent via self-play RL in JAX",
+  "summary": "The author developed a superhuman agent for the strategy game Generals.io using self-play reinforcement learning, reimplemented entirely in JAX and using a Vision Transformer (ViT) architecture, achieving the #1 rank on the human 1v1 leaderboard. This work demonstrates the effectiveness of scaling compute and architecture (JAX+ViT) over handcrafted features, providing an open-source blueprint for building strong game AI. It also contributes a fast JAX-based imperfect-information RTS simulator for the research community. The project evolved from a master's thesis that used behavior cloning and RL fine-tuning but was beaten by top players. The key improvements were reimplementing the pipeline in JAX for speed and replacing a CNN with a Vision Transformer.",
+  "score": 8,
+  "tags": [
+    "reinforcement learning",
+    "self-play",
+    "game AI",
+    "JAX",
+    "vision transformer"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/shrekofspeed"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uei2yg/i_made_a_superhuman_generalsio_agent_with/",
+  "originalSite": "reddit.com",
+  "context": "Self-play reinforcement learning is a technique where an agent improves by playing against itself, generating increasingly challenging opponents. JAX is a high-performance numerical computation library that supports automatic differentiation and just-in-time compilation, enabling efficient training. Vision Transformers (ViTs) apply the transformer architecture to image patches, offering higher capacity than CNNs for processing spatial data.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Self-play (reinforcement learning technique)",
+      "url": "https://en.wikipedia.org/wiki/Self-play_(reinforcement_learning_technique)"
+    },
+    {
+      "title": "Vision transformer",
+      "url": "https://en.wikipedia.org/wiki/Vision_transformer"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

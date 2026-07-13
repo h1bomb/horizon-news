@@ -1,0 +1,40 @@
+{
+  "id": "6a03d7a869e542fd0140f39bb1d39328f4dd9b8d",
+  "canonicalId": "91167648a8beb20528e7c2efdf71530a1e43c1d5",
+  "slug": "lishuan-7g100-gpu-gets-microsoft-whql-certification",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-26T02:59:00Z",
+  "lang": "en",
+  "title": "Lishuan 7G100 GPU Gets Microsoft WHQL Certification",
+  "summary": "Lishuan Technology's 7G100 series GPU has obtained Microsoft WHQL certification, making it the first Chinese company and the fourth globally to achieve this certification for a GPU. This milestone demonstrates significant progress in China's domestic GPU development, with performance approaching NVIDIA's RTX 4060, and enhances the country's self-sufficiency in critical semiconductor components. The GPU is built on a 6nm process with the proprietary 'Tiantu' architecture, achieving fully independent design of compute cores, instruction set, and software stack. In the Steel Nomad benchmark, it scored 2268, close to the RTX 4060.",
+  "score": 8,
+  "tags": [
+    "GPU",
+    "WHQL",
+    "Chinese semiconductor",
+    "hardware",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "http://www.cnbeta.com.tw/articles/tech/1559976.htm",
+  "originalSite": "cnbeta.com.tw",
+  "context": "WHQL (Windows Hardware Quality Labs) certification is Microsoft's official testing program that ensures hardware and drivers are compatible and stable with Windows. It is a crucial step for any hardware aiming for broad consumer adoption. Lishuan's achievement places it alongside major GPU vendors like NVIDIA, AMD, and Intel.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "WHQL Certification - Windows Logo - Driver Signing - NicSRS",
+      "url": "https://www.nicsrs.com/whql"
+    },
+    {
+      "title": "3DMark Steel Nomad on Steam",
+      "url": "https://store.steampowered.com/app/2695340/3DMark_Steel_Nomad/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

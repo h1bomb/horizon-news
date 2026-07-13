@@ -1,0 +1,44 @@
+{
+  "id": "b5e4aba4eff10343173d93a60df4dc37e27ad7c8",
+  "canonicalId": "a0210fe3f976328c58742bfaa2885be3d56a91f1",
+  "slug": "frost-攻击利用-ssd-定时窥探用户活动",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T01:55:00Z",
+  "lang": "zh",
+  "title": "FROST 攻击利用 SSD 定时窥探用户活动",
+  "summary": "研究人员披露了 FROST（基于 OPFS 的 SSD 定时远程指纹识别）攻击，恶意网站可通过浏览器的 Origin Private File System (OPFS) API 测量 SSD 读写时序，从而推断用户活动，无需任何用户交互。 这种侧信道攻击构成了重大隐私威胁，因为它仅使用标准浏览器 API，就能以高精度远程、被动地监视用户的浏览和应用使用情况。这揭示了现代 Web 平台功能中的一类新漏洞。 在实验中，FROST 攻击预测访问网站的准确率达 88.95%，预测打开应用的准确率达 95.83%。该攻击已在 macOS 和 Linux 上测试，但研究人员称 Windows 也可能受影响；用完网页后关闭标签页可降低风险。",
+  "score": 8,
+  "tags": [
+    "security",
+    "side-channel attack",
+    "SSD",
+    "browser",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://futurism.com/future-society/websites-spying-solid-state-drive",
+  "originalSite": "futurism.com",
+  "context": "SSD 定时侧信道攻击利用 SSD 内部资源争用导致的可测量的读写延迟差异。Origin Private File System (OPFS) 是一种浏览器 API，为 Web 应用提供私有的沙盒文件系统用于本地存储文件。FROST 利用 OPFS 发起受控的读写操作，并测量其完成时间，从而检测系统上的其他活动，推断正在使用的网站或应用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Malicious Sites Track Users Through SSD Timing Side-Channel Attacks",
+      "url": "https://cyberpress.org/sites-ssd-timing-side-channel-attacks/"
+    },
+    {
+      "title": "Malicious Websites Track Visitors by Analyzing their SSD ...",
+      "url": "https://cybersecuritynews.com/malicious-websites-track-ssd-timing/"
+    },
+    {
+      "title": "Origin private file system - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

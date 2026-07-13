@@ -1,0 +1,44 @@
+{
+  "id": "0b49e0b87058a844578f3283f822f35257ea23fd",
+  "canonicalId": "47b0f9215efe0de30c421d360dc320fced31fb00",
+  "slug": "arc-agi-3-技术报告发布采用交互式解谜基准评估通用人工智能",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "ARC-AGI-3 技术报告发布，采用交互式解谜基准评估通用人工智能",
+  "summary": "ARC-AGI-3 技术报告正式发布，推出了一个包含 150 多个环境、超过 1000 个关卡的交互式推理基准，旨在衡量 AI 的人类级智能水平。该基准将于 2026 年 3 月 25 日启动，其评分方法将 AI 表现与人类基线进行比较，该基线被定义为按操作次数计算的次优首次运行人类表现。 这很重要，因为 ARC-AGI-3 是首个专门通过需要探索、学习、规划和适应的解谜任务来评估通用人工智能的交互式推理基准。它提供了比较人类与 AI 技能获取效率的正式衡量标准，解决了超越传统大语言模型基准的 AGI 评估关键缺口。 该基准包含一种基于图的探索策略，在预览挑战中已显示出良好结果，解决了 52 个关卡中的中位数 30 个，显著优于前沿的基于大语言模型的智能体。然而，其评分方法因使用非常规的人类基线（次优首次运行人类）而非平均人类表现而受到批评，且报告未明确说明模型完成了多少关卡。",
+  "score": 8,
+  "tags": [
+    "AGI",
+    "AI Benchmarking",
+    "Machine Learning",
+    "Technical Evaluation",
+    "Research Methodology"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 25, 18:16"
+    }
+  ],
+  "originalUrl": "https://arcprize.org/arc-agi/3",
+  "originalSite": "arcprize.org",
+  "context": "ARC-AGI 是由 ARC Prize 组织开发的一系列用于评估通用人工智能（AGI）的基准，AGI 指的是在几乎所有认知任务上匹配或超越人类能力的 AI 系统。先前版本包括包含 800 个基于网格的视觉推理谜题的 ARC-AGI-1 和包含更复杂任务的 ARC-AGI-2，两者都设计为少样本学习评估，其中任务对人类来说微不足道但对机器具有挑战性。ARC Prize 是一项超过 100 万美元的非营利竞赛，旨在击败并开源这些基准的解决方案。",
+  "discussion": "社区讨论显示出复杂情绪，一些人称赞 ARC-AGI-3 是对 AGI 的有价值评估，为人类和 AI 提供了平等输入，而另一些人则批评其方法，特别是非常规的人类基线定义。值得注意的观点包括对评分未清晰显示模型完成多少关卡的担忧、关于 AGI 是否应针对类人学习过程进行测量的辩论，以及观察到当前 AI 表现远未达到人类在构建心理模型和快速完善想法方面的效率。",
+  "references": [
+    {
+      "title": "ARC - AGI - 3",
+      "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf"
+    },
+    {
+      "title": "ARC-AGI-3",
+      "url": "https://arcprize.org/arc-agi/3/"
+    },
+    {
+      "title": "Artificial general intelligence - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "b896b0137648039c0a7d4d5edea6f6a98a4aafe4",
+  "canonicalId": "31455042bdf27d3c77706c86ee534e91622af16c",
+  "slug": "探讨门罗币抗-asic-的-randomx-工作量证明算法",
+  "date": "2026-05-05",
+  "publishedAt": "2026-05-05T00:00:00Z",
+  "lang": "zh",
+  "title": "探讨门罗币抗 ASIC 的 RandomX 工作量证明算法",
+  "summary": "一篇新的技术博文深入解析了门罗币的 RandomX 工作量证明机制，阐述了其针对 CPU 优化、抵抗 ASIC 挖矿并维护去中心化的设计。 抗 ASIC 特性对于防止挖矿中心化至关重要，而挖矿中心化会威胁加密货币的安全和公平理念。RandomX 的方法可能影响未来隐私币的设计。 RandomX 利用随机代码执行，利用 CPU 的分支预测和快速内存访问等特性，这些在 ASIC 上实现效率低下。它还定期更改算法，以抑制定制硬件的开发。",
+  "score": 8,
+  "tags": [
+    "cryptocurrency",
+    "proof-of-work",
+    "privacy",
+    "monero",
+    "mining"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 4, 14:10",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48009020"
+    }
+  ],
+  "originalUrl": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
+  "originalSite": "blog.alcazarsec.com",
+  "context": "工作量证明是一种共识机制，矿工通过解决计算难题来验证交易并创建新区块。抗 ASIC 算法旨在让普通消费级硬件仍能参与挖矿，避免被昂贵且专用的矿机垄断。门罗币是一种注重隐私的加密货币，特意选择抗 ASIC 以坚持其去中心化挖矿的理念。",
+  "discussion": "评论者赞赏门罗币对隐私和去中心化挖矿的坚持，分享了早期工作量证明尝试的历史背景。有人将其与 Postgres 和 OpenBSD 等稳健软件相提并论，也有人对工作量证明在数字现金系统中的根本经济学意义提出质疑。",
+  "references": [
+    {
+      "title": "ASIC-resistant | Binance Academy",
+      "url": "https://academy.binance.com/en/glossary/asic-resistant"
+    },
+    {
+      "title": "ASIC-Resistant | Ledger",
+      "url": "https://www.ledger.com/academy/glossary/asic-resistant"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1d9bd39cef12fd9316739adfb1f65e7c892e5d7a",
+  "canonicalId": "14f627010c2b61cfa9d8264af3c3963bd172309f",
+  "slug": "付费项目误导高中生从事虚假机器学习研究",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-18T00:00:00Z",
+  "lang": "zh",
+  "title": "付费项目误导高中生从事虚假机器学习研究",
+  "summary": "一个名为 Algoverse AI Research 的付费项目被指控误导高中生发表有缺陷的机器学习论文，声称被 NeurIPS 研讨会接受，多篇论文存在明显错误，例如不同实验条件下结果完全相同。 这暴露了机器学习研究中严重的伦理问题，特别是针对高中生牟利，并损害了 NeurIPS 研讨会等知名会议的可信度。它引发了对同行评审过程公正性的担忧，以及对学生寻求大学申请资质的剥削。 该项目网站声称有 289 名学生被 NeurIPS 2025 录取，然而负责人 Kevin Zhu 有 158 篇论文和 468 位合著者，但没有博士学位或硕士学位。具体论文显示表格结果重复，且章节位置错乱，例如 Related Works 被放在 Results 部分内。",
+  "score": 8,
+  "tags": [
+    "academic misconduct",
+    "ML research",
+    "ethics",
+    "high school",
+    "NeurIPS"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 17, 06:08"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/",
+  "originalSite": "reddit.com",
+  "context": "NeurIPS 是顶级的机器学习会议，其研讨会虽有声望但比主会议严格性较低。OpenReview 是一个论文评审平台。Algoverse 将自己标榜为帮助高中生发表 AI 研究，但批评者称其利用该系统牟利。",
+  "discussion": "评论指出 STEM 研究中类似剥削早已存在，有人称 Algoverse 是已知做法的规模化版本。其他人质疑错误是如何被发现的，一名评论者强调负责人缺乏高级学位。一条《卫报》文章链接被分享，证实了这一争议。",
+  "references": [
+    {
+      "title": "Algoverse AI Research",
+      "url": "https://algoverseairesearch.org/"
+    },
+    {
+      "title": "About | OpenReview",
+      "url": "https://openreview.net/about"
+    },
+    {
+      "title": "Guidance for NeurIPS Workshop Proposals 2025 – NeurIPS",
+      "url": "https://blog.neurips.cc/2025/04/12/guidance-for-neurips-workshop-proposals-2025/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

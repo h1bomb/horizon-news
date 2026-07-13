@@ -1,0 +1,44 @@
+{
+  "id": "c2728debb788f693bfa18b5a9845ef59bff8875c",
+  "canonicalId": "c1737a0e472605935c4e4b9143a634962394b0ea",
+  "slug": "moq-and-gsq-boosting-low-bit-gguf-quantization",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T15:01:00Z",
+  "lang": "en",
+  "title": "MoQ and GSQ: Boosting Low-Bit GGUF Quantization",
+  "summary": "Two new quantization methods, MoQ (Mixture-of-Quantization) and GSQ (Gumbel-Softmax Quantization), are set to significantly improve the performance of low-bit GGUF models, enabling more efficient local LLM deployment. This advancement could make high-quality LLMs more accessible on consumer hardware by reducing memory and computational requirements without sacrificing accuracy, benefiting the local LLM community and edge deployment scenarios. MoQ schedules various data precisions during quantization-aware training, while GSQ is a scalar post-training quantization method that achieves near-lossless compression at 2-bit for trillion-parameter models. Both are designed to be compatible with existing inference frameworks.",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "GGUF",
+    "LLM",
+    "inference optimization",
+    "local deployment"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/beneath_steel_sky"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tyjkfh/moq_ggufs_and_gsq_lowbit_ggufs_are_about_to_get/",
+  "originalSite": "reddit.com",
+  "context": "GGUF is a binary file format for storing machine learning models, optimized for fast loading and inference with GGML. Quantization reduces model precision (e.g., from 16-bit to 4-bit or 2-bit) to lower memory usage and speed up computation, which is crucial for deploying LLMs on devices with limited resources. MoQ and GSQ represent state-of-the-art techniques to minimize accuracy loss during this compression.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GGUF - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GGUF"
+    },
+    {
+      "title": "DeepSpeed Mixture-of- Quantization ( MoQ ) - DeepSpeed",
+      "url": "https://www.deepspeed.ai/tutorials/MoQ-tutorial/"
+    },
+    {
+      "title": "GSQ : Highly-Accurate Low-Precision Scalar Quantization for LLMs via...",
+      "url": "https://arxiv.org/html/2604.18556"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

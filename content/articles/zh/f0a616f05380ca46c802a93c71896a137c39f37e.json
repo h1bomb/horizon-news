@@ -1,0 +1,44 @@
+{
+  "id": "f0a616f05380ca46c802a93c71896a137c39f37e",
+  "canonicalId": "ea83e2e8e0c52c90804f61eb4bb19b700c6aae14",
+  "slug": "llamacpp-合并了后端无关的张量并行功能实现多-gpu-加速",
+  "date": "2026-04-10",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "lang": "zh",
+  "title": "Llama.cpp 合并了后端无关的张量并行功能，实现多 GPU 加速",
+  "summary": "Llama.cpp 在拉取请求 #19378 中合并了后端无关的张量并行功能，引入了新的 '-sm tensor' 选项，使模型能够在不需要 CUDA 的情况下在多个 GPU 上更快运行。这个实验性功能让拥有多个 GPU 的用户可能为大型语言模型实现显著的性能提升。 这一进展很重要，因为它通过在不同硬件后端（不仅仅是配备 CUDA 的 NVIDIA GPU）上实现张量并行，使高性能 LLM 推理更加普及。它显著提高了 llama.cpp 在配备多个 GPU 的消费级硬件上运行大型模型的可扩展性，符合让强大 AI 模型在本地更易获取的日益增长趋势。 该实现是实验性的，结果可能因模型而异，文档警告在某些情况下性能可能较差。'-sm tensor' 选项代表新的张量并行模式，而 '-sm layer' 仍作为默认行为以保持向后兼容性。",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "tensor-parallelism",
+    "multi-GPU",
+    "machine-learning",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 9, 14:46"
+    }
+  ],
+  "originalUrl": "https://github.com/ggml-org/llama.cpp/pull/19378",
+  "originalSite": "github.com",
+  "context": "张量并行是一种模型并行技术，将张量沿特定维度分割到多个设备上，每个设备只处理张量的一部分以分配计算负载。Llama.cpp 是一个开源 C/C++ 库，专注于以最小设置要求在不同硬件上实现高效的 LLM 推理。后端无关架构指的是设计为与多种底层技术协同工作，而不强依赖于任何特定技术的系统，从而降低供应商锁定风险。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Paradigms of Parallelism | Colossal-AI",
+      "url": "https://colossalai.org/docs/concepts/paradigms_of_parallelism/"
+    },
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "What is a backend agnostic architecture: a look into real-world examples | Hygraph",
+      "url": "https://hygraph.com/blog/backend-agnostic-architecture"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

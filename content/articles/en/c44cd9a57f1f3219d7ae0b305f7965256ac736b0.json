@@ -1,0 +1,44 @@
+{
+  "id": "c44cd9a57f1f3219d7ae0b305f7965256ac736b0",
+  "canonicalId": "0f666941bda3b674cbc4aaa161d2ded9a144ccc5",
+  "slug": "package-managers-implement-dependency-cooldowns-to-combat-supply-chain-attacks",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-24T21:11:00Z",
+  "lang": "en",
+  "title": "Package Managers Implement Dependency Cooldowns to Combat Supply Chain Attacks",
+  "summary": "Major package managers including pnpm, Yarn, Bun, Deno, uv, pip, and npm have recently implemented dependency cooldown features that delay installation of newly published packages for a configurable period, typically ranging from days to weeks. These features were added between September 2025 and February 2026, with pnpm 10.16 introducing the minimumReleaseAge setting in September 2025 and npm 11.10.0 adding min-release-age in February 2026. This matters because dependency cooldowns provide a practical defense against supply chain attacks by creating a buffer period during which the community can detect malicious updates before they're widely adopted. As software supply chain attacks increased by 200% in 2023 according to Sonatype research, these security measures help protect millions of developers and organizations from compromised dependencies. Different package managers implement cooldowns with varying configurations: pnpm uses minimumReleaseAge with minimumReleaseAgeExclude for trusted packages, Yarn has npmMinimalAgeGate (in minutes) with npmPreapprovedPackages, Bun configures minimumReleaseAge via bunfig.toml, and pip 26.0 currently only supports absolute timestamps with --uploaded-prior-to rather than relative durations. Most tools allow exemptions for trusted packages, and Seth Larson provides a workaround for pip's limitation using cron jobs to update absolute dates.",
+  "score": 7,
+  "tags": [
+    "package-management",
+    "security",
+    "supply-chain-attacks",
+    "software-engineering",
+    "dependency-management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Dependency cooldowns are security measures that create a waiting period between when a package is published and when it can be installed, allowing time for the community to detect potential malicious updates. Software supply chain attacks occur when malicious actors compromise dependencies in the development pipeline, which has become increasingly common with attacks rising 200% in 2023. Package managers are tools that automate the process of installing, updating, and managing software dependencies in development projects.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "We should all be using dependency cooldowns",
+      "url": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns"
+    },
+    {
+      "title": "Software Supply Chain Attacks Up 200%: New Sonatype Research",
+      "url": "https://www.techrepublic.com/article/sonatype-state-software-supply-chain-security/"
+    },
+    {
+      "title": "Settings ( pnpm -workspace.yaml) | pnpm",
+      "url": "https://pnpm.io/settings"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

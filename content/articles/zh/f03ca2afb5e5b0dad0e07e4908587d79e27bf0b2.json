@@ -1,0 +1,44 @@
+{
+  "id": "f03ca2afb5e5b0dad0e07e4908587d79e27bf0b2",
+  "canonicalId": "25c73aeabbc8ab5b773d1f77fec01b2e271f1f7e",
+  "slug": "大规模管理员账户遭入侵维基百科被迫进入只读模式",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-06T00:00:00Z",
+  "lang": "zh",
+  "title": "大规模管理员账户遭入侵，维基百科被迫进入只读模式",
+  "summary": "维基百科及其他维基媒体项目因大量管理员账户遭入侵而被置于只读模式。此次事件由一种复杂的蠕虫引发，该蠕虫通过向平台的公共脚本页面注入恶意 JavaScript 代码进行传播。 此次事件暴露了全球最受信任的信息资源之一存在严重安全漏洞，可能削弱公众对协作平台的信心。该蠕虫能够利用管理员权限进行大规模破坏和自我传播，突显了基于维基的编辑系统存在的重大安全风险。 该蠕虫将自身注入 MediaWiki:Common.js 和 User:Common.js 页面以实现持久化，使用 jQuery 隐藏感染迹象，破坏随机文章，并且在感染管理员账户后，会利用 Special:Nuke 等特权工具删除文章。由于其通过数据库历史记录本身进行传播，使其成为活跃的传播载体，因此取证清理工作变得复杂。",
+  "score": 8,
+  "tags": [
+    "security",
+    "wikipedia",
+    "incident-response",
+    "web-security",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 5, 16:04"
+    }
+  ],
+  "originalUrl": "https://www.wikimediastatus.net/",
+  "originalSite": "wikimediastatus.net",
+  "context": "维基百科管理员是拥有特殊权限的受信任用户，其权限包括删除页面、封禁用户和编辑受保护页面。这些权限通过一个名为“管理员申请”的社区流程授予。为维基百科提供技术支持的 MediaWiki 软件，允许通过 MediaWiki 命名空间的系统消息引入 JavaScript 和 CSS 代码，如果保护不当可能产生安全漏洞。只读模式是一种紧急措施，在允许用户查看内容的同时禁用所有编辑功能，通常在安全事件或维护期间使用。",
+  "discussion": "社区讨论显示，人们对蠕虫复杂的行为（包括其持久化机制和利用管理员工具进行破坏）感到技术上的着迷。有人担忧清理这种通过数据库历史传播的感染所面临的取证挑战，但也有人指出定期的快照可以缓解这一问题。有一种理论将该攻击与先前针对俄语替代维基项目的破坏活动联系起来。",
+  "references": [
+    {
+      "title": "Wikipedia:Administrators - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Administrators"
+    },
+    {
+      "title": "Manual:Security - MediaWiki",
+      "url": "https://www.mediawiki.org/wiki/Manual:Security"
+    },
+    {
+      "title": "Using read-only mode for site maintenance | Confluence Data ...",
+      "url": "https://confluence.atlassian.com/doc/using-read-only-mode-for-site-maintenance-952624304.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

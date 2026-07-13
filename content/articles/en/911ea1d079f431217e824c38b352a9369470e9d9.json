@@ -1,0 +1,31 @@
+{
+  "id": "911ea1d079f431217e824c38b352a9369470e9d9",
+  "canonicalId": "9f88a4268356946f34cadaa8c66d63e104c748a8",
+  "slug": "interactive-article-explores-the-surprising-power-of-decision-trees-through-nested-rules",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-01T08:55:00Z",
+  "lang": "en",
+  "title": "Interactive article explores the surprising power of decision trees through nested rules",
+  "summary": "An interactive educational article titled 'Decision trees – the unreasonable power of nested decision rules' was published on mlu-explain.github.io, providing visual explanations of how decision trees work. The article is complemented by a Hacker News discussion with 379 upvotes and 65 comments where experts share practical applications and performance insights. This matters because decision trees remain fundamental machine learning tools with unique advantages in explainability and inference speed, making them relevant despite the dominance of neural networks. The expert discussion reveals how these models continue to be valuable in domains like physics research and low-latency applications where interpretability and performance are critical. The article specifically focuses on how nested decision rules create powerful classification boundaries, and the community discussion includes technical details about boosted decision trees at CERN and latency comparisons showing decision trees can be two orders of magnitude faster than neural networks for inference. One commenter notes that single-bit neural networks are theoretically equivalent to decision trees.",
+  "score": 7,
+  "tags": [
+    "machine-learning",
+    "decision-trees",
+    "explainable-ai",
+    "algorithm-performance",
+    "educational-content"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mschnell"
+    }
+  ],
+  "originalUrl": "https://mlu-explain.github.io/decision-tree/",
+  "originalSite": "mlu-explain.github.io",
+  "context": "Decision trees are machine learning models that make predictions by following a series of if-then rules organized in a tree structure, where each internal node represents a decision based on a feature, and each leaf node represents an outcome. They are known for being interpretable, fast at inference time, and capable of handling both numerical and categorical data. Boosted decision trees combine multiple weak trees to create a stronger ensemble model, while random forests build multiple trees on random subsets of data and features.",
+  "discussion": "The Hacker News discussion reveals strong expert validation of decision trees' practical value, with specific examples from CERN physics analysis where boosted decision trees were preferred for explainability. Technical insights include using linear classifier outputs as features for trees, the significant latency advantage of trees over neural networks in production systems, and theoretical connections between neural networks and decision trees.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

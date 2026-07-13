@@ -1,0 +1,40 @@
+{
+  "id": "851d0e653e06962f06ff72759d35aed0a332eb38",
+  "canonicalId": "065f3eecf29283a3e45616147f84edf810e7634a",
+  "slug": "qwen35-模型性能大幅超越-qwen3挑战传统规模扩展假设",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-06T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5 模型性能大幅超越 Qwen3，挑战传统规模扩展假设",
+  "summary": "一份性能对比图表显示，新发布的 Qwen3.5 模型在所有参数规模上均显著超越其对应的 Qwen3 版本，其中 Qwen3.5-27B 模型的性能已接近体量大得多的模型。值得注意的是，Qwen3.5-4B 模型的性能已接近旧版的 Qwen3-80B-Next 模型。 这一性能飞跃挑战了模型能力随参数数量可预测增长的常规假设，表明架构和训练方法的改进能带来不成比例的收益。这对开源大语言模型的实际部署意义重大，因为更小、更高效的模型现在可以提供以往需要海量计算资源才能实现的性能。 该图表使用计算等效规模公式 (√(总参数量 × 激活参数量))，以便更公平地比较稠密模型（如 27B）与混合专家模型（如 397B A17B）。数据来源于 Artificial Analysis 排行榜，并且对比包含了部分模型的“思考”（推理）和“非思考”推理模式。",
+  "score": 7,
+  "tags": [
+    "llm-benchmarks",
+    "open-source-ai",
+    "model-comparison",
+    "qwen",
+    "mixture-of-experts"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 5, 08:49"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/z947ipfiw6ng1.png",
+  "originalSite": "i.redd.it",
+  "context": "像 Qwen 这样的大语言模型通常是“稠密”模型，即所有参数对每个输入都会被激活。相比之下，混合专家模型是“稀疏”的；它们包含大量的总参数，但每个令牌只激活其中的一个子集（即“专家”），这使得在给定总规模下，其推理计算效率更高。大语言模型的性能通常通过在编码、推理和通用知识等任务上的标准化基准测试来衡量。",
+  "discussion": "社区对性能提升感到非常震撼，特别赞扬了 Qwen3.5-27B 模型在高能力和消费级硬件可部署性之间取得的平衡。讨论强调了量化级别等实际问题，以便将模型放入有限的显存中，也有用户报告了较小量化模型“思考”模式出现无限循环等问题。同时有讨论澄清，一些被超越的大型模型是激活参数量较低的混合专家架构。",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "MoE vs Dense vs Hybrid LLM architectures | hybridMoe ...",
+      "url": "https://wandb.ai/zaiinn440/hybridMoe/reports/MoE-vs-Dense-vs-Hybrid-LLM-Architectures--Vmlldzo3NzYwNzAw"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c187aa6180c9d6bde3d8a40a5eef3dbfac4b161e",
+  "canonicalId": "c063089296d717f846576c63c7639c241779448f",
+  "slug": "ai-wont-speed-up-software-development",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-17T12:13:00Z",
+  "lang": "en",
+  "title": "AI Won't Speed Up Software Development",
+  "summary": "A blog post argues that AI, especially large language models, will not significantly speed up software development because the main bottleneck is unclear requirements, not coding speed. This contrarian perspective challenges the prevailing narrative that AI boosts overall productivity, forcing a reexamination of where true inefficiencies lie in software engineering. The author emphasizes that software engineering is fundamentally about clarifying ambiguous requirements, a task that AI cannot automate, and notes that vague feature requests have long been a major pain point.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "software engineering",
+    "requirements",
+    "productivity",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "TheEdonian",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48168221"
+    }
+  ],
+  "originalUrl": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+  "originalSite": "frederickvanbrabant.com",
+  "context": "Software development involves multiple phases, from requirements to deployment. While AI tools like GitHub Copilot can accelerate coding, the most time-consuming part often is understanding what to build. The article argues that unless AI helps with requirements clarification, overall process speed gains remain limited.",
+  "discussion": "Comments are largely supportive, with users sharing anecdotes of vague requirements and agreeing that the bottleneck is often pre-development. Some argue AI can assist in other phases like ideation and documentation, but there is broad consensus that the article highlights a key truth.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

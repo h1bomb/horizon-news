@@ -1,0 +1,40 @@
+{
+  "id": "10296f9cb15aabda89f654c7d32346ee145dc9a8",
+  "canonicalId": "d32bf755f8e1570c69c31eb6fc1de43c20dd6431",
+  "slug": "ectc-2026-roundup-emib-t-hbm4-photonic-interconnects-more",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T17:25:00Z",
+  "lang": "en",
+  "title": "ECTC 2026 Roundup: EMIB-T, HBM4, Photonic Interconnects, More",
+  "summary": "At ECTC 2026, Intel introduced EMIB-T, an advanced packaging technology supporting larger chip sizes and HBM4, while TSMC, SK Hynix, Samsung, Micron, Marvell, Lightmatter, and Microsoft presented progress in custom HBM, microfluidic cooling, and photonic interconnects. These developments are critical for scaling AI hardware and chiplet architectures, as advanced packaging directly impacts performance, bandwidth, and thermal management. EMIB-T supports package sizes up to 120x180mm, over 38 bridges, and more than 12 reticle-sized dies. Photonic interconnects aim to replace electrical I/O with optical pathways to reduce power and increase bandwidth.",
+  "score": 8,
+  "tags": [
+    "semiconductor packaging",
+    "HBM",
+    "photonic interconnects",
+    "ECTC",
+    "advanced cooling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/ectc2026",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "Advanced semiconductor packaging integrates multiple chips (chiplets) into a single package to improve performance and reduce cost. EMIB (Embedded Multi-die Interconnect Bridge) is Intel's technology for high-density chip-to-chip connections. Photonic interconnects use light for data transmission, offering higher bandwidth and lower power than electrical interconnects.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Intel details new advanced packaging breakthroughs — EMIB - T paves...",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-details-new-advanced-packaging-breakthroughs-emib-t-paves-the-way-for-hbm4-and-increased-ucie-bandwidth"
+    },
+    {
+      "title": "How Do Photonic Interconnects Work? - lightmatter.co",
+      "url": "https://lightmatter.co/knowledge-hub/how-do-photonic-interconnects-work/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

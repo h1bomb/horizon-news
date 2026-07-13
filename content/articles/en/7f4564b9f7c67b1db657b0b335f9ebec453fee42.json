@@ -1,0 +1,45 @@
+{
+  "id": "7f4564b9f7c67b1db657b0b335f9ebec453fee42",
+  "canonicalId": "bb83d039abe201ab7748b9bbdd618c050fc958b4",
+  "slug": "ai-is-breaking-two-vulnerability-cultures",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-08T17:55:00Z",
+  "lang": "en",
+  "title": "AI is breaking two vulnerability cultures",
+  "summary": "AI is accelerating the long-standing conflict between coordinated vulnerability disclosure (CVD) and full disclosure, a trend predicted before the rise of LLMs. This shift undermines the traditional CVD model, as AI can generate exploits faster than patches can be coordinated, increasing risk for organizations that cannot patch quickly and potentially shifting the security landscape toward full disclosure. The catalyst is software transparency: widespread open-source adoption and improved reversing tools have made closed-source software no longer effectively obscure. AI further lowers the barrier for exploit generation, making embargoed patches increasingly difficult to protect.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "vulnerability disclosure",
+    "security",
+    "open source",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48066524"
+    }
+  ],
+  "originalUrl": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+  "originalSite": "jefftk.com",
+  "context": "In computer security, coordinated vulnerability disclosure (CVD) allows vendors time to patch before public disclosure, while full disclosure releases details immediately. The tension between these approaches has existed for decades, but AI's ability to rapidly analyze code and generate exploits is accelerating the conflict.",
+  "discussion": "Comments from experts like tptacek, freeqaz, and rikafurude21 note that the crackup was predicted long before LLMs, and cite examples like Log4Shell where patch commits were exploited before the official release. Animats warns that AI makes attacks faster, and the world is already at cyberwar. Overall, the community sees AI as amplifying existing vulnerabilities rather than creating a new problem.",
+  "references": [
+    {
+      "title": "Coordinated vulnerability disclosure",
+      "url": "https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure"
+    },
+    {
+      "title": "Full disclosure (computer security) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Full_disclosure_(computer_security)"
+    },
+    {
+      "title": "Vulnerability Disclosure - OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

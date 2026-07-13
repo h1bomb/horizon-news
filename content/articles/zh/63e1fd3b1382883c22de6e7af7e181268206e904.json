@@ -1,0 +1,44 @@
+{
+  "id": "63e1fd3b1382883c22de6e7af7e181268206e904",
+  "canonicalId": "0408972cc519d192a6bf511c488375180ab735f3",
+  "slug": "axios-供应链攻击通过针对维护者的定向社会工程学手段实施",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "Axios 供应链攻击通过针对维护者的定向社会工程学手段实施",
+  "summary": "Axios 团队发布了一份事后分析报告，披露最近的供应链攻击涉及针对特定维护者的复杂社会工程学活动，导致恶意软件依赖项被发布。攻击者伪装成公司创始人，邀请维护者加入一个逼真的 Slack 工作区，并通过 Microsoft Teams 会议部署了窃取凭证的远程访问木马（RAT）。 这一事件凸显了针对像 Axios 这样每周下载量达数百万的广泛使用开源库的供应链攻击日益复杂化。它展示了社会工程学如何绕过技术防御，直接危害维护者账户，可能影响依赖这些库的无数下游应用程序和用户。 这次攻击模仿了有记录的 UNC1069 策略，使用克隆的公司身份和虚假的 Slack 个人资料来显得可信。远程访问木马是在维护者于 Teams 会议期间被提示更新软件时安装的，利用了时间压力和专业环境中的信任。这种方法表明攻击者正在投入大量资源进行侦察和欺骗。",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain-attack",
+    "social-engineering",
+    "open-source",
+    "axios"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 3, 13:54"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "供应链攻击针对软件依赖项或第三方组件，通过向受信任的库中注入恶意代码来危害下游系统。社会工程学操纵人们泄露敏感信息或执行危害安全的操作，其中鱼叉式网络钓鱼是一种定向变体。事后分析是事件响应文档，分析发生了什么、原因以及如何防止再次发生，通常采用无责难方法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is a Supply Chain Attack ? Detect & Prevent It | Abnormal AI",
+      "url": "https://abnormal.ai/glossary/supply-chain-attack"
+    },
+    {
+      "title": "The importance of an incident postmortem process | Atlassian",
+      "url": "https://www.atlassian.com/incident-management/postmortem"
+    },
+    {
+      "title": "Top Social Engineering Attack Vectors | by Dennis Eichardt | Medium",
+      "url": "https://medium.com/axel-springer-tech/top-social-engineering-attack-vectors-d64cb14e67b3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

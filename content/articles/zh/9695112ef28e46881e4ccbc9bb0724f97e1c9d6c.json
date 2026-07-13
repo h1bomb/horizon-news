@@ -1,0 +1,40 @@
+{
+  "id": "9695112ef28e46881e4ccbc9bb0724f97e1c9d6c",
+  "canonicalId": "c18be2a6869d881772d27348c1e67f054699bfaa",
+  "slug": "cohere-提供未发布编码模型早期访问采用高效架构",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T16:36:00Z",
+  "lang": "zh",
+  "title": "Cohere 提供未发布编码模型早期访问，采用高效架构",
+  "summary": "Cohere 发布了其首个编码模型的早期访问版本，该模型拥有 300 亿参数但仅 30 亿活跃参数，在官方发布前于 Hugging Face 上供社区测试。 这标志着 Cohere 进入编码模型领域，并通过稀疏激活技术展示了对本地部署效率的关注，可能为开发者友好的 AI 工具树立新标准。 该模型总参数 300 亿但仅 30 亿活跃，暗示采用混合专家（MoE）架构，可在消费级硬件上实现快速推理。Cohere 正在寻求社区反馈以在公开发布前改进模型。",
+  "score": 8,
+  "tags": [
+    "Cohere",
+    "coding model",
+    "local LLM",
+    "early access",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/nick_frosst"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/",
+  "originalSite": "reddit.com",
+  "context": "在 AI 模型中，参数是训练过程中学习的内部权重，决定输出。混合专家（MoE）架构使用多个专门的子网络（专家）和一个门控机制，仅对每个输入激活部分专家，从而大幅降低计算成本。例如，一个 300 亿参数的 MoE 模型只有 30 亿活跃参数，可在单 GPU 上运行，使本地部署成为可能。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of Experts Explained - Hugging Face",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

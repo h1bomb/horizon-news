@@ -1,0 +1,41 @@
+{
+  "id": "2a69bbc91540c6fd065a5b8d2d889700a3bc991c",
+  "canonicalId": "6138d21081aed654451796e5381d492a8451037a",
+  "slug": "leaving-github-for-forgejo",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-13T12:54:00Z",
+  "lang": "en",
+  "title": "Leaving GitHub for Forgejo",
+  "summary": "A developer documents their migration from GitHub to the self-hosted Forgejo platform, emphasizing benefits of decentralization and control, while noting the trade-off of losing their social graph. This story reflects a growing movement among developers to move away from centralized platforms like GitHub, driven by concerns over control, privacy, and reliance on corporate infrastructure. It highlights the practical considerations and challenges of adopting decentralized alternatives. The author self-hosts Forgejo on their own hardware, gaining full control but losing GitHub's social graph features like stars, followers, and contributions. They note that tools like GitSocial can help preserve and rebuild some social connections.",
+  "score": 8,
+  "tags": [
+    "Git",
+    "self-hosting",
+    "decentralization",
+    "Forgejo",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jorijn",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48121266"
+    }
+  ],
+  "originalUrl": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
+  "originalSite": "jorijn.com",
+  "context": "Forgejo is a self-hosted, lightweight software forge written in Go, licensed under GPLv3, that provides Git repository hosting, issue tracking, and collaboration features. It emerged from a fork of Gitea and emphasizes community governance. Unlike GitHub, which is a centralized service, Forgejo allows individuals and organizations to host their own instances, promoting decentralization. Projects like Codeberg offer public Forgejo instances, and federation support is being developed to interconnect different forges.",
+  "discussion": "Comments express enthusiasm for decentralization, with some users already self-hosting or donating to Forgejo and Codeberg to support federation. Others caution about maintaining GitHub mirrors for visibility and discuss tools like GitSocial for cross-forge collaboration. There are also concerns about AI scrapers and the scaling challenges GitHub faces due to increased AI-driven usage.",
+  "references": [
+    {
+      "title": "Forgejo",
+      "url": "https://en.wikipedia.org/wiki/Forgejo"
+    },
+    {
+      "title": "Forgejo – Beyond coding. We forge.",
+      "url": "https://forgejo.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

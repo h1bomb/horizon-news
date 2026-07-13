@@ -1,0 +1,44 @@
+{
+  "id": "0dbfc6d5fd120eb1e60b856bf2d070780c068dc7",
+  "canonicalId": "ac56a85bf077ab2b66e3399b02c0d8eed2f4e51c",
+  "slug": "wasserstein-度量修复量化-qwen36-35b-a3b-gguf-模型中的张量漂移问题",
+  "date": "2026-04-19",
+  "publishedAt": "2026-04-19T00:00:00Z",
+  "lang": "zh",
+  "title": "Wasserstein 度量修复量化 Qwen3.6-35B-A3B GGUF 模型中的张量漂移问题",
+  "summary": "一位 Reddit 用户使用 Wasserstein 度量（W1）发现并修复了量化 Qwen3.6-35B-A3B GGUF 模型中 SSM 层的张量漂移问题，该方法在检测数值不稳定性方面比 Kullback-Leibler 散度更有效。修复专门针对三个 ssm_conv1d.weight 层（块 36-38），修正后的模型已发布在 Hugging Face 上。 这很重要，因为量化模型中的张量漂移会降低性能和可靠性，尤其是在对状态空间模型的长上下文记忆至关重要的 SSM 层中。基于 Wasserstein 的方法为量化问题提供了更强大的调试工具，可能提高各种量化 LLM 的稳定性，并使在资源受限部署中工作的开发者受益。 修复将受影响层的 Wasserstein 距离（W1）值从 0.0038-0.0040 降低到 0.0006-0.0009，而其他张量保持健康。修正后的模型基于 HauhauCS 的 Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive 版本，并推荐使用 Q4_K_P 量化以获得最佳性能。",
+  "score": 8,
+  "tags": [
+    "Quantization",
+    "Numerical Stability",
+    "LLM Optimization",
+    "Wasserstein Metric",
+    "Model Debugging"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 18, 16:42"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sp2l72/qwen3635ba3buncensoredwassersteingguf/",
+  "originalSite": "reddit.com",
+  "context": "GGUF（GGML 通用格式）是一种在消费级硬件上运行大型语言模型的文件格式，通过压缩权重来减小文件大小并加速推理，但量化可能引入数值不稳定性。状态空间模型（SSM）是某些 Transformer 中用于处理长上下文序列的架构，其中 SSM 层（如 ssm_conv1d）管理状态转换。Wasserstein 度量（W1）是一种用于比较概率分布的数学工具，常在机器学习中用于测量数据分布或模型输出之间的差异。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Wasserstein metric - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wasserstein_metric"
+    },
+    {
+      "title": "GGUF Quantization Explained — Q4_K_M vs Q5_K_M vs Q8: VRAM ...",
+      "url": "https://willitrunai.com/blog/quantization-guide-gguf-explained"
+    },
+    {
+      "title": "[2405.21060] Transformers are SSMs: Generalized Models and",
+      "url": "https://arxiv.org/abs/2405.21060"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,48 @@
+{
+  "id": "0af0a125ee8cfeab25276850fbaff0392e847a75",
+  "canonicalId": "b9a3f9a3394b774d87b02c3f24efbf781e9f1699",
+  "slug": "android-17-released-mandatory-large-screen-support-ai-integration",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T01:02:00Z",
+  "lang": "en",
+  "title": "Android 17 Released: Mandatory Large-Screen Support, AI Integration",
+  "summary": "Google has released Android 17 to Pixel devices and opened the source code, introducing mandatory large-screen support, AI integration via AppFunctions for Gemini, and a full shift to Jetpack Compose. This update fundamentally changes Android development by requiring apps to support large screens and by enabling AI to directly invoke app functions, which will affect all developers and enhance user experiences on foldables, tablets, and other form factors. Android 17 removes the developer opt-out for orientation and resizability restrictions on large screens (sw > 600 dp), enforces strict memory limits based on total device RAM, and introduces temporary permissions and a contact picker for privacy.",
+  "score": 9,
+  "tags": [
+    "Android",
+    "mobile development",
+    "AI integration",
+    "privacy",
+    "Jetpack Compose"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://android-developers.googleblog.com/2026/06/Android-17.html",
+  "originalSite": "android-developers.googleblog.com",
+  "context": "Android 17 focuses on making Android a 'smart system' by integrating AI assistants like Google Gemini through the new AppFunctions API, which allows apps to expose functions that can be invoked by AI. It also mandates adaptive large-screen support, continuing the trend from Android 12L and later versions. Jetpack Compose, a modern declarative UI toolkit, becomes the default for new development, with the traditional View system moving to maintenance mode.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Android Developers Blog: Android 17 is here",
+      "url": "https://android-developers.googleblog.com/2026/06/Android-17.html"
+    },
+    {
+      "title": "Restrictions on orientation and resizability are ignored | Android Developers",
+      "url": "https://developer.android.com/about/versions/17/changes/ff-restrictions-ignored"
+    },
+    {
+      "title": "Jetpack Compose",
+      "url": "https://en.wikipedia.org/wiki/Jetpack_Compose"
+    },
+    {
+      "title": "AppFunctionService | API reference |",
+      "url": "https://developer.android.com/reference/android/app/appfunctions/AppFunctionService"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

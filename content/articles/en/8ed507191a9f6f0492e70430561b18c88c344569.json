@@ -1,0 +1,44 @@
+{
+  "id": "8ed507191a9f6f0492e70430561b18c88c344569",
+  "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
+  "slug": "typescript-70-released-with-go-rewrite-up-to-12x-faster",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T04:01:00Z",
+  "lang": "en",
+  "title": "TypeScript 7.0 Released with Go Rewrite, Up to 12x Faster",
+  "summary": "Microsoft has released TypeScript 7.0, a native version rewritten in Go that delivers 8 to 12 times faster build times compared to its predecessor, and supports shared-memory multithreading. Users can install it via npm, and editors supporting LSP can use the new language server. This rewrite represents a paradigm shift in compiler performance for TypeScript, one of the most widely used languages, drastically reducing build times for large projects. It also demonstrates the growing trend of using systems languages like Go to optimize tooling performance. New experimental flags --checkers and --builders allow fine-tuning parallelism for type-checking and project reference building. However, toolchains for embedded languages like Vue and Svelte are not yet ready, requiring those projects to continue using older TypeScript versions.",
+  "score": 10,
+  "tags": [
+    "TypeScript",
+    "Go",
+    "Compiler",
+    "Performance",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+  "originalSite": "devblogs.microsoft.com",
+  "context": "TypeScript is a statically typed superset of JavaScript that compiles to plain JavaScript. The original compiler was written in TypeScript itself, which limited performance for large codebases. The Language Server Protocol (LSP) is a standardized protocol that enables editors to provide language features like code completion and error checking.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Announcing TypeScript 7.0 - TypeScript",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+    },
+    {
+      "title": "Language Server Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Language_Server_Protocol"
+    },
+    {
+      "title": "Official page for Language Server Protocol",
+      "url": "https://microsoft.github.io/language-server-protocol/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "920a1c08a1ab5bda2dbf5efebc0b09df40989171",
+  "canonicalId": "4be1f1c4c770aa7bcbdf0132d02f74828776fad9",
+  "slug": "aggressively-uncensored-qwen35-35b-a3b-model-released-in-gguf-format",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-10T19:57:00Z",
+  "lang": "en",
+  "title": "Aggressively Uncensored Qwen3.5-35B-A3B Model Released in GGUF Format",
+  "summary": "A developer named HauhauCS has released an 'aggressively uncensored' version of the Qwen3.5-35B-A3B model on Hugging Face, claiming it has zero refusals and no capability loss. The release includes the model in GGUF format with multiple quantization options (BF16, Q8_0, Q6_K, Q4_K_M, etc.), a vision projection file, and was generated using an imatrix for improved quality. This release is significant for the local AI community as it provides a powerful, multimodal 35B parameter model that is completely free from built-in content restrictions, enabling unfiltered research and applications. The availability in efficient GGUF format with various quantizations makes it accessible for running on consumer hardware, pushing the boundaries of what's possible with uncensored, locally-run large language models. The model is a Mixture-of-Experts (MoE) architecture with 256 total experts and 8+1 active per token, resulting in about 3B active parameters out of 35B total. The developer claims extensive testing showed no issues like looping or performance degradation, and notes that users of llama.cpp should use the `--jinja` flag for proper template handling.",
+  "score": 7,
+  "tags": [
+    "llm",
+    "model-release",
+    "uncensored-models",
+    "quantization",
+    "local-ai"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "hauhau901"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rq7jtm/qwen3535ba3b_uncensored_aggressive_gguf_release/",
+  "originalSite": "reddit.com",
+  "context": "GGUF is a binary file format optimized for fast loading and saving of models, primarily for use with inference frameworks like llama.cpp. Quantization (e.g., Q4_K_M) reduces model size and memory requirements by representing weights with fewer bits, enabling larger models to run on limited hardware. Mixture-of-Experts is an architecture where a routing network selects a small subset of specialized 'expert' neural networks to process each input token, allowing for a large total parameter count while keeping computational cost per inference manageable.",
+  "discussion": "The community reaction is overwhelmingly positive, with users expressing excitement and gratitude for the release. Key discussion points include requests for details on the uncensoring technique used, calls for more rigorous evaluation (like Kullback–Leibler divergence) to substantiate the 'zero capability loss' claim, and questions about the specific meaning of 'aggressive' in this context. There are also requests for versions compatible with other frameworks like MLX.",
+  "references": [
+    {
+      "title": "GGUF - Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    },
+    {
+      "title": "Understanding the GGUF Format: A Comprehensive Guide",
+      "url": "https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256"
+    },
+    {
+      "title": "The Rise of MoE: Comparing 2025’s Leading Mixture-of-Experts ...",
+      "url": "https://friendli.ai/blog/moe-models-comparison"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "209a095cbd4e1515ef55df4e8ddd7682173052e9",
+  "canonicalId": "8a8e51f52c3459ae12be374351570e2163679911",
+  "slug": "小米发布-mimo-v2-flash-大模型采用-309b-混合专家架构实现高效推理",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-19T00:00:00Z",
+  "lang": "zh",
+  "title": "小米发布 MiMo-V2-Flash 大模型，采用 309B 混合专家架构实现高效推理",
+  "summary": "小米发布了 MiMo-V2-Flash 大语言模型，该模型采用混合专家（MoE）架构，总参数量达 3090 亿，激活参数为 150 亿。该模型专为高速推理和智能体工作流设计，通过混合注意力架构和多令牌预测技术，在显著降低推理成本的同时实现了业界领先的性能。 此次发布标志着小米进入竞争激烈的大语言模型领域，并专注于推理效率，这可能使先进 AI 技术在实际应用中更加普及和经济。混合专家架构和优化技术解决了大规模部署大模型的关键挑战，可能推动行业向更高效 AI 系统发展的趋势。 该模型的混合注意力架构以 5:1 的比例交替使用滑动窗口注意力和全局注意力，将 KV 缓存存储减少近 6 倍。多令牌预测模块提升了推理输出速度，但公告中未提供与其他模型的具体基准比较数据。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Large Language Models",
+    "Machine Learning",
+    "Inference Optimization",
+    "MoE Architecture"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 18, 13:12"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40351",
+  "originalSite": "t.me",
+  "context": "混合专家（MoE）架构是一种由多个专门子网络（专家）处理输入不同部分的结构，通过门控机制将每个令牌路由到相关专家。这使得模型可以拥有大量总参数，同时在推理过程中保持计算成本可控。KV 缓存指的是注意力机制中键和值矩阵的存储，这在基于 Transformer 的模型中可能成为瓶颈；减少它可以提高内存效率和推理速度。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "从零理解混合专家模型：Deepseek-V3的MoE架构图解指南-CSDN博客",
+      "url": "https://blog.csdn.net/weixin_29053383/article/details/159232291"
+    },
+    {
+      "title": "深度学习之MHA|MQA|GQA|MLA...",
+      "url": "https://cloud.tencent.com/developer/article/2634499"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

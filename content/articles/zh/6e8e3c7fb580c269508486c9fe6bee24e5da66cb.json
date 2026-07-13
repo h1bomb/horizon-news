@@ -1,0 +1,40 @@
+{
+  "id": "6e8e3c7fb580c269508486c9fe6bee24e5da66cb",
+  "canonicalId": "9da38b12f212c7296f425fa35598abff694249de",
+  "slug": "u-boot-fit-签名验证发现六项严重漏洞",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T08:32:00Z",
+  "lang": "zh",
+  "title": "U-Boot FIT 签名验证发现六项严重漏洞",
+  "summary": "Binarly 披露了 U-Boot 的 FIT 签名验证代码中的六个漏洞，其中两个可导致任意代码执行，四个可造成拒绝服务。这些漏洞影响自 2013.07 版本以来的 50 多个稳定版本及大量下游分支。 攻击者可在操作系统启动前执行恶意代码，绕过所有安全措施，甚至植入持久性固件恶意软件。对于支持远程固件更新的 BMC 等系统，利用这些漏洞无需物理接触，对嵌入式及服务器生态系统构成严重威胁。 这些漏洞存在于签名验证完成前处理不可信 FIT 镜像的过程中。通过恶意固件更新可实现远程利用；尽管补丁已被 U-Boot 接受，但各硬件厂商需自行集成并分发修复，老旧设备可能永远无法获得更新。",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "u-boot",
+    "firmware",
+    "bootloader"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+  "originalSite": "bleepingcomputer.com",
+  "context": "U-Boot 是嵌入式系统中广泛使用的开源引导程序。FIT（Flattened Image Tree）是其标准启动镜像打包格式，签名验证用于确保镜像真实性。BMC（基板管理控制器）可远程管理服务器固件更新。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Six U-Boot FIT Signature Verification Flaws Enable Code Execution and DoS Attacks",
+      "url": "https://cybersecuritynews.com/u-boot-fit-signature-verification/"
+    },
+    {
+      "title": "U-Boot FIT Signature Verification — Das U-Boot unknown version documentation",
+      "url": "https://docs.u-boot.org/en/latest/usage/fit/signature.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

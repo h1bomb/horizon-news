@@ -1,0 +1,40 @@
+{
+  "id": "c0334c86bed1c7cf2e573b1c5bc3f4d10eb451d6",
+  "canonicalId": "14137af0ab78488e34022ed17a4c47dafe16fa3e",
+  "slug": "ai-工具导致内核安全报告激增引发重复问题并加重维护者负担",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "AI 工具导致内核安全报告激增，引发重复问题并加重维护者负担",
+  "summary": "Willy Tarreau 报告称，内核安全列表的报告数量急剧增加，从两年前的每周 2-3 份增至 2026 年的每天 5-10 份，主要由 AI 生成的提交驱动，导致重复发现，并需要增加更多维护者。 这一激增凸显了 AI 对网络安全工作流程日益增长的影响，大量且常冗余的报告压垮了开源维护者，可能耗尽资源并延迟 Linux 内核生态中的关键修复。 这些报告大多正确，但包含'AI slop'（低质量的自动化提交）以及由不同工具发现的重复漏洞，其中周五和周二为提交高峰期。",
+  "score": 7,
+  "tags": [
+    "security",
+    "linux",
+    "ai",
+    "kernel",
+    "maintenance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 3, 21:48"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "内核安全列表是用于报告和讨论 Linux 内核安全漏洞的沟通渠道，由维护者管理，负责审查和优先处理修复。HAProxy 是一款高性能负载均衡器和代理软件，Willy Tarreau 是其首席开发者，以对内核安全的贡献而闻名。'AI slop'指由 AI 工具生成的低质量自动化报告，已成为网络安全中的常见问题，用冗余或琐碎的发现压垮维护者。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "HAProxy",
+      "url": "https://en.wikipedia.org/wiki/HAProxy"
+    },
+    {
+      "title": "Big tech is clamping down on open source ‘AI slop’ reports | IT Pro",
+      "url": "https://www.itpro.com/software/open-source/big-tech-is-clamping-down-on-open-source-ai-slop-reports"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

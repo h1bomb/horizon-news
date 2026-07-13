@@ -1,0 +1,41 @@
+{
+  "id": "652965fb506a863be90ece3d5784549af23ffd01",
+  "canonicalId": "f0306115ca6cdba1eb4824331fc2ef53d9ac241d",
+  "slug": "forge-boosts-8b-model-accuracy-from-53-to-99-with-guardrails",
+  "date": "2026-05-20",
+  "publishedAt": "2026-05-19T12:23:00Z",
+  "lang": "en",
+  "title": "Forge boosts 8B model accuracy from 53% to 99% with guardrails",
+  "summary": "Antoine Zambelli released Forge, an open-source reliability layer that uses domain-agnostic guardrails to dramatically improve local LLM accuracy on multi-step agentic tasks, achieving 99.3% on an 8B model compared to 53% without. Forge narrows the accuracy gap between free local models and costly frontier APIs to less than 1 percentage point, enabling practical self-hosted agentic systems without cloud costs. It also reveals critical infrastructure factors (e.g., serving backend choice) that standard benchmarks ignore. Forge consists of five independently toggleable guardrail layers; retry nudges and error recovery are most impactful per ablation studies. The system includes a novel ToolResolutionError exception class to distinguish between a tool returning data and returning nothing, preventing silent data corruption.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "guardrails",
+    "agentic tasks",
+    "open-source",
+    "reliability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zambelli",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48192383"
+    }
+  ],
+  "originalUrl": "https://github.com/antoinezambelli/forge",
+  "originalSite": "github.com",
+  "context": "Agentic workflows involve multi-step tasks where an LLM calls tools and reasons iteratively. Without guardrails, per-step errors compound: 90% per-step accuracy yields ~40% failure rate over 5 steps. Forge’s guardrails address this by adding retry mechanisms, error recovery, step enforcement, and context management optimized for consumer hardware.",
+  "discussion": "Community members largely praised Forge, noting that small local models with a proper harness can perform excellently. One user highlighted the tool-call ambiguity (e.g., grep returning exit code 1) as a common failure mode that retry nudges address. Another shared parallel experiences with frontier scale and the value of appropriately scaled solutions.",
+  "references": [
+    {
+      "title": "Guardrails in LLM Systems: Building Safe and Reliable AI... | Medium",
+      "url": "https://medium.com/@prklipi/guardrails-in-llm-systems-building-safe-and-reliable-ai-applications-1b4780798720"
+    },
+    {
+      "title": "What are agentic workflows? - IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-workflows"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

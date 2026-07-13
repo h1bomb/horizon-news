@@ -1,0 +1,44 @@
+{
+  "id": "c43d4f011dee81d088fd9b86e3ef712b0f790f13",
+  "canonicalId": "a9bdbf5901acc74f1f9ced008edd999f65b24ab3",
+  "slug": "icml-审稿人发现完全由-ai-生成的论文投稿",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-12T00:00:00Z",
+  "lang": "zh",
+  "title": "ICML 审稿人发现完全由 AI 生成的论文投稿",
+  "summary": "国际机器学习大会（ICML）的一位审稿人报告称，收到了一篇看似完全由 AI 生成的论文进行评审，尽管会议政策禁止使用 LLM 助手来撰写或评审投稿。审稿人描述该论文读起来像“推特炒作式帖子”，并质疑是否应将其标记给领域主席。 这一事件突显了随着 AI 工具日益普及，学术诚信面临日益严峻的挑战，可能损害 ICML 等顶级会议的同行评审流程和研究质量。它引发了关于如何执行禁止 AI 生成内容的政策，以及此类投稿是否应仅因违反政策而被拒绝，还是应评估其技术价值的辩论。 该论文提交至 ICML 的一个明确禁止使用 LLM 助手进行撰写或评审的赛道，根据会议指南，其中包括关于生成式 AI 工具的政策。审稿人指出其写作风格令人厌烦且充满炒作，引发了对论文真实性和遵守投稿规则的担忧。",
+  "score": 8,
+  "tags": [
+    "AI Ethics",
+    "Academic Publishing",
+    "Peer Review",
+    "LLM Policy",
+    "Research Integrity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 11, 12:19"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rqs7gd/d_icml_paper_to_review_is_fully_ai_generated/",
+  "originalSite": "reddit.com",
+  "context": "ICML 是机器学习领域的顶级会议，采用双盲同行评审流程，由专家匿名评估论文。会议对投稿和评审中使用生成式 AI 工具（包括 LLM）有具体政策，如其作者指南和征稿启事所述。学术出版中 AI 生成内容日益引发关注，涉及伦理和检测方法的辩论，例如近期研究中 AI 撰写的评审或论文中伪造图像等事件。",
+  "discussion": "社区评论普遍支持因违反政策而拒绝该论文，用户建议向领域主席报告、给予低分并继续处理。一些人认为如果研究质量好，可能仍值得进行技术评审，但多数强调违反无 LLM 政策足以成为拒绝理由。少数观点认为如果未明确禁止，AI 辅助写作是有效的，但这被 ICML 具体指南的反驳所抵消。",
+  "references": [
+    {
+      "title": "ICML 2026 Author Instructions",
+      "url": "https://icml.cc/Conferences/2026/AuthorInstructions"
+    },
+    {
+      "title": "ICML 2026 Call for Papers",
+      "url": "https://icml.cc/Conferences/2026/CallForPapers"
+    },
+    {
+      "title": "Scientists aghast at bizarre AI rat with huge genitals in peer - reviewed ...",
+      "url": "https://arstechnica.com/science/2024/02/scientists-aghast-at-bizarre-ai-rat-with-huge-genitals-in-peer-reviewed-article/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

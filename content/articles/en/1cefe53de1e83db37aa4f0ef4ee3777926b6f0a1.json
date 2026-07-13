@@ -1,0 +1,44 @@
+{
+  "id": "1cefe53de1e83db37aa4f0ef4ee3777926b6f0a1",
+  "canonicalId": "18dbcef726329dfef5bf9d20330cbca838ead9fa",
+  "slug": "proposal-for-a-federation-of-forges",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T14:00:00Z",
+  "lang": "en",
+  "title": "Proposal for a Federation of Forges",
+  "summary": "A blog post on Tangled proposes creating a federation of forges to decentralize code hosting, aiming to reduce reliance on centralized platforms like GitHub. This proposal could reshape open-source collaboration by enabling interoperability between different code forges, reducing vendor lock-in and fostering competition. The federation would use existing protocols like ForgeFed to connect forges, allowing users to interact across platforms for issues, pull requests, and repositories.",
+  "score": 8,
+  "tags": [
+    "federation",
+    "forge",
+    "decentralization",
+    "open source",
+    "github alternative"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "icy"
+    }
+  ],
+  "originalUrl": "https://blog.tangled.org/federation/",
+  "originalSite": "blog.tangled.org",
+  "context": "Git is decentralized, but code hosting platforms like GitHub are centralized, creating a single point of failure and control. A federation of forges aims to extend decentralization to the entire development workflow, similar to how email or Mastodon federate.",
+  "discussion": "Comments are mixed: some compare it to Mastodon's challenges like defederation and moderation debates, while others support competition and note existing projects like ForgeFed. A few suggest richer git repos like Fossil as an alternative.",
+  "references": [
+    {
+      "title": "we need a federation of forges — tangled blog",
+      "url": "https://blog.tangled.org/federation/"
+    },
+    {
+      "title": "ForgeFed",
+      "url": "https://forgefed.org/"
+    },
+    {
+      "title": "Federated Code Forges: The Blueprint for Interoperable ...",
+      "url": "https://thecodersblog.com/federation-of-code-forges-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

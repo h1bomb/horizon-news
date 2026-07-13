@@ -1,0 +1,40 @@
+{
+  "id": "d49c8f8bc6c3ba11e898fea6e46cb229c6f87b31",
+  "canonicalId": "b49d4286e3f0fcd4066c09dab2465cf91f896f0b",
+  "slug": "openai-发布-gpt-55-提示指南-d49c8f8b",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-26T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-5.5 提示指南",
+  "summary": "OpenAI 发布了 GPT-5.5 的官方提示指南，该模型现已通过 API 提供，指南中包括在多项任务期间发送简短的用户可见更新以提升感知响应速度等技巧。 该指南帮助开发者为 GPT-5.5 优化提示词，OpenAI 建议将其视为新的模型系列而非直接替代品，这有望提升应用性能和用户体验。 OpenAI 建议从全新的基线提示开始，而不是从旧模型迁移现有提示，并建议使用 Codex 应用运行命令 '$openai-docs migrate this project to gpt-5.5' 来升级代码。",
+  "score": 7,
+  "tags": [
+    "GPT-5.5",
+    "prompting",
+    "OpenAI",
+    "API",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 25, 04:13"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "GPT-5.5 是 OpenAI 最新的大型语言模型，接替了 GPT-5.2 和 GPT-5.4。提示指南提供了与 AI 模型交互以实现预期输出的最佳实践，对于基于这些模型构建应用的开发者至关重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GPT - 5 . 5 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.5"
+    },
+    {
+      "title": "How to Use the GPT - 5 . 5 API",
+      "url": "https://apidog.com/blog/how-to-use-gpt-5-5-api/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

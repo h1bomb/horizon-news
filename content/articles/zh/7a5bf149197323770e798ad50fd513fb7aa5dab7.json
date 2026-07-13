@@ -1,0 +1,44 @@
+{
+  "id": "7a5bf149197323770e798ad50fd513fb7aa5dab7",
+  "canonicalId": "b9dc56ba0a2df1ae283bd3708fa115127e388305",
+  "slug": "wireguard-在解决微软驱动签名问题后发布新版-windows-版本",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-11T00:00:00Z",
+  "lang": "zh",
+  "title": "WireGuard 在解决微软驱动签名问题后发布新版 Windows 版本",
+  "summary": "WireGuard 在解决了一个因公开讨论而受到关注的微软驱动签名问题后，发布了新的 Windows 版本，由 Jason A. Donenfeld (zx2c4) 在邮件列表帖子中宣布。此次更新涉及工具链更新，并移除了对 Windows 10 之前系统的支持。 这很重要，因为它确保了 WireGuard 在 Windows 这一广泛使用平台上的用户能继续获得安全性和功能性，并突显了公众倡导在解决大型科技公司官僚障碍中的重要性。它还强调了开源项目在微软驱动签名要求等专有生态系统中面临的挑战。 由于工具链更新，此次发布颇具挑战性，并放弃了对 Windows 10 之前版本的支持，以简化维护。签名问题在获得公众关注后迅速解决，但这引发了人们对微软标准流程对不太知名开发者的可靠性的担忧。",
+  "score": 7,
+  "tags": [
+    "WireGuard",
+    "Windows",
+    "Security",
+    "Open Source",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 10, 15:49"
+    }
+  ],
+  "originalUrl": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+  "originalSite": "lists.zx2c4.com",
+  "context": "WireGuard 是一种现代、开源的 VPN 协议，旨在实现简洁性、速度和安全性，由 Jason A. Donenfeld 创建，于 2016 年首次发布。微软要求内核模式驱动程序在 Windows 上必须签名，以确保系统完整性和安全性，这一政策自 Windows Vista 以来一直存在。VeraCrypt 是另一个开源加密工具，最近在微软终止其驱动签名账户时也遇到了类似问题，引发了可能影响 WireGuard 案例的公开讨论。",
+  "discussion": "社区评论对 WireGuard 问题迅速解决表示欣慰，但担忧不太显眼的项目在没有公众抗议的情况下是否会面临类似延误。一些用户质疑此解决方案的普适性，并推测微软是否有针对开源软件的模式，引用了 LibreOffice 和 VeraCrypt 等例子。",
+  "references": [
+    {
+      "title": "WireGuard - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/WireGuard"
+    },
+    {
+      "title": "Driver Signing Policy - Windows drivers | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/kernel-mode-code-signing-policy--windows-vista-and-later-"
+    },
+    {
+      "title": "VeraCrypt - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VeraCrypt"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

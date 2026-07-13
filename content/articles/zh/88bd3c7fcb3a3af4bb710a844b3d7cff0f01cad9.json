@@ -1,0 +1,40 @@
+{
+  "id": "88bd3c7fcb3a3af4bb710a844b3d7cff0f01cad9",
+  "canonicalId": "43536c399875ea9dd2b0dd2cb958d26d7a2f8e1a",
+  "slug": "青龙面板遭挖矿木马植入导致-cpu-占用率飙升至-800",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-26T00:00:00Z",
+  "lang": "zh",
+  "title": "青龙面板遭挖矿木马植入，导致 CPU 占用率飙升至 800%",
+  "summary": "2026 年 2 月 7 日，多名用户发现青龙面板（QingLong Panel）容器管理平台被名为 .fullgc 的挖矿木马植入，导致服务器 CPU 占用率异常升至 800%。该木马通过篡改 config.sh 配置文件实现持久化，并能根据系统架构自动下载恶意程序。 此事影响重大，因为青龙面板是一个用于管理定时任务和脚本的流行开源工具，被开发者和运维团队广泛用于自托管环境。对此类平台的成功加密劫持攻击，可以悄无声息地窃取大量服务器的计算资源，导致云成本激增、合法服务性能下降，并可能引发超越资源盗窃本身的安全漏洞。 安全分析判定该恶意程序属于 SusMiner 家族，主要通过连接 XMR（门罗币）矿池进行非法挖矿。主要攻击目标是管理端口暴露在公网 IPv4 环境下的服务器。建议用户检查 `/ql/data/db/` 路径下的隐藏文件。",
+  "score": 7,
+  "tags": [
+    "security",
+    "malware",
+    "container-security",
+    "cryptojacking",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 25, 14:24"
+    }
+  ],
+  "originalUrl": "https://qxhut.com/?id=52",
+  "originalSite": "qxhut.com",
+  "context": "青龙面板是一个基于 Docker 的开源工具，用于管理和自动化定时任务（如 JavaScript 和 Python 脚本），常用于各种网络自动化需求。加密劫持（Cryptojacking）或加密货币挖矿木马，是一种在未经用户同意的情况下劫持其计算资源来挖掘加密货币的恶意软件，通常会导致 CPU/GPU 使用率飙升和能源成本增加。门罗币（XMR）是一种注重隐私的加密货币，由于其挖矿算法与通用 CPU 兼容，常成为此类恶意软件的目标。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Analysis of Coin Miner Malware - LMNTRIX Blog",
+      "url": "https://lmntrix.com/blog/analysis-of-coin-miner-malware/"
+    },
+    {
+      "title": "Monero ( XMR ) RandomX | Mining Pools",
+      "url": "https://miningpoolstats.stream/monero"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

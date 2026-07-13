@@ -1,0 +1,41 @@
+{
+  "id": "9f87e19b2ee412acd9cc016d387686fde6ac841c",
+  "canonicalId": "2575c5d813efdbcdb165f8945f627da12e9bb496",
+  "slug": "intern-s2-preview35b-参数模型媲美万亿级性能",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Intern-S2-Preview：35B 参数模型媲美万亿级性能",
+  "summary": "上海人工智能实验室发布了 Intern-S2-Preview，一个 35B 参数的科学多模态基础模型，在核心科学任务上性能媲美其万亿级前辈 Intern-S1-Pro。 这表明任务缩放——增加任务的难度和多样性——可以媲美传统参数缩放，使顶尖科学 AI 对计算资源有限的研究者更加可及。 它基于 Qwen3.5 继续预训练，具备从预训练到强化学习的全链条训练，并引入了晶体结构生成和实值预测模块。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Scientific Models",
+    "Task Scaling",
+    "Multimodal"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 15, 10:09",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tdrw0s/internlminterns2preview_hugging_face/"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/internlm/Intern-S2-Preview",
+  "originalSite": "huggingface.co",
+  "context": "传统 AI 缩放侧重于增加模型参数和训练数据。任务缩放则通过系统性地扩展训练任务的种类、难度和覆盖范围来提升模型能力。Intern-S2-Preview 将这一方法应用于科学领域，在不依赖巨大参数量的情况下实现了高效性。",
+  "discussion": "Reddit 社区总体持积极态度，用户称赞该模型的效率以及晶体生成等独特功能。一些用户期待 GGUF 量化版本，并希望推出更大的 122B 版本。讨论中强调了任务缩放作为有前景的研究方向。",
+  "references": [
+    {
+      "title": "Intern-S2-Preview - SGLang Documentation",
+      "url": "https://docs.sglang.io/cookbook/autoregressive/InternLM/Intern-S2-Preview"
+    },
+    {
+      "title": "internlm/Intern-S2-Preview | vLLM Recipes",
+      "url": "https://recipes.vllm.ai/internlm/Intern-S2-Preview"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

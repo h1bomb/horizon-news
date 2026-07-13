@@ -1,0 +1,44 @@
+{
+  "id": "4c0b69bd84da187656dc1f4895b17b3349840dee",
+  "canonicalId": "9989289256fcdb94b6df07b8294f26324815d039",
+  "slug": "solayer-founder-exposes-llm-supply-chain-risks-over-20-of-free-routers-engage-in-malicious-activities",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-10T08:30:00Z",
+  "lang": "en",
+  "title": "Solayer Founder Exposes LLM Supply Chain Risks: Over 20% of Free Routers Engage in Malicious Activities",
+  "summary": "Solayer founder Chaofan Shou published a research paper revealing significant security vulnerabilities in third-party API routers used by LLM agents, with testing of 28 paid and 400 free routers showing that 1 paid and 8 free routers actively inject malicious code, while 17 routers accessed AWS credentials and one stole ETH from test private keys. The research team built the Mine proxy to validate four attack classes and proposed defenses like fail-closed policy gates and response-side anomaly screening. This matters because it highlights critical supply chain risks in the rapidly growing LLM ecosystem, where malicious routers can compromise data integrity, steal credentials, and enable large-scale attacks, potentially affecting businesses and users relying on AI-driven applications. The findings underscore the need for enhanced security measures in API routing to prevent widespread vulnerabilities in AI deployments. The routers act as application-layer proxies that can access JSON payloads in plaintext due to a lack of end-to-end encryption, and the research demonstrated attacks where leaked keys could generate massive billing tokens and take over hosts. The Mine proxy was used to test four attack classes, with defenses including fail-closed policy gates and append-only transparency logging.",
+  "score": 8,
+  "tags": [
+    "LLM Security",
+    "Supply Chain Risk",
+    "Cybersecurity",
+    "API Vulnerabilities",
+    "Research Paper"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/Fried_rice/status/2042423713019412941",
+  "originalSite": "x.com",
+  "context": "LLM supply chain security involves risks across the development, deployment, and distribution of large language models, extending beyond the models themselves to include third-party components like API routers. API routers are intermediaries that handle data traffic between applications and services, and vulnerabilities in these routers can lead to malicious code injection or credential theft, as seen in incidents like hackers exploiting cellular routers' APIs. The Mine proxy is a security testing framework designed to simulate man-in-the-middle attacks and evaluate defenses in proxy environments.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Uncovering Hidden Risks: Security in Large Language Model (LLM)",
+      "url": "https://aiasiapacific.org/2025/04/16/uncovering-hidden-risks-security-in-large-language-model-llm-supply-chain/"
+    },
+    {
+      "title": "Hackers Exploit Cellular Router’s API to Send Malicious SMS",
+      "url": "https://cybersecuritynews.com/hackers-exploit-cellular-routers-api/"
+    },
+    {
+      "title": "Your Agent Is Mine: Measuring Malicious Intermediary Attacks ...",
+      "url": "https://arxiv.org/html/2604.08407v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "8b0869898a2e3f2525fbb95b55590fafd303e1c7",
+  "canonicalId": "d9e0f11e1a7b6abbef8be4c9d268903532b74408",
+  "slug": "qwen35-9b-shows-strong-performance-for-agentic-coding-on-limited-hardware",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-12T16:55:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-9B shows strong performance for agentic coding on limited hardware",
+  "summary": "A user reported positive experiences using Qwen3.5-9B for agentic coding tasks on an Nvidia RTX 3060 with 12GB VRAM, finding it outperformed smaller Qwen2.5 Coder models and certain quantized versions of Qwen3-Coder-30B. The user specifically tested with Kilo Code and Roo Code frameworks, noting improved tool call reliability compared to previous models. This demonstrates that relatively small language models like Qwen3.5-9B can deliver practical agentic coding capabilities on consumer-grade hardware, making advanced AI-assisted development more accessible to individual developers and small teams. The findings challenge assumptions about model size requirements for complex coding tasks and highlight the importance of optimization techniques like quantization for resource-constrained environments. The user tested various quantizations including Unsloth's UD-TQ1_0 format for Qwen3-Coder-30B, finding that 1-bit quants were fast but unreliable for tool calls, while 2-bit quants performed better but felt slow and unstable. They discovered that general Qwen versions not specifically optimized for coding sometimes worked better due to their smaller size, and noted that Qwen3.5-9B provided a good balance of performance and resource usage on their RTX 3060.",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "agentic-coding",
+    "model-evaluation",
+    "hardware-optimization",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Lualcala"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rrw8df/qwen359b_is_actually_quite_good_for_agentic_coding/",
+  "originalSite": "reddit.com",
+  "context": "Agentic coding refers to AI systems that can intelligently suggest code patterns, foresee potential pitfalls, and propose enhancements aligned with best practices, often functioning as autonomous coding assistants. Quantization is a technique that reduces the precision of model weights to decrease memory usage and computational requirements, with methods like Unsloth's dynamic quantization preserving certain parameters at higher precision for better performance. Qwen is a series of large language models developed by Alibaba Cloud, with versions like Qwen2.5 and Qwen3.5 offering different sizes and capabilities for various applications including coding assistance.",
+  "discussion": "Community discussion revealed mixed but generally positive sentiment, with some users sharing alternative model suggestions like OmniCoder-9B and praising Qwen3.5-27B's performance compared to Devstrel 2. Others reported inconsistent experiences, with one user noting Qwen3.5-9B completely messed up their build system, while several asked technical questions about quantization methods, speed measurements (tk/s), and comparisons with other model sizes.",
+  "references": [
+    {
+      "title": "Introducing Agentic Coding : The Future of Development... | Medium",
+      "url": "https://medium.com/@nareshkukkala/introducing-agentic-coding-the-future-of-development-with-xcode-b83d85d23297"
+    },
+    {
+      "title": "Unsloth - Dynamic 4-bit Quantization",
+      "url": "https://unsloth.ai/blog/dynamic-4bit"
+    },
+    {
+      "title": "Has anyone else tried IQ2 quantization? I'm genuinely ... - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rbio4h/has_anyone_else_tried_iq2_quantization_im/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

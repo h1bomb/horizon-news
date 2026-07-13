@@ -1,0 +1,40 @@
+{
+  "id": "5749991abde5adce39fb9ff486427b9482407b86",
+  "canonicalId": "86c4c1bff6e3864b824175899a02661e5262d5f6",
+  "slug": "大语言模型展现模型特定的名字偏好",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T17:07:00Z",
+  "lang": "zh",
+  "title": "大语言模型展现模型特定的名字偏好",
+  "summary": "研究人员发现，大型语言模型对特定角色名字（如 Elena Vasquez 和 Marcus Chen）存在强烈且版本特定的偏好，这些名字在不同 AI 生成内容中一致出现。 这一发现揭示了 LLM 中系统性、模型特定的偏见，对 AI 生成内容检测和理解模型行为具有实际意义。 这些有偏好的名字以相关集合的形式出现在数十个网站上，角色被描绘成火山专家、播客主持人和数千篇论文的作者。该研究是作为名为 CDD 的模型差异比较方法的附带发现产生的。",
+  "score": 8,
+  "tags": [
+    "LLMs",
+    "AI bias",
+    "model behavior",
+    "character names",
+    "arXiv paper"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/CebulkaZapiekana"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/",
+  "originalSite": "reddit.com",
+  "context": "大型语言模型（LLM）是在海量文本数据上训练、能生成类人文本的 AI 系统。由于训练数据中的模式，它们可能表现出偏见。CDD（模型差异比较）方法旨在比较模型行为，而在此案例中，它揭示了每个模型版本特有的名字偏好。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Stage-Wise Model Diffing",
+      "url": "https://transformer-circuits.pub/2024/model-diffing/"
+    },
+    {
+      "title": "Ensemble LLMs with LLM-Blender. LLM-Blender... | Medium",
+      "url": "https://medium.com/@dariussingh/ensemble-llms-with-llm-blender-bebb9eb0e6cf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

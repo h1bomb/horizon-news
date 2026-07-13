@@ -1,0 +1,44 @@
+{
+  "id": "7e0afaa4fba8559b646f54d1d0400948fd3655b0",
+  "canonicalId": "d43c4632fd58c2317b3c74895a5bd13d13eb9b21",
+  "slug": "sglang-v0515-boosts-llm-inference-on-blackwell",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-10T22:58:00Z",
+  "lang": "en",
+  "title": "SGLang v0.5.15 Boosts LLM Inference on Blackwell",
+  "summary": "SGLang v0.5.15 introduces Speculative Decoding V2 with zero-overhead scheduling, achieving +11% end-to-end tokens per second, and IndexShare Multi-Token Prediction (MTP) that reduces draft-step cost by up to 1.9x on long contexts. Additionally, GLM-5.2 with NVFP4 quantization on Blackwell GPUs now serves over 500 tokens per second per user on 8x B300. These optimizations significantly reduce inference latency and cost for production LLM serving, especially on NVIDIA's latest Blackwell architecture. The performance gains in speculative decoding and quantization make high-throughput, low-latency serving more accessible for large models like GLM-5.2, DeepSeek-V4, and others. Key improvements include Spec V2's CUDA-graphable draft-extend with fused metadata ops, IndexShare MTP reusing indexer top-k across steps, TopK V2 fusing top-k with page-table transform, and GEMM shape-specialized JIT routers for Blackwell. The release also enables breakable CUDA Graph by default and adds linear-attention kernels (KDA/GDN) for alternative attention mechanisms.",
+  "score": 8,
+  "tags": [
+    "SGLang",
+    "LLM Inference",
+    "GPU Optimization",
+    "Speculative Decoding",
+    "NVFP4"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Fridge003"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15",
+  "originalSite": "github.com",
+  "context": "Speculative decoding is an inference optimization where a smaller draft model generates multiple candidate tokens, and a larger target model verifies them in parallel, reducing latency. NVFP4 is a 4-bit floating-point format introduced with NVIDIA Blackwell that uses hierarchical scaling for improved accuracy at ultra-low precision. SGLang is an open-source inference engine for LLMs that focuses on high performance and production readiness.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/"
+    },
+    {
+      "title": "Speculative decoding",
+      "url": "https://en.wikipedia.org/wiki/Speculative_decoding"
+    },
+    {
+      "title": "NVFP4 Explained: How NVIDIA Blackwell Unlocks Low-Precision Floating Point",
+      "url": "https://verda.com/blog/nvfp4-nvidia-blackwell-intro"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

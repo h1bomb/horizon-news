@@ -1,0 +1,31 @@
+{
+  "id": "14f0244a0f4e1b211345bff50e5022124ab6a2e2",
+  "canonicalId": "658b7437336580cec643b5cce6f9912bd360d808",
+  "slug": "qwen35-122b-a10b-outperforms-gpt-5-mini-and-gpt-oss-120b-in-comprehensive-benchmark-tests",
+  "date": "2026-02-25",
+  "publishedAt": "2026-02-24T17:18:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-122B-A10B outperforms GPT-5-mini and GPT-OSS-120B in comprehensive benchmark tests.",
+  "summary": "The Qwen3.5-122B-A10B model has demonstrated superior performance against OpenAI's GPT-5-mini and the open-source GPT-OSS-120B across a range of key benchmarks. It achieved higher scores in knowledge (MMLU-Pro), STEM reasoning (GPQA Diamond), agentic tasks (BFCL-V4), and vision tasks (MathVision), establishing itself as the strongest overall performer among the three models. This result is significant as it shows a leading open-source model can match or exceed the performance of a proprietary model from a major AI lab like OpenAI in specific, demanding tasks. It provides a powerful, high-performing alternative for developers and researchers, potentially accelerating open-source AI development and offering more choice in model deployment. While Qwen3.5 leads in most areas, GPT-5-mini remains competitive in some coding benchmarks and translation tasks. A key caveat noted in the community is the difference in native quantization, as GPT-OSS-120B is natively 4-bit while Qwen3.5 is trained at a higher precision, which could affect performance comparisons under resource constraints like limited VRAM.",
+  "score": 8,
+  "tags": [
+    "large-language-models",
+    "benchmarks",
+    "open-source-ai",
+    "model-comparison",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "carteakey"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rdmbhv/qwen35_the_middle_childs_122ba10b_benchmarks/",
+  "originalSite": "reddit.com",
+  "context": "Qwen3.5 is the latest generation of the Qwen series of large language models, which includes both dense and Mixture-of-Experts (MoE) architectures. Benchmarks like MMLU-Pro and GPQA Diamond are standard tools for evaluating LLM capabilities; MMLU-Pro tests broad knowledge across multiple subjects, while GPQA Diamond is a highly challenging subset of questions designed to test deep, expert-level reasoning, particularly in STEM fields.",
+  "discussion": "Community sentiment is excited but measured, with discussions focusing on practical deployment and benchmark validity. Key points include concerns about chart readability, the importance of real-world testing beyond benchmarks, and questions about how the model's performance holds up under quantization for users with hardware constraints like 64GB of VRAM. Some users also expressed curiosity about its performance compared to the larger Qwen3-235B-A22B model.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

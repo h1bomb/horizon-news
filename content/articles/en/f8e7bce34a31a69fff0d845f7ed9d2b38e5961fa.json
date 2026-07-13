@@ -1,0 +1,45 @@
+{
+  "id": "f8e7bce34a31a69fff0d845f7ed9d2b38e5961fa",
+  "canonicalId": "16685ec5a587fb1b3ca0363ccedc50955bd2bdd1",
+  "slug": "six-serious-cves-in-dnsmasq-prompt-security-debate",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T18:12:00Z",
+  "lang": "en",
+  "title": "Six serious CVEs in dnsmasq prompt security debate",
+  "summary": "CERT has released six CVEs for serious security vulnerabilities in dnsmasq, a widely used DNS forwarder and DHCP server, prompting urgent patching calls. These vulnerabilities affect millions of devices, including home routers, Android phones, and Linux systems, potentially allowing remote code execution or denial of service, making the need for memory-safe languages more urgent. The CVEs cover memory safety issues like buffer overflows and use-after-free, typical in C codebases. Patches are available in the latest dnsmasq release, but coordination with distributions like Debian and OpenWRT is ongoing.",
+  "score": 9,
+  "tags": [
+    "security",
+    "dnsmasq",
+    "CVE",
+    "memory safety",
+    "networking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "chizhik-pyzhik",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48112042"
+    }
+  ],
+  "originalUrl": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+  "originalSite": "lists.thekelleys.org.uk",
+  "context": "Dnsmasq is a lightweight, open-source software providing DNS caching, DHCP, TFTP, and network boot for small networks. It runs on Linux, BSDs, Android, and macOS, and is embedded in many home routers and IoT devices. Because it is written in C, it is susceptible to memory safety bugs, which have been a recurring source of vulnerabilities.",
+  "discussion": "Commenters debate the urgency of moving to memory-safe languages like Rust, with some advocating for replacing dnsmasq entirely. Others criticize Debian for shipping an outdated version and discuss OpenWRT's patching progress. Some express a preference for separate tools over dnsmasq's all-in-one approach.",
+  "references": [
+    {
+      "title": "Dnsmasq",
+      "url": "https://en.wikipedia.org/wiki/Dnsmasq"
+    },
+    {
+      "title": "Memory safety",
+      "url": "https://en.wikipedia.org/wiki/Memory_safety"
+    },
+    {
+      "title": "Dnsmasq - network services for small networks.",
+      "url": "https://thekelleys.org.uk/dnsmasq/doc.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

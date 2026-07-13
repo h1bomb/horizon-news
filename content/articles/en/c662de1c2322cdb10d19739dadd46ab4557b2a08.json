@@ -1,0 +1,45 @@
+{
+  "id": "c662de1c2322cdb10d19739dadd46ab4557b2a08",
+  "canonicalId": "eccd6f42623142a5e993eb1a39d5aba7eee5cebf",
+  "slug": "cuda-oxide-nvidias-official-rust-to-cuda-compiler",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T15:55:00Z",
+  "lang": "en",
+  "title": "CUDA-oxide: Nvidia's Official Rust-to-CUDA Compiler",
+  "summary": "Nvidia has released CUDA-oxide, an official compiler that compiles Rust code directly to CUDA PTX, allowing Rust programmers to write GPU kernels without using C/C++. This bridge between Rust's memory safety and CUDA's performance could significantly lower the barrier for GPU programming in Rust, expanding the ecosystem for high-performance computing and machine learning. CUDA-oxide targets PTX (Parallel Thread Execution) directly, bypassing higher-level IRs like MLIR or Tile IR; it is an official NVIDIA Labs project, hosted on GitHub under the NVIDIA organization.",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "CUDA",
+    "GPU",
+    "compiler",
+    "NVIDIA"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "adamnemecek",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48096692"
+    }
+  ],
+  "originalUrl": "https://nvlabs.github.io/cuda-oxide/index.html",
+  "originalSite": "nvlabs.github.io",
+  "context": "CUDA is NVIDIA's proprietary parallel computing platform that allows GPUs to be used for general-purpose processing. PTX is a low-level virtual machine and instruction set architecture that serves as an intermediate representation for CUDA kernels. Rust is a modern systems programming language emphasizing safety and concurrency. CUDA-oxide enables Rust to compile to PTX, thereby allowing Rust code to run on NVIDIA GPUs.",
+  "discussion": "Commenters expressed excitement about the potential drop-in replacement for existing Rust CUDA crates, raising questions about build times and safety semantics. Some questioned the choice of targeting PTX over higher-level IRs, while others discussed implications for languages like Slang. The overall sentiment is positive and curious about technical details.",
+  "references": [
+    {
+      "title": "Cuda platform",
+      "url": "https://en.wikipedia.org/wiki/Cuda_platform"
+    },
+    {
+      "title": "Parallel Thread Execution - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Parallel_Thread_Execution"
+    },
+    {
+      "title": "1. Introduction — PTX ISA 9.2 documentation",
+      "url": "https://docs.nvidia.com/cuda/parallel-thread-execution/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ef8277a6547cc720be8c15396ca36640cfd6cb02",
+  "canonicalId": "bcb6a930ac17af3637b7102559c7e71802951297",
+  "slug": "linux-restartable-sequences-explained",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T14:38:00Z",
+  "lang": "en",
+  "title": "Linux Restartable Sequences Explained",
+  "summary": "An article provides an in-depth technical explanation of Linux restartable sequences (rseq), a kernel feature enabling lock-free data structures without mutexes or atomic operations. This feature can significantly improve performance in multi-threaded applications by eliminating the overhead of traditional synchronization mechanisms, benefiting systems programmers working on high-concurrency code. Restartable sequences work by having the program mark critical sections; if the kernel preempts the thread within that section, it restarts the sequence from the beginning. The librseq library provides helpers for common use cases, so users often do not need to write assembly.",
+  "score": 8,
+  "tags": [
+    "linux",
+    "kernel",
+    "concurrency",
+    "systems-programming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "grappler",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48346019"
+    }
+  ],
+  "originalUrl": "https://justine.lol/rseq/",
+  "originalSite": "justine.lol",
+  "context": "Restartable sequences (rseq) are a Linux kernel mechanism that allows user-space code to perform per-CPU operations atomically without system calls. They were added in Linux kernel 4.18 and are used to efficiently implement reference counting, per-CPU counters, and other lock-free data structures. The kernel detects preemption or migration during a critical section and restarts the sequence, ensuring correctness without traditional locking.",
+  "discussion": "Community sentiment is largely positive, with users expressing excitement about using rseq in their projects. However, some commenters criticized the article's tone and lack of reference to the librseq library, noting that it provides easier-to-use helpers that avoid assembly.",
+  "references": [
+    {
+      "title": "The rseq() manual page [LWN.net]",
+      "url": "https://lwn.net/Articles/1033957/"
+    },
+    {
+      "title": "Kernel development [LWN.net]",
+      "url": "https://lwn.net/Articles/697539/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

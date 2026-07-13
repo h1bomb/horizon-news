@@ -1,0 +1,41 @@
+{
+  "id": "f19c2c872bc333f16499232a8d3004d21220550b",
+  "canonicalId": "995cba7d0f0e8392bb51e095e42da5ee68dc6960",
+  "slug": "cloudflare-meerkat无领导者异步共识算法",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:18:00Z",
+  "lang": "zh",
+  "title": "Cloudflare Meerkat：无领导者异步共识算法",
+  "summary": "Cloudflare Research 推出了 Meerkat，这是一个全球共识服务，采用 QuePaxa 异步共识算法，专为地理分布式系统设计。 Meerkat 代表了异步共识在生产环境中的一次全新尝试，即使在极端网络延迟波动下也能取得进展，有望在全球网络中实现强一致性的服务。 该算法无领导者且不依赖超时，但每个操作（包括读取）都需要全局共识，这可能增加延迟。目前它仍是一个实验，尚未投入生产。",
+  "score": 9,
+  "tags": [
+    "distributed consensus",
+    "cloudflare",
+    "meerkat",
+    "asynchronous algorithms",
+    "quepaxa"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bobnamob",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48831565"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/meerkat-introduction/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "传统的共识算法如 Paxos 和 Raft 是部分同步的，依赖超时来检测故障，在高延迟波动下表现不佳。像 QuePaxa 这样的异步共识算法完全避免使用超时，允许在任意消息延迟下取得进展，但历来在实际中难以高效实现。",
+  "discussion": "评论者指出，将 Meerkat 与 Raft 比较具有误导性，因为 Raft 是基于领导者的，并强调 QuePaxa 的异步特性是核心创新。一些人担心每次读取都需共识的性能开销，而另一些人则认为在挑战性网络条件下具有价值。人们对自定义共识实现持怀疑态度，但对 Cloudflare 能够成功持乐观态度。",
+  "references": [
+    {
+      "title": "Introducing Meerkat: an experiment in global consensus",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/"
+    },
+    {
+      "title": "Cloudflare Meerkat - Globally distributed consensus | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48831565"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

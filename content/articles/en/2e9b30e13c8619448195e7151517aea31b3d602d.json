@@ -1,0 +1,44 @@
+{
+  "id": "2e9b30e13c8619448195e7151517aea31b3d602d",
+  "canonicalId": "5e6671aa1b0480c9eb94b115633625f246df3863",
+  "slug": "apple-approves-third-party-drivers-enabling-amd-and-nvidia-egpus-on-apple-silicon-macs-for-ai-workloads",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-05T11:43:00Z",
+  "lang": "en",
+  "title": "Apple approves third-party drivers enabling AMD and NVIDIA eGPUs on Apple Silicon Macs for AI workloads",
+  "summary": "Apple has officially approved third-party drivers developed by Tiny Corp that allow AMD and NVIDIA external GPUs (eGPUs) to run on Apple Silicon Macs. This breakthrough eliminates the need for complex workarounds like disabling System Integrity Protection (SIP) to use high-performance GPUs for AI large language model inference and training. This development significantly lowers barriers for AI development on Mac platforms by bridging Apple's ecosystem with mainstream GPU hardware, providing an alternative to expensive dedicated AI computing devices. It enables users to significantly boost local computing power for AI workloads through Thunderbolt or USB4 connections, potentially accelerating AI research and application development on Mac systems. The drivers are primarily optimized for AI processing rather than gaming applications, reflecting the current focus on AI workloads. This approval comes amid increased demand for high-memory Mac configurations for AI applications, with Apple even canceling the 512GB unified memory option for Mac Studio due to supply constraints.",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "GPU",
+    "AI",
+    "Hardware",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/pc-components/gpu-drivers/apple-approves-drivers-that-let-amd-and-nvidia-egpus-run-on-mac-software-designed-for-ai-though-and-not-built-for-gaming",
+  "originalSite": "tomshardware.com",
+  "context": "Apple Silicon refers to Apple's custom-designed system-on-chip processors based on ARM architecture, which have replaced Intel processors in Mac computers since 2020. External GPUs (eGPUs) are graphics cards housed in external enclosures that connect to computers via interfaces like Thunderbolt, providing additional graphics processing power. System Integrity Protection (SIP) is a macOS security feature introduced in 2015 that protects system files from modification, which previously needed to be disabled for some eGPU workarounds on Mac systems.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Apple silicon",
+      "url": "https://en.wikipedia.org/wiki/Apple_silicon"
+    },
+    {
+      "title": "eGPU .io | External Graphics Card Community",
+      "url": "https://egpu.io/"
+    },
+    {
+      "title": "System Integrity Protection - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/System_Integrity_Protection"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

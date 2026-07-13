@@ -1,0 +1,44 @@
+{
+  "id": "88a3fac27b71588a338d189e9b5e2e065b397a09",
+  "canonicalId": "a28c23d9a4338b1fcfb3fe6bb28ca87cc53ae161",
+  "slug": "rust-proposes-size-trait-hierarchy-to-address-systems-programming-edge-cases",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-22T13:58:00Z",
+  "lang": "en",
+  "title": "Rust proposes size trait hierarchy to address systems programming edge cases",
+  "summary": "Rust developers David Wood and Rémy Rakic have proposed RFC 3729, which would introduce a hierarchy of size traits beyond the current Sized/Unsized dichotomy, adding two new automatically implemented traits called SizeOfVal and Pointee. This proposal aims to better handle edge cases in systems programming where type sizes are known under different circumstances than the current binary classification allows. This matters because it addresses real-world limitations in Rust's type system that currently prevent certain systems programming use cases, particularly in BPF programs with CO-RE relocations, SIMD vector extensions, and integration with opaque C/C++ types. A more nuanced size hierarchy could enable better compiler optimizations, safer foreign function interfaces, and expanded Rust adoption in embedded systems, kernel programming, and WebAssembly/GPU targets. The proposal introduces SizeOfVal for types whose size can be determined from pointer metadata at runtime (like BPF CO-RE structures), and Pointee for types with no known size at all (like extern types from C libraries). This hierarchy would allow Rust to support previously problematic cases while maintaining type safety, though the feature is still experimental and subject to naming and implementation discussions within the Rust language team.",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "Programming Languages",
+    "Systems Programming",
+    "Compiler Design",
+    "Type Systems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067220/",
+  "originalSite": "lwn.net",
+  "context": "In Rust, types are categorized as either 'sized' (with a constant size known at compile time) or 'unsized' (with a dynamically calculated size known at runtime). This binary classification works for most purposes but fails for certain systems programming scenarios. BPF (Berkeley Packet Filter) programs use CO-RE (Compile Once - Run Everywhere) relocations where structure sizes are unknown at compile time but effectively static at runtime. Similarly, SIMD vector extensions and opaque C/C++ types present challenges that don't fit neatly into Rust's current size model.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "sized_hierarchy - The Rust Unstable Book",
+      "url": "https://doc.rust-lang.org/beta/unstable-book/language-features/sized-hierarchy.html"
+    },
+    {
+      "title": "Tracking Issue for Sized Hierarchy · Issue #144404 · rust ...",
+      "url": "https://github.com/rust-lang/rust/issues/144404"
+    },
+    {
+      "title": "Linux Socket Filtering aka Berkeley Packet Filter (BPF)",
+      "url": "https://www.kernel.org/doc/html/latest/networking/filter.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

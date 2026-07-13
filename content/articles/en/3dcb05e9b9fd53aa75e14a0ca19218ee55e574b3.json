@@ -1,0 +1,45 @@
+{
+  "id": "3dcb05e9b9fd53aa75e14a0ca19218ee55e574b3",
+  "canonicalId": "ff312fb6746cb3ddd8b3129e7e62137781437f45",
+  "slug": "hn-debate-stop-using-jwts-for-browser-sessions",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T16:49:00Z",
+  "lang": "en",
+  "title": "HN Debate: Stop Using JWTs for Browser Sessions",
+  "summary": "A HackerNews discussion titled 'Stop Using JWTs' argues that JSON Web Tokens are unsuitable for browser-based user sessions, sparking a nuanced debate on revocation, expiry, and appropriate use cases. This debate clarifies the trade-offs between JWT and session-based authentication, helping developers choose the right approach for their applications and avoid common security pitfalls. The original argument focuses on the inability to revoke JWTs without a blacklist, but commenters note that short-lived tokens (e.g., 5-15 minutes) with refresh mechanisms can mitigate this, and revocation lists only need to cover unexpired tokens.",
+  "score": 8,
+  "tags": [
+    "JWT",
+    "authentication",
+    "security",
+    "web development",
+    "sessions"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dzonga",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48558147"
+    }
+  ],
+  "originalUrl": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+  "originalSite": "gist.github.com",
+  "context": "JSON Web Tokens (JWTs) are self-contained, signed tokens commonly used for authentication in web applications. They allow stateless verification but complicate revocation because tokens are not stored server-side. Session-based cookies, in contrast, store session IDs server-side, enabling immediate revocation. The debate highlights that while JWTs are problematic for browser sessions, they remain valuable for service-to-service communication where revocation is less critical.",
+  "discussion": "The community is divided: some agree that JWTs are flawed for browser sessions due to revocation issues, while others counter that with short lifetimes and refresh tokens, JWTs work fine. A prominent comment points out that JWTs excel in service-to-service scenarios, such as AWS STS AssumeRoleWithWebIdentity.",
+  "references": [
+    {
+      "title": "Manage JWT token revocation rules - 10Duke Enterprise",
+      "url": "https://docs.enterprise.10duke.com/admin-tools/manage-token-revocation-rules/"
+    },
+    {
+      "title": "How to deal with JWT expiration ? · GitHub",
+      "url": "https://gist.github.com/soulmachine/b368ce7292ddd7f91c15accccc02b8df"
+    },
+    {
+      "title": "Service-To-Service Authorization: A Guide to Non-User Principals | Cerbos",
+      "url": "https://www.cerbos.dev/blog/service-to-service-authorization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

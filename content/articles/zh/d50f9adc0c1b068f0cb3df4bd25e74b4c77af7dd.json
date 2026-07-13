@@ -1,0 +1,44 @@
+{
+  "id": "d50f9adc0c1b068f0cb3df4bd25e74b4c77af7dd",
+  "canonicalId": "68826a2b763723a75817bd4a4a28c152d6db692a",
+  "slug": "ai-将网络安全转变为工作量证明经济模型",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-15T00:00:00Z",
+  "lang": "zh",
+  "title": "AI 将网络安全转变为工作量证明经济模型",
+  "summary": "英国 AI 安全研究所对 Anthropic 的 Claude Mythos AI 模型的评估证实了其卓越的漏洞检测能力，随着投入更多计算代币（和资金），性能会提升，从而将网络安全构建为一个工作量证明模型，其中安全性与经济投入成正比。 这一转变可能从根本上改变网络安全的经济学，为组织大力投资 AI 驱动的安全审查创造强烈激励，可能使系统更具韧性，但也增加了成本，并将安全工作集中在强大的 AI 模型周围。 分析强调，在此模型下，开源库变得更有价值，因为对其的安全投资可以被所有用户共享，这抵制了可能削弱开源项目的低成本'氛围编码'替代趋势。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Cybersecurity",
+    "Proof of Work",
+    "Claude Mythos",
+    "Economic Incentives"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 14, 19:41"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "工作量证明（PoW）是一个最初为防止网络滥用（如垃圾邮件）而提出的概念，要求服务请求者付出计算努力；它在比特币等区块链系统中广为人知，矿工通过解决谜题来验证交易。Claude Mythos 是 Anthropic 的高级 AI 模型，设计用于包括网络安全在内的高性能任务，其能力已由英国 AI 安全研究所独立评估，以评估其对安全实践的影响。英国 AI 安全研究所对 AI 模型进行部署前评估，以了解其风险和益处，重点关注网络安全和交互危害等领域。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Proof of work - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proof_of_work"
+    },
+    {
+      "title": "What is Claude Mythos? | Anthropic’s “Most Powerful” AI",
+      "url": "https://em360tech.com/tech-articles/what-claude-mythos-everything-you-need-know-about-anthropics-most-powerful-ai-model"
+    },
+    {
+      "title": "Pre-Deployment evaluation of OpenAI’s o1 model | AISI Work",
+      "url": "https://www.aisi.gov.uk/blog/pre-deployment-evaluation-of-openais-o1-model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

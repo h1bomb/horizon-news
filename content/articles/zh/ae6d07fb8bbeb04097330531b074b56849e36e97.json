@@ -1,0 +1,45 @@
+{
+  "id": "ae6d07fb8bbeb04097330531b074b56849e36e97",
+  "canonicalId": "0e051cebfbfacece98ac7ec07a517b9a053f4331",
+  "slug": "杰夫格林在家庭实验室测试所有-ip-kvm",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T14:30:00Z",
+  "lang": "zh",
+  "title": "杰夫·格林在家庭实验室测试所有 IP KVM",
+  "summary": "杰夫·格林发布了一篇关于家庭实验室中各种 IP KVM 设备的全面对比，基于实际测试，提供了详细的技术见解和实用建议。 这篇文章帮助家庭实验室爱好者和 IT 专业人员选择合适的远程管理硬件，突出了 PiKVM 等开源方案与商用方案之间的权衡。 测试涵盖了 PiKVM V4 Plus、GL.iNet 和 JetKVM 等设备，讨论了硬件修订版以及特定笔记本上 USB 字节错误等问题。",
+  "score": 9,
+  "tags": [
+    "IPKVM",
+    "homelab",
+    "remote management",
+    "hardware",
+    "PiKVM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vquemener",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48413072"
+    }
+  ],
+  "originalUrl": "https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/",
+  "originalSite": "jeffgeerling.com",
+  "context": "IP KVM（通过网络传输键盘、视频和鼠标信号）允许用户像在现场一样远程控制计算机。PiKVM 是一个开源项目，将树莓派改造成经济实惠的 IP KVM。这些设备对于管理家庭实验室和数据中心中的无头服务器及远程系统至关重要。",
+  "discussion": "评论称赞 PiKVM V4 Plus 的可靠性和功能，一些用户报告 GL.iNet 设备存在问题。还有人提到 Intel vPro AMT 作为内置替代方案，并对杰夫严谨的测试方法表示赞赏。",
+  "references": [
+    {
+      "title": "IPKVM",
+      "url": "https://en.wikipedia.org/wiki/IPKVM"
+    },
+    {
+      "title": "PiKVM",
+      "url": "https://en.wikipedia.org/wiki/PiKVM"
+    },
+    {
+      "title": "KVM over IP - PiKVM",
+      "url": "https://pikvm.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

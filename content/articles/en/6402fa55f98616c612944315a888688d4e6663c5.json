@@ -1,0 +1,40 @@
+{
+  "id": "6402fa55f98616c612944315a888688d4e6663c5",
+  "canonicalId": "cbeedc9eb31dd5eebb00c1ac57afce674bb54395",
+  "slug": "gemma-4-multi-token-prediction-draft-models-released-for-2x-speedup",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-05T16:01:00Z",
+  "lang": "en",
+  "title": "Gemma 4 Multi-Token Prediction Draft Models Released for 2x Speedup",
+  "summary": "Google has released multi-token prediction (MTP) draft models for Gemma 4 (31B, 26B-A4B, E4B, and E2B variants) on Hugging Face. These models enable up to 2x faster text generation through speculative decoding while guaranteeing identical quality to standard decoding. This release brings major efficiency gains to local and on-device AI applications, reducing latency without compromising accuracy. It also reinforces Google's commitment to open-source AI, offering developers a practical tool for more responsive and cost-effective inference. The MTP draft models are lightweight attachments; for example, the E2B draft model is only 78M parameters. They work by predicting multiple tokens ahead, which the target Gemma 4 model then verifies in parallel, achieving speedups up to 2x. Models are available on Hugging Face, and integration is expected in frameworks like llama.cpp and LM Studio.",
+  "score": 9,
+  "tags": [
+    "multi-token-prediction",
+    "gemma-4",
+    "speculative-decoding",
+    "llm-efficiency",
+    "google"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "rerri"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t4jq6h/gemma_4_mtp_released/",
+  "originalSite": "reddit.com",
+  "context": "Multi-token prediction (MTP) is a technique where a model predicts several future tokens at once, improving inference efficiency. Speculative decoding uses a small draft model to propose tokens, which a larger target model verifies in a single pass, ensuring the output distribution exactly matches that of the target model. Google's implementation extends Gemma 4 with draft models specifically trained for MTP, enabling fast, accurate inference on resource-constrained devices.",
+  "discussion": "The community reacted with strong enthusiasm, highlighting the impressive speedups and tiny draft model sizes (e.g., the 78M E2B variant). Users shared visual guides and discussed integration with tools like LM Studio and llama.cpp. Some noted that Gemma models already tend to generate outputs using fewer tokens, which further amplifies the speed benefits. Overall sentiment is highly positive, with few reservations.",
+  "references": [
+    {
+      "title": "Multi-token prediction",
+      "url": "https://grokipedia.com/page/Multi-token_prediction"
+    },
+    {
+      "title": "Speculative decoding",
+      "url": "https://en.wikipedia.org/wiki/Speculative_decoding"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

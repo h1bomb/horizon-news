@@ -1,0 +1,44 @@
+{
+  "id": "e12475ef212fa097b9dc8f1ec4c4150a67af76b0",
+  "canonicalId": "f2bc38ec805dd167317e2927e37c7f721101fafb",
+  "slug": "moongate采用-net-10-和-lua-脚本的现代网络创世纪服务器模拟器发布",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-07T00:00:00Z",
+  "lang": "zh",
+  "title": "Moongate：采用 .NET 10 和 Lua 脚本的现代《网络创世纪》服务器模拟器发布",
+  "summary": "一名开发者发布了 Moongate v2，这是一个使用 .NET 10 从头构建的《网络创世纪》服务器模拟器，具备完整的经典客户端数据包处理层、用于游戏逻辑的 Lua 脚本、用于高效网络同步的空间分区，以及通过 NativeAOT 编译为单一原生二进制文件的功能。该项目包含一个嵌入式管理界面，并使用源生成器实现自动依赖注入和数据包处理，但战斗和技能等核心游戏系统尚未实现。 该项目展示了如何将现代软件工程实践和最新的 .NET 运行时应用于复兴和维护经典游戏生态系统，相比 RunUO 等老旧、继承结构繁重的模拟器，它提供了更模块化、更易维护的架构。它为社区运营的服务器提供了一个基础，通过 Lua 脚本可以更轻松地进行内容迭代，并可能影响未来游戏服务器模拟项目的设计。 该模拟器为其空间分区的世界采用了“增量同步”方法，仅在玩家跨越区域边界时发送数据包以优化带宽。一个关键的架构目标是实现网络逻辑与领域逻辑的严格分离，使用事件驱动的游戏循环，并避免游戏内实体的深层继承层次，以提高代码清晰度和可扩展性。",
+  "score": 7,
+  "tags": [
+    "game-development",
+    "server-emulation",
+    ".NET",
+    "Lua-scripting",
+    "systems-architecture"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 6, 14:22"
+    }
+  ],
+  "originalUrl": "https://github.com/moongate-community/moongatev2",
+  "originalSite": "github.com",
+  "context": "《网络创世纪》是一款于 1997 年发布的开创性大型多人在线角色扮演游戏。像 RunUO 及其后继者 ServUO 这样的服务器模拟器长期以来允许社区运行私人的、定制化的 UO 服务器，在没有官方服务器软件的情况下重现游戏的网络和逻辑。NativeAOT（提前编译）是 .NET 的一种编译模式，能生成独立的原生可执行文件，与标准的即时编译相比，提高了启动速度并减少了内存占用。",
+  "discussion": "社区反响非常积极，融合了对《网络创世纪》的怀旧之情和技术上的赞赏。评论者赞扬了其架构决策，特别是使用源生成器和 Lua 来解耦逻辑。一位前 UOX3 模拟器的维护者分享了怀旧的见解，而其他人则讨论了 UO 独特的社会动态，甚至有人建议集成大语言模型来构建 NPC 人工智能。",
+  "references": [
+    {
+      "title": "RunUO - The Foundation of Ultima Online Emulation Since 2002",
+      "url": "https://www.runuo.com/"
+    },
+    {
+      "title": "NativeAOT in .NET 7 · Issue #61231 · dotnet/runtime · GitHub",
+      "url": "https://github.com/dotnet/runtime/issues/61231"
+    },
+    {
+      "title": "Spatial Partition - Game Programming Patterns",
+      "url": "https://gameprogrammingpatterns.com/spatial-partition.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

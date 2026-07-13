@@ -1,0 +1,44 @@
+{
+  "id": "e374e28edf0403ecb701c5c7b76c5a574444848f",
+  "canonicalId": "c4af99f1f7c1d1fbe094fb2d4c0ba9b5f929ab8e",
+  "slug": "minimax-发布具备自我进化能力的-m27-agent-大模型在-swe-pro-基准测试中达到-5622准确率",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-20T00:00:00Z",
+  "lang": "zh",
+  "title": "MiniMax 发布具备自我进化能力的 M2.7 Agent 大模型，在 SWE-Pro 基准测试中达到 56.22%准确率",
+  "summary": "3 月 18 日，MiniMax 稀宇科技发布了新一代 Agent 旗舰大模型 M2.7，首次展示了通过 Agent Harness 体系实现的模型自我进化路径。该公司称，在部分研发场景中，M2.7 可承担约 30%-50%的工作量，并在内部评测集上实现约 30%的效果提升，在 SWE-Pro 基准测试中达到 56.22%的正确率。 这代表了 AI 智能体开发的重要进展，通过引入自我进化能力，可能大幅减少模型训练和优化过程中的人工干预。在 SWE-Pro 基准测试中展示的性能表明该模型在软件工程任务中具有实际应用价值，可能加速 AI 在开发工作流程中的采用。 据报道，M2.7 模型在 SWE-Pro 基准测试中的表现与 GPT-5.3 相当，该测试评估 AI 智能体在完整代码库和实际错误报告上的能力，而非孤立的编程问题。自我进化能力通过 Agent Harness 系统实现，使模型能够参与自身的强化学习训练工作流程。",
+  "score": 8,
+  "tags": [
+    "AI Agents",
+    "Large Language Models",
+    "Model Self-Evolution",
+    "Benchmark Performance",
+    "AI Development Tools"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 19, 17:29"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40393",
+  "originalSite": "t.me",
+  "context": "AI 智能体是能够通过感知环境并采取行动来实现目标的自主 AI 系统。SWE-Pro 基准测试是一种抗污染评估，通过使用完整代码库向 AI 智能体呈现现实的软件工程挑战。Agent Harness 指的是通过文件系统、沙箱等组件将原始 AI 模型转化为生产就绪系统的框架。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software",
+      "url": "https://arxiv.org/html/2509.16941v2"
+    },
+    {
+      "title": "LangChain Defines Agent Harness Architecture for AI Development",
+      "url": "https://cryptocurrencyandblockchainnews.com/langchain-defines-agent-harness-architecture-for-ai-development/"
+    },
+    {
+      "title": "MiniMax M2.7 Model Helped Build Itself via Self-Evolution ...",
+      "url": "https://aihola.com/article/minimax-m27-self-evolving-model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

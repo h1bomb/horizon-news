@@ -1,0 +1,40 @@
+{
+  "id": "dda6faf49e00cb14a795cfa791ba8f499bee490b",
+  "canonicalId": "dc0d8a9b8ef6f39690fe5a2682288a1f6b79eafe",
+  "slug": "开源工具利用计算机视觉在纽约-10-公里半径内定位街景图像",
+  "date": "2026-03-30",
+  "publishedAt": "2026-03-30T00:00:00Z",
+  "lang": "zh",
+  "title": "开源工具利用计算机视觉在纽约 10 公里半径内定位街景图像。",
+  "summary": "开发者发布了一个名为 Netryx Astra V2 的开源工具，它利用计算机视觉来定位街景图像，不依赖大语言模型或元数据，并提供了一个覆盖纽约 10 公里半径的免费网络演示。该工具可在 GitHub 上获取，演示版因 GPU 成本而设有信用限制，但用户可以安装仓库以在任何城市进行无限次搜索。 该工具通过向公众提供免费可访问的地理定位技术，使城市规划、新闻和安全调查等领域受益。它体现了开源、无元数据图像分析的趋势，有助于增强隐私并减少对专有系统的依赖。 该工具不使用大语言模型或图像元数据，仅依赖计算机视觉技术，网络演示版针对桌面使用优化，但 GPU 成本限制了搜索信用。用户可以通过安装 GitHub 仓库来扩展功能，以索引其他城市并在本地进行无限次搜索。",
+  "score": 7,
+  "tags": [
+    "computer-vision",
+    "geolocation",
+    "open-source",
+    "machine-learning",
+    "image-analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 29, 13:12"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/1ekcaqfqhzrg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "地理定位涉及识别物体（如图像）在现实世界中的地理位置，通常使用计算机视觉和信号传输等技术。传统的图像地理定位方法包括极线约束和方向梯度直方图等特征描述符，但深度学习通过分析视觉线索而不依赖元数据，提高了准确性。此类工具是自动化从街景照片估计位置更广泛努力的一部分，适用于从地图绘制到调查新闻等多种应用。",
+  "discussion": "社区评论显示出积极的参与，用户赞扬该工具在识别布鲁克林 Mirage 等地点时的准确性，并注意到它不使用大语言模型或元数据。讨论包括关于模型架构的技术问题（例如是否使用 MegaLoc 和 MASt3R 的模型）、对潜在滥用进行跟踪的伦理担忧，以及对网站外观的反馈。",
+  "references": [
+    {
+      "title": "Geopositioning - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Geopositioning"
+    },
+    {
+      "title": "Object Tracking and Geo-Localization from Street Images",
+      "url": "https://www.mdpi.com/2072-4292/14/11/2575"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

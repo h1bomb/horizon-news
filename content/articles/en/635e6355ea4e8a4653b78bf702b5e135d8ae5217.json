@@ -1,0 +1,41 @@
+{
+  "id": "635e6355ea4e8a4653b78bf702b5e135d8ae5217",
+  "canonicalId": "9b07d86aa6d34aedc81b079c79209b4fb68ef7a6",
+  "slug": "frontier-ai-disrupts-open-ctf-competitions",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-16T07:01:00Z",
+  "lang": "en",
+  "title": "Frontier AI disrupts open CTF competitions",
+  "summary": "Frontier AI models can now automatically solve many challenges in open Capture The Flag (CTF) competitions, undermining the traditional manual problem-solving process and raising questions about fairness and educational value. This shift threatens the integrity and learning experience of CTF contests, which are critical for cybersecurity training and talent recruitment; it may also set a precedent for AI's impact on skill-based competitions and education. The article highlights that AI can solve challenges in minutes that previously took hours, and introduces a mentality of 'here is the flag' without understanding; however, some argue that automating early challenges is part of CTF culture and not necessarily cheating.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "CTF",
+    "security",
+    "competition",
+    "education"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "frays",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48157559"
+    }
+  ],
+  "originalUrl": "https://kabir.au/blog/the-ctf-scene-is-dead",
+  "originalSite": "kabir.au",
+  "context": "Capture The Flag (CTF) is a cybersecurity competition where participants solve security-related challenges to find hidden flags. Frontier AI refers to the most advanced AI models, such as GPT-4 and Claude, which can perform complex reasoning and code generation. These models are now capable of handling tasks that previously required human expertise, including some CTF challenges.",
+  "discussion": "Comments are mixed: some lament that AI ruins both playing and building CTF challenges, reducing the rewarding collaborative learning process; others like tptacek note that automating challenges is part of CTF culture, and the games will adapt. There is also discussion about the broader collapse of education in the face of AI.",
+  "references": [
+    {
+      "title": "Frontier AI",
+      "url": "https://en.wikipedia.org/wiki/Frontier_AI"
+    },
+    {
+      "title": "Frontier model",
+      "url": "https://grokipedia.com/page/Frontier_model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "e0fc2026f37b231fca3311c15ec86be6cf3697ec",
+  "canonicalId": "4eb03014e2a9fc6f1b98a1ccf3bacf1d12b49ac8",
+  "slug": "vllm-v0250-ships-model-runner-v2-as-default",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T20:06:00Z",
+  "lang": "en",
+  "title": "vLLM v0.25.0 ships Model Runner V2 as default",
+  "summary": "vLLM v0.25.0 makes Model Runner V2 the default for all dense models, removes the legacy PagedAttention implementation, and achieves performance parity between the Transformers modeling backend and native vLLM. This release is a major architectural overhaul that simplifies the codebase, eliminates technical debt, and broadens model support, benefiting the LLM inference community with improved performance and compatibility. The release includes 558 commits from 232 contributors, adds new models like LLaVA-OneVision-2 and GLM-5, and introduces a new Streaming Parser Engine for tool-call/reasoning parsing.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "vLLM",
+    "inference",
+    "open-source",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+  "originalSite": "github.com",
+  "context": "vLLM is an open-source high-throughput LLM inference engine. Model Runner V2 rebuilds the execution core with modular design and GPU-native kernels, replacing the older V1 backend. PagedAttention was a key optimization for memory management but has been superseded by V2's improvements.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model Runner V2: A Modular and Faster Core for vLLM | vLLM Blog",
+      "url": "https://vllm.ai/blog/2026-03-24-mrv2"
+    },
+    {
+      "title": "Model Runner V2 Design Document - vLLM",
+      "url": "https://docs.vllm.ai/en/v0.22.1/design/model_runner_v2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

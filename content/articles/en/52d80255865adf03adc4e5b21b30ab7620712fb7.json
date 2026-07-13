@@ -1,0 +1,44 @@
+{
+  "id": "52d80255865adf03adc4e5b21b30ab7620712fb7",
+  "canonicalId": "778534f656319cb0aa1ade0e6890a31d1e29883e",
+  "slug": "openai-launches-gpt-54-with-a-1-million-token-context-window-and-new-pricing",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-05T18:08:00Z",
+  "lang": "en",
+  "title": "OpenAI launches GPT-5.4 with a 1 million token context window and new pricing.",
+  "summary": "OpenAI has introduced GPT-5.4, a new reasoning model in the GPT-5 series, featuring a massive 1 million token context window. The launch also includes a new pricing structure, with GPT-5.4 priced at $2.50 per million input tokens and $15 per million output tokens. This represents a significant leap in the practical utility of large language models, as the 1M context window allows for processing entire books, large codebases, or lengthy legal documents in a single prompt. The competitive pricing and expanded capacity could shift market dynamics, pressuring competitors like Anthropic and Google to respond. According to the system card, GPT-5.4 is the first general-purpose model in the series to implement specific mitigations for high-capability cybersecurity risks. Notably, there is no additional cost for using tokens beyond the first 200k, unlike some competitors which charge a premium for extended context.",
+  "score": 9,
+  "tags": [
+    "artificial-intelligence",
+    "llm",
+    "openai",
+    "machine-learning",
+    "nlp"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mudkipdev"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-5-4/",
+  "originalSite": "openai.com",
+  "context": "A context window in a large language model (LLM) is the maximum amount of text, measured in tokens, that the model can consider at once when generating a response. It acts as the model's working memory; a larger window allows it to reference more information from a single conversation or document. OpenAI's GPT series and models from companies like Anthropic and Google are leading commercial LLMs, with context window size and pricing being key competitive differentiators.",
+  "discussion": "Community discussion highlights the groundbreaking nature of the 1M context window and analyzes the competitive pricing compared to models like Anthropic's Opus. Some users express frustration with OpenAI's complex model lineup and versioning, praising competitors for simpler offerings. Early user feedback on GPT-5.4's output quality is positive, noting its clear and thoughtful writing compared to previous versions.",
+  "references": [
+    {
+      "title": "What is a Context Window for Large Language Models? - DataCamp",
+      "url": "https://www.datacamp.com/blog/context-window"
+    },
+    {
+      "title": "Pricing | OpenAI | Simple and flexible. Only pay for what you use.",
+      "url": "https://openai.com/api/pricing/"
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card | OpenAI",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2059e0ce0eb4e093bd268b76fa9afeeaf4d6f5ee",
+  "canonicalId": "ee4aeb74a63a782b907e0b3f9a485f3a66db3a14",
+  "slug": "ki-editor一款直接在抽象语法树上操作的代码编辑器",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Ki Editor：一款直接在抽象语法树上操作的代码编辑器",
+  "summary": "Ki Editor 是一款新的代码编辑器，它直接在程序的抽象语法树（AST）上操作，而不是在纯文本上操作。这种方法实现了结构化编辑，并从根本上防止了创建语法无效的程序。 这很重要，因为它代表了从传统的基于文本的编辑向结构感知模型的根本性转变。通过消除语法错误并实现更强大、语义感知的编辑操作，它可以显著提高开发人员的生产力和代码质量。这与编程工具中长期存在的超越纯文本的愿景相一致。 该编辑器具有“一流的语法选择”功能，用于对代码结构进行精细操作。一个被指出的关键挑战是可发现性——用户需要知道他们想要选择的 AST 节点的名称，这与直观地选择文本相比可能不够直观。",
+  "score": 7,
+  "tags": [
+    "programming-tools",
+    "ast",
+    "code-editors",
+    "structured-editing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 7, 10:29"
+    }
+  ],
+  "originalUrl": "https://ki-editor.org/",
+  "originalSite": "ki-editor.org",
+  "context": "抽象语法树（AST）是一种表示源代码语法结构的数据结构，被编译器和工具用于分析和转换。结构化编辑或投影编辑是一种方法，编辑器直接操作底层的程序结构，而不是操作稍后需要被解析的文本。这个概念已经被探索了几十年，但在通用代码编辑器中的主流应用仍然有限。",
+  "discussion": "讨论强调了与现有 IDE 功能（如 JetBrains 的“扩展/收缩选择”）的比较，并承认了 AST 编辑器的历史背景。主要的担忧集中在实际可用性上，特别是对用户而言 AST 节点操作的可发现性。一些评论者表示对直接操作 AST 感到陌生，而另一些人则看到了为节点选择提供更直观视觉提示的潜力。",
+  "references": [
+    {
+      "title": "Abstract syntax tree - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abstract_syntax_tree"
+    },
+    {
+      "title": "Structure editor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Structure_editor"
+    },
+    {
+      "title": "Laurence Tratt: Structured Editing and Incremental Parsing",
+      "url": "https://tratt.net/laurie/blog/2024/structured_editing_and_incremental_parsing.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

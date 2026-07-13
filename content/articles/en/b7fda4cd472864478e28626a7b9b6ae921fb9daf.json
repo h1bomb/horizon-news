@@ -1,0 +1,31 @@
+{
+  "id": "b7fda4cd472864478e28626a7b9b6ae921fb9daf",
+  "canonicalId": "b55191057fa6df72d75e63ce2a72875623d0a3bb",
+  "slug": "github-copilot-moves-to-usage-based-billing",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T16:03:00Z",
+  "lang": "en",
+  "title": "GitHub Copilot Moves to Usage-Based Billing",
+  "summary": "GitHub announced that Copilot will transition from a flat monthly subscription to a usage-based billing model, where users receive a monthly allowance of AI credits that can be topped up or rolled over. The change affects Copilot Pro ($10/month with $10 credits) and Pro+ ($39/month with $39 credits) plans. This pricing shift ends the era of subsidized inference for Copilot users, potentially increasing costs for heavy users and prompting many to evaluate alternatives like OpenRouter or DeepSeek. It reflects a broader industry trend of AI tool providers moving to consumption-based pricing to align costs with actual usage. The new model multipliers range from 1x for base models to 6x for GPT-4 and Sonnet, and up to 27x for Opus, meaning a single request could consume many credits. Users previously could get hundreds of dollars worth of Opus usage for $10/month, but now that usage would cost significantly more.",
+  "score": 8,
+  "tags": [
+    "GitHub Copilot",
+    "pricing",
+    "AI tools",
+    "developer tools",
+    "billing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "frizlab"
+    }
+  ],
+  "originalUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+  "originalSite": "github.blog",
+  "context": "GitHub Copilot is an AI-powered code completion tool that suggests code snippets and functions in real-time. It was launched in 2021 and quickly became popular among developers. The original pricing was a flat monthly fee, which effectively subsidized heavy usage of expensive AI models like GPT-4 and Claude Opus.",
+  "discussion": "Community sentiment is largely negative, with users calling the change a '50x increase' for heavy Opus users and questioning the value proposition. Many are considering switching to pay-as-you-go providers like OpenRouter or free alternatives like DeepSeek, citing the end of subsidized inference.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

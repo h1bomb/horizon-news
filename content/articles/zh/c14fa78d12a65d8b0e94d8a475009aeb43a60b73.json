@@ -1,0 +1,44 @@
+{
+  "id": "c14fa78d12a65d8b0e94d8a475009aeb43a60b73",
+  "canonicalId": "855a8fa0751bff1ff664dd51090006b1c8a6ef79",
+  "slug": "linux-70-懒惰抢占调度器变更引发-postgresql-性能回归调查",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 7.0 懒惰抢占调度器变更引发 PostgreSQL 性能回归调查",
+  "summary": "Linux 内核 7.0 默认启用懒惰抢占调度器模式后，有报告称 PostgreSQL 性能出现 50% 的回归，但调查发现实际情况没有最初报告的那么严重。调查显示，回归是由于 PostgreSQL 的用户空间自旋锁在新的调度器模式下更频繁地被抢占，导致锁争用增加。 这很重要，因为它突显了数据库工作负载对内核调度器变更的敏感性，可能影响许多生产系统。该事件还说明了内核开发者在简化调度器配置的同时，为不同工作负载平衡延迟和吞吐量所面临的持续挑战。 Linux 7.0 中的时间片扩展功能可以通过允许进程在关键部分请求临时抢占保护来缓解此问题，但 PostgreSQL 开发者指出这需要大量代码更改，且对旧内核版本无帮助。懒惰抢占模式会延迟抢占直到任务时间片用完或调度器时钟滴答发生，这与立即响应的完全抢占模式不同。",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "cpu-scheduler",
+    "performance",
+    "postgresql",
+    "kernel-development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 17, 13:34"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067029/",
+  "originalSite": "lwn.net",
+  "context": "CPU 调度器抢占决定了何时将正在运行的进程从 CPU 中移除以允许另一个进程运行，从而在延迟（快速响应）和吞吐量（系统效率）之间取得平衡。Linux 提供了多种抢占模式（如 PREEMPT_NONE、PREEMPT_VOLUNTARY 和实时模式）以适应不同的工作负载，懒惰抢占是一种较新的模式，旨在同时服务于延迟敏感型和吞吐量驱动型应用。PostgreSQL 使用用户空间自旋锁进行并发控制，如果锁持有者在释放锁之前被抢占，可能会导致性能问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The long road to lazy preemption - lwn.net",
+      "url": "https://lwn.net/Articles/994322/"
+    },
+    {
+      "title": "Lazy Preemption Merged Along With Other Scheduler ... - Phoronix",
+      "url": "https://www.phoronix.com/news/Linux-6.13-Sched-Lazy-Preempt"
+    },
+    {
+      "title": "Preemption (computing) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Preemption_(computing)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

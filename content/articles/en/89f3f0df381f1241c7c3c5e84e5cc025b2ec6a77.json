@@ -1,0 +1,31 @@
+{
+  "id": "89f3f0df381f1241c7c3c5e84e5cc025b2ec6a77",
+  "canonicalId": "6e6cdaf0d6010b4433a5ebfd8f1dfdee21499ead",
+  "slug": "openai-releases-gpt-55-a-frontier-coding-model",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T18:01:00Z",
+  "lang": "en",
+  "title": "OpenAI Releases GPT-5.5, a Frontier Coding Model",
+  "summary": "OpenAI has released GPT-5.5, a new frontier coding model, with a gradual rollout starting with Pro and Enterprise accounts. The model scores 82% on the CyberGym benchmark, positioning it as a strong competitor in AI-assisted coding. GPT-5.5 represents a major leap in AI-assisted software engineering, potentially transforming developer productivity and workflow. The release also reignites debate about developer dependency on AI tools, as highlighted by community comments comparing losing access to losing a limb. The rollout is gradual over many hours to ensure service stability, starting with Pro/Enterprise accounts before reaching Plus users. API access is not yet available, but a backdoor via Codex API reportedly provides access to GPT-5.5.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "GPT",
+    "OpenAI",
+    "coding",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-5-5/",
+  "originalSite": "openai.com",
+  "context": "Frontier coding models are AI systems specialized in generating and understanding code, often used by developers to automate tasks and boost productivity. OpenAI's GPT series has evolved from general-purpose language models to domain-specific tools, with GPT-5.5 focusing on coding performance. The CyberGym benchmark evaluates AI models on cybersecurity and coding challenges.",
+  "discussion": "Community sentiment is mixed: some users express unease about growing dependency on AI coding tools, comparing it to an addiction. Others praise the model's performance and OpenAI's more open approach compared to Anthropic's gated Mythos model. A few users note the gradual rollout and backdoor API access as notable details.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

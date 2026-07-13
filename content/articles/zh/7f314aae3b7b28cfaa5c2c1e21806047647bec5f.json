@@ -1,0 +1,31 @@
+{
+  "id": "7f314aae3b7b28cfaa5c2c1e21806047647bec5f",
+  "canonicalId": "8b738af99f45dba04759bff6a26c5b7d97fc207f",
+  "slug": "mle-bench-的提升主要归因于更好的模型而非算法进步",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T14:34:00Z",
+  "lang": "zh",
+  "title": "MLE-Bench 的提升主要归因于更好的模型，而非算法进步",
+  "summary": "一项批判性分析揭示，MLE-Bench 分数在两年内从 30% 提升到 80% 的主要原因在于基础模型的改进和问题定义的转变，而非真正的算法进步。 这一发现挑战了自动机器学习领域算法快速进步的说法，而 FML-Bench 的引入提供了一个标准化的评估框架来隔离算法效率，这对于公平地基准测试至关重要。 当控制相同的步骤预算和模型，并在不同任务上进行测试时，两年前的 AIDE 算法与现代的智能体/进化搜索系统表现相当，这表明算法改进微乎其微。",
+  "score": 8,
+  "tags": [
+    "machine learning",
+    "benchmarking",
+    "automated ML",
+    "algorithms",
+    "AI research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Educational_Strain_3"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/",
+  "originalSite": "reddit.com",
+  "context": "MLE-Bench 是一个用于自动机器学习研究的基准测试，它衡量在机器学习工程任务上的性能。FML-Bench 是一个新的基准测试，它统一了代码编辑智能体、步骤定义以及验证/测试集划分，以便更公平地评估算法效率，从而与模型改进和问题设计选择相分离。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

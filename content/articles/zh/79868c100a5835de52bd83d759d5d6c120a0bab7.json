@@ -1,0 +1,44 @@
+{
+  "id": "79868c100a5835de52bd83d759d5d6c120a0bab7",
+  "canonicalId": "3e85f4ee9087e94c7862ed496fe7c9e7579c6b91",
+  "slug": "qwen35-模型需要大量上下文和详细的系统提示才能有效工作",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-21T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5 模型需要大量上下文和详细的系统提示才能有效工作",
+  "summary": "一位拥有丰富实践经验的用户报告称，Qwen3.5 模型在没有大量上下文和详细系统提示的情况下表现不佳，27B 模型至少需要 3K 令牌才能变得有用。该用户还指出，与其他尺寸相比，35B MoE 变体表现较差。 这一见解对于使用 Qwen3.5 的开发者和研究人员至关重要，因为它突显了该模型以智能体为先的设计理念以及与其他大语言模型不同的特定提示要求。了解这些特性可以显著影响代码生成和任务自动化等领域的部署效率和实际应用成功率。 27B 模型至少需要 3K 令牌的上下文才能变得有用，并且受益于详细说明目标、工具和模态的系统提示。该用户已经尝试了三十多种自定义量化和三种不同的执行后端来优化性能。",
+  "score": 7,
+  "tags": [
+    "Qwen3.5",
+    "LLM",
+    "Prompt Engineering",
+    "Model Quantization",
+    "Local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 20, 03:31"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ryljps/qwen35_is_a_working_dog/",
+  "originalSite": "reddit.com",
+  "context": "Qwen3.5 是阿里巴巴开发的一系列开源权重大语言模型，设计为原生多模态智能体，具有增强的推理、编码和智能体能力。模型量化是一种压缩技术，通过将高精度参数转换为低精度来减少内存使用和计算成本。执行后端指的是用于运行大语言模型生成代码的软件框架或环境，例如多处理或基于 Docker 的系统。",
+  "discussion": "社区成员普遍同意原帖的观察结果，并分享了他们在不同模型尺寸（9B、27B、122B）上的经验。一些人指出，在适当的提示下，9B 模型表现得出奇地好，而其他人则讨论了最佳系统提示长度以及与 Claude 等模型的比较。少数评论对原帖的写作风格表达了不同意见。",
+  "references": [
+    {
+      "title": "Qwen 3.5 Explained: Architecture, Upgrades Over Qwen ... - Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/qwen-3-5-explained-architecture-upgrades-over-qwen-3-benchmarks-and-real-world-use-cases-af38b01e9888"
+    },
+    {
+      "title": "Model Quantization: Deep Learning Optimization | Ultralytics",
+      "url": "https://www.ultralytics.com/glossary/model-quantization"
+    },
+    {
+      "title": "Executing LLM-generated code | Bespoke Labs",
+      "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/executing-llm-generated-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

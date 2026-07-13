@@ -1,0 +1,44 @@
+{
+  "id": "abce81e888638de07f16ff88f8a73f986be89b00",
+  "canonicalId": "f3dac4eb1530a265f0eb7a22f062858c3908de8e",
+  "slug": "去除安全对齐的-gemma-4-e2b-变体基准测试",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T13:44:00Z",
+  "lang": "zh",
+  "title": "去除安全对齐的 Gemma 4 E2B 变体基准测试",
+  "summary": "一位 Reddit 用户发布了对 13 个去除安全对齐的 Google Gemma 4 E2B 模型变体的全面比较，使用 44 GPU 小时评估安全移除效果（HarmBench ASR）和 8 项基准性能，揭示了哪些方法保留了能力。 这项工作通过识别能够在不降低性能的情况下实现高攻击成功率的去除安全对齐技术，为 AI 安全社区提供了可操作的见解，并揭示了声称与实际的性能保留之间的差异，这对开源模型对齐至关重要。 最佳变体（coder3101）实现了 96% 的攻击成功率，甚至在 GSM8K 数学基准上超过了基础模型，而激进的方法会导致困惑度显著增加（高达 7.35 倍）和 token 浪费；此外，13 个模型中有 5 个因共享 KV 投影而丢失了 safetensor 键。",
+  "score": 8,
+  "tags": [
+    "abliteration",
+    "Gemma 4",
+    "model safety",
+    "benchmark",
+    "alignment"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/nathandreamfast"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
+  "originalSite": "reddit.com",
+  "context": "去除安全对齐是一种从大型语言模型中移除安全对齐的技术，通常通过消融或修改拒绝方向来实现。像 Heretic 这样的工具可以自动化这一过程。HarmBench 是一个标准化基准，用于评估针对有害提示的攻击成功率（ASR），衡量模型拒绝或遵从的频率。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Uncensor any LLM with abliteration",
+      "url": "https://huggingface.co/blog/mlabonne/abliteration"
+    },
+    {
+      "title": "GitHub - p-e-w/heretic: Fully automatic censorship removal for",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "title": "[2402.04249] HarmBench: A Standardized Evaluation Framework for",
+      "url": "https://arxiv.org/abs/2402.04249"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

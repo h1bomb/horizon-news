@@ -1,0 +1,45 @@
+{
+  "id": "0de178a594619cd2c9759af8f5e0ccd55f90581d",
+  "canonicalId": "a7a381697344653ca533ce77f6feee86c6ae77b8",
+  "slug": "荷兰以主权为由阻止美国收购-solvinity",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T11:46:00Z",
+  "lang": "zh",
+  "title": "荷兰以主权为由阻止美国收购 Solvinity",
+  "summary": "荷兰政府阻止了 Kyndryl 对云服务提供商 Solvinity 的 1 亿欧元收购，后者托管国家数字身份系统 DigiD，理由是基于情报机构的建议和公共利益考量。 这一决定保护了荷兰公民的隐私和数字主权，阻止美国公司控制处理敏感身份数据的关键基础设施。它为其他国家评估外国拥有关键数字服务所有权树立了先例。 该交易价值 1 亿欧元（1.13 亿美元），涉及从 IBM 分拆出来的美国 IT 基础设施服务提供商 Kyndryl。荷兰经济事务部根据情报机构的建议阻止了收购，理由是存在国家安全和数据保护风险。",
+  "score": 9,
+  "tags": [
+    "cybersecurity",
+    "digital sovereignty",
+    "national security",
+    "identity management",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vrganj",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48278406"
+    }
+  ],
+  "originalUrl": "https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/",
+  "originalSite": "politico.eu",
+  "context": "DigiD 是荷兰官方的数字身份系统，1650 万公民通过它访问税务申报、医疗保健等政府服务。Solvinity 提供托管 DigiD 基础设施的安全托管云服务。担忧在于，美国所有者可能被迫遵守《CLOUD 法案》等美国法律交出数据，从而破坏荷兰的数据保护法律。",
+  "discussion": "评论者表达了宽慰和赞同，认为政府的行动是迟来的，此前议会已投票终止 Solvinity 的合同。讨论中有人主张需要密码学主权，即使面临法律压力，供应商也无法访问数据；也有人质疑荷兰为何不能为 2000 万用户自建开源身份解决方案。",
+  "references": [
+    {
+      "title": "Dutch block US takeover of Solvinity as against public ...",
+      "url": "https://www.reuters.com/technology/dutch-government-block-takeover-cloud-services-company-solvinity-by-us-based-2026-05-26/"
+    },
+    {
+      "title": "DigiD",
+      "url": "https://en.wikipedia.org/wiki/DigiD"
+    },
+    {
+      "title": "Secure Managed Cloud | Solvinity",
+      "url": "https://www.solvinity.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

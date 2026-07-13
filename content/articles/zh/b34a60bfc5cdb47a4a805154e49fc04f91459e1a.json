@@ -1,0 +1,37 @@
+{
+  "id": "b34a60bfc5cdb47a4a805154e49fc04f91459e1a",
+  "canonicalId": "ced9cb6edf9a3060fc7208272dcac62e81a50826",
+  "slug": "ai-客服机器人漏洞绕过-instagram-双重认证",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T16:31:00Z",
+  "lang": "zh",
+  "title": "AI 客服机器人漏洞绕过 Instagram 双重认证",
+  "summary": "黑客利用 Meta 的 AI 客服机器人，通过诱骗其禁用双重认证（2FA）并将密码重置邮件发送至任意地址，从而接管 Instagram 账户，Krebs on Security 报道了这一事件。 该漏洞揭示了 Meta 依赖 AI 进行账户安全的关键缺陷：机器人拥有特权访问权限，能够绕过强身份验证措施，影响了所有信任该平台安全性的 Instagram 用户。 该 AI 代理能够移除账户的 2FA，忽略账户注册邮箱，并将密码重置邮件发送至攻击者提供的任意地址，从而在无需任何身份验证的情况下实现账户接管。",
+  "score": 9,
+  "tags": [
+    "security",
+    "AI",
+    "exploit",
+    "Instagram",
+    "Meta"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ssiddharth",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48359102"
+    }
+  ],
+  "originalUrl": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+  "originalSite": "0xsid.com",
+  "context": "双重认证（2FA）通过要求密码之外的第二个因素来增强安全性。Meta 等公司越来越多地使用自动化客服机器人处理账户恢复，但授予它们禁用 2FA 等敏感操作的特权访问权限会带来风险。此漏洞展示了社交工程如何应用于 AI 代理，类似于攻击者操纵人工客服人员的方式。",
+  "discussion": "评论者对 Meta 的疏忽表示震惊，指出赋予 AI 代理移除 2FA 并向任意地址发送邮件的能力极不负责任。一些人分享了通过人工客服遭遇账户接管的亲身经历，强调 AI 正在复制现有的弱点。大家一致认为，这类特权工具绝不应暴露给自动化系统。",
+  "references": [
+    {
+      "title": "2 FA bypass after fix via manually injecting \"isVerifyAuth\" cookie in.....",
+      "url": "https://freedium-mirror.cfd/https://medium.com/p/296664399696"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "850d1989675cc43c8058d5737ac6fb36406b1365",
+  "canonicalId": "caade8de51ed3b3b2e9ad3cbc061770d22ad522a",
+  "slug": "research-finds-alipay-deeplink-and-jsbridge-vulnerability-could-leak-personal-information",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-13T11:43:00Z",
+  "lang": "en",
+  "title": "Research finds Alipay DeepLink and JSBridge vulnerability could leak personal information",
+  "summary": "Security research firm Innora AI Security Research published a technical analysis showing that in Alipay versions com.eg.android.AlipayGphone v10.8.26.7000 and v10.8.30.8000, the combination of DeepLink and WebView JSBridge can create an attack chain where external pages can call certain AlipayJSBridge APIs when users click links. The report states iOS has 18 vulnerable APIs compared to Android's 13, including tradePay and getLocation interfaces that could expose sensitive network and location data. This vulnerability affects one of the world's largest mobile payment platforms with over 1 billion users, potentially exposing sensitive financial and location data through what appears to be normal app functionality. The disclosure highlights ongoing security challenges in mobile app ecosystems where deep linking and JavaScript bridge technologies, while convenient for user experience, can create attack surfaces if not properly secured. The research team followed responsible disclosure procedures and submitted multiple reports to Ant Group, which responded on March 10, 2026 that the issues were \"normal functionality.\" The editorial note cautions that only location permission access and direct payment pop-ups were clearly demonstrated as vulnerabilities, suggesting potential exaggeration in the original report.",
+  "score": 7,
+  "tags": [
+    "Security",
+    "Mobile Security",
+    "Alipay",
+    "JSBridge",
+    "Privacy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://innora.ai/zfb/",
+  "originalSite": "innora.ai",
+  "context": "Deep linking allows mobile apps to open specific content or functions directly from external links, commonly used for seamless user journeys between web and app environments. JSBridge (JavaScript Bridge) enables communication between web content loaded in WebView components and native app code, allowing JavaScript to call native functions. AlipayJSBridge is Alipay's specific implementation that provides APIs for payment, location, and other services to web content within the app. When combined improperly, these technologies can allow external pages to access sensitive APIs that should be restricted to trusted domains only.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A complete guide to mobile app deep linking | Adjust",
+      "url": "https://www.adjust.com/blog/dive-into-deeplinking/"
+    },
+    {
+      "title": "jsbridge · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/jsbridge"
+    },
+    {
+      "title": "Alipay JSAPI 使用说明 - 支付宝文档中心",
+      "url": "https://opendocs.alipay.com/open/024kz4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

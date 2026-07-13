@@ -1,0 +1,44 @@
+{
+  "id": "b66aaecdd64dca8210ddbf030de556b4a72f686c",
+  "canonicalId": "985edc919304f4cb5a4498a968ddeaddebba24cf",
+  "slug": "deepseek-v4-更新引发社区热议",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-26T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepSeek V4 更新引发社区热议",
+  "summary": "DeepSeek 发布了 V4 模型的更新，延续了其开放权重和详细研究论文的传统，而 Kimi、GLM 和 Qwen 等竞争对手则转向了更封闭的做法。 V4 Pro 模型比 V3.2 大约大 2.5 倍（1.6T 参数对比 0.67T 参数），一些用户报告称其生成时使用的 token 数量显著增加，表明与 GPT-5.4 和 GPT-5.5 等竞争对手相比，智能密度有所下降。",
+  "score": 8,
+  "tags": [
+    "DeepSeek",
+    "LLM",
+    "AI",
+    "Open Source",
+    "Model Update"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 25, 10:10"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/he3eoyzr9bxg1.png",
+  "originalSite": "i.redd.it",
+  "context": "开放权重模型发布训练好的神经网络参数，允许他人运行和微调模型。基础模型在大规模文本语料库上预训练，可以进一步针对特定任务进行微调。DeepSeek 一直是开放权重 LLM 的领导者，持续发表研究并及时发布模型。",
+  "discussion": "社区意见分歧：一些人赞扬 DeepSeek 保持开放性，而另一些人则批评 V4 Pro 的 token 使用量增加以及相比 GPT-5.4 和 GPT-5.5 的智能密度下降，指出 DeepSeek 需要大约 10 倍的 token 才能达到类似性能。",
+  "references": [
+    {
+      "title": "Open Weight Definition (OWD)",
+      "url": "https://openweight.org/"
+    },
+    {
+      "title": "What are Open Source and Open Weight Models?",
+      "url": "https://www.analyticsvidhya.com/blog/2025/04/open-weight-models/"
+    },
+    {
+      "title": "Base LLM vs. instruction-tuned LLM - toloka.ai",
+      "url": "https://toloka.ai/blog/base-llm-vs-instruction-tuned-llm/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "700f5b1d4850af0277e756a26011204ab9f9ef68",
+  "canonicalId": "655e469096b5adb0d6ed352f49c5e261316bc605",
+  "slug": "fbi-extracts-deleted-signal-messages-from-iphone-notification-database-in-criminal-case",
+  "date": "2026-04-10",
+  "publishedAt": "2026-04-09T14:05:00Z",
+  "lang": "en",
+  "title": "FBI extracts deleted Signal messages from iPhone notification database in criminal case",
+  "summary": "During a trial at the Prairieland Detention Center in Texas, the FBI forensically extracted incoming Signal messages from a suspect's iPhone notification database, even though the messages had been deleted from the Signal app. The forensic recovery was possible because message content was preserved in Apple's notification system when lock screen previews were enabled. This revelation exposes a significant privacy vulnerability where supposedly secure and ephemeral Signal messages can persist on devices through notification caches, potentially undermining end-to-end encryption's practical security. The case has real-world legal implications, demonstrating how law enforcement can bypass app-level deletion through forensic analysis of system databases. Only incoming messages were recovered from the notification database, not outgoing messages, according to trial testimony and notes. Signal acknowledged receiving a request for comment on March 12 but did not respond further, while Apple provided no response to inquiries about this forensic method.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "forensics",
+    "Signal",
+    "iPhone",
+    "encryption"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/fbi-extracts-suspects-deleted-signal-messages-saved-in-iphone-notification-database-2/",
+  "originalSite": "404media.co",
+  "context": "Signal is an encrypted messaging app known for its strong end-to-end encryption and privacy features, including disappearing messages. On iOS devices, notifications are managed by Apple's system and can be stored in a database called KnowledgeC.db, which contains metadata and sometimes content from apps. When lock screen notification previews are enabled, message content may be cached in this database even after deletion from the app itself, creating a forensic recovery opportunity.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "FBI Extracts Suspect’s Deleted Signal Messages Saved in iPhone Notification Database",
+      "url": "https://www.404media.co/fbi-extracts-suspects-deleted-signal-messages-saved-in-iphone-notification-database-2/"
+    },
+    {
+      "title": "iOS KnowledgeC.db Notifications – The Forensic Scooter",
+      "url": "https://theforensicscooter.com/2021/10/03/ios-knowledgec-db-notifications/"
+    },
+    {
+      "title": "Screen Security - Signal Support",
+      "url": "https://support.signal.org/hc/en-us/articles/360043469312-Screen-Security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

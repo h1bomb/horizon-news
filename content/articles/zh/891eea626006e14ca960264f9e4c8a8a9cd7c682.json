@@ -1,0 +1,44 @@
+{
+  "id": "891eea626006e14ca960264f9e4c8a8a9cd7c682",
+  "canonicalId": "8c492493dad25ad03745809b9554095614937dda",
+  "slug": "通过探针定向微调让大语言模型表达真实置信度",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T05:15:00Z",
+  "lang": "zh",
+  "title": "通过探针定向微调让大语言模型表达真实置信度",
+  "summary": "研究人员开发了探针定向微调（LoRA）方法，利用内部探针信号教会大语言模型口头表达真实的答案置信度，并通过激活补丁验证了因果效应。 这解决了大语言模型校准的关键问题：模型虽然能内部区分正确与错误答案（AUROC 达 0.76-0.88），但常表达过度自信（99%置信度），该方法通过简单高效的微调使表达置信度与内部知识对齐。 该方法使用 LoRA 微调，仅需几百个样本，在 M3 Ultra 上训练不到 10 分钟。激活补丁实验显示，在置信度位置交换隐藏状态与表达置信度之间的相关性达ρ=0.976，证实了因果效应。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "confidence calibration",
+    "fine-tuning",
+    "probe",
+    "LoRA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Synthium-"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tqrtkn/making_llms_tell_you_how_confident_they_really/",
+  "originalSite": "reddit.com",
+  "context": "大型语言模型常存在校准不佳的问题：它们能在内部检测自己是否知道答案（探针 AUROC 高达 0.88），但口头表达的置信度对所有回答都接近 100%。探针定向微调利用这一内部信号，将探针输出作为模型自身置信度输出的训练目标。激活补丁是一种通过交换不同运行间模型激活值，来检验特定激活是否对输出有因果影响的技术。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AUROC",
+      "url": "https://en.wikipedia.org/wiki/AUROC"
+    },
+    {
+      "title": "Activation Patching : Causal Tracing in Neural Networks - Interactive",
+      "url": "https://mbrenndoerfer.com/writing/activation-patching"
+    },
+    {
+      "title": "Fine - tuning (deep learning) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

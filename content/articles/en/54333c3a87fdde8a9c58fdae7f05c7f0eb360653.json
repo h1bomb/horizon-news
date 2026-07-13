@@ -1,0 +1,41 @@
+{
+  "id": "54333c3a87fdde8a9c58fdae7f05c7f0eb360653",
+  "canonicalId": "7f625f66633806e06a2fdd63667d912b6933e6a6",
+  "slug": "openai-model-disproves-long-standing-erdős-conjecture",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T19:05:00Z",
+  "lang": "en",
+  "title": "OpenAI model disproves long-standing Erdős conjecture",
+  "summary": "An internal OpenAI model has found an infinite family of counterexamples to a central conjecture in discrete geometry, the Erdős unit distance problem, which has been open since 1946. The proof was formally verified and accepted by a panel of external mathematicians. This marks the first time an AI model has disproved a major long-standing conjecture, demonstrating capabilities that go beyond pattern matching to genuine scientific discovery. It could accelerate mathematical research by providing novel insights and constructions that humans might miss. The conjecture was posed by Paul Erdős in 1946 concerning the maximum number of times a single distance can occur among n points in the plane. The model's counterexample yields a polynomial improvement over previous lower bounds, and the proof leverages ideas from algebraic number theory.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "mathematics",
+    "discrete geometry",
+    "LLMs",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tedsanders",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48212493"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+  "originalSite": "openai.com",
+  "context": "Discrete geometry studies combinatorial properties of discrete objects like points, lines, and circles. The Erdős unit distance problem asks: given n points in the plane, what is the maximum number of pairs that are exactly one unit apart? For decades, the best known upper and lower bounds remained far apart. OpenAI's model searched for constructions that maximize unit distances, leading to a new infinite family that disproves Erdős's original conjecture.",
+  "discussion": "Comments reflect a mix of excitement and philosophical debate: some see it as evidence that LLMs can discover genuine new mathematics, while others note that disproving by counterexample is less theoretically profound than proving a theorem. Several commenters draw parallels to specialized AI like Stockfish in chess, predicting a future where AI mathematicians are common.",
+  "references": [
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry | OpenAI",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+    },
+    {
+      "title": "Discrete geometry",
+      "url": "https://en.wikipedia.org/wiki/Discrete_geometry"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "3761e8b25b121d9afff2ea4a932171acb22c4319",
+  "canonicalId": "9f916b7ca7a9af4504dd230c919d09ea99f408cb",
+  "slug": "chrome-devtools-mcp-让-ai-代理能够调试浏览器会话",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Chrome DevTools MCP 让 AI 代理能够调试浏览器会话",
+  "summary": "Google 发布了 Chrome DevTools MCP，这是一个 Model Context Protocol 服务器，允许 Gemini、Claude、Cursor 或 Copilot 等 AI 编程助手控制和检查实时 Chrome 浏览器以进行调试和自动化。该项目最近在 0.20.0 版本中添加了一个独立的 CLI，以帮助降低与 MCP 集成相关的 token 成本。 这种集成通过让 AI 代理执行实时调试、自动化浏览器交互并直接在浏览器环境中验证代码更改，显著增强了 Web 开发工作流程。它代表了向更智能的开发工具迈出的一步，这些工具可以处理重复性任务并在开发过程中提供更深入的见解。 Chrome DevTools MCP 服务器提供了如 performance_start_trace 等工具用于深度调试和性能分析，但目前仅适用于 Chrome 浏览器，且需要配置才能用于其他基于 Chromium 的浏览器。新发布的 CLI 提供了一种替代方案，以减少通常与 MCP 服务器相关的上下文窗口开销。",
+  "score": 7,
+  "tags": [
+    "web-development",
+    "debugging",
+    "AI-agents",
+    "Chrome",
+    "devtools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 15, 19:12"
+    }
+  ],
+  "originalUrl": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+  "originalSite": "developer.chrome.com",
+  "context": "Model Context Protocol (MCP) 是一个开源标准，用于将大型语言模型 (LLMs) 连接到外部工具和数据源，使 AI 代理能够与各种系统交互。Chrome DevTools 是一套内置于 Chrome 浏览器中的 Web 开发者工具，用于调试、性能分析和分析 Web 应用程序。Web 开发中的 AI 代理是虚拟助手，可以自动化测试、调试和代码生成等任务以提高效率。",
+  "discussion": "社区评论显示出不同的反应，一些用户赞扬了现有的替代方案，如 GitHub 上的 chrome-cdp-skill 项目具有类似功能，而另一些用户则批评 Google 的产品落后于 Playwright 等工具。社区还讨论了 MCP 的 token 成本，以及使用 CLI 工具相比 MCP 服务器进行更快、更灵活的自动化的好处。",
+  "references": [
+    {
+      "title": "GitHub - ChromeDevTools/chrome-devtools-mcp: Chrome DevTools ...",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/"
+    },
+    {
+      "title": "Chrome DevTools (MCP) for your AI agent | Blog | Chrome for ...",
+      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

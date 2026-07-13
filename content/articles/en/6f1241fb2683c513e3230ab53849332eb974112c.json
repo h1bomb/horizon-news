@@ -1,0 +1,44 @@
+{
+  "id": "6f1241fb2683c513e3230ab53849332eb974112c",
+  "canonicalId": "16f5537eea680ba50c016b61a1dee4ebcf9cc582",
+  "slug": "beellama-v031-boosts-llm-inference-up-to-493x-with-dflash-and-mtp",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T21:25:00Z",
+  "lang": "en",
+  "title": "BeeLlama v0.3.1 boosts LLM inference up to 4.93x with DFlash and MTP",
+  "summary": "BeeLlama v0.3.1, a fork of llama.cpp, adds DFlash speculative decoding, MTP support, q6_0 KV cache, and TurboQuant. On a single RTX 3090, it achieves up to 177.8 tokens per second on Gemma 4 31B, a 4.93x speedup over baseline. This represents a significant leap in local LLM inference speed, making powerful models like Gemma 4 31B run efficiently on consumer hardware. The integration of advanced techniques like DFlash and MTP in a user-friendly fork lowers the barrier for running large language models locally. The DFlash technique uses a lightweight block diffusion model for speculative decoding, achieving high acceptance rates (e.g., 65.7% acceptance, 90.0% accepted-to-final ratio on Gemma 4 31B). MTP offers a 1.8-1.9x speedup on its own. The update aligns with upstream llama.cpp and includes prebuilt binaries for all platforms.",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "local LLM",
+    "inference optimization",
+    "BeeLlama",
+    "Quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Anbeeld"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tx12t1/beellama_v031_latest_llamacpp_with_extras_dflash/",
+  "originalSite": "reddit.com",
+  "context": "Speculative decoding speeds up LLM inference by using a small draft model to propose multiple tokens, which the large target model verifies in parallel. DFlash is a specific lightweight draft model that uses block diffusion, while MTP (multi-token prediction) is a training method that enables the model itself to predict multiple tokens. Quantization reduces model memory footprint; q6_0 is a 6-bit quantization format for KV cache.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "z-lab/ dflash : DFlash : Block Diffusion for Flash Speculative Decoding ...",
+      "url": "https://github.com/z-lab/dflash"
+    },
+    {
+      "title": "Qwen 3.6 27B and 35B MTP vs Standard on 16GB GPU - Rost Glukhov",
+      "url": "https://www.glukhov.org/llm-performance/benchmarks/comparing-qwen-3-6-mtp-vs-standard/"
+    },
+    {
+      "title": "GGUF Quantization Explained: Q4_K_M vs Q8_0 vs F16 — Which to ...",
+      "url": "https://vucense.com/dev-corner/gguf-quantization-explained-q4-k-m-vs-q8-0-vs-f16-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

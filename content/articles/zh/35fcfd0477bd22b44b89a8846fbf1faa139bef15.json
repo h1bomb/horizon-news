@@ -1,0 +1,44 @@
+{
+  "id": "35fcfd0477bd22b44b89a8846fbf1faa139bef15",
+  "canonicalId": "9d44563f9476151d527beff2eddfd54d38ab454d",
+  "slug": "前沿-ai-模型将通过自动化零日漏洞发现彻底改变漏洞研究",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "前沿 AI 模型将通过自动化零日漏洞发现彻底改变漏洞研究",
+  "summary": "Thomas Ptacek 认为，前沿 AI 模型将很快使编码代理能够通过分析源代码自动发现零日漏洞，可能在几个月内彻底改变漏洞研究。这一转变预计将是一个阶跃式变化而非渐进过程，代理能够执行诸如在代码库中“查找零日漏洞”等任务。 这一发展可能彻底改变漏洞利用开发的经济和实践，使高影响力的漏洞研究更易获取和自动化，从而可能增加安全风险并颠覆传统的网络安全角色。它突显了 AI 在安全领域的快速发展，可能加速数字领域的防御和攻击能力。 这一预测侧重于由前沿模型驱动的编码代理，预计将以阶跃函数方式改进，实现无需缓慢渐进过程的自动化漏洞检测。然而，这种自动化可能引入系统性漏洞，如在 GitHub Copilot 等工具中观察到的跨代理攻击，并且可能无法涵盖所有漏洞利用的复杂性。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Vulnerability Research",
+    "Exploit Development",
+    "Frontier Models",
+    "Coding Agents"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 3, 23:59"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "前沿 AI 模型指的是在推理、效率和多模态任务方面能力最先进的 AI 系统，通常在基准测试中领先，并因意外风险而带来监管挑战。漏洞研究涉及识别软件中的安全缺陷，零日漏洞利用针对的是未知漏洞，可在补丁发布前被利用。编码代理是 AI 驱动的工具，可自动化软件开发任务，如代码分析和生成，并越来越多地应用于网络安全领域，用于漏洞检测等任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vulnerability Research Is Cooked — Quarrelsome",
+      "url": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/"
+    },
+    {
+      "title": "Frontier AI models",
+      "url": "https://grokipedia.com/page/Frontier_AI_models"
+    },
+    {
+      "title": "Zero - day vulnerability - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

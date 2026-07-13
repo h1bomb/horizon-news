@@ -1,0 +1,44 @@
+{
+  "id": "1999f9d847cb47dc168de429c2fbd33129fc89ec",
+  "canonicalId": "bd5d4fef0a95fec1bcac6c15b1cd245ea70ec685",
+  "slug": "hackers-breach-european-commission-via-trivy-supply-chain-attack-leak-92-gb-of-data",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-05T13:55:00Z",
+  "lang": "en",
+  "title": "Hackers breach European Commission via Trivy supply chain attack, leak 92 GB of data",
+  "summary": "A supply chain attack on the Trivy open-source security scanner compromised the European Commission's cloud infrastructure, leading to the theft and public leak of approximately 92 gigabytes of compressed data, including personal information and email contents of staff across dozens of EU institutions. The attack was reported by The Next Web, following earlier coverage by LWN on the Trivy compromise that affected the LiteLLM system. This breach is significant because it demonstrates how supply chain attacks on widely-used open-source tools can compromise high-profile government institutions, eroding trust in open-source security and highlighting vulnerabilities in critical infrastructure. It could lead to increased regulatory scrutiny, impact data privacy for EU staff, and prompt organizations to reassess their dependency on third-party software components. The attack involved a supply chain compromise of Trivy, a security scanner used to detect vulnerabilities, which then facilitated access to the European Commission's systems. Approximately 92 GB of compressed data was stolen and leaked, containing sensitive personal and email information from multiple EU institutions.",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "supply-chain-attack",
+    "open-source",
+    "data-breach",
+    "European-Commission"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066371/",
+  "originalSite": "lwn.net",
+  "context": "Trivy is an open-source security scanner designed to identify vulnerabilities in software, widely used in DevOps and cloud environments. A supply chain attack occurs when attackers compromise a trusted software component, such as an open-source tool, to infiltrate downstream systems that rely on it. LiteLLM is an open-source library that provides a unified interface for calling various large language models, and it was previously compromised in a related attack linked to the Trivy breach.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Trivy",
+      "url": "https://trivy.dev/"
+    },
+    {
+      "title": "Getting Started | liteLLM",
+      "url": "https://docs.litellm.ai/docs/"
+    },
+    {
+      "title": "Supply chain attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

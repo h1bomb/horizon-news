@@ -1,0 +1,39 @@
+{
+  "id": "c638d55092266c3cccd70a4d39f632d916405ed1",
+  "canonicalId": "c714f42920ad499cbb659502d6f5e2c3dfb365f6",
+  "slug": "anthropic-与-spacex-达成-gpu-算力合作提升-claude-使用限制",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 与 SpaceX 达成 GPU 算力合作，提升 Claude 使用限制",
+  "summary": "Anthropic 与 SpaceX 达成合作，使用 xAI 旗下 Colossus 1 数据中心的全部算力，在一个月内获得超过 22 万块 NVIDIA GPU 和 300 兆瓦电力。由此，Claude Code 的速率限制翻倍，Pro/Max 用户的高峰期限制被取消，Claude Opus API 的速率限制也显著提升。 此次合作大幅扩充了 Anthropic 的计算资源，加快了模型训练速度，并提高了 Claude API 的吞吐量。这标志着 AI 公司与大型基础设施提供商之间的合作进一步深化，可能加速先进 AI 模型的开发。 Colossus 1 数据中心位于田纳西州孟菲斯市，创纪录地在 122 天内建成，是最大的 AI 数据中心之一，最初用于训练 xAI 的 Grok 模型。Anthropic 将使用该设施的全部算力，包括超过 22 万块 NVIDIA GPU 和 300 兆瓦容量。",
+  "score": 8,
+  "tags": [
+    "算力合作",
+    "AI基础设施",
+    "NVIDIA GPU",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 7, 08:19"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41259",
+  "originalSite": "t.me",
+  "context": "Anthropic 开发了 Claude 系列大语言模型，通过 Claude Code 等工具用于软件开发等任务。要大规模训练和提供服务，需要配备数千块 GPU 的巨型计算集群。由 SpaceX 旗下 xAI 运营的 Colossus 数据中心正好提供了这样的基础设施。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Anthropic to use all of SpaceX-xAI's Colossus 1 data center compute",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/"
+    },
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

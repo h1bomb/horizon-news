@@ -1,0 +1,44 @@
+{
+  "id": "b0e3f56e5ffbd84149d5e1b6e4e232dfeeae597f",
+  "canonicalId": "289c6345d678978d32404cd577d12ebc2ba7b202",
+  "slug": "lemonade-v10-新增-linux-npu-支持并扩展多模态-ai-功能",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-14T00:00:00Z",
+  "lang": "zh",
+  "title": "Lemonade v10 新增 Linux NPU 支持并扩展多模态 AI 功能",
+  "summary": "本周发布的 Lemonade v10 引入了对 AMD NPU（神经处理单元）的 Linux 支持，并扩展了多模态功能，包括可通过单一基础 URL 访问的图像生成/编辑、转录和语音生成。该版本还包含一个用于管理模型和后端的控制中心 Web 和桌面应用，并全面支持 Ubuntu、Arch、Debian、Fedora 和 Snap。 这很重要，因为它使本地 AI 应用能够在 Linux 系统上利用 AMD NPU 硬件加速，显著提升图像和语音处理等多模态 AI 任务的性能和效率。它通过简化可移植、跨平台应用的部署，增强了本地 AI 生态系统，减少了对云服务的依赖。 Linux NPU 支持在 Ubuntu 24.04 上需要特定的设置步骤，包括安装 rocm-dkms/rocm-utils、使用 'options amdgpu npt=3' 配置 amdgpu 模块，以及设置 HIP_VISIBLE_DEVICES=0 和 LEMONADE_BACKEND=npu 等环境变量。该版本基于四个月前 Lemonade v9 的 C++ 实现构建，并是 AMD Lemonade 开发者挑战的一部分，该挑战提供高端 Strix Halo 笔记本电脑作为奖品。",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "NPU",
+    "Local AI",
+    "Multi-modal AI",
+    "AMD"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 13, 17:49"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/ndpi723pkuog1.png",
+  "originalSite": "i.redd.it",
+  "context": "Lemonade 是一个本地 AI 框架，支持在个人设备上运行语言模型和多模态 AI 应用，无需依赖云端。NPU（神经处理单元）是一种专为 AI 推理任务设计的硬件加速器，例如 AMD 客户端 APU 中的 NPU，相比通用 CPU 或 GPU 能提供更好的性能和效率。多模态 AI 结合了文本、图像和音频等不同数据类型，以增强决策和用户交互。",
+  "discussion": "社区评论表达了对 Linux NPU 支持的兴奋和感谢，用户分享了 Ubuntu 的技术设置技巧，并询问了针对 Strix Halo 硬件的优化方法。有用户请求提供模型转换到 Hybrid 模式的指南，并与其他工具如 LM Studio 进行比较，这突显了实际关切和对进展的热情。",
+  "references": [
+    {
+      "title": "AMD NPU — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/accel/amdxdna/amdnpu.html"
+    },
+    {
+      "title": "Lemonade Server Examples | lemonade",
+      "url": "https://lemonade-server.ai/server/apps/"
+    },
+    {
+      "title": "How to a Multimodal LLM Locally - Jeremy Morgan",
+      "url": "https://www.jeremymorgan.com/blog/generative-ai/how-to-multimodal-llm-local/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

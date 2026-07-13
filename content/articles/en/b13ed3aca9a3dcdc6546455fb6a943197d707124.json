@@ -1,0 +1,44 @@
+{
+  "id": "b13ed3aca9a3dcdc6546455fb6a943197d707124",
+  "canonicalId": "b0c8ce3fdee61b644c5640b8d105e1a76c0fea1d",
+  "slug": "easyduino-open-source-pcb-devboards-for-kicad",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T17:45:00Z",
+  "lang": "en",
+  "title": "Easyduino: Open Source PCB Devboards for KiCad",
+  "summary": "Easyduino is a new open-source GitHub repository that provides KiCad PCB designs for popular microcontroller devboards like Arduino UNO, ESP32, and Raspberry Pi Pico, making it easy for hobbyists and educators to learn PCB design. This project lowers the barrier to entry for learning PCB design by offering proven, open-source templates that can be modified and reused, fostering hands-on education and innovation in hardware development. The repository includes designs for Arduino UNO, Arduino Nano, ESP32, ESP32-S3, Raspberry Pi Pico (RP2040), and STM32 Bluepill, all unified in KiCad with USB-C support and a 4-layer copper stackup optimized for JLCPCB manufacturing.",
+  "score": 7,
+  "tags": [
+    "PCB design",
+    "KiCad",
+    "Arduino",
+    "open source hardware",
+    "education"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Hanqaqa"
+    }
+  ],
+  "originalUrl": "https://github.com/Hanqaqa/Easyduino",
+  "originalSite": "github.com",
+  "context": "KiCad is a free and open-source electronic design automation (EDA) suite used for schematic capture and PCB layout. Designing a custom PCB from scratch can be daunting for beginners, as it requires knowledge of component placement, routing, and manufacturing constraints. Easyduino provides ready-to-use reference designs that demonstrate best practices, allowing learners to start with a working board and modify it for their own projects.",
+  "discussion": "The community response has been overwhelmingly positive, with users praising the project as an amazing resource that fills a gap for open-source devboard designs. Some users shared their own experiences designing similar boards, while others asked for advice on introducing PCB design to children, indicating strong educational interest.",
+  "references": [
+    {
+      "title": "GitHub - Hanqaqa/Easyduino: Eaily dive into different PCB ...",
+      "url": "https://github.com/Hanqaqa/Easyduino"
+    },
+    {
+      "title": "KiCad Tutorial: Make Your First Printed Circuit Board",
+      "url": "https://www.build-electronic-circuits.com/kicad-tutorial/"
+    },
+    {
+      "title": "Easyduino: PCBs open-source para Arduino y ESP32 en KiCad",
+      "url": "https://ecosistemastartup.com/easyduino-pcbs-open-source-para-arduino-y-esp32-en-kicad/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

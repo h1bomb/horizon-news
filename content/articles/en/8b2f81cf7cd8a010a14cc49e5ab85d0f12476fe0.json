@@ -1,0 +1,40 @@
+{
+  "id": "8b2f81cf7cd8a010a14cc49e5ab85d0f12476fe0",
+  "canonicalId": "19fe86119ccbaaa717df230584c24a9762e9b596",
+  "slug": "whisper-ai-generates-135-specific-phrases-during-audio-silence-revealing-training-data-artifacts",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-05T19:04:00Z",
+  "lang": "en",
+  "title": "Whisper AI generates 135 specific phrases during audio silence, revealing training data artifacts.",
+  "summary": "An analysis of thousands of hours of production audio from an open-source meeting bot revealed that OpenAI's Whisper speech recognition model consistently generates 135 specific, coherent phrases during periods of silence, such as 'Thanks for watching!' and repetitive loops. The researchers identified the root cause as artifacts from its YouTube training data and provided a practical blocklist solution to mitigate the issue. This matters because silent-period hallucinations can severely degrade the reliability of automated transcription in production systems, leading to incorrect records in meetings, customer service, or content creation. It highlights a critical weakness in how end-to-end speech models handle the absence of signal and exposes how training data biases can manifest as predictable errors in real-world applications. The hallucinations are not random noise but confident, grammatically correct sentences, including YouTube outros, subtitle watermarks (e.g., 'Subtitles by the Amara.org community'), and infinite token repetition loops. OpenAI's built-in `no_speech_prob` flag is acknowledged in its own documentation as 'not very accurate' for detecting silence, making it an unreliable fix for this specific behavior.",
+  "score": 7,
+  "tags": [
+    "speech-recognition",
+    "whisper",
+    "ai-hallucinations",
+    "production-issues",
+    "openai"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Aggravating-Gap7783"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rlqfd7/we_collected_135_phrases_whisper_hallucinates/",
+  "originalSite": "reddit.com",
+  "context": "OpenAI's Whisper is a state-of-the-art automatic speech recognition (ASR) system based on an encoder-decoder Transformer architecture. It was trained on approximately 680,000 hours of multilingual audio data scraped from the web, with a significant portion coming from YouTube. Unlike traditional ASR systems with separate components, Whisper is an end-to-end model that directly predicts text from audio, which can cause it to treat silence as just another input condition to be completed by its language model decoder.",
+  "discussion": "Community comments confirm the issue is widespread, with users sharing similar hallucinated phrases in Chinese ('请不吝点赞 订阅 转发 打赏支持明镜与点点栏目') and Finnish. Some express frustration, stating the models are 'not production ready,' while others discuss workarounds like push-to-talk foot pedals. A key concern raised is that a simple phrase blocklist could also filter out legitimate speech, depending on the application context.",
+  "references": [
+    {
+      "title": "Whisper (speech recognition system) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Whisper_(speech_recognition_system)"
+    },
+    {
+      "title": "Understanding Whisper's Encoder–Decoder Transformer Architecture",
+      "url": "https://medium.com/@mayankbambal/understanding-whispers-encoder-decoder-transformer-architecture-6d1beea51569"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

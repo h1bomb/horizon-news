@@ -1,0 +1,44 @@
+{
+  "id": "00555de8244338b295676b48fcc95f50741cd0ed",
+  "canonicalId": "16d4ee0ba9793140fdc317c95c851a3a64ff94fb",
+  "slug": "linux-kernel-developers-debate-future-of-multi-generational-lru-memory-management",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-05T15:47:00Z",
+  "lang": "en",
+  "title": "Linux kernel developers debate future of multi-generational LRU memory management",
+  "summary": "As the 2026 LSFMM+BPF Summit approaches, Linux kernel memory-management developers are reconsidering the future of the multi-generational LRU (MGLRU) subsystem that was merged in kernel 6.1 in late 2022. While some developers want to improve MGLRU, others have called for its complete removal due to stalled progress and limited adoption. This debate matters because MGLRU represents a fundamental rethinking of Linux memory management that promised significant performance improvements, and its fate will impact system performance across servers, desktops, and mobile devices. The outcome will determine whether Linux continues with a hybrid approach or reverts to the traditional two-list LRU system, affecting memory efficiency for millions of systems worldwide. Key technical issues include MGLRU's improper balancing of reclaim between anonymous and file-backed pages, which affects how aggressively the kernel reclaims different memory types. Additionally, despite being in the kernel for years, many Android vendors don't enable MGLRU due to various problems, limiting its real-world impact.",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "memory-management",
+    "operating-systems",
+    "performance",
+    "systems-programming"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1060967/",
+  "originalSite": "lwn.net",
+  "context": "The Linux kernel's memory management must decide which memory pages to keep in RAM and which to reclaim to slower storage, using algorithms to predict future page usage. The traditional LRU approach uses active and inactive lists to track recently used pages, while MGLRU extends this to multiple generations of pages based on how recently they were accessed. MGLRU was designed to more accurately identify cold pages while using less CPU time, representing a significant architectural change from the classic two-list approach.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Multi-Gen LRU - The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/admin-guide/mm/multigen_lru.html"
+    },
+    {
+      "title": "Multi-generational LRU: the next generation - LWN.net",
+      "url": "https://lwn.net/Articles/856931/"
+    },
+    {
+      "title": "Linux Storage, Filesystem, MM & BPF Summit | LF Events",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

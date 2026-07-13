@@ -1,0 +1,40 @@
+{
+  "id": "417bba36463764a6ab125d691be35a6245e68b20",
+  "canonicalId": "1cf61d2bf8c344faaa33ce3fad7ce69d6224fedb",
+  "slug": "无锁-python过去现在与未来",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T15:26:00Z",
+  "lang": "zh",
+  "title": "无锁 Python：过去、现在与未来",
+  "summary": "CPython 核心开发者兼指导委员会成员 Thomas Wouters 在 PyCon US 2026 上发表了演讲，介绍了无锁 Python（即移除全局解释器锁 GIL）的动机、历史、现状和未来。 移除 GIL 是一项突破性变革，使 Python 中的线程能够真正并行执行，显著提升多核系统上的性能，并扩展了 Python 对 CPU 密集型和并发工作负载的适用性。 Wouters 指出，GIL 是在多 CPU 系统普及之前引入的，移除它一直是长期目标；他还强调，无锁模式已在近期的 Python 版本中可用，并持续演进。",
+  "score": 9,
+  "tags": [
+    "Python",
+    "GIL",
+    "free-threading",
+    "concurrency",
+    "CPython"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078367/",
+  "originalSite": "lwn.net",
+  "context": "全局解释器锁（GIL）是 CPython 中的一个互斥锁，用于保护对 Python 对象的访问，防止多个线程同时执行 Python 字节码。虽然它简化了内存管理，但也限制了多核系统上的并行性。无锁 Python 移除了 GIL，允许多线程并发运行，这对现代硬件上的性能提升至关重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Python support for free threading — Python 3.14.4",
+      "url": "https://docs.python.org/3/howto/free-threading-python.html"
+    },
+    {
+      "title": "GitHub - python/steering-council: Communications from the ...",
+      "url": "https://github.com/python/steering-council"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

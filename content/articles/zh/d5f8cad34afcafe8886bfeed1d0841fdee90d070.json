@@ -1,0 +1,44 @@
+{
+  "id": "d5f8cad34afcafe8886bfeed1d0841fdee90d070",
+  "canonicalId": "5c2d2b49c36d05d2d42e541bccfc1cac40b6dc24",
+  "slug": "谷歌在-android-17-beta-3-中引入系统级-vpn-分流设置",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-28T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌在 Android 17 Beta 3 中引入系统级 VPN 分流设置",
+  "summary": "谷歌在 Android 17 Beta 3 中加入了系统级 VPN 分流功能，允许用户通过统一设置界面将指定应用排除在 VPN 连接之外。此功能支持在 VPN 已连接时立即生效或在下次连接时生效。 此更新在 VPN 应用中统一了分流设置，通过允许银行、流媒体等应用绕过 VPN 以提升性能和兼容性，从而改善用户体验。它解决了 Android VPN 使用中的一个长期痛点，并可能推动 VPN 功能的更广泛采用。 该功能目前仅面向开发者，需要 VPN 应用接入新的系统级 API 后用户才能使用。它通过集中式设置页面取代了之前各家 VPN 应用各自为政的实现方式。",
+  "score": 7,
+  "tags": [
+    "Android",
+    "VPN",
+    "Networking",
+    "Mobile Development",
+    "Beta Features"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 27, 05:57"
+    }
+  ],
+  "originalUrl": "https://www.androidauthority.com/android-17-vpn-split-tunneling-3652497/",
+  "originalSite": "androidauthority.com",
+  "context": "VPN 分流是一种功能，可将部分流量通过加密的 VPN 路由，同时允许其他流量直接访问互联网，常用于提升性能或访问本地资源。在 Android 中，VPN 功能传统上通过 VpnService API 管理，分流设置由各个应用不一致地处理。系统级实现在整个操作系统中统一了这一过程。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Split tunneling - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Split_tunneling"
+    },
+    {
+      "title": "Android 17 could finally fix one of the most annoying VPN ...",
+      "url": "https://www.androidauthority.com/android-17-vpn-split-tunneling-3652497/"
+    },
+    {
+      "title": "VPN | Connectivity | Android Developers",
+      "url": "https://developer.android.com/develop/connectivity/vpn"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

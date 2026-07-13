@@ -1,0 +1,44 @@
+{
+  "id": "204f048d8e4cdafb35a68a8de415db45d9331013",
+  "canonicalId": "75ba68c21a9afabcf25c58f1a5dacf4e0dfa1e99",
+  "slug": "zer0fit-wraps-google-tabfmtimesfm-in-mcp-server-for-zero-shot-ml",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T12:32:00Z",
+  "lang": "en",
+  "title": "Zer0Fit wraps Google TabFM/TimesFM in MCP server for zero-shot ML",
+  "summary": "A graduate student created Zer0Fit, an MCP server that wraps Google's recently released TabFM and TimesFM foundation models, enabling zero-shot classification, regression, and time-series forecasting via a chat interface like Open WebUI, Claude Code, or Codex CLI. This lowers the barrier for using state-of-the-art zero-shot ML models, allowing developers and researchers to perform complex tabular and time-series tasks without training or tuning, directly from a local LLM interface. The server requires about 16GB of VRAM and runs on CUDA only (no Mac support), with dynamic model loading/unloading and a 5-minute TTL. It achieved 94.7% accuracy on the Iris dataset and an R2 of 0.91 on California housing regression.",
+  "score": 8,
+  "tags": [
+    "MCP",
+    "zero-shot ML",
+    "TimesFM",
+    "TabFM",
+    "ML server"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Porespellar"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+  "originalSite": "reddit.com",
+  "context": "TabFM and TimesFM are zero-shot foundation models from Google Research for tabular data and time-series respectively, trained on synthetic data at scale. The Model Context Protocol (MCP) is an open standard that allows AI applications to connect to external tools and data sources securely.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing TabFM : A zero-shot foundation model for tabular data",
+      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/"
+    },
+    {
+      "title": "What is the Model Context Protocol ( MCP )? - Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/"
+    },
+    {
+      "title": "Google TabFM : LLM for Tabular Data, Bye XGBoost | Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/google-tabfm-llm-for-tabular-data-bye-xgboost-f91e440aeb03"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

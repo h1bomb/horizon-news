@@ -1,0 +1,40 @@
+{
+  "id": "b3334d98a9bf495a0c626805c28a58fc174e6234",
+  "canonicalId": "5a66bd933c1e8884a2cdb9bb9554d3dece5b2825",
+  "slug": "百度开源-8b-文生图模型-ernie-image文字渲染达-sota支持消费级显卡运行",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "lang": "zh",
+  "title": "百度开源 8B 文生图模型 ERNIE-Image：文字渲染达 SOTA，支持消费级显卡运行",
+  "summary": "百度开源了文生图模型 ERNIE-Image，该模型基于单流 Diffusion Transformer (DiT) 架构，参数规模为 80 亿，在 GenEval 和 LongText-Bench 等基准测试中实现了指令遵循与文字渲染能力的开源模型领先水平（SOTA），并支持仅需 24 GB 显存的消费级显卡运行。 这一开源发布通过在高性能消费级硬件上实现 SOTA 性能，显著提升了高质量文生图技术的可及性，可能加速 AI 驱动的创意工具和应用的创新与普及。 该模型在处理中英日韩多语言排版、复杂多主体关系和结构化布局方面表现突出，但相比更小模型，其 24 GB 显存要求可能构成一定的硬件限制。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "text-to-image",
+    "open-source",
+    "computer-vision",
+    "deep-learning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 15, 07:15"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/EtG4iDbft495wD3fTKd1ig",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "文生图模型利用扩散模型等深度学习技术，根据文本描述生成图像。Diffusion Transformer (DiT) 是一种结合了 Transformer 和扩散过程的新架构，用于提升图像合成质量。ERNIE 是百度的多模态基础模型系列，其中 ERNIE-Image 专注于图像生成任务。GenEval 等基准测试通过评估对象组合和布局准确性来衡量文生图的对齐能力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2602.04705] ERNIE 5.0 Technical Report - arXiv",
+      "url": "https://arxiv.org/abs/2602.04705"
+    },
+    {
+      "title": "GenEval 2: Addressing Benchmark Drift in Text-to-Image Evaluation",
+      "url": "https://arxiv.org/abs/2512.16853"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "9780a192ad8cc7c15ddf6946841d85801578fd39",
+  "canonicalId": "0f2cda2aa3491b5dd42565613e15316694929788",
+  "slug": "shore-ai-coding-agents-must-cut-maintenance-costs",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T19:48:00Z",
+  "lang": "en",
+  "title": "Shore: AI Coding Agents Must Cut Maintenance Costs",
+  "summary": "James Shore argues that AI coding agents must reduce maintenance costs in inverse proportion to their productivity gains, otherwise they create an unsustainable maintenance burden that grows quadratically. This challenges the dominant narrative that AI coding tools purely boost productivity, revealing a hidden cost that could lead to long-term software debt and undermine tool adoption. Shore's mathematical argument: if an AI doubles code output without halving maintenance costs, total maintenance costs increase by a factor of four (2×2). Only if maintenance costs decrease by the same multiplier can the system remain sustainable.",
+  "score": 8,
+  "tags": [
+    "AI coding",
+    "software maintenance",
+    "productivity",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Software maintenance (fixing bugs, refactoring, adding features) is a major long-term cost in software engineering. AI coding agents can generate code rapidly but may introduce code that is harder to maintain. Shore's argument highlights that productivity gains from AI can be misleading if the resulting code increases long-term maintenance burden.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

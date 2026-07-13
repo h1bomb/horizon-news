@@ -1,0 +1,44 @@
+{
+  "id": "c1c3e0169d257c9338d9a3cc1dbcf2e10150f1c4",
+  "canonicalId": "068cd8617afcad8a7ea91615a76ef5668cc6f593",
+  "slug": "amd-7900xtx-本地运行-qwen-36-自主创建-android-应用",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-21T00:00:00Z",
+  "lang": "zh",
+  "title": "AMD 7900XTX 本地运行 Qwen 3.6 自主创建 Android 应用",
+  "summary": "一位 Reddit 用户展示了他们的 AMD Radeon RX 7900XTX GPU 成功在本地运行 Qwen 3.6 大语言模型，自主生成并开发完整的 Android 应用程序，无需依赖云端服务。这展示了本地 AI 代理在软件开发任务中的实际应用。 这表明消费级硬件现在能够在本地处理复杂的 AI 驱动开发工作流，减少对云服务的依赖，可能降低成本，同时提高隐私性和控制力。这代表着向让个人开发者和小团队能够使用自主 AI 代理迈出了重要一步。 用户报告在 Windows 上使用量化技术实现了约每秒 150 个令牌的性能，他们认为这相比云端模型已足够用于实际工作。然而，社区讨论强调了在复杂任务上可能出现的\"无限思考循环\"等限制，表明需要仔细管理推理预算。",
+  "score": 7,
+  "tags": [
+    "Local AI",
+    "Qwen 3.6",
+    "Autonomous Agents",
+    "GPU Computing",
+    "Android Development"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 20, 16:27"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/ggvi7d7mgdwg1",
+  "originalSite": "v.redd.it",
+  "context": "Qwen 3.6 是阿里云开发的开源大语言模型，以其在编码和代理任务中的强大性能而闻名。AMD Radeon RX 7900XTX 是一款拥有 24GB 显存的消费级 GPU，通过 ROCm 等框架支持 AI 工作负载。本地 AI 代理是完全在用户硬件上运行、无需互联网连接的自主系统，使用 Ollama 或 LocalAI 等工具来管理模型和工作流。",
+  "discussion": "社区情绪总体积极但务实，用户赞扬 Qwen 3.6 的能力，同时质疑其实际应用性和技术细节。主要讨论集中在令牌生成速度（有报告称类似设置下约 150 t/s）、与 Claude 等云端替代方案的比较、对无限思考循环的担忧，以及 AMD 硬件用户对工具链细节的询问。",
+  "references": [
+    {
+      "title": "qwen 3 . 6 :35b-a3b-coding-bf16",
+      "url": "https://ollama.com/library/qwen3.6:35b-a3b-coding-bf16"
+    },
+    {
+      "title": "LocalAI",
+      "url": "https://localai.io/"
+    },
+    {
+      "title": "Top 5 Local LLM Tools and Models in 2026 - DEV Community",
+      "url": "https://dev.to/lightningdev123/top-5-local-llm-tools-and-models-in-2026-1ch5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "eff4ec30443e42f9d1db59e346fb642aa6dba9c5",
+  "canonicalId": "d9a2efbb68a16420bf1cc5282d8093bab021abde",
+  "slug": "数学家陶哲轩利用-llm-编码代理",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T11:09:00Z",
+  "lang": "zh",
+  "title": "数学家陶哲轩利用 LLM 编码代理",
+  "summary": "著名数学家陶哲轩发表博客文章，详细介绍了使用 LLM 驱动的编码代理构建可视化和软件应用的经验，展示了它们在非传统领域快速原型设计中的实用性。 这验证了 LLM 编码代理对科学家和研究人员而言是实用工具，而不仅限于软件工程师，可能为许多缺乏编程专业知识的人解锁软件创作能力。 陶哲轩指出，虽然 LLM 生成的代码并非其核心研究的关键任务，但用于辅助可视化的风险是可接受的，这反映了对该技术能力的平衡看法。",
+  "score": 8,
+  "tags": [
+    "LLM coding agents",
+    "software development",
+    "visualization",
+    "AI-assisted programming",
+    "Terry Tao"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "subset",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48880170"
+    }
+  ],
+  "originalUrl": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+  "originalSite": "terrytao.wordpress.com",
+  "context": "LLM 驱动的编码代理是利用大型语言模型理解自然语言指令，自主规划、编写、测试和调试代码的 AI 系统。它们超越简单的自动补全，能够执行多步骤任务并与外部工具交互。陶哲轩的博客文章展示了它们在学术数学这一传统上不专注于软件开发的领域的应用。",
+  "discussion": "评论者对传统领域之外的软件潜在需求表示兴奋，有人幽默地将陶哲轩的使用比作米其林星级厨师发现微波炉晚餐。总体情绪认为 LLM 代理是有用的工具，但不应完全信任关键任务。",
+  "references": [
+    {
+      "title": "What is an LLM agent ? – Hostinger Tutorials",
+      "url": "https://www.hostinger.com/ng/tutorials/what-is-an-llm-agent/"
+    },
+    {
+      "title": "What are AI agents? · GitHub",
+      "url": "https://github.com/resources/articles/what-are-ai-agents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

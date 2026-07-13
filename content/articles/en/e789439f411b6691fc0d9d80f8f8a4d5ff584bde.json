@@ -1,0 +1,40 @@
+{
+  "id": "e789439f411b6691fc0d9d80f8f8a4d5ff584bde",
+  "canonicalId": "9508b5a7b5dc78340b495a4028544301a0ea492b",
+  "slug": "qwen36-35b-a3b-surpasses-larger-models-on-terminal-bench-20",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-16T07:19:00Z",
+  "lang": "en",
+  "title": "Qwen3.6-35B-A3B Surpasses Larger Models on Terminal-Bench 2.0",
+  "summary": "Qwen3.6-35B-A3B achieved a score of 24.6% on the Terminal-Bench 2.0 leaderboard, surpassing Gemini 2.5 Pro (19.6%) and Qwen3-Coder-480B (23.9%). The smaller Qwen3.6-9B also scored 9.2%, showing sub-10B models are now competitive on hard agentic benchmarks. This demonstrates that open-source, locally-runable small models can outperform much larger proprietary models, making advanced AI capabilities more accessible. It signals a shift toward efficient, privacy-preserving local AI that reduces compute requirements. The results were achieved using the little-coder scaffold, which is specifically designed for small local models. The scaffold-model gap observed in earlier benchmarks persisted on Terminal-Bench 2.0, highlighting the importance of the scaffolding framework.",
+  "score": 8,
+  "tags": [
+    "Qwen",
+    "Terminal-Bench",
+    "local LLMs",
+    "open source",
+    "benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Creative-Regular6799"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1temio0/qwen3635ba3b_and_9b_are_officially_on_the_public/",
+  "originalSite": "reddit.com",
+  "context": "Terminal-Bench 2.0 is an open-source benchmark that tests an AI model's ability to navigate and complete tasks in a sandboxed terminal environment. Little-coder is a coding agent optimized for small local models, built on top of pi. The scaffold-model gap refers to the performance difference attributable to the scaffolding system rather than the model itself.",
+  "discussion": "The community is excited by the results, with users reporting strong real-world performance of Qwen3.6-35B-A3B and 9B models. Some users express surprise at the scaffold-model gap persisting on this benchmark, while others note ongoing improvements needed in prompt understanding and tool use. Overall sentiment is positive and supportive of the open-source push.",
+  "references": [
+    {
+      "title": "Terminal-Bench 2.0",
+      "url": "https://www.vals.ai/benchmarks/terminal-bench-2"
+    },
+    {
+      "title": "GitHub - itayinbarr/ little - coder : A coding agent optimized to smaller...",
+      "url": "https://github.com/itayinbarr/little-coder"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

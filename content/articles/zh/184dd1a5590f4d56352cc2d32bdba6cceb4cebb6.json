@@ -1,0 +1,44 @@
+{
+  "id": "184dd1a5590f4d56352cc2d32bdba6cceb4cebb6",
+  "canonicalId": "1ec22c2f2524e6399be750374f2aa0bdf934d9bc",
+  "slug": "前-azure-core-工程师详述损害-azure-信任的内部决策",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "前 Azure Core 工程师详述损害 Azure 信任的内部决策。",
+  "summary": "一位前 Azure Core 工程师发表文章，详述了微软内部损害 Azure 可靠性和可信度的具体决策，引发了广泛的社区讨论。该工程师描述了忽视关键技术反馈、优先快速发布功能而非稳定性等行为。 这一内部视角揭示了 Azure 工程和管理文化中的系统性缺陷，可能影响依赖该平台处理关键工作负载的数百万用户和企业。这引发了在竞争激烈的云计算市场中，对云平台可靠性和公司治理的担忧。 该工程师声称已将担忧升级至包括 CEO 和董事会的高层领导，但未获回应，暗示内部沟通可能存在障碍。文章以个人叙述形式呈现，其准确性取决于作者的可信度，可能反映个人不满。",
+  "score": 8,
+  "tags": [
+    "cloud-computing",
+    "azure",
+    "software-engineering",
+    "corporate-culture",
+    "reliability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 2, 16:00"
+    }
+  ],
+  "originalUrl": "https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion",
+  "originalSite": "isolveproblems.substack.com",
+  "context": "Azure 是微软的云计算平台，提供计算、存储和网络等服务，用于构建和管理应用程序。Azure Core 工程师通常专注于 Azure Compute 和 Azure Storage 等基础组件，确保平台的可靠性和性能。云平台可靠性涉及正常运行时间和延迟等指标，内部决策可能对这些方面产生重大影响，正如云运营行业最佳实践所示。",
+  "discussion": "社区评论对该工程师的叙述表示认同，用户指出 Azure 的界面问题、过时文档和服务复杂性作为佐证。一些人质疑作者的动机，争论这是否属于举报或个人不满，但整体情绪倾向于对 Azure 的可靠性和管理实践表示担忧。",
+  "references": [
+    {
+      "title": "Azure built-in roles - Azure RBAC | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles"
+    },
+    {
+      "title": "Azure Reliability | Microsoft Azure",
+      "url": "https://azure.microsoft.com/en-us/explore/reliability"
+    },
+    {
+      "title": "Cloud Operations Best Practices and Resource Guide - CIO.GOV",
+      "url": "https://www.cio.gov/assets/resources/Cloud+Operations+Best+Practices+&+Resources+Guide+-+October+2023.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

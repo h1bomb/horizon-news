@@ -1,0 +1,44 @@
+{
+  "id": "348e4c3b6fbac96c548bfcde3294a31e5377fa47",
+  "canonicalId": "d8a05e939b9e8617f9974e39ce8dbd186c057e7d",
+  "slug": "lingbot-video-sparse-moe-video-diffusion-transformer-with-rl-post-training",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T17:58:00Z",
+  "lang": "en",
+  "title": "LingBot-Video: Sparse-MoE Video Diffusion Transformer with RL Post-Training",
+  "summary": "LingBot-Video is a 13B parameter sparse-MoE video diffusion transformer (1.4B active) that has been post-trained with reinforcement learning using six rewards, including a physical-plausibility reward, and supports action-conditioned world model prediction for robot rollouts. This work advances video generation and world modeling by combining sparse MoE for efficiency, RL post-training for improved plausibility, and open release of weights and code, making it a strong candidate for robotics and video synthesis research. The model uses a DeepSeek-V3-style sparse MoE with 128 experts and top-8 routing, achieving top average performance on RBench but ranking second on general text-to-video. The physical-plausibility reward is judged by a VLM, which raises concerns about reward hacking despite adding real-video negatives.",
+  "score": 8,
+  "tags": [
+    "video generation",
+    "world models",
+    "sparse MoE",
+    "diffusion transformers",
+    "reinforcement learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Savings-Display5123"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ur0bxq/lingbotvideo_sparsemoe_video_diffusion/",
+  "originalSite": "reddit.com",
+  "context": "Diffusion transformers (DiTs) replace convolutional U-Net backbones with transformer architectures for denoising in generative models. Sparse mixture of experts (MoE) activates only a subset of parameters per forward pass, enabling larger model capacity with lower computational cost. Reinforcement learning from reward models can fine-tune generative models for specific objectives, such as physical plausibility.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Sparse mixture-of-experts",
+      "url": "https://en.wikipedia.org/wiki/Sparse_mixture-of-experts"
+    },
+    {
+      "title": "Diffusion Transformer",
+      "url": "https://en.wikipedia.org/wiki/Diffusion_Transformer"
+    },
+    {
+      "title": "SGLang",
+      "url": "https://en.wikipedia.org/wiki/SGLang"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

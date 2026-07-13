@@ -1,0 +1,40 @@
+{
+  "id": "651d60f5ef61624f456d903afc6587e8eb4962f2",
+  "canonicalId": "7912eb986e75fbb004a20d177e119680cefe30d6",
+  "slug": "hermes-email-integration-mistakenly-sent-pairing-requests-to-all-email-senders-causing-mass-emails",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-20T14:03:00Z",
+  "lang": "en",
+  "title": "Hermes email integration mistakenly sent pairing requests to all email senders, causing mass emails.",
+  "summary": "A user reported that the Hermes email integration, intended as a bidirectional chat channel, incorrectly sent pairing codes to all email senders from their Gmail account instead of summarizing inbox content, leading to unintended mass emails. This occurred when the user connected Hermes expecting it to read emails, but it treated each sender as a stranger trying to message the bot. This incident highlights significant design flaws and security risks in AI email integrations, potentially exposing user privacy and causing operational disruptions. It underscores the importance of clear documentation and robust error handling in automation tools to prevent similar failures in the broader AI and software ecosystem. The integration sent messages including pairing codes and error responses, such as 'Too many pairing requests right now~ Please try again later!' and even emailed a user's interruption attempt to the sender it was mid-pairing with. This failure occurred because Hermes is designed as a bidirectional chat channel, not an inbox reader, leading to misinterpretation of email senders as chat participants.",
+  "score": 7,
+  "tags": [
+    "AI Integration",
+    "Email Automation",
+    "Privacy Issues",
+    "Software Failure",
+    "Community Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "lickonmybbc"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/gzpfozaxqcwg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Hermes is an email integration tool that functions as a bidirectional chat channel, allowing users to interact with email senders through a chat interface, rather than simply reading emails. Pairing codes are typically used in systems like Bluetooth or software integrations to establish secure connections between devices or users, but in this context, they were misapplied to email communication. The incident relates to AI automation tools that aim to streamline email management but require careful configuration to avoid privacy breaches.",
+  "discussion": "Community comments expressed a mix of concern and humor, with users sharing similar experiences and emphasizing the need for better design and security practices. Some suggested using alternative tools like Himalaya or setting up dedicated email accounts for AI integrations, while others questioned the necessity of cloud-based email tools and highlighted the risks of granting third-party access.",
+  "references": [
+    {
+      "title": "Hermes email generator · Issue #83 · matcornic/hermes ·",
+      "url": "https://github.com/matcornic/hermes/issues/83"
+    },
+    {
+      "title": "Build a bidirectional chat -email gateway with Mailgun and GoDaddy",
+      "url": "https://medium.com/codex/bidirectional-chat-email-gateway-with-mailgun-and-godaddy-771e6fa471d1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "c57474aab24545d66025f0103e0b8245f1496052",
+  "canonicalId": "0d3b8e64abc8f22828779cad9108f50d7575c9b2",
+  "slug": "qwen36-27b-runs-at-80-tps-on-single-rtx-5090-with-vllm",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-25T10:21:00Z",
+  "lang": "en",
+  "title": "Qwen3.6-27B runs at 80 tps on single RTX 5090 with vLLM",
+  "summary": "A Reddit user demonstrated running the Qwen3.6-27B model at approximately 80 tokens per second with a 218k context window on a single RTX 5090 GPU using vLLM 0.19.1rc1, and shared a detailed recipe for reproducing the setup. This achievement shows that large 27B-parameter models can now run efficiently on consumer-grade hardware, making advanced LLM inference more accessible to individuals and small teams without expensive server infrastructure. The model uses NVFP4 quantization and Multi-Token Prediction (MTP) to reduce memory and improve throughput. The recipe is based on a previous post for Qwen3.5-27B, which achieved 77 tps on the same hardware.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "vLLM",
+    "RTX 5090",
+    "Qwen",
+    "local inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Kindly-Cantaloupe978"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sv8eua/qwen3627b_at_80_tps_with_218k_context_window_on/",
+  "originalSite": "reddit.com",
+  "context": "NVFP4 is a 4-bit floating-point quantization format that preserves dynamic range better than integer quantization. Multi-Token Prediction (MTP) is a training strategy where the model learns to predict multiple future tokens simultaneously, which can be combined with speculative decoding to speed up inference. vLLM is an open-source high-throughput inference engine that supports various optimizations for LLM serving.",
+  "discussion": "The post received high engagement (266 upvotes, 97% ratio), indicating strong community interest. Comments likely discuss the impressive performance and the practicality of running large models on consumer GPUs.",
+  "references": [
+    {
+      "title": "[2601.20088] Quantization-Aware Distillation for NVFP4",
+      "url": "https://arxiv.org/abs/2601.20088"
+    },
+    {
+      "title": "[2512.02010] Four Over Six: More Accurate NVFP4 Quantization",
+      "url": "https://arxiv.org/abs/2512.02010"
+    },
+    {
+      "title": "vllm -project/ vllm : A high-throughput and memory-efficient inference ...",
+      "url": "https://github.com/vllm-project/vllm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

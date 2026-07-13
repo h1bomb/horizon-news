@@ -1,0 +1,31 @@
+{
+  "id": "7484594d4fb2906cec3849ae84b0bffc98261682",
+  "canonicalId": "0c67b69c7bbdd8294fdcdc9965e0871a78f79000",
+  "slug": "linux-kernel-developer-proposes-autoreap-and-pidfs-flags-for-clone3-system-call",
+  "date": "2026-02-25",
+  "publishedAt": "2026-02-24T15:26:00Z",
+  "lang": "en",
+  "title": "Linux kernel developer proposes AUTOREAP and PIDFS flags for clone3() system call",
+  "summary": "Christian Brauner has proposed two new flags for the clone3() system call: CLONE_AUTOREAP, which automatically cleans up child processes when they exit, and CLONE_PIDFD_AUTOKILL, which ties a child process's life to its pidfd file descriptor and kills it if the pidfd is closed. These proposals extend the pidfd API and represent a significant change to Linux's process management security model. This matters because it fundamentally changes how processes are managed on Linux systems, moving toward safer and more deterministic process handles via pidfds. The CLONE_PIDFD_AUTOKILL flag in particular introduces a new security model where process lifetime is tied to a file descriptor, which could prevent orphaned processes but also raises concerns about unexpected terminations. The CLONE_AUTOREAP flag provides a 'fire-and-forget' pattern where exit status is unavailable unless CLONE_PIDFD is also used. CLONE_PIDFD_AUTOKILL requires both CLONE_PIDFD and CLONE_AUTOREAP, and kills the child with SIGKILL if its pidfd is closed, which some developers find controversial due to its abrupt termination behavior.",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "systems-programming",
+    "process-management",
+    "kernel-api",
+    "pidfd"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1059673/",
+  "originalSite": "lwn.net",
+  "context": "The pidfd API provides file descriptors that refer to processes, offering safer and more deterministic process handles than traditional process IDs. The clone3() system call creates new processes or threads, and the existing CLONE_PIDFD flag returns a pidfd for the new process. In traditional Unix, parents must call wait() to 'reap' zombie processes after children exit, or set SIGCHLD to SIG_IGN for automatic cleanup of all children.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

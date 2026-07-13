@@ -1,0 +1,40 @@
+{
+  "id": "c473cb9d11dc3dd5e58107017ffa4dfe11237b10",
+  "canonicalId": "69279c047537f04a311b6463aec85920d12324e4",
+  "slug": "claude-code-source-code-leaked-via-npm-registry-revealing-undercover-mode-and-internal-practices",
+  "date": "2026-04-01",
+  "publishedAt": "2026-03-31T13:04:00Z",
+  "lang": "en",
+  "title": "Claude Code source code leaked via NPM registry, revealing undercover mode and internal practices",
+  "summary": "The source code for Claude Code, an AI coding assistant tool, was accidentally leaked through a map file in the NPM registry on March 31, 2026. The leak exposed internal features like 'undercover mode' that hides AI attribution in commits, frustration detection regexes, and detailed business decision comments in the codebase. This leak represents a significant security incident for a major AI tool provider, potentially undermining user trust and exposing proprietary practices. It highlights broader concerns about AI tool security, transparency, and the ethical implications of features designed to conceal AI involvement in collaborative coding environments. The leak occurred via an NPM registry map file, which typically contains metadata for package distribution but in this case included full source code. The 'undercover mode' specifically instructs the AI to avoid mentioning 'Claude Code' or AI authorship in commit messages and PR descriptions, raising questions about disclosure practices.",
+  "score": 8,
+  "tags": [
+    "security",
+    "ai-tools",
+    "source-code-leak",
+    "trust",
+    "npm"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "alex000kim"
+    }
+  ],
+  "originalUrl": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+  "originalSite": "alex000kim.com",
+  "context": "Claude Code is an AI-powered coding assistant developed by Anthropic, designed to help developers write and review code. The NPM (Node Package Manager) registry is a public repository for JavaScript packages where developers publish and share code modules. 'Undercover mode' in this context refers to a feature that allows the AI tool to contribute to projects without revealing its identity as an AI system, which differs from security-focused undercover modes in tools like Kali Linux.",
+  "discussion": "Community discussion focused on trust erosion, with users expressing concern about multiple recent incidents including this leak and previous Mythos leak. Some commenters highlighted the ethical implications of 'undercover mode' hiding AI attribution, while others noted the exposure of what would traditionally be considered trade secrets through detailed code comments.",
+  "references": [
+    {
+      "title": "Anthropic Claude Code Leak Reveals Secrets—Self-Healing Memory, Undercover Mode, KAIROS Features Unveiled | IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/claude-code-leak-advanced-ai-secrets-1789623"
+    },
+    {
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes ...",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

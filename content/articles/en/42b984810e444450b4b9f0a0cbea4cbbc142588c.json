@@ -1,0 +1,44 @@
+{
+  "id": "42b984810e444450b4b9f0a0cbea4cbbc142588c",
+  "canonicalId": "ffde35eb4c25f994e33bf97fb0c72b573ad29814",
+  "slug": "nekogram-1252-contains-backdoor-that-silently-steals-user-phone-numbers",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T12:58:00Z",
+  "lang": "en",
+  "title": "Nekogram 12.5.2 Contains Backdoor That Silently Steals User Phone Numbers",
+  "summary": "Security researchers discovered that Nekogram 12.5.2, a third-party Telegram client available on Google Play, contains backdoor code that silently collects phone numbers from all logged-in accounts and transmits them via Inline Query to a developer-controlled bot (@nekonotificationbot). The backdoor was confirmed through independent decompilation and comparison, existing only in the compiled APK release while the public GitHub source code contains harmless placeholder code. This is significant because Nekogram is a widely-used third-party Telegram client, and the intentional backdoor represents a serious breach of user privacy and trust, potentially affecting thousands of users who rely on unofficial clients for enhanced features. The incident highlights security risks in third-party messaging apps and raises concerns about developer accountability in open-source projects where compiled versions may differ from public source code. The backdoor code is located in Extra.java (obfuscated as uo5) and works by iterating through 8 account slots, extracting UserID and phone numbers, concatenating them with a key, and sending via Inline Query with all critical strings encrypted using custom obfuscation. The developer claimed the bot was only for \"parsing usernames,\" but the code explicitly extracts phone fields and uses stealthy transmission methods that contradict this explanation.",
+  "score": 8,
+  "tags": [
+    "security",
+    "telegram",
+    "privacy",
+    "malware",
+    "mobile-apps"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://thebadinteger.github.io/nekogram-phone-exfiltration/",
+  "originalSite": "thebadinteger.github.io",
+  "context": "Nekogram is an open-source third-party Telegram client for Android that offers additional features and customization options beyond the official Telegram app. Inline Query is a Telegram Bot API feature that allows bots to send various types of content (like stickers, videos, or locations) in a fire-and-forget manner, often used for interactive functionality. APK decompilation is a common security analysis technique where Android application packages are reverse-engineered to examine their source code, allowing researchers to verify if compiled versions match publicly available source code.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Nekogram | Open-source third-party Telegram client with few but",
+      "url": "https://nekogram.app/"
+    },
+    {
+      "title": "Inline Bots",
+      "url": "https://core.telegram.org/bots/inline"
+    },
+    {
+      "title": "security - Verify that an APK has been built from given source",
+      "url": "https://android.stackexchange.com/questions/155546/verify-that-an-apk-has-been-built-from-given-source-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

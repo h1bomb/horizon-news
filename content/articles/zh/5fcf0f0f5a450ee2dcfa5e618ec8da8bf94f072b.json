@@ -1,0 +1,40 @@
+{
+  "id": "5fcf0f0f5a450ee2dcfa5e618ec8da8bf94f072b",
+  "canonicalId": "3e4e023acddc7594c2212fbe6485fbe963f8fd35",
+  "slug": "vllm-v0230-优化-deepseek-v4-与-model-runner-v2",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T05:27:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.23.0 优化 DeepSeek-V4 与 Model Runner V2",
+  "summary": "vLLM v0.23.0 对 DeepSeek-V4 进行了重大优化，包括稀疏 MLA 元数据解耦、TRTLLM-gen 注意力内核以及 Mega-MoE 的 EPLB 支持，并将 Model Runner V2 默认扩展到 Llama 和 Mistral 稠密模型。 此版本显著提升了 DeepSeek-V4 等前沿 LLM 的推理性能和内存效率，有利于在生产环境中部署大型模型的开发者。Model Runner V2 扩展到更多稠密模型，进一步加速了常用模型家族的推理。 该版本包含来自 200 位贡献者的 408 次提交，显著特性包括多层 KV 缓存卸载、新增对象存储二级层，以及推理和工具调用的统一解析。还添加了 Gemma 4 Unified 无编码器支持和 Transformers v5 兼容性。",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "release notes",
+    "DeepSeek",
+    "model optimization"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个高吞吐、内存高效的大型语言模型推理引擎，广泛用于 AI/ML 部署。此版本延续了项目快速开发的步伐，解决了性能瓶颈并扩展了模型支持。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "vllm.v1.attention.backends.mla.flashmla_sparse",
+      "url": "https://docs.vllm.ai/en/latest/api/vllm/v1/attention/backends/mla/flashmla_sparse/"
+    },
+    {
+      "title": "Multi-Head, Multi-Query, and Group-Query Attention — TensorRT- LLM",
+      "url": "https://nvidia.github.io/TensorRT-LLM/advanced/gpt-attention.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

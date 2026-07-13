@@ -1,0 +1,40 @@
+{
+  "id": "b4c300cc8f6ae0ffbab502766509e675fa0bad51",
+  "canonicalId": "504e0ad43b133df8c7e59243bd772182dd97b21c",
+  "slug": "研究显示大模型在多轮对话中性能大幅下降gpt-5-等前沿模型准确率损失达-33",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-02T00:00:00Z",
+  "lang": "zh",
+  "title": "研究显示大模型在多轮对话中性能大幅下降，GPT-5 等前沿模型准确率损失达 33%",
+  "summary": "arXiv 上发表的一项新研究表明，大型语言模型（LLMs）在多轮对话中的表现远逊于单次指令设置，平均性能降幅达 39%，而以 GPT-5 为代表的前沿模型准确率损失仍高达 33%。研究发现模型往往在对话早期做出错误假设且难以自我修复，导致其在复杂交互中“迷失”。 这一发现至关重要，因为多轮对话是客户服务、辅导教学和复杂问题解决等现实世界 AI 应用的基础。这种系统性弱点突显了在交互场景中可靠部署最先进 LLM 的主要瓶颈，可能会损害用户信任和实际效用。 研究指出，在 Python 编码等特定任务上表现略好，但降低采样温度等技术手段并不能有效解决该问题。研究人员建议，当对话偏离预期时，用户应通过总结此前需求并开启新对话的方式来重置模型状态。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "AI Research",
+    "Model Evaluation",
+    "Human-Computer Interaction",
+    "GPT-5"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 1, 02:19"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2505.06120",
+  "originalSite": "arxiv.org",
+  "context": "多轮对话评估是 LLM 一项关键但研究不足的能力。像 MultiChallenge 这样的基准测试旨在评估模型在现实、扩展对话中的表现，识别出对所有当前前沿模型都具有挑战性的常见问题。在长上下文中的性能下降（有时被称为“上下文腐化”）是一个已知的研究领域，即模型处理冗长输入的能力可能会恶化。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2501.17399] MultiChallenge: A Realistic Multi - Turn Conversation ...",
+      "url": "https://arxiv.org/abs/2501.17399"
+    },
+    {
+      "title": "Context Rot: How Increasing Input Tokens Impacts LLM Performance",
+      "url": "https://research.trychroma.com/context-rot"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

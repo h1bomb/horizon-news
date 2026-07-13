@@ -1,0 +1,40 @@
+{
+  "id": "9f2f5938d2424fd8f00cc819e9a5d7f0d5eb935b",
+  "canonicalId": "e0408f634fee801c4c793bd070e9513a7d407669",
+  "slug": "ladybird-browser-halts-public-pull-requests-over-ai-code-trust",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T11:10:00Z",
+  "lang": "en",
+  "title": "Ladybird Browser Halts Public Pull Requests Over AI Code Trust",
+  "summary": "The Ladybird browser announced it will no longer accept public pull requests, citing that AI-generated code makes it impossible to trust the origin and responsibility of contributions. This marks a significant policy shift in open-source development, addressing the growing challenge of AI-generated code in maintaining code provenance and accountability. It could influence how other open-source projects handle AI-assisted contributions. The decision means all code must now come from trusted, named contributors who take responsibility for changes. Andreas Kling stated that the assumption that substantial effort implies good faith no longer holds.",
+  "score": 8,
+  "tags": [
+    "ladybird",
+    "open-source",
+    "ai-ethics",
+    "software-governance",
+    "code-provenance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Ladybird is an open-source web browser developed by the Ladybird Browser Initiative, a nonprofit. It was originally part of SerenityOS and is now a standalone project, aiming to be privacy-focused and independent. Code provenance refers to tracking the origin of code, which is crucial for security and accountability. With the rise of AI code generation, verifying authorship has become more difficult.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ladybird browser",
+      "url": "https://en.wikipedia.org/wiki/Ladybird_browser"
+    },
+    {
+      "title": "What is \"code provenance\" and why does it matter? - GitClear",
+      "url": "https://www.gitclear.com/help/technical/code_provenance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

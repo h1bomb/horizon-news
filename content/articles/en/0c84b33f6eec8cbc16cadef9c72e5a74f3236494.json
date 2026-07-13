@@ -1,0 +1,44 @@
+{
+  "id": "0c84b33f6eec8cbc16cadef9c72e5a74f3236494",
+  "canonicalId": "c230e1501f2e8eeaac7cd0cbe35cd27580d3b2b7",
+  "slug": "litellm-hack-47000-downloads-in-46-minute-pypi-exploit",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T17:21:00Z",
+  "lang": "en",
+  "title": "LiteLLM Hack: 47,000 Downloads in 46-Minute PyPI Exploit",
+  "summary": "Daniel Hnyk used the BigQuery PyPI dataset to reveal that 46,996 downloads occurred for two malicious LiteLLM package versions (1.82.7 and 1.82.8) during a 46-minute exploit on PyPI. Additionally, analysis showed that 88% of the 2,337 packages depending on LiteLLM lacked proper version pinning, leaving them vulnerable to compromised versions. This incident highlights critical supply chain vulnerabilities in Python packaging, demonstrating how quickly malicious packages can spread and the widespread lack of secure dependency management practices. It underscores the need for better version pinning and monitoring to protect against similar exploits in the future. The exploit involved specific versions 1.82.7 and 1.82.8 of LiteLLM, which were live on PyPI for only 46 minutes, yet garnered nearly 47,000 downloads. The analysis relied on the public BigQuery PyPI dataset, which provides detailed download statistics for PyPI packages.",
+  "score": 8,
+  "tags": [
+    "security",
+    "python",
+    "packaging",
+    "supply-chain",
+    "pypi"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "LiteLLM is an open-source Python library that provides a unified API for interacting with various Large Language Models (LLMs), simplifying integration across different providers. PyPI (Python Package Index) is the official repository for Python packages, where developers publish and install software, but it can be vulnerable to supply chain attacks if dependencies are not properly managed. Version pinning is a practice of specifying exact package versions in requirements to prevent automatic updates to potentially compromised releases, often using tools like pip-tools to manage dependencies securely.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is LiteLLM and How to Use it | Codecademy",
+      "url": "https://www.codecademy.com/article/what-is-litellm"
+    },
+    {
+      "title": "pip-tools · PyPI",
+      "url": "https://pypi.org/project/pip-tools/"
+    },
+    {
+      "title": "Analyzing PyPI package downloads - Python Packaging User Guide",
+      "url": "https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

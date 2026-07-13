@@ -1,0 +1,44 @@
+{
+  "id": "a6610d30f49a8105e7e2282cf8a6d6b209241ce9",
+  "canonicalId": "f9b055a1ff23711d177fba174a6b285cfe45fcac",
+  "slug": "andrej-karpathy-launches-autoresearch-project-for-ai-agents-to-autonomously-conduct-single-gpu-llm-training-experiments",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-08T16:36:00Z",
+  "lang": "en",
+  "title": "Andrej Karpathy launches 'autoresearch' project for AI agents to autonomously conduct single-GPU LLM training experiments.",
+  "summary": "Andrej Karpathy has created a new GitHub repository called 'autoresearch,' which is an experimental framework designed to enable AI agents to autonomously conduct research on training large language models (LLMs) using only a single GPU. The system allows agents to propose code changes, run short training experiments, evaluate results, and iterate without human intervention. This project matters because it aims to automate and accelerate the research iteration cycle for LLM training, potentially making cutting-edge AI research more accessible by focusing on resource-constrained, single-GPU setups. If successful, it could lower the barrier to entry for experimentation and optimization in AI, enabling more researchers to explore novel training techniques efficiently. The framework is specifically designed to work with Karpathy's 'nanochat' project, a minimal codebase for training a capable ChatGPT-like model on a single GPU node with a budget of around $100. The autonomous optimization loop involves AI agents (potentially like Claude or Codex) running 5-minute training experiments to evaluate proposed changes.",
+  "score": 8,
+  "tags": [
+    "AI-agents",
+    "LLM-training",
+    "automated-research",
+    "single-GPU",
+    "Karpathy"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "karpathy"
+    }
+  ],
+  "originalUrl": "https://github.com/karpathy/autoresearch",
+  "originalSite": "github.com",
+  "context": "Andrej Karpathy is a prominent AI researcher and former Director of AI at Tesla, known for his educational content and open-source projects related to deep learning and LLMs. His 'nanochat' project is an initiative to create a high-quality, cost-effective chatbot by training an LLM from scratch on affordable, single-GPU hardware. The concept of AI research agents involves using LLMs to autonomously perform tasks like literature review, hypothesis generation, and experimental design, which is an emerging trend in AI tooling.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - karpathy/autoresearch: AI agents running research on ...",
+      "url": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "title": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy. · GitHub",
+      "url": "https://github.com/karpathy/nanochat"
+    },
+    {
+      "title": "autoresearch – Autonomous AI Agent LLM Training",
+      "url": "https://www.aibars.net/en/library/open-source-ai/details/818510923202433024"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4a99dc57f83f38d7e0049cb2c42449f06eac95ec",
+  "canonicalId": "050db7fb5feb094cde8f41f3ca8f430c625729a3",
+  "slug": "nemotron-cascade-2-30b-a3b-shows-strong-coding-performance-on-benchmarks",
+  "date": "2026-03-22",
+  "publishedAt": "2026-03-21T15:30:00Z",
+  "lang": "en",
+  "title": "Nemotron Cascade 2 30B-A3B shows strong coding performance on benchmarks",
+  "summary": "A Reddit user evaluated the Nemotron Cascade 2 30B-A3B model on HumanEval and ClassEval benchmarks, where it achieved 97.6% on HumanEval and 88% on ClassEval, outperforming comparable Qwen3.5 models. The model is a 30B parameter Mixture of Experts (MoE) architecture with 3B activated parameters, released by NVIDIA recently. This demonstrates that Nemotron Cascade 2 offers competitive coding capabilities despite being relatively overlooked in the local LLM community, potentially providing a high-performance alternative for developers seeking efficient open models. Its strong performance on class-level code generation tasks suggests it could be valuable for complex software engineering applications. The model uses a hybrid architecture based on Nemotron's own design rather than Qwen, and was tested using mradermacher's IQ4_XS quantization. It's important to note that these results come from a single user's evaluation rather than official benchmark reports, and the model's performance may vary across different tasks and quantization methods.",
+  "score": 7,
+  "tags": [
+    "AI Models",
+    "Benchmarking",
+    "Local LLM",
+    "Nemotron",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "ilintar"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rzud2z/dont_sleep_on_the_new_nemotron_cascade/",
+  "originalSite": "reddit.com",
+  "context": "Nemotron Cascade 2 is NVIDIA's open-source large language model series that uses a cascaded reinforcement learning training paradigm. HumanEval is a benchmark developed by OpenAI for evaluating code generation capabilities through 164 programming problems. ClassEval is a more challenging benchmark focusing on class-level Python code generation with 100 tasks, requiring models to handle complex class interactions and dependencies.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "nvidia/Nemotron-Cascade-2-30B-A3B · Hugging Face",
+      "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
+    },
+    {
+      "title": "HumanEval Benchmark — Klu",
+      "url": "https://klu.ai/glossary/humaneval-benchmark"
+    },
+    {
+      "title": "GitHub - FudanSELab/ClassEval: Benchmark ClassEval for class ...",
+      "url": "https://github.com/FudanSELab/ClassEval"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

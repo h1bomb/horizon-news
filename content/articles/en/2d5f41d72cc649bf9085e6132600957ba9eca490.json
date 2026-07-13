@@ -1,0 +1,36 @@
+{
+  "id": "2d5f41d72cc649bf9085e6132600957ba9eca490",
+  "canonicalId": "53a16c9a00b40ab8fa83c34039ead03fd0c34b38",
+  "slug": "security-through-obscurity-is-not-bad",
+  "date": "2026-05-04",
+  "publishedAt": "2026-05-03T14:49:00Z",
+  "lang": "en",
+  "title": "Security through obscurity is not bad",
+  "summary": "A blog post challenges the conventional wisdom by arguing that security through obscurity has its place and is not inherently bad, sparking a large Hacker News discussion. This perspective challenges a widely accepted security tenet, prompting a reevaluation of defense-in-depth strategies and highlighting the importance of nuanced, context-dependent approaches to security. The article distinguishes 'security only through obscurity' from using obscurity as an additional layer, and the community discusses its limited value against determined attackers and the impact of LLMs.",
+  "score": 8,
+  "tags": [
+    "security",
+    "obscurity",
+    "best-practices",
+    "debate",
+    "kerckhoffs-principle"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mobeigi"
+    }
+  ],
+  "originalUrl": "https://mobeigi.com/blog/security/security-through-obscurity-is-not-bad/",
+  "originalSite": "mobeigi.com",
+  "context": "Security through obscurity is a strategy that relies on keeping system details secret, contrary to Kerckhoffs's principle, which holds that security should depend only on the secrecy of keys. The principle is often paraphrased as 'the enemy knows the system,' emphasizing that obscurity should not be a primary defense. However, in practice, obscurity can add an extra layer of protection when used alongside strong security measures.",
+  "discussion": "The community largely agrees that obscurity can be a useful layer but warns against relying on it solely. Some point out that Kerckhoffs's principle is often misapplied, while others emphasize that minimizing data collection is more effective. Concerns are raised about LLMs making obscurity less effective.",
+  "references": [
+    {
+      "title": "Kerckhoffs's principle",
+      "url": "https://en.wikipedia.org/wiki/Kerckhoffs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "a062d9e6d7c6ce8ee0ef58382eda7189d6b3ee28",
+  "canonicalId": "f8c7a1b4e678d92984bcdd61a96ed3e07358ee48",
+  "slug": "字节跳动发布原生全双工语音模型-seeduplex豆包-app-已全面上线",
+  "date": "2026-04-10",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "lang": "zh",
+  "title": "字节跳动发布原生全双工语音模型 Seeduplex，豆包 App 已全面上线",
+  "summary": "字节跳动正式推出原生全双工语音大模型 Seeduplex，目前已在豆包 App 全面上线。这标志着全双工技术首次在行业内实现大规模落地应用，为数亿用户提供实时、高质量的语音交互体验。 这标志着语音 AI 技术的重大进步，因为全双工模型通过实现同时听说的能力，能够支持更自然、更接近人类对话的交互体验。在拥有海量用户的豆包 App 中部署，可能加速实时语音接口在各种应用中的普及，并为对话式 AI 设定新的行业标准。 Seeduplex 通过语音预训练与强化学习技术实现了真正的'边听边说'能力，在保持极速响应的基础上实现了精准的干扰抑制和动态端点检测。与传统需要轮流说话的半双工系统不同，该模型能够处理重叠语音和打断，实现更流畅的对话。",
+  "score": 8,
+  "tags": [
+    "voice AI",
+    "full-duplex",
+    "ByteDance",
+    "reinforcement learning",
+    "real-time systems"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 9, 05:35"
+    }
+  ],
+  "originalUrl": "https://seed.bytedance.com/seeduplex",
+  "originalSite": "seed.bytedance.com",
+  "context": "全双工语音模型相比传统的半双工系统（参与者必须轮流说话和聆听）是一个技术进步。这些模型支持同时双向通信，能够实现打断、附和等自然对话模式。动态端点检测是一种语音处理技术，用于确定说话者何时结束讲话，现代方法使用基于回归的技术根据上下文调整检测行为。语音 AI 系统中的强化学习通过从交互中进行试错学习，帮助优化对话策略。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2405.19487] A Full-duplex Speech Dialogue Scheme Based On Large Language Models",
+      "url": "https://arxiv.org/abs/2405.19487"
+    },
+    {
+      "title": "Full-Duplex Spoken Dialogue Model",
+      "url": "https://www.emergentmind.com/topics/full-duplex-spoken-dialogue-model"
+    },
+    {
+      "title": "[2210.14252] Dynamic Speech Endpoint Detection with Regression Targets",
+      "url": "https://arxiv.org/abs/2210.14252"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

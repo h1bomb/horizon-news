@@ -1,0 +1,44 @@
+{
+  "id": "1df1f4a60856b695006ab9c158952ef16fee4d66",
+  "canonicalId": "7bcf6b7b154d6a2f359e7e87e5dd12e2239c4cfb",
+  "slug": "谷歌发布-gemini-31-pro-深度研究代理支持私有数据分析与图表生成",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemini 3.1 Pro 深度研究代理，支持私有数据分析与图表生成",
+  "summary": "谷歌于 4 月 21 日推出了基于 Gemini 3.1 Pro 模型的新一代自主研究代理 Deep Research 和 Deep Research Max。这些工具支持通过 MCP 协议接入企业私有数据，并能原生生成可视化图表，其中 Deep Research 侧重于低延迟交互，而 Deep Research Max 则利用扩展推理计算来处理尽职调查等复杂任务。 此次发布标志着 AI 驱动的企业工具取得重大进展，使企业能够安全分析专有数据并自动化复杂的研究工作流。通过与 FactSet、标普和 PitchBook 等金融数据提供商合作，谷歌正将这些代理定位为变革行业分析和决策流程的关键工具。 该服务目前已在 Gemini API 付费层级开启公开预览，其中 Deep Research Max 专门为需要扩展计算时间的长期研究任务设计。MCP 集成允许直接访问实时数据源而无需预处理，这使其与传统 RAG 方法区分开来。",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "Google",
+    "Data Analysis",
+    "Enterprise Software",
+    "Research Tools"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 21, 16:45"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+  "originalSite": "blog.google",
+  "context": "Gemini 3.1 Pro 是谷歌最新的支持各种 AI 应用的大型语言模型。模型上下文协议（MCP）是 Anthropic 于 2024 年推出的开放标准，用于标准化 AI 系统连接外部数据源和工具的方式。扩展推理计算指的是在推理过程中给予 AI 模型更多时间来执行复杂的多步骤推理任务，这对研究和分析应用特别有价值。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model Context Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+    },
+    {
+      "title": "Gemini Deep Research Agent | Gemini API | Google AI for ...",
+      "url": "https://ai.google.dev/gemini-api/docs/deep-research"
+    },
+    {
+      "title": "Adapting for AI’s reasoning era | MIT Technology Review",
+      "url": "https://www.technologyreview.com/2025/04/16/1115033/adapting-for-ais-reasoning-era/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

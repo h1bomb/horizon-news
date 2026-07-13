@@ -1,0 +1,44 @@
+{
+  "id": "eecf5fa557f4c5f156fb0c1ddbdff28756824684",
+  "canonicalId": "cabdeb758fd80154f3f59c123f1729dce3424675",
+  "slug": "qwen-35b-a3b-analyzes-image-and-uses-linux-terminal-to-locate-object",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-06T09:06:00Z",
+  "lang": "en",
+  "title": "Qwen-35B-A3B Analyzes Image and Uses Linux Terminal to Locate Object",
+  "summary": "A user demonstrated that the Qwen-35B-A3B model, running locally on consumer hardware (an RTX 3090 GPU), successfully analyzed a low-quality image to locate a ring and then used Linux terminal commands to draw a circle around its approximate position. This was achieved using the new 'open-terminal' feature in the Open WebUI interface. This showcases a practical integration of multimodal vision understanding and tool-calling capabilities in a model that is small enough to run efficiently on affordable, local hardware. It highlights progress towards more autonomous AI agents that can perceive their environment and take precise actions using system tools. The model inference speed was reported at around 100 tokens per second on an RTX 3090. A community member noted that Qwen models are trained to output bounding box coordinates in a normalized 0-1000 range, which can be used for object detection without granting terminal access. The demonstration used a quantized version of the model, likely Q4_K_M, requiring approximately 25GB of VRAM.",
+  "score": 7,
+  "tags": [
+    "multimodal-ai",
+    "computer-vision",
+    "tool-calling",
+    "local-llm",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "iChrist"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1rm93rg",
+  "originalSite": "reddit.com",
+  "context": "Qwen-35B-A3B is a 35-billion parameter multimodal AI model from Alibaba's Qwen series, capable of processing both text and images. 'Tool-calling' refers to an AI model's ability to understand a user's request and correctly invoke external tools or APIs, such as a terminal or code interpreter, to execute tasks. Open WebUI is an open-source web interface for interacting with local Large Language Models (LLMs), and its 'Open Terminal' feature allows these models to securely execute commands on the host system through a proxied backend.",
+  "discussion": "The discussion focused on technical implementation details and sought to validate the demonstration's robustness. Comments inquired about the quantization method used, the normalization range for bounding box coordinates, and the model's consistency across multiple attempts. Users also shared alternative methods for object detection using the model's native JSON output and expressed excitement about the potential for creating interactive AI applications.",
+  "references": [
+    {
+      "title": "Qwen 3.5 MoE vs Kimi K2.5 for Coding - Price... | Awesome Agents",
+      "url": "https://awesomeagents.ai/tools/qwen-3-5-moe-vs-kimi-k2-5-coding/"
+    },
+    {
+      "title": "Open Terminal | Open WebUI",
+      "url": "https://docs.openwebui.com/features/extensibility/open-terminal/"
+    },
+    {
+      "title": "Multimodal AI Models and Modalities",
+      "url": "https://deepgram.com/ai-glossary/multimodal-aI-models-and-modalities"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

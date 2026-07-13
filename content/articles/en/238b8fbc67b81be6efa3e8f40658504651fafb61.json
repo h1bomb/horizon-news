@@ -1,0 +1,44 @@
+{
+  "id": "238b8fbc67b81be6efa3e8f40658504651fafb61",
+  "canonicalId": "ed4afafd644f15bc27c11954d023a5064b740d8f",
+  "slug": "qwen3-coder-next-tops-swe-rebench-benchmark-for-coding-tasks",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-07T07:56:00Z",
+  "lang": "en",
+  "title": "Qwen3-Coder-Next Tops SWE-rebench Benchmark for Coding Tasks",
+  "summary": "The Qwen3-Coder-Next model has achieved the top score on the SWE-rebench benchmark for software engineering tasks, surpassing both open-source and proprietary models. This result is based on the 'Pass 5' metric, which measures the model's ability to solve tasks within five attempts. This demonstrates that a specialized, open-source coding model can now match or exceed the performance of leading proprietary models, making state-of-the-art coding assistance more accessible for private, local deployment. It signals a significant shift where high-quality software engineering AI is no longer confined to cloud APIs. The model is based on the Qwen3-Next-80B-A3B architecture, which is a Mixture-of-Experts (MoE) model with 80 billion total parameters but only activates about 3 billion parameters per token during inference for efficiency. Notably, the user highlights its strong ability to recover from errors by interpreting terminal outputs and error messages.",
+  "score": 7,
+  "tags": [
+    "AI-Coding",
+    "Open-Source-ML",
+    "Benchmarks",
+    "LLM-Evaluation",
+    "Software-Engineering"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "BitterProfessional7p"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/s4taslgvukng1.png",
+  "originalSite": "i.redd.it",
+  "context": "SWE-rebench is a continuously updated and decontaminated benchmark for evaluating Large Language Models (LLMs) on real-world software engineering tasks, sourced from GitHub repositories. It aims to provide a transparent and reproducible measure of an AI's coding and problem-solving capabilities. Qwen3-Coder-Next is a specialized variant of the Qwen model series, fine-tuned for coding and agentic tasks using techniques like reinforcement learning on executable tasks.",
+  "discussion": "The community reaction is mixed, with users praising Qwen3-Coder-Next's impressive local performance and usability but also expressing widespread skepticism about the validity and consistency of the SWE-rebench benchmark itself. Several comments question the benchmark's reliability, citing unexpected rankings of other models, while others share positive hands-on experiences running the model on consumer hardware.",
+  "references": [
+    {
+      "title": "SWE-rebench Leaderboard",
+      "url": "https://swe-rebench.com/"
+    },
+    {
+      "title": "[2505.20411] SWE-rebench: An Automated Pipeline for Task ... SWE-rebench: A continuously updated benchmark for SWE LLMs SWE-rebench · GitHub README.md · nebius/SWE-rebench at main - Hugging Face SWE-rebench : An Automated Pipeline for Task Collection and SWE - rebench : A continuously updated benchmark for SWE LLMs SWE - bench Leaderboards SWE - bench Leaderboards SWE-rebench V2: Scalable Task Collection for SWE Agents",
+      "url": "https://arxiv.org/abs/2505.20411"
+    },
+    {
+      "title": "Qwen3-Coder-Next: Pushing Small Hybrid Models",
+      "url": "https://qwen.ai/blog?id=qwen3-coder-next"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

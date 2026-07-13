@@ -1,0 +1,44 @@
+{
+  "id": "ef414e071d06104daf08095ed0c8bff8adad189e",
+  "canonicalId": "78bea1a0e2d0e662d9ad00dad30aab219f0877fc",
+  "slug": "苹果限制-replit-和-vibecode-等-ai-编程应用在-app-store-的更新以防止绕过审核机制",
+  "date": "2026-04-07",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果限制 Replit 和 Vibecode 等 AI 编程应用在 App Store 的更新，以防止绕过审核机制。",
+  "summary": "苹果公司近期阻止了 Replit 和 Vibecode 等允许用户通过输入提示词生成网页或小程序并直接在应用内运行的 AI 编程应用在 App Store 的更新。此举是为了防止这些应用绕过官方审核流程，直接在 iOS 设备上提供即时生成并分发未经审查的第三方软件的能力。 这一举措凸显了苹果对 iOS 应用分发的严格控制，影响了依赖 AI 辅助编程工具进行快速原型设计和用户生成内容的开发者。它引发了关于平台治理、开发者自由以及 AI 技术在受监管生态系统（如 App Store）中集成的更广泛问题。 这一限制特别针对使用 vibe coding 的应用，这是一种 AI 辅助的编程实践，通过大型语言模型根据提示生成代码，可能导致未经审查的软件分发。苹果的政策执行是其持续维护 App Store 安全性和合规性的一部分，但可能会限制 AI 驱动开发工具的创新。",
+  "score": 7,
+  "tags": [
+    "App Store Policy",
+    "AI Programming",
+    "iOS Development",
+    "Platform Governance",
+    "Replit"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 6, 03:46"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40710",
+  "originalSite": "t.me",
+  "context": "Vibe coding 是一种 AI 辅助的编程实践，开发者通过提示词利用大型语言模型生成代码，由 Andrej Karpathy 于 2025 年提出，因能让业余程序员快速创建软件而流行。Replit 是一个 AI 驱动的编码平台，提供智能辅助以创建软件，常用于教育和协作。App Store 审核流程是苹果确保应用在 iOS 设备上分发前符合安全、隐私和内容标准的机制。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vibe coding",
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding"
+    },
+    {
+      "title": "Replit: Complete Guide to AI-Powered Coding Platform",
+      "url": "https://aitrendytools.com/blog/replit-complete-guide-ai-powered-coding-platform"
+    },
+    {
+      "title": "Apple makes subtle changes to the App Store review policy, adds",
+      "url": "https://www.techspot.com/news/86583-apple-makes-subtle-changes-app-store-review-policy.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

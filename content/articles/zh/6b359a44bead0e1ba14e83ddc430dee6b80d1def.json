@@ -1,0 +1,44 @@
+{
+  "id": "6b359a44bead0e1ba14e83ddc430dee6b80d1def",
+  "canonicalId": "d58b045d43c7908876efa2c09e0f28b6ff91e001",
+  "slug": "mlx-tune-支持在-apple-silicon-上通过-unsloth-兼容-api-进行-llm-微调",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-18T00:00:00Z",
+  "lang": "zh",
+  "title": "mlx-tune 支持在 Apple Silicon 上通过 Unsloth 兼容 API 进行 LLM 微调",
+  "summary": "开源库 mlx-tune（原名 unsloth-mlx）发布，允许开发者使用 Apple 的 MLX 框架，通过 Unsloth 兼容的 API 在 Apple Silicon Mac 上原生微调大语言模型。它支持使用 LoRA/QLoRA 的 SFT、DPO 和 GRPO 等偏好优化方法、视觉模型微调，并能导出为 HuggingFace 和 GGUF 格式。 这弥合了在 Apple 硬件上进行本地原型设计与云 GPU 训练之间的差距，允许在投入昂贵的 GPU 资源之前进行经济高效的实验和调试。它通过利用 Apple Silicon 的统一内存架构，为希望在 Mac 上快速迭代的研究人员和开发者普及了 LLM 微调。 该库至少需要 8GB 统一内存来运行 1B 4-bit 模型，建议 16GB 以上以获得更好性能。它并非 Unsloth 在 NVIDIA 硬件上的替代品，因为使用自定义 Triton 内核的 Unsloth 在那里仍然更快；相反，它专注于为 Mac 用户提供本地开发循环。",
+  "score": 7,
+  "tags": [
+    "LLM Fine-Tuning",
+    "Apple Silicon",
+    "MLX",
+    "Machine Learning",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 17, 12:03"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/jbsrq4cnhlpg1.png",
+  "originalSite": "i.redd.it",
+  "context": "MLX 是一个为 Apple Silicon 统一内存架构优化的数组框架，为机器学习研究提供类似 NumPy 的 API。Unsloth 是一个开源库，用于在 NVIDIA GPU 上高效微调和强化学习 LLM，使用 LoRA 等技术。微调使预训练的 LLM 适应特定任务或数据集，方法包括用于监督学习的 SFT 和用于偏好优化的 DPO。",
+  "discussion": "社区反应总体积极，强调了在昂贵的云 GPU 运行之前本地捕获数据管道问题的工作流程优势。一些用户赞赏 train_on_responses_only() 函数能避免常见的 SFT 错误，而一位评论者提到了一个具有 ANE 优化的类似项目，表明该领域持续创新。",
+  "references": [
+    {
+      "title": "MLX",
+      "url": "https://mlx-framework.org/"
+    },
+    {
+      "title": "Unsloth AI - Open Source Fine - tuning & RL for LLMs",
+      "url": "https://unsloth.ai/"
+    },
+    {
+      "title": "GitHub - ml-explore/mlx: MLX: An array framework for Apple ... MLX — MLX 0.31.1 documentation - GitHub Pages MLX Deployment (Apple Silicon) | zai-org/GLM-OCR | DeepWiki Local LLMs Apple Silicon Mac 2026 | M1 M2 M3 Guide - SitePoint Installing Qwen 3 . 5 on Apple Silicon Using MLX for 2X Performance Apple Open Source GitHub - ml-explore/ mlx : MLX : An array framework for Apple silicon GitHub - ml-explore/ mlx : MLX : An array framework for Apple silicon Installing Qwen 3.5 on Apple Silicon Using MLX for 2X ...",
+      "url": "https://github.com/ml-explore/mlx"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

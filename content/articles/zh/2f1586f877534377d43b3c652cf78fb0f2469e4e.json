@@ -1,0 +1,44 @@
+{
+  "id": "2f1586f877534377d43b3c652cf78fb0f2469e4e",
+  "canonicalId": "c230e1501f2e8eeaac7cd0cbe35cd27580d3b2b7",
+  "slug": "litellm-攻击事件46-分钟内-pypi-上-47000-次恶意包下载",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "LiteLLM 攻击事件：46 分钟内 PyPI 上 47,000 次恶意包下载",
+  "summary": "Daniel Hnyk 利用 BigQuery PyPI 数据集发现，在 PyPI 上的一次 46 分钟攻击期间，两个恶意 LiteLLM 包版本（1.82.7 和 1.82.8）被下载了 46,996 次。此外，分析显示，在 2,337 个依赖 LiteLLM 的包中，88% 缺乏正确的版本锁定，使其易受恶意版本影响。 这一事件凸显了 Python 包管理中的关键供应链漏洞，展示了恶意包传播的速度之快以及依赖管理安全实践的普遍缺失。它强调了改进版本锁定和监控的必要性，以防范未来的类似攻击。 攻击涉及 LiteLLM 的特定版本 1.82.7 和 1.82.8，这些版本仅在 PyPI 上存活了 46 分钟，却获得了近 47,000 次下载。分析基于公开的 BigQuery PyPI 数据集，该数据集提供了 PyPI 包的详细下载统计信息。",
+  "score": 8,
+  "tags": [
+    "security",
+    "python",
+    "packaging",
+    "supply-chain",
+    "pypi"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 25, 17:21"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "LiteLLM 是一个开源 Python 库，为各种大型语言模型（LLM）提供统一的 API，简化了不同提供商之间的集成。PyPI（Python 包索引）是 Python 包的官方仓库，开发者在此发布和安装软件，但如果依赖管理不当，它可能面临供应链攻击的风险。版本锁定是一种在需求文件中指定确切包版本的做法，以防止自动更新到可能被攻击的版本，通常使用 pip-tools 等工具来安全地管理依赖。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is LiteLLM and How to Use it | Codecademy",
+      "url": "https://www.codecademy.com/article/what-is-litellm"
+    },
+    {
+      "title": "pip-tools · PyPI",
+      "url": "https://pypi.org/project/pip-tools/"
+    },
+    {
+      "title": "Analyzing PyPI package downloads - Python Packaging User Guide",
+      "url": "https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

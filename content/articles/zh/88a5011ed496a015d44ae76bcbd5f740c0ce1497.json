@@ -1,0 +1,44 @@
+{
+  "id": "88a5011ed496a015d44ae76bcbd5f740c0ce1497",
+  "canonicalId": "5db9414f2eb219c65b8584632b727a8e611a0d92",
+  "slug": "kvarn方差归一化的-kv-缓存量化实现-3-4-倍压缩",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T13:21:00Z",
+  "lang": "zh",
+  "title": "KVarN：方差归一化的 KV 缓存量化实现 3-4 倍压缩",
+  "summary": "KVarN 结合了 Hadamard 旋转和对 K、V 矩阵两个轴的方差归一化，然后进行最近取整，在 AIME24 等基准测试上实现了 3-4 倍的 KV 缓存压缩，准确率损失低于 1%，并且在 vLLM 中相比 FP16 基线实现了加速。 KV 缓存内存是长上下文 LLM 推理的关键瓶颈；KVarN 提供了一种实用的开源解决方案，在不牺牲准确性或吞吐量的情况下将内存减少 3-4 倍，这对于推理和代码生成等测试时计算场景尤其有益。 KVarN 不需要模型重新训练或校准；可以通过一个标志集成到 vLLM 中。与 TurboQuant 等先前工作相比，KVarN 声称在相似或更好的准确性下具有更高的吞吐量（最高 2.4 倍），尤其是在推理基准测试上。",
+  "score": 9,
+  "tags": [
+    "KV-cache",
+    "quantization",
+    "LLM inference",
+    "variance normalization",
+    "Hadamard transform"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/intentionallyBlue"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/",
+  "originalSite": "reddit.com",
+  "context": "KV 缓存存储 transformer 模型中的中间键值对，以避免自回归解码期间的重复计算，但长序列会消耗大量 GPU 内存。量化降低了这些值的精度以压缩内存，但先前的方法常常导致质量损失或吞吐量下降。Hadamard 变换是一种正交线性运算，有助于解相关数据以实现更好的量化。方差归一化将数据缩放为单位方差，减少了导致量化误差的异常值。",
+  "discussion": "评论者指出 KVarN 进入了一个竞争环境，其中 FP8 量化已经很强，但强调 KVarN 在推理基准测试上相比 TurboQuant 提供了更好的权衡。一些人赞赏其开源 vLLM 集成以及同时关注吞吐量和准确性。",
+  "references": [
+    {
+      "title": "Hadamard transform",
+      "url": "https://en.wikipedia.org/wiki/Hadamard_transform"
+    },
+    {
+      "title": "Quantized KV Cache — SGLang",
+      "url": "https://sgl-project.github.io/advanced_features/quantized_kv_cache.html"
+    },
+    {
+      "title": "Unlocking Longer Generation with Key-Value Cache Quantization",
+      "url": "https://huggingface.co/blog/kv-cache-quantization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

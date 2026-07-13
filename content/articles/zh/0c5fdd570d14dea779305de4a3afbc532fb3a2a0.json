@@ -1,0 +1,40 @@
+{
+  "id": "0c5fdd570d14dea779305de4a3afbc532fb3a2a0",
+  "canonicalId": "2cb84b8dfef899691cf19d7e17a85bb959cea0d2",
+  "slug": "85-gpu-小时对比-qwen36-27b-的-5-种-abliteration-方法",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-18T00:00:00Z",
+  "lang": "zh",
+  "title": "85 GPU 小时对比 Qwen3.6-27B 的 5 种 Abliteration 方法",
+  "summary": "作者发布了 Abliterlitics，一个开源工具包，通过 85 GPU 小时的基准测试、安全评估和权重级取证，系统比较了 Qwen3.6-27B 模型的五种 abliteration 技术。分析显示，Heretic 和 Huihui 变体在保留能力方面表现最佳，而所有方法均实现了近乎完全的安全移除。 这项工作提供了首次严谨、开源的 abliteration 方法比较，帮助 LLM 安全社区理解能力保留与拒绝抑制之间的权衡。它建立了一种可复现的基准测试方法，可指导未来的对齐研究和模型选择。 作者从 Q8_K_P GGUF 文件中恢复了 safetensors，并对六个模型（基础模型加五个 abliterated 变体）进行了 85 小时的基准测试，包括 HarmBench、KL 散度和权重取证。AEON 变体的“增强能力”声明与数据矛盾，而 Abliterix 的能力保留最差。",
+  "score": 8,
+  "tags": [
+    "abliteration",
+    "LLM safety",
+    "model alignment",
+    "benchmarking",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 17, 11:18"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tfmocw/85_gpuhours_comparing_5_abliteration_methods_on/",
+  "originalSite": "reddit.com",
+  "context": "Abliteration 是一种技术，通过识别并抑制导致 LLM 拒绝行为的单个潜在方向来“取消审查”模型。Safetensors 是一种安全的张量文件格式，可防止代码执行；GGUF 是一种量化格式，可减小模型大小。这项工作利用这些格式来恢复和比较模型。",
+  "discussion": "社区高度赞赏这项工作，评论称其为“高努力帖子”并感谢作者。一位用户提出了建设性的技术反馈，建议测量每个 token 位置的分布变化而非仅第一个，并提供了示例代码。几位用户请求更简单的总结和最佳用例。",
+  "references": [
+    {
+      "title": "Uncensor any LLM with abliteration",
+      "url": "https://huggingface.co/blog/mlabonne/abliteration"
+    },
+    {
+      "title": "GitHub - NousResearch/llm-abliteration: Make abliterated models with transformers, easy and fast · GitHub",
+      "url": "https://github.com/NousResearch/llm-abliteration/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

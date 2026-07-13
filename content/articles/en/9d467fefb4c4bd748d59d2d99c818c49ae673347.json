@@ -1,0 +1,44 @@
+{
+  "id": "9d467fefb4c4bd748d59d2d99c818c49ae673347",
+  "canonicalId": "deca996df1f94ff35b40f859edb845b5e68d89e9",
+  "slug": "nous-research-ama-on-hermes-agent-and-local-llms",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T15:57:00Z",
+  "lang": "en",
+  "title": "Nous Research AMA on Hermes Agent and Local LLMs",
+  "summary": "Nous Research hosted an AMA on Reddit to discuss their Hermes Agent framework, an open-source autonomous agent that learns and improves over time, as well as their work on local models and self-improving agent systems. This AMA provides direct insight into the development of one of the most compelling open-source agent frameworks, which differentiates itself through a closed learning loop and skills evolution, and it addresses the growing community interest in practical, autonomous AI agents that can run locally. Hermes Agent supports multiple communication platforms (Telegram, Discord, Slack, etc.), runs on various environments (local, Docker, SSH), and features agent-curated memory with periodic nudges. The team includes co-founders emozilla and teknium, chief scientist bloc97, and core developers.",
+  "score": 8,
+  "tags": [
+    "AI Agents",
+    "Local LLMs",
+    "Hermes Agent",
+    "Nous Research",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "emozilla"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz2y76/ama_with_nous_research_ask_us_anything/",
+  "originalSite": "reddit.com",
+  "context": "Nous Research is known for the YaRN method, which efficiently extends the context window of large language models, and for creating the Hermes series of models. Hermes Agent is their latest open-source project, designed as an autonomous agent that learns from interactions and improves its skills over time, unlike traditional chatbots or coding copilots.",
+  "discussion": "Community members expressed enthusiasm for Hermes Agent's closed learning loop and skills evolution, but also raised questions about preventing long-term behavioral drift and differentiating from other agent frameworks. Some users asked about practical use cases and the best local models to run with Hermes.",
+  "references": [
+    {
+      "title": "GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "Hermes Agent — The Agent That Grows With You | Nous Research",
+      "url": "https://hermes-agent.nousresearch.com/"
+    },
+    {
+      "title": "Nous Research على X: \"The YaRN method paper is now available on arxiv. Many congrats and thanks to our very own Bowen Peng (Bloc97) and @theemozilla, as well as @Void13950782 of @AiEleuther, and our dear friend @EnricoShippole. https://t.co/kTiUbKV0iW\" / X",
+      "url": "https://x.com/NousResearch/status/1698564523177779588?lang=ar-x-fm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

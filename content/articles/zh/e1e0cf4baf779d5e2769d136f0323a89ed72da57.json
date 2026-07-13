@@ -1,0 +1,36 @@
+{
+  "id": "e1e0cf4baf779d5e2769d136f0323a89ed72da57",
+  "canonicalId": "53a16c9a00b40ab8fa83c34039ead03fd0c34b38",
+  "slug": "安全靠隐匿并非不佳",
+  "date": "2026-05-04",
+  "publishedAt": "2026-05-04T00:00:00Z",
+  "lang": "zh",
+  "title": "安全靠隐匿并非不佳",
+  "summary": "一篇博文挑战了传统观念，认为安全靠隐匿并非先天不良，引发了 Hacker News 上的大规模讨论。 这一观点挑战了广为接受的安全信条，促使人们重新审视纵深防御策略，并强调安全需根据具体情况采取细致入微的方法。 文章区分了“仅靠隐匿的安全”与将隐匿作为额外防护层，社区讨论了其在面对坚定攻击者时的局限，以及大语言模型带来的影响。",
+  "score": 8,
+  "tags": [
+    "security",
+    "obscurity",
+    "best-practices",
+    "debate",
+    "kerckhoffs-principle"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 3, 14:49"
+    }
+  ],
+  "originalUrl": "https://mobeigi.com/blog/security/security-through-obscurity-is-not-bad/",
+  "originalSite": "mobeigi.com",
+  "context": "安全靠隐匿是一种通过保守系统细节秘密来保证安全的方法，与柯克霍夫原则相悖，该原则认为系统的安全性应仅依赖于密钥的保密。这一原则常被总结为“敌人了解系统”，强调隐匿不应作为主要防御手段。然而，在实践中，隐匿可与强安全措施结合，提供额外防护。",
+  "discussion": "社区普遍认同隐匿可作为有效补充层，但警告不应仅依赖它。一些人指出柯克霍夫原则常被误用，另一些人强调减少数据收集更有效。对 LLMs 削弱隐匿效果的担忧也被提及。",
+  "references": [
+    {
+      "title": "Kerckhoffs's principle",
+      "url": "https://en.wikipedia.org/wiki/Kerckhoffs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "466b1bc11a66d395564d41825b841afb50d22372",
+  "canonicalId": "133bdf7f42c952b4e686c1efe0ec936716a8b20f",
+  "slug": "armin-ronacher-ai-generated-bug-reports-are-inaccurate",
+  "date": "2026-05-25",
+  "publishedAt": "2026-05-24T18:46:00Z",
+  "lang": "en",
+  "title": "Armin Ronacher: AI-Generated Bug Reports Are Inaccurate",
+  "summary": "Armin Ronacher, creator of Flask and Jinja2, highlighted the growing problem of AI-generated bug reports that are confident but inaccurate. He advocates for issue reports to be condensed to only human observations: what command was run, expected behavior, actual behavior, and exact error/log. This issue affects open-source maintainers who waste time deciphering inaccurate AI-generated reports, leading to burnout and reduced productivity. It underscores the need for better AI usage in software development, especially in bug reporting. Ronacher calls the AI rewriting 'a clanker' — a derogatory term for AI — and notes that poorly prompted AI often produces fake-minimal repros, wrong root cause guesses, and irrelevant error lists. He recommends a simple four-point template for human observations.",
+  "score": 8,
+  "tags": [
+    "open source",
+    "bug reporting",
+    "AI misuse",
+    "software maintenance",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Bug reports are essential for open-source maintenance, but AI tools like LLMs are increasingly used to generate or refine them. A 'minimal reproduction' (minimal repro) is a code snippet that reliably reproduces a bug with minimal context. Armin Ronacher is a well-known developer who created Flask, Jinja2, and Werkzeug.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Clanker - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clanker"
+    },
+    {
+      "title": "repro.fyi — The Art of the Minimal Reproduction",
+      "url": "https://repro.fyi/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

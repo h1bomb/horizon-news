@@ -1,0 +1,40 @@
+{
+  "id": "9ea9f5084084fa2acff82c2506b070001cc9285f",
+  "canonicalId": "79f91aa3413f8adbeb9f5fe04e2eb8138c62751a",
+  "slug": "meta-argues-uploading-pirated-books-via-bittorrent-for-ai-training-qualifies-as-fair-use",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-09T10:29:00Z",
+  "lang": "en",
+  "title": "Meta argues uploading pirated books via BitTorrent for AI training qualifies as fair use",
+  "summary": "Meta filed a supplemental brief in a California federal court last week, arguing for the first time that its uploading of pirated books via the BitTorrent protocol during data collection constitutes fair use. The company claims uploading is an inherent, unavoidable mechanism of BitTorrent when downloading training datasets from shadow libraries like Anna's Archive, and is therefore a technical necessity. This novel 'technical necessity' fair use defense could set a significant legal precedent for multiple AI copyright lawsuits, particularly those involving training data sourced from shadow libraries. If accepted by the court, it would provide AI companies with a powerful argument to justify the use of copyrighted material obtained through peer-to-peer protocols for model training. Plaintiffs' lawyers argue Meta violated discovery deadlines by raising this defense only after November 2024, while Meta counters it was listed in a December 2025 case management statement. Meta also cites testimony from named authors admitting they found no evidence of their books being reproduced verbatim in Meta's model outputs.",
+  "score": 8,
+  "tags": [
+    "AI Copyright",
+    "Fair Use",
+    "Legal Precedent",
+    "BitTorrent",
+    "Meta"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/",
+  "originalSite": "torrentfreak.com",
+  "context": "BitTorrent is a decentralized peer-to-peer file-sharing protocol where users simultaneously download and upload pieces of a file from/to other peers in the network; uploading is an inherent part of the download process. Anna's Archive is an open-source metasearch engine for shadow libraries (pirate ebook sites) that aggregates records from sources like Z-Library and Sci-Hub, often making large datasets available only via torrent files. The fair use doctrine in U.S. copyright law allows limited use of copyrighted material without permission for purposes such as criticism, comment, news reporting, teaching, scholarship, or research, based on a four-factor test.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Anna's Archive - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anna"
+    },
+    {
+      "title": "How BitTorrent Works: A Deep Dive into the Revolutionary",
+      "url": "https://www.rickyspears.com/science/how-bittorrent-works-a-deep-dive-into-the-revolutionary-file-sharing-protocol/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

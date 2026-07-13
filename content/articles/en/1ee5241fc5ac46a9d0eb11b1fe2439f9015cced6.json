@@ -1,0 +1,44 @@
+{
+  "id": "1ee5241fc5ac46a9d0eb11b1fe2439f9015cced6",
+  "canonicalId": "fa56c04d491905a5bd2fdb9c58bddb36098fc39f",
+  "slug": "cryptography-engineer-analyzes-quantum-computing-timelines-and-urges-adoption-of-post-quantum-standards-like-ml-kem",
+  "date": "2026-04-07",
+  "publishedAt": "2026-04-06T15:31:00Z",
+  "lang": "en",
+  "title": "Cryptography engineer analyzes quantum computing timelines and urges adoption of post-quantum standards like ML-KEM.",
+  "summary": "A cryptography engineer published an analysis of quantum computing timelines, discussing the risks to current encryption and emphasizing the urgency of adopting post-quantum cryptography standards such as ML-KEM. The article highlights the need for immediate action to protect data from future quantum attacks. This matters because quantum computers could break widely-used encryption like RSA and elliptic-curve cryptography, threatening global data security. The analysis underscores the importance of transitioning to post-quantum standards to safeguard sensitive information before quantum threats materialize. The engineer notes that ML-KEM, formerly Kyber, is a NIST-approved key encapsulation mechanism designed to resist quantum attacks. However, deployment challenges exist, such as delays in standardization processes and the need for real-world testing to ensure security.",
+  "score": 8,
+  "tags": [
+    "cryptography",
+    "quantum-computing",
+    "security",
+    "standards",
+    "post-quantum-cryptography"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "thadt"
+    }
+  ],
+  "originalUrl": "https://words.filippo.io/crqc-timeline/",
+  "originalSite": "words.filippo.io",
+  "context": "Quantum computing leverages quantum mechanics to perform calculations much faster than classical computers, potentially breaking current public-key cryptography. Post-quantum cryptography involves developing algorithms resistant to quantum attacks, with ML-KEM being a key standard selected by NIST. Encryption standards like RSA and Diffie-Hellman are vulnerable to quantum algorithms such as Shor's algorithm.",
+  "discussion": "Community comments show overall positive sentiment, with users appreciating the reasoned analysis and shifting their views on quantum risks. Key viewpoints include support for prioritizing ML-KEM deployment, concerns about skipping hybrid keys due to lack of real-world testing, and criticism of slow standardization processes.",
+  "references": [
+    {
+      "title": "Kyber - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kyber"
+    },
+    {
+      "title": "Timeline of quantum computing and communication - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_quantum_computing_and_communication"
+    },
+    {
+      "title": "New Post Quantum Cryptography Standards Poised to Revolutionize",
+      "url": "https://www.itsecurityguru.org/2024/08/13/new-post-quantum-cryptography-standards-poised-to-revolutionize-cybersecurity/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

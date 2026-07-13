@@ -1,0 +1,45 @@
+{
+  "id": "4a4b747e3adb6f5a310bdb0d668c7b2648193aaa",
+  "canonicalId": "60d9564ab432d217501b3bf1d4bb61d1404f875f",
+  "slug": "minicpm-46-released-with-improved-document-understanding",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T17:08:00Z",
+  "lang": "en",
+  "title": "MiniCPM 4.6 Released with Improved Document Understanding",
+  "summary": "OpenBMB released MiniCPM-V 4.6, a multimodal small language model with enhanced document understanding, featuring a Qwen3.5-style hybrid LLM backbone and NaViT-packed vision encoder. This release shows that small models can match or exceed larger models in multimodal tasks, enabling efficient local deployment on resource-constrained devices. The model supports text, image, and video inputs, and is available in Q8_0 (812 MB) and F16 (1.52 GB) quantized formats. Community discussion highlights trade-offs between quantization precision and model size.",
+  "score": 8,
+  "tags": [
+    "MiniCPM",
+    "multimodal",
+    "small language model",
+    "local LLM",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "themrzmaster",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ta9k8o/minicpm_46/"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+  "originalSite": "huggingface.co",
+  "context": "MiniCPM is a series of small language models developed by OpenBMB, a joint lab from Tsinghua University and ModelBest. Small language models (SLMs) offer a resource-efficient alternative to large models. Quantization reduces model size and memory footprint, enabling faster inference on local hardware.",
+  "discussion": "Users debated whether to use Q8_0 or F16 quantization, with some favoring smaller sizes for RAM efficiency. Others noted the model's notable 'PRC bias with deflection behavior' and suggested that adding a blank image tile can bypass behavioral restrictions.",
+  "references": [
+    {
+      "title": "openbmb/MiniCPM-V-4.6 · Hugging Face",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+    },
+    {
+      "title": "GitHub - OpenBMB/MiniCPM: MiniCPM4 & MiniCPM4.1: Ultra ...",
+      "url": "https://github.com/OpenBMB/MiniCPM"
+    },
+    {
+      "title": "MiniCPM: Unveiling the Potential of Small Language Models ... openbmb/MiniCPM-V-4.6 · Hugging Face OpenBMB launches MiniCPM-V 4.6 1.3B Instruct MiniCPM: Unveiling the Potential of End-side Large Language ... MiniCPM-V 4.6 - SGLang Documentation MiniCPM-V Series | OpenBMB/MiniCPM-o | DeepWiki",
+      "url": "https://arxiv.org/abs/2404.06395"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

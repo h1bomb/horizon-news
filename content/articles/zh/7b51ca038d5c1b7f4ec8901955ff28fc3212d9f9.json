@@ -1,0 +1,40 @@
+{
+  "id": "7b51ca038d5c1b7f4ec8901955ff28fc3212d9f9",
+  "canonicalId": "1af2f28c8b4631cf4bc3a4113a6b8e63e7ef0114",
+  "slug": "kvarn-kv-缓存量化在-llamacpp-分支中实现",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T13:48:00Z",
+  "lang": "zh",
+  "title": "KVarN KV 缓存量化在 llama.cpp 分支中实现",
+  "summary": "一名开发者在 llama.cpp 的分支中实现了华为的 KVarN KV 缓存量化方法，发布了预编译二进制文件，并通过基准测试显示可实现 3-5 倍的压缩且精度具有竞争力。 这使得一种有前景的 KV 缓存量化方法可供 llama.cpp 社区使用，有望提高推理性能，并为本地大模型用户实现更长的上下文窗口。 该实现支持键和值缓存的 2、3 或 4 位量化。在 Qwen 3.6 27B、64k 上下文上的基准测试显示，kvarn4-kvarn4 仅占 bf16 缓存大小的 27.9%，在 99.9% KLD 上达到 93.09%的精度，优于同比特率的 TurboQuant。",
+  "score": 8,
+  "tags": [
+    "kv-cache",
+    "quantization",
+    "llama.cpp",
+    "inference optimization",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Anbeeld"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1txlhxu/i_implemented_kvarn_in_my_llamacpp_fork_and_ran/",
+  "originalSite": "reddit.com",
+  "context": "KV 缓存存储自回归解码过程中的中间键值对，以避免重复计算，但它随序列长度线性增长，成为内存瓶颈。量化通过减少每个值的位数来降低内存占用。KVarN 是华为提出的方差归一化量化方法，号称在 3-5 倍压缩和加速的同时保持 FP16 级别的精度。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "huawei-csl/ KVarN : KVarN is a native vLLM KV - cache quantization ...",
+      "url": "https://github.com/huawei-csl/KVarN"
+    },
+    {
+      "title": "KVarN : Variance-Normalized KV - Cache Quantization Mitigates Error...",
+      "url": "https://arxiv.org/pdf/2606.03458"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

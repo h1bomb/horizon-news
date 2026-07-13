@@ -1,0 +1,44 @@
+{
+  "id": "09827b750d8dc217d9f07a6783ff97001e037ce4",
+  "canonicalId": "0993a7a4634e0678dde669ff229a348f4e2cf813",
+  "slug": "svg-消毒的困境",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "SVG 消毒的困境",
+  "summary": "一篇详细文章解释了由于 SVG 的复杂特性（如脚本、事件处理程序和 CSS），对其进行消毒极其困难，并建议使用内容安全策略 (CSP) 作为解决 HTTP 泄漏问题的唯一可靠方法。 这很重要，因为许多 Web 应用程序允许 SVG 上传或渲染，不完整的消毒可能导致 XSS 和数据泄露。文章提供了实用的 CSP 建议，可帮助开发者保护其应用程序。 文章指出 SVG 支持内联脚本、事件处理程序、CSS 和外来对象，使消毒成为一个打地鼠式的问题。它建议使用 CSP 标头或 <meta> 标签作为抵御 HTTP 泄漏的唯一可靠防御。",
+  "score": 7,
+  "tags": [
+    "web security",
+    "SVG",
+    "CSP",
+    "sanitization",
+    "frontend"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 27, 15:31"
+    }
+  ],
+  "originalUrl": "https://muffin.ink/blog/scratch-svg-sanitization/",
+  "originalSite": "muffin.ink",
+  "context": "SVG（可缩放矢量图形）是一种基于 XML 的矢量图像格式，可以包含脚本和 CSS 等交互元素。消毒是从用户提交的 SVG 中移除危险内容以防止跨站脚本 (XSS) 等安全漏洞的过程。内容安全策略 (CSP) 是一种浏览器安全机制，限制页面可以加载和执行的资源。",
+  "discussion": "评论者一致认为 CSP 是唯一可靠的修复方法，有人建议为内联 SVG 添加沙箱属性。另有人提议仅支持 SVG 功能的安全子集，还有一位提到了 HTML Sanitizer API 对 SVG 的有限支持。",
+  "references": [
+    {
+      "title": "Angular 2, DomSanitizer, bypassSecurityTrustHtml, SVG - Stack",
+      "url": "https://stackoverflow.com/questions/39857858/angular-2-domsanitizer-bypasssecuritytrusthtml-svg"
+    },
+    {
+      "title": "Hackers Exploit SVG Files to Deliver Stealthy Malware | Data",
+      "url": "https://dataprotectioncenter.com/privacy-protection/hackers-exploit-svg-files-to-deliver-stealthy-malware/"
+    },
+    {
+      "title": "Content - Security - Policy : script-src directive - HTTP | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

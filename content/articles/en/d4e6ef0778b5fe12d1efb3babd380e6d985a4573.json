@@ -1,0 +1,32 @@
+{
+  "id": "d4e6ef0778b5fe12d1efb3babd380e6d985a4573",
+  "canonicalId": "7ebc5a3660c1075374aa823029ccb82d760ef252",
+  "slug": "cgi-and-llms-a-cautionary-analogy",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T15:17:00Z",
+  "lang": "en",
+  "title": "CGI and LLMs: A Cautionary Analogy",
+  "summary": "The article draws a parallel between the film industry's shift to CGI and the software industry's adoption of LLMs, warning that over-reliance on LLMs could devalue core coding skills. This analogy highlights a potential long-term risk for software engineers: while LLMs boost productivity, they may erode fundamental skills and craftsmanship, much like CGI diminished practical effects artistry. The article notes that writing every line by hand is no longer the norm, but reading and understanding architecture remains crucial. It also mentions that tests are more important than ever since large refactors are common.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLMs",
+    "Software Engineering",
+    "Practical Effects",
+    "Coding Skills"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zdw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48881830"
+    }
+  ],
+  "originalUrl": "https://fabiensanglard.net/extinct/index.html",
+  "originalSite": "fabiensanglard.net",
+  "context": "The film industry's shift from practical effects to CGI led to a loss of skilled labor and a recognizable decline in visual quality, as seen in movies from the 1990s onward. Similarly, LLMs like GPT-4 are being used to generate code, raising concerns that developers may lose the ability to write and reason about code independently.",
+  "discussion": "Commenters generally agree with the analogy but offer additional perspectives: ChiperSoft highlights that CGI's dominance was driven by non-unionized labor, while singpolyma3 questions the focus on productivity volume. Some note that LLMs can generate tests that match code but not necessarily test desired behavior.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

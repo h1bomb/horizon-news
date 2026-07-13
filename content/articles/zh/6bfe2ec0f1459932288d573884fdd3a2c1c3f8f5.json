@@ -1,0 +1,44 @@
+{
+  "id": "6bfe2ec0f1459932288d573884fdd3a2c1c3f8f5",
+  "canonicalId": "d28c62daa8b912d6ea2e05a44821c62a2165860e",
+  "slug": "mistral-ai-发布-voxtral-4b-tts-2603一个-40-亿参数文本转语音模型仅通过-api-支持语音克隆",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-27T00:00:00Z",
+  "lang": "zh",
+  "title": "Mistral AI 发布 Voxtral-4B-TTS-2603，一个 40 亿参数文本转语音模型，仅通过 API 支持语音克隆",
+  "summary": "Mistral AI 在 Hugging Face 上发布了 Voxtral-4B-TTS-2603，这是一个 40 亿参数的文本转语音模型，具备语音克隆功能，但克隆功能仅通过 API 调用提供，本地版本不支持。 此次发布代表了文本转语音技术的重要进展，以相对轻量的 40 亿参数规模提供了先进的跨语言语音生成能力，可能使 AI 语音助手更加自然且成本效益更高，适用于广泛的应用场景。 该模型需要至少 16GB GPU 内存才能在本地以 BF16 格式运行，虽然支持多语言生成，但社区反馈显示语言支持有限，且语音克隆功能仅限于 API 访问。",
+  "score": 7,
+  "tags": [
+    "text-to-speech",
+    "mistral-ai",
+    "hugging-face",
+    "voice-cloning",
+    "open-source-models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 26, 15:28"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+  "originalSite": "huggingface.co",
+  "context": "文本转语音模型将书面文本转换为语音音频，语音克隆功能允许用户使用 AI 算法复制特定声音。最近的 TTS 模型如 Kyutai 的 20 亿参数模型已经推动了实时语音生成的边界，而 Mistral AI 以开发高效的大型语言模型而闻名。语音克隆 API 通常需要音频录音来创建可以朗读任何文本的数字语音副本。",
+  "discussion": "社区情绪复杂，用户对语音克隆仅通过 API 提供表示失望，并指出语言支持有限，同时也承认语音克隆功能的质量令人印象深刻，并质疑是否可以将开源替代方案与该模型集成。",
+  "references": [
+    {
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts"
+    },
+    {
+      "title": "Kyutai Releases 2B Parameter Streaming Text-to-Speech TTS with",
+      "url": "https://www.marktechpost.com/2025/07/05/kyutai-releases-2b-parameter-streaming-text-to-speech-tts-with-220ms-latency-and-2-5m-hours-of-training/"
+    },
+    {
+      "title": "Best Text to Speech API with Voice Cloning in 2026: What to ...",
+      "url": "https://fish.audio/blog/best-text-to-speech-api-voice-cloning/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

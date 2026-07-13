@@ -1,0 +1,32 @@
+{
+  "id": "7017a171cce38cf296630ecfb20c17a901806cc9",
+  "canonicalId": "f3869f401d86fa44b5e41c917e3060535a956d10",
+  "slug": "hetzner-price-adjustment",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T13:19:00Z",
+  "lang": "en",
+  "title": "Hetzner Price Adjustment",
+  "summary": "Hetzner has announced a significant price increase for its cloud servers, with some plans seeing up to a 3x hike. For example, the CPX11 plan rose from $6.99 to $20.49. This price adjustment reflects the AI boom's impact on hardware costs, particularly RAM and SSD scarcity. It may affect small developers and businesses that relied on Hetzner's affordability, and could signal broader price trends across the cloud hosting industry. The price increase is attributed to skyrocketing costs of RAM and SSDs, driven by AI-related demand. Hetzner has not introduced lower-cost alternatives to replace the previous affordable tiers.",
+  "score": 8,
+  "tags": [
+    "cloud hosting",
+    "pricing",
+    "hardware scarcity",
+    "AI boom",
+    "Hetzner"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tuhtah",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48540844"
+    }
+  ],
+  "originalUrl": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers",
+  "originalSite": "docs.hetzner.com",
+  "context": "Hetzner is a German hosting provider known for offering affordable dedicated and cloud servers. The AI boom has caused a surge in demand for hardware components like RAM and SSDs, leading to shortages and price increases across the industry. This price adjustment by Hetzner is part of a larger trend affecting cloud providers.",
+  "discussion": "The community expressed mixed reactions, with some users frustrated by the 3x increase and questioning the justification. Others noted the broader hardware cost reality and wondered if larger hyperscalers like AWS and GCP can keep prices stable. Some users called for new lower-cost plans to match the old pricing.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

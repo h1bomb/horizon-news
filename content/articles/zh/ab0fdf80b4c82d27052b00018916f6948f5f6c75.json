@@ -1,0 +1,40 @@
+{
+  "id": "ab0fdf80b4c82d27052b00018916f6948f5f6c75",
+  "canonicalId": "8d3e0dbf105438e702130654692e149f2316b7c4",
+  "slug": "gemma-4-与-qwen-36-的-kv-缓存量化基准测试",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Gemma 4 与 Qwen 3.6 的 KV 缓存量化基准测试",
+  "summary": "一项基准测试测量了 Gemma 4 和 Qwen 3.6 在 q8_0 和 q4_0 级别下 KV 缓存量化的 KL 散度，结果显示 Gemma 4 在缓存量化时性能显著下降。 该基准测试为在减少内存占用的情况下部署大语言模型提供了关键见解，因为 KV 缓存量化是实现高效推理的关键技术。Gemma 4 对量化比 Qwen 3.6 更敏感这一发现可能影响模型选择和量化策略。 该基准测试对 KV 缓存使用了 q8_0 和 q4_0 量化级别，并在约 30k 上下文长度的任务中测量了 KL 散度。社区讨论推测，Gemma 的性能下降可能是由于量化了 SWA（滑动窗口注意力）缓存，而该缓存最初保持为 16 位。",
+  "score": 8,
+  "tags": [
+    "KV cache quantization",
+    "LLM benchmarking",
+    "Gemma 4",
+    "Qwen 3.6",
+    "KL divergence"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 24, 14:19"
+    }
+  ],
+  "originalUrl": "https://localbench.substack.com/p/kv-cache-quantization-benchmark",
+  "originalSite": "localbench.substack.com",
+  "context": "KV 缓存量化通过使用较低精度的数据类型（例如 q8_0、q4_0）代替全精度来减少键值缓存的内存占用。KL 散度衡量量化后输出概率分布的变化程度，值越高表示退化越严重。Gemma 4 和 Qwen 3.6 是近期发布的大语言模型，具有不同的架构。",
+  "discussion": "社区积极参与讨论，最高赞评论者 dinerburgeryum 推测 Gemma 的性能下降源于对 SWA 缓存进行了量化，而该缓存最初保持为 16 位。另一位评论者 keyboardhack 澄清说，llama.cpp 中的注意力旋转并非受 TurboQuant 启发，而是源自更早的 GitHub 问题。用户还对更长上下文长度和 TurboQuant 方法的结果表示好奇。",
+  "references": [
+    {
+      "title": "Quantized KV Cache - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/quantization/quantized_kvcache/"
+    },
+    {
+      "title": "Quantized KV Cache — SGLang",
+      "url": "https://docs.sglang.io/advanced_features/quantized_kv_cache.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

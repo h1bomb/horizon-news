@@ -1,0 +1,44 @@
+{
+  "id": "1119ea27caabdb9d545d9419b91287443a5bb870",
+  "canonicalId": "1cd67fe11ba58a318416de07e95eea7f772cbeff",
+  "slug": "qwen35-35b-a3b-replaces-two-model-agentic-setup-on-consumer-mac-handling-reasoning-and-coding-in-one",
+  "date": "2026-03-01",
+  "publishedAt": "2026-02-28T18:10:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-35B-A3B replaces two-model agentic setup on consumer Mac, handling reasoning and coding in one.",
+  "summary": "A user successfully replaced a two-model agentic setup (Nemotron-3-Nano-30B-A3B and Qwen3-Coder-30B-A3B) with a single Qwen3.5-35B-A3B model to analyze Amazon sales data on an M1 Max Mac with 64GB RAM. The single model, running via llama.cpp server in a Q4_K_XL quantized format, handled the entire task requiring both reasoning and Python coding. This demonstrates a significant simplification for deploying local, multi-step AI agents on consumer hardware, reducing system complexity by eliminating the need for model routing logic. It highlights the trend where newer, more capable open-source models are becoming viable all-in-one solutions for complex workflows, potentially lowering the barrier to entry for sophisticated local AI applications. The Qwen3.5-35B-A3B model ran at approximately 27 tokens per second on the M1 Max, slower than the individual speeds of the previous two-model setup (~40-45 tok/s), but the overall workflow was simplified. The user specifically noted that disabling 'thinking mode' was crucial for agentic tasks to avoid 2-3x latency overhead for marginal gains.",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "agentic-ai",
+    "model-benchmark",
+    "apple-silicon",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "luke_pacman"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rh9k63/qwen35_35ba3b_replaced_my_2model_agentic_setup_on/",
+  "originalSite": "reddit.com",
+  "context": "Qwen3.5 is a series of large language models released by Alibaba in 2026, with the 35B-A3B variant being a 35-billion parameter model. 'A3B' indicates it uses an advanced, efficient architecture. Llama.cpp is a popular C/C++ inference framework that allows large models to run efficiently on consumer hardware, like Apple Silicon Macs. Quantization (e.g., Q4_K_XL) is a technique to reduce a model's memory footprint and speed up inference by representing its weights with fewer bits, at a potential cost to precision.",
+  "discussion": "The community response was positive, with users appreciating the practical benchmark. Key discussion points included agreement that disabling 'thinking mode' is critical for agentic tasks to avoid latency, the significant benefit of removing complex model routing logic, and questions about the specific GGUF file source and the agentic framework used. Some users expressed intent to switch to Qwen models, while others advised waiting for more stable quantizations and bug fixes.",
+  "references": [
+    {
+      "title": "Qwen/Qwen3.5-35B-A3B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+    },
+    {
+      "title": "llama.cpp/tools/server/README.md at master - GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md"
+    },
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0 ...",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

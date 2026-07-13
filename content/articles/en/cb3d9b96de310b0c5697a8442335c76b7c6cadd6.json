@@ -1,0 +1,44 @@
+{
+  "id": "cb3d9b96de310b0c5697a8442335c76b7c6cadd6",
+  "canonicalId": "a66b175ccbe9d9204a504195920c31b71d7c7270",
+  "slug": "google-launches-dbsc-technology-in-chrome-146-to-enhance-cookie-security-through-device-binding",
+  "date": "2026-04-12",
+  "publishedAt": "2026-04-11T00:18:00Z",
+  "lang": "en",
+  "title": "Google launches DBSC technology in Chrome 146 to enhance cookie security through device binding",
+  "summary": "Google has introduced Device-Bound Session Credentials (DBSC) in Chrome 146 for Windows, which cryptographically binds authentication sessions to physical devices using hardware security modules like TPM. This prevents stolen cookies from being used on other devices, with macOS support planned for an upcoming release. This represents a significant advancement in web authentication security by addressing the fundamental vulnerability of cookie theft in session hijacking attacks. As a major browser vendor implementing hardware-bound protection, Google's move could influence industry standards and push other browsers to adopt similar security measures. DBSC generates cryptographic key pairs stored locally on the device that cannot be exported, ensuring session credentials remain bound to specific hardware. The technology is currently available for Windows users in Chrome 146, with expansion to macOS planned for future releases.",
+  "score": 8,
+  "tags": [
+    "web-security",
+    "browser-technology",
+    "authentication",
+    "cookies",
+    "hardware-security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
+  "originalSite": "security.googleblog.com",
+  "context": "Session hijacking attacks typically involve stealing authentication cookies to gain unauthorized access to user accounts on web servers. Traditional cookies can be easily copied and used on different devices once stolen. Trusted Platform Module (TPM) is a hardware-based security chip that provides cryptographic functions and secure key storage, commonly used for device authentication and encryption.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Device Bound Session Credentials (DBSC) - Chrome Developers",
+      "url": "https://developer.chrome.com/docs/web-platform/device-bound-session-credentials"
+    },
+    {
+      "title": "Protecting Cookies with Device Bound Session Credentials",
+      "url": "https://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html"
+    },
+    {
+      "title": "Trusted Platform Module - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trusted_Platform_Module"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ce6b97a010ec8b8b330b8401293b2729751c8220",
+  "canonicalId": "5bc8d5397943fdf611613bfcedbf6b685ca71bdd",
+  "slug": "bram-cohen-提出基于-crdt-的版本控制系统实现无冲突合并",
+  "date": "2026-03-23",
+  "publishedAt": "2026-03-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Bram Cohen 提出基于 CRDT 的版本控制系统，实现无冲突合并。",
+  "summary": "Bram Cohen 发表了一篇名为 'Manyana' 的提案，利用无冲突复制数据类型（CRDTs）重新构想版本控制系统，以实现永不失败的合并，引发了 216 条评论的技术讨论。 这很重要，因为它挑战了 Git 等传统版本控制范式，通过消除合并冲突可能简化分布式协作，从而影响软件工程工作流和开发者工具。 该提案基于 Cohen 在 2000 年代早期 Codeville 的工作，但批评者认为 CRDTs 通过避免冲突可能产生语义错误的代码，且系统处理语义问题的能力尚不明确。",
+  "score": 7,
+  "tags": [
+    "version-control",
+    "crdt",
+    "software-engineering",
+    "distributed-systems",
+    "developer-tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 22, 15:16"
+    }
+  ],
+  "originalUrl": "https://bramcohen.com/p/manyana",
+  "originalSite": "bramcohen.com",
+  "context": "像 Git 这样的版本控制系统跟踪软件代码的变更，合并不同版本时可能导致冲突，需要手动解决。CRDTs 是为分布式系统设计的数据结构，旨在无冲突地确保一致性，常用于多用户应用。该提案将 CRDTs 应用于版本控制以自动化合并，旨在提高协作开发的效率。",
+  "discussion": "社区情绪复杂，一些人赞扬这一创新能改善开发者体验，而另一些人则认为合并冲突对语义正确性至关重要，CRDTs 可能产生垃圾代码。关键观点包括对处理语义冲突的担忧，以及与 p4merge 等现有工具的比较。",
+  "references": [
+    {
+      "title": "About CRDTs • Conflict-free Replicated Data Types",
+      "url": "https://crdt.tech/"
+    },
+    {
+      "title": "[1805.06358] Conflict-free Replicated Data Types (CRDTs) - arXiv",
+      "url": "https://arxiv.org/abs/1805.06358"
+    },
+    {
+      "title": "What is version control | Atlassian Git Tutorial",
+      "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

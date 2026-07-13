@@ -1,0 +1,44 @@
+{
+  "id": "48208ec6f38a0cdacb7911f93e6dd0c8f1fc8264",
+  "canonicalId": "ec0420d53391e7c7d99075d9906d0ca723057a71",
+  "slug": "qwen-36-27b-在功能规划上超越-sonnet-46",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.6 27b 在功能规划上超越 Sonnet 4.6",
+  "summary": "一位用户报告称，在 Pi 框架中运行的 Qwen 3.6 27b（Unsloth Q5_K_M 量化）在功能规划任务上优于 Claude Code 中的 Sonnet 4.6，能发现更多问题并提出更好的改进建议。 这挑战了“大型专有模型在高层次规划上总是更好”的假设，表明像 Qwen 这样较小的开源模型通过适当的调优和框架也能达到甚至超越它们。 对比使用了相同的提示和 Claude.md 文件；Qwen 提出了 'search_and_read()' 效率改进和新规划类别，而 Sonnet 未能理解该功能如何融入现有系统。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "model comparison",
+    "open-source",
+    "planning",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 24, 19:21"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1supft2",
+  "originalSite": "reddit.com",
+  "context": "Qwen 3.6 是阿里巴巴推出的开源大语言模型系列，其中 27b 变体拥有 270 亿参数。Unsloth Q5_K_M 是一种 5 位量化方法，可减少内存占用同时保留大部分精度。Pi 是一个轻量级代理框架，提供极简工具和简短系统提示，通过减少开销使较小模型受益。",
+  "discussion": "评论褒贬不一：一些用户报告 Qwen 3.6 MoE 在角色扮演和编码任务中表现出色，而另一些用户则警告说 Qwen 发现的许多“问题”可能是误报，并且在详细的实现和验证步骤上 Qwen 表现不足。",
+  "references": [
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What... | Medium",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "Introducing Pi: Agent Harness for Long-Running Tasks with LLM",
+      "url": "https://www.linkedin.com/posts/activity-7428137774458896385-LjF_"
+    },
+    {
+      "title": "Opencode vs Pi: Local LLM Benchmark Results - grigio.org",
+      "url": "https://grigio.org/opencode-vs-pi-local-llm-benchmark-results/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

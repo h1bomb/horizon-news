@@ -1,0 +1,32 @@
+{
+  "id": "43128d4d632c2c5282f498ea338b6b7acdfc9f19",
+  "canonicalId": "174425f454f7c2a3476cf7e23a22079c1d8218a9",
+  "slug": "anthropic-mandates-identity-verification-for-claude-access",
+  "date": "2026-06-22",
+  "publishedAt": "2026-06-21T12:44:00Z",
+  "lang": "en",
+  "title": "Anthropic Mandates Identity Verification for Claude Access",
+  "summary": "Anthropic has introduced an identity verification requirement for accessing certain Claude features, using third-party service Persona for ID scanning. This policy change has sparked debate about privacy and potential lockouts for users who fail the process. This move signals increased regulatory compliance and security measures in AI services, but raises concerns about user privacy, data handling by third parties, and equitable access for non-US users. It also mirrors similar policies by competitors like OpenAI, indicating an industry-wide trend. The identity verification help page has been available since April 2024, according to archived versions. If verification fails, users are permanently locked out from top models without a retry option, similar to OpenAI's policy. Anthropic states it does not use identity data for model training, but third-party verifier Persona may use data to improve fraud prevention.",
+  "score": 8,
+  "tags": [
+    "identity verification",
+    "Claude",
+    "privacy",
+    "AI regulation",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bathory",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48618455"
+    }
+  ],
+  "originalUrl": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+  "originalSite": "support.claude.com",
+  "context": "Identity verification involves submitting a government-issued ID to confirm a user's identity, often required for services with potential legal or safety implications. AI platforms like Claude and OpenAI's ChatGPT are increasingly adopting such measures to comply with regulations and prevent misuse, especially for advanced models. However, users worry about privacy, data security, and the lack of transparency in enforcement.",
+  "discussion": "Commenters expressed frustration over US-centric restrictions and the perceived depreciating value of subscriptions for non-US users. Some noted that the verification page is not new, while others criticized the permanent lockout policy and third-party data usage. A comparison was made to net neutrality, coining the term 'AI neutrality' to highlight gatekeeping concerns.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

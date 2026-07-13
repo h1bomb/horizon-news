@@ -1,0 +1,45 @@
+{
+  "id": "546264bde9f152581433fa0c20dfc963c6bd8163",
+  "canonicalId": "fcd5b3e782e6da2b7fe1ede976b09634bd89e988",
+  "slug": "ai-progress-is-slowing-and-revenue-demands-are-unsustainable",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T15:46:00Z",
+  "lang": "en",
+  "title": "AI progress is slowing and revenue demands are unsustainable",
+  "summary": "An article by Ed Zitron argues that artificial intelligence progress is decelerating and that the industry requires over $3 trillion in revenue by the end of 2030 to maintain its existence, highlighting a financial sustainability crisis. This challenges the prevailing narrative of unbounded AI growth and raises critical questions about the economic viability of massive AI investments, affecting venture capital, corporate strategy, and public expectations. The article claims that despite enormous capital expenditure, AI companies are far from generating sufficient revenue, and scaling laws may be yielding diminishing returns. It also points to high operational costs and competition among cloud providers.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "economics",
+    "industry analysis",
+    "scaling",
+    "sustainability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "crescit_eundo",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48446893"
+    }
+  ],
+  "originalUrl": "https://www.wheresyoured.at/ai-is-slowing-down/",
+  "originalSite": "wheresyoured.at",
+  "context": "AI scaling laws describe the empirical relationship between model performance and factors like compute, data, and parameters. The Chinchilla scaling law, introduced by DeepMind in 2022, emphasizes compute-optimal training by balancing model size and data. However, recent observations suggest that simply scaling up may be hitting limits, leading to debates about the future of AI progress and the economic models supporting it.",
+  "discussion": "Comments are divided: some agree with the financial analysis, noting the huge revenue gap, while others argue that the article underestimates real-world productivity gains and the potential for new applications. One commenter suggests that Apple's low-cost licensing deal with Google shows consumer AI can be profitable, countering the narrative of unprofitability.",
+  "references": [
+    {
+      "title": "AI scaling laws are rewriting the rules of innovation: why",
+      "url": "https://www.remio.ai/post/ai-scaling-laws-are-rewriting-the-rules-of-innovation-why-bigger-models-don-t-just-mean-better-resu"
+    },
+    {
+      "title": "Neural scaling law - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neural_scaling_law"
+    },
+    {
+      "title": "[2203.15556] Training Compute-Optimal Large Language Models Chinchilla Scaling Laws: Compute-Optimal Training and ... Chinchilla Scaling Laws - GeeksforGeeks Chinchilla scaling laws - AI Wiki Neural scaling law - Wikipedia Images Chinchilla data-optimal scaling laws: In plain English Chinchilla Scaling Laws for Large Language Models (LLMs)",
+      "url": "https://arxiv.org/abs/2203.15556"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "820e37616a4167ac4da5d43658b6a71dad68e5d7",
+  "canonicalId": "019d5146aacc463e230c5a6f29f67c0a6ab1094b",
+  "slug": "gds-建议-nhs-保持开源仓库公开",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-18T00:00:00Z",
+  "lang": "zh",
+  "title": "GDS 建议 NHS 保持开源仓库公开",
+  "summary": "英国政府数字服务局（GDS）于 2026 年 5 月 14 日发布指导意见，建议公共部门组织默认保持开源仓库公开，直接反对了 NHS 在通过 Project Glasswing 报告安全漏洞后计划关闭其仓库的做法。 这次干预标志着英国政府内部的重大政策冲突，作为中央数字权威机构的 GDS 公开质疑 NHS 退出开源的做法，强调关闭仓库会增加成本并减少审查。结果可能为整个英国公共部门的开源实践树立先例。 GDS 的指导意见警告称，将所有内容设为私有会增加“交付和政策成本”，并减少复用和审查；而 NHS 的决定是由 Anthropic 的 Project Glasswing 网络安全倡议披露的漏洞引发的。Terence Eden 将 GDS 的声明解读为罕见的内部公务员分歧公开化。",
+  "score": 9,
+  "tags": [
+    "open source",
+    "government policy",
+    "security",
+    "NHS",
+    "GDS"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 17, 15:59"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "政府数字服务局（GDS）是英国政府负责数字化公共服务转型的部门。NHS（英国国家医疗服务体系）在 Project Glasswing 报告漏洞后计划关闭其开源仓库；Project Glasswing 是 Anthropic 发起的一项网络安全倡议，使用 AI 在关键开源软件中查找安全缺陷。开源软件是指公开可访问、可自由使用、修改和共享的代码，通常能带来更高的透明度和更快的创新，但也存在潜在的安全风险。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Government Digital Service - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Government_Digital_Service"
+    },
+    {
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

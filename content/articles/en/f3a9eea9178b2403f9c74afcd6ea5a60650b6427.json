@@ -1,0 +1,44 @@
+{
+  "id": "f3a9eea9178b2403f9c74afcd6ea5a60650b6427",
+  "canonicalId": "3a6e102668193a234f30227ee58ea5482cd65f32",
+  "slug": "ai-powered-port-of-jsonata-to-go-in-a-day-saves-500k-annually",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T00:35:00Z",
+  "lang": "en",
+  "title": "AI-Powered Port of JSONata to Go in a Day Saves $500K Annually",
+  "summary": "The Reco team used AI to port the JSONata JSON expression language from JavaScript to Go in just one day, achieving a working Go version in 7 hours with $400 in token costs. They then conducted a shadow deployment for a week to validate the new implementation against the original. This demonstrates the practical impact of AI-assisted code porting, enabling rapid language migrations with significant cost savings, which can accelerate software modernization and reduce operational expenses. It highlights how AI can streamline development workflows, particularly for projects with existing test suites. The port relied on JSONata's existing test suite to guide the AI, ensuring accuracy, and used a shadow deployment to run both versions in parallel without disrupting live services. The annual savings of $500K stem from reduced maintenance and improved efficiency in the Go-based implementation.",
+  "score": 7,
+  "tags": [
+    "AI-assisted development",
+    "code porting",
+    "Go",
+    "JSON",
+    "cost optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "JSONata is a declarative open-source query and transformation language for JSON data, similar to jq, often used in platforms like Node-RED for complex data manipulations. Vibe porting refers to using AI agents to migrate code between programming languages, leveraging tools like test suites for validation. Shadow deployment is a testing technique where a new version runs alongside the old one, processing copied live traffic to observe behavior without affecting users.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "JSONata : A declarative open-source query and transformation...",
+      "url": "https://jsonata.org/"
+    },
+    {
+      "title": "Simon Willison on vibe-porting",
+      "url": "https://simonwillison.net/tags/vibe-porting/"
+    },
+    {
+      "title": "What is a Shadow Deployment? - DevOps.com",
+      "url": "https://devops.com/what-is-a-shadow-deployment/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

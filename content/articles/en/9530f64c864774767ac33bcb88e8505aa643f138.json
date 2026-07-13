@@ -1,0 +1,44 @@
+{
+  "id": "9530f64c864774767ac33bcb88e8505aa643f138",
+  "canonicalId": "77e68e7be39a9de49a5519a4cc582c6791035fa6",
+  "slug": "benchmarking-gemma-2-9b-fp8-on-l4-reveals-prefill-tax",
+  "date": "2026-06-28",
+  "publishedAt": "2026-06-27T21:05:00Z",
+  "lang": "en",
+  "title": "Benchmarking Gemma 2 9B FP8 on L4 Reveals Prefill Tax",
+  "summary": "A benchmark of Gemma 2 9B with FP8 quantization served on a single NVIDIA L4 GPU via vLLM reveals that FP8 increases time-to-first-token (TTFT) by up to 58% for long-context prompts, while reducing end-to-end latency for medium-length generation. This analysis exposes the hidden prefill tax of FP8 quantization on commodity hardware, helping engineers make informed trade-offs between latency, quality, and VRAM when deploying self-hosted LLMs. The unquantized model had a TTFT of 866.93ms for complex long-context prompts, while FP8 spiked to 1372.12ms; however, FP8 reduced average client total time from 12.29s to 11.53s for medium-length sequences and freed VRAM for larger batch sizes.",
+  "score": 8,
+  "tags": [
+    "LLM Benchmarking",
+    "Quantization",
+    "Gemma 2",
+    "vLLM",
+    "GPU Inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Ok_Waltz_5145"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uhdxnb/benchmarking_selfhosted_gemma_2_9b_vs_frontier/",
+  "originalSite": "reddit.com",
+  "context": "LLM inference consists of two phases: prefill (processing the input prompt) and decode (generating tokens). FP8 quantization reduces memory bandwidth but adds de-quantization overhead during the compute-bound prefill phase. vLLM is an open-source inference engine that supports efficient serving with features like PagedAttention.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LLMs and quantization: FP8, FP4, and INT8 explained",
+      "url": "https://rcrtech.com/semiconductor-news/llms-quantization-fp8-fp4-int8/"
+    },
+    {
+      "title": "vLLM - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VLLM"
+    },
+    {
+      "title": "Prefill Tax | LLMS3",
+      "url": "https://llms3.com/node/prefill-tax"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

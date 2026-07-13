@@ -1,0 +1,37 @@
+{
+  "id": "9e2211c55e09ecdd217bd9f5c7add1a4366a7531",
+  "canonicalId": "db53ad488431a729d7085f410c2f1b6e381ad296",
+  "slug": "tikz-编辑器latex-图形的所见即所得工具",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T14:24:00Z",
+  "lang": "zh",
+  "title": "TikZ 编辑器：LaTeX 图形的所见即所得工具",
+  "summary": "一款开源的所见即所得 TikZ 图形编辑器已发布，允许用户通过拖拽和调整大小来可视化编辑 TikZ 源代码，同时保持源代码和渲染图形同步。 该编辑器大大简化了创建和修改 TikZ 图形的过程，传统上需要手动调整坐标并重新编译，为大量使用 LaTeX 的研究人员和学者节省了时间。 该编辑器通过解析 TikZ 代码并跟踪对象的精确源位置来工作，当元素移动时仅覆盖数值。它主要使用 Codex AI 编码代理构建，花费约 500 美元的 ChatGPT 订阅费。",
+  "score": 8,
+  "tags": [
+    "TikZ",
+    "LaTeX",
+    "editor",
+    "WYSIWYG",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "DominikPeters",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48645437"
+    }
+  ],
+  "originalUrl": "https://tikz.dev/editor/",
+  "originalSite": "tikz.dev",
+  "context": "TikZ 是一个强大的 LaTeX 包，用于创建矢量图形，常用于学术论文。传统上，用户手动编写 TikZ 代码并重新编译查看结果，这可能很繁琐。该编辑器提供实时视觉反馈和双向编辑。",
+  "discussion": "社区称赞该项目的界面和概念，但批评生成的 TikZ 代码大量使用绝对坐标，这不符合 TikZ 的典型用法。有人推荐了 quiver.app 等专业绘图替代工具，还有评论者提到使用 AI 代币的高昂成本。",
+  "references": [
+    {
+      "title": "LaTeX Graphics with TikZ",
+      "url": "https://tikz.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dacb69fb64e5936175b3123dbe81bd7ad5cacb0f",
+  "canonicalId": "80d20b5bb703e51c04e6b169828beb2df794a068",
+  "slug": "antigravity-20-在-openscad-llm-基准测试中夺冠",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Antigravity 2.0 在 OpenSCAD LLM 基准测试中夺冠",
+  "summary": "Antigravity 2.0（由 Gemini 3.5 Flash 驱动的 AI 代理）在 OpenSCAD LLM 基准测试中夺得最高分，生成如万神殿等复杂 3D 建筑模型，包括方格天花板等内部细节。 该基准测试表明 LLM 在参数化 3D 建模方面取得进展，可能大幅加速建筑设计和 3D 打印工作流程，并凸显了 AI 代理自主处理复杂几何任务的潜力。 基准测试仅以万神殿作为单一测试案例，部分评论者指出这限制了普适性。Antigravity 2.0 是唯一实现万神殿内部方格天花板图案（透过穹顶孔洞可见）的代理。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "3D modeling",
+    "OpenSCAD",
+    "benchmark",
+    "AI agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 22, 10:38",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48234090"
+    }
+  ],
+  "originalUrl": "https://modelrift.com/blog/openscad-llm-benchmark/",
+  "originalSite": "modelrift.com",
+  "context": "OpenSCAD 是一款免费的基于脚本的 3D CAD 建模软件，使用自己的描述语言通过构造实体几何创建实体对象。Antigravity 2.0 是 Google 的 AI 代理平台，集成 Gemini API 并提供 CLI 和 IDE 工具用于编排 AI 任务。",
+  "discussion": "社区反应不一。一些用户称赞 Antigravity 的输出质量，另一些则批评其发布稳定性问题，并指出单一测试案例不足以证明其全面优越性。有评论者还观察到 Gemini 模型在不同 3D 模型类型中表现最平稳。",
+  "references": [
+    {
+      "title": "OpenSCAD",
+      "url": "https://en.wikipedia.org/wiki/OpenSCAD"
+    },
+    {
+      "title": "Google Antigravity Documentation",
+      "url": "https://antigravity.google/docs/overview"
+    },
+    {
+      "title": "Google Antigravity 2.0: The Complete Developer Guide (2026)",
+      "url": "https://www.buildfastwithai.com/blogs/google-antigravity-2-0-developer-guide-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

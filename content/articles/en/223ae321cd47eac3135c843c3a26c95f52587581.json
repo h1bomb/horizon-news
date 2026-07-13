@@ -1,0 +1,44 @@
+{
+  "id": "223ae321cd47eac3135c843c3a26c95f52587581",
+  "canonicalId": "ec0420d53391e7c7d99075d9906d0ca723057a71",
+  "slug": "qwen-36-27b-outperforms-sonnet-46-on-feature-planning",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-24T19:21:00Z",
+  "lang": "en",
+  "title": "Qwen 3.6 27b Outperforms Sonnet 4.6 on Feature Planning",
+  "summary": "A user reports that Qwen 3.6 27b (Unsloth Q5_K_M) running in the Pi harness outperforms Sonnet 4.6 in Claude Code on a feature planning task, catching more issues and suggesting better improvements. This challenges the assumption that larger proprietary models are always better for high-level planning, suggesting that smaller open-source models like Qwen can match or exceed them with proper tuning and harness. The comparison used identical prompts and Claude.md files; Qwen suggested a 'search_and_read()' efficiency improvement and new plan categories, while Sonnet missed understanding how the feature fits into the existing system.",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "model comparison",
+    "open-source",
+    "planning",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Zestyclose839"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1supft2",
+  "originalSite": "reddit.com",
+  "context": "Qwen 3.6 is a series of open-source LLMs by Alibaba, with the 27b variant being a 27-billion-parameter model. Unsloth Q5_K_M is a 5-bit quantization method that reduces memory usage while retaining most accuracy. Pi is a lightweight agent harness that provides minimal tools and a short system prompt, which can benefit smaller models by reducing overhead.",
+  "discussion": "Comments are mixed: some users report similar experiences with Qwen 3.6 MoE excelling in roleplay and coding tasks, while others caution that many 'issues' found by Qwen may be false positives, and that Qwen falls short on detailed implementation and verification steps.",
+  "references": [
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What... | Medium",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "Introducing Pi: Agent Harness for Long-Running Tasks with LLM",
+      "url": "https://www.linkedin.com/posts/activity-7428137774458896385-LjF_"
+    },
+    {
+      "title": "Opencode vs Pi: Local LLM Benchmark Results - grigio.org",
+      "url": "https://grigio.org/opencode-vs-pi-local-llm-benchmark-results/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

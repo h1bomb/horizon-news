@@ -1,0 +1,44 @@
+{
+  "id": "6ee8c2c0b9e960daab189f281f76a54cff043754",
+  "canonicalId": "7fc5c6a3cc30e00bbeca72829e5c1484deeb09d6",
+  "slug": "qwen-36-27b-quantization-benchmark-q4-k-m-best-tradeoff",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T12:18:00Z",
+  "lang": "en",
+  "title": "Qwen 3.6 27B Quantization Benchmark: Q4_K_M Best Tradeoff",
+  "summary": "A benchmark evaluated Qwen 3.6 27B across BF16, Q4_K_M, and Q8_0 GGUF quantizations using llama-cpp-python on HumanEval, HellaSwag, and BFCL, finding Q4_K_M offers the best practical tradeoff with minimal accuracy loss and significant memory/throughput gains. This comparison helps practitioners choose the right quantization for local deployment, balancing accuracy, memory, and speed, which is critical for running large models on consumer hardware. Q4_K_M achieved 66.54% average accuracy (vs 69.78% BF16), 22.5 tok/s throughput (1.45x faster), and 28 GB peak RAM (48% less), while Q8_0 surprisingly underperformed Q4_K_M on HellaSwag (83% vs 86%).",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "quantization",
+    "benchmarking",
+    "Qwen",
+    "GGUF"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "gvij"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/ncwdmp21bxxg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "GGUF is a file format for storing quantized LLMs, enabling efficient inference on CPUs and low-resource devices. Quantization reduces model precision (e.g., from 16-bit to 4-bit) to shrink size and speed up inference, often with minor accuracy loss. Q4_K_M and Q8_0 are common quantization levels in llama.cpp, with Q4_K_M being a 4-bit method that uses a combination of quantization techniques for better quality.",
+  "discussion": "Commenters appreciated the comparison but raised concerns about missing error bars, potential sampling error, and the surprising Q8_0 underperformance. Some questioned the validity of the results, noting that Qwen 3.6 27B should score higher on HumanEval based on other leaderboards, and suggested KV cache quantization might have affected Q8_0.",
+  "references": [
+    {
+      "title": "Understanding the GGUF Format : A Comprehensive Guide | Medium",
+      "url": "https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256"
+    },
+    {
+      "title": "Difference in different quantization methods · ggml-org llama.cpp...",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/2094"
+    },
+    {
+      "title": "The Complete Guide to LLM Quantization with vLLM... | Jarvis Labs",
+      "url": "https://jarvislabs.ai/blog/vllm-quantization-complete-guide-benchmarks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

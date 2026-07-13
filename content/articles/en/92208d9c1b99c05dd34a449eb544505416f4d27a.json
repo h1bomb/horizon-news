@@ -1,0 +1,40 @@
+{
+  "id": "92208d9c1b99c05dd34a449eb544505416f4d27a",
+  "canonicalId": "669c32aab90bd3c6647c4b9b7c6196c1d5df5ca2",
+  "slug": "minimax-m27-gguf-investigation-reveals-widespread-nan-issues-in-llamacpp",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-14T20:12:00Z",
+  "lang": "en",
+  "title": "MiniMax M2.7 GGUF Investigation Reveals Widespread NaN Issues in llama.cpp",
+  "summary": "A technical investigation identified NaN (Not a Number) issues affecting 21%-38% of GGUF models on Hugging Face, with the root cause traced to an overflow in llama.cpp during perplexity evaluation. The researchers found specific problematic quantization types (Q5_K and Q4_K) and blocks (32 and 311), while smaller I quant types like IQ4_XS and IQ3_XXS remained unaffected. This discovery is significant because it reveals a widespread bug affecting a substantial portion of quantized models on Hugging Face, potentially compromising their reliability for local AI deployment. It highlights the importance of rigorous testing in the open-source LLM ecosystem and may lead to fixes in popular tools like llama.cpp that power many local AI applications. The issue specifically affects Q5_K and Q4_K quantization types during perplexity evaluation, with block 32 and block 311 identified as problematic areas. Interestingly, lower-bit quantizations like Q2_K_XL did not produce NaNs, while medium-sized ones like Q4_K_XL did, suggesting a non-linear relationship between quantization size and the overflow bug.",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "llama.cpp",
+    "model-debugging",
+    "hugging-face",
+    "perplexity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "danielhanchen"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1slk4di/minimax_m27_gguf_investigation_fixes_benchmarks/",
+  "originalSite": "reddit.com",
+  "context": "GGUF (GPT-Generated Unified Format) is a binary file format created by the llama.cpp team to store large language models in a single, optimized file for efficient local deployment. Quantization reduces model size by lowering the precision of weights, with types like Q4_K and Q5_K representing specific quantization methods that balance size and accuracy. llama.cpp is an open-source C++ implementation for running LLMs locally, widely used for inference with GGUF models.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is GGUF ? The Format Powering Local AI Models like... | Medium",
+      "url": "https://imthadhahamed0205.medium.com/what-is-gguf-the-format-powering-local-ai-models-like-llama-and-mistral-9bfb23be7612"
+    },
+    {
+      "title": "LLM Model Formats, Conversion and Quantization | Gerfficient",
+      "url": "https://gerfficient.com/en/home/model-quantization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

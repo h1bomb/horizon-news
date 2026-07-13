@@ -1,0 +1,40 @@
+{
+  "id": "efa39c11a74460a173403689823f3143a98ebe50",
+  "canonicalId": "f904868280627ec72f257f4f202ab3c5456a954f",
+  "slug": "ai-对-hbm-的需求挤压消费级内存推高价格",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-23T00:00:00Z",
+  "lang": "zh",
+  "title": "AI 对 HBM 的需求挤压消费级内存，推高价格",
+  "summary": "AI 数据中心对高带宽内存（HBM）日益增长的需求正在从消费级 DDR 和 LPDDR 内存中分流晶圆产能，导致消费电子产品价格上涨。内存制造商预计到 2026 年底将把 20%的晶圆分配给 HBM，而此前这一比例仅为 2%。 这一转变意味着智能手机、笔记本电脑和其他消费设备可能会变得更贵，尤其是冲击非洲和南亚等地区 100 美元以下的低价手机市场。这凸显了 AI 基础设施投资如何对整个电子行业产生连锁反应。 每千兆字节 HBM 消耗的晶圆容量是每千兆字节 DDR 或 LPDDR 的三倍以上。内存制造商刻意限制制造产能以避免产能过剩，导致供应在未来数年内持续紧张。",
+  "score": 8,
+  "tags": [
+    "memory shortage",
+    "HBM",
+    "consumer electronics",
+    "AI",
+    "hardware pricing"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 22, 22:01"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "高带宽内存（HBM）是一种 3D 堆叠 DRAM 技术，用于 AI 和图形领域的高性能 GPU，提供高数据传输速率并节省空间。晶圆产能指晶圆厂能处理的硅晶圆数量，短期内固定不变。目前仅存三大内存制造商（三星、SK 海力士、美光），它们将晶圆产能分配给 DDR、LPDDR 和 HBM 等不同类型的内存。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "High Bandwidth Memory - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/High_Bandwidth_Memory"
+    },
+    {
+      "title": "What is HBM ( High Bandwidth Memory )? Deep Dive into Architecture...",
+      "url": "https://www.wevolver.com/article/what-is-hbm-high-bandwidth-memory-deep-dive-into-architecture-packaging-and-applications"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

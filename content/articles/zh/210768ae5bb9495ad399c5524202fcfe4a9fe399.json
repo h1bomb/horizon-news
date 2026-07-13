@@ -1,0 +1,40 @@
+{
+  "id": "210768ae5bb9495ad399c5524202fcfe4a9fe399",
+  "canonicalId": "64acf8e56b388ce19fab1f0e70bdfdcd89183079",
+  "slug": "project-glasswing-更新漏洞检测真阳性率达-906",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Project Glasswing 更新：漏洞检测真阳性率达 90.6%",
+  "summary": "Anthropic 的 Project Glasswing 更新报告称，其安全分析工具针对高或严重漏洞实现了 90.6% 的真阳性率，该结果已由六家独立安全研究公司验证。 这表明 AI 辅助的漏洞检测可以非常有效，可能彻底改变大规模开源软件的安全防护方式，而这对于日益依赖此类代码的 AI 代理至关重要。 在评估的 1,752 个高或严重漏洞中，90.6% 是有效的真阳性，62.4% 被确认为高或严重级别。该工具基于 Anthropic 的 Claude Mythos 模型。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "security",
+    "vulnerability detection",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 22, 19:31",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48240419"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/glasswing-initial-update",
+  "originalSite": "anthropic.com",
+  "context": "Project Glasswing 是 Anthropic 的一项计划，旨在使用先进的 AI 模型保护关键开源软件。传统的静态分析工具可以捕获常见漏洞，但往往会错过复杂或依赖上下文的问题。像 Claude Mythos 这样的 AI 模型旨在主动发现此类漏洞，为软件维护者提供新的防御层。",
+  "discussion": "评论显示出复杂反应：像 mdeeks 这样的用户报告了高准确率和工作流程中的采用，而 mukmuk 和 demorro 等人则对与现有工具相比的实际效果表示怀疑，并质疑成本效益。curl 的维护者 Daniel Stenberg 认为没有明显改进。",
+  "references": [
+    {
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing"
+    },
+    {
+      "title": "Project Glasswing",
+      "url": "https://www.anthropic.com/project/glasswing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

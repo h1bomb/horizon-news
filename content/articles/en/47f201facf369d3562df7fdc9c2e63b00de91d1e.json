@@ -1,0 +1,43 @@
+{
+  "id": "47f201facf369d3562df7fdc9c2e63b00de91d1e",
+  "canonicalId": "285857e27c294e077843082edc678672110a1107",
+  "slug": "matt-webb-advocates-for-architectural-foundations-in-ai-agentic-coding",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-28T12:04:00Z",
+  "lang": "en",
+  "title": "Matt Webb advocates for architectural foundations in AI agentic coding",
+  "summary": "Matt Webb, in a March 2026 commentary, argued that AI agents in coding require strong architectural foundations with excellent libraries to ensure maintainable, adaptive, and composable solutions, rather than relying on brute-force problem-solving. He noted that developers using AI agents are shifting focus from writing lines of code to thinking more about software architecture. This perspective is significant as it addresses a critical challenge in AI-assisted development: balancing the raw problem-solving power of AI agents with the need for sustainable, high-quality software that can evolve over time. It highlights how the rise of agentic coding is reshaping developer roles toward architectural thinking, which could influence tool design, coding practices, and long-term software maintainability in the industry. Webb specifically emphasized that great libraries with excellent interfaces are essential at the foundation, making the 'right' way the easy way for developers. He also mentioned his personal shift to 'vibing'—a term he uses instead of coding or vibe coding—where he focuses less on code lines and more on architecture.",
+  "score": 7,
+  "tags": [
+    "AI Agents",
+    "Software Architecture",
+    "Developer Tools",
+    "Coding Practices"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Agentic coding is a software development approach where autonomous AI agents plan, write, test, and modify code with minimal human intervention, using technologies like large language models (LLMs). Vibe coding is an AI-assisted programming practice where developers describe tasks in prompts to LLMs, which generate code automatically, often with minimal review. These methods are part of a broader trend in AI-assisted software development, which aims to augment developers but raises concerns about maintainability and quality without proper architectural oversight.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Agentic coding",
+      "url": "https://en.wikipedia.org/wiki/Agentic_coding"
+    },
+    {
+      "title": "Vibe coding",
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding"
+    },
+    {
+      "title": "What is agentic coding? How it works and use cases",
+      "url": "https://cloud.google.com/discover/what-is-agentic-coding"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

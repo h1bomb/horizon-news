@@ -1,0 +1,44 @@
+{
+  "id": "3661f19092ee50d64f5118e378d59b4aa76c2866",
+  "canonicalId": "b53a3cbb1748792f472dac57d387f520b96b3fa3",
+  "slug": "美光押注堆叠式-gddr-内存目标-2027-年推出首批样品",
+  "date": "2026-04-01",
+  "publishedAt": "2026-04-01T00:00:00Z",
+  "lang": "zh",
+  "title": "美光押注堆叠式 GDDR 内存，目标 2027 年推出首批样品",
+  "summary": "美光已启动堆叠式 GDDR 内存的研发，计划在 2026 年下半年完成设备部署并进入工艺测试，最快 2027 年推出约 4 层堆叠的样品。该产品定位介于 HBM 与普通 GDDR 之间，目标是在提升带宽的同时，将成本控制在 HBM 以下，主要面向 AI 加速器等客户需求。 这项技术可能创造一个新的内存层级，为 AI 和游戏应用提供比 HBM 更具成本效益的替代方案，从而重塑高性能内存市场的竞争格局。如果美光能比三星和 SK 海力士等竞争对手更早实现商业化，它可能在 AI 推理和高端游戏显卡等新兴细分市场获得先发优势。 这项技术目前尚无量产先例，美光面临着芯片互连、功耗与散热以及堆叠工艺带来的成本控制等多重挑战。报道提到，三星电子和 SK 海力士尚未公开类似计划，这意味着如果美光能克服这些技术障碍，可能获得先发优势。",
+  "score": 7,
+  "tags": [
+    "memory-technology",
+    "AI-hardware",
+    "semiconductors",
+    "GPU",
+    "innovation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 31, 00:36"
+    }
+  ],
+  "originalUrl": "https://www.etnews.com/20260330000228",
+  "originalSite": "etnews.com",
+  "context": "GDDR（图形双倍数据速率）内存传统上用于显卡和游戏 GPU，提供高带宽，但通常采用平面（非堆叠）配置。HBM（高带宽内存）则通过硅中介层垂直堆叠内存芯片，以实现更高的带宽和更低的功耗，但成本也显著更高。堆叠式 GDDR 旨在结合 HBM 的部分带宽优势和 GDDR 更具成本效益的制造方法，为那些需要比标准 GDDR 更高性能但无法承受 HBM 高昂价格的应用提供一个折中方案。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Micron May Stack GDDR Like HBM For A Major Graphics Memory ...",
+      "url": "https://hothardware.com/news/micron-may-stack-gddr-like-hbm-for-ai"
+    },
+    {
+      "title": "HBM2 vs GDDR6 Memory - Key Differences & 2023 Comparison",
+      "url": "https://atechsavvy.com/accessories/hbm2-vs-gddr6-graphics-cards/"
+    },
+    {
+      "title": "MIT Flips the Challenges of Chip Stacking On Its Head",
+      "url": "https://www.allaboutcircuits.com/news/mit-flips-challenges-of-chip-stacking-on-its-head/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

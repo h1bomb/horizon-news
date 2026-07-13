@@ -1,0 +1,40 @@
+{
+  "id": "9ff3a9b25d8e96f71a9da7399d31575dde163011",
+  "canonicalId": "ea0ca87e7c90e28f0e21c8974046c1210f3e37f1",
+  "slug": "moonshot-ai-推出-attention-residuals用注意力机制替代-transformer-中的标准残差连接",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "Moonshot AI 推出 Attention Residuals，用注意力机制替代 Transformer 中的标准残差连接",
+  "summary": "Moonshot AI 推出了 Attention Residuals，这是一种新颖的架构创新，用 softmax 注意力机制替代了 Transformer 中的标准残差连接，其中每个层使用一个学习到的查询向量，以输入依赖的权重关注先前层的输出。在实验中，Block AttnRes 实现了与基线相同的损失，但基线需要多 1.25 倍的计算量；当集成到一个在 1.4T token 上训练的 48B 参数 Kimi Linear 模型中时，它在多个基准测试中提升了性能，包括 GPQA-Diamond（+7.5）、Math（+3.6）和 HumanEval（+3.1）。 这一创新之所以重要，是因为它代表了与已有十年历史的标准残差连接的显著背离，有可能以最小的开销实现 Transformer 中更高效和选择性的信息流。它可能通过提升模型性能和效率来影响更广泛的深度学习生态系统，特别是在计算优化至关重要的大规模模型中。 开销极小，在流水线并行下训练成本增加不到 4%，推理延迟增加不到 2%。Block AttnRes 中的每个 Transformer 层有两个 AttnRes 操作（在自注意力之前和 MLP 之前），每个操作都有自己的学习到的伪查询向量，初始化为零，确保在初始化时具有标准残差行为。",
+  "score": 8,
+  "tags": [
+    "transformer-architecture",
+    "attention-mechanisms",
+    "residual-connections",
+    "model-efficiency",
+    "deep-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 16, 12:02"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1rv7ige",
+  "originalSite": "reddit.com",
+  "context": "残差连接于 2015 年在 ResNet 中引入，通过将层的输入添加到其输出来让梯度更容易流过深度网络，有助于训练非常深的模型。在 Transformer 中，残差连接用于注意力层和前馈层之后，以稳定训练并改善梯度流。注意力机制是 Transformer 的核心，使模型能够动态关注输入序列的相关部分，而 Attention Residuals 将这种动态选择集成到残差路径中。",
+  "discussion": "社区讨论显示出高度的参与度和实质性的技术见解，包括与 Deepseek 的流形约束超连接等相关工作的比较，以及与 CNN 中 DenseNet 的类比。关键观点指出了这对混合计算和自组织 Transformer 的潜在意义，一些用户对低推理开销表示惊讶，而其他用户则提供了论文和 GitHub 仓库的缺失链接。",
+  "references": [
+    {
+      "title": "AttnRes — ML/AI/statistics in Rust // Lib.rs",
+      "url": "https://lib.rs/crates/attnres"
+    },
+    {
+      "title": "Model: kimi-linear | AINews",
+      "url": "https://news.smol.ai/tags/kimi-linear"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

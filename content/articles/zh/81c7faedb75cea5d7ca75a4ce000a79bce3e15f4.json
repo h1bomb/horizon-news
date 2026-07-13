@@ -1,0 +1,44 @@
+{
+  "id": "81c7faedb75cea5d7ca75a4ce000a79bce3e15f4",
+  "canonicalId": "a0e4cf29d088ad190fce09a3493c3d1298b6e58a",
+  "slug": "yann-lecun-筹集-10-亿美元旨在构建理解物理世界的人工智能",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-11T00:00:00Z",
+  "lang": "zh",
+  "title": "Yann LeCun 筹集 10 亿美元，旨在构建理解物理世界的人工智能。",
+  "summary": "著名人工智能研究员 Yann LeCun 已成功筹集 10 亿美元资金，用于成立一家专注于开发能够理解物理世界的人工智能系统的新公司。此举旨在超越当前以语言为中心的大语言模型范式。 这标志着人工智能研究重点的重大转变，意味着从文本模式匹配转向构建物理现实的基础模型。该领域的成功可能催生更强大的机器人、自主系统和科学发现领域的人工智能体，从而解决当前大语言模型的一个关键局限。 据报道，这家名为 AMI (Amilabs) 的初创公司正在寻求超过 50 亿美元的估值，并已开始招聘关键高管。其技术方法预计将利用视频数据的自监督学习，并可能涉及联合嵌入预测架构等用于学习世界模型的架构。",
+  "score": 9,
+  "tags": [
+    "artificial-intelligence",
+    "machine-learning",
+    "world-models",
+    "research-funding",
+    "computer-vision"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 10, 08:46"
+    }
+  ],
+  "originalUrl": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/",
+  "originalSite": "wired.com",
+  "context": "世界模型是一种旨在理解和预测现实世界动态（包括物理和空间关系）的人工智能系统，其学习方式类似于儿童。它们被视为通向更通用、更强大、能够推理和规划的人工智能的途径。当前的人工智能，特别是大语言模型，擅长处理语言，但缺乏对物理世界的具身理解。Yann LeCun 是图灵奖得主、Meta 首席人工智能科学家，以其倡导自监督学习和通过观察进行学习的架构而闻名。",
+  "discussion": "社区情绪复杂，围绕其潜力和挑战展开了实质性讨论。一些评论者强烈赞同这一愿景，认为大语言模型从根本上受限于从静态文本而非世界本身学习。另一些人则表示怀疑，质疑 LeCun 能否在像 Meta 这样的大型企业研究实验室之外交付切实的产品，并指出视频理解已经是一个活跃的研究领域。此外，也有关于其社交媒体活动的幽默评论。",
+  "references": [
+    {
+      "title": "What Is a World Model? | NVIDIA Glossary",
+      "url": "https://www.nvidia.com/en-us/glossary/world-models/"
+    },
+    {
+      "title": "[2503.15168] World Models in Artificial Intelligence: Sensing, Learning, and Reasoning Like a Child - arXiv",
+      "url": "https://arxiv.org/abs/2503.15168"
+    },
+    {
+      "title": "[2506.09985] V-JEPA 2: Self-Supervised Video Models Enable ...",
+      "url": "https://arxiv.org/abs/2506.09985"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

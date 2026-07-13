@@ -1,0 +1,44 @@
+{
+  "id": "8d4553b5532eb9767319bfe4ef978d882b98f574",
+  "canonicalId": "94afcaddda2120d586d6618c7193a625af47e25c",
+  "slug": "vllm-v0210-released-with-breaking-changes-and-new-features-8d4553b5",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-15T08:44:00Z",
+  "lang": "en",
+  "title": "vLLM v0.21.0 Released with Breaking Changes and New Features",
+  "summary": "vLLM v0.21.0 introduces breaking build changes (C++20 requirement), deprecates transformers v4 in favor of v5, adds KV offload with Hybrid Memory Allocator (HMA), enables speculative decoding with thinking budget for reasoning models, and introduces a new TOKENSPEED_MLA attention backend for Blackwell GPUs. This release requires users to migrate to newer build environments (C++20) and transformers v5, potentially breaking existing workflows, while also bringing performance improvements like KV offload and speculative decoding that enhance inference efficiency for large reasoning models. The KV offload now integrates with HMA, which groups layers by type and pools memory across groups. Speculative decoding now respects reasoning/thinking budgets, enabling correct speculation for reasoning models. The MLA backend is specifically for DeepSeek-R1/Kimi-K25 on Blackwell GPUs.",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "breaking changes",
+    "release",
+    "GPU"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+  "originalSite": "github.com",
+  "context": "vLLM is a high-throughput LLM inference engine that uses continuous batching and attention backends. The Hybrid Memory Allocator (HMA) is a new memory management approach that groups layers by type to improve memory efficiency. Speculative decoding is a technique where a smaller draft model generates proposals that a larger target model verifies to speed up inference. The thinking budget allows the model to allocate compute for reasoning steps.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[RFC]: Hybrid Memory Allocator · Issue #11382 · vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm/issues/11382"
+    },
+    {
+      "title": "Attention Backend Feature Support - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/design/attention_backends/"
+    },
+    {
+      "title": "CUDA Platform | vllm-project/vllm | DeepWiki",
+      "url": "https://deepwiki.com/vllm-project/vllm/6.2-cuda-platform"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "6e150673216c68665f730ba9e8f1fdc520d285d3",
+  "canonicalId": "1a081423ca6233bd376346aa6ecdf8611056e8db",
+  "slug": "wasi-03-released-with-component-model-changes",
+  "date": "2026-06-13",
+  "publishedAt": "2026-06-12T13:51:00Z",
+  "lang": "en",
+  "title": "WASI 0.3 Released with Component Model Changes",
+  "summary": "WASI 0.3 was officially released, introducing new capabilities and modifications to the component model, as detailed in the announcement post on the Bytecode Alliance blog. This release marks a significant milestone for WebAssembly, as WASI defines how WebAssembly modules interact with the system, and the component model aims to enable interoperable libraries across ecosystems. The release includes changes from WASI 0.2, with new .wit interface files available, and has sparked substantial community discussion, including both praise for progress and criticism of increased complexity.",
+  "score": 8,
+  "tags": [
+    "WebAssembly",
+    "WASI",
+    "component model",
+    "systems programming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mavdol04",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48504063"
+    }
+  ],
+  "originalUrl": "https://bytecodealliance.org/articles/WASI-0.3",
+  "originalSite": "bytecodealliance.org",
+  "context": "The WebAssembly System Interface (WASI) is a standardized interface for WebAssembly modules to access system resources like files and networking. The WebAssembly Component Model is a broader architecture for building interoperable WebAssembly libraries and applications, aiming to provide a modular, language-agnostic ecosystem.",
+  "discussion": "The community response is mixed: some celebrate the progress and new capabilities, while others express frustration over the complexity, lack of visible progress for years, and fear that the component model overcomplicates WASI, moving away from its simple Unix-like origins.",
+  "references": [
+    {
+      "title": "Introduction - The WebAssembly Component Model",
+      "url": "https://component-model.bytecodealliance.org/introduction.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

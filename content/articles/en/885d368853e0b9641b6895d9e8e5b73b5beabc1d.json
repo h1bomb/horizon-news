@@ -1,0 +1,44 @@
+{
+  "id": "885d368853e0b9641b6895d9e8e5b73b5beabc1d",
+  "canonicalId": "9e4c5c1d7ed388f5a931106a882649e2ed7873dd",
+  "slug": "glassworm-attacks-exploit-invisible-unicode-characters-to-infiltrate-over-151-github-repositories",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-15T01:28:00Z",
+  "lang": "en",
+  "title": "Glassworm attacks exploit invisible Unicode characters to infiltrate over 151 GitHub repositories",
+  "summary": "Security researchers from Aikido Security discovered that the hacker group Glassworm has exploited invisible Unicode characters to launch large-scale attacks targeting GitHub, npm, and VS Code Marketplace, compromising at least 151 repositories. The attackers used AI-generated code to blend malicious payloads with project styles and leveraged the Solana blockchain for command and control. This attack represents a sophisticated supply chain threat that combines novel evasion techniques with decentralized infrastructure, making detection and mitigation challenging. It highlights growing risks in software development ecosystems where invisible characters and AI-generated code can bypass traditional security reviews. The malicious payloads steal user credentials and cryptographic tokens, while the use of Solana blockchain for command and control increases shutdown difficulty. Affected projects include Wasmer and Reworm, and developers are advised to use automated tools specifically scanning for invisible characters.",
+  "score": 8,
+  "tags": [
+    "Cybersecurity",
+    "Supply Chain Attack",
+    "Unicode Exploit",
+    "GitHub Security",
+    "AI in Malware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/cyber-security/malicious-packages-using-invisible-unicode-found-in-151-github-repos-and-vs-code",
+  "originalSite": "tomshardware.com",
+  "context": "Zero-width Unicode characters are invisible characters that take up no visible space on screen, historically used in homograph attacks to create visually identical but malicious URLs. In software supply chain attacks, attackers increasingly use such characters to hide malicious code in repositories, while AI-generated code can make injections appear legitimate by matching project styles. The Solana blockchain provides a decentralized command and control channel that is harder to disrupt than traditional servers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Zero-width space - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-width_space"
+    },
+    {
+      "title": "The Invisible Threat: How Zero-Width Unicode Characters Can Silently Backdoor Your AI-Generated Code | Promptfoo",
+      "url": "https://www.promptfoo.dev/blog/invisible-unicode-threats/"
+    },
+    {
+      "title": "GlassWorm Supply Chain Worm Uses Invisible Unicode and Solana Blockchain for Stealth C2",
+      "url": "https://securityonline.info/glassworm-supply-chain-worm-uses-invisible-unicode-and-solana-blockchain-for-stealth-c2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

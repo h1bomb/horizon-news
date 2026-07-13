@@ -1,0 +1,45 @@
+{
+  "id": "72aba0e1edcae8cb08278dfc971dbc4e22d22760",
+  "canonicalId": "a7a381697344653ca533ce77f6feee86c6ae77b8",
+  "slug": "netherlands-blocks-us-acquisition-of-solvinity-over-sovereignty-concerns",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T11:46:00Z",
+  "lang": "en",
+  "title": "Netherlands blocks US acquisition of Solvinity over sovereignty concerns",
+  "summary": "The Dutch government blocked Kyndryl's €100 million takeover of cloud provider Solvinity, which hosts the national digital identity system DigiD, citing public interest concerns after advice from intelligence agencies. This decision protects the privacy and digital sovereignty of Dutch citizens by preventing a US company from controlling critical infrastructure that handles sensitive identity data. It sets a precedent for other nations evaluating foreign ownership of essential digital services. The deal, valued at €100 million ($113 million), involved Kyndryl, a US-based IT infrastructure services provider spun off from IBM. The Dutch Ministry of Economic Affairs blocked the takeover following a recommendation from the country's intelligence agency, citing risks to national security and data protection.",
+  "score": 9,
+  "tags": [
+    "cybersecurity",
+    "digital sovereignty",
+    "national security",
+    "identity management",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vrganj",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48278406"
+    }
+  ],
+  "originalUrl": "https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/",
+  "originalSite": "politico.eu",
+  "context": "DigiD is the Netherlands' official digital identity system, used by 16.5 million citizens for accessing government services such as tax filing and healthcare. Solvinity provides secure managed cloud services that host DigiD's infrastructure. Concerns arose because a US owner could be compelled by US laws like the CLOUD Act to hand over data, undermining Dutch data protection laws.",
+  "discussion": "Commenters expressed relief and approval, noting that the government's move was long overdue after parliament voted to end Solvinity's contract. There was debate about the need for cryptographic sovereignty where vendors cannot access data even under legal compulsion, and some questioned why the Netherlands cannot self-host an open-source identity solution for 20 million users.",
+  "references": [
+    {
+      "title": "Dutch block US takeover of Solvinity as against public ...",
+      "url": "https://www.reuters.com/technology/dutch-government-block-takeover-cloud-services-company-solvinity-by-us-based-2026-05-26/"
+    },
+    {
+      "title": "DigiD",
+      "url": "https://en.wikipedia.org/wiki/DigiD"
+    },
+    {
+      "title": "Secure Managed Cloud | Solvinity",
+      "url": "https://www.solvinity.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

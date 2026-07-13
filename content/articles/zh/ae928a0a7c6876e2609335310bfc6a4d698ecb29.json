@@ -1,0 +1,44 @@
+{
+  "id": "ae928a0a7c6876e2609335310bfc6a4d698ecb29",
+  "canonicalId": "32dc242138e67d173ad3305bc17de1620ecae0aa",
+  "slug": "新-claude-模型工具调用表现倒退",
+  "date": "2026-07-05",
+  "publishedAt": "2026-07-04T22:53:00Z",
+  "lang": "zh",
+  "title": "新 Claude 模型工具调用表现倒退",
+  "summary": "较新的 Claude 模型（Opus 4.8 和 Sonnet 5）会生成包含额外虚构字段的畸形工具调用，导致 Pi 等第三方编码工具拒绝该调用，而旧模型并未出现此问题。 这种反直觉的退化表明，针对特定工具模式的强化学习可能会降低其他工具上的表现，给依赖一致工具调用行为的开发者带来可靠性挑战。 这些畸形调用通常包含正确的编辑内容，但在嵌套的 `edits[]` 数组中包含虚构的键，违反了模式定义。Armin Ronacher 推测，较新模型过度训练了 Claude Code 内置编辑工具格式。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLM",
+    "tool-use",
+    "model regression",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "大型语言模型通过工具调用（函数调用）与外部 API 交互，根据预定义模式生成结构化 JSON 参数。模型可以通过微调或强化学习来提高特定工具的准确性，但这可能无意中使模型偏向那些工具的模式而牺牲其他工具。像 Pi 这样的编码工具定义了自定义的文件编辑工具，并依赖模型精确遵循这些模式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Better Models: Worse Tools | Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/"
+    },
+    {
+      "title": "pi - editor -picker · Packages · Pi | A terminal-based coding agent",
+      "url": "https://pi.dev/packages/pi-editor-picker"
+    },
+    {
+      "title": "Schema First Tool APIs for LLM Agents: A Controlled Study of ...",
+      "url": "https://arxiv.org/html/2603.13404"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

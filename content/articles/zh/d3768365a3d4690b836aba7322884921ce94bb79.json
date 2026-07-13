@@ -1,0 +1,31 @@
+{
+  "id": "d3768365a3d4690b836aba7322884921ce94bb79",
+  "canonicalId": "3bd22405a2c5704dfc5ce6ecb459ee39dece8d09",
+  "slug": "curl-维护者被-ai-生成的安全报告压垮",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T23:48:00Z",
+  "lang": "zh",
+  "title": "Curl 维护者被 AI 生成的安全报告压垮",
+  "summary": "Curl 项目的首席维护者 Daniel Stenberg 报告称，团队正面临前所未有的、由 AI 辅助生成的可信安全报告洪流，目前每日收到的报告超过一份——是 2024 年的 4 到 5 倍，是 2025 年速度的两倍。 这突显了一个系统性问题：AI 工具大幅提高了安全报告的数量和质量，给关键开源项目的维护者带来巨大压力，并威胁到项目的可持续性。 尽管报告激增，但发现的漏洞大多为低或中等 severity；最近一次高严重性 CVE 发布于 2023 年 10 月。在当前发布周期内，项目已确认 12 个漏洞，创下新纪录，并且有望在 2026 年中期之前至少发布 30 个 CVE。",
+  "score": 8,
+  "tags": [
+    "curl",
+    "security",
+    "open source",
+    "AI",
+    "vulnerability management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Curl 是一个广泛使用的开源命令行工具和库，用于通过 URL 传输数据，安装在数十亿设备上。项目的安全团队负责处理漏洞报告并发布 CVE（常见漏洞与暴露）。近期，AI 辅助的安全研究工具实现了更全面、自动化的漏洞发现，导致详细报告激增。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "925e764eea49d23f004187b78001833404cc3e8c",
+  "canonicalId": "74e8d203e58a15c4e303a5bc1f708deee9d8ab4f",
+  "slug": "shor-算法新实现将攻击-256-位椭圆曲线密码的内存需求降低-20-倍",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "Shor 算法新实现将攻击 256 位椭圆曲线密码的内存需求降低 20 倍",
+  "summary": "2026 年 4 月 17 日，来自谷歌、加州大学伯克利分校、以太坊基金会和斯坦福大学的研究人员发表了一篇论文，提出了一种更高效的 Shor 算法实现，将攻击 256 位椭圆曲线密码所需的内存减少了 20 倍。研究人员发布了一个零知识证明，证明他们拥有实现这些改进的量子电路，但没有公开电路细节。 这一突破显著提高了量子攻击对广泛使用的密码系统（如椭圆曲线密码）的实用性，这些系统保护着许多互联网协议和区块链技术。它突显了后量子密码学采用的时间线正在加速，并强调了在关键基础设施中采用抗量子算法的必要性。 新的量子电路使用少于 1,200 个逻辑量子比特和 9,000 万个量子门，根据架构不同，对应约 50 万个物理量子比特，而 IBM 的 Condor 量子计算机只有 1,121 个物理量子比特。然而，研究人员没有公开具体电路，而是使用了零知识证明，且实际应用仍需要比当前量子计算机多约 500 倍的内存。",
+  "score": 9,
+  "tags": [
+    "quantum-computing",
+    "cryptography",
+    "algorithms",
+    "research",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 17, 15:53"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066156/",
+  "originalSite": "lwn.net",
+  "context": "Shor 算法是一种量子算法，能高效分解大数，威胁到 RSA 和椭圆曲线密码等经典密码系统。椭圆曲线密码（ECC）广泛用于安全通信，256 位 ECC 提供约 128 位安全性，但易受 Shor 算法的量子攻击。量子计算机使用量子比特和量子电路，但实际挑战包括噪声和纠错，逻辑量子比特由多个物理量子比特构建以提高可靠性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Elliptic-curve cryptography - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elliptic-curve_cryptography"
+    },
+    {
+      "title": "Zero-knowledge proof - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

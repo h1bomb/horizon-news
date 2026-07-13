@@ -1,0 +1,44 @@
+{
+  "id": "f4eb202e9b8e41062a01fbab40ef6d11edde55dd",
+  "canonicalId": "f79cd3df549732dceb2ac2697d76ef9e4b9d1b59",
+  "slug": "专利律师使用单张-rtx-5090-上的-nemotron-9b-分类-350-万份专利构建免费搜索引擎",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-09T00:00:00Z",
+  "lang": "zh",
+  "title": "专利律师使用单张 RTX 5090 上的 Nemotron 9B 分类 350 万份专利，构建免费搜索引擎。",
+  "summary": "一位专利律师创建了一个免费的公开专利搜索引擎（patentllm.org），其处理了 2016 年至 2025 年间的 350 万份美国专利。他们使用本地大语言模型 Nemotron 9B，在单张 RTX 5090 GPU 上耗时约 48 小时，将每份专利分类到 100 个技术标签之一，然后使用 SQLite 的 FTS5 扩展和 BM25 排序算法实现了搜索系统。 该项目展示了本地大语言模型在特定领域信息检索中的一个实用且高性价比的应用，挑战了向量搜索总是更优的观念。它为需要精确短语匹配的专利专业人士和研究人员提供了一个有价值的免费工具，这在语义相似性可能不足的法律语境中至关重要。 开发者选择了 SQLite 的 FTS5 进行全文搜索而非向量搜索，以实现精确的短语匹配，这对专利工作是法律上的必需。整个数据集存储在一个 74GB 的 SQLite 文件中，Web 应用通过 FastAPI 构建，并在一台 Chromebook 上通过 Cloudflare Tunnel 提供服务。",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "information-retrieval",
+    "patent-analysis",
+    "full-text-search",
+    "ai-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 8, 13:36"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ro52cu/i_classified_35m_us_patents_with_nemotron_9b_on_a/",
+  "originalSite": "reddit.com",
+  "context": "Nemotron 9B 是英伟达开发的一个 90 亿参数的大语言模型，专为推理和标准语言任务设计。FTS5 是 SQLite 的虚拟表模块，提供全文搜索功能，允许进行高效的基于关键词的查询。BM25 是信息检索中使用的经典排序算法，基于词频和逆文档频率来估计文档与搜索查询的相关性。",
+  "discussion": "社区反应褒贬不一，有人赞扬该项目的技术独创性及其对法律用途中精确短语匹配的务实关注。然而，用户对账户的真实性提出了重大质疑，并指出了可疑的注册信息。技术讨论包括对数据库分区的建议、处理专利族去重的方法，以及关于使用 SQLite 与更强大系统（如 PostgreSQL 或 Elasticsearch）的辩论。",
+  "references": [
+    {
+      "title": "nvidia-nemotron-nano-9b-v2 Model by NVIDIA | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nvidia-nemotron-nano-9b-v2/modelcard"
+    },
+    {
+      "title": "SQLite FTS5 Extension",
+      "url": "https://sqlite.org/fts5.html"
+    },
+    {
+      "title": "Okapi BM25 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Okapi_BM25"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

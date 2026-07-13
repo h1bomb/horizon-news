@@ -1,0 +1,40 @@
+{
+  "id": "a6cf40ba31f591af9099ba33c98c19621f8c404c",
+  "canonicalId": "79f8b69d5c3d0fcf185e8b194336405dee6c9633",
+  "slug": "lm-studio-恶意软件恐慌确认为-windows-defender-误报",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "LM Studio 恶意软件恐慌确认为 Windows Defender 误报",
+  "summary": "一位 Reddit 用户报告 Windows Defender 将 LM Studio 标记为恶意软件，但 LM Studio 开发团队调查后确认这是误报，微软迅速更新了检测规则以解决问题。该事件发生在 2024 年底，影响了包括 0.3.5 和 0.4.7 在内的多个版本。 这一事件凸显了在快速发展的本地 AI 工具生态系统中，安全警惕与误报之间的紧张关系，用户在这些工具上运行敏感模型。它展示了安全担忧如何在 AI 社区中迅速传播，以及开发团队透明回应对维护信任的重要性。 Windows Defender 具体将其标记为 'Trojan:Win32/Cinjo.O!cl'，在 VirusTotal 上 60 多个杀毒引擎中只有 1 个将其识别为恶意。事件时间恰逢最近的 LiteLLM PyPI 供应链攻击，这最初引发了担忧，但已确认无关，因为 LM Studio 不使用 LiteLLM。",
+  "score": 7,
+  "tags": [
+    "security",
+    "AI-tools",
+    "false-positive",
+    "community-discussion",
+    "malware-detection"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 24, 12:39"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/kmwwgv6bmzqg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "LM Studio 是一款流行的桌面应用程序，允许用户在本地计算机上私密运行大型语言模型（如 Llama 和 Mistral），无需依赖云端。误报是指安全软件错误地将合法文件识别为恶意软件，这可能干扰用户工作流程并削弱对软件工具的信任。Windows Defender 是微软内置的防病毒保护工具，用于扫描并清除 Windows 系统中的恶意软件。",
+  "discussion": "社区讨论最初表现出担忧和怀疑，用户分享了技术证据和个人经历，但在开发团队确认后整体情绪转向宽慰。关键观点包括对 VirusTotal 结果的分析、与以往误报的比较，以及关于供应链攻击风险的讨论，不过大多数人在证据支持下接受了误报的解释。",
+  "references": [
+    {
+      "title": "LM Studio",
+      "url": "https://lmstudio.ai/"
+    },
+    {
+      "title": "Resolve False Positive Malware Detections ... | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/sharepoint/security/false-positive-malware-detections"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

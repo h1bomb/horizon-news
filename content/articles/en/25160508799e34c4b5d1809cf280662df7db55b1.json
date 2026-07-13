@@ -1,0 +1,40 @@
+{
+  "id": "25160508799e34c4b5d1809cf280662df7db55b1",
+  "canonicalId": "b08c68beac19ea36abf451fc1c5fba187786beae",
+  "slug": "supreme-court-weighs-geofence-warrants-constitutionality",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T15:29:00Z",
+  "lang": "en",
+  "title": "Supreme Court Weighs Geofence Warrants' Constitutionality",
+  "summary": "The US Supreme Court heard oral arguments on April 27, 2026, regarding whether police geofence warrants that compel tech companies to hand over cell location data violate the Fourth Amendment's protection against unreasonable searches. This case could set a major precedent for digital privacy, affecting how law enforcement accesses location data from companies like Google, Apple, and Uber, and potentially reshaping the balance between surveillance and privacy rights. Google stopped responding to geofence warrants in 2025 by shifting location data storage to users' devices, but other companies like Apple, Lyft, and Snapchat still receive such requests. The court's decision will determine whether third-party data sharing eliminates reasonable expectation of privacy.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "supreme court",
+    "geofencing",
+    "tech policy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "unethical_ban"
+    }
+  ],
+  "originalUrl": "https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html",
+  "originalSite": "nytimes.com",
+  "context": "A geofence warrant is a search warrant that requires a company to identify all mobile devices within a specific geographic area during a certain time period. These warrants have surged in use since 2018, with Google's Sensorvault database being a primary target. The Fourth Amendment generally requires a warrant based on probable cause, but courts have struggled with applying it to digital data shared with third parties.",
+  "discussion": "Commenters noted Google's shift to on-device storage as a positive privacy move, but debated whether third-party data should lose privacy protection. Some compared geofence warrants to police reviewing security camera footage, while others expressed concern about the scope of surveillance and the justices' apparent biases.",
+  "references": [
+    {
+      "title": "Geofence warrant",
+      "url": "https://en.wikipedia.org/wiki/Geofence_warrant"
+    },
+    {
+      "title": "FBI used geofence warrant in Seattle after BLM protest attack,",
+      "url": "https://www.theverge.com/2022/2/5/22918487/fbi-geofence-seattle-blm-protest-police-guild-attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

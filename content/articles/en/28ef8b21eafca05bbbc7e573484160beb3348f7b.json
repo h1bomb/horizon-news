@@ -1,0 +1,44 @@
+{
+  "id": "28ef8b21eafca05bbbc7e573484160beb3348f7b",
+  "canonicalId": "0a6fb2064a950feda53662613a1419b1b1331ea8",
+  "slug": "faster-rcu-and-lockless-memory-allocation-in-linux",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T13:39:00Z",
+  "lang": "en",
+  "title": "Faster RCU and Lockless Memory Allocation in Linux",
+  "summary": "Puranjay Mohan presented work on improving RCU performance by allowing normal RCU callbacks to be executed after expedited grace periods, and a new kmalloc_nolock() function for lockless memory allocation from any kernel context was discussed at LSFMM+BPF 2026. These developments significantly enhance kernel scalability by reducing memory allocation latency and speeding up RCU grace period completion, benefiting high-performance workloads under memory pressure. The RCU improvement involves tracking both non-expedited and expedited grace-period numbers to allow callbacks to run when either completes, while kmalloc_nolock() enables lockless allocation without needing to hold locks.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "RCU",
+    "memory allocation",
+    "performance",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081009/",
+  "originalSite": "lwn.net",
+  "context": "Read-copy-update (RCU) is a synchronization mechanism in the Linux kernel that allows readers to access data without locks while writers create new versions. RCU grace periods ensure all readers have finished before old data is freed. kmalloc() is the standard kernel memory allocator, but traditionally requires proper lock context; kmalloc_nolock() extends it to work in any context.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "8. Allocating Memory - Linux Device Drivers, 3rd Edition [Book]",
+      "url": "https://www.oreilly.com/library/view/linux-device-drivers/0596005903/ch08.html"
+    },
+    {
+      "title": "Kmalloc Internals: Exploring Linux Kernel Memory Allocation",
+      "url": "http://www.jikos.cz/jikos/Kmalloc_Internals.html"
+    },
+    {
+      "title": "kmalloc()/kfree() include/linux/slab.h",
+      "url": "https://people.netfilter.org/rusty/unreliable-guides/kernel-hacking/routines-kmalloc.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

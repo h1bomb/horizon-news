@@ -1,0 +1,44 @@
+{
+  "id": "bf45c77754dee980fe52cc73e89910a173eab1fc",
+  "canonicalId": "3f52c71ca49a483cf2e40181f16f544ba9407372",
+  "slug": "deepseekv4-achieves-100x-inference-speedup-in-26-days",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T12:15:00Z",
+  "lang": "en",
+  "title": "DeepSeekV4 Achieves 100x Inference Speedup in 26 Days",
+  "summary": "DeepSeekV4, a 1.6 trillion parameter model, achieved a 100x inference performance improvement within 26 days, as detailed in a SemiAnalysis blog post analyzing performance from Day 0 to Day 43 across multiple hardware platforms including Huawei Ascend 950DT, NVIDIA GB300 NVL72, AMD MI355X, and B200. This rapid optimization demonstrates that large-scale AI inference costs can be dramatically reduced, potentially accelerating the deployment of trillion-parameter models in real-world applications and intensifying competition in AI infrastructure. The analysis includes cost per million tokens and hardware trace analysis, showing the 100x improvement occurred within 26 days from initial Day 0 performance. The DeepSeekV4 Pro model has 1.6T total parameters with 49B active parameters and supports up to 1M context length.",
+  "score": 9,
+  "tags": [
+    "DeepSeek",
+    "inference optimization",
+    "large language models",
+    "hardware performance",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "DeepSeekV4 is a Mixture-of-Experts (MoE) model with 1.6 trillion total parameters but only 49B active per inference, making it cost-effective. Inference optimization involves techniques like kernel fusion, quantization, and hardware-specific tuning. The GB300 NVL72 is NVIDIA's next-generation rack-scale system using Blackwell Ultra architecture. InferenceX is a benchmark focused on LLM inference performance metrics.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - GB300 NVL72, Huawei, MI355X, B200",
+      "url": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance"
+    },
+    {
+      "title": "DeepSeek on X: \"🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length. 🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models. 🔹 DeepSeek-V4-Flash: 284B total / 13B active params. https://t.co/n1AgwMIymu\" / X",
+      "url": "https://x.com/deepseek_ai/status/2047516922263285776"
+    },
+    {
+      "title": "New SemiAnalysis InferenceX Data Shows NVIDIA Blackwell Ultra...",
+      "url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

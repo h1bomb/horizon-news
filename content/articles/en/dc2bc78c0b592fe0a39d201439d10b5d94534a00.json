@@ -1,0 +1,44 @@
+{
+  "id": "dc2bc78c0b592fe0a39d201439d10b5d94534a00",
+  "canonicalId": "02a671b9f6b4eba11aa8be4a91a40495bfc1a20c",
+  "slug": "claude-launches-beta-feature-for-interactive-visualizations-within-conversations",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-13T00:00:00Z",
+  "lang": "en",
+  "title": "Claude launches beta feature for interactive visualizations within conversations",
+  "summary": "Anthropic has introduced a beta feature that enables Claude to generate interactive visualizations directly within chat conversations, including charts, diagrams, and visual aids that appear in the conversation flow and can dynamically adjust or disappear as the dialogue progresses. The feature is automatically enabled for all plan users and supports specific interactive scenarios like compound interest curves and interactive periodic tables. This represents a significant evolution in AI chatbot interfaces, moving beyond text-heavy responses to incorporate dynamic visual elements that can enhance understanding of complex topics. It positions Claude as a more capable co-pilot for tasks requiring data interpretation and visual explanation, potentially increasing user adoption and creating more engaging conversational experiences. The visualizations are generated in real-time as dynamic HTML and SVG files that function like an on-demand whiteboard within the chat interface. Users can either explicitly request charts or have the system automatically trigger visualizations based on context, though the feature is currently in beta with limited supported scenarios.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Visualization",
+    "Claude",
+    "Beta Feature",
+    "User Interface"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://claude.com/blog/claude-builds-visuals",
+  "originalSite": "claude.com",
+  "context": "Claude is an AI assistant developed by Anthropic that specializes in natural language conversations. Interactive visualizations in AI chatbots represent an emerging trend toward \"Generative UI\" or \"agentic interfaces,\" where AI systems generate user interface elements like charts and forms in real-time based on conversation context, moving beyond traditional text-only responses to create more interactive and explanatory experiences.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Anthropic expands Claude with in-chat visualizations and ...",
+      "url": "https://cryptobriefing.com/interactive-charts-ai-chat/"
+    },
+    {
+      "title": "Claude Adds Interactive Visuals to Chats in Beta - theoutpost.ai",
+      "url": "https://theoutpost.ai/news-story/claude-generates-interactive-visuals-in-chats-to-explain-complex-topics-step-by-step-24540/"
+    },
+    {
+      "title": "Agentic Interfaces in Action: How Generative UI Turns AI ... - Thesys",
+      "url": "https://www.thesys.dev/blogs/agentic-interfaces-in-action-how-generative-ui-turns-ai-from-chatbot-to-co-pilot"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

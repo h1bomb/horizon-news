@@ -1,0 +1,43 @@
+{
+  "id": "522e1ec1ca44aec36a6203371d36f67568d07b1e",
+  "canonicalId": "3464d1bba0e4ec784618799eccad077133e3b9cd",
+  "slug": "苹果阻止-replit-和-vibecode-等-ai-编程应用在-app-store-更新",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-19T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果阻止 Replit 和 Vibecode 等 AI 编程应用在 App Store 更新",
+  "summary": "苹果公司近期阻止了 Replit 和 Vibecode 等 AI 编程应用在 App Store 的更新。此举针对那些允许用户通过输入提示词，直接在应用内生成并运行网页或小程序的应用程序。 这一举措凸显了苹果对 iOS 设备上软件分发的严格控制，旨在防止未经审查代码带来的潜在安全风险。它影响了使用 AI 辅助编程工具的开发者，并可能影响未来 AI 驱动的开发平台与移动生态系统的整合方式。 此次封锁特别针对支持'vibe coding'（氛围编程）的应用，这是一种 AI 辅助的开发实践，用户无需审查即可接受 AI 生成的代码。苹果的担忧主要在于这些应用能够分发绕过官方 App Store 审核流程的第三方软件。",
+  "score": 7,
+  "tags": [
+    "App Store",
+    "AI Programming",
+    "Policy Enforcement",
+    "iOS Development"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 18, 14:47"
+    }
+  ],
+  "originalUrl": "https://appleinsider.com/articles/26/03/18/bad-vibes-apple-blocks-updates-for-some-ai-coding-apps-in-the-app-store",
+  "originalSite": "appleinsider.com",
+  "context": "Vibe coding（氛围编程）是一种 AI 辅助的编程方法，开发者向大型语言模型（LLM）描述项目需求，模型自动生成源代码，通常无需代码审查。该术语由 Andrej Karpathy 于 2025 年 2 月提出，并在 2025 年被柯林斯英语词典评为年度词汇。Replit 是一个基于云的 IDE 平台，提供 Ghostwriter 和 Agent 等 AI 驱动的开发工具，用于代码生成和错误修复。苹果 App Store 的审核流程旨在确保应用安全性和质量，但安全研究已记录了一些绕过该流程的方法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vibe coding",
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding"
+    },
+    {
+      "title": "What is Replit? Everything you should know",
+      "url": "https://www.prismetric.com/what-is-replit/"
+    },
+    {
+      "title": "5 Ways Hackers Are Bypassing Apple’s App Review Process |",
+      "url": "https://www.certosoftware.com/insights/5-ways-hackers-are-bypassing-apples-app-review-process/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1d012fd185e807dedc2cdaa81b0dee38f858358c",
+  "canonicalId": "06458422ef9427d32d09f13c8a85dcddf054cf87",
+  "slug": "乐天集团发布日语大模型-rakuten-ai-30因基于-deepseek-v3-架构引发争议",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-18T00:00:00Z",
+  "lang": "zh",
+  "title": "乐天集团发布日语大模型 Rakuten AI 3.0，因基于 DeepSeek V3 架构引发争议",
+  "summary": "乐天集团发布了日语大模型 Rakuten AI 3.0，该公司声称该模型在日本文化与历史、指令遵循等多项日语基准上表现优于 GPT-4o 等模型。然而，网友在 X 平台上发现该模型在 Hugging Face 页面的 config.json 文件中包含类似'model_type': 'deepseek_v3'的内容，表明其可能基于 DeepSeek V3 架构开发。 这一争议引发了关于 AI 技术独立性和原创性的重要讨论，特别是对于寻求创建本土替代外国模型的日本公司而言。该模型在回答问题时表现出明显的亲中立场而非亲日立场，这为关于 AI 对齐和文化代表性的辩论增添了地缘政治维度。 该模型通过结合开源社区模型和乐天自有双语数据开发而成，但 config.json 文件中的证据强烈表明其基于 DeepSeek V3 架构构建。用户注意到该模型在回答某些问题时表现出明显的亲中立场，这进一步复杂了其作为日语专注模型的接受度。",
+  "score": 7,
+  "tags": [
+    "AI Models",
+    "Natural Language Processing",
+    "Open Source",
+    "Controversy",
+    "Japanese Technology"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 17, 12:55"
+    }
+  ],
+  "originalUrl": "https://www.watch.impress.co.jp/docs/news/2093980.html",
+  "originalSite": "watch.impress.co.jp",
+  "context": "DeepSeek V3 是由深度求索公司开发的先进 AI 架构，采用多头潜在注意力机制和 DeepSeekMoE 设计，以实现高效推理和训练。Hugging Face 是一个流行的托管和分享机器学习模型的平台，其中的 config.json 文件包含关于模型架构和配置的关键元数据。日语大模型通常需要在日本文化背景和语言特征上进行专门训练，才能在本地基准测试中表现良好。",
+  "discussion": "社区讨论集中在 Rakuten AI 3.0 是否代表真正的日本技术创新，还是本质上只是 DeepSeek V3 的重新包装版本。许多用户鉴于该模型明显的架构依赖性，对其声称优于 GPT-4o 的说法提出质疑，而其他人则讨论跨国公司开发的 AI 模型中潜在的地缘政治偏见的影响。",
+  "references": [
+    {
+      "title": "[2412.19437] DeepSeek-V3 Technical Report",
+      "url": "https://arxiv.org/abs/2412.19437"
+    },
+    {
+      "title": "What is Hugging Face, and how do I use Huggingface.js?",
+      "url": "https://www.cloudgeometry.com/blog/hugging-face"
+    },
+    {
+      "title": "Release of Pre-Trained Models for the Japanese Language",
+      "url": "https://arxiv.org/html/2404.01657v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

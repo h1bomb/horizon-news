@@ -1,0 +1,44 @@
+{
+  "id": "1acd0949796db69a3e5322a42d01aed756b847a1",
+  "canonicalId": "9c7dae5f68f5ef2f396f8e6b691e7e2e6da5c523",
+  "slug": "对公式化学术论文的批判将最新-yolo-模型应用于公共数据集",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-07T00:00:00Z",
+  "lang": "zh",
+  "title": "对公式化学术论文的批判：将最新 YOLO 模型应用于公共数据集",
+  "summary": "一篇 Reddit 帖子指出，某位教授发表了 100 多篇论文，其模式仅仅是应用最新 YOLO 版本（v8, v9, v10, v11）到 Roboflow 的公共数据集，报告结果并发表，缺乏新颖贡献。这引发了一场关于计算机视觉和机器学习领域低质量研究普遍性的更广泛讨论。 这很重要，因为它揭示了学术出版激励机制中的系统性问题，即数量常常压倒质量，这可能稀释科学文献的价值并浪费同行评审资源。它引发了关于什么构成合法研究以及会议和期刊在维护标准方面责任的伦理问题。 据报道，这些有问题的论文被 IEEE 会议和 Q1/Q2 期刊等知名场所接收，并且获得了惊人的高引用次数。发帖者认为，使用开源的 Ultralytics 仓库，一名研究生在一两天内就可以复现全部研究成果。",
+  "score": 7,
+  "tags": [
+    "academic-publishing",
+    "research-ethics",
+    "computer-vision",
+    "machine-learning",
+    "yolo"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 6, 17:21"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rmk49w/r_loweffort_papers/",
+  "originalSite": "reddit.com",
+  "context": "YOLO（You Only Look Once）是一个流行的实时目标检测模型系列，v8、v9、v10 和 v11 等版本代表了不同组织发布的渐进式改进。Roboflow 是一个为计算机视觉任务提供免费公共数据集的平台。Ultralytics 是一家维护流行开源仓库的公司，用于轻松训练和部署 YOLO 模型。",
+  "discussion": "社区讨论揭示了不同的观点：一些人认为这不是学术不端，而是同行评审的失败，而另一些人则指出了 LLM（例如，“我们提示了 ChatGPT”这类论文）的类似模式。一个反复出现的主题是，当前的学术激励机制奖励数量而非开创性工作，一些评论者为基准测试研究的价值辩护，而另一些人对大量低质量研究表示无奈。",
+  "references": [
+    {
+      "title": "YOLOv8 vs v9 vs v10 — make up your own mind! | by Martin ... Model Comparisons: Choose the Best Object Detection Model for ... YOLO Model Versions | NickSwardh/YoloDotNet | DeepWiki Images Comparative performance of YOLOv8, YOLOv9, YOLOv10, YOLOv11 ... YOLO Evolution: Transforming Object Detection 2015-2024 YOLO Evolution: A Comprehensive Benchmark and Architectural ... Mastering All YOLO Models from YOLOv1 to YOLOv12 - LearnOpenCV",
+      "url": "https://medium.com/@martinklefasstennett/yolov8-vs-v9-vs-v10-make-up-your-own-mind-5d00d4ba9739"
+    },
+    {
+      "title": "Computer Vision Datasets - Roboflow",
+      "url": "https://public.roboflow.com/"
+    },
+    {
+      "title": "Ultralytics YOLO Docs: Home",
+      "url": "https://docs.ultralytics.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

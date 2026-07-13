@@ -1,0 +1,40 @@
+{
+  "id": "11e4e1de38e4d9c533632320760a650bd993d2e9",
+  "canonicalId": "e523c74ddce5a40def6b5050599527e125ce68b5",
+  "slug": "google-对侧载未验证应用设置-24-小时等待",
+  "date": "2026-06-20",
+  "publishedAt": "2026-06-19T07:59:00Z",
+  "lang": "zh",
+  "title": "Google 对侧载未验证应用设置 24 小时等待",
+  "summary": "Google 在 Android 上推出了新的侧载流程，要求用户在安装未验证开发者应用前等待 24 小时并完成多项验证步骤。 这一变化通过增加步骤来阻止恶意侧载应用和诈骗，提高了 Android 用户的安全性，同时也改变了长期以来开放的侧载生态。 新流程包括开启开发者模式、确认并非被诱导、重启设备、一次性的 24 小时冷静期，以及安装前的指纹、面容或 PIN 验证。",
+  "score": 8,
+  "tags": [
+    "Android",
+    "sideloading",
+    "security",
+    "Google",
+    "app installation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42054",
+  "originalSite": "t.me",
+  "context": "侧载允许用户在 Google Play 官方商店之外安装应用，提供了灵活性但也带来安全风险。Google 一直在加强侧载限制以打击诈骗，这一新的高摩擦流程旨在让诈骗者更难诱骗用户安装恶意应用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Android's new sideloading rules are here, and they come with ...",
+      "url": "https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/"
+    },
+    {
+      "title": "Google's big Android sideloading crackdown has a 24-hour ...",
+      "url": "https://www.zdnet.com/article/how-google-android-sideloading-crackdown-works-limits/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

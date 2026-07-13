@@ -1,0 +1,31 @@
+{
+  "id": "51a9b914a6007169912c3dc7de4fa6a77b26ae19",
+  "canonicalId": "06aa37e420a7c31e8a84149db974db365df5566e",
+  "slug": "qwen35-35b-a3b-demonstrates-breakthrough-performance-for-agentic-coding-on-consumer-grade-hardware",
+  "date": "2026-02-25",
+  "publishedAt": "2026-02-25T00:04:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-35B-A3B demonstrates breakthrough performance for agentic coding on consumer-grade hardware.",
+  "summary": "A user successfully ran the Qwen3.5-35B-A3B model, quantized to the MXFP4_MOE format, on a single RTX 3090 GPU using Llama.cpp. The model achieved over 100 tokens per second, utilized a 131k context window, and successfully completed complex, time-limited coding challenges that previously required more powerful AI systems. This demonstrates that high-performance agentic coding—where AI autonomously plans and executes complex software tasks—is now feasible on affordable, consumer-grade hardware. It significantly lowers the barrier to entry for developers and researchers wanting to experiment with or deploy advanced AI coding assistants locally, challenging the dominance of cloud-based, proprietary models. The model uses a Mixture-of-Experts (MoE) architecture with only 3 billion active parameters (A3B), enabling high efficiency. It was run using a specific MXFP4 quantization (approximately 4.25 bits per weight) which reduces memory footprint, allowing the 35B-parameter model to fit within the 24GB VRAM of an RTX 3090 while maintaining performance.",
+  "score": 7,
+  "tags": [
+    "llm",
+    "agentic-coding",
+    "local-llm",
+    "qwen",
+    "hardware-performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jslominski"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/",
+  "originalSite": "reddit.com",
+  "context": "Agentic coding refers to AI systems that autonomously take a high-level instruction, break it into steps, and execute them using tools (like reading/writing files) to complete a software task, unlike traditional AI coding assistants that primarily suggest code snippets. The Qwen3.5 series is a family of open-weight large language models developed by Alibaba. Mixture-of-Experts (MoE) is an architecture where only a small subset of the model's total parameters (the 'experts') are activated for a given input, making large models more efficient to run.",
+  "discussion": "The community reaction is overwhelmingly positive, with multiple users replicating the high speed and successful task completion, expressing excitement about the model's performance on consumer hardware. A notable counterpoint mentions that an earlier 8-bit quantized version struggled with basic tool use, highlighting the importance of the specific MXFP4 quantization for optimal performance. There is also discussion about the model resolving persistent issues like 'readfile loops' present in earlier versions.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

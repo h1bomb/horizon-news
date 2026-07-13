@@ -1,0 +1,41 @@
+{
+  "id": "27e2b842e201397871e715aaef8196e52742a418",
+  "canonicalId": "9d54ae6bb718efc4ec5cfa7b385c3f33ce86b0a3",
+  "slug": "zeroserve基于-ebpf-脚本的零配置-web-服务器",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T14:59:00Z",
+  "lang": "zh",
+  "title": "Zeroserve：基于 eBPF 脚本的零配置 Web 服务器",
+  "summary": "Zeroserve 被介绍为一款零配置 Web 服务器，它使用 eBPF 进行脚本编写，为 nginx 和 Caddy 等传统服务器提供了一种替代方案。该服务器用 Rust 构建，允许用户用 C 语言编写 eBPF 程序来处理 HTTP 请求。 这种方法将 Web 服务器配置从声明式语言转变为可编程的 eBPF，实现了高性能、灵活的请求处理。它可能简化部署，并为低延迟 Web 服务开辟新的可能性，尽管学习曲线可能更陡峭。 Zeroserve 是单线程的，专注于静态文件服务，社区建议探索通过 SO_REUSEPORT 实现多线程，以及与 XDP 等其他 eBPF 程序类型的集成。该项目的设计重点在于配置范式，而非仅仅性能。",
+  "score": 8,
+  "tags": [
+    "eBPF",
+    "web server",
+    "zero-config",
+    "Rust",
+    "networking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "losfair",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48425723"
+    }
+  ],
+  "originalUrl": "https://su3.io/posts/introducing-zeroserve",
+  "originalSite": "su3.io",
+  "context": "eBPF（扩展的伯克利包过滤器）是一种 Linux 内核技术，允许在内核空间运行沙箱程序，传统上用于网络、可观测性和安全。像 nginx 和 Caddy 这样的 Web 服务器使用声明式配置文件，而 Zeroserve 使用 eBPF 程序（用 C 编写）来定义请求处理逻辑，可能允许直接的内核交互以提升性能。",
+  "discussion": "评论者对这一概念表示兴趣，部分人指出未能提供基于 Rust 的 eBPF 脚本接口是个遗憾。其他人则强调了 nginx 的出色性能，并质疑在当今趋势下专注于静态文件的做法。还有关于使用 eBPF 实现内核加速 Web 服务的潜在讨论，尽管当前实现是用户态的。",
+  "references": [
+    {
+      "title": "eBPF - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EBPF"
+    },
+    {
+      "title": "What is eBPF? An Introduction and Deep Dive into the eBPF ...",
+      "url": "https://ebpf.io/what-is-ebpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

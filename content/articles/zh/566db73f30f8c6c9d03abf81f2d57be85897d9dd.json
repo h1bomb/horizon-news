@@ -1,0 +1,43 @@
+{
+  "id": "566db73f30f8c6c9d03abf81f2d57be85897d9dd",
+  "canonicalId": "0c3b55cf7c96a81c50ebd453bf6a95d261552744",
+  "slug": "tailscale-联合创始人批评云复杂性",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "Tailscale 联合创始人批评云复杂性",
+  "summary": "Tailscale 联合创始人 David Crawshaw 发表了一篇题为《我在构建一朵云》的博客文章，批评现代云基础设施和 Kubernetes 的复杂性，并提出一种更简单、更高效的云模型。 来自一位受人尊敬的行业人物的批评凸显了业界对云复杂性的日益不满，并可能影响云基础设施的设计方向，尤其是对于寻求简单性的小团队。 Crawshaw 认为 Kubernetes 存在根本性缺陷，且 VM 是错误抽象，因为其成本与 CPU/内存挂钩而非实际完成的工作。他主张一种默认高性能且简单的云模型。",
+  "score": 8,
+  "tags": [
+    "cloud computing",
+    "kubernetes",
+    "infrastructure",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 23, 04:44"
+    }
+  ],
+  "originalUrl": "https://crawshaw.io/blog/building-a-cloud",
+  "originalSite": "crawshaw.io",
+  "context": "云计算通常提供 IaaS、PaaS 和 SaaS 模型。Kubernetes 已成为事实上的容器编排平台，但因其运维复杂性而受到广泛批评。许多企业在生产环境中使用 Kubernetes 时面临陡峭的学习曲线和额外开销。",
+  "discussion": "Hacker News 社区普遍认同 Crawshaw 的批评，许多人分享了关于 Kubernetes 复杂性的个人惨痛经历。一些人怀疑更简单的云模型能否避免同样的膨胀循环，而另一些人则欣赏这一愿景但担心盈利动机。",
+  "references": [
+    {
+      "title": "Kubernetes Complexity - Deal With It; There Is No Way Around |",
+      "url": "https://tfir.io/kubernetes-complexity-deal-with-it-there-is-no-way-around-rob-hirschfeld-rackn/"
+    },
+    {
+      "title": "Too Complex: It’s Not Kubernetes, It’s What It Does | CNCF",
+      "url": "https://www.cncf.io/blog/2025/03/06/too-complex-its-not-kubernetes-its-what-it-does/"
+    },
+    {
+      "title": "Rethinking Kubernetes Complexity in the Enterprise with Paul",
+      "url": "https://cloudnativenow.com/video-interviews/rethinking-kubernetes-complexity-in-the-enterprise-with-paul-turner/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

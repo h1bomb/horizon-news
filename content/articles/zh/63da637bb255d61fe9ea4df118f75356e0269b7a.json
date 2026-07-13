@@ -1,0 +1,44 @@
+{
+  "id": "63da637bb255d61fe9ea4df118f75356e0269b7a",
+  "canonicalId": "146edddf2d1927c487df4904efde5a35269cea14",
+  "slug": "冒充-openai-隐私过滤器的恶意仓库登上-hugging-face-趋势榜首",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-12T00:00:00Z",
+  "lang": "zh",
+  "title": "冒充 OpenAI 隐私过滤器的恶意仓库登上 Hugging Face 趋势榜首",
+  "summary": "一个名为 Open-OSS/privacy-filter 的恶意仓库在 Hugging Face 上冒充 OpenAI 的隐私过滤器，通过加载器脚本分发用 Rust 编写的信息窃取程序。该仓库一度登上平台趋势榜第一，累计获得约 24.4 万次下载和 667 次点赞，随后被平台禁用。 此次事件凸显了开源 AI 生态系统中严重的供应链漏洞，攻击者通过冒充可信品牌传播恶意软件。这亟需在 Hugging Face 等模型中心加强安全措施，以保护开发者和用户免受数据窃取。 安全公司 HiddenLayer 还发现了另外 6 个类似的仓库，同一基础设施曾被用于分发远程访问木马 ValleyRAT。该攻击基础设施与银狐黑客组织存在重叠，后者以税务主题钓鱼活动闻名。",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain-attack",
+    "hugging-face",
+    "malware",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 11, 12:51"
+    }
+  ],
+  "originalUrl": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+  "originalSite": "thehackernews.com",
+  "context": "Hugging Face 是一个用于托管和共享机器学习模型与数据集的流行平台，常被开发者在 AI 流程中使用。供应链攻击通过将恶意代码注入看似合法的包中，从而危害下游用户。ValleyRAT 是一种远程访问木马，可让攻击者非法控制受感染系统；银狐是一个威胁行为者组织，以通过伪装成税务相关文档传播恶意软件而闻名。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "New Updates to ValleyRAT | ThreatLabz - Zscaler",
+      "url": "https://www.zscaler.com/blogs/security-research/technical-analysis-latest-variant-valleyrat"
+    },
+    {
+      "title": "Cracking ValleyRAT: From Builder Secrets to Kernel Rootkits",
+      "url": "https://research.checkpoint.com/2025/cracking-valleyrat-from-builder-secrets-to-kernel-rootkits/"
+    },
+    {
+      "title": "Hacker group targeted companies in South Africa using fake SARS...",
+      "url": "https://mybroadband.co.za/news/security/646153-hacker-group-targeted-companies-in-south-africa-using-fake-sars-notifications.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

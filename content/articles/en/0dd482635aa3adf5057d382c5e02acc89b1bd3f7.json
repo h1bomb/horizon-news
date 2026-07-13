@@ -1,0 +1,40 @@
+{
+  "id": "0dd482635aa3adf5057d382c5e02acc89b1bd3f7",
+  "canonicalId": "5a0eb16026010e4543af060e1bc03e03c95af050",
+  "slug": "small-ai-models-match-mythos-in-vulnerability-detection-raising-cost-effectiveness-questions",
+  "date": "2026-04-12",
+  "publishedAt": "2026-04-11T16:47:00Z",
+  "lang": "en",
+  "title": "Small AI models match Mythos in vulnerability detection, raising cost-effectiveness questions.",
+  "summary": "Researchers at AISLE tested Anthropic's Mythos Preview vulnerabilities on small, open-weights AI models and found that eight out of eight models detected the flagship FreeBSD exploit, including one with only 3.6 billion parameters costing $0.11 per million tokens. This occurred after isolating the relevant code snippets, similar to the methodology used by Anthropic in their Mythos announcement. This challenges the novelty and economic value of large-scale AI security tools like Mythos, suggesting that cheaper alternatives may offer comparable detection capabilities for isolated code analysis. It could influence investment decisions in AI cybersecurity, prompting a reevaluation of whether expensive proprietary models are necessary for certain tasks. The small models detected vulnerabilities in isolated code, but this approach may not replicate the full challenge of finding bugs in large, complex codebases where context and scale are critical. Anthropic's Mythos Preview reportedly identified and exploited zero-day vulnerabilities across major operating systems and web browsers during testing, highlighting a broader scope.",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Cybersecurity",
+    "Vulnerability Detection",
+    "Machine Learning",
+    "Open Source Models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dominicq"
+    }
+  ],
+  "originalUrl": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+  "originalSite": "aisle.com",
+  "context": "Mythos Preview is an AI tool developed by Anthropic designed to autonomously identify and exploit vulnerabilities in software, as announced in a recent blog post. Small AI models, such as those with billions of parameters, are lightweight alternatives often used for code analysis tasks, offering lower computational costs compared to larger models like GPT-4. Vulnerability detection in cybersecurity involves analyzing code for security flaws, which can be resource-intensive when scaled to entire codebases.",
+  "discussion": "Community comments highlight a debate over methodology, with some arguing that isolating code simplifies the task and may not reflect real-world vulnerability hunting, while others note that Anthropic used a similar harness in their testing. Experts like tptacek emphasize that the real difficulty lies in spotting vulnerabilities within large, complex programs, not just in isolated snippets.",
+  "references": [
+    {
+      "title": "AI Cybersecurity After Mythos: The Jagged Frontier | AISLE",
+      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier"
+    },
+    {
+      "title": "Claude Mythos Preview \\ red.anthropic.com",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

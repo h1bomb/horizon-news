@@ -1,0 +1,44 @@
+{
+  "id": "d3432e3f085d03240b4a1ed6f4ea63b75e8b704e",
+  "canonicalId": "8b07e43d4b8041b513295e4f35fcbdedea47e827",
+  "slug": "独立开发者将本地-llm-嵌入-unity-实现无脚本-npc-对话",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T16:21:00Z",
+  "lang": "zh",
+  "title": "独立开发者将本地 LLM 嵌入 Unity 实现无脚本 NPC 对话",
+  "summary": "一位开发者制作了《Simulation Simulator》这款 Unity 游戏，其中集成了完全本地的 LLM，用于无脚本的 NPC 对话，并基于自然语言交互实现了五种不同结局，无需互联网或云端依赖。 这表明了超越脚本化对话的重要一步，证明了本地 LLM 可以创造真正动态且可重玩的游戏叙事。它为独立游戏中沉浸式、可演化的 NPC 开辟了可能性，并突显了在游戏中保护隐私的 AI 的潜力。 由于每次交互会增加 10-20 秒的处理时间，游戏目前无法加入实时文本转语音或翻译功能。《Simulation Simulator》的演示版已在 Steam 上架，供玩家体验本地 LLM 驱动的对话。",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "game-development",
+    "unity",
+    "NPC",
+    "AI-integration"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/MorphLand"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u0cpbm/i_bundled_a_fully_local_llm_inside_my_unity_game/",
+  "originalSite": "reddit.com",
+  "context": "类似 Ollama 或 LM Studio 提供的本地 LLM 允许 AI 模型完全在用户机器上运行，无需将数据发送到外部服务器。像 LLMUnity 这样的工具提供了 Unity SDK，可以将这些模型直接集成到游戏引擎中，从而实现根据玩家输入实时调整的 NPC 对话生成。传统上，游戏 NPC 依赖预写的对话树或基于云的 AI 服务，这限制了动态性或需要互联网连接。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Neocortex Blog | Use Large Language Models (LLMs) in Unity Locally!",
+      "url": "https://neocortex.link/blog/03-17-25_run_llms_locally_with_unity"
+    },
+    {
+      "title": "GitHub - undreamai/LLMUnity: Create characters in Unity with LLMs! · GitHub",
+      "url": "https://github.com/undreamai/LLMUnity"
+    },
+    {
+      "title": "AI People: Now with Local LLM | GoodAI",
+      "url": "https://www.goodai.com/ai-people-now-with-local-llm/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

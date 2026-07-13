@@ -1,0 +1,44 @@
+{
+  "id": "5a21394a16a913af996c6f3daba890686426484c",
+  "canonicalId": "60a271ccde1d5b1bcad3ea68b355c7db6c14d59c",
+  "slug": "huawei-open-sources-pangu-20-aims-for-world-no1",
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-14T08:05:00Z",
+  "lang": "en",
+  "title": "Huawei Open-Sources Pangu 2.0, Aims for World No.1",
+  "summary": "At HDC 2026, Huawei announced openPangu 2.0, an open-source large language model with a 505B-parameter Pro variant and a 92B-parameter Flash variant, supporting 512K context length. The company plans to release seven major components including pre-training code starting June 30. This release is a major open-source contribution from a leading tech giant, potentially shifting the AI landscape by providing a very large, accessible model optimized for Ascend hardware and HarmonyOS. It strengthens Huawei's position in the global AI race, especially within the Chinese ecosystem. The model is tailored for Ascend AI computing and HarmonyOS, with 512K context length enabling long-document processing. Full open-sourcing will start from June 30, covering seven components such as pre-training code and possibly weights.",
+  "score": 9,
+  "tags": [
+    "Huawei",
+    "open-source",
+    "large language model",
+    "AI",
+    "Pangu"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41948",
+  "originalSite": "t.me",
+  "context": "Huawei's Ascend computing platform is a full-stack AI infrastructure combining Ascend AI processors with base software, supporting training and inference across cloud, edge, and device. HarmonyOS is Huawei's distributed operating system. Yu Chengdong noted that while Huawei's computing power is limited due to supporting domestic enterprises, the company has been developing Pangu since before the concept of large models became popular.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "昇腾计算-华为Ascend-AI计算-华为企业业务",
+      "url": "https://e.huawei.com/cn/products/computing/ascend"
+    },
+    {
+      "title": "昇腾AI云服务器_ECS-华为云",
+      "url": "https://www.huaweicloud.com/product/ecs/ascend.html"
+    },
+    {
+      "title": "AI算力新纪元：华为昇腾超节点战略与英伟达H100/H200的深度对决",
+      "url": "https://zhuanlan.zhihu.com/p/1952064479069188801"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ab250b2e5f8a5d6a93c38486ed97f7a442dd7300",
+  "canonicalId": "43754521e11e19e1c1973e6fa09ecca05c6e9529",
+  "slug": "eml-树被证明是通用逼近器",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T11:16:00Z",
+  "lang": "zh",
+  "title": "EML 树被证明是通用逼近器",
+  "summary": "一篇新论文证明，由 EML（指数-减法-对数）初等函数组合而成的 EML 树是连续函数的通用逼近器。 这确立了 EML 树作为函数逼近的神经网络的理论基础替代方案，对可解释机器学习和符号计算具有潜在影响。 该证明构建了二元运算、多项式、双曲正切和单位划分的 EML 表示，并将它们用作类似乐高的积木。通过对数域的技术挑战通过基于符号的分解和仿射映射来解决。",
+  "score": 8,
+  "tags": [
+    "universal approximation",
+    "function approximation",
+    "EML trees",
+    "machine learning theory"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/JoeGermany"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uipl1t/eml_trees_are_universal_approximators_r/",
+  "originalSite": "reddit.com",
+  "context": "EML 函数（指数-减法-对数）是一个单一的二元运算符，通过重复组合可以表达任何标准的实数初等函数。通用逼近意味着一个函数类可以在紧集上以任意精度逼近任何连续函数。这一结果与神经网络的通用逼近定理平行，但使用了不同的原语。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2606.23179] EML Trees Are Universal Approximators",
+      "url": "https://arxiv.org/abs/2606.23179"
+    },
+    {
+      "title": "Not all elementary functions can be expressed with exp-minus-log",
+      "url": "https://www.stylewarning.com/posts/not-all-elementary/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

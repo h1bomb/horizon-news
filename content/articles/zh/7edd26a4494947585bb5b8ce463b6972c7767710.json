@@ -1,0 +1,40 @@
+{
+  "id": "7edd26a4494947585bb5b8ce463b6972c7767710",
+  "canonicalId": "d2cc6c8eb6bf04ed292d0213b34edab70874e116",
+  "slug": "oscar通过谱协方差感知旋转实现-2-位-kv-缓存量化",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T19:00:00Z",
+  "lang": "zh",
+  "title": "OSCAR：通过谱协方差感知旋转实现 2 位 KV 缓存量化",
+  "summary": "OSCAR 提出了一种新颖的离线谱协方差感知旋转方法，用于 2 位 KV 缓存量化，在不显著损失精度的情况下实现超低位量化。该方法同时提供了 llama.cpp 和 sglang 的开源实现，以及 Gemma-4-12B、Qwen3-32B 和 Qwen3-4B 模型的 GGUF 检查点。 这项工作通过实现 2 位量化，解决了 LLM 推理中 KV 缓存的关键内存瓶颈，显著降低内存使用，可能降低部署成本。它为在现有硬件上实现更长的上下文窗口和更大的批量大小开辟了道路。 旋转矩阵是从注意力感知的协方差结构离线推导的，因此在推理时是固定的，不会产生运行时开销。该方法专门为 INT2 量化设计，并已集成到 llama.cpp 和 sglang 中以供实际使用。",
+  "score": 9,
+  "tags": [
+    "kv cache quantization",
+    "llm inference",
+    "2-bit quantization",
+    "spectral rotation",
+    "llm optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/pmttyji"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u1edjb/oscar_rotationzoo_offline_spectral/",
+  "originalSite": "reddit.com",
+  "context": "KV 缓存量化通过以较低精度存储键和值张量来减少内存占用，但激进的 2 位量化常因异常值导致严重精度下降。像 Hadamard 变换这样的简单旋转能部分减少异常值，但未与下游注意力模式对齐。OSCAR 通过使用专门针对注意力机制优化的谱协方差感知旋转来克服这一问题。",
+  "discussion": "输入中未提供社区评论。然而，Reddit 帖子获得了 9.0 的高分，表明社区反响强烈，可能归因于开源发布和实际改进。",
+  "references": [
+    {
+      "title": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization",
+      "url": "https://arxiv.org/html/2605.17757v1"
+    },
+    {
+      "title": "Quantized KV Cache - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/quantization/quantized_kvcache/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

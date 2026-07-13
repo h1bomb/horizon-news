@@ -1,0 +1,44 @@
+{
+  "id": "c5f79788be16d9c7fc68a6fa9597fb3b37811455",
+  "canonicalId": "bfaaf7ea1b86da1289a6d78814f51a9c7eb355b3",
+  "slug": "apple-open-sources-corecrypto-with-formal-proofs-for-quantum-safe-algorithms",
+  "date": "2026-05-24",
+  "publishedAt": "2026-05-23T04:49:00Z",
+  "lang": "en",
+  "title": "Apple Open-Sources corecrypto with Formal Proofs for Quantum-Safe Algorithms",
+  "summary": "Apple has open-sourced its corecrypto cryptographic library, including formally verified implementations of the quantum-safe algorithms ML-KEM and ML-DSA, and released end-to-end mathematical proofs using the Isabelle theorem prover to ensure correctness against NIST standards. This sets a new benchmark for cryptographic security assurance by combining real-world deployment on billions of devices with rigorous formal verification, and it encourages broader adoption of post-quantum cryptography in the industry. The open-source release includes the corecrypto C code and hand-optimized ARM64 assembly, along with custom verification tools and Isabelle theory libraries for independent review; the verified algorithms are already used in iMessage and VPN products.",
+  "score": 9,
+  "tags": [
+    "cryptography",
+    "formal verification",
+    "apple",
+    "quantum-safe",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://security.apple.com/blog/formal-verification-corecrypto/",
+  "originalSite": "security.apple.com",
+  "context": "corecrypto is Apple's low-level cryptographic library powering encryption on over 2.5 billion active devices. Formal verification uses mathematical proofs to show that code exactly matches a specification, eliminating entire classes of bugs. ML-KEM (formerly Kyber) and ML-DSA (formerly Dilithium) are NIST-standardized post-quantum algorithms resistant to attacks from future quantum computers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ML-KEM",
+      "url": "https://en.wikipedia.org/wiki/ML-KEM"
+    },
+    {
+      "title": "ML-DSA",
+      "url": "https://en.wikipedia.org/wiki/ML-DSA"
+    },
+    {
+      "title": "Isabelle theorem prover",
+      "url": "https://en.wikipedia.org/wiki/Isabelle_theorem_prover"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

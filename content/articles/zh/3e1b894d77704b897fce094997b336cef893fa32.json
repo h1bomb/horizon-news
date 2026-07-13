@@ -1,0 +1,44 @@
+{
+  "id": "3e1b894d77704b897fce094997b336cef893fa32",
+  "canonicalId": "dea1d64a075ee0daad5423f3aff149b3016a51f7",
+  "slug": "arxiv-对未检查-llm-错误的论文实施一年禁令",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "arXiv 对未检查 LLM 错误的论文实施一年禁令",
+  "summary": "arXiv 宣布，对提交包含无可辩驳证据表明作者未检查 LLM 生成内容（如幻觉参考文献或 AI 元评论）的论文，处以一年禁令。 这项政策直接针对科学论文中 LLM 生成错误的泛滥，要求作者承担全部责任，并阻止研究中草率使用 AI 的行为。 无可辩驳的证据包括幻觉参考文献和元评论，如“这是一份 200 字的摘要；您想让我做任何修改吗？”；禁令为期一年，且后续提交需先被知名同行评审渠道接受。",
+  "score": 9,
+  "tags": [
+    "arXiv",
+    "LLM",
+    "research integrity",
+    "policy",
+    "academic publishing"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 15, 02:44"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
+  "originalSite": "reddit.com",
+  "context": "arXiv 是一个开放获取的预印本存储库，用于在同行评审前发布论文，虽经审核但未经同行评审。最近研究发现，由于 LLM 的广泛使用，幻觉引用急剧增加，污染了科学文献。该政策旨在通过强制要求作者对内容负责（无论来源如何）来维护研究诚信。",
+  "discussion": "Reddit 社区压倒性地支持该政策，许多人呼吁更长的禁令（3-5 年或永久）。一些评论者指出，“无可辩驳的证据”门槛仅能捕捉最明显的案例，而更微妙的 LLM 错误仍难以检测。",
+  "references": [
+    {
+      "title": "arXiv - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ArXiv"
+    },
+    {
+      "title": "Hallucinated citations are polluting the scientific ... - Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00969-z"
+    },
+    {
+      "title": "[2605.07723] LLM hallucinations in the wild: Large-scale ...",
+      "url": "https://arxiv.org/abs/2605.07723"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

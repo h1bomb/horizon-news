@@ -1,0 +1,44 @@
+{
+  "id": "bdbfa6ed59d930ed8d41c4b174d7de4fc8ebe455",
+  "canonicalId": "29eac0d6b5d6221d0716c5ad6137824ec8936e0e",
+  "slug": "gemma-4-31b在安全谜题中推理能力超越-gemini-3-pro-deepthink",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "Gemma 4 (31B)在安全谜题中推理能力超越 Gemini 3 Pro Deepthink",
+  "summary": "用户使用 Gemini 3 Pro Deepthink 测试一个无解的安全谜题，该模型经过 15 分钟推理后给出了看似专业但存在缺陷的解决方案。当将这个解决方案交给新发布的 Gemma 4 (31B)开放权重模型时，它成功识别出多个关键错误，包括物理约束违反和虚假数学方程，有效驳斥了更大模型的推理结果。 这表明在复杂推理任务中，较小的开放权重模型现在能够与甚至超越更大的前沿模型竞争，挑战了模型大小直接决定智能水平的假设。开放权重模型的快速发展对 AI 可访问性具有重要意义，因为这些模型可以在本地运行，为专有系统提供了经济高效的替代方案。 Gemma 4 (31B)有效利用了工具访问权限，通过运行 Python 脚本进行约束检查，而 Gemini 3 Pro Deepthink 忽略了可用工具，仅依赖暴力推理。当面对 Gemma 的论证时，Gemini 3 Pro Deepthink 承认其内部验证失败且逻辑存在缺陷。",
+  "score": 8,
+  "tags": [
+    "AI Models",
+    "Machine Learning",
+    "Open Source",
+    "Reasoning",
+    "Benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 3, 18:05"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1sbl0pa",
+  "originalSite": "reddit.com",
+  "context": "Gemma 4 是谷歌最近更新的开放权重模型系列，其中 31B 参数版本完全开放且支持本地部署。Gemini 3 Pro Deepthink 是谷歌 Gemini 3 Pro 模型的先进推理模式，专为通过并行假设探索解决复杂问题而设计。开放权重模型指的是权重（参数）公开可用的 AI 模型，支持本地执行和修改，而前沿 MoE（专家混合）模型通常代表最先进的专有系统，采用专门架构以实现高效计算。",
+  "discussion": "社区成员对 31B 开放权重模型能够超越前沿 MoE 模型表示惊讶，许多人指出较小模型能力的快速进步。几位评论者强调了系统设计和方法论的重要性，认为适当的提示、工具使用和验证流程对模型性能有显著贡献。还有关于开放权重模型日益具有竞争力的实际影响的讨论，这使得没有高端硬件的用户也能更容易地使用先进 AI。",
+  "references": [
+    {
+      "title": "Google Gemma 4 Is Now on Novita AI — 4 Sizes, Audio, Vision",
+      "url": "https://blogs.novita.ai/gemma-4-novita-ai/"
+    },
+    {
+      "title": "Gemini 3 Pro : 1M Context & 100% Math Score Leader",
+      "url": "https://automatio.ai/models/gemini-3-pro"
+    },
+    {
+      "title": "GPT OSS from OpenAI — Two Powerful Open-Source/ Open - Weight ...",
+      "url": "https://medium.com/@richardhightower/gpt-oss-from-openai-two-powerful-open-source-open-weight-models-comparable-to-frontier-models-e434e997e723"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

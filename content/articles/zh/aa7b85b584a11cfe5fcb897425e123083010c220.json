@@ -1,0 +1,45 @@
+{
+  "id": "aa7b85b584a11cfe5fcb897425e123083010c220",
+  "canonicalId": "ae58eafd14e1d00ed462c32a194a79b3aca97445",
+  "slug": "llama-eval-为-llamacpp-添加本地基准测试功能",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-13T00:00:00Z",
+  "lang": "zh",
+  "title": "llama-eval 为 llama.cpp 添加本地基准测试功能",
+  "summary": "一个新的拉取请求将 `llama-eval` 工具添加到 llama.cpp 中，支持在本地使用标准基准测试（包括 AIME、GSM8K 和 GPQA）评估 LLM。 这解决了本地 LLM 社区的一个常见痛点，直接在 llama.cpp 内提供标准化评估工具，无需外部依赖即可轻松比较不同的量化和微调模型。 该工具支持三个数据集：AIME（数学奥林匹克级推理）、GSM8K（小学数学）和 GPQA（研究生级科学选择题）。用户可调整并行度和上下文长度运行评估。",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "LLM evaluation",
+    "benchmarking",
+    "quantization",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 12, 12:57",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tb0uln/examples_add_llamaeval_by_ggerganov_pull_request/"
+    }
+  ],
+  "originalUrl": "https://github.com/ggml-org/llama.cpp/pull/21152",
+  "originalSite": "github.com",
+  "context": "llama.cpp 是一个流行的开源项目，用于在消费级硬件上本地运行大型语言模型，支持量化以提高效率。AIME、GSM8K 和 GPQA 等标准基准测试广泛用于评估 LLM 在数学和科学推理方面的性能。",
+  "discussion": "社区反应非常积极，用户称赞其便利性和标准化。评论指出以前本地基准测试设置繁琐，需要外部工具或 API 密钥。一些用户提到某些评估的资源需求高，但总体认为这是有价值的补充。",
+  "references": [
+    {
+      "title": "AIME Benchmarks : Math & AI Evaluation",
+      "url": "https://www.emergentmind.com/topics/aime-benchmarks"
+    },
+    {
+      "title": "datasets/GSM8K | Datasets at Oxen.ai",
+      "url": "https://www.oxen.ai/datasets/GSM8K"
+    },
+    {
+      "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark GPQA Benchmark 2026: 50 LLM scores | BenchLM.ai GPQA Leaderboard | Kaggle GPQA-Diamond Benchmark: Scores, Leaderboard & How AI Models ... AI Benchmarks 2026 - MMLU, GPQA, SWE-bench | LM Market Cap",
+      "url": "https://arxiv.org/abs/2311.12022"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

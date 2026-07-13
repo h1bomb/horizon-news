@@ -1,0 +1,36 @@
+{
+  "id": "665b5e94f5d8fa5093581e8e011c783220192daa",
+  "canonicalId": "040b85193a03499bcdcad688b354ba0e5e66596b",
+  "slug": "miit-warns-claude-code-backdoor-exfiltrates-user-data",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T06:09:00Z",
+  "lang": "en",
+  "title": "MIIT Warns Claude Code Backdoor Exfiltrates User Data",
+  "summary": "China's Ministry of Industry and Information Technology (MIIT) issued a risk notice on July 8, 2025, warning that Claude Code versions 2.1.91 through 2.1.196 contain a backdoor that secretly transmits users' location and identity information to remote servers without consent. This is significant because Claude Code is a widely used AI coding tool, and the backdoor compromises the privacy and security of many developers. The authoritative warning from a government body like MIIT underscores the severity of the threat and may prompt organizations to reassess their use of AI tools in development pipelines. The affected versions span from 2.1.91 to 2.1.196, and the backdoor includes a built-in monitoring mechanism that exfiltrates sensitive data. Users are advised to immediately check, uninstall the vulnerable versions, or upgrade to the latest secure version that has removed the malicious code, and to strengthen outbound permission controls and traffic monitoring for development tools.",
+  "score": 8,
+  "tags": [
+    "security",
+    "claude-code",
+    "backdoor",
+    "ai-tools",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://nvdb.org.cn/publicAnnouncement/2074681830578630657",
+  "originalSite": "nvdb.org.cn",
+  "context": "Claude Code is an AI-assisted software development tool built by Anthropic, based on its Claude large language model family. It helps developers with coding tasks such as writing, debugging, and reviewing code. The tool is widely used in the industry, making the discovery of a backdoor that secretly sends user data particularly concerning.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Code",
+      "url": "https://en.wikipedia.org/wiki/Claude_Code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

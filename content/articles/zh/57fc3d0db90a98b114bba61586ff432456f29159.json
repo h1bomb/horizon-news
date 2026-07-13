@@ -1,0 +1,44 @@
+{
+  "id": "57fc3d0db90a98b114bba61586ff432456f29159",
+  "canonicalId": "67ab8755c5767c6ef4552bb93acf418796027f52",
+  "slug": "github-推出堆叠式-pr-功能用于管理依赖的拉取请求",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-14T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub 推出堆叠式 PR 功能，用于管理依赖的拉取请求。",
+  "summary": "GitHub 推出了名为堆叠式 PR 的新功能，允许开发者创建和管理相互依赖的拉取请求，从而简化代码审查和开发工作流。该功能通过 GitHub 的官方工具和界面提供，解决了长期以来在管理依赖变更方面的不足。 这很重要，因为它通过支持更小、增量的变更来提高代码审查效率，这些变更更易于审查并减少开发中的瓶颈。它符合行业向更敏捷和协作工作流发展的趋势，特别有利于在单体仓库或长期功能项目中工作的团队。 该功能包括 CLI 工具和 UI 集成，用于可视化管理堆叠式 PR，但可能无法完全解决所有 UX 问题，如压缩合并冲突或细粒度提交管理。它借鉴了 Phabricator 和 Gerrit 等工具，这些工具长期以来支持类似的堆叠式差异工作流。",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "code-review",
+    "version-control",
+    "developer-tools",
+    "workflow-automation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 13, 20:36"
+    }
+  ],
+  "originalUrl": "https://github.github.com/gh-stack/",
+  "originalSite": "github.github.com",
+  "context": "堆叠式拉取请求涉及将一个功能分解为多个相互依赖的较小 PR，形成一个链，其中每个 PR 都基于前一个 PR 构建。这种方法也称为依赖或链式 PR，通过将变更拆分为连贯的部分，有助于使代码审查更快、更有效。它已在 Phabricator 和 Gerrit 等工具中使用，并在单体仓库环境中流行，用于管理复杂的依赖关系。GitHub 的传统 PR 模型将每个分支视为独立的，这可能会使处理依赖变更变得复杂。",
+  "discussion": "社区评论显示情绪复杂，一些用户称赞该功能改善了工作流，并积极与 Phabricator 等工具比较，而另一些用户则对 UI 限制和未解决的问题（如压缩合并冲突）表示担忧。关键观点包括赞赏在单体仓库中使用较小 PR、呼吁更好的提交级管理，以及与 GitLab 的 glab stack 等现有工具的比较。",
+  "references": [
+    {
+      "title": "Understanding the Stacked Pull Requests Workflow | Tower Blog",
+      "url": "https://www.git-tower.com/blog/stacked-prs"
+    },
+    {
+      "title": "Stacked pull requests: make code reviews faster, easier, and more effective - Dr. Michaela Greiler",
+      "url": "https://www.michaelagreiler.com/stacked-pull-requests/"
+    },
+    {
+      "title": "Stacked Diffs (and why you should know about them)",
+      "url": "https://newsletter.pragmaticengineer.com/p/stacked-diffs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

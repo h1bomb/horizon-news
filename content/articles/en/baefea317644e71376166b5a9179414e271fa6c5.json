@@ -1,0 +1,44 @@
+{
+  "id": "baefea317644e71376166b5a9179414e271fa6c5",
+  "canonicalId": "d7b33b405b21dc0d3e12f43aaf62fe256dbdc079",
+  "slug": "linux-kernel-70-released-with-rust-stabilization-io-uring-filtering-and-scheduler-improvements",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-12T21:09:00Z",
+  "lang": "en",
+  "title": "Linux kernel 7.0 released with Rust stabilization, io_uring filtering, and scheduler improvements",
+  "summary": "Linus Torvalds released Linux kernel 7.0 after a nine-week development cycle, removing the experimental status for Rust code, adding a new filtering mechanism for io_uring operations, and enabling lazy preemption by default in the CPU scheduler. This release is significant as it stabilizes Rust for safer kernel development, enhances I/O performance with io_uring filtering, and improves system throughput with lazy preemption, impacting global server, cloud, and embedded systems. Other notable changes include support for time-slice extension, the nullfs filesystem, self-healing for XFS, swap subsystem improvements, and AccECN congestion notification, with details available in LWN merge-window summaries and the KernelNewbies page.",
+  "score": 9,
+  "tags": [
+    "linux-kernel",
+    "systems-programming",
+    "operating-systems",
+    "rust",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067279/",
+  "originalSite": "lwn.net",
+  "context": "The Linux kernel is the core of the Linux operating system, managing hardware and software resources. Rust is a programming language valued for memory safety, and its inclusion aims to reduce vulnerabilities in kernel code. io_uring is a Linux I/O interface for high-performance asynchronous operations, and lazy preemption is a scheduler mode that balances throughput and latency by delaying task switches.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "As the Kernel Turns: Rust in Linux saga reaches the... - Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2025/02/linux-leaders-pave-a-path-for-rust-in-kernel-while-supporting-c-veterans/"
+    },
+    {
+      "title": "io_uring - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Io_uring"
+    },
+    {
+      "title": "The long road to lazy preemption [LWN.net]",
+      "url": "https://lwn.net/Articles/994322/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

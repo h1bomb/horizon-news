@@ -1,0 +1,44 @@
+{
+  "id": "bb07a7feb4dd385a0701157d544cd7d0242df129",
+  "canonicalId": "d4f0e954eb4de343451f5acfb3854b0e40879cc7",
+  "slug": "godaddy-transfers-domain-to-stranger-without-verification",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-26T16:57:00Z",
+  "lang": "en",
+  "title": "GoDaddy Transfers Domain to Stranger Without Verification",
+  "summary": "A domain owner reported that GoDaddy transferred their domain to an unauthorized party without requiring any documentation or proper verification, exposing a critical security flaw in the registrar's transfer process. This incident highlights severe security risks in domain management, as domain hijacking can lead to loss of email access, website control, and business operations. It underscores the need for stronger verification protocols and raises trust concerns about GoDaddy, one of the largest domain registrars. The transfer was executed without any documentation, such as a signed authorization form or identity verification, which are standard requirements for domain transfers. The victim noted that all associated email addresses, marketing materials, and SEO rankings were compromised, and they were effectively locked out of online accounts tied to the domain.",
+  "score": 8,
+  "tags": [
+    "domain security",
+    "GoDaddy",
+    "registrar",
+    "security breach",
+    "hackernews"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jamesponddotco"
+    }
+  ],
+  "originalUrl": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+  "originalSite": "anchor.host",
+  "context": "Domain transfers typically require a Form of Authorization (FOA) and confirmation from the current registrar to prevent unauthorized transfers. ICANN sets guidelines for these processes, but enforcement varies by registrar. GoDaddy has a history of security incidents, including issuing unvalidated SSL certificates and injecting JavaScript into customer websites.",
+  "discussion": "Commenters expressed strong distrust of GoDaddy, citing its poor security track record. Some suggested the incident might be an inside job, while others recommended registering domains as trademarks to gain stronger legal protection. The discussion also highlighted that losing a domain can lock users out of critical online accounts like banking and CRM systems.",
+  "references": [
+    {
+      "title": "How to Protect Your Domain from Online Fraud",
+      "url": "https://www.nominus.com/blog/protect-domain-from-online-fraud"
+    },
+    {
+      "title": "FAQs for Registrants: Transferring Your Domain Name - ICANN",
+      "url": "https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en"
+    },
+    {
+      "title": "Domain Transfer Guide: How to Move Your Website Safely",
+      "url": "https://www.openprovider.com/explore/domain-transfer"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

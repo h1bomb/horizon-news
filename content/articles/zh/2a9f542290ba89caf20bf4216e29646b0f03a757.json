@@ -1,0 +1,40 @@
+{
+  "id": "2a9f542290ba89caf20bf4216e29646b0f03a757",
+  "canonicalId": "9f6a198a72cb040d3661237122cfdd6f604cade9",
+  "slug": "qwen35-27b-在-512mb-内存的-raspberry-pi-zero-2w-上通过自定义流式技术实现离线推理",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-27B 在 512MB 内存的 Raspberry Pi Zero 2W 上通过自定义流式技术实现离线推理。",
+  "summary": "一项演示成功在仅有 512MB 内存的 Raspberry Pi Zero 2W 上运行了 Qwen3.5-27B 大语言模型，采用自定义流式技术直接从 SD 卡加载权重进行离线推理，无需 API 调用。这一成就将边缘 AI 部署推向了极端受限硬件的边界，实现了每小时仅几个 token 的推理速度。 这很重要，因为它展示了在超低成本、资源受限的设备上运行先进 AI 模型的可行性，为偏远地区或嵌入式系统等场景实现真正的离线和去中心化 AI 应用。它突显了内存效率和硬件优化的进展，可能激发边缘计算和可持续 AI 的进一步创新。 该实现避免了简单的 mmap 和交换内存技术，而是采用自定义系统从 SD 卡流式加载模型权重到内存，顺序执行计算并清除数据。尽管速度极慢，每小时仅几个 token，但它展示了在最小硬件上管理大模型内存的新颖方法。",
+  "score": 8,
+  "tags": [
+    "Edge AI",
+    "Hardware Optimization",
+    "Local LLM",
+    "Raspberry Pi",
+    "Memory Efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 2, 18:15"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/o9ryhfsfitsg1.png",
+  "originalSite": "i.redd.it",
+  "context": "像 Qwen3.5-27B 这样的大语言模型是拥有数十亿参数的 AI 系统，通常需要大量内存和计算资源进行推理。Raspberry Pi Zero 2W 是一种低成本、内存有限的单板计算机，常用于嵌入式项目。自定义流式技术涉及增量加载数据以减少内存占用，类似于 StreamingLLM 等研究中讨论的高效注意力机制方法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "FlexPrefill: A Context-Aware Sparse Attention Mechanism for",
+      "url": "https://arxiv.org/html/2502.20766v1"
+    },
+    {
+      "title": "LocalAI models",
+      "url": "https://localai.io/gallery.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

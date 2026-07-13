@@ -1,0 +1,44 @@
+{
+  "id": "55c33bee9d5e3421e42e43a9c5d00812aea122e2",
+  "canonicalId": "2daf050c7109fa90774546b5023bd19fb4468b57",
+  "slug": "qwen-36-27b-通过-llamacpp-的-mtp-实现-25-倍推理加速",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-07T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.6 27B 通过 llama.cpp 的 MTP 实现 2.5 倍推理加速",
+  "summary": "最近的一个拉取请求为 llama.cpp 添加了 Qwen 3.6 27B 的多令牌预测（MTP）支持，在 M2 Max 和 RTX 3090 等消费级硬件上实现了高达 2.5 倍的令牌生成加速。 这使得本地代理编程在 48GB 设备上可行，上下文长度可达 262k，为实际应用拉近了云端与本地 LLM 推理之间的差距。 MTP 功能利用模型内置的张量层进行推测解码，需要从开放的 PR 自定义编译 llama.cpp。已转换的带有修正 Jinja 聊天模板的 GGUF 量化模型可在 Hugging Face 上获取。",
+  "score": 9,
+  "tags": [
+    "inference-speedup",
+    "local-llm",
+    "llama.cpp",
+    "speculative-decoding",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 6, 09:35"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t57xuu/25x_faster_inference_with_qwen_36_27b_using_mtp/",
+  "originalSite": "reddit.com",
+  "context": "推测解码通过使用较小的草稿模型预测多个令牌，然后由主模型并行验证，从而加速 LLM 推理。GGUF 格式使得模型能够在消费级硬件上高效量化和部署。llama.cpp 是一个流行的 C/C++推理引擎，支持多种模型和优化。",
+  "discussion": "社区非常热情，用户在各种硬件上报告了 2-3 倍的速度提升。一位 RTX 3090 用户在 IQ4_XS 量化下以 256k 上下文达到了 100 tok/s。一些用户指出进展速度之快令人应接不暇，但对实际改进表示赞赏。",
+  "references": [
+    {
+      "title": "llama + spec: MTP Support by am17an · Pull Request #22673 · ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/22673"
+    },
+    {
+      "title": "Looking back at speculative decoding",
+      "url": "https://research.google/blog/looking-back-at-speculative-decoding/"
+    },
+    {
+      "title": "Llama.cpp Performance Surge: Bridging the Gap with Beta MTP Support · Technical news about AI, coding and all",
+      "url": "https://dasroot.net/posts/2026/05/llama-cpp-performance-surge-beta-mtp-support/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "d4350ec0dc3a2231a9c7639128fb8a9cff098d7b",
+  "canonicalId": "0dd7a35c13afa4243442246857561e8bde423498",
+  "slug": "xiaomi-launches-xiaomi-miclaw-ai-agent-begins-invite-only-closed-beta",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-06T06:29:00Z",
+  "lang": "en",
+  "title": "Xiaomi Launches Xiaomi miclaw AI Agent, Begins Invite-Only Closed Beta",
+  "summary": "On March 6, Xiaomi announced the launch of Xiaomi miclaw, an AI interaction test product built on its MiMo large model, and initiated a small-scale, invite-only closed beta. The AI agent runs as a system application, can call upon over 50 system capabilities and ecosystem services, and integrates with the Mi Home IoT ecosystem for device control. This launch represents a major step by a leading smartphone manufacturer to deeply integrate a system-level AI agent into its mobile OS and IoT ecosystem, potentially setting a new standard for on-device AI assistants. It signals a shift from cloud-centric AI to more private, powerful, and context-aware agents that can directly orchestrate phone functions and smart home devices. The agent employs an inference-execution loop with asynchronous timeout protection and features a three-tier memory management system with round and token compression. Xiaomi emphasizes privacy, stating that core personal data is processed locally on the device first, and sensitive information sent to the cloud is minimized through on-device/cloud privacy computing; the company also states it will not use personal data for model training.",
+  "score": 7,
+  "tags": [
+    "AI Agent",
+    "Large Language Model",
+    "Mobile AI",
+    "IoT Integration",
+    "Product Launch"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://weibo.com/6486870325/QuNMhuuFt",
+  "originalSite": "weibo.com",
+  "context": "Xiaomi's MiMo is an open-source multimodal large model, which is a type of AI capable of understanding and processing multiple types of data like text and images. An AI agent, like Xiaomi miclaw, is a system that can perceive its environment, make decisions (inference), and take actions (execution) to achieve goals, often using a loop of these steps. The Model Context Protocol (MCP) is a framework that allows AI applications to connect to external data sources and tools, which is what the mentioned MCP client enables.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MiMo-VL – Xiaomi’s Open-Source Multimodal Large Model |",
+      "url": "https://altools.ai/7612.html"
+    },
+    {
+      "title": "Java MCP Client - Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/sdk/java/mcp-client"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

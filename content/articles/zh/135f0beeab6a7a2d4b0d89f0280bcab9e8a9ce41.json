@@ -1,0 +1,44 @@
+{
+  "id": "135f0beeab6a7a2d4b0d89f0280bcab9e8a9ce41",
+  "canonicalId": "15818d35d805f022834aea20492d8877d1d010dc",
+  "slug": "kimi-提出注意力残差连接替代-transformer-中的标准残差连接",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-21T00:00:00Z",
+  "lang": "zh",
+  "title": "Kimi 提出注意力残差连接，替代 Transformer 中的标准残差连接",
+  "summary": "Moonshot AI 的 Kimi 团队于 2026 年 3 月 15 日发表论文，提出'注意力残差连接'来替代 Transformer 架构中的标准残差连接。该方法让每一层都能通过学习的注意力权重，有选择性地关注所有先前层的输出，解决了深层网络中早期信息被稀释的问题。 这一改进解决了 Transformer 架构中影响所有现代大语言模型的基本限制，有望提升推理、代码生成和长上下文任务的性能，同时降低计算需求。该方法代表了重要的架构创新，可能影响未来模型设计和训练效率。 基准测试结果显示，在研究生水平考试、数学推理、代码生成和长上下文任务上提升了 3-7.5 分，块注意力残差变体可节省约 1.25 倍计算量。训练开销低于 4%，推理延迟增加低于 2%，且更大规模的模型从该架构中获益更多。",
+  "score": 8,
+  "tags": [
+    "transformers",
+    "neural-architecture",
+    "machine-learning",
+    "research-paper",
+    "attention-mechanisms"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 20, 11:03"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ryt8e3/kimi_just_published_a_paper_replacing_residual/",
+  "originalSite": "reddit.com",
+  "context": "残差连接于 2015 年在 ResNet 中提出，自 2017 年起被 Transformer 采用，它通过恒等映射让梯度绕过变换，实现了深度神经网络的稳定训练。在标准 Transformer 中，每一层接收所有先前层输出的累加和，这可能导致早期信息在深层网络中被稀释——Kimi 称之为'稀释问题'。注意力机制用于确定序列中不同组件的重要性，现在正被应用于解决这一与深度相关的问题。",
+  "discussion": "社区讨论对该架构创新持谨慎乐观态度，特别关注量化敏感性和与 LoRA 等微调技术的兼容性。多位评论者指出，新的跨层注意力参数可能不会被标准 LoRA 方案覆盖，可能导致适配问题，而其他人则质疑该方法与 DeepSeek 最近提出的修复残差连接的 mHC 方法相比如何。",
+  "references": [
+    {
+      "title": "Attention Residuals - arXiv.org",
+      "url": "https://arxiv.org/pdf/2603.15031"
+    },
+    {
+      "title": "Attention Residuals: Fixing Signal Dilution in the Depth ...",
+      "url": "https://yage.ai/share/attention-residuals-intuition-en-20260318.html"
+    },
+    {
+      "title": "Why are residual connections needed in transformer architectures ?",
+      "url": "https://stats.stackexchange.com/questions/565196/why-are-residual-connections-needed-in-transformer-architectures"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1a2fbed3ff7e7179ead22be18be4ffb6d3e95217",
+  "canonicalId": "45d7bf46469a8e129ae55377848cda9570a920e9",
+  "slug": "top-university-subdomains-hijacked-to-serve-porn-and-scams",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-26T09:02:00Z",
+  "lang": "en",
+  "title": "Top university subdomains hijacked to serve porn and scams",
+  "summary": "At least 34 top universities, including UC Berkeley and Columbia, had their subdomains hijacked by the threat group Hazy Hawk to serve pornographic content and scams. The attack exploited administrators' failure to clean up CNAME records after decommissioning subdomains. This incident highlights a critical domain management vulnerability that can affect any organization, especially those with high domain authority like universities. The hijacked pages rank high in Google search results, potentially reaching a large audience and damaging institutional reputations. Hazy Hawk has been active since at least December 2023, targeting abandoned cloud resources and DNS misconfigurations. Hundreds of subdomains and thousands of malicious pages have been found in search engines.",
+  "score": 8,
+  "tags": [
+    "security",
+    "domain hijacking",
+    "DNS",
+    "university",
+    "cyberattack"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+  "originalSite": "arstechnica.com",
+  "context": "A subdomain takeover occurs when an attacker gains control over a subdomain by exploiting a dangling DNS record, such as a CNAME pointing to a decommissioned external service. CNAME records map one domain name to another, and if the target service is removed without deleting the record, an attacker can claim it. This attack is well-known in security circles but often overlooked in domain management practices.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CNAME record - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CNAME_record"
+    },
+    {
+      "title": "Hazy Hawk Exploits DNS Records to Hijack CDC, Corporate ...",
+      "url": "https://thehackernews.com/2025/05/hazy-hawk-exploits-dns-records-to.html"
+    },
+    {
+      "title": "Subdomain takeover - Security | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Subdomain_takeover"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

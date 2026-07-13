@@ -1,0 +1,48 @@
+{
+  "id": "d745e3e7e5b4b51d45bbb6d77345b632a8128b6d",
+  "canonicalId": "4d12693078052266d1f9247604d2118a146b77c5",
+  "slug": "openai-acquires-astral-the-company-behind-python-tools-uv-ruff-and-ty",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-19T16:45:00Z",
+  "lang": "en",
+  "title": "OpenAI acquires Astral, the company behind Python tools uv, ruff, and ty",
+  "summary": "OpenAI announced on March 19, 2026, that it has entered into an agreement to acquire Astral, the company behind the popular open-source Python tools uv, ruff, and ty. The Astral team will join OpenAI's Codex team, and OpenAI plans to continue supporting Astral's open-source products after the deal closes. This acquisition represents a major shift in the Python ecosystem, as OpenAI gains control of three increasingly critical developer tools used by millions. It could accelerate OpenAI's work on Codex and AI-assisted software development, while raising questions about the future of these open-source projects under corporate ownership. The acquisition appears to be both a talent and product play, with Astral's team including top Rust engineers like BurntSushi. While both companies commit to continued open-source support, OpenAI's announcement emphasizes using Astral's expertise to accelerate Codex development, which is a Rust-based CLI tool.",
+  "score": 9,
+  "tags": [
+    "OpenAI",
+    "Python",
+    "Open Source",
+    "Acquisition",
+    "Developer Tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Astral is a company that builds high-performance developer tools for Python, including uv (an extremely fast Python package and project manager written in Rust), ruff (a fast Python linter and code formatter also written in Rust), and ty (a Python tool for type checking). These tools have become foundational in modern Python development, with uv addressing Python's complex environment management problems and ruff offering 10-100x faster performance than traditional linters. OpenAI's Codex is an AI system that can generate code from natural language descriptions, and the Codex CLI is a Rust application for interacting with this system.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI to acquire Astral",
+      "url": "https://openai.com/index/openai-to-acquire-astral/"
+    },
+    {
+      "title": "Astral: High-performance Python tooling",
+      "url": "https://astral.sh/"
+    },
+    {
+      "title": "GitHub - astral-sh/uv: An extremely fast Python package and project manager, written in Rust. · GitHub",
+      "url": "https://github.com/astral-sh/uv"
+    },
+    {
+      "title": "Ruff - Astral Docs",
+      "url": "https://docs.astral.sh/ruff/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "187c94b1c29c85e6b20908668a27587b1ae0fef8",
+  "canonicalId": "c6c43a1d5f4b58c4ff29014ff0675b570b6e7983",
+  "slug": "french-aircraft-carrier-tracked-in-real-time-via-fitness-app-data-leak",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-20T13:01:00Z",
+  "lang": "en",
+  "title": "French aircraft carrier tracked in real time via fitness app data leak",
+  "summary": "On March 20, 2026, French newspaper Le Monde successfully tracked the location of France's aircraft carrier in real time by analyzing publicly available data from the Strava fitness app, which was uploaded by personnel aboard the vessel. This investigation, dubbed 'Stravaleaks,' exposed how personal fitness tracking data can compromise military operational security. This incident highlights critical vulnerabilities in military operational security (OPSEC) caused by personal smart devices and fitness apps, demonstrating how open-source intelligence (OSINT) techniques can expose sensitive information even in high-stakes environments. It raises urgent questions about balancing personnel convenience with national security requirements, especially amid global tensions such as those with Iran. The tracking was made possible because sailors aboard the carrier used Strava to record workouts, with their geolocation data being publicly shared through the app's features. This is not an isolated case—similar incidents have previously exposed secret military bases and patrol routes worldwide, with Strava updating its privacy settings in response but risks persisting.",
+  "score": 8,
+  "tags": [
+    "security",
+    "privacy",
+    "geolocation",
+    "investigative-journalism",
+    "military"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "MrDresden"
+    }
+  ],
+  "originalUrl": "https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html",
+  "originalSite": "lemonde.fr",
+  "context": "Strava is a popular fitness tracking app that uses GPS to record users' exercise routes, which can be shared publicly through features like heat maps. Open-source intelligence (OSINT) refers to investigative techniques that analyze publicly available data from sources such as social media, satellite imagery, and fitness apps to uncover hidden information. Military operational security (OPSEC) involves protecting sensitive information about operations, with personal devices often creating vulnerabilities through geolocation leaks.",
+  "discussion": "Community comments highlight historical precedents, such as a Russian submarine commander being tracked via Strava in 2023, and note that this is a widespread military issue driven by personnel naivety and convenience. Some question whether aircraft carriers can truly be hidden from satellites, while others discuss the trade-offs between security and emergency communication needs, referencing recent podcast discussions on digital security measures.",
+  "references": [
+    {
+      "title": "French Aircraft Carrier Location Exposed by Sailor’s Strava",
+      "url": "https://tfiglobalnews.com/2026/03/20/french-aircraft-carrier-location-exposed-by-sailors-strava-workout-track-app-amid-iran-war-tensions/"
+    },
+    {
+      "title": "The Strava Heat Map Shows Even Militaries Can't Keep Secrets from Social Data",
+      "url": "https://www.wired.com/story/strava-heat-map-military-bases-fitness-trackers-privacy/"
+    },
+    {
+      "title": "Fundamentals of Open-Source Intelligence for Journalists | ICFJ",
+      "url": "https://www.icfj.org/news/fundamentals-open-source-intelligence-journalists"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "a0147aeeb6d346f78a1b6fdbf125f7280ff5b853",
+  "canonicalId": "b18a0b9220ff759d272eca10ebb4063e13973e5d",
+  "slug": "ospm-2026-day-3-gpu-auto-affinity-via-sched-ext",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T18:01:00Z",
+  "lang": "en",
+  "title": "OSPM 2026 Day 3: GPU Auto-Affinity via sched_ext",
+  "summary": "At the OSPM 2026 Linux kernel summit, a new sched_ext-based approach for GPU-aware auto-affinitization was presented, achieving up to 80 frames per second on a RegNet workload, outperforming both the default fair scheduler (56fps) and manual numactl pinning (77fps). This work promises to simplify GPU workload management on NUMA systems by automatically optimizing CPU-GPU locality, reducing the need for manual tuning and potentially improving performance for AI and accelerator-heavy applications. The prototype uses a Rust user-space component that queries NVIDIA's NVML library to track per-task GPU utilization, then feeds a BPF map that the sched_ext scheduler (scx_cosmos) uses to migrate tasks to the preferred NUMA node. Caveats include that task memory is not migrated automatically, and aggressive packing may conflict with load balancing.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "power management",
+    "scheduling",
+    "sched_ext",
+    "GPU"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078697/",
+  "originalSite": "lwn.net",
+  "context": "sched_ext is a Linux kernel feature that allows custom CPU schedulers to be implemented and loaded dynamically using eBPF programs. NUMA (Non-Uniform Memory Access) systems have multiple memory nodes; accessing memory attached to a remote node incurs higher latency. GPU-aware auto-affinitization aims to place tasks close to the GPU they use to minimize data transfer costs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - sched-ext/scx: sched_ext schedulers and tools",
+      "url": "https://github.com/sched-ext/scx"
+    },
+    {
+      "title": "NVIDIA Topology-Aware GPU User Guide :: NVIDIA Topology-Aware GPU Selection Documentation",
+      "url": "https://docs.nvidia.com/datacenter/nvtags/latest/nvtags-user-guide/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

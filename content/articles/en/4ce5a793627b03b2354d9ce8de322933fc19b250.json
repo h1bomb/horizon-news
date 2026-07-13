@@ -1,0 +1,40 @@
+{
+  "id": "4ce5a793627b03b2354d9ce8de322933fc19b250",
+  "canonicalId": "23302509b81ae3d04d51bc712fd74347497de2f5",
+  "slug": "ietf-explores-post-quantum-cryptography-for-https-certificates-to-address-quantum-threats",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-11T13:26:00Z",
+  "lang": "en",
+  "title": "IETF explores post-quantum cryptography for HTTPS certificates to address quantum threats",
+  "summary": "The IETF has formed a new working group to investigate adopting post-quantum cryptography for authentication and certificate transparency in HTTPS certificates, addressing the challenge of significantly larger certificate sizes that could be around 40 times larger than traditional certificates. This work builds on previous IETF efforts focused on post-quantum key exchange and aims to develop techniques that could also benefit traditional certificate efficiency. This matters because quantum computers could eventually break current cryptographic algorithms, threatening the security of internet communications, and the IETF's standardization work is crucial for preparing the internet infrastructure for this future threat. The research into reducing certificate size overhead could benefit both quantum-resistant and traditional systems, potentially improving overall internet performance and security. Post-quantum signature schemes like ML-DSA-44 can produce signatures 37 times larger than comparable traditional algorithms like Ed25519, which could make certificate chains larger than the actual website content for text-heavy sites. While key exchange mechanisms need quantum resistance to prevent 'store now, decrypt later' attacks, authentication mechanisms primarily need to defend against current computers since compromising authentication keys later doesn't impact current connection correctness.",
+  "score": 8,
+  "tags": [
+    "Cybersecurity",
+    "Post-Quantum Cryptography",
+    "HTTPS",
+    "IETF",
+    "Internet Standards"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1060941/",
+  "originalSite": "lwn.net",
+  "context": "Post-quantum cryptography refers to cryptographic algorithms designed to be secure against attacks by quantum computers, which could break widely used public-key algorithms like RSA and ECC that rely on mathematical problems solvable by quantum algorithms like Shor's algorithm. HTTPS certificates use digital signatures to authenticate websites, typically involving a chain of signatures from the website through intermediate certificate authorities to a root certificate, with certificate transparency logs providing additional verification of certificate issuance. The IETF (Internet Engineering Task Force) develops and promotes voluntary internet standards, particularly protocols like those used in HTTPS, which combines HTTP with TLS/SSL encryption to secure web communications.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Post-quantum cryptography",
+      "url": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+    },
+    {
+      "title": "Distributed Trust Models:TLS Certificate Transparency and DANE",
+      "url": "https://www.internetsociety.org/blog/2014/07/distributed-trust-modelstls-certificate-transparency-and-dane/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

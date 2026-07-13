@@ -1,0 +1,32 @@
+{
+  "id": "aa20052cfbc3ddc98f02232a1cf1b7f36cf15d85",
+  "canonicalId": "adeddefc487a0b26ec7de124bcceb9272b5cf525",
+  "slug": "github-重大宕机影响核心开发工作流",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T12:15:00Z",
+  "lang": "zh",
+  "title": "GitHub 重大宕机影响核心开发工作流",
+  "summary": "GitHub 在未指定日期发生重大事件，影响了拉取请求、问题、Git 操作和 API 请求，用户反映最近宕机频繁。 此次宕机影响了数百万开发者的关键工作流程，引发了对 GitHub 作为软件协作中心平台可靠性的担忧。 该事故特别影响了 Web 界面和 API 上的拉取请求，它们未能一致地反映所有提交或分支更改，增加了合并不完整代码的风险。",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "incident",
+    "outage",
+    "reliability",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "maxnoe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48293080"
+    }
+  ],
+  "originalUrl": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
+  "originalSite": "githubstatus.com",
+  "context": "GitHub 是一个广泛使用的版本控制和协作平台，托管着数百万个仓库。频繁的宕机会严重影响开发者的生产力和信任。近期事故的频发导致了社区的不满。",
+  "discussion": "社区评论对反复发生的宕机表示不满，一位用户指出拉取请求的差异不一致，容易在未完全审查的情况下合并。另一位用户将可靠性问题与 AI 编程普及后其他服务如 Supabase 和 Cloudflare 的情况进行了比较。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

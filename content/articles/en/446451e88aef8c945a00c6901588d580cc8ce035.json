@@ -1,0 +1,40 @@
+{
+  "id": "446451e88aef8c945a00c6901588d580cc8ce035",
+  "canonicalId": "a903b07cc323689242a7b92684de52d2721d4f67",
+  "slug": "google-releases-gemma-4-12b-model-for-local-laptops",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T01:46:00Z",
+  "lang": "en",
+  "title": "Google Releases Gemma 4 12B Model for Local Laptops",
+  "summary": "Google released the Gemma 4 12B open-source AI model, which can run locally on laptops with just 16GB of RAM. The model fills a gap between the smaller mobile version and larger professional models in the Gemma 4 family. This release significantly lowers the barrier for local AI inference, enabling developers and enthusiasts to run capable models without cloud dependencies. It also demonstrates Google's commitment to open-source AI with the Apache 2.0 license. The Gemma 4 12B model requires only 16GB of system RAM or VRAM, about half the memory of the 26B MoE variant. Google claims its benchmark performance is close to that of the 26B MoE version.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Google",
+    "Gemma",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
+  "originalSite": "arstechnica.com",
+  "context": "The Gemma 4 family, released earlier in April 2026 under the Apache 2.0 license, includes models ranging from mobile-sized to professional-grade. Mixture of Experts (MoE) is a technique where multiple specialized sub-models are selectively activated, enabling efficient inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

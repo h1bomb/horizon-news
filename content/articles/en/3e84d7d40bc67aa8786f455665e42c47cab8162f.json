@@ -1,0 +1,44 @@
+{
+  "id": "3e84d7d40bc67aa8786f455665e42c47cab8162f",
+  "canonicalId": "7b9a5d54553e7a7f8300ed9d8e826d36a902b048",
+  "slug": "litellm-supply-chain-attack-prompts-open-source-alternatives-review",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T07:26:00Z",
+  "lang": "en",
+  "title": "LiteLLM supply chain attack prompts open-source alternatives review",
+  "summary": "The LiteLLM Python package versions 1.82.7 and 1.82.8 on PyPI were compromised with credential-stealing malware, prompting the evaluation of three open-source alternatives: Bifrost (Go-based, 50x faster), Kosong (agent-oriented from Kimi), and Helicone (feature-rich observability). This incident highlights critical supply chain security risks in widely-used AI infrastructure libraries, forcing developers to reconsider dependency management and migration strategies while evaluating alternative solutions with different technical trade-offs. Bifrost offers a one-line migration path from LiteLLM with Apache 2.0 licensing and support for 20+ providers, while Kosong focuses on agent-oriented workflows with unified message structures, and Helicone provides extensive analytics capabilities supporting over 100 providers.",
+  "score": 7,
+  "tags": [
+    "supply-chain-security",
+    "llm-libraries",
+    "open-source-alternatives",
+    "python-security",
+    "ai-infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "KissWild"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/4hrn5eh985rg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "LiteLLM is a popular Python library that provides a unified interface for interacting with multiple large language model (LLM) providers like OpenAI, Anthropic, and Google. Supply chain attacks involve compromising software packages in public repositories like PyPI to distribute malware to downstream users. LLM abstraction layers help developers switch between different AI providers without rewriting application code.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Popular LiteLLM PyPI package backdoored to steal credentials,",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/"
+    },
+    {
+      "title": "Bifrost: A Drop-in LLM Proxy, 50x Faster Than LiteLLM",
+      "url": "https://www.getmaxim.ai/blog/bifrost-a-drop-in-llm-proxy-40x-faster-than-litellm/"
+    },
+    {
+      "title": "The LLM abstraction layer for modern AI agent applications.",
+      "url": "https://github.com/MoonshotAI/kosong"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

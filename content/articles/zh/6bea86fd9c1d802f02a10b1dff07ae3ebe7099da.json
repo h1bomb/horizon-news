@@ -1,0 +1,40 @@
+{
+  "id": "6bea86fd9c1d802f02a10b1dff07ae3ebe7099da",
+  "canonicalId": "2a2b7f3a02d756ed2d7a2a4c830cdacb5dc76c4a",
+  "slug": "研究人员逆向工程苹果-m4-神经引擎实测揭示-38-tops-宣传存在误导",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "研究人员逆向工程苹果 M4 神经引擎，实测揭示 38 TOPS 宣传存在误导",
+  "summary": "研究人员 maderix 与 AI 协作，通过绕过 CoreML 框架并直接调用私有接口 _ANEClient，成功对苹果 M4 芯片的神经引擎（ANE）进行了逆向工程和基准测试。实测显示 ANE 的真实 FP16 峰值算力为 19 TFLOPS，而非官方宣传的 38 TOPS，同时还发现了约 32MB 的片上 SRAM 等架构细节，以及绕过 CoreML 可带来的显著性能提升。 这项独立验证揭示了苹果营销宣传与硬件实际能力之间的显著差异，对行业标准的性能报告惯例提出了挑战。这些发现对 AI 硬件基准测试的准确性，以及对在 Apple Silicon 上优化神经网络工作负载（尤其是移动和边缘 AI 应用）的开发者，都具有重大影响。 研究发现，宣传的 38 TOPS 数据是通过将 FP16 性能翻倍（一种行业惯例）得出的，但该硬件并未实现 INT8 相对于 FP16 的双倍吞吐量。值得注意的是，绕过 CoreML 可将小规模操作的吞吐量提升 2 至 4 倍，且 ANE 的卷积运算速度是其矩阵乘法速度的 3 倍。",
+  "score": 8,
+  "tags": [
+    "hardware-reverse-engineering",
+    "ai-accelerators",
+    "apple-silicon",
+    "benchmarking",
+    "neural-networks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 2, 08:00"
+    }
+  ],
+  "originalUrl": "https://maderix.substack.com/p/inside-the-m4-apple-neural-engine",
+  "originalSite": "maderix.substack.com",
+  "context": "苹果的神经引擎（ANE）是集成在其 M 系列芯片中的专用 AI 加速核心，旨在高效处理图像识别和自然语言处理等机器学习任务。TOPS（每秒万亿次操作）和 TFLOPS（每秒万亿次浮点操作）是衡量 AI 加速器性能的常用指标，由于精度较低，INT8 操作在理论上通常能提供 FP16 双倍的吞吐量。CoreML 是苹果用于在其平台上部署机器学习模型的框架。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How to calculate TOPS (INT8) or TFLOPS (FP16) of each layer of a ...",
+      "url": "https://forums.developer.nvidia.com/t/how-to-calculate-tops-int8-or-tflops-fp16-of-each-layer-of-a-cnn-using-tensorrt/180832"
+    },
+    {
+      "title": "Dense TOPS vs. sparse TOPS: What's the difference? | Qualcomm",
+      "url": "https://www.qualcomm.com/news/onq/2025/07/dense-tops-vs-sparse-tops-whats-the-difference"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

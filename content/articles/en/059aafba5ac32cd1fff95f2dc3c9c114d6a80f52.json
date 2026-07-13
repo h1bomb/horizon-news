@@ -1,0 +1,44 @@
+{
+  "id": "059aafba5ac32cd1fff95f2dc3c9c114d6a80f52",
+  "canonicalId": "e874f1594ecd650f334e85a3c3cef9ac871fc4ea",
+  "slug": "top-lightgbm-feature-hurt-predictions-due-to-label-variance",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T18:20:00Z",
+  "lang": "en",
+  "title": "Top LightGBM Feature Hurt Predictions Due to Label Variance",
+  "summary": "A practitioner found that a Bayesian target encoder feature ranked #1 by LightGBM importance actually worsened test MAPE by 0.28 percentage points in a 4-seed × 3-variant ablation study. This highlights a common pitfall in gradient boosting where feature importance can be misleading due to the model capturing irreducible label variance, reminding practitioners to validate important features with ablation studies. The encoder was designed to isolate within-reference pricing dynamics but instead learned splits that failed to generalize because the signal came from unobserved factors like condition nuance, seller behavior, and timing.",
+  "score": 8,
+  "tags": [
+    "LightGBM",
+    "feature importance",
+    "ablation study",
+    "gradient boosting",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Nj-yeti"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tu0y14/why_our_1_lightgbm_feature_by_importance_made/",
+  "originalSite": "reddit.com",
+  "context": "LightGBM is a gradient boosting framework that can compute feature importance scores based on how often a feature is used for splitting. However, high importance does not guarantee predictive value, especially when the feature captures noise rather than signal. Bayesian target encoding maps categorical variables to numerical representations using target statistics, but can leak label information if not regularized properly.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Target Encoding and Bayesian Target Encoding | by Michael ...",
+      "url": "https://medium.com/data-science/target-encoding-and-bayesian-target-encoding-5c6a6c58ae8c"
+    },
+    {
+      "title": "Gradient boosting - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gradient_boosting"
+    },
+    {
+      "title": "Bayesian target encoding documentation - bayte.readthedocs.io",
+      "url": "https://bayte.readthedocs.io/en/latest/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

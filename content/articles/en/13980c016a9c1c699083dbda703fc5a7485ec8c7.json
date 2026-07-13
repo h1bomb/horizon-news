@@ -1,0 +1,39 @@
+{
+  "id": "13980c016a9c1c699083dbda703fc5a7485ec8c7",
+  "canonicalId": "a200bc607a93403d4449fab83d4faaacc7659a92",
+  "slug": "podman-60-released-with-enhanced-features-and-breaking-changes",
+  "date": "2026-06-26",
+  "publishedAt": "2026-06-25T16:33:00Z",
+  "lang": "en",
+  "title": "Podman 6.0 Released with Enhanced Features and Breaking Changes",
+  "summary": "Podman 6.0.0 has been released, introducing support for multiple static IP addresses per container, improved Docker compatibility via enhanced network isolation, and a rewrite of configuration file handling. As a major version bump, Podman 6.0 brings significant improvements for users relying on Podman for container management, especially those migrating from Docker or using systemd integration via Quadlet. The release includes many new options for existing commands and several breaking changes; users should consult the full release notes for migration details. Quadlet commands have been altered, affecting how containers are run under systemd.",
+  "score": 8,
+  "tags": [
+    "container-management",
+    "podman",
+    "docker-compatibility",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1079600/",
+  "originalSite": "lwn.net",
+  "context": "Podman is a daemonless container engine that provides a Docker-compatible command-line interface. Quadlet is a tool that allows Podman containers to be managed as systemd services using declarative unit files, simplifying deployment and lifecycle management.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Make systemd better for Podman with Quadlet",
+      "url": "https://www.redhat.com/en/blog/quadlet-podman"
+    },
+    {
+      "title": "podman -systemd.unit — Podman documentation",
+      "url": "https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

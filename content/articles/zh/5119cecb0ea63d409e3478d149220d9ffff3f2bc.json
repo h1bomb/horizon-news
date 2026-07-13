@@ -1,0 +1,44 @@
+{
+  "id": "5119cecb0ea63d409e3478d149220d9ffff3f2bc",
+  "canonicalId": "2fe596a53c88ae6abd8b0c9f7eea0687ee73365f",
+  "slug": "自定义-cutlass-内核修复-sm120-moe-gemm-瓦片使-qwen35-397b-在-4x-rtx-pro-6000-blackwell-上的推理速度从-55-提升至-282-toks",
+  "date": "2026-03-15",
+  "publishedAt": "2026-03-15T00:00:00Z",
+  "lang": "zh",
+  "title": "自定义 CUTLASS 内核修复 SM120 MoE GEMM 瓦片，使 Qwen3.5-397B 在 4x RTX PRO 6000 Blackwell 上的推理速度从 55 提升至 282 tok/s",
+  "summary": "一名开发者构建了自定义 CUTLASS 内核，修复了 SM120 Blackwell GPU 中 MoE GEMM 瓦片的一个 bug——这些瓦片原本是为拥有 228KB 共享内存的数据中心 B200 GPU 设计的，而非仅有 99KB 共享内存的工作站 GPU。该补丁使 K=64 瓦片形状能够正确编译和运行，将 Qwen3.5-397B 在 4x RTX PRO 6000 Blackwell GPU 上的推理速度从每秒 55 个 token 提升至 282 个 token。 这项优化显著提升了 Qwen3.5-397B 等大型混合专家模型在消费级和工作站级 Blackwell GPU 上的实际可用性，可能使高性能本地推理更加普及。它解决了一个关键瓶颈：SM120 GPU 此前被迫使用缓慢的备用内核，导致超过 50%的吞吐量未被利用。 该修复专门修补了 CUTLASS 中的`sm120_blockscaled_mma_builder.inl`文件，通过计算`EffBlk_SF = min(K/SFVectorSize, Blk_SF)`来处理 K<128 的情况，并在缩放因子超过 MMA 要求时将其折叠到基本块中。开发者已向 FlashInfer 提交了拉取请求，并提供了预构建的 Docker 镜像供他人使用。",
+  "score": 8,
+  "tags": [
+    "GPU Optimization",
+    "CUTLASS",
+    "MoE Models",
+    "Inference Speed",
+    "Blackwell Architecture"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 14, 18:46"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rtrdsv/55_282_toks_how_i_got_qwen35397b_running_at_speed/",
+  "originalSite": "reddit.com",
+  "context": "CUTLASS 是 NVIDIA 的 CUDA 线性代数子程序模板库，为 GPU 加速提供高性能的 GEMM（通用矩阵乘法）内核实现。像 Qwen3.5-397B 这样的混合专家模型使用专门的 MoE GEMM 瓦片，通过将输入路由到不同的专家网络来优化计算。SM120 指的是 Blackwell 架构 GPU（如 RTX PRO 6000）的计算能力，这些 GPU 拥有 99KB 的共享内存，而数据中心 B200 GPU 则有 228KB。",
+  "discussion": "社区评论赞扬了 K=64 瓦片修复的技术深度，用户指出大多数人会责怪 vLLM 等框架，而非追溯到 CUTLASS 的假设问题。讨论内容包括：关于在配备多块 5060/5070 Ti GPU 的更普通设置上的可扩展性问题、涉及 AMD Threadripper 系统需要`iommu=pt`内核参数的硬件兼容性担忧，以及对在 DGX Spark 系统上潜在验证的兴奋之情。",
+  "references": [
+    {
+      "title": "GitHub - NVIDIA/cutlass: CUDA Templates and Python DSLs for High-Performance Linear Algebra · GitHub",
+      "url": "https://github.com/NVIDIA/cutlass"
+    },
+    {
+      "title": "Accelerating MoE’s with a Triton Persistent Cache-Aware Grouped GEMM Kernel – PyTorch",
+      "url": "https://pytorch.org/blog/accelerating-moes-with-a-triton-persistent-cache-aware-grouped-gemm-kernel/"
+    },
+    {
+      "title": "Blackwell Architecture support? · flashinfer-ai · Discussion #1464",
+      "url": "https://github.com/orgs/flashinfer-ai/discussions/1464"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

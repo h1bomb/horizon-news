@@ -1,0 +1,44 @@
+{
+  "id": "264cdfb84095ad769267ec91400fa37f3b1d09dc",
+  "canonicalId": "efd7e8780800364eacf55211d6b2fe194963062c",
+  "slug": "asahi-linux-70-major-audio-driver-breakthrough",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-26T10:50:00Z",
+  "lang": "en",
+  "title": "Asahi Linux 7.0: Major Audio Driver Breakthrough",
+  "summary": "Asahi Linux's 7.0 progress report details major advancements in audio driver support for Apple Silicon Macs, achieved through extensive reverse engineering of the CS42L84 audio codec. This progress brings Linux on Apple Silicon closer to full hardware support, enabling high-quality audio output and input on Macs that Apple does not officially support for Linux. The team reverse-engineered the CS42L84 codec, which is similar to the documented CS42L42, and added support for 48 and 96 kHz sample rates, with potential for more rates in the future.",
+  "score": 9,
+  "tags": [
+    "Asahi Linux",
+    "Apple Silicon",
+    "Linux kernel",
+    "reverse engineering",
+    "audio drivers"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "elisaado"
+    }
+  ],
+  "originalUrl": "https://asahilinux.org/2026/04/progress-report-7-0/",
+  "originalSite": "asahilinux.org",
+  "context": "Asahi Linux is a volunteer-driven project that ports Linux to Apple Silicon Macs by reverse-engineering undocumented hardware. Apple does not provide official documentation or support for running Linux on its M-series chips, making this work crucial for the open-source community.",
+  "discussion": "Commenters expressed admiration for the technical achievement but some voiced concerns about the project remaining separate from the kernel mainline and mainstream distributions. Others hoped Apple would eventually provide documentation to ease the effort.",
+  "references": [
+    {
+      "title": "Asahi Linux",
+      "url": "https://asahilinux.org/"
+    },
+    {
+      "title": "Asahi linux project",
+      "url": "https://en.wikipedia.org/wiki/Asahi_linux_project"
+    },
+    {
+      "title": "Asahi Linux M2 Microphone: Reverse Engineering Apple Silicon | by Can Artuc | Medium",
+      "url": "https://canartuc.medium.com/asahi-linux-m2-microphone-reverse-engineering-apple-silicon-69d96cc886a6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

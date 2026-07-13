@@ -1,0 +1,44 @@
+{
+  "id": "20bd928133b40fb2b04a8b23b717658d2fd43eb0",
+  "canonicalId": "ce3429beee05c51338bbcf4f41f1497646fc0e13",
+  "slug": "macinai-local-在-2002-年-powerbook-g4-上运行-tinyllama-11b采用自定义-c89-推理引擎和-altivec-优化",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-21T00:00:00Z",
+  "lang": "zh",
+  "title": "MacinAI Local 在 2002 年 PowerBook G4 上运行 TinyLlama 1.1B，采用自定义 C89 推理引擎和 AltiVec 优化。",
+  "summary": "一位开发者发布了 MacinAI Local，这是一个自定义的本地 AI 推理平台，可在 2002 年的经典 Macintosh 硬件（如运行 Mac OS 9 的 PowerBook G4）上原生运行 TinyLlama 1.1B 等现代语言模型，无需互联网连接。该平台采用从头编写的 C89 推理引擎，AltiVec SIMD 优化实现了 7.3 倍加速，并具备磁盘分页内存管理功能。 该项目通过在现代 AI 模型上运行过时硬件，展示了重要的技术创新，推动了复古计算和 AI 优化的边界。它强调了巧妙的工程如何延长旧系统的使用寿命，并在资源受限的环境中激发新的应用。 该平台是模型无关的，通过 Python 导出脚本支持 GPT-2、TinyLlama、Qwen 和其他 HuggingFace/LLaMA 架构模型，并包含一个在 Macintosh 特定文本上训练的 100M 参数自定义 Transformer。关键优化包括 AltiVec SIMD 在 PowerPC G4 上实现 7.3 倍加速，通过 Q8 量化将令牌生成时间从 2.4 秒减少到 0.33 秒，以及磁盘分页以处理超出可用 RAM 的模型。",
+  "score": 8,
+  "tags": [
+    "retro-computing",
+    "ai-inference",
+    "llm-optimization",
+    "classic-macos",
+    "hardware-hacking"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 20, 11:54"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/g7q59ca8v6qg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "TinyLlama 是一个基于 Llama 2 架构的紧凑型 1.1B 参数语言模型，专为在有限硬件上进行高效推理而设计。经典 Mac OS 用于 PowerPC G4 系统（如 2002 年 PowerBook），依赖 Mac Toolbox API 实现系统功能，而 AltiVec 是 PowerPC 处理器的 SIMD 指令集，可加速向量运算。复古计算项目通常涉及将 AI 模型移植到旧系统，但 MacinAI Local 以其自定义引擎和更广泛的模型支持而脱颖而出。",
+  "discussion": "社区对该项目的技术成就和复古计算吸引力给予了压倒性的赞扬，评论强调了令人印象深刻的 AltiVec 优化、巧妙的磁盘分页系统以及实用的代理 AppleScript 控制。用户表达了兴奋和怀旧之情，指出它如何以有用的方式将现代 AI 带到经典硬件上。",
+  "references": [
+    {
+      "title": "TinyLlama/TinyLlama-1.1B-Chat-v1.0 · Hugging Face",
+      "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    },
+    {
+      "title": "Macintosh Toolbox - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Macintosh_Toolbox"
+    },
+    {
+      "title": "AltiVec - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AltiVec"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

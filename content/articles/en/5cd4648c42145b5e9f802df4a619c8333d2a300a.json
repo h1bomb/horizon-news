@@ -1,0 +1,40 @@
+{
+  "id": "5cd4648c42145b5e9f802df4a619c8333d2a300a",
+  "canonicalId": "505f27631e633073cb642e0627a33538497473f5",
+  "slug": "kernel-swap-subsystem-gets-swap-tables-flash-friendly-improvements",
+  "date": "2026-05-19",
+  "publishedAt": "2026-05-18T13:16:00Z",
+  "lang": "en",
+  "title": "Kernel Swap Subsystem Gets Swap Tables, Flash-Friendly Improvements",
+  "summary": "At the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Kairui Song presented recent and upcoming enhancements to the kernel's swap subsystem, including the introduction of swap tables to reduce per-page overhead from 3-11 bytes to 2-10 bytes, and a separate session on making swapping friendlier to solid-state storage. These improvements can significantly enhance system performance and longevity of storage devices by reducing memory overhead and optimizing swap behavior for flash-based storage, which is increasingly common in modern systems. Song aims to further reduce static overhead to zero bytes and cap maximum overhead at eight bytes, but refault tracking for the memory resource controller currently prevents this. The work also includes folio-based swap helpers, better readahead support, and potential immediate dropping of pages from swap cache after writeout.",
+  "score": 8,
+  "tags": [
+    "linux kernel",
+    "swap",
+    "memory management",
+    "LSFMM",
+    "flash storage"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072657/",
+  "originalSite": "lwn.net",
+  "context": "The Linux kernel's swap subsystem moves anonymous pages from RAM to secondary storage when memory is under pressure, freeing up main memory. Historically, this subsystem has been complex and under-optimized, with per-page overhead and inefficient handling for flash storage. Recent developer interest aims to modernize swap for performance and storage device friendliness.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Swap - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Swap"
+    },
+    {
+      "title": "[PATCH v7 0/3] mm/swap: use swap_ops to register swap device's ...",
+      "url": "https://lwn.net/Articles/1072925/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

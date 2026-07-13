@@ -1,0 +1,44 @@
+{
+  "id": "c5503097f8b7447dd4ede7e2184d21cd9d020925",
+  "canonicalId": "78a651127734d600d90be35582990193d17244da",
+  "slug": "通义实验室开源影视级配音大模型-fun-cineforge首次引入时间模态",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "通义实验室开源影视级配音大模型 Fun-CineForge，首次引入时间模态",
+  "summary": "通义实验室开源了多模态配音大模型 Fun-CineForge，首次在配音模型中引入时间模态，使其在说话人面部缺失等复杂场景下仍可实现音画同步。在独白场景对比测试中，该模型在词错率、唇部同步、时间对齐、音色相似度等指标上均优于 DeepDubber-V1 和 InstructDubber。 这标志着 AI 配音技术的重大进步，可能通过在各种场景（如独白、旁白和多说话人对话）中实现更自然、同步的音频，彻底改变影视和视频制作。该模型在 GitHub、HuggingFace 和 ModelScope 三大平台开源，使开发者和研究人员能够访问这项技术，加速该领域的创新。 Fun-CineForge 基于 CosyVoice3 语音合成底层能力构建，当前支持 30 秒以内视频片段的推理。该模型支持独白、旁白、对话及多说话人等多种影视配音场景。",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "Multimodal Models",
+    "Speech Synthesis",
+    "Open Source",
+    "Computer Vision"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 16, 11:20"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/MylZJGEYgYiBS6fq53v2XQ",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "多模态模型结合不同类型的数据（如音频、视频和文本）来执行配音等复杂任务。时间模态指对数据中的时间关系进行建模，这对于同步视频中的音频和视觉元素至关重要。CosyVoice3 是阿里巴巴的先进语音合成模型，支持零样本语音克隆和多语言语音生成。DeepDubber-V1 和 InstructDubber 是现有的多模态配音模型，Fun-CineForge 在对比测试中表现优于它们。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Multi-modal Time Series Analysis: A Tutorial and Survey",
+      "url": "https://arxiv.org/pdf/2503.13709"
+    },
+    {
+      "title": "CosyVoice 3 : Scaling Towards In-the-Wild Speech ... | VOCALCopyCat",
+      "url": "https://www.vocalcopycat.com/blog/cosyvoice-3-scaling-towards-inthewild-speech-generation"
+    },
+    {
+      "title": "[2503.23660] DeepDubber-V1: Towards High Quality and Dialogue, Narration, Monologue Adaptive Movie Dubbing Via Multi-Modal Chain-of-Thoughts Reasoning Guidance",
+      "url": "https://arxiv.org/abs/2503.23660"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "d7bd527982662ad8857f0a5c0881491267f66ef8",
+  "canonicalId": "3e32de3c267b7fe35adeff4e81232367662c7389",
+  "slug": "woodruff可信发布并非可信信号",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T14:27:00Z",
+  "lang": "zh",
+  "title": "Woodruff：可信发布并非可信信号",
+  "summary": "William Woodruff 发表博客文章指出，PyPI 的可信发布不应被理解为软件包可信或质量的信号，而仅仅是一种身份验证方式。 这澄清了开发者中一个常见误解，否则可能导致对可信发布的过度依赖，影响软件供应链安全决策。 Woodruff 强调，可信发布使用 OpenID Connect（OIDC）在 CI/CD 工作流与 PyPI 之间建立身份，且 PyPI 故意避免将其显示为绿色勾选标记。",
+  "score": 8,
+  "tags": [
+    "PyPI",
+    "security",
+    "software supply chain",
+    "trusted publishing",
+    "authentication"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081690/",
+  "originalSite": "lwn.net",
+  "context": "可信发布是 PyPI 引入的一种机制，允许在不存储长期 API 令牌的情况下发布软件包。它使用 OIDC 在可信第三方服务（如 GitHub Actions）与 PyPI 之间交换短时身份令牌。该机制旨在简化发布工作流，但 Woodruff 警告不应将其与软件包可信或安全保证混为一谈。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Publishing to PyPI with a Trusted Publisher",
+      "url": "https://docs.pypi.org/trusted-publishers/"
+    },
+    {
+      "title": "Publishing with a Trusted Publisher - PyPI Docs",
+      "url": "https://docs.pypi.org/trusted-publishers/using-a-publisher/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

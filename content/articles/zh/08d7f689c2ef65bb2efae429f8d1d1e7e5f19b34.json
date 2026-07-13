@@ -1,0 +1,43 @@
+{
+  "id": "08d7f689c2ef65bb2efae429f8d1d1e7e5f19b34",
+  "canonicalId": "5a5a210e7b4834e6169dbee39c0a56d53f4c1d88",
+  "slug": "damon-子系统在-lsfmmbpf-2026-获得重大更新",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-09T00:00:00Z",
+  "lang": "zh",
+  "title": "DAMON 子系统在 LSFMM+BPF 2026 获得重大更新",
+  "summary": "SeongJae Park 介绍了 DAMON 的新功能，包括通过 TPP-DAMON 和 NUMA-TPP-DAMON 实现的内存分层、数据属性监控、透明大页支持，以及针对 CXL 内存的动态交错。 这些增强显著提高了 Linux 内存管理效率，能够更好地利用 CXL 等异构内存，并为用户空间提供更细粒度的控制。 TPP-DAMON 因单线程过慢而转向多线程模型，已合入内核 6.16，并在 6.19 中添加了控制组感知。动态交错支持多个带权重的目标节点，但仅适用于虚拟地址空间，已于 6.17 合入。",
+  "score": 8,
+  "tags": [
+    "Linux Kernel",
+    "DAMON",
+    "Memory Management",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 8, 13:20"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1071256/",
+  "originalSite": "lwn.net",
+  "context": "DAMON（数据访问监视器）是一个 Linux 内核子系统，可高效监控内存访问模式并提供相应的内存管理操作。它生成一个内核线程，每 5ms 采样一次访问，每 100ms 报告结果，开销低于 0.1%。内存分层是指根据访问频率将数据放置在不同类型的内存（如 RAM 和 CXL）中。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DAMON: Data Access MONitoring and Access-aware System Operations",
+      "url": "https://docs.kernel.org/mm/damon/index.html"
+    },
+    {
+      "title": "DAMON: Data Access Monitor | DAMON Project Website",
+      "url": "https://damonitor.github.io/"
+    },
+    {
+      "title": "Memory hierarchy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Memory_hierarchy"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "e85ba39a04e02dffb68be754beee78d401cc3aa4",
+  "canonicalId": "321916ad606cfd351eaa84fdad2aa9299835e626",
+  "slug": "chrome-删除设备端-ai-不向-google-发送数据声明",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Chrome 删除“设备端 AI 不向 Google 发送数据”声明",
+  "summary": "谷歌 Chrome 从其设备端 AI 功能页面删除了一项声明，该声明此前声称 AI 不会向 Google 服务器发送数据，引发了隐私担忧。 这一变化破坏了用户对谷歌隐私承诺的信任，并暗示设备端 AI 可能并不像宣传的那样保护隐私，可能影响依赖其集成 AI 功能的数百万 Chrome 用户。 删除行为在 Chrome AI 创新页面上被注意到，社区成员怀疑这可能表明数据传输。谷歌的企业政策声明，数据可能被发送到谷歌以使 AI 功能正常工作，但不会用于改进模型或广告。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "Chrome",
+    "AI",
+    "Google",
+    "data collection"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 7, 15:56",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48050964"
+    }
+  ],
+  "originalUrl": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
+  "originalSite": "old.reddit.com",
+  "context": "设备端 AI 是指在用户本地设备上运行的 AI 模型，理论上处理数据无需发送到外部服务器。Chrome 一直在引入此类功能，包括一个静默下载的 4GB AI 模型，这已经引发了隐私和同意方面的争论。",
+  "discussion": "Reddit 和 Hacker News 社区表达了强烈的怀疑，许多人认为 AI 功能主要用于数据收集。一些评论者认为措辞更改可能只是为了简洁，但大多数人认为这确认了数据被发送到谷歌，可能违反 GDPR。",
+  "references": [
+    {
+      "title": "AI in Chrome: help right where you need it",
+      "url": "https://www.google.com/chrome/ai-innovations/"
+    },
+    {
+      "title": "Manage on-device Generative AI models in Chrome - Google Chrome Help",
+      "url": "https://support.google.com/chrome/answer/16961953?hl=en"
+    },
+    {
+      "title": "'No clear consent flow for this download': Google Chrome is silently stashing a 4GB AI model on your device — and Google just responded | Tom's Guide",
+      "url": "https://www.tomsguide.com/ai/check-your-storage-chrome-may-be-downloading-a-4gb-ai-model-heres-what-we-know"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

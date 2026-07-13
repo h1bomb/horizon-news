@@ -1,0 +1,44 @@
+{
+  "id": "341a55e0c7af23ce9e0316d2f516e1021c54ddd9",
+  "canonicalId": "a80158216152a03a599583004dabdaf061235256",
+  "slug": "dirtyclone-linux-kernel-bug-lets-local-users-gain-root-access",
+  "date": "2026-06-28",
+  "publishedAt": "2026-06-27T08:00:00Z",
+  "lang": "en",
+  "title": "DirtyClone Linux Kernel Bug Lets Local Users Gain Root Access",
+  "summary": "Security researchers at JFrog disclosed a new Linux kernel local privilege escalation vulnerability named DirtyClone (CVE-2026-43503), which allows unprivileged local users to gain root access by exploiting a flaw in socket buffer cloning that loses the SKBFL_SHARED_FRAG flag. This vulnerability is critical because it affects widely-used Linux distributions with default unprivileged user namespaces, such as Debian, Ubuntu, and Fedora, and can be exploited without leaving kernel logs or audit traces, making it especially dangerous for multi-tenant cloud environments and Kubernetes clusters. The vulnerability was patched in Linux kernel v7.1-rc5 on May 21, 2026; mitigations include disabling unprivileged user namespaces via kernel.unprivileged_userns_clone=0 or blocking the esp4, esp6, and rxrpc kernel modules.",
+  "score": 8,
+  "tags": [
+    "linux",
+    "kernel",
+    "vulnerability",
+    "privilege-escalation",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://research.jfrog.com/post/dissecting-and-exploiting-linux-lpe-variant-dirtyclone-cve-2026-43503/",
+  "originalSite": "research.jfrog.com",
+  "context": "Socket buffers (SKBs) are used by the Linux kernel to manage network packet data. When cloning an SKB, the kernel may reuse the same data buffer to avoid copying. The SKBFL_SHARED_FRAG flag marks fragments that are shared with the page cache and should not be written to in-place. DirtyClone is a variant of the DirtyFrag family, which involves IPsec processing (ESP) that can trigger the flaw through local IPsec traffic.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-43503: Linux Kernel skb Shared Frag Flag Bug (WSL ...",
+      "url": "https://windowsforum.com/threads/cve-2026-43503-linux-kernel-skb-shared-frag-flag-bug-wsl-containers-impact.420070/"
+    },
+    {
+      "title": "RHSB-2026-003 Networking subsystem Privilege Escalation ...",
+      "url": "https://access.redhat.com/security/vulnerabilities/RHSB-2026-003"
+    },
+    {
+      "title": "New DirtyClone Linux Vulnerability Allows Attackers to Gain ...",
+      "url": "https://cybersecuritynews.com/dirtyclone-linux-vulnerability/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

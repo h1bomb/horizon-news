@@ -1,0 +1,39 @@
+{
+  "id": "9bc3161a1136a3f4c616c5b5985c518669f55a1b",
+  "canonicalId": "c714f42920ad499cbb659502d6f5e2c3dfb365f6",
+  "slug": "anthropic-partners-with-spacex-for-gpu-compute-boosts-claude-limits",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T08:19:00Z",
+  "lang": "en",
+  "title": "Anthropic Partners with SpaceX for GPU Compute, Boosts Claude Limits",
+  "summary": "Anthropic has partnered with SpaceX to use the entire compute capacity of xAI's Colossus 1 data center, gaining access to over 220,000 Nvidia GPUs and more than 300 megawatts of power within a month. As a result, Claude Code rate limits have doubled and peak-hour restrictions for Pro/Max users have been removed, while Claude Opus API rate limits have also been significantly increased. This partnership massively expands Anthropic's computational resources, enabling faster model training and higher API throughput for Claude customers. It signals a deepening collaboration between AI companies and large-scale infrastructure providers, potentially accelerating the development of advanced AI models. Colossus 1, built in a record 122 days in Memphis, Tennessee, is one of the largest AI data centers, originally used to train xAI's Grok model. Anthropic will utilize the entire facility, including over 220,000 Nvidia GPUs and 300 MW of capacity.",
+  "score": 8,
+  "tags": [
+    "算力合作",
+    "AI基础设施",
+    "NVIDIA GPU",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41259",
+  "originalSite": "t.me",
+  "context": "Anthropic develops the Claude family of large language models, used for tasks like software development via Claude Code. To train and serve these models at scale, massive computational clusters with thousands of GPUs are required. The Colossus data center, operated by xAI under SpaceX ownership, provides such infrastructure.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Anthropic to use all of SpaceX-xAI's Colossus 1 data center compute",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/"
+    },
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bf67fbb83e72fa14222ced8a02fd5875d3c5fab3",
+  "canonicalId": "9d5cf71a8f62da37f5be1d454de9cfac875c3be6",
+  "slug": "using-ai-to-write-better-code-more-slowly",
+  "date": "2026-05-26",
+  "publishedAt": "2026-05-25T23:16:00Z",
+  "lang": "en",
+  "title": "Using AI to write better code more slowly",
+  "summary": "Nolan Lawson's blog post argues that a deliberate, iterative approach to AI-assisted coding can produce higher quality code than the typical focus on speed, challenging the dominant narrative of AI coding tools. This perspective is significant because it encourages developers to rethink how they use AI in their workflows, potentially leading to better code quality and more sustainable practices in software engineering. The author describes a workflow involving multiple AI models for design, implementation, and review, emphasizing iteration and thoroughness over raw speed, and notes that tools like Claude and Codex can be used in a chain to catch corner cases.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "coding",
+    "software engineering",
+    "productivity",
+    "code quality"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "signa11",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48272984"
+    }
+  ],
+  "originalUrl": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+  "originalSite": "nolanlawson.com",
+  "context": "AI coding assistants, such as ChatGPT, Claude, and GitHub Copilot, have become popular for generating code quickly, but the quality of the output can vary significantly. This article proposes a slower, more deliberate process that leverages AI for design and review alongside human oversight.",
+  "discussion": "Comments reveal mixed experiences: some find that AI-assisted workflows become long back-and-forth processes that can exceed manual coding time, while others see value in using multiple LLMs for different stages (design, implementation, review) and believe AI can produce high-quality code when used deliberately. A few commenters express AI skepticism on ethical grounds but find code review use cases less problematic.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "09d10bded368f738ab0c5ffefaa0fe47275df280",
+  "canonicalId": "4b49585642d2633b02b7fbaa0624a3c073bb0fd5",
+  "slug": "first-public-macos-kernel-exploit-targets-apple-m5",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-14T18:25:00Z",
+  "lang": "en",
+  "title": "First public macOS kernel exploit targets Apple M5",
+  "summary": "The security research team Calif disclosed the first public macOS kernel memory corruption exploit specifically targeting Apple's M5 chip, demonstrating a critical vulnerability in the kernel. This marks a significant milestone in Apple security research as it exposes a previously unknown vulnerability in the latest M5 architecture, potentially affecting millions of devices and challenging claims of M5's security enhancements. The exploit involves kernel memory corruption, and the research report is 55 pages long. The vulnerability's survival despite MTE (Memory Tagging Extension) is a matter of curiosity, as noted in community comments.",
+  "score": 8,
+  "tags": [
+    "security",
+    "macOS",
+    "kernel",
+    "exploit",
+    "Apple M5"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "quadrige",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48139219"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+  "originalSite": "blog.calif.io",
+  "context": "Apple's M5 chip is part of the Apple Silicon family, designed with advanced security features including MTE (Memory Tagging Extension) and Neural Accelerators. Kernel memory corruption exploits are among the most severe vulnerabilities, allowing attackers to gain full system control. This is the first public exploit of its kind for M5.",
+  "discussion": "Community comments express a mix of excitement and skepticism. Some users note the lack of technical details, while others discuss the potential bounty value ($100k-$1.5M). There is also sarcastic speculation about fabricated vulnerabilities, and one user regrets buying M5 due to MIE (Mythos Integrity Engine?).",
+  "references": [
+    {
+      "title": "Apple M5 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apple_M5"
+    },
+    {
+      "title": "Apple unleashes M5, the next big leap in AI performance for Apple silicon - Apple",
+      "url": "https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

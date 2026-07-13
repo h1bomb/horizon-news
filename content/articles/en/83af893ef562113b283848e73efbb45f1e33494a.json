@@ -1,0 +1,44 @@
+{
+  "id": "83af893ef562113b283848e73efbb45f1e33494a",
+  "canonicalId": "9f754f02c536c99a940623bdf3e1a745258b0489",
+  "slug": "qwen35-08b-runs-locally-on-a-7-year-old-samsung-phone-at-12-tokenssecond",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-02T21:21:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-0.8B runs locally on a 7-year-old Samsung phone at 12 tokens/second.",
+  "summary": "A user successfully ran the newly released Qwen3.5-0.8B large language model locally on a 7-year-old Samsung Galaxy S10E smartphone, achieving an inference speed of 12 tokens per second using llama.cpp and Termux. This demonstrates that a capable, conversational AI model can now function on aging, low-end mobile hardware. This achievement highlights the rapid progress in model efficiency and compression, making advanced AI accessible on resource-constrained devices without relying on cloud services. It paves the way for more private, low-latency, and cost-effective AI applications on ubiquitous mobile hardware, potentially democratizing AI access. The phone is powered by a Qualcomm Snapdragon 855 chipset, and the performance is attributed to efficient quantization (likely Q4_0 or Q8) and the optimized NEON SIMD path within llama.cpp for ARM processors. While the model is functional, a community member noted it primarily understands English and may have limited utility in other languages.",
+  "score": 7,
+  "tags": [
+    "edge-ai",
+    "llama.cpp",
+    "model-efficiency",
+    "mobile-computing",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "HighFlyingB1rd"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/mg9ixtw58pmg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Qwen3.5 is a series of open-weight large language models from Alibaba's Qwen team, with variants ranging from small 0.6B parameter models to massive dense and mixture-of-experts (MoE) models. Llama.cpp is an open-source, C/C++-based inference engine designed to run LLMs efficiently on various hardware, including CPUs, by leveraging quantization to reduce model size and memory requirements. Termux is a terminal emulator and Linux environment application for Android that allows users to run command-line tools and software, making it a popular platform for on-device AI experimentation.",
+  "discussion": "The community expressed amazement at the progress, noting that a 0.8B model holding a coherent conversation was unexpected a year ago. Technical discussions focused on the quantization method used (Q4_0 vs. Q8), the role of NEON SIMD optimizations in achieving performance on older ARM chips, and installation details for llama.cpp. Some users shared their own test results on different phones, while others questioned the practical utility of smaller models for non-English tasks.",
+  "references": [
+    {
+      "title": "Qwen/Qwen3-8B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B"
+    },
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "How to compile LLM on Android using LLama.cpp - Medium",
+      "url": "https://medium.com/@mmonteirojs/how-to-compile-any-llm-on-android-using-llama-cpp-46885569768d"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

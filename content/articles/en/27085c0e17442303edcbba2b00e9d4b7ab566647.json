@@ -1,0 +1,40 @@
+{
+  "id": "27085c0e17442303edcbba2b00e9d4b7ab566647",
+  "canonicalId": "549d9b015fcbbb50ee39b3683efa06891e71780a",
+  "slug": "axios-npm-maintainer-account-hijacked-malicious-versions-inject-remote-access-trojans",
+  "date": "2026-04-01",
+  "publishedAt": "2026-03-31T04:10:00Z",
+  "lang": "en",
+  "title": "axios npm maintainer account hijacked, malicious versions inject remote access trojans",
+  "summary": "On March 31, 2026, security firm StepSecurity discovered that the npm maintainer account for the popular JavaScript library axios was hijacked, leading to the manual publication of two malicious versions (axios@1.14.1 and axios@0.30.4) that bypassed normal GitHub Actions CI/CD processes. These versions injected a fake dependency called plain-crypto-js to execute malicious scripts that deploy remote access trojans (RATs) on Windows, macOS, and Linux systems, connecting to specific C2 servers for remote control. This supply chain attack has significant potential impact because axios is a widely-used library with over 300 million weekly downloads, meaning countless applications and systems could be compromised. The attack bypasses standard CI/CD security measures and demonstrates how npm account hijacking can lead to widespread malware distribution, highlighting critical vulnerabilities in the JavaScript ecosystem's dependency management. The malware exhibits strong stealth capabilities by automatically deleting malicious scripts after execution and forging clean version configuration files to evade security audits. Security experts recommend developers immediately check project dependencies, downgrade to safe versions (1.14.0 or 0.30.3) if affected, and replace all keys and credentials on compromised machines.",
+  "score": 9,
+  "tags": [
+    "supply-chain-security",
+    "npm-security",
+    "javascript",
+    "malware",
+    "ci-cd-security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+  "originalSite": "stepsecurity.io",
+  "context": "axios is a popular promise-based HTTP client for JavaScript, commonly used in both browser and Node.js environments to make network requests. npm (Node Package Manager) is the default package manager for JavaScript, hosting millions of libraries that developers depend on for building applications. Supply chain attacks targeting npm packages have become increasingly common, where attackers compromise maintainer accounts or inject malicious code into dependencies to distribute malware across the ecosystem.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Axios Supply Chain Attack Exposes Developers to Hidden Malware",
+      "url": "https://cyberwarriorsmiddleeast.com/axios-supply-chain-attack-npm-malware/"
+    },
+    {
+      "title": "npm Account Takeovers are a Growing Malware Trend | Blog |",
+      "url": "https://www.endorlabs.com/learn/npm-account-takeovers-are-a-growing-malware-trend"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

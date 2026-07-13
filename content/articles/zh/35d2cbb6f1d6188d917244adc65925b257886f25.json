@@ -1,0 +1,44 @@
+{
+  "id": "35d2cbb6f1d6188d917244adc65925b257886f25",
+  "canonicalId": "2cf62abdf88b3382252aaf3129944a35824d9978",
+  "slug": "qwen35-27b-模型在双-rtx-3090-gpu-上实现-170k-上下文长度下-100-ts-的解码速度",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-02T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5 27B 模型在双 RTX 3090 GPU 上实现 170k 上下文长度下 100+ t/s 的解码速度",
+  "summary": "一位开发者使用双 RTX 3090 GPU，在 170,000 token 的上下文长度下，让稠密版的 Qwen3.5 27B 模型实现了卓越的推理性能，解码速度超过每秒 100 个 token (t/s)，预填充速度约为每秒 1500 个 token。这一成果是通过结合使用 vLLM 与张量并行、NVLink GPU 互连以及配置为预测 5 个 token 的多 token 预测 (MTP) 推测解码技术实现的。 这表明，在相对经济实惠的消费级硬件上实现大型语言模型 (LLM) 的高性能、长上下文推理是可行的，从而降低了高级 AI 应用的入门门槛。它为寻求最大化本地 LLM 部署效率的研究人员和开发者提供了一个实用的性能基准和配置指南，可能会影响社区内的硬件选择和优化策略。 该设置在同时处理 8 个请求时达到了 585 t/s 的吞吐量，并且据报道，即使在最坏情况下，解码速度也从未低于 60 t/s。关键的优化措施包括从源代码编译 vLLM，以及根据经验将 MTP 设置为预测 5 个 token，因为超过 5 会导致明显的速度下降，而平均接受长度并未增加。",
+  "score": 8,
+  "tags": [
+    "LLM Inference",
+    "Performance Optimization",
+    "vLLM",
+    "Qwen",
+    "GPU Acceleration"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 1, 22:07"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/kkbjdu2x6img1",
+  "originalSite": "v.redd.it",
+  "context": "vLLM 是一个用于 LLM 的高吞吐量、内存高效的推理和服务引擎。张量并行是一种将模型参数拆分到多个 GPU 上以处理更大模型或提高速度的技术，其效率受益于 NVLink 等高速 GPU 互连。多 token 预测 (MTP) 是推测解码的一种形式，模型在单次前向传播中预测多个未来的 token，这些 token 可以被验证和接受，从而加速文本生成。",
+  "discussion": "社区反应非常积极且参与度高，许多用户对双 3090 配置上的性能表示兴奋，并认为该帖子对他们自己的搭建很有用。一些用户分享了他们自己的基准测试结果以作比较，而另一些用户则询问了 VRAM 使用情况等具体实现细节。一个值得注意的反驳观点是，质疑了 Qwen 等模型生成的代码与专用代码模型相比的功能可靠性。",
+  "references": [
+    {
+      "title": "Parallelism and Scaling - vLLM",
+      "url": "https://docs.vllm.ai/en/stable/serving/parallelism_scaling/"
+    },
+    {
+      "title": "osoleve/Qwen3.5-27B-NVFP4- MTP · Hugging Face",
+      "url": "https://huggingface.co/osoleve/Qwen3.5-27B-NVFP4-MTP"
+    },
+    {
+      "title": "NVLink - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NVLink"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

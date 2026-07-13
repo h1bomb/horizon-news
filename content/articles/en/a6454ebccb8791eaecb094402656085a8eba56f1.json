@@ -1,0 +1,40 @@
+{
+  "id": "a6454ebccb8791eaecb094402656085a8eba56f1",
+  "canonicalId": "d8b661e3e11d6ef654071a001f8b43f8ea64a8ac",
+  "slug": "vllm-v0200-cuda-13-pytorch-211-flashattention-4-turboquant",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T21:02:00Z",
+  "lang": "en",
+  "title": "vLLM v0.20.0: CUDA 13, PyTorch 2.11, FlashAttention 4, TurboQuant",
+  "summary": "vLLM v0.20.0 is a major release with 546 commits from 257 contributors, introducing CUDA 13.0 as the default, upgrading to PyTorch 2.11, enabling FlashAttention 4 as the default MLA prefill backend, and adding TurboQuant 2-bit KV cache compression. This release significantly improves inference performance and memory efficiency for large language models, benefiting the entire AI/ML community by reducing hardware requirements and enabling larger model deployments. FlashAttention 4 now supports head-dim 512 and paged-KV on SM90+ GPUs, while TurboQuant delivers 4× KV cache capacity with 2-bit compression. The upgrade to PyTorch 2.11 is a breaking change for environment dependencies.",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "CUDA",
+    "PyTorch",
+    "FlashAttention"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
+  "originalSite": "github.com",
+  "context": "vLLM is a high-throughput, memory-efficient inference and serving engine for large language models (LLMs). It uses techniques like PagedAttention and continuous batching to optimize GPU memory and throughput. FlashAttention is a fast and memory-efficient attention algorithm, and KV cache compression reduces memory usage for long-context inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs · GitHub",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "title": "vLLM",
+      "url": "https://vllm.ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

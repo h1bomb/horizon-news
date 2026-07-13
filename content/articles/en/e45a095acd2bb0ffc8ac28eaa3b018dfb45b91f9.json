@@ -1,0 +1,44 @@
+{
+  "id": "e45a095acd2bb0ffc8ac28eaa3b018dfb45b91f9",
+  "canonicalId": "1f991c146d52ba405aae745596f440f0a3fd9f5b",
+  "slug": "openai-open-sources-symphony-framework-for-ai-agent-driven-project-workflow-automation",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-05T08:44:00Z",
+  "lang": "en",
+  "title": "OpenAI open-sources Symphony framework for AI agent-driven project workflow automation.",
+  "summary": "OpenAI has open-sourced the Symphony framework on GitHub, which is designed to turn project tasks into isolated, autonomous implementation runs. The framework can monitor task boards like Linear in real-time and generate AI agents to handle coding, CI testing, and code review, culminating in the safe merging of Pull Requests. This represents a significant step towards fully autonomous AI agentic workflows in software development, potentially shifting developer roles from direct supervision of coding agents to higher-level project management and strategic planning. It could dramatically increase development velocity and consistency by automating repetitive, multi-step processes. The project is currently in an engineering preview stage and is released under the permissive Apache 2.0 license. Its core is written in the Elixir programming language, and it provides a complete specification to support implementations in other languages.",
+  "score": 8,
+  "tags": [
+    "AI-agents",
+    "open-source",
+    "developer-tools",
+    "workflow-automation",
+    "OpenAI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/orgs/openai/repositories",
+  "originalSite": "github.com",
+  "context": "Agentic workflows are AI-driven processes where autonomous AI agents make decisions, take actions, and coordinate tasks with minimal human intervention. These workflows leverage core components of intelligent agents such as reasoning and planning. The Elixir programming language, used for Symphony's core, is a functional, concurrent language known for building scalable and maintainable applications, often powering systems that handle high concurrency.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "symphony /README.md at main · openai / symphony · GitHub",
+      "url": "https://github.com/openai/symphony/blob/main/README.md"
+    },
+    {
+      "title": "What are Agentic Workflows? | IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-workflows"
+    },
+    {
+      "title": "Elixir (programming language ) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

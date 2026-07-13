@@ -1,0 +1,44 @@
+{
+  "id": "c49dc096397cc8cb9e2ee1a3e794131bb74d34a2",
+  "canonicalId": "0a6fb2064a950feda53662613a1419b1b1331ea8",
+  "slug": "linux-内核中更快的-rcu-和无锁内存分配",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T13:39:00Z",
+  "lang": "zh",
+  "title": "Linux 内核中更快的 RCU 和无锁内存分配",
+  "summary": "Puranjay Mohan 在 LSFMM+BPF 2026 上介绍了改进 RCU 性能的工作，允许普通 RCU 回调在快速宽限期结束后执行，同时讨论了新的 kmalloc_nolock() 函数，该函数支持从任何内核上下文进行无锁内存分配。 这些开发通过减少内存分配延迟和加速 RCU 宽限期完成，显著提高了内核的可扩展性，使内存压力下的高性能工作负载受益。 RCU 改进涉及跟踪非快速和快速宽限期编号，以便在任一完成后允许回调运行；而 kmalloc_nolock() 则实现了无需持有锁的无锁分配。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "RCU",
+    "memory allocation",
+    "performance",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081009/",
+  "originalSite": "lwn.net",
+  "context": "读-复制-更新（RCU）是 Linux 内核中的一种同步机制，允许读者无需锁即可访问数据，而写者创建新版本。RCU 宽限期确保所有读者完成后才释放旧数据。kmalloc() 是标准内核内存分配器，但传统上需要正确的锁上下文；kmalloc_nolock() 将其扩展到任何上下文中工作。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "8. Allocating Memory - Linux Device Drivers, 3rd Edition [Book]",
+      "url": "https://www.oreilly.com/library/view/linux-device-drivers/0596005903/ch08.html"
+    },
+    {
+      "title": "Kmalloc Internals: Exploring Linux Kernel Memory Allocation",
+      "url": "http://www.jikos.cz/jikos/Kmalloc_Internals.html"
+    },
+    {
+      "title": "kmalloc()/kfree() include/linux/slab.h",
+      "url": "https://people.netfilter.org/rusty/unreliable-guides/kernel-hacking/routines-kmalloc.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

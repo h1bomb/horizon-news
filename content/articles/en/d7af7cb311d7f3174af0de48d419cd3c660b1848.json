@@ -1,0 +1,40 @@
+{
+  "id": "d7af7cb311d7f3174af0de48d419cd3c660b1848",
+  "canonicalId": "a7a951ff08a0d227554d1b59f313b38dcd4f47e5",
+  "slug": "claude-code-2191-hidden-telemetry-detects-china-region",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T10:34:00Z",
+  "lang": "en",
+  "title": "Claude Code 2.1.91 Hidden Telemetry Detects China Region",
+  "summary": "Anthropic's Claude Code version 2.1.91 includes obfuscated code that checks for Chinese timezones and proxy URLs, then encodes region information into prompts sent to the API without disclosure in changelogs. This raises serious concerns about user privacy and transparency in AI tools, as it could be used to identify unauthorized usage or model distillation without user consent, potentially undermining trust. The detection logic uses XOR obfuscation with key 91 to check for timezones Asia/Shanghai or Asia/Urumqi, and proxy URLs pointing to Chinese domains or AI labs; region data is encoded by altering the system prompt's date format and Unicode apostrophe.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "AI ethics",
+    "telemetry",
+    "claude-code",
+    "reverse-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/",
+  "originalSite": "reddit.com",
+  "context": "Claude Code is an AI coding assistant developed by Anthropic. Telemetry refers to automatic data collection, often used for diagnostics. XOR obfuscation is a simple encryption technique that scrambles code to hide its purpose. Model distillation is a technique to transfer knowledge from a large AI model to a smaller one, which can be misused for unauthorized replication.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model distillation",
+      "url": "https://en.wikipedia.org/wiki/Model_distillation"
+    },
+    {
+      "title": "XOR Obfuscation : Hiding Shellcode from Basic AV | Medium",
+      "url": "https://sid4hack.medium.com/xor-obfuscation-hiding-shellcode-from-basic-av-65940817d35a"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

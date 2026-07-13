@@ -1,0 +1,44 @@
+{
+  "id": "afbce058759cb8ba4ed9bbf16f97b47ddee2f044",
+  "canonicalId": "8ba850c144c8d6c36a7efdf0f7feb401f74ece57",
+  "slug": "深圳龙岗区公开征求支持-openclaw-opc-发展的政策措施意见",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-09T00:00:00Z",
+  "lang": "zh",
+  "title": "深圳龙岗区公开征求支持 OpenClaw & OPC 发展的政策措施意见",
+  "summary": "深圳市龙岗区人工智能（机器人）署起草了一项政策并公开征求意见，旨在为基于 OpenClaw 和 OPC 的项目提供实质性支持。拟议措施包括免费的 OpenClaw 部署服务、开放公共数据（如低空经济数据），以及为企业开发提供最高 200 万元人民币的补贴。 这是一项重要的、具体的政府举措，通过直接支持关键的开源基础设施来培育本地 AI 智能体创业生态。通过补贴、免费服务和数据访问降低创业公司的成本和技术门槛，龙岗区旨在将自己定位为 AI 创新的首选地，这可能会加速基于智能体的 AI 系统在中国的采用和发展。 该政策明确规定，对购买用于 OpenClaw 开发的数据治理、标注等服务的企业，按费用给予 50% 的补贴；对购买即插即用的“龙虾盒子”（AI NAS）硬件，按市场价给予 30% 的补贴。该举措明确以将龙岗打造为“智能体创业首选地”为目标。",
+  "score": 8,
+  "tags": [
+    "AI Policy",
+    "Government Subsidies",
+    "Open Source AI",
+    "Regional Development",
+    "AI Infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 8, 08:43"
+    }
+  ],
+  "originalUrl": "https://www.lg.gov.cn/lgjqrs/gkmlpt/content/12/12672/post_12672990.html",
+  "originalSite": "lg.gov.cn",
+  "context": "OpenClaw 是一个开源的个人 AI 助手框架，在 2026 年初开始流行。OPC 很可能指的是 OPC UA（统一架构）工业通信协议，这是工业自动化中安全数据交换的关键标准，并越来越多地与 AI 系统集成用于工业 AI 应用。AI NAS（网络附加存储）是专为本地运行 AI 应用设计的硬件，通常配备 GPU 或 NPU 以加速处理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenClaw - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenClaw"
+    },
+    {
+      "title": "Feeding OPC UA data to AI models – OPC Connect",
+      "url": "https://opcconnect.opcfoundation.org/2025/09/feeding-opc-ua-data-to-ai-models/"
+    },
+    {
+      "title": "TS-AI642 | 6-Bay Tower AI NAS with 8-Core Processor, GPU ...",
+      "url": "https://www.qnap.com/en-us/product/ts-ai642"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

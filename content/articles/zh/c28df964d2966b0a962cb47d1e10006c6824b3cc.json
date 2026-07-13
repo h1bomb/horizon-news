@@ -1,0 +1,45 @@
+{
+  "id": "c28df964d2966b0a962cb47d1e10006c6824b3cc",
+  "canonicalId": "daab0f83a22dcf2d7a1a97a08727556ee17d6391",
+  "slug": "构建可靠-ai-代理的-apache-burr-框架",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T15:01:00Z",
+  "lang": "zh",
+  "title": "构建可靠 AI 代理的 Apache Burr 框架",
+  "summary": "Apache Burr 已被纳入 Apache 孵化器，成为一个新的开源框架，旨在通过状态机方法构建可靠、有状态的 AI 代理。 随着 AI 代理日益普及，Burr 提供了一个结构化的、可观测的基础，帮助开发者构建可信赖且可维护的代理系统，解决了可靠性和调试方面的关键挑战。 Burr 是一个无依赖的 Python 框架，内置实时监控和追踪的 UI，并能与 LangChain、LlamaIndex 等主流 LLM 框架无缝集成。",
+  "score": 8,
+  "tags": [
+    "AI agents",
+    "workflow framework",
+    "Apache",
+    "Python",
+    "state machine"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "anhldbk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48477400"
+    }
+  ],
+  "originalUrl": "https://burr.apache.org/",
+  "originalSite": "burr.apache.org",
+  "context": "AI 代理是使用大语言模型进行推理、规划和执行任务的自主系统。状态机提供了一种形式化的方法，将代理行为建模为一系列状态和转换，使系统更易于理解和调试。Apache Burr 利用这一概念，为构建和管理复杂的代理工作流提供了一个可靠的框架。",
+  "discussion": "社区讨论中对代理框架看法不一：部分用户认为 Burr 在有状态工作流和可观测性方面很有用，而另一些则质疑此类框架的必要性，并将其与 Bedrock Serverless 等替代方案进行比较。也有人对过度使用 Python 装饰器进行流程控制表示担忧。",
+  "references": [
+    {
+      "title": "Apache Burr",
+      "url": "https://burr.apache.org/"
+    },
+    {
+      "title": "GitHub - apache / burr : Build applications that make decisions...",
+      "url": "https://github.com/apache/burr"
+    },
+    {
+      "title": "apache / burr | DeepWiki",
+      "url": "https://deepwiki.com/apache/burr"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

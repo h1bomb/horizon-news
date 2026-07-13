@@ -1,0 +1,48 @@
+{
+  "id": "d3e5fbc742854e8e3c12f2fdc9c887e547713b65",
+  "canonicalId": "4d12693078052266d1f9247604d2118a146b77c5",
+  "slug": "openai-收购-python-工具-uvruff-和-ty-背后的公司-astral",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-20T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 收购 Python 工具 uv、ruff 和 ty 背后的公司 Astral",
+  "summary": "OpenAI 于 2026 年 3 月 19 日宣布，已达成协议收购 Astral，该公司是流行开源 Python 工具 uv、ruff 和 ty 的幕后推手。Astral 团队将加入 OpenAI 的 Codex 团队，OpenAI 计划在交易完成后继续支持 Astral 的开源产品。 此次收购标志着 Python 生态系统的重大转变，因为 OpenAI 获得了对三个日益关键、被数百万开发者使用的工具的控制权。这可能会加速 OpenAI 在 Codex 和 AI 辅助软件开发方面的工作，同时也引发了关于这些开源项目在企业所有权下未来的疑问。 此次收购似乎既是人才收购也是产品收购，Astral 团队包括像 BurntSushi 这样的顶级 Rust 工程师。虽然两家公司都承诺继续提供开源支持，但 OpenAI 的公告强调将利用 Astral 的专业知识来加速 Codex 的开发，而 Codex 是一个基于 Rust 的 CLI 工具。",
+  "score": 9,
+  "tags": [
+    "OpenAI",
+    "Python",
+    "Open Source",
+    "Acquisition",
+    "Developer Tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 19, 16:45"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Astral 是一家为 Python 构建高性能开发工具的公司，其产品包括 uv（一个用 Rust 编写的极速 Python 包和项目管理器）、ruff（同样用 Rust 编写的快速 Python 代码检查器和格式化工具）以及 ty（一个用于类型检查的 Python 工具）。这些工具已成为现代 Python 开发的基础，其中 uv 解决了 Python 复杂的环境管理问题，而 ruff 的性能比传统检查器快 10-100 倍。OpenAI 的 Codex 是一个可以从自然语言描述生成代码的 AI 系统，而 Codex CLI 是一个用于与此系统交互的 Rust 应用程序。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI to acquire Astral",
+      "url": "https://openai.com/index/openai-to-acquire-astral/"
+    },
+    {
+      "title": "Astral: High-performance Python tooling",
+      "url": "https://astral.sh/"
+    },
+    {
+      "title": "GitHub - astral-sh/uv: An extremely fast Python package and project manager, written in Rust. · GitHub",
+      "url": "https://github.com/astral-sh/uv"
+    },
+    {
+      "title": "Ruff - Astral Docs",
+      "url": "https://docs.astral.sh/ruff/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

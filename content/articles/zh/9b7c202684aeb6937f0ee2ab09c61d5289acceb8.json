@@ -1,0 +1,44 @@
+{
+  "id": "9b7c202684aeb6937f0ee2ab09c61d5289acceb8",
+  "canonicalId": "4c21ff678b321d6dc01d7d7102fa8cee5a443eea",
+  "slug": "qwen36-35b-通过优化的智能体框架在代码生成任务中达到与云端模型竞争的水平",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.6-35B 通过优化的智能体框架在代码生成任务中达到与云端模型竞争的水平",
+  "summary": "当与'小码农'智能体框架配合使用时，Qwen3.6-35B 模型在 Aider Polyglot 基准测试中取得了 78.7%的成功率，进入公开排行榜前十名，使其在代码生成任务中能够与领先的云端模型竞争。这相比早期框架配置下同一模型仅获得 19.11%和 45.56%的成功率有了显著提升。 这表明框架设计对基准测试结果有重大影响，意味着本地模型与云端模型之间的性能差距可能部分源于'框架不匹配'而非模型本身能力不足。这些发现挑战了传统的基准测试方法，并突显了优化的智能体框架如何能让较小的本地模型与较大的云端替代方案竞争，从而可能减少对昂贵云服务的依赖。 '小码农'框架是专门围绕较小本地模型的行为特征重新设计的，尽管内容中未详细说明具体的技术修改。基准测试结果特指 Aider Polyglot 代码基准测试，该测试通过 Exercism 的 225 个挑战性问题评估模型在六种编程语言中编辑代码的能力。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Benchmarking",
+    "AI Agents",
+    "Local Models",
+    "Code Generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 22, 11:22"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ssilc3/qwen3635b_becomes_competitive_with_cloud_models/",
+  "originalSite": "reddit.com",
+  "context": "Qwen3.6-35B 是阿里巴巴通义千问团队开发的 350 亿参数语言模型，专为代码生成和通用语言任务设计，注重稳定性和实际应用价值。智能体框架是围绕 AI 模型构建的结构化框架，提供上下文、工具和工作流管理，以实现更复杂的多步骤任务。Aider Polyglot 基准测试通过具有挑战性的编程问题，评估大型语言模型在 C++、Go、Java、JavaScript、Python 和 Rust 六种编程语言中的编码能力。",
+  "discussion": "社区成员对这些发现表达了兴奋和担忧，有人将性能提升描述为'令人震惊'，因为这质疑了不控制框架设计的基准测试的有效性。几位用户确认了在其他智能体框架（如 pi.dev）中的类似体验，指出工具和环境对于本地模型实现竞争性性能正变得几乎与模型本身同等重要。",
+  "references": [
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B - Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+    },
+    {
+      "title": "Agent scaffolding: Architecture, types and enterprise",
+      "url": "https://zbrain.ai/agent-scaffolding/"
+    },
+    {
+      "title": "Aider Polyglot | Epoch AI",
+      "url": "https://epoch.ai/benchmarks/aider-polyglot"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

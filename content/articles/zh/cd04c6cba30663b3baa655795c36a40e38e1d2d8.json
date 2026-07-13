@@ -1,0 +1,45 @@
+{
+  "id": "cd04c6cba30663b3baa655795c36a40e38e1d2d8",
+  "canonicalId": "f11ba7bcf0b5251f7cb2eed01f52dcb1f2c36400",
+  "slug": "从-tailwind-转向语义化-css",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-17T00:00:00Z",
+  "lang": "zh",
+  "title": "从 Tailwind 转向语义化 CSS",
+  "summary": "Julia Evans 讲述了她决定放弃 Tailwind CSS，转而采用更具语义化、结构化的 CSS 方法，并分享了在这一过程中学到的原则。 这篇文章加剧了 utility-first CSS 与语义化 CSS 之间的持续争论，为正在重新评估 CSS 方法论以追求更好可维护性和可访问性的开发者提供了实用见解。 Evans 强调在样式化之前应从语义化 HTML 标记开始，并指出像 Tailwind 这样的 utility-first 框架颠倒了这一顺序，可能会损害可访问性。",
+  "score": 8,
+  "tags": [
+    "CSS",
+    "Tailwind CSS",
+    "frontend",
+    "web development",
+    "semantic HTML"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 16, 09:14",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48158400"
+    }
+  ],
+  "originalUrl": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+  "originalSite": "jvns.ca",
+  "context": "以 Tailwind 为代表的 utility-first CSS 依赖大量小型、单一用途的类来实现快速样式化。相比之下，像 BEM 这样的语义化 CSS 方法论使用与内容含义相关的描述性类名。两者之间的选择通常涉及开发速度、可读性和长期可维护性之间的权衡。",
+  "discussion": "评论者意见不一：一些人称赞 Tailwind 消除了临时类命名，而另一些人则认为它颠倒了正确的 HTML 结构。许多人赞赏 Evans 诚实、探索性的写作风格，一些人则建议使用 CSS Modules 等替代方案。",
+  "references": [
+    {
+      "title": "What is Utility-First CSS?: HeydonWorks",
+      "url": "https://heydonworks.com/article/what-is-utility-first-css/"
+    },
+    {
+      "title": "The evolution of scalable CSS, Part 4: Methodologies and ...",
+      "url": "https://andreipfeiffer.dev/blog/2022/scalable-css-evolution/part4-methologies-and-semantics"
+    },
+    {
+      "title": "GitHub - HonzaMikula/Semantic-CSS: Semantic CSS methodology",
+      "url": "https://github.com/HonzaMikula/Semantic-CSS"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

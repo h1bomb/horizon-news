@@ -1,0 +1,44 @@
+{
+  "id": "df0c5bd5e64c90cd0cd80e060c17b9f0e06403ca",
+  "canonicalId": "29530e98bb4f4272bb3a231f50040735372a3e4a",
+  "slug": "qwen-35-08b-multimodal-model-runs-locally-in-browser-via-webgpu-and-transformersjs",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-02T17:46:00Z",
+  "lang": "en",
+  "title": "Qwen 3.5 0.8B multimodal model runs locally in browser via WebGPU and Transformers.js",
+  "summary": "A developer has created a demo that runs the Qwen 3.5 0.8B multimodal model entirely locally within a web browser using the WebGPU API and the Transformers.js library. This follows the release of the Qwen 3.5 Small model family, which includes several sizes (0.8B, 2B, 4B, 9B) designed for on-device use. This demonstrates the feasibility of running sophisticated, multimodal AI models directly on user devices without relying on cloud servers, which enhances privacy, reduces latency, and enables AI features in offline or low-connectivity scenarios. It showcases the convergence of advanced browser APIs and efficient model architectures, pushing the boundary of what's possible for on-device AI in web applications. The demo's primary performance bottleneck is the vision encoder component of the model. The developer notes that while this is a limitation, the fact that it runs at all is a significant achievement. The demo is publicly accessible online, and the specific model variant used is part of the newly released Qwen 3.5 Small collection.",
+  "score": 7,
+  "tags": [
+    "WebGPU",
+    "On-Device AI",
+    "Multimodal Models",
+    "Browser ML",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "xenovatech"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/hta9o2i95omg1",
+  "originalSite": "v.redd.it",
+  "context": "WebGPU is a modern web API that provides low-level, high-performance access to a device's Graphics Processing Unit (GPU) for general-purpose computation and graphics, enabling complex tasks like machine learning inference directly in the browser. Transformers.js is a JavaScript library from Hugging Face that ports the functionality of the popular Python transformers library to the browser, allowing pre-trained AI models to run client-side without a server. Qwen 3.5 is a series of multimodal large language models (VLMs) from Alibaba Cloud that can process and understand both text and images, with the 'Small' variants specifically optimized for efficient deployment on consumer hardware.",
+  "discussion": "The discussion includes technical insights and troubleshooting. One commenter identifies the vision encoder as a common WebGPU bottleneck and suggests an alternative approach using quantized GGUF models via llama.cpp's WebAssembly port for better performance. Other comments include a user reporting an unresponsive 'start' button in the demo, a request for the source code, and a question clarifying which specific Qwen variant was used, alongside some humorous or off-topic remarks.",
+  "references": [
+    {
+      "title": "WebGPU API - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API"
+    },
+    {
+      "title": "Transformers.js - Hugging Face",
+      "url": "https://huggingface.co/docs/transformers.js/en/index"
+    },
+    {
+      "title": "Qwen 3.5 Explained: Architecture, Upgrades Over Qwen 3, Benchmarks, and Real‑World Use Cases | by Sai Dheeraj Gummadi | Mar, 2026 | Medium",
+      "url": "https://medium.com/@gsaidheeraj/qwen-3-5-explained-architecture-upgrades-over-qwen-3-benchmarks-and-real-world-use-cases-af38b01e9888"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

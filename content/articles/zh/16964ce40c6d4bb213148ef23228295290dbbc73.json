@@ -1,0 +1,40 @@
+{
+  "id": "16964ce40c6d4bb213148ef23228295290dbbc73",
+  "canonicalId": "0d860c8f68a41b03f5635e3bc63cda2d398b79e2",
+  "slug": "令牌速度可视化工具帮助本地-llm-用户感受性能",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-11T00:00:00Z",
+  "lang": "zh",
+  "title": "令牌速度可视化工具帮助本地 LLM 用户感受性能",
+  "summary": "一位开发者创建了一个名为 tokenspeed 的网页工具，可以模拟以用户指定速度生成 token，帮助直观感受本地 LLM 的性能。该工具支持文本、代码以及推理+代码模式。 该工具解决了本地 LLM 社区的一个常见问题：抽象的 token/秒 数字很难主观理解。它通过提供直观的速度感受，帮助用户在模型和硬件选择上做出更明智的决策。 该工具既有网页演示版本，也有可本地运行的 Python 脚本。它包含一个“思考+代码”模式，可模拟类似 Qwen 等推理模型的思考过程，但部分用户指出此模式可能无法完全复现真实行为。",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "tokens-per-second",
+    "visualization",
+    "performance",
+    "tool"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 10, 15:23"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t99upf/getting_a_feel_for_how_fast_x_tokenssecond_really/",
+  "originalSite": "reddit.com",
+  "context": "Token/秒 是衡量 LLM 推理速度的常用指标，但其主观体验因场景（如聊天 vs 编程）而异。本地 LLM 爱好者经常分享性能数据，但如果没有参考点，很难判断某个速度是否“足够快”。该工具通过模拟给定速度下的输出来提供这样的参考。",
+  "discussion": "社区对该工具给予了高度赞扬，认为它是一个出色且亟需的资源。用户讨论了主观速度阈值，并对推理模拟的真实性提出了建设性意见，还有人建议设立社区展示区以防止这类项目被埋没。",
+  "references": [
+    {
+      "title": "Large language model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "title": "LLM Token Generation Speed Simulator & Benchmark | Compare",
+      "url": "https://openllmbenchmarks.com/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

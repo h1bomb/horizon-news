@@ -1,0 +1,44 @@
+{
+  "id": "100e30786afa98426cf3f53299fc50cb45729961",
+  "canonicalId": "21fce9479dd624710a28581bdf5826305ccb9074",
+  "slug": "http2-bomb-dos-attack-targets-major-web-servers",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T15:00:00Z",
+  "lang": "en",
+  "title": "HTTP/2 Bomb DoS Attack Targets Major Web Servers",
+  "summary": "Researchers have disclosed a new remote denial-of-service attack called HTTP/2 Bomb that exploits HPACK header compression and connection holding to exhaust server memory, affecting default HTTP/2 configurations in NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora. This vulnerability poses a practical threat to widely used web servers, with some servers becoming unavailable within seconds from a relatively low-bandwidth connection, and only partial fixes are currently available. A single client with a 100 Mbps home network can render some servers unusable in seconds, and on Apache httpd and Envoy, a single client can hold 32 GB of memory in about 20 seconds; NGINX fixed in 1.29.8+, Apache mod_http2 v2.0.41, while IIS, Envoy, and Pingora remain unpatched.",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "DoS",
+    "HTTP/2",
+    "web servers"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
+  "originalSite": "blog.calif.io",
+  "context": "HPACK is a compression format used in HTTP/2 to efficiently encode header fields. Unlike earlier compression algorithms, HPACK was designed to be resistant to attacks like CRIME. Slowloris is a classic DoS attack that holds many incomplete HTTP connections open to exhaust server resources. The HTTP/2 Bomb combines a HPACK compression amplification technique with connection holding similar to Slowloris, creating a new type of resource exhaustion attack.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "HPACK: the silent killer (feature) of HTTP/2",
+      "url": "https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/"
+    },
+    {
+      "title": "Slowloris (cyber attack) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Slowloris_(cyber_attack)"
+    },
+    {
+      "title": "RFC 7541 - HPACK: Header Compression for HTTP/2 | RFCinfo",
+      "url": "https://rfcinfo.com/rfc-7541/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

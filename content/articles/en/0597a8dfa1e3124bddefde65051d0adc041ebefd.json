@@ -1,0 +1,44 @@
+{
+  "id": "0597a8dfa1e3124bddefde65051d0adc041ebefd",
+  "canonicalId": "aae15c176dde2d9fab84d6a5596d4b70ccc6686c",
+  "slug": "google-research-introduces-turboquant-compressing-llm-kv-cache-to-3-bits",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T05:15:00Z",
+  "lang": "en",
+  "title": "Google Research introduces TurboQuant, compressing LLM KV cache to 3 bits",
+  "summary": "Google Research introduced TurboQuant, a vector quantization algorithm that compresses the KV cache in large language models to 3 bits without training or fine-tuning. In tests, it reduced memory usage by at least 6x and sped up attention logits computation by up to 8x on H100 GPUs while maintaining accuracy. This breakthrough addresses the critical memory bottleneck in LLM inference, potentially making large models more accessible by reducing hardware costs and energy consumption. It could accelerate the deployment of AI applications in resource-constrained environments and improve the scalability of vector search systems. TurboQuant combines two methods: PolarQuant for high-quality compression via random rotation of data vectors, and Quantized Johnson-Lindenstrauss (QJL) for dimensionality reduction. The algorithm achieves zero accuracy loss in long-context \"needle-in-a-haystack\" tests and outperforms existing methods like PQ and RabbiQ in high-dimensional vector search recall.",
+  "score": 9,
+  "tags": [
+    "AI Efficiency",
+    "Model Compression",
+    "KV Cache",
+    "Vector Quantization",
+    "Google Research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+  "originalSite": "research.google",
+  "context": "KV cache stores key-value pairs from previous tokens during LLM inference to avoid recomputation, but it consumes significant memory, especially for long sequences. Vector quantization compresses high-dimensional vectors by reducing their bit representation, but traditional methods often add overhead that limits efficiency. TurboQuant addresses this by minimizing memory overhead while maintaining compression quality.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "Key Value Cache | Continuum Labs",
+      "url": "https://training.continuumlabs.ai/inference/why-is-inference-important/key-value-cache"
+    },
+    {
+      "title": "TurboQuant Redefines AI Compression Efficiency for Large ...",
+      "url": "https://opendatascience.com/turboquant-redefines-ai-compression-efficiency-for-large-scale-models/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "09031f74fc4bf2b4023dbd0a3d53bb86acbc96bb",
+  "canonicalId": "b271cd42d0975a70c8e198d3d1e745492c9581f9",
+  "slug": "textgen-以原生桌面应用形式发布开源替代-lm-studio",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-14T00:00:00Z",
+  "lang": "zh",
+  "title": "TextGen 以原生桌面应用形式发布，开源替代 LM Studio",
+  "summary": "TextGen（原 text-generation-webui）已从 Web 界面转变为免安装、可移植的桌面应用，支持 Windows、Linux 和 macOS，采用精美的 Electron 界面，且无任何出站请求。 此次更新填补了开源本地大模型生态中的一个重要空白，提供了一个免费、私密且完全开源的替代方案，与流行的专有软件 LM Studio 形成竞争，让用户拥有更多控制权。 TextGen 提供 CUDA、Vulkan、纯 CPU、Apple Silicon/Intel 和 ROCm 的便携构建；它使用 ik_llama.cpp，提供了 LM Studio 和 Ollama 所用的原生 llama.cpp 所没有的新量化类型。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "open-source",
+    "desktop app",
+    "local AI",
+    "TextGen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 13, 13:00"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tbyyee/textgen_is_now_a_native_desktop_app_opensource/",
+  "originalSite": "reddit.com",
+  "context": "TextGen 由 oobabooga 于 2022 年 12 月创建，早于 Llama 和 llama.cpp，是最早流行的本地大语言模型 Web 界面之一。LM Studio 作为主要替代方案，同样是 Electron 应用，但属于专有软件且会收集系统信息。Electron 是一个使用 Web 技术构建跨平台桌面应用的框架。",
+  "discussion": "社区反应极为积极，用户对拥有一个私密且开源的 LM Studio 替代方案感到兴奋。许多人回忆起最初使用该项目的时光，并赞赏其持续改进；部分用户询问技术细节，如升级到 Gradio 6 或安装最新 llama.cpp。",
+  "references": [
+    {
+      "title": "LM Studio",
+      "url": "https://grokipedia.com/page/LM_Studio"
+    },
+    {
+      "title": "LM Studio: Complete Setup and Usage Guide - ML Journey",
+      "url": "https://mljourney.com/lm-studio-complete-setup-and-usage-guide/"
+    },
+    {
+      "title": "Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron",
+      "url": "https://www.electronjs.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "716e06bbbda8ae06d7bf0b4b9251102aee574026",
+  "canonicalId": "6b6be2c3c3f8b312fa8f2ab7a43488f111b58b79",
+  "slug": "wave-a-portable-gpu-isa-for-cross-vendor-kernel-deployment",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T13:36:00Z",
+  "lang": "en",
+  "title": "WAVE: A Portable GPU ISA for Cross-Vendor Kernel Deployment",
+  "summary": "A developer has open-sourced WAVE, a portable GPU instruction set architecture (ISA) and toolchain that allows a single GPU kernel to run on NVIDIA, AMD, Apple, and Intel GPUs. The project includes a compiler, thin backends for Metal, PTX, HIP, and SYCL, and PyTorch integration verified to produce identical training results across all backends. WAVE addresses the long-standing fragmentation in GPU programming by providing a single abstraction that works across major vendors, potentially reducing engineering overhead for ML and HPC applications. If widely adopted, it could simplify multi-GPU development and lower the barrier to entry for GPU computing. WAVE distills 11 hardware-invariant primitives from over 5,000 pages of vendor ISA documentation across 16 microarchitectures. The toolchain compiles kernels to a portable binary, and thin backends translate it to vendor-specific ISAs; the project has been verified on Apple M4 Pro, NVIDIA T4, and AMD MI300X GPUs.",
+  "score": 9,
+  "tags": [
+    "GPU",
+    "ISA",
+    "portability",
+    "deep learning",
+    "toolchain"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/not-your-typical-cs"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/",
+  "originalSite": "reddit.com",
+  "context": "GPU programming traditionally requires vendor-specific languages and toolchains, such as NVIDIA's CUDA and PTX, AMD's HIP, and Apple's Metal, making it difficult to write portable code. A GPU ISA defines the low-level instructions that a GPU executes, and a portable ISA can abstract away hardware differences. WAVE builds on this concept by creating a universal ISA that all major GPU vendors can target via thin backends.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "WAVE - The Universal GPU ISA | WAVE",
+      "url": "https://wave.ojima.me/"
+    },
+    {
+      "title": "ROCm - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ROCm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

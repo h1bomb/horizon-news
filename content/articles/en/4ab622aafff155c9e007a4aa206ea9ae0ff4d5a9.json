@@ -1,0 +1,44 @@
+{
+  "id": "4ab622aafff155c9e007a4aa206ea9ae0ff4d5a9",
+  "canonicalId": "2c2bfbd5de58524c6503a16a27cc861ebd4218e1",
+  "slug": "mozilla-and-anthropics-ai-collaboration-fixes-271-vulnerabilities-in-firefox-150",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-22T05:40:00Z",
+  "lang": "en",
+  "title": "Mozilla and Anthropic's AI collaboration fixes 271 vulnerabilities in Firefox 150",
+  "summary": "Mozilla collaborated with Anthropic to apply an early version of Claude Mythos Preview to Firefox, resulting in the Firefox 150 release this week that includes fixes for 271 vulnerabilities identified during this evaluation. This represents a significant application of frontier AI models for cybersecurity vulnerability detection at scale. This collaboration demonstrates that AI can give cybersecurity defenders a decisive advantage by closing the gap between machine-discoverable and human-discoverable bugs, potentially shifting the balance in favor of defenders who can now find vulnerabilities at scale and speed previously impossible. The successful identification and remediation of 271 vulnerabilities in a major browser like Firefox suggests AI-assisted security could become standard practice across the software industry. The vulnerabilities were identified using Claude Mythos Preview, Anthropic's most advanced frontier large language model announced in April 2026 as part of Project Glasswing. According to the evaluation, the model demonstrated capability equivalent to elite human security researchers, finding no category or complexity of vulnerability that humans could find that the model couldn't.",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Vulnerability Detection",
+    "Firefox",
+    "Mozilla",
+    "Cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Claude is a series of large language models developed by Anthropic, with Claude Mythos Preview being their most advanced frontier model to date. AI-powered vulnerability detection represents a significant advancement in cybersecurity, where traditional methods rely heavily on human expertise and are bottlenecked by scarce security researchers. The collaboration between Mozilla and Anthropic builds on previous work where Claude Opus 4.6 discovered 22 vulnerabilities in Firefox over two weeks, demonstrating the rapid scaling potential of AI-assisted security.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Mythos Preview",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos_Preview"
+    },
+    {
+      "title": "Partnering with Mozilla to improve Firefox’s security \\ Anthropic",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security?ref=rojo.me"
+    },
+    {
+      "title": "Anthropic and Mozilla collaborate to... | Digital Watch Observatory",
+      "url": "https://dig.watch/updates/anthropic-mozilla-uncover-firefox-vulnerabilities"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

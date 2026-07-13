@@ -1,0 +1,44 @@
+{
+  "id": "80a9ddd6b12d8d06b8cd5e62882fc1ee93516b98",
+  "canonicalId": "a7f72ea5abfe226ffd1a616e81089c2d57d9486c",
+  "slug": "minimax-m3拥有-100-万上下文窗口的开源前沿模型",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T01:23:00Z",
+  "lang": "zh",
+  "title": "MiniMax M3：拥有 100 万上下文窗口的开源前沿模型",
+  "summary": "MiniMax 于 2026 年 6 月 1 日发布了 M3，这是首个将前沿编码能力、100 万 token 上下文窗口和原生多模态能力（文本、图像、视频）整合于同一模型的开源权重模型。 M3 通过支持长上下文推理和自主智能体任务，推动了 LLM 能力的前沿，可能对编码助手、数据分析和 AI 智能体开发产生重大影响。其开源权重特性允许社区广泛访问和定制。 M3 采用稀疏注意力机制，在 100 万 token 下解码速度比标准注意力快 15.6 倍，并在智能体基准测试中优于 M2.7 和 Claude 等先前模型。该模型原生支持文本、图像和视频等多模态输入。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "LLM",
+    "coding",
+    "multimodal",
+    "context"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/dryadofelysium"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ttdiq0/minimax_m3_coding_agentic_frontier_1m_context/",
+  "originalSite": "reddit.com",
+  "context": "大型语言模型传统上上下文窗口有限（如 4K-128K token），限制了处理长文档或多步骤任务的能力。智能体 AI 指能够自主规划、使用工具并适应以达成目标的系统。MiniMax M3 将 100 万 token 上下文窗口与强大的智能体能力结合，能够一次性处理整个代码库或长时间的智能体会话。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MiniMax M3 : Complete Guide to the Open-Weight Frontier Model ...",
+      "url": "https://www.aimadetools.com/blog/minimax-m3-complete-guide/"
+    },
+    {
+      "title": "MiniMax M3 : Release Date, Sparse Attention & What to Expect",
+      "url": "https://felloai.com/minimax-m3/"
+    },
+    {
+      "title": "MiniMax M3 Developer Guide: Benchmarks & Pricing | Lushbinary",
+      "url": "https://lushbinary.com/blog/minimax-m3-developer-guide-benchmarks-pricing-msa-architecture/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

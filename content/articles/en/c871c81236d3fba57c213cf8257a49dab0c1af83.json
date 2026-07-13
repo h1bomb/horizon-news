@@ -1,0 +1,44 @@
+{
+  "id": "c871c81236d3fba57c213cf8257a49dab0c1af83",
+  "canonicalId": "e8cf87b16802fc05048479ac31b9b6c4ec31d53e",
+  "slug": "sarvam-ai-releases-30b-and-105b-parameter-open-source-llms-from-india-featuring-mixture-of-experts-architecture",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-06T17:37:00Z",
+  "lang": "en",
+  "title": "Sarvam AI releases 30B and 105B parameter open-source LLMs from India, featuring Mixture of Experts architecture.",
+  "summary": "Indian AI company Sarvam AI has released two new large language models, Sarvam-30B and Sarvam-105B, on Hugging Face. These models are built from the ground up and utilize a Mixture of Experts (MoE) architecture with sparse activation. This release marks a significant technical achievement for India's AI ecosystem, demonstrating its capability to develop large-scale, cutting-edge models. It introduces more competition and diversity into the global open-source LLM landscape, potentially offering faster inference speeds due to the efficient MoE design. The 105B model uses a top-8 + 1 shared expert routing strategy, while the 30B model uses top-6 + 1 shared, resulting in a sparse activation pattern where only a small subset of parameters (e.g., <8B for the 105B model) are active per input, which can significantly improve inference efficiency. The models are part of India's sovereign large language model initiative and represent Sarvam AI's first major ground-up model release.",
+  "score": 7,
+  "tags": [
+    "llm",
+    "mixture-of-experts",
+    "open-source",
+    "india",
+    "huggingface"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Relevant-Audience441"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/sarvamai/sarvam-105b",
+  "originalSite": "huggingface.co",
+  "context": "Mixture of Experts is a neural network architecture where the model consists of many 'expert' sub-networks, and a gating network routes each input to only a few relevant experts. This sparse activation allows the total parameter count to be very large (e.g., 105B) while keeping the computational cost per forward pass manageable, as only the activated experts are computed. Sarvam AI is an Indian AI startup founded in 2023 by Vivek Raghavan and Pratyush Kumar, focused on building language AI for Indian languages and contexts, and is backed by venture capital and government initiatives like the IndiaAI Mission.",
+  "discussion": "The community sentiment is overwhelmingly positive and supportive, celebrating India's entry into the large-scale model race. Comments highlight excitement about the technical achievement, hope for future iterations, and interest in specific details like parameter sparsity and potential inference speed. There are also practical requests, such as for GGUF format conversions and questions about the model's censorship policies.",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Sarvam AI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sarvam_AI"
+    },
+    {
+      "title": "Five new sovereign AI models signal India’s bold leap at AI",
+      "url": "https://www.forbesindia.com/article/ai-tracker/five-new-sovereign-ai-models-signal-indias-bold-leap-at-ai-summit/2991615/1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

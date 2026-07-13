@@ -1,0 +1,40 @@
+{
+  "id": "b46d6daaf5eadddece825aa08f8f8890bcf17d9c",
+  "canonicalId": "720a6826a076adde44ae8d15e61c695db36dd814",
+  "slug": "shopify-的-river-代理将-slack-转变为公开教学工坊",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-12T00:00:00Z",
+  "lang": "zh",
+  "title": "Shopify 的 River 代理将 Slack 转变为公开教学工坊",
+  "summary": "Shopify 首席执行官 Tobias Lütke 透露，其内部 AI 编码代理 River 只能在公共 Slack 频道中使用，而非通过私信，从而将每次交互转变为所有员工透明学习的机会。 这种方法创建了一种'Lehrwerkstatt'（教学工坊）文化，使员工通过观察彼此与 AI 代理的协作实现渗透式学习，可能成为组织内协作式 AI 集成的典范。 在过去 30 天内，5,938 名员工在 4,450 个频道中使用了 River，且 River 创作了 Shopify 八分之一的合并拉取请求。该代理处理从代码审查到拉取请求创建的任务，但拒绝私信，并引导用户使用公共频道。",
+  "score": 8,
+  "tags": [
+    "AI coding assistant",
+    "collaborative learning",
+    "transparency",
+    "software engineering",
+    "internal tool"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 11, 15:46"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Shopify 开发了 River 作为集成在 Slack 中的内部 AI 编码代理。仅限公共操作的约束旨在创造一个透明环境，让员工通过观察彼此的交互来学习，类似于 Midjourney 早期的公共 Discord 频道帮助用户通过共享实验学习提示工程的方式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Building a Public AI Agent Workspace for Organizational Learning",
+      "url": "https://www.zenml.io/llmops-database/building-a-public-ai-agent-workspace-for-organizational-learning"
+    },
+    {
+      "title": "Shopify's River agent system lives in Slack and can only be ...",
+      "url": "https://x.com/simonw/status/2053529689122328947"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

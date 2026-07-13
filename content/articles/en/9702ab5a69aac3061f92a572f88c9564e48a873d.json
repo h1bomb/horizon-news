@@ -1,0 +1,41 @@
+{
+  "id": "9702ab5a69aac3061f92a572f88c9564e48a873d",
+  "canonicalId": "a02d6889aacca173938d5432979788eb3c6da4a8",
+  "slug": "ai2-releases-emo-1b-active-moe-with-document-level-routing",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-08T20:57:00Z",
+  "lang": "en",
+  "title": "AI2 Releases EMO: 1B-Active MoE with Document-Level Routing",
+  "summary": "AI2 (Allen Institute for AI) has released EMO, a novel Mixture-of-Experts model with 1 billion active parameters out of 14 billion total, trained on 1 trillion tokens. The key innovation is document-level routing, where experts are clustered by domain (e.g., health, news) rather than by token-level surface patterns. This release demonstrates a promising direction in MoE design that could lead to more interpretable and domain-specialized models. If effective, it could enable efficient deployment by activating only relevant experts based on the input domain, potentially improving performance and reducing computation. EMO is an experimental model (not a final production model), having only undergone 1 trillion tokens of pretraining. The document-level routing mechanism clusters experts around domains like health and news, contrasting with typical MoE routing that learns token-level patterns.",
+  "score": 8,
+  "tags": [
+    "MoE",
+    "AI2",
+    "EMO",
+    "domain-specific routing",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "ghostderp",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7kgy4/new_moe_from_ai2_emo/"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/zonmo2y79zzg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Mixture of Experts (MoE) is a machine learning technique where multiple expert networks are each specialized in different parts of the data space; a gating network determines which experts to use per input. Traditional MoE routers operate at the token level, but document-level routing groups experts by domain, which could lead to more coherent expertise and easier interpretability.",
+  "discussion": "The community reacted positively, with praise for AI2's consistent quality ('Allen AI does some great work') and excitement for the MoE direction hinted at earlier. Some noted it's an experimental model and wondered about its performance compared to others, with one user suggesting a smaller 200M active variant could be interesting.",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

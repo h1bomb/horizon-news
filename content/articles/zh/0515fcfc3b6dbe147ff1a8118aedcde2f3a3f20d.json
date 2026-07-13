@@ -1,0 +1,40 @@
+{
+  "id": "0515fcfc3b6dbe147ff1a8118aedcde2f3a3f20d",
+  "canonicalId": "a0c1fa5155c4115ae692865690c53ee1e88e161d",
+  "slug": "加州集体诉讼指控-openai-未经同意共享用户数据",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "加州集体诉讼指控 OpenAI 未经同意共享用户数据",
+  "summary": "一起在加州提起的集体诉讼指控 OpenAI 未经适当同意，通过 Meta Pixel 和 Google Analytics 将用户的聊天查询及邮箱、用户 ID 等个人信息分享给 Meta 和 Google。 这起诉讼凸显了 AI 行业中的严重隐私问题：用户与 AI 系统的互动可能被第三方分析工具在未获明确同意的情况下追踪。如果诉讼成功，可能为 AI 公司如何处理用户数据以及跟踪技术的使用树立先例。 诉状指控违反加州《隐私侵犯法》和《电子通信隐私法》，并指出 OpenAI 尚未回应置评请求。据称，数据共享是通过嵌入在 ChatGPT 界面中的 Meta Pixel 和 Google Analytics 跟踪代码进行的。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "OpenAI",
+    "lawsuit",
+    "data-sharing",
+    "regulation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 15, 03:45"
+    }
+  ],
+  "originalUrl": "https://futurism.com/artificial-intelligence/openai-personal-information-meta-google",
+  "originalSite": "futurism.com",
+  "context": "Meta Pixel（原 Facebook Pixel）是一种 JavaScript 跟踪代码，用于监测用户在网站上的行为，以实现广告和分析目的；Google Analytics 是一种网络分析服务，用于跟踪和报告流量。这两种工具被广泛使用，但曾因隐私合规问题（包括违反 GDPR）而受到审查。加州的集体诉讼通常针对涉嫌违反州隐私法的行为寻求赔偿和禁令。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Meta Pixel",
+      "url": "https://en.wikipedia.org/wiki/Meta_Pixel"
+    },
+    {
+      "title": "Google Analytics",
+      "url": "https://en.wikipedia.org/wiki/Google_Analytics"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

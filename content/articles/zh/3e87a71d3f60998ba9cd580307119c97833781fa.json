@@ -1,0 +1,44 @@
+{
+  "id": "3e87a71d3f60998ba9cd580307119c97833781fa",
+  "canonicalId": "9cc16c631a3787f7a44b54f0f951c50ba504abf8",
+  "slug": "在-linux-峰会上提出基于-bpf-的自定义页缓存驱逐策略",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-23T00:00:00Z",
+  "lang": "zh",
+  "title": "在 Linux 峰会上提出基于 BPF 的自定义页缓存驱逐策略",
+  "summary": "Tal Zussman 在 2026 年 Linux 存储、文件系统、内存管理和 BPF 峰会上提出了 cache_ext，这是一个基于 BPF 的系统，允许从用户空间加载自定义的页缓存驱逐策略，无需修改内核。 这使得诸如金融数据库之类的工作负载能够通过针对其特定访问模式定制页缓存驱逐来避免颠簸，从而在不使用应用程序级缓存或直接 I/O 的情况下提高性能。 cache_ext 实现为 BPF struct_ops 程序，具有用于 folio 添加、移除、访问和驱逐请求的回调，并附加到控制组以管理每工作负载策略。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "BPF",
+    "page cache",
+    "memory management",
+    "storage"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 22, 14:37"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073103/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核的页缓存使用 LRU（最近最少使用）或多代 LRU 算法来管理 folio，但这些通用策略对于某些工作负载可能不是最优的。eBPF 是一种允许在运行时安全高效地扩展内核功能而无需修改内核源代码或加载模块的技术。该提案受 sched_ext 启发，后者通过 BPF 启用自定义 CPU 调度策略。",
+  "discussion": "在会议期间，Vlastimil Babka 质疑为什么现有的两次访问启发式方法在这种情况下失效，Zussman 解释并发扫描会欺骗它。Shakeel Butt 询问该接口是否可以管理所有内存而不仅仅是页缓存；Zussman 表示目前他专注于文件支持的内存。",
+  "references": [
+    {
+      "title": "Multi-generational LRU: the next generation [LWN.net]",
+      "url": "https://lwn.net/Articles/856931/"
+    },
+    {
+      "title": "eBPF - Introduction, Tutorials & Community Resources",
+      "url": "https://ebpf.io/"
+    },
+    {
+      "title": "An Introduction to Folios | linux - Oracle Blogs",
+      "url": "https://blogs.oracle.com/linux/intro-to-folios"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

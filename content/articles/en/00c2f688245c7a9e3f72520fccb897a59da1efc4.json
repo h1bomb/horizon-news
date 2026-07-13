@@ -1,0 +1,37 @@
+{
+  "id": "00c2f688245c7a9e3f72520fccb897a59da1efc4",
+  "canonicalId": "db53ad488431a729d7085f410c2f1b6e381ad296",
+  "slug": "tikz-editor-wysiwyg-tool-for-latex-figures",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T14:24:00Z",
+  "lang": "en",
+  "title": "TikZ Editor: WYSIWYG Tool for LaTeX Figures",
+  "summary": "An open-source WYSIWYG editor for TikZ figures has been released, allowing users to visually edit TikZ source code by dragging and resizing elements while keeping the source code and rendered figure in sync. This editor significantly simplifies the process of creating and modifying TikZ figures, which is traditionally done by manually tweaking coordinates and recompiling, saving time for researchers and academics who use LaTeX extensively. The editor works by parsing TikZ code and tracking exact source locations of objects, allowing it to override only numeric values when elements are moved. It was built primarily using the Codex AI coding agent, costing around $500 in ChatGPT subscription fees.",
+  "score": 8,
+  "tags": [
+    "TikZ",
+    "LaTeX",
+    "editor",
+    "WYSIWYG",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "DominikPeters",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48645437"
+    }
+  ],
+  "originalUrl": "https://tikz.dev/editor/",
+  "originalSite": "tikz.dev",
+  "context": "TikZ is a powerful LaTeX package for creating vector graphics, commonly used in academic papers. Traditionally, users write TikZ code manually and recompile to see results, which can be tedious. This editor provides real-time visual feedback and bidirectional editing.",
+  "discussion": "The community praised the project's UI and concept but criticized that the generated TikZ code relies heavily on absolute coordinates, which is atypical for TikZ. Some suggested alternatives like quiver.app for specialized diagrams, and one commenter noted the high cost of AI tokens used.",
+  "references": [
+    {
+      "title": "LaTeX Graphics with TikZ",
+      "url": "https://tikz.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

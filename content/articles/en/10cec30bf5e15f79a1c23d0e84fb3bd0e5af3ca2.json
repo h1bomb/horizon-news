@@ -1,0 +1,44 @@
+{
+  "id": "10cec30bf5e15f79a1c23d0e84fb3bd0e5af3ca2",
+  "canonicalId": "3899c01f7554b80c5edb62ec025937562e703980",
+  "slug": "cpython-jit-for-python-315-achieves-11-12-performance-gains-on-macos-aarch64-and-5-6-on-x86-64-linux-ahead-of-schedule",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T21:48:00Z",
+  "lang": "en",
+  "title": "CPython JIT for Python 3.15 achieves 11-12% performance gains on macOS AArch64 and 5-6% on x86_64 Linux ahead of schedule",
+  "summary": "The CPython JIT for Python 3.15 has achieved performance improvements of 11-12% on macOS AArch64 and 5-6% on x86_64 Linux, surpassing its modest goals over a year early for macOS AArch64 and several months early for x86_64 Linux. These gains were measured against the tail calling interpreter on macOS AArch64 and the standard interpreter on x86_64 Linux. This matters because it demonstrates significant progress in Python's performance optimization, potentially benefiting millions of developers and applications that rely on Python for data science, web development, and automation. The early achievement suggests the JIT implementation is on a solid trajectory, which could lead to further performance improvements in future Python releases. The performance gains are measured against specific baselines: 11-12% faster than the tail calling interpreter on macOS AArch64, and 5-6% faster than the standard interpreter on x86_64 Linux. The JIT uses LLVM for platform support and is currently the only client of its API, as part of the Faster CPython project led by Ken Jin.",
+  "score": 8,
+  "tags": [
+    "python",
+    "jit",
+    "performance",
+    "cpython",
+    "programming-languages"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "CPython is the reference implementation of Python, and a JIT (Just-In-Time) compiler is a technology that compiles code at runtime to improve execution speed, often used in languages like Java and JavaScript. The CPython JIT, developed as part of the Faster CPython project, uses a tracing JIT approach and leverages LLVM for cross-platform compatibility. AArch64 is the 64-bit version of the ARM architecture, commonly used in Apple Silicon Macs and mobile devices, while x86_64 is the 64-bit version of the x86 architecture used in most PCs and servers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Adding a JIT compiler to CPython [LWN.net]",
+      "url": "https://lwn.net/Articles/977855/"
+    },
+    {
+      "title": "Following up on the Python JIT [LWN.net]",
+      "url": "https://lwn.net/Articles/1029307/"
+    },
+    {
+      "title": "AArch64 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AArch64"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

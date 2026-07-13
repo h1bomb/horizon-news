@@ -1,0 +1,44 @@
+{
+  "id": "0e2672bb3d5dd916048482388157b03b38966a61",
+  "canonicalId": "d3cbb8bb239715f468f2929feae68d38d390b3b4",
+  "slug": "cloudflare-发布-mesh-私有网络服务支持-ai-代理和远程设备安全访问",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 发布 Mesh 私有网络服务，支持 AI 代理和远程设备安全访问",
+  "summary": "Cloudflare 发布了 Mesh 私有网络服务，为 AI 代理、开发者和远程设备提供安全的内部资源访问能力，包括支持最多 50 个节点和 50 个用户的免费层级。该服务通过单一轻量级连接器建立双向多对多网络连接，并与 Workers VPC 集成，使部署在 Cloudflare Workers 上的代理可直接访问私有数据库和内部 API。 这项服务满足了多云和 AI 驱动环境中对安全、可扩展网络日益增长的需求，有望简化远程访问并增强需要私有资源连接的 AI 代理的安全性。它可能影响依赖分布式团队和 AI 自动化的行业，通过提供一个统一平台来弥合传统 VPN 与现代云原生架构之间的差距。 Mesh 支持网络内设备和节点通过私有 IP 直接互访，不同于传统 Tunnel 的单向代理模式，Cloudflare 还计划在年内加入主机名路由、Mesh DNS 和身份感知路由等功能，以实现更细粒度的访问控制。与 Workers VPC 的集成允许无缝连接到私有服务，使基于 Workers 构建的应用程序能够跨云环境访问核心业务数据。",
+  "score": 7,
+  "tags": [
+    "networking",
+    "cloud-computing",
+    "AI-security",
+    "remote-access",
+    "Cloudflare"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 15, 03:46"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/mesh/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Cloudflare One 是一个统一的平台，结合了网络和安全服务，旨在跨云环境连接和保护组织。Workers VPC 是一项功能，使 Cloudflare Workers 能够安全地访问私有虚拟网络中的资源，例如 AWS 或其他云提供商中的资源，促进跨云应用程序开发。传统 VPN 通常对现代分布式工作负载提供有限的可扩展性和安全性，这促使像 Mesh 这样的创新提供更灵活和集成的解决方案。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Secure private networking for everyone: users, nodes, agents...",
+      "url": "https://blog.cloudflare.com/mesh/"
+    },
+    {
+      "title": "Beyond the VPN: Cloudflare Mesh builds a private network for the...",
+      "url": "https://thenewstack.io/cloudflare-mesh-agent-networking/"
+    },
+    {
+      "title": "Cloudflare One | The agile, truly unified SASE platform |",
+      "url": "https://www.cloudflare.com/sase/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

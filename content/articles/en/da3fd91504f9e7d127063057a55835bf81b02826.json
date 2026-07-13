@@ -1,0 +1,45 @@
+{
+  "id": "da3fd91504f9e7d127063057a55835bf81b02826",
+  "canonicalId": "b7679cca5112fdbd2a1371208a3eaaf7f3c57d0c",
+  "slug": "dirtyfrag-universal-linux-lpe-vulnerability-disclosed",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T19:21:00Z",
+  "lang": "en",
+  "title": "Dirtyfrag: Universal Linux LPE Vulnerability Disclosed",
+  "summary": "A universal Linux local privilege escalation vulnerability named Dirtyfrag has been disclosed via a public GitHub repository, affecting all major distributions. The vulnerability, similar in root cause to the earlier Copy Fail, exploits the net/xfrm and RxRPC subsystems and currently has no patches or CVEs. This vulnerability poses a critical threat to Linux system security, enabling unprivileged users to gain root access on any major distribution. Its disclosure without patches forces administrators to urgently mitigate risk by disabling affected kernel modules or applying workarounds. Dirtyfrag consists of two related issues: one in the xfrm-ESP page-cache write (same sink as Copy Fail) and another in the RxRPC protocol. The researcher, Hyunwoo Kim, noted that while Copy Fail was the motivation, the RxRPC issue is unrelated.",
+  "score": 9,
+  "tags": [
+    "linux",
+    "kernel",
+    "security",
+    "vulnerability",
+    "lpe"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "flipped",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48053623"
+    }
+  ],
+  "originalUrl": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+  "originalSite": "openwall.com",
+  "context": "Linux LPE (Local Privilege Escalation) vulnerabilities allow a local user with limited privileges to gain root access. Copy Fail (CVE-2026-31431) was a recent high-severity Linux kernel vulnerability in the crypto subsystem's algif_aead module. Dirtyfrag targets the net/xfrm (IPsec) and RxRPC (AFS filesystem protocol) subsystems, both of which are optional but often enabled by default in distributions.",
+  "discussion": "The community comments highlight the similarity to Copy Fail and express frustration with kernel maintainers for enabling seldom-used functionality by default. A commenter notes that algif_aead received flak for Copy Fail, but the real issue was the authencesn module, which remains unfixed.",
+  "references": [
+    {
+      "title": "GitHub - V4bel/ dirtyfrag · GitHub",
+      "url": "https://github.com/V4bel/dirtyfrag"
+    },
+    {
+      "title": "dirtyfrag : Universal Linux LPE - V4bel \\ stacker news",
+      "url": "https://stacker.news/items/1486126"
+    },
+    {
+      "title": "Dirty Frag Linux Vulnerability Enables Root Access... | LavX News",
+      "url": "https://news.lavx.hu/article/dirty-frag-linux-vulnerability-enables-root-access-across-major-distributions-no-patches-available"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

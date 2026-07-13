@@ -1,0 +1,41 @@
+{
+  "id": "da3a5435335b127a1feb3349f222f7201b55cdee",
+  "canonicalId": "721dd32e49656ef8ca4e6e14c89af1f35fef183d",
+  "slug": "programbench-tests-ai-agents-on-binary-reconstruction-from-scratch",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-05T15:40:00Z",
+  "lang": "en",
+  "title": "ProgramBench Tests AI Agents on Binary Reconstruction from Scratch",
+  "summary": "Facebook Research introduced ProgramBench, a formal benchmark of 200 tasks that challenges AI agents to rebuild binaries from scratch with no internet, decompilation, or structural hints, using only black-box behavioral tests. It provides a rigorous, cheat-proof evaluation of AI agents' independent software engineering capabilities, highlighting current limitations and guiding future improvements in agentic coding systems. The benchmark used 6M lines of behavioral tests filtered to the best, and all models achieved 0% fully resolved tasks; best almost-resolved rate was 95% test pass. It is open-source and installable via pip.",
+  "score": 8,
+  "tags": [
+    "benchmarks",
+    "code-generation",
+    "AI-agents",
+    "LLM-evaluation",
+    "software-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "klieret",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t4j4s9/programbench_can_we_really_rebuild_huge_binaries/"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1t4j4s9",
+  "originalSite": "reddit.com",
+  "context": "In computing, a benchmark is a standardized test to evaluate performance. ProgramBench evaluates AI agents on reconstructing software binaries from scratch, meaning the agent must generate code that replicates the behavior of a given executable without access to its source code or implementation hints. Testing is performed via black-box behavioral tests, which verify only the external behavior of the generated program, not its internal structure, unlike typical coding benchmarks that provide function signatures or partial code.",
+  "discussion": "Community reaction is mixed: some praise its rigor and potential for advancing AI coding, while others criticize its lack of real-world practicality, noting that even humans would struggle under the same restrictions. There is also interest in integrating it with custom harnesses and amusement at the website's vibecoded flaws.",
+  "references": [
+    {
+      "title": "ProgramBench",
+      "url": "https://programbench.com/"
+    },
+    {
+      "title": "ProgramBench Benchmark 2026: 9 model averages | BenchLM.ai",
+      "url": "https://benchlm.ai/benchmarks/programBench"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

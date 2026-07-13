@@ -1,0 +1,44 @@
+{
+  "id": "3799848b2c22ed995bdb41b4cb279aa95ca3d7ee",
+  "canonicalId": "ca953f29df4c96086363e17ad1e25172ae9b703c",
+  "slug": "cursor-发布-composer-2-编码模型后承认使用-kimi-k25-底座模型未充分披露",
+  "date": "2026-03-22",
+  "publishedAt": "2026-03-22T00:00:00Z",
+  "lang": "zh",
+  "title": "Cursor 发布 Composer 2 编码模型，后承认使用 Kimi K2.5 底座模型未充分披露",
+  "summary": "3 月 19 日，Cursor 发布了自研编码模型 Composer 2，主打前沿级编码性能，定价比上一代降低 86%。不到 24 小时，开发者通过 API 端点发现内部模型 ID 包含'kimi-k2p5-rl'，暴露底座模型为月之暗面开源的 Kimi K2.5，马斯克也确认了这一点。 这一事件凸显了 AI 开发中的透明度问题，因为 Cursor 未披露使用 Kimi K2.5，而其年收入已达 20 亿美元，这违反了该模型对月收入超过 2000 万美元产品需标注来源的许可要求。这引发了关于商业 AI 产品遵守开源许可和道德实践的担忧。 Kimi K2.5 的许可协议明确要求月收入超过 2000 万美元的产品在界面标注'Kimi K2.5'。Cursor 事后承认使用了 K2.5 作为底座模型，Kimi 官方也发推称'很自豪 K2.5 提供了基础模型'。",
+  "score": 7,
+  "tags": [
+    "AI Coding Tools",
+    "Model Transparency",
+    "Open Source Licensing",
+    "Software Development",
+    "AI Ethics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 21, 06:20"
+    }
+  ],
+  "originalUrl": "https://x.com/elonmusk/status/2034941631871455262?s=20",
+  "originalSite": "x.com",
+  "context": "Cursor Composer 2 是一个为 Cursor 环境内的软件开发设计的智能编码模型，提供高效的令牌使用和在编码基准测试上的强劲表现。Kimi K2.5 是一个开源的原生多模态智能模型，通过在约 15 万亿混合视觉和文本令牌上持续预训练构建，能够将文本和视觉转换为生产就绪的代码。争议焦点在于 Cursor 尽管收入很高，却未遵守 K2.5 的标注要求。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "moonshotai/Kimi-K2.5 · Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5"
+    },
+    {
+      "title": "Composer 2 | Cursor Docs",
+      "url": "https://cursor.com/docs/models/cursor-composer-2"
+    },
+    {
+      "title": "Cursor’s new coding model Composer 2 is here: It beats Claude ...",
+      "url": "https://venturebeat.com/technology/cursors-new-coding-model-composer-2-is-here-it-beats-claude-opus-4-6-but"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

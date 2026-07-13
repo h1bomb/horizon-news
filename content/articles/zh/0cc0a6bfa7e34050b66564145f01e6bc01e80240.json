@@ -1,0 +1,44 @@
+{
+  "id": "0cc0a6bfa7e34050b66564145f01e6bc01e80240",
+  "canonicalId": "34f7e306be30d51753e5999f959b38351d9c8a85",
+  "slug": "基于-rust-的本地漫画翻译器集成-llamacpp-与多模型处理流程",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "基于 Rust 的本地漫画翻译器集成 llama.cpp 与多模型处理流程",
+  "summary": "开发者发布了 Koharu，这是一个基于 Rust 开发的开源本地漫画翻译器，集成了 llama.cpp 进行大语言模型推理，并结合了目标检测、OCR、布局分析和修复模型。该工具支持 Gemma 4 和 Qwen3.5 模型系列，提供 OpenAPI 兼容的 API 集成，并配备了带有编辑功能的用户友好界面。 该项目通过将多个专用模型整合到单一的高性能处理流程中，代表了本地 AI 翻译工具的重要进展，能够完全离线运行。它满足了漫画及更广泛图像翻译社区对隐私保护、可定制翻译解决方案日益增长的需求，同时展示了前沿 AI 技术的实际集成应用。 该应用程序支持跨平台的 NVIDIA 和 AMD GPU 硬件，内置了用于校对和格式化翻译文本的编辑器，并经过近一年的积极开发，社区贡献不断增加。虽然该工具被描述为高性能且易于使用，但一些用户指出它可能仍存在错误，并且与 Ballons Translator 等替代工具相比，缺乏某些手动控制功能。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "LLM",
+    "Computer Vision",
+    "Open Source",
+    "Local AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 22, 13:42"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/7csl8gbouqwg1",
+  "originalSite": "v.redd.it",
+  "context": "llama.cpp 是一个开源的 C/C++库，能够在各种硬件上以最小设置高效运行 Llama 等大语言模型。Gemma 4 是谷歌推出的开源模型系列，专为高级推理任务设计，而 Qwen3.5 是阿里巴巴推出的涵盖从小到大规模的一系列模型。此类本地 AI 工具允许用户在自己的设备上运行模型，无需依赖云服务，提供了更好的隐私保护和可控性。",
+  "discussion": "社区反响极为积极，用户称赞这是他们用过的最佳漫画翻译工具，并对潜在的实时浏览器扩展功能表示期待。一些建设性反馈指出界面仍显粗糙，并希望增加类似竞争工具的手动控制选项。创作者积极参与社区互动，强调了跨平台 GPU 支持和持续的开发工作。",
+  "references": [
+    {
+      "title": "Llama.cpp",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    },
+    {
+      "title": "Gemma 4 model overview | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core"
+    },
+    {
+      "title": "Qwen3.5 small models: Everything you need to know - Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/qwen3-5-small-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2d8bc8a9e1375c935460996ad01c67724359290d",
+  "canonicalId": "82f5286a3cc26261dcf14da46a46577f7dd6c11a",
+  "slug": "iphone-17-pro-demonstrated-running-a-400b-parameter-llm",
+  "date": "2026-03-24",
+  "publishedAt": "2026-03-23T14:30:00Z",
+  "lang": "en",
+  "title": "iPhone 17 Pro Demonstrated Running a 400B Parameter LLM",
+  "summary": "A demonstration shows an iPhone 17 Pro running a 400 billion parameter large language model, utilizing techniques like quantization and Mixture of Experts architecture to enable this on mobile hardware. This demonstration is significant as it pushes the boundaries of on-device AI, potentially enabling advanced language models to run locally on smartphones without constant cloud connectivity, which could revolutionize mobile applications and privacy. The model uses Mixture of Experts architecture, which activates only a subset of parameters at a time, and quantization to reduce precision, lowering memory and computational requirements; however, practical limitations like thermal throttling and reduced accuracy due to quantization are noted.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Mobile AI",
+    "Hardware",
+    "Quantization",
+    "Mixture of Experts"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "anemll"
+    }
+  ],
+  "originalUrl": "https://twitter.com/anemll/status/2035901335984611412",
+  "originalSite": "twitter.com",
+  "context": "Large language models (LLMs) are AI systems trained on vast text data to generate human-like text; parameters measure model size, with higher counts typically requiring more computational resources. Quantization is a technique that reduces the precision of model weights (e.g., from 32-bit to 8-bit) to decrease memory usage and speed up inference while maintaining accuracy. Mixture of Experts (MoE) is an architecture where a model consists of multiple specialized sub-models (experts), with a routing mechanism selecting only a few experts per input, making large models more efficient by not using all parameters simultaneously.",
+  "discussion": "Community discussion includes skepticism about the headline's omission of MoE details and quantization's impact on model performance, with users noting that quantization can make models behave like smaller ones and that thermal throttling on devices like iPads limits practical use. Some comments also reference technical papers and express concerns about hardware limitations.",
+  "references": [
+    {
+      "title": "What is Quantization - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/deep-learning/quantization-in-deep-learning/"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "The Complete Guide to Local LLM Hardware: Specs for Running AI Models on Consumer Hardware",
+      "url": "https://www.mayhemcode.com/2025/12/the-complete-guide-to-local-llm.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

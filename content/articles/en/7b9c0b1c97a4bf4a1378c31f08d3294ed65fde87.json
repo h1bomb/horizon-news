@@ -1,0 +1,44 @@
+{
+  "id": "7b9c0b1c97a4bf4a1378c31f08d3294ed65fde87",
+  "canonicalId": "a7a5de9d98232bb960571c2620457b2d84537956",
+  "slug": "slug-algorithm-dedicated-to-public-domain-after-a-decade-of-proprietary-success",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T18:59:00Z",
+  "lang": "en",
+  "title": "Slug algorithm dedicated to public domain after a decade of proprietary success",
+  "summary": "Eric Lengyel announced that the Slug algorithm, developed in 2016 for GPU-based font rendering from Bézier curves, has been dedicated to the public domain after a decade of proprietary use. This follows its successful implementation in commercial projects like the Radical Pie equation editor. This move makes a sophisticated graphics rendering technology freely available to the open-source community, potentially accelerating innovation in GPU-based vector graphics and text rendering. It demonstrates a model where proprietary success can transition to public benefit, benefiting developers in graphics, typography, and FOSS projects. Although originally designed for text rendering, Slug can now render generic vector graphics with resolution independence at high speeds on the GPU. The dedication to public domain follows its use in commercial software like Radical Pie, a $60 equation editor for Windows.",
+  "score": 7,
+  "tags": [
+    "graphics-rendering",
+    "open-source",
+    "software-engineering",
+    "algorithms",
+    "public-domain"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mwkaufma"
+    }
+  ],
+  "originalUrl": "https://terathon.com/blog/decade-slug.html",
+  "originalSite": "terathon.com",
+  "context": "The Slug algorithm is a GPU-based rendering technique that directly processes Bézier curves to render fonts and vector graphics, eliminating the need for intermediate rasterization steps. Developed by Eric Lengyel of Terathon Software, it has been used in proprietary applications for a decade, building on Terathon's expertise in computer graphics and game engines like the C4 Engine. Public domain dedication means the software is free from copyright restrictions, allowing unrestricted use, modification, and distribution, often facilitated by tools like Creative Commons Zero.",
+  "discussion": "Community comments express strong appreciation for the author's decision, praising the algorithm's elegance and impact while noting previous limitations due to patent status. Users share personal experiences with Slug and related projects, highlighting its utility in graphics rendering and software engineering.",
+  "references": [
+    {
+      "title": "A Decade of Slug - Eric Lengyel",
+      "url": "https://terathon.com/blog/decade-slug.html"
+    },
+    {
+      "title": "Slug Font Rendering Library",
+      "url": "https://sluglibrary.com/"
+    },
+    {
+      "title": "Putting Software in the Public Domain — /dev/lawyer",
+      "url": "https://writing.kemitchell.com/2022/08/05/Public-Domain-Software"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

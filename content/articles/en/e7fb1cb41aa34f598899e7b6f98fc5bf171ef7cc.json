@@ -1,0 +1,31 @@
+{
+  "id": "e7fb1cb41aa34f598899e7b6f98fc5bf171ef7cc",
+  "canonicalId": "b37beead9b9cf41ea12a45140266f99718885179",
+  "slug": "live-sun-and-moon-dashboard-using-nasa-footage",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T13:25:00Z",
+  "lang": "en",
+  "title": "Live Sun and Moon Dashboard Using NASA Footage",
+  "summary": "A developer launched Lumara Space, a live dashboard that displays real-time sun and moon imagery sourced from NASA's Scientific Visualization Studio, featuring a polished UI and cross-platform availability via web and iOS App Store. This dashboard makes high-quality NASA space imagery accessible to the public in an engaging, real-time format, potentially inspiring interest in space science and demonstrating creative use of public data. The app currently hotlinks large 2K resolution videos (up to 30MB each) directly from NASA servers, which may lead to performance issues and bandwidth concerns. Community feedback suggests optimizing content delivery and adding UI improvements like a close button.",
+  "score": 7,
+  "tags": [
+    "space",
+    "dashboard",
+    "NASA",
+    "UI/UX",
+    "web app"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "beeswaxpat"
+    }
+  ],
+  "originalUrl": "https://www.lumara-space.app/",
+  "originalSite": "lumara-space.app",
+  "context": "NASA's Scientific Visualization Studio (SVS) provides free, high-resolution imagery and videos of space phenomena. Hotlinking refers to directly embedding content from another server, which can consume the host's bandwidth without permission. The dashboard combines these assets into a unified, real-time display.",
+  "discussion": "The community praised the app's visual polish and novelty, with comments like 'super cool' and 'beautiful app.' However, several users raised technical concerns about hotlinking large NASA videos and suggested optimizations, such as caching or using lower-resolution streams. Feature requests included CME tracking and better navigation controls.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

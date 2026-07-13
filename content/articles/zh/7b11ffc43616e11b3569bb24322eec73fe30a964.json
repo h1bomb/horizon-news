@@ -1,0 +1,45 @@
+{
+  "id": "7b11ffc43616e11b3569bb24322eec73fe30a964",
+  "canonicalId": "5a78eb62801055676474763a1c1b5ca9ed52eacf",
+  "slug": "homebrew-600-发布带来安全与性能升级",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T13:24:00Z",
+  "lang": "zh",
+  "title": "Homebrew 6.0.0 发布，带来安全与性能升级",
+  "summary": "Homebrew 6.0.0 引入了 tap 信任安全机制、新的默认内部 JSON API 以加快元数据获取、Linux 沙箱支持，以及初步支持 macOS 27 (Golden Gate)。 作为 macOS 和 Linux 上广泛使用的包管理器，这些更新增强了用户安全性、提升了性能并扩展了平台覆盖，使每天依赖 Homebrew 的数百万开发者受益。 Tap 信任机制要求用户明确信任第三方 tap，因为这些 tap 可能执行任意 Ruby 代码。内部 JSON API 取代了本地 tap 克隆，减少了带宽和磁盘占用。",
+  "score": 8,
+  "tags": [
+    "homebrew",
+    "package-manager",
+    "macOS",
+    "security",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mikemcquaid",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48490024"
+    }
+  ],
+  "originalUrl": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+  "originalSite": "brew.sh",
+  "context": "Homebrew 是一款简化 macOS 和 Linux 上软件安装的包管理器。Tap 是第三方仓库，可以包含软件包，但也可能运行任意代码。内部 JSON API 通过从中央服务器获取包元数据，而不是克隆整个 tap 仓库，从而提高速度和效率。",
+  "discussion": "社区普遍对此次发布及长期维护表示感谢，一些用户讨论了 mise 和 Nix 等替代工具。整体情绪积极，贡献者对安全性和速度的提升表示赞赏。",
+  "references": [
+    {
+      "title": "Homebrew: 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/"
+    },
+    {
+      "title": "Homebrew Documentation: Tap Trust",
+      "url": "https://docs.brew.sh/Tap-Trust"
+    },
+    {
+      "title": "Homebrew API and JSON Backend | Homebrew/brew | DeepWiki",
+      "url": "https://deepwiki.com/Homebrew/brew/13-homebrew-api-and-json-backend"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

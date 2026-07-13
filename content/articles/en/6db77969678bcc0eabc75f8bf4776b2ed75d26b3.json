@@ -1,0 +1,44 @@
+{
+  "id": "6db77969678bcc0eabc75f8bf4776b2ed75d26b3",
+  "canonicalId": "4693e19325362039cdcdb531a710cc733decd42f",
+  "slug": "litellm-versions-1827-and-1828-compromised-via-malicious-pth-file-exploit",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-24T14:28:00Z",
+  "lang": "en",
+  "title": "LiteLLM versions 1.82.7 and 1.82.8 compromised via malicious .pth file exploit",
+  "summary": "The LiteLLM Python library versions 1.82.7 and 1.82.8 have been compromised through a malicious .pth file exploit that automatically executes credential-stealing code when the Python interpreter starts. This security breach was reported in a GitHub issue and affects users who installed these specific versions from PyPI. This incident poses a critical security risk because LiteLLM is widely used to access over 100 LLM APIs in production AI/ML systems, potentially exposing sensitive credentials and enabling supply chain attacks. The stealthy nature of the .pth file exploit bypasses standard security checks, making immediate credential rotation and version downgrades essential for affected users. The malicious file 'litellm_init.pth' (34,628 bytes) in the compromised packages executes automatically on Python interpreter startup without requiring any import of LiteLLM, making it invisible to standard code review. Only versions 1.82.7 and 1.82.8 are confirmed affected, with earlier versions like 1.82.6 and 1.82.3 remaining safe according to community verification.",
+  "score": 9,
+  "tags": [
+    "security",
+    "AI/ML",
+    "software-engineering",
+    "open-source",
+    "incident-response"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "OrganizationWinter99"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s2fch0/developing_situation_litellm_compromised/",
+  "originalSite": "reddit.com",
+  "context": "LiteLLM is an open-source Python library that provides a unified interface to call over 100 large language models (LLMs) from providers like OpenAI, Anthropic, and Azure using the OpenAI API format. .pth files are Python path configuration files that can execute arbitrary code automatically when the Python interpreter starts, a known security risk documented in Python's issue tracker. The library is developed by BerriAI and available on PyPI, with versions 1.82.7 and 1.82.8 being the compromised releases.",
+  "discussion": "Community comments highlight the stealthy nature of the .pth file exploit, noting that it bypasses import-based detection and makes credential rotation mandatory for affected systems. Users discuss practical mitigation steps like using Docker for isolation, checking their LiteLLM versions, and expressing concerns about potential supply chain attacks on other tools that depend on LiteLLM. The sentiment is urgent and educational, with many sharing technical insights and verification of safe versions.",
+  "references": [
+    {
+      "title": "[Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer · Issue #24512 · BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm/issues/24512"
+    },
+    {
+      "title": "Security risk of hidden pth files · Issue #113659 · python/cpython",
+      "url": "https://github.com/python/cpython/issues/113659"
+    },
+    {
+      "title": "Getting Started | liteLLM",
+      "url": "https://docs.litellm.ai/docs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

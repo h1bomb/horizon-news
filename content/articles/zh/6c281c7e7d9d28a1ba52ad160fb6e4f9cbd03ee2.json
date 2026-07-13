@@ -1,0 +1,30 @@
+{
+  "id": "6c281c7e7d9d28a1ba52ad160fb6e4f9cbd03ee2",
+  "canonicalId": "0f2cda2aa3491b5dd42565613e15316694929788",
+  "slug": "shoreai-编码代理必须降低维护成本",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-12T00:00:00Z",
+  "lang": "zh",
+  "title": "Shore：AI 编码代理必须降低维护成本",
+  "summary": "James Shore 认为，AI 编码代理必须按与其生产力提升相反的比例降低维护成本，否则会产生呈二次方增长的不可持续的维护负担。 这挑战了 AI 编码工具纯粹提升生产力的主流叙事，揭示了可能导致长期软件债务并阻碍工具采用的隐性成本。 Shore 的数学论证指出：如果 AI 将代码输出翻倍却不将维护成本减半，总维护成本将增加四倍（2×2）。只有当维护成本按相同倍数下降时，系统才能维持可持续性。",
+  "score": 8,
+  "tags": [
+    "AI coding",
+    "software maintenance",
+    "productivity",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 11, 19:48"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "软件维护（修复 bug、重构、添加功能）是软件工程中的主要长期成本。AI 编码代理可以快速生成代码，但可能引入更难维护的代码。Shore 的论证强调，如果 AI 生成的代码增加了长期维护负担，那么其生产力提升可能具有误导性。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

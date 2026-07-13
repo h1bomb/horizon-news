@@ -1,0 +1,45 @@
+{
+  "id": "019980261bfb605a132fa3c2606d455fcb10e66c",
+  "canonicalId": "5b2cba6bac1a28ef8f4c507a08cc7a8b4c191cf8",
+  "slug": "大众汽车通过-play-protect-要求屏蔽-grapheneos-用户",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T15:04:00Z",
+  "lang": "zh",
+  "title": "大众汽车通过 Play Protect 要求屏蔽 GrapheneOS 用户",
+  "summary": "大众汽车已锁定其 API，要求通过 Play Protect 认证，从而有效阻止 GrapheneOS 用户通过官方应用访问车辆功能。此举禁用了社区驱动的集成，迫使用户依赖广告繁多的官方应用。 一家主要汽车制造商的此举开创了先例，限制设备自由和注重隐私的操作系统用户访问联网汽车功能。这凸显了 Google 认证生态系统与 GrapheneOS 等优先考虑隐私而非 Google 服务的自定义 Android ROM 之间日益紧张的局势。 API 锁定不仅影响 GrapheneOS，也影响任何没有 Play Protect 认证的设备，包括使用 Home Assistant 等社区项目进行自动化的设备。据报道，官方大众应用 60%是广告，30%是功能，使其比以前社区替代方案功能更差。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "GrapheneOS",
+    "Android",
+    "automotive",
+    "Volkswagen"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "microtonal",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48571526"
+    }
+  ],
+  "originalUrl": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+  "originalSite": "discuss.grapheneos.org",
+  "context": "GrapheneOS 是一个经过安全加固、基于 Android 的开源操作系统，专注于隐私，通常不运行 Google Play 服务。Google 的 Play Protect 认证是设备访问 Google 应用和某些 API 所必需的，它依赖于 Google 的专有兼容性测试。GrapheneOS 用户通常避免使用 Google 服务以最小化数据收集，这使得 Play Protect 认证与其隐私目标不兼容。",
+  "discussion": "社区评论表达了沮丧和失望，用户指出大众此前已关闭了社区集成的 API 访问，现在又彻底屏蔽 GrapheneOS。一些用户对失去 Home Assistant 自动化等有用功能感到惋惜，另一些用户批评官方应用广告过多。还有人担心这一趋势可能蔓延至大众其他品牌，并可能与更广泛的隐私工具限制相呼应。",
+  "references": [
+    {
+      "title": "GrapheneOS",
+      "url": "https://en.wikipedia.org/wiki/GrapheneOS"
+    },
+    {
+      "title": "Android – Certified",
+      "url": "https://www.android.com/certified/"
+    },
+    {
+      "title": "GrapheneOS: the private and secure mobile OS",
+      "url": "https://grapheneos.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

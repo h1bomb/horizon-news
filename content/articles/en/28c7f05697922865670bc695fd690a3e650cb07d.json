@@ -1,0 +1,44 @@
+{
+  "id": "28c7f05697922865670bc695fd690a3e650cb07d",
+  "canonicalId": "ca4988ece1bdd9dc919350794a19b9ee18039296",
+  "slug": "google-shuts-free-search-cloudflare-blocks-ai-bots-community-seeks-alternatives",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-13T19:35:00Z",
+  "lang": "en",
+  "title": "Google Shuts Free Search, Cloudflare Blocks AI Bots: Community Seeks Alternatives",
+  "summary": "Google will limit its free search tier to 50 domains for site-specific queries and fully shut it down by January 1, 2027, with no public pricing for advanced searches. Cloudflare now defaults to blocking all AI bot scraping across its network, including a recent partnership with GoDaddy. These changes threaten the availability of web data for training and running AI models, especially local models that rely on real-time web pulls. The community may need to shift toward decentralized search alternatives, which could reshape the open-source AI ecosystem. Google's free search index restriction and shutdown timeline affect site-specific search, while Cloudflare's default AI bot blocking impacts a large portion of the web. Community discussions highlight existing alternatives such as YaCy, SearXNG, Brave Search API, and Common Crawl.",
+  "score": 8,
+  "tags": [
+    "web scraping",
+    "AI",
+    "search engines",
+    "decentralization",
+    "Cloudflare"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "NetTechMan"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tcaboi/websearch_is_coming_to_a_screeching_performance/",
+  "originalSite": "reddit.com",
+  "context": "Web scraping is essential for training large language models and providing real-time information to AI systems. Google's free search API has been a key resource, while Cloudflare protects many websites from unwanted traffic. The changes create a gap that decentralized or open-source search projects might fill.",
+  "discussion": "The Reddit community generally agrees these changes signal a move toward search paywalls and monetization of bot traffic. Many advocate for decentralized alternatives like YaCy and P2P networks, while some suggest scraping once and sharing the data, or finally adopting micropayments to eliminate ads.",
+  "references": [
+    {
+      "title": "Declare your AIndependence: block AI bots , scrapers and crawlers...",
+      "url": "https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click/"
+    },
+    {
+      "title": "Cloudflare AI Bot Blocking – Make Sure Your Website Ranks in AI ...",
+      "url": "https://sproutscape.io/is-your-website-invisible-to-ai-search-cloudflares-new-default-could-be-blocking-you/"
+    },
+    {
+      "title": "Sick of AI in Search ? These 7 Google alternatives still put... | ZDNET",
+      "url": "https://www.zdnet.com/article/google-search-alternatives-no-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

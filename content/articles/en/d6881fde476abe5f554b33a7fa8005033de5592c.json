@@ -1,0 +1,44 @@
+{
+  "id": "d6881fde476abe5f554b33a7fa8005033de5592c",
+  "canonicalId": "074d805037eb8ed2577adfb7cd6bf334261ce52a",
+  "slug": "qwen35-35b-a3b-is-the-first-small-model-to-summarize-50k-tokens-without-hallucinating",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-01T17:30:00Z",
+  "lang": "en",
+  "title": "Qwen3.5 35B A3B is the first small model to summarize 50k tokens without hallucinating.",
+  "summary": "A user reported that the Qwen3.5 35B A3B model successfully summarized a 50,000-token private text without adding any fabricated information, a task where all other tested small models (with <=4B active parameters) failed by hallucinating. This marks the first time a model of this size has demonstrated such reliable long-context summarization on unseen, private data. This breakthrough is significant because reliable, hallucination-free summarization of long private documents is a critical requirement for practical, production-grade local LLM deployment in areas like legal, medical, or proprietary code analysis. It demonstrates that smaller, more efficient models can now achieve a level of factual reliability previously associated only with much larger models, making advanced AI more accessible for local, privacy-sensitive use cases. The test used private text to ensure it was not in any model's training data, isolating the model's true reasoning and summarization ability. The Qwen3.5 35B A3B is a Mixture-of-Experts (MoE) model with a total of 480B parameters but only 35B active parameters per inference, which contributes to its efficiency and performance.",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "long-context",
+    "model-evaluation",
+    "summarization",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Windowsideplant"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ri39a4/qwen35_35b_a3b_first_small_model_to_not/",
+  "originalSite": "reddit.com",
+  "context": "Large Language Models (LLMs) sometimes \"hallucinate,\" meaning they generate plausible-sounding but factually incorrect or unsupported information, which is a major barrier to their trustworthy deployment. Summarization, especially of long documents, is a common task where hallucinations are problematic. The \"A3B\" in the model name refers to its architecture as a Mixture-of-Experts (MoE) with 35 Billion active parameters, a design that allows a large total model size while keeping computational costs lower during use by only activating a subset of \"expert\" networks for each input.",
+  "discussion": "The community reaction is overwhelmingly positive, with users confirming the model's practical utility for real work, such as code auditing and replacing multi-model setups. Discussions highlight its solid performance on systems with 16GB VRAM and good inference speed (~68-73 tokens/sec), though some note that heavily quantized smaller variants may suffer in reasoning quality. There is a consensus that reliable long-context performance without hallucinations is a crucial benchmark for production use.",
+  "references": [
+    {
+      "title": "Qwen/Qwen3.5-35B-A3B - Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+    },
+    {
+      "title": "[2410.13210] FaithBench: A Diverse Hallucination Benchmark ... Introducing the Next Generation of Vectara's Hallucination ... A framework to assess clinical safety and hallucination rates ... LLM Hallucination Leaderboard - a Hugging Face Space by vectara LLM Benchmarks: Progress and Gaps | Nils Durner’s Blog [2410.13210] FaithBench: A Diverse Hallucination Benchmark for LLM Hallucination Leaderboard - a Hugging Face Space by vectara GitHub - vectara/ hallucination -leaderboard: Leaderboard Comparing LLM A framework to assess clinical safety and hallucination rates of LLMs [PDF] FaithBench: A Diverse Hallucination Benchmark for ...",
+      "url": "https://arxiv.org/abs/2410.13210"
+    },
+    {
+      "title": "Qwen3-Coder-480B-A35B-Instruct Available Now on Novita AI -",
+      "url": "https://blogs.novita.ai/qwen3-coder-480b-a35b-instruct-on-novita-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

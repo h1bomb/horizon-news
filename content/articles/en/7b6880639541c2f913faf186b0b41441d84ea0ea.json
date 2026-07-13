@@ -1,0 +1,44 @@
+{
+  "id": "7b6880639541c2f913faf186b0b41441d84ea0ea",
+  "canonicalId": "fe5068c43e094dc3c34844419c92618b14a7a173",
+  "slug": "unsloth-enables-local-fine-tuning-of-gemma-4-models-with-8gb-vram-and-bug-fixes",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T14:20:00Z",
+  "lang": "en",
+  "title": "Unsloth enables local fine-tuning of Gemma 4 models with 8GB VRAM and bug fixes",
+  "summary": "Unsloth now supports local fine-tuning of Gemma 4 E2B and E4B models in free notebooks, requiring only 8GB VRAM for Gemma-4-E2B and offering 1.5x faster training with 60% less VRAM compared to FA2 setups. The update also includes fixes for four critical bugs affecting gradient accumulation, inference errors, cache issues, and float16 overflows. This significantly lowers the hardware barrier for fine-tuning advanced language models, making Gemma 4's capabilities accessible to researchers and developers with consumer-grade GPUs. The efficiency improvements and bug fixes enhance practical usability for customizing models across vision, text, and audio tasks. The optimization specifically applies to Gemma 4's E2B and E4B variants, with larger 26B and 31B models also supported but likely requiring more VRAM. Unsloth Studio provides a UI for training, and the bug fixes address issues like gradient accumulation causing loss explosions and inference failures in larger models.",
+  "score": 7,
+  "tags": [
+    "machine-learning",
+    "fine-tuning",
+    "gemma",
+    "unsloth",
+    "hardware-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "danielhanchen"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/dbzd9qey1stg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Gemma 4 is Google's latest open language model family featuring dense and mixture-of-experts (MoE) architectures, designed for tasks like text generation, coding, and reasoning. Fine-tuning adapts a pre-trained model to specific tasks or domains using techniques like supervised fine-tuning (SFT) or LoRA, while Unsloth is a toolkit that optimizes this process for speed and memory efficiency. FA2 (Flash Attention 2) is a common baseline for attention mechanism implementations in training setups.",
+  "discussion": "Community discussion shows strong interest in practical applications, with questions about hardware compatibility (e.g., RTX 5070 Ti, Intel Arc), fine-tuning vs. continued pre-training distinctions, and data requirements. Some users express excitement about Gemma 4's potential as a base model, while others note technical issues like Colab errors.",
+  "references": [
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+    },
+    {
+      "title": "Fine-tuning LLMs Guide | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/fine-tuning-llms-guide"
+    },
+    {
+      "title": "During pre-training, using FA2 consumes more memory than ...",
+      "url": "https://github.com/AnswerDotAI/ModernBERT/issues/172"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

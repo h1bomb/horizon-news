@@ -1,0 +1,44 @@
+{
+  "id": "5b60ddf79cf763b43e408a2348008e82b3d2273e",
+  "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
+  "slug": "alibaba-releases-qwen36-max-preview-a-smarter-ai-model-with-improved-coding-capabilities",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-20T14:05:00Z",
+  "lang": "en",
+  "title": "Alibaba releases Qwen3.6-Max-Preview, a smarter AI model with improved coding capabilities.",
+  "summary": "Alibaba released Qwen3.6-Max-Preview, a proprietary AI model hosted on Alibaba Cloud Model Studio, which shows improvements in agentic coding capability over its predecessor Qwen3. The model is still under active development as a preview version, with further gains expected in subsequent iterations. This release matters because it represents Alibaba's latest advancement in AI, topping six major coding benchmarks and enhancing world knowledge and instruction following, which could impact developers and businesses relying on AI for coding and automation tasks. It also highlights the competitive landscape in AI model development, where proprietary models like this vie with open-source alternatives for market dominance. Qwen3.6-Max-Preview is a cloud-only, proprietary model available via Alibaba Cloud Model Studio, with pricing noted as $1.3 per million input tokens and $7.8 per million output tokens. It scores 65.4 on Terminal-Bench 2.0 and 57.3 on SWE-Bench Pro, slightly lower than some competitors like Kimi K2.6 in these benchmarks.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Open Source",
+    "Model Comparison",
+    "HackerNews"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mfiguiere"
+    }
+  ],
+  "originalUrl": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+  "originalSite": "qwen.ai",
+  "context": "Qwen is a series of large language models developed by Alibaba, known for their capabilities in natural language processing and coding tasks. AI model comparison involves evaluating different models on benchmarks like SWE-Bench Pro and Terminal-Bench 2.0 to assess performance in areas such as software engineering and terminal operations. Open-source AI models often release model weights but may face criticism for not including training data or code, leading to debates about true openness and risks like misuse.",
+  "discussion": "Community comments show mixed sentiments, with users comparing Qwen3.6-Max-Preview to other models like Claude Code and Kimi K2.6, noting its higher cost and slightly lower benchmark scores. Some express concerns about the proprietary nature of the preview model, fearing a trend away from open-source releases, while others highlight the importance of real-world performance over benchmarks.",
+  "references": [
+    {
+      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview"
+    },
+    {
+      "title": "Qwen3.6 Max Preview - Intelligence, Performance & Price Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-6-max"
+    },
+    {
+      "title": "Alibaba Drops Qwen 3.6 Max Preview—Its Most Powerful Model ...",
+      "url": "https://decrypt.co/364948/alibaba-qwen-3-6-max-preview-most-powerful-model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "35a575cafb20177411aade956ade213ca86cd7c1",
+  "canonicalId": "f4e42dffcd634cd9281d61329eaab7a1ddb58e63",
+  "slug": "cloudflare-proposes-a-simpler-javascript-streams-api-using-async-iterators",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-27T14:02:00Z",
+  "lang": "en",
+  "title": "Cloudflare proposes a simpler JavaScript streams API using async iterators",
+  "summary": "Cloudflare published a blog post proposing a more ergonomic alternative to the current Web Streams API, suggesting it could be simplified to essentially be an async iterator of UInt8Array chunks. The proposal argues the current API, designed for a different era, is overly complex for many common use cases. This matters because the Web Streams API is now ubiquitous across JavaScript runtimes (browsers, Node.js, edge platforms) for handling network data, files, and real-time communication. A simpler, more intuitive API could significantly improve developer experience, reduce boilerplate code, and potentially influence future web standards. The core proposal is to model a stream as a type `Stream<T> = { next(): Promise<{ done, value: UInt8Array<T> }> }`. However, the discussion reveals trade-offs, such as potential performance overhead from promise and stack switching compared to synchronous iterables, especially for small, frequent data chunks.",
+  "score": 7,
+  "tags": [
+    "javascript",
+    "web-standards",
+    "api-design",
+    "streams",
+    "async-programming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nnx"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/a-better-web-streams-api/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "The JavaScript Web Streams API, standardized by WHATWG, provides objects like ReadableStream, WritableStream, and TransformStream to programmatically access and process streams of data (e.g., from network requests) with built-in backpressure management. Async iterators, introduced in ES2018, are a language feature that allows asynchronous iteration over data sequences using `for await...of`. The current ReadableStream already implements the async iterator protocol.",
+  "discussion": "The community discussion reveals active debate on API design trade-offs. One commenter proposed an alternative \"stream iterator\" type that can return values synchronously or asynchronously. Others pointed out performance concerns with async iterables for small objects and mentioned existing abstractions like Repeater.js. There were also reports of practical performance issues with the native streams API's backpressure implementation.",
+  "references": [
+    {
+      "title": "Streams API - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API"
+    },
+    {
+      "title": "AsyncIterator - JavaScript | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator"
+    },
+    {
+      "title": "We deserve a better streams API for JavaScript",
+      "url": "https://blog.cloudflare.com/a-better-web-streams-api/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

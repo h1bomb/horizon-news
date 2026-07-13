@@ -1,0 +1,40 @@
+{
+  "id": "d98e4fd74704c83be29172f101c3a4d541f7aa0a",
+  "canonicalId": "bba7110aacedd5c7b93f7e143cc6f504670bf8c0",
+  "slug": "google-api-key-vulnerability-exposes-gemini-access-via-public-maps-keys",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-26T04:28:00Z",
+  "lang": "en",
+  "title": "Google API Key Vulnerability Exposes Gemini Access via Public Maps Keys",
+  "summary": "Truffle Security discovered a privilege escalation vulnerability in Google's API key system where public Google Maps API keys, which are designed to be embedded in websites, could be used to access sensitive Gemini API functionality if both services were enabled on the same Google Cloud project. The researchers found 2,863 such exposed keys in the November 2025 Common Crawl, including keys belonging to Google itself, with one key deployed as early as February 2023. This vulnerability fundamentally changes the security model of Google API keys, turning previously safe public identifiers into dangerous secret credentials without developer awareness. It exposes organizations to data breaches and unexpected billing charges, as Gemini API keys can access private files and initiate billable requests, while undermining trust in cloud service providers' security defaults. The vulnerability is a privilege escalation issue rather than a simple misconfiguration because it occurs through a sequence of normal operations: creating a public Maps key, later enabling the Gemini API on the same project, with no warning about the key's changed privileges. Google is working to revoke affected keys, but developers should proactively check their own projects.",
+  "score": 8,
+  "tags": [
+    "security",
+    "api-security",
+    "google-cloud",
+    "vulnerability",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Google Cloud uses a single API key format (beginning with 'AIza...') for multiple services. Historically, Google has told developers that API keys for services like Maps are safe to embed in client-side code (e.g., websites) because they are used for identification and rate limiting, not sensitive authentication. The Gemini API, however, is a different type of service where keys act as secret credentials that grant access to private AI models and can incur costs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules"
+    },
+    {
+      "title": "Using Gemini API keys | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/api-key"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

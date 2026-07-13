@@ -1,0 +1,44 @@
+{
+  "id": "cdc80b9109255728478704c3f896c890fdbac94e",
+  "canonicalId": "84ef4401d2ea692c7560dfcc1690ac53c9b85127",
+  "slug": "rotorquant基于-clifford-旋量的-turboquant-替代方案速度提升-10-19-倍参数减少-44-倍",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-27T00:00:00Z",
+  "lang": "zh",
+  "title": "RotorQuant：基于 Clifford 旋量的 TurboQuant 替代方案，速度提升 10-19 倍，参数减少 44 倍",
+  "summary": "RotorQuant 提出了一种基于 Clifford 代数的向量量化新方法，具体使用 Cl(3,0)中的 Clifford 旋量替代 TurboQuant 中的密集正交矩阵，在 CUDA 上实现 10-19 倍速度提升，在 Metal 上实现 9-31 倍速度提升，参数减少 44 倍，同时保持相似的余弦相似度（0.990 对比 0.991）。 这一突破显著加速了大语言模型的 KV 缓存压缩，使得在消费级硬件（如 GPU 和 Apple Silicon）上能实现更快的推理速度，这对于实时 AI 应用和降低快速发展的本地 LLM 生态系统的计算成本至关重要。 该方法将向量分块为 3D 组，并通过三明治积 RvR̃应用 4 参数旋量，对于 d=128 的情况，将操作从约 16,384 次 FMA 减少到约 100 次 FMA，融合内核将数据保留在寄存器中以最小化内存开销，但由于其基于块的方法，可能无法完全复制 TurboQuant 的全局能量扩散特性。",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "machine-learning",
+    "optimization",
+    "Clifford-algebra",
+    "GPU-acceleration"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 26, 11:21"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s44p77/rotorquant_1019x_faster_alternative_to_turboquant/",
+  "originalSite": "reddit.com",
+  "context": "向量量化是信号处理和机器学习中的一种技术，通过将向量映射到有限代码集来压缩数据，常用于优化 LLM 推理以减少内存使用。Clifford 代数是一种扩展向量空间以包含几何操作的数学框架，其中的旋量可以高效表示旋转，常用于图形学和物理学中的 3D 变换。TurboQuant 是一种先前的方法，使用随机正交矩阵进行量化，以提高 AI 模型中的压缩效率。",
+  "discussion": "社区讨论呈现了混合情绪，一方面赞扬了其巧妙的工程设计和来自几何代数的跨学科创新，另一方面也对其作为 TurboQuant 的直接替代品的理论局限性表示怀疑，因为其基于块的旋转无法复制全局能量扩散。一些用户对本地 LLM 的快速创新表示兴奋，而另一些用户则指出其与早期技术（如 QuiP）的相似性。",
+  "references": [
+    {
+      "title": "RotorQuant — Clifford Algebra Vector Quantization | Scrya",
+      "url": "https://www.scrya.com/rotorquant/"
+    },
+    {
+      "title": "GitHub - scrya-com/rotorquant: RotorQuant: Clifford algebra vector ...",
+      "url": "https://github.com/scrya-com/rotorquant"
+    },
+    {
+      "title": "Rotor (mathematics) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rotor_(mathematics)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

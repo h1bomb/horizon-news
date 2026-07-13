@@ -1,0 +1,44 @@
+{
+  "id": "ae65b5158c22c119af92593ede84cf017878cc90",
+  "canonicalId": "417ca5d34ff2827acf45137b911c929ce9da0290",
+  "slug": "neurips-拒稿事件引发-ai-检测器验证争议",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T17:28:00Z",
+  "lang": "zh",
+  "title": "NeurIPS 拒稿事件引发 AI 检测器验证争议",
+  "summary": "一篇提交至 NeurIPS 2026 立场论文分会的稿件因专有 AI 文本检测器 Pangram 被直接拒稿，作者指出评审流程中存在循环论证问题，且检测器未针对目标投稿分布进行校准。 这一事件引发了对 AI 检测器在高风险学术评估中可靠性的关键质疑，尤其是当检测器在实际投稿分布上的误报率未知时，可能导致不公平拒稿并削弱对会议政策的信任。 作者报告称，Pangram 对分会主席的论文返回了 24% 到 69% 不等的 AI 评分，这并不能证明 AI 写作，但显示了检测器的波动性；NeurIPS 博客描述了在合成样本上的测试，但未针对真实投稿进行测试，因此目标分布上的误报率未知。",
+  "score": 8,
+  "tags": [
+    "AI detection",
+    "NeurIPS",
+    "academic integrity",
+    "machine learning conferences",
+    "policy"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Asleep-Requirement13"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
+  "originalSite": "reddit.com",
+  "context": "像 Pangram 这样的 AI 文本检测器通过分析文本来预测其由 AI 生成的可能性。学术会议有时会使用它们来执行禁止 AI 生成内容的政策。然而，检测器在已见数据和未见数据上的准确率往往不同，并且对于与训练数据不同的人类写作可能出现高误报率，当目标分布（会议投稿）与测试集不同时，这一问题会加剧。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI Detector — Verified AI Content Checker | Pangram",
+      "url": "https://www.pangram.com/"
+    },
+    {
+      "title": "Pangram Review (2026): Is It The Most Accurate AI Detector ?",
+      "url": "https://max-productive.ai/ai-tools/pangram/"
+    },
+    {
+      "title": "The Role of AI Detection Tools in Upholding Academic ...",
+      "url": "https://www.researchgate.net/publication/388681674_The_Role_of_AI_Detection_Tools_in_Upholding_Academic_Integrity_An_Evaluation_of_their_Effectiveness"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

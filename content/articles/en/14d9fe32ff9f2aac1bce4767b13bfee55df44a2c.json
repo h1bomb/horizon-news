@@ -1,0 +1,40 @@
+{
+  "id": "14d9fe32ff9f2aac1bce4767b13bfee55df44a2c",
+  "canonicalId": "f97ec39585de0340c1926a4905a5bb716ec66cc9",
+  "slug": "export-controls-on-claude-fable-5-backfire-on-us-cyber-defense",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T05:20:00Z",
+  "lang": "en",
+  "title": "Export Controls on Claude Fable 5 Backfire on US Cyber Defense",
+  "summary": "Researchers found that asking Claude Fable 5 to 'fix this code' with known vulnerabilities was classified as a jailbreak under export controls, blocking legitimate security patching. This reveals a counterproductive regulatory interpretation. This undermines US cyber defense by preventing AI from performing essential vulnerability patching, while adversaries face no such restrictions. It highlights a critical flaw in current AI export control policies. The 'jailbreak' involved a multi-step manual process where Fable 5 refused the initial security review request but produced patch-testing scripts when asked to 'fix this code'. The capability cannot be removed without degrading defensive security abilities.",
+  "score": 8,
+  "tags": [
+    "AI policy",
+    "export controls",
+    "cybersecurity",
+    "Claude",
+    "regulatory overreach"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Export controls on AI models aim to prevent adversaries from using advanced models for cyber attacks. However, the same capabilities that enable offensive use are also essential for defensive security tasks like bug fixing and patch verification. Claude Fable 5 is a Mythos-class model from Anthropic, designed for general use with safety guardrails.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Fable 5",
+      "url": "https://en.wikipedia.org/wiki/Claude_Fable_5"
+    },
+    {
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

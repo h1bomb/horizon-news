@@ -1,0 +1,40 @@
+{
+  "id": "0d659e8af7c2656311611a98b0d0b3fca554e93d",
+  "canonicalId": "5be967de759c7e306fa035429899a14ed68979b2",
+  "slug": "openai-google-reported-providing-ai-to-blacklisted-chinese-firms-units",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T09:59:00Z",
+  "lang": "en",
+  "title": "OpenAI, Google reported providing AI to blacklisted Chinese firms' units",
+  "summary": "According to a Financial Times report, OpenAI and Google have been providing advanced AI services to Singapore-based subsidiaries of Alibaba, Baidu, and Tencent, whose parent companies are on the Pentagon's 1260H list of Chinese military companies. These transactions are currently legal under US export controls but have renewed calls for stricter regulations. This report exposes potential loopholes in US export controls on AI technology, as subsidiaries abroad may not be covered. It raises significant compliance questions for major AI providers and could accelerate the push for broader AI export restrictions. OpenAI recently suspended API access to an Alibaba affiliate after detecting model distillation and reported the incident to the US government. In contrast, Anthropic has a stricter policy that prohibits all Chinese entities and their overseas subsidiaries from accessing its frontier AI models.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "export controls",
+    "geopolitics",
+    "OpenAI",
+    "Google"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f",
+  "originalSite": "ft.com",
+  "context": "The Pentagon's 1260H list, updated annually under Section 1260H of the FY2021 NDAA, identifies Chinese companies operating in the US that are deemed to have ties to the People's Liberation Army. Model distillation is a technique where knowledge from a large AI model is transferred to a smaller one, potentially enabling unauthorized use of restricted models. Current US export controls primarily restrict direct transfer of AI technology to China, but may not cover overseas subsidiaries.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model distillation",
+      "url": "https://en.wikipedia.org/wiki/Model_distillation"
+    },
+    {
+      "title": "Pentagon Adds 65 New Entities to the 1260H List of Chinese Military Companies",
+      "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260611-pentagon-adds-65-new-entities-to-the-1260h-list-of-chinese-military-companies"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

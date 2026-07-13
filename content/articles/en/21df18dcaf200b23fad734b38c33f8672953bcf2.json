@@ -1,0 +1,44 @@
+{
+  "id": "21df18dcaf200b23fad734b38c33f8672953bcf2",
+  "canonicalId": "621c50283e705c60fb57ec113e76ae65ff8328cf",
+  "slug": "alibaba-and-tencent-simultaneously-release-3d-content-generation-ai-models",
+  "date": "2026-04-17",
+  "publishedAt": "2026-04-16T07:58:00Z",
+  "lang": "en",
+  "title": "Alibaba and Tencent Simultaneously Release 3D Content Generation AI Models",
+  "summary": "On the same day, Alibaba released its AI model 'Happy Oyster' for generating 3D interactive video content primarily for game development, while Tencent open-sourced its 'Hunyuan 3D World Model 2.0' which supports generating, reconstructing, and simulating 3D worlds from text, images, and videos. This simultaneous release by China's two tech giants signals accelerated competition in multimodal AI for 3D content creation, potentially revolutionizing game development and digital media production workflows by automating complex 3D asset generation. Tencent's model can export assets in Mesh, 3DGS, and point cloud formats, integrates with Unity and Unreal Engine workflows, and supports digital twin scene construction from spatial videos or multi-view images. Both models specifically target gaming and 3D content production applications.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "3D Generation",
+    "Gaming",
+    "Multimodal AI",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-04-16/alibaba-releases-new-ai-model-for-gaming-development",
+  "originalSite": "bloomberg.com",
+  "context": "3D Gaussian Splatting (3DGS) is a rasterization-based technique for real-time radiance field rendering that uses numerous tiny translucent ellipsoids to represent high-fidelity 3D scenes. Mesh assets are fundamental 3D model representations used in game engines like Unity and Unreal for character and environment modeling. Digital twin scenes involve creating virtual replicas of physical spaces or objects for simulation and analysis purposes.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gaussian splatting - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaussian_splatting"
+    },
+    {
+      "title": "Unity - Manual: Mesh asset",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/class-Mesh.html"
+    },
+    {
+      "title": "From map to model (and back again): building our digital twin -",
+      "url": "https://resource.esriuk.com/blog/building-our-digital-twin/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

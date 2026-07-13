@@ -1,0 +1,40 @@
+{
+  "id": "6bd91fe384d511f0836cfb09c645127826c41ad5",
+  "canonicalId": "2d681d97c1d2bbfe158bdb0e48dec686e714519d",
+  "slug": "claude-desktop-silently-registers-native-messaging-manifests-in-multiple-chromium-browsers",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-21T08:36:00Z",
+  "lang": "en",
+  "title": "Claude Desktop Silently Registers Native Messaging Manifests in Multiple Chromium Browsers",
+  "summary": "Anthropic's Claude Desktop application on macOS automatically creates native messaging manifest files in seven Chromium browser directories without user consent or notification. The manifest file points to a binary executable and pre-authorizes three specific Chrome extension IDs to communicate with the host, enabling browser automation capabilities. This behavior raises significant privacy and security concerns as it enables browser automation features like tab opening, login state sharing, DOM reading, and form filling without transparent user consent. It highlights broader issues of transparency and user control in AI software deployment, potentially affecting millions of macOS users who rely on Chromium-based browsers. The manifest file is created at application startup and rewritten on each subsequent run, even if the corresponding browsers are not installed. Anthropic's public documentation does not mention this desktop app bridging feature, though Claude Code has separate documentation for similar functionality.",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "security",
+    "AI",
+    "software-engineering",
+    "macOS"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.thatprivacyguy.com/blog/anthropic-spyware",
+  "originalSite": "thatprivacyguy.com",
+  "context": "Native messaging is a Chromium feature that allows browser extensions to communicate with native applications installed on the user's computer through manifest files. These manifest files specify the path to a native messaging host executable and authorize specific extension IDs to establish communication. On macOS, these manifests are typically stored in user-specific directories like ~/Library/Application Support/Google/Chrome/NativeMessagingHosts for various Chromium-based browsers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Native messaging | Chrome for Developers",
+      "url": "https://developer.chrome.com/docs/extensions/develop/concepts/native-messaging"
+    },
+    {
+      "title": "Native messaging - Microsoft Edge Developer documentation",
+      "url": "https://learn.microsoft.com/en-us/microsoft-edge/extensions/developer-guide/native-messaging"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

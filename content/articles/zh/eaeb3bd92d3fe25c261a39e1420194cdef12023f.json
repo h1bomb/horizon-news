@@ -1,0 +1,44 @@
+{
+  "id": "eaeb3bd92d3fe25c261a39e1420194cdef12023f",
+  "canonicalId": "3f705e5bcc540c57b5c6def4b3d1c73b5e9e26ba",
+  "slug": "jpl-用软件技巧保持好奇号火星车高效运转",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T17:30:00Z",
+  "lang": "zh",
+  "title": "JPL 用软件技巧保持好奇号火星车高效运转",
+  "summary": "JPL 工程师通过软件技巧和工程手段，包括管理闪存磨损和升级操作系统，使好奇号火星车在火星上持续运行超过 13 年。 这展示了机器人太空探索的成本效益和持久性，好奇号的成本不到最近一次载人月球任务的 5%，同时持续产出科学数据。它还展示了维护远程系统数十年的技术。 好奇号已行驶 37 公里，钻取 42 块岩石，拍摄 76.3 万张图像。工程师实施了针对老化硬件（如闪存磨损）的软件变通方案，并进行了重大软件升级，以支持更快行驶和减少车轮磨损。",
+  "score": 8,
+  "tags": [
+    "Mars rover",
+    "space exploration",
+    "embedded systems",
+    "longevity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pseudolus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48479705"
+    }
+  ],
+  "originalUrl": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+  "originalSite": "spectrum.ieee.org",
+  "context": "好奇号是一辆汽车大小的火星车，作为 NASA 火星科学实验室任务的一部分，于 2012 年着陆在盖尔陨石坑。它原设计执行两年任务，但已运行超过 13 年。该火星车使用 RAD750 处理器，这是 1990 年代 PowerPC 架构的耐辐射版本，并运行定制飞行软件。",
+  "discussion": "评论者强调了成本对比：好奇号约 30 亿美元的总成本不到最近一次约 900 亿美元的载人月球任务的 5%，引发了对机器人探索与载人探索价值的讨论。其他人对新任务中将使用的更耐辐射的骁龙处理器感到兴奋，并对好奇号的寿命感到惊叹，一位评论者指出它将至少运行到 2035 年。",
+  "references": [
+    {
+      "title": "The Ingenious Fixes Keeping the Curiosity Rover Rolling ...",
+      "url": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science"
+    },
+    {
+      "title": "Curiosity ( rover ) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)"
+    },
+    {
+      "title": "NASA’s Curiosity Mars Rover Gets a Major Software Upgrade Curiosity’s 13 Years of Software Hacks Keeps It Alive on Mars How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science GitHub - nasa-jpl/osr-rover-code: Code that runs on the Open ...",
+      "url": "https://www.jpl.nasa.gov/news/nasas-curiosity-mars-rover-gets-a-major-software-upgrade/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

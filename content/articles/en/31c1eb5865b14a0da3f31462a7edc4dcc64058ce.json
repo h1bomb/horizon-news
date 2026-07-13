@@ -1,0 +1,41 @@
+{
+  "id": "31c1eb5865b14a0da3f31462a7edc4dcc64058ce",
+  "canonicalId": "08e9aa519f8328638b1bd96afccd42541d2d00a8",
+  "slug": "meta-releases-muse-spark-11-agentic-ai-model",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T14:10:00Z",
+  "lang": "en",
+  "title": "Meta Releases Muse Spark 1.1 Agentic AI Model",
+  "summary": "Meta publicly launched Muse Spark 1.1 on July 9, 2026, a multimodal AI model designed for agentic coding, with API access available through Meta's developer platform. This release positions Meta as a major competitor to OpenAI and Anthropic in the AI coding assistant space, offering aggressive pricing at $1.25 per million input tokens and potentially disrupting the market by commoditizing coding models. The model is evaluated on Terminal-Bench 2.1, but community analysis highlights that resource limits (6 CPU cores, 8GB RAM) were overridden, which may disqualify results. Pricing is $1.25/$4.5 per million tokens for input/output, with $0.15 for cached input.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Meta",
+    "Muse Spark",
+    "LLM",
+    "benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ot",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48846184"
+    }
+  ],
+  "originalUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "originalSite": "ai.meta.com",
+  "context": "Muse Spark is Meta's most powerful AI model, first introduced in April 2026 as part of a broader scaling effort. Agentic AI systems can pursue goals, use tools, and take actions autonomously, going beyond traditional text generation. Version 1.1 specifically targets coding tasks with agentic capabilities.",
+  "discussion": "Community members are skeptical about benchmark validity; GodelNumbering points out that overriding resource caps in Terminal-Bench 2.1 disqualifies results. Simon Willison shared a practical integration tool for LLM, while others debate the strategic impact and pricing, with some noting that Meta's low prices could commoditize coding models.",
+  "references": [
+    {
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1 ...",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/"
+    },
+    {
+      "title": "Introducing Muse Spark: Scaling Towards Personal ...",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

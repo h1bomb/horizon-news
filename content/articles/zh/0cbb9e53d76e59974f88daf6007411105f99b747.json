@@ -1,0 +1,44 @@
+{
+  "id": "0cbb9e53d76e59974f88daf6007411105f99b747",
+  "canonicalId": "e7e49b412e36f22eb483bcb4501e43db6530a322",
+  "slug": "爱好者使用-claude-code-在-python-c-扩展中发现超过-500-个错误",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "爱好者使用 Claude Code 在 Python C 扩展中发现超过 500 个错误",
+  "summary": "Daniel Diniz 使用 Claude Code 系统性地分析了 44 个 Python C 扩展，在近百万行代码中发现了超过 500 个已确认的错误，其中 14 个项目的修复已合并。他开发了一个专用工具包，包含 13 个分析代理，针对引用计数和全局解释器锁处理等不同错误类别。 这展示了大型语言模型如何有效应用于复杂软件组件的系统性错误检测，可能提高广泛使用的 Python 包的安全性和可靠性。负责任的报告方式以及与维护者的合作为开源生态系统中 AI 辅助代码审查树立了积极先例。 该工具在审查后实现了 10-15% 的误报率，发现的错误包括硬崩溃、内存损坏和正确性问题。受影响的重要项目包括 Cython、Guppy 3、regex 和 Pillow，其中 Guppy 3 的维护者修复了 30 个问题中的 24 个，并发现了工具遗漏的额外错误。",
+  "score": 8,
+  "tags": [
+    "LLMs",
+    "Python",
+    "Software Testing",
+    "Open Source",
+    "Bug Detection"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 21, 14:24"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067234/",
+  "originalSite": "lwn.net",
+  "context": "Python C 扩展允许开发者用 C 语言编写与 Python 交互的性能关键代码，常用于 NumPy 和 Pillow 等库以提高速度。Claude Code 是 Anthropic 的 AI 编码代理，可以分析代码库并运行命令。系统性错误检测涉及有条理的方法而非随机更改代码，将调试视为调查过程。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Extending and Embedding the Python Interpreter — Python ...",
+      "url": "https://docs.python.org/3/extending/index.html"
+    },
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "Debugging Mastery: Systematic Bug Hunting Techniques...",
+      "url": "https://hackemtu.com/debugging-mastery-systematic-techniques/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "37d65fed76145039c0f012eb54e880416c58e589",
+  "canonicalId": "1de33045c1cba87e52944872fb4e027d544246ec",
+  "slug": "moebius-image-inpainting-model-ported-to-browser-with-claude-code",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T23:43:00Z",
+  "lang": "en",
+  "title": "Moebius image inpainting model ported to browser with Claude Code",
+  "summary": "Simon Willison successfully ported the Moebius 0.2B lightweight image inpainting model to run entirely in a web browser using WebGPU acceleration, with the help of the AI coding agent Claude Code. The demo is available at simonw.github.io/moebius-web/. This port demonstrates that state-of-the-art machine learning models can run efficiently in the browser, reducing reliance on server-side inference and enabling privacy-preserving, offline-capable applications. It lowers the barrier for developers to integrate advanced image editing capabilities into web applications. The port used ONNX Runtime Web with the WebGPU backend, avoiding the original PyTorch and CUDA dependencies. The model weights were converted to ONNX format, and Claude Code assisted with the implementation, including agentic research and code generation.",
+  "score": 8,
+  "tags": [
+    "image inpainting",
+    "WebGPU",
+    "machine learning",
+    "browser inference",
+    "Claude Code"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Moebius is a 0.2B parameter image inpainting model that achieves performance comparable to 10B-level models while being lightweight. WebGPU is a modern browser API that allows web applications to utilize the device's GPU for high-performance computation. Claude Code is an AI coding agent from Anthropic that can autonomously write, edit, and debug code across a project.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B ...",
+      "url": "https://hustvl.github.io/Moebius/"
+    },
+    {
+      "title": "GitHub - mlc-ai/web-llm: High-performance In-browser LLM Inference Engine · GitHub",
+      "url": "https://github.com/mlc-ai/web-llm"
+    },
+    {
+      "title": "How Claude Code works - Claude Code Docs",
+      "url": "https://code.claude.com/docs/en/how-claude-code-works"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

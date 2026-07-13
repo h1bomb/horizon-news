@@ -1,0 +1,44 @@
+{
+  "id": "e304d2ca38d4e070b70469fcd82471bf89e538a6",
+  "canonicalId": "0e25a0e106f0683501e0ee99aad3825a52d2fb1f",
+  "slug": "wordgardprosemirror-作者推出的全新富文本编辑器",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T08:50:00Z",
+  "lang": "zh",
+  "title": "Wordgard：ProseMirror 作者推出的全新富文本编辑器",
+  "summary": "ProseMirror 的创建者 Marijn Haverbeke 发布了 Wordgard 0.1，这是一个全新的浏览器内富文本编辑器库，专注于可扩展性和编程访问。 Wordgard 代表了该领域最具影响力的人物之一对 WYSIWYG 编辑的全新思考，可能塑造下一代 Web 编辑器并影响像 TipTap 这样的框架。 Wordgard 是完全重写的，不是 ProseMirror 的升级路径，共享许多概念但需要大量迁移工作。它专为编辑符合特定模式的内容而设计，而非通用 HTML。",
+  "score": 8,
+  "tags": [
+    "rich-text editor",
+    "ProseMirror",
+    "web development",
+    "WYSIWYG"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "indy",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48772573"
+    }
+  ],
+  "originalUrl": "https://wordgard.net/",
+  "originalSite": "wordgard.net",
+  "context": "ProseMirror 是 Marijn Haverbeke 开发的开源富文本编辑器框架，为 TipTap 等编辑器提供支持。Wordgard 是集成了九年经验的下一个迭代，为可定制性和程序化控制提供了重新设计的架构。",
+  "discussion": "社区总体上很兴奋，但对新编辑器的动机感到好奇。一些人指出缺乏从 ProseMirror 的升级路径，而另一些人则称赞其设计并认为这种方法很有价值。用户还讨论了在 ProseMirror 模式中进行静态类型检查的困难。",
+  "references": [
+    {
+      "title": "Wordgard",
+      "url": "https://wordgard.net/"
+    },
+    {
+      "title": "Wordgard Release 0.1",
+      "url": "https://marijnhaverbeke.nl/blog/wordgard-0.1.html"
+    },
+    {
+      "title": "Wordgard System Guide",
+      "url": "https://wordgard.net/docs/guide/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

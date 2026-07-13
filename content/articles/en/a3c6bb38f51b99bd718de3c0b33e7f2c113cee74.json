@@ -1,0 +1,41 @@
+{
+  "id": "a3c6bb38f51b99bd718de3c0b33e7f2c113cee74",
+  "canonicalId": "ec0ec7ba105cf5524a87651f6c79801356118fce",
+  "slug": "orthrus-accelerates-qwen3-8b-up-to-78x-with-diffusion-attention",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-15T19:07:00Z",
+  "lang": "en",
+  "title": "Orthrus accelerates Qwen3-8B up to 7.8x with diffusion attention",
+  "summary": "Orthrus introduces a dual-architecture framework that augments a frozen Qwen3-8B with a lightweight diffusion attention module, achieving up to 7.8x token-per-forward speedup while provably preserving the original output distribution. This breakthrough significantly reduces LLM inference latency without any loss in accuracy, making large models more practical for real-time applications. It also challenges existing acceleration methods like speculative decoding by eliminating external drafters and cache overhead. The method trains only 16% of the model's parameters on fewer than 1 billion tokens for 24 hours on 8×H200 GPUs. It uses a shared KV cache between the diffusion and autoregressive heads, resulting in a flat KV overhead of about 4.5 MiB.",
+  "score": 9,
+  "tags": [
+    "efficient inference",
+    "diffusion attention",
+    "Qwen",
+    "transformer optimization",
+    "LLM speedup"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Franck_Dernoncourt",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1te5xpu/orthrusqwen38b_up_to_78tokensforward_on_qwen38b/"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/kmqh40q2nc1h1.gif",
+  "originalSite": "i.redd.it",
+  "context": "Autoregressive LLMs generate tokens sequentially, which limits speed. Diffusion models can generate multiple tokens in parallel. Orthrus combines both by adding a trainable diffusion module to a frozen autoregressive model, enabling parallel token generation while ensuring the output distribution matches the original model exactly.",
+  "discussion": "The community shows strong interest with questions about applicability to MoE models, larger contexts, RAM usage, and scaling to larger models. Some commenters praise the approach as a paradigm shift and inquire about integration with frameworks like llama.cpp.",
+  "references": [
+    {
+      "title": "GitHub - chiennv2000/orthrus: Fast, lossless LLM inference ...",
+      "url": "https://github.com/chiennv2000/orthrus"
+    },
+    {
+      "title": "chiennv/Orthrus-Qwen3-8B · Hugging Face",
+      "url": "https://huggingface.co/chiennv/Orthrus-Qwen3-8B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

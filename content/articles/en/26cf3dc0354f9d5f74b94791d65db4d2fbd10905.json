@@ -1,0 +1,40 @@
+{
+  "id": "26cf3dc0354f9d5f74b94791d65db4d2fbd10905",
+  "canonicalId": "ba9214708916463060d314bdc03617d563974c7d",
+  "slug": "famfs-filesystem-faces-potential-bpf-redesign",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T13:44:00Z",
+  "lang": "en",
+  "title": "Famfs Filesystem Faces Potential BPF Redesign",
+  "summary": "At the 2026 LSFMM+BPF summit, a suggestion emerged to rewrite the famfs filesystem using BPF instead of its current FUSE-based implementation, causing frustration for maintainer John Groves who believed the code was nearly ready for mainline merging. This debate could significantly delay the adoption of famfs, a specialized filesystem for CXL-attached shared memory that enables efficient access to large read-mostly datasets across multiple systems. The outcome will influence how future kernel filesystems balance performance and maintainability. Famfs originally used a standalone kernel filesystem, then moved to FUSE with two new operations (GET_FMAP and GET_DAXDEV) to avoid user-space page fault overhead. The new proposal suggests moving famfs-specific logic into BPF programs, which could further reduce kernel changes but requires significant rework.",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "filesystem",
+    "CXL",
+    "BPF",
+    "memory management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1068686/",
+  "originalSite": "lwn.net",
+  "context": "Famfs (Fabric Attached Memory File System) is designed for large read-mostly datasets stored in CXL-attached shared memory, allowing multiple hosts to access data via mmap() without system calls. CXL (Compute Express Link) is an interconnect that maintains memory coherency between CPUs and attached devices, enabling resource pooling. The LSFMM+BPF summit is an annual gathering of Linux kernel developers focused on storage, filesystems, memory management, and BPF.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - cxl-micron-reskit/famfs: This is the user space repo ...",
+      "url": "https://github.com/cxl-micron-reskit/famfs"
+    },
+    {
+      "title": "Compute Express Link - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compute_Express_Link"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

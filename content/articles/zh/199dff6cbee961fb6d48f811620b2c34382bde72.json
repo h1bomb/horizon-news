@@ -1,0 +1,44 @@
+{
+  "id": "199dff6cbee961fb6d48f811620b2c34382bde72",
+  "canonicalId": "a0762558ac902446084688fe1ad2bafd64f71fa7",
+  "slug": "rio-35-被揭露为套壳-nex-和-qwen-的开源模型",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T12:39:00Z",
+  "lang": "zh",
+  "title": "Rio 3.5 被揭露为套壳 Nex 和 Qwen 的开源模型",
+  "summary": "此前被誉为开源 SOTA 的 Rio 3.5 模型被 Nex 团队揭露为套壳模型，实为 Nex 和 Qwen 的混合产物。证据显示，模型有 79% 概率自称 Nex，且权重线性插值混合比例约为 0.57:0.43。 这一事件严重损害了开源 AI 社区的信任，凸显了模型发布中透明性和诚信的必要性。同时也再次引发对中国 AI 生态中抄袭问题的关注。 曝光后，Rio 3.5 已从 Hugging Face 下架，团队致歉并声称上传的是“未经最终蒸馏的错误版本”。Rio 与两个模型的共线性超过 0.98，几乎不可能是独立训练所得。",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "AI model",
+    "controversy",
+    "plagiarism",
+    "community trust"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/0oYevRBT8PPxG5hudOXxug",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "模型蒸馏是一种知识迁移技术，让小模型从大教师模型学习，以减小体积和成本。但“套壳”模型直接组合或模仿现有模型而不注明出处，构成抄袭。类似事件包括 Cursor 的 Composer 2 被曝实际为 Kimi，以及斯坦福团队的 Llama3-V 被指抄袭清华面壁的 MiniCPM-Llama3-V 2.5。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NEX ：下一代能动性 模 型 体系与开源生态",
+      "url": "https://www.sii.edu.cn/2025/1120/c27a605/page.htm"
+    },
+    {
+      "title": "模型蒸馏是什么？一文带你搞懂“模型蒸馏”看这篇就够了！ - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/1914629163857473685"
+    },
+    {
+      "title": "一文读懂到底什么是“模型蒸馏（Model Distillation）”技术？-腾讯云开...",
+      "url": "https://cloud.tencent.com/developer/article/2517760"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cd8b54cd490bcbbfb2b4c35112bc53ce5af35829",
+  "canonicalId": "cc75760dcbbd1b698eaf4a0ebde244401bea3a8f",
+  "slug": "tinytpu-live-browser-visualization-of-a-systolic-array-from-real-rtl",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T20:05:00Z",
+  "lang": "en",
+  "title": "TinyTPU: Live Browser Visualization of a Systolic Array from Real RTL",
+  "summary": "TinyTPU is a new educational tool that compiles a 4×4 weight-stationary systolic array written in SystemVerilog to WebAssembly, allowing users to step through matrix multiplication execution in a browser with state directly read from the compiled RTL. It bridges the gap between abstract diagrams of TPU internals and actual hardware behavior, making systolic array concepts like weight-stationary dataflow and diagonal skew tangible for students and engineers. The visualization offers three levels: a single MAC cell, the full 4×4 array executing a real matrix multiply, and tiling for matrices larger than the hardware. It is open-source on GitHub.",
+  "score": 8,
+  "tags": [
+    "systolic array",
+    "TPU",
+    "hardware visualization",
+    "SystemVerilog",
+    "WASM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Horror-Flamingo-2150"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/",
+  "originalSite": "reddit.com",
+  "context": "A systolic array is a network of processors that rhythmically compute and pass data, often used in hardware accelerators like Google's TPU for efficient matrix multiplication. Weight-stationary architecture fixes weights in processing elements (PEs) while streaming inputs, minimizing data movement. Tiling allows large matrices to be processed by smaller arrays by breaking them into blocks.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Systolic array - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Systolic_array"
+    },
+    {
+      "title": "Understanding Matrix Multiplication on a Weight-Stationary Systolic Architecture | Telesens",
+      "url": "https://telesens.co/2018/07/30/systolic-architectures/"
+    },
+    {
+      "title": "Tiling in matrix multiplication . Hey! so…. you have been... | Medium",
+      "url": "https://medium.com/@shouryagoel10000/tiling-in-matrix-multiplication-16f918ea01e5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2cd7d45217e9050da49d9a7bcfd6c0b2201e1b61",
+  "canonicalId": "e41daac3269563c399a2ada9554bcbc83865a3c8",
+  "slug": "kimi-team-proposes-attention-residuals-to-replace-fixed-residual-connections-in-llms",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T09:05:00Z",
+  "lang": "en",
+  "title": "Kimi Team Proposes Attention Residuals to Replace Fixed Residual Connections in LLMs",
+  "summary": "The Kimi Team published a paper introducing Attention Residuals (AttnRes), a method that replaces fixed residual connections in large language models with softmax attention over preceding layer outputs. They also developed Block AttnRes, which partitions layers into blocks to reduce memory overhead while maintaining performance gains. This addresses the problem of hidden-state dilution in deep transformers, where fixed residual connections cause uncontrolled growth and progressive dilution of each layer's contribution. The method could improve model performance and training stability across different model sizes, potentially advancing transformer architecture design. The approach uses content-dependent depth-wise selection through softmax attention, allowing each layer to selectively aggregate earlier representations with learned weights. Block AttnRes reduces memory footprint by partitioning layers into blocks and attending over block-level representations, making it practical for large-scale training with minimal overhead.",
+  "score": 8,
+  "tags": [
+    "machine-learning",
+    "transformers",
+    "residual-connections",
+    "attention-mechanisms",
+    "large-language-models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Nunki08"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rw1eag/r_attention_residuals_by_kimi_team/",
+  "originalSite": "reddit.com",
+  "context": "Residual connections with PreNorm are standard in modern LLMs, where each layer adds its output to the previous layer's output with fixed unit weights. This uniform aggregation causes uncontrolled hidden-state growth with depth, progressively diluting each layer's contribution. The Transformer architecture originally replaced recurrence in RNNs with attention mechanisms that allow selective access to previous positions with data-dependent weights.",
+  "discussion": "Community discussion shows mixed but generally positive sentiment, with some users noting the approach makes intuitive sense and shows promising results. Several comments draw comparisons to existing techniques like highway networks, GRUs, and LSTMs, while others question the novelty and practical gains compared to simply increasing parameters. There's particular interest in how the method impacts training stability at very deep scales.",
+  "references": [
+    {
+      "title": "ATTENTION RESIDUALS TECHNICAL REPORT OF ATTENTION RESIDUALS Kimi Team",
+      "url": "https://arxiv.org/pdf/2603.15031"
+    },
+    {
+      "title": "GitHub - MoonshotAI/Attention-Residuals · GitHub",
+      "url": "https://github.com/MoonshotAI/Attention-Residuals"
+    },
+    {
+      "title": "Moonshot AI Releases 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔 to Replace Fixed Residual Mixing with Depth-Wise Attention for Better Scaling in Transformers - MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏-𝑹𝒆𝒔𝒊𝒅/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

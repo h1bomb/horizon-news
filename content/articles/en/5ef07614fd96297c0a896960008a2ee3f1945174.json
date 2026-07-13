@@ -1,0 +1,44 @@
+{
+  "id": "5ef07614fd96297c0a896960008a2ee3f1945174",
+  "canonicalId": "267c4bf063e406f480599cbf04c91e915d32956e",
+  "slug": "statecharts-hierarchical-state-machines-for-ui",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-26T09:32:00Z",
+  "lang": "en",
+  "title": "Statecharts: Hierarchical State Machines for UI",
+  "summary": "Statecharts.dev provides an introduction to hierarchical state machines, with community discussion highlighting their value in UI development and nuances like history pseudo-states. Statecharts help manage complex UI logic by organizing states hierarchically, making interactions easier to reason about and maintain. The discussion from XState creator and others underscores their practical utility in modern software engineering. History pseudo-states (H, H*) introduce non-determinism because entering a parent via H restores the last active child, meaning the same event can lead to different states. XState is a JavaScript/TypeScript library for authoring, executing, and visualizing state machines and statecharts.",
+  "score": 8,
+  "tags": [
+    "statecharts",
+    "state machines",
+    "UI development",
+    "XState",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sph"
+    }
+  ],
+  "originalUrl": "https://statecharts.dev/",
+  "originalSite": "statecharts.dev",
+  "context": "A state machine is a model of behavior with a finite number of states and transitions between them. Hierarchical state machines (statecharts) extend this by allowing states to contain sub-states, reducing complexity through nesting. They are widely used in UI development, embedded systems, and protocol modeling.",
+  "discussion": "The community discussion includes insights from XState creator David Khourshid, who emphasizes treating statecharts as executable behavior rather than just documentation. Another commenter notes that history pseudo-states break the deterministic promise, as they introduce hidden state not shown in diagrams.",
+  "references": [
+    {
+      "title": "Hierarchical State Machine",
+      "url": "https://en.wikipedia.org/wiki/Hierarchical_State_Machine"
+    },
+    {
+      "title": "XState - JavaScript State Machines and Statecharts",
+      "url": "https://xstate.js.org/"
+    },
+    {
+      "title": "XState",
+      "url": "https://stately.ai/docs/xstate"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

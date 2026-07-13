@@ -1,0 +1,44 @@
+{
+  "id": "6795ed67bb43999d1746d668d44beb689c48ab98",
+  "canonicalId": "d4f83f6f506b0362277c15643c130cd37d886695",
+  "slug": "ai-scraper-bots-worsen-fueled-by-residential-proxies",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T15:20:00Z",
+  "lang": "en",
+  "title": "AI scraper bots worsen, fueled by residential proxies",
+  "summary": "LWN reports that the problem of AI scraper bots overwhelming websites has worsened since early 2025, with attacks traced primarily to residential proxy networks operated by both criminal and ostensibly legitimate entities. This escalating scraping activity threatens the sustainability of the open web by consuming server resources and undermining site owners' control over their content, with implications for content creators and web infrastructure operators. Attacks originate from millions of unique IP addresses via residential proxies, often without device owners' knowledge; the takedown of the IPIDEA botnet in early 2026 temporarily reduced traffic but the respite was short-lived.",
+  "score": 8,
+  "tags": [
+    "AI scraping",
+    "web infrastructure",
+    "bots",
+    "residential proxies",
+    "open web"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1080822/",
+  "originalSite": "lwn.net",
+  "context": "Residential proxies are IP addresses assigned by ISPs to real users, repurposed to route traffic for scraping. Attackers use these to appear as legitimate human visitors, evading simple IP-based blocking. Networks range from malware-compromised devices to 'ethically sourced' proxy services like Bright Data's free VPN.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Buy Residential Proxies - $1 per 1 GB | DataImpulse",
+      "url": "https://dataimpulse.com/residential-proxies/"
+    },
+    {
+      "title": "Buy Fast Residential IP Proxies From Best Provider - Free Trial",
+      "url": "https://oxylabs.io/products/residential-proxy-pool"
+    },
+    {
+      "title": "Residential Proxies | Proxyrack",
+      "url": "https://www.proxyrack.com/residential-proxies/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "af5a44bc2b9f294e948b533f4558e4f25c3b02e3",
+  "canonicalId": "132661f52ef9cdf65f3eb60ee2145f61f234524d",
+  "slug": "虚构事件报告揭示-rust-供应链风险",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-11T00:00:00Z",
+  "lang": "zh",
+  "title": "虚构事件报告揭示 Rust 供应链风险",
+  "summary": "一份名为 CVE-2024-YIKES 的详细虚构事件报告展示了对 Rust crate 生态系统的复杂供应链攻击，利用一个只有 12 颗星但作为 cargo 间接依赖的库 vulpine-lz4 渗透到构建流程中。 这份报告凸显了开源生态系统中供应链攻击的真实且日益增长的威胁，尤其是在 Rust crate 生态系统中，由于传递性依赖，小而隐蔽的包可能产生巨大影响。 攻击向量涉及破解一个小型库维护者的凭证，该库是 cargo 本身的传递性依赖，展示了低星包如何被用作入口点。",
+  "score": 8,
+  "tags": [
+    "supply-chain",
+    "security",
+    "incident-response",
+    "rust",
+    "fictional-scenario"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 10, 17:43",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48086082"
+    }
+  ],
+  "originalUrl": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+  "originalSite": "nesbitt.io",
+  "context": "软件供应链攻击针对开发和分发管道，将恶意代码插入合法软件中。在 Rust 生态系统中，crates.io 是官方包注册中心，cargo 依赖许多组件，其中一些可能监管不足。这个虚构场景反映了现实世界中的事件，如 SolarWinds 攻击和 ua-parser-js 入侵。",
+  "discussion": "评论者识别出这个故事是虚构的，但赞赏其现实性和技术准确性。一些用户指出可能被类似利用的特定 crate，而其他人则反思了快速开发时代更广泛的安全挑战。",
+  "references": [
+    {
+      "title": "Are Rust crates secure? - The Rust Programming Language Forum",
+      "url": "https://users.rust-lang.org/t/are-rust-crates-secure/18860"
+    },
+    {
+      "title": "Regarding the Security / Safety of Libraries on Crates.io - The",
+      "url": "https://users.rust-lang.org/t/regarding-the-security-safety-of-libraries-on-crates-io/66294"
+    },
+    {
+      "title": "10 Supply Chain Attack Examples and How to Detect Them",
+      "url": "https://www.breachsense.com/blog/supply-chain-attack-examples/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

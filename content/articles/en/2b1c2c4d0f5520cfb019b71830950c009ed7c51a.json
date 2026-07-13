@@ -1,0 +1,44 @@
+{
+  "id": "2b1c2c4d0f5520cfb019b71830950c009ed7c51a",
+  "canonicalId": "2631e55ffbc0bf199c84ef975faff7e2af73363e",
+  "slug": "fbi-fails-to-extract-data-from-reporters-iphone-13-due-to-apples-lockdown-mode-in-leak-investigation",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-28T08:57:00Z",
+  "lang": "en",
+  "title": "FBI fails to extract data from reporter's iPhone 13 due to Apple's Lockdown Mode in leak investigation.",
+  "summary": "The FBI recently disclosed that its Computer Analysis Response Team (CART) could not extract data from Washington Post reporter Hannah Natanson's iPhone 13 because it was enabled with Apple's Lockdown Mode, despite accessing other devices like her MacBook Pro in a leak investigation targeting government contractor Aurelio Perez-Lugones. This incident highlights the effectiveness of Apple's Lockdown Mode in protecting user data against sophisticated extraction attempts by law enforcement, potentially setting a precedent for digital privacy rights and impacting future investigations involving high-security devices. The FBI accessed the reporter's MacBook Pro via fingerprint unlock and retrieved some Signal communications, but Lockdown Mode on the iPhone 13 prevented data extraction, showcasing its role as an extreme protection feature designed for targeted threats.",
+  "score": 7,
+  "tags": [
+    "cybersecurity",
+    "privacy",
+    "Apple",
+    "law-enforcement",
+    "digital-rights"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40569",
+  "originalSite": "t.me",
+  "context": "Lockdown Mode is an optional security feature introduced by Apple to protect devices against highly sophisticated cyber attacks, such as mercenary spyware, by limiting certain functionalities. The FBI's Computer Analysis Response Team (CART) is a digital forensic unit that handles evidence extraction for investigations. Signal is an encrypted messaging app that uses the Signal Protocol for end-to-end encryption, making communications secure from interception.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "About Lockdown Mode - Apple Support",
+      "url": "https://support.apple.com/en-us/105120"
+    },
+    {
+      "title": "DIGITAL FORENSIC EXAMINER - FBIJOBS",
+      "url": "https://fbijobs.gov/sites/default/files/2022-08/career_digital_forensic_examiner_2.pdf"
+    },
+    {
+      "title": "Signal Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Signal_Protocol"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "7dd52b5dc2deea01898c432af0c5288bf94caff3",
+  "canonicalId": "78a651127734d600d90be35582990193d17244da",
+  "slug": "tongyi-lab-open-sources-film-grade-dubbing-model-fun-cineforge-with-novel-time-modality",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T11:20:00Z",
+  "lang": "en",
+  "title": "Tongyi Lab open-sources film-grade dubbing model Fun-CineForge with novel time modality",
+  "summary": "Tongyi Lab has open-sourced Fun-CineForge, a multimodal dubbing model that introduces time modality for the first time in dubbing models, enabling audio-visual synchronization even in complex scenarios like missing speaker faces. The model outperforms DeepDubber-V1 and InstructDubber in monologue scenarios across metrics like word error rate, lip sync, time alignment, and voice similarity. This represents a significant advancement in AI-powered dubbing technology, potentially revolutionizing film and video production by enabling more natural, synchronized audio in diverse scenarios like monologues, narration, and multi-speaker dialogues. The open-source release on GitHub, HuggingFace, and ModelScope makes this technology accessible to developers and researchers, accelerating innovation in the field. Fun-CineForge is built on CosyVoice3 speech synthesis capabilities and currently supports inference on video segments up to 30 seconds. It handles various film dubbing scenarios including monologues, narration, dialogues, and multi-speaker situations.",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "Multimodal Models",
+    "Speech Synthesis",
+    "Open Source",
+    "Computer Vision"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/MylZJGEYgYiBS6fq53v2XQ",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Multimodal models combine different types of data, such as audio, video, and text, to perform complex tasks like dubbing. Time modality refers to modeling temporal relationships in data, which is crucial for synchronizing audio with visual elements in videos. CosyVoice3 is Alibaba's state-of-the-art speech synthesis model that enables zero-shot voice cloning and multilingual speech generation. DeepDubber-V1 and InstructDubber are existing multimodal dubbing models that Fun-CineForge outperforms in comparison tests.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Multi-modal Time Series Analysis: A Tutorial and Survey",
+      "url": "https://arxiv.org/pdf/2503.13709"
+    },
+    {
+      "title": "CosyVoice 3 : Scaling Towards In-the-Wild Speech ... | VOCALCopyCat",
+      "url": "https://www.vocalcopycat.com/blog/cosyvoice-3-scaling-towards-inthewild-speech-generation"
+    },
+    {
+      "title": "[2503.23660] DeepDubber-V1: Towards High Quality and Dialogue, Narration, Monologue Adaptive Movie Dubbing Via Multi-Modal Chain-of-Thoughts Reasoning Guidance",
+      "url": "https://arxiv.org/abs/2503.23660"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

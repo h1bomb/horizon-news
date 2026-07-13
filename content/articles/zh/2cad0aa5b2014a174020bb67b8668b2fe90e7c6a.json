@@ -1,0 +1,44 @@
+{
+  "id": "2cad0aa5b2014a174020bb67b8668b2fe90e7c6a",
+  "canonicalId": "40b2682489db197fa500c29c8af1b15640d5577b",
+  "slug": "linux-内核补丁允许-bpf-程序在可休眠与原子上下文之间切换",
+  "date": "2026-03-24",
+  "publishedAt": "2026-03-24T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核补丁允许 BPF 程序在可休眠与原子上下文之间切换",
+  "summary": "Puranjay Mohan 提出了一套补丁集，允许在可休眠上下文中运行的 BPF 程序临时获取锁并切换到原子上下文，解决了当前此类切换被禁止的限制。该实现引入了一个新的 KF_FORBID_FAULT 标记，使 BPF 验证器能够以指令为单位跟踪休眠权限，而不是对整个程序进行全局限制。 这一进展意义重大，因为它允许更多 BPF 程序被标记为可休眠，从而使它们能够从用户空间复制数据——这是一种需要休眠能力的常见操作。通过提供更细粒度的上下文跟踪，该补丁集增强了 Linux 内核中 BPF 程序的灵活性和性能，可能扩展其在内存管理和并发控制等领域的应用场景。 该补丁集添加了一个 KF_FORBID_FAULT 标记，该标记只能用于已标记为 KF_ACQUIRE 的 kfuncs，在持有获取的资源时暂时阻止程序休眠。然而，BPF 维护者 Alexei Starovoitov 对部分实现提出了异议，这意味着补丁的接受取决于 Mohan 能否解决这些问题。",
+  "score": 7,
+  "tags": [
+    "Linux Kernel",
+    "BPF",
+    "Kernel Programming",
+    "Concurrency",
+    "Patch Development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 23, 16:00"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1062868/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核中的 BPF（Berkeley Packet Filter）程序可以在可休眠或原子（不可休眠）上下文中运行。原子上下文禁止可能延迟内核执行的操作，例如等待 I/O 或处理页面错误。2020 年引入的可休眠 BPF 程序允许从用户空间复制数据，但被限制调用许多假定原子上下文的现有 BPF 接口。Kfuncs 是 BPF 程序可访问的内核函数，KF_ACQUIRE 和 KF_RELEASE 等标记帮助验证器跟踪资源管理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Sleepable BPF programs [LWN.net]",
+      "url": "https://lwn.net/Articles/825415/"
+    },
+    {
+      "title": "BPF Kernel Functions (kfuncs) — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/bpf/kfuncs.html"
+    },
+    {
+      "title": "Concurrency management in BPF [LWN.net]",
+      "url": "https://lwn.net/Articles/779120/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

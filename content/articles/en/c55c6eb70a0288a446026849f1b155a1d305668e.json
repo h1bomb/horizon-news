@@ -1,0 +1,44 @@
+{
+  "id": "c55c6eb70a0288a446026849f1b155a1d305668e",
+  "canonicalId": "0deaf33f30ef9c0667e0f9dc7448dc3e751df0eb",
+  "slug": "anthropic-launches-project-glasswing-an-ai-powered-tool-for-finding-software-vulnerabilities",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T18:09:00Z",
+  "lang": "en",
+  "title": "Anthropic launches Project Glasswing, an AI-powered tool for finding software vulnerabilities.",
+  "summary": "Anthropic has launched Project Glasswing, an AI-powered cybersecurity tool that uses the Claude Mythos Preview model to identify software vulnerabilities that traditional methods like fuzzing often miss. The project involves major tech partners including Apple and Google, with Anthropic sharing insights to benefit the broader industry. This matters because it represents a significant advancement in AI-driven cybersecurity, potentially enhancing the security of critical software infrastructure against evolving threats. If effective, it could disrupt industries like commercial spyware by reducing vulnerabilities in major operating systems, shifting attackers toward human-centric exploits. Project Glasswing leverages the unreleased Claude Mythos Preview model, which has shown capabilities in identifying zero-day vulnerabilities, but its superiority over fuzzing is not fully proven and may have complementary strengths. Anthropic will not release Mythos Preview generally, limiting access to select partners for defensive security work.",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Cybersecurity",
+    "Software Engineering",
+    "Vulnerability Detection",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Ryan5453"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/glasswing",
+  "originalSite": "anthropic.com",
+  "context": "Fuzzing is an automated software testing technique that injects random or malformed inputs to find vulnerabilities like buffer overflows, widely used for cybersecurity but may miss complex bugs. Claude Mythos Preview is an advanced large language model developed by Anthropic, designed for tasks such as reasoning and vulnerability detection, building on the Claude series known for constitutional AI. Project Glasswing aims to apply AI to defensive cybersecurity, addressing gaps left by traditional methods in an era of increasing state-sponsored and sophisticated attacks.",
+  "discussion": "Community discussion includes skepticism about marketing claims, with some users questioning if the tool is truly better than fuzzing or just complementary. Others highlight potential impacts, such as disrupting the spyware industry if applied to mobile OSes, and debates on state-sponsored threats, with one user noting omissions in listed threat actors. Sentiment is mixed, balancing optimism for technical advancement with caution over unverified effectiveness.",
+  "references": [
+    {
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing"
+    },
+    {
+      "title": "Fuzzing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fuzzing"
+    },
+    {
+      "title": "Claude Mythos Preview",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos_Preview"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

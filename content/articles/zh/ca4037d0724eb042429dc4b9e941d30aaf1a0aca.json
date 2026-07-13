@@ -1,0 +1,41 @@
+{
+  "id": "ca4037d0724eb042429dc4b9e941d30aaf1a0aca",
+  "canonicalId": "0928cabef376bc09ed2ef1b792fcffacf6cbfd37",
+  "slug": "z-lab-发布-gemma-4-26b-的-dflash-推测解码器",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-09T00:00:00Z",
+  "lang": "zh",
+  "title": "Z-lab 发布 Gemma 4 26B 的 DFlash 推测解码器",
+  "summary": "Z-lab 在 Hugging Face 上发布了 Gemma 4 26B 模型的 DFlash 推测解码器，通过块扩散草稿实现更快的推测解码。 DFlash 因其有状态设计和并行草拟，承诺比 MTP 在长上下文上有更优性能，可能惠及大语言模型的推理服务用户。 DFlash 使用轻量级块扩散模型进行并行 token 草拟，并在迭代中保持持久的 KV 缓存和 RoPE 偏移状态，在长上下文中可能比 MTP 退化更平缓。",
+  "score": 8,
+  "tags": [
+    "gemma-4",
+    "dflash",
+    "speculative decoding",
+    "vLLM",
+    "inference acceleration"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 8, 14:18",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t79ayh/zlab_released_gemma426ba4bitdflash_anybody_tried/"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/z-lab/gemma-4-26B-A4B-it-DFlash",
+  "originalSite": "huggingface.co",
+  "context": "推测解码通过使用草稿模型提出多个 token 并由目标模型联合验证来加速自回归生成。DFlash 是一种变体，通过一次前向传播中的块扩散生成草稿；而 MTP（多 token 预测）复用目标模型的 KV 缓存，但在长上下文中可能面临缓存膨胀问题。DFlash 推测解码器目前针对 vLLM 优化，且可能比 MTP 有更高的内存需求。",
+  "discussion": "社区成员纠正了一个误解，即 MTP 在长上下文中退化更快，指出 Gemma 4 的 MTP 复用了模型的 KV 缓存。用户报告了混合结果：有人看到高内存使用，也有人认为 DFlash 的有状态设计有前景但目前仅限于 vLLM 和小上下文规模。",
+  "references": [
+    {
+      "title": "GitHub - z-lab/dflash: DFlash: Block Diffusion for Flash Speculative Decoding · GitHub",
+      "url": "https://github.com/z-lab/dflash"
+    },
+    {
+      "title": "[2602.06036] DFlash: Block Diffusion for Flash Speculative",
+      "url": "https://arxiv.org/abs/2602.06036"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

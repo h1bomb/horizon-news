@@ -1,0 +1,44 @@
+{
+  "id": "f7c68d3bedc90070fa252f43cdfba05b243c1746",
+  "canonicalId": "dff56ece1971ce54d762bf8a01ccf52ffbd15cdc",
+  "slug": "openai-发布-gpt-53-instant改进拒绝判断并降低幻觉率",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-04T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-5.3 Instant，改进拒绝判断并降低幻觉率。",
+  "summary": "OpenAI 宣布对其最常用的 ChatGPT 模型 GPT-5.3 Instant 进行更新，该版本能提供更准确的答案、上下文更丰富的网络搜索结果，并减少不必要的拒绝回答和过于武断的措辞。内部评估显示，在启用网络搜索时，该版本在医疗、法律和金融等高危领域的幻觉率较前代降低了 26.8%。 此次更新直接回应用户对模型质量下降以及回答过于谨慎或冗长的抱怨，旨在让 AI 助手在日常对话中更加流畅和实用。它也凸显了在快速演进的大语言模型中，平衡安全性、准确性和用户体验这一持续的行业挑战。 该模型被描述为对“最常用”的日常对话模型的更新，重点是减少“不必要的对话终结”和改进拒绝判断。它是 GPT-5 系列的一部分，其中“Instant”变体通常针对速度进行优化，与为深度推理设计的“Thinking”或“Pro”变体形成对比。",
+  "score": 8,
+  "tags": [
+    "openai",
+    "llm",
+    "ai-ethics",
+    "product-strategy",
+    "nlp"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 3, 17:57"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/gpt-5-3-instant/",
+  "originalSite": "openai.com",
+  "context": "像 GPT 这样的大语言模型（LLM）是在海量文本上训练的 AI 系统，用于生成类人回应。“拒绝判断”指的是模型决定何时拒绝回答查询的能力，通常是出于安全或伦理原因，但过于宽泛的拒绝策略会让用户感到沮丧。“模型退化”是一个已知现象，指 AI 系统的性能或输出质量会随着时间的推移或更新后无意中变差。",
+  "discussion": "社区情绪复杂，用户对近期模型中感知到的回答质量下降以及不自然、冗长的措辞表示失望。同时，用户对 OpenAI 的品牌策略感到困惑，担心模型变体（Instant、Thinking、Pro）的激增让人难以选择正确的版本。一些评论将其与其他行业的营销策略相提并论，并对针对不同人口群体不一致的拒绝策略提出了伦理质疑。",
+  "references": [
+    {
+      "title": "GPT‑5.3 Instant: Smoother, more useful everyday conversations",
+      "url": "https://openai.com/index/gpt-5-3-instant/"
+    },
+    {
+      "title": "Learn to Refuse : Making Large Language Models More Controllable...",
+      "url": "https://arxiv.org/html/2311.01041v2"
+    },
+    {
+      "title": "Which ChatGPT Model is Best for You? GPT-5.3-Codex, GPT-5.3 ...",
+      "url": "https://www.kommunicate.io/blog/chatgpt-models-explained/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

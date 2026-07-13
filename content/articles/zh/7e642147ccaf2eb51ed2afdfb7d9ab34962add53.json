@@ -1,0 +1,44 @@
+{
+  "id": "7e642147ccaf2eb51ed2afdfb7d9ab34962add53",
+  "canonicalId": "c96ed9d64f64fb2b540aff1ac341c7f39d1eefa4",
+  "slug": "开源-rust-应用利用-ai-模型实现零配置漫画自动翻译",
+  "date": "2026-03-15",
+  "publishedAt": "2026-03-15T00:00:00Z",
+  "lang": "zh",
+  "title": "开源 Rust 应用利用 AI 模型实现零配置漫画自动翻译",
+  "summary": "开发者发布了 Koharu，这是一款开源 Rust 应用，通过结合 YOLO 进行文本检测、自定义 OCR、LaMa 进行修复、LLMs 进行翻译以及自定义文本渲染引擎，实现漫画页面的自动翻译。该应用捆绑了 CUDA，无需配置即可立即使用。 该工具通过无需技术配置即可让非专家使用，民主化了漫画翻译，可能加速粉丝翻译和内容本地化。它代表了将多种 AI 技术（计算机视觉和语言模型）集成到一个针对特定实际用例的单一、用户友好应用中的实际应用。 该应用使用 Rust 编写，并包含捆绑的 CUDA 支持以实现 GPU 加速，但用户报告了翻译中的一些怪癖，如专有名词错误（例如将'Zoro'翻译为'Sword Jesus'）以及像'nakama'这样的文化特定术语的挑战。目前主要专注于日语到英语的翻译，但关于其他语言支持的问题尚未解决。",
+  "score": 7,
+  "tags": [
+    "manga-translation",
+    "local-llm",
+    "rust",
+    "computer-vision",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 14, 09:36"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rtf4v8/local_manga_translator_with_llms_built_in/",
+  "originalSite": "reddit.com",
+  "context": "YOLO（You Only Look Once）是一种实时物体检测模型，可以微调用于文本检测，识别图像中文本区域的边界框。LaMa（Large Mask Inpainting）是一种 AI 模型，旨在通过用合理内容填充缺失区域来移除或替换图像中的物体，在此用于在渲染翻译前擦除原始文本。CUDA（Compute Unified Device Architecture）是一个并行计算平台，使应用能够利用 NVIDIA GPU 进行加速处理，该应用捆绑了 CUDA 以简化配置。",
+  "discussion": "社区评论显示用户高度参与，在实际漫画上测试该工具，指出了幽默的翻译错误，并请求多语言支持、浏览器集成和字体自定义等功能。讨论还将其与 comic-translate 等替代工具进行比较，并探讨了技术方面，如日语俚语的模型细微差别以及是否在本地运行 LLMs 或通过外部请求。",
+  "references": [
+    {
+      "title": "RoyRud1902/ yolo 11n- text · Hugging Face",
+      "url": "https://huggingface.co/RoyRud1902/yolo11n-text"
+    },
+    {
+      "title": "Remove Any Object From An Image Using AI | LaMa -Cleaner",
+      "url": "https://medium.com/@martin-thissen/remove-any-object-from-an-image-using-ai-stable-diffusion-lama-cleaner-d52d5f3542f1"
+    },
+    {
+      "title": "nvidia geforce - Is there a way to run CUDA applications with",
+      "url": "https://superuser.com/questions/219702/is-there-a-way-to-run-cuda-applications-with-the-cuda-device-being-a-secondary-a"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

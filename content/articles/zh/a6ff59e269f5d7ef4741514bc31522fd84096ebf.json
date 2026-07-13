@@ -1,0 +1,44 @@
+{
+  "id": "a6ff59e269f5d7ef4741514bc31522fd84096ebf",
+  "canonicalId": "49324765c4ec30d275f84d118a29cfb0c0c5a7b2",
+  "slug": "php-提议用-bsd-三条款许可证替换双重许可证社区投票开放至-2026-年-4-月-4-日",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "PHP 提议用 BSD 三条款许可证替换双重许可证，社区投票开放至 2026 年 4 月 4 日。",
+  "summary": "PHP 项目在 Ben Ramsey 的带领下，提议将其当前的双重许可证（大部分代码使用 PHP v3.01，Zend 目录使用 Zend v2.0）替换为 BSD 三条款许可证，社区正在就此许可证更新 RFC 进行投票，截止日期为 2026 年 4 月 4 日。 这一变化很重要，因为它简化了 PHP 的许可证，减少了依赖 PHP 的开发者和项目的困惑，并符合开源领域向 BSD 等宽松许可证发展的趋势，这可能促进 PHP 的采用和与其他软件的集成。 该提案旨在弃用自定义的 PHP 和 Zend 许可证，转而采用 BSD 三条款许可证，后者是 OSI 批准的，并与 GPLv2 等主要 copyleft 许可证兼容，但这一变更需要通过正在进行的社区投票获得批准。",
+  "score": 7,
+  "tags": [
+    "PHP",
+    "Open Source",
+    "Licensing",
+    "Software Development",
+    "Community Governance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 24, 16:00"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1063993/",
+  "originalSite": "lwn.net",
+  "context": "PHP 是一种广泛用于 Web 开发的开源脚本语言，最初由 Rasmus Lerdorf 创建。自 2006 年以来，PHP 一直使用双重许可证方案：大部分代码使用 PHP v3.01，Zend Engine 目录使用 Zend v2.0，其中 Zend 许可证源于 Zend Technologies 的商业化努力。BSD 三条款许可证是一种宽松的开源许可证，允许在最小限制下自由使用、修改和分发，常用于简化许可证并提高兼容性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PHP: rfc:php_license_update",
+      "url": "https://wiki.php.net/rfc/php_license_update"
+    },
+    {
+      "title": "The 3- Clause BSD License - Open Source Initiative",
+      "url": "https://opensource.org/license/bsd-3-clause"
+    },
+    {
+      "title": "Open Source Software Licenses 101: The BSD 3- Clause License",
+      "url": "https://fossa.com/blog/open-source-software-licenses-101-bsd-3-clause-license/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

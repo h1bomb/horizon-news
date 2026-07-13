@@ -1,0 +1,40 @@
+{
+  "id": "fe01d7c503ed435555e5b790c06718f2769718ea",
+  "canonicalId": "a903b07cc323689242a7b92684de52d2721d4f67",
+  "slug": "谷歌发布-gemma-4-12b-模型可在笔记本本地运行",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T01:46:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemma 4 12B 模型，可在笔记本本地运行",
+  "summary": "谷歌发布了 Gemma 4 12B 开源 AI 模型，仅需 16 GB 内存即可在笔记本上本地运行。该模型填补了 Gemma 4 系列中移动端轻量版与大型专业版之间的空白。 此次发布大幅降低了本地 AI 推理的门槛，使开发者和爱好者无需依赖云端即可运行功能强大的模型。这也表明了谷歌对开源 AI 的承诺，采用了 Apache 2.0 许可证。 Gemma 4 12B 模型仅需 16 GB 系统内存或显存，约为 26B MoE 版本所需内存的一半。谷歌声称其基准测试性能接近 26B MoE 版本。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Google",
+    "Gemma",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
+  "originalSite": "arstechnica.com",
+  "context": "Gemma 4 系列于 2026 年 4 月发布，采用 Apache 2.0 许可证，包含从移动端到专业级的多款模型。Mixture of Experts（MoE）是一种技术，通过选择性激活多个专门的子模型来实现高效推理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "191457a13ecbcc07d2dbb9d5d993aa7752cc7937",
+  "canonicalId": "0993a7a4634e0678dde669ff229a348f4e2cf813",
+  "slug": "the-woes-of-sanitizing-svgs",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T15:31:00Z",
+  "lang": "en",
+  "title": "The Woes of Sanitizing SVGs",
+  "summary": "A detailed article explains why sanitizing SVGs is extremely difficult due to their complex features like scripts, event handlers, and CSS, and recommends using Content Security Policy (CSP) as the only reliable fix for HTTP leak problems. This matters because many web applications allow SVG uploads or rendering, and incomplete sanitization can lead to XSS and data exfiltration. The article provides practical CSP advice that can help developers secure their applications. The article notes that SVG supports inline scripts, event handlers, CSS, and foreign objects, making sanitization a whack-a-mole problem. It recommends CSP headers or <meta> tags as the only reliable defense against HTTP leaks.",
+  "score": 7,
+  "tags": [
+    "web security",
+    "SVG",
+    "CSP",
+    "sanitization",
+    "frontend"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "varun_ch"
+    }
+  ],
+  "originalUrl": "https://muffin.ink/blog/scratch-svg-sanitization/",
+  "originalSite": "muffin.ink",
+  "context": "SVG (Scalable Vector Graphics) is an XML-based vector image format that can include interactive elements like scripts and CSS. Sanitization is the process of removing dangerous content from user-submitted SVGs to prevent security vulnerabilities like cross-site scripting (XSS). Content Security Policy (CSP) is a browser security mechanism that restricts which resources can be loaded and executed on a page.",
+  "discussion": "Commenters agree that CSP is the only credible fix, with one suggesting a sandbox attribute for inline SVGs. Another proposes supporting only a safe subset of SVG features, while a third mentions the HTML Sanitizer API's limited SVG support.",
+  "references": [
+    {
+      "title": "Angular 2, DomSanitizer, bypassSecurityTrustHtml, SVG - Stack",
+      "url": "https://stackoverflow.com/questions/39857858/angular-2-domsanitizer-bypasssecuritytrusthtml-svg"
+    },
+    {
+      "title": "Hackers Exploit SVG Files to Deliver Stealthy Malware | Data",
+      "url": "https://dataprotectioncenter.com/privacy-protection/hackers-exploit-svg-files-to-deliver-stealthy-malware/"
+    },
+    {
+      "title": "Content - Security - Policy : script-src directive - HTTP | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

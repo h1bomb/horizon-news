@@ -1,0 +1,44 @@
+{
+  "id": "edf4aeade98d80dbb799bc44603bb744e44dbb45",
+  "canonicalId": "3f52c71ca49a483cf2e40181f16f544ba9407372",
+  "slug": "deepseekv4-在-26-天内实现-100-倍推理加速",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T12:15:00Z",
+  "lang": "zh",
+  "title": "DeepSeekV4 在 26 天内实现 100 倍推理加速",
+  "summary": "DeepSeekV4（一个 1.6 万亿参数的模型）在 26 天内实现了 100 倍的推理性能提升，SemiAnalysis 的一篇博客文章详细分析了从第 0 天到第 43 天在多个硬件平台（包括华为昇腾 950DT、NVIDIA GB300 NVL72、AMD MI355X 和 B200）上的性能表现。 这种快速优化表明，大规模 AI 推理成本可以大幅降低，可能加速万亿参数模型在实际应用中的部署，并加剧 AI 基础设施领域的竞争。 分析包括每百万 token 的成本和硬件追踪分析，显示从第 0 天初始性能起 26 天内实现了 100 倍提升。DeepSeekV4 Pro 模型总参数量为 1.6T，激活参数量为 49B，支持高达 100 万 token 的上下文长度。",
+  "score": 9,
+  "tags": [
+    "DeepSeek",
+    "inference optimization",
+    "large language models",
+    "hardware performance",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "DeepSeekV4 是一种混合专家（MoE）模型，总参数量达 1.6 万亿，但每次推理仅激活 49B 参数，因此具有成本效益。推理优化涉及内核融合、量化和硬件特定调优等技术。GB300 NVL72 是 NVIDIA 采用 Blackwell Ultra 架构的下一代机架级系统。InferenceX 是一个专注于 LLM 推理性能指标的基准测试。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - GB300 NVL72, Huawei, MI355X, B200",
+      "url": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance"
+    },
+    {
+      "title": "DeepSeek on X: \"🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length. 🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models. 🔹 DeepSeek-V4-Flash: 284B total / 13B active params. https://t.co/n1AgwMIymu\" / X",
+      "url": "https://x.com/deepseek_ai/status/2047516922263285776"
+    },
+    {
+      "title": "New SemiAnalysis InferenceX Data Shows NVIDIA Blackwell Ultra...",
+      "url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

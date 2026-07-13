@@ -1,0 +1,44 @@
+{
+  "id": "1a4f30d9ae6fc51a99b0d6c1ff4106a99d917f70",
+  "canonicalId": "36c0162996b9b070082fafe205d4a3a51c17012e",
+  "slug": "linux-内核开发者就处理整数溢出错误的新-api-达成共识",
+  "date": "2026-04-09",
+  "publishedAt": "2026-04-09T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核开发者就处理整数溢出错误的新 API 达成共识。",
+  "summary": "2026 年 3 月 31 日，Kees Cook 分享了一个补丁集，为 Linux 内核引入了一个处理整数溢出的新 API，这是超过一年工作的成果；Linus Torvalds 最初反对，但开发者最终就不同的 API 设计达成共识。该 API 使用 __ob_wrap 和 __ob_trap 等注解来指定预期或非预期的溢出行为，覆盖编译器标志以确保一致的处理。 这很重要，因为整数溢出是系统编程中常见的安全漏洞来源，新 API 旨在消除内核中静默、无意的溢出，可能减少错误并增强安全性。它反映了内核加固工作的更广泛趋势，影响编写低级代码的开发者，并提高整体系统可靠性。 该 API 包括 __ob_wrap 用于预期回绕和 __ob_trap 用于非预期溢出（默认导致内核 oops 崩溃）；它还支持 Vincent Mailhol 建议的饱和整数，并提供了 u8t 和 s64w 等 typedef 以便引用。设计覆盖了如 -fno-strict-overflow 的编译器标志，确保无论编译设置如何行为都一致。",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "security",
+    "api-design",
+    "integer-overflow",
+    "systems-programming"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 8, 14:53"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065889/",
+  "originalSite": "lwn.net",
+  "context": "整数溢出发生在算术运算产生超出可表示范围的值时，可能导致系统编程中的安全漏洞，如缓冲区溢出。在 Linux 内核中，由于 -fno-strict-overflow 标志，整数溢出不是未定义行为，但它可能导致意外代码路径，例如缓冲区处理中的错误指针计算。内核加固技术旨在通过添加安全检查和使用 API 来防止此类错误被利用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Integer overflow - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Integer_overflow"
+    },
+    {
+      "title": "Hardening the Linux Kernel with Sysctl on Debian 12 | Reintech media",
+      "url": "https://reintech.io/blog/hardening-linux-kernel-sysctl-debian-12"
+    },
+    {
+      "title": "GitHub - intel/safe-arithmetic: Safe arithmetic library for C++20 and above. Safe arithmetic ensures correctness of arithmetic operations at compile-time. It protects against overflow, underflow, divide by zero, and out-of-bounds index access. This provides both functional correctness as well as greater protection against related security threats. · GitHub",
+      "url": "https://github.com/intel/safe-arithmetic"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

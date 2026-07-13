@@ -1,0 +1,44 @@
+{
+  "id": "2e24c48b142410dec9456f74aad1b97587d381f2",
+  "canonicalId": "e162dddfb7622b8cbf358716b87610c3c37913f7",
+  "slug": "recording-optimized-kernel-function-signatures-in-btf",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T18:59:00Z",
+  "lang": "en",
+  "title": "Recording optimized kernel function signatures in BTF",
+  "summary": "Alan Maguire and Yonghong Song proposed recording changed function signatures in BTF debugging info to handle three common compiler optimizations that alter kernel function signatures. This work enables accurate tracing and BPF programs to work with optimized kernel functions, improving the kernel's debugging and observability infrastructure. The three cases are: argument removal, field extraction from structures, and struct pointer to value conversion. The approach uses the pahole utility to reverse-engineer DWARF data into BTF true signatures.",
+  "score": 8,
+  "tags": [
+    "kernel",
+    "BTF",
+    "BPF",
+    "tracing",
+    "compiling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073762/",
+  "originalSite": "lwn.net",
+  "context": "BTF (BPF Type Format) is a debug info format used by the Linux kernel for BPF programs and tracing. DWARF is a broader debug format that represents source-level types, but its maintainers rejected extending it for runtime signature information. Pahole is a tool that parses DWARF and generates BTF, commonly used in kernel builds.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "BPF Type Format ( BTF ) — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/next/bpf/btf.html"
+    },
+    {
+      "title": "Linux Kernel Driver DataBase: CONFIG_ DEBUG _ INFO _ BTF ...",
+      "url": "https://cateee.net/lkddb/web-lkddb/DEBUG_INFO_BTF.html"
+    },
+    {
+      "title": "BTF debug information",
+      "url": "https://android.googlesource.com/kernel/build/+/master/kleaf/docs/btf.md"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

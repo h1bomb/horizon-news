@@ -1,0 +1,40 @@
+{
+  "id": "689b3071df0dc0d92a0b3208dd3545e025b6df66",
+  "canonicalId": "c07f4f2625da38dad4c6dfc3a450422878a5d193",
+  "slug": "qwen3-tts-因表现力强且支持实时本地部署而获好评",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3 TTS 因表现力强且支持实时本地部署而获好评",
+  "summary": "一位开发者成功在本地实时部署了 Qwen3 TTS，通过量化并与 llama.cpp 集成，实现了可靠的流式生成并保持了连贯的韵律。他们认为这是目前表现力最强的开源 TTS 模型之一，超越了之前使用的 Sesame TTS。 这表明高质量、表现力强的 TTS 现在可以在本地硬件上高效运行，减少了对云服务的依赖，并使得实时虚拟形象和语音助手等响应式应用成为可能。这凸显了开源 AI 在交互系统可访问性方面的进展。 该模型的解码器采用滑动窗口架构，在流式生成过程中能保持韵律、音高和语调，并通过量化在 C#中实现了速度优化。不过，部分用户报告在某些 GPU 上存在性能问题，并且出现了关于 Mac 和 Vulkan/ROCm 平台的兼容性疑问。",
+  "score": 7,
+  "tags": [
+    "Text-to-Speech",
+    "Open-Source AI",
+    "Local Deployment",
+    "AI Models",
+    "Real-Time Systems"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 22, 18:46"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/3l51lqejeswg1",
+  "originalSite": "v.redd.it",
+  "context": "Qwen3 TTS 是阿里巴巴云 Qwen 团队开发的开源文本转语音模型系列，支持表现力强的语音生成、流式处理和语音克隆。它是 ASR-LLM-TTS 流水线的一部分，常用于虚拟形象和翻译系统等实时语音应用，本地部署可降低延迟并增强隐私性。",
+  "discussion": "社区评论呈现混合情绪，既有对模型表现力的赞扬，也有对速度和兼容性的担忧。用户询问了 GPU 要求、Mac 支持和 Vulkan/ROCm 兼容性，而一位评论者认为 voxCPM2/echoTTS 可能更优。技术问题集中在情感标签集成和量化方法等实现细节上。",
+  "references": [
+    {
+      "title": "GitHub - QwenLM/Qwen3-TTS: Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning. · GitHub",
+      "url": "https://github.com/QwenLM/Qwen3-TTS"
+    },
+    {
+      "title": "Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS",
+      "url": "https://arxiv.org/html/2508.04721v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "3e16bc037cd3e0355a37ce2ac9afc9abae24837f",
+  "canonicalId": "05202896dc81a9e4f03adbde6b2a069a87bcdd9d",
+  "slug": "duplicating-7-layer-blocks-in-qwen2-72b-boosts-performance-without-weight-changes-topping-open-llm-leaderboard",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-10T19:17:00Z",
+  "lang": "en",
+  "title": "Duplicating 7-layer blocks in Qwen2-72B boosts performance without weight changes, topping Open LLM Leaderboard.",
+  "summary": "A researcher discovered that duplicating a specific block of 7 middle layers in the Qwen2-72B model, without altering any model weights, significantly improved its performance across all benchmarks on the Open LLM Leaderboard, allowing it to achieve the top position. This effect only occurs when duplicating blocks of approximately 7 layers, not with single layers or larger blocks. This finding suggests that pre-training carves out discrete, functional circuits within the transformer architecture that operate as cohesive units, which has profound implications for mechanistic interpretability research. It also demonstrates that meaningful architectural discoveries and performance gains can be achieved with relatively modest compute resources, like two consumer-grade GPUs, potentially democratizing advanced LLM research. The performance improvement was not observed when duplicating single layers or blocks that were too large, indicating a specific \"circuit-sized\" sweet spot. The researcher conducted this work using only two NVIDIA RTX 4090 GPUs, highlighting the accessibility of the method.",
+  "score": 8,
+  "tags": [
+    "LLM Architecture",
+    "Model Optimization",
+    "Mechanistic Interpretability",
+    "Transformer Circuits",
+    "Open LLM Leaderboard"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Reddactor"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rq6g08/how_i_topped_the_open_llm_leaderboard_using_2x/",
+  "originalSite": "reddit.com",
+  "context": "The Open LLM Leaderboard is a benchmark platform hosted by Hugging Face that ranks large language models (LLMs) based on performance across various evaluation tasks. Qwen2-72B is a 72-billion parameter open-source language model developed by Alibaba, featuring a standard Transformer architecture with layers that process information sequentially. Mechanistic interpretability is a field of AI research that aims to understand the internal computations of neural networks, often by identifying specific \"circuits\" or sub-networks responsible for particular functions.",
+  "discussion": "The community expressed strong interest and surprise at the counterintuitive result of improving performance through duplication without weight changes. Key discussion points included suggestions to loop the identified circuits instead of duplicating them, and curiosity about whether these circuits behave as stable modules across different model families like Qwen or GLM. There was also appreciation for the low-compute approach to meaningful research.",
+  "references": [
+    {
+      "title": "Open LLM Leaderboard v1",
+      "url": "https://huggingface.co/docs/leaderboards/open_llm_leaderboard/archive"
+    },
+    {
+      "title": "Qwen/Qwen2-72B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen2-72B"
+    },
+    {
+      "title": "Transformer Circuits Thread",
+      "url": "https://transformer-circuits.pub/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

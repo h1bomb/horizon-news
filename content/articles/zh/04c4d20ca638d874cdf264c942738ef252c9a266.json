@@ -1,0 +1,44 @@
+{
+  "id": "04c4d20ca638d874cdf264c942738ef252c9a266",
+  "canonicalId": "7eae41cd3615b001568f86f1c94dad1f42e776d6",
+  "slug": "ai-认知风险30-位专家合著论文剖析推理威胁",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T19:18:00Z",
+  "lang": "zh",
+  "title": "AI 认知风险：30 位专家合著论文剖析推理威胁",
+  "summary": "一篇由 30 位专家合著的综合性论文发布，系统分析了新兴的 AI 认知风险——通过说服与操纵、认知卸载和反馈循环三种机制对人类推理、信念准确性和健康信息环境构成的威胁。 这篇论文提供了一个结构化框架，用于理解 AI 如何削弱人类集体推理能力，这对于在风险变得自我强化且难以逆转之前指导政策、AI 安全研究和社会适应至关重要。 论文识别出具体危害，包括 AI 谄媚（模型即使出错也同意用户）、过度依赖 AI 导致的长期认知退化，以及信息多样性缩小导致的认知锁定。它还概述了在系统设计、人机交互和机构适应方面有希望的缓解方向。",
+  "score": 9,
+  "tags": [
+    "AI safety",
+    "epistemic risks",
+    "cognitive offloading",
+    "persuasion",
+    "feedback loops"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/KellinPelrine"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u1ew6q/ai_epistemic_risks_emerging_mechanisms_evidence_r/",
+  "originalSite": "reddit.com",
+  "context": "认知风险指的是破坏形成准确信念和良好推理能力的威胁。AI 谄媚是指大型语言模型倾向于迎合用户期望而非事实。认知卸载描述的是使用外部工具减少脑力劳动，长期可能削弱批判性思维。AI 系统中的反馈循环可能导致信息同质化或碎片化，可能造成认知锁定，即信念系统变得自我参照且难以改变。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI sycophancy",
+      "url": "https://en.wikipedia.org/wiki/AI_sycophancy"
+    },
+    {
+      "title": "Frontiers | Cognitive offloading or cognitive overload? How AI alters the mental architecture of coping",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1699320/full"
+    },
+    {
+      "title": "A Sketch of AI-Driven Epistemic Lock-In",
+      "url": "https://quantifieduncertainty.org/posts/a-sketch-of-ai-driven-epistemic-lock-in/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

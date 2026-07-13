@@ -1,0 +1,44 @@
+{
+  "id": "8a5d461185f62a5bd6637fa80c97cf7ff90ad8e6",
+  "canonicalId": "9138372f64d1c20885bff920b3bdef325fcaba10",
+  "slug": "unsloth-qwen35-动态量化在-strix-halo-上表现不佳源于层量化选择差异",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-10T00:00:00Z",
+  "lang": "zh",
+  "title": "Unsloth Qwen3.5 动态量化在 Strix Halo 上表现不佳，源于层量化选择差异",
+  "summary": "一位用户在 AMD Strix Halo 硬件上对 Qwen3.5-35B 和 122B 模型的量化版本进行了基准测试，发现 Unsloth 新的\"动态\"UD-XL 量化在速度和逻辑稳定性上都比 Bartowski 的量化表现更差。核心问题在于，Unsloth 选择将特定的 SSM（状态空间模型）层量化为 Q8_0 格式，而 Bartowski 的量化则将这些层保留为更高精度的 FP32 格式。 这一发现对于在 Strix Halo 等特定硬件上部署大语言模型的开发者和研究人员具有重要意义，因为量化策略直接影响推理速度、内存使用和模型输出质量。它表明\"一刀切\"的量化方法可能并非最优，要实现最佳的性能与精度权衡，必须进行硬件感知的校准。 在一个生成包含 3D 动画太阳系的 HTML 文件的实际测试中，Unsloth 的 122B 量化版本消耗了 29,521 个 token 并需要多次尝试，而 Bartowski 的量化版本一次就完成了任务，仅使用了 18,700 个 token。这一性能差距是在使用最新版 llama.cpp（b8248）时观察到的，并且根据社区多位用户反馈，该问题似乎特定于 Strix Halo 架构。",
+  "score": 7,
+  "tags": [
+    "llm-quantization",
+    "hardware-benchmarking",
+    "qwen",
+    "llama.cpp",
+    "performance-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 9, 20:18"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1rpbfzv",
+  "originalSite": "reddit.com",
+  "context": "量化是一种通过使用更低精度的数据类型（例如，用 4 位或 8 位整数代替 32 位浮点数）来表示权重，从而减少大语言模型内存占用和计算成本的技术。llama.cpp 是一个流行的推理框架，支持多种以 GGUF 格式打包的量化方法（如 Q8_0, Q5_K）。AMD 的 Strix Halo 是一款高性能 APU（加速处理单元），采用 RDNA 3.5 显卡架构和最多 16 个 Zen 5 CPU 核心，常用于紧凑型系统进行本地 AI 推理。",
+  "discussion": "社区情绪验证了最初的发现，多位 Strix Halo 用户报告 Unsloth 的 UD 量化表现不佳。讨论中的一个关键技术见解指出了原因：Unsloth 将某些 SSM 层（ssm_alpha.weight, ssm_beta.weight）量化为 Q8_0，而 Bartowski 的量化则将其保留为 FP32，这对新版 Qwen 模型的性能至关重要。社区还讨论了这一性能差距究竟是量化布局本身的问题，还是 llama.cpp 的 imatrix 处理方式与 Bartowski 的校准数据在此特定架构上相互作用的结果。",
+  "references": [
+    {
+      "title": "AMD Strix Halo GPU Specs - TechPowerUp",
+      "url": "https://www.techpowerup.com/gpu-specs/amd-strix-halo.g1096"
+    },
+    {
+      "title": "Difference in different quantization methods · ggml-org llama.cpp · Discussion #2094",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/2094"
+    },
+    {
+      "title": "why are there quite different quant strategies of bartowski and unsloth on MoE? - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1m56z4m/why_are_there_quite_different_quant_strategies_of/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cc6116e6035487595f4298fa84521c25f30031bf",
+  "canonicalId": "b796f2e056089233a146cf995d4fbbda979cda8a",
+  "slug": "moebius02b-参数图像修复模型达到-10b-级性能",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T13:53:00Z",
+  "lang": "zh",
+  "title": "Moebius：0.2B 参数图像修复模型达到 10B 级性能",
+  "summary": "研究人员发布了 Moebius，这是一个 0.2B 参数的图像修复模型，性能可与 10B 参数的模型相媲美。社区成员通过 ONNX 导出演示了模型完全在浏览器中运行。 这一突破显著降低了高质量图像修复的计算需求，使其能在边缘设备和浏览器中部署。它挑战了大型模型是顶级性能必需品的假设，可能降低成本并普及高级图像编辑技术。 Moebius 输出 512x512 分辨率的图像，社区测试显示其修复区域相比大型模型有明显平滑，且对新颖物体表现较弱。该模型已成功转换为 ONNX，可在浏览器中运行，下载量约 1.3GB。",
+  "score": 8,
+  "tags": [
+    "image inpainting",
+    "efficient ML",
+    "model compression",
+    "ONNX",
+    "browser inference"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "DSemba",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48630171"
+    }
+  ],
+  "originalUrl": "https://hustvl.github.io/Moebius/",
+  "originalSite": "hustvl.github.io",
+  "context": "图像修复是指填补图像中缺失或损坏部分的任务。拥有数十亿参数的大型工业模型质量高，但计算成本高昂。Moebius 通过极端的结构压缩克服表示瓶颈，旨在用少得多的参数达到专家级质量。ONNX Runtime 支持跨平台推理，包括通过 WebAssembly 和 WebGPU 在网页浏览器中运行。",
+  "discussion": "社区对该模型的小尺寸和浏览器演示印象深刻，有用户成功在本地运行。但对声称的 10B 级性能存在质疑，测试显示可见平滑和分辨率限制（512x512）。用户还对用于漫画翻译等领域的专用版本表现出兴趣。",
+  "references": [
+    {
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B ...",
+      "url": "https://hustvl.github.io/Moebius/"
+    },
+    {
+      "title": "[2606.19195] Moebius: 0.2B Lightweight Image Inpainting ...",
+      "url": "https://arxiv.org/abs/2606.19195"
+    },
+    {
+      "title": "Paper page - Moebius: 0.2B Lightweight Image Inpainting ...",
+      "url": "https://huggingface.co/papers/2606.19195"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

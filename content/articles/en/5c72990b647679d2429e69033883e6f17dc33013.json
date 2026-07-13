@@ -1,0 +1,45 @@
+{
+  "id": "5c72990b647679d2429e69033883e6f17dc33013",
+  "canonicalId": "5b3937b8361e90103f7365f85b1487b34ee080c7",
+  "slug": "deepseek-4-flash-local-inference-on-apple-metal",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T15:40:00Z",
+  "lang": "en",
+  "title": "DeepSeek 4 Flash: Local Inference on Apple Metal",
+  "summary": "Antirez released DeepSeek 4 Flash (DS4), a local inference engine optimized for DeepSeek models using Apple's Metal API, enabling efficient on-device LLM inference on Mac hardware. This project addresses the practical need for optimized local inference on Apple hardware, potentially narrowing the gap between frontier and open-source models through focused optimization on a single model architecture. DS4 handles large initial prompts (e.g., 25k tokens) with significant prefill time (~4 minutes) but uses disk-based KV caching to speed up subsequent interactions, and peaks at 50W power usage on an M3 Max MacBook Pro.",
+  "score": 8,
+  "tags": [
+    "deepseek",
+    "local-inference",
+    "metal",
+    "apple",
+    "llm"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tamnd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48050751"
+    }
+  ],
+  "originalUrl": "https://github.com/antirez/ds4",
+  "originalSite": "github.com",
+  "context": "DeepSeek is a Chinese AI company developing large language models. Apple's Metal API provides low-level GPU access for graphics and compute on Apple hardware, enabling efficient inference. Local inference engines like llama.cpp and ollama allow running LLMs on personal devices, but few are specifically optimized for Apple's Metal backend and DeepSeek models.",
+  "discussion": "The community praised DS4 for its focused optimization and educational value, with commenters noting the potential for iterative improvement. Some expressed concern about the long prefill time for large inputs, while the author clarified that caching makes it practical for regular use. Energy efficiency was highlighted as a positive aspect.",
+  "references": [
+    {
+      "title": "DeepSeek - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DeepSeek"
+    },
+    {
+      "title": "Metal (API) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_(API)"
+    },
+    {
+      "title": "Best Local LLM Inference Engines in 2025: From Everyday Laptops to ...",
+      "url": "https://www.skool.com/open-source-ai-builders-club/best-local-llm-inference-engines-in-2025-from-everyday-laptops-to-enterprise"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

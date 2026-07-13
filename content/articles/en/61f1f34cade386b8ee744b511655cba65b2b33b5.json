@@ -1,0 +1,43 @@
+{
+  "id": "61f1f34cade386b8ee744b511655cba65b2b33b5",
+  "canonicalId": "c423996d59e570e1f84047c6cbe399b191ae7fea",
+  "slug": "moonshot-ai-introduces-attention-residuals-technique-boosting-48b-model-training-efficiency-by-125x",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T09:05:00Z",
+  "lang": "en",
+  "title": "Moonshot AI introduces Attention Residuals technique, boosting 48B model training efficiency by 1.25x",
+  "summary": "Moonshot AI has introduced Attention Residuals, a novel technique that modifies the Transformer architecture by allowing each layer to selectively attend to outputs from previous layers instead of uniformly summing them. This technique has been applied to their 48B-parameter Kimi Linear model, reducing computational requirements by approximately 20% while achieving the same performance and improving scores on the GPQA-Diamond reasoning benchmark by 7.5 points. This development is significant because it addresses the growing computational costs of training large language models while potentially improving their reasoning capabilities. By reducing compute requirements by 20% for a 48B parameter model, this technique could make large-scale AI training more accessible and sustainable for research institutions and companies. The technique adds less than 4% training overhead and increases inference latency by no more than 2%, while also mitigating the \"PreNorm dilution\" problem by improving gradient flow. Former OpenAI research scientist Andrej Karpathy praised the approach, noting that it more literally implements the \"Attention is All You Need\" principle.",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "Transformer Architecture",
+    "Model Efficiency",
+    "Research Paper"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/MoonshotAI/Attention-Residuals/blob/master/Attention_Residuals.pdf",
+  "originalSite": "github.com",
+  "context": "The Transformer architecture is a neural network design that relies on self-attention mechanisms to process sequential data, forming the foundation for most modern large language models like GPT and BERT. In standard Transformer implementations, layer outputs are typically combined through uniform summation, which may not optimally utilize information from previous layers. The \"PreNorm dilution\" problem refers to issues with gradient flow in deep neural networks that can hinder training effectiveness.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Transformer Architecture: Relying Solely on Self-Attention",
+      "url": "https://edutative.com/relying-solely-on-self-attention-for-sequence-to-sequence-modelling/"
+    },
+    {
+      "title": "Attention Needs to Focus: A Unified Perspective on Attention",
+      "url": "https://arxiv.org/html/2601.00919v1"
+    },
+    {
+      "title": "Dilution (neural networks) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dilution_(neural_networks)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

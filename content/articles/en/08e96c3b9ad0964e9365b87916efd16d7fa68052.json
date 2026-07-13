@@ -1,0 +1,41 @@
+{
+  "id": "08e96c3b9ad0964e9365b87916efd16d7fa68052",
+  "canonicalId": "f5401abe26b137210e1ca3406e239e67e01118e4",
+  "slug": "cisa-contractor-leaks-aws-govcloud-keys-on-github",
+  "date": "2026-05-20",
+  "publishedAt": "2026-05-19T07:45:00Z",
+  "lang": "en",
+  "title": "CISA contractor leaks AWS GovCloud keys on GitHub",
+  "summary": "A CISA contractor accidentally published AWS GovCloud access keys and a CSV file containing plaintext usernames and passwords for dozens of internal CISA systems on a public GitHub repository. This breach exposes highly sensitive U.S. government cloud infrastructure and internal credentials, undermining national security and highlighting severe lapses in security practices and incident response. The leaked credentials included AWS GovCloud keys for a CISA Workspace environment and a file named “AWS-Workspace-Firefox-Passwords.csv” with plaintext passwords. The contractor failed to respond when notified about the exposure.",
+  "score": 9,
+  "tags": [
+    "security",
+    "breach",
+    "CISA",
+    "AWS",
+    "GovCloud"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "LelouBil",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48190454"
+    }
+  ],
+  "originalUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+  "originalSite": "krebsonsecurity.com",
+  "context": "AWS GovCloud (US) is a compliant cloud environment designed to host sensitive and controlled unclassified information for U.S. government agencies, with restricted access to U.S. persons. CISA (Cybersecurity and Infrastructure Security Agency) is a federal agency responsible for protecting the nation's critical infrastructure from cyber threats.",
+  "discussion": "Commenters expressed shock at the lack of response and the use of plaintext passwords, with some suggesting that the incident could be mistaken for a honeypot by foreign intelligence. Others highlighted the irony of using AWS services that offer better security features.",
+  "references": [
+    {
+      "title": "AWS GovCloud (US) - Amazon Web Services",
+      "url": "https://aws.amazon.com/govcloud-us/"
+    },
+    {
+      "title": "AWS Services by Region",
+      "url": "https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

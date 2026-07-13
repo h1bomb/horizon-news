@@ -1,0 +1,44 @@
+{
+  "id": "54bf0a4244a33f56f29e059bcdaf9d5c97a55243",
+  "canonicalId": "4472e8b8c74e3c65a53c5596e59563cc35f529b6",
+  "slug": "高通骁龙-8-elite-gen-5-曝-gbl-漏洞可绕过签名验证解锁-bootloader",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-09T00:00:00Z",
+  "lang": "zh",
+  "title": "高通骁龙 8 Elite Gen 5 曝 GBL 漏洞，可绕过签名验证解锁 Bootloader",
+  "summary": "安全研究人员披露了高通骁龙 8 Elite Gen 5 平台 Android 引导加载程序中的一个漏洞，该程序在从 efisp 分区加载通用引导加载程序时，未启用 UEFI 安全启动验证。攻击者可通过在该分区植入自定义 UEFI 应用程序，获得 EL1 权限的代码执行能力。 该漏洞允许通过修改 RPMB 中的关键设备状态数据来实现 Bootloader 的永久解锁，这从根本上破坏了设备的信任链和安全模型。它影响一个旗舰移动平台，可能危及数百万用户的设备安全，为未经授权的修改和绕过可信执行环境等关键保护措施打开了大门。 目前利用该漏洞需要通过 9008 模式或硬件编程器进行物理访问。公开的概念验证代码存在损坏可信执行环境或永久禁用生物识别功能的风险，因此建议用户谨慎对待。",
+  "score": 7,
+  "tags": [
+    "mobile-security",
+    "qualcomm",
+    "bootloader",
+    "vulnerability",
+    "android"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 8, 07:36"
+    }
+  ],
+  "originalUrl": "https://www.cnblogs.com/hicode002/p/-/unlock-your-qualcomm",
+  "originalSite": "cnblogs.com",
+  "context": "通用引导加载程序是 Google 引入的一种标准化、可更新的引导加载程序，旨在取代 Android 生态系统中碎片化的厂商专用引导程序。UEFI 安全启动是一项安全标准，旨在确保启动过程中只运行经过签名、可信的软件。重放保护内存块是移动设备中的一个安全存储区域，用于存储经过身份验证且防篡改的数据，例如设备状态和加密密钥。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Generic Bootloader (GBL) overview - Android Open Source Project",
+      "url": "https://source.android.com/docs/core/architecture/bootloader/generic-bootloader"
+    },
+    {
+      "title": "New UEFI Secure Boot Bypass Vulnerability Exposes Systems to ...",
+      "url": "https://cybersecuritynews.com/uefi-secure-boot-bypass-vulnerability/"
+    },
+    {
+      "title": "Replay Protected Memory Block - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Replay_Protected_Memory_Block"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

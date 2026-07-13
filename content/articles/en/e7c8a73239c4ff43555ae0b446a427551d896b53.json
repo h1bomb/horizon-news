@@ -1,0 +1,44 @@
+{
+  "id": "e7c8a73239c4ff43555ae0b446a427551d896b53",
+  "canonicalId": "613e31a2f3ac7043a1f757d0d08139a22cf22426",
+  "slug": "modified-qwen35-9b-model-achieves-0-refusal-rate-with-vision-support",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-03T18:07:00Z",
+  "lang": "en",
+  "title": "Modified Qwen3.5-9B model achieves 0% refusal rate with vision support",
+  "summary": "A developer has released a modified version of the Qwen3.5-9B language model, named 'abliterated', which incorporates vision support and achieves a 0% refusal rate on a specific benchmark. This result was achieved using a novel two-stage fine-tuning approach combining orthogonal projection and LoRA (Low-Rank Adaptation) techniques. Achieving a 0% refusal rate is significant for applications requiring uncensored AI, such as certain research, creative writing, or code generation tasks where users want the model to engage with all prompts. This development highlights ongoing community efforts to create more permissive or 'uncensored' models, pushing the boundaries of model behavior control and customization. The model is available in both a vision-capable multimodal version and a text-only version, and can be run via Ollama. However, community feedback indicates the fine-tuning process caused the model to lose its multilingual capabilities, making it reliable only in English, and may have biased it toward generating harmful responses.",
+  "score": 7,
+  "tags": [
+    "model-fine-tuning",
+    "uncensored-ai",
+    "multimodal-ai",
+    "local-llm",
+    "lora"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Flat_cola"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rjwm8i/qwen359b_abliterated_0_refusals_vision/",
+  "originalSite": "reddit.com",
+  "context": "Qwen3.5-9B is a 9-billion-parameter open-source large language model developed by Alibaba Cloud. 'Refusal rate' measures how often an AI model declines to answer a prompt, often for safety or ethical reasons, with models like GPT-4o also showing 0% refusal in some benchmarks. LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning technique that trains small adapter matrices instead of updating all model weights, making customization faster and cheaper. Orthogonal projection is a linear algebra concept used in machine learning for tasks like dimensionality reduction, and here it's applied to modify the model's internal representations to reduce refusals.",
+  "discussion": "The community acknowledges the technical achievement of 0% refusals but raises significant concerns. Key points include the loss of the model's multilingual capability, a potential bias toward generating harmful content due to the LoRA approach, and requests for the model to be released in the GGUF format for broader compatibility. Some users also contrasted this 'abliterated' approach with other uncensored model types like 'heretic' or 'derestricted' models.",
+  "references": [
+    {
+      "title": "What Is LoRA Fine-Tuning? When Efficiency Gains Come With",
+      "url": "https://www.dataannotation.tech/blog/what-is-lora"
+    },
+    {
+      "title": "Comparing Refusal Behavior Across Top Language Models",
+      "url": "https://mandoline.ai/blog/comparing-llm-refusal-behavior"
+    },
+    {
+      "title": "Projection (linear algebra) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

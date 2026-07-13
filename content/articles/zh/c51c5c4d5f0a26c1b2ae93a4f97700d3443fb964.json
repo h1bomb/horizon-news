@@ -1,0 +1,40 @@
+{
+  "id": "c51c5c4d5f0a26c1b2ae93a4f97700d3443fb964",
+  "canonicalId": "6c000a17eea2a9ecf84c0316f6c58c6cc27af119",
+  "slug": "github-出现非官方仓库通过-npm-包的-source-map-还原-claude-code-2188-的-4756-个-typescript-文件",
+  "date": "2026-04-02",
+  "publishedAt": "2026-04-02T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub 出现非官方仓库，通过 npm 包的 source map 还原 Claude Code 2.1.88 的 4756 个 TypeScript 文件。",
+  "summary": "一个名为 'claude-code-sourcemap' 的非官方 GitHub 仓库通过公开 npm 包 @anthropic-ai/claude-code 附带的 source map 文件 cli.js.map 中的 sourcesContent 字段，还原出 Claude Code 2.1.88 的 TypeScript 源码，共 4756 个文件，其中包括 1884 个 .ts 和 .tsx 文件。 这一事件凸显了软件发布中的重大安全疏忽，因为 source map 可能无意中暴露专有代码，可能影响 Anthropic 等公司的 AI 工具透明度和知识产权保护。 还原过程利用了 source map 中的 sourcesContent 字段，该字段嵌入了原始源代码，使得无需访问原始仓库即可重建代码；这是 npm 包构建中常见但常被忽视的问题。",
+  "score": 7,
+  "tags": [
+    "reverse-engineering",
+    "source-maps",
+    "claude-code",
+    "npm",
+    "typescript"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 1, 08:07"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40641",
+  "originalSite": "t.me",
+  "context": "Source map 是将压缩或打包的 JavaScript 代码映射回原始源代码的文件，用于辅助调试；它们通常包含 sourcesContent 字段，该字段包含完整的源代码文本，如果包含在生产包中，可能导致代码意外暴露。Claude Code 是 Anthropic 开发的 AI 编码助手，而 npm 是 JavaScript 的包管理器，托管公共和私有代码库。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Your NPM Package Is Leaking Source Code (Here's How to Fix It)",
+      "url": "https://alan-west.hashnode.dev/your-npm-package-is-leaking-source-code-heres-how-to-fix-it"
+    },
+    {
+      "title": "Claude Code's Entire Source Code Was Just Leaked via npm ...",
+      "url": "https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

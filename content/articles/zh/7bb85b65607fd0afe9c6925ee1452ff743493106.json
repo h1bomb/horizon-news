@@ -1,0 +1,44 @@
+{
+  "id": "7bb85b65607fd0afe9c6925ee1452ff743493106",
+  "canonicalId": "62ed6078e9d1cdd6ae9ec159d68334ad00a50678",
+  "slug": "mercor-数据泄露-4tb-语音样本和身份证件",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "Mercor 数据泄露 4TB 语音样本和身份证件",
+  "summary": "AI 人员平台 Mercor 发生数据泄露，通过 LiteLLM 库中被入侵的 API 密钥，超过 4 万名承包商的 4TB 语音录音和身份证件被窃取。 此次泄露独特地将语音样本与身份证扫描件结合，为欺诈提供了现成的深度伪造工具包，可用于绕过银行声纹验证或在视频通话中冒充高管。 泄露通过管理 AI 模型 API 密钥的 Python 库 LiteLLM 发生，数据被发布在 Lapsus$泄露网站上。Mercor 于 2026 年 3 月 31 日确认该事件，并面临多起诉讼。",
+  "score": 8,
+  "tags": [
+    "data breach",
+    "AI safety",
+    "deepfake",
+    "privacy",
+    "cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 27, 09:57"
+    }
+  ],
+  "originalUrl": "https://app.oravys.com/blog/mercor-breach-2026",
+  "originalSite": "app.oravys.com",
+  "context": "音频深度伪造技术利用 AI 生成模仿特定个体的语音，通常仅需几秒钟的样本音频。语音克隆是深度伪造的一个子集，专注于音频操作。声纹等生物识别数据越来越多地用于身份验证，但与密码不同，一旦泄露就无法更改。",
+  "discussion": "评论者指出，受害者被要求将语音发送给另一家 AI 公司进行分析具有讽刺意味，并指出生物识别数据实际上是无法更改的“永久密码”。作者强调了实际攻击途径，如绕过银行声纹验证和 Arup 式视频通话欺诈。",
+  "references": [
+    {
+      "title": "AI firm Mercor faces lawsuits over alleged data breach claim",
+      "url": "https://www.jpost.com/business-and-innovation/article-894282"
+    },
+    {
+      "title": "Mercor AI Breach: 40,000 Voice Samples Stolen—Lawsuits",
+      "url": "https://byteiota.com/mercor-ai-breach-40000-voice-samples-stolen-lawsuits/"
+    },
+    {
+      "title": "4TB of Voice Recordings Stolen From 40,000 AI Contractors at ...",
+      "url": "https://aiproductivity.ai/news/mercor-breach-4tb-voice-data-ai-contractors/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

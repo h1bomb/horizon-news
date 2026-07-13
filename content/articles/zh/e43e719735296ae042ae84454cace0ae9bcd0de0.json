@@ -1,0 +1,44 @@
+{
+  "id": "e43e719735296ae042ae84454cace0ae9bcd0de0",
+  "canonicalId": "58c58623ff79eb1ede983afaed4193aedad3f3e3",
+  "slug": "小米人形机器人入驻汽车工厂完成压铸零件自动化装配",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "小米人形机器人入驻汽车工厂，完成压铸零件自动化装配",
+  "summary": "小米宣布其研发的人形机器人已进入汽车工厂压铸车间，完成了自攻螺母上件工站的自动化作业。该机器人连续自主运行了 3 小时，双侧安装成功率达到 90.2%，并满足了最快 76 秒的产线生产节拍要求。 此举标志着人形机器人从实验室演示迈向复杂、真实工业场景的稳定应用迈出了关键一步。它展示了先进 AI 驱动的机器人解决汽车制造等产业中劳动密集型、高精度任务的潜力，可能重塑未来的工厂自动化策略。 该任务基于 Xiaomi-Robotics-0 大模型，采用了端到端数据驱动控制与强化学习技术。它融合了视觉、触觉及关节感知等多模态信息，以应对复杂工况下的精确装配挑战。",
+  "score": 7,
+  "tags": [
+    "robotics",
+    "industrial-automation",
+    "artificial-intelligence",
+    "manufacturing",
+    "reinforcement-learning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 2, 08:30"
+    }
+  ],
+  "originalUrl": "https://tech.ifeng.com/c/8r8o2RyjnbI",
+  "originalSite": "tech.ifeng.com",
+  "context": "压铸是一种用于生产高精度、复杂金属零件的制造工艺，在汽车零部件制造中很常见。机器人领域的端到端数据驱动控制，指的是利用基于大量数据训练的模型，将传感器输入直接映射为控制输出的系统。此处的多模态 AI 结合了视觉、触觉等不同的感官输入，使机器人能更全面地理解环境，从而完成操作任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Die Cast Parts for Automotive & Automation: Precision",
+      "url": "https://www.gemsons.com/die-cast-parts-for-automotive-automation-precision-challenges-explained/"
+    },
+    {
+      "title": "How Robots Can Learn End-to-End From Data | by Sergey Levine",
+      "url": "https://medium.com/@sergey.levine/how-robots-can-learn-end-to-end-from-data-3d879b0a2ba1"
+    },
+    {
+      "title": "Simultaneous Tactile-Visual Perception for Learning Multimodal",
+      "url": "https://arxiv.org/html/2512.09851v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

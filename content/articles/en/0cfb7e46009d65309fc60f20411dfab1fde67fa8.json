@@ -1,0 +1,44 @@
+{
+  "id": "0cfb7e46009d65309fc60f20411dfab1fde67fa8",
+  "canonicalId": "941a13de7de8a0dea9489f1cde376e21b707fa5f",
+  "slug": "kimi-k26-released-11-trillion-parameter-open-source-multimodal-ai-model",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-20T15:18:00Z",
+  "lang": "en",
+  "title": "Kimi K2.6 Released: 1.1 Trillion Parameter Open-Source Multimodal AI Model",
+  "summary": "Moonshot AI has released Kimi K2.6, a 1.1 trillion parameter open-source multimodal AI model under a Modified MIT License. The model achieves state-of-the-art (SOTA) performance on benchmarks like SWE-Bench Pro and supports over 12 hours of continuous execution with 4000+ tool calls. This release is significant as it provides a powerful open-source alternative to proprietary models like GPT-4 and Claude, potentially lowering barriers for businesses and researchers. The Modified MIT License with attribution for large corporations balances openness with recognition, fostering broader adoption while supporting the developer community. The model supports 300 parallel sub-agents collaborating, with up to 4000 steps per run, enabling 24/7 autonomous operation. It demonstrates strong cross-language generalization for front-end, operations, and performance optimization tasks, though real-world performance beyond benchmarks remains to be fully validated.",
+  "score": 8,
+  "tags": [
+    "AI-Models",
+    "Open-Source",
+    "Multimodal-AI",
+    "HuggingFace",
+    "Machine-Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "BiggestBau5"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/moonshotai/Kimi-K2.6",
+  "originalSite": "huggingface.co",
+  "context": "Multimodal AI models integrate and process multiple data types like text, images, and audio, enabling more holistic understanding of complex information. The MIT License is a permissive free software license that allows reuse with minimal restrictions, often modified to add conditions like attribution. Models with over 1 trillion parameters, such as DeepSeek V4, represent the cutting edge of AI scale, leveraging architectures like Mixture-of-Experts (MoE) for efficiency.",
+  "discussion": "Community sentiment is largely positive, with users praising the open-source nature and impressive benchmarks, though some express concerns about hardware requirements (e.g., RTX 5070 12GB VRAM). Key viewpoints include appreciation for the Modified MIT License as a proper balance, comparisons to closed models like Opus, and excitement about its coding capabilities and business applications.",
+  "references": [
+    {
+      "title": "Multimodal model",
+      "url": "https://en.wikipedia.org/wiki/Multimodal_model"
+    },
+    {
+      "title": "MIT License - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MIT_License"
+    },
+    {
+      "title": "DeepSeek V4: 1T Parameter AI Model Guide | Independent...",
+      "url": "https://deepseek.ai/deepseek-v4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "35b360b7049daa5364b54708d265fe889365908d",
+  "canonicalId": "9804cecf7e1088df89867a162eb0cfee56fab28a",
+  "slug": "peertube-decentralized-video-platform-gains-attention",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T11:17:00Z",
+  "lang": "en",
+  "title": "PeerTube: Decentralized Video Platform Gains Attention",
+  "summary": "PeerTube, an open-source, decentralized video platform using ActivityPub federation, has gained significant community attention, with discussions focusing on its monetization challenges and adoption hurdles. PeerTube represents a potential shift towards decentralized video hosting, empowering users and creators with greater control, but its success hinges on solving monetization and content discovery issues. PeerTube leverages P2P technology to reduce server load and uses the ActivityPub protocol to federate with other instances, but currently lacks built-in monetization mechanisms and has a smaller content library compared to YouTube.",
+  "score": 8,
+  "tags": [
+    "decentralized",
+    "video hosting",
+    "open source",
+    "federation",
+    "PeerTube"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "doener",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48759634"
+    }
+  ],
+  "originalUrl": "https://github.com/Chocobozzz/PeerTube",
+  "originalSite": "github.com",
+  "context": "PeerTube is part of the Fediverse, a network of interconnected social platforms using the ActivityPub protocol. Unlike centralized services like YouTube, where one company controls all servers, PeerTube allows anyone to host a 'pod' (server) that can communicate with others, enabling decentralized video hosting. The platform also uses peer-to-peer technology to share bandwidth among viewers, reducing server strain when videos go viral.",
+  "discussion": "Community comments highlight monetization as the biggest obstacle for professional YouTubers, with one user noting the high production costs. Some creators appreciate PeerTube for open-source projects but lament the lack of audience and content on the platform. Others turn to it after being banned from YouTube. Overall, sentiment is cautiously optimistic but acknowledges significant adoption hurdles.",
+  "references": [
+    {
+      "title": "PeerTube - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/PeerTube"
+    },
+    {
+      "title": "GitHub - Chocobozzz/PeerTube: ActivityPub- federated video ...",
+      "url": "https://github.com/Chocobozzz/PeerTube"
+    },
+    {
+      "title": "Architecture | PeerTube documentation",
+      "url": "https://docs.joinpeertube.org/contribute/architecture"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

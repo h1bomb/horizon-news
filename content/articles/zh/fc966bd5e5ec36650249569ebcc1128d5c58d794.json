@@ -1,0 +1,44 @@
+{
+  "id": "fc966bd5e5ec36650249569ebcc1128d5c58d794",
+  "canonicalId": "c0294df04aca65516693e0be5ef01d60b06df04c",
+  "slug": "小米-mimo-v25-pro-ultraspeed1t-参数推理速度-1000-tokenss",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T03:26:00Z",
+  "lang": "zh",
+  "title": "小米 MiMo-V2.5-Pro-UltraSpeed：1T 参数，推理速度 1000 tokens/s",
+  "summary": "小米发布了 MiMo-V2.5-Pro-UltraSpeed，这是一个拥有 1 万亿参数的大模型，通过 FP4 混合精度量化和 DFlash 推测解码技术，在 TileRT 运行时支持下实现了每秒 1000 tokens 的推理速度。 这一突破使万亿参数模型在量化交易、实时风控等对延迟极度敏感的应用中变得可行，有望将大规模 AI 模型的应用扩展到关键决策系统。 API 试用价格约为标准版 MiMo-V2.5-Pro 的三倍，但速度提升约十倍。试用期为 6 月 9 日至 23 日，每日限排队 10 次，单次最多 30 分钟，优先面向企业用户开放。",
+  "score": 9,
+  "tags": [
+    "小米",
+    "大模型",
+    "推理加速",
+    "FP4",
+    "推测解码"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://platform.xiaomimimo.com/docs/en-US/model-intro/mimo-v2.5-pro-ultraspeed",
+  "originalSite": "platform.xiaomimimo.com",
+  "context": "超过万亿参数的大模型通常推理延迟较高，不适合实时应用。FP4 混合精度量化通过使用 4 位浮点表示来减少内存占用，而 DFlash 推测解码则通过并行生成多个草稿令牌来加速自回归生成。TileRT 是一个针对超低延迟大模型推理设计的 tile 级运行时引擎。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing NVFP4 for Efficient and Accurate Low-Precision Inference",
+      "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/"
+    },
+    {
+      "title": "[2602.06036] DFlash: Block Diffusion for Flash Speculative Decoding",
+      "url": "https://arxiv.org/abs/2602.06036"
+    },
+    {
+      "title": "GitHub - tile-ai/TileRT: Tile-Based Runtime for Ultra-Low-Latency LLM Inference · GitHub",
+      "url": "https://github.com/tile-ai/TileRT"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

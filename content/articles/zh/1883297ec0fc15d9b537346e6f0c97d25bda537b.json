@@ -1,0 +1,44 @@
+{
+  "id": "1883297ec0fc15d9b537346e6f0c97d25bda537b",
+  "canonicalId": "5729a017d1f88b3742dedde40efa2817fec83d4f",
+  "slug": "snapd-本地权限提升漏洞cve-2026-3888影响-ubuntu-desktop-2404-及更高版本",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-19T00:00:00Z",
+  "lang": "zh",
+  "title": "snapd 本地权限提升漏洞（CVE-2026-3888）影响 Ubuntu Desktop 24.04 及更高版本",
+  "summary": "Qualys 发现 snapd 中存在一个本地权限提升漏洞（CVE-2026-3888），允许无特权的本地攻击者通过 snap-confine 和 systemd-tmpfiles 的交互，在 Ubuntu Desktop 24.04 及更高版本系统上获取 root 权限。Canonical 已发布更新包和缓解说明。 此漏洞影响重大，因为它允许具有本地访问权限的攻击者提升至完全 root 权限，可能危及广泛使用的 Ubuntu 系统的安全性和数据完整性。它突显了 Linux 包管理和系统组件交互中持续存在的安全挑战。 该漏洞涉及一个权限链问题（CWE-268），其中 systemd-tmpfiles 自动清理 snap 的私有 /tmp 目录，允许攻击者重新创建该目录并利用 snap-confine 获取 root 权限。它特别影响 Ubuntu Desktop 24.04 及更高版本，需要本地访问权限，但已有补丁可用。",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "linux",
+    "ubuntu",
+    "privilege-escalation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 18, 15:34"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1063453/",
+  "originalSite": "lwn.net",
+  "context": "snapd 是一个管理 snap 包的守护进程，snap 是一种容器化的软件打包格式，用于 Ubuntu 和其他 Linux 发行版中的安全应用部署。snap-confine 是一个为 snap 创建沙盒环境的组件，而 systemd-tmpfiles 是一个 systemd 工具，用于管理临时文件和目录。本地权限提升漏洞允许具有有限访问权限的攻击者在系统上获取更高权限，例如 root。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-3888: Important Snap Flaw Enables Local Privilege Escalation to Root | Qualys",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root"
+    },
+    {
+      "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd ...",
+      "url": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html"
+    },
+    {
+      "title": "CVE-2026-3888 | THREATINT",
+      "url": "https://cve.threatint.eu/CVE/CVE-2026-3888"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

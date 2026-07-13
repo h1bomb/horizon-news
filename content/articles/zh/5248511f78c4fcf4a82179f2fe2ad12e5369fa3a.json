@@ -1,0 +1,45 @@
+{
+  "id": "5248511f78c4fcf4a82179f2fe2ad12e5369fa3a",
+  "canonicalId": "9804cecf7e1088df89867a162eb0cfee56fab28a",
+  "slug": "peertube去中心化视频平台引发关注",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T11:17:00Z",
+  "lang": "zh",
+  "title": "PeerTube：去中心化视频平台引发关注",
+  "summary": "PeerTube，一个基于 ActivityPub 协议的开源去中心化视频平台，引发了社区广泛关注，讨论焦点集中在其盈利模式挑战和采用障碍上。 PeerTube 代表着向去中心化视频托管的一种潜在转变，赋予用户和创作者更多控制权，但其成功取决于解决盈利和内容发现等问题。 PeerTube 利用 P2P 技术降低服务器负载，并使用 ActivityPub 协议与其他实例互联，但目前缺乏内置的盈利机制，内容库也远小于 YouTube。",
+  "score": 8,
+  "tags": [
+    "decentralized",
+    "video hosting",
+    "open source",
+    "federation",
+    "PeerTube"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "doener",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48759634"
+    }
+  ],
+  "originalUrl": "https://github.com/Chocobozzz/PeerTube",
+  "originalSite": "github.com",
+  "context": "PeerTube 是 Fediverse（联邦宇宙）的一部分，Fediverse 是一个使用 ActivityPub 协议互联社交平台网络。与 YouTube 等中心化服务不同（由一家公司控制所有服务器），PeerTube 允许任何人托管一个‘pod’（服务器），该服务器可以与其他服务器通信，从而实现去中心化视频托管。该平台还使用点对点技术，让观看者之间共享带宽，从而在视频走红时减少服务器压力。",
+  "discussion": "社区评论强调盈利是专业 YouTube 创作者的最大障碍，一位用户指出制作成本高昂。一些创作者欣赏 PeerTube 适合开源项目，但感叹平台缺乏受众和内容。其他人则因为被 YouTube 封禁而转投 PeerTube。总体情绪谨慎乐观，但承认存在显著的采用障碍。",
+  "references": [
+    {
+      "title": "PeerTube - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/PeerTube"
+    },
+    {
+      "title": "GitHub - Chocobozzz/PeerTube: ActivityPub- federated video ...",
+      "url": "https://github.com/Chocobozzz/PeerTube"
+    },
+    {
+      "title": "Architecture | PeerTube documentation",
+      "url": "https://docs.joinpeertube.org/contribute/architecture"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

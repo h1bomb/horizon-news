@@ -1,0 +1,40 @@
+{
+  "id": "2d0ed258f8bd429e54e6b97616e8ba2592e2b4c3",
+  "canonicalId": "1d1c6c312a94bc636afcdd60f1b1f1234977a05a",
+  "slug": "gemma-4-2b-在真实世界本地测试中优于-qwen35-2b",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-04T00:00:00Z",
+  "lang": "zh",
+  "title": "Gemma 4 2B 在真实世界本地测试中优于 Qwen3.5 2B",
+  "summary": "一位用户在 RTX 2060 6GB 显卡上本地测试了 Gemma 4 2B，发现其性能、速度和内存效率均优于 Qwen3.5 2B，在结构化输出和 Mermaid 图表生成等方面表现更佳。该用户指出，尽管 Gemma 4 2B 标称参数较少，但其实际体验接近 Qwen3.5 9B。 这一真实世界对比揭示了两个重要开源大语言模型之间的实际性能差异，对于开发者在资源受限硬件上选择本地部署模型至关重要。这些发现对基准测试结果提出了挑战，并可能影响快速发展的开源 AI 生态系统中的采用决策。 一位社区成员透露，Gemma 4 2B 实际包含约 51 亿参数（包括每层嵌入），尽管被宣传为 20 亿参数模型，这解释了其更强的性能。一些用户报告了 Gemma 4 更大变体的混合体验，指出在实际应用中工具调用可靠性存在问题。",
+  "score": 7,
+  "tags": [
+    "LLM Comparison",
+    "Open-Source AI",
+    "Model Evaluation",
+    "Local Inference",
+    "AI Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 3, 13:57"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/",
+  "originalSite": "reddit.com",
+  "context": "Gemma 4 是谷歌最新的开源多模态模型系列，针对不同硬件需求设计，其中 20 亿参数变体专为移动和边缘部署优化。Qwen3.5 是阿里巴巴的开源语言模型系列，以在不同参数规模下均表现强劲而闻名。在 RTX 2060 等 6GB 显存的 GPU 上进行本地推理时，由于内存限制，通常只能运行约 30 亿参数以下的模型。",
+  "discussion": "讨论揭示了不同观点，一些用户称赞 Gemma 4 的编码性能和效率，而另一些用户报告了其在智能家居控制等实际应用中的可靠性问题。多条评论强调了参数数量的差异，指出 Gemma 4 2B 实际 51 亿的规模使得与 Qwen3.5 2B 的直接比较可能不公平。",
+  "references": [
+    {
+      "title": "Gemma 4 model overview - Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core"
+    },
+    {
+      "title": "RTX2060 Ollama Benchmark: Best GPU for 3B LLMs Inference",
+      "url": "https://www.databasemart.com/blog/ollama-gpu-benchmark-rtx2060"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

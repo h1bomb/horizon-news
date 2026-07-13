@@ -1,0 +1,44 @@
+{
+  "id": "2e90cb0a4e28585cffb326744afc4fb1bf47969c",
+  "canonicalId": "70ff8fe105015665782688930692d27f985c88f9",
+  "slug": "linux-内核用内存描述符替代-struct-page",
+  "date": "2026-05-29",
+  "publishedAt": "2026-05-28T13:09:00Z",
+  "lang": "zh",
+  "title": "Linux 内核用内存描述符替代 struct page",
+  "summary": "Vishal Moola 在 LSFMM+BPF 2026 峰会上介绍了用内存描述符替代 struct page 的现状和未来计划。 这是 Linux 内存管理的根本性变革，可减少内存开销和复杂性，有望提高内核的性能和可维护性。 内存描述符计划仅占 8 字节，已有 folio、slab、ptdesc、zsmalloc、netmem 等类型。转换涉及双分配开销，并提出了默认禁用的 CONFIG_MEMDESC 选项。",
+  "score": 9,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "memory descriptors",
+    "struct page",
+    "LSFMM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073425/",
+  "originalSite": "lwn.net",
+  "context": "struct page 自 1995 年以来一直是 Linux 内存管理的核心，但它已增长到 64 字节，并因支持不同页面类型而堆满了联合体，导致效率低下。内存描述符旨在分离类型特定信息，仅存储指向类型特定描述符的指针，从而使结构更小、更易维护。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Memdesc | linux",
+      "url": "https://blogs.oracle.com/linux/introducing-memdesc"
+    },
+    {
+      "title": "The state of the page in 2025 [LWN.net]",
+      "url": "https://lwn.net/Articles/1015320/"
+    },
+    {
+      "title": "Dynamically allocated memory descriptors",
+      "url": "https://lore.kernel.org/linux-mm/5a55874d-80b9-b622-ec98-1bfdf3b251bf@redhat.com/T/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

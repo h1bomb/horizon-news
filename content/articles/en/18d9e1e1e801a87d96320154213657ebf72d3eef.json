@@ -1,0 +1,40 @@
+{
+  "id": "18d9e1e1e801a87d96320154213657ebf72d3eef",
+  "canonicalId": "0d860c8f68a41b03f5635e3bc63cda2d398b79e2",
+  "slug": "token-speed-visualization-tool-helps-local-llm-users-feel-performance",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-10T15:23:00Z",
+  "lang": "en",
+  "title": "Token speed visualization tool helps local LLM users feel performance",
+  "summary": "A developer created a web-based tool called tokenspeed that simulates token generation at user-specified speeds to give a subjective feel for local LLM performance. It supports text, code, and reasoning + code modes. This tool addresses a common problem for the local LLM community: abstract tokens/second numbers are hard to interpret subjectively. It helps users make informed decisions about model and hardware choices by providing a visceral sense of speed. The tool is available as a web demo and also as a Python script for local execution. It includes a 'Think + Code' mode that simulates the thinking process of reasoning models like Qwen, though some users noted this mode may not fully replicate real behavior.",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "tokens-per-second",
+    "visualization",
+    "performance",
+    "tool"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "MikeNonect"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t99upf/getting_a_feel_for_how_fast_x_tokenssecond_really/",
+  "originalSite": "reddit.com",
+  "context": "Tokens per second (tokens/s) is a common metric for LLM inference speed, but its subjective experience varies based on context such as chat versus coding. Local LLM enthusiasts often share performance numbers, but interpreting whether a speed is 'fast enough' is difficult without a point of reference. This tool provides a reference by simulating output at a given rate.",
+  "discussion": "The community overwhelmingly praised the tool as a brilliant and much-needed resource. Users discussed subjective speed thresholds and provided constructive feedback on the realism of the reasoning simulation, with some requesting a community showcase to prevent such projects from being buried.",
+  "references": [
+    {
+      "title": "Large language model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "title": "LLM Token Generation Speed Simulator & Benchmark | Compare",
+      "url": "https://openllmbenchmarks.com/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

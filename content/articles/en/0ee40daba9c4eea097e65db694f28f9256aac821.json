@@ -1,0 +1,40 @@
+{
+  "id": "0ee40daba9c4eea097e65db694f28f9256aac821",
+  "canonicalId": "61084fdbfeef57ff0ddc4bc11fec7ec21d112452",
+  "slug": "85-tps-125k-context-vision-for-qwen36-27b-on-single-rtx-3090",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T14:11:00Z",
+  "lang": "en",
+  "title": "85 TPS, 125K Context, Vision for Qwen3.6-27B on Single RTX 3090",
+  "summary": "A guide claims to achieve 85 tokens/second, 125K context length, and vision capabilities for the Qwen3.6-27B model on a single RTX 3090 using a custom inference stack, but a critical proprietary CUDA patch is not publicly released. This demonstrates the potential for running large open-weight models locally on consumer hardware, which could democratize access to powerful LLMs for developers and researchers. However, the missing patch raises concerns about reproducibility and transparency. The stack reportedly achieves 85 TPS with 125K context and vision on a single RTX 3090 (24GB VRAM), but requires a file named 'patch_tolist_cudagraph.py' that the author has not released. Community members have been unable to replicate the results without this patch.",
+  "score": 8,
+  "tags": [
+    "LLM inference",
+    "Qwen",
+    "RTX 3090",
+    "performance optimization",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "AmazingDrivers4u"
+    }
+  ],
+  "originalUrl": "https://medium.com/@fzbcwvv/an-overnight-stack-for-qwen3-6-27b-85-tps-125k-context-vision-on-one-rtx-3090-0d95c6291914?postPublishedType=repub",
+  "originalSite": "medium.com",
+  "context": "Qwen3.6-27B is a dense 27-billion-parameter open-weight model released by Alibaba under Apache 2.0, excelling at coding tasks. Running such large models locally typically requires multiple high-end GPUs or significant optimization. The RTX 3090, with 24GB VRAM, is a popular consumer GPU for local LLM inference, but achieving high throughput and long context on a single card is challenging.",
+  "discussion": "The community is impressed by the performance claims (85 TPS) but frustrated by the missing patch, with several commenters calling the post clickbait or self-promotion. Some users shared their own speeds (e.g., 25 t/s on multi-GPU, 30-40 t/s on RTX 5090) and requested the patch or a Docker image.",
+  "references": [
+    {
+      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/"
+    },
+    {
+      "title": "Alibaba Qwen3.6-27B Dense Model Beats 397B Predecessor",
+      "url": "https://www.implicator.ai/alibaba-ships-qwen3-6-27b-an-open-weight-coding-model-that-beats-its-397b-moe/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

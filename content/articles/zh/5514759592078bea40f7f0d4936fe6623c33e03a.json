@@ -1,0 +1,40 @@
+{
+  "id": "5514759592078bea40f7f0d4936fe6623c33e03a",
+  "canonicalId": "4c972aa928e6ecc94b3411e8630980dd1a7f8bbc",
+  "slug": "gpt-56-一小时破解五十年图论猜想",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T03:49:00Z",
+  "lang": "zh",
+  "title": "GPT-5.6 一小时破解五十年图论猜想",
+  "summary": "OpenAI 的 GPT-5.6 Sol Ultra 模型利用 64 个子代理，在一小时内自主证明了图论中存在 50 年之久的循环双覆盖猜想，并生成了 3 页 PDF 证明。OpenAI 同时公布了所使用的完整提示。 这表明大型语言模型现在能够通过先进的多智能体推理解决长期未解的数学难题，可能从根本上改变数学研究的方式。同时，它也验证了精心设计的提示和子代理架构在复杂推理中的有效性。 模型使用了 64 个子代理并行工作，将问题转化为关于有限域上边标号和线性方程组的问题。提示明确规定了验收标准、定义、边界条件和失败情形，并要求动态分配子代理并进行独立审查。",
+  "score": 10,
+  "tags": [
+    "AI",
+    "graph theory",
+    "mathematical proof",
+    "GPT-5.6",
+    "autonomous reasoning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.qbitai.com/2026/07/447873.html",
+  "originalSite": "qbitai.com",
+  "context": "循环双覆盖猜想由 Tutte、Seymour 等数学家提出，断言每个无桥图都存在一组圈，使得每条边恰好被覆盖两次。该猜想困扰了数学界约 50 年。GPT-5.6 的方法是将问题分解为子任务，由专门的子代理处理——这是 AI 推理中新兴的范式。公布的提示约 700 个字符，充当了主协调器。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Cycle double cover conjecture",
+      "url": "https://en.wikipedia.org/wiki/Cycle_double_cover_conjecture"
+    },
+    {
+      "title": "Cycle Double Cover Conjecture -- from Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/CycleDoubleCoverConjecture.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

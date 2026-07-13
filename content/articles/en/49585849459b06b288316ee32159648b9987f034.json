@@ -1,0 +1,32 @@
+{
+  "id": "49585849459b06b288316ee32159648b9987f034",
+  "canonicalId": "25cf783499d7da1c7ee4822cfd27ee1243721915",
+  "slug": "radicle-peer-to-peer-code-forge-built-on-git",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-15T12:07:00Z",
+  "lang": "en",
+  "title": "Radicle: Peer-to-Peer Code Forge Built on Git",
+  "summary": "Radicle is a peer-to-peer code forge that provides a decentralized alternative to centralized platforms like GitHub, using Git for version control and a P2P network for collaboration. It matters because it offers a censorship-resistant and decentralized code hosting solution, giving developers control over their infrastructure and data, which is significant for open-source communities concerned about centralization. Radicle supports private repos where history remains public but new updates are not publicized, and uses cryptographic identities and signed artifacts by default. The project recently moved to the radicle.dev domain.",
+  "score": 8,
+  "tags": [
+    "git",
+    "distributed-vcs",
+    "forge",
+    "open-source",
+    "p2p"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "KolmogorovComp",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48147603"
+    }
+  ],
+  "originalUrl": "https://radicle.dev/",
+  "originalSite": "radicle.dev",
+  "context": "A code forge is a platform for hosting and collaborating on code repositories. Centralized forges like GitHub dominate, but they rely on a single company's infrastructure. Radicle leverages Git's distributed nature and peer-to-peer networking to create a decentralized forge where users host their own data.",
+  "discussion": "The community raised concerns about Radicle's license not being AGPL, potentially allowing SaaS companies to extract value. Others appreciated the local-first design, private repo support, and use in agentic workflows. The recent domain move was also noted.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

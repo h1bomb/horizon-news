@@ -1,0 +1,32 @@
+{
+  "id": "0183ac6557e6cdb8779ec960141987155c5a5ab2",
+  "canonicalId": "6e1dc945909b03404e419b5e1c0f3fdd587a17e7",
+  "slug": "ai-agents-need-control-flow-not-more-prompts",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T16:43:00Z",
+  "lang": "en",
+  "title": "AI Agents Need Control Flow, Not More Prompts",
+  "summary": "The article argues that building reliable AI agents requires explicit control flow constructs like loops and conditionals, rather than solely relying on improving prompts. This challenges the predominant prompt-engineering approach in AI agent development. This insight is significant because current AI agent development heavily emphasizes prompt engineering, which often leads to unreliable behavior in complex real-world tasks. Shifting focus to control flow could lead to more robust and deterministic agents, improving their practical utility. The article highlights that without explicit control flow, agents struggle with tasks requiring iteration or conditional logic, such as processing multiple files in a session. The community discussion suggests that LLMs may be better used for writing deterministic code rather than handling tasks at runtime.",
+  "score": 8,
+  "tags": [
+    "AI agents",
+    "control flow",
+    "prompt engineering",
+    "LLM",
+    "software design"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bsuh",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48051562"
+    }
+  ],
+  "originalUrl": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+  "originalSite": "bsuh.bearblog.dev",
+  "context": "AI agents are software systems that leverage large language models (LLMs) to autonomously perform tasks. Control flow refers to the order in which individual statements, instructions, or function calls are executed or evaluated, including constructs like loops and conditionals. Prompt engineering involves crafting input prompts to guide LLM behavior, but this approach has limitations in handling multi-step, stateful tasks.",
+  "discussion": "The community strongly agrees with the article's thesis. One commenter criticizes the advice to 'build for future models' and provides a concrete example of a QA agent failing due to lack of control flow. Others suggest that LLMs should be used to write deterministic code instead of handling tasks at runtime, and some humorously note that this is essentially reinventing programming.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

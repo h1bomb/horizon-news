@@ -1,0 +1,44 @@
+{
+  "id": "f24e917d5b0107250e3efa5bcb48e5282353b98a",
+  "canonicalId": "c1b6d364e93d7cfa2c80b5633dd62f16d5c94303",
+  "slug": "servo-010-web-engine-now-available-on-cratesio",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-13T12:12:00Z",
+  "lang": "en",
+  "title": "Servo 0.1.0 web engine now available on crates.io",
+  "summary": "Servo 0.1.0 has been published to crates.io, making the Rust-based web engine embeddable in Rust applications and enabling standalone use of its components like Stylo and WebRender. This release follows a recent release candidate and includes documentation and examples. This milestone significantly expands the Rust ecosystem by providing a modern, embeddable web engine that can be integrated into GUI frameworks and tools, potentially enabling new types of applications and reducing reliance on traditional browser engines. The availability on crates.io lowers the barrier for Rust developers to incorporate web rendering capabilities into their projects. The Slint project provides an example of embedding Servo into a GUI framework using wgpu, demonstrating practical integration. Additionally, a CLI tool called 'servo-shot' has been created to render web pages as images using the new crate, showcasing immediate applications.",
+  "score": 8,
+  "tags": [
+    "rust",
+    "web-engine",
+    "crates.io",
+    "embedding",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ffin"
+    }
+  ],
+  "originalUrl": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+  "originalSite": "servo.org",
+  "context": "Servo is a web browser rendering engine written in Rust, originally developed by Mozilla Research, designed to be lightweight and adaptable for desktop, mobile, and embedded applications. Stylo is a high-performance CSS engine that powers both Servo and Firefox, while WebRender is a next-generation graphics engine for efficient rendering. Crates.io is the official package registry for the Rust programming language, where developers publish and share libraries.",
+  "discussion": "The community shows strong interest with practical examples, including embedding Servo into the Slint GUI framework and a CLI tool for rendering web pages as images. Some comments highlight the potential for Servo to advance safe infrastructure development, while others note related tools like Typst for PDF generation.",
+  "references": [
+    {
+      "title": "Servo aims to empower developers with a lightweight,",
+      "url": "https://servo.org/"
+    },
+    {
+      "title": "GitHub - servo/stylo: CSS engine that powers Servo and Firefox · GitHub",
+      "url": "https://github.com/servo/stylo"
+    },
+    {
+      "title": "FOSDEM 2017 - WebRender , the next generation graphics engine by...",
+      "url": "https://archive.fosdem.org/2017/schedule/event/mozilla_webrender_next_generation_graphics_engine/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

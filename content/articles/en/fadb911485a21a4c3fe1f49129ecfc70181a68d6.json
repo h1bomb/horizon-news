@@ -1,0 +1,41 @@
+{
+  "id": "fadb911485a21a4c3fe1f49129ecfc70181a68d6",
+  "canonicalId": "bad6f12977b868597c3b7ea3687bab2d161ed6b9",
+  "slug": "voxel-space-tutorial-revives-1992-comanche-graphics",
+  "date": "2026-05-31",
+  "publishedAt": "2026-05-30T14:25:00Z",
+  "lang": "en",
+  "title": "Voxel Space Tutorial Revives 1992 Comanche Graphics",
+  "summary": "An interactive tutorial has been published that explains the Voxel Space algorithm used in the 1992 game Comanche, demonstrating height-map-based terrain rendering with step-by-step visualization. This tutorial provides a rare deep dive into a groundbreaking retro-graphics technique, making it accessible to modern developers and enthusiasts, and preserving the history of real-time 3D rendering. The algorithm is technically a height-map renderer, not true voxel rendering, as it uses a 2D height array to create 3D terrain. The tutorial includes interactive demos and links to C++ and AGS ports.",
+  "score": 8,
+  "tags": [
+    "voxel-space",
+    "terrain-rendering",
+    "retro-graphics",
+    "algorithm",
+    "comanche"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "davikr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48336564"
+    }
+  ],
+  "originalUrl": "https://s-macke.github.io/VoxelSpace/",
+  "originalSite": "s-macke.github.io",
+  "context": "The Voxel Space algorithm was developed by NovaLogic for the 1992 helicopter combat game Comanche, achieving smooth terrain rendering on early PCs. Unlike true voxel methods that store data in a 3D grid, it uses a height map—a grayscale image where each pixel's brightness represents elevation—to efficiently render landscapes by projecting columns of prisms onto the screen.",
+  "discussion": "Commenters noted the technical distinction between height maps and true voxels, with one user sharing a personal anecdote about \"oil tank holiday\" tests in code testing. Several users contributed links to their own implementations in C++, AGS, and other platforms, highlighting the algorithm's lasting influence.",
+  "references": [
+    {
+      "title": "Voxel Space Demo - Bits and Bytes (Ep. 4) | Colin Hoad",
+      "url": "https://www.colinhoad.com/voxel-space-demo-bits-and-bytes-ep-4"
+    },
+    {
+      "title": "Heightmap - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heightmap"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

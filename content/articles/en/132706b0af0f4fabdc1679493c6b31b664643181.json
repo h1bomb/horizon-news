@@ -1,0 +1,40 @@
+{
+  "id": "132706b0af0f4fabdc1679493c6b31b664643181",
+  "canonicalId": "112d0401ca70a24b2ad1eed2a59cda69a5e4a1e1",
+  "slug": "sqlite-wal-mode-works-correctly-across-docker-containers-sharing-a-volume",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T15:41:00Z",
+  "lang": "en",
+  "title": "SQLite WAL Mode Works Correctly Across Docker Containers Sharing a Volume",
+  "summary": "Research confirms that SQLite's Write-Ahead Logging (WAL) mode functions properly when multiple Docker containers on the same host share a volume, as they effectively share the same shared memory required for WAL collaboration. This finding resolves a debated technical question raised in a Hacker News discussion about potential issues in such containerized setups. This matters because it validates the feasibility of using SQLite in containerized environments where multiple processes need concurrent database access, simplifying deployments for applications like microservices or distributed systems. It addresses a common concern in DevOps and database management, potentially reducing complexity and overhead compared to alternative database solutions. The research shows that Docker containers on the same host and filesystem share shared memory in a way that supports SQLite's WAL mode, ensuring atomicity and durability without errors. However, this behavior is specific to containers on the same host; cross-host or network-based sharing might not work due to differences in shared memory access.",
+  "score": 7,
+  "tags": [
+    "sqlite",
+    "docker",
+    "databases",
+    "containerization",
+    "systems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "SQLite's Write-Ahead Logging (WAL) mode is a crash-recovery mechanism that writes changes to a separate log file before updating the main database, providing atomicity and durability. Docker containers are isolated processes that can share resources like volumes and memory when configured appropriately, with shared memory enabling inter-process communication. In containerized deployments, SQLite databases are often stored in shared volumes to allow multiple containers to access the same data, but WAL mode relies on shared memory for coordination between processes.",
+  "discussion": "The Hacker News discussion highlighted uncertainty about whether SQLite WAL mode could function correctly across Docker containers sharing a volume, with some users expressing concerns about potential shared memory issues. The research findings provided clarity and validation, leading to a consensus that it works as intended, which was welcomed by the community for its practical implications in containerized database setups.",
+  "references": [
+    {
+      "title": "Write-Ahead Logging - SQLite",
+      "url": "https://sqlite.org/wal.html"
+    },
+    {
+      "title": "Is it possible to share memory between docker containers? -",
+      "url": "https://stackoverflow.com/questions/23889187/is-it-possible-to-share-memory-between-docker-containers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "10d915df5e89f589bd8a4a33ebdea0408ff64600",
+  "canonicalId": "b2fe1fedb535cfdcfdaf013f508b11a3d16f9449",
+  "slug": "美国考虑将英伟达-h200-gpu-对单一中国客户的出口上限设为-75-万片",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-06T00:00:00Z",
+  "lang": "zh",
+  "title": "美国考虑将英伟达 H200 GPU 对单一中国客户的出口上限设为 7.5 万片",
+  "summary": "据彭博社报道，美国官员正考虑将英伟达向每家中国企业出口的 H200 加速卡数量上限定为 7.5 万片，AMD 的 MI325 加速器也将计入此额度。对华总出货上限仍维持在约 100 万片，但针对单一客户的限制可能使阿里巴巴、字节跳动等公司难以获得原计划的数量。 这一潜在政策变化直接影响中国头部科技公司的 AI 发展路线图，这些公司依赖 H200 等高性能 GPU 来训练和运行大语言模型。这标志着美国在控制先进 AI 算力流向中国方面的努力显著升级，可能重塑全球 AI 硬件供应链和竞争格局。 据报道，相关方案仍在敲定中，可能在未来几周前总统特朗普与中国国家主席习近平的潜在会晤中讨论，旨在为向中国非军事企业出口 H200 争取许可。消息公布后，英伟达与 AMD 的股价在盘后交易中均下跌近 1%。",
+  "score": 8,
+  "tags": [
+    "AI-Hardware",
+    "Trade-Policy",
+    "NVIDIA",
+    "Geopolitics",
+    "Supply-Chain"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 5, 07:45"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40046",
+  "originalSite": "t.me",
+  "context": "英伟达 H200 是一款专为生成式 AI 和高性能计算工作负载设计的高性能 GPU，具有显著的内存能力。AMD 的 MI325X 加速器是其直接竞争对手，基准测试表明其在内存容量和推理速度等方面可能优于 H200。训练最先进的大语言模型需要海量计算资源，因此获得这些先进加速器对 AI 发展至关重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "H200 GPU | NVIDIA",
+      "url": "https://www.nvidia.com/en-us/data-center/h200/"
+    },
+    {
+      "title": "AMD Instinct MI325X: Redefining AI Performance Benchmarking AMD MI325x vs NVIDIA H200: A Competitive ... AMD Radeon Instinct MI325X: Specifications and Benchmark ... The Rise of AMD’s MI325X: Transforming AI Performance AMD Instinct™ MI325X Accelerators DATA SHEET AMD INSTINCT™ MI325 ACCELERATOR AMD Instinct™ MI325X Accelerators AMD Instinct MI325X: Redefining AI Performance AMD Instinct MI325X: Redefining AI Performance How the MI325X Became the Ultimate AI Performance Benchmark",
+      "url": "https://tensorwave.com/blog/mi325"
+    },
+    {
+      "title": "Guide to Hardware Requirements for Training and Fine-Tuning ... Hardware Guide for Large Language Models and Deep Learning Train Big, Plan Smart - How to Calculate Memory and Estimate ... Efficient Model Training and Hardware Requirements for Large ... Top Stories News about Cloud computing, Microsoft Research, Huawei News about Multimodal learning, Flux (text-to-image model), Generative artificial intelligence Also in the news Training Compute-Optimal Large Language Models - NeurIPS LLM System Requirements: How Much GPU RAM Do You Need? (Plus ... Train Big, Plan Smart - How to Calculate Memory and Estimate GPUs fo… Guide to Hardware Requirements for Training and Fine-Tuning Large Train Big, Plan Smart - How to Calculate Memory and Estimate GPUs fo… Training Compute-Optimal Large Language Models - NeurIPS Recommended Hardware for Running LLMs Locally - GeeksforGeeks",
+      "url": "https://towardsai.net/p/artificial-intelligence/guide-to-hardware-requirements-for-training-and-fine-tuning-large-language-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1da4b9e3b5e4f3d44b9c788d7d1badb60860ecb7",
+  "canonicalId": "897c75c2cbcdd29b6ba0975bf4823f2165568d7d",
+  "slug": "transformer-论文合著者-illia-polosukhin-宣布-ironclaw一个基于-rust-的安全版-openclaw-实现",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-06T00:00:00Z",
+  "lang": "zh",
+  "title": "Transformer 论文合著者 Illia Polosukhin 宣布 IronClaw，一个基于 Rust 的安全版 OpenClaw 实现",
+  "summary": "开创性论文《Attention Is All You Need》的合著者 Illia Polosukhin 宣布了 IronClaw，这是一个用 Rust 编写的、专注于安全的开源 AI 智能体运行时。这个新实现直接解决了流行框架 OpenClaw 中存在的关键安全漏洞，例如数据泄露和提示词注入风险。 这一消息之所以重要，是因为它将来自一位基础性 AI 研究者的高级安全工程和信誉带入了快速发展但往往不安全的自主 AI 智能体领域。像 IronClaw 这样一个安全、可审计的框架，可以通过降低凭证盗窃、资金损失和数据泄露的风险，推动 AI 智能体在企业中得到更广泛的采用。 IronClaw 的设计目标是在具有基于能力的权限的 WebAssembly 沙箱中运行不可信的工具，并实现了针对提示词注入攻击的防御。该项目是开源的，在 nearai GitHub 组织下开发，旨在提供一个清晰、可审计、适合企业使用的代码库。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Autonomous Agents",
+    "Rust",
+    "Transformer Architecture",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 5, 17:36"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rlnwsk/d_ama_secure_version_of_openclaw/",
+  "originalSite": "reddit.com",
+  "context": "OpenClaw 是一个流行的开源框架，用于构建能够自主执行任务（例如编写代码或管理数据）的 AI 智能体，其遵循一种“智能体循环”模式。然而，其架构赋予智能体对用户系统的广泛访问权限，带来了重大的安全风险，例如提示词注入——即隐藏在数据中的恶意指令可以劫持智能体的行为。Rust 是一种因其内存安全性和性能而备受赞誉的系统编程语言，使其成为安全关键型应用程序的常见选择。",
+  "discussion": "社区对作者的资历表示高度尊重，并进行了实质性的技术讨论。主要的关切点包括 IronClaw 在流行后能否避免重蹈 OpenClaw 的安全覆辙、其部署模式及与付费服务的潜在关联，以及安全执行的架构方法。此外，也提出了关于 AI 未来以及 Transformer 在实现 AGI 中作用的哲学性问题。",
+  "references": [
+    {
+      "title": "GitHub - nearai/ironclaw: IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security · GitHub",
+      "url": "https://github.com/nearai/ironclaw"
+    },
+    {
+      "title": "nearai/ironclaw: IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security | daily.dev",
+      "url": "https://app.daily.dev/posts/nearai-ironclaw-ironclaw-is-openclaw-inspired-implementation-in-rust-focused-on-privacy-and-securit-1trcvfhwp"
+    },
+    {
+      "title": "How Prompt Injection Attacks Turn Assistants into... | Medium",
+      "url": "https://medium.com/@davidsehyeonbaek/how-prompt-injection-attacks-turn-assistants-into-accomplices-31ed11e406df"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

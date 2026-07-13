@@ -1,0 +1,45 @@
+{
+  "id": "765176242bbfa25d2e3de1d24c44164d0e8022ea",
+  "canonicalId": "2c877729890715532f6481275216edc13bc36191",
+  "slug": "高斯点溅射融合两种渲染技术",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T10:48:00Z",
+  "lang": "zh",
+  "title": "高斯点溅射融合两种渲染技术",
+  "summary": "一种名为高斯点溅射的新渲染技术在 Siggraph 2026 上提出，它结合了高斯溅射和基于点的渲染，以实现高效的 3D 可视化。 这种混合方法可以实现实时高质量的新视角合成和 3D 场景表示，可能对游戏、VR 和计算机图形学管线产生影响。 该技术将高斯溅射的体积表示与点云的效率相结合，在质量和速度之间提供了折中。与网格溅射的比较表明，高斯溅射可能在处理锐利特征方面存在不足。",
+  "score": 8,
+  "tags": [
+    "computer graphics",
+    "rendering",
+    "Gaussian splatting",
+    "point cloud",
+    "Siggraph"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48396792"
+    }
+  ],
+  "originalUrl": "https://momentsingraphics.de/Siggraph2026.html",
+  "originalSite": "momentsingraphics.de",
+  "context": "高斯溅射是一种体积渲染技术，用各向异性高斯基元表示场景，实现实时光场渲染。基于点的渲染使用点作为几何基元，渲染时间恒定且独立于场景复杂度。这项新工作旨在结合两种方法的优势。",
+  "discussion": "社区评论显示了对 AAA 游戏采用这些方法的兴趣，用户还请求关于经典点溅射的教程（已被高斯溅射掩盖）。一位评论者将该技术与网格溅射进行了比较，指出三角形比高斯函数能更好地表示锐利特征。",
+  "references": [
+    {
+      "title": "Gaussian splatting",
+      "url": "https://en.wikipedia.org/wiki/Gaussian_splatting"
+    },
+    {
+      "title": "Lecture 21: Point-based Rendering - Department of Computer ...",
+      "url": "https://www.cs.cornell.edu/courses/cs665/2004fa/Lectures/lec21_Points_web_6page.pdf"
+    },
+    {
+      "title": "Introduction to 3D Gaussian Splatting",
+      "url": "https://huggingface.co/blog/gaussian-splatting"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

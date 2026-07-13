@@ -1,0 +1,44 @@
+{
+  "id": "b046ef0d314a39817cedba5cd4a2286b1fa907ad",
+  "canonicalId": "b9f7099cb5137acbbc6edb39e1e5f4805a02dd9f",
+  "slug": "qwen-35-27b-在本地大语言模型任务中表现强劲引发社区热议",
+  "date": "2026-03-09",
+  "publishedAt": "2026-03-09T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.5 27B 在本地大语言模型任务中表现强劲，引发社区热议。",
+  "summary": "一位 Reddit 用户分享了实际测试结果，显示 Qwen 3.5 27B 模型（具体为 Q4_KXL_UD 量化版本）在其硬件上以每秒 90 个令牌的速度，成功为一项复杂的 PDF 合并应用生成了代码。虽然生成的应用存在细微的 GUI 问题，但这款本地运行的 270 亿参数模型在整体性能和速度上给社区留下了深刻印象。 这表明像 Qwen 3.5 27B 这样的高质量开源模型，在消费级硬件上处理复杂的现实任务正变得可行，挑战了只有庞大、专有模型才具备强大能力的观念。它使开发者和研究人员能够在本地运行强大的多模态 AI，增强了隐私性、降低了成本，并促进了开源 AI 生态系统的创新。 测试在配备 Intel i7-12700K CPU、NVIDIA RTX 3090 Ti GPU（24GB 显存）和 96GB 内存的系统上进行。测试的模型版本是 4 位量化变体（Q4_KXL_UD），这以可能牺牲部分精度为代价减少了内存占用，并且是在其最大上下文长度下运行的。用户指出，虽然 27B 版本成功了，但更大的 35B 变体因 GUI 不完整而在同一任务中失败。",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "qwen",
+    "model-evaluation",
+    "open-source-ai",
+    "hardware-performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 8, 05:37"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnwiyx/qwen_35_27b_is_the_real_deal_beat_gpt5_on_my/",
+  "originalSite": "reddit.com",
+  "context": "Qwen 3.5 是阿里巴巴云开发的一系列大语言模型。27B 版本是一个拥有 270 亿参数的\"稠密\"模型，而非混合专家（Mixture of Experts, MoE）架构。量化是一种通过使用更少的位数（例如 4 位而非 16 位）来表示模型权重，从而降低其内存和计算需求的技术，使其能够在显存有限的硬件上运行。\"每秒令牌数\"（tok/s）是衡量语言模型推理速度的常用指标。",
+  "discussion": "社区情绪非常积极，用户称赞 Qwen 3.5 27B 在其参数量级下展现出的质量和能力，指出它能很好地处理简单到中等复杂度的编码任务。讨论突出了实际的权衡：一些人认为更大的变体太慢，另一些人指出其\"首次令牌生成时间\"较长但输出质量很高，还有几人首次探索了其多模态视觉能力。社区也提出了对该模型倾向于\"过度思考\"（产生过多推理令牌）的担忧，以及对键值缓存进行量化以支持更高上下文长度时可能对准确性产生的影响。",
+  "references": [
+    {
+      "title": "Qwen3.5-27B: Specifications and GPU VRAM Requirements - ApX Machine Learning",
+      "url": "https://apxml.com/models/qwen35-27b"
+    },
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0, and Q6_K Really Mean | by Paul Ilvez | Medium",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "How many tok/s is enough? : r/LocalLLaMA - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1jze7v5/how_many_toks_is_enough/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

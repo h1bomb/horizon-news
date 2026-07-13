@@ -1,0 +1,40 @@
+{
+  "id": "2c98130ca5497c72d4d74c6e8d8e5dcf493cf6bb",
+  "canonicalId": "a19ffa4b4e7bd94ba53b65cb926d0e29495f1c58",
+  "slug": "litellm-pypi-版本-1827-和-1828-被恶意代码入侵",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "LiteLLM PyPI 版本 1.82.7 和 1.82.8 被恶意代码入侵",
+  "summary": "PyPI 上的 LiteLLM Python 包版本 1.82.7 和 1.82.8 被发现包含恶意代码，该代码执行了 forkbomb 攻击，导致系统内存耗尽。维护者确认入侵源于其 CI/CD 管道中使用 trivy 工具的漏洞，PyPI 已隔离受影响的包。 这一事件突显了广泛使用的 AI/ML 库中关键供应链漏洞，可能影响数百万次下载，使用户面临凭证窃取和拒绝服务攻击的风险。它强调了在开源生态系统中改进安全实践的紧迫性，特别是对于支撑现代 AI 应用的依赖项。 恶意代码以 base64 编码形式添加到 proxy_server.py 中，解码并执行另一个文件，导致 forkbomb 迅速消耗系统资源。此次攻击与 TeamPCP 黑客组织持续的供应链活动有关，虽然代理 Docker 版本因固定依赖而未受影响，但 PyPI 包的下载量已超过 9500 万次。",
+  "score": 9,
+  "tags": [
+    "security",
+    "ai-ml",
+    "python",
+    "supply-chain",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 24, 12:06"
+    }
+  ],
+  "originalUrl": "https://github.com/BerriAI/litellm/issues/24512",
+  "originalSite": "github.com",
+  "context": "LiteLLM 是一个流行的 Python 库，为调用 OpenAI 和 Anthropic 等提供商的各种大语言模型（LLM）提供统一接口。PyPI（Python 包索引）是 Python 包的官方存储库，开发者在此发布和安装软件依赖项。供应链攻击涉及入侵受信任的软件源以分发恶意软件，通常针对广泛使用的包以最大化影响。",
+  "discussion": "社区讨论包括维护者详细说明 CI/CD 漏洞、呼吁在开发环境中实现更好的沙箱和隔离，以及像 canary 这样的工具用于检测未经授权的包访问。整体情绪反映了对依赖信任的担忧以及在软件供应链中需要更强大安全措施的需求。",
+  "references": [
+    {
+      "title": "Popular LiteLLM PyPI package compromised in TeamPCP supply ...",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/"
+    },
+    {
+      "title": "LiteLLM Python package compromised by supply-chain attack",
+      "url": "https://github.com/BerriAI/litellm/issues/24512"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

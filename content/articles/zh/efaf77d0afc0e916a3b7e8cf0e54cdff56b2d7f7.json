@@ -1,0 +1,43 @@
+{
+  "id": "efaf77d0afc0e916a3b7e8cf0e54cdff56b2d7f7",
+  "canonicalId": "285857e27c294e077843082edc678672110a1107",
+  "slug": "matt-webb-倡导在-ai-代理编程中建立架构基础",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-29T00:00:00Z",
+  "lang": "zh",
+  "title": "Matt Webb 倡导在 AI 代理编程中建立架构基础",
+  "summary": "Matt Webb 在 2026 年 3 月的评论中指出，AI 代理编程需要强大的架构基础和优秀的库，以确保解决方案的可维护性、适应性和可组合性，而不是依赖暴力解决问题。他提到，使用 AI 代理的开发人员正将重点从编写代码行转向更多地思考软件架构。 这一观点很重要，因为它解决了 AI 辅助开发中的一个关键挑战：在 AI 代理的强大问题解决能力和对可持续、高质量软件的需求之间取得平衡。它强调了代理编程的兴起如何将开发人员的角色重塑为架构思维，这可能影响工具设计、编码实践和行业的长期软件可维护性。 Webb 特别强调，具有优秀接口的库在基础层面至关重要，使开发人员能够轻松采用'正确'的方法。他还提到自己转向'vibing'（他用来代替编码或 vibe coding 的术语），即更少关注代码行，更多关注架构。",
+  "score": 7,
+  "tags": [
+    "AI Agents",
+    "Software Architecture",
+    "Developer Tools",
+    "Coding Practices"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 28, 12:04"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "代理编程是一种软件开发方法，其中自主的 AI 代理使用大型语言模型（LLMs）等技术，以最少的人工干预来规划、编写、测试和修改代码。Vibe coding 是一种 AI 辅助编程实践，开发人员在提示中向 LLMs 描述任务，LLMs 自动生成代码，通常很少进行审查。这些方法是 AI 辅助软件开发更广泛趋势的一部分，旨在增强开发人员的能力，但如果没有适当的架构监督，会引发对可维护性和质量的担忧。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Agentic coding",
+      "url": "https://en.wikipedia.org/wiki/Agentic_coding"
+    },
+    {
+      "title": "Vibe coding",
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding"
+    },
+    {
+      "title": "What is agentic coding? How it works and use cases",
+      "url": "https://cloud.google.com/discover/what-is-agentic-coding"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

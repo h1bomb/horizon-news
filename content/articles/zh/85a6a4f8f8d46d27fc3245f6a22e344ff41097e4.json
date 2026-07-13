@@ -1,0 +1,45 @@
+{
+  "id": "85a6a4f8f8d46d27fc3245f6a22e344ff41097e4",
+  "canonicalId": "a355842d07a5baec75888eeaedb6579e6405223d",
+  "slug": "deflock-在美国绘制了-10-万个车牌读取器",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T17:04:00Z",
+  "lang": "zh",
+  "title": "Deflock 在美国绘制了 10 万个车牌读取器",
+  "summary": "开源项目 Deflock 宣布已在美国绘制了超过 10 万个自动车牌识别摄像头（ALPR）的位置。 这一里程碑凸显了监控基础设施的规模，并赋予社区挑战隐私侵犯的能力。它还引发了关于如何在安全摄像头的益处与个人隐私权之间取得平衡的辩论。 然而，一些社区成员指出，由于 OpenStreetMap 中的数据重复，实际数字可能被高估了几个百分点。此外，新地图界面需要 WebGL，给部分用户带来了可访问性问题。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "ALPR",
+    "openstreetmap",
+    "mapping"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pilingual",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48347370"
+    }
+  ],
+  "originalUrl": "https://deflock.org/",
+  "originalSite": "deflock.org",
+  "context": "自动车牌识别摄像头（ALPR）是一种高速摄像头，可捕获车牌数据，常用于执法和私人公司。Deflock 是一个社区驱动的开源项目，通过绘制这些设备的位置来提高透明度和问责制。该项目使用 OpenStreetMap 数据并鼓励公众贡献。随着监控问题的日益增长，像 Deflock 这样的倡议帮助个人了解他们正在被监视的位置。",
+  "discussion": "评论者表达了复杂的情绪：一些人支持对隐私侵犯的反击，而另一些人则对数据准确性（例如约 2500 个重复条目）和技术限制（如 WebGL 要求）提出担忧。少数人建议，像 Flock 这样的公司可以通过将摄像头放置在私人财产上来规避地图绘制，主张转而加强立法。",
+  "references": [
+    {
+      "title": "Think You’re Not Being Watched? DeFlock Says Think Again",
+      "url": "https://www.forbes.com/sites/larsdaniel/2024/11/26/think-youre-not-being-watched-deflock-says-think-again/"
+    },
+    {
+      "title": "The Open Source Project DeFlock Is Mapping License Plate ...",
+      "url": "https://www.404media.co/the-open-source-project-deflock-is-mapping-license-plate-surveillance-cameras-all-over-the-world/"
+    },
+    {
+      "title": "Automated License Plate Readers",
+      "url": "https://sls.eff.org/technologies/automated-license-plate-readers-alprs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

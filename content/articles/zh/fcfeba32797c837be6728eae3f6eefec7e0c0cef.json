@@ -1,0 +1,44 @@
+{
+  "id": "fcfeba32797c837be6728eae3f6eefec7e0c0cef",
+  "canonicalId": "6e4cff9d065fbe2736c87ea20bb7c88b27ec14a0",
+  "slug": "英伟达openai微软联合发布开源-mrc-协议",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-07T00:00:00Z",
+  "lang": "zh",
+  "title": "英伟达、OpenAI、微软联合发布开源 MRC 协议",
+  "summary": "英伟达、OpenAI 和微软等合作伙伴联合发布并开源了多路径可靠连接（MRC）协议，这是一种采用数据包喷射技术实现多路径并发传输并具备微秒级故障重路由能力的 RDMA 传输协议。 此次多家 AI 巨头合作旨在解决大规模 AI 训练中的网络瓶颈，提升千兆级集群的吞吐量和稳定性。作为贡献给 OCP 的开放标准，MRC 旨在减少行业碎片化，加速 Stargate 等未来 AI 基础设施的建设。 MRC 已部署在 NVIDIA Spectrum-X 平台和 Blackwell 架构上，支撑微软 Fairwater 和 OCI Abilene 等系统，并用于 GPT-5.5 等模型训练。该协议是开放计算项目（OCP）下的开放规范。",
+  "score": 9,
+  "tags": [
+    "AI基础设施",
+    "网络协议",
+    "NVIDIA",
+    "MRC协议",
+    "高算力集群"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 6, 14:39"
+    }
+  ],
+  "originalUrl": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+  "originalSite": "blogs.nvidia.com",
+  "context": "RDMA（远程直接内存访问）可在无需操作系统介入的情况下实现计算机间的直接数据传输，达到高吞吐量和低延迟。传统网络在大规模 AI 集群中面临拥塞和单路径故障问题。MRC 结合了数据包喷射（跨多条路径发送数据）和快速故障切换，确保持续为 GPU 提供数据，减少空闲时间。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric ...",
+      "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/"
+    },
+    {
+      "title": "OpenAI联合多家厂商推出MRC协议，破解大规模AI训练网络瓶颈",
+      "url": "https://www.firecat-web.com/daily-news/7869"
+    },
+    {
+      "title": "OpenAI携手五巨头开源革命性超算协议：一举解决超大集群LLM训练不稳定...",
+      "url": "https://news.qq.com/rain/a/20260507A00RCF00"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

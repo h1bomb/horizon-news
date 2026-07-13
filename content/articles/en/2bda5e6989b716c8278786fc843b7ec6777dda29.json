@@ -1,0 +1,40 @@
+{
+  "id": "2bda5e6989b716c8278786fc843b7ec6777dda29",
+  "canonicalId": "8a4d6528c3bea7f71fe2dcea7acb57624fe4d78f",
+  "slug": "mozilla-cto-to-host-ama-on-open-source-ai-report",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T14:51:00Z",
+  "lang": "en",
+  "title": "Mozilla CTO to host AMA on Open Source AI report",
+  "summary": "Mozilla CTO Raffi Krikorian announced an AMA on July 14, 2026, to discuss the inaugural State of Open Source AI report, covering hidden costs of 'free' models, enterprise adoption, the China effect, developer trust, and the agentic harness. This AMA addresses critical, often misunderstood aspects of open source AI in production, providing insights that can guide developers and enterprises in navigating real-world costs, trust, and strategic leverage in the AI ecosystem. The report and AMA focus on five themes: the hidden tax of 'free' models, real versus marketing claims in enterprise adoption, how Chinese models reshape leverage, developer trust based on a survey of 950+ developers, and why the 'agentic harness' layer is the new battleground for open source.",
+  "score": 8,
+  "tags": [
+    "open source AI",
+    "Mozilla",
+    "AI industry",
+    "enterprise AI",
+    "developer trust"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/raffikrikorian"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/",
+  "originalSite": "reddit.com",
+  "context": "Open source AI models like Llama and Mistral are widely used, but deploying them in production often incurs unexpected costs from infrastructure and proprietary tooling. The 'agentic harness' refers to the operational layer around a model that manages context, tool access, and safety, which is now the focus of competition. This report aims to clarify these real-world dynamics beyond popular narratives.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Complete Guide to Agent Harness: What It Is and Why It ...",
+      "url": "https://harness-engineering.ai/blog/agent-harness-complete-guide/"
+    },
+    {
+      "title": "What is an Agent Harness? The Architecture Behind Agentic AI",
+      "url": "https://opendatascience.com/what-is-an-agent-harness-the-architecture-behind-reliable-agentic-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

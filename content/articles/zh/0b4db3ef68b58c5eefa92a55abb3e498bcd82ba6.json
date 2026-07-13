@@ -1,0 +1,44 @@
+{
+  "id": "0b4db3ef68b58c5eefa92a55abb3e498bcd82ba6",
+  "canonicalId": "79c6a33813a0ee87de49176f7b5d9be53f133fcd",
+  "slug": "苹果-app-store-诈骗应用泛滥削弱其安全性辩护",
+  "date": "2026-04-19",
+  "publishedAt": "2026-04-19T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果 App Store 诈骗应用泛滥，削弱其安全性辩护",
+  "summary": "苹果 App Store 的审核机制被指存在严重漏洞，导致大量诈骗应用绕过监管。近期，一款虚假加密货币应用在下架前已诈骗用户约 950 万美元，苹果从中赚取了 142.5 万至 285 万美元的佣金。 诈骗应用的激增正在瓦解苹果维持 App Store 垄断地位的核心论据，该论据主要依赖保护用户安全的说法来合理化其抽成比例并抵制第三方商店。这种情况加剧了苹果在全球反垄断调查中的法律压力，并引发对其安全承诺有效性的担忧。 2026 年第一季度，App Store 的应用提交量同比增长 84%，达到 23.58 万个，但审核团队规模疑似未同步增长，导致“先通过后变脸”及冒名应用频发。苹果对此类安全漏洞的质疑多以重复性公关辞令回应，未提出实质性整改方案。",
+  "score": 7,
+  "tags": [
+    "App Security",
+    "Platform Governance",
+    "Antitrust",
+    "Mobile Ecosystems",
+    "Fraud Prevention"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 18, 03:25"
+    }
+  ],
+  "originalUrl": "https://appleinsider.com/articles/26/04/17/app-store-scams-are-getting-worse-and-apple-isnt-doing-enough?utm_source=rss",
+  "originalSite": "appleinsider.com",
+  "context": "苹果的 App Store 审核流程旨在评估所有应用、更新和应用内购买，以确保安全可信的用户体验，如其官方指南所述。iOS 采用应用沙盒作为关键安全功能，将每个应用隔离在安全环境中，以保护用户数据免受恶意或编写不当的应用侵害。公证是 macOS 软件的自动化安全扫描流程，不同于手动 App Store 审核，后者侧重于更广泛的合规性，包括安全、性能和业务方面。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "App Review - Distribute - Apple Developer",
+      "url": "https://developer.apple.com/distribute/app-review/"
+    },
+    {
+      "title": "App Sandboxing for Implementing Security and Privacy in iOS ...",
+      "url": "https://medium.com/@ios_guru/app-sandboxing-for-implementing-security-and-privacy-697641286c2e"
+    },
+    {
+      "title": "Notarizing macOS software before distribution - Apple Developer",
+      "url": "https://developer.apple.com/documentation/security/notarizing-macos-software-before-distribution"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

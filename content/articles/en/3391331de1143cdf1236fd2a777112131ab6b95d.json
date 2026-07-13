@@ -1,0 +1,40 @@
+{
+  "id": "3391331de1143cdf1236fd2a777112131ab6b95d",
+  "canonicalId": "f8ff3a0011a05aeb50d5f3720615fe130bffdf4c",
+  "slug": "nvidia-announces-nemotron-4-340b-open-model-at-2026-conference",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T20:18:00Z",
+  "lang": "en",
+  "title": "NVIDIA announces Nemotron-4 340B open model at 2026 conference",
+  "summary": "At NVIDIA's 2026 conference, the company announced the Nemotron-4 340B model family, developed in collaboration with companies like Thinking Machines, Sarvam, Perplexity, and Mistral, along with multiple nations. This represents a significant scaling from previous Nemotron models, now featuring a 340-billion parameter dense architecture trained on 9 trillion tokens. This announcement matters because it represents NVIDIA's serious commitment to open-source AI development, potentially democratizing access to state-of-the-art large language models. The collaborative approach with multiple companies and nations could accelerate AI innovation and adoption across industries while challenging proprietary model dominance. The Nemotron-4 340B model family includes Base, Instruct, and Reward variants, with performance reportedly comparable to GPT-4 according to NVIDIA's benchmarks. However, community comments express skepticism about the benchmark graphs, with users questioning comparison methodologies and noting the 60-90% performance range shown in the presentation.",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "NVIDIA",
+    "Open Source",
+    "Large Language Models",
+    "Industry Announcements"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "last_llm_standing"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/gijbwpastgpg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Nemotron is NVIDIA's series of large language models, with previous versions like Nemotron-4 15B being smaller in scale. The new 340B parameter model represents a massive scaling up, trained on 9 trillion tokens to achieve competitive performance. Open-source AI models like this provide unrestricted access to their source code and weights, enabling local deployment and customization without API dependencies, though many are technically 'open-weight' rather than fully open-source.",
+  "discussion": "Community discussion shows mixed sentiment with initial excitement about NVIDIA's open-source commitment but significant skepticism about the benchmark comparisons. Users question the validity of performance graphs, specifically comparing Kimi and GLM models, with some expressing distrust in benchmark claims following previous AI model announcements. Several comments focus on technical details like why Kimi throughput appears 2.5x higher than GLM5 in the presented data.",
+  "references": [
+    {
+      "title": "Nemotron-4 340B Technical Report",
+      "url": "https://arxiv.org/html/2406.11704v2"
+    },
+    {
+      "title": "Open Source AI: A look at Open Models - AI Models",
+      "url": "https://aimodels.org/open-source-ai/open-models/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

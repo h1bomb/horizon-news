@@ -1,0 +1,44 @@
+{
+  "id": "d9cc9fca192b677a50b2022f015b216104a74ee2",
+  "canonicalId": "f91f4f480a10f35fef4c4ee1cbdc772b272c86f7",
+  "slug": "qwen36-27b-quantization-benchmark-by-user",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T17:53:00Z",
+  "lang": "en",
+  "title": "Qwen3.6-27B Quantization Benchmark by User",
+  "summary": "A user benchmarked multiple quantizations of the Qwen3.6-27B model using Kullback-Leibler Divergence (KLD) and Same Top P metrics, comparing Unsloth, mradermacher, and other quantized versions from Q8 down to Q2. This benchmark provides practical guidance for practitioners deploying Qwen3.6-27B locally, helping them choose quantization levels with optimal quality-VRAM trade-offs based on objective metrics rather than anecdotal reports. The tests used llama.cpp's llama-perplexity with a context length of 8192 tokens and KV cache quantized to q8_0 to fit the model in GPU. Results show Unsloth's Q4_K_XL offers a good quality compromise, while mradermacher's Q6_K outperforms Unsloth's Q6_K in KLD and token selection match.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "quantization",
+    "benchmark",
+    "Qwen",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/bobaburger"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tr9vzn/qwen3627b_quantization_benchmark/",
+  "originalSite": "reddit.com",
+  "context": "Quantization reduces the precision of a model's weights to lower bit widths (e.g., from FP16 to 4-bit), decreasing memory usage and increasing inference speed at the cost of some accuracy. KLD measures how much the output probability distribution of a quantized model deviates from the original, while Same Top P tracks how often the quantized model chooses the same top token as the base model.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How Fireworks evaluates quantization precisely and interpretably",
+      "url": "https://fireworks.ai/blog/fireworks-quantization"
+    },
+    {
+      "title": "Unsloth Dynamic 2.0 GGUFs: the new benchmark for LLM",
+      "url": "https://cosmo-edge.com/unsloth-dynamic-20-ggufs-llm-quantization/"
+    },
+    {
+      "title": "GitHub - ssfdre38/gemma4-turbo: IQ 4 _ XS quantization of Gemma...",
+      "url": "https://github.com/ssfdre38/gemma4-turbo"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

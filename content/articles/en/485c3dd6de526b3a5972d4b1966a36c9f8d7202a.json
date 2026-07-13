@@ -1,0 +1,44 @@
+{
+  "id": "485c3dd6de526b3a5972d4b1966a36c9f8d7202a",
+  "canonicalId": "0deaf33f30ef9c0667e0f9dc7448dc3e751df0eb",
+  "slug": "anthropic-launches-project-glasswing-with-major-tech-firms-to-detect-critical-software-vulnerabilities-using-ai",
+  "date": "2026-04-09",
+  "publishedAt": "2026-04-08T00:41:00Z",
+  "lang": "en",
+  "title": "Anthropic launches Project Glasswing with major tech firms to detect critical software vulnerabilities using AI",
+  "summary": "Anthropic has launched Project Glasswing, partnering with AWS, Apple, Google, Microsoft, NVIDIA, and JPMorganChase to use the Claude Mythos Preview AI model for detecting high-risk zero-day vulnerabilities in critical software infrastructure. The model has already discovered thousands of vulnerabilities in major operating systems and browsers within weeks, with Anthropic committing up to $100 million in model usage credits and $4 million in direct donations to open-source security organizations. This initiative represents a groundbreaking industry collaboration that could significantly enhance cybersecurity defenses by proactively identifying vulnerabilities before they can be exploited. The involvement of major technology companies and financial institutions signals a collective commitment to securing critical software infrastructure in the AI era, potentially setting new standards for AI-powered defensive cybersecurity. The Claude Mythos Preview model is not planned for general release, but Anthropic will share results within 90 days and has made the model available to over 40 critical software infrastructure organizations. The project focuses specifically on defensive cybersecurity applications rather than offensive uses, with vulnerabilities already being patched based on the findings.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Cybersecurity",
+    "Software Engineering",
+    "Industry Collaboration",
+    "Vulnerability Detection"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/glasswing",
+  "originalSite": "anthropic.com",
+  "context": "Zero-day vulnerabilities are previously unknown security flaws that attackers can exploit before developers have a chance to fix them, making them particularly dangerous. AI-powered vulnerability detection uses machine learning and pattern recognition to analyze code and identify potential security issues more efficiently than traditional methods like manual code review or fuzzing. Claude Mythos Preview is Anthropic's most powerful AI model to date, specifically designed for cybersecurity applications according to the search results.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Project Glasswing : Securing critical software for the AI era \\ Anthropic",
+      "url": "https://www.anthropic.com/glasswing?ref=upstract.com"
+    },
+    {
+      "title": "How AI Detects and Prevents Zero - Day Vulnerabilities",
+      "url": "https://securifyai.co/learnings/how-ai-can-detect-and-prevent-zero-day-vulnerabilities/"
+    },
+    {
+      "title": "Anthropic Debuts Claude Mythos Preview: A Cybersecurity",
+      "url": "https://captaincompliance.com/education/anthropic-debuts-claude-mythos-preview-a-cybersecurity-game-changer-with-double-edged-implications/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

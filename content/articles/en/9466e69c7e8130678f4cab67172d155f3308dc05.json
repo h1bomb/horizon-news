@@ -1,0 +1,44 @@
+{
+  "id": "9466e69c7e8130678f4cab67172d155f3308dc05",
+  "canonicalId": "7f8753add0f85fb68feab2c9d116bbe1c40a3b9c",
+  "slug": "apifox-desktop-clients-compromised-in-supply-chain-attack-via-cdn-script-tampering-9466e69c",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-26T04:19:00Z",
+  "lang": "en",
+  "title": "Apifox Desktop Clients Compromised in Supply Chain Attack via CDN Script Tampering",
+  "summary": "Apifox desktop clients were compromised in a supply chain attack where attackers tampered with CDN-hosted event statistics scripts to inject malicious code, stealing SSH keys, Git credentials, shell history, and process lists from Windows, macOS, and Linux users since March 4. Security researcher phith0n independently analyzed the malicious payload and published code, confirming the attack's scope and impact. This attack highlights the growing threat of supply chain attacks targeting widely-used developer tools, potentially leading to widespread credential theft, lateral movement in networks, and further compromise of systems. It underscores the need for robust security measures in software distribution channels, especially for tools handling sensitive data like API keys and SSH credentials. The malicious code was injected into CDN scripts used by Apifox desktop clients, enabling data exfiltration and potential backdoor installation for further attacks. The attack has been active since March 4, affecting all major desktop platforms, and independent analysis by phith0n provides technical insights into the payload's behavior and risks.",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "supply-chain-attack",
+    "api-tools",
+    "malware-analysis",
+    "git-security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40514",
+  "originalSite": "t.me",
+  "context": "A supply chain attack involves compromising a trusted component, such as a software update or CDN script, to distribute malware to end-users, exploiting the trust in the supply chain. CDN script tampering refers to unauthorized modifications to scripts hosted on content delivery networks, which can inject malicious code into client applications. SSH keys are cryptographic keys used for secure authentication between clients and servers, and their theft can enable unauthorized access to systems and networks.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is a Supply Chain Attack ? Detect & Prevent It | Abnormal AI",
+      "url": "https://abnormal.ai/glossary/supply-chain-attack"
+    },
+    {
+      "title": "Imperva Client-Side Protection - Security Business -Macnica",
+      "url": "https://www.macnica.co.jp/en/business/security/manufacturers/imperva/client-side_protection.html"
+    },
+    {
+      "title": "Lateral Movement on macOS: Unique and Popular Techniques and...",
+      "url": "https://unit42.paloaltonetworks.com/unique-popular-techniques-lateral-movement-macos/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

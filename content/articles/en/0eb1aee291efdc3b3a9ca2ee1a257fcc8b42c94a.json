@@ -1,0 +1,36 @@
+{
+  "id": "0eb1aee291efdc3b3a9ca2ee1a257fcc8b42c94a",
+  "canonicalId": "f4089fa9b24892cbb014e6520460426ef4a3a5da",
+  "slug": "compromised-routers-used-in-phishing-espionage-campaign",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T03:54:00Z",
+  "lang": "en",
+  "title": "Compromised Routers Used in Phishing Espionage Campaign",
+  "summary": "Chinese national security agencies disclosed a phishing campaign where compromised routers are used as proxies to steal sensitive emails from government employees. This advisory highlights an ongoing real-world espionage campaign targeting government employees, emphasizing the critical need for router security and awareness of phishing tactics. The attackers send phishing emails with fake login pages that require victims to enter their password twice to capture accurate credentials, then use the stolen credentials to access the victims' email accounts for intelligence gathering.",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "phishing",
+    "routers",
+    "espionage",
+    "network security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/_W_N7hOIQ9i72CdrdMyVYA",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Routers are commonly targeted because they often run outdated firmware, use weak passwords, or have remote management enabled. Once compromised, they can be used as proxies to launch attacks that appear to originate from legitimate IP addresses, making detection harder. The attack described involves a two-step password entry on a fake login page to bypass simple mistyping and capture the real password.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "国安部：网速变慢，元凶竟是它",
+      "url": "https://www.guancha.cn/politics/2026_05_20_817631.shtml"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

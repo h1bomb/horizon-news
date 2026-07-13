@@ -1,0 +1,44 @@
+{
+  "id": "4dfe7461abbe7a5671573d854ed16c4a4ede36d5",
+  "canonicalId": "14f627010c2b61cfa9d8264af3c3963bd172309f",
+  "slug": "paid-program-misleads-high-school-students-into-fake-ml-research",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-17T06:08:00Z",
+  "lang": "en",
+  "title": "Paid program misleads high school students into fake ML research",
+  "summary": "A paid program called Algoverse AI Research is accused of misleading high school students into publishing flawed machine learning papers by claiming acceptance to NeurIPS workshops, with multiple papers containing obvious errors such as identical results across different experimental conditions. This exposes a serious ethics breach in ML research, particularly targeting high school students for profit, and undermines the credibility of reputable venues like NeurIPS workshops. It raises concerns about the integrity of the peer review process and the exploitation of students seeking college application credentials. The program's website claims 289 students accepted to NeurIPS 2025, yet the director Kevin Zhu has 158 publications and 468 coauthors but no PhD or master's degree. Specific papers showed duplicated results in tables and misplaced sections like Related Works inside Results.",
+  "score": 8,
+  "tags": [
+    "academic misconduct",
+    "ML research",
+    "ethics",
+    "high school",
+    "NeurIPS"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Marisu_BG"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/",
+  "originalSite": "reddit.com",
+  "context": "NeurIPS is a top-tier machine learning conference, and its workshops are prestigious but less rigorous than the main conference. OpenReview is a platform for reviewing papers. Algoverse markets itself as helping high school students publish AI research, but critics say it exploits the system for profit.",
+  "discussion": "Comments note that similar exploitation has existed in STEM research, with some calling Algoverse a scaled-up version of known practices. Others question how errors were found, and a commenter highlights the director's lack of advanced degrees. A Guardian article link is shared, confirming the controversy.",
+  "references": [
+    {
+      "title": "Algoverse AI Research",
+      "url": "https://algoverseairesearch.org/"
+    },
+    {
+      "title": "About | OpenReview",
+      "url": "https://openreview.net/about"
+    },
+    {
+      "title": "Guidance for NeurIPS Workshop Proposals 2025 – NeurIPS",
+      "url": "https://blog.neurips.cc/2025/04/12/guidance-for-neurips-workshop-proposals-2025/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

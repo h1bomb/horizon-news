@@ -1,0 +1,44 @@
+{
+  "id": "28c5e9146cfb34074f4b790d30986a47ad71dd1d",
+  "canonicalId": "3e4e023acddc7594c2212fbe6485fbe963f8fd35",
+  "slug": "vllm-v0230-发布带来-deepseek-v4-和-model-runner-v2-重大升级",
+  "date": "2026-06-13",
+  "publishedAt": "2026-06-12T23:29:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.23.0 发布，带来 DeepSeek-V4 和 Model Runner V2 重大升级",
+  "summary": "vLLM v0.23.0 正式发布，包含来自 200 位贡献者的 408 次提交，主要增强了 DeepSeek-V4 模型，包括稀疏 MLA 元数据解耦、TRTLLM-gen 注意力内核以及针对 Mega-MoE 的 EPLB 支持。Model Runner V2 现在默认用于 Llama 和 Mistral 密集模型，实验性的 Rust 前端新增了流式生成和动态 LoRA 端点。 该版本巩固了 vLLM 作为 DeepSeek-V4 等前沿模型推理引擎的领先地位，并将高效推理扩展到更多架构。Model Runner V2 和 Rust 前端的成熟降低了密集模型的部署门槛并增强了 API 灵活性，惠及整个开源 LLM 生态系统。 值得注意的是，DeepSeek-V4 的稀疏 MLA 元数据现已与 V3.2 解耦，并获得了 TRTLLM-gen 注意力内核和 EPLB 支持。Model Runner V2 默认扩展到 Llama 和 Mistral 密集模型，包括 FlashInfer 采样器和可中断 CUDA 图，并消除了流水线并行中的气泡。",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "open-source",
+    "release",
+    "DeepSeek"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个开源的高吞吐量 LLM 推理引擎，支持多种模型架构和优化技术。DeepSeek-V4 是一个大型混合专家（MoE）模型，需要先进的并行和注意力优化。Model Runner V2 是 vLLM 的下一代执行框架，提高了密集模型的调度和内核效率。稀疏 MLA（多头潜在注意力）是 DeepSeek 模型中使用的内存高效注意力机制，EPLB（专家并行负载均衡器）优化了 MoE 模型中专家在 GPU 间的部署。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - deepseek-ai/FlashMLA: FlashMLA: Efficient Multi-head",
+      "url": "https://github.com/deepseek-ai/FlashMLA"
+    },
+    {
+      "title": "EPLB (Balanceador de Carga de Paralelismo de Expertos)",
+      "url": "https://www.deepep.org/es/eplb"
+    },
+    {
+      "title": "FP8 KV Cache and TRTLLM Integration | vllm-project/vllm | DeepWiki",
+      "url": "https://deepwiki.com/vllm-project/vllm/8.4-compilation-and-cuda-graphs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

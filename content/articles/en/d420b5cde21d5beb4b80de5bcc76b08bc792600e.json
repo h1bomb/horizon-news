@@ -1,0 +1,44 @@
+{
+  "id": "d420b5cde21d5beb4b80de5bcc76b08bc792600e",
+  "canonicalId": "0a4097a231efcf7fb31f107a9b3dc19f56c8e973",
+  "slug": "mira-5b-parameter-interactive-world-model-for-rocket-league",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T07:59:00Z",
+  "lang": "en",
+  "title": "MIRA: 5B Parameter Interactive World Model for Rocket League",
+  "summary": "Researchers from General Intuition, Kyutai, and Epic Games released MIRA, a 5B parameter interactive world model trained on 10k hours of synthetic Rocket League data, enabling real-time 4-player gameplay at 20 FPS on a single B200 GPU. MIRA demonstrates the feasibility of large-scale world models for multiplayer, physically complex environments, potentially accelerating research in game AI, simulation, and reinforcement learning by providing a playable demo and open-source tools. The model uses a latent diffusion architecture to generate video frames conditioned on all four players' actions, and the team released a 1,000-hour dataset of 4-player gameplay, a technical report, and a playable online demo.",
+  "score": 9,
+  "tags": [
+    "world models",
+    "reinforcement learning",
+    "simulation",
+    "interactive AI",
+    "game AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/MasterScrat"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/",
+  "originalSite": "reddit.com",
+  "context": "World models are neural networks that learn to simulate the dynamics of an environment, enabling agents to plan and reason. Previous single-player world models treat other agents as part of the environment, but MIRA conditions on multiple agent actions, making it suitable for multiplayer games. Rocket League is a high-speed physics-based game where players control rocket-powered cars to hit a ball into goals.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MIRA: Multiplayer Interactive World Models with ... - GitHub",
+      "url": "https://github.com/mira-wm/mira"
+    },
+    {
+      "title": "[2607.05352] Multiplayer Interactive World Models with ...",
+      "url": "https://arxiv.org/abs/2607.05352"
+    },
+    {
+      "title": "Introducing MIRA. A playable, multiplayer world model. A ...",
+      "url": "https://www.linkedin.com/posts/generalintuition_introducing-mira-a-playable-multiplayer-activity-7479870314252922880-y9CV"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

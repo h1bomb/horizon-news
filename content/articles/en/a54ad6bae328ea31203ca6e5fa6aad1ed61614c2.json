@@ -1,0 +1,44 @@
+{
+  "id": "a54ad6bae328ea31203ca6e5fa6aad1ed61614c2",
+  "canonicalId": "d28c62daa8b912d6ea2e05a44821c62a2165860e",
+  "slug": "mistral-ai-releases-voxtral-4b-tts-2603-a-4b-parameter-text-to-speech-model-with-api-only-voice-cloning",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-26T15:28:00Z",
+  "lang": "en",
+  "title": "Mistral AI releases Voxtral-4B-TTS-2603, a 4B parameter text-to-speech model with API-only voice cloning",
+  "summary": "Mistral AI has released Voxtral-4B-TTS-2603, a 4-billion parameter text-to-speech model on Hugging Face that features voice cloning capabilities, but these cloning functions are only accessible through API calls rather than in the local version. This release represents a significant advancement in TTS technology, offering state-of-the-art multilingual voice generation at a relatively lightweight 4B parameter scale, which could make AI-powered voice agents more natural and cost-effective for widespread applications. The model requires at least 16GB GPU memory to run locally in BF16 format, and while it supports multilingual generation, community feedback indicates limited language support and the voice cloning feature is restricted to API access only.",
+  "score": 7,
+  "tags": [
+    "text-to-speech",
+    "mistral-ai",
+    "hugging-face",
+    "voice-cloning",
+    "open-source-models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Nunki08"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+  "originalSite": "huggingface.co",
+  "context": "Text-to-speech (TTS) models convert written text into spoken audio, with voice cloning allowing users to replicate specific voices using AI algorithms. Recent TTS models like Kyutai's 2B parameter model have pushed the boundaries of real-time speech generation, while Mistral AI is known for developing efficient large language models. Voice cloning APIs typically require audio recordings to create digital voice replicas that can speak any text input.",
+  "discussion": "Community sentiment is mixed, with users expressing disappointment that voice cloning is API-only and noting limited language support, while also acknowledging the impressive quality of the voice cloning feature and questioning whether open-source alternatives could be integrated with the model.",
+  "references": [
+    {
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts"
+    },
+    {
+      "title": "Kyutai Releases 2B Parameter Streaming Text-to-Speech TTS with",
+      "url": "https://www.marktechpost.com/2025/07/05/kyutai-releases-2b-parameter-streaming-text-to-speech-tts-with-220ms-latency-and-2-5m-hours-of-training/"
+    },
+    {
+      "title": "Best Text to Speech API with Voice Cloning in 2026: What to ...",
+      "url": "https://fish.audio/blog/best-text-to-speech-api-voice-cloning/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

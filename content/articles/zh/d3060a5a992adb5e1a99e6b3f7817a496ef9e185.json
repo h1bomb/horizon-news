@@ -1,0 +1,44 @@
+{
+  "id": "d3060a5a992adb5e1a99e6b3f7817a496ef9e185",
+  "canonicalId": "f9b055a1ff23711d177fba174a6b285cfe45fcac",
+  "slug": "andrej-karpathy-发布-autoresearch一个用于自主-ai-研究智能体的框架",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-10T00:00:00Z",
+  "lang": "zh",
+  "title": "Andrej Karpathy 发布 'autoresearch'，一个用于自主 AI 研究智能体的框架。",
+  "summary": "Andrej Karpathy 推出了 'autoresearch' 框架，该框架使 AI 智能体能够通过解释在自然语言 markdown 文件（program.md）中定义的研究策略，自主进行 LLM 训练实验。智能体可以修改代码、运行短周期训练、评估结果，并在无人干预的情况下整夜迭代。 这代表了 AI 研究工作流程的一个潜在范式转变，从手动编码转向用高级指令'编程'自主智能体。如果成功，它可以通过自动化繁琐的迭代任务，显著加速机器学习的实验和优化速度，让人类研究人员能够专注于更高层次的策略。 该框架使用了一个简化的单 GPU nanochat 实现进行训练，其核心创新是定义整个研究策略的'program.md'模式。自主循环包括 5 分钟的训练周期、评估和基于结果的代码修改，但该项目目前是实验性的，并在小规模设置上进行了演示。",
+  "score": 8,
+  "tags": [
+    "AI-agents",
+    "autonomous-research",
+    "Karpathy",
+    "AI-development",
+    "paradigm-shift"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 9, 10:36"
+    }
+  ],
+  "originalUrl": "https://github.com/karpathy/autoresearch",
+  "originalSite": "github.com",
+  "context": "自主 AI 智能体是能够在最少人工指导下，通过规划、检索信息和采取行动来执行复杂任务的系统。'深度研究'的概念涉及智能体积极参与规划和综合，以生成基于证据的报告。能够根据适应度函数重写自身代码的自修改系统，在 AI 和计算机科学领域已经研究了几十年，其应用旨在改进自主学习。",
+  "discussion": "社区情绪复杂，一些人赞扬'program.md'模式是用自然语言编程智能体的真正范式转变。另一些人则批评底层的自动化循环并不新颖，将其与现有的超参数搜索工具相比较，并质疑其戏剧性的表述是否与技术实质相符。此外，还有关于项目能否超越小规模实验进行扩展的讨论。",
+  "references": [
+    {
+      "title": "Deep Research: A Survey of Autonomous Research Agents",
+      "url": "https://arxiv.org/abs/2508.12752"
+    },
+    {
+      "title": "Self-modifying code - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Self-modifying_code"
+    },
+    {
+      "title": "GitHub - STUDIOPARCELS/autoresearch: Autonomous LLM training ...",
+      "url": "https://github.com/STUDIOPARCELS/autoresearch"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

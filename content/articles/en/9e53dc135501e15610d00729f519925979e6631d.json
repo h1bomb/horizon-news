@@ -1,0 +1,44 @@
+{
+  "id": "9e53dc135501e15610d00729f519925979e6631d",
+  "canonicalId": "f53e79b25cdbdc8f05f8ced62ca4f77fdfe59a5d",
+  "slug": "cactus-hybrid-router-65k-model-matches-frontier-ai-performance",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T22:20:00Z",
+  "lang": "en",
+  "title": "Cactus Hybrid Router: 65k model matches frontier AI performance",
+  "summary": "Cactus Compute released the Cactus Hybrid Router, a 65k-parameter model that decides whether to process a task locally using a quantized edge model (e.g., Gemma4-2B) or route it to a cloud frontier model (e.g., Gemini-3.1-Flash-Lite), achieving equivalent performance while routing 15-55% of tasks to the cloud. This innovation significantly reduces inference cost and cloud infrastructure pressure by running simple queries locally, making AI deployment more efficient and scalable for real-time applications like coding assistants and live AI. The router uses only 65k parameters and works with text-only, vision, and audio prompts; it supports an adjustable edge-cloud ratio and maintains robust performance even when the edge model is quantized to 4-bit using Cactus Quants.",
+  "score": 8,
+  "tags": [
+    "AI inference",
+    "edge computing",
+    "model routing",
+    "hybrid models",
+    "LLM optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Henrie_the_dreamer"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tom98y/cactus_hybrid_router_gemma42b_can_match/",
+  "originalSite": "reddit.com",
+  "context": "Hybrid routing uses a small, fast model to evaluate query complexity and decide whether a lightweight local model suffices or a powerful cloud model is needed, balancing latency, cost, and accuracy. Quantization compresses model size with minimal quality loss, enabling efficient on-device inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CactusRoute — 7-Layer Adaptive Edge/Cloud Hybrid Router",
+      "url": "https://github.com/quotentiroler/CactusRoute"
+    },
+    {
+      "title": "Cactus: Low-Latency AI Inference for Mobile with Zero-Copy ...",
+      "url": "https://betterstack.com/community/guides/ai/cactus-ai/"
+    },
+    {
+      "title": "Overview | Cactus",
+      "url": "https://cactuscompute.com/docs/v1.6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "605708cb0325439a56d441796d682599246e9875",
+  "canonicalId": "36f744a0124329b8056ddd9cb09af9da88c000a8",
+  "slug": "can-i-run-ai-locally-a-practical-guide-to-local-ai-deployment",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-13T12:46:00Z",
+  "lang": "en",
+  "title": "Can I Run AI Locally? A Practical Guide to Local AI Deployment",
+  "summary": "A discussion has emerged about running AI models locally, focusing on hardware requirements, model selection, and practical implementation challenges. The conversation includes technical insights about model architectures like MoE versus dense models and real-world experiences with local deployment tools. This matters because local AI deployment is becoming mainstream in 2025, offering significant cost savings (up to $300-500/month in API costs) while providing better privacy, customization, and reduced latency compared to cloud-based solutions. It affects developers, researchers, and organizations looking to implement AI without relying on external APIs. The discussion highlights that MoE models like GPT-OSS-20B can produce more tokens per second on the same hardware compared to dense models, as they only activate a subset of parameters per token. However, they still require enough VRAM to fit the entire model size, creating a trade-off between performance and memory requirements.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Local Deployment",
+    "Machine Learning",
+    "Hardware",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ricardbejarano"
+    }
+  ],
+  "originalUrl": "https://www.canirun.ai/",
+  "originalSite": "canirun.ai",
+  "context": "Local AI deployment refers to running machine learning models directly on personal or organizational hardware rather than through cloud-based APIs. This approach has gained popularity due to privacy concerns, cost savings, and the availability of open-source tools like Ollama and LocalAI that simplify setup. Key considerations include hardware specifications (especially VRAM), model architecture choices, and performance metrics like tokens per second.",
+  "discussion": "Community members share practical experiences with local AI deployment, including recommendations for small models like Qwen3.5:9B for embedded applications and frustrations about the lack of clear guidance for model selection based on hardware constraints. Some suggest improvements to tools like adding support for higher memory configurations and reverse query functionality to compare hardware performance across models.",
+  "references": [
+    {
+      "title": "The Complete Guide to Running AI Models Locally in 2025: Hardware ...",
+      "url": "https://medium.com/@orami98/the-complete-guide-to-running-ai-models-locally-in-2025-hardware-requirements-setup-and-real-3619ad10e28c"
+    },
+    {
+      "title": "Ollama vs LocalAI: Which Model is Right for Your Local Deployment ...",
+      "url": "https://blog.belsterns.com/post/ollama-vs-localai-which-model-is-right-for-your-local-deployment-in-2025"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

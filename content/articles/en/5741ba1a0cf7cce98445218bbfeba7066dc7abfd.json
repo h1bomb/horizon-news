@@ -1,0 +1,44 @@
+{
+  "id": "5741ba1a0cf7cce98445218bbfeba7066dc7abfd",
+  "canonicalId": "6e092bbc457ecf2cc9e0f5faa6b5c181dec8e0d5",
+  "slug": "ant-group-open-sources-lingbot-video-first-moe-embodied-video-model",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T04:30:00Z",
+  "lang": "en",
+  "title": "Ant Group Open-Sources LingBot-Video, First MoE Embodied Video Model",
+  "summary": "Ant Group open-sourced LingBot-Video, the world's first mixture-of-experts (MoE) based embodied video foundation model for robotics, achieving a state-of-the-art score of 0.620 on the RBench benchmark. The model is released under Apache 2.0 license on GitHub. This open-source release significantly lowers the barrier for embodied AI research, providing a highly efficient MoE architecture that activates only 3B of 30B total parameters, making it three times more efficient than dense models of similar size. It can accelerate progress in robot action prediction, simulation data generation, and world model development. LingBot-Video innovates in three aspects: architecture (DiT+MoE for capacity-cost balance), data (70K hours of embodied data covering dexterous manipulation, robot locomotion, and egocentric interaction), and training (multi-dimensional reinforcement learning rewards focusing on physical plausibility and task completion). The model uses a Diffusion Transformer (DiT) backbone.",
+  "score": 9,
+  "tags": [
+    "Embodied AI",
+    "Video Generation",
+    "MoE",
+    "Open Source",
+    "Robotics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.qbitai.com/2026/07/446458.html",
+  "originalSite": "qbitai.com",
+  "context": "Mixture of Experts (MoE) is an AI architecture that uses multiple specialized sub-networks (experts) and a gating mechanism to activate only a subset for each input, improving efficiency. Diffusion Transformers (DiT) replace traditional U-Net backbones with transformers in diffusion models, enabling better scalability and performance. LingBot-Video combines these technologies for embodied video generation, which learns to produce videos of robots performing tasks, useful for robot learning and simulation. RBench is a benchmark designed to evaluate robot manipulation video generation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "What Is Mixture of Experts (MoE) and How It Works?",
+      "url": "https://www.nvidia.com/en-us/glossary/mixture-of-experts/"
+    },
+    {
+      "title": "[2212.09748] Scalable Diffusion Models with Transformers",
+      "url": "https://arxiv.org/abs/2212.09748"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "b16eeb71d873b2c43249d05cd96b93b074602d15",
+  "canonicalId": "08d86216b420cdd5a66e7e43bef715e6f9429992",
+  "slug": "arxiv-论文披露-cc-bos-框架利用文言文实现大模型自动化越狱攻击",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-10T00:00:00Z",
+  "lang": "zh",
+  "title": "arXiv 论文披露 CC-BOS 框架，利用文言文实现大模型自动化越狱攻击",
+  "summary": "近日发表于 arXiv 的研究论文披露了 CC-BOS 框架，这是一种利用文言文的简洁与晦涩特性，自动生成对抗性提示词以有效绕过大语言模型（LLM）安全约束的越狱攻击方法。该框架基于多维果蝇优化算法，从角色、隐喻等 8 个维度对提示词进行迭代优化，实验表明其在黑盒环境下的攻击效果优于现有主流方法。 这一发现之所以重要，是因为它揭示了一种新颖且强大的攻击途径，即利用大语言模型安全训练中存在的跨语言和文化鸿沟，突显了关键的安全漏洞。它表明自动化的对抗性攻击可以非常有效，这将推动 AI 安全领域开发更鲁棒、多语言和具备上下文感知能力的防御机制。 CC-BOS 框架在黑盒环境下运行，这意味着它不需要访问目标模型的内部参数。其核心优化算法在八个特定维度上迭代优化提示词，以最大化越狱成功率，同时保持提示词的文言文特征。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "LLM Jailbreaking",
+    "Adversarial Attacks",
+    "Natural Language Processing",
+    "arXiv Research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 9, 16:07"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2602.22983",
+  "originalSite": "arxiv.org",
+  "context": "“越狱”（Jailbreaking）指旨在绕过大型语言模型的安全过滤和对齐防护机制，使其生成有害、偏见或其他受限制内容的技术。对抗性提示词是精心设计的输入，利用模型训练或架构中的弱点来引发非预期行为。果蝇优化算法（FOA）是一种受生物启发的群体智能算法，模拟果蝇的觅食行为，常用于解决复杂的优化问题；其“多维”变体适用于具有多重约束或参数的问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Features in Prompts Jailbreak LLMs? Investigating the",
+      "url": "https://arxiv.org/html/2411.03343v2"
+    },
+    {
+      "title": "An Improved Fruit Fly Optimization Algorithm for... | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/8482822"
+    },
+    {
+      "title": "A systematic review on fruit fly optimization algorithm and its...",
+      "url": "https://link.springer.com/article/10.1007/s10462-023-10451-1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

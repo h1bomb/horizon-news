@@ -1,0 +1,31 @@
+{
+  "id": "965fdb1864b00668ea3d8e9400a74e30a1a19337",
+  "canonicalId": "824d8bc0d87f58c1950b45e6af19930345280ae9",
+  "slug": "github-大量仓库-issues-遭遇巨量黑产广告攻击部分仓库已关闭-issues",
+  "date": "2026-03-30",
+  "publishedAt": "2026-03-30T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub 大量仓库 issues 遭遇巨量黑产广告攻击，部分仓库已关闭 issues。",
+  "summary": "GitHub 正遭遇大规模攻击，多个机器人在热门仓库（如 Microsoft 的 WSL）的 issues 中大量发布黑产引流信息，导致一些仓库已关闭 issues 以应对垃圾内容。这些垃圾信息通常包含中文赌博广告和模仿开发相关的虚假解释，而现有的举报和拉黑流程似乎无法有效阻止高并发的机器人活动。 这次攻击通过用垃圾信息淹没 issue 跟踪器，扰乱了开源协作，阻碍了合法的讨论和错误报告，可能减缓开发进度并削弱对社区平台的信任。它暴露了 GitHub 审核系统的漏洞，可能促使更广泛的安全措施或政策调整，以保护仓库免受类似的自动化威胁。 受影响的仓库包括知名项目如 Microsoft/WSL、anomalyco/opencode、msgpack/msgpack-node 和 home-assistant/frontend，垃圾信息通常结合广告图片和伪造的技术内容。这次攻击似乎是协调且持续进行的，绕过了现有的反垃圾机制，但内容中未提供关于机器人基础设施的具体技术细节。",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "Security",
+    "Open Source",
+    "Community Management",
+    "Spam"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 29, 13:35"
+    }
+  ],
+  "originalUrl": "https://github.com/microsoft/WSL/issues",
+  "originalSite": "github.com",
+  "context": "GitHub 是一个广泛用于软件项目版本控制和协作的平台，其中 issues 用于跟踪错误、功能请求和讨论。对此类平台的垃圾攻击可能利用自动化工具淹没公共部分，扰乱社区参与，需要手动或自动审核来保持可用性。在开源生态系统中，保持 issue 跟踪器的清洁对于高效的项目管理和开发者沟通至关重要。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

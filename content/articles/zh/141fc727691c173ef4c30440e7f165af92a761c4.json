@@ -1,0 +1,40 @@
+{
+  "id": "141fc727691c173ef4c30440e7f165af92a761c4",
+  "canonicalId": "279d788d0c635bff09c46c77334e63c2eae3777c",
+  "slug": "qwen-36-27b本地开发的最佳选择",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T17:05:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.6 27B：本地开发的最佳选择？",
+  "summary": "Quesma 的一篇博客文章认为 Qwen 3.6 27B 是本地开发的理想模型，声称它在性能和资源需求之间取得了良好平衡。 这一推荐具有重要意义，因为本地 LLM 部署可以增强隐私并降低延迟，但高昂的硬件成本（例如，128GB MacBook Pro 售价 6699 美元）以及缺乏真实代码库测试使得它对许多开发者来说不切实际。 Qwen 3.6 27B 密集模型在 Q4_K_M 量化下需要约 18GB VRAM，推荐使用 128GB MacBook Pro 来舒适运行，但社区评论指出，即使使用这样的硬件，在密集使用中仍会出现发热和噪音问题。",
+  "score": 8,
+  "tags": [
+    "local LLM",
+    "Qwen 3.6",
+    "model deployment",
+    "community discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "stared",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48721903"
+    }
+  ],
+  "originalUrl": "https://quesma.com/blog/qwen-36-is-awesome/",
+  "originalSite": "quesma.com",
+  "context": "本地 LLM 部署是指在个人硬件上运行大型语言模型，而非云服务器，提供隐私和离线能力，但需要大量的 GPU 内存和计算资源。Qwen 3.6 是阿里巴巴 Qwen 团队的最新模型系列，包括 27B 和 35B 参数版本。",
+  "discussion": "社区评论对实际可行性表示怀疑，指出推荐的硬件非常昂贵（高达 6699 美元），而 OpenRouter 等云 API 可以更便宜地运行更大的模型。其他人指出，文章中的示例是新项目，不代表处理复杂的现有代码库。",
+  "references": [
+    {
+      "title": "Qwen3.6: The 27 B Model That Outperforms a 397- Billion - Parameter ...",
+      "url": "https://www.runyard.dev/blog/qwen3-6-local-llm-guide-april-2026"
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

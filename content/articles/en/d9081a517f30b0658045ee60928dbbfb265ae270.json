@@ -1,0 +1,44 @@
+{
+  "id": "d9081a517f30b0658045ee60928dbbfb265ae270",
+  "canonicalId": "b8256dd440db90f79604d284127f3e54cd2e1953",
+  "slug": "openais-macos-chronicle-feature-sparks-privacy-and-security-concerns",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T03:06:00Z",
+  "lang": "en",
+  "title": "OpenAI's macOS Chronicle Feature Sparks Privacy and Security Concerns",
+  "summary": "OpenAI released Chronicle, an opt-in research preview for the Codex app on macOS, which periodically captures screenshots and uses OCR to store extracted text as persistent memory. Security researchers have flagged that the OCR text is stored unencrypted locally and is vulnerable to prompt injection attacks. This feature mirrors the controversial Microsoft Recall, raising significant privacy and security risks for users, especially developers who may handle sensitive data. The unencrypted local storage and susceptibility to prompt injection could lead to data leaks and unauthorized access. Chronicle is currently limited to ChatGPT Pro subscribers on macOS and is not available in the EU, UK, or Switzerland. Screenshot data is stored locally for only 6 hours, but OCR-extracted text is kept indefinitely in unencrypted form and can be accessed by other programs on the device.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "privacy",
+    "security",
+    "OpenAI",
+    "macOS"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theregister.com/2026/04/22/openai_chronicle_no_privacy_screenshot/",
+  "originalSite": "theregister.com",
+  "context": "Chronicle is a screen-aware memory feature that builds a persistent record of user activity by analyzing screen content. Prompt injection attacks exploit vulnerabilities in AI models by injecting malicious prompts, potentially causing the model to leak data or perform unintended actions. OCR (Optical Character Recognition) technology converts images of text into machine-readable text.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI releases Codex ' Chronicle ' feature for enhancing... - 9to5 Mac",
+      "url": "https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/"
+    },
+    {
+      "title": "OpenAI introduces Chronicle for Codex, a Recall-like memory feature ...",
+      "url": "https://www.neowin.net/news/openai-introduces-chronicle-for-codex-a-recall-like-memory-feature-for-developers-on-macos/"
+    },
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

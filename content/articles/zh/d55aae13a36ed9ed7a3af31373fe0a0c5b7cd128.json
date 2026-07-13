@@ -1,0 +1,44 @@
+{
+  "id": "d55aae13a36ed9ed7a3af31373fe0a0c5b7cd128",
+  "canonicalId": "c1737a0e472605935c4e4b9143a634962394b0ea",
+  "slug": "moq-与-gsq提升低比特-gguf-量化效果",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T15:01:00Z",
+  "lang": "zh",
+  "title": "MoQ 与 GSQ：提升低比特 GGUF 量化效果",
+  "summary": "两种新的量化方法 MoQ（混合量化）和 GSQ（Gumbel-Softmax 量化）将显著提升低比特 GGUF 模型的性能，从而实现更高效的本地大语言模型部署。 这一进展可以在不牺牲精度的前提下降低对内存和计算资源的需求，使高质量大语言模型在消费级硬件上更易用，惠及本地 LLM 社区和边缘部署场景。 MoQ 在量化感知训练中安排多种数据精度，而 GSQ 是一种标量训练后量化方法，能在 2 比特下对万亿参数模型实现接近无损的压缩。两者均设计为与现有推理框架兼容。",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "GGUF",
+    "LLM",
+    "inference optimization",
+    "local deployment"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/beneath_steel_sky"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tyjkfh/moq_ggufs_and_gsq_lowbit_ggufs_are_about_to_get/",
+  "originalSite": "reddit.com",
+  "context": "GGUF 是一种用于存储机器学习模型的二进制文件格式，针对 GGML 快速加载和推理进行了优化。量化通过降低模型精度（例如从 16 比特降至 4 比特或 2 比特）来减少内存使用并加速计算，这对在资源有限的设备上部署大语言模型至关重要。MoQ 和 GSQ 代表了在此压缩过程中最小化精度损失的最先进技术。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GGUF - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GGUF"
+    },
+    {
+      "title": "DeepSpeed Mixture-of- Quantization ( MoQ ) - DeepSpeed",
+      "url": "https://www.deepspeed.ai/tutorials/MoQ-tutorial/"
+    },
+    {
+      "title": "GSQ : Highly-Accurate Low-Precision Scalar Quantization for LLMs via...",
+      "url": "https://arxiv.org/html/2604.18556"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

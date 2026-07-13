@@ -1,0 +1,44 @@
+{
+  "id": "835dd2c0949c880fd6e4672ad6441ca6bb577817",
+  "canonicalId": "5707adaf81fc537ae99086e24837ef2ac5792897",
+  "slug": "temporal-api-officially-replaces-javascripts-problematic-date-object-after-nine-year-development",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-11T15:35:00Z",
+  "lang": "en",
+  "title": "Temporal API officially replaces JavaScript's problematic Date object after nine-year development",
+  "summary": "The Temporal API has been officially accepted as a new JavaScript standard after nine years of development, providing a comprehensive replacement for the problematic Date object. It introduces a clear distinction between instants (fixed points in time) and calendar datetimes (human-readable dates/times), with full support now available in Chrome, Edge, and Firefox. This matters because JavaScript's Date object has been notoriously problematic for decades, causing bugs related to time zones, daylight saving time, and inconsistent parsing that affect millions of web applications. Temporal provides a reliable, consistent foundation for time-sensitive applications, potentially reducing development time and eliminating entire categories of time-related bugs. Temporal objects are immutable and include specialized types like ZonedDateTime (timezone-aware), PlainDateTime (without timezone), Instant (exact time point), and Duration (time intervals). The API is currently fully supported in Chrome, Edge, and Firefox, with expected full browser availability throughout 2026, though some developers note concerns about serialization complexity when sharing data between client and server.",
+  "score": 8,
+  "tags": [
+    "JavaScript",
+    "Time Management",
+    "API Design",
+    "Software Engineering",
+    "Web Development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "robpalmer"
+    }
+  ],
+  "originalUrl": "https://bloomberg.github.io/js-blog/post/temporal/",
+  "originalSite": "bloomberg.github.io",
+  "context": "JavaScript's original Date object, introduced in 1995, has long been criticized for its confusing API, mutability issues, and poor handling of time zones and daylight saving time. The distinction between instants and calendar datetimes is crucial in time management: an instant represents a fixed point on the timeline (like a timestamp), while a calendar datetime represents a human-readable date/time that depends on time zone and calendar system. TC39 is the committee that standardizes JavaScript features through a multi-stage proposal process.",
+  "discussion": "The community response is overwhelmingly positive, with developers celebrating the long-awaited fix to JavaScript's time problems and praising the explicit handling of time complexities. Some concerns were raised about API design, particularly regarding serialization challenges when sharing Temporal objects between client and server, while others highlighted the impressive volunteer contribution that implemented the entire specification in Firefox.",
+  "references": [
+    {
+      "title": "Temporal - JavaScript - MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal"
+    },
+    {
+      "title": "JavaScript Temporal - W3Schools",
+      "url": "https://www.w3schools.com/JS//js_temporal.asp"
+    },
+    {
+      "title": "Date - JavaScript | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

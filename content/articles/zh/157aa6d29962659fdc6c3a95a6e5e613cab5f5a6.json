@@ -1,0 +1,41 @@
+{
+  "id": "157aa6d29962659fdc6c3a95a6e5e613cab5f5a6",
+  "canonicalId": "c503256b26dd2ca39182fb44518a69e31d56eb0c",
+  "slug": "欧盟聊天控制提案隐私与儿童安全之争",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T14:23:00Z",
+  "lang": "zh",
+  "title": "欧盟聊天控制提案：隐私与儿童安全之争",
+  "summary": "欧盟正在推进聊天控制 1.0 和 2.0 提案，要求消息平台扫描所有私人消息和上传内容以查找儿童性虐待材料，这可能削弱端到端加密。 这些提案代表了向大规模监控的重大转变，威胁到所有欧盟公民数字通信的隐私和安全。如果通过，可能开创削弱加密的全球先例，并赋予政府更广泛的监控能力。 聊天控制依赖于客户端扫描，即在加密前检查用户设备上的内容，绕过端到端保护。这些提案因误报等技术风险以及当局可能超出儿童保护目的滥用而受到批评。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "encryption",
+    "EU law",
+    "policy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gasull",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48818311"
+    }
+  ],
+  "originalUrl": "https://fightchatcontrol.eu/chat-control-overview",
+  "originalSite": "fightchatcontrol.eu",
+  "context": "聊天控制是一套欧盟立法提案，旨在打击网上的儿童性虐待材料。其关键技术机制是客户端扫描（CSS），即在内容加密前在设备上进行分析，从而有效绕过端到端加密。这种方法引发了严重的隐私担忧，因为它可能实现对所有通信的大规模监控。",
+  "discussion": "评论者普遍持批评态度：有人指出这些提案以保护儿童为名赋予‘独裁权力’，另有人强调禁止反对聊天控制的政党具有讽刺意味。技术用户质疑如何在不断开加密的情况下扫描加密消息，指出设备端扫描或特权解密都是有缺陷的方案。",
+  "references": [
+    {
+      "title": "CC BY-NC-SA 4.0 Client-Side Scanning",
+      "url": "https://www.internetsociety.org/wp-content/uploads/2020/03/2022-Client-Side-Scanning-Factsheet-EN.pdf"
+    },
+    {
+      "title": "Bugs in our pockets: the risks of client-side scanning | Journal of Cybersecurity | Oxford Academic",
+      "url": "https://academic.oup.com/cybersecurity/article/10/1/tyad020/7590463"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

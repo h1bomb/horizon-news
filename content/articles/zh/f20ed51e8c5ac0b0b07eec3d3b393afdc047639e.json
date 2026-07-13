@@ -1,0 +1,44 @@
+{
+  "id": "f20ed51e8c5ac0b0b07eec3d3b393afdc047639e",
+  "canonicalId": "e51255499747e4882af08c688c55d43e42dc325f",
+  "slug": "kvarn-kv-缓存量化以更低内存实现更高比特精度",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T18:06:00Z",
+  "lang": "zh",
+  "title": "KVarN KV 缓存量化以更低内存实现更高比特精度",
+  "summary": "KVarN 量化基准测试表明，6 位 KVarN 的精度与 q8_0 相当，4 位 KVarN 的精度与 q5_0 相当，从而在 LLM 推理中实现显著的内存节省而不损失质量。 这一突破使得 VRAM 受限的用户能够运行更大的上下文或模型，因为 KVarN 在相同内存成本下提供高一个比特的精度，有望在消费级硬件上普及长上下文 LLM 推理。 基准测试在 Qwen 3.6 27B 模型上使用 64k 上下文，基于 llama.cpp 的一个分支（BeeLlama）进行。目前提示处理速度较慢，但预计该方法可进一步优化。",
+  "score": 8,
+  "tags": [
+    "KV cache",
+    "quantization",
+    "LLM inference",
+    "KVarN",
+    "llama.cpp"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Anbeeld"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tyockn/kv_cache_quant_benchmarks_kvarn_6bit_matches_q8_0/",
+  "originalSite": "reddit.com",
+  "context": "KV 缓存量化通过以较低精度存储键和值来减少内存使用。标准格式如 q8_0 使用 8 位，而 KVarN 利用方差归一化和 Hadamard 旋转在较低位宽下保持高质量。该研究来自华为，并已在 vLLM 中实现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - huawei-csl/KVarN: KVarN is a native vLLM KV-cache ...",
+      "url": "https://github.com/huawei-csl/KVarN"
+    },
+    {
+      "title": "KVarN: Variance-Normalized KV-Cache Quantization Mitigates ...",
+      "url": "https://arxiv.org/pdf/2606.03458"
+    },
+    {
+      "title": "Quantization Explained: What It Means for Local AI | InsiderLLM",
+      "url": "https://insiderllm.com/guides/llm-quantization-explained/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

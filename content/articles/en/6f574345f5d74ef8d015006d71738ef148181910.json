@@ -1,0 +1,44 @@
+{
+  "id": "6f574345f5d74ef8d015006d71738ef148181910",
+  "canonicalId": "7e788cd865225eadcabeb5ae60ce6abf4708f431",
+  "slug": "developer-releases-benchmark-for-testing-small-local-and-openrouter-models-on-agentic-text-to-sql-tasks",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-30T13:55:00Z",
+  "lang": "en",
+  "title": "Developer releases benchmark for testing small local and OpenRouter models on agentic text-to-SQL tasks",
+  "summary": "A developer has created and released a benchmark tool that tests various small local and OpenRouter models on agentic text-to-SQL tasks, with the benchmark now available at sql-benchmark.nicklothian.com. The tool features 25 questions, runs in under 5 minutes for most models, and includes the ability to run against your own server using a WASM version of Llama.cpp. This benchmark provides a practical, fast way to evaluate smaller and local language models specifically for agentic text-to-SQL applications, which are increasingly important for bridging the gap between business users and database systems. The results help developers and organizations identify which models perform best for real-world SQL generation tasks, potentially influencing model selection and deployment decisions in data analytics workflows. The benchmark found that the best open models include kimi-k2.5, Qwen 3.5 397B-A17B, and Qwen 3.5 27B, while NVIDIA Nemotron-Cascade-2-30B-A3B outperformed Qwen 3.5-35B-A3B and matched Codex 5.3. The agentic approach allows models to see query results and modify SQL with limited debugging rounds, making it more robust than traditional text-to-SQL methods.",
+  "score": 7,
+  "tags": [
+    "AI Benchmarking",
+    "Text-to-SQL",
+    "Local LLMs",
+    "OpenRouter",
+    "Agentic AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "nickl"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/dr2b5ga2r6sg1",
+  "originalSite": "v.redd.it",
+  "context": "Text-to-SQL is a technology that converts natural language queries into SQL database queries, enabling non-technical users to interact with databases. Agentic text-to-SQL represents an evolution where models can iteratively refine queries based on results, similar to how a human would debug SQL. OpenRouter is a platform that provides access to various language models through APIs, while local LLMs are models that can be run on personal hardware without cloud dependencies.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Models | OpenRouter",
+      "url": "https://openrouter.ai/models"
+    },
+    {
+      "title": "Text-to-SQL is dead: The next generation of querying is Agentic",
+      "url": "http://www.franksworld.com/2025/03/13/text-to-sql-is-dead-the-next-generation-of-querying-is-agentic/"
+    },
+    {
+      "title": "Benchmarking LLMs: A Deep Dive into Local Deployment &",
+      "url": "https://www.runpod.io/blog/llm-benchmarking-local-performance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

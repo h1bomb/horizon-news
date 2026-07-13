@@ -1,0 +1,45 @@
+{
+  "id": "9200b6f5b9a7e9f632bbc320abfed952f5fae22d",
+  "canonicalId": "d8fcc4a1be8af56b6f1df1b592276b1ff9fd5c11",
+  "slug": "openwrt-one-open-source-hardware-router-with-wifi-7-successor-in-development",
+  "date": "2026-07-06",
+  "publishedAt": "2026-07-06T18:23:00Z",
+  "lang": "en",
+  "title": "OpenWrt One: Open-Source Hardware Router with WiFi 7 Successor in Development",
+  "summary": "OpenWrt One is an open hardware router fully supported by OpenWrt firmware, now available for purchase. The community is already discussing the upcoming OpenWrt Two, which will feature WiFi 7 support. This release represents a milestone for open-source networking hardware, offering a reliable, customizable alternative to commercial routers. The planned WiFi 7 successor indicates ongoing innovation in the OpenWrt ecosystem. Priced at $106 with case and antennas or $84 without, the OpenWrt One includes 1GB RAM, which some users note as limited for data center use. The OpenWrt Two is being developed to support WiFi 7 (802.11be) for higher throughput.",
+  "score": 8,
+  "tags": [
+    "openwrt",
+    "open hardware",
+    "router",
+    "networking",
+    "embedded systems"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "peter_d_sherman",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48808482"
+    }
+  ],
+  "originalUrl": "https://openwrt.org/toh/openwrt/one",
+  "originalSite": "openwrt.org",
+  "context": "OpenWrt is a Linux-based open-source firmware for embedded devices like routers, known for extending device life and adding advanced features beyond manufacturer support. WiFi 7 (IEEE 802.11be) is the latest wireless standard offering theoretical speeds up to 23 Gbit/s, with final standard published in July 2025.",
+  "discussion": "Overall sentiment is positive, with users praising the affordable price and open-source nature. Some compare it to alternatives like OPNSense, noting OpenWrt's learning curve and scattered documentation. A user mentions recent purchase, indicating active demand.",
+  "references": [
+    {
+      "title": "WiFi 7",
+      "url": "https://en.wikipedia.org/wiki/WiFi_7"
+    },
+    {
+      "title": "GitHub - openwrt/firmware-selector-openwrt-org: The OpenWrt Firmware Selector! Quickly find firmware for your device and build custom ones online! · GitHub",
+      "url": "https://github.com/openwrt/firmware-selector-openwrt-org"
+    },
+    {
+      "title": "[OpenWrt Wiki] Table of Hardware: Firmware downloads",
+      "url": "https://openwrt.org/toh/views/toh_fwdownload"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

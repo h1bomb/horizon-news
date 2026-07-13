@@ -1,0 +1,40 @@
+{
+  "id": "09c1139602a93e7bbe0033111d77d97291c4aca7",
+  "canonicalId": "78ac29d49cd6f95594557ba58821da95810aa943",
+  "slug": "linux-内核-ipc-提案消息队列窥视io-uring-集成与-bus1-回归",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 IPC 提案：消息队列窥视、io_uring 集成与 bus1 回归",
+  "summary": "Mathura Kumar 提出了一个新的系统调用 mq_timedreceive2()，为 POSIX 消息队列添加窥视功能，同时其他提案旨在将 IPC 集成到 io_uring 子系统中，并在十年后重启 bus1 IPC 系统。 这些改进有望提升 Linux 中 IPC 的性能和灵活性，解决消息队列长期存在的限制，并为需要快速进程间通信的应用程序提供新的高效选项。 mq_timedreceive2() 调用使用结构体绕过参数限制，添加了 MQ_PEEK 等标志以实现非破坏性读取，而 io_uring 集成可能利用其异步 I/O 能力进行 IPC，bus1 的回归则侧重于基于能力的通信。",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "interprocess-communication",
+    "io_uring",
+    "systems-programming",
+    "kernel-development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 2, 15:07"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065490/",
+  "originalSite": "lwn.net",
+  "context": "POSIX 消息队列是基于内核的 IPC 机制，允许进程通过命名队列交换数据，使用如 mq_timedreceive() 的系统调用来接收消息。io_uring 是 Linux 的一个子系统，用于高性能异步 I/O，可实现无需阻塞的高效文件和网络操作。bus1 是一个提议的基于能力的 IPC 系统，专为本地进程间的去中心化对象共享而设计，此前在 2016 年左右讨论过。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The rapid growth of io_uring [LWN.net]",
+      "url": "https://lwn.net/Articles/810414/"
+    },
+    {
+      "title": "Bus1: a new Linux interprocess communication proposal [LWN.net]",
+      "url": "https://lwn.net/Articles/697191/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

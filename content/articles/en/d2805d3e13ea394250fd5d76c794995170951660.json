@@ -1,0 +1,37 @@
+{
+  "id": "d2805d3e13ea394250fd5d76c794995170951660",
+  "canonicalId": "5f6d9b53663564f4e3c4ca45219ed1215cafb135",
+  "slug": "llms-enable-personal-software-the-emacsification-of-code",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-13T07:06:00Z",
+  "lang": "en",
+  "title": "LLMs Enable Personal Software: The Emacsification of Code",
+  "summary": "A blog post argues that LLMs make building personal software so easy that software is becoming a highly customizable, personal 'emacs file' for each user, shifting from prepackaged to individually crafted tools. This signals a potential democratization of software creation, where users can easily tailor applications to their exact needs, reducing reliance on one-size-fits-all products and rekindling the spirit of personal computing from the 1960s. Prominent security researcher tptacek and dang endorse the idea, with tptacek listing specific app categories (e.g., podcast apps, note-taking) where LLM-generated solutions can already outperform commercial options. The term 'Emacsification' originates from the vision of making the entire GNU system as extensible as Emacs.",
+  "score": 8,
+  "tags": [
+    "software development",
+    "AI",
+    "LLMs",
+    "personal software",
+    "customization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rdslw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48118727"
+    }
+  ],
+  "originalUrl": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+  "originalSite": "sockpuppet.org",
+  "context": "Emacs is a highly extensible text editor that allows users to customize almost everything via Lisp code. The idea of 'Emacsification' was coined in the Guile project's documentation, envisioning a future where programs run inside Guile (a Lisp interpreter) much like Emacs extensions. This news extends that concept to LLMs, suggesting that AI now enables non-programmers to build custom software easily.",
+  "discussion": "Commenters largely agree: tptacek provides a concrete list of app categories where LLM-built tools surpass commercial alternatives; dang shares he has been advocating this view, and SoftTalker reminds that personal software was the original vision of home computing. However, shaokind notes that Emacs itself taught brittle customization practices, not seamless personal software building.",
+  "references": [
+    {
+      "title": "a brief history of guile — wingolog",
+      "url": "https://wingolog.org/archives/2009/01/07/a-brief-history-of-guile"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

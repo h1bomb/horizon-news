@@ -1,0 +1,44 @@
+{
+  "id": "c8e70c7d6fd5839f481e24644687728404b9a68c",
+  "canonicalId": "ce35194471d02adb8992c1fee1009c3586f059e9",
+  "slug": "openai-launches-gpt-55-biosecurity-bug-bounty-program",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-25T16:36:00Z",
+  "lang": "en",
+  "title": "OpenAI Launches GPT-5.5 Biosecurity Bug Bounty Program",
+  "summary": "OpenAI has launched a biosecurity bug bounty program for GPT-5.5, offering a $25,000 reward for the first universal jailbreak that bypasses five biosecurity challenges without triggering safeguards. The program is invitation-only, with applications open from April 23 to June 22, 2026, and testing from April 28 to July 27, 2026. This program highlights the growing concern over AI models being misused for biosecurity threats, such as generating instructions for harmful biological agents. By incentivizing researchers to find vulnerabilities, OpenAI aims to strengthen safety measures before broader deployment, setting a precedent for responsible AI release practices. The bounty specifically targets GPT-5.5 running in Codex Desktop, and requires a universal jailbreak that works across all five biosecurity challenges. Participants must sign a non-disclosure agreement and conduct evaluations on a dedicated platform.",
+  "score": 8,
+  "tags": [
+    "AI Safety",
+    "Bug Bounty",
+    "OpenAI",
+    "Biosecurity",
+    "GPT-5.5"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/zh-Hans-CN/index/gpt-5-5-bio-bug-bounty/",
+  "originalSite": "openai.com",
+  "context": "GPT-5.5 is OpenAI's latest large language model, emphasizing speed, accuracy, and real-world use. A universal jailbreak is a consistent attack strategy that bypasses safety guardrails across multiple queries, posing significant risks for enabling real-world harm. Biosecurity bug bounties are part of broader efforts to test and improve safeguards against misuse of advanced AI.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI rolls out GPT - 5 . 5 , highlights speed... - The Indian Express",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-rolls-out-gpt-5-5-highlights-speed-accuracy-and-real-world-use-10653022/"
+    },
+    {
+      "title": "GPT - 5 . 5 System Card - OpenAI Deployment Safety Hub",
+      "url": "https://deploymentsafety.openai.com/gpt-5-5"
+    },
+    {
+      "title": "OpenAI запустила GPT - 5 . 5 Bio Bug Bounty с призом $25 000",
+      "url": "https://anonhaven.com/news/openai-zapustila-bug-bounty-dlya-gpt-55-25-000-za-universalnyj-jailbreak-v-biobezopasnosti/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "46f10799663eab30a1995cb89cac259df9e2fd75",
+  "canonicalId": "715222cef12ef951396f09f9d511a303a2065f4c",
+  "slug": "谷歌-turboquant-论文引发争议被指引用不当和比较不公",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-31T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌 TurboQuant 论文引发争议，被指引用不当和比较不公。",
+  "summary": "Reddit 上的讨论指出，谷歌在 2025 年初发表的 TurboQuant 论文被指控未充分引用先前工作（特别是 RaBitQ 量化算法），并在实验中进行了不公平的比较，例如在单核 CPU 上测试 RaBitQ，而在 GPU 上测试 TurboQuant。 这一争议之所以重要，是因为它引发了关于 AI 学术界研究伦理和公平性的担忧，可能削弱对大型科技公司论文的信任，并影响量化技术进步的可信度，而量化技术对于高效 AI 部署至关重要。 指控包括 TurboQuant 未充分引用 2024 年 5 月发布的 RaBitQ 算法，并且通过使用不同的硬件设置（如 CPU 与 GPU）进行对比，可能歪曲了性能差异。TurboQuant 是一种压缩方法，旨在为大型语言模型等实现零精度损失。",
+  "score": 7,
+  "tags": [
+    "Machine Learning",
+    "Research Ethics",
+    "Google",
+    "Academic Controversy",
+    "Quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 30, 09:57"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/",
+  "originalSite": "reddit.com",
+  "context": "机器学习中的量化是一种技术，旨在减少模型大小和计算成本，同时保持精度，从而实现更快、更高效的 AI 部署。TurboQuant 是谷歌最近的量化方法，专为大型语言模型和向量搜索的极端压缩而设计；而 RaBitQ 是 NTU 较早的算法，用于向量量化，在极小空间下实现高精度。",
+  "discussion": "Reddit 讨论中对这些问题缺乏关注表示担忧，用户批评谷歌涉嫌不道德行为，并强调研究中正确引用的重要性。整体情绪以负面为主，关注学术比较的公平性和透明度。",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "Introduction - RaBitQ Library",
+      "url": "https://vectordb-ntu.github.io/RaBitQ-Library/rabitq/rabitq/"
+    },
+    {
+      "title": "What is quantization in machine learning? | Cloudflare",
+      "url": "https://www.cloudflare.com/learning/ai/what-is-quantization/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

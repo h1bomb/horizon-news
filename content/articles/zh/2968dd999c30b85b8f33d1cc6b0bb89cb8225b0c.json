@@ -1,0 +1,44 @@
+{
+  "id": "2968dd999c30b85b8f33d1cc6b0bb89cb8225b0c",
+  "canonicalId": "1de33045c1cba87e52944872fb4e027d544246ec",
+  "slug": "使用-claude-code-将-moebius-图像修复模型移植到浏览器",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T23:43:00Z",
+  "lang": "zh",
+  "title": "使用 Claude Code 将 Moebius 图像修复模型移植到浏览器",
+  "summary": "Simon Willison 成功将 Moebius 0.2B 轻量级图像修复模型移植到网页浏览器中运行，利用 WebGPU 加速，并在 AI 编程代理 Claude Code 的协助下完成。演示地址为 simonw.github.io/moebius-web/。 此次移植证明，最先进的机器学习模型可以在浏览器中高效运行，减少对服务器端推理的依赖，并支持隐私保护和离线应用。它降低了开发人员将高级图像编辑功能集成到 Web 应用中的门槛。 移植使用了 ONNX Runtime Web 的 WebGPU 后端，绕过了原有的 PyTorch 和 CUDA 依赖。模型权重被转换为 ONNX 格式，Claude Code 在过程中协助了研究探索和代码生成。",
+  "score": 8,
+  "tags": [
+    "image inpainting",
+    "WebGPU",
+    "machine learning",
+    "browser inference",
+    "Claude Code"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Moebius 是一个 0.2B 参数的图像修复模型，在轻量级的同时实现了与 10B 级别模型相当的性能。WebGPU 是一种现代浏览器 API，允许 Web 应用利用设备 GPU 进行高性能计算。Claude Code 是 Anthropic 推出的 AI 编程代理，能够自主编写、编辑和调试项目代码。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B ...",
+      "url": "https://hustvl.github.io/Moebius/"
+    },
+    {
+      "title": "GitHub - mlc-ai/web-llm: High-performance In-browser LLM Inference Engine · GitHub",
+      "url": "https://github.com/mlc-ai/web-llm"
+    },
+    {
+      "title": "How Claude Code works - Claude Code Docs",
+      "url": "https://code.claude.com/docs/en/how-claude-code-works"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

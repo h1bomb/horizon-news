@@ -1,0 +1,43 @@
+{
+  "id": "d183477e7cd6148a0d93c47069156d8cb41dccac",
+  "canonicalId": "0690f4b97da5a88f694fb2b45e51b5dbadfae300",
+  "slug": "open-ossprivacy-filter-malware-on-hugging-face-with-244k-downloads",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T16:20:00Z",
+  "lang": "en",
+  "title": "Open-OSS/privacy-filter malware on Hugging Face with 244k downloads",
+  "summary": "A fake AI model named Open-OSS/privacy-filter on Hugging Face has been identified as infostealer malware, using a Python-based dropper to execute malicious PowerShell commands and download a Windows executable. Over 244k downloads have been recorded, and the repository has been reported to Hugging Face and Microsoft. This incident highlights the growing threat of malware disguised as AI models on popular platforms like Hugging Face, potentially compromising many users' sensitive data. It underscores the need for better security vetting in open-source AI repositories. The malware targets Windows systems; Linux users are unaffected. The malicious payload includes a Rust-compiled program that steals data from Chrome, WinSCP, and other applications, and is persisted via Task Scheduler. The attack chain involves multiple layers of base64-encoded commands.",
+  "score": 9,
+  "tags": [
+    "security",
+    "malware",
+    "huggingface",
+    "AI safety"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "charles25565"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6febk/warning_openossprivacyfilter_malware/",
+  "originalSite": "reddit.com",
+  "context": "Infostealer malware is a type of malicious software designed to steal sensitive data from victims' devices. Python droppers are often used as initial payloads to download and execute further malware. Tria.ge is an online sandbox used for behavioral analysis of suspicious files, and the provided link shows the malware's behavior.",
+  "discussion": "The community expressed shock at the 244k downloads and noted the obvious red flags, such as the organization name 'Open open source software'. One user provided technical details of the attack chain, while another pointed out that the accounts that liked the model may indicate multiple malware campaigns. Sarcasm about Linux immunity and a humorous comment about GGUF were also present.",
+  "references": [
+    {
+      "title": "Infostealer malware",
+      "url": "https://grokipedia.com/page/infostealer-malware"
+    },
+    {
+      "title": "dropper · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/dropper?l=python"
+    },
+    {
+      "title": "Home - Triage",
+      "url": "https://sandbox.recordedfuture.com/docs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

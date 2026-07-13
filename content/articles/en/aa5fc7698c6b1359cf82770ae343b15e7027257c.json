@@ -1,0 +1,44 @@
+{
+  "id": "aa5fc7698c6b1359cf82770ae343b15e7027257c",
+  "canonicalId": "ed13eb676b4e16fef17fafea9bab8c58af5d4107",
+  "slug": "telnyx-python-package-on-pypi-compromised-with-malicious-code",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T16:21:00Z",
+  "lang": "en",
+  "title": "Telnyx Python package on PyPI compromised with malicious code",
+  "summary": "Two versions of the telnyx package (4.87.1 and 4.87.2) published to PyPI on March 27, 2026, contain malicious code injected into telnyx/_client.py, which downloads second-stage payloads hidden in WAV audio files from a remote server. The package averages over 1 million downloads per month, making this a high-impact supply chain compromise. This compromise poses significant security risks to a wide range of Python users and projects, as telnyx is a widely-used package with over 1 million monthly downloads, potentially leading to credential theft on Linux/macOS or persistent malware on Windows. It highlights the growing threat of supply chain attacks in open-source ecosystems, emphasizing the need for enhanced security measures in package repositories like PyPI. The malicious code downloads a second-stage binary hidden inside WAV audio files using steganography techniques, then either drops a persistent executable on Windows or harvests credentials on Linux/macOS. The attack specifically targets versions 4.87.1 and 4.87.2, published on March 27, 2026, indicating a targeted supply chain injection.",
+  "score": 9,
+  "tags": [
+    "security",
+    "supply-chain",
+    "PyPI",
+    "malware",
+    "Python"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065059/",
+  "originalSite": "lwn.net",
+  "context": "PyPI (Python Package Index) is the official repository for Python packages, where developers publish and install software libraries, but it is vulnerable to supply chain attacks where malicious actors inject code into legitimate packages. Second-stage payloads in malware refer to a technique where an initial dropper downloads additional malicious components from a remote server to evade detection and execute more complex attacks. WAV file steganography involves hiding data, such as malware binaries, within audio files by manipulating bits like the least significant bit (LSB) to conceal payloads from security scanners.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PYPI Security: How to Prevent Supply Chain Attacks in Python Projects",
+      "url": "https://bolster.ai/blog/pypi-supply-chain-attacks"
+    },
+    {
+      "title": "Staged vs Non-staged Payloads in Cybersecurity - Scaler Malware Payloads & Beacons: Types of Malicious Payloads - Illumio Malware Development with NIM — Staged Payloads - Medium MintsLoader Malware Analysis: Multi-Stage Loader Used by TAG ... Stage Capabilities: Upload Malware, Sub-technique T1608.001 ... Staging vs Stageless payloads - Which one is Better? Malware Payloads & Beacons: Types of Malicious Payloads - Illumio Analyzing New HijackLoader Evasion Tactics - Zscaler Stage Capabilities: Upload Malware , Sub-technique T1608.001 Staged vs Non-staged Payloads in Cybersecurity - Scaler New HijackLoader Evasion Tactics | ThreatLabz - Zscaler",
+      "url": "https://www.scaler.com/topics/cyber-security/staged-vs-non-staged-payloads/"
+    },
+    {
+      "title": "GitHub - LiquidFun/stegowav: Hide information in the wave ...",
+      "url": "https://github.com/LiquidFun/stegowav"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

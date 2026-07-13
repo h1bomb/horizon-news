@@ -1,0 +1,41 @@
+{
+  "id": "c7ffe6e80376f9c408d6f070619dcacc797cd66a",
+  "canonicalId": "cb3bf04d8c79534b9b3fd831ee9be9e3d47b83d2",
+  "slug": "claude-desktop-spawns-18gb-hyper-v-vm-on-every-launch",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T17:11:00Z",
+  "lang": "en",
+  "title": "Claude Desktop spawns 1.8GB Hyper-V VM on every launch",
+  "summary": "A GitHub issue reveals that Claude Desktop for Windows launches a 1.8GB Hyper-V virtual machine on every startup, even when used only for chat, consuming significant system resources without user opt-in. This raises concerns about resource efficiency and trust in AI desktop tools, as users lose control over background processes and Hyper-V performance overhead can impact overall system responsiveness. The VM is part of 'Claude Cowork' feature that runs tasks in a sandbox, but it starts automatically without opt-in, and a bundled ~10GB VM bundle cannot be removed. Additionally, the Dispatch feature has broken links pointing to macOS preferences on Windows.",
+  "score": 8,
+  "tags": [
+    "Claude Desktop",
+    "Hyper-V",
+    "Resource Management",
+    "Windows",
+    "AI Tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tonyrice",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48479452"
+    }
+  ],
+  "originalUrl": "https://github.com/anthropics/claude-code/issues/29045",
+  "originalSite": "github.com",
+  "context": "Hyper-V is Microsoft's native hypervisor for creating and running virtual machines on Windows. Launching a VM on every startup incurs significant memory and CPU overhead, especially for users who only need chat functionalities. The Claude Desktop app is designed to integrate AI capabilities into local workflows, but such aggressive resource usage has not been typical for desktop AI tools.",
+  "discussion": "Commenters criticized the lack of opt-in and craftmanship, noting that developers seem to rush features. Some speculated that the VM is needed for sandboxed execution but questioned why it cannot be deferred. Others drew parallels to broader trends of user control erosion in modern apps.",
+  "references": [
+    {
+      "title": "Hyper - V - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hyper-V"
+    },
+    {
+      "title": "Install Hyper - V in Windows and Windows Server | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-hyper-v"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "79363fc3852d615b18689ab96094b5efcc5a6ea3",
+  "canonicalId": "8deed97a310da817aabee7a2b2bd5de1bd9e6543",
+  "slug": "苹果要求用户验证-bug-未修复否则将关闭-bug-报告",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果要求用户验证 bug 未修复，否则将关闭 bug 报告",
+  "summary": "据报道，苹果公司实施了一项政策：除非用户验证 bug 在最新软件版本中仍然存在，否则将自动关闭 bug 报告。这一做法在开发者社区中引发了批评，被认为效率低下且给提交 bug 报告的用户带来了挫败感。 这一做法之所以重要，是因为它影响了软件 bug 的追踪和解决方式，可能导致苹果生态系统中未解决的问题持续存在。它突显了行业面临的更广泛挑战：公司可能优先考虑减少 bug 积压，而非确保问题得到彻底解决，这会影响软件质量和用户信任。 验证要求似乎是苹果 bug 分类工作流程的一部分，如果用户不回应，无法复现的 bug 可能会被标记为无效或超出范围而关闭。这种做法并非苹果独有，开源项目中也有类似做法，即在一定时间后自动关闭陈旧的 bug。",
+  "score": 7,
+  "tags": [
+    "software-engineering",
+    "bug-reporting",
+    "apple",
+    "open-source",
+    "quality-assurance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 25, 19:14"
+    }
+  ],
+  "originalUrl": "https://lapcatsoftware.com/articles/2026/3/11.html",
+  "originalSite": "lapcatsoftware.com",
+  "context": "Bug 报告是软件开发中的标准流程，用户向开发者提交问题以供解决。Bugzilla 等 bug 追踪系统通过分类、优先级排序和解决等工作流程来管理这些报告。在许多项目中，无法复现或信息不足的 bug 可能会被关闭以管理积压，但这可能让期望彻底调查的用户感到沮丧。",
+  "discussion": "社区评论对苹果的做法表示不满，用户将其描述为一种\"经典伎俩\"，即在不付出实际开发努力的情况下推卸 bug 报告责任。一些人指出开源项目中也有类似做法，即自动关闭陈旧的 bug。另一些人承认开发者在复现 bug 方面面临挑战，但批评将验证问题的负担转嫁给用户。",
+  "references": [
+    {
+      "title": "Issue Triage Process · w3c/aria-practices Wiki · GitHub",
+      "url": "https://github.com/w3c/aria-practices/wiki/Issue-Triage-Process"
+    },
+    {
+      "title": "17 Excellent Open Source Bug Tracking Tools in 2026",
+      "url": "https://usersnap.com/blog/open-source-bug-tracking/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

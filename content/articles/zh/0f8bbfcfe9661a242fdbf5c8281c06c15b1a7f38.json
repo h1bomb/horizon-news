@@ -1,0 +1,40 @@
+{
+  "id": "0f8bbfcfe9661a242fdbf5c8281c06c15b1a7f38",
+  "canonicalId": "8477121fa9d44280c59667e5458343b5caa69f9a",
+  "slug": "为-fips-认证提出可加载加密模块",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T14:29:00Z",
+  "lang": "zh",
+  "title": "为 FIPS 认证提出可加载加密模块",
+  "summary": "亚马逊工程师 Jay Wang 提出补丁系列，将 Linux 内核加密子系统解耦为独立的可加载模块，使得通过 FIPS 认证的加密模块可以在多个内核版本间复用，无需重新完整认证。 该提案解决了需要 FIPS 合规的组织的主要痛点，因为内核更新当前会使认证失效并迫使进行长时间的重新认证周期，从而降低维护 FIPS 认证 Linux 部署的成本和延迟。 该提案必须克服三个障碍：构建系统无法轻松将内置对象收集到模块中，内核的单向符号解析阻止模块向主内核导出符号，以及加密子系统必须在根文件系统挂载前的启动早期可用。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "crypto",
+    "FIPS",
+    "kernel modules",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073759/",
+  "originalSite": "lwn.net",
+  "context": "FIPS（联邦信息处理标准）140-3 认证是一种严格的加密模块验证过程，被美国政府机构和受监管行业所需要。认证绑定到确切的二进制文件，因此任何内核更改都会使其失效。目前，Linux 加密被构建到主内核中，导致每次更新后都需要长时间的重新认证。该提案旨在将加密代码隔离到可加载模块中，认证一次即可跨内核版本复用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "FIPS Certification Process - Corsec Security, Inc.",
+      "url": "https://www.corsec.com/fips-certification-process/"
+    },
+    {
+      "title": "FIPS Certification and Why Its Important for the Public Sector - ORDR",
+      "url": "https://ordr.net/blog/ordr-and-fips-certification"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

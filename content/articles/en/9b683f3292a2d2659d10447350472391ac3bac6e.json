@@ -1,0 +1,31 @@
+{
+  "id": "9b683f3292a2d2659d10447350472391ac3bac6e",
+  "canonicalId": "67fd567354e4e67a55264bf7134e58ff5dcd1735",
+  "slug": "prefer-duplication-over-wrong-abstraction",
+  "date": "2026-06-22",
+  "publishedAt": "2026-06-21T16:08:00Z",
+  "lang": "en",
+  "title": "Prefer duplication over wrong abstraction",
+  "summary": "Sandi Metz's 2016 article argues that developers should prefer code duplication over forcing a wrong abstraction, advocating for clarity and deferring abstraction until the right one is clear. This principle helps prevent over-engineering and premature abstraction, which often lead to complex, hard-to-change code, affecting maintainability and developer productivity across many software projects. The article does not oppose all abstraction but cautions against forcing a 'wrong abstraction' that obscures the true logic; duplication can be a pragmatic step toward discovering the right abstraction.",
+  "score": 8,
+  "tags": [
+    "software engineering",
+    "abstraction",
+    "code duplication",
+    "refactoring"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rafaepta",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48620090"
+    }
+  ],
+  "originalUrl": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+  "originalSite": "sandimetz.com",
+  "context": "Abstraction is a fundamental software engineering technique to reduce complexity by hiding implementation details behind interfaces. However, creating an abstraction prematurely or based on incomplete understanding can introduce unnecessary complexity, making code harder to understand and modify. The article advocates for duplication as a temporary measure until the pattern becomes clear enough to extract a proper abstraction.",
+  "discussion": "Commenters generally agree with the article, with some emphasizing the 'single source of truth' principle as a boundary for acceptable duplication. Others note that functional programming styles reduce duplication issues, and personal experiences validate the easier maintenance of under-engineered code versus over-engineered code.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

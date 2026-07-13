@@ -1,0 +1,44 @@
+{
+  "id": "f9e6d3b3f869578608aec3dda022a58d4384f857",
+  "canonicalId": "f2aca3c59c5e3a3f9fcd4da355ba04ae3e925312",
+  "slug": "sqlite-utils-40rc2-released-largely-written-by-claude-fable-ai",
+  "date": "2026-07-05",
+  "publishedAt": "2026-07-05T01:00:00Z",
+  "lang": "en",
+  "title": "sqlite-utils 4.0rc2 released, largely written by Claude Fable AI",
+  "summary": "sqlite-utils 4.0rc2, a release candidate for the popular SQLite database utility, has been released. The majority of the code changes in this release were written by Anthropic's Claude Fable AI model, costing approximately $149.25. This release demonstrates the growing capability of AI-assisted software development, as Claude Fable identified and fixed critical bugs like a data loss bug in delete_where() that would have otherwise shipped. It shows that AI can not only write code but also perform code review that catches subtle, high-impact issues. The AI assistant conducted a review of the 4.0rc1 release and identified 5 release-blocking issues, including a severe data loss bug. Over 37 prompts, 34 commits, and +1321/-190 code changes across 30 files, the team worked through all feedback, with the AI generating most of the code and fixes.",
+  "score": 8,
+  "tags": [
+    "sqlite-utils",
+    "AI-assisted development",
+    "Python",
+    "release",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "sqlite-utils is a Python library and CLI tool for manipulating SQLite databases, widely used in the Datasette ecosystem. Claude Fable 5 is Anthropic's latest state-of-the-art AI model, known for its exceptional coding and reasoning capabilities. The cost estimate of $149.25 reflects the API usage for the AI to produce the code changes.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - simonw/sqlite-utils: Python CLI utility and library for manipulating SQLite databases · GitHub",
+      "url": "https://github.com/simonw/sqlite-utils"
+    },
+    {
+      "title": "sqlite-utils · PyPI",
+      "url": "https://pypi.org/project/sqlite-utils/"
+    },
+    {
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

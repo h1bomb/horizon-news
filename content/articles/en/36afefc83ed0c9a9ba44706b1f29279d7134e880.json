@@ -1,0 +1,45 @@
+{
+  "id": "36afefc83ed0c9a9ba44706b1f29279d7134e880",
+  "canonicalId": "f11ba7bcf0b5251f7cb2eed01f52dcb1f2c36400",
+  "slug": "moving-away-from-tailwind-to-semantic-css",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-16T09:14:00Z",
+  "lang": "en",
+  "title": "Moving Away from Tailwind to Semantic CSS",
+  "summary": "Julia Evans describes her decision to move away from Tailwind CSS and adopt a more semantic, structured approach to CSS, sharing the principles she learned along the way. This post fuels the ongoing debate between utility-first and semantic CSS, offering practical insights for developers reconsidering their CSS methodology for better maintainability and accessibility. Evans emphasizes starting with semantic HTML markup before styling, and notes that utility-first frameworks like Tailwind invert this order, potentially harming accessibility.",
+  "score": 8,
+  "tags": [
+    "CSS",
+    "Tailwind CSS",
+    "frontend",
+    "web development",
+    "semantic HTML"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mpweiher",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48158400"
+    }
+  ],
+  "originalUrl": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+  "originalSite": "jvns.ca",
+  "context": "Utility-first CSS, exemplified by Tailwind, relies on many small, single-purpose classes for rapid styling. In contrast, semantic CSS methodologies like BEM use descriptive class names tied to content meaning. The choice between them often involves tradeoffs in development speed, readability, and long-term maintainability.",
+  "discussion": "Commenters are divided: some praise Tailwind for eliminating ad-hoc class naming, while others argue it inverts proper HTML structure. Many value Evans's honest, exploratory writing style, and some suggest alternatives like CSS Modules.",
+  "references": [
+    {
+      "title": "What is Utility-First CSS?: HeydonWorks",
+      "url": "https://heydonworks.com/article/what-is-utility-first-css/"
+    },
+    {
+      "title": "The evolution of scalable CSS, Part 4: Methodologies and ...",
+      "url": "https://andreipfeiffer.dev/blog/2022/scalable-css-evolution/part4-methologies-and-semantics"
+    },
+    {
+      "title": "GitHub - HonzaMikula/Semantic-CSS: Semantic CSS methodology",
+      "url": "https://github.com/HonzaMikula/Semantic-CSS"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

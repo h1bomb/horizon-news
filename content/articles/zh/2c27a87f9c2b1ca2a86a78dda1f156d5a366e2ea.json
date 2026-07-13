@@ -1,0 +1,44 @@
+{
+  "id": "2c27a87f9c2b1ca2a86a78dda1f156d5a366e2ea",
+  "canonicalId": "62bfdb14f3210c3078a3a5f3a62de36c960673b3",
+  "slug": "qwen-35-27b-在-b200-gpu-上通过-vllm-优化实现-110-万-toks-推理速度",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-27T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.5 27B 在 B200 GPU 上通过 vLLM 优化实现 110 万 tok/s 推理速度",
+  "summary": "一个团队使用 vLLM v0.18.0，在 12 个节点、96 块 B200 GPU 的集群上，为 Qwen 3.5 27B 密集模型实现了每秒 1,103,941 个 token 的推理速度，关键优化包括 FP8 KV 缓存、MTP-1 推测解码和将上下文窗口缩减至 4K。所有配置和细节已在 GitHub 上分享，由一位 Google Cloud 员工在 Medium 文章中披露。 这展示了极致的高性能推理能力，推动了大型语言模型服务效率和可扩展性的边界，对于聊天机器人、文档处理和 AI 助手等实时应用至关重要。它凸显了 FP8 量化和推测解码等优化技术在企业部署中降低延迟和资源成本的实际影响。 每个节点的速度从 9,500 提升到 95K token 是通过四项改变实现的：使用数据并行（DP=8）而非张量并行（TP=8）、将上下文窗口从 131K 缩减至 4K、启用 FP8 KV 缓存以及实施 MTP-1 推测解码，其中后者对 GPU 利用率至关重要。扩展效率很高，8 节点时为 97.1%，12 节点时为 96.5%，但具有 KV 缓存感知路由的 Inference Gateway 增加了 35% 的开销，因此未被使用。",
+  "score": 8,
+  "tags": [
+    "LLM Inference",
+    "High-Performance Computing",
+    "GPU Optimization",
+    "vLLM",
+    "Model Serving"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 26, 19:49"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s4hudr/qwen_35_27b_at_11m_toks_on_b200s_all_configs_on/",
+  "originalSite": "reddit.com",
+  "context": "vLLM 是加州大学伯克利分校开发的开源推理引擎，以其连续批处理和高效内存管理而闻名，可提升 LLM 吞吐量。FP8 KV 缓存是一种量化技术，可减少 Transformer 中键值缓存的内存占用，而推测解码（如 MTP-1）则通过提前预测多个 token 来加速生成，但可能以牺牲准确性换取速度。B200 是 NVIDIA 最新的 GPU 架构，专为高性能 AI 工作负载设计，具有先进的张量核心和内存带宽。",
+  "discussion": "社区讨论展现了深入的技术辩论，用户质疑 14 GB FP8 模型权重的说法，指出官方 Hugging Face 模型约为 30.9 GB，部分人对如此高速在实际应用中的实用性表示怀疑。其他人强调了权衡，例如缩减的上下文窗口限制了用例，并分享了他们在类似设置中的经验，包括使用 Infiniband 跨节点扩展的挑战。",
+  "references": [
+    {
+      "title": "FP8 E4M3 KV Cache — vLLM",
+      "url": "https://docs.vllm.ai/en/v0.4.1/quantization/fp8_e4m3_kvcache.html"
+    },
+    {
+      "title": "Welcome to vLLM — vLLM",
+      "url": "https://docs.vllm.ai/en/v0.8.1/index.html"
+    },
+    {
+      "title": "Efficient LLM Serving with MTP: DeepSeek V3 and SGLang on AMD",
+      "url": "https://rocm.blogs.amd.com/software-tools-optimization/mtp/README.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

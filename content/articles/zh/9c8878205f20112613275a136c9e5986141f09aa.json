@@ -1,0 +1,44 @@
+{
+  "id": "9c8878205f20112613275a136c9e5986141f09aa",
+  "canonicalId": "0d7fdb95936f121d277b7ed1ff052f32a29edd2d",
+  "slug": "deepseek-视觉能力开发引发社区热议",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 视觉能力开发引发社区热议",
+  "summary": "据 Xiaokang Chen 在 X 平台上的帖子暗示，DeepSeek 正在开发视觉能力，引发了对未来模型（如 DeepSeek V4）原生多模态能力的猜测。 如果 DeepSeek 集成原生视觉能力，它可能能与 Llama 4 等前沿多模态模型竞争，为需要同时理解文本和图像的任务提供强大的本地 AI 解决方案。 DeepSeek 已有独立的视觉语言模型（如 DeepSeek-VL2），但社区希望的是单一模型的原生多模态（早期融合），而非单独的视觉专用版本。",
+  "score": 7,
+  "tags": [
+    "DeepSeek",
+    "vision",
+    "multimodal",
+    "LLM",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 28, 10:58"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1sxy0o7",
+  "originalSite": "reddit.com",
+  "context": "多模态大语言模型在单一模型中处理多种数据类型（文本、图像等）。原生多模态（如 Llama 4）采用早期融合，在文本和视觉数据上联合训练，实现跨模态的无缝理解。DeepSeek 现有的 VL2 模型使用独立的视觉编码器，集成度较低。",
+  "discussion": "社区既兴奋又存在分歧：一些人希望 V4 实现原生多模态而非单独的视觉模型，另一些人则质疑视觉功能的实际用途。少数用户对某些 DeepSeek 版本缺少 GGUF 支持表示不满。",
+  "references": [
+    {
+      "title": "deepseek-ai/deepseek-vl2 - Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-vl2"
+    },
+    {
+      "title": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+      "url": "https://github.com/deepseek-ai/DeepSeek-VL"
+    },
+    {
+      "title": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for ... - arXiv",
+      "url": "https://arxiv.org/abs/2412.10302"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

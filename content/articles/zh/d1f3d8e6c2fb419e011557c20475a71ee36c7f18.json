@@ -1,0 +1,44 @@
+{
+  "id": "d1f3d8e6c2fb419e011557c20475a71ee36c7f18",
+  "canonicalId": "2abb3f1c34d09a14946ab854c25f2e68e5006890",
+  "slug": "验证税llm-代理中与任务时长相关的安全-成功权衡",
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-14T02:09:00Z",
+  "lang": "zh",
+  "title": "验证税：LLM 代理中与任务时长相关的安全-成功权衡",
+  "summary": "一篇在 ACM CAIS 2026 上发表的新论文提出了“验证税”概念，即工具使用型 LLM 代理中与任务时长相关的安全-成功权衡，并提出了一个结合确定性检查与基于 LLM 的验证器的两层验证架构。 这项工作表明，当前仅关注成功率的评估方法可能掩盖不安全完成的情况，而验证税揭示了随着任务变长，安全性与任务完成之间的关键张力，影响 LLM 代理在实际应用中的安全部署。 该研究使用τ-bench 工具使用场景，将结果分解为安全成功、不安全成功和失败；发现验证减少了不安全成功，但随着任务时长增加也降低了任务完成率，且存在模型相关的交互时长（15–30 轮）。",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "AI safety",
+    "verification",
+    "tool use",
+    "evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/AccomplishedLeg1508"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+  "originalSite": "reddit.com",
+  "context": "LLM 代理越来越多地与外部工具（如 API）结合使用来完成多步骤任务。然而，代理可能在违反安全或策略规则的情况下达成任务目标，导致“不安全成功”。验证税概念源于这样的观察：添加验证来捕捉此类违规行为可能会无意中降低代理完成长周期任务的能力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2603.19328] The Verifier Tax: Horizon Dependent Safety Success ...",
+      "url": "https://arxiv.org/abs/2603.19328"
+    },
+    {
+      "title": "GitHub - sierra-research/tau2-bench: τ-Bench: A Benchmark for ...",
+      "url": "https://github.com/sierra-research/tau2-bench"
+    },
+    {
+      "title": "HU Student's Doctoral Research on AI Agent Safety Featured at...",
+      "url": "https://www.harrisburgu.edu/news/2026-06-05-ai-agent-safety-doctoral-research/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

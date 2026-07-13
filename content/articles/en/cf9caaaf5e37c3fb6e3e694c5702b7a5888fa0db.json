@@ -1,0 +1,44 @@
+{
+  "id": "cf9caaaf5e37c3fb6e3e694c5702b7a5888fa0db",
+  "canonicalId": "52cfeef8f91c69adda63062adae25ee0602e8805",
+  "slug": "ubuntu-plans-to-strip-features-from-grub-bootloader-to-improve-security",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-03T15:12:00Z",
+  "lang": "en",
+  "title": "Ubuntu plans to strip features from GRUB bootloader to improve security",
+  "summary": "Ubuntu core developer Julian Andres Klode has proposed removing multiple features from GRUB in Ubuntu 26.10, including support for Btrfs, HFS+, XFS, and ZFS filesystems on /boot partitions, custom splash images, and complex partition setups like LVM and LUKS-encrypted /boot. These changes would only affect signed GRUB builds for UEFI systems with Secure Boot, while unsigned builds for legacy BIOS systems would retain full functionality. This initiative addresses GRUB's long history of security vulnerabilities by reducing its attack surface, potentially improving boot security for millions of Ubuntu users. The move reflects a broader industry trend toward simplifying boot processes and could influence how other Linux distributions approach bootloader security. The proposed changes would limit /boot filesystem support to ext4, FAT, ISO 9660, and SquashFS only, and would not affect Ubuntu's general filesystem support for user data partitions. These modifications are not scheduled for the upcoming LTS release (26.04), giving affected users up to ten years to continue using current GRUB features on LTS versions.",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "Bootloader",
+    "Security",
+    "Ubuntu",
+    "Systems Engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1065420/",
+  "originalSite": "lwn.net",
+  "context": "GRUB (GNU GRUB 2) is the most widely used bootloader for x86_64 Linux systems, responsible for loading the operating system kernel during startup. It has faced numerous security vulnerabilities over the years, including high-severity issues like BootHole that could lead to arbitrary code execution. Ubuntu provides two GRUB variants: signed builds for UEFI systems with Secure Boot support, and unsigned builds for legacy BIOS systems without Secure Boot.",
+  "discussion": "The proposal has faced pushback from community members who argue that removing features like Btrfs support is unnecessary and limits user choice. Some maintain that these features are important for specific use cases and that security improvements should not come at the cost of functionality.",
+  "references": [
+    {
+      "title": "GRUB2 boot loader reveals multiple high severity vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/grub2-boot-loader-reveals-multiple-high-severity-vulnerabilities/"
+    },
+    {
+      "title": "‘BootHole’ — an overview of GNU GRUB Vulnerabilities | by Imriah | SSD Secure Disclosure | Medium",
+      "url": "https://medium.com/ssd-secure-disclosure/boothole-a-look-at-gnu-grub-vulnerabilities-d15c66effe60"
+    },
+    {
+      "title": "Understanding the Linux Boot Process : BIOS vs . UEFI | Medium",
+      "url": "https://medium.com/@kavinduj.20/understanding-the-linux-boot-process-bios-vs-uefi-130155e23b56"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

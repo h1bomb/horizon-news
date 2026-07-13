@@ -1,0 +1,44 @@
+{
+  "id": "bda79a31f3f5b7437c5e2db4f9162e42e45ec167",
+  "canonicalId": "01b9a4e30e2339b1e9271243084b431dae515b2e",
+  "slug": "ietf-提议新增-http-query-方法以支持带请求体的安全查询",
+  "date": "2026-06-21",
+  "publishedAt": "2026-06-20T06:28:00Z",
+  "lang": "zh",
+  "title": "IETF 提议新增 HTTP QUERY 方法以支持带请求体的安全查询",
+  "summary": "IETF HTTP 工作组正在制定一项草案，拟新增 HTTP QUERY 方法，允许将查询条件放在请求体中，同时保持与 GET 方法相同的安全性和幂等性，便于缓存、重试和自动恢复。草案还定义了新的 Accept-Query 响应头，用于服务器声明支持的查询格式。 该提案解决了 URI 长度限制这一长期问题，允许将复杂查询通过请求体发送，这对于具有大型查询负载的现代 Web 应用至关重要。与基于 POST 的变通方法相比，它还提高了可缓存性和可靠性，可能影响 API 和 Web 服务处理查询操作的方式。 QUERY 方法具有安全性和幂等性，意味着它不会改变服务器状态，重复请求产生相同结果，从而支持自动重试和缓存。当前草案（版本 -14）将于 2026 年 12 月 22 日到期，工作组内部仍在积极讨论中。",
+  "score": 8,
+  "tags": [
+    "HTTP",
+    "protocol",
+    "IETF",
+    "web development",
+    "query method"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-safe-method-w-body.html",
+  "originalSite": "httpwg.org",
+  "context": "HTTP GET 请求通过 URI 查询字符串传递参数，但其长度受限于客户端和服务器的限制（通常为 2-8 KB）。POST 请求可以携带请求体，但默认不具有安全性和幂等性，因此不适合缓存和自动重试。拟议的 QUERY 方法填补了这一空白，结合了 GET 的安全性与幂等性以及发送请求体的能力，类似于某些 API 已经使用 POST 进行查询的方式，但缺乏标准化的保证。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The HTTP QUERY Method",
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-safe-method-w-body.html"
+    },
+    {
+      "title": "draft-ietf-httpbis-safe-method-w-body-14 - The HTTP QUERY Method",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-httpbis-safe-method-w-body/"
+    },
+    {
+      "title": "QUERY - Expert Guide to HTTP methods",
+      "url": "https://http.dev/query"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

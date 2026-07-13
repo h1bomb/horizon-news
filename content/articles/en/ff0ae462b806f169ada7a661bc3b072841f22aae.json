@@ -1,0 +1,45 @@
+{
+  "id": "ff0ae462b806f169ada7a661bc3b072841f22aae",
+  "canonicalId": "c0780200ae7b78915a40e456e10f39c164e8feba",
+  "slug": "google-chrome-silently-installs-4-gb-ai-model-on-devices",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-05T07:34:00Z",
+  "lang": "en",
+  "title": "Google Chrome Silently Installs 4 GB AI Model on Devices",
+  "summary": "Google Chrome has started silently downloading a 4 GB on-device AI model (Gemini Nano) as part of a recent update, without explicit user consent or notification. This silent installation consumes significant disk space and bandwidth, particularly affecting users with limited resources and IT administrators managing shared environments. It also raises privacy and consent concerns about auto-updating software. The model file is named weights.bin and stored in the OptGuideOnDeviceModel directory. It is the Gemini Nano model, with CPU and GPU variants of ~2.7 GiB and ~4.0 GiB respectively. Users can disable it via chrome://flags by turning off 'Enables optimization guide on device' and 'Prompt API for Gemini Nano'. Google has since published a help page for managing on-device AI models.",
+  "score": 8,
+  "tags": [
+    "chrome",
+    "ai",
+    "privacy",
+    "disk-usage",
+    "software-updates"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "john-doe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48019219"
+    }
+  ],
+  "originalUrl": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+  "originalSite": "thatprivacyguy.com",
+  "context": "Gemini Nano is an on-device large language model developed by Google, enabling AI tasks like text generation directly on the device without cloud processing. Chrome is integrating such models to offer features like the Prompt API for web developers. The file weights.bin contains the model's learned parameters. This move reflects a broader trend of browsers incorporating local AI to improve privacy and speed, but it also raises deployment and transparency challenges.",
+  "discussion": "Community reactions are split. Some view it as a normal part of software updates, while others highlight severe practical impacts on shared IT systems (e.g., NFS home directories, lab machines) where repeated downloads cause storage bloat. Users have shared flags and scripts to disable the model, and there is call for a system-wide, single-copy installation to avoid redundancy.",
+  "references": [
+    {
+      "title": "Guy finds Google Chrome is quietly installing a 4GB AI model on our devices",
+      "url": "https://cybernews.com/security/google-chrome-ai-model-device-no-consent/"
+    },
+    {
+      "title": "Manage on-device Generative AI models in Chrome - Google Chrome Help",
+      "url": "https://support.google.com/chrome/answer/16961953?hl=en"
+    },
+    {
+      "title": "Built-in AI | AI on Chrome | Chrome for Developers",
+      "url": "https://developer.chrome.com/docs/ai/built-in"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

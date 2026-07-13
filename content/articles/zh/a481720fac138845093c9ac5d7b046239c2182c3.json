@@ -1,0 +1,41 @@
+{
+  "id": "a481720fac138845093c9ac5d7b046239c2182c3",
+  "canonicalId": "18c4e38f9bb73cf13cfb8a11cff9404db1daa3f7",
+  "slug": "uber-限制员工每月使用-ai-工具预算为-1500-美元",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T12:01:00Z",
+  "lang": "zh",
+  "title": "Uber 限制员工每月使用 AI 工具预算为 1500 美元",
+  "summary": "Uber 在 2026 年人工智能预算仅四个月就被耗尽后，决定限制每位员工每月在每个 AI 编程工具（如 Claude Code 或 Cursor）上的代币消费上限为 1500 美元。 这项政策凸显了企业在使用 AI 编程工具时面临的成本挑战，并为其他公司如何根据工程师薪酬管理 AI 工具预算树立了先例。 每个工具分别有 1500 美元上限，不是总限额；若使用两个工具，一名工程师每年最多可花费 36000 美元（约占中位数 33 万美元总薪酬的 11%）。该限制仅针对 AI 编程软件，不涉及其他 AI 服务。",
+  "score": 8,
+  "tags": [
+    "AI tools",
+    "cost management",
+    "software engineering",
+    "tech industry trends",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48383056"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "像 Claude Code 和 Cursor 这类 AI 编程工具利用大语言模型自主理解代码库、编辑文件并执行命令，按消耗的 token 计费。2025-2026 年间，这类工具迅速普及，导致许多在爆发前制定预算的公司出现意外的预算超支。",
+  "discussion": "评论者讨论了 1500 美元的上限是否合理，有人指出自己按 API 价格计算已花费超过 2 万美元，也有人质疑面向个人的补贴计划能否持续。还有讨论转向更便宜的中国开源权重模型作为替代方案。",
+  "references": [
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "The 13 Best Agentic IDEs in 2026 - DataCamp",
+      "url": "https://www.datacamp.com/blog/best-agentic-ide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

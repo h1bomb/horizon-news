@@ -1,0 +1,44 @@
+{
+  "id": "8801c29362d0ceec68faf31af167cc772d36817c",
+  "canonicalId": "1ec22c2f2524e6399be750374f2aa0bdf934d9bc",
+  "slug": "former-azure-core-engineer-details-internal-decisions-that-eroded-trust-in-azure",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T16:00:00Z",
+  "lang": "en",
+  "title": "Former Azure Core engineer details internal decisions that eroded trust in Azure.",
+  "summary": "A former Azure Core engineer published an account detailing specific internal decisions at Microsoft that compromised Azure's reliability and trustworthiness, sparking widespread community discussion. The engineer described actions such as ignoring critical technical feedback and prioritizing rapid feature releases over stability. This insider perspective highlights systemic issues in Azure's engineering and management culture, which could affect millions of users and enterprises relying on the platform for critical workloads. It raises concerns about cloud platform reliability and corporate governance in the competitive cloud computing market. The engineer claims to have escalated concerns to senior leadership, including the CEO and board, without receiving acknowledgment, suggesting potential breakdowns in internal communication. The account is presented as a personal narrative, so its accuracy depends on the author's credibility and may reflect individual grievances.",
+  "score": 8,
+  "tags": [
+    "cloud-computing",
+    "azure",
+    "software-engineering",
+    "corporate-culture",
+    "reliability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "axelriet"
+    }
+  ],
+  "originalUrl": "https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion",
+  "originalSite": "isolveproblems.substack.com",
+  "context": "Azure is Microsoft's cloud computing platform, offering services like compute, storage, and networking for building and managing applications. Azure Core engineers typically focus on foundational components such as Azure Compute and Azure Storage, ensuring platform reliability and performance. Cloud platform reliability involves metrics like uptime and latency, and internal decision-making can significantly impact these aspects, as seen in industry best practices for cloud operations.",
+  "discussion": "Community comments express validation of the engineer's account, with users noting Azure's UI issues, outdated documentation, and service complexity as corroborating evidence. Some question the author's motives, debating whether this is whistleblowing or a personal grievance, but overall sentiment leans toward concern over Azure's reliability and management practices.",
+  "references": [
+    {
+      "title": "Azure built-in roles - Azure RBAC | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles"
+    },
+    {
+      "title": "Azure Reliability | Microsoft Azure",
+      "url": "https://azure.microsoft.com/en-us/explore/reliability"
+    },
+    {
+      "title": "Cloud Operations Best Practices and Resource Guide - CIO.GOV",
+      "url": "https://www.cio.gov/assets/resources/Cloud+Operations+Best+Practices+&+Resources+Guide+-+October+2023.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

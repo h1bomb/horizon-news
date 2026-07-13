@@ -1,0 +1,40 @@
+{
+  "id": "a6b99b9b0270f894417134d8fd463760d4ccc207",
+  "canonicalId": "880937a99f56ec604ebb1fba9ff0640aaadb25fc",
+  "slug": "交互世界模型漂移减少moba-与自滚动蒸馏",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T20:23:00Z",
+  "lang": "zh",
+  "title": "交互世界模型漂移减少：MoBA 与自滚动蒸馏",
+  "summary": "LingBot World 的研究人员发布了一个开源权重的交互式世界模型，该模型使用 MoBA 注意力掩码（混合双向和自回归注意力）以及基于长自滚动轨迹的蒸馏后训练，显著减少了漂移，并通过连续 60 分钟的稳定滚动展示了效果。 这项工作解决了交互式世界模型中的一个关键挑战——长滚动过程中的漂移积累——这限制了它们的实际可用性。MoBA 注意力与长滚动蒸馏的结合有望为视频游戏、机器人技术和虚拟环境等应用提供更稳定可靠的交互式模拟。 MoBA 注意力掩码通过动态调度 KV 缓存使得长滚动在计算上可行，模型使用 Plücker 嵌入和 AdaLN 进行相机控制。一个局限性是持久性仅在外观层面，而非身份层面，这意味着离开上下文窗口的区域在重新访问时会被重新生成，而非召回。权重以 CC-BY-NC-SA 许可证发布。",
+  "score": 8,
+  "tags": [
+    "world models",
+    "drift reduction",
+    "attention mechanisms",
+    "distillation",
+    "video generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Purple-Low-2779"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ur4hkc/reducing_drift_in_interactive_worldmodel_rollouts/",
+  "originalSite": "reddit.com",
+  "context": "交互式世界模型根据用户输入生成视频帧，本质上作为一个学习到的模拟器。一个常见问题是漂移：当模型基于自身之前的输出自回归地生成新帧时，小误差会累积，导致模拟随时间偏离合理的现实。现有方法通常在训练中使用教师强制，即模型看到真实帧，但这并不能在推理过程中转化为稳定的自滚动。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Self-Consistent Distribution Matching with Cache-Aware Training for Fast ...",
+      "url": "https://arxiv.org/html/2604.03118v2"
+    },
+    {
+      "title": "Self-Consistent Distribution Matching with Cache-Aware Training for Fast ...",
+      "url": "https://huggingface.co/papers/2604.03118"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

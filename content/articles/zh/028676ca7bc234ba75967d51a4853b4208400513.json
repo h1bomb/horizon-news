@@ -1,0 +1,44 @@
+{
+  "id": "028676ca7bc234ba75967d51a4853b4208400513",
+  "canonicalId": "f4e42dffcd634cd9281d61329eaab7a1ddb58e63",
+  "slug": "cloudflare-提出使用异步迭代器构建更简单的-javascript-流-api",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-28T00:00:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 提出使用异步迭代器构建更简单的 JavaScript 流 API",
+  "summary": "Cloudflare 发布了一篇博客文章，为当前的 Web Streams API 提出了一个更符合人体工程学的替代方案，建议将其简化为本质上是一个 UInt8Array 数据块的异步迭代器。该提案认为，为不同时代设计的当前 API 对于许多常见用例来说过于复杂。 这很重要，因为 Web Streams API 现在已普遍存在于各种 JavaScript 运行时（浏览器、Node.js、边缘平台）中，用于处理网络数据、文件和实时通信。一个更简单、更直观的 API 可以显著改善开发者体验，减少样板代码，并可能影响未来的 Web 标准。 该提案的核心是将流建模为类型 `Stream<T> = { next(): Promise<{ done, value: UInt8Array<T> }> }`。然而，讨论揭示了其中的权衡，例如与同步迭代器相比，Promise 和栈切换可能带来的性能开销，特别是对于小而频繁的数据块。",
+  "score": 7,
+  "tags": [
+    "javascript",
+    "web-standards",
+    "api-design",
+    "streams",
+    "async-programming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Feb 27, 14:02"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/a-better-web-streams-api/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "由 WHATWG 标准化的 JavaScript Web Streams API 提供了 ReadableStream、WritableStream 和 TransformStream 等对象，用于以编程方式访问和处理数据流（例如来自网络请求），并具有内置的反压管理。ES2018 中引入的异步迭代器是一种语言特性，允许使用 `for await...of` 对数据序列进行异步迭代。当前的 ReadableStream 已经实现了异步迭代器协议。",
+  "discussion": "社区讨论揭示了关于 API 设计权衡的积极辩论。一位评论者提出了一种可以同步或异步返回值的替代“流迭代器”类型。其他人指出了异步可迭代对象在处理小对象时的性能问题，并提到了像 Repeater.js 这样的现有抽象。也有关于原生流 API 反压实现存在实际性能问题的报告。",
+  "references": [
+    {
+      "title": "Streams API - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API"
+    },
+    {
+      "title": "AsyncIterator - JavaScript | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator"
+    },
+    {
+      "title": "We deserve a better streams API for JavaScript",
+      "url": "https://blog.cloudflare.com/a-better-web-streams-api/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

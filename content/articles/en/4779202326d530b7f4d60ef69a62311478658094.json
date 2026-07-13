@@ -1,0 +1,40 @@
+{
+  "id": "4779202326d530b7f4d60ef69a62311478658094",
+  "canonicalId": "9f70bf9c013504e9b6cbccea747929032e5bae57",
+  "slug": "hugging-face-revives-paperswithcode-with-ai-parsing",
+  "date": "2026-05-19",
+  "publishedAt": "2026-05-18T13:37:00Z",
+  "lang": "en",
+  "title": "Hugging Face revives PapersWithCode with AI parsing",
+  "summary": "Hugging Face's open-source team, led by Niels, has launched a revived version of PapersWithCode at paperswithcode.co, using AI agents to parse high-impact papers and automatically generate leaderboards. The site now features trending papers, domain categorization, methods like RLVR, eval results, and citation counts. This revival restores a vital resource for the ML community that connects papers to code and benchmarks, filling a gap left after Meta acquired and ceased maintaining the original site. It helps researchers quickly find SOTA implementations and track progress across domains. The platform currently covers high-impact papers like Qwen 3.5/3.6, RF-DETR, and DINOv3, and includes leaderboards for benchmarks such as MMTEB and COCO val 2017. AI agents parse papers but results are verified manually; the system also supports external papers beyond arXiv.",
+  "score": 8,
+  "tags": [
+    "paperswithcode",
+    "huggingface",
+    "machine-learning",
+    "open-source",
+    "benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "NielsRogge"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/",
+  "originalSite": "reddit.com",
+  "context": "PapersWithCode was a popular website that linked machine learning papers to their code implementations and benchmark results, widely used by researchers and practitioners. After its acquisition by Meta in 2020, the site gradually became unmaintained, leading to a need for community-driven alternatives. Hugging Face's new effort uses AI-assisted parsing to scale the curation process.",
+  "discussion": "The Reddit community is overwhelmingly positive, with nostalgic comments valuing the site as a go-to resource. Users request features like flagging misclassified papers, a community reproducibility score, and better task granularity to avoid duplication.",
+  "references": [
+    {
+      "title": "GitHub - opendilab/awesome- RLVR : A curated list of reinforcement...",
+      "url": "https://github.com/opendilab/awesome-RLVR"
+    },
+    {
+      "title": "RF - DETR : A SOTA Real-Time Object Detection Model",
+      "url": "https://blog.roboflow.com/rf-detr/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

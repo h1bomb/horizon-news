@@ -1,0 +1,44 @@
+{
+  "id": "748bd1da829d07926d0e07c2d586d87fe3e9027a",
+  "canonicalId": "9cc16c631a3787f7a44b54f0f951c50ba504abf8",
+  "slug": "bpf-based-custom-page-cache-eviction-proposed-at-linux-summit",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-22T14:37:00Z",
+  "lang": "en",
+  "title": "BPF-based custom page-cache eviction proposed at Linux Summit",
+  "summary": "Tal Zussman proposed cache_ext, a BPF-based system that allows custom page-cache eviction policies to be loaded from user space without kernel changes, at the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit. This enables workloads like financial databases to avoid thrashing by tailoring page-cache eviction to their specific access patterns, potentially improving performance without application-level caching or direct I/O. cache_ext is implemented as a BPF struct_ops program with callbacks for folio addition, removal, access, and eviction requests, and is attached to control groups to manage per-workload policies.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "BPF",
+    "page cache",
+    "memory management",
+    "storage"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073103/",
+  "originalSite": "lwn.net",
+  "context": "The Linux kernel's page cache uses LRU (least-recently-used) or multi-generational LRU algorithms to manage folios, but these generic policies can be suboptimal for certain workloads. eBPF is a technology that allows safe and efficient extension of kernel functionality at runtime without modifying kernel source code or loading modules. The proposal is inspired by sched_ext, which enables custom CPU scheduling policies via BPF.",
+  "discussion": "During the session, Vlastimil Babka questioned why the existing access-twice heuristic fails for this scenario, and Zussman explained that concurrent scans fool it. Shakeel Butt asked whether the interface could manage all memory, not just the page cache; Zussman stated his focus is on file-backed memory for now.",
+  "references": [
+    {
+      "title": "Multi-generational LRU: the next generation [LWN.net]",
+      "url": "https://lwn.net/Articles/856931/"
+    },
+    {
+      "title": "eBPF - Introduction, Tutorials & Community Resources",
+      "url": "https://ebpf.io/"
+    },
+    {
+      "title": "An Introduction to Folios | linux - Oracle Blogs",
+      "url": "https://blogs.oracle.com/linux/intro-to-folios"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ed907899c0c36a34e70407c54c1a153166cf7ae2",
+  "canonicalId": "9e4c5c1d7ed388f5a931106a882649e2ed7873dd",
+  "slug": "glassworm-攻击利用不可见-unicode-字符入侵逾-151-个-github-仓库",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Glassworm 攻击利用不可见 Unicode 字符入侵逾 151 个 GitHub 仓库",
+  "summary": "Aikido Security 研究人员发现，黑客组织 Glassworm 利用不可见 Unicode 字符对 GitHub、npm 和 VS Code 市场发起大规模攻击，已确认至少 151 个仓库受损。攻击者使用 AI 生成与项目风格一致的代码来隐藏恶意负载，并利用 Solana 区块链作为指令控制通道。 这次攻击结合了新型规避技术和去中心化基础设施，构成了复杂的供应链威胁，使检测和缓解变得困难。它凸显了软件开发生态系统中日益增长的风险，即不可见字符和 AI 生成代码可能绕过传统安全审查。 恶意负载可窃取用户凭据和加密令牌，而利用 Solana 区块链进行指令控制增加了关停难度。受影响项目包括 Wasmer 和 Reworm，建议开发者使用专门扫描不可见字符的自动化工具进行安全检查。",
+  "score": 8,
+  "tags": [
+    "Cybersecurity",
+    "Supply Chain Attack",
+    "Unicode Exploit",
+    "GitHub Security",
+    "AI in Malware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 15, 01:28"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/cyber-security/malicious-packages-using-invisible-unicode-found-in-151-github-repos-and-vs-code",
+  "originalSite": "tomshardware.com",
+  "context": "零宽度 Unicode 字符是不可见的字符，在屏幕上不占可见空间，历史上被用于同形异义攻击以创建视觉相同但恶意的 URL。在软件供应链攻击中，攻击者越来越多地使用此类字符在仓库中隐藏恶意代码，而 AI 生成的代码可通过匹配项目风格使注入看起来合法。Solana 区块链提供了去中心化的指令控制通道，比传统服务器更难中断。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Zero-width space - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-width_space"
+    },
+    {
+      "title": "The Invisible Threat: How Zero-Width Unicode Characters Can Silently Backdoor Your AI-Generated Code | Promptfoo",
+      "url": "https://www.promptfoo.dev/blog/invisible-unicode-threats/"
+    },
+    {
+      "title": "GlassWorm Supply Chain Worm Uses Invisible Unicode and Solana Blockchain for Stealth C2",
+      "url": "https://securityonline.info/glassworm-supply-chain-worm-uses-invisible-unicode-and-solana-blockchain-for-stealth-c2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "8bc20bdbfed44c73c0384c56550bf01e07be6c68",
+  "canonicalId": "1b880cd4403de75f1bdad271caeed00ed8090931",
+  "slug": "美国海关与边境保护局利用实时竞价数据在用户不知情下追踪其行踪",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-04T00:00:00Z",
+  "lang": "zh",
+  "title": "美国海关与边境保护局利用实时竞价数据在用户不知情下追踪其行踪",
+  "summary": "404 Media 的一项调查披露，美国海关与边境保护局（CBP）一直在获取并利用通过实时竞价（RTB）广告生态系统从手机中收集的位置数据，以追踪个人的行踪。这些数据是在应用程序内展示广告时发生的近乎即时的广告竞价过程中被窃取的，这一过程对普通手机用户而言是不可见的。 这种做法标志着政府监控能力向商业数据市场的重大扩张，使得在无搜查令或用户知情的情况下进行追踪成为可能。这引发了深刻的隐私担忧和监督问题，因为为广告目的收集的敏感位置数据，在没有明确法律界限的情况下被重新用于执法和边境管控。 位置数据是专门通过 RTB 流程获取的，监控公司或恶意广告公司可以观察竞价请求并提取包括 GPS 坐标在内的信息。值得注意的是，美国联邦贸易委员会（FTC）最近已对 Mobilewalla 等公司采取行动，因其从这些相同的广告竞价中收集和出售敏感位置数据，用于参与竞价本身以外的目的。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "advertising-technology",
+    "government",
+    "data-collection"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 3, 16:35"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1061085/",
+  "originalSite": "lwn.net",
+  "context": "实时竞价（RTB）是用于买卖在线广告展示次数的自动化、即时拍卖流程。当用户加载应用程序或网站时，一个包含用户数据（竞价流数据）的竞价请求——例如设备 ID、IP 地址和精确 GPS 位置——会被广播给潜在的广告商。这个生态系统虽然是为广告定向而设计，却产生了一个庞大的数据流，可以被不直接参与广告投放的实体拦截和收集，从而催生了敏感个人信息的二级市场。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Real-time bidding - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Real-time_bidding"
+    },
+    {
+      "title": "What is Real Time Bidding?",
+      "url": "https://epic.org/what-is-real-time-bidding/"
+    },
+    {
+      "title": "FTC Takes Action Against Mobilewalla for Collecting and ...",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-mobilewalla-collecting-selling-sensitive-location-data"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "17c0f891051384572478a0605b4ce44930096a34",
+  "canonicalId": "4c972aa928e6ecc94b3411e8630980dd1a7f8bbc",
+  "slug": "gpt-56-proves-50-year-old-graph-theory-conjecture-in-one-hour",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T03:49:00Z",
+  "lang": "en",
+  "title": "GPT-5.6 Proves 50-Year-Old Graph Theory Conjecture in One Hour",
+  "summary": "OpenAI's GPT-5.6 Sol Ultra model autonomously proved the cycle double cover conjecture, a 50-year-old open problem in graph theory, in under one hour using 64 sub-agents. The model generated a 3-page PDF proof and OpenAI released the exact prompt used. This demonstrates that large language models can now tackle long-standing unsolved mathematical problems through advanced multi-agent reasoning, potentially transforming how mathematical research is conducted. It also validates the effectiveness of carefully crafted prompts and sub-agent architectures for complex reasoning. The model used 64 sub-agents working in parallel, transforming the problem into one about edge labelings and linear equations over finite fields. The prompt explicitly defined acceptance criteria, definitions, boundary conditions, and failure cases, while requiring dynamic sub-agent allocation and independent verification.",
+  "score": 10,
+  "tags": [
+    "AI",
+    "graph theory",
+    "mathematical proof",
+    "GPT-5.6",
+    "autonomous reasoning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.qbitai.com/2026/07/447873.html",
+  "originalSite": "qbitai.com",
+  "context": "The cycle double cover conjecture, posed by mathematicians including Tutte and Seymour, states that every bridgeless graph has a collection of cycles covering each edge exactly twice. It has resisted proof for about 50 years. GPT-5.6's approach involved decomposing the problem into sub-tasks handled by specialized sub-agents, an emerging paradigm in AI reasoning. The released prompt is about 700 characters and served as the master orchestrator.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Cycle double cover conjecture",
+      "url": "https://en.wikipedia.org/wiki/Cycle_double_cover_conjecture"
+    },
+    {
+      "title": "Cycle Double Cover Conjecture -- from Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/CycleDoubleCoverConjecture.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "a8e57c645c47e3b0d6ac29240d9e9bffacee891a",
+  "canonicalId": "fbe7a7d9389239cb035542535e7bec7225ef4afd",
+  "slug": "vultronretriever-models-top-mteb-cut-storage-16x",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T15:22:00Z",
+  "lang": "en",
+  "title": "VultronRetriever models top MTEB, cut storage 16x",
+  "summary": "The VultronRetriever family of models has been released on HuggingFace, achieving #1 on the MTEB leaderboard with up to 16x smaller index storage and 12x higher throughput compared to previous 9B-class leaders. This breakthrough enables high-quality retrieval and embedding on edge devices like iPhones entirely offline, expanding AI applications to privacy-sensitive and resource-constrained environments while reducing infrastructure costs. The family includes three models: Prime-8B (global #1), Core-4.5B (outperforming models twice its size), and Flash-0.8B (outperforming models up to 5x its size). All models are trained on contamination-free datasets and leverage the Hydra architecture for late interaction retrieval with up to half the memory of comparable models.",
+  "score": 8,
+  "tags": [
+    "Information Retrieval",
+    "Embedding Models",
+    "HuggingFace",
+    "Edge AI",
+    "MTEB"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/madkimchi"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
+  "originalSite": "reddit.com",
+  "context": "MTEB is a comprehensive benchmark for embedding models, covering tasks like retrieval, classification, and clustering. The Hydra architecture unifies late interaction retrieval (similar to ColBERT) and autoregressive generation in a single vision-language model, improving efficiency and reducing memory footprint. The VultronRetriever models are optimized for visual document retrieval, enabling offline Q&A and document indexing on edge devices.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "VultronRetriever : Open Visual Document Retrieval Models Built for...",
+      "url": "https://blogs.vultr.com/vultronretriever"
+    },
+    {
+      "title": "vultr/VultronRetrieverCore-Qwen3.5-4.5B · Hugging Face",
+      "url": "https://huggingface.co/vultr/VultronRetrieverCore-Qwen3.5-4.5B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

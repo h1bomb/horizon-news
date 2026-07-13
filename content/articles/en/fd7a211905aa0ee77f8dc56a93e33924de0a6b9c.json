@@ -1,0 +1,44 @@
+{
+  "id": "fd7a211905aa0ee77f8dc56a93e33924de0a6b9c",
+  "canonicalId": "59c4a49142e70dbecff4434790717a2d137d5fb6",
+  "slug": "firefox-service-terms-reveal-data-sharing-of-browsing-records-and-unique-identifiers-with-google",
+  "date": "2026-03-30",
+  "publishedAt": "2026-03-29T06:57:00Z",
+  "lang": "en",
+  "title": "Firefox service terms reveal data sharing of browsing records and unique identifiers with Google",
+  "summary": "Mozilla's updated Firefox service terms disclose that browsing data, search records, geolocation, and unique identifiers may be shared with partners including Google Cloud Platform for cloud computing, data analysis, and marketing improvements. While Mozilla states it doesn't share browsing history with marketing partners, the terms include 'browsing data' and 'search data' in sharing categories. This matters because Firefox has built its reputation on privacy-first principles, and these disclosures raise questions about user tracking and data transparency in an ecosystem increasingly focused on privacy compliance. The sharing of unique identifiers could enable cross-platform tracking, potentially affecting millions of users who chose Firefox specifically for its privacy protections. The terms contain ambiguous distinctions between 'browsing data' and 'browsing history,' with unclear triggers for data uploads. Unique identifiers shared could include canvas fingerprinting techniques that generate IDs based on system rendering variations, creating persistent tracking capabilities even in private browsing modes.",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "firefox",
+    "data-sharing",
+    "compliance",
+    "user-tracking"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.mozilla.org/zh-CN/privacy/firefox/",
+  "originalSite": "mozilla.org",
+  "context": "Browser fingerprinting uses unique identifiers like canvas rendering hashes to track users across websites without cookies. Google Cloud Platform provides cloud services where data might be processed. Firefox has positioned itself as a privacy-focused alternative to browsers like Chrome, with features like Enhanced Tracking Protection and commitments to limit data collection.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - honeinc/ubid: Unique Browser ID · GitHub",
+      "url": "https://github.com/honeinc/ubid"
+    },
+    {
+      "title": "Firefox Privacy Notice - Mozilla",
+      "url": "https://www.mozilla.org/en-US/privacy/firefox/"
+    },
+    {
+      "title": "r/linux - Introducing a terms of use and updated privacy notice for Firefox",
+      "url": "https://www.reddit.com/r/linux/comments/1iyzmo6/introducing_a_terms_of_use_and_updated_privacy/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

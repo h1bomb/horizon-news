@@ -1,0 +1,44 @@
+{
+  "id": "7ddfbbefe889a6eff21759024ce1337e75e10389",
+  "canonicalId": "40cc5ea5d6f3251ddbca42b8deecad4a8930a454",
+  "slug": "apples-new-siri-to-use-google-nvidia-chips-for-cloud-ai",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T11:37:00Z",
+  "lang": "en",
+  "title": "Apple's New Siri to Use Google, Nvidia Chips for Cloud AI",
+  "summary": "Apple reportedly plans to route cloud-based Siri AI queries through Google data centers using Nvidia Blackwell B200 chips, marking a departure from its typical in-house hardware strategy. This shift signals Apple's pragmatic need for competitive AI performance, potentially reshaping its ecosystem dependence on third-party hardware and cloud providers like Google and Nvidia. The B200 GPUs, based on Nvidia's Blackwell architecture, are designed for large-scale AI workloads and include hardware-level encryption for data security, addressing privacy concerns.",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "Siri",
+    "AI",
+    "Nvidia",
+    "Google"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.macrumors.com/2026/06/04/apple-siri-rely-on-google-nvidia-chips/",
+  "originalSite": "macrumors.com",
+  "context": "Apple has historically prioritized in-house chip development, such as the A-series and M-series processors. However, running large language models like Gemini reportedly proved too slow on Apple's own servers, necessitating a move to cloud partners. Nvidia's Blackwell GPUs are the latest high-performance AI accelerators, while Google Cloud offers scalable infrastructure.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Blackwell (microarchitecture) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)"
+    },
+    {
+      "title": "DGX B200: The Foundation for Your AI Factory | NVIDIA",
+      "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/"
+    },
+    {
+      "title": "Confidential Computing on NVIDIA H100 GPUs for Secure and",
+      "url": "https://developer.nvidia.com/blog/confidential-computing-on-h100-gpus-for-secure-and-trustworthy-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dc9f281339570e2325f36943dc9bcca72889e985",
+  "canonicalId": "df9dbf9b30eb471ee6f30168e775adfe9b9bdaf2",
+  "slug": "user-shares-journey-to-build-reliable-locally-hosted-voice-assistant",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T13:09:00Z",
+  "lang": "en",
+  "title": "User shares journey to build reliable locally hosted voice assistant",
+  "summary": "A Home Assistant community member detailed their personal experience creating a locally hosted voice assistant, highlighting specific technical challenges with TTS prosody and wake word detection. The post received significant engagement with 303 score and 92 comments discussing practical solutions. This matters because it addresses key barriers to practical local voice assistants - natural-sounding speech and reliable activation - which are essential for wider adoption in privacy-conscious home automation. The detailed troubleshooting insights help advance the DIY AI/ML ecosystem beyond theoretical capabilities to daily usability. The user identified that TTS models like Kokoro and Piper trained on read speech produce unnatural conversational prosody, particularly with numbers and addresses. Wake word detection remains a major challenge, with community members reporting less than 50% reliability even with specialized hardware like FPH Satellite1 devices.",
+  "score": 7,
+  "tags": [
+    "voice-assistant",
+    "local-hosting",
+    "TTS",
+    "home-automation",
+    "DIY"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Vaslo"
+    }
+  ],
+  "originalUrl": "https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860",
+  "originalSite": "community.home-assistant.io",
+  "context": "Locally hosted voice assistants run entirely on personal hardware without cloud dependency, offering enhanced privacy for smart home control. Text-to-speech (TTS) converts written text to spoken audio, with prosody referring to the rhythm, stress, and intonation patterns that make speech sound natural. Wake word detection is the technology that recognizes specific trigger phrases like \"Hey Assistant\" to activate voice command processing.",
+  "discussion": "Community members emphasized that TTS quality, particularly conversational prosody, is more challenging than the LLM component for daily use. Some suggested privacy-comfortable alternatives like using analog phones as satellites without wake words, while others debated the fundamental utility of voice assistants versus manual control. Practical trade-offs between privacy, cost, and performance were extensively discussed.",
+  "references": [
+    {
+      "title": "Complete Guide to Text-to-Speech (TTS) Technology (2025)",
+      "url": "https://picovoice.ai/blog/complete-guide-to-text-to-speech/"
+    },
+    {
+      "title": "Training a Wake - Word Detector in PyTorch for Voice Assistants",
+      "url": "https://www.slingacademy.com/article/training-a-wake-word-detector-in-pytorch-for-voice-assistants/"
+    },
+    {
+      "title": "Getting started - Local - Home Assistant",
+      "url": "https://www.home-assistant.io/voice_control/voice_remote_local_assistant/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

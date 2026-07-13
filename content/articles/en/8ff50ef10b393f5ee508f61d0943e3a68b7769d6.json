@@ -1,0 +1,43 @@
+{
+  "id": "8ff50ef10b393f5ee508f61d0943e3a68b7769d6",
+  "canonicalId": "a3fedaff69c9c726590fd9e1fd18983d61756767",
+  "slug": "baidu-releases-ernie-51-with-record-efficiency",
+  "date": "2026-05-10",
+  "publishedAt": "2026-05-09T07:45:00Z",
+  "lang": "en",
+  "title": "Baidu Releases ERNIE 5.1 with Record Efficiency",
+  "summary": "Baidu has released its new foundation model, ERNIE 5.1 (Wenxin Large Model 5.1), which achieves leading performance at approximately 6% of the pre-training cost of comparable models. It ranks first in China and fourth globally on the LMArena search leaderboard with a score of 1223. This release demonstrates a significant cost-efficiency breakthrough in large language model pre-training, potentially lowering barriers for AI adoption. Its strong performance on LMArena, a community-driven evaluation platform, signals competitive capabilities in search, reasoning, and agent tasks. ERNIE 5.1 uses a 'multi-dimensional elastic pre-training' technique that compresses total parameters to about one-third of its predecessor. Baidu claims its agent ability surpasses DeepSeek-V4-Pro, creative writing is on par with Gemini 3.1 Pro, and reasoning approaches leading closed-source models.",
+  "score": 8,
+  "tags": [
+    "百度",
+    "文心大模型",
+    "大语言模型",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/_I9ziafHheXiJpA-QY2F7A",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "LMArena is an open evaluation platform from UC Berkeley that crowdsources human preferences to rank AI models, making its leaderboard highly transparent and community-trusted. The 'multi-dimensional elastic pre-training' technique is a new approach that dynamically adjusts training dimensions to reduce cost while maintaining performance. Pre-training large models typically requires massive computational resources, so a 94% cost reduction is a notable advancement.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "百度文心大模型5.1发布：多维弹性预训练加持，搜索能力登顶国内榜首-...",
+      "url": "https://www.itbear.com.cn/html/2026-05/1331691.html"
+    },
+    {
+      "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
+      "url": "https://www.qbitai.com/2026/05/414496.html"
+    },
+    {
+      "title": "LMArena_百度百科",
+      "url": "https://baike.baidu.com/item/LMArena/66816950"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

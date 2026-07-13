@@ -1,0 +1,44 @@
+{
+  "id": "5017fcfdfff44a6c9530956dbb81d8aea67c0007",
+  "canonicalId": "2c2bfbd5de58524c6503a16a27cc861ebd4218e1",
+  "slug": "mozilla-与-anthropic-的-ai-合作修复了-firefox-150-中的-271-个漏洞",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Mozilla 与 Anthropic 的 AI 合作修复了 Firefox 150 中的 271 个漏洞",
+  "summary": "Mozilla 与 Anthropic 合作，将 Claude Mythos Preview 的早期版本应用于 Firefox，本周发布的 Firefox 150 包含了此次评估中发现的 271 个漏洞的修复。这代表了前沿 AI 模型在网络安全漏洞检测方面的大规模重要应用。 此次合作表明，AI 能够通过缩小机器可发现漏洞与人类可发现漏洞之间的差距，为网络安全防御者带来决定性优势，可能将平衡转向防御者一方，使他们能够以前所未有的规模和速度发现漏洞。在 Firefox 这样的主流浏览器中成功识别并修复 271 个漏洞，表明 AI 辅助安全可能成为整个软件行业的标准实践。 这些漏洞是使用 Claude Mythos Preview 识别的，这是 Anthropic 于 2026 年 4 月宣布的最先进的前沿大语言模型，属于 Project Glasswing 的一部分。根据评估，该模型展示了与顶尖人类安全研究人员相当的能力，没有发现任何人类能找到而该模型无法发现的漏洞类别或复杂度。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Vulnerability Detection",
+    "Firefox",
+    "Mozilla",
+    "Cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 22, 05:40"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Claude 是 Anthropic 开发的一系列大语言模型，其中 Claude Mythos Preview 是他们迄今为止最先进的前沿模型。AI 驱动的漏洞检测代表了网络安全领域的重大进步，传统方法严重依赖人类专业知识，并受限于稀缺的安全研究人员。Mozilla 与 Anthropic 的合作建立在先前工作的基础上，当时 Claude Opus 4.6 在两周内发现了 Firefox 中的 22 个漏洞，展示了 AI 辅助安全的快速扩展潜力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Mythos Preview",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos_Preview"
+    },
+    {
+      "title": "Partnering with Mozilla to improve Firefox’s security \\ Anthropic",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security?ref=rojo.me"
+    },
+    {
+      "title": "Anthropic and Mozilla collaborate to... | Digital Watch Observatory",
+      "url": "https://dig.watch/updates/anthropic-mozilla-uncover-firefox-vulnerabilities"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

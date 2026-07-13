@@ -1,0 +1,44 @@
+{
+  "id": "a170f72a45d8e673e801ad643e86241dd05bd07b",
+  "canonicalId": "6352217a8ecedb340c9b89851c91d22e18b2d00a",
+  "slug": "luce-spark-enables-35b-moe-on-16gb-gpu-without-offload-tax",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T15:24:00Z",
+  "lang": "en",
+  "title": "Luce Spark Enables 35B MoE on 16GB GPU Without Offload Tax",
+  "summary": "Luce Spark introduces a dynamic caching technique that keeps only active experts on the GPU, allowing 35B MoE models to run on 16 GB VRAM with minimal offload overhead. It uses self-tuning calibration to learn expert placement from live routing, and a fused graph to eliminate per-layer graph overhead. This breakthrough makes large MoE models accessible on consumer-grade GPUs, drastically lowering the hardware barrier for local LLM inference. It could enable developers and enthusiasts to run state-of-the-art models like Qwen3.6 35B-A3B on affordable 16 GB cards. The system achieves ~100 tok/s at 60% GPU residency, compared to 66 tok/s with naive offload, and 119 tok/s on a full 24 GB GPU. It is implemented in the open-source dflash_server tool and supports both Laguna and Qwen MoE models in GGUF format.",
+  "score": 9,
+  "tags": [
+    "MoE",
+    "local LLM",
+    "GPU optimization",
+    "model inference",
+    "caching"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/sandropuppo"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u0b3cu/luce_spark_a_35b_moe_on_a_16_gb_gpu_without_the/",
+  "originalSite": "reddit.com",
+  "context": "Mixture-of-Experts (MoE) models use multiple specialized sub-networks (experts) and activate only a subset per token, which allows larger parameter counts with lower computational cost. However, loading all experts into GPU memory is often impossible, and offloading to CPU introduces significant latency. Luce Spark addresses this by caching only the most frequently used experts on the GPU and swapping others on-demand.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OD-MoE: On-Demand Expert Loading for Cacheless Edge-Distributed",
+      "url": "https://arxiv.org/html/2512.03927v1"
+    },
+    {
+      "title": "Mixture of Cache-Conditional Experts for Efficient Mobile",
+      "url": "https://arxiv.org/html/2412.00099v2"
+    },
+    {
+      "title": "Cache Management for Mixture-of-Experts LLMs – extended",
+      "url": "https://arxiv.org/html/2509.02408v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

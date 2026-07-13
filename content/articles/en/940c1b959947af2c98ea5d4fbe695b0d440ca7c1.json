@@ -1,0 +1,44 @@
+{
+  "id": "940c1b959947af2c98ea5d4fbe695b0d440ca7c1",
+  "canonicalId": "2f70ee8a749deb74ab0be62fb7feb3dd666118ee",
+  "slug": "kitten-tts-releases-three-new-tiny-models-smallest-under-25mb",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-19T15:56:00Z",
+  "lang": "en",
+  "title": "Kitten TTS releases three new tiny models, smallest under 25MB",
+  "summary": "Kitten TTS has released three new text-to-speech models with 80M, 40M, and 14M parameters, where the 14M variant achieves state-of-the-art expressivity for its size while being under 25MB. This release supports eight English voices and represents a major upgrade from previous versions. This advancement is significant for on-device AI applications, as it bridges the gap between cloud-based and local TTS by providing production-ready, high-quality models that run efficiently on low-resource hardware like Raspberry Pi and smartphones without GPUs. It addresses the bottleneck of lacking performant tiny models for voice agents and apps. The models are quantized to int8 + fp16 and use ONNX for runtime, enabling deployment on various platforms including browsers and wearables. The 14M model is noted for its SOTA expressivity despite its small size, though community feedback indicates occasional issues with pronouncing numbers and mixed voice preferences.",
+  "score": 7,
+  "tags": [
+    "text-to-speech",
+    "machine-learning",
+    "open-source",
+    "on-device-ai",
+    "model-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rohan_joshi"
+    }
+  ],
+  "originalUrl": "https://github.com/KittenML/KittenTTS",
+  "originalSite": "github.com",
+  "context": "Kitten TTS is an open-source series of tiny and expressive text-to-speech models designed for on-device applications, focusing on lightweight deployment and high-quality voice synthesis. State-of-the-art (SOTA) in machine learning refers to models that achieve the best performance on specific tasks, often evaluated through benchmarks. Model optimization in TTS involves techniques like quantization and parameter reduction to enable efficient local execution.",
+  "discussion": "Community comments show high engagement with users praising the model's quality given its size and quick integration into tools like Discord, while noting issues with number pronunciation and voice preferences. There are also requests for multilingual support, such as a Japanese model, and questions about training data sources.",
+  "references": [
+    {
+      "title": "KittenML/ kitten - tts -nano-0.1 · Hugging Face",
+      "url": "https://huggingface.co/KittenML/kitten-tts-nano-0.1"
+    },
+    {
+      "title": "What Is SOTA in Machine Learning | CitizenSide",
+      "url": "https://citizenside.com/technology/what-is-sota-in-machine-learning/"
+    },
+    {
+      "title": "The Top Open-Source Text to Speech ( TTS ) Models",
+      "url": "https://modal.com/blog/open-source-tts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

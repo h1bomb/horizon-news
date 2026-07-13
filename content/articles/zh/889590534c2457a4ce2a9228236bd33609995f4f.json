@@ -1,0 +1,40 @@
+{
+  "id": "889590534c2457a4ce2a9228236bd33609995f4f",
+  "canonicalId": "0078aef856d3c1b2ad4abae4691b17c01742c090",
+  "slug": "turboquant-算法适配实现近无损-44-残差量化为-llm-权重带来-32-倍内存节省",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-28T00:00:00Z",
+  "lang": "zh",
+  "title": "TurboQuant 算法适配实现近无损 4+4 残差量化，为 LLM 权重带来 3.2 倍内存节省",
+  "summary": "研究人员将 TurboQuant 算法从 KV 缓存量化适配到模型权重压缩，创建了 nn.Linear 层的直接替代方案，实现了近无损的 4+4 残差量化，带来 3.2 倍内存节省。在 Qwen3.5 模型上的基准测试显示，4+4 残差配置在将 0.8B 参数模型大小从 1504 MB 减少到 762 MB 的同时，保持了几乎相同的困惑度分数。 这一突破通过在保持模型质量的同时大幅减少内存需求，使得在资源受限设备上更高效地部署大语言模型成为可能。其直接替代的特性使其易于集成到现有的 PyTorch 工作流程中，可能加速压缩模型在生产环境中的采用。 该实现通过 4 位量化加 4 位残差编码实现了 8 位有效精度，基准测试显示在 Qwen3.5-4B 模型上相比 16 位基线仅增加了 0.03 的困惑度。GitHub 仓库提供了完整的文档、基准测试和 Triton 内核实现细节，便于实际部署。",
+  "score": 8,
+  "tags": [
+    "LLM Quantization",
+    "Model Compression",
+    "Memory Efficiency",
+    "Deep Learning Optimization",
+    "Efficient Inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 27, 11:22"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s51b5h/turboquant_for_weights_nearoptimal_4bit_llm/",
+  "originalSite": "reddit.com",
+  "context": "TurboQuant 是谷歌研究人员最近开发的一种压缩算法，最初针对 KV 缓存量化，旨在减少 LLM 推理期间的内存使用。量化是一种降低模型参数数值精度（例如从 32 位浮点数降至 4 位整数）的技术，以减少内存占用并加速计算。nn.Linear 层是神经网络中执行线性变换的基本构建块，在基于 Transformer 的 LLM 中通常包含大部分参数，因此成为压缩的主要目标。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "Linear — PyTorch 2.11 documentation",
+      "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

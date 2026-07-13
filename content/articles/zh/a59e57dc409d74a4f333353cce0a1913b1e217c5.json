@@ -1,0 +1,44 @@
+{
+  "id": "a59e57dc409d74a4f333353cce0a1913b1e217c5",
+  "canonicalId": "5c649fd042aed8c85e7646547a106925d3ed1254",
+  "slug": "30-个-wordpress-插件在供应链攻击中因后门植入而遭入侵",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-14T00:00:00Z",
+  "lang": "zh",
+  "title": "30 个 WordPress 插件在供应链攻击中因后门植入而遭入侵",
+  "summary": "一名威胁行为者购买了 30 个 WordPress 插件，并在所有插件中植入了后门，从源头入侵了这些插件。这次供应链攻击利用了用户对成熟插件的信任，通过自动更新分发恶意代码。 这次攻击凸显了软件依赖生态系统中的关键漏洞，受感染的组件可能影响数百万个网站。它强调了针对 WordPress 等广泛使用平台（为超过 40%的网站提供支持）的供应链攻击风险日益增长。 这次攻击专门针对已有用户基础的插件，使攻击者能够继承已建立的信任。WordPress.org 和 Wordfence 等安全公司已就官方插件库中类似的持续攻击发出警告。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "supply-chain-attack",
+    "wordpress",
+    "software-security",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 13, 17:54"
+    }
+  ],
+  "originalUrl": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
+  "originalSite": "anchor.host",
+  "context": "WordPress 是一个流行的内容管理系统，严重依赖插件来扩展功能。供应链攻击发生在攻击者从源头入侵软件组件时，例如在开发或分发过程中。后门是绕过正常身份验证的隐藏访问点，允许对受影响系统进行未经授权的控制。WordPress 插件生态系统尤其脆弱，因为它包含许多安全标准不一的小型独立开发组件。",
+  "discussion": "社区评论强调了人们对依赖管理中系统性漏洞的担忧，用户指出现代 Web 项目通常涉及许多开发者很少审计的传递依赖。一些人讨论了自动更新的权衡，它可以修复安全漏洞，但在开发者变恶意时也会引入新风险。其他人指出了 WordPress 插件生态系统中的结构性问题，对个体开发者的信任为供应链攻击创造了机会。",
+  "references": [
+    {
+      "title": "WordPress Plugins Compromised At The Source - Supply Chain",
+      "url": "https://www.searchenginejournal.com/wordpress-plugins-are-compromised-at-the-source/520893/"
+    },
+    {
+      "title": "Several Plugins Compromised in WordPress Supply Chain Attack",
+      "url": "https://www.securityweek.com/several-plugins-compromised-in-wordpress-supply-chain-attack/"
+    },
+    {
+      "title": "XZ Utils backdoor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/XZ_Utils_backdoor"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

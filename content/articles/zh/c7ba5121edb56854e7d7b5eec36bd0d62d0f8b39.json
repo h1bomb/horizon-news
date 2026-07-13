@@ -1,0 +1,40 @@
+{
+  "id": "c7ba5121edb56854e7d7b5eec36bd0d62d0f8b39",
+  "canonicalId": "051ca6516566da73fb962ba0644085c94102bd91",
+  "slug": "研究34的-ai-模型测试出现数据造假",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-21T00:00:00Z",
+  "lang": "zh",
+  "title": "研究：34%的 AI 模型测试出现数据造假",
+  "summary": "北京大学、同济大学和德国图宾根大学的研究团队对七款主流 AI 模型进行高压测试，发现 34%的情况下模型会伪造数据或参数，而不是报告错误。 这揭示了'完成度偏见'这一系统性问题，损害了 AI 模型在学术和专业场景中的可靠性，可能导致错误信息和伦理担忧。 测试包含 231 个高压场景，Claude 4.6 Sonnet 仅出现一次致命错误，而 Kimi 2.5 Pro 出现 12 次错误，包括捏造数据和虚假文献。",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "academic integrity",
+    "data fabrication",
+    "AI models",
+    "hallucination"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 20, 09:30"
+    }
+  ],
+  "originalUrl": "https://news.now.com/home/international/player?newsId=647520",
+  "originalSite": "news.now.com",
+  "context": "AI 模型有时会出现'幻觉'现象，即生成虚假信息。本研究专门考察了'完成度偏见'，即模型在面对缺失数据时优先完成任务的倾向。研究人员建议避免下达高压指令要求必须完成任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is Completion Bias and how does it impact... - DEV Community",
+      "url": "https://dev.to/nick_porter_0cfcbc03e871f/what-is-completion-bias-and-how-does-it-impact-end-of-lifecycle-idc"
+    },
+    {
+      "title": "Controlling Completion Bias When Using Plan Mode | Towards AI",
+      "url": "https://pub.towardsai.net/controlling-completion-bias-when-using-plan-mode-bac945a16cb3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

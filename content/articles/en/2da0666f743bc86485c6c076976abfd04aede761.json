@@ -1,0 +1,44 @@
+{
+  "id": "2da0666f743bc86485c6c076976abfd04aede761",
+  "canonicalId": "d58b045d43c7908876efa2c09e0f28b6ff91e001",
+  "slug": "mlx-tune-enables-llm-fine-tuning-on-apple-silicon-with-unsloth-compatible-api",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T12:03:00Z",
+  "lang": "en",
+  "title": "mlx-tune enables LLM fine-tuning on Apple Silicon with Unsloth-compatible API",
+  "summary": "The open-source library mlx-tune (formerly unsloth-mlx) was released, allowing developers to fine-tune large language models natively on Apple Silicon Macs using Apple's MLX framework with an API compatible with Unsloth. It supports SFT with LoRA/QLoRA, preference optimization methods like DPO and GRPO, vision model fine-tuning, and exports to HuggingFace and GGUF formats. This bridges the gap between local prototyping on Apple hardware and cloud GPU training, enabling cost-effective experimentation and debugging before committing expensive GPU resources. It democratizes LLM fine-tuning by leveraging the unified memory architecture of Apple Silicon for researchers and developers who want to iterate quickly on their Macs. The library requires at least 8GB of unified RAM for 1B 4-bit models, with 16GB+ recommended for better performance. It is not a replacement for Unsloth on NVIDIA hardware, as Unsloth with custom Triton kernels remains faster there; instead, it focuses on the local development loop for Mac users.",
+  "score": 7,
+  "tags": [
+    "LLM Fine-Tuning",
+    "Apple Silicon",
+    "MLX",
+    "Machine Learning",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "A-Rahim"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/jbsrq4cnhlpg1.png",
+  "originalSite": "i.redd.it",
+  "context": "MLX is an array framework optimized for Apple Silicon's unified memory architecture, providing a NumPy-like API for machine learning research. Unsloth is an open-source library for efficient fine-tuning and reinforcement learning of LLMs on NVIDIA GPUs, using techniques like LoRA. Fine-tuning adapts pre-trained LLMs to specific tasks or datasets, with methods like SFT for supervised learning and DPO for preference optimization.",
+  "discussion": "The community response is largely positive, highlighting the workflow benefit of catching data pipeline issues locally before costly cloud GPU runs. Some users appreciate the train_on_responses_only() function for avoiding common SFT errors, while one commenter notes a similar project with ANE optimizations, suggesting ongoing innovation in this space.",
+  "references": [
+    {
+      "title": "MLX",
+      "url": "https://mlx-framework.org/"
+    },
+    {
+      "title": "Unsloth AI - Open Source Fine - tuning & RL for LLMs",
+      "url": "https://unsloth.ai/"
+    },
+    {
+      "title": "GitHub - ml-explore/mlx: MLX: An array framework for Apple ... MLX — MLX 0.31.1 documentation - GitHub Pages MLX Deployment (Apple Silicon) | zai-org/GLM-OCR | DeepWiki Local LLMs Apple Silicon Mac 2026 | M1 M2 M3 Guide - SitePoint Installing Qwen 3 . 5 on Apple Silicon Using MLX for 2X Performance Apple Open Source GitHub - ml-explore/ mlx : MLX : An array framework for Apple silicon GitHub - ml-explore/ mlx : MLX : An array framework for Apple silicon Installing Qwen 3.5 on Apple Silicon Using MLX for 2X ...",
+      "url": "https://github.com/ml-explore/mlx"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

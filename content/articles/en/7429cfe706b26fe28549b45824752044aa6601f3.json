@@ -1,0 +1,44 @@
+{
+  "id": "7429cfe706b26fe28549b45824752044aa6601f3",
+  "canonicalId": "0ade70b6c23a111f2b5270ce7cecd5731f2b5bc4",
+  "slug": "openai-halts-texas-data-center-expansion-with-oracle-to-prioritize-nvidias-next-gen-vera-rubin-chips",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-10T10:50:00Z",
+  "lang": "en",
+  "title": "OpenAI halts Texas data center expansion with Oracle to prioritize Nvidia's next-gen Vera Rubin chips",
+  "summary": "OpenAI plans to stop expanding its Stargate data center partnership with Oracle in Abilene, Texas, because it wants to prioritize access to Nvidia's next-generation chips like Vera Rubin. The original plan for the site was to use Nvidia's Blackwell processors, but the power supply won't be ready for about a year, by which time OpenAI prefers to deploy newer, more powerful hardware elsewhere. This strategic shift highlights a critical mismatch between the rapid innovation cycle of AI chips and the slower, capital-intensive timeline for building data center infrastructure, posing a significant hardware depreciation risk. It also puts financial pressure on partners like Oracle, which is funding its massive expansion through over $100 billion in debt, and signals that leading AI companies are willing to renegotiate major infrastructure deals to secure the latest computing power. Oracle's financing partner, Blue Owl, has reportedly refused to fund additional facilities for this expansion. While Oracle stated on social media that existing projects are on track, it did not directly comment on the halted expansion plans. The Stargate joint venture involves OpenAI, Oracle, SoftBank, and investment firm MGX.",
+  "score": 8,
+  "tags": [
+    "AI Infrastructure",
+    "Data Centers",
+    "Nvidia",
+    "OpenAI",
+    "Hardware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+  "originalSite": "cnbc.com",
+  "context": "Nvidia's Blackwell platform, announced in 2024, is its current flagship AI GPU architecture. The upcoming Vera Rubin platform, announced in early 2026, is Nvidia's next-generation architecture, featuring Rubin GPUs and Vera CPUs manufactured on TSMC's 3nm process with HBM4 memory, promising significant performance gains. Stargate is a major AI infrastructure joint venture formed by OpenAI, Oracle, SoftBank, and MGX to build large-scale data centers specifically for AI training and inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Rubin (microarchitecture) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rubin_(microarchitecture)"
+    },
+    {
+      "title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+      "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
+    },
+    {
+      "title": "Stargate LLC - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stargate_LLC"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "a179b8dbf0791a4e3de9b6a0245205a407861fce",
+  "canonicalId": "7ec4f858db2d864eff08d6062c808b472ca7fc0e",
+  "slug": "美国关于对抗性蒸馏的备忘录引发对开放模型的担忧",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "美国关于对抗性蒸馏的备忘录引发对开放模型的担忧",
+  "summary": "美国科技政策办公室的一份政府备忘录对通过对抗性蒸馏大规模提取前沿模型能力表示担忧，这可能导致对开放模型实施更严格的管控。 这可能通过将模型权重视为战略资产来重塑开源 AI 的未来，在国家安全与创新及可及性之间寻求平衡。 该备忘录特别针对使用代理账户和越狱技术的工业化蒸馏，重点在于保护专有模型而非直接针对开源。",
+  "score": 8,
+  "tags": [
+    "AI regulation",
+    "open source",
+    "adversarial distillation",
+    "national security",
+    "frontier models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 23, 15:59"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/jp8emg4cqywg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "对抗性蒸馏是一种利用目标模型的输出来训练新模型以模仿其行为的技术，可能提取专有能力。前沿模型是具有显著能力的先进 AI 系统，若广泛可及可能带来国家安全风险。",
+  "discussion": "社区评论持怀疑态度，有人将此比作历史上寻找大规模杀伤性武器的过度反应，还有人指责 Anthropic 和 OpenAI 等 AI 公司游说监管以扼杀开放权重竞争。许多人认为这是限制中国模型并迫使美国用户支付更多费用的借口。",
+  "references": [
+    {
+      "title": "Adversarial Distillation - Frontier Model Forum",
+      "url": "https://www.frontiermodelforum.org/issue-briefs/issue-brief-adversarial-distillation/"
+    },
+    {
+      "title": "The Case for Imposing Costs on China's AI Distillation Campaigns",
+      "url": "https://www.justsecurity.org/134124/costs-china-ai-distillation/"
+    },
+    {
+      "title": "Adversarial Distillation AI: How to Protect Your AI Models - Rejoicehub",
+      "url": "https://rejoicehub.com/blogs/adversarial-distillation-ai-model-security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

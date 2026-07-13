@@ -1,0 +1,48 @@
+{
+  "id": "6f9a540e3922cf3e7dd7bb6b526f9d1886c7afe9",
+  "canonicalId": "b9a3f9a3394b774d87b02c3f24efbf781e9f1699",
+  "slug": "android-17-正式发布强制大屏适配集成-ai-功能",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T01:02:00Z",
+  "lang": "zh",
+  "title": "Android 17 正式发布：强制大屏适配，集成 AI 功能",
+  "summary": "Google 已向 Pixel 设备推送 Android 17 并开放源代码，引入强制大屏适配、通过 AppFunctions 集成 Gemini AI 助手，以及全面转向 Jetpack Compose。 此更新从根本上改变了 Android 开发，要求应用支持大屏，并允许 AI 直接调用应用功能，这将影响所有开发者，并提升折叠屏、平板等设备上的用户体验。 Android 17 移除了开发者对大屏设备（sw > 600 dp）方向与可调整大小的限制的免除选项，根据设备总内存强制执行严格的内存限制，并引入了临时权限和联系人选择器以增强隐私。",
+  "score": 9,
+  "tags": [
+    "Android",
+    "mobile development",
+    "AI integration",
+    "privacy",
+    "Jetpack Compose"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://android-developers.googleblog.com/2026/06/Android-17.html",
+  "originalSite": "android-developers.googleblog.com",
+  "context": "Android 17 通过新的 AppFunctions API 集成 Google Gemini 等 AI 助手，使应用能够暴露可供 AI 调用的功能，从而将 Android 打造成一个“智能系统”。它还强制要求大屏自适应支持，延续了自 Android 12L 以来的趋势。Jetpack Compose 作为现代声明式 UI 工具包，成为新开发的默认选择，传统 View 系统进入维护模式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Android Developers Blog: Android 17 is here",
+      "url": "https://android-developers.googleblog.com/2026/06/Android-17.html"
+    },
+    {
+      "title": "Restrictions on orientation and resizability are ignored | Android Developers",
+      "url": "https://developer.android.com/about/versions/17/changes/ff-restrictions-ignored"
+    },
+    {
+      "title": "Jetpack Compose",
+      "url": "https://en.wikipedia.org/wiki/Jetpack_Compose"
+    },
+    {
+      "title": "AppFunctionService | API reference |",
+      "url": "https://developer.android.com/reference/android/app/appfunctions/AppFunctionService"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

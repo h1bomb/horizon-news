@@ -1,0 +1,40 @@
+{
+  "id": "725efb075220bfffd09a7609269565e1226367d6",
+  "canonicalId": "a01f3cf0a55a5b18842ec98372f87d843f46ea96",
+  "slug": "微软发布三款自研-ai-模型覆盖转写语音和图像生成",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "微软发布三款自研 AI 模型，覆盖转写、语音和图像生成。",
+  "summary": "微软于 4 月 2 日发布三款完全自研的基础 AI 模型：语音转写模型 MAI-Transcribe-1、语音生成模型 MAI-Voice-1 和图像生成模型 MAI-Image-2，已通过 Microsoft Foundry 和新的 MAI Playground 上线。这些模型面向企业 AI 应用，例如 MAI-Transcribe-1 在 FLEURS 多语言基准测试的 25 种语言上平均词错误率为 3.8%，全面领先 OpenAI 的 Whisper-large-v3。 此次发布意义重大，因为它使微软在企业 AI 市场中直接与 OpenAI 和谷歌竞争，为转写、语音合成和图像生成等高价值应用提供专用模型。通过提供更快、更准确且集成到微软生态系统（如 Bing 和 PowerPoint）中的工具，它可能加速企业在 AI 领域的应用。 MAI-Voice-1 可在 1 秒内生成 60 秒语音，并支持用数秒音频定制声音；MAI-Image-2 在 Foundry 和 Copilot 中的生成速度较前代至少提升 2 倍。但内容中未提供模型架构或训练数据的具体细节，且可用性可能仅限于通过微软平台的企业用户。",
+  "score": 8,
+  "tags": [
+    "AI Models",
+    "Microsoft",
+    "Enterprise AI",
+    "Speech Technology",
+    "Image Generation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 2, 11:31"
+    }
+  ],
+  "originalUrl": "https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google",
+  "originalSite": "venturebeat.com",
+  "context": "Microsoft Foundry 是一个用于部署和管理 AI 模型的平台，类似于其他基于云的 AI 服务，而 MAI Playground 是一个用于测试和实验这些模型的新工具。FLEURS 基准测试是一个用于语音任务（如自动语音识别 ASR）的多语言评估框架，通过跨多种语言的词错误率（WER）等指标来衡量模型准确性。自研 AI 模型由微软等公司内部开发，相比开源替代方案，提供了可控的性能和集成优势。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2205.12446] FLEURS: Few-shot Learning Evaluation of ...",
+      "url": "https://arxiv.org/abs/2205.12446"
+    },
+    {
+      "title": "FLEURS Leaderboard - llm-stats.com",
+      "url": "https://llm-stats.com/benchmarks/fleurs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

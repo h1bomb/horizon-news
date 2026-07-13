@@ -1,0 +1,40 @@
+{
+  "id": "dc79f2a5c4a17c8ad7573565bbd7d5ce5313710e",
+  "canonicalId": "e45b2af9fe4df1fc9b859bf57435e99a8e7a6898",
+  "slug": "sarvam-ai-releases-open-source-30b-and-105b-llms-trained-from-scratch-for-indian-languages",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-06T19:08:00Z",
+  "lang": "en",
+  "title": "Sarvam AI releases open-source 30B and 105B LLMs trained from scratch for Indian languages.",
+  "summary": "Indian AI startup Sarvam AI has released two new open-source large language models, Sarvam 30B and Sarvam 105B, which were trained from scratch rather than fine-tuned from existing models. These models are specifically designed with multilingual capabilities for 22 Indian languages and incorporate culturally distinct reasoning patterns. This release is significant as it provides high-performance, open-source AI models specifically tailored for the Indian market and its linguistic diversity, moving towards more culturally representative and sovereign AI. It introduces a new, non-Western reasoning style into the open-weights ecosystem, potentially offering better performance for code-switching and contexts rooted in Indian philosophy. The 105B parameter model shows competitive performance, reportedly nearing that of models like GPT-OSS-120B in benchmarks. A key technical advantage is its training for competence across 22 Indian languages, which is crucial for handling the common practice of intra-sentence language switching in India.",
+  "score": 7,
+  "tags": [
+    "open-source-llm",
+    "multilingual-ai",
+    "cultural-ai",
+    "large-language-models",
+    "india-tech"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Independent-Ruin-376"
+    }
+  ],
+  "originalUrl": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+  "originalSite": "sarvam.ai",
+  "context": "Large Language Models (LLMs) are AI systems trained on vast amounts of text data to understand and generate human-like language. 'Training from scratch' means building the model's foundational knowledge entirely from raw data, which requires immense computational resources but allows for unique architectural and data choices, unlike 'fine-tuning' which adapts an existing pre-trained model. Parameter count (e.g., 30B, 105B) is a rough indicator of model size and complexity, often correlating with capability.",
+  "discussion": "The community is impressed and excited about the models' performance and unique cultural reasoning. Comments highlight that the 105B model is competitive with other top open-source models and exhibits a genuinely different 'vibe' and reasoning style influenced by Indian philosophy. Users note its practical advantage in handling the multilingual, code-switching reality of Indian communication, which poses a challenge for many contemporary LLMs.",
+  "references": [
+    {
+      "title": "Open-Sourcing Sarvam 30B and 105B",
+      "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b"
+    },
+    {
+      "title": "Why is Fine - Tuning LLMs better than Training from Scratch ?",
+      "url": "https://www.linkedin.com/pulse/why-fine-tuning-llms-better-than-training-from-scratch-amrith-niyogi-r4acc"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

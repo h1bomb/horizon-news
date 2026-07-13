@@ -1,0 +1,32 @@
+{
+  "id": "8546eca330c704a34a596e6f8dbd51fcb2b8695c",
+  "canonicalId": "81d0346589e8b5cb53ac85b1d2a1a386b5c2b132",
+  "slug": "gmail-注册现在需要扫描二维码并发送短信",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-12T00:00:00Z",
+  "lang": "zh",
+  "title": "Gmail 注册现在需要扫描二维码并发送短信",
+  "summary": "Google 更新了 Gmail 注册流程，要求用户扫描二维码并从手机发送短信，而不是简单地接收验证短信。 这一变化增加了新用户注册的麻烦并引发隐私担忧，因为它强制要求发送短信来验证手机号码，可能会阻止用户注册并影响可访问性。 二维码会打开一个 SMS URI，预填好发送给 Google 的验证短信；并不会自动发送。这本质上还是之前的手机验证方式，只是通过二维码增加了便利性。",
+  "score": 8,
+  "tags": [
+    "gmail",
+    "privacy",
+    "registration",
+    "sms",
+    "google"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 11, 07:26",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48092028"
+    }
+  ],
+  "originalUrl": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+  "originalSite": "discuss.privacyguides.net",
+  "context": "Gmail 是拥有数十亿用户的广泛使用的电子邮件服务。电话号码验证长期以来一直是 Google 账户注册的一部分，以防止滥用，但过去通常只需要接收短信。这一改变现在要求用户发送短信，可能会产生费用或需要具备相应功能的手机。",
+  "discussion": "社区评论反应不一；有人理解 Google 打击垃圾邮件和滥用的需要，而其他人批评隐私影响，认为这是反竞争行为。有用户澄清二维码只是预填短信，并非自动发送。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

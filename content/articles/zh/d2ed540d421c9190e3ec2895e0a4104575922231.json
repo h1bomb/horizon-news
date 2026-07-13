@@ -1,0 +1,44 @@
+{
+  "id": "d2ed540d421c9190e3ec2895e0a4104575922231",
+  "canonicalId": "e41daac3269563c399a2ada9554bcbc83865a3c8",
+  "slug": "kimi-团队提出-attention-residuals-方法替代-llm-中的固定残差连接",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-18T00:00:00Z",
+  "lang": "zh",
+  "title": "Kimi 团队提出 Attention Residuals 方法，替代 LLM 中的固定残差连接",
+  "summary": "Kimi 团队发表论文提出 Attention Residuals（AttnRes）方法，用对前层输出的 softmax 注意力机制替代大型语言模型中的固定残差连接。他们还开发了 Block AttnRes，通过将层划分为块来减少内存开销，同时保持性能提升。 这解决了深度 transformer 中隐藏状态稀释的问题，即固定残差连接导致不受控制的增长和各层贡献的逐渐稀释。该方法可能在不同模型规模下提升模型性能和训练稳定性，有望推动 transformer 架构设计的进步。 该方法通过 softmax 注意力实现内容相关的深度选择，使每层能够以学习到的权重选择性聚合早期表示。Block AttnRes 通过将层划分为块并在块级表示上进行注意力计算来减少内存占用，使其在大规模训练中具有实用性且开销最小。",
+  "score": 8,
+  "tags": [
+    "machine-learning",
+    "transformers",
+    "residual-connections",
+    "attention-mechanisms",
+    "large-language-models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 17, 09:05"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rw1eag/r_attention_residuals_by_kimi_team/",
+  "originalSite": "reddit.com",
+  "context": "带有 PreNorm 的残差连接是现代 LLM 的标准配置，其中每层将其输出以固定单位权重添加到前一层的输出中。这种均匀聚合导致隐藏状态随深度不受控制地增长，逐渐稀释每层的贡献。Transformer 架构最初用注意力机制替代了 RNN 中的循环，允许以数据相关权重选择性访问先前位置。",
+  "discussion": "社区讨论显示出混合但总体积极的情绪，一些用户指出该方法直观合理且结果有前景。多条评论将其与现有技术如 highway networks、GRU 和 LSTM 进行比较，而其他评论则质疑其新颖性以及与单纯增加参数相比的实际收益。社区特别关注该方法对极深规模下训练稳定性的影响。",
+  "references": [
+    {
+      "title": "ATTENTION RESIDUALS TECHNICAL REPORT OF ATTENTION RESIDUALS Kimi Team",
+      "url": "https://arxiv.org/pdf/2603.15031"
+    },
+    {
+      "title": "GitHub - MoonshotAI/Attention-Residuals · GitHub",
+      "url": "https://github.com/MoonshotAI/Attention-Residuals"
+    },
+    {
+      "title": "Moonshot AI Releases 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔 to Replace Fixed Residual Mixing with Depth-Wise Attention for Better Scaling in Transformers - MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏-𝑹𝒆𝒔𝒊𝒅/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

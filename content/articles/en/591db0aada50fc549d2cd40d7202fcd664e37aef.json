@@ -1,0 +1,44 @@
+{
+  "id": "591db0aada50fc549d2cd40d7202fcd664e37aef",
+  "canonicalId": "8d2baaf1c22e04049ba0c1c75335b8a2651b88d6",
+  "slug": "security-vulnerability-in-qualcomm-snapdragon-8-elite-gen-5-allows-permanent-bootloader-unlock-by-bypassing-signature-verification",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-09T15:20:00Z",
+  "lang": "en",
+  "title": "Security vulnerability in Qualcomm Snapdragon 8 Elite Gen 5 allows permanent bootloader unlock by bypassing signature verification.",
+  "summary": "Security researchers have disclosed a vulnerability in the Generic Boot Loader (GBL) of the Qualcomm Snapdragon 8 Elite Gen 5 platform. The flaw allows attackers to bypass UEFI Secure Boot verification, execute code with EL1 privilege, and permanently unlock the bootloader by modifying the devinfo data in the Replay Protected Memory Block (RPMB). This vulnerability is significant because it undermines a core hardware security mechanism designed to prevent unauthorized firmware and operating system modifications. It could enable permanent device rooting, installation of custom firmware, and potentially facilitate sophisticated malware persistence that survives OS reinstallation, affecting device integrity and user security. The specific flaw lies in the Android Boot Loader (ABL) not enabling UEFI Secure Boot verification when loading the GBL from the efisp partition. While researchers have demonstrated a permanent unlock, the report suggests the exploit currently requires physical access or specific initial conditions to execute.",
+  "score": 7,
+  "tags": [
+    "mobile-security",
+    "qualcomm",
+    "bootloader",
+    "vulnerability",
+    "android"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40141",
+  "originalSite": "t.me",
+  "context": "UEFI Secure Boot is a security standard that ensures a device boots only using software trusted by the Original Equipment Manufacturer (OEM). The Generic Boot Loader (GBL) is a component in the Android boot process responsible for loading the Android kernel. The Replay Protected Memory Block (RPMB) is a secure partition in storage hardware (like eMMC or UFS) used to store sensitive data, such as boot state and device integrity information, in an authenticated and tamper-resistant manner.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Deploy GBL | Android Open Source Project",
+      "url": "https://source.android.com/docs/core/architecture/bootloader/generic-bootloader/gbl-dev"
+    },
+    {
+      "title": "Stealthy UEFI malware bypassing Secure Boot enabled by",
+      "url": "https://arstechnica.com/information-technology/2023/03/unkillable-uefi-malware-bypassing-secure-boot-enabled-by-unpatchable-windows-flaw/"
+    },
+    {
+      "title": "Replay Protected Memory Block - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Replay_Protected_Memory_Block"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "3b1ea7252a2c75422b546aa73e65a56486ee0b00",
+  "canonicalId": "a0259940ebf41d323470862226e16de21bcdfd5b",
+  "slug": "nvidia-dlss-45-光线重建-8-月覆盖全系-rtx-显卡",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T07:51:00Z",
+  "lang": "zh",
+  "title": "NVIDIA DLSS 4.5 光线重建 8 月覆盖全系 RTX 显卡",
+  "summary": "NVIDIA 宣布 DLSS 4.5 光线重建将于 8 月通过 NVIDIA App 面向所有 GeForce RTX 20、30、40 和 50 系列显卡推出。该更新引入了第二代 Transformer 模型，计算能力提高 35%，参数处理量增加 20%，改进了光线追踪的准确性、时间稳定性和运动清晰度。 该更新让多个世代的 RTX 用户受益，在不更换硬件的情况下提升了光线追踪和路径追踪的视觉效果。首发支持 27 款游戏及 Blender Cycles，使高质量光线追踪在游戏和创意工作流中更加普及。 DLSS 4.5 中的新 Transformer 模型在性能和画质上均优于前代，同时保持与当前版本相近的整体性能。计划于 2025 年秋季发布的 Blender 5.3 将集成该降噪器，用于实时视口预览。",
+  "score": 8,
+  "tags": [
+    "NVIDIA",
+    "DLSS",
+    "Ray Tracing",
+    "GPU",
+    "Graphics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/nvidia-dlss-4-5-ray-reconstruction-coming-in-august-for-rtx-20-30-40-and-50-series",
+  "originalSite": "videocardz.com",
+  "context": "DLSS（深度学习超级采样）是 NVIDIA 的 AI 升频技术，通过深度学习从低分辨率输入重建高分辨率图像。光线重建功能用 AI 网络替代传统降噪方法，生成更准确和稳定的光线追踪光照。Transformer 模型是一种神经网络架构，被适配用于实时图形，能更好地处理复杂场景和时间数据。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NVIDIA DLSS 4 Introduces Multi Frame Generation... | NVIDIA",
+      "url": "https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations/"
+    },
+    {
+      "title": "NVIDIA DLSS 3.5: Enhancing Ray Tracing With AI; Coming This",
+      "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-dlss-3-5-ray-reconstruction/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

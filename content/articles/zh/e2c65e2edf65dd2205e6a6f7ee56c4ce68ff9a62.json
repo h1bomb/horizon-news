@@ -1,0 +1,40 @@
+{
+  "id": "e2c65e2edf65dd2205e6a6f7ee56c4ce68ff9a62",
+  "canonicalId": "417167848d29539ca001969202f140f4270b09f2",
+  "slug": "github-actions-供应链风险曝光",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub Actions 供应链风险曝光",
+  "summary": "nesbitt.io 的一篇博客文章指出，GitHub Actions 依赖可变标签引用第三方操作，带来了严重的供应链安全风险，建议改用提交哈希或迁移到更安全的 CI 平台。 这很重要，因为 GitHub Actions 被广泛用于 CI/CD 流水线，一个被攻破的第三方操作可能将恶意代码注入数千个项目，影响整个软件供应链。 Git 中的标签可以被移动指向不同的提交，攻击者无需更改标签引用即可用恶意版本替换合法操作。使用提交哈希（SHA）可确保不可变性和精确的版本控制。",
+  "score": 8,
+  "tags": [
+    "security",
+    "CI/CD",
+    "GitHub Actions",
+    "supply chain",
+    "DevOps"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 28, 11:58"
+    }
+  ],
+  "originalUrl": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
+  "originalSite": "nesbitt.io",
+  "context": "GitHub Actions 允许工作流通过标签（如 v1）或提交哈希引用第三方操作。标签是可变的，可以更新，而提交哈希是不可变的，唯一标识特定版本。近期针对 GitHub Actions 的供应链攻击已证明了可变标签引用的实际风险。",
+  "discussion": "评论者普遍赞同文章的观点，有人表示他们一直对第三方操作使用提交哈希。其他人讨论了替代 CI 平台如 Dagger 和 Blacksmith，以及用于将操作固定到哈希的工具如 ratchet。",
+  "references": [
+    {
+      "title": "GitHub Actions supply chain attack spotlights CI/CD risks |",
+      "url": "https://www.techtarget.com/searchitoperations/news/366621078/GitHub-Actions-supply-chain-attack-spotlights-CI-CD-risks"
+    },
+    {
+      "title": "GitHub Actions Supply Chain Attack Puts Thousands of Project...",
+      "url": "https://socket.dev/blog/github-actions-supply-chain-attack-puts-thousands-of-projects-at-risk"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

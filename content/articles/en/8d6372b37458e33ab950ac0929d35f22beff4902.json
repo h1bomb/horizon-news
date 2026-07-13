@@ -1,0 +1,44 @@
+{
+  "id": "8d6372b37458e33ab950ac0929d35f22beff4902",
+  "canonicalId": "aa6e188fb4a6a735c26114cd5b04c2486b5b59d4",
+  "slug": "third-party-testing-shows-claude-opus-46-hallucination-rate-increased-significantly-ranking-dropped-from-2nd-to-10th",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-13T05:00:00Z",
+  "lang": "en",
+  "title": "Third-party testing shows Claude Opus 4.6 hallucination rate increased significantly, ranking dropped from 2nd to 10th",
+  "summary": "AI evaluation platform BridgeMind reported that Claude Opus 4.6's accuracy in the BridgeBench hallucination benchmark dropped from 83.3% (ranked 2nd) to 68.3% (ranked 10th), a decrease of approximately 15 percentage points. BridgeMind suggested users delay deployment until a new version is officially released, while Anthropic has not yet responded to these test results. This performance regression in a major AI model like Claude Opus 4.6 could impact deployment decisions for developers and enterprises relying on its capabilities. The significant drop in hallucination benchmark scores raises concerns about potential quality control issues and model stability in production environments. The BridgeBench hallucination benchmark measures factual accuracy, fabrication rates, and confidence calibration across 30 expert-level tasks. While the reported decline is substantial, it's important to note that this comes from a third-party evaluation platform and lacks official confirmation from Anthropic.",
+  "score": 7,
+  "tags": [
+    "AI Evaluation",
+    "Model Performance",
+    "Claude",
+    "Hallucination Benchmark",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bridgebench.ai/",
+  "originalSite": "bridgebench.ai",
+  "context": "Claude Opus is a state-of-the-art large language model developed by Anthropic, with version 4.6 supporting a 1M token context window and extended thinking capabilities. BridgeBench is a comprehensive AI coding model benchmarking platform built by BridgeMind that evaluates and ranks leading AI models across multiple benchmarks including hallucination testing. Hallucination in AI models refers to the generation of factually incorrect or fabricated information that appears plausible but isn't grounded in reality.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI Hallucination Benchmark — Fabrication Rankings · BridgeBench",
+      "url": "https://www.bridgebench.ai/hallucination"
+    },
+    {
+      "title": "BridgeBench - AI Coding Model Benchmark Platform | EveryDev.ai",
+      "url": "https://www.everydev.ai/tools/bridgebench"
+    },
+    {
+      "title": "What's new in Claude 4.6 - Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

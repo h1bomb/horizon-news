@@ -1,0 +1,40 @@
+{
+  "id": "f598ef54bdc251844aff4907249bf40ecac15f82",
+  "canonicalId": "fd56d0f50be0e9c63992de1c4638f9a4d3c71d9a",
+  "slug": "halo-loss-enables-neural-networks-to-abstain-from-predictions-with-a-mathematically-defined-i-dont-know-class",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-14T05:45:00Z",
+  "lang": "en",
+  "title": "HALO-Loss enables neural networks to abstain from predictions with a mathematically defined \"I don't know\" class.",
+  "summary": "Researchers have open-sourced the HALO-Loss, a novel loss function that replaces Cross-Entropy to enable neural networks to abstain from predictions by creating a mathematically defined \"I don't know\" class in the latent space. This drop-in replacement uses Euclidean distance instead of unconstrained dot products, bounding maximum confidence to a finite distance from learned prototypes. This addresses a fundamental safety problem in neural networks where models confidently hallucinate on garbage or out-of-distribution data, potentially improving AI safety in critical applications like healthcare and autonomous systems. The approach eliminates the typical trade-off between out-of-distribution detection and base accuracy, making safety enhancements more practical. Testing on CIFAR-10/100 showed no drop in base accuracy (actually +0.23% on CIFAR-10), calibration error (ECE) dropped from ~8% to 1.5%, and far out-of-distribution false positives (FPR@95) were slashed by more than half (e.g., 22.08% to 10.27% on SVHN). The zero-parameter \"Abstain Class\" is bolted directly to the origin of the latent space without requiring additional architectural changes.",
+  "score": 8,
+  "tags": [
+    "machine-learning",
+    "neural-networks",
+    "ai-safety",
+    "loss-functions",
+    "out-of-distribution-detection"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "4rtemi5"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1skzuhd/i_dont_know_teaching_neural_networks_to_abstain/",
+  "originalSite": "reddit.com",
+  "context": "Cross-Entropy loss is a standard function in machine learning that measures the difference between predicted and true probability distributions, but it forces models to push features infinitely far from the origin to achieve zero loss, creating a jagged latent space with no mathematically sound place for uncertain predictions. Latent space refers to a compressed representation of data where essential features are preserved, allowing models to uncover patterns and relationships. Out-of-distribution (OOD) detection involves identifying data that differs from the training distribution, which is crucial for AI safety but often comes at the cost of reduced base accuracy.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Cross-entropy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cross-entropy"
+    },
+    {
+      "title": "Latent space - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Latent_space"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

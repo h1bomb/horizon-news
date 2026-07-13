@@ -1,0 +1,44 @@
+{
+  "id": "a9ca3a65dedab09f3753c1dc273669a9b56d09fd",
+  "canonicalId": "526f23c2ecc26b5cfabd8a6702f90078bee72c2c",
+  "slug": "英国-ncsc-正式将通行密钥列为首选身份验证方式",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "英国 NCSC 正式将通行密钥列为首选身份验证方式",
+  "summary": "英国国家网络安全中心（NCSC）正式宣布通行密钥优于传统密码，并建议将其作为数字服务的首选登录方式，结束了此前的观望态度。 这一来自国家级网络安全机构的认可标志着重大政策转变，可能加速通行密钥的全球普及，减少对易受攻击密码的依赖，为数百万用户提升安全性。 英国超过 50%的 Google 活跃用户已注册通行密钥，eBay 和 PayPal 等主流平台也已适配。NCSC 指出，过去 12 个月的行业进展解决了核心实施难题。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "authentication",
+    "passkeys",
+    "NCSC",
+    "identity"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 23, 14:47"
+    }
+  ],
+  "originalUrl": "https://www.techradar.com/pro/security/uk-security-agency-officially-declares-passkeys-superior-to-passwords-passkeys-should-be-the-first-choice-for-authentication",
+  "originalSite": "techradar.com",
+  "context": "通行密钥是存储在用户设备上的加密凭证，通常通过生物识别（指纹或面部识别）或 PIN 码解锁。它们取代传统密码，能抵御钓鱼攻击和凭证窃取。NCSC 此前因早期采用障碍而持谨慎态度，但现在认为该技术已足够成熟，可广泛使用。",
+  "discussion": "Reddit 上对该新闻的评论褒贬不一：一些用户欢迎此举，认为通行密钥更安全便捷；另一些人则担心设备锁定和丢失设备后的恢复问题。少数评论者指出，通行密钥在不同平台间仍存在可用性问题。",
+  "references": [
+    {
+      "title": "Passkeys : they're not perfect but they're getting better - NCSC .GOV.UK",
+      "url": "https://www.ncsc.gov.uk/blog-post/passkeys-not-perfect-getting-better"
+    },
+    {
+      "title": "NCSC : Passkeys now good enough to be the default standard",
+      "url": "https://www.theregister.com/2026/04/23/ncsc_passkey_tech_now_reliable/"
+    },
+    {
+      "title": "UK security agency officially declares passkeys superior to passwords",
+      "url": "https://www.reddit.com/r/technology/comments/1stffrs/uk_security_agency_officially_declares_passkeys/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

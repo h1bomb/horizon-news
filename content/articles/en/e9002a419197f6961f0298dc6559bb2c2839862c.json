@@ -1,0 +1,45 @@
+{
+  "id": "e9002a419197f6961f0298dc6559bb2c2839862c",
+  "canonicalId": "94bd26e1f5ac4933bfbbe16efe811150c2871dc5",
+  "slug": "pgdog-proxy-for-postgresql-secures-funding",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T14:02:00Z",
+  "lang": "en",
+  "title": "PgDog Proxy for PostgreSQL Secures Funding",
+  "summary": "PgDog, an open-source PostgreSQL connection pooler, load balancer, and sharding proxy, announced that it has received funding to accelerate development and support for production deployments. This funding validates the critical need for tools that solve PostgreSQL's scaling and high-availability challenges, especially for organizations running large-scale operations like Instacart. PgDog offers a path to scale Postgres horizontally without application rewrites, addressing a pain point many users face. PgDog is designed as a proxy that handles connection pooling, load balancing, and database sharding for PostgreSQL, enabling horizontal scaling without modifying application code. The project is available on GitHub and aims to simplify manual failover and version upgrades, which are common sources of downtime.",
+  "score": 8,
+  "tags": [
+    "postgresql",
+    "database",
+    "scaling",
+    "high-availability",
+    "proxy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "levkk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48476466"
+    }
+  ],
+  "originalUrl": "https://pgdog.dev/blog/our-funding-announcement",
+  "originalSite": "pgdog.dev",
+  "context": "PostgreSQL is a powerful relational database but traditionally lacks built-in solutions for horizontal scaling and seamless high availability. Tools like PgPool-II and Amazon RDS Proxy exist but often require complex configuration or have limitations. PgDog enters this space as a lightweight, open-source alternative that combines pooling, load balancing, and sharding in one proxy.",
+  "discussion": "Community comments highlight real-world pain points: manual failover and version upgrades cause significant downtime, and existing solutions like Pgpool-II are stable but less flexible. Users express interest in PgDog for its promise of zero-downtime upgrades and easier scaling, while also seeking clarity on how it compares to alternatives like logical replication or proxy-level sharding.",
+  "references": [
+    {
+      "title": "Our funding announcement - PgDog",
+      "url": "https://pgdog.dev/blog/our-funding-announcement"
+    },
+    {
+      "title": "GitHub - pgdogdev/pgdog: PostgreSQL connection pooler, load balancer and database sharder. · GitHub",
+      "url": "https://github.com/pgdogdev/pgdog"
+    },
+    {
+      "title": "PgDog - Horizontal scaling for PostgreSQL",
+      "url": "https://pgdog.dev/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

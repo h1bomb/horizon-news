@@ -1,0 +1,44 @@
+{
+  "id": "f65be6574645be031e7aa29c636713ec87fb40db",
+  "canonicalId": "dea52d951227dccce7da82c237b9c77c20be7024",
+  "slug": "anthropic-详解-claude-健忘漏洞修复",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 详解 Claude 健忘漏洞修复",
+  "summary": "Anthropic 披露，3 月 26 日引入的一个漏洞导致 Claude 在每次对话轮次中清除旧思考内容（本应仅在会话空闲后执行一次），使其显得健忘和重复；该漏洞已于 4 月 10 日修复。 这种透明度有助于恢复用户信任，并凸显了在生产环境中保持 AI 行为一致性的挑战，尤其是在上下文保留至关重要的复杂编码任务中。 该漏洞影响 Claude Sonnet 4.6 和 Opus 4.6；此外，4 月 16 日 Anthropic 添加了系统提示指令以减少冗长输出，回应了社区的另一个投诉。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Claude",
+    "bug",
+    "transparency",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 23, 17:48"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/engineering/april-23-postmortem",
+  "originalSite": "anthropic.com",
+  "context": "Claude Code 是一款 AI 编程助手，通过维护会话上下文来记住之前的交互。当会话空闲超过一小时后，清除旧思考内容可减少恢复时的延迟。该漏洞导致此清除操作在后续每一轮对话中重复执行，使模型显得健忘。",
+  "discussion": "社区评论反应不一：有人赞赏这份诚实的故障报告，也有人对时间点表示怀疑，并质疑是否还有其他未披露的变更导致了感知到的质量下降。少数用户指出，GPT-5.4 等竞争模型已展现出改进。",
+  "references": [
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+    },
+    {
+      "title": "Claude is getting worse, according to Claude • The Register",
+      "url": "https://www.theregister.com/2026/04/13/claude_outage_quality_complaints/"
+    },
+    {
+      "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates · Issue #42796 · anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code/issues/42796"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

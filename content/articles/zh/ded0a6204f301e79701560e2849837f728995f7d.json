@@ -1,0 +1,40 @@
+{
+  "id": "ded0a6204f301e79701560e2849837f728995f7d",
+  "canonicalId": "afd8180f6b2eede5bd2f0af2a32658a14eba593a",
+  "slug": "lm-studio-解析器静默破坏-qwen35-工具调用与推理串联起长达一年的错误报告",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "LM Studio 解析器静默破坏 Qwen3.5 工具调用与推理，串联起长达一年的错误报告",
+  "summary": "一位用户汇总了多份关键错误报告，显示 LM Studio 的服务端解析器存在一系列相互关联的漏洞，会静默破坏 Qwen3.5 和 DeepSeek-R1 等模型的工具调用与推理输出。核心问题在于解析器错误地在模型推理区块（如 `<think>`）内扫描工具调用模式，从而制造了一个递归失败陷阱。 这很重要，因为 LM Studio 是运行本地大语言模型的流行工具，这些静默漏洞使得先进模型看起来比实际能力更差，误导了用户并阻碍了本地化、智能体化 AI 工作流的采用。它凸显了在与使用结构化输出格式的推理模型交互的工具中，拥有健壮的解析逻辑的重要性。 该解析器无法区分模型在 `<think>` 区块内对工具调用语法的文字讨论与实际尝试进行的工具调用，从而导致解析错误被反馈给模型并引发无限递归。此问题不仅限于工具调用，还会破坏一般的推理输出，并且影响的不只是 Qwen3.5，还包括其他多个具备推理能力的模型。",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "bug-report",
+    "tool-calling",
+    "lm-studio",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 15:52"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1riwhcf/psa_lm_studios_parser_silently_breaks_qwen35_tool/",
+  "originalSite": "reddit.com",
+  "context": "LM Studio 是一个图形用户界面和本地服务器，用于在个人电脑上运行开源大语言模型。像 Qwen3.5 和 DeepSeek-R1 这样的模型是“推理”模型，它们通常在生成最终答案或行动（如工具/函数调用）之前，在 `<think>` 等特殊标签内构建其内部思考过程。工具调用是大语言模型的一项功能，允许其使用特定语法请求执行外部函数（如 API 调用），宿主应用程序必须正确解析该语法才能执行。",
+  "discussion": "社区情绪普遍支持这份错误报告，用户们验证了问题的重要性并分享了自己令人沮丧的经历。关键观点包括：赞赏其将孤立的报告联系起来，批评 LM Studio 的开发实践（“氛围编程”而缺乏充分测试），以及实用建议——使用如 llama.cpp 服务器等替代方案作为临时解决方案。数位用户确认在 Qwen3.5 模型上遇到了此问题，并正在寻找变通方法。",
+  "references": [
+    {
+      "title": "Qwen3.5 Usage Guide - vLLM Recipes",
+      "url": "https://docs.vllm.ai/projects/recipes/en/latest/Qwen/Qwen3.5.html"
+    },
+    {
+      "title": "DeepSeek-R1 - GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

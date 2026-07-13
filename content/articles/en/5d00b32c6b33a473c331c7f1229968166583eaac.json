@@ -1,0 +1,44 @@
+{
+  "id": "5d00b32c6b33a473c331c7f1229968166583eaac",
+  "canonicalId": "0af5d22b07fa4f184261efa4afcbbcc80837e80e",
+  "slug": "agenthandover-open-source-mac-app-uses-gemma-4-to-auto-create-agent-skills-from-screen-observation",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T14:50:00Z",
+  "lang": "en",
+  "title": "AgentHandover: Open-source Mac app uses Gemma 4 to auto-create agent Skills from screen observation",
+  "summary": "AgentHandover is an open-source Mac menu bar application that uses the Gemma 4 AI model running locally via Ollama to observe screen activities and automatically generate structured Skill files for AI agents. The tool offers both Focus Record mode for specific tasks and Passive Discovery mode that identifies workflow patterns through repeated observations. This addresses a significant bottleneck in agent automation by eliminating the need for manual workflow documentation, potentially accelerating agent deployment and making automation accessible to non-technical users. The on-device processing ensures privacy while the MCP integration enables seamless adoption across various agent platforms like Claude Code and Cursor. The system operates through an 11-stage pipeline that runs entirely on-device with encrypted data storage, and Skills improve iteratively by updating steps, guardrails, and confidence scores with each observation. It features one-click agent integration via the Model Context Protocol (MCP) and includes both GUI and CLI interfaces, though it's currently limited to macOS with no announced support for Windows or Linux.",
+  "score": 7,
+  "tags": [
+    "AI-Agents",
+    "Automation",
+    "Open-Source",
+    "Machine-Learning",
+    "Workflow-Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Objective_River_5218"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/hgpvlzsf6stg1",
+  "originalSite": "v.redd.it",
+  "context": "Gemma 4 is Google's open-source AI model family designed for reasoning, agentic work, and code generation, representing a more accessible alternative to proprietary models. Ollama is a popular tool for deploying large language models locally, enabling privacy-preserving AI applications without cloud dependencies. The Model Context Protocol (MCP) serves as a universal interface that allows AI agents to integrate external tools and data sources through standardized communication.",
+  "discussion": "Community comments show enthusiasm for the concept with praise for its open-source nature and potential impact, while practical questions focus on technical implementation details like screenshot frequency, GPU requirements, and platform support. Several users expressed intent to try the tool, and there were requests for documentation and knowledge base applications beyond pure automation.",
+  "references": [
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+    },
+    {
+      "title": "Deploy LLMs Locally with Ollama : Your Complete Guide to Local AI ...",
+      "url": "https://medium.com/@bluudit/deploy-llms-locally-with-ollama-your-complete-guide-to-local-ai-development-ba60d61b6cea"
+    },
+    {
+      "title": "Model Context Protocol (MCP) in Agentic AI: Architecture and ...",
+      "url": "https://medium.com/ai-insights-cobet/model-context-protocol-mcp-in-agentic-ai-architecture-and-industrial-applications-7e18c67e2aa7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

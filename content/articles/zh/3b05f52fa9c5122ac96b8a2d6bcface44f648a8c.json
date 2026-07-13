@@ -1,0 +1,40 @@
+{
+  "id": "3b05f52fa9c5122ac96b8a2d6bcface44f648a8c",
+  "canonicalId": "fb251de51539e0c038998ccb67ecb7820dd6b0c5",
+  "slug": "liquid-ai-发布-lfm25-350m以-35-亿参数实现智能体循环",
+  "date": "2026-04-01",
+  "publishedAt": "2026-04-01T00:00:00Z",
+  "lang": "zh",
+  "title": "Liquid AI 发布 LFM2.5-350M，以 3.5 亿参数实现智能体循环",
+  "summary": "Liquid AI 发布了 LFM2.5-350M，这是一个专门为可靠数据提取和工具使用而训练的 3.5 亿参数语言模型。该模型量化后小于 500MB，在大多数基准测试中超越了 Qwen3.5-0.8B 等更大模型，同时速度显著更快且内存效率更高。 此次发布之所以重要，是因为它证明了小型高效模型可以在智能体工作流中实现高性能，使得在 CPU、GPU 和移动设备等受限硬件上也能使用先进的 AI 能力。这代表了 AI 系统向更实用、更易部署的方向发展，能够在有限资源下执行复杂任务。 该模型使用规模化强化学习在 28 万亿个 token 上训练，并采用了自定义的线性注意力模块，这有助于提升其速度。它专为计算、内存和延迟受限的环境设计，提供可靠的函数调用和一致的结构化输出。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Small Language Models",
+    "Efficiency",
+    "Tool Calling"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 31, 17:29"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/q6muz2r11fsg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "量化是机器学习中的一种技术，通过降低模型权重的精度来使模型更小、更快，同时通常能保持性能。智能体 AI 指的是能够自主感知、推理和行动的 AI 系统，通常通过规划和执行的循环来实现。小语言模型旨在作为大模型的高效替代品，适合在资源有限的硬件上部署。",
+  "discussion": "社区讨论显示对该模型系列持积极态度，用户赞赏其效率和工具调用能力。关键点包括与 FunctionGemma 等其他模型的比较、关于实际应用的问题，以及技术见解，例如使用自定义线性注意力模块来提升速度。一些用户还幽默地指出它可能超越 Claude Opus 等更大模型的潜力。",
+  "references": [
+    {
+      "title": "What Is Quantization In Machine Learning?",
+      "url": "https://pythonguides.com/quantization-in-machine-learning/"
+    },
+    {
+      "title": "Agentic AI, explained - MIT Sloan",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

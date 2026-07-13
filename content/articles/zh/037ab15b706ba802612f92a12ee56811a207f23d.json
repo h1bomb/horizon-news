@@ -1,0 +1,40 @@
+{
+  "id": "037ab15b706ba802612f92a12ee56811a207f23d",
+  "canonicalId": "e18f402d650803233d2089df35b59be5c5571b0f",
+  "slug": "linux-71-内核以-15849-次提交创下开发者人数记录",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T16:36:00Z",
+  "lang": "zh",
+  "title": "Linux 7.1 内核以 15,849 次提交创下开发者人数记录",
+  "summary": "Linux 7.1 内核于 2026 年 6 月 14 日发布，包含来自 2,479 名开发者的 15,849 个非合并变更集，使其成为最繁忙的周期之一，并创下了开发者数量的新纪录。 这一里程碑凸显了 Linux 内核不断增长且充满活力的贡献者基础，反映了开源生态系统的健康以及内核开发日益增长的复杂性。 仅有其他四个版本（6.7、5.8、5.10、5.13）的提交次数更多，其中 6.7 的记录是由引入 bcachefs 文件系统所驱动。按变更集计算的首位贡献者是 Johan Hovold，共 181 次提交，而 Jakub Kicinski 修改的行数最多（126,367 行）。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "development statistics",
+    "kernel release",
+    "LWN",
+    "open source community"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077425/",
+  "originalSite": "lwn.net",
+  "context": "LWN.net 是报道 Linux 和自由软件开发的知名出版物，经常提供内核版本的详细分析。每个 Linux 内核开发周期大约持续两个月，提交数和开发者数量是社区活跃度的关键指标。Bcachefs 文件系统是一种写时复制文件系统，在内核 6.7 中合并，导致了异常高的提交数。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LWN.net - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LWN.net"
+    },
+    {
+      "title": "Bcachefs - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bcachefs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "0dc552d5cf1fba44e4c499a5a08c1e7620cf3bc0",
+  "canonicalId": "cd6c79eb12a9e355935ec0511ea9270f0a4a0c0f",
+  "slug": "微软-edge-在内存中明文存储密码",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-06T00:00:00Z",
+  "lang": "zh",
+  "title": "微软 Edge 在内存中明文存储密码",
+  "summary": "安全研究员 Tom Jøran Sønstebyseter Rønning 发现，Microsoft Edge 在启动时将所有已保存的密码解密并以明文形式加载到内存中，在整个会话期间保持明文，而其他 Chromium 浏览器如 Chrome 仅在需要时解密密码，并采用应用绑定加密。 即使从未访问已保存密码的网站，攻击者获得管理员权限后仍可从 Edge 进程内存中提取密码，包括终端服务器上其他登录用户的密码。这破坏了多用户环境的安全模型，且微软“就是这样设计的”回应令人担忧。 该漏洞影响 Edge 中所有已保存的密码；整个浏览器会话期间明文均可访问。相比之下，Google Chrome 使用应用绑定加密，解密密钥与特定应用绑定，仅在需要时解密凭证。微软已确认此行为是有意设计，且未提供立即修复方案。",
+  "score": 8,
+  "tags": [
+    "security",
+    "Microsoft Edge",
+    "passwords",
+    "vulnerability",
+    "Chromium"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 5, 23:31"
+    }
+  ],
+  "originalUrl": "https://cybernews.com/security/microsoft-edge-loads-cleartext-passwords-to-memory/",
+  "originalSite": "cybernews.com",
+  "context": "应用绑定加密（ABE）是一种安全机制，将加密密钥与特定应用程序绑定，阻止其他进程解密数据。包括 Edge 和 Chrome 在内的 Chromium 浏览器可以实现 ABE 保护已保存密码。Chrome 默认使用 ABE，而 Edge 目前未强制执行，而是将所有密码以明文形式加载到内存中。这一差异使得 Edge 更容易受到通过内存抓取的凭据盗窃攻击。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Enforce Application Bound Encryption For MS Edge Browser To",
+      "url": "https://www.anoopcnair.com/application-bound-encryption-for-ms-edge-intune/"
+    },
+    {
+      "title": "Enable Or Disable Application Bound Encryption Policy In MS",
+      "url": "https://www.anoopcnair.com/application-bound-encryption-in-ms-edge-browser/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4a0b3a2c0ed7b49bd8c2acaa8ce80420d4c158b5",
+  "canonicalId": "33f596b1fc089098a623f8019871aadd492f3512",
+  "slug": "openai-launches-gpt-live-voice-model-with-gpt-55-delegation",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-08T23:20:00Z",
+  "lang": "en",
+  "title": "OpenAI launches GPT-Live voice model with GPT-5.5 delegation",
+  "summary": "OpenAI introduced GPT-Live, a new family of voice models for ChatGPT that enables full-duplex conversation and can delegate complex tasks to GPT-5.5. Two versions are available: GPT-Live-1 for paid users and GPT-Live-1 mini as the default for all users, replacing Advanced Voice Mode. This upgrade significantly enhances ChatGPT voice mode by using a more capable model and seamless task offloading, improving user experience for complex queries. It demonstrates practical progress in conversational AI, making voice assistants more useful for brainstorming and multi-step tasks. GPT-Live uses a full-duplex architecture that can listen and speak simultaneously, maintaining natural conversation flow. It delegates web search, deeper reasoning, and other complex work to OpenAI's latest frontier model GPT-5.5, and OpenAI will continuously update the background model. The larger GPT-Live-1 model is available on paid plans, while GPT-Live-1 mini is free.",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "GPT-Live",
+    "voice mode",
+    "GPT-5.5",
+    "AI assistants"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "ChatGPT's previous voice mode was based on an older GPT-4o era model with knowledge cut-off in 2024, limiting its usefulness. GPT-Live leverages the GPT-5.5 frontier model, released in April 2026, which is designed for complex tasks like coding and research. Full-duplex voice allows both parties to speak and be heard simultaneously, enabling more natural interactions.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GPT-Live: OpenAI Full-Duplex ChatGPT Voice | explainx.ai Blog",
+      "url": "https://www.explainx.ai/blog/gpt-live-openai-chatgpt-voice-july-2026"
+    },
+    {
+      "title": "ChatGPT Voice - OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/8400625-voice-mode"
+    },
+    {
+      "title": "OpenAI launches GPT-Live voice models for real-time conversations",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-launches-gpt-live-voice-130906310.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

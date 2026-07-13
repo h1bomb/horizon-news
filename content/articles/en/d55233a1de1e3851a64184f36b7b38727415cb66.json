@@ -1,0 +1,40 @@
+{
+  "id": "d55233a1de1e3851a64184f36b7b38727415cb66",
+  "canonicalId": "6aad402ec421ef05587b46961164a2245b2341d5",
+  "slug": "spacex-s-1-reveals-125bmonth-ai-compute-deal-with-anthropic",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T22:26:00Z",
+  "lang": "en",
+  "title": "SpaceX S-1 reveals $1.25B/month AI compute deal with Anthropic",
+  "summary": "SpaceX's S-1 filing with the SEC reveals a cloud services agreement with Anthropic for access to compute capacity across COLOSSUS and COLOSSUS II, with Anthropic agreeing to pay $1.25 billion per month through May 2029. This massive commitment signals unprecedented demand for AI compute infrastructure and highlights the strategic importance of partnerships between AI labs and infrastructure providers, potentially reshaping the cloud computing business model. The agreement includes a ramp-up period in May and June 2026 at a reduced fee and can be terminated by either party with 90 days' notice. COLOSSUS I houses over 220,000 NVIDIA H100, H200, and other GPUs.",
+  "score": 10,
+  "tags": [
+    "AI",
+    "cloud computing",
+    "SpaceX",
+    "Anthropic",
+    "compute infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "SpaceX operates COLOSSUS I and II, massive AI supercomputers built with NVIDIA GPUs, initially used for training Grok. Anthropic is an AI safety company behind the Claude large language model. This partnership provides Anthropic dedicated compute capacity for training and inference of its models.",
+  "discussion": "Commenters were stunned by the scale of the deal, with some questioning SpaceX's overall profitability given a $4.9B net loss in 2025. Others speculated on the viability of space-based data centers, while noting that Starlink's profitability supports such AI infrastructure bets.",
+  "references": [
+    {
+      "title": "Anthropic Signs SpaceX Colossus 1 Data Center to... - ServeTheHome",
+      "url": "https://www.servethehome.com/anthropic-signs-spacex-colossus-1-data-center-to-boost-capacity/"
+    },
+    {
+      "title": "Anthropic and SpaceX Compute Partnership — May 2026",
+      "url": "https://sourceryintel.com/reports/anthropic-spacex-partnership"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

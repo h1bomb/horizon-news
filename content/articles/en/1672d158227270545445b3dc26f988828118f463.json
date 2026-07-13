@@ -1,0 +1,44 @@
+{
+  "id": "1672d158227270545445b3dc26f988828118f463",
+  "canonicalId": "ef8c63bc0085d63f46994559a5b0522afd2d522f",
+  "slug": "javascript-cannot-escape-csp-meta-tags-injected-at-top-of-iframe-content",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-03T16:05:00Z",
+  "lang": "en",
+  "title": "JavaScript Cannot Escape CSP Meta Tags Injected at Top of Iframe Content",
+  "summary": "Simon Willison demonstrated that injecting a <meta http-equiv=\"Content-Security-Policy\"> tag at the top of iframe content effectively enforces security policies, even when untrusted JavaScript attempts to manipulate them, as part of his research on sandboxing without separate domains. This approach was tested while building a version of Claude Artifacts, showing that the CSP meta tag takes precedence over subsequent script modifications. This matters because it provides a practical method for applying Content Security Policy (CSP) in sandboxed iframes without requiring separate hosting domains, simplifying security implementations for web applications that embed untrusted content. It enhances web security by preventing JavaScript injection attacks in sandboxed environments, which is crucial for protecting users from malicious code in third-party widgets or ads. The CSP meta tag must be placed at the top of the iframe's HTML content to be effective, as browsers process it early in the rendering pipeline. This technique relies on the http-equiv attribute to simulate HTTP headers, and it works even if JavaScript later tries to remove or alter the tag, due to browser enforcement of CSP policies at parse time.",
+  "score": 7,
+  "tags": [
+    "security",
+    "javascript",
+    "content-security-policy",
+    "sandboxing",
+    "web-development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Content Security Policy (CSP) is a security standard that helps prevent cross-site scripting (XSS) and other code injection attacks by specifying which resources a browser can load. Iframes are HTML elements used to embed external content, and sandboxing restricts their capabilities to enhance security. The http-equiv attribute in meta tags allows developers to set HTTP headers like CSP directly in HTML, as an alternative to server-side headers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "http-equiv attribute - HTML | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv"
+    },
+    {
+      "title": "Content-Security-Policy: sandbox directive - MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/sandbox"
+    },
+    {
+      "title": "Content Security Policy - OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

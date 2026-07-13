@@ -1,0 +1,44 @@
+{
+  "id": "d056a5bb2aa0e33fd4c0e8b0e9cabe3dd7f681f7",
+  "canonicalId": "2f529d412db5cf71ad968a43f3171b67a1757ac3",
+  "slug": "grapheneos-to-sue-google-over-play-integrity-certification-denial",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-18T07:40:00Z",
+  "lang": "en",
+  "title": "GrapheneOS to sue Google over Play Integrity certification denial",
+  "summary": "GrapheneOS developers plan to sue Google for allegedly unfair treatment in Play Integrity certification, claiming that many stock Android operating systems violate CTS/CDD standards yet still pass, while secure third-party OSes like GrapheneOS are blocked unless they use hardware-backed key attestation. This legal action is part of a series of potential antitrust lawsuits against Google. This lawsuit highlights potential antitrust issues and technical fairness in Android security, as it could impact the accessibility of secure, privacy-focused mobile operating systems and set precedents for how Google enforces certification standards. It raises questions about whether Google's practices unfairly disadvantage open-source and third-party OS developers in the ecosystem. GrapheneOS emphasizes security by requiring a locked bootloader and discouraging root access, but it faces barriers in Play Integrity certification despite these measures. The developers argue that Google's reliance on hardware-backed key attestation for approval creates an uneven playing field, as many stock OSes that do not fully comply with standards still gain certification.",
+  "score": 7,
+  "tags": [
+    "Android Security",
+    "Antitrust",
+    "Mobile Operating Systems",
+    "Google",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40340",
+  "originalSite": "t.me",
+  "context": "Play Integrity API is a Google service that helps app developers verify that interactions come from unmodified apps on genuine Android devices installed via Google Play, aiming to detect fraud and abuse. Hardware-backed key attestation is a security feature that uses device hardware to verify the authenticity of cryptographic keys, enhancing trust in device integrity. CTS (Compatibility Test Suite) and CDD (Compatibility Definition Document) are standards that Android devices must meet to ensure compatibility and security, with CDD outlining requirements and CTS providing tests for compliance.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Play Integrity API | Android Developers",
+      "url": "https://developer.android.com/google/play/integrity"
+    },
+    {
+      "title": "Key and ID attestation | Android Open Source Project",
+      "url": "https://source.android.com/docs/security/features/keystore/attestation"
+    },
+    {
+      "title": "Android Compatibility Definition Document",
+      "url": "https://source.android.com/docs/compatibility/cdd"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "56675da09fe51027ee6148b867136098299bc8f3",
+  "canonicalId": "f8b7a9395f715390bc7f658294595b4f4a1946a8",
+  "slug": "nvidia-releases-nemotron-3-super-120b-moe-model-for-multi-agent-ai",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "en",
+  "title": "NVIDIA Releases Nemotron 3 Super: 120B MoE Model for Multi-Agent AI",
+  "summary": "NVIDIA has released Nemotron 3 Super, an open-source large language model with 120 billion total parameters and 12 billion activated parameters per inference, using a Mixture of Experts (MoE) architecture that combines Mamba and Transformer layers. It supports a 1 million token context window and offers up to 5x throughput and 2x accuracy improvements over the previous Nemotron Super model. This release is significant because it provides a powerful, open-weight model specifically optimized for multi-agent AI systems, a rapidly growing area in AI research and industry. The combination of MoE, Mamba, and Transformer layers with a 1M context window sets a new benchmark for efficiency and performance in open-source LLMs. The model uses a hybrid architecture that interleaves Mamba state-space model layers with traditional Transformer attention layers, enabling efficient long-context processing. It is released under a permissive license with open weights, allowing broad use and customization.",
+  "score": 8,
+  "tags": [
+    "NVIDIA",
+    "LLM",
+    "MoE",
+    "open-source",
+    "multi-agent"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41118",
+  "originalSite": "t.me",
+  "context": "Mixture of Experts (MoE) is a neural network architecture where only a subset of parameters (experts) are activated for each input, improving efficiency without sacrificing capacity. Mamba is a state-space model designed to handle long sequences more efficiently than Transformers, while Transformers excel at capturing complex dependencies via attention. Multi-agent AI systems involve multiple intelligent agents collaborating to solve tasks, often leveraging LLMs for coordination.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Why the Newest LLMs use a MoE (Mixture of Experts) Architecture",
+      "url": "https://www.kdnuggets.com/why-the-newest-llms-use-a-moe-mixture-of-experts-architecture"
+    },
+    {
+      "title": "Mamba: Redefining Sequence Modeling and Outforming Transformers",
+      "url": "https://www.unite.ai/mamba-redefining-sequence-modeling-and-outforming-transformers-architecture/"
+    },
+    {
+      "title": "Multi-agent system",
+      "url": "https://en.wikipedia.org/wiki/Multi-agent_system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

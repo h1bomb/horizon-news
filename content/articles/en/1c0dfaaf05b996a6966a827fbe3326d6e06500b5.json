@@ -1,0 +1,40 @@
+{
+  "id": "1c0dfaaf05b996a6966a827fbe3326d6e06500b5",
+  "canonicalId": "dad238cd5ffe87c45b25b7e0608d227ad6a55a3a",
+  "slug": "microsoft-rolls-out-new-windows-11-copilot-with-full-edge-package-memory-usage-spikes-to-1-gb",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-05T02:32:00Z",
+  "lang": "en",
+  "title": "Microsoft rolls out new Windows 11 Copilot with full Edge package, memory usage spikes to 1 GB",
+  "summary": "Microsoft is rolling out a new version of Copilot for Windows 11 that replaces the native WinUI framework with a hybrid web architecture based on a full Microsoft Edge browser package, causing memory usage to increase from under 100 MB to up to 1 GB during interaction. The installation package is about 850 MB and includes the complete Chromium engine and Edge browser subsystem, with updates no longer handled directly through the Microsoft Store. This architectural shift from native to hybrid web-based design could improve web component performance and integration with Edge features, but it significantly increases resource consumption, potentially affecting system performance for Windows 11 users and raising concerns about software bloat. It reflects Microsoft's broader strategy to unify its ecosystem around Edge and web technologies, which may influence future app development and user experience. The new Copilot version uses a full Edge browser package with Chromium engine, leading to memory usage of up to 500 MB in the background and 1 GB during active use, compared to less than 100 MB previously. The app is now distributed as a standalone package rather than through the Microsoft Store, which may complicate updates and installation processes.",
+  "score": 7,
+  "tags": [
+    "Windows 11",
+    "Microsoft Copilot",
+    "Edge Browser",
+    "Memory Usage",
+    "Software Architecture"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.windowslatest.com/2026/04/05/new-copilot-for-windows-11-includes-a-full-microsoft-edge-package-uses-more-ram/",
+  "originalSite": "windowslatest.com",
+  "context": "WinUI is a native user interface framework for Windows applications, developed by Microsoft to provide modern UI elements and performance. Microsoft Edge is a web browser based on the Chromium open-source engine, which powers many modern browsers and supports advanced web features. Hybrid web architecture combines native and web technologies to build applications, often using embedded browsers like Edge to render web content within apps.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "WPF (UI framework)",
+      "url": "https://en.wikipedia.org/wiki/WPF_(UI_framework)"
+    },
+    {
+      "title": "Microsoft Edge: Making the web better through more open source",
+      "url": "https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

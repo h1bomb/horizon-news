@@ -1,0 +1,44 @@
+{
+  "id": "aba2cffdf23a1ed6a1ef21feab3a844737ae278b",
+  "canonicalId": "23bbc9c0a300a41da6771d498dcbb731c9784347",
+  "slug": "localsend开源跨平台-airdrop-替代品",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "zh",
+  "title": "LocalSend：开源跨平台 AirDrop 替代品",
+  "summary": "LocalSend 是一款免费、开源、跨平台的文件共享应用，无需互联网连接即可实现本地文件传输，支持 Windows、macOS、Linux、Android 和 iOS。 它解决了跨平台本地文件共享长期存在的空白，提供了一个注重隐私、去中心化的替代方案，以替代苹果 AirDrop 等仅限于苹果设备的专有解决方案。 LocalSend 使用本地网络（LAN）进行传输，意味着设备必须在同一网络上；它不像 AirDrop 那样创建自己的临时网络。该应用使用 Flutter 构建，与基于 Tauri 的替代方案相比，安装包体积较大。",
+  "score": 7,
+  "tags": [
+    "file-sharing",
+    "open-source",
+    "cross-platform",
+    "networking",
+    "flutter"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 28, 11:54"
+    }
+  ],
+  "originalUrl": "https://github.com/localsend/localsend",
+  "originalSite": "github.com",
+  "context": "AirDrop 是苹果的专有无线文件共享功能，利用蓝牙和 Wi-Fi 在苹果设备之间创建直接的点对点连接。它因其易用性而广受好评，但仅限于苹果生态系统。像 LocalSend 这样的开源替代方案旨在跨不同操作系统提供类似功能，但通常要求设备处于同一本地网络中，这在没有现有网络基础设施的场景下可能是一个限制。",
+  "discussion": "社区评论指出 LocalSend 可靠且运行良好，但注意到它需要同一网络连接的限制，而 AirDrop 可以创建自己的网络。一些用户建议使用 Sendme 和 AltSendme 等替代方案，它们利用 Iroh 实现点对点中继，没有网络限制。一位开发者还指出，基于 Tauri 的应用安装包体积远小于基于 Flutter 的 LocalSend。",
+  "references": [
+    {
+      "title": "LocalSend: Share files to nearby devices",
+      "url": "https://localsend.org/"
+    },
+    {
+      "title": "LocalSend",
+      "url": "https://grokipedia.com/page/localsend"
+    },
+    {
+      "title": "3 open-source AirDrop alternatives that are better than ... - MUO",
+      "url": "https://www.makeuseof.com/airdrop-alternatives-better-than-localsend/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

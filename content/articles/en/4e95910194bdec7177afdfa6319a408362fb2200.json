@@ -1,0 +1,40 @@
+{
+  "id": "4e95910194bdec7177afdfa6319a408362fb2200",
+  "canonicalId": "949a695682c64688f5123051aa1436857b1b4de0",
+  "slug": "deep-dive-on-rendering-realistic-sky-and-sunsets",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T13:26:00Z",
+  "lang": "en",
+  "title": "Deep Dive on Rendering Realistic Sky and Sunsets",
+  "summary": "Maxime Heckel published a detailed blog post on rendering realistic sky, sunsets, and planets using atmospheric scattering models, with interactive WebGL demos. This post fills a gap in accessible, hands-on tutorials for atmospheric scattering in real-time graphics, benefiting WebGL developers and hobbyists interested in procedural sky rendering. The implementation uses Rayleigh and Mie scattering, along with transmittance and single scattering approximations, but the demo's sunset model incorrectly turns the sky black immediately after the sun sets, as noted by a commenter.",
+  "score": 8,
+  "tags": [
+    "computer graphics",
+    "atmospheric scattering",
+    "rendering",
+    "shaders"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48107997"
+    }
+  ],
+  "originalUrl": "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/",
+  "originalSite": "blog.maximeheckel.com",
+  "context": "Atmospheric scattering explains why the sky is blue and sunsets are red. In computer graphics, Rayleigh scattering simulates light scattering by small particles (air molecules), while Mie scattering handles larger particles like dust. Real-time rendering often simplifies these physical models to achieve performance on GPUs.",
+  "discussion": "Commenters praise the write-up and share related works, such as Sebastian Lague's video on planetary atmospheres. A notable critique points out that the sunset model fails to maintain twilight glow after sunset, a limitation acknowledged as difficult to fix.",
+  "references": [
+    {
+      "title": "Chapter 16. Accurate Atmospheric Scattering | NVIDIA Developer",
+      "url": "https://developer.nvidia.com/gpugems/gpugems2/part-ii-shading-lighting-and-shadows/chapter-16-accurate-atmospheric-scattering"
+    },
+    {
+      "title": "Rayleigh scattering - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

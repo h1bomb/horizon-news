@@ -1,0 +1,45 @@
+{
+  "id": "757de5301c7e022348f1ad179ac1cd6a173a158b",
+  "canonicalId": "92e40f27754956c26196b5a5b7bdc772d4cfe1c5",
+  "slug": "google-更新-recaptcha-阻止去谷歌化安卓用户",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-09T00:00:00Z",
+  "lang": "zh",
+  "title": "Google 更新 reCAPTCHA 阻止去谷歌化安卓用户",
+  "summary": "Google 更新了其 reCAPTCHA 服务，采用远程证明技术，导致在缺少 Google Play 服务和认证硬件的去谷歌化安卓设备上无法正常工作。这实际上阻止了使用如 GrapheneOS 等自定义 ROM 的用户访问采用新 reCAPTCHA 的网站。 此次更新严重影响了注重隐私、选择去谷歌化安卓的用户，迫使他们要么接受与 Google 服务器绑定的硬件证明，要么失去对许多网站的访问权限。这呼应了备受争议的 Web Environment Integrity (WEI) 提案，引发了对用户自主权和开放网络访问未来的担忧。 新的 reCAPTCHA 依赖远程证明，使用硬件绑定的密钥（EK → AIK）来验证设备完整性，可能允许 Google 将证明与特定设备关联。这破坏了与自定义 ROM 以及缺乏 Google 可信执行环境（如运行 LineageOS 或 CalyxOS）的设备的兼容性。",
+  "score": 8,
+  "tags": [
+    "reCAPTCHA",
+    "Android",
+    "privacy",
+    "remote attestation",
+    "degoogling"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 8, 18:45",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48067119"
+    }
+  ],
+  "originalUrl": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
+  "originalSite": "reclaimthenet.org",
+  "context": "去谷歌化安卓是指不带 Google 服务的 Android 开源项目 (AOSP) 构建，常用于隐私保护。远程证明是一种可信计算技术，允许远程方通过安全 enclave 和硬件密钥验证设备的软件与硬件状态。此前，Google 曾提出 Web Environment Integrity (WEI) 以在网络上实现类似目标，但因广泛批评而被放弃。新的 reCAPTCHA 实际上实现了某种形式的远程证明，与 WEI 有相似之处。",
+  "discussion": "社区成员表达了强烈反对，许多人发誓避免使用 Google 控制的硬件证明。一些评论者推荐了替代的 CAPTCHA 服务，而另一些人则描述了更换银行或自托管服务以减少对 Google 的依赖。技术讨论集中在远程证明如何通过 EK-AIK 链接实现设备跟踪。",
+  "references": [
+    {
+      "title": "Remote attestation",
+      "url": "https://en.wikipedia.org/wiki/Remote_attestation"
+    },
+    {
+      "title": "Web Environment Integrity",
+      "url": "https://en.wikipedia.org/wiki/Web_Environment_Integrity"
+    },
+    {
+      "title": "5 De-Googled Android-based Operating Systems - It's FOSS I de-Googled my Android phone and actually liked it - How-To Geek I tried completely de-Googled Android — here's what happened 9 Best Degoogled Phones | True Stock Android Without Tracking e Foundation - deGoogled unGoogled smartphone operating ... Ultimate Guide to De-Googled Android Privacy Top DeGoogled Phones OS Compared - Efani",
+      "url": "https://itsfoss.com/android-distributions-roms/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

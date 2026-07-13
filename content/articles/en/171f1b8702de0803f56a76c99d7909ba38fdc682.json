@@ -1,0 +1,31 @@
+{
+  "id": "171f1b8702de0803f56a76c99d7909ba38fdc682",
+  "canonicalId": "075483af3e5998f0590952002d87ef782825b233",
+  "slug": "researchers-identify-smartphone-apps-via-em-signals-with-99-accuracy",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T16:05:00Z",
+  "lang": "en",
+  "title": "Researchers identify smartphone apps via EM signals with 99% accuracy",
+  "summary": "Chinese researchers developed a non-contact forensic technique that identifies smartphone apps and operations by analyzing leaked low-frequency electromagnetic signals, achieving up to 99.07% accuracy on devices like iPhone 15 Pro, Xiaomi 15 Pro, and OPPO Reno 13. This attack method poses a serious privacy threat because it can work even when the phone is offline, in airplane mode, encrypted, or locked, without any access to the device's system or stored data. The technique analyzes low-frequency electromagnetic (EM) signals emitted by a running smartphone's components, and the researchers tested it on popular apps including TikTok, WeChat video calls, Baidu Maps, SMS, browser, camera, and cloud storage.",
+  "score": 8,
+  "tags": [
+    "security",
+    "privacy",
+    "electromagnetic signals",
+    "smartphone",
+    "side-channel attack"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.scmp.com/news/china/science/article/3359688/chinese-researchers-find-peephole-any-smartphone-its-leaked-radio-signal",
+  "originalSite": "scmp.com",
+  "context": "All electronic devices emit electromagnetic radiation during operation, and these unintentional signals can reveal information about the device's activity. This is known as a side-channel attack, where an attacker exploits physical byproducts like EM leakage, power consumption, or sound. Previous side-channel attacks often required physical access or specialized equipment, but this new technique is non-contact and works over distance.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

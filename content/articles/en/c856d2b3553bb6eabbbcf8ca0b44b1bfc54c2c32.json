@@ -1,0 +1,44 @@
+{
+  "id": "c856d2b3553bb6eabbbcf8ca0b44b1bfc54c2c32",
+  "canonicalId": "cd152ba6d4ba57c57b20f8e2494a9fae567d7432",
+  "slug": "google-cloud-evolves-recaptcha-into-fraud-defense-with-qr-verification",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T09:18:00Z",
+  "lang": "en",
+  "title": "Google Cloud Evolves reCAPTCHA into Fraud Defense with QR Verification",
+  "summary": "Google Cloud launched Fraud Defense as the next evolution of reCAPTCHA, introducing a QR code-based mobile verification challenge to counter AI-powered bots. This marks a significant shift from traditional CAPTCHA to a fraud prevention platform, essential for securing the agentic web against sophisticated automated attacks. The QR verification requires users to scan a code with their phone to prove human presence. Compatibility requires Android Google Play Services 25.41.30+ or iOS 15.0+.",
+  "score": 8,
+  "tags": [
+    "security",
+    "captcha",
+    "fraud prevention",
+    "google cloud",
+    "QR code"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://support.google.com/recaptcha/answer/16609652?hl=en",
+  "originalSite": "support.google.com",
+  "context": "reCAPTCHA has been a widely used service by Google to distinguish human users from bots. With the rise of AI agents, traditional challenges are becoming less effective. Fraud Defense extends reCAPTCHA's capabilities to include fraud and abuse prevention across the agentic web, integrating with Cloud Armor and Apigee for multi-layered protection.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Google Cloud Fraud Defense, the next evolution of reCAPTCHA | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/"
+    },
+    {
+      "title": "Google Cloud Fraud Defense documentation | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/recaptcha/docs"
+    },
+    {
+      "title": "Fraud Defense | Google Cloud",
+      "url": "https://cloud.google.com/security/products/fraud-defense"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

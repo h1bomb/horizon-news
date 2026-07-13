@@ -1,0 +1,44 @@
+{
+  "id": "c4192f0edc63bd6a77e54d61114341a12ef37762",
+  "canonicalId": "7ff873e9e9fa756f8013ee0fdf9e015d3194c9bd",
+  "slug": "小米-12-pro-被改造成-247-无头-ai-服务器通过-ollama-运行-gemma4",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-15T00:00:00Z",
+  "lang": "zh",
+  "title": "小米 12 Pro 被改造成 24/7 无头 AI 服务器，通过 Ollama 运行 Gemma4",
+  "summary": "一位用户成功将小米 12 Pro 智能手机改造成专用本地 AI 服务器，通过刷入 LineageOS 移除 Android 界面冗余，实现自定义散热管理和电池保护系统，并通过 Ollama 部署 Gemma4 作为局域网可访问的 API。该设置包括在 45°C 触发外部冷却的自定义守护进程，以及将充电限制在 80%以支持 24/7 运行的脚本。 这展示了搭载骁龙 8 Gen 1 等强大芯片的消费级移动硬件如何被重新用于边缘 AI 计算，可能降低本地 LLM 部署的门槛，并支持注重隐私的应用。它展示了在移动硬件连续运行中散热管理和电池寿命的实用解决方案，可能激发边缘 AI 生态系统中类似项目的灵感。 该设置通过移除 Android 界面组件，为 LLM 计算实现了约 9GB 的可用内存，并通过手动编译的 wpa_supplicant 在无头模式下保持网络连接。外部冷却模块通过 Wi-Fi 智能插座控制，而电池保护脚本有助于防止在连续运行期间的电池退化。",
+  "score": 7,
+  "tags": [
+    "Local AI",
+    "Hardware Hacking",
+    "Ollama",
+    "Mobile Computing",
+    "Edge Computing"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 14, 11:44"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/fo3jf5vk85vg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Ollama 是一个简化本地运行大型语言模型的开源工具，支持无需云依赖的隐私优先 AI 应用。Gemma4 是 Google 于 2026 年 4 月发布的最新开源 LLM 系列，提供文本和图像输入的多模态能力。wpa_supplicant 是一个处理 WPA/WPA2 无线认证的 Linux 守护进程，常用于无头系统中的命令行网络连接。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ollama | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/agents/providers/ollama"
+    },
+    {
+      "title": "Gemma (language model)",
+      "url": "https://en.wikipedia.org/wiki/Gemma_(language_model)"
+    },
+    {
+      "title": "How to Use WPA_Supplicant: An In-Depth Guide - TheLinuxCode",
+      "url": "https://thelinuxcode.com/how-to-use-wpa-supplicant/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

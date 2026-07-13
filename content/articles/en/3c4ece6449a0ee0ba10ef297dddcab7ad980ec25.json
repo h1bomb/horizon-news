@@ -1,0 +1,32 @@
+{
+  "id": "3c4ece6449a0ee0ba10ef297dddcab7ad980ec25",
+  "canonicalId": "a93391268a07f047d9134bf735bddba5f96b7cbe",
+  "slug": "ibm-objected-to-microsoft-using-tab-for-dialog-navigation",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-05T17:28:00Z",
+  "lang": "en",
+  "title": "IBM objected to Microsoft using Tab for dialog navigation",
+  "summary": "A blog post reveals that IBM once objected to Microsoft using the Tab key to move between dialog fields, a decision that influenced early Windows UI conventions. This illustrates how corporate rivalries and legacy standards shaped modern interaction design, reminding us that even basic keyboard shortcuts were once contested. The story highlights that IBM had its own Tab usage on 3270 terminals, yet opposed Microsoft's implementation, possibly due to concerns over context-confusion between input and control characters.",
+  "score": 8,
+  "tags": [
+    "history",
+    "user-interface",
+    "keyboard",
+    "IBM",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "SeenNotHeard",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48025687"
+    }
+  ],
+  "originalUrl": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
+  "originalSite": "devblogs.microsoft.com",
+  "context": "In early graphical user interfaces, keyboard navigation for dialogs was not standardized. The Tab key, originally for tabulation in text, was repurposed to move focus between controls. IBM, a major keyboard manufacturer and mainframe vendor, had established usage patterns that Microsoft’s approach could disrupt.",
+  "discussion": "Comments reflect a mix of sentiments: one shares a story of IBM’s excessive bureaucracy, another notes IBM’s own Tab usage on 3270 terminals, while others discuss the inconvenience of the Tab key being hijacked by OS/UI behavior and question IBM’s exact reasoning.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

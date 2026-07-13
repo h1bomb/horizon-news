@@ -1,0 +1,40 @@
+{
+  "id": "515404a2ed02e3196ad9d61935fe12e47fabf422",
+  "canonicalId": "2bead726374529cb7ac0e2c1948a78af7c5a7c70",
+  "slug": "隐蔽监控者利用全球电信网络citizen-lab-报告揭露-ss7-漏洞",
+  "date": "2026-05-04",
+  "publishedAt": "2026-05-04T00:00:00Z",
+  "lang": "zh",
+  "title": "隐蔽监控者利用全球电信网络：Citizen Lab 报告揭露 SS7 漏洞",
+  "summary": "Citizen Lab 发布报告，揭露隐蔽监控者利用以色列电信网络中的 SS7 协议漏洞进行全球电话追踪。 这表明电信基础设施存在系统性缺陷，无需同意即可进行大规模监控，威胁全球数十亿移动用户的隐私。 报告通过分析 SS7 和 Diameter 流量将以色列电信公司与监控活动联系起来，但部分证据是间接的；报告未涉及 SIM 卡攻击。",
+  "score": 8,
+  "tags": [
+    "security",
+    "surveillance",
+    "telecom",
+    "SS7",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 3, 16:15"
+    }
+  ],
+  "originalUrl": "https://citizenlab.ca/research/uncovering-global-telecom-exploitation-by-covert-surveillance-actors/",
+  "originalSite": "citizenlab.ca",
+  "context": "SS7 是 20 世纪 70 年代的电话信令协议，缺乏认证机制，一旦获得网络接入即可实现位置跟踪、通话拦截和短信重定向。4G 使用的 Diameter 协议增加了一定安全性，但仍存在漏洞。这些问题早已为人所知，但一直未得到广泛解决。",
+  "discussion": "社区评论中，一位电信专家认为部分归因证据是间接的，另一位指出 SS7 本身缺乏安全性难以称为“漏洞利用”，还有用户提醒应阅读 Citizen Lab 的原始报告。",
+  "references": [
+    {
+      "title": "Signalling System No. 7 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Signalling_System_No._7"
+    },
+    {
+      "title": "SS 7 Vulnerabilities",
+      "url": "https://learn.rbbn.com/hubfs/Corporate+Marketing+(TOP+LEVEL)/Solution+Brief/SB+SS7+Vulnerabilities.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

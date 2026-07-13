@@ -1,0 +1,44 @@
+{
+  "id": "b287c7373c0d29be69e69d6876f9d287c38a4c82",
+  "canonicalId": "6b233ae4fa8a323ed409f288790425b73e4df343",
+  "slug": "malus-clean-room-as-a-service-satirical-proposal-to-end-open-source",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-12T13:42:00Z",
+  "lang": "en",
+  "title": "Malus – Clean Room as a Service: Satirical Proposal to End Open Source",
+  "summary": "A satirical service called Malus – Clean Room as a Service was announced, humorously proposing to help companies legally reimplement open-source software without attribution through clean room implementation techniques. The service was presented at FOSDEM 2026 and includes a blog post detailing its approach. This satire highlights growing tensions between open-source sustainability and corporate exploitation, sparking important discussions about licensing ethics and business models in the software industry. It critiques how companies sometimes circumvent attribution requirements while benefiting from open-source work without adequate compensation. The service specifically targets 'liberation from open source license obligations' and claims to use proprietary AI systems that have never seen the original code, enabling legal reimplementation. It presents itself as a solution for companies wanting to avoid attribution while maintaining plausible deniability about code origins.",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "satire",
+    "software-licensing",
+    "business-models",
+    "ethics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "microflash"
+    }
+  ],
+  "originalUrl": "https://malus.sh/",
+  "originalSite": "malus.sh",
+  "context": "Clean room implementation is a software development method where engineers create new code without directly copying or viewing the original source code, often used to avoid copyright infringement while reimplementing functionality. Open-source software typically requires attribution under licenses like MIT or Apache, which mandate that copyright notices be included in all copies. The sustainability of open-source projects has become a significant concern as companies benefit from free software without always contributing back financially or through attribution.",
+  "discussion": "Community reactions were mixed, with some users initially mistaking the satire for a real service before recognizing its humorous intent. Many comments praised the critique of corporate exploitation and legal loopholes, while others expressed concern about the ethical implications and suggested alternative approaches like viral licenses or payment models to support open-source maintainers.",
+  "references": [
+    {
+      "title": "Cleanroom software engineering - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cleanroom_software_engineering"
+    },
+    {
+      "title": "Business models for open-source software - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Business_models_for_open-source_software"
+    },
+    {
+      "title": "licensing - License that requires attribution to end users ...",
+      "url": "https://opensource.stackexchange.com/questions/8161/license-that-requires-attribution-to-end-users"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "902495287c5223822c88be0e1ab2d8ecf43890d7",
+  "canonicalId": "7c990f2d1c71d34c3705d1627b0cd89fdacd8787",
+  "slug": "google-deepmind-releases-gemma-4-open-multimodal-ai-models-with-256k-context-window",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T16:01:00Z",
+  "lang": "en",
+  "title": "Google DeepMind releases Gemma 4 open multimodal AI models with 256K context window",
+  "summary": "Google DeepMind has released Gemma 4, a family of open multimodal AI models that support both text and image inputs with up to 256K token context windows. The release includes four model sizes (E2B, E4B, 26B A4B, and 31B) in both pre-trained and instruction-tuned variants, featuring both Dense and Mixture-of-Experts architectures. This release democratizes access to state-of-the-art multimodal AI by making powerful models available as open weights, enabling deployment on devices ranging from high-end phones to servers. The large 256K context window and multilingual support in over 140 languages position Gemma 4 as a competitive alternative to proprietary models for tasks like text generation, coding, and reasoning. The models are available in GGUF format on Hugging Face, optimized by Unsloth for efficient inference. While the larger models support text and image inputs, audio support is currently limited to smaller models, and the open weights enable community fine-tuning but may require significant computational resources for full utilization.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Large Language Models",
+    "Open Source",
+    "Multimodal AI",
+    "Google DeepMind"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1salgre/gemma_4_has_been_released/",
+  "originalSite": "reddit.com",
+  "context": "Multimodal AI models combine information from different data types like text, images, and audio to provide more comprehensive understanding. A context window refers to the amount of text a model can process at once, with larger windows enabling handling of longer documents. Instruction-tuned variants are fine-tuned on specific task descriptions to improve performance on those tasks, while Mixture-of-Experts architectures use specialized sub-networks to handle different types of inputs more efficiently.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is Multimodal AI? | IBM",
+      "url": "https://www.ibm.com/think/topics/multimodal-ai"
+    },
+    {
+      "title": "Mastering Grok‑Code‑Fast‑1's 256K Token Context Window",
+      "url": "https://www.juheapi.com/blog/grok-code-fast-1-context-window-256000-tokens-for-llm-model-users"
+    },
+    {
+      "title": "Instruction - Tuned Variants",
+      "url": "https://www.emergentmind.com/topics/instruction-tuned-variants"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

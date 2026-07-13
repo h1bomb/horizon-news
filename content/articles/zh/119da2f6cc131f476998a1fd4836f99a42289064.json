@@ -1,0 +1,44 @@
+{
+  "id": "119da2f6cc131f476998a1fd4836f99a42289064",
+  "canonicalId": "b696897ca62b23ac088b7f5af82c6cbcaff12a16",
+  "slug": "glm-51-在社交推理基准测试中与前沿模型竞争成本更低且工具错误率为零",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-13T00:00:00Z",
+  "lang": "zh",
+  "title": "GLM 5.1 在社交推理基准测试中与前沿模型竞争，成本更低且工具错误率为零",
+  "summary": "GLM 5.1 在基于社交推理游戏《血染钟楼》的新基准测试中表现出色，与 Claude Opus 4.6 等前沿模型竞争，每局游戏成本仅为 0.92 美元，而 Claude Opus 为 3.69 美元，且工具错误率为 0%。 这突显了 GLM 5.1 以显著降低的成本提供高质量社交推理能力的潜力，可能使高级 AI 在游戏、模拟和人机交互应用中更易获取，挑战昂贵前沿模型的主导地位。 该基准测试涉及《血染钟楼》这一复杂社交推理游戏的自主玩法，GLM 5.1 在邪恶团队角色中表现突出，完整游戏记录可在网上获取以供进一步分析。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "LLM",
+    "Benchmark",
+    "Social Reasoning",
+    "Cost Analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 12, 18:18"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1sjm407",
+  "originalSite": "reddit.com",
+  "context": "《血染钟楼》是一款社交推理游戏，玩家在隐藏信息环境中推断角色，常用于测试 AI 模型的推理和欺骗能力。GLM 5.1 是由 Z AI 开发的大型语言模型，以其编码能力和竞争性定价著称。工具错误率指大型语言模型使用外部工具或 API 时出错的频率，较低的错误率表明在多步骤任务中可靠性更高。",
+  "discussion": "社区评论表达了测试其他模型（如 Gemma 4 和 Qwen 3.5）的兴趣，赞扬了基准测试的新颖性，并询问了未来计划，同时有人指出 GLM 5.1 入门级计划的价格上涨。",
+  "references": [
+    {
+      "title": "Blood on the Clocktower - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blood_on_the_Clocktower"
+    },
+    {
+      "title": "GLM - 5 . 1 - Intelligence, Performance & Price Analysis",
+      "url": "https://artificialanalysis.ai/models/glm-5-1-non-reasoning"
+    },
+    {
+      "title": "An Expert Schema for Evaluating Large Language Model Errors in",
+      "url": "https://arxiv.org/html/2602.21059v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

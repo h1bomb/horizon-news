@@ -1,0 +1,44 @@
+{
+  "id": "8eada6344e629b32d0b92cc436f7110dcdb03080",
+  "canonicalId": "864b24b4c9454db2a0a00ca448a634e93da97a7e",
+  "slug": "将安卓手机变为-vulkan-加速的-llm-推理节点",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T23:15:00Z",
+  "lang": "zh",
+  "title": "将安卓手机变为 Vulkan 加速的 LLM 推理节点",
+  "summary": "一位开发者成功将安卓手机改造成一个 Vulkan 加速的本地 LLM 推理服务器，使用 GGUF 模型，并通过 LiteLLM 和 Tailscale 集成到自托管的网格网络中。 这展示了一种分布式 LLM 推理的新方法，使得手机等边缘设备可以为网格贡献 GPU 加速计算，可能减少对昂贵硬件的依赖。 该方案在设备上加载 GGUF 模型，使用 Vulkan 进行移动 GPU 加速（gpu_layers=89），并通过 LiteLLM 和 Tailscale 网格暴露 OpenAI 兼容的端点。",
+  "score": 8,
+  "tags": [
+    "LocalLLM",
+    "Vulkan",
+    "Android",
+    "GGUF",
+    "LiteLLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/GsxrGuy80s"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tw63jz/i_turned_an_android_phone_into_a/",
+  "originalSite": "reddit.com",
+  "context": "GGUF 是一种针对消费级硬件上快速加载和推理 LLM 优化的二进制格式，常与 llama.cpp 一起使用。LiteLLM 作为统一代理，将请求路由到各种 LLM 后端。Tailscale 则创建一个安全的网格 VPN 网络用于设备互联。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GGUF · Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    },
+    {
+      "title": "GitHub - BerriAI/litellm: Python SDK, Proxy Server (AI ... litellm | Python SDK, Proxy Server (AI Gateway) to call 100 ... LiteLLM Proxy Production Tutorial: LLM Gateway in 2026 LiteLLM Setup: Unified Proxy for Multi-Provider LLMs LiteLLM Proxy (LLM 网关) | liteLLM 网关 litellm · PyPI",
+      "url": "https://github.com/BerriAI/litellm"
+    },
+    {
+      "title": "Understanding Mesh VPNs - Tailscale",
+      "url": "https://tailscale.com/learn/understanding-mesh-vpns"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "432fc2d85d73460f51ea4fd0f81e436676809009",
+  "canonicalId": "450bc92e5637d391e0ab416020db43fe8b4b2103",
+  "slug": "andrej-karpathy-announces-agenthub-an-infrastructure-project-for-ai-agents",
+  "date": "2026-03-10",
+  "publishedAt": "2026-03-09T19:22:00Z",
+  "lang": "en",
+  "title": "Andrej Karpathy announces AgentHub, an infrastructure project for AI agents",
+  "summary": "Andrej Karpathy announced the creation of AgentHub, an exploratory project designed to build infrastructure specifically for AI agents. The initial use case focuses on 'autoresearch,' but the project is intended to be more general-purpose. This announcement is significant because it comes from a leading AI researcher and addresses a critical gap in the rapidly evolving field of AI agents: dedicated infrastructure. A standardized platform could accelerate agent development, improve interoperability, and unlock new capabilities for autonomous systems. The project is described as exploratory and is hosted on GitHub under Karpathy's account. While the initial application is for autonomous research agents, the vision is to create a general infrastructure analogous to how GitHub serves human developers.",
+  "score": 8,
+  "tags": [
+    "ai-agents",
+    "research-tools",
+    "github",
+    "karpathy",
+    "autonomous-research"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "karpathy"
+    }
+  ],
+  "originalUrl": "https://github.com/karpathy/agenthub",
+  "originalSite": "github.com",
+  "context": "AI agents are autonomous systems that can perceive their environment, make decisions, and take actions using tools and data. Infrastructure for AI agents refers to the underlying hardware, software, and orchestration systems needed to run these agents effectively. Currently, the field is fragmented, with many bespoke solutions, highlighting the need for standardized tooling and platforms to support agent development and deployment.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Understanding AI Agent Infrastructure: Key Insights",
+      "url": "https://www.ema.co/additional-blogs/addition-blogs/ai-agent-infrastructure-key-insights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

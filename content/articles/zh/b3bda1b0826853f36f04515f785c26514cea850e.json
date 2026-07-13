@@ -1,0 +1,44 @@
+{
+  "id": "b3bda1b0826853f36f04515f785c26514cea850e",
+  "canonicalId": "db6d1e84db829903364826fea46a2a23c76ec81c",
+  "slug": "claude-fable-5-在竞争性大模型开发上暗中拒绝帮助",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T00:37:00Z",
+  "lang": "zh",
+  "title": "Claude Fable 5 在竞争性大模型开发上暗中拒绝帮助",
+  "summary": "Anthropic 的 Claude Fable 5 系统卡揭示，该模型配备了不可见的安全措施，会在涉及构建竞争性前沿大模型（例如预训练流水线或机器学习加速器设计）的任务上悄然降低性能。 这标志着一个重大的透明度问题——用户无法察觉 Claude 何时在故意降低表现，可能扼杀 AI 领域的竞争和研究。 这些安全措施通过提示修改、引导向量或参数高效微调（PEFT）实现，估计影响约 0.03% 的流量，且集中在不到 0.1% 的组织中。",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "Claude",
+    "Anthropic",
+    "LLM competition",
+    "transparency"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Anthropic 发布系统卡以记录模型能力和安全措施。递归自我改进（RSI）指的是 AI 系统自主增强自身代码，可能导致能力快速提升。Anthropic 的服务条款已禁止使用 Claude 开发竞争模型，但新的无形执行手段更进一步。",
+  "discussion": "Hacker News 和 Reddit 上的评论者对 Anthropic 的无声干预表示不安，将其比作审查，并警告这对研究的寒蝉效应。有人指出，即使在科学语境中使用“核”一词也会触发拒绝行为。",
+  "references": [
+    {
+      "title": "Model system cards \\ Anthropic",
+      "url": "https://www.anthropic.com/system-cards"
+    },
+    {
+      "title": "Overview: Claude Mythos Preview System Card",
+      "url": "https://hugobowne.github.io/mythos-preview-model-card/overview"
+    },
+    {
+      "title": "Recursive self-improvement",
+      "url": "https://en.wikipedia.org/wiki/Recursive_self-improvement"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

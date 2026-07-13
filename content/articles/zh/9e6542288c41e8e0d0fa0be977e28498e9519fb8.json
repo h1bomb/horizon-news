@@ -1,0 +1,44 @@
+{
+  "id": "9e6542288c41e8e0d0fa0be977e28498e9519fb8",
+  "canonicalId": "030efb9f4baa281bb01760884422fa457ef1872a",
+  "slug": "qwen35-35b-a3b-模型在-raspberry-pi-5-上运行通过-2-bit-量化实现超过-3-tokens秒的速度",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-28T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-35B-A3B 模型在 Raspberry Pi 5 上运行，通过 2-bit 量化实现超过 3 tokens/秒的速度。",
+  "summary": "一位开发者成功在 Raspberry Pi 5 上运行了拥有 350 亿参数的 Qwen3.5-35B-A3B 大语言模型，通过 2-bit 量化，在 16GB 内存版本上实现了超过 3 tokens/秒的推理速度，在 8GB 版本上实现了超过 1.5 tokens/秒的速度。 这表明强大的大规模语言模型现在可以在成本极低、资源受限的边缘设备上运行，显著降低了在数据中心之外部署用于智能体任务、教育等高级 AI 应用的门槛。 这一性能是在没有使用 NVMe SSD、仅使用相对较快的 SD 卡以及导致降频问题的散热不佳的条件下实现的。开发者还在为 Pi 开发定制的 llama.cpp 版本，并尝试使用 ARM 的 KleidiAI 以进一步优化性能。",
+  "score": 7,
+  "tags": [
+    "edge-ai",
+    "model-quantization",
+    "raspberry-pi",
+    "llm-inference",
+    "embedded-systems"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Feb 27, 14:30"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/mfr3o67pn1mg1",
+  "originalSite": "v.redd.it",
+  "context": "Qwen3.5-35B-A3B 是阿里巴巴通义千问团队推出的一个拥有 350 亿参数的大语言模型，采用混合专家（MoE）架构和门控增量网络以提高效率。量化是一种降低模型权重精度（例如，从 32 位浮点数降至 2 位整数）的技术，能大幅减少模型的内存占用和计算需求，使其能在像 Raspberry Pi 这样资源有限的设备上运行。Raspberry Pi 5 是一款流行的低成本单板计算机，采用基于 ARM 的处理器，常用于爱好者和嵌入式项目。",
+  "discussion": "社区对这一技术成果反应热烈，普遍表示赞扬，称其“令人印象深刻”和“疯狂”。评论包括技术性追问，例如分享了一张在 8GB Pi 上使用 mmap 实现 2.16 t/s 的截图，建议尝试在多块 Pi 上进行流水线并行或使用不同的量化级别（Q3/Q4），以及与其他硬件（如 RK3588 或 Orion O6 SoC）进行比较。也有人对将模型移植到更强大的手机上感兴趣。",
+  "references": [
+    {
+      "title": "Qwen/Qwen3.5-35B-A3B - Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+    },
+    {
+      "title": "[2307.13304] QuIP: 2-Bit Quantization of Large Language Models With Guarantees",
+      "url": "https://arxiv.org/abs/2307.13304"
+    },
+    {
+      "title": "Running llama.cpp in Docker on Raspberry Pi",
+      "url": "https://rmauro.dev/running-llama-cpp-in-docker-on-raspberry-pi/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

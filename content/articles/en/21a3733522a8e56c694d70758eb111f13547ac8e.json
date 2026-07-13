@@ -1,0 +1,41 @@
+{
+  "id": "21a3733522a8e56c694d70758eb111f13547ac8e",
+  "canonicalId": "cd26f09487ef3e95b0c681c7b7d9f934dc7296eb",
+  "slug": "tanstack-npm-packages-hit-by-supply-chain-attack-with-dead-mans-switch",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T21:08:00Z",
+  "lang": "en",
+  "title": "TanStack NPM Packages Hit by Supply Chain Attack with Dead Man's Switch",
+  "summary": "TanStack and other npm packages were compromised in a supply chain attack that deployed malicious postinstall scripts to steal tokens and included a dead man's switch that erases systems if tokens are revoked. This is critical because TanStack is widely used in React and web development; the attack could lead to widespread token theft and data loss among developers and organizations, highlighting the vulnerabilities in npm supply chains. The malicious payload installs a dead man's switch as a systemd user service on Linux or LaunchAgent on macOS, polling api.github.com/user with the stolen token every 60 seconds, and if the token is revoked, it executes rm -rf ~/.",
+  "score": 9,
+  "tags": [
+    "security",
+    "npm",
+    "supply-chain-attack",
+    "TanStack",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "varunsharma07",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48100706"
+    }
+  ],
+  "originalUrl": "https://github.com/TanStack/router/issues/7383",
+  "originalSite": "github.com",
+  "context": "A supply chain attack occurs when attackers compromise a trusted software package to distribute malware to its users. npm is a popular package manager for JavaScript, and postinstall scripts run automatically after package installation, making them a common vector for malware. TanStack is a suite of open-source libraries for building web applications, including React Router and Query.",
+  "discussion": "Community members noted the sophistication of the attack, including the dead man's switch, and advised caution when revoking tokens. Some pointed out that this class of attack is possible even with Trusted Publishing if CI is compromised, and criticized GitHub's shared object storage for making malicious fork commits indistinguishable from legitimate ones.",
+  "references": [
+    {
+      "title": "Dead Man’s Switch: Widespread npm Supply Chain Attack Driving ...",
+      "url": "https://cyberpress.org/dead-mans-switch-widespread-npm-supply-chain-attack-driving-malware-attacks/"
+    },
+    {
+      "title": "scripts | npm Docs",
+      "url": "https://docs.npmjs.com/cli/v8/using-npm/scripts/?v=true"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

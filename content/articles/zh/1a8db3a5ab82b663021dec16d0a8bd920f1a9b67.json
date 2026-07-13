@@ -1,0 +1,36 @@
+{
+  "id": "1a8db3a5ab82b663021dec16d0a8bd920f1a9b67",
+  "canonicalId": "02f0611a393d6789cad7c004d266b7143df7edfa",
+  "slug": "七个稳定内核修复-cve-2026-46333有利用代码",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "七个稳定内核修复 CVE-2026-46333，有利用代码",
+  "summary": "Greg Kroah-Hartman 宣布了七个新的稳定 Linux 内核版本（7.0.8、6.18.31、6.12.89、6.6.139、6.1.173、5.15.207 和 5.10.256），这些版本包含了对 CVE-2026-46333 的补丁，该漏洞由 Qualys 报告，并且已有公开的概念验证利用代码。 该漏洞已有公开的利用代码，且最初于 2020 年被报告，表明这是一个长期存在的问题，可能影响大量系统；用户应立即升级以防止潜在的入侵。 该漏洞最初由 Jann Horn 于 2020 年发现并提出补丁，但直到 2026 年才在稳定内核中推出修复；部分内核还包含了其他错误修复。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "security",
+    "CVE",
+    "stable kernels",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 15, 13:34"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073060/",
+  "originalSite": "lwn.net",
+  "context": "Linux 稳定内核是长期支持的版本，会持续接收安全和错误修复。CVE-2026-46333 是一个安全漏洞，可能允许攻击者利用系统，由于概念验证利用代码已公开，实际攻击的风险增加。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SUSE: 2020:0806-1 Important: Tomcat File Disclosure Fix",
+      "url": "https://linuxsecurity.com/advisories/suse/suse-2020-0806-1-important-tomcat-14-19-09"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

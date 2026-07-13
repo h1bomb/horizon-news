@@ -1,0 +1,44 @@
+{
+  "id": "1a1d6b58a968e885ed5a23c710d6644adae3b1eb",
+  "canonicalId": "0e08e1ee3bac19d8c06fc9466406e1038ddd6255",
+  "slug": "anthropic-披露多家中国-ai-实验室对-claude-发起大规模蒸馏攻击-1a1d6b58",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 披露多家中国 AI 实验室对 Claude 发起大规模蒸馏攻击",
+  "summary": "Anthropic 近日发布报告，指控三家中国 AI 实验室——DeepSeek、月之暗面（Moonshot AI）和 MiniMax——对其 Claude 模型发起大规模“蒸馏攻击”。据称，这些实验室创建了超过 24,000 个虚假账号，并进行了超过 1600 万次对话交互，以提取 Claude 的能力用于训练他们自己的模型。 这一事件凸显了 AI 行业面临的一个重大安全与伦理挑战，即模型能力和安全护栏正被系统性提取，以规避出口管制和竞争壁垒。它反映了全球 AI 竞争不断升级的紧张局势，并对当前针对工业规模知识产权提取的防护措施的有效性提出了质疑。 Anthropic 指出，这些攻击规避了安全监管与出口管制，该公司正通过行为指纹识别等技术加强防御。此次行动的规模——跨越数万个虚假账号的数百万次交互——表明这是一次有组织的、工业级别的努力，而非孤立的研究尝试。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Model Distillation",
+    "AI Ethics",
+    "Anthropic",
+    "Chinese AI Labs"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 25, 04:15"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/39851",
+  "originalSite": "t.me",
+  "context": "模型蒸馏是一种技术，通过使用更强大模型的输出来训练一个较小或能力较弱的模型，以复制其能力。虽然知识蒸馏是一种合法的研究方法，但当它被大规模用于系统性提取专有模型智能、违反服务条款并规避安全过滤器时，就成为一种“攻击”或“盗窃”。AI 安全控制是 Anthropic 等公司实施的措施，旨在防止其模型生成有害、有偏见或不安全的内容，但像多轮提示这样的技术有时可以绕过这些防护措施。",
+  "discussion": "Reddit 上的讨论揭示了技术社区内部的争论。一些用户质疑为什么标准的“知识蒸馏”突然被标记为盗窃，这表明合法研究和恶意提取之间的界限变得模糊。其他人则对攻击的工业规模和协调性表示担忧，认为这明显违反了服务条款，并可能构成知识产权侵权。",
+  "references": [
+    {
+      "title": "Detecting and preventing distillation attacks - Anthropic",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "title": "Anthropic joins OpenAI in flagging 'industrial-scale' distillation campaigns by Chinese AI firms - CNBC",
+      "url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html"
+    },
+    {
+      "title": "Anthropic: \"We've identified industrial-scale distillation attacks on our models by DeepSeek, Moonshot AI, and MiniMax.\" : r/ClaudeCode - Reddit",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rcp658/anthropic_weve_identified_industrialscale/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

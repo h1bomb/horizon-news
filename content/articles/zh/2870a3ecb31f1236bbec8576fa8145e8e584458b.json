@@ -1,0 +1,41 @@
+{
+  "id": "2870a3ecb31f1236bbec8576fa8145e8e584458b",
+  "canonicalId": "08e9aa519f8328638b1bd96afccd42541d2d00a8",
+  "slug": "meta-发布-muse-spark-11-代理式-ai-模型",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T14:10:00Z",
+  "lang": "zh",
+  "title": "Meta 发布 Muse Spark 1.1 代理式 AI 模型",
+  "summary": "Meta 于 2026 年 7 月 9 日公开发布 Muse Spark 1.1，这是一个专为代理式编程设计的多模态 AI 模型，可通过 Meta 开发者平台获取 API 访问。 此次发布将 Meta 定位为 OpenAI 和 Anthropic 在 AI 编程助手领域的主要竞争对手，以每百万输入令牌 1.25 美元的激进定价，可能通过将编程模型商品化来颠覆市场。 该模型在 Terminal-Bench 2.1 上进行了评估，但社区分析指出资源限制（6 个 CPU 核心、8GB 内存）被覆盖，这可能使结果无效。定价为每百万令牌输入 1.25 美元、输出 4.5 美元，缓存输入为 0.15 美元。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Meta",
+    "Muse Spark",
+    "LLM",
+    "benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ot",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48846184"
+    }
+  ],
+  "originalUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "originalSite": "ai.meta.com",
+  "context": "Muse Spark 是 Meta 最强大的 AI 模型，最初于 2026 年 4 月发布，作为更广泛规模化计划的一部分。代理式 AI 系统能够自主追求目标、使用工具并采取行动，超越了传统的文本生成。1.1 版本专门针对具备代理能力的编程任务。",
+  "discussion": "社区成员对基准测试的有效性持怀疑态度；GodelNumbering 指出覆盖 Terminal-Bench 2.1 中的资源上限会使结果无效。Simon Willison 分享了一个用于 LLM 的实用集成工具，其他人则讨论战略影响和定价，一些用户指出 Meta 的低价可能使编程模型商品化。",
+  "references": [
+    {
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1 ...",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/"
+    },
+    {
+      "title": "Introducing Muse Spark: Scaling Towards Personal ...",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

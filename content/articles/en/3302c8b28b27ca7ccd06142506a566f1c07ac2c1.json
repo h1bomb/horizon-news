@@ -1,0 +1,44 @@
+{
+  "id": "3302c8b28b27ca7ccd06142506a566f1c07ac2c1",
+  "canonicalId": "317e897a50a3f81c9549640b065695ad7dec798f",
+  "slug": "tldraw-moves-test-suite-to-private-repository-over-competitive-concerns",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T21:06:00Z",
+  "lang": "en",
+  "title": "tldraw moves test suite to private repository over competitive concerns",
+  "summary": "The tldraw collaborative drawing library is moving its comprehensive test suite from its public GitHub repository to a private one. This decision was reportedly prompted by concerns that detailed tests could enable competitors or AI agents to rebuild the library's functionality from scratch, as demonstrated by Cloudflare's recent project to port Next.js using AI. This move highlights a growing tension for commercial open-source projects (COSS) between maintaining transparency and protecting their intellectual property and business viability. It raises fundamental questions about what core assets should remain open and could set a precedent for other companies to restrict access to tests, potentially altering open-source development practices. It's important to note that tldraw is not under a traditional open-source license; it uses a custom license that requires a commercial license for use in production environments. The team also filed a satirical issue about translating their code to Traditional Chinese to \"defend intellectual property\" from AI agents, highlighting the broader, often ironic, concerns in the AI era.",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "business-models",
+    "testing",
+    "intellectual-property",
+    "software-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "tldraw is a popular SDK for building infinite canvas and whiteboard applications with real-time collaboration features. Commercial Open Source Software (COSS) companies often release their core code publicly but rely on proprietary extensions, hosted services, or support for revenue. Build tools like Vite and Webpack are used to bundle and optimize web application code, and AI-assisted code generation is becoming increasingly capable of understanding and replicating software based on public artifacts like tests.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "tldraw: Infinite Canvas SDK for React",
+      "url": "https://tldraw.dev/"
+    },
+    {
+      "title": "tldraw/tldraw: very good whiteboard infinite canvas SDK - GitHub",
+      "url": "https://github.com/tldraw/tldraw"
+    },
+    {
+      "title": "Business models for open-source software - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Business_models_for_open-source_software"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

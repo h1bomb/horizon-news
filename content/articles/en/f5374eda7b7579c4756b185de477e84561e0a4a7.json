@@ -1,0 +1,44 @@
+{
+  "id": "f5374eda7b7579c4756b185de477e84561e0a4a7",
+  "canonicalId": "cad9e3f92032dc10f92738b29141c4a2dc1c439c",
+  "slug": "cybersecurity-platform-reports-exposed-openclaw-instances-worldwide-with-high-risk-vulnerabilities",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-04T00:01:00Z",
+  "lang": "en",
+  "title": "Cybersecurity Platform Reports Exposed OpenClaw Instances Worldwide with High-Risk Vulnerabilities",
+  "summary": "The cybersecurity monitoring platform 'OpenClaw Exposure Watchboard' has disclosed multiple publicly accessible and active OpenClaw instances globally. These exposed instances, located in regions including mainland China, Singapore, the US, and Germany, were found to contain high-risk vulnerabilities such as CVE-2024-6387 and CVE-2025-26465, with potential links to threat groups like APT28, APT41, and Volt Typhoon. This disclosure is significant because it reveals a widespread, real-world security risk affecting a popular AI automation tool. The presence of critical vulnerabilities in exposed instances, coupled with potential links to sophisticated threat actors, poses a direct risk of data breaches, unauthorized access, and potential compromise of connected services and platforms. The exposed instances are hosted on major cloud providers including Alibaba Cloud, Tencent Cloud, Baidu Cloud, and DigitalOcean. The platform's advisory recommends that deployers immediately enable authentication, remove direct public internet exposure, and apply security patches. The source of this disclosure appears to be a Telegram channel, which may affect the perceived credibility of the information.",
+  "score": 7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-disclosure",
+    "cloud-security",
+    "threat-intelligence",
+    "infosec"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openclaw.allegro.earth/",
+  "originalSite": "openclaw.allegro.earth",
+  "context": "OpenClaw is a popular open-source project that functions as an AI-powered automation and assistant platform. It allows users to deploy a single AI agent that can connect to and operate across multiple messaging and collaboration platforms like Telegram, Discord, iMessage, Feishu, and DingTalk. CVE-2024-6387 is a critical remote code execution vulnerability in the OpenSSH server (sshd), stemming from a signal handler race condition that allows unauthenticated remote attackers to execute arbitrary code as root. APT28, APT41, and Volt Typhoon are names assigned by cybersecurity researchers to distinct, sophisticated threat groups, often suspected to be state-sponsored, known for conducting long-term, targeted cyber espionage or disruptive operations.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "全网火爆的 OpenClaw 是 什 么 ？ 怎 么 玩？ 阿里云 OpenClaw ...",
+      "url": "https://developer.aliyun.com/article/1714289"
+    },
+    {
+      "title": "CVE-2024-6387 Vulnerability: Analysis, Impact, Mitigation | Huntress",
+      "url": "https://www.huntress.com/threat-library/vulnerabilities/cve-2024-6387"
+    },
+    {
+      "title": "Advanced persistent threat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_persistent_threat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

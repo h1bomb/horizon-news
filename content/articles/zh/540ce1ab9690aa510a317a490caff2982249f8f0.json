@@ -1,0 +1,40 @@
+{
+  "id": "540ce1ab9690aa510a317a490caff2982249f8f0",
+  "canonicalId": "2e235800f9da69704698f2a3d4a6fdf2cec32178",
+  "slug": "翻译巨头-deepl-进军语音领域推出实时语音翻译套件与-api",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "翻译巨头 DeepL 进军语音领域，推出实时语音翻译套件与 API",
+  "summary": "4 月 16 日，DeepL 正式推出了实时语音翻译套件 DeepL Voice，支持 Zoom 和 Microsoft Teams 等会议平台，用户可在会议中实时收听翻译音频或查看屏幕字幕。同时，DeepL 发布了相关 API，允许企业将该技术集成至呼叫中心等自定义场景，并支持通过 QR 码快速加入多人的线下或远程群聊翻译。 此举标志着 DeepL 从文本翻译拓展至实时语音翻译领域，有望提升全球商业和远程协作中的沟通效率。它可能加剧与其它 AI 翻译服务的竞争，并推动语音处理技术的创新。 当前系统采用“语音-文本-语音”的转换架构，以平衡翻译延迟与准确度，并计划未来开发端到端的直接语音翻译模型。该技术还具备学习行业术语及专有名词的能力，以提升专业场景下的翻译质量，目前处于早期访问阶段，并开放了企业候补名单申请。",
+  "score": 7,
+  "tags": [
+    "AI/ML",
+    "Translation Technology",
+    "Real-time Systems",
+    "API Development",
+    "Speech Processing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 17, 03:04"
+    }
+  ],
+  "originalUrl": "https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/",
+  "originalSite": "techcrunch.com",
+  "context": "DeepL 是一家德国公司，以其高质量的在线文本翻译服务而闻名，因其准确性和多语言支持而广受欢迎。实时语音翻译通常涉及将语音转换为文本、翻译文本，然后将翻译后的文本合成为目标语言语音，这一过程被称为“语音-文本-语音”转换。端到端的直接语音翻译模型旨在通过直接将语音翻译为语音，无需中间文本步骤，来简化这一过程，从而可能降低延迟和错误传播。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DeepL launches DeepL Voice, real-time, text-based translations",
+      "url": "https://techcrunch.com/2024/11/13/deepl-launches-deepl-voice-real-time-text-based-translations-from-voices-and-videos/"
+    },
+    {
+      "title": "Direct Speech to Speech Translation: A Review - arXiv.org",
+      "url": "https://arxiv.org/html/2503.04799v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

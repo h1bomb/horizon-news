@@ -1,0 +1,43 @@
+{
+  "id": "15da666c90d3a4bd1910ba97a734c67aaaef4607",
+  "canonicalId": "277ee8a11b620bb853d00e04a7488f8ae1dc5a24",
+  "slug": "python-packaging-council-approved-via-pep-772",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T16:48:00Z",
+  "lang": "en",
+  "title": "Python Packaging Council Approved via PEP 772",
+  "summary": "The Python packaging community now has a formal governance council, approved via PEP 772 on April 16, 2026, with elections expected after PyCon US 2026. This establishes a democratically elected body with broad authority over packaging standards, tools, and implementations, replacing the previous ad-hoc delegation and giving the community a stronger voice in packaging decisions. The council will consist of five elected members, modeled after the Python steering council and typing council. The steering council will explicitly delegate its PEP-deciding role for relevant PEPs to the packaging council.",
+  "score": 8,
+  "tags": [
+    "Python",
+    "packaging",
+    "governance",
+    "PEP"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1068704/",
+  "originalSite": "lwn.net",
+  "context": "Python packaging has historically been governed by the Python Packaging Authority (PyPA), a loose organization of projects, and a PSF working group, but neither had a community-elected body. PEP 772 was first proposed in February 2025 and underwent lengthy discussions, including debates over who qualifies as a voting community member, especially regarding non-PyPA projects like uv.",
+  "discussion": "The discussion highlighted challenges in defining the voting community, with Charlie Marsh noting that uv developers would not qualify under the initial nonprofit requirement. The requirement was later removed, and the final PEP adopted a more inclusive approach.",
+  "references": [
+    {
+      "title": "PEP 772: Packaging Council governance process (Round 2) -",
+      "url": "https://discuss.python.org/t/pep-772-packaging-council-governance-process-round-2/93904"
+    },
+    {
+      "title": "PEP 772: Packaging Council governance process (Round 3) -",
+      "url": "https://discuss.python.org/t/pep-772-packaging-council-governance-process-round-3/100181"
+    },
+    {
+      "title": "Proposal to create a Python Packaging Council - Packaging -",
+      "url": "https://discuss.python.org/t/proposal-to-create-a-python-packaging-council/25469"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

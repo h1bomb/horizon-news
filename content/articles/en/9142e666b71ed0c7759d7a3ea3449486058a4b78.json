@@ -1,0 +1,39 @@
+{
+  "id": "9142e666b71ed0c7759d7a3ea3449486058a4b78",
+  "canonicalId": "b046424d936b98c0fd407f06e2dfeb002ee92cfe",
+  "slug": "zig-0160-introduces-structured-concurrency-via-io-interface",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T13:52:00Z",
+  "lang": "en",
+  "title": "Zig 0.16.0 Introduces Structured Concurrency via Io Interface",
+  "summary": "Zig 0.16.0 expands the new Io interface, which provides async() and concurrent() functions that return Future objects with await() and cancel() methods, implementing structured concurrency. This design offers an explicit and verbose alternative to other languages' implicit async models, potentially reducing bugs from cancellation and improving resource cleanup control in systems programming. The async() function can run a callback simultaneously in another thread, while concurrent() must run in another thread. Future methods are idempotent, allowing multiple await() or cancel() calls safely.",
+  "score": 8,
+  "tags": [
+    "Zig",
+    "structured concurrency",
+    "systems programming",
+    "asynchronous"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1068409/",
+  "originalSite": "lwn.net",
+  "context": "Structured concurrency ensures that concurrent tasks are scoped within a parent context, preventing orphaned threads and improving error propagation. Zig's approach passes an Io interface explicitly, similar to its allocator API, contrasting with Rust's implicit async model which has faced issues with cancellation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Structured concurrency",
+      "url": "https://en.wikipedia.org/wiki/Structured_concurrency"
+    },
+    {
+      "title": "Zig's New Async I/O | Loris Cro's Blog",
+      "url": "https://kristoff.it/blog/zig-new-async-io/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

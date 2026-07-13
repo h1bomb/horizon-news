@@ -1,0 +1,40 @@
+{
+  "id": "e806dda5d32679eb258d6a0695c28b5310e2b9d2",
+  "canonicalId": "88cf3dd0d29445b1d2db0ee4882e3078b6a643b5",
+  "slug": "重新审视-msharelinux-共享内存的页表共享",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-14T00:00:00Z",
+  "lang": "zh",
+  "title": "重新审视 mshare：Linux 共享内存的页表共享",
+  "summary": "在 2026 年 LSFMM+BPF 峰会上，Anthony Yznaga 展示了更新的 mshare 补丁集，引入了一套基于系统调用的新 API（如 mshare_create、mshare_attach 等），用于在共享内存的无关进程之间共享页表，取代了之前基于 msharefs 文件系统的方法。 这项工作直接解决了页表开销可能超过共享内存本身的可扩展性问题，影响数据库和虚拟化等工作负载。如果合并，mshare 将大幅减少内存消耗并提升 Linux 中多进程共享内存应用的性能。 新 API 包括返回文件描述符的 mshare_create()，通过 ftruncate()设置区域大小，以及 mshare_attach()映射区域。其他调用如 mshare_map()、mshare_advise()和 mshare_protect()处理映射、建议和保护更改。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "page tables",
+    "mshare",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 13, 13:19"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072333/",
+  "originalSite": "lwn.net",
+  "context": "在 Linux 中，共享内存的进程各自维护自己的页表副本，当许多进程共享大区域时会导致显著开销。页表是 CPU 用于将虚拟地址转换为物理地址的数据结构。mshare 旨在允许无关进程共享同一物理内存的单一页表集，减少重复和内存压力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Sharing page tables with mshare () - LWN.net",
+      "url": "https://lwn.net/Articles/895217/"
+    },
+    {
+      "title": "Introduction to mshare | linux - Oracle Blogs",
+      "url": "https://blogs.oracle.com/linux/mshare"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

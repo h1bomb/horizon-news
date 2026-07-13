@@ -1,0 +1,32 @@
+{
+  "id": "cdd026e7e2d4fc4fac70365e89df7eb31a488e34",
+  "canonicalId": "9d5cf71a8f62da37f5be1d454de9cfac875c3be6",
+  "slug": "用人工智能更慢地写出更好的代码",
+  "date": "2026-05-26",
+  "publishedAt": "2026-05-25T23:16:00Z",
+  "lang": "zh",
+  "title": "用人工智能更慢地写出更好的代码",
+  "summary": "Nolan Lawson 的博客文章主张，对 AI 辅助编码采用深思熟虑、迭代的方法，可以产生比通常注重速度的做法更高质量的代码，这挑战了 AI 编码工具的主流叙事。 这一观点意义重大，因为它鼓励开发者重新思考他们在工作流程中使用 AI 的方式，可能会带来更好的代码质量和更可持续的软件工程实践。 作者描述了一个涉及多个 AI 模型的工作流程，用于设计、实现和审查，强调迭代和彻底性而非原始速度，并指出像 Claude 和 Codex 这样的工具可以串联使用以捕获边界情况。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "coding",
+    "software engineering",
+    "productivity",
+    "code quality"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "signa11",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48272984"
+    }
+  ],
+  "originalUrl": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+  "originalSite": "nolanlawson.com",
+  "context": "AI 编码助手（如 ChatGPT、Claude 和 GitHub Copilot）因能快速生成代码而变得流行，但输出质量可能差异很大。本文提出了一种更慢、更审慎的过程，利用 AI 进行设计和审查，同时辅以人工监督。",
+  "discussion": "评论揭示了不同的体验：一些人发现 AI 辅助的工作流程会变成漫长的反复过程，甚至可能超过手动编码的时间；而另一些人则看重针对不同阶段（设计、实现、审查）使用多个 LLM 的价值，并认为在审慎使用的情况下 AI 可以生成高质量代码。少数评论者出于伦理原因对 AI 持怀疑态度，但发现代码审查用例问题较少。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "7f44d7438bd6ad96e3a50541a6c15be13a6c5c73",
+  "canonicalId": "09109b70a43ea7c067c32515c28bd3edf28b0cfb",
+  "slug": "imgnet-face-verification-via-sign-pattern-matching",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T18:00:00Z",
+  "lang": "en",
+  "title": "IMGNet: Face Verification via Sign Pattern Matching",
+  "summary": "IMGNet introduces a face verification model that replaces cosine similarity with sliding window sign pattern matching, achieving 96.27% accuracy on LFW with a 10.58 MB model trained on CASIA-WebFace. This novel approach could enable more efficient and compact face verification systems, and the finding that sign pattern matching improves ArcFace embeddings without retraining suggests a fundamental property of well-trained face embeddings. The model uses a SW Block replacing standard convolution with multi-scale relational operations, an IMG Sign MSE Loss defined purely over sign pattern agreement, and a voting system combining three metrics. Applied to ArcFace (buffalo_l) without retraining, IMG Sign Score achieves 99.58% on LFW, only 0.24% below ArcFace+Cosine.",
+  "score": 8,
+  "tags": [
+    "face verification",
+    "machine learning",
+    "computer vision",
+    "representation learning",
+    "embedding similarity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/img-_-"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1urxvxh/i_built_imgnet_a_face_verification_model_that/",
+  "originalSite": "reddit.com",
+  "context": "Face verification typically compares embedding vectors using cosine similarity to determine if two faces belong to the same person. IMGNet instead compares local relational sign patterns across overlapping windows of the embedding, inspired by linguistic examples where surface forms differ but meaning is preserved. The model is trained on the CASIA-WebFace dataset with 490k images.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - imamgh11/imgnet: NEW ERA OF AI",
+      "url": "https://github.com/imamgh11/imgnet"
+    },
+    {
+      "title": "imgnet/README.md at main · imamgh11/imgnet · GitHub",
+      "url": "https://github.com/imamgh11/imgnet/blob/main/README.md"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

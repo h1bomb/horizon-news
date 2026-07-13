@@ -1,0 +1,40 @@
+{
+  "id": "b907a03206cde57d44feb93b8ef2daecde7a3968",
+  "canonicalId": "24228d7727576a21cee4d13a55c6ff21b888ae06",
+  "slug": "iclr-2025-口头报告论文因在-sql-代码生成评估中使用自然语言指标而受批评",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "lang": "zh",
+  "title": "ICLR 2025 口头报告论文因在 SQL 代码生成评估中使用自然语言指标而受批评。",
+  "summary": "一篇 Reddit 帖子指出，一篇 ICLR 2025 口头报告论文使用自然语言指标而非基于执行的指标来评估大型语言模型的 SQL 代码生成，报告的假阳性率约为 20%。这一方法学缺陷引发了关于该论文在顶级会议上被选为口头报告的争议。 这一事件引发了对 ICLR 等知名机器学习会议同行评审质量的担忧，可能损害科学严谨性和对已发表研究的信任。它凸显了学术出版中的更广泛问题，如偏见、论文选择的随机性以及发表优先于方法学严谨性的倾向。 该论文的评估方法依赖于字符串匹配或类似的自然语言指标，与基于执行的指标相比，可能错误评估 SQL 的正确性，后者通过在实际数据库中测试代码来验证。20%的假阳性率表明评估存在显著不准确性，质疑了论文结论的有效性。",
+  "score": 7,
+  "tags": [
+    "Machine Learning",
+    "Academic Publishing",
+    "Peer Review",
+    "SQL Generation",
+    "ICLR"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 15, 06:12"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1slxqac/was_looking_at_a_iclr_2025_oral_paper_and_i_am/",
+  "originalSite": "reddit.com",
+  "context": "ICLR（国际学习表征会议）是一个顶级机器学习会议，论文通过同行评审被选为口头或海报报告。在 SQL 代码生成中，基于执行的评估涉及在数据库中运行生成的 SQL 查询以检查正确性，而自然语言指标则比较文本相似性，这对于代码评估可能不太可靠。ICLR 的口头报告论文通常被视为高影响力贡献，因此严格的评估至关重要。",
+  "discussion": "社区评论表达了怀疑和批评，用户将该论文的选择描述为“中彩票”或“氛围研究”，并强调了口头指定中的随机性和偏见等问题。一些人暗示存在串通，而另一些人则强调基于执行的指标对代码评估的重要性，反映了对学术界同行评审缺陷的更广泛担忧。",
+  "references": [
+    {
+      "title": "International Conference on Learning Representations - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations"
+    },
+    {
+      "title": "Text to SQL Evaluation Techniques: A Comprehensive Guide | Medium",
+      "url": "https://harshchandekar10.medium.com/text-to-sql-evaluation-techniques-a-comprehensive-guide-4b243c82ab88"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

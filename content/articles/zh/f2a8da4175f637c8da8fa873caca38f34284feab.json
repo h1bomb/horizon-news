@@ -1,0 +1,39 @@
+{
+  "id": "f2a8da4175f637c8da8fa873caca38f34284feab",
+  "canonicalId": "5314bc2d4f824658c4372e494b289b15663a3b1f",
+  "slug": "git-2550-发布新增-linux-fsmonitor-守护进程和历史命令改进",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T20:22:00Z",
+  "lang": "zh",
+  "title": "Git 2.55.0 发布，新增 Linux fsmonitor 守护进程和历史命令改进",
+  "summary": "Git 2.55.0 已发布，新增了实验性 'git history' 命令的功能，并为 Linux 系统添加了 fsmonitor 守护进程。此版本包含来自 100 位贡献者的非合并提交，其中 33 人是首次贡献者。 此次发布通过 fsmonitor 守护进程提升了 Linux 用户的性能，可显著加速 'git status' 等命令。增强后的 'git history' 命令提供了一种更交互式的方式来审查和修改提交历史，提高了开发者的效率。 fsmonitor 守护进程通过监视工作目录的文件变化来工作，使 Git 避免扫描整个目录树。'git history' 命令仍处于实验阶段；用户应注意其接口可能在未来版本中发生变化。",
+  "score": 8,
+  "tags": [
+    "Git",
+    "Version Control",
+    "Open Source",
+    "Release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1080188/",
+  "originalSite": "lwn.net",
+  "context": "Git 是一个分布式版本控制系统，广泛应用于软件开发中跟踪源代码变化。fsmonitor（文件系统监视器）守护进程是一个长期运行的后台进程，它缓存文件系统变化，以提高需要检查工作树状态的命令的性能。'git history' 命令提供了一个交互式的、基于补丁的界面来审查和修改提交历史，补充了现有的 'git rebase -i' 等工具。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Git - git-fsmonitor--daemon Documentation",
+      "url": "https://git-scm.com/docs/git-fsmonitor--daemon"
+    },
+    {
+      "title": "Git - git-history Documentation",
+      "url": "https://git-scm.com/docs/git-history"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

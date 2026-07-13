@@ -1,0 +1,40 @@
+{
+  "id": "c86a7442a31d5d098ce0d78980ad7a549d97534d",
+  "canonicalId": "9e85a2d28f8e31b37eef09d5819e33024637a457",
+  "slug": "torchdae-库为-pytorch-带来可微-dae-求解器",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T11:57:00Z",
+  "lang": "zh",
+  "title": "TorchDAE 库为 PyTorch 带来可微 DAE 求解器",
+  "summary": "一个名为 TorchDAE 的新 PyTorch 库已发布，提供隐式微分代数方程（DAE）求解器，支持 GPU 加速、通过虚拟导数进行指标约简以及伴随灵敏度方法。 TorchDAE 填补了 PyTorch 生态系统中的一个关键空白，实现了可微 DAE 仿真，这对于系统识别和物理信息建模等科学机器学习应用至关重要，并且全部支持 GPU。 该库实现了用于 DAE 的广义 Alpha 时间积分、虚拟导数指标约简和伴随灵敏度分析，并支持向量化执行和 GPU 加速。",
+  "score": 8,
+  "tags": [
+    "PyTorch",
+    "DAE solvers",
+    "scientific machine learning",
+    "adjoint sensitivity",
+    "index reduction"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Otaku_7nfy"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/",
+  "originalSite": "reddit.com",
+  "context": "微分代数方程（DAE）是一类将常微分方程与代数约束相结合的方程，常见于机械系统、电路仿真和化学过程。DAE 的“指标”衡量其复杂性；高指标（指标 > 1）的 DAE 难以数值求解，通常需要虚拟导数等指标约简技术将其转换为低指标形式。伴随灵敏度方法能高效计算仿真输出相对于参数的梯度，从而实现基于梯度的优化和机器学习集成。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Index Reduction in Differential-Algebraic Equations Using ...",
+      "url": "https://lucris.lub.lu.se/ws/files/9390471/7477.pdf"
+    },
+    {
+      "title": "Index Reduction in Differential-Algebraic Equations Using ...",
+      "url": "https://epubs.siam.org/doi/10.1137/0914043"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

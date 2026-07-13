@@ -1,0 +1,44 @@
+{
+  "id": "5c4efe41ec7043f81fed80f489ca0e434f3a5959",
+  "canonicalId": "526c7e57e7ac0c50984c64d17c3782468fa5333c",
+  "slug": "claude-code-removed-from-claude-pro-plan-prompting-shift-to-local-ai-models",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-21T21:54:00Z",
+  "lang": "en",
+  "title": "Claude Code removed from Claude Pro plan, prompting shift to local AI models.",
+  "summary": "A Reddit post reports that Claude Code, an AI coding assistant, has been removed from the Claude Pro subscription plan, leading users to consider alternatives like Kimi K2.6 and Qwen 3.6 35B A3B. The post suggests using OpenCode Go for cost-effective access to Kimi K2.6 or running Qwen 3.6 35B A3B locally with a decent graphics card. This change impacts developers who rely on Claude Code for coding assistance, potentially increasing costs or reducing accessibility, and highlights a trend towards local AI models as viable alternatives to cloud-based services. It reflects broader shifts in the AI ecosystem, where pricing adjustments and model availability can drive user migration to open-source or local solutions. The removal may affect existing Claude Pro users differently, with some hoping for grandfathering of prior subscriptions, and alternatives like Kimi K2.6 offer a 1T-parameter hybrid model for coding tasks, while Qwen 3.6 35B A3B requires local hardware such as an 8GB VRAM card for optimal performance. Limitations include potential usage caps on Claude Code before its removal and variable token costs in alternative plans.",
+  "score": 7,
+  "tags": [
+    "AI Models",
+    "Cloud Services",
+    "Local LLMs",
+    "Pricing Changes",
+    "Community Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "bigboyparpa"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/r8mub6oi7mwg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Claude Code is an AI-powered coding assistant developed by Anthropic, designed to help developers with programming tasks through cloud-based services. Local AI models like Kimi K2.6 and Qwen 3.6 35B A3B are open-source alternatives that can be run on personal hardware, offering more control and potentially lower costs compared to subscription plans. Kimi K2.6 is a 1T-parameter hybrid model by Moonshot, while Qwen 3.6 35B A3B is a coding-focused model from the Qwen series, requiring specific hardware for local deployment.",
+  "discussion": "Community sentiment is mixed, with some users expressing skepticism about the removal, calling it a 'rug pull,' while others note it might be a mistake or highlight existing usability issues with Claude Code's limits. Discussions include technical alternatives like OpenCode Go and comparisons to other services, as well as concerns about refunds for annual plan subscribers and predictions of future tier restructuring by Anthropic.",
+  "references": [
+    {
+      "title": "Claude Code - 100 Ways to Vibe Coding with Claude AI , Computer...",
+      "url": "https://claudecode.app/"
+    },
+    {
+      "title": "Kimi K2.6 - How to Run Locally | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/kimi-k2.6"
+    },
+    {
+      "title": "Recommended parameters for Qwen 3.6 35B A3B on a 8GB VRAM card ...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1spyr4t/recommended_parameters_for_qwen_36_35b_a3b_on_a/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

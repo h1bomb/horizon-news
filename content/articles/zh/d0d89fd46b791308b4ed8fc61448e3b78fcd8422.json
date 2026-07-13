@@ -1,0 +1,40 @@
+{
+  "id": "d0d89fd46b791308b4ed8fc61448e3b78fcd8422",
+  "canonicalId": "d17a14099ddc0eb3bd75b504918cae387d190b81",
+  "slug": "在浏览器中用-pyodide-和服务工作进程运行-python-asgi-应用",
+  "date": "2026-05-31",
+  "publishedAt": "2026-05-30T21:02:00Z",
+  "lang": "zh",
+  "title": "在浏览器中用 Pyodide 和服务工作进程运行 Python ASGI 应用",
+  "summary": "Simon Willison 展示了一种使用 Pyodide 和服务工作进程在浏览器中运行 Python ASGI 应用的方法，使得之前基于 Web Worker 的方法中无法执行的 JavaScript 脚本标签得以正常运行。这是通过 Claude Code 实验实现的，并在 Datasette Lite 和一个基本的 ASGI FastCGI 演示中进行了测试。 这一突破克服了在浏览器中运行 Python 应用的关键限制，使得依赖 JavaScript 的插件和动态内容能够正常执行。它显著增强了 Datasette Lite 等浏览器内 Python 工具的能力，并扩展了无服务器 Python 应用的潜力。 该演示使用服务工作进程替代 Web Worker 来拦截网络请求并在 Pyodide 中运行 Python ASGI 应用，从而保留了脚本标签的执行。Simon 计划在完全理解实现后，将 Datasette Lite 升级为采用这种方法。",
+  "score": 9,
+  "tags": [
+    "Pyodide",
+    "ASGI",
+    "WebAssembly",
+    "Datasette",
+    "Service Workers"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Pyodide 是一个基于 WebAssembly 的浏览器 Python 发行版，允许 Python 完全在客户端运行。ASGI（异步服务器网关接口）是异步 Python Web 服务器和应用的规范，支持 FastAPI 和 Starlette 等现代 Web 框架。服务工作进程是在 Web 浏览器后台运行的脚本，能够拦截网络请求并实现离线体验。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Pyodide — Version 0.29.4",
+      "url": "https://pyodide.org/"
+    },
+    {
+      "title": "GitHub - pyodide / pyodide : Pyodide is a Python distribution for...",
+      "url": "https://github.com/pyodide/pyodide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e31034e8384989b1d6b9397c5e1dcdf0e33039c0",
+  "canonicalId": "075483af3e5998f0590952002d87ef782825b233",
+  "slug": "研究人员通过电磁信号识别手机应用准确率达-99",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T16:05:00Z",
+  "lang": "zh",
+  "title": "研究人员通过电磁信号识别手机应用，准确率达 99%",
+  "summary": "中国研究人员开发出一种非接触式取证技术，通过分析泄漏的低频电磁信号来识别智能手机正在使用的应用及操作，在 iPhone 15 Pro、小米 15 Pro 和 OPPO Reno 13 等设备上准确率高达 99.07%。 这种攻击方法即使手机处于离线、飞行模式、加密或锁定状态也能工作，无需访问设备系统或存储数据，因此构成了严重的隐私威胁。 该技术分析了运行中智能手机组件发出的低频电磁（EM）信号，研究人员在抖音、微信视频通话、百度地图、短信、浏览器、相机和云存储等流行应用上进行了测试。",
+  "score": 8,
+  "tags": [
+    "security",
+    "privacy",
+    "electromagnetic signals",
+    "smartphone",
+    "side-channel attack"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.scmp.com/news/china/science/article/3359688/chinese-researchers-find-peephole-any-smartphone-its-leaked-radio-signal",
+  "originalSite": "scmp.com",
+  "context": "所有电子设备在运行时都会发出电磁辐射，这些无意的信号可能泄露设备的活动信息。这被称为侧信道攻击，攻击者利用电磁泄漏、功耗或声音等物理副产品进行攻击。以往的侧信道攻击通常需要物理接触或专用设备，而这项新技术是非接触式的，可在一定距离内工作。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

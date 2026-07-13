@@ -1,0 +1,41 @@
+{
+  "id": "3650a51ebfe013fe39f64edf7fbb397a00ecb8c6",
+  "canonicalId": "0aaee56134eca69f49273c886a3c14c895c0a6eb",
+  "slug": "mojo-10-beta-released",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-08T02:49:00Z",
+  "lang": "en",
+  "title": "Mojo 1.0 Beta Released",
+  "summary": "Modular Inc. released the Mojo 1.0 beta, a high-performance programming language combining Python-like syntax with Rust's ownership model and Zig's compile-time metaprogramming (comptime), targeting machine learning and systems programming. The company plans to open-source Mojo in Fall 2026. Mojo aims to bridge the gap between high-level usability and low-level performance, potentially attracting Python developers who need more speed without switching to C++ or Rust. Its unique use of LLVM and MLIR could set a new standard for domain-specific languages in AI and systems. Mojo's ownership model is similar to Rust's, ensuring memory safety without a garbage collector, while its comptime system is more powerful than Zig's, enabling extensive compile-time computation. It also features first-class SIMD support for vectorized operations.",
+  "score": 8,
+  "tags": [
+    "Mojo",
+    "programming language",
+    "ML",
+    "performance",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sbt567",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48057901"
+    }
+  ],
+  "originalUrl": "https://mojolang.org/",
+  "originalSite": "mojolang.org",
+  "context": "Ownership is a memory management concept where each value has a single owner, and the compiler enforces rules about borrowing and lifetimes, preventing memory errors without a garbage collector. Comptime (compile-time computation) allows code to be executed during compilation, enabling powerful metaprogramming and optimization. Mojo leverages these concepts to deliver high performance while retaining a Python-like syntax.",
+  "discussion": "Community reactions are generally positive, with users praising Mojo's ownership model, comptime, and SIMD support. However, some express skepticism about Python compatibility issues and the delay in open-sourcing until 2026. There are also concerns about competition from NVIDIA's CUDA Tile IR.",
+  "references": [
+    {
+      "title": "Understanding Ownership in Rust with Examples | by Luis... | Medium",
+      "url": "https://medium.com/coinmonks/understanding-ownership-in-rust-with-examples-73835ba931b1"
+    },
+    {
+      "title": "Comptime | zig .guide",
+      "url": "https://zig.guide/language-basics/comptime/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

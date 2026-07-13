@@ -1,0 +1,44 @@
+{
+  "id": "d4c86178250db2f28aef18061f6f6d3eb09479bb",
+  "canonicalId": "ba0a39d6d1285fa34a7cad5d8b2f0dd5852290f1",
+  "slug": "openai-codex-launches-subagents-and-custom-agents-in-general-availability",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T23:03:00Z",
+  "lang": "en",
+  "title": "OpenAI Codex launches subagents and custom agents in general availability",
+  "summary": "OpenAI Codex has released subagents and custom agents in general availability, allowing users to define custom agents via TOML files and execute tasks in parallel. The feature was previously in preview behind a feature flag for several weeks before today's general availability announcement. This enables more sophisticated AI-powered coding workflows where different specialized agents can work in parallel on complex tasks, significantly improving development efficiency. It represents a key advancement in agentic engineering, bringing Codex closer to functioning as a true coding agent rather than just an assistant. Users can define custom agents as TOML files in ~/.codex/agents/ with custom instructions and model assignments, including the high-speed gpt-5.3-codex-spark model. Codex provides default subagents named 'explorer', 'worker', and 'default', with 'worker' likely optimized for parallel execution of many small tasks.",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "Codex",
+    "AI Agents",
+    "Software Development",
+    "Automation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "OpenAI Codex is an AI coding agent developed by OpenAI that was introduced as a research preview in May 2025. It is designed to function more like a coding agent than a conventional assistant, handling complete coding tasks autonomously. Subagents are specialized AI instances that can be spawned to work on specific aspects of a coding problem, with the main agent orchestrating their work. The subagents pattern has become widely supported across various coding platforms including Claude Code, Gemini CLI, and Visual Studio Code.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenAI Codex (AI agent) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_Codex_(AI_agent)"
+    },
+    {
+      "title": "Subagents - developers.openai.com",
+      "url": "https://developers.openai.com/codex/subagents"
+    },
+    {
+      "title": "Introducing GPT‑5.3‑Codex‑Spark - OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

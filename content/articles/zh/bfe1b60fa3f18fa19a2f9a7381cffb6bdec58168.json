@@ -1,0 +1,44 @@
+{
+  "id": "bfe1b60fa3f18fa19a2f9a7381cffb6bdec58168",
+  "canonicalId": "b3ea0c1af5fe64f44ce49e3fe72571f1eecbbd3e",
+  "slug": "谷歌将量子威胁时间表提前至-2029-年警告加密算法面临破解风险",
+  "date": "2026-03-30",
+  "publishedAt": "2026-03-30T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌将量子威胁时间表提前至 2029 年，警告加密算法面临破解风险",
+  "summary": "谷歌宣布将量子威胁时间表大幅提前至 2029 年，预计届时量子计算机将能够破解现有的 RSA 和椭圆曲线等公钥加密算法。该公司正在优先推进身份验证服务和数字签名的后量子密码学（PQC）迁移，以应对'先存储后解密'等潜在安全威胁。 这一加速的时间表标志着网络安全领域的范式转变，因为它可能危及全球数字基础设施，包括金融系统、政府通信和个人数据。这强调了行业迫切需要采用后量子密码学，以防范未来的量子攻击。 谷歌的研究表明，破解一个 2048 位的 RSA 密钥可能仅需约 100 万个有噪声的量子比特，远低于此前估计的 10 亿个。这一激进的时间表比之前的行业预期和美国政府要求更为雄心勃勃，旨在为全球数字化转型提供清晰度和紧迫感。",
+  "score": 9,
+  "tags": [
+    "quantum computing",
+    "cryptography",
+    "cybersecurity",
+    "post-quantum cryptography",
+    "encryption"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 29, 01:18"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/",
+  "originalSite": "blog.google",
+  "context": "RSA 和椭圆曲线等公钥加密算法被广泛用于保护在线通信，它们依赖于经典计算机难以解决的数学问题。后量子密码学（PQC）指的是设计用于抵御经典和量子计算机攻击的密码系统，目前由 NIST 等组织主导标准化工作。量子计算机利用量子比特（qubits）进行计算，能够更高效地解决整数分解等问题，从而可能破解传统加密。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Post-quantum cryptography - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+    },
+    {
+      "title": "RSA (cryptosystem) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)"
+    },
+    {
+      "title": "Elliptic curve cryptography (ECC)",
+      "url": "https://en.wikipedia.org/wiki/Elliptic_curve_cryptography_(ECC)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

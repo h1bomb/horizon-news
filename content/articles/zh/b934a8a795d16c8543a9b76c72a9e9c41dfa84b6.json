@@ -1,0 +1,31 @@
+{
+  "id": "b934a8a795d16c8543a9b76c72a9e9c41dfa84b6",
+  "canonicalId": "d7499a6963c6e5c4d93bc34c41c648b8746b128e",
+  "slug": "openai-推出可委托-gpt-55-的-gpt-live-语音模式",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T17:03:00Z",
+  "lang": "zh",
+  "title": "OpenAI 推出可委托 GPT-5.5 的 GPT-Live 语音模式",
+  "summary": "OpenAI 宣布推出 GPT-Live 新语音模式，该模式可将复杂查询委托给 GPT-5.5 以获得更先进的回复，官方博客文章已公布。此功能旨在弥合语音助手与前沿 AI 模型之间的差距。 GPT-Live 通过实时委托给最新模型，显著增强了语音交互能力，使语音助手更加强大。这可能会改变用户免提进行头脑风暴、工作和交流的方式，有望为 AI 语音界面树立新标准。 据早期访问用户 simonw 称，GPT-Live 支持长达一小时的对话，不再受限于老旧的语音模型，但存在一个 bug，即会打断用户并对非预期的提示发笑。委托功能在后台运行，用户不再受限于落后前沿数年的语音模型。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "voice mode",
+    "OpenAI",
+    "GPT-5.5"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "logickkk1",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48834405"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-live/",
+  "originalSite": "openai.com",
+  "context": "GPT-Live 是一种语音模式，允许用户自然说话并从 GPT-5.5（OpenAI 最先进的模型）获得回复。之前的语音模式使用较小的专用模型，缺乏基于文本的 GPT 的全部推理能力。这种委托方法结合了低延迟语音识别与前沿模型的高智能。",
+  "discussion": "早期访问用户 simonw 称赞该功能支持长时间的生产性对话，但指出存在意外打断的 bug。一些评论者如 jonstaab 表达了对替代人际关系的伦理担忧，而 artdigital 则批评所有前沿助手在语音模式中缺乏工具/连接器支持。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "be6562b2047760c3956e5b166365239512337225",
+  "canonicalId": "a2d540a5384c5c2212860a5be61cf6bf2db53388",
+  "slug": "qwen35-122b-a10b-uncensored-aggressive-version-released-in-gguf-format-with-new-k-p-quantization",
+  "date": "2026-03-23",
+  "publishedAt": "2026-03-22T02:42:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-122B-A10B Uncensored Aggressive Version Released in GGUF Format with New K_P Quantization",
+  "summary": "An uncensored 'aggressive' version of the Qwen3.5-122B-A10B large language model has been released in GGUF format, featuring new K_P quantization methods that achieve zero refusals without capability loss. The model is available on Hugging Face with multiple quantization files, including the newly introduced K_P quants that use model-specific analysis for optimized quality preservation. This release is significant because it provides researchers and developers with a fully uncensored large language model that maintains original capabilities while being optimized for local deployment through efficient quantization. The new K_P quantization technique represents an advancement in model compression methods that could influence future open-source AI development by balancing performance with accessibility. The model achieved 0/465 refusals in testing with no looping or degradation issues, and users can disable the 'thinking' feature by editing the jinja template or using the 'enable_thinking': false parameter. K_P quants use model-specific analysis to selectively preserve quality where it matters most, reportedly providing 1-2 quantization levels better quality than standard methods.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Large Language Models",
+    "Quantization",
+    "Open Source",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "hauhau901"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s0aa1y/qwen35122ba10b_uncensored_aggressive_gguf_release/",
+  "originalSite": "reddit.com",
+  "context": "GGUF is a file format for representing AI models that supports various quantization types, enabling efficient deployment on local hardware. Quantization is a model optimization technique that reduces the precision of numerical values (like weights and activations) to lower memory usage and computational costs while maintaining accuracy. The Qwen series are large language models developed by Alibaba, with the 122B parameter version representing one of their largest models. Uncensored models remove content restrictions that are typically implemented in commercial AI systems to prevent harmful outputs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GGUF · Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    },
+    {
+      "title": "Model Quantization: Concepts, Methods, and Why It Matters",
+      "url": "https://developer.nvidia.com/blog/model-quantization-concepts-methods-and-why-it-matters/"
+    },
+    {
+      "title": "What is Quantization - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/deep-learning/quantization-in-deep-learning/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

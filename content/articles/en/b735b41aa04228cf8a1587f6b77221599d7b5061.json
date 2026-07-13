@@ -1,0 +1,44 @@
+{
+  "id": "b735b41aa04228cf8a1587f6b77221599d7b5061",
+  "canonicalId": "afc90b283999eb8b18407762bb496669ab8de8ad",
+  "slug": "mistral-ai-releases-voxtral-tts-a-3b-parameter-open-weights-model-outperforming-elevenlabs-flash-v25",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-26T13:07:00Z",
+  "lang": "en",
+  "title": "Mistral AI releases Voxtral TTS, a 3B-parameter open-weights model outperforming ElevenLabs Flash v2.5",
+  "summary": "Mistral AI has released Voxtral TTS, a 3-billion-parameter text-to-speech model with open weights that reportedly outperformed ElevenLabs Flash v2.5 in human preference tests. The model runs on about 3 GB of RAM, achieves 90-millisecond time-to-first-audio, and supports nine languages including English, French, German, Spanish, Dutch, Portuguese, Italian, Hindi, and Arabic. This release matters because it provides a high-performance, open-weights alternative to proprietary TTS models like ElevenLabs, potentially lowering barriers for developers and researchers in real-time conversational AI applications. The model's small memory footprint and low latency make it particularly suitable for deployment on consumer hardware and edge devices. Voxtral TTS adopts a hybrid architecture combining auto-regressive generation of semantic speech tokens with flow-matching acoustic transformers, achieving competitive quality despite its compact size. However, the model supports fewer languages (9) compared to ElevenLabs Flash v2.5 (32 languages), and voice cloning capabilities appear to be limited to Mistral's AI Studio platform according to community questions.",
+  "score": 8,
+  "tags": [
+    "text-to-speech",
+    "open-source",
+    "AI-models",
+    "Mistral-AI",
+    "multilingual"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Nunki08"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1s46ylj",
+  "originalSite": "reddit.com",
+  "context": "Text-to-speech (TTS) models convert written text into spoken audio, with applications ranging from voice assistants to accessibility tools. Open-weights models provide public access to model parameters but often come with usage restrictions, unlike fully open-source models where both code and weights are freely available. ElevenLabs Flash v2.5 is a proprietary ultra-low-latency TTS model designed for real-time applications, supporting 32 languages with approximately 75ms latency.",
+  "discussion": "Community discussion shows mixed but generally positive sentiment, with users praising the output quality while expressing concerns about licensing and voice cloning limitations. Several comments compare Voxtral TTS to other models like Qwen-3 TTS and Fish 2, noting its advantage in memory efficiency. Questions about whether voice cloning is restricted to Mistral's platform and comparisons with ElevenLabs' quality were recurring themes.",
+  "references": [
+    {
+      "title": "Voxtral TTS",
+      "url": "https://mistral.ai/static/research/voxtral-tts.pdf"
+    },
+    {
+      "title": "Meet Flash - ElevenLabs",
+      "url": "https://elevenlabs.io/blog/meet-flash"
+    },
+    {
+      "title": "Openness in Language Models : Open Source vs Open Weights vs...",
+      "url": "https://promptengineering.org/llm-open-source-vs-open-weights-vs-restricted-weights/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

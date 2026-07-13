@@ -1,0 +1,44 @@
+{
+  "id": "9457741c7964f81e2dce32d276b2789147ed996a",
+  "canonicalId": "c7aa6b708e62a2e5a7a19c9aeace843753199c5d",
+  "slug": "llamacpp-reaches-100000-stars-on-github",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-30T18:37:00Z",
+  "lang": "en",
+  "title": "llama.cpp reaches 100,000 stars on GitHub",
+  "summary": "The open-source project llama.cpp, which enables efficient local inference of large language models, has achieved 100,000 stars on GitHub, as announced by its creator Georgi Gerganov on X (formerly Twitter). This milestone reflects significant community engagement and adoption since its inception. This milestone highlights the growing demand for local AI inference solutions that offer privacy, cost savings, and hardware flexibility compared to cloud-based alternatives. It underscores the project's impact in democratizing access to advanced AI models, particularly for developers and researchers working on resource-constrained devices. llama.cpp leverages the GGML tensor library for optimized performance across diverse hardware, including support for CPU extensions like AVX and ARM Neon, and GPU backends such as CUDA for NVIDIA and HIP for AMD. It features integer quantization from 1.5-bit to 8-bit to reduce memory usage and accelerate inference, making it suitable for running models on commodity hardware.",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "open-source",
+    "machine-learning",
+    "local-inference",
+    "community-milestone"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/30ebeqqj88sg1.png",
+  "originalSite": "i.redd.it",
+  "context": "llama.cpp is an open-source C/C++ project that allows users to run large language models locally without relying on cloud services, using the GGML tensor library for efficient computation. It is based on the transformer architecture of models like Llama and supports various hardware optimizations to enable high-performance inference on CPUs and GPUs. Local inference refers to executing AI models on-device, offering advantages such as data privacy and reduced latency compared to cloud-based inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "llama.cpp - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    },
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++ · GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "ggml.ai",
+      "url": "https://ggml.ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

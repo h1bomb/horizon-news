@@ -1,0 +1,35 @@
+{
+  "id": "6e2786fcff1ee13f51336df712e03f8ccd78edba",
+  "canonicalId": "21206fc5ab123315b5529fb9eb6d6d3a6a77aa70",
+  "slug": "bpf-集成到-linux-内存管理面临障碍",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "BPF 集成到 Linux 内存管理面临障碍",
+  "summary": "在 2026 年 LSFMM+BPF 峰会上，Roman Gushchin 和 Shakeel Butt 主持了会议，探讨了使用 BPF（伯克利包过滤器）控制内存管理启发式方法（如内存不足处理和 NUMA 平衡）的障碍和要求。 如果成功，基于 BPF 的内存管理可以在无需修改内核的情况下允许灵活、用户定义的策略，从而可能提高各种工作负载的性能和适应性。 主要障碍包括树外 BPF 程序、无法将 struct ops 程序附加到控制组，以及安全性/回退问题——损坏的 BPF 程序可能导致系统崩溃。",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "BPF",
+    "memory management",
+    "kernel development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "May 15, 14:54"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072538/",
+  "originalSite": "lwn.net",
+  "context": "Linux 存储、文件系统、内存管理与 BPF 峰会（LSFMM+BPF）是一个每年一次的仅限受邀者参加的活动，内核开发者在此讨论改进。BPF 允许在内核中运行沙盒程序，但其在内存管理中的应用仍处于实验阶段。先前的 BPF 控制内存启发式方法的提案尚未合并到主线内核中。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linux Storage, Filesystem, MM & BPF Summit | LF Events",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

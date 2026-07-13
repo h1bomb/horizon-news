@@ -1,0 +1,44 @@
+{
+  "id": "553c1439081bb766d9f5920366e0c5e3e5364e2b",
+  "canonicalId": "b163e46a7879639466e9c4f122d3208915508c9a",
+  "slug": "谷歌拟向五角大楼机密环境部署-tpu-芯片加速-gemini-在国防领域的落地",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌拟向五角大楼机密环境部署 TPU 芯片，加速 Gemini 在国防领域的落地。",
+  "summary": "谷歌正与美国国防部谈判，计划首次在获准的机密环境中部署其自研的 TPU 芯片及 GPU 机架，以支持 Gemini 人工智能模型在大规模机密任务中的运行。拟议的合同条款包含禁止用于国内大规模监控和全自动武器的限制，这与 OpenAI 此前的协议类似。 此举有助于谷歌缩小与 AWS 和微软在机密云市场的差距，预计到 2027 年其国防领域收入可达 20 亿美元。它还突显了先进 AI 硬件在国家安全基础设施中的日益融合，对国防 AI 应用的伦理和战略影响提出了新问题。 谷歌分布式云已获得处理秘密级数据的 IL6 授权，但机密边界内仍缺乏支撑大规模工作负载的基础设施。谷歌公职部门的目标是在 2025 至 2027 年间实现约 60 亿美元的预订额，其中 20 亿美元预计来自国防领域。",
+  "score": 8,
+  "tags": [
+    "Artificial Intelligence",
+    "Defense Technology",
+    "Cloud Computing",
+    "Hardware",
+    "Ethics in AI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 17, 15:03"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-and-pentagon-in-talks-to-run-tpus-inside-classified-environments",
+  "originalSite": "tomshardware.com",
+  "context": "TPU 是谷歌自主研发的专用集成电路，专为机器学习工作负载优化，相比传统 GPU 能显著提升性能。DoD IL6 是 FedRAMP 和国防部框架内针对处理秘密级数据的云环境的最高授权，确保严格的安全控制。Gemini 是谷歌最强大的通用基础 AI 模型，具备多模态能力，可用于视觉语言处理和高级推理等任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Tensor Processing Unit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit"
+    },
+    {
+      "title": "DoD IL6: What It Is and Why It Matters | Schellman",
+      "url": "https://www.schellman.com/blog/federal-compliance/dod-il6-explained"
+    },
+    {
+      "title": "Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "91ca1f9aec77a3e02b77da62195cc16e52050466",
+  "canonicalId": "1e5d316844110462b00595dd569eac975cffe36a",
+  "slug": "调查揭露美国年龄验证法案背后的企业协同推动",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-14T00:00:00Z",
+  "lang": "zh",
+  "title": "调查揭露美国年龄验证法案背后的企业协同推动",
+  "summary": "一位 Reddit 用户发布了一项广泛调查，追踪了美国各州年龄验证法案背后的公司，揭露了一个利用 IRS 990 申报文件和 WHOIS 查询等公共记录进行的协同影响力操作。调查发现，该操作正在操作系统层面构建监控基础设施，而其背后的公司自身平台却无需承担任何新要求。 这很重要，因为它揭露了企业利益如何塑造隐私立法以创建监控基础设施，同时逃避责任，可能在儿童保护的幌子下为广泛的数字监控树立先例。这些发现凸显了对数字隐私权和技术政策立法过程完整性的重大影响。 该调查使用包括参议院游说披露、州道德数据库和 Wayback Machine 档案在内的多种数据源，分析了 20 亿美元的非营利资助和 45 项州法案。一个关键发现是，推动这些法案的公司尽管在立法中倡导监控基础设施，但其自身平台却无需承担任何新要求。",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "policy",
+    "investigation",
+    "age-verification"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 13, 14:09"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1062779/",
+  "originalSite": "lwn.net",
+  "context": "年龄验证法案是要求在线平台验证用户年龄的拟议立法，通常通过政府 ID 或生物识别数据，据称是为了保护儿童免受有害内容侵害。IRS 990 申报文件是非营利组织必须向 IRS 提交的年度纳税申报表，提供可揭示资金来源和活动的财务和运营细节。WHOIS 查询通过查询数据库来识别域名注册者，而 Wayback Machine 档案保存网站的历史版本，两者都可用于跟踪组织变化和影响力活动。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2025 Instructions for Form 990 Return of Organization Exempt From...",
+      "url": "https://www.irs.gov/pub/irs-pdf/i990.pdf"
+    },
+    {
+      "title": "Whois lookup",
+      "url": "https://en.wikipedia.org/wiki/Whois_lookup"
+    },
+    {
+      "title": "Wayback Machine - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wayback_Machine"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

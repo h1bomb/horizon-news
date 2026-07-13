@@ -1,0 +1,40 @@
+{
+  "id": "2064626544a3e475d0c9cf1fc1339b03ecd22f53",
+  "canonicalId": "3c13b3b716e54c27134ed52404986a449f15a753",
+  "slug": "gnupg-2519-released-with-kyber-pqc-support",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-24T13:43:00Z",
+  "lang": "en",
+  "title": "GnuPG 2.5.19 Released with Kyber PQC Support",
+  "summary": "GnuPG 2.5.19 has been released, introducing Kyber (ML-KEM, FIPS-203) as a post-quantum cryptography encryption algorithm, along with new options and bug fixes. The release also reminds users that the GnuPG 2.4 series will reach end-of-life in two months. This release marks a significant step forward for GnuPG by adding post-quantum cryptography support, which is crucial for long-term security against future quantum computer attacks. The impending end-of-life of the 2.4 series urges users to upgrade to maintain security updates. Kyber, standardized as ML-KEM under FIPS-203, replaces RSA and ECDH for key exchange in GnuPG. The 2.5 series also includes improvements for 64-bit Windows and internal changes to leverage newer library features, while maintaining full compatibility with previous versions.",
+  "score": 7,
+  "tags": [
+    "GnuPG",
+    "post-quantum cryptography",
+    "security",
+    "release",
+    "Kyber"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1069552/",
+  "originalSite": "lwn.net",
+  "context": "GnuPG (GNU Privacy Guard) is a free-software replacement for PGP, widely used for encryption and signing. Post-quantum cryptography (PQC) aims to develop cryptographic systems resistant to attacks from quantum computers, which could break current algorithms like RSA and ECDH. Kyber is a lattice-based key encapsulation mechanism selected by NIST as the first PQC standard.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ML - KEM - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kyber"
+    },
+    {
+      "title": "GNU Privacy Guard - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "7359379f1ecb8f98b9742b883ca6415cac7f3a26",
+  "canonicalId": "b958e58176b78cc83b5aa6c3b7ba8b39da57674b",
+  "slug": "openai-stops-using-swe-bench-verified-due-to-saturation",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-26T13:58:00Z",
+  "lang": "en",
+  "title": "OpenAI stops using SWE-bench Verified due to saturation",
+  "summary": "OpenAI announced it will no longer evaluate its models on the SWE-bench Verified benchmark, which has reached 93.9% saturation, and the SWE-bench team revealed upcoming multilingual and multimodal benchmarks. This highlights the challenge of benchmark saturation in AI evaluation, where top models quickly max out scores, reducing the benchmark's ability to differentiate capabilities and incentivizing gaming. SWE-bench Verified is a human-filtered subset of 500 instances; the upcoming SWE-bench Multilingual includes 300 tasks across 9 languages, and SWE-bench Multimodal will be open-sourced within a month.",
+  "score": 9,
+  "tags": [
+    "AI benchmarks",
+    "coding capabilities",
+    "SWE-bench",
+    "LLM evaluation",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kmdupree"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+  "originalSite": "openai.com",
+  "context": "SWE-bench is a benchmark that evaluates AI models on real-world software engineering tasks, such as fixing bugs or implementing features from GitHub issues. SWE-bench Verified is a curated subset designed to remove ambiguous or infeasible samples, making evaluation more reliable. Benchmark saturation occurs when models achieve near-perfect scores, diminishing the benchmark's utility for measuring progress.",
+  "discussion": "Co-creator ofirpress acknowledged saturation but noted room for growth for others, while commenters like Jcampuzano2 and cpard highlighted the inevitability of benchmark gaming and structural issues in benchmarks like ELT-Bench. jddj pointed out that many SWE-bench passing PRs would not be merged in practice.",
+  "references": [
+    {
+      "title": "SWE - bench Leaderboards",
+      "url": "https://www.swebench.com/"
+    },
+    {
+      "title": "SWE - bench Verified | Epoch AI",
+      "url": "https://epoch.ai/benchmarks/swe-bench-verified"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

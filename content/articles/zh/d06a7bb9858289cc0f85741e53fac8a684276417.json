@@ -1,0 +1,44 @@
+{
+  "id": "d06a7bb9858289cc0f85741e53fac8a684276417",
+  "canonicalId": "897758861a07f0343a9eac7c21c33b0c605df9c9",
+  "slug": "deepseek-开源权重发布赢得社区赞誉",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 开源权重发布赢得社区赞誉",
+  "summary": "一篇 Reddit 帖子强调，DeepSeek 持续发布开源权重的基础模型、详细的研究论文和开源内核，这与 Kimi、GLM、Minimax 和 Qwen 等其他 AI 实验室逐渐转向封闭形成鲜明对比。 DeepSeek 对开放的承诺推动了 AI 技术和效率的进步，为社区提供了宝贵的基础资源，尤其是在其他实验室限制基础模型和研究的访问之际。 帖子指出，DeepSeek 在发布时立即提供基础模型和开放权重，并附有详细论文，而其他实验室如 Kimi（K2.5 无基础模型）、GLM（5/5.1 无基础模型）、Minimax（延迟开放权重）和 Qwen（3.6 不开放）则较为封闭。",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "AI models",
+    "DeepSeek",
+    "open-weight",
+    "community discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 25, 01:50"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1suyu7a/im_glad_we_have_deepseek/",
+  "originalSite": "reddit.com",
+  "context": "开源权重模型是指参数公开可访问的大型语言模型，允许开发者运行、微调和研究。DeepSeek 是一家中国 AI 研究公司，以成本高效、高性能的模型以及频繁在 arXiv 上发表研究论文而闻名。",
+  "discussion": "评论者赞扬了 DeepSeek 的开源内核和代码库，认为它们非常有用。有人指出其他实验室仍发布优秀的小模型，并认为 OpenAI 和 Anthropic 应发布小型开放模型以参与竞争。还有人提到 DeepSeek 的 Flash 模型可在小型系统上运行，而 Trinity 大型基础模型也提供了另一个开放选择。",
+  "references": [
+    {
+      "title": "[2512.02556] DeepSeek-V3.2: Pushing the Frontier of Open ...",
+      "url": "https://arxiv.org/abs/2512.02556"
+    },
+    {
+      "title": "DeepSeek Research Papers - a NNEngine Collection",
+      "url": "https://huggingface.co/collections/NNEngine/deepseek-research-papers"
+    },
+    {
+      "title": "A Deep Peek into DeepSeek AI’s Talent ... - Hoover Institution",
+      "url": "https://www.hoover.org/sites/default/files/research/docs/Zegart_DeepSeekAI_Talent_FINAL_4-21.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

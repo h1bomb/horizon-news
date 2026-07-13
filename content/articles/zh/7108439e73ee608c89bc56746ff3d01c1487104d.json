@@ -1,0 +1,44 @@
+{
+  "id": "7108439e73ee608c89bc56746ff3d01c1487104d",
+  "canonicalId": "e382a657f64c14e813d35f9a923407d5c3cb08ac",
+  "slug": "luce-dflash在-rtx-3090-上实现-qwen36-27b-两倍吞吐量",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "Luce DFlash：在 RTX 3090 上实现 Qwen3.6-27B 两倍吞吐量",
+  "summary": "Luce DFlash 是 DFlash 推测解码的 GGUF 移植版，在单张 RTX 3090 上无需重新训练即可将 Qwen3.6-27B 的吞吐量提升至 2 倍。 这一突破显著加速了消费级硬件上的本地 LLM 推理，使个人和小团队更容易获得高性能 AI。 该实现基于 ggml 使用独立的 C++/CUDA 栈，需要 CUDA 12+和 24 GB 显存的 NVIDIA GPU，在 HumanEval 和 GSM8K 等基准测试上实现约 1.98 倍的平均加速。",
+  "score": 9,
+  "tags": [
+    "speculative decoding",
+    "local LLM inference",
+    "GGUF",
+    "CUDA",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 27, 16:31"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/ppdt7ixx9rxg1.png",
+  "originalSite": "i.redd.it",
+  "context": "推测解码通过使用小型草稿模型提出令牌，再由大型目标模型并行验证，从而加速 LLM 推理。GGUF 是一种量化模型文件格式，可在消费级硬件上实现高效推理。DFlash 是一种专为推测解码设计的块扩散模型，支持并行草稿生成。",
+  "discussion": "社区反响非常积极，称赞这一创新和速度提升。部分用户担心量化导致的质量下降以及缺乏多 GPU 支持，另一些用户则询问使用场景和基准测试情况。",
+  "references": [
+    {
+      "title": "Speculative decoding",
+      "url": "https://en.wikipedia.org/wiki/Speculative_decoding"
+    },
+    {
+      "title": "z-lab/ dflash : DFlash : Block Diffusion for Flash Speculative Decoding ...",
+      "url": "https://github.com/z-lab/dflash"
+    },
+    {
+      "title": "GGUF · Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

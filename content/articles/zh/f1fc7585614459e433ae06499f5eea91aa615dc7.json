@@ -1,0 +1,44 @@
+{
+  "id": "f1fc7585614459e433ae06499f5eea91aa615dc7",
+  "canonicalId": "2524798f2f8ef2ac7bc75f1ce1c54a069ef3ecb2",
+  "slug": "韩国国税厅误曝硬件钱包助记词导致-480-万美元加密货币被转走",
+  "date": "2026-03-01",
+  "publishedAt": "2026-03-01T00:00:00Z",
+  "lang": "zh",
+  "title": "韩国国税厅误曝硬件钱包助记词，导致 480 万美元加密货币被转走",
+  "summary": "韩国国税厅近日在公布对欠税人员的现场搜查成果时，将查封的一台 Ledger 硬件钱包的完整助记词未加遮挡地公开在新闻资料中。这导致该钱包内价值约 480 万美元的 400 万个 PRTG 代币被转走，但约 20 小时后，相关代币被全部退回原钱包。 这一事件突显了一个主要政府机构的严重安全失误，表明基本的操作疏忽就可能危及高价值的数字资产。它成为机构加密货币托管以及安全处理敏感恢复信息（即使是官方机构）重要性的一个关键案例。 被曝光的是一台 Ledger 硬件钱包，泄露原因是包含助记词的图片未经任何遮挡处理就被公开。链上记录显示，至少三个自 2023 年 1 月后不活跃的钱包受影响，这些钱包合计持有 PRTG 总供应量的 40%。PRTG 代币流动性极低，主要在 MEXC 交易所交易。",
+  "score": 7,
+  "tags": [
+    "cryptocurrency",
+    "security",
+    "blockchain",
+    "government",
+    "hardware-wallet"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Feb 28, 11:27"
+    }
+  ],
+  "originalUrl": "https://www.mk.co.kr/cn/stock/11974731",
+  "originalSite": "mk.co.kr",
+  "context": "硬件钱包是一种用于安全存储访问加密货币所需私钥的物理设备。助记词（通常为 12 或 24 个单词）是这些私钥的一种人类可读的备份形式；任何人获得该助记词即可完全控制相关资产。Ledger 是此类硬件钱包的知名制造商。暴露助记词等同于交出钱包及其资金的全部控制权。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Three lessons about hardware wallet security and their exploits",
+      "url": "https://vacuumlabs.com/3-lessons-about-hardware-wallet-security-and-their-exploits/"
+    },
+    {
+      "title": "Mnemonic Phrase: Wallet Keys Explained",
+      "url": "https://plisio.net/blog/mnemonic-phrases"
+    },
+    {
+      "title": "Ledger Hardware Wallet For Bitcoin & Cryptocurrency Storage",
+      "url": "https://www.mybitcoin.com/ledger-hardware-wallet/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

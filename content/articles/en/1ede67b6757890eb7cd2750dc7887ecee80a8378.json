@@ -1,0 +1,41 @@
+{
+  "id": "1ede67b6757890eb7cd2750dc7887ecee80a8378",
+  "canonicalId": "7f4c5f9ef711c7a0962643c1e6f50e83ee93fb86",
+  "slug": "openbsd-use-after-free-leads-to-local-privilege-escalation-to-root",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:24:00Z",
+  "lang": "en",
+  "title": "OpenBSD use-after-free leads to local privilege escalation to root",
+  "summary": "A use-after-free vulnerability (CVE-2026-57589) has been discovered in OpenBSD, allowing a local attacker to escalate privileges to root. This vulnerability is significant because OpenBSD is renowned for its security focus, and a local privilege escalation bug could undermine that reputation. It affects all systems running the vulnerable version. The vulnerability was discovered as part of the 'Patch The Planet' initiative by OpenAI and Trail of Bits. Details are currently limited; the OpenBSD security page does not yet list it.",
+  "score": 8,
+  "tags": [
+    "openbsd",
+    "security",
+    "vulnerability",
+    "CVE",
+    "privilege-escalation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "linggen",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48831658"
+    }
+  ],
+  "originalUrl": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+  "originalSite": "nvd.nist.gov",
+  "context": "OpenBSD is a free, Unix-like operating system focused on security and correctness. Local privilege escalation is an attack where a user with limited access gains higher privileges, such as root, by exploiting a software flaw.",
+  "discussion": "Comments highlight that the bug was found via AI-assisted vulnerability hunting, praise OpenBSD's strong security record, and question why it's not yet on the official OpenBSD security page. Some express curiosity about how many more vulnerabilities might be discovered by similar projects.",
+  "references": [
+    {
+      "title": "OpenBSD",
+      "url": "https://en.wikipedia.org/wiki/OpenBSD"
+    },
+    {
+      "title": "Local privilege escalation",
+      "url": "https://en.wikipedia.org/wiki/Local_privilege_escalation"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "0896a1f1009a058d205006b60b1443bda0aec9a2",
+  "canonicalId": "c18be2a6869d881772d27348c1e67f054699bfaa",
+  "slug": "cohere-offers-early-access-to-unreleased-coding-model-with-efficient-architecture",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T16:36:00Z",
+  "lang": "en",
+  "title": "Cohere Offers Early Access to Unreleased Coding Model with Efficient Architecture",
+  "summary": "Cohere has released an early access version of its first coding model, a 30B parameter model with only 3B active parameters, for community testing on Hugging Face before official launch. This marks Cohere's entry into the coding model space and demonstrates a focus on local deployment efficiency through sparse activation, potentially setting a new standard for developer-friendly AI tools. The model has 30B total parameters but only 3B active, suggesting a Mixture-of-Experts (MoE) architecture that enables fast inference on consumer hardware. Cohere is seeking community feedback to improve the model before its public release.",
+  "score": 8,
+  "tags": [
+    "Cohere",
+    "coding model",
+    "local LLM",
+    "early access",
+    "AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/nick_frosst"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/",
+  "originalSite": "reddit.com",
+  "context": "In AI models, parameters are the internal weights learned during training that determine output. A Mixture-of-Experts (MoE) architecture uses multiple specialized sub-networks (experts) and a gating mechanism to activate only a subset for each input, drastically reducing computational cost. For example, a 30B MoE model with 3B active parameters can run on a single GPU, making local deployment feasible.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of Experts Explained - Hugging Face",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "b3156f434e97418941679f7c0d9ddb1c8ae90d92",
+  "canonicalId": "8aa7f9bda7cf05aefa6170e0e77c51071a4ef128",
+  "slug": "linux-71-内核发布带来重大子系统改进",
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-14T18:47:00Z",
+  "lang": "zh",
+  "title": "Linux 7.1 内核发布，带来重大子系统改进",
+  "summary": "Linus Torvalds 发布了 Linux 7.1 内核，包含新的 clone() 标志、对 io_uring 的 BPF 支持、ublk 的零拷贝 I/O、初始 sched_ext 子调度器支持、交换改进以及完全重写的 NTFS 实现。 此版本集成了期待已久的功能，如 BPF 与 io_uring 的结合以及通过 sched_ext 实现的可扩展调度，这将增强 I/O 性能和进程管理灵活性。重写的 NTFS 驱动程序也改善了文件系统兼容性。 sched_ext 子调度器支持被描述为初始且不完整，而 NTFS 驱动程序则完全重写。内核还移除了对旧有的 486 架构的支持。",
+  "score": 9,
+  "tags": [
+    "Linux",
+    "kernel",
+    "BPF",
+    "io_uring",
+    "NTFS"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077758/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核是操作系统的核心，管理硬件和系统资源。io_uring 是一种现代异步 I/O 接口，用于高效的文件和网络操作。sched_ext 允许在 BPF 中编写调度策略并动态加载。ublk 是一种用户空间块设备驱动程序，提供安全性和灵活性。NTFS 是 Microsoft Windows 使用的文件系统。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "io_uring - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Io_uring"
+    },
+    {
+      "title": "GitHub - sched-ext/scx: sched_ext schedulers and tools · GitHub",
+      "url": "https://github.com/sched-ext/scx"
+    },
+    {
+      "title": "Userspace block device driver (ublk driver) — The Linux ...",
+      "url": "https://www.kernel.org/doc/html/latest/block/ublk.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

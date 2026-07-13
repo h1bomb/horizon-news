@@ -1,0 +1,44 @@
+{
+  "id": "d98e4cac72cd6ae84552c114187d36031e8d16fa",
+  "canonicalId": "038be5c4bc366ff6e0717c2d34f91ff783308922",
+  "slug": "bytedance-open-sources-lance-3b-unified-multimodal-model",
+  "date": "2026-05-23",
+  "publishedAt": "2026-05-22T06:40:00Z",
+  "lang": "en",
+  "title": "ByteDance Open-Sources Lance: 3B Unified Multimodal Model",
+  "summary": "ByteDance has open-sourced Lance, a 3 billion parameter multimodal model that natively unifies image and video understanding, generation, and cross-modal editing under the Apache 2.0 license. Lance's lightweight yet unified architecture achieves competitive results on benchmarks like GenEval and VBench, potentially lowering the barrier for multimodal AI research and applications. Lance uses a shared-context dual-stream expert architecture, with Qwen2.5-VL and Wan2.2 encoders for understanding and generation respectively, and introduces modality-aware positional encoding to resolve sequence boundary confusion.",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "ByteDance",
+    "open-source",
+    "AI",
+    "computer vision"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Unified multimodal models aim to handle both understanding and generation tasks in a single framework, traditionally requiring separate models. Qwen2.5-VL is a vision-language model series by Alibaba Cloud, while Wan2.2 is a video diffusion model by the Wan-Video team using Mixture-of-Experts. Modality-aware positional encoding helps the model distinguish between different input types within a shared sequence.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Qwen2.5-VL - a Qwen Collection",
+      "url": "https://huggingface.co/collections/Qwen/qwen25-vl"
+    },
+    {
+      "title": "GitHub - Wan-Video/Wan2.2: Wan: Open and Advanced Large-Scale ...",
+      "url": "https://github.com/Wan-Video/Wan2.2"
+    },
+    {
+      "title": "Revisiting Multimodal Positional Encoding in Vision–Language Models",
+      "url": "https://arxiv.org/html/2510.23095v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

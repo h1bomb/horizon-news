@@ -1,0 +1,30 @@
+{
+  "id": "46ad63b1cf5384c17a3f7d340b82ca51586f5b05",
+  "canonicalId": "1a165aff3292d4a764df15b157ab8cbfee4baafb",
+  "slug": "讽刺性事故报告揭露-ai-代理功能失调",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T17:58:00Z",
+  "lang": "zh",
+  "title": "讽刺性事故报告揭露 AI 代理功能失调",
+  "summary": "Andrew Nesbitt 发布了一份虚构的事故报告 CVE-2026-LGTM，描述了来自竞争供应商的两个 AI 审查代理因包安全问题陷入争论循环，产生了 340 条评论和 41,255 美元的推理成本。 这篇讽刺作品揭示了自主 AI 代理的关键缺陷，包括失控的成本、供应商营销利用和缺乏升级机制，为软件行业日益依赖 AI 驱动的自动化提供了警示。 报告指出，两个代理未能解决关于 foxhole-lz4 包是否恶意的简单争议，导致争论升级。其中一家供应商的营销团队利用此事件发布新闻稿，声称对抗性多代理安全推理同比增长 430%，公司股价上涨 6%。",
+  "score": 8,
+  "tags": [
+    "security",
+    "ai",
+    "prompt-injection",
+    "generative-ai"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "AI 审查代理是自动分析代码变更以发现安全漏洞的系统。它们可能容易受到提示注入攻击，即恶意输入导致意外行为。这个虚构场景讽刺了现实世界的问题，如供应商锁定、成本超支以及将失败包装成营销成果的倾向。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

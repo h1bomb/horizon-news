@@ -1,0 +1,44 @@
+{
+  "id": "62452b40f653b334bcbd9c40575d1dd34d199b1d",
+  "canonicalId": "ea7e0fe517ec98c768922b6c86ec8a1d5de06141",
+  "slug": "sqlite-utils-40rc1新增迁移与嵌套事务",
+  "date": "2026-06-22",
+  "publishedAt": "2026-06-21T23:30:00Z",
+  "lang": "zh",
+  "title": "sqlite-utils 4.0rc1：新增迁移与嵌套事务",
+  "summary": "Simon Willison 发布了 sqlite-utils 4.0 的首个候选版本，新增了数据库迁移和嵌套事务支持两大功能。 这些功能显著提升了 sqlite-utils 作为 SQLite 数据库管理 CLI 工具和 Python 库的价值，使模式演进和复杂事务操作更易处理。 该候选版本包含新的 `migrate` 命令用于应用迁移文件，而嵌套事务允许在现有事务中进行事务控制。此版本尚未稳定，但最终版预计很快发布。",
+  "score": 8,
+  "tags": [
+    "sqlite",
+    "python",
+    "sqlite-utils",
+    "release",
+    "database"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "sqlite-utils 是 Simon Willison 开发的 Python CLI 工具和库，用于创建和操作 SQLite 数据库。迁移功能允许逐步修改数据库模式，而嵌套事务则能在外部事务内部实现原子操作，这对构建可靠应用非常重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - simonw/sqlite-utils: Python CLI utility and library ...",
+      "url": "https://github.com/simonw/sqlite-utils"
+    },
+    {
+      "title": "sqlite-utils",
+      "url": "https://sqlite-utils.datasette.io/"
+    },
+    {
+      "title": "sqlite-utils · PyPI",
+      "url": "https://pypi.org/project/sqlite-utils/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

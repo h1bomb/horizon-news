@@ -1,0 +1,45 @@
+{
+  "id": "426edf9caea01884bf94820546785cadfd6f8ff2",
+  "canonicalId": "daab0f83a22dcf2d7a1a97a08727556ee17d6391",
+  "slug": "apache-burr-framework-for-building-reliable-ai-agents",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T15:01:00Z",
+  "lang": "en",
+  "title": "Apache Burr framework for building reliable AI agents",
+  "summary": "Apache Burr has been accepted into the Apache Incubator as a new open-source framework for building reliable, stateful AI agents using a state machine approach. As AI agents become more prevalent, Burr provides a structured, observable foundation that helps developers build trustworthy and maintainable agentic systems, addressing key challenges in reliability and debugging. Burr is a dependency-free Python framework that includes a built-in UI for real-time monitoring and tracing, and integrates seamlessly with popular LLM frameworks like LangChain and LlamaIndex.",
+  "score": 8,
+  "tags": [
+    "AI agents",
+    "workflow framework",
+    "Apache",
+    "Python",
+    "state machine"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "anhldbk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48477400"
+    }
+  ],
+  "originalUrl": "https://burr.apache.org/",
+  "originalSite": "burr.apache.org",
+  "context": "AI agents are autonomous systems that use large language models to reason, plan, and execute tasks. State machines provide a formal way to model agent behavior as a series of states and transitions, making the system easier to understand and debug. Apache Burr leverages this concept to offer a reliable framework for building and managing complex agent workflows.",
+  "discussion": "The community discussion shows mixed opinions on agent frameworks: some users find Burr useful for its stateful workflow and observability, while others question the necessity of such frameworks and compare them to alternatives like Bedrock Serverless. Concerns were also raised about the overuse of Python decorators for flow control.",
+  "references": [
+    {
+      "title": "Apache Burr",
+      "url": "https://burr.apache.org/"
+    },
+    {
+      "title": "GitHub - apache / burr : Build applications that make decisions...",
+      "url": "https://github.com/apache/burr"
+    },
+    {
+      "title": "apache / burr | DeepWiki",
+      "url": "https://deepwiki.com/apache/burr"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

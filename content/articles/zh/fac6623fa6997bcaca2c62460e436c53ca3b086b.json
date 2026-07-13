@@ -1,0 +1,44 @@
+{
+  "id": "fac6623fa6997bcaca2c62460e436c53ca3b086b",
+  "canonicalId": "ef37907a14e112139f5a27e8b8643cf15a9bc608",
+  "slug": "通过交叉编译和内存管理技巧在-1998-年-32mb-内存的-imac-g3-上本地运行-llm",
+  "date": "2026-04-07",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "lang": "zh",
+  "title": "通过交叉编译和内存管理技巧，在 1998 年 32MB 内存的 iMac G3 上本地运行 LLM",
+  "summary": "一位开发者使用 Retro68 GCC 交叉编译工具链，通过 MaxApplZone()和 NewPtr()实现自定义内存管理，并修复了分组查询注意力的权重布局问题，成功在配置为 32MB 内存的 1998 年 iMac G3 上运行了 Andrej Karpathy 的 260K TinyStories 模型（基于 Llama 2 架构）。 这展示了如何通过巧妙的优化技术让现代 AI 模型在极度受限的复古硬件上运行，突显了跨平台兼容性和内存效率在 AI 部署场景中的重要性。 该实现需要将模型从小端序转换为大端序以适应 PowerPC 架构，使用静态缓冲区存储 KV 缓存以避免内存分配失败，并且由于 RetroConsole 在此硬件上会崩溃，结果输出到文本文件中。模型检查点大小仅为约 1MB。",
+  "score": 7,
+  "tags": [
+    "retro-computing",
+    "LLM-inference",
+    "hardware-hacking",
+    "AI-optimization",
+    "cross-compilation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 6, 03:36"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/p4vfca76qhtg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Retro68 是一个基于 GCC 的交叉编译器，允许开发者从现代计算机为经典 Mac OS 系统编译代码。Mac 内存管理器的 MaxApplZone()函数用于扩展应用程序堆空间，而 NewPtr()则分配不可重定位的内存块。分组查询注意力是一种内存高效的注意力机制，其中多个查询头共享键值头，减少了推理过程中的内存带宽需求。",
+  "discussion": "社区反应非常积极，用户们赞扬了在如此过时硬件上运行 LLM 的创造力和幽默感。评论强调这是作为趣味实验而非实际应用的技术成就，一些用户注意到模型输出出人意料地连贯，另一些用户则表示有兴趣在其他复古系统上尝试类似项目。",
+  "references": [
+    {
+      "title": "GitHub - autc04/Retro68: a gcc-based cross-compiler for ...",
+      "url": "https://github.com/autc04/Retro68"
+    },
+    {
+      "title": "Full text of \"Programming Starter Kit for Macintosh \"",
+      "url": "https://archive.org/stream/programming-starter-kit-for-macintosh/Programming+Starter+Kit+for+Macintosh_djvu.txt"
+    },
+    {
+      "title": "Grouped Query Attention (GQA) vs. Multi Head Attention ... | Medium",
+      "url": "https://medium.com/friendliai/grouped-query-attention-gqa-vs-multi-head-attention-mha-optimizing-llm-inference-serving-eaa732beaeac"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

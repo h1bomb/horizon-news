@@ -1,0 +1,44 @@
+{
+  "id": "315c9539e1be703fb188d11ee44b1584efcb2e75",
+  "canonicalId": "70b7fe2fe858db02669af2009421100a25938a71",
+  "slug": "linux-内核补丁集通过从直接映射中移除页面来提升安全性",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Linux 内核补丁集通过从直接映射中移除页面来提升安全性",
+  "summary": "2026 年 3 月 25 日，Jonathan Corbet 报道了正在讨论中的两个补丁集，它们能够更高效地从内核的直接映射中移除页面，特别关注虚拟机的 guest_memfd 页面。这些补丁引入了一个新的 GUEST_MEMFD_NO_DIRECT_MAP 标志，可以在保持性能的同时将客户机内存从直接映射中移除。 这很重要，因为从直接映射中移除内存能显著增强内核安全性，防止攻击者通过野指针或推测执行攻击访问敏感数据。对于在同一主机上运行多个潜在敌对客户机的虚拟化环境，这提供了客户机与主机系统之间的关键隔离。 这些补丁集通过优化已移除页面的内存管理，解决了之前阻碍直接映射移除更广泛采用的性能问题。在没有硬件内存加密的系统上，将 guest_memfd 页面从直接映射中移除仍然能提供针对基于主机的攻击和推测执行漏洞的实质性安全优势。",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "memory-management",
+    "security",
+    "kernel-development",
+    "systems-programming"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 25, 14:32"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064090/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核的直接映射为内核模式代码提供了对 64 位系统上所有物理内存的直接访问，这简化了开发但带来了安全漏洞。直接映射中的内存容易受到攻击，野指针或推测执行可能访问或修改系统中的任何数据。之前的努力如 memfd_secret()系统调用已将特定内存从直接映射中移除，但由于性能问题，更广泛的采用一直受到限制。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "30.2. Memory Management — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/arch/x86/x86_64/mm.html"
+    },
+    {
+      "title": "Solutions for direct-map fragmentation - LWN.net",
+      "url": "https://lwn.net/Articles/894557/"
+    },
+    {
+      "title": "Some upcoming memory-management patches [LWN.net]",
+      "url": "https://lwn.net/Articles/875587/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

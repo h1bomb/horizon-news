@@ -1,0 +1,40 @@
+{
+  "id": "3e5d549b9ff8e0c9d5a105faa10c75eeee36f899",
+  "canonicalId": "3e67c6c2850fac88d8ec585ad76edfd5a7d4b209",
+  "slug": "cublas-性能缺陷导致-rtx-5090-上批处理-fp32-矩阵乘法效率降低约-60",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-11T00:00:00Z",
+  "lang": "zh",
+  "title": "cuBLAS 性能缺陷导致 RTX 5090 上批处理 FP32 矩阵乘法效率降低约 60%",
+  "summary": "NVIDIA 的 cuBLAS 库中存在一个性能缺陷，导致在 RTX 5090 GPU 上进行批处理 FP32 矩阵乘法时效率降低约 60%，基准测试显示自定义内核在某些矩阵尺寸下比 cuBLAS 快高达 170%。该问题在 CUDA 13.2.51、cuBLAS 13.3.0 和驱动 595.58.03 下测试，可能影响所有非专业版 RTX GPU。 这一缺陷严重影响依赖批处理矩阵乘法的机器学习和科学计算工作负载，可能拖慢在广泛使用的 RTX GPU 上的训练和推理速度。它突显了 NVIDIA 软件栈中潜在的优化差异，非专业版 GPU 可能比 H200 等专业或数据中心型号受到较少关注。 该缺陷导致 cuBLAS 为从 256×256 到 8192×8192×8 的批处理 FP32 工作负载分派低效内核，仅使用 RTX GPU 上约 40% 的可用计算资源。相比之下，Pro 6000 和 H200 等其他 GPU 使用更优化的内核，H200 通过混合 CUTLASS 和 xmma 系列实现高达 82% 的 FMA 利用率。",
+  "score": 8,
+  "tags": [
+    "GPU",
+    "cuBLAS",
+    "Performance",
+    "Machine Learning",
+    "NVIDIA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 10, 17:51"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1shtv0r/d_60_matmul_performance_bug_in_cublas_on_rtx_5090/",
+  "originalSite": "reddit.com",
+  "context": "cuBLAS 是 NVIDIA 的 CUDA 基础线性代数子程序库，针对 GPU 加速的矩阵运算（如 GEMM，通用矩阵乘法）进行了优化，这些运算是深度学习和高性能计算的基础。批处理矩阵乘法可同时处理多个矩阵，提高神经网络训练等任务的吞吐量。FMA（融合乘加）是一种关键的 GPU 指令，将乘法和加法合并为一步，提升了数值计算的性能和精度。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "New cuBLAS 12.0 Features and Matrix Multiplication Performance",
+      "url": "https://developer.nvidia.com/blog/new-cublas-12-0-features-and-matrix-multiplication-performance-on-nvidia-hopper-gpus/"
+    },
+    {
+      "title": "Multiply–accumulate operation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multiply–accumulate_operation"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

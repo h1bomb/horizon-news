@@ -1,0 +1,45 @@
+{
+  "id": "4f342654d91184572324e140b18d74ffc78acf6a",
+  "canonicalId": "da1505fc96eeec5b1e606b96abf1fb719f821411",
+  "slug": "deepseek-v4-flash-revives-llm-steering-for-refusal-removal",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-16T14:58:00Z",
+  "lang": "en",
+  "title": "DeepSeek-V4-Flash Revives LLM Steering for Refusal Removal",
+  "summary": "DeepSeek-V4-Flash has made LLM steering practical again, enabling effective removal of refusal behaviors and uncensoring via steering vectors, as demonstrated by antirez's DwarfStar project. This breakthrough reopens the door to fine-grained control over LLM behavior without retraining, impacting AI safety research, uncensored model deployment, and developer tooling. It empowers users to customize model outputs while raising important safety considerations. Steering vectors are directions in the model's latent space that can be added or subtracted to influence outputs; refusal removal in particular has been found to be mediated by a single direction. antirez's DwarfStar is a standalone project that integrates steering for DeepSeek-V4-Flash, not merely a stripped-down llama.cpp version.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "steering vectors",
+    "AI safety",
+    "uncensoring",
+    "deepseek"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Brajeshwar",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48160807"
+    }
+  ],
+  "originalUrl": "https://www.seangoedecke.com/steering-vectors/",
+  "originalSite": "seangoedecke.com",
+  "context": "LLM steering, or activation vector steering, allows modifying a model's behavior by adjusting its internal representations. Earlier models had limited steering capabilities, but DeepSeek-V4-Flash provides well-documented steering features. The concept of 'abliteration'—identifying and removing a refusal direction—has been explored in previous research, showing that refusals often lie on a single vector. Steering vectors are computed directions in latent space that guide model outputs, offering a lightweight alternative to fine-tuning.",
+  "discussion": "The community discussion featured antirez clarifying that DwarfStar enables full refusal removal, not just a toy dataset, and NitpickLawyer highlighting the potential for uncensoring via steering vectors. Another commenter noted that DwarfStar is a standalone project, not a stripped-down llama.cpp. Overall sentiment is positive, with excitement about practical steering applications and concerns about misuse.",
+  "references": [
+    {
+      "title": "Refusal in LLMs is mediated by a single direction — LessWrong",
+      "url": "https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction"
+    },
+    {
+      "title": "Steering Large Language Models with Activation Vectors ... | Medium",
+      "url": "https://bobrupakroy.medium.com/steering-large-language-models-with-activation-vectors-a-practical-guide-45866b3697ac"
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

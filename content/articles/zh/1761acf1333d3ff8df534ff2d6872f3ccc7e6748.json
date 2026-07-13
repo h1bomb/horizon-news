@@ -1,0 +1,40 @@
+{
+  "id": "1761acf1333d3ff8df534ff2d6872f3ccc7e6748",
+  "canonicalId": "8fb3bf3a216926dd9620bb84cb2b35dd670384eb",
+  "slug": "github-热议议题指-claude-code-思考深度下降-67团队回应称系参数调整",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "GitHub 热议议题指 Claude Code 思考深度下降 67%，团队回应称系参数调整",
+  "summary": "GitHub 上一则热议议题梳理了 2026 年 1 月底至 4 月初的 6852 份 Claude Code 会话日志，指出模型思考深度从早期约 2200 字符降至约 720 字符，降幅达 67%。Claude Code 团队成员 Boris 回应称，'redact-thinking'只是隐藏思考内容的界面变更，不影响实际推理，并说明自适应思考于 2 月 9 日启用，Medium effort 设置于 3 月 3 日成为默认选项。 这一事件凸显了 AI 性能优化与用户体验之间的张力，因为旨在提升效率的参数调整可能显著影响用户感知的模型能力。它展示了通过 GitHub 等平台的社区反馈如何推动 AI 开发的透明度与问责制，可能影响未来的模型配置和用户设置。 分析特别指出模型在复杂工程任务中表现下滑，包括出现无视指令、仓促改码和提前终止等问题。用户可以通过设置关闭自适应思考或将思考强度调高至 High 或 Maximum 等级。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Claude Code",
+    "performance",
+    "GitHub",
+    "user feedback"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 7, 07:43"
+    }
+  ],
+  "originalUrl": "https://github.com/anthropics/claude-code/issues/42796",
+  "originalSite": "github.com",
+  "context": "Claude Code 是由 Anthropic 开发的 AI 编程助手，通过自然语言交互帮助开发者编写、调试和理解代码。自适应思考是一种 AI 推理方法，根据任务复杂度动态分配计算资源，旨在平衡效率与准确性。Medium effort 是 Claude Code 中的默认配置设置，决定模型在响应前进行多少'思考'，更高等级提供更彻底的推理但可能导致响应变慢。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "From Static to Adaptive: Scaling AI Reasoning Without the Waste",
+      "url": "https://georgian.io/from-static-to-adaptive-scaling-ai-reasoning-without-the-waste/"
+    },
+    {
+      "title": "How to Change Claude Code Effort Level: Best Settings Per ...",
+      "url": "https://llmx.tech/blog/how-to-change-claude-code-effort-level-best-settings-per-subscription-tier/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

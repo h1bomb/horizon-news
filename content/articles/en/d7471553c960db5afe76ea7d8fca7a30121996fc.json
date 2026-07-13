@@ -1,0 +1,44 @@
+{
+  "id": "d7471553c960db5afe76ea7d8fca7a30121996fc",
+  "canonicalId": "70cf12e389d5bb226a4d81a947658b3b8279aebb",
+  "slug": "annas-archive-completes-massive-spotify-backup-launches-worlds-first-open-music-archive",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-15T14:25:00Z",
+  "lang": "en",
+  "title": "Anna's Archive Completes Massive Spotify Backup, Launches World's First Open Music Archive",
+  "summary": "On December 20, the shadow library Anna's Archive announced it has completed a large-scale backup of Spotify, releasing the world's first fully open music preservation archive with approximately 300 TB of data, including 256 million track metadata entries and 86 million music files, covering 99.6% of user plays on the platform. This initiative is significant as it addresses gaps in digital preservation by safeguarding non-mainstream and less popular music works that are often overlooked by existing archives, potentially ensuring long-term access to a broader cultural heritage and promoting open access in the music industry. The metadata is released in SQLite format, a lightweight relational database system that stores data in a single file for portability, while music files are distributed in batches based on popularity to manage the large dataset effectively.",
+  "score": 8,
+  "tags": [
+    "digital-archiving",
+    "open-access",
+    "data-preservation",
+    "music-technology",
+    "shadow-library"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40881",
+  "originalSite": "t.me",
+  "context": "Anna's Archive is a shadow library, an unauthorized online repository that provides free access to digital media like books and academic papers, often bypassing paywalls. Digital preservation involves formal processes to ensure long-term accessibility and usability of digital information, which is crucial for cultural heritage. SQLite is a widely used embedded database engine that stores data in a single file, making it suitable for applications requiring simplicity and portability.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Shadow library",
+      "url": "https://en.wikipedia.org/wiki/Shadow_library"
+    },
+    {
+      "title": "Digital preservation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Digital_preservation"
+    },
+    {
+      "title": "SQLITE File - What is an .sqlite file and how do I open it? SQLITE File - What is an . sqlite file and how do I open it? Database File Format - SQLite SQLite , Version 3 - Library of Congress Database File Format - SQLite SQLite Tutorial - GeeksforGeeks SQLite, Version 3 - Library of Congress SQLite Home Page Introduction to SQLite - GeeksforGeeks Documentation - SQLite",
+      "url": "https://fileinfo.com/extension/sqlite"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

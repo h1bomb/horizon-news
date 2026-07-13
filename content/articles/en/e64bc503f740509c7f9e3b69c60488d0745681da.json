@@ -1,0 +1,45 @@
+{
+  "id": "e64bc503f740509c7f9e3b69c60488d0745681da",
+  "canonicalId": "c9b8f44a5fed8bd087030d86ba68fa39bd292d68",
+  "slug": "mullvad-rolls-out-mitigation-for-vpn-exit-ip-fingerprinting",
+  "date": "2026-05-26",
+  "publishedAt": "2026-05-25T17:45:00Z",
+  "lang": "en",
+  "title": "Mullvad Rolls Out Mitigation for VPN Exit IP Fingerprinting",
+  "summary": "Mullvad VPN has announced the rollout of mitigation measures to prevent exit IP fingerprinting, a technique that could identify users through their VPN server's unique IP address. This is significant because exit IP fingerprinting undermines VPN privacy by allowing websites to correlate users across sessions. Mullvad's proactive response sets a positive example for the VPN industry. The mitigation involves changes to exit server configurations to reduce uniqueness. Users may experience minor performance changes but no action is required.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "VPN",
+    "fingerprinting",
+    "security",
+    "Mullvad"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Cider9986",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48269580"
+    }
+  ],
+  "originalUrl": "https://mullvad.net/en/help/exit-ip-vpn-servers-mitigation-rollout",
+  "originalSite": "mullvad.net",
+  "context": "VPN exit IP fingerprinting is a privacy attack where a website identifies a user's VPN provider and specific server based on the exit IP address. This can be used to track users across different sites or sessions. Mullvad had previously published research on this vulnerability.",
+  "discussion": "Users expressed surprise and appreciation for the quick response, with some suggesting further improvements like browser integration of anti-fingerprinting features. One commenter noted that Mullvad Browser already avoids this issue by using proxies instead of WireGuard.",
+  "references": [
+    {
+      "title": "Mullvad exit IPs as a fingerprinting vector - General - Privacy",
+      "url": "https://discuss.privacyguides.net/t/mullvad-exit-ips-as-a-fingerprinting-vector/37910"
+    },
+    {
+      "title": "Mullvad exit IPs as a fingerprinting vector | tmctmt",
+      "url": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/"
+    },
+    {
+      "title": "OpenVPN Is Open to VPN Fingerprinting – Communications of the ACM",
+      "url": "https://cacm.acm.org/research/openvpn-is-open-to-vpn-fingerprinting/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

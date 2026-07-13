@@ -1,0 +1,40 @@
+{
+  "id": "1f5ee3a6b5a7f7ef5cc9fabc789b4cdfe797a768",
+  "canonicalId": "3f9117f5edcb4647232c34a982aed6e14dded72d",
+  "slug": "shopify-ceo-使用-ai-autoresearch-实现-liquid-模板引擎性能提升-53",
+  "date": "2026-03-14",
+  "publishedAt": "2026-03-14T00:00:00Z",
+  "lang": "zh",
+  "title": "Shopify CEO 使用 AI autoresearch 实现 Liquid 模板引擎性能提升 53%",
+  "summary": "Shopify CEO Tobias Lütke 向 Liquid Ruby 模板引擎仓库提交了一个拉取请求，通过使用 Andrej Karpathy 的 autoresearch AI 系统变体发现的数十项微优化，实现了解析+渲染性能提升 53%，内存分配减少 61%。优化过程在两天内运行了约 120 个自动化实验，产生了 93 次提交，具体改进包括用 byteindex 搜索替换 StringScanner 以及缓存小整数转换。 这展示了像 autoresearch 这样的 AI 辅助开发工具如何能在成熟、广泛使用的开源项目中发掘显著的性能改进，这些项目已经过数百名贡献者数十年的优化。这种方法可能影响软件工程实践，使系统化的性能优化更加普及，特别是对于高干扰角色的开发者，他们可以利用编码代理来维持高效的工作流程。 优化包括用 String#byteindex 替换 StringScanner 分词器（搜索速度提升 40%，解析时间减少 12%），实现纯字节解析以消除昂贵的 StringScanner 重置，以及缓存 0-999 整数的 to_s 转换以避免内存分配。该项目利用了包含 974 个单元测试的健壮测试套件，并使用 Pi 编码代理和自定义的 pi-autoresearch 插件来执行基准测试驱动的实验。",
+  "score": 8,
+  "tags": [
+    "performance-optimization",
+    "ruby",
+    "ai-assisted-development",
+    "open-source",
+    "template-engines"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 13, 03:44"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Liquid 是 Shopify 创建的开源模板语言，使用 Ruby 编写，最初于 2005 年开发，灵感来自 Django 模板。自 2006 年以来一直在 Shopify 生产环境中使用，并广泛用于 Ruby on Rails 应用程序中渲染动态内容。Autoresearch 是 Andrej Karpathy 的系统，使 AI 编码代理能够运行数百个半自主实验以发现有效技术，最初为优化 nanochat 等模型的训练而开发。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Liquid template language",
+      "url": "https://shopify.github.io/liquid/"
+    },
+    {
+      "title": "Andrej Karpathy's new open source 'autoresearch'",
+      "url": "https://mgrowtech.com/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai-experiments-a-night-with-revolutionary-implications/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

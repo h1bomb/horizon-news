@@ -1,0 +1,40 @@
+{
+  "id": "918acb1cced79f7ad951a0e96fbf283c2e595988",
+  "canonicalId": "83a339e7d4547609e0b384e475bd9f71b9359e6a",
+  "slug": "asahi-linux-对苹果-m3-芯片的适配接近-alpha-水平",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "Asahi Linux 对苹果 M3 芯片的适配接近 Alpha 水平",
+  "summary": "Asahi Linux 已实现对苹果 M3、M3 Pro 和 M3 Max 芯片的接近 Alpha 级别的支持，启用了内部 SSD、屏幕、键盘、触控板、PCIe 和蓝牙音频等基本硬件功能，但 GPU 加速仍未实现。 这标志着将 Linux 移植到 Apple Silicon 的重要里程碑，扩展了 ARM Linux 生态系统，并为用户在最新的 Mac 硬件上提供了替代操作系统。 GPU 硬件加速仍然缺失，图形渲染目前由 CPU 软件处理；此外，项目正在将 m1n1 引导加载程序迁移到 Rust 语言以提高安全性和可维护性，并已在 M4 和 M5 芯片上完成了基础引导测试。",
+  "score": 8,
+  "tags": [
+    "Asahi Linux",
+    "Apple M3",
+    "Linux on ARM",
+    "open source",
+    "hardware support"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 27, 02:08"
+    }
+  ],
+  "originalUrl": "https://asahilinux.org/",
+  "originalSite": "asahilinux.org",
+  "context": "Asahi Linux 是一个社区驱动的项目，通过逆向工程未公开的硬件将 Linux 移植到 Apple Silicon Mac。该项目于 2022 年 3 月发布了针对 M1 设备的首个 Alpha 安装程序，此后逐步扩展了对新芯片的支持。Fedora Asahi Remix 是旗舰发行版，在 Apple 硬件上提供完整的 Linux 体验。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Asahi linux project",
+      "url": "https://en.wikipedia.org/wiki/Asahi_linux_project"
+    },
+    {
+      "title": "Asahi Linux",
+      "url": "https://asahilinux.org"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

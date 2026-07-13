@@ -1,0 +1,44 @@
+{
+  "id": "787ca565603349a4ea06f6ba7c9cf2795fb9dff6",
+  "canonicalId": "86c6231664fc90d1ffa4896d4c2b23ccb376b117",
+  "slug": "mistral-ai-发布-mistral-small-4这是一个拥有-1190-亿参数集推理多模态和编码能力于一体的开源模型",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "Mistral AI 发布 Mistral Small 4，这是一个拥有 1190 亿参数、集推理、多模态和编码能力于一体的开源模型。",
+  "summary": "Mistral AI 发布了 Mistral Small 4，这是一个基于 Apache 2.0 许可证的新开源模型，拥有 1190 亿参数。这是 Mistral 首个将旗下旗舰模型能力——Magistral 的推理能力、Pixtral 的多模态能力和 Devstral 的智能体编码能力——整合到一个单一、通用模型中的产品。 此次发布意义重大，因为它提供了一个强大的、统一的开源替代方案，以对抗专有模型，可能降低开发者和研究人员的门槛。通过在一个 Apache 2.0 许可的模型中整合推理、多模态和编码能力，它可能加速跨多个领域的 AI 应用创新。 该模型采用混合专家（MoE）架构，拥有 60 亿活跃参数，支持 `reasoning_effort` 参数（可设为 'none' 或 'high'），并可在 Hugging Face 上以 242GB 的大小下载。然而，其 API 目前缺乏设置推理强度的文档化方法，且没有发布基础模型，只有微调版本。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Open Source",
+    "Machine Learning",
+    "Mistral AI",
+    "Large Language Models"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 16, 23:41"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "混合专家（MoE）是一种机器学习架构，通过将模型划分为称为“专家”的专门化组件来提高效率，每个任务只激活相关的专家。Apache 2.0 许可证是一种宽松的开源许可证，允许软件的自由使用、修改和分发。`reasoning_effort` 参数，见于如 OpenAI 的 O1 等模型中，控制分配给推理过程的令牌数量，影响输出的详细程度和深度。",
+  "discussion": "社区情绪复杂，用户幽默地指出一个“小型”1190 亿参数模型的讽刺性，并对 GPU 需求表示担忧。一些人称赞其作为快速、强大的开源替代品，有望替代 ChatGPT，而另一些人则指出它在基准测试中落后于如 Qwen3.5-122B 等竞争对手，且缺乏基础模型发布。",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Apache License - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apache_License"
+    },
+    {
+      "title": "O1's 'reasoning effort' parameter - API - OpenAI",
+      "url": "https://community.openai.com/t/o1s-reasoning-effort-parameter/1062308"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

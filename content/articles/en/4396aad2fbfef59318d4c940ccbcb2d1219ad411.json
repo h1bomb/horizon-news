@@ -1,0 +1,44 @@
+{
+  "id": "4396aad2fbfef59318d4c940ccbcb2d1219ad411",
+  "canonicalId": "6c84cba84352f40700befaab3d929a4726d728bc",
+  "slug": "encrypted-client-hello-ech-protocol-completes-final-ietf-approval-rfc-9849-nears-publication",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-02T10:28:00Z",
+  "lang": "en",
+  "title": "Encrypted Client Hello (ECH) Protocol Completes Final IETF Approval, RFC 9849 Nears Publication",
+  "summary": "The Encrypted Client Hello (ECH) protocol has completed the final AUTH48 approval stage by all authors, IANA, and area directors in late February 2026, after seven years and 25 draft revisions. It has been assigned RFC number 9849 and is pending the resolution of one final GitHub technical issue (#1308) before official publication. This final approval marks the culmination of a major effort to close a significant privacy gap left by TLS 1.3 in 2018. The widespread implementation support from major browsers and platforms like Chrome, Firefox, Android, and Cloudflare means ECH is poised to significantly enhance user privacy across the internet by encrypting previously exposed handshake metadata. The protocol's core function is to encrypt previously plaintext metadata in the TLS handshake, specifically the Server Name Indication (SNI) and Application-Layer Protocol Negotiation (ALPN). Major implementations are already in place, with Chrome, Firefox, and Android supporting ECH on the client side, and Cloudflare having deployed server-side support by the end of 2024.",
+  "score": 8,
+  "tags": [
+    "TLS",
+    "Privacy",
+    "IETF",
+    "Network Security",
+    "Protocols"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.rfc-editor.org/auth48/rfc9849",
+  "originalSite": "rfc-editor.org",
+  "context": "In a traditional TLS handshake, the initial ClientHello message is sent in plaintext, revealing the Server Name Indication (SNI) which indicates the specific website a client intends to connect to. This SNI leak allows network observers, like Internet Service Providers or those on the same network, to see which domains a user is visiting, even if the subsequent connection is encrypted. TLS 1.3, finalized in 2018, greatly improved security and performance but did not address this SNI privacy leak, which ECH was designed to solve.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Understand Encrypted Client Hello (ECH) | Firefox Help - Mozilla Support",
+      "url": "https://support.mozilla.org/en-US/kb/understand-encrypted-client-hello"
+    },
+    {
+      "title": "Encrypted Client Hello: Closing the SNI Metadata Gap",
+      "url": "https://cdt.org/insights/encrypted-client-hello-closing-the-sni-metadata-gap/"
+    },
+    {
+      "title": "Authors’ Final Review (AUTH48) - RFC Editor",
+      "url": "https://www.rfc-editor.org/pubprocess/auth48/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

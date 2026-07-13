@@ -1,0 +1,44 @@
+{
+  "id": "cb4ddfbf6da83bda7601ac4142fcaa61b991ea91",
+  "canonicalId": "2eb57f91ee3178dff275b3056b529a38e10261c9",
+  "slug": "fbi-在得州案件中从-iphone-通知数据库提取已删除-signal-消息",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "FBI 在得州案件中从 iPhone 通知数据库提取已删除 Signal 消息",
+  "summary": "在得州 Prairieland 拘留中心案件的庭审中，FBI 通过访问嫌疑人 iPhone 的系统通知数据库，提取了已从 Signal 应用中删除的传入消息。取证恢复专门针对设备推送通知缓存中存储的消息预览，这些数据即使在 Signal 应用被删除后仍然保留。 此案揭示了当启用锁屏通知预览时，端到端加密消息系统存在重大漏洞，因为消息内容可能存储在设备存储中，并可通过取证工具恢复。这一发现对隐私倡导者、安全消息应用开发者和数字取证实践具有重要意义，表明仅靠加密并不能保证消息的完全删除。 仅恢复了传入消息，未恢复传出消息，取证使用了 Cellebrite 等工具从 iOS 通知数据库中提取数据。Signal 于 3 月 12 日确认收到置评请求但未进一步回应，而苹果则完全没有回应关于此存储行为的询问。",
+  "score": 8,
+  "tags": [
+    "digital forensics",
+    "privacy",
+    "Signal",
+    "iPhone",
+    "encryption"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 22, 23:10"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41013",
+  "originalSite": "t.me",
+  "context": "Signal 是一款以强大端到端加密而闻名的流行消息应用，理论上可防止除通信用户外的任何人访问消息内容。iOS 设备将通知预览存储在系统数据库中，以便在锁屏上显示警报，即使对于加密应用也是如此。数字取证工具可以从设备存储中提取应用删除后仍然保留的数据片段，有时能恢复用户认为已永久删除的内容。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "iPhone forensics expose Signal messages after app removal in U.S. case",
+      "url": "https://securityaffairs.com/190740/security/iphone-forensics-expose-signal-messages-after-app-removal-in-u-s-case.html"
+    },
+    {
+      "title": "FBI Pulled Deleted Signal Messages From An iPhone Without Breaking Encryption",
+      "url": "https://www.forbes.com/sites/larsdaniel/2026/04/10/fbi-pulled-deleted-signal-messages-from-an-iphone-without-breaking-encryption/"
+    },
+    {
+      "title": "FBI recovers deleted Signal messages from iPhone notification database - Lynnwood Times",
+      "url": "https://lynnwoodtimes.com/2026/04/09/signal/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

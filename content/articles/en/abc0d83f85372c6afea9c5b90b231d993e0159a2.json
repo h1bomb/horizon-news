@@ -1,0 +1,40 @@
+{
+  "id": "abc0d83f85372c6afea9c5b90b231d993e0159a2",
+  "canonicalId": "d092c17cfd63331c2ce50231b7aeba9b74c909e3",
+  "slug": "go-to-support-generic-methods",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T09:02:00Z",
+  "lang": "en",
+  "title": "Go to Support Generic Methods",
+  "summary": "The Go team is implementing support for generic methods, allowing methods on types to have their own type parameters, as proposed in GitHub issue #77273. This feature fills a major gap in Go's generics, enabling more expressive and reusable code, particularly for design patterns like monads or data access layers. The implementation is incremental; generic methods were initially deferred from the original generics proposal as a \"not now\" item, but the team is now moving forward with careful design.",
+  "score": 8,
+  "tags": [
+    "Go",
+    "generics",
+    "programming languages",
+    "type parameters"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "f311a",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48291575"
+    }
+  ],
+  "originalUrl": "https://github.com/golang/go/issues/77273",
+  "originalSite": "github.com",
+  "context": "Go introduced generics in version 1.18, allowing functions and types to have type parameters. However, methods on generic types could not define additional type parameters, limiting certain patterns. This proposal addresses that limitation, bringing Go closer to the flexibility of languages like Java or C#.",
+  "discussion": "Community comments are overwhelmingly positive, with users expressing excitement about potential patterns like monad libraries and noting that this feature resolves a significant gap for those coming from other languages.",
+  "references": [
+    {
+      "title": "generics - Go: How to specify a type constraint in which a",
+      "url": "https://stackoverflow.com/questions/77546447/go-how-to-specify-a-type-constraint-in-which-a-methods-argument-type-is-the-sa"
+    },
+    {
+      "title": "How to create generic method in Go? (method must have no type",
+      "url": "https://stackoverflow.com/questions/70668236/how-to-create-generic-method-in-go-method-must-have-no-type-parameters"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

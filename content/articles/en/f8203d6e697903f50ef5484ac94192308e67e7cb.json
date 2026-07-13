@@ -1,0 +1,44 @@
+{
+  "id": "f8203d6e697903f50ef5484ac94192308e67e7cb",
+  "canonicalId": "1c63a2025a0654d777ac1411ccdb1f664ae00197",
+  "slug": "chris-down-debunks-myths-about-linux-kernels-zswap-and-zram-subsystems",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-24T13:34:00Z",
+  "lang": "en",
+  "title": "Chris Down debunks myths about Linux kernel's zswap and zram subsystems",
+  "summary": "Chris Down published a detailed analysis explaining the fundamental differences between the Linux kernel's zswap and zram subsystems, which are often mistakenly viewed as similar compressed swap solutions. The article provides practical guidance on when to use each subsystem to optimize memory management and avoid performance degradation. This clarification is significant because misusing zswap or zram can worsen system performance under memory pressure, affecting system administrators and developers working on resource-constrained environments. Understanding their distinct roles helps optimize Linux systems for better efficiency and reliability in memory management. zswap acts as a compressed RAM cache for swap pages, using zsmalloc for memory pool management, while zram creates a compressed block device in RAM for swap storage. The analysis highlights that choosing the wrong one can be worse than having no swap at all, depending on the kernel's memory pressure handling strategies.",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "memory-management",
+    "systems-programming",
+    "performance-optimization",
+    "operating-systems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064478/",
+  "originalSite": "lwn.net",
+  "context": "zswap and zram are Linux kernel features designed to improve memory efficiency by compressing data that would otherwise be swapped to disk. zswap provides a compressed cache in RAM for swap pages, whereas zram creates a virtual compressed block device in RAM for swap storage. Both aim to reduce disk I/O and enhance performance, but they operate under different assumptions about memory pressure and allocation. Understanding these subsystems is crucial for effective system tuning in Linux environments.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "zswap — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/admin-guide/mm/zswap.html"
+    },
+    {
+      "title": "zswap - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Zswap"
+    },
+    {
+      "title": "zram - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zram"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

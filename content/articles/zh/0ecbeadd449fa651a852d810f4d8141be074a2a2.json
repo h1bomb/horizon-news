@@ -1,0 +1,44 @@
+{
+  "id": "0ecbeadd449fa651a852d810f4d8141be074a2a2",
+  "canonicalId": "4be1f1c4c770aa7bcbdf0132d02f74828776fad9",
+  "slug": "qwen35-35b-a3b-激进去审查模型以-gguf-格式发布",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-11T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-35B-A3B 激进去审查模型以 GGUF 格式发布",
+  "summary": "一位名为 HauhauCS 的开发者发布了 Qwen3.5-35B-A3B 模型的“激进去审查”版本，声称该版本实现了零拒绝且能力无损。该版本以 GGUF 格式发布，包含多种量化选项（BF16、Q8_0、Q6_K、Q4_K_M 等）和一个视觉投影文件，并使用了 imatrix 技术来提升量化质量。 此次发布对本地 AI 社区意义重大，它提供了一个功能强大、多模态的 350 亿参数模型，且完全移除了内置的内容限制，为无过滤的研究和应用铺平了道路。以高效的 GGUF 格式及多种量化版本发布，使其能够在消费级硬件上运行，推动了去审查、本地运行大语言模型的可能性边界。 该模型采用混合专家架构，共有 256 个专家，每个 token 激活 8+1 个，总参数量 350 亿，激活参数量约 30 亿。开发者声称经过大量测试，未发现循环或性能下降等问题，并提示 llama.cpp 用户应使用 `--jinja` 标志以确保模板正确处理。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "model-release",
+    "uncensored-models",
+    "quantization",
+    "local-ai"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 10, 19:57"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rq7jtm/qwen3535ba3b_uncensored_aggressive_gguf_release/",
+  "originalSite": "reddit.com",
+  "context": "GGUF 是一种为快速加载和保存模型而优化的二进制文件格式，主要用于 llama.cpp 等推理框架。量化（例如 Q4_K_M）通过使用更少的比特表示权重来减小模型大小和内存需求，使得大模型能在有限硬件上运行。混合专家是一种架构，其中路由网络为每个输入 token 选择一小部分专门的“专家”神经网络进行处理，从而在保持单次推理计算成本可控的同时，实现巨大的总参数量。",
+  "discussion": "社区反应非常积极，用户对此次发布表示兴奋和感谢。讨论的关键点包括：请求了解所使用的去审查技术细节；呼吁进行更严格的评估（如 KL 散度）以证实“零能力损失”的说法；以及对“激进”一词在此语境下具体含义的疑问。此外，也有用户请求发布适用于 MLX 等其他框架的版本。",
+  "references": [
+    {
+      "title": "GGUF - Hugging Face",
+      "url": "https://huggingface.co/docs/hub/gguf"
+    },
+    {
+      "title": "Understanding the GGUF Format: A Comprehensive Guide",
+      "url": "https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256"
+    },
+    {
+      "title": "The Rise of MoE: Comparing 2025’s Leading Mixture-of-Experts ...",
+      "url": "https://friendli.ai/blog/moe-models-comparison"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

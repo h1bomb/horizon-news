@@ -1,0 +1,44 @@
+{
+  "id": "a185418cc470c18159f6896c4d26c61be6c03ecc",
+  "canonicalId": "eb705b1ab2f3bb3c869f102081dedf1c78309d4b",
+  "slug": "bpf-与-io-uring-集成显著降低内核-用户空间切换开销",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-19T00:00:00Z",
+  "lang": "zh",
+  "title": "BPF 与 io_uring 集成，显著降低内核-用户空间切换开销",
+  "summary": "Pavel Begunkov 提交的补丁集已被接受，该补丁将 BPF 与 io_uring 集成，允许 BPF 程序响应完成事件并排队额外工作，从而最小化内核-用户空间切换开销。这使得程序员能够用 BPF 程序扩展 io_uring 事件循环，在无需返回用户空间的情况下处理完成事件并排队后续工作。 该集成通过消除内核与用户空间之间不必要的上下文切换，显著降低了高吞吐量 I/O 应用的延迟并提升了性能。这代表了 Linux 内核优化的重要进展，能够在保持 BPF 沙箱执行环境安全性的同时，支持更复杂的异步 I/O 工作流程。 该补丁引入了新的 kfunc，包括 bpf_io_uring_submit_sqes()用于处理提交队列条目，以及 bpf_io_uring_get_region()用于访问队列内容。BPF 程序可以返回 IOU_LOOP_CONTINUE 以在可配置延迟后继续运行，或返回 IOU_LOOP_STOP 以返回用户空间，通过循环机制有效绕过了 BPF 的单次执行操作限制。",
+  "score": 8,
+  "tags": [
+    "Linux Kernel",
+    "io_uring",
+    "BPF",
+    "Systems Programming",
+    "Performance Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 18, 14:57"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1062286/",
+  "originalSite": "lwn.net",
+  "context": "io_uring 是 Linux 内核的异步 I/O 接口，使用两个共享环形缓冲区：提交队列用于向内核发送请求，完成队列用于存储结果。BPF（Berkeley Packet Filter）是 Linux 内核技术，允许在内核空间运行沙箱化程序，最初用于数据包过滤，现已扩展到多个内核子系统。内核-用户空间切换开销发生在内核必须切换到用户空间以处理完成请求并排队后续工作时，即使共享内存减少了通信开销。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "io_uring_queue_init: setup io_uring submission and completion",
+      "url": "https://www.mankier.com/3/io_uring_queue_init"
+    },
+    {
+      "title": "Long-lived kernel pointers in BPF [LWN.net]",
+      "url": "https://lwn.net/Articles/900749/"
+    },
+    {
+      "title": "BPF as a safer kernel programming environment [LWN.net]",
+      "url": "https://lwn.net/Articles/909095/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

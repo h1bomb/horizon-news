@@ -1,0 +1,44 @@
+{
+  "id": "001d6346bf9bc8dd63a19630f2ad5434ca659eba",
+  "canonicalId": "d9e0f11e1a7b6abbef8be4c9d268903532b74408",
+  "slug": "qwen35-9b-在有限硬件上展现出色的智能编码代理能力",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-13T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-9B 在有限硬件上展现出色的智能编码代理能力",
+  "summary": "一位用户报告了在配备 12GB 显存的 Nvidia RTX 3060 上使用 Qwen3.5-9B 进行智能编码代理任务的积极体验，发现其性能优于较小的 Qwen2.5 Coder 模型以及某些量化版本的 Qwen3-Coder-30B。该用户特别使用 Kilo Code 和 Roo Code 框架进行了测试，注意到相比之前的模型，工具调用的可靠性有所提升。 这表明像 Qwen3.5-9B 这样相对较小的语言模型能够在消费级硬件上提供实用的智能编码代理能力，使先进的 AI 辅助开发对个人开发者和小团队更加可及。这些发现挑战了关于复杂编码任务所需模型规模的假设，并凸显了量化等优化技术在资源受限环境中的重要性。 用户测试了多种量化方案，包括用于 Qwen3-Coder-30B 的 Unsloth UD-TQ1_0 格式，发现 1 位量化速度快但工具调用不可靠，而 2 位量化性能更好但感觉缓慢且不稳定。他们发现未专门针对编码优化的通用 Qwen 版本有时表现更好，因为其规模较小，并注意到 Qwen3.5-9B 在他们的 RTX 3060 上提供了性能与资源使用的良好平衡。",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "agentic-coding",
+    "model-evaluation",
+    "hardware-optimization",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 12, 16:55"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rrw8df/qwen359b_is_actually_quite_good_for_agentic_coding/",
+  "originalSite": "reddit.com",
+  "context": "智能编码代理指的是能够智能建议代码模式、预见潜在问题并提出符合最佳实践的改进方案的 AI 系统，通常作为自主编码助手运行。量化是一种降低模型权重精度以减少内存使用和计算需求的技术，像 Unsloth 的动态量化等方法会保留某些参数在更高精度以获得更好性能。Qwen 是阿里巴巴云开发的一系列大型语言模型，Qwen2.5 和 Qwen3.5 等版本提供不同规模和能力，适用于包括编码辅助在内的各种应用。",
+  "discussion": "社区讨论显示出复杂但总体积极的情绪，一些用户分享了替代模型建议如 OmniCoder-9B，并赞扬 Qwen3.5-27B 相比 Devstrel 2 的性能。其他人报告了不一致的体验，一位用户指出 Qwen3.5-9B 完全搞乱了他们的构建系统，而几位用户则询问了关于量化方法、速度测量（tk/s）以及与其他模型规模比较的技术问题。",
+  "references": [
+    {
+      "title": "Introducing Agentic Coding : The Future of Development... | Medium",
+      "url": "https://medium.com/@nareshkukkala/introducing-agentic-coding-the-future-of-development-with-xcode-b83d85d23297"
+    },
+    {
+      "title": "Unsloth - Dynamic 4-bit Quantization",
+      "url": "https://unsloth.ai/blog/dynamic-4bit"
+    },
+    {
+      "title": "Has anyone else tried IQ2 quantization? I'm genuinely ... - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rbio4h/has_anyone_else_tried_iq2_quantization_im/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

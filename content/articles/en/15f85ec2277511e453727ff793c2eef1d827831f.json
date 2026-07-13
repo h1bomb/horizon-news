@@ -1,0 +1,40 @@
+{
+  "id": "15f85ec2277511e453727ff793c2eef1d827831f",
+  "canonicalId": "dff23e9405673605da9d12e27a166ab048a297f1",
+  "slug": "mglru-integration-challenges-at-lsfmmbpf-2026",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-20T13:14:00Z",
+  "lang": "en",
+  "title": "MGLRU integration challenges at LSFMM+BPF 2026",
+  "summary": "At the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit, three sessions focused on the multi-generational LRU (MGLRU), discussing unification with the traditional LRU, performance improvements, and Android-specific issues. Shakeel Butt proposed a four-step plan to unify the kernel's two reclaim subsystems. MGLRU's messy integration with the traditional LRU doubles maintenance effort and complicates memory management. Unifying them would improve kernel maintainability, performance consistency, and benefit users from servers to Android devices. The MGLRU code resides in the same file (mm/vmscan.c) alongside traditional LRU, leading to over 8,000 lines, with 40% being MGLRU-specific duplication. Butt's plan includes separating code into own files, defining evaluation workloads, finding common features, and comparing implementations.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "MGLRU",
+    "reclaim",
+    "Android"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072866/",
+  "originalSite": "lwn.net",
+  "context": "The multi-generational LRU is an alternative page reclaim algorithm merged into Linux 6.1 in 2022, aiming to improve performance under memory pressure. However, it added complexity without replacing the traditional LRU, leading to two parallel subsystems. The LSFMM+BPF summit is a yearly gathering of Linux kernel developers discussing storage, filesystem, memory management, and BPF topics.",
+  "discussion": "Session participants generally agreed on the need for cleanup but debated the approach; some worried that separating files might confuse Git history, while others felt it was necessary. Johannes Weiner noted that MGLRU has little Git history, making separation less problematic.",
+  "references": [
+    {
+      "title": "Multi-Gen LRU — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/admin-guide/mm/multigen_lru.html"
+    },
+    {
+      "title": "Reconsidering the multi-generational LRU [LWN.net]",
+      "url": "https://lwn.net/Articles/1060967/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

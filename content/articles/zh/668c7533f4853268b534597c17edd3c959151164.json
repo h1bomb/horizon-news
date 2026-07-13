@@ -1,0 +1,44 @@
+{
+  "id": "668c7533f4853268b534597c17edd3c959151164",
+  "canonicalId": "cf50241b30f1c7d96e3bf88b659fc1d229ba799e",
+  "slug": "simon-willison-推出-syntaqlite-playground一个基于浏览器的-sqlite-ai-工具已编译为-webassembly",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-06T00:00:00Z",
+  "lang": "zh",
+  "title": "Simon Willison 推出 Syntaqlite Playground，一个基于浏览器的 SQLite AI 工具，已编译为 WebAssembly。",
+  "summary": "Simon Willison 于 2026 年 4 月 5 日推出了 Syntaqlite 的浏览器版 playground，这是一个由 AI 驱动的 SQLite 工具，已编译为 WebAssembly wheel 以便与 Pyodide 集成。用户现在可以直接在网页浏览器中格式化、解析、验证和标记化 SQLite SQL 查询。 这很重要，因为它使得高级 SQLite 工具无需本地安装即可在任何浏览器中使用，降低了开发者尝试 AI 辅助 SQL 验证和分析的门槛。它反映了基于浏览器的开发工具趋势，并展示了 WebAssembly 在网络上运行复杂编译代码的实际应用。 该 playground 通过将 Syntaqlite（使用 C 和 Rust 编写）编译为 Pyodide 的 WebAssembly wheel 构建，从而实现在浏览器中运行 Python 库。值得注意的是，Syntaqlite 本身已有一个 WebAssembly playground，Simon Willison 最初未注意到，但在更新中予以承认。",
+  "score": 7,
+  "tags": [
+    "SQLite",
+    "WebAssembly",
+    "AI Tools",
+    "Python",
+    "Browser Development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 5, 19:32"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Syntaqlite 是一个由 AI 驱动的 SQLite 工具，由 Lalit Maganti 开发，用于处理 SQL 验证、格式化和解析，源于处理大规模 SQL 代码库的经验。WebAssembly 是一种二进制指令格式，允许用 C 和 Rust 等语言编写的代码在网页浏览器中高效运行，而 Pyodide 是一个基于 WebAssembly 的 Python 发行版，使得 Python 包无需服务器端处理即可在浏览器中运行。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "syntaqlite docs",
+      "url": "https://docs.syntaqlite.com/main/"
+    },
+    {
+      "title": "Pyodide — Version 0.29.3",
+      "url": "https://pyodide.org/en/stable/"
+    },
+    {
+      "title": "WebAssembly",
+      "url": "https://webassembly.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

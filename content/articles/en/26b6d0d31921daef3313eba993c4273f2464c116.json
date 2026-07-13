@@ -1,0 +1,45 @@
+{
+  "id": "26b6d0d31921daef3313eba993c4273f2464c116",
+  "canonicalId": "a5a670293e3f07b40b4f3fcf29237e681aea6642",
+  "slug": "canadas-bill-c-22-revives-surveillance-and-encryption-backdoors",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T17:35:00Z",
+  "lang": "en",
+  "title": "Canada's Bill C-22 Revives Surveillance and Encryption Backdoors",
+  "summary": "Canada's government has introduced Bill C-22, the Lawful Access Act, which would mandate data retention and encryption backdoors, threatening end-to-end encrypted services like Signal and WhatsApp. If passed, Bill C-22 could force encrypted messaging providers to block Canadian users or weaken their security, undermining global digital rights and setting a dangerous precedent for surveillance legislation. Bill C-22 is a rebranded version of last year's failed Bill C-2, and includes requirements for mandatory data retention and exceptional access to encrypted communications, according to the EFF.",
+  "score": 8,
+  "tags": [
+    "surveillance",
+    "encryption",
+    "Canada",
+    "digital rights",
+    "legislation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Brajeshwar",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48111531"
+    }
+  ],
+  "originalUrl": "https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare",
+  "originalSite": "eff.org",
+  "context": "Encryption backdoors are deliberate vulnerabilities in cryptographic systems designed to allow government access to encrypted data. Data retention laws require service providers to store user communications and metadata for potential law enforcement access. Both practices are highly controversial as they can weaken overall security and infringe on privacy.",
+  "discussion": "Commenters expressed strong opposition, with one user noting the bill would force encrypted services to block Canadians, and another criticizing the persistent reintroduction of such legislation. A user also requested a French translation of the EFF article to aid advocacy.",
+  "references": [
+    {
+      "title": "Canada’s Bill C-22 Is a Repackaged Version of Last Year’s ...",
+      "url": "https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare"
+    },
+    {
+      "title": "Government Bill (House of Commons) C-22 (45-1) - First ...",
+      "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-22/first-reading"
+    },
+    {
+      "title": "What Is an Encryption Backdoor? - Internet Society",
+      "url": "https://www.internetsociety.org/blog/2025/05/what-is-an-encryption-backdoor/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "d1b8092b01de59d7224534b245e323a35d9c0926",
+  "canonicalId": "05202896dc81a9e4f03adbde6b2a069a87bcdd9d",
+  "slug": "复制-qwen2-72b-的-7-层模块无需修改权重即可提升性能登顶-open-llm-排行榜",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-11T00:00:00Z",
+  "lang": "zh",
+  "title": "复制 Qwen2-72B 的 7 层模块无需修改权重即可提升性能，登顶 Open LLM 排行榜。",
+  "summary": "一位研究人员发现，在 Qwen2-72B 模型中复制一个特定的 7 层中间模块，且不修改任何模型权重，就能显著提升其在 Open LLM 排行榜所有基准测试上的性能，使其登顶榜首。这种效果仅在复制大约 7 层的模块时出现，复制单层或更大的模块则无效。 这一发现表明，预训练过程在 Transformer 架构中雕刻出了离散的、作为整体运作的功能性电路，这对机械可解释性研究具有深远意义。它还证明，使用相对适中的计算资源（如两张消费级 GPU）也能实现有意义的架构发现和性能提升，这可能使高级 LLM 研究更加大众化。 复制单层或过大的模块时并未观察到性能提升，这表明存在一个特定的“电路规模”最佳点。研究人员仅使用了两张 NVIDIA RTX 4090 GPU 就完成了这项工作，凸显了该方法的可及性。",
+  "score": 8,
+  "tags": [
+    "LLM Architecture",
+    "Model Optimization",
+    "Mechanistic Interpretability",
+    "Transformer Circuits",
+    "Open LLM Leaderboard"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 10, 19:17"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rq6g08/how_i_topped_the_open_llm_leaderboard_using_2x/",
+  "originalSite": "reddit.com",
+  "context": "Open LLM 排行榜是由 Hugging Face 托管的一个基准测试平台，它根据大型语言模型（LLM）在各种评估任务上的表现进行排名。Qwen2-72B 是阿里巴巴开发的一个拥有 720 亿参数的开源语言模型，采用标准的 Transformer 架构，其各层按顺序处理信息。机械可解释性是 AI 研究的一个领域，旨在理解神经网络的内部计算过程，通常通过识别负责特定功能的特定“电路”或子网络来实现。",
+  "discussion": "社区对这一反直觉的结果——即通过复制而非修改权重来提升性能——表现出浓厚的兴趣和惊讶。关键的讨论点包括建议对已识别的电路进行循环而非复制，以及好奇这些电路在 Qwen 或 GLM 等不同模型家族中是否表现为稳定的模块。社区也对这种使用低算力进行有意义研究的方法表示赞赏。",
+  "references": [
+    {
+      "title": "Open LLM Leaderboard v1",
+      "url": "https://huggingface.co/docs/leaderboards/open_llm_leaderboard/archive"
+    },
+    {
+      "title": "Qwen/Qwen2-72B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen2-72B"
+    },
+    {
+      "title": "Transformer Circuits Thread",
+      "url": "https://transformer-circuits.pub/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

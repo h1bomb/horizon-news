@@ -1,0 +1,40 @@
+{
+  "id": "0d81bc6f5980c07e272fea9e548cab0dae318b5e",
+  "canonicalId": "dea52d951227dccce7da82c237b9c77c20be7024",
+  "slug": "anthropic-承认降低托管模型能力强化开源本地-ai-理由",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 承认降低托管模型能力，强化开源本地 AI 理由",
+  "summary": "Anthropic 发布了一份事后分析，承认了三起事件：他们降低了 Claude 的推理努力、引入了一个健忘的 bug，以及通过提示词更改损害了编码质量，且均未通知用户。 这一官方承认验证了社区长期以来的怀疑，即托管 AI 的能力退化，凸显了依赖不透明、集中控制模型的风险，并强化了支持开源权重、自托管替代方案的理由。 这些更改包括 3 月 4 日将默认推理努力从高降至中，3 月 26 日一个 bug 在空闲会话后每轮清除旧思考，以及 4 月 16 日一个减少冗长的系统提示损害了编码质量；所有更改均在用户反弹后被撤销。",
+  "score": 8,
+  "tags": [
+    "AI transparency",
+    "local models",
+    "Anthropic",
+    "model degradation",
+    "open-source AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 24, 12:33"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/engineering/april-23-postmortem",
+  "originalSite": "anthropic.com",
+  "context": "Anthropic 的 Claude 模型是按 token 付费的托管 AI 服务。与可以本地运行的开源权重模型不同，用户无法控制服务器端的更改。这一事件反映了对托管 AI 模型退化及缺乏透明度的更广泛担忧。",
+  "discussion": "社区表达了被证实的感受，许多人指出这证实了长期以来的怀疑。用户强调需要透明度、对降级服务的折扣以及本地模型的自由，而一些人指出这些 bug 是 Claude Code 特有的，而非 API。",
+  "references": [
+    {
+      "title": "Expert Strategies to Use Claude Code More Efficiently in 2025 -",
+      "url": "https://www.geeky-gadgets.com/claude-code-advanced-features-guide/"
+    },
+    {
+      "title": "OpenAI open - weight models (gpt-oss) | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/11870455-openai-open-weight-models-gpt-oss"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "403c68a7fa4d208400dd6e6a4e346ec81fa2e3c6",
+  "canonicalId": "267c4bf063e406f480599cbf04c91e915d32956e",
+  "slug": "状态图用于-ui-的分层状态机",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-27T00:00:00Z",
+  "lang": "zh",
+  "title": "状态图：用于 UI 的分层状态机",
+  "summary": "Statecharts.dev 提供了对分层状态机的介绍，社区讨论强调了它们在 UI 开发中的价值以及历史伪状态等细微差别。 状态图通过分层组织状态来管理复杂的 UI 逻辑，使交互更易于推理和维护。XState 创建者等人的讨论强调了它们在现代软件工程中的实用价值。 历史伪状态（H, H*）引入了非确定性，因为通过 H 进入父状态会恢复最后活动的子状态，这意味着相同的事件可能导致不同的状态。XState 是一个用于编写、执行和可视化状态机和状态图的 JavaScript/TypeScript 库。",
+  "score": 8,
+  "tags": [
+    "statecharts",
+    "state machines",
+    "UI development",
+    "XState",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 26, 09:32"
+    }
+  ],
+  "originalUrl": "https://statecharts.dev/",
+  "originalSite": "statecharts.dev",
+  "context": "状态机是一种具有有限状态和状态间转换的行为模型。分层状态机（状态图）通过允许状态包含子状态来扩展这一概念，通过嵌套降低复杂性。它们广泛用于 UI 开发、嵌入式系统和协议建模。",
+  "discussion": "社区讨论包括 XState 创建者 David Khourshid 的见解，他强调将状态图视为可执行行为而不仅仅是文档。另一位评论者指出，历史伪状态打破了确定性承诺，因为它们引入了图中未显示的隐藏状态。",
+  "references": [
+    {
+      "title": "Hierarchical State Machine",
+      "url": "https://en.wikipedia.org/wiki/Hierarchical_State_Machine"
+    },
+    {
+      "title": "XState - JavaScript State Machines and Statecharts",
+      "url": "https://xstate.js.org/"
+    },
+    {
+      "title": "XState",
+      "url": "https://stately.ai/docs/xstate"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

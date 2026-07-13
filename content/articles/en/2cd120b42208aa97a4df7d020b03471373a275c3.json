@@ -1,0 +1,44 @@
+{
+  "id": "2cd120b42208aa97a4df7d020b03471373a275c3",
+  "canonicalId": "cbe64fc809c74898f47ebd2fe817f64f6459ce8a",
+  "slug": "report-us-customs-and-border-protection-used-ad-location-data-for-surveillance",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-06T13:48:00Z",
+  "lang": "en",
+  "title": "Report: U.S. Customs and Border Protection Used Ad Location Data for Surveillance",
+  "summary": "Documents obtained by 404 Media reveal that U.S. Customs and Border Protection (CBP) acknowledged using commercially available marketing location data for surveillance in a pilot program between 2019 and 2021. Some of this data was sourced from the online advertising real-time bidding (RTB) ecosystem. This revelation is significant because it shows a federal law enforcement agency bypassing traditional legal processes by purchasing sensitive location data from the commercial ad market, raising major privacy and civil liberties concerns. It highlights how the vast, largely unregulated data broker industry can become a tool for government surveillance. The data reportedly included advertising identifiers, GPS coordinates, and IP addresses transmitted by apps and websites during ad auctions or via SDKs, which were then aggregated and sold by data brokers. The report also indicates that related federal agencies have continued to procure commercial location tracking tools beyond the pilot period.",
+  "score": 7,
+  "tags": [
+    "surveillance",
+    "privacy",
+    "advertising-technology",
+    "government",
+    "data-brokers"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/",
+  "originalSite": "404media.co",
+  "context": "Real-time bidding (RTB) is the automated, instantaneous auction system used to buy and sell online ad impressions. During this process, apps and websites can transmit user data points like advertising IDs (e.g., Apple's IDFA) and location to potential advertisers. Data brokers then collect this information from across the digital advertising ecosystem, package it, and sell it to various clients, creating a detailed picture of individuals' movements and habits.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Real-time bidding - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Real-time_bidding"
+    },
+    {
+      "title": "Location Data Brokers | Electronic Frontier Foundation",
+      "url": "https://www.eff.org/issues/location-data-brokers"
+    },
+    {
+      "title": "Identifier for Advertisers - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Identifier_for_Advertisers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

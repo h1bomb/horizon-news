@@ -1,0 +1,44 @@
+{
+  "id": "79b93ca5ced59b4fb14683a77d0e7e776fba42d1",
+  "canonicalId": "81877186a952ba00d63390e0ef725a4b37bfb662",
+  "slug": "sglang-v0514gb300-上-deepseek-v4-吞吐量提升-5-倍",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T22:57:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.14：GB300 上 DeepSeek-V4 吞吐量提升 5 倍",
+  "summary": "SGLang v0.5.14 增加了对多个新模型的支持，包括 GLM-5.2、LiquidAI LFM2.5 和 Kimi-K2.7-Code，在 NVIDIA GB300 上实现了 DeepSeek-V4 的 5 倍吞吐量提升，并新增了两种面向 DeepEP 的 MoE 负载均衡方法（Waterfill 和 LPLB）。 此版本显著提升了 DeepSeek-V4 等大型 MoE 模型的推理性能，使其在最新硬件上的生产部署更加实用。Waterfill 和 LPLB 负载均衡方法解决了专家并行中的一个关键瓶颈，有望降低延迟并提升众多新模型的吞吐量。 GB300 上 5 倍的吞吐量提升得益于优化内核、MoE 负载均衡和 NVFP4 量化的组合。Waterfill 方法动态地将共享专家的工作分配给负载较轻的 ranks，而 LPLB 使用线性规划在冗余的专家副本之间平衡 token。这些是可选功能（例如 --ep-dispatch-algorithm=lp）。",
+  "score": 8,
+  "tags": [
+    "SGLang",
+    "DeepSeek",
+    "MoE",
+    "load balancing",
+    "inference"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Fridge003"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.14",
+  "originalSite": "github.com",
+  "context": "SGLang 是一个开源推理引擎，专为大型语言模型设计，特别是混合专家（MoE）架构。MoE 模型使用多个“专家”，每个 token 激活其中一部分，这需要在 GPU 间进行高效的通信和负载均衡。DeepEP 是一个用于专家并行的通信库，负载不均衡会造成计算浪费。Waterfill 和 LPLB 是在运行时调度阶段重分配工作的方法，无需改变模型权重。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Improving DeepEP MoE Load Balance in SGLang with Waterfill ...",
+      "url": "https://www.lmsys.org/blog/2026-06-26-waterfill-lplb"
+    },
+    {
+      "title": "GitHub - deepseek-ai/LPLB: An early research stage expert ...",
+      "url": "https://github.com/deepseek-ai/LPLB"
+    },
+    {
+      "title": "DeepSeek Launches DeepEP for MoE Optimization",
+      "url": "https://blogs.novita.ai/deepseek-deepep/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

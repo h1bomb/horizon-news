@@ -1,0 +1,40 @@
+{
+  "id": "73a205d6806e32a932d0be01869e764d128703a4",
+  "canonicalId": "fe751a73bcc1186490a6e0bbe67da4418fab4bb7",
+  "slug": "用-jax-自对弈强化学习打造超级人类-generalsio-智能体",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-24T16:18:00Z",
+  "lang": "zh",
+  "title": "用 JAX 自对弈强化学习打造超级人类 Generals.io 智能体",
+  "summary": "作者使用自对弈强化学习训练了一个超级人类智能体，用于策略游戏 Generals.io，该智能体完全用 JAX 重新实现并采用 Vision Transformer（ViT）架构，在人类 1v1 排行榜上取得了第一名。 这项工作证明了扩展算力和架构（JAX+ViT）相比于手工设计特征的有效性，并为构建强大的游戏 AI 提供了开源蓝图。同时，它为研究社区贡献了一个基于 JAX 的快速不完全信息实时策略模拟器。 该项目源于一篇硕士论文，最初使用了行为克隆和强化学习微调，但被顶级玩家击败。关键的改进是将整个 pipeline 用 JAX 重新实现以提升速度，并用 Vision Transformer 替换了 CNN。",
+  "score": 8,
+  "tags": [
+    "reinforcement learning",
+    "self-play",
+    "game AI",
+    "JAX",
+    "vision transformer"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/shrekofspeed"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uei2yg/i_made_a_superhuman_generalsio_agent_with/",
+  "originalSite": "reddit.com",
+  "context": "自对弈强化学习是一种智能体通过与自身对弈来提升性能的技术，能产生越来越有挑战性的对手。JAX 是一个高性能数值计算库，支持自动微分和即时编译，可实现高效训练。Vision Transformer（ViT）将 transformer 架构应用于图像块，在处理空间数据时相比 CNN 具有更高的容量。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Self-play (reinforcement learning technique)",
+      "url": "https://en.wikipedia.org/wiki/Self-play_(reinforcement_learning_technique)"
+    },
+    {
+      "title": "Vision transformer",
+      "url": "https://en.wikipedia.org/wiki/Vision_transformer"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

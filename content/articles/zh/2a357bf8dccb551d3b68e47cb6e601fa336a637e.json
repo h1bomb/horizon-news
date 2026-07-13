@@ -1,0 +1,40 @@
+{
+  "id": "2a357bf8dccb551d3b68e47cb6e601fa336a637e",
+  "canonicalId": "1936d02ad8e6d6d5887b5c600778aac36e807654",
+  "slug": "砺算科技发布国产首款-6nm-显卡-7g106性能超-rtx-4060-约-10",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-13T00:00:00Z",
+  "lang": "zh",
+  "title": "砺算科技发布国产首款 6nm 显卡 7G106，性能超 RTX 4060 约 10%",
+  "summary": "砺算科技发布了国产首款 6nm 消费级显卡 7G106，配备 12GB GDDR6 显存，在 OpenCL 跑分中性能比 NVIDIA RTX 4060 高出约 10%。同时发布的还有专业级显卡 7G105，拥有 24GB 显存和 24 TFLOPS 的 FP32 计算吞吐量，两款显卡均采用台积电 N6 工艺和自研 TrueGPU 架构。 这标志着中国在半导体自主化方面取得重要突破，首次实现了在消费级 GPU 领域与 NVIDIA 等国际巨头竞争的能力。这一进展可能影响全球 GPU 市场格局，为游戏、内容创作和 AI 工作负载提供替代选择，同时减少对外国技术的依赖。 7G106 在 OpenCL 跑分中获得 111,290 分，在《黑神话：悟空》4K 高画质下平均帧率超过 70 帧，并支持 AV1、HEVC 8K 硬件解码等现代视频编解码器。消费级型号计划于 9 月开始量产，但具体定价、供货细节以及性能声明的独立第三方验证信息尚未公布。",
+  "score": 8,
+  "tags": [
+    "GPU",
+    "Semiconductor",
+    "Hardware",
+    "China-Tech",
+    "Graphics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 12, 11:18"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40219",
+  "originalSite": "t.me",
+  "context": "台积电 N6（6 纳米）工艺是 N7（7 纳米）节点的演进版本，通过增加 EUV 层数来提升能效、性能和晶体管密度，同时保持相似的缺陷率。OpenCL（开放计算语言）是一个跨平台的并行计算框架，允许程序在包括 GPU 在内的异构处理器上运行，其基准测试分数提供了标准化的性能比较依据。TrueGPU 架构是砺算科技自研的 GPU 设计，构成了其 7G 系列显卡的技术基础。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "N7/N6 - 台湾积体电路制造股份有限公司 - TSMC",
+      "url": "https://www.tsmc.com/schinese/dedicatedFoundry/technology/platform_DCE_N7_N6"
+    },
+    {
+      "title": "OpenCL",
+      "url": "https://en.wikipedia.org/wiki/OpenCL"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

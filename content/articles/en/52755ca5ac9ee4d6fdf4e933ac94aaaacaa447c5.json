@@ -1,0 +1,43 @@
+{
+  "id": "52755ca5ac9ee4d6fdf4e933ac94aaaacaa447c5",
+  "canonicalId": "e6a7adf7506919407db99ed221aad41b5e564acd",
+  "slug": "pip-261-released-with-dependency-cooldowns-and-pylock-support",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T18:45:00Z",
+  "lang": "en",
+  "title": "pip 26.1 Released with Dependency Cooldowns and Pylock Support",
+  "summary": "pip 26.1 has been released, introducing dependency cooldowns, experimental support for pylock.toml files, resolver improvements, security fixes, and the end of Python 3.9 support. This release is significant for Python developers as it improves dependency resolution reliability, enhances reproducibility through pylock support, and addresses security vulnerabilities, while dropping Python 3.9 encourages migration to newer versions. Dependency cooldowns allow pip to temporarily avoid re-resolving recently resolved dependencies, reducing unnecessary work. The experimental pylock support implements PEP 751 for reproducible installations, and resolver improvements lift several limitations of the 2020 resolver, moving closer to removing the legacy resolver.",
+  "score": 7,
+  "tags": [
+    "pip",
+    "Python",
+    "package management",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1070010/",
+  "originalSite": "lwn.net",
+  "context": "pip is the standard package installer for Python. The 2020 resolver introduced stricter dependency conflict detection, but had limitations that pip 26.1 addresses. Dependency cooldowns are a feature inspired by uv, a fast Python package manager. pylock.toml is a new lock file format defined in PEP 751 to ensure reproducible installations across environments.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "pylock.toml Specification - Python Packaging User Guide",
+      "url": "https://packaging.python.org/en/latest/specifications/pylock-toml/"
+    },
+    {
+      "title": "Python Tools Are Quickly Adopting the New pylock.toml Standard",
+      "url": "https://socket.dev/blog/pylock-toml-standard-adoption"
+    },
+    {
+      "title": "Dependency cooldowns, redux",
+      "url": "https://blog.yossarian.net/2025/12/13/cooldowns-redux"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "58296fadc6d7b1386acbab06b2a5c16e9486cd1a",
+  "canonicalId": "51f498a8a829e8db59a27d59dd989b53c3226042",
+  "slug": "openai-发布-claude-code-的-codex-插件支持直接代码审查与任务委派",
+  "date": "2026-04-01",
+  "publishedAt": "2026-04-01T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 Claude Code 的 Codex 插件，支持直接代码审查与任务委派",
+  "summary": "OpenAI 发布了面向 Claude Code 的 Codex 插件，允许用户在现有工作流中直接调用 Codex 进行代码审查或委派任务。该插件支持常规只读审查、带质疑导向的对抗式审查，以及将排查缺陷、修复问题等工作交给 Codex 处理，并提供状态查询、结果查看和后台任务取消等命令。 该插件通过将 Codex 的功能直接集成到 Claude Code 中，增强了 AI 辅助编程能力，简化了开发者的工作流程，并可能通过自动化代码审查和任务处理提高生产力。这反映了软件开发中 AI 工具集成日益无缝化的趋势，对使用 Claude Code 进行编码任务的开发者具有实际益处。 该插件通过本地 Codex CLI 和 Codex 应用服务运行，沿用同一台机器上的认证状态、配置、代码仓库和本地环境，无需独立运行时。使用前提包括 ChatGPT 订阅（含免费版）或 OpenAI API 密钥，以及 Node.js 18.18 或更高版本；插件可通过 Claude Code 的插件市场安装。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Code Review",
+    "OpenAI",
+    "Developer Tools",
+    "Automation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 31, 01:17"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/codex-plugin-cc",
+  "originalSite": "github.com",
+  "context": "Codex 是 OpenAI 开发的 AI 编码代理，可在终端本地运行，用于代码生成和审查等任务。Claude Code 是一个支持插件扩展功能的编码环境或工具，拥有插件市场用于安装社区驱动或官方插件。Node.js 是一个 JavaScript 运行时环境，许多现代开发工具和应用程序都需要它来运行。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CLI – Codex | OpenAI Developers",
+      "url": "https://developers.openai.com/codex/cli"
+    },
+    {
+      "title": "Plugins for Claude Code and Cowork | Anthropic",
+      "url": "https://claude.com/plugins"
+    },
+    {
+      "title": "Node.js — Run JavaScript Everywhere",
+      "url": "https://nodejs.org/en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

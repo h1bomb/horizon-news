@@ -1,0 +1,40 @@
+{
+  "id": "04604e47d1953bff3ec06cd6476e1c6d97bbd5c7",
+  "canonicalId": "f97ec39585de0340c1926a4905a5bb716ec66cc9",
+  "slug": "对-claude-fable-5-的出口管制反噬美国网络防御",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T05:20:00Z",
+  "lang": "zh",
+  "title": "对 Claude Fable 5 的出口管制反噬美国网络防御",
+  "summary": "研究人员发现，让 Claude Fable 5 修复含有已知漏洞的代码被出口管制归类为越狱行为，从而阻碍了合法的安全补丁工作。这暴露了监管解读的适得其反。 这削弱了美国的网络防御，因为阻止了 AI 执行关键的漏洞修补工作，而对手却没有此类限制。这凸显了当前 AI 出口管制政策的严重缺陷。 所谓的“越狱”涉及一个多步骤的手动过程：Fable 5 最初拒绝安全审查请求，但在被要求“修复此代码”时生成了补丁测试脚本。该能力无法在不削弱防御安全能力的情况下被移除。",
+  "score": 8,
+  "tags": [
+    "AI policy",
+    "export controls",
+    "cybersecurity",
+    "Claude",
+    "regulatory overreach"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "对 AI 模型的出口管制旨在防止对手将先进模型用于网络攻击。然而，使能攻击用途的相同能力对于防御安全任务（如修复漏洞和验证补丁）也至关重要。Claude Fable 5 是 Anthropic 公司开发的 Mythos 级模型，设计用于通用用途并带有安全护栏。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Fable 5",
+      "url": "https://en.wikipedia.org/wiki/Claude_Fable_5"
+    },
+    {
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

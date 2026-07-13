@@ -1,0 +1,44 @@
+{
+  "id": "1e7535ff8d70e66adff3b97095770a541429c708",
+  "canonicalId": "e95b4280ec028738be9b99b374d5477199cd5f71",
+  "slug": "community-chart-summarizes-recent-open-source-llm-releases-from-november-2025-to-april-2026",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-22T12:52:00Z",
+  "lang": "en",
+  "title": "Community Chart Summarizes Recent Open-Source LLM Releases from November 2025 to April 2026",
+  "summary": "A user-created chart was shared on April 2026, compiling major open-source large language models released in the previous six months, including models like Kimi-K2.6, Qwen3.6 27B, and MiMo-V2-Flash, with performance trends and size categories highlighted. This chart matters because it visually captures the rapid progress and competitive landscape in open-source AI, showing how local LLMs have advanced significantly in performance and accessibility, potentially democratizing AI tools for developers and researchers. The chart includes models ranging from ~50B to 501B-1T parameters, with notable omissions like Ling-2.5-1T and small models due to space constraints, and it uses performance indexes from sources like Artificial Analysis, though methodological consistency may vary.",
+  "score": 7,
+  "tags": [
+    "open-source-ai",
+    "large-language-models",
+    "local-llms",
+    "model-comparison",
+    "ai-community"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "pmttyji"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/khsxkv3dnqwg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Large language models (LLMs) are AI systems trained on vast text data to generate human-like text, with open-source models allowing public access and modification. Mixture of Experts (MoE) architectures, used in models like Kimi-K2.6 and MiMo-V2-Flash, improve efficiency by activating only subsets of parameters. The period from late 2025 to early 2026 has seen intense competition among tech companies and research groups to release advanced open models.",
+  "discussion": "Community comments express excitement about the progress, with users noting the remarkable capabilities of models like Qwen3.6 35B compared to older benchmarks, and some praising China's contributions to open-source AI. Concerns were raised about the chart's methodology, including potential misleading branding and omissions of certain models.",
+  "references": [
+    {
+      "title": "Kimi (chatbot) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kimi_(chatbot)"
+    },
+    {
+      "title": "MiMo V2 Flash Playground & API on Vercel AI Gateway",
+      "url": "https://vercel.com/ai-gateway/models/mimo-v2-flash"
+    },
+    {
+      "title": "arcee-ai/Trinity-Large-Thinking · Hugging Face",
+      "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

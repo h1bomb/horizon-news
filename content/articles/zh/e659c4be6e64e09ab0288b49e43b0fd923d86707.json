@@ -1,0 +1,44 @@
+{
+  "id": "e659c4be6e64e09ab0288b49e43b0fd923d86707",
+  "canonicalId": "c6e7ec6ab9c847b7b57b588e20dd3ff1f32ea020",
+  "slug": "自定义-llamacpp-分支在-rockchip-npu-上运行-gemma4-26b-a4b-模型功耗仅-4w",
+  "date": "2026-04-05",
+  "publishedAt": "2026-04-05T00:00:00Z",
+  "lang": "zh",
+  "title": "自定义 llama.cpp 分支在 Rockchip NPU 上运行 Gemma4 26B A4B 模型，功耗仅 4W",
+  "summary": "开发者创建了一个自定义的 llama.cpp 分支，能够在 Rockchip NPU 硬件上运行 Gemma4 26B A4B 大语言模型，并实现了仅 4W 功耗的高效运行。该分支引入了新的后端功能，包括移除内存限制和支持混合量化。 这一突破表明大语言模型能够在低功耗边缘设备上高效运行，有望在单板计算机和嵌入式系统等资源受限的硬件上实现 AI 应用。这代表了在边缘计算场景中让先进 AI 更易获取且更节能方面的重要进展。 该自定义后端通过利用 IOMMU 域支持高达 32GB 缓存，移除了之前 2GB 和 4GB 的内存限制，使得任意大小的模型都能运行。它还实现了混合量化，模型层可以动态量化并分配到可用的硬件流水线中，包括混合使用 NPU 和 CPU 处理。",
+  "score": 8,
+  "tags": [
+    "edge-ai",
+    "hardware-acceleration",
+    "llama.cpp",
+    "low-power-computing",
+    "model-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 4, 12:56"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/kkbh41ino5tg1",
+  "originalSite": "v.redd.it",
+  "context": "llama.cpp 是一个开源 C++实现，用于在各种硬件上高效运行大语言模型，最初专注于 CPU 推理，现已扩展支持不同加速器。Rockchip NPU 是专为神经网络计算设计的处理器，常见于使用 RK3588 芯片的单板计算机中。Gemma4 是谷歌的开放语言模型系列，其中 26B A4B 变体是一个 260 亿参数的模型，针对设备端执行进行了优化。",
+  "discussion": "社区成员对这一技术成就表示兴奋，有人指出它超出了对 RK3588 NPU 能力的预期，并使得运行比以往更大的模型成为可能。有人对性能速度和随着上下文增长稳定性表示担忧，而其他人则强调了量化敏感性和当前硬件价格高昂等限制因素。",
+  "references": [
+    {
+      "title": "CryptoCrocodile/rk- llama . cpp : Llama . cpp with the Rockchip NPU ...",
+      "url": "https://github.com/CryptoCrocodile/rk-llama.cpp"
+    },
+    {
+      "title": "Rockchip RK3588 NPU Deep Dive: Real-World AI... | TinyComputers.io",
+      "url": "https://tinycomputers.io/posts/rockchip-rk3588-npu-benchmarks.html"
+    },
+    {
+      "title": "Gemma 4 - How to Run Locally | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/gemma-4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

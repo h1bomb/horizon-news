@@ -1,0 +1,44 @@
+{
+  "id": "fdc1504e1faee3befb9e3bfdd100a6e5c8a24484",
+  "canonicalId": "3e882e8f467ff525cd854cfb35df2031e5ba5877",
+  "slug": "apple-provides-fbi-with-real-user-data-linked-to-anonymous-icloud-email-in-threat-investigation",
+  "date": "2026-03-28",
+  "publishedAt": "2026-03-27T13:09:00Z",
+  "lang": "en",
+  "title": "Apple provides FBI with real user data linked to anonymous iCloud email in threat investigation",
+  "summary": "Apple provided the FBI with the real iCloud email address and account details associated with an anonymous 'Hide My Email' address used to send threatening messages to a government official's girlfriend. The user, Alden Ruml, had generated 134 anonymous email addresses and later admitted to sending the threats. This incident highlights the limitations of Apple's 'Hide My Email' feature for privacy protection, as it remains traceable by law enforcement, raising concerns about user anonymity and data security in encrypted services. It underscores broader debates on tech company transparency, surveillance, and the balance between privacy and law enforcement access in digital communications. The 'Hide My Email' feature is part of iCloud+ and allows users to generate unique, random email addresses that forward to their inbox, but Apple retains the ability to link these addresses to real accounts for legal compliance. This case involved a specific threat investigation where Apple cooperated under legal authority, similar to incidents with other services like Proton Mail.",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "security",
+    "law-enforcement",
+    "apple",
+    "data-protection"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature/",
+  "originalSite": "404media.co",
+  "context": "Apple's 'Hide My Email' is a privacy feature in iCloud+ that generates disposable email addresses to protect users' real email from spam and tracking. Anonymous email services aim to shield user identities, but they often have limitations under legal requests, as companies may store metadata or account links. Law enforcement can trace such emails through subpoenas or cooperation with service providers, as seen in cases involving other platforms.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How to use Hide My Email with Sign in with Apple",
+      "url": "https://support.apple.com/en-us/105078"
+    },
+    {
+      "title": "Caution: a non privacy reason to not use iCloud+ Hide My Email",
+      "url": "https://discuss.techlore.tech/t/caution-a-non-privacy-reason-to-not-use-icloud-hide-my-email/14142"
+    },
+    {
+      "title": "Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester",
+      "url": "https://www.reddit.com/r/technology/comments/1rlxac2/proton_mail_helped_fbi_unmask_anonymous_stop_cop/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

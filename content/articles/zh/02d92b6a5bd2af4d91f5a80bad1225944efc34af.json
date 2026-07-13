@@ -1,0 +1,45 @@
+{
+  "id": "02d92b6a5bd2af4d91f5a80bad1225944efc34af",
+  "canonicalId": "7ce1eed22e7cf2c891545be965836f6e723718cc",
+  "slug": "内存占-ai-芯片组件成本-63",
+  "date": "2026-05-25",
+  "publishedAt": "2026-05-24T16:31:00Z",
+  "lang": "zh",
+  "title": "内存占 AI 芯片组件成本 63%",
+  "summary": "这一趋势意味着无需技术突破，仅需等待 DRAM 供应满足需求，AI 推理和训练硬件成本就可能大幅下降。同时，它也凸显了供应链瓶颈，可能影响 AI 芯片的定价及对消费者和企业的可用性。 在此期间，封装成本从 19%降至 15%，辅助组件从 15%降至 9%，而逻辑芯片成本稳定在 13-14%。内存成本上升主要源于 HBM，其每 GB 晶圆消耗量约为 DDR5 的三倍。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "hardware costs",
+    "memory",
+    "semiconductor",
+    "DRAM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "intelkishan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48258684"
+    }
+  ],
+  "originalUrl": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+  "originalSite": "epoch.ai",
+  "context": "高带宽内存（HBM）是一种垂直堆叠的 DRAM，可节省空间和功耗，常用于 NVIDIA GPU 等 AI 加速器。随着 AI 模型规模增长，HBM 需求激增，导致晶圆和封装产能从 DDR5 等消费级 DRAM 中分流。这造成了 AI 和消费级内存市场的价格上涨。",
+  "discussion": "评论者指出，DRAM 供应年增长率 20-25%可能无法跟上 AI 需求，暗示内存成本将持续高昂。部分用户对消费级内存价格上涨表示沮丧，有用户反映 96GB 套件价格从 250 美元飙升至 1200 美元。另有观点认为可通过软件层面优化内存依赖来抓住机遇。",
+  "references": [
+    {
+      "title": "AI Chip Component Costs: Memory at 63% | Epoch AI | Epoch AI",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares"
+    },
+    {
+      "title": "High Bandwidth Memory - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/High_Bandwidth_Memory"
+    },
+    {
+      "title": "Here's why HBM is coming for your PC's RAM — HBM consumes around three times the wafer capacity of DDR5 per gigabyte, as AI supercharges demand for chips and advanced packaging | Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/ram/hbm-is-eating-your-ram"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

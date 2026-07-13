@@ -1,0 +1,44 @@
+{
+  "id": "b8ea58c10d2d3253e327fa9d18a91d993871de90",
+  "canonicalId": "0afd3bc0b17f10ff66c63ef61fec3f9ed13f54ce",
+  "slug": "原作者澄清-turboquant-与-rabitq-的关系回应社区误解",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-31T00:00:00Z",
+  "lang": "zh",
+  "title": "原作者澄清 TurboQuant 与 RaBitQ 的关系，回应社区误解。",
+  "summary": "RaBitQ 论文的第一作者 Jianyang Gao 在 Reddit 上发布技术澄清，纠正公众对 TurboQuant 与其工作关系的误解，指出尽管先前有过沟通，但错误陈述仍存在于 ICLR 提交中。 这一澄清很重要，因为它解决了本地 LLM 社区对 KV 缓存压缩方法的困惑，影响研究伦理和 LLM 优化中创新的准确归属，这对推进高效推理技术至关重要。 担忧包括 TurboQuant 在方法层面描述 RaBitQ 不完整，问题自 2025 年 1 月提出，但仅在 ICLR 2026 会议后部分解决，可能在活动中引发更多混淆。",
+  "score": 8,
+  "tags": [
+    "LLM Optimization",
+    "Quantization",
+    "KV-Cache Compression",
+    "Research Ethics",
+    "Local Inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 30, 11:20"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s7nq6b/technical_clarification_on_turboquant_rabitq_for/",
+  "originalSite": "reddit.com",
+  "context": "RaBitQ 是一种随机量化方法，将高维向量压缩为比特串，于 2024 年提出，用于向量搜索等任务。KV 缓存压缩是一种在 LLM 推理期间通过优化键值对存储来减少内存使用的技术，对可扩展部署至关重要。TurboQuant 是一种在 2025 年论文中详述的压缩算法，常被讨论用于减少 AI 系统的内存需求。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error ...",
+      "url": "https://arxiv.org/abs/2405.12497"
+    },
+    {
+      "title": "KV Cache Optimization Strategies for Scalable and Efficient ...",
+      "url": "https://arxiv.org/pdf/2603.20397"
+    },
+    {
+      "title": "TurboQuant: Online Vector Quantization with Near-optimal",
+      "url": "https://arxiv.org/html/2504.19874v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

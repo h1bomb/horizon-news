@@ -1,0 +1,44 @@
+{
+  "id": "91f5b00990cc2b468cc36e4614933f70e8085bd6",
+  "canonicalId": "d43c4632fd58c2317b3c74895a5bd13d13eb9b21",
+  "slug": "sglang-v0515-在-blackwell-上大幅提升-llm-推理性能",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-10T22:58:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.15 在 Blackwell 上大幅提升 LLM 推理性能",
+  "summary": "SGLang v0.5.15 引入了具有零开销调度的推测解码 V2，实现了端到端每秒 token 数量增加 11%，以及 IndexShare 多 token 预测（MTP），在长上下文场景下将草稿步骤成本降低高达 1.9 倍。此外，在 Blackwell GPU 上使用 NVFP4 量化后的 GLM-5.2 模型，在 8 卡 B300 上每用户每秒 token 数超过 500。 这些优化显著降低了生产环境中 LLM 服务的推理延迟和成本，尤其是在 NVIDIA 最新的 Blackwell 架构上。推测解码和量化方面的性能提升使得像 GLM-5.2、DeepSeek-V4 等大型模型的高吞吐、低延迟服务更加可行。 主要改进包括 Spec V2 的 CUDA 可图化草稿扩展与融合元数据操作、IndexShare MTP 跨步骤复用索引器 top-k、TopK V2 融合 top-k 与页表变换，以及针对 Blackwell 的 GEMM 形状专用 JIT 路由器。该版本还默认启用了可中断 CUDA Graph，并新增了线性注意力内核（KDA/GDN）以支持替代注意力机制。",
+  "score": 8,
+  "tags": [
+    "SGLang",
+    "LLM Inference",
+    "GPU Optimization",
+    "Speculative Decoding",
+    "NVFP4"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Fridge003"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15",
+  "originalSite": "github.com",
+  "context": "推测解码是一种推理优化技术，其中一个小型草稿模型生成多个候选 token，然后一个更大的目标模型并行验证它们，从而降低延迟。NVFP4 是伴随 NVIDIA Blackwell 推出的 4 位浮点格式，通过分层缩放提高超低精度下的准确性。SGLang 是一个面向 LLM 的开源推理引擎，专注于高性能和生产就绪。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/"
+    },
+    {
+      "title": "Speculative decoding",
+      "url": "https://en.wikipedia.org/wiki/Speculative_decoding"
+    },
+    {
+      "title": "NVFP4 Explained: How NVIDIA Blackwell Unlocks Low-Precision Floating Point",
+      "url": "https://verda.com/blog/nvfp4-nvidia-blackwell-intro"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

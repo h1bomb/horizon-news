@@ -1,0 +1,44 @@
+{
+  "id": "40afbb7018ec03a3f0854e4be6cd66db87a57f83",
+  "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
+  "slug": "typescript-70-发布go-重写带来高达-12-倍速度提升",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-09T04:01:00Z",
+  "lang": "zh",
+  "title": "TypeScript 7.0 发布：Go 重写带来高达 12 倍速度提升",
+  "summary": "微软发布了 TypeScript 7.0，这是一个用 Go 重写的原生版本，相比旧版构建速度提升 8 到 12 倍，并支持共享内存多线程。用户可通过 npm 安装，支持 LSP 的编辑器可使用新语言服务器。 这次重写代表了 TypeScript（一种广泛使用的语言）编译器性能的范式转变，大幅减少了大型项目的构建时间。它也展示了使用 Go 等系统语言优化工具性能的增长趋势。 新增实验性参数 --checkers 和 --builders，可微调类型检查和项目引用构建的并行度。但 Vue、Svelte 等嵌入式语言工具链尚未就绪，这些项目仍需使用旧版 TypeScript。",
+  "score": 10,
+  "tags": [
+    "TypeScript",
+    "Go",
+    "Compiler",
+    "Performance",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+  "originalSite": "devblogs.microsoft.com",
+  "context": "TypeScript 是 JavaScript 的静态类型超集，编译为普通 JavaScript。原编译器由 TypeScript 自身编写，在大代码库中性能受限。语言服务器协议（LSP）是一种标准化协议，使编辑器能够提供代码补全和错误检查等语言功能。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Announcing TypeScript 7.0 - TypeScript",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+    },
+    {
+      "title": "Language Server Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Language_Server_Protocol"
+    },
+    {
+      "title": "Official page for Language Server Protocol",
+      "url": "https://microsoft.github.io/language-server-protocol/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

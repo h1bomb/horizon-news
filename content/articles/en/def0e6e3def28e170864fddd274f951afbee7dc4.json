@@ -1,0 +1,37 @@
+{
+  "id": "def0e6e3def28e170864fddd274f951afbee7dc4",
+  "canonicalId": "7987f204b8d9ab6aa4bba8a8bd320961e271e238",
+  "slug": "california-3d-printer-surveillance-bill-faces-opposition",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T21:13:00Z",
+  "lang": "en",
+  "title": "California 3D printer surveillance bill faces opposition",
+  "summary": "The Electronic Frontier Foundation (EFF) has issued a call to action urging Californians to oppose a bill that would require 3D printers to use locked-down slicer software and detection algorithms to prevent printing of firearms. If passed, this bill would restrict open-source 3D printing innovation, infringe on user privacy, and set a dangerous precedent for technology surveillance in other states. The bill mandates that 3D printers only accept print jobs from authorized, proprietary software, effectively eliminating the use of open-source slicers like PrusaSlicer, and requires manufacturers to implement detection algorithms.",
+  "score": 8,
+  "tags": [
+    "surveillance",
+    "3D-printing",
+    "regulation",
+    "civil-liberties",
+    "california"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hn_acker",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48692051"
+    }
+  ],
+  "originalUrl": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme",
+  "originalSite": "eff.org",
+  "context": "3D printers rely on slicer software to convert 3D models into instructions (G-code) for the printer. Several states have laws against 3D-printed guns, but California's bill goes further by mandating hardware-level restrictions and surveillance capabilities, which critics argue violate user autonomy and security.",
+  "discussion": "Commenters expressed strong opposition, sharing personal anecdotes like a parent whose child's toy figurine was mistaken for a gun. Many urged contacting state senators, noting that Bay Area legislators should oppose the bill, and compared it to a similarly restrictive New York law.",
+  "references": [
+    {
+      "title": "List of 3D printing software - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_3D_printing_software"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

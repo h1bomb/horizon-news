@@ -1,0 +1,40 @@
+{
+  "id": "cb3c1277900a1ce1ae68b58dc08466694fb8598c",
+  "canonicalId": "a37fc49491f40514b9b6a888377eebddeaf2189e",
+  "slug": "minio-替代方案ceph-和-garage-分析",
+  "date": "2026-06-26",
+  "publishedAt": "2026-06-25T17:40:00Z",
+  "lang": "zh",
+  "title": "MinIO 替代方案：Ceph 和 Garage 分析",
+  "summary": "MinIO 于 2026 年 2 月归档，LWN 的一篇详细文章比较了 Ceph 和 Garage 这两个兼容 S3 的替代方案。 这一分析对众多依赖 MinIO 进行自托管对象存储、现在需要迁移到受支持的开源替代方案的用户至关重要。 Ceph 提供了一个功能完整的分布式存储平台，支持块、文件和对象接口；而 Garage 则专注于简单性和地理复制，适用于中小型部署；社区分支 Silo 也提供基本的维护支持。",
+  "score": 9,
+  "tags": [
+    "object storage",
+    "MinIO",
+    "S3-compatible",
+    "open source",
+    "storage systems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077739/",
+  "originalSite": "lwn.net",
+  "context": "MinIO 是一个流行的开源 S3 兼容对象存储服务器，广泛用于 Kubernetes 和自托管环境。它的归档给需要自管理、兼容 S3 API 存储解决方案的用户留下了空白。Ceph 和 Garage 是两个主要选项：Ceph 是一个成熟、可扩展的系统，支持多种存储类型；而 Garage 是一个轻量级、地理分布式的存储，专为去中心化基础设施设计。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ceph (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ceph_(software)"
+    },
+    {
+      "title": "The Garage team - An S3 object store so reliable you can run it outside datacenters",
+      "url": "https://garagehq.deuxfleurs.fr/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

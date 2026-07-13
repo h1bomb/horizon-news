@@ -1,0 +1,44 @@
+{
+  "id": "50dfb5f4c222cbffb95e14105e319edd02692ff7",
+  "canonicalId": "b536bfec5b0e30c2b4d3e5bb20309b58029ee9e2",
+  "slug": "linux-内核-lsfmmbpf-2026-讨论限制负目录项",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T14:10:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 LSFMM+BPF 2026 讨论限制负目录项",
+  "summary": "在 2026 年 Linux 存储、文件系统、内存管理和 BPF 峰会上，Miklos Szeredi 主持的会议讨论了目录中过多负目录项导致的问题，包括软锁死、引用计数溢出和哈希链过长。 负目录项是文件系统查找的关键优化，但当目录积累数百万个负目录项时，可能导致严重的性能问题甚至安全侧信道问题。讨论的方案可能促成改进文件系统可靠性和内存管理的内核补丁。 提出的解决方案包括将负目录项移到 d_children 列表末尾以便迭代器提前停止，添加 cond_resched() 调用避免软锁死，或切换到更合适的数据结构。有人担心与 getdents() 的顺序问题以及负目录项变为正时可能出现的复杂情况。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "filesystem",
+    "dentries",
+    "memory management",
+    "performance optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1079407/",
+  "originalSite": "lwn.net",
+  "context": "负目录项是缓存文件不存在的目录条目，通过避免重复文件系统访问来加速查找。目录项缓存存储三种类型：使用中、未使用和负。当目录有数亿个负目录项时，会导致软锁死或 lockref 溢出等问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The dentry Cache - Linux Kernel Reference - Halo Linux Services",
+      "url": "https://www.halolinux.us/kernel-reference/the-dentry-cache.html"
+    },
+    {
+      "title": "Dentry and Inode Caches - Linux Kernel Internals",
+      "url": "https://kernel-internals.org/vfs/dcache-icache/"
+    },
+    {
+      "title": "Negative dentries , 20 years later [LWN.net]",
+      "url": "https://lwn.net/Articles/890025/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

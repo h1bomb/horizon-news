@@ -1,0 +1,44 @@
+{
+  "id": "72f59773f22fc3d95ce03a716fd26e089d8ba97c",
+  "canonicalId": "6c7bd2b15bb5a4ff90de2b54f94b9a6b8d4e3965",
+  "slug": "wine-11-通过内核级重写大幅提升-linux-运行-windows-游戏的速度",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Wine 11 通过内核级重写大幅提升 Linux 运行 Windows 游戏的速度",
+  "summary": "Wine 11 已发布，通过内核级重写显著提升了在 Linux 上运行 Windows 游戏的性能，基准测试显示《尘埃 3》的帧率从 110.6 提升至 860.7，《生化危机 2》等游戏也实现了类似的巨大性能提升。 这代表了兼容层技术的重大进步，可能显著改善 Linux 游戏体验，使 Linux 成为依赖 Windows 独占游戏的玩家更可行的平台，并加强开源游戏生态系统。 基准测试中显示的极端性能提升是将 Wine 11 与未启用 fsync 的原始 Wine 进行比较的结果，而已在使用 fsync 的用户将看到更温和的改进；ntsync 实现提供了最显著的加速效果，但可能不会对所有游戏产生同等影响。",
+  "score": 8,
+  "tags": [
+    "Wine",
+    "Linux Gaming",
+    "Compatibility Layer",
+    "Performance Optimization",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 24, 18:34"
+    }
+  ],
+  "originalUrl": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
+  "originalSite": "xda-developers.com",
+  "context": "Wine 是一个兼容层，允许 Windows 应用程序和游戏在 Linux 等类 Unix 操作系统上运行，无需模拟或虚拟化，而是将 Windows API 调用转换为 POSIX 调用。该项目通过数十年来对 Windows 文档化和未文档化行为的逆向工程而开发。Valve 基于 Wine 构建的 Proton 通过 Steam 平台在将 Windows 游戏引入 Linux 方面发挥了关键作用。",
+  "discussion": "社区成员表达了对 Wine 技术成就的赞赏，同时指出基准测试比较可能夸大了已在使用 fsync 等性能优化用户的真实收益。一些人强调了 Valve 对该项目的资金贡献，另一些人则讨论了底层 Windows 兼容性工作涉及的技术复杂性。",
+  "references": [
+    {
+      "title": "Wine (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wine_(software)"
+    },
+    {
+      "title": "Wine - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Wine"
+    },
+    {
+      "title": "Windows API - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Windows_API"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

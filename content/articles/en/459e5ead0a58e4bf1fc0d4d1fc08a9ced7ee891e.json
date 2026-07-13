@@ -1,0 +1,44 @@
+{
+  "id": "459e5ead0a58e4bf1fc0d4d1fc08a9ced7ee891e",
+  "canonicalId": "22a82dc316ae94c50e3ff19a1a00ca5fa935ea1f",
+  "slug": "coherent-context-can-silently-shift-llms-into-different-internal-regimes",
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-14T21:42:00Z",
+  "lang": "en",
+  "title": "Coherent Context Can Silently Shift LLMs Into Different Internal Regimes",
+  "summary": "Independent researcher PresentSituation8736 discovered that a strong, coherent context can shift an LLM's internal representation space before output generation, causing safety mechanisms like RLHF and output filters to remain blind to the change. This finding reveals a fundamental blind spot in current LLM safety approaches, which only inspect final outputs, implying that sophisticated adversaries could bypass safeguards without triggering any surface-level alarms. The researcher measured hidden-state geometry, residual stream trajectories, and used sparse autoencoder (SAE) readouts on open models like Gemma-3-12B-IT, using coherent target texts that are not explicit jailbreak prompts.",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "mechanistic interpretability",
+    "LLM",
+    "alignment",
+    "internal state"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/PresentSituation8736"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u5xnxg/coherent_context_can_silently_shift_llms_into_a/",
+  "originalSite": "reddit.com",
+  "context": "LLMs are neural networks that process text by transforming token embeddings through a series of layers. The residual stream is a core component that accumulates information across layers, acting as a shared representation space. Mechanistic interpretability aims to reverse-engineer the internal algorithms of these models.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Large language model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "title": "Exploring the Residual Stream of Transformers - arXiv.org",
+      "url": "https://arxiv.org/html/2312.12141v1"
+    },
+    {
+      "title": "\" Mechanistic interpretability \" for LLMs, explained",
+      "url": "https://seantrott.substack.com/p/mechanistic-interpretability-for"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

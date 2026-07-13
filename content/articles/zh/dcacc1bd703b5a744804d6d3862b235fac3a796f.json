@@ -1,0 +1,45 @@
+{
+  "id": "dcacc1bd703b5a744804d6d3862b235fac3a796f",
+  "canonicalId": "c67823bff2e2b41313b1b21b61d3be886080335e",
+  "slug": "unlimited-ocr一次处理长文档的恒定-kv-缓存-ocr-方法",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T11:35:00Z",
+  "lang": "zh",
+  "title": "Unlimited OCR：一次处理长文档的恒定 KV 缓存 OCR 方法",
+  "summary": "百度研究人员推出了 Unlimited OCR，该方法使用巧妙的架构技巧（R-SWA）在长文档解析过程中保持 KV 缓存大小固定，从而能够一次性处理数百页而不会耗尽内存。 这克服了长文档 OCR 中的根本内存瓶颈，无需昂贵硬件即可支持更长的上下文窗口，可能显著改进文档数字化、RAG 和自动数据提取等应用。 关键创新是 R-SWA（受限滑动窗口注意力），它限制注意力在滑动窗口内，并使用特殊的预填充策略来保持 KV 缓存大小恒定，与输入长度无关。该模型可以在单次前向传播中处理数十到数百页，并从头到尾连续解析，无需增长内存。",
+  "score": 9,
+  "tags": [
+    "OCR",
+    "deep learning",
+    "memory optimization",
+    "natural language processing",
+    "document analysis"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ingve",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48643426"
+    }
+  ],
+  "originalUrl": "https://github.com/baidu/Unlimited-OCR",
+  "originalSite": "github.com",
+  "context": "传统 OCR 系统独立处理文档页面，丢失跨页上下文。基于 Transformer 的模型使用 KV 缓存存储先前计算的注意力键值对，随着输入长度线性增长，导致长文档内存溢出。这一限制迫使开发者将文档分块，牺牲了上下文理解。Unlimited OCR 提出一种保持固定大小 KV 缓存的架构，实现了真正的长文档一次性解析。",
+  "discussion": "社区反应非常积极，许多评论称赞这一巧妙的架构技巧。评论者指出了对长文档处理的实际意义，有人分享了在乐谱扫描和本地 OCR 方面的相关经验。对先前工作（Deepseek-OCR、PaddleOCR）的致谢也受到赞赏。",
+  "references": [
+    {
+      "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. · GitHub",
+      "url": "https://github.com/baidu/Unlimited-OCR"
+    },
+    {
+      "title": "Unlimited OCR Works Welcome the Era of One-shot Long-horizon Parsing Baidu Inc.",
+      "url": "https://arxiv.org/pdf/2606.23050"
+    },
+    {
+      "title": "Unlimited OCR: One-Shot Long-Horizon Parsing | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48643426"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

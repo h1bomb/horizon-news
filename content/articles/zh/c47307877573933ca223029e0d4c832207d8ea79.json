@@ -1,0 +1,44 @@
+{
+  "id": "c47307877573933ca223029e0d4c832207d8ea79",
+  "canonicalId": "3b5fc77dfccfd6203c9a5bbc963d4926aaa4fafb",
+  "slug": "谷歌发布-gemini-31-flash-tts一款通过-api-提示控制的文本转语音模型",
+  "date": "2026-04-16",
+  "publishedAt": "2026-04-16T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemini 3.1 Flash TTS，一款通过 API 提示控制的文本转语音模型。",
+  "summary": "谷歌于 2026 年 4 月 15 日发布了 Gemini 3.1 Flash TTS，这是一款新的文本转语音模型，可通过 Gemini API 使用模型 ID 'gemini-3.1-flash-tts-preview' 访问，允许用户通过详细提示指定音频配置文件、口音和风格来指导语音生成。 此次发布具有重要意义，因为它将基于提示的控制引入文本转语音领域，使得音频生成更加细致和可定制，适用于媒体制作、无障碍工具和交互式 AI 等应用，可能推动该领域超越传统的固定语音 TTS 系统。 该模型目前仅输出音频文件，无法生成文本或其他格式，其提示指南包含音频配置文件、场景设置和口音规范等高级指令，如伦敦、纽卡斯尔和德文郡口音的示例所示。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Text-to-Speech",
+    "Google",
+    "API",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 15, 17:13"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "文本转语音（TTS）模型将书面文本转换为语音音频，常用于虚拟助手、有声读物和无障碍工具。Gemini API 是谷歌访问其 AI 模型的接口，允许开发者将语言处理和语音生成等功能集成到应用中。提示工程涉及设计自然语言输入来指导 AI 输出，这是一种日益应用于 TTS 的技术，用于控制语音特征和表达风格。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Text-to-speech generation (TTS) | Gemini API | Google AI for ...",
+      "url": "https://ai.google.dev/gemini-api/docs/speech-generation"
+    },
+    {
+      "title": "Prompt design strategies - Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    },
+    {
+      "title": "Use device profiles for generated audio - Google Cloud",
+      "url": "https://docs.cloud.google.com/text-to-speech/docs/audio-profiles"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "61fb82f4fa40f80a42f01846718c7cb42da8403b",
+  "canonicalId": "8ce60880f76f8eefbdef576c6492caf283ae80aa",
+  "slug": "ip-crawl公开网络摄像头的实时图谱",
+  "date": "2026-06-28",
+  "publishedAt": "2026-06-27T19:09:00Z",
+  "lang": "zh",
+  "title": "IP Crawl：公开网络摄像头的实时图谱",
+  "summary": "IP Crawl 是一个网站，它绘制并提供了公网上发现的数千个未加密网络摄像头的实时画面。它作为一个可搜索的图谱，展示了这些暴露的设备。 这凸显了物联网设备广泛存在的安全隐患，因为许多用户连接摄像头时未进行适当配置，导致私人空间暴露给任何人。这引发了重大的隐私和伦理问题，尤其是对于不了解自己摄像头可能被公开访问的非技术用户。 该网站通过互联网大规模扫描发现网络摄像头，并显示无需认证的实时画面。许多画面来自使用默认设置的常见 IP 摄像头品牌，网站还包含一个显示大致位置的地图视图。",
+  "score": 8,
+  "tags": [
+    "IoT security",
+    "privacy",
+    "webcams",
+    "internet scanning",
+    "ethical concerns"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "arm32",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48700834"
+    }
+  ],
+  "originalUrl": "https://ipcrawl.com/",
+  "originalSite": "ipcrawl.com",
+  "context": "IP 摄像头（网络摄像头）是通过网络传输数据的数字摄像机，常用于家庭安防、婴儿监控等用途。许多设备出厂时带有默认密码，用户从未更改，或者根本没有设置密码，导致网络上的任何人都能访问。像 Shodan 这样的服务长期以来一直在索引这类设备，但 IP Crawl 专门以直观的界面聚焦于实时摄像头画面。",
+  "discussion": "评论者对隐私影响表示不安，指出许多摄像头所有者是非技术用户，并不知道设备已暴露。有人指出这个问题已经存在多年，并引用了 2012 年的类似项目。少数评论提到了在网站上发现的具体例子，比如一个可能的非法大麻种植场和一块有趣的诱鹿警示牌。",
+  "references": [
+    {
+      "title": "How to Find Vulnerable Webcams Across the Globe Using Shodan :: Null Byte",
+      "url": "https://null-byte.wonderhowto.com/how-to/find-vulnerable-webcams-across-globe-using-shodan-0154830/"
+    },
+    {
+      "title": "Privacy Risks of Public Webcam Feeds - CamScope Blog",
+      "url": "https://camscopetest.com/privacy-risks-public-webcam-feeds.html"
+    },
+    {
+      "title": "GitHub - JettChenT/scan-for-webcams: scan for webcams on the internet · GitHub",
+      "url": "https://github.com/JettChenT/scan-for-webcams"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

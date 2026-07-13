@@ -1,0 +1,44 @@
+{
+  "id": "a7159461e7f235c350d187551ef1a4b2dc069e9f",
+  "canonicalId": "cb7982644fc4037dd0e3eaf51d36849976da10c2",
+  "slug": "08b-参数模型在-macbook-air-上利用进化搜索和失败反馈实现自我改进",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-11T00:00:00Z",
+  "lang": "zh",
+  "title": "0.8B 参数模型在 MacBook Air 上利用进化搜索和失败反馈实现自我改进",
+  "summary": "一位研究者在配备 6GB RAM 的 MacBook Air M4 上，成功对一个 4-bit 量化的 Qwen 3.5 0.8B 模型进行了微调。该方法采用进化搜索循环：模型根据测试失败反馈生成并修复自己的代码解决方案。仅使用 13 个修复对进行 3 分钟的 LoRA 训练后，模型在未见过的 HumanEval 问题上的性能提升了 75%，从 16/50 正确提升至 28/50。 这表明非常小的语言模型可以学会有效利用迭代反馈来解决问题，而不仅仅是记忆答案，使得在消费级硬件上实现自我改进循环成为可能。这为创建能力更强、更专业化的 AI 智能体开辟了道路，这些智能体能够从错误中适应和学习，而无需庞大的计算资源或模型规模。 关键发现在于，模型的主要改进并非从头生成正确的代码，而是在迭代循环中利用失败反馈来修复自身解决方案的能力得到了增强。实验使用的训练数据集很简单，由模型在搜索过程中自主生成的错误代码版本及其修复后的版本配对而成。",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "self-improvement",
+    "model-finetuning",
+    "small-models",
+    "code-generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 10, 17:28"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rq3bix/ran_an_experiment_08b_model_teaching_itself_on_a/",
+  "originalSite": "reddit.com",
+  "context": "Qwen 3.5 是阿里巴巴云开发的一系列开源大语言模型，其中 0.8B 版本是一个参数量非常小的模型。4-bit 量化是一种通过用每个参数仅 4 位来表示模型权重以减少其内存占用的技术，从而使其能够在像 MacBook Air 这样 RAM 有限的设备上运行。LoRA（低秩适应）是一种高效的微调方法，它只更新一小部分参数（低秩矩阵）而非整个模型，使得训练快速且轻量。",
+  "discussion": "社区认为该实验很有趣，并将其与 GRPO（生成式奖励策略优化）和 Alpaca 等项目使用的自指导方法等相关工作联系起来。一些评论者指出，像 Qwen 这样的小模型在经过有效微调后，在专业化、专家级应用中具有潜力，而另一些人则分享了他们在本地代码生成和强化学习方面进行的类似实验。",
+  "references": [
+    {
+      "title": "Qwen - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Qwen"
+    },
+    {
+      "title": "Quantization in Machine Learning : A Comprehensive Guide | Medium",
+      "url": "https://medium.com/@01coder/quantization-in-machine-learning-a-comprehensive-guide-728619a49c76"
+    },
+    {
+      "title": "LoRA",
+      "url": "https://huggingface.co/docs/peft/main/en/conceptual_guides/lora"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

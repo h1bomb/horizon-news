@@ -1,0 +1,44 @@
+{
+  "id": "2c5a42a03e18cc808f22d963268680c40a0e0eb4",
+  "canonicalId": "7534213f11084a9f46e08f49fcf6bf42f9115013",
+  "slug": "windows-9x-subsystem-for-linux-项目在经典-windows-9x-系统上实现-linux-子系统功能",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Windows 9x Subsystem for Linux 项目在经典 Windows 9x 系统上实现 Linux 子系统功能",
+  "summary": "一位开发者创建了名为 Windows 9x Subsystem for Linux 的项目，在 Windows 9x 操作系统上实现了 Linux 子系统功能，这是针对经典 Windows 平台的一项新颖技术成就。该项目通过专门的子系统架构，允许在 Windows 95、98 和 ME 系统上运行 Linux 二进制文件。 这个项目之所以重要，是因为它展示了如何在比微软官方 WSL 技术早几十年的经典 Windows 系统上实现现代 Linux 兼容性，为操作系统互操作性提供了见解。它为理解 Linux-on-Windows 解决方案的演进提供了历史背景，并作为处理经典系统的开发者的技术参考。 该项目代表了一项技术壮举，需要对 Windows 9x 内部机制有深入理解，据报道开发耗时六年才完成。与现代在 Windows NT 内核系统上运行的 WSL 不同，此实现针对的是缺乏 NT 内核子系统功能的较旧 Windows 9x 架构。",
+  "score": 7,
+  "tags": [
+    "Windows",
+    "Linux",
+    "Operating Systems",
+    "Legacy Software",
+    "Developer Tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 22, 09:52"
+    }
+  ],
+  "originalUrl": "https://social.hails.org/@hailey/116446826733136456",
+  "originalSite": "social.hails.org",
+  "context": "Windows 9x 指的是基于 MS-DOS 并带有图形界面的 Windows 95、98 和 ME 操作系统，与后续 Windows 版本使用的 Windows NT 架构有根本区别。Windows Subsystem for Linux (WSL) 是微软的官方技术，通过与 NT 内核的子系统集成，允许在 Windows 10 和 11 系统上原生运行 Linux 二进制文件。在 WSL 出现之前，开发者使用 CoLinux（在 Windows 旁边运行 Linux 内核）和 Cygwin（通过 DLL 转换提供 POSIX 兼容性）等工具在 Windows 上实现类似 Linux 的功能。",
+  "discussion": "社区成员对这项技术成就表示钦佩，一位用户称开发者是“巫师”，因为完成了看似不可能的任务。几位评论者将该项目与 CoLinux 和 Cygwin 等历史工具进行比较，指出架构和目的上的相似性，同时强调专门针对 Windows 9x 的新颖性。讨论还将这项深入的技术工作与当代“氛围编码”应用程序进行对比，赞赏理解经典系统内部机制所需的巨大努力。",
+  "references": [
+    {
+      "title": "Windows Subsystem for Linux - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux"
+    },
+    {
+      "title": "Architecture of Windows 9x - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Architecture_of_Windows_9x"
+    },
+    {
+      "title": "cygwin vs colinux | Ars OpenForum",
+      "url": "https://arstechnica.com/civis/threads/cygwin-vs-colinux.262091/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

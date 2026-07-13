@@ -1,0 +1,44 @@
+{
+  "id": "52f5e2d2d091db5ff850afbea7342f681dfdff27",
+  "canonicalId": "a0210fe3f976328c58742bfaa2885be3d56a91f1",
+  "slug": "frost-attack-uses-ssd-timing-to-spy-on-users",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T01:55:00Z",
+  "lang": "en",
+  "title": "FROST Attack Uses SSD Timing to Spy on Users",
+  "summary": "Researchers disclosed the FROST (Fingerprinting Remotely using OPFS-based SSD Timing) attack, which allows malicious websites to infer user activities by measuring SSD read/write timing via the browser's Origin Private File System (OPFS) API, without any user interaction. This side-channel attack poses a significant privacy threat as it enables remote, passive surveillance of a user's browsing and application usage with high accuracy, using only standard browser APIs. It highlights a new class of vulnerabilities in modern web platform features. In experiments, the FROST attack achieved 88.95% accuracy in predicting visited websites and 95.83% accuracy in predicting opened applications. The attack was tested on macOS and Linux, but researchers claim Windows is also potentially vulnerable; closing browser tabs after use can reduce risk.",
+  "score": 8,
+  "tags": [
+    "security",
+    "side-channel attack",
+    "SSD",
+    "browser",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://futurism.com/future-society/websites-spying-solid-state-drive",
+  "originalSite": "futurism.com",
+  "context": "SSD timing side-channel attacks exploit the measurable differences in read/write latency caused by contention for the SSD's internal resources. The Origin Private File System (OPFS) is a browser API that provides web apps with a private, sandboxed file system for storing files locally. FROST uses OPFS to generate controlled read/write operations and measures their completion time to detect other activity on the system, inferring which websites or applications are in use.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Malicious Sites Track Users Through SSD Timing Side-Channel Attacks",
+      "url": "https://cyberpress.org/sites-ssd-timing-side-channel-attacks/"
+    },
+    {
+      "title": "Malicious Websites Track Visitors by Analyzing their SSD ...",
+      "url": "https://cybersecuritynews.com/malicious-websites-track-ssd-timing/"
+    },
+    {
+      "title": "Origin private file system - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

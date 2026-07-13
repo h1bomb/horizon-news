@@ -1,0 +1,44 @@
+{
+  "id": "8776ac286488fa6a6f6fb473ff7fa109a1d2827b",
+  "canonicalId": "4c9932f2dfb933af8543ee6c4f077f3cc8dbc8ff",
+  "slug": "llamacpp-update-fixes-gemma-4-kv-cache-vram-issue-enabling-larger-context-windows",
+  "date": "2026-04-05",
+  "publishedAt": "2026-04-04T01:56:00Z",
+  "lang": "en",
+  "title": "llama.cpp update fixes Gemma 4 KV cache VRAM issue, enabling larger context windows",
+  "summary": "A recent update to llama.cpp has resolved a major VRAM consumption bug in the KV cache for Gemma 4 models, allowing users to achieve significantly longer context lengths in local deployments. For example, one user reported context length increasing from approximately 12k tokens to 45k tokens on a 24GB VRAM setup with the gemma4-31b-q4-k-m model. This fix is crucial for local LLM deployment because it addresses a critical bottleneck that limited the practical usability of Gemma 4 models for tasks requiring long contexts, such as agentic work or document analysis. It enhances the accessibility and efficiency of running state-of-the-art models on consumer hardware, aligning with trends toward more resource-efficient inference. The update corresponds to pull request #21326 in the llama.cpp repository, and users may need to adjust default settings like --min-p 0.0 and -np 1 for optimal performance. However, some users note that the fix might not fully resolve all context limitations, as one comment mentioned it's still insufficient for agentic work.",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "KV Cache",
+    "Gemma 4",
+    "Local LLM",
+    "VRAM Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "FusionCow"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sbwkou/finally_gemma_4_kv_cache_is_fixed/",
+  "originalSite": "reddit.com",
+  "context": "KV cache is a memory optimization technique in transformer models that stores key-value pairs from previous tokens during text generation to avoid recomputation, but it can consume significant VRAM as context length increases. llama.cpp is an open-source inference engine optimized for running LLMs locally on CPUs and GPUs, supporting quantization to reduce memory usage. Gemma 4 is a family of multimodal LLMs from Google, available in sizes like 26B and 31B, with the 26B model using a Mixture-of-Experts architecture for efficiency.",
+  "discussion": "Community sentiment is overwhelmingly positive, with users celebrating the VRAM savings and sharing practical test results, such as context length improvements and generation speeds. Discussions include technical tips on adjusting llama.cpp settings for better performance, questions about whether GGUF files need re-downloading, and some off-topic comments about subreddit posting issues.",
+  "references": [
+    {
+      "title": "Understanding KV Caching in Transformers - Medium",
+      "url": "https://medium.com/@minh.hoque/understanding-kv-caching-in-transformers-729271c9b74a"
+    },
+    {
+      "title": "How to Install Llama.cpp - A Complete Guide",
+      "url": "https://anakin.ai/blog/how-to-install-llama-cpp/"
+    },
+    {
+      "title": "google/ gemma - 4 -26B-A 4 B · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

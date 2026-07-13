@@ -1,0 +1,44 @@
+{
+  "id": "7966855820dbc0c2a0823cbf865dcd29c4be90c6",
+  "canonicalId": "4693e19325362039cdcdb531a710cc733decd42f",
+  "slug": "litellm-1827-和-1828-版本通过恶意-pth-文件漏洞被入侵",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "LiteLLM 1.82.7 和 1.82.8 版本通过恶意 .pth 文件漏洞被入侵",
+  "summary": "LiteLLM Python 库的 1.82.7 和 1.82.8 版本通过恶意 .pth 文件漏洞被入侵，该漏洞会在 Python 解释器启动时自动执行窃取凭证的代码。这一安全漏洞已在 GitHub issue 中报告，影响了从 PyPI 安装这些特定版本的用户。 这一事件构成了严重的安全风险，因为 LiteLLM 被广泛用于在生产 AI/ML 系统中访问超过 100 个 LLM API，可能暴露敏感凭证并引发供应链攻击。.pth 文件漏洞的隐蔽性绕过了标准安全检查，使得受影响的用户必须立即进行凭证轮换和版本降级。 受感染包中的恶意文件 'litellm_init.pth'（34,628 字节）会在 Python 解释器启动时自动执行，无需导入 LiteLLM，因此对标准代码审查不可见。根据社区验证，仅 1.82.7 和 1.82.8 版本确认受影响，较早版本如 1.82.6 和 1.82.3 仍安全。",
+  "score": 9,
+  "tags": [
+    "security",
+    "AI/ML",
+    "software-engineering",
+    "open-source",
+    "incident-response"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 24, 14:28"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s2fch0/developing_situation_litellm_compromised/",
+  "originalSite": "reddit.com",
+  "context": "LiteLLM 是一个开源 Python 库，提供统一接口，使用 OpenAI API 格式调用来自 OpenAI、Anthropic 和 Azure 等提供商的超过 100 个大语言模型（LLM）。.pth 文件是 Python 路径配置文件，可以在 Python 解释器启动时自动执行任意代码，这是 Python 问题跟踪器中记录的一个已知安全风险。该库由 BerriAI 开发，可在 PyPI 上获取，其中 1.82.7 和 1.82.8 版本是受感染的发布版本。",
+  "discussion": "社区评论强调了 .pth 文件漏洞的隐蔽性，指出它绕过了基于导入的检测，并使得受影响系统必须进行凭证轮换。用户讨论了实用的缓解措施，如使用 Docker 进行隔离、检查其 LiteLLM 版本，并表达了对依赖 LiteLLM 的其他工具可能遭受供应链攻击的担忧。讨论氛围紧迫且具有教育意义，许多人分享了技术见解和对安全版本的验证。",
+  "references": [
+    {
+      "title": "[Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer · Issue #24512 · BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm/issues/24512"
+    },
+    {
+      "title": "Security risk of hidden pth files · Issue #113659 · python/cpython",
+      "url": "https://github.com/python/cpython/issues/113659"
+    },
+    {
+      "title": "Getting Started | liteLLM",
+      "url": "https://docs.litellm.ai/docs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

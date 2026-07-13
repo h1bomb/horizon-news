@@ -1,0 +1,44 @@
+{
+  "id": "d9ebfe8aed5b5cdd795a7c1f6999766f3bd0e23f",
+  "canonicalId": "7f0c8aa945d5cec09ca54e8dd31a0ecb5e6eeb2d",
+  "slug": "nvidias-nemotron-3-super-offers-permissive-open-source-ai-with-state-of-the-art-training-infrastructure",
+  "date": "2026-03-15",
+  "publishedAt": "2026-03-14T17:15:00Z",
+  "lang": "en",
+  "title": "Nvidia's Nemotron 3 Super offers permissive open-source AI with state-of-the-art training infrastructure",
+  "summary": "Nvidia released Nemotron 3 Super, a 120-billion-parameter open-source AI model with a more permissive license than previous versions, removing objectionable terms from the Open Model license. The model is part of the Nemotron 3 family that includes Nano, Super, and Ultra sizes, and it provides optimized 4-bit quantization for efficient deployment. This release democratizes access to state-of-the-art AI training infrastructure by lowering barriers to entry, potentially fracturing the software moats of traditional model builders. The permissive licensing enables broader adoption by developers, researchers, and organizations who want to train their own models without restrictive terms. The model uses 4-bit quantization (NVFP4) for optimized performance, though some community members noted its absence from certain benchmarks like SWE-bench. The license change specifically removes terms that were considered objectionable in the previous Open Model license, making it more permissive for commercial and research use.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Open Source",
+    "Nvidia",
+    "Machine Learning",
+    "Licensing"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Comfortable-Rock-498"
+    }
+  ],
+  "originalUrl": "https://www.signalbloom.ai/posts/nvidia-nemotron-3-super-is-a-bigger-deal-than-you-think/",
+  "originalSite": "signalbloom.ai",
+  "context": "Nemotron 3 is a family of open-source AI models from Nvidia that includes Nano (30B), Super (120B), and Ultra (500B) parameter sizes. Permissive licenses like Apache 2.0, MIT, and BSD allow broad usage with minimal restrictions, unlike more restrictive licenses that limit commercial applications. State-of-the-art training infrastructure refers to optimized hardware and software systems, such as Nvidia's DGX platforms, that enable efficient training of large AI models.",
+  "discussion": "Community sentiment is generally positive, with users highlighting the strategic implications of Nvidia commoditizing training infrastructure to create demand for their GPUs. Key discussions focus on the license change being more permissive, the model enabling countries and companies to train their own models, and some dismissive remarks about blog spam. There's debate about whether Nvidia's motivation is altruistic or strategic.",
+  "references": [
+    {
+      "title": "NVIDIA Nemotron 3 Models Announced: Open AI Models In Nano,",
+      "url": "https://wccftech.com/nvidia-nemotron-3-open-ai-models-nano-super-ultra-sizes-4x-faster/"
+    },
+    {
+      "title": "Understanding Permissive Licenses for Large Language Models (LLMs) - Medium",
+      "url": "https://medium.com/@mne/understanding-permissive-licenses-for-large-language-models-llms-843d40909ce0"
+    },
+    {
+      "title": "DGX GB200: AI Infrastructure for State-of-the-Art AI Models ...",
+      "url": "https://www.nvidia.com/en-us/data-center/dgx-gb200/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

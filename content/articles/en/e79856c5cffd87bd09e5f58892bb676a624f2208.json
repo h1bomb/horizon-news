@@ -1,0 +1,44 @@
+{
+  "id": "e79856c5cffd87bd09e5f58892bb676a624f2208",
+  "canonicalId": "565d3810c31f93b64a264faa5631f9b74abc5308",
+  "slug": "mtp-speeds-coding-but-slows-creative-writing",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-10T19:25:00Z",
+  "lang": "en",
+  "title": "MTP Speeds Coding But Slows Creative Writing",
+  "summary": "Systematic benchmarks of Multi-Token Prediction (MTP) speculative inference on Qwen 3.6 27B reveal that task type determines performance: coding tasks nearly triple in speed at F16, while creative writing slows down at Q4_K_M quantization. This finding clarifies contradictory user reports and shows that speculative inference benefits are highly task-dependent, crucial for optimizing LLM deployment in coding assistants versus creative writing tools. The benchmarks tested five quantization levels (Q4_K_M, Q5_K_M, Q6_K, Q8_0, F16) and four task types (code, factual, analysis, creative), with temperature and MTP quantization having minimal impact. F16 + MTP tripled coding speed, while Q4_K_M + MTP slowed creative writing.",
+  "score": 8,
+  "tags": [
+    "speculative inference",
+    "MTP",
+    "LLM inference",
+    "benchmark",
+    "coding vs creative"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "ex-arman68"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t9gcar/mtp_benchmark_results_the_nature_of_the/",
+  "originalSite": "reddit.com",
+  "context": "Multi-Token Prediction (MTP) is a speculative decoding technique where a draft model predicts multiple tokens simultaneously, which are then verified by the main model. Quantization methods like Q4_K_M reduce model size and memory bandwidth at the cost of accuracy, commonly used for local LLM inference. The task dependency arises because coding tasks have more predictable token patterns, yielding higher acceptance rates, while creative writing has lower predictability.",
+  "discussion": "Commenters noted that MoE models suffer more from MTP slowdown when partially offloaded, and that prompt processing speed can drop significantly (e.g., from 1400 t/s to 650 t/s) on some GPUs. Another user reported ~70% acceptance rate and 70–120 t/s on an RTX 5090 for coding tasks with Q6 quantization.",
+  "references": [
+    {
+      "title": "Gemma 4 MTP Drafter: Get 3x Faster Inference (2026 Guide)",
+      "url": "https://www.buildfastwithai.com/blogs/gemma-4-mtp-drafter-faster-inference"
+    },
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0 ...",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "Q4_K_M vs Q5_K_M vs Q8 — Which GGUF Quantization Should You ...",
+      "url": "https://willitrunai.com/blog/quantization-guide-gguf-explained"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

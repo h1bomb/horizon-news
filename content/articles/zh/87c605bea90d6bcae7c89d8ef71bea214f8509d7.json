@@ -1,0 +1,31 @@
+{
+  "id": "87c605bea90d6bcae7c89d8ef71bea214f8509d7",
+  "canonicalId": "247ca322f9426dd888e01b23f3d69f8dfffdb417",
+  "slug": "本地大模型现已实用",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T14:36:00Z",
+  "lang": "zh",
+  "title": "本地大模型现已实用",
+  "summary": "一篇博文指出，运行本地语言模型已变得实用，引发了关于性能与可用性权衡的讨论。 这很重要，因为本地模型提供隐私、更低成本和独立于云服务商，可能颠覆许多用户的付费 API 市场。 像 Qwen 27B 这样的稠密模型聪明但慢，而 MoE 模型更快但更容易出错，量化会削弱工具调用能力，因此大多数用户使用 4 位精度运行。",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "AI",
+    "machine-learning",
+    "community-discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jfb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48555993"
+    }
+  ],
+  "originalUrl": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+  "originalSite": "vickiboykis.com",
+  "context": "本地语言模型在个人硬件上运行，而非云服务器，需要大量 RAM 或 VRAM。量化以牺牲质量为代价减少内存使用。混合专家（MoE）模型使用多个子模型以提高效率，但可能一致性较差。",
+  "discussion": "评论意见分歧：一些用户认为本地模型在速度和准确性权衡上仍令人痛苦，而另一些用户则强烈偏好本地模型，认为它们提供更好的控制性和个性。关于本地部署与 API 订阅的成本效益存在争论。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,48 @@
+{
+  "id": "737926bbdee3e3a9f760e487b49b0dcaa9fb477c",
+  "canonicalId": "7fe450f6ed812aef75685a43f6f67fc8691d3299",
+  "slug": "m5-max-128gb-macbook-pro-benchmarks-show-high-speed-local-ai-performance-with-mlx-framework",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-11T08:04:00Z",
+  "lang": "en",
+  "title": "M5 Max 128GB MacBook Pro benchmarks show high-speed local AI performance with MLX framework",
+  "summary": "A Reddit user posted benchmark results for the newly arrived M5 Max 128GB 14\" MacBook Pro, testing large language models like Qwen3.5-122B using Apple's MLX framework with stream_generate function. The tests showed impressive speeds, with Qwen3.5-122B achieving 881.5 tokens/sec for prompt processing and 65.9 tokens/sec for generation at 4K context. These benchmarks demonstrate that Apple's latest M5 Max hardware with 128GB RAM can efficiently run large AI models locally, making high-end AI capabilities more accessible without requiring expensive GPU setups. This represents a significant step toward democratizing local AI development and could influence hardware purchasing decisions for AI developers and researchers. The tests were conducted using pure mlx_lm with stream_generate after initial issues with BatchGenerator, and results include multiple context lengths (4K, 16K, 32K) showing consistent performance. The Qwen3.5-122B model consumed up to 76.4GB of peak memory during testing, demonstrating the value of the 128GB RAM configuration for running large models.",
+  "score": 7,
+  "tags": [
+    "hardware-benchmarks",
+    "local-ai",
+    "mlx-framework",
+    "qwen-models",
+    "apple-silicon"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "cryingneko"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/4koejumaidog1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "MLX is Apple's machine learning framework specifically designed to run efficiently on Apple Silicon chips, announced in December 2023. Qwen refers to a family of large language models developed by Alibaba Cloud, with Qwen3.5-122B being a particularly large 122-billion parameter model. The stream_generate function in mlx-lm allows for streaming generation of tokens, which is useful for real-time applications and benchmarking.",
+  "discussion": "The community showed high engagement with excitement about local AI capabilities, with users formatting results into tables and graphs for easier consumption. Discussions included technical clarifications about testing methodology, comparisons to GPU setups noting the M5 Max's value proposition, and requests for additional testing with other applications like ComfyUI. Some users noted the high cost of the configuration (around €5000) but acknowledged its performance advantages.",
+  "references": [
+    {
+      "title": "MLX (machine learning framework)",
+      "url": "https://grokipedia.com/page/MLX_machine_learning_framework"
+    },
+    {
+      "title": "Apple Offers Developers MLX Framework for Machine Learning",
+      "url": "https://www.techrepublic.com/article/apple-mlx-framework-machine-learning/"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://qwen.ai/home"
+    },
+    {
+      "title": "GitHub - ml-explore/mlx-lm: Run LLMs with MLX · GitHub",
+      "url": "https://github.com/ml-explore/mlx-lm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

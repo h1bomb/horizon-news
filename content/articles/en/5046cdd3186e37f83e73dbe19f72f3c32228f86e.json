@@ -1,0 +1,45 @@
+{
+  "id": "5046cdd3186e37f83e73dbe19f72f3c32228f86e",
+  "canonicalId": "5b2cba6bac1a28ef8f4c507a08cc7a8b4c191cf8",
+  "slug": "volkswagen-blocks-grapheneos-users-via-play-protect-requirement",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T15:04:00Z",
+  "lang": "en",
+  "title": "Volkswagen blocks GrapheneOS users via Play Protect requirement",
+  "summary": "Volkswagen has locked its API to require Play Protect certification, effectively blocking GrapheneOS users from accessing car features via the official app. This disables community-driven integrations and forces users to rely on an advertisement-heavy official app. This move by a major automaker sets a precedent for restricting device freedom and privacy-focused OS users from accessing connected car features. It highlights growing tensions between Google's certification ecosystem and custom Android ROMs like GrapheneOS, which prioritize privacy over Google services. The API lock affects not only GrapheneOS but any device without Play Protect certification, including those using community projects like Home Assistant for automation. The official VW app is reported to be 60% advertisements and 30% features, making it less functional than previous community alternatives.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "GrapheneOS",
+    "Android",
+    "automotive",
+    "Volkswagen"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "microtonal",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48571526"
+    }
+  ],
+  "originalUrl": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+  "originalSite": "discuss.grapheneos.org",
+  "context": "GrapheneOS is a security-hardened, open-source Android-based operating system that focuses on privacy and often runs without Google Play Services. Google's Play Protect certification is required for devices to access Google apps and certain APIs, and it relies on Google's proprietary compatibility tests. GrapheneOS users typically avoid Google services to minimize data collection, making Play Protect certification incompatible with their privacy goals.",
+  "discussion": "Community comments express frustration and disappointment, with users highlighting that Volkswagen previously turned off API access for community integrations and now blocks GrapheneOS outright. Some users lament the loss of useful features like Home Assistant automations, and others criticize the official app's heavy advertising. There is also concern that this trend could spread to other VW brands and potentially align with broader restrictions on privacy tools.",
+  "references": [
+    {
+      "title": "GrapheneOS",
+      "url": "https://en.wikipedia.org/wiki/GrapheneOS"
+    },
+    {
+      "title": "Android – Certified",
+      "url": "https://www.android.com/certified/"
+    },
+    {
+      "title": "GrapheneOS: the private and secure mobile OS",
+      "url": "https://grapheneos.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5e1fbce850c09a9365132d9627b3b4a326f7d3b0",
+  "canonicalId": "3e5e389de4b4afe0ccd060dffb5d5fed9c8d767a",
+  "slug": "practical-insights-from-running-9-rtx-3090-gpus-for-ai-workloads",
+  "date": "2026-03-23",
+  "publishedAt": "2026-03-22T15:48:00Z",
+  "lang": "en",
+  "title": "Practical insights from running 9 RTX 3090 GPUs for AI workloads",
+  "summary": "A user shared hands-on experience with a 9× RTX 3090 GPU setup for AI, revealing that scaling beyond 6 GPUs leads to diminishing returns due to PCIe lane limitations, stability issues, and slower token generation. They recommend Proxmox OS for experimentation and advise against overbuilding local systems for general AI use. This matters because it provides real-world data on the practical limits of multi-GPU scaling for local AI inference, challenging the assumption that more GPUs always yield better performance. It helps hobbyists and small-scale researchers avoid costly hardware investments by highlighting when cloud solutions or smaller setups are more efficient. The user found that token generation slowed down beyond a certain GPU count, and achieving 200GB VRAM did not enable running Claude-level models locally. They note that motherboard support for 4+ GPUs is non-trivial, and power/thermal management becomes complex in such setups.",
+  "score": 7,
+  "tags": [
+    "GPU Hardware",
+    "AI Infrastructure",
+    "Local LLM",
+    "Hardware Scaling",
+    "Cost Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Outside_Dance_2799"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s0p28x/honest_take_on_running_9_rtx_3090_for_ai/",
+  "originalSite": "reddit.com",
+  "context": "RTX 3090 GPUs are popular for AI due to their high VRAM (24GB) and good price-to-performance ratio. PCIe lanes are communication pathways between the CPU and GPUs; in multi-GPU setups, limited lanes can bottleneck data transfer, reducing performance. Proxmox is a virtualization platform that allows GPU passthrough, enabling efficient management of AI workloads in virtual machines.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Guide to PCIe Lanes: How many do you need for your workload?",
+      "url": "https://www.cgdirector.com/guide-to-pcie-lanes/"
+    },
+    {
+      "title": "How to Run AI Models on Proxmox VE w/ GPU Passthrough",
+      "url": "https://www.vminstall.com/run-ai-models-proxmox-ve/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

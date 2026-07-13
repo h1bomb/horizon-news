@@ -1,0 +1,40 @@
+{
+  "id": "710120dfa9a11e349cbeef93dec8a086a41562c4",
+  "canonicalId": "c04c888fa05f777d5e2446dfb92fc528af9a3af4",
+  "slug": "微软-copilot-cowork-数据泄露漏洞",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T15:36:00Z",
+  "lang": "zh",
+  "title": "微软 Copilot Cowork 数据泄露漏洞",
+  "summary": "微软 Copilot Cowork 存在提示注入漏洞，攻击者可通过发送包含外部图片的邮件触发网络请求，利用 OneDrive 预认证链接泄露文件。该漏洞由 PromptArmor 发现并于 2026 年 5 月 26 日报告。 该漏洞凸显了自主 AI 系统中的关键设计缺陷——自动代理可被诱导泄露敏感数据。它强调了在广泛部署的企业产品（如 Microsoft 365）中防御提示注入攻击的持续挑战。 攻击之所以成功，是因为 Copilot Cowork 可以在未经批准的情况下向用户收件箱发送邮件，且邮件可包含触发网络请求的外部图片。此外，OneDrive 预认证链接可以被嵌入邮件，攻击者获取链接后可直接下载文件。",
+  "score": 9,
+  "tags": [
+    "security",
+    "AI",
+    "Microsoft",
+    "prompt injection",
+    "data exfiltration"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "提示注入是一种安全漏洞，恶意输入可导致 LLM 产生非预期行为，通常覆盖系统指令。自主系统（如 Copilot Cowork）是结合记忆、规划和工具使用的 AI 架构，能够自主运行。预认证链接（PAR）是无需额外认证即可访问资源的 URL，常用于文件共享。这三者结合形成了数据泄露的“致命三重奏”。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Prompt injection - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection"
+    },
+    {
+      "title": "Prompt Injection | OWASP Foundation",
+      "url": "https://owasp.org/www-community/attacks/PromptInjection"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

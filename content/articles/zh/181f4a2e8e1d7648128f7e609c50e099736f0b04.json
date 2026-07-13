@@ -1,0 +1,45 @@
+{
+  "id": "181f4a2e8e1d7648128f7e609c50e099736f0b04",
+  "canonicalId": "99a2228c047efcb4d6b07ef8b3ff45e86b77ae4b",
+  "slug": "cloudflare-turnstile-利用-webgl-指纹识别破坏隐私",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T14:13:00Z",
+  "lang": "zh",
+  "title": "Cloudflare Turnstile 利用 WebGL 指纹识别破坏隐私",
+  "summary": "Cloudflare Turnstile 现在要求使用 WebGL 进行指纹识别，这实际上绕过了 Firefox 等浏览器的隐私保护措施，并导致不支持 WebGL 的小众浏览器无法访问。 这种做法通过未经同意的持久追踪侵犯用户隐私，并且对小众或注重隐私的浏览器用户造成不成比例的影响，导致网络碎片化。 该问题由一位小众浏览器维护者报告，他注意到几周前用户开始遇到 Cloudflare 的挑战。WebGL 指纹识别利用硬件和驱动程序细节生成唯一标识符。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "fingerprinting",
+    "Cloudflare",
+    "WebGL",
+    "browser"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "HypnoticOcelot",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48345840"
+    }
+  ],
+  "originalUrl": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+  "originalSite": "hacktivis.me",
+  "context": "浏览器指纹识别通过收集设备信息（操作系统、浏览器类型、屏幕分辨率等）生成唯一标识符，常用于无 Cookie 追踪。WebGL 指纹识别专门利用显卡的差异性，即使相同的设备也可能不同。Cloudflare Turnstile 是一种 CAPTCHA 替代方案，旨在无需手动拼图即可验证人类用户，但它对 WebGL 的依赖损害了非标准浏览器的隐私。",
+  "discussion": "评论者表达了对机器人检测与规避之间军备竞赛的担忧，有人指出指纹识别很常见，尽管生态代价高昂。还有人批评 Mozilla 未默认启用 resistFingerprinting，而小众浏览器维护者报告了真实用户影响。",
+  "references": [
+    {
+      "title": "Cloudflare Turnstile",
+      "url": "https://grokipedia.com/page/Cloudflare_Turnstile"
+    },
+    {
+      "title": "WebGL Browser Report - WebGL Fingerprinting - BrowserLeaks",
+      "url": "https://browserleaks.com/webgl"
+    },
+    {
+      "title": "Browser fingerprinting",
+      "url": "https://en.wikipedia.org/wiki/Browser_fingerprinting"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "1cb10838ba90c44c9980e0999161c508528a59cd",
+  "canonicalId": "1d1c6c312a94bc636afcdd60f1b1f1234977a05a",
+  "slug": "gemma-4-2b-outperforms-qwen35-2b-in-real-world-local-testing",
+  "date": "2026-04-04",
+  "publishedAt": "2026-04-03T13:57:00Z",
+  "lang": "en",
+  "title": "Gemma 4 2B outperforms Qwen3.5 2B in real-world local testing",
+  "summary": "A user tested Gemma 4 2B locally on an RTX 2060 6GB GPU and found it performs better, faster, and uses less memory than Qwen3.5 2B, with improved capabilities in areas like structured output and Mermaid chart generation. The user noted Gemma 4 2B feels comparable to Qwen3.5 9B despite its smaller advertised parameter count. This real-world comparison highlights practical performance differences between two important open-source LLMs, which is crucial for developers choosing models for local deployment on resource-constrained hardware. The findings challenge benchmark results and could influence adoption decisions in the rapidly evolving open-source AI ecosystem. A community member revealed that Gemma 4 2B actually contains about 5.1B total parameters when including per-layer embeddings, despite being marketed as a 2B model, which explains its stronger performance. Some users reported mixed experiences with Gemma 4's larger variants, noting issues with tool calling reliability in practical applications.",
+  "score": 7,
+  "tags": [
+    "LLM Comparison",
+    "Open-Source AI",
+    "Model Evaluation",
+    "Local Inference",
+    "AI Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "AppealSame4367"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/",
+  "originalSite": "reddit.com",
+  "context": "Gemma 4 is Google's latest family of open multimodal models designed for various hardware requirements, with the 2B variant optimized for mobile and edge deployment. Qwen3.5 is Alibaba's open-source language model series known for strong performance across different parameter sizes. Local inference on GPUs like the RTX 2060 with 6GB VRAM typically limits models to around 3B parameters due to memory constraints.",
+  "discussion": "The discussion reveals divided opinions, with some users praising Gemma 4's coding performance and efficiency, while others report reliability issues in practical applications like smart home control. Several comments highlight the parameter count discrepancy, noting that Gemma 4 2B's actual 5.1B size makes direct comparison with Qwen3.5 2B potentially unfair.",
+  "references": [
+    {
+      "title": "Gemma 4 model overview - Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core"
+    },
+    {
+      "title": "RTX2060 Ollama Benchmark: Best GPU for 3B LLMs Inference",
+      "url": "https://www.databasemart.com/blog/ollama-gpu-benchmark-rtx2060"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "8ea7ba692bf9fffc6a0a630f599f7b11ca6ba0f2",
+  "canonicalId": "2e28235d388c140580e0e27392519fe47c1faa7a",
+  "slug": "developer-builds-modern-open-source-flash-replacement-with-fla-file-editing-capability",
+  "date": "2026-03-05",
+  "publishedAt": "2026-03-04T20:16:00Z",
+  "lang": "en",
+  "title": "Developer builds modern, open-source Flash replacement with .fla file editing capability.",
+  "summary": "A developer is creating a modern, open-source replacement for Adobe Flash, with a key feature being the ability to import and edit legacy .fla and XFL project files. This project aims to function as a full authoring environment, not just a player, offering backward compatibility for old Flash content. This matters because Adobe Flash, a foundational tool for web animation and games, was officially discontinued in 2020, leaving a void for creators who still need to access or modify old projects. A modern, open-source tool with editing capabilities could preserve a vast library of digital creative work and potentially revive a collaborative workflow that uniquely bridged artists and programmers. The developer claims this is the only open-source tool that functions as a full authoring environment capable of importing .fla files for editing, not just playback. However, the project is in early development, and some community members have raised concerns about its funding model (opening a Patreon before releasing the code) and development priorities.",
+  "score": 7,
+  "tags": [
+    "web-development",
+    "flash",
+    "backward-compatibility",
+    "creative-tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "TechPlasma"
+    }
+  ],
+  "originalUrl": "https://bill.newgrounds.com/news/post/1607118",
+  "originalSite": "bill.newgrounds.com",
+  "context": "Adobe Flash was a multimedia software platform used for creating animations, games, and rich web applications. Its primary authoring file format was .fla (or the newer XFL), which contained media, timeline, and scripting data. Adobe ended support for Flash Player in 2020 due to security concerns and the rise of open web standards like HTML5, making it difficult to run or edit old Flash content in modern browsers. Several projects, like Ruffle, exist to *play* old .swf files, but a full-featured, open-source *authoring* replacement is rare.",
+  "discussion": "The discussion highlights nostalgia for Flash's unique collaborative environment where artists and coders could seamlessly work within the same .fla files. There is excitement about the project's backward compatibility goal, with one user calling it \"clutch.\" However, skepticism exists regarding the project's early monetization and development focus, with one commenter criticizing the prioritization of a sound editor over having a working demo.",
+  "references": [
+    {
+      "title": "Adobe Flash - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adobe_Flash"
+    },
+    {
+      "title": "Browsers That Support Flash in 2026 (What Still Works) Foundation Flash: - Backwards compatibility Adobe Flash Player | Adobe Wiki | Fandom Please Add Better Backward Compatibility + Batch C... - Adobe ... End of life for Adobe Flash Player - Flash Games Archive ...",
+      "url": "https://alvarotrigo.com/blog/web-browsers-support-flash/"
+    },
+    {
+      "title": "Best Adobe Flash Player Alternatives: Top Flash ... | AlternativeTo",
+      "url": "https://alternativeto.net/software/flash-player/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

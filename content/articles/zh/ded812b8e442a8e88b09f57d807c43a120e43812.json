@@ -1,0 +1,36 @@
+{
+  "id": "ded812b8e442a8e88b09f57d807c43a120e43812",
+  "canonicalId": "1dc5c40578e8a08c07b57cb7b75cd8c9642ce784",
+  "slug": "meta-宣布对-jemalloc-内存分配器重新承诺计划进行改进",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "Meta 宣布对 jemalloc 内存分配器重新承诺，计划进行改进",
+  "summary": "Meta 宣布对广泛使用的内存分配器 jemalloc 重新承诺，计划改进其清除机制并继续开发。这一公告是在 2025 年 6 月 jemalloc 存储库被归档之后发布的，表明对项目状态的先前决定发生了逆转。 这很重要，因为 jemalloc 是许多大规模应用程序用于内存管理的关键基础设施组件，Meta 的重新投资表明将持续进行优化工作，可能为整个行业带来显著的性能改进。随着内存效率对于成本节约和系统性能变得越来越重要，对 jemalloc 等广泛使用的分配器的改进可以使众多应用程序和开发者受益。 公告特别提到了计划改进 jemalloc 的清除机制，这涉及将内存页面返回给内核以供其他线程重用。这是在先前关于 jemalloc 性能特性的讨论之后发布的，并且正值 Microsoft 的 mimalloc 等替代方案因其在大页面上的性能提升而受到关注。",
+  "score": 7,
+  "tags": [
+    "memory-allocation",
+    "systems-programming",
+    "performance-optimization",
+    "open-source",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 16, 18:12"
+    }
+  ],
+  "originalUrl": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+  "originalSite": "engineering.fb.com",
+  "context": "jemalloc 是一个为多线程应用程序中的性能和可扩展性而设计的内存分配器，最初由 Jason Evans 开发，现在由 Meta 维护。内存分配器管理程序中的动态内存分配，决定如何从操作系统请求内存并返回内存，这显著影响应用程序性能和内存效率。在系统编程中，选择正确的内存分配器可以带来显著的性能改进，特别是对于大规模运行的内存密集型应用程序。",
+  "discussion": "社区讨论包括关于 jemalloc 清除机制的技术见解，一位评论者指出他们之前在 Facebook 维护了内核补丁来改进这些机制。另一位用户分享了使用 Microsoft 的 mimalloc 通过大页面实现 20%性能提升的经验，突显了 malloc 领域的竞争。一些评论推测 Meta 重新承诺背后的成本节约动机，而其他评论则引用了关于 jemalloc 在 2025 年先前归档的相关帖子。",
+  "references": [
+    {
+      "title": "jemalloc",
+      "url": "https://jemalloc.net/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

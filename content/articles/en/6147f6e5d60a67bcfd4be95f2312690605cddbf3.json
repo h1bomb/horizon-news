@@ -1,0 +1,44 @@
+{
+  "id": "6147f6e5d60a67bcfd4be95f2312690605cddbf3",
+  "canonicalId": "f916aee2ba365bbfccd2fa2c2fef65f0e300b27b",
+  "slug": "qwen35-9b-outperforms-frontier-models-in-document-ai-benchmarks-for-ocr-and-vqa-tasks",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T13:20:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-9B outperforms frontier models in document AI benchmarks for OCR and VQA tasks.",
+  "summary": "In a comprehensive document AI benchmark involving 20 models and over 9,000 real documents, Qwen3.5-9B achieved a score of 78.1 on OlmOCR (text extraction), surpassing frontier models like Gemini 3.1 Pro (74.6) and GPT-5.4 (73.4). Additionally, it scored 79.5 on VQA (visual question answering), ranking second only to Gemini 3.1 Pro and ahead of GPT-5.4. This demonstrates that smaller, open-source models like Qwen3.5-9B can compete with or even outperform much larger proprietary frontier models in specific document AI tasks, potentially reducing costs and increasing accessibility for local deployment. It highlights the rapid advancement of open-source AI, challenging the dominance of closed-source models in practical applications like document processing. The benchmark also shows that Qwen3.5-4B and Qwen3.5-2B perform competitively, with the 4B model matching GPT-5.4 in KIE (key information extraction) at 86.0, and the 2B model matching GPT-5.4 in OlmOCR at 73.7. However, frontier models still lead in some areas, such as Gemini 3 Flash excelling in KIE with 91.1, and the benchmark does not include larger Qwen variants like 27B or 35B MoE.",
+  "score": 7,
+  "tags": [
+    "Document AI",
+    "Benchmarking",
+    "Open Source Models",
+    "OCR",
+    "VQA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "shhdwi"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/8u6eutqymepg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Document AI involves using AI models to process and understand documents, with key tasks including OCR (optical character recognition) for text extraction, VQA (visual question answering) for answering questions about document content, and KIE (key information extraction) for extracting specific fields like dates or amounts. OlmOCR is a tool that leverages large language models for high-accuracy text extraction from images and PDFs, while DocVQA is a dataset for VQA on document images. Qwen3.5 is a series of open-source language models with sizes ranging from 0.8B to 9B parameters, designed for efficient local deployment.",
+  "discussion": "The community expressed overall positive sentiment, with users noting the efficiency of small models for local use and the competitiveness of open-source options. Key viewpoints include praise for Qwen3.5's performance as \"lowkey insane,\" suggestions for additional benchmarks like right bbox estimation, and questions about the absence of larger Qwen variants in the test. Some criticism focused on presentation issues, such as unclear color coding in charts.",
+  "references": [
+    {
+      "title": "OLMOCR | Free AI-Powered Text Extraction from Images and",
+      "url": "https://www.olmocr.com/en"
+    },
+    {
+      "title": "[2007.00398] DocVQA: A Dataset for VQA on Document Images",
+      "url": "https://arxiv.org/abs/2007.00398"
+    },
+    {
+      "title": "Qwen3.5 small models: Everything you need to know",
+      "url": "https://artificialanalysis.ai/articles/qwen3-5-small-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

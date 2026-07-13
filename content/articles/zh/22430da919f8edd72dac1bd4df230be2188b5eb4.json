@@ -1,0 +1,44 @@
+{
+  "id": "22430da919f8edd72dac1bd4df230be2188b5eb4",
+  "canonicalId": "4c9932f2dfb933af8543ee6c4f077f3cc8dbc8ff",
+  "slug": "llamacpp-更新修复-gemma-4-kv-缓存-vram-问题支持更大上下文窗口",
+  "date": "2026-04-05",
+  "publishedAt": "2026-04-05T00:00:00Z",
+  "lang": "zh",
+  "title": "llama.cpp 更新修复 Gemma 4 KV 缓存 VRAM 问题，支持更大上下文窗口",
+  "summary": "llama.cpp 的最新更新修复了 Gemma 4 模型中 KV 缓存的一个严重 VRAM 消耗错误，使本地部署能够支持更长的上下文长度。例如，一位用户报告称，在 24GB VRAM 配置下使用 gemma4-31b-q4-k-m 模型时，上下文长度从约 12k tokens 增加到约 45k tokens。 这一修复对本地 LLM 部署至关重要，因为它解决了限制 Gemma 4 模型在需要长上下文任务（如代理工作或文档分析）中实际可用性的关键瓶颈。它提高了在消费级硬件上运行先进模型的可访问性和效率，符合资源高效推理的趋势。 此次更新对应 llama.cpp 仓库中的拉取请求 #21326，用户可能需要调整默认设置（如 --min-p 0.0 和 -np 1）以获得最佳性能。然而，一些用户指出该修复可能未完全解决所有上下文限制，因为一条评论提到它仍不足以支持代理工作。",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "KV Cache",
+    "Gemma 4",
+    "Local LLM",
+    "VRAM Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 4, 01:56"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sbwkou/finally_gemma_4_kv_cache_is_fixed/",
+  "originalSite": "reddit.com",
+  "context": "KV 缓存是 transformer 模型中的一种内存优化技术，在文本生成过程中存储先前 tokens 的键值对以避免重复计算，但随着上下文长度增加，它会消耗大量 VRAM。llama.cpp 是一个开源推理引擎，专为在 CPU 和 GPU 上本地运行 LLM 优化，支持量化以减少内存使用。Gemma 4 是 Google 发布的多模态 LLM 系列，提供 26B 和 31B 等尺寸，其中 26B 模型采用混合专家架构以提高效率。",
+  "discussion": "社区情绪非常积极，用户们庆祝 VRAM 节省并分享实际测试结果，如上下文长度改进和生成速度。讨论包括调整 llama.cpp 设置以获得更好性能的技术提示、关于 GGUF 文件是否需要重新下载的问题，以及一些关于 subreddit 发帖问题的离题评论。",
+  "references": [
+    {
+      "title": "Understanding KV Caching in Transformers - Medium",
+      "url": "https://medium.com/@minh.hoque/understanding-kv-caching-in-transformers-729271c9b74a"
+    },
+    {
+      "title": "How to Install Llama.cpp - A Complete Guide",
+      "url": "https://anakin.ai/blog/how-to-install-llama-cpp/"
+    },
+    {
+      "title": "google/ gemma - 4 -26B-A 4 B · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

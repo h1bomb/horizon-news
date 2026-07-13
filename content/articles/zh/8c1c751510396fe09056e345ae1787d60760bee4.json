@@ -1,0 +1,40 @@
+{
+  "id": "8c1c751510396fe09056e345ae1787d60760bee4",
+  "canonicalId": "5bc60fdf5caafe18599f60de76317e2fbcab4bfe",
+  "slug": "gemma-4-视觉预算配置指南提升图像处理能力",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "Gemma 4 视觉预算配置指南提升图像处理能力",
+  "summary": "一份技术指南解释了如何配置 Gemma 4 的视觉预算参数，特别是在 llama.cpp 中设置 --image-min-tokens 和 --image-max-tokens，以超越默认设置提升其图像处理能力。作者建议将这些参数分别设置为 560 和 2240，并将 --batch-size 和 --ubatch-size 调整为 4096，以使模型能够检测图像中的微小细节。 这很重要，因为许多用户忽略了这些配置选项，导致在 OCR 和细节识别等任务中性能不佳，可能阻碍 Gemma 4 在视觉应用中的采用。正确配置可以显著提升模型的效果，使其在本地 LLM 生态中与 Qwen3.5 等其他具备视觉能力的模型更具竞争力。 Gemma 4 的默认最大视觉预算为 280 个 token（约 645K 像素），指南认为这对于详细的图像分析是不够的。用户还必须将 --batch-size 和 --ubatch-size 设置为高于 image-max-tokens 的值以避免性能问题，但这会增加计算资源消耗。",
+  "score": 7,
+  "tags": [
+    "computer-vision",
+    "large-language-models",
+    "model-configuration",
+    "gemma",
+    "llama.cpp"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 21, 15:43"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1srrhi5/gemma_4_vision/",
+  "originalSite": "reddit.com",
+  "context": "Gemma 4 是谷歌开发的大型语言模型，通过可变图像分辨率功能具备视觉能力，可以处理不同尺寸的图像。视觉预算参数如 --image-min-tokens 和 --image-max-tokens 控制在 llama.cpp 等推理引擎中为 Gemma 4 等模型的图像表示分配多少 token。Llama.cpp 是一个用于本地运行 LLM 的开源工具，提供配置选项以优化模型在图像处理等特定任务中的性能。",
+  "discussion": "社区讨论显示了对指南的赞赏，用户分享了他们自己的配置经验，例如使用来自 Qwen3.5 的值或将两个参数都设置为 1120 以获得更高质量。一些用户指出，在视频任务中 Gemma 4 仍不如 Qwen3.5，而其他用户则强调了 llama.cpp 配置的复杂性，建议使用 LM Studio 等工具以简化操作。",
+  "references": [
+    {
+      "title": "A Quick Note on Gemma 4 Image Settings in Llama.cpp - DEV Community",
+      "url": "https://dev.to/someoddcodeguy/a-quick-note-on-gemma-4-image-settings-in-llamacpp-39ng"
+    },
+    {
+      "title": "llama.cpp/tools/server/README.md at master · ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

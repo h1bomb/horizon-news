@@ -1,0 +1,40 @@
+{
+  "id": "ef4dc138fd8a6c2d9ebfbcd52d27211c285158d0",
+  "canonicalId": "d31312388a8a3859193a5489c74d2ac317410c71",
+  "slug": "rodecaster-duo-默认开启-ssh",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Rodecaster Duo 默认开启 SSH",
+  "summary": "用户发现 Rodecaster Duo 音频接口运行完整的 Linux 系统，并默认启用了 SSH，从而可以轻松远程访问设备的固件。 这暴露了消费级音频硬件中的安全疏忽，可能导致未经授权的设备访问，并引发对嵌入式 Linux 安全中厂商做法的担忧。 固件镜像是一个简单的 tarball 加哈希值，SSH 服务可能仅在 USB 端网络上监听，但如果也在局域网上监听，将构成严重的安全风险。",
+  "score": 7,
+  "tags": [
+    "security",
+    "embedded linux",
+    "audio hardware",
+    "firmware",
+    "IoT"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 24, 19:30"
+    }
+  ],
+  "originalUrl": "https://hhh.hn/rodecaster-duo-fw/",
+  "originalSite": "hhh.hn",
+  "context": "许多现代音频接口在 ARM SoC 上使用嵌入式 Linux 进行数字信号处理，而厂商的板级支持包通常默认启用 SSH。这很常见但不一定是恶意的，因为音频工程师可能不完全拥有根文件系统。然而，这凸显了在类似 IoT 的设备中需要更好的安全实践。",
+  "discussion": "评论者指出这在带有 DSP 的设备中很常见，并称赞固件以简单 tarball 形式开放的优点。一些人担心 SSH 是否暴露在局域网上，另一些人则惊叹现在借助 AI 检查固件变得多么容易。",
+  "references": [
+    {
+      "title": "Rodecaster Duo setup in-depth guide (streaming tips...) - YouTube",
+      "url": "https://www.youtube.com/watch?v=_xksXrdKywI"
+    },
+    {
+      "title": "Navigating security trade-offs in embedded Linux systems",
+      "url": "https://bootlin.com/pub/conferences/2025/elce/benjamin-security.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "d05305874f4e04d549aebe8368740f1fc3239597",
+  "canonicalId": "7ec576216477c75d9297ec335249d1aae9b8d6be",
+  "slug": "blog-explores-using-llm-agents-for-automated-research-on-an-old-idea",
+  "date": "2026-03-24",
+  "publishedAt": "2026-03-23T18:40:00Z",
+  "lang": "en",
+  "title": "Blog explores using LLM agents for automated research on an old idea",
+  "summary": "A blog post detailed an experiment using LLM agents to automate research on an old idea, with the agent acting like a hyperparameter optimization algorithm with basic reasoning. The system, based on a simple loop in a program.md file, iteratively improves training code, runs experiments, and records results. This approach demonstrates how LLM agents can accelerate research by automating tedious tasks like hyperparameter tuning and code iteration, potentially reducing human effort and enabling large-scale experimentation. It aligns with broader trends in AI automation, where agents are being developed to handle complex workflows in scientific and technical domains. The core of the system is a simple loop in program.md that favors simplicity, while other files include an arbitrary ML model for training. However, limitations include high costs if agents try all LLM recommendations and reliance on potentially niche or poorly maintained libraries.",
+  "score": 7,
+  "tags": [
+    "AI Research",
+    "LLM Agents",
+    "Automated Systems",
+    "Machine Learning",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ykumards"
+    }
+  ],
+  "originalUrl": "https://ykumar.me/blog/eclip-autoresearch/",
+  "originalSite": "ykumar.me",
+  "context": "LLM agents are AI systems that combine large language models with modules like planning and memory to execute complex tasks autonomously. Autoresearch systems, such as those popularized by Karpathy, use agents to run multiple experiments overnight, automating parts of the research process. These systems aim to reduce costs and accelerate discovery by handling iterative tasks like code optimization and evaluation.",
+  "discussion": "Community comments highlight practical applications, such as using LLMs for prior art exploration with mixed success, and concerns about cost efficiency and data bottlenecks. Some users note that similar iterative approaches with feedback loops are common in complex LLM deployments, while others question whether autoresearch offers advantages over traditional hyperparameter optimization methods.",
+  "references": [
+    {
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "url": "https://arxiv.org/abs/2501.04227"
+    },
+    {
+      "title": "Karpathy Autoresearch Explained: 100 Experiments Overnight",
+      "url": "https://datasciencedojo.com/blog/karpathy-autoresearch-explained/"
+    },
+    {
+      "title": "LLM Agents | Prompt Engineering Guide",
+      "url": "https://www.promptingguide.ai/research/llm-agents"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "dfcb63f60cae3be23fb9424ca30e0104d0bb0e29",
+  "canonicalId": "bc327aeec7f1c6593d3fc958304b6777526958d9",
+  "slug": "bpf-jit-编译器支持-kasan",
+  "date": "2026-06-24",
+  "publishedAt": "2026-06-23T15:53:00Z",
+  "lang": "zh",
+  "title": "BPF JIT 编译器支持 KASAN",
+  "summary": "Alexis Lothoré 正在为 BPF 即时编译 (JIT) 编译器添加内核地址消毒器 (KASAN) 支持，用于检测 JIT 生成代码中的释放后使用和越界错误。他于 2026 年 Linux 存储、文件系统、内存管理与 BPF 峰会上展示了这一工作。 这通过让 KASAN 能够捕获 BPF JIT 代码中的内存错误提升了内核安全性，此前这些代码绕过了检测。对内核测试和可靠性意义重大，因为 BPF 广泛应用于网络、跟踪和安全领域。 目前，该补丁仅针对 x86 上的 LDX 和 STX BPF 指令（加载和存储），忽略了栈访问。由于寄存器保存和恢复，开销很大，一条指令变成十二条，但正在考虑通过内联 __asan*() 函数等优化方式来降低开销。",
+  "score": 8,
+  "tags": [
+    "kernel",
+    "BPF",
+    "KASAN",
+    "JIT",
+    "memory safety"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077740/",
+  "originalSite": "lwn.net",
+  "context": "KASAN 是 Linux 内核中的一个动态内存错误检测器，通过软件或硬件内存标记来识别释放后使用和越界访问。BPF JIT 编译器将 BPF 字节码转换为本地机器码以提高性能；此前，它直接发出指针解引用，不进行 KASAN 检查。向 JIT 添加 KASAN 检测可确保 JIT 生成的代码也受到监控。",
+  "discussion": "在演讲中，听众建议内联 __asan*() 函数可以减少寄存器保存和恢复的开销，但 Lothoré 指出简单的内联可能更糟。还有人问为什么不在编译器或验证器中加入检测，Lothoré 解释这需要稳定的 KASAN API 并会使测试复杂化。目前尚未发现任何错误，因为补丁尚未经过广泛测试。",
+  "references": [
+    {
+      "title": "Kernel Address Sanitizer (KASAN) — The Linux Kernel",
+      "url": "https://docs.kernel.org/dev-tools/kasan.html"
+    },
+    {
+      "title": "bpf_jit_enable | sysctl-explorer.net",
+      "url": "https://sysctl-explorer.net/net/core/bpf_jit_enable/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

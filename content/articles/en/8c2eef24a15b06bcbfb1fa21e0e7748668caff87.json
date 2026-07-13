@@ -1,0 +1,41 @@
+{
+  "id": "8c2eef24a15b06bcbfb1fa21e0e7748668caff87",
+  "canonicalId": "18c4e38f9bb73cf13cfb8a11cff9404db1daa3f7",
+  "slug": "uber-caps-employee-ai-tool-usage-to-1500month",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T12:01:00Z",
+  "lang": "en",
+  "title": "Uber Caps Employee AI Tool Usage to $1,500/Month",
+  "summary": "Uber is limiting all employees to $1,500 in monthly token spending per AI coding tool like Claude Code or Cursor, after blowing through its 2026 AI budget in four months. This policy highlights the real cost challenges enterprises face with agentic AI coding tools, and sets a precedent for how companies might manage AI tool budgets relative to engineering salaries. The $1,500 limit applies per tool, not total; with two active tools, an engineer could spend up to $36,000 annually (about 11% of a median $330,000 total compensation package). The cap only covers agentic coding software, not other AI services.",
+  "score": 8,
+  "tags": [
+    "AI tools",
+    "cost management",
+    "software engineering",
+    "tech industry trends",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48383056"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Agentic coding tools like Claude Code and Cursor use large language models to autonomously understand codebases, edit files, and run commands, charging per token consumed. They have become popular in 2025-2026, leading to unexpected budget overruns for many companies that set budgets before usage exploded.",
+  "discussion": "Commenters debated whether the $1,500 cap is reasonable, with some noting their personal usage exceeds $20k at API rates, while others question if subsidized individual plans will continue. There is also discussion about using cheaper Chinese open-weight models as alternatives.",
+  "references": [
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "The 13 Best Agentic IDEs in 2026 - DataCamp",
+      "url": "https://www.datacamp.com/blog/best-agentic-ide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

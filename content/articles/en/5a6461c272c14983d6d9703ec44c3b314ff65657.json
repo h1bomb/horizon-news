@@ -1,0 +1,44 @@
+{
+  "id": "5a6461c272c14983d6d9703ec44c3b314ff65657",
+  "canonicalId": "dc668e9bfe2dc4e1a692ebce05b26b3252dbab10",
+  "slug": "unsloths-gguf-quantizations-for-gemma-4-26b-a4b-show-best-kl-divergence-performance-in-benchmarks",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-20T14:50:00Z",
+  "lang": "en",
+  "title": "Unsloth's GGUF Quantizations for Gemma 4 26B-A4B Show Best KL Divergence Performance in Benchmarks",
+  "summary": "Benchmark results published by Unsloth show that their GGUF quantizations for the Gemma 4 26B-A4B model achieved the lowest mean KL divergence scores, placing them on the Pareto frontier for 21 of 22 quantization sizes tested. The team also introduced a new UD-IQ4_NL_XL quantization variant that fits within 16GB VRAM and updated their Q6_K and MLX quants with improved dynamic characteristics. These benchmarks provide practical guidance for users selecting quantized models, as lower KL divergence indicates better preservation of the original model's accuracy after compression. The results highlight Unsloth's competitive advantage in quantization techniques, which could influence model selection decisions in the local LLM community where VRAM constraints and accuracy retention are critical factors. The benchmarks specifically measured KL divergence between quantized models and the original BF16 model, with Unsloth's quantizations dominating in both mean KL divergence and 99.9% KLD metrics. The new UD-IQ4_NL_XL quantization occupies 14.6GB, positioning it between UD-IQ4_XS (13.4GB) and UD-Q4_K_S (16.4GB) variants, making it suitable for GPUs with 16GB VRAM.",
+  "score": 7,
+  "tags": [
+    "LLM Quantization",
+    "Model Benchmarks",
+    "Local LLM",
+    "Gemma 4",
+    "GGUF"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "danielhanchen"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/hlsgb1l7ycwg1.png",
+  "originalSite": "i.redd.it",
+  "context": "GGUF (GPT-Generated Unified Format) is a file format created by Georgi Gerganov for storing quantized large language models, making it practical to run them locally on consumer hardware. Quantization reduces model size by lowering numerical precision (e.g., from 16-bit to 4-bit), which sacrifices some accuracy but enables deployment on resource-constrained devices. KL divergence (Kullback-Leibler divergence) measures how much one probability distribution differs from another, with lower values indicating that the quantized model's output distribution more closely matches the original model's distribution.",
+  "discussion": "Community members praised the technical insights while raising questions about inference speed benchmarks and methodology transparency. Some users reported that Bartowski's quantizations performed similarly with better stability in their own tests, suggesting the benchmarks might not capture all practical considerations. Others highlighted the significance of these improvements for larger models and requested additional quantization variants for different VRAM constraints.",
+  "references": [
+    {
+      "title": "GGUF Quantization Explained — Q4_K_M vs Q5_K_M vs Q8: VRAM ...",
+      "url": "https://willitrunai.com/blog/quantization-guide-gguf-explained"
+    },
+    {
+      "title": "KL Divergence in Machine Learning | Encord",
+      "url": "https://encord.com/blog/kl-divergence-in-machine-learning/"
+    },
+    {
+      "title": "unsloth/gemma-4-26B-A4B-it-GGUF - Hugging Face",
+      "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

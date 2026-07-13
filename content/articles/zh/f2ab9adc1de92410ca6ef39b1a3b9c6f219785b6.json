@@ -1,0 +1,40 @@
+{
+  "id": "f2ab9adc1de92410ca6ef39b1a3b9c6f219785b6",
+  "canonicalId": "35a0a058cf4b8998d9bf4c0c85c5a15d28ae5274",
+  "slug": "ietf-发布-ipv8-草案实现-100-向后兼容并采用-64-位地址解决-ipv4-枯竭问题",
+  "date": "2026-04-17",
+  "publishedAt": "2026-04-17T00:00:00Z",
+  "lang": "zh",
+  "title": "IETF 发布 IPv8 草案，实现 100% 向后兼容并采用 64 位地址解决 IPv4 枯竭问题。",
+  "summary": "互联网工程任务组（IETF）发布了 IPv8 草案协议，采用 64 位地址空间，完全向后兼容 IPv4，并通过“区域服务器”架构整合 DHCP、DNS 等服务。该协议引入了基于 OAuth2 的强制授权、“成本因子”路径选择算法，以及 WHOIS8 路由验证和 /16 最小注入前缀规则，以增强安全性和路由效率。 该草案通过可扩展的 64 位地址空间解决了 IPv4 地址枯竭这一长期问题，同时通过 100% 向后兼容性确保平滑迁移，可能对互联网基础设施产生范式转变。它将影响网络运营商、设备制造商和服务提供商，简化部署流程，提升路由安全性和整体网络性能。 IPv8 为每个自治系统号（ASN）分配超过 42 亿个主机地址，使用 8to4 隧道技术确保过渡期互操作性，并强制执行 /16 最小注入前缀等规则以抑制全球路由表增长。但作为草案，它仍在开发中，可能根据 IETF 审查和社区反馈进行调整。",
+  "score": 9,
+  "tags": [
+    "Networking",
+    "Internet Protocols",
+    "IPv8",
+    "IETF",
+    "Network Security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 16, 08:43"
+    }
+  ],
+  "originalUrl": "https://www.ietf.org/archive/id/draft-thain-ipv8-00.html",
+  "originalSite": "ietf.org",
+  "context": "互联网协议（IP）是互联网的核心通信协议，IPv4 作为广泛使用的版本，因其 32 位地址空间而面临地址枯竭问题。IPv6 被开发为 IPv4 的替代方案，采用更大的 128 位地址空间，但由于兼容性和迁移挑战，采用速度较慢。IETF 是负责制定和推广互联网标准的组织，包括 IP 协议。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "IP – Wikipedia",
+      "url": "https://fi.wikipedia.org/wiki/IP"
+    },
+    {
+      "title": "6to4 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/6to4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

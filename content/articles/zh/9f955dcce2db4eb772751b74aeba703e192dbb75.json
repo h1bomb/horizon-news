@@ -1,0 +1,44 @@
+{
+  "id": "9f955dcce2db4eb772751b74aeba703e192dbb75",
+  "canonicalId": "07e708dd1a57abddee06f7b4e564c99872ae8cf7",
+  "slug": "cloudflare-数据显示-ai-巨头打破互联网平衡anthropic-的抓取引流比最极端",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-14T00:00:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 数据显示 AI 巨头打破互联网平衡，Anthropic 的抓取引流比最极端",
+  "summary": "Cloudflare 最新数据显示，AI 公司特别是 Anthropic 在网页抓取与流量回馈之间存在严重失衡，Anthropic 的抓取引流比高达 8800:1，而 OpenAI 为 993:1。这意味着 Anthropic 每抓取 8800 次网页仅向原网站发送 1 个点击，远高于谷歌、微软等传统搜索引擎的平衡表现。 这种失衡威胁了互联网的基本经济模式，因为内容创作者依赖流量获取收入，而 AI 聊天机器人直接提供答案而非引导用户访问源网站。这种'只取不予'的趋势引发了 AI 伦理担忧，如果得不到解决，可能破坏网络内容创作的可持续性。 Cloudflare 的方法通过比较特定爬虫的 HTML 页面抓取请求与该平台引荐的 HTML 页面请求数量来衡量人工流量引荐。尽管 Anthropic 对统计方法提出质疑，但行业数据显示 AI 公司的抓取引流比始终远高于传统搜索引擎，有资料显示 Anthropic 从 2025 年 1 月的 286,930:1 改善到 7 月的 38,065:1，但仍保持最不平衡的状态。",
+  "score": 7,
+  "tags": [
+    "AI Ethics",
+    "Web Scraping",
+    "Internet Economics",
+    "Cloudflare",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 13, 10:36"
+    }
+  ],
+  "originalUrl": "https://www.businessinsider.com/ai-bots-strip-mining-web-anthropic-leads-ethical-claude-2026-4",
+  "originalSite": "businessinsider.com",
+  "context": "网络爬虫涉及自动化程序从网站提取数据，传统上被搜索引擎用于索引内容并提供返回源网站链接的搜索结果。'抓取引流比'衡量服务抓取多少页面与向这些网站回馈多少人工流量的比例，平衡的比例支持互联网的信息共享经济。AI 公司广泛使用网络爬虫来训练 Claude 和 ChatGPT 等大型语言模型，但它们的聊天机器人通常直接提供答案而非引荐用户访问源网站。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A deeper look at AI crawlers: breaking down traffic by ...",
+      "url": "https://blog.cloudflare.com/ai-crawler-traffic-by-purpose-and-industry/"
+    },
+    {
+      "title": "AI crawling data reveals massive imbalance in training versus ...",
+      "url": "https://ppc.land/ai-crawling-data-reveals-massive-imbalance-in-training-versus-referral-patterns/"
+    },
+    {
+      "title": "AI Bot Traffic: How Crawlers Are Reshaping Web Traffic in ...",
+      "url": "https://www.startuphub.ai/ai-news/startup-news/2025/ai-bot-traffic-how-crawlers-are-reshaping-web-traffic-in-2025-cloudflare-data-reveals-80-dominance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

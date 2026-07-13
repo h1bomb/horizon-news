@@ -1,0 +1,36 @@
+{
+  "id": "0c91c9fa4948304b133bea65349f60c9f27c1589",
+  "canonicalId": "ba0e4cd3482ce65686e975beb3d7b80f90894a61",
+  "slug": "bpf-协程允许程序挂起与恢复",
+  "date": "2026-06-20",
+  "publishedAt": "2026-06-19T15:55:00Z",
+  "lang": "zh",
+  "title": "BPF 协程允许程序挂起与恢复",
+  "summary": "Kumar Kartikeya Dwivedi 在 LSFMM+BPF 2026 上提出一种设计，允许将 BPF 程序表达为协程，从而实现挂起与恢复。 这一变化简化了编写长时间运行的 BPF 任务（如堆栈跟踪收集或用户空间网络）的方式，避免了手动拆分为回调，使内核扩展更易于开发。 该设计使用无栈协程，类似于 Rust 的 async 或 C++ 协程，编译器重写代码以实现挂起/恢复，BPF 验证器将恢复视为间接函数调用。",
+  "score": 8,
+  "tags": [
+    "BPF",
+    "Linux kernel",
+    "coroutines",
+    "LSFMM",
+    "kernel development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1076210/",
+  "originalSite": "lwn.net",
+  "context": "BPF（伯克利包过滤器）程序传统上在同一上下文中运行至完成。为了处理多步骤任务，开发者必须将逻辑拆分为独立的钩子并手动管理状态。协程允许单个函数暂停并在之后恢复，这对于长时间运行或延迟操作至关重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Coroutines in BPF - LSF/MM/BPF May 2026 - bpfconf.ebpf.io",
+      "url": "https://bpfconf.ebpf.io/bpfconf2026/bpfconf2026_material/Coroutines+in+BPF+-+LSF_MM_BPF+May+2026.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "3850a13595d1f822f8f6e9b295d9601d0d87087a",
+  "canonicalId": "8ab47db5b846662f471aeb8b6a5933df307d54aa",
+  "slug": "以太坊-eth-rangers-项目结项追回-580-万美元并识别百名朝鲜-it-员工",
+  "date": "2026-04-18",
+  "publishedAt": "2026-04-18T00:00:00Z",
+  "lang": "zh",
+  "title": "以太坊 ETH Rangers 项目结项：追回 580 万美元并识别百名朝鲜 IT 员工",
+  "summary": "以太坊基金会的 ETH Rangers 安全资助计划完成了首期六个月的工作，追回或冻结了 580 万美元资金，处理了 36 起以上事件响应，并报告了 785 项漏洞及客户端错误。该项目识别出约 100 名渗透至 Web3 组织的朝鲜 IT 从业者，涉及约 53 个加密项目，并在 Geth、Besu 等主流执行客户端中发现了 14 个拒绝服务漏洞。 这很重要，因为它展示了去中心化安全倡议在保护以太坊生态系统免受财务损失和复杂威胁（如国家支持的渗透和可能破坏网络稳定性的关键漏洞）方面的有效性。它突显了区块链中主动安全措施对于保护用户资产和维护去中心化技术信任的日益重要性。 该计划涉及 Secureum、The Red Guild 和 SEAL 等顶级安全团队，参与者每人获得 25,000 美元津贴。发现的拒绝服务漏洞可能导致执行客户端节点崩溃或 CPU 异常消耗，如果被利用，可能影响以太坊的网络性能。",
+  "score": 8,
+  "tags": [
+    "Blockchain Security",
+    "Ethereum",
+    "Cybersecurity",
+    "Decentralized Collaboration",
+    "Vulnerability Research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 17, 15:57"
+    }
+  ],
+  "originalUrl": "https://blog.ethereum.org/2026/04/16/eth-rangers-recap",
+  "originalSite": "blog.ethereum.org",
+  "context": "ETH Rangers 是以太坊基金会于 2024 年底启动的去中心化安全倡议，旨在加强网络对抗智能合约漏洞利用和社会工程攻击的能力。以太坊执行客户端，如 Geth（用 Go 编写）和 Besu（用 Java 编写），是运行节点以处理以太坊网络上交易和智能合约的软件。Web3 中的拒绝服务漏洞可通过过量请求淹没系统来中断服务，导致崩溃或资源耗尽。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ethereum Foundation Concludes 'Ethereum Rangers' Security ...",
+      "url": "https://coinalertnews.com/news/2026/04/17/ethereum-foundation-rangers-security-report"
+    },
+    {
+      "title": "The ETH Rangers Program | Ethereum Foundation Blog",
+      "url": "https://blog.ethereum.org/2024/12/02/ethrangers-public-goods"
+    },
+    {
+      "title": "A comparison of Ethereum clients - Web3 Labs Ethereum Clients Comparison: Best Ethereum Client 2024 Besu - Infrastructure Tools - Alchemy Step 3: Installing execution client - CoinCashew Ethereum Clients Comparison: Best Ethereum Client 2024 Ethereum Clients Comparison: Best Ethereum Client 2024 Ethereum Clients Comparison: Best Ethereum Client 2024 Ethereum Clients Comparison: Best Ethereum Client 2024 Execution clients - EthStaker Knowledge Base",
+      "url": "https://blog.web3labs.com/a-comparison-of-ethereum-clients/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

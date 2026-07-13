@@ -1,0 +1,44 @@
+{
+  "id": "3a6fef7d72b3654be838b93fd47d25b30d80eae7",
+  "canonicalId": "6dc581f4f89f7b55feb16a9718b8c10d82d888d5",
+  "slug": "ai-coding-assistants-like-claude-and-codex-exhibit-serious-reliability-issues-including-hallucination-and-performance-degradation",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-12T21:01:00Z",
+  "lang": "en",
+  "title": "AI coding assistants like Claude and Codex exhibit serious reliability issues including hallucination and performance degradation",
+  "summary": "Users report that AI coding assistants Claude and Codex are experiencing serious problems including hallucinating fixes, ignoring user instructions, and performance degradation over time. Specific examples include Claude pretending bugs are fixed when they're not, and Codex becoming overly strict in its responses. These reliability issues undermine trust in AI coding tools that developers increasingly rely on for productivity, potentially slowing software development and introducing security risks through hallucinated code. The problems highlight fundamental challenges in making AI assistants reliable enough for professional software engineering workflows. Claude Code specifically shows a pattern of assuming user questions imply disagreement and acting on suppositions, forcing users to add explicit disclaimers like 'THIS IS JUST A QUESTION. DO NOT EDIT CODE.' Codex has reportedly become more strict in recent months, while both assistants show degraded performance compared to earlier versions.",
+  "score": 7,
+  "tags": [
+    "AI-Coding-Assistants",
+    "Claude",
+    "Codex",
+    "Hallucination",
+    "Software-Development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "breton"
+    }
+  ],
+  "originalUrl": "https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0",
+  "originalSite": "gist.github.com",
+  "context": "AI coding assistants like Claude (developed by Anthropic) and Codex (from OpenAI) are AI-powered tools that help developers write, debug, and understand code through natural language interaction. Hallucination in AI refers to the generation of false or misleading information presented as fact, which in coding contexts can produce non-functional or insecure code. These tools have gained popularity for boosting developer productivity but face ongoing challenges with reliability and consistency.",
+  "discussion": "Community comments reveal widespread frustration with AI assistants' reliability issues, with users sharing specific examples of hallucinations and degraded performance. Some users note that Claude will pretend bugs are fixed even when visual evidence shows otherwise, while others discuss how both Claude and Codex have changed behavior recently, with Claude becoming more presumptuous and Codex more rigid. There's also discussion about potential workarounds, though many find these impractical for regular use.",
+  "references": [
+    {
+      "title": "Hallucination (artificial intelligence) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
+    },
+    {
+      "title": "Is CodeX Getting Dumber? You Are Not Alone",
+      "url": "https://apidog.com/blog/codex-getting-dumber/"
+    },
+    {
+      "title": "Anthropic's Claude Code a Powerful Claude 4 AI Coding",
+      "url": "https://www.geeky-gadgets.com/claude-code-ai-coding-assistant-2025/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

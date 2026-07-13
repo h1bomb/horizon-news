@@ -1,0 +1,44 @@
+{
+  "id": "32a3ba2598dde592ffe7825283035bc24c25dab4",
+  "canonicalId": "ed4ccd0dd633052fcd106a22c4687b944ac0bba3",
+  "slug": "nvidia-parakeet-移植到-ggml更快量化无需-python",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T20:35:00Z",
+  "lang": "zh",
+  "title": "NVIDIA Parakeet 移植到 ggml：更快、量化、无需 Python",
+  "summary": "一位开发者将 NVIDIA 的 Parakeet 语音识别模型移植到纯 C++/ggml 引擎，实现了与 NeMo 字节一致的输出，GPU 速度提升至 5 倍，量化后 CPU 速度提升 1.86 倍，并发布了 GGUF 量化版本用于高效的 CPU/GPU 推理。 这一成果使得高质量 NVIDIA 语音识别模型无需 Python 或 PyTorch 即可部署，推理更快、内存更少，且易于嵌入应用程序，有利于构建本地和边缘 ASR 系统的开发者。 移植版支持 FastConformer TDT/CTC/RNNT/混合模型，可在 CPU 和 GPU（CUDA、HIP、Vulkan、Metal）上运行，并包含带词级时间戳和置信度的缓存感知流式处理。GGUF 模型文件自包含，分词器已内嵌。",
+  "score": 8,
+  "tags": [
+    "speech-to-text",
+    "ggml",
+    "NVIDIA Parakeet",
+    "model optimization",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/mudler_it"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/",
+  "originalSite": "reddit.com",
+  "context": "ggml 是一个机器学习张量库，能在普通硬件上运行大模型，被 llama.cpp 和 whisper.cpp 使用。NVIDIA Parakeet 是基于 FastConformer 架构的一系列最先进 ASR 模型。GGUF 是一种量化格式，可减小模型大小并加速消费级硬件上的推理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ggml .ai",
+      "url": "https://ggml.ai/"
+    },
+    {
+      "title": "Pushing the Boundaries of Speech Recognition with NVIDIA NeMo",
+      "url": "https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/"
+    },
+    {
+      "title": "GGUF Quantization for Fast and Memory-Efficient Inference... | Medium",
+      "url": "https://medium.com/@bnjmn_marie/gguf-quantization-for-fast-and-memory-efficient-inference-on-your-cpu-d10fbe58fbca"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

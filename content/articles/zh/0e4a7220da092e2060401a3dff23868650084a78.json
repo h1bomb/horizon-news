@@ -1,0 +1,45 @@
+{
+  "id": "0e4a7220da092e2060401a3dff23868650084a78",
+  "canonicalId": "16685ec5a587fb1b3ca0363ccedc50955bd2bdd1",
+  "slug": "dnsmasq-发现六项严重-cve引发安全讨论",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-13T00:00:00Z",
+  "lang": "zh",
+  "title": "dnsmasq 发现六项严重 CVE，引发安全讨论",
+  "summary": "CERT 发布了 dnsmasq（一个广泛使用的 DNS 转发器和 DHCP 服务器）的六项严重安全漏洞 CVE，引发紧急修补呼吁。 这些漏洞影响数百万设备，包括家用路由器、Android 手机和 Linux 系统，可能导致远程代码执行或拒绝服务，使得转向内存安全语言的需求更加紧迫。 这些 CVE 涵盖缓冲区溢出和释放后使用等内存安全问题，这是 C 代码库的典型问题。最新版 dnsmasq 已提供补丁，但与 Debian 和 OpenWRT 等发行版的协调仍在进行中。",
+  "score": 9,
+  "tags": [
+    "security",
+    "dnsmasq",
+    "CVE",
+    "memory safety",
+    "networking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 12, 18:12",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48112042"
+    }
+  ],
+  "originalUrl": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+  "originalSite": "lists.thekelleys.org.uk",
+  "context": "Dnsmasq 是一款轻量级开源软件，为小型网络提供 DNS 缓存、DHCP、TFTP 和网络启动功能。它运行在 Linux、BSD、Android 和 macOS 上，并嵌入在许多家用路由器和物联网设备中。由于使用 C 语言编写，它容易受到内存安全漏洞的影响，这些漏洞已成为反复出现的安全隐患。",
+  "discussion": "评论者就转向 Rust 等内存安全语言的紧迫性展开辩论，有人主张完全替换 dnsmasq。其他人批评 Debian 提供过时版本，并讨论了 OpenWRT 的补丁进度。还有人表示更倾向于单独的工具而非 dnsmasq 的一体化方案。",
+  "references": [
+    {
+      "title": "Dnsmasq",
+      "url": "https://en.wikipedia.org/wiki/Dnsmasq"
+    },
+    {
+      "title": "Memory safety",
+      "url": "https://en.wikipedia.org/wiki/Memory_safety"
+    },
+    {
+      "title": "Dnsmasq - network services for small networks.",
+      "url": "https://thekelleys.org.uk/dnsmasq/doc.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

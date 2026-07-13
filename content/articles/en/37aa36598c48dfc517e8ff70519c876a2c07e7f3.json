@@ -1,0 +1,44 @@
+{
+  "id": "37aa36598c48dfc517e8ff70519c876a2c07e7f3",
+  "canonicalId": "15818d35d805f022834aea20492d8877d1d010dc",
+  "slug": "kimi-introduces-attention-residuals-to-replace-standard-residual-connections-in-transformers",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-20T11:03:00Z",
+  "lang": "en",
+  "title": "Kimi introduces attention residuals to replace standard residual connections in transformers",
+  "summary": "Moonshot AI's Kimi team published a paper on March 15, 2026, introducing 'attention residuals' that replace standard residual connections in transformer architectures. This approach allows each layer to selectively attend to outputs from all previous layers using learned attention weights, addressing the dilution problem where earlier information gets diluted in deep networks. This modification addresses a fundamental limitation in transformer architectures that affects all modern large language models, potentially improving performance across reasoning, coding, and long-context tasks while reducing computational requirements. The approach represents a significant architectural innovation that could influence future model designs and training efficiency. Benchmark results show 3-7.5 point improvements on graduate-level exams, math reasoning, code generation, and long-context tasks, with approximately 1.25x compute savings in the block variant. The training overhead is under 4% and inference latency increase under 2%, with larger models showing greater benefits from the architecture.",
+  "score": 8,
+  "tags": [
+    "transformers",
+    "neural-architecture",
+    "machine-learning",
+    "research-paper",
+    "attention-mechanisms"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Simple_Response8041"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ryt8e3/kimi_just_published_a_paper_replacing_residual/",
+  "originalSite": "reddit.com",
+  "context": "Residual connections, introduced in ResNet in 2015 and adopted in transformers since 2017, enable stable training of deep neural networks by allowing gradients to bypass transformations via identity mappings. In standard transformers, each layer receives the accumulated sum of outputs from all previous layers, which can cause earlier information to become diluted in deep networks—a problem Kimi identifies as the 'dilution problem.' Attention mechanisms, which determine the importance of different components in a sequence, are now being applied to address this depth-related issue.",
+  "discussion": "Community discussion shows cautious optimism about the architectural innovation, with specific concerns about quantization sensitivity and compatibility with fine-tuning techniques like LoRA. Several commenters note that the new cross-layer attention parameters might not be targeted by standard LoRA recipes, potentially causing adaptation issues, while others question how the approach compares to DeepSeek's recent mHC method for fixing residual connections.",
+  "references": [
+    {
+      "title": "Attention Residuals - arXiv.org",
+      "url": "https://arxiv.org/pdf/2603.15031"
+    },
+    {
+      "title": "Attention Residuals: Fixing Signal Dilution in the Depth ...",
+      "url": "https://yage.ai/share/attention-residuals-intuition-en-20260318.html"
+    },
+    {
+      "title": "Why are residual connections needed in transformer architectures ?",
+      "url": "https://stats.stackexchange.com/questions/565196/why-are-residual-connections-needed-in-transformer-architectures"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "b47a345c00669724bf9d41dc461e31cfea5cbb50",
+  "canonicalId": "80b041e2fc3650dc001f3ca866ab5fd248e47d02",
+  "slug": "qwen36-27b-kv-缓存量化测试结果出人意料",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-25T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.6 27B KV 缓存量化测试结果出人意料",
+  "summary": "一位用户使用 llama-perplexity 在 Qwen3.6-27B 上测试了 KV 缓存量化（turbo3、turbo4、Q8、Q4），发现所有量化方式的困惑度损失极小，其中 turbo3 的表现出乎意料地好。 这表明大型密集模型（≥200 亿参数）可能对 KV 缓存量化不那么敏感，从而在本地 LLM 部署中实现显著的内存节省，而不会带来明显的质量损失。 测试使用了 Qwen3.6-27B-Q5_K_M GGUF，在 3090 eGPU 上以 200k 上下文运行，并在 wiki.test.raw 上测量困惑度。用户指出 turbo3 在早期构建中无法工作，但现在已正常。",
+  "score": 7,
+  "tags": [
+    "KV cache quantization",
+    "Qwen3.6",
+    "llama.cpp",
+    "perplexity",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 24, 22:46"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1suur3s/qwen36_27bs_surprising_kv_cache_quantization_test/",
+  "originalSite": "reddit.com",
+  "context": "KV 缓存量化通过压缩推理过程中的键值缓存来减少内存使用，这对长上下文 LLM 至关重要。困惑度（PPL）是衡量语言模型质量的常用指标，但最近的研究表明，它可能无法捕捉到实际任务中的性能下降，尤其是在 Q4 等激进量化下。",
+  "discussion": "评论者警告说，困惑度并不是质量损失的可靠指标；一位用户指出，Q4 KV 的困惑度变化很小，但会导致 AIME 分数大幅下降。其他人指出，最近的 llama.cpp 优化（4 月初）改善了 Q8 和 Q4 KV 缓存的质量，但 turboquant 构建落后于最新的 llama.cpp。",
+  "references": [
+    {
+      "title": "Unlocking Longer Generation with Key-Value Cache Quantization",
+      "url": "https://huggingface.co/blog/kv-cache-quantization"
+    },
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

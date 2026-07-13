@@ -1,0 +1,40 @@
+{
+  "id": "c7d8ff3b450ae21186fcab9024e20803960118aa",
+  "canonicalId": "d349374bd9076dd209bafdaf9fe5bc18e2a384d9",
+  "slug": "xiaomi-open-sources-omnivoice-646-language-voice-cloning-tts",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-07T10:06:00Z",
+  "lang": "en",
+  "title": "Xiaomi Open-Sources OmniVoice: 646-Language Voice Cloning TTS",
+  "summary": "Xiaomi has open-sourced OmniVoice, a massively multilingual zero-shot TTS model supporting over 600 languages, with a minimal bidirectional Transformer architecture that achieves a training speed of 100,000 hours per day and PyTorch inference at 40x real-time. This release democratizes high-quality multilingual voice cloning, surpassing commercial systems in 24-language tests and approaching natural speech in 102 languages, enabling cross-lingual customization and noisy environment adaptation for developers worldwide. OmniVoice is trained on 580,000 hours of speech data across 646 languages from 50 open-source datasets, using full-codebook random masking and LLM pre-trained parameters to enhance efficiency and intelligibility.",
+  "score": 8,
+  "tags": [
+    "TTS",
+    "voice cloning",
+    "open-source",
+    "multilingual",
+    "Xiaomi"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/TCS_Sd10g_rvf1cszw673A",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Text-to-speech (TTS) converts written text into spoken audio, and voice cloning aims to replicate a target speaker's voice characteristics. OmniVoice uses a bidirectional Transformer architecture (similar to BERT) with a codebook for discrete audio representations, and leverages pre-trained LLM parameters to bootstrap training. Full-codebook random masking is a training technique where all codebook entries are randomly masked during training to improve robustness.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - k2-fsa/OmniVoice: High-Quality Voice Cloning TTS for 600+ Languages · GitHub",
+      "url": "https://github.com/k2-fsa/OmniVoice"
+    },
+    {
+      "title": "k2-fsa/OmniVoice · Hugging Face",
+      "url": "https://huggingface.co/k2-fsa/OmniVoice"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

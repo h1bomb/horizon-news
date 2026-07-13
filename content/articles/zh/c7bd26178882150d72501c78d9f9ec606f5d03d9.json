@@ -1,0 +1,44 @@
+{
+  "id": "c7bd26178882150d72501c78d9f9ec606f5d03d9",
+  "canonicalId": "3d1cce5adb4ab2910b35acb9d72b6ab3e915eded",
+  "slug": "加州年龄保证法案豁免开源扩大年龄限制",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T14:53:00Z",
+  "lang": "zh",
+  "title": "加州年龄保证法案豁免开源，扩大年龄限制",
+  "summary": "2026 年 5 月 28 日通过加州众议院的 AB 1856 法案，豁免开源操作系统遵守《数字年龄保证法》的年龄段数据收集要求，但将年龄限制扩展至所有网络浏览器和网站，强制收集年龄信息。 该法案影响复杂：一方面保护了开源开发者免受合规负担，另一方面大幅扩大年龄限制至浏览器和网站，引发对用户隐私、言论和安全的严重担忧。 豁免范围严格限于开源操作系统，未明确涵盖集成开源代码的商业产品。扩展部分要求浏览器和网站请求并收集年龄数据，加剧了原已存在的宪法损害。",
+  "score": 8,
+  "tags": [
+    "policy",
+    "privacy",
+    "open source",
+    "age assurance",
+    "California"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1076377/",
+  "originalSite": "lwn.net",
+  "context": "《数字年龄保证法》（AB 1043）于 2025 年 10 月在加州签署成为法律，要求操作系统提供商收集用户的年龄段数据并传输给应用。AB 1856 最初旨在修订该法，重点关注年龄验证信号。EFF 和开源社区对原法律对隐私和开源项目的影响表示担忧。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "One Step Forward, Two Steps Back: CA's AB 1856 Exempts Open ...",
+      "url": "https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating"
+    },
+    {
+      "title": "Bill Text: CA AB1856 | 2025-2026 | Regular Session - LegiScan",
+      "url": "https://legiscan.com/CA/text/AB1856/id/3359485"
+    },
+    {
+      "title": "Digital Age Assurance Act",
+      "url": "https://en.wikipedia.org/wiki/Digital_Age_Assurance_Act"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

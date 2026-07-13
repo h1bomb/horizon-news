@@ -1,0 +1,44 @@
+{
+  "id": "1c88688f59aecabddd36f4b2c2a1e097dcd9742c",
+  "canonicalId": "317e897a50a3f81c9549640b065695ad7dec798f",
+  "slug": "tldraw-因竞争担忧将测试套件移至私有仓库",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-26T00:00:00Z",
+  "lang": "zh",
+  "title": "tldraw 因竞争担忧将测试套件移至私有仓库",
+  "summary": "协作绘图库 tldraw 正将其全面的测试套件从其公共 GitHub 仓库转移至私有仓库。据报道，这一决定是由于担心详细的测试可能使竞争对手或 AI 代理能够从头开始重建该库的功能，Cloudflare 最近使用 AI 移植 Next.js 的项目就证明了这一点。 此举突显了商业开源项目（COSS）在保持透明度和保护其知识产权与商业可行性之间日益加剧的紧张关系。它引发了关于哪些核心资产应保持开放的根本性问题，并可能为其他公司限制测试访问开创先例，从而可能改变开源开发实践。 值得注意的是，tldraw 并未采用传统的开源许可证；它使用自定义许可证，要求在生产环境中使用需获得商业许可。该团队还提交了一个讽刺性的议题，讨论将代码翻译成繁体中文以“保护知识产权”免受 AI 代理侵害，这突显了 AI 时代更广泛且常带有讽刺意味的担忧。",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "business-models",
+    "testing",
+    "intellectual-property",
+    "software-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Feb 25, 21:06"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "tldraw 是一个流行的 SDK，用于构建具有实时协作功能的无限画布和白板应用程序。商业开源软件（COSS）公司通常会公开其核心代码，但依赖专有扩展、托管服务或技术支持来获得收入。Vite 和 Webpack 等构建工具用于打包和优化 Web 应用程序代码，而 AI 辅助代码生成正变得越来越能够基于测试等公共工件来理解和复制软件。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "tldraw: Infinite Canvas SDK for React",
+      "url": "https://tldraw.dev/"
+    },
+    {
+      "title": "tldraw/tldraw: very good whiteboard infinite canvas SDK - GitHub",
+      "url": "https://github.com/tldraw/tldraw"
+    },
+    {
+      "title": "Business models for open-source software - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Business_models_for_open-source_software"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "c422c05a54b760ec7162b9dbcddb2e63eb7eaa44",
+  "canonicalId": "a7a9f1d85600171790b6cdee1a62ad3ee29f2c5a",
+  "slug": "bryan-cantrill-批评大语言模型缺乏人类惰性影响抽象设计",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-14T00:00:00Z",
+  "lang": "zh",
+  "title": "Bryan Cantrill 批评大语言模型缺乏人类惰性，影响抽象设计",
+  "summary": "Bryan Cantrill 指出，大语言模型天生缺乏人类惰性，而惰性是驱动高效抽象设计的关键因素，可能导致系统臃肿而非真正改进。他警告说，缺乏这种约束，大语言模型可能追求虚荣指标而非构建更好的系统。 这一批评揭示了人工智能辅助开发中的一个根本性哲学挑战，质疑大语言模型是否能复制人类驱动的、优化长期效率的设计原则。这很重要，因为它引发了对大语言模型日益融入软件工程工作流时，AI 生成系统的可持续性和质量的担忧。 Cantrill 特别指出，大语言模型没有为未来时间优化的需求，这可能导致'垃圾层叠'而非清晰的抽象。这一论点关联到关于大语言模型中非确定性抽象的广泛讨论，即提示可能无法保证一致的行为。",
+  "score": 7,
+  "tags": [
+    "AI Ethics",
+    "Software Engineering",
+    "LLM Critique",
+    "Abstraction Design"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 13, 02:44"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "在软件工程中，人类惰性常被视为一种美德，因为它驱动开发者创建高效抽象并自动化重复任务，以节省未来精力。大语言模型是生成类人文本和代码的人工智能模型，但其设计原则与人类认知约束不同。计算中的抽象指通过隐藏不必要细节来简化复杂系统，这对可维护软件至关重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LLMs bring new nature of abstraction",
+      "url": "https://martinfowler.com/articles/2025-nature-abstraction.html"
+    },
+    {
+      "title": "On the Virtue of Laziness in Software Engineering –",
+      "url": "https://www.dmuth.org/on-the-virtue-of-laziness-in-software-engineering/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

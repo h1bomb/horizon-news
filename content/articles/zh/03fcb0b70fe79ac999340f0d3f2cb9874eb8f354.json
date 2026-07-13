@@ -1,0 +1,41 @@
+{
+  "id": "03fcb0b70fe79ac999340f0d3f2cb9874eb8f354",
+  "canonicalId": "d63b7170e6776acf0659afc3ec6ccc7dd41aa0f1",
+  "slug": "javascript-演变为编译目标",
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-14T12:38:00Z",
+  "lang": "zh",
+  "title": "JavaScript 演变为编译目标",
+  "summary": "Gary Bernhardt 在 2014 年的演讲中幽默地预言 JavaScript 将成为编译目标，这一预言随着 WebAssembly 和 Electron 的兴起已基本成为现实。 该演讲准确预见了 Web 开发的发展轨迹，例如 TypeScript 等语言编译为 JavaScript，以及通过 Electron 使用 Web 技术构建桌面应用，影响了当今开发者处理跨平台开发的方式。 演讲提到了 asm.js（WebAssembly 的前身），后来被 WebAssembly 取代。另一个预言 Electron 使得使用 Web 技术构建桌面应用成为可能。",
+  "score": 8,
+  "tags": [
+    "JavaScript",
+    "WebAssembly",
+    "TypeScript",
+    "Programming Languages",
+    "History"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "subset",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48526661"
+    }
+  ],
+  "originalUrl": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+  "originalSite": "destroyallsoftware.com",
+  "context": "JavaScript 最初是作为网页浏览器的脚本语言设计的，但后来成为所有浏览器原生支持的唯一语言。为了提升性能并让其他语言也能在 Web 上运行，2013 年引入了 asm.js（JavaScript 的严格子集），随后在 2015 年推出了 WebAssembly（一种二进制格式）。Electron 于 2013 年发布，允许开发者使用 JavaScript、HTML 和 CSS 等 Web 技术构建桌面应用。",
+  "discussion": "评论者普遍认为 Bernhardt 的预言很准确，指出 JavaScript 已成为编译目标，Electron 将 Web 技术带到了桌面应用。一些人指出 WebAssembly 仍然缺乏直接操作 DOM 的能力，需要 JavaScript 作为胶水代码。",
+  "references": [
+    {
+      "title": "WebAssembly",
+      "url": "https://en.wikipedia.org/wiki/WebAssembly"
+    },
+    {
+      "title": "Electron (software framework)",
+      "url": "https://en.wikipedia.org/wiki/Electron_(software_framework)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

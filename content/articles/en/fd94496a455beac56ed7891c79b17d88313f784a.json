@@ -1,0 +1,39 @@
+{
+  "id": "fd94496a455beac56ed7891c79b17d88313f784a",
+  "canonicalId": "0e50add22cf9f74c6fb2a8b64b70470b65676207",
+  "slug": "skymizer-unveils-384gb-pcie-card-for-700b-llm-inference",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-27T12:56:00Z",
+  "lang": "en",
+  "title": "Skymizer Unveils 384GB PCIe Card for 700B LLM Inference",
+  "summary": "Skymizer Taiwan Inc. announced a breakthrough PCIe card that uses six HTX301 chips and 384GB of memory to run 700B-parameter LLM inference locally at approximately 240W, by offloading the decode stage from the GPU to the HTX301 cards. This architecture could enable enterprises to run very large models on a single card without requiring expensive multi-GPU setups, potentially democratizing access to large-scale LLM inference at lower power and cost. The card splits LLM inference into two phases: the GPU handles compute-intensive prefill, while the HTX301 cards handle memory-bandwidth-intensive decode. The memory is not HBM but packaged like GDDR6/6X/7, and bandwidth details have not been disclosed.",
+  "score": 7,
+  "tags": [
+    "LLM inference",
+    "hardware architecture",
+    "AI hardware",
+    "edge AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "lurenjia_3x"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx2vxp/skymizer_taiwan_inc_unveils_breakthrough/",
+  "originalSite": "reddit.com",
+  "context": "LLM inference consists of two stages: prefill (processing the input prompt) and decode (generating tokens one by one). Decode is memory-bandwidth-bound, while prefill is compute-bound. Traditional GPUs handle both, but Skymizer's approach dedicates specialized hardware to each stage to improve efficiency.",
+  "discussion": "The community expressed skepticism about undisclosed bandwidth, potential high cost (tens of thousands of dollars), and past vaporware promises. Some questioned whether shuttling weights between cards would introduce latency, while others noted the lack of concrete performance data.",
+  "references": [
+    {
+      "title": "Skymizer Announces HTX301 — Reinventing On-Prem AI Inference",
+      "url": "https://skymizer.ai/skymizer-announces-htx301-reinventing-on-prem-ai-inference/"
+    },
+    {
+      "title": "Understanding the Two Key Stages of LLM Inference : Prefill and...",
+      "url": "https://medium.com/@sailakkshmiallada/understanding-the-two-key-stages-of-llm-inference-prefill-and-decode-29ec2b468114"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

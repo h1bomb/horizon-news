@@ -1,0 +1,44 @@
+{
+  "id": "804323e49a977503030945c601a0df02864ff2f5",
+  "canonicalId": "3eee41dea3b3cdda658600915b6bf0962710e27c",
+  "slug": "typst-0150-发布支持多文献目录",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T17:24:00Z",
+  "lang": "zh",
+  "title": "Typst 0.15.0 发布，支持多文献目录",
+  "summary": "Typst 0.15.0 版本新增了在单个文档中使用多个文献目录的功能，改进了 HTML 导出，自动将数学公式转换为 MathML，并进行了多项其他增强。 此次发布巩固了 Typst 作为 LaTeX 替代品的地位，满足了用户长期以来对多文献目录的需求，有助于提升文档组织和交叉引用的效率。 多文献目录功能允许按章节或部分分别列出参考文献；HTML 导出现在包含 MathML，有利于网络展示。该版本还包含性能改进和错误修复。",
+  "score": 8,
+  "tags": [
+    "typst",
+    "typesetting",
+    "open-source",
+    "version-release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "schu",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48544396"
+    }
+  ],
+  "originalUrl": "https://typst.app/docs/changelog/0.15.0/",
+  "originalSite": "typst.app",
+  "context": "Typst 是一个基于标记的现代排版系统，旨在比 LaTeX 更容易学习，同时生成高质量的输出。它可编译为 PDF、PNG 和 HTML。该项目是开源的，并在学术界和工业界获得了显著关注。",
+  "discussion": "社区反应总体积极，用户称赞了多文献目录和 HTML/MathML 支持等新功能。不过，一些用户指出脚注问题仍然存在，尤其是涉及文献引用的注释脚注，并希望后续能进一步改进。",
+  "references": [
+    {
+      "title": "Typst : The new foundation for documents",
+      "url": "https://typst.app/"
+    },
+    {
+      "title": "GitHub - typst / typst : A markup-based typesetting system that is...",
+      "url": "https://github.com/typst/typst"
+    },
+    {
+      "title": "Typst",
+      "url": "https://grokipedia.com/page/Typst"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

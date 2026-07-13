@@ -1,0 +1,40 @@
+{
+  "id": "c4d3ce46b3219368c34842ee536fb99d62eb5072",
+  "canonicalId": "1936d02ad8e6d6d5887b5c600778aac36e807654",
+  "slug": "lisuantech-launches-chinas-first-6nm-gpu-7g106-outperforming-rtx-4060-by-about-10",
+  "date": "2026-03-13",
+  "publishedAt": "2026-03-12T11:18:00Z",
+  "lang": "en",
+  "title": "Lisuantech launches China's first 6nm GPU 7G106, outperforming RTX 4060 by about 10%",
+  "summary": "Lisuantech has launched China's first 6nm consumer-grade GPU, the 7G106, which features 12GB GDDR6 memory and delivers approximately 10% higher performance than NVIDIA's RTX 4060 in OpenCL benchmarks. The company also introduced the professional-grade 7G105 with 24GB memory and 24 TFLOPS FP32 compute capability, with both GPUs manufactured using TSMC's N6 process and featuring the proprietary TrueGPU architecture. This represents a significant milestone in China's semiconductor independence efforts, demonstrating domestic capability to produce competitive consumer GPUs that challenge established players like NVIDIA. The achievement could impact global GPU markets by providing alternative options for gaming, content creation, and AI workloads while reducing reliance on foreign technology. The 7G106 achieves an OpenCL score of 111,290 points and maintains over 70 FPS average in Black Myth: Wukong at 4K high settings, while supporting modern video codecs including AV1 and HEVC 8K hardware decoding. Mass production of the consumer model is scheduled to begin in September, though specific pricing, availability details, and independent third-party verification of performance claims remain undisclosed.",
+  "score": 8,
+  "tags": [
+    "GPU",
+    "Semiconductor",
+    "Hardware",
+    "China-Tech",
+    "Graphics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40219",
+  "originalSite": "t.me",
+  "context": "TSMC's N6 (6nm) process technology represents an evolution from the N7 (7nm) node, utilizing additional EUV layers to improve power efficiency, performance, and transistor density while maintaining similar defect rates. OpenCL (Open Computing Language) is a cross-platform framework for parallel computing that enables programs to run across heterogeneous processors including GPUs, with benchmark scores providing standardized performance comparisons. The TrueGPU architecture is Lisuantech's proprietary GPU design that forms the foundation of their 7G series graphics cards.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "N7/N6 - 台湾积体电路制造股份有限公司 - TSMC",
+      "url": "https://www.tsmc.com/schinese/dedicatedFoundry/technology/platform_DCE_N7_N6"
+    },
+    {
+      "title": "OpenCL",
+      "url": "https://en.wikipedia.org/wiki/OpenCL"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

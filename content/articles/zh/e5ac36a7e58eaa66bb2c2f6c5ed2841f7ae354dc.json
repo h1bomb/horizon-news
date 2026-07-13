@@ -1,0 +1,40 @@
+{
+  "id": "e5ac36a7e58eaa66bb2c2f6c5ed2841f7ae354dc",
+  "canonicalId": "895e0338ecc99de2ce1655bd668559ce245add92",
+  "slug": "mot-工具对抗-ai-模型中的开放洗白",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T15:52:00Z",
+  "lang": "zh",
+  "title": "MOT 工具对抗 AI 模型中的开放洗白",
+  "summary": "Arnaud Le Hors 在 2026 年北美开源峰会上介绍了模型开放度工具（MOT），用于评估大型语言模型的真正开放程度。 该工具帮助用户识别开放洗白行为，即模型被宣传为开源但不符合标准开放标准，从而促进透明度并支持明智决策。 MOT 基于模型开放度框架（MOF），根据许可证、数据和训练代码可用性等具体标准评估模型。",
+  "score": 8,
+  "tags": [
+    "open source",
+    "AI",
+    "openwashing",
+    "large language models",
+    "transparency"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073420/",
+  "originalSite": "lwn.net",
+  "context": "许多被描述为开源的人工智能模型实际上是“开放权重”或具有限制性许可证，这种做法被称为开放洗白。开源倡议（OSI）有严格的开源定义，但许多模型并不符合。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Models | Model Openness Tool",
+      "url": "https://mot.isitopen.ai/"
+    },
+    {
+      "title": "GitHub - lfai/ model _ openness _ tool : Model Openness Tool",
+      "url": "https://github.com/lfai/model_openness_tool"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

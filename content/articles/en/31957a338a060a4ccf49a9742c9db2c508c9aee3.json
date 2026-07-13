@@ -1,0 +1,44 @@
+{
+  "id": "31957a338a060a4ccf49a9742c9db2c508c9aee3",
+  "canonicalId": "b1925d6af52ac2754fe81655f4faef69232dd424",
+  "slug": "cursors-warp-decode-boosts-moe-inference-throughput-by-184x-on-blackwell-gpus",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T04:00:00Z",
+  "lang": "en",
+  "title": "Cursor's 'warp decode' boosts MoE inference throughput by 1.84x on Blackwell GPUs",
+  "summary": "Cursor introduced a new 'warp decode' optimization technique that reorganizes Mixture-of-Experts (MoE) decoding by shifting from expert-centric to output-centric parallelism, eliminating 5 out of 8 data organization steps and compressing MoE computation into two kernels. This approach achieved 1.84x throughput improvement in small-batch inference tests on NVIDIA B200 Blackwell GPUs while also improving numerical accuracy. This optimization addresses a critical bottleneck in MoE model inference, particularly for small-batch scenarios common in real-time applications, making AI models more responsive and cost-effective. As MoE architectures become increasingly popular for large language models, such kernel-level improvements directly impact the scalability and accessibility of advanced AI systems. The technique specifically targets small-batch decode scenarios and is not a general replacement for expert-centric approaches, which remain superior for prefill and large-batch inference. In testing with Qwen-3 style models, it achieved sustained bandwidth of 3.95 TB/s at batch size 32, representing 58% of the measured peak bandwidth of 6.8 TB/s.",
+  "score": 8,
+  "tags": [
+    "GPU Optimization",
+    "Mixture-of-Experts",
+    "Inference Acceleration",
+    "NVIDIA Blackwell",
+    "Kernel Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://cursor.com/blog/warp-decode",
+  "originalSite": "cursor.com",
+  "context": "Mixture-of-Experts (MoE) is a machine learning architecture where multiple specialized neural networks (experts) handle different parts of the input space, with a gating mechanism routing each token to relevant experts. NVIDIA's Blackwell GPU architecture represents the latest generation of AI accelerators, building upon previous architectures like Hopper with enhanced features for generative AI workloads. CUDA warps are groups of 32 threads that execute in SIMT (Single Instruction, Multiple Thread) fashion on NVIDIA GPUs, and warp-level optimizations can significantly improve parallel execution efficiency.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Better MoE model inference with warp decode · Cursor",
+      "url": "https://cursor.com/blog/warp-decode"
+    },
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Using CUDA Warp-Level Primitives | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/using-cuda-warp-level-primitives/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

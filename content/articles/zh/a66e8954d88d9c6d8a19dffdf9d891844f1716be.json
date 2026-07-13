@@ -1,0 +1,40 @@
+{
+  "id": "a66e8954d88d9c6d8a19dffdf9d891844f1716be",
+  "canonicalId": "5a0eb16026010e4543af060e1bc03e03c95af050",
+  "slug": "小型-ai-模型与-mythos-在漏洞检测上表现相当引发成本效益质疑",
+  "date": "2026-04-12",
+  "publishedAt": "2026-04-12T00:00:00Z",
+  "lang": "zh",
+  "title": "小型 AI 模型与 Mythos 在漏洞检测上表现相当，引发成本效益质疑。",
+  "summary": "AISLE 的研究人员使用小型开源 AI 模型测试了 Anthropic 的 Mythos Preview 漏洞，发现八款模型全部检测到了其标志性的 FreeBSD 漏洞，其中一款仅含 36 亿参数，成本为每百万令牌 0.11 美元。这是在隔离相关代码片段后实现的，方法与 Anthropic 在 Mythos 公告中使用的类似。 这挑战了 Mythos 等大规模 AI 安全工具的新颖性和经济价值，表明更便宜的替代方案在隔离代码分析中可能提供相当的检测能力。它可能影响 AI 网络安全领域的投资决策，促使人们重新评估昂贵的专有模型是否对某些任务是必要的。 小型模型在隔离代码中检测到了漏洞，但这种方法可能无法复现在大型复杂代码库中发现漏洞的全部挑战，因为上下文和规模至关重要。据报道，Anthropic 的 Mythos Preview 在测试中识别并利用了主要操作系统和网络浏览器中的零日漏洞，显示了更广泛的应用范围。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Cybersecurity",
+    "Vulnerability Detection",
+    "Machine Learning",
+    "Open Source Models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 11, 16:47"
+    }
+  ],
+  "originalUrl": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+  "originalSite": "aisle.com",
+  "context": "Mythos Preview 是 Anthropic 开发的一款 AI 工具，旨在自主识别和利用软件中的漏洞，如其近期博客公告所述。小型 AI 模型，如那些拥有数十亿参数的模型，是轻量级替代方案，常用于代码分析任务，与 GPT-4 等大型模型相比计算成本更低。网络安全中的漏洞检测涉及分析代码中的安全缺陷，当扩展到整个代码库时可能资源密集。",
+  "discussion": "社区评论突显了关于方法的辩论，一些人认为隔离代码简化了任务，可能无法反映现实世界的漏洞搜寻，而其他人指出 Anthropic 在测试中使用了类似的框架。专家如 tptacek 强调，真正的困难在于在大型复杂程序中识别漏洞，而不仅仅是在隔离片段中。",
+  "references": [
+    {
+      "title": "AI Cybersecurity After Mythos: The Jagged Frontier | AISLE",
+      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier"
+    },
+    {
+      "title": "Claude Mythos Preview \\ red.anthropic.com",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

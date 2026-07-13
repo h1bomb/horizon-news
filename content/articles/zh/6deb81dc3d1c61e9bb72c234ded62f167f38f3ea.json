@@ -1,0 +1,36 @@
+{
+  "id": "6deb81dc3d1c61e9bb72c234ded62f167f38f3ea",
+  "canonicalId": "d43805edc510900ee02d088f3212de9d36c24ac0",
+  "slug": "谷歌-chrome-静默下载-4gb-ai-模型未获用户同意",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-07T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌 Chrome 静默下载 4GB AI 模型未获用户同意",
+  "summary": "安全研究员 Alexander Hanff 报告称，Google Chrome 在未获用户许可的情况下，向符合硬件条件的设备静默下载约 4GB 的 Gemini Nano AI 模型文件（weights.bin），即便手动删除也会自动重新下载。 这种行为可能违反欧盟 GDPR 等隐私法律，并浪费大量能源和带宽，潜在影响数十亿用户。这凸显了科技公司未经用户同意强制部署 AI 功能的更广泛趋势。 模型文件大小约 4GB，研究人员估计，向 10 亿用户分发该文件可能产生高达 6 万吨碳排放。据报道，Anthropic 的 Claude 应用也存在类似行为。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "google-chrome",
+    "AI",
+    "GDPR",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 6, 11:15"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/cyber-security/google-chrome-silently-downloads-4gb-ai-model-to-your-device-without-permission-report-claims-researcher-says-practice-may-violate-eu-law-waste-thousands-of-kilowatts-of-energy",
+  "originalSite": "tomshardware.com",
+  "context": "Gemini Nano 是谷歌 DeepMind 开发的轻量级 AI 模型，旨在设备端运行，用于摘要和智能回复等任务。Chrome 一直在整合 AI 功能，但此次静默下载引发了对用户控制和数据隐私的担忧。文件'weights.bin'包含训练好的神经网络参数。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemini (language model) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

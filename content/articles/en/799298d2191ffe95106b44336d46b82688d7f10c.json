@@ -1,0 +1,44 @@
+{
+  "id": "799298d2191ffe95106b44336d46b82688d7f10c",
+  "canonicalId": "14cb4783eb886b9c561343a338017d62475d3546",
+  "slug": "prismml-releases-binary-and-ternary-bonsai-image-4b-model",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T18:53:00Z",
+  "lang": "en",
+  "title": "PrismML Releases Binary and Ternary Bonsai Image 4B Model",
+  "summary": "PrismML released binary and ternary quantized versions of the Bonsai Image 4B text-to-image diffusion transformer, achieving a model size of only ~3GB and enabling fully local inference in the browser via WebGPU. This breakthrough democratizes AI image generation by allowing powerful text-to-image models to run on consumer hardware without requiring expensive GPUs or cloud services, significantly lowering the barrier to entry and preserving user privacy. The binary and ternary quantization reduces model weights to 1 bit and ~1.58 bits per parameter respectively, compressing a 4B parameter model from ~16GB to ~3GB. The models are released under the Apache-2.0 license and include official implementations for WebGPU inference.",
+  "score": 9,
+  "tags": [
+    "quantization",
+    "diffusion",
+    "text-to-image",
+    "webgpu",
+    "local-ai"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/xenovatech"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1togflk/prismml_just_released_binary_and_ternary_bonsai/",
+  "originalSite": "reddit.com",
+  "context": "Traditional diffusion models like FLUX use U-Net architectures, but recent innovations like Diffusion Transformers (DiTs) replace the U-Net with transformer backbones for better scalability. Extreme quantization techniques like binary and ternary quantization reduce model size by representing weights with very low bit-widths (1 or 1.58 bits), making models feasible for devices with limited memory. WebGPU is a modern browser API that allows web applications to leverage the GPU for accelerated computation, enabling local inference without server-side processing.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A Survey on Binary and Ternary Neural Networks and Their Realization in ...",
+      "url": "https://ieeexplore.ieee.org/document/11250544"
+    },
+    {
+      "title": "Scalability of Diffusion Models with Transformer Backbone | Encord",
+      "url": "https://encord.com/blog/diffusion-models-with-transformers/"
+    },
+    {
+      "title": "WeInfer: Unleashing the Power of WebGPU on LLM Inference in Web Browsers | Proceedings of the ACM on Web Conference 2025",
+      "url": "https://dl.acm.org/doi/10.1145/3696410.3714553"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

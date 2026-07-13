@@ -1,0 +1,44 @@
+{
+  "id": "c98b9c165387625b45bcf86ba017c1c04856dc84",
+  "canonicalId": "121a6abe2f7aed15a44b38e4f4f87822a59d4c7e",
+  "slug": "developer-reverse-engineers-apple-neural-engine-to-train-microgpt-on-m4-mac",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-01T13:21:00Z",
+  "lang": "en",
+  "title": "Developer reverse engineers Apple Neural Engine to train MicroGPT on M4 Mac",
+  "summary": "A developer reverse-engineered Apple's private Neural Engine (ANE) APIs using Claude, bypassing the CoreML framework to create a custom training pipeline. This pipeline was used to train a 110-million-parameter MicroGPT model on an M4 Mac mini, achieving a claimed power efficiency of 6.6 TFLOPS per watt. This work unlocks the potential of Apple's highly efficient but proprietary Neural Engine for machine learning training, a use case Apple does not officially support. It demonstrates a path to using consumer-grade Apple Silicon hardware as a potentially cost-effective and power-efficient platform for training and fine-tuning smaller AI models. The ANE on the M4 is claimed to offer 38 TFLOPS of INT8 compute, but as an FP16 processor, its actual compute is about half that. The developer notes that while a single chip cannot practically train very large models, it should be capable of LoRA fine-tuning for 3B or 7B parameter models, and a cluster of such devices could theoretically train larger models.",
+  "score": 8,
+  "tags": [
+    "reverse-engineering",
+    "apple-neural-engine",
+    "ml-training",
+    "hardware-acceleration",
+    "efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jack_smirkingrevenge"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/vl6kd7lvpfmg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "The Apple Neural Engine (ANE) is a Neural Processing Unit (NPU) integrated into Apple Silicon chips, designed to accelerate machine learning inference tasks efficiently. CoreML is Apple's official framework for deploying ML models, which can automatically utilize the ANE, GPU, or CPU. MicroGPT is a small, compute-light language model architecture designed by Andrej Karpathy. LoRA (Low-Rank Adaptation) is a popular, parameter-efficient fine-tuning technique that adds small, trainable matrices to a pre-trained model, making it feasible to adapt large models with limited resources.",
+  "discussion": "The community praised the technical achievement, with particular focus on the remarkable 6.6 TFLOPS/watt efficiency, which is nearly 5x that of an NVIDIA H100 GPU. Discussion clarified the scope of the reverse engineering, noting it targets the CoreML-to-ANE communication layer rather than the ANE's internal instruction set. Members also explored potential integrations with other projects and expressed frustration over Apple's lack of open-source support for ANE training.",
+  "references": [
+    {
+      "title": "Everything we actually know about the Apple Neural Engine (ANE) - GitHub",
+      "url": "https://github.com/hollance/neural-engine"
+    },
+    {
+      "title": "microgpt - Andrej Karpathy blog",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/"
+    },
+    {
+      "title": "A gentle introduction to LoRA for fine-tuning large language",
+      "url": "https://machinecurve.com/index.php/2023/11/19/a-gentle-introduction-to-lora-for-fine-tuning-large-language-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

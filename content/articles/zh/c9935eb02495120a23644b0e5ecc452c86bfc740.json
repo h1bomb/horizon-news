@@ -1,0 +1,44 @@
+{
+  "id": "c9935eb02495120a23644b0e5ecc452c86bfc740",
+  "canonicalId": "dc668e9bfe2dc4e1a692ebce05b26b3252dbab10",
+  "slug": "unsloth-的-gemma-4-26b-a4b-gguf-量化在基准测试中展现最佳-kl-散度性能",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-21T00:00:00Z",
+  "lang": "zh",
+  "title": "Unsloth 的 Gemma 4 26B-A4B GGUF 量化在基准测试中展现最佳 KL 散度性能",
+  "summary": "Unsloth 发布的基准测试结果显示，他们为 Gemma 4 26B-A4B 模型提供的 GGUF 量化版本取得了最低的平均 KL 散度分数，在测试的 22 种量化尺寸中有 21 种处于帕累托前沿。团队还推出了新的 UD-IQ4_NL_XL 量化变体，可在 16GB VRAM 内运行，并更新了 Q6_K 和 MLX 量化版本，改进了其动态特性。 这些基准测试为用户选择量化模型提供了实用指导，因为较低的 KL 散度表明压缩后原始模型精度的保留程度更好。结果凸显了 Unsloth 在量化技术方面的竞争优势，可能会影响本地 LLM 社区的模型选择决策，因为 VRAM 限制和精度保留是关键因素。 基准测试专门测量了量化模型与原始 BF16 模型之间的 KL 散度，Unsloth 的量化版本在平均 KL 散度和 99.9% KLD 指标上均占主导地位。新的 UD-IQ4_NL_XL 量化占用 14.6GB，介于 UD-IQ4_XS (13.4GB) 和 UD-Q4_K_S (16.4GB) 变体之间，适合具有 16GB VRAM 的 GPU。",
+  "score": 7,
+  "tags": [
+    "LLM Quantization",
+    "Model Benchmarks",
+    "Local LLM",
+    "Gemma 4",
+    "GGUF"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 20, 14:50"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/hlsgb1l7ycwg1.png",
+  "originalSite": "i.redd.it",
+  "context": "GGUF（GPT-Generated Unified Format）是由 Georgi Gerganov 创建的文件格式，用于存储量化后的大型语言模型，使其能够在消费级硬件上本地运行。量化通过降低数值精度（例如从 16 位降至 4 位）来减小模型大小，这会牺牲一些精度，但能在资源受限的设备上部署。KL 散度（Kullback-Leibler 散度）衡量一个概率分布与另一个概率分布的差异程度，数值越低表明量化模型的输出分布越接近原始模型的分布。",
+  "discussion": "社区成员赞扬了技术见解，同时提出了关于推理速度基准测试和方法透明性的问题。一些用户报告称，在他们自己的测试中，Bartowski 的量化表现相似且稳定性更好，这表明基准测试可能未涵盖所有实际考虑因素。其他人强调了这些改进对更大模型的重要性，并请求为不同的 VRAM 限制提供更多量化变体。",
+  "references": [
+    {
+      "title": "GGUF Quantization Explained — Q4_K_M vs Q5_K_M vs Q8: VRAM ...",
+      "url": "https://willitrunai.com/blog/quantization-guide-gguf-explained"
+    },
+    {
+      "title": "KL Divergence in Machine Learning | Encord",
+      "url": "https://encord.com/blog/kl-divergence-in-machine-learning/"
+    },
+    {
+      "title": "unsloth/gemma-4-26B-A4B-it-GGUF - Hugging Face",
+      "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

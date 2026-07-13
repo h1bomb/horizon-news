@@ -1,0 +1,44 @@
+{
+  "id": "17375953ba5ff03b28429ba2f60c1458d037238e",
+  "canonicalId": "6146491f793fd613a0b6ac5afec5a84ee0f8be32",
+  "slug": "aggressive-kv-cache-quantization-degrades-coding-agent-performance-at-long-contexts",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-01T11:55:00Z",
+  "lang": "en",
+  "title": "Aggressive KV Cache Quantization Degrades Coding Agent Performance at Long Contexts",
+  "summary": "A developer identified that aggressive quantization of the Key-Value (KV) cache, a common technique to fit large models into limited GPU memory, is a primary cause of performance degradation in local coding agents like Qwen3-Coder or GLM 4.7 when context lengths exceed 30k tokens. This degradation manifests as malformed JSON outputs, infinite correction loops, and hallucinated tool-call parameters, which were previously misattributed to model context limits or prompt issues. This finding is crucial for developers running local LLMs as agents, as it reveals a subtle but significant trade-off between memory efficiency and functional reliability at scale. It highlights that standard short-context benchmarks are insufficient for evaluating agent performance, and misconfigured quantization can lead to silent, hard-to-diagnose failures in production pipelines. The Key (K) cache is exponentially more sensitive to precision loss than the Value (V) cache, as low-precision keys degrade the attention mechanism's ability to match exact syntax from earlier in long contexts. Notably, not all 8-bit quantization is equal: FP8 (with exponent/mantissa) preserves dynamic range better for keys than uniform Q8 schemes, which are more suitable for storage compression.",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "kv-cache",
+    "quantization",
+    "long-context",
+    "agent-performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Dismal-Ad1207"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/",
+  "originalSite": "reddit.com",
+  "context": "Large Language Models (LLMs) use a Key-Value (KV) cache to store intermediate computations during text generation, avoiding recomputation and speeding up inference for long sequences. Quantization reduces the numerical precision (e.g., from 16-bit to 4-bit or 8-bit) of model weights and the KV cache to decrease memory usage, allowing larger models or longer contexts to fit into limited GPU VRAM. Libraries like llama.cpp and ExLlamaV3 offer settings to quantize the KV cache separately from the model weights, which is often seen as a 'free' way to extend context windows.",
+  "discussion": "The community strongly validated the core finding, emphasizing that the Key cache is the fragile component and that short-context benchmarks are useless for evaluating agent performance at scale. Discussion clarified technical nuances, such as the performance difference between FP8 and Q8 quantization for the K-cache, and shared practical mitigation strategies like keeping the K-cache at higher precision (FP16/FP8) while quantizing the V-cache more aggressively.",
+  "references": [
+    {
+      "title": "Unlocking Longer Generation with Key-Value Cache Quantization",
+      "url": "https://huggingface.co/blog/kv-cache-quantization"
+    },
+    {
+      "title": "GitHub - turboderp-org/exllamav3: An optimized quantization and ...",
+      "url": "https://github.com/turboderp-org/exllamav3"
+    },
+    {
+      "title": "Quantization for Local LLMs: How It Works and Which Formats ...",
+      "url": "https://www.hardware-corner.net/quantization-local-llms-formats/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

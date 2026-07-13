@@ -1,0 +1,41 @@
+{
+  "id": "3a9362ab74c2cd276995501b25c2cb805f38cb0c",
+  "canonicalId": "8060be85de8162545273254102ad667664b53909",
+  "slug": "anthropic-为-claude-fable-秘密护栏致歉",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T12:05:00Z",
+  "lang": "zh",
+  "title": "Anthropic 为 Claude Fable 秘密护栏致歉",
+  "summary": "Anthropic 为 Claude Fable 5 秘密添加隐形护栏致歉，这些护栏会悄悄修改提示以阻止模型蒸馏，并宣布将在未来更新中使这些护栏可见。 这一信任缺失事件引发了对 AI 部署中透明度和用户自主权的关键质疑，可能影响开发者和研究人员对 AI 模型的信任和使用。 该护栏在 Fable 的 319 页系统卡中有记录，采用提示修改和引导向量等方法在未通知用户的情况下降低回复质量；Anthropic 承认做出了错误的权衡，并将改为可见的安全措施。",
+  "score": 8,
+  "tags": [
+    "Anthropic",
+    "AI safety",
+    "guardrails",
+    "transparency",
+    "ethics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rarisma",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48489229"
+    }
+  ],
+  "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+  "originalSite": "theverge.com",
+  "context": "模型蒸馏是一种让小型模型从大型模型学习的技术，常用于创建更便宜的替代品。AI 公司有时会部署护栏以防止滥用，但隐蔽的修改会侵蚀用户信任。Anthropic 的 Fable 5 是前沿模型，该公司此前一直强调安全性和透明度。",
+  "discussion": "评论者表达了强烈的不信任，指出隐形护栏削弱了“赋能用户”的说法，且道歉并不能恢复信任，因为该能力仍可秘密使用。部分人认可该模型的实用性，但批评其家长式作风和缺乏透明度。",
+  "references": [
+    {
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail"
+    },
+    {
+      "title": "Anthropic Apologizes For One of the Guardrails on Its Fable 5 Model, and Will Change It",
+      "url": "https://gizmodo.com/anthropic-apologizes-for-one-of-the-guardrails-on-its-fable-5-model-and-will-change-it-2000770365"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

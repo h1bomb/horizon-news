@@ -1,0 +1,44 @@
+{
+  "id": "59e9f531cc4220a21d9a968cb33d9516f7da3b9a",
+  "canonicalId": "e077a234837a00463813dbd1e0397d04501f1e50",
+  "slug": "anthropic-指控阿里巴巴对-claude-发动大规模蒸馏攻击",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-25T01:36:00Z",
+  "lang": "zh",
+  "title": "Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击",
+  "summary": "Anthropic 在致美国参议院银行委员会的信中指控阿里巴巴发动了迄今已知最大规模的蒸馏攻击，通过约 2.5 万个欺诈账户在 2026 年 4 月 22 日至 6 月 5 日期间与 Claude 进行了超过 2880 万次交互。 这一指控凸显了中美公司在 AI 知识产权窃取问题上日益紧张的局势，可能具有国家安全影响，并可能影响先进 AI 模型的出口管制政策。 据称攻击针对 Anthropic 的先进模型 Claude Mythos Preview，涉及阿里巴巴的 AI 实验室 Qwen。Anthropic 声称这种蒸馏可能帮助中国加速 AI 能力，绕过出口管制。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "model distillation",
+    "intellectual property",
+    "security",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+  "originalSite": "cnbc.com",
+  "context": "模型蒸馏是一种技术，通过让较弱模型学习更强专有模型的输出来复制其能力，未经许可进行则被视为知识产权窃取。Anthropic 的 Claude Mythos Preview 是一款具有先进网络安全能力的顶级 AI 模型，美国政府出于国家安全原因已限制其出口。",
+  "discussion": "社区评论指出讽刺之处，Anthropic 本身也因从盗版网站下载数百万本书而被判侵犯版权。其他人讨论了蒸馏的技术细节，区分了黑盒查询和更高效的微调方法，并指出中国转售商正通过共享账户和支付欺诈以大幅折扣提供 Claude tokens。",
+  "references": [
+    {
+      "title": "Detecting and preventing distillation attacks \\ Anthropic",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "title": "Qwen - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Qwen"
+    },
+    {
+      "title": "Claude Mythos - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

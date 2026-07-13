@@ -1,0 +1,44 @@
+{
+  "id": "6c76070d2e1d9f10358f3e2fc32026d5c41c1292",
+  "canonicalId": "b02f9265ec0837ebf55e11518db54712aabf0fa0",
+  "slug": "extracted-gemma-4-e4b-model-from-android-ai-edge-gallery-reportedly-outperforms-community-quantizations",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-21T17:15:00Z",
+  "lang": "en",
+  "title": "Extracted Gemma 4 e4b model from Android AI Edge Gallery reportedly outperforms community quantizations.",
+  "summary": "A Reddit user discovered that the Gemma 4 e4b model extracted from Google's Android AI Edge Gallery, weighing 3.6 GB in .litertlm format, appears to perform better than community versions like Unsloth's 3.7 GB GGUF model, which exhibited issues such as incoherent text generation in Russian. This highlights potential performance gaps between official, optimized deployments and community-driven quantizations, impacting developers who rely on local AI models for efficiency and accuracy in applications like mobile AI and edge computing. The extracted model uses the .litertlm format, optimized for zero-copy access via memory mapping, while community versions like Unsloth's GGUF may prioritize English performance and differ in quantization methods, such as Q2_K_XL, which reduces precision to save memory.",
+  "score": 7,
+  "tags": [
+    "Gemma 4",
+    "model quantization",
+    "Android AI",
+    "community models",
+    "performance comparison"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "LawyerCompetitive478"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sru6zi/did_google_hide_the_best_version_of_gemma_4_e4b/",
+  "originalSite": "reddit.com",
+  "context": "Gemma 4 is an open model family from Google, including the E4B size, designed for tasks across text, vision, and audio. Model quantization compresses models by reducing numerical precision, enabling deployment on resource-limited hardware like mobile devices. The .litertlm format is a custom binary container from Google's LiteRT-LM framework, bundling model weights and tokenizers for efficient on-device inference.",
+  "discussion": "Community sentiment is mixed, with some attributing the performance difference to Google's engineering expertise and calibration with original datasets, while others note that AI Edge is open source and formats like .litertlm are not directly comparable to GGUF. Users expressed interest in downloading the Android version for testing on hardware like the GTX 1060.",
+  "references": [
+    {
+      "title": "google/gemma-4-E4B · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-4-E4B"
+    },
+    {
+      "title": "Gemma 4 — Google DeepMind",
+      "url": "https://deepmind.google/models/gemma/gemma-4/"
+    },
+    {
+      "title": "Model Formats and Distribution | google-ai-edge/LiteRT-LM ...",
+      "url": "https://deepwiki.com/google-ai-edge/LiteRT-LM/9-model-formats-and-distribution"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fd2090e7f78f48099c234be5a812c2219a4a0278",
+  "canonicalId": "2692243a830e2ce327f518bef5b0fdd9e1405c00",
+  "slug": "qwen-introduces-flashqla-for-2-3x-faster-linear-attention",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T12:18:00Z",
+  "lang": "en",
+  "title": "Qwen Introduces FlashQLA for 2-3x Faster Linear Attention",
+  "summary": "Qwen has released FlashQLA, a high-performance linear attention kernel library built on TileLang, achieving 2-3x forward and 2x backward speedups on SM90+ GPUs. FlashQLA significantly accelerates linear attention for agentic AI on personal devices, enabling faster inference and fine-tuning for long-context workloads and small models. FlashQLA uses gate-driven automatic intra-card compute preloading and a 16-stage warp-specialized pipeline for the backward pass, but requires SM90+ GPUs (e.g., H100, Blackwell) and CUDA 12.8+.",
+  "score": 8,
+  "tags": [
+    "FlashQLA",
+    "linear attention",
+    "AI kernels",
+    "edge AI",
+    "TileLang"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "ResearchCrafty1804"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/7l3v03pbg4yg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Linear attention kernels optimize the attention mechanism in transformer models to reduce computational complexity from quadratic to linear. FlashQLA builds on TileLang, a tiled programming model for efficient AI kernel development, and targets the Gated Delta Network (GDN) architecture used in Qwen models.",
+  "discussion": "The community is excited about the performance gains but notes the hardware requirement of SM90+ GPUs, which limits accessibility. Some users question the lack of support for SM89 (e.g., RTX 4090) and ask about practical speedups for existing Qwen models.",
+  "references": [
+    {
+      "title": "QwenLM/ FlashQLA : high-performance linear attention kernel library...",
+      "url": "https://github.com/QwenLM/FlashQLA"
+    },
+    {
+      "title": "Qwen Team Releases FlashQLA : a High-Performance Linear ...",
+      "url": "https://tradepoint.io/qwen-team-releases-flashqla-a-high-performance-linear-attention-kernel-library-that-achieves-up-to-3x-speedup-on-nvidia-hopper-gpus/"
+    },
+    {
+      "title": "[2504.17577] TileLang: A Composable Tiled Programming Model for",
+      "url": "https://arxiv.org/abs/2504.17577"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

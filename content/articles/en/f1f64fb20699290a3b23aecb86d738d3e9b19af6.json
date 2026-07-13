@@ -1,0 +1,40 @@
+{
+  "id": "f1f64fb20699290a3b23aecb86d738d3e9b19af6",
+  "canonicalId": "a2f0ec7317774e005d8dc2f1edb86d7ae5dd97f7",
+  "slug": "minimax-m27-benchmarked-competitive-scores-in-autonomous-coding-tasks",
+  "date": "2026-03-20",
+  "publishedAt": "2026-03-19T10:03:00Z",
+  "lang": "en",
+  "title": "MiniMax M2.7 benchmarked: competitive scores in autonomous coding tasks",
+  "summary": "MiniMax released their M2.7 model, which achieved an 86.2% score on the PinchBench OpenClaw agent benchmark (placing 5th out of 50 models) and passed 47% of tasks on the Kilo Bench autonomous coding evaluation. The model showed a 3.7-point improvement over its predecessor M2.5 on PinchBench and demonstrated unique problem-solving capabilities on Kilo Bench, though with some efficiency limitations. This benchmark analysis provides concrete performance data for developers and researchers evaluating large language models for autonomous coding applications, highlighting M2.7's position in the competitive landscape. The results show that while not the absolute top performer, M2.7 offers a fast and affordable option that can solve unique problems missed by frontier models, potentially making it valuable for specific use cases. On Kilo Bench, M2.7 exhibited a behavioral tendency to over-explore hard problems, which sometimes led to timeouts but also enabled it to solve tasks that no other tested model could complete. The benchmark comparison included models like Qwen3.5-plus, GLM-5, Kimi K2.5, and Qwen3.5-397b, with M2.7 performing within 1.2 points of Claude Opus 4.6 on PinchBench.",
+  "score": 7,
+  "tags": [
+    "AI Benchmarking",
+    "Large Language Models",
+    "Autonomous Coding",
+    "Model Evaluation",
+    "LocalLLaMA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "alokin_09"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rxwcda/benchmarked_minimax_m27_through_2_benchmarks/",
+  "originalSite": "reddit.com",
+  "context": "PinchBench is a public benchmarking platform for AI agents focused on standardized OpenClaw-style coding tasks, measuring success rates, runtime speed, and cost with reproducible runs. OpenClaw is an open-source, local-first personal AI assistant and agent framework that executes tasks on user infrastructure. Kilo Bench is an 89-task evaluation that tests autonomous coding across various domains including git operations, cryptanalysis, and QEMU automation.",
+  "discussion": "Community comments express mixed sentiment, with some users praising M2.7's performance and affordability while others raise concerns about potential lack of open-source availability and hardware requirements. Several commenters noted that M2.7 might not be suitable for local hosting if it remains closed-source, and some questioned the reliability of PinchBench results while discussing comparisons with other models like GLM-5 and Kimi K2.5.",
+  "references": [
+    {
+      "title": "PinchBench - AI Coding Agent Benchmark for OpenClaw",
+      "url": "https://pinchbench.com/submission/220a7484-2a99-441f-b101-08ed8fb8870f"
+    },
+    {
+      "title": "OpenClaw Agent - Navigation & Quick Start",
+      "url": "https://openclawagent.net/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

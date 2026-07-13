@@ -1,0 +1,40 @@
+{
+  "id": "0cc655c64f26f5a257604f4d8fc1945c042b806b",
+  "canonicalId": "b958e58176b78cc83b5aa6c3b7ba8b39da57674b",
+  "slug": "openai-因饱和停止使用-swe-bench-verified",
+  "date": "2026-04-27",
+  "publishedAt": "2026-04-27T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 因饱和停止使用 SWE-bench Verified",
+  "summary": "OpenAI 宣布将不再使用 SWE-bench Verified 基准评估其模型，该基准已达到 93.9%的饱和点，同时 SWE-bench 团队透露即将推出多语言和多模态基准。 这凸显了 AI 评估中基准饱和的挑战，顶级模型迅速达到满分，降低了基准区分能力并激励了作弊行为。 SWE-bench Verified 是一个经过人工筛选的 500 个实例子集；即将推出的 SWE-bench Multilingual 包含 9 种语言的 300 个任务，而 SWE-bench Multimodal 将在一个月内开源。",
+  "score": 9,
+  "tags": [
+    "AI benchmarks",
+    "coding capabilities",
+    "SWE-bench",
+    "LLM evaluation",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 26, 13:58"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+  "originalSite": "openai.com",
+  "context": "SWE-bench 是一个评估 AI 模型在真实软件工程任务（如修复 bug 或实现 GitHub issue 中的功能）上表现的基准。SWE-bench Verified 是经过筛选的子集，旨在移除模糊或不可行的样本，使评估更可靠。基准饱和是指模型达到近乎完美的分数，从而降低了基准衡量进展的效用。",
+  "discussion": "联合创建者 ofirpress 承认饱和但指出其他模型仍有增长空间，而 Jcampuzano2 和 cpard 等评论者强调了基准作弊的必然性以及 ELT-Bench 等基准的结构性问题。jddj 指出许多通过 SWE-bench 的 PR 在实际中不会被合并。",
+  "references": [
+    {
+      "title": "SWE - bench Leaderboards",
+      "url": "https://www.swebench.com/"
+    },
+    {
+      "title": "SWE - bench Verified | Epoch AI",
+      "url": "https://epoch.ai/benchmarks/swe-bench-verified"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "6bb773117375f4c3e719ea44f214d4ae124c3c79",
+  "canonicalId": "6258cf13f3d5f19bc6e2a155180744f075bf65cf",
+  "slug": "grok-45-xais-new-model-claims-high-efficiency-but-faces-ethics-scrutiny",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T18:00:00Z",
+  "lang": "en",
+  "title": "Grok 4.5: xAI's New Model Claims High Efficiency but Faces Ethics Scrutiny",
+  "summary": "xAI has released Grok 4.5, a new AI model trained on trillions of tokens of Cursor coding data, claiming 4x better reasoning efficiency than Opus and competitive benchmark performance at a lower price. This release intensifies competition in the AI model market, especially for pricing and efficiency, but raises trust issues due to xAI's reported political bias and ethical concerns, potentially affecting enterprise adoption. Grok 4.5 is priced at $2/$6 per million tokens, compared to GPT-5.4 at $2.5/$15 and Opus 4.8 at $5/$25, and is benchmarked around Opus 4.7 level. Training included Cursor user interaction data.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "ethics",
+    "Grok",
+    "model release",
+    "controversy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "BoumTAC",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48835111"
+    }
+  ],
+  "originalUrl": "https://x.ai/news/grok-4-5",
+  "originalSite": "x.ai",
+  "context": "Grok is an AI chatbot developed by xAI, Elon Musk's company. Previous versions include Grok 2.5 and Grok 3. The model aims for truth-seeking but has faced criticism over content moderation and political bias. The use of proprietary coding data from Cursor is a notable training approach.",
+  "discussion": "Commenters express skepticism about trusting xAI due to ethical issues like CSAM tolerance and political manipulation, though some acknowledge the model's efficiency and competitive pricing. Others question the economic viability of investing billions for the third-best model.",
+  "references": [
+    {
+      "title": "Grok (chatbot) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
+    },
+    {
+      "title": "Models | SpaceXAI Docs",
+      "url": "https://docs.x.ai/developers/models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

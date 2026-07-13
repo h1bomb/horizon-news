@@ -1,0 +1,44 @@
+{
+  "id": "71a22dfd9549eede519ca8eb4e2e476adef076b0",
+  "canonicalId": "aa2c114efa9475b0a8d4d737a669dc066f67f6fb",
+  "slug": "audio-processing-added-to-llama-server-with-gemma-4-models",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-12T15:42:00Z",
+  "lang": "en",
+  "title": "Audio processing added to llama-server with Gemma-4 models",
+  "summary": "The llama.cpp project's llama-server component now supports speech-to-text processing using Gemma-4 E2A and E4A models, enabling native audio transcription without requiring external pipelines like Whisper. This integration simplifies local AI workflows by eliminating the need for separate speech-to-text systems, making it easier to build end-to-end audio applications with local LLMs while maintaining privacy and reducing infrastructure complexity. The current implementation has limitations with longer audio files (5+ minutes) and may encounter assertion errors, while users report that Voxtral performs better for extended transcription tasks. Hardware requirements are significant, with 8GB VRAM cards likely limited to GGUF-quantized models.",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "audio-processing",
+    "speech-to-text",
+    "local-llm",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "srigi"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjhxrw/audio_processing_landed_in_llamaserver_with_gemma4/",
+  "originalSite": "reddit.com",
+  "context": "llama.cpp is an open-source C/C++ library for efficient local LLM inference that supports various model architectures including Gemma models through the GGUF format. Gemma-4 is Google's latest open LLM family featuring multilingual support and both dense and MoE architectures, designed for tasks like text generation and reasoning. Local LLMs enable AI processing directly on user devices without cloud dependency, similar to how speech-to-text has evolved from servers to mobile devices.",
+  "discussion": "Community members express excitement about eliminating separate Whisper pipelines but note performance issues with longer audio files and hardware constraints. Some users report better accuracy than Whisper in specific languages like Spanish, while others question whether real-time microphone input is supported and call for benchmarking.",
+  "references": [
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+    },
+    {
+      "title": "Local LLM Models: Are They Actually Useful?",
+      "url": "https://www.maximepeabody.com/blog/local-llm-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

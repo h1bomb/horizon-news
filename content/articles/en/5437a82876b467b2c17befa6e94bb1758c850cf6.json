@@ -1,0 +1,44 @@
+{
+  "id": "5437a82876b467b2c17befa6e94bb1758c850cf6",
+  "canonicalId": "eec0ba16f42cd2a1f6012fdad5b08811383ce95a",
+  "slug": "qinglong-panel-targeted-by-fullgc-mining-malware-causing-800-cpu-usage",
+  "date": "2026-03-01",
+  "publishedAt": "2026-02-28T13:16:00Z",
+  "lang": "en",
+  "title": "QingLong Panel Targeted by .fullgc Mining Malware, Causing 800% CPU Usage",
+  "summary": "On February 7, 2026, multiple users reported that QingLong Panel servers were infected with a mining malware named .fullgc, causing abnormal CPU usage to spike to 800%. The malware achieves persistence by tampering with the config.sh configuration file and can automatically download malicious programs based on the system architecture. This attack targets a popular open-source task management tool widely used by developers and DevOps teams, directly impacting server performance, stability, and operational costs. It highlights a significant security risk for internet-facing servers running such panels and underscores the persistent threat of cryptojacking to cloud infrastructure. Security analysis identifies the malware as part of the SusMiner family, which primarily connects to XMR (Monero) mining pools for unauthorized cryptocurrency mining. The primary attack vector appears to be servers exposed to public IPv4 networks, and users are advised to check for hidden files in the /ql/data/db/ directory.",
+  "score": 8,
+  "tags": [
+    "security",
+    "malware",
+    "server-security",
+    "cryptojacking",
+    "devops"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/39934",
+  "originalSite": "t.me",
+  "context": "QingLong Panel (青龙面板) is a popular, Docker-based open-source timed task management panel that supports scripting in TypeScript, JavaScript, Python, and Shell. It is commonly used for automating various online tasks and script execution. Cryptojacking or crypto-mining malware is malicious software that secretly uses a victim's computing resources (CPU/GPU) to mine cryptocurrency for an attacker's profit, often leading to performance degradation and increased energy costs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "whyour/qinglong - Docker Image",
+      "url": "https://hub.docker.com/r/whyour/qinglong"
+    },
+    {
+      "title": "Crypto Mining Malware: Understanding Detection and Prevention",
+      "url": "https://www.startupdefense.io/cyberattacks/crypto-mining-malware"
+    },
+    {
+      "title": "Cryptocurrency-Mining Malware | NJCCIC",
+      "url": "https://www.cyber.nj.gov/threat-landscape/malware/cryptocurrency-mining-malware"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

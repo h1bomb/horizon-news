@@ -1,0 +1,40 @@
+{
+  "id": "f99d46e9fce2f9e52499b5cdbd726c138610377f",
+  "canonicalId": "15473ed6ac9dfead353ecb0ebbc52001219f08d0",
+  "slug": "pi-coding-agent-with-qwen36-35b-impresses-users",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T14:11:00Z",
+  "lang": "en",
+  "title": "PI Coding Agent with Qwen3.6 35b Impresses Users",
+  "summary": "A Reddit user shared a positive experience using the open-source PI Coding Agent with the local Qwen3.6 35b A3B model, highlighting a custom 'plan-first' skill file that enforces step-by-step execution before writing any code. 这表明本地开源编程助手现在可以媲美 Claude Code 等基于云的订阅服务，在保持实际项目高性能的同时，可能为用户节省大量成本。 The Qwen3.6 35b A3B model uses only 3B active parameters, enabling fast inference on consumer hardware like a MacBook Pro M4 Pro with 48GB RAM. The plan-first skill file is shared as a markdown file that enforces a structured workflow with phases for analysis, clarification, planning, and execution.",
+  "score": 7,
+  "tags": [
+    "local-llm",
+    "coding-agent",
+    "qwen",
+    "open-source-ai",
+    "skill-file"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "SoAp9035"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1stjwg5/been_using_pi_coding_agent_with_local_qwen36_35b/",
+  "originalSite": "reddit.com",
+  "context": "PI Coding Agent is an open-source terminal-based coding assistant developed by Mario Zechner. Qwen3.6 35b A3B is Alibaba's latest open-source model with a mixture-of-experts architecture, supporting up to 262K context tokens. Skill files in PI are similar to Claude Code's skills, allowing users to define custom workflows.",
+  "discussion": "Community members confirmed similar success, with one user canceling both IDE and Claude subscriptions after switching to PI with Qwen3.6 35b. Others asked about differences from OpenCode's plan mode and whether PI is worth moving from Claude Code, with overall sentiment being very positive.",
+  "references": [
+    {
+      "title": "Pi Coding Agent",
+      "url": "https://grokipedia.com/page/Pi_Coding_Agent"
+    },
+    {
+      "title": "Qwen 3 . 6 – 35 B - A 3 B : The Tiny-Active Open Model That... | Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/qwen3-6-35b-a3b-the-tiny-active-open-model-that-thinks-codes-and-agents-like-a-much-bigger-one-486d535e372e"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

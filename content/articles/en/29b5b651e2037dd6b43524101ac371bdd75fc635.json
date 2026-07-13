@@ -1,0 +1,44 @@
+{
+  "id": "29b5b651e2037dd6b43524101ac371bdd75fc635",
+  "canonicalId": "b95face75c6407f1f873a2acb4e5f25bbd5f37e5",
+  "slug": "gcc-bpf-support-nears-feature-parity-with-llvm",
+  "date": "2026-05-22",
+  "publishedAt": "2026-05-21T14:52:00Z",
+  "lang": "en",
+  "title": "GCC BPF support nears feature parity with LLVM",
+  "summary": "At the 2026 LSFMM+BPF Summit, GCC BPF developers reported that GCC 16.1, released on April 30, 2026, now passes 601 out of 713 kernel BPF self-tests, approaching feature parity with LLVM. The GNU toolchain now includes BPF support across GCC, binutils, DejaGNU, GNU poke, and GDB, though some components like GDB's simulator are outdated. This milestone reduces the kernel's dependency on LLVM for BPF compilation, promoting toolchain diversity and freedom for Linux distributions. It also strengthens the GNU toolchain's relevance for eBPF development, which is critical for modern Linux networking, observability, and security. A small set of remaining fixes is needed for GCC to pass all kernel BPF self-tests; most failing tests share common root causes. GCC also has work-in-progress support for Solana's BPF variant, which includes 64-bit product, quotient, and remainder instructions that could benefit upstream BPF.",
+  "score": 8,
+  "tags": [
+    "GCC",
+    "BPF",
+    "Linux kernel",
+    "LLVM",
+    "toolchain"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1071973/",
+  "originalSite": "lwn.net",
+  "context": "BPF (Berkeley Packet Filter), specifically its extended version eBPF, allows running sandboxed programs in the Linux kernel without changing kernel source code, used for networking, tracing, and security. LLVM has historically been the primary compiler for BPF; GCC's BPF backend aims to provide a mature alternative, reducing reliance on a single toolchain. The LSFMM+BPF Summit is an annual invitation-only event where kernel developers discuss storage, filesystem, memory management, and BPF topics.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Berkeley Packet Filter - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berkeley_Packet_Filter"
+    },
+    {
+      "title": "BPFBackEnd - GCC Wiki",
+      "url": "https://gcc.gnu.org/wiki/BPFBackEnd"
+    },
+    {
+      "title": "Linux Storage, Filesystem, MM & BPF Summit | LF Events",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "9e18b1a484e14b42ca197248e4838cac6ada4c93",
+  "canonicalId": "50ca3cf531e4b912fdd2027a705538a88ebf1803",
+  "slug": "bun-从-zig-重写为-rust",
+  "date": "2026-07-09",
+  "publishedAt": "2026-07-08T23:57:00Z",
+  "lang": "zh",
+  "title": "Bun 从 Zig 重写为 Rust",
+  "summary": "Jarred Sumner 宣布成功将 Bun JavaScript 运行时从 Zig 重写为 Rust，该过程使用了 Claude 进行密集的代理工程，耗时 11 天，API 令牌成本约为 16.5 万美元。 此次重写表明现代 AI 编码代理使大规模重写成为可能，挑战了长期以来的“永不重写”智慧。同时展示了 Rust 的内存安全性如何消除困扰 Zig 手动内存管理的常见错误（如释放后使用）。 Bun 的测试套件（用 TypeScript 编写）充当了验证移植的合规套件。基于 Rust 的新 Bun 自 2026 年 6 月 17 日起已在 Claude Code 中运行，Linux 上启动速度提升 10%，用户未察觉到变化。",
+  "score": 8,
+  "tags": [
+    "Bun",
+    "Rust",
+    "Zig",
+    "systems programming",
+    "engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Bun 是一个快速的全能型 JavaScript 运行时、包管理器和测试运行器，最初用 Zig 编写。Zig 是一种需要手动管理内存的系统编程语言，这导致 Bun 中出现释放后使用和双重释放错误。Rust 通过其所有权模型和 Drop trait 提供了内存安全性保证，在编译时防止此类错误。代理工程是指使用能够规划、使用工具并在人工监督下自主完成任务的人工智能代理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Bun (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bun_(software)"
+    },
+    {
+      "title": "Zig (programming language)",
+      "url": "https://en.wikipedia.org/wiki/Zig_(programming_language)"
+    },
+    {
+      "title": "What is agentic engineering? - IBM",
+      "url": "https://www.ibm.com/think/topics/agentic-engineering"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

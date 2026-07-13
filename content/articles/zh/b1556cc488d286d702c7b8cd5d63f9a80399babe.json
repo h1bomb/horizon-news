@@ -1,0 +1,44 @@
+{
+  "id": "b1556cc488d286d702c7b8cd5d63f9a80399babe",
+  "canonicalId": "d847d4524c3b8f334024579daa200db52e43c3e4",
+  "slug": "vercel-2026-年-oauth-漏洞通过-ai-工具暴露平台环境变量",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "Vercel 2026 年 OAuth 漏洞通过 AI 工具暴露平台环境变量",
+  "summary": "2026 年 4 月，Vercel 发生安全漏洞，攻击者通过名为 ContextAI 的 AI 工具利用 OAuth 攻击访问了平台环境变量，这些变量包含敏感配置数据。该漏洞与一名 Vercel 员工向 AI 工具授予过多权限有关，导致攻击者能在系统内横向移动。 这一事件凸显了在集成第三方 AI 工具时缺乏适当安全控制所带来的关键供应链风险，可能影响依赖 Vercel 平台的数千名开发者和公司。它展示了 OAuth 漏洞与人为错误结合如何在云原生环境中导致重大数据暴露。 攻击利用了 OAuth 配置错误，其中 AI 工具请求了对 Google Workspace 服务的广泛访问权限，而 Vercel 的环境变量管理最初缺乏用于适当保护的“敏感”标志。安全研究人员指出，这是一个相对基础的漏洞利用，之所以成功是因为供应商风险评估不足和 AI 工具政策执行不力。",
+  "score": 8,
+  "tags": [
+    "security",
+    "OAuth",
+    "supply-chain",
+    "Vercel",
+    "AI-risk"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 21, 17:14"
+    }
+  ],
+  "originalUrl": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
+  "originalSite": "trendmicro.com",
+  "context": "OAuth 2.0 是一个常用于第三方应用访问的授权框架，但容易因实现错误而让攻击者获取敏感数据。环境变量是存储在应用代码外的配置值，通常包含 API 密钥和数据库密码等需要安全管理的秘密信息。软件开发中的供应链风险指的是通过第三方组件或工具引入的漏洞，这些漏洞可能危及整个系统。",
+  "discussion": "社区讨论揭示了对 AI 工具安全实践的担忧，用户质疑 Vercel 为何允许如此广泛的 OAuth 权限，并指出该平台延迟实施了敏感环境变量保护。一些评论者批评将攻击速度归因于 AI 增强是推测性的，而其他人则警告这代表了企业环境中 AI 赋能安全威胁日益增长的趋势。",
+  "references": [
+    {
+      "title": "OAuth 2.0 authentication vulnerabilities - PortSwigger",
+      "url": "https://portswigger.net/web-security/oauth"
+    },
+    {
+      "title": "Analyzing the Hidden Danger of Environment Variables for Keeping Secrets | Trend Micro (US)",
+      "url": "https://www.trendmicro.com/en_us/research/22/h/analyzing-hidden-danger-of-environment-variables-for-keeping-secrets.html"
+    },
+    {
+      "title": "How to Manage Software Supply Chain Risks",
+      "url": "https://www.informationweek.com/software-services/how-to-manage-software-supply-chain-risks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

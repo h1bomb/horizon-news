@@ -1,0 +1,44 @@
+{
+  "id": "30fc1799385d6bad5095cf7d951357f0d35ff662",
+  "canonicalId": "283636bffaf0c13e3d899d30ab00b575b0a3c472",
+  "slug": "turboquant-kv-cache-quantization-gains-broad-hardware-validation-in-llamacpp",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T13:24:00Z",
+  "lang": "en",
+  "title": "TurboQuant KV Cache Quantization Gains Broad Hardware Validation in llama.cpp",
+  "summary": "TurboQuant, an extreme KV cache quantization technique, has been validated across multiple hardware platforms including Metal, CUDA, HIP, Vulkan, and MLX, with benchmarks showing performance on devices from Apple Silicon to NVIDIA and AMD GPUs. Community contributions include a HIP/ROCm port enabling support for AMD hardware, with specific optimizations for models like Qwen3.5-9B and Gemma 4 26B MoE. This development significantly enhances the efficiency of large language model inference by reducing memory usage through KV cache quantization, enabling faster and more scalable deployments on diverse hardware. It democratizes access to high-performance LLM inference, particularly for resource-constrained environments and open-source projects like llama.cpp. The technique has been tested on a wide range of hardware, from Apple M1 to NVIDIA Blackwell GPUs, with benchmarks showing minimal performance degradation (e.g., +1.17% perplexity increase for Qwen3.5-9B). However, it may not work optimally on all models, as seen with catastrophic results on Gemma 4 26B MoE without specific flags like --cache-type-k-swa.",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "llama.cpp",
+    "KV-cache",
+    "hardware-optimization",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "pmttyji"
+    }
+  ],
+  "originalUrl": "https://github.com/ggml-org/llama.cpp/discussions/20969",
+  "originalSite": "github.com",
+  "context": "KV cache quantization is a technique used to compress the key-value cache in transformer-based LLMs, reducing memory footprint during inference to enable longer contexts and faster processing. llama.cpp is an open-source C/C++ library for efficient LLM inference across various hardware, widely used for running models locally. TurboQuant is an online quantization method introduced by Google Research, designed for extreme compression of KV caches and vector search with minimal preprocessing.",
+  "discussion": "The community shows active engagement with technical discussions, including performance metrics and porting efforts, such as the HIP/ROCm port for AMD hardware. Some comments express skepticism about AI-assisted contributions and compliance with standards, while others advocate for merging the TurboQuant support into the main codebase.",
+  "references": [
+    {
+      "title": "TurboQuant : Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "llama.cpp - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

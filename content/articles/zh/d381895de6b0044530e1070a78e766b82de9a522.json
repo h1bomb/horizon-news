@@ -1,0 +1,40 @@
+{
+  "id": "d381895de6b0044530e1070a78e766b82de9a522",
+  "canonicalId": "cd6161cb65b1a5704e53fba246d7ffa753620d77",
+  "slug": "sglang-v0510-发布带来多项-ai-推理性能优化",
+  "date": "2026-04-07",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.10 发布，带来多项 AI 推理性能优化",
+  "summary": "SGLang v0.5.10 版本发布，包含多项关键性能改进：默认启用分段 CUDA 图执行、集成 Elastic EP 以实现 MoE 部署中的部分故障容错、实现 GPU 暂存缓冲区以提高 RDMA 效率，以及添加 HiSparse 稀疏注意力支持。该版本还包括 SGLang-Diffusion 的更新，新增模型支持和性能增强、集成 FlashInfer MXFP8 内核，以及将 Transformers 库从 4.57.1 大幅升级至 5.3.0。 这些优化解决了实际 AI 推理部署中的关键挑战，特别是针对大语言模型和专家混合架构。在故障容错、内存效率和计算性能方面的改进，可以显著降低生产 AI 系统的运营成本，并提高处理高并发工作负载时的可靠性。 GPU 暂存缓冲区优化使 GQA 模型的 RDMA 请求数量减少约 1000 倍，而 Elastic EP 允许 DeepSeek MoE 部署在 GPU 故障时通过重新分配专家权重继续提供服务。分段 CUDA 图执行降低了具有复杂控制流模式的模型的内存开销，并提高了吞吐量。",
+  "score": 7,
+  "tags": [
+    "AI Inference",
+    "GPU Optimization",
+    "Distributed Systems",
+    "LLM Serving",
+    "CUDA"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Apr 6, 04:42"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10",
+  "originalSite": "github.com",
+  "context": "SGLang 是一个专门为高效服务大语言模型而设计的 AI 推理系统。CUDA 图通过捕获和重用计算图来优化 GPU 执行，分段捕获在注意力层分割图以处理动态操作。专家混合架构使用多个专门的子网络来提升模型容量，同时保持计算效率。RDMA 允许服务器之间无需 CPU 参与的直接内存访问，这对于分布式推理系统至关重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Questions on piecewise torch compile design - torch.compile",
+      "url": "https://discuss.vllm.ai/t/questions-on-piecewise-torch-compile-design/589"
+    },
+    {
+      "title": "Role-Based Fault Tolerance System for LLM RL Post-Training",
+      "url": "https://arxiv.org/html/2512.22492v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

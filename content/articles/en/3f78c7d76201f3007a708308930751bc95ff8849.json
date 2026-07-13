@@ -1,0 +1,44 @@
+{
+  "id": "3f78c7d76201f3007a708308930751bc95ff8849",
+  "canonicalId": "2b55f4b70065a3c2e3074ee25a1f87ccdc58c8d6",
+  "slug": "critical-vulnerabilities-found-in-kernel-drivers-of-major-chinese-antivirus-software",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-13T13:56:00Z",
+  "lang": "en",
+  "title": "Critical vulnerabilities found in kernel drivers of major Chinese antivirus software",
+  "summary": "Security researcher Patrick Saif disclosed critical vulnerabilities in kernel drivers of Kingsoft Antivirus and 360 Security Guard, allowing unauthenticated attackers to execute arbitrary code and escalate privileges via BYOVD attacks. The vulnerabilities involve an IOCTL size calculation error in Kingsoft's firewall driver causing kernel heap overflow, and a signature verification bypass with hardcoded AES key in 360's anti-rootkit driver. These vulnerabilities affect widely used antivirus software in China, potentially exposing millions of users to kernel-level attacks that can bypass security protections. The legitimate digital signatures on these drivers make them particularly dangerous as they can be easily weaponized in BYOVD attacks without requiring software installation on target systems. Both vulnerabilities have been submitted to the LOLDrivers database but lack CVE identifiers and are not blocked by HVCI. Attackers can exploit these to escalate from regular user to SYSTEM privileges, bypass KASLR, steal kernel credentials, and modify kernel callback tables to hide malicious activities. The drivers hold EV or WHQL signatures, enabling attackers to load malicious payloads without installing the software.",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "vulnerability",
+    "kernel-drivers",
+    "antivirus",
+    "privilege-escalation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/weezerOSINT/status/2043539810833568202?s=20",
+  "originalSite": "x.com",
+  "context": "Kernel drivers are software components that run at the highest privilege level in Windows, allowing direct access to system resources. BYOVD (Bring Your Own Vulnerable Driver) attacks exploit vulnerabilities in legitimate, digitally signed drivers to execute malicious code with kernel privileges, bypassing security software. IOCTL (Input/Output Control) is a mechanism for user-space applications to communicate with kernel drivers, and improper validation of IOCTL requests is a common source of driver vulnerabilities. HVCI (Hypervisor-Protected Code Integrity) is a Windows security feature that uses hardware virtualization to prevent unauthorized code from running in the kernel.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What are BYOVD Attacks ? - Cymulate",
+      "url": "https://cymulate.com/blog/defending-against-bring-your-own-vulnerable-driver-byovd-attacks/"
+    },
+    {
+      "title": "Multiple third-party kernel drivers for Windows vulnerable to improper...",
+      "url": "https://jvn.jp/en/ta/JVNTA90371415/"
+    },
+    {
+      "title": "Enable memory integrity | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

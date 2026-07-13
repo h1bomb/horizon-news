@@ -1,0 +1,40 @@
+{
+  "id": "d6bcd47733ef84e2f12b1cffbd6925d8017ad373",
+  "canonicalId": "ca6672e5b959273f3f9168ce5dd4cb5d3c9be6d7",
+  "slug": "barygraph-turns-relationships-into-embeddable-documents",
+  "date": "2026-07-04",
+  "publishedAt": "2026-07-04T08:24:00Z",
+  "lang": "en",
+  "title": "BaryGraph Turns Relationships Into Embeddable Documents",
+  "summary": "A new knowledge graph system called BaryGraph treats every relationship as a first-class embedded document called a BaryEdge, rather than an edge between nodes. It also introduces recursive MetaBary triads to discover structural bridges between distant concepts. This approach addresses a key limitation of flat vector search, which treats relationships as mere proximity between points, missing cross-domain connections. By embedding relationships themselves, BaryGraph can surface analogies and bridges that standard RAG systems cannot detect. The system uses nomic-embed-text for embeddings, runs on MongoDB Community with mongot, and processes the entire English Wiktionary (6.6M documents) locally. It is available as an open-source project with a live MCP server for probing.",
+  "score": 8,
+  "tags": [
+    "knowledge graph",
+    "embedding",
+    "RAG",
+    "semantic search",
+    "representation learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/adseipsum"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/",
+  "originalSite": "reddit.com",
+  "context": "Knowledge graphs represent entities as nodes and relationships as edges, but traditional vector search only compares entity embeddings, ignoring relational structure. Retrieval-Augmented Generation (RAG) systems often rely on flat similarity search, which cannot capture indirect connections. BaryGraph embeds relationships as separate documents to encode relational semantics directly.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Knowledge Graph là gì ? | Công ty thiết kế website Cánh Cam",
+      "url": "https://www.canhcam.vn/knowledge-graph-la-gi"
+    },
+    {
+      "title": "nomic-ai/ nomic - embed - text -v1.5 · Hugging Face",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

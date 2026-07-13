@@ -1,0 +1,39 @@
+{
+  "id": "a04ec71d3aa583eaa5af61488fb3eeeadb18dbba",
+  "canonicalId": "41d2b641a8e93448171eedec4b78867c5c6997bd",
+  "slug": "lsfmmbpf-峰会讨论基于-llm-的内核补丁审查",
+  "date": "2026-05-26",
+  "publishedAt": "2026-05-25T21:27:00Z",
+  "lang": "zh",
+  "title": "LSFMM+BPF 峰会讨论基于 LLM 的内核补丁审查",
+  "summary": "在 2026 年 Linux 存储、文件系统、内存管理和 BPF 峰会上，由 Roman Gushchin 等人主持的全体会议讨论了使用大型语言模型（LLM）进行 Linux 内核补丁审查，重点关注 Sashiko 工具。 此次讨论表明 AI 辅助代码审查在 Linux 内核中日益受到关注，有望减轻人类维护者的工作负担并提高补丁质量，尤其对于首次贡献者。 Sashiko 在分析的 1500 个邮件线程中达到 10% 的误报率和 85% 的真阳性率，关键和高严重性问题的准确率接近 97%。自 3 月中旬推出以来，该工具已被提及在 140 条内核提交信息中。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Linux kernel",
+    "patch review",
+    "AI-assisted development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073583/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核开发过程严重依赖人工审查者来评估补丁。大型语言模型是一种概率性 AI 系统，可以分析代码并提供审查意见。Sashiko 是一个自动审查内核补丁的工具，介于静态分析和人工审查之间。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linux Storage, Filesystem, MM & BPF Summit | LF Events",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/"
+    },
+    {
+      "title": "Linux Storage, Filesystem, Memory Management & BPF Summit",
+      "url": "https://ebpf.foundation/event/linux-storage-filesystem-memory-management-bpf-summit/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

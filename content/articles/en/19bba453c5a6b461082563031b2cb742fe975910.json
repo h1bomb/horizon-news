@@ -1,0 +1,44 @@
+{
+  "id": "19bba453c5a6b461082563031b2cb742fe975910",
+  "canonicalId": "51bd45ac553bd0104a56646b8702443b209bc429",
+  "slug": "scaling-transparent-huge-pages-to-1gb",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T13:24:00Z",
+  "lang": "en",
+  "title": "Scaling transparent huge pages to 1GB",
+  "summary": "Usama Arif proposed extending transparent huge pages (THP) to support 1GB pages at the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit. This could significantly improve performance and scalability for large-memory systems with terabytes of RAM, reducing management overhead. It makes 1GB pages available transparently without manual hugetlbfs configuration. The RFC patch set was surprisingly small and less invasive than expected. Key discussion points included whether to preallocate page-table pages for splitting (deposit) – currently 2MB per 1GB THP – or to avoid it entirely.",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "Kernel",
+    "Memory Management",
+    "Huge Pages",
+    "THP"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1071716/",
+  "originalSite": "lwn.net",
+  "context": "Transparent Huge Pages (THP) is a Linux kernel feature that automatically uses 2MB (PMD-level) pages to reduce TLB misses. Currently, 1GB (PUD-level) huge pages are only available via hugetlbfs, which requires static pre-allocation at boot time. The proposal aims to make 1GB pages transparently available to applications, providing dynamic fallback when huge page allocation fails.",
+  "discussion": "David Hildenbrand argued that splitting 1GB THPs indicates something wrong and questioned the need for preallocating page-table pages. Kiryl Shutsemau suggested that processes could request 1GB THPs via the madvise system call.",
+  "references": [
+    {
+      "title": "How to Configure Transparent Huge Pages on Ubuntu",
+      "url": "https://oneuptime.com/blog/post/2026-03-02-how-to-configure-transparent-huge-pages-on-ubuntu/view"
+    },
+    {
+      "title": "memory - Why Linux has 4 layers of \"page tables\" and how it ...",
+      "url": "https://stackoverflow.com/questions/59123308/why-linux-has-4-layers-of-page-tables-and-how-it-works-exactly"
+    },
+    {
+      "title": "Huge Pages on Linux",
+      "url": "https://joelsiks.com/posts/linux-huge-pages/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

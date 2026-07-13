@@ -1,0 +1,44 @@
+{
+  "id": "bceaa32827d18b082b80ebef17f24e0e5b2971d2",
+  "canonicalId": "a50c4c116c0bf7a363783da7f99fbfa208f83c0a",
+  "slug": "qwen-moe-模型在-4x-rtx-3090-上的多智能体测试中难以遵循严格规则",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-21T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen MoE 模型在 4x RTX 3090 上的多智能体测试中难以遵循严格规则",
+  "summary": "一位用户在 4x RTX 3090 GPU 上进行了真实世界的多智能体测试，比较了 Qwen3.5-27B 密集模型、Qwen3.5-122B-A10B MoE 模型和 Qwen3.6-35B-A3B MoE 模型在严格的 bash 允许列表约束下的表现，发现两种 MoE 模型在规则遵循方面均系统性地差于密集模型。测试涉及每个模型 20 多个会话，使用 30-60k 令牌的提示，在 OpenCode 框架中运行，并通过 vLLM 日志进行分析。 这一发现揭示了混合专家架构在受限环境中的潜在局限性，可能影响其在需要严格合规的生产系统（如自动化代码执行或安全敏感应用）中的部署。它为开发者在优化 GPU 设置和选择本地大语言模型推理模型时提供了实用见解，特别是在 RTX 3090 等消费级硬件上。 MoE 模型被量化以适应内存限制（例如，Qwen3.5-122B 使用 AWQ-INT4，Qwen3.6-35B 使用 FP8 权重），且规则遵循差距不受模型大小、活跃参数数量或微调目标的影响。测试框架强制执行精确的命令模式并禁止 shell 装饰器，使得规则遵循比在更宽松的设置中更具挑战性。",
+  "score": 8,
+  "tags": [
+    "Mixture-of-Experts",
+    "Model Evaluation",
+    "GPU Optimization",
+    "Local LLM",
+    "Rule-Following"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 20, 15:31"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sqspgy/qwen3527b_qwen35122b_and_qwen3635b_on_4x_rtx_3090/",
+  "originalSite": "reddit.com",
+  "context": "混合专家模型是一种机器学习架构，将大型模型划分为称为专家的小型专用子网络，通过为每个输入仅激活相关专家来实现高效扩展。vLLM 是一个用于大语言模型的高吞吐量推理引擎，优化内存管理和执行速度。OpenCode 是一个用于并行任务执行的多智能体框架，在此用于模拟具有并发会话的真实世界工作负载。",
+  "discussion": "社区评论验证了这些发现，用户报告了在其他硬件设置上的类似结果，并指出量化通过模糊专家门控对 MoE 模型产生负面影响。讨论还包括关于 GPU 分割和性能优化的技术问题，突显了大家对实际部署挑战的共同兴趣。",
+  "references": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "vLLM",
+      "url": "https://vllm.ai/"
+    },
+    {
+      "title": "GitHub - rretsiem/ opencode -hive: Multi - agent architecture for...",
+      "url": "https://github.com/rretsiem/opencode-hive"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

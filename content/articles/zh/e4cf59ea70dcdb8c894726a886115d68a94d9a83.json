@@ -1,0 +1,44 @@
+{
+  "id": "e4cf59ea70dcdb8c894726a886115d68a94d9a83",
+  "canonicalId": "a8e62895db76d29e76027b7168565473ef8ccc7c",
+  "slug": "新加坡国立大学推出-dmax为扩散语言模型实现激进并行解码",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-11T00:00:00Z",
+  "lang": "zh",
+  "title": "新加坡国立大学推出 DMax，为扩散语言模型实现激进并行解码",
+  "summary": "新加坡国立大学的研究人员提出了 DMax，这是一种扩散语言模型（dLLM）的新范式，通过渐进式自我精炼和策略内均匀训练来减轻错误累积，从而实现激进的并行解码。该方法将解码重新定义为从掩码嵌入到标记嵌入的渐进过渡过程，使模型能够在生成过程中纠正自身的错误预测。 这一进展具有重要意义，因为它通过实现更快、并行的解码同时保持生成质量，解决了语言模型效率的关键瓶颈，可能加速代码生成和推理任务等应用。它代表了扩散模型处理文本生成方式的转变，超越了顺序或基于二进制掩码的方法，以提高人工智能系统的可扩展性和性能。 DMax 显著提高了每次前向传播的吞吐量（TPF），在 GSM8K 上从 2.04 提升至 5.47，在 MBPP 上从 2.71 提升至 5.86，同时保持准确性，并在两个 H200 GPU 上以批次大小 1 实现了平均每秒 1,338 个标记。该方法依赖于软并行解码，将中间状态表示为预测标记嵌入和掩码嵌入之间的插值，以实现迭代式自我修正。",
+  "score": 8,
+  "tags": [
+    "diffusion-models",
+    "language-models",
+    "parallel-decoding",
+    "AI-research",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 10, 17:23"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/buzbtk1hdeug1",
+  "originalSite": "v.redd.it",
+  "context": "扩散语言模型（dLLM）是一类通过噪声到文本的转换过程生成文本的人工智能模型，类似于 DALL-E 等图像扩散模型，为顺序预测标记的自回归模型提供了替代方案。并行解码旨在通过同时处理多个标记来加速文本生成，但在扩散模型中常面临错误累积等挑战，错误可能传播并降低输出质量。DMax 方法基于这些概念，引入了渐进式自我精炼来减轻此类错误，如扩散语言模型的相关调查和资源所述。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2508.10875] A Survey on Diffusion Language Models - arXiv.org",
+      "url": "https://arxiv.org/abs/2508.10875"
+    },
+    {
+      "title": "Diffusion Language Models: The New Paradigm - Hugging Face",
+      "url": "https://huggingface.co/blog/ProCreations/diffusion-language-model"
+    },
+    {
+      "title": "Learning to Parallel: Accelerating Diffusion Large Language",
+      "url": "https://arxiv.org/html/2509.25188v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

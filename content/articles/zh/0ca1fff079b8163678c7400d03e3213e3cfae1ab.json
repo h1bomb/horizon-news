@@ -1,0 +1,44 @@
+{
+  "id": "0ca1fff079b8163678c7400d03e3213e3cfae1ab",
+  "canonicalId": "32df302109dfd1760ca14e41d1bb4caf85be04fb",
+  "slug": "qwen35-35b-a3b-模型的全面-q4-量化方法对比",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-27T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-35B-A3B 模型的全面 Q4 量化方法对比",
+  "summary": "针对 Qwen3.5-35B-A3B 模型的所有主流社区量化方法进行了一次详细对比，使用 KL 散度（KLD）和困惑度（PPL）指标来衡量它们相对于原始 BF16 基准模型的保真度。分析结果显示，AesSedai 的 Q4_K_M 实现了最低的 KLD（0.0102），并指出 Ubergarm 的 Q4_0 版本显著优于其他 Q4_0 变体。 这很重要，因为量化对于在消费级硬件上本地运行大语言模型至关重要，但不同创建者提供的量化'方案'（如 Q4_K_M）的质量和含义可能差异很大。这种数据驱动的对比为用户选择保真度最高的量化版本提供了客观依据，解决了本地 LLM 社区中长期存在的量化器不一致这一主要痛点。 该分析将 KL 散度（KLD）而非困惑度（PPL）作为衡量保真度的主要指标，因为 KLD 直接衡量与基准模型概率分布的偏差，且不易受数据集噪声影响。一个关键的技术见解是，表现最佳的量化方法（如 AesSedai 的）通过策略性地使用更高精度（Q8_0）保护关键张量（如注意力层、共享专家），并对前馈网络的不同组件进行差异化处理，从而实现了较低的 KLD。",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "model-evaluation",
+    "qwen",
+    "llama.cpp",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Feb 26, 15:52"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rfds1h/qwen3535ba3b_q4_quantization_comparison/",
+  "originalSite": "reddit.com",
+  "context": "量化是一种通过使用更少的比特（例如，4 比特而非 16 比特）来表示大语言模型（LLM）的权重，从而降低其内存和计算成本的技术。这使得像拥有 350 亿参数的 Qwen3.5 这样的模型能够在本地机器上运行。GGUF 是与 llama.cpp 等工具配合使用的量化模型的通用文件格式。在该格式中，像 Q4_K_M 这样的后缀表示特定的'方案'，这些方案为不同层混合使用不同的量化类型，以平衡模型大小和质量。KL 散度（KLD）是一种衡量一个概率分布与另一个概率分布差异的统计指标；在此背景下，较低的 KLD 意味着量化模型的输出分布更接近原始模型。",
+  "discussion": "社区高度赞扬了这项分析，认为这是为量化生态系统带来透明度所必需的工作。一个反复出现的主题是呼吁标准化，用户敦促量化创建者在其 README 文件中包含 KLD 分数。社区对潜在的数据集污染（例如，将 WikiText 同时用于量化和评估）表示担忧，这可能扭曲结果。此外，还讨论了具体的技术问题，例如对 MXFP4 导致某些量化变体困惑度异常升高的调查。",
+  "references": [
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0, and Q6_K ...",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "Difference in different quantization methods - GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/2094"
+    },
+    {
+      "title": "Overview of GGUF quantization methods : r/LocalLLaMA - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ba55rj/overview_of_gguf_quantization_methods/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

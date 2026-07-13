@@ -1,0 +1,45 @@
+{
+  "id": "2e9f1e51916bc8c5e2bcc26448a5687d3ad386cf",
+  "canonicalId": "b7679cca5112fdbd2a1371208a3eaaf7f3c57d0c",
+  "slug": "dirtyfrag通用-linux-本地提权漏洞公开",
+  "date": "2026-05-08",
+  "publishedAt": "2026-05-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Dirtyfrag：通用 Linux 本地提权漏洞公开",
+  "summary": "名为 Dirtyfrag 的通用 Linux 本地提权漏洞已通过公开 GitHub 仓库披露，影响所有主流发行版。该漏洞在根因上与之前的 Copy Fail 类似，利用 net/xfrm 和 RxRPC 子系统，目前尚无补丁或 CVE 编号。 该漏洞对 Linux 系统安全构成严重威胁，允许非特权用户在任意主流发行版上获得 root 权限。由于在无补丁的情况下公开，管理员必须紧急缓解风险，例如禁用受影响的内核模块或应用临时措施。 Dirtyfrag 包含两个相关子问题：一个在 xfrm-ESP 页缓存写入（与 Copy Fail 相同的数据出口），另一个在 RxRPC 协议中。研究员 Hyunwoo Kim 指出，虽然 Copy Fail 是研究动机，但 RxRPC 问题与之无关。",
+  "score": 9,
+  "tags": [
+    "linux",
+    "kernel",
+    "security",
+    "vulnerability",
+    "lpe"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 7, 19:21",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48053623"
+    }
+  ],
+  "originalUrl": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+  "originalSite": "openwall.com",
+  "context": "Linux 本地提权（LPE）漏洞允许具有有限权限的本地用户获得 root 访问权限。Copy Fail（CVE-2026-31431）是近期一个高严重性的 Linux 内核漏洞，位于加密子系统的 algif_aead 模块中。Dirtyfrag 针对 net/xfrm（IPsec）和 RxRPC（AFS 文件系统协议）子系统，两者均为可选功能，但常在发行版中默认启用。",
+  "discussion": "社区评论强调该漏洞与 Copy Fail 的相似性，并对内核维护者默认启用极少使用的功能表示不满。有评论者指出，Copy Fail 中 algif_aead 受到指责，但实际问题是 authencesn 模块，该模块至今未修复。",
+  "references": [
+    {
+      "title": "GitHub - V4bel/ dirtyfrag · GitHub",
+      "url": "https://github.com/V4bel/dirtyfrag"
+    },
+    {
+      "title": "dirtyfrag : Universal Linux LPE - V4bel \\ stacker news",
+      "url": "https://stacker.news/items/1486126"
+    },
+    {
+      "title": "Dirty Frag Linux Vulnerability Enables Root Access... | LavX News",
+      "url": "https://news.lavx.hu/article/dirty-frag-linux-vulnerability-enables-root-access-across-major-distributions-no-patches-available"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

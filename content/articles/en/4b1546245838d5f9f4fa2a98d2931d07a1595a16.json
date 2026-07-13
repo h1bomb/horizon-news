@@ -1,0 +1,44 @@
+{
+  "id": "4b1546245838d5f9f4fa2a98d2931d07a1595a16",
+  "canonicalId": "4988f50ffef2f21fb1c11e45e1014a4c31b61ac1",
+  "slug": "analysis-of-49mb-web-page-bloat-highlights-excessive-tracking-and-poor-optimization",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-15T19:25:00Z",
+  "lang": "en",
+  "title": "Analysis of 49MB web page bloat highlights excessive tracking and poor optimization",
+  "summary": "A blog post analyzed excessive web page sizes, highlighting a specific 49MB page as an example of web bloat, with community comments discussing real-world cases like NYTimes.com where Firefox measured 44.47MB transferred with 36.30MB being mp4 videos. The analysis examines how developer practices, tracking scripts, and media loading contribute to page size inflation. This matters because web page bloat directly impacts user experience through slower load times, increased data usage, and reduced accessibility, particularly for users with limited bandwidth or unreliable connections. Excessive tracking scripts and poorly optimized media also raise privacy concerns and can negatively affect search rankings and business metrics as users abandon slow-loading sites. The NYTimes.com example showed that 80% of the page's bandwidth was consumed by journalistic mp4 videos rather than ads, indicating that even legitimate content can contribute significantly to bloat. Community comments revealed extreme cases where developers created 750MB pages by pre-loading video content, highlighting how optimization failures can occur even with high-speed connections.",
+  "score": 7,
+  "tags": [
+    "web-performance",
+    "web-development",
+    "bloat",
+    "tracking",
+    "user-experience"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kermatt"
+    }
+  ],
+  "originalUrl": "https://thatshubham.com/blog/news-audit",
+  "originalSite": "thatshubham.com",
+  "context": "Web page bloat refers to excessive page size caused by large media files, numerous tracking scripts, unoptimized code, and other resources that slow down page loading. Page bloat negatively impacts Core Web Vitals metrics, search engine rankings, and user retention as slow-loading pages lead to higher bounce rates. Web performance optimization techniques include reducing HTTP requests, minimizing render-blocking resources, using CDNs, and regularly auditing third-party scripts to maintain fast load times.",
+  "discussion": "Community comments expressed frustration with excessive tracking and page bloat, with users noting that sites like NYTimes.com have become \"difficult\" due to megabytes of JavaScript and firewalls. Some commenters shared extreme examples of developer-created bloat, while others discussed the economic pressures driving advertising-heavy designs, though there was agreement that optimization failures harm user experience.",
+  "references": [
+    {
+      "title": "SpeedCurve | What is page bloat? And how is it hurting your",
+      "url": "https://www.speedcurve.com/blog/page-bloat-web-performance/"
+    },
+    {
+      "title": "Web performance | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Performance"
+    },
+    {
+      "title": "Make the Web Faster | Google for Developers",
+      "url": "https://developers.google.com/speed"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

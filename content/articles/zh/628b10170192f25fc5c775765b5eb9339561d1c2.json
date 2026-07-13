@@ -1,0 +1,44 @@
+{
+  "id": "628b10170192f25fc5c775765b5eb9339561d1c2",
+  "canonicalId": "a28c23d9a4338b1fcfb3fe6bb28ca87cc53ae161",
+  "slug": "rust-提出大小特征层次结构以解决系统编程边缘情况",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "Rust 提出大小特征层次结构以解决系统编程边缘情况",
+  "summary": "Rust 开发者 David Wood 和 Rémy Rakic 提出了 RFC 3729，该提案将在当前 Sized/Unsized 二分法之外引入大小特征的层次结构，添加两个新的自动实现特征 SizeOfVal 和 Pointee。该提案旨在更好地处理系统编程中的边缘情况，这些情况下类型大小在不同环境中的已知程度超出了当前二元分类的范围。 这很重要，因为它解决了 Rust 类型系统中当前阻碍某些系统编程用例的实际限制，特别是在使用 CO-RE 重定位的 BPF 程序、SIMD 向量扩展以及与不透明 C/C++类型集成方面。更细致的大小层次结构可以实现更好的编译器优化、更安全的外部函数接口，并扩大 Rust 在嵌入式系统、内核编程以及 WebAssembly/GPU 目标中的采用。 该提案引入了 SizeOfVal 特征，用于描述那些在运行时可以通过指针元数据确定大小的类型（如 BPF CO-RE 结构体），以及 Pointee 特征，用于描述那些完全未知大小的类型（如来自 C 库的外部类型）。这种层次结构将使 Rust 能够支持以前有问题的用例，同时保持类型安全，不过该功能仍处于实验阶段，并受到 Rust 语言团队内部命名和实现讨论的影响。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "Programming Languages",
+    "Systems Programming",
+    "Compiler Design",
+    "Type Systems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 22, 13:58"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1067220/",
+  "originalSite": "lwn.net",
+  "context": "在 Rust 中，类型被分类为“有大小”（在编译时已知恒定大小）或“无大小”（在运行时已知动态计算的大小）。这种二元分类适用于大多数情况，但在某些系统编程场景中会失效。BPF（伯克利包过滤器）程序使用 CO-RE（一次编译，到处运行）重定位，其中结构体大小在编译时未知，但在运行时实际上是静态的。类似地，SIMD 向量扩展和不透明的 C/C++类型也带来了挑战，这些挑战无法完全适应 Rust 当前的大小模型。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "sized_hierarchy - The Rust Unstable Book",
+      "url": "https://doc.rust-lang.org/beta/unstable-book/language-features/sized-hierarchy.html"
+    },
+    {
+      "title": "Tracking Issue for Sized Hierarchy · Issue #144404 · rust ...",
+      "url": "https://github.com/rust-lang/rust/issues/144404"
+    },
+    {
+      "title": "Linux Socket Filtering aka Berkeley Packet Filter (BPF)",
+      "url": "https://www.kernel.org/doc/html/latest/networking/filter.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

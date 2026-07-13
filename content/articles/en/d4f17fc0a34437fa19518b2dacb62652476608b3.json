@@ -1,0 +1,40 @@
+{
+  "id": "d4f17fc0a34437fa19518b2dacb62652476608b3",
+  "canonicalId": "a9e8d7adb33416bf4a50fa3c071f44c6c1f6edf9",
+  "slug": "icml-rejects-papers-from-reviewers-who-used-llms-despite-agreeing-not-to",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-18T12:03:00Z",
+  "lang": "en",
+  "title": "ICML rejects papers from reviewers who used LLMs despite agreeing not to",
+  "summary": "ICML has rejected all papers from reviewers who used large language models (LLMs) for their reviews, even though these reviewers had selected a review track that explicitly prohibited LLM use. This marks the first known instance of a major machine learning conference taking such harsh enforcement action against LLM-generated reviews. This action highlights growing concerns about academic integrity and the enforcement of AI policies in peer review, potentially setting a precedent for other conferences to follow. It raises questions about the fairness and accuracy of AI detection tools, which could impact reviewer trust and the overall quality of academic evaluations in the machine learning community. The enforcement occurred despite reviewers opting into a track that banned LLM use, suggesting ICML employed detection tools to identify violations, though the precision of such tools is debated. No specific numbers of rejected papers or details on the detection methods were provided in the content, leaving open questions about the process's transparency.",
+  "score": 8,
+  "tags": [
+    "AI Ethics",
+    "Peer Review",
+    "Machine Learning Conferences",
+    "LLM Policy",
+    "Academic Integrity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "S4M22"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/",
+  "originalSite": "reddit.com",
+  "context": "ICML (International Conference on Machine Learning) is a premier academic conference in machine learning, known for research in areas like statistical learning theory and reinforcement learning. Peer review at such conferences involves reviewers evaluating paper submissions to ensure quality and originality, with some tracks imposing specific rules, such as bans on LLM use, to maintain human oversight. LLM detection tools, like Binoculars, are developed to identify AI-generated text, but their accuracy can be limited, raising concerns about false positives in academic settings.",
+  "discussion": "The community discussion includes debates on whether the enforcement is too harsh given the limited precision of AI detection tools, with some expressing concerns about fairness and potential false positives. Others support the action as a necessary step to uphold academic integrity and deter misuse of LLMs in peer review.",
+  "references": [
+    {
+      "title": "International Conference on Machine Learning - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning"
+    },
+    {
+      "title": "Detecting LLM-Generated Text with Binoculars",
+      "url": "https://huggingface.co/blog/dmicz/binoculars-text-detection"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

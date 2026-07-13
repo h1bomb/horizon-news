@@ -1,0 +1,44 @@
+{
+  "id": "88fe443314b66b60dfa8a8077cd0163b09bd961e",
+  "canonicalId": "e4dbffcb027ff9ee09432acd1fbfed9cf569657c",
+  "slug": "sfc-analyzes-fcc-ban-on-non-us-made-routers-finds-no-impact-on-openwrt-user-firmware-updates",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T20:21:00Z",
+  "lang": "en",
+  "title": "SFC analyzes FCC ban on non-US-made routers, finds no impact on OpenWrt user firmware updates.",
+  "summary": "Denver Gingerich of the Software Freedom Conservancy published an article on April 2, 2026, analyzing the FCC's ban on the sale of all new home routers not made in the United States, concluding that it does not restrict users from installing OpenWrt or other custom firmware on already-purchased routers. The SFC has requested clarification from the FCC and notes that the OpenWrt One router, which is already FCC-approved, should remain available in the US. This analysis is significant because it clarifies that the FCC ban does not impede user rights to modify router firmware, which is crucial for open-source communities and consumer control over devices, allowing for extended security updates and hardware longevity. It highlights the intersection of regulatory policy and technology, affecting FOSS projects like OpenWrt and broader hardware freedom trends. The FCC ban applies only to new sales of routers not made in the US, and software updates to already-approved devices do not require new FCC approval, meaning user-installed firmware like OpenWrt is unaffected. However, the SFC is seeking clarification on potential manufacturer restrictions, and the OpenWrt One router, priced at $89 with Wi-Fi 6 and repairable design, is already FCC-approved and should not be impacted.",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "regulatory-policy",
+    "networking",
+    "hardware",
+    "FOSS"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066162/",
+  "originalSite": "lwn.net",
+  "context": "The Federal Communications Commission regulates radio frequency devices in the US, requiring equipment authorization to ensure compliance with technical standards, which can involve testing and certification processes. OpenWrt is an open-source Linux-based firmware for routers, enabling customization and extended support, and the Software Freedom Conservancy is a non-profit that supports FOSS projects, including the OpenWrt One router launched in 2024. The FCC's authorization procedures allow for revocation in cases of misrepresentation, but user modifications are typically not restricted under existing rules.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A Primer on FCC Radio Frequency Device Equipment Authorization",
+      "url": "https://www.pillsburylaw.com/en/news-and-insights/a-primer-on-fcc-radio-frequency-device-equipment-authorization-rules.html"
+    },
+    {
+      "title": "Banana Pi OpenWrt One Router | BananaPi Docs Hardware Specifications | semmyenator/OpenWrt-One-Setup-Guide ... Open-source OpenWrt One router released at $89 — 'hacker ... [OpenWrt Wiki] Welcome to the OpenWrt Project OpenWrt One: A Repairable FOSS Wi-Fi 6 Router From Banana Pi OpenWrt One Router Hardware and Specifications - Go2Share OpenWrt One : A Repairable FOSS Wi-Fi 6 Router From Banana Pi Banana Pi OpenWrt One Router | BananaPi Docs Open-source OpenWrt One router released at $89 — 'hacker-friendly OpenWrt One : A Repairable FOSS Wi-Fi 6 Router From Banana Pi OpenWrt One_Datasheet-EN - asset.conrad.com",
+      "url": "https://docs.banana-pi.org/en/OpenWRT-One/BananaPi_OpenWRT-One"
+    },
+    {
+      "title": "Conservancy Blog - Software Freedom Conservancy",
+      "url": "https://sfconservancy.org/blog/?tag=selenium"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

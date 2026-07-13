@@ -1,0 +1,40 @@
+{
+  "id": "b31c902510a2bd81dc64ff9c5bc4b0971b87b371",
+  "canonicalId": "298923142828d40fd9f7fdbe92739f2a9bfc980c",
+  "slug": "stepfun-releases-step-37-flash-a-196b-moe-model",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T00:32:00Z",
+  "lang": "en",
+  "title": "StepFun Releases Step 3.7 Flash, a 196B MoE Model",
+  "summary": "StepFun has released Step 3.7 Flash, a multimodal Mixture-of-Experts model with 196B total parameters (11B active), capable of running locally on 128GB RAM and achieving strong benchmark results on coding and agentic tasks. This model provides a compelling local deployment option that rivals larger models on agentic and coding benchmarks, which is particularly relevant for the local LLM community and agent workflow development. The model includes a built-in 1.8B ViT for vision, and its benchmarks include SWE-Bench Pro 56.26% (beating DeepSeek V4 Flash and matching Gemini 3.5 Flash), DeepSearchQA F1 92.82%, and HLE with tools 47.2%. It is available on OpenRouter and NVIDIA NIM for those who prefer not to self-host.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "MoE",
+    "Local LLM",
+    "Multimodal",
+    "Model Release"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Everlier"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/",
+  "originalSite": "reddit.com",
+  "context": "MoE (Mixture of Experts) models activate only a subset of parameters per token, enabling large total capacity with lower computational cost. SWE-Bench Pro is a challenging benchmark for real-world software engineering tasks, and DeepSearchQA evaluates multi-step information-seeking ability. StepFun is a Chinese AI company focused on developing efficient large language models.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SWE-Bench Pro",
+      "url": "https://scaleapi.github.io/SWE-bench_Pro-os/"
+    },
+    {
+      "title": "google/ deepsearchqa · Datasets at Hugging Face",
+      "url": "https://huggingface.co/datasets/google/deepsearchqa"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

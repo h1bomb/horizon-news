@@ -1,0 +1,36 @@
+{
+  "id": "ffdf2f657d80c73707b2dabb6c64f0e0f9d5492e",
+  "canonicalId": "4c899d32b0b296992633ae6cad6939089289d30c",
+  "slug": "seeking-theory-for-probe-strength-in-transformer-circuits",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T20:29:00Z",
+  "lang": "en",
+  "title": "Seeking Theory for Probe Strength in Transformer Circuits",
+  "summary": "A Reddit user posted a detailed question seeking theoretical grounding for comparing the strength of probes in transformer circuits, specifically focusing on the trade-off between probe capacity and underlying network complexity. This question addresses a fundamental gap in mechanistic interpretability: how to rigorously evaluate what probes can reveal about model internals. Resolving it could lead to more reliable circuit analyses and better guarantees for model safety and factuality. The user cites an old study that trained a logistic regression probe to detect word positions and notes problems such as very small vocabulary sizes leading to unrepresentative performance. They also share a real failure case where Google Gemini incorrectly counted letters in 'Google', undermining the claim that models inherently learn token positions.",
+  "score": 8,
+  "tags": [
+    "mechanistic interpretability",
+    "probing",
+    "circuit analysis",
+    "transformer models",
+    "ML theory"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/RepresentativeBee600"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u8lo60/how_do_you_analyze_the_relative_strength_of/",
+  "originalSite": "reddit.com",
+  "context": "In mechanistic interpretability, probing involves training simple classifiers (probes) on model activations to test if certain features are encoded. However, the theoretical foundations for comparing probe strength are underdeveloped, with questions about overfitting and sample complexity remaining open. The Nyquist sampling theorem is mentioned as a potential analogy for determining if enough data has been seen to guarantee reliable detection of patterns.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2509.17665] Mechanistic Interpretability with SAEs: Probing",
+      "url": "https://arxiv.org/abs/2509.17665"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

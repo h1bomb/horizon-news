@@ -1,0 +1,43 @@
+{
+  "id": "46a7390ea0a6b9348ad766c60e1f4cae11e4437b",
+  "canonicalId": "ee4aeb74a63a782b907e0b3f9a485f3a66db3a14",
+  "slug": "ki-editor-a-code-editor-that-operates-directly-on-the-abstract-syntax-tree",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-07T10:29:00Z",
+  "lang": "en",
+  "title": "Ki Editor: A Code Editor That Operates Directly on the Abstract Syntax Tree",
+  "summary": "Ki Editor is a new code editor that operates directly on the Abstract Syntax Tree (AST) of a program rather than on plain text. This approach enables structured editing and inherently prevents the creation of syntactically invalid programs. This matters because it represents a fundamental shift from traditional text-based editing to a structure-aware model, which could significantly improve developer productivity and code quality by eliminating syntax errors and enabling more powerful, semantic-aware editing operations. It aligns with a long-standing vision in programming tools to move beyond plain text. The editor features 'first-class syntactic selection' for granular manipulation of code structures. A key challenge noted is discoverability—users need to know the name of the AST node they want to select, which can be non-intuitive compared to visually selecting text.",
+  "score": 7,
+  "tags": [
+    "programming-tools",
+    "ast",
+    "code-editors",
+    "structured-editing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ravenical"
+    }
+  ],
+  "originalUrl": "https://ki-editor.org/",
+  "originalSite": "ki-editor.org",
+  "context": "An Abstract Syntax Tree (AST) is a data structure that represents the syntactic structure of source code, used by compilers and tools for analysis and transformation. Structured editing, or projectional editing, is an approach where editors manipulate this underlying program structure directly, rather than manipulating text that must later be parsed. This concept has been explored for decades but has seen limited mainstream adoption in general-purpose code editors.",
+  "discussion": "The discussion highlights comparisons to existing IDE features like JetBrains' 'Expand/Shrink Selection' and acknowledges the historical context of AST editors. Key concerns center on practical usability, particularly the discoverability of AST node operations for users. Some commenters express feeling unfamiliar with direct AST manipulation, while others see potential in more intuitive visual cues for node selection.",
+  "references": [
+    {
+      "title": "Abstract syntax tree - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abstract_syntax_tree"
+    },
+    {
+      "title": "Structure editor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Structure_editor"
+    },
+    {
+      "title": "Laurence Tratt: Structured Editing and Incremental Parsing",
+      "url": "https://tratt.net/laurie/blog/2024/structured_editing_and_incremental_parsing.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

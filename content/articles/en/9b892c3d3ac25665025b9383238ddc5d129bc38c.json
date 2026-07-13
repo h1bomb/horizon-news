@@ -1,0 +1,44 @@
+{
+  "id": "9b892c3d3ac25665025b9383238ddc5d129bc38c",
+  "canonicalId": "6d2ff552af35359e4c14e2004a25199aad8ec3c4",
+  "slug": "us-department-of-war-designates-anthropic-as-a-supply-chain-risk",
+  "date": "2026-02-28",
+  "publishedAt": "2026-02-27T22:31:00Z",
+  "lang": "en",
+  "title": "US Department of War Designates Anthropic as a Supply-Chain Risk",
+  "summary": "The US Department of War (DoW) has designated the AI company Anthropic as a supply-chain risk, a label historically reserved for foreign adversaries and never before applied to an American company. This creates a contradictory situation where Anthropic is simultaneously labeled a security threat and considered essential enough to national security that the DoW reportedly threatened to invoke the Defense Production Act to force the removal of certain safeguards from its AI models. This unprecedented designation of a domestic AI leader as a supply-chain risk could severely restrict Anthropic's business, potentially barring it from major cloud platforms like AWS, Azure, and Google Cloud that hold government contracts, thereby threatening its enterprise revenue and survival. It represents a significant escalation in government intervention in AI development, highlighting the tension between national security imperatives, corporate autonomy, and ethical AI safeguards. The designation reportedly stems from Anthropic's refusal to remove contractual safeguards that prohibit the use of its AI for mass domestic surveillance and require a human-in-the-loop for lethal applications. If broadly enforced, the designation could prevent any US military contractor or partner from doing business with Anthropic, which community analysis suggests could be an existential threat to the company's commercial viability.",
+  "score": 9,
+  "tags": [
+    "AI Regulation",
+    "National Security",
+    "Government Policy",
+    "Anthropic",
+    "Supply Chain"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jacobedawson"
+    }
+  ],
+  "originalUrl": "https://twitter.com/secwar/status/2027507717469049070",
+  "originalSite": "twitter.com",
+  "context": "Anthropic is an American AI safety and research company known for developing the Claude family of large language models. The US Department of Defense (DoD) has established formal Supply Chain Risk Management (SCRM) processes to identify and mitigate risks in its acquisition programs, often using tools like the Supplier Performance Risk System (SPRS). A 'supply-chain risk' designation is a serious administrative action typically applied to foreign entities to restrict their access to defense-related contracts.",
+  "discussion": "The community discussion highlights deep concerns about contractual bad faith and existential threats to Anthropic. Commenters point out the contradiction in the DoW's position: labeling Anthropic a risk while also deeming its technology essential enough to compel its use. There is significant worry that enforcement could cut off Anthropic from major cloud platforms, crippling its enterprise business and potentially killing the company, as it cannot survive on individual user subscriptions alone.",
+  "references": [
+    {
+      "title": "DoD Supply Chain Risk Management Guidebook - DAU",
+      "url": "https://www.dau.edu/sites/default/files/2025-06/DoD+SCRM+Guidebook+FINAL+V1.0_06_24_2025.pdf"
+    },
+    {
+      "title": "DISA - Supplier Performance Risk System",
+      "url": "https://www.sprs.csd.disa.mil/"
+    },
+    {
+      "title": "Anthropic - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anthropic"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

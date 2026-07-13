@@ -1,0 +1,44 @@
+{
+  "id": "3f1ecd8147294f350aa22690aa9ba06ade2bcab3",
+  "canonicalId": "346f7a809680a0703e840a534b08c76119331370",
+  "slug": "华为公布三年昇腾-ai-芯片路线图950pr-将采用自研-hbm-技术",
+  "date": "2026-03-22",
+  "publishedAt": "2026-03-22T00:00:00Z",
+  "lang": "zh",
+  "title": "华为公布三年昇腾 AI 芯片路线图，950PR 将采用自研 HBM 技术",
+  "summary": "在 2025 年上海华为全连接大会上，华为轮值董事长徐直军首次公布了昇腾 AI 芯片的三年演进路线图，其中 950PR 预计于 2026 年第一季度推出，将采用华为自研的 HBM 技术。华为还宣布了搭载 8192 张卡的 Atlas 950 SuperPoD 将于今年第四季度上市，并规划了 950DT、昇腾 960 和 970 等后续型号。 这一路线图展现了华为在美国半导体限制背景下推进国产 AI 硬件能力的决心，有望减少对外国存储技术的依赖。该公告将华为定位为高性能 AI 计算市场的有力竞争者，通过大规模集群产品挑战英伟达等现有厂商。 950PR 芯片将采用华为自主研发的 HBM（高带宽内存）技术，这对于需要高内存带宽的 AI 工作负载至关重要。Atlas 950 SuperPoD 以其 8192 卡的配置成为目前公布的最大 AI 计算集群之一，专为数据中心部署设计。",
+  "score": 8,
+  "tags": [
+    "AI Hardware",
+    "Semiconductors",
+    "Huawei",
+    "High-Performance Computing",
+    "Technology Roadmap"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 21, 14:18"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40431",
+  "originalSite": "t.me",
+  "context": "华为的昇腾 AI 芯片是专为人工智能工作负载设计的神经处理单元（NPU），与英伟达等公司的产品竞争。HBM（高带宽内存）是一种先进的内存技术，通过垂直堆叠 DRAM 芯片提供比传统内存高得多的带宽，对 AI 和高性能计算应用至关重要。Atlas SuperPoD 系统是华为的高性能计算基础设施产品，将多个昇腾芯片集成到大规模集群中，用于 AI 训练和推理任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Huawei outlines roadmap for Ascend AI chips",
+      "url": "https://www.rcrwireless.com/20250922/ai-infrastructure/huawei-ai-chips"
+    },
+    {
+      "title": "Become a Semiconductor Expert with SK hynix – HBM",
+      "url": "https://news.skhynix.com/become-a-semiconductor-expert-with-sk-hynix-hbm/"
+    },
+    {
+      "title": "How Powerful are Huawei’s New SuperPoDs and SuperClusters? | Data Centre Magazine",
+      "url": "https://datacentremagazine.com/news/how-powerful-are-huaweis-new-superpods-and-superclusters"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

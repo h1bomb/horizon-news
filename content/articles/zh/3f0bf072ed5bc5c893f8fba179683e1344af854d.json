@@ -1,0 +1,41 @@
+{
+  "id": "3f0bf072ed5bc5c893f8fba179683e1344af854d",
+  "canonicalId": "7f625f66633806e06a2fdd63667d912b6933e6a6",
+  "slug": "openai-模型推翻-erdős-长期猜想",
+  "date": "2026-05-21",
+  "publishedAt": "2026-05-21T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 模型推翻 Erdős 长期猜想",
+  "summary": "OpenAI 内部模型构建了一族无限的反例，推翻了离散几何中的一个核心猜想——Erdős 单位距离问题，该问题自 1946 年以来悬而未决。该证明已通过形式化验证，并得到外部数学家小组的认可。 这标志着 AI 模型首次推翻了一个长期悬而未决的重大猜想，展示了超越模式匹配的真正科学发现能力。它可能通过提供人类可能忽略的新颖见解和构造来加速数学研究。 该猜想由 Paul Erdős 于 1946 年提出，涉及平面中 n 个点之间同一距离出现次数的最大值。模型生成的反例将此前已知的下界做了多项式改进，证明中运用了代数数论的思想。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "mathematics",
+    "discrete geometry",
+    "LLMs",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 20, 19:05",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48212493"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+  "originalSite": "openai.com",
+  "context": "离散几何研究点、线、圆等离散对象的组合性质。Erdős 单位距离问题问：给定平面中的 n 个点，相距恰好一个单位的点对最多有多少？几十年来，已知的上界和下界之间差距很大。OpenAI 模型搜索使单位距离最大化的构造方式，最终找到一族新的无限构造，推翻了 Erdős 的原始猜想。",
+  "discussion": "评论中既有兴奋也有哲学辩论：一些人认为这是 LLM 能发现真正新数学的证据，而另一些人指出通过反例证伪在理论深度上不如证明定理。几位评论者将其与象棋中专用 AI（如 Stockfish）相类比，预测未来 AI 数学家将变得常见。",
+  "references": [
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry | OpenAI",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+    },
+    {
+      "title": "Discrete geometry",
+      "url": "https://en.wikipedia.org/wiki/Discrete_geometry"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

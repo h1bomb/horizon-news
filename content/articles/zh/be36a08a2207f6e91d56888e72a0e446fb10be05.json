@@ -1,0 +1,40 @@
+{
+  "id": "be36a08a2207f6e91d56888e72a0e446fb10be05",
+  "canonicalId": "62f0c4f861db718819cab4c4f265fdea32df5b38",
+  "slug": "qwen-最小模型在多代演进中展现出显著的性能提升",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-04T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 最小模型在多代演进中展现出显著的性能提升。",
+  "summary": "Qwen 模型家族，特别是其最小变体（例如 0.8B、4B），从 Qwen 2.5 到 Qwen 3，再到 Qwen 3.5，展现了显著的性能提升。这些改进在其效率和消费级硬件本地部署能力方面尤为突出。 这种快速演进使得强大的 AI 助手能够在资源受限的设备上实现本地、私密使用，从而普及了先进语言模型的访问。这也标志着小型模型领域的激烈竞争，正在不断突破有限参数下的能力边界。 据报道，一个量化后的 4B Qwen 模型的性能已超越两年前的 9B 老模型，在使用 llama.cpp 等工具时，能以 128k 上下文窗口实现每秒 60 token 的速度。然而，一些用户指出，Qwen 3.5 模型在某些任务中可能表现出冗长和事实不准确（幻觉）的问题。",
+  "score": 8,
+  "tags": [
+    "language-models",
+    "model-evolution",
+    "local-deployment",
+    "quantization",
+    "small-models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 3, 02:26"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1rjd4pv",
+  "originalSite": "reddit.com",
+  "context": "Qwen 是阿里巴巴开发的一系列大语言模型。其最新版本 Qwen3 包含了稠密（Dense）和混合专家（Mixture-of-Expert, MoE）两种架构，参数规模从 0.6B 到 235B 不等。模型量化是一种降低模型权重精度（例如从 32 位降至 4 位）的技术，能显著减少其内存占用和计算需求，这对于在标准消费级 GPU 或 CPU 上进行本地部署至关重要。",
+  "discussion": "社区对快速进展表示兴奋，用户们赞扬了小型量化模型对于本地使用的实用性，以及在普通硬件上实现高速性能的“奇迹”。然而，也有人对 Qwen 3.5 输出中的事实性幻觉表示担忧，并批评其与早期版本相比有不必要的冗长倾向。",
+  "references": [
+    {
+      "title": "Qwen3 Technical Report - arXiv.org",
+      "url": "https://arxiv.org/pdf/2505.09388"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

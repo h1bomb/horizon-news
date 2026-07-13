@@ -1,0 +1,44 @@
+{
+  "id": "1e72c881cac1650369868e1d9f0c62ffcd937bd9",
+  "canonicalId": "9d225a40300f2573be9f890dc3c9f0bde9ee3103",
+  "slug": "mozilla-宣布努力使-webassembly-成为具有直接-dom-访问和改进工具链的一流-web-语言",
+  "date": "2026-03-12",
+  "publishedAt": "2026-03-12T00:00:00Z",
+  "lang": "zh",
+  "title": "Mozilla 宣布努力使 WebAssembly 成为具有直接 DOM 访问和改进工具链的一流 Web 语言。",
+  "summary": "Mozilla 宣布了新的努力，旨在将 WebAssembly 提升为 Web 上的一流语言，重点是启用直接 DOM 访问和改进开发工具链。该计划旨在减少当前与 WebAssembly 开发相关的复杂性和性能开销。 这一发展意义重大，因为它可以极大地简化 WebAssembly 开发，使其对开发人员更易用，并实现无需当前 JavaScript 粘合代码的高性能 Web 应用程序。这标志着 WebAssembly 朝着实现其作为 JavaScript 多功能、高性能替代品潜力的重要一步。 该公告特别提到直接 DOM 访问是一个关键目标，这将允许 WebAssembly 模块无需中间 JavaScript 调用即可操作网页元素。然而，实施将取决于浏览器供应商是否认为这些功能能提供实际的性能或代码大小改进。",
+  "score": 8,
+  "tags": [
+    "WebAssembly",
+    "Web Development",
+    "Browser Technology",
+    "Performance",
+    "Programming Languages"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 11, 04:44"
+    }
+  ],
+  "originalUrl": "https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/",
+  "originalSite": "hacks.mozilla.org",
+  "context": "WebAssembly (WASM) 是一种二进制指令格式，设计为编程语言的可移植编译目标，可在 Web 上实现高性能应用程序。目前，WebAssembly 模块无法直接访问文档对象模型 (DOM) —— Web 文档的编程接口——必须通过 JavaScript 进行通信，这带来了复杂性和性能开销。Web 上的“一流语言”概念指的是具有原生支持、全面工具链，并且可以作为主要开发语言而不仅仅是编译目标的语言。",
+  "discussion": "社区评论反映了带有历史背景和实际关切的复杂情绪。一位用户感叹，如果接口类型工作没有转移重点，DOM 访问本可以在几年前实现，而另一位用户描述了“WASM 悬崖”——陡峭的学习曲线和工具链复杂性阻碍了采用。其他评论分享了学习现代 WebAssembly 的资源，并建议除了改进 DOM 访问之外，还有机会重新思考 Web API。",
+  "references": [
+    {
+      "title": "When Is WebAssembly Going to Get DOM Support?",
+      "url": "https://cacm.acm.org/practice/when-is-webassembly-going-to-get-dom-support/"
+    },
+    {
+      "title": "How can I access and manipulate the DOM in WebAssembly?",
+      "url": "https://stackoverflow.com/questions/59708546/how-can-i-access-and-manipulate-the-dom-in-webassembly"
+    },
+    {
+      "title": "Tooling support - WebAssembly",
+      "url": "https://webassembly.org/docs/tooling/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "5f0e9b108f09fbae0adb2fafaa69ab620acdadf8",
+  "canonicalId": "712c2d0badb5ab06df58054c01f916667b032744",
+  "slug": "欧盟委员会数据在-aws-账户遭黑客攻击中被盗数百-gb-数据泄露",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-29T00:00:00Z",
+  "lang": "zh",
+  "title": "欧盟委员会数据在 AWS 账户遭黑客攻击中被盗，数百 GB 数据泄露",
+  "summary": "欧盟委员会确认其云基础设施遭网络攻击，黑客从其 Amazon Web Services (AWS) 账户中窃取了数百 GB 数据，包括多个数据库，据 Bleeping Computer 报道。攻击已被控制，内部系统未受影响，调查仍在进行中。 这一事件突显了云基础设施安全中的重大漏洞，可能影响数据隐私和对政府数字服务的信任，并强调了关键机构所用云环境中需要强健的安全实践。 被盗数据包括多个数据库，黑客提供了访问截图，但泄露数据的具体类型尚未明确。攻击针对承载 Europa.eu 平台网站内容的云环境，但内部系统未被入侵。",
+  "score": 7,
+  "tags": [
+    "cybersecurity",
+    "AWS",
+    "data-breach",
+    "cloud-infrastructure",
+    "European-Commission"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 28, 01:16"
+    }
+  ],
+  "originalUrl": "http://europa.eu/",
+  "originalSite": "europa.eu",
+  "context": "AWS (Amazon Web Services) 是一个广泛使用的云计算平台，为包括欧盟委员会等政府机构在内的组织提供基础设施和服务。云基础设施攻击，如账户入侵，涉及黑客未经授权访问云账户以窃取数据或中断服务，通常利用弱凭证或配置错误。欧盟委员会使用云服务托管如 Europa.eu 等平台，该平台是欧盟信息和服务的核心数字枢纽。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AWS Foundational Security Best Practices standard in Security ...",
+      "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html"
+    },
+    {
+      "title": "Dissecting Cloud Attacks and Attack Vectors: Types + Mitigation",
+      "url": "https://www.wiz.io/academy/cloud-security/cloud-attacks-and-attack-vectors"
+    },
+    {
+      "title": "european - union . europa . eu",
+      "url": "https://european-union.europa.eu/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

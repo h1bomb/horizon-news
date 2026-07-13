@@ -1,0 +1,44 @@
+{
+  "id": "9de25c8d6a8112dabfa96e1ebcf110745959b9d2",
+  "canonicalId": "1b880cd4403de75f1bdad271caeed00ed8090931",
+  "slug": "cbp-uses-real-time-bidding-data-to-track-peoples-movements-without-consent",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-03T16:35:00Z",
+  "lang": "en",
+  "title": "CBP Uses Real-Time Bidding Data to Track People's Movements Without Consent",
+  "summary": "A 404 Media investigation reveals that U.S. Customs and Border Protection (CBP) has been acquiring and using location data harvested from mobile phones through the real-time bidding (RTB) advertising ecosystem to track individuals' movements. The data is siphoned during the near-instantaneous ad auction process that occurs when ads are displayed inside apps, a process invisible to ordinary phone users. This practice represents a significant expansion of government surveillance capabilities into the commercial data marketplace, enabling tracking without warrants or user knowledge. It raises profound privacy concerns and questions about oversight, as sensitive location data collected for advertising is repurposed for law enforcement and border control without clear legal boundaries. The location data is sourced specifically via the RTB process, where surveillance firms or rogue advertising companies can observe bid requests and extract information including GPS coordinates. Notably, the FTC has recently taken action against companies like Mobilewalla for collecting and selling sensitive location data from these same ad auctions for purposes beyond participating in the auctions themselves.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "advertising-technology",
+    "government",
+    "data-collection"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1061085/",
+  "originalSite": "lwn.net",
+  "context": "Real-time bidding (RTB) is the automated, instantaneous auction process used to buy and sell online ad impressions. When a user loads an app or website, a bid request containing user data (bidstream data) — such as device ID, IP address, and precise GPS location — is broadcast to potential advertisers. This ecosystem, while designed for ad targeting, creates a vast data stream that can be intercepted and harvested by entities not directly involved in serving the ad, leading to a secondary market for sensitive personal information.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Real-time bidding - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Real-time_bidding"
+    },
+    {
+      "title": "What is Real Time Bidding?",
+      "url": "https://epic.org/what-is-real-time-bidding/"
+    },
+    {
+      "title": "FTC Takes Action Against Mobilewalla for Collecting and ...",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-mobilewalla-collecting-selling-sensitive-location-data"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

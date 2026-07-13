@@ -1,0 +1,40 @@
+{
+  "id": "23827645ddaba1b01a85c39eda77baf2507d98df",
+  "canonicalId": "c8e977915773e44a2102f0e0acbe80fa30e35951",
+  "slug": "阿里发布新一代大语言模型-qwen36-plus具备增强的多模态推理和编程能力",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "阿里发布新一代大语言模型 Qwen3.6-Plus，具备增强的多模态推理和编程能力。",
+  "summary": "阿里巴巴发布了千问新一代大语言模型 Qwen3.6-Plus，该模型拥有原生多模态理解和推理能力，在 SWE-bench 和 Claw-Eval 等权威评测中，其编程表现接近全球最强编程模型 Claude 系列。在前端网页开发和仓库级复杂任务等实测场景中，它能自主拆解任务、规划路径、测试修改直至完成。 此次发布标志着多模态人工智能的重大进步，使阿里巴巴在全球 AI 领域成为强有力的竞争者，特别是在编程和智能体应用方面。它可能加速 AI 驱动编码工具的普及，并提升软件开发及其他需要复杂推理行业的效率。 该模型的性能在 SWE-bench（一个基于 GitHub 真实软件问题的基准测试）和 Claw-Eval（用于真实世界智能体任务）中与 Claude 进行了对比。它支持“氛围编程”，即 AI 能根据简单提示编写代码，但内容中未提供具体的技术规格，如参数数量或训练数据细节。",
+  "score": 8,
+  "tags": [
+    "AI/ML",
+    "Large Language Models",
+    "Programming",
+    "Multimodal AI",
+    "Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 2, 05:02"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40658",
+  "originalSite": "t.me",
+  "context": "多模态人工智能是指能处理和理解多种数据类型（如文本、图像和语音）的系统，从而实现更类似人类的推理能力。SWE-bench 是一个用于评估大语言模型在 GitHub 真实软件问题上表现的基准测试，衡量其处理编码任务的能力。Claude 是一个领先的 AI 模型，以其强大的编程能力著称，常被用作 AI 比较的基准。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - SWE - bench / SWE - bench : SWE - bench : Can Language...",
+      "url": "https://github.com/SWE-bench/SWE-bench"
+    },
+    {
+      "title": "2025’s Breakthrough in Multimodal AI : Merging Text, Voice... | Medium",
+      "url": "https://gafowler.medium.com/2025s-breakthrough-in-multimodal-ai-merging-text-voice-image-video-c07d370e6a11"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

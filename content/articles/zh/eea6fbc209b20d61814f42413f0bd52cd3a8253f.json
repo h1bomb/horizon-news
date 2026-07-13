@@ -1,0 +1,39 @@
+{
+  "id": "eea6fbc209b20d61814f42413f0bd52cd3a8253f",
+  "canonicalId": "4da51adb28288badd3a0712c9c2334f8ce6b58d4",
+  "slug": "higgs-audio-v3-tts-4b支持-100-种语言的语音聊天模型",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T22:26:00Z",
+  "lang": "zh",
+  "title": "Higgs Audio v3 TTS 4B：支持 100 种语言的语音聊天模型",
+  "summary": "Higgs Audio 发布了其 TTS 模型的第三版，一个 40 亿参数模型，支持 100 种语言，并具有用于语音聊天应用的内联控制功能。 该发布通过提供广泛的多语言支持和语音聊天优化，推动了本地 TTS 技术的发展，使开发者能够更轻松地将自然语音集成到应用中，而无需依赖云服务。 该模型拥有 40 亿参数，专为语音聊天而构建，内联控制可能用于情感语调、速度或发音。之前的 v2 版本在情感和问题类别上相比 GPT-4o-mini-tts 取得了很高的胜率。",
+  "score": 8,
+  "tags": [
+    "TTS",
+    "multilingual",
+    "voice chat",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/FerretLegitimate6929"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tx2mot/higgs_audio_v3_tts_4b_built_for_voice_chat/",
+  "originalSite": "reddit.com",
+  "context": "文本到语音（TTS）模型将书面文本转换为口语音频。Higgs Audio 是来自 Boson AI 的文本-音频基础模型。内联控制允许用户通过文本输入中的自然语言标签调整语音特征（如情感或速度），这一功能在其他 TTS 系统（如 ElevenLabs 和 Deepgram）中也有出现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - boson-ai/higgs-audio: Text-audio foundation model from Boson AI · GitHub",
+      "url": "https://github.com/boson-ai/higgs-audio"
+    },
+    {
+      "title": "Voice Agent TTS Controls | Deepgram's Docs",
+      "url": "https://developers.deepgram.com/docs/voice-agent-tts-controls"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

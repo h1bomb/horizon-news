@@ -1,0 +1,45 @@
+{
+  "id": "5242e6562e082ecae867c51ef5065dd150bbd405",
+  "canonicalId": "60d9564ab432d217501b3bf1d4bb61d1404f875f",
+  "slug": "minicpm-46-发布文档理解能力提升",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-12T00:00:00Z",
+  "lang": "zh",
+  "title": "MiniCPM 4.6 发布，文档理解能力提升",
+  "summary": "OpenBMB 发布了 MiniCPM-V 4.6，一款多模态小语言模型，具有增强的文档理解能力，采用 Qwen3.5 风格的混合 LLM 骨干和 NaViT 视觉编码器。 此次发布表明小模型在多模态任务中可以媲美甚至超越大模型，从而能够在资源受限的设备上高效本地部署。 该模型支持文本、图像和视频输入，并提供 Q8_0（812MB）和 F16（1.52GB）量化格式。社区讨论突显了量化精度与模型大小之间的权衡。",
+  "score": 8,
+  "tags": [
+    "MiniCPM",
+    "multimodal",
+    "small language model",
+    "local LLM",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 11, 17:08",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ta9k8o/minicpm_46/"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+  "originalSite": "huggingface.co",
+  "context": "MiniCPM 是由清华大学与 ModelBest 联合实验室 OpenBMB 开发的一系列小语言模型。小语言模型（SLM）提供了一种资源高效的大型模型替代方案。量化技术可减小模型体积并降低内存占用，从而在本地硬件上实现更快的推理。",
+  "discussion": "用户就在 Q8_0 与 F16 量化间的选择展开讨论，部分人偏向更小尺寸以节省 RAM。另有用户指出该模型存在明显的“PRC 偏见及回避行为”，并建议添加空白图像块可绕过行为限制。",
+  "references": [
+    {
+      "title": "openbmb/MiniCPM-V-4.6 · Hugging Face",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+    },
+    {
+      "title": "GitHub - OpenBMB/MiniCPM: MiniCPM4 & MiniCPM4.1: Ultra ...",
+      "url": "https://github.com/OpenBMB/MiniCPM"
+    },
+    {
+      "title": "MiniCPM: Unveiling the Potential of Small Language Models ... openbmb/MiniCPM-V-4.6 · Hugging Face OpenBMB launches MiniCPM-V 4.6 1.3B Instruct MiniCPM: Unveiling the Potential of End-side Large Language ... MiniCPM-V 4.6 - SGLang Documentation MiniCPM-V Series | OpenBMB/MiniCPM-o | DeepWiki",
+      "url": "https://arxiv.org/abs/2404.06395"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

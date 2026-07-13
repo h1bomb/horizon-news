@@ -1,0 +1,41 @@
+{
+  "id": "1b7867c8e06aac6ef75fab164fcc97a5924a6e62",
+  "canonicalId": "42249c24f80c32f4452948f1fc32b3af9b27f468",
+  "slug": "nginx-exploit-targets-rewrite-directives",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-14T17:17:00Z",
+  "lang": "en",
+  "title": "Nginx Exploit Targets Rewrite Directives",
+  "summary": "A new Nginx exploit named Nginx-Rift was disclosed, targeting servers with specific rewrite directives using unnamed capture groups. F5 has released patches in versions 1.31.0 and 1.30.1 to address this vulnerability. This vulnerability is significant because Nginx is one of the most widely used web servers globally, and successful exploitation could lead to remote code execution under specific preconditions. The high community engagement (267 upvotes, 59 comments) underscores its technical importance and real-world impact. The exploit precondition includes a 'rewrite' directive with a question mark in the replacement string, followed by a 'set' directive referencing a regex capture group. The published proof-of-concept assumes ASLR is disabled, but the disclosure claims a reliable ASLR bypass exists. F5 recommends using named captures instead of unnamed ones as a mitigation.",
+  "score": 8,
+  "tags": [
+    "security",
+    "nginx",
+    "exploit",
+    "vulnerability",
+    "aslr"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hetsaraiya",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48138268"
+    }
+  ],
+  "originalUrl": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+  "originalSite": "github.com",
+  "context": "Nginx uses rewrite directives to manipulate request URIs based on regular expressions for URL redirection and access control. ASLR (Address Space Layout Randomization) is a defense-in-depth technique that randomizes memory addresses to make exploitation harder; bypassing it allows attackers to reliably hijack execution flow. This exploit combines a memory corruption vulnerability in Nginx's rewrite processing with a technique to bypass ASLR, significantly increasing its severity.",
+  "discussion": "Commenters expressed concern that although the published exploit requires ASLR to be disabled, the disclosure claims ASLR bypass is possible, making the vulnerability more severe than initially perceived. Some highlighted the specific preconditions and noted that F5's mitigation (using named captures) is effective. Others debated whether alternative web servers written in memory-safe languages like Caddy (Go) or Jetty (Java) would be inherently more secure.",
+  "references": [
+    {
+      "title": "Nginx Rewrite Rules - KeyCDN Support",
+      "url": "https://www.keycdn.com/support/nginx-rewrite-rules"
+    },
+    {
+      "title": "ASLR Bypass Lab - Computation Structures Group - MIT",
+      "url": "https://csg.csail.mit.edu/6.S983/labs/aslr/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

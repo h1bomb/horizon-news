@@ -1,0 +1,45 @@
+{
+  "id": "329f96db7544c030115495e4b51e21164c38be27",
+  "canonicalId": "3e6f4335ce749d6c237aa4c8e42c360b84b4f664",
+  "slug": "project-zero-详细披露-pixel-10-零点击漏洞链",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "Project Zero 详细披露 Pixel 10 零点击漏洞链",
+  "summary": "Google Project Zero 发布了对 Pixel 10 零点击漏洞链的详细分析，指出 AI 功能会在用户交互前预处理消息和媒体，从而扩大攻击面。 这项研究强调，即使修复速度很快，零点击漏洞依然是重大威胁；而移动设备中 AI 功能的扩展带来了新的攻击途径，影响所有采用类似功能的平台。 该漏洞链利用了多个漏洞，其中包含一个在 90 天内被修复的驱动程序漏洞——这在 Android 标准下相当迅速。分析特别指出，AI 功能（如 Magic Cue 和 Voice Translate）在用户操作前解码媒体数据的行为增加了风险。",
+  "score": 9,
+  "tags": [
+    "security",
+    "mobile",
+    "exploit",
+    "Android",
+    "Project Zero"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 15, 13:39",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48148460"
+    }
+  ],
+  "originalUrl": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+  "originalSite": "projectzero.google",
+  "context": "零点击漏洞无需用户交互，极其隐蔽。漏洞链则组合多个漏洞实现全面设备控制。Google Project Zero 是一支安全团队，负责发现并公开披露零日漏洞，以提升整个行业的安全性。",
+  "discussion": "评论者担心 AI 功能增加了零点击攻击面，有人指出谷歌 90 天的修复窗口虽快，但也质疑其他 Android 厂商的响应速度。其他人则讨论漏洞频率，并比较苹果的修复时间。",
+  "references": [
+    {
+      "title": "Zero-Click Exploit in iPhones - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2023/09/zero-click-exploit-in-iphones.html"
+    },
+    {
+      "title": "Exploit chains explained: How and why attackers target ...",
+      "url": "https://www.csoonline.com/article/571799/exploit-chains-explained-how-and-why-attackers-target-multiple-vulnerabilities.html"
+    },
+    {
+      "title": "Google Pixel 10: 9 new AI features and updates - The Keyword",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-ai-features-updates/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

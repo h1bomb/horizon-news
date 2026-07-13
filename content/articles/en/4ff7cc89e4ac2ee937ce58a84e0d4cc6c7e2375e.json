@@ -1,0 +1,40 @@
+{
+  "id": "4ff7cc89e4ac2ee937ce58a84e0d4cc6c7e2375e",
+  "canonicalId": "1ff01264a79007fddbb9ba5955cb19c09f5615dd",
+  "slug": "red-hat-npm-packages-compromised-with-credential-stealing-malware",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T14:05:00Z",
+  "lang": "en",
+  "title": "Red Hat npm packages compromised with credential-stealing malware",
+  "summary": "Multiple npm packages under the @redhat-cloud-services scope were compromised with a multi-stage credential harvester that executes on npm install and targets cloud and CI/CD credentials, with self-propagation via stolen tokens. This supply chain attack on a widely used Red Hat scope poses significant risk to users, as the malware is a self-propagating worm that bypasses 2FA using npm's bypass_2fa parameter, and exploits a compromised CI/CD pipeline to republish backdoored versions. The malware was published via GitHub Actions OIDC from the RedHatInsights/javascript-clients repository, indicating the upstream CI/CD pipeline itself was compromised. The payload attempts to explicitly bypass StepSecurity Harden-Runner and is obfuscated in a 4.2 MB index.js file.",
+  "score": 9,
+  "tags": [
+    "npm",
+    "supply-chain-security",
+    "malware",
+    "red-hat",
+    "credential-theft"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1075742/",
+  "originalSite": "lwn.net",
+  "context": "npm packages can execute arbitrary code during installation via 'install' scripts, making them a vector for supply chain attacks. Compromised packages can steal credentials from CI/CD environments, such as GitHub Actions secrets, and use stolen tokens to propagate to other packages, even bypassing two-factor authentication if npm's bypass_2fa parameter is enabled.",
+  "discussion": "Community comments on Hacker News emphasize the effectiveness of dependency cooldowns (e.g., 1-2 days delay) to mitigate such attacks, and highlight improvements in package managers like pnpm and yarn 4 that offer similar protections. Some users also note the importance of MFA for publishing and running untrusted code in isolated environments.",
+  "references": [
+    {
+      "title": "GitHub - step-security / harden-runner : Harden-Runner is a CI ...",
+      "url": "https://github.com/step-security/harden-runner"
+    },
+    {
+      "title": "Harden - Runner | StepSecurity",
+      "url": "https://docs.stepsecurity.io/harden-runner"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

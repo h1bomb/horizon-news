@@ -1,0 +1,45 @@
+{
+  "id": "d6843077e0358c233c4128ea1147f7d3daa5ed0e",
+  "canonicalId": "b591e55b8d3fbbbf6547920db34cb0d5e591d3f2",
+  "slug": "native-apps-still-rely-on-webkit-for-text-rendering",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-17T11:49:00Z",
+  "lang": "en",
+  "title": "Native Apps Still Rely on WebKit for Text Rendering",
+  "summary": "A technical blog post reveals that native apps often fall back to WebKit for rendering rich text like Markdown, because native SwiftUI Text components struggle with performance and features, especially for large documents. This highlights a pragmatic trade-off in the native vs web debate: even performance-critical native apps choose WebKit for text-heavy views, challenging the assumption that native always delivers better performance. The author benchmarks a Markdown chat view and finds WebKit rendering is significantly faster than SwiftUI's Text, with sub-8ms keystroke restyling in TextKit 2, while WebKit benefits from mature GPU-accelerated engines.",
+  "score": 8,
+  "tags": [
+    "native vs web",
+    "performance",
+    "text rendering",
+    "WebKit",
+    "SwiftUI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dive",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48168058"
+    }
+  ],
+  "originalUrl": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
+  "originalSite": "justsitandgrin.im",
+  "context": "Native app development on Apple platforms uses frameworks like SwiftUI and UIKit, but their Text components can be slow for large or richly formatted documents. WebKit, the engine behind Safari, is available as a native framework (WKWebView) on macOS and iOS, allowing apps to render HTML and CSS efficiently. This post explores the performance trade-offs and argues that using WebKit for text rendering is a practical choice rather than a failure of native development.",
+  "discussion": "Commenters shared mixed experiences: one developer praised TextKit 2 for fast keystroke restyling, while another noted that browser engines have outpaced SwiftUI in performance. Some agreed that WebKit is appropriate for Markdown rendering, but a counterargument pointed to mature SwiftUI Markdown libraries like swift-markdown-ui. Overall, the discussion centered on when to use native vs web text rendering, with concrete performance data.",
+  "references": [
+    {
+      "title": "WebKit Features in Safari 18.2 | WebKit",
+      "url": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/"
+    },
+    {
+      "title": "Creating Stunning Dynamic Text Effects with TextRenderer",
+      "url": "https://fatbobman.com/en/posts/creating-stunning-dynamic-text-effects-with-textrender/"
+    },
+    {
+      "title": "swiftui - Conditionally rendering Text view with a large string causes performance issue - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/75922628/conditionally-rendering-text-view-with-a-large-string-causes-performance-issue"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

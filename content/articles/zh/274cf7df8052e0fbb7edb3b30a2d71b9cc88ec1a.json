@@ -1,0 +1,41 @@
+{
+  "id": "274cf7df8052e0fbb7edb3b30a2d71b9cc88ec1a",
+  "canonicalId": "6258cf13f3d5f19bc6e2a155180744f075bf65cf",
+  "slug": "grok-45xai-新模型宣称高效率但面临伦理质疑",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T18:00:00Z",
+  "lang": "zh",
+  "title": "Grok 4.5：xAI 新模型宣称高效率但面临伦理质疑",
+  "summary": "xAI 发布了新 AI 模型 Grok 4.5，该模型使用来自 Cursor 的万亿级 token 编码数据训练，声称推理效率比 Opus 高 4 倍，且基准测试表现具有竞争力，价格更低。 此发布加剧了 AI 模型市场的竞争，特别是在定价和效率方面，但由于 xAI 被报道的政治偏见和伦理问题，引发了信任危机，可能影响企业采用。 Grok 4.5 的定价为每百万 token $2/$6，相比之下 GPT-5.4 为$2.5/$15，Opus 4.8 为$5/$25，基准测试水平约为 Opus 4.7。训练数据包含了 Cursor 用户交互数据。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "ethics",
+    "Grok",
+    "model release",
+    "controversy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "BoumTAC",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48835111"
+    }
+  ],
+  "originalUrl": "https://x.ai/news/grok-4-5",
+  "originalSite": "x.ai",
+  "context": "Grok 是 xAI（埃隆·马斯克的公司）开发的 AI 聊天机器人。先前版本包括 Grok 2.5 和 Grok 3。该模型旨在追求真相，但因其内容审核和政治偏见问题受到批评。使用来自 Cursor 的专有编码数据进行训练是一种值得注意的训练方法。",
+  "discussion": "评论者因 CSAM 容忍和政治操纵等伦理问题对信任 xAI 表示怀疑，尽管一些人承认该模型的效率和具有竞争力的定价。还有人对投入数十亿美元打造第三佳模型的经济可行性提出质疑。",
+  "references": [
+    {
+      "title": "Grok (chatbot) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
+    },
+    {
+      "title": "Models | SpaceXAI Docs",
+      "url": "https://docs.x.ai/developers/models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

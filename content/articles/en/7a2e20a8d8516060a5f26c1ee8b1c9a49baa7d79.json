@@ -1,0 +1,32 @@
+{
+  "id": "7a2e20a8d8516060a5f26c1ee8b1c9a49baa7d79",
+  "canonicalId": "81d0346589e8b5cb53ac85b1d2a1a386b5c2b132",
+  "slug": "gmail-registration-now-requires-qr-code-scan-and-sms-sending",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T07:26:00Z",
+  "lang": "en",
+  "title": "Gmail Registration Now Requires QR Code Scan and SMS Sending",
+  "summary": "Google has updated Gmail registration to require scanning a QR code and sending an SMS from the user's phone, instead of simply receiving an SMS for verification. This change adds friction and raises privacy concerns for new users, as it forces phone number verification tied to sending a message, potentially deterring sign-ups and impacting accessibility. The QR code opens an SMS URI that pre-fills a text message to Google for verification; it does not automatically send anything. This is essentially the previous phone verification method with added convenience via QR code.",
+  "score": 8,
+  "tags": [
+    "gmail",
+    "privacy",
+    "registration",
+    "sms",
+    "google"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "negura",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48092028"
+    }
+  ],
+  "originalUrl": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+  "originalSite": "discuss.privacyguides.net",
+  "context": "Gmail is a widely used email service with billions of users. Phone number verification has long been part of Google's account registration to prevent abuse, but previously often only required receiving an SMS. This change now requires users to send an SMS, which may incur charges or require a capable phone.",
+  "discussion": "Community comments show mixed reactions; some understand Google’s need to combat spam and abuse, while others criticize the privacy implications and see it as an anti-competitive move. One user clarifies that the QR code simply pre-fills an SMS, not automatically sending it.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

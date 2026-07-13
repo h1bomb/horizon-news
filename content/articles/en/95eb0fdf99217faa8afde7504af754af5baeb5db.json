@@ -1,0 +1,44 @@
+{
+  "id": "95eb0fdf99217faa8afde7504af754af5baeb5db",
+  "canonicalId": "16f0b15513f9bb00fe5caa89d347f7e7bf73127e",
+  "slug": "skillopt-treating-markdown-skill-files-as-trainable-parameters",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T09:20:00Z",
+  "lang": "en",
+  "title": "SkillOpt: Treating Markdown Skill Files as Trainable Parameters",
+  "summary": "SkillOpt introduces a systematic optimization framework for LLM agent skill files written in Markdown, using bounded edits and validation gating to iteratively improve skill descriptions. This formalizes a previously ad hoc practice in agent building, enabling automatic skill improvement that transfers across models and benchmarks, potentially reducing manual prompt engineering effort. Best skills converge with 1 to 4 accepted edits out of many proposals, an edit budget of 4 to 8 per step works best, and the median final skill is around 920 tokens. A skill optimized on Codex transferred to Claude Code with zero modification, gaining +59.7 on SpreadsheetBench.",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "skill optimization",
+    "markdown",
+    "code generation",
+    "AI research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/agentic-doc"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1to1mey/skillopt_treats_markdown_skill_files_as_trainable/",
+  "originalSite": "reddit.com",
+  "context": "LLM agents often rely on Markdown skill files that describe how to perform tasks, but these files are typically handcrafted. SkillOpt treats these skill files as trainable parameters, using an optimizer model to propose bounded edits (add, delete, replace) and a validation set to gate acceptance, akin to gradient descent in text space.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SkillOpt : Optimizing LLM Agent Skills",
+      "url": "https://www.emergentmind.com/topics/skillopt"
+    },
+    {
+      "title": "Paper page - SkillOpt : Executive Strategy for Self-Evolving Agent Skills",
+      "url": "https://huggingface.co/papers/2605.23904"
+    },
+    {
+      "title": "Microsoft Research releases SkillOpt , an optimization method that...",
+      "url": "https://digg.com/ai/gulp2jzs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

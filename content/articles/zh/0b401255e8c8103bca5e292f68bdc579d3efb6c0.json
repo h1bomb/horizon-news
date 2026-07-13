@@ -1,0 +1,44 @@
+{
+  "id": "0b401255e8c8103bca5e292f68bdc579d3efb6c0",
+  "canonicalId": "d18b24619813cbdecb73c8ada816459d0a226bc7",
+  "slug": "gemma-4-ai-模型细节通过社交媒体推测浮出水面",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-29T00:00:00Z",
+  "lang": "zh",
+  "title": "Gemma 4 AI 模型细节通过社交媒体推测浮出水面",
+  "summary": "一篇 Reddit 帖子基于两天前的推文分享了关于 Google 即将推出的 AI 模型 Gemma 4 的潜在细节，但这些信息尚未得到官方证实。讨论反映了社区对这一下一代开源模型的期待。 Gemma 4 代表了 Google 轻量级开源 AI 模型系列的下一次演进，可能为开发者在笔记本电脑和手机等设备上本地运行模型提供更好的性能和可访问性。它的发布可能进一步推动 AI 开发的民主化，并加剧开源大语言模型领域的竞争。 这些信息来自未经证实的社交媒体来源而非官方公告，因此细节具有推测性。Gemma 模型以其仅解码器的 Transformer 架构而闻名，采用多查询注意力优化以实现高效的 TPU 训练和推理。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Gemma",
+    "Reddit",
+    "Community Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 28, 16:49"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1s65hfw",
+  "originalSite": "reddit.com",
+  "context": "Gemma 是 Google 基于与 Gemini 模型相同研究开发的轻量级开源 AI 模型系列。当前的 Gemma 3 系列包含从 2.7 亿到 270 亿参数不等的模型，设计用于在单 GPU、笔记本电脑和移动设备等消费级硬件上高效运行。这些模型采用仅解码器的 Transformer 架构，针对 TPU 效率进行了修改，并支持量化以实现低精度部署。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemma models overview | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs"
+    },
+    {
+      "title": "Gemma — Google DeepMind",
+      "url": "https://deepmind.google/models/gemma/"
+    },
+    {
+      "title": "Gemma 3 model overview | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

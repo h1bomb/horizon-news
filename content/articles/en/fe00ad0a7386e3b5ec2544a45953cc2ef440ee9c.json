@@ -1,0 +1,40 @@
+{
+  "id": "fe00ad0a7386e3b5ec2544a45953cc2ef440ee9c",
+  "canonicalId": "0ec63be0cb99a72bd3447c6df001e077b8e0a918",
+  "slug": "vllm-v0170-released-with-pytorch-210-flashattention-4-and-major-model-runner-v2-enhancements",
+  "date": "2026-03-08",
+  "publishedAt": "2026-03-07T00:46:00Z",
+  "lang": "en",
+  "title": "vLLM v0.17.0 released with PyTorch 2.10, FlashAttention 4, and major Model Runner V2 enhancements.",
+  "summary": "The vLLM project released version 0.17.0, featuring a mandatory upgrade to PyTorch 2.10.0, integration of the FlashAttention 4 backend for improved attention performance, and significant maturation of the Model Runner V2 architecture with features like pipeline parallelism and speculative decoding. The release also adds full support for the Qwen3.5 model family, a new `--performance-mode` flag, and Anthropic API compatibility. This release is significant because vLLM is a widely-used, high-performance inference engine for LLMs, and these upgrades directly translate to faster, more efficient, and more scalable model serving for the AI community. The integration of cutting-edge components like FlashAttention 4 and the maturation of Model Runner V2 enable developers to deploy larger models with better resource utilization and lower latency. A known issue exists for users on CUDA 12.9+ who may encounter a `CUBLAS_STATUS_INVALID_VALUE` error due to a CUDA library mismatch, with specific workarounds provided in the release notes. The release includes contributions from 272 developers across 699 commits, indicating substantial community effort and a broad scope of improvements beyond the headline features.",
+  "score": 8,
+  "tags": [
+    "llm-inference",
+    "machine-learning",
+    "pytorch",
+    "performance-optimization",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
+  "originalSite": "github.com",
+  "context": "vLLM is a high-throughput and memory-efficient inference and serving engine designed specifically for optimizing Large Language Model (LLM) inference. FlashAttention is a series of optimized algorithms that dramatically speed up the core 'attention' mechanism in Transformers, which is computationally expensive and memory-intensive, especially for long sequences. Model Runner V2 is vLLM's next-generation serving architecture aimed at improving parallelism, scalability, and performance for complex model deployments.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "vLLM",
+      "url": "https://vllm.ai/"
+    },
+    {
+      "title": "FlashAttention-4, Explained: What it is & Why it Matters",
+      "url": "https://www.theneuron.ai/explainer-articles/flashattention-4-explained-the-software-that-makes-every-ai-chatbot-fast-just-got-a-massive-upgrade-tri-dao-blackwell/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

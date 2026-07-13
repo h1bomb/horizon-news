@@ -1,0 +1,31 @@
+{
+  "id": "f3f84b8185c80ef2a696c93bf5203f30d38828da",
+  "canonicalId": "247ca322f9426dd888e01b23f3d69f8dfffdb417",
+  "slug": "local-llms-are-now-practical",
+  "date": "2026-06-17",
+  "publishedAt": "2026-06-16T14:36:00Z",
+  "lang": "en",
+  "title": "Local LLMs Are Now Practical",
+  "summary": "A blog post argues that running local language models has become practical for everyday use, sparking discussion on the trade-offs between performance and usability. This matters because local models offer privacy, lower costs, and independence from cloud providers, potentially disrupting the paid API market for many users. Dense models like Qwen 27B are smart but slow, while MoE models are faster but more error-prone, and quantization degrades tool-calling, so most users run at 4-bit precision.",
+  "score": 8,
+  "tags": [
+    "local-llm",
+    "AI",
+    "machine-learning",
+    "community-discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jfb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48555993"
+    }
+  ],
+  "originalUrl": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+  "originalSite": "vickiboykis.com",
+  "context": "Local language models run on personal hardware rather than cloud servers, requiring significant RAM or VRAM. Quantization reduces memory usage at the cost of quality. Mixture-of-Experts (MoE) models use multiple sub-models for efficiency but can be less consistent.",
+  "discussion": "Comments show mixed views: some users find local models still painful due to speed and accuracy trade-offs, while others strongly prefer them over cloud models for better control and personality. There is debate over the cost-benefit of local setups versus API subscriptions.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

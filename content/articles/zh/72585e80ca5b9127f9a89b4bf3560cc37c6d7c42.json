@@ -1,0 +1,44 @@
+{
+  "id": "72585e80ca5b9127f9a89b4bf3560cc37c6d7c42",
+  "canonicalId": "b4715594ecc6d6bdd5340c0cafd876746e32cc31",
+  "slug": "open-webui-的-open-terminal-结合-qwen35-35b-实现强大的本地-ai-智能体",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-07T00:00:00Z",
+  "lang": "zh",
+  "title": "Open WebUI 的 Open Terminal 结合 Qwen3.5 35b 实现强大的本地 AI 智能体",
+  "summary": "Open WebUI 近期发布了一项名为 Open Terminal 的重要功能，这是一个带有实时文件浏览器的 Docker 化沙盒终端。当它与原生工具调用功能以及 Qwen3.5 35b 模型结合时，形成了一个强大的系统，能够在本地执行智能体工作流。该集成允许 AI 在沙盒内运行命令、安装库和编辑文件，并能实时查看更改。 这一进展意义重大，因为它使得高级的、自主的 AI 智能体工作流能够在消费级硬件（如单张 NVIDIA RTX 3090 GPU）上运行，降低了进行复杂本地 AI 开发的门槛。这代表了 AI 系统朝着更强大、更自足的方向发展，能够执行复杂的多步骤任务，而无需依赖云端 API。 Open Terminal 作为容器在 Docker 内运行，提供了一个安全的沙盒环境，并包含一个文件渲染画布，可在 AI 编辑时预览支持的文件类型。Qwen3.5-35B-A3B 模型拥有 350 亿总参数，以其高效性和原生工具调用能力著称，这对于实现智能体功能至关重要。",
+  "score": 8,
+  "tags": [
+    "Open WebUI",
+    "Local LLM",
+    "AI Agents",
+    "Tool Calling",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 6, 20:44"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1rmplvs",
+  "originalSite": "reddit.com",
+  "context": "Open WebUI 是一个可扩展、自托管的 Web 界面，设计为可离线运行，常用于管理本地大语言模型。工具调用（或函数调用）是一种机制，允许 AI 模型识别何时需要使用外部工具或执行操作（如运行代码或查询数据库），这是创建自主 AI 智能体的基础能力。Qwen 系列是由阿里云开发的大语言模型，其中 Qwen3.5-35B-A3B 是近期发布的一款高效的多模态模型。",
+  "discussion": "社区反馈 overwhelmingly 积极，用户称赞该集成使得智能体工作流在消费级 GPU 上成为可能，并显著减少了对 MCP 等其他框架的依赖。一些用户报告在 AMD 7900 XTX 等系统上测试成功，而另一些用户则将其与 OpenCode 等项目进行比较，并指出其用途不仅限于编码，还包括一般的“第三产业任务”。少数用户对其整体实用性提出了疑问。",
+  "references": [
+    {
+      "title": "Open WebUI - Mozilla Builders",
+      "url": "https://builders.mozilla.org/project/open-webui/"
+    },
+    {
+      "title": "AI Building Blocks: What is Tool Calling? | Paragon Blog",
+      "url": "https://www.useparagon.com/blog/ai-building-blocks-what-is-tool-calling-a-guide-for-pms"
+    },
+    {
+      "title": "Qwen/Qwen3.5-35B-A3B - Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

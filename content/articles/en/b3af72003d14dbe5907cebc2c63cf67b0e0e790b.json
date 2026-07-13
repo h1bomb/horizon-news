@@ -1,0 +1,44 @@
+{
+  "id": "b3af72003d14dbe5907cebc2c63cf67b0e0e790b",
+  "canonicalId": "e042a47a4b09dd9fbd682400a03a9382d7c5c4a8",
+  "slug": "critical-android-remote-root-exploit-chain-disclosed",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:01:00Z",
+  "lang": "en",
+  "title": "Critical Android remote root exploit chain disclosed",
+  "summary": "Nebula Security disclosed a remote root exploit chain targeting all Android versions, combining a Firefox browser vulnerability (affecting version 151.0.2 and earlier) and a 15-year-old Linux kernel flaw (CVE-2026-43499, GhostLock), with proof-of-concept code released on GitHub. This exploit chain allows attackers to gain persistent root access on any Android device by simply tricking a user into clicking a malicious link, posing a severe security risk to billions of users and potentially leading to widespread exploitation. The attack leverages a remote code execution vulnerability in Mozilla Firefox and the GhostLock kernel flaw for privilege escalation, enabling attackers to execute arbitrary commands via ADB and implant files for persistent control.",
+  "score": 9,
+  "tags": [
+    "Android",
+    "security",
+    "vulnerability",
+    "root",
+    "exploit"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.coolapk.com/feed/72700258?s=ZGQ2MTVlZjYxMDYyNTM3ZzZhNGUzOThjega1640",
+  "originalSite": "coolapk.com",
+  "context": "Android Debug Bridge (adb) is a command-line tool for debugging and managing Android devices, often used for development. A remote root exploit allows an attacker to gain superuser (root) access over a network. The GhostLock vulnerability is a local privilege escalation flaw in the Linux kernel that has remained undetected for 15 years.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Android Debug Bridge - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Android_Debug_Bridge"
+    },
+    {
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
+    },
+    {
+      "title": "Mozilla Firefox Remote Code Execution Vulnerability",
+      "url": "https://www.hkcert.org/security-bulletin/mozilla-firefox-remote-code-execution-vulnerability_20250220"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

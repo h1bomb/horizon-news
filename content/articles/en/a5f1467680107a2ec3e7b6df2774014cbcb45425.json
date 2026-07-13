@@ -1,0 +1,44 @@
+{
+  "id": "a5f1467680107a2ec3e7b6df2774014cbcb45425",
+  "canonicalId": "ea7e0fe517ec98c768922b6c86ec8a1d5de06141",
+  "slug": "sqlite-utils-40rc1-migrations-and-nested-transactions",
+  "date": "2026-06-22",
+  "publishedAt": "2026-06-21T23:30:00Z",
+  "lang": "en",
+  "title": "sqlite-utils 4.0rc1: Migrations and Nested Transactions",
+  "summary": "Simon Willison released release candidate 1 of sqlite-utils 4.0, which introduces two major features: database migrations and nested transaction support. These features significantly improve sqlite-utils as both a CLI tool and Python library for SQLite database management, making it easier to handle schema evolution and complex transactional operations. The release candidate includes a new `migrate` command for applying migration files, and nested transactions allow transaction control within existing transactions. This version is not yet stable, but final release is expected soon.",
+  "score": 8,
+  "tags": [
+    "sqlite",
+    "python",
+    "sqlite-utils",
+    "release",
+    "database"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "sqlite-utils is a Python CLI utility and library for creating and manipulating SQLite databases, developed by Simon Willison. Migrations allow incremental changes to database schemas, while nested transactions enable atomic operations within an outer transaction, which is important for building reliable applications.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - simonw/sqlite-utils: Python CLI utility and library ...",
+      "url": "https://github.com/simonw/sqlite-utils"
+    },
+    {
+      "title": "sqlite-utils",
+      "url": "https://sqlite-utils.datasette.io/"
+    },
+    {
+      "title": "sqlite-utils · PyPI",
+      "url": "https://pypi.org/project/sqlite-utils/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

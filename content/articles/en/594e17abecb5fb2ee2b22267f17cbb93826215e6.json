@@ -1,0 +1,40 @@
+{
+  "id": "594e17abecb5fb2ee2b22267f17cbb93826215e6",
+  "canonicalId": "9617b30126c9066c46b52af9cca5352e03e12977",
+  "slug": "german-ruling-holds-google-liable-for-ai-overview-errors",
+  "date": "2026-06-26",
+  "publishedAt": "2026-06-25T22:28:00Z",
+  "lang": "en",
+  "title": "German Ruling Holds Google Liable for AI Overview Errors",
+  "summary": "A German court ruled that Google is legally liable for errors in its AI-generated search summaries, treating the AI overviews as Google's own words. Security expert Bruce Schneier endorsed the decision, arguing that AI agents should be considered legal agents of their deployers. This landmark ruling could set a precedent for AI liability worldwide, preventing companies from using AI as a shield against responsibility for errors. It reinforces that businesses deploying AI must own the outputs, just as they would with human employees. The ruling specifically concerns Google AI Overviews, which generate AI-written summaries of search results. Schneier noted that if human writers were used, the company would be liable for inaccuracies, and allowing AI to absolve liability would create perverse incentives for corporate misbehavior.",
+  "score": 8,
+  "tags": [
+    "AI liability",
+    "regulation",
+    "law",
+    "AI ethics",
+    "Google"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Google AI Overviews is an AI feature that produces automatically generated summaries of search results, which has faced criticism for inaccuracies. The legal principle at stake is whether AI systems can be treated as independent agents or as extensions of the deploying organization, with profound implications for liability frameworks. The German ruling aligns AI agents with traditional agency law, where a principal is responsible for an agent's actions.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Google AI Overviews",
+      "url": "https://en.wikipedia.org/wiki/Google_AI_Overviews"
+    },
+    {
+      "title": "AI Agent Legal Liability : Who Goes to Jail? | 2026 Guide",
+      "url": "https://agileleadershipdayindia.org/blogs/agentic-ai-governance/ai-agent-legal-liability-framework.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

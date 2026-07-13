@@ -1,0 +1,40 @@
+{
+  "id": "77905e1a987e1996bf2dd31aca2a0e93d105d88b",
+  "canonicalId": "7912eb986e75fbb004a20d177e119680cefe30d6",
+  "slug": "hermes-邮件集成错误地向所有发件人发送配对请求导致群发邮件",
+  "date": "2026-04-21",
+  "publishedAt": "2026-04-21T00:00:00Z",
+  "lang": "zh",
+  "title": "Hermes 邮件集成错误地向所有发件人发送配对请求，导致群发邮件。",
+  "summary": "一位用户报告称，Hermes 邮件集成本应作为双向聊天通道，却错误地向其 Gmail 账户中的所有发件人发送了配对代码，而非总结收件箱内容，导致意外群发邮件。这发生在用户连接 Hermes 期望其读取邮件时，但系统将每个发件人视为试图向机器人发送消息的陌生人。 这一事件凸显了 AI 邮件集成中的重大设计缺陷和安全风险，可能泄露用户隐私并导致操作中断。它强调了在自动化工具中提供清晰文档和强大错误处理的重要性，以防止在更广泛的 AI 和软件生态系统中发生类似故障。 该集成发送了包含配对代码和错误响应的消息，例如“当前配对请求过多~请稍后再试！”，甚至将用户的中断尝试邮件发送给了正在配对的发件人。这一故障发生是因为 Hermes 被设计为双向聊天通道，而非收件箱阅读器，导致将邮件发件人误解为聊天参与者。",
+  "score": 7,
+  "tags": [
+    "AI Integration",
+    "Email Automation",
+    "Privacy Issues",
+    "Software Failure",
+    "Community Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 20, 14:03"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/gzpfozaxqcwg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "Hermes 是一个邮件集成工具，作为双向聊天通道运行，允许用户通过聊天界面与邮件发件人互动，而非简单地读取邮件。配对代码通常用于蓝牙或软件集成等系统中，以在设备或用户之间建立安全连接，但在此上下文中被误用于邮件通信。这一事件涉及旨在简化邮件管理的 AI 自动化工具，但需要仔细配置以避免隐私泄露。",
+  "discussion": "社区评论表达了担忧和幽默的混合情绪，用户分享了类似经历并强调需要更好的设计和安全实践。一些人建议使用替代工具如 Himalaya 或为 AI 集成设置专用邮件账户，而其他人则质疑基于云的邮件工具的必要性，并强调了授予第三方访问权限的风险。",
+  "references": [
+    {
+      "title": "Hermes email generator · Issue #83 · matcornic/hermes ·",
+      "url": "https://github.com/matcornic/hermes/issues/83"
+    },
+    {
+      "title": "Build a bidirectional chat -email gateway with Mailgun and GoDaddy",
+      "url": "https://medium.com/codex/bidirectional-chat-email-gateway-with-mailgun-and-godaddy-771e6fa471d1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

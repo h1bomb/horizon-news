@@ -1,0 +1,45 @@
+{
+  "id": "ad7110280feb581e155a179f2f4eabe47841f305",
+  "canonicalId": "8d89e490ff12497f17636d7a011007cf1ed2b461",
+  "slug": "欧盟数字钱包硬件认证将身份锁定在双头垄断中",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-11T00:00:00Z",
+  "lang": "zh",
+  "title": "欧盟数字钱包硬件认证将身份锁定在双头垄断中",
+  "summary": "欧盟数字身份钱包（EUDI）强制要求谷歌或苹果的硬件认证，实际上将所有数字身份绑定到这些美国科技巨头批准的设备上。 这一要求将欧盟公民锁定在谷歌/苹果的双头垄断中，破坏了数字主权和隐私，引发了对垄断权力和监控能力的担忧。 硬件认证使用谷歌或苹果验证的设备特定密钥，且系统缺乏零知识证明，意味着每个认证数据包可将行为链接到特定设备。",
+  "score": 8,
+  "tags": [
+    "hardware attestation",
+    "digital identity",
+    "monopoly",
+    "EU digital wallet",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 10, 17:54",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48086190"
+    }
+  ],
+  "originalUrl": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+  "originalSite": "grapheneos.social",
+  "context": "硬件认证是一种安全机制，设备通过硬件（如可信平台模块或安全飞地）向远程服务器证明其身份。欧盟数字身份钱包是一项泛欧倡议，旨在为公民提供统一的数字身份。仅要求谷歌或苹果的认证，实际上排除了未经其批准的设备，例如运行开源操作系统的设备。",
+  "discussion": "评论者表达了强烈反对，指出这一要求将数字身份锁定在美国双头垄断中，且缺乏零知识证明等隐私保护措施。一些人将其与历史争议（如英特尔 CPU 序列号和 Windows 11 的 TPM 要求）相提并论，认为这一趋势侵蚀了用户控制和隐私。",
+  "references": [
+    {
+      "title": "EU Digital Identity Wallet - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EU_Digital_Identity_Wallet"
+    },
+    {
+      "title": "European Digital Identity - European Commission",
+      "url": "https://commission.europa.eu/topics/digital-economy-and-society/european-digital-identity_en"
+    },
+    {
+      "title": "Verify hardware-backed key pairs with key attestation",
+      "url": "https://developer.android.com/privacy-and-security/security-key-attestation"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

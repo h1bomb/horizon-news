@@ -1,0 +1,44 @@
+{
+  "id": "f47e901a1d33f30f8581d9247b359e5eacbdff61",
+  "canonicalId": "dabea23a9e9efc05f782bf61ddd0cf3016e41158",
+  "slug": "在-rtx-5090-上以-200k-上下文运行-qwen36-27b-nvfp4-和-mtp",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-07T00:00:00Z",
+  "lang": "zh",
+  "title": "在 RTX 5090 上以 200k 上下文运行 Qwen3.6 27B NVFP4 和 MTP",
+  "summary": "一名用户在单张 RTX 5090 GPU 上成功运行了 Qwen3.6-27B-NVFP4 模型，并启用了多令牌预测（MTP）推测解码，使用 vLLM 和 flashinfer 注意力后端实现了 200k 的上下文长度。 这一演示表明，具有 27B 参数的大语言模型可以在消费级硬件上以高上下文长度和不错的性能运行，使先进 AI 更易访问且更适用于本地部署。 配置使用了 NVFP4 量化（compressed-tensors）、KV 缓存数据类型 fp8_e4m3、3 个推测令牌的 MTP，以及 max-model-len 设为 230400。用户仅验证了 200k 上下文，而非完整的 262k。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "vLLM",
+    "quantization",
+    "RTX5090",
+    "MTP"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 6, 14:05"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5dya8/qwen36_27b_nvfp4_mtp_on_a_single_rtx_5090_200k/",
+  "originalSite": "reddit.com",
+  "context": "NVFP4 是 NVIDIA 提出的一种 4 位浮点量化格式，相比整数量化保留了更高的动态范围。多令牌预测（MTP）是一种推测解码方法，目标模型自身预测多个未来令牌，无需单独的草稿模型，可潜在使推理吞吐量翻倍或提升三倍。FlashInfer 是一个用于注意力操作的高性能 CUDA 内核库，在 vLLM 中用于加速预填充和解码阶段。vLLM 是一个开源 LLM 服务框架，支持多种量化和解码优化。",
+  "discussion": "评论者对此性能表示赞赏，一位用户指出在消费级硬件上以 Q4 运行约 30B 密集模型并支持 128k+上下文是一场革命。另一位用户报告在 5090 上使用类似设置，启用思考功能后达到 75-130 t/s。同时也有关于禁用思考功能以及该配置是否属于“AI 垃圾”的讨论。",
+  "references": [
+    {
+      "title": "NVFP4 Quantization | DGX Spark",
+      "url": "https://build.nvidia.com/spark/nvfp4-quantization"
+    },
+    {
+      "title": "MTP (Multi-Token Prediction) - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/"
+    },
+    {
+      "title": "GitHub - flashinfer-ai/flashinfer: FlashInfer: Kernel Library ... Attention Backend Feature Support - vLLM FlashAttention and FlashInfer | vllm-project/vllm | DeepWiki FlashInfer on ROCm: High‑Throughput Prefill Attention via ... FlashInfer: Efficient and Customizable Attention Engine for ... FlashInfer Attention Backend | NVIDIA/TensorRT-LLM | DeepWiki",
+      "url": "https://github.com/flashinfer-ai/flashinfer"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "fcc1bcb83aba7d14ce205563de871bfa36921fc2",
+  "canonicalId": "aaed203b17a0c06709e0eb87c02b5aacd4a2727c",
+  "slug": "critics-argue-conventional-commits-miss-the-point",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T15:39:00Z",
+  "lang": "en",
+  "title": "Critics argue Conventional Commits miss the point",
+  "summary": "A blog post by Sumner Evans argues that Conventional Commits prioritize rigid structure over meaningful commit messages, sparking widespread debate among developers. This debate highlights the tension between standardization and pragmatism in software engineering practices, affecting tools like automated changelog generation and semantic versioning. The Conventional Commits specification requires prefixes like 'feat', 'fix', 'refactor', etc., but critics argue these categories are often ambiguous and detract from describing the change's context.",
+  "score": 8,
+  "tags": [
+    "conventional commits",
+    "commit messages",
+    "software engineering",
+    "best practices",
+    "developer experience"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jsve",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48414027"
+    }
+  ],
+  "originalUrl": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+  "originalSite": "sumnerevans.com",
+  "context": "The Conventional Commits specification is a lightweight convention on top of commit messages that provides an easy set of rules for creating an explicit commit history, enabling automated changelog generation and semantic versioning. It has become widely adopted in open-source projects, but its rigidity has also drawn criticism.",
+  "discussion": "Comments show mixed reactions: some support standardization for consistency, while others prefer the Linux kernel's style or criticize specific aspects like 'chore' and missing issue numbers. A key point is that different projects require different practices.",
+  "references": [
+    {
+      "title": "Conventional Commits Specification",
+      "url": "https://en.wikipedia.org/wiki/Conventional_Commits_Specification"
+    },
+    {
+      "title": "Conventional Commits",
+      "url": "https://www.conventionalcommits.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

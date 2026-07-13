@@ -1,0 +1,44 @@
+{
+  "id": "a9251e371ff74e3d4a7c693181627ee6277838ea",
+  "canonicalId": "e95b4280ec028738be9b99b374d5477199cd5f71",
+  "slug": "社区图表总结-2025-年-11-月至-2026-年-4-月近期开源大语言模型发布",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "社区图表总结 2025 年 11 月至 2026 年 4 月近期开源大语言模型发布",
+  "summary": "2026 年 4 月，一位用户分享了一张自制的图表，汇总了过去六个月发布的主要开源大语言模型，包括 Kimi-K2.6、Qwen3.6 27B 和 MiMo-V2-Flash 等模型，并突出了性能趋势和规模分类。 这张图表很重要，因为它直观地展示了开源 AI 领域的快速进展和竞争格局，显示了本地大语言模型在性能和可访问性方面的显著提升，可能为开发者和研究人员民主化 AI 工具。 图表包含从约 500 亿到 1000 亿参数的模型，由于空间限制，省略了 Ling-2.5-1T 等模型和小型模型，并使用了 Artificial Analysis 等来源的性能指数，但方法一致性可能有所不同。",
+  "score": 7,
+  "tags": [
+    "open-source-ai",
+    "large-language-models",
+    "local-llms",
+    "model-comparison",
+    "ai-community"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 22, 12:52"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/khsxkv3dnqwg1.png",
+  "originalSite": "i.redd.it",
+  "context": "大语言模型（LLMs）是基于海量文本数据训练的 AI 系统，能够生成类人文本，开源模型允许公众访问和修改。混合专家（MoE）架构，如 Kimi-K2.6 和 MiMo-V2-Flash 中使用的，通过仅激活参数子集来提高效率。2025 年底至 2026 年初，科技公司和研究团体在发布先进开源模型方面竞争激烈。",
+  "discussion": "社区评论表达了对进展的兴奋，用户指出 Qwen3.6 35B 等模型相比旧基准的显著能力，一些人赞扬了中国对开源 AI 的贡献。也有人对图表的方法论提出担忧，包括可能误导的品牌标识和某些模型的遗漏。",
+  "references": [
+    {
+      "title": "Kimi (chatbot) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kimi_(chatbot)"
+    },
+    {
+      "title": "MiMo V2 Flash Playground & API on Vercel AI Gateway",
+      "url": "https://vercel.com/ai-gateway/models/mimo-v2-flash"
+    },
+    {
+      "title": "arcee-ai/Trinity-Large-Thinking · Hugging Face",
+      "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

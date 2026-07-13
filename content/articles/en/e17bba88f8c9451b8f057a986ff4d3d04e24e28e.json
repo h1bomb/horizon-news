@@ -1,0 +1,36 @@
+{
+  "id": "e17bba88f8c9451b8f057a986ff4d3d04e24e28e",
+  "canonicalId": "ba0e4cd3482ce65686e975beb3d7b80f90894a61",
+  "slug": "bpf-coroutines-enable-suspendresume-of-programs",
+  "date": "2026-06-20",
+  "publishedAt": "2026-06-19T15:55:00Z",
+  "lang": "en",
+  "title": "BPF coroutines enable suspend/resume of programs",
+  "summary": "Kumar Kartikeya Dwivedi proposed a design to allow BPF programs to be expressed as coroutines, enabling suspension and resumption at LSFMM+BPF 2026. This change simplifies writing long-running BPF tasks like stack trace collection or user-space networking by avoiding manual splitting into callbacks, making kernel extensions easier to develop. The design uses stackless coroutines, akin to Rust's async or C++ coroutines, where the compiler rewrites code for suspension/resume, and the BPF verifier sees resumption as an indirect function call.",
+  "score": 8,
+  "tags": [
+    "BPF",
+    "Linux kernel",
+    "coroutines",
+    "LSFMM",
+    "kernel development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1076210/",
+  "originalSite": "lwn.net",
+  "context": "BPF (Berkeley Packet Filter) programs traditionally run to completion in the same context. To handle multi-step tasks, developers had to break logic into separate hooks and manage state manually. Coroutines allow a single function to pause and resume later, which is critical for long-running or deferred operations.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Coroutines in BPF - LSF/MM/BPF May 2026 - bpfconf.ebpf.io",
+      "url": "https://bpfconf.ebpf.io/bpfconf2026/bpfconf2026_material/Coroutines+in+BPF+-+LSF_MM_BPF+May+2026.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

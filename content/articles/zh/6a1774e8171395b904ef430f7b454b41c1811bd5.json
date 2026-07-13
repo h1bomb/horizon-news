@@ -1,0 +1,44 @@
+{
+  "id": "6a1774e8171395b904ef430f7b454b41c1811bd5",
+  "canonicalId": "5a0c3055c470dc277670f4668fbbc144141db948",
+  "slug": "英特尔在-288-核至强-cpu-中首次亮相其关键的-18a-制程节点采用多芯片封装技术",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-04T00:00:00Z",
+  "lang": "zh",
+  "title": "英特尔在 288 核至强 CPU 中首次亮相其关键的 18A 制程节点，采用多芯片封装技术。",
+  "summary": "英特尔已正式在其面向数据中心的新型 288 核至强 CPU 中推出了下一代 18A 半导体制程节点。这款 CPU 是一个多芯片模块，集成了 12 个在 18A 节点上制造的独立小芯片，堆叠在基于 Intel 3 节点制造的基模上，并连接到在较旧的 Intel 7 节点上构建的 I/O 模块。 此次发布对英特尔具有关键的战略意义，它证明了其先进的 18A 制程的可行性和性能，这是该公司'四年五个制程节点'路线图及重获制造领先地位努力的核心。成功地将三个不同的制程节点集成到一个大批量产品中，也为英特尔代工服务（IFS）提供了一个强有力的证明，向潜在的外部客户展示了其先进的封装能力。 该 CPU 具备 12 通道 DDR5-8000 内存，并采用 Foveros Direct 3D 封装技术来互连小芯片。这种异构集成方法允许不同的组件（如高性能逻辑单元、基模和 I/O）在其功能上最具成本效益或性能最优的制程节点上制造。",
+  "score": 8,
+  "tags": [
+    "semiconductors",
+    "data-center",
+    "cpu-architecture",
+    "manufacturing",
+    "cloud-computing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 3, 18:54"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/pc-components/cpus/intels-make-or-break-18a-process-node-debuts-for-data-center-with-288-core-xeon-6-cpu-multi-chip-monster-sports-12-channels-of-ddr5-8000-foveros-direct-3d-packaging-tech",
+  "originalSite": "tomshardware.com",
+  "context": "在半导体制造中，'制程节点'（如 18A）指的是定义芯片上晶体管尺寸和密度的特定制造技术，数字越小通常表示技术越先进。'先进封装'技术，如多芯片模块和 2.5D/3D 堆叠，已成为持续性能扩展的关键。它们允许制造商将多个通常在不同制程节点上制造的'小芯片'组合到一个封装中，从而提高良率、降低成本，并实现异构集成，例如，用先进节点处理核心逻辑，而用成熟节点处理 I/O 功能。",
+  "discussion": "社区讨论强调封装创新是一项关键成就，指出在量产产品中集成三个制程节点是一项重大壮举，也是英特尔代工服务的一个强有力的可信度信号。一些评论将焦点从原始核心数量转移到软件和系统级挑战上，思考操作系统和运行时调度程序是否能有效管理具有复杂互连的数百个核心，这实际上将 CPU 变成了'封装上的小型集群'。其他人则讨论了其对云成本经济性和特定高线程数工作负载（如软件构建）的实际影响。",
+  "references": [
+    {
+      "title": "Advanced packaging (semiconductors) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_packaging_(semiconductors)"
+    },
+    {
+      "title": "Multi-chip module - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multi-chip_module"
+    },
+    {
+      "title": "Intel's make-or-break 18 A process node debuts for... | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=47236958"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

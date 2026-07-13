@@ -1,0 +1,44 @@
+{
+  "id": "87d6d16eeeba40c16c0a2b922efa67f230e34c83",
+  "canonicalId": "dd631f87553d108b45cd3590efd633315ff5179c",
+  "slug": "llama-server-最新版本自动将模型迁移至-huggingface-缓存导致用户脚本失效",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-29T00:00:00Z",
+  "lang": "zh",
+  "title": "llama-server 最新版本自动将模型迁移至 HuggingFace 缓存，导致用户脚本失效",
+  "summary": "用户报告称，四天前在提交 b8498 中发布的 llama-server 最新版本自动将模型从旧的 llama.cpp 缓存迁移到 HuggingFace 缓存目录，移动并转换了 .gguf 文件，导致现有的启动和管理脚本失效。 这一破坏性变更影响了依赖 llama-server 进行本地大语言模型部署的用户，通过未经用户同意更改模型位置来中断工作流程，并凸显了生产工具自动化更新中的风险。 迁移仅影响使用 -hf 标志下载的模型，不影响来自 --model-url 的模型，且该过程不可逆，将 .gguf 文件转换为新缓存中的二进制数据块。",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "HuggingFace",
+    "breaking-change",
+    "model-management",
+    "local-LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 28, 14:51"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s62el8/breaking_change_in_llamaserver/",
+  "originalSite": "reddit.com",
+  "context": "llama-server 是基于 llama.cpp 的工具，用于在本地自托管大语言模型，常用于生产环境。GGUF 是一种为快速加载和部署大语言模型而设计的二进制文件格式，取代了 GGJT 等旧格式。HuggingFace 缓存是存储模型和数据集以避免重复下载的标准目录，在 Linux 系统上通常位于 ~/.cache/huggingface。",
+  "discussion": "用户对在不可逆更改前缺乏停止迁移的选项表示不满，批评此举是“HuggingFace 接管”的一部分，破坏了现有设置。",
+  "references": [
+    {
+      "title": "llama.cpp/tools/server/README.md at master - GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md"
+    },
+    {
+      "title": "GGUF File Format | ggml-org/ggml | DeepWiki",
+      "url": "https://deepwiki.com/ggml-org/ggml/2.6-gguf-file-format"
+    },
+    {
+      "title": "Cache management · Hugging Face",
+      "url": "https://huggingface.co/docs/datasets/cache"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

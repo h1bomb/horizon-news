@@ -1,0 +1,44 @@
+{
+  "id": "1a7304d2e51128899dc428ed6c1a83aad806e65c",
+  "canonicalId": "22a82dc316ae94c50e3ff19a1a00ca5fa935ea1f",
+  "slug": "连贯上下文能悄无声息地将-llm-切换到不同内部状态",
+  "date": "2026-06-15",
+  "publishedAt": "2026-06-14T21:42:00Z",
+  "lang": "zh",
+  "title": "连贯上下文能悄无声息地将 LLM 切换到不同内部状态",
+  "summary": "独立研究者 PresentSituation8736 发现，强大的连贯上下文可以在输出生成之前改变 LLM 的内部表征空间，使得 RLHF 和输出过滤器等安全机制对变化视而不见。 这一发现揭示了当前 LLM 安全方法的一个根本性盲点——它们只检查最终输出，意味着精心构造的对手可以在不触发任何表层警报的情况下绕过安全防护。 研究者测量了隐藏状态几何结构、残差流轨迹，并在 Gemma-3-12B-IT 等开放模型上使用了稀疏自编码器（SAE）读数，使用的目标文本是连贯的文本而非直接的越狱提示。",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "mechanistic interpretability",
+    "LLM",
+    "alignment",
+    "internal state"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/PresentSituation8736"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u5xnxg/coherent_context_can_silently_shift_llms_into_a/",
+  "originalSite": "reddit.com",
+  "context": "LLM 是通过一系列层变换词元嵌入来处理文本的神经网络。残差流是一个核心组件，它在各层之间累积信息，充当共享的表征空间。机械可解释性旨在逆向工程这些模型的内部算法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Large language model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "title": "Exploring the Residual Stream of Transformers - arXiv.org",
+      "url": "https://arxiv.org/html/2312.12141v1"
+    },
+    {
+      "title": "\" Mechanistic interpretability \" for LLMs, explained",
+      "url": "https://seantrott.substack.com/p/mechanistic-interpretability-for"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "182b3d8142f347cefa11e38af960ad9a5733abbb",
+  "canonicalId": "5a78eb62801055676474763a1c1b5ca9ed52eacf",
+  "slug": "homebrew-600-released-with-security-and-performance-upgrades",
+  "date": "2026-06-12",
+  "publishedAt": "2026-06-11T13:24:00Z",
+  "lang": "en",
+  "title": "Homebrew 6.0.0 Released with Security and Performance Upgrades",
+  "summary": "Homebrew 6.0.0 introduces tap trust security, a new default internal JSON API for faster metadata fetching, sandboxing on Linux, and initial support for macOS 27 (Golden Gate). As a widely-used package manager for macOS and Linux, these updates enhance user security, improve performance, and extend platform coverage, benefiting millions of developers who rely on Homebrew daily. The tap trust mechanism requires explicit user trust for third-party taps due to the risk of arbitrary Ruby execution. The internal JSON API replaces local tap clones, reducing bandwidth and disk usage.",
+  "score": 8,
+  "tags": [
+    "homebrew",
+    "package-manager",
+    "macOS",
+    "security",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mikemcquaid",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48490024"
+    }
+  ],
+  "originalUrl": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+  "originalSite": "brew.sh",
+  "context": "Homebrew is a package manager that simplifies installing software on macOS and Linux. Taps are third-party repositories that can contain packages, but they can also run arbitrary code. The internal JSON API fetches package metadata from a central server instead of cloning entire tap repositories, which is faster and more efficient.",
+  "discussion": "The community largely expressed gratitude for the release and long-term maintenance, with some users discussing alternative tools like mise and Nix. Positive sentiment was high, and contributors appreciated the security and speed improvements.",
+  "references": [
+    {
+      "title": "Homebrew: 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/"
+    },
+    {
+      "title": "Homebrew Documentation: Tap Trust",
+      "url": "https://docs.brew.sh/Tap-Trust"
+    },
+    {
+      "title": "Homebrew API and JSON Backend | Homebrew/brew | DeepWiki",
+      "url": "https://deepwiki.com/Homebrew/brew/13-homebrew-api-and-json-backend"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

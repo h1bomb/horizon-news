@@ -1,0 +1,44 @@
+{
+  "id": "c842c93f7a50a4019c70aec5a28294f204f15f60",
+  "canonicalId": "25644dfc9eac470e967af8d60afcfae6da5f6e0d",
+  "slug": "progress-on-removing-linux-page-mapcount-field",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T13:16:00Z",
+  "lang": "en",
+  "title": "Progress on removing Linux page mapcount field",
+  "summary": "David Hildenbrand reported nearing completion of removing the expensive 'mapcount' field from Linux's struct page at the 2026 LSFMM+BPF Summit, with a new patch set that introduces a 'folio->_total_pages_mapped' field. This change reduces kernel memory management overhead, simplifies code, and enables better support for large folios, potentially improving performance and maintainability for the entire Linux kernel. The new 'NO_PAGE_MAPCOUNT' config option (since 6.15) is still experimental; the latest patch set also adds support for mapping large folios as arbitrary combinations of page sizes, but makes some accounting statistics imprecise.",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "struct page",
+    "mapcount",
+    "LSFMM+BPF"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1073418/",
+  "originalSite": "lwn.net",
+  "context": "The mapcount field in struct page tracks how many page-table entries reference a given page, and a zero mapcount indicates the page can be reclaimed. Maintaining this field has become increasingly complex and expensive as memory management evolves, motivating efforts to eliminate it.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "struct page, the Linux physical page frame data structure | linux",
+      "url": "https://blogs.oracle.com/linux/struct-page-the-linux-physical-page-frame-data-structure"
+    },
+    {
+      "title": "Looking forward to mapcount madness 2025 [LWN.net]",
+      "url": "https://lwn.net/Articles/1013649/"
+    },
+    {
+      "title": "Linux Storage, Filesystem, MM & BPF Summit | LF Events",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

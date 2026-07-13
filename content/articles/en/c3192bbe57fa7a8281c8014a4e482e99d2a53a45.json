@@ -1,0 +1,31 @@
+{
+  "id": "c3192bbe57fa7a8281c8014a4e482e99d2a53a45",
+  "canonicalId": "812bf4a634194c87ce7fde363f7e6f5ef9d84225",
+  "slug": "critical-linux-kernel-zero-day-cve-2026-31431-unpatched",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T18:13:00Z",
+  "lang": "en",
+  "title": "Critical Linux Kernel Zero-Day CVE-2026-31431 Unpatched",
+  "summary": "Security firm Xint disclosed a critical zero-day vulnerability (CVE-2026-31431) in the Linux kernel's AF_ALG socket family, allowing unprivileged users to escalate privileges to root. As of now, no patch is available for many major distributions. This vulnerability poses a high risk as it enables local privilege escalation from user space to root, affecting a wide range of Linux systems. The lack of a patch and the low severity rating by some vendors have caused concern in the security community. The vulnerability resides in the AF_ALG socket family, which provides a socket-based interface to the kernel's cryptographic API. A suggested mitigation is to disable the kernel module `algif_aead` via modprobe configuration, but on some systems (e.g., RHEL 9/10) the module is built-in, requiring alternative workarounds.",
+  "score": 9,
+  "tags": [
+    "security",
+    "linux kernel",
+    "cve",
+    "privilege escalation",
+    "zero-day"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "unsnap_biceps"
+    }
+  ],
+  "originalUrl": "https://copy.fail/",
+  "originalSite": "copy.fail",
+  "context": "AF_ALG is a Linux-specific socket family that allows user-space programs to access kernel cryptographic operations. It is commonly used by applications like GnuTLS and OpenVPN for hardware-accelerated encryption. The vulnerability was discovered by security firm Xint and disclosed with a proof-of-concept exploit.",
+  "discussion": "The community expressed frustration over the disclosure process, noting that vendors like Red Hat rated the vulnerability as 'Moderate' and deferred the fix. Users shared mitigation techniques, including disabling the `algif_aead` module or using systemd to block AF_ALG sockets. Some also highlighted the risk of autonomous AI agents running as regular users on affected systems.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

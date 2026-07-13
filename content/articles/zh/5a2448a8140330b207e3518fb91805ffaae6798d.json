@@ -1,0 +1,44 @@
+{
+  "id": "5a2448a8140330b207e3518fb91805ffaae6798d",
+  "canonicalId": "752b77bb91de9b905b638c4f14ca08b48ac6a0f2",
+  "slug": "nix-包管理器守护进程漏洞允许-root-权限提升",
+  "date": "2026-04-09",
+  "publishedAt": "2026-04-09T00:00:00Z",
+  "lang": "zh",
+  "title": "Nix 包管理器守护进程漏洞允许 root 权限提升",
+  "summary": "NixOS 项目宣布 Nix 包管理器守护进程中存在一个关键的权限提升漏洞（CVE-2024-27297），该漏洞是在修复先前问题时引入的。该缺陷影响所有默认的 NixOS 配置以及构建不受信任 derivations 的系统，允许用户通过在固定输出 derivation 注册期间利用符号链接跟随来获取 root 权限。 该漏洞非常关键，因为它影响了 NixOS 的默认配置以及 Nix 守护进程以 root 身份运行的多用户安装，可能允许任何能够提交构建的用户获得完整的系统控制权。鉴于 Nix 在可重现构建和系统配置管理方面的日益普及，此安全缺陷可能影响众多生产系统和开发环境。 该漏洞专门影响沙盒化的 Linux 构建，但不影响沙盒化的 macOS 构建，涉及 Nix 进程在输出注册期间跟随由 derivation 构建器创建的符号链接。在使用默认设置（其中 allowed-users 默认为所有用户）的多用户安装中，这为通过修改敏感文件实现 root 权限提升创造了途径。",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "nix",
+    "package-management",
+    "privilege-escalation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 8, 13:52"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066813/",
+  "originalSite": "lwn.net",
+  "context": "Nix 是一个最初作为大学研究项目开发的包管理器，旨在解决传统包管理器的不足，以其可重现的构建和声明式配置方法而闻名。在 Nix 中，derivations 是描述如何创建包的构建规范，而 Nix 守护进程在多用户安装中通常以 root 身份运行，以管理构建和系统范围的包。固定输出 derivations 是一种特殊的 derivations，其输出是预先已知的，例如源代码压缩包或 Git 检出。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Nix Package Manager",
+      "url": "https://www.cjjackson.dev/posts/nix-package-manager/"
+    },
+    {
+      "title": "Derivations - Nix Reference Manual",
+      "url": "https://nix.dev/manual/nix/2.25/language/derivations"
+    },
+    {
+      "title": "CVE-2024-27297 | Ubuntu Fixed-Output Derivation Sandbox Bypass (CVE-2024-27297) Sandbox escape: file write via symlink at FOD `.tmp` copy ... CVE Record: CVE-2024-27297 Nix privilege escalation security advisory [LWN.net] CVE-2024-27297 - Vulnerability Details - OpenCVE",
+      "url": "https://ubuntu.com/security/CVE-2024-27297"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

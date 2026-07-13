@@ -1,0 +1,44 @@
+{
+  "id": "036ec335adc3b55b798285360a6a52061f82d58d",
+  "canonicalId": "2263181de8fd875b6a46ae6b47ac537bcaad40fb",
+  "slug": "swift-63-正式发布提供官方-android-sdk支持用-swift-开发原生-android-应用",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Swift 6.3 正式发布，提供官方 Android SDK，支持用 Swift 开发原生 Android 应用。",
+  "summary": "Swift 6.3 于 2026 年 3 月 25 日正式发布，首次推出了官方的 Swift SDK for Android，使开发者能够使用 Swift 编写原生 Android 程序。该版本还提供了 Swift Java 插件，用于将 Swift 代码集成到现有的 Kotlin 或 Java 应用中。 这标志着跨平台开发的重大突破，将 Swift 的生态系统扩展到苹果平台之外，通过支持在 iOS 和 Android 之间重用代码，可能重塑移动开发工作流。它有望加速创新并减少移动应用行业的碎片化。 Swift SDK for Android 是 Swift.org 项目的官方工具，由苹果的开源团队支持，可通过 Windows 安装程序捆绑获取或单独下载用于 Linux 和 macOS。开发者可以用它完全用 Swift 构建完整的原生 Android 活动，例如带有 OpenGL ES 渲染的应用。",
+  "score": 9,
+  "tags": [
+    "Swift",
+    "Android",
+    "Cross-Platform Development",
+    "Mobile Development",
+    "Programming Languages"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 25, 03:45"
+    }
+  ],
+  "originalUrl": "https://swift.org/blog/swift-6.3-released/",
+  "originalSite": "swift.org",
+  "context": "Swift 是苹果公司开发的编程语言，主要用于构建 iOS、macOS、watchOS 和 tvOS 应用。原生 Android 开发传统上依赖 Java 或 Kotlin 等语言，而 Flutter 或 React Native 等跨平台工具提供了替代方案，但通常存在性能折衷。Swift SDK for Android 是一项官方努力，旨在连接这些生态系统，使 Swift 能够直接为 Android 编译，无需依赖第三方工具。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Swift 6.3 Released | Swift .org",
+      "url": "https://www.swift.org/blog/swift-6.3-released/"
+    },
+    {
+      "title": "Announcing the Swift SDK for Android | Tom Holmes",
+      "url": "https://www.linkedin.com/posts/tomholmes96_announcing-the-swift-sdk-for-android-activity-7388557917077008384-9DEO"
+    },
+    {
+      "title": "Swift SDK for Android is Here: Build Native Android Apps with Swift - DEV Community",
+      "url": "https://dev.to/arshtechpro/swift-sdk-for-android-is-here-build-native-android-apps-with-swift-1372"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

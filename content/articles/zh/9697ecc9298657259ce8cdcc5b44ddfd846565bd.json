@@ -1,0 +1,40 @@
+{
+  "id": "9697ecc9298657259ce8cdcc5b44ddfd846565bd",
+  "canonicalId": "80864b94387bc736f79b727e4b7033cd8d4b5b44",
+  "slug": "内核-72-引入分配令牌和引导补丁-slr",
+  "date": "2026-06-26",
+  "publishedAt": "2026-06-25T14:02:00Z",
+  "lang": "zh",
+  "title": "内核 7.2 引入分配令牌和引导补丁 SLR",
+  "summary": "即将发布的 Linux 内核 7.2 合并了基于类型的 slab 分区功能，该功能利用 Clang 的分配令牌特性；同时，一项名为 Bootpatch-SLR 的长期项目旨在引导时随机化结构布局。 这些加固技术通过隔离对象类型和随机化结构布局，显著增加了攻击者利用内核内存损坏漏洞的难度，降低了堆喷射和定向覆盖攻击的有效性。 分配令牌利用 Clang 内置函数从分配对象的类型生成令牌，确保相同类型的对象始终来自同一内存分区；Bootpatch-SLR 在内核构建后、引导时应用结构布局随机化，是编译时随机化的更灵活替代方案。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "security",
+    "memory hardening",
+    "slab allocator",
+    "structure randomization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078699/",
+  "originalSite": "lwn.net",
+  "context": "内核的 slab 分配器管理小对象的内存，常常将不同类型的对象混合在同一个 slab 中。这种混合使得堆喷射攻击和缓冲区溢出可以破坏不相关的对象。早期的随机化 slab 分区提供了概率性防御，但仍给攻击者留下了机会；基于类型的分区完全消除了这种机会。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[RFC] A Framework for Allocator Partitioning Hints - LLVM Project",
+      "url": "https://discourse.llvm.org/t/rfc-a-framework-for-allocator-partitioning-hints/87434"
+    },
+    {
+      "title": "Bootpatch- SLR : Randomizing Linux Kernel Structure Layouts at Boot",
+      "url": "https://lwn.net/Articles/1076762/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

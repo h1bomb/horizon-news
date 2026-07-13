@@ -1,0 +1,44 @@
+{
+  "id": "7e15543c6343cd6a6064a9251d0b8bd046320246",
+  "canonicalId": "30c9360cf33eec50d981909b562d5765bbfcd4e2",
+  "slug": "华为在-mwc-2026-首次展示-atlas-950-与-taishan-950-superpod-等超节点产品",
+  "date": "2026-03-02",
+  "publishedAt": "2026-03-02T00:00:00Z",
+  "lang": "zh",
+  "title": "华为在 MWC 2026 首次展示 Atlas 950 与 TaiShan 950 SuperPoD 等超节点产品",
+  "summary": "华为于 2026 年 2 月 28 日在西班牙巴塞罗那 MWC 期间，首次在海外市场展示了 Atlas 950 SuperPoD 和 TaiShan 950 SuperPoD 等超节点产品。同时，华为宣布将开源其 CANN 异构计算架构，并为 openEuler 操作系统做出贡献。 此次发布意义重大，标志着华为战略性地为全球 AI 计算基础设施，特别是超大规模 AI 工作负载，提供了一个全新的、开放的选项。其开源举措旨在促进生态系统协作，减少供应商锁定，可能重塑高性能计算市场的竞争格局。 基于华为灵衢（UnifiedBus）互联协议构建的新“集群+超节点”架构，支持最高 8192 卡规模，并实现了内存统一编址。Atlas 950 SuperPoD 被定位为超大规模 AI 计算任务的最优解决方案，采用了正交、无线缆的电气互连架构。",
+  "score": 8,
+  "tags": [
+    "high-performance-computing",
+    "hardware-architecture",
+    "open-source",
+    "huawei",
+    "data-center"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 1, 13:18"
+    }
+  ],
+  "originalUrl": "https://www.huawei.com/cn/news/2026/3/mwc-superpod-computing",
+  "originalSite": "huawei.com",
+  "context": "SuperPoD（超节点）指一种为高性能和 AI 工作负载设计的大规模、基于机柜模块（Pod）的计算架构。华为的 UnifiedBus（灵衢）是一种互联协议，旨在为计算集群实现总线级互联、统一协议和资源池化。CANN（Compute Architecture for Neural Networks）是华为面向 AI 场景的异构计算架构，它提供了一个软件栈，用于高效利用 CPU、GPU 和 AI 加速器等不同类型的处理器。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Huawei Launches Open-Access SuperPoD Architecture for All-Scenario ...",
+      "url": "https://www.huawei.com/en/news/2025/9/hc-superpod-innovation"
+    },
+    {
+      "title": "Huawei Unveils Atlas 950 and TaiShan 950 SuperPoD at MWC Barcelona 2026 ...",
+      "url": "https://telecomlead.com/telecom-equipment/huawei-unveils-atlas-950-and-taishan-950-superpod-at-mwc-barcelona-2026-to-strengthen-global-ai-computing-foundation-124847"
+    },
+    {
+      "title": "Huawei - CANN | onnxruntime",
+      "url": "https://onnxruntime.ai/docs/execution-providers/community-maintained/CANN-ExecutionProvider.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

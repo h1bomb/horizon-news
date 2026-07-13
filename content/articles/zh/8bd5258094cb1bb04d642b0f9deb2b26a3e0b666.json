@@ -1,0 +1,41 @@
+{
+  "id": "8bd5258094cb1bb04d642b0f9deb2b26a3e0b666",
+  "canonicalId": "7f4c5f9ef711c7a0962643c1e6f50e83ee93fb86",
+  "slug": "openbsd-释放后使用漏洞导致本地权限提升至-root",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:24:00Z",
+  "lang": "zh",
+  "title": "OpenBSD 释放后使用漏洞导致本地权限提升至 root",
+  "summary": "在 OpenBSD 中发现了一个释放后使用漏洞（CVE-2026-57589），允许本地攻击者将权限提升至 root。 该漏洞意义重大，因为 OpenBSD 以其安全特性著称，本地权限提升漏洞可能损害其声誉。所有运行受影响版本的系统都会受到影响。 该漏洞是由 OpenAI 和 Trail of Bits 发起的 'Patch The Planet' 项目发现的。目前细节有限，OpenBSD 安全页面尚未列出该漏洞。",
+  "score": 8,
+  "tags": [
+    "openbsd",
+    "security",
+    "vulnerability",
+    "CVE",
+    "privilege-escalation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "linggen",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48831658"
+    }
+  ],
+  "originalUrl": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+  "originalSite": "nvd.nist.gov",
+  "context": "OpenBSD 是一个注重安全性和正确性的自由类 Unix 操作系统。本地权限提升是指拥有有限访问权限的用户通过利用软件缺陷获得更高权限（如 root）的攻击方式。",
+  "discussion": "评论指出该漏洞是通过人工智能辅助的漏洞挖掘发现的，赞扬了 OpenBSD 良好的安全记录，并质疑为何该漏洞尚未出现在官方安全页面。一些人好奇类似项目还可能发现多少漏洞。",
+  "references": [
+    {
+      "title": "OpenBSD",
+      "url": "https://en.wikipedia.org/wiki/OpenBSD"
+    },
+    {
+      "title": "Local privilege escalation",
+      "url": "https://en.wikipedia.org/wiki/Local_privilege_escalation"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

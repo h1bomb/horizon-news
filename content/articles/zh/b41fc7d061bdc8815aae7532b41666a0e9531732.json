@@ -1,0 +1,44 @@
+{
+  "id": "b41fc7d061bdc8815aae7532b41666a0e9531732",
+  "canonicalId": "778534f656319cb0aa1ade0e6890a31d1e29883e",
+  "slug": "openai-发布-gpt-54具备-100-万-token-上下文窗口并采用新定价结构",
+  "date": "2026-03-06",
+  "publishedAt": "2026-03-06T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-5.4，具备 100 万 token 上下文窗口并采用新定价结构。",
+  "summary": "OpenAI 发布了 GPT-5 系列中的新推理模型 GPT-5.4，其特点是拥有高达 100 万 token 的上下文窗口。此次发布还包括新的定价结构，GPT-5.4 的定价为每百万输入 token 2.50 美元，每百万输出 token 15 美元。 这标志着大语言模型实用性的重大飞跃，因为 100 万的上下文窗口允许在单个提示中处理整本书、大型代码库或冗长的法律文件。其具有竞争力的定价和扩展的能力可能会改变市场格局，给 Anthropic 和 Google 等竞争对手带来压力。 根据系统卡片信息，GPT-5.4 是该系列中首个针对高能力网络安全风险实施了特定缓解措施的通用模型。值得注意的是，使用超过前 20 万 token 的部分没有额外费用，这与一些对扩展上下文收费的竞争对手不同。",
+  "score": 9,
+  "tags": [
+    "artificial-intelligence",
+    "llm",
+    "openai",
+    "machine-learning",
+    "nlp"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 5, 18:08"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-5-4/",
+  "originalSite": "openai.com",
+  "context": "大语言模型（LLM）的上下文窗口是指模型在生成响应时一次可以考虑的最大文本量，以 token 为单位计量。它充当模型的工作记忆；窗口越大，模型就能从单次对话或文档中引用更多信息。OpenAI 的 GPT 系列以及 Anthropic 和 Google 等公司的模型是领先的商业 LLM，其中上下文窗口大小和定价是关键竞争差异点。",
+  "discussion": "社区讨论强调了 100 万上下文窗口的突破性，并分析了其相较于 Anthropic 的 Opus 等模型的竞争性定价。一些用户对 OpenAI 复杂的模型阵容和版本命名表示不满，称赞竞争对手的产品线更简洁。关于 GPT-5.4 输出质量的早期用户反馈是积极的，指出其写作比之前的版本更清晰、更有条理。",
+  "references": [
+    {
+      "title": "What is a Context Window for Large Language Models? - DataCamp",
+      "url": "https://www.datacamp.com/blog/context-window"
+    },
+    {
+      "title": "Pricing | OpenAI | Simple and flexible. Only pay for what you use.",
+      "url": "https://openai.com/api/pricing/"
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card | OpenAI",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

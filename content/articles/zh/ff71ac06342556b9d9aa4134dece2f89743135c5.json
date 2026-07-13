@@ -1,0 +1,44 @@
+{
+  "id": "ff71ac06342556b9d9aa4134dece2f89743135c5",
+  "canonicalId": "dee42863dfefcde6db6751c3b0725f4550647fa1",
+  "slug": "sglang-v0510rc0-发布带来多项性能优化和新功能",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-29T00:00:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.10rc0 发布，带来多项性能优化和新功能",
+  "summary": "SGLang 发布了 0.5.10rc0 版本，该版本引入了分片 CUDA 图作为默认执行模式、用于 MoE 模型部分故障容忍的 Elastic EP、用于长上下文推理的 HiSparse 稀疏注意力，以及对扩散模型组件的重大更新，包括新模型支持和 macOS 平台扩展。 此版本显著提升了大型语言模型的推理吞吐量和系统弹性，特别有利于 DeepSeek MoE 等复杂模型的部署和长上下文工作负载，同时通过 macOS 支持和增强的扩散能力扩大了可访问性。 该版本包括用于混合精度 FP8 推理的 FlashInfer MXFP8 内核支持、用于最新模型架构的 Transformers 5.3.0 升级、带有 JIT 对齐内核的 MoE 层 LoRA 支持，以及用于 Apple Silicon Mac 的原生 MLX 后端。这是一个候选发布版本，而非稳定版本。",
+  "score": 7,
+  "tags": [
+    "inference-optimization",
+    "gpu-computing",
+    "large-language-models",
+    "machine-learning-systems",
+    "model-serving"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Mar 28, 05:58"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10rc0",
+  "originalSite": "github.com",
+  "context": "SGLang 是一个用于大型语言模型的高性能推理引擎，可优化 GPU 系统上的执行。分片 CUDA 图是一种将计算图分割成片段的技术，可减少内存开销并提高具有复杂控制流模型的吞吐量。Elastic EP 通过在混合专家模型中 GPU 故障时重新分配专家权重来提供部分故障容忍。HiSparse 是一个稀疏注意力后端，通过稀疏感知注意力机制降低长上下文推理的计算需求。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Piecewise CUDA Graph — SGLang",
+      "url": "https://docs.sglang.io/advanced_features/piecewise_cuda_graph.html"
+    },
+    {
+      "title": "elastic _ ep - vLLM",
+      "url": "https://docs.vllm.ai/en/stable/api/vllm/distributed/elastic_ep/"
+    },
+    {
+      "title": "Dynamic Scheduling for Efficient Hierarchical Sparse Matrix...",
+      "url": "https://people.mpi-inf.mpg.de/~rzayer/pappe/HiSparseSPMV.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

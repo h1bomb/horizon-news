@@ -1,0 +1,45 @@
+{
+  "id": "a4992cba58d9e81f55b605330c6b076b25ee4a23",
+  "canonicalId": "554e8c99cf385b31960e1fe2f848c9541531e537",
+  "slug": "clickhouse-scales-pgbouncer-to-4x-throughput",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T15:28:00Z",
+  "lang": "en",
+  "title": "ClickHouse scales PgBouncer to 4x throughput",
+  "summary": "ClickHouse published a blog post describing how they scaled PgBouncer, a popular PostgreSQL connection pooler, to 4x its original throughput by enabling SO_REUSEPORT and implementing peering between processes. PgBouncer is widely used in PostgreSQL deployments, and this performance improvement benefits many users who rely on it for connection pooling. The techniques used can inspire similar optimizations in other network services. SO_REUSEPORT allows multiple processes to bind to the same TCP port, distributing incoming connections evenly. Peering forwards cancellation requests to the correct process, eliminating bottlenecks and improving scalability.",
+  "score": 8,
+  "tags": [
+    "PostgreSQL",
+    "PgBouncer",
+    "performance",
+    "connection pooling",
+    "scalability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "saisrirampur",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48872874"
+    }
+  ],
+  "originalUrl": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+  "originalSite": "clickhouse.com",
+  "context": "PgBouncer is a lightweight connection pooler for PostgreSQL that manages database connections to improve performance. Traditionally, it runs as a single process, limiting throughput on multi-core systems. SO_REUSEPORT is a Linux socket option that enables multiple processes to accept connections on the same port. Peering in PgBouncer allows separate processes to coordinate and forward cancellation requests, which historically caused issues when a cancellation landed on the wrong process.",
+  "discussion": "Community members suggested alternatives like Odyssey and pgdog, and asked about the simplicity of setting up peering. Others shared experiences running multiple PgBouncer processes on Kubernetes or in multi-machine setups.",
+  "references": [
+    {
+      "title": "The SO_REUSEPORT socket option [LWN.net]",
+      "url": "https://lwn.net/Articles/542629/"
+    },
+    {
+      "title": "Performance Optimisation using SO_REUSEPORT | by Marten Gartner | High Performance Network Programming | Medium",
+      "url": "https://medium.com/high-performance-network-programming/performance-optimisation-using-so-reuseport-c0fe4f2d3f88"
+    },
+    {
+      "title": "PgBouncer config",
+      "url": "https://www.pgbouncer.org/config.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

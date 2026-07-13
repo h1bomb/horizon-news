@@ -1,0 +1,44 @@
+{
+  "id": "3fdda3987aecb8a607ab21f7478332cb12d0089a",
+  "canonicalId": "aae15c176dde2d9fab84d6a5596d4b70ccc6686c",
+  "slug": "google-research-推出-turboquant将大模型-kv-缓存压缩至-3-比特",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-26T00:00:00Z",
+  "lang": "zh",
+  "title": "Google Research 推出 TurboQuant，将大模型 KV 缓存压缩至 3 比特",
+  "summary": "Google Research 推出了向量量化算法 TurboQuant，该算法无需训练或微调即可将大语言模型的 KV 缓存量化至 3 比特。实验结果显示，它至少将内存占用压缩了 6 倍，并在 H100 GPU 上将 attention logits 的计算速度最高提升了 8 倍，同时保持了下游任务的准确性。 这一突破解决了大语言模型推理中的关键内存瓶颈问题，通过降低硬件成本和能耗，可能使大型模型更易于普及。它有望加速 AI 应用在资源受限环境中的部署，并提升向量搜索系统的可扩展性。 TurboQuant 结合了两种方法：PolarQuant 通过随机旋转数据向量实现高质量压缩，以及 Quantized Johnson-Lindenstrauss (QJL) 用于降维。该算法在长上下文“大海捞针”测试中实现了零精度损失，并在高维向量搜索的召回率上优于 PQ 和 RabbiQ 等现有方法。",
+  "score": 9,
+  "tags": [
+    "AI Efficiency",
+    "Model Compression",
+    "KV Cache",
+    "Vector Quantization",
+    "Google Research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 25, 05:15"
+    }
+  ],
+  "originalUrl": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+  "originalSite": "research.google",
+  "context": "KV 缓存在大语言模型推理过程中存储先前 token 的键值对，以避免重复计算，但它会消耗大量内存，尤其是在处理长序列时。向量量化通过减少高维向量的比特表示来实现压缩，但传统方法通常会引入额外开销，从而限制效率。TurboQuant 通过最小化内存开销同时保持压缩质量来解决这一问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "Key Value Cache | Continuum Labs",
+      "url": "https://training.continuumlabs.ai/inference/why-is-inference-important/key-value-cache"
+    },
+    {
+      "title": "TurboQuant Redefines AI Compression Efficiency for Large ...",
+      "url": "https://opendatascience.com/turboquant-redefines-ai-compression-efficiency-for-large-scale-models/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "73344061816869731356247de2d8ccd1226495ad",
+  "canonicalId": "877b96ddaec701ddb96e78d4a639897c4ef3e183",
+  "slug": "heretic-的-ara-方法在-gemma-4-发布-90-分钟内成功绕过其对齐防御",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Heretic 的 ARA 方法在 Gemma 4 发布 90 分钟内成功绕过其对齐防御",
+  "summary": "Heretic 开发的 Arbitrary-Rank Ablation（ARA）方法在 Google 的 Gemma 4 模型正式发布仅 90 分钟后，就成功绕过了该模型的对齐防御机制，实现了无审查的响应且没有明显的模型损伤。该方法使用矩阵优化技术来抑制模型中的拒绝机制。 这表明即使对于主要模型发布，新的对齐绕过技术也能迅速出现，凸显了 AI 安全和对齐研究面临的持续挑战。ARA 方法对 Google 新发布模型的快速成功，突显了开源 AI 生态系统中对齐安全性的猫鼠游戏本质。 ARA 方法仍处于实验阶段，尚未包含在 Heretic 的 PyPI 版本中，需要从特定的 GitHub 分支安装。早期实验表明，从配置的目标组件中移除`mlp.down_proj`可能会提高消融效果。",
+  "score": 8,
+  "tags": [
+    "AI Alignment",
+    "Model Security",
+    "Machine Learning",
+    "Open Source",
+    "Red Teaming"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 2, 17:19"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/",
+  "originalSite": "reddit.com",
+  "context": "AI 对齐是指确保 AI 模型按照人类价值观和安全准则行事的技术，通常通过拒绝机制实现，防止模型生成有害或不适当的内容。Arbitrary-Rank Ablation（ARA）是一种使用矩阵优化选择性修改模型参数的方法，专门针对负责拒绝行为的组件。在 Gemma 这样的 transformer 模型中，MLP（多层感知机）块包含将激活值投影回输出空间的 down_proj 矩阵，这些组件可以被选为消融目标以改变模型行为。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ARA : метод децензурирования LLM от Heretic | AiManual",
+      "url": "https://ai-manual.ru/article/ara-arbitrary-rank-ablation-kak-rabotaet-novyij-metod-detsenzurirovaniya-llm-ot-heretic-i-kak-ego-primenit/"
+    },
+    {
+      "title": "Doubleword | MLP : Attention in a Trench Coat",
+      "url": "https://resources.doubleword.ai/resources/mlp-attention-in-a-trench-coat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

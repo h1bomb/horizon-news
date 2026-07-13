@@ -1,0 +1,44 @@
+{
+  "id": "4014426e2469f05865934724887219b37507c254",
+  "canonicalId": "a5293835bf45e911e06ef313d412b5e6d33e8728",
+  "slug": "依赖冷却期兴起以应对开源供应链攻击",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "依赖冷却期兴起以应对开源供应链攻击",
+  "summary": "2025 年 11 月，William Woodruff 发表了一篇博客文章，倡导使用依赖冷却期，即延迟几天拉取更新以减轻供应链攻击，这一做法目前正被用户和一些包管理器采纳。文章强调了社区对其有效性和伦理影响的争论，例如关于搭便车的担忧。 这很重要，因为开源软件中的供应链攻击正在增加，依赖冷却期提供了一种简单、经济高效的方法，可将暴露风险降低 80-90%，从而可能保护数百万个项目免受恶意代码注入。这反映了软件开发中向主动安全措施的更广泛转变，影响开发者、维护者和包生态系统。 Woodruff 对 2024-2025 年十起重大攻击（包括 XZ 后门和 Python ultralytics 攻击）的分析显示，攻击者的利用窗口通常在检测前不到一周，因此七天的冷却期是有效的。然而，冷却期并非完全解决方案，因为它依赖于社会信任，且可能无法防止未被发现的恶意维护者发起的攻击。",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "security",
+    "supply-chain",
+    "dependency-management",
+    "software-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 22, 15:21"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1068692/",
+  "originalSite": "lwn.net",
+  "context": "供应链攻击涉及破坏第三方组件（如库或包）以向软件注入恶意代码，类似于渗透生产货币的工厂。依赖冷却期延迟依赖项的自动更新，为安全研究人员提供时间在恶意发布被广泛采用前检测和标记它们。这种做法正被集成到 npm 和 pip 等包管理器中，以将安全性改造到先前缺乏此类审查窗口的生态系统中。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "We should all be using dependency cooldowns",
+      "url": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns"
+    },
+    {
+      "title": "PYPI Security: How to Prevent Supply Chain Attacks in Python Projects",
+      "url": "https://bolster.ai/blog/pypi-supply-chain-attacks"
+    },
+    {
+      "title": "Package Managers Need to Cool Down | Andrew Nesbitt",
+      "url": "https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

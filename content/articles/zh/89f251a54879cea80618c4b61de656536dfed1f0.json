@@ -1,0 +1,44 @@
+{
+  "id": "89f251a54879cea80618c4b61de656536dfed1f0",
+  "canonicalId": "7c077c72357ecf401d7b68d8f3d3db392f3983e2",
+  "slug": "ios-27-siri-使用-wavernn-和-fastspeech2-进行语音合成",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T21:04:00Z",
+  "lang": "zh",
+  "title": "iOS 27 Siri 使用 WaveRNN 和 FastSpeech2 进行语音合成",
+  "summary": "一名 Reddit 用户发现 iOS 27 中 Siri 的文本转语音系统使用了 WaveRNN 和 FastSpeech2 模型，这些模型以 espresso 格式存在于 iOS 模拟器的文件中。此外，还发现了一个用于演唱会排名的 CoreML 逻辑回归模型。 这表明苹果在其主要产品中采用了最先进的 TTS 模型，标志着向更高质量的设备端语音合成转变。这对关注苹果设备端机器学习能力的 ML 从业者和 iOS 开发者非常相关。 这些模型以 espresso 格式存储，这是苹果 Core ML 的专有模型格式。用于演唱会排名的 CoreML 模型根据其内容似乎是一个简单的逻辑回归模型。",
+  "score": 8,
+  "tags": [
+    "Siri",
+    "WaveRNN",
+    "FastSpeech2",
+    "TTS",
+    "CoreML"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Actual_L0Ki"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/",
+  "originalSite": "reddit.com",
+  "context": "WaveRNN 是一种神经声码器架构，可从梅尔频谱图等中间表示生成原始音频波形，以高质量语音合成著称。FastSpeech2 是一种非自回归 TTS 模型，在保持质量的同时显著提升了训练和推理速度。Espresso 是苹果 Core ML 的模型格式，专为高效的设备端推理而设计。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - fatchord/ WaveRNN : WaveRNN Vocoder + TTS · GitHub",
+      "url": "https://github.com/fatchord/WaveRNN"
+    },
+    {
+      "title": "FastSpeech 2 : Fast and High-Quality End-to-End... - Speech Research",
+      "url": "https://speechresearch.github.io/fastspeech2/"
+    },
+    {
+      "title": "GitHub - ming024/ FastSpeech 2 : An implementation of...",
+      "url": "https://github.com/ming024/FastSpeech2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

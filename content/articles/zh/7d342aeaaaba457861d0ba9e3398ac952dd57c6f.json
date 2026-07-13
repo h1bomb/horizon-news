@@ -1,0 +1,44 @@
+{
+  "id": "7d342aeaaaba457861d0ba9e3398ac952dd57c6f",
+  "canonicalId": "bacd7211fe7c9906bbc1911f6c19230850a272be",
+  "slug": "qwen-35-2b-模型在多种文本类型上展现出卓越的-ocr-能力",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.5 2B 模型在多种文本类型上展现出卓越的 OCR 能力。",
+  "summary": "Qwen 3.5 2B 视觉语言模型在光学字符识别（OCR）任务上表现令人印象深刻，能够处理各种角度和质量的文本，从清晰扫描件到低质量照片，并支持结构化输出。用户报告称，在读取护照机读区（MRZ）等特定任务上，其表现优于前代模型 Qwen 3.5 0.8B，后者曾导致重复字符的输出错误。 这一进展意义重大，因为它表明一个参数规模小（20 亿）、高效的模型可以在本地提供强大的 OCR 性能，从而可能减少对云服务或专门的、更大模型的依赖以进行文档处理。这为边缘部署开辟了实际应用场景，例如在消费级硬件上处理身份文件、游戏界面和手写文本。 据报道，该模型能够处理手写文本和包含表格的阿拉伯语文件等具有挑战性的案例，并且似乎已经修复了影响 Qwen 3.5 0.8B 模型在护照机读区识别上的重复字符错误。其性能正被积极与其他小型专用 OCR 模型（如 GLM-OCR 和 DeepSeek-OCR-2，它们也大约有 20 亿参数）进行比较。",
+  "score": 7,
+  "tags": [
+    "OCR",
+    "Vision-Language-Models",
+    "Qwen",
+    "LocalLLM",
+    "Document-Processing"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 15:34"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rivzcl/qwen_35_2b_is_an_ocr_beast/",
+  "originalSite": "reddit.com",
+  "context": "Qwen 是阿里云开发的大型语言模型系列，其中许多变体以开放权重模型形式发布。Qwen 3.5 2B 是一个视觉语言模型（VLM），采用早期融合架构来处理多模态输入。OCR（光学字符识别）是将文本图像转换为机器可编码文本的技术。机读区（MRZ）是护照和身份证底部的一个标准化区域，包含编码的个人数据，由于其特定的字体和格式，通常是 OCR 系统的一个具有挑战性的测试。",
+  "discussion": "社区讨论集中在性能对比测试和实际应用上。用户们正在分享将 Qwen 3.5 2B 与 GLM-OCR、DeepSeek-OCR-2 以及早期 Qwen VL 变体等其他模型进行比较的经验，并注意到其对手写文本的惊人准确性。提出的具体用例包括处理带表格的阿拉伯语法律文件、漫画书文字和游戏界面，用户们正在为每种场景寻求最佳模型的推荐。",
+  "references": [
+    {
+      "title": "Qwen / Qwen 3 . 5 - 2 B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-2B"
+    },
+    {
+      "title": "Machine-readable passport - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Machine-readable_passport"
+    },
+    {
+      "title": "Ministral 3 3B - docs.mistral.ai",
+      "url": "https://docs.mistral.ai/models/ministral-3-3b-25-12"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

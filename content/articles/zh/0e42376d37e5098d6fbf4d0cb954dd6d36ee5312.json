@@ -1,0 +1,41 @@
+{
+  "id": "0e42376d37e5098d6fbf4d0cb954dd6d36ee5312",
+  "canonicalId": "4b49585642d2633b02b7fbaa0624a3c073bb0fd5",
+  "slug": "首个针对苹果-m5-的公开-macos-内核利用漏洞",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-15T00:00:00Z",
+  "lang": "zh",
+  "title": "首个针对苹果 M5 的公开 macOS 内核利用漏洞",
+  "summary": "安全研究团队 Calif 公开了首个专门针对苹果 M5 芯片的 macOS 内核内存损坏利用漏洞，展示了内核中的一个关键漏洞。 这标志着 Apple 安全研究的一个重要里程碑，因为它暴露了最新 M5 架构中先前未知的漏洞，可能影响数百万台设备，并对 M5 的安全增强声明提出了挑战。 该利用漏洞涉及内核内存损坏，研究报告长达 55 页。社区评论指出，该漏洞在 MTE（内存标记扩展）存在的情况下仍然存在，这引起了人们的好奇。",
+  "score": 8,
+  "tags": [
+    "security",
+    "macOS",
+    "kernel",
+    "exploit",
+    "Apple M5"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 14, 18:25",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48139219"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+  "originalSite": "blog.calif.io",
+  "context": "苹果 M5 芯片是 Apple Silicon 系列的一部分，设计有先进的安全功能，包括 MTE（内存标记扩展）和神经加速器。内核内存损坏利用漏洞是最严重的漏洞之一，允许攻击者获得系统的完全控制。这是针对 M5 的首个此类公开利用漏洞。",
+  "discussion": "社区评论表达了兴奋和怀疑的混合情绪。一些用户指出缺乏技术细节，而另一些用户则讨论潜在的赏金价值（10 万至 150 万美元）。还有用户讽刺地猜测漏洞是捏造的，一位用户因 MIE（Mythos Integrity Engine？）而后悔购买了 M5。",
+  "references": [
+    {
+      "title": "Apple M5 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apple_M5"
+    },
+    {
+      "title": "Apple unleashes M5, the next big leap in AI performance for Apple silicon - Apple",
+      "url": "https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "f50033a46a607368d61dce7fda5f973e1c27f365",
+  "canonicalId": "565483467a768454c1dae0cd0bb36429a48adb0c",
+  "slug": "tridgell-defends-llm-use-for-rsync-security",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T13:00:00Z",
+  "lang": "en",
+  "title": "Tridgell defends LLM use for rsync security",
+  "summary": "Andrew Tridgell, the maintainer of rsync, published a blog post defending his use of LLM tools to improve rsync's security in response to a flood of AI-generated security reports. This incident highlights the growing tension in open source maintenance where maintainers turn to AI tools to combat an influx of AI-generated security reports, sparking debate about the role of AI in software security. Tridgell noted that not all reports are AI-generated; some involve careful manual analysis, and he has recruited new developers partly due to the controversy surrounding his approach.",
+  "score": 8,
+  "tags": [
+    "rsync",
+    "open source maintenance",
+    "LLM",
+    "security",
+    "AI in software development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1076040/",
+  "originalSite": "lwn.net",
+  "context": "Defense-in-depth is a cybersecurity strategy that uses multiple layers of controls to protect systems; if one layer fails, others mitigate risks. Open source maintainers like Tridgell face a growing number of low-quality AI-generated security reports, which can overwhelm traditional review processes and drive adoption of automated tools.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is Defense-in-Depth?: A Layered Cybersecurity Strategy",
+      "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-defense-in-depth"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

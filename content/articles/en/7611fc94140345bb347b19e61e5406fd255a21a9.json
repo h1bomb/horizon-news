@@ -1,0 +1,44 @@
+{
+  "id": "7611fc94140345bb347b19e61e5406fd255a21a9",
+  "canonicalId": "e6ee442288c7579196e345e4171c6373472f2b33",
+  "slug": "qwen-36-27b-kv-cache-quantization-benchmarks",
+  "date": "2026-06-08",
+  "publishedAt": "2026-06-07T11:54:00Z",
+  "lang": "en",
+  "title": "Qwen 3.6 27B KV Cache Quantization Benchmarks",
+  "summary": "A comprehensive benchmark of KV cache quantization methods on Qwen 3.6 27B was published, covering 75 configurations including q8, q6, q5, q4, KVarN, TurboQuant, and TCQ. These benchmarks provide valuable comparative data for practitioners optimizing LLM inference, especially for long-context scenarios where KV cache size is a bottleneck. The benchmarks were conducted using BeeLlama.cpp, a fork of llama.cpp that supports additional quantization types including KVarN, q6_0, TurboQuant, and TCQ.",
+  "score": 8,
+  "tags": [
+    "KV cache quantization",
+    "Qwen",
+    "LLM inference",
+    "benchmark",
+    "model optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Anbeeld"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tza4ji/qwen_36_27b_kv_cache_quant_benchmarks_75_pairs/",
+  "originalSite": "reddit.com",
+  "context": "KV cache quantization reduces the memory footprint of the key-value cache in transformer-based LLMs, enabling longer context lengths. Methods like KVarN use variance normalization and Hadamard rotation, TurboQuant uses vector quantization with random rotation, and TCQ (trellis-coded quantization) combines convolutional coding with trellis optimization.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - huawei-csl/KVarN: KVarN is a native vLLM KV-cache ...",
+      "url": "https://github.com/huawei-csl/KVarN"
+    },
+    {
+      "title": "GitHub - 0xSero/ turboquant : TurboQuant : Near-optimal KV cache...",
+      "url": "https://github.com/0xSero/turboquant"
+    },
+    {
+      "title": "Trellis-Coded Quantization ( TCQ )",
+      "url": "https://www.emergentmind.com/topics/trellis-coded-quantization-tcq"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

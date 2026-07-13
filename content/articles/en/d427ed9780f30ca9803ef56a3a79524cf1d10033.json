@@ -1,0 +1,41 @@
+{
+  "id": "d427ed9780f30ca9803ef56a3a79524cf1d10033",
+  "canonicalId": "995cba7d0f0e8392bb51e095e42da5ee68dc6960",
+  "slug": "cloudflare-meerkat-leaderless-async-consensus",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T13:18:00Z",
+  "lang": "en",
+  "title": "Cloudflare Meerkat: Leaderless Async Consensus",
+  "summary": "Cloudflare Research introduced Meerkat, a global consensus service that uses the QuePaxa asynchronous consensus algorithm, designed for geographically distributed systems. Meerkat represents a novel production attempt at asynchronous consensus, which can make progress even under extreme network latency variability, potentially enabling strongly consistent services across global networks. The algorithm is leaderless and does not rely on timeouts, but requires global consensus for every operation, including reads, which may increase latency. It is currently an experiment and not yet in production.",
+  "score": 9,
+  "tags": [
+    "distributed consensus",
+    "cloudflare",
+    "meerkat",
+    "asynchronous algorithms",
+    "quepaxa"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bobnamob",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48831565"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/meerkat-introduction/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Traditional consensus algorithms like Paxos and Raft are partially synchronous and rely on timeouts to detect failures, which can behave poorly under high latency variability. Asynchronous consensus algorithms like QuePaxa avoid timeouts entirely, allowing progress under arbitrary message delays, but are historically difficult to implement efficiently in practice.",
+  "discussion": "Commenters noted that comparing Meerkat to Raft is misleading since Raft is leader-based, and highlighted QuePaxa's asynchronous nature as the key innovation. Some expressed concern about the performance overhead of consensus on every read, while others saw value for challenging network conditions. There was skepticism about custom consensus implementations, but optimism that Cloudflare could succeed.",
+  "references": [
+    {
+      "title": "Introducing Meerkat: an experiment in global consensus",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/"
+    },
+    {
+      "title": "Cloudflare Meerkat - Globally distributed consensus | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48831565"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

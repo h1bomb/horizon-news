@@ -1,0 +1,40 @@
+{
+  "id": "feebedcb04290cec515b0ec0de00092f05f66bcc",
+  "canonicalId": "3bc9961713140c26e34123fbb62c56fa82ca78e3",
+  "slug": "scail-2-open-source-end-to-end-character-animation",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T18:43:00Z",
+  "lang": "en",
+  "title": "SCAIL-2: Open-Source End-to-End Character Animation",
+  "summary": "SCAIL-2 is an open-source model that drives character animation directly from video without intermediate pose representations, trained on 60K motion pairs and supporting character replacement and multi-character scenarios. By eliminating brittle intermediate representations, SCAIL-2 enables more robust and flexible character animation from diverse driving sources, and its open-source release could accelerate research in computer vision and animation. SCAIL-2 uses a unified motion transfer interface with dedicated masking channels and Rotary Position Embedding (RoPE), and includes Bias-Aware DPO post-training to mitigate synthetic-data bias in detailed regions.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "computer vision",
+    "character animation",
+    "open source",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/pmttyji"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/",
+  "originalSite": "reddit.com",
+  "context": "Traditional character animation methods often rely on intermediate representations like skeleton maps or masks, which can be ambiguous for complex motions and limit driving sources to human movements. SCAIL-2 adopts an end-to-end latent video diffusion model with in-context conditioning, learning directly from video pairs without explicit pose extraction.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SCAIL-2: Unifying Controlled Character Animation with End - to - end ...",
+      "url": "https://teal024.github.io/SCAIL-2/"
+    },
+    {
+      "title": "RoPE : A Detailed Guide to Rotary Position Embedding in... | Medium",
+      "url": "https://medium.com/@mlshark/rope-a-detailed-guide-to-rotary-position-embedding-in-modern-llms-fde71785f152"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

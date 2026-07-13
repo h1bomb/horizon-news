@@ -1,0 +1,41 @@
+{
+  "id": "a54900169938ddd087d0358e0ff42b1e5bc624d5",
+  "canonicalId": "8765dd24670a262c2526e5459b91c56b3e054f4a",
+  "slug": "elixir-v120-引入渐进式类型系统",
+  "date": "2026-06-04",
+  "publishedAt": "2026-06-03T19:02:00Z",
+  "lang": "zh",
+  "title": "Elixir v1.20 引入渐进式类型系统",
+  "summary": "2026 年 6 月 3 日发布的 Elixir v1.20 引入了渐进式类型系统，允许开发者可选地添加静态类型注解。 这标志着 Elixir 的重大演变，弥合了动态类型和静态类型之间的差距，在不破坏现有动态代码的前提下提升了代码可靠性和开发者体验。 渐进式类型系统是可选的；未注解的代码仍为动态类型，编译器现在可以在编译时检测注解函数的类型错误。",
+  "score": 8,
+  "tags": [
+    "elixir",
+    "gradual-typing",
+    "programming-languages",
+    "type-systems",
+    "software-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cloud8421",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48388324"
+    }
+  ],
+  "originalUrl": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+  "originalSite": "elixir-lang.org",
+  "context": "渐进式类型允许程序的一部分使用静态类型，而其他部分保持动态类型。它由 Jeremy Siek 和 Walid Taha 于 2006 年首次形式化。Elixir 此前依赖独立的静态分析工具 Dialyzer，新的原生类型系统旨在提供更紧密的集成和更好的开发者体验。",
+  "discussion": "社区总体持积极态度，像 losvedir 这样的资深 Elixir 开发者对类型的到来感到兴奋。但也有一些评论质疑在 AI 辅助编程时代的好处（teleforce），另一些则担心渐进类型的渐进性能（sestep），还有少数人对渐进类型相比原生类型语言持怀疑态度（alprado50）。",
+  "references": [
+    {
+      "title": "Gradual typing",
+      "url": "https://en.wikipedia.org/wiki/Gradual_typing"
+    },
+    {
+      "title": "What is Gradual Typing | Jeremy Siek",
+      "url": "https://jsiek.github.io/home/WhatIsGradualTyping.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

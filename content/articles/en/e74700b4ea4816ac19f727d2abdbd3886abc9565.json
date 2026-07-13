@@ -1,0 +1,40 @@
+{
+  "id": "e74700b4ea4816ac19f727d2abdbd3886abc9565",
+  "canonicalId": "ea0ca87e7c90e28f0e21c8974046c1210f3e37f1",
+  "slug": "moonshot-ai-introduces-attention-residuals-replacing-standard-residual-connections-with-attention-mechanisms-in-transformers",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T12:02:00Z",
+  "lang": "en",
+  "title": "Moonshot AI introduces Attention Residuals, replacing standard residual connections with attention mechanisms in transformers",
+  "summary": "Moonshot AI has introduced Attention Residuals, a novel architectural innovation that replaces standard residual connections in transformers with a softmax attention mechanism where each layer uses a learned query vector to attend over previous layer outputs with input-dependent weights. In experiments, Block AttnRes achieved the same loss as a baseline with 1.25x more compute, and when integrated into a 48B-parameter Kimi Linear model trained on 1.4T tokens, it improved performance across benchmarks including GPQA-Diamond (+7.5), Math (+3.6), and HumanEval (+3.1). This innovation matters because it represents a significant departure from the decade-old standard residual connections, potentially enabling more efficient and selective information flow in transformers with minimal overhead. It could impact the broader deep learning ecosystem by improving model performance and efficiency, particularly for large-scale models where compute optimization is critical. The overhead is minimal, with less than 4% additional training cost under pipeline parallelism and under 2% inference latency increase. Each transformer layer in Block AttnRes has two AttnRes operations (before self-attention and before MLP), each with its own learned pseudo-query vector initialized to zero, ensuring standard residual behavior at initialization.",
+  "score": 8,
+  "tags": [
+    "transformer-architecture",
+    "attention-mechanisms",
+    "residual-connections",
+    "model-efficiency",
+    "deep-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Helpful-Guava7452"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1rv7ige",
+  "originalSite": "reddit.com",
+  "context": "Residual connections, introduced in ResNet in 2015, allow gradients to flow more easily through deep networks by adding the input of a layer to its output, helping to train very deep models. In transformers, residual connections are used after attention and feed-forward layers to stabilize training and improve gradient flow. Attention mechanisms, central to transformers, enable models to focus on relevant parts of the input sequence dynamically, and Attention Residuals integrate this dynamic selection into the residual pathway.",
+  "discussion": "The community discussion shows high engagement with substantive technical insights, including comparisons to related work like Deepseek's manifold constrained hyper connections and analogies to DenseNet for CNNs. Key viewpoints note the potential significance for mixture-of-compute and self-organizing transformers, with some users expressing surprise at the low inference overhead and others providing missing links to the paper and GitHub repository.",
+  "references": [
+    {
+      "title": "AttnRes — ML/AI/statistics in Rust // Lib.rs",
+      "url": "https://lib.rs/crates/attnres"
+    },
+    {
+      "title": "Model: kimi-linear | AINews",
+      "url": "https://news.smol.ai/tags/kimi-linear"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

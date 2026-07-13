@@ -1,0 +1,45 @@
+{
+  "id": "873d3dfb2eb240f3f8545be0170fc30bb0f5fd6b",
+  "canonicalId": "59705315b7116bbff8b7cb4235c26e42ba504a02",
+  "slug": "deepseek-v4-pro-matches-gpt-52-on-foodtruck-bench-at-17x-lower-cost",
+  "date": "2026-05-06",
+  "publishedAt": "2026-05-05T06:51:00Z",
+  "lang": "en",
+  "title": "DeepSeek V4 Pro matches GPT-5.2 on FoodTruck Bench at 17x lower cost",
+  "summary": "DeepSeek V4 Pro has become the first Chinese model to reach the frontier tier on FoodTruck Bench, a 30-day agentic simulation. It matched GPT-5.2's median outcome within 3% only ten weeks later, while costing ~17× less per API call. This result signals that the China–US frontier AI gap is closing rapidly, now measured in weeks rather than a year. The 17× cost efficiency could democratize access to top-tier agentic AI and shift market dynamics toward more affordable high-performance models. DeepSeek’s pricing is based on a promotional rate of $0.435/M input and $0.87/M output, but historically such promos become permanent. On consistency, DeepSeek outperformed Grok 4.3 with zero loans, 6× less food waste, and 30% more meals served, though Opus 4.6 still holds the highest peak performance.",
+  "score": 8,
+  "tags": [
+    "AI benchmarks",
+    "large language models",
+    "agentic AI",
+    "cost efficiency",
+    "DeepSeek"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Disastrous_Theme5906",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t47qbw/deepseek_v4_pro_matches_gpt52_on_foodtruck_bench/"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/fx89f3w5n9zg1.png",
+  "originalSite": "i.redd.it",
+  "context": "FoodTruck Bench is an agentic AI benchmark that simulates running a food truck for 30 days using 34 tools (location, pricing, inventory, staff, weather, events) with persistent memory and daily reflection. Agentic AI refers to autonomous systems that plan, use tools, and adapt to achieve goals in complex environments, evolving beyond static chatbots.",
+  "discussion": "Commenters expressed surprise at Gemma 4 31B’s strong performance, questioned the absence of models like GPT-5.5 and Qwen3.6, and noted that DeepSeek’s cost advantage is based on a promotional rate. Some called for deeper benchmarks tracking effort and review budget, not just final outcomes.",
+  "references": [
+    {
+      "title": "Leaderboard update on FoodTruck Bench, our agentic benchmark ...",
+      "url": "https://x.com/foodtruckbench/status/2051559134626218130"
+    },
+    {
+      "title": "Gemma 4 31B Takes 3rd on FoodTruck Bench, Beating Larger ...",
+      "url": "https://aiproductivity.ai/news/gemma-4-31b-foodtruck-bench-results/"
+    },
+    {
+      "title": "What Is Agentic AI? A Complete Guide for 2026",
+      "url": "https://agentic.ai/what-is-agentic-ai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

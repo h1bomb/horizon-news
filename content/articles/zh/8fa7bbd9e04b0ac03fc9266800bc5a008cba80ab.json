@@ -1,0 +1,44 @@
+{
+  "id": "8fa7bbd9e04b0ac03fc9266800bc5a008cba80ab",
+  "canonicalId": "94afcaddda2120d586d6618c7193a625af47e25c",
+  "slug": "vllm-v0210-发布重大变更与新功能-8fa7bbd9",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-16T00:00:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.21.0 发布：重大变更与新功能",
+  "summary": "vLLM v0.21.0 引入了破坏性构建更改（需要 C++20），弃用了 transformers v4 转而支持 v5，增加了与混合内存分配器 (HMA) 的 KV 卸载功能，支持了带有思考预算的推测解码用于推理模型，并为 Blackwell GPU 引入了新的 TOKENSPEED_MLA 注意力后端。 此版本要求用户迁移到更新的构建环境（C++20）和 transformers v5，可能会破坏现有工作流，同时通过 KV 卸载和推测解码等功能提升了大型推理模型的推理效率，对 vLLM 用户社区影响较大。 KV 卸载现在与 HMA 集成，HMA 按类型对层进行分组并跨组池化内存。推测解码现在尊重推理/思考预算，从而能够对推理模型进行正确的推测。MLA 后端专门用于 Blackwell GPU 上的 DeepSeek-R1/Kimi-K25 模型。",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "breaking changes",
+    "release",
+    "GPU"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "May 15, 08:44"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个高吞吐量的 LLM 推理引擎，采用连续批处理和注意力后端。混合内存分配器 (HMA) 是一种新的内存管理方法，它按类型对层进行分组以提高内存效率。推测解码是一种技术，其中较小的草稿模型生成提议，较大的目标模型进行验证以加速推理。思考预算允许模型为推理步骤分配计算资源。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[RFC]: Hybrid Memory Allocator · Issue #11382 · vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm/issues/11382"
+    },
+    {
+      "title": "Attention Backend Feature Support - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/design/attention_backends/"
+    },
+    {
+      "title": "CUDA Platform | vllm-project/vllm | DeepWiki",
+      "url": "https://deepwiki.com/vllm-project/vllm/6.2-cuda-platform"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

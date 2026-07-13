@@ -1,0 +1,40 @@
+{
+  "id": "71e7a2e7ff6571b8e7ab92ae0521a94f784ab024",
+  "canonicalId": "8b0fcb852961f662db9ed68ec5ce858fd5b43809",
+  "slug": "contrastive-targeted-sft-for-causal-dependency-graphs-in-llms",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T18:31:00Z",
+  "lang": "en",
+  "title": "Contrastive Targeted SFT for Causal Dependency Graphs in LLMs",
+  "summary": "A researcher proposes using contrastive targeted supervised fine-tuning (SFT) to discover causal dependency graphs between capability dimensions in large language models, by training pairs of checkpoints that differ in a specific dimension, then ablating identified circuits and measuring downstream degradation in other dimensions. This methodology could enable systematic understanding of how different capabilities interact inside LLMs, potentially improving training order and targeted behavior control, which is a key goal in mechanistic interpretability and model steering. The contrastive approach creates pairs of checkpoints from the same base model—one with a dimension deeply represented, the other shallowly—then uses patch differences to locate circuits and ablates them to map causal dependencies. The researcher also plans to test compositionality via prompting requiring causal chaining and use activation steering as a diagnostic tool.",
+  "score": 8,
+  "tags": [
+    "mechanistic interpretability",
+    "SFT",
+    "causal dependencies",
+    "LLMs",
+    "circuit discovery"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Substantial_Diver469"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u8if6l/contrastive_targeted_sft_as_a_mechinterp_method/",
+  "originalSite": "reddit.com",
+  "context": "Mechanistic interpretability aims to reverse-engineer the internal components (circuits) of neural networks that implement specific behaviors. Supervised fine-tuning (SFT) adapts pre-trained models to specific tasks using labeled data. Contrastive learning techniques compare positive and negative examples to learn representations. This post combines these ideas to map causal dependencies between capability dimensions in LLMs, a novel approach not yet explored in existing literature.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2304.14997] Towards Automated Circuit Discovery for Mechanistic Interpretability",
+      "url": "https://arxiv.org/abs/2304.14997"
+    },
+    {
+      "title": "Large Language Models for Causal Discovery: Current Landscape ...",
+      "url": "https://arxiv.org/html/2402.11068v2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

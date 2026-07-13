@@ -1,0 +1,44 @@
+{
+  "id": "d4207fdc8e76f3f8ef140781fa97577f0a51bbbb",
+  "canonicalId": "a7a213cf6007125cd3f4811af50f11214a3d99cb",
+  "slug": "qwen3-30b-model-runs-at-7-8-tokens-per-second-on-raspberry-pi-5-8gb-with-custom-optimizations",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-20T13:58:00Z",
+  "lang": "en",
+  "title": "Qwen3 30B model runs at 7-8 tokens per second on Raspberry Pi 5 8GB with custom optimizations.",
+  "summary": "A follow-up post demonstrates that a 30B parameter Qwen3 model, specifically the Q3_K_S 2.66bpw quantized version, can achieve 7-8 tokens per second on a Raspberry Pi 5 with 8GB RAM, using a custom ik_llama.cpp build, prompt caching, and an SSD for improved performance. This achievement is significant because it pushes the boundaries of edge AI by enabling large language models to run efficiently on low-cost, low-power hardware like the Raspberry Pi, potentially democratizing access to advanced AI tools for education, hobbyists, and resource-constrained environments. The setup uses a 16,384 context length and is packaged as a flashable headless Debian image called Potato OS, which automatically downloads a smaller model like Qwen3.5 2B with vision encoder and exposes an OpenAI-compatible API on the local network.",
+  "score": 7,
+  "tags": [
+    "edge-ai",
+    "model-optimization",
+    "raspberry-pi",
+    "quantization",
+    "local-inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jslominski"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/izfk3fvsf7qg1",
+  "originalSite": "v.redd.it",
+  "context": "Qwen3 is a large language model family that includes dense and mixture-of-experts (MoE) variants, known for improvements in training data and architecture. GGUF is a binary file format used for storing AI models, optimized for inference with frameworks like GGML. Quantization, such as the Q3_K_S method, reduces model size and memory usage by lowering precision, enabling deployment on devices with limited resources like the Raspberry Pi.",
+  "discussion": "Community comments express admiration for the technical feat, with users highlighting the impressive speed and power efficiency, while others seek technical explanations or compare performance to other hardware. Some discuss the potential for educational use and inquire about scaling with more RAM.",
+  "references": [
+    {
+      "title": "Model Architecture and Core Concepts | QwenLM/Qwen3 | DeepWiki",
+      "url": "https://deepwiki.com/QwenLM/Qwen3/3-model-architecture-and-core-concepts"
+    },
+    {
+      "title": "What is GGUF file format? | Hardware Corner",
+      "url": "https://www.hardware-corner.net/what-is-gguf-file-format/"
+    },
+    {
+      "title": "Practical Guide to LLM Quantization Methods - Cast AI",
+      "url": "https://cast.ai/blog/demystifying-quantizations-llms/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

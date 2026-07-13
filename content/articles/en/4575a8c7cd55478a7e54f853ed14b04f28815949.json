@@ -1,0 +1,44 @@
+{
+  "id": "4575a8c7cd55478a7e54f853ed14b04f28815949",
+  "canonicalId": "bbbd9b31bfb9db7652414dd3b501c3bd53e27f89",
+  "slug": "github-repository-reconstructs-claude-code-source-code-from-npm-package-source-maps",
+  "date": "2026-04-01",
+  "publishedAt": "2026-03-31T09:33:00Z",
+  "lang": "en",
+  "title": "GitHub repository reconstructs Claude Code source code from npm package source maps",
+  "summary": "An unofficial GitHub repository named 'claude-code-sourcemap' has reconstructed 4,756 TypeScript files of Claude Code version 2.1.88 by extracting the sourcesContent field from the source map file cli.js.map included in the public npm package @anthropic-ai/claude-code. The repository includes 1,884 .ts and .tsx source files covering CLI entry points, tools, commands, services, plugins, voice interaction, and Vim mode modules. This incident highlights significant security risks when source maps containing original source code are inadvertently included in production npm packages, potentially exposing proprietary code to reverse engineering. It raises important questions about intellectual property protection, responsible disclosure practices, and the ethical boundaries of code reconstruction for research purposes. The repository maintainer explicitly states that the reconstructed code does not represent the official internal development repository structure and is intended for research purposes only, with copyright belonging to Anthropic. The reconstruction was made possible because the source map file contained the sourcesContent field, which embeds the original source code content rather than just mapping information.",
+  "score": 8,
+  "tags": [
+    "reverse-engineering",
+    "source-maps",
+    "claude-code",
+    "security",
+    "npm"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/ChinaSiro/claude-code-sourcemap",
+  "originalSite": "github.com",
+  "context": "Source maps are debugging tools that map minified or bundled JavaScript code back to its original source files, making it easier to debug production code. When source maps include the sourcesContent field, they can contain the complete original source code embedded within the map file itself. Npm packages sometimes inadvertently include source maps in production builds, which can expose proprietary code if the maps contain embedded source content.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Code's Entire Source Code Was Just Leaked via npm ...",
+      "url": "https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo"
+    },
+    {
+      "title": "javascript - Do source maps include the source text? - Stack",
+      "url": "https://stackoverflow.com/questions/19802462/do-source-maps-include-the-source-text"
+    },
+    {
+      "title": "Restoring Frontend Source Code Using Sourcemaps: Practical ...",
+      "url": "https://wellstsai.com/en/post/restoring-source-code-from-sourcemaps/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

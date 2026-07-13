@@ -1,0 +1,40 @@
+{
+  "id": "1561206c862f04a77fc9e40f41e9f5221bf08d01",
+  "canonicalId": "1af2f28c8b4631cf4bc3a4113a6b8e63e7ef0114",
+  "slug": "kvarn-kv-cache-quantization-implemented-in-llamacpp-fork",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T13:48:00Z",
+  "lang": "en",
+  "title": "KVarN KV-Cache Quantization Implemented in llama.cpp Fork",
+  "summary": "A developer implemented Huawei's KVarN KV-cache quantization in a fork of llama.cpp, released prebuilt binaries, and benchmarked it showing 3-5x compression with competitive precision. This makes a promising KV-cache quantization method accessible to the llama.cpp community, potentially improving inference performance and enabling longer context windows for local LLM users. The implementation supports key and value cache quantization at 2, 3, or 4 bits. Benchmarks on Qwen 3.6 27B at 64k context show kvarn4-kvarn4 achieving 27.9% cache size (vs bf16) with 93.09% precision at 99.9% KLD, outperforming TurboQuant at similar bitrates.",
+  "score": 8,
+  "tags": [
+    "kv-cache",
+    "quantization",
+    "llama.cpp",
+    "inference optimization",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Anbeeld"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1txlhxu/i_implemented_kvarn_in_my_llamacpp_fork_and_ran/",
+  "originalSite": "reddit.com",
+  "context": "KV-cache stores intermediate key-value pairs during autoregressive decoding to avoid recomputation, but it grows linearly with sequence length, becoming a memory bottleneck. Quantization reduces its memory footprint by using fewer bits per value. KVarN is a variance-normalized quantization method from Huawei that claims FP16-level accuracy with 3-5x compression and speedup.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "huawei-csl/ KVarN : KVarN is a native vLLM KV - cache quantization ...",
+      "url": "https://github.com/huawei-csl/KVarN"
+    },
+    {
+      "title": "KVarN : Variance-Normalized KV - Cache Quantization Mitigates Error...",
+      "url": "https://arxiv.org/pdf/2606.03458"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "478e7dff114217d3799324ddee882e5f2c2c03a0",
+  "canonicalId": "2f78f6186664164cd6d293647963b3726f4f9bca",
+  "slug": "mistral-releases-dense-128b-model-with-256k-context",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T15:14:00Z",
+  "lang": "en",
+  "title": "Mistral Releases Dense 128B Model with 256k Context",
+  "summary": "Mistral has released Mistral Medium 3.5, a dense 128B parameter model with a 256k context window, unifying instruction-following, reasoning, and coding capabilities in a single set of weights. This model is competitive with Sonnet in SWE-bench and offers configurable reasoning effort, making it a versatile choice for both quick chat and complex agentic tasks. Its dense architecture contrasts with the trend toward mixture-of-experts, potentially offering better performance for certain workloads. The model accepts multimodal input (text and images) and supports function calls. It replaces Mistral Medium 3.1 and Magistral in Le Chat, and Devstral 2 in the coding agent Vibe.",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "Mistral",
+    "open-source",
+    "model-release",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+  "originalSite": "huggingface.co",
+  "context": "Dense models activate all parameters for every token, unlike mixture-of-experts (MoE) models which only activate a subset. A 128B dense model requires significant compute but can provide more consistent performance across tasks. Configurable reasoning effort allows the model to adjust test-time compute based on request complexity.",
+  "discussion": "The community is excited about the dense 128B architecture, with users noting it's an interesting niche. Some question how it compares to MoE models like Qwen 3.5 Large, which is faster with 17B active parameters. Others are impressed by its SWE-bench performance and are eager to test it locally.",
+  "references": [
+    {
+      "title": "Reasoning model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Reasoning_model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

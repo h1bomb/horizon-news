@@ -1,0 +1,44 @@
+{
+  "id": "65e2ad960eac54b62df773c515e34fa59ca1ffea",
+  "canonicalId": "06ce5423e1cbca1ae9094333bdb1b1db0814fa40",
+  "slug": "linux-foundation-launches-akrites-to-fast-track-vulnerability-fixes",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T13:11:00Z",
+  "lang": "en",
+  "title": "Linux Foundation Launches Akrites to Fast-Track Vulnerability Fixes",
+  "summary": "The Linux Foundation, with broad industry support, has launched the Akrites project to accelerate vulnerability fixes in open source software, coordinating confidential patch deployment to counter AI-assisted exploit development. Akrites addresses the growing threat of AI-enabled reverse engineering and exploit generation by ensuring patches are deployed to critical infrastructure before adversaries can act, reshaping how the open source ecosystem handles critical vulnerabilities. The project emphasizes confidentiality as non-negotiable and will act as a maintainer of last resort for orphaned critical packages. It aligns with government efforts to coordinate public and private defenders.",
+  "score": 9,
+  "tags": [
+    "security",
+    "open source",
+    "vulnerability management",
+    "Linux Foundation",
+    "software supply chain"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1079657/",
+  "originalSite": "lwn.net",
+  "context": "Open source software vulnerabilities are often publicly disclosed with patches, which attackers can then reverse-engineer using AI to create exploits rapidly. Akrites aims to pre-deploy fixes confidentially to critical infrastructure operators before public disclosure, reducing the window for exploitation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The \"Akrites\" vulnerability-mitigation project launches",
+      "url": "https://lwn.net/Articles/1079657/"
+    },
+    {
+      "title": "Linux Foundation and Industry Leaders Launch Akrites to ...",
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-and-industry-leaders-launch-akrites-to-defend-critical-open-source-software-against-ai-enabled-cyber-threats"
+    },
+    {
+      "title": "Linux Foundation & Others Launch \"Akrites\" To Defend Open ...",
+      "url": "https://www.phoronix.com/news/Akrites"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

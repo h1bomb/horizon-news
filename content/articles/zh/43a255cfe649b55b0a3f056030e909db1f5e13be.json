@@ -1,0 +1,45 @@
+{
+  "id": "43a255cfe649b55b0a3f056030e909db1f5e13be",
+  "canonicalId": "71caac6afa6e5f8d333da1709214af01e024281d",
+  "slug": "bun-的-rust-重写达到-998测试兼容性",
+  "date": "2026-05-10",
+  "publishedAt": "2026-05-10T00:00:00Z",
+  "lang": "zh",
+  "title": "Bun 的 Rust 重写达到 99.8%测试兼容性",
+  "summary": "Bun 的实验性 Rust 重写版本在短短 6 天内达到了 Linux x64 glibc 上 99.8%的测试兼容性。这标志着从 Zig 迁移到 Rust 的潜在可能性的重要里程碑。 如果成功，这次重写可能会提高 Bun 的稳定性并减少内存错误，解决当前 Zig 实现中长期存在的问题。这也展示了 LLM 在快速移植复杂代码库方面的能力。 该重写仍然是实验性的，可能会被放弃；一位 Bun 贡献者表示代码很可能被完全扔掉。据社区成员称，这项工作借助了 LLM，特别是使用了'Mythos'和无限 token。",
+  "score": 8,
+  "tags": [
+    "Bun",
+    "Rust",
+    "JavaScript runtime",
+    "Zig",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 9, 10:12",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48073680"
+    }
+  ],
+  "originalUrl": "https://twitter.com/jarredsumner/status/2053047748191232310",
+  "originalSite": "twitter.com",
+  "context": "Bun 是一个最初用 Zig 编写的 JavaScript 运行时，旨在作为 Node.js 的快速替代品。Zig 是一种注重健壮性和简洁性的系统编程语言，而 Rust 以其内存安全性著称。社区一直在争论 Bun 的稳定性问题，一些人将其归因于 Zig 的低级特性。Rust 重写旨在利用 Rust 的安全性保证，同时使用 LLM 加速开发。",
+  "discussion": "社区意见分歧：一些人认为这是稳定性的积极一步，指出 Bun 在 Zig 中的崩溃。另一些人对 LLM 的参与持怀疑态度，一位评论者称该项目'毫无根据'并存在信任问题。一位 Bun 贡献者淡化该重写为实验性的，很可能被丢弃。",
+  "references": [
+    {
+      "title": "Bun (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bun_(software)"
+    },
+    {
+      "title": "Bun — A fast all-in-one JavaScript runtime",
+      "url": "https://bun.sh/"
+    },
+    {
+      "title": "Zig (programming language) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zig_(programming_language)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

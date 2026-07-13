@@ -1,0 +1,44 @@
+{
+  "id": "677e7f702985c24625977fc59f96e84e82aedc3d",
+  "canonicalId": "ca953f29df4c96086363e17ad1e25172ae9b703c",
+  "slug": "cursor-releases-composer-2-coding-model-later-admits-using-kimi-k25-base-model-without-proper-disclosure",
+  "date": "2026-03-22",
+  "publishedAt": "2026-03-21T06:20:00Z",
+  "lang": "en",
+  "title": "Cursor releases Composer 2 coding model, later admits using Kimi K2.5 base model without proper disclosure",
+  "summary": "On March 19, Cursor released its in-house coding model Composer 2, claiming frontier-level coding performance with an 86% price reduction from the previous generation. Within 24 hours, developers discovered through API endpoints that the internal model ID contained 'kimi-k2p5-rl', revealing that the base model was Moonshot AI's open-source Kimi K2.5, which Elon Musk also confirmed. This incident highlights transparency issues in AI development, as Cursor failed to disclose using Kimi K2.5 despite its $2 billion annual revenue, which violates the model's licensing requirement for products with over $20 million monthly revenue to display attribution. It raises concerns about compliance with open-source licenses and ethical practices in commercial AI products. Kimi K2.5's license explicitly requires products with monthly revenue exceeding $20 million to display 'Kimi K2.5' attribution in their interface. Cursor later admitted to using K2.5 as the base model, and Kimi's official Twitter account stated they were 'proud K2.5 provided the foundation model.'",
+  "score": 7,
+  "tags": [
+    "AI Coding Tools",
+    "Model Transparency",
+    "Open Source Licensing",
+    "Software Development",
+    "AI Ethics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/elonmusk/status/2034941631871455262?s=20",
+  "originalSite": "x.com",
+  "context": "Cursor Composer 2 is an agentic coding model designed for software development within the Cursor environment, offering efficient token usage and strong performance on coding benchmarks. Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens, capable of turning text and visuals into production-ready code. The controversy centers on Cursor's failure to comply with K2.5's attribution requirements despite its high revenue.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "moonshotai/Kimi-K2.5 · Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5"
+    },
+    {
+      "title": "Composer 2 | Cursor Docs",
+      "url": "https://cursor.com/docs/models/cursor-composer-2"
+    },
+    {
+      "title": "Cursor’s new coding model Composer 2 is here: It beats Claude ...",
+      "url": "https://venturebeat.com/technology/cursors-new-coding-model-composer-2-is-here-it-beats-claude-opus-4-6-but"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

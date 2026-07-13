@@ -1,0 +1,44 @@
+{
+  "id": "0211c39dd40946769dbe4e8f9eb9d0b550c83c21",
+  "canonicalId": "fcc93f435f5ff857c74ca1c6fb8f7824f0d85fdf",
+  "slug": "qbe-13-metaprogramming-performance-cross-platform-support",
+  "date": "2026-07-10",
+  "publishedAt": "2026-07-10T13:50:00Z",
+  "lang": "en",
+  "title": "QBE 1.3: Metaprogramming, Performance, Cross-Platform Support",
+  "summary": "QBE 1.3 was released on June 2, 2026, adding roughly 7,000 lines of code while removing 1,500, introducing metaprogramming capabilities, performance improvements to close the CoreMark gap, and expanded cross-platform support. This release brings QBE closer to its goal of achieving 70% of GCC -O2 performance, making it a more viable compact backend for systems programming and compiler projects like Hare and cproc. The performance improvements focus on optimizing hot functions in the CoreMark benchmark, such as ee_isdigit() and crcu8(), through classic optimization passes. Metaprogramming simplifies backend development by generating code automatically.",
+  "score": 8,
+  "tags": [
+    "compiler backend",
+    "QBE",
+    "metaprogramming",
+    "performance",
+    "cross-platform"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1080519/",
+  "originalSite": "lwn.net",
+  "context": "QBE is a compact compiler backend that uses static single-assignment (SSA) intermediate representation and supports the C ABI. It is designed to be small enough for a single developer to understand, targeting roughly 70% of the performance of industrial compilers like GCC and LLVM with only 10% of the code.",
+  "discussion": "In discussions following the release on Hacker News, participants noted that QBE shares a common technical lineage with other minimalist compiler projects like MIR and IR, but differs in its prioritization of compilation speed and maintainability over aggressive optimization.",
+  "references": [
+    {
+      "title": "QBE - Compiler Backend",
+      "url": "https://c9x.me/compile/"
+    },
+    {
+      "title": "The qbe Compiler Backend Open Source Project on Open Hub",
+      "url": "https://openhub.net/p/qbe_c9x"
+    },
+    {
+      "title": "QBE compiler backend",
+      "url": "https://www.bundle.app/en/technology/qbe-compiler-backend-D68573D5-A2C6-4F9E-B5B6-B9209FB3E834"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

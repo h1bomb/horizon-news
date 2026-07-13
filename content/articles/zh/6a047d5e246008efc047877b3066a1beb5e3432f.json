@@ -1,0 +1,36 @@
+{
+  "id": "6a047d5e246008efc047877b3066a1beb5e3432f",
+  "canonicalId": "4c899d32b0b296992633ae6cad6939089289d30c",
+  "slug": "探寻-transformer-电路中探针强度的理论基础",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T20:29:00Z",
+  "lang": "zh",
+  "title": "探寻 Transformer 电路中探针强度的理论基础",
+  "summary": "一位 Reddit 用户发布了一个详细的问题，寻求在 Transformer 电路中比较探针强度的理论基础，特别关注探针容量与底层网络复杂度之间的权衡。 这个问题触及了机制可解释性中的一个根本性空白：如何严格评估探针能揭示模型内部机制的哪些信息。解决这一问题可能带来更可靠的电路分析，并为模型安全性和事实性提供更好的保障。 该用户引用了一项旧研究，该研究训练了逻辑回归探针来检测单词位置，并指出词汇量极小会导致性能不具代表性等问题。他们还分享了一个真实失败案例：Google Gemini 错误地数出了 'Google' 中的字母数，这削弱了模型天生学会 token 位置的说法。",
+  "score": 8,
+  "tags": [
+    "mechanistic interpretability",
+    "probing",
+    "circuit analysis",
+    "transformer models",
+    "ML theory"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/RepresentativeBee600"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u8lo60/how_do_you_analyze_the_relative_strength_of/",
+  "originalSite": "reddit.com",
+  "context": "在机制可解释性中，探针技术涉及在模型激活上训练简单分类器（探针），以测试某些特征是否被编码。然而，比较探针强度的理论基础尚不完善，关于过拟合和样本复杂度的问题仍未解决。奈奎斯特采样定理被提及作为一种可能的类比，用于判断是否已经看到足够的数据来保证可靠地检测模式。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2509.17665] Mechanistic Interpretability with SAEs: Probing",
+      "url": "https://arxiv.org/abs/2509.17665"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

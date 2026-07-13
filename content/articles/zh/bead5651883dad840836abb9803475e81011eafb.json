@@ -1,0 +1,44 @@
+{
+  "id": "bead5651883dad840836abb9803475e81011eafb",
+  "canonicalId": "526c7e57e7ac0c50984c64d17c3782468fa5333c",
+  "slug": "claude-code-从-claude-pro-计划中移除推动转向本地-ai-模型",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "Claude Code 从 Claude Pro 计划中移除，推动转向本地 AI 模型。",
+  "summary": "一篇 Reddit 帖子报告称，AI 编程助手 Claude Code 已从 Claude Pro 订阅计划中移除，导致用户考虑转向替代方案，如 Kimi K2.6 和 Qwen 3.6 35B A3B。帖子建议使用 OpenCode Go 以经济高效地访问 Kimi K2.6，或在配备合适显卡的本地电脑上运行 Qwen 3.6 35B A3B。 这一变化影响了依赖 Claude Code 进行编程辅助的开发者，可能增加成本或降低可访问性，并突显了本地 AI 模型作为云端服务可行替代方案的趋势。它反映了 AI 生态系统中更广泛的转变，即定价调整和模型可用性可能推动用户转向开源或本地解决方案。 移除可能对现有 Claude Pro 用户产生不同影响，一些人希望之前订阅的用户能获得保留待遇，而替代方案如 Kimi K2.6 提供了一个 1T 参数的混合模型用于编码任务，Qwen 3.6 35B A3B 则需要本地硬件，如 8GB VRAM 显卡以实现最佳性能。限制包括 Claude Code 在移除前可能存在的使用上限，以及替代计划中可变的令牌成本。",
+  "score": 7,
+  "tags": [
+    "AI Models",
+    "Cloud Services",
+    "Local LLMs",
+    "Pricing Changes",
+    "Community Discussion"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 21, 21:54"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/r8mub6oi7mwg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Claude Code 是由 Anthropic 开发的 AI 编程助手，旨在通过云端服务帮助开发者处理编程任务。本地 AI 模型如 Kimi K2.6 和 Qwen 3.6 35B A3B 是开源替代方案，可在个人硬件上运行，相比订阅计划提供更多控制权并可能降低成本。Kimi K2.6 是 Moonshot 推出的 1T 参数混合模型，而 Qwen 3.6 35B A3B 是 Qwen 系列中专注于编码的模型，需要特定硬件进行本地部署。",
+  "discussion": "社区情绪复杂，一些用户对移除表示怀疑，称之为“撤地毯”，而其他人则认为这可能是错误或指出 Claude Code 限制下已有的可用性问题。讨论包括技术替代方案如 OpenCode Go 和与其他服务的比较，以及对年度计划订阅者退款问题的担忧，以及预测 Anthropic 未来可能进行的层级重组。",
+  "references": [
+    {
+      "title": "Claude Code - 100 Ways to Vibe Coding with Claude AI , Computer...",
+      "url": "https://claudecode.app/"
+    },
+    {
+      "title": "Kimi K2.6 - How to Run Locally | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/kimi-k2.6"
+    },
+    {
+      "title": "Recommended parameters for Qwen 3.6 35B A3B on a 8GB VRAM card ...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1spyr4t/recommended_parameters_for_qwen_36_35b_a3b_on_a/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

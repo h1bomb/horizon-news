@@ -1,0 +1,40 @@
+{
+  "id": "cce97e7bd9bc29603f639776d1e51c8037619152",
+  "canonicalId": "a51a4d671d01a514b68d6f7794747cb9b1a1f492",
+  "slug": "parallax-parameterized-local-linear-attention-for-llms",
+  "date": "2026-05-31",
+  "publishedAt": "2026-05-30T18:18:00Z",
+  "lang": "en",
+  "title": "Parallax: Parameterized Local Linear Attention for LLMs",
+  "summary": "Researchers propose Parallax, a parameterized local linear attention mechanism that scales for large language model pretraining by removing numerical solvers and adding a learnable query-like projector to probe the KV covariance. This work offers a theoretically grounded improvement over standard softmax attention with provably better bias-variance tradeoffs, and demonstrates consistent perplexity gains at 0.6B and 1.7B scales, marking the first architecture-optimizer codesign for attention mechanisms. Parallax uses a hardware-aware algorithm that increases arithmetic intensity over FlashAttention, and its prototype decode kernel matches or outperforms FlashAttention 2/3 across various batch sizes and context lengths. The advantage persists under both parameter-matched and compute-matched controls, and the Muon optimizer is found to unlock Parallax's capacity.",
+  "score": 8,
+  "tags": [
+    "attention mechanism",
+    "LLM",
+    "efficient attention",
+    "language modeling",
+    "machine learning research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Thrumpwart"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ts79rg/parallax_parameterized_local_linear_attention_for/",
+  "originalSite": "reddit.com",
+  "context": "Standard Transformer attention uses softmax, which is a local constant estimate in the test-time regression framework. Local Linear Attention (LLA) upgrades this to a local linear estimate, improving bias-variance tradeoffs but facing scalability issues due to numerical solvers. Parallax introduces a parameterized version that removes these solvers and learns a projector to the KV covariance, enabling efficient pretraining.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2605.29157] Parallax: Parameterized Local Linear Attention for...",
+      "url": "https://arxiv.org/abs/2605.29157"
+    },
+    {
+      "title": "L ATTENTION : AN OPTIMAL INTERPO L SOFTMAX ATTENTION FOR EST-T R",
+      "url": "https://openreview.net/pdf?id=WGpzi489XY"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

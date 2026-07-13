@@ -1,0 +1,44 @@
+{
+  "id": "33e091a69699e97408985115369aa5b0c704c914",
+  "canonicalId": "4c55439d34c35953803ae0b957872f225d312bb4",
+  "slug": "vllm-v0220-released-with-deepseek-v4-maturity-and-rust-frontend",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T10:28:00Z",
+  "lang": "en",
+  "title": "vLLM v0.22.0 Released with DeepSeek V4 Maturity and Rust Frontend",
+  "summary": "vLLM released version 0.22.0 with 459 commits from 230 contributors, featuring major hardening for DeepSeek V4, progress on Model Runner V2 toward default, and an experimental Rust frontend. Key improvements include NVFP4 fused MoE support, piecewise CUDA graphs, MTP speculative decoding, and multi-tier KV cache offloading. This release significantly enhances the inference efficiency and model support for DeepSeek V4, a state-of-the-art MoE model, while pushing Model Runner V2 towards broader adoption. The experimental Rust frontend also signals vLLM's exploration of performance-critical paths in a safer systems language. DeepSeek V4 now has a dedicated package, NVFP4 fused MoE, full and piecewise CUDA graph support, and MTP speculative decoding. Model Runner V2 gains an oracle to select it for Qwen3 dense models and automatic fallback to MRv1 when a KV connector is present.",
+  "score": 9,
+  "tags": [
+    "vllm",
+    "LLM inference",
+    "DeepSeek",
+    "Rust",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
+  "originalSite": "github.com",
+  "context": "vLLM is a high-throughput LLM inference engine with PagedAttention for efficient memory management. DeepSeek V4 is a Mixture-of-Experts (MoE) model that requires specialized kernel optimizations. NVFP4 fused MoE uses 4-bit floating point for faster expert computation, piecewise CUDA graphs reduce graph compilation overhead, and MTP speculative decoding uses Multi-Token Prediction drafters to speed up generation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "vllm.model_executor.layers. fused _ moe .oracle. nvfp4",
+      "url": "https://docs.vllm.ai/en/v0.15.0/api/vllm/model_executor/layers/fused_moe/oracle/nvfp4/"
+    },
+    {
+      "title": "Piecewise CUDA Graph - SGLang Documentation",
+      "url": "https://docs.sglang.io/docs/advanced_features/piecewise_cuda_graph"
+    },
+    {
+      "title": "MTP Speculative Decoding Actually Works on MoE: 144 t/s on a",
+      "url": "https://njannasch.dev/blog/mtp-speculative-decoding-qwen-3-6-5060ti/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

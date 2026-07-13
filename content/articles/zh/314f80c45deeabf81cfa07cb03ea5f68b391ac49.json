@@ -1,0 +1,44 @@
+{
+  "id": "314f80c45deeabf81cfa07cb03ea5f68b391ac49",
+  "canonicalId": "a2934dac5e554e192b330061111eab632df91b76",
+  "slug": "openssh-104-发布引入后量子签名与沙箱加固",
+  "date": "2026-07-06",
+  "publishedAt": "2026-07-06T16:13:00Z",
+  "lang": "zh",
+  "title": "OpenSSH 10.4 发布，引入后量子签名与沙箱加固",
+  "summary": "OpenSSH 10.4 已发布，增加了对结合 ML-DSA 44 和 Ed25519 的复合后量子签名方案的实验性支持。此外，在 Linux 上，如果未启用 SECCOMP 或 NO_NEW_PRIVS 沙箱功能，sshd 现在将拒绝启动。 这意义重大，因为 SSH 是全球用于安全远程访问的关键基础设施工具；后量子签名支持使 SSH 能够抵御未来量子计算机的攻击。更严格的沙箱执行提高了安全性，确保 sshd 在受限环境中运行，从而减少潜在漏洞的影响。 后量子签名方案遵循 IETF 草案，将 ML-DSA 44（NIST 标准化的基于格的算法）与 Ed25519 结合。在 Linux 上，如果 sshd 编译时启用了沙箱支持，但系统缺少 SECCOMP 或 NO_NEW_PRIVS，守护进程现在将无法启动，而不仅仅是记录错误。",
+  "score": 8,
+  "tags": [
+    "security",
+    "cryptography",
+    "post-quantum",
+    "SSH",
+    "software release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081536/",
+  "originalSite": "lwn.net",
+  "context": "OpenSSH 是 SSH 协议最广泛使用的实现，用于安全远程登录和文件传输。后量子密码学旨在开发对经典计算机和量子计算机都安全的密码系统；ML-DSA（原名 Dilithium）是一种基于格的数字签名方案，已由 NIST 标准化。SECCOMP（安全计算模式）和 NO_NEW_PRIVS 是 Linux 内核特性，有助于限制进程的能力，是沙箱的关键组成部分。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ML-DSA and PQ Signing: What You Need to Know | Encryption Consulting",
+      "url": "https://www.encryptionconsulting.com/ml-dsa-and-pq-signing/"
+    },
+    {
+      "title": "seccomp - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Seccomp"
+    },
+    {
+      "title": "No New Privileges Flag — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/latest/userspace-api/no_new_privs.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

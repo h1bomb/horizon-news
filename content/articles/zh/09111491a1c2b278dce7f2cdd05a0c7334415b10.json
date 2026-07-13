@@ -1,0 +1,45 @@
+{
+  "id": "09111491a1c2b278dce7f2cdd05a0c7334415b10",
+  "canonicalId": "9f661bf376d1efc89554fe679ce9d571d87c85a3",
+  "slug": "mistral-发布-robostral-navigate-ai-模型",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T14:09:00Z",
+  "lang": "zh",
+  "title": "Mistral 发布 Robostral Navigate AI 模型",
+  "summary": "Mistral AI 发布了 Robostral Navigate，这是一个 8B 参数的模型，仅使用单颗 RGB 摄像头和语言指令就能让机器人在复杂环境中导航，在未见过的 R2R-CE 基准测试中达到 76.6% 的成功率。 这很重要，因为它展示了无地图导航能力，解决了“绑架机器人”问题，并以更简单的设置超越了多传感器方法，有望在爱好者和商业机器人领域得到更广泛的应用。 该模型未公开可用；它仅使用单个摄像头，无需预先获取地图。它在 R2R-CE 基准测试上达到了最先进的结果。",
+  "score": 8,
+  "tags": [
+    "robotics",
+    "navigation",
+    "AI",
+    "mistral",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ottomengis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48832212"
+    }
+  ],
+  "originalUrl": "https://mistral.ai/news/robostral-navigate/",
+  "originalSite": "mistral.ai",
+  "context": "无地图导航很具挑战性，因为传统上机器人需要预先构建的地图来定位和导航。“绑架机器人”问题指的是机器人被放置在没有地图的未知位置。Mistral 的模型仅通过视觉输入，利用深度学习来遵循自然语言指令。",
+  "discussion": "评论者对无地图能力印象深刻，并讨论了将其连接到 OpenClaw 用于农场机器人等爱好者应用。一些人指出，虽然室外无地图导航已经存在，但室内无地图导航相对较新。还提出了关于地理定位技术的隐私担忧。",
+  "references": [
+    {
+      "title": "Robostral Navigate: single-camera AI navigation | Mistral AI",
+      "url": "https://mistral.ai/news/robostral-navigate/"
+    },
+    {
+      "title": "Mistral AI Releases Robotics Model to Support Physical AI Push - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-08/mistral-ai-releases-robotics-model-to-support-physical-ai-push"
+    },
+    {
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48832212"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "c6b5aeaf2ce719e29aff85b533acdb42d8ad70c8",
+  "canonicalId": "20802e21b9b199955f221a70ee2e61412d5f230f",
+  "slug": "huawei-open-sources-openpangu-20-flash-92b-total-6b-active-moe",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T11:58:00Z",
+  "lang": "en",
+  "title": "Huawei Open-Sources OpenPangu-2.0-Flash: 92B Total, 6B Active MoE",
+  "summary": "Huawei has open-sourced OpenPangu-2.0-Flash, a Mixture-of-Experts (MoE) large language model with 92 billion total parameters and 6 billion active parameters, supporting a 512K token context length. The release includes model weights, inference code, and training operations. This open-sourcing provides the community with a high-performance, long-context MoE model from a major tech company, potentially lowering the barrier for researchers and developers to experiment with large-scale MoE architectures. It also signals Huawei's growing involvement in the open-source AI ecosystem. The model uses an MoE architecture where only 6B of the 92B parameters are activated per token, enabling efficient inference. It achieves a 512K token context window, and a larger Pro variant (505B total, 18B active) is slated for release in July.",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "LLM",
+    "MoE",
+    "Huawei",
+    "512K-context"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/soteko"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ujn5u3/huawei_opensources_openpangu20flash_92b_total6b/",
+  "originalSite": "reddit.com",
+  "context": "Mixture of Experts (MoE) is a neural network architecture that divides work among specialized sub-networks called experts, activating only a subset per input to improve efficiency. A longer context length (e.g., 512K tokens) allows the model to process large documents or conversations in one pass, which is valuable for tasks like long-form question answering and code analysis.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "What is Mixture of Experts (MoE)?",
+      "url": "https://www.redhat.com/en/topics/ai/mixture-of-experts"
+    },
+    {
+      "title": "What is Context Length in AI Models? Large Models... | Medium",
+      "url": "https://medium.com/@anand_sahu/what-is-context-length-in-ai-models-8bb32bbd7719"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

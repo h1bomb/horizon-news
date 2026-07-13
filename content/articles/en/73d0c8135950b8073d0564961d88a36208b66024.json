@@ -1,0 +1,44 @@
+{
+  "id": "73d0c8135950b8073d0564961d88a36208b66024",
+  "canonicalId": "a9e185d3183c96d971a87d89b8d771beddc1f04a",
+  "slug": "google-research-finds-longer-chain-of-thought-reasoning-negatively-correlates-with-llm-accuracy-proposes-new-deep-thinking-ratio-metric",
+  "date": "2026-03-01",
+  "publishedAt": "2026-02-28T16:19:00Z",
+  "lang": "en",
+  "title": "Google research finds longer chain-of-thought reasoning negatively correlates with LLM accuracy, proposes new Deep Thinking Ratio metric.",
+  "summary": "A Google research paper tested 8 model variants across multiple reasoning benchmarks and found an average correlation of -0.54 between chain-of-thought token length and answer accuracy, meaning longer reasoning chains often indicate model confusion rather than better reasoning. The researchers proposed a new metric called Deep Thinking Ratio (DTR) that measures the proportion of tokens undergoing deep processing across model layers, which shows a much stronger positive correlation (0.82) with accuracy. This finding challenges the common assumption that longer reasoning chains lead to better outcomes in LLMs, with significant implications for improving inference efficiency and accuracy. The proposed DTR metric and associated Think@n sampling strategy enable models to achieve equal or better accuracy while reducing computational costs by approximately 50%, which is particularly valuable for local inference where compute resources are constrained. The DTR metric works by tracking how token predictions stabilize across transformer layers, where tokens that stabilize early (like common filler words) are considered 'shallow,' while those revised in deeper layers indicate 'deep thinking.' In practical application, the Think@n strategy samples multiple reasoning paths, estimates DTR from just the first 50 tokens, keeps the top 50% high-DTR samples, and uses majority voting, reducing token consumption from 355.6k to 181.9k in tests while improving GPT-OSS-120B-medium's AIME 2025 score from 92.7% to 94.7%.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Reasoning",
+    "Chain-of-Thought",
+    "Model-Evaluation",
+    "Research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Top-Cardiologist1011"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rh6pru/google_found_that_longer_chain_of_thought/",
+  "originalSite": "reddit.com",
+  "context": "Chain-of-thought prompting is a technique where large language models are instructed to generate intermediate reasoning steps before producing a final answer, which has been widely adopted to improve performance on complex reasoning tasks. Transformer-based LLMs process tokens through multiple sequential layers, with each layer refining the representation of tokens based on context from previous layers. The concept of measuring 'thinking' by observing how token predictions evolve across these layers is a novel approach to understanding internal model dynamics beyond surface-level outputs.",
+  "discussion": "Community discussion highlights recognition of the 'spiraling' problem in reasoning models, where they second-guess instead of committing to a solution path. There is keen interest in the practical application of early termination based on DTR estimation for local inference to save compute, with some users noting they already employ similar heuristics like detecting repetition patterns. Skepticism exists regarding the feasibility of implementing precise layer-wise token tracking in real inference engines, but the potential for efficiency gains is widely acknowledged.",
+  "references": [
+    {
+      "title": "Think Deep, Not Just Long: Measuring LLM Reasoning Effort via Deep ...",
+      "url": "https://arxiv.org/pdf/2602.13517"
+    },
+    {
+      "title": "Google's Deep-Thinking Ratio: Boosting LLM Accuracy While Slashing ...",
+      "url": "https://www.earezki.com/ai-news/2026-02-22-a-new-google-ai-research-proposes-deep-thinking-ratio-to-improve-llm-accuracy-while-cutting-total-inference-costs-by-half/"
+    },
+    {
+      "title": "The Journey of a Token: What Really Happens Inside a Transformer - MachineLearningMastery.com",
+      "url": "https://machinelearningmastery.com/the-journey-of-a-token-what-really-happens-inside-a-transformer/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

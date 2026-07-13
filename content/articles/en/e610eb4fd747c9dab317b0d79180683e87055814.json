@@ -1,0 +1,44 @@
+{
+  "id": "e610eb4fd747c9dab317b0d79180683e87055814",
+  "canonicalId": "f850fd540340fa5c735227f08ac8f947e7f11249",
+  "slug": "litellm-sql-injection-leaks-api-keys-without-auth",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T14:44:00Z",
+  "lang": "en",
+  "title": "LiteLLM SQL Injection Leaks API Keys Without Auth",
+  "summary": "A critical SQL injection vulnerability (CVE-2026-42208) was discovered in LiteLLM Proxy, allowing unauthenticated attackers to extract API keys from the database by injecting malicious payloads via the Bearer token field. The flaw is actively exploited in the wild and has been fixed in version 1.83.7-stable. LiteLLM is widely used as a unified gateway for multiple LLM providers, and exposed instances are at high risk of credential theft. This vulnerability could lead to unauthorized use of expensive LLM APIs, data breaches, and financial loss for organizations. The attack exploits error logs generated during authentication failure; no valid credentials are required. Users are advised to upgrade immediately and rotate all stored API keys, or set disable_error_logs: true to mitigate the risk.",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "SQL injection",
+    "LiteLLM",
+    "API keys"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/ytNWdqGECo0fmWwPQGqy8A",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "LiteLLM is an open-source Python SDK and proxy server that provides an OpenAI-compatible interface to interact with over 100 LLM providers. The proxy component handles authentication and routing, storing API keys in a database. SQL injection occurs when user input is improperly sanitized, allowing an attacker to execute arbitrary SQL commands.",
+  "discussion": "The security community has expressed concern over the active exploitation of this vulnerability, with many urging immediate patching. Some users noted that disabling error logs is a temporary workaround but not a complete fix.",
+  "references": [
+    {
+      "title": "Critical LiteLLM SQL Injection (CVE-2026-42208) Exploited in",
+      "url": "https://securityonline.info/litellm-sql-injection-exploited-in-the-wild-cve-2026-42208/"
+    },
+    {
+      "title": "LiteLLM Proxy ( LLM Gateway) | liteLLM",
+      "url": "https://docs.litellm.ai/docs/providers/litellm_proxy"
+    },
+    {
+      "title": "GitHub - BerriAI/ litellm : Python SDK, Proxy Server (AI Gateway) to...",
+      "url": "https://github.com/BerriAI/litellm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

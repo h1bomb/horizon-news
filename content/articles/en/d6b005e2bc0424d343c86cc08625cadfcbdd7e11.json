@@ -1,0 +1,40 @@
+{
+  "id": "d6b005e2bc0424d343c86cc08625cadfcbdd7e11",
+  "canonicalId": "2b6efe871eccdecf8974978d59cfee93a3a87572",
+  "slug": "interactive-essay-explains-quantization-and-floating-point-representation-for-llms",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-26T16:21:00Z",
+  "lang": "en",
+  "title": "Interactive essay explains quantization and floating-point representation for LLMs",
+  "summary": "Sam Rose published an interactive essay titled 'Quantization from the ground up' on March 26, 2026, which explains quantization in Large Language Models and includes a visual tool for understanding floating-point number representation. The essay also discusses outlier values in quantization and uses the llama.cpp perplexity tool to show how different quantization levels affect model accuracy on the Qwen 3.5 9B model. This matters because quantization is a key technique for optimizing LLMs to run efficiently on devices with limited resources, such as mobile phones or edge devices, by reducing model size and computational requirements. The interactive educational format makes complex concepts like floating-point representation and outlier handling accessible to developers and researchers, potentially accelerating adoption of quantization methods in the AI industry. The essay highlights that outlier values, or 'super weights,' are rare but critical for model quality, and real-world quantization schemes may preserve them separately to avoid performance degradation. It concludes that 16-bit to 8-bit quantization carries almost no quality penalty, while 16-bit to 4-bit reduces accuracy to about 90% of the original, based on tests with Qwen 3.5 9B using perplexity and KL divergence metrics.",
+  "score": 8,
+  "tags": [
+    "quantization",
+    "machine-learning",
+    "floating-point",
+    "educational-content",
+    "llm-optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Quantization is a process that reduces the precision of numerical values in machine learning models, such as converting 32-bit floating-point numbers to lower-bit integers, to decrease model size and speed up inference. Floating-point representation, like IEEE 754 single-precision (float32), uses binary digits to encode numbers with sign, exponent, and significand fields, allowing a wide range of values but with inherent precision limitations. In LLMs, quantization is applied to weights and activations to enable deployment on resource-constrained hardware, balancing efficiency with model accuracy.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Quantization in Large language models | TheAILearner",
+      "url": "https://theailearner.com/2024/02/27/quantization-in-large-language-models/"
+    },
+    {
+      "title": "Single-precision floating - point format - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Single-precision_floating-point_format"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "a2f202e50feb6f879d3ab669d9afc1713484952a",
+  "canonicalId": "f3f73133dc489299709346cb7aae7ba6dcf35fd6",
+  "slug": "arm-to-sell-its-first-self-designed-chips-with-meta-as-initial-major-customer-and-tsmc-manufacturing",
+  "date": "2026-03-26",
+  "publishedAt": "2026-03-25T02:45:00Z",
+  "lang": "en",
+  "title": "Arm to sell its first self-designed chips, with Meta as initial major customer and TSMC manufacturing",
+  "summary": "Arm Holdings announced it will sell its first self-designed chip, the Arm AGI CPU, with Meta as the initial major customer and TSMC handling manufacturing. The chip features up to 136 cores, 300W power consumption, and is designed to work alongside accelerator chips from companies like Nvidia. This marks a major strategic shift for Arm from its traditional licensing-only model to directly competing in the data center CPU market, potentially disrupting Intel and AMD's dominance. The move targets the rapidly growing AI infrastructure market, where energy efficiency and performance density are critical for large-scale deployments. The Arm AGI CPU is built on the Neoverse V3 architecture and claims superior energy efficiency compared to traditional CPU designs from Intel and AMD. Other companies including OpenAI, Cerebras, and SK Telecom plan to deploy the chip, with ready-made systems already available from Quanta Computer and Supermicro, with expanded availability expected in the second half of 2026.",
+  "score": 9,
+  "tags": [
+    "Semiconductors",
+    "AI Hardware",
+    "Arm",
+    "Data Centers",
+    "Industry News"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-24/arm-to-sell-its-own-chips-for-first-time-in-bid-for-ai-revenue",
+  "originalSite": "bloomberg.com",
+  "context": "Arm Holdings has historically developed instruction set architectures and licensed them to other companies to build physical processors, rather than designing and selling its own chips. The company's architecture is widely used in mobile devices and has been expanding into data centers, particularly for AI workloads where energy efficiency is crucial. TSMC is the world's leading semiconductor foundry, manufacturing chips for numerous companies using advanced processes like its 3-nanometer technology.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Arm AGI CPU – Arm®",
+      "url": "https://www.arm.com/products/cloud-datacenter/arm-agi-cpu"
+    },
+    {
+      "title": "Arm AGI CPU Debuts with 136 Cores, Focuses on AI Infrastructure",
+      "url": "https://circuitdigest.com/news/arm-agi-cpu-debuts-with-136-cores-focuses-on-ai-infrastructure"
+    },
+    {
+      "title": "ARM architecture family - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ARM_architecture_family"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

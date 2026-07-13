@@ -1,0 +1,31 @@
+{
+  "id": "d59fb46f8f9ba48ca538cb834c22fdfc0e0b94c7",
+  "canonicalId": "49aece817eac615d8a3f15572ad96630edec3828",
+  "slug": "deepseek-开源-deepep-v2-和-tilekernels",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 开源 DeepEP V2 和 TileKernels",
+  "summary": "DeepSeek 发布了 DeepEP V2（高效的专家并行通信库）和 TileKernels（基于 TileLang 的高性能 GPU 算子库），两者均已开源在 GitHub 上。 这些发布推进了大规模 AI 训练的并行化和 GPU 内核效率，可能实现线性扩展并支持 NVIDIA Blackwell GPU，从而加速未来模型的开发。 TileKernels 涵盖 MoE 路由、FP8/FP4 量化和融合算子，面向 NVIDIA SM90 和 SM100（Blackwell）架构，需要 CUDA 13.1 或更高版本。DeepEP V2 专注于专家并行通信优化。",
+  "score": 8,
+  "tags": [
+    "DeepSeek",
+    "open-source",
+    "GPU kernels",
+    "parallel computing",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 23, 09:57"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ste9zs/deepseek_has_released_deepep_v2_and_tilekernels/",
+  "originalSite": "reddit.com",
+  "context": "DeepSeek 是一家以开源大语言模型闻名的中国 AI 公司。专家并行（EP）将模型专家分布到多个 GPU 上以提高训练效率，而 GPU 内核是加速计算的低级程序。TileLang 是一种用于编写高性能内核的领域特定语言。",
+  "discussion": "社区反应非常积极，称赞 DeepSeek 开源并推动研究。一些人推测线性扩展技术和 Blackwell 支持暗示了未来的模型（可能是 V4），并指出 DeepSeek 正在做 OpenAI 本应做的事情。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

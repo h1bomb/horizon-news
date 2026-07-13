@@ -1,0 +1,44 @@
+{
+  "id": "67d1033659fa6172304b5dc737bd86c828650676",
+  "canonicalId": "352a3d0964e8805c9fc3990d2308ad107284165c",
+  "slug": "darksword-ios-漏洞链披露通过-safari-恶意网页感染已在多国被利用",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "DarkSword iOS 漏洞链披露：通过 Safari 恶意网页感染，已在多国被利用",
+  "summary": "安全研究人员披露了 DarkSword 漏洞利用链，该漏洞链通过恶意网页针对 iOS 18.4 至 18.7 版本的 Safari 浏览器，利用包括 CVE-2025-43529 在内的六个漏洞来部署 GHOSTBLADE 等恶意载荷。自 2025 年 11 月起，该漏洞已被多类攻击者用于针对沙特阿拉伯、土耳其、马来西亚和乌克兰的攻击行动，所有相关漏洞已在 iOS 26.3 中完成修补。 此次披露揭示了一个复杂的现实世界漏洞利用链，它绕过了 iOS 的安全防护，仅通过简单的网页浏览即可实现设备完全控制，影响了多个国家的用户。不同威胁行为者广泛采用该漏洞链，表明此类漏洞利用工具包能够在网络犯罪生态系统中迅速扩散，对移动设备安全构成重大风险。 该漏洞链利用了 iOS 软件栈中的六个漏洞，其中三个在发现时是零日漏洞，并且几乎完全用 JavaScript 编写以实现简化部署。值得注意的是，虽然所有漏洞都在 iOS 26.3 中修补，但其中许多实际上在更早的增量更新（如 iOS 18.7.3 和 26.2）中就已修复，这凸显了及时进行安全更新的重要性。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-disclosure",
+    "iOS-security",
+    "Safari",
+    "exploit-chain"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 24, 11:45"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40482",
+  "originalSite": "t.me",
+  "context": "DarkSword 是一个完整的 iOS 漏洞利用工具包，通过 Safari 漏洞针对设备实现远程代码执行。GHOSTBLADE 载荷是一个数据窃取组件，能够从受感染设备中提取敏感信息，包括加密货币钱包数据、Wi-Fi 密码、短信和聊天记录。CVE-2025-43529 是 WebKit（Safari 浏览器引擎）中的一个释放后使用漏洞，是该漏洞链中串联的六个漏洞之一。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Proliferation of DarkSword: iOS Exploit Chain Adopted by ...",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain"
+    },
+    {
+      "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full ...",
+      "url": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html"
+    },
+    {
+      "title": "NVD - CVE - 2025 - 43529",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

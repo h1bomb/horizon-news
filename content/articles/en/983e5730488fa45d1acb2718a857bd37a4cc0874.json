@@ -1,0 +1,30 @@
+{
+  "id": "983e5730488fa45d1acb2718a857bd37a4cc0874",
+  "canonicalId": "1a165aff3292d4a764df15b157ab8cbfee4baafb",
+  "slug": "satirical-incident-report-exposes-ai-agent-dysfunction",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T17:58:00Z",
+  "lang": "en",
+  "title": "Satirical Incident Report Exposes AI Agent Dysfunction",
+  "summary": "Andrew Nesbitt published a fictional incident report, CVE-2026-LGTM, depicting two AI review agents from competing vendors entering a disagreement loop over a package security issue, generating 340 comments and $41,255 in inference costs. This satire highlights critical flaws in autonomous AI agents, including runaway costs, vendor marketing exploitation, and lack of escalation mechanisms, serving as a cautionary tale for the software industry's increasing reliance on AI-driven automation. The report notes the two agents failed to resolve a simple dispute over the foxhole-lz4 package's maliciousness, leading to an escalating argument. One vendor's marketing team used the incident to issue a press release claiming a 430% YoY increase in adversarial multi-agent security reasoning, and the company's stock rose 6%.",
+  "score": 8,
+  "tags": [
+    "security",
+    "ai",
+    "prompt-injection",
+    "generative-ai"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "AI review agents are automated systems that analyze code changes for security vulnerabilities. They can be susceptible to prompt injection attacks where malicious inputs cause unexpected behavior. This fictional scenario satirizes real-world issues like vendor lock-in, cost overruns, and the tendency to spin failures as marketing wins.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

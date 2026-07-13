@@ -1,0 +1,44 @@
+{
+  "id": "55569001e45d4665d81aafbab46be69e4405b05f",
+  "canonicalId": "152cb1f320e2f0a7f7c824a2d445225b2983d9b7",
+  "slug": "开源-cli-智能体在-terminalbench-上超越谷歌官方结果",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "开源 CLI 智能体在 TerminalBench 上超越谷歌官方结果",
+  "summary": "一个名为 Dirac 的开源 CLI 智能体使用 Gemini-3-flash-preview 在 TerminalBench 上取得了 65.2%的分数，超过了谷歌官方智能体（47.8%）和此前排名第一的闭源模型 Junie CLI（64.3%）。 这一结果表明，精心设计的执行框架（harness）能显著提升 AI 智能体的性能，甚至超越官方实现和闭源竞争对手，凸显了开源创新在 AI 智能体开发中的重要性。 作者明确声明未使用任何作弊机制，智能体以符合排行榜要求的方式运行，且使用了完全开源版本。该智能体采用了哈希锚定编辑、基于 AST 的上下文获取以及批量操作等技术。",
+  "score": 8,
+  "tags": [
+    "AI agents",
+    "benchmarking",
+    "open source",
+    "CLI",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 27, 12:35"
+    }
+  ],
+  "originalUrl": "https://github.com/dirac-run/dirac",
+  "originalSite": "github.com",
+  "context": "TerminalBench 是一个评估 AI 智能体在命令行界面任务中表现的基准测试，测试其导航和操作真实环境的能力。Gemini-3-flash-preview 是谷歌于 2025 年 12 月发布的一款快速且成本效益高的模型。执行框架（harness）指的是控制智能体如何与环境交互并执行动作的软件框架。",
+  "discussion": "评论者赞扬了执行框架的改进，并指出缺乏跨模型泛化测试。有人对遥测数据发送到作者端点表示担忧，而其他人则建议与不同模型家族进行比较，以排除过拟合的可能性。",
+  "references": [
+    {
+      "title": "Terminal-Bench: Benchmarking AI Agents on CLI Tasks",
+      "url": "https://tessl.io/blog/terminal-bench-benchmarking-ai-agents-on-cli-tasks/"
+    },
+    {
+      "title": "Gemini 3 Flash Preview Model Specs, Costs... | Galaxy.ai",
+      "url": "https://blog.galaxy.ai/model/gemini-3-flash-preview"
+    },
+    {
+      "title": "Agent skills | Junie Documentation",
+      "url": "https://junie.jetbrains.com/docs/agent-skills.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "0418b11c12d54dd100a2d5b04b0fc3e8e24dfcda",
+  "canonicalId": "80b041e2fc3650dc001f3ca866ab5fd248e47d02",
+  "slug": "qwen36-27b-kv-cache-quantization-tests-show-surprising-results",
+  "date": "2026-04-25",
+  "publishedAt": "2026-04-24T22:46:00Z",
+  "lang": "en",
+  "title": "Qwen3.6 27B KV Cache Quantization Tests Show Surprising Results",
+  "summary": "A user tested KV cache quantization (turbo3, turbo4, Q8, Q4) on Qwen3.6-27B using llama-perplexity and found minimal perplexity loss across all quantizations, with turbo3 performing unexpectedly well. This suggests that large dense models (≥20B params) may be less sensitive to KV cache quantization, potentially enabling significant memory savings without noticeable quality loss in local LLM deployments. The test used Qwen3.6-27B-Q5_K_M GGUF with 200k context on a 3090 eGPU, and perplexity was measured on wiki.test.raw. The user noted that turbo3 was not working in earlier builds but now functions correctly.",
+  "score": 7,
+  "tags": [
+    "KV cache quantization",
+    "Qwen3.6",
+    "llama.cpp",
+    "perplexity",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "imgroot9"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1suur3s/qwen36_27bs_surprising_kv_cache_quantization_test/",
+  "originalSite": "reddit.com",
+  "context": "KV cache quantization reduces memory usage by compressing the key-value cache during inference, which is critical for long-context LLMs. Perplexity (PPL) is a common metric for language model quality, but recent research shows it may not capture real-world task degradation, especially with aggressive quantization like Q4.",
+  "discussion": "Commenters warned that PPL is not a reliable indicator of quality loss; one user cited that Q4 KV shows minimal PPL change but causes a huge drop in AIME scores. Others noted that recent llama.cpp optimizations (early April) have improved Q8 and Q4 KV cache quality, but turboquant builds lag behind the latest llama.cpp.",
+  "references": [
+    {
+      "title": "Unlocking Longer Generation with Key-Value Cache Quantization",
+      "url": "https://huggingface.co/blog/kv-cache-quantization"
+    },
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

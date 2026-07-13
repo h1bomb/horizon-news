@@ -1,0 +1,44 @@
+{
+  "id": "0ea7e783e0923dff9e245b42a088dbb381938d9e",
+  "canonicalId": "fdf6eb6cc9bb5b3a79c8cd9effbc74d586bb7add",
+  "slug": "tim-schilling-warns-llm-misuse-harms-djangos-open-source-community",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T16:13:00Z",
+  "lang": "en",
+  "title": "Tim Schilling warns LLM misuse harms Django's open-source community",
+  "summary": "Tim Schilling, in a March 2026 blog post, argues that using Large Language Models (LLMs) to contribute to Django without understanding tickets, solutions, or PR feedback harms the project's communal nature. He emphasizes that LLMs should serve as complementary tools rather than primary vehicles for contributions. This matters because it addresses ethical concerns about AI's role in open-source development, specifically how automated contributions without human understanding can demoralize reviewers and undermine collaborative efforts. As LLMs become more integrated into software engineering, this discussion highlights the need to balance efficiency with maintaining human engagement in communal projects like Django. Schilling specifically criticizes contributors who use LLMs as a 'facade' without engaging with the community, noting this makes reviewing 'demoralizing.' He clarifies that LLMs can be beneficial when used as complementary tools, not as replacements for human understanding and interaction in the contribution process.",
+  "score": 7,
+  "tags": [
+    "AI Ethics",
+    "Open Source",
+    "Software Engineering",
+    "Django",
+    "LLM Usage"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Django is a popular Python web framework with an open-source contribution workflow involving tickets (issues) and pull requests (PRs) that require community review. LLMs (Large Language Models) like code-specific models are increasingly used in software development to generate code and assist with tasks, but they can produce non-deterministic outputs that may lack context. In open-source projects, contributions are typically reviewed by human maintainers who assess code quality, alignment with project goals, and community standards.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Code LLMs Mean for the Future of Software Development | IBM",
+      "url": "https://www.ibm.com/think/insights/code-llm"
+    },
+    {
+      "title": "Some thoughts on LLMs and Software Development",
+      "url": "https://martinfowler.com/articles/202508-ai-thoughts.html"
+    },
+    {
+      "title": "Advice for new contributors | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "964a1b018925c57ebfe8efb7f6af8082f802ed58",
+  "canonicalId": "bd5d4fef0a95fec1bcac6c15b1cd245ea70ec685",
+  "slug": "黑客通过-trivy-供应链攻击入侵欧盟委员会泄露-92-gb-数据",
+  "date": "2026-04-06",
+  "publishedAt": "2026-04-06T00:00:00Z",
+  "lang": "zh",
+  "title": "黑客通过 Trivy 供应链攻击入侵欧盟委员会，泄露 92 GB 数据",
+  "summary": "针对 Trivy 开源安全扫描器的供应链攻击入侵了欧盟委员会的云基础设施，导致约 92 GB 压缩数据被盗并公开泄露，其中包括数十个欧盟机构工作人员的个人信息和电子邮件内容。此次攻击由 The Next Web 报道，此前 LWN 已报道过影响 LiteLLM 系统的 Trivy 入侵事件。 此次入侵事件意义重大，因为它表明针对广泛使用的开源工具的供应链攻击能够入侵知名政府机构，削弱对开源安全的信任，并突显关键基础设施的脆弱性。这可能导致监管审查加强，影响欧盟工作人员的数据隐私，并促使组织重新评估其对第三方软件组件的依赖。 此次攻击涉及 Trivy 安全扫描器的供应链入侵，该工具用于检测漏洞，随后被用于访问欧盟委员会的系统。约 92 GB 压缩数据被盗并泄露，包含来自多个欧盟机构的敏感个人和电子邮件信息。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "supply-chain-attack",
+    "open-source",
+    "data-breach",
+    "European-Commission"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 5, 13:55"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066371/",
+  "originalSite": "lwn.net",
+  "context": "Trivy 是一款开源安全扫描器，用于识别软件中的漏洞，广泛应用于 DevOps 和云环境。供应链攻击是指攻击者入侵受信任的软件组件（如开源工具），以渗透依赖该组件的下游系统。LiteLLM 是一个开源库，提供调用各种大型语言模型的统一接口，此前在 Trivy 入侵相关的攻击中已遭入侵。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Trivy",
+      "url": "https://trivy.dev/"
+    },
+    {
+      "title": "Getting Started | liteLLM",
+      "url": "https://docs.litellm.ai/docs/"
+    },
+    {
+      "title": "Supply chain attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

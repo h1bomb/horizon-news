@@ -1,0 +1,44 @@
+{
+  "id": "ed83bde176a3fdfca43363bbde9f8ecaf1f3a2a1",
+  "canonicalId": "86eab5855fa04f7268a252cec63c4d78ddbc5556",
+  "slug": "华为盘古模型被指权重抄袭新检测方法提供证据",
+  "date": "2026-06-13",
+  "publishedAt": "2026-06-12T08:07:00Z",
+  "lang": "zh",
+  "title": "华为盘古模型被指权重抄袭，新检测方法提供证据",
+  "summary": "清华大学张锐翀的一篇预印本论文提出了一种基于矩阵的检测方法（MDIR），声称有统计显著证据（极低 p 值）表明华为盘古大语言模型抄袭了阿里巴巴通义千问模型的权重。 如果得到验证，这将是主要 AI 公司之间模型权重盗窃的标志性案例，引发对行业知识产权的严重关切，并可能重塑模型所有权的保护方式。 MDIR 利用矩阵分析和大偏差理论对齐模型之间的嵌入和多层权重，计算严格的 p 值，即使在增量预训练、剪枝或置换后也能检测抄袭，且可在单台个人电脑上一小时内完成。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "plagiarism detection",
+    "model weight theft",
+    "Huawei Pangu",
+    "Alibaba Tongyi Qianwen"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41915",
+  "originalSite": "t.me",
+  "context": "大型语言模型（如华为盘古和阿里巴巴通义千问）由数十亿个参数（权重）构成，这些参数编码了学到的知识。权重抄袭是指一个模型的内部参数复制自另一个模型，通常经过表面修改。现有的抄袭检测方法缺乏统计严谨性，无法可靠区分相似但独立训练的模型。MDIR 通过提供基于随机矩阵理论的原则性统计检验来解决这一问题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "清华团队下场锤抄袭！AI 版权之战打响？ - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/1940401877238912227"
+    },
+    {
+      "title": "清华团队下场锤抄袭！AI 版权之战打响？_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250817A02YVR00"
+    },
+    {
+      "title": "Matrix-Driven Instant Review: Confident Detection and ...",
+      "url": "https://chatpaper.com/zh-CN/paper/178891"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

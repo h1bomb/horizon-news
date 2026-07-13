@@ -1,0 +1,41 @@
+{
+  "id": "57faa6d5febd4efb9d8d74e8a016110fa10ad2c0",
+  "canonicalId": "71925b69e737f36d4d2c88f15a992f1a0d76bae5",
+  "slug": "removing-modem-and-gps-from-2024-rav4-hybrid",
+  "date": "2026-05-15",
+  "publishedAt": "2026-05-14T17:08:00Z",
+  "lang": "en",
+  "title": "Removing Modem and GPS from 2024 RAV4 Hybrid",
+  "summary": "A detailed guide was published on physically removing the cellular modem and GPS unit from a 2024 Toyota RAV4 hybrid to stop telemetry data collection by the vehicle. This guide addresses growing privacy concerns over vehicle telemetry data collection, which can be shared with insurance companies or other third parties, and empowers owners to take control of their data. Even after modem removal, connecting a phone via Bluetooth can still allow telemetry transmission through the phone's internet, but using a wired USB connection avoids this. Removing the modem may disable safety features like Toyota's Safety Connect roadside assistance.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "vehicle telemetry",
+    "hardware mod",
+    "Toyota",
+    "data collection"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "arkadiyt",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48138136"
+    }
+  ],
+  "originalUrl": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/",
+  "originalSite": "arkadiyt.com",
+  "context": "Modern vehicles are equipped with a telematic control unit (TCU) that collects data from internal systems and communicates with cloud services. Toyota's Safety Connect is a subscription-based telematics system providing services like remote diagnostics and emergency assistance. Privacy advocates warn that such data can be shared with insurers without explicit consent.",
+  "discussion": "Commenters noted that the Ford Maverick has a single fuse for the telematics unit that can be removed without errors, offering a simpler alternative. Others shared personal issues with Toyota's GPS compass heading errors and lack of manufacturer support, motivating hardware removal.",
+  "references": [
+    {
+      "title": "Telematic control unit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Telematic_control_unit"
+    },
+    {
+      "title": "Safety Connect - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Safety_Connect"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

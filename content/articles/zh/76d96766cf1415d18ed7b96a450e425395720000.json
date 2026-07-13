@@ -1,0 +1,40 @@
+{
+  "id": "76d96766cf1415d18ed7b96a450e425395720000",
+  "canonicalId": "c76a09d82e18e3cecdd3dbd7dc86ccbc3ff2d8fb",
+  "slug": "终端用户界面tui为何再度流行",
+  "date": "2026-05-04",
+  "publishedAt": "2026-05-04T00:00:00Z",
+  "lang": "zh",
+  "title": "终端用户界面（TUI）为何再度流行",
+  "summary": "终端用户界面（TUI）的复兴正受到现代开发工具（如 Claude Code）、通过 SSH 免本地安装交付应用的能力，以及对当前图形和网页界面不满意的推动。 这一趋势反映了向轻量级、高效、跨平台界面的转变，绕过操作系统原生和网页界面的臃肿与碎片化，直接影响着开发者的工作流程和远程应用访问。 像 Anthropic 的 AI 编程助手 Claude Code 这类工具原生运行在终端中，而 pico.sh 等项目通过 SSH 部署 TUI，客户端无需安装任何东西，展示了这种方法的实际优势。",
+  "score": 8,
+  "tags": [
+    "TUI",
+    "terminal",
+    "developer-tools",
+    "SSH",
+    "Claude-Code"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 3, 18:42"
+    }
+  ],
+  "originalUrl": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
+  "originalSite": "wiki.alcidesfonseca.com",
+  "context": "终端用户界面（TUI），也称为文本用户界面，使用字符单元显示，通常支持鼠标输入和颜色，运行在终端仿真器中。它们早于图形用户界面（GUI），以速度快、资源占用低和键盘操作为特点。近期终端技术的进步和以开发者为中心工具的兴起重新激发了人们的兴趣。SSH（安全外壳协议）允许安全远程访问命令行界面，使得托管在服务器上的应用可以从任何终端使用，无需本地安装。",
+  "discussion": "社区反应不一：有人指出 Claude Code 和基于 SSH 的交付是主要驱动力，也有人抱怨 TUI 缺乏现代 UI 的便利性，如标准键盘快捷键和密码管理器集成。但许多人认同，操作系统原生和网页界面的碎片化留下了 TUI 填补的空缺。",
+  "references": [
+    {
+      "title": "Terminal user interface",
+      "url": "https://en.wikipedia.org/wiki/Terminal_user_interface"
+    },
+    {
+      "title": "Claude Code",
+      "url": "https://en.wikipedia.org/wiki/Claude_Code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bc5eb5d914d845c7ec9a31b3449e6e525afbdb33",
+  "canonicalId": "d8ba48fdb041ac75b53d98ab3d34df4674b26cf9",
+  "slug": "why-llms-dont-reason-in-vector-space-a-reddit-debate",
+  "date": "2026-04-30",
+  "publishedAt": "2026-04-29T00:46:00Z",
+  "lang": "en",
+  "title": "Why LLMs Don't Reason in Vector Space: A Reddit Debate",
+  "summary": "A Reddit discussion explores why large language models (LLMs) do not perform reasoning in latent vector space instead of natural language, referencing ongoing research like looped LLMs and diffusion LLMs. This question touches on a fundamental trade-off between efficiency and interpretability in LLM reasoning, with implications for future model architectures and debugging capabilities. Research like Coconut (Chain of Continuous Thought) and looped LLMs explores latent-space reasoning, but challenges include loss of debuggability and the difficulty of training on reasoning traces in abstract vector spaces.",
+  "score": 8,
+  "tags": [
+    "LLM reasoning",
+    "latent space",
+    "chain-of-thought",
+    "interpretability",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "ZeusZCC"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1syjlc2/why_isnt_llm_reasoning_done_in_vector_space/",
+  "originalSite": "reddit.com",
+  "context": "Current LLMs generate reasoning as natural language text (chain-of-thought), which is interpretable but token-inefficient. Internally, models operate on high-dimensional vectors, but intermediate reasoning is not directly exposed in that space. Latent-space reasoning aims to keep reasoning in vector form, potentially faster and more compressed, but at the cost of transparency.",
+  "discussion": "Commenters generally agree that LLMs already reason in latent space internally, and language output is just a trace. The main concern is that hiding reasoning in vectors reduces debuggability and control, which is problematic for deterministic tasks. Some point to diffusion LLMs as a promising direction for latent reasoning.",
+  "references": [
+    {
+      "title": "GitHub - dl1683/ Latent - Space - Reasoning : Teaching LLMs to reason ...",
+      "url": "https://github.com/dl1683/Latent-Space-Reasoning"
+    },
+    {
+      "title": "Reasoning Beyond Language: A Comprehensive Survey on Latent ...",
+      "url": "https://arxiv.org/html/2505.16782v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

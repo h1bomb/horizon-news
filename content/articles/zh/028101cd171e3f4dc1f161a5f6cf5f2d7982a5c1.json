@@ -1,0 +1,41 @@
+{
+  "id": "028101cd171e3f4dc1f161a5f6cf5f2d7982a5c1",
+  "canonicalId": "b1cde24cc0cd6c7a2fc7e5b07732537f4c3b9a89",
+  "slug": "deno-desktop-推出多后端-webview-框架",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T05:38:00Z",
+  "lang": "zh",
+  "title": "Deno Desktop 推出多后端 Webview 框架",
+  "summary": "Deno 推出了名为 Deno Desktop 的桌面应用框架，支持多种 webview 后端（包括 CEF、Webview 和 Raw），通过共享运行时减少二进制文件大小，并通过权限系统增强安全性。 Deno Desktop 为 Electron 提供了一种有吸引力的替代方案，通过将应用二进制大小降至几兆字节，并利用其细粒度的权限系统提升安全性，降低了使用 Web 技术构建跨平台桌面应用的门槛。 该框架支持 CEF、系统 Webview（macOS/Linux 上的 WebKit，Windows 上的 Edge WebView2）以及 Raw 后端。共享运行时已列入路线图，预计可将每个应用的二进制大小降至几兆字节。",
+  "score": 8,
+  "tags": [
+    "deno",
+    "desktop-apps",
+    "webview",
+    "cef",
+    "electron"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "GeneralMaximus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48626137"
+    }
+  ],
+  "originalUrl": "https://docs.deno.com/runtime/desktop/",
+  "originalSite": "docs.deno.com",
+  "context": "像 Electron 这样的桌面应用框架会为每个应用捆绑完整的 Chromium 浏览器引擎，导致二进制文件体积庞大（通常超过 100 MB）。Webview 后端使用系统自带的浏览器引擎，从而减小体积。CEF 允许嵌入 Chromium，但仍然较大。Deno Desktop 的共享运行时方法旨在让多个应用共享一份 CEF 副本，进一步减少磁盘占用。",
+  "discussion": "评论者对共享 CEF 运行时和权限系统集成表现出兴趣。一位用户质疑跨不同应用共享 CEF 时的版本管理问题。另一位建议添加类似 WebUI 的“在浏览器中启动”选项，以获得更好的权衡。总体情绪积极，许多人称赞 Deno 生态系统的成熟。",
+  "references": [
+    {
+      "title": "GitHub - webview/webview: Tiny cross-platform webview library for C/C++. Uses WebKit (GTK/Cocoa) and Edge WebView2 (Windows). · GitHub",
+      "url": "https://github.com/webview/webview"
+    },
+    {
+      "title": "Chromium Embedded Framework",
+      "url": "https://en.wikipedia.org/wiki/Chromium_Embedded_Framework"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

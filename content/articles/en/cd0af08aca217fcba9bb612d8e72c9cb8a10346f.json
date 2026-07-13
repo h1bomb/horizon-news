@@ -1,0 +1,43 @@
+{
+  "id": "cd0af08aca217fcba9bb612d8e72c9cb8a10346f",
+  "canonicalId": "494edd9c0081ff30e19df05dcc5abe52c3564559",
+  "slug": "airsnitch-research-exposes-fundamental-wi-fi-client-isolation-flaws-enabling-mitm-attacks",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-26T15:55:00Z",
+  "lang": "en",
+  "title": "AirSnitch research exposes fundamental Wi-Fi client isolation flaws enabling MitM attacks",
+  "summary": "Researchers presented AirSnitch, a novel attack framework at NDSS 2026 that breaks Wi-Fi client isolation by exploiting cross-layer identity desynchronization between physical (Layer 1) and data link (Layer 2) protocols. This enables bidirectional man-in-the-middle attacks where attackers can intercept and modify traffic between supposedly isolated devices on the same network. This research matters because client isolation is a fundamental security feature deployed in millions of public Wi-Fi networks, hotels, airports, and enterprise guest networks to prevent device-to-device attacks. The demonstration that this protection can be systematically broken at the protocol level exposes widespread vulnerability in a security mechanism that organizations and users fundamentally rely on for basic network segmentation. The attacks require the attacker to already be associated with the target Wi-Fi network, similar to some existing shared network threats, but exploit novel cross-layer desynchronization weaknesses. The paper notes that some attacks specifically target implementation flaws where routers fail to properly segregate traffic between guest and normal networks, though the core vulnerability stems from protocol design issues.",
+  "score": 8,
+  "tags": [
+    "network-security",
+    "wi-fi",
+    "vulnerability-research",
+    "ndss"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "DamnInteresting"
+    }
+  ],
+  "originalUrl": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf",
+  "originalSite": "ndss-symposium.org",
+  "context": "Client isolation is a network security feature that prevents devices connected to the same Wi-Fi network (like in cafes or airports) from communicating directly with each other, limiting lateral movement for attackers. It's commonly implemented on guest and public Wi-Fi SSIDs through wireless access point configurations. The Network and Distributed System Security (NDSS) Symposium is a leading academic conference where such cutting-edge security research is typically presented and peer-reviewed.",
+  "discussion": "The Hacker News discussion shows mixed reactions, with some commenters questioning the novelty, noting that attacks require prior network access and resemble known shared Wi-Fi risks. Others highlight the practical impact on everyday users whose routers may use the same SSID across bands, while some debate whether the title overstates the findings by not emphasizing that Wi-Fi encryption itself remains unbroken.",
+  "references": [
+    {
+      "title": "What does Client Isolation mean",
+      "url": "https://multitech.com/iot-wiki/client-isolation/"
+    },
+    {
+      "title": "Wireless Client Isolation - Cisco Meraki Documentation",
+      "url": "https://documentation.meraki.com/MR/Firewall_and_Traffic_Shaping/Wireless_Client_Isolation"
+    },
+    {
+      "title": "Network and Distributed System Security (NDSS) Symposium",
+      "url": "https://www.ndss-symposium.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

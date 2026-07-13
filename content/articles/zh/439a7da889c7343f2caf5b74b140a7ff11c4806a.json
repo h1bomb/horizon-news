@@ -1,0 +1,40 @@
+{
+  "id": "439a7da889c7343f2caf5b74b140a7ff11c4806a",
+  "canonicalId": "275b23cd100e867e4917410012c6ca5983a170ff",
+  "slug": "llamacpp-合并-gemma4-mtp-支持",
+  "date": "2026-06-08",
+  "publishedAt": "2026-06-07T12:53:00Z",
+  "lang": "zh",
+  "title": "llama.cpp 合并 Gemma4 MTP 支持",
+  "summary": "开源项目 llama.cpp 已合并对 Google Gemma4 模型的多轮预测（MTP）支持，实现了本地推理的多轮对话能力。 这一集成使用户能够在本地运行具备先进多轮推理能力的 Gemma4，扩展了在不依赖云服务的情况下进行设备端 AI 应用的可能性。 此次合并包括对 GGUF 格式的支持，并利用了 llama.cpp 典型的 C/C++ 性能优化，但 MTP 的具体性能基准尚未公开。",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "Gemma4",
+    "MTP",
+    "local LLM",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/pinkyellowneon"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tzbcyp/llamacpp_gemma4_mtp_support_merged/",
+  "originalSite": "reddit.com",
+  "context": "llama.cpp 是一个流行的开源推理引擎，用于在消费级硬件上本地运行大型语言模型。Gemma4 是 Google 最新的开放权重模型，多轮预测（MTP）指的是模型在多个对话轮次中进行推理的能力，从而提升对话任务中的连贯性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Llama.cpp",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    },
+    {
+      "title": "Gemma 4",
+      "url": "https://en.wikipedia.org/wiki/Gemma_4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

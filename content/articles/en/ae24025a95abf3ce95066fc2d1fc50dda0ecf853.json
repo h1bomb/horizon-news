@@ -1,0 +1,44 @@
+{
+  "id": "ae24025a95abf3ce95066fc2d1fc50dda0ecf853",
+  "canonicalId": "bdee22a8030da228fc0e6bca6d8390218758726a",
+  "slug": "microsoft-releases-harrier-oss-v1-multilingual-text-embedding-models",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-30T13:23:00Z",
+  "lang": "en",
+  "title": "Microsoft releases Harrier-OSS-v1 multilingual text embedding models",
+  "summary": "Microsoft has released harrier-oss-v1, a family of multilingual text embedding models that achieve state-of-the-art performance on the Multilingual MTEB v2 benchmark for tasks like retrieval and semantic similarity. The models come in three sizes: 27B, 0.6B, and 270M parameters. This release matters because it provides high-quality multilingual text embeddings that can significantly improve AI applications like search, classification, and clustering across multiple languages. As an open-source model from Microsoft, it could accelerate adoption of advanced embedding techniques in the broader AI/ML community. The models use decoder-only architectures with last-token pooling and L2 normalization to produce dense text embeddings. They support a wide range of tasks including retrieval, clustering, semantic similarity, classification, bitext mining, and reranking.",
+  "score": 8,
+  "tags": [
+    "text-embeddings",
+    "multilingual-models",
+    "microsoft",
+    "open-source",
+    "nlp"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "jacek2023"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s7qh70/microsoftharrieross_27b06b270m/",
+  "originalSite": "reddit.com",
+  "context": "Text embedding models convert text into numerical vectors that capture semantic meaning, enabling tasks like similarity comparison and information retrieval. The Multilingual MTEB v2 benchmark is a comprehensive evaluation framework for assessing text embedding models across multiple languages and tasks. Decoder-only architectures, commonly used in large language models, process sequences in a unidirectional manner to generate outputs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - embeddings-benchmark/mteb: MTEB: Massive Text Embedding Benchmark · GitHub",
+      "url": "https://github.com/embeddings-benchmark/mteb"
+    },
+    {
+      "title": "MTEB Leaderboard - a Hugging Face Space by mteb",
+      "url": "https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    {
+      "title": "[2502.13595] MMTEB: Massive Multilingual Text Embedding Benchmark",
+      "url": "https://arxiv.org/abs/2502.13595"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "e926a9f0c39de941de3e2eb4cc9d848b728d99a6",
+  "canonicalId": "7107c835707a42bfa95b08e2d44d4eea63a09007",
+  "slug": "1-click-admin-takeover-flaw-found-in-pewdiepies-odysseus-ai-tool",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T20:32:00Z",
+  "lang": "en",
+  "title": "1-Click Admin Takeover Flaw Found in PewDiePie's Odysseus AI Tool",
+  "summary": "A security researcher disclosed a 1-click admin account takeover vulnerability in PewDiePie's self-hosted AI tool Odysseus, allowing attackers to gain full admin control with a single click. This vulnerability is critical because Odysseus is promoted as a private, self-hosted AI workspace, and a full admin takeover undermines user trust and data security. The recurring nature of such flaws indicates a need for more rigorous security audits in popular AI tools. The vulnerability allows a 1-click admin takeover without user interaction, similar to other recent 1-click account takeover issues in ZITADEL and Microsoft 365 Android apps. No patch has been confirmed at the time of disclosure.",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "AI",
+    "LLM",
+    "PewDiePie"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/theonejvo"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tys1wj/another_1click_admin_account_takeover_in/",
+  "originalSite": "reddit.com",
+  "context": "PewDiePie released Odysseus, a self-hosted AI workspace for running open-source models locally, emphasizing privacy and user control. The tool is built on existing web UIs like Claude and ChatGPT's interfaces, but self-hosted. A 1-click admin takeover vulnerability is a severe security issue that could expose all user data and allow full system control.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PewDiePie goes all-in on self-hosting AI using... | Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/pewdiepie-goes-all-in-on-self-hosting-ai-using-modded-gpus-with-plans-to-build-own-model-soon-youtuber-pits-multiple-sentient-chatbots-against-each-other-to-find-the-best-answers"
+    },
+    {
+      "title": "PewDiePie Releases His Own Self-Hosted AI Workspace for Free",
+      "url": "https://80.lv/articles/pewdiepie-releases-his-own-self-hosted-ai-workspace-available-for-free"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

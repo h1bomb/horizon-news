@@ -1,0 +1,41 @@
+{
+  "id": "644935b152f2103a1acd13a99947efb428adceb7",
+  "canonicalId": "4f506c0e5786a0785bd2d17c80ffeebfc0951a51",
+  "slug": "epic-games-open-sources-lore-vcs-for-game-dev",
+  "date": "2026-06-18",
+  "publishedAt": "2026-06-17T14:30:00Z",
+  "lang": "en",
+  "title": "Epic Games Open-Sources Lore VCS for Game Dev",
+  "summary": "Epic Games has open-sourced Lore, a version control system originally built for Fortnite, designed to handle large binary assets and replace Perforce in game development. Lore addresses Git's poor handling of non-text files like textures and 3D models, providing a scalable alternative for game studios. It could disrupt the proprietary Perforce dominance in game development. Lore, formerly Unreal Revision Control, is already used internally at Epic and in Unreal Editor for Fortnite. It supports file locking, permissions, and large-scale collaboration for big projects.",
+  "score": 8,
+  "tags": [
+    "version control",
+    "game development",
+    "open source",
+    "scalability",
+    "perforce"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "regnerba",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48571081"
+    }
+  ],
+  "originalUrl": "https://lore.org/",
+  "originalSite": "lore.org",
+  "context": "Version control systems like Git track changes in code files but struggle with large binary assets common in game development. Perforce has been the industry standard for game dev due to its file locking and scalability, but it's proprietary and expensive. Lore aims to offer an open-source alternative with similar capabilities.",
+  "discussion": "The Hacker News community largely views Lore as a promising challenger to Perforce for game development. Some users highlight Git's poor user experience and lack of file locking, while others note Lore's pedigree as an internal Epic tool. There is curiosity about its performance compared to Perforce.",
+  "references": [
+    {
+      "title": "Lore is a next-generation, open source revision control system",
+      "url": "https://github.com/EpicGames/lore"
+    },
+    {
+      "title": "Epic Games Announces Lore Open-Source Version Control System",
+      "url": "https://www.phoronix.com/news/Epic-Games-Lore-VCS"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

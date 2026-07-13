@@ -1,0 +1,44 @@
+{
+  "id": "eab4c5a12db5364663470ef14c515848eb0dfda6",
+  "canonicalId": "32df302109dfd1760ca14e41d1bb4caf85be04fb",
+  "slug": "comprehensive-q4-quantization-comparison-for-qwen35-35b-a3b-model",
+  "date": "2026-02-27",
+  "publishedAt": "2026-02-26T15:52:00Z",
+  "lang": "en",
+  "title": "Comprehensive Q4 Quantization Comparison for Qwen3.5-35B-A3B Model",
+  "summary": "A detailed comparison was conducted across all major community quantization methods for the Qwen3.5-35B-A3B model, measuring their faithfulness to the original BF16 baseline using KL Divergence (KLD) and perplexity (PPL) metrics. The analysis identified AesSedai's Q4_K_M as achieving the lowest KLD (0.0102) and highlighted Ubergarm's Q4_0 as significantly outperforming other Q4_0 variants. This matters because quantization is essential for running large language models locally on consumer hardware, but the quality and meaning of different quantization 'recipes' (like Q4_K_M) can vary widely between creators. This data-driven comparison provides users with an objective basis for choosing the most faithful quantized version, addressing a major pain point in the local LLM community where quantizer inconsistency has been a problem. The analysis prioritizes KL Divergence (KLD) over perplexity (PPL) as the primary metric for faithfulness, as KLD measures the direct drift from the baseline model's probability distribution and is less susceptible to dataset noise. A key technical insight is that the best-performing quantizations (like AesSedai's) achieve low KLD by strategically protecting critical tensors (e.g., attention layers, shared experts) with higher precision (Q8_0) and differentiating treatment for different feed-forward network components.",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "model-evaluation",
+    "qwen",
+    "llama.cpp",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "TitwitMuffbiscuit"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rfds1h/qwen3535ba3b_q4_quantization_comparison/",
+  "originalSite": "reddit.com",
+  "context": "Quantization is a technique to reduce the memory and computational cost of large language models (LLMs) by representing their weights with fewer bits (e.g., 4 bits instead of 16). This allows models like the 35-billion-parameter Qwen3.5 to run on local machines. GGUF is a common file format for quantized models used with tools like llama.cpp. Within this format, suffixes like Q4_K_M denote specific 'recipes' that mix different quantization types for different layers, balancing size and quality. KL Divergence (KLD) is a statistical measure of how one probability distribution differs from another; in this context, a lower KLD means the quantized model's output distribution is closer to the original model's.",
+  "discussion": "The community strongly praised the analysis as essential work needed to bring transparency to the quantization ecosystem. A recurring theme was the call for standardization, with users urging quantizers to include KLD scores in their README files. Concerns were raised about potential dataset contamination (e.g., using WikiText for both quantization and evaluation), which could skew results. There was also discussion about specific technical issues, such as the investigation into MXFP4's role in causing high perplexity for some quantized variants.",
+  "references": [
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0, and Q6_K ...",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    },
+    {
+      "title": "Difference in different quantization methods - GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/2094"
+    },
+    {
+      "title": "Overview of GGUF quantization methods : r/LocalLLaMA - Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ba55rj/overview_of_gguf_quantization_methods/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

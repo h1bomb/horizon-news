@@ -1,0 +1,44 @@
+{
+  "id": "c963065e78381d28286a163c262303e024a580a2",
+  "canonicalId": "524e56fe15910056dfacc79f828e9cfaac10adf4",
+  "slug": "苹果发布-coreai-设备端推理引擎",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T13:29:00Z",
+  "lang": "zh",
+  "title": "苹果发布 CoreAI 设备端推理引擎",
+  "summary": "苹果在 WWDC 上宣布了 CoreAI，这是一个新的设备端推理引擎，将取代 CoreML，并支持在 Apple Silicon 设备上运行更大的模型，包括 200 亿参数的 MoE（混合专家）模型。 CoreAI 大幅扩展了苹果设备端 AI 的能力，支持边缘部署具有 MoE 架构的大语言模型，这可能推动隐私保护的 AI 应用并减少对云的依赖。 CoreAI 使用与 CoreML 类似的 Python 转换脚本，目前支持 2025 年中期的模型，初始阶段在 GPU 上的性能可能不如 MLX。它与 Xcode 集成，并提供 Swift API 用于模型部署。",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "Inference Engine",
+    "On-Device ML",
+    "LLM",
+    "CoreAI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/bakawolf123"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/",
+  "originalSite": "reddit.com",
+  "context": "设备端推理直接在设备上运行 AI 模型而不与云端交互，从而保护用户隐私。Apple Silicon 包含神经网络引擎以加速机器学习任务。MoE 架构每次输入只激活部分模型参数，使得总模型规模（如 200 亿参数）在可控计算量下成为可能。CoreML 是苹果之前的框架，但在模型大小和支持的操作上有限制。",
+  "discussion": "社区认为这一公告低调但意义重大，注意到设备端运行更大模型的潜力。一些人对其与 MLX 或 llama.cpp 相比的性能持谨慎态度，并质疑对更新模型的支持时间。",
+  "references": [
+    {
+      "title": "Core AI | Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation/coreai/?ref=upstract.com"
+    },
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

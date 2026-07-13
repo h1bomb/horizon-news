@@ -1,0 +1,31 @@
+{
+  "id": "651ccaba03e9d39e966db058eeb4ba7caaaa3b86",
+  "canonicalId": "824d8bc0d87f58c1950b45e6af19930345280ae9",
+  "slug": "github-repositories-face-massive-spam-attack-on-issues-prompting-some-to-disable-them",
+  "date": "2026-03-30",
+  "publishedAt": "2026-03-29T13:35:00Z",
+  "lang": "en",
+  "title": "GitHub repositories face massive spam attack on issues, prompting some to disable them.",
+  "summary": "GitHub is experiencing a large-scale attack where bots are flooding issues in popular repositories, such as Microsoft's WSL, with black-market advertisements, leading some repositories to disable their issues to mitigate the spam. The spam often includes Chinese gambling ads and fake technical explanations, and existing moderation tools like reporting and blocking appear ineffective against the high-volume bot activity. This attack disrupts open-source collaboration by overwhelming issue trackers with spam, hindering legitimate discussions and bug reporting, which could slow development and erode trust in community platforms. It highlights vulnerabilities in GitHub's moderation systems and may prompt broader security measures or policy changes to protect repositories from similar automated threats. Affected repositories include high-profile projects like Microsoft/WSL, anomalyco/opencode, msgpack/msgpack-node, and home-assistant/frontend, with spam often featuring a mix of ad images and fabricated technical content. The attack appears to be coordinated and persistent, bypassing current anti-spam mechanisms, though no specific technical details on the bot infrastructure are provided in the content.",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "Security",
+    "Open Source",
+    "Community Management",
+    "Spam"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/microsoft/WSL/issues",
+  "originalSite": "github.com",
+  "context": "GitHub is a widely used platform for version control and collaboration on software projects, where issues are used to track bugs, feature requests, and discussions. Spam attacks on such platforms can exploit automation tools to flood public sections, disrupting community engagement and requiring manual or automated moderation to maintain usability. In open-source ecosystems, maintaining clean issue trackers is crucial for efficient project management and developer communication.",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

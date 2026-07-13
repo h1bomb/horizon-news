@@ -1,0 +1,44 @@
+{
+  "id": "cb7834579cbfba4ef9751b0a00f7acad12dd093a",
+  "canonicalId": "c5a51e87e55ed3e3e45e7254c6332f2079d1061f",
+  "slug": "cohere-releases-open-source-agentic-coding-model-north-mini-code",
+  "date": "2026-06-11",
+  "publishedAt": "2026-06-10T11:18:00Z",
+  "lang": "en",
+  "title": "Cohere Releases Open-Source Agentic Coding Model North Mini Code",
+  "summary": "Cohere released North Mini Code, an open-source 30-billion-parameter agentic coding model with 3 billion active parameters via mixture-of-experts, achieving a score of 33.4 on the Artificial Analysis Coding Index. This release adds a competitive open-source option to the agentic coding space, enabling developers to run powerful code-generation models locally under a permissive Apache 2.0 license. The model has 30 billion total parameters but only 3 billion active per token, making it efficient for inference. It uses a mixture-of-experts architecture and is available on Hugging Face under Apache 2.0.",
+  "score": 8,
+  "tags": [
+    "Cohere",
+    "open-source",
+    "coding model",
+    "LLM",
+    "agentic"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/beasthunterr69"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/",
+  "originalSite": "reddit.com",
+  "context": "Agentic coding models differ from traditional code assistants by autonomously executing multi-step tasks like reading files, writing code, and running tests. The Artificial Analysis Coding Index is a composite benchmark that evaluates models on programming problem-solving. Mixture-of-experts (MoE) architectures allow models to have many total parameters while activating only a subset per token, balancing capability and efficiency.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is agentic coding? How it works and use cases",
+      "url": "https://cloud.google.com/discover/what-is-agentic-coding"
+    },
+    {
+      "title": "Coding Index | Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/capabilities/coding"
+    },
+    {
+      "title": "MoE Architecture Explained: Why 30B Parameters With 3B Active ...",
+      "url": "https://laeka.si/research/moe-architecture-explained-why-30b-parameters-with-3b-active-wins/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

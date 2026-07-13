@@ -1,0 +1,44 @@
+{
+  "id": "6a57af174b31d79c34490518724bf6aafa7e592c",
+  "canonicalId": "b57e2b1bb43df66ccf27a97347d51f228b55c6c4",
+  "slug": "开发者在单张-rtx-5080-gpu-上从头训练-235m-参数大语言模型",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "开发者在单张 RTX 5080 GPU 上从头训练 235M 参数大语言模型",
+  "summary": "一位开发者使用 PyTorch 在单张 RTX 5080 GPU 上从头训练了 Plasma 1.0 模型，这是一个 235M 参数的 Transformer 语言模型，包含自定义的数据处理、分词和训练流程，未使用任何预训练权重。该模型使用 bf16 混合精度和梯度检查点技术，在约 50 亿个 token 上以 1024 的序列长度进行了训练。 这表明在消费级硬件上开发有意义的语言模型是可行的，降低了研究人员和爱好者理解完整大语言模型训练流程的门槛。这为那些希望从头构建小规模模型而非仅仅微调现有大模型的人提供了实用的参考实现。 该模型采用 LLaMA 风格的架构，包括分组查询注意力（16 个查询头，4 个键值头）、前馈网络中的 SwiGLU 激活函数、RoPE 位置编码、RMSNorm 预归一化和绑定嵌入。训练数据来自 FineWeb-Edu、维基百科、StackExchange、代码库和 ArXiv 论文，并进行了质量过滤、去重和领域加权混合处理。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "PyTorch",
+    "Transformer",
+    "Machine Learning",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 21, 16:32"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1srsxqs/235m_param_llm_from_scratch_on_a_single_rtx_5080/",
+  "originalSite": "reddit.com",
+  "context": "RTX 5080 是英伟达 GeForce RTX 50 系列的消费级 GPU，采用 Blackwell 架构，通常用于游戏和 AI 工作负载。分组查询注意力是一种注意力机制，它将查询头分组以共享键和值头，在保持性能的同时减少内存使用。SwiGLU 是一种激活函数，它将线性投影与 Swish 函数结合，常用于现代 Transformer 模型以增强表达能力。",
+  "discussion": "社区成员赞扬了这一技术成就，同时提出了关于数据集整理、评估方法和训练细节的详细问题。一些用户要求了解更多关于领域加权策略、去重影响和训练时长的信息，而其他人则表达了合作兴趣，或指出该模型的输出相比典型的小规模实现更加连贯。",
+  "references": [
+    {
+      "title": "GeForce RTX 50 series - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series"
+    },
+    {
+      "title": "What is grouped query attention ? | IBM",
+      "url": "https://www.ibm.com/think/topics/grouped-query-attention"
+    },
+    {
+      "title": "Exploring SwiGLU : The Activation Function Powering... | Medium",
+      "url": "https://medium.com/@s_boudefel/exploring-swiglu-the-activation-function-powering-modern-llms-9697f88221e7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

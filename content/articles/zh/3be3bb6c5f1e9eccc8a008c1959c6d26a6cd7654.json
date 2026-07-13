@@ -1,0 +1,40 @@
+{
+  "id": "3be3bb6c5f1e9eccc8a008c1959c6d26a6cd7654",
+  "canonicalId": "1ff01264a79007fddbb9ba5955cb19c09f5615dd",
+  "slug": "red-hat-npm-包遭凭证窃取恶意软件入侵",
+  "date": "2026-06-02",
+  "publishedAt": "2026-06-01T14:05:00Z",
+  "lang": "zh",
+  "title": "Red Hat npm 包遭凭证窃取恶意软件入侵",
+  "summary": "多个 @redhat-cloud-services 作用域下的 npm 包被植入多阶段凭证窃取器，在 npm install 时执行，针对云服务和 CI/CD 凭证，并通过窃取的令牌自我传播。 此针对广泛使用的 Red Hat 作用域的供应链攻击对用户构成重大风险，因为恶意软件是自我传播的蠕虫，利用 npm 的 bypass_2fa 参数绕过双因素认证，并通过被入侵的 CI/CD 管道重新发布带后门的版本。 恶意软件通过 RedHatInsights/javascript-clients 仓库的 GitHub Actions OIDC 发布，表明上游 CI/CD 管道本身已被入侵。有效载荷明确尝试绕过 StepSecurity Harden-Runner，并隐藏在一个 4.2 MB 的 index.js 文件中。",
+  "score": 9,
+  "tags": [
+    "npm",
+    "supply-chain-security",
+    "malware",
+    "red-hat",
+    "credential-theft"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1075742/",
+  "originalSite": "lwn.net",
+  "context": "npm 包可以通过 'install' 脚本在安装过程中执行任意代码，成为供应链攻击的载体。被入侵的包可以从 CI/CD 环境（如 GitHub Actions 密钥）窃取凭证，并使用窃取的令牌传播到其他包，甚至绕过双因素认证（如果启用了 npm 的 bypass_2fa 参数）。",
+  "discussion": "Hacker News 上的社区评论强调了依赖冷却期（例如延迟 1-2 天）在缓解此类攻击方面的有效性，并指出 pnpm 和 yarn 4 等包管理器已提供类似保护。一些用户还提到发布时使用多因素认证以及在隔离环境中运行不受信任代码的重要性。",
+  "references": [
+    {
+      "title": "GitHub - step-security / harden-runner : Harden-Runner is a CI ...",
+      "url": "https://github.com/step-security/harden-runner"
+    },
+    {
+      "title": "Harden - Runner | StepSecurity",
+      "url": "https://docs.stepsecurity.io/harden-runner"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

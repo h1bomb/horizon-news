@@ -1,0 +1,40 @@
+{
+  "id": "f363bc87c480056e56bb280db98ebc78758b5d29",
+  "canonicalId": "a39a24142abec732aac3a1a1deaa905d23bdc6ba",
+  "slug": "telegram-支持机器人间直接对话实现-ai-代理协作",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Telegram 支持机器人间直接对话，实现 AI 代理协作。",
+  "summary": "Telegram 正式宣布支持机器人间通信，允许不同机器人通过群组互动或商业账户接口直接对话，以解锁复杂的 AI 代理协作和自动化工作流。开发者需在 @BotFather 中开启相应模式，即可在群组内通过指令提及或直接回复的方式实现机器人间的交互，或在商业场景中作为工具相互调用。 这一功能通过支持多代理系统自动化复杂任务（如客户服务、日程安排和工作流管理），显著扩展了 Telegram 的机器人生态系统，符合 AI 代理互操作性和协作自动化的行业趋势。它使 Telegram 成为开发者和企业构建集成自动化解决方案的更强大平台。 该功能主要通过两种方式实现：群组互动中机器人可以识别并响应提及或回复，以及商业账户接口中机器人作为工具执行特定功能。开发者需通过 @BotFather 配置机器人以启用此通信，且该功能无需中央服务器，利用 Telegram 现有的消息基础设施。",
+  "score": 7,
+  "tags": [
+    "telegram",
+    "bots",
+    "automation",
+    "AI-agents",
+    "messaging-platforms"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 7, 06:54"
+    }
+  ],
+  "originalUrl": "https://core.telegram.org/bots/features",
+  "originalSite": "core.telegram.org",
+  "context": "Telegram 机器人是通过 Telegram 消息平台与用户交互的自动化程序，通常响应聊天中的命令或消息。机器人间通信指多个机器人之间的直接交互，使它们能在无需人工干预的情况下协作，这是 AI 代理互操作性和多代理系统发展趋势的一部分。此前，Telegram 机器人主要采用人机交互模式，限制了它们在复杂任务上的协作能力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI-to-AI Communication: Strategies Among Autonomous AI Agents",
+      "url": "https://medium.com/@adnanmasood/ai-to-ai-communication-strategies-among-autonomous-ai-agents-916c01d49c15"
+    },
+    {
+      "title": "From BotFather to 'Hello World'",
+      "url": "https://core.telegram.org/bots/tutorial"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

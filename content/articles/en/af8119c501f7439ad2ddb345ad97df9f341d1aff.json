@@ -1,0 +1,40 @@
+{
+  "id": "af8119c501f7439ad2ddb345ad97df9f341d1aff",
+  "canonicalId": "ce38009dd57ede4ca8da73ef571ae125e2fe5590",
+  "slug": "custom-cudac-inference-engine-for-nvidias-dvlt-3d-transformer",
+  "date": "2026-06-07",
+  "publishedAt": "2026-06-06T22:04:00Z",
+  "lang": "en",
+  "title": "Custom CUDA/C++ Inference Engine for NVIDIA's DVLT 3D Transformer",
+  "summary": "A developer released dvlt.cu, a lightweight inference engine for NVIDIA's Déjà View (DVLT) 3D transformer model, implemented entirely in CUDA/C++ as a single 5MB binary with minimal dependencies (only cuBLASLt and the CuTe header library from CUTLASS). This demonstrates that a large, sophisticated transformer model can be served with a tiny, dependency-free binary, potentially enabling efficient 3D reconstruction on edge devices or in resource-constrained environments without the overhead of Python or deep learning frameworks. The engine uses mmap'd bf16 weights, bulk GPU upload, static dimensions, and a one-shot arena for deterministic memory allocation; weights (117M parameters) are NVIDIA's non-commercial release fetched separately.",
+  "score": 8,
+  "tags": [
+    "CUDA",
+    "inference engine",
+    "3D reconstruction",
+    "transformer",
+    "HPC"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/yassa9"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tyu79c/dvltcu_inference_engine_written_from_scratch_in/",
+  "originalSite": "reddit.com",
+  "context": "Déjà View (DVLT) is a recurrent transformer for multi-view 3D reconstruction that loops a shared block of attention with discrete depth indexing, outputting per-pixel rays, depth, confidence, and camera poses from unordered images. With only 117M parameters, it competes with larger models. cuTLASS (CUTLASS) is NVIDIA's CUDA template library for high-performance matrix operations, and its CuTe component provides tensor abstractions.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - nv-tlabs/dvlt: Official implementation of Déjà View ...",
+      "url": "https://github.com/nv-tlabs/dvlt"
+    },
+    {
+      "title": "GitHub - NVIDIA/cutlass: CUDA Templates and Python DSLs for ...",
+      "url": "https://github.com/NVIDIA/cutlass"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

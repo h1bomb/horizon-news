@@ -1,0 +1,37 @@
+{
+  "id": "fe94b946e22c97423bafd4fda676dc8174952c52",
+  "canonicalId": "31d81f8197ef219b376dc84fcc1f1b4c5ca02ce9",
+  "slug": "cuda-内核执行流程详解",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T13:11:00Z",
+  "lang": "zh",
+  "title": "CUDA 内核执行流程详解",
+  "summary": "这篇文章详细解析了启动 CUDA 内核时从 CPU 到 GPU 的路径，涵盖了驱动交互、硬件通信和 warp 调度。 这填补了知识空白，因为许多解释停留在内核/块/warp 层面，而本文将 CUDA 启动语法与实际 GPU 提交连接起来，对 GPU 计算和 HPC 从业者具有重要价值。 文章涉及门铃机制、队列管理描述符（QMD）和 warp 资格等主题；还解释了默认流中的信号量处理。",
+  "score": 8,
+  "tags": [
+    "CUDA",
+    "GPU computing",
+    "HPC",
+    "kernel execution",
+    "systems programming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mezark",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48718863"
+    }
+  ],
+  "originalUrl": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+  "originalSite": "fergusfinn.com",
+  "context": "CUDA 是一种并行计算平台，允许程序员使用 GPU 进行通用处理。启动 CUDA 内核涉及 CPU 通过驱动程序发出命令，驱动程序与 GPU 硬件进行通信。然后，GPU 调度器管理 warp（32 个线程的组）并在流多处理器上调度它们的执行。",
+  "discussion": "评论表达了对文章深度的赞赏，特别是门铃和 QMD 的解释将 CUDA 语法与 GPU 硬件联系起来。一位读者指出 CUDA 默认流中的隐式同步比 Vulkan 的显式方法更简单。总体而言，读者认为这篇文章教育性很强，填补了现有资源的空白。",
+  "references": [
+    {
+      "title": "Warp Scheduling (GPU Thread Scheduling) - stevengong.co",
+      "url": "https://stevengong.co/notes/Warp-Scheduling"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

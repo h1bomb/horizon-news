@@ -1,0 +1,40 @@
+{
+  "id": "913d3d808b777b1c60702cf6a45166cee291ab89",
+  "canonicalId": "98544dc0f862b56cbeb3811ea330abccbe173287",
+  "slug": "数百个孤儿-aur-包因恶意-npm-包被入侵",
+  "date": "2026-06-13",
+  "publishedAt": "2026-06-12T13:41:00Z",
+  "lang": "zh",
+  "title": "数百个孤儿 AUR 包因恶意 npm 包被入侵",
+  "summary": "Arch 用户仓库（AUR）中数百个孤儿包遭到入侵，攻击者添加了一个名为'atomic-lockfile'的恶意 npm 包，用于窃取敏感数据。Arch Linux 项目目前正在清理被入侵的包。 此次供应链攻击影响了许多依赖 AUR 包的 Arch Linux 用户，可能导致敏感数据泄露。这凸显了社区维护仓库的安全风险，以及使用孤儿包时需保持警惕。 恶意 npm 包'atomic-lockfile'托管在 npmjs.com 上，用于窃取数据。受影响包的列表已公布，建议用户检查是否安装了任何被入侵的更新。",
+  "score": 9,
+  "tags": [
+    "security",
+    "supply chain",
+    "AUR",
+    "Arch Linux",
+    "npm"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1077718/",
+  "originalSite": "lwn.net",
+  "context": "Arch 用户仓库（AUR）是 Arch Linux 的社区驱动仓库，包含用于从源代码编译的包描述（PKGBUILD）。孤儿包是那些没有维护者的包，因此更容易受到攻击。攻击者将这些孤儿 AUR 包添加了恶意 npm 依赖，用户在构建和安装时可能被窃取数据。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Arch Linux - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arch_Linux"
+    },
+    {
+      "title": "Arch User Repository - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Arch_User_Repository"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

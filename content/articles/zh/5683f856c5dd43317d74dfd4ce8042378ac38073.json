@@ -1,0 +1,40 @@
+{
+  "id": "5683f856c5dd43317d74dfd4ce8042378ac38073",
+  "canonicalId": "0186dce28112b4b215f421d797efc3289f6264ef",
+  "slug": "openai-正在开发内部代码仓库以减少对-github-的依赖",
+  "date": "2026-03-05",
+  "publishedAt": "2026-03-05T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 正在开发内部代码仓库以减少对 GitHub 的依赖",
+  "summary": "OpenAI 正在开发一款新的内部代码仓库平台，以减少对微软旗下 GitHub 的依赖，此举源于近期 GitHub 服务多次中断，影响了其工程师访问和协作代码的能力。据知情人士透露，该项目仍处于早期阶段，预计需数月时间才能完成，目前尚无对外提供该服务的公开计划。 此举标志着一家主要的人工智能公司正战略性地寻求对其核心开发基础设施的更多控制，以降低第三方服务中断带来的风险。如果成功，可能会激励其他大型科技组织重新评估对外部代码托管平台的依赖，并投资于内部开发者平台（IDP），以获得更强的韧性和效率。 据报道，这一举措是由多次直接影响 OpenAI 开发工作流的 GitHub 服务中断所促成的。该平台目前仅计划供内部使用，重点是提升 OpenAI 自身工程团队的开发效率和稳定性。",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "GitHub",
+    "Developer Tools",
+    "AI Infrastructure",
+    "Microsoft"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 4, 02:16"
+    }
+  ],
+  "originalUrl": "https://www.theinformation.com/articles/openai-developing-alternative-microsofts-github",
+  "originalSite": "theinformation.com",
+  "context": "GitHub 是一个广泛使用的基于云的版本控制和协作平台，托管着数百万个代码仓库。许多组织依赖此类外部服务，但服务中断会严重影响开发生产力，这促使一些组织考虑自托管或内部的替代方案。内部开发者平台（IDP）是平台团队为开发者提供的一套经过整合的工具和能力，旨在标准化工作流程并加速开发。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Platform as code: Reference architectures to simplify ... Internal Developer Platform (IDP) Reference Architectures Building an Internal Developer Platform: 4 Essential Pillars AWS Prescriptive Guidance - Building an internal developer ... Exploring repository architecture strategy – GitHub Well ...",
+      "url": "https://medium.com/digital-mckinsey/platform-as-code-reference-architectures-to-simplify-developer-platforms-f2fb48e0c874"
+    },
+    {
+      "title": "Degradation vs disruption - Alex Ewerlöf Notes",
+      "url": "https://blog.alexewerlof.com/p/service-degradation-vs-disruption"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "6b72ee63c9114eb86cf1cc21dd30525a3b139934",
+  "canonicalId": "c2ae8022eb8bc4c395ba7b2c65bd63c6b2b18b91",
+  "slug": "liteparse-网页版浏览器中的-pdf-文本提取",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "LiteParse 网页版：浏览器中的 PDF 文本提取",
+  "summary": "Simon Willison 创建了 LlamaIndex 的 LiteParse 的浏览器版本，使得完全在浏览器中通过空间文本解析启发式方法提取 PDF 文本成为可能，无需 AI 模型。 该工具为 PDF 文本提取提供了一种保护隐私、可离线使用的替代方案，对于需要处理敏感文档且不希望将数据发送到服务器的 Web 开发者和 RAG 式问答系统尤其有用。 LiteParse 网页版使用与 Node.js CLI 版本相同的 PDF.js 和 Tesseract.js 库，并支持对扫描版 PDF 进行可选的 OCR 识别。它还提供了带边界框的可视化引用功能，以增强答案的可信度。",
+  "score": 7,
+  "tags": [
+    "PDF parsing",
+    "browser",
+    "open source",
+    "text extraction",
+    "LlamaIndex"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 23, 21:54"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "LiteParse 是 LlamaIndex 的一个开源项目，它使用空间文本解析启发式方法而非 AI 模型来提取 PDF 文本。它能处理多列布局，并以合理的线性顺序输出文本。原始版本是一个 Node.js CLI 工具；这个浏览器移植版使其无需安装即可使用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "LlamaIndex Releases LiteParse: A CLI and TypeScript-Native",
+      "url": "https://www.marktechpost.com/2026/03/19/llamaindex-releases-liteparse-a-cli-and-typescript-native-library-for-spatial-pdf-parsing-in-ai-agent-workflows/"
+    },
+    {
+      "title": "Running OCR against PDFs and images directly in your browser",
+      "url": "https://simonwillison.net/2024/Mar/30/ocr-pdfs-images/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

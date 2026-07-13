@@ -1,0 +1,44 @@
+{
+  "id": "252fe5be663d4be93bd284024bb24fa3f2515688",
+  "canonicalId": "aa03b20cd704ec6708293565bfe1da2c95759534",
+  "slug": "qwen-36-27b-ties-sonnet-46-on-agentic-index",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-23T18:47:00Z",
+  "lang": "en",
+  "title": "Qwen 3.6 27B Ties Sonnet 4.6 on Agentic Index",
+  "summary": "Qwen 3.6 27B, a small 27-billion-parameter model, has matched Sonnet 4.6 on the Artificial Analysis Agentic Index, surpassing larger models like Gemini 3.1 Pro Preview and GPT 5.2/5.3. This demonstrates that small, locally-runnable models can achieve frontier-level agentic performance, potentially reducing reliance on expensive API providers and accelerating on-device AI deployment. The model made gains across all three sub-indices (Coding, Agentic, Knowledge), though the Coding Index uses Terminal Bench Hard and SciCode, which the author considers unusual choices. The 122B version is anticipated to be even more impressive.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "benchmarks",
+    "open-source",
+    "agentic",
+    "local-inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "dionysio211"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1strodp",
+  "originalSite": "reddit.com",
+  "context": "The Artificial Analysis Agentic Index evaluates AI models on agentic capabilities using 10 benchmarks including Terminal-Bench Hard and SciCode. Terminal-Bench Hard tests command-line task execution, while SciCode assesses scientific coding. Small models like Qwen 3.6 27B are attractive for local inference due to lower hardware requirements.",
+  "discussion": "Community sentiment is highly positive, with users reporting successful local deployment on consumer GPUs (e.g., RTX 3090) and praising its multi-step tool-calling ability. Some skepticism exists about benchmark validity, with one commenter suggesting 'benchmaxxing' may inflate scores, while another noted that Sonnet still outperformed in a real-world file organization task.",
+  "references": [
+    {
+      "title": "AI Model & API Providers Analysis | Artificial Analysis",
+      "url": "https://artificialanalysis.ai/"
+    },
+    {
+      "title": "Terminal - Bench",
+      "url": "https://www.tbench.ai/benchmarks/terminal-bench-2?difficulties=hard"
+    },
+    {
+      "title": "SciCode - SciCode Benchmark",
+      "url": "https://scicode-bench.github.io/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

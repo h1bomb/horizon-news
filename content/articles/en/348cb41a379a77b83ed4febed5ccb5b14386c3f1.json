@@ -1,0 +1,44 @@
+{
+  "id": "348cb41a379a77b83ed4febed5ccb5b14386c3f1",
+  "canonicalId": "0364f05a9a67db5454950477d67765b45d1ec9c2",
+  "slug": "user-abandons-local-llms-for-coding-cites-poor-decision-making",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T03:50:00Z",
+  "lang": "en",
+  "title": "User Abandons Local LLMs for Coding, Cites Poor Decision-Making",
+  "summary": "A Reddit user reported that after weeks of testing local LLMs like Qwen 27B and Gemma 31B for coding tasks, they concluded these models are not yet competitive with Claude Code in productivity, citing poor decision-making and tool-calling issues. This post provides a realistic counterpoint to the hype around local LLMs for coding, highlighting that even the best local models under 100B parameters still lag behind cloud-based models like Claude in complex, multi-step tasks. The user specifically mentioned issues with Dockerization tasks, where the local model would incorrectly assume failure due to timeouts or hallucinate error causes instead of checking actual process status.",
+  "score": 8,
+  "tags": [
+    "local LLMs",
+    "coding",
+    "productivity",
+    "Claude",
+    "LLM comparison"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "dtdisapointingresult"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/",
+  "originalSite": "reddit.com",
+  "context": "Local LLMs are language models that run on the user's own hardware, offering privacy and offline use but limited by available compute. Qwen 27B and Gemma 31B are among the most capable local models under 100B parameters, while Claude Code is Anthropic's agentic coding tool that runs on cloud infrastructure.",
+  "discussion": "The community largely agreed with the user's assessment, with many sharing similar experiences. Some commenters noted that harness configuration can significantly impact performance, while others pointed out that a single consumer GPU cannot match cloud models like Claude.",
+  "references": [
+    {
+      "title": "Qwen2.5-LLM: Extending the boundary of LLMs | Qwen",
+      "url": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "title": "google/gemma-4-31b • LM Studio",
+      "url": "https://lmstudio.ai/models/google/gemma-4-31b"
+    },
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

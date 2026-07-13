@@ -1,0 +1,40 @@
+{
+  "id": "b02e452327cc1c5b74dac2ad2f7c5d55e45c5b84",
+  "canonicalId": "b5503474a23b7db91cf71001947e7b8f55341835",
+  "slug": "wechat-work-open-sources-cli-project-with-ai-agent-integration",
+  "date": "2026-03-31",
+  "publishedAt": "2026-03-30T02:02:00Z",
+  "lang": "en",
+  "title": "WeChat Work Open-Sources CLI Project with AI Agent Integration",
+  "summary": "On March 29, WeChat Work open-sourced a CLI project on GitHub under the MIT license, providing APIs for core features like messaging, scheduling, documents, meetings, tasks, contacts, and smart tables, and integrated it with mainstream AI Agents. The tool covers 7 business categories and 12 AI Agent skills, is installable via npm, and can be configured and invoked from the terminal. This move is significant because it enables developers and enterprises to automate and integrate WeChat Work's enterprise features into custom workflows and AI-driven applications, potentially boosting productivity and innovation in the business software ecosystem. By open-sourcing under a permissive license, it lowers barriers for adoption and encourages community contributions, aligning with trends of AI Agent integration in enterprise tools. The project is released under the MIT license, which allows free reuse and modification without requiring source code sharing, making it suitable for both open-source and proprietary use. It supports integration with mainstream AI Agents, offering 12 predefined skills across 7 business categories, and is distributed via npm for easy installation and terminal-based configuration.",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "AI Agents",
+    "CLI tools",
+    "enterprise software",
+    "API integration"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://open.work.weixin.qq.com/help2/pc/21676",
+  "originalSite": "open.work.weixin.qq.com",
+  "context": "A CLI (Command Line Interface) is a text-based tool that allows users to interact with software via commands in a terminal, commonly used in enterprise environments for automation and scripting. AI Agents are autonomous systems that perform tasks using AI, often integrated into software to enhance functionality with skills like data processing or scheduling. The MIT license is a permissive open-source license that permits free use, modification, and distribution with minimal restrictions, favored for its simplicity and compatibility with commercial projects.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "A Comprehensive Guide to AI Agents - Future Skills Academy",
+      "url": "https://futureskillsacademy.com/blog/ai-agents/"
+    },
+    {
+      "title": "MIT License - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MIT_License"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

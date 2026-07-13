@@ -1,0 +1,44 @@
+{
+  "id": "18387bb7b05fdc080049b5498bfa8a194ea860da",
+  "canonicalId": "7892542f8c22518387047124c6831c1a1c5607f3",
+  "slug": "anthropics-claude-code-package-version-2188-leaked-via-npm-pack-command",
+  "date": "2026-04-01",
+  "publishedAt": "2026-03-31T15:45:00Z",
+  "lang": "en",
+  "title": "Anthropic's Claude Code package version 2.1.88 leaked via npm pack command",
+  "summary": "A Reddit post revealed that Anthropic's Claude Code package version 2.1.88 was accidentally made accessible through the npm pack command, allowing users to download the package archive directly. This incident has sparked community debate about AI tool reliability and corporate security practices. This leak matters because it exposes vulnerabilities in how major AI companies handle their proprietary tools, potentially undermining trust in AI-assisted coding solutions. It also highlights broader concerns about the reliability of AI-generated code across the tech industry, as similar issues have affected companies like GitHub, Windows, and AWS. The leak specifically involves the npm package @anthropic-ai/claude-code@2.1.88, which users could download using the command 'npm pack @anthropic-ai/claude-code@2.1.88'. This is reportedly the second time such an incident has occurred with Claude Code, with the first release having similar issues that led to forks like AnonKode.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Software Development",
+    "Anthropic",
+    "Open Source",
+    "Code Generation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "HornyGooner4401"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/tem7w9sqiesg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Claude Code is an agentic coding tool developed by Anthropic that helps developers by understanding codebases, editing files, running commands, and handling git workflows through natural language commands. The npm pack command is a Node Package Manager utility that creates tarballs of npm packages without publishing them to the registry, typically used for testing or private sharing. AI code generation tools like Claude Code are designed to assist developers but require careful review and verification of generated code to ensure reliability.",
+  "discussion": "Community comments show mixed reactions, with some users expressing concern about AI tool reliability and corporate accountability, noting similar issues at other tech companies. Others see potential benefits for open-source AI, while several comments highlight the need for responsible AI use and thorough code verification. Some users also shared humorous takes and technical observations about the leaked code's quality.",
+  "references": [
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "@anthropic-ai/claude-code - npm",
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code"
+    },
+    {
+      "title": "npm-pack | npm Docs",
+      "url": "https://docs.npmjs.com/cli/v9/commands/npm-pack/?v=true"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

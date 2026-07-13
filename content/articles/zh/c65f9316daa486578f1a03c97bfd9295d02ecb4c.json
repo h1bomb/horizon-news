@@ -1,0 +1,45 @@
+{
+  "id": "c65f9316daa486578f1a03c97bfd9295d02ecb4c",
+  "canonicalId": "3a499449f7aed86c8e2793ec6bbd77053a52c8dd",
+  "slug": "提议-self-顶级域名用于免费自托管",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T19:49:00Z",
+  "lang": "zh",
+  "title": "提议 .self 顶级域名用于免费自托管",
+  "summary": "有人提议创建新的 .self 顶级域名，为个人提供免费域名用于自托管，旨在重获数字自主权。 如果实现，.self 可能降低自托管门槛并推动网络托管去中心化，但面临滥用防范、身份验证和可持续资金等重大挑战。 该提案包括每人一个免费域名，禁止停放、抢注和转售，但执行机制尚不明确，尤其是区分合法使用与滥用的方法。",
+  "score": 8,
+  "tags": [
+    "TLD",
+    "self-hosting",
+    "domain names",
+    "internet governance",
+    "digital identity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "HumanCCF",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48724230"
+    }
+  ],
+  "originalUrl": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+  "originalSite": "hccf.onmy.cloud",
+  "context": "顶级域名是域名最后一部分，如 .com 或 .org。自托管是指运行自己的服务器来托管网站、电子邮件或其他服务，而非使用第三方提供商。.self 顶级域名将是专门为个人托管其数字存在而设计的通用顶级域名。",
+  "discussion": "社区评论观点不一：有人回忆起免费 .tk 域名遭滥用的情况，有人建议采用基于声誉的系统或身份证明，还有许多人质疑经济可持续性和反抢注的执行力。",
+  "references": [
+    {
+      "title": "Top-level domain - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Top-level_domain"
+    },
+    {
+      "title": "Technitium Blog: How To Self Host Your Own Domain Name",
+      "url": "https://blog.technitium.com/2022/06/how-to-self-host-your-own-domain-name.html"
+    },
+    {
+      "title": "List of Internet top-level domains - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

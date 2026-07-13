@@ -1,0 +1,45 @@
+{
+  "id": "0e8821c2b7a023fbd35dd59883879445df265b01",
+  "canonicalId": "2c877729890715532f6481275216edc13bc36191",
+  "slug": "gaussian-point-splatting-blends-two-rendering-techniques",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T10:48:00Z",
+  "lang": "en",
+  "title": "Gaussian Point Splatting Blends Two Rendering Techniques",
+  "summary": "A new rendering technique called Gaussian Point Splatting, presented at Siggraph 2026, combines Gaussian splatting with point-based rendering for efficient 3D visualization. This hybrid approach could enable real-time high-quality novel view synthesis and 3D scene representation, potentially impacting gaming, VR, and computer graphics pipelines. The technique merges the volumetric representation of Gaussian splatting with the efficiency of point clouds, offering a middle ground between quality and speed. Comparisons to mesh splatting suggest Gaussian splatting may struggle with sharp features.",
+  "score": 8,
+  "tags": [
+    "computer graphics",
+    "rendering",
+    "Gaussian splatting",
+    "point cloud",
+    "Siggraph"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48396792"
+    }
+  ],
+  "originalUrl": "https://momentsingraphics.de/Siggraph2026.html",
+  "originalSite": "momentsingraphics.de",
+  "context": "Gaussian splatting is a volume rendering technique that represents scenes with anisotropic Gaussian primitives, enabling real-time radiance field rendering. Point-based rendering uses points as geometric primitives, offering constant rendering time independent of scene complexity. This new work aims to combine strengths of both approaches.",
+  "discussion": "Community comments show interest in seeing AAA games adopt these methods, with users also requesting tutorials for classic point splatting (overshadowed by Gaussian Splatting). One commenter compares the technique to mesh splatting, noting that triangles better represent sharp features than Gaussians.",
+  "references": [
+    {
+      "title": "Gaussian splatting",
+      "url": "https://en.wikipedia.org/wiki/Gaussian_splatting"
+    },
+    {
+      "title": "Lecture 21: Point-based Rendering - Department of Computer ...",
+      "url": "https://www.cs.cornell.edu/courses/cs665/2004fa/Lectures/lec21_Points_web_6page.pdf"
+    },
+    {
+      "title": "Introduction to 3D Gaussian Splatting",
+      "url": "https://huggingface.co/blog/gaussian-splatting"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

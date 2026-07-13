@@ -1,0 +1,44 @@
+{
+  "id": "694a93d4ac6986aa0ec06ad52fec93e6319d4542",
+  "canonicalId": "63b83b32b513f8ac2bddb93af12641532ef33119",
+  "slug": "anthropic-与谷歌博通签署算力协议下一代-tpu-容量自-2027-年起上线",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 与谷歌、博通签署算力协议，下一代 TPU 容量自 2027 年起上线",
+  "summary": "Anthropic 宣布与谷歌和博通签署新协议，获得多吉瓦级下一代 TPU 算力，预计自 2027 年起陆续上线，用于支撑 Claude 模型训练和全球需求。这是该公司迄今最大规模的算力承诺，新增算力大部分将部署在美国，这是其在 2025 年 11 月提出 500 亿美元美国计算基础设施投资承诺后的又一次扩张。 这一合作至关重要，因为它为 Anthropic 的未来模型开发确保了关键 AI 基础设施，减少了对单一供应商的依赖，并支持其快速增长，其 2026 年收入年化运行率已超过 300 亿美元。这也凸显了 AI 硬件领域的竞争加剧，谷歌正在扩展其 TPU 生态系统，以挑战英伟达在高性能 AI 芯片领域的主导地位。 Anthropic 将继续同时使用 AWS Trainium、谷歌 TPU 和英伟达 GPU，亚马逊仍是其主要云服务提供商和训练合作伙伴。该公司的企业客户数量已从今年 2 月的 500 多家增至目前的 1,000 多家，年化支出超过 100 万美元的客户数量显著增加。",
+  "score": 8,
+  "tags": [
+    "AI Infrastructure",
+    "Cloud Computing",
+    "TPU",
+    "Anthropic",
+    "Partnerships"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 7, 02:30"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+  "originalSite": "anthropic.com",
+  "context": "Tensor Processing Units（TPU）是谷歌设计的专用集成电路（ASIC），用于加速机器学习工作负载，每一代 TPU 都提供性能提升，例如 TPU v4 比 TPU v3 快 2 倍以上。AI 训练集群现在正达到吉瓦级基础设施规模，这代表了计算规划的根本性转变，超大规模云服务商正在签署多吉瓦级的电力购买协议。谷歌的 TPU 路线图，包括 v5p 等版本，被定位为英伟达 GPU 集群的本土替代方案，旨在减少对外部芯片供应商的依赖。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Tensor Processing Unit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit"
+    },
+    {
+      "title": "AI Training Clusters Are Reaching 1 GW Infrastructure Scale",
+      "url": "https://www.datacenters.com/news/ai-training-clusters-are-reaching-1-gw-infrastructure-scale"
+    },
+    {
+      "title": "Google’s TPU Roadmap: Challenging Nvidia’s Dominance in AI",
+      "url": "https://www.datacenterfrontier.com/machine-learning/article/55336429/googles-tpu-roadmap-challenging-nvidias-dominance-in-ai-infrastructure"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

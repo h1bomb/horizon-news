@@ -1,0 +1,44 @@
+{
+  "id": "0907d6bae6664b83d9be6bb8d27963b9765810a3",
+  "canonicalId": "f64ebd253ef3db9b3f83d6c53964db47ef004628",
+  "slug": "sqlite-3530-released-with-alter-table-enhancements-new-json-functions-and-cli-improvements",
+  "date": "2026-04-12",
+  "publishedAt": "2026-04-11T19:56:00Z",
+  "lang": "en",
+  "title": "SQLite 3.53.0 released with ALTER TABLE enhancements, new JSON functions, and CLI improvements.",
+  "summary": "SQLite 3.53.0 was released on April 9, 2026, introducing key features such as the ability to add and remove NOT NULL and CHECK constraints via ALTER TABLE, new JSON functions like json_array_insert() and its jsonb equivalent, and significant CLI improvements including a new Query Results Formatter library for better result formatting. This release is significant because it enhances SQLite's schema flexibility and JSON handling, making it more versatile for developers who rely on embedded databases in applications ranging from mobile apps to web services, while the CLI improvements streamline database interaction for users and administrators. The ALTER TABLE constraint changes address a long-standing limitation where such modifications previously required workarounds like the sqlite-utils transform() method, and the new Query Results Formatter library allows customizable output formatting for SQL queries, though it may have dependencies on fixed-pitch fonts for optimal display.",
+  "score": 7,
+  "tags": [
+    "sqlite",
+    "database",
+    "sql",
+    "json",
+    "cli"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "SQLite is a widely-used, lightweight, embedded SQL database engine that requires no separate server process, making it popular in applications like mobile apps, browsers, and IoT devices. JSON support in SQLite allows storing and querying JSON data directly within the database, with JSONB being a binary encoding for improved performance. The CLI (Command-Line Interface) is a tool for interacting with SQLite databases via terminal commands, and ALTER TABLE is a SQL command used to modify table structures, such as adding columns or constraints.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SQLite Release 3.53.0 On 2026-04-09",
+      "url": "https://sqlite.org/releaselog/3_53_0.html"
+    },
+    {
+      "title": "The SQLite JSONB Format",
+      "url": "https://www.sqlite.org/draft/jsonb.html"
+    },
+    {
+      "title": "sqlite_utils Python library - Datasette",
+      "url": "https://sqlite-utils.datasette.io/en/stable/python-api.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

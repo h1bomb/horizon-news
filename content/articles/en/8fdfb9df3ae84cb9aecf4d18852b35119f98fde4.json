@@ -1,0 +1,39 @@
+{
+  "id": "8fdfb9df3ae84cb9aecf4d18852b35119f98fde4",
+  "canonicalId": "948f44faf01c41cd31a0be117e4aa725e7644d01",
+  "slug": "effort-to-secure-network-time-protocol-gains-momentum-with-nts-adoption-push",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T14:26:00Z",
+  "lang": "en",
+  "title": "Effort to Secure Network Time Protocol Gains Momentum with NTS Adoption Push",
+  "summary": "At FOSDEM 2026, Ruben Nijveld from the Trifecta Tech Foundation presented work to accelerate the adoption of Network Time Security (NTS), the IETF's RFC-8915 standard for securing NTP traffic. The foundation, with additional funding from ICANN, is testing technologies to help major time servers like pool.ntp.org implement NTS more easily. NTP is a foundational internet protocol used universally for time synchronization, but it is fundamentally insecure and vulnerable to spoofing attacks. Securing it with NTS is critical because accurate, trusted time underpins countless systems, from authentication (Kerberos, TOTP) and distributed computing to cellular networks, financial trading, and power grids. NTS focuses on providing authentication and integrity for NTP packets rather than encrypting the time data itself, as the payload is public. The standard leverages Transport Layer Security (TLS) for initial key exchange and uses Authenticated Encryption with Associated Data (AEAD) to protect subsequent time synchronization exchanges.",
+  "score": 7,
+  "tags": [
+    "network-security",
+    "time-synchronization",
+    "protocols",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1059200/",
+  "originalSite": "lwn.net",
+  "context": "The Network Time Protocol (NTP), created in 1985, is used to synchronize computer clocks across the internet with Coordinated Universal Time (UTC), often referencing atomic clocks (Stratum 0 sources). It operates in a hierarchical client-server model but was designed without built-in security, making it susceptible to man-in-the-middle attacks where timestamps can be altered. Network Time Security (NTS) is a cryptographic mechanism defined in IETF RFC 8915 specifically to add authentication and integrity to NTP, addressing this long-standing vulnerability.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "RFC 8915: Network Time Security for the Network Time Protocol",
+      "url": "https://datatracker.ietf.org/doc/html/rfc8915"
+    },
+    {
+      "title": "Information on RFC 8915",
+      "url": "https://www.rfc-editor.org/info/rfc8915"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "c782333c8848529a51c84614cd8ebccc09024957",
+  "canonicalId": "019d5146aacc463e230c5a6f29f67c0a6ab1094b",
+  "slug": "gds-advises-nhs-to-keep-open-source-repos-public",
+  "date": "2026-05-18",
+  "publishedAt": "2026-05-17T15:59:00Z",
+  "lang": "en",
+  "title": "GDS Advises NHS to Keep Open Source Repos Public",
+  "summary": "The UK Government Digital Service (GDS) published guidance on May 14, 2026, recommending that public sector organizations keep open source repositories public by default, directly countering the NHS's plan to close its repos after security vulnerabilities were reported via Project Glasswing. This intervention signals a major policy conflict within the UK government, as GDS—the central digital authority—publicly challenges NHS's retreat from open source, emphasizing that closing repos increases costs and reduces scrutiny. The outcome could set a precedent for open source practices across the entire UK public sector. GDS's guidance warns that making everything private adds 'delivery and policy costs' and reduces reuse and scrutiny, while the NHS decision was triggered by vulnerabilities disclosed through Anthropic's Project Glasswing cybersecurity initiative. Terence Eden interprets GDS's statement as a rare public escalation of internal civil service disagreement.",
+  "score": 9,
+  "tags": [
+    "open source",
+    "government policy",
+    "security",
+    "NHS",
+    "GDS"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "The Government Digital Service (GDS) is a UK government unit responsible for transforming digital public services. The NHS (National Health Service) had planned to close its open source repositories after vulnerabilities were reported via Project Glasswing, a cybersecurity initiative by Anthropic that uses AI to find security flaws in critical open source software. Open source software is code that is publicly accessible and can be freely used, modified, and shared, often leading to greater transparency and faster innovation but also potential security risks.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Government Digital Service - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Government_Digital_Service"
+    },
+    {
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

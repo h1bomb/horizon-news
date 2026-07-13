@@ -1,0 +1,44 @@
+{
+  "id": "98f79b967195e52eaa2d5943a1ba51728e860c05",
+  "canonicalId": "873f836c5e3cbf26ac4148480decfdf061b2d426",
+  "slug": "交互式地图揭示-flock-车牌识别摄像头在美国的广泛网络",
+  "date": "2026-03-05",
+  "publishedAt": "2026-03-05T00:00:00Z",
+  "lang": "zh",
+  "title": "交互式地图揭示 Flock 车牌识别摄像头在美国的广泛网络。",
+  "summary": "一个发布于 deflock.org 的交互式地图，可视化展示了 Flock Safety 公司的自动车牌识别摄像头在美国各地的广泛部署。该地图整合了公开数据，显示了这些监控摄像头的密度和位置，立即引发了公众讨论。 这张地图让公众能够切实感受到大规模车辆监控的规模，直接激化了关于公共安全与个人隐私之间权衡的全国性辩论。它使公民能够看到自己社区的监控基础设施，并评估其对日常生活和公民自由的影响。 该地图基于众包和公开数据，一位社区成员建议可以通过 MapComplete 工具在 OpenStreetMap 上添加缺失的摄像头。这些摄像头通常由当地执法机构租赁，例如堪萨斯州皮特县签订的一份为期两年、租赁 14 个摄像头的合同。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "surveillance",
+    "public-safety",
+    "geospatial-data",
+    "law-enforcement"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Mar 4, 18:50"
+    }
+  ],
+  "originalUrl": "https://deflock.org/map#map=5/37.125286/-96.284180",
+  "originalSite": "deflock.org",
+  "context": "Flock Safety 是一家提供自动车牌识别摄像头系统的公司。这些系统使用摄像头和软件自动捕获、分析和存储车辆牌照图像，然后可以对照数据库进行检查，用于执法目的，如定位被盗车辆或嫌疑人。美国各地警察部门迅速采用此类网络，引发了严重的地理空间隐私担忧，因为位置数据具有高度可识别性，且通常是在未经个人同意的情况下收集的。",
+  "discussion": "社区评论揭示了隐私担忧与公共安全论点之间的尖锐分歧。一些用户对无处不在的覆盖范围表示震惊，描述了避开摄像头的困难，并反对收集此类数据。另一些人则反驳，强调该技术在解决暴力犯罪和协助发布失踪人员警报方面的作用。有人提出了利用公共记录请求来给系统增加负担的策略性建议，并鼓励用户为绘制监控网络地图做出贡献。",
+  "references": [
+    {
+      "title": "Automatic License Plate Readers",
+      "url": "https://www.dhs.gov/science-and-technology/saver/automatic-license-plate-readers"
+    },
+    {
+      "title": "MEDIA RELEASE - Flock Automated License Plate Recognition",
+      "url": "https://www.pittks.org/news/media-release-flock-automated-license-plate-recognition-cameras/"
+    },
+    {
+      "title": "Privacy Concerns with Geospatial Data",
+      "url": "https://biomedware.com/privacy-concerns-geospatial-data/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

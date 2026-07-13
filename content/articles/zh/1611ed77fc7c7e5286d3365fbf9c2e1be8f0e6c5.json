@@ -1,0 +1,44 @@
+{
+  "id": "1611ed77fc7c7e5286d3365fbf9c2e1be8f0e6c5",
+  "canonicalId": "d8a05e939b9e8617f9974e39ce8dbd186c057e7d",
+  "slug": "lingbot-video经强化学习后训练的稀疏-moe-视频扩散-transformer",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T17:58:00Z",
+  "lang": "zh",
+  "title": "LingBot-Video：经强化学习后训练的稀疏 MoE 视频扩散 Transformer",
+  "summary": "LingBot-Video 是一个 13B 参数的稀疏 MoE 视频扩散 Transformer（活跃参数 1.4B），通过包含物理合理性奖励在内的六项奖励进行了强化学习后训练，并支持基于动作条件的机器人 rollout 预测即世界模型。 该工作通过结合稀疏 MoE 提升效率、强化学习后训练增强合理性，并开源权重与代码，推动了视频生成和世界建模的发展，是机器人与视频合成研究的有力候选。 该模型采用 DeepSeek-V3 风格的稀疏 MoE，拥有 128 个专家和 Top-8 路由，在 RBench 上取得平均最高分，但通用文生视频排名第二。物理合理性奖励由 VLM 评判，尽管加入了真实视频负样本，仍引发对奖励破解的担忧。",
+  "score": 8,
+  "tags": [
+    "video generation",
+    "world models",
+    "sparse MoE",
+    "diffusion transformers",
+    "reinforcement learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Savings-Display5123"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1ur0bxq/lingbotvideo_sparsemoe_video_diffusion/",
+  "originalSite": "reddit.com",
+  "context": "扩散 Transformer（DiT）用 Transformer 架构取代了卷积 U-Net 主干，用于生成模型中的去噪过程。稀疏混合专家（MoE）每次前向传播仅激活部分参数，从而以较低计算成本实现更大模型容量。基于奖励模型的强化学习可以针对特定目标（如物理合理性）微调生成模型。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Sparse mixture-of-experts",
+      "url": "https://en.wikipedia.org/wiki/Sparse_mixture-of-experts"
+    },
+    {
+      "title": "Diffusion Transformer",
+      "url": "https://en.wikipedia.org/wiki/Diffusion_Transformer"
+    },
+    {
+      "title": "SGLang",
+      "url": "https://en.wikipedia.org/wiki/SGLang"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

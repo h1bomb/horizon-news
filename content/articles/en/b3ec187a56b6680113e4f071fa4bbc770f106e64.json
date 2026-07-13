@@ -1,0 +1,44 @@
+{
+  "id": "b3ec187a56b6680113e4f071fa4bbc770f106e64",
+  "canonicalId": "81f6a881457f8b9b5912c51e5785624b0b1d21d7",
+  "slug": "linux-kernel-maintainers-debate-requiring-responses-to-llm-based-patch-review-feedback",
+  "date": "2026-04-01",
+  "publishedAt": "2026-03-31T15:40:00Z",
+  "lang": "en",
+  "title": "Linux kernel maintainers debate requiring responses to LLM-based patch review feedback",
+  "summary": "During a discussion about a memory-management patch set on March 19, 2026, maintainer Andrew Morton proposed requiring patch authors to respond to feedback from Sashiko, an LLM-based kernel patch review system, while sub-maintainer Lorenzo Stoakes objected due to concerns about false positives. The debate centered on how deeply to integrate Sashiko into the memory-management subsystem's workflow. This debate represents a significant test case for integrating AI tools into critical open-source development processes, potentially setting precedents for how LLM-based review systems are adopted across the Linux kernel and other large software projects. The outcome could influence development workflows, review efficiency, and the balance between automation and human oversight in high-stakes software maintenance. Sashiko's creator Roman Gushchin revealed that the system attempts to apply patch sets to multiple kernel trees in sequence (starting with the patch's base commit, then mm-new, mm-unstable, etc.), but many patches from the mailing list still fail to apply. Morton noted he might refuse to merge patches that Sashiko cannot process, highlighting integration challenges beyond just review quality.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Linux Kernel",
+    "Patch Review",
+    "Software Development",
+    "AI Integration"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064830/",
+  "originalSite": "lwn.net",
+  "context": "Sashiko is an LLM-based automated review system for Linux kernel patches that analyzes patches sent to mailing lists using kernel-specific prompts. The Linux kernel is the core component of Linux operating systems, developed collaboratively by maintainers who review patches submitted via mailing lists. Patch review is a critical quality control step where maintainers examine code changes before integration, traditionally done manually through email discussions.",
+  "discussion": "The discussion revealed divided opinions: Morton advocated for deeper integration to improve review coverage, while Stoakes and David Hildenbrand argued that Sashiko's current false-positive rate makes it too noisy for mandatory use. Gushchin acknowledged technical issues with patch application but emphasized ongoing improvements to workflow integration.",
+  "references": [
+    {
+      "title": "GitHub - sashiko-dev/sashiko: Agentic review of Linux Kernel ...",
+      "url": "https://github.com/sashiko-dev/sashiko"
+    },
+    {
+      "title": "The Sashiko patch-review system [LWN.net]",
+      "url": "https://lwn.net/Articles/1063292/"
+    },
+    {
+      "title": "Linux kernel - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Linux_kernel"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

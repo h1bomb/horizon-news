@@ -1,0 +1,40 @@
+{
+  "id": "611059fc36dfd243a1685ba98d94bc3791a891ae",
+  "canonicalId": "1cf61d2bf8c344faaa33ce3fad7ce69d6224fedb",
+  "slug": "free-threaded-python-past-present-and-future",
+  "date": "2026-06-23",
+  "publishedAt": "2026-06-22T15:26:00Z",
+  "lang": "en",
+  "title": "Free-threaded Python: past, present, and future",
+  "summary": "Thomas Wouters, a CPython core developer and steering council member, presented a talk at PyCon US 2026 covering the motivation, history, current status, and future of free-threaded Python, which removes the Global Interpreter Lock (GIL). Removing the GIL is a groundbreaking change that enables true parallel execution of threads in Python, significantly improving performance on multi-core systems and expanding Python's suitability for CPU-bound and concurrent workloads. Wouters noted that the GIL was introduced long before multi-CPU systems were common, and its removal has been a long-standing goal; he also highlighted that free-threading is already available in recent Python releases and continues to evolve.",
+  "score": 9,
+  "tags": [
+    "Python",
+    "GIL",
+    "free-threading",
+    "concurrency",
+    "CPython"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078367/",
+  "originalSite": "lwn.net",
+  "context": "The Global Interpreter Lock (GIL) is a mutex in CPython that protects access to Python objects and prevents multiple threads from executing Python bytecode simultaneously. While it simplifies memory management, it limits parallelism on multi-core systems. Free-threaded Python removes the GIL, allowing threads to run concurrently, which is crucial for performance improvements in modern hardware.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Python support for free threading — Python 3.14.4",
+      "url": "https://docs.python.org/3/howto/free-threading-python.html"
+    },
+    {
+      "title": "GitHub - python/steering-council: Communications from the ...",
+      "url": "https://github.com/python/steering-council"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

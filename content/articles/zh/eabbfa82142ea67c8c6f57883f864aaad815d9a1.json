@@ -1,0 +1,44 @@
+{
+  "id": "eabbfa82142ea67c8c6f57883f864aaad815d9a1",
+  "canonicalId": "3eaece4bb11d2375b62c8c0ed6377a7748e2f3b1",
+  "slug": "anthropic-发布-claude-opus-46支持-200k-上下文窗口和自适应思考模式",
+  "date": "2026-03-15",
+  "publishedAt": "2026-03-15T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Claude Opus 4.6，支持 200K 上下文窗口和自适应思考模式",
+  "summary": "Anthropic 发布了 Claude Opus 4.6 模型，将上下文窗口扩展到 200K token（测试版提供 100 万 token），最大输出 token 数从之前的 64K 限制提升至 128K。该模型引入了自适应思考模式，可根据问题复杂度动态调整思考深度，新增了最高级别的 max effort 参数，并具备上下文压缩功能，当对话接近窗口限制时会自动总结早期内容。 这些改进显著增强了 Claude 处理复杂、长篇推理任务的能力，并能在长时间交互中保持对话连贯性，使其更适合专业工作流程和自主代理应用。自适应思考模式代表了在使 AI 推理更高效和上下文感知方面的进步，而上下文压缩则解决了当前 LLM 架构中的一个基本限制。 200K 上下文窗口在测试版中提供 100 万 token，但标准版本支持 200K token。上下文压缩功能的工作原理是当对话接近窗口限制时自动总结早期内容，从而实现近乎无限长度的对话，同时保持语义密度。Claude Opus 4.6 被定位为 Anthropic 处理最复杂任务的顶级模型，尤其在编码和推理方面表现出色。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Large Language Models",
+    "Anthropic",
+    "Claude",
+    "Natural Language Processing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 14, 01:19"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40251",
+  "originalSite": "t.me",
+  "context": "像 Claude 这样的大型语言模型（LLM）使用上下文窗口来处理文本，这决定了它们在生成响应时可以考虑多少之前的文本内容。上下文窗口已经从早期模型的几千 token 扩展到当前模型的数十万 token。自适应思考指的是允许模型根据问题复杂度调整其推理深度和方法的技术，而上下文压缩则涉及总结或压缩对话历史，以保持在模型限制内而不丢失重要信息。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Opus 4.6: Model Specifications and Details - apxml.com",
+      "url": "https://apxml.com/models/claude-opus-46"
+    },
+    {
+      "title": "Models overview - Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview"
+    },
+    {
+      "title": "Context Compression in AI. How Long Conversations Stay ...",
+      "url": "https://crompt.ai/blog/what-is-context-compression-in-ai-and-why-it-improves-long-conversations"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

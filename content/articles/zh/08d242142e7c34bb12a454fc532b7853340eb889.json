@@ -1,0 +1,44 @@
+{
+  "id": "08d242142e7c34bb12a454fc532b7853340eb889",
+  "canonicalId": "96940d4c6cd804467aa8c664c6aa0ae89627bdc4",
+  "slug": "字节跳动发布-seed3d-203d-生成迈向生产可用",
+  "date": "2026-04-24",
+  "publishedAt": "2026-04-24T00:00:00Z",
+  "lang": "zh",
+  "title": "字节跳动发布 Seed3D 2.0，3D 生成迈向生产可用",
+  "summary": "字节跳动于 2026 年 4 月 23 日发布了新一代 3D 生成大模型 Seed3D 2.0，在几何精度和纹理质量上取得行业领先（SOTA）水平，人类评测中相对主流模型的偏好率超过 69%。 这标志着 3D 生成从演示级向生产可用迈出关键一步，有望加速 AI 生成的 3D 内容在游戏、机器人和仿真等行业的应用。 Seed3D 2.0 还支持部件级生成和场景组合，输出带完整关节信息、兼容 URDF 等标准格式的内容，并可适配 NVIDIA Isaac Sim 等物理仿真引擎。",
+  "score": 8,
+  "tags": [
+    "3D Generation",
+    "ByteDance",
+    "AI",
+    "Computer Graphics",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 23, 08:15"
+    }
+  ],
+  "originalUrl": "https://seed.bytedance.com/zh/blog/seed3d-2-0-released-higher-precision-and-greater-usability",
+  "originalSite": "seed.bytedance.com",
+  "context": "3D 生成模型旨在从文本或图像创建 3D 模型。以往的模型常产生低质量的几何或纹理，限制其仅用于原型或可视化。URDF 是一种用于机器人模型的标准 XML 格式，Isaac Sim 是 NVIDIA 的机器人仿真平台。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ByteDance Launches Seed3D 2.0: Geometry and Texture Dual SOTA ...",
+      "url": "https://news.aibase.com/news/27393"
+    },
+    {
+      "title": "GitHub - aitools12/seed3d20: Seed3d 2.0 AI 3D model generator ...",
+      "url": "https://github.com/aitools12/seed3d20"
+    },
+    {
+      "title": "Isaac Sim - Robotics Simulation and Synthetic Data Generation ...",
+      "url": "https://developer.nvidia.com/isaac/sim"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

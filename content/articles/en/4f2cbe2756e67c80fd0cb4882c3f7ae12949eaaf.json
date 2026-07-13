@@ -1,0 +1,44 @@
+{
+  "id": "4f2cbe2756e67c80fd0cb4882c3f7ae12949eaaf",
+  "canonicalId": "5ae23d43fa305230100a6111b43e9c4e33d8b740",
+  "slug": "streaming-expert-weights-enables-trillion-parameter-moe-models-on-consumer-hardware",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-24T05:09:00Z",
+  "lang": "en",
+  "title": "Streaming expert weights enables trillion-parameter MoE models on consumer hardware",
+  "summary": "Developers have demonstrated that streaming expert weights from storage allows massive Mixture-of-Experts models to run on consumer hardware with limited RAM, including a 1 trillion parameter Kimi K2.5 model on a MacBook Pro and a 397B parameter Qwen3.5 model on an iPhone. These experiments show rapid progress, with performance improving from initial tests to newer implementations achieving around 1.7 tokens per second. This breakthrough significantly lowers the barrier to running state-of-the-art large language models locally, enabling edge AI applications and democratizing access to advanced AI without expensive cloud infrastructure. It could accelerate the development of on-device AI assistants, privacy-preserving tools, and more efficient model deployment across industries. The Kimi K2.5 model has 1 trillion total parameters but only activates 32B weights at a time, running in 96GB RAM on an M2 Max MacBook Pro, while the Qwen3.5-397B-A17B model achieved 0.6 tokens/second on an iPhone. These implementations rely on streaming necessary expert weights from SSD per token, bypassing RAM limitations through conditional computation.",
+  "score": 8,
+  "tags": [
+    "Mixture-of-Experts",
+    "LLM Optimization",
+    "Hardware Efficiency",
+    "Streaming Inference",
+    "Edge AI"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Mixture-of-Experts models are a type of large language model that uses conditional computation to activate only a subset of 'expert' neural networks for each input, making them more efficient than dense models. Streaming expert weights refers to loading these activated weights from storage like SSDs during inference, rather than keeping the entire model in RAM, which reduces memory requirements. This technique builds on sparse model architectures like those used in Mistral AI's Mixtral 8x7B and Alibaba's Qwen3.5 series.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is mixture of experts? | IBM",
+      "url": "https://www.ibm.com/think/topics/mixture-of-experts"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "Mixtral of experts | Mistral AI",
+      "url": "https://mistral.ai/news/mixtral-of-experts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

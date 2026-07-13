@@ -1,0 +1,44 @@
+{
+  "id": "dc9519643446e6b7b31d86a7e872f34afa3775bc",
+  "canonicalId": "ed8eb26c6ed1633ff2316e030939f21a3f668fff",
+  "slug": "phinite具备身份技能与评估的多智能体操作系统",
+  "date": "2026-06-10",
+  "publishedAt": "2026-06-09T22:17:00Z",
+  "lang": "zh",
+  "title": "Phinite：具备身份、技能与评估的多智能体操作系统",
+  "summary": "Phinite 是一个全新的多智能体操作系统，为智能体提供一等公民身份、行为评估和可组合技能，旨在填补多智能体系统缺失的基础设施层。它今天公开发布，并提供免费额度供测试。 这解决了当前多智能体开发中的关键缺口，实现了可靠、可观测且可组合的智能体系统，可能加速企业对多智能体架构的采用。它将微服务（服务网格、IAM）和 Kubernetes 的基础设施模式引入智能体领域。 Phinite 提供注册表，包含一等公民智能体 ID、版本、所有者和技能图谱；使用复合可靠性评分和回归进行行为评估，替代传统单元测试；技能可版本化、可重用且可被智能体继承。它支持云无关、模型无关，符合 SOC 2 Type II 标准，并内置可观测性（追踪、成本归属、漂移检测）。",
+  "score": 8,
+  "tags": [
+    "multi-agent systems",
+    "agent infrastructure",
+    "observability",
+    "composability",
+    "evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Embarrassed-Radio319"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u1jqmf/phinite_multiagent_os_with_firstclass_agent/",
+  "originalSite": "reddit.com",
+  "context": "多智能体系统目前缺乏类似微服务中服务网格的标准化基础设施，导致身份、评估和可组合性面临挑战。传统单元测试失效，因为智能体是非确定性的——相同输入可能产生不同执行路径。复合可靠性问题（n 步工作流的可靠性为 p^n）是基准测试与生产环境之间的主要差距。Phinite 旨在为智能体工作流提供类似 Kubernetes 的抽象层。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Agent Compound Reliability Problem: Why 95% Per-Step ...",
+      "url": "https://agentmarketcap.ai/blog/2026/04/14/agent-compound-reliability-problem-multi-step-error-rates"
+    },
+    {
+      "title": "Composable Skills — a pattern for building agent skills out of smaller...",
+      "url": "https://gist.github.com/xlzhsteven/f4123942fe5f016f49575d23a8ab1cb0"
+    },
+    {
+      "title": "Anthropic's Bloom Framework: Automating Behavioral Evaluations of...",
+      "url": "https://royfactory.net/posts/ai/202512/anthropic-bloom-framework-ai-evaluation/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

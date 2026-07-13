@@ -1,0 +1,44 @@
+{
+  "id": "759e8d9647c07860eafb9af513651b63d63243cc",
+  "canonicalId": "5ae23d43fa305230100a6111b43e9c4e33d8b740",
+  "slug": "专家权重流式加载技术让万亿参数-moe-模型在消费级硬件上运行成为可能",
+  "date": "2026-03-25",
+  "publishedAt": "2026-03-25T00:00:00Z",
+  "lang": "zh",
+  "title": "专家权重流式加载技术让万亿参数 MoE 模型在消费级硬件上运行成为可能",
+  "summary": "开发者们展示了通过从存储设备流式加载专家权重，可以在内存有限的消费级硬件上运行大规模混合专家模型，包括在 MacBook Pro 上运行 1 万亿参数的 Kimi K2.5 模型和在 iPhone 上运行 397B 参数的 Qwen3.5 模型。这些实验进展迅速，性能从最初的测试提升到新实现中达到约每秒 1.7 个 token。 这一突破显著降低了在本地运行最先进大语言模型的门槛，使得边缘 AI 应用成为可能，并让更多人无需昂贵云基础设施即可使用先进 AI 技术。它可能加速设备端 AI 助手、隐私保护工具以及跨行业更高效模型部署的发展。 Kimi K2.5 模型拥有 1 万亿总参数，但每次仅激活 32B 权重，在配备 96GB RAM 的 M2 Max MacBook Pro 上运行，而 Qwen3.5-397B-A17B 模型在 iPhone 上达到每秒 0.6 个 token。这些实现依赖于为每个 token 从 SSD 流式加载必要的专家权重，通过条件计算绕过内存限制。",
+  "score": 8,
+  "tags": [
+    "Mixture-of-Experts",
+    "LLM Optimization",
+    "Hardware Efficiency",
+    "Streaming Inference",
+    "Edge AI"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 24, 05:09"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "混合专家模型是一种大语言模型，它使用条件计算为每个输入仅激活一部分'专家'神经网络，使其比密集模型更高效。专家权重流式加载是指在推理过程中从 SSD 等存储设备加载这些激活的权重，而不是将整个模型保留在 RAM 中，从而降低内存需求。该技术建立在稀疏模型架构基础上，例如 Mistral AI 的 Mixtral 8x7B 和阿里巴巴的 Qwen3.5 系列所使用的架构。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is mixture of experts? | IBM",
+      "url": "https://www.ibm.com/think/topics/mixture-of-experts"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "Mixtral of experts | Mistral AI",
+      "url": "https://mistral.ai/news/mixtral-of-experts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "c41350286588479ac8aee1cff7ece8be81c61cce",
+  "canonicalId": "cc75760dcbbd1b698eaf4a0ebde244401bea3a8f",
+  "slug": "tinytpu从真实-rtl-编译的脉动阵列实时浏览器可视化",
+  "date": "2026-06-06",
+  "publishedAt": "2026-06-05T20:05:00Z",
+  "lang": "zh",
+  "title": "TinyTPU：从真实 RTL 编译的脉动阵列实时浏览器可视化",
+  "summary": "TinyTPU 是一个新的教育工具，将用 SystemVerilog 编写的 4×4 权重固定脉动阵列编译为 WebAssembly，允许用户在浏览器中逐步查看矩阵乘法执行，状态直接从编译的 RTL 中读取。 它弥合了 TPU 内部抽象示意图与实际硬件行为之间的差距，使学生和工程师能够直观理解权重固定数据流和对角线偏移等脉动阵列概念。 可视化提供三个层次：单个乘加单元、执行实际矩阵乘法的完整 4×4 阵列，以及针对大于硬件的矩阵的分块处理。该项目在 GitHub 上开源。",
+  "score": 8,
+  "tags": [
+    "systolic array",
+    "TPU",
+    "hardware visualization",
+    "SystemVerilog",
+    "WASM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Horror-Flamingo-2150"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/",
+  "originalSite": "reddit.com",
+  "context": "脉动阵列是一种处理器网络，用于有节奏地计算和传递数据，常用于 Google TPU 等硬件加速器以实现高效的矩阵乘法。权重固定架构将权重固定在处理单元中，同时流式传输输入，从而减少数据移动。分块技术通过将大矩阵拆分为小块，使小阵列也能处理大矩阵。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Systolic array - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Systolic_array"
+    },
+    {
+      "title": "Understanding Matrix Multiplication on a Weight-Stationary Systolic Architecture | Telesens",
+      "url": "https://telesens.co/2018/07/30/systolic-architectures/"
+    },
+    {
+      "title": "Tiling in matrix multiplication . Hey! so…. you have been... | Medium",
+      "url": "https://medium.com/@shouryagoel10000/tiling-in-matrix-multiplication-16f918ea01e5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

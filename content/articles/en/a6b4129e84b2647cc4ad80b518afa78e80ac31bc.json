@@ -1,0 +1,40 @@
+{
+  "id": "a6b4129e84b2647cc4ad80b518afa78e80ac31bc",
+  "canonicalId": "54d100c1fee10d84744344858bb50c2559448b2b",
+  "slug": "ospm-2026-day-two-uncore-dvfs-scheduler-advances",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-24T14:18:00Z",
+  "lang": "en",
+  "title": "OSPM 2026 Day Two: uncore DVFS, scheduler advances",
+  "summary": "The second day of the OSPM 2026 summit covered device frequency scaling for uncore components, time-slice-based CPU selection, scheduling domains on multi-cluster Arm systems, and the LAVD scheduler. These advancements could significantly improve power efficiency and scheduling performance in Linux, particularly for server SoCs and gaming systems. A proposed PI governor for uncore DVFS stabilized frequency around 900 MHz with no throughput loss, but audience questioned its peak performance under non-SPECpower workloads. Devfreq governor-driver coupling remains a challenge.",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "kernel",
+    "power management",
+    "scheduling",
+    "OSPM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078696/",
+  "originalSite": "lwn.net",
+  "context": "The OSPM summit focuses on power management and scheduling in the Linux kernel. Devfreq is the kernel's generic dynamic voltage and frequency scaling framework for devices. Uncore refers to components like L3 cache and memory controllers, which can consume significant power.",
+  "discussion": "Attendees debated using a full PID controller over PI, with concerns over tuning difficulty. One attendee challenged the claim of good results, noting that the governor may limit throughput during load spikes. Another suggested using the interconnect framework for hints.",
+  "references": [
+    {
+      "title": "Device Frequency Scaling — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/latest/driver-api/devfreq.html"
+    },
+    {
+      "title": "Rust-Written LAVD Kernel Scheduler Shows Promising... - Phoronix",
+      "url": "https://www.phoronix.com/news/LAVD-Scheduler-Linux-Gaming"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

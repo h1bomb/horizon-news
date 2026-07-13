@@ -1,0 +1,44 @@
+{
+  "id": "8fc9619c115abdce1ca507c19f85e881dd07969f",
+  "canonicalId": "def369ba5b5ef0fa1f78939e955b04dcb49c07bb",
+  "slug": "turboquant-被应用于模型权重压缩qwen35-27b-实现接近-q4-0-的质量体积减小-10",
+  "date": "2026-04-02",
+  "publishedAt": "2026-04-02T00:00:00Z",
+  "lang": "zh",
+  "title": "TurboQuant 被应用于模型权重压缩：Qwen3.5-27B 实现接近 Q4_0 的质量，体积减小 10%",
+  "summary": "一位开发者创建了一个 llama.cpp 分支，实现了一种名为 TQ3_1S 的新型 3.5 位权重量化格式，应用了受 TurboQuant 启发的技术来压缩 Qwen3.5-27B 模型。这使其困惑度与 Q4_0 量化相比仅差 0.19%，同时模型体积减小约 10%，从而能在 16GB RTX 5060 Ti GPU 上运行。 这展示了如何将先进的量化研究实际应用于解决现实硬件限制，使更大的语言模型能在消费级 GPU 上本地部署，更具可及性。它表明，最初为 KV 缓存设计的基于变换的量化技术，可以有效地适配到权重压缩中，可能影响未来的模型优化方法。 TQ3_1S 格式使用了 Walsh-Hadamard 旋转、8 中心点量化和双半块缩放，并在 llama.cpp 中支持 CUDA 运行时。虽然实现了接近 Q4_0 的困惑度（在 wiki.test.raw 上为 7.2570 对比 7.2431），但一些社区成员指出，Q4_0 被视为一种过时的量化方法，且仅用困惑度可能无法完全捕捉量化损失，相比使用相对于 bf16 基线的 KLD 度量。",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "local-ai",
+    "model-compression",
+    "gpu-optimization",
+    "turboquant"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 1, 11:58"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/118nngfciksg1.png",
+  "originalSite": "i.redd.it",
+  "context": "量化通过用更少的位数（例如 4 位而非 16 位）表示权重来减小模型体积，使更大的模型能在有限的 GPU 内存上运行。TurboQuant 是近期的一种研究技术，旨在优化 Transformer 模型中的 KV（键值）缓存压缩，以减少推理时的内存使用。Q4_0 指的是 GGUF 生态系统中的一种特定 4 位量化格式，不过像 Q4_K_M 这样的新方法通常在相似位宽下能提供更好的质量。",
+  "discussion": "社区反应不一，一些人赞扬这种实用的创新和解决现实问题的能力，而另一些人则批评其与过时的 Q4_0 进行比较以及使用困惑度作为度量标准。建议包括与更新的量化方法（如 unsloth Q3_K_S）进行比较，并使用相对于 bf16 基线的 KLD 来进行更准确的质量评估。",
+  "references": [
+    {
+      "title": "Google publishes TurboQuant to ease AI memory strain -",
+      "url": "https://techinformed.com/google-publishes-turboquant-to-ease-ai-memory-strain/"
+    },
+    {
+      "title": "Quantization matters",
+      "url": "https://simonwillison.net/2024/Nov/23/quantization-matters/"
+    },
+    {
+      "title": "HadaCore: Tensor Core Accelerated Hadamard Transform Kernel",
+      "url": "https://pytorch.org/blog/hadacore/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

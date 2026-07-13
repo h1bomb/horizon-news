@@ -1,0 +1,44 @@
+{
+  "id": "bb12d38b8b4cb91d8118cb033c3c3d1ca1d9592a",
+  "canonicalId": "590262a121dfc6607dcdeb7489f2e3cb3de3e50d",
+  "slug": "turboquant-在-mlx-上通过自定义-metal-内核实现-46-倍-kv-缓存压缩应用于-qwen-32b-模型",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-29T00:00:00Z",
+  "lang": "zh",
+  "title": "TurboQuant 在 MLX 上通过自定义 Metal 内核实现 4.6 倍 KV 缓存压缩，应用于 Qwen 32B 模型",
+  "summary": "一位开发者将谷歌的 TurboQuant KV 缓存压缩技术应用于 MLX 框架，在 M4 Pro 48GB 设备上，通过自定义 Metal 内核，在 Qwen2.5-32B 模型上实现了 4.6 倍压缩和 98% 的 FP16 速度。该优化将 16K 上下文长度的 KV 缓存从 4.2GB 减少到 897MB。 这很重要，因为它显著降低了在 Apple Silicon 上运行大型语言模型的内存占用，允许更长的上下文长度和更快的推理速度，同时保持质量不变，这对于在 Mac 等资源受限设备上部署高效 AI 应用至关重要。它展示了将最新研究（TurboQuant）与实际硬件优化相结合的工程创新。 主要挑战在于速度优化，通过融合的 Metal 量化/反量化内核和增量解码缓冲区，速度从 FP16 的 0.28 倍提升到 0.98 倍。该实现在测试中保持了与原始模型相同的质量。",
+  "score": 8,
+  "tags": [
+    "KV Cache Compression",
+    "MLX Framework",
+    "Apple Silicon Optimization",
+    "Quantization",
+    "Large Language Models"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 28, 09:07"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s5vhf6/turboquant_on_mlx_46x_kv_cache_compression_with/",
+  "originalSite": "reddit.com",
+  "context": "TurboQuant 是谷歌提出的一种压缩方法，通过向量量化等技术，在零精度损失下减少 KV 缓存大小，实现高压缩比（例如每值 3-4 位）。MLX 是苹果开发的机器学习框架，专为 Apple Silicon 优化，在 macOS 设备上提供高效计算。Metal 内核是苹果平台上的低级 GPU 编程接口，此处用于加速量化操作以提升推理速度。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/"
+    },
+    {
+      "title": "MLX",
+      "url": "https://mlx-framework.org/"
+    },
+    {
+      "title": "Metal - Hugging Face",
+      "url": "https://huggingface.co/docs/transformers/en/quantization/metal"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

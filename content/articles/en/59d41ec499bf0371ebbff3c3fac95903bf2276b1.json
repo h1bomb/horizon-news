@@ -1,0 +1,44 @@
+{
+  "id": "59d41ec499bf0371ebbff3c3fac95903bf2276b1",
+  "canonicalId": "519b90b28d122b966089f47b74e8a289d777aa73",
+  "slug": "glm-5-nearly-matches-claude-opus-46-in-startup-simulation-at-11-lower-cost",
+  "date": "2026-04-05",
+  "publishedAt": "2026-04-04T03:45:00Z",
+  "lang": "en",
+  "title": "GLM-5 nearly matches Claude Opus 4.6 in startup simulation at 11× lower cost",
+  "summary": "The YC-Bench benchmark tested 12 LLMs in a year-long startup CEO simulation, finding GLM-5 achieved $1.21M average final funds compared to Claude Opus 4.6's $1.27M, while costing only $7.62 per run versus $86 for Opus. The benchmark revealed that successful models actively used persistent scratchpads, rewriting notes approximately 34 times per run. This demonstrates that cost-effective models like GLM-5 can approach frontier model performance in complex, long-horizon tasks, potentially disrupting enterprise AI economics where cost efficiency matters more than marginal performance gains. The findings challenge assumptions about model superiority based solely on benchmark scores and highlight the importance of working memory in agentic systems. Kimi-K2.5 achieved the best revenue-per-API-dollar ratio at 2.5× better than the next model, while most other models performed below the starting capital of $200K, with several going bankrupt. The benchmark's deterministic nature and fixed environment may reward conservative strategies over risk-taking behavior typical of real founders.",
+  "score": 8,
+  "tags": [
+    "LLM Benchmarking",
+    "Cost-Efficiency",
+    "Agentic Systems",
+    "Simulation",
+    "AI Performance"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "DreadMutant"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/gallery/1sbyte4",
+  "originalSite": "reddit.com",
+  "context": "YC-Bench is a long-term coherence benchmark that evaluates LLM agents' ability to run a simulated startup over a one-year horizon with hundreds of turns, where the agent manages employees, picks contracts, and handles payroll in an environment with delayed feedback and deceptive clients. GLM-5 is Z.ai's next-generation frontier large language model with 745B parameters, designed for advanced reasoning, coding, and agentic AI tasks. Kimi-K2.5 is an open-source multimodal AI model developed by Moonshot AI that can understand and generate text, code, and visual content.",
+  "discussion": "Community discussion highlighted that GLM-5's cost efficiency challenges the notion of frontier model moats, with users noting that enterprise AI advantages may now lie in infrastructure and compliance rather than raw model performance. Several comments emphasized the importance of the scratchpad finding for long-horizon tasks, suggesting that maintaining working memory across multiple steps is crucial for agentic systems. Some users questioned whether the simulation penalizes risk-taking versus real founder behavior, while others called for more seeds due to high variance in results.",
+  "references": [
+    {
+      "title": "||#92;texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term ...",
+      "url": "https://arxiv.org/pdf/2604.01212"
+    },
+    {
+      "title": "GLM 5 — Next-Gen Frontier Model",
+      "url": "https://glm5.app/"
+    },
+    {
+      "title": "Kimi K2.5 | Open Visual Agentic Model for Real Work",
+      "url": "https://www.kimi.com/ai-models/kimi-k2-5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

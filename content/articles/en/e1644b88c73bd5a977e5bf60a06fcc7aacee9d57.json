@@ -1,0 +1,40 @@
+{
+  "id": "e1644b88c73bd5a977e5bf60a06fcc7aacee9d57",
+  "canonicalId": "d1ea07384df05b040822b6d7cbc49d379fa6e076",
+  "slug": "apple-releases-xcode-263-with-agentic-coding-and-sdk-updates",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T04:04:00Z",
+  "lang": "en",
+  "title": "Apple Releases Xcode 26.3 with Agentic Coding and SDK Updates",
+  "summary": "Apple has released Xcode 26.3, introducing agentic coding that allows developers to use OpenAI's Codex and Anthropic's Claude Agent directly within Xcode to understand projects, write code, build apps, run tests, and fix bugs via natural language. Additionally, Apple announced that starting April 28, 2026, apps submitted to App Store Connect must be built with iOS 26, iPadOS 26, tvOS 26, visionOS 26, or watchOS 26 SDKs. This update marks a significant leap in AI-assisted development on Apple's platform, potentially boosting developer productivity and changing how apps are built. The mandatory SDK update ensures apps leverage the latest OS features and security. Agentic coding in Xcode 26.3 uses AI agents like Anthropic's Claude Agent and OpenAI's Codex, which can autonomously break down tasks, make architectural decisions, and use built-in Xcode tools. The updated SDK requirement applies to all apps and games submitted to App Store Connect starting April 28, 2026.",
+  "score": 8,
+  "tags": [
+    "Xcode",
+    "AI coding",
+    "Apple",
+    "developer tools",
+    "software update"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/42187",
+  "originalSite": "t.me",
+  "context": "Agentic coding is a new paradigm where AI agents can plan and execute development tasks with greater autonomy, beyond simple code completion. Xcode is Apple's integrated development environment (IDE) used for building apps across Apple platforms. Previously, Xcode had a basic AI code completion feature, but this update introduces more advanced, autonomous agents.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Xcode 26.3 unlocks the power of agentic coding - Apple",
+      "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/"
+    },
+    {
+      "title": "Xcode 26.3 Lets AI Agents From Anthropic and OpenAI Build ...",
+      "url": "https://www.macrumors.com/2026/02/03/xcode-26-3-agentic-coding/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

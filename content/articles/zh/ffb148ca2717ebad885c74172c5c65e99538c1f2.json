@@ -1,0 +1,44 @@
+{
+  "id": "ffb148ca2717ebad885c74172c5c65e99538c1f2",
+  "canonicalId": "f53e79b25cdbdc8f05f8ced62ca4f77fdfe59a5d",
+  "slug": "cactus-混合路由器65-万参数模型媲美前沿-ai-性能",
+  "date": "2026-05-27",
+  "publishedAt": "2026-05-26T22:20:00Z",
+  "lang": "zh",
+  "title": "Cactus 混合路由器：6.5 万参数模型媲美前沿 AI 性能",
+  "summary": "Cactus Compute 发布了 Cactus 混合路由器，这是一个 6.5 万参数的模型，能够决定是使用量化后的边缘模型（如 Gemma4-2B）在本地处理任务，还是将任务路由到云端前沿模型（如 Gemini-3.1-Flash-Lite），在将 15-55%的任务路由到云端的同时实现了同等性能。 这一创新通过本地处理简单查询，大幅降低推理成本和云端基础设施压力，使 AI 部署更加高效且可扩展，适用于编码助手和实时 AI 等应用。 该路由器仅使用 6.5 万个参数，支持纯文本、视觉和音频提示；它支持可调节的边缘-云端比例，并且即使在边缘模型通过 Cactus Quants 量化为 4 位时也能保持稳健的性能。",
+  "score": 8,
+  "tags": [
+    "AI inference",
+    "edge computing",
+    "model routing",
+    "hybrid models",
+    "LLM optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Henrie_the_dreamer"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tom98y/cactus_hybrid_router_gemma42b_can_match/",
+  "originalSite": "reddit.com",
+  "context": "混合路由使用一个轻量快速的模型来评估查询复杂度，决定是使用本地模型还是调用云端模型，从而平衡延迟、成本和精度。量化技术以极小的质量损失压缩模型大小，实现高效的设备端推理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CactusRoute — 7-Layer Adaptive Edge/Cloud Hybrid Router",
+      "url": "https://github.com/quotentiroler/CactusRoute"
+    },
+    {
+      "title": "Cactus: Low-Latency AI Inference for Mobile with Zero-Copy ...",
+      "url": "https://betterstack.com/community/guides/ai/cactus-ai/"
+    },
+    {
+      "title": "Overview | Cactus",
+      "url": "https://cactuscompute.com/docs/v1.6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

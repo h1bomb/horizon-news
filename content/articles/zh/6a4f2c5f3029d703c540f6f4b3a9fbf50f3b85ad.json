@@ -1,0 +1,41 @@
+{
+  "id": "6a4f2c5f3029d703c540f6f4b3a9fbf50f3b85ad",
+  "canonicalId": "110445385596e0ceefba68b85a5a4b9cc45b6992",
+  "slug": "videolan-发布开源-av2-解码器-dav2d",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T11:44:00Z",
+  "lang": "zh",
+  "title": "VideoLAN 发布开源 AV2 解码器 Dav2d",
+  "summary": "VideoLAN 发布了 dav2d，这是 AV2 视频编码标准的开源解码器，标志着该标准的首个主要独立实现。 AV2 承诺比 AV1 减少 25-30% 的码率，但解码复杂度提高了约五倍，因此高效的软件解码器对普及至关重要。Dav2d 提供了一个生产就绪的跨平台解码器，有助于硬件和软件生态系统为 AV2 做好准备。 Dav2d 解码器由 libavcodec 背后的同一团队开发，注重速度与正确性。它是跨平台的，并旨在为未来的硬件实现提供参考。",
+  "score": 8,
+  "tags": [
+    "video codec",
+    "AV2",
+    "decoder",
+    "performance",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "captain_bender",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48344961"
+    }
+  ],
+  "originalUrl": "https://jbkempf.com/blog/2026/dav2d/",
+  "originalSite": "jbkempf.com",
+  "context": "AV2 是开放媒体联盟（AOMedia）推出的下一代开放、免版税视频编码格式，是 AV1 的继任者。它于 2026 年 5 月正式发布，压缩效率比 AV1 提高约 30%，但计算复杂度显著增加。VideoLAN 以开发 VLC 媒体播放器而闻名，并曾为 AV1 创建了高效的 dav1d 解码器。",
+  "discussion": "社区评论担心 AV2 的解码复杂度约为 AV1 的五倍，可能使现有的 AV1 硬件解码器过时。一些人质疑 25% 的大小减少是否值得更换硬件，但也有人指出，经过优化后，软件解码可能足以满足许多用例。",
+  "references": [
+    {
+      "title": "VideoLAN Publishes Dav2d For Open-Source AV2 Decoder - Phoronix",
+      "url": "https://www.phoronix.com/news/Dav2d-Open-Source-AV2-Decode"
+    },
+    {
+      "title": "AV2 (video coding format)",
+      "url": "https://en.wikipedia.org/wiki/AV2_(video_coding_format)"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "c6e365dc3ab45efdb5e7a04bace02d2e0bb48469",
+  "canonicalId": "848d344a33cced2cd021f1d514f5ac560bd7a4e7",
+  "slug": "cdd-仅从对数几率恢复微调数据的原文",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T19:01:00Z",
+  "lang": "zh",
+  "title": "CDD 仅从对数几率恢复微调数据的原文",
+  "summary": "研究人员提出了对比解码差异分析（CDD）方法，仅通过基础模型与微调模型之间的对数几率差异，无需权重或激活值访问，即可从大语言模型中恢复微调数据的原文。 该技术显著优于先前的白盒方法，在 SDF 基准上实现了高原文恢复得分，并且通过无需完全模型访问即可检测数据泄露，对机器学习安全性和可解释性具有重要意义。 CDD 在参数规模从 1B 到 32B 的多个模型家族中使用单一默认配置，在 20 个模型对中的 19 个上实现了 4 分或以上（满分 5 分）的原文恢复得分，而先前的激活差异透镜（ADL）方法尽管需要完全权重访问，但得分从未超过 3 分。",
+  "score": 8,
+  "tags": [
+    "machine learning",
+    "LLM safety",
+    "model interpretability",
+    "fine-tuning",
+    "logit analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/CebulkaZapiekana"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/",
+  "originalSite": "reddit.com",
+  "context": "对比解码是一种通过对比弱模型和强模型的对数几率来改进文本生成的技术。模型差异分析指的是比较模型以隔离微调引入的变化。CDD 在仅能获取对数几率输出的灰盒设置中应用这些思想，以提取训练数据的原文。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Contrastive Decoding : Open-ended Text Generation as Optimization",
+      "url": "https://arxiv.org/abs/2210.15097"
+    },
+    {
+      "title": "Stage-Wise Model Diffing",
+      "url": "https://transformer-circuits.pub/2024/model-diffing/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

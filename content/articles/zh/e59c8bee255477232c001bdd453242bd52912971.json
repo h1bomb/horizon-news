@@ -1,0 +1,45 @@
+{
+  "id": "e59c8bee255477232c001bdd453242bd52912971",
+  "canonicalId": "ab6bacc2dfd488fe4ab45a0a6855ac15c250ea9a",
+  "slug": "needle从-gemini-蒸馏出的-26m-参数工具调用模型",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-13T00:00:00Z",
+  "lang": "zh",
+  "title": "Needle：从 Gemini 蒸馏出的 26M 参数工具调用模型",
+  "summary": "Cactus Compute 发布了 Needle，一个从 Gemini 蒸馏出的 26M 参数模型，用于高效的单次函数调用。在消费级设备上，它以 6000 tok/s 的预填充速度和 1200 tok/s 的解码速度运行。 这表明大模型对于工具调用来说是大材小用，使得在廉价手机上实现设备端代理体验成为可能。它挑战了结构化输出任务需要重推理模型的假设。 该模型使用简单注意力网络（仅包含注意力和门控，无 MLP），并在 200B token 上进行了预训练。它在单次函数调用上击败了 FunctionGemma-270M 等更大的模型，但仅限于单次函数调用，不适用于对话场景。",
+  "score": 8,
+  "tags": [
+    "distillation",
+    "tool-calling",
+    "small-models",
+    "on-device-AI",
+    "attention-networks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 12, 18:03",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48111896"
+    }
+  ],
+  "originalUrl": "https://github.com/cactus-compute/needle",
+  "originalSite": "github.com",
+  "context": "工具调用或函数调用使 LLM 能够与外部 API 和工具交互。蒸馏是一种创建更小、更快的学生模型以模仿大型教师模型的技术。Needle 是面向特定任务的专用小模型的例子。",
+  "discussion": "社区评论显示了对浏览器部署、CLI 工具可行性的兴趣，以及对小模型的赞赏。建议包括发布实时演示和澄清模型规模表示法。总体情绪积极，对设备端代理充满期待。",
+  "references": [
+    {
+      "title": "Clarifying Function Calling / Tool Use in LLMs | Medium",
+      "url": "https://medium.com/@aevalone/clarifying-function-calling-tool-use-in-llms-6511af510f99"
+    },
+    {
+      "title": "An introduction to function calling and tool use in LLMs",
+      "url": "https://dev.to/apideck/an-introduction-to-function-calling-and-tool-use-in-llms-9kl"
+    },
+    {
+      "title": "LLM Distillation : The Key to Efficient AI Models | by Piyush... | Medium",
+      "url": "https://medium.com/@piyushkashyap045/llm-distillation-the-key-to-efficient-ai-models-cb4026a655bf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

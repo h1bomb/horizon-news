@@ -1,0 +1,44 @@
+{
+  "id": "8c0043e4041912f7925476121bb4e584d7304827",
+  "canonicalId": "6861ed539880c04dd4b4f29c26ae38450c783119",
+  "slug": "大语言模型自主调优-llamacpp-参数实现最高-54-的生成速度提升",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-15T00:00:00Z",
+  "lang": "zh",
+  "title": "大语言模型自主调优 llama.cpp 参数，实现最高 54% 的生成速度提升",
+  "summary": "开发者发布了 llm-server 的第二版，引入了 --ai-tune 参数，使大语言模型能够在循环中自主优化 llama.cpp 的配置参数，并缓存找到的最快配置。该方法在 Qwen3.5-27B Q4_K_M 等模型上实现了最高 54% 的生成速度提升，从每秒 25.94 个 token 提高到 40.05 个。 这代表了一种新颖的 AI 优化方法，即模型自身调优其运行时参数，有望实现本地大语言模型部署的性能调优自动化。它可以显著减少在不同硬件和模型组合中手动优化推理设置的工作量，使高性能本地大语言模型的使用更加便捷。 该系统通过将 llama-server --help 的输出作为上下文输入到大语言模型调优循环中，自动整合来自 llama.cpp 更新的新参数。性能提升因模型而异，Qwen3.5-27B 显示出最大的改进，而 gemma-4-31B 的提升较为有限，表明其效果取决于具体的模型特性。",
+  "score": 7,
+  "tags": [
+    "AI Optimization",
+    "LLM Performance",
+    "llama.cpp",
+    "Local LLM",
+    "Automated Tuning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 14, 13:05"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sl85r5/the_llm_tunes_its_own_llamacpp_flags_54_toks_on/",
+  "originalSite": "reddit.com",
+  "context": "llama.cpp 是一个用于本地运行大语言模型的开源 C++ 实现，提供多种参数以在不同硬件上优化性能。量化后缀如 Q4_K_M 指的是特定的 4 位量化方法，可在保持精度的同时减小模型大小。像 llama-optimus 这样的工具使用贝叶斯优化来自动调优 llama.cpp 参数，但这种新方法使用大语言模型自身作为调优器。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Optimizing llama.cpp flags for max performance; tuning with ML Optuna-library (llama‑optimus) · ggml-org/llama.cpp · Discussion #14191",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/14191"
+    },
+    {
+      "title": "llama-optimus · PyPI",
+      "url": "https://pypi.org/project/llama-optimus/"
+    },
+    {
+      "title": "Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0 ...",
+      "url": "https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

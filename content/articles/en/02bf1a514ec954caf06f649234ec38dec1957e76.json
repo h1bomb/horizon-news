@@ -1,0 +1,40 @@
+{
+  "id": "02bf1a514ec954caf06f649234ec38dec1957e76",
+  "canonicalId": "d6a89d1b88c592032523adf73fa5a560965eb2d2",
+  "slug": "qwen-35-struggles-on-complex-coding-tasks-in-comprehensive-70-repo-benchmark",
+  "date": "2026-02-26",
+  "publishedAt": "2026-02-25T13:52:00Z",
+  "lang": "en",
+  "title": "Qwen 3.5 Struggles on Complex Coding Tasks in Comprehensive 70-Repo Benchmark",
+  "summary": "A comprehensive benchmark test of coding LLMs, called APEX Testing, has been updated to include 70 real-world coding tasks and evaluated new models including all Qwen 3.5 variants and GPT-5.3 Codex. The results show GPT-5.3 Codex performing consistently well, while the large Qwen 3.5 397B model's performance \"craters\" on the most difficult \"master\" tasks that require coordination across many files. This benchmark provides crucial, practical data for developers and organizations choosing coding assistants, highlighting that raw model size does not guarantee performance on complex, multi-step software engineering tasks. The findings challenge perceptions of model rankings and emphasize the importance of task-specific evaluation beyond simple code completion. The benchmark now uses an agentic tool-use system for local models to ensure a fairer comparison with cloud-based agents, and it includes a focus on \"anti-benchmaxxing\" to prevent gaming the results. Notably, a quantized version of the GLM-4.7 model achieved the highest ELO score (1572) among the tested local models, outperforming all Qwen 3.5 variants.",
+  "score": 8,
+  "tags": [
+    "LLM Benchmarking",
+    "Code Generation",
+    "AI Programming",
+    "Model Evaluation",
+    "Open Source AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "hauhau901"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/5g4ostqlbnlg1.png",
+  "originalSite": "i.redd.it",
+  "context": "APEX Testing is a custom benchmark designed to evaluate coding Large Language Models (LLMs) on real codebases with real problems, moving beyond synthetic tasks. Quantization is a technique to reduce the memory and computational footprint of LLMs by representing weights with lower precision, enabling them to run on local hardware via tools like LM Studio. ELO is a rating system borrowed from chess, used here to rank model performance relative to each other on the benchmark tasks.",
+  "discussion": "Community discussion raised questions about methodology, particularly whether the custom agentic framework used might disadvantage some open-source models, as performance can swing dramatically based on the framework. Concerns were also voiced about trusting results from models served via APIs like OpenRouter, where the specific quantization or optimizations used are unknown and could hinder performance. Some users shared anecdotal experiences aligning with the benchmark's findings regarding Qwen 3.5 model behavior.",
+  "references": [
+    {
+      "title": "How to Use Qwen3 Quantized Models Locally: A Step-by-Step Guide",
+      "url": "https://apidog.com/blog/qwen3-quantized-models-locally/"
+    },
+    {
+      "title": "lmstudio-community ( LM Studio Community)",
+      "url": "https://huggingface.co/lmstudio-community?search_models=Gemma-3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

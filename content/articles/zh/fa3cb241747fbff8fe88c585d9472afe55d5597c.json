@@ -1,0 +1,44 @@
+{
+  "id": "fa3cb241747fbff8fe88c585d9472afe55d5597c",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "真实-uuid-v4-碰撞引发随机数质量争议",
+  "date": "2026-05-09",
+  "publishedAt": "2026-05-09T00:00:00Z",
+  "lang": "zh",
+  "title": "真实 UUID v4 碰撞引发随机数质量争议",
+  "summary": "一位开发者报告在生产环境中仅 1.5 万条记录下发生了真实的 UUID v4 碰撞，后端使用 npm uuid 包。碰撞发生在 2025 年的一条记录和一条新插入的记录之间，产生了完全相同的 UUID b6133fd6-70fe-4fe3-bed6-8ca8fc9386cd。 这一事件挑战了 UUID v4 碰撞实际上不可能的普遍假设，凸显了高质量熵源的极端重要性。它为开发者敲响警钟，要求审计随机数生成过程，尤其是在后端系统中，碰撞可能导致严重后果。 数据库仅包含约 1.5 万条记录，使碰撞在统计上远超预期概率。npm uuid 包依赖于运行时的随机数生成器；在后端，通常使用密码学随机数，但熵源故障（如种子不足）可能导致碰撞。",
+  "score": 8,
+  "tags": [
+    "UUID",
+    "randomness",
+    "entropy",
+    "software engineering",
+    "systems design"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 8, 07:57"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=48060054",
+  "originalSite": "news.ycombinator.com",
+  "context": "UUID 版本 4 (v4) 使用 122 位随机性生成标识符，共有 5.3×10^36 种可能值。只有当随机数生成器正确播种且具有高熵时，碰撞概率才微乎其微。由于硬件缺陷、软件错误或配置不当导致的低质量熵源会大幅增加碰撞率。npm uuid 包使用 Web Crypto API 或 Node.js crypto 模块，本应稳健，但故障仍然发生。",
+  "discussion": "社区评论指出熵源故障其实相当常见：硬件缺陷、软件错误和不良播种会降低随机性。有人指出在前端生成 UUID 从根本上不可靠，因为浏览器限制和潜在的碰撞攻击。还有人引用《Pro Git》书中关于 SHA-1 碰撞概率的例子来对比该事件的罕见性，但重申实际故障仍可能发生。",
+  "references": [
+    {
+      "title": "random - UUID collisions - Software Engineering Stack Exchange",
+      "url": "https://softwareengineering.stackexchange.com/questions/130261/uuid-collisions"
+    },
+    {
+      "title": "guid - How unique is UUID? - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/1155008/how-unique-is-uuid"
+    },
+    {
+      "title": "uuid - npm",
+      "url": "https://www.npmjs.com/package/uuid"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

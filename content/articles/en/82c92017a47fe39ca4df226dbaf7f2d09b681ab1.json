@@ -1,0 +1,44 @@
+{
+  "id": "82c92017a47fe39ca4df226dbaf7f2d09b681ab1",
+  "canonicalId": "dd631f87553d108b45cd3590efd633315ff5179c",
+  "slug": "llama-servers-latest-build-automatically-migrates-models-to-huggingface-cache-breaking-user-scripts",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-28T14:51:00Z",
+  "lang": "en",
+  "title": "llama-server's latest build automatically migrates models to HuggingFace cache, breaking user scripts",
+  "summary": "A user reported that the latest build of llama-server, released four days ago in commit b8498, automatically migrated models from the legacy llama.cpp cache to a HuggingFace cache directory, moving and converting .gguf files and causing existing launch and management scripts to fail. This breaking change affects users who rely on llama-server for local LLM deployment, disrupting workflows by altering model locations without user consent and highlighting risks in automated updates for production tools. The migration only affects models downloaded with the -hf flag, not those from --model-url, and the process is irreversible, converting .gguf files into blobs in the new cache.",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "HuggingFace",
+    "breaking-change",
+    "model-management",
+    "local-LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "hgshepherd"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s62el8/breaking_change_in_llamaserver/",
+  "originalSite": "reddit.com",
+  "context": "llama-server is a tool based on llama.cpp for self-hosting large language models locally, often used in production environments. GGUF is a binary file format designed for fast loading and deployment of LLMs, replacing older formats like GGJT. HuggingFace cache is a standard directory where models and datasets are stored to avoid re-downloading, typically located at ~/.cache/huggingface on Linux systems.",
+  "discussion": "The user expressed frustration over the lack of an option to stop the migration before irreversible changes, criticizing the move as part of a 'HuggingFace takeover' that disrupts existing setups.",
+  "references": [
+    {
+      "title": "llama.cpp/tools/server/README.md at master - GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md"
+    },
+    {
+      "title": "GGUF File Format | ggml-org/ggml | DeepWiki",
+      "url": "https://deepwiki.com/ggml-org/ggml/2.6-gguf-file-format"
+    },
+    {
+      "title": "Cache management · Hugging Face",
+      "url": "https://huggingface.co/docs/datasets/cache"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

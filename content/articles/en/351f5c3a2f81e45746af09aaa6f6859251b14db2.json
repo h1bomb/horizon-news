@@ -1,0 +1,44 @@
+{
+  "id": "351f5c3a2f81e45746af09aaa6f6859251b14db2",
+  "canonicalId": "5a0c3055c470dc277670f4668fbbc144141db948",
+  "slug": "intel-debuts-critical-18a-process-node-in-288-core-xeon-cpu-using-multi-chip-packaging",
+  "date": "2026-03-04",
+  "publishedAt": "2026-03-03T18:54:00Z",
+  "lang": "en",
+  "title": "Intel debuts critical 18A process node in 288-core Xeon CPU using multi-chip packaging.",
+  "summary": "Intel has officially launched its next-generation 18A semiconductor process node within a new 288-core Xeon CPU for data centers. This CPU is a multi-chip module (MCM) that integrates 12 separate chiplets fabricated on the 18A node, stacked on base dies made on the Intel 3 node, and connected to I/O tiles built on the older Intel 7 node. This launch is strategically crucial for Intel as it demonstrates the viability and performance of its advanced 18A process, which is central to the company's 'five nodes in four years' roadmap and its effort to regain manufacturing leadership. Successfully integrating three different process nodes in a single, high-volume product also serves as a powerful proof point for Intel Foundry Services (IFS), showcasing its advanced packaging capabilities to potential external customers. The CPU features 12 channels of DDR5-8000 memory and utilizes Foveros Direct 3D packaging technology to interconnect the chiplets. This heterogeneous integration approach allows different components (like high-performance logic, base dies, and I/O) to be built on the most cost-effective or performance-optimal process node for their function.",
+  "score": 8,
+  "tags": [
+    "semiconductors",
+    "data-center",
+    "cpu-architecture",
+    "manufacturing",
+    "cloud-computing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vanburen"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/pc-components/cpus/intels-make-or-break-18a-process-node-debuts-for-data-center-with-288-core-xeon-6-cpu-multi-chip-monster-sports-12-channels-of-ddr5-8000-foveros-direct-3d-packaging-tech",
+  "originalSite": "tomshardware.com",
+  "context": "In semiconductor manufacturing, a 'process node' (like 18A) refers to the specific fabrication technology that defines the size and density of transistors on a chip, with smaller numbers generally indicating more advanced technology. 'Advanced packaging' techniques, such as multi-chip modules (MCMs) and 2.5D/3D stacking, have become critical for continuing performance scaling. They allow manufacturers to combine multiple smaller 'chiplets'—often built on different process nodes—into a single package, improving yields, reducing costs, and enabling heterogeneous integration where, for example, advanced nodes are used for core logic while mature nodes handle I/O functions.",
+  "discussion": "Community discussion highlights the packaging innovation as a key achievement, noting that integrating three process nodes in a shipping product is a significant feat and a strong credibility signal for Intel Foundry. Several comments shift focus from raw core count to the software and system-level challenges, pondering whether OS and runtime schedulers can efficiently manage hundreds of cores with complex interconnects, effectively turning the CPU into a 'small cluster on a package.' Others discuss practical implications for cloud cost economics and specific high-thread-count workloads like software builds.",
+  "references": [
+    {
+      "title": "Advanced packaging (semiconductors) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_packaging_(semiconductors)"
+    },
+    {
+      "title": "Multi-chip module - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multi-chip_module"
+    },
+    {
+      "title": "Intel's make-or-break 18 A process node debuts for... | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=47236958"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

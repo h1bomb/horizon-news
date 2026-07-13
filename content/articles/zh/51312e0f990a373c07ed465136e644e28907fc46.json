@@ -1,0 +1,40 @@
+{
+  "id": "51312e0f990a373c07ed465136e644e28907fc46",
+  "canonicalId": "c6df09323b92c6b93550a310aa4cae67f878d41c",
+  "slug": "单核monokernel在-amd-mi300x-上实现每秒-3300-个-token",
+  "date": "2026-05-30",
+  "publishedAt": "2026-05-29T08:54:00Z",
+  "lang": "zh",
+  "title": "单核（monokernel）在 AMD MI300X 上实现每秒 3300 个 token",
+  "summary": "研究人员构建了一个单核（monokernel），在 AMD MI300X 上以单个 GPU 程序运行整个 LLM 解码序列，在不使用推测解码或量化的情况下，每个请求每秒输出高达 3300 个 token。 这证明了针对硬件拓扑的优化可以大幅降低 AMD GPU 上的 LLM 推理延迟，有可能缩小与 NVIDIA H100 在低延迟服务方面的差距。 该工作目前在一个 2B 参数的小型编码模型上运行，批大小为 1，使用 8 个 MI300X GPU，作者计划将其扩展到大型前沿混合专家（MoE）模型。",
+  "score": 8,
+  "tags": [
+    "LLM inference",
+    "GPU optimization",
+    "AMD MI300X",
+    "monokernel",
+    "deep learning systems"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/averne_"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tqvuz9/building_a_monokernel_for_llm_inference_on_amd/",
+  "originalSite": "reddit.com",
+  "context": "单核（monokernel）是一个单一的 GPU 内核，融合了模型前向传播的所有操作，减少了启动开销并提高了内存效率。AMD MI300X GPU 具有独特的芯片组架构，带有连接计算单元的 I/O 芯片（IOD）；将内存访问模式映射到物理芯片布局是实现峰值性能的关键。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Programming guide — ROCm Documentation",
+      "url": "https://rocm.docs.amd.com/en/develop/how-to/programming_guide.html"
+    },
+    {
+      "title": "Look Ma, No Bubbles! Designing a Low-Latency Megakernel for...",
+      "url": "https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

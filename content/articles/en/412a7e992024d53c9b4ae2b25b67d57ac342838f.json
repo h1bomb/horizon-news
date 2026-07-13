@@ -1,0 +1,44 @@
+{
+  "id": "412a7e992024d53c9b4ae2b25b67d57ac342838f",
+  "canonicalId": "a5317f7461f25c09f08e2e406030ae3c1c5e04f2",
+  "slug": "gemma-4-secretly-included-multi-token-prediction-weights-removed-for-compatibility",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-07T08:42:00Z",
+  "lang": "en",
+  "title": "Gemma 4 secretly included multi-token prediction weights removed for compatibility",
+  "summary": "A developer discovered that Google's Gemma 4 model contains multi-token prediction (MTP) weights in its LiteRT API files, which a Google employee confirmed were intentionally removed to ensure compatibility and broad usability. This revelation came when the model threw errors about incompatible tensor shapes during loading on a Google Pixel 9 device. This discovery raises questions about transparency in open-source AI releases and highlights potential performance trade-offs, as MTP could significantly accelerate inference speeds through speculative decoding. It also reflects broader tensions between open-source accessibility and commercial interests in AI model deployment. The MTP implementation appears designed for speculative decoding to achieve faster outputs, but it was removed from the standard release despite being present in the LiteRT files. Technical limitations include that MTP may not speed up inference in all scenarios, particularly with batch size 1 on MoE architectures where not all experts are activated.",
+  "score": 7,
+  "tags": [
+    "Gemma 4",
+    "Multi-Token Prediction",
+    "Open-Source AI",
+    "Model Inference",
+    "Google AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Electrical-Monitor27"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/7ujshksgdqtg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Multi-token prediction (MTP) is an advanced training technique that enables language models to predict multiple future tokens simultaneously during pre-training, unlike traditional next-token prediction. It is often used as a speculative decoding method to accelerate inference by allowing models to draft multiple tokens in a single forward pass. LiteRT is Google's high-performance on-device machine learning framework designed to optimize AI model performance on mobile devices through hardware acceleration and simplified APIs.",
+  "discussion": "Community sentiment is mixed, with some users criticizing Google's lack of transparency and perceived efforts to lock users into their LiteRT ecosystem, while others see it as a practical compatibility decision. Key viewpoints include skepticism about performance benefits in all scenarios, comparisons to other models like Qwen3.5 that include MTP without issues, and discussions about reverse-engineering possibilities to restore the functionality.",
+  "references": [
+    {
+      "title": "[2505.17505] L-MTP: Leap Multi-Token Prediction Beyond ... L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context ... MTP (Multi-Token Prediction) - vLLM Awesome Multi-Token Prediction (MTP!) - GitHub Evolving LLMs from Next-Token Prediction to Multi-Token ... Multi-Token Prediction (MTP) — Megatron Bridge NeurIPS Poster L-MTP: Leap Multi-Token Prediction Beyond ...",
+      "url": "https://arxiv.org/abs/2505.17505"
+    },
+    {
+      "title": "MTP (Multi-Token Prediction) - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/"
+    },
+    {
+      "title": "LiteRT : High-Performance On-Device Machine Learning Framework",
+      "url": "https://ai.google.dev/edge/litert"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

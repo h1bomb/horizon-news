@@ -1,0 +1,32 @@
+{
+  "id": "b8e7602cf6bc75330a28da30f58863b8a180fd99",
+  "canonicalId": "7ebc5a3660c1075374aa823029ccb82d760ef252",
+  "slug": "cgi-与-llm一个警示性的类比",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T15:17:00Z",
+  "lang": "zh",
+  "title": "CGI 与 LLM：一个警示性的类比",
+  "summary": "该文章将电影行业转向 CGI 与软件行业采用 LLM 进行类比，警告过度依赖 LLM 可能会贬低核心编码技能。 这一类比揭示了软件工程师面临的潜在长期风险：虽然 LLM 提高了生产力，但它们可能会侵蚀基本技能和工匠精神，就像 CGI 削弱了实际特效的艺术性一样。 文章指出，逐行手写代码已不再是常态，但阅读和理解架构仍然至关重要。它还提到，由于大规模重构变得普遍，测试比以往任何时候都更重要。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLMs",
+    "Software Engineering",
+    "Practical Effects",
+    "Coding Skills"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zdw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48881830"
+    }
+  ],
+  "originalUrl": "https://fabiensanglard.net/extinct/index.html",
+  "originalSite": "fabiensanglard.net",
+  "context": "电影行业从实际特效转向 CGI 导致了熟练劳动力的流失和视觉质量的明显下降，这从 1990 年代以后的电影中可以看出。类似地，像 GPT-4 这样的 LLM 被用于生成代码，引发了开发人员可能失去独立编写和推理代码能力的担忧。",
+  "discussion": "评论者普遍同意这一类比，但提供了额外的视角：ChiperSoft 强调 CGI 的主导地位是由非工会劳动力驱动的，而 singpolyma3 则质疑了对生产力数量的关注。一些人指出，LLM 可以生成匹配代码的测试，但不一定测试所需的行为。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

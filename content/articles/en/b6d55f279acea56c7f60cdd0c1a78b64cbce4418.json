@@ -1,0 +1,41 @@
+{
+  "id": "b6d55f279acea56c7f60cdd0c1a78b64cbce4418",
+  "canonicalId": "68d18aa223b772058986718856b819fe0f1e5ad4",
+  "slug": "qualcomm-acquires-ai-startup-modular-for-4b",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-24T13:49:00Z",
+  "lang": "en",
+  "title": "Qualcomm Acquires AI Startup Modular for $4B",
+  "summary": "Qualcomm announced the acquisition of Modular, the AI infrastructure startup behind the Mojo programming language, for $4 billion. The deal aims to strengthen Qualcomm's AI and cross-platform computing capabilities. This acquisition signals Qualcomm's strategic push into AI hardware and software integration, potentially challenging Nvidia's dominance in AI compute. It also raises questions about the future of Mojo as an open-source, cross-platform language. Modular was founded in 2022 by former Apple and Google engineers, including Chris Lattner, creator of LLVM and Swift. Mojo is a Python-based programming language that leverages MLIR for high performance on CPUs, GPUs, and other accelerators.",
+  "score": 9,
+  "tags": [
+    "acquisition",
+    "AI",
+    "hardware",
+    "Qualcomm",
+    "Modular"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "timmyd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48659798"
+    }
+  ],
+  "originalUrl": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+  "originalSite": "reuters.com",
+  "context": "Qualcomm is a major mobile chipmaker seeking to expand into AI and edge computing. Modular's Mojo language aims to combine Python's ease of use with the performance of system languages like C++ and Rust, targeting AI workloads across heterogeneous hardware.",
+  "discussion": "Community reactions are mixed: some express disappointment that Mojo may lose cross-platform potential under Qualcomm, while others see the acquisition as a bold move for Qualcomm's AI portfolio. There is also concern about Mojo's open-source commitment.",
+  "references": [
+    {
+      "title": "Mojo (programming language)",
+      "url": "https://en.wikipedia.org/wiki/Mojo_(programming_language)"
+    },
+    {
+      "title": "Google News - Modular AI raises $250 million to challenge...",
+      "url": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pBb2Q3UkR4R1E4ZXJMVFdsYnN5Z0FQAQ?hl=en-GH&gl=GH&ceid=GH:en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

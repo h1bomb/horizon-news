@@ -1,0 +1,44 @@
+{
+  "id": "3020da821861fc19bb2df67c9c777e5b75307f34",
+  "canonicalId": "cfc7b9c16e7d204422060b3eb03936a836421a7a",
+  "slug": "shadow-apis-compromise-ai-research-reproducibility-affecting-187-academic-papers",
+  "date": "2026-03-11",
+  "publishedAt": "2026-03-10T05:33:00Z",
+  "lang": "en",
+  "title": "Shadow APIs compromise AI research reproducibility, affecting 187 academic papers",
+  "summary": "A research paper (arXiv:2603.01919) auditing shadow APIs—third-party services claiming to provide access to models like GPT-5 and Gemini—found that 187 academic papers have used these services, with the most popular one having 5,966 citations. The study revealed performance divergences up to 47%, unpredictable safety behavior, and a 45% failure rate in fingerprint identity verification tests. This exposes a major reproducibility crisis in AI research, as findings from numerous papers may be built on outputs from fake or misrepresented models, undermining scientific validity. The problem also extends to production systems, where reliance on shadow APIs with deceptive model claims can cause unexpected failures and compromise applications that depend on specific model behaviors. The paper notes that shadow APIs are popular due to payment barriers and regional restrictions for official APIs, but their use creates significant reproducibility challenges. The most cited shadow API service has 58,000 GitHub stars, indicating widespread trust within the community despite the risks.",
+  "score": 9,
+  "tags": [
+    "research-reproducibility",
+    "ai-ethics",
+    "academic-integrity",
+    "llm-evaluation",
+    "shadow-apis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Electrical-Shape-266"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1rpoi3u/r_shadow_apis_breaking_research_reproducibility/",
+  "originalSite": "reddit.com",
+  "context": "A 'shadow API' is an unmanaged application programming interface operating outside normal governance and security oversight, often introduced without official approval. In the context of AI, 'shadow AI' refers to the unauthorized use of AI tools or large language models within an organization. The AI field has been grappling with a broader reproducibility crisis, where researchers struggle to replicate key findings due to various methodological issues.",
+  "discussion": "Community sentiment expresses frustration and validation of the problem, with researchers sharing personal experiences of failed reproducibility attempts. A prominent criticism is that the paper does not name the specific shadow API domains, with comments like \"name and shame or gtfo\" and concerns that this omission limits its practical utility for researchers trying to avoid compromised services.",
+  "references": [
+    {
+      "title": "What Is a Shadow API? Definition, Risk, and Detection - levo.ai",
+      "url": "https://www.levo.ai/resources/blogs/what-is-a-shadow-api"
+    },
+    {
+      "title": "What is Shadow AI? Risks, Governance and AI Agents | Okta",
+      "url": "https://www.okta.com/identity-101/what-is-shadow-ai/"
+    },
+    {
+      "title": "Artificial intelligence faces reproducibility crisis | Science",
+      "url": "https://www.science.org/doi/10.1126/science.359.6377.725"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

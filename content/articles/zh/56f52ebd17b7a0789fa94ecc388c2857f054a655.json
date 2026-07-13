@@ -1,0 +1,40 @@
+{
+  "id": "56f52ebd17b7a0789fa94ecc388c2857f054a655",
+  "canonicalId": "b18a0b9220ff759d272eca10ebb4063e13973e5d",
+  "slug": "ospm-2026-第三天通过-sched-ext-实现-gpu-自动亲和性",
+  "date": "2026-06-27",
+  "publishedAt": "2026-06-26T18:01:00Z",
+  "lang": "zh",
+  "title": "OSPM 2026 第三天：通过 sched_ext 实现 GPU 自动亲和性",
+  "summary": "在 OSPM 2026 Linux 内核峰会上，展示了一种基于 sched_ext 的 GPU 感知自动亲和性方法，在 RegNet 工作负载上实现了最高 80 帧/秒，超过了默认公平调度器（56fps）和手动 numactl 绑定（77fps）。 这项工作有望简化 NUMA 系统上的 GPU 工作负载管理，通过自动优化 CPU-GPU 局部性，减少手动调优的需求，并可能提升 AI 和加速器密集型应用的性能。 该原型使用一个 Rust 用户空间组件查询 NVIDIA 的 NVML 库以跟踪每个任务的 GPU 利用率，然后向 BPF 映射提供数据，sched_ext 调度器（scx_cosmos）据此将任务迁移到首选 NUMA 节点。注意：任务内存不会自动迁移，且激进的打包可能与负载平衡冲突。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "power management",
+    "scheduling",
+    "sched_ext",
+    "GPU"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1078697/",
+  "originalSite": "lwn.net",
+  "context": "sched_ext 是 Linux 内核的一个特性，允许使用 eBPF 程序动态加载自定义 CPU 调度器。NUMA（非统一内存访问）系统有多个内存节点，访问远程节点上的内存会导致更高延迟。GPU 感知自动亲和性旨在将任务放置在其使用的 GPU 附近，以最小化数据传输成本。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - sched-ext/scx: sched_ext schedulers and tools",
+      "url": "https://github.com/sched-ext/scx"
+    },
+    {
+      "title": "NVIDIA Topology-Aware GPU User Guide :: NVIDIA Topology-Aware GPU Selection Documentation",
+      "url": "https://docs.nvidia.com/datacenter/nvtags/latest/nvtags-user-guide/index.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "b57cc5e713dbba8167e21c5de668e7fbb9ce1bba",
+  "canonicalId": "b4b9a18ff35d10c08647c7dcd8546f0a9c80b55f",
+  "slug": "av2-reference-encoder-reaches-first-100-release",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T14:08:00Z",
+  "lang": "en",
+  "title": "AV2 Reference Encoder Reaches First 1.0.0 Release",
+  "summary": "AOMedia has tagged the first 1.0.0 release of the AV2 reference encoder in the AVM GitHub repository, marking an initial milestone for the next-generation royalty-free video codec. This release signifies progress toward a practical AV2 codec, which aims to deliver approximately 30% better compression than AV1, potentially reshaping video streaming, broadcasting, and real-time communications with higher efficiency. The current AVM software is a reference implementation for defining and testing the format, not an optimized production encoder; it still suffers from slow encoding speed and unresolved detail preservation issues, and the AV2 specification remains a draft.",
+  "score": 8,
+  "tags": [
+    "AV2",
+    "video codec",
+    "AOMedia",
+    "reference encoder"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/aomedias-av2-encoder-gets-first-1-0-0-release",
+  "originalSite": "videocardz.com",
+  "context": "AV2 is an open, royalty-free video coding format developed by the Alliance for Open Media, succeeding the widely used AV1. Work began in 2020, and prototype implementations show around 30% bitrate reduction over AV1 at similar quality. AV2 is expected to compete with the royalty-based VVC (H.266) format in the market.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AV2 (video coding format)",
+      "url": "https://en.wikipedia.org/wiki/AV2_(video_coding_format)"
+    },
+    {
+      "title": "AV 2 v1.0 Specification Released For Next-Gen Video Coding - Phoronix",
+      "url": "https://www.phoronix.com/news/AV2-1.0-Specification-Released"
+    },
+    {
+      "title": "AOMedia Announces Year-End Launch of Next Generation Video",
+      "url": "https://aomedia.org/press+releases/AOMedia-Announces-Year-End-Launch-of-Next-Generation-Video-Codec-AV2-on-10th-Anniversary/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fb0960557998f8ebed18326e7eef51b5085ff933",
+  "canonicalId": "a379346fbb24794386ebe873369522c900c39423",
+  "slug": "anthropic-mcp-协议架构漏洞波及-15-亿次下载或导致-20-万台服务器遭远程代码执行攻击",
+  "date": "2026-04-22",
+  "publishedAt": "2026-04-22T00:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic MCP 协议架构漏洞波及 15 亿次下载，或导致 20 万台服务器遭远程代码执行攻击。",
+  "summary": "OX Security 研究团队披露了 Anthropic 模型上下文协议（MCP）的一个架构级安全漏洞，源于官方 SDK 的基础设计，允许攻击者执行远程代码（RCE），可能影响超过 15 亿次下载和多达 20 万台服务器。该漏洞已产生至少 10 个 CVE 编号，涉及 LangChain、IBM LangFlow 等主流 AI 框架，但 Anthropic 拒绝了协议层面的补丁建议，并称此为“预期表现”。 该漏洞对 AI 系统构成严重的网络安全威胁，攻击者可能接管服务器、窃取 API 密钥和聊天记录等敏感数据，并危及广泛使用的 AI 框架，突显了快速发展的 AI 安全领域中的关键风险。 该漏洞源于 MCP SDK 的基础设计，允许执行任意代码，可能导致服务器被接管和数据泄露。尽管部分漏洞已修复，但 Anthropic 拒绝实施协议层面的补丁，称此行为是故意的，如果未通过其他缓解措施解决，系统可能持续暴露于风险中。",
+  "score": 9,
+  "tags": [
+    "Cybersecurity",
+    "AI Security",
+    "Vulnerability",
+    "Anthropic",
+    "RCE"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 21, 13:31"
+    }
+  ],
+  "originalUrl": "https://cybersecuritynews.com/anthropics-mcp-vulnerability/",
+  "originalSite": "cybersecuritynews.com",
+  "context": "模型上下文协议（MCP）是 Anthropic 维护的一个开源标准，用于将 AI 助手连接到外部数据源和工具，使用工具、资源和提示等核心原语。远程代码执行（RCE）是一种关键的安全漏洞，允许攻击者远程在目标系统上运行恶意代码，通常导致系统完全被控制。CVE（通用漏洞披露）是一个用于编目公开已知网络安全漏洞的系统，每个漏洞分配一个唯一标识符以便跟踪和缓解。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model Context Protocol - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+    },
+    {
+      "title": "Arbitrary code execution - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arbitrary_code_execution"
+    },
+    {
+      "title": "Common Vulnerabilities and Exposures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

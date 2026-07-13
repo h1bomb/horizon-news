@@ -1,0 +1,40 @@
+{
+  "id": "bc4060ab77a88bc8cbeebe6b16944e264b2d2ae5",
+  "canonicalId": "fbe7a7d9389239cb035542535e7bec7225ef4afd",
+  "slug": "vultronretriever-模型登顶-mteb存储节省-16-倍",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T15:22:00Z",
+  "lang": "zh",
+  "title": "VultronRetriever 模型登顶 MTEB，存储节省 16 倍",
+  "summary": "VultronRetriever 模型家族已在 HuggingFace 发布，在 MTEB 排行榜上取得第一名，索引存储缩小达 16 倍，吞吐量提高 12 倍，超越之前的 9B 级领先模型。 这一突破使得在 iPhone 等边缘设备上完全离线进行高质量检索和嵌入成为可能，将 AI 应用扩展到隐私敏感和资源受限的环境，同时降低基础设施成本。 该系列包括三个模型：Prime-8B（全球第一）、Core-4.5B（性能超越其两倍大小的模型）和 Flash-0.8B（性能超越其五倍大小的模型）。所有模型均在无污染数据集上训练，采用 Hydra 架构实现延迟交互检索，内存占用仅为同类模型的一半。",
+  "score": 8,
+  "tags": [
+    "Information Retrieval",
+    "Embedding Models",
+    "HuggingFace",
+    "Edge AI",
+    "MTEB"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/madkimchi"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
+  "originalSite": "reddit.com",
+  "context": "MTEB 是一个全面的嵌入模型基准，涵盖检索、分类和聚类等任务。Hydra 架构将晚期交互检索（类似于 ColBERT）和自回归生成统一到单个视觉语言模型中，提高了效率并减少了内存占用。VultronRetriever 模型针对视觉文档检索进行了优化，支持在边缘设备上进行离线问答和文档索引。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "VultronRetriever : Open Visual Document Retrieval Models Built for...",
+      "url": "https://blogs.vultr.com/vultronretriever"
+    },
+    {
+      "title": "vultr/VultronRetrieverCore-Qwen3.5-4.5B · Hugging Face",
+      "url": "https://huggingface.co/vultr/VultronRetrieverCore-Qwen3.5-4.5B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

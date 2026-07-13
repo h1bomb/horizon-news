@@ -1,0 +1,37 @@
+{
+  "id": "755fd75e3359b15d83cc4907e3d49189db025e55",
+  "canonicalId": "c7f8dd238b4b483cad9d7afb562ee525fa5714ff",
+  "slug": "apple-unveils-core-ai-framework-for-on-device-ai",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T18:47:00Z",
+  "lang": "en",
+  "title": "Apple Unveils Core AI Framework for On-Device AI",
+  "summary": "Apple introduced Core AI, a new framework for running AI models on-device, with tools to convert PyTorch models into the .aimodel format and optimize them for Apple silicon's CPU, GPU, and Neural Engine. Core AI could replace the older CoreML framework, enabling developers to deploy full-scale large language models locally, which may reduce reliance on cloud AI services and accelerate on-device intelligence across the Apple ecosystem. The framework includes Core AI Optimization for model preparation and Core AI PyTorch Extensions for model conversion, and is highlighted in WWDC 2026 sessions. It supports both CPU/GPU and the Neural Engine.",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "Core AI",
+    "on-device AI",
+    "PyTorch",
+    "CoreML"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hmokiguess",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48449665"
+    }
+  ],
+  "originalUrl": "https://developer.apple.com/documentation/coreai/",
+  "originalSite": "developer.apple.com",
+  "context": "Apple previously provided CoreML for on-device machine learning, but it was limited in handling large, complex models like LLMs. Core AI is designed to leverage Apple's unified memory architecture and Neural Engine to run full-scale AI models locally, offering better performance and privacy.",
+  "discussion": "Developers are excited about on-device AI's potential to disrupt cloud AI companies, as one commenter noted AI companies are rushing to IPO before the shift. Another pointed to a related Foundation model update and WWDC 2026 videos. A common question is whether Core AI completely replaces CoreML, with some viewing it as a direct successor.",
+  "references": [
+    {
+      "title": "Apple aids app development with new intelligence frameworks and ...",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "02154e647f55472cbfec0e558eb59d2ebcac9d0a",
+  "canonicalId": "8c92897bee29efc48e2374071e66ef1173d7848b",
+  "slug": "爱上-systemd-timers呼吁从-cron-迁移",
+  "date": "2026-06-03",
+  "publishedAt": "2026-06-02T09:34:00Z",
+  "lang": "zh",
+  "title": "爱上 systemd timers——呼吁从 cron 迁移",
+  "summary": "一篇名为《You Don't Love systemd Timers Enough》的博客文章主张 systemd timers 优于 cron，用于在 Linux 上调度任务，其优点包括集成日志、重启后能补跑以及更易调试。 这场讨论反映了 Linux 系统管理从 cron 等传统工具向 systemd 集成生态的广泛转变，影响管理员在现代发行版中管理定时任务的方式。 systemd timers 支持类似 cron 的 OnCalendar 语法，还提供单调定时器、随机延迟以及与 journalctl 的集成，实现统一日志记录。作者强调定时器可手动测试并能应对系统停机。",
+  "score": 8,
+  "tags": [
+    "systemd",
+    "cron",
+    "Linux",
+    "system administration",
+    "timers"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "yacin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48367904"
+    }
+  ],
+  "originalUrl": "https://blog.tjll.net/you-dont-love-systemd-timers-enough/",
+  "originalSite": "blog.tjll.net",
+  "context": "systemd 是大多数 Linux 发行版使用的初始化系统，管理服务和系统进程。定时器是 systemd 用于调度任务的功能，相比传统 cron 守护进程具有更好的日志记录、依赖处理和补跑等优势。",
+  "discussion": "评论者分享了不同体验：有人称赞定时器在重启后的弹性和与 journalctl 的集成，而有人指出 cron 的简洁性和可预测的 PATH 处理仍然有吸引力。作者与反馈互动，承认双方都有合理之处。",
+  "references": [
+    {
+      "title": "systemd/Timers - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Systemd/Timers"
+    },
+    {
+      "title": "Schedule Tasks with Systemd Timers on Linux - LinuxConfig.org Configure Systemd Timers on Linux [With Examples] Working with systemd Timers | SUSE Linux Enterprise Server 15 SP7 Systemd Timers: A Practical Guide to Replacing Cron on Linux Working with Timers in Systemd - docs.oracle.com systemd.timer - freedesktop.org",
+      "url": "https://linuxconfig.org/how-to-schedule-tasks-with-systemd-timers-in-linux"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "97852a7df7bd974e71da1d9b10fbfdb4487414e6",
+  "canonicalId": "86c6231664fc90d1ffa4896d4c2b23ccb376b117",
+  "slug": "mistral-ai-releases-mistral-small-4-a-119b-parameter-open-source-model-with-unified-reasoning-multimodal-and-coding-capabilities",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-16T23:41:00Z",
+  "lang": "en",
+  "title": "Mistral AI releases Mistral Small 4, a 119B-parameter open-source model with unified reasoning, multimodal, and coding capabilities.",
+  "summary": "Mistral AI has released Mistral Small 4, a new 119-billion-parameter open-source model under the Apache 2.0 license. It is the first Mistral model to combine the capabilities of their flagship models—Magistral for reasoning, Pixtral for multimodal tasks, and Devstral for agentic coding—into a single versatile model. This release is significant because it offers a powerful, unified open-source alternative to proprietary models, potentially lowering barriers for developers and researchers. By combining reasoning, multimodal, and coding capabilities in one Apache 2.0-licensed model, it could accelerate innovation in AI applications across various domains. The model uses a Mixture-of-Experts (MoE) architecture with 6 billion active parameters, supports a `reasoning_effort` parameter (with 'none' or 'high' settings), and is available as a 242GB download on Hugging Face. However, the API currently lacks a documented way to set the reasoning effort, and there is no base model release, only the fine-tuned version.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Open Source",
+    "Machine Learning",
+    "Mistral AI",
+    "Large Language Models"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Mixture-of-Experts (MoE) is a machine learning architecture that makes models more efficient by dividing them into specialized components called 'experts', where only relevant experts are activated per task. The Apache 2.0 license is a permissive open-source license that allows free use, modification, and distribution of software. The `reasoning_effort` parameter, seen in models like OpenAI's O1, controls how many tokens are allocated to the reasoning process, affecting output verbosity and depth.",
+  "discussion": "Community sentiment is mixed, with users humorously noting the irony of a 'small' 119B model and expressing concerns about GPU requirements. Some praise its potential as a fast, capable open-source alternative to ChatGPT, while others point out it lags behind competitors like Qwen3.5-122B in benchmarks and lacks a base model release.",
+  "references": [
+    {
+      "title": "Mixture of experts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    },
+    {
+      "title": "Apache License - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apache_License"
+    },
+    {
+      "title": "O1's 'reasoning effort' parameter - API - OpenAI",
+      "url": "https://community.openai.com/t/o1s-reasoning-effort-parameter/1062308"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

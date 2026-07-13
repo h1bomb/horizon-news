@@ -1,0 +1,44 @@
+{
+  "id": "9843bc4cb1c7a7adbd24045d07796babbc5f4a2c",
+  "canonicalId": "dee42863dfefcde6db6751c3b0725f4550647fa1",
+  "slug": "sglang-v0510rc0-introduces-major-performance-optimizations-and-new-features",
+  "date": "2026-03-29",
+  "publishedAt": "2026-03-28T05:58:00Z",
+  "lang": "en",
+  "title": "SGLang v0.5.10rc0 introduces major performance optimizations and new features",
+  "summary": "SGLang released version 0.5.10rc0, which introduces piecewise CUDA graph as the default execution mode, Elastic EP for partial failure tolerance in MoE models, HiSparse sparse attention for long-context inference, and significant updates to the diffusion model component with new model support and macOS platform expansion. This release significantly improves inference throughput and system resilience for large language models, particularly benefiting deployments of complex models like DeepSeek MoE and long-context workloads, while expanding accessibility through macOS support and enhanced diffusion capabilities. The release includes FlashInfer MXFP8 kernel support for mixed-precision FP8 inference, Transformers 5.3.0 upgrade for latest model architectures, LoRA support for MoE layers with JIT alignment kernels, and native MLX backend for Apple Silicon Macs. It's a release candidate rather than a stable version.",
+  "score": 7,
+  "tags": [
+    "inference-optimization",
+    "gpu-computing",
+    "large-language-models",
+    "machine-learning-systems",
+    "model-serving"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Kangyan-Zhou"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10rc0",
+  "originalSite": "github.com",
+  "context": "SGLang is a high-performance inference engine for large language models that optimizes execution on GPU systems. Piecewise CUDA graph is a technique that splits computation graphs into pieces to reduce memory overhead and improve throughput for models with complex control flow. Elastic EP provides partial failure tolerance by redistributing expert weights when a GPU fails in Mixture-of-Experts models. HiSparse is a sparse attention backend that reduces computational requirements for long-context inference through sparsity-aware attention mechanisms.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Piecewise CUDA Graph — SGLang",
+      "url": "https://docs.sglang.io/advanced_features/piecewise_cuda_graph.html"
+    },
+    {
+      "title": "elastic _ ep - vLLM",
+      "url": "https://docs.vllm.ai/en/stable/api/vllm/distributed/elastic_ep/"
+    },
+    {
+      "title": "Dynamic Scheduling for Efficient Hierarchical Sparse Matrix...",
+      "url": "https://people.mpi-inf.mpg.de/~rzayer/pappe/HiSparseSPMV.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

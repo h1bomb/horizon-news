@@ -1,0 +1,44 @@
+{
+  "id": "8797748fbf10b68963e0ff1f789721bc46192b5e",
+  "canonicalId": "28930664182dceb9f3a92fc5fe924284c4fbe0d4",
+  "slug": "anthropic-详解-claude-产品沙箱技术",
+  "date": "2026-05-31",
+  "publishedAt": "2026-05-30T21:36:00Z",
+  "lang": "zh",
+  "title": "Anthropic 详解 Claude 产品沙箱技术",
+  "summary": "Anthropic 发布了一篇详细博文，解释了如何通过 gVisor、Seatbelt 和 Bubblewrap 等技术在 Claude.ai、Claude Code 和 Cowork 中对 Claude 进行沙箱隔离。 这份文档通过提供详细的沙箱策略信息，弥补了 AI 沙箱中常见的信任缺失，帮助用户和开发者评估安全风险，增强部署智能代理的信心。 Claude.ai 使用 gVisor；macOS 上的 Claude Code 使用 Apple 的 Seatbelt 框架，Linux 上使用 Bubblewrap；Claude Cowork 运行在完整虚拟机中（macOS 上使用 Apple Virtualization，Windows 上使用 HCS）。文章还描述了过去的风险，如 api.anthropic.com/v1/files 的泄露途径。",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "Claude",
+    "sandboxing",
+    "security",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "沙箱是一种安全技术，通过隔离应用程序防止其影响主机系统或访问未授权数据。gVisor 是谷歌开发的开源应用内核，在用户空间实现多个 Linux 系统调用，提供比传统容器更强的隔离。Seatbelt 是 macOS 上的 Apple 沙箱框架，Bubblewrap 是用于 Flatpak 等工具的轻量级 Linux 沙箱。理解这些方法有助于读者体会 Anthropic 采用的分层安全策略。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "gVisor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GVisor"
+    },
+    {
+      "title": "Bubblewrap - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Bubblewrap"
+    },
+    {
+      "title": "macOS Seatbelt - Nono Docs",
+      "url": "https://nono.sh/docs/cli/internals/seatbelt"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

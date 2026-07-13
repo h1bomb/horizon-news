@@ -1,0 +1,43 @@
+{
+  "id": "4489df4201986ea208b4a8318711a976961d2aab",
+  "canonicalId": "6004fb5383218ff057abcc23cb80e64165b5f185",
+  "slug": "llamacpp-通过-mtmd-添加视频输入支持",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T13:51:00Z",
+  "lang": "zh",
+  "title": "llama.cpp 通过 mtmd 添加视频输入支持",
+  "summary": "ngxson 提交的拉取请求 #24269 通过 mtmd 工具为 llama.cpp 添加了视频输入支持，使得 Gemma 和 Qwen 等多模态模型能够直接在本地硬件上处理视频内容。 这将近乎 matlab.cpp 的多模态能力从图像扩展到视频，大大拓展了本地 AI 应用的范围，例如视频字幕、问答和分析，无需依赖云端。 mtmd 工具专为多模态处理设计，现在可接受视频文件作为输入，可能将帧转换为底层 LLM 的 token。此整合紧跟此前添加的图像支持，并与原生支持视频理解的 Gemma 4 等模型保持一致。",
+  "score": 8,
+  "tags": [
+    "llama.cpp",
+    "multimodal",
+    "video",
+    "AI inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/jacek2023"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u08j3q/mtmd_add_video_input_support_by_ngxson_pull/",
+  "originalSite": "reddit.com",
+  "context": "llama.cpp 是一个流行的开源库，用 C/C++ 编写，用于在消费级硬件上本地运行大型语言模型。最近它通过 llava 和 mtmd 等工具添加了图像输入的多模态支持。mtmd 工具专门处理多种模态，现在扩展到视频，使用户能够直接将视频文件输入兼容模型进行推理。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "llama . cpp /docs/ multimodal .md at master · ggml-org/ llama . cpp · GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal.md"
+    },
+    {
+      "title": "Trying out llama.cpp’s new vision support",
+      "url": "https://simonwillison.net/2025/May/10/llama-cpp-vision/"
+    },
+    {
+      "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+      "url": "https://huggingface.co/blog/gemma4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

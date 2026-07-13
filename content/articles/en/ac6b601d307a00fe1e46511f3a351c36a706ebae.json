@@ -1,0 +1,40 @@
+{
+  "id": "ac6b601d307a00fe1e46511f3a351c36a706ebae",
+  "canonicalId": "9da38b12f212c7296f425fa35598abff694249de",
+  "slug": "six-critical-u-boot-fit-signature-verification-vulnerabilities-discovered",
+  "date": "2026-07-11",
+  "publishedAt": "2026-07-11T08:32:00Z",
+  "lang": "en",
+  "title": "Six Critical U-Boot FIT Signature Verification Vulnerabilities Discovered",
+  "summary": "Binarly disclosed six vulnerabilities in U-Boot's FIT signature verification code, two enabling arbitrary code execution and four causing denial of service. The flaws affect over 50 stable versions dating back to 2013.07 and numerous downstream branches. Attackers can execute malicious code before the operating system boots, bypassing all security measures and potentially installing persistent firmware malware. For systems with remote firmware update capabilities like BMCs, exploitation requires no physical access, posing a severe threat to embedded and server ecosystems. The vulnerabilities reside in how untrusted FIT images are processed before signature validation completes. Remote exploitation is possible via malicious firmware updates, and while patches have been accepted into U-Boot, each hardware vendor must integrate and distribute them—legacy devices may never receive fixes.",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "u-boot",
+    "firmware",
+    "bootloader"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+  "originalSite": "bleepingcomputer.com",
+  "context": "U-Boot is a widely used open-source bootloader for embedded systems. FIT (Flattened Image Tree) is its standard packaging format for boot images, and signature verification ensures image authenticity. BMCs (Baseboard Management Controllers) manage server firmware updates remotely.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Six U-Boot FIT Signature Verification Flaws Enable Code Execution and DoS Attacks",
+      "url": "https://cybersecuritynews.com/u-boot-fit-signature-verification/"
+    },
+    {
+      "title": "U-Boot FIT Signature Verification — Das U-Boot unknown version documentation",
+      "url": "https://docs.u-boot.org/en/latest/usage/fit/signature.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

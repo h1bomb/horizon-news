@@ -1,0 +1,44 @@
+{
+  "id": "5d935c6622e470d80189b50610879d529688cbb3",
+  "canonicalId": "c5116a85e2e954e4af0beb833ae0d97771bd05f5",
+  "slug": "axios-npm-维护者账号遭劫持恶意版本注入远程控制木马-5d935c66",
+  "date": "2026-04-02",
+  "publishedAt": "2026-04-02T00:00:00Z",
+  "lang": "zh",
+  "title": "axios npm 维护者账号遭劫持，恶意版本注入远程控制木马",
+  "summary": "2026 年 3 月 31 日，安全机构 StepSecurity 发现主流 JavaScript 库 axios 的 npm 维护者账号遭劫持，攻击者手动发布了恶意版本 axios@1.14.1 和 axios@0.30.4。这些版本通过注入虚假依赖 plain-crypto-js 触发恶意脚本，针对 Windows、macOS 和 Linux 系统植入远程访问木马（RAT）。 这一事件凸显了对一个拥有数百万依赖项的广泛使用库的重大供应链攻击，可能危及全球无数应用程序和系统。它暴露了 npm 账户安全漏洞以及绕过 GitHub Actions 等自动化 CI/CD 流程的风险，可能导致恶意软件广泛传播。 攻击者绕过了正常的 GitHub Actions CI/CD 流程手动发布恶意版本，通过连接到特定命令与控制服务器针对多种操作系统。虚假依赖 plain-crypto-js 在攻击前几分钟才发布，表明这是一次有组织的规避检测行为。",
+  "score": 9,
+  "tags": [
+    "security",
+    "supply-chain-attack",
+    "npm",
+    "javascript",
+    "axios"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 1, 05:25"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/40637",
+  "originalSite": "t.me",
+  "context": "Axios 是一个流行的 JavaScript 库，用于在 Web 和 Node.js 应用程序中发起 HTTP 请求，通常通过 npm（Node 包管理器）集成。npm 账户劫持涉及攻击者通过域名接管或社会工程等方法未经授权访问维护者账户，以发布恶意软件包。GitHub Actions 是一个自动化软件工作流程的 CI/CD 工具，绕过它可能让攻击者无需标准安全检查即可注入代码。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Supply Chain Attack on Axios Pulls Malicious Dependency from...",
+      "url": "https://socket.dev/blog/axios-npm-package-compromised"
+    },
+    {
+      "title": "npm Account Takeovers are a Growing Malware Trend | Blog |",
+      "url": "https://www.endorlabs.com/learn/npm-account-takeovers-are-a-growing-malware-trend"
+    },
+    {
+      "title": "GitHub Actions CI / CD : Complete Guide to Workflows, Runners, and...",
+      "url": "https://inventivehq.com/blog/github-actions-cicd-guide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

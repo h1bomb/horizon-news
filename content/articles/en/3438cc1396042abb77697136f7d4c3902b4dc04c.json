@@ -1,0 +1,43 @@
+{
+  "id": "3438cc1396042abb77697136f7d4c3902b4dc04c",
+  "canonicalId": "25031d31555c6efe6b3c717583312f56767f5f40",
+  "slug": "teamviewer-1314-to-end-public-internet-connections-by-2026",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-25T05:43:00Z",
+  "lang": "en",
+  "title": "TeamViewer 13/14 to End Public Internet Connections by 2026",
+  "summary": "TeamViewer announced that versions 13 and 14 will reach end of life on October 31, 2026, after which they will no longer support public internet connections via official servers, only local network functionality. This forces users who purchased perpetual licenses for these versions to switch to a subscription model to continue using remote access over the internet, raising concerns about vendor lock-in and the devaluation of perpetual licenses. Perpetual license holders cannot upgrade to newer versions for free; TeamViewer offers migration discounts but does not provide a free path. The company cites security improvements as the reason for the change.",
+  "score": 8,
+  "tags": [
+    "TeamViewer",
+    "software licensing",
+    "remote desktop",
+    "EOL"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.landiannews.com/archives/112799.html",
+  "originalSite": "landiannews.com",
+  "context": "TeamViewer is a popular remote desktop software that historically offered perpetual licenses. In recent years, the company has shifted to a subscription-only model, and older versions have been phased out. Version 12 support ended earlier, and now versions 13 and 14 are being deprecated.",
+  "discussion": "Community discussions on Spiceworks and TeamViewer forums express frustration, with users criticizing the forced migration and high subscription costs. Some suggest alternatives like AnyDesk or RustDesk.",
+  "references": [
+    {
+      "title": "TeamViewer Product Lifecycle Policies",
+      "url": "https://www.teamviewer.com/en/global/support/knowledge-base/teamviewer-classic/licensing/subscription/teamviewer-product-lifecycle-policies/"
+    },
+    {
+      "title": "TeamViewer Product Lifecycle Policies - TeamViewer Support",
+      "url": "https://community.teamviewer.com/English/kb/articles/49188-teamviewer-product-lifecycle-policies"
+    },
+    {
+      "title": "TeamViewer Accountability - Water Cooler - Spiceworks Community",
+      "url": "https://community.spiceworks.com/t/teamviewer-accountability/1165153"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

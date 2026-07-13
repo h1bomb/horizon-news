@@ -1,0 +1,39 @@
+{
+  "id": "3e953c117d17cf4998aa34b050774a97dcf58935",
+  "canonicalId": "1789ad810cd31088294e5f9a953de267f6b4e592",
+  "slug": "linux-kernel-removes-read-only-transparent-huge-pages-for-page-cache-due-to-memory-subsystem-changes",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-10T13:26:00Z",
+  "lang": "en",
+  "title": "Linux kernel removes read-only transparent huge pages for page cache due to memory subsystem changes.",
+  "summary": "The Linux kernel is removing support for read-only transparent huge pages (THP) in the page cache, a feature introduced in 2019 that was initially planned to gain writable support but never did. This change reflects underlying architectural shifts in the memory subsystem, with the configuration variable CONFIG_READ_ONLY_THP_FOR_FS being deprecated. This removal signifies a shift in kernel development priorities, as the feature was experimental and limited to executable text sections, impacting performance optimizations for file-backed memory. It affects distributions that enabled it and highlights how evolving memory management can deprecate incomplete features. The feature only worked with memory areas marked VM_DENYWRITE, typically executable text sections, and required an madvise() call to enable THP merging. If a file was opened for write access while read-only THPs existed, the kernel would evict all pages from the cache and restart with base pages.",
+  "score": 7,
+  "tags": [
+    "Linux Kernel",
+    "Memory Management",
+    "Transparent Huge Pages",
+    "Systems Programming"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1066582/",
+  "originalSite": "lwn.net",
+  "context": "Transparent huge pages (THP) automatically combine base pages into larger 2MB pages to reduce memory-management overhead and TLB pressure, initially supporting only anonymous memory like program data. The page cache handles file-backed memory but lacked huge-page awareness, making THP integration challenging. Kconfig is a configuration system in the Linux kernel used to manage build options and dependencies.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Transparent Hugepage Support — The Linux Kernel documentation",
+      "url": "https://www.kernel.org/doc/html/latest/admin-guide/mm/transhuge.html"
+    },
+    {
+      "title": "Exploring the Linux kernel: The secrets of Kconfig/kbuild |",
+      "url": "https://opensource.com/article/18/10/kbuild-and-kconfig"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

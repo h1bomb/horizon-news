@@ -1,0 +1,40 @@
+{
+  "id": "882527448cb81f2716fa5770c2fdf917050c4e9f",
+  "canonicalId": "86c4c1bff6e3864b824175899a02661e5262d5f6",
+  "slug": "llms-exhibit-model-specific-name-biases",
+  "date": "2026-06-16",
+  "publishedAt": "2026-06-15T17:07:00Z",
+  "lang": "en",
+  "title": "LLMs exhibit model-specific name biases",
+  "summary": "Researchers discovered that large language models have strong, version-specific preferences for certain character names like Elena Vasquez and Marcus Chen, which appear consistently across diverse AI-generated content. This finding reveals systematic, model-specific biases in LLMs that have practical implications for AI-generated content detection and understanding model behavior. These biased names appear as correlated ensembles across dozens of websites, portraying characters as volcano experts, podcast hosts, and authors of thousands of papers. The research emerged as a side finding from a model diffing method called CDD.",
+  "score": 8,
+  "tags": [
+    "LLMs",
+    "AI bias",
+    "model behavior",
+    "character names",
+    "arXiv paper"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/CebulkaZapiekana"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/",
+  "originalSite": "reddit.com",
+  "context": "Large language models (LLMs) are AI systems trained on vast text data to generate human-like text. They can exhibit biases due to patterns in training data. The CDD (model diffing) method aims to compare model behaviors, and in this case, it uncovered name biases that are specific to each model version.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Stage-Wise Model Diffing",
+      "url": "https://transformer-circuits.pub/2024/model-diffing/"
+    },
+    {
+      "title": "Ensemble LLMs with LLM-Blender. LLM-Blender... | Medium",
+      "url": "https://medium.com/@dariussingh/ensemble-llms-with-llm-blender-bebb9eb0e6cf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

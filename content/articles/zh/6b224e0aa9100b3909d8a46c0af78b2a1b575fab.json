@@ -1,0 +1,44 @@
+{
+  "id": "6b224e0aa9100b3909d8a46c0af78b2a1b575fab",
+  "canonicalId": "1bf0a3becbcbdaa14f62b430ff01b445e5ca13a4",
+  "slug": "glm-51-在智能体基准测试中以约三分之一成本达到接近-opus-的性能",
+  "date": "2026-04-11",
+  "publishedAt": "2026-04-11T00:00:00Z",
+  "lang": "zh",
+  "title": "GLM 5.1 在智能体基准测试中以约三分之一成本达到接近 Opus 的性能。",
+  "summary": "智谱 AI 的大型语言模型 GLM 5.1 在基于 OpenClaw 的智能体基准测试中，以每次运行约 0.4 美元的成本达到与 Opus 4.6 相当的性能，而 Opus 的成本约为 1.2 美元。它在测试中超越了所有其他模型，成为 OpenClaw 等智能体任务的顶级选择。 这一突破显著提升了智能体 AI 的成本效益，使高性能模型在自主助手和复杂任务自动化等实际应用中更易获取。它挑战了 Opus 等昂贵模型的主导地位，可能加速开源或低成本替代方案在 AI 智能体生态系统中的采用。 测试方法在真实环境中使用 OpenClaw 处理用户提交的任务，采用类似 Chatbot Arena 的 LLM-as-a-judge 方法，以避免静态基准测试优化问题。Qwen 3.6 也表现良好，但目前 OpenRouter 上不支持提示缓存，这推高了其成本；若支持缓存，其成本可能达到与 minimax m2.7 相似的水平。",
+  "score": 8,
+  "tags": [
+    "AI Agents",
+    "Benchmarking",
+    "Cost Efficiency",
+    "Large Language Models",
+    "Open Source AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 10, 18:23"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1shus54/glm_51_crushes_every_other_model_except_opus_in/",
+  "originalSite": "reddit.com",
+  "context": "GLM 5.1 是智谱 AI 开发的 GLM 系列中最强大的模型，专为复杂系统工程和长视野智能体任务设计。OpenClaw 是一个免费开源的自主 AI 智能体，通过 LLM 执行任务，使用消息平台作为其界面。智能体基准测试与经典 ML 基准测试不同，强调真实场景中的多步交互、环境操作和结果验证，通常使用 LLM-as-a-Judge 方法进行评估。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GLM-5 | SGLang Cookbook",
+      "url": "https://cookbook.sglang.io/autoregressive/GLM/GLM-5"
+    },
+    {
+      "title": "OpenClaw - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenClaw"
+    },
+    {
+      "title": "Agentic Benchmarks",
+      "url": "https://www.emergentmind.com/topics/agentic-benchmarks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "318e80b2c3972fee4ebe3ef578b6a248b0718e47",
+  "canonicalId": "16961d9379c6e059d84365da6803cf27bc12f5cc",
+  "slug": "openai-models-to-launch-on-amazon-bedrock",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-28T19:24:00Z",
+  "lang": "en",
+  "title": "OpenAI Models to Launch on Amazon Bedrock",
+  "summary": "OpenAI has announced a partnership with AWS to make its models, including GPT-4o and Codex, available through Amazon Bedrock, a fully managed service for building generative AI applications. The collaboration also introduces Amazon Bedrock Managed Agents powered by OpenAI. This move significantly expands OpenAI's enterprise reach by leveraging AWS's vast customer base and trusted infrastructure, especially in regulated industries. It also intensifies competition with Anthropic, whose models are already available on Bedrock, and challenges Microsoft's exclusive position as OpenAI's primary cloud partner. OpenAI models on Bedrock will be accessible via a unified API, with options for customization and security controls. The partnership includes both OpenAI's proprietary models and open-weight models, though exact pricing and availability dates have not been disclosed.",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "AWS",
+    "Bedrock",
+    "Enterprise AI",
+    "Cloud Computing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "translocator"
+    }
+  ],
+  "originalUrl": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+  "originalSite": "stratechery.com",
+  "context": "Amazon Bedrock is a fully managed service launched in 2023 that provides access to foundation models from multiple AI companies via a single API. It competes with Microsoft Azure AI Foundry and Google Cloud's Vertex AI. Previously, OpenAI models were primarily available through Microsoft Azure, limiting enterprise adoption for organizations with existing AWS commitments.",
+  "discussion": "Community comments highlight that OpenAI's absence from Bedrock previously drove enterprises toward Anthropic's Claude due to trust and privacy concerns. Some users note that inference results may vary across platforms due to optimizations, adding non-determinism. Others speculate this move is a direct response to losing enterprise ground to Anthropic and Microsoft's evolving relationship.",
+  "references": [
+    {
+      "title": "Amazon Bedrock",
+      "url": "https://en.wikipedia.org/wiki/Amazon_Bedrock"
+    },
+    {
+      "title": "OpenAI models , Codex, and Managed Agents come to AWS | OpenAI",
+      "url": "https://openai.com/index/openai-on-aws/"
+    },
+    {
+      "title": "OpenAI 's open weight models now available on AWS",
+      "url": "https://www.aboutamazon.com/news/aws/openai-models-amazon-bedrock-sagemaker"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "3817dc4e2b4beea27cec3e8d751747054fba823b",
+  "canonicalId": "065047e21dc358331dc431a2d80e7db6e64fc8ad",
+  "slug": "claude-code-在读取提示前消耗-33-万-tokenopencode-仅用-7-千",
+  "date": "2026-07-12",
+  "publishedAt": "2026-07-12T18:25:00Z",
+  "lang": "zh",
+  "title": "Claude Code 在读取提示前消耗 3.3 万 token；OpenCode 仅用 7 千",
+  "summary": "这种 token 低效直接增加了开发者使用 Claude Code 的成本（按 token 付费）。研究结果还引发了对 AI 编码工具中商业动机和设计选择的广泛质疑，尤其是在智能体编码越来越流行的背景下。 开销归因于 Claude Code 的缓存策略和框架 token 使用，包括较大的系统提示以及激进的工具调用。社区还报告称，Claude Code 启动的子智能体可能在任务完成前就迅速耗尽预算。",
+  "score": 8,
+  "tags": [
+    "AI coding tools",
+    "token efficiency",
+    "Claude Code",
+    "OpenCode",
+    "agentic coding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "systima",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48883275"
+    }
+  ],
+  "originalUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+  "originalSite": "systima.ai",
+  "context": "智能体编码工具是能够自主执行多步骤软件开发任务的 AI 系统，通过将目标分解为步骤、调用工具并迭代直至完成。此处的“框架”是指管理工具使用和通信的编排层；低效的框架会在模型看到用户请求之前就消耗大量 token 于系统提示、上下文缓存和不必要的工具调用。",
+  "discussion": "评论者普遍认为 Claude Code 的 token 开销过高，有人将其归因于子智能体编排的低效或 Anthropic 的盈利动机。也有人指出问题不仅限于 Claude Code，观察到“token 通胀”的普遍趋势——工具随时间推移不断增加 token 消耗。文章作者承诺将通过更严格的测试（包括定性结果）进行后续跟进。",
+  "references": [
+    {
+      "title": "Agentic Coding Tools : 5 AI Assistants That Actually Work (And 3 That...",
+      "url": "https://www.linkedin.com/pulse/agentic-coding-tools-5-ai-assistants-actually-work-3-dont-kuhnicai-8pnwe"
+    },
+    {
+      "title": "How to Measure AI Agent Token Usage | Tokenade",
+      "url": "https://tokenade.net/en/articles/measure-agent-token-usage"
+    },
+    {
+      "title": "Stop Your AI Agent From Bleeding Tokens . | Level Up Coding",
+      "url": "https://levelup.gitconnected.com/stop-your-ai-agent-from-bleeding-tokens-start-building-harnesses-b855ce210a9b"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

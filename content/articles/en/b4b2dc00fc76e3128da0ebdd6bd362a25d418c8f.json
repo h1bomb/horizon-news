@@ -1,0 +1,40 @@
+{
+  "id": "b4b2dc00fc76e3128da0ebdd6bd362a25d418c8f",
+  "canonicalId": "81d63fe2ed2dd58740d064870f2dbf74e9baf6e5",
+  "slug": "llama-8b-matches-70b-on-multi-hop-qa-with-structured-prompting-and-graph-compression",
+  "date": "2026-03-22",
+  "publishedAt": "2026-03-21T23:17:00Z",
+  "lang": "en",
+  "title": "Llama 8B matches 70B on multi-hop QA with structured prompting and graph compression",
+  "summary": "A research experiment demonstrated that Llama 3.1 8B, when enhanced with structured chain-of-thought prompting and graph-based context compression, matches or exceeds the performance of Llama 3.3 70B on multi-hop question answering benchmarks like HotpotQA, MuSiQue, and 2WikiMultiHopQA, achieving this at roughly 12x lower cost on Groq hardware. This breakthrough significantly advances model efficiency by enabling smaller, cheaper models to perform complex reasoning tasks previously requiring much larger models, potentially reducing deployment costs and energy consumption in AI applications like retrieval-augmented generation (RAG) systems. The approach uses structured chain-of-thought to decompose questions into graph query patterns and compresses retrieved context by ~60% via graph traversal without extra LLM calls, addressing the reasoning bottleneck where 73-84% of errors occur; it was validated on 500 questions per benchmark and also works with LightRAG.",
+  "score": 9,
+  "tags": [
+    "AI/ML",
+    "Retrieval-Augmented Generation",
+    "Multi-Hop QA",
+    "Model Efficiency",
+    "Graph RAG"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Greedy-Teach1533"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s05thz/llama_8b_matching_70b_on_multihop_qa_with/",
+  "originalSite": "reddit.com",
+  "context": "Multi-hop question answering (QA) requires models to reason across multiple pieces of information, often using benchmarks like HotpotQA to evaluate complex queries. Retrieval-augmented generation (RAG) enhances LLMs by retrieving external knowledge, with Graph RAG (e.g., KET-RAG) structuring data into knowledge graphs for better retrieval. Structured chain-of-thought prompting guides models to break down problems step-by-step, improving reasoning accuracy.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2502.09304] KET-RAG: A Cost-Efficient Multi-Granular ... Welcome to GraphRAG - GitHub Pages GitHub - waetr/KET-RAG KET-RAG: A Cost-Efficient Multi-Granular Indexing Framework ... KET-RAG - comp.nus.edu.sg KET-RAG: Graphrag And Knowledge Graphs | AI Engineering - algomaster.io",
+      "url": "https://arxiv.org/abs/2502.09304"
+    },
+    {
+      "title": "Chain-of-Thought Prompting",
+      "url": "https://learnprompting.org/docs/intermediate/chain_of_thought"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

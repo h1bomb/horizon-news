@@ -1,0 +1,44 @@
+{
+  "id": "357cd674b3f0c40b78d5268ab08057e8def50461",
+  "canonicalId": "62bfdb14f3210c3078a3a5f3a62de36c960673b3",
+  "slug": "qwen-35-27b-achieves-11m-toks-on-b200-gpus-with-vllm-optimizations",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-26T19:49:00Z",
+  "lang": "en",
+  "title": "Qwen 3.5 27B achieves 1.1M tok/s on B200 GPUs with vLLM optimizations",
+  "summary": "A team achieved an inference speed of 1,103,941 tokens per second for the Qwen 3.5 27B dense model on a cluster of 12 nodes with 96 B200 GPUs using vLLM v0.18.0, with key optimizations including FP8 KV cache, MTP-1 speculative decoding, and a reduced context window of 4K. All configurations and details are shared on GitHub, as disclosed by a Google Cloud employee in a Medium article. This demonstrates extreme high-performance inference capabilities, pushing the boundaries of large language model serving efficiency and scalability, which is crucial for real-time applications like chatbots, document processing, and AI assistants. It highlights the practical impact of optimization techniques like FP8 quantization and speculative decoding in reducing latency and resource costs for enterprise deployments. The speed gain from 9,500 to 95K tokens per node was achieved through four changes: using data parallelism (DP=8) over tensor parallelism (TP=8), reducing the context window from 131K to 4K, enabling FP8 KV cache, and implementing MTP-1 speculative decoding, with the latter being critical for GPU utilization. Scaling efficiency was high at 97.1% for 8 nodes and 96.5% for 12 nodes, but the Inference Gateway with KV-cache-aware routing added 35% overhead and was not used.",
+  "score": 8,
+  "tags": [
+    "LLM Inference",
+    "High-Performance Computing",
+    "GPU Optimization",
+    "vLLM",
+    "Model Serving"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "m4r1k_"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s4hudr/qwen_35_27b_at_11m_toks_on_b200s_all_configs_on/",
+  "originalSite": "reddit.com",
+  "context": "vLLM is an open-source inference engine developed at UC Berkeley, known for its continuous batching and efficient memory management to boost LLM throughput. FP8 KV cache is a quantization technique that reduces the memory footprint of key-value caches in transformers, while speculative decoding (like MTP-1) predicts multiple tokens ahead to accelerate generation, though it may trade off accuracy for speed. The B200 is NVIDIA's latest GPU architecture, designed for high-performance AI workloads with advanced tensor cores and memory bandwidth.",
+  "discussion": "Community discussion shows engaged technical debate, with users questioning the 14 GB FP8 model weight claim, noting that official Hugging Face models are around 30.9 GB, and some expressing skepticism about the practicality of such high speeds for real-world applications. Others highlighted trade-offs, such as the reduced context window limiting use cases, and shared their own experiences with similar setups, including challenges in scaling across nodes with Infiniband.",
+  "references": [
+    {
+      "title": "FP8 E4M3 KV Cache — vLLM",
+      "url": "https://docs.vllm.ai/en/v0.4.1/quantization/fp8_e4m3_kvcache.html"
+    },
+    {
+      "title": "Welcome to vLLM — vLLM",
+      "url": "https://docs.vllm.ai/en/v0.8.1/index.html"
+    },
+    {
+      "title": "Efficient LLM Serving with MTP: DeepSeek V3 and SGLang on AMD",
+      "url": "https://rocm.blogs.amd.com/software-tools-optimization/mtp/README.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

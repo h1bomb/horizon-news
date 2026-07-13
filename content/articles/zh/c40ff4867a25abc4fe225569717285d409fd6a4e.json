@@ -1,0 +1,44 @@
+{
+  "id": "c40ff4867a25abc4fe225569717285d409fd6a4e",
+  "canonicalId": "d07b73afce6c0c58ac8c86269cea2b545a367bfa",
+  "slug": "llm-生成的-ext4-驱动在-openbsd-引发许可争议",
+  "date": "2026-03-27",
+  "publishedAt": "2026-03-27T00:00:00Z",
+  "lang": "zh",
+  "title": "LLM 生成的 ext4 驱动在 OpenBSD 引发许可争议",
+  "summary": "2026 年 3 月 17 日，Thomas de Grivel 向 OpenBSD 邮件列表提交了一个由 LLM 生成的 ext4 文件系统实现，声称其使用 ChatGPT 和 Claude-code 编写，未阅读 Linux 源代码，但该实现不支持日志功能，且版权状态不明确。 这一事件凸显了 AI 生成代码与开源许可之间日益加剧的紧张关系，特别是对于像 OpenBSD 这样需要明确版权所有权才能分发代码的项目，可能为软件开发中如何处理 LLM 贡献设定先例。 该实现提供读写访问并通过 e2fsck 检查器，但不支持日志功能，这是 ext4 的一个关键特性；代码包含版权声明但未提及其 AI 来源，引发了关于训练数据可能导致 GPL 污染的问题。",
+  "score": 8,
+  "tags": [
+    "Open Source",
+    "AI Ethics",
+    "Filesystems",
+    "Software Licensing",
+    "LLM Code Generation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Mar 26, 14:35"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064541/",
+  "originalSite": "lwn.net",
+  "context": "ext4 是 Linux 中广泛使用的日志文件系统，作为 ext3 的演进版本，具有基于区间的分配和向后兼容等特性。像 GPL 这样的 Copyleft 许可证要求衍生作品采用相同条款许可，这可能与 OpenBSD 等项目使用的宽松许可证冲突。LLM 生成的代码在版权所有权方面面临法律不确定性，因为现行法律未明确将版权分配给 AI 输出或其用户。",
+  "discussion": "社区成员对许可污染表示担忧，Christian Schulte 指出 ext4 文档常指向 GPL 许可的代码，可能引发许可问题。Theo de Raadt 承认为实现互操作性而重新实现是法律允许的，但强调 AI 生成代码的版权状态不明确，由于分发要求，不适合 OpenBSD。",
+  "references": [
+    {
+      "title": "An introduction to Linux's EXT4 filesystem - Opensource.com Chapter 31. Getting started with an ext4 file system - Red Hat Ext4 - ArchWiki EXT4 File System | cilium/linux | DeepWiki ext4 Filesystem Implementation - projectlighthouse ext4 (5) — Linux manual page - man7.org ext4 (5) — Linux manual page - man7.org Chapter 31. Getting started with an ext4 file system - Red Hat ext4 (5) — Linux manual page - man7.org ext4 (5) - Linux manual page - man7.org",
+      "url": "https://opensource.com/article/17/5/introduction-ext4-filesystem"
+    },
+    {
+      "title": "Wikipedia:Large language models and copyright - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Large_language_models_and_copyright"
+    },
+    {
+      "title": "Copyleft - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Copyleft"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1ba14dcd0183a3aa0f412036ce82a5680ce09ffa",
+  "canonicalId": "258833399961547eefd3db140afd4e1d0e7dd13f",
+  "slug": "zaya1-8b基于-amd-硬件训练的-8b-高效模型",
+  "date": "2026-05-07",
+  "publishedAt": "2026-05-07T00:00:00Z",
+  "lang": "zh",
+  "title": "ZAYA1-8B：基于 AMD 硬件训练的 8B 高效模型",
+  "summary": "Zyphra 发布了 ZAYA1-8B，这是一个 80 亿参数的语言模型，完全在由 1024 个 AMD MI300x 节点和 Pensando Pollara 互连组成的集群上预训练，采用新颖的 Markovian RSA 架构，性能可与超过 1000 亿参数的模型相媲美。 这表明前沿质量的小型语言模型可以在非 NVIDIA 硬件上训练，减少对单一供应商的依赖，并可能降低 AI 研究和本地部署的成本。 该模型采用 MoE++架构、推理优先预训练、推理强化学习级联以及一种称为 Markovian RSA 的测试时计算方法。它设计用于在 24-32GB 显存的 GPU 上本地部署，并提供 vLLM 分支支持。",
+  "score": 8,
+  "tags": [
+    "AMD",
+    "small language models",
+    "model training",
+    "novel architecture",
+    "local deployment"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "May 6, 19:43",
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5nll0/zaya18b_frontier_intelligence_density_trained_on/"
+    }
+  ],
+  "originalUrl": "https://www.zyphra.com/post/zaya1-8b",
+  "originalSite": "zyphra.com",
+  "context": "由于 CUDA 生态的主导地位，训练大型语言模型通常需要昂贵的 NVIDIA 硬件。AMD 一直在开发其 ROCm 软件栈以支持 AI 工作负载，但在 AMD 基础设施上进行大规模预训练仍然很少见。Markovian RSA 是一种新颖的测试时计算技术，可以迭代改进推理轨迹，在不增加模型大小的情况下提高推理质量。",
+  "discussion": "社区对基于 AMD 的训练感到兴奋，但对基准比较持怀疑态度。一些用户质疑“前沿”模型的对比，而另一些用户则欢迎这一创新并希望获得本地部署支持。也有人担心与 llama.cpp 等推理引擎的兼容性有限。",
+  "references": [
+    {
+      "title": "Zyphra on X: \"Maximum intelligence per parameter was the target. ZAYA1-8B's performance reflects innovations across the full stack: Zyphra’s MoE++ architecture, reasoning-first pretraining, a reasoning RL cascade methodology, and a novel test-time compute method called Markovian RSA. https://t.co/LjNnbkniwj\" / X",
+      "url": "https://x.com/ZyphraAI/status/2052103623904309618"
+    },
+    {
+      "title": "Pretraining with Megatron-LM — Tutorials for AI developers 12.0",
+      "url": "https://rocm.docs.amd.com/projects/ai-developer-hub/en/latest/notebooks/pretrain/setup_tutorial.html"
+    },
+    {
+      "title": "Training Large Language Models with an AMD GPU - Medium",
+      "url": "https://medium.com/@RaajasSode/training-large-language-models-with-an-amd-gpu-85e53616b20c"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

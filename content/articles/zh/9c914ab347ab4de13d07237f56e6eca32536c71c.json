@@ -1,0 +1,45 @@
+{
+  "id": "9c914ab347ab4de13d07237f56e6eca32536c71c",
+  "canonicalId": "da1505fc96eeec5b1e606b96abf1fb719f821411",
+  "slug": "deepseek-v4-flash-重新点燃-llm-引导用于拒绝移除",
+  "date": "2026-05-17",
+  "publishedAt": "2026-05-17T00:00:00Z",
+  "lang": "zh",
+  "title": "DeepSeek-V4-Flash 重新点燃 LLM 引导用于拒绝移除",
+  "summary": "DeepSeek-V4-Flash 使得 LLM 引导再次变得实用，通过引导向量，antirez 的 DwarfStar 项目展示了有效移除拒绝行为和解除审查的能力。 这一突破重新打开了无需重新训练即可精细控制 LLM 行为的大门，影响了 AI 安全研究、无审查模型部署和开发者工具。它使用户能够自定义模型输出，同时也引发了重要的安全考量。 引导向量是模型潜在空间中的方向，添加或减去它们可以影响输出；特别是，拒绝行为被发现由一个单一方向介导。antirez 的 DwarfStar 是一个为 DeepSeek-V4-Flash 集成引导功能的独立项目，而不仅仅是 llama.cpp 的精简版本。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "steering vectors",
+    "AI safety",
+    "uncensoring",
+    "deepseek"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "May 16, 14:58",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48160807"
+    }
+  ],
+  "originalUrl": "https://www.seangoedecke.com/steering-vectors/",
+  "originalSite": "seangoedecke.com",
+  "context": "LLM 引导，或称激活向量引导，通过调整模型的内部表示来修改其行为。早期模型的引导能力有限，但 DeepSeek-V4-Flash 提供了文档完善的引导功能。'移骨'（abliteration）的概念——识别并移除拒绝方向——已在先前研究中被探索，表明拒绝行为通常位于单一向量上。引导向量是潜在空间中计算出的方向，用于引导模型输出，是微调的轻量级替代方案。",
+  "discussion": "社区讨论中，antirez 澄清 DwarfStar 实现了完全的拒绝移除，而不仅仅是玩具数据集；NitpickLawyer 强调了通过引导向量解除审查的潜力。另一位评论者指出 DwarfStar 是一个独立项目，而非 llama.cpp 的精简版本。总体情绪积极，大家对实用的引导应用感到兴奋，同时也担忧其被滥用。",
+  "references": [
+    {
+      "title": "Refusal in LLMs is mediated by a single direction — LessWrong",
+      "url": "https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction"
+    },
+    {
+      "title": "Steering Large Language Models with Activation Vectors ... | Medium",
+      "url": "https://bobrupakroy.medium.com/steering-large-language-models-with-activation-vectors-a-practical-guide-45866b3697ac"
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

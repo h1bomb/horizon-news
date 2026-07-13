@@ -1,0 +1,44 @@
+{
+  "id": "9fd179ebbb4f5c95009fc4e96cda58c092c8dc77",
+  "canonicalId": "2884aecf7b8e53d3db25f6660607ae42dabaef17",
+  "slug": "华为提出τ缩微定律推动半导体发展",
+  "date": "2026-05-28",
+  "publishedAt": "2026-05-27T09:00:00Z",
+  "lang": "zh",
+  "title": "华为提出τ缩微定律推动半导体发展",
+  "summary": "在 2026 年 IEEE 国际电路与系统研讨会上，华为正式提出τ缩微定律，主张以时间缩微替代传统的几何缩微。华为声称已依据该原则设计量产了 381 款芯片，并计划于今年秋季推出一款采用逻辑折叠技术的新麒麟手机芯片。 这可能代表半导体缩微领域的范式转变，有望在摩尔定律逼近物理极限后继续提升性能。若得到验证，它可能为芯片发展提供另一条路径，尤其对那些受先进制造设备限制的企业意义重大。 τ缩微定律通过降低时间常数（τ）实现从器件到系统的多层级协同优化。华为计划到 2031 年基于该定律实现相当于 1.4 纳米制程的晶体管密度，即将推出的麒麟芯片将是首款完全采用逻辑折叠技术的旗舰芯片。",
+  "score": 8,
+  "tags": [
+    "semiconductor",
+    "Moore's Law",
+    "Huawei",
+    "chip design",
+    "innovation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://t.me/zaihuapd/41597",
+  "originalSite": "t.me",
+  "context": "摩尔定律预测晶体管密度每两年翻一番，但随着几何缩微逼近物理原子极限，其速度正在放缓。半导体行业一直在探索替代性缩微方法，如先进封装和新材料。华为的τ缩微定律提出将时域优化作为新维度，通过更快的开关速度和更低的延迟来提升性能，而非单纯缩小晶体管尺寸。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "HUAWEI Presents the Tau (τ) Scaling Law, Enabling ...",
+      "url": "https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling"
+    },
+    {
+      "title": "[News] Huawei Unveils New Semiconductor Principle – Tau (τ ...",
+      "url": "https://www.trendforce.com/news/2026/05/26/news-huawei-unveils-new-semiconductor-principle-tau-τ-scaling-law/"
+    },
+    {
+      "title": "Huawei Targets 1.4nm-Equivalent Chip Density Without Advanced",
+      "url": "https://www.guru3d.com/story/huawei-targets-14nmequivalent-chip-density-without-advanced-euv-tools/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "51233065abe137b2aca45e7c3531f557d78fa66c",
+  "canonicalId": "c4c36a503c504b07665698bb53c176e1f253eb1f",
+  "slug": "claudeai-和-api-遭遇重大宕机引发可靠性讨论",
+  "date": "2026-04-29",
+  "publishedAt": "2026-04-29T00:00:00Z",
+  "lang": "zh",
+  "title": "Claude.ai 和 API 遭遇重大宕机，引发可靠性讨论",
+  "summary": "Claude.ai 和 Anthropic API 发生严重宕机，用户无法访问平台或调用 API。 此次宕机凸显了依赖单一 LLM 提供商进行关键工作流程的脆弱性，尤其是在企业大力投资 AI 基础设施的背景下。 宕机同时影响了网页界面和 API，用户报告错误持续数小时。Anthropic 的状态页面显示错误率升高，性能下降。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "outage",
+    "reliability",
+    "Anthropic",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Apr 28, 18:01"
+    }
+  ],
+  "originalUrl": "https://status.claude.com/incidents/9l93x2ht4s5w",
+  "originalSite": "status.claude.com",
+  "context": "Anthropic 是一家领先的 AI 公司，以其 Claude 模型系列闻名。Claude.ai 是面向消费者的聊天界面，API 则为开发者和企业提供服务。对于依赖这些服务的生产系统来说，可靠性至关重要。",
+  "discussion": "评论者对频繁的宕机表示不满，一位企业用户报告每月花费超过 20 万美元且支持服务糟糕。其他人则强调了采用多模型策略以降低此类风险的重要性。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

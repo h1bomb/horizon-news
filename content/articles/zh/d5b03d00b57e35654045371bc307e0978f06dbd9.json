@@ -1,0 +1,44 @@
+{
+  "id": "d5b03d00b57e35654045371bc307e0978f06dbd9",
+  "canonicalId": "f88203cda151271b24bab1cd394a969087ceb640",
+  "slug": "小米宣布即将发布并开源-mimo-v25-ai-模型系列",
+  "date": "2026-04-23",
+  "publishedAt": "2026-04-23T00:00:00Z",
+  "lang": "zh",
+  "title": "小米宣布即将发布并开源 MiMo-V2.5 AI 模型系列",
+  "summary": "小米宣布 MiMo-V2.5 系列（包括旗舰模型 MiMo-V2.5-Pro）即将正式发布并开源，其中 Pro 模型已进入公测阶段，在通用代理能力、复杂软件工程和长程任务方面相比前代有显著提升。这延续了早前的 MiMo-V2 模型（如 V2-Pro 和 V2-Omni），后者分别专注于文本与代码或多模态功能。 此举通过提供一个强大、开源的替代方案，增强了小米在竞争激烈的 AI 领域的地位，可能加速编码助手和多模态 AI 应用的创新与采用。开源有望降低开发者和研究人员的门槛，促进社区驱动的改进和工具集成。 MiMo-V2.5-Pro 是一个原生全模态模型，在 OpenRouter 上的定价为每百万输入 token 0.40 美元、每百万输出 token 2 美元，并在 ClawEval 和 SWE-bench Pro 等基准测试中排名靠前。然而，一些社区成员指出，相比 Kimi K2.6 和 Qwen 3.6 等竞争对手，小米的 token 计划存在限制，这可能影响其作为替代提供商的采用。",
+  "score": 7,
+  "tags": [
+    "AI-Models",
+    "Open-Source",
+    "Xiaomi",
+    "Machine-Learning",
+    "Coding-Assistants"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 22, 16:30"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/34q2v99zqrwg1.jpeg",
+  "originalSite": "i.redd.it",
+  "context": "MiMo 是小米的 AI 模型系列，早期版本如 MiMo-V2-Pro 专注于文本和代码任务，而 MiMo-V2-Omni 则处理多模态能力。该系列在竞争激烈的市场中与 OpenAI（GPT-5.4）、Anthropic（Claude Sonnet）以及 GLM、Qwen 等中国公司的模型竞争，通常在编码和现实世界代理任务上进行基准测试。开源 AI 模型允许公众访问权重和代码，实现定制化和更广泛的部署，无需许可费用。",
+  "discussion": "社区对开源公告表示兴奋，用户称赞 MiMo-V2 模型在编码任务中优于其他开源选项，但一些人希望 Pro 版本也能被包含在内。有人担心小米的 token 计划相比竞争对手较弱，可能限制其作为提供商的实用性，而其他人则指出来自 Kimi K2.6 和 Qwen 3.6 等模型的竞争压力。",
+  "references": [
+    {
+      "title": "MiMo - V 2 . 5 -Pro | Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-5-pro"
+    },
+    {
+      "title": "MiMo - V 2 . 5 - API Pricing & Providers | OpenRouter",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+    },
+    {
+      "title": "MiMo-V2-Pro: Everything you need to know",
+      "url": "https://artificialanalysis.ai/articles/mimo-v2-pro-everything-you-need-to-know"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "3b2c80f0270950702d9908da45c0940cb7e61fb0",
+  "canonicalId": "771e98fa3cc1ad32c0f928e9d829eb2cd378e0a4",
+  "slug": "baidu-releases-ernie-image-multimodal-ai-model-on-hugging-face-for-public-access",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-14T15:23:00Z",
+  "lang": "en",
+  "title": "Baidu releases ERNIE-Image multimodal AI model on Hugging Face for public access.",
+  "summary": "Baidu has released its ERNIE-Image multimodal AI model on the Hugging Face platform, making it publicly accessible for use and experimentation. This release occurred recently, as indicated by the model's availability on Hugging Face, though no specific version or date is provided in the content. This release is significant because it enhances accessibility to advanced multimodal AI technology, potentially accelerating research and development in areas like computer vision and natural language processing. It also reflects the growing trend of major AI companies, such as Baidu, making their models available on open platforms, fostering collaboration and innovation in the global AI community. The model is hosted on Hugging Face, a popular platform for sharing AI models, which allows users to access it through APIs or download it for local use. However, specific technical details such as model size, performance benchmarks, or limitations are not provided in the given content, so users may need to refer to the Hugging Face page or Baidu's documentation for more information.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "multimodal-models",
+    "computer-vision",
+    "hugging-face",
+    "deep-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "adefa"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/baidu/ERNIE-Image",
+  "originalSite": "huggingface.co",
+  "context": "Multimodal AI models integrate multiple types of data, such as images and text, to perform tasks like visual question answering or image generation, enhancing AI's ability to understand and interact with the world. Hugging Face is a widely-used platform that provides tools and a community for sharing and deploying machine learning models, making it easier for developers to access and use state-of-the-art AI technologies. Baidu's ERNIE series includes various AI models, with ERNIE-Image being part of its multimodal offerings, building on advancements in large language models and computer vision.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ERNIE-4.5-VL-28B-A3B-Thinking: A Breakthrough in Multimodal AI",
+      "url": "https://ernie.baidu.com/blog/posts/ernie-4.5-vl-28b-a3b-thinking/"
+    },
+    {
+      "title": "Hugging Face - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hugging_Face"
+    },
+    {
+      "title": "Multimodal Models and Computer Vision: A Deep Dive",
+      "url": "https://blog.roboflow.com/multimodal-models/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

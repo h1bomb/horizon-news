@@ -1,0 +1,45 @@
+{
+  "id": "bb99cd9566da137771b07063a67cad2aebeaaa32",
+  "canonicalId": "a2e900a63d1b6ce3339b12c053ed6763027fa1eb",
+  "slug": "claude-code-found-embedding-secret-steganographic-markers",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T15:44:00Z",
+  "lang": "en",
+  "title": "Claude Code Found Embedding Secret Steganographic Markers",
+  "summary": "Anthropic's Claude Code terminal-based coding tool was discovered to embed steganographic markers in its outgoing API requests without prior disclosure. A developer reverse-engineered the tool and published the findings, sparking community debate. This raises serious transparency and trust concerns for developers who rely on Claude Code, as hidden markers could be used to track usage or identify specific users. It also highlights broader issues of ethics and disclosure in AI developer tools. The steganographic markers were inserted into Base64-encoded strings using dollar signs as hidden signals, likely intended to identify requests originating from Chinese companies engaging in model distillation. Anthropic has not officially commented on the findings.",
+  "score": 8,
+  "tags": [
+    "steganography",
+    "AI",
+    "Anthropic",
+    "developer tools",
+    "transparency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kirushik",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48734373"
+    }
+  ],
+  "originalUrl": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+  "originalSite": "thereallo.dev",
+  "context": "Steganography is the practice of hiding information within other data to avoid detection. It is often used for digital watermarking or covert communication. Claude Code is an agentic coding tool by Anthropic that operates in the terminal, helping developers edit code and run commands. The discovery of hidden markers without disclosure has drawn criticism because it violates expectations of transparency in open-source-like tools.",
+  "discussion": "Community reactions are mixed: some downplay the issue, arguing the intent to identify model distillation from Chinese firms is clear, while others condemn the lack of transparency as unethical. Several commenters express distrust toward Anthropic and suggest using open-source alternatives like Codex CLI. A few criticize the sloppy implementation, noting more sophisticated underhanded coding techniques could have been used.",
+  "references": [
+    {
+      "title": "Steganography - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steganography"
+    },
+    {
+      "title": "Claude Code overview - Anthropic",
+      "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+    },
+    {
+      "title": "GitHub - anthropics/ claude - code : Claude Code is an agentic coding ...",
+      "url": "https://github.com/anthropics/claude-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

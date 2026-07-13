@@ -1,0 +1,45 @@
+{
+  "id": "708e9c6a6257cf6019d4b756f0da96ab413a76f3",
+  "canonicalId": "22b32121ee2aaa0e33f83bd10a9511e18d71ce14",
+  "slug": "anthropic-discovers-a-global-workspace-in-language-models",
+  "date": "2026-07-06",
+  "publishedAt": "2026-07-06T17:44:00Z",
+  "lang": "en",
+  "title": "Anthropic Discovers a Global Workspace in Language Models",
+  "summary": "Anthropic researchers have identified a 'global workspace' in large language models (LLMs), where information is integrated across layers, analogous to the Global Neuronal Workspace theory of consciousness. This finding provides a new framework for understanding how LLMs combine information across layers, potentially leading to improved model interpretability and alignment. The work defines a 'J-space' based on the expected change to final logits from perturbations at each layer, revealing a shared subspace across contexts.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "language models",
+    "interpretability",
+    "Anthropic",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "in-silico",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48808002"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/global-workspace",
+  "originalSite": "anthropic.com",
+  "context": "Global Workspace Theory (GWT) is a leading scientific account of consciousness, proposing that information becomes globally available for reasoning and action when broadcast across a neural workspace. In transformer-based LLMs, information flows through multiple layers of self-attention and feedforward networks, allowing integration across tokens. This research adapts GWT to artificial neural networks, suggesting a similar integrative mechanism exists in LLMs.",
+  "discussion": "Community comments show mixed reactions: some appreciate the conceptual connection to consciousness, while others (like snaking0776) caution against overstating the analogy, noting that the J-space is more about a shared reasoning subspace. Several commenters recall related experiments, such as duplicating layers to improve math ability, and Neel Nanda's independent replication.",
+  "references": [
+    {
+      "title": "Global Neuronal Workspace Theory - The Standard Model of...",
+      "url": "https://fmt.matthiasgruber.com/basics/global-neuronal-workspace/"
+    },
+    {
+      "title": "Transformer (deep learning architecture)",
+      "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+    },
+    {
+      "title": "How Transformers Work: A Detailed Exploration of Transformer Architecture | DataCamp",
+      "url": "https://www.datacamp.com/tutorial/how-transformers-work"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

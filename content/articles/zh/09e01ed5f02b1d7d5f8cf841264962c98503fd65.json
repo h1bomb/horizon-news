@@ -1,0 +1,44 @@
+{
+  "id": "09e01ed5f02b1d7d5f8cf841264962c98503fd65",
+  "canonicalId": "78cc7fa9af0b888345bb9b40ef15e8ca5f489442",
+  "slug": "vllm-v0180-新增-grpc-服务支持无-gpu-渲染服务基于-gpu-的-ngram-推测解码和-kv-缓存优化",
+  "date": "2026-03-21",
+  "publishedAt": "2026-03-21T00:00:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.18.0 新增 gRPC 服务支持、无 GPU 渲染服务、基于 GPU 的 NGram 推测解码和 KV 缓存优化",
+  "summary": "vLLM v0.18.0 通过新的 --grpc 标志引入了 gRPC 服务支持，新增了用于多模态预处理的无 GPU 渲染服务，提供了与异步调度器兼容的基于 GPU 的 NGram 推测解码，并通过智能 CPU 存储和 FlexKV 后端改进了 KV 缓存卸载。该版本还包括 Elastic Expert Parallelism 第二阶段、FlashInfer 0.6.6 更新，以及对 Sarvam MoE 和 OLMo Hybrid 等新模型架构的支持。 这些增强功能显著提升了 LLM 推理性能和可扩展性，使 vLLM 更适合对高吞吐量、低延迟服务要求严格的生产环境部署。gRPC 支持的加入实现了更高效的基于 RPC 的通信，而无 GPU 渲染和改进的 KV 缓存卸载有助于优化多模态和长上下文场景中的资源利用率。 该版本包含来自 213 位贡献者的 445 次提交，存在已知问题，如在 B200 GPU 上使用 FP8 KV 缓存服务 Qwen3.5 时精度下降。Ray 不再是默认依赖项，如需使用必须显式安装，在 v0.17.0 中遇到 CUBLAS_STATUS_INVALID_VALUE 错误的用户可以重新安装包含修复的 torch 2.10.0 更新版本。",
+  "score": 7,
+  "tags": [
+    "LLM-serving",
+    "vLLM",
+    "inference-optimization",
+    "GPU-acceleration",
+    "model-deployment"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Mar 20, 21:31"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个用于高吞吐量 LLM 推理和服务的开源库，广泛用于部署 GPT 和 Llama 等模型。gRPC 是一种高性能 RPC 框架，可实现服务间的高效通信，因其低延迟和可扩展性而常用于 ML 服务。NGram 推测解码是一种通过使用先前生成的 n-gram 来提议草稿令牌以加速 LLM 推理的技术，可减少生成步骤。KV 缓存卸载将注意力键/值数据从 GPU 内存移动到 CPU 或存储，以释放 GPU 资源，这对于长上下文模型尤为重要。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How to Deploy Machine Learning Models with PyTorch and gRPC",
+      "url": "https://blog.roboflow.com/deploy-machine-learning-models-pytorch-grpc-asyncio/"
+    },
+    {
+      "title": "N-Gram Speculative Decoding in TensorRT‑LLM — TensorRT-LLM",
+      "url": "https://nvidia.github.io/TensorRT-LLM/1.1.0rc2.post1/blogs/tech_blog/blog7_NGram_performance_Analysis_And_Auto_Enablement.html"
+    },
+    {
+      "title": "KV cache offloading | LLM Inference Handbook",
+      "url": "https://www.bentoml.com/llm/inference-optimization/kv-cache-offloading"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

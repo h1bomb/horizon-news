@@ -1,0 +1,44 @@
+{
+  "id": "36378e84f06a68e36731ea7243d5fcdb1265266b",
+  "canonicalId": "bfaaf7ea1b86da1289a6d78814f51a9c7eb355b3",
+  "slug": "苹果开源-corecrypto附带量子安全算法形式化证明",
+  "date": "2026-05-24",
+  "publishedAt": "2026-05-24T00:00:00Z",
+  "lang": "zh",
+  "title": "苹果开源 corecrypto，附带量子安全算法形式化证明",
+  "summary": "苹果公司开源了其 corecrypto 密码库，包含经过形式化验证的量子安全算法 ML-KEM 和 ML-DSA 实现，并使用 Isabelle 定理证明器发布了端到端的数学证明，以确保与 NIST 标准的一致性。 此举结合了数十亿设备上的实际部署与严格的形式化验证，为密码学安全保障设立了新标杆，并鼓励行业更广泛地采用后量子密码学。 开源发布包括 corecrypto 的 C 代码和手工优化的 ARM64 汇编，以及供独立审查的定制验证工具和 Isabelle 理论库；已验证的算法已用于 iMessage 和 VPN 产品中。",
+  "score": 9,
+  "tags": [
+    "cryptography",
+    "formal verification",
+    "apple",
+    "quantum-safe",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "May 23, 04:49"
+    }
+  ],
+  "originalUrl": "https://security.apple.com/blog/formal-verification-corecrypto/",
+  "originalSite": "security.apple.com",
+  "context": "corecrypto 是苹果的低层密码学库，为超过 25 亿台活跃设备提供加密支持。形式化验证通过数学证明来确保代码与规范完全一致，从而消除整类错误。ML-KEM（原 Kyber）和 ML-DSA（原 Dilithium）是 NIST 标准化的后量子算法，能够抵御未来量子计算机的攻击。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ML-KEM",
+      "url": "https://en.wikipedia.org/wiki/ML-KEM"
+    },
+    {
+      "title": "ML-DSA",
+      "url": "https://en.wikipedia.org/wiki/ML-DSA"
+    },
+    {
+      "title": "Isabelle theorem prover",
+      "url": "https://en.wikipedia.org/wiki/Isabelle_theorem_prover"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

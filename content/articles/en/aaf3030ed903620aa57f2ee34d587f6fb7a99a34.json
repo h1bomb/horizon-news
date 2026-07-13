@@ -1,0 +1,40 @@
+{
+  "id": "aaf3030ed903620aa57f2ee34d587f6fb7a99a34",
+  "canonicalId": "07f1089c0307ac636074f65eca68172acb86266d",
+  "slug": "systemd-adds-birth-date-field-for-age-compliance-sparking-intense-backlash",
+  "date": "2026-04-01",
+  "publishedAt": "2026-03-31T13:52:00Z",
+  "lang": "en",
+  "title": "Systemd adds birth date field for age compliance, sparking intense backlash",
+  "summary": "In March 2026, developer Dylan M. Taylor submitted a pull request to add an optional 'birthDate' field to systemd's JSON user records to facilitate compliance with age-attestation laws, which was merged after community discussion. The technical change sparked an unexpectedly hostile response including doxxing and death threats against Taylor, fueled by misinformation about the feature's scope. This controversy highlights the tension between technical compliance with emerging regulations and community values in open-source projects, particularly around privacy concerns. The hostile response demonstrates how misinformation can derail productive technical discussions and raises questions about governance in large open-source ecosystems. The 'birthDate' field stores dates in YYYY-MM-DD format and can only be modified by system administrators, not regular users, while applications can query it via the XDG Accounts portal. The change does not implement a full age-attestation system itself but provides one component that could be used in such systems, with birth dates alternatively storable elsewhere if this feature were removed.",
+  "score": 8,
+  "tags": [
+    "systemd",
+    "open-source",
+    "privacy",
+    "community-management",
+    "compliance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1064706/",
+  "originalSite": "lwn.net",
+  "context": "Systemd is a system and service manager for Linux that initializes and manages system components, with JSON user records providing an extensible format for user information beyond traditional UNIX structures. Age-attestation laws in California, Colorado, Brazil and other jurisdictions require operating systems to implement mechanisms for verifying user ages, creating compliance challenges for Linux distributions. The XDG Accounts portal is a Freedesktop.org specification that allows applications to query user information from various sources including systemd.",
+  "discussion": "Community discussion included reasonable technical objections about systemd's Linux-specific nature potentially requiring duplicate implementations for other systems, and concerns about whether open-source systems might be exempted from these laws. However, these substantive discussions were overshadowed by extreme hostility including personal attacks, with project maintainers noting that similar regulations are emerging globally and the feature provides flexibility for compliance.",
+  "references": [
+    {
+      "title": "JSON User Records",
+      "url": "https://systemd.io/USER_RECORD/"
+    },
+    {
+      "title": "How Linux and BSD Distros Are Responding to the New Age ...",
+      "url": "https://itsfoss.com/news/distros-response-age-verification-laws/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

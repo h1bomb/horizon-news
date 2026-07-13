@@ -1,0 +1,44 @@
+{
+  "id": "27ff5370a9177c43e20f17b3ef8ac279f7317b9b",
+  "canonicalId": "deb5247908ad7bf5b7b7856a1b15a675ffa62a53",
+  "slug": "interactive-explanations-proposed-as-solution-to-cognitive-debt-in-agentic-engineering",
+  "date": "2026-03-01",
+  "publishedAt": "2026-02-28T23:09:00Z",
+  "lang": "en",
+  "title": "Interactive explanations proposed as solution to cognitive debt in agentic engineering",
+  "summary": "Simon Willison introduces the concept of 'cognitive debt' that accumulates when developers lose understanding of AI-generated code, and proposes building interactive explanations as a method to pay down this debt. He demonstrates this approach by creating an animated HTML page that visually explains the 'Archimedean spiral placement' algorithm used in a Rust word cloud generator built by an AI agent. This matters because as AI agents write more production code, teams risk losing the deep understanding needed to maintain, debug, and extend their systems, which can slow development progress similar to technical debt. Interactive explanations offer a practical technique for maintaining human oversight and comprehension in agentic engineering workflows, ensuring that codebases don't become incomprehensible black boxes. The interactive explanation was built by prompting Claude Code to create an HTML page with an animation slider that visualizes the word placement algorithm step-by-step, allowing users to pause, adjust speed, and step through frames. This approach builds upon the 'linear walkthrough' pattern, where AI agents provide sequential explanations of code, but adds visualization to create intuitive understanding of complex algorithms.",
+  "score": 7,
+  "tags": [
+    "agentic-engineering",
+    "cognitive-debt",
+    "ai-assisted-development",
+    "code-understanding",
+    "software-maintenance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Agentic engineering involves designing systems where AI agents can autonomously reason, plan, and act to complete tasks, such as writing code. Cognitive debt is a new concept analogous to technical debt, describing the accumulated cost of not fully understanding how AI-generated code works. As AI-assisted development accelerates, developers face the challenge of maintaining comprehension of codebases that they didn't personally write, which is where patterns like interactive explanations become valuable.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Simon Willison on cognitive-debt",
+      "url": "https://simonwillison.net/tags/cognitive-debt/"
+    },
+    {
+      "title": "16 Agent Patterns: An Agent Engineering Primer | Druce.ai",
+      "url": "https://druce.ai/2025/05/agent_engineering"
+    },
+    {
+      "title": "Interactive explanations - Agentic Engineering Patterns - Simon Willison's Weblog",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

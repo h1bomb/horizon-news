@@ -1,0 +1,44 @@
+{
+  "id": "58886013b397f1d5ffbc7e99b075d303c5621fd8",
+  "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
+  "slug": "qwen36-35b-a3b-open-weight-ai-model-for-agentic-coding-now-publicly-available",
+  "date": "2026-04-17",
+  "publishedAt": "2026-04-16T13:36:00Z",
+  "lang": "en",
+  "title": "Qwen3.6-35B-A3B: Open-weight AI model for agentic coding now publicly available",
+  "summary": "The Qwen team has open-sourced Qwen3.6-35B-A3B, a 35-billion parameter sparse Mixture-of-Experts model with only 3 billion active parameters, designed specifically for agentic coding tasks. It outperforms previous versions on coding benchmarks like SWE-bench and Terminal-Bench while maintaining multimodal understanding capabilities. This release makes advanced agentic coding capabilities accessible to developers who need to build custom AI agents for restricted sectors like banking and healthcare, where public cloud models may not be usable. It represents a significant step in the democratization of AI development tools, particularly in regions where Western alternatives are limited. The model uses a high-sparsity Mixture-of-Experts architecture with only 3B active parameters out of 35B total, making it more efficient to run while maintaining strong performance. It supports 256K context length across 201 languages and provides OpenAI/Anthropic-style API compatibility for easy integration into existing developer workflows.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Open Source",
+    "Machine Learning",
+    "Coding Agents",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cmitsakis"
+    }
+  ],
+  "originalUrl": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+  "originalSite": "qwen.ai",
+  "context": "Agentic coding refers to AI systems that can decompose complex programming tasks, plan multi-step solutions, and execute code with minimal human intervention, going beyond simple code suggestions. Open-weight models share the trained parameters (weights and biases) of neural networks under licenses like Apache 2.0, allowing others to fine-tune and deploy them without accessing the full training pipeline. Qwen is Alibaba's family of multimodal AI models that use hybrid attention architectures combining linear and traditional transformer attention.",
+  "discussion": "Community members expressed relief that Qwen continues to publish open weights despite team changes, with one comment noting this is particularly valuable for sectors like banking that cannot use public models. Technical discussions highlighted the model's efficient quantization by Unsloth for local deployment and its unique embedding characteristics compared to other base models. Several users shared practical experiences running the model locally and noted its competitive performance against larger proprietary models.",
+  "references": [
+    {
+      "title": "Run the new Qwen 3 . 6 - 35 - A 3 B model locally! | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/qwen3.6"
+    },
+    {
+      "title": "AI Agentic Programming: A Survey of Techniques, Challenges, and Opportunities",
+      "url": "https://arxiv.org/html/2508.11126v1"
+    },
+    {
+      "title": "Open Weights: not quite what you’ve been told - Open Source Initiative",
+      "url": "https://opensource.org/ai/open-weights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

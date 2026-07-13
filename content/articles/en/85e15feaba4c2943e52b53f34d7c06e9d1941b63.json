@@ -1,0 +1,44 @@
+{
+  "id": "85e15feaba4c2943e52b53f34d7c06e9d1941b63",
+  "canonicalId": "9c9443fb2273a7faa7c175524b1254e46b119407",
+  "slug": "google-releases-gemma-4-open-models-with-reasoning-multimodal-and-tool-calling-capabilities",
+  "date": "2026-04-03",
+  "publishedAt": "2026-04-02T16:10:00Z",
+  "lang": "en",
+  "title": "Google releases Gemma 4 open models with reasoning, multimodal, and tool calling capabilities",
+  "summary": "Google has released Gemma 4, a series of open models that feature thinking/reasoning capabilities, multimodal processing, and tool calling functionality, with community-provided benchmarks and implementation guides available. The release includes multiple model sizes such as 2B, 4B, 26B-a4b, and 31B variants. This release represents a significant advancement in open AI models, making sophisticated reasoning, multimodal understanding, and tool integration capabilities accessible to developers and researchers outside Google. It intensifies competition in the open model space and could accelerate AI application development by providing powerful, freely available alternatives to proprietary models. Community benchmarks show the 31B model achieving 85.2% on MMLUP and 88.4% on MMMLU, while users report specific optimization parameters like temperature=1.0, top_p=0.95, and top_k=64 for best results. Some users have noted issues with certain model variants, such as the gemma-4-31b model producing only \"---\\n\" outputs in some local deployments.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Open Source",
+    "Machine Learning",
+    "Google",
+    "Benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jeffmcjunkin"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/models/gemma/gemma-4/",
+  "originalSite": "deepmind.google",
+  "context": "Gemma is Google's family of open models based on Gemini research and technology, designed to provide capable AI models that developers can use freely. Multimodal AI refers to systems that can process and understand multiple types of data (text, images, audio, etc.) simultaneously, while tool calling enables AI models to interact with external systems and APIs to perform actions beyond their training data. Previous Gemma versions included 2B and 7B models, with Gemma 2 introducing a 27B-parameter version.",
+  "discussion": "Community members are actively testing and optimizing the models, with users sharing quantization resources, performance benchmarks, and troubleshooting tips. Discussions include comparisons with competing models like Qwen 3.5, practical deployment experiences, and technical questions about running specific variants locally. Overall sentiment is positive with excitement about the models' capabilities, though some report technical issues with certain model deployments.",
+  "references": [
+    {
+      "title": "Gemma: Open Models Based on Gemini Research and Technology",
+      "url": "https://arxiv.org/html/2403.08295v4"
+    },
+    {
+      "title": "Google announces Gemma 2, a 27B-parameter version of its open",
+      "url": "https://techcrunch.com/2024/05/14/google-announces-gemma-2-a-27b-parameter-version-of-its-open-model-launching-in-june/"
+    },
+    {
+      "title": "What is Multimodal AI? Full Guide",
+      "url": "https://www.techtarget.com/searchenterpriseai/definition/multimodal-AI"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

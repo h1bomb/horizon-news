@@ -1,0 +1,40 @@
+{
+  "id": "0cfe3bb27e660af021792db2df932f5aac38d79c",
+  "canonicalId": "0fffa0411877a59fa2d21bd33d3c546e6470e98d",
+  "slug": "nvidia-star-elastic-one-checkpoint-three-models-via-zero-shot-slicing",
+  "date": "2026-05-11",
+  "publishedAt": "2026-05-10T00:48:00Z",
+  "lang": "en",
+  "title": "NVIDIA Star Elastic: One Checkpoint, Three Models via Zero-Shot Slicing",
+  "summary": "NVIDIA AI has released Star Elastic, a post-training method that nests 23B and 12B submodels inside a 30B parent checkpoint, allowing zero-shot extraction of three reasoning models from a single file in BF16, FP8, and NVFP4 formats. This approach enables dynamic compute scaling without duplicating KV cache state, significantly reducing VRAM overhead and allowing inference engines to adapt model size per request, which is a breakthrough for efficient deployment of large language models. The nested submodels share a KV cache, so smaller models can be used for fast reasoning while larger models guide or evaluate, effectively creating a sliding scale of compute. The router learns the architecture rather than just the weights.",
+  "score": 8,
+  "tags": [
+    "NVIDIA",
+    "Star Elastic",
+    "zero-shot slicing",
+    "KV cache",
+    "efficient deployment"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "phazei"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t8s83r/nvidia_ai_releases_star_elastic_one_checkpoint/",
+  "originalSite": "reddit.com",
+  "context": "Zero-shot slicing refers to extracting multiple model sizes from a single checkpoint without any additional training, analogous to scalable video coding where a single stream contains multiple resolutions. The KV cache is a memory structure in transformer models that stores key-value tensors from self-attention layers, reducing redundant computation. By sharing the KV cache across submodels, Star Elastic avoids duplicating cached states when switching between model sizes.",
+  "discussion": "Community comments show mixed reactions: some are confused about why not always use the 30B model and whether smaller model thinking degrades larger model answers, while others highlight the shared KV cache as the most interesting part for deployment efficiency. The comparison to Qwen and Gemma E2B/E4B is also noted.",
+  "references": [
+    {
+      "title": "Compositional Zero-Shot Learning: A Survey - arXiv",
+      "url": "https://arxiv.org/html/2510.11106v1"
+    },
+    {
+      "title": "What is the Transformer KV Cache?",
+      "url": "https://peterchng.com/blog/2024/06/11/what-is-the-transformer-kv-cache/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "d2b2bbf2c49357538c558ab7234454aa360c0872",
+  "canonicalId": "b8efcc3f3d664e4700694477d9be4a893279657c",
+  "slug": "prompt-injection-in-youtube-ai-tool-leaks-creators-private-videos",
+  "date": "2026-07-04",
+  "publishedAt": "2026-07-04T16:45:00Z",
+  "lang": "en",
+  "title": "Prompt injection in YouTube AI tool leaks creators' private videos",
+  "summary": "A prompt injection vulnerability in YouTube's AI comment summarization tool allows attackers to leak the titles of a creator's private videos by leaving a crafted comment that injects a malicious prompt. This vulnerability compromises the privacy of YouTube creators by exposing their private video titles, and highlights the broader security risks of integrating large language models into user-facing applications without adequate safeguards against prompt injection. The attack works when a creator opens YouTube Studio's comment tab and clicks a suggested AI prompt; the injected comment then forces the model to include private video titles in its response. Community testing shows mixed results, with some users unable to reproduce the issue, indicating possible partial mitigations by YouTube.",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "prompt injection",
+    "youtube",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "javxfps",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48786781"
+    }
+  ],
+  "originalUrl": "https://javoriuski.com/post/youtube",
+  "originalSite": "javoriuski.com",
+  "context": "Prompt injection is a security vulnerability where attackers craft inputs that trick AI language models into overriding their intended instructions and following attacker commands instead. YouTube's AI comment tool uses large language models to summarize comments for creators, but if a comment contains a carefully crafted instruction, the model may execute it, revealing sensitive data such as private video titles.",
+  "discussion": "The community praised the article for its clear and factual exposition. A former Google engineer provided nuanced context on why YouTube might not treat this as a high-priority bug. Some users reported being unable to reproduce the attack, while others called for stricter role boundaries in AI model prompts.",
+  "references": [
+    {
+      "title": "Prompt injection - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection"
+    },
+    {
+      "title": "Prompt Injection - OWASP Foundation",
+      "url": "https://owasp.org/www-community/attacks/PromptInjection"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

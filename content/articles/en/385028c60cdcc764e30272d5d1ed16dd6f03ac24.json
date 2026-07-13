@@ -1,0 +1,44 @@
+{
+  "id": "385028c60cdcc764e30272d5d1ed16dd6f03ac24",
+  "canonicalId": "fc444c4833222427f7f7abde9ed543fbbf45a68c",
+  "slug": "tanstack-hit-by-20-minute-npm-supply-chain-attack",
+  "date": "2026-05-13",
+  "publishedAt": "2026-05-12T03:00:00Z",
+  "lang": "en",
+  "title": "TanStack hit by 20-minute npm supply chain attack",
+  "summary": "On May 11, 2026, between 19:20 and 19:26 UTC, attackers published 84 malicious versions across 42 TanStack npm packages using a sophisticated chain of pull_request_target, GitHub Actions cache poisoning, and OIDC token extraction. This attack demonstrates a new level of sophistication in npm supply chain attacks, combining multiple GitHub Actions vulnerabilities to achieve valid SLSA Build Level 3 attestations, potentially affecting thousands of downstream projects. The attacker exploited pull_request_target to run code in the repository context, poisoned the build cache to inject malicious code, and extracted OIDC tokens from runner memory to sign attestations; the malicious versions were detected and deprecated within 20 minutes.",
+  "score": 8,
+  "tags": [
+    "npm",
+    "supply-chain-attack",
+    "GitHub Actions",
+    "dependency security",
+    "OIDC"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+  "originalSite": "tanstack.com",
+  "context": "GitHub Actions workflows using pull_request_target run in the context of the target repository, which can be exploited if the workflow checks out and executes code from the pull request. Cache poisoning allows attackers to inject malicious content into the build cache, which later gets used in subsequent builds. OIDC tokens are short-lived credentials used for authentication with cloud providers; extracting them from runner memory enables an attacker to sign artifacts with valid SLSA attestations.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Keeping your GitHub Actions and workflows secure Part 1: Preventing...",
+      "url": "https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/"
+    },
+    {
+      "title": "The Pwn - Request : Securing CI/CD from pull _ request _ target Attacks",
+      "url": "https://aviii.hashnode.dev/the-pwn-request"
+    },
+    {
+      "title": "TanStack npm Packages Hit by Mini Shai-Hulud | Snyk",
+      "url": "https://snyk.io/blog/tanstack-npm-packages-compromised/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

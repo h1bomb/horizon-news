@@ -1,0 +1,40 @@
+{
+  "id": "1fd1e2b95b455567e1b68e1266a77971cdcb1794",
+  "canonicalId": "b464753371459b3bc057f69e1b9a96f55cbfd5d7",
+  "slug": "ornith-10自我支架式-llm-用于智能编码",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-29T16:17:00Z",
+  "lang": "zh",
+  "title": "Ornith-1.0：自我支架式 LLM 用于智能编码",
+  "summary": "DeepReinforce 发布了 Ornith-1.0 模型系列，采用 MIT 许可证开放权重，在编码基准测试中达到同类开源模型的最高性能，参数规模从 9B 到 397B 不等。 该发布推动了开源智能编码能力的发展，使开发者能够在本地运行强大的编码助手而无需锁定特定供应商，自我支架技术可能提高多步骤任务的可靠性。 模型基于预训练的 Gemma 4（Apache 2.0）和 Qwen 3.5（Apache 2.0）构建，确保许可证兼容性，包括密集和混合专家两种变体。作者测试了 35B 的 GGUF 量化模型，报告在智能编码任务上表现强劲。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "coding",
+    "open-source",
+    "agentic AI",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "自我支架（self-scaffolding）指的是 LLM 自主生成并遵循自己的推理步骤或工具使用计划的能力，无需外部提示即可提升复杂智能任务的性能。混合专家（MoE）是一种架构，每次只激活一部分参数，从而在较低计算成本下实现更大的有效模型规模。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "url": "https://simonwillison.net/2026/Jun/29/ornith/"
+    },
+    {
+      "title": "Ornith-1.0: The Self-Scaffolding LLM That Teaches Itself to ...",
+      "url": "https://essamamdani.com/blog/ornith-1-0-self-scaffolding-llm-coding-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

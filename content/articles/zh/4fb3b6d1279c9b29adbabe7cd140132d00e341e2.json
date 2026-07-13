@@ -1,0 +1,45 @@
+{
+  "id": "4fb3b6d1279c9b29adbabe7cd140132d00e341e2",
+  "canonicalId": "569e11046f0720506520f8a6349423c885afe54b",
+  "slug": "linux-69-luks-挂起回归导致加密密钥保留在内存中",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T15:25:00Z",
+  "lang": "zh",
+  "title": "Linux 6.9 LUKS 挂起回归导致加密密钥保留在内存中",
+  "summary": "从 Linux 6.9 开始，`cryptsetup luksSuspend` 命令在挂起期间不再从内存中清除磁盘加密密钥，导致密钥保留在 RAM 中。 这一回归削弱了 LUKS 加密设备的安全性，因为拥有物理访问权限的攻击者可以从挂起系统的内存中提取主密钥，无需密码即可解密磁盘。 该问题影响 Linux 6.9 及更高版本的内核，但并非所有发行版都受影响，因为 `luksSuspend` 并非官方 cryptsetup 规范的一部分，它最初是 Debian 的扩展。",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "kernel",
+    "security",
+    "encryption",
+    "regression"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "IngoBlechschmid",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48763035"
+    }
+  ],
+  "originalUrl": "https://mathstodon.xyz/@iblech/116769502749142438",
+  "originalSite": "mathstodon.xyz",
+  "context": "LUKS（Linux 统一密钥设置）是一种磁盘加密规范，使用主密钥对分区上的数据进行加密。在正常操作期间，该主密钥保存在内核内存中以便即时解密。当系统挂起到 RAM 时，密钥仍留在内存中，但 `luksSuspend` 设计用于清除密钥以防止冷启动或物理攻击。这一回归意味着密钥不再被清除，从而使其容易受到攻击。",
+  "discussion": "社区评论显示了不同的反应：一些人认为 `luksSuspend` 并非官方支持，仅影响 Debian，而另一些人则强调此类安全回归很容易被忽视，因为一切仍然正常。少数用户低估了风险，指出如果挂起后不需要重新输入密码，加密密钥本来就应保留在内存中，磁盘加密主要保护的是驱动器被移除时的数据盗窃。",
+  "references": [
+    {
+      "title": "Linux Unified Key Setup - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup"
+    },
+    {
+      "title": "Linux LUKS Suspend Regression: Keys Stay - Sesame Disk",
+      "url": "https://sesamedisk.com/linux-luks-suspend-regression-security/"
+    },
+    {
+      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption ...",
+      "url": "https://news.ycombinator.com/item?id=48763035"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

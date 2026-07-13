@@ -1,0 +1,44 @@
+{
+  "id": "a54e715ae3429156cf97d7643e79c1d0e1b8c5ea",
+  "canonicalId": "9f754f02c536c99a940623bdf3e1a745258b0489",
+  "slug": "qwen35-08b-模型在-7-年前的三星手机上以每秒-12-个-token-的速度本地运行",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "Qwen3.5-0.8B 模型在 7 年前的三星手机上以每秒 12 个 token 的速度本地运行。",
+  "summary": "一位用户利用 llama.cpp 和 Termux，成功在使用了 7 年的三星 Galaxy S10E 智能手机上本地运行了新发布的 Qwen3.5-0.8B 大语言模型，推理速度达到每秒 12 个 token。这表明一个具备对话能力的 AI 模型如今可以在老旧、低端的移动硬件上运行。 这一成果凸显了模型效率和压缩技术的快速进步，使得先进的 AI 无需依赖云服务即可在资源受限的设备上运行。它为在普及的移动硬件上开发更私密、低延迟、高性价比的 AI 应用铺平了道路，有望推动 AI 技术的民主化。 该手机搭载高通骁龙 855 芯片组，其性能归功于高效的量化（可能是 Q4_0 或 Q8）以及 llama.cpp 中为 ARM 处理器优化的 NEON SIMD 指令路径。虽然模型功能正常，但有社区成员指出它主要理解英语，在其他语言中实用性可能有限。",
+  "score": 7,
+  "tags": [
+    "edge-ai",
+    "llama.cpp",
+    "model-efficiency",
+    "mobile-computing",
+    "qwen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 21:21"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/mg9ixtw58pmg1.png",
+  "originalSite": "i.redd.it",
+  "context": "Qwen3.5 是阿里巴巴通义千问团队推出的一系列开源权重的大语言模型，其变体涵盖从 0.6B 参数的小模型到庞大的稠密模型和混合专家（MoE）模型。Llama.cpp 是一个基于 C/C++ 的开源推理引擎，旨在通过各种硬件（包括 CPU）高效运行 LLM，它利用量化技术来减小模型大小和内存需求。Termux 是一个用于 Android 的终端模拟器和 Linux 环境应用，允许用户运行命令行工具和软件，使其成为进行设备端 AI 实验的热门平台。",
+  "discussion": "社区对技术进步表示惊叹，指出一年前还无法想象一个 0.8B 的模型能进行连贯的对话。技术讨论集中在所使用的量化方法（Q4_0 与 Q8）、NEON SIMD 优化在老旧 ARM 芯片上实现性能的作用，以及 llama.cpp 的安装细节。一些用户分享了他们在不同手机上的测试结果，而另一些用户则质疑较小模型在非英语任务中的实际效用。",
+  "references": [
+    {
+      "title": "Qwen/Qwen3-8B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B"
+    },
+    {
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "title": "How to compile LLM on Android using LLama.cpp - Medium",
+      "url": "https://medium.com/@mmonteirojs/how-to-compile-any-llm-on-android-using-llama-cpp-46885569768d"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

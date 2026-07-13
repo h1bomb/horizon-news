@@ -1,0 +1,44 @@
+{
+  "id": "24f6c3ead63be302f07242fd5858ba09745daa84",
+  "canonicalId": "cbe64fc809c74898f47ebd2fe817f64f6459ce8a",
+  "slug": "报告称美国海关与边境保护局利用广告定位数据进行监控",
+  "date": "2026-03-07",
+  "publishedAt": "2026-03-07T00:00:00Z",
+  "lang": "zh",
+  "title": "报告称美国海关与边境保护局利用广告定位数据进行监控",
+  "summary": "404 Media 获取的文件显示，美国海关与边境保护局承认在 2019 年至 2021 年的一项试点项目中，使用了“商业可得的营销位置数据”进行监控。其中部分数据来源于网络广告实时竞价系统。 这一发现之所以重要，是因为它揭示了一个联邦执法机构通过从商业广告市场购买敏感位置数据，绕过了传统的法律程序，引发了重大的隐私和公民自由担忧。它凸显了庞大且基本不受监管的数据经纪行业如何可能成为政府监控的工具。 据报道，这些数据包括应用与网站在广告竞价或通过软件开发工具包传出的广告标识符、GPS 坐标和 IP 地址等信息，随后被数据经纪商收集并出售。报道还指出，相关联邦机构在该试点项目结束后，仍在持续采购商业位置追踪工具。",
+  "score": 7,
+  "tags": [
+    "surveillance",
+    "privacy",
+    "advertising-technology",
+    "government",
+    "data-brokers"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Mar 6, 13:48"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/",
+  "originalSite": "404media.co",
+  "context": "实时竞价是用于买卖在线广告展示位的自动化即时拍卖系统。在此过程中，应用和网站可以向潜在广告商传输用户数据点，如广告标识符（例如苹果的 IDFA）和位置信息。数据经纪商随后从整个数字广告生态系统中收集这些信息，将其打包并出售给各类客户，从而描绘出个人行动和习惯的详细图景。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Real-time bidding - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Real-time_bidding"
+    },
+    {
+      "title": "Location Data Brokers | Electronic Frontier Foundation",
+      "url": "https://www.eff.org/issues/location-data-brokers"
+    },
+    {
+      "title": "Identifier for Advertisers - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Identifier_for_Advertisers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

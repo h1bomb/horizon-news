@@ -1,0 +1,44 @@
+{
+  "id": "0a4270093af55cf5c9a28f4efe18fdc08515d4a7",
+  "canonicalId": "40cc5ea5d6f3251ddbca42b8deecad4a8930a454",
+  "slug": "苹果新版-siri-将采用谷歌和英伟达芯片处理云端-ai",
+  "date": "2026-06-05",
+  "publishedAt": "2026-06-04T11:37:00Z",
+  "lang": "zh",
+  "title": "苹果新版 Siri 将采用谷歌和英伟达芯片处理云端 AI",
+  "summary": "据报道，苹果计划将新版 Siri 的云端 AI 查询交由谷歌数据中心处理，使用英伟达 Blackwell B200 芯片，这一做法打破了其惯用的自研硬件策略。 这一转变表明苹果在 AI 性能竞争中的务实需求，可能重塑其对第三方硬件和云服务商的依赖格局，影响整个 AI 生态链。 B200 GPU 基于英伟达 Blackwell 架构，专为大规模 AI 工作负载设计，并包含硬件级加密以保护数据安全，回应了隐私方面的担忧。",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "Siri",
+    "AI",
+    "Nvidia",
+    "Google"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.macrumors.com/2026/06/04/apple-siri-rely-on-google-nvidia-chips/",
+  "originalSite": "macrumors.com",
+  "context": "苹果历来优先自研芯片，如 A 系列和 M 系列处理器。然而，在其自有服务器上运行 Gemini 等大型语言模型的速度过慢，因此不得不转向云服务合作伙伴。英伟达的 Blackwell GPU 是最新高性能 AI 加速器，而谷歌云提供可扩展的基础设施。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Blackwell (microarchitecture) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)"
+    },
+    {
+      "title": "DGX B200: The Foundation for Your AI Factory | NVIDIA",
+      "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/"
+    },
+    {
+      "title": "Confidential Computing on NVIDIA H100 GPUs for Secure and",
+      "url": "https://developer.nvidia.com/blog/confidential-computing-on-h100-gpus-for-secure-and-trustworthy-ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

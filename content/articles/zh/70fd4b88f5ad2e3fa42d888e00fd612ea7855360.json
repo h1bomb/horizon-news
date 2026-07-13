@@ -1,0 +1,40 @@
+{
+  "id": "70fd4b88f5ad2e3fa42d888e00fd612ea7855360",
+  "canonicalId": "d38d0c564145b9c52e76f0074933bbbd86addcba",
+  "slug": "探索-linux-内核的-iomap-层",
+  "date": "2026-07-06",
+  "publishedAt": "2026-07-06T14:37:00Z",
+  "lang": "zh",
+  "title": "探索 Linux 内核的 iomap 层",
+  "summary": "Jonathan Corbet 在 LWN 上发表了一篇深入文章，解释了 Linux 内核中的 iomap 层，该层处理文件系统空间和存储空间之间的映射，由 Christoph Hellwig 在内核 4.8 中引入。 这篇文章填补了关于核心文件系统组件的知识空白，帮助内核开发者更好地理解和使用 iomap，以实现高效的 I/O 并减少文件系统实现中的样板代码。 iomap 结构使用单个结构体表示大范围 extent，取代了旧的 buffer-head 机制，并支持块设备和 DAX 持久内存。它由底层映射层和上层操作层组成。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "filesystem",
+    "iomap",
+    "storage",
+    "XFS"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1079415/",
+  "originalSite": "lwn.net",
+  "context": "在 iomap 之前，Linux 内核使用 buffer heads 在磁盘块和内存之间进行映射，这对于大文件和基于 extent 的文件系统效率低下。iomap 最初源自 XFS 的现有实现，后来被 ext4 和 btrfs 等许多文件系统用于直接 I/O。它为缓冲 I/O 和直接 I/O 提供了统一的接口。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "1. Library Design — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/filesystems/iomap/design.html"
+    },
+    {
+      "title": "KernelProjects/iomap - Linux Kernel Newbies linux/Documentation/filesystems/iomap/design.rst at master ... iomap: Buffered I/O and Direct I/O Mapping | torvalds/linux ... News [LWN.net] [$] The kernel's iomap layer - Linux.org Filesystems and iomap - LWN.net",
+      "url": "https://kernelnewbies.org/KernelProjects/iomap"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

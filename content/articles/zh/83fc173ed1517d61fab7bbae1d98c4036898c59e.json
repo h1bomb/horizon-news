@@ -1,0 +1,44 @@
+{
+  "id": "83fc173ed1517d61fab7bbae1d98c4036898c59e",
+  "canonicalId": "3f93864cbfa8d62bd56c79e0b605f1aff845ad6d",
+  "slug": "ios-27-trust-insights设备端防诈骗保护隐私",
+  "date": "2026-07-04",
+  "publishedAt": "2026-07-04T14:30:00Z",
+  "lang": "zh",
+  "title": "iOS 27 Trust Insights：设备端防诈骗，保护隐私",
+  "summary": "Apple 在 iOS 27 中推出了 Trust Insights 功能，这是一个设备端反欺诈功能，通过分析用户行为模式来检测诈骗，而不会读取信息或照片等个人内容。 该功能在完全设备端处理数据并仅向服务器发送一个匿名输出的同时，增强了用户抵御电话诈骗的安全性，并保持了强大的隐私保护。 Trust Insights 利用设备传感器数据和上下文分析，识别类似被诈骗分子指导转账或改账户的可疑行为；在交易前可触发警告、短暂延迟或额外身份验证。",
+  "score": 8,
+  "tags": [
+    "iOS",
+    "security",
+    "anti-fraud",
+    "privacy",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.cultofmac.com/news/ios-27-trust-insights-feature",
+  "originalSite": "cultofmac.com",
+  "context": "设备端反欺诈检测利用本地 AI 分析来捕捉可疑活动，而无需将原始数据发送到云端，从而保护隐私。冷却期是指更改（如绑定新设备）后的安全窗口，在此期间临时锁定设置，防止诈骗分子禁用保护功能。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "On-Device Privacy-Preserving Fraud Detection for Smart Consumer Environments Using Federated Learning",
+      "url": "https://www.mdpi.com/2076-3417/16/2/835"
+    },
+    {
+      "title": "Device Intelligence: How It Detects Fraud in Real Time",
+      "url": "https://sumsub.com/blog/device-intelligence-fraud-detection/"
+    },
+    {
+      "title": "What is UPI Cooling Period? Limits & Safety Window | HeroFinCorp",
+      "url": "https://www.herofincorp.com/blog/what-is-upi-cooling-period"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

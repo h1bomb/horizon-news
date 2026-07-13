@@ -1,0 +1,35 @@
+{
+  "id": "69cc749be955ae732dea42827035f5829d62fbb4",
+  "canonicalId": "21206fc5ab123315b5529fb9eb6d6d3a6a77aa70",
+  "slug": "bpf-integration-into-linux-memory-management-faces-obstacles",
+  "date": "2026-05-16",
+  "publishedAt": "2026-05-15T14:54:00Z",
+  "lang": "en",
+  "title": "BPF integration into Linux memory management faces obstacles",
+  "summary": "At the 2026 LSFMM+BPF summit, Roman Gushchin and Shakeel Butt led sessions identifying obstacles and requirements for using BPF (Berkeley Packet Filter) to control memory management heuristics, such as out-of-memory handling and NUMA balancing. If successful, BPF-based memory management could allow flexible, user-defined policies without kernel changes, potentially improving performance and adaptability for diverse workloads. Key obstacles include out-of-tree BPF programs, inability to attach struct ops programs to control groups, and safety/fallback concerns where a broken BPF program could crash the system.",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "BPF",
+    "memory management",
+    "kernel development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1072538/",
+  "originalSite": "lwn.net",
+  "context": "The Linux Storage, Filesystem, Memory Management & BPF Summit (LSFMM+BPF) is an annual invitation-only event where kernel developers discuss improvements. BPF allows running sandboxed programs in the kernel, but its use in memory management is still experimental. Previous proposals for BPF-controlled memory heuristics have not been merged into the mainline kernel.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linux Storage, Filesystem, MM & BPF Summit | LF Events",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

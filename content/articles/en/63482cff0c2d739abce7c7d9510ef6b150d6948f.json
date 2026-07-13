@@ -1,0 +1,36 @@
+{
+  "id": "63482cff0c2d739abce7c7d9510ef6b150d6948f",
+  "canonicalId": "3acf4c7ce15e0c93b72f96fd76af30e304ea2d54",
+  "slug": "glm-51-runs-locally-at-40-tps-2000-pps",
+  "date": "2026-04-26",
+  "publishedAt": "2026-04-25T16:31:00Z",
+  "lang": "en",
+  "title": "GLM-5.1 Runs Locally at 40 tps, 2000+ pp/s",
+  "summary": "A user achieved 40 tokens/sec generation and over 2000 prefilled tokens/sec running the 478B-parameter GLM-5.1 model locally on 4 NVIDIA RTX 6000 Pro GPUs using REAP-NVFP4 quantization and custom SGLang patches. This demonstrates that very large open-source models (478B parameters) can be run efficiently on consumer-grade hardware, potentially democratizing access to frontier-level LLMs for local inference and development. The setup uses 4 RTX 6000 Pro GPUs (limited to 350W each) with REAP-NVFP4 quantization (which prunes experts from 256 to 154) and two small patches to SGLang for Blackwell architecture support. Throughput degrades gracefully with context depth, from 2229 pp/s at 0 prefilled to 863 pp/s at 64K context.",
+  "score": 8,
+  "tags": [
+    "LLM inference",
+    "local LLM",
+    "quantization",
+    "hardware optimization",
+    "GLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "val_in_tech"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1svgtlh/glm_51_locally_40tps_2000_pps/",
+  "originalSite": "reddit.com",
+  "context": "GLM-5.1 is a large language model with 478 billion parameters, making it one of the largest open-weight models. REAP-NVFP4 is a quantization technique that combines expert pruning (REAP) with NVIDIA's FP4 format to reduce model size and memory bandwidth requirements. SGLang is a high-performance serving framework for LLMs, and the RTX 6000 Pro is NVIDIA's Blackwell-architecture workstation GPU with 96 GB of memory.",
+  "discussion": "The Reddit community reacted positively (92% upvote ratio), with users impressed by the throughput and asking about further optimization and concurrency settings. The author noted that inference software is still under-optimized for these cards and expects true potential to unfold soon.",
+  "references": [
+    {
+      "title": "Accelerating large language models with NVFP4 quantization",
+      "url": "https://developers.redhat.com/articles/2026/02/04/accelerating-large-language-models-nvfp4-quantization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

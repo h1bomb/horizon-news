@@ -1,0 +1,40 @@
+{
+  "id": "090c5f3150a70d3bb6b2e18fc3c1415f2864d3ca",
+  "canonicalId": "772931f3e7c758240e00efa989ddfdb7bbd1708c",
+  "slug": "opencode-默认配置将请求代理至外部服务器损害本地隐私",
+  "date": "2026-03-17",
+  "publishedAt": "2026-03-17T00:00:00Z",
+  "lang": "zh",
+  "title": "OpenCode 默认配置将请求代理至外部服务器，损害本地隐私",
+  "summary": "用户发现，当运行 `opencode serve` 并使用 web UI 时，OpenCode 的默认配置会将所有请求内部代理至 https://app.opencode.ai，且无法更改此行为或本地提供 web 应用。此外，TUI 会将初始提示上传至其服务器 https://opencode.ai/zen/v1/responses 以生成标题，无论是否使用本地模型。 这很重要，因为 OpenCode 以本地 LLM 使用为卖点，隐私和数据控制是其关键优势；默认的代理和数据上传破坏了这些承诺，可能将敏感提示和使用数据暴露给外部服务器。这突显了开源工具在处理私人数据时的透明度和信任问题，尤其是在本地 LLM 因隐私敏感应用而日益普及的背景下。 代理行为在服务器代码中硬编码，没有启动标志或配置选项可禁用它，多个 GitHub pull request 和 issue（如 #12446、#12829）提及此问题但尚未解决。标题功能即使用户使用本地模型也会上传提示，除非明确禁用或指定不同的 small_model，这引发了进一步的隐私担忧。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "open-source",
+    "local-llm",
+    "security",
+    "transparency"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 16, 10:55"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rv690j/opencode_concerns_not_truely_local/",
+  "originalSite": "reddit.com",
+  "context": "OpenCode 是一款专为本地 LLM（大语言模型）使用设计的开源工具，允许用户在自己的硬件上运行和交互模型，以保持隐私和控制。本地 LLM 是云端解决方案的替代品，通过将推理和提示保留在用户环境中来提供数据安全性。`opencode serve` 命令通常运行一个无头 HTTP 服务器以提供 API 访问，但在此情况下，它默认将请求代理至外部。",
+  "discussion": "社区对隐私侵犯和缺乏透明度表示强烈担忧，评论指出其他可疑做法，如拒绝合并性能指标的 PR 以及 OpenCode Zen 中不明确的商业化。一些用户建议替代方案如 nanocoder 以寻求真正的开源解决方案，而其他人则强调开源审计在揭露此类问题方面的价值，尽管对 OpenCode 做法的不满普遍存在。",
+  "references": [
+    {
+      "title": "Server | OpenCode",
+      "url": "https://opencode.ai/docs/server/"
+    },
+    {
+      "title": "Evaluating Local LLMs on Translation Use Case with Lumigator",
+      "url": "https://blog.mozilla.ai/evaluating-local-llms-on-translation-use-case-with-lumigator/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

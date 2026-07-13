@@ -1,0 +1,44 @@
+{
+  "id": "9a4f02efd88dc303f05e166fcc5799949e7264e0",
+  "canonicalId": "01b7318dc8e8926882789a25c8cc08b9b4b786f6",
+  "slug": "谷歌搜索更新反垃圾政策打击后退按钮劫持行为违规站点将面临降权",
+  "date": "2026-04-15",
+  "publishedAt": "2026-04-15T00:00:00Z",
+  "lang": "zh",
+  "title": "谷歌搜索更新反垃圾政策，打击后退按钮劫持行为，违规站点将面临降权。",
+  "summary": "谷歌搜索近日更新反垃圾内容政策，将后退按钮劫持列为恶意违规行为，该政策将于 2026 年 6 月 15 日起正式实施。此政策针对那些通过脚本干扰浏览器功能、阻止用户返回上一页并重定向至广告或未经请求页面的网站。 这一更新很重要，因为它针对日益增长的欺骗性行为，这些行为损害了用户体验和信任，有望提升网页导航标准。它将影响 SEO 和网页开发，对违规站点进行人工处置或自动降权，从而推动整个行业采用更清洁、用户友好的设计。 谷歌已观察到后退按钮劫持行为呈上升趋势，并为网站所有者提供两个月的整改期，要求其自查并移除涉及劫持的代码、库或广告平台配置。处罚措施可能包括人工处置或自动降权，这可能会严重影响网站在搜索结果中的可见度。",
+  "score": 7,
+  "tags": [
+    "Google Search",
+    "Web Development",
+    "SEO",
+    "User Experience",
+    "Anti-Spam"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "Apr 14, 08:48"
+    }
+  ],
+  "originalUrl": "https://9to5google.com/2026/04/13/google-search-back-button-hijacking/",
+  "originalSite": "9to5google.com",
+  "context": "后退按钮劫持是一种技术，网站通过 JavaScript 脚本操纵浏览器的历史 API，例如添加条目或改变对后退命令的响应，阻止用户返回上一页。这通常会将用户重定向至广告或不需要的页面，利用浏览器功能进行垃圾信息或欺骗性目的。由于其对用户体验和信任的负面影响，这种做法已成为网页开发和 SEO 领域的一个关注点。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing a new spam policy for \"back button hijacking\" | Google Search Central Blog | Google for Developers",
+      "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking"
+    },
+    {
+      "title": "What is Back Button Hijack? A glossary entry about online risks",
+      "url": "https://wolf-of-seo.de/en/what-is/back-button-hijack/"
+    },
+    {
+      "title": "History API - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

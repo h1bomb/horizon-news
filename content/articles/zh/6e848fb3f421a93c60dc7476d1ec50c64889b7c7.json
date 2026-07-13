@@ -1,0 +1,41 @@
+{
+  "id": "6e848fb3f421a93c60dc7476d1ec50c64889b7c7",
+  "canonicalId": "775cee3845f68743f18858afa335ef49bccba382",
+  "slug": "苹果披露基于谷歌-gemini-模型的新-ai-架构",
+  "date": "2026-06-09",
+  "publishedAt": "2026-06-08T19:14:00Z",
+  "lang": "zh",
+  "title": "苹果披露基于谷歌 Gemini 模型的新 AI 架构",
+  "summary": "苹果宣布了一套整合谷歌 Gemini 模型的新 AI 架构，强调通过设备端处理和私有云计算来保护隐私。 此次合作使苹果能够利用谷歌的先进 AI，同时保持其强大的隐私立场，可能为设备端 AI 树立新标准，并对 OpenAI 和 Anthropic 等竞争对手形成挑战。 该架构使用设备端处理和私有云计算，苹果保证用户数据仅用于即时请求，苹果或第三方无法访问；外部专家可随时验证这些隐私保障。",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "Google Gemini",
+    "AI architecture",
+    "privacy",
+    "on-device AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "unclefuzzy",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48450142"
+    }
+  ],
+  "originalUrl": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+  "originalSite": "macrumors.com",
+  "context": "Apple Intelligence 是苹果的一套 AI 功能，优先采用设备端处理以保护用户隐私。私有云计算在此基础上扩展，能在苹果自有的云基础设施中处理更复杂的请求而不存储数据。谷歌 Gemini 是由 Google DeepMind 开发的一系列大型语言模型，以高级推理和多模态能力著称。",
+  "discussion": "评论者反应不一：luk212 称这是‘非常苹果式的方法’，将外部工具包裹在隐私架构中；microflash 指出未在欧盟推出令人担忧；NorwegianDude 质疑苹果隐私声明的可行性；bensyverson 希望获得更多关于模型集成的技术细节；dejawu 想知道苹果为何选择谷歌而非 Anthropic 或 OpenAI，可能面临差异化不足的风险。",
+  "references": [
+    {
+      "title": "Gemini (language model) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)"
+    },
+    {
+      "title": "Gemini 3.1 Pro — Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/pro/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

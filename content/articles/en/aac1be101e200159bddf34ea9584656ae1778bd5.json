@@ -1,0 +1,44 @@
+{
+  "id": "aac1be101e200159bddf34ea9584656ae1778bd5",
+  "canonicalId": "b271cd42d0975a70c8e198d3d1e745492c9581f9",
+  "slug": "textgen-launches-as-native-desktop-app-open-source-lm-studio-alternative",
+  "date": "2026-05-14",
+  "publishedAt": "2026-05-13T13:00:00Z",
+  "lang": "en",
+  "title": "TextGen launches as native desktop app, open-source LM Studio alternative",
+  "summary": "TextGen (formerly text-generation-webui) has been transformed from a web UI into a no-install, portable desktop application for Windows, Linux, and macOS, with a polished Electron-based UI and zero outbound requests. This update fills a major gap in the open-source local LLM ecosystem by providing a free, private, and fully open-source alternative to the popular but proprietary LM Studio, giving users more control and competition. TextGen ships with portable builds for CUDA, Vulkan, CPU-only, Apple Silicon/Intel, and ROCm; it uses ik_llama.cpp which offers new quantization types not found in vanilla llama.cpp used by LM Studio and Ollama.",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "open-source",
+    "desktop app",
+    "local AI",
+    "TextGen"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "oobabooga4"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tbyyee/textgen_is_now_a_native_desktop_app_opensource/",
+  "originalSite": "reddit.com",
+  "context": "TextGen, initially created by oobabooga in December 2022, predates Llama and llama.cpp and became one of the first popular web UIs for running local LLMs. LM Studio, a leading alternative, is also an Electron app but is proprietary and phones home with system data. Electron is a framework for building cross-platform desktop apps using web technologies.",
+  "discussion": "The community reaction is overwhelmingly positive, with users expressing excitement about having a private, open-source alternative to LM Studio. Many recall their early days with the project and appreciate the continuous improvement; some ask about technical details like upgrading to Gradio 6 or installing the latest llama.cpp.",
+  "references": [
+    {
+      "title": "LM Studio",
+      "url": "https://grokipedia.com/page/LM_Studio"
+    },
+    {
+      "title": "LM Studio: Complete Setup and Usage Guide - ML Journey",
+      "url": "https://mljourney.com/lm-studio-complete-setup-and-usage-guide/"
+    },
+    {
+      "title": "Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron",
+      "url": "https://www.electronjs.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

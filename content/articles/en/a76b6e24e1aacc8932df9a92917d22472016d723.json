@@ -1,0 +1,44 @@
+{
+  "id": "a76b6e24e1aacc8932df9a92917d22472016d723",
+  "canonicalId": "3de6468402d02adb155606430a30fed3ed8997a1",
+  "slug": "openai-releases-gpt-54-mini-and-nano-models-with-improved-performance-and-lower-pricing",
+  "date": "2026-03-18",
+  "publishedAt": "2026-03-17T19:39:00Z",
+  "lang": "en",
+  "title": "OpenAI releases GPT-5.4 mini and nano models with improved performance and lower pricing",
+  "summary": "OpenAI has released GPT-5.4 mini and GPT-5.4 nano models, which join the GPT-5.4 model released two weeks ago. According to OpenAI's benchmarks, the 5.4-nano outperforms the previous GPT-5 mini model at maximum reasoning effort, while the new mini is twice as fast as its predecessor. These new models significantly reduce AI inference costs, with GPT-5.4 nano priced at just $0.20 per million input tokens, making it cheaper than Google's Gemini 3.1 Flash-Lite. This development intensifies price competition in the AI model market and makes large-scale AI applications like image description more economically feasible. The author demonstrated that describing a single photo using GPT-5.4 nano cost only 0.069 cents, meaning describing all 76,000 photos in their collection would cost approximately $52.44. The models feature different pricing tiers for input, cached input, and output tokens, with GPT-5.4 nano offering the lowest rates at $0.20/$0.02/$1.25 per million tokens respectively.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "OpenAI",
+    "GPT-5.4",
+    "Machine Learning",
+    "Pricing"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "GPT-5.4 is OpenAI's newest language model, designed for agent workflows with capabilities for planning and delegation. In AI pricing, costs are typically calculated per million tokens, where tokens represent units of text or converted media like images. Cached input refers to a system that stores processed input tokens to improve performance and reduce costs for repeated queries.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GPT-5.4 is now the default model in Augment and free for a",
+      "url": "https://www.augmentcode.com/blog/why-gpt-5-4-is-our-new-default-and-free-for-now"
+    },
+    {
+      "title": "Pricing | OpenAI",
+      "url": "https://openai.com/api/pricing/"
+    },
+    {
+      "title": "LLM Observability - Cost calculation for OpenAI cached input uses...",
+      "url": "https://github.com/PostHog/posthog/issues/32050"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

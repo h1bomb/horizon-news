@@ -1,0 +1,44 @@
+{
+  "id": "96443830b86f8424240b237e2ba0c948ef57e1db",
+  "canonicalId": "0af5d22b07fa4f184261efa4afcbbcc80837e80e",
+  "slug": "agenthandover开源-mac-应用利用-gemma-4-通过屏幕观察自动创建智能体技能",
+  "date": "2026-04-08",
+  "publishedAt": "2026-04-08T00:00:00Z",
+  "lang": "zh",
+  "title": "AgentHandover：开源 Mac 应用利用 Gemma 4 通过屏幕观察自动创建智能体技能",
+  "summary": "AgentHandover 是一款开源 Mac 菜单栏应用，它通过 Ollama 本地运行的 Gemma 4 AI 模型观察屏幕活动，自动为 AI 智能体生成结构化技能文件。该工具提供针对特定任务的专注记录模式，以及通过重复观察识别工作流模式的被动发现模式。 这解决了智能体自动化中的一个重要瓶颈，消除了手动记录工作流程的需求，可能加速智能体部署并使非技术用户也能使用自动化。本地处理确保了隐私，而 MCP 集成使得 Claude Code 和 Cursor 等各种智能体平台能够无缝采用这些技能。 该系统通过 11 阶段流水线完全在设备上运行，数据存储经过加密，技能通过每次观察更新步骤、防护栏和置信度分数来迭代改进。它通过模型上下文协议（MCP）提供一键智能体集成，并包含 GUI 和 CLI 界面，但目前仅限于 macOS，尚未宣布对 Windows 或 Linux 的支持。",
+  "score": 7,
+  "tags": [
+    "AI-Agents",
+    "Automation",
+    "Open-Source",
+    "Machine-Learning",
+    "Workflow-Optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Apr 7, 14:50"
+    }
+  ],
+  "originalUrl": "https://v.redd.it/hgpvlzsf6stg1",
+  "originalSite": "v.redd.it",
+  "context": "Gemma 4 是谷歌的开源 AI 模型系列，专为推理、智能体工作和代码生成设计，是专有模型更易获取的替代方案。Ollama 是本地部署大语言模型的流行工具，支持无需云依赖的隐私保护 AI 应用。模型上下文协议（MCP）作为通用接口，允许 AI 智能体通过标准化通信集成外部工具和数据源。",
+  "discussion": "社区评论显示对该概念的热情，赞扬其开源性质和潜在影响，而实际问题集中在技术实现细节上，如截图频率、GPU 要求和平台支持。几位用户表示打算尝试该工具，并提出了超越纯自动化的文档和知识库应用需求。",
+  "references": [
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+    },
+    {
+      "title": "Deploy LLMs Locally with Ollama : Your Complete Guide to Local AI ...",
+      "url": "https://medium.com/@bluudit/deploy-llms-locally-with-ollama-your-complete-guide-to-local-ai-development-ba60d61b6cea"
+    },
+    {
+      "title": "Model Context Protocol (MCP) in Agentic AI: Architecture and ...",
+      "url": "https://medium.com/ai-insights-cobet/model-context-protocol-mcp-in-agentic-ai-architecture-and-industrial-applications-7e18c67e2aa7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "c049f96620b900c0ac82b1fff7a3a2f277f031b9",
+  "canonicalId": "420650747121d4f4f5aa46317429d9f1f61fba5c",
+  "slug": "stepfun-发布-step-35-flash-的两个基础模型及训练框架",
+  "date": "2026-03-03",
+  "publishedAt": "2026-03-03T00:00:00Z",
+  "lang": "zh",
+  "title": "StepFun 发布 Step 3.5 Flash 的两个基础模型及训练框架",
+  "summary": "StepFun 发布了其 Step 3.5 Flash 大语言模型的两个基础模型，并开源了其 SteptronOSS 训练框架。此次发布提供了开发该模型所需的基础组件和训练流程。 这是一项重要的开源贡献，为研究者和开发者提供了一个前沿 AI 模型背后的构建模块和方法论。特别是发布训练框架，增强了透明度和可复现性，使得社区能够研究、调整并基于 StepFun 的工作进行构建。 Step 3.5 Flash 模型被描述为具有 110 亿活跃参数，提供“开放前沿级智能”。此次发布的基础模型很可能作为核心架构或检查点，用于微调或扩展出完整模型。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "open-source",
+    "machine-learning",
+    "model-training",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mar 2, 20:57"
+    }
+  ],
+  "originalUrl": "https://x.com/StepFun_ai/status/2028551435290554450",
+  "originalSite": "x.com",
+  "context": "StepFun 是一家以开发大规模模型而闻名的 AI 实验室，此前曾发布过万亿参数的 Step-2 LLM 以及 Step-1.5V 等模型。“基础模型”通常指在针对特定任务进行专业化之前，经过预训练的通用语言模型。训练框架则是用于训练此类模型的软件基础设施和方法论，包括数据处理、优化算法和分布式计算策略。",
+  "discussion": "社区反应非常积极且热烈。评论者称赞此次发布“太棒了”并且“对开源意义重大”，特别强调了开源训练流程（SteptronOSS）的价值。一位用户表达了对未来模型更新的期待，表明了对 StepFun 发展的持续关注。",
+  "references": [
+    {
+      "title": "StepFun - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/StepFun"
+    },
+    {
+      "title": "stepfun-ai (StepFun)",
+      "url": "https://huggingface.co/stepfun-ai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

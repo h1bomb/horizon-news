@@ -1,0 +1,44 @@
+{
+  "id": "b70d78d0248875ab4d51c36b34a982bb84aaf006",
+  "canonicalId": "146edddf2d1927c487df4904efde5a35269cea14",
+  "slug": "fake-openai-privacy-filter-repo-tops-hugging-face-trends",
+  "date": "2026-05-12",
+  "publishedAt": "2026-05-11T12:51:00Z",
+  "lang": "en",
+  "title": "Fake OpenAI Privacy Filter Repo Tops Hugging Face Trends",
+  "summary": "A malicious repository named Open-OSS/privacy-filter impersonated OpenAI's privacy filter on Hugging Face, distributing a Rust-based infostealer via a loader script. It reached the platform's trending top, amassed 244k downloads and 667 likes, and was subsequently taken down. This incident highlights critical supply chain vulnerabilities in the open-source AI ecosystem, as attackers impersonated a trusted brand to spread malware. It underscores the urgent need for stronger security measures on model hubs like Hugging Face to protect developers and users from data theft. Security firm HiddenLayer discovered six additional similar repositories, and the same infrastructure was used to distribute ValleyRAT, a remote access trojan. The attack infrastructure overlaps with the Silver Fox hacker group, known for tax-themed phishing campaigns.",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain-attack",
+    "hugging-face",
+    "malware",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+  "originalSite": "thehackernews.com",
+  "context": "Hugging Face is a popular platform for hosting and sharing machine learning models and datasets, often used by developers in AI pipelines. Supply chain attacks target these platforms by injecting malicious code into seemingly legitimate packages, compromising downstream users. ValleyRAT is a remote access trojan that grants attackers unauthorized control over infected systems, and Silver Fox is a threat actor group known for deploying malware via decoy tax-related documents.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "New Updates to ValleyRAT | ThreatLabz - Zscaler",
+      "url": "https://www.zscaler.com/blogs/security-research/technical-analysis-latest-variant-valleyrat"
+    },
+    {
+      "title": "Cracking ValleyRAT: From Builder Secrets to Kernel Rootkits",
+      "url": "https://research.checkpoint.com/2025/cracking-valleyrat-from-builder-secrets-to-kernel-rootkits/"
+    },
+    {
+      "title": "Hacker group targeted companies in South Africa using fake SARS...",
+      "url": "https://mybroadband.co.za/news/security/646153-hacker-group-targeted-companies-in-south-africa-using-fake-sars-notifications.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

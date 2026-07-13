@@ -1,0 +1,43 @@
+{
+  "id": "f701d9b50da7ce5d46343c672a34282e431dd429",
+  "canonicalId": "b4b9a18ff35d10c08647c7dcd8546f0a9c80b55f",
+  "slug": "av2-参考编码器发布首个-100-版本",
+  "date": "2026-06-01",
+  "publishedAt": "2026-05-31T14:08:00Z",
+  "lang": "zh",
+  "title": "AV2 参考编码器发布首个 1.0.0 版本",
+  "summary": "AOMedia 在 AVM GitHub 仓库中标记了 AV2 参考编码器的首个 1.0.0 版本，标志着下一代免版税视频编码格式迈出了第一步。 此次发布标志着 AV2 编解码器向实用化迈进，其目标是在相同视觉质量下比特率比 AV1 降低约 30%，有望以更高效率重塑视频流媒体、广播和实时通信等领域。 当前 AVM 软件是用于定义和测试格式的参考实现，而非优化的生产级编码器；其编码速度仍然很慢，细节保留问题尚未解决，且 AV2 规范仍为草案。",
+  "score": 8,
+  "tags": [
+    "AV2",
+    "video codec",
+    "AOMedia",
+    "reference encoder"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/aomedias-av2-encoder-gets-first-1-0-0-release",
+  "originalSite": "videocardz.com",
+  "context": "AV2 是开放媒体联盟（AOMedia）开发的一种开放、免版税的视频编码格式，是广泛使用的 AV1 的后续版本。工作始于 2020 年，原型实现显示在相同质量下比特率比 AV1 降低约 30%。AV2 预计将与基于版税的 VVC（H.266）格式在市场上展开竞争。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AV2 (video coding format)",
+      "url": "https://en.wikipedia.org/wiki/AV2_(video_coding_format)"
+    },
+    {
+      "title": "AV 2 v1.0 Specification Released For Next-Gen Video Coding - Phoronix",
+      "url": "https://www.phoronix.com/news/AV2-1.0-Specification-Released"
+    },
+    {
+      "title": "AOMedia Announces Year-End Launch of Next Generation Video",
+      "url": "https://aomedia.org/press+releases/AOMedia-Announces-Year-End-Launch-of-Next-Generation-Video-Codec-AV2-on-10th-Anniversary/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

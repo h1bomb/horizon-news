@@ -1,0 +1,40 @@
+{
+  "id": "8499375c41a020a397023daf3b8d68fe8753b01e",
+  "canonicalId": "ff26d421f243c9eee70b0018e1e67895fb34d820",
+  "slug": "qwen35-27b-nearly-matches-397b-and-gpt-5-mini-in-game-agent-coding-league-benchmark",
+  "date": "2026-03-16",
+  "publishedAt": "2026-03-15T13:29:00Z",
+  "lang": "en",
+  "title": "Qwen3.5-27B nearly matches 397B and GPT-5 mini in Game Agent Coding League benchmark",
+  "summary": "In the March 2024 Game Agent Coding League (GACL) benchmark results, the Qwen3.5-27B model scored only 0.04 points behind the much larger Qwen-397B model, performing nearly as well as both the 397B and GPT-5 mini models. GPT-5.4 led the overall rankings, while Kimi2.5 emerged as the top open-weight model globally at position #6. This demonstrates that smaller, more parameter-efficient models like Qwen3.5-27B can achieve competitive performance in complex coding tasks, challenging the assumption that larger models always perform better. The results highlight the growing importance of model efficiency and architectural optimization in the AI development landscape, particularly for resource-constrained deployments. The GACL benchmark tests models on their ability to generate agent code for seven different games, with each model producing two agents that compete against others. The benchmark methodology has limitations, including the Tic-Tac-Toe game being ineffective as a discriminator since most models performed similarly, and the ranking system doesn't use modern methods like Elo ratings.",
+  "score": 7,
+  "tags": [
+    "AI-Benchmarks",
+    "Large-Language-Models",
+    "Coding-Agents",
+    "Model-Performance",
+    "Open-Source-AI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "kyazoglu"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/mgz0uly6n7pg1.png",
+  "originalSite": "i.redd.it",
+  "context": "The Game Agent Coding League (GACL) is a benchmark where AI models generate code for game-playing agents rather than playing games directly. Open-weight models refer to AI models whose architecture and trained weights are publicly available for download and modification, while closed-weight models keep these components proprietary. Qwen3.5-27B is a 27-billion parameter dense model from the Qwen series, known for its architectural efficiency and strong performance in coding tasks.",
+  "discussion": "Community members expressed mixed reactions, with some praising Qwen3.5-27B's strong performance in code generation tasks while others questioned the 397B model's disappointing results. Several users noted that the 27B model's performance aligns with their production experience, where parameter efficiency matters more than sheer size for individual code generation quality. Others raised methodological concerns about the benchmark's ranking system and suggested alternative games like chess or Robocode.",
+  "references": [
+    {
+      "title": "Qwen/Qwen3.5-27B · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-27B"
+    },
+    {
+      "title": "Open Weights vs . Closed Weights in Large Language Models",
+      "url": "https://id.linkedin.com/pulse/open-weights-vs-closed-large-language-models-mohit-awana-kj8sc?tl=id"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

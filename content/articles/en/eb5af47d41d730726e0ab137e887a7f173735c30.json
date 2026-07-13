@@ -1,0 +1,40 @@
+{
+  "id": "eb5af47d41d730726e0ab137e887a7f173735c30",
+  "canonicalId": "2b230cbec13a0eeebe74b822a9a87c4f73e39698",
+  "slug": "essay-calls-for-return-to-idiomatic-design-in-software",
+  "date": "2026-04-13",
+  "publishedAt": "2026-04-12T12:21:00Z",
+  "lang": "en",
+  "title": "Essay Calls for Return to Idiomatic Design in Software",
+  "summary": "John Loeber published an essay titled 'Bring Back Idiomatic Design' on February 26, 2023, advocating for a revival of idiomatic design principles in software to enhance user experience and interface consistency. The essay gained significant attention on Hacker News with 432 points and 218 comments, highlighting high community engagement. This matters because inconsistent and non-idiomatic software design leads to poor user experiences, increased learning curves, and reduced productivity, affecting both end-users and developers. A return to idiomatic design could foster better usability, standardization, and efficiency across the software industry, aligning with trends toward more intuitive and accessible interfaces. The essay notes that front-end development often prioritizes innovation over polish, leading to a lack of established idioms, and it uses examples like inconsistent date pickers and text submission behaviors to illustrate the problem. However, it acknowledges that some inconsistencies may arise from legitimate trade-offs, such as the value of real-time collaboration features over power-user shortcuts.",
+  "score": 7,
+  "tags": [
+    "software-design",
+    "user-interface",
+    "programming-practices",
+    "hacker-news",
+    "essay"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "phil294"
+    }
+  ],
+  "originalUrl": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+  "originalSite": "essays.johnloeber.com",
+  "context": "Idiomatic design in software refers to adhering to established conventions and best practices of a programming language or framework, making code and interfaces intuitive and consistent for users. It contrasts with non-idiomatic design, which can lead to confusion and inefficiency. Historically, system frameworks like Win32 for Windows and AppKit for macOS enforced idiomatic implementations, but modern web development often lacks such standardization. Sources: https://essays.johnloeber.com/p/4-bring-back-idiomatic-design, https://sdks.io/docs/best-practices/design/idiomatic-code/.",
+  "discussion": "The community discussion on Hacker News shows mixed sentiment, with some users agreeing that inconsistent design harms usability, citing examples like varying text submission behaviors in Slack and GitHub. Others argue that the lack of idioms stems from factors like rapid innovation in front-end development or poor design decisions by non-technical managers, while a few note that system frameworks historically provided better guidance but have been neglected.",
+  "references": [
+    {
+      "title": "#4: Bring Back Idiomatic Design - by John Loeber - Substack",
+      "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design"
+    },
+    {
+      "title": "What is idiomatic code? - SDKs.io",
+      "url": "https://sdks.io/docs/best-practices/design/idiomatic-code/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

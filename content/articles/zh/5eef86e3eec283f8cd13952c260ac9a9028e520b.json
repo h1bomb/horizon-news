@@ -1,0 +1,43 @@
+{
+  "id": "5eef86e3eec283f8cd13952c260ac9a9028e520b",
+  "canonicalId": "e6a7adf7506919407db99ed221aad41b5e564acd",
+  "slug": "pip-261-发布新增依赖冷却和-pylock-支持",
+  "date": "2026-04-28",
+  "publishedAt": "2026-04-28T00:00:00Z",
+  "lang": "zh",
+  "title": "pip 26.1 发布，新增依赖冷却和 pylock 支持",
+  "summary": "pip 26.1 已发布，引入了依赖冷却功能、对 pylock.toml 文件的实验性支持、解析器改进、安全修复，并终止了对 Python 3.9 的支持。 此版本对 Python 开发者意义重大，因为它提高了依赖解析的可靠性，通过 pylock 支持增强了可重现性，并修复了安全漏洞，同时终止对 Python 3.9 的支持鼓励用户迁移到更新版本。 依赖冷却功能允许 pip 暂时避免重新解析最近已解析的依赖项，减少不必要的工作。实验性的 pylock 支持实现了 PEP 751，用于可重现安装，解析器改进解除了 2020 解析器的若干限制，进一步接近移除旧版解析器。",
+  "score": 7,
+  "tags": [
+    "pip",
+    "Python",
+    "package management",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Apr 27, 18:45"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1070010/",
+  "originalSite": "lwn.net",
+  "context": "pip 是 Python 的标准包安装工具。2020 解析器引入了更严格的依赖冲突检测，但存在一些限制，pip 26.1 解决了这些问题。依赖冷却功能受 uv（一个快速的 Python 包管理器）启发。pylock.toml 是 PEP 751 定义的新锁定文件格式，用于确保跨环境的可重现安装。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "pylock.toml Specification - Python Packaging User Guide",
+      "url": "https://packaging.python.org/en/latest/specifications/pylock-toml/"
+    },
+    {
+      "title": "Python Tools Are Quickly Adopting the New pylock.toml Standard",
+      "url": "https://socket.dev/blog/pylock-toml-standard-adoption"
+    },
+    {
+      "title": "Dependency cooldowns, redux",
+      "url": "https://blog.yossarian.net/2025/12/13/cooldowns-redux"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

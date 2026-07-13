@@ -1,0 +1,44 @@
+{
+  "id": "47823a9150dd9641607e4f00aff43b934034a322",
+  "canonicalId": "4b3f5c957f15ffd9f45be16a2b40ca14b98f692c",
+  "slug": "研究表明反向传播在一个训练周期内破坏-v1-脑对齐",
+  "date": "2026-06-03",
+  "publishedAt": "2026-06-02T12:43:00Z",
+  "lang": "zh",
+  "title": "研究表明反向传播在一个训练周期内破坏 V1 脑对齐",
+  "summary": "一项新研究表明，反向传播在 CIFAR-10 上仅训练一个周期后，V1 脑对齐就下降了 90%，而预测编码和 STDP 等局部学习规则保留了 69-75%的对齐。 这挑战了反向传播是生物学习良好模型的假设，至少在早期视觉皮层如此，并揭示了构建高级表征与维持低级脑对齐之间的根本权衡。这可能指导更符合生物学的 AI 算法的开发。 该研究在 40 个训练周期内的 8 个检查点测量了与人类 fMRI 的表征相似性分析(RSA)对齐，每种学习规则使用 5 个随机种子。反向传播与预测编码和 STDP 的 Cohen's d > 5，表明种子间差异极其一致。",
+  "score": 8,
+  "tags": [
+    "neuroscience",
+    "backpropagation",
+    "predictive coding",
+    "STDP",
+    "brain alignment"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ConfusionSpiritual19"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/",
+  "originalSite": "reddit.com",
+  "context": "反向传播是训练深度神经网络的标准算法，但由于需要对称权重和全局误差信号，它在生物学上不可信。预测编码和 STDP 等局部学习规则更符合生物神经元的学习方式，利用局部信息调整突触。该研究使用表征相似性分析(RSA)来比较人工神经网络表征与 fMRI 测量的脑活动模式的匹配程度。",
+  "discussion": "Reddit 社区讨论强调了结果在多个种子间的稳健性和有趣的权衡。一些评论者指出，仅使用 5 个种子的分辨率限制（p≈0.031）是一个局限，并建议在更深的架构上测试以观察模式是否更慢地保持。",
+  "references": [
+    {
+      "title": "Feedback Alignment Methods. A biologically-motivated... | Medium",
+      "url": "https://medium.com/data-science/feedback-alignment-methods-7e6c41446e36"
+    },
+    {
+      "title": "Spike-timing-dependent plasticity",
+      "url": "https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity"
+    },
+    {
+      "title": "[1904.11740] Representation Similarity Analysis for Efficient",
+      "url": "https://arxiv.org/abs/1904.11740"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

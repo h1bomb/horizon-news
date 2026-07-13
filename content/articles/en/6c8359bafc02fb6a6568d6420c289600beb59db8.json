@@ -1,0 +1,44 @@
+{
+  "id": "6c8359bafc02fb6a6568d6420c289600beb59db8",
+  "canonicalId": "67ab8755c5767c6ef4552bb93acf418796027f52",
+  "slug": "github-introduces-stacked-prs-to-manage-dependent-pull-requests",
+  "date": "2026-04-14",
+  "publishedAt": "2026-04-13T20:36:00Z",
+  "lang": "en",
+  "title": "GitHub introduces stacked PRs to manage dependent pull requests.",
+  "summary": "GitHub has launched a new feature called stacked PRs, which allows developers to create and manage pull requests that depend on each other, streamlining code review and development workflows. This feature is available through GitHub's official tools and interfaces, addressing long-standing gaps in managing dependent changes. This matters because it enhances code review efficiency by enabling smaller, incremental changes, which are easier to review and reduce bottlenecks in development. It aligns with industry trends toward more agile and collaborative workflows, particularly benefiting teams working on monorepos or long-running feature projects. The feature includes a CLI tool and UI integration to visualize and manage stacked PRs, though it may not fully address all UX issues like squash-and-merge conflicts or granular commit management. It draws inspiration from tools like Phabricator and Gerrit, which have long supported similar stacked-diff workflows.",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "code-review",
+    "version-control",
+    "developer-tools",
+    "workflow-automation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ezekg"
+    }
+  ],
+  "originalUrl": "https://github.github.com/gh-stack/",
+  "originalSite": "github.github.com",
+  "context": "Stacked pull requests involve breaking down a feature into multiple smaller PRs that depend on each other, creating a chain where each PR builds on the previous one. This approach, also known as dependent or chained PRs, helps make code reviews faster and more effective by splitting changes into coherent pieces. It has been used in tools like Phabricator and Gerrit, and is popular in monorepo environments to manage complex dependencies. GitHub's traditional PR model treats each branch independently, which can complicate handling of dependent changes.",
+  "discussion": "Community comments show mixed sentiment, with some users praising the feature for improving workflows and comparing it favorably to tools like Phabricator, while others express concerns about UI limitations and unresolved issues like squash-and-merge conflicts. Key viewpoints include appreciation for smaller PRs in monorepos, calls for better commit-level management, and comparisons to existing tools like GitLab's glab stack.",
+  "references": [
+    {
+      "title": "Understanding the Stacked Pull Requests Workflow | Tower Blog",
+      "url": "https://www.git-tower.com/blog/stacked-prs"
+    },
+    {
+      "title": "Stacked pull requests: make code reviews faster, easier, and more effective - Dr. Michaela Greiler",
+      "url": "https://www.michaelagreiler.com/stacked-pull-requests/"
+    },
+    {
+      "title": "Stacked Diffs (and why you should know about them)",
+      "url": "https://newsletter.pragmaticengineer.com/p/stacked-diffs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "753004c3a25ea9fb6240ee02a975f0df7cd51699",
+  "canonicalId": "f6ad83c3d31cbf3bb9421df5e5d3aea6a5bf0a8b",
+  "slug": "能力门控利用内部置信信号控制工具使用",
+  "date": "2026-07-05",
+  "publishedAt": "2026-07-05T07:49:00Z",
+  "lang": "zh",
+  "title": "能力门控：利用内部置信信号控制工具使用",
+  "summary": "研究人员发布了一个 10MB 的 LoRA 适配器，用于 Qwen3.5-4B 模型，通过读取模型激活中的内部置信信号来门控工具使用，相比基础模型减少了幻觉并将错误检测能力提高了 0.46 d′。 这种方法通过利用内部信号解决了小型语言模型的一个关键局限——无法准确表达置信度——从而在无需更大模型的情况下实现更可靠的工具使用和隐私查询处理。 该适配器在 126 个手工编写的项目上训练，并附有置信区间评估；它将隐私查询泄露率从 22%降至 10%，并在 Apache-2.0 许可证下开源。",
+  "score": 8,
+  "tags": [
+    "Machine Learning",
+    "LLM",
+    "Tool-Use",
+    "Confidence",
+    "Open-Source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Synthium-"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/",
+  "originalSite": "reddit.com",
+  "context": "小型 LLM 通常尽管内部存在不确定性，却会在口头表达上表现出过度自信。研究表明，内部激活比输出标记更能反映真实置信度。d′ 指标用于量化正确与错误回答之间的可区分性。该工作使用 LoRA 适配器来利用这一内部信号。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Metacognition and Self-Modeling in LLMs — LessWrong",
+      "url": "https://www.lesswrong.com/posts/K39MDoHKBmCWLcJFB/metacognition-and-self-modeling-in-llms"
+    },
+    {
+      "title": "Do LLMs know when they've gotten a correct answer?",
+      "url": "https://letters.lossfunk.com/p/do-llms-know-when-theyve-gotten-a"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

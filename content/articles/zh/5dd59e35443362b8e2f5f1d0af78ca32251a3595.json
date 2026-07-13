@@ -1,0 +1,40 @@
+{
+  "id": "5dd59e35443362b8e2f5f1d0af78ca32251a3595",
+  "canonicalId": "a7a951ff08a0d227554d1b59f313b38dcd4f47e5",
+  "slug": "claude-code-2191-隐藏遥测检测中国地区",
+  "date": "2026-07-01",
+  "publishedAt": "2026-06-30T10:34:00Z",
+  "lang": "zh",
+  "title": "Claude Code 2.1.91 隐藏遥测检测中国地区",
+  "summary": "Anthropic 的 Claude Code 2.1.91 版本包含混淆代码，用于检测中国时区和代理 URL，并将地区信息编码入发送至 API 的提示词中，且未在更新日志中披露。 此事引发了对 AI 工具用户隐私和透明度的严重担忧，因为该功能可能在用户不知情的情况下识别未授权使用或模型蒸馏，从而破坏信任。 检测逻辑使用 XOR 密钥 91 混淆，检查时区是否为 Asia/Shanghai 或 Asia/Urumqi，以及代理 URL 是否指向中国域名或 AI 实验室；地区数据通过修改系统提示中的日期格式和 Unicode 撇号进行编码。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "AI ethics",
+    "telemetry",
+    "claude-code",
+    "reverse-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/",
+  "originalSite": "reddit.com",
+  "context": "Claude Code 是 Anthropic 开发的 AI 编程助手。遥测指自动数据收集，常用于诊断。XOR 混淆是一种简单的加密技术，用于隐藏代码意图。模型蒸馏是将大模型知识转移到小模型的技术，可能被滥用于未经授权的复制。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model distillation",
+      "url": "https://en.wikipedia.org/wiki/Model_distillation"
+    },
+    {
+      "title": "XOR Obfuscation : Hiding Shellcode from Basic AV | Medium",
+      "url": "https://sid4hack.medium.com/xor-obfuscation-hiding-shellcode-from-basic-av-65940817d35a"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

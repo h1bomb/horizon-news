@@ -1,0 +1,40 @@
+{
+  "id": "4789e5a17d1983630049dcd46dd711978ae8cfa9",
+  "canonicalId": "9ed83c4a441c74c07519b0e688503df769cde7ed",
+  "slug": "minimax-announces-m27-ai-model-with-204800-context-and-agentic-capabilities",
+  "date": "2026-03-19",
+  "publishedAt": "2026-03-18T05:53:00Z",
+  "lang": "en",
+  "title": "MiniMax announces M2.7 AI model with 204,800 context and agentic capabilities",
+  "summary": "MiniMax has announced its new M2.7 large language model, featuring a 204,800-token context window and priced at $0.30 per million input tokens and $1.20 per million output tokens. The model achieves benchmark scores of 56.2% on SWE-Pro, 57.0% on Terminal Bench 2, and a 1495 ELO rating on GDPval-AA. This release represents a significant advancement in agentic AI systems designed for real-world productivity, as M2.7's multi-agent collaboration capabilities enable complex task execution across dynamic environments. The model's strong performance on professional benchmarks like SWE-Pro and GDPval-AA positions it as a competitive option for enterprise applications requiring autonomous workflow handling. The model is specifically designed for autonomous productivity with capabilities including live debugging, root cause analysis, financial modeling, and document generation across Microsoft Office applications. It features advanced agentic capabilities through multi-agent collaboration, allowing it to plan, execute, and refine tasks in real-world digital workflows.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLM",
+    "MiniMax",
+    "model-release",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "Mysterious_Finish543"
+    }
+  ],
+  "originalUrl": "https://i.redd.it/59p6xhu9tqpg1.png",
+  "originalSite": "i.redd.it",
+  "context": "MiniMax is a notable AI company developing large language models, with M2.7 representing a major version update in their model series. SWE-Pro is a challenging coding benchmark designed to capture realistic, complex enterprise-level problems beyond the scope of standard SWE-Bench. GDPval-AA is an evaluation framework that uses Elo scoring to rank AI models on performance across economically valuable knowledge work tasks in professional domains like finance and legal.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "SWE-Bench Pro: Raising the Bar for Agentic Coding | Scale AI",
+      "url": "https://scale.com/blog/swe-bench-pro"
+    },
+    {
+      "title": "GDPval-AA Leaderboard - Artificial Analysis",
+      "url": "https://artificialanalysis.ai/evaluations/gdpval-aa"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
