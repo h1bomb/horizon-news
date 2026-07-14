@@ -1,0 +1,37 @@
+{
+  "id": "f2dbc208bb80d94f7c5db979a4a86803e3e29d21",
+  "canonicalId": "3ea32098d2b90ffcf09f708d7538856ecce5adaf",
+  "slug": "telegramx27s-tme-domain-suspended-due-to-registry-action",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T19:52:00Z",
+  "lang": "en",
+  "title": "Telegram&\\#x27;s t.me domain suspended due to registry action",
+  "summary": "Telegram&\\#x27;s short URL domain t.me has been suspended, exhibiting ICANN status codes such as serverHold and clientRenewProhibited, indicating a registry-level action. This suspension disrupts access to Telegram&\\#x27;s official short links, affecting millions of users globally, and highlights the vulnerability of major platforms to registry actions amid legal scrutiny. The .me registry \\(not the registrar GoDaddy\\) likely initiated the suspension, as indicated by the serverHold status. ICANN&\\#x27;s EPP status codes suggest the domain may be subject to legal disputes or deletion.",
+  "score": 9,
+  "tags": [
+    "Telegram",
+    "domain suspension",
+    "ICANN",
+    "DNS",
+    "legal investigation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Tiberium",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48897878"
+    }
+  ],
+  "originalUrl": "https://www.whois.com/whois/t.me",
+  "originalSite": "whois.com",
+  "context": "Domain suspension is a DNS-level action that prevents a domain from resolving, often triggered by registries or registrars due to legal orders, policy violations, or verification failures. The .me TLD is managed by the Government of Montenegro&\\#x27;s domain registry. ICANN defines status codes like serverHold and clientRenewProhibited to indicate active restrictions during disputes.",
+  "discussion": "Community members noted that Telegram&\\#x27;s reliance on GoDaddy as registrar was surprising, but analysis confirmed the suspension was a registry action by the .me registry. Speculation tied the suspension to recent legal investigations by Russia, France, or India, with India&\\#x27;s exam cheating case being the most recent and fiscally significant.",
+  "references": [
+    {
+      "title": "Domain suspension - Magic Online Support",
+      "url": "https://assistance.groupemagiconline.com/en/knowledge-base/suspension-dun-domaine/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

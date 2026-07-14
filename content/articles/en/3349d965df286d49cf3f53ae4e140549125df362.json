@@ -1,0 +1,40 @@
+{
+  "id": "3349d965df286d49cf3f53ae4e140549125df362",
+  "canonicalId": "22a0d236596d7312317ac486d840e26494e37778",
+  "slug": "bpf-based-kernel-exploit-shielding-presented-at-lsfmmbpf",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T14:14:00Z",
+  "lang": "en",
+  "title": "BPF-based kernel exploit shielding presented at LSFMM+BPF",
+  "summary": "John Fastabend of Cisco presented a technique at the 2026 LSFMM+BPF Summit that uses BPF to quickly shield running Linux kernels from exploits, potentially reducing response time from months to minutes. This approach could dramatically improve security for devices with custom kernels, like Cisco switches, where patching is slow and disruptive. It also underscores the need for additional kernel hooks to make BPF-based shielding fully effective. Tetragon, an open-source BPF-based monitoring tool, collects event data into a time-series database for post-exploit analysis. BPF can override system call return values and leverage Linux Security Module hooks to block exploits without rebooting.",
+  "score": 8,
+  "tags": [
+    "BPF",
+    "kernel security",
+    "exploit mitigation",
+    "Linux kernel",
+    "Cisco"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081546/",
+  "originalSite": "lwn.net",
+  "context": "BPF \\(Berkeley Packet Filter\\) is a Linux kernel technology that allows running sandboxed programs in kernel space for observability and security enforcement. Tetragon is an open-source tool that uses BPF for monitoring and enforcement. Yocto is a framework for building custom Linux distributions, often used in embedded devices like network switches.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Understanding the Security Aspects of Linux eBPF - Pentera",
+      "url": "https://pentera.io/blog/the-good-bad-and-compromisable-aspects-of-linux-ebpf/"
+    },
+    {
+      "title": "The Yocto Project",
+      "url": "https://www.yoctoproject.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

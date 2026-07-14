@@ -1,0 +1,45 @@
+{
+  "id": "688c63ce102e43acfd9707885c8e685f9d475780",
+  "canonicalId": "a1fa564a6b63733db901fd47d48dc66895a9882a",
+  "slug": "samsung-health-威胁拒绝-ai-训练将删除数据",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T20:01:00Z",
+  "lang": "zh",
+  "title": "Samsung Health 威胁：拒绝 AI 训练将删除数据",
+  "summary": "Samsung Health 用户发现一个新开关，要求同意使用其健康数据进行 AI 训练，若拒绝则可能面临健康数据被删除的威胁。 该政策引发了重大的隐私和伦理问题，因为它迫使用户在失去数据或允许其用于 AI 训练之间做出选择，削弱了真正的同意和数据所有权。 涉及的数据类别包括睡眠、药物、医疗记录和周期跟踪。Samsung 的支持页面说明，选择退出的用户其数据将被删除，某些功能可能无法使用。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "health data",
+    "AI training",
+    "Samsung",
+    "data rights"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bundie",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48897991"
+    }
+  ],
+  "originalUrl": "https://neow.in/cWsyMTV3",
+  "originalSite": "neow.in",
+  "context": "联邦学习是一种在去中心化设备上训练模型而无需集中数据的机器学习技术，而差分隐私则通过添加噪声来保护个体数据点。Samsung 的做法与这些隐私保护方法相反，它集中数据并将基本功能与同意绑定。",
+  "discussion": "社区评论尖锐批评：用户称该应用为“垃圾”，质疑将设备功能与数据分享挂钩的伦理。有人讽刺地说数据删除反而是隐私的好处，而另一些人要求如果功能被削弱就退款。",
+  "references": [
+    {
+      "title": "Samsung will kill your health data if you don&#x27;t consent to AI training",
+      "url": "https://www.androidauthority.com/samsung-health-train-ai-data-3686684/"
+    },
+    {
+      "title": "Samsung Health will delete your data without AI training consent",
+      "url": "https://9to5google.com/2026/07/13/samsung-health-ai-training-data-consent/"
+    },
+    {
+      "title": "Federated learning",
+      "url": "https://en.wikipedia.org/wiki/Federated_learning"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

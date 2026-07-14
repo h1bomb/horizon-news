@@ -1,0 +1,44 @@
+{
+  "id": "ec67efa6d37e5d8e077d7805b1a5640e2771f2ae",
+  "canonicalId": "ac6a9469909557be6d7f0144714a36c70cb10921",
+  "slug": "cot-is-a-scaling-trap-latent-reasoning-methods-emerge",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T17:50:00Z",
+  "lang": "en",
+  "title": "CoT is a scaling trap; latent reasoning methods emerge.",
+  "summary": "A Reddit post argues that Chain of Thought \\(CoT\\) reasoning suffers from faithfulness and cost issues, promoting latent reasoning methods such as Coconut, HRM, RecursiveMAS, and BDH as the next wave for LLM reasoning. This critique challenges the dominant CoT paradigm, potentially shifting research toward more efficient and scalable reasoning approaches, particularly for high-stakes applications where interpretability and cost are critical. CoT traces can be unfaithful to the model&\\#x27;s actual computation and inflate latency and cost. Latent methods like Coconut \\(continuous thought steps\\), HRM \\(hierarchical planning\\), and RecursiveMAS \\(latent agent communication\\) reduce token usage but introduce black-box interpretability challenges. BDH offers native interpretability hooks and recoverable graphs.",
+  "score": 8,
+  "tags": [
+    "LLM Reasoning",
+    "Chain of Thought",
+    "Latent Reasoning",
+    "CoT Critique",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/meowsterpieces"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
+  "originalSite": "reddit.com",
+  "context": "Chain of Thought \\(CoT\\) reasoning prompts LLMs to generate explicit intermediate steps, improving accuracy but at high token cost. Latent reasoning methods move the reasoning process into continuous vector spaces, bypassing token generation. BDH \\(Dragon Hatchling\\) is a model that combines recurrent latent computation with language modeling, achieving high accuracy on Sudoku puzzles without CoT.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2412.06769] Training Large Language Models to Reason in a Continuous Latent Space",
+      "url": "https://arxiv.org/abs/2412.06769"
+    },
+    {
+      "title": "What is a hierarchical reasoning model (HRM)?",
+      "url": "https://www.ibm.com/think/topics/hierarchical-reasoning-model"
+    },
+    {
+      "title": "RecursiveMAS",
+      "url": "https://recursivemas.github.io/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

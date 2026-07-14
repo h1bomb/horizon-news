@@ -1,0 +1,45 @@
+{
+  "id": "5cb7c0bc6cd8ed045b5b7eb9cc16153a177d89d5",
+  "canonicalId": "ab40e50be5ec1ba40667a2185a7d16c9f66fec98",
+  "slug": "applex27s-speechanalyzer-api-benchmarked-against-whisper",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T16:06:00Z",
+  "lang": "en",
+  "title": "Apple&\\#x27;s SpeechAnalyzer API Benchmarked Against Whisper",
+  "summary": "Apple introduced the new SpeechAnalyzer API at WWDC25 for on-device speech-to-text. A benchmark article compared its performance to OpenAI&\\#x27;s Whisper and Apple&\\#x27;s predecessor, showing competitive speed and accuracy. This API could disrupt existing ASR wrapper apps by providing a native, high-quality solution integrated into macOS/iOS, potentially making third-party transcription services less necessary. The benchmark tested on math lectures; SpeechAnalyzer was substantially faster than Whisper-Large-V2 and only slightly worse in accuracy. It runs entirely on-device, preserving user privacy.",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "SpeechAnalyzer",
+    "ASR",
+    "Whisper",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "get-inscribe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48894752"
+    }
+  ],
+  "originalUrl": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+  "originalSite": "get-inscribe.com",
+  "context": "Automatic speech recognition \\(ASR\\) converts audio into text. Whisper is a popular open-source ASR model by OpenAI. Apple&\\#x27;s previous speech API was less capable. The new SpeechAnalyzer API is part of Apple&\\#x27;s push for on-device AI features.",
+  "discussion": "Commenters noted that better models like Nemotron and Voxtral exist, but agreed Apple&\\#x27;s API could kill many Whisper wrapper apps. Some users reported successful integration into tools like Handy.computer, while others praised its speed for live transcription.",
+  "references": [
+    {
+      "title": "Bring advanced speech-to-text to your app with SpeechAnalyzer - WWDC25",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/277/"
+    },
+    {
+      "title": "Speech | Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation/speech/"
+    },
+    {
+      "title": "Apple&#x27;s new SpeechAnalyzer API, benchmarked against Whisper and ...",
+      "url": "https://news.ycombinator.com/item?id=48894752"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

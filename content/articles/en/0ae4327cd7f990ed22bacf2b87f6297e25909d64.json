@@ -1,0 +1,45 @@
+{
+  "id": "0ae4327cd7f990ed22bacf2b87f6297e25909d64",
+  "canonicalId": "a1fa564a6b63733db901fd47d48dc66895a9882a",
+  "slug": "samsung-health-threatens-data-deletion-over-ai-training-opt-out",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T20:01:00Z",
+  "lang": "en",
+  "title": "Samsung Health Threatens Data Deletion Over AI Training Opt-Out",
+  "summary": "Samsung Health users are seeing a new toggle that requires consent to use their health data for AI training, with the threat that opting out will result in deletion of their health data. This policy raises significant privacy and ethical concerns, as it forces users to choose between losing their data or allowing it to be used for AI training, undermining true consent and data ownership. The data categories involved include sleep, medications, medical records, and cycle tracking. Samsung&\\#x27;s support page explains that users who opt out will have their data deleted and certain features may become unavailable.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "health data",
+    "AI training",
+    "Samsung",
+    "data rights"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bundie",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48897991"
+    }
+  ],
+  "originalUrl": "https://neow.in/cWsyMTV3",
+  "originalSite": "neow.in",
+  "context": "Federated learning is a machine learning technique that trains models across decentralized devices without centralizing data, while differential privacy adds noise to protect individual data points. Samsung&\\#x27;s approach contrasts with these privacy-preserving methods by centralizing data and conditioning basic functionality on consent.",
+  "discussion": "Community comments are sharply critical: users call the app &\\#x27;shit&\\#x27; and question the ethics of making device functionality contingent on data sharing. Some sarcastically note that data deletion might be a benefit for privacy, while others demand a refund if features are crippled.",
+  "references": [
+    {
+      "title": "Samsung will kill your health data if you don&#x27;t consent to AI training",
+      "url": "https://www.androidauthority.com/samsung-health-train-ai-data-3686684/"
+    },
+    {
+      "title": "Samsung Health will delete your data without AI training consent",
+      "url": "https://9to5google.com/2026/07/13/samsung-health-ai-training-data-consent/"
+    },
+    {
+      "title": "Federated learning",
+      "url": "https://en.wikipedia.org/wiki/Federated_learning"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

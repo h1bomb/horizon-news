@@ -1,0 +1,44 @@
+{
+  "id": "681ce130fce09b2c8c541f1587fed56fe6110581",
+  "canonicalId": "ac6a9469909557be6d7f0144714a36c70cb10921",
+  "slug": "思维链是扩展陷阱潜在推理方法兴起",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T17:50:00Z",
+  "lang": "zh",
+  "title": "思维链是扩展陷阱，潜在推理方法兴起。",
+  "summary": "一篇 Reddit 帖子指出，思维链（CoT）推理存在忠实性和成本问题，并推广 Coconut、HRM、RecursiveMAS 和 BDH 等潜在推理方法作为 LLM 推理的下一波浪潮。 这一批评挑战了主流的 CoT 范式，可能推动研究转向更高效、可扩展的推理方法，尤其是在可解释性和成本至关重要的高风险应用中。 CoT 追踪可能不忠实于模型的实际计算，并增加延迟和成本。Coconut（连续思考步骤）、HRM（层次规划）和 RecursiveMAS（潜在智能体通信）等潜在方法减少了 token 使用，但引入了黑盒可解释性挑战。BDH 提供了原生可解释性钩子和可恢复图。",
+  "score": 8,
+  "tags": [
+    "LLM Reasoning",
+    "Chain of Thought",
+    "Latent Reasoning",
+    "CoT Critique",
+    "Machine Learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/meowsterpieces"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
+  "originalSite": "reddit.com",
+  "context": "思维链（CoT）推理提示 LLM 生成显式的中间步骤，提高了准确性但 token 成本高。潜在推理方法将推理过程转移到连续向量空间，绕过 token 生成。BDH（Dragon Hatchling）是一种结合循环潜在计算与语言建模的模型，在不使用 CoT 的情况下在数独谜题上实现了高准确率。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2412.06769] Training Large Language Models to Reason in a Continuous Latent Space",
+      "url": "https://arxiv.org/abs/2412.06769"
+    },
+    {
+      "title": "What is a hierarchical reasoning model (HRM)?",
+      "url": "https://www.ibm.com/think/topics/hierarchical-reasoning-model"
+    },
+    {
+      "title": "RecursiveMAS",
+      "url": "https://recursivemas.github.io/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

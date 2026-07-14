@@ -1,0 +1,37 @@
+{
+  "id": "df89fa2a6bea42f9c7185deff752282c3a058c22",
+  "canonicalId": "3ea32098d2b90ffcf09f708d7538856ecce5adaf",
+  "slug": "telegram-的-tme-域名因注册局操作被暂停",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T19:52:00Z",
+  "lang": "zh",
+  "title": "Telegram 的 t.me 域名因注册局操作被暂停",
+  "summary": "Telegram 的短链接域名 t.me 已被暂停，显示 serverHold 和 clientRenewProhibited 等 ICANN 状态码，表明是注册局层面的操作。 此次暂停影响了全球数百万用户对 Telegram 官方短链接的访问，并凸显了大型平台在面临法律审查时对注册局操作的脆弱性。 serverHold 状态表明暂停很可能是由.me 注册局（而非注册商 GoDaddy）发起的。ICANN 的 EPP 状态码暗示该域名可能涉及法律纠纷或面临删除。",
+  "score": 9,
+  "tags": [
+    "Telegram",
+    "domain suspension",
+    "ICANN",
+    "DNS",
+    "legal investigation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Tiberium",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48897878"
+    }
+  ],
+  "originalUrl": "https://www.whois.com/whois/t.me",
+  "originalSite": "whois.com",
+  "context": "域名暂停是一种 DNS 层面的操作，阻止域名解析，通常由注册局或注册商根据法律命令、政策违规或验证失败触发。.me 顶级域名由黑山政府域名注册局管理。ICANN 定义了 serverHold 和 clientRenewProhibited 等状态码，用于表示争议期间的主动限制。",
+  "discussion": "社区成员注意到 Telegram 依赖 GoDaddy 作为注册商令人惊讶，但分析确认暂停是.me 注册局的行动。推测该暂停与俄罗斯、法国或印度近期对 Telegram 的法律调查有关，其中印度国家考试作弊案是最新且最具财政影响的。",
+  "references": [
+    {
+      "title": "Domain suspension - Magic Online Support",
+      "url": "https://assistance.groupemagiconline.com/en/knowledge-base/suspension-dun-domaine/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

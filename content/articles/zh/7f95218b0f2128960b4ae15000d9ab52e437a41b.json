@@ -1,0 +1,44 @@
+{
+  "id": "7f95218b0f2128960b4ae15000d9ab52e437a41b",
+  "canonicalId": "82e521af53be2f5cb22e1887e9eb6a54d26cdb20",
+  "slug": "在-qwen3-4b-上评估-j-space-熵作为错误预测器",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T08:27:00Z",
+  "lang": "zh",
+  "title": "在 Qwen3-4B 上评估 J-space 熵作为错误预测器",
+  "summary": "研究人员 u/dasjomsyeet 在 Qwen3-4B 上系统评估了 Jacobian Lens 熵（J-space 熵）作为错误预测器的效果，涉及七个数据集的约 11,400 个样本，发现其效用依赖于任务，但并非通用的幻觉检测器。 这项工作为 Jacobian Lens 等可解释性工具的实际局限性提供了细致的实证见解，表明内部熵可以补充输出置信度用于事实检索，但在内部化误解上失效，且因任务而异。 该研究仅使用单个模型（Qwen3-4B），发现正确的数学推理（GSM8K）有更高的基线熵，而多项选择题格式削弱了信号（CommonSenseQA）。在 TriviaQA 上调优的阈值在 GSM8K 上失败，突出了任务依赖性。",
+  "score": 8,
+  "tags": [
+    "Jacobian Lens",
+    "entropy",
+    "error prediction",
+    "language models",
+    "interpretability"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/dasjomsyeet"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/",
+  "originalSite": "reddit.com",
+  "context": "Jacobian Lens 是 Anthropic 开发的一种可解释性技术，将内部激活映射到“全局工作空间”中的可言语化概念。J-space 中的熵被假设可以指示模型何时自信地犯错。本研究跨不同任务严格测试了这一假设。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Verbalizable Representations Form a Global Workspace in Language ...",
+      "url": "https://transformer-circuits.pub/2026/workspace/"
+    },
+    {
+      "title": "A global workspace in language models \\ Anthropic",
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
+    {
+      "title": "Anthropic’s J- Lens Reveals a Hidden “Thinking Space” Inside",
+      "url": "https://lumienai.com/news/anthropic-j-lens-j-space-claude-hidden-thinking"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

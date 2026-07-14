@@ -1,0 +1,40 @@
+{
+  "id": "95f074d8d91ff224e6146b1ef6e1db4f2b88ef0f",
+  "canonicalId": "22a0d236596d7312317ac486d840e26494e37778",
+  "slug": "在-lsfmmbpf-大会上展示基于-bpf-的内核漏洞屏蔽技术",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T14:14:00Z",
+  "lang": "zh",
+  "title": "在 LSFMM+BPF 大会上展示基于 BPF 的内核漏洞屏蔽技术",
+  "summary": "思科的约翰·法斯塔本德在 2026 年 LSFMM+BPF 峰会上展示了一种技术，利用 BPF 快速保护运行中的 Linux 内核免受漏洞利用，有望将响应时间从数月缩短至数分钟。 这种方法可以显著改善自定义内核设备（如思科交换机）的安全性，这些设备的补丁部署缓慢且具有破坏性。同时，它也凸显了添加更多内核钩子以使基于 BPF 的防护完全有效的必要性。 Tetragon 是一款基于 BPF 的开源监控工具，它将事件数据收集到时序数据库中，用于事后漏洞利用分析。BPF 可以覆盖系统调用返回值，并利用 Linux 安全模块（LSM）钩子在不重启的情况下阻止漏洞利用。",
+  "score": 8,
+  "tags": [
+    "BPF",
+    "kernel security",
+    "exploit mitigation",
+    "Linux kernel",
+    "Cisco"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081546/",
+  "originalSite": "lwn.net",
+  "context": "BPF（伯克利包过滤器）是一种 Linux 内核技术，允许在内核空间中运行沙箱程序，用于可观测性和安全强制执行。Tetragon 是一个使用 BPF 进行监控和强制执行的开源工具。Yocto 是一个用于构建自定义 Linux 发行版的框架，常用于网络交换机等嵌入式设备。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Understanding the Security Aspects of Linux eBPF - Pentera",
+      "url": "https://pentera.io/blog/the-good-bad-and-compromisable-aspects-of-linux-ebpf/"
+    },
+    {
+      "title": "The Yocto Project",
+      "url": "https://www.yoctoproject.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

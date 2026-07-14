@@ -1,0 +1,45 @@
+{
+  "id": "23021f370bcb80e23e55e2ffb8b91ef0b3d5d5e2",
+  "canonicalId": "ab40e50be5ec1ba40667a2185a7d16c9f66fec98",
+  "slug": "苹果-speechanalyzer-api-与-whisper-的基准测试",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T16:06:00Z",
+  "lang": "zh",
+  "title": "苹果 SpeechAnalyzer API 与 Whisper 的基准测试",
+  "summary": "苹果在 WWDC25 上推出了新的 SpeechAnalyzer API，用于设备端语音转文本。一篇基准测试文章将其性能与 OpenAI 的 Whisper 和苹果之前的 API 进行了比较，结果显示其在速度和准确性上具有竞争力。 该 API 可能通过提供集成在 macOS/iOS 中的原生高质量解决方案，颠覆现有的 ASR 包装器应用，从而可能使第三方转录服务变得不那么必要。 基准测试在数学讲座上进行；SpeechAnalyzer 比 Whisper-Large-V2 快得多，准确率仅略低。它完全在设备端运行，保护用户隐私。",
+  "score": 8,
+  "tags": [
+    "Apple",
+    "SpeechAnalyzer",
+    "ASR",
+    "Whisper",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "get-inscribe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48894752"
+    }
+  ],
+  "originalUrl": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+  "originalSite": "get-inscribe.com",
+  "context": "自动语音识别（ASR）将音频转换为文本。Whisper 是 OpenAI 开发的热门开源 ASR 模型。苹果之前的语音 API 功能较弱。新的 SpeechAnalyzer API 是苹果推动设备端 AI 功能的一部分。",
+  "discussion": "评论者指出存在更好的模型，如 Nemotron 和 Voxtral，但一致认为苹果的 API 可能淘汰许多 Whisper 包装器应用。一些用户报告成功将其集成到 Handy.computer 等工具中，而另一些用户则称赞其在实时转录中的速度。",
+  "references": [
+    {
+      "title": "Bring advanced speech-to-text to your app with SpeechAnalyzer - WWDC25",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/277/"
+    },
+    {
+      "title": "Speech | Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation/speech/"
+    },
+    {
+      "title": "Apple&#x27;s new SpeechAnalyzer API, benchmarked against Whisper and ...",
+      "url": "https://news.ycombinator.com/item?id=48894752"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "d8f3129028a31c4d8602654c008a10daca0d4432",
+  "canonicalId": "82e521af53be2f5cb22e1887e9eb6a54d26cdb20",
+  "slug": "j-space-entropy-as-error-predictor-evaluated-on-qwen3-4b",
+  "date": "2026-07-13",
+  "publishedAt": "2026-07-13T08:27:00Z",
+  "lang": "en",
+  "title": "J-space entropy as error predictor evaluated on Qwen3-4B",
+  "summary": "Researcher u/dasjomsyeet systematically evaluated Jacobian Lens entropy \\(J-space entropy\\) as an error predictor on Qwen3-4B across 11,400 examples from seven datasets, finding task-dependent utility but not a universal hallucination detector. This work provides nuanced empirical insights into the practical limits of interpretability tools like Jacobian Lens, showing that internal entropy can complement output confidence for factual retrieval but fails on internalized misconceptions and varies greatly by task. The study used only one model \\(Qwen3-4B\\) and found that correct mathematical reasoning \\(GSM8K\\) had higher baseline entropy, and multiple-choice formatting weakened the signal \\(CommonSenseQA\\). A threshold tuned on TriviaQA failed on GSM8K, highlighting task dependency.",
+  "score": 8,
+  "tags": [
+    "Jacobian Lens",
+    "entropy",
+    "error prediction",
+    "language models",
+    "interpretability"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/dasjomsyeet"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/",
+  "originalSite": "reddit.com",
+  "context": "Jacobian Lens is an interpretability technique developed by Anthropic that maps internal activations to verbalizable concepts in a &\\#x27;global workspace.&\\#x27; Entropy in this J-space was hypothesized to indicate when a model is confidently wrong. This study tests that hypothesis rigorously across diverse tasks.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Verbalizable Representations Form a Global Workspace in Language ...",
+      "url": "https://transformer-circuits.pub/2026/workspace/"
+    },
+    {
+      "title": "A global workspace in language models \\ Anthropic",
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
+    {
+      "title": "Anthropic’s J- Lens Reveals a Hidden “Thinking Space” Inside",
+      "url": "https://lumienai.com/news/anthropic-j-lens-j-space-claude-hidden-thinking"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
