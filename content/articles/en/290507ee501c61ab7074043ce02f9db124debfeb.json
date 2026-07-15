@@ -1,0 +1,41 @@
+{
+  "id": "290507ee501c61ab7074043ce02f9db124debfeb",
+  "canonicalId": "f29a74f942810df123ef35e296e5888ab0bf978d",
+  "slug": "armin-ronacher-on-the-tower-of-composability-and-ai-agents",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T16:57:00Z",
+  "lang": "en",
+  "title": "Armin Ronacher on the Tower of Composability and AI Agents",
+  "summary": "In a new essay, influential developer Armin Ronacher examines the challenges of composability in software development using a &\\#x27;tower&\\#x27; metaphor, and explores how AI agents might affect coordination and collaboration in large codebases. The essay highlights a fundamental tension between the power of AI-assisted programming and the coordination limits of large teams, echoing broader debates about the Lisp Curse and the future of software architecture. It matters because composability is central to building maintainable systems, and AI agents may exacerbate or alleviate these challenges. The &\\#x27;tower&\\#x27; metaphor represents a codebase built by stacking abstractions, where composability breaks down as the tower grows. Ronacher draws connections to the Lisp Curse, where extreme flexibility leads to isolation and poor collaboration.",
+  "score": 8,
+  "tags": [
+    "composability",
+    "software-architecture",
+    "AI-agents",
+    "lisp-curse",
+    "essay"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cdrnsf",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48909785"
+    }
+  ],
+  "originalUrl": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+  "originalSite": "lucumr.pocoo.org",
+  "context": "Composability is the ability to combine independent components in a system. The Lisp Curse describes how Lisp&\\#x27;s power allows programmers to build custom solutions alone, discouraging collaboration and leading to fragmented ecosystems. This essay applies that concept to modern software development, questioning whether AI agents will improve or worsen team coordination.",
+  "discussion": "Comments include a Tetris analogy for composability \\(tekacs\\), a reference to the Lisp Curse as central to the essay&\\#x27;s thesis \\(ssivark\\), the view that LLMs are powerful communication tools that could customize the &\\#x27;tower&\\#x27; \\(phoneafriend\\), and a note that AI-assisted programming does not solve coordination bottlenecks \\(sixtyj\\).",
+  "references": [
+    {
+      "title": "What is the Curse of Lisp: Challenges and Opportunities - Freshcode",
+      "url": "https://www.freshcodeit.com/blog/myths-of-lisp-curse"
+    },
+    {
+      "title": "r/programming on Reddit: TIL about the Lisp Curse",
+      "url": "https://www.reddit.com/r/programming/comments/s09b5/til_about_the_lisp_curse/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

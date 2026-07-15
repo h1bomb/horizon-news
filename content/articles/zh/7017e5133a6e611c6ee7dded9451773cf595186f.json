@@ -1,0 +1,41 @@
+{
+  "id": "7017e5133a6e611c6ee7dded9451773cf595186f",
+  "canonicalId": "0ed32a73888e7302126fb35e73aab22fd5333486",
+  "slug": "linux-输入延迟测试x11-对比-waylandvrrdxvk",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T16:36:00Z",
+  "lang": "zh",
+  "title": "Linux 输入延迟测试：X11 对比 Wayland、VRR、DXVK",
+  "summary": "文章精确测量了 Linux 显示服务器和合成器下的输入延迟，对比了 X11、Wayland（带/不带 VRR）以及 DXVK 转换层。结果显示原生 Wayland 延迟最低，而 XWayland 会增加约 3 毫秒的延迟。 这项分析为 Linux 游戏玩家和桌面用户提供了具体数据，帮助他们基于延迟选择显示栈，并为开发人员提供了改善合成器和驱动程序的可行见解。它用实证数据回应了关于 Wayland 与 X11 性能的长期争论。 测量使用 500Hz 显示器进行，可捕获微秒级的时序差异，但可能掩盖较低刷新率下可见的帧边界问题。作者还测试了 DXVK 转换的游戏，并确认 VRR 不会引入明显的额外延迟。",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "input latency",
+    "Wayland",
+    "X11",
+    "gaming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hoechst",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48909424"
+    }
+  ],
+  "originalUrl": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
+  "originalSite": "marco-nett.de",
+  "context": "X11 和 Wayland 是 Linux 上的两大显示服务器协议，Wayland 是更新、更安全的替代方案。DXVK 是一个开源转换层，将 Direct3D 8/9/10/11 图形调用转换为 Vulkan，使得 Windows 游戏可以通过 Wine/Proton 在 Linux 上运行。可变刷新率（VRR）使显示器刷新率与游戏帧率同步，以减少画面撕裂和卡顿。",
+  "discussion": "社区称赞了严谨的方法，并指出结果应有助于改善 Linux 游戏生态。一些评论者建议在较低刷新率（如 60Hz、120Hz）下测试以揭示帧边界效应，另一些人则对测试 Hyprland 等较新合成器表示兴趣。",
+  "references": [
+    {
+      "title": "DXVK",
+      "url": "https://en.wikipedia.org/wiki/DXVK"
+    },
+    {
+      "title": "Variable refresh rate - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Variable_refresh_rate"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

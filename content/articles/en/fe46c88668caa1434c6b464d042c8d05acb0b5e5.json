@@ -1,0 +1,41 @@
+{
+  "id": "fe46c88668caa1434c6b464d042c8d05acb0b5e5",
+  "canonicalId": "0ed32a73888e7302126fb35e73aab22fd5333486",
+  "slug": "linux-input-latency-tested-x11-vs-wayland-vrr-dxvk",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T16:36:00Z",
+  "lang": "en",
+  "title": "Linux Input Latency Tested: X11 vs Wayland, VRR, DXVK",
+  "summary": "The article presents precise measurements of input latency across Linux display servers and compositors, comparing X11, Wayland with and without VRR, and the DXVK translation layer. It reveals that native Wayland offers the lowest latency, while XWayland adds about 3ms of delay. This analysis provides concrete data for Linux gamers and desktop users to choose their display stack based on latency, and gives developers actionable insights to improve compositors and drivers. It addresses long-standing debates about Wayland vs X11 performance with empirical evidence. The measurements were conducted using a 500Hz display, which captures microsecond-level timing differences but may hide frame-boundary issues visible at lower refresh rates. The author also tested with DXVK-translated games and confirmed that VRR does not introduce noticeable additional latency.",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "input latency",
+    "Wayland",
+    "X11",
+    "gaming"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hoechst",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48909424"
+    }
+  ],
+  "originalUrl": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
+  "originalSite": "marco-nett.de",
+  "context": "X11 and Wayland are the two main display server protocols on Linux, with Wayland being the newer, more secure alternative. DXVK is an open-source translation layer that converts Direct3D 8/9/10/11 graphics calls to Vulkan, enabling Windows games to run on Linux via Wine/Proton. Variable Refresh Rate \\(VRR\\) synchronizes the display&\\#x27;s refresh rate with the game&\\#x27;s frame rate to reduce tearing and stutter.",
+  "discussion": "The community praised the rigorous approach and noted that results should improve Linux&\\#x27;s gaming ecosystem. Some commenters suggested testing at lower refresh rates \\(e.g., 60Hz, 120Hz\\) to reveal frame-boundary effects, and others expressed interest in testing newer compositors like Hyprland.",
+  "references": [
+    {
+      "title": "DXVK",
+      "url": "https://en.wikipedia.org/wiki/DXVK"
+    },
+    {
+      "title": "Variable refresh rate - ArchWiki",
+      "url": "https://wiki.archlinux.org/title/Variable_refresh_rate"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

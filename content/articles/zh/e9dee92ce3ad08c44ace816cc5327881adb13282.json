@@ -1,0 +1,41 @@
+{
+  "id": "e9dee92ce3ad08c44ace816cc5327881adb13282",
+  "canonicalId": "f29a74f942810df123ef35e296e5888ab0bf978d",
+  "slug": "armin-ronacher-探讨可组合性与-ai-代理的塔隐喻",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T16:57:00Z",
+  "lang": "zh",
+  "title": "Armin Ronacher 探讨可组合性与 AI 代理的‘塔’隐喻",
+  "summary": "在一篇新文章中，有影响力的开发者 Armin Ronacher 用‘塔’的比喻审视了软件开发中可组合性的挑战，并探讨了 AI 代理如何影响大型代码库中的协调与合作。 这篇文章突显了 AI 辅助编程的强大能力与大型团队协调限制之间的根本张力，呼应了关于 Lisp 诅咒和软件架构未来的更广泛讨论。可组合性对构建可维护系统至关重要，而 AI 代理可能加剧或缓解这些挑战。 ‘塔’的比喻代表通过堆叠抽象构建的代码库，随着塔的增长，可组合性会崩溃。Ronacher 将其与 Lisp 诅咒联系起来，即极端的灵活性导致孤立和协作不佳。",
+  "score": 8,
+  "tags": [
+    "composability",
+    "software-architecture",
+    "AI-agents",
+    "lisp-curse",
+    "essay"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cdrnsf",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48909785"
+    }
+  ],
+  "originalUrl": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+  "originalSite": "lucumr.pocoo.org",
+  "context": "可组合性是指系统中独立组件能够组合的能力。Lisp 诅咒描述了 Lisp 的强大能力使得程序员可以独自构建定制解决方案，从而阻碍协作并导致生态系统碎片化。本文将该概念应用于现代软件开发，质疑 AI 代理是否会改善或恶化团队协调。",
+  "discussion": "评论中包括用俄罗斯方块类比可组合性（tekacs），指出 Lisp 诅咒是论文核心论点（ssivark），认为 LLM 是强大的沟通工具，可以定制‘塔’（phoneafriend），以及指出 AI 辅助编程并不能解决协调瓶颈（sixtyj）。",
+  "references": [
+    {
+      "title": "What is the Curse of Lisp: Challenges and Opportunities - Freshcode",
+      "url": "https://www.freshcodeit.com/blog/myths-of-lisp-curse"
+    },
+    {
+      "title": "r/programming on Reddit: TIL about the Lisp Curse",
+      "url": "https://www.reddit.com/r/programming/comments/s09b5/til_about_the_lisp_curse/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

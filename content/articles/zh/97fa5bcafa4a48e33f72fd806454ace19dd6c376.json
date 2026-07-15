@@ -1,0 +1,41 @@
+{
+  "id": "97fa5bcafa4a48e33f72fd806454ace19dd6c376",
+  "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
+  "slug": "bonsai-27b通过量化在手机上运行的-270-亿参数模型",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T17:50:00Z",
+  "lang": "zh",
+  "title": "Bonsai 27B：通过量化在手机上运行的 270 亿参数模型",
+  "summary": "PrismML 发布了 Bonsai 27B，这是一个通过先进量化技术将大小从约 50GB 缩减至约 4GB、可在移动设备上运行的 270 亿参数语言模型，实现了设备端推理。 此举是设备端 AI 的重要进展，将大规模模型能力引入智能手机和边缘设备，无需依赖云端。它可能催生新的隐私保护和离线应用，并引发苹果等大公司的关注。 该模型可能基于 Qwen 2.5 架构（社区暗示），并采用三值量化（类似 BitNet）实现极限压缩。但社区基准测试显示，其工具调用性能相比 Gemma 4 12B 等同类模型显著下降。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Model Compression",
+    "On-Device AI",
+    "Quantization",
+    "Large Language Models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "xenova",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48910545"
+    }
+  ],
+  "originalUrl": "https://prismml.com/news/bonsai-27b",
+  "originalSite": "prismml.com",
+  "context": "量化是一种模型压缩技术，通过降低权重和激活值的精度来缩小模型大小，并在受限硬件上实现更快推理。设备端 AI 使模型无需云调用即可本地运行，改善隐私和延迟。Bonsai 27B 将可在手机上部署的模型大小推向了新前沿。",
+  "discussion": "评论者对压缩效果感到兴奋，但对权衡持谨慎态度：有用户指出演示食谱的营养素计算错误，工具调用性能是已知弱点。另一人将其与 Gemma 4 12B QAT 进行有利比较，但质疑量化损失是否真的很小。苹果被报道正在洽谈，增加了该方法的可信度。",
+  "references": [
+    {
+      "title": "A Comprehensive Study on Quantization Techniques for Large Language Models",
+      "url": "https://arxiv.org/html/2411.02530v1"
+    },
+    {
+      "title": "Local LLM Tool Calling: Which LLM Should You Use? | DockerTool Calling with Local LLMs: A Practical Evaluation | Docker",
+      "url": "https://www.docker.com/blog/local-llm-tool-calling-a-practical-evaluation/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "b92488c0971f66bbb6d79d3ef40fb295b36fd1da",
+  "canonicalId": "fd885fb42c2eb3c7642572158a32f3b975e7c5b4",
+  "slug": "高德发布世界模型工坊支持任意门穿越",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T12:22:00Z",
+  "lang": "zh",
+  "title": "高德发布世界模型工坊，支持任意门穿越",
+  "summary": "阿里巴巴旗下高德正式发布世界模型工坊 ABot-WorldStudio，用户输入文字或图片即可生成可实时交互的 3D 世界，内置“时空任意门”可在不同世界间穿越，并支持在单张 RTX 5090 上无限时长本地推理。 该发布标志着世界模型技术的重要进展，实现了长时间本地推理，并将交互式视频生成与 3D 高斯泼溅（3DGS）场景生成统一，有望加速具身智能、游戏开发和虚拟旅游等领域的应用。 ABot-WorldStudio 可生成交互式 3D 世界并输出为视频和 3DGS 文件，底层 ABot-World 模型已全面开源。实测连续推理超过 1 小时无崩溃、无质量衰减，远超同类产品约 1 分钟的上限。",
+  "score": 8,
+  "tags": [
+    "world model",
+    "3D generation",
+    "open source",
+    "AI",
+    "Alibaba"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/0/976/538.htm",
+  "originalSite": "ithome.com",
+  "context": "世界模型是一种人工智能系统，它能构建环境的内部表示并预测其随时间的变化，使智能体无需在真实世界中反复试错即可进行规划和行动。3D 高斯泼溅（3DGS）是一种体渲染技术，可从多张图像生成高质量、实时的 3D 场景表示。ABot-WorldStudio 结合了这些概念，允许用户在本地创建和探索沉浸式 3D 世界。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "3D Gaussian splatting",
+      "url": "https://en.wikipedia.org/wiki/3D_Gaussian_splatting"
+    },
+    {
+      "title": "World model (artificial intelligence)",
+      "url": "https://en.wikipedia.org/wiki/World_model_%28artificial_intelligence%29"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

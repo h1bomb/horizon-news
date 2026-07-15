@@ -1,0 +1,40 @@
+{
+  "id": "d3a036a297b29518fea05fcce4759327a728bbf0",
+  "canonicalId": "53288cccce93491e23826b81f489b6c8b82b2215",
+  "slug": "新-alem-基准测试评估-llm-多智能体协调能力",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T15:37:00Z",
+  "lang": "zh",
+  "title": "新 ALEM 基准测试评估 LLM 多智能体协调能力",
+  "summary": "研究人员推出了 ALEM，一个基于 JAX 的开放式多智能体协调基准，并评估了 13 个 LLM，发现它们平均仅达到 6%的归一化回报，而零样本 Gemini 3.1 Pro 在最难设置下与经过训练的 MARL 智能体表现相当。 该基准填补了评估 LLM 在长期、开放式环境中协调能力的空白，强调了协调是超越个体任务能力的独立瓶颈，这对在多智能体系统中部署 LLM 具有重要意义。 ALEM 基准包含九个程序化生成的关卡，具有可控制的协调需求，研究中的消融实验表明通信对性能影响最大。论文、代码和交互轨迹均已公开。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Benchmark",
+    "Multi-Agent",
+    "Coordination",
+    "AI Research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ktessera"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
+  "originalSite": "reddit.com",
+  "context": "多智能体协调涉及多个智能体在共享环境中协作以实现共同目标。以往的基准通常关注单智能体任务或短期的结构化交互。ALEM 基于类似 Craftax 的动态环境，要求智能体在开放世界中进行探索、通信、交易、制作和战斗。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Alem: Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+      "url": "https://alem-world.github.io/"
+    },
+    {
+      "title": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+      "url": "https://arxiv.org/html/2606.08340v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

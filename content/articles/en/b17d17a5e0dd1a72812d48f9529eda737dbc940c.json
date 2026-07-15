@@ -1,0 +1,41 @@
+{
+  "id": "b17d17a5e0dd1a72812d48f9529eda737dbc940c",
+  "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
+  "slug": "bonsai-27b-27b-parameter-model-runs-on-phones-via-quantization",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T17:50:00Z",
+  "lang": "en",
+  "title": "Bonsai 27B: 27B-parameter model runs on phones via quantization",
+  "summary": "PrismML released Bonsai 27B, a 27-billion-parameter language model that can run on mobile devices through advanced quantization techniques, reducing its size from ~50GB to ~4GB. The model achieves competitive performance while enabling on-device inference. This represents a significant step for on-device AI, bringing large-scale model capabilities to smartphones and edge devices without cloud dependency. It could enable new privacy-preserving and offline applications, while sparking interest from major players like Apple. The model is likely based on the Qwen 2.5 architecture \\(as per community hints\\) and uses ternary quantization \\(BitNet-like\\) to achieve extreme compression. However, community benchmarks indicate tool-calling performance is notably degraded compared to similar-size models like Gemma 4 12B.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Model Compression",
+    "On-Device AI",
+    "Quantization",
+    "Large Language Models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "xenova",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48910545"
+    }
+  ],
+  "originalUrl": "https://prismml.com/news/bonsai-27b",
+  "originalSite": "prismml.com",
+  "context": "Quantization is a model compression technique that reduces the precision of weights and activations, shrinking model size and enabling faster inference on limited hardware. On-device AI allows models to run locally without cloud calls, improving privacy and latency. Bonsai 27B pushes the frontier of what size model can be feasibly deployed on a phone.",
+  "discussion": "Commenters are excited about the compression but cautious about trade-offs: one user noted that the demo recipe had wrong macronutrients, and tool-calling performance is a known weakness. Another compared it favorably to Gemma 4 12B QAT but questioned if the quantization loss is minimal. Apple&\\#x27;s reported talks add credibility to the approach.",
+  "references": [
+    {
+      "title": "A Comprehensive Study on Quantization Techniques for Large Language Models",
+      "url": "https://arxiv.org/html/2411.02530v1"
+    },
+    {
+      "title": "Local LLM Tool Calling: Which LLM Should You Use? | DockerTool Calling with Local LLMs: A Practical Evaluation | Docker",
+      "url": "https://www.docker.com/blog/local-llm-tool-calling-a-practical-evaluation/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

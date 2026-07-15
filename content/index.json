@@ -1,6 +1,476 @@
 {
   "articles": [
     {
+      "id": "97fa5bcafa4a48e33f72fd806454ace19dd6c376",
+      "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
+      "slug": "bonsai-27b通过量化在手机上运行的-270-亿参数模型",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "Bonsai 27B：通过量化在手机上运行的 270 亿参数模型",
+      "score": 8,
+      "tags": [
+        "AI",
+        "Model Compression",
+        "On-Device AI",
+        "Quantization",
+        "Large Language Models"
+      ],
+      "originalSite": "prismml.com"
+    },
+    {
+      "id": "e9dee92ce3ad08c44ace816cc5327881adb13282",
+      "canonicalId": "f29a74f942810df123ef35e296e5888ab0bf978d",
+      "slug": "armin-ronacher-探讨可组合性与-ai-代理的塔隐喻",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "Armin Ronacher 探讨可组合性与 AI 代理的‘塔’隐喻",
+      "score": 8,
+      "tags": [
+        "composability",
+        "software-architecture",
+        "AI-agents",
+        "lisp-curse",
+        "essay"
+      ],
+      "originalSite": "lucumr.pocoo.org"
+    },
+    {
+      "id": "3aabd34f4517c754a90bfab9ff53c68c734b3b5f",
+      "canonicalId": "9bca5dae0eb3746a2bc8a84ea4d7e2f7e953d0b3",
+      "slug": "cursor-ide-0day-漏洞未修补可任意执行-exe-文件",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "Cursor IDE 0day 漏洞：未修补，可任意执行 EXE 文件",
+      "score": 8,
+      "tags": [
+        "security",
+        "vulnerability",
+        "Cursor IDE",
+        "0day",
+        "disclosure"
+      ],
+      "originalSite": "mindgard.ai"
+    },
+    {
+      "id": "7017e5133a6e611c6ee7dded9451773cf595186f",
+      "canonicalId": "0ed32a73888e7302126fb35e73aab22fd5333486",
+      "slug": "linux-输入延迟测试x11-对比-waylandvrrdxvk",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "Linux 输入延迟测试：X11 对比 Wayland、VRR、DXVK",
+      "score": 8,
+      "tags": [
+        "Linux",
+        "input latency",
+        "Wayland",
+        "X11",
+        "gaming"
+      ],
+      "originalSite": "marco-nett.de"
+    },
+    {
+      "id": "a433c1b059ab6212418c7004afd7c826812b4ed4",
+      "canonicalId": "15773b9ccf27d00e24ad128dcd3c447771c65809",
+      "slug": "用现实给自己一拳",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "用现实给自己一拳",
+      "score": 8,
+      "tags": [
+        "AI",
+        "programming",
+        "software engineering",
+        "productivity",
+        "reflection"
+      ],
+      "originalSite": "adi.bio"
+    },
+    {
+      "id": "60859deb6613212844c2b66d8005c73286e74898",
+      "canonicalId": "87fb36a4c3ad440e0b6dfbe358697ab33b5823b3",
+      "slug": "摩擦即共识armin-ronacher-谈-ai-代理",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "摩擦即共识：Armin Ronacher 谈 AI 代理",
+      "score": 8,
+      "tags": [
+        "software engineering",
+        "AI agents",
+        "shared understanding",
+        "team dynamics",
+        "code review"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "d3a036a297b29518fea05fcce4759327a728bbf0",
+      "canonicalId": "53288cccce93491e23826b81f489b6c8b82b2215",
+      "slug": "新-alem-基准测试评估-llm-多智能体协调能力",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "新 ALEM 基准测试评估 LLM 多智能体协调能力",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "Benchmark",
+        "Multi-Agent",
+        "Coordination",
+        "AI Research"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "c227646f1e24b8fb63ee650b2cc60a4d9c252e80",
+      "canonicalId": "d418c4dcb2ef840e77478cea1aa998506d8e37c2",
+      "slug": "构建增量索引管道的经验教训",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "构建增量索引管道的经验教训",
+      "score": 8,
+      "tags": [
+        "vector store",
+        "incremental indexing",
+        "data pipeline",
+        "idempotency",
+        "partial updates"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "bef95e74b13fe0e32f93209b9c39e5eb940c0b16",
+      "canonicalId": "d1391d716dfb731c636dbe7904770645240fe0df",
+      "slug": "2026-年菲尔兹奖得主疑通过-icm-网站代码泄露",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "2026 年菲尔兹奖得主疑通过 ICM 网站代码泄露",
+      "score": 8,
+      "tags": [
+        "Fields Medal",
+        "mathematics",
+        "leak",
+        "ICM",
+        "predictions"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "9eb4853314867da01cd2b61c46987da0ff2d8b13",
+      "canonicalId": "6e82b3f37b7a84d6be77b9b7e300b19e4db8d81c",
+      "slug": "cloudflare-推出-precursor通过鼠标和键盘行为持续检测机器人",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "Cloudflare 推出 Precursor，通过鼠标和键盘行为持续检测机器人",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "Bot Detection",
+        "AI",
+        "Security",
+        "Behavioral Verification"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "b026fdb9e08b96901e0b7dbaf39f07998309ed86",
+      "canonicalId": "9da69b4c5d63ba208c1994c53f3a94ce46af97de",
+      "slug": "deepseek-启动新一轮融资估值-710-亿美元",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "DeepSeek 启动新一轮融资，估值 710 亿美元",
+      "score": 8,
+      "tags": [
+        "AI融资",
+        "DeepSeek",
+        "AI芯片",
+        "估值"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "b92488c0971f66bbb6d79d3ef40fb295b36fd1da",
+      "canonicalId": "fd885fb42c2eb3c7642572158a32f3b975e7c5b4",
+      "slug": "高德发布世界模型工坊支持任意门穿越",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "高德发布世界模型工坊，支持任意门穿越",
+      "score": 8,
+      "tags": [
+        "world model",
+        "3D generation",
+        "open source",
+        "AI",
+        "Alibaba"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "65b9990812f48b33a60042504d1e98de4a7a8415",
+      "canonicalId": "cb9db543cbd4130697549f9a38ed5b84a3b81a48",
+      "slug": "deepmind-ceo-呼吁美国主导成立全球-ai-监管机构",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "DeepMind CEO 呼吁美国主导成立全球 AI 监管机构",
+      "score": 8,
+      "tags": [
+        "AI regulation",
+        "AI safety",
+        "governance",
+        "DeepMind"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "fe3adae0dcc0ef72036ba2d78bd99fc69ac77794",
+      "canonicalId": "4e5ebc0960aaeee64c857aee90d709e0bbf223d2",
+      "slug": "纽约成为全美首个暂停大型数据中心建设的州",
+      "date": "2026-07-14",
+      "lang": "zh",
+      "title": "纽约成为全美首个暂停大型数据中心建设的州",
+      "score": 8,
+      "tags": [
+        "data centers",
+        "energy policy",
+        "regulation",
+        "AI infrastructure"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "b17d17a5e0dd1a72812d48f9529eda737dbc940c",
+      "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
+      "slug": "bonsai-27b-27b-parameter-model-runs-on-phones-via-quantization",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Bonsai 27B: 27B-parameter model runs on phones via quantization",
+      "score": 8,
+      "tags": [
+        "AI",
+        "Model Compression",
+        "On-Device AI",
+        "Quantization",
+        "Large Language Models"
+      ],
+      "originalSite": "prismml.com"
+    },
+    {
+      "id": "290507ee501c61ab7074043ce02f9db124debfeb",
+      "canonicalId": "f29a74f942810df123ef35e296e5888ab0bf978d",
+      "slug": "armin-ronacher-on-the-tower-of-composability-and-ai-agents",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Armin Ronacher on the Tower of Composability and AI Agents",
+      "score": 8,
+      "tags": [
+        "composability",
+        "software-architecture",
+        "AI-agents",
+        "lisp-curse",
+        "essay"
+      ],
+      "originalSite": "lucumr.pocoo.org"
+    },
+    {
+      "id": "620c3f668ee2bf853a074220645ffd9d0492e775",
+      "canonicalId": "9bca5dae0eb3746a2bc8a84ea4d7e2f7e953d0b3",
+      "slug": "cursor-ide-0day-unpatched-vulnerability-allows-arbitrary-exe-execution",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Cursor IDE 0day: Unpatched Vulnerability Allows Arbitrary EXE Execution",
+      "score": 8,
+      "tags": [
+        "security",
+        "vulnerability",
+        "Cursor IDE",
+        "0day",
+        "disclosure"
+      ],
+      "originalSite": "mindgard.ai"
+    },
+    {
+      "id": "fe46c88668caa1434c6b464d042c8d05acb0b5e5",
+      "canonicalId": "0ed32a73888e7302126fb35e73aab22fd5333486",
+      "slug": "linux-input-latency-tested-x11-vs-wayland-vrr-dxvk",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Linux Input Latency Tested: X11 vs Wayland, VRR, DXVK",
+      "score": 8,
+      "tags": [
+        "Linux",
+        "input latency",
+        "Wayland",
+        "X11",
+        "gaming"
+      ],
+      "originalSite": "marco-nett.de"
+    },
+    {
+      "id": "85439dd637e96de7c051457c7a3c68c817d07e8a",
+      "canonicalId": "15773b9ccf27d00e24ad128dcd3c447771c65809",
+      "slug": "punch-yourself-in-the-face-with-reality",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Punch yourself in the face with reality",
+      "score": 8,
+      "tags": [
+        "AI",
+        "programming",
+        "software engineering",
+        "productivity",
+        "reflection"
+      ],
+      "originalSite": "adi.bio"
+    },
+    {
+      "id": "c68af8e550776051e10e495de29806a09e43bdca",
+      "canonicalId": "87fb36a4c3ad440e0b6dfbe358697ab33b5823b3",
+      "slug": "friction-as-shared-understanding-armin-ronacher-on-ai-agents",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Friction as Shared Understanding: Armin Ronacher on AI Agents",
+      "score": 8,
+      "tags": [
+        "software engineering",
+        "AI agents",
+        "shared understanding",
+        "team dynamics",
+        "code review"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "d5c9d3b10cfde4f173d579ba248fbfbd4a20a24b",
+      "canonicalId": "53288cccce93491e23826b81f489b6c8b82b2215",
+      "slug": "new-alem-benchmark-tests-llm-multi-agent-coordination",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "New ALEM Benchmark Tests LLM Multi-Agent Coordination",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "Benchmark",
+        "Multi-Agent",
+        "Coordination",
+        "AI Research"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "01fd6fb79e3ce16eff2a4d16f81d31963e9c72b5",
+      "canonicalId": "d418c4dcb2ef840e77478cea1aa998506d8e37c2",
+      "slug": "lessons-from-building-incremental-indexing-pipelines",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Lessons from Building Incremental Indexing Pipelines",
+      "score": 8,
+      "tags": [
+        "vector store",
+        "incremental indexing",
+        "data pipeline",
+        "idempotency",
+        "partial updates"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "278393b527281df27f1076340db7ee8a34efbb47",
+      "canonicalId": "d1391d716dfb731c636dbe7904770645240fe0df",
+      "slug": "fields-medal-2026-winners-leaked-via-icm-website-code",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Fields Medal 2026 Winners Leaked via ICM Website Code",
+      "score": 8,
+      "tags": [
+        "Fields Medal",
+        "mathematics",
+        "leak",
+        "ICM",
+        "predictions"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "ef5a7c083074bc5bfde206012f3ec572e3a32b00",
+      "canonicalId": "6e82b3f37b7a84d6be77b9b7e300b19e4db8d81c",
+      "slug": "cloudflare-launches-precursor-for-continuous-bot-detection-via-mouse-and-keystroke-analysis",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Cloudflare Launches Precursor for Continuous Bot Detection via Mouse and Keystroke Analysis",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "Bot Detection",
+        "AI",
+        "Security",
+        "Behavioral Verification"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "dfa427686ab884f5f5afa37ce17a540f873ecd4e",
+      "canonicalId": "9da69b4c5d63ba208c1994c53f3a94ce46af97de",
+      "slug": "deepseek-launches-new-funding-round-at-71b-valuation",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "DeepSeek Launches New Funding Round at $71B Valuation",
+      "score": 8,
+      "tags": [
+        "AI融资",
+        "DeepSeek",
+        "AI芯片",
+        "估值"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "0bec14cf5501c8a8a26ac3a6da6170cf216c52bf",
+      "canonicalId": "fd885fb42c2eb3c7642572158a32f3b975e7c5b4",
+      "slug": "gaode-releases-world-model-workshop-with-teleportation",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "Gaode Releases World Model Workshop with Teleportation",
+      "score": 8,
+      "tags": [
+        "world model",
+        "3D generation",
+        "open source",
+        "AI",
+        "Alibaba"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "b194d99afb786eb1f7b5959a2d319f8380b8d89c",
+      "canonicalId": "cb9db543cbd4130697549f9a38ed5b84a3b81a48",
+      "slug": "deepmind-ceo-calls-for-us-led-global-ai-watchdog",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "DeepMind CEO calls for US-led global AI watchdog",
+      "score": 8,
+      "tags": [
+        "AI regulation",
+        "AI safety",
+        "governance",
+        "DeepMind"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "bc054b7d4feb8449588665194dac7dbb40e74c15",
+      "canonicalId": "4e5ebc0960aaeee64c857aee90d709e0bbf223d2",
+      "slug": "new-york-first-us-state-to-pause-large-data-center-construction",
+      "date": "2026-07-14",
+      "lang": "en",
+      "title": "New York first US state to pause large data center construction",
+      "score": 8,
+      "tags": [
+        "data centers",
+        "energy policy",
+        "regulation",
+        "AI infrastructure"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
       "id": "df89fa2a6bea42f9c7185deff752282c3a058c22",
       "canonicalId": "3ea32098d2b90ffcf09f708d7538856ecce5adaf",
       "slug": "telegram-的-tme-域名因注册局操作被暂停",
@@ -5579,380 +6049,6 @@
         "EV"
       ],
       "originalSite": "x.com"
-    },
-    {
-      "id": "39fe2574cdd98083d9a81e4a0766746d7797d4aa",
-      "canonicalId": "42658ae9e5a815da43167fa5ae36b862faee1fd0",
-      "slug": "deepseek-发布-dspark-投机解码大模型推理速度提升-60-85",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "DeepSeek 发布 DSpark 投机解码，大模型推理速度提升 60%-85%",
-      "score": 9,
-      "tags": [
-        "speculative decoding",
-        "LLM inference",
-        "DeepSeek",
-        "AI acceleration",
-        "open research"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "e4d532aec5fd28f6cab8cd7c717ac3e366017d57",
-      "canonicalId": "09eee99e51940e8e6004b2638b4546af03b69c48",
-      "slug": "央视曝光手机测评作弊特供机与代码识别博主",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "央视曝光手机测评作弊：特供机与代码识别博主",
-      "score": 9,
-      "tags": [
-        "smartphone reviews",
-        "cheating",
-        "media integrity",
-        "tech industry",
-        "consumer protection"
-      ],
-      "originalSite": "weibo.com"
-    },
-    {
-      "id": "bd264d96b956813c1c19905383db463cbdfc8363",
-      "canonicalId": "8ea017648fcaf9fa6f4e48e0c3683c1553de7b67",
-      "slug": "金融科技工程手册引发货币数据处理争议",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "金融科技工程手册引发货币数据处理争议",
-      "score": 8,
-      "tags": [
-        "fintech",
-        "engineering",
-        "monetary representation",
-        "API design",
-        "best practices"
-      ],
-      "originalSite": "w.pitula.me"
-    },
-    {
-      "id": "9d50f27772c0e070a9e2021facd201e578091e73",
-      "canonicalId": "8ca9061ce25f529b0dee529f09b57ed1f22af4f0",
-      "slug": "实体媒体所有权之争",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "实体媒体所有权之争",
-      "score": 8,
-      "tags": [
-        "physical media",
-        "digital ownership",
-        "DRM",
-        "media preservation",
-        "piracy"
-      ],
-      "originalSite": "dervis.de"
-    },
-    {
-      "id": "fa3930596a7349ab7d217430991e9ea0d0d74252",
-      "canonicalId": "2de2d1d791f8c4e4a445cefcedce7e7a1ad9d962",
-      "slug": "可疑的不连续性系统悬崖分析",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "可疑的不连续性：系统悬崖分析",
-      "score": 8,
-      "tags": [
-        "discontinuities",
-        "tax",
-        "systems",
-        "analysis",
-        "policy"
-      ],
-      "originalSite": "danluu.com"
-    },
-    {
-      "id": "97badc849d903813a2896597ab85514b457cca4c",
-      "canonicalId": "84e0d65e5b7f08627962028629abe920700c715f",
-      "slug": "亚洲-ai-初创公司推出类似-mythos-的模型应对出口禁令",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "亚洲 AI 初创公司推出类似 Mythos 的模型应对出口禁令",
-      "score": 8,
-      "tags": [
-        "AI",
-        "startups",
-        "LLMs",
-        "regulation",
-        "multi-agent systems"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "61fb82f4fa40f80a42f01846718c7cb42da8403b",
-      "canonicalId": "8ce60880f76f8eefbdef576c6492caf283ae80aa",
-      "slug": "ip-crawl公开网络摄像头的实时图谱",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "IP Crawl：公开网络摄像头的实时图谱",
-      "score": 8,
-      "tags": [
-        "IoT security",
-        "privacy",
-        "webcams",
-        "internet scanning",
-        "ethical concerns"
-      ],
-      "originalSite": "ipcrawl.com"
-    },
-    {
-      "id": "0efc55321bab38eec1658946c60f99fa94fd3ff1",
-      "canonicalId": "9ea687035e6d5d1d4ca38e74313bd5c65ebd104c",
-      "slug": "mathformer-测试符号数学模式匹配还是推理",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "MathFormer 测试符号数学：模式匹配还是推理？",
-      "score": 8,
-      "tags": [
-        "machine learning",
-        "symbolic math",
-        "transformers",
-        "reasoning",
-        "pattern matching"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "18b28a3389e2878ff962f3eceb8df062fee50845",
-      "canonicalId": "77e68e7be39a9de49a5519a4cc582c6791035fa6",
-      "slug": "在-l4-上测试-gemma-2-9b-fp8-发现预填充开销",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "在 L4 上测试 Gemma 2 9B FP8 发现预填充开销",
-      "score": 8,
-      "tags": [
-        "LLM Benchmarking",
-        "Quantization",
-        "Gemma 2",
-        "vLLM",
-        "GPU Inference"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "c0e906f0becafc5d0eb9100bbf1c763eabd8bb66",
-      "canonicalId": "a80158216152a03a599583004dabdaf061235256",
-      "slug": "dirtyclone-linux-内核漏洞允许本地用户提权至-root",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "DirtyClone Linux 内核漏洞允许本地用户提权至 root",
-      "score": 8,
-      "tags": [
-        "linux",
-        "kernel",
-        "vulnerability",
-        "privilege-escalation",
-        "security"
-      ],
-      "originalSite": "research.jfrog.com"
-    },
-    {
-      "id": "0d3ef3ebf2cb7e5825232afd0eeeb53dad011941",
-      "canonicalId": "2b5e79cec6e75d255a3416d6852619133c9aec9b",
-      "slug": "ai-模型通过挖掘-git-历史在编程基准测试中作弊",
-      "date": "2026-06-28",
-      "lang": "zh",
-      "title": "AI 模型通过挖掘 Git 历史在编程基准测试中作弊",
-      "score": 8,
-      "tags": [
-        "AI",
-        "benchmarks",
-        "cheating",
-        "programming",
-        "research"
-      ],
-      "originalSite": "t.me"
-    },
-    {
-      "id": "4dd6ef64b30821acec870427b5d5d796d30cf0bf",
-      "canonicalId": "42658ae9e5a815da43167fa5ae36b862faee1fd0",
-      "slug": "deepseek-dspark-speculative-decoding-boosts-llm-speed",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "DeepSeek DSpark Speculative Decoding Boosts LLM Speed",
-      "score": 9,
-      "tags": [
-        "speculative decoding",
-        "LLM inference",
-        "DeepSeek",
-        "AI acceleration",
-        "open research"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "35e06186cf2e7a2cbd31d4317ae623a833eb38e5",
-      "canonicalId": "09eee99e51940e8e6004b2638b4546af03b69c48",
-      "slug": "cctv-exposes-smartphone-review-cheating-with-special-units-and-code",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "CCTV Exposes Smartphone Review Cheating with Special Units and Code",
-      "score": 9,
-      "tags": [
-        "smartphone reviews",
-        "cheating",
-        "media integrity",
-        "tech industry",
-        "consumer protection"
-      ],
-      "originalSite": "weibo.com"
-    },
-    {
-      "id": "0aebf3a079534cc7cabf94f05e0a8666904794ab",
-      "canonicalId": "8ea017648fcaf9fa6f4e48e0c3683c1553de7b67",
-      "slug": "fintech-engineering-handbook-sparks-debate-on-monetary-data-handling",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "Fintech Engineering Handbook Sparks Debate on Monetary Data Handling",
-      "score": 8,
-      "tags": [
-        "fintech",
-        "engineering",
-        "monetary representation",
-        "API design",
-        "best practices"
-      ],
-      "originalSite": "w.pitula.me"
-    },
-    {
-      "id": "146f77c109caf5bfa66c3ddb51a308d8795c75ad",
-      "canonicalId": "8ca9061ce25f529b0dee529f09b57ed1f22af4f0",
-      "slug": "the-case-for-physical-media-ownership",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "The Case for Physical Media Ownership",
-      "score": 8,
-      "tags": [
-        "physical media",
-        "digital ownership",
-        "DRM",
-        "media preservation",
-        "piracy"
-      ],
-      "originalSite": "dervis.de"
-    },
-    {
-      "id": "442d9078c636fbb82d8e8b61fb9ea642692f9012",
-      "canonicalId": "2de2d1d791f8c4e4a445cefcedce7e7a1ad9d962",
-      "slug": "suspicious-discontinuities-analysis-of-system-cliffs",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "Suspicious Discontinuities: Analysis of System Cliffs",
-      "score": 8,
-      "tags": [
-        "discontinuities",
-        "tax",
-        "systems",
-        "analysis",
-        "policy"
-      ],
-      "originalSite": "danluu.com"
-    },
-    {
-      "id": "379896674dc7b4c236cf28ba7c568480f2b91e1e",
-      "canonicalId": "84e0d65e5b7f08627962028629abe920700c715f",
-      "slug": "asian-ai-startups-launch-mythos-like-models-amid-export-bans",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "Asian AI startups launch Mythos-like models amid export bans",
-      "score": 8,
-      "tags": [
-        "AI",
-        "startups",
-        "LLMs",
-        "regulation",
-        "multi-agent systems"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "48caec1853e2c0261bcf841ac8f4cafe77056da5",
-      "canonicalId": "8ce60880f76f8eefbdef576c6492caf283ae80aa",
-      "slug": "ip-crawl-a-living-atlas-of-open-webcams",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "IP Crawl: A Living Atlas of Open Webcams",
-      "score": 8,
-      "tags": [
-        "IoT security",
-        "privacy",
-        "webcams",
-        "internet scanning",
-        "ethical concerns"
-      ],
-      "originalSite": "ipcrawl.com"
-    },
-    {
-      "id": "ffc936f83ca1bd888a76b97fe215c5e774f2b8cd",
-      "canonicalId": "9ea687035e6d5d1d4ca38e74313bd5c65ebd104c",
-      "slug": "mathformer-tests-symbolic-math-pattern-matching-or-reasoning",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "MathFormer tests symbolic math: pattern matching or reasoning?",
-      "score": 8,
-      "tags": [
-        "machine learning",
-        "symbolic math",
-        "transformers",
-        "reasoning",
-        "pattern matching"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "9530f64c864774767ac33bcb88e8505aa643f138",
-      "canonicalId": "77e68e7be39a9de49a5519a4cc582c6791035fa6",
-      "slug": "benchmarking-gemma-2-9b-fp8-on-l4-reveals-prefill-tax",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "Benchmarking Gemma 2 9B FP8 on L4 Reveals Prefill Tax",
-      "score": 8,
-      "tags": [
-        "LLM Benchmarking",
-        "Quantization",
-        "Gemma 2",
-        "vLLM",
-        "GPU Inference"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "341a55e0c7af23ce9e0316d2f516e1021c54ddd9",
-      "canonicalId": "a80158216152a03a599583004dabdaf061235256",
-      "slug": "dirtyclone-linux-kernel-bug-lets-local-users-gain-root-access",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "DirtyClone Linux Kernel Bug Lets Local Users Gain Root Access",
-      "score": 8,
-      "tags": [
-        "linux",
-        "kernel",
-        "vulnerability",
-        "privilege-escalation",
-        "security"
-      ],
-      "originalSite": "research.jfrog.com"
-    },
-    {
-      "id": "f26ec90f46f5b30ada7e64e46e598bec48c15359",
-      "canonicalId": "2b5e79cec6e75d255a3416d6852619133c9aec9b",
-      "slug": "ai-models-cheat-on-coding-benchmarks-by-mining-git-history",
-      "date": "2026-06-28",
-      "lang": "en",
-      "title": "AI models cheat on coding benchmarks by mining Git history",
-      "score": 8,
-      "tags": [
-        "AI",
-        "benchmarks",
-        "cheating",
-        "programming",
-        "research"
-      ],
-      "originalSite": "t.me"
     }
   ]
 }

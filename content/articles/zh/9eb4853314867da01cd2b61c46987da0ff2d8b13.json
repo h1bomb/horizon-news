@@ -1,0 +1,36 @@
+{
+  "id": "9eb4853314867da01cd2b61c46987da0ff2d8b13",
+  "canonicalId": "6e82b3f37b7a84d6be77b9b7e300b19e4db8d81c",
+  "slug": "cloudflare-推出-precursor通过鼠标和键盘行为持续检测机器人",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T09:44:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 推出 Precursor，通过鼠标和键盘行为持续检测机器人",
+  "summary": "Cloudflare 于 7 月 13 日宣布推出 Precursor，这是一个持续行为验证引擎，在整个会话中监控鼠标轨迹、键盘节奏等用户交互，以区分真人与 AI 机器人或脚本。 Precursor 弥补了基于 CAPTCHA 验证的局限性，通过持续的而非一次性的行为分析，可能减少对真实用户的干扰，并提升对复杂 AI 机器人的安全防护。 Precursor 作为 Cloudflare Turnstile 的可选补充，面向企业版 Bot Management 用户提供免费测试，正式版计划今年晚些时候上线。",
+  "score": 8,
+  "tags": [
+    "Cloudflare",
+    "Bot Detection",
+    "AI",
+    "Security",
+    "Behavioral Verification"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/introducing-precursor/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "传统的机器人检测通常依赖 CAPTCHA，在登录、结账等关键节点弹一次验证。Cloudflare Turnstile 是一种替代挑战平台，旨在取代 CAPTCHA。Precursor 扩展了这一方法，在整个会话中持续验证用户行为，分析人类特有的生理特征（如鼠标自然弧线和思考时的微小延迟），这些特征很难被机器模仿。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Cloudflare Turnstile",
+      "url": "https://grokipedia.com/page/Cloudflare_Turnstile"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

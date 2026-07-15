@@ -1,0 +1,40 @@
+{
+  "id": "d5c9d3b10cfde4f173d579ba248fbfbd4a20a24b",
+  "canonicalId": "53288cccce93491e23826b81f489b6c8b82b2215",
+  "slug": "new-alem-benchmark-tests-llm-multi-agent-coordination",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T15:37:00Z",
+  "lang": "en",
+  "title": "New ALEM Benchmark Tests LLM Multi-Agent Coordination",
+  "summary": "Researchers introduced ALEM, a JAX-based benchmark for open-ended multi-agent coordination, and evaluated 13 LLMs, finding they average only 6% normalized return, while zero-shot Gemini 3.1 Pro matches a trained MARL agent on the hardest setting. This benchmark fills a gap in evaluating LLMs&\\#x27; ability to coordinate in long-horizon, open-ended environments, highlighting that coordination is a distinct bottleneck beyond individual task competence, which has implications for deploying LLMs in multi-agent systems. The ALEM benchmark features nine procedurally generated levels with controllable coordination demands, and the study includes ablations showing communication has the largest effect on performance. The paper, code, and interactive traces are publicly available.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Benchmark",
+    "Multi-Agent",
+    "Coordination",
+    "AI Research"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ktessera"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
+  "originalSite": "reddit.com",
+  "context": "Multi-agent coordination involves multiple agents working together to achieve shared goals in a shared environment. Prior benchmarks often focus on single-agent tasks or short, structured interactions. ALEM builds on Craftax-like dynamics, requiring agents to explore, communicate, trade, craft, and fight in open-ended worlds.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Alem: Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+      "url": "https://alem-world.github.io/"
+    },
+    {
+      "title": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+      "url": "https://arxiv.org/html/2606.08340v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

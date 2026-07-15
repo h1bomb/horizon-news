@@ -1,0 +1,40 @@
+{
+  "id": "0bec14cf5501c8a8a26ac3a6da6170cf216c52bf",
+  "canonicalId": "fd885fb42c2eb3c7642572158a32f3b975e7c5b4",
+  "slug": "gaode-releases-world-model-workshop-with-teleportation",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T12:22:00Z",
+  "lang": "en",
+  "title": "Gaode Releases World Model Workshop with Teleportation",
+  "summary": "Alibaba-owned Gaode has launched ABot-WorldStudio, a world model workshop that generates interactive 3D worlds from text or image inputs, featuring a &\\#x27;spatiotemporal any door&\\#x27; for teleporting between worlds and supporting unlimited-duration local inference on a single RTX 5090. This release marks a significant advancement in world model technology by enabling long-duration local inference and unifying interactive video generation with 3D Gaussian Splatting \\(3DGS\\) scene generation, potentially accelerating applications in embodied AI, game development, and virtual tourism. ABot-WorldStudio can generate interactive 3D worlds as both video and 3DGS files, and the underlying ABot-World models are fully open-sourced. In tests, it sustained continuous inference for over one hour without crashes or quality degradation, far surpassing the typical one-minute limit of similar products.",
+  "score": 8,
+  "tags": [
+    "world model",
+    "3D generation",
+    "open source",
+    "AI",
+    "Alibaba"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/0/976/538.htm",
+  "originalSite": "ithome.com",
+  "context": "World models are AI systems that build internal representations of environments and predict how they change over time, enabling agents to plan and act without real-world trial and error. 3D Gaussian Splatting \\(3DGS\\) is a volume rendering technique for high-quality, real-time 3D scene representation from multiple images. ABot-WorldStudio combines these concepts, allowing users to create and navigate immersive 3D worlds locally.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "3D Gaussian splatting",
+      "url": "https://en.wikipedia.org/wiki/3D_Gaussian_splatting"
+    },
+    {
+      "title": "World model (artificial intelligence)",
+      "url": "https://en.wikipedia.org/wiki/World_model_%28artificial_intelligence%29"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

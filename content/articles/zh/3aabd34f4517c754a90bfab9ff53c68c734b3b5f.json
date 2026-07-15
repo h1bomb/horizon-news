@@ -1,0 +1,41 @@
+{
+  "id": "3aabd34f4517c754a90bfab9ff53c68c734b3b5f",
+  "canonicalId": "9bca5dae0eb3746a2bc8a84ea4d7e2f7e953d0b3",
+  "slug": "cursor-ide-0day-漏洞未修补可任意执行-exe-文件",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T17:58:00Z",
+  "lang": "zh",
+  "title": "Cursor IDE 0day 漏洞：未修补，可任意执行 EXE 文件",
+  "summary": "Cursor IDE 存在一个零日漏洞，可在无需用户提示的情况下执行任意 .exe 文件，且向厂商披露后超过六个月仍未修复。 该漏洞对 Cursor 用户构成重大安全风险，拥有本地访问权限的攻击者可静默执行恶意代码。厂商的不回应态度引发了对负责任的披露实践和用户信任的担忧。 该漏洞由 Mindgard 于 2025 年 12 月 15 日首次报告，但 Cursor 在 HackerOne 上将其标记为“信息性”并关闭，后重新打开并确认问题。利用该漏洞需将名为 git.exe 的恶意文件放入用户代码文件夹，利用了 Windows 的当前目录搜索顺序。",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "Cursor IDE",
+    "0day",
+    "disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Synthetic7346",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48910676"
+    }
+  ],
+  "originalUrl": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+  "originalSite": "mindgard.ai",
+  "context": "Cursor 是基于 VS Code 的 AI 驱动代码编辑器，旨在通过 AI 辅助功能加速开发。零日漏洞是指厂商未知的安全缺陷，用户在该漏洞被修补前处于暴露状态。该问题涉及 Windows 在查找可执行文件时优先搜索当前目录而非 PATH 的行为，当 IDE 调用 Git 等外部工具而未指定绝对路径时可能被利用。",
+  "discussion": "社区评论观点不一：有人认为该漏洞需要攻击者已拥有文件写入权限，因此降低了严重性；另一些人则认为静默执行且无用户提示是严重的设计缺陷。大家一致认为厂商长达六个月的沉默不可接受。",
+  "references": [
+    {
+      "title": "Cursor (company) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cursor_%28company%29"
+    },
+    {
+      "title": "Zero-day vulnerability",
+      "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

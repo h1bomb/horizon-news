@@ -1,0 +1,40 @@
+{
+  "id": "01fd6fb79e3ce16eff2a4d16f81d31963e9c72b5",
+  "canonicalId": "d418c4dcb2ef840e77478cea1aa998506d8e37c2",
+  "slug": "lessons-from-building-incremental-indexing-pipelines",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T22:21:00Z",
+  "lang": "en",
+  "title": "Lessons from Building Incremental Indexing Pipelines",
+  "summary": "A Reddit user shared practical pitfalls discovered while building an incremental indexing pipeline for vector stores, including issues with handling deletes, partial updates causing data drift, and the critical need for idempotency to prevent duplicate documents. These lessons are directly relevant to ML engineers and data pipeline practitioners who must keep vector indexes consistent with source data over time, highlighting often-overlooked bugs that degrade search accuracy in production. The user found that failing to handle upstream deletes causes the index to grow with stale entries, partial updates lead to drift when chunk boundaries change, and non-idempotent pipelines produce duplicate documents on retries or backfills.",
+  "score": 8,
+  "tags": [
+    "vector store",
+    "incremental indexing",
+    "data pipeline",
+    "idempotency",
+    "partial updates"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Whole-Assignment6240"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/",
+  "originalSite": "reddit.com",
+  "context": "Incremental indexing updates a vector store \\(a database that stores embeddings for similarity search\\) by processing only changed data instead of rebuilding the entire index. Common tasks include inserting new documents, updating existing ones, and deleting removed documents. The user&\\#x27;s post discusses distributed systems challenges like idempotency, where reprocessing the same input must yield identical results to avoid duplicates.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vector Indexing | Weaviate Documentation",
+      "url": "https://docs.weaviate.io/weaviate/concepts/vector-index"
+    },
+    {
+      "title": "Incremental Indexing Strategies for RAG Systems | Medium",
+      "url": "https://medium.com/@vasanthancomrads/incremental-indexing-strategies-for-large-rag-systems-e3e5a9e2ced7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

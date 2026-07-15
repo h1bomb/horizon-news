@@ -1,0 +1,40 @@
+{
+  "id": "c227646f1e24b8fb63ee650b2cc60a4d9c252e80",
+  "canonicalId": "d418c4dcb2ef840e77478cea1aa998506d8e37c2",
+  "slug": "构建增量索引管道的经验教训",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T22:21:00Z",
+  "lang": "zh",
+  "title": "构建增量索引管道的经验教训",
+  "summary": "一位 Reddit 用户分享了在构建向量存储增量索引管道时发现的实践陷阱，包括处理删除、部分更新导致数据漂移以及幂等性对防止文档重复的关键需求。 这些经验教训与 ML 工程师和数据管道从业者直接相关，他们需要长期保持向量索引与源数据一致，揭示了在生产环境中降低搜索准确度的常被忽视的错误。 用户发现未处理上游删除会导致索引增长并包含过期条目，部分更新在数据块边界变化时引发漂移，而非幂等管道在重试或回填时会产生重复文档。",
+  "score": 8,
+  "tags": [
+    "vector store",
+    "incremental indexing",
+    "data pipeline",
+    "idempotency",
+    "partial updates"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Whole-Assignment6240"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uwnb3g/things_i_got_wrong_building_an_incremental/",
+  "originalSite": "reddit.com",
+  "context": "增量索引通过仅处理更改的数据而不是重建整个索引来更新向量存储（存储用于相似性搜索的嵌入的数据库）。常见任务包括插入新文档、更新现有文档和删除已移除的文档。该用户的帖子讨论了分布式系统挑战，如幂等性，即重新处理相同输入必须产生相同结果以避免重复。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vector Indexing | Weaviate Documentation",
+      "url": "https://docs.weaviate.io/weaviate/concepts/vector-index"
+    },
+    {
+      "title": "Incremental Indexing Strategies for RAG Systems | Medium",
+      "url": "https://medium.com/@vasanthancomrads/incremental-indexing-strategies-for-large-rag-systems-e3e5a9e2ced7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

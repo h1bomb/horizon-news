@@ -1,0 +1,41 @@
+{
+  "id": "620c3f668ee2bf853a074220645ffd9d0492e775",
+  "canonicalId": "9bca5dae0eb3746a2bc8a84ea4d7e2f7e953d0b3",
+  "slug": "cursor-ide-0day-unpatched-vulnerability-allows-arbitrary-exe-execution",
+  "date": "2026-07-14",
+  "publishedAt": "2026-07-14T17:58:00Z",
+  "lang": "en",
+  "title": "Cursor IDE 0day: Unpatched Vulnerability Allows Arbitrary EXE Execution",
+  "summary": "A zero-day vulnerability in Cursor IDE allows executing arbitrary .exe files without user prompt, and remains unpatched over six months after disclosure to the vendor. This vulnerability poses a significant security risk to Cursor users, as an attacker with local access can execute malicious code silently. The vendor&\\#x27;s lack of response raises concerns about responsible disclosure practices and user trust. The vulnerability was first reported by Mindgard on December 15, 2025, but Cursor closed the HackerOne report as &\\#x27;Informative&\\#x27; before later reopening and confirming the issue. The exploit requires placing a malicious .exe named git.exe in the user&\\#x27;s code folder, leveraging Windows&\\#x27; current directory search order.",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "Cursor IDE",
+    "0day",
+    "disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Synthetic7346",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48910676"
+    }
+  ],
+  "originalUrl": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+  "originalSite": "mindgard.ai",
+  "context": "Cursor is an AI-powered code editor built on VS Code, designed to accelerate development with AI-assisted features. A zero-day vulnerability is a security flaw unknown to the vendor, leaving users exposed until a patch is issued. This issue involves Windows&\\#x27; behavior of searching the current directory for executables before checking the PATH, which can be exploited if the IDE invokes external tools like Git without specifying an absolute path.",
+  "discussion": "Community comments show mixed views: some argue the vulnerability requires an attacker to already have file write access, downplaying its severity, while others consider the silent execution without user prompt a serious design flaw. There is consensus that the vendor&\\#x27;s six-month silence is unacceptable.",
+  "references": [
+    {
+      "title": "Cursor (company) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cursor_%28company%29"
+    },
+    {
+      "title": "Zero-day vulnerability",
+      "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
