@@ -1,0 +1,40 @@
+{
+  "id": "6d8827b10ede7ae6775e10538f555c5032d6ef55",
+  "canonicalId": "e21c965e6aedd3a8fe377b80e62645393d06ca76",
+  "slug": "telegram-launches-serverless-platform-for-bots-and-mini-apps",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T16:00:00Z",
+  "lang": "en",
+  "title": "Telegram Launches Serverless Platform for Bots and Mini Apps",
+  "summary": "Telegram has officially launched a serverless platform that allows developers to run backend code for bots and Mini Apps directly on Telegram&\\#x27;s infrastructure, eliminating the need to manage servers. Deployments are done via a single command: npx tgcloud push. This significantly lowers the barrier for bot development, as developers no longer need to set up and scale their own servers. It also integrates tightly with Telegram&\\#x27;s Bot API, potentially improving performance and reliability for millions of bots. The code runs in an isolated V8 sandbox close to the Bot API and includes a built-in SQLite database. Developers write standard JavaScript modules and deploy with a single command.",
+  "score": 8,
+  "tags": [
+    "serverless",
+    "telegram",
+    "bots",
+    "platform",
+    "deployment"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://core.telegram.org/bots/serverless",
+  "originalSite": "core.telegram.org",
+  "context": "Serverless computing allows developers to run code without provisioning or managing servers. Telegram&\\#x27;s platform specifically uses V8 sandbox isolation to securely execute untrusted JavaScript code, similar to how Cloudflare Workers or AWS Lambda operate. This launch extends Telegram&\\#x27;s bot ecosystem by offering a managed runtime environment.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI Agent Sandboxes : Infrastructure Guide 2026 | Generative, Inc.",
+      "url": "https://www.generative.inc/ai-agent-sandboxes-the-infrastructure-layer-every-builder-needs-to-understand"
+    },
+    {
+      "title": "Cloudflare Sandbox for AI Agents: Secure Code Execution at the Edge",
+      "url": "https://www.aimadetools.com/blog/cloudflare-sandbox-ai-agents/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

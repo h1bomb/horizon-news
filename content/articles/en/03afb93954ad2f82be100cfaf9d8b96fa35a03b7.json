@@ -1,0 +1,40 @@
+{
+  "id": "03afb93954ad2f82be100cfaf9d8b96fa35a03b7",
+  "canonicalId": "0a6fae5de47dbec40b7fb5f2542c7dcbaf2d5b30",
+  "slug": "many-old-shim-versions-still-accepted-by-secure-boot",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T12:49:00Z",
+  "lang": "en",
+  "title": "Many old shim versions still accepted by Secure Boot",
+  "summary": "CMU CERT Coordination Center has disclosed that many exploitable versions of the shim bootloader were never added to the Secure Boot revocation list, allowing attackers to bypass Secure Boot protections and execute arbitrary code during early boot. This oversight undermines a fundamental security mechanism in Linux systems, potentially allowing persistent compromise that survives reboots and OS reinstalls. The advisory includes a list of vulnerable shims, but many were missed from the revocation list \\(DBX\\), which is used to block untrusted UEFI modules from loading.",
+  "score": 9,
+  "tags": [
+    "security",
+    "secure boot",
+    "linux",
+    "bootloader",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1082940/",
+  "originalSite": "lwn.net",
+  "context": "Secure Boot is a UEFI security feature that ensures only signed and trusted bootloaders can run. The shim bootloader acts as a bridge between UEFI firmware and the Linux bootloader, and a revocation list \\(DBX\\) is used to blacklist known vulnerable versions. Failure to add compromised shim versions to this list leaves systems exposed.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - rhboot/shim: UEFI shim loader · GitHub",
+      "url": "https://github.com/rhboot/shim"
+    },
+    {
+      "title": "Chapter 24. Updating the Secure Boot Revocation List | Managing...",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/managing_monitoring_and_updating_the_kernel/updating-the-secure-boot-revocation-list"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

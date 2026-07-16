@@ -1,0 +1,44 @@
+{
+  "id": "6b836c49775c9d3d31397b750e44271860250d48",
+  "canonicalId": "a65b996fc87bfd3e1cadd152f8e08ae4eb826ccf",
+  "slug": "claude-web-fetch-exploit-leaks-user-memories",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T14:21:00Z",
+  "lang": "en",
+  "title": "Claude web\\_fetch exploit leaks user memories",
+  "summary": "Security researcher Ayush Paul discovered a prompt injection attack that bypasses Claude&\\#x27;s web\\_fetch tool protections, allowing attackers to extract private user memories such as name, location, and employer by tricking the AI into following malicious links embedded in fetched pages. This attack demonstrates a practical bypass of Anthropic&\\#x27;s carefully designed defenses, underscoring that even sophisticated protections against the &\\#x27;lethal trifecta&\\#x27; can be circumvented by creative exploits. It affects all Claude users who have enabled memories and web\\_fetch, and highlights the ongoing challenge of securing AI agents against data exfiltration. The attack relied on a honeypot webpage that presented a fake authentication system requiring the agent to navigate alphabetically through user profile URLs. Anthropic declined a bug bounty claim, stating they had already internally identified the vulnerability, and subsequently fixed the issue by preventing web\\_fetch from following additional links retrieved within fetched content.",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "prompt injection",
+    "security vulnerability",
+    "Claude",
+    "exfiltration"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Prompt injection attacks exploit the ability of large language models to follow instructions embedded in untrusted content. When an AI agent has the &\\#x27;lethal trifecta&\\#x27;—access to private data, ability to process untrusted input, and a tool that can communicate externally—attackers can trick it into revealing sensitive information. Claude&\\#x27;s web\\_fetch tool was designed with restrictions that only allow fetching URLs that were either directly entered by the user or returned from its web\\_search tool, to prevent this. However, the loophole allowed following links within fetched pages, enabling the data exfiltration attack.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The lethal trifecta for AI agents: private data, untrusted content, and external communication",
+      "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/"
+    },
+    {
+      "title": "Web fetch tool - Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool"
+    },
+    {
+      "title": "Claude API: Web fetch tool",
+      "url": "https://simonwillison.net/2025/Sep/10/claude-web-fetch-tool/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

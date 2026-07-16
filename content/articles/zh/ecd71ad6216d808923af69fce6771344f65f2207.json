@@ -1,0 +1,41 @@
+{
+  "id": "ecd71ad6216d808923af69fce6771344f65f2207",
+  "canonicalId": "f26aefe7e83352151a32ca99ea6a1ba02e26d1dd",
+  "slug": "inkling支持音频的新型开放权重多模态模型",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T18:12:00Z",
+  "lang": "zh",
+  "title": "Inkling：支持音频的新型开放权重多模态模型",
+  "summary": "Thinking Machines AI 发布了 Inkling，这是一个大型开放权重多模态模型，支持音频输入，并可在 Tinker 平台上进行微调。 作为支持音频的最大开放权重模型之一，Inkling 为企业与开发者提供了一种可定制、可本地部署的闭源模型替代方案，有望降低多模态 AI 应用的成本并促进创新。 Inkling 并非整体最强的模型，但它结合了多模态能力、高效推理以及可在 Tinker 上进行微调的便利性，使其成为实用的可定制基座。社区提供了本地部署资源，包括 llama.cpp 分支、Unsloth 以及 Hugging Face 上的 GGUF/NVFP4 版本。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "open-weights",
+    "multimodal",
+    "fine-tuning",
+    "HN"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vimarsh6739",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48924912"
+    }
+  ],
+  "originalUrl": "https://thinkingmachines.ai/news/introducing-inkling/",
+  "originalSite": "thinkingmachines.ai",
+  "context": "开放权重模型是指将训练好的参数（权重）公开发布的人工智能模型，任何人都可以下载并修改。这不同于 GPT-4 等仅提供 API 访问的闭源模型。Inkling 支持音频、文本和图像，因此是多模态的，但不支持视频。Tinker 平台允许用户无需深厚专业知识即可对模型进行微调以适应特定任务。",
+  "discussion": "社区评论对 Inkling 的音频能力和本地部署潜力表示热情，有用户指出这可能是美国 Thinking Machines 公司推出的领先开放权重模型。另一评论称赞在 Tinker 上提供可微调的开放基础模型的商业模式，使企业能够以更低成本拥有定制化模型。总体情绪积极，关注实际应用。",
+  "references": [
+    {
+      "title": "What is an Open-Weight Model? - Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model"
+    },
+    {
+      "title": "Tinker — Play with AI , bring your ideas to life",
+      "url": "https://www.tinker.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

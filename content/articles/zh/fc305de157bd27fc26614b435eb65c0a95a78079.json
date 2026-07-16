@@ -1,0 +1,36 @@
+{
+  "id": "fc305de157bd27fc26614b435eb65c0a95a78079",
+  "canonicalId": "e336d655e8ace010c0c410829915b24d5d7de0fa",
+  "slug": "linux-72-io-uring-采用无锁-mpsc-fifo-队列",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T13:35:00Z",
+  "lang": "zh",
+  "title": "Linux 7.2 io\\_uring 采用无锁 MPSC FIFO 队列",
+  "summary": "Linux 内核 7.2 的 io\\_uring 子系统将用无锁多生产者单消费者（MPSC）FIFO 队列替代现有的无锁链表（llist）任务跟踪，带来显著的性能提升。 这一改动提升了高性能 I/O 工作负载的公平性并减少了缓存争用，直接惠及使用 io\\_uring 进行异步 I/O 的应用程序。 新队列使用尾指针和一个桩节点（stub sentinel）来维护 FIFO 顺序，无需列表反转，并避免了旧的头指针式 llist 方法中的重试循环和缓存行 bouncing。",
+  "score": 8,
+  "tags": [
+    "linux kernel",
+    "io\\_uring",
+    "lockless data structures",
+    "performance",
+    "MPSC queue"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081871/",
+  "originalSite": "lwn.net",
+  "context": "io\\_uring 是 Linux 内核的异步 I/O 接口，使用用户空间与内核之间的共享环形缓冲区。它目前使用无锁单链表（llist）跟踪工作项，该链表行为类似栈，处理前需要重排序，导致效率低下。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "News - [LWN.net] [$] Lockless MPSC FIFO queues for io_uring",
+      "url": "https://www.linux.org/threads/lwn-net-lockless-mpsc-fifo-queues-for-io_uring.68933/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "0dc27106066e99e6e2c61b32c9073de7b5b32e5e",
+  "canonicalId": "e336d655e8ace010c0c410829915b24d5d7de0fa",
+  "slug": "lockless-mpsc-fifo-queues-for-io-uring-in-linux-72",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T13:35:00Z",
+  "lang": "en",
+  "title": "Lockless MPSC FIFO queues for io\\_uring in Linux 7.2",
+  "summary": "Linux kernel 7.2&\\#x27;s io\\_uring subsystem will replace its current lockless linked-list \\(llist\\) task tracking with a lockless multi-producer, single-consumer \\(MPSC\\) FIFO queue, resulting in notable performance gains. This change improves fairness and reduces cache contention for high-performance I/O workloads, directly benefiting applications using io\\_uring for asynchronous I/O. The new queue uses a tail pointer and a stub sentinel node to maintain FIFO order without the need for list reversal, and avoids the retry loop and cache-line bouncing inherent in the old head-based llist approach.",
+  "score": 8,
+  "tags": [
+    "linux kernel",
+    "io\\_uring",
+    "lockless data structures",
+    "performance",
+    "MPSC queue"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1081871/",
+  "originalSite": "lwn.net",
+  "context": "io\\_uring is a Linux kernel interface for asynchronous I/O, using shared ring buffers between userspace and kernel. It currently tracks work items using a lockless singly linked list \\(llist\\), which acts as a stack and requires reordering before processing, leading to inefficiencies.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "News - [LWN.net] [$] Lockless MPSC FIFO queues for io_uring",
+      "url": "https://www.linux.org/threads/lwn-net-lockless-mpsc-fifo-queues-for-io_uring.68933/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

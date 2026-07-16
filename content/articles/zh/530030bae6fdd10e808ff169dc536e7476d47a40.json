@@ -1,0 +1,44 @@
+{
+  "id": "530030bae6fdd10e808ff169dc536e7476d47a40",
+  "canonicalId": "80eeefe316f86e5a9268b32ecb9fc2f8d417ad8d",
+  "slug": "通过哈达玛积分析解构卷积神经元",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T06:59:00Z",
+  "lang": "zh",
+  "title": "通过哈达玛积分析解构卷积神经元",
+  "summary": "作者提出一种新技术，通过计算感受野与权重的哈达玛积，然后进行聚类，来解构 Inceptionv1 中的神经元，揭示出像汽车、猫、狗等单语义特征簇。 这项工作是对机制可解释性的重要贡献，提供了一种细粒度分析卷积神经元的新方法。它可以帮助研究人员更好地理解和验证视觉模型的内部表征，推动 AI 安全发展。 分析显示，低值簇（如字母）的所有依赖神经元都对同一概念做出反应，正负权重均匀分布以降低总和，表明梯度下降有意为之。该方法应用于 Inceptionv1 的 mixed4e 层。",
+  "score": 8,
+  "tags": [
+    "mechanistic interpretability",
+    "convolutional neural networks",
+    "interpretability",
+    "AI safety",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/narang\\_27"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uwya70/mechanistic_interpretability_a_first_paper_on/",
+  "originalSite": "reddit.com",
+  "context": "机制可解释性旨在通过理解神经网络的内部算法和电路来逆向工程。Inceptionv1 是一种卷积神经网络架构，使用 1x1 卷积来降低维度。哈达玛积是逐元素乘法运算，在此用于结合感受野和权重信息。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mechanistic interpretability",
+      "url": "https://en.wikipedia.org/wiki/Mechanistic_interpretability"
+    },
+    {
+      "title": "Hadamard product (matrices) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hadamard_product_%28matrices%29"
+    },
+    {
+      "title": "Implement Inception - v 1 in PyTorch | by Karunesh Upadhyay | Medium",
+      "url": "https://medium.com/@karuneshu21/implement-inception-v1-in-pytorch-66bdbb3d0005"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

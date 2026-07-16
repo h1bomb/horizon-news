@@ -1,6 +1,378 @@
 {
   "articles": [
     {
+      "id": "cc6647a3fb0ec03f2590b283c285415da78532a3",
+      "canonicalId": "d51f9e4ab75eac3dd8932285e6105116be590dbc",
+      "slug": "stripe-与-advent-联合报价-530-亿美元收购-paypal",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "Stripe 与 Advent 联合报价 530 亿美元收购 PayPal",
+      "score": 9,
+      "tags": [
+        "fintech",
+        "acquisition",
+        "payments",
+        "antitrust",
+        "Stripe"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "8ae6b71ade31d4fecd4e60313a3324a9c8b53247",
+      "canonicalId": "0a6fae5de47dbec40b7fb5f2542c7dcbaf2d5b30",
+      "slug": "许多旧版-shim-引导加载程序仍被-secure-boot-接受",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "许多旧版 shim 引导加载程序仍被 Secure Boot 接受",
+      "score": 9,
+      "tags": [
+        "security",
+        "secure boot",
+        "linux",
+        "bootloader",
+        "vulnerability"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "051b7ef35328624289f4a4ddeb85bcd2ea8fe7f8",
+      "canonicalId": "629e9ddee598723aff482ca7c2ed1f336933be2f",
+      "slug": "deepseek-年化收入逼近-5-亿美元v4-api-毛利率超-50",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "DeepSeek 年化收入逼近 5 亿美元，V4 API 毛利率超 50%",
+      "score": 9,
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "Revenue",
+        "API",
+        "Fundraising"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
+      "id": "ecd71ad6216d808923af69fce6771344f65f2207",
+      "canonicalId": "f26aefe7e83352151a32ca99ea6a1ba02e26d1dd",
+      "slug": "inkling支持音频的新型开放权重多模态模型",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "Inkling：支持音频的新型开放权重多模态模型",
+      "score": 8,
+      "tags": [
+        "AI",
+        "open-weights",
+        "multimodal",
+        "fine-tuning",
+        "HN"
+      ],
+      "originalSite": "thinkingmachines.ai"
+    },
+    {
+      "id": "3362a46eb73a4e58c2b532fca46415ad5e64e646",
+      "canonicalId": "a65b996fc87bfd3e1cadd152f8e08ae4eb826ccf",
+      "slug": "claude-web-fetch-漏洞泄露用户记忆",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "Claude web\\_fetch 漏洞泄露用户记忆",
+      "score": 8,
+      "tags": [
+        "AI safety",
+        "prompt injection",
+        "security vulnerability",
+        "Claude",
+        "exfiltration"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "fc305de157bd27fc26614b435eb65c0a95a78079",
+      "canonicalId": "e336d655e8ace010c0c410829915b24d5d7de0fa",
+      "slug": "linux-72-io-uring-采用无锁-mpsc-fifo-队列",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "Linux 7.2 io\\_uring 采用无锁 MPSC FIFO 队列",
+      "score": 8,
+      "tags": [
+        "linux kernel",
+        "io\\_uring",
+        "lockless data structures",
+        "performance",
+        "MPSC queue"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "530030bae6fdd10e808ff169dc536e7476d47a40",
+      "canonicalId": "80eeefe316f86e5a9268b32ecb9fc2f8d417ad8d",
+      "slug": "通过哈达玛积分析解构卷积神经元",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "通过哈达玛积分析解构卷积神经元",
+      "score": 8,
+      "tags": [
+        "mechanistic interpretability",
+        "convolutional neural networks",
+        "interpretability",
+        "AI safety",
+        "deep learning"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "727859893d1e79670f769cd1f3034d3fac3e7ff3",
+      "canonicalId": "dde1f34e3a0a05a12f91a8e25de61f1f817c1395",
+      "slug": "中国-7-款手机端侧-ai-模型完成备案",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "中国 7 款手机端侧 AI 模型完成备案",
+      "score": 8,
+      "tags": [
+        "AI regulation",
+        "on-device AI",
+        "mobile AI",
+        "China"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "a2d5db77f577c7864bd818905586903a9dbab295",
+      "canonicalId": "dd54105b7087355a4b204f8829e38cc47ea7a62c",
+      "slug": "中国零售业垂类时代结束各玩家同台竞技",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "中国零售业垂类时代结束，各玩家同台竞技",
+      "score": 8,
+      "tags": [
+        "retail",
+        "China",
+        "e-commerce",
+        "consumer behavior",
+        "market research"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "d6d1582c0a7cb15ad1f4e4373f15d66c5c222ceb",
+      "canonicalId": "19fa99e0723490d64091a75114823a37e3105af8",
+      "slug": "谷歌与-epic-撤回动议第三方应用商店将入驻-google-play",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "谷歌与 Epic 撤回动议，第三方应用商店将入驻 Google Play",
+      "score": 8,
+      "tags": [
+        "Android",
+        "Google Play",
+        "Epic Games",
+        "反垄断",
+        "应用商店"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "3f571d9df37d0a962e4b8c665f4ce240a0f3569d",
+      "canonicalId": "e21c965e6aedd3a8fe377b80e62645393d06ca76",
+      "slug": "telegram-推出机器人无服务器平台",
+      "date": "2026-07-15",
+      "lang": "zh",
+      "title": "Telegram 推出机器人无服务器平台",
+      "score": 8,
+      "tags": [
+        "serverless",
+        "telegram",
+        "bots",
+        "platform",
+        "deployment"
+      ],
+      "originalSite": "core.telegram.org"
+    },
+    {
+      "id": "eb4027225e700c0aafeadf92114e575bad9fdc29",
+      "canonicalId": "d51f9e4ab75eac3dd8932285e6105116be590dbc",
+      "slug": "stripe-and-advent-offer-53b-to-acquire-paypal",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Stripe and Advent Offer $53B to Acquire PayPal",
+      "score": 9,
+      "tags": [
+        "fintech",
+        "acquisition",
+        "payments",
+        "antitrust",
+        "Stripe"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "03afb93954ad2f82be100cfaf9d8b96fa35a03b7",
+      "canonicalId": "0a6fae5de47dbec40b7fb5f2542c7dcbaf2d5b30",
+      "slug": "many-old-shim-versions-still-accepted-by-secure-boot",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Many old shim versions still accepted by Secure Boot",
+      "score": 9,
+      "tags": [
+        "security",
+        "secure boot",
+        "linux",
+        "bootloader",
+        "vulnerability"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "6fa2845d8c43190d08218fdb7b46237a6cee5e99",
+      "canonicalId": "629e9ddee598723aff482ca7c2ed1f336933be2f",
+      "slug": "deepseeks-annualized-revenue-nears-500m-v4-api-margins-top-50",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "DeepSeek’s annualized revenue nears $500M, V4 API margins top 50%",
+      "score": 9,
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "Revenue",
+        "API",
+        "Fundraising"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
+      "id": "2bfc09c2e2fbaaf09bbb338d0976591beb45ab50",
+      "canonicalId": "f26aefe7e83352151a32ca99ea6a1ba02e26d1dd",
+      "slug": "inkling-a-new-open-weights-multimodal-model-with-audio-support",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Inkling: A New Open-Weights Multimodal Model with Audio Support",
+      "score": 8,
+      "tags": [
+        "AI",
+        "open-weights",
+        "multimodal",
+        "fine-tuning",
+        "HN"
+      ],
+      "originalSite": "thinkingmachines.ai"
+    },
+    {
+      "id": "6b836c49775c9d3d31397b750e44271860250d48",
+      "canonicalId": "a65b996fc87bfd3e1cadd152f8e08ae4eb826ccf",
+      "slug": "claude-web-fetch-exploit-leaks-user-memories",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Claude web\\_fetch exploit leaks user memories",
+      "score": 8,
+      "tags": [
+        "AI safety",
+        "prompt injection",
+        "security vulnerability",
+        "Claude",
+        "exfiltration"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "0dc27106066e99e6e2c61b32c9073de7b5b32e5e",
+      "canonicalId": "e336d655e8ace010c0c410829915b24d5d7de0fa",
+      "slug": "lockless-mpsc-fifo-queues-for-io-uring-in-linux-72",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Lockless MPSC FIFO queues for io\\_uring in Linux 7.2",
+      "score": 8,
+      "tags": [
+        "linux kernel",
+        "io\\_uring",
+        "lockless data structures",
+        "performance",
+        "MPSC queue"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "a982c7a06e6abbea863d80877b22397dc21ba8b0",
+      "canonicalId": "80eeefe316f86e5a9268b32ecb9fc2f8d417ad8d",
+      "slug": "disentangling-convolutional-neurons-via-hadamard-product-analysis",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Disentangling Convolutional Neurons via Hadamard Product Analysis",
+      "score": 8,
+      "tags": [
+        "mechanistic interpretability",
+        "convolutional neural networks",
+        "interpretability",
+        "AI safety",
+        "deep learning"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "a8701b72bb47369fe5a71b8f325d7a2df18f5c6a",
+      "canonicalId": "dde1f34e3a0a05a12f91a8e25de61f1f817c1395",
+      "slug": "7-major-smartphone-on-device-ai-models-registered-in-china",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "7 Major Smartphone On-Device AI Models Registered in China",
+      "score": 8,
+      "tags": [
+        "AI regulation",
+        "on-device AI",
+        "mobile AI",
+        "China"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "545ef58e4957610d9636c10fb8d4b4dfd0f4aeae",
+      "canonicalId": "dd54105b7087355a4b204f8829e38cc47ea7a62c",
+      "slug": "chinese-retail-vertical-segmentation-ends-as-players-converge",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Chinese retail vertical segmentation ends as players converge",
+      "score": 8,
+      "tags": [
+        "retail",
+        "China",
+        "e-commerce",
+        "consumer behavior",
+        "market research"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "1cc026aec4ce2461602d529cc3f63624568bd84c",
+      "canonicalId": "19fa99e0723490d64091a75114823a37e3105af8",
+      "slug": "google-and-epic-drop-motion-third-party-app-stores-coming-to-google-play",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Google and Epic Drop Motion, Third-Party App Stores Coming to Google Play",
+      "score": 8,
+      "tags": [
+        "Android",
+        "Google Play",
+        "Epic Games",
+        "反垄断",
+        "应用商店"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "6d8827b10ede7ae6775e10538f555c5032d6ef55",
+      "canonicalId": "e21c965e6aedd3a8fe377b80e62645393d06ca76",
+      "slug": "telegram-launches-serverless-platform-for-bots-and-mini-apps",
+      "date": "2026-07-15",
+      "lang": "en",
+      "title": "Telegram Launches Serverless Platform for Bots and Mini Apps",
+      "score": 8,
+      "tags": [
+        "serverless",
+        "telegram",
+        "bots",
+        "platform",
+        "deployment"
+      ],
+      "originalSite": "core.telegram.org"
+    },
+    {
       "id": "97fa5bcafa4a48e33f72fd806454ace19dd6c376",
       "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
       "slug": "bonsai-27b通过量化在手机上运行的-270-亿参数模型",
@@ -5579,476 +5951,6 @@
         "Gemini"
       ],
       "originalSite": "blog.google"
-    },
-    {
-      "id": "4ecee0e96780ecf01d2e26bd8be36572be46f789",
-      "canonicalId": "e8577b0ba435efc07d19478d0f0d5ebfc16fa559",
-      "slug": "vllm-v0240新增模型与重大优化",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "vLLM v0.24.0：新增模型与重大优化",
-      "score": 9,
-      "tags": [
-        "LLM",
-        "inference",
-        "vLLM",
-        "open-source",
-        "AI"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "be41b01b18729389fd84af890cf0a7b0513498d8",
-      "canonicalId": "82769dc35d8d9ddf0fe91f5424ffc182e0d7dfe2",
-      "slug": "谷歌-ai-同行评审处理顶会-1-万篇论文",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "谷歌 AI 同行评审处理顶会 1 万篇论文",
-      "score": 9,
-      "tags": [
-        "AI",
-        "peer review",
-        "conference",
-        "automation",
-        "machine learning"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "141fc727691c173ef4c30440e7f165af92a761c4",
-      "canonicalId": "279d788d0c635bff09c46c77334e63c2eae3777c",
-      "slug": "qwen-36-27b本地开发的最佳选择",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "Qwen 3.6 27B：本地开发的最佳选择？",
-      "score": 8,
-      "tags": [
-        "local LLM",
-        "Qwen 3.6",
-        "model deployment",
-        "community discussion"
-      ],
-      "originalSite": "quesma.com"
-    },
-    {
-      "id": "c65f9316daa486578f1a03c97bfd9295d02ecb4c",
-      "canonicalId": "3a499449f7aed86c8e2793ec6bbd77053a52c8dd",
-      "slug": "提议-self-顶级域名用于免费自托管",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "提议 .self 顶级域名用于免费自托管",
-      "score": 8,
-      "tags": [
-        "TLD",
-        "self-hosting",
-        "domain names",
-        "internet governance",
-        "digital identity"
-      ],
-      "originalSite": "hccf.onmy.cloud"
-    },
-    {
-      "id": "15cc6173e2cb91e2138c39d7c4150583b2f1b576",
-      "canonicalId": "6fa2a7a62fe559e9b17c37993caa8fa32c6dcfcf",
-      "slug": "rocket-lab-收购铱星公司达成战略交易",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "Rocket Lab 收购铱星公司，达成战略交易",
-      "score": 8,
-      "tags": [
-        "space",
-        "satellite",
-        "acquisition",
-        "Rocket Lab",
-        "Iridium"
-      ],
-      "originalSite": "investors.rocketlabcorp.com"
-    },
-    {
-      "id": "aa904b145d26b15496445619d9714e6fd4134ae1",
-      "canonicalId": "f28964b731e8cfbd650c706135f1d9468254e70b",
-      "slug": "美国最高法院裁定地理围栏搜查令需受第四修正案保护",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "美国最高法院裁定地理围栏搜查令需受第四修正案保护",
-      "score": 8,
-      "tags": [
-        "supreme-court",
-        "geofence-warrants",
-        "privacy",
-        "law-enforcement",
-        "fourth-amendment"
-      ],
-      "originalSite": "theguardian.com"
-    },
-    {
-      "id": "c75c9fad2d11f0b7ebf90586e3cfe30e4a3fdacd",
-      "canonicalId": "bc34ed6775f85d5c7482a50ad52aff97fff61dea",
-      "slug": "韩国计划投资-1-万亿美元于芯片和人形机器人",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "韩国计划投资 1 万亿美元于芯片和人形机器人",
-      "score": 8,
-      "tags": [
-        "semiconductors",
-        "humanoid robots",
-        "investment",
-        "South Korea",
-        "AI hardware"
-      ],
-      "originalSite": "arstechnica.com"
-    },
-    {
-      "id": "64a4af15e8d6f41fa94b510116a6a665d4ae4562",
-      "canonicalId": "bc56f47c19b51e3a6e15d02db1ae9076934edcad",
-      "slug": "wataboy将-game-boy-指令-jit-编译为-webassembly性能超越原生解释器",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "WATaBoy：将 Game Boy 指令 JIT 编译为 WebAssembly，性能超越原生解释器",
-      "score": 8,
-      "tags": [
-        "JIT",
-        "WebAssembly",
-        "emulation",
-        "Game Boy",
-        "performance"
-      ],
-      "originalSite": "humphri.es"
-    },
-    {
-      "id": "fe94b946e22c97423bafd4fda676dc8174952c52",
-      "canonicalId": "31d81f8197ef219b376dc84fcc1f1b4c5ca02ce9",
-      "slug": "cuda-内核执行流程详解",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "CUDA 内核执行流程详解",
-      "score": 8,
-      "tags": [
-        "CUDA",
-        "GPU computing",
-        "HPC",
-        "kernel execution",
-        "systems programming"
-      ],
-      "originalSite": "fergusfinn.com"
-    },
-    {
-      "id": "1fd1e2b95b455567e1b68e1266a77971cdcb1794",
-      "canonicalId": "b464753371459b3bc057f69e1b9a96f55cbfd5d7",
-      "slug": "ornith-10自我支架式-llm-用于智能编码",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "Ornith-1.0：自我支架式 LLM 用于智能编码",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "coding",
-        "open-source",
-        "agentic AI",
-        "model release"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "f2a8da4175f637c8da8fa873caca38f34284feab",
-      "canonicalId": "5314bc2d4f824658c4372e494b289b15663a3b1f",
-      "slug": "git-2550-发布新增-linux-fsmonitor-守护进程和历史命令改进",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "Git 2.55.0 发布，新增 Linux fsmonitor 守护进程和历史命令改进",
-      "score": 8,
-      "tags": [
-        "Git",
-        "Version Control",
-        "Open Source",
-        "Release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "ab250b2e5f8a5d6a93c38486ed97f7a442dd7300",
-      "canonicalId": "43754521e11e19e1c1973e6fa09ecca05c6e9529",
-      "slug": "eml-树被证明是通用逼近器",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "EML 树被证明是通用逼近器",
-      "score": 8,
-      "tags": [
-        "universal approximation",
-        "function approximation",
-        "EML trees",
-        "machine learning theory"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "0c08e217c8a4c378879561c332582ca7b766f98b",
-      "canonicalId": "2793f1d25d6a50dc410ee2b10cd75b34da7fdc8d",
-      "slug": "长鑫存储与腾讯签署-30-亿美元-dram-供应协议",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "长鑫存储与腾讯签署 30 亿美元 DRAM 供应协议",
-      "score": 8,
-      "tags": [
-        "DRAM",
-        "半导体",
-        "长鑫存储",
-        "腾讯",
-        "供应链"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "d6cc37a438372fb439d3b47839cc4cf490fd66c4",
-      "canonicalId": "013746a71bc86f1f63273e78f9080da63237891c",
-      "slug": "特斯拉-fsd-v14-lite-让-hw3-车型获得-hw4-级智驾与自动泊车",
-      "date": "2026-06-30",
-      "lang": "zh",
-      "title": "特斯拉 FSD v14 Lite 让 HW3 车型获得 HW4 级智驾与自动泊车",
-      "score": 8,
-      "tags": [
-        "Tesla",
-        "FSD",
-        "autonomous driving",
-        "reinforcement learning",
-        "EV"
-      ],
-      "originalSite": "x.com"
-    },
-    {
-      "id": "f6f372a28f687edd39671130622ec6f2726bcc84",
-      "canonicalId": "e8577b0ba435efc07d19478d0f0d5ebfc16fa559",
-      "slug": "vllm-v0240-new-models-and-major-optimizations",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "vLLM v0.24.0: New Models and Major Optimizations",
-      "score": 9,
-      "tags": [
-        "LLM",
-        "inference",
-        "vLLM",
-        "open-source",
-        "AI"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "57de6bfa4ee8ec8a1017f59f8603b4b87f698635",
-      "canonicalId": "82769dc35d8d9ddf0fe91f5424ffc182e0d7dfe2",
-      "slug": "googles-ai-peer-reviewer-processes-10k-papers-at-top-conferences",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Google's AI peer reviewer processes 10K papers at top conferences",
-      "score": 9,
-      "tags": [
-        "AI",
-        "peer review",
-        "conference",
-        "automation",
-        "machine learning"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "647a22f346046c24f06cced7ee026a7000b3117f",
-      "canonicalId": "279d788d0c635bff09c46c77334e63c2eae3777c",
-      "slug": "qwen-36-27b-sweet-spot-for-local-llm-development",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Qwen 3.6 27B: Sweet Spot for Local LLM Development?",
-      "score": 8,
-      "tags": [
-        "local LLM",
-        "Qwen 3.6",
-        "model deployment",
-        "community discussion"
-      ],
-      "originalSite": "quesma.com"
-    },
-    {
-      "id": "a6ee00d41dfc4c8c2c3b8c2d483cef17b6f414cc",
-      "canonicalId": "3a499449f7aed86c8e2793ec6bbd77053a52c8dd",
-      "slug": "self-tld-proposal-for-free-self-hosting-domains",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": ".self TLD Proposal for Free Self-Hosting Domains",
-      "score": 8,
-      "tags": [
-        "TLD",
-        "self-hosting",
-        "domain names",
-        "internet governance",
-        "digital identity"
-      ],
-      "originalSite": "hccf.onmy.cloud"
-    },
-    {
-      "id": "48d5dde8c12ebc1b590688dd5a57697f904b0de9",
-      "canonicalId": "6fa2a7a62fe559e9b17c37993caa8fa32c6dcfcf",
-      "slug": "rocket-lab-acquires-iridium-in-strategic-deal",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Rocket Lab acquires Iridium in strategic deal",
-      "score": 8,
-      "tags": [
-        "space",
-        "satellite",
-        "acquisition",
-        "Rocket Lab",
-        "Iridium"
-      ],
-      "originalSite": "investors.rocketlabcorp.com"
-    },
-    {
-      "id": "abdeb5041219d497ad449e5da3c0678d74a4c94e",
-      "canonicalId": "f28964b731e8cfbd650c706135f1d9468254e70b",
-      "slug": "supreme-court-rules-geofence-warrants-require-fourth-amendment-protections",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Supreme Court rules geofence warrants require Fourth Amendment protections",
-      "score": 8,
-      "tags": [
-        "supreme-court",
-        "geofence-warrants",
-        "privacy",
-        "law-enforcement",
-        "fourth-amendment"
-      ],
-      "originalSite": "theguardian.com"
-    },
-    {
-      "id": "c7e591da565efabc4d13505f3cbe57a5b3b4273f",
-      "canonicalId": "bc34ed6775f85d5c7482a50ad52aff97fff61dea",
-      "slug": "south-korea-to-invest-1-trillion-in-chips-and-humanoid-robots",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "South Korea to Invest $1 Trillion in Chips and Humanoid Robots",
-      "score": 8,
-      "tags": [
-        "semiconductors",
-        "humanoid robots",
-        "investment",
-        "South Korea",
-        "AI hardware"
-      ],
-      "originalSite": "arstechnica.com"
-    },
-    {
-      "id": "f732c896d6c92e384ebc8d2e765f2d428fc087aa",
-      "canonicalId": "bc56f47c19b51e3a6e15d02db1ae9076934edcad",
-      "slug": "wataboy-jit-compiling-game-boy-to-webassembly-beats-native-interpreters",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "WATaBoy: JIT-Compiling Game Boy to WebAssembly Beats Native Interpreters",
-      "score": 8,
-      "tags": [
-        "JIT",
-        "WebAssembly",
-        "emulation",
-        "Game Boy",
-        "performance"
-      ],
-      "originalSite": "humphri.es"
-    },
-    {
-      "id": "98b1b7d145099e88e4e4b76366f5763485746f35",
-      "canonicalId": "31d81f8197ef219b376dc84fcc1f1b4c5ca02ce9",
-      "slug": "explaining-cuda-kernel-execution-flow",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Explaining CUDA Kernel Execution Flow",
-      "score": 8,
-      "tags": [
-        "CUDA",
-        "GPU computing",
-        "HPC",
-        "kernel execution",
-        "systems programming"
-      ],
-      "originalSite": "fergusfinn.com"
-    },
-    {
-      "id": "bfe760a982e90f880cf7786a4bf16e7a772eb96e",
-      "canonicalId": "b464753371459b3bc057f69e1b9a96f55cbfd5d7",
-      "slug": "ornith-10-self-scaffolding-llm-for-agentic-coding",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Ornith-1.0: Self-Scaffolding LLM for Agentic Coding",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "coding",
-        "open-source",
-        "agentic AI",
-        "model release"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "e65b42980dc4764c3264fa1386a7b030e9c4a9b4",
-      "canonicalId": "5314bc2d4f824658c4372e494b289b15663a3b1f",
-      "slug": "git-2550-released-with-fsmonitor-for-linux-and-improved-history-command",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Git 2.55.0 Released with fsmonitor for Linux and Improved History Command",
-      "score": 8,
-      "tags": [
-        "Git",
-        "Version Control",
-        "Open Source",
-        "Release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "72dfc13731c18ef17a3140ade7d223d70f3d4879",
-      "canonicalId": "43754521e11e19e1c1973e6fa09ecca05c6e9529",
-      "slug": "eml-trees-proven-universal-approximators",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "EML Trees Proven Universal Approximators",
-      "score": 8,
-      "tags": [
-        "universal approximation",
-        "function approximation",
-        "EML trees",
-        "machine learning theory"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "8d8bc2ecd842c5c3db52f61e48f95e97c6cf5645",
-      "canonicalId": "2793f1d25d6a50dc410ee2b10cd75b34da7fdc8d",
-      "slug": "cxmt-and-tencent-sign-3-billion-dram-supply-deal",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "CXMT and Tencent Sign ~$3 Billion DRAM Supply Deal",
-      "score": 8,
-      "tags": [
-        "DRAM",
-        "半导体",
-        "长鑫存储",
-        "腾讯",
-        "供应链"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "0fc0f98560d65401f079e8f5afb51315662458b1",
-      "canonicalId": "013746a71bc86f1f63273e78f9080da63237891c",
-      "slug": "tesla-fsd-v14-lite-gives-hw3-hw4-level-autonomy-and-parking",
-      "date": "2026-06-30",
-      "lang": "en",
-      "title": "Tesla FSD v14 Lite Gives HW3 HW4-Level Autonomy and Parking",
-      "score": 8,
-      "tags": [
-        "Tesla",
-        "FSD",
-        "autonomous driving",
-        "reinforcement learning",
-        "EV"
-      ],
-      "originalSite": "x.com"
     }
   ]
 }

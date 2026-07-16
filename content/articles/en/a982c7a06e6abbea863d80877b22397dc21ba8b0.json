@@ -1,0 +1,44 @@
+{
+  "id": "a982c7a06e6abbea863d80877b22397dc21ba8b0",
+  "canonicalId": "80eeefe316f86e5a9268b32ecb9fc2f8d417ad8d",
+  "slug": "disentangling-convolutional-neurons-via-hadamard-product-analysis",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T06:59:00Z",
+  "lang": "en",
+  "title": "Disentangling Convolutional Neurons via Hadamard Product Analysis",
+  "summary": "The author proposes a novel technique to interpret neurons in Inceptionv1 by computing the Hadamard product of the receptive field and weights, then clustering to reveal monosemantic feature clusters like cars, cats, and dogs. This work is an important contribution to mechanistic interpretability, providing a new method to analyze convolutional neurons at a fine-grained level. It could help researchers better understand and verify the internal representations of vision models, advancing AI safety. The analysis revealed that low-valued clusters \\(e.g., letters\\) had all their dependent neurons firing on the same concept, with positive and negative weights evenly distributed to reduce the sum, suggesting deliberate gradient descent behavior. The method was applied to the mixed4e layer of Inceptionv1.",
+  "score": 8,
+  "tags": [
+    "mechanistic interpretability",
+    "convolutional neural networks",
+    "interpretability",
+    "AI safety",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/narang\\_27"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1uwya70/mechanistic_interpretability_a_first_paper_on/",
+  "originalSite": "reddit.com",
+  "context": "Mechanistic interpretability aims to reverse-engineer neural networks by understanding their internal algorithms and circuits. Inceptionv1 is a convolutional neural network architecture that uses 1x1 convolutions to reduce dimensionality. The Hadamard product is an element-wise multiplication operation used here to combine receptive field and weight information.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Mechanistic interpretability",
+      "url": "https://en.wikipedia.org/wiki/Mechanistic_interpretability"
+    },
+    {
+      "title": "Hadamard product (matrices) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hadamard_product_%28matrices%29"
+    },
+    {
+      "title": "Implement Inception - v 1 in PyTorch | by Karunesh Upadhyay | Medium",
+      "url": "https://medium.com/@karuneshu21/implement-inception-v1-in-pytorch-66bdbb3d0005"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2bfc09c2e2fbaaf09bbb338d0976591beb45ab50",
+  "canonicalId": "f26aefe7e83352151a32ca99ea6a1ba02e26d1dd",
+  "slug": "inkling-a-new-open-weights-multimodal-model-with-audio-support",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T18:12:00Z",
+  "lang": "en",
+  "title": "Inkling: A New Open-Weights Multimodal Model with Audio Support",
+  "summary": "Thinking Machines AI released Inkling, a large open-weights multimodal model that supports audio input and enables fine-tuning on the Tinker platform. As one of the largest open-weights models supporting audio, Inkling provides enterprises and developers a customizable, locally deployable alternative to closed-source models, potentially reducing costs and fostering innovation in multimodal AI applications. Inkling is not the strongest overall model but combines multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning, making it a practical base for customization. Community resources for local deployment include llama.cpp branch, Unsloth, and Hugging Face GGUF/NVFP4 versions.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "open-weights",
+    "multimodal",
+    "fine-tuning",
+    "HN"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vimarsh6739",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48924912"
+    }
+  ],
+  "originalUrl": "https://thinkingmachines.ai/news/introducing-inkling/",
+  "originalSite": "thinkingmachines.ai",
+  "context": "Open-weights models are AI models whose trained parameters \\(weights\\) are publicly released, allowing anyone to download and modify them. This contrasts with closed models like GPT-4, where only API access is given. Inkling supports audio as well as text and images, making it multimodal, though it does not support video. The Tinker platform allows users to fine-tune the model for specific tasks without deep expertise.",
+  "discussion": "Community comments express enthusiasm for Inkling&\\#x27;s audio capabilities and local deployment potential, with one user noting it might be a leading open-weight model from US-based Thinking Machines. Another comment praises the business model of offering open base models for fine-tuning on Tinker, enabling enterprises to own customized models at lower cost. Overall sentiment is positive, focusing on practical applications.",
+  "references": [
+    {
+      "title": "What is an Open-Weight Model? - Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model"
+    },
+    {
+      "title": "Tinker — Play with AI , bring your ideas to life",
+      "url": "https://www.tinker.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

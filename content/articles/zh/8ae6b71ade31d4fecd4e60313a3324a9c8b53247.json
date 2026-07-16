@@ -1,0 +1,40 @@
+{
+  "id": "8ae6b71ade31d4fecd4e60313a3324a9c8b53247",
+  "canonicalId": "0a6fae5de47dbec40b7fb5f2542c7dcbaf2d5b30",
+  "slug": "许多旧版-shim-引导加载程序仍被-secure-boot-接受",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T12:49:00Z",
+  "lang": "zh",
+  "title": "许多旧版 shim 引导加载程序仍被 Secure Boot 接受",
+  "summary": "CMU CERT 协调中心披露，许多存在漏洞的 shim 引导加载程序版本从未被添加到 Secure Boot 撤销列表中，允许攻击者绕过 Secure Boot 保护并在早期引导阶段执行任意代码。 这一疏忽破坏了 Linux 系统的基本安全机制，可能导致持久性攻击，重启和重装系统后仍能存活。 该建议包含易受攻击的 shim 列表，但许多版本未被加入撤销列表（DBX），而 DBX 用于阻止不受信任的 UEFI 模块加载。",
+  "score": 9,
+  "tags": [
+    "security",
+    "secure boot",
+    "linux",
+    "bootloader",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1082940/",
+  "originalSite": "lwn.net",
+  "context": "Secure Boot 是一种 UEFI 安全特性，确保只有经过签名和受信任的引导加载程序才能运行。shim 引导加载程序充当 UEFI 固件与 Linux 引导加载程序之间的桥梁，撤销列表（DBX）用于将已知存在漏洞的版本列入黑名单。未将受感染的 shim 版本添加到该列表会导致系统暴露于风险中。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - rhboot/shim: UEFI shim loader · GitHub",
+      "url": "https://github.com/rhboot/shim"
+    },
+    {
+      "title": "Chapter 24. Updating the Secure Boot Revocation List | Managing...",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/managing_monitoring_and_updating_the_kernel/updating-the-secure-boot-revocation-list"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

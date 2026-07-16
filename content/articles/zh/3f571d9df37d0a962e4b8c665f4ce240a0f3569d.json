@@ -1,0 +1,40 @@
+{
+  "id": "3f571d9df37d0a962e4b8c665f4ce240a0f3569d",
+  "canonicalId": "e21c965e6aedd3a8fe377b80e62645393d06ca76",
+  "slug": "telegram-推出机器人无服务器平台",
+  "date": "2026-07-15",
+  "publishedAt": "2026-07-15T16:00:00Z",
+  "lang": "zh",
+  "title": "Telegram 推出机器人无服务器平台",
+  "summary": "Telegram 正式推出无服务器平台，开发者可将机器人和 Mini App 的后端代码直接运行在 Telegram 基础设施上，无需管理服务器。部署只需一条命令：npx tgcloud push。 这大大降低了机器人开发的门槛，开发者不再需要自己搭建和扩展服务器。同时与 Telegram Bot API 紧密集成，有望为数百万机器人提升性能和可靠性。 代码运行在靠近 Bot API 的隔离 V8 沙箱中，并内置 SQLite 数据库。开发者只需编写标准 JavaScript 模块并通过一条命令部署。",
+  "score": 8,
+  "tags": [
+    "serverless",
+    "telegram",
+    "bots",
+    "platform",
+    "deployment"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://core.telegram.org/bots/serverless",
+  "originalSite": "core.telegram.org",
+  "context": "无服务器计算允许开发者无需配置或管理服务器即可运行代码。Telegram 的平台使用 V8 沙箱隔离来安全执行不受信任的 JavaScript 代码，类似于 Cloudflare Workers 或 AWS Lambda 的运作方式。此次发布通过提供托管运行时环境，扩展了 Telegram 的机器人生态系统。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI Agent Sandboxes : Infrastructure Guide 2026 | Generative, Inc.",
+      "url": "https://www.generative.inc/ai-agent-sandboxes-the-infrastructure-layer-every-builder-needs-to-understand"
+    },
+    {
+      "title": "Cloudflare Sandbox for AI Agents: Secure Code Execution at the Edge",
+      "url": "https://www.aimadetools.com/blog/cloudflare-sandbox-ai-agents/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
