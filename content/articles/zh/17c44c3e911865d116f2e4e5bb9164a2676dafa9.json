@@ -1,0 +1,44 @@
+{
+  "id": "17c44c3e911865d116f2e4e5bb9164a2676dafa9",
+  "canonicalId": "70faa734b4e5d5d4d92c55a5f3841019f0201f2f",
+  "slug": "华为昇腾-950-超节点亮相算力号称英伟达-67-倍",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T10:27:00Z",
+  "lang": "zh",
+  "title": "华为昇腾 950 超节点亮相，算力号称英伟达 6.7 倍",
+  "summary": "在 2026 年世界人工智能大会上，华为首次公开展示了基于灵衢互联协议和超节点架构的昇腾 950 超节点（Atlas 950 SuperPoD），最大支持 1024 卡规模，提供 1 EFLOPS FP8 和 2 EFLOPS FP4 算力，拥有 256 TB 全局统一内存。据中银证券报告，其总算力达到英伟达同级 NVL144 系统的 6.7 倍。 这一发布表明华为持续挑战英伟达在 AI 计算硬件领域的主导地位，尤其在大规模训练和推理方面。如果性能声称得到验证，6.7 倍的算力优势可能重塑竞争格局，并加速国产 AI 芯片在中国的应用。 昇腾 950 超节点采用华为自研的灵衢（UnifiedBus）互联协议，该协议用五层协议栈替代 PCIe、NVLink 和 RDMA，支持 8192 卡无收敛全互联。系统还采用 FP8 和 FP4 精度格式，这些格式常用于高效的 AI 推理和低精度训练。",
+  "score": 9,
+  "tags": [
+    "Huawei",
+    "Ascend 950",
+    "AI Hardware",
+    "Supercomputer",
+    "Compute"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/0/978/019.htm",
+  "originalSite": "ithome.com",
+  "context": "华为的灵衢（UnifiedBus）互联协议于 2025 年 9 月在华为全联接大会上正式发布，旨在解决大规模计算资源的互联技术难题。FP8 和 FP4 是低精度浮点格式，广泛用于 AI 工作负载以减少内存带宽并加速计算，同时保持可接受的精度。昇腾 950 是华为超节点系列的最新成员，此前昇腾 384 超节点已在互联网、运营商、金融等行业商用落地超过 750 套。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "灵衢 - 百度百科",
+      "url": "https://baike.baidu.com/item/%E7%81%B5%E8%A1%A2/66774401"
+    },
+    {
+      "title": "华为全联接大会 2025：发布灵衢互联协议与多系列超节点产品，引领 AI ...",
+      "url": "https://www.toutiao.com/article/7551352889764020755/"
+    },
+    {
+      "title": "Minifloat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minifloat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

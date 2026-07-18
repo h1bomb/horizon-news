@@ -1,0 +1,45 @@
+{
+  "id": "9df146917cba6d2b20b002be5a3939496db12a66",
+  "canonicalId": "2a39ad50840d44c4e491f7634961fffe4d072869",
+  "slug": "kaggle-competition-reveals-ai-submission-and-judge-inconsistencies",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T11:30:00Z",
+  "lang": "en",
+  "title": "Kaggle competition reveals AI submission and judge inconsistencies",
+  "summary": "A Kaggle community discussion has highlighted that in the &\\#x27;Measuring AGI&\\#x27; competition, submissions and evaluations are being handled by AI, leading to inconsistencies and prompt injection attacks where competitors can trick AI judges into declaring them winners. This raises serious concerns about the integrity of AI-driven competitions and evaluations, as AI judges can be easily manipulated and lack common sense, potentially undermining trust in automated assessment systems across industries. Specifically, community members report that AI judges can be prompt injected to award wins, and that submissions are often generated entirely by AI with minimal human input, shifting focus from human skill to idea execution or insider advantage.",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "Kaggle",
+    "competition integrity",
+    "prompt injection",
+    "AI evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "twerkmeister",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48946010"
+    }
+  ],
+  "originalUrl": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+  "originalSite": "kaggle.com",
+  "context": "Prompt injection is a security exploit where crafted inputs cause AI models to behave unexpectedly, bypassing safeguards. LLM-as-a-Judge systems are known to exhibit biases and can be unreliable. Kaggle is a data science competition platform that traditionally involved human skill, but recent events show increasing reliance on AI for both submissions and judging.",
+  "discussion": "Commenters express frustration that AI has &\\#x27;killed&\\#x27; fair hackathons, with one noting that prompt injection allows winners to be declared artificially. Others argue that Kaggle has always had issues with black-box models and brute-force methods, so this is not entirely new.",
+  "references": [
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    },
+    {
+      "title": "[2604.23178] Judging the Judges: A Systematic Evaluation of Bias ...",
+      "url": "https://arxiv.org/abs/2604.23178"
+    },
+    {
+      "title": "When AI Grades AI: Why Smarter Models Are Not Fairer Judges of Their ...",
+      "url": "https://www.techtimes.com/articles/318360/20260614/when-ai-grades-ai-why-smarter-models-are-not-fairer-judges-their-own-work.htm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

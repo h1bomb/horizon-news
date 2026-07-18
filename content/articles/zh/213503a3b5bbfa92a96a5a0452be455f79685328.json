@@ -1,0 +1,44 @@
+{
+  "id": "213503a3b5bbfa92a96a5a0452be455f79685328",
+  "canonicalId": "b82b19a7de11d7ff2171e90b1ea7600f6f10c6ed",
+  "slug": "kimi-k3开源-28-万亿参数模型登顶前端编程竞技场",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T00:02:00Z",
+  "lang": "zh",
+  "title": "Kimi K3：开源 2.8 万亿参数模型登顶前端编程竞技场",
+  "summary": "月之暗面发布了全球首个开源 2.8 万亿参数模型 Kimi K3，该模型在 Frontend Code Arena 排行榜中以 1679 分登顶，在前端编程任务上超越了 Claude Fable 5。 此次发布是开源 AI 的重要里程碑，展示了采用新型架构（Kimi Delta Attention 和 Attention Residuals）的模型在特定基准测试上能与顶级专有模型匹敌，有望加速开源社区的采用与创新。 Kimi K3 是一个拥有 2.8 万亿参数的稀疏混合专家模型，基于 Kimi Delta Attention（混合线性注意力机制）和 Attention Residuals 构建，具备原生视觉能力和 100 万 token 上下文窗口；API 定价为缓存命中每百万 token 0.30 美元、缓存未命中 3.00 美元、输出 15.00 美元，完整模型权重将于 2026 年 7 月开放。",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "large language model",
+    "AI",
+    "deep learning",
+    "model architecture"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.kimi.com/blog/kimi-k3",
+  "originalSite": "kimi.com",
+  "context": "Kimi Delta Attention（KDA）是一种线性注意力机制，通过逐通道对角门控改进了 Gated DeltaNet，比传统全注意力更高效地管理记忆。Attention Residuals（AttnRes）允许每个 Transformer 层选择性聚合所有先前层的信息，增强了长程依赖。该模型采用稀疏 MoE 结构，以较低的算力成本实现了 2.8 万亿参数，远低于同规模稠密模型。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2510.26692] Kimi Linear: An Expressive, Efficient Attention ... GitHub - MoonshotAI/Kimi-Linear Kimi K3 - Kimi API Platform Kimi Linear: An Expressive, Efficient Attention Architecture Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open ... GitHub - hwilner/kimi-delta-attention: Educational ... Kimi K3 (Moonshot AI) - Cloudflare Docs",
+      "url": "https://arxiv.org/abs/2510.26692"
+    },
+    {
+      "title": "GitHub - MoonshotAI/Kimi-Linear",
+      "url": "https://github.com/MoonshotAI/Kimi-Linear"
+    },
+    {
+      "title": "HTML Code AI Leaderboard - Best AI Models for HTML Generation",
+      "url": "https://arena.ai/leaderboard/code/html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

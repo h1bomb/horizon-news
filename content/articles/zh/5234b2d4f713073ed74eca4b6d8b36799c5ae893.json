@@ -1,0 +1,44 @@
+{
+  "id": "5234b2d4f713073ed74eca4b6d8b36799c5ae893",
+  "canonicalId": "f5a877f276bfc98b32f9c80d7f091f9693f8c371",
+  "slug": "bonsai-27b-通过-1-位量化在-iphone-上本地运行",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T13:08:00Z",
+  "lang": "zh",
+  "title": "Bonsai 27B 通过 1 位量化在 iPhone 上本地运行",
+  "summary": "PrismML 发布了 Bonsai 27B，这是 Qwen3.6-27B 的 1 位量化版本，仅需 3.9GB 内存即可在 iPhone 上本地运行，并保留了约 90%的 FP16 基准性能。 这一突破表明，拥有 270 亿参数的大语言模型现在可以在消费级移动设备上运行，极大地降低了私有、设备端 AI 推理的门槛。它也展示了极端量化技术在实际部署中的可行性。 该模型使用 binary g128 量化，每个权重只有一个符号位，每 128 个权重共享一个 FP16 缩放因子，实现每权重约 1.125 位，且没有高精度“逃生通道”。甚至嵌入层、注意力/MLP 投影和语言模型头部都被二值化，这在 1 位方案中很少见。",
+  "score": 9,
+  "tags": [
+    "quantization",
+    "mobile inference",
+    "LLM compression",
+    "binary weights",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ElmBark"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/",
+  "originalSite": "reddit.com",
+  "context": "量化是将模型权重的精度降低到更低位，以较小的精度损失换取内存和计算的大幅减少。标准的 16 位（FP16）27B 模型需要约 54GB，远超手机内存。1 位量化将压缩推向极致，每个权重表示为+1 或-1，并带有共享缩放因子，使得设备端部署成为可能。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PrismML — PrismML Announces 1-bit Bonsai 27B - The First 27B Model to ...",
+      "url": "https://prismml.com/news/prismml-releases-bonsai-27b"
+    },
+    {
+      "title": "PrismML — Announcing Bonsai 27B: The First 27B-Class Model to ...",
+      "url": "https://prismml.com/news/bonsai-27b"
+    },
+    {
+      "title": "prism-ml/Bonsai-27B-mlx-1bit · Hugging Face",
+      "url": "https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

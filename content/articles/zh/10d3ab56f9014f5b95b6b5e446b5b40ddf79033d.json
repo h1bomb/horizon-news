@@ -1,0 +1,44 @@
+{
+  "id": "10d3ab56f9014f5b95b6b5e446b5b40ddf79033d",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "aws-计费错误显示-17-亿美元估算费用",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T09:42:00Z",
+  "lang": "zh",
+  "title": "AWS 计费错误显示 17 亿美元估算费用",
+  "summary": "2026 年 7 月 16 日，AWS Cost Explorer 中的一个错误导致单位定价出错，部分客户看到的估算账单高达 17 亿美元，而他们的正常使用费通常不足 5 美元。 这一高调计费错误损害了客户信任，并凸显了云服务中精确计量和定价的重要性，可能影响数百万 AWS 用户。 根本原因是单位转换错误：AWS 按字节而非千兆字节计费，导致费用膨胀约 10 亿倍；实际发票和成本与使用报告保持准确。",
+  "score": 8,
+  "tags": [
+    "AWS",
+    "billing",
+    "cloud computing",
+    "bug",
+    "outage"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nprateem"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=48945241",
+  "originalSite": "news.ycombinator.com",
+  "context": "AWS Cost Explorer 基于计量使用量生成估算账单数据。云服务提供商通常按千兆字节 \\(GB\\) 收取存储和数据传输费用。十进制前缀（GB = 10^9 字节）与二进制前缀（GiB = 2^30 字节）之间的混淆，或简单的单位遗漏，都可能导致巨大错误。此次事件中，定价计划默认使用字节而非 GB。",
+  "discussion": "一位前 AWS 工程师分享了过往类似错误的第一手经验，确认是单位不匹配。许多用户表示看到天文数字账单时感到震惊和肾上腺素飙升，而其他人则指出实际费用从未受影响，AWS 响应迅速。",
+  "references": [
+    {
+      "title": "Binary prefix - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binary_prefix"
+    },
+    {
+      "title": "An AWS billing bug sent users estimated charges of up to $2.5 ... - TNW",
+      "url": "https://thenextweb.com/news/aws-billing-bug-billion-dollar-estimates"
+    },
+    {
+      "title": "Amazon fixing bug that billed some AWS customers billions of ...",
+      "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

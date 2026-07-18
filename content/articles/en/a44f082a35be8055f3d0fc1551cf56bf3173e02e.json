@@ -1,0 +1,44 @@
+{
+  "id": "a44f082a35be8055f3d0fc1551cf56bf3173e02e",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "aws-billing-glitch-shows-17b-estimated-charges",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T09:42:00Z",
+  "lang": "en",
+  "title": "AWS Billing Glitch Shows $1.7B Estimated Charges",
+  "summary": "On July 16, 2026, a bug in AWS Cost Explorer caused unit pricing errors, displaying estimated bills as high as $1.7 billion for some customers whose normal usage is under $5. This high-profile billing error erodes customer trust and highlights the critical importance of accurate metering and pricing in cloud services, affecting potentially millions of AWS users. The root cause was a unit conversion error where AWS billed per byte instead of per gigabyte, inflating charges by roughly 1 billion times; actual invoices and Cost and Usage Reports remained accurate.",
+  "score": 8,
+  "tags": [
+    "AWS",
+    "billing",
+    "cloud computing",
+    "bug",
+    "outage"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nprateem"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=48945241",
+  "originalSite": "news.ycombinator.com",
+  "context": "AWS Cost Explorer uses estimated billing data based on metered usage. Cloud providers typically charge per gigabyte \\(GB\\) for storage and data transfer. A confusion between decimal prefixes \\(GB = 10^9 bytes\\) and binary prefixes \\(GiB = 2^30 bytes\\) or a simple unit miss can cause massive errors. In this case, a pricing plan defaulted to bytes instead of GB.",
+  "discussion": "An ex-AWS engineer shared firsthand experience from a past similar error, confirming it was a unit mismatch. Many users reported shock and adrenaline rushes upon seeing astronomical bills, while others noted that the actual charges were never affected and that AWS responded quickly.",
+  "references": [
+    {
+      "title": "Binary prefix - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binary_prefix"
+    },
+    {
+      "title": "An AWS billing bug sent users estimated charges of up to $2.5 ... - TNW",
+      "url": "https://thenextweb.com/news/aws-billing-bug-billion-dollar-estimates"
+    },
+    {
+      "title": "Amazon fixing bug that billed some AWS customers billions of ...",
+      "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

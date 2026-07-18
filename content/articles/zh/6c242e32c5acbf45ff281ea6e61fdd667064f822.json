@@ -1,0 +1,45 @@
+{
+  "id": "6c242e32c5acbf45ff281ea6e61fdd667064f822",
+  "canonicalId": "2a39ad50840d44c4e491f7634961fffe4d072869",
+  "slug": "kaggle-竞赛暴露-ai-提交与评审的不一致性",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T11:30:00Z",
+  "lang": "zh",
+  "title": "Kaggle 竞赛暴露 AI 提交与评审的不一致性",
+  "summary": "Kaggle 社区讨论指出，在&\\#x27;Measuring AGI&\\#x27;竞赛中，提交和评审均由 AI 处理，导致不一致性以及提示注入攻击，参赛者可以欺骗 AI 评审宣布他们获胜。 这引发了对 AI 驱动竞赛和评审完整性的严重担忧，因为 AI 评审容易被操纵且缺乏常识，可能削弱各行业对自动化评估系统的信任。 具体而言，社区成员报告称 AI 评审可能通过提示注入被操纵以宣布获胜，而提交的参赛作品往往完全由 AI 生成，几乎没有人类输入，焦点从人类技能转向想法实现或内部人士优势。",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "Kaggle",
+    "competition integrity",
+    "prompt injection",
+    "AI evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "twerkmeister",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48946010"
+    }
+  ],
+  "originalUrl": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+  "originalSite": "kaggle.com",
+  "context": "提示注入是一种安全漏洞，精心设计的输入会导致 AI 模型产生意外行为，绕过安全防护。LLM 作为评审的系统已知存在偏见且不可靠。Kaggle 是一个数据科学竞赛平台，传统上涉及人类技能，但近期事件显示 AI 在提交和评审中的使用日益增加。",
+  "discussion": "评论者表示沮丧，认为 AI 已经&\\#x27;扼杀&\\#x27;了公平的黑客马拉松，一人指出提示注入可以人为宣布获胜者。其他人则认为 Kaggle 一直存在黑箱模型和暴力方法的问题，因此这并非全新。",
+  "references": [
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    },
+    {
+      "title": "[2604.23178] Judging the Judges: A Systematic Evaluation of Bias ...",
+      "url": "https://arxiv.org/abs/2604.23178"
+    },
+    {
+      "title": "When AI Grades AI: Why Smarter Models Are Not Fairer Judges of Their ...",
+      "url": "https://www.techtimes.com/articles/318360/20260614/when-ai-grades-ai-why-smarter-models-are-not-fairer-judges-their-own-work.htm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

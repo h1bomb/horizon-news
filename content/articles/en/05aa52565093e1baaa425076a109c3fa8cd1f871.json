@@ -1,0 +1,44 @@
+{
+  "id": "05aa52565093e1baaa425076a109c3fa8cd1f871",
+  "canonicalId": "70faa734b4e5d5d4d92c55a5f3841019f0201f2f",
+  "slug": "huawei-ascend-950-supernode-debuts-claims-67x-compute-vs-nvidia",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T10:27:00Z",
+  "lang": "en",
+  "title": "Huawei Ascend 950 Supernode Debuts, Claims 6.7x Compute vs Nvidia",
+  "summary": "At WAIC 2026, Huawei publicly demonstrated the Ascend 950 supernode \\(Atlas 950 SuperPoD\\), based on its proprietary Lingqu interconnect protocol and supernode architecture, scaling to 1,024 cards and delivering 1 EFLOPS FP8 and 2 EFLOPS FP4 compute with 256 TB unified memory. According to a BOC International report, its total compute is 6.7 times that of Nvidia&\\#x27;s equivalent NVL144 system. This announcement signals Huawei&\\#x27;s continued push to challenge Nvidia&\\#x27;s dominance in AI computing hardware, particularly for large-scale training and inference. If verified, the 6.7x performance claim could reshape the competitive landscape and accelerate adoption of domestic AI chips in China. The Ascend 950 supernode uses Huawei&\\#x27;s self-developed Lingqu \\(UnifiedBus\\) interconnect protocol, which replaces PCIe, NVLink, and RDMA with a five-layer protocol stack supporting up to 8,192 cards without convergence. The system also features FP8 and FP4 precision formats, commonly used for efficient AI inference and low-precision training.",
+  "score": 9,
+  "tags": [
+    "Huawei",
+    "Ascend 950",
+    "AI Hardware",
+    "Supercomputer",
+    "Compute"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/0/978/019.htm",
+  "originalSite": "ithome.com",
+  "context": "Huawei&\\#x27;s Lingqu \\(UnifiedBus\\) interconnect protocol was officially released in September 2025 at HUAWEI CONNECT 2025, aiming to solve the interconnect challenges of large-scale computing resources. FP8 and FP4 are low-precision floating-point formats widely used in AI workloads to reduce memory bandwidth and accelerate computation while maintaining acceptable accuracy. The Ascend 950 is the latest in Huawei&\\#x27;s supernode series, following the Ascend 384 which has already been deployed in over 750 commercial systems across internet, telecom, and finance sectors.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "灵衢 - 百度百科",
+      "url": "https://baike.baidu.com/item/%E7%81%B5%E8%A1%A2/66774401"
+    },
+    {
+      "title": "华为全联接大会 2025：发布灵衢互联协议与多系列超节点产品，引领 AI ...",
+      "url": "https://www.toutiao.com/article/7551352889764020755/"
+    },
+    {
+      "title": "Minifloat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minifloat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

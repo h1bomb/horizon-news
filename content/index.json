@@ -1,6 +1,276 @@
 {
   "articles": [
     {
+      "id": "5234b2d4f713073ed74eca4b6d8b36799c5ae893",
+      "canonicalId": "f5a877f276bfc98b32f9c80d7f091f9693f8c371",
+      "slug": "bonsai-27b-通过-1-位量化在-iphone-上本地运行",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "Bonsai 27B 通过 1 位量化在 iPhone 上本地运行",
+      "score": 9,
+      "tags": [
+        "quantization",
+        "mobile inference",
+        "LLM compression",
+        "binary weights",
+        "local LLM"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "17c44c3e911865d116f2e4e5bb9164a2676dafa9",
+      "canonicalId": "70faa734b4e5d5d4d92c55a5f3841019f0201f2f",
+      "slug": "华为昇腾-950-超节点亮相算力号称英伟达-67-倍",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "华为昇腾 950 超节点亮相，算力号称英伟达 6.7 倍",
+      "score": 9,
+      "tags": [
+        "Huawei",
+        "Ascend 950",
+        "AI Hardware",
+        "Supercomputer",
+        "Compute"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "10d3ab56f9014f5b95b6b5e446b5b40ddf79033d",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "aws-计费错误显示-17-亿美元估算费用",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "AWS 计费错误显示 17 亿美元估算费用",
+      "score": 8,
+      "tags": [
+        "AWS",
+        "billing",
+        "cloud computing",
+        "bug",
+        "outage"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "95da31d02b6443f86837cff0cdaa0033b063959f",
+      "canonicalId": "ee28be5546284cdd8a9789eb966c41141315c6e9",
+      "slug": "詹姆斯韦伯望远镜在岩质系外行星-lhs-1140b-上探测到大气",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "詹姆斯·韦伯望远镜在岩质系外行星 LHS 1140b 上探测到大气",
+      "score": 8,
+      "tags": [
+        "exoplanet",
+        "atmosphere",
+        "JWST",
+        "astronomy",
+        "habitable-zone"
+      ],
+      "originalSite": "bbc.com"
+    },
+    {
+      "id": "9c2300173c478deb5c15aef69f430716f0de1efb",
+      "canonicalId": "459273eee35f736f253ba2146e1af08b9b55b6f3",
+      "slug": "mozilla-报告开源-ai-模型市场份额激增",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "Mozilla 报告：开源 AI 模型市场份额激增",
+      "score": 8,
+      "tags": [
+        "open source AI",
+        "community discussion",
+        "model market share",
+        "LLM trends"
+      ],
+      "originalSite": "stateofopensource.ai"
+    },
+    {
+      "id": "6c242e32c5acbf45ff281ea6e61fdd667064f822",
+      "canonicalId": "2a39ad50840d44c4e491f7634961fffe4d072869",
+      "slug": "kaggle-竞赛暴露-ai-提交与评审的不一致性",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "Kaggle 竞赛暴露 AI 提交与评审的不一致性",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "Kaggle",
+        "competition integrity",
+        "prompt injection",
+        "AI evaluation"
+      ],
+      "originalSite": "kaggle.com"
+    },
+    {
+      "id": "09e30d3a62d33d01db4cb638b933f4bf5add9184",
+      "canonicalId": "d5239201c59cc2068446a8b0ba7ea619a3c7cb62",
+      "slug": "deepseek-v4-flash-在-rtx-5090-上运行百万上下文llamacpp",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "DeepSeek V4 Flash 在 RTX 5090 上运行百万上下文（llama.cpp）",
+      "score": 8,
+      "tags": [
+        "deepseek",
+        "llama.cpp",
+        "local-llm",
+        "inference",
+        "benchmark"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "213503a3b5bbfa92a96a5a0452be455f79685328",
+      "canonicalId": "b82b19a7de11d7ff2171e90b1ea7600f6f10c6ed",
+      "slug": "kimi-k3开源-28-万亿参数模型登顶前端编程竞技场",
+      "date": "2026-07-17",
+      "lang": "zh",
+      "title": "Kimi K3：开源 2.8 万亿参数模型登顶前端编程竞技场",
+      "score": 8,
+      "tags": [
+        "open-source",
+        "large language model",
+        "AI",
+        "deep learning",
+        "model architecture"
+      ],
+      "originalSite": "kimi.com"
+    },
+    {
+      "id": "38176f6e2aa21777f224a61c4d11515ac22c79ee",
+      "canonicalId": "f5a877f276bfc98b32f9c80d7f091f9693f8c371",
+      "slug": "bonsai-27b-runs-locally-on-iphone-with-1-bit-quantization",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "Bonsai 27B runs locally on iPhone with 1-bit quantization",
+      "score": 9,
+      "tags": [
+        "quantization",
+        "mobile inference",
+        "LLM compression",
+        "binary weights",
+        "local LLM"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "05aa52565093e1baaa425076a109c3fa8cd1f871",
+      "canonicalId": "70faa734b4e5d5d4d92c55a5f3841019f0201f2f",
+      "slug": "huawei-ascend-950-supernode-debuts-claims-67x-compute-vs-nvidia",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "Huawei Ascend 950 Supernode Debuts, Claims 6.7x Compute vs Nvidia",
+      "score": 9,
+      "tags": [
+        "Huawei",
+        "Ascend 950",
+        "AI Hardware",
+        "Supercomputer",
+        "Compute"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "a44f082a35be8055f3d0fc1551cf56bf3173e02e",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "aws-billing-glitch-shows-17b-estimated-charges",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "AWS Billing Glitch Shows $1.7B Estimated Charges",
+      "score": 8,
+      "tags": [
+        "AWS",
+        "billing",
+        "cloud computing",
+        "bug",
+        "outage"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "39d6a330197cb9fc2022855d2038732ab9b8b369",
+      "canonicalId": "ee28be5546284cdd8a9789eb966c41141315c6e9",
+      "slug": "jwst-detects-atmosphere-on-rocky-exoplanet-lhs-1140b",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "JWST Detects Atmosphere on Rocky Exoplanet LHS 1140b",
+      "score": 8,
+      "tags": [
+        "exoplanet",
+        "atmosphere",
+        "JWST",
+        "astronomy",
+        "habitable-zone"
+      ],
+      "originalSite": "bbc.com"
+    },
+    {
+      "id": "aacc9b0e3b6dc6c5b2562a6450fa7639234fd9c4",
+      "canonicalId": "459273eee35f736f253ba2146e1af08b9b55b6f3",
+      "slug": "mozilla-report-open-source-ai-models-surge-in-market-share",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "Mozilla Report: Open Source AI Models Surge in Market Share",
+      "score": 8,
+      "tags": [
+        "open source AI",
+        "community discussion",
+        "model market share",
+        "LLM trends"
+      ],
+      "originalSite": "stateofopensource.ai"
+    },
+    {
+      "id": "9df146917cba6d2b20b002be5a3939496db12a66",
+      "canonicalId": "2a39ad50840d44c4e491f7634961fffe4d072869",
+      "slug": "kaggle-competition-reveals-ai-submission-and-judge-inconsistencies",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "Kaggle competition reveals AI submission and judge inconsistencies",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "Kaggle",
+        "competition integrity",
+        "prompt injection",
+        "AI evaluation"
+      ],
+      "originalSite": "kaggle.com"
+    },
+    {
+      "id": "1a200061b48f732752f803b4114d532cfaca1cf0",
+      "canonicalId": "d5239201c59cc2068446a8b0ba7ea619a3c7cb62",
+      "slug": "deepseek-v4-flash-on-rtx-5090-with-1m-context-in-llamacpp",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "DeepSeek V4 Flash on RTX 5090 with 1M Context in llama.cpp",
+      "score": 8,
+      "tags": [
+        "deepseek",
+        "llama.cpp",
+        "local-llm",
+        "inference",
+        "benchmark"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "02069639dc73032507e470a2e7d91002eb0cce9c",
+      "canonicalId": "b82b19a7de11d7ff2171e90b1ea7600f6f10c6ed",
+      "slug": "kimi-k3-open-source-28t-model-tops-frontend-code-arena",
+      "date": "2026-07-17",
+      "lang": "en",
+      "title": "Kimi K3: Open-Source 2.8T Model Tops Frontend Code Arena",
+      "score": 8,
+      "tags": [
+        "open-source",
+        "large language model",
+        "AI",
+        "deep learning",
+        "model architecture"
+      ],
+      "originalSite": "kimi.com"
+    },
+    {
       "id": "cc6647a3fb0ec03f2590b283c285415da78532a3",
       "canonicalId": "d51f9e4ab75eac3dd8932285e6105116be590dbc",
       "slug": "stripe-与-advent-联合报价-530-亿美元收购-paypal",
@@ -5645,312 +5915,6 @@
         "AI infrastructure"
       ],
       "originalSite": "theinformation.com"
-    },
-    {
-      "id": "dba77e9ffecf9da78b9a0b280ac4b51e5b542a94",
-      "canonicalId": "a2e900a63d1b6ce3339b12c053ed6763027fa1eb",
-      "slug": "claude-code-被发现嵌入隐秘隐写标记",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "Claude Code 被发现嵌入隐秘隐写标记",
-      "score": 8,
-      "tags": [
-        "steganography",
-        "AI",
-        "Anthropic",
-        "developer tools",
-        "transparency"
-      ],
-      "originalSite": "thereallo.dev"
-    },
-    {
-      "id": "f55964bfe5710281f53a5cf8ac6fdbcb1978e0e3",
-      "canonicalId": "4a5791968d27b5b5fef60ddeabfd3f3c97827477",
-      "slug": "美国取消对-claude-fable-5-和-mythos-5-的出口管制",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "美国取消对 Claude Fable 5 和 Mythos 5 的出口管制",
-      "score": 8,
-      "tags": [
-        "AI regulation",
-        "export controls",
-        "Anthropic",
-        "policy",
-        "frontier models"
-      ],
-      "originalSite": "twitter.com"
-    },
-    {
-      "id": "c2760a5bd0d2cb8ad7bfba19e74c59a199f6695a",
-      "canonicalId": "3e6579549c6a106da084288b8f3e027eb63cb6ad",
-      "slug": "使用-webassembly-和-ebpf-将-kubernetes-移植到浏览器",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "使用 WebAssembly 和 eBPF 将 Kubernetes 移植到浏览器",
-      "score": 8,
-      "tags": [
-        "kubernetes",
-        "webassembly",
-        "ebpf",
-        "browser",
-        "devtools"
-      ],
-      "originalSite": "ngrok.com"
-    },
-    {
-      "id": "22bc8f207b067fcdec4b5499d1f12f9ea362b88f",
-      "canonicalId": "f6603bd1f004993dfaec51d370211e17046b7aa0",
-      "slug": "claude-sonnet-5-发布性能接近-opus-48",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "Claude Sonnet 5 发布，性能接近 Opus 4.8",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Claude",
-        "Anthropic",
-        "language models",
-        "release"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "be9a72608b61874d940414ac5b81f947f07691ff",
-      "canonicalId": "5503a48d036bb7fd23a8760e6a52f8cab5abe345",
-      "slug": "利用语义相似度和时间切片绘制-1100-万篇论文地图",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "利用语义相似度和时间切片绘制 1100 万篇论文地图",
-      "score": 8,
-      "tags": [
-        "machine learning",
-        "scientific literature",
-        "visualization",
-        "embeddings",
-        "research tools"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "6be7af664275cad48dd14b6a9287d6f46f1eba6e",
-      "canonicalId": "83d7ead24ae86e8de3b271de68c72518510a0d9b",
-      "slug": "nvidia-发布-qwen36-27b-nvfp4-四比特模型",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "NVIDIA 发布 Qwen3.6-27B-NVFP4 四比特模型",
-      "score": 8,
-      "tags": [
-        "NVIDIA",
-        "Qwen",
-        "NVFP4",
-        "quantization",
-        "local-LLM"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "d5a790c24453e98bc6397d6f1b9575628a5c154e",
-      "canonicalId": "20802e21b9b199955f221a70ee2e61412d5f230f",
-      "slug": "华为开源-openpangu-20-flash总参数量-92b激活-6b-的-moe-模型",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "华为开源 OpenPangu-2.0-Flash：总参数量 92B，激活 6B 的 MoE 模型",
-      "score": 8,
-      "tags": [
-        "open-source",
-        "LLM",
-        "MoE",
-        "Huawei",
-        "512K-context"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "5dd59e35443362b8e2f5f1d0af78ca32251a3595",
-      "canonicalId": "a7a951ff08a0d227554d1b59f313b38dcd4f47e5",
-      "slug": "claude-code-2191-隐藏遥测检测中国地区",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "Claude Code 2.1.91 隐藏遥测检测中国地区",
-      "score": 8,
-      "tags": [
-        "privacy",
-        "AI ethics",
-        "telemetry",
-        "claude-code",
-        "reverse-engineering"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "1ad231c7a796c89dc47d1afabd5c91843bbf8344",
-      "canonicalId": "2463d3182c73b1def990a3944dd09df43a9a913f",
-      "slug": "谷歌推出-nano-banana-2-lite-和-gemini-omni-flash",
-      "date": "2026-07-01",
-      "lang": "zh",
-      "title": "谷歌推出 Nano Banana 2 Lite 和 Gemini Omni Flash",
-      "score": 8,
-      "tags": [
-        "Google",
-        "Generative AI",
-        "Image Generation",
-        "Video Generation",
-        "Gemini"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "bb99cd9566da137771b07063a67cad2aebeaaa32",
-      "canonicalId": "a2e900a63d1b6ce3339b12c053ed6763027fa1eb",
-      "slug": "claude-code-found-embedding-secret-steganographic-markers",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "Claude Code Found Embedding Secret Steganographic Markers",
-      "score": 8,
-      "tags": [
-        "steganography",
-        "AI",
-        "Anthropic",
-        "developer tools",
-        "transparency"
-      ],
-      "originalSite": "thereallo.dev"
-    },
-    {
-      "id": "41e96d1bc81cae4af15b443e60033b1703581bf6",
-      "canonicalId": "4a5791968d27b5b5fef60ddeabfd3f3c97827477",
-      "slug": "us-lifts-export-controls-on-claude-fable-5-and-mythos-5",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "US Lifts Export Controls on Claude Fable 5 and Mythos 5",
-      "score": 8,
-      "tags": [
-        "AI regulation",
-        "export controls",
-        "Anthropic",
-        "policy",
-        "frontier models"
-      ],
-      "originalSite": "twitter.com"
-    },
-    {
-      "id": "5e245a0e1d44889142adb631599f3c2d04ee798e",
-      "canonicalId": "3e6579549c6a106da084288b8f3e027eb63cb6ad",
-      "slug": "kubernetes-ported-to-the-browser-with-webassembly-and-ebpf",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "Kubernetes Ported to the Browser with WebAssembly and eBPF",
-      "score": 8,
-      "tags": [
-        "kubernetes",
-        "webassembly",
-        "ebpf",
-        "browser",
-        "devtools"
-      ],
-      "originalSite": "ngrok.com"
-    },
-    {
-      "id": "623d407abeb3d383794a6c1b9f6eb6899f66d449",
-      "canonicalId": "f6603bd1f004993dfaec51d370211e17046b7aa0",
-      "slug": "claude-sonnet-5-released-with-near-opus-performance",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "Claude Sonnet 5 Released with Near-Opus Performance",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Claude",
-        "Anthropic",
-        "language models",
-        "release"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "95e92d2bb2a931833e4e65f5ff84a22b6a9181f6",
-      "canonicalId": "5503a48d036bb7fd23a8760e6a52f8cab5abe345",
-      "slug": "11m-papers-mapped-by-semantic-similarity-and-time",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "11M papers mapped by semantic similarity and time",
-      "score": 8,
-      "tags": [
-        "machine learning",
-        "scientific literature",
-        "visualization",
-        "embeddings",
-        "research tools"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "e0fb5e487f8cc183785c57531932aec190611fcb",
-      "canonicalId": "83d7ead24ae86e8de3b271de68c72518510a0d9b",
-      "slug": "nvidia-releases-qwen36-27b-nvfp4-4-bit-model",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "NVIDIA Releases Qwen3.6-27B-NVFP4 4-bit Model",
-      "score": 8,
-      "tags": [
-        "NVIDIA",
-        "Qwen",
-        "NVFP4",
-        "quantization",
-        "local-LLM"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "c6b5aeaf2ce719e29aff85b533acdb42d8ad70c8",
-      "canonicalId": "20802e21b9b199955f221a70ee2e61412d5f230f",
-      "slug": "huawei-open-sources-openpangu-20-flash-92b-total-6b-active-moe",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "Huawei Open-Sources OpenPangu-2.0-Flash: 92B Total, 6B Active MoE",
-      "score": 8,
-      "tags": [
-        "open-source",
-        "LLM",
-        "MoE",
-        "Huawei",
-        "512K-context"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "d7af7cb311d7f3174af0de48d419cd3c660b1848",
-      "canonicalId": "a7a951ff08a0d227554d1b59f313b38dcd4f47e5",
-      "slug": "claude-code-2191-hidden-telemetry-detects-china-region",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "Claude Code 2.1.91 Hidden Telemetry Detects China Region",
-      "score": 8,
-      "tags": [
-        "privacy",
-        "AI ethics",
-        "telemetry",
-        "claude-code",
-        "reverse-engineering"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "0de3f857e4da390711d0db1995564a0dcaa09e02",
-      "canonicalId": "2463d3182c73b1def990a3944dd09df43a9a913f",
-      "slug": "google-launches-nano-banana-2-lite-gemini-omni-flash",
-      "date": "2026-07-01",
-      "lang": "en",
-      "title": "Google Launches Nano Banana 2 Lite & Gemini Omni Flash",
-      "score": 8,
-      "tags": [
-        "Google",
-        "Generative AI",
-        "Image Generation",
-        "Video Generation",
-        "Gemini"
-      ],
-      "originalSite": "blog.google"
     }
   ]
 }

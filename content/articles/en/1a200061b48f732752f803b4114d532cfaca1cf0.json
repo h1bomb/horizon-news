@@ -1,0 +1,44 @@
+{
+  "id": "1a200061b48f732752f803b4114d532cfaca1cf0",
+  "canonicalId": "d5239201c59cc2068446a8b0ba7ea619a3c7cb62",
+  "slug": "deepseek-v4-flash-on-rtx-5090-with-1m-context-in-llamacpp",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T17:14:00Z",
+  "lang": "en",
+  "title": "DeepSeek V4 Flash on RTX 5090 with 1M Context in llama.cpp",
+  "summary": "A user shared benchmarks and configuration for running DeepSeek V4 Flash, a 284B-parameter mixture-of-experts model, on an RTX 5090 with a full 1 million token context window using llama.cpp, achieving prefill speeds of ~650–700 tokens/s and decode speeds of ~17 tokens/s. This demonstrates that large MoE models with 1M context are now practically usable on high-end consumer hardware, opening up local inference for long-context tasks like document analysis and code generation without relying on cloud APIs. The user used a Q8\\_K\\_XL quantized GGUF model from Unsloth and reported a loading time of 32 seconds; they noted that speed is not yet as impressive as Qwen models but there is room for further optimization in llama.cpp.",
+  "score": 8,
+  "tags": [
+    "deepseek",
+    "llama.cpp",
+    "local-llm",
+    "inference",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Shoddy\\_Bed3240"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uz5w3y/deepseek_v4_flash_on_5090_in_llamacpp_with_1/",
+  "originalSite": "reddit.com",
+  "context": "DeepSeek V4 Flash is a preview model in the DeepSeek V4 series, a Mixture-of-Experts \\(MoE\\) architecture with 284B total parameters but only 13B activated per token, making it efficient for inference. It supports a 1M token context window. llama.cpp is an open-source inference engine that runs LLMs locally on consumer hardware using the GGUF format, which optimizes model loading and quantization.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+    },
+    {
+      "title": "Llama.cpp",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    },
+    {
+      "title": "GGUF - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GGUF"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

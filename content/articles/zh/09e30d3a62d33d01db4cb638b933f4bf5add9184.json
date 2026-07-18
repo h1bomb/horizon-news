@@ -1,0 +1,44 @@
+{
+  "id": "09e30d3a62d33d01db4cb638b933f4bf5add9184",
+  "canonicalId": "d5239201c59cc2068446a8b0ba7ea619a3c7cb62",
+  "slug": "deepseek-v4-flash-在-rtx-5090-上运行百万上下文llamacpp",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T17:14:00Z",
+  "lang": "zh",
+  "title": "DeepSeek V4 Flash 在 RTX 5090 上运行百万上下文（llama.cpp）",
+  "summary": "一位用户分享了在 RTX 5090 上使用 llama.cpp 运行 DeepSeek V4 Flash（284B 参数混合专家模型）并达到完整 100 万 token 上下文窗口的基准测试和配置，预填充速度约 650–700 tokens/s，生成速度约 17 tokens/s。 这表明，在高端消费级硬件上实际运行具有百万上下文的巨型 MoE 模型已成为可能，为文档分析、代码生成等长上下文任务打开了本地推理的大门，无需依赖云 API。 用户使用了来自 Unsloth 的 Q8\\_K\\_XL 量化 GGUF 模型，加载时间为 32 秒；他们指出速度尚不如 Qwen 模型，但 llama.cpp 仍有优化空间。",
+  "score": 8,
+  "tags": [
+    "deepseek",
+    "llama.cpp",
+    "local-llm",
+    "inference",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Shoddy\\_Bed3240"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uz5w3y/deepseek_v4_flash_on_5090_in_llamacpp_with_1/",
+  "originalSite": "reddit.com",
+  "context": "DeepSeek V4 Flash 是 DeepSeek V4 系列的预览模型，采用混合专家（MoE）架构，总参数 284B，但每次推理仅激活 13B 参数，因而推理效率较高。它支持 100 万 token 的上下文窗口。llama.cpp 是一个开源推理引擎，可在消费级硬件上本地运行 LLM，使用 GGUF 格式优化模型加载和量化。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+    },
+    {
+      "title": "Llama.cpp",
+      "url": "https://en.wikipedia.org/wiki/Llama.cpp"
+    },
+    {
+      "title": "GGUF - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GGUF"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

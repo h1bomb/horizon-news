@@ -1,0 +1,44 @@
+{
+  "id": "02069639dc73032507e470a2e7d91002eb0cce9c",
+  "canonicalId": "b82b19a7de11d7ff2171e90b1ea7600f6f10c6ed",
+  "slug": "kimi-k3-open-source-28t-model-tops-frontend-code-arena",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T00:02:00Z",
+  "lang": "en",
+  "title": "Kimi K3: Open-Source 2.8T Model Tops Frontend Code Arena",
+  "summary": "Moonshot AI released Kimi K3, the world&\\#x27;s first open-source 2.8 trillion parameter model, which tops the Frontend Code Arena leaderboard with a score of 1679, surpassing Claude Fable 5 in frontend coding tasks. This release marks a significant milestone for open-source AI, demonstrating that a model with novel architecture \\(Kimi Delta Attention and Attention Residuals\\) can rival top proprietary models on specific benchmarks, potentially accelerating adoption and innovation in the open-source community. Kimi K3 is a sparse Mixture-of-Experts model with 2.8 trillion parameters, built on Kimi Delta Attention \\(a hybrid linear attention mechanism\\) and Attention Residuals, featuring native vision and a 1 million token context window; API pricing is $0.30 per million tokens for cache hits, $3.00 for cache misses, and $15.00 for output, with full model weights to be released in July 2026.",
+  "score": 8,
+  "tags": [
+    "open-source",
+    "large language model",
+    "AI",
+    "deep learning",
+    "model architecture"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.kimi.com/blog/kimi-k3",
+  "originalSite": "kimi.com",
+  "context": "Kimi Delta Attention \\(KDA\\) is a linear attention mechanism that improves upon Gated DeltaNet with per-channel diagonal gating, enabling more efficient memory management than traditional full attention. Attention Residuals \\(AttnRes\\) allow each transformer layer to selectively aggregate information from all previous layers, enhancing long-range dependencies. The model uses a sparse MoE structure to achieve 2.8T parameters with lower computational cost than a dense model of similar size.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2510.26692] Kimi Linear: An Expressive, Efficient Attention ... GitHub - MoonshotAI/Kimi-Linear Kimi K3 - Kimi API Platform Kimi Linear: An Expressive, Efficient Attention Architecture Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open ... GitHub - hwilner/kimi-delta-attention: Educational ... Kimi K3 (Moonshot AI) - Cloudflare Docs",
+      "url": "https://arxiv.org/abs/2510.26692"
+    },
+    {
+      "title": "GitHub - MoonshotAI/Kimi-Linear",
+      "url": "https://github.com/MoonshotAI/Kimi-Linear"
+    },
+    {
+      "title": "HTML Code AI Leaderboard - Best AI Models for HTML Generation",
+      "url": "https://arena.ai/leaderboard/code/html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

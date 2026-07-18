@@ -1,0 +1,44 @@
+{
+  "id": "38176f6e2aa21777f224a61c4d11515ac22c79ee",
+  "canonicalId": "f5a877f276bfc98b32f9c80d7f091f9693f8c371",
+  "slug": "bonsai-27b-runs-locally-on-iphone-with-1-bit-quantization",
+  "date": "2026-07-17",
+  "publishedAt": "2026-07-17T13:08:00Z",
+  "lang": "en",
+  "title": "Bonsai 27B runs locally on iPhone with 1-bit quantization",
+  "summary": "PrismML released Bonsai 27B, a 1-bit quantized version of Qwen3.6-27B, that runs locally on an iPhone with only 3.9GB memory footprint and retains approximately 90% of the FP16 benchmark performance. This breakthrough demonstrates that large language models with 27 billion parameters can now run on consumer mobile devices, drastically reducing the barrier to private, on-device AI inference. It also showcases the viability of extreme quantization techniques for practical deployment. The model uses binary g128 quantization, where each weight is a single sign bit and groups of 128 weights share one FP16 scale, achieving ~1.125 bits per weight without high-precision escape hatches. Even embeddings, attention/MLP projections, and the LM head are binarized, which is unusual for 1-bit schemes.",
+  "score": 9,
+  "tags": [
+    "quantization",
+    "mobile inference",
+    "LLM compression",
+    "binary weights",
+    "local LLM"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ElmBark"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/",
+  "originalSite": "reddit.com",
+  "context": "Quantization reduces the precision of model weights to lower bits, trading a small accuracy loss for large reductions in memory and compute. Standard 16-bit \\(FP16\\) 27B models require ~54GB, far exceeding phone memory. 1-bit quantization pushes compression to the extreme, representing each weight as either +1 or -1 with a shared scale, making on-device deployment feasible.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PrismML — PrismML Announces 1-bit Bonsai 27B - The First 27B Model to ...",
+      "url": "https://prismml.com/news/prismml-releases-bonsai-27b"
+    },
+    {
+      "title": "PrismML — Announcing Bonsai 27B: The First 27B-Class Model to ...",
+      "url": "https://prismml.com/news/bonsai-27b"
+    },
+    {
+      "title": "prism-ml/Bonsai-27B-mlx-1bit · Hugging Face",
+      "url": "https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
