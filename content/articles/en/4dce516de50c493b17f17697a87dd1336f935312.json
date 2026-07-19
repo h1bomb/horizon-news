@@ -1,0 +1,37 @@
+{
+  "id": "4dce516de50c493b17f17697a87dd1336f935312",
+  "canonicalId": "1c98b9c89e38b32b424d4bbc584c5ddd6200b709",
+  "slug": "gpt-56-solves-30-year-convex-optimization-problem-via-prompt",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T13:00:00Z",
+  "lang": "en",
+  "title": "GPT-5.6 Solves 30-Year Convex Optimization Problem via Prompt",
+  "summary": "GPT-5.6 \\(Sol Pro\\) was used to solve a long-standing open problem in convex optimization—a 30-year-old conjecture—by simply prompting the model, resulting in a new proof of an upper bound on the complexity of minimizing convex Lipschitz functions over a spherical domain. This marks a significant milestone where an AI model makes a genuine mathematical contribution, potentially accelerating research in optimization theory and demonstrating that large language models can tackle problems that have resisted human mathematicians for decades. The achievement was confirmed to be with the Sol Pro variant of GPT-5.6, not the Ultra version, and the problem addressed is a niche but real contribution to convex optimization, focusing on the time complexity of first-order methods for convex Lipschitz functions.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "convex optimization",
+    "mathematical proof",
+    "LLM",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mbustamanter",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48957779"
+    }
+  ],
+  "originalUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+  "originalSite": "old.reddit.com",
+  "context": "Convex optimization is a subfield of mathematical optimization that studies minimizing convex functions over convex sets. Many such problems can be solved efficiently, but some theoretical questions—like exact worst-case complexity—remain open. The problem solved involves bounding the number of steps needed for a subgradient method to find an approximate minimum of a convex Lipschitz function on a sphere.",
+  "discussion": "The Reddit community largely validated the contribution, with one expert noting it is a real but niche result. Others discussed the implications for mathematical research, suggesting that low-hanging fruit may now be handled by AI, while human researchers will focus on deeper novel approaches. There was also clarification that the model used was Sol Pro, not Ultra.",
+  "references": [
+    {
+      "title": "Convex optimization",
+      "url": "https://en.wikipedia.org/wiki/Convex_optimization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4cc1e6f931309319cb055b84bd191297a64b888f",
+  "canonicalId": "db7a10a47bbd5bdd15b7d2168974fe77e0044348",
+  "slug": "doubao-phone-drops-gui-automation-adopts-mcp-for-super-apps",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T00:29:00Z",
+  "lang": "en",
+  "title": "Doubao Phone Drops GUI Automation, Adopts MCP for Super Apps",
+  "summary": "Doubao phone has abandoned its original GUI automation approach that simulated clicks on super apps like WeChat and Taobao, and will instead require these apps to provide MCP \\(Model Context Protocol\\) services to grant data access and control permissions. The company has increased its stockpile from 30,000 units to hundreds of thousands. This shift reflects the real-world challenges of AI phone assistants using GUI automation, as super apps previously blocked such access. By adopting the MCP framework, Doubao aligns with industry trends seen at Apple and Google, potentially reshaping how AI agents integrate with platform services. The Doubao phone assistant software received generative AI service registration on July 15, 2025. Its technical preview was launched in December 2024, but capabilities were taken offline due to blocks by WeChat and Taobao.",
+  "score": 8,
+  "tags": [
+    "AI assistant",
+    "MCP",
+    "Doubao phone",
+    "super apps",
+    "industry dynamics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.latepost.com/news/dj_detail?id=3648",
+  "originalSite": "latepost.com",
+  "context": "GUI automation involves an AI assistant reading the screen and simulating human clicks to operate apps, but it is fragile and often blocked by super apps. MCP \\(Model Context Protocol\\) is an emerging standard that allows AI models to directly request data and actions from apps via a protocol, similar to a USB-C interface for AI. This reduces friction and opens up controlled access.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is the Model Context Protocol ( MCP )? - Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/"
+    },
+    {
+      "title": "比Playwright更高效！ BrowserTools MCP 让Cursor...",
+      "url": "https://developer.volcengine.com/articles/7485579294153342995"
+    },
+    {
+      "title": "基于Python uiautomation实现Windows GUI ...",
+      "url": "https://developer.aliyun.com/article/1137931"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "990678ca196bc50a4066d2c2189aaff024d723db",
+  "canonicalId": "790ccbb81f3e112bec5c9bb1903a50be21889d44",
+  "slug": "半秒一书详述-2024-年-xz-后门事件",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T16:52:00Z",
+  "lang": "zh",
+  "title": "《半秒》一书详述 2024 年 XZ 后门事件",
+  "summary": "作者 Adrian Mastronardi 发布了免费书籍《半秒》，详细叙述了 2024 年 XZ 后门事件的经过，包括社会工程学和技术细节。 这本书全面记录了一次几乎危及数百万 Linux 系统的关键供应链攻击，成为网络安全教育和意识的重要资源。 该书以非商业性、禁止演绎的 Creative Commons 许可证发布，可在 half-second.com 免费获取。书中重点描述了被操纵的孤独维护者、在半秒内发现后门的工程师，以及身份不明的攻击者。",
+  "score": 8,
+  "tags": [
+    "XZ backdoor",
+    "supply chain security",
+    "open source security",
+    "cybersecurity",
+    "book"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1083466/",
+  "originalSite": "lwn.net",
+  "context": "2024 年 3 月，在广泛用于 Linux 系统的压缩库 XZ Utils 中发现了一个后门。该后门编号为 CVE-2024-3094，允许攻击者通过 OpenSSH 远程执行代码，并且是通过针对项目维护者的复杂社会工程学活动植入的。这一事件凸显了开源供应链安全中的脆弱性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "XZ Utils backdoor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/XZ_Utils_backdoor"
+    },
+    {
+      "title": "xz-utils backdoor situation (CVE-2024-3094) · GitHub",
+      "url": "https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27"
+    },
+    {
+      "title": "The XZ Backdoor (CVE-2024–3094): How a Supply Chain Attack ...",
+      "url": "https://systemweakness.com/the-xz-backdoor-cve-2024-3094-how-a-supply-chain-attack-nearly-compromised-every-linux-server-fae44fe73a21"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

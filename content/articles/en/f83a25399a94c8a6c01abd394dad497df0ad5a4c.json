@@ -1,0 +1,44 @@
+{
+  "id": "f83a25399a94c8a6c01abd394dad497df0ad5a4c",
+  "canonicalId": "534318bd6c265333f7d045ea1ac60be2e4a92c9c",
+  "slug": "interactive-map-of-gpt-2-token-embeddings",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T22:42:00Z",
+  "lang": "en",
+  "title": "Interactive map of GPT-2 token embeddings",
+  "summary": "A Reddit user created an interactive map of GPT-2-small&\\#x27;s token embedding space, using t-SNE dimensionality reduction and a minimum spanning tree to visualize relationships between 32,070 alphabetic tokens. This tool makes GPT-2&\\#x27;s token embeddings more interpretable and accessible, helping researchers and practitioners understand token relationships without needing to run forward passes. It fosters better intuition about how language models represent meaning at the token level. The map uses t-SNE on a compressed representation of the embedding table, with edges drawn from a minimum spanning tree to show only the nearest-kin relationships. It works on mobile devices, supports pinch-to-zoom, and includes a search box for jumping to any token.",
+  "score": 8,
+  "tags": [
+    "machine learning",
+    "embeddings",
+    "interpretability",
+    "visualization",
+    "NLP"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Limp-Contest-7309"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/",
+  "originalSite": "reddit.com",
+  "context": "Token embeddings are dense vector representations of subword units in language models like GPT-2. t-SNE is a nonlinear dimensionality reduction technique that projects high-dimensional data into 2D or 3D for visualization, preserving local structure. A minimum spanning tree connects all points with the minimum total edge weight, revealing the closest pairwise relationships.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introduction to t - SNE : Nonlinear Dimensionality Reduction and Data...",
+      "url": "https://www.datacamp.com/tutorial/introduction-t-sne"
+    },
+    {
+      "title": "Kruskal’s Minimum Spanning Tree (MST) Algorithm - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/"
+    },
+    {
+      "title": "An exploration of GPT-2&#x27;s embedding weights",
+      "url": "https://www.alignmentforum.org/posts/BMghmAxYxeSdAteDc/an-exploration-of-gpt-2-s-embedding-weights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

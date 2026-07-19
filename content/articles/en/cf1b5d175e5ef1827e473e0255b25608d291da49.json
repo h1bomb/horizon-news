@@ -1,0 +1,45 @@
+{
+  "id": "cf1b5d175e5ef1827e473e0255b25608d291da49",
+  "canonicalId": "6b3a8d1a225d57a7b3e1a9169a3eb191af82c2bf",
+  "slug": "lg-monitors-install-software-via-windows-update-without-consent",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T10:21:00Z",
+  "lang": "en",
+  "title": "LG monitors install software via Windows Update without consent",
+  "summary": "LG monitors are silently installing proprietary software onto Windows PCs via Windows Update without user consent, triggered simply by connecting the monitor via HDMI. This practice bypasses user control and poses security and privacy risks, as the software runs at boot with full system access and could be exploited by malicious actors. The software installs automatically when a new or previously connected LG monitor is plugged in, and it starts with every system boot without any sandboxing.",
+  "score": 8,
+  "tags": [
+    "security",
+    "privacy",
+    "Windows",
+    "drivers",
+    "LG"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "baranul",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48956688"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+  "originalSite": "videocardz.com",
+  "context": "Windows Update can automatically download and install driver-related software from hardware vendors when devices are connected. This is intended to simplify setup but can be abused if vendors distribute non-essential or potentially unwanted software. Users can disable this behavior via Group Policy or Device Installation Settings.",
+  "discussion": "Users are alarmed by the silent installation, with some calling it &\\#x27;malware&\\#x27; and pointing out that it occurs even with older monitors. Commenters provide workarounds via Group Policy or Device Installation Settings to disable automatic download of manufacturer apps, and debate whether Microsoft or LG bears primary responsibility.",
+  "references": [
+    {
+      "title": "Understanding Windows Update rules for driver distribution - Windows drivers | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/dashboard/understanding-windows-update-automatic-and-optional-rules-for-driver-distribution"
+    },
+    {
+      "title": "LG Monitors Silently Installing Software via Windows Update : What...",
+      "url": "https://blog.zealtyro.com/lg-monitors-silently-installing-windows-software/"
+    },
+    {
+      "title": "Prevent automatic driver installation in Windows Update",
+      "url": "https://mundobytes.com/en/How-to-prevent-Windows-Update-from-automatically-installing-drivers-in-Windows-10-and-11/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "29fea041036395d4c155f432140fbcd75beea70b",
+  "canonicalId": "790ccbb81f3e112bec5c9bb1903a50be21889d44",
+  "slug": "book-x27half-a-secondx27-chronicles-2024-xz-backdoor-incident",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T16:52:00Z",
+  "lang": "en",
+  "title": "Book &\\#x27;Half a Second&\\#x27; Chronicles 2024 XZ Backdoor Incident",
+  "summary": "Author Adrian Mastronardi has released a freely available book titled &\\#x27;Half a Second&\\#x27; that provides a detailed narrative of the 2024 XZ backdoor attempt, including the social engineering and technical aspects. This book offers a comprehensive account of a critical supply chain attack that nearly compromised millions of Linux systems, serving as an important resource for cybersecurity education and awareness. The book is released under a noncommercial, no-derivatives Creative Commons license, and is available for free at half-second.com. It highlights the lone maintainer who was manipulated, the engineer who discovered the backdoor in half a second, and the unidentified attacker.",
+  "score": 8,
+  "tags": [
+    "XZ backdoor",
+    "supply chain security",
+    "open source security",
+    "cybersecurity",
+    "book"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1083466/",
+  "originalSite": "lwn.net",
+  "context": "In March 2024, a backdoor was discovered in XZ Utils, a compression library widely used on Linux systems. The backdoor, tracked as CVE-2024-3094, allowed remote code execution via OpenSSH and was inserted through a sophisticated social engineering campaign targeting the project&\\#x27;s maintainer. The incident highlighted vulnerabilities in open source supply chain security.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "XZ Utils backdoor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/XZ_Utils_backdoor"
+    },
+    {
+      "title": "xz-utils backdoor situation (CVE-2024-3094) · GitHub",
+      "url": "https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27"
+    },
+    {
+      "title": "The XZ Backdoor (CVE-2024–3094): How a Supply Chain Attack ...",
+      "url": "https://systemweakness.com/the-xz-backdoor-cve-2024-3094-how-a-supply-chain-attack-nearly-compromised-every-linux-server-fae44fe73a21"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

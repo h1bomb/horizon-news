@@ -1,0 +1,44 @@
+{
+  "id": "1621b36419320802b105d259c484c01201885ea6",
+  "canonicalId": "534318bd6c265333f7d045ea1ac60be2e4a92c9c",
+  "slug": "gpt-2-词元嵌入空间的交互式地图",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T22:42:00Z",
+  "lang": "zh",
+  "title": "GPT-2 词元嵌入空间的交互式地图",
+  "summary": "一位 Reddit 用户创建了 GPT-2-small 词元嵌入空间的交互式地图，利用 t-SNE 降维和最小生成树来可视化 32,070 个字母词元之间的关系。 该工具使 GPT-2 的词元嵌入更易于解释和访问，帮助研究人员和从业者无需运行前向传播即可理解词元之间的关系。它促进了对语言模型如何在词元层面表示含义的更好直觉。 该地图在嵌入表的压缩表示上使用 t-SNE，边由最小生成树绘制，仅显示最近的亲缘关系。它支持移动设备，支持双指缩放，并包含一个搜索框，可跳转到任何词元。",
+  "score": 8,
+  "tags": [
+    "machine learning",
+    "embeddings",
+    "interpretability",
+    "visualization",
+    "NLP"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Limp-Contest-7309"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/",
+  "originalSite": "reddit.com",
+  "context": "词元嵌入是语言模型（如 GPT-2）中子词单元的密集向量表示。t-SNE 是一种非线性降维技术，将高维数据投影到 2D 或 3D 以便可视化，同时保留局部结构。最小生成树以最小总边权重连接所有点，揭示最接近的成对关系。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introduction to t - SNE : Nonlinear Dimensionality Reduction and Data...",
+      "url": "https://www.datacamp.com/tutorial/introduction-t-sne"
+    },
+    {
+      "title": "Kruskal’s Minimum Spanning Tree (MST) Algorithm - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/"
+    },
+    {
+      "title": "An exploration of GPT-2&#x27;s embedding weights",
+      "url": "https://www.alignmentforum.org/posts/BMghmAxYxeSdAteDc/an-exploration-of-gpt-2-s-embedding-weights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

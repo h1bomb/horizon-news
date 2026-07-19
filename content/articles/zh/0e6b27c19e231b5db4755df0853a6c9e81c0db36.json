@@ -1,0 +1,44 @@
+{
+  "id": "0e6b27c19e231b5db4755df0853a6c9e81c0db36",
+  "canonicalId": "f6847ea427ce3390208ecd1a18d608650d4de825",
+  "slug": "台积电-a14-制程良率与性能接近-90",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T05:00:00Z",
+  "lang": "zh",
+  "title": "台积电 A14 制程良率与性能接近 90%",
+  "summary": "台积电在财报电话会上宣布，其 A14（1.4 纳米级）制程的器件性能已接近目标水平的 90%，256Mb SRAM 良率也接近 90%，分别高于 4 月的 85%和 80%+，来自 AI、高性能计算和智能手机客户的兴趣浓厚。 这一进展表明台积电有望按计划于 2028 年量产，甚至可能提前，这将为 AI 和 HPC 芯片带来显著的能效提升，并巩固台积电在先进制程领域的领先地位。 与 N2（2 纳米级）相比，A14 在同功耗下性能提升 10-15%，同频下功耗降低 25-30%，逻辑晶体管密度提高 23%；它采用第二代 GAA 纳米片晶体管，得益于 N2 积累的经验。",
+  "score": 9,
+  "tags": [
+    "semiconductor",
+    "TSMC",
+    "A14",
+    "AI",
+    "HPC"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
+  "originalSite": "tomshardware.com",
+  "context": "全环绕栅极（GAA）纳米片晶体管是一种新一代晶体管设计，栅极环绕沟道的四周，能够实现更好的静电控制，允许超越 FinFET 的进一步微缩。台积电的 A14 是 1.4 纳米级节点，继 N2（2 纳米）之后，预计在 2028 年左右进入量产。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TSMC ’s Facing No Development Obstacles With Its Next-Generation...",
+      "url": "https://wccftech.com/tsmc-1-4nm-process-faces-no-obstacles-as-risk-production-to-start-in-2027/"
+    },
+    {
+      "title": "For the first time, TSMC reveals what will follow the 2 nm node",
+      "url": "https://www.phonearena.com/news/tsmc-says-what-follows-2nm-node_id153534"
+    },
+    {
+      "title": "What are Gate-All-Around (GAA) Transistors? | Synopsys Blog",
+      "url": "https://www.synopsys.com/blogs/chip-design/what-are-gate-all-around-gaa-transistors.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

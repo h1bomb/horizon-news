@@ -1,0 +1,44 @@
+{
+  "id": "7dabb24cd3f381425474fb8461c70e826e21ec43",
+  "canonicalId": "f6847ea427ce3390208ecd1a18d608650d4de825",
+  "slug": "tsmcx27s-a14-process-nearly-hits-90-yield-and-performance",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T05:00:00Z",
+  "lang": "en",
+  "title": "TSMC&\\#x27;s A14 Process Nearly Hits 90% Yield and Performance",
+  "summary": "TSMC announced that its A14 \\(1.4nm-class\\) process has achieved nearly 90% of target device performance and 90% yield on 256Mb SRAM, up from 85% and 80%+ respectively in April, with strong customer interest from AI, HPC, and smartphone sectors. This progress suggests TSMC is on track for 2028 mass production, potentially earlier, which would give AI and HPC chips a significant performance-per-watt boost and maintain TSMC&\\#x27;s leadership in advanced nodes. Compared to N2 \\(2nm-class\\), A14 offers 10-15% higher performance at same power or 25-30% lower power at same frequency, with 23% higher logic transistor density; it uses second-generation GAA nanosheet transistors, benefiting from N2 experience.",
+  "score": 9,
+  "tags": [
+    "semiconductor",
+    "TSMC",
+    "A14",
+    "AI",
+    "HPC"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
+  "originalSite": "tomshardware.com",
+  "context": "Gate-All-Around \\(GAA\\) nanosheet transistors are a next-generation transistor design where the gate wraps around all four sides of the channel, enabling better electrostatic control and allowing further scaling beyond FinFET. TSMC&\\#x27;s A14 is a 1.4nm-class node following the N2 \\(2nm\\) node, and is expected to enter high-volume manufacturing around 2028.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "TSMC ’s Facing No Development Obstacles With Its Next-Generation...",
+      "url": "https://wccftech.com/tsmc-1-4nm-process-faces-no-obstacles-as-risk-production-to-start-in-2027/"
+    },
+    {
+      "title": "For the first time, TSMC reveals what will follow the 2 nm node",
+      "url": "https://www.phonearena.com/news/tsmc-says-what-follows-2nm-node_id153534"
+    },
+    {
+      "title": "What are Gate-All-Around (GAA) Transistors? | Synopsys Blog",
+      "url": "https://www.synopsys.com/blogs/chip-design/what-are-gate-all-around-gaa-transistors.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

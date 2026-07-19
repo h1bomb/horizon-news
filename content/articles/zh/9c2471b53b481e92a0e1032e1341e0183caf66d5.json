@@ -1,0 +1,44 @@
+{
+  "id": "9c2471b53b481e92a0e1032e1341e0183caf66d5",
+  "canonicalId": "773ce6e05dc0747943c6b4eebbe741b28c54a393",
+  "slug": "深度学习综述分类-25-种-scrna-seq-分析方法",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T20:35:00Z",
+  "lang": "zh",
+  "title": "深度学习综述分类 25 种 scRNA-seq 分析方法",
+  "summary": "一篇 Reddit 帖子总结了一篇全面的综述论文，该论文将 25 种用于单细胞 RNA-seq 分析的深度学习方法分为六个子类别，并提供了包含每种方法的目的、架构和新颖性的详细表格。 该综述为计算生物学研究人员提供了有价值的结构化概览，帮助他们了解深度学习在单细胞基因组学中快速发展的领域。它突出了 AI 技术如何以前所未有的分辨率推进我们分析细胞异质性的能力。 所涵盖的方法分为六类：数据插补、降维、聚类、基因调控网络推断、轨迹推断和细胞类型注释。表格中包含了每种方法的指标和独特性描述。",
+  "score": 8,
+  "tags": [
+    "deep learning",
+    "single-cell RNA-seq",
+    "computational biology",
+    "survey",
+    "bioinformatics"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/teraRockstar"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v06nc1/deep_learning_tackles_singlecell_analysis_a/",
+  "originalSite": "reddit.com",
+  "context": "单细胞 RNA 测序（scRNA-seq）在单个细胞水平上测量基因表达，揭示组织中的细胞异质性。深度学习模型，如自编码器和变分自编码器，越来越多地应用于数据去噪、批次校正和细胞聚类等任务。这篇综述论文系统性地回顾了这些应用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Single - Cell RNA Sequencing in Placental Biology and Pregnancy...",
+      "url": "https://www.linkedin.com/pulse/single-cell-rna-sequencing-placental-biology-danish-muhammad-1bgxe"
+    },
+    {
+      "title": "Deep Learning Tech Will Open Up the... | Technology Networks",
+      "url": "https://www.technologynetworks.com/informatics/news/deep-learning-tech-will-open-up-the-epigenome-287581"
+    },
+    {
+      "title": "a microscope to see the diversity of cells - React JS Software",
+      "url": "https://reactjsnotes.online/a-microscope-to-see-the-diversity-of-cells/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

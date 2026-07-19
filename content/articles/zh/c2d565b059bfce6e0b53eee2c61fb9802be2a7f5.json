@@ -1,0 +1,44 @@
+{
+  "id": "c2d565b059bfce6e0b53eee2c61fb9802be2a7f5",
+  "canonicalId": "db7a10a47bbd5bdd15b7d2168974fe77e0044348",
+  "slug": "豆包手机放弃-gui-自动化转向-mcp-协议",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T00:29:00Z",
+  "lang": "zh",
+  "title": "豆包手机放弃 GUI 自动化，转向 MCP 协议",
+  "summary": "豆包手机放弃了原本通过模拟点击操作微信、淘宝等超级应用的 GUI 自动化方式，转而要求这些应用提供 MCP 服务以开放数据和操控权限。该公司已将备货量从 3 万台提升至数十万台。 这一转变反映了 AI 手机助手使用 GUI 自动化面临的现实挑战——此前超级应用曾封禁此类访问。豆包采用 MCP 框架，与苹果、Google 等公司的行业趋势一致，可能重塑 AI 代理与平台服务的集成方式。 豆包手机助手软件于 2025 年 7 月 15 日获得生成式人工智能服务备案。其技术预览版于 2024 年 12 月发布，但因微信和淘宝的封禁而被迫下线相关功能。",
+  "score": 8,
+  "tags": [
+    "AI assistant",
+    "MCP",
+    "Doubao phone",
+    "super apps",
+    "industry dynamics"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.latepost.com/news/dj_detail?id=3648",
+  "originalSite": "latepost.com",
+  "context": "GUI 自动化是指 AI 助手读取屏幕并模拟人类点击来操作应用，但这种方式很脆弱，经常被超级应用封禁。MCP（模型上下文协议）是一种新兴标准，允许 AI 模型通过协议直接请求应用的数据和操作，类似于 AI 领域的 USB-C 接口。这减少了摩擦，并打开了受控访问的通道。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What is the Model Context Protocol ( MCP )? - Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/"
+    },
+    {
+      "title": "比Playwright更高效！ BrowserTools MCP 让Cursor...",
+      "url": "https://developer.volcengine.com/articles/7485579294153342995"
+    },
+    {
+      "title": "基于Python uiautomation实现Windows GUI ...",
+      "url": "https://developer.aliyun.com/article/1137931"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

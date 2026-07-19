@@ -1,0 +1,44 @@
+{
+  "id": "9a01e3f397c3b68dcc9d263b185c853b9ffbcaf1",
+  "canonicalId": "d5813fa4134dc2793c74a49c34c8f265cb34d936",
+  "slug": "b-站-waic-展示开源主动式-ai-伙伴x27猫娘计划x27",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T06:45:00Z",
+  "lang": "zh",
+  "title": "B 站 WAIC 展示开源主动式 AI 伙伴&\\#x27;猫娘计划&\\#x27;",
+  "summary": "B 站在 2026 世界人工智能大会上展示了开源 AI 伙伴&\\#x27;猫娘计划&\\#x27;（Project N.E.K.O.），这是一个能够理解桌面内容并主动发起对话的原生全模态系统。 这标志着从被动 AI 助手向主动感知用户数字环境并交互的 AI 伙伴的重大转变，可能改变用户与虚拟角色的互动方式。 该系统采用 UI、AI 大脑与记忆系统分离的架构，核心数据可保留在本地。支持 Live2D 和 VRM 角色模型、物理反馈、带声线克隆的 TTS 语音模块以及多语言切换。",
+  "score": 8,
+  "tags": [
+    "AI companion",
+    "multimodal AI",
+    "open-source",
+    "computer vision",
+    "virtual being"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://finance.sina.com.cn/roll/2026-07-18/doc-iniifanf8394663.shtml",
+  "originalSite": "finance.sina.com.cn",
+  "context": "AI 伙伴是为提供情感支持和交互而设计的虚拟角色。传统 AI 助手是被动的，仅在用户召唤时响应。&\\#x27;猫娘计划&\\#x27;是主动式的，即持续感知用户屏幕和环境，基于上下文主动发起对话。VRM 是用于 VR 和 VTubing 的开放 3D 角色格式标准，而 VoiceClone 使用 AI 从音频样本中复制声音。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "3D humanoid avatar file format for VR | VRM",
+      "url": "https://vrm.dev/en/"
+    },
+    {
+      "title": "How AI Voice Cloning Works: A Complete Guide... | VoiceClone AI",
+      "url": "https://voicecloneai.app/blog/how-ai-voice-cloning-works"
+    },
+    {
+      "title": "MM-ReAct: Prompting ChatGPT for Multimodal Reasoning and Action",
+      "url": "https://multimodal-react.github.io/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

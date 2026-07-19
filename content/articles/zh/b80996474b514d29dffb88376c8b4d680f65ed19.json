@@ -1,0 +1,45 @@
+{
+  "id": "b80996474b514d29dffb88376c8b4d680f65ed19",
+  "canonicalId": "6b3a8d1a225d57a7b3e1a9169a3eb191af82c2bf",
+  "slug": "lg-显示器通过-windows-update-未经同意静默安装软件",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T10:21:00Z",
+  "lang": "zh",
+  "title": "LG 显示器通过 Windows Update 未经同意静默安装软件",
+  "summary": "LG 显示器会在用户连接 HDMI 时，通过 Windows Update 静默安装专有软件到 Windows 电脑上，无需用户同意。 这种做法绕过了用户控制，带来了安全和隐私风险，因为该软件随系统启动运行且拥有完全系统权限，可能被恶意利用。 该软件在插入新 LG 显示器或之前连接过的显示器时会自动安装，并且每次系统启动时运行，没有任何沙箱保护。",
+  "score": 8,
+  "tags": [
+    "security",
+    "privacy",
+    "Windows",
+    "drivers",
+    "LG"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "baranul",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48956688"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+  "originalSite": "videocardz.com",
+  "context": "Windows Update 可以在连接设备时自动下载并安装来自硬件供应商的驱动相关软件，旨在简化设置，但如果供应商分发非必要或潜在不受欢迎的软件，则可能被滥用。用户可以通过组策略或设备安装设置禁用此行为。",
+  "discussion": "用户对静默安装感到震惊，有人称其为“恶意软件”，并指出即使是旧款显示器也会触发安装。评论者提供了通过组策略或设备安装设置禁用制造商应用自动下载的解决方法，并就微软和 LG 谁应负主要责任展开辩论。",
+  "references": [
+    {
+      "title": "Understanding Windows Update rules for driver distribution - Windows drivers | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/dashboard/understanding-windows-update-automatic-and-optional-rules-for-driver-distribution"
+    },
+    {
+      "title": "LG Monitors Silently Installing Software via Windows Update : What...",
+      "url": "https://blog.zealtyro.com/lg-monitors-silently-installing-windows-software/"
+    },
+    {
+      "title": "Prevent automatic driver installation in Windows Update",
+      "url": "https://mundobytes.com/en/How-to-prevent-Windows-Update-from-automatically-installing-drivers-in-Windows-10-and-11/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

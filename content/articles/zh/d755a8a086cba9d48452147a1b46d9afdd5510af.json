@@ -1,0 +1,40 @@
+{
+  "id": "d755a8a086cba9d48452147a1b46d9afdd5510af",
+  "canonicalId": "59ccf4833f1069ad7dae3b254a69ebe9adfe7283",
+  "slug": "开源中的自行车棚效应反思",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T17:27:00Z",
+  "lang": "zh",
+  "title": "开源中的自行车棚效应反思",
+  "summary": "Poul-Henning Kamp 的文章《再见，感谢所有的自行车棚》回顾了开源中的自行车棚效应，并提供了如何有效管理琐碎决策的见解。 这篇文章之所以重要，是因为自行车棚效应浪费了社区的时间和精力；理解它有助于开源项目聚焦重要问题并保持生产力。 作者 PHK 是 FreeBSD 的著名开发者，创造了 MD5crypt；文章结合了历史背景和避免琐碎争议的实用建议。",
+  "score": 8,
+  "tags": [
+    "open source",
+    "bikeshedding",
+    "software engineering",
+    "community management"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Ygg2",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48960155"
+    }
+  ],
+  "originalUrl": "https://queue.acm.org/detail.cfm?id=3818307",
+  "originalSite": "queue.acm.org",
+  "context": "自行车棚效应，也称为帕金森琐碎定律，描述了人们在琐碎事务上花费过多时间而忽视重要事务的倾向。这是组织和开源社区中的常见现象，简单但不重要的问题往往引发过度讨论。",
+  "discussion": "评论者强调了可逆决策的概念作为自行车棚效应的解决方案，并提到了 PHK 对 MD5crypt 等的贡献。部分评论还涉及了技术领域的年龄限制和性别问题。",
+  "references": [
+    {
+      "title": "Bikeshedding - The Behavioral Scientist",
+      "url": "https://www.thebehavioralscientist.com/glossary/bikeshedding"
+    },
+    {
+      "title": "Bikeshedding - The Decision Lab",
+      "url": "https://thedecisionlab.com/biases/bikeshedding?ref=cynicalsignals.com"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

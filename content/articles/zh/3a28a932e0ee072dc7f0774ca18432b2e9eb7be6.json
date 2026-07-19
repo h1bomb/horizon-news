@@ -1,0 +1,37 @@
+{
+  "id": "3a28a932e0ee072dc7f0774ca18432b2e9eb7be6",
+  "canonicalId": "1c98b9c89e38b32b424d4bbc584c5ddd6200b709",
+  "slug": "gpt-56-通过提示解决凸优化-30-年难题",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T13:00:00Z",
+  "lang": "zh",
+  "title": "GPT-5.6 通过提示解决凸优化 30 年难题",
+  "summary": "GPT-5.6（Sol Pro）仅通过一个提示就解决了一个凸优化领域长达 30 年的公开问题——一个 30 年悬而未决的猜想——给出了在球形域上最小化凸 Lipschitz 函数复杂度的上界的新证明。 这标志着一个重要的里程碑：AI 模型做出了真正的数学贡献，可能加速优化理论的研究，并表明大型语言模型可以解决人类数学家几十年来未能攻克的难题。 该成就是由 GPT-5.6 的 Sol Pro 变体完成的，而非 Ultra 版本；解决的问题是凸优化中一个虽小但真实的贡献，专注于凸 Lipschitz 函数一阶方法的时间复杂度。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "convex optimization",
+    "mathematical proof",
+    "LLM",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mbustamanter",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48957779"
+    }
+  ],
+  "originalUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+  "originalSite": "old.reddit.com",
+  "context": "凸优化是数学优化的一个子领域，研究在凸集上最小化凸函数。许多此类问题可以高效求解，但一些理论问题——例如精确的最坏情况复杂度——仍然开放。这个被解决的问题涉及限制在球面上使用次梯度法找到凸 Lipschitz 函数近似最小值所需的步数。",
+  "discussion": "Reddit 社区普遍认可了这一贡献，一位专家指出这是真实但小众的结果。其他人讨论了其对数学研究的影响，认为低垂的果实现在可能由 AI 处理，而人类研究者将专注于更深层次的新方法。还有澄清说使用的模型是 Sol Pro 而非 Ultra。",
+  "references": [
+    {
+      "title": "Convex optimization",
+      "url": "https://en.wikipedia.org/wiki/Convex_optimization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

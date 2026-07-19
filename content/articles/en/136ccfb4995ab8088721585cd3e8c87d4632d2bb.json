@@ -1,0 +1,44 @@
+{
+  "id": "136ccfb4995ab8088721585cd3e8c87d4632d2bb",
+  "canonicalId": "773ce6e05dc0747943c6b4eebbe741b28c54a393",
+  "slug": "deep-learning-survey-categorizes-25-methods-for-scrna-seq-analysis",
+  "date": "2026-07-18",
+  "publishedAt": "2026-07-18T20:35:00Z",
+  "lang": "en",
+  "title": "Deep Learning Survey Categorizes 25 Methods for scRNA-seq Analysis",
+  "summary": "A Reddit post summarizes a comprehensive survey paper that categorizes 25 deep learning methods for single-cell RNA-seq analysis into six subcategories, providing a detailed table with purpose, architecture, and novelty of each method. This survey provides a valuable structured overview for researchers in computational biology, helping them navigate the rapidly growing field of deep learning in single-cell genomics. It highlights how AI techniques are advancing our ability to analyze cellular heterogeneity at unprecedented resolution. The covered methods span six categories: data imputation, dimensionality reduction, clustering, gene regulatory network inference, trajectory inference, and cell-type annotation. The table includes metrics and novelty descriptions for each of the 25 surveyed methods.",
+  "score": 8,
+  "tags": [
+    "deep learning",
+    "single-cell RNA-seq",
+    "computational biology",
+    "survey",
+    "bioinformatics"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/teraRockstar"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v06nc1/deep_learning_tackles_singlecell_analysis_a/",
+  "originalSite": "reddit.com",
+  "context": "Single-cell RNA sequencing \\(scRNA-seq\\) measures gene expression at the individual cell level, revealing cellular heterogeneity in tissues. Deep learning models, such as autoencoders and variational autoencoders, are increasingly applied to tasks like data denoising, batch correction, and cell clustering. This survey paper systematically reviews these applications.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Single - Cell RNA Sequencing in Placental Biology and Pregnancy...",
+      "url": "https://www.linkedin.com/pulse/single-cell-rna-sequencing-placental-biology-danish-muhammad-1bgxe"
+    },
+    {
+      "title": "Deep Learning Tech Will Open Up the... | Technology Networks",
+      "url": "https://www.technologynetworks.com/informatics/news/deep-learning-tech-will-open-up-the-epigenome-287581"
+    },
+    {
+      "title": "a microscope to see the diversity of cells - React JS Software",
+      "url": "https://reactjsnotes.online/a-microscope-to-see-the-diversity-of-cells/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
