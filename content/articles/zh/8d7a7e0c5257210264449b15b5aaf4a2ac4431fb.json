@@ -1,0 +1,41 @@
+{
+  "id": "8d7a7e0c5257210264449b15b5aaf4a2ac4431fb",
+  "canonicalId": "dbd57b2637da08ce64d9881ac742ae3bb838fc41",
+  "slug": "claude-code-现已使用用-rust-重写的-bun",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T03:54:00Z",
+  "lang": "zh",
+  "title": "Claude Code 现已使用用 Rust 重写的 Bun",
+  "summary": "Simon Willison 确认，Claude Code v2.1.181 及更高版本已搭载用 Rust 重写的 Bun，Linux 上启动速度提升 10%。该 Rust 版本基于尚未正式发布的 Bun v1.4.0 预览版（canary 版本）。 这表明一个主要运行时已用 Rust 重写并投入生产，验证了 Rust 在关键基础设施上的性能和安全性优势。同时凸显了 Anthropic 对 Bun 的收购以及大规模 AI 辅助重写的实践。 Rust 端口包含超过 13,000 个 unsafe 块，表明它是从 Zig 逐行翻译而来，而非完全符合 Rust 习惯的重写。Claude Code 是 Anthropic 推出的 AI 辅助编程工具，与 Bun 的独立运行时不同。",
+  "score": 8,
+  "tags": [
+    "rust",
+    "bun",
+    "claude-code",
+    "runtime",
+    "zig"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48966569"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Bun 是一个原本用 Zig 编写的高速 JavaScript 运行时，以服务端 JavaScript 性能著称。2025 年 12 月，Anthropic 收购了 Bun，随后创始人 Jarred Sumner 宣布将 Bun 用 Rust 重写，理由是指出 Zig 的手动内存管理容易出错。Claude Code 是 Anthropic 的代理式编程工具，运行在终端中，依赖 Bun 执行 JavaScript 资源。",
+  "discussion": "评论者意见不一：有人质疑一个 TUI 工具为何需要 JavaScript 运行时，认为原生重写更简单。其他人则讨论 Zig 与 Rust 之间的工程权衡，并对 Rust 端口中大量 unsafe 块表示担忧。还有人对项目管理和沟通提出批评，认为重写过于仓促且缺乏透明度。",
+  "references": [
+    {
+      "title": "Rewriting Bun in Rust | Bun Blog",
+      "url": "https://bun.com/blog/bun-in-rust"
+    },
+    {
+      "title": "Bun&#x27;s unreleased Rust port has 13,365 unsafe blocks. Most can ...",
+      "url": "https://bun.com/bun-unsafe-audit"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

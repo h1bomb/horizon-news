@@ -1,0 +1,41 @@
+{
+  "id": "2dac1d98a5657eaa8d0b08d1ef4ab94daccc5c53",
+  "canonicalId": "87cd30f5b2ebcafc91e7d9bdd9e634be236409b1",
+  "slug": "openai-reduces-codex-context-size-to-272k",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T07:54:00Z",
+  "lang": "en",
+  "title": "OpenAI Reduces Codex Context Size to 272k",
+  "summary": "OpenAI has reduced the context window of its Codex model from 372,000 tokens to 272,000 tokens, as seen in a recent pull request on GitHub. This change has sparked community debate about the trade-offs between context length, compaction techniques, and model quality. This reduction highlights ongoing tensions in the AI community between the desire for very long context windows and the practical difficulties of maintaining model performance at scale. The decision affects developers who rely on Codex for complex tasks requiring extended context, such as reviewing multiple papers or maintaining large codebases. The change was made via a pull request \\(PR \\#33972\\) on the OpenAI Codex repository. The reduction from 372k to 272k tokens suggests a possible shift in strategy towards context compaction or prioritization of response quality over raw context size.",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "Codex",
+    "context window",
+    "model performance",
+    "compaction"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "AmazingTurtle",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48965850"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/codex/pull/33972/files",
+  "originalSite": "github.com",
+  "context": "Context windows in large language models define how much previous text the model can refer to when generating responses. Larger context windows are desirable for tasks requiring long-range dependencies, but they also increase computational cost and can degrade model performance as the context grows. Context compaction is a technique to summarize or compress context to maintain efficiency.",
+  "discussion": "Community comments are mixed: some users express dissatisfaction with compaction, noting that it loses too much detail for nitty-gritty discussions. Others argue that exceeding certain context sizes makes models dumber, and they prefer to keep contexts clean and modular. One user mentions that compaction doesn&\\#x27;t help much and they frequently clear context to maintain quality.",
+  "references": [
+    {
+      "title": "Context Compaction in LLMs",
+      "url": "https://www.emergentmind.com/topics/context-compaction"
+    },
+    {
+      "title": "GPT 5.4 Context Window Explained: Why the 1M Token... | BSWEN",
+      "url": "https://docs.bswen.com/blog/2026-03-06-gpt54-context-window/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "fecdbda223f5b7c4becc5a0e48060aa4a94a690a",
+  "canonicalId": "dbd57b2637da08ce64d9881ac742ae3bb838fc41",
+  "slug": "claude-code-now-uses-bun-rewritten-in-rust",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T03:54:00Z",
+  "lang": "en",
+  "title": "Claude Code Now Uses Bun Rewritten in Rust",
+  "summary": "Simon Willison confirmed that Claude Code v2.1.181 and later ship with the Rust port of Bun, achieving a 10% startup improvement on Linux. The Rust version is based on a canary release of Bun v1.4.0, which is not yet publicly tagged. This demonstrates a real-world production deployment of a major runtime rewritten in Rust, validating Rust&\\#x27;s performance and safety benefits for critical infrastructure. It also highlights Anthropic&\\#x27;s acquisition of Bun and the integration of AI-assisted rewrites at scale. The Rust port contains over 13,000 unsafe blocks, indicating a line-by-line transliteration from Zig rather than a fully idiomatic Rust rewrite. Claude Code itself is an AI-assisted coding tool from Anthropic, separate from Bun&\\#x27;s standalone runtime.",
+  "score": 8,
+  "tags": [
+    "rust",
+    "bun",
+    "claude-code",
+    "runtime",
+    "zig"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48966569"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Bun is a fast JavaScript runtime originally written in Zig, known for its performance in server-side JavaScript. In December 2025, Anthropic acquired Bun, and later Jarred Sumner announced a rewrite of Bun in Rust, citing Zig&\\#x27;s manual memory management as error-prone. Claude Code is Anthropic&\\#x27;s agentic coding tool that runs in the terminal and relies on Bun to execute JavaScript assets.",
+  "discussion": "Commenters expressed mixed opinions: some questioned why a TUI tool needs a JavaScript runtime at all, suggesting a native rewrite would be simpler. Others debated the engineering trade-offs between Zig and Rust, with concerns about the high number of unsafe blocks in the Rust port. There were also criticisms of project management and communication, with some feeling that the rewrite was rushed and lacked transparency.",
+  "references": [
+    {
+      "title": "Rewriting Bun in Rust | Bun Blog",
+      "url": "https://bun.com/blog/bun-in-rust"
+    },
+    {
+      "title": "Bun&#x27;s unreleased Rust port has 13,365 unsafe blocks. Most can ...",
+      "url": "https://bun.com/bun-unsafe-audit"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

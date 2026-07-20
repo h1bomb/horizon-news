@@ -1,0 +1,40 @@
+{
+  "id": "d278e05244846417aeea3e65b387e97b0c96e7d2",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "sre-用-1600-美元-esp32-替换-12-万美元保龄球计分系统",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T14:41:00Z",
+  "lang": "zh",
+  "title": "SRE 用 1600 美元 ESP32 替换 12 万美元保龄球计分系统",
+  "summary": "一位站点可靠性工程师（SRE）用 ESP32 微控制器和树莓派构建了开源替代方案，替代了价值 12 万美元的保龄球计分系统，将八条球道的成本降至约 1600 美元。 这展示了现代嵌入式系统如何大幅降低维护传统工业设备的成本，挑战供应商锁定和高额服务费用。它可能使小型保龄球馆及类似企业能够以可承受的成本进行升级。 该原型采用 ESP-NOW 星型拓扑网格，并辅以 RS485 有线回退，传感器数据通过树莓派上的 Redis 进行实时事件流处理。每对球道的硬件成本为 200-400 美元，并配有预先刷好固件的备用控制器。",
+  "score": 8,
+  "tags": [
+    "embedded systems",
+    "ESP32",
+    "legacy system retrofit",
+    "bowling",
+    "engineering ingenuity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "section33"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=48968606",
+  "originalSite": "news.ycombinator.com",
+  "context": "许多保龄球馆使用专有计分系统，这些系统成本数万美元且依赖供应商支持。ESP32 是一种低成本、双核微控制器，集成 Wi-Fi 和蓝牙，常用于物联网项目。所描述的系统用简单的红外对射传感器和 ESP32 节点取代了昂贵的基于摄像头的击倒瓶检测和继电器控制。",
+  "discussion": "评论者称赞该项目是用现代技术改造传统系统的绝佳范例。一位用户分享了类似经历，他有一个使用 1970 年代英特尔微控制器的迷你保龄球道；另一位则回忆起 1970 年代的继电器逻辑机器。还有人建议增加 LED 效果和 DMX 灯光控制。",
+  "references": [
+    {
+      "title": "ESP32 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    },
+    {
+      "title": "Pinsetter - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pinsetter"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

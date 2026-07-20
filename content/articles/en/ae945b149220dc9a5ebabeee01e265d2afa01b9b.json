@@ -1,0 +1,40 @@
+{
+  "id": "ae945b149220dc9a5ebabeee01e265d2afa01b9b",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "sre-replaces-120k-bowling-system-with-1600-esp32s",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T14:41:00Z",
+  "lang": "en",
+  "title": "SRE replaces $120k bowling system with $1,600 ESP32s",
+  "summary": "A site reliability engineer \\(SRE\\) built an open-source replacement for a $120,000 bowling scoring system using ESP32 microcontrollers and a Raspberry Pi, cutting costs to about $1,600 for eight lanes. This demonstrates how modern embedded systems can drastically reduce the cost of maintaining legacy industrial equipment, challenging vendor lock-in and high service fees. It could empower small bowling alleys and similar businesses to upgrade affordably. The prototype uses an ESP-NOW star-topology mesh with RS485 wired fallback, feeding sensor data into Redis on a Raspberry Pi for real-time event streaming. The total hardware cost is $200-$400 per lane pair, with fully pre-flashed spare controllers.",
+  "score": 8,
+  "tags": [
+    "embedded systems",
+    "ESP32",
+    "legacy system retrofit",
+    "bowling",
+    "engineering ingenuity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "section33"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=48968606",
+  "originalSite": "news.ycombinator.com",
+  "context": "Many bowling centers use proprietary scoring systems that cost tens of thousands of dollars and rely on vendor support. ESP32 is a low-cost, dual-core microcontroller with integrated Wi-Fi and Bluetooth, commonly used for IoT projects. The system described replaces expensive camera-based pin detection and relay control with simple IR break-beam sensors and ESP32 nodes.",
+  "discussion": "Commenters praised the project as a great example of retrofitting legacy systems with modern tech. One user shared a similar experience with a mini bowling lane using a 1970s Intel microcontroller, while another recalled relay-logic machines from the 1970s. Others suggested adding LED effects and DMX lighting control.",
+  "references": [
+    {
+      "title": "ESP32 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    },
+    {
+      "title": "Pinsetter - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pinsetter"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

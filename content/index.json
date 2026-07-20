@@ -1,6 +1,176 @@
 {
   "articles": [
     {
+      "id": "d278e05244846417aeea3e65b387e97b0c96e7d2",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "sre-用-1600-美元-esp32-替换-12-万美元保龄球计分系统",
+      "date": "2026-07-19",
+      "lang": "zh",
+      "title": "SRE 用 1600 美元 ESP32 替换 12 万美元保龄球计分系统",
+      "score": 8,
+      "tags": [
+        "embedded systems",
+        "ESP32",
+        "legacy system retrofit",
+        "bowling",
+        "engineering ingenuity"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "8610c165546eb675b245320ae1bd1009b834b8f4",
+      "canonicalId": "ddebaf62488a3199fecf3e870625b66bfdd00e96",
+      "slug": "阿里巴巴发布-qwen-3824-万亿参数开源权重大语言模型",
+      "date": "2026-07-19",
+      "lang": "zh",
+      "title": "阿里巴巴发布 Qwen 3.8：2.4 万亿参数开源权重大语言模型",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "open-weights",
+        "Alibaba",
+        "AI competition",
+        "Qwen"
+      ],
+      "originalSite": "twitter.com"
+    },
+    {
+      "id": "8d7a7e0c5257210264449b15b5aaf4a2ac4431fb",
+      "canonicalId": "dbd57b2637da08ce64d9881ac742ae3bb838fc41",
+      "slug": "claude-code-现已使用用-rust-重写的-bun",
+      "date": "2026-07-19",
+      "lang": "zh",
+      "title": "Claude Code 现已使用用 Rust 重写的 Bun",
+      "score": 8,
+      "tags": [
+        "rust",
+        "bun",
+        "claude-code",
+        "runtime",
+        "zig"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "3d4f3825b322d77a70c63a7a1a18bda1c8d3d8cb",
+      "canonicalId": "87cd30f5b2ebcafc91e7d9bdd9e634be236409b1",
+      "slug": "openai-将-codex-上下文大小降至-272-万",
+      "date": "2026-07-19",
+      "lang": "zh",
+      "title": "OpenAI 将 Codex 上下文大小降至 27.2 万",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "context window",
+        "model performance",
+        "compaction"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "717105fdeecb80f2c631f6ea746cc0a82325c2c0",
+      "canonicalId": "e140d994fd4a7ba4b3f6fe0561011cad33634653",
+      "slug": "美国政客优化网络形象以影响-ai-聊天机器人",
+      "date": "2026-07-19",
+      "lang": "zh",
+      "title": "美国政客优化网络形象以影响 AI 聊天机器人",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "politics",
+        "misinformation",
+        "search optimization",
+        "campaigning"
+      ],
+      "originalSite": "nytimes.com"
+    },
+    {
+      "id": "ae945b149220dc9a5ebabeee01e265d2afa01b9b",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "sre-replaces-120k-bowling-system-with-1600-esp32s",
+      "date": "2026-07-19",
+      "lang": "en",
+      "title": "SRE replaces $120k bowling system with $1,600 ESP32s",
+      "score": 8,
+      "tags": [
+        "embedded systems",
+        "ESP32",
+        "legacy system retrofit",
+        "bowling",
+        "engineering ingenuity"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "0d0144502e36a0127a918b4aa6d1ba85a9a9ce4d",
+      "canonicalId": "ddebaf62488a3199fecf3e870625b66bfdd00e96",
+      "slug": "alibaba-announces-qwen-38-24t-parameter-open-weights-llm",
+      "date": "2026-07-19",
+      "lang": "en",
+      "title": "Alibaba Announces Qwen 3.8: 2.4T Parameter Open-weights LLM",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "open-weights",
+        "Alibaba",
+        "AI competition",
+        "Qwen"
+      ],
+      "originalSite": "twitter.com"
+    },
+    {
+      "id": "fecdbda223f5b7c4becc5a0e48060aa4a94a690a",
+      "canonicalId": "dbd57b2637da08ce64d9881ac742ae3bb838fc41",
+      "slug": "claude-code-now-uses-bun-rewritten-in-rust",
+      "date": "2026-07-19",
+      "lang": "en",
+      "title": "Claude Code Now Uses Bun Rewritten in Rust",
+      "score": 8,
+      "tags": [
+        "rust",
+        "bun",
+        "claude-code",
+        "runtime",
+        "zig"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "2dac1d98a5657eaa8d0b08d1ef4ab94daccc5c53",
+      "canonicalId": "87cd30f5b2ebcafc91e7d9bdd9e634be236409b1",
+      "slug": "openai-reduces-codex-context-size-to-272k",
+      "date": "2026-07-19",
+      "lang": "en",
+      "title": "OpenAI Reduces Codex Context Size to 272k",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "context window",
+        "model performance",
+        "compaction"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "8157c9e0a3cd2ef3463220b91e2acc1aa0a528cd",
+      "canonicalId": "e140d994fd4a7ba4b3f6fe0561011cad33634653",
+      "slug": "us-politicians-optimize-digital-presence-to-influence-ai-chatbots",
+      "date": "2026-07-19",
+      "lang": "en",
+      "title": "US Politicians Optimize Digital Presence to Influence AI Chatbots",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "politics",
+        "misinformation",
+        "search optimization",
+        "campaigning"
+      ],
+      "originalSite": "nytimes.com"
+    },
+    {
       "id": "3a28a932e0ee072dc7f0774ca18432b2e9eb7be6",
       "canonicalId": "1c98b9c89e38b32b424d4bbc584c5ddd6200b709",
       "slug": "gpt-56-通过提示解决凸优化-30-年难题",
@@ -5649,342 +5819,6 @@
         "manufacturing"
       ],
       "originalSite": "t.me"
-    },
-    {
-      "id": "e304d2ca38d4e070b70469fcd82471bf89e538a6",
-      "canonicalId": "0e25a0e106f0683501e0ee99aad3825a52d2fb1f",
-      "slug": "wordgardprosemirror-作者推出的全新富文本编辑器",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "Wordgard：ProseMirror 作者推出的全新富文本编辑器",
-      "score": 8,
-      "tags": [
-        "rich-text editor",
-        "ProseMirror",
-        "web development",
-        "WYSIWYG"
-      ],
-      "originalSite": "wordgard.net"
-    },
-    {
-      "id": "53f777f313567376e3f0e2efebe529a3a31ea6ba",
-      "canonicalId": "9451b9f44bd29e34adf76e826b4579d69ae51ad5",
-      "slug": "批评为财富驱动的创始人产出半成品",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "批评：为财富驱动的创始人产出半成品",
-      "score": 8,
-      "tags": [
-        "startups",
-        "founder motivation",
-        "product development",
-        "domain expertise"
-      ],
-      "originalSite": "weli.dev"
-    },
-    {
-      "id": "f6744bc1b9e5a49ef27face570964c7ddecc699a",
-      "canonicalId": "7c70aaf21743378b70fbcb69c4f44a294a4b8cec",
-      "slug": "苹果推出-safari-mcp-服务器支持-llm-驱动的浏览器自动化",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "苹果推出 Safari MCP 服务器，支持 LLM 驱动的浏览器自动化",
-      "score": 8,
-      "tags": [
-        "safari",
-        "webkit",
-        "mcp",
-        "web development",
-        "AI integration"
-      ],
-      "originalSite": "webkit.org"
-    },
-    {
-      "id": "50dfb5f4c222cbffb95e14105e319edd02692ff7",
-      "canonicalId": "b536bfec5b0e30c2b4d3e5bb20309b58029ee9e2",
-      "slug": "linux-内核-lsfmmbpf-2026-讨论限制负目录项",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "Linux 内核 LSFMM+BPF 2026 讨论限制负目录项",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "filesystem",
-        "dentries",
-        "memory management",
-        "performance optimization"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "c6e365dc3ab45efdb5e7a04bace02d2e0bb48469",
-      "canonicalId": "848d344a33cced2cd021f1d514f5ac560bd7a4e7",
-      "slug": "cdd-仅从对数几率恢复微调数据的原文",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "CDD 仅从对数几率恢复微调数据的原文",
-      "score": 8,
-      "tags": [
-        "machine learning",
-        "LLM safety",
-        "model interpretability",
-        "fine-tuning",
-        "logit analysis"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "fa9ff3b542863b048210839551712546b5085075",
-      "canonicalId": "c334f2826f66112e67d8dd17a85d2b56595506c3",
-      "slug": "谷歌-gemini-omni-flash-登顶-video-arena",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "谷歌 Gemini Omni Flash 登顶 Video Arena",
-      "score": 8,
-      "tags": [
-        "AI",
-        "video generation",
-        "Google DeepMind",
-        "Gemini",
-        "ByteDance"
-      ],
-      "originalSite": "x.com"
-    },
-    {
-      "id": "5b9929285355e00a75849f296bde9497d8e7cf90",
-      "canonicalId": "d72113a08701e2c04d3579723f2552b6e704fb4b",
-      "slug": "anthropic-指控阿里巴巴对-claude-发动大规模蒸馏攻击",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击",
-      "score": 8,
-      "tags": [
-        "AI Security",
-        "Model Distillation",
-        "Anthropic",
-        "Alibaba",
-        "Intellectual Property"
-      ],
-      "originalSite": "t.me"
-    },
-    {
-      "id": "ffaef663d935afa9c6d0b10aed18c26b6b4c0d7f",
-      "canonicalId": "bca12c40750d34b30ba83fa2a8754bd4a2ec6564",
-      "slug": "华为-mate-80-pro-游戏能效超越骁龙-8-gen3",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "华为 Mate 80 Pro 游戏能效超越骁龙 8 Gen3",
-      "score": 8,
-      "tags": [
-        "Huawei",
-        "Mate 80 Pro",
-        "Kirin 9030",
-        "HarmonyOS",
-        "Mobile Gaming"
-      ],
-      "originalSite": "bilibili.com"
-    },
-    {
-      "id": "8e0cfa7d3ee755e106aef9a2df20553b0b73b7bd",
-      "canonicalId": "a0c2a7a960c2b846904bf9c68203290008608793",
-      "slug": "nasa-发射救援卫星挽救坠落中的雨燕望远镜",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "NASA 发射救援卫星挽救坠落中的雨燕望远镜",
-      "score": 8,
-      "tags": [
-        "space",
-        "NASA",
-        "satellite servicing",
-        "astronomy",
-        "Swift telescope"
-      ],
-      "originalSite": "apnews.com"
-    },
-    {
-      "id": "76b51bb2dc5b234e3df7c7fa81be8cace5aeb9c9",
-      "canonicalId": "384862abfd4c32d7193247e4172586fff112e3b4",
-      "slug": "腾讯玄武实验室阿图因-ai-在-cybergym-测试中超越-mythos",
-      "date": "2026-07-03",
-      "lang": "zh",
-      "title": "腾讯玄武实验室阿图因 AI 在 CyberGym 测试中超越 Mythos",
-      "score": 8,
-      "tags": [
-        "AI",
-        "网络安全",
-        "漏洞检测",
-        "腾讯玄武",
-        "基准测试"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "ca653de800800928054a329a737f84fe987b37e7",
-      "canonicalId": "0e25a0e106f0683501e0ee99aad3825a52d2fb1f",
-      "slug": "wordgard-new-rich-text-editor-by-prosemirror-creator",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Wordgard: New Rich-Text Editor by ProseMirror Creator",
-      "score": 8,
-      "tags": [
-        "rich-text editor",
-        "ProseMirror",
-        "web development",
-        "WYSIWYG"
-      ],
-      "originalSite": "wordgard.net"
-    },
-    {
-      "id": "449d6cb114c4f55a2b144c25e94f64da8d67d3eb",
-      "canonicalId": "9451b9f44bd29e34adf76e826b4579d69ae51ad5",
-      "slug": "startup-critique-wealth-motivated-founders-produce-half-baked-products",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Startup Critique: Wealth-Motivated Founders Produce Half-Baked Products",
-      "score": 8,
-      "tags": [
-        "startups",
-        "founder motivation",
-        "product development",
-        "domain expertise"
-      ],
-      "originalSite": "weli.dev"
-    },
-    {
-      "id": "a07aae84af0bd4029b4e75e26e71a4c2f9cd4de9",
-      "canonicalId": "7c70aaf21743378b70fbcb69c4f44a294a4b8cec",
-      "slug": "apples-safari-mcp-server-enables-llm-powered-browser-automation",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Apple's Safari MCP Server Enables LLM-Powered Browser Automation",
-      "score": 8,
-      "tags": [
-        "safari",
-        "webkit",
-        "mcp",
-        "web development",
-        "AI integration"
-      ],
-      "originalSite": "webkit.org"
-    },
-    {
-      "id": "194817814f444e2ad3998dd902854b1ec3c0102b",
-      "canonicalId": "b536bfec5b0e30c2b4d3e5bb20309b58029ee9e2",
-      "slug": "limiting-negative-dentries-in-linux-kernel-discussed-at-lsfmmbpf-2026",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Limiting negative dentries in Linux kernel discussed at LSFMM+BPF 2026",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "filesystem",
-        "dentries",
-        "memory management",
-        "performance optimization"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "1dad9a6eefee5b9bf7542faf9fc28f098de02fc4",
-      "canonicalId": "848d344a33cced2cd021f1d514f5ac560bd7a4e7",
-      "slug": "cdd-recovers-verbatim-finetuning-data-from-logits-alone",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "CDD Recovers Verbatim Finetuning Data from Logits Alone",
-      "score": 8,
-      "tags": [
-        "machine learning",
-        "LLM safety",
-        "model interpretability",
-        "fine-tuning",
-        "logit analysis"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "f68865f89f5ce54b32ccf7d5546e713f7869f0c1",
-      "canonicalId": "c334f2826f66112e67d8dd17a85d2b56595506c3",
-      "slug": "google-gemini-omni-flash-tops-video-arena",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Google Gemini Omni Flash Tops Video Arena",
-      "score": 8,
-      "tags": [
-        "AI",
-        "video generation",
-        "Google DeepMind",
-        "Gemini",
-        "ByteDance"
-      ],
-      "originalSite": "x.com"
-    },
-    {
-      "id": "ae2f8edb6abbfdea9c8a69a33eed247145b56d9e",
-      "canonicalId": "d72113a08701e2c04d3579723f2552b6e704fb4b",
-      "slug": "anthropic-accuses-alibaba-of-massive-distillation-attack-on-claude",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Anthropic Accuses Alibaba of Massive Distillation Attack on Claude",
-      "score": 8,
-      "tags": [
-        "AI Security",
-        "Model Distillation",
-        "Anthropic",
-        "Alibaba",
-        "Intellectual Property"
-      ],
-      "originalSite": "t.me"
-    },
-    {
-      "id": "13f05197bb0c96bded8849fd551a9f2be0f67be4",
-      "canonicalId": "bca12c40750d34b30ba83fa2a8754bd4a2ec6564",
-      "slug": "huawei-mate-80-pro-gaming-efficiency-beats-snapdragon-8-gen3",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Huawei Mate 80 Pro Gaming Efficiency Beats Snapdragon 8 Gen3",
-      "score": 8,
-      "tags": [
-        "Huawei",
-        "Mate 80 Pro",
-        "Kirin 9030",
-        "HarmonyOS",
-        "Mobile Gaming"
-      ],
-      "originalSite": "bilibili.com"
-    },
-    {
-      "id": "8029ef037bc8f3df8095904cff81e1e42454e9c2",
-      "canonicalId": "a0c2a7a960c2b846904bf9c68203290008608793",
-      "slug": "nasa-launches-rescue-satellite-to-save-falling-swift-telescope",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "NASA Launches Rescue Satellite to Save Falling Swift Telescope",
-      "score": 8,
-      "tags": [
-        "space",
-        "NASA",
-        "satellite servicing",
-        "astronomy",
-        "Swift telescope"
-      ],
-      "originalSite": "apnews.com"
-    },
-    {
-      "id": "62e09bcdc64a873e1a5d079bab690579e6942f24",
-      "canonicalId": "384862abfd4c32d7193247e4172586fff112e3b4",
-      "slug": "tencent-xuanwu-labs-atyun-ai-surpasses-mythos-in-cybergym-test",
-      "date": "2026-07-03",
-      "lang": "en",
-      "title": "Tencent Xuanwu Lab's Atyun AI Surpasses Mythos in CyberGym Test",
-      "score": 8,
-      "tags": [
-        "AI",
-        "网络安全",
-        "漏洞检测",
-        "腾讯玄武",
-        "基准测试"
-      ],
-      "originalSite": "mp.weixin.qq.com"
     }
   ]
 }

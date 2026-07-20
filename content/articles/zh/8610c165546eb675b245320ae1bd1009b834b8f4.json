@@ -1,0 +1,41 @@
+{
+  "id": "8610c165546eb675b245320ae1bd1009b834b8f4",
+  "canonicalId": "ddebaf62488a3199fecf3e870625b66bfdd00e96",
+  "slug": "阿里巴巴发布-qwen-3824-万亿参数开源权重大语言模型",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T08:44:00Z",
+  "lang": "zh",
+  "title": "阿里巴巴发布 Qwen 3.8：2.4 万亿参数开源权重大语言模型",
+  "summary": "阿里巴巴宣布推出 Qwen 3.8，这是一个拥有 2.4 万亿参数的大语言模型，并以开放权重形式发布。此举似乎是为了直接回应 Moonshot AI 近期发布的 2.8 万亿参数 Kimi K3 模型。 这加剧了开放权重大语言模型领域的竞争，特别是中国主要 AI 公司之间，并为社区提供了一个用于本地推理和微调的巨型模型。其结果可能影响开放权重 AI 开发的方向和可访问性。 Qwen 3.8 拥有 2.4 万亿参数，是阿里巴巴 Qwen 系列的延续，名称可能代表版本号。具体发布日期和许可条款尚未公布，但该模型预计将在 Hugging Face 等平台上提供。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "open-weights",
+    "Alibaba",
+    "AI competition",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nh43215rgb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48966120"
+    }
+  ],
+  "originalUrl": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+  "originalSite": "twitter.com",
+  "context": "开放权重模型公开训练后的参数，允许用户下载、运行和微调，但与开源模型不同，其训练代码和数据仍是专有的。这一区别很重要，因为它影响可复现性和修改权。阿里巴巴的公告紧随 Moonshot AI 发布 Kimi K3 之后，Kimi K3 是目前最大的开放权重模型，拥有 2.8 万亿参数，标志着中国 AI 公司之间的竞争加剧。",
+  "discussion": "社区评论总体积极，用户对竞争和本地推理的潜力表示兴奋。一些用户称赞较小的 Qwen 模型在实际使用中的表现，而一位用户批评 Qwen 3.7 Pro 在软件工程任务中无法使用，并将其与 Deepseek V4 进行不利比较。",
+  "references": [
+    {
+      "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems | VentureBeat",
+      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
+    },
+    {
+      "title": "Understanding Open Weights vs. Open Source Models | by Asad Iqbal | Medium",
+      "url": "https://deasadiqbal.medium.com/understanding-open-weights-vs-open-source-models-988b50ce64d7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "3d4f3825b322d77a70c63a7a1a18bda1c8d3d8cb",
+  "canonicalId": "87cd30f5b2ebcafc91e7d9bdd9e634be236409b1",
+  "slug": "openai-将-codex-上下文大小降至-272-万",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T07:54:00Z",
+  "lang": "zh",
+  "title": "OpenAI 将 Codex 上下文大小降至 27.2 万",
+  "summary": "OpenAI 在最近的 GitHub 拉取请求中将其 Codex 模型的上下文窗口从 37.2 万个 token 减少到 27.2 万个 token。这一变化引发了社区关于上下文长度、压缩技术和模型质量之间权衡的讨论。 这一缩减凸显了 AI 社区中对超长上下文窗口的渴望与在大规模情况下保持模型性能的困难之间的持续矛盾。该决定影响了依赖 Codex 执行需要扩展上下文的复杂任务（如审阅多篇论文或维护大型代码库）的开发者。 这一更改是通过 OpenAI Codex 仓库的一个拉取请求（PR \\#33972）实现的。从 37.2 万 token 减少到 27.2 万 token，表明策略可能转向上下文压缩，或优先考虑响应质量而非原始上下文大小。",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "Codex",
+    "context window",
+    "model performance",
+    "compaction"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "AmazingTurtle",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48965850"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/codex/pull/33972/files",
+  "originalSite": "github.com",
+  "context": "大型语言模型中的上下文窗口定义了模型在生成响应时可以引用的先前文本量。对于需要长程依赖的任务，更大的上下文窗口是可取的，但它们也会增加计算成本，并可能随着上下文增长而降低模型性能。上下文压缩是一种总结或压缩上下文以保持效率的技术。",
+  "discussion": "社区评论褒贬不一：一些用户对压缩表示不满，认为对需要精细讨论的场景丢失了太多细节。其他人则认为超过一定上下文大小会使模型变笨，他们更喜欢保持上下文干净和模块化。一位用户提到压缩帮助不大，他们经常清除上下文以保持质量。",
+  "references": [
+    {
+      "title": "Context Compaction in LLMs",
+      "url": "https://www.emergentmind.com/topics/context-compaction"
+    },
+    {
+      "title": "GPT 5.4 Context Window Explained: Why the 1M Token... | BSWEN",
+      "url": "https://docs.bswen.com/blog/2026-03-06-gpt54-context-window/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

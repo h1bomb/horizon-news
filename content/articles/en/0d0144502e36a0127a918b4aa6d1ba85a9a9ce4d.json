@@ -1,0 +1,41 @@
+{
+  "id": "0d0144502e36a0127a918b4aa6d1ba85a9a9ce4d",
+  "canonicalId": "ddebaf62488a3199fecf3e870625b66bfdd00e96",
+  "slug": "alibaba-announces-qwen-38-24t-parameter-open-weights-llm",
+  "date": "2026-07-19",
+  "publishedAt": "2026-07-19T08:44:00Z",
+  "lang": "en",
+  "title": "Alibaba Announces Qwen 3.8: 2.4T Parameter Open-weights LLM",
+  "summary": "Alibaba has announced Qwen 3.8, a large language model with 2.4 trillion parameters, released as open weights. This move appears to be a direct response to Moonshot AI&\\#x27;s recent announcement of the 2.8T parameter Kimi K3 model. This intensifies competition in the open-weights LLM space, particularly between major Chinese AI companies, and provides the community with a very large model for local inference and fine-tuning. The outcome could influence the direction of open-weight AI development and accessibility. Qwen 3.8 has 2.4 trillion parameters and follows Alibaba&\\#x27;s Qwen series, with the name likely indicating a version number. The exact release date and licensing terms have not been detailed, but the model is expected to be available on platforms like Hugging Face.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "open-weights",
+    "Alibaba",
+    "AI competition",
+    "Qwen"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nh43215rgb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48966120"
+    }
+  ],
+  "originalUrl": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+  "originalSite": "twitter.com",
+  "context": "Open-weights models release the trained parameters publicly, allowing users to download, run, and fine-tune the model, but unlike open-source models, the training code and data remain proprietary. This distinction is important because it affects reproducibility and modification rights. Alibaba&\\#x27;s announcement comes shortly after Moonshot AI released Kimi K3, the largest open-weights model to date at 2.8 trillion parameters, signaling a competitive push among Chinese AI firms.",
+  "discussion": "Community comments are largely positive, with users expressing excitement about the competition and the potential for local inference. Some users praise smaller Qwen models for practical use, while one user criticizes Qwen 3.7 Pro as unusable for software engineering tasks, comparing it unfavorably to Deepseek V4.",
+  "references": [
+    {
+      "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems | VentureBeat",
+      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
+    },
+    {
+      "title": "Understanding Open Weights vs. Open Source Models | by Asad Iqbal | Medium",
+      "url": "https://deasadiqbal.medium.com/understanding-open-weights-vs-open-source-models-988b50ce64d7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
