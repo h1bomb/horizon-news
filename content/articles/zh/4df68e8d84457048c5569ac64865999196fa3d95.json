@@ -1,0 +1,44 @@
+{
+  "id": "4df68e8d84457048c5569ac64865999196fa3d95",
+  "canonicalId": "21716834c1377d6a600f2a24e27dbf6f7a0d23d8",
+  "slug": "fastjson-1x-高危无-gadget-rce-漏洞",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T14:32:00Z",
+  "lang": "zh",
+  "title": "Fastjson 1.x 高危无 Gadget RCE 漏洞",
+  "summary": "Fastjson 1.2.68 至 1.2.83 版本被披露存在一个严重的远程代码执行漏洞，该漏洞无需开启 autoType，也无需任何 classpath gadget 链，可在 JDK 8、17 和 21 上利用。 该漏洞极其严重，因为 Fastjson 在 Java 应用中广泛使用，特别是在中国技术生态中，而 1.x 分支已停止维护且无官方补丁，用户必须升级到 Fastjson2 或启用 SafeMode 才能缓解风险。 该漏洞不需要 autoType 支持，也不依赖 classpath 中的任何特定 gadget，大大降低了利用门槛；唯一的缓解措施是升级到 Fastjson2，或通过 JVM 参数或配置文件启用 SafeMode。",
+  "score": 9,
+  "tags": [
+    "Fastjson",
+    "RCE",
+    "Security",
+    "Vulnerability",
+    "JSON"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/k_firsov/status/2078872293745570032",
+  "originalSite": "x.com",
+  "context": "Fastjson 是阿里巴巴开发的 Java 高性能 JSON 库。反序列化漏洞通常依赖于“gadget 链”——即 classpath 中可利用的类序列，在反序列化时被触发来执行任意代码。Fastjson 1.x 的 autoType 功能可能被滥用，而 SafeMode（自 1.2.68 引入）则完全禁用 autoType 以防止此类攻击。1.x 分支自 2024 年 10 月起已停止维护。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Serialization and deserialization in Java | Snyk Blog | Snyk",
+      "url": "https://snyk.io/blog/serialization-and-deserialization-in-java/"
+    },
+    {
+      "title": "fastjson _ safemode _en · alibaba/ fastjson Wiki · GitHub",
+      "url": "https://github.com/alibaba/fastjson/wiki/fastjson_safemode_en"
+    },
+    {
+      "title": "Fastjson &lt;= 1.2.80 Deserialization Remote Code Execution...",
+      "url": "https://www.huaweicloud.com/eu/notice/20220523153626935.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

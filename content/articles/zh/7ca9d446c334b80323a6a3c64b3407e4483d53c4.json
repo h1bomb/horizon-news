@@ -1,0 +1,45 @@
+{
+  "id": "7ca9d446c334b80323a6a3c64b3407e4483d53c4",
+  "canonicalId": "2b4b6588b1d698bc8304bd78468a4c194bfaa409",
+  "slug": "arxiv-上-ai-写作激增的测量揭示了检测缺陷",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T16:36:00Z",
+  "lang": "zh",
+  "title": "arXiv 上 AI 写作激增的测量揭示了检测缺陷",
+  "summary": "该研究分析了 2021 年至 2026 年间 arXiv 上的 12,750 篇论文，发现到 2026 年 1 月，39%的论文被标记为 AI 撰写，其中计算机科学领域高达 65%。检测器经过调校以最小化误报，显示了 ChatGPT 发布后的激增。 这引发了关于学术诚信和 AI 检测工具可靠性的严重担忧，因为该研究本身承认检测存在偏差，甚至对 LLM 时代之前的人类撰写文本也可能产生误报。 该检测器结合了三种评分方法，但未发布源代码，导致难以复现。社区使用 2011 年前的论文进行测试显示高误报率，例如一篇 2011 年的论文被标记为 27%机器撰写，2012 年的博士论文被标记为 40%。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "arXiv",
+    "academic integrity",
+    "LLM detection",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dopamine\\_daddy",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48981206"
+    }
+  ],
+  "originalUrl": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+  "originalSite": "unslop.run",
+  "context": "AI 文本检测器通常分析词汇重复、均匀性等模式，并与已知 AI 输出进行对比。然而，这些方法可能对非母语者或正式学术写作存在偏见，近期研究表明检测器常将人类文本误判为 AI 生成（误报）。arXiv 研究强调了这些局限性，尤其是应用于结构化和客观的科学论文时。",
+  "discussion": "评论者对检测准确性表示怀疑，有人上传了 LLM 时代之前的论文却得到高机器撰写分数，表明存在偏见。其他人指出缺乏开源代码，并讨论了企业中使用 LLM 的博弈论动态，质疑检测到的增长是否反映了真实的 AI 写作，还是写作风格为规避检测而改变。",
+  "references": [
+    {
+      "title": "Wikipedia:Signs of AI writing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    },
+    {
+      "title": "How Do AI Detectors Work? Key Methods and Limitations | Grammarly",
+      "url": "https://www.grammarly.com/blog/ai/how-do-ai-detectors-work/"
+    },
+    {
+      "title": "Bias Detection in LLM Outputs: Statistical Approaches - MachineLearningMastery.com",
+      "url": "https://machinelearningmastery.com/bias-detection-in-llm-outputs-statistical-approaches/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "9ef9b0ca5eafccf849263007fab2f61fa19fea98",
+  "canonicalId": "d8ed319939f5c0ae5dfc2f30e271e3740f7a3e77",
+  "slug": "hugging-face-discloses-ai-agent-driven-security-incident",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T10:41:00Z",
+  "lang": "en",
+  "title": "Hugging Face Discloses AI Agent-Driven Security Incident",
+  "summary": "Hugging Face revealed a security breach in July 2026 where an autonomous AI agent framework exploited two code execution vulnerabilities in its dataset processing pipeline, stealing internal credentials and data. The company noted that commercial large model APIs initially refused to assist with forensic log analysis due to safety guardrails, forcing the team to use a locally deployed GLM 5.2 model to analyze over 17,000 attack records. This incident is significant because it demonstrates a novel attack vector driven by autonomous AI agents, highlighting the evolving threat landscape. It also exposes a critical limitation of commercial LLM APIs—safety guardrails can hinder legitimate security investigations—underscoring the need for models that balance safety and usability in incident response. The attack occurred over a weekend, performed tens of thousands of operations, and laterally moved across multiple internal clusters. Hugging Face confirmed that public models, datasets, and Spaces were not tampered with, and the software supply chain was verified as clean.",
+  "score": 8,
+  "tags": [
+    "安全事件",
+    "AI安全",
+    "Hugging Face",
+    "智能体攻击",
+    "漏洞利用"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/blog/security-incident-july-2026",
+  "originalSite": "huggingface.co",
+  "context": "Hugging Face is a popular platform for hosting machine learning models, datasets, and demo applications \\(Spaces\\). An AI agent is an autonomous system that can plan and execute tasks to achieve goals, and in this case, it was used to carry out the attack. LLM safety guardrails are built-in mechanisms in commercial models designed to prevent misuse, but they can also block legitimate forensic queries, as seen here.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GLM 5.2",
+      "url": "https://en.wikipedia.org/wiki/GLM_5.2"
+    },
+    {
+      "title": "zai-org/GLM-5.2 · Hugging Face",
+      "url": "https://huggingface.co/zai-org/GLM-5.2"
+    },
+    {
+      "title": "全 面 LLM 安 全 指南：解读 AI 法规与 LLM 安 全 最佳实践",
+      "url": "https://www.testwo.com/article/2125"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

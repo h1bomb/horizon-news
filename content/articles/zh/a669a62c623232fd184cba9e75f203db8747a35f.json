@@ -1,0 +1,40 @@
+{
+  "id": "a669a62c623232fd184cba9e75f203db8747a35f",
+  "canonicalId": "51f9e12e580038334f1e0f52603668d033894811",
+  "slug": "本汤普森提议美国立法以增强开放-ai-模型对抗中国",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T17:09:00Z",
+  "lang": "zh",
+  "title": "本·汤普森提议美国立法以增强开放 AI 模型对抗中国",
+  "summary": "该提案解决了 AI 实验室在未授权数据上训练却禁止蒸馏的虚伪问题，并可能为美国开放模型在与日益强大的中国开放权重模型（如 Qwen 3.8 Max）的竞争中创造公平环境。 汤普森还推测，阿里巴巴决定以开放权重形式发布 2.4 万亿参数的 Qwen 3.8 Max，可能受到了习近平最近鼓励开源讲话的影响。该模型的大小接近 Kimi K3 的 2.8 万亿参数。",
+  "score": 8,
+  "tags": [
+    "AI policy",
+    "open source",
+    "model distillation",
+    "Chinese AI",
+    "copyright"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "模型蒸馏是一种将知识从大模型转移到小模型的技术，通常通过 API 查询实现，也可能被非法用于提取模型能力。开放权重模型公开其训练参数，有助于进一步创新但也可能被滥用。版权合理使用允许在未经许可的情况下使用受版权保护的材料用于研究等目的，但其对 AI 训练数据的适用性在法律上存在争议。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model distillation",
+      "url": "https://en.wikipedia.org/wiki/Model_distillation"
+    },
+    {
+      "title": "Open Weights: not quite what you’ve been told",
+      "url": "https://opensource.org/ai/open-weights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

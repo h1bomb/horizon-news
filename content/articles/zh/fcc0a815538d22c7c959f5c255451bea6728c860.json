@@ -1,0 +1,44 @@
+{
+  "id": "fcc0a815538d22c7c959f5c255451bea6728c860",
+  "canonicalId": "d8ed319939f5c0ae5dfc2f30e271e3740f7a3e77",
+  "slug": "hugging-face-披露-ai-智能体驱动的安全事件",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T10:41:00Z",
+  "lang": "zh",
+  "title": "Hugging Face 披露 AI 智能体驱动的安全事件",
+  "summary": "Hugging Face 披露了 2026 年 7 月的一次安全事件，一个自主 AI 智能体框架利用其数据集处理流程中的两处代码执行漏洞，窃取了内部凭证和数据。公司指出，商业大模型 API 因安全护栏最初拒绝协助取证日志分析，团队转而使用本地部署的 GLM 5.2 模型分析了超过 1.7 万条攻击记录。 这起事件意义重大，因为它展示了一种由自主 AI 智能体驱动的新型攻击手段，凸显了不断演变的威胁态势。同时，它也暴露了商业大模型 API 的一个关键局限——安全护栏可能阻碍合法的安全调查，强调了在事件响应中需要平衡安全与可用性的模型。 攻击发生在周末期间，执行了数万次操作，并在多个内部集群间横向移动。Hugging Face 确认面向公众的模型、数据集及 Spaces 未被篡改，软件供应链经核查无异常。",
+  "score": 8,
+  "tags": [
+    "安全事件",
+    "AI安全",
+    "Hugging Face",
+    "智能体攻击",
+    "漏洞利用"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/blog/security-incident-july-2026",
+  "originalSite": "huggingface.co",
+  "context": "Hugging Face 是一个流行的机器学习模型、数据集和演示应用（Spaces）托管平台。AI 智能体是一种能够自主规划并执行任务以实现目标的系统，在此次事件中被用于实施攻击。LLM 安全护栏是商业模型中内置的机制，旨在防止滥用，但也可能像此次事件那样阻止合法的取证查询。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GLM 5.2",
+      "url": "https://en.wikipedia.org/wiki/GLM_5.2"
+    },
+    {
+      "title": "zai-org/GLM-5.2 · Hugging Face",
+      "url": "https://huggingface.co/zai-org/GLM-5.2"
+    },
+    {
+      "title": "全 面 LLM 安 全 指南：解读 AI 法规与 LLM 安 全 最佳实践",
+      "url": "https://www.testwo.com/article/2125"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

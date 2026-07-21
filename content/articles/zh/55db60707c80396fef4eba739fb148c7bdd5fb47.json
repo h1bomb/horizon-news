@@ -1,0 +1,41 @@
+{
+  "id": "55db60707c80396fef4eba739fb148c7bdd5fb47",
+  "canonicalId": "200e3b77016e281ebbd6bbaa1e39dfc11a694197",
+  "slug": "ai-在寻找反例上超越数学家",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T19:03:00Z",
+  "lang": "zh",
+  "title": "AI 在寻找反例上超越数学家",
+  "summary": "一篇博客文章指出，AI 工具越来越多地能够为数学猜想提供反例，从而节省数学家的时间并改变研究方向。 这一发展代表了 AI 主动参与数学发现的范式转变，可能加速研究进程，并避免在错误猜想上浪费精力。 文章强调，包括大语言模型和 Lean 等形式化证明助手在内的 AI，现在能够发现人类可能忽略的反例，甚至针对长期存在的猜想。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "mathematics",
+    "counterexamples",
+    "machine learning",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "artninja1988",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48983382"
+    }
+  ],
+  "originalUrl": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+  "originalSite": "xenaproject.wordpress.com",
+  "context": "数学猜想是指被认为正确但尚未证明的命题。找到反例可以推翻猜想，这历来需要人类的洞察力。AI 现在能够利用机器学习和自动推理，系统地搜索数学空间以寻找此类反例。",
+  "discussion": "评论普遍欢迎这一趋势，指出这能避免研究人员在错误猜想上浪费时间，如张益唐的轶事所示。有人诗意地反思人类主导地位的丧失，引用《约翰·亨利之歌》，而另一些人则希望自己求学时就有基于 LLM 的形式化工具来检测错误。",
+  "references": [
+    {
+      "title": "[2306.07277] Mathematical conjecture generation using machine intelligence",
+      "url": "https://arxiv.org/abs/2306.07277"
+    },
+    {
+      "title": "Workshop on Machine Learning and Mathematical Conjecture - Harvard Math",
+      "url": "https://www.math.harvard.edu/event/workshop-on-machine-learning-and-mathematical-conjecture/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

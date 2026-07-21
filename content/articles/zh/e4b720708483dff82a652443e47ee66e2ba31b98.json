@@ -1,0 +1,41 @@
+{
+  "id": "e4b720708483dff82a652443e47ee66e2ba31b98",
+  "canonicalId": "2dadc2dd59af8b2ea559d47d68a4cbb43f2c4b94",
+  "slug": "中国开放权重-ai-策略正在胜出",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T14:21:00Z",
+  "lang": "zh",
+  "title": "中国开放权重 AI 策略正在胜出",
+  "summary": "一篇文章指出，中国开放权重的 AI 模型凭借更低的成本和更广泛的采用，正在击败美国的专有模型，挑战 OpenAI 的 GPT 等闭源 AI 的主导地位。 这一趋势可能使先进 AI 的获取民主化，让初创公司和研究人员无需巨额预算即可创新，并可能将全球 AI 平衡从美国科技巨头手中转移。 开放权重模型并非完全开源；它们允许用户下载和修改训练后的权重，但许可条款各异。社区评论中对“80%初创公司使用中国模型”的说法存在争议。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "open-weights",
+    "China",
+    "open-source",
+    "AI strategy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "benwerd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48979269"
+    }
+  ],
+  "originalUrl": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+  "originalSite": "werd.io",
+  "context": "开放权重 AI 模型是指其训练后的神经网络权重公开可下载和改编，与仅通过 API 访问的专有模型相对。这降低了开发者针对特定任务微调模型的门槛。中国已发布了众多此类模型，包括阿里巴巴的 Qwen 和百度的 ERNIE，与 Meta 的 Llama 等美国开放权重模型竞争。",
+  "discussion": "评论者指出历史模式显示免费/低端产品最终占据主导，如个人电脑击败小型机、Linux 击败 Unix。一些人对 80%的数据表示怀疑，称他们接触的初创公司主要使用美国模型。其他人澄清开放权重不等于开源，但能显著降低成本。",
+  "references": [
+    {
+      "title": "What is an Open - Weights Model ? | AI 21",
+      "url": "https://www.ai21.com/glossary/open-weights-model/"
+    },
+    {
+      "title": "Open Weights and Their Impact on Innovation",
+      "url": "https://www.linkedin.com/top-content/innovation/open-innovation-models/open-weights-and-their-impact-on-innovation/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "9e59b4abbcb3053b5c115eae7c637eb9c81c3c5d",
+  "canonicalId": "4675dab568bb692ee903f977a50e6b5b68f481c9",
+  "slug": "sam-altman-reveals-openaix27s-local-gpt-3-plan",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T03:47:00Z",
+  "lang": "en",
+  "title": "Sam Altman Reveals OpenAI&\\#x27;s Local GPT-3 Plan",
+  "summary": "A leaked email from Sam Altman to OpenAI&\\#x27;s board, dated October 1, 2022 and revealed in the 2026 Musk v. Altman trial, details OpenAI&\\#x27;s plan to release a language model with GPT-3-level capability that can run locally on consumer hardware. This disclosure provides rare insight into OpenAI&\\#x27;s strategic thinking regarding open-source competition, revealing that the company considered releasing a local model specifically to preempt rivals like Stability AI and discourage new funding efforts. The model would be approximately as capable as GPT-3 and run on consumer hardware, making it accessible without cloud dependency. Altman stated the goal was to release it soon, before Stability AI or others could release similar models.",
+  "score": 8,
+  "tags": [
+    "ai-ethics",
+    "sam-altman",
+    "generative-ai",
+    "open-source-strategy"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "GPT-3 is a large language model with 175 billion parameters, known for its strong text generation capabilities, but it typically requires powerful cloud infrastructure. Running such a model locally on consumer devices would require significant optimization, such as quantization or distillation. Stability AI is a UK-based company famous for Stable Diffusion, an open-source image generation model, and has been expanding into other AI domains, making them a competitor in open-source AI models.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Stability AI",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI"
+    },
+    {
+      "title": "openai/ gpt -oss-20b · Hugging Face",
+      "url": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    {
+      "title": "Easily Create Your Own Local GPT for Free | by Johannes... | Medium",
+      "url": "https://medium.com/ai-by-johannes/easily-create-your-own-local-gpt-for-free-81f5323e9b3a"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

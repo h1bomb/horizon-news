@@ -1,0 +1,41 @@
+{
+  "id": "178f6038a5a23e1e8b1d993fc7fc91267ea93f5b",
+  "canonicalId": "200e3b77016e281ebbd6bbaa1e39dfc11a694197",
+  "slug": "ai-outpaces-mathematicians-in-finding-counterexamples",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T19:03:00Z",
+  "lang": "en",
+  "title": "AI Outpaces Mathematicians in Finding Counterexamples",
+  "summary": "A blog post reports that AI tools are increasingly generating counterexamples to mathematical conjectures, saving mathematicians time and altering research directions. This development represents a paradigm shift where AI actively contributes to mathematical discovery, potentially accelerating research and preventing wasted effort on false conjectures. The article highlights that AI, including large language models and formal proof assistants like Lean, can now find counterexamples that humans might overlook, even for longstanding conjectures.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "mathematics",
+    "counterexamples",
+    "machine learning",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "artninja1988",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48983382"
+    }
+  ],
+  "originalUrl": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+  "originalSite": "xenaproject.wordpress.com",
+  "context": "A mathematical conjecture is a statement believed to be true but unproven. Finding a counterexample disproves the conjecture, which historically required human insight. AI can now systematically search mathematical spaces for such counterexamples, leveraging machine learning and automated reasoning.",
+  "discussion": "Comments largely welcome the trend, noting it saves researchers from pursuing false conjectures, as seen in the anecdote about Yitang Zhang. Some reflect on the poetic loss of human primacy, referencing &\\#x27;The Ballad of John Henry&\\#x27;, while others wish LLM-based formalizations had been available during their studies for error detection.",
+  "references": [
+    {
+      "title": "[2306.07277] Mathematical conjecture generation using machine intelligence",
+      "url": "https://arxiv.org/abs/2306.07277"
+    },
+    {
+      "title": "Workshop on Machine Learning and Mathematical Conjecture - Harvard Math",
+      "url": "https://www.math.harvard.edu/event/workshop-on-machine-learning-and-mathematical-conjecture/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "0c2df7d9187bda570f9153cb8d31d6bf59a12f0a",
+  "canonicalId": "2b4b6588b1d698bc8304bd78468a4c194bfaa409",
+  "slug": "measuring-ai-writing-surge-on-arxiv-reveals-detection-flaws",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T16:36:00Z",
+  "lang": "en",
+  "title": "Measuring AI Writing Surge on arXiv Reveals Detection Flaws",
+  "summary": "The study analyzed 12,750 arXiv papers from 2021 to 2026 and found that by January 2026, 39% of papers were flagged as AI-written, with computer science peaking at 65%. The detector was tuned to minimize false positives, showing a dramatic increase post-ChatGPT. This raises serious concerns about academic integrity and the reliability of AI detection tools, as the study itself admits detection biases and potential false positives even for pre-LLM human-written texts. The detector combined three separate scoring methods, but no source code was released, making reproducibility difficult. Community tests with pre-2011 papers showed high false positive rates, e.g., a 2011 paper flagged 27% machine, and a 2012 PhD thesis flagged 40%.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "arXiv",
+    "academic integrity",
+    "LLM detection",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dopamine\\_daddy",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48981206"
+    }
+  ],
+  "originalUrl": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+  "originalSite": "unslop.run",
+  "context": "AI text detectors typically analyze patterns like word repetition, uniformity, and comparison to known AI outputs. However, these methods can be biased against non-native speakers or formal academic writing, and recent studies show detectors often misclassify human text as AI-generated \\(false positives\\). The arXiv study highlights these limitations, especially when applied to scientific papers that are naturally structured and objective.",
+  "discussion": "Commenters expressed skepticism about detection accuracy, with some uploading pre-LLM papers and receiving high machine-written scores, suggesting bias. Others noted the lack of open-source code and the game theory dynamics in corporate LLM usage, questioning if the detected increase reflects actual AI writing or changes in writing style to avoid detection.",
+  "references": [
+    {
+      "title": "Wikipedia:Signs of AI writing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    },
+    {
+      "title": "How Do AI Detectors Work? Key Methods and Limitations | Grammarly",
+      "url": "https://www.grammarly.com/blog/ai/how-do-ai-detectors-work/"
+    },
+    {
+      "title": "Bias Detection in LLM Outputs: Statistical Approaches - MachineLearningMastery.com",
+      "url": "https://machinelearningmastery.com/bias-detection-in-llm-outputs-statistical-approaches/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

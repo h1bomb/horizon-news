@@ -1,0 +1,32 @@
+{
+  "id": "e8d3a1efa3e28907b8010b716d5fd7bbbd356839",
+  "canonicalId": "be91d075e957b8bf00991bb81d5c8dfdb5bd364b",
+  "slug": "黑客清除罗马尼亚土地登记数据库",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T13:28:00Z",
+  "lang": "zh",
+  "title": "黑客清除罗马尼亚土地登记数据库",
+  "summary": "一名黑客清除了罗马尼亚整个土地登记数据库，但官方声称离线备份可能保存了关键数据。 此事件可能破坏土地所有权证明和房地产交易，如果备份失败，将影响数百万罗马尼亚人。 黑客疑似来自阿尔及利亚的 Zakaria Mahdjoub。该机构正在将其应用程序迁移到罗马尼亚政府云，由特别电信服务局（STS）协调。",
+  "score": 9,
+  "tags": [
+    "cybersecurity",
+    "database",
+    "government infrastructure",
+    "incident response",
+    "Romania"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48978605"
+    }
+  ],
+  "originalUrl": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
+  "originalSite": "news.risky.biz",
+  "context": "土地登记数据库包含土地所有权、边界和交易的法律记录。丢失此类数据可能导致法律混乱和经济混乱。罗马尼亚的离线备份可能防止最坏情况发生。",
+  "discussion": "评论指出政府 IT 合同中的腐败可能导致安全性差。一些人对存在离线备份表示庆幸，另一些人则注意到其他地方类似事件，如韩国数据中心火灾。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

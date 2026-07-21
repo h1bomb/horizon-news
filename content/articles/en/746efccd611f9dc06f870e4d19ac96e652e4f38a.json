@@ -1,0 +1,44 @@
+{
+  "id": "746efccd611f9dc06f870e4d19ac96e652e4f38a",
+  "canonicalId": "ce0f0dac34e1ff9e003579d07154e8f382af79a3",
+  "slug": "study-finds-chinese-and-russian-code-in-us-military-apps",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T13:42:00Z",
+  "lang": "en",
+  "title": "Study finds Chinese and Russian code in US military apps",
+  "summary": "Researchers from Purdue University found that nearly two-thirds of 220+ apps marketed to US military personnel contain third-party code from China, Russia, and other nations, including the Huawei SDK. This poses a national security risk as third-party code can be remotely updated to spyware, potentially compromising sensitive military personnel data and locations. The Huawei SDK was found in at least one case smuggled as a dependency without the developer&\\#x27;s knowledge. While no data transfer to Huawei servers was observed, the code can be activated remotely.",
+  "score": 8,
+  "tags": [
+    "mobile security",
+    "supply chain risk",
+    "national security",
+    "third-party code",
+    "surveillance"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code/",
+  "originalSite": "wired.com",
+  "context": "Mobile apps often include third-party SDKs for functions like analytics. However, SDKs from adversarial nations can introduce supply chain risks. The US Department of Defense has previously reported surveillance via commercial location data.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Apps Marketed to US Troops Are Shipping Chinese and Russian Code | WIRED",
+      "url": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code/"
+    },
+    {
+      "title": "Five Supply Chain Security Risks Hiding Inside Your Mobile Apps | SupplyChainBrain",
+      "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/44053-five-supply-chain-security-risks-hiding-inside-your-mobile-apps"
+    },
+    {
+      "title": "Mobile App Security Risks: The Hidden Supply Chain Threat",
+      "url": "https://www.corellium.com/blog/mobile-app-supply-chain-security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

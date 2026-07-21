@@ -1,0 +1,40 @@
+{
+  "id": "ac832b34717f851cf6ed0aadf416d8e12686643b",
+  "canonicalId": "51f9e12e580038334f1e0f52603668d033894811",
+  "slug": "ben-thompson-proposes-us-law-to-boost-open-ai-models-vs-china",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T17:09:00Z",
+  "lang": "en",
+  "title": "Ben Thompson Proposes US Law to Boost Open AI Models vs China",
+  "summary": "Ben Thompson proposed that the US should pass a law making training data collection fair use and banning terms of service that forbid model distillation, to help US open models compete with Chinese counterparts. This proposal addresses the hypocrisy of AI labs that ban distillation while training on unlicensed data, and could level the playing field for US open models against increasingly capable Chinese open-weight models like Qwen 3.8 Max. Thompson also speculates that Alibaba&\\#x27;s decision to release the 2.4 trillion parameter Qwen 3.8 Max as open weights may have been influenced by Xi Jinping&\\#x27;s recent speech encouraging open source. The model is nearly as large as Kimi K3&\\#x27;s 2.8 trillion parameters.",
+  "score": 8,
+  "tags": [
+    "AI policy",
+    "open source",
+    "model distillation",
+    "Chinese AI",
+    "copyright"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Model distillation transfers knowledge from a large model to a smaller one, often via API queries, and can be used illicitly to extract a model&\\#x27;s capabilities. Open-weights models make their trained parameters publicly available, enabling further innovation but also potential misuse. Fair use in copyright law allows use of copyrighted material without permission for purposes like research, but its application to AI training data is legally contested.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Model distillation",
+      "url": "https://en.wikipedia.org/wiki/Model_distillation"
+    },
+    {
+      "title": "Open Weights: not quite what you’ve been told",
+      "url": "https://opensource.org/ai/open-weights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

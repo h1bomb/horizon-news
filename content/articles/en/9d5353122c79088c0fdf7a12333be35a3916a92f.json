@@ -1,0 +1,44 @@
+{
+  "id": "9d5353122c79088c0fdf7a12333be35a3916a92f",
+  "canonicalId": "21716834c1377d6a600f2a24e27dbf6f7a0d23d8",
+  "slug": "fastjson-1x-critical-rce-no-gadget-needed",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T14:32:00Z",
+  "lang": "en",
+  "title": "Fastjson 1.x Critical RCE No Gadget Needed",
+  "summary": "A critical remote code execution vulnerability has been disclosed in Fastjson versions 1.2.68 through 1.2.83, which does not require enabling autoType or any classpath gadget chains and is exploitable on JDK 8, 17, and 21. This vulnerability is critical because Fastjson is widely used in Java applications, especially in the Chinese tech ecosystem, and the 1.x branch is end-of-life with no official patches, forcing users to upgrade to Fastjson2 or enable SafeMode to mitigate the risk. The vulnerability does not require autoType support or any specific gadgets in the classpath, which lowers the exploitation barrier significantly; the only mitigations are upgrading to Fastjson2 or enabling SafeMode via JVM parameters or configuration files.",
+  "score": 9,
+  "tags": [
+    "Fastjson",
+    "RCE",
+    "Security",
+    "Vulnerability",
+    "JSON"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/k_firsov/status/2078872293745570032",
+  "originalSite": "x.com",
+  "context": "Fastjson is a high-performance JSON library for Java developed by Alibaba. Deserialization vulnerabilities often rely on &\\#x27;gadget chains&\\#x27;—sequences of classes available in the classpath that can be triggered during deserialization to execute arbitrary code. Fastjson 1.x had autoType support that could be abused, and SafeMode \\(introduced in 1.2.68\\) completely disables autoType to prevent such attacks. The 1.x branch has been end-of-life since October 2024.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Serialization and deserialization in Java | Snyk Blog | Snyk",
+      "url": "https://snyk.io/blog/serialization-and-deserialization-in-java/"
+    },
+    {
+      "title": "fastjson _ safemode _en · alibaba/ fastjson Wiki · GitHub",
+      "url": "https://github.com/alibaba/fastjson/wiki/fastjson_safemode_en"
+    },
+    {
+      "title": "Fastjson &lt;= 1.2.80 Deserialization Remote Code Execution...",
+      "url": "https://www.huaweicloud.com/eu/notice/20220523153626935.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

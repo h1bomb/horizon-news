@@ -1,0 +1,44 @@
+{
+  "id": "0fb61e420038a5d86141eedb05c6c9b1a9cc68e4",
+  "canonicalId": "ce0f0dac34e1ff9e003579d07154e8f382af79a3",
+  "slug": "研究发现在美军应用中发现中俄代码",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T13:42:00Z",
+  "lang": "zh",
+  "title": "研究发现在美军应用中发现中俄代码",
+  "summary": "普渡大学研究人员发现，面向美军推广的 220 多款应用中近三分之二嵌入了来自中国、俄罗斯等国的第三方代码，包括华为 SDK。 第三方代码可远程更新为间谍软件，可能危及美军人员敏感数据和位置信息，构成国家安全风险。 在至少一个案例中，华为 SDK 作为依赖项被偷偷嵌入，开发人员不知情。尽管未观察到数据传输至华为服务器，但代码可被远程激活。",
+  "score": 8,
+  "tags": [
+    "mobile security",
+    "supply chain risk",
+    "national security",
+    "third-party code",
+    "surveillance"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code/",
+  "originalSite": "wired.com",
+  "context": "移动应用常集成第三方 SDK 用于分析等功能，但来自敌对国家的 SDK 可能引入供应链风险。美国国防部此前曾报告利用商业位置数据进行监视的情况。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Apps Marketed to US Troops Are Shipping Chinese and Russian Code | WIRED",
+      "url": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code/"
+    },
+    {
+      "title": "Five Supply Chain Security Risks Hiding Inside Your Mobile Apps | SupplyChainBrain",
+      "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/44053-five-supply-chain-security-risks-hiding-inside-your-mobile-apps"
+    },
+    {
+      "title": "Mobile App Security Risks: The Hidden Supply Chain Threat",
+      "url": "https://www.corellium.com/blog/mobile-app-supply-chain-security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

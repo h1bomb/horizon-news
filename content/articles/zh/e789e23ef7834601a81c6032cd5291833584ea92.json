@@ -1,0 +1,43 @@
+{
+  "id": "e789e23ef7834601a81c6032cd5291833584ea92",
+  "canonicalId": "4675dab568bb692ee903f977a50e6b5b68f481c9",
+  "slug": "山姆奥特曼披露-openai-本地-gpt-3-计划",
+  "date": "2026-07-20",
+  "publishedAt": "2026-07-20T03:47:00Z",
+  "lang": "zh",
+  "title": "山姆·奥特曼披露 OpenAI 本地 GPT-3 计划",
+  "summary": "一份山姆·奥特曼在 2022 年 10 月 1 日发给 OpenAI 董事会的邮件被泄露，并在 2026 年马斯克诉奥特曼案中曝光，邮件详细说明了 OpenAI 计划发布一个能力接近 GPT-3 级别、可在消费硬件上本地运行的语言模型。 这一披露提供了对 OpenAI 在开源竞争方面战略思考的罕见洞察，显示该公司曾考虑发布本地模型，专门用于抢先于 Stability AI 等竞争对手，并抑制新项目的融资。 该模型的能力将接近 GPT-3，并可在消费硬件上运行，无需依赖云端。奥特曼表示目标是尽快发布，抢在 Stability AI 或其他公司推出类似模型之前。",
+  "score": 8,
+  "tags": [
+    "ai-ethics",
+    "sam-altman",
+    "generative-ai",
+    "open-source-strategy"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "GPT-3 是一个拥有 1750 亿参数的大型语言模型，以其强大的文本生成能力而闻名，但通常需要强大的云端基础设施。要在消费设备上本地运行这样的模型，需要进行大量优化，如量化或蒸馏。Stability AI 是一家英国公司，以开源图像生成模型 Stable Diffusion 闻名，并已扩展到其他 AI 领域，使其成为开源 AI 模型的竞争对手。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Stability AI",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI"
+    },
+    {
+      "title": "openai/ gpt -oss-20b · Hugging Face",
+      "url": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    {
+      "title": "Easily Create Your Own Local GPT for Free | by Johannes... | Medium",
+      "url": "https://medium.com/ai-by-johannes/easily-create-your-own-local-gpt-for-free-81f5323e9b3a"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
