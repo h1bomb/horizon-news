@@ -1,0 +1,45 @@
+{
+  "id": "3871e9e01023b564680b15039aeca38288f5689e",
+  "canonicalId": "bc5044b5fd75e2f3e3c8d5721df81701b59aa71a",
+  "slug": "apple-defeats-liability-for-not-scanning-icloud-for-csam",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T14:31:00Z",
+  "lang": "en",
+  "title": "Apple defeats liability for not scanning iCloud for CSAM",
+  "summary": "A court ruled that Apple is not liable for failing to scan iCloud for child sexual abuse material \\(CSAM\\), despite the judge expressing discomfort with the outcome. This ruling sets a precedent that may influence how tech companies balance user privacy with obligations to combat illegal content, and it underscores the legal challenges in enforcing CSAM detection without compromising encryption. The case, Amy v. Apple, involved claims that Apple&\\#x27;s failure to scan iCloud enabled the spread of CSAM. The judge noted that while the outcome is disturbing, current laws do not impose such liability on tech platforms. Apple had previously abandoned a controversial client-side scanning system for CSAM.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "Apple",
+    "CSAM",
+    "encryption",
+    "tech policy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48992870"
+    }
+  ],
+  "originalUrl": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+  "originalSite": "blog.ericgoldman.org",
+  "context": "Child sexual abuse material \\(CSAM\\) refers to sexually explicit images and videos of minors. In 2021, Apple announced a system to scan iCloud photos for known CSAM using on-device matching, but faced significant privacy backlash and ultimately abandoned the plan. End-to-end encryption prevents any third party, including the service provider, from accessing content, making scanning impossible without breaking encryption.",
+  "discussion": "Commenters expressed mixed views: some argued that focusing on CSAM detection after abuse occurs is insufficient, and that more should be done to prevent actual abuse. Others defended Apple&\\#x27;s privacy stance, noting that end-to-end encryption inherently prevents scanning. A commenter also questioned the feasibility of true end-to-end encryption when the application is controlled by the company.",
+  "references": [
+    {
+      "title": "What is CSAM ? Why It’s Critical for Platforms to Detect, Prevent, and...",
+      "url": "https://www.cometchat.com/blog/what-is-csam"
+    },
+    {
+      "title": "Apple&#x27;s Decision to Kill Its CSAM Photo-Scanning Tool Sparks Fresh Controversy | WIRED",
+      "url": "https://www.wired.com/story/apple-csam-scanning-heat-initiative-letter/"
+    },
+    {
+      "title": "The Apple Client-Side Scanning System | Lawfare",
+      "url": "https://www.lawfaremedia.org/article/apple-client-side-scanning-system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

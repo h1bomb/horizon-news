@@ -1,0 +1,44 @@
+{
+  "id": "e07d99ea5ea533b03e8b4ffc50351c8ddb10b353",
+  "canonicalId": "76f5ee34f0b4e7d40dbb339eb8d63a385639d0c4",
+  "slug": "google-develops-x27frozen-v2x27-ai-chip-with-hardwired-gemini-capabilities",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T01:01:00Z",
+  "lang": "en",
+  "title": "Google develops &\\#x27;Frozen v2&\\#x27; AI chip with hardwired Gemini capabilities",
+  "summary": "Google is reportedly developing a new AI server chip, internally codenamed &\\#x27;Frozen v2,&\\#x27; that hard-codes parts of the Gemini model architecture directly into silicon, aiming to deliver six to ten times more tokens per watt than its latest TPUs by 2028. This chip could dramatically improve inference efficiency, reducing power costs and easing internal compute shortages that have limited Google Cloud&\\#x27;s ability to serve some enterprise customers. It signals a shift toward domain-specific AI hardware as transformer architectures stabilize. Frozen v2 is designed to complement, not replace, Google&\\#x27;s TPU lineup, and is targeted for deployment in 2028. The chip permanently embeds portions of Gemini&\\#x27;s architecture into silicon, a technique known as &\\#x27;hardwiring,&\\#x27; which eliminates data movement overhead.",
+  "score": 8,
+  "tags": [
+    "AI hardware",
+    "Gemini",
+    "TPU",
+    "Google",
+    "inference efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.quiverquant.com/news/Google+Reportedly+Developing+%E2%80%98Frozen+v2%E2%80%99+AI+Chip+to+Boost+Gemini+Efficiency",
+  "originalSite": "quiverquant.com",
+  "context": "Most AI models today run on general-purpose hardware like GPUs or specialized accelerators such as Google&\\#x27;s TPU, which are programmable and flexible. Hardwiring a model into silicon locks the architecture in place but offers extreme efficiency by removing the need to load weights from memory. This approach is gaining traction as models like Gemini \\(based on transformer architecture\\) mature, making hardware specialization viable.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Google is working on a new AI chip designed to make Gemini more efficient | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/"
+    },
+    {
+      "title": "Alphabet stock pops on report it&#x27;s developing a more efficient AI chip",
+      "url": "https://www.cnbc.com/2026/07/20/alphabet-googl-stock-ai-chip-report.html"
+    },
+    {
+      "title": "Google&#x27;s Frozen v2 Chip Hardwires Gemini Architecture: Up to Tenfold Inference Efficiency",
+      "url": "https://www.techtimes.com/articles/321152/20260721/googles-frozen-v2-chip-hardwires-gemini-architecture-tenfold-inference-efficiency.htm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

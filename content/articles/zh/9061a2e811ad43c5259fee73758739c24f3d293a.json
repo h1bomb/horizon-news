@@ -1,0 +1,39 @@
+{
+  "id": "9061a2e811ad43c5259fee73758739c24f3d293a",
+  "canonicalId": "72097f626dd8746904d018c22f2da3cab00a749e",
+  "slug": "claude-code-团队透露claude-tag-处理-65的产品工程-pr",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T12:54:00Z",
+  "lang": "zh",
+  "title": "Claude Code 团队透露：Claude Tag 处理 65%的产品工程 PR",
+  "summary": "在 AI Engineer World&\\#x27;s Fair 的炉边谈话中，Anthropic 的 Claude Code 团队透露，Claude Tag 现在处理他们 65%的产品工程拉取请求。他们还分享了功能只有在内部用户留存得到验证后才会向用户发布。 这些内部指标罕见地揭示了 AI 辅助开发工具的创造者自身如何使用这些工具。这种内部使用文化和数据驱动的功能发布方式为其他构建 AI 编码代理的团队树立了标杆。 Claude Tag 是 Anthropic 新的协作式 Slack 集成，允许团队成员在频道中与同一个 AI 助手协作。Claude Code 团队还指出，对于 Fable 5 等模型，在系统提示中添加示例已不再是最佳实践，他们的系统提示大小减少了 80%。",
+  "score": 8,
+  "tags": [
+    "Claude Code",
+    "AI-assisted coding",
+    "developer tools",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Claude Code 是 Anthropic 开发的 AI 编码代理，在终端和 IDE 中运行，能够理解代码库、编辑文件并执行命令。Claude Tag 是一个基于 Slack 的新工具，使团队能够在对话中直接与 Claude 协作，具有共享上下文和自动检查等功能。&\\#x27;ant fooding&\\#x27;是 Anthropic 内部对&\\#x27;内部试用&\\#x27;（dogfooding）的俗称，即内部使用自己的产品。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Claude Tag \\ Anthropic",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag"
+    },
+    {
+      "title": "What is Claude Tag? | Claude Help Center",
+      "url": "https://support.claude.com/en/articles/15594475-what-is-claude-tag"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

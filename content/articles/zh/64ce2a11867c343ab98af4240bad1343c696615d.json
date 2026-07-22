@@ -1,0 +1,40 @@
+{
+  "id": "64ce2a11867c343ab98af4240bad1343c696615d",
+  "canonicalId": "ee07d4bde1d2c9859baa7042bd51a51c57fbbd26",
+  "slug": "cloudflare-内部-dns-正式全面上线",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T03:49:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 内部 DNS 正式全面上线",
+  "summary": "Cloudflare 于 2026 年 7 月 20 日宣布内部 DNS 服务正式全面上线，将公共 DNS、私有 DNS 与 Zero Trust 策略整合到同一平台。 这一举措简化了分割 DNS 的管理，并将 Zero Trust 安全策略扩展到 DNS 解析层面，从而降低了企业网络的复杂度。 该服务通过‘DNS 视图’根据用户或设备的来源提供不同的 DNS 响应，已使用 Cloudflare Gateway 的企业客户无需额外付费即可启用。",
+  "score": 8,
+  "tags": [
+    "Cloudflare",
+    "DNS",
+    "Zero Trust",
+    "Enterprise Networking",
+    "Security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/internal-dns/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "分割 DNS（也称为 split-view DNS）为内部和外部客户端提供不同的 DNS 信息。传统上，为内部和外部解析管理单独的 DNS 服务器或区域需要复杂的同步，容易导致数据漂移。Cloudflare 内部 DNS 将两者整合到一个控制平面，简化了配置。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Split-horizon DNS",
+      "url": "https://en.wikipedia.org/wiki/Split-horizon_DNS"
+    },
+    {
+      "title": "Managing DNS Views",
+      "url": "https://pitstop.manageengine.com/portal/en/kb/articles/managing-dns-views"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

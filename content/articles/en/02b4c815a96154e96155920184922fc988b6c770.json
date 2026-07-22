@@ -1,0 +1,40 @@
+{
+  "id": "02b4c815a96154e96155920184922fc988b6c770",
+  "canonicalId": "ee07d4bde1d2c9859baa7042bd51a51c57fbbd26",
+  "slug": "cloudflare-internal-dns-now-generally-available",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T03:49:00Z",
+  "lang": "en",
+  "title": "Cloudflare Internal DNS Now Generally Available",
+  "summary": "Cloudflare announced the general availability of Internal DNS on July 20, 2026, integrating public and private DNS with Zero Trust policies into a single platform. This simplifies split-horizon DNS management and extends Zero Trust security to DNS resolution, reducing complexity for enterprise networks. The service uses &\\#x27;DNS views&\\#x27; to serve different DNS responses based on user or device source, and existing Cloudflare Gateway customers can enable it at no extra cost.",
+  "score": 8,
+  "tags": [
+    "Cloudflare",
+    "DNS",
+    "Zero Trust",
+    "Enterprise Networking",
+    "Security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/internal-dns/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Split-horizon DNS \\(also known as split-view DNS\\) provides different DNS information to internal and external clients. Traditionally, managing separate DNS servers or zones for internal and external resolution required complex synchronization, often leading to data drift. Cloudflare Internal DNS consolidates both into one control plane, simplifying configuration.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Split-horizon DNS",
+      "url": "https://en.wikipedia.org/wiki/Split-horizon_DNS"
+    },
+    {
+      "title": "Managing DNS Views",
+      "url": "https://pitstop.manageengine.com/portal/en/kb/articles/managing-dns-views"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

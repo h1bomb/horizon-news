@@ -1,0 +1,44 @@
+{
+  "id": "153d806d25a280f4cfbbda14a5be9825745563cd",
+  "canonicalId": "f2a1bf222d6328cd2f3013f256741c5874f02650",
+  "slug": "laguna-s-21-powerful-new-ai-model-runs-on-consumer-hardware",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T17:17:00Z",
+  "lang": "en",
+  "title": "Laguna S 2.1: Powerful New AI Model Runs on Consumer Hardware",
+  "summary": "Poolside released Laguna S 2.1, a 118B-parameter Mixture-of-Experts model with 8B active parameters, achieving 70.2% on Terminal-Bench 2.1, matching DeepSeek V4 Flash and running on home hardware. This model bridges the gap between frontier AI coding assistants and locally runnable models, enabling developers to self-host high-quality code generation without cloud dependencies, improving privacy and reducing costs. Laguna S 2.1 uses an Mixture-of-Experts architecture with 118B total parameters but only 8B active per token, fitting on consumer GPUs with 48GB+ VRAM. It scored 40.4% on DeepSWE and is available on Ollama and in GGUF format for quantization.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "machine learning",
+    "LLM",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rexledesma",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48995261"
+    }
+  ],
+  "originalUrl": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+  "originalSite": "poolside.ai",
+  "context": "Large coding LLMs often require extensive cloud resources. Mixture-of-Experts \\(MoE\\) models reduce computation by activating only a subset of parameters per input. Terminal-Bench and DeepSWE are benchmarks for code agent and software engineering tasks. Poolside is a startup building AI for software development, aiming to achieve AGI for coding.",
+  "discussion": "The community is highly impressed, with users reporting performance rivaling DeepSeek V4 Flash and even GPT-5.2 on some tasks. One user already generated a useful pull request, and others are working on quantized versions to run on lower-memory hardware like 64GB systems.",
+  "references": [
+    {
+      "title": "Introducing Laguna S 2 . 1 — Poolside",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1"
+    },
+    {
+      "title": "Poolside: Laguna S 2 . 1 - Poolside - Model Price &amp; Provider... - LLM24",
+      "url": "https://llm24.net/model/laguna-s-2-1"
+    },
+    {
+      "title": "laguna - s - 2 . 1",
+      "url": "https://ollama.com/library/laguna-s-2.1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

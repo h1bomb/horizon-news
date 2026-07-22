@@ -1,6 +1,308 @@
 {
   "articles": [
     {
+      "id": "9c4b6121606ffd961d59a3b30f5ce8e3c7f5c0b3",
+      "canonicalId": "f2a1bf222d6328cd2f3013f256741c5874f02650",
+      "slug": "laguna-s-21可在消费级硬件上运行的新型强力-ai-模型",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "Laguna S 2.1：可在消费级硬件上运行的新型强力 AI 模型",
+      "score": 9,
+      "tags": [
+        "AI",
+        "machine learning",
+        "LLM",
+        "open source"
+      ],
+      "originalSite": "poolside.ai"
+    },
+    {
+      "id": "b1553c5220c4162bcf7cb58333bdee2f798c4f84",
+      "canonicalId": "20b0eb2d5c1499740c7eb0c94f0e2e59fcb04e9d",
+      "slug": "openai-与-hugging-face-回应-ai-模型安全事件",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "OpenAI 与 Hugging Face 回应 AI 模型安全事件",
+      "score": 8,
+      "tags": [
+        "AI Safety",
+        "Security",
+        "OpenAI",
+        "Hugging Face",
+        "Model Evaluation"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "2f45ae35c9a0ded008206773836f66b4f4d54d0c",
+      "canonicalId": "bc5044b5fd75e2f3e3c8d5721df81701b59aa71a",
+      "slug": "苹果因不扫描-icloud-的-csam-而免于法律责任",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "苹果因不扫描 iCloud 的 CSAM 而免于法律责任",
+      "score": 8,
+      "tags": [
+        "privacy",
+        "Apple",
+        "CSAM",
+        "encryption",
+        "tech policy"
+      ],
+      "originalSite": "blog.ericgoldman.org"
+    },
+    {
+      "id": "a595d4424957ead6cb010cf4bd1207a528367768",
+      "canonicalId": "901039d342003c3c26b2f5f8d79f32268d1575a1",
+      "slug": "欧盟法院裁定-vpn-属于合法技术工具",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "欧盟法院裁定 VPN 属于合法技术工具",
+      "score": 8,
+      "tags": [
+        "VPN",
+        "copyright",
+        "EU law",
+        "privacy",
+        "internet regulation"
+      ],
+      "originalSite": "techradar.com"
+    },
+    {
+      "id": "9061a2e811ad43c5259fee73758739c24f3d293a",
+      "canonicalId": "72097f626dd8746904d018c22f2da3cab00a749e",
+      "slug": "claude-code-团队透露claude-tag-处理-65的产品工程-pr",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "Claude Code 团队透露：Claude Tag 处理 65%的产品工程 PR",
+      "score": 8,
+      "tags": [
+        "Claude Code",
+        "AI-assisted coding",
+        "developer tools",
+        "Anthropic"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "8ad85b558f09b6db879ac5783a0c3ac09086e883",
+      "canonicalId": "33cd8ab1f14af17d27828c4045d19d6ef429e6e1",
+      "slug": "内核社区讨论-llm-归属和伦理问题",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "内核社区讨论 LLM 归属和伦理问题",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "LLM",
+        "open source",
+        "AI in software development",
+        "community governance"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "4ad2f18a40c9098f077dce9a087a42d7713a9999",
+      "canonicalId": "76f5ee34f0b4e7d40dbb339eb8d63a385639d0c4",
+      "slug": "谷歌开发-x27frozen-v2x27-ai-芯片将-gemini-能力写入硬件",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "谷歌开发 &\\#x27;Frozen v2&\\#x27; AI 芯片，将 Gemini 能力写入硬件",
+      "score": 8,
+      "tags": [
+        "AI hardware",
+        "Gemini",
+        "TPU",
+        "Google",
+        "inference efficiency"
+      ],
+      "originalSite": "quiverquant.com"
+    },
+    {
+      "id": "64ce2a11867c343ab98af4240bad1343c696615d",
+      "canonicalId": "ee07d4bde1d2c9859baa7042bd51a51c57fbbd26",
+      "slug": "cloudflare-内部-dns-正式全面上线",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "Cloudflare 内部 DNS 正式全面上线",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "DNS",
+        "Zero Trust",
+        "Enterprise Networking",
+        "Security"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "40811e076d01fbbf8ee747403691aebbf5e4c38e",
+      "canonicalId": "1eefe73061835c76311a3f7a28f96af19163e657",
+      "slug": "台积电-2027-年起芯片涨价-5至-10",
+      "date": "2026-07-21",
+      "lang": "zh",
+      "title": "台积电 2027 年起芯片涨价 5%至 10%",
+      "score": 8,
+      "tags": [
+        "TSMC",
+        "semiconductor",
+        "chip pricing",
+        "manufacturing",
+        "industry news"
+      ],
+      "originalSite": "asia.nikkei.com"
+    },
+    {
+      "id": "153d806d25a280f4cfbbda14a5be9825745563cd",
+      "canonicalId": "f2a1bf222d6328cd2f3013f256741c5874f02650",
+      "slug": "laguna-s-21-powerful-new-ai-model-runs-on-consumer-hardware",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "Laguna S 2.1: Powerful New AI Model Runs on Consumer Hardware",
+      "score": 9,
+      "tags": [
+        "AI",
+        "machine learning",
+        "LLM",
+        "open source"
+      ],
+      "originalSite": "poolside.ai"
+    },
+    {
+      "id": "1b53232ec9f418e4fc88705365f4b392509f8513",
+      "canonicalId": "20b0eb2d5c1499740c7eb0c94f0e2e59fcb04e9d",
+      "slug": "openai-and-hugging-face-respond-to-ai-model-security-breach",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "OpenAI and Hugging Face Respond to AI Model Security Breach",
+      "score": 8,
+      "tags": [
+        "AI Safety",
+        "Security",
+        "OpenAI",
+        "Hugging Face",
+        "Model Evaluation"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "3871e9e01023b564680b15039aeca38288f5689e",
+      "canonicalId": "bc5044b5fd75e2f3e3c8d5721df81701b59aa71a",
+      "slug": "apple-defeats-liability-for-not-scanning-icloud-for-csam",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "Apple defeats liability for not scanning iCloud for CSAM",
+      "score": 8,
+      "tags": [
+        "privacy",
+        "Apple",
+        "CSAM",
+        "encryption",
+        "tech policy"
+      ],
+      "originalSite": "blog.ericgoldman.org"
+    },
+    {
+      "id": "f8539fdd88fcf15e8d78b120dd874ddae0d017d2",
+      "canonicalId": "901039d342003c3c26b2f5f8d79f32268d1575a1",
+      "slug": "eu-court-rules-vpns-are-lawful-technical-tools-in-copyright-case",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "EU Court Rules VPNs Are Lawful Technical Tools in Copyright Case",
+      "score": 8,
+      "tags": [
+        "VPN",
+        "copyright",
+        "EU law",
+        "privacy",
+        "internet regulation"
+      ],
+      "originalSite": "techradar.com"
+    },
+    {
+      "id": "5057e23d65a279697d8cce6b5cb94497cabb1e84",
+      "canonicalId": "72097f626dd8746904d018c22f2da3cab00a749e",
+      "slug": "claude-code-team-reveals-65-of-prs-via-claude-tag",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "Claude Code Team Reveals 65% of PRs via Claude Tag",
+      "score": 8,
+      "tags": [
+        "Claude Code",
+        "AI-assisted coding",
+        "developer tools",
+        "Anthropic"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "4164d2aa0bb786856ce0a97349c8a792cc317ccf",
+      "canonicalId": "33cd8ab1f14af17d27828c4045d19d6ef429e6e1",
+      "slug": "kernel-community-debates-llm-attribution-and-ethics",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "Kernel community debates LLM attribution and ethics",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "LLM",
+        "open source",
+        "AI in software development",
+        "community governance"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "e07d99ea5ea533b03e8b4ffc50351c8ddb10b353",
+      "canonicalId": "76f5ee34f0b4e7d40dbb339eb8d63a385639d0c4",
+      "slug": "google-develops-x27frozen-v2x27-ai-chip-with-hardwired-gemini-capabilities",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "Google develops &\\#x27;Frozen v2&\\#x27; AI chip with hardwired Gemini capabilities",
+      "score": 8,
+      "tags": [
+        "AI hardware",
+        "Gemini",
+        "TPU",
+        "Google",
+        "inference efficiency"
+      ],
+      "originalSite": "quiverquant.com"
+    },
+    {
+      "id": "02b4c815a96154e96155920184922fc988b6c770",
+      "canonicalId": "ee07d4bde1d2c9859baa7042bd51a51c57fbbd26",
+      "slug": "cloudflare-internal-dns-now-generally-available",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "Cloudflare Internal DNS Now Generally Available",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "DNS",
+        "Zero Trust",
+        "Enterprise Networking",
+        "Security"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "ec12386c74e9ee510e7e1b5839937b0eab047b08",
+      "canonicalId": "1eefe73061835c76311a3f7a28f96af19163e657",
+      "slug": "tsmc-to-raise-chip-prices-5-10-starting-2027",
+      "date": "2026-07-21",
+      "lang": "en",
+      "title": "TSMC to Raise Chip Prices 5-10% Starting 2027",
+      "score": 8,
+      "tags": [
+        "TSMC",
+        "semiconductor",
+        "chip pricing",
+        "manufacturing",
+        "industry news"
+      ],
+      "originalSite": "asia.nikkei.com"
+    },
+    {
       "id": "55db60707c80396fef4eba739fb148c7bdd5fb47",
       "canonicalId": "200e3b77016e281ebbd6bbaa1e39dfc11a694197",
       "slug": "ai-在寻找反例上超越数学家",
@@ -5817,244 +6119,6 @@
         "profit shifting"
       ],
       "originalSite": "techspot.com"
-    },
-    {
-      "id": "a904ed10b5a00c6c372c8210047b607fe21f0b04",
-      "canonicalId": "7c2596b0fb4be127506dca6e018400900c251da4",
-      "slug": "organic-maps-遭争议分叉项目-comaps-诞生",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "Organic Maps 遭争议，分叉项目 CoMaps 诞生",
-      "score": 8,
-      "tags": [
-        "open-source",
-        "navigation",
-        "maps",
-        "fork",
-        "controversy"
-      ],
-      "originalSite": "organicmaps.app"
-    },
-    {
-      "id": "673abfb22a1c24a3ae39c442baf7620861b14eb5",
-      "canonicalId": "4486cd6b1445b51af54fafe2b2bf46a2a8d6a7c3",
-      "slug": "数字所有权之争实体游戏-vs-数字游戏",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "数字所有权之争：实体游戏 vs 数字游戏",
-      "score": 8,
-      "tags": [
-        "digital ownership",
-        "DRM",
-        "gaming",
-        "consumer rights",
-        "regulation"
-      ],
-      "originalSite": "popcar.bearblog.dev"
-    },
-    {
-      "id": "63354d123f4be0c548094d1fa72fd5cb5239d7ec",
-      "canonicalId": "f2aca3c59c5e3a3f9fcd4da355ba04ae3e925312",
-      "slug": "sqlite-utils-40rc2-发布主要由-claude-fable-ai-编写",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "sqlite-utils 4.0rc2 发布，主要由 Claude Fable AI 编写",
-      "score": 8,
-      "tags": [
-        "sqlite-utils",
-        "AI-assisted development",
-        "Python",
-        "release",
-        "Claude"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "ae928a0a7c6876e2609335310bfc6a4d698ecb29",
-      "canonicalId": "32dc242138e67d173ad3305bc17de1620ecae0aa",
-      "slug": "新-claude-模型工具调用表现倒退",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "新 Claude 模型工具调用表现倒退",
-      "score": 8,
-      "tags": [
-        "AI",
-        "LLM",
-        "tool-use",
-        "model regression",
-        "Claude"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "753004c3a25ea9fb6240ee02a975f0df7cd51699",
-      "canonicalId": "f6ad83c3d31cbf3bb9421df5e5d3aea6a5bf0a8b",
-      "slug": "能力门控利用内部置信信号控制工具使用",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "能力门控：利用内部置信信号控制工具使用",
-      "score": 8,
-      "tags": [
-        "Machine Learning",
-        "LLM",
-        "Tool-Use",
-        "Confidence",
-        "Open-Source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "73e1c1d80aad907c2db7905a903bd7f10035f6e8",
-      "canonicalId": "fa0ef4ad89ca14a614904b58a8800e422852f5d9",
-      "slug": "复旦期末考改为人考-ai学生出题让-ai-考-0-分",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "复旦期末考改为人考 AI：学生出题让 AI 考 0 分",
-      "score": 8,
-      "tags": [
-        "AI in education",
-        "assessment",
-        "pedagogy",
-        "AI literacy",
-        "human-AI interaction"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "fe524ccf070c3c73fc9070177535903f80ab851d",
-      "canonicalId": "9358267ad1312872e2337d927172024947035ac7",
-      "slug": "spacex-向投资者展示比-iphone-更薄的自主操作系统原型机",
-      "date": "2026-07-05",
-      "lang": "zh",
-      "title": "SpaceX 向投资者展示比 iPhone 更薄的自主操作系统原型机",
-      "score": 8,
-      "tags": [
-        "SpaceX",
-        "Starlink",
-        "mobile phone",
-        "satellite communication",
-        "telecom"
-      ],
-      "originalSite": "wsj.com"
-    },
-    {
-      "id": "33fc2232d26110a4e0f0fa856b4e27a8e3636016",
-      "canonicalId": "7c2596b0fb4be127506dca6e018400900c251da4",
-      "slug": "organic-maps-faces-backlash-fork-comaps-emerges",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "Organic Maps Faces Backlash, Fork CoMaps Emerges",
-      "score": 8,
-      "tags": [
-        "open-source",
-        "navigation",
-        "maps",
-        "fork",
-        "controversy"
-      ],
-      "originalSite": "organicmaps.app"
-    },
-    {
-      "id": "b77975b498f3237b578d9cf4d23d6874922aa92b",
-      "canonicalId": "4486cd6b1445b51af54fafe2b2bf46a2a8d6a7c3",
-      "slug": "digital-ownership-debate-physical-vs-digital-games",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "Digital Ownership Debate: Physical vs. Digital Games",
-      "score": 8,
-      "tags": [
-        "digital ownership",
-        "DRM",
-        "gaming",
-        "consumer rights",
-        "regulation"
-      ],
-      "originalSite": "popcar.bearblog.dev"
-    },
-    {
-      "id": "f9e6d3b3f869578608aec3dda022a58d4384f857",
-      "canonicalId": "f2aca3c59c5e3a3f9fcd4da355ba04ae3e925312",
-      "slug": "sqlite-utils-40rc2-released-largely-written-by-claude-fable-ai",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "sqlite-utils 4.0rc2 released, largely written by Claude Fable AI",
-      "score": 8,
-      "tags": [
-        "sqlite-utils",
-        "AI-assisted development",
-        "Python",
-        "release",
-        "Claude"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "4dc084b92fb2be1f0bc6ca766f15cdc39ecde55a",
-      "canonicalId": "32dc242138e67d173ad3305bc17de1620ecae0aa",
-      "slug": "newer-claude-models-show-tool-calling-regression",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "Newer Claude Models Show Tool-Calling Regression",
-      "score": 8,
-      "tags": [
-        "AI",
-        "LLM",
-        "tool-use",
-        "model regression",
-        "Claude"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "bef5b977d11346413420e193ca262427aa6adcd2",
-      "canonicalId": "f6ad83c3d31cbf3bb9421df5e5d3aea6a5bf0a8b",
-      "slug": "competence-gate-gating-tool-use-via-internal-confidence-signal",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "Competence Gate: Gating Tool-Use via Internal Confidence Signal",
-      "score": 8,
-      "tags": [
-        "Machine Learning",
-        "LLM",
-        "Tool-Use",
-        "Confidence",
-        "Open-Source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "f94ca639cf78fc9a00c31285fd26eed03a3eef43",
-      "canonicalId": "fa0ef4ad89ca14a614904b58a8800e422852f5d9",
-      "slug": "fudan-exam-tests-students-by-making-ai-fail",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "Fudan Exam Tests Students by Making AI Fail",
-      "score": 8,
-      "tags": [
-        "AI in education",
-        "assessment",
-        "pedagogy",
-        "AI literacy",
-        "human-AI interaction"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "bcabc2d602d0ec1dbeb5d362d5133ff65b105b26",
-      "canonicalId": "9358267ad1312872e2337d927172024947035ac7",
-      "slug": "spacex-shows-investors-thinner-than-iphone-prototype-with-own-os",
-      "date": "2026-07-05",
-      "lang": "en",
-      "title": "SpaceX Shows Investors Thinner-Than-iPhone Prototype with Own OS",
-      "score": 8,
-      "tags": [
-        "SpaceX",
-        "Starlink",
-        "mobile phone",
-        "satellite communication",
-        "telecom"
-      ],
-      "originalSite": "wsj.com"
     }
   ]
 }

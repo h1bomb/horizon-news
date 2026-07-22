@@ -1,0 +1,44 @@
+{
+  "id": "9c4b6121606ffd961d59a3b30f5ce8e3c7f5c0b3",
+  "canonicalId": "f2a1bf222d6328cd2f3013f256741c5874f02650",
+  "slug": "laguna-s-21可在消费级硬件上运行的新型强力-ai-模型",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T17:17:00Z",
+  "lang": "zh",
+  "title": "Laguna S 2.1：可在消费级硬件上运行的新型强力 AI 模型",
+  "summary": "Poolside 发布了 Laguna S 2.1，这是一个 118B 总参数、8B 活跃参数的混合专家模型，在 Terminal-Bench 2.1 上达到 70.2%，与 DeepSeek V4 Flash 相当，并且可在家庭硬件上运行。 该模型弥合了前沿 AI 编码助手与本地可运行模型之间的差距，使开发人员能够自托高质量代码生成，无需依赖云服务，从而提高隐私性并降低成本。 Laguna S 2.1 采用混合专家架构，总参数 118B，但每个 token 仅激活 8B，可适配 48GB 以上显存的消费级 GPU。它在 DeepSWE 上获得 40.4%，并已在 Ollama 和 GGUF 格式中提供，便于量化。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "machine learning",
+    "LLM",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rexledesma",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48995261"
+    }
+  ],
+  "originalUrl": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+  "originalSite": "poolside.ai",
+  "context": "大型编码 LLM 通常需要大量云资源。混合专家（MoE）模型通过每个输入仅激活部分参数来减少计算量。Terminal-Bench 和 DeepSWE 是用于代码智能体和软件工程任务的基准测试。Poolside 是一家为软件开发构建 AI 的初创公司，旨在实现编码领域的 AGI。",
+  "discussion": "社区对该模型印象深刻，用户报告其性能可与 DeepSeek V4 Flash 甚至 GPT-5.2 相媲美。一位用户已用其生成了一个有用的拉取请求，其他人正在开发量化版本以在 64GB 等较低内存的硬件上运行。",
+  "references": [
+    {
+      "title": "Introducing Laguna S 2 . 1 — Poolside",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1"
+    },
+    {
+      "title": "Poolside: Laguna S 2 . 1 - Poolside - Model Price &amp; Provider... - LLM24",
+      "url": "https://llm24.net/model/laguna-s-2-1"
+    },
+    {
+      "title": "laguna - s - 2 . 1",
+      "url": "https://ollama.com/library/laguna-s-2.1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

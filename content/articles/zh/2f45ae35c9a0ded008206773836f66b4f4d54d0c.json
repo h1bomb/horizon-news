@@ -1,0 +1,45 @@
+{
+  "id": "2f45ae35c9a0ded008206773836f66b4f4d54d0c",
+  "canonicalId": "bc5044b5fd75e2f3e3c8d5721df81701b59aa71a",
+  "slug": "苹果因不扫描-icloud-的-csam-而免于法律责任",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T14:31:00Z",
+  "lang": "zh",
+  "title": "苹果因不扫描 iCloud 的 CSAM 而免于法律责任",
+  "summary": "法院裁定苹果无需因未扫描 iCloud 中的儿童性虐待材料（CSAM）而承担法律责任，尽管法官对此结果表示不安。 该裁决树立了先例，可能影响科技公司如何平衡用户隐私与打击非法内容的义务，并凸显了在不削弱加密的情况下强制执行 CSAM 检测的法律挑战。 此案为“Amy 诉苹果案”，指控苹果未扫描 iCloud 导致 CSAM 传播。法官指出，尽管结果令人不安，但现行法律并未对科技平台施加此类责任。苹果此前曾放弃一项有争议的用于检测 CSAM 的客户端扫描系统。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "Apple",
+    "CSAM",
+    "encryption",
+    "tech policy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48992870"
+    }
+  ],
+  "originalUrl": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+  "originalSite": "blog.ericgoldman.org",
+  "context": "儿童性虐待材料（CSAM）指涉及未成年人的露骨色情图片和视频。2021 年，苹果宣布了一项系统，通过设备端匹配扫描 iCloud 照片中的已知 CSAM，但因隐私争议而最终放弃该计划。端到端加密防止任何第三方（包括服务提供商）访问内容，使得在不破坏加密的情况下无法进行扫描。",
+  "discussion": "评论者表达了不同观点：有人认为专注于事后检测 CSAM 是不够的，应该更多关注预防实际虐待。另一些人则为苹果的隐私立场辩护，指出端到端加密本身就不可能进行扫描。还有评论者对苹果控制应用程序的端到端加密的真实性提出质疑。",
+  "references": [
+    {
+      "title": "What is CSAM ? Why It’s Critical for Platforms to Detect, Prevent, and...",
+      "url": "https://www.cometchat.com/blog/what-is-csam"
+    },
+    {
+      "title": "Apple&#x27;s Decision to Kill Its CSAM Photo-Scanning Tool Sparks Fresh Controversy | WIRED",
+      "url": "https://www.wired.com/story/apple-csam-scanning-heat-initiative-letter/"
+    },
+    {
+      "title": "The Apple Client-Side Scanning System | Lawfare",
+      "url": "https://www.lawfaremedia.org/article/apple-client-side-scanning-system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

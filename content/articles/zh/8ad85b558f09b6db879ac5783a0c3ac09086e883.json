@@ -1,0 +1,40 @@
+{
+  "id": "8ad85b558f09b6db879ac5783a0c3ac09086e883",
+  "canonicalId": "33cd8ab1f14af17d27828c4045d19d6ef429e6e1",
+  "slug": "内核社区讨论-llm-归属和伦理问题",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T13:48:00Z",
+  "lang": "zh",
+  "title": "内核社区讨论 LLM 归属和伦理问题",
+  "summary": "Linux 内核社区正在讨论大语言模型（LLM）在开发中的作用，Linus Torvalds 发表了措辞强硬的声明，开发者提议删除或简化用于 LLM 生成代码的 Assisted-by 标签。 这场辩论将影响最大的开源项目之一如何管理人工智能辅助贡献，可能为其他项目树立先例，并影响内核代码质量、归属和法律责任的界定。 已有超过 1200 次提交带有 Assisted-by 标签，但许多 LLM 生成的补丁缺少该标签，且往往是故意的。网络维护者 Jakub Kicinski 表示他会删掉经手的补丁中的此类标签，而 Greg Kroah-Hartman 则支持保留。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "LLM",
+    "open source",
+    "AI in software development",
+    "community governance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1083275/",
+  "originalSite": "lwn.net",
+  "context": "Assisted-by 标签经长时间讨论后于 2025 年底为 Linux 内核 7.0 版本添加。它要求部分或全部由 LLM 生成的补丁包含带有模型名称和工具细节的标签。该政策旨在记录 AI 使用情况并帮助识别有问题的模型，但许多开发者质疑其价值。",
+  "discussion": "开发者意见分歧：一些人如 Jakub Kicinski 认为标签无用并予以删除，而另一些人如 Greg Kroah-Hartman 希望保留。Christian Brauner 建议将标签简化为仅‘LLM’，Jeff Layton 则提议完全删除。讨论还涉及专有工具依赖和伦理问题。",
+  "references": [
+    {
+      "title": "AI Coding Assistants — The Linux Kernel documentation",
+      "url": "https://kernel.org/doc/html//next/process/coding-assistants.html"
+    },
+    {
+      "title": "Linux Kernel&#x27;s &#x27;Assisted-by&#x27; Tag: Sasha Levin&#x27;s Secret AI Patch Sparks Contributor Guidelines | Ihor Chyshkala",
+      "url": "https://chyshkala.com/blog/linux-kernel-s-assisted-by-tag-sasha-levin-s-secret-ai-patch-sparks-contributor-guidelines"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

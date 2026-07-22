@@ -1,0 +1,39 @@
+{
+  "id": "5057e23d65a279697d8cce6b5cb94497cabb1e84",
+  "canonicalId": "72097f626dd8746904d018c22f2da3cab00a749e",
+  "slug": "claude-code-team-reveals-65-of-prs-via-claude-tag",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T12:54:00Z",
+  "lang": "en",
+  "title": "Claude Code Team Reveals 65% of PRs via Claude Tag",
+  "summary": "In a fireside chat at the AI Engineer World&\\#x27;s Fair, Anthropic&\\#x27;s Claude Code team revealed that Claude Tag now handles 65% of their product engineering pull requests. They also shared that features are only shipped to users after demonstrating internal user retention. These internal metrics provide rare transparency into how AI-assisted development tools are used by their own creators. The dogfooding culture and data-driven feature shipping set a benchmark for other teams building AI coding agents. Claude Tag is Anthropic&\\#x27;s new collaborative Slack integration that allows team members to work with the same AI assistant in a channel. The Claude Code team also noted that adding examples to system prompts is no longer best practice for models like Fable 5, and their system prompt size was reduced by 80%.",
+  "score": 8,
+  "tags": [
+    "Claude Code",
+    "AI-assisted coding",
+    "developer tools",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Claude Code is an AI coding agent from Anthropic that operates in the terminal and IDE to understand codebases, edit files, and run commands. Claude Tag is a newer Slack-based tool that enables teams to collaborate with Claude directly in conversations, with features like shared context and autonomous check-ins. The term &\\#x27;ant fooding&\\#x27; is Anthropic&\\#x27;s internal jargon for dogfooding—using one&\\#x27;s own products internally.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Claude Tag \\ Anthropic",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag"
+    },
+    {
+      "title": "What is Claude Tag? | Claude Help Center",
+      "url": "https://support.claude.com/en/articles/15594475-what-is-claude-tag"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

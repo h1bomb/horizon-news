@@ -1,0 +1,44 @@
+{
+  "id": "4ad2f18a40c9098f077dce9a087a42d7713a9999",
+  "canonicalId": "76f5ee34f0b4e7d40dbb339eb8d63a385639d0c4",
+  "slug": "谷歌开发-x27frozen-v2x27-ai-芯片将-gemini-能力写入硬件",
+  "date": "2026-07-21",
+  "publishedAt": "2026-07-21T01:01:00Z",
+  "lang": "zh",
+  "title": "谷歌开发 &\\#x27;Frozen v2&\\#x27; AI 芯片，将 Gemini 能力写入硬件",
+  "summary": "据报道，谷歌正在开发一款内部代号为 &\\#x27;Frozen v2&\\#x27; 的新型 AI 服务器芯片，将 Gemini 模型的部分架构直接固化到硅片中，目标是到 2028 年每瓦特产生的 token 数比其最新 TPU 提高 6 到 10 倍。 该芯片可能大幅提升推理效率，降低功耗成本，并缓解内部算力短缺——这种短缺曾限制谷歌云为部分企业客户提供服务。它标志着随着 Transformer 架构趋于稳定，AI 硬件正向专用化方向转变。 Frozen v2 旨在补充而非取代谷歌的 TPU 产品线，计划于 2028 年部署。该芯片将 Gemini 架构的部分永久嵌入硅片中，这种技术称为“硬编码”，可消除数据搬运开销。",
+  "score": 8,
+  "tags": [
+    "AI hardware",
+    "Gemini",
+    "TPU",
+    "Google",
+    "inference efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.quiverquant.com/news/Google+Reportedly+Developing+%E2%80%98Frozen+v2%E2%80%99+AI+Chip+to+Boost+Gemini+Efficiency",
+  "originalSite": "quiverquant.com",
+  "context": "当前大多数 AI 模型运行在通用硬件（如 GPU）或专用加速器（如谷歌 TPU）上，这些硬件可编程且灵活。将模型硬编码到硅片中会固化架构，但通过消除从内存加载权重的需求，能实现极高的效率。随着基于 Transformer 架构的 Gemini 等模型趋于成熟，这种硬件专用化方法正受到更多关注。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Google is working on a new AI chip designed to make Gemini more efficient | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/"
+    },
+    {
+      "title": "Alphabet stock pops on report it&#x27;s developing a more efficient AI chip",
+      "url": "https://www.cnbc.com/2026/07/20/alphabet-googl-stock-ai-chip-report.html"
+    },
+    {
+      "title": "Google&#x27;s Frozen v2 Chip Hardwires Gemini Architecture: Up to Tenfold Inference Efficiency",
+      "url": "https://www.techtimes.com/articles/321152/20260721/googles-frozen-v2-chip-hardwires-gemini-architecture-tenfold-inference-efficiency.htm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
