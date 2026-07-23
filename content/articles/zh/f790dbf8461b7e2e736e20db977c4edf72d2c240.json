@@ -1,0 +1,40 @@
+{
+  "id": "f790dbf8461b7e2e736e20db977c4edf72d2c240",
+  "canonicalId": "6604b937d01576e0acb541ce9e153f96a9348007",
+  "slug": "skewadam-将-moe-优化器内存减少-97",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T07:04:00Z",
+  "lang": "zh",
+  "title": "SkewAdam 将 MoE 优化器内存减少 97%",
+  "summary": "SkewAdam 提出了一种分层优化器，将混合专家（MoE）训练中的优化器状态内存减少了 97.4%，使得 6.78B 参数的 MoE 模型能够适配单个 40GB GPU。 这一突破直接解决了 MoE 训练中的关键显存瓶颈，通过降低硬件需求，有望使大型 MoE 模型更易于普及。 分层分配策略为骨干参数提供动量加分解二阶矩，专家参数仅提供分解二阶矩，路由器参数则保留精确二阶矩，从而将状态内存从 50.6 GB 降至 1.29 GB。",
+  "score": 8,
+  "tags": [
+    "optimizer",
+    "mixture-of-experts",
+    "memory efficiency",
+    "deep learning",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Kooky-Ad-4124"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/",
+  "originalSite": "reddit.com",
+  "context": "混合专家（MoE）模型通过稀疏激活来扩展大型语言模型，越来越受欢迎，但训练时需要存储动量、方差等优化器状态，这些状态消耗大量显存。Adafactor 通过分解二阶矩估计来减少内存使用。SkewAdam 将这一概念扩展为分层方法，根据参数类型分配不同的精度等级。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Adafactor - Cornell University Computational Optimization Open Textbook - Optimization Wiki",
+      "url": "https://optimization.cbe.cornell.edu/index.php?title=Adafactor"
+    },
+    {
+      "title": "Mixture of Experts Infrastructure | Introl Blog",
+      "url": "https://introl.com/blog/mixture-of-experts-moe-infrastructure-scaling-sparse-models-guide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

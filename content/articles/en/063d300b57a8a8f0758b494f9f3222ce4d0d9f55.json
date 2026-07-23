@@ -1,0 +1,32 @@
+{
+  "id": "063d300b57a8a8f0758b494f9f3222ce4d0d9f55",
+  "canonicalId": "6e8a63b0c20dd747172dc3ffd3c6925e644ca5e2",
+  "slug": "ai-labs-exhibit-x27pelicanmaxxingx27-bias-in-svg-generation",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:17:00Z",
+  "lang": "en",
+  "title": "AI Labs Exhibit &\\#x27;Pelicanmaxxing&\\#x27; Bias in SVG Generation",
+  "summary": "A quantitative analysis of 1,008 AI-generated SVGs found that all seven AI labs produced pelican-on-bicycle images facing right, indicating potential training data biases. This study introduces a novel benchmark for detecting training data contamination in AI image generation models, and highlights subtle but systematic biases that could affect model evaluation and trustworthiness. The analysis covered 21 combinations of 7 animals and 3 vehicles across 7 AI labs, with a total of 1,008 images. Pelican-bicycle images uniquely showed 100% right-facing orientation, while other combinations varied.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "machine learning",
+    "benchmark",
+    "SVG",
+    "image generation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dcastm",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010129"
+    }
+  ],
+  "originalUrl": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+  "originalSite": "dylancastillo.co",
+  "context": "&quot;Pelicanmaxxing&quot; refers to the community trend of testing AI models by asking them to generate SVG images of a pelican riding a bicycle, based on a suspicion that labs may be specifically training on this popular benchmark. This analysis formalizes that suspicion with a rigorous methodology.",
+  "discussion": "Commenters praised the rigorous methodology. SimonW noted the possibility of catching a lab cheating on this specific benchmark; mauvehaus observed that the right-facing orientation might be natural due to bicycle drivetrain placement; stusmall welcomed quantitative evidence against the &quot;they must be training on it&quot; dismissal; SyneRyder pointed out that some models show &quot;Ottermaxxing&quot; behavior where otters sit inside planes instead of on top.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

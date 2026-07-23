@@ -1,6 +1,512 @@
 {
   "articles": [
     {
+      "id": "945ce9c467a0aa2d1e00033ffc0e7747cca72d02",
+      "canonicalId": "8fcc591b02ebed1d3f691c6d12f018a7ec2c3e43",
+      "slug": "陶哲轩用-chatgpt-探索雅可比猜想反例",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "陶哲轩用 ChatGPT 探索雅可比猜想反例",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Mathematics",
+        "Jacobian Conjecture",
+        "ChatGPT",
+        "Terence Tao"
+      ],
+      "originalSite": "chatgpt.com"
+    },
+    {
+      "id": "c32032238d471507ba381244a9507a5934eaf497",
+      "canonicalId": "788f933fe4499d4293e4d1b7dee756c1403b346e",
+      "slug": "openai-模型逃出沙箱在安全测试中攻击-hugging-face",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "OpenAI 模型逃出沙箱，在安全测试中攻击 Hugging Face",
+      "score": 9,
+      "tags": [
+        "AI security",
+        "cybersecurity",
+        "Hugging Face",
+        "OpenAI",
+        "safety"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "2ebf80fb9f3d5fb12a6202af5586deda79ab6ace",
+      "canonicalId": "e9c71c13a6e71e02783b1d8efb0e6b901b83f67f",
+      "slug": "gigatokenllm-令牌化速度提升约-1000-倍",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "GigaToken：LLM 令牌化速度提升约 1000 倍",
+      "score": 8,
+      "tags": [
+        "tokenization",
+        "LLMs",
+        "optimization",
+        "SIMD",
+        "pre-training"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "d06d4c1dfbb7b88fa2903d00de3c8d53ce4d51fd",
+      "canonicalId": "f3ad97fe70c6e9352f1ca8a1abd2e76aded382e4",
+      "slug": "bento一个离线-html-文件即可替代完整-powerpoint",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "Bento：一个离线 HTML 文件即可替代完整 PowerPoint",
+      "score": 8,
+      "tags": [
+        "presentations",
+        "HTML",
+        "offline",
+        "collaboration",
+        "web development"
+      ],
+      "originalSite": "bento.page"
+    },
+    {
+      "id": "b88796677b1ff8a22c759d971183dd62507e7f8a",
+      "canonicalId": "6e8a63b0c20dd747172dc3ffd3c6925e644ca5e2",
+      "slug": "ai-实验室在-svg-生成中显现x27鹈鹕最大化x27偏见",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "AI 实验室在 SVG 生成中显现&\\#x27;鹈鹕最大化&\\#x27;偏见",
+      "score": 8,
+      "tags": [
+        "AI",
+        "machine learning",
+        "benchmark",
+        "SVG",
+        "image generation"
+      ],
+      "originalSite": "dylancastillo.co"
+    },
+    {
+      "id": "7bacb6a76b92f7d94683d35fff2d338ab301b749",
+      "canonicalId": "2a21281a6027871a4f5a40c8c6995b15f6dddb3d",
+      "slug": "每个人都应了解-simd",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "每个人都应了解 SIMD",
+      "score": 8,
+      "tags": [
+        "SIMD",
+        "performance optimization",
+        "data-oriented design",
+        "compiler vectorization"
+      ],
+      "originalSite": "mitchellh.com"
+    },
+    {
+      "id": "5875af9555febb801b1d4bff664049e24fed1d6e",
+      "canonicalId": "7e41e843d5a5b2958240699a734ed67e64131f27",
+      "slug": "初创公司的-postgres-生存指南",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "初创公司的 Postgres 生存指南",
+      "score": 8,
+      "tags": [
+        "postgres",
+        "startups",
+        "databases",
+        "best-practices",
+        "scaling"
+      ],
+      "originalSite": "hatchet.run"
+    },
+    {
+      "id": "f8aabffea315312ff04a656f1cb83bad06a59fee",
+      "canonicalId": "42bea0685d12d40ac64510c25d5ae600af822ae9",
+      "slug": "通过-git-钩子隐藏恶意软件的假面试项目",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "通过 Git 钩子隐藏恶意软件的假面试项目",
+      "score": 8,
+      "tags": [
+        "cybersecurity",
+        "malware",
+        "job interview",
+        "git hooks",
+        "supply chain attack"
+      ],
+      "originalSite": "citizendot.github.io"
+    },
+    {
+      "id": "ef9f50f1fe49bb9dabcd22dd2cc9312ba26f533d",
+      "canonicalId": "4da9902d618926813a431fc10cef2dde6347d0aa",
+      "slug": "reddit-限制纯-html激怒用户和爬虫",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "Reddit 限制纯 HTML，激怒用户和爬虫",
+      "score": 8,
+      "tags": [
+        "reddit",
+        "web scraping",
+        "internet freedom",
+        "old.reddit",
+        "platform control"
+      ],
+      "originalSite": "cole-k.com"
+    },
+    {
+      "id": "7b1ae6fee59b9b451668e33f04c33e1db3524702",
+      "canonicalId": "c463b2a64894dbc77055985043fb54173de10ecb",
+      "slug": "pypi-现已拒绝超过-14-天的新文件上传",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "PyPI 现已拒绝超过 14 天的新文件上传",
+      "score": 8,
+      "tags": [
+        "Python",
+        "PyPI",
+        "security",
+        "supply chain",
+        "package management"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "9b1574fe1c708395f90b5f6282cf2232fbe7e182",
+      "canonicalId": "89bfcaf71374655cc0af88943f49267601fb1b37",
+      "slug": "bpf-程序现可附加到多个跟踪点linux-72-中实现",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "BPF 程序现可附加到多个跟踪点，Linux 7.2 中实现",
+      "score": 8,
+      "tags": [
+        "kernel",
+        "BPF",
+        "tracepoints",
+        "Linux"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "f790dbf8461b7e2e736e20db977c4edf72d2c240",
+      "canonicalId": "6604b937d01576e0acb541ce9e153f96a9348007",
+      "slug": "skewadam-将-moe-优化器内存减少-97",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "SkewAdam 将 MoE 优化器内存减少 97%",
+      "score": 8,
+      "tags": [
+        "optimizer",
+        "mixture-of-experts",
+        "memory efficiency",
+        "deep learning",
+        "machine learning"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "9c32a5e67bc7f614a78d5a948202eab5d7ca2ed9",
+      "canonicalId": "61960250ed1af728a7cf4251606bda31d48b826a",
+      "slug": "openai-ceo-将向美国政府简报下一代-ai-模型gpt-6-声称实现-agi",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "OpenAI CEO 将向美国政府简报下一代 AI 模型，GPT-6 声称实现 AGI",
+      "score": 8,
+      "tags": [
+        "AI",
+        "OpenAI",
+        "GPT-6",
+        "AGI",
+        "政府监管"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "3c69c01292226823de68af62d20fb6d5caad7208",
+      "canonicalId": "291814861ae4ca9e1f6f14f2cb4cd7d2984851ca",
+      "slug": "月之暗面拟以-500-亿美元估值进行-ipo-前融资",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "月之暗面拟以 500 亿美元估值进行 IPO 前融资",
+      "score": 8,
+      "tags": [
+        "AI startup",
+        "fundraising",
+        "valuation",
+        "IPO",
+        "China tech"
+      ],
+      "originalSite": "chinastarmarket.cn"
+    },
+    {
+      "id": "5cde2ee7e1df10f717395855921ea18d96e639e8",
+      "canonicalId": "45ead4ee1af6c7179cb7fd6c007bd61b9e1bbd48",
+      "slug": "四大-ai-编程代理曝出沙箱逃逸漏洞",
+      "date": "2026-07-22",
+      "lang": "zh",
+      "title": "四大 AI 编程代理曝出沙箱逃逸漏洞",
+      "score": 8,
+      "tags": [
+        "security",
+        "AI coding agents",
+        "sandbox escape",
+        "prompt injection",
+        "vulnerability"
+      ],
+      "originalSite": "bleepingcomputer.com"
+    },
+    {
+      "id": "1216033234deecc80275c20c4b5116e828e9a66f",
+      "canonicalId": "8fcc591b02ebed1d3f691c6d12f018a7ec2c3e43",
+      "slug": "terence-tao-uses-chatgpt-to-explore-jacobian-conjecture-counterexample",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Terence Tao Uses ChatGPT to Explore Jacobian Conjecture Counterexample",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Mathematics",
+        "Jacobian Conjecture",
+        "ChatGPT",
+        "Terence Tao"
+      ],
+      "originalSite": "chatgpt.com"
+    },
+    {
+      "id": "1c02a4c9225ad1651601140d286ba0748caa703d",
+      "canonicalId": "788f933fe4499d4293e4d1b7dee756c1403b346e",
+      "slug": "openai-model-escapes-sandbox-attacks-hugging-face-in-safety-test",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "OpenAI model escapes sandbox, attacks Hugging Face in safety test",
+      "score": 9,
+      "tags": [
+        "AI security",
+        "cybersecurity",
+        "Hugging Face",
+        "OpenAI",
+        "safety"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "112b2c31b17d2bf00101c70ba59f07627f41a30f",
+      "canonicalId": "e9c71c13a6e71e02783b1d8efb0e6b901b83f67f",
+      "slug": "gigatoken-1000x-faster-tokenization-for-llms",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "GigaToken: ~1000x faster tokenization for LLMs",
+      "score": 8,
+      "tags": [
+        "tokenization",
+        "LLMs",
+        "optimization",
+        "SIMD",
+        "pre-training"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "2539778334c77d87bfd133251bfd64576c9c1aa1",
+      "canonicalId": "f3ad97fe70c6e9352f1ca8a1abd2e76aded382e4",
+      "slug": "bento-a-full-powerpoint-in-one-offline-html-file",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Bento: A full PowerPoint in one offline HTML file",
+      "score": 8,
+      "tags": [
+        "presentations",
+        "HTML",
+        "offline",
+        "collaboration",
+        "web development"
+      ],
+      "originalSite": "bento.page"
+    },
+    {
+      "id": "063d300b57a8a8f0758b494f9f3222ce4d0d9f55",
+      "canonicalId": "6e8a63b0c20dd747172dc3ffd3c6925e644ca5e2",
+      "slug": "ai-labs-exhibit-x27pelicanmaxxingx27-bias-in-svg-generation",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "AI Labs Exhibit &\\#x27;Pelicanmaxxing&\\#x27; Bias in SVG Generation",
+      "score": 8,
+      "tags": [
+        "AI",
+        "machine learning",
+        "benchmark",
+        "SVG",
+        "image generation"
+      ],
+      "originalSite": "dylancastillo.co"
+    },
+    {
+      "id": "39ab8114e30e675fc2c4fc029aa6c090affd594e",
+      "canonicalId": "2a21281a6027871a4f5a40c8c6995b15f6dddb3d",
+      "slug": "everyone-should-know-simd",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Everyone Should Know SIMD",
+      "score": 8,
+      "tags": [
+        "SIMD",
+        "performance optimization",
+        "data-oriented design",
+        "compiler vectorization"
+      ],
+      "originalSite": "mitchellh.com"
+    },
+    {
+      "id": "77679bf17dc252ac037de823bc97a7fbb7d15ff7",
+      "canonicalId": "7e41e843d5a5b2958240699a734ed67e64131f27",
+      "slug": "postgres-survival-guide-for-startups",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Postgres Survival Guide for Startups",
+      "score": 8,
+      "tags": [
+        "postgres",
+        "startups",
+        "databases",
+        "best-practices",
+        "scaling"
+      ],
+      "originalSite": "hatchet.run"
+    },
+    {
+      "id": "e3786f5e984a4aec29cef1c42e4aa66c5023bf65",
+      "canonicalId": "42bea0685d12d40ac64510c25d5ae600af822ae9",
+      "slug": "malware-hidden-in-fake-job-interview-project-via-git-hooks",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Malware Hidden in Fake Job Interview Project via Git Hooks",
+      "score": 8,
+      "tags": [
+        "cybersecurity",
+        "malware",
+        "job interview",
+        "git hooks",
+        "supply chain attack"
+      ],
+      "originalSite": "citizendot.github.io"
+    },
+    {
+      "id": "4c8c9dc923fbba5991001da18b2d0f6db80fd537",
+      "canonicalId": "4da9902d618926813a431fc10cef2dde6347d0aa",
+      "slug": "reddit-restricts-plain-html-angers-users-and-scrapers",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Reddit Restricts Plain HTML, Angers Users and Scrapers",
+      "score": 8,
+      "tags": [
+        "reddit",
+        "web scraping",
+        "internet freedom",
+        "old.reddit",
+        "platform control"
+      ],
+      "originalSite": "cole-k.com"
+    },
+    {
+      "id": "083a69fb1159aa7ac4253cd975a30f7596b0d9f3",
+      "canonicalId": "c463b2a64894dbc77055985043fb54173de10ecb",
+      "slug": "pypi-now-rejects-new-files-after-14-days",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "PyPI now rejects new files after 14 days",
+      "score": 8,
+      "tags": [
+        "Python",
+        "PyPI",
+        "security",
+        "supply chain",
+        "package management"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "2c1233be3039ca668c639836adb14741090a23ec",
+      "canonicalId": "89bfcaf71374655cc0af88943f49267601fb1b37",
+      "slug": "bpf-programs-can-now-attach-to-multiple-tracepoints-in-linux-72",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "BPF programs can now attach to multiple tracepoints in Linux 7.2",
+      "score": 8,
+      "tags": [
+        "kernel",
+        "BPF",
+        "tracepoints",
+        "Linux"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "92200d8a6e506563b76c6140a09ecb9e6a98fed5",
+      "canonicalId": "6604b937d01576e0acb541ce9e153f96a9348007",
+      "slug": "skewadam-cuts-moe-optimizer-memory-by-97",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "SkewAdam cuts MoE optimizer memory by 97%",
+      "score": 8,
+      "tags": [
+        "optimizer",
+        "mixture-of-experts",
+        "memory efficiency",
+        "deep learning",
+        "machine learning"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "6c7de6c17ce62a45575e4348e056e430ee19a547",
+      "canonicalId": "61960250ed1af728a7cf4251606bda31d48b826a",
+      "slug": "openai-ceo-to-brief-us-gov-on-next-gen-ai-model-gpt-6-agi-claims-surface",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "OpenAI CEO to Brief US Gov on Next-Gen AI Model; GPT-6 AGI Claims Surface",
+      "score": 8,
+      "tags": [
+        "AI",
+        "OpenAI",
+        "GPT-6",
+        "AGI",
+        "政府监管"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "d9a1986e966bcd80a0d4c5ce3a779f98cd86ff6b",
+      "canonicalId": "291814861ae4ca9e1f6f14f2cb4cd7d2984851ca",
+      "slug": "moonshot-ai-plans-50b-pre-ipo-funding-round",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Moonshot AI plans $50B pre-IPO funding round",
+      "score": 8,
+      "tags": [
+        "AI startup",
+        "fundraising",
+        "valuation",
+        "IPO",
+        "China tech"
+      ],
+      "originalSite": "chinastarmarket.cn"
+    },
+    {
+      "id": "fc57cb9b1840cc7ed1ee78a4c9c5ecd3399907eb",
+      "canonicalId": "45ead4ee1af6c7179cb7fd6c007bd61b9e1bbd48",
+      "slug": "sandbox-escape-flaws-found-in-4-major-ai-coding-agents",
+      "date": "2026-07-22",
+      "lang": "en",
+      "title": "Sandbox Escape Flaws Found in 4 Major AI Coding Agents",
+      "score": 8,
+      "tags": [
+        "security",
+        "AI coding agents",
+        "sandbox escape",
+        "prompt injection",
+        "vulnerability"
+      ],
+      "originalSite": "bleepingcomputer.com"
+    },
+    {
       "id": "9c4b6121606ffd961d59a3b30f5ce8e3c7f5c0b3",
       "canonicalId": "f2a1bf222d6328cd2f3013f256741c5874f02650",
       "slug": "laguna-s-21可在消费级硬件上运行的新型强力-ai-模型",
@@ -5711,414 +6217,6 @@
         "open source"
       ],
       "originalSite": "theverge.com"
-    },
-    {
-      "id": "e9e881ef8b0e218ea1d208cd640a93737eecea3f",
-      "canonicalId": "acd8564554bc549c0c35cf28cafda257896adfd2",
-      "slug": "lingbot-vision基于掩码边界建模的自监督预训练",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "LingBot-Vision：基于掩码边界建模的自监督预训练",
-      "score": 9,
-      "tags": [
-        "self-supervised learning",
-        "computer vision",
-        "masked modeling",
-        "boundary detection",
-        "pretraining"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "d24293af67d06e53db42c84cea540f7a3c4065ab",
-      "canonicalId": "85daad0293fb6cbd91d26a08ca93120a3d40acfa",
-      "slug": "腾讯开源混元-hy3-预览版295b-moe-模型支持-256k-上下文",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "腾讯开源混元 Hy3 预览版：295B MoE 模型，支持 256K 上下文",
-      "score": 9,
-      "tags": [
-        "AI",
-        "MoE",
-        "open-source",
-        "LLM",
-        "Tencent"
-      ],
-      "originalSite": "t.me"
-    },
-    {
-      "id": "32e7ae927b92fee244939d5238d179fe7c12e779",
-      "canonicalId": "d8fcc4a1be8af56b6f1df1b592276b1ff9fd5c11",
-      "slug": "openwrt-one开源硬件路由器wifi-7-后继版本已在开发中",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "OpenWrt One：开源硬件路由器，WiFi 7 后继版本已在开发中",
-      "score": 8,
-      "tags": [
-        "openwrt",
-        "open hardware",
-        "router",
-        "networking",
-        "embedded systems"
-      ],
-      "originalSite": "openwrt.org"
-    },
-    {
-      "id": "3c94dc7cc434a2951b5c2eb1742964da7f654803",
-      "canonicalId": "22b32121ee2aaa0e33f83bd10a9511e18d71ce14",
-      "slug": "anthropic-发现语言模型中的全局工作空间",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "Anthropic 发现语言模型中的全局工作空间",
-      "score": 8,
-      "tags": [
-        "AI",
-        "language models",
-        "interpretability",
-        "Anthropic",
-        "deep learning"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "0916e919c8d4e4ff936a6d8c2b7bbee313c71ac5",
-      "canonicalId": "e571d8d480507fcc5e27bb3c95a418d40e93f428",
-      "slug": "微软因盈利问题重置-xbox-部门",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "微软因盈利问题重置 Xbox 部门",
-      "score": 8,
-      "tags": [
-        "Xbox",
-        "gaming",
-        "Microsoft",
-        "business strategy",
-        "industry analysis"
-      ],
-      "originalSite": "news.xbox.com"
-    },
-    {
-      "id": "75337f19487781fbe73466cb1653478973331cda",
-      "canonicalId": "c24926a0f5001dfe7605f0bbfeb81208ae1fd035",
-      "slug": "英伟达-gpu-债务支持机制推动-7-万亿美元-ai-基础设施热潮",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "英伟达 GPU 债务支持机制推动 7 万亿美元 AI 基础设施热潮",
-      "score": 8,
-      "tags": [
-        "AI Infrastructure",
-        "Nvidia",
-        "Cloud Computing",
-        "AI Financing",
-        "Debt Markets"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "314f80c45deeabf81cfa07cb03ea5f68b391ac49",
-      "canonicalId": "a2934dac5e554e192b330061111eab632df91b76",
-      "slug": "openssh-104-发布引入后量子签名与沙箱加固",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "OpenSSH 10.4 发布，引入后量子签名与沙箱加固",
-      "score": 8,
-      "tags": [
-        "security",
-        "cryptography",
-        "post-quantum",
-        "SSH",
-        "software release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "70fd4b88f5ad2e3fa42d888e00fd612ea7855360",
-      "canonicalId": "d38d0c564145b9c52e76f0074933bbbd86addcba",
-      "slug": "探索-linux-内核的-iomap-层",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "探索 Linux 内核的 iomap 层",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "filesystem",
-        "iomap",
-        "storage",
-        "XFS"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "9933ea3f756ab722634c2f313fffa3e7f418b774",
-      "canonicalId": "8860bc512a7fdf1000489af344f8cc6b7e7442f9",
-      "slug": "trace开源分层记忆系统在-eventqa-上达-825-f1",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "TRACE：开源分层记忆系统在 EventQA 上达 82.5% F1",
-      "score": 8,
-      "tags": [
-        "LLM agents",
-        "hierarchical memory",
-        "open-source",
-        "benchmark",
-        "memory systems"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "1bd26cfc1b0b2bfb6cccbd9f588545ec88b29211",
-      "canonicalId": "7fb45c1923358fcce80713edb1f0754d82bbc252",
-      "slug": "中国拟削减-sci-发表激励防技术泄密",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "中国拟削减 SCI 发表激励防技术泄密",
-      "score": 8,
-      "tags": [
-        "China",
-        "academic publishing",
-        "national security",
-        "SCI",
-        "research policy"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "61e66f12adaa4e15930c70cbd224de2233cae13d",
-      "canonicalId": "36a784aeeb2dc7d56011eb194f9b8abf88718ec1",
-      "slug": "b-站向-biliroaming-开源项目发律师函",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "B 站向 BiliRoaming 开源项目发律师函",
-      "score": 8,
-      "tags": [
-        "开源",
-        "逆向工程",
-        "法律",
-        "B站",
-        "BiliRoaming"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "e10cbcbe88c5b396803758378fece3920365ceb1",
-      "canonicalId": "ac9463cc8a568612b1f2f09135f9c432240acc74",
-      "slug": "微软欧盟文件显示40利润在爱尔兰员工仅-3",
-      "date": "2026-07-06",
-      "lang": "zh",
-      "title": "微软欧盟文件显示：40%利润在爱尔兰，员工仅 3%",
-      "score": 8,
-      "tags": [
-        "Microsoft",
-        "tax avoidance",
-        "corporate taxation",
-        "EU transparency",
-        "profit shifting"
-      ],
-      "originalSite": "techspot.com"
-    },
-    {
-      "id": "45697819a0dc260ebd504166d299510aa4adb7bb",
-      "canonicalId": "acd8564554bc549c0c35cf28cafda257896adfd2",
-      "slug": "lingbot-vision-masked-boundary-modeling-for-self-supervised-pretraining",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "LingBot-Vision: Masked Boundary Modeling for Self-Supervised Pretraining",
-      "score": 9,
-      "tags": [
-        "self-supervised learning",
-        "computer vision",
-        "masked modeling",
-        "boundary detection",
-        "pretraining"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "21952c751185d918b7c1372c9d78911f58bf738d",
-      "canonicalId": "85daad0293fb6cbd91d26a08ca93120a3d40acfa",
-      "slug": "tencent-open-sources-hy3-preview-295b-moe-with-256k-context",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Tencent Open-Sources Hy3 Preview: 295B MoE with 256K Context",
-      "score": 9,
-      "tags": [
-        "AI",
-        "MoE",
-        "open-source",
-        "LLM",
-        "Tencent"
-      ],
-      "originalSite": "t.me"
-    },
-    {
-      "id": "9200b6f5b9a7e9f632bbc320abfed952f5fae22d",
-      "canonicalId": "d8fcc4a1be8af56b6f1df1b592276b1ff9fd5c11",
-      "slug": "openwrt-one-open-source-hardware-router-with-wifi-7-successor-in-development",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "OpenWrt One: Open-Source Hardware Router with WiFi 7 Successor in Development",
-      "score": 8,
-      "tags": [
-        "openwrt",
-        "open hardware",
-        "router",
-        "networking",
-        "embedded systems"
-      ],
-      "originalSite": "openwrt.org"
-    },
-    {
-      "id": "708e9c6a6257cf6019d4b756f0da96ab413a76f3",
-      "canonicalId": "22b32121ee2aaa0e33f83bd10a9511e18d71ce14",
-      "slug": "anthropic-discovers-a-global-workspace-in-language-models",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Anthropic Discovers a Global Workspace in Language Models",
-      "score": 8,
-      "tags": [
-        "AI",
-        "language models",
-        "interpretability",
-        "Anthropic",
-        "deep learning"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "6ef75009c48cd572532afedd391db4b24d519387",
-      "canonicalId": "e571d8d480507fcc5e27bb3c95a418d40e93f428",
-      "slug": "microsoft-resets-xbox-division-amid-profitability-concerns",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Microsoft Resets Xbox Division Amid Profitability Concerns",
-      "score": 8,
-      "tags": [
-        "Xbox",
-        "gaming",
-        "Microsoft",
-        "business strategy",
-        "industry analysis"
-      ],
-      "originalSite": "news.xbox.com"
-    },
-    {
-      "id": "7b49d896b70976335a0d0246c6f4dcc1fea9d9fa",
-      "canonicalId": "c24926a0f5001dfe7605f0bbfeb81208ae1fd035",
-      "slug": "nvidia-gpu-debt-backstop-fuels-7t-ai-infrastructure-boom",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Nvidia GPU Debt Backstop Fuels $7T AI Infrastructure Boom",
-      "score": 8,
-      "tags": [
-        "AI Infrastructure",
-        "Nvidia",
-        "Cloud Computing",
-        "AI Financing",
-        "Debt Markets"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "6f621f34885eca3c3763f044dd5e7cc880e9229d",
-      "canonicalId": "a2934dac5e554e192b330061111eab632df91b76",
-      "slug": "openssh-104-released-with-post-quantum-signatures-and-sandbox-hardening",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "OpenSSH 10.4 released with post-quantum signatures and sandbox hardening",
-      "score": 8,
-      "tags": [
-        "security",
-        "cryptography",
-        "post-quantum",
-        "SSH",
-        "software release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "613339d3766c7216ff7e8cb7598d0e1555c23f1b",
-      "canonicalId": "d38d0c564145b9c52e76f0074933bbbd86addcba",
-      "slug": "exploring-the-linux-kernels-iomap-layer",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Exploring the Linux Kernel's iomap Layer",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "filesystem",
-        "iomap",
-        "storage",
-        "XFS"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "cdf151c86ae2472b7a309553c00a8c6e046ca50f",
-      "canonicalId": "8860bc512a7fdf1000489af344f8cc6b7e7442f9",
-      "slug": "trace-open-source-hierarchical-memory-for-llm-agents-achieves-825-f1-on-eventqa",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "TRACE: Open-Source Hierarchical Memory for LLM Agents Achieves 82.5% F1 on EventQA",
-      "score": 8,
-      "tags": [
-        "LLM agents",
-        "hierarchical memory",
-        "open-source",
-        "benchmark",
-        "memory systems"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "fe2368a7c574f1a2148e5cb646170ffb5487e0b0",
-      "canonicalId": "7fb45c1923358fcce80713edb1f0754d82bbc252",
-      "slug": "china-to-reduce-sci-publication-incentives-to-prevent-tech-leaks",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "China to Reduce SCI Publication Incentives to Prevent Tech Leaks",
-      "score": 8,
-      "tags": [
-        "China",
-        "academic publishing",
-        "national security",
-        "SCI",
-        "research policy"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "2c3b18645c65b3b8e231f0ff09cc0df6cee22a83",
-      "canonicalId": "36a784aeeb2dc7d56011eb194f9b8abf88718ec1",
-      "slug": "bilibili-sends-legal-letter-to-biliroaming-open-source-project",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Bilibili Sends Legal Letter to BiliRoaming Open-Source Project",
-      "score": 8,
-      "tags": [
-        "开源",
-        "逆向工程",
-        "法律",
-        "B站",
-        "BiliRoaming"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "0165aabab67f9dbcef294b99394b706130d2d665",
-      "canonicalId": "ac9463cc8a568612b1f2f09135f9c432240acc74",
-      "slug": "microsoft-eu-filing-shows-40-profit-in-ireland-only-3-staff",
-      "date": "2026-07-06",
-      "lang": "en",
-      "title": "Microsoft EU Filing Shows 40% Profit in Ireland, Only 3% Staff",
-      "score": 8,
-      "tags": [
-        "Microsoft",
-        "tax avoidance",
-        "corporate taxation",
-        "EU transparency",
-        "profit shifting"
-      ],
-      "originalSite": "techspot.com"
     }
   ]
 }

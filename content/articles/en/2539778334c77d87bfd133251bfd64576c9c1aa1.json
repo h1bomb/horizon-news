@@ -1,0 +1,41 @@
+{
+  "id": "2539778334c77d87bfd133251bfd64576c9c1aa1",
+  "canonicalId": "f3ad97fe70c6e9352f1ca8a1abd2e76aded382e4",
+  "slug": "bento-a-full-powerpoint-in-one-offline-html-file",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T15:19:00Z",
+  "lang": "en",
+  "title": "Bento: A full PowerPoint in one offline HTML file",
+  "summary": "Bento is a single HTML file \\(about 560 KB\\) that provides a full-featured presentation tool with editing, viewing, data management, and real-time collaboration, all offline and without any external dependencies. It was created using Claude Code and multiple libraries, and is released under the MIT license. Bento challenges traditional presentation software like PowerPoint by offering a portable, self-contained format that works offline and enables easy sharing and collaboration. This approach could significantly simplify how presentations are created, distributed, and edited across devices and teams. The file consists of a JSON block for slide data near the top and a base64-encoded application blob that is decompressed in the browser using DecompressionStream. Collaboration is achieved via an encrypted blind relay that never sees the data, and the entire tool can be opened directly in a browser without installation.",
+  "score": 8,
+  "tags": [
+    "presentations",
+    "HTML",
+    "offline",
+    "collaboration",
+    "web development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "starfallg",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49008211"
+    }
+  ],
+  "originalUrl": "https://bento.page/slides/",
+  "originalSite": "bento.page",
+  "context": "Traditional presentation tools like Microsoft PowerPoint require installation and often cloud storage for collaboration, making sharing and offline editing cumbersome. Bento uses a single HTML file that bundles all functionality, leveraging modern browser APIs like DecompressionStream for efficient packaging. An encrypted blind relay is a cryptographic technique where the server relays encrypted data without being able to decrypt it, preserving privacy. Claude Code is Anthropic&\\#x27;s AI coding assistant used here to help build the tool.",
+  "discussion": "Creator starfallg explained the internal structure: a JSON data block and a base64 application blob. User thoopring jokingly thought PowerPoint was still running. Praveer13 predicted this approach will become common and shared a similar project. Notpushkin reported that the live guestbook demo froze their M1 Mac but found it fun.",
+  "references": [
+    {
+      "title": "Blinding (cryptography) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blinding_%28cryptography%29"
+    },
+    {
+      "title": "Claude Code",
+      "url": "https://en.wikipedia.org/wiki/Claude_Code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

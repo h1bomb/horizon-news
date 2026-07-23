@@ -1,0 +1,41 @@
+{
+  "id": "e3786f5e984a4aec29cef1c42e4aa66c5023bf65",
+  "canonicalId": "42bea0685d12d40ac64510c25d5ae600af822ae9",
+  "slug": "malware-hidden-in-fake-job-interview-project-via-git-hooks",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T20:33:00Z",
+  "lang": "en",
+  "title": "Malware Hidden in Fake Job Interview Project via Git Hooks",
+  "summary": "An article reveals that a take-home interview project was used to distribute malware by embedding a malicious git hook that executes a remote payload. The attack checks the victim&\\#x27;s operating system and silently runs the payload during normal git operations. This attack targets software developers specifically, exploiting trust in job application processes. It highlights the growing threat of supply chain attacks via developer workflows, potentially compromising many systems. The git hook was disguised as a pre-commit hook and used a raw IP address for the payload server. The article notes that many developers would not suspect git hooks as a vector for malware.",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "malware",
+    "job interview",
+    "git hooks",
+    "supply chain attack"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "CITIZENDOT",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49013036"
+    }
+  ],
+  "originalUrl": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+  "originalSite": "citizendot.github.io",
+  "context": "Git hooks are scripts that run automatically at certain points in the git workflow, such as before a commit. They are used for automation like linting or testing. Supply chain attacks target less secure elements in the software development chain, such as third-party components or in this case, interview projects.",
+  "discussion": "Commenters shared personal stories of similar attacks, with one user realizing they had been hacked via a more sophisticated approach. Another noted that this is a recurring theme, referencing a similar story from last month. Some criticized Claude AI for being unhelpful due to safety safeguards.",
+  "references": [
+    {
+      "title": "Git Hooks",
+      "url": "https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks"
+    },
+    {
+      "title": "Supply chain attack",
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

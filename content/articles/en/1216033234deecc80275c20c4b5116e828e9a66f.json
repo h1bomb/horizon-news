@@ -1,0 +1,41 @@
+{
+  "id": "1216033234deecc80275c20c4b5116e828e9a66f",
+  "canonicalId": "8fcc591b02ebed1d3f691c6d12f018a7ec2c3e43",
+  "slug": "terence-tao-uses-chatgpt-to-explore-jacobian-conjecture-counterexample",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:30:00Z",
+  "lang": "en",
+  "title": "Terence Tao Uses ChatGPT to Explore Jacobian Conjecture Counterexample",
+  "summary": "Terence Tao shared a ChatGPT conversation where he strategically prompted the AI to derive and understand a structured counterexample to the Jacobian conjecture, showcasing AI-assisted mathematical reasoning. This demonstrates how large language models can accelerate discovery and deepen understanding in complex mathematics when guided by domain experts, potentially changing research workflows. The counterexample involves a polynomial in three variables with a specific structure that yields a non-constant Jacobian determinant, contradicting the conjecture for dimensions greater than two.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Mathematics",
+    "Jacobian Conjecture",
+    "ChatGPT",
+    "Terence Tao"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gmays",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010345"
+    }
+  ],
+  "originalUrl": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+  "originalSite": "chatgpt.com",
+  "context": "The Jacobian conjecture states that if a polynomial map has a constant nonzero Jacobian determinant, then it has a polynomial inverse. It was recently disproven for dimensions greater than two by Levent Alpöge using an AI model. The two-variable case remains open.",
+  "discussion": "Commenters praised Tao&\\#x27;s effective prompting strategy and noted that the counterexample is not brute-force but structurally insightful. Many expressed amazement at the potential of AI to amplify expert reasoning in mathematics.",
+  "references": [
+    {
+      "title": "Jacobian conjecture",
+      "url": "https://en.wikipedia.org/wiki/Jacobian_conjecture"
+    },
+    {
+      "title": "Jacobian Conjecture",
+      "url": "https://www.math.purdue.edu/~ttm/jacobian.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

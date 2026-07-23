@@ -1,0 +1,36 @@
+{
+  "id": "083a69fb1159aa7ac4253cd975a30f7596b0d9f3",
+  "canonicalId": "c463b2a64894dbc77055985043fb54173de10ecb",
+  "slug": "pypi-now-rejects-new-files-after-14-days",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T16:05:00Z",
+  "lang": "en",
+  "title": "PyPI now rejects new files after 14 days",
+  "summary": "PyPI, the Python Package Index, now rejects new file uploads to releases older than 14 days, implemented on July 22, 2026, to prevent supply chain attacks from compromised credentials. This policy directly reduces the attack surface for supply chain attacks, such as the earlier LiteLLM compromise, where attackers could inject malicious files into old releases after obtaining credentials, and protects millions of Python users. The change was driven by discussions starting in 2024 during PEP 740 \\(Digital Attestations\\) and revived after the LiteLLM and Telnyx compromises in March 2026; an analysis of 15,000 top packages found only 56 had published Python 3.14 wheels more than 14 days after release, minimizing disruption.",
+  "score": 8,
+  "tags": [
+    "Python",
+    "PyPI",
+    "security",
+    "supply chain",
+    "package management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1084218/",
+  "originalSite": "lwn.net",
+  "context": "PyPI is the official third-party software repository for Python. The &\\#x27;mutable reference&\\#x27; attack vector exploited in the LiteLLM incident allowed attackers to add malicious files to older releases after stealing publishing tokens. PEP 740 introduced digital attestations to verify package integrity, but this timeline restriction closes a remaining gap.",
+  "discussion": "The community discussion focused on balancing security against legitimate use cases like adding support for new Python versions; after data showed minimal impact, most participants supported the change, though some expressed concerns about edge cases and migration.",
+  "references": [
+    {
+      "title": "PEP 740 – Index support for digital attestations | peps .python.org",
+      "url": "https://peps.python.org/pep-0740/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

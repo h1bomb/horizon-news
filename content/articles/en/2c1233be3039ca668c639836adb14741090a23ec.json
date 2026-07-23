@@ -1,0 +1,43 @@
+{
+  "id": "2c1233be3039ca668c639836adb14741090a23ec",
+  "canonicalId": "89bfcaf71374655cc0af88943f49267601fb1b37",
+  "slug": "bpf-programs-can-now-attach-to-multiple-tracepoints-in-linux-72",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T15:08:00Z",
+  "lang": "en",
+  "title": "BPF programs can now attach to multiple tracepoints in Linux 7.2",
+  "summary": "Jiri Olsa&\\#x27;s work to allow BPF programs to attach to multiple tracepoints has been merged into the Linux kernel and will be available in version 7.2. This removes the previous limitation of one BPF program per tracepoint. This change significantly improves the flexibility of BPF programming for monitoring and debugging, enabling more efficient performance measurement without sacrificing execution speed. It makes tracepoints a more attractive option compared to kprobes for performance-sensitive operations. The new approach uses a newer ftrace API that supports a single ftrace object configuring multiple functions, each with its own trampoline. A lock pooling scheme with 32 shared locks replaced per-trampoline locks to avoid hitting lockdep&\\#x27;s 48-lock limit.",
+  "score": 8,
+  "tags": [
+    "kernel",
+    "BPF",
+    "tracepoints",
+    "Linux"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1082948/",
+  "originalSite": "lwn.net",
+  "context": "Tracepoints are kernel markers that allow hooking into specific kernel functions for debugging and monitoring. They are similar to kprobes but offer faster execution at the cost of slower setup. Previously, each tracepoint could only be attached by one BPF program, while kprobes supported multiple attachments.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Using the Linux Kernel Tracepoints Mathieu Desnoyers",
+      "url": "https://www.kernel.org/doc/Documentation/trace/tracepoints.txt"
+    },
+    {
+      "title": "Kernel Probes (Kprobes) — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/trace/kprobes.html"
+    },
+    {
+      "title": "Fun with tracepoints [LWN.net]",
+      "url": "https://lwn.net/Articles/346470/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "9b1574fe1c708395f90b5f6282cf2232fbe7e182",
+  "canonicalId": "89bfcaf71374655cc0af88943f49267601fb1b37",
+  "slug": "bpf-程序现可附加到多个跟踪点linux-72-中实现",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T15:08:00Z",
+  "lang": "zh",
+  "title": "BPF 程序现可附加到多个跟踪点，Linux 7.2 中实现",
+  "summary": "Jiri Olsa 的工作使 BPF 程序能够附加到多个跟踪点，该工作已合并到 Linux 内核中，并将随版本 7.2 发布。这消除了先前每个跟踪点只能附加一个 BPF 程序的限制。 这一变化显著提高了用于监控和调试的 BPF 编程的灵活性，能够在不牺牲执行速度的情况下实现更高效的性能测量。它使跟踪点成为性能敏感操作中比 kprobes 更具吸引力的选择。 新方法使用了较新的 ftrace API，该 API 支持单个 ftrace 对象配置多个函数，每个函数都有其自己的蹦床。使用 32 个共享锁的锁池方案替代了每个蹦床的独立锁，以避免触及 lockdep 的 48 锁限制。",
+  "score": 8,
+  "tags": [
+    "kernel",
+    "BPF",
+    "tracepoints",
+    "Linux"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1082948/",
+  "originalSite": "lwn.net",
+  "context": "跟踪点是内核中的标记，允许挂接到特定内核函数以进行调试和监控。它们与 kprobes 类似，但执行速度更快，设置速度较慢。以前，每个跟踪点只能被一个 BPF 程序附加，而 kprobes 支持多个附加。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Using the Linux Kernel Tracepoints Mathieu Desnoyers",
+      "url": "https://www.kernel.org/doc/Documentation/trace/tracepoints.txt"
+    },
+    {
+      "title": "Kernel Probes (Kprobes) — The Linux Kernel documentation",
+      "url": "https://docs.kernel.org/trace/kprobes.html"
+    },
+    {
+      "title": "Fun with tracepoints [LWN.net]",
+      "url": "https://lwn.net/Articles/346470/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

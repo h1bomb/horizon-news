@@ -1,0 +1,41 @@
+{
+  "id": "4c8c9dc923fbba5991001da18b2d0f6db80fd537",
+  "canonicalId": "4da9902d618926813a431fc10cef2dde6347d0aa",
+  "slug": "reddit-restricts-plain-html-angers-users-and-scrapers",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T12:32:00Z",
+  "lang": "en",
+  "title": "Reddit Restricts Plain HTML, Angers Users and Scrapers",
+  "summary": "Reddit has restricted access to its plain HTML version \\(old.reddit\\), effectively requiring users to either log in or use the JavaScript-heavy new interface. This change increases barriers for web scraping, data analysis, and automation, reducing Reddit&\\#x27;s value as a publicly accessible resource. The restriction specifically targets old.reddit, which was lightweight and easily scraped with simple HTTP requests; now scrapers may need headless browsers, increasing operational costs.",
+  "score": 8,
+  "tags": [
+    "reddit",
+    "web scraping",
+    "internet freedom",
+    "old.reddit",
+    "platform control"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "montroser",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49005747"
+    }
+  ],
+  "originalUrl": "https://www.cole-k.com/2026/07/21/reddit/",
+  "originalSite": "cole-k.com",
+  "context": "Old Reddit \\(old.reddit.com\\) is the classic, minimalist interface that loads quickly and is easily parsed by automated tools. Many users and developers rely on it for its simplicity and low resource usage. Reddit&\\#x27;s move aligns with its efforts to monetize data, including licensing deals with AI companies, and to exert more control over platform access.",
+  "discussion": "Users expressed frustration and skepticism, with some planning to abandon Reddit. Many believe the security justification is pretextual, and that the real goal is to block unauthorized AI training data scraping. Concerns about broader internet verification trends were also raised.",
+  "references": [
+    {
+      "title": "old Reddit",
+      "url": "https://old.reddit.com/"
+    },
+    {
+      "title": "Old Reddit Redirect - Chrome Web Store",
+      "url": "https://chromewebstore.google.com/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5875af9555febb801b1d4bff664049e24fed1d6e",
+  "canonicalId": "7e41e843d5a5b2958240699a734ed67e64131f27",
+  "slug": "初创公司的-postgres-生存指南",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T12:36:00Z",
+  "lang": "zh",
+  "title": "初创公司的 Postgres 生存指南",
+  "summary": "Hatchet 博客上发布了一篇实用指南，为使用 Postgres 的初创公司提供常见陷阱和最佳实践，这些内容源自社区见解。 初创公司常遇到数据库问题阻碍发展；本指南汇集专家建议，帮助他们避免代价高昂的错误并更有效地扩展。 指南建议使用 UUIDv7 而非 UUIDv4，强制执行确定性锁顺序以避免死锁，并避免使用 ORM 而改用直接 SQL。还建议使用串行主键、谨慎使用 jsonb，并对真相源采用仅追加模式。",
+  "score": 8,
+  "tags": [
+    "postgres",
+    "startups",
+    "databases",
+    "best-practices",
+    "scaling"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "abelanger",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49005787"
+    }
+  ],
+  "originalUrl": "https://hatchet.run/blog/postgres-survival-guide",
+  "originalSite": "hatchet.run",
+  "context": "PostgreSQL 是一款强大的开源关系型数据库，广泛用于初创公司。然而，常见的错误如不当索引、ORM 误用和糟糕的备份策略可能导致性能问题和数据丢失。本生存指南旨在提供经过实战检验的实践，帮助初创公司避免这些陷阱。",
+  "discussion": "社区讨论指出备份策略是一个关键遗漏，有人推荐使用 Barman 进行备份。用户还就 UUID 版本、ORM 使用和级联删除展开辩论，总体上认同指南，但提出了纠正，如使用 UUIDv7 和确定性锁顺序。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

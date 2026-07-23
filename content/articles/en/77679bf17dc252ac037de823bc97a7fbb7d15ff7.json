@@ -1,0 +1,32 @@
+{
+  "id": "77679bf17dc252ac037de823bc97a7fbb7d15ff7",
+  "canonicalId": "7e41e843d5a5b2958240699a734ed67e64131f27",
+  "slug": "postgres-survival-guide-for-startups",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T12:36:00Z",
+  "lang": "en",
+  "title": "Postgres Survival Guide for Startups",
+  "summary": "A blog post published on Hatchet&\\#x27;s blog provides a practical survival guide for startups using Postgres, covering common pitfalls and best practices gathered from community insights. Startups often face database-related issues that hinder growth; this guide consolidates expert advice to help them avoid costly mistakes and scale more effectively. The guide recommends using UUIDv7 over UUIDv4, enforcing deterministic lock ordering to prevent deadlocks, and avoiding ORMs in favor of direct SQL. It also suggests using serial primary keys, careful use of jsonb, and adopting an append-only pattern for the source of truth.",
+  "score": 8,
+  "tags": [
+    "postgres",
+    "startups",
+    "databases",
+    "best-practices",
+    "scaling"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "abelanger",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49005787"
+    }
+  ],
+  "originalUrl": "https://hatchet.run/blog/postgres-survival-guide",
+  "originalSite": "hatchet.run",
+  "context": "PostgreSQL is a powerful open-source relational database widely used by startups. However, common mistakes such as improper indexing, misuse of ORMs, and poor backup strategies can lead to performance issues and data loss. This survival guide aims to provide battle-tested practices to help startups avoid these pitfalls.",
+  "discussion": "The community discussion highlights missing backup strategies as a critical omission, with some recommending Barman for backups. Users also debate UUID versions, ORM usage, and cascading deletes, generally agreeing with the guide but offering corrections such as using UUIDv7 and ordering locks deterministically.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

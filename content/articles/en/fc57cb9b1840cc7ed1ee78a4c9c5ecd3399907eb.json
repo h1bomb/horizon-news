@@ -1,0 +1,44 @@
+{
+  "id": "fc57cb9b1840cc7ed1ee78a4c9c5ecd3399907eb",
+  "canonicalId": "45ead4ee1af6c7179cb7fd6c007bd61b9e1bbd48",
+  "slug": "sandbox-escape-flaws-found-in-4-major-ai-coding-agents",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T08:08:00Z",
+  "lang": "en",
+  "title": "Sandbox Escape Flaws Found in 4 Major AI Coding Agents",
+  "summary": "Pillar Security researchers discovered sandbox escape vulnerabilities in Cursor, OpenAI Codex, Google Gemini CLI, and Antigravity AI coding agents, exploitable via indirect prompt injection to achieve arbitrary code execution on developers&\\#x27; machines. These vulnerabilities affect widely-used AI coding tools, enabling attackers to compromise developer environments remotely without bypassing sandbox protections directly, posing a critical supply chain risk. Attackers plant malicious prompts in open-source repository files \\(e.g., README, issues\\) to trick the AI agent into writing configuration files that are later executed by host tools like Python interpreters or Git hooks. Vendors have released patches: Cursor 3.0.0, Codex CLI v0.95.0, while Google downgraded Antigravity issues, citing social engineering requirements.",
+  "score": 8,
+  "tags": [
+    "security",
+    "AI coding agents",
+    "sandbox escape",
+    "prompt injection",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+  "originalSite": "bleepingcomputer.com",
+  "context": "A sandbox escape occurs when code breaks out of a restricted environment to access the host system. Indirect prompt injection hides malicious instructions in external content that an AI agent processes, causing it to act against the user&\\#x27;s intent. AI coding agents execute code within sandboxes but trust workspace files, allowing crafted files to escape the sandbox when host tools read them.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is Sandbox Escape in Cybersecurity? - Huntress",
+      "url": "https://www.huntress.com/cybersecurity-101/topic/sandbox-escape"
+    },
+    {
+      "title": "Indirect Prompt Injection Attacks : The Silent LLM Threat",
+      "url": "https://www.linkedin.com/pulse/offensive-ai-llmml-red-teaming-indirect-prompt-injection-harshad-shah-hopnc"
+    },
+    {
+      "title": "87% of AI - Agent PRs Had Security Bugs... | OpenClawAI",
+      "url": "https://openclawai.io/blog/ai-coding-agents-security-study-87-percent-vulnerable-prs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "39ab8114e30e675fc2c4fc029aa6c090affd594e",
+  "canonicalId": "2a21281a6027871a4f5a40c8c6995b15f6dddb3d",
+  "slug": "everyone-should-know-simd",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:48:00Z",
+  "lang": "en",
+  "title": "Everyone Should Know SIMD",
+  "summary": "Mitchell Hashimoto published an article arguing that all developers should learn SIMD \\(Single Instruction, Multiple Data\\) to write high-performance code. The article sparks debate on the practical necessity of SIMD knowledge versus focusing on data-oriented design and compiler auto-vectorization, relevant for performance-critical applications. SIMD allows a single instruction to process multiple data points in parallel, but critics argue that optimizing data structures and access patterns often yields greater gains without manual SIMD intrinsics.",
+  "score": 8,
+  "tags": [
+    "SIMD",
+    "performance optimization",
+    "data-oriented design",
+    "compiler vectorization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "WadeGrimridge",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010648"
+    }
+  ],
+  "originalUrl": "https://mitchellh.com/writing/everyone-should-know-simd",
+  "originalSite": "mitchellh.com",
+  "context": "SIMD \\(Single Instruction, Multiple Data\\) is a parallel processing technique supported by modern CPUs and GPUs, enabling vectorized operations for tasks like multimedia and scientific computing. Data-oriented design focuses on memory layout to improve cache efficiency, often used in game development. Compiler auto-vectorization can automatically use SIMD instructions but may fail on complex code.",
+  "discussion": "Commenters emphasized checking compiler optimization reports and considering data structures before resorting to manual SIMD. Some expressed disdain for developers who ignore low-level performance understanding, while others argued 99% of developers should ignore SIMD due to higher-priority optimizations.",
+  "references": [
+    {
+      "title": "Single instruction , multiple threads - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Single_instruction,_multiple_threads"
+    },
+    {
+      "title": "Data-oriented design",
+      "url": "https://en.wikipedia.org/wiki/Data-oriented_design"
+    },
+    {
+      "title": "Use SIMD and hardware intrinsics in .NET - .NET | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/dotnet/standard/simd"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b88796677b1ff8a22c759d971183dd62507e7f8a",
+  "canonicalId": "6e8a63b0c20dd747172dc3ffd3c6925e644ca5e2",
+  "slug": "ai-实验室在-svg-生成中显现x27鹈鹕最大化x27偏见",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:17:00Z",
+  "lang": "zh",
+  "title": "AI 实验室在 SVG 生成中显现&\\#x27;鹈鹕最大化&\\#x27;偏见",
+  "summary": "对 1008 张 AI 生成的 SVG 图像进行定量分析发现，所有七个 AI 实验室生成的骑自行车鹈鹕图像都面向右侧，表明训练数据可能存在偏见。 这项研究为检测 AI 图像生成模型中的训练数据污染提出了新的基准，并揭示了可能影响模型评估和可信度的微妙系统性偏见。 该分析覆盖了 7 个 AI 实验室的 21 种动物与车辆组合，共 1008 张图像。骑自行车鹈鹕图像独特地显示出 100%朝右方向，而其他组合则有所不同。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "machine learning",
+    "benchmark",
+    "SVG",
+    "image generation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dcastm",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010129"
+    }
+  ],
+  "originalUrl": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+  "originalSite": "dylancastillo.co",
+  "context": "&quot;Pelicanmaxxing&quot;指的是社区通过要求 AI 模型生成骑自行车鹈鹕的 SVG 图像来测试模型的趋势，源于怀疑实验室可能专门针对这一热门基准进行训练。该分析用严格的方法论正式化了这一怀疑。",
+  "discussion": "评论者赞扬了该方法论的严谨性。SimonW 注意到有可能发现实验室在此特定基准上作弊；mauvehaus 观察到朝右方向可能因自行车传动系统位置而自然；stusmall 欢迎定量证据反驳&quot;他们肯定在训练&quot;的说法；SyneRyder 指出某些模型表现出&quot;水獭最大化&quot;行为，即水獭坐在飞机内而非飞机上。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

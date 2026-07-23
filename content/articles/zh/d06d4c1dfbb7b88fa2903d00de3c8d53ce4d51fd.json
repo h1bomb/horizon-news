@@ -1,0 +1,41 @@
+{
+  "id": "d06d4c1dfbb7b88fa2903d00de3c8d53ce4d51fd",
+  "canonicalId": "f3ad97fe70c6e9352f1ca8a1abd2e76aded382e4",
+  "slug": "bento一个离线-html-文件即可替代完整-powerpoint",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T15:19:00Z",
+  "lang": "zh",
+  "title": "Bento：一个离线 HTML 文件即可替代完整 PowerPoint",
+  "summary": "Bento 是一个约 560 KB 的单一 HTML 文件，提供了完整的演示工具，包括编辑、查看、数据管理和实时协作，完全离线且无任何外部依赖。它使用 Claude Code 和多个库构建，并以 MIT 许可证发布。 Bento 挑战了 PowerPoint 等传统演示软件，提供了一种便携、自包含的格式，支持离线使用并便于共享和协作。这种方法可能极大地简化演示文稿的创建、分发和跨设备、跨团队编辑。 该文件顶部包含一个 JSON 数据块存储幻灯片内容，以及一个 base64 编码的应用 blob，在浏览器中通过 DecompressionStream 解压。协作通过加密盲中继实现，中继无法查看数据，整个工具可直接在浏览器中打开，无需安装。",
+  "score": 8,
+  "tags": [
+    "presentations",
+    "HTML",
+    "offline",
+    "collaboration",
+    "web development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "starfallg",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49008211"
+    }
+  ],
+  "originalUrl": "https://bento.page/slides/",
+  "originalSite": "bento.page",
+  "context": "传统演示工具如 Microsoft PowerPoint 需要安装且协作常依赖云存储，导致共享和离线编辑不便。Bento 使用单一 HTML 文件捆绑所有功能，并利用 DecompressionStream 等现代浏览器 API 实现高效打包。加密盲中继是一种密码学技术，服务器在不解密的情况下转发加密数据，从而保护隐私。Claude Code 是 Anthropic 的 AI 编码助手，在此用于帮助构建该工具。",
+  "discussion": "创建者 starfallg 解释了内部结构：一个 JSON 数据块和一个 base64 应用 blob。用户 thoopring 开玩笑说以为 PowerPoint 还在运行。Praveer13 预测这种方法将变得常见，并分享了一个类似项目。Notpushkin 报告称直播留言本演示使他的 M1 Mac 卡死，但觉得很有趣。",
+  "references": [
+    {
+      "title": "Blinding (cryptography) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blinding_%28cryptography%29"
+    },
+    {
+      "title": "Claude Code",
+      "url": "https://en.wikipedia.org/wiki/Claude_Code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

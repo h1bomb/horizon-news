@@ -1,0 +1,41 @@
+{
+  "id": "945ce9c467a0aa2d1e00033ffc0e7747cca72d02",
+  "canonicalId": "8fcc591b02ebed1d3f691c6d12f018a7ec2c3e43",
+  "slug": "陶哲轩用-chatgpt-探索雅可比猜想反例",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:30:00Z",
+  "lang": "zh",
+  "title": "陶哲轩用 ChatGPT 探索雅可比猜想反例",
+  "summary": "陶哲轩分享了一段 ChatGPT 对话，通过策略性提示让 AI 推导并理解了一个构造性的雅可比猜想反例，展示了 AI 辅助的数学推理。 这表明在领域专家引导下，大型语言模型可以加速复杂数学中的发现和深化理解，可能改变研究流程。 该反例涉及一个三元多项式，其特定结构导致雅可比行列式不是常数，从而反驳了维度大于二时的猜想。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "Mathematics",
+    "Jacobian Conjecture",
+    "ChatGPT",
+    "Terence Tao"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gmays",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010345"
+    }
+  ],
+  "originalUrl": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+  "originalSite": "chatgpt.com",
+  "context": "雅可比猜想认为，如果多项式映射的雅可比行列式为非零常数，则该映射有 polynomial 逆映射。该猜想近期被 Levent Alpöge 使用 AI 模型反驳了维度大于二的情况。二维情况仍然未解。",
+  "discussion": "评论者称赞了陶哲轩有效的提示策略，并指出该反例不是暴力搜索得到的，而是具有结构洞察力。许多人惊叹于 AI 在数学中放大专家推理的潜力。",
+  "references": [
+    {
+      "title": "Jacobian conjecture",
+      "url": "https://en.wikipedia.org/wiki/Jacobian_conjecture"
+    },
+    {
+      "title": "Jacobian Conjecture",
+      "url": "https://www.math.purdue.edu/~ttm/jacobian.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

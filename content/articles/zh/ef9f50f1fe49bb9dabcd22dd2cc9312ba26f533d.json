@@ -1,0 +1,41 @@
+{
+  "id": "ef9f50f1fe49bb9dabcd22dd2cc9312ba26f533d",
+  "canonicalId": "4da9902d618926813a431fc10cef2dde6347d0aa",
+  "slug": "reddit-限制纯-html激怒用户和爬虫",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T12:32:00Z",
+  "lang": "zh",
+  "title": "Reddit 限制纯 HTML，激怒用户和爬虫",
+  "summary": "Reddit 已经限制了对纯 HTML 版本（old.reddit）的访问，实际上要求用户要么登录，要么使用依赖 JavaScript 的新界面。 这一变化提高了网络爬虫、数据分析和自动化的门槛，降低了 Reddit 作为公开可访问资源的价值。 该限制专门针对 old.reddit，它原本轻量且易于通过简单的 HTTP 请求抓取；现在爬虫可能需要无头浏览器，从而增加运营成本。",
+  "score": 8,
+  "tags": [
+    "reddit",
+    "web scraping",
+    "internet freedom",
+    "old.reddit",
+    "platform control"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "montroser",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49005747"
+    }
+  ],
+  "originalUrl": "https://www.cole-k.com/2026/07/21/reddit/",
+  "originalSite": "cole-k.com",
+  "context": "旧版 Reddit（old.reddit.com）是经典极简界面，加载速度快且易于被自动化工具解析。许多用户和开发者因其简单和低资源占用而依赖它。Reddit 此举与其数据货币化（包括与 AI 公司的许可协议）以及加强平台访问控制的努力相一致。",
+  "discussion": "用户表达了沮丧和怀疑，有些人计划放弃 Reddit。许多人认为安全理由只是借口，真正目标是阻止未经授权的 AI 训练数据抓取。还有人担心更广泛的互联网验证趋势。",
+  "references": [
+    {
+      "title": "old Reddit",
+      "url": "https://old.reddit.com/"
+    },
+    {
+      "title": "Old Reddit Redirect - Chrome Web Store",
+      "url": "https://chromewebstore.google.com/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

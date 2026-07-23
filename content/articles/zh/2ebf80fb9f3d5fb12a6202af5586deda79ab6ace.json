@@ -1,0 +1,45 @@
+{
+  "id": "2ebf80fb9f3d5fb12a6202af5586deda79ab6ace",
+  "canonicalId": "e9c71c13a6e71e02783b1d8efb0e6b901b83f67f",
+  "slug": "gigatokenllm-令牌化速度提升约-1000-倍",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:20:00Z",
+  "lang": "zh",
+  "title": "GigaToken：LLM 令牌化速度提升约 1000 倍",
+  "summary": "GigaToken 通过使用 SIMD 指令和缓存技术大幅优化预令牌化步骤，实现了约 1000 倍的令牌化加速，特别适用于大规模数据准备流程。 令牌化是预训练数据流程中的关键瓶颈，这种加速可以显著减少数据集迭代的时间和成本，尤其是在处理数 TB 文本时。 该优化专注于预令牌化（传统上由正则表达式引擎处理），利用 SIMD 并行处理多个字符，并对重复的预令牌段进行缓存。性能提升在现代 x86 和 ARM CPU 以及多种令牌化器上表现一致。",
+  "score": 8,
+  "tags": [
+    "tokenization",
+    "LLMs",
+    "optimization",
+    "SIMD",
+    "pre-training"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "syrusakbary",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010167"
+    }
+  ],
+  "originalUrl": "https://github.com/marcelroed/gigatoken/",
+  "originalSite": "github.com",
+  "context": "令牌化是将文本分割成语言模型可以理解的令牌的过程；通常包括使用正则表达式的预令牌化步骤。SIMD（单指令多数据）允许 CPU 同时对多个数据点执行相同操作，从而实现重复任务（如模式匹配）的大幅加速。GigaToken 应用这些技术来显著加速预令牌化这一瓶颈环节。",
+  "discussion": "社区指出令牌化在推理时间中占比不到 0.1%，因此加速对于离线预训练数据准备比在线推理更有价值。有评论者戏称这是对运行时微小部分的过度优化，而其他人则对如此高的加速倍数表示惊叹，并认可其对数据管道迭代周期的实际影响。",
+  "references": [
+    {
+      "title": "Tiktoken with ARM64 SIMD | Alpin&#x27;s Blog",
+      "url": "https://blog.alpindale.net/posts/simd_tiktoken/"
+    },
+    {
+      "title": "Tokenization | saghen/blink.pairs | DeepWiki",
+      "url": "https://deepwiki.com/saghen/blink.pairs/7.1-tokenization"
+    },
+    {
+      "title": "Pretokenization Curriculum in Language Models",
+      "url": "https://www.emergentmind.com/topics/pretokenization-curriculum"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

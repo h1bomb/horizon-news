@@ -1,0 +1,44 @@
+{
+  "id": "5cde2ee7e1df10f717395855921ea18d96e639e8",
+  "canonicalId": "45ead4ee1af6c7179cb7fd6c007bd61b9e1bbd48",
+  "slug": "四大-ai-编程代理曝出沙箱逃逸漏洞",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T08:08:00Z",
+  "lang": "zh",
+  "title": "四大 AI 编程代理曝出沙箱逃逸漏洞",
+  "summary": "Pillar Security 的研究人员发现，Cursor、OpenAI Codex、Google Gemini CLI 和 Antigravity 四款 AI 编程代理存在沙箱逃逸漏洞，攻击者可通过间接提示注入在开发者机器上执行任意代码。 这些漏洞影响了广泛使用的 AI 编码工具，攻击者无需直接突破沙箱即可远程入侵开发者环境，构成严重的供应链风险。 攻击者在开源仓库文件（如 README、Issues）中植入恶意提示，诱骗 AI 代理写入配置文件，随后被主机上的 Python 解释器或 Git 钩子等工具执行。厂商已发布补丁：Cursor 3.0.0、Codex CLI v0.95.0，而 Google 将 Antigravity 问题降级处理，认为需配合社会工程利用。",
+  "score": 8,
+  "tags": [
+    "security",
+    "AI coding agents",
+    "sandbox escape",
+    "prompt injection",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+  "originalSite": "bleepingcomputer.com",
+  "context": "沙箱逃逸是指代码突破受限环境以访问宿主系统。间接提示注入将恶意指令隐藏在 AI 代理处理的外部内容中，使其违背用户意图行事。AI 编程代理在沙箱内执行代码，但信任工作区文件，导致宿主工具读取这些文件时，精心构造的文件即可逃逸沙箱。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is Sandbox Escape in Cybersecurity? - Huntress",
+      "url": "https://www.huntress.com/cybersecurity-101/topic/sandbox-escape"
+    },
+    {
+      "title": "Indirect Prompt Injection Attacks : The Silent LLM Threat",
+      "url": "https://www.linkedin.com/pulse/offensive-ai-llmml-red-teaming-indirect-prompt-injection-harshad-shah-hopnc"
+    },
+    {
+      "title": "87% of AI - Agent PRs Had Security Bugs... | OpenClawAI",
+      "url": "https://openclawai.io/blog/ai-coding-agents-security-study-87-percent-vulnerable-prs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

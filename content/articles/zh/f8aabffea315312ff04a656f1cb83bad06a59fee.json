@@ -1,0 +1,41 @@
+{
+  "id": "f8aabffea315312ff04a656f1cb83bad06a59fee",
+  "canonicalId": "42bea0685d12d40ac64510c25d5ae600af822ae9",
+  "slug": "通过-git-钩子隐藏恶意软件的假面试项目",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T20:33:00Z",
+  "lang": "zh",
+  "title": "通过 Git 钩子隐藏恶意软件的假面试项目",
+  "summary": "一篇文章揭露，一个居家面试项目通过嵌入恶意的 Git 钩子来分发恶意软件，该钩子会执行远程载荷。攻击会检查受害者的操作系统，并在正常的 Git 操作中静默运行载荷。 该攻击专门针对软件开发者，利用了求职过程中对面试项目的信任。它凸显了通过开发者工作流进行供应链攻击的日益增长威胁，可能危及众多系统。 该 Git 钩子被伪装成预提交钩子，并使用原始 IP 地址作为载荷服务器。文章指出，许多开发者不会怀疑 Git 钩子会成为恶意软件的载体。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "malware",
+    "job interview",
+    "git hooks",
+    "supply chain attack"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "CITIZENDOT",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49013036"
+    }
+  ],
+  "originalUrl": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+  "originalSite": "citizendot.github.io",
+  "context": "Git 钩子是在 Git 工作流中的某些点自动运行的脚本，例如在提交之前。它们用于自动化任务，如代码检查或测试。供应链攻击针对软件开发链条中安全性较低的元素，例如第三方组件，或者在本例中的面试项目。",
+  "discussion": "评论者分享了类似攻击的个人经历，其中一位用户意识到自己通过更复杂的方式被黑了。另一位指出这是一个反复出现的主题，引用了上个月的类似故事。一些人批评 Claude AI 因安全保护而毫无帮助。",
+  "references": [
+    {
+      "title": "Git Hooks",
+      "url": "https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks"
+    },
+    {
+      "title": "Supply chain attack",
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

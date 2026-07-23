@@ -1,0 +1,45 @@
+{
+  "id": "112b2c31b17d2bf00101c70ba59f07627f41a30f",
+  "canonicalId": "e9c71c13a6e71e02783b1d8efb0e6b901b83f67f",
+  "slug": "gigatoken-1000x-faster-tokenization-for-llms",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T17:20:00Z",
+  "lang": "en",
+  "title": "GigaToken: ~1000x faster tokenization for LLMs",
+  "summary": "GigaToken achieves approximately 1000x faster tokenization by heavily optimizing pretokenization with SIMD instructions and caching, specifically targeting large-scale data preparation pipelines. Tokenization is a critical bottleneck in pre-training data pipelines, and this speedup can significantly reduce time and cost for dataset iteration, especially when processing terabytes of text. The optimization focuses on pretokenization, which is traditionally handled by a regex engine, using SIMD to process multiple characters in parallel and caching mappings for repeated pretoken segments. The performance gains are consistent across modern x86 and ARM CPUs and various tokenizers.",
+  "score": 8,
+  "tags": [
+    "tokenization",
+    "LLMs",
+    "optimization",
+    "SIMD",
+    "pre-training"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "syrusakbary",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49010167"
+    }
+  ],
+  "originalUrl": "https://github.com/marcelroed/gigatoken/",
+  "originalSite": "github.com",
+  "context": "Tokenization is the process of splitting text into tokens that a language model can understand; it typically includes a pretokenization step using regular expressions. SIMD \\(Single Instruction, Multiple Data\\) allows a CPU to perform the same operation on multiple data points simultaneously, enabling large speedups for repetitive tasks like pattern matching. GigaToken applies these techniques to significantly accelerate the pretokenization bottleneck.",
+  "discussion": "The community acknowledges that tokenization accounts for less than 0.1% of inference time, so the speedup is more valuable for offline pre-training data preparation than for online inference. Some commenters jokingly point out the over-optimization of a small fraction of runtime, while others express amazement at the sheer speedup numbers and recognize its practical impact on data pipeline iteration cycles.",
+  "references": [
+    {
+      "title": "Tiktoken with ARM64 SIMD | Alpin&#x27;s Blog",
+      "url": "https://blog.alpindale.net/posts/simd_tiktoken/"
+    },
+    {
+      "title": "Tokenization | saghen/blink.pairs | DeepWiki",
+      "url": "https://deepwiki.com/saghen/blink.pairs/7.1-tokenization"
+    },
+    {
+      "title": "Pretokenization Curriculum in Language Models",
+      "url": "https://www.emergentmind.com/topics/pretokenization-curriculum"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "92200d8a6e506563b76c6140a09ecb9e6a98fed5",
+  "canonicalId": "6604b937d01576e0acb541ce9e153f96a9348007",
+  "slug": "skewadam-cuts-moe-optimizer-memory-by-97",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T07:04:00Z",
+  "lang": "en",
+  "title": "SkewAdam cuts MoE optimizer memory by 97%",
+  "summary": "SkewAdam introduces a tiered optimizer that reduces optimizer state memory for Mixture-of-Experts \\(MoE\\) training by 97.4%, enabling a 6.78B MoE model to fit on a single 40GB GPU. This breakthrough directly addresses the critical VRAM bottleneck in MoE training, potentially democratizing access to large MoE models by lowering hardware requirements. The tiered allocation gives backbone parameters momentum plus factored second moments, experts only factored second moments, and the router exact second moments, dropping state memory from 50.6 GB to 1.29 GB.",
+  "score": 8,
+  "tags": [
+    "optimizer",
+    "mixture-of-experts",
+    "memory efficiency",
+    "deep learning",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Kooky-Ad-4124"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/",
+  "originalSite": "reddit.com",
+  "context": "MoE models are increasingly popular for scaling large language models with sparse activation, but training them requires storing optimizer states like momentum and variance, which consume huge VRAM. Adafactor reduces memory by factorizing the second moment estimate. SkewAdam extends this concept with a tiered approach, assigning different precision levels based on parameter type.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Adafactor - Cornell University Computational Optimization Open Textbook - Optimization Wiki",
+      "url": "https://optimization.cbe.cornell.edu/index.php?title=Adafactor"
+    },
+    {
+      "title": "Mixture of Experts Infrastructure | Introl Blog",
+      "url": "https://introl.com/blog/mixture-of-experts-moe-infrastructure-scaling-sparse-models-guide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

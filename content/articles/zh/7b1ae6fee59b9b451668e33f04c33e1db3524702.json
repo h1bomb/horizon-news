@@ -1,0 +1,36 @@
+{
+  "id": "7b1ae6fee59b9b451668e33f04c33e1db3524702",
+  "canonicalId": "c463b2a64894dbc77055985043fb54173de10ecb",
+  "slug": "pypi-现已拒绝超过-14-天的新文件上传",
+  "date": "2026-07-22",
+  "publishedAt": "2026-07-22T16:05:00Z",
+  "lang": "zh",
+  "title": "PyPI 现已拒绝超过 14 天的新文件上传",
+  "summary": "Python 包索引 PyPI 现已拒绝向超过 14 天的版本上传新文件，该措施于 2026 年 7 月 22 日生效，旨在防止因凭据泄露导致的供应链攻击。 这一政策直接减少了供应链攻击的攻击面，例如之前的 LiteLLM 事件中，攻击者在获取凭据后可以向旧版本注入恶意文件，从而保护了数百万 Python 用户。 该变更源于 2024 年 PEP 740（数字认证）讨论，并在 2026 年 3 月 LiteLLM 和 Telnyx 遭攻击后重启；对前 15000 个包的分析显示，仅 56 个在发布 14 天后发布了 Python 3.14 wheel，因此影响较小。",
+  "score": 8,
+  "tags": [
+    "Python",
+    "PyPI",
+    "security",
+    "supply chain",
+    "package management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1084218/",
+  "originalSite": "lwn.net",
+  "context": "PyPI 是 Python 的官方第三方软件仓库。LiteLLM 事件中利用的“可变引用”攻击向量允许攻击者在窃取发布令牌后向旧版本添加恶意文件。PEP 740 引入了数字认证来验证包完整性，而本次时间限制关闭了剩余的漏洞。",
+  "discussion": "社区讨论的重点是在安全性与合法用例（如添加对新 Python 版本的支持）之间取得平衡；数据显示影响极小后，大多数参与者支持这一变更，但也有人对边缘情况和迁移表达了担忧。",
+  "references": [
+    {
+      "title": "PEP 740 – Index support for digital attestations | peps .python.org",
+      "url": "https://peps.python.org/pep-0740/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
