@@ -1,0 +1,41 @@
+{
+  "id": "3e01f88ac329393e59e5a56c6858428fbe91ab38",
+  "canonicalId": "7e2d250d81a8a049639eb8144fe5fca56f06007c",
+  "slug": "learn-opengl-premier-tutorial-for-modern-graphics-programming",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T14:53:00Z",
+  "lang": "en",
+  "title": "Learn OpenGL: Premier Tutorial for Modern Graphics Programming",
+  "summary": "LearnOpenGL.com is a comprehensive, free online tutorial that teaches modern OpenGL \\(version 3.3+\\) using programmable shaders and buffer objects. It is widely regarded by the community as the definitive resource for learning computer graphics, especially for hobbyists and students. Mastering OpenGL through this tutorial provides a solid foundation for game development, 3D rendering, and further graphics APIs. The tutorial covers topics from shader basics to advanced techniques like lighting, texturing, and PBR. It includes downloadable source code and interactive examples.",
+  "score": 8,
+  "tags": [
+    "OpenGL",
+    "graphics programming",
+    "tutorial",
+    "computer graphics",
+    "game development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49022634"
+    }
+  ],
+  "originalUrl": "https://learnopengl.com/",
+  "originalSite": "learnopengl.com",
+  "context": "OpenGL is a cross-platform API for rendering 2D and 3D graphics, widely used in games and scientific visualization. Modern OpenGL \\(3.0+\\) emphasizes programmable shaders over the old fixed-function pipeline, giving developers more control over rendering. LearnOpenGL.com specifically teaches the core OpenGL profile, which is forward-compatible and efficient.",
+  "discussion": "The community overwhelmingly praises the resource, calling it the &\\#x27;Holy Bible of Graphics Programming.&\\#x27; Some commenters suggest first building a software renderer to grasp fundamentals, while others recommend using higher-level libraries like Sokol or SDL-GPU for production use. A user expressed how the tutorial made shaders click for them.",
+  "references": [
+    {
+      "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+      "url": "https://learnopengl.com/"
+    },
+    {
+      "title": "Core OpenGL",
+      "url": "https://grokipedia.com/page/core_opengl"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

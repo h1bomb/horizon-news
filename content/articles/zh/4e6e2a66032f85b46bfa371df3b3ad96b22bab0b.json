@@ -1,0 +1,39 @@
+{
+  "id": "4e6e2a66032f85b46bfa371df3b3ad96b22bab0b",
+  "canonicalId": "e36aa4d640d1bfa566ce427c0088b331d6bfba1b",
+  "slug": "pypi-拒绝向超过-14-天的旧版本上传新文件",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T04:50:00Z",
+  "lang": "zh",
+  "title": "PyPI 拒绝向超过 14 天的旧版本上传新文件",
+  "summary": "Python 包索引 \\(PyPI\\) 实施了一项新策略，拒绝向超过 14 天的旧版本上传任何新文件，旨在防止通过被泄露的发布令牌或工作流发起的供应链攻击。 这一措施关闭了一个危险的攻击途径，攻击者可能通过泄露的凭证向原本稳定、广泛使用的包注入恶意代码。它显著增强了 Python 生态系统的安全性，保护了数百万依赖 PyPI 获取依赖项的用户。 该限制适用于 PyPI 上的所有项目，并通过 Warehouse 仓库的拉取请求 \\#19727 实施。据 PyPI 博客称，没有证据表明该攻击曾被利用，但技术上的可能性一直存在。",
+  "score": 8,
+  "tags": [
+    "python",
+    "pypi",
+    "supply-chain-security",
+    "packaging"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "PyPI 是 Python 的官方第三方软件仓库，开发者在此发布包。随着时间的推移，针对 PyPI 的供应链攻击不断增加，攻击者通过破坏账户或令牌上传恶意版本的流行包。发布令牌是在 CI/CD 管道中用于上传包的自动化凭证；如果被窃取，可以在不被察觉的情况下修改现有版本。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Getting Started - PyPI Docs",
+      "url": "https://docs.pypi.org/trusted-publishers/"
+    },
+    {
+      "title": "Don&#x27;t Be Fooled: Securing Your Python Projects from PyPI Supply ...",
+      "url": "https://bolster.ai/blog/pypi-supply-chain-attacks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

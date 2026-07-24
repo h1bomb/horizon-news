@@ -1,0 +1,40 @@
+{
+  "id": "d3a6d7a2de6d3a9fbbc244c5a4416d27072d9e4a",
+  "canonicalId": "4d2de900e9d4df3bc480956428d7d14791e158b5",
+  "slug": "gpt-55-scores-106-on-activevision-humans-hit-961",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T19:20:00Z",
+  "lang": "en",
+  "title": "GPT-5.5 Scores 10.6% on ActiveVision, Humans Hit 96.1%",
+  "summary": "A new benchmark called ActiveVision tests iterative visual reasoning, where GPT-5.5 at its highest reasoning-effort tier scored only 10.6% and Claude Fable 5 scored 3.5%, while humans averaged 96.1%. This result reveals a critical gap in current vision-language models: they fail at tasks requiring repeated observation, a capability that humans find trivial. It underscores that even state-of-the-art models lack active perception abilities essential for real-world applications. GPT-5.5 scored zero on 11 of the 17 tasks, and Claude Fable 5 scored zero on 14 tasks. The benchmark was designed to force repeated visual perception rather than a single static description, making it uniquely challenging for current models.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "benchmark",
+    "vision",
+    "GPT-5.5",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Justgototheeffinmoon"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v4ns8l/gpt55_scores_106_on_activevision_humans_hit_961_r/",
+  "originalSite": "reddit.com",
+  "context": "ActiveVision is a new benchmark for diagnosing whether multimodal large language models can iteratively look at an image during reasoning. Unlike standard vision benchmarks that test static image understanding, ActiveVision requires models to gather information over multiple steps, similar to how humans inspect a scene. Current frontier models such as GPT-5.5 and Claude Fable 5 excel at single-glance tasks but struggle when continuous visual feedback is needed.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ActiveVision — A Benchmark for Iterative Visual Reasoning",
+      "url": "https://activevision.dev/"
+    },
+    {
+      "title": "Reasoning Effort : Cost vs Quality Benchmarks 2026",
+      "url": "https://www.digitalapplied.com/blog/reasoning-effort-cost-vs-quality-benchmarks-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

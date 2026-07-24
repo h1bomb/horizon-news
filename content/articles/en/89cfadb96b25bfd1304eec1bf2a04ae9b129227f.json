@@ -1,0 +1,40 @@
+{
+  "id": "89cfadb96b25bfd1304eec1bf2a04ae9b129227f",
+  "canonicalId": "acc4025de58092abd2aed41292b8fbfe924c9151",
+  "slug": "china-achieves-first-cross-regional-synchronous-eeg-collection-from-1000-people",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T10:59:00Z",
+  "lang": "en",
+  "title": "China Achieves First Cross-Regional Synchronous EEG Collection from 1,000+ People",
+  "summary": "On July 22, a Chinese research team announced a new EEG acquisition device that enabled the world&\\#x27;s first cross-regional synchronous collection of brain signals from over a thousand people, supporting neural foundation model training and general brain-computer interface development. This breakthrough addresses two key challenges—miniaturization versus signal accuracy and millisecond-level time alignment across devices and regions—which could accelerate the development of neural AI models that understand human cognition from brain signals, benefiting BCI applications. The researchers overcame network latency and synchronization issues to achieve millisecond-level time alignment across distributed devices. The collected data will be used to train neural foundation models aimed at enabling AI to interpret human cognitive states from neural signals.",
+  "score": 9,
+  "tags": [
+    "brain-computer interface",
+    "EEG",
+    "neural networks",
+    "AI",
+    "China"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://m.weibo.cn/detail/5323896905534617",
+  "originalSite": "m.weibo.cn",
+  "context": "Brain-computer interfaces \\(BCIs\\) enable direct communication between the brain and external devices by interpreting neural signals. EEG is a non-invasive method to record brain activity, but its low spatial resolution and poor signal-to-noise ratio have limited practical BCI performance. Large-scale synchronous EEG data collection is challenging due to device synchronization and network latency. Neural foundation models pretrained on massive datasets have shown promise in improving decoding accuracy for BCIs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "EEG Foundation Model Improves Online Directional Motor Imagery Brain-computer Interface Control | bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.24.714020v1"
+    },
+    {
+      "title": "Frontiers | Beyond single-modality screening: toward an EEG –IoT...",
+      "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1877841/full"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

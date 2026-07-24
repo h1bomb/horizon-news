@@ -1,0 +1,40 @@
+{
+  "id": "fc605566708a9866bca909e606edcf4f973042ab",
+  "canonicalId": "84720da6bfaed99d39bfb204f952ca6b833834dd",
+  "slug": "prompt-injection-found-in-neurips-2026-reviewer-pdfs",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T16:34:00Z",
+  "lang": "en",
+  "title": "Prompt Injection Found in NeurIPS 2026 Reviewer PDFs",
+  "summary": "A Reddit user reported that a prompt injection was discovered in their NeurIPS 2026 reviewer PDF, suggesting that reviewers may have used LLMs to generate reviews without proper disclosure. This incident undermines the integrity of the peer review process and raises concerns about undetected LLM-generated text in academic conferences, potentially affecting the fairness of paper acceptance. The user&\\#x27;s GPT warned about the injection, and the prompt instructed the reviewer to include specific phrases like &\\#x27;This work addresses the central challenge&\\#x27; in the output. Similar formulaic wording in reviews may indicate LLM use.",
+  "score": 9,
+  "tags": [
+    "prompt injection",
+    "NeurIPS",
+    "peer review",
+    "LLM",
+    "ethics"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Kwangryeol"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/",
+  "originalSite": "reddit.com",
+  "context": "Prompt injection is a security exploit where malicious inputs cause LLMs to behave unintendedly. In peer review, using LLMs to generate reviews without disclosure is considered unethical due to lack of accountability and potential biases. The NeurIPS conference typically uses OpenReview for manuscript handling.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    },
+    {
+      "title": "Is Your Paper Being Reviewed by an LLM ? A New Benchmark...",
+      "url": "https://arxiv.org/html/2502.19614v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

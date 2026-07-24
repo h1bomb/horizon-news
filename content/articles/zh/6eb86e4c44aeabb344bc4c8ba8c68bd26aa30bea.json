@@ -1,0 +1,40 @@
+{
+  "id": "6eb86e4c44aeabb344bc4c8ba8c68bd26aa30bea",
+  "canonicalId": "acc4025de58092abd2aed41292b8fbfe924c9151",
+  "slug": "中国首次实现跨地域千人同步脑电采集",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T10:59:00Z",
+  "lang": "zh",
+  "title": "中国首次实现跨地域千人同步脑电采集",
+  "summary": "7 月 22 日，中国科研团队发布新型脑电采集装置，首次在全球实现跨地域上千人同步脑电信号采集，为神经大模型训练和脑机接口通用技术研发提供支持。 这一突破解决了设备小型化与信号精度兼顾、多设备多地域毫秒级时间对齐两大难题，有望加速通过神经信号理解人类认知的神经 AI 模型开发，推动脑机接口应用。 研究团队克服了网络延迟和多设备同步难题，实现了分布式设备之间的毫秒级时间对齐。采集的数据将用于训练神经基础模型，旨在让 AI 通过神经信号理解人类认知状态。",
+  "score": 9,
+  "tags": [
+    "brain-computer interface",
+    "EEG",
+    "neural networks",
+    "AI",
+    "China"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://m.weibo.cn/detail/5323896905534617",
+  "originalSite": "m.weibo.cn",
+  "context": "脑机接口（BCI）通过解读神经信号实现大脑与外部设备的直接通信。脑电图（EEG）是一种非侵入性记录大脑活动的方法，但其空间分辨率低、信噪比差，限制了 BCI 的实际性能。大规模同步 EEG 数据采集因设备同步和网络延迟而具有挑战性。基于大规模数据集预训练的神经基础模型在提升 BCI 解码精度方面展现出了潜力。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "EEG Foundation Model Improves Online Directional Motor Imagery Brain-computer Interface Control | bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.24.714020v1"
+    },
+    {
+      "title": "Frontiers | Beyond single-modality screening: toward an EEG –IoT...",
+      "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1877841/full"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

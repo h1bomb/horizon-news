@@ -1,0 +1,44 @@
+{
+  "id": "84a3b3b13ba2755e3441af446f73ed5924b3c3d3",
+  "canonicalId": "8106c1d793c09d99d147ab731aabcaafd8a50a72",
+  "slug": "vera-rubin-vs-gb200-inference-tco-analysis",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T00:47:00Z",
+  "lang": "en",
+  "title": "Vera Rubin vs GB200: Inference TCO Analysis",
+  "summary": "The article compares Nvidia&\\#x27;s Vera Rubin NVL72 architecture with GB200 NVL72 for inference, revealing that Vera Rubin achieves 5.4x performance per megawatt and 5x performance per dollar on DeepSeek R1 through extreme co-design including 3-bit LUT Tensor Cores and SM140 Feynman GPU. This analysis underscores Nvidia&\\#x27;s focus on inference cost-efficiency, crucial for scaling AI workloads. The architectural innovations may set new performance-per-watt and performance-per-dollar benchmarks for the industry. Vera Rubin NVL72 integrates a 3-bit lookup-table-based Tensor Core and SM140 Feynman GPU, along with Vera CPU, NVLink 6, ConnectX-9, BlueField-4, and Spectrum-6. It delivers 5.4x performance per MW and 5x performance per dollar over GB200 NVL72 for DeepSeek R1 inference.",
+  "score": 8,
+  "tags": [
+    "AI hardware",
+    "inference",
+    "GPU architecture",
+    "TCO",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "Nvidia&\\#x27;s rack-scale Oberon architecture evolves from GB200 \\(based on Blackwell\\) to Vera Rubin \\(Rubin GPU + Vera CPU\\). The Rubin GPU introduces 3-bit LUT Tensor Cores for efficient low-bit inference, and the upcoming Feynman GPU \\(2028\\) continues this trend. Such hardware-software co-design aims to dramatically reduce total cost of ownership for large-scale AI inference.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vera Rubin NVL 72 vs GB200 NVL 72 ? Inference TCO &amp; Architecture ...",
+      "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference"
+    },
+    {
+      "title": "Vera Rubin NVL 72 , Bluefield, and NVLink - Nvidia... | Tom&#x27;s Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-spills-the-beans-on-vera-cpu-spec-benchmarks-revealed-olympus-architecture-detailed-and-more/3"
+    },
+    {
+      "title": "NVIDIA Unveils Next-Gen Feynman GPU In Updated Roadmap...",
+      "url": "https://wccftech.com/nvidia-next-gen-feynman-gpu-updated-roadmap-arriving-2028-next-gen-hbm-memory/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

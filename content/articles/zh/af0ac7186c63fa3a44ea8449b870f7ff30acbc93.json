@@ -1,0 +1,40 @@
+{
+  "id": "af0ac7186c63fa3a44ea8449b870f7ff30acbc93",
+  "canonicalId": "84720da6bfaed99d39bfb204f952ca6b833834dd",
+  "slug": "neurips-2026-审稿-pdf-中发现提示注入攻击",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T16:34:00Z",
+  "lang": "zh",
+  "title": "NeurIPS 2026 审稿 PDF 中发现提示注入攻击",
+  "summary": "一位 Reddit 用户报告在其 NeurIPS 2026 审稿 PDF 中发现提示注入，表明审稿人可能使用 LLM 生成审稿意见而未适当披露。 这一事件破坏了同行评审过程的诚信，并引发了对学术会议中未检测到的 LLM 生成文本的担忧，可能影响论文接收的公平性。 用户的 GPT 警告了注入，提示要求审稿人在输出中必须包含‘This work addresses the central challenge’等特定短语。审稿中类似公式化的措辞可能表明使用了 LLM。",
+  "score": 9,
+  "tags": [
+    "prompt injection",
+    "NeurIPS",
+    "peer review",
+    "LLM",
+    "ethics"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Kwangryeol"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/",
+  "originalSite": "reddit.com",
+  "context": "提示注入是一种安全攻击，恶意输入可使 LLM 产生意外行为。在同行评审中，未经披露使用 LLM 生成审稿意见被认为是不道德的，因为缺乏问责且可能存在偏见。NeurIPS 会议通常使用 OpenReview 处理稿件。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    },
+    {
+      "title": "Is Your Paper Being Reviewed by an LLM ? A New Benchmark...",
+      "url": "https://arxiv.org/html/2502.19614v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

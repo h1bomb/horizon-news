@@ -1,0 +1,40 @@
+{
+  "id": "b4ac9b5c7d901bf9963a97107ee00e203870a57a",
+  "canonicalId": "367bb2eccf8c6e882da2c29a263e075a0e3a8329",
+  "slug": "thomas-ptacek-open-weights-model-could-automate-sandbox-escapes",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-22T23:59:00Z",
+  "lang": "en",
+  "title": "Thomas Ptacek: Open Weights Model Could Automate Sandbox Escapes",
+  "summary": "Security expert Thomas Ptacek claims that an open weights AI model from 2025, combined with a pentest harness, could autonomously perform sandbox escapes and scan or hack into most networks. This insight challenges the assumption that AI sandboxing by companies like OpenAI is inherently secure, and highlights the growing offensive capability of open models for automated security testing. Ptacek specifically contrasts open models with frontier models like those from OpenAI, suggesting that even a non-frontier open weights model could be sufficient for such attacks.",
+  "score": 8,
+  "tags": [
+    "ai-security",
+    "open-weights",
+    "pentesting",
+    "sandbox-escape",
+    "generative-ai"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "An open weights model releases the trained parameters of a neural network, allowing anyone to run and fine-tune it, but not necessarily the full source code or training data. A pentest harness is a framework that automates penetration testing tasks. Sandbox escape refers to breaking out of a restricted environment \\(sandbox\\) to access the underlying system. This comment was made in response to news about OpenAI&\\#x27;s systems being hacked.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Open Weights and Their Impact on Innovation",
+      "url": "https://www.linkedin.com/top-content/innovation/open-innovation-models/open-weights-and-their-impact-on-innovation/"
+    },
+    {
+      "title": "OpenAI models breached Hugging Face in an eval: zero-day escape ...",
+      "url": "https://lilting.ch/en/articles/openai-model-sandbox-escape-hugging-face-breach"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

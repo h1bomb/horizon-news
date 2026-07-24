@@ -1,0 +1,41 @@
+{
+  "id": "b6ba98c195c35a4dafa08a1988c023e4c5cfb5cb",
+  "canonicalId": "7e2d250d81a8a049639eb8144fe5fca56f06007c",
+  "slug": "learn-opengl现代图形编程首选教程",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T14:53:00Z",
+  "lang": "zh",
+  "title": "Learn OpenGL：现代图形编程首选教程",
+  "summary": "LearnOpenGL.com 是一个全面的免费在线教程，教授使用可编程着色器和缓冲对象的现代 OpenGL（3.3+ 版本）。 它被社区广泛认为是学习计算机图形学的权威资源，尤其适合爱好者与学生。通过本教程掌握 OpenGL，可为游戏开发、3D 渲染及更高级图形 API 奠定坚实基础。 教程涵盖从着色器基础到光照、纹理及 PBR 等高级技术，并附带可下载的源代码和交互式示例。",
+  "score": 8,
+  "tags": [
+    "OpenGL",
+    "graphics programming",
+    "tutorial",
+    "computer graphics",
+    "game development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49022634"
+    }
+  ],
+  "originalUrl": "https://learnopengl.com/",
+  "originalSite": "learnopengl.com",
+  "context": "OpenGL 是一个跨平台的 2D/3D 图形渲染 API，广泛应用于游戏和科学可视化。现代 OpenGL（3.0+）强调可编程着色器，取代了旧的固定功能管线，赋予开发者更多渲染控制权。LearnOpenGL.com 专门教授核心 OpenGL 配置文件，该配置文件向前兼容且高效。",
+  "discussion": "社区对该资源赞不绝口，称其为&\\#x27;图形编程的圣经&\\#x27;。部分评论者建议先构建软件渲染器以掌握基本原理，另一些人则推荐使用 Sokol 或 SDL-GPU 等高级库进行生产实践。有用户表示该教程让他们真正理解了着色器。",
+  "references": [
+    {
+      "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+      "url": "https://learnopengl.com/"
+    },
+    {
+      "title": "Core OpenGL",
+      "url": "https://grokipedia.com/page/core_opengl"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

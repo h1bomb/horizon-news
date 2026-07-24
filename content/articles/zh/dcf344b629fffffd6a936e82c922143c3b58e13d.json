@@ -1,0 +1,32 @@
+{
+  "id": "dcf344b629fffffd6a936e82c922143c3b58e13d",
+  "canonicalId": "572ba8a27c35049533b73362afc1972062f2b3db",
+  "slug": "500-行-c实现软件渲染器教程",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T14:17:00Z",
+  "lang": "zh",
+  "title": "500 行 C++实现软件渲染器教程",
+  "summary": "一个用 500 行纯 C++构建软件渲染器的详细教程已在 haqr.eu 上发布，涵盖了不使用外部库的计算机图形学基础技术。 该资源作为理解渲染底层机制的宝贵教育工具，促进了计算机图形学的深度学习，并激发了社区向 Rust 等语言移植。 教程使用 500 行纯 C++，无外部依赖，逐步讲解数学和光栅化；社区讨论强调三角形裁剪的必要性，并引用了经典图形学教材。",
+  "score": 8,
+  "tags": [
+    "software rendering",
+    "C++",
+    "computer graphics",
+    "tutorial",
+    "hackernews"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mpweiher",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49022038"
+    }
+  ],
+  "originalUrl": "https://haqr.eu/tinyrenderer/",
+  "originalSite": "haqr.eu",
+  "context": "软件渲染是一种由 CPU 处理所有图形计算、不依赖 GPU 的技术。虽然性能不如硬件渲染，但它提供了完全的控制权和深刻的教育价值，有助于理解像素是如何绘制的。",
+  "discussion": "社区成员分享了他们自己的实现，包括一个带有特效的 Rust 移植版本，并讨论了三角形裁剪的重要性以及 Foley/Van Dam 等经典图形学参考书。总体情绪积极，许多人认可该教程的教育价值。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

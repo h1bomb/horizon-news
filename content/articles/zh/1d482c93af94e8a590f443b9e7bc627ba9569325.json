@@ -1,0 +1,40 @@
+{
+  "id": "1d482c93af94e8a590f443b9e7bc627ba9569325",
+  "canonicalId": "4d2de900e9d4df3bc480956428d7d14791e158b5",
+  "slug": "gpt-55-在-activevision-基准测试仅得-106人类达-961",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T19:20:00Z",
+  "lang": "zh",
+  "title": "GPT-5.5 在 ActiveVision 基准测试仅得 10.6%，人类达 96.1%",
+  "summary": "一项名为 ActiveVision 的新基准测试了迭代视觉推理能力，GPT-5.5 在其最高推理努力级别仅得 10.6%，Claude Fable 5 得 3.5%，而人类平均得 96.1%。 这一结果揭示了当前视觉语言模型的一个关键缺陷：它们无法完成需要反复观察的任务，而这对人类来说轻而易举。它强调，即使是顶级模型也缺乏现实应用所必需的主动感知能力。 GPT-5.5 在 17 项任务中有 11 项得零分，Claude Fable 5 有 14 项得零分。该基准测试旨在强制进行重复视觉感知而非单次静态描述，因此对当前模型具有独特挑战性。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "benchmark",
+    "vision",
+    "GPT-5.5",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Justgototheeffinmoon"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v4ns8l/gpt55_scores_106_on_activevision_humans_hit_961_r/",
+  "originalSite": "reddit.com",
+  "context": "ActiveVision 是一个新基准，用于诊断多模态大语言模型能否在推理过程中迭代地观察图像。与测试静态图像理解的标准视觉基准不同，ActiveVision 要求模型通过多步骤收集信息，类似人类检查场景的方式。当前的领先模型如 GPT-5.5 和 Claude Fable 5 擅长单次观察任务，但在需要连续视觉反馈时表现不佳。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "ActiveVision — A Benchmark for Iterative Visual Reasoning",
+      "url": "https://activevision.dev/"
+    },
+    {
+      "title": "Reasoning Effort : Cost vs Quality Benchmarks 2026",
+      "url": "https://www.digitalapplied.com/blog/reasoning-effort-cost-vs-quality-benchmarks-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

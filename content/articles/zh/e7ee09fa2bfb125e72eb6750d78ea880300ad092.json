@@ -1,0 +1,44 @@
+{
+  "id": "e7ee09fa2bfb125e72eb6750d78ea880300ad092",
+  "canonicalId": "8106c1d793c09d99d147ab731aabcaafd8a50a72",
+  "slug": "vera-rubin-与-gb200-推理总拥有成本对比分析",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T00:47:00Z",
+  "lang": "zh",
+  "title": "Vera Rubin 与 GB200 推理总拥有成本对比分析",
+  "summary": "文章对比了 Nvidia 的 Vera Rubin NVL72 架构与 GB200 NVL72 在推理方面的表现，结果显示 Vera Rubin 通过包括 3 位查找表张量核心和 SM140 Feynman GPU 在内的极致协同设计，在 DeepSeek R1 上实现了每兆瓦性能 5.4 倍、每美元性能 5 倍的提升。 这一分析凸显了 Nvidia 对推理成本效益的关注，这对于扩展 AI 工作负载至关重要。架构创新可能为行业树立新的每瓦性能和每美元性能基准。 Vera Rubin NVL72 集成了基于 3 位查找表的张量核心和 SM140 Feynman GPU，以及 Vera CPU、NVLink 6、ConnectX-9、BlueField-4 和 Spectrum-6。在 DeepSeek R1 推理中，其每兆瓦性能和每美元性能分别是 GB200 NVL72 的 5.4 倍和 5 倍。",
+  "score": 8,
+  "tags": [
+    "AI hardware",
+    "inference",
+    "GPU architecture",
+    "TCO",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "Nvidia 的机架级 Oberon 架构从基于 Blackwell 的 GB200 演进到 Vera Rubin（Rubin GPU + Vera CPU）。Rubin GPU 引入了 3 位查找表张量核心以实现高效的低位推理，而即将推出的 Feynman GPU（2028 年）延续了这一趋势。这种软硬件协同设计旨在大幅降低大规模 AI 推理的总拥有成本。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Vera Rubin NVL 72 vs GB200 NVL 72 ? Inference TCO &amp; Architecture ...",
+      "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference"
+    },
+    {
+      "title": "Vera Rubin NVL 72 , Bluefield, and NVLink - Nvidia... | Tom&#x27;s Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-spills-the-beans-on-vera-cpu-spec-benchmarks-revealed-olympus-architecture-detailed-and-more/3"
+    },
+    {
+      "title": "NVIDIA Unveils Next-Gen Feynman GPU In Updated Roadmap...",
+      "url": "https://wccftech.com/nvidia-next-gen-feynman-gpu-updated-roadmap-arriving-2028-next-gen-hbm-memory/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

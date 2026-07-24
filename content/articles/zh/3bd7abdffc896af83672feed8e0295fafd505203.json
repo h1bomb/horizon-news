@@ -1,0 +1,41 @@
+{
+  "id": "3bd7abdffc896af83672feed8e0295fafd505203",
+  "canonicalId": "b67cd7f2e9df36b2c58a6c6ec4dc1fb5eb928579",
+  "slug": "女孩在接受昂贵基因编辑疗法后死亡",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T20:52:00Z",
+  "lang": "zh",
+  "title": "女孩在接受昂贵基因编辑疗法后死亡",
+  "summary": "一对夫妇支付超过 80 万美元，为患有罕见脑部疾病的女儿接受实验性 AAV 基因编辑疗法，但女儿因可能对病毒载体产生免疫反应而死亡。 此案例凸显了基于 AAV 的基因疗法（尤其是直接递送至脑部）的严重风险，并引发了对知情同意和未经验证治疗商业化的关键伦理问题。 该疗法使用 AAV 载体将基因编辑组件直接递送至大脑，尽管已知存在免疫反应风险。动物研究曾显示类似副作用，但研究人员对此轻描淡写。",
+  "score": 9,
+  "tags": [
+    "gene therapy",
+    "AAV vectors",
+    "clinical trial ethics",
+    "medical ethics",
+    "gene editing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Shortness8",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49027892"
+    }
+  ],
+  "originalUrl": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
+  "originalSite": "science.org",
+  "context": "腺相关病毒（AAV）是基因治疗中常用的载体，因为它能感染分裂期和静止期细胞，且致病性低。然而，AAV 载体可能引发免疫反应，包括严重的肝脏或脑部炎症，多种获批的 AAV 疗法因此带有黑框警告。直接注射到脑部会放大这些风险，因为免疫系统可能攻击病毒衣壳。该案例涉及一种从未尝试过的基因编辑方法，使得风险评估更加不确定。",
+  "discussion": "评论者对于在已知获批疗法存在免疫原性的情况下选择将 AAV 用于脑部递送表示震惊。几位指出，研究人员轻描淡写风险，忽视了猴子实验中类似的副作用，并推进了一项益处不明的实验性治疗，引发了严重的伦理担忧。",
+  "references": [
+    {
+      "title": "Adeno-associated virus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adeno-associated_virus"
+    },
+    {
+      "title": "AAV-Based Gene Therapy: Opportunities, Risks, and Scale-Up Strategies",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428605/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

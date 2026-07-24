@@ -1,0 +1,40 @@
+{
+  "id": "d091af8bf3d011f1133e13a594ff427dba2d8926",
+  "canonicalId": "367bb2eccf8c6e882da2c29a263e075a0e3a8329",
+  "slug": "thomas-ptacek-认为开放权重模型可自动化沙箱逃逸",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-22T23:59:00Z",
+  "lang": "zh",
+  "title": "Thomas Ptacek 认为开放权重模型可自动化沙箱逃逸",
+  "summary": "安全专家 Thomas Ptacek 声称，一个 2025 年的开放权重 AI 模型，配合渗透测试框架，能够自主执行沙箱逃逸并扫描或入侵大多数网络。 这一见解挑战了人们认为 OpenAI 等公司的 AI 沙箱固若金汤的假设，并凸显了开放模型在自动化安全测试方面日益增长的攻击能力。 Ptacek 特别将开放模型与 OpenAI 等前沿模型进行了对比，认为即使是非前沿的开放权重模型也足以发动此类攻击。",
+  "score": 8,
+  "tags": [
+    "ai-security",
+    "open-weights",
+    "pentesting",
+    "sandbox-escape",
+    "generative-ai"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "开放权重模型是指公开发布训练后的神经网络参数，允许任何人运行和微调，但不一定包含完整源代码或训练数据。渗透测试框架是一种自动化渗透测试任务的工具。沙箱逃逸是指突破受限环境（沙箱）以访问底层系统。这条评论是对有关 OpenAI 系统被黑新闻的回应。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Open Weights and Their Impact on Innovation",
+      "url": "https://www.linkedin.com/top-content/innovation/open-innovation-models/open-weights-and-their-impact-on-innovation/"
+    },
+    {
+      "title": "OpenAI models breached Hugging Face in an eval: zero-day escape ...",
+      "url": "https://lilting.ch/en/articles/openai-model-sandbox-escape-hugging-face-breach"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

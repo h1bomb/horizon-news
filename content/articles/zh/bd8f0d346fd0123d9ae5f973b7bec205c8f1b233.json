@@ -1,0 +1,44 @@
+{
+  "id": "bd8f0d346fd0123d9ae5f973b7bec205c8f1b233",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "namecheap-未经核实即将账户交给第三方",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T21:05:00Z",
+  "lang": "zh",
+  "title": "Namecheap 未经核实即将账户交给第三方",
+  "summary": "一位使用 Namecheap 13 年的客户报告称，一名未经核实的来电者自称代表某个俱乐部，仅通过一通电话就让 Namecheap 支持人员更改了账户密码和电子邮件，从而完全控制了账户，并未要求任何所有权证明。 此事件暴露了 Namecheap 账户恢复流程中的严重安全漏洞，使得域名所有者容易因简单的社会工程学攻击而遭受劫持。这凸显了注册商迫切需要实施更严格的验证程序。 受害者收到了密码重置邮件，并提交了支持工单声明并非本人操作；Namecheap 曾致电核实工单，但随后仍同意了第三方的请求。该域名是以受害者的姓名和地址注册的。",
+  "score": 9,
+  "tags": [
+    "domain security",
+    "social engineering",
+    "Namecheap",
+    "account security",
+    "registrar"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Thrashed"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=49028037",
+  "originalSite": "news.ycombinator.com",
+  "context": "社会工程学攻击利用人类心理绕过技术安全措施，域名劫持是一种已知威胁，攻击者通过欺骗注册商获得域名控制权。许多注册商的账户恢复流程如果验证薄弱，就可能被滥用。此案例凸显了使用强身份验证（如基于硬件的双因素认证）以及开启 WHOIS 隐私保护以隐藏联系信息的重要性。",
+  "discussion": "Hacker News 社区广泛谴责 Namecheap 的处理方式，许多用户推荐替代注册商如 Porkbun，并指出 Namecheap 已被私募股权公司收购。部分用户质疑是否开启了 WHOIS 隐私保护，因为那本可防止攻击者看到邮箱。其他人分享了他们在 Namecheap 的类似经历，并对社会工程学攻击之轻易感到沮丧。",
+  "references": [
+    {
+      "title": "Domain Hijacking: How It Works and 6 Ways to Prevent It",
+      "url": "https://brightsec.com/blog/domain-hijacking-how-it-works-and-6-ways-to-prevent-it/"
+    },
+    {
+      "title": "How to Keep Your Domain Names Safe in 2025: Hard-Learned Lessons from a Recovery Expert - Bill Hartzer",
+      "url": "https://www.billhartzer.com/domain-names/keep-domains-safe-2025-lessons-recovery-expert/"
+    },
+    {
+      "title": "How Domain Hijacking Actually Happens: Five Attack Paths and the Controls That Stop Them",
+      "url": "https://namefi.io/r/en/blog/how-domain-hijacking-actually-happens"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

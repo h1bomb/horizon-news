@@ -1,0 +1,39 @@
+{
+  "id": "557ea00a76e74f68870e1670b202db7675e5383c",
+  "canonicalId": "e36aa4d640d1bfa566ce427c0088b331d6bfba1b",
+  "slug": "pypi-blocks-new-uploads-to-releases-older-than-14-days",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T04:50:00Z",
+  "lang": "en",
+  "title": "PyPI blocks new uploads to releases older than 14 days",
+  "summary": "The Python Package Index \\(PyPI\\) has implemented a new policy that rejects any new file uploads to releases older than 14 days, aiming to prevent supply-chain attacks via compromised publishing tokens or workflows. This measure closes a dangerous attack vector where attackers could inject malicious code into otherwise stable, widely-used packages by compromising credentials. It significantly enhances the security of the Python ecosystem and protects millions of users who rely on PyPI for dependencies. The restriction applies to all projects on PyPI and was put in place via pull request \\#19727 on the Warehouse repository. According to the PyPI blog, there is no evidence the attack had ever been exploited, but the technical possibility existed.",
+  "score": 8,
+  "tags": [
+    "python",
+    "pypi",
+    "supply-chain-security",
+    "packaging"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "PyPI is the official third-party software repository for Python, where developers publish packages. Over time, supply-chain attacks on PyPI have increased, where attackers compromise accounts or tokens to upload malicious versions of popular packages. Publishing tokens are automated credentials used in CI/CD pipelines to upload packages; if stolen, they can be used to modify existing releases without detection.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Getting Started - PyPI Docs",
+      "url": "https://docs.pypi.org/trusted-publishers/"
+    },
+    {
+      "title": "Don&#x27;t Be Fooled: Securing Your Python Projects from PyPI Supply ...",
+      "url": "https://bolster.ai/blog/pypi-supply-chain-attacks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

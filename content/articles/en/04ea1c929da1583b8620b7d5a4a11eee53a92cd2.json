@@ -1,0 +1,32 @@
+{
+  "id": "04ea1c929da1583b8620b7d5a4a11eee53a92cd2",
+  "canonicalId": "572ba8a27c35049533b73362afc1972062f2b3db",
+  "slug": "software-renderer-in-500-lines-of-c-guide",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T14:17:00Z",
+  "lang": "en",
+  "title": "Software Renderer in 500 Lines of C++ Guide",
+  "summary": "A detailed guide to building a software renderer in 500 lines of bare C++ has been published at haqr.eu, covering fundamental computer graphics techniques without external libraries. This resource serves as an invaluable educational tool for understanding the low-level mechanics of rendering, fostering deep learning in computer graphics and inspiring community ports to languages like Rust. The tutorial uses 500 lines of bare C++ with no external dependencies, walking through math and rasterization; community discussions highlight the need for triangle clipping and reference classic graphics textbooks.",
+  "score": 8,
+  "tags": [
+    "software rendering",
+    "C++",
+    "computer graphics",
+    "tutorial",
+    "hackernews"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mpweiher",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49022038"
+    }
+  ],
+  "originalUrl": "https://haqr.eu/tinyrenderer/",
+  "originalSite": "haqr.eu",
+  "context": "Software rendering is a technique where the CPU handles all graphics calculations without relying on a GPU. It is less performant than hardware rendering but offers complete control and deep educational value for understanding how pixels are drawn.",
+  "discussion": "Community members shared their own implementations, including a Rust port with special effects, and discussed the importance of triangle clipping and classic graphics references like the Foley/Van Dam book. The overall sentiment is positive, with many recognizing the tutorial&\\#x27;s educational value.",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

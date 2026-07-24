@@ -1,0 +1,44 @@
+{
+  "id": "5e2f8a13b2853b1d093a389954d9def9d7c8e6a4",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "namecheap-gave-my-account-to-an-unverified-third-party",
+  "date": "2026-07-23",
+  "publishedAt": "2026-07-23T21:05:00Z",
+  "lang": "en",
+  "title": "Namecheap Gave My Account to an Unverified Third Party",
+  "summary": "A 13-year Namecheap customer reported that a phone call from an unverified person claiming to represent a club led Namecheap support to change the account password and email, granting full access to the caller without any proof of ownership. This incident reveals a severe security vulnerability in Namecheap&\\#x27;s account recovery process, exposing domain owners to hijacking via simple social engineering. It underscores the urgent need for registrars to implement stricter verification procedures. The victim received a password reset email but filed a support ticket stating they did not initiate it; Namecheap called to verify the ticket but later still honored the third party&\\#x27;s request. The domain was registered in the victim&\\#x27;s name and address.",
+  "score": 9,
+  "tags": [
+    "domain security",
+    "social engineering",
+    "Namecheap",
+    "account security",
+    "registrar"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Thrashed"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=49028037",
+  "originalSite": "news.ycombinator.com",
+  "context": "Social engineering attacks exploit human psychology to bypass technical security, and domain hijacking is a well-known threat where attackers gain control of a domain by tricking the registrar. Account recovery processes at many registrars can be abused if verification is weak. This case highlights the importance of using strong authentication like hardware-based two-factor authentication and enabling WHOIS privacy to hide contact details.",
+  "discussion": "The Hacker News community widely condemned Namecheap&\\#x27;s handling, with many users recommending alternative registrars like Porkbun and noting that Namecheap is now owned by a private equity firm. Some questioned whether WHOIS privacy was enabled, which could have prevented the attacker from seeing the email. Others shared similar past experiences with Namecheap and expressed frustration with the ease of social engineering.",
+  "references": [
+    {
+      "title": "Domain Hijacking: How It Works and 6 Ways to Prevent It",
+      "url": "https://brightsec.com/blog/domain-hijacking-how-it-works-and-6-ways-to-prevent-it/"
+    },
+    {
+      "title": "How to Keep Your Domain Names Safe in 2025: Hard-Learned Lessons from a Recovery Expert - Bill Hartzer",
+      "url": "https://www.billhartzer.com/domain-names/keep-domains-safe-2025-lessons-recovery-expert/"
+    },
+    {
+      "title": "How Domain Hijacking Actually Happens: Five Attack Paths and the Controls That Stop Them",
+      "url": "https://namefi.io/r/en/blog/how-domain-hijacking-actually-happens"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
