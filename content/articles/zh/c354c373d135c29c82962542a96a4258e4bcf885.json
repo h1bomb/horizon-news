@@ -1,0 +1,44 @@
+{
+  "id": "c354c373d135c29c82962542a96a4258e4bcf885",
+  "canonicalId": "be412e2258dda40921f0be84c317e07d7ebbf637",
+  "slug": "开源多智能体-sdlc-框架以-7-75成本优势击败冷启动-claude-code",
+  "date": "2026-07-24",
+  "publishedAt": "2026-07-24T12:15:00Z",
+  "lang": "zh",
+  "title": "开源多智能体 SDLC 框架以 7-75%成本优势击败冷启动 Claude Code",
+  "summary": "AutoDev Studio 是一个开源的多智能体软件开发生命周期（SDLC）框架，通过静态分析和本地嵌入索引构建持久化知识库，在大型代码库上将 AI 编码成本比冷启动的 Claude Code 降低了 7-75%。 这解决了 AI 编码代理每次任务都从头重新探索代码库的低效问题，使定位成本高昂。通过缓存代码库知识，AutoDev Studio 显著降低了成本，并提升了 AI 辅助开发在大型代码库上的可扩展性。 该系统采用多智能体流水线，包括 PM 代理、开发代理、QA 代理和来自不同模型家族的评审者，并带有有限修订循环。它支持多种提供商，并可通过 Groq 免费层和本地嵌入完全免费离线运行，但在微小编辑或复杂的跨领域 bug 上会因流水线开销或修复范围过窄而表现不佳。",
+  "score": 8,
+  "tags": [
+    "AI coding agents",
+    "SDLC automation",
+    "open-source",
+    "multi-agent",
+    "repository analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/NeighborhoodOwn8510"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
+  "originalSite": "reddit.com",
+  "context": "典型的 AI 编码代理（如 Claude Code）会为每项新任务重新索引和探索代码库，以定位修改位置。AutoDev Studio 通过静态分析和嵌入索引预先摄入代码库，持久化存储知识，使后续任务能立即查找相关上下文，无需重复冷搜索。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent , Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "GitHub - cocoindex-io/cocoindex-code: A super light-weight embedded code search engine CLI (AST based) that just works - improves speed and efficiency for coding agent 🌟 Star if you like it!",
+      "url": "https://github.com/cocoindex-io/cocoindex-code"
+    },
+    {
+      "title": "Semantic codebase indexing and search · Issue #5181 · openai/codex",
+      "url": "https://github.com/openai/codex/issues/5181"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

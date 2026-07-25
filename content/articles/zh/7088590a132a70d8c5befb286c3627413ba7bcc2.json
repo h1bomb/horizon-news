@@ -1,0 +1,44 @@
+{
+  "id": "7088590a132a70d8c5befb286c3627413ba7bcc2",
+  "canonicalId": "2c4109d9017557aedab3e9b1afe186e04e11fbe2",
+  "slug": "英伟达微软meta-警告不要过度监管开源权重-ai",
+  "date": "2026-07-24",
+  "publishedAt": "2026-07-24T13:32:00Z",
+  "lang": "zh",
+  "title": "英伟达、微软、Meta 警告不要过度监管开源权重 AI",
+  "summary": "2026 年 7 月 24 日，英伟达、微软和 Meta 在一封联合公开信中警告，对开源权重 AI 模型进行过度监管可能损害美国在 AI 领域的领先地位，认为开源权重模型对创新和安全至关重要。 这几家大型科技公司的罕见联合表明 AI 政策辩论中存在显著分歧，将影响前沿模型的开发与全球共享方式。过度监管可能扼杀推动快速进步和竞争的开源生态系统。 这封公开信附有由三家公司签署的 PDF 文件，其立场与 OpenAI 和 Anthropic 主张加强监管的态度形成鲜明对比。信中指出，全球 AI 领导地位既需要前沿闭源模型，也需要前沿开源模型。",
+  "score": 9,
+  "tags": [
+    "open-source",
+    "AI regulation",
+    "policy",
+    "open-weight"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "louiereederson",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49035303"
+    }
+  ],
+  "originalUrl": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+  "originalSite": "cnbc.com",
+  "context": "开源权重 AI 模型是指将训练好的神经网络权重公开发布，允许任何人下载、运行和微调，但可能不包括训练代码和数据。这不同于完全开源或封闭模型。辩论焦点在于这种开放是否带来安全风险或促进创新，Meta 等公司支持开放，而 OpenAI 等则主张更多控制。",
+  "discussion": "社区评论反映了观点的分化：有用户指出讽刺的是 Anthropic 已投入 4000 万美元支持监管的政治协议，而另一些用户认为这类似反 SOPA 运动。版主链接了相关讨论，显示创业公司创始人敦促美国政府不要切断中国开源权重 AI，且中国的开源策略被认为正在胜出。",
+  "references": [
+    {
+      "title": "What is an Open-Weight Model? - Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model"
+    },
+    {
+      "title": "The Open Weight Models that Matter: June 2026 — OpenRouter Blog",
+      "url": "https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/"
+    },
+    {
+      "title": "Open Weights: not quite what you’ve been told",
+      "url": "https://opensource.org/ai/open-weights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

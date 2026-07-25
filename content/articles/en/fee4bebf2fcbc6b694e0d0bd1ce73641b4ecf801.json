@@ -1,0 +1,44 @@
+{
+  "id": "fee4bebf2fcbc6b694e0d0bd1ce73641b4ecf801",
+  "canonicalId": "e04de909259661451dea7a247b53e67ff4a1924f",
+  "slug": "stripe-in-talks-to-acquire-openrouter-for-10-billion",
+  "date": "2026-07-24",
+  "publishedAt": "2026-07-24T11:35:00Z",
+  "lang": "en",
+  "title": "Stripe in Talks to Acquire OpenRouter for ~$10 Billion",
+  "summary": "Stripe is reportedly in advanced talks to acquire AI model routing startup OpenRouter at a valuation of approximately $10 billion, as reported by the Wall Street Journal on July 24, 2026. This acquisition would merge Stripe&\\#x27;s payment infrastructure with OpenRouter&\\#x27;s AI model routing platform, potentially enabling seamless monetization and access for AI applications. It signals growing convergence between payment processing and AI infrastructure, with major implications for developers and the AI ecosystem. OpenRouter offers a unified API that gives developers access to over 400 AI models from leading providers, with more than 250,000 apps using its platform globally. The reported $10 billion valuation highlights the strategic importance of AI model routing in the current market.",
+  "score": 8,
+  "tags": [
+    "acquisition",
+    "AI infrastructure",
+    "Stripe",
+    "OpenRouter",
+    "valuation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.digitimes.com/news/a20260724VL207/infrastructure-startup-acquisition-demand.html",
+  "originalSite": "digitimes.com",
+  "context": "AI model routing is a technology that intelligently directs user queries to the most suitable large language model, balancing cost, latency, and output quality. OpenRouter is a leading platform that aggregates models from OpenAI, Google, Anthropic, and others, allowing developers to access them through a single API. Stripe, a major online payment processor, is increasingly expanding into AI infrastructure services to support the growing AI application economy.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenRouter",
+      "url": "https://en.wikipedia.org/wiki/OpenRouter"
+    },
+    {
+      "title": "Model router for Microsoft Foundry concepts - Microsoft Foundry",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-router"
+    },
+    {
+      "title": "A Developer’s Guide to Model Routing - Medium",
+      "url": "https://medium.com/google-cloud/a-developers-guide-to-model-routing-1f21ecc34d60"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

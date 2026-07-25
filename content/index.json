@@ -1,6 +1,478 @@
 {
   "articles": [
     {
+      "id": "d0ab5cc761b4e01597a9c23e58be52ef9041f237",
+      "canonicalId": "b67cd7f2e9df36b2c58a6c6ec4dc1fb5eb928579",
+      "slug": "science-揭露未经授权的基因治疗试验导致中国女童死亡",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "Science 揭露未经授权的基因治疗试验导致中国女童死亡",
+      "score": 10,
+      "tags": [
+        "gene editing",
+        "clinical trial",
+        "ethics",
+        "regulation",
+        "scientific misconduct"
+      ],
+      "originalSite": "science.org"
+    },
+    {
+      "id": "f66a5436c022712a9090eb4e58dd122594d0a657",
+      "canonicalId": "e75df1016aa12143321e69cddb3c5f5d5d8ae01d",
+      "slug": "anthropic-发布-claude-opus-5具备关键隐私优势",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "Anthropic 发布 Claude Opus 5，具备关键隐私优势",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Claude Opus 5",
+        "LLM",
+        "model release"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "7088590a132a70d8c5befb286c3627413ba7bcc2",
+      "canonicalId": "2c4109d9017557aedab3e9b1afe186e04e11fbe2",
+      "slug": "英伟达微软meta-警告不要过度监管开源权重-ai",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "英伟达、微软、Meta 警告不要过度监管开源权重 AI",
+      "score": 9,
+      "tags": [
+        "open-source",
+        "AI regulation",
+        "policy",
+        "open-weight"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "19dd321d3f32e528a5a966382c4e662ea909fe29",
+      "canonicalId": "3f7278b529bfd6613ba022b7003273a61266d47b",
+      "slug": "伊朗革命卫队声称摧毁亚马逊巴林数据中心",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "伊朗革命卫队声称摧毁亚马逊巴林数据中心",
+      "score": 9,
+      "tags": [
+        "cloud infrastructure",
+        "cybersecurity",
+        "AWS",
+        "geopolitics",
+        "data center"
+      ],
+      "originalSite": "houseofsaud.com"
+    },
+    {
+      "id": "4c8267257413ccdff2d3b58cb7535c04969bf942",
+      "canonicalId": "70b0fd3555edf93dc800dfc8750a34c70269adc2",
+      "slug": "postgres-listennotify-可扩展到每秒-6-万条通知",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "Postgres LISTEN/NOTIFY 可扩展到每秒 6 万条通知",
+      "score": 8,
+      "tags": [
+        "postgres",
+        "database",
+        "scalability",
+        "notifications",
+        "performance"
+      ],
+      "originalSite": "dbos.dev"
+    },
+    {
+      "id": "bb219e7757344997bde0128b499981a7b90809c0",
+      "canonicalId": "3cb64a41257f3e9f9eed7bc126c961de5394e5ad",
+      "slug": "安全摄像头固件硬编码-github-管理员令牌",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "安全摄像头固件硬编码 GitHub 管理员令牌",
+      "score": 8,
+      "tags": [
+        "security",
+        "IoT",
+        "vulnerabilities",
+        "GitHub",
+        "token"
+      ],
+      "originalSite": "hhh.hn"
+    },
+    {
+      "id": "92d993aecfe30ab6d10f0f1b991c28f129156b82",
+      "canonicalId": "3ecc7db58a463f600397d35ede23910dc4caed25",
+      "slug": "对-openai-流氓-ai-代理事件表示怀疑",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "对 OpenAI 流氓 AI 代理事件表示怀疑",
+      "score": 8,
+      "tags": [
+        "AI safety",
+        "OpenAI",
+        "security",
+        "skepticism",
+        "incident analysis"
+      ],
+      "originalSite": "theguardian.com"
+    },
+    {
+      "id": "04781573172603b6003e06f77cf54c2af25ff29b",
+      "canonicalId": "2b7ddff8ef48f7f79f717c1373eb27a7b5ba377e",
+      "slug": "flux-3-x-mimic-连接视频生成与机器人控制",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "Flux 3 X Mimic 连接视频生成与机器人控制",
+      "score": 8,
+      "tags": [
+        "AI",
+        "robotics",
+        "video generation",
+        "world models"
+      ],
+      "originalSite": "bfl.ai"
+    },
+    {
+      "id": "af44270cca6f79de80bcbf60961660addb1948e3",
+      "canonicalId": "9db743989db75aebf078733631b9d2b3fe0f1f3a",
+      "slug": "印度政府下令-github-移除蓝牙聊天应用-bitchat",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "印度政府下令 GitHub 移除蓝牙聊天应用 Bitchat",
+      "score": 8,
+      "tags": [
+        "government regulation",
+        "censorship",
+        "surveillance",
+        "bluetooth chat",
+        "India"
+      ],
+      "originalSite": "thehindu.com"
+    },
+    {
+      "id": "876f29ac321e289794bc75230b3b0dc1be4569a5",
+      "canonicalId": "b71bedf816eede039ce67851be0e7f8c929e4751",
+      "slug": "无需训练的编译器将计算图转换为-transformer-权重",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "无需训练的编译器：将计算图转换为 Transformer 权重",
+      "score": 8,
+      "tags": [
+        "transformer",
+        "compiler",
+        "interpretability",
+        "machine learning",
+        "algorithms"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "c354c373d135c29c82962542a96a4258e4bcf885",
+      "canonicalId": "be412e2258dda40921f0be84c317e07d7ebbf637",
+      "slug": "开源多智能体-sdlc-框架以-7-75成本优势击败冷启动-claude-code",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "开源多智能体 SDLC 框架以 7-75%成本优势击败冷启动 Claude Code",
+      "score": 8,
+      "tags": [
+        "AI coding agents",
+        "SDLC automation",
+        "open-source",
+        "multi-agent",
+        "repository analysis"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "d7a1c606037cb93e140d714d191649d55e8c806b",
+      "canonicalId": "e04de909259661451dea7a247b53e67ff4a1924f",
+      "slug": "stripe-洽购-openrouter-估值约百亿美元",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "Stripe 洽购 OpenRouter 估值约百亿美元",
+      "score": 8,
+      "tags": [
+        "acquisition",
+        "AI infrastructure",
+        "Stripe",
+        "OpenRouter",
+        "valuation"
+      ],
+      "originalSite": "digitimes.com"
+    },
+    {
+      "id": "f8a4809ba2816cb3d3def34f335276d634c18522",
+      "canonicalId": "7e520c2f2975b3e4bc83593ee5e64664fdf27514",
+      "slug": "菲尔兹奖得主-jacob-tsimerman-加入-openai-从事-ai-安全研究",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "菲尔兹奖得主 Jacob Tsimerman 加入 OpenAI 从事 AI 安全研究",
+      "score": 8,
+      "tags": [
+        "AI Safety",
+        "Fields Medal",
+        "OpenAI",
+        "Mathematics",
+        "Talent Migration"
+      ],
+      "originalSite": "m.mydrivers.com"
+    },
+    {
+      "id": "e69aa85251a4731c7dd0b2f131eefd7c9a6572a6",
+      "canonicalId": "77c4b57c46b9185916dd5feef0e825ee763e0136",
+      "slug": "英伟达通知-aic-合作伙伴显卡涨价出货暂停",
+      "date": "2026-07-24",
+      "lang": "zh",
+      "title": "英伟达通知 AIC 合作伙伴显卡涨价，出货暂停",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "GPU",
+        "pricing",
+        "hardware",
+        "AIC"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
+      "id": "8acca0f2b0cce974d66c5ebf7a20377026bc8a71",
+      "canonicalId": "b67cd7f2e9df36b2c58a6c6ec4dc1fb5eb928579",
+      "slug": "science-reveals-unauthorized-gene-therapy-trial-killed-chinese-girl",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Science Reveals Unauthorized Gene Therapy Trial Killed Chinese Girl",
+      "score": 10,
+      "tags": [
+        "gene editing",
+        "clinical trial",
+        "ethics",
+        "regulation",
+        "scientific misconduct"
+      ],
+      "originalSite": "science.org"
+    },
+    {
+      "id": "41c5fb1b083a04cf1ffb3cd2a5eacbfd01e93d1b",
+      "canonicalId": "e75df1016aa12143321e69cddb3c5f5d5d8ae01d",
+      "slug": "anthropic-launches-claude-opus-5-with-key-privacy-advantage",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Anthropic Launches Claude Opus 5 with Key Privacy Advantage",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Claude Opus 5",
+        "LLM",
+        "model release"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "00335fcfbd38fd12c027cbc5afd4a82cb17bc1e4",
+      "canonicalId": "2c4109d9017557aedab3e9b1afe186e04e11fbe2",
+      "slug": "nvidia-microsoft-meta-warn-against-overregulating-open-weight-ai",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Nvidia, Microsoft, Meta Warn Against Overregulating Open-Weight AI",
+      "score": 9,
+      "tags": [
+        "open-source",
+        "AI regulation",
+        "policy",
+        "open-weight"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "14c3820a03c08a2b2f49fc5c2a51740d23e84e78",
+      "canonicalId": "3f7278b529bfd6613ba022b7003273a61266d47b",
+      "slug": "irgc-claims-destruction-of-aws-bahrain-data-center",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "IRGC Claims Destruction of AWS Bahrain Data Center",
+      "score": 9,
+      "tags": [
+        "cloud infrastructure",
+        "cybersecurity",
+        "AWS",
+        "geopolitics",
+        "data center"
+      ],
+      "originalSite": "houseofsaud.com"
+    },
+    {
+      "id": "421e34031d89460688e38a3de3409b9b782f217f",
+      "canonicalId": "70b0fd3555edf93dc800dfc8750a34c70269adc2",
+      "slug": "postgres-listennotify-scales-to-60k-notificationss",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Postgres LISTEN/NOTIFY scales to 60K notifications/s",
+      "score": 8,
+      "tags": [
+        "postgres",
+        "database",
+        "scalability",
+        "notifications",
+        "performance"
+      ],
+      "originalSite": "dbos.dev"
+    },
+    {
+      "id": "f78767cbb1520a55368acd8cd6a37700569a0169",
+      "canonicalId": "3cb64a41257f3e9f9eed7bc126c961de5394e5ad",
+      "slug": "security-camera-firmware-contains-hardcoded-github-admin-token",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Security camera firmware contains hardcoded GitHub admin token",
+      "score": 8,
+      "tags": [
+        "security",
+        "IoT",
+        "vulnerabilities",
+        "GitHub",
+        "token"
+      ],
+      "originalSite": "hhh.hn"
+    },
+    {
+      "id": "aba31802e36b730db20ee05af96d3228963541d4",
+      "canonicalId": "3ecc7db58a463f600397d35ede23910dc4caed25",
+      "slug": "skepticism-over-openaix27s-rogue-ai-agent-claim",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Skepticism over OpenAI&\\#x27;s rogue AI agent claim",
+      "score": 8,
+      "tags": [
+        "AI safety",
+        "OpenAI",
+        "security",
+        "skepticism",
+        "incident analysis"
+      ],
+      "originalSite": "theguardian.com"
+    },
+    {
+      "id": "29350ead7e5ea1bc6344722b80064e8753199210",
+      "canonicalId": "2b7ddff8ef48f7f79f717c1373eb27a7b5ba377e",
+      "slug": "flux-3-x-mimic-bridges-video-generation-and-robotics",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Flux 3 X Mimic Bridges Video Generation and Robotics",
+      "score": 8,
+      "tags": [
+        "AI",
+        "robotics",
+        "video generation",
+        "world models"
+      ],
+      "originalSite": "bfl.ai"
+    },
+    {
+      "id": "e92df7181deaeb01b747df5d4cf02554216f7ef1",
+      "canonicalId": "9db743989db75aebf078733631b9d2b3fe0f1f3a",
+      "slug": "indian-govt-orders-github-to-remove-bluetooth-chat-app-bitchat",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Indian govt orders GitHub to remove Bluetooth chat app Bitchat",
+      "score": 8,
+      "tags": [
+        "government regulation",
+        "censorship",
+        "surveillance",
+        "bluetooth chat",
+        "India"
+      ],
+      "originalSite": "thehindu.com"
+    },
+    {
+      "id": "06cb4c0139142c37b57a59ad4d7226b460f818c6",
+      "canonicalId": "b71bedf816eede039ce67851be0e7f8c929e4751",
+      "slug": "compiler-converts-computation-graphs-to-transformer-weights-without-training",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Compiler Converts Computation Graphs to Transformer Weights Without Training",
+      "score": 8,
+      "tags": [
+        "transformer",
+        "compiler",
+        "interpretability",
+        "machine learning",
+        "algorithms"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "bead78a9408bf20e7bf1dace5cf91af4ee225ed0",
+      "canonicalId": "be412e2258dda40921f0be84c317e07d7ebbf637",
+      "slug": "open-source-multi-agent-sdlc-harness-beats-cold-claude-code-by-7-75",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Open-source multi-agent SDLC harness beats cold Claude Code by 7-75%",
+      "score": 8,
+      "tags": [
+        "AI coding agents",
+        "SDLC automation",
+        "open-source",
+        "multi-agent",
+        "repository analysis"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "fee4bebf2fcbc6b694e0d0bd1ce73641b4ecf801",
+      "canonicalId": "e04de909259661451dea7a247b53e67ff4a1924f",
+      "slug": "stripe-in-talks-to-acquire-openrouter-for-10-billion",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Stripe in Talks to Acquire OpenRouter for ~$10 Billion",
+      "score": 8,
+      "tags": [
+        "acquisition",
+        "AI infrastructure",
+        "Stripe",
+        "OpenRouter",
+        "valuation"
+      ],
+      "originalSite": "digitimes.com"
+    },
+    {
+      "id": "03c9b2e3f7bf76ea5a372df463531051cc4dd45a",
+      "canonicalId": "7e520c2f2975b3e4bc83593ee5e64664fdf27514",
+      "slug": "fields-medalist-jacob-tsimerman-joins-openai-for-ai-safety",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Fields Medalist Jacob Tsimerman Joins OpenAI for AI Safety",
+      "score": 8,
+      "tags": [
+        "AI Safety",
+        "Fields Medal",
+        "OpenAI",
+        "Mathematics",
+        "Talent Migration"
+      ],
+      "originalSite": "m.mydrivers.com"
+    },
+    {
+      "id": "bc3a10057bac1677ca1a8528febc0c0911ec06eb",
+      "canonicalId": "77c4b57c46b9185916dd5feef0e825ee763e0136",
+      "slug": "nvidia-notifies-aic-partners-of-gpu-price-hike-shipments-halted",
+      "date": "2026-07-24",
+      "lang": "en",
+      "title": "Nvidia Notifies AIC Partners of GPU Price Hike, Shipments Halted",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "GPU",
+        "pricing",
+        "hardware",
+        "AIC"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
       "id": "cbe9ca64b739f4f05a4c2c81e7df4c93b24c8553",
       "canonicalId": "5d0f2ca0e75f93b448229e5e5bef8356348b3da1",
       "slug": "2026-年菲尔兹奖两位中国数学家历史性获奖",
@@ -5607,546 +6079,6 @@
         "autonomous weapons"
       ],
       "originalSite": "openai.com"
-    },
-    {
-      "id": "e6725f5b856145ec5473671595cddc21d596fb00",
-      "canonicalId": "06cdfc15d3ad3f3e8a536366739d4825e1130df9",
-      "slug": "欧盟即将重启消息扫描规则",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "欧盟即将重启消息扫描规则",
-      "score": 9,
-      "tags": [
-        "privacy",
-        "EU regulation",
-        "surveillance",
-        "encryption",
-        "security"
-      ],
-      "originalSite": "cyberinsider.com"
-    },
-    {
-      "id": "f19c2c872bc333f16499232a8d3004d21220550b",
-      "canonicalId": "995cba7d0f0e8392bb51e095e42da5ee68dc6960",
-      "slug": "cloudflare-meerkat无领导者异步共识算法",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "Cloudflare Meerkat：无领导者异步共识算法",
-      "score": 9,
-      "tags": [
-        "distributed consensus",
-        "cloudflare",
-        "meerkat",
-        "asynchronous algorithms",
-        "quepaxa"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "c6e8a8399ca84e406df1d8407d3cba4e27fd2a3d",
-      "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
-      "slug": "typescript-70-发布速度提升高达-12-倍",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "TypeScript 7.0 发布，速度提升高达 12 倍",
-      "score": 9,
-      "tags": [
-        "TypeScript",
-        "compiler",
-        "performance",
-        "JavaScript",
-        "Microsoft"
-      ],
-      "originalSite": "devblogs.microsoft.com"
-    },
-    {
-      "id": "beb4868393a8d5d7b64291f08b32375857319f8e",
-      "canonicalId": "e042a47a4b09dd9fbd682400a03a9382d7c5c4a8",
-      "slug": "安卓全版本远程-root-攻击链曝光",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "安卓全版本远程 Root 攻击链曝光",
-      "score": 9,
-      "tags": [
-        "Android",
-        "security",
-        "vulnerability",
-        "root",
-        "exploit"
-      ],
-      "originalSite": "coolapk.com"
-    },
-    {
-      "id": "274cf7df8052e0fbb7edb3b30a2d71b9cc88ec1a",
-      "canonicalId": "6258cf13f3d5f19bc6e2a155180744f075bf65cf",
-      "slug": "grok-45xai-新模型宣称高效率但面临伦理质疑",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "Grok 4.5：xAI 新模型宣称高效率但面临伦理质疑",
-      "score": 8,
-      "tags": [
-        "AI",
-        "ethics",
-        "Grok",
-        "model release",
-        "controversy"
-      ],
-      "originalSite": "x.ai"
-    },
-    {
-      "id": "09111491a1c2b278dce7f2cdd05a0c7334415b10",
-      "canonicalId": "9f661bf376d1efc89554fe679ce9d571d87c85a3",
-      "slug": "mistral-发布-robostral-navigate-ai-模型",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "Mistral 发布 Robostral Navigate AI 模型",
-      "score": 8,
-      "tags": [
-        "robotics",
-        "navigation",
-        "AI",
-        "mistral",
-        "deep learning"
-      ],
-      "originalSite": "mistral.ai"
-    },
-    {
-      "id": "b934a8a795d16c8543a9b76c72a9e9c41dfa84b6",
-      "canonicalId": "d7499a6963c6e5c4d93bc34c41c648b8746b128e",
-      "slug": "openai-推出可委托-gpt-55-的-gpt-live-语音模式",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "OpenAI 推出可委托 GPT-5.5 的 GPT-Live 语音模式",
-      "score": 8,
-      "tags": [
-        "AI",
-        "voice mode",
-        "OpenAI",
-        "GPT-5.5"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "8bd5258094cb1bb04d642b0f9deb2b26a3e0b666",
-      "canonicalId": "7f4c5f9ef711c7a0962643c1e6f50e83ee93fb86",
-      "slug": "openbsd-释放后使用漏洞导致本地权限提升至-root",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "OpenBSD 释放后使用漏洞导致本地权限提升至 root",
-      "score": 8,
-      "tags": [
-        "openbsd",
-        "security",
-        "vulnerability",
-        "CVE",
-        "privilege-escalation"
-      ],
-      "originalSite": "nvd.nist.gov"
-    },
-    {
-      "id": "019ae9e7dc326ec9b6a05509c2909792c218d12b",
-      "canonicalId": "7747c24ca7fad9a80c3e8f9cc78bbf79d268e1d9",
-      "slug": "anthropic-的-fable-分类器过于敏感导致误报",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "Anthropic 的 Fable 分类器过于敏感，导致误报",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "classifiers",
-        "censorship",
-        "Anthropic",
-        "Fable"
-      ],
-      "originalSite": "combine-lab.github.io"
-    },
-    {
-      "id": "9c46ea09465dcff3a9fbe4f7d09821fb357ce680",
-      "canonicalId": "30d2d6731b139e2517664c148381552798861c5e",
-      "slug": "linux-内核密码学-api-现代化",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "Linux 内核密码学 API 现代化",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "cryptography",
-        "security",
-        "API design",
-        "LSS NA"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "1611ed77fc7c7e5286d3365fbf9c2e1be8f0e6c5",
-      "canonicalId": "d8a05e939b9e8617f9974e39ce8dbd186c057e7d",
-      "slug": "lingbot-video经强化学习后训练的稀疏-moe-视频扩散-transformer",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "LingBot-Video：经强化学习后训练的稀疏 MoE 视频扩散 Transformer",
-      "score": 8,
-      "tags": [
-        "video generation",
-        "world models",
-        "sparse MoE",
-        "diffusion transformers",
-        "reinforcement learning"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "a6b99b9b0270f894417134d8fd463760d4ccc207",
-      "canonicalId": "880937a99f56ec604ebb1fba9ff0640aaadb25fc",
-      "slug": "交互世界模型漂移减少moba-与自滚动蒸馏",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "交互世界模型漂移减少：MoBA 与自滚动蒸馏",
-      "score": 8,
-      "tags": [
-        "world models",
-        "drift reduction",
-        "attention mechanisms",
-        "distillation",
-        "video generation"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "fea1ae0fbeac5dc5117393025c14feb414f72993",
-      "canonicalId": "040b85193a03499bcdcad688b354ba0e5e66596b",
-      "slug": "工信部警告-claude-code-后门泄露用户数据",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "工信部警告 Claude Code 后门泄露用户数据",
-      "score": 8,
-      "tags": [
-        "security",
-        "claude-code",
-        "backdoor",
-        "ai-tools",
-        "vulnerability"
-      ],
-      "originalSite": "nvdb.org.cn"
-    },
-    {
-      "id": "421e363424bcb9e66644b5042b23f5cb561d60ac",
-      "canonicalId": "8bdd2da38f3ec9509c67ec3ff71fd1ec100d98cd",
-      "slug": "顶尖-ai-企业安全评级低anthropic-以-c领先",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "顶尖 AI 企业安全评级低，Anthropic 以 C+领先",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "AI ethics",
-        "industry report",
-        "AI governance"
-      ],
-      "originalSite": "z.ai"
-    },
-    {
-      "id": "cdd00031409da1137828dfb00b718f8f03c4d1fc",
-      "canonicalId": "bf1880872b902032204cf2a945f12e92e161bf05",
-      "slug": "字节跳动发布-seedream-50-pro支持多语言生成",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "字节跳动发布 Seedream 5.0 Pro，支持多语言生成",
-      "score": 8,
-      "tags": [
-        "ByteDance",
-        "multimodal",
-        "image generation",
-        "AI",
-        "Seedream"
-      ],
-      "originalSite": "seed.bytedance.com"
-    },
-    {
-      "id": "e31034e8384989b1d6b9397c5e1dcdf0e33039c0",
-      "canonicalId": "075483af3e5998f0590952002d87ef782825b233",
-      "slug": "研究人员通过电磁信号识别手机应用准确率达-99",
-      "date": "2026-07-08",
-      "lang": "zh",
-      "title": "研究人员通过电磁信号识别手机应用，准确率达 99%",
-      "score": 8,
-      "tags": [
-        "security",
-        "privacy",
-        "electromagnetic signals",
-        "smartphone",
-        "side-channel attack"
-      ],
-      "originalSite": "scmp.com"
-    },
-    {
-      "id": "f48ddef9f2a1f1fd31d98861f8a0ba84e04c9a05",
-      "canonicalId": "06cdfc15d3ad3f3e8a536366739d4825e1130df9",
-      "slug": "eu-close-to-reviving-message-scanning-rules",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "EU close to reviving message scanning rules",
-      "score": 9,
-      "tags": [
-        "privacy",
-        "EU regulation",
-        "surveillance",
-        "encryption",
-        "security"
-      ],
-      "originalSite": "cyberinsider.com"
-    },
-    {
-      "id": "d427ed9780f30ca9803ef56a3a79524cf1d10033",
-      "canonicalId": "995cba7d0f0e8392bb51e095e42da5ee68dc6960",
-      "slug": "cloudflare-meerkat-leaderless-async-consensus",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Cloudflare Meerkat: Leaderless Async Consensus",
-      "score": 9,
-      "tags": [
-        "distributed consensus",
-        "cloudflare",
-        "meerkat",
-        "asynchronous algorithms",
-        "quepaxa"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "b07773ea86534884e15bb05ce30c359ca5cd5ee8",
-      "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
-      "slug": "typescript-70-announced-with-up-to-12x-speed-boost",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "TypeScript 7.0 Announced with Up to 12x Speed Boost",
-      "score": 9,
-      "tags": [
-        "TypeScript",
-        "compiler",
-        "performance",
-        "JavaScript",
-        "Microsoft"
-      ],
-      "originalSite": "devblogs.microsoft.com"
-    },
-    {
-      "id": "b3af72003d14dbe5907cebc2c63cf67b0e0e790b",
-      "canonicalId": "e042a47a4b09dd9fbd682400a03a9382d7c5c4a8",
-      "slug": "critical-android-remote-root-exploit-chain-disclosed",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Critical Android remote root exploit chain disclosed",
-      "score": 9,
-      "tags": [
-        "Android",
-        "security",
-        "vulnerability",
-        "root",
-        "exploit"
-      ],
-      "originalSite": "coolapk.com"
-    },
-    {
-      "id": "6bb773117375f4c3e719ea44f214d4ae124c3c79",
-      "canonicalId": "6258cf13f3d5f19bc6e2a155180744f075bf65cf",
-      "slug": "grok-45-xais-new-model-claims-high-efficiency-but-faces-ethics-scrutiny",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Grok 4.5: xAI's New Model Claims High Efficiency but Faces Ethics Scrutiny",
-      "score": 8,
-      "tags": [
-        "AI",
-        "ethics",
-        "Grok",
-        "model release",
-        "controversy"
-      ],
-      "originalSite": "x.ai"
-    },
-    {
-      "id": "9fe8bc4d2093c704ad45a70a691e42428c4e52c1",
-      "canonicalId": "9f661bf376d1efc89554fe679ce9d571d87c85a3",
-      "slug": "mistral-releases-robostral-navigate-ai-model",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Mistral Releases Robostral Navigate AI Model",
-      "score": 8,
-      "tags": [
-        "robotics",
-        "navigation",
-        "AI",
-        "mistral",
-        "deep learning"
-      ],
-      "originalSite": "mistral.ai"
-    },
-    {
-      "id": "2c9283911348c8d72b3a361a00c57512b692a4aa",
-      "canonicalId": "d7499a6963c6e5c4d93bc34c41c648b8746b128e",
-      "slug": "openai-launches-gpt-live-voice-mode-with-gpt-55-delegation",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "OpenAI Launches GPT-Live Voice Mode with GPT-5.5 Delegation",
-      "score": 8,
-      "tags": [
-        "AI",
-        "voice mode",
-        "OpenAI",
-        "GPT-5.5"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "1ede67b6757890eb7cd2750dc7887ecee80a8378",
-      "canonicalId": "7f4c5f9ef711c7a0962643c1e6f50e83ee93fb86",
-      "slug": "openbsd-use-after-free-leads-to-local-privilege-escalation-to-root",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "OpenBSD use-after-free leads to local privilege escalation to root",
-      "score": 8,
-      "tags": [
-        "openbsd",
-        "security",
-        "vulnerability",
-        "CVE",
-        "privilege-escalation"
-      ],
-      "originalSite": "nvd.nist.gov"
-    },
-    {
-      "id": "9dd8feb673316d8373d8de0eb775a51d2c891160",
-      "canonicalId": "7747c24ca7fad9a80c3e8f9cc78bbf79d268e1d9",
-      "slug": "anthropics-fable-classifiers-too-zealous-causing-false-positives",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Anthropic's Fable Classifiers Too Zealous, Causing False Positives",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "classifiers",
-        "censorship",
-        "Anthropic",
-        "Fable"
-      ],
-      "originalSite": "combine-lab.github.io"
-    },
-    {
-      "id": "d56af77a2d9d30aa566d4f44991d97580abc984e",
-      "canonicalId": "30d2d6731b139e2517664c148381552798861c5e",
-      "slug": "modernizing-linux-kernel-cryptography-api",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Modernizing Linux kernel cryptography API",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "cryptography",
-        "security",
-        "API design",
-        "LSS NA"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "348e4c3b6fbac96c548bfcde3294a31e5377fa47",
-      "canonicalId": "d8a05e939b9e8617f9974e39ce8dbd186c057e7d",
-      "slug": "lingbot-video-sparse-moe-video-diffusion-transformer-with-rl-post-training",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "LingBot-Video: Sparse-MoE Video Diffusion Transformer with RL Post-Training",
-      "score": 8,
-      "tags": [
-        "video generation",
-        "world models",
-        "sparse MoE",
-        "diffusion transformers",
-        "reinforcement learning"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "01036f3ce35a34fbb4a2bb465cb2e4885d432934",
-      "canonicalId": "880937a99f56ec604ebb1fba9ff0640aaadb25fc",
-      "slug": "reducing-drift-in-interactive-world-models-with-moba-attention-and-self-rollout-distillation",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Reducing drift in interactive world models with MoBA attention and self-rollout distillation",
-      "score": 8,
-      "tags": [
-        "world models",
-        "drift reduction",
-        "attention mechanisms",
-        "distillation",
-        "video generation"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "665b5e94f5d8fa5093581e8e011c783220192daa",
-      "canonicalId": "040b85193a03499bcdcad688b354ba0e5e66596b",
-      "slug": "miit-warns-claude-code-backdoor-exfiltrates-user-data",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "MIIT Warns Claude Code Backdoor Exfiltrates User Data",
-      "score": 8,
-      "tags": [
-        "security",
-        "claude-code",
-        "backdoor",
-        "ai-tools",
-        "vulnerability"
-      ],
-      "originalSite": "nvdb.org.cn"
-    },
-    {
-      "id": "3786cb6da3fac07bfd36cfb71431186dd7ec8638",
-      "canonicalId": "8bdd2da38f3ec9509c67ec3ff71fd1ec100d98cd",
-      "slug": "top-ai-companies-get-low-safety-ratings-anthropic-leads-at-c",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Top AI Companies Get Low Safety Ratings; Anthropic Leads at C+",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "AI ethics",
-        "industry report",
-        "AI governance"
-      ],
-      "originalSite": "z.ai"
-    },
-    {
-      "id": "385ba1386fca936ee751678eb8452bc6228ea663",
-      "canonicalId": "bf1880872b902032204cf2a945f12e92e161bf05",
-      "slug": "bytedance-releases-seedream-50-pro-with-multilingual-generation",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "ByteDance releases Seedream 5.0 Pro with multilingual generation",
-      "score": 8,
-      "tags": [
-        "ByteDance",
-        "multimodal",
-        "image generation",
-        "AI",
-        "Seedream"
-      ],
-      "originalSite": "seed.bytedance.com"
-    },
-    {
-      "id": "171f1b8702de0803f56a76c99d7909ba38fdc682",
-      "canonicalId": "075483af3e5998f0590952002d87ef782825b233",
-      "slug": "researchers-identify-smartphone-apps-via-em-signals-with-99-accuracy",
-      "date": "2026-07-08",
-      "lang": "en",
-      "title": "Researchers identify smartphone apps via EM signals with 99% accuracy",
-      "score": 8,
-      "tags": [
-        "security",
-        "privacy",
-        "electromagnetic signals",
-        "smartphone",
-        "side-channel attack"
-      ],
-      "originalSite": "scmp.com"
     }
   ]
 }

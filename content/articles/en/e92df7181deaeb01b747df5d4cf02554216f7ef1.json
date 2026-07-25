@@ -1,0 +1,41 @@
+{
+  "id": "e92df7181deaeb01b747df5d4cf02554216f7ef1",
+  "canonicalId": "9db743989db75aebf078733631b9d2b3fe0f1f3a",
+  "slug": "indian-govt-orders-github-to-remove-bluetooth-chat-app-bitchat",
+  "date": "2026-07-24",
+  "publishedAt": "2026-07-24T14:41:00Z",
+  "lang": "en",
+  "title": "Indian govt orders GitHub to remove Bluetooth chat app Bitchat",
+  "summary": "The Indian government has ordered GitHub to remove the decentralized Bluetooth mesh chat application Bitchat, citing security risks and potential misuse by anti-national elements, as confirmed by Jack Dorsey. This action highlights ongoing tensions between state surveillance and decentralized communication tools, raising concerns about government overreach and the future of privacy-preserving technologies in India. Bitchat operates over Bluetooth mesh networks for offline communication and uses the Nostr protocol for global reach, with end-to-end encryption and a panic mode that erases all data after three taps on the logo.",
+  "score": 8,
+  "tags": [
+    "government regulation",
+    "censorship",
+    "surveillance",
+    "bluetooth chat",
+    "India"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rootkea",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49036433"
+    }
+  ],
+  "originalUrl": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
+  "originalSite": "thehindu.com",
+  "context": "Bitchat is a decentralized peer-to-peer messaging app that does not rely on central servers or phone numbers, making it resistant to network shutdowns. Indian authorities have previously restricted communication tools after the 2008 Mumbai attacks, which were coordinated using satellite phones. The government&\\#x27;s notice argues that Bitchat&\\#x27;s ability to function during network restrictions poses a risk to national security.",
+  "discussion": "Community comments reflect a divided sentiment; some view the ban as an overreach reminiscent of past attempts to control technologies like VOIP, while others acknowledge India&\\#x27;s security concerns rooted in historical terrorist attacks. One commenter sarcastically suggests that if the Modi government bans something, it is usually good, implying support for the app.",
+  "references": [
+    {
+      "title": "BitChat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BitChat"
+    },
+    {
+      "title": "GitHub - permissionlesstech/bitchat: bluetooth mesh chat, IRC vibes · GitHub",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bead78a9408bf20e7bf1dace5cf91af4ee225ed0",
+  "canonicalId": "be412e2258dda40921f0be84c317e07d7ebbf637",
+  "slug": "open-source-multi-agent-sdlc-harness-beats-cold-claude-code-by-7-75",
+  "date": "2026-07-24",
+  "publishedAt": "2026-07-24T12:15:00Z",
+  "lang": "en",
+  "title": "Open-source multi-agent SDLC harness beats cold Claude Code by 7-75%",
+  "summary": "AutoDev Studio, an open-source multi-agent software development lifecycle \\(SDLC\\) harness, reduces AI coding costs by 7-75% compared to a cold run of Claude Code on large repositories by building a persistent knowledge base via static analysis and local embedding indexing. This addresses a key inefficiency where AI coding agents re-explore repositories from scratch on every task, making localization costly. By caching repository knowledge, AutoDev Studio significantly lowers costs and improves scalability for AI-assisted software development on large codebases. The system uses a multi-agent pipeline including a PM agent, Dev agent, QA agent, and a reviewer from a different model family, with a bounded revise loop. It is provider agnostic and can run completely free offline using Groq&\\#x27;s free tier and local embeddings, but loses on tiny edits or complex cross-cutting bugs where overhead or narrower fixes occur.",
+  "score": 8,
+  "tags": [
+    "AI coding agents",
+    "SDLC automation",
+    "open-source",
+    "multi-agent",
+    "repository analysis"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/NeighborhoodOwn8510"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
+  "originalSite": "reddit.com",
+  "context": "Typical AI coding agents, such as Claude Code, re-index and explore the repository for each new task to locate where changes should be made. AutoDev Studio pre-ingests the repository using static analysis and an embedding index, storing the knowledge persistently so that future tasks can look up relevant context instantly without repeated cold searches.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Code by Anthropic | AI Coding Agent , Terminal, IDE",
+      "url": "https://claude.com/product/claude-code"
+    },
+    {
+      "title": "GitHub - cocoindex-io/cocoindex-code: A super light-weight embedded code search engine CLI (AST based) that just works - improves speed and efficiency for coding agent 🌟 Star if you like it!",
+      "url": "https://github.com/cocoindex-io/cocoindex-code"
+    },
+    {
+      "title": "Semantic codebase indexing and search · Issue #5181 · openai/codex",
+      "url": "https://github.com/openai/codex/issues/5181"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
