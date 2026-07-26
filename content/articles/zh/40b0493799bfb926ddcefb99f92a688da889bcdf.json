@@ -1,0 +1,44 @@
+{
+  "id": "40b0493799bfb926ddcefb99f92a688da889bcdf",
+  "canonicalId": "ea3a33f4a69373e8b0cc3b0b04e4091e4886a0a9",
+  "slug": "sglang-v0516-新增-dspark-投机解码和-inkling-支持",
+  "date": "2026-07-25",
+  "publishedAt": "2026-07-25T00:13:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.16 新增 DSpark 投机解码和 Inkling 支持",
+  "summary": "SGLang v0.5.16 引入了 DSpark，一种基于置信度的投机解码算法，在 DeepSeek-V4-Pro 上达到 383.7 tok/s，并新增了对 Inkling 的支持，这是一个拥有 975B 参数、1M token 上下文的多模态 MoE 模型。 DSpark 无需重新训练即可显著提升 LLM 推理吞吐量，使 DeepSeek-V4 等大型模型速度提升高达 85%，而 Inkling 支持则能够部署具有超长上下文的尖端多模态 MoE 模型，惠及实际应用。 DSpark 使用半自回归草稿和基于置信度的验证窗口大小调整，而 Inkling 采用混合注意力机制（滑动窗口、全注意力和 Mamba2）以及 NVFP4 MoE。该版本还移除了实验性的 QServe 和 FBGEMM FP8 量化路径。",
+  "score": 9,
+  "tags": [
+    "LLM inference",
+    "speculative decoding",
+    "MoE",
+    "multimodal",
+    "SGLang"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Qiaolin-Yu"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16",
+  "originalSite": "github.com",
+  "context": "投机解码通过使用较小的草稿模型生成多个 token，再由目标模型验证，从而加速 LLM 推理。混合专家模型（MoE）每个 token 仅激活部分参数，提高了效率。NVFP4 是一种 4 位浮点格式，专为 NVIDIA Blackwell GPU 上的高效推理而设计。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2607.05147] DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+      "url": "https://arxiv.org/abs/2607.05147"
+    },
+    {
+      "title": "DeepSeek Releases DSpark: Speculative Decoding Makes V4 Up to 85 Percent Faster",
+      "url": "https://www.techtimes.com/articles/319236/20260628/deepseek-releases-dspark-speculative-decoding-makes-v4-85-percent-faster.htm"
+    },
+    {
+      "title": "Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

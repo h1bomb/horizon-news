@@ -1,0 +1,41 @@
+{
+  "id": "ef9cb6ab10c77a4537229c8fc840e7b636e1d974",
+  "canonicalId": "48c790e6def3a9da62f62058fc24a85504587204",
+  "slug": "安卓或限制设备内-adb引发开发者争论",
+  "date": "2026-07-25",
+  "publishedAt": "2026-07-25T06:57:00Z",
+  "lang": "zh",
+  "title": "安卓或限制设备内 ADB，引发开发者争论",
+  "summary": "安卓可能很快限制设备内 ADB 访问，限制开发者直接在设备上运行 ADB 命令的能力。该提议正在讨论中，引发了关于安全性与开发者灵活性的辩论。 这一变化可能严重影响依赖设备内 ADB 进行调试和自动化的开发者。它反映了谷歌安全强化与开发者社区需求之间的持续紧张关系。 限制似乎针对的是网络暴露的 ADB，而不仅仅是 USB。社区成员指出，利用此向量需要同时启用开发者选项和远程 ADB，对典型用户来说不太可能。",
+  "score": 8,
+  "tags": [
+    "Android",
+    "ADB",
+    "security",
+    "developer tools",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "shscs911",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49045159"
+    }
+  ],
+  "originalUrl": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+  "originalSite": "kitsumed.github.io",
+  "context": "Android Debug Bridge \\(ADB\\) 是一个用于调试安卓设备的命令行工具。设备内 ADB 允许通过终端或自动化应用直接在设备上运行命令。虽然功能强大，但 ADB 暴露时可能被恶意软件利用，促使谷歌考虑限制。",
+  "discussion": "社区反应不一：一些人认为该限制不必要，因为攻击向量不现实；另一些人则认为这是合理的安全步骤。一个显著的建议是允许将 ADB 限制在 VPN 等特定接口。",
+  "references": [
+    {
+      "title": "Android Debug Bridge",
+      "url": "https://en.wikipedia.org/wiki/Android_Debug_Bridge"
+    },
+    {
+      "title": "How to use wireless ADB on your Android phone or tablet",
+      "url": "https://www.androidpolice.com/use-wireless-adb-android-phone/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,276 @@
 {
   "articles": [
     {
+      "id": "76368adc1cc22f6e63f2c2f731d03359ffdb5aca",
+      "canonicalId": "22c07582101696a7de1b40399bcfae0584c8c3ea",
+      "slug": "vllm-v0260-发布支持-inkling-模型并优化-deepseek-v4",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "vLLM v0.26.0 发布，支持 Inkling 模型并优化 DeepSeek-V4",
+      "score": 9,
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "release",
+        "DeepSeek",
+        "optimization"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "40b0493799bfb926ddcefb99f92a688da889bcdf",
+      "canonicalId": "ea3a33f4a69373e8b0cc3b0b04e4091e4886a0a9",
+      "slug": "sglang-v0516-新增-dspark-投机解码和-inkling-支持",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "SGLang v0.5.16 新增 DSpark 投机解码和 Inkling 支持",
+      "score": 9,
+      "tags": [
+        "LLM inference",
+        "speculative decoding",
+        "MoE",
+        "multimodal",
+        "SGLang"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "ace36e4d224ad754c7ea30d2652c422ffc0cc2f7",
+      "canonicalId": "2635b89b44132e7e7c78a780ce1bc6789ef7ca6f",
+      "slug": "开放权重-ai机器学习领域的-kubernetes",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "开放权重 AI：机器学习领域的 Kubernetes？",
+      "score": 9,
+      "tags": [
+        "open-weight",
+        "AI",
+        "Kubernetes",
+        "open source",
+        "machine learning"
+      ],
+      "originalSite": "tobi.knaup.me"
+    },
+    {
+      "id": "0c0348f3e59f45072ac73878e6d761cb6997dfa6",
+      "canonicalId": "91618c85563a547b8557788a625f1948afc5de6e",
+      "slug": "anthropic-发布-claude-opus-5成本仅为前沿-ai-的一半",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "Anthropic 发布 Claude Opus 5，成本仅为前沿 AI 的一半",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "language models"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "ef9cb6ab10c77a4537229c8fc840e7b636e1d974",
+      "canonicalId": "48c790e6def3a9da62f62058fc24a85504587204",
+      "slug": "安卓或限制设备内-adb引发开发者争论",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "安卓或限制设备内 ADB，引发开发者争论",
+      "score": 8,
+      "tags": [
+        "Android",
+        "ADB",
+        "security",
+        "developer tools",
+        "privacy"
+      ],
+      "originalSite": "kitsumed.github.io"
+    },
+    {
+      "id": "06a4cb12f743f3147499f29fc54a539d51bbaa6c",
+      "canonicalId": "4d5da1abe9d0ae45b3c896e2bb7c4abc40159f59",
+      "slug": "ruff-v0160-默认启用-413-条规则导致-ci-管道出错",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "Ruff v0.16.0 默认启用 413 条规则，导致 CI 管道出错",
+      "score": 8,
+      "tags": [
+        "Python",
+        "linting",
+        "Ruff",
+        "AST",
+        "developer tools"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "1f25641f7105e85d970f7951ba0151abcdce93f7",
+      "canonicalId": "4824201a2da20d27538606ec479c3c4839da8b98",
+      "slug": "amd-挑战-nvidia-cuda-护城河软件与生产瓶颈",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "AMD 挑战 NVIDIA CUDA 护城河：软件与生产瓶颈",
+      "score": 8,
+      "tags": [
+        "AMD",
+        "CUDA",
+        "AI",
+        "GPU",
+        "software"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
+      "id": "3fc72e5686ef91635440a681980c2ecc6a503ecd",
+      "canonicalId": "e4beb6249e752e77c11431c357dc7fa3aaa918b2",
+      "slug": "gnu-c-库-244-发布引入系统级可调参数配置",
+      "date": "2026-07-25",
+      "lang": "zh",
+      "title": "GNU C 库 2.44 发布，引入系统级可调参数配置",
+      "score": 8,
+      "tags": [
+        "glibc",
+        "C library",
+        "system programming",
+        "security",
+        "performance"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "863927dcea8227aa0b17502d33db13c6c89ecb56",
+      "canonicalId": "22c07582101696a7de1b40399bcfae0584c8c3ea",
+      "slug": "vllm-v0260-released-with-inkling-support-and-deepseek-v4-boost",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "vLLM v0.26.0 Released with Inkling Support and DeepSeek-V4 Boost",
+      "score": 9,
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "release",
+        "DeepSeek",
+        "optimization"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "8f35d42ca8454ed2ab276c9b8be740eb16336cc7",
+      "canonicalId": "ea3a33f4a69373e8b0cc3b0b04e4091e4886a0a9",
+      "slug": "sglang-v0516-adds-dspark-speculative-decoding-and-inkling-support",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "SGLang v0.5.16 adds DSpark speculative decoding and Inkling support",
+      "score": 9,
+      "tags": [
+        "LLM inference",
+        "speculative decoding",
+        "MoE",
+        "multimodal",
+        "SGLang"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "01db108ca4b8d4448da2dd0ea70b2dfaa7ffb980",
+      "canonicalId": "2635b89b44132e7e7c78a780ce1bc6789ef7ca6f",
+      "slug": "open-weight-ai-the-kubernetes-of-machine-learning",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "Open-weight AI: The Kubernetes of Machine Learning?",
+      "score": 9,
+      "tags": [
+        "open-weight",
+        "AI",
+        "Kubernetes",
+        "open source",
+        "machine learning"
+      ],
+      "originalSite": "tobi.knaup.me"
+    },
+    {
+      "id": "6e9f49f7a5a1026a915493e389d87e5a6208e43d",
+      "canonicalId": "91618c85563a547b8557788a625f1948afc5de6e",
+      "slug": "anthropic-launches-claude-opus-5-at-half-the-cost-of-frontier-ai",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "Anthropic Launches Claude Opus 5 at Half the Cost of Frontier AI",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "language models"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "83163e1fff06afd135e56b301908ba1ec39e570e",
+      "canonicalId": "48c790e6def3a9da62f62058fc24a85504587204",
+      "slug": "android-may-restrict-on-device-adb-sparking-developer-debate",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "Android May Restrict On-Device ADB, Sparking Developer Debate",
+      "score": 8,
+      "tags": [
+        "Android",
+        "ADB",
+        "security",
+        "developer tools",
+        "privacy"
+      ],
+      "originalSite": "kitsumed.github.io"
+    },
+    {
+      "id": "7f7d53b36ae59c242ad818b097861c8d3fb1d46e",
+      "canonicalId": "4d5da1abe9d0ae45b3c896e2bb7c4abc40159f59",
+      "slug": "ruff-v0160-enables-413-default-rules-breaking-ci-pipelines",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "Ruff v0.16.0 Enables 413 Default Rules, Breaking CI Pipelines",
+      "score": 8,
+      "tags": [
+        "Python",
+        "linting",
+        "Ruff",
+        "AST",
+        "developer tools"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "af1dfb4c3f47246aad81280fdb2113fac179701a",
+      "canonicalId": "4824201a2da20d27538606ec479c3c4839da8b98",
+      "slug": "amdx27s-cuda-moat-challenge-software-amp-production-gaps",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "AMD&\\#x27;s CUDA Moat Challenge: Software &amp; Production Gaps",
+      "score": 8,
+      "tags": [
+        "AMD",
+        "CUDA",
+        "AI",
+        "GPU",
+        "software"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
+      "id": "e0fbfc835819f3d83cf95fab75ad2e29aea25c3e",
+      "canonicalId": "e4beb6249e752e77c11431c357dc7fa3aaa918b2",
+      "slug": "gnu-c-library-244-released-with-system-wide-tunables",
+      "date": "2026-07-25",
+      "lang": "en",
+      "title": "GNU C Library 2.44 Released with System-Wide Tunables",
+      "score": 8,
+      "tags": [
+        "glibc",
+        "C library",
+        "system programming",
+        "security",
+        "performance"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
       "id": "d0ab5cc761b4e01597a9c23e58be52ef9041f237",
       "canonicalId": "b67cd7f2e9df36b2c58a6c6ec4dc1fb5eb928579",
       "slug": "science-揭露未经授权的基因治疗试验导致中国女童死亡",
@@ -5569,516 +5839,6 @@
         "tech policy"
       ],
       "originalSite": "theverge.com"
-    },
-    {
-      "id": "7994a2553bc5ceb009f317b114398ffeb6dffd4a",
-      "canonicalId": "54ee76ae9206d639c0800316ef4ab1a52b70d689",
-      "slug": "openai-发布-gpt-56-系列及-sol-模型",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "OpenAI 发布 GPT-5.6 系列及 Sol 模型",
-      "score": 10,
-      "tags": [
-        "GPT-5.6",
-        "OpenAI",
-        "Language Models",
-        "AI Safety",
-        "Benchmarks"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "40afbb7018ec03a3f0854e4be6cd66db87a57f83",
-      "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
-      "slug": "typescript-70-发布go-重写带来高达-12-倍速度提升",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "TypeScript 7.0 发布：Go 重写带来高达 12 倍速度提升",
-      "score": 10,
-      "tags": [
-        "TypeScript",
-        "Go",
-        "Compiler",
-        "Performance",
-        "Microsoft"
-      ],
-      "originalSite": "devblogs.microsoft.com"
-    },
-    {
-      "id": "876245c26286f65c467c55fa15d4bbf8f84c2d35",
-      "canonicalId": "de4d3da74ad4293dcd7bc20a4ca5e7bc657dcbdb",
-      "slug": "欧盟议会批准聊天控制-10-大规模扫描",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "欧盟议会批准聊天控制 1.0 大规模扫描",
-      "score": 9,
-      "tags": [
-        "privacy",
-        "surveillance",
-        "EU law",
-        "Chat Control",
-        "democracy"
-      ],
-      "originalSite": "patrick-breyer.de"
-    },
-    {
-      "id": "7a57c09a822701739bd7b4d8ca13ff7990bbc66c",
-      "canonicalId": "b8c7fd931d56f1062770192e20cbf04f91cb0311",
-      "slug": "用-rust-重写的-postgres-通过所有回归测试",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "用 Rust 重写的 Postgres 通过所有回归测试",
-      "score": 9,
-      "tags": [
-        "postgres",
-        "rust",
-        "llm",
-        "database",
-        "ai"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "ea7b124f4674bb53a612df66f2d009cbb92f0db8",
-      "canonicalId": "6e092bbc457ecf2cc9e0f5faa6b5c181dec8e0d5",
-      "slug": "蚂蚁集团开源-lingbot-video首个-moe-具身视频基模",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "蚂蚁集团开源 LingBot-Video，首个 MoE 具身视频基模",
-      "score": 9,
-      "tags": [
-        "Embodied AI",
-        "Video Generation",
-        "MoE",
-        "Open Source",
-        "Robotics"
-      ],
-      "originalSite": "qbitai.com"
-    },
-    {
-      "id": "018c8c1cf8d7a8be3c341d4ec99658a2782ef13c",
-      "canonicalId": "fdca102c3994baf2a5e08649228a2dccfb6837d3",
-      "slug": "郑州超算互联网核心节点上线提供超-10-万张国产-ai-算力卡",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "郑州超算互联网核心节点上线，提供超 10 万张国产 AI 算力卡",
-      "score": 9,
-      "tags": [
-        "supercomputing",
-        "AI infrastructure",
-        "China",
-        "domestic compute",
-        "national supercomputing internet"
-      ],
-      "originalSite": "36kr.com"
-    },
-    {
-      "id": "2870a3ecb31f1236bbec8576fa8145e8e584458b",
-      "canonicalId": "08e9aa519f8328638b1bd96afccd42541d2d00a8",
-      "slug": "meta-发布-muse-spark-11-代理式-ai-模型",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "Meta 发布 Muse Spark 1.1 代理式 AI 模型",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Meta",
-        "Muse Spark",
-        "LLM",
-        "benchmarks"
-      ],
-      "originalSite": "ai.meta.com"
-    },
-    {
-      "id": "9e18b1a484e14b42ca197248e4838cac6ada4c93",
-      "canonicalId": "50ca3cf531e4b912fdd2027a705538a88ebf1803",
-      "slug": "bun-从-zig-重写为-rust",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "Bun 从 Zig 重写为 Rust",
-      "score": 8,
-      "tags": [
-        "Bun",
-        "Rust",
-        "Zig",
-        "systems programming",
-        "engineering"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "49f9a374ba9d87287159b496da103e4c7208ab21",
-      "canonicalId": "33f596b1fc089098a623f8019871aadd492f3512",
-      "slug": "openai-推出-gpt-live-语音模型可委托-gpt-55-执行复杂任务",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "OpenAI 推出 GPT-Live 语音模型，可委托 GPT-5.5 执行复杂任务",
-      "score": 8,
-      "tags": [
-        "OpenAI",
-        "GPT-Live",
-        "voice mode",
-        "GPT-5.5",
-        "AI assistants"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "51e46b5f4f688359422e7ced48572ad6baae6647",
-      "canonicalId": "ef87054d5d7f697a20efdcc31614b01ec6996e24",
-      "slug": "meta-超级智能进展大规模计算与-rl-初创公司",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "Meta 超级智能进展：大规模计算与 RL 初创公司",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Meta",
-        "Superintelligence",
-        "Compute",
-        "Reinforcement Learning"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "69124f86d4b2073d0cf41f39971b31a96d67c3c7",
-      "canonicalId": "7007df316e714c16f91f67e1bece7199e76185d0",
-      "slug": "rust-1970-发布新符号混淆方案与-cargo-警告拒绝",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "Rust 1.97.0 发布，新符号混淆方案与 Cargo 警告拒绝",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "release",
-        "programming language",
-        "tooling",
-        "build system"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "e020b1269ea4684e1f5f3981c9723d14c1b4ed84",
-      "canonicalId": "09109b70a43ea7c067c32515c28bd3edf28b0cfb",
-      "slug": "imgnet通过符号模式匹配进行人脸验证",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "IMGNet：通过符号模式匹配进行人脸验证",
-      "score": 8,
-      "tags": [
-        "face verification",
-        "machine learning",
-        "computer vision",
-        "representation learning",
-        "embedding similarity"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "90b78a658874cc65162c69e25321298dab286236",
-      "canonicalId": "579dcf482c956fef26a14cdfd6c0689692a3d211",
-      "slug": "大疆-ev50-无人机飞越珠峰创-8861-米纪录",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "大疆 EV50 无人机飞越珠峰创 8861 米纪录",
-      "score": 8,
-      "tags": [
-        "drone",
-        "VTOL",
-        "DJI",
-        "high-altitude",
-        "logistics"
-      ],
-      "originalSite": "163.com"
-    },
-    {
-      "id": "99c092137a85b1e24eaefa9b191562540eb781e5",
-      "canonicalId": "ff3a2f37df2f08c6b65c4f28aabe108c52b933a9",
-      "slug": "meta-自研-ai-芯片-iris-9-月量产明年算力翻倍",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "Meta 自研 AI 芯片 Iris 9 月量产，明年算力翻倍",
-      "score": 8,
-      "tags": [
-        "AI",
-        "hardware",
-        "Meta",
-        "chips",
-        "infrastructure"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "6e90117a75df9227f95299627964ebf505f86b29",
-      "canonicalId": "41b85c9cdb7a0122f22d6b2e39aed7b59f41059a",
-      "slug": "openai-发布国家安全原则禁止自主武器",
-      "date": "2026-07-09",
-      "lang": "zh",
-      "title": "OpenAI 发布国家安全原则，禁止自主武器",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "AI governance",
-        "OpenAI",
-        "national security",
-        "autonomous weapons"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "e426a286ab01d8e9dcf12062e5f0b98e9ef0e447",
-      "canonicalId": "54ee76ae9206d639c0800316ef4ab1a52b70d689",
-      "slug": "openai-releases-gpt-56-series-with-sol-model",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "OpenAI Releases GPT-5.6 Series with Sol Model",
-      "score": 10,
-      "tags": [
-        "GPT-5.6",
-        "OpenAI",
-        "Language Models",
-        "AI Safety",
-        "Benchmarks"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "8ed507191a9f6f0492e70430561b18c88c344569",
-      "canonicalId": "18b7f56883c0feaa4ae8b8fa27f6f572d6f95655",
-      "slug": "typescript-70-released-with-go-rewrite-up-to-12x-faster",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "TypeScript 7.0 Released with Go Rewrite, Up to 12x Faster",
-      "score": 10,
-      "tags": [
-        "TypeScript",
-        "Go",
-        "Compiler",
-        "Performance",
-        "Microsoft"
-      ],
-      "originalSite": "devblogs.microsoft.com"
-    },
-    {
-      "id": "8cd85f64ec55acb4524aaab85fd5ff0e543df7e3",
-      "canonicalId": "de4d3da74ad4293dcd7bc20a4ca5e7bc657dcbdb",
-      "slug": "eu-parliament-approves-chat-control-10-mass-scanning",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "EU Parliament Approves Chat Control 1.0 Mass Scanning",
-      "score": 9,
-      "tags": [
-        "privacy",
-        "surveillance",
-        "EU law",
-        "Chat Control",
-        "democracy"
-      ],
-      "originalSite": "patrick-breyer.de"
-    },
-    {
-      "id": "bbd148559732dcdfb08e08d697732366abdfc320",
-      "canonicalId": "b8c7fd931d56f1062770192e20cbf04f91cb0311",
-      "slug": "rust-rewrite-of-postgres-passes-all-regression-tests",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Rust Rewrite of Postgres Passes All Regression Tests",
-      "score": 9,
-      "tags": [
-        "postgres",
-        "rust",
-        "llm",
-        "database",
-        "ai"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "5741ba1a0cf7cce98445218bbfeba7066dc7abfd",
-      "canonicalId": "6e092bbc457ecf2cc9e0f5faa6b5c181dec8e0d5",
-      "slug": "ant-group-open-sources-lingbot-video-first-moe-embodied-video-model",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Ant Group Open-Sources LingBot-Video, First MoE Embodied Video Model",
-      "score": 9,
-      "tags": [
-        "Embodied AI",
-        "Video Generation",
-        "MoE",
-        "Open Source",
-        "Robotics"
-      ],
-      "originalSite": "qbitai.com"
-    },
-    {
-      "id": "8f3486d09f7b1781fad1ab1f3b072748788c03a5",
-      "canonicalId": "fdca102c3994baf2a5e08649228a2dccfb6837d3",
-      "slug": "zhengzhou-supercomputing-internet-node-launches-with-100k-domestic-ai-cards",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Zhengzhou Supercomputing Internet Node Launches with 100K+ Domestic AI Cards",
-      "score": 9,
-      "tags": [
-        "supercomputing",
-        "AI infrastructure",
-        "China",
-        "domestic compute",
-        "national supercomputing internet"
-      ],
-      "originalSite": "36kr.com"
-    },
-    {
-      "id": "31c1eb5865b14a0da3f31462a7edc4dcc64058ce",
-      "canonicalId": "08e9aa519f8328638b1bd96afccd42541d2d00a8",
-      "slug": "meta-releases-muse-spark-11-agentic-ai-model",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Meta Releases Muse Spark 1.1 Agentic AI Model",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Meta",
-        "Muse Spark",
-        "LLM",
-        "benchmarks"
-      ],
-      "originalSite": "ai.meta.com"
-    },
-    {
-      "id": "52527ea513dd6cff7c23a221b19669541d4e90d6",
-      "canonicalId": "50ca3cf531e4b912fdd2027a705538a88ebf1803",
-      "slug": "bun-rewritten-from-zig-to-rust",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Bun Rewritten from Zig to Rust",
-      "score": 8,
-      "tags": [
-        "Bun",
-        "Rust",
-        "Zig",
-        "systems programming",
-        "engineering"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "4a0b3a2c0ed7b49bd8c2acaa8ce80420d4c158b5",
-      "canonicalId": "33f596b1fc089098a623f8019871aadd492f3512",
-      "slug": "openai-launches-gpt-live-voice-model-with-gpt-55-delegation",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "OpenAI launches GPT-Live voice model with GPT-5.5 delegation",
-      "score": 8,
-      "tags": [
-        "OpenAI",
-        "GPT-Live",
-        "voice mode",
-        "GPT-5.5",
-        "AI assistants"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "3ff69920bd7cbf560d25ba004f8c0a59459b0991",
-      "canonicalId": "ef87054d5d7f697a20efdcc31614b01ec6996e24",
-      "slug": "metas-superintelligence-progress-massive-compute-and-rl-startup",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Meta's Superintelligence Progress: Massive Compute and RL Startup",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Meta",
-        "Superintelligence",
-        "Compute",
-        "Reinforcement Learning"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "764f36b6df4c534977a5bc6d10cf5ceede20c4d5",
-      "canonicalId": "7007df316e714c16f91f67e1bece7199e76185d0",
-      "slug": "rust-1970-released-with-new-symbol-mangling-and-cargo-warnings-denial",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Rust 1.97.0 Released with New Symbol Mangling and Cargo Warnings Denial",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "release",
-        "programming language",
-        "tooling",
-        "build system"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "7f44d7438bd6ad96e3a50541a6c15be13a6c5c73",
-      "canonicalId": "09109b70a43ea7c067c32515c28bd3edf28b0cfb",
-      "slug": "imgnet-face-verification-via-sign-pattern-matching",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "IMGNet: Face Verification via Sign Pattern Matching",
-      "score": 8,
-      "tags": [
-        "face verification",
-        "machine learning",
-        "computer vision",
-        "representation learning",
-        "embedding similarity"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "09fc48c251cb815622bb8965217f24fb29a5ebad",
-      "canonicalId": "579dcf482c956fef26a14cdfd6c0689692a3d211",
-      "slug": "dji-ev50-drone-sets-record-at-8861m-on-everest",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "DJI EV50 Drone Sets Record at 8,861m on Everest",
-      "score": 8,
-      "tags": [
-        "drone",
-        "VTOL",
-        "DJI",
-        "high-altitude",
-        "logistics"
-      ],
-      "originalSite": "163.com"
-    },
-    {
-      "id": "064f25eb73386eab4ab013275c386d0c27d7a353",
-      "canonicalId": "ff3a2f37df2f08c6b65c4f28aabe108c52b933a9",
-      "slug": "meta-to-mass-produce-ai-chip-iris-in-september-double-capacity-next-year",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "Meta to mass-produce AI chip 'Iris' in September, double capacity next year",
-      "score": 8,
-      "tags": [
-        "AI",
-        "hardware",
-        "Meta",
-        "chips",
-        "infrastructure"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "48886bbefe2350045c469f0f987455c8f16cab26",
-      "canonicalId": "41b85c9cdb7a0122f22d6b2e39aed7b59f41059a",
-      "slug": "openai-issues-national-security-principles-bans-autonomous-weapons",
-      "date": "2026-07-09",
-      "lang": "en",
-      "title": "OpenAI Issues National Security Principles, Bans Autonomous Weapons",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "AI governance",
-        "OpenAI",
-        "national security",
-        "autonomous weapons"
-      ],
-      "originalSite": "openai.com"
     }
   ]
 }

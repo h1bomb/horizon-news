@@ -1,0 +1,40 @@
+{
+  "id": "e0fbfc835819f3d83cf95fab75ad2e29aea25c3e",
+  "canonicalId": "e4beb6249e752e77c11431c357dc7fa3aaa918b2",
+  "slug": "gnu-c-library-244-released-with-system-wide-tunables",
+  "date": "2026-07-25",
+  "publishedAt": "2026-07-25T13:44:00Z",
+  "lang": "en",
+  "title": "GNU C Library 2.44 Released with System-Wide Tunables",
+  "summary": "The GNU C Library version 2.44 has been released, introducing a new /etc/tunables.conf file for system-wide tunable parameter configuration, along with a new tunable to control transparent huge pages for read-only executable segments, and multiple math-function improvements and security fixes. This release significantly enhances system administrators&\\#x27; ability to tune glibc behavior without relying solely on environment variables, and the transparent huge page control can improve performance and security for executable segments. As glibc is a foundational component of virtually all Linux systems, these changes have widespread impact on system stability and efficiency. The /etc/tunables.conf file allows specifying one tunable per line, with optional prefix modifiers to control overridability by the GLIBC\\_TUNABLES environment variable, and supports per-process or per-user rules via \\[proc:\\*\\] syntax. The new transparent huge page tunable \\(glibc.tune.thp\\_for\\_ro\\_exec\\) lets administrators enable or disable THP for read-only executable segments, which can reduce memory fragmentation and TLB misses.",
+  "score": 8,
+  "tags": [
+    "glibc",
+    "C library",
+    "system programming",
+    "security",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1085030/",
+  "originalSite": "lwn.net",
+  "context": "GNU C Library \\(glibc\\) is the core C library used by most Linux distributions, providing system calls and basic facilities for programs. Tunables are a glibc feature that allows adjusting runtime behavior, previously only configurable via the GLIBC\\_TUNABLES environment variable. Transparent Huge Pages \\(THP\\) are a Linux kernel feature that automatically uses large memory pages \\(typically 2MB\\) to reduce translation lookaside buffer \\(TLB\\) overhead, but can also cause memory bloat if misconfigured.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Glibc Introduces /etc/tunables.conf For System-Wide Tunables - Phoronix",
+      "url": "https://www.phoronix.com/news/Glibc-System-Tunables"
+    },
+    {
+      "title": "Tunables (The GNU C Library)",
+      "url": "https://www.sourceware.org/glibc/manual/2.39/html_node/Tunables.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

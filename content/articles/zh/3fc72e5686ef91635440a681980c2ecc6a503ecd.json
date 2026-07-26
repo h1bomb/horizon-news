@@ -1,0 +1,40 @@
+{
+  "id": "3fc72e5686ef91635440a681980c2ecc6a503ecd",
+  "canonicalId": "e4beb6249e752e77c11431c357dc7fa3aaa918b2",
+  "slug": "gnu-c-库-244-发布引入系统级可调参数配置",
+  "date": "2026-07-25",
+  "publishedAt": "2026-07-25T13:44:00Z",
+  "lang": "zh",
+  "title": "GNU C 库 2.44 发布，引入系统级可调参数配置",
+  "summary": "GNU C 库（glibc）2.44 版本已发布，新增 /etc/tunables.conf 文件用于系统级可调参数配置，增加了控制只读可执行段透明大页的新选项，并包含多项数学函数改进和安全修复。 此版本显著增强了系统管理员调整 glibc 行为的能力，无需仅依赖环境变量，同时透明大页控制可提升可执行段的性能与安全性。由于 glibc 是几乎所有 Linux 系统的基础组件，这些变更对系统稳定性和效率具有广泛影响。 /etc/tunables.conf 文件允许每行指定一个可调参数，可通过可选前缀修饰符控制 GLIBC\\_TUNABLES 环境变量的覆盖权限，并支持通过 \\[proc:\\*\\] 语法实现按进程或按用户的规则。新增的透明大页可调参数（glibc.tune.thp\\_for\\_ro\\_exec）允许管理员为只读可执行段启用或禁用 THP，有助于减少内存碎片和 TLB 未命中。",
+  "score": 8,
+  "tags": [
+    "glibc",
+    "C library",
+    "system programming",
+    "security",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1085030/",
+  "originalSite": "lwn.net",
+  "context": "GNU C 库（glibc）是大多数 Linux 发行版使用的核心 C 库，为程序提供系统调用和基本功能。可调参数（tunables）是 glibc 的一项特性，允许调整运行时行为，之前只能通过 GLIBC\\_TUNABLES 环境变量配置。透明大页（THP）是 Linux 内核的一项特性，可自动使用大内存页（通常 2MB）以减少 TLB 开销，但若配置不当可能造成内存膨胀。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Glibc Introduces /etc/tunables.conf For System-Wide Tunables - Phoronix",
+      "url": "https://www.phoronix.com/news/Glibc-System-Tunables"
+    },
+    {
+      "title": "Tunables (The GNU C Library)",
+      "url": "https://www.sourceware.org/glibc/manual/2.39/html_node/Tunables.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

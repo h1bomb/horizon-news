@@ -1,0 +1,40 @@
+{
+  "id": "7f7d53b36ae59c242ad818b097861c8d3fb1d46e",
+  "canonicalId": "4d5da1abe9d0ae45b3c896e2bb7c4abc40159f59",
+  "slug": "ruff-v0160-enables-413-default-rules-breaking-ci-pipelines",
+  "date": "2026-07-25",
+  "publishedAt": "2026-07-25T22:44:00Z",
+  "lang": "en",
+  "title": "Ruff v0.16.0 Enables 413 Default Rules, Breaking CI Pipelines",
+  "summary": "Ruff v0.16.0, released on July 23, 2026, dramatically increased its default enabled rules from 59 to 413, causing CI failures for projects using unpinned Ruff dependencies. This change significantly raises the bar for Python code quality by catching many severe issues automatically, but it also risks breaking existing workflows for teams that rely on the previous default rule set without explicit configuration. The number of total rules in Ruff has grown from 708 to 968 since v0.1.0, and the new defaults include rules detecting syntax errors and immediate runtime errors. Simon Willison reported 1,618 errors in sqlite-utils, with 1,538 auto-fixed using --unsafe-fixes.",
+  "score": 8,
+  "tags": [
+    "Python",
+    "linting",
+    "Ruff",
+    "AST",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Ruff is a high-performance Python linter developed by Astral, designed to be 10-100x faster than traditional tools like Pylint and Black. It replaces multiple dependencies with a single, fast tool. The tool&\\#x27;s default rule set is important because it determines which checks run automatically without user configuration.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Ruff , an extremely fast Python linter | Astral",
+      "url": "https://astral.sh/ruff"
+    },
+    {
+      "title": "GitHub - astral-sh/ ruff : An extremely fast Python linter and code...",
+      "url": "https://github.com/astral-sh/ruff"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
