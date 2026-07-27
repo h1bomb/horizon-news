@@ -1,0 +1,44 @@
+{
+  "id": "dff1024e57ad120011f3cb4ccb123f2de390ef5b",
+  "canonicalId": "4fd1d141f07747d26fde8de4d218019451f3495b",
+  "slug": "open-weight-4b-models-near-o3-level-on-swedish-medical-qa",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T11:58:00Z",
+  "lang": "en",
+  "title": "Open-weight 4B models near o3-level on Swedish medical QA",
+  "summary": "Small open-weight 4B parameter LLMs \\(Gemma4-E4B and Qwen3.5-4B\\) achieved 77% accuracy on Swedish medical licensing exam questions without post-training, and Qwen3.5-4B with reasoning reached 87%, approaching the 88% score of o3. This demonstrates that small open-weight models can match closed-source state-of-the-art performance on domain-specific tasks, making advanced medical QA accessible without massive compute or proprietary APIs. It also highlights the rapid pace of improvement in open-source LLMs. The Qwen3.5-4B model performed reasoning entirely in English despite the Swedish prompts, and an early exit intervention from the S-GRPO paper was used to prevent reasoning loops. A reinforcement learning method to shorten reasoning traces yielded only minor gains.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "medical-QA",
+    "small-models",
+    "reasoning",
+    "Swedish"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/AccomplishedCat4770"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
+  "originalSite": "reddit.com",
+  "context": "The MedQA-SWE dataset is a Swedish multiple-choice question set from medical licensing exams. The o3 model refers to OpenAI&\\#x27;s high-performing reasoning model that scored 88% on a subset of these questions. Open-weight models have their weights publicly available for fine-tuning and inference, unlike closed APIs.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "S - GRPO : Early Exit via Reinforcement Learning in Reasoning Models",
+      "url": "https://arxiv.org/abs/2505.07686"
+    },
+    {
+      "title": "nicher92/ medqa - swe · Datasets at Hugging Face",
+      "url": "https://huggingface.co/datasets/nicher92/medqa-swe"
+    },
+    {
+      "title": "MedQA - SWE - a Clinical Question &amp; Answer Dataset for Swedish",
+      "url": "https://aclanthology.org/2024.lrec-main.975.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

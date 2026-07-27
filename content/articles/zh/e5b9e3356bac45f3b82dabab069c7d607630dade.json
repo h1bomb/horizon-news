@@ -1,0 +1,44 @@
+{
+  "id": "e5b9e3356bac45f3b82dabab069c7d607630dade",
+  "canonicalId": "96799ea66e67bf6270752cb8e9bbbb4b35623d91",
+  "slug": "从头用-arm64-汇编实现-yolo26n-推理",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T06:43:00Z",
+  "lang": "zh",
+  "title": "从头用 ARM64 汇编实现 YOLO26n 推理",
+  "summary": "一个本科毕业设计项目从零开始使用 ARM64 汇编语言和 C 语言实现了 YOLO26n 目标检测模型的完整推理管线，不依赖任何现有深度学习框架。该实现在 Raspberry Pi 4 上运行，并采用了 ARM NEON SIMD、Winograd 卷积和缓存感知分块等底层优化技术。 该项目展示了开发者对神经网络推理引擎在硬件层面的深入理解，为资源受限的边缘 AI 设备提供了极致优化的思路。它突破了树莓派等常见单板计算机的性能极限，有望在不依赖专用加速器的情况下实现实时目标检测。 实现包括算子融合、自定义 ARM64 微内核以及注意力机制（PSA 模块）。模型参数被提取并存储为针对推理管线优化的自定义二进制格式，虽然检测结果正确，但性能提升低于预期。",
+  "score": 8,
+  "tags": [
+    "YOLO",
+    "ARM64 Assembly",
+    "Edge AI",
+    "Inference Optimization",
+    "Computer Vision"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Forward\\_Confusion902"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/",
+  "originalSite": "reddit.com",
+  "context": "YOLO（You Only Look Once）是流行的实时目标检测模型系列。在树莓派等边缘设备上运行此类模型通常需要 TensorFlow Lite 或 ONNX Runtime 等优化框架。而该项目直接用 ARM64 汇编编写整个推理代码，采用 Winograd 卷积（减少乘法次数）和缓存感知分块（改善数据局部性）等技术来加速计算。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Winograd Convolution in CNNs",
+      "url": "https://www.emergentmind.com/topics/winograd-convolution"
+    },
+    {
+      "title": "pranshutripathi21/memory-bound-kernel-optimizer: Cache - aware tiling ...",
+      "url": "https://github.com/pranshutripathi21/memory-bound-kernel-optimizer"
+    },
+    {
+      "title": "How Pytorch 2.0 Accelerates Deep Learning with Operator Fusion ...",
+      "url": "https://medium.com/data-science/how-pytorch-2-0-accelerates-deep-learning-with-operator-fusion-and-cpu-gpu-code-generation-35132a85bd26"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

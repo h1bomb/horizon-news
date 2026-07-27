@@ -1,0 +1,40 @@
+{
+  "id": "3b69c051636de4ee1b3913d589be636e6cb6af6f",
+  "canonicalId": "cc1403ff4fc3a478720e4c644130ec672da8a3c6",
+  "slug": "llm-代币中继市场助长欺诈与滥用",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T19:30:00Z",
+  "lang": "zh",
+  "title": "LLM 代币中继市场助长欺诈与滥用",
+  "summary": "Matt Lenhard 的调查揭露了一个折扣 LLM 代币的黑市，其中转售商使用 one-api 及其分支 new-api 等开源代理工具，汇集通过滥用免费试用、窃取凭证和退款攻击获得的密钥。 这一生态系统暴露了系统性的 API 安全弱点，威胁 LLM 提供商的收入，并可能导致开发者的端点被利用而产生巨额账单。它凸显了设置严格 API 密钥上限和支出控制的迫切需求。 代理服务主要在中国运营，买家寻求低价代币、绕过地理限制或进行模型蒸馏。合法的开源网关 one-api 和 new-api 被重新利用，在非法获取的凭证池中进行负载均衡。",
+  "score": 8,
+  "tags": [
+    "security",
+    "LLM",
+    "API",
+    "fraud",
+    "proxy"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "大型语言模型（LLM）提供商按 token 收取 API 访问费用，使得成本成为重度用户的障碍。转售商通过汇集通过滥用免费试用、窃取信用卡或利用未受保护的内部端点获得的 API 密钥来提供折扣价格。开源代理软件如 one-api 及其增强分支 new-api 能够管理这些密钥池并路由请求，使欺诈在技术上变得简单。这种做法在中国尤为普遍，许多此类代理服务都托管在那里。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "New API : The Next-Gen LLM Gateway &amp; AI Asset Manager | AIBit",
+      "url": "https://aibit.im/blog/post/new-api-the-next-gen-llm-gateway-ai-asset-manager"
+    },
+    {
+      "title": "Comparing the Top AI API Providers for Coding and Development in...",
+      "url": "https://www.claudehome.cn/en/articles/comparing-the-top-ai-api-providers-for-coding-and-development-in-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fce20d548436fe1357b6ee5650c4af7c40968421",
+  "canonicalId": "46b7542e2103a8a488a025b586d423fe819d446c",
+  "slug": "claude-共享链接被搜索引擎索引泄漏隐私数据",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T11:16:00Z",
+  "lang": "zh",
+  "title": "Claude 共享链接被搜索引擎索引，泄漏隐私数据",
+  "summary": "Claude 的共享对话链接未设置禁止搜索引擎抓取的 &\\#x27;noindex&\\#x27; 标签，导致 Google、Brave 和 Bing 等搜索引擎索引了这些链接，暴露了包含 API 密钥、加密货币钱包信息、个人简历和社会安全号码等敏感内容的私密对话。 此漏洞暴露了广泛使用的 AI 平台中的高度敏感用户数据，类似于过去 ChatGPT 曾出现但已迅速修复的问题。Anthropic 未能解决此问题，使数百万用户面临身份盗窃、财务损失和隐私泄露的风险，削弱了用户对 AI 助手服务的信任。 谷歌已屏蔽这些链接的索引，但 Brave 和 Bing 仍在搜索结果中显示。Anthropic 尚未发布修复方案；建议用户手动在“共享对话”设置页面删除涉及隐私的聊天记录。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "security",
+    "Claude",
+    "Anthropic",
+    "data leak"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://search.brave.com/search?q=site%3Aclaude.ai%2Fshare&amp;amp;source=android",
+  "originalSite": "search.brave.com",
+  "context": "Claude 是 Anthropic 开发的对话式 AI 助手。其“共享”功能会为对话生成可公开访问的 URL，方便用户之间分享。但如果缺少指示搜索引擎不要索引该页面的 &\\#x27;noindex&\\#x27; 元标签，这些 URL 就会被抓取并出现在搜索结果中，无意中将私人信息暴露给任何进行搜索的人。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude",
+      "url": "https://claude.com/"
+    },
+    {
+      "title": "noindex - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Noindex"
+    },
+    {
+      "title": "What Are Robot Meta Tags ? And How to Implement them - Moz",
+      "url": "https://moz.com/learn/seo/robots-meta-directives"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

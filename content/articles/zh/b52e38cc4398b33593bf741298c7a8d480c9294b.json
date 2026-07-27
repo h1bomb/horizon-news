@@ -1,0 +1,44 @@
+{
+  "id": "b52e38cc4398b33593bf741298c7a8d480c9294b",
+  "canonicalId": "4fd1d141f07747d26fde8de4d218019451f3495b",
+  "slug": "开源-4b-模型接近-o3-级别瑞典医学问答",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T11:58:00Z",
+  "lang": "zh",
+  "title": "开源 4B 模型接近 o3 级别瑞典医学问答",
+  "summary": "小型开源 4B 参数 LLM（Gemma4-E4B 和 Qwen3.5-4B）在瑞典医学执照考试题目上未经后训练即达到 77%准确率，而 Qwen3.5-4B 通过推理达到 87%，接近 o3 模型的 88%得分。 这表明小型开源模型在特定领域任务上可以媲美闭源先进性能，无需大量计算或专有 API 即可实现高级医学问答。这也凸显了开源 LLM 的快速进步。 Qwen3.5-4B 尽管使用瑞典语提示，但推理过程完全用英文进行；并且使用了 S-GRPO 论文中的早期退出干预来防止推理循环。使用强化学习缩短推理轨迹的方法仅带来微小改进。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "medical-QA",
+    "small-models",
+    "reasoning",
+    "Swedish"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/AccomplishedCat4770"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
+  "originalSite": "reddit.com",
+  "context": "MedQA-SWE 数据集是来自瑞典医学执照考试的多选题集合。o3 模型指 OpenAI 的高性能推理模型，在该问题子集上得分为 88%。开源权重模型的权重公开可用，可用于微调和推理，与闭源 API 不同。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "S - GRPO : Early Exit via Reinforcement Learning in Reasoning Models",
+      "url": "https://arxiv.org/abs/2505.07686"
+    },
+    {
+      "title": "nicher92/ medqa - swe · Datasets at Hugging Face",
+      "url": "https://huggingface.co/datasets/nicher92/medqa-swe"
+    },
+    {
+      "title": "MedQA - SWE - a Clinical Question &amp; Answer Dataset for Swedish",
+      "url": "https://aclanthology.org/2024.lrec-main.975.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

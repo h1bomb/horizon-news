@@ -1,0 +1,45 @@
+{
+  "id": "57b7a5b2882bc1b8c564d811ee4f1147aafb1b4c",
+  "canonicalId": "2c61a0633c146014eb03dd2f55003ae76e0e2748",
+  "slug": "grapheneos-阻止锁屏设备数据提取",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T05:57:00Z",
+  "lang": "zh",
+  "title": "GrapheneOS 阻止锁屏设备数据提取",
+  "summary": "一场社区讨论强调了 GrapheneOS 如何通过自动重启和胁迫密码等特性，阻止从锁屏设备中提取数据，这些特性会触发恢复出厂设置或将设备恢复到首次解锁前（BFU）模式。 这些保护对于记者和活动家等高危用户至关重要，即使在胁迫下也能阻止取证数据提取，为移动安全和隐私树立了新标准。 自动重启功能会在设备闲置 18 小时后将其恢复至 BFU 模式，而胁迫密码则会静默擦除设备并触发恢复出厂设置。这两项功能均可防止从内存中提取解密密钥。",
+  "score": 8,
+  "tags": [
+    "security",
+    "grapheneos",
+    "mobile",
+    "privacy",
+    "encryption"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Cider9986",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49055169"
+    }
+  ],
+  "originalUrl": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+  "originalSite": "discuss.grapheneos.org",
+  "context": "GrapheneOS 是一个强化版的 Android 系统，专注于安全和隐私。当设备锁定时，数据加密密钥保存在内存中；如果攻击者能在设备解锁时访问设备，他们可以提取这些密钥。自动重启和胁迫密码确保设备保持锁定且密钥不可访问，即使对手强迫用户解锁设备也是如此。",
+  "discussion": "社区称赞 GrapheneOS 的保护措施，有用户指出这帮助了一名记者保护消息来源。其他用户讨论了在擦除设备前需要完整的备份方案，并比较了图案锁与 PIN 的熵值。一些用户指出苹果设备也存在类似保护，反驳了只有“罪犯”才需要此类安全的说法。",
+  "references": [
+    {
+      "title": "GrapheneOS",
+      "url": "https://en.wikipedia.org/wiki/GrapheneOS"
+    },
+    {
+      "title": "Features overview | GrapheneOS",
+      "url": "https://grapheneos.org/features"
+    },
+    {
+      "title": "I use a duress PIN to protect my data — here’s how it works and why everyone needs one",
+      "url": "https://www.androidauthority.com/grapheneos-duress-pin-3584795/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cc405bc99cab8996818aa89089a9469b881ab4de",
+  "canonicalId": "060ef020220d61982edf219a9ee4e61c5a52a591",
+  "slug": "eu-proposes-browser-privacy-preference-to-replace-cookie-banners",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T11:53:00Z",
+  "lang": "en",
+  "title": "EU Proposes Browser Privacy Preference to Replace Cookie Banners",
+  "summary": "The European Commission has proposed a new solution to eliminate cookie banners by allowing users to set their privacy preferences once in the browser, which would then automatically inform websites. This could drastically improve user experience by removing the constant nuisance of cookie consents, and if adopted, would shift the burden of consent management from websites to browsers, making privacy control more user-friendly. The proposal builds on existing technologies like the Global Privacy Control \\(GPC\\) signal, which already has legal force under some privacy laws, and aims to standardize such signals across all websites.",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "cookie banners",
+    "EU regulation",
+    "browser settings",
+    "web standards"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rapnie",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49057175"
+    }
+  ],
+  "originalUrl": "https://killthecookiebanner.eu/",
+  "originalSite": "killthecookiebanner.eu",
+  "context": "Cookie banners became widespread after the EU&\\#x27;s ePrivacy Directive and GDPR required websites to obtain consent for non-essential cookies. However, many banners are designed to nudge users into accepting, leading to criticism that they fail to provide genuine informed consent. Previous attempts like the Do Not Track \\(DNT\\) header failed because it was widely ignored by advertisers. The Global Privacy Control \\(GPC\\) is a newer signal that has legal backing in some jurisdictions.",
+  "discussion": "Commenters generally support the idea but express frustration that it took so long. Some argue that click-based consent cannot constitute informed consent, while others point to California&\\#x27;s GPC law as a model. There is also criticism that ad industry influence blocked earlier solutions like DNT.",
+  "references": [
+    {
+      "title": "Global Privacy Control",
+      "url": "https://en.wikipedia.org/wiki/Global_Privacy_Control"
+    },
+    {
+      "title": "Global Privacy Control — Take Control Of Your Privacy",
+      "url": "https://globalprivacycontrol.org/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

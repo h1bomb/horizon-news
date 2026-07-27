@@ -1,0 +1,40 @@
+{
+  "id": "c333fcaebab674c924fe2a83628abd749d31ac85",
+  "canonicalId": "cc1403ff4fc3a478720e4c644130ec672da8a3c6",
+  "slug": "llm-token-relay-market-fuels-fraud-and-abuse",
+  "date": "2026-07-26",
+  "publishedAt": "2026-07-26T19:30:00Z",
+  "lang": "en",
+  "title": "LLM Token Relay Market Fuels Fraud and Abuse",
+  "summary": "Matt Lenhard&\\#x27;s investigation uncovers a black market for discounted LLM tokens, where resellers use open-source proxy tools like one-api and its fork new-api to pool keys obtained from free trial abuse, stolen credentials, and chargeback attacks. This ecosystem exposes systemic API security weaknesses, threatens LLM provider revenue, and risks causing large bills for developers whose endpoints are exploited. It underscores the urgent need for strict API key caps and spending controls. The proxy services are primarily operated in China, and buyers seek cheap tokens, bypass geo-restrictions, or perform model distillation. The legitimate open-source gateways one-api and new-api are repurposed to load-balance across a pool of illicitly obtained credentials.",
+  "score": 8,
+  "tags": [
+    "security",
+    "LLM",
+    "API",
+    "fraud",
+    "proxy"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Large Language Model \\(LLM\\) providers charge per token for API access, making cost a barrier for heavy users. Resellers exploit this by pooling API keys obtained through free trial abuse, stolen credit cards, or unprotected internal endpoints, offering discounted rates. Open-source proxy software like one-api and its enhanced fork new-api allows managing these key pools and routing requests, making the fraud technically straightforward. This practice is particularly prevalent in China, where many such proxy services are hosted.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "New API : The Next-Gen LLM Gateway &amp; AI Asset Manager | AIBit",
+      "url": "https://aibit.im/blog/post/new-api-the-next-gen-llm-gateway-ai-asset-manager"
+    },
+    {
+      "title": "Comparing the Top AI API Providers for Coding and Development in...",
+      "url": "https://www.claudehome.cn/en/articles/comparing-the-top-ai-api-providers-for-coding-and-development-in-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
