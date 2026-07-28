@@ -1,0 +1,45 @@
+{
+  "id": "ff19716b0eadba1e1316e6ba78aa79f9b8718e93",
+  "canonicalId": "31d61f08b54eba4585e0eb0faf18f3f860ed04d8",
+  "slug": "法官驳回谷歌以-dmca-抗辩抓取案",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T18:15:00Z",
+  "lang": "zh",
+  "title": "法官驳回谷歌以 DMCA 抗辩抓取案",
+  "summary": "美国一名法官裁定，谷歌不能利用《数字千年版权法案》（DMCA）来阻止第三方抓取其搜索结果，驳回了谷歌关于抓取构成版权侵权的论点。 这一裁决确立了重要法律先例，维护了网络上公开数据抓取的合法性，对于依赖抓取进行创新和问责的竞争对手、研究人员和透明度倡导者至关重要。 谷歌曾辩称其搜索结果经过创造性筛选和编排，应受版权保护，但法官认为缺乏足够的原创性。该案涉及谷歌起诉第三方服务 SerpAPI，该服务抓取谷歌搜索结果。",
+  "score": 8,
+  "tags": [
+    "DMCA",
+    "Web Scraping",
+    "Google",
+    "Copyright",
+    "Tech Law"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cdrnsf",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49073513"
+    }
+  ],
+  "originalUrl": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/",
+  "originalSite": "techdirt.com",
+  "context": "网页抓取是从网站自动提取数据的行为，常用于数据分析、市场研究或创建替代用户界面。DMCA 是美国版权法，禁止规避技术保护措施，并可用于执行版权主张。此案凸显了版权法与开放网络之间的紧张关系。",
+  "discussion": "评论者指出，谷歌自身的成功正是建立在爬取网络的基础之上，具有讽刺意味；同时批评谷歌取消了价格合理的 API，却起诉填补空白的三方服务。还有评论强调了抓取搜索结果以揭露广告骗局的公共利益。",
+  "references": [
+    {
+      "title": "Web scraping - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Web_scraping"
+    },
+    {
+      "title": "What is DMCA and Why Does It Matter for Website Owners 2026?",
+      "url": "https://www.linkedin.com/pulse/what-dmca-why-does-matter-website-owners-qumere-alam-siddiqui-get6c"
+    },
+    {
+      "title": "Content Protection and Takedown Company Since 2006 | DMCA .com",
+      "url": "https://www.dmca.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

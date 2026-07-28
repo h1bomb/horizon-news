@@ -1,0 +1,40 @@
+{
+  "id": "116cb46fcfa2344e24b4528d6c73e3813e0053c0",
+  "canonicalId": "be819fed25ca79f7fb91c34fee210e33bf38591d",
+  "slug": "linux-内核提出危险指针方案",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T16:51:00Z",
+  "lang": "zh",
+  "title": "Linux 内核提出危险指针方案",
+  "summary": "Linux 内核社区正在评估由 Mathieu Desnoyers 和 Paul McKenney 提出的危险指针（hazard pointer）实现，作为读-复制-更新（RCU）的替代方案，用于无锁数据更新。 与 RCU 相比，危险指针可以减少内存使用和清理延迟，在某些场景下提供更好的性能，这对内核的可扩展性和实时能力具有重要意义。 提议的 API 要求为每个并发指针分配一个 hazptr\\_ctx，使用 hazptr\\_acquire\\(\\) 保护对象，hazptr\\_release\\(\\) 释放对象；hazptr\\_synchronize\\(\\) 等待所有引用消失。实现使用每 CPU 的数组，包含四个槽位。",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "hazard-pointers",
+    "RCU",
+    "memory-management",
+    "concurrency"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1084015/",
+  "originalSite": "lwn.net",
+  "context": "读-复制-更新（RCU）是一种允许并发读取和更新而无需锁的同步机制，但可能延迟内存回收。危险指针是一种替代的安全内存回收技术，显式跟踪活动引用，通常对短期引用具有较低的开销。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Read - copy - update - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Read-copy-update"
+    },
+    {
+      "title": "A Lock-Free Stack: A Hazard Pointer Implementation Explained I",
+      "url": "https://www.linkedin.com/pulse/lock-free-stack-hazard-pointer-implementation-explained-rainer-grimm-0nsze?tl=en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

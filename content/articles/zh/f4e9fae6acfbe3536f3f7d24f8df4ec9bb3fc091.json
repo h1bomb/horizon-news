@@ -1,0 +1,44 @@
+{
+  "id": "f4e9fae6acfbe3536f3f7d24f8df4ec9bb3fc091",
+  "canonicalId": "7372d8cb937a6ab6df45708f2a6e30c39e00ea58",
+  "slug": "月之暗面开源-kimi-k3首个-28-万亿参数开放模型",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T15:15:00Z",
+  "lang": "zh",
+  "title": "月之暗面开源 Kimi K3：首个 2.8 万亿参数开放模型",
+  "summary": "月之暗面开源了 Kimi K3，该模型总参数量达 2.8 万亿，激活参数为 1040 亿，成为首个开放的 3T 级别模型。它引入了 Kimi Delta Attention \\(KDA\\)、Attention Residuals \\(AttnRes\\) 和 Stable LatentMoE 架构，支持多模态输入和百万 token 上下文窗口。 Kimi K3 的开源是人工智能领域的里程碑，为社区提供了一个前沿规模的模型，可能加速长上下文推理、多模态理解和智能体任务的研究与应用。其高效架构（相对 K2 提升 2.5 倍）表明，大规模模型可以既强大又实用。 该模型在 Stable LatentMoE 框架下使用 896 个专家，每个 token 激活 16 个，并支持 MXFP4 量化以实现高效推理。在 GPQA Diamond、BrowseComp 和 DeepSWE 等基准测试中，它与 GPT-5.6 Sol 和 Claude Fable 5 等专有模型互有胜负。",
+  "score": 10,
+  "tags": [
+    "人工智能",
+    "大语言模型",
+    "开源",
+    "MoonshotAI",
+    "Kimi K3"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+  "originalSite": "huggingface.co",
+  "context": "大语言模型常采用混合专家 \\(MoE\\) 架构，在控制计算量的同时扩大参数量。Kimi K3 的 KDA 是一种线性注意力机制，可提升内存效率；Stable LatentMoE 通过将路由和专家计算投影到更低维度的潜在空间，进一步降低成本。MXFP4 是一种 4 位浮点量化格式，可在准确性与速度之间取得平衡。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linear Attention : Kimi Delta Attention | Jianyu Huang’s Blog",
+      "url": "https://jianyuh.github.io/attention/2025/12/13/KDA.html"
+    },
+    {
+      "title": "[2601.18089] LatentMoE: Toward Optimal Accuracy per FLOP and Parameter in Mixture of Experts",
+      "url": "https://arxiv.org/abs/2601.18089"
+    },
+    {
+      "title": "What’s MXFP4? The 4-Bit Secret Powering OpenAI’s GPT‑OSS Models on Modest Hardware",
+      "url": "https://huggingface.co/blog/RakshitAralimatti/learn-ai-with-me"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

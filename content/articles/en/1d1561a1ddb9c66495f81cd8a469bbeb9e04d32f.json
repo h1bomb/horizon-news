@@ -1,0 +1,44 @@
+{
+  "id": "1d1561a1ddb9c66495f81cd8a469bbeb9e04d32f",
+  "canonicalId": "22c07582101696a7de1b40399bcfae0584c8c3ea",
+  "slug": "vllm-v0260-major-release-with-inkling-model-and-deepseek-v4-tuning",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T01:06:00Z",
+  "lang": "en",
+  "title": "vLLM v0.26.0: Major Release with Inkling Model and DeepSeek-V4 Tuning",
+  "summary": "vLLM v0.26.0 introduces the Inkling model family with full support \\(base modeling, CUDA graphs, attention, speculative decoding, LoRA, and quantization\\), delivers DeepSeek-V4 performance optimizations including a specialized routing kernel and fused topk bias, adds fp32 lm\\_head via head\\_dtype, and enables flexible attention backends per KV-cache group. This release significantly enhances LLM inference flexibility and performance, particularly for hybrid models and large-scale deployments. The Inkling model support and DeepSeek-V4 optimizations impact a broad range of users, from researchers to production engineers, by reducing latency and improving accuracy. The release includes 411 commits from 212 contributors, with notable technical additions like Hopper FA4 relative attention, piecewise CUDA graph support, and a Rust frontend for multimodal video and audio. KV offloading and tiered secondary storage have matured, and Transformers 5.13 migration adds several new model backends.",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "LLM Inference",
+    "DeepSeek",
+    "Performance Optimization",
+    "CUDA"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+  "originalSite": "github.com",
+  "context": "vLLM is an open-source high-throughput LLM inference engine. The Inkling model is a 975B-parameter multimodal MoE model from Thinking Machines Lab with 41B active parameters and 256k context length. FlashAttention-4 \\(FA4\\) is a recent attention algorithm optimized for NVIDIA Hopper and Blackwell GPUs, improving memory efficiency and speed.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Inkling Model : Architecture, Capabilities, Context &amp; Access",
+      "url": "https://inkling-model.com/"
+    },
+    {
+      "title": "fused_topk_bias_router - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/api/vllm/model_executor/layers/fused_moe/router/fused_topk_bias_router/"
+    },
+    {
+      "title": "We reverse-engineered Flash Attention 4",
+      "url": "https://modal.com/blog/reverse-engineer-flash-attention-4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

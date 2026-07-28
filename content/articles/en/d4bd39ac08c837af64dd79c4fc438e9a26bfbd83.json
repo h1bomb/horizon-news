@@ -1,0 +1,41 @@
+{
+  "id": "d4bd39ac08c837af64dd79c4fc438e9a26bfbd83",
+  "canonicalId": "80d8760fd0f40ab27f35a1fa075e7aeea5d4f177",
+  "slug": "anthropic-calls-for-mandatory-safety-testing-of-capable-ai-models",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T22:03:00Z",
+  "lang": "en",
+  "title": "Anthropic calls for mandatory safety testing of capable AI models",
+  "summary": "Anthropic published a policy statement supporting mandatory safety testing for all sufficiently capable AI models, including open-weights models, which critics argue effectively bans open-weights releases. This stance could influence AI regulation and potentially restrict the development and distribution of open-weights models, impacting open-source AI communities and smaller developers. Anthropic claims it does not advocate for a ban on open-weights models, but requires mandatory safety testing. Critics question who administers the tests, the cost, and potential for refusal, comparing it to de facto bans used historically.",
+  "score": 9,
+  "tags": [
+    "AI safety",
+    "open-weights models",
+    "regulation",
+    "Anthropic",
+    "policy debate"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "surprisetalk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49076057"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/position-open-weights-models",
+  "originalSite": "anthropic.com",
+  "context": "Open-weights models are AI models whose core components are publicly released, allowing anyone to download, inspect, modify, and run them on their own infrastructure. Anthropic is a leading AI company focused on safety, and its policy positions often carry weight in regulatory debates. The debate centers on balancing innovation and openness with safety concerns about misuse of powerful AI.",
+  "discussion": "Community comments express strong skepticism and accusations that Anthropic uses safety as a pretext to protect its proprietary models. Some point out inconsistencies in Anthropic&\\#x27;s support for hardware bans while opposing model restrictions, and others see the policy as a competitive move against open-weights alternatives like DeepSeek.",
+  "references": [
+    {
+      "title": "What is an Open-Weight Model? - Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model"
+    },
+    {
+      "title": "Open Weights and American AI Leadership",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

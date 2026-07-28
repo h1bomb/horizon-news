@@ -1,0 +1,43 @@
+{
+  "id": "984af575180ff6c632ff5fada4f888da00cf6a0d",
+  "canonicalId": "60f8235d0ea192db81398280a105c8dca6e9bd28",
+  "slug": "单人评测发现六款前沿大模型存在左倾偏见",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T22:37:00Z",
+  "lang": "zh",
+  "title": "单人评测发现六款前沿大模型存在左倾偏见",
+  "summary": "一项对六款前沿大模型（GPT-5.4、Claude Sonnet 4.6、Claude Opus 4.7、Gemini Pro、Gemini Flash 和 Grok 4.3）的独立评测，使用 8 个偏见基准（约 20,600 个样本）发现，所有模型都表现出左倾政治偏见，并且在涉及种族的问题上拒绝率较高，其中 GPT-5.4 的拒绝率达到 20.3%。 这项研究为领先 AI 系统存在的系统性政治偏见提供了实证证据，可能影响内容审核和决策支持等应用中的信任与公平性。种族问题上的高拒绝率也引发了对模型实用性和敏感话题回避行为的担忧。 值得注意的是，自称右倾的 Grok 4.3 在内容分类或政策问题回答时实际表现出左倾行为。在 BBQ 种族问题上的拒绝率差异很大：GPT-5.4 拒绝 20.3%，Claude Opus 4.7 拒绝 13.8%，Grok 9.5%，而 Claude Sonnet 4.6 和 Gemini Pro 约为 5%。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "bias",
+    "evaluation",
+    "fairness"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/marggggggggg"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+  "originalSite": "reddit.com",
+  "context": "偏见评估基准如 WinoBias、BBQ 和 SeeGULL 旨在测量语言模型中的社会偏见（性别、种族、政治倾向）。WinoBias 测试指代消解中的性别偏见，BBQ 评估问答系统在九个社会维度上的偏见，SeeGULL 则涵盖跨地理文化群体的刻板印象。本研究使用了其中八个基准来比较六款最先进大模型在政治、性别和种族偏见方面的表现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2110.08193] BBQ: A Hand-Built Bias Benchmark for Question Answering",
+      "url": "https://arxiv.org/abs/2110.08193"
+    },
+    {
+      "title": "WinoBias : Gender Bias in Coreference Benchmark",
+      "url": "https://www.emergentmind.com/topics/winobias"
+    },
+    {
+      "title": "GitHub - google-research-datasets/seegull: SeeGULL is a broad-coverage stereotype dataset in English containing stereotypes about identity groups spanning 178 countries across 8 different geo-political regions across 6 continents, as well as state-level identities within the US and India. · GitHub",
+      "url": "https://github.com/google-research-datasets/seegull"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

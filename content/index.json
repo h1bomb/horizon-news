@@ -1,6 +1,344 @@
 {
   "articles": [
     {
+      "id": "f4e9fae6acfbe3536f3f7d24f8df4ec9bb3fc091",
+      "canonicalId": "7372d8cb937a6ab6df45708f2a6e30c39e00ea58",
+      "slug": "月之暗面开源-kimi-k3首个-28-万亿参数开放模型",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "月之暗面开源 Kimi K3：首个 2.8 万亿参数开放模型",
+      "score": 10,
+      "tags": [
+        "人工智能",
+        "大语言模型",
+        "开源",
+        "MoonshotAI",
+        "Kimi K3"
+      ],
+      "originalSite": "huggingface.co"
+    },
+    {
+      "id": "875654d131188f04b6e2aa39e69580c225e4893f",
+      "canonicalId": "22c07582101696a7de1b40399bcfae0584c8c3ea",
+      "slug": "vllm-v0260-发布新增-inkling-模型系列和-deepseek-v4-优化",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "vLLM v0.26.0 发布：新增 Inkling 模型系列和 DeepSeek-V4 优化",
+      "score": 9,
+      "tags": [
+        "vLLM",
+        "LLM Inference",
+        "DeepSeek",
+        "Performance Optimization",
+        "CUDA"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "da522aa344cb5834979cd5929a99e0f7cb4189e4",
+      "canonicalId": "80d8760fd0f40ab27f35a1fa075e7aeea5d4f177",
+      "slug": "anthropic-呼吁对强大-ai-模型进行强制安全测试",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "Anthropic 呼吁对强大 AI 模型进行强制安全测试",
+      "score": 9,
+      "tags": [
+        "AI safety",
+        "open-weights models",
+        "regulation",
+        "Anthropic",
+        "policy debate"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "92281ac130c62139cdd3cb768fa4f14326bc8dd9",
+      "canonicalId": "feb0dc313f659d8ae060538ec6e3d0c0c3c9a4cb",
+      "slug": "谷歌透露-gemini-4-为迄今最雄心预训练",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "谷歌透露 Gemini 4 为迄今最雄心预训练",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Gemini 4",
+        "Google",
+        "large language models",
+        "pre-training"
+      ],
+      "originalSite": "9to5google.com"
+    },
+    {
+      "id": "cddb86512e99bc0e614b6e33d1aa1a589a793de0",
+      "canonicalId": "c34fd1a35c9192ae3e681bfd287a541fd3ebb5e9",
+      "slug": "fastjson2-未修复的远程代码执行漏洞影响所有版本",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "Fastjson2 未修复的远程代码执行漏洞影响所有版本",
+      "score": 9,
+      "tags": [
+        "security",
+        "vulnerability",
+        "fastjson2",
+        "rce",
+        "java"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "ff19716b0eadba1e1316e6ba78aa79f9b8718e93",
+      "canonicalId": "31d61f08b54eba4585e0eb0faf18f3f860ed04d8",
+      "slug": "法官驳回谷歌以-dmca-抗辩抓取案",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "法官驳回谷歌以 DMCA 抗辩抓取案",
+      "score": 8,
+      "tags": [
+        "DMCA",
+        "Web Scraping",
+        "Google",
+        "Copyright",
+        "Tech Law"
+      ],
+      "originalSite": "techdirt.com"
+    },
+    {
+      "id": "116cb46fcfa2344e24b4528d6c73e3813e0053c0",
+      "canonicalId": "be819fed25ca79f7fb91c34fee210e33bf38591d",
+      "slug": "linux-内核提出危险指针方案",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "Linux 内核提出危险指针方案",
+      "score": 8,
+      "tags": [
+        "linux-kernel",
+        "hazard-pointers",
+        "RCU",
+        "memory-management",
+        "concurrency"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "984af575180ff6c632ff5fada4f888da00cf6a0d",
+      "canonicalId": "60f8235d0ea192db81398280a105c8dca6e9bd28",
+      "slug": "单人评测发现六款前沿大模型存在左倾偏见",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "单人评测发现六款前沿大模型存在左倾偏见",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "bias",
+        "evaluation",
+        "fairness"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "6365808ee5316f6c88912a86b8448abae39df2f2",
+      "canonicalId": "3c2d476e88d52e22c91c223b452e8f3544ae7ceb",
+      "slug": "长鑫科技科创板首日暴涨-471",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "长鑫科技科创板首日暴涨 471%",
+      "score": 8,
+      "tags": [
+        "半导体",
+        "IPO",
+        "存储芯片",
+        "科创板",
+        "国产替代"
+      ],
+      "originalSite": "stcn.com"
+    },
+    {
+      "id": "1d59b3a7bac863c824db3f8db3ea2ab9fa5db716",
+      "canonicalId": "703da7b7bc5814c7728b9b8ed6fef450e05f3649",
+      "slug": "中国开始量产国产-duv-光刻机",
+      "date": "2026-07-27",
+      "lang": "zh",
+      "title": "中国开始量产国产 DUV 光刻机",
+      "score": 8,
+      "tags": [
+        "semiconductor",
+        "lithography",
+        "China",
+        "ASML",
+        "chip manufacturing"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
+      "id": "b4fe81b324fc771d5950417fb1814f71fa60b0e7",
+      "canonicalId": "7372d8cb937a6ab6df45708f2a6e30c39e00ea58",
+      "slug": "moonshot-ai-opens-kimi-k3-first-28-trillion-parameter-open-model",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Moonshot AI Opens Kimi K3: First 2.8 Trillion Parameter Open Model",
+      "score": 10,
+      "tags": [
+        "人工智能",
+        "大语言模型",
+        "开源",
+        "MoonshotAI",
+        "Kimi K3"
+      ],
+      "originalSite": "huggingface.co"
+    },
+    {
+      "id": "1d1561a1ddb9c66495f81cd8a469bbeb9e04d32f",
+      "canonicalId": "22c07582101696a7de1b40399bcfae0584c8c3ea",
+      "slug": "vllm-v0260-major-release-with-inkling-model-and-deepseek-v4-tuning",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "vLLM v0.26.0: Major Release with Inkling Model and DeepSeek-V4 Tuning",
+      "score": 9,
+      "tags": [
+        "vLLM",
+        "LLM Inference",
+        "DeepSeek",
+        "Performance Optimization",
+        "CUDA"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "d4bd39ac08c837af64dd79c4fc438e9a26bfbd83",
+      "canonicalId": "80d8760fd0f40ab27f35a1fa075e7aeea5d4f177",
+      "slug": "anthropic-calls-for-mandatory-safety-testing-of-capable-ai-models",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Anthropic calls for mandatory safety testing of capable AI models",
+      "score": 9,
+      "tags": [
+        "AI safety",
+        "open-weights models",
+        "regulation",
+        "Anthropic",
+        "policy debate"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "1ccfd4fe75f78de086529a1993e7a6ccc4dc7d6f",
+      "canonicalId": "feb0dc313f659d8ae060538ec6e3d0c0c3c9a4cb",
+      "slug": "google-teases-gemini-4-as-most-ambitious-pre-training-yet",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Google teases Gemini 4 as most ambitious pre-training yet",
+      "score": 9,
+      "tags": [
+        "AI",
+        "Gemini 4",
+        "Google",
+        "large language models",
+        "pre-training"
+      ],
+      "originalSite": "9to5google.com"
+    },
+    {
+      "id": "a57fa40832770fb4ecd563712a6fa7a3c005895c",
+      "canonicalId": "c34fd1a35c9192ae3e681bfd287a541fd3ebb5e9",
+      "slug": "unpatched-rce-vulnerability-in-fastjson2-affects-all-versions",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Unpatched RCE Vulnerability in Fastjson2 Affects All Versions",
+      "score": 9,
+      "tags": [
+        "security",
+        "vulnerability",
+        "fastjson2",
+        "rce",
+        "java"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "5b2ba47a6d6dd236a6be364317c7fff40bc9eff5",
+      "canonicalId": "31d61f08b54eba4585e0eb0faf18f3f860ed04d8",
+      "slug": "judge-rejects-googlex27s-dmca-defense-against-scraping",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Judge Rejects Google&\\#x27;s DMCA Defense Against Scraping",
+      "score": 8,
+      "tags": [
+        "DMCA",
+        "Web Scraping",
+        "Google",
+        "Copyright",
+        "Tech Law"
+      ],
+      "originalSite": "techdirt.com"
+    },
+    {
+      "id": "76acd824246b5a8e7e1a68cb2f2079d1c8f038c3",
+      "canonicalId": "be819fed25ca79f7fb91c34fee210e33bf38591d",
+      "slug": "hazard-pointers-proposed-for-linux-kernel",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Hazard Pointers Proposed for Linux Kernel",
+      "score": 8,
+      "tags": [
+        "linux-kernel",
+        "hazard-pointers",
+        "RCU",
+        "memory-management",
+        "concurrency"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "e8d9bb6d21a98441c07a8d7af830c979cc5e29dc",
+      "canonicalId": "60f8235d0ea192db81398280a105c8dca6e9bd28",
+      "slug": "solo-evaluation-finds-left-leaning-bias-in-six-frontier-llms",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Solo Evaluation Finds Left-Leaning Bias in Six Frontier LLMs",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "bias",
+        "evaluation",
+        "fairness"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "798a01ae66bb82f271167eaffb4bcf3a8abeef12",
+      "canonicalId": "3c2d476e88d52e22c91c223b452e8f3544ae7ceb",
+      "slug": "changxin-memory-surges-471-on-star-market-debut",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "Changxin Memory surges 471% on STAR Market debut",
+      "score": 8,
+      "tags": [
+        "半导体",
+        "IPO",
+        "存储芯片",
+        "科创板",
+        "国产替代"
+      ],
+      "originalSite": "stcn.com"
+    },
+    {
+      "id": "7103c5873903340df145875a1a4d7e61e27a2528",
+      "canonicalId": "703da7b7bc5814c7728b9b8ed6fef450e05f3649",
+      "slug": "china-begins-mass-production-of-domestic-duv-lithography-tools",
+      "date": "2026-07-27",
+      "lang": "en",
+      "title": "China Begins Mass Production of Domestic DUV Lithography Tools",
+      "score": 8,
+      "tags": [
+        "semiconductor",
+        "lithography",
+        "China",
+        "ASML",
+        "chip manufacturing"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
       "id": "701ce8b61f7f688dac684c46f332bdc61bfd5130",
       "canonicalId": "ace01848219f89ef0e51c009750fdf1564b760ce",
       "slug": "decker受-hypercard-启发的现代平台",
@@ -5433,344 +5771,6 @@
         "神经工程"
       ],
       "originalSite": "zaobao.com.sg"
-    },
-    {
-      "id": "06b2cd0555e10ea6d7a3aeb3be8c4332257d1e72",
-      "canonicalId": "d7df66519cd2886e391ffae7facd778884e2b082",
-      "slug": "人形机器人完成全球首例活猪胆囊手术",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "人形机器人完成全球首例活猪胆囊手术",
-      "score": 9,
-      "tags": [
-        "robotics",
-        "surgery",
-        "humanoid robot",
-        "medical technology",
-        "AI in healthcare"
-      ],
-      "originalSite": "arstechnica.com"
-    },
-    {
-      "id": "6e8e3c7fb580c269508486c9fe6bee24e5da66cb",
-      "canonicalId": "9da38b12f212c7296f425fa35598abff694249de",
-      "slug": "u-boot-fit-签名验证发现六项严重漏洞",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "U-Boot FIT 签名验证发现六项严重漏洞",
-      "score": 9,
-      "tags": [
-        "security",
-        "vulnerability",
-        "u-boot",
-        "firmware",
-        "bootloader"
-      ],
-      "originalSite": "bleepingcomputer.com"
-    },
-    {
-      "id": "9a0d11491323a1fe96d489044174a0035679d81f",
-      "canonicalId": "4eb03014e2a9fc6f1b98a1ccf3bacf1d12b49ac8",
-      "slug": "vllm-v0250-默认启用-model-runner-v2",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "vLLM v0.25.0 默认启用 Model Runner V2",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "vLLM",
-        "inference",
-        "open-source",
-        "AI"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "91f5b00990cc2b468cc36e4614933f70e8085bd6",
-      "canonicalId": "d43c4632fd58c2317b3c74895a5bd13d13eb9b21",
-      "slug": "sglang-v0515-在-blackwell-上大幅提升-llm-推理性能",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "SGLang v0.5.15 在 Blackwell 上大幅提升 LLM 推理性能",
-      "score": 8,
-      "tags": [
-        "SGLang",
-        "LLM Inference",
-        "GPU Optimization",
-        "Speculative Decoding",
-        "NVFP4"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "f92c8691d6a5ec9ff02a4bede042f0afd608ed39",
-      "canonicalId": "554e8c99cf385b31960e1fe2f848c9541531e537",
-      "slug": "clickhouse-将-pgbouncer-吞吐量提升至-4-倍",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "ClickHouse 将 PgBouncer 吞吐量提升至 4 倍",
-      "score": 8,
-      "tags": [
-        "PostgreSQL",
-        "PgBouncer",
-        "performance",
-        "connection pooling",
-        "scalability"
-      ],
-      "originalSite": "clickhouse.com"
-    },
-    {
-      "id": "9e2f1b8400ec6633d7f340f0a14bc04e512d637d",
-      "canonicalId": "cd84ae7390b0714cede25ceab908aec43fb3cbf6",
-      "slug": "优先使用-sqlite-的-strict-表",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "优先使用 SQLite 的 STRICT 表",
-      "score": 8,
-      "tags": [
-        "SQLite",
-        "databases",
-        "type safety",
-        "software engineering"
-      ],
-      "originalSite": "evanhahn.com"
-    },
-    {
-      "id": "bc4060ab77a88bc8cbeebe6b16944e264b2d2ae5",
-      "canonicalId": "fbe7a7d9389239cb035542535e7bec7225ef4afd",
-      "slug": "vultronretriever-模型登顶-mteb存储节省-16-倍",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "VultronRetriever 模型登顶 MTEB，存储节省 16 倍",
-      "score": 8,
-      "tags": [
-        "Information Retrieval",
-        "Embedding Models",
-        "HuggingFace",
-        "Edge AI",
-        "MTEB"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "91194d585223d0d86093a026569d0736904d2757",
-      "canonicalId": "70663c1f8a71d0d5087749c878b03ccc3d88add4",
-      "slug": "sk-海力士-ceo-预警-2027-年最严重内存短缺",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "SK 海力士 CEO 预警 2027 年最严重内存短缺",
-      "score": 8,
-      "tags": [
-        "memory shortage",
-        "semiconductor industry",
-        "SK Hynix",
-        "hardware",
-        "supply chain"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "e331e5de8df40f39d4e0b1e212eec21ed26d631f",
-      "canonicalId": "a9d470e4850ec99e5a0d0de154672f62114cea3c",
-      "slug": "苹果起诉-openai-窃取硬件商业机密",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "苹果起诉 OpenAI 窃取硬件商业机密",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "OpenAI",
-        "lawsuit",
-        "trade secrets",
-        "AI hardware"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "aa67dec8046fcd2c8792ff098a82140d5ea029f6",
-      "canonicalId": "f622963a51be6d14c16c262dc0e7cc6b8e5cfe24",
-      "slug": "特朗普政府力推英特尔复兴苹果将采用其芯片",
-      "date": "2026-07-11",
-      "lang": "zh",
-      "title": "特朗普政府力推英特尔复兴，苹果将采用其芯片",
-      "score": 8,
-      "tags": [
-        "半导体",
-        "产业政策",
-        "英特尔",
-        "苹果",
-        "地缘政治"
-      ],
-      "originalSite": "wsj.com"
-    },
-    {
-      "id": "9100d3df6b4a959f15157c11792b4fd678d523eb",
-      "canonicalId": "d7df66519cd2886e391ffae7facd778884e2b082",
-      "slug": "humanoid-robot-performs-worlds-first-live-pig-gallbladder-surgery",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "Humanoid robot performs world's first live pig gallbladder surgery",
-      "score": 9,
-      "tags": [
-        "robotics",
-        "surgery",
-        "humanoid robot",
-        "medical technology",
-        "AI in healthcare"
-      ],
-      "originalSite": "arstechnica.com"
-    },
-    {
-      "id": "ac6b601d307a00fe1e46511f3a351c36a706ebae",
-      "canonicalId": "9da38b12f212c7296f425fa35598abff694249de",
-      "slug": "six-critical-u-boot-fit-signature-verification-vulnerabilities-discovered",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "Six Critical U-Boot FIT Signature Verification Vulnerabilities Discovered",
-      "score": 9,
-      "tags": [
-        "security",
-        "vulnerability",
-        "u-boot",
-        "firmware",
-        "bootloader"
-      ],
-      "originalSite": "bleepingcomputer.com"
-    },
-    {
-      "id": "e0fc2026f37b231fca3311c15ec86be6cf3697ec",
-      "canonicalId": "4eb03014e2a9fc6f1b98a1ccf3bacf1d12b49ac8",
-      "slug": "vllm-v0250-ships-model-runner-v2-as-default",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "vLLM v0.25.0 ships Model Runner V2 as default",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "vLLM",
-        "inference",
-        "open-source",
-        "AI"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "7e0afaa4fba8559b646f54d1d0400948fd3655b0",
-      "canonicalId": "d43c4632fd58c2317b3c74895a5bd13d13eb9b21",
-      "slug": "sglang-v0515-boosts-llm-inference-on-blackwell",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "SGLang v0.5.15 Boosts LLM Inference on Blackwell",
-      "score": 8,
-      "tags": [
-        "SGLang",
-        "LLM Inference",
-        "GPU Optimization",
-        "Speculative Decoding",
-        "NVFP4"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "a4992cba58d9e81f55b605330c6b076b25ee4a23",
-      "canonicalId": "554e8c99cf385b31960e1fe2f848c9541531e537",
-      "slug": "clickhouse-scales-pgbouncer-to-4x-throughput",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "ClickHouse scales PgBouncer to 4x throughput",
-      "score": 8,
-      "tags": [
-        "PostgreSQL",
-        "PgBouncer",
-        "performance",
-        "connection pooling",
-        "scalability"
-      ],
-      "originalSite": "clickhouse.com"
-    },
-    {
-      "id": "d6cf194d0a257eda12f0282705bd36cbe3471f24",
-      "canonicalId": "cd84ae7390b0714cede25ceab908aec43fb3cbf6",
-      "slug": "prefer-strict-tables-in-sqlite",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "Prefer STRICT Tables in SQLite",
-      "score": 8,
-      "tags": [
-        "SQLite",
-        "databases",
-        "type safety",
-        "software engineering"
-      ],
-      "originalSite": "evanhahn.com"
-    },
-    {
-      "id": "a8e57c645c47e3b0d6ac29240d9e9bffacee891a",
-      "canonicalId": "fbe7a7d9389239cb035542535e7bec7225ef4afd",
-      "slug": "vultronretriever-models-top-mteb-cut-storage-16x",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "VultronRetriever models top MTEB, cut storage 16x",
-      "score": 8,
-      "tags": [
-        "Information Retrieval",
-        "Embedding Models",
-        "HuggingFace",
-        "Edge AI",
-        "MTEB"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "cf39e974301f8d23b09eff2236b1027a28205454",
-      "canonicalId": "70663c1f8a71d0d5087749c878b03ccc3d88add4",
-      "slug": "sk-hynix-ceo-warns-of-worst-memory-shortage-by-2027",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "SK Hynix CEO warns of worst memory shortage by 2027",
-      "score": 8,
-      "tags": [
-        "memory shortage",
-        "semiconductor industry",
-        "SK Hynix",
-        "hardware",
-        "supply chain"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "aeac2046626f814d949105b5c6d46ebecd764c2f",
-      "canonicalId": "a9d470e4850ec99e5a0d0de154672f62114cea3c",
-      "slug": "apple-sues-openai-for-stealing-trade-secrets-for-hardware",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "Apple Sues OpenAI for Stealing Trade Secrets for Hardware",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "OpenAI",
-        "lawsuit",
-        "trade secrets",
-        "AI hardware"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "6acc0b7594695b2cdfdc1c18a01c4efcbc224a48",
-      "canonicalId": "f622963a51be6d14c16c262dc0e7cc6b8e5cfe24",
-      "slug": "trump-administration-drives-intel-revival-apple-to-use-chips",
-      "date": "2026-07-11",
-      "lang": "en",
-      "title": "Trump Administration Drives Intel Revival, Apple to Use Chips",
-      "score": 8,
-      "tags": [
-        "半导体",
-        "产业政策",
-        "英特尔",
-        "苹果",
-        "地缘政治"
-      ],
-      "originalSite": "wsj.com"
     }
   ]
 }

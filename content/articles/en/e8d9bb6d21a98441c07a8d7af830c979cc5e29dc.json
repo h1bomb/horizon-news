@@ -1,0 +1,43 @@
+{
+  "id": "e8d9bb6d21a98441c07a8d7af830c979cc5e29dc",
+  "canonicalId": "60f8235d0ea192db81398280a105c8dca6e9bd28",
+  "slug": "solo-evaluation-finds-left-leaning-bias-in-six-frontier-llms",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T22:37:00Z",
+  "lang": "en",
+  "title": "Solo Evaluation Finds Left-Leaning Bias in Six Frontier LLMs",
+  "summary": "A solo evaluation of six frontier LLMs \\(GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3\\) across 8 bias benchmarks \\(~20,600 examples\\) found that all models exhibit left-leaning political bias, and show high refusal rates on race-related questions, with GPT-5.4 refusing 20.3% of such questions. This study provides empirical evidence of systematic political bias across leading AI systems, which could affect trust and fairness in applications like content moderation and decision support. The high refusal rates on race questions also raise concerns about model utility and potential avoidance behavior on sensitive topics. Notably, Grok 4.3, which self-reports as right-leaning, actually behaves in a left-leaning manner when classifying content or answering policy questions. Refusal rates on BBQ race questions varied widely: GPT-5.4 refused 20.3%, Claude Opus 4.7 refused 13.8%, Grok 9.5%, and Claude Sonnet 4.6 and Gemini Pro around 5%.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "bias",
+    "evaluation",
+    "fairness"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/marggggggggg"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+  "originalSite": "reddit.com",
+  "context": "Bias evaluation benchmarks like WinoBias, BBQ, and SeeGULL are designed to measure social biases \\(gender, race, political orientation\\) in language models. WinoBias tests gender bias in coreference resolution, BBQ assesses bias in question answering across nine social dimensions, and SeeGULL covers stereotypes across geo-cultural groups. This study used eight such benchmarks to compare six state-of-the-art LLMs on political, gender, and racial bias.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2110.08193] BBQ: A Hand-Built Bias Benchmark for Question Answering",
+      "url": "https://arxiv.org/abs/2110.08193"
+    },
+    {
+      "title": "WinoBias : Gender Bias in Coreference Benchmark",
+      "url": "https://www.emergentmind.com/topics/winobias"
+    },
+    {
+      "title": "GitHub - google-research-datasets/seegull: SeeGULL is a broad-coverage stereotype dataset in English containing stereotypes about identity groups spanning 178 countries across 8 different geo-political regions across 6 continents, as well as state-level identities within the US and India. · GitHub",
+      "url": "https://github.com/google-research-datasets/seegull"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

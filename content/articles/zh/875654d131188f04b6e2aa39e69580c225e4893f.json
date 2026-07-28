@@ -1,0 +1,44 @@
+{
+  "id": "875654d131188f04b6e2aa39e69580c225e4893f",
+  "canonicalId": "22c07582101696a7de1b40399bcfae0584c8c3ea",
+  "slug": "vllm-v0260-发布新增-inkling-模型系列和-deepseek-v4-优化",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T01:06:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.26.0 发布：新增 Inkling 模型系列和 DeepSeek-V4 优化",
+  "summary": "vLLM v0.26.0 引入了 Inkling 模型系列，提供完整支持（基础建模、CUDA 图、注意力机制、推测解码、LoRA 和量化），实现了 DeepSeek-V4 性能优化，包括专用路由内核和 fused topk bias，通过 head\\_dtype 增加了 fp32 lm\\_head，并允许按 KV-cache 组选择注意力后端。 此次发布显著提升了 LLM 推理的灵活性和性能，尤其适用于混合模型和大规模部署。Inkling 模型支持和 DeepSeek-V4 优化通过降低延迟和提高准确性，影响了从研究人员到生产工程师的广泛用户。 该版本包含来自 212 位贡献者的 411 次提交，重要技术新增包括 Hopper FA4 相对注意力、分段 CUDA 图支持以及用于多模态视频和音频的 Rust 前端。KV 卸载和分层二级存储已成熟，Transformers 5.13 迁移增加了多个新模型后端。",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "LLM Inference",
+    "DeepSeek",
+    "Performance Optimization",
+    "CUDA"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+  "originalSite": "github.com",
+  "context": "vLLM 是一个开源的高吞吐量 LLM 推理引擎。Inkling 模型是 Thinking Machines Lab 推出的 975B 参数多模态 MoE 模型，具有 41B 活跃参数和 256k 上下文长度。FlashAttention-4 \\(FA4\\) 是一种最新的注意力算法，针对 NVIDIA Hopper 和 Blackwell GPU 进行了优化，提高了内存效率和速度。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Inkling Model : Architecture, Capabilities, Context &amp; Access",
+      "url": "https://inkling-model.com/"
+    },
+    {
+      "title": "fused_topk_bias_router - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/api/vllm/model_executor/layers/fused_moe/router/fused_topk_bias_router/"
+    },
+    {
+      "title": "We reverse-engineered Flash Attention 4",
+      "url": "https://modal.com/blog/reverse-engineer-flash-attention-4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

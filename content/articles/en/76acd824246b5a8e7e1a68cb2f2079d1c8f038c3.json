@@ -1,0 +1,40 @@
+{
+  "id": "76acd824246b5a8e7e1a68cb2f2079d1c8f038c3",
+  "canonicalId": "be819fed25ca79f7fb91c34fee210e33bf38591d",
+  "slug": "hazard-pointers-proposed-for-linux-kernel",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T16:51:00Z",
+  "lang": "en",
+  "title": "Hazard Pointers Proposed for Linux Kernel",
+  "summary": "The Linux kernel community is evaluating a hazard pointer implementation proposed by Mathieu Desnoyers and Paul McKenney as an alternative to read-copy-update \\(RCU\\) for lockless data updates. Hazard pointers can reduce memory usage and cleanup delays compared to RCU, offering better performance in certain scenarios, which is significant for the kernel&\\#x27;s scalability and real-time capabilities. The proposed API requires allocating a hazptr\\_ctx for each concurrent pointer, with hazptr\\_acquire\\(\\) to protect an object and hazptr\\_release\\(\\) to release it; hazptr\\_synchronize\\(\\) waits until all references are gone. The implementation uses a per-CPU array with four slots.",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "hazard-pointers",
+    "RCU",
+    "memory-management",
+    "concurrency"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1084015/",
+  "originalSite": "lwn.net",
+  "context": "Read-copy-update \\(RCU\\) is a synchronization mechanism that allows concurrent reads and updates without locks, but it can delay memory reclamation. Hazard pointers are an alternative safe memory reclamation technique that tracks active references explicitly, often leading to lower overhead for short-lived references.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Read - copy - update - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Read-copy-update"
+    },
+    {
+      "title": "A Lock-Free Stack: A Hazard Pointer Implementation Explained I",
+      "url": "https://www.linkedin.com/pulse/lock-free-stack-hazard-pointer-implementation-explained-rainer-grimm-0nsze?tl=en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

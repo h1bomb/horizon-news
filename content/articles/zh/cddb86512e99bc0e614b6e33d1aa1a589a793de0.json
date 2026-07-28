@@ -1,0 +1,40 @@
+{
+  "id": "cddb86512e99bc0e614b6e33d1aa1a589a793de0",
+  "canonicalId": "c34fd1a35c9192ae3e681bfd287a541fd3ebb5e9",
+  "slug": "fastjson2-未修复的远程代码执行漏洞影响所有版本",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T10:31:00Z",
+  "lang": "zh",
+  "title": "Fastjson2 未修复的远程代码执行漏洞影响所有版本",
+  "summary": "7 月 27 日，长亭科技披露了阿里巴巴 Fastjson2 Java JSON 库中的一个远程代码执行（RCE）漏洞，影响 2.0.62 及之前的所有版本。攻击者可通过恶意 JSON 数据绕过 AutoType 类型检查并执行任意代码。目前尚未发布官方补丁。 这是一个月内 Fastjson 系列第二个严重漏洞，突显了广泛使用的 Java JSON 处理库中的持续安全风险。许多应用程序依赖 Fastjson2，未打补丁的系统面临远程攻击的高风险。 项目维护者已确认此问题，但修复分支（PR \\#7695）已关闭且未合并到主分支。完整漏洞细节和利用代码尚未公开。在官方修复版推出前，建议用户完全禁用 AutoType。",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "fastjson2",
+    "rce",
+    "java"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/LJaul1jNjK9pXRAkoUiMEA",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Fastjson2 是阿里巴巴开发的高性能 Java JSON 库。它支持通过 AutoType 进行自动类型反序列化，如果保护不当可能被利用。此前 Fastjson 的早期版本也曾出现类似的 RCE 漏洞，这一问题在该库中反复出现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - alibaba/fastjson2: FASTJSON2 is a Java JSON library with ...",
+      "url": "https://github.com/alibaba/fastjson2"
+    },
+    {
+      "title": "FASTJSON 2.0介绍 | fastjson2",
+      "url": "https://alibaba.github.io/fastjson2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

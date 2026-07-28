@@ -1,0 +1,41 @@
+{
+  "id": "da522aa344cb5834979cd5929a99e0f7cb4189e4",
+  "canonicalId": "80d8760fd0f40ab27f35a1fa075e7aeea5d4f177",
+  "slug": "anthropic-呼吁对强大-ai-模型进行强制安全测试",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T22:03:00Z",
+  "lang": "zh",
+  "title": "Anthropic 呼吁对强大 AI 模型进行强制安全测试",
+  "summary": "Anthropic 发布政策声明，支持对所有足够强大的 AI 模型（包括开放权重模型）进行强制安全测试，批评者认为这实际上等同于禁止开放权重模型的发布。 这一立场可能影响 AI 监管，并可能限制开放权重模型的开发和分发，对开源 AI 社区和小型开发者产生重大影响。 Anthropic 声称其不主张禁止开放权重模型，但要求强制安全测试。批评者质疑测试由谁管理、成本以及可能的拒绝，并认为这类似于历史上事实上的禁令。",
+  "score": 9,
+  "tags": [
+    "AI safety",
+    "open-weights models",
+    "regulation",
+    "Anthropic",
+    "policy debate"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "surprisetalk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49076057"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/position-open-weights-models",
+  "originalSite": "anthropic.com",
+  "context": "开放权重模型是核心组件公开发布的 AI 模型，允许任何人下载、检查、修改并在自己的基础设施上运行。Anthropic 是一家专注于安全的领先 AI 公司，其政策立场在监管辩论中经常具有分量。争论的核心在于平衡创新和开放性与对强大 AI 被滥用的安全担忧。",
+  "discussion": "社区评论表达了强烈的怀疑，指责 Anthropic 以安全为借口保护其专有模型。一些人指出 Anthropic 支持硬件禁令却反对模型限制的矛盾，另一些人则认为该政策是针对 DeepSeek 等开放权重替代品的竞争策略。",
+  "references": [
+    {
+      "title": "What is an Open-Weight Model? - Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model"
+    },
+    {
+      "title": "Open Weights and American AI Leadership",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

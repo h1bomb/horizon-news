@@ -1,0 +1,44 @@
+{
+  "id": "b4fe81b324fc771d5950417fb1814f71fa60b0e7",
+  "canonicalId": "7372d8cb937a6ab6df45708f2a6e30c39e00ea58",
+  "slug": "moonshot-ai-opens-kimi-k3-first-28-trillion-parameter-open-model",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T15:15:00Z",
+  "lang": "en",
+  "title": "Moonshot AI Opens Kimi K3: First 2.8 Trillion Parameter Open Model",
+  "summary": "Moonshot AI has open-sourced Kimi K3, a 2.8 trillion parameter model with 104 billion active parameters, making it the first openly available model at the 3-trillion scale. It introduces Kimi Delta Attention \\(KDA\\), Attention Residuals \\(AttnRes\\), and Stable LatentMoE, supporting multi-modal inputs and a 1 million token context window. Kimi K3&\\#x27;s open release marks a milestone in AI by providing a frontier-scale model to the community, potentially accelerating research and applications in long-context reasoning, multimodal understanding, and agentic tasks. Its efficient architecture \\(2.5x improvement over K2\\) demonstrates that massive models can be both powerful and practical. The model uses 896 experts with 16 activated per token under the Stable LatentMoE framework, and supports MXFP4 quantization for efficient inference. Benchmarks like GPQA Diamond, BrowseComp, and DeepSWE show it competes with proprietary models such as GPT-5.6 Sol and Claude Fable 5.",
+  "score": 10,
+  "tags": [
+    "人工智能",
+    "大语言模型",
+    "开源",
+    "MoonshotAI",
+    "Kimi K3"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+  "originalSite": "huggingface.co",
+  "context": "Large language models often use Mixture-of-Experts \\(MoE\\) to scale parameters while keeping computation manageable. Kimi K3&\\#x27;s KDA is a linear attention mechanism that improves memory efficiency, and Stable LatentMoE further reduces routing and expert compute costs by projecting to a lower-dimensional latent space. MXFP4 is a 4-bit floating-point quantization format that balances accuracy and speed.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linear Attention : Kimi Delta Attention | Jianyu Huang’s Blog",
+      "url": "https://jianyuh.github.io/attention/2025/12/13/KDA.html"
+    },
+    {
+      "title": "[2601.18089] LatentMoE: Toward Optimal Accuracy per FLOP and Parameter in Mixture of Experts",
+      "url": "https://arxiv.org/abs/2601.18089"
+    },
+    {
+      "title": "What’s MXFP4? The 4-Bit Secret Powering OpenAI’s GPT‑OSS Models on Modest Hardware",
+      "url": "https://huggingface.co/blog/RakshitAralimatti/learn-ai-with-me"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

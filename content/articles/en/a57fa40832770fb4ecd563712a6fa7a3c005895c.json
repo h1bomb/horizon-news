@@ -1,0 +1,40 @@
+{
+  "id": "a57fa40832770fb4ecd563712a6fa7a3c005895c",
+  "canonicalId": "c34fd1a35c9192ae3e681bfd287a541fd3ebb5e9",
+  "slug": "unpatched-rce-vulnerability-in-fastjson2-affects-all-versions",
+  "date": "2026-07-27",
+  "publishedAt": "2026-07-27T10:31:00Z",
+  "lang": "en",
+  "title": "Unpatched RCE Vulnerability in Fastjson2 Affects All Versions",
+  "summary": "On July 27, security firm Chaitin Technology disclosed a remote code execution \\(RCE\\) vulnerability in Alibaba&\\#x27;s Fastjson2 Java JSON library, affecting all versions up to 2.0.62. The vulnerability allows attackers to bypass AutoType type checking via malicious JSON data and execute arbitrary code. No official patch has been released yet. This is the second critical vulnerability in the Fastjson family within a month, highlighting ongoing security risks in widely-used Java JSON processing libraries. Many applications rely on Fastjson2, so unpatched systems are at high risk of remote compromise. The maintainer has confirmed the issue, but the fix branch \\(PR \\#7695\\) was closed and not merged into the main branch. Complete vulnerability details and exploit code have not been publicly disclosed. Until an official fix is available, users are advised to completely disable AutoType in configurations.",
+  "score": 9,
+  "tags": [
+    "security",
+    "vulnerability",
+    "fastjson2",
+    "rce",
+    "java"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/LJaul1jNjK9pXRAkoUiMEA",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Fastjson2 is a high-performance JSON library for Java developed by Alibaba. It supports features like automatic type deserialization via AutoType, which can be exploited if not properly secured. Previous versions of Fastjson have also had similar RCE vulnerabilities, making this a recurring issue for the library.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - alibaba/fastjson2: FASTJSON2 is a Java JSON library with ...",
+      "url": "https://github.com/alibaba/fastjson2"
+    },
+    {
+      "title": "FASTJSON 2.0介绍 | fastjson2",
+      "url": "https://alibaba.github.io/fastjson2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
