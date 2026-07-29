@@ -1,0 +1,40 @@
+{
+  "id": "23201aae3bdf8b93870fb515300560448c638242",
+  "canonicalId": "b8fee84e4049d89bc0989c9b5dc8e679985112d7",
+  "slug": "gccrs-makes-progress-toward-compiling-linux-kernel",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T17:40:00Z",
+  "lang": "en",
+  "title": "gccrs makes progress toward compiling Linux kernel",
+  "summary": "In the first half of 2026, the gccrs project made notable progress toward compiling the Linux kernel by resolving issues in attribute handling, name resolution, and resource management, and reorganizing milestones into three capability-based stages. A GCC-based Rust compiler is essential for architectures not supported by LLVM and for integrating with GCC&\\#x27;s plugin ecosystem, providing toolchain flexibility as the Linux kernel&\\#x27;s Rust integration matures. The team restructured work into three milestones: an embedded Rust compiler \\(no\\_std\\), a Rust for Linux compiler \\(supporting alloc and kernel crates\\), and a general-purpose compiler; currently only simple standalone programs compile, but rapid progress is expected.",
+  "score": 8,
+  "tags": [
+    "gccrs",
+    "Rust",
+    "GCC",
+    "Linux kernel",
+    "compiler"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1083202/",
+  "originalSite": "lwn.net",
+  "context": "gccrs is a project to create an alternative Rust frontend for the GCC compiler, aiming to become fully upstreamed. The Linux kernel has started using Rust, but currently requires the LLVM-based rustc compiler; a GCC-based alternative is needed for broader architecture support and plugin compatibility.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - Rust-GCC/gccrs: GCC Front-End for Rust · GitHub",
+      "url": "https://github.com/Rust-GCC/gccrs"
+    },
+    {
+      "title": "gccrs: An alternative compiler for Rust | Rust Blog",
+      "url": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

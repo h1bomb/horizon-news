@@ -1,0 +1,41 @@
+{
+  "id": "546b678fff563348a237db3b6bcd97f4245f1d1c",
+  "canonicalId": "84c6612c7ac0740ae1d877c030005d37f09d5cb9",
+  "slug": "kimi-k3-架构nope-替代-rope",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T15:48:00Z",
+  "lang": "zh",
+  "title": "Kimi K3 架构：NoPE 替代 RoPE",
+  "summary": "Sebastian Raschka 对新发布的开源权重模型 Kimi K3 的分析显示，该模型移除了所有 RoPE 层，并在整个架构中采用 NoPE（无位置嵌入）进行位置编码。 这一架构选择挑战了长期以来的假设——即显式位置编码对 Transformer 是必要的，可能简化模型设计并提高效率，同时也表明 Kimi K3 引入了超越蒸馏的创新。 NoPE 不添加任何显式位置信号，迫使模型从嵌入本身推断词元顺序；Kimi K3 还采用了其他新颖组件，如键值分解注意力（KDA）。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLM",
+    "Architecture",
+    "Kimi K3",
+    "NoPE"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ModelForge",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49085698"
+    }
+  ],
+  "originalUrl": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+  "originalSite": "sebastianraschka.com",
+  "context": "位置编码在 Transformer 中至关重要，因为自注意力机制是置换不变的。RoPE（旋转位置嵌入）通过旋转矩阵编码相对位置，广泛应用于现代 LLM 中。NoPE 则省略显式位置编码，完全依赖模型从数据中学习位置信息。研究表明，在某些条件下 NoPE 可以匹敌甚至超越显式方法，并降低复杂度。",
+  "discussion": "评论者对 NoPE 竟然有效感到惊讶，质疑模型如何在缺乏归纳偏置的情况下区分词元位置。其他评论者称赞了该分析，并指出 Kimi K3 的架构创新驳斥了其仅依赖蒸馏的说法。",
+  "references": [
+    {
+      "title": "Kimi K 3 Architecture Notes | Sebastian Raschka, PhD",
+      "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html"
+    },
+    {
+      "title": "[2305.19466] The Impact of Positional Encoding on Length...",
+      "url": "https://arxiv.org/abs/2305.19466"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

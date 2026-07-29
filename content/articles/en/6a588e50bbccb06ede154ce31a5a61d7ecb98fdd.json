@@ -1,0 +1,45 @@
+{
+  "id": "6a588e50bbccb06ede154ce31a5a61d7ecb98fdd",
+  "canonicalId": "65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c",
+  "slug": "openai-open-sources-codex-security-cli-tool",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T20:52:00Z",
+  "lang": "en",
+  "title": "OpenAI Open-Sources Codex Security CLI Tool",
+  "summary": "OpenAI has open-sourced Codex Security, a command-line interface \\(CLI\\) tool that uses large language models to scan code repositories for vulnerabilities. The tool is now available on GitHub under an open-source license. This move makes advanced AI-powered security scanning accessible to a wider developer audience, potentially lowering the barrier for integrating LLM-based vulnerability detection into CI/CD pipelines. It also allows the community to inspect and improve the tool, fostering transparency in AI security applications. The tool uses natural language skill definitions to guide the LLM in identifying vulnerabilities, which are publicly available in the repository. However, early users report high resource consumption, with scans taking nearly an hour for small repositories and consuming significant API usage.",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "Codex",
+    "Security",
+    "Open Source",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bakigul",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49089755"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/codex-security",
+  "originalSite": "github.com",
+  "context": "Codex Security was previously available as a research preview within OpenAI&\\#x27;s Codex product, which functions as an AI coding agent. The tool analyzes project context, detects vulnerabilities, validates them in isolated environments, and suggests fixes. OpenAI&\\#x27;s decision to open-source it reflects a trend of democratizing AI security tools.",
+  "discussion": "Community comments highlight mixed reactions: some users appreciate the skill definitions as valuable prompts, while others express frustration about performance and cost—one user reported the scan drained half their weekly Pro plan usage. The project&\\#x27;s maintainer acknowledged the issues and promised rapid improvements.",
+  "references": [
+    {
+      "title": "OpenAI Codex (AI agent) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Codex_%28AI_agent%29"
+    },
+    {
+      "title": "Codex Security: now in research preview | OpenAI",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview/"
+    },
+    {
+      "title": "Codex Security | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/20001107-codex-security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

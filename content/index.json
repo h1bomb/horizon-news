@@ -1,6 +1,444 @@
 {
   "articles": [
     {
+      "id": "a51c6b1ad9be36c8a1ad146eead766fa4406c6b1",
+      "canonicalId": "ca8c38f8c562c11bd47876d804e0a0f87794681e",
+      "slug": "ai-代理入侵-openai-的详细时间线",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "AI 代理入侵 OpenAI 的详细时间线",
+      "score": 10,
+      "tags": [
+        "security",
+        "AI safety",
+        "zero-day",
+        "adversarial ML",
+        "cybersecurity"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "68c20768dc146af8fac9014886c621e567b8ed1b",
+      "canonicalId": "6711b1606164f2477b1e4c0766faaeee1a9b7491",
+      "slug": "kimi-linear一种超越全注意力的混合注意力架构",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "Kimi Linear：一种超越全注意力的混合注意力架构",
+      "score": 9,
+      "tags": [
+        "attention architecture",
+        "NLP",
+        "open-source",
+        "efficiency",
+        "deep learning"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "7b23c4d0fc51f26a5970365a1bfa2faa239ae1d1",
+      "canonicalId": "d38c097729e6af9e40e080199808958a64dad4c6",
+      "slug": "月之暗面发布-28-万亿参数-kimi-k3-权重",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "月之暗面发布 2.8 万亿参数 Kimi K3 权重",
+      "score": 9,
+      "tags": [
+        "AI",
+        "open-source",
+        "large language model",
+        "weight release",
+        "licensing"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "afa4f8286a24b0227744eadf67e957f65aed4c86",
+      "canonicalId": "65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c",
+      "slug": "openai-开源-codex-security-命令行工具",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "OpenAI 开源 Codex Security 命令行工具",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Security",
+        "Open Source",
+        "LLM"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "e38b6782f5ebc7e4515c5d97ae20d3c58c4436c0",
+      "canonicalId": "0762bdd17e1ec7aeef2ece93b126e60863dcb8ff",
+      "slug": "建议-substack-作者拥有自己的网站",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "建议 Substack 作者拥有自己的网站",
+      "score": 8,
+      "tags": [
+        "Substack",
+        "independent publishing",
+        "content ownership",
+        "email newsletters",
+        "community discussion"
+      ],
+      "originalSite": "elizabethtai.com"
+    },
+    {
+      "id": "546b678fff563348a237db3b6bcd97f4245f1d1c",
+      "canonicalId": "84c6612c7ac0740ae1d877c030005d37f09d5cb9",
+      "slug": "kimi-k3-架构nope-替代-rope",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "Kimi K3 架构：NoPE 替代 RoPE",
+      "score": 8,
+      "tags": [
+        "AI",
+        "LLM",
+        "Architecture",
+        "Kimi K3",
+        "NoPE"
+      ],
+      "originalSite": "sebastianraschka.com"
+    },
+    {
+      "id": "e99fc910e63dc0618c43c1bdb9c021ac904d9dda",
+      "canonicalId": "a4edadf249950b00405803a784ee881cd6c84a57",
+      "slug": "深入解析-zig-的增量编译内部机制",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "深入解析 Zig 的增量编译内部机制",
+      "score": 8,
+      "tags": [
+        "zig",
+        "incremental-compilation",
+        "compiler-design",
+        "systems-programming"
+      ],
+      "originalSite": "mlugg.co.uk"
+    },
+    {
+      "id": "0dd47247c40583be2d7e90acfe891343f7bd59fc",
+      "canonicalId": "df6c16550d6d347161ba0d4ef132d636c404b440",
+      "slug": "anthropic-的-claude-发现加密弱点",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "Anthropic 的 Claude 发现加密弱点",
+      "score": 8,
+      "tags": [
+        "AI",
+        "cryptography",
+        "cybersecurity",
+        "Claude",
+        "research"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "f7103c0a868c4e5ab7145de1401aba1d4841f1f5",
+      "canonicalId": "b8fee84e4049d89bc0989c9b5dc8e679985112d7",
+      "slug": "gccrs-在编译-linux-内核方面取得进展",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "gccrs 在编译 Linux 内核方面取得进展",
+      "score": 8,
+      "tags": [
+        "gccrs",
+        "Rust",
+        "GCC",
+        "Linux kernel",
+        "compiler"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "f9f1cdeca784718783ed648118f8b573aee5da29",
+      "canonicalId": "58da6fbc3247db9ee4cc3531532b24e1bae07042",
+      "slug": "neurips-审稿人对-llm-生成的论文和反驳感到沮丧",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "NeurIPS 审稿人对 LLM 生成的论文和反驳感到沮丧",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "academic integrity",
+        "peer review",
+        "LLM-generated content"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "b9ba4b941c44c33a03d1e586c7d86db080492de6",
+      "canonicalId": "a00e8e31260134d96167bdbabe52726b6b618b09",
+      "slug": "neurips-2026-人工智能生成评审引发诚信争议",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "NeurIPS 2026 人工智能生成评审引发诚信争议",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "peer review",
+        "NeurIPS",
+        "LLM",
+        "academic integrity"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "0d1078defd02cc116902c1f89c8461f584238a7e",
+      "canonicalId": "9f1e2e0c97e7451b104294d82eca6df48a3e35c5",
+      "slug": "pnas-研究超半数学术论文显示大语言模型影响",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "PNAS 研究：超半数学术论文显示大语言模型影响",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "academic publishing",
+        "empirical study",
+        "AI influence",
+        "science policy"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "e8dfc158ab1e8810183c01a3006b6eddefc8a95e",
+      "canonicalId": "3f4f767ac83ee40ca65f0d154f55e8918c947404",
+      "slug": "neurips-提示注入误触发伦理审查",
+      "date": "2026-07-28",
+      "lang": "zh",
+      "title": "NeurIPS 提示注入误触发伦理审查",
+      "score": 8,
+      "tags": [
+        "prompt injection",
+        "AI ethics",
+        "NeurIPS",
+        "peer review",
+        "conference security"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "c6f41e64f7adbd4a216e13bd970e57122f85442f",
+      "canonicalId": "ca8c38f8c562c11bd47876d804e0a0f87794681e",
+      "slug": "detailed-timeline-of-ai-agent-intrusion-on-openai",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Detailed Timeline of AI Agent Intrusion on OpenAI",
+      "score": 10,
+      "tags": [
+        "security",
+        "AI safety",
+        "zero-day",
+        "adversarial ML",
+        "cybersecurity"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "6f6871341e6d7e2c8cd125d092ca4e2b4a9b6a44",
+      "canonicalId": "6711b1606164f2477b1e4c0766faaeee1a9b7491",
+      "slug": "kimi-linear-a-hybrid-attention-architecture-outperforming-full-attention",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Kimi Linear: A Hybrid Attention Architecture Outperforming Full Attention",
+      "score": 9,
+      "tags": [
+        "attention architecture",
+        "NLP",
+        "open-source",
+        "efficiency",
+        "deep learning"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "7ca2c9c4cb4a40fe4b570f1b898de0798234e171",
+      "canonicalId": "d38c097729e6af9e40e080199808958a64dad4c6",
+      "slug": "moonshot-ai-releases-28t-parameter-kimi-k3-weights",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Moonshot AI Releases 2.8T Parameter Kimi K3 Weights",
+      "score": 9,
+      "tags": [
+        "AI",
+        "open-source",
+        "large language model",
+        "weight release",
+        "licensing"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "6a588e50bbccb06ede154ce31a5a61d7ecb98fdd",
+      "canonicalId": "65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c",
+      "slug": "openai-open-sources-codex-security-cli-tool",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "OpenAI Open-Sources Codex Security CLI Tool",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Security",
+        "Open Source",
+        "LLM"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "8f788ae1d1004ad3a4a8d89689534cd02d9f0640",
+      "canonicalId": "0762bdd17e1ec7aeef2ece93b126e60863dcb8ff",
+      "slug": "advocates-for-substack-writers-to-maintain-own-website",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Advocates for Substack writers to maintain own website",
+      "score": 8,
+      "tags": [
+        "Substack",
+        "independent publishing",
+        "content ownership",
+        "email newsletters",
+        "community discussion"
+      ],
+      "originalSite": "elizabethtai.com"
+    },
+    {
+      "id": "f7e51183db9d11a34c05bc1539124d4513290add",
+      "canonicalId": "84c6612c7ac0740ae1d877c030005d37f09d5cb9",
+      "slug": "kimi-k3-architecture-nope-replaces-rope",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Kimi K3 Architecture: NoPE Replaces RoPE",
+      "score": 8,
+      "tags": [
+        "AI",
+        "LLM",
+        "Architecture",
+        "Kimi K3",
+        "NoPE"
+      ],
+      "originalSite": "sebastianraschka.com"
+    },
+    {
+      "id": "5be49f3f11c4c0d33552c865e20232b1dac62cb1",
+      "canonicalId": "a4edadf249950b00405803a784ee881cd6c84a57",
+      "slug": "inside-zigx27s-incremental-compilation-internals",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Inside Zig&\\#x27;s Incremental Compilation Internals",
+      "score": 8,
+      "tags": [
+        "zig",
+        "incremental-compilation",
+        "compiler-design",
+        "systems-programming"
+      ],
+      "originalSite": "mlugg.co.uk"
+    },
+    {
+      "id": "4e991a0ffb7752a7a5af734bd501c4516eba19d8",
+      "canonicalId": "df6c16550d6d347161ba0d4ef132d636c404b440",
+      "slug": "anthropicx27s-claude-discovers-cryptographic-weaknesses",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "Anthropic&\\#x27;s Claude Discovers Cryptographic Weaknesses",
+      "score": 8,
+      "tags": [
+        "AI",
+        "cryptography",
+        "cybersecurity",
+        "Claude",
+        "research"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "23201aae3bdf8b93870fb515300560448c638242",
+      "canonicalId": "b8fee84e4049d89bc0989c9b5dc8e679985112d7",
+      "slug": "gccrs-makes-progress-toward-compiling-linux-kernel",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "gccrs makes progress toward compiling Linux kernel",
+      "score": 8,
+      "tags": [
+        "gccrs",
+        "Rust",
+        "GCC",
+        "Linux kernel",
+        "compiler"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "802ce02f603d9e256944b86caaf3bc699a1d1ef3",
+      "canonicalId": "58da6fbc3247db9ee4cc3531532b24e1bae07042",
+      "slug": "neurips-reviewer-frustrated-by-llm-generated-paper-and-rebuttals",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "NeurIPS Reviewer Frustrated by LLM-Generated Paper and Rebuttals",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "academic integrity",
+        "peer review",
+        "LLM-generated content"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "84634d92209498c8a4ffe19db5b092939b3198d9",
+      "canonicalId": "a00e8e31260134d96167bdbabe52726b6b618b09",
+      "slug": "neurips-2026-ai-generated-reviews-spark-integrity-debate",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "NeurIPS 2026 AI-Generated Reviews Spark Integrity Debate",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "peer review",
+        "NeurIPS",
+        "LLM",
+        "academic integrity"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "30b72786f62e7c047e1af125451a50686be76bd9",
+      "canonicalId": "9f1e2e0c97e7451b104294d82eca6df48a3e35c5",
+      "slug": "pnas-study-over-50-of-academic-papers-show-llm-influence",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "PNAS Study: Over 50% of Academic Papers Show LLM Influence",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "academic publishing",
+        "empirical study",
+        "AI influence",
+        "science policy"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "cd4e81f4a929b683e503423bdbdc50854bc4d1d2",
+      "canonicalId": "3f4f767ac83ee40ca65f0d154f55e8918c947404",
+      "slug": "neurips-prompt-injection-catches-ethics-reviewers-off-guard",
+      "date": "2026-07-28",
+      "lang": "en",
+      "title": "NeurIPS prompt injection catches ethics reviewers off guard",
+      "score": 8,
+      "tags": [
+        "prompt injection",
+        "AI ethics",
+        "NeurIPS",
+        "peer review",
+        "conference security"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
       "id": "f4e9fae6acfbe3536f3f7d24f8df4ec9bb3fc091",
       "canonicalId": "7372d8cb937a6ab6df45708f2a6e30c39e00ea58",
       "slug": "月之暗面开源-kimi-k3首个-28-万亿参数开放模型",
@@ -5467,310 +5905,6 @@
         "interpretability"
       ],
       "originalSite": "reddit.com"
-    },
-    {
-      "id": "5514759592078bea40f7f0d4936fe6623c33e03a",
-      "canonicalId": "4c972aa928e6ecc94b3411e8630980dd1a7f8bbc",
-      "slug": "gpt-56-一小时破解五十年图论猜想",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "GPT-5.6 一小时破解五十年图论猜想",
-      "score": 10,
-      "tags": [
-        "AI",
-        "graph theory",
-        "mathematical proof",
-        "GPT-5.6",
-        "autonomous reasoning"
-      ],
-      "originalSite": "qbitai.com"
-    },
-    {
-      "id": "8ceed55d2d6f5347f0d8155a7f0192c10ff456de",
-      "canonicalId": "dd2c6d143ed1852f18e44027f8132075527f724a",
-      "slug": "乔治霍茨llm-很棒但炒作对估值不利",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "乔治·霍茨：LLM 很棒，但炒作对估值不利",
-      "score": 9,
-      "tags": [
-        "LLMs",
-        "AI hype",
-        "open source",
-        "value capture",
-        "George Hotz"
-      ],
-      "originalSite": "geohot.github.io"
-    },
-    {
-      "id": "cfdec6f5248866e01e6e433db9659eba86552a39",
-      "canonicalId": "b21c70de14cb3e02b9cc2d2bfdb0099bcedbe7a0",
-      "slug": "grok-cli-默认上传整个代码库和密钥文件",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "Grok CLI 默认上传整个代码库和密钥文件",
-      "score": 9,
-      "tags": [
-        "security",
-        "privacy",
-        "AI tools",
-        "xAI",
-        "Grok CLI"
-      ],
-      "originalSite": "gist.github.com"
-    },
-    {
-      "id": "3817dc4e2b4beea27cec3e8d751747054fba823b",
-      "canonicalId": "065047e21dc358331dc431a2d80e7db6e64fc8ad",
-      "slug": "claude-code-在读取提示前消耗-33-万-tokenopencode-仅用-7-千",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "Claude Code 在读取提示前消耗 3.3 万 token；OpenCode 仅用 7 千",
-      "score": 8,
-      "tags": [
-        "AI coding tools",
-        "token efficiency",
-        "Claude Code",
-        "OpenCode",
-        "agentic coding"
-      ],
-      "originalSite": "systima.ai"
-    },
-    {
-      "id": "eff4ec30443e42f9d1db59e346fb642aa6dba9c5",
-      "canonicalId": "d9a2efbb68a16420bf1cc5282d8093bab021abde",
-      "slug": "数学家陶哲轩利用-llm-编码代理",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "数学家陶哲轩利用 LLM 编码代理",
-      "score": 8,
-      "tags": [
-        "LLM coding agents",
-        "software development",
-        "visualization",
-        "AI-assisted programming",
-        "Terry Tao"
-      ],
-      "originalSite": "terrytao.wordpress.com"
-    },
-    {
-      "id": "b8e7602cf6bc75330a28da30f58863b8a180fd99",
-      "canonicalId": "7ebc5a3660c1075374aa823029ccb82d760ef252",
-      "slug": "cgi-与-llm一个警示性的类比",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "CGI 与 LLM：一个警示性的类比",
-      "score": 8,
-      "tags": [
-        "AI",
-        "LLMs",
-        "Software Engineering",
-        "Practical Effects",
-        "Coding Skills"
-      ],
-      "originalSite": "fabiensanglard.net"
-    },
-    {
-      "id": "44b8cf69497a638a3e2170d34aac0cee410f7a48",
-      "canonicalId": "75ba68c21a9afabcf25c58f1a5dacf4e0dfa1e99",
-      "slug": "zer0fit-将-google-tabfmtimesfm-封装成-mcp-服务器实现零样本机器学习",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "Zer0Fit 将 Google TabFM/TimesFM 封装成 MCP 服务器实现零样本机器学习",
-      "score": 8,
-      "tags": [
-        "MCP",
-        "zero-shot ML",
-        "TimesFM",
-        "TabFM",
-        "ML server"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "12209386f7b8579b2df3e33ddf11ae002447722b",
-      "canonicalId": "fa2c9f5217f5e99689accd75ecc209b172009081",
-      "slug": "欧盟拟对大型科技公司消费者保护失职处以罚款",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "欧盟拟对大型科技公司消费者保护失职处以罚款",
-      "score": 8,
-      "tags": [
-        "EU regulation",
-        "consumer protection",
-        "tech policy",
-        "dark patterns",
-        "children safety"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "c1f77705e5ff4c0574c1cdc68de76c3d3f21186f",
-      "canonicalId": "3639b3e092b8f4da18fdec7ef9c23b3904a1230e",
-      "slug": "neo-脑机接口助高位截瘫患者重新握笔",
-      "date": "2026-07-12",
-      "lang": "zh",
-      "title": "NEO 脑机接口助高位截瘫患者重新握笔",
-      "score": 8,
-      "tags": [
-        "脑机接口",
-        "医疗康复",
-        "中国科技",
-        "神经工程"
-      ],
-      "originalSite": "zaobao.com.sg"
-    },
-    {
-      "id": "17c0f891051384572478a0605b4ce44930096a34",
-      "canonicalId": "4c972aa928e6ecc94b3411e8630980dd1a7f8bbc",
-      "slug": "gpt-56-proves-50-year-old-graph-theory-conjecture-in-one-hour",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "GPT-5.6 Proves 50-Year-Old Graph Theory Conjecture in One Hour",
-      "score": 10,
-      "tags": [
-        "AI",
-        "graph theory",
-        "mathematical proof",
-        "GPT-5.6",
-        "autonomous reasoning"
-      ],
-      "originalSite": "qbitai.com"
-    },
-    {
-      "id": "c6cf3dd872ef8eaa496b7407697b8b4b101e3576",
-      "canonicalId": "dd2c6d143ed1852f18e44027f8132075527f724a",
-      "slug": "george-hotz-llms-great-hype-bad-for-valuations",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "George Hotz: LLMs Great, Hype Bad for Valuations",
-      "score": 9,
-      "tags": [
-        "LLMs",
-        "AI hype",
-        "open source",
-        "value capture",
-        "George Hotz"
-      ],
-      "originalSite": "geohot.github.io"
-    },
-    {
-      "id": "3ca961a8f21b90cb4d238793109cffdd835613bb",
-      "canonicalId": "b21c70de14cb3e02b9cc2d2bfdb0099bcedbe7a0",
-      "slug": "grok-cli-uploads-entire-codebase-and-secrets-by-default",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "Grok CLI uploads entire codebase and secrets by default",
-      "score": 9,
-      "tags": [
-        "security",
-        "privacy",
-        "AI tools",
-        "xAI",
-        "Grok CLI"
-      ],
-      "originalSite": "gist.github.com"
-    },
-    {
-      "id": "5e74ec7d2a8d266b4233467d6d6d100bcec25fc3",
-      "canonicalId": "065047e21dc358331dc431a2d80e7db6e64fc8ad",
-      "slug": "claude-code-burns-33k-tokens-before-reading-prompt-opencode-uses-7k",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "Claude Code burns 33k tokens before reading prompt; OpenCode uses 7k",
-      "score": 8,
-      "tags": [
-        "AI coding tools",
-        "token efficiency",
-        "Claude Code",
-        "OpenCode",
-        "agentic coding"
-      ],
-      "originalSite": "systima.ai"
-    },
-    {
-      "id": "ba176d24258ef6426f5b87f211f1819702e19ba4",
-      "canonicalId": "d9a2efbb68a16420bf1cc5282d8093bab021abde",
-      "slug": "mathematician-terry-tao-leverages-llm-coding-agents",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "Mathematician Terry Tao Leverages LLM Coding Agents",
-      "score": 8,
-      "tags": [
-        "LLM coding agents",
-        "software development",
-        "visualization",
-        "AI-assisted programming",
-        "Terry Tao"
-      ],
-      "originalSite": "terrytao.wordpress.com"
-    },
-    {
-      "id": "d4e6ef0778b5fe12d1efb3babd380e6d985a4573",
-      "canonicalId": "7ebc5a3660c1075374aa823029ccb82d760ef252",
-      "slug": "cgi-and-llms-a-cautionary-analogy",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "CGI and LLMs: A Cautionary Analogy",
-      "score": 8,
-      "tags": [
-        "AI",
-        "LLMs",
-        "Software Engineering",
-        "Practical Effects",
-        "Coding Skills"
-      ],
-      "originalSite": "fabiensanglard.net"
-    },
-    {
-      "id": "204f048d8e4cdafb35a68a8de415db45d9331013",
-      "canonicalId": "75ba68c21a9afabcf25c58f1a5dacf4e0dfa1e99",
-      "slug": "zer0fit-wraps-google-tabfmtimesfm-in-mcp-server-for-zero-shot-ml",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "Zer0Fit wraps Google TabFM/TimesFM in MCP server for zero-shot ML",
-      "score": 8,
-      "tags": [
-        "MCP",
-        "zero-shot ML",
-        "TimesFM",
-        "TabFM",
-        "ML server"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "fec6abcb82608471499685fdfbac1b1af3350654",
-      "canonicalId": "fa2c9f5217f5e99689accd75ecc209b172009081",
-      "slug": "eu-to-fine-big-tech-for-failing-consumer-protection",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "EU to fine big tech for failing consumer protection",
-      "score": 8,
-      "tags": [
-        "EU regulation",
-        "consumer protection",
-        "tech policy",
-        "dark patterns",
-        "children safety"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "34c5cf5992b3954fb183b85d8d1e7b8dfd6822d1",
-      "canonicalId": "3639b3e092b8f4da18fdec7ef9c23b3904a1230e",
-      "slug": "neo-brain-computer-interface-helps-paralyzed-patient-write-again",
-      "date": "2026-07-12",
-      "lang": "en",
-      "title": "NEO brain-computer interface helps paralyzed patient write again",
-      "score": 8,
-      "tags": [
-        "脑机接口",
-        "医疗康复",
-        "中国科技",
-        "神经工程"
-      ],
-      "originalSite": "zaobao.com.sg"
     }
   ]
 }

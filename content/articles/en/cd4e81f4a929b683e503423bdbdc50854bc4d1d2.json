@@ -1,0 +1,44 @@
+{
+  "id": "cd4e81f4a929b683e503423bdbdc50854bc4d1d2",
+  "canonicalId": "3f4f767ac83ee40ca65f0d154f55e8918c947404",
+  "slug": "neurips-prompt-injection-catches-ethics-reviewers-off-guard",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T17:28:00Z",
+  "lang": "en",
+  "title": "NeurIPS prompt injection catches ethics reviewers off guard",
+  "summary": "NeurIPS used prompt injection to detect LLM-generated peer reviews, but ethics reviewers who were not informed about this manipulation flagged ethical concerns about the conference&\\#x27;s own actions. This incident highlights the tension between using automated methods to preserve peer review integrity and the need for transparency to avoid eroding trust in the review process. Ethics reviewers were not briefed about the prompt injection, causing them to misinterpret the test as an ethical violation; the episode underscores procedural gaps in managing AI-driven review measures.",
+  "score": 8,
+  "tags": [
+    "prompt injection",
+    "AI ethics",
+    "NeurIPS",
+    "peer review",
+    "conference security"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/dontknowwhattoplay"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v955f6/neuripsside_prompt_injection_triggering_ethics/",
+  "originalSite": "reddit.com",
+  "context": "Prompt injection is a technique where hidden instructions are embedded in text to manipulate an LLM&\\#x27;s behavior; in peer review, it has been used both to detect LLM-written reviews and to attempt to sway reviewer scores. The use of LLMs as reviewers is increasingly scrutinized for fairness and robustness, with conferences like NeurIPS exploring detection methods.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "When Your Reviewer is an LLM: Biases, Divergence, and Prompt ...",
+      "url": "https://arxiv.org/html/2509.09912v1"
+    },
+    {
+      "title": "Prompt Injection Attacks on LLM Generated Reviews of ...",
+      "url": "https://arxiv.org/html/2509.10248v3"
+    },
+    {
+      "title": "Detecting LLM-generated peer reviews | PLOS One",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331871"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

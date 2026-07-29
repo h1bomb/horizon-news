@@ -1,0 +1,45 @@
+{
+  "id": "4e991a0ffb7752a7a5af734bd501c4516eba19d8",
+  "canonicalId": "df6c16550d6d347161ba0d4ef132d636c404b440",
+  "slug": "anthropicx27s-claude-discovers-cryptographic-weaknesses",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T17:22:00Z",
+  "lang": "en",
+  "title": "Anthropic&\\#x27;s Claude Discovers Cryptographic Weaknesses",
+  "summary": "Anthropic researchers used Claude, an AI model, to autonomously discover cryptographic weaknesses in AES and the post-quantum signature scheme HAWK, with each attack costing roughly $100,000 in API fees. This demonstrates that AI can significantly aid cryptanalysis, potentially accelerating the discovery of vulnerabilities in widely-used encryption standards and impacting cybersecurity and cryptographic research. The HAWK attack reduced its security strength by half over 60 hours, while the AES attack targeted a round-reduced version; both were developed autonomously by Claude with minimal human guidance.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "cryptography",
+    "cybersecurity",
+    "Claude",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gslin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49087091"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+  "originalSite": "anthropic.com",
+  "context": "AES is a symmetric encryption standard used globally, while HAWK is a lattice-based digital signature candidate for NIST&\\#x27;s post-quantum cryptography standardization. AI-driven cryptanalysis uses machine learning to find weaknesses that classical methods might miss, potentially lowering the bar for finding vulnerabilities.",
+  "discussion": "The community highlighted the high API cost and speculated that internal TPS rates are higher than public endpoints. Some expressed concern about national security implications, while others debated the effectiveness of prompt engineering versus autonomous discovery.",
+  "references": [
+    {
+      "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+    },
+    {
+      "title": "Anthropic&#x27;s Claude Mythos found a hidden flaw in HAWK before ...",
+      "url": "https://startupfortune.com/anthropics-claude-mythos-found-a-hidden-flaw-in-hawk-before-it-could-become-a-global-encryption-standard/"
+    },
+    {
+      "title": "Hawk",
+      "url": "https://hawk-sign.info/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

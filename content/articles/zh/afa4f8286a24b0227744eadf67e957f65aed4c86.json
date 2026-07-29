@@ -1,0 +1,45 @@
+{
+  "id": "afa4f8286a24b0227744eadf67e957f65aed4c86",
+  "canonicalId": "65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c",
+  "slug": "openai-开源-codex-security-命令行工具",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T20:52:00Z",
+  "lang": "zh",
+  "title": "OpenAI 开源 Codex Security 命令行工具",
+  "summary": "OpenAI 开源了 Codex Security，这是一个利用大语言模型扫描代码仓库漏洞的命令行界面（CLI）工具。该工具现已在 GitHub 上以开源许可方式提供。 此举使得更广泛的开发者能够使用先进的 AI 驱动安全扫描工具，可能降低将基于 LLM 的漏洞检测集成到 CI/CD 流程的门槛。同时，社区可以审查并改进该工具，促进了 AI 安全应用的透明度。 该工具使用自然语言技能定义来指导 LLM 识别漏洞，这些定义已在仓库中公开。然而，早期用户反映资源消耗高，扫描小型仓库耗时近一小时，并消耗大量 API 用量。",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "Codex",
+    "Security",
+    "Open Source",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bakigul",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49089755"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/codex-security",
+  "originalSite": "github.com",
+  "context": "Codex Security 此前作为 OpenAI Codex 产品（一个 AI 编程代理）的研究预览版提供。该工具分析项目上下文、检测漏洞、在隔离环境中验证并建议修复。OpenAI 将其开源的决定反映了 AI 安全工具民主化的趋势。",
+  "discussion": "社区评论反应不一：一些用户认为技能定义是有价值的提示，而另一些则对性能和成本表示不满——一位用户报告扫描消耗了其 Pro 计划周用量的一半。项目维护者承认了这些问题，并承诺快速改进。",
+  "references": [
+    {
+      "title": "OpenAI Codex (AI agent) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Codex_%28AI_agent%29"
+    },
+    {
+      "title": "Codex Security: now in research preview | OpenAI",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview/"
+    },
+    {
+      "title": "Codex Security | OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/20001107-codex-security"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

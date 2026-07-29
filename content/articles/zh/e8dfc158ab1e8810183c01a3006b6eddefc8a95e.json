@@ -1,0 +1,44 @@
+{
+  "id": "e8dfc158ab1e8810183c01a3006b6eddefc8a95e",
+  "canonicalId": "3f4f767ac83ee40ca65f0d154f55e8918c947404",
+  "slug": "neurips-提示注入误触发伦理审查",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T17:28:00Z",
+  "lang": "zh",
+  "title": "NeurIPS 提示注入误触发伦理审查",
+  "summary": "NeurIPS 使用提示注入技术来检测 LLM 生成的审稿意见，但未被告知这一操作的伦理评审员因此对会议自身行为提出了伦理关切。 这一事件凸显了在保护同行评审诚信时，使用自动化方法与保持透明度之间的张力，若处理不当可能损害评审流程的信任基础。 伦理评审员未被提前告知提示注入的存在，从而将其误判为伦理违规；此事暴露了在管理 AI 驱动的评审措施时存在程序漏洞。",
+  "score": 8,
+  "tags": [
+    "prompt injection",
+    "AI ethics",
+    "NeurIPS",
+    "peer review",
+    "conference security"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/dontknowwhattoplay"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v955f6/neuripsside_prompt_injection_triggering_ethics/",
+  "originalSite": "reddit.com",
+  "context": "提示注入是一种在文本中嵌入隐藏指令以操控大语言模型行为的技术；在同行评审中，它既被用于检测 LLM 撰写的审稿意见，也被尝试用于影响评分。LLM 作为审稿人的使用日益受到公平性和鲁棒性方面的审视，NeurIPS 等会议正在探索检测方法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "When Your Reviewer is an LLM: Biases, Divergence, and Prompt ...",
+      "url": "https://arxiv.org/html/2509.09912v1"
+    },
+    {
+      "title": "Prompt Injection Attacks on LLM Generated Reviews of ...",
+      "url": "https://arxiv.org/html/2509.10248v3"
+    },
+    {
+      "title": "Detecting LLM-generated peer reviews | PLOS One",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331871"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

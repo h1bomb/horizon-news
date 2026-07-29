@@ -1,0 +1,39 @@
+{
+  "id": "f9f1cdeca784718783ed648118f8b573aee5da29",
+  "canonicalId": "58da6fbc3247db9ee4cc3531532b24e1bae07042",
+  "slug": "neurips-审稿人对-llm-生成的论文和反驳感到沮丧",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T14:52:00Z",
+  "lang": "zh",
+  "title": "NeurIPS 审稿人对 LLM 生成的论文和反驳感到沮丧",
+  "summary": "一位 NeurIPS 2026 的审稿人报告称，一篇提交的论文及其反驳似乎完全由 LLM（很可能是 Claude）生成，其标志性的“Claude 腔”写作风格非常明显。 这一事件凸显了顶级机器学习会议面临的伦理挑战：LLM 生成的内容可能破坏同行评审的公正性，并贬低真正的研究贡献。 审稿人指出，LLM 的写作风格难以理解，且尽管作者承认使用了 AI 辅助，但他们仍缺乏认真对待反驳的动力。",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "academic integrity",
+    "peer review",
+    "LLM-generated content"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/gateofptolemy"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
+  "originalSite": "reddit.com",
+  "context": "像 Claude 这样的 LLM 能够生成连贯的学术文本，使得检测十分困难。关于 LLM 生成文本的检测研究正在进行中，但跨 LLM 的检测仍然不可靠，因此审稿人必须依赖风格提示和个人判断。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Claude Skills That Finally Made AI Write Like Me (And How ...",
+      "url": "https://aiblewmymind.substack.com/p/claude-skills-ai-write-like-you"
+    },
+    {
+      "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods ...",
+      "url": "https://aclanthology.org/2025.cl-1.8.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "0dd47247c40583be2d7e90acfe891343f7bd59fc",
+  "canonicalId": "df6c16550d6d347161ba0d4ef132d636c404b440",
+  "slug": "anthropic-的-claude-发现加密弱点",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T17:22:00Z",
+  "lang": "zh",
+  "title": "Anthropic 的 Claude 发现加密弱点",
+  "summary": "Anthropic 的研究人员使用 AI 模型 Claude 自主发现了 AES 和后量子签名方案 HAWK 中的加密弱点，每次攻击花费约 10 万美元的 API 费用。 这表明 AI 可以显著辅助密码分析，可能加速发现广泛使用的加密标准中的漏洞，对网络安全和密码学研究产生重大影响。 对 HAWK 的攻击在 60 小时内将其安全强度减半，而对 AES 的攻击针对的是简化轮数版本；两次攻击均由 Claude 自主开发，人类指导极少。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "cryptography",
+    "cybersecurity",
+    "Claude",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gslin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49087091"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+  "originalSite": "anthropic.com",
+  "context": "AES 是全球使用的对称加密标准，而 HAWK 是基于格的后量子数字签名方案，正在参与 NIST 的后量子密码标准化。AI 驱动的密码分析利用机器学习发现经典方法可能遗漏的弱点，可能降低发现漏洞的门槛。",
+  "discussion": "社区强调了高昂的 API 成本，并推测内部 TPS 速率高于公共端点。一些人对国家安全影响表示担忧，而另一些人则讨论了提示工程与自主发现的有效性。",
+  "references": [
+    {
+      "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+    },
+    {
+      "title": "Anthropic&#x27;s Claude Mythos found a hidden flaw in HAWK before ...",
+      "url": "https://startupfortune.com/anthropics-claude-mythos-found-a-hidden-flaw-in-hawk-before-it-could-become-a-global-encryption-standard/"
+    },
+    {
+      "title": "Hawk",
+      "url": "https://hawk-sign.info/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

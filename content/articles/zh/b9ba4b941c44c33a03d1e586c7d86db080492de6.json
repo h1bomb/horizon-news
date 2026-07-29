@@ -1,0 +1,40 @@
+{
+  "id": "b9ba4b941c44c33a03d1e586c7d86db080492de6",
+  "canonicalId": "a00e8e31260134d96167bdbabe52726b6b618b09",
+  "slug": "neurips-2026-人工智能生成评审引发诚信争议",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T11:34:00Z",
+  "lang": "zh",
+  "title": "NeurIPS 2026 人工智能生成评审引发诚信争议",
+  "summary": "一位 Reddit 用户对 NeurIPS 2026 会议上的人工智能生成的同行评审表示担忧，其中包括一次提示注入实验，并呼吁对审稿过程中滥用大型语言模型的行为予以追责。 此问题威胁到顶级机器学习会议同行评审的诚信，可能削弱对已发表研究和评审系统本身的信任。 该帖子提到，一些评审甚至元评审似乎是从大型语言模型中直接复制粘贴而来，并未经过真正阅读，同时使用提示注入作为一种研究来突出这一问题。",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "peer review",
+    "NeurIPS",
+    "LLM",
+    "academic integrity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/bricklerex"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/",
+  "originalSite": "reddit.com",
+  "context": "提示注入是一种网络安全漏洞，精心设计的输入会导致大型语言模型产生意外行为，常被用于探测或操控人工智能系统。人工智能生成的同行评审正成为一个日益令人担忧的问题，研究人员提出了水印等检测方法来维护学术诚信。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    },
+    {
+      "title": "Detecting AI - Generated Peer Reviews : A Step Toward Trustworthy...",
+      "url": "https://www.linkedin.com/pulse/detecting-ai-generated-peer-reviews-step-toward-science-afeefa-batool-tg8pf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

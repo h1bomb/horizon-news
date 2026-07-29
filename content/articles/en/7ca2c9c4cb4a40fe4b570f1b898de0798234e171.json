@@ -1,0 +1,40 @@
+{
+  "id": "7ca2c9c4cb4a40fe4b570f1b898de0798234e171",
+  "canonicalId": "d38c097729e6af9e40e080199808958a64dad4c6",
+  "slug": "moonshot-ai-releases-28t-parameter-kimi-k3-weights",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-27T23:39:00Z",
+  "lang": "en",
+  "title": "Moonshot AI Releases 2.8T Parameter Kimi K3 Weights",
+  "summary": "Moonshot AI released the open weights for their 2.8 trillion parameter Kimi K3 model under a modified MIT license with commercial attribution thresholds. This release signifies a major milestone in open-weight AI, as Kimi K3 is one of the largest models ever made available, but its novel licensing conditions could set a precedent for how large AI models are shared commercially. The K3 license no longer calls itself modified MIT and requires a separate agreement with Moonshot for large Model-as-a-Service businesses exceeding $20M annual revenue.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "open-source",
+    "large language model",
+    "weight release",
+    "licensing"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "The MIT License is a permissive open-source license allowing nearly unrestricted use with only attribution. Moonshot AI previously used a modified MIT license for Kimi K2 that required displaying the model name for large commercial deployments. The K3 license tightens these terms specifically for MaaS providers.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Commercial Use Requirements | MoonshotAI/Kimi-K2.5 | DeepWiki",
+      "url": "https://deepwiki.com/MoonshotAI/Kimi-K2.5/4.2-commercial-use-requirements"
+    },
+    {
+      "title": "AI Model Licensing: Legal Rules for Open-Source Attribution",
+      "url": "https://www.recordinglaw.com/ai-open-source-model-licensing-legal-guide/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

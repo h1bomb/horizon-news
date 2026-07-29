@@ -1,0 +1,41 @@
+{
+  "id": "6f6871341e6d7e2c8cd125d092ca4e2b4a9b6a44",
+  "canonicalId": "6711b1606164f2477b1e4c0766faaeee1a9b7491",
+  "slug": "kimi-linear-a-hybrid-attention-architecture-outperforming-full-attention",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T10:52:00Z",
+  "lang": "en",
+  "title": "Kimi Linear: A Hybrid Attention Architecture Outperforming Full Attention",
+  "summary": "Researchers introduce Kimi Linear, a hybrid linear attention architecture that outperforms full attention across short-context, long-context, and reinforcement learning scaling regimes. It has been open-sourced and successfully integrated into the Kimi K3 production model. This represents a meaningful advance in attention architectures, achieving both expressivity and efficiency, and is validated by direct application in a large-scale production model. The open-source release allows the broader research community to build upon it. Kimi Linear combines the structural expressivity of full attention with the speed of linear attention mechanisms. The architecture is open-sourced under the MIT license, with implementations including KDA kernel and vLLM, plus pre-trained and instruction-tuned model checkpoints available on Hugging Face.",
+  "score": 9,
+  "tags": [
+    "attention architecture",
+    "NLP",
+    "open-source",
+    "efficiency",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ronfriedhaber",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49082022"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2510.26692",
+  "originalSite": "arxiv.org",
+  "context": "Traditional transformer models use full attention, which scales quadratically with sequence length, making long-context processing expensive. Linear attention mechanisms aim to reduce this complexity but often sacrifice expressivity. Kimi Linear is a hybrid approach that achieves the best of both worlds, and it has been successfully scaled to the 2.8-trillion-parameter Kimi K3 model.",
+  "discussion": "The community is largely positive, praising the open-source release and practical application. Some commenters note that Kimi Linear is the basis for Kimi K3 and compare it favorably to related advances like Gated Deltanet 2. There is also discussion about emergent intelligence in scaled models, though not directly about Kimi Linear.",
+  "references": [
+    {
+      "title": "Kimi Linear : An Expressive, Efficient Attention Architecture",
+      "url": "https://arxiv.org/pdf/2510.26692"
+    },
+    {
+      "title": "Kimi Linear Hybrid Attention Architecture",
+      "url": "https://lzwjava.github.io/kimi-linear-hybrid-attention-en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

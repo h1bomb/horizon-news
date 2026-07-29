@@ -1,0 +1,40 @@
+{
+  "id": "f7103c0a868c4e5ab7145de1401aba1d4841f1f5",
+  "canonicalId": "b8fee84e4049d89bc0989c9b5dc8e679985112d7",
+  "slug": "gccrs-在编译-linux-内核方面取得进展",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T17:40:00Z",
+  "lang": "zh",
+  "title": "gccrs 在编译 Linux 内核方面取得进展",
+  "summary": "2026 年上半年，gccrs 项目在编译 Linux 内核方面取得了显著进展，解决了属性处理、名称解析和资源管理中的问题，并将里程碑重新组织为三个基于能力的阶段。 基于 GCC 的 Rust 编译器对于 LLVM 不支持的架构以及集成 GCC 的插件生态系统至关重要，随着 Linux 内核 Rust 集成的成熟，它提供了工具链的灵活性。 团队将工作重新组织为三个里程碑：嵌入式 Rust 编译器（no\\_std）、面向 Linux 的 Rust 编译器（支持 alloc 和内核 crate）以及通用编译器；目前仅能编译简单的独立程序，但预计将快速进展。",
+  "score": 8,
+  "tags": [
+    "gccrs",
+    "Rust",
+    "GCC",
+    "Linux kernel",
+    "compiler"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1083202/",
+  "originalSite": "lwn.net",
+  "context": "gccrs 是一个为 GCC 编译器创建替代 Rust 前端并力争完全上游的项目。Linux 内核已开始使用 Rust，但目前需要基于 LLVM 的 rustc 编译器；为了支持更广泛的架构和插件兼容性，需要一个基于 GCC 的替代方案。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - Rust-GCC/gccrs: GCC Front-End for Rust · GitHub",
+      "url": "https://github.com/Rust-GCC/gccrs"
+    },
+    {
+      "title": "gccrs: An alternative compiler for Rust | Rust Blog",
+      "url": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

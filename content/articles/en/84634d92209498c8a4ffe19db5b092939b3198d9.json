@@ -1,0 +1,40 @@
+{
+  "id": "84634d92209498c8a4ffe19db5b092939b3198d9",
+  "canonicalId": "a00e8e31260134d96167bdbabe52726b6b618b09",
+  "slug": "neurips-2026-ai-generated-reviews-spark-integrity-debate",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T11:34:00Z",
+  "lang": "en",
+  "title": "NeurIPS 2026 AI-Generated Reviews Spark Integrity Debate",
+  "summary": "A Reddit user raised concerns about AI-generated peer reviews at NeurIPS 2026, including a prompt injection experiment, and called for consequences against LLM misuse in the review process. This issue threatens the integrity of peer review at top machine learning conferences, potentially undermining trust in published research and the review system itself. The post mentions that some reviews and even meta-reviews appear to be directly copy-pasted from LLMs without genuine reading, and a prompt injection was used as a study to highlight the problem.",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "peer review",
+    "NeurIPS",
+    "LLM",
+    "academic integrity"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/bricklerex"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/",
+  "originalSite": "reddit.com",
+  "context": "Prompt injection is a cybersecurity exploit where carefully crafted inputs cause LLMs to behave unintentionally, often used to probe or manipulate AI systems. AI-generated peer reviews have become a growing concern, with researchers proposing detection methods like watermarking to preserve academic integrity.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Prompt injection attack",
+      "url": "https://en.wikipedia.org/wiki/Prompt_injection_attack"
+    },
+    {
+      "title": "Detecting AI - Generated Peer Reviews : A Step Toward Trustworthy...",
+      "url": "https://www.linkedin.com/pulse/detecting-ai-generated-peer-reviews-step-toward-science-afeefa-batool-tg8pf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

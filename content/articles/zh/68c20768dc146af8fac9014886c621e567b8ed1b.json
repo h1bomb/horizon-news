@@ -1,0 +1,41 @@
+{
+  "id": "68c20768dc146af8fac9014886c621e567b8ed1b",
+  "canonicalId": "6711b1606164f2477b1e4c0766faaeee1a9b7491",
+  "slug": "kimi-linear一种超越全注意力的混合注意力架构",
+  "date": "2026-07-28",
+  "publishedAt": "2026-07-28T10:52:00Z",
+  "lang": "zh",
+  "title": "Kimi Linear：一种超越全注意力的混合注意力架构",
+  "summary": "研究人员提出了 Kimi Linear，一种混合线性注意力架构，在短上下文、长上下文和强化学习扩展场景下均优于全注意力。该架构已开源并成功集成到 Kimi K3 生产模型中。 这代表了注意力架构的重要进步，同时实现了表达力和效率，并通过在大规模生产模型中的直接应用得到了验证。开源发布使得更广泛的研究社区能够在此基础上进行开发。 Kimi Linear 结合了全注意力的结构表达力和线性注意力机制的速度。该架构采用 MIT 许可证开源，提供了包括 KDA 内核和 vLLM 的实现，以及在 Hugging Face 上可用的预训练和指令微调模型检查点。",
+  "score": 9,
+  "tags": [
+    "attention architecture",
+    "NLP",
+    "open-source",
+    "efficiency",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ronfriedhaber",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49082022"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2510.26692",
+  "originalSite": "arxiv.org",
+  "context": "传统 Transformer 模型使用全注意力，其计算复杂度与序列长度呈二次方关系，导致长上下文处理成本高昂。线性注意力机制旨在降低这种复杂度，但往往牺牲表达力。Kimi Linear 是一种混合方法，实现了两全其美，并已成功扩展到 2.8 万亿参数的 Kimi K3 模型。",
+  "discussion": "社区总体持积极态度，赞扬开源发布和实际应用。一些评论者指出 Kimi Linear 是 Kimi K3 的基础，并将其与类似进展如 Gated Deltanet 2 进行正面比较。还有关于规模化模型中涌现智能的讨论，但并非直接针对 Kimi Linear。",
+  "references": [
+    {
+      "title": "Kimi Linear : An Expressive, Efficient Attention Architecture",
+      "url": "https://arxiv.org/pdf/2510.26692"
+    },
+    {
+      "title": "Kimi Linear Hybrid Attention Architecture",
+      "url": "https://lzwjava.github.io/kimi-linear-hybrid-attention-en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
