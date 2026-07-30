@@ -1,0 +1,43 @@
+{
+  "id": "a2945bf0d58010459f0ab01d93c158f0e60fc8b5",
+  "canonicalId": "cb633e0eeb2dca82611ee907c5c9c81271345e72",
+  "slug": "密码学家格林ai-在后量子过渡中的时机",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T18:18:00Z",
+  "lang": "zh",
+  "title": "密码学家格林：AI 在后量子过渡中的时机",
+  "summary": "马修·格林强调，当前从传统公钥算法向后量子算法的迁移为 AI 推进密码分析创造了绝佳窗口，可能增强对新密码问题的信心。 这一历史性的密码学转型与新兴 AI 能力的交汇可能重塑安全标准和对后量子算法的验证，影响全球未来的加密实践。 格林提到 HAWK 签名方案作为新标准的例子，并指出 AI 可能破坏困难问题或生活在 Impagliazzo 的 Minicrypt 世界中。",
+  "score": 8,
+  "tags": [
+    "cryptography",
+    "post-quantum",
+    "AI",
+    "cryptanalysis"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "后量子密码学（PQC）指能够抵抗量子计算机攻击的算法。这一转型源于需要替换 RSA 和椭圆曲线密码系统。Impagliazzo 的五世界分类了密码学可能性；Minicrypt 意味着存在单向函数但没有公钥密码学。AI 在密码分析中的作用可帮助验证新 PQC 方案的安全性。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Computational Complexity: Impagliazzo&#x27;s Five Worlds",
+      "url": "https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html"
+    },
+    {
+      "title": "Post - Quantum HAWK Signature Acceleration with... | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/11433250"
+    },
+    {
+      "title": "Claude has identified theoretical vulnerabilities in post - quantum ...",
+      "url": "https://theunum.io/en/news/read/claude-has-identified-theoretical-vulnerabilities-in-post-quantum-encryption-algorithms"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

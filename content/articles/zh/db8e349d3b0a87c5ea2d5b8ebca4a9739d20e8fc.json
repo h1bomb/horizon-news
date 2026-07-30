@@ -1,0 +1,44 @@
+{
+  "id": "db8e349d3b0a87c5ea2d5b8ebca4a9739d20e8fc",
+  "canonicalId": "9c0393ea2af2791cbbbbe4c987553854aaf730b3",
+  "slug": "通过-ncnn-vulkan-实现边缘设备上的厂商无关机器学习推理",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T10:22:00Z",
+  "lang": "zh",
+  "title": "通过 ncnn Vulkan 实现边缘设备上的厂商无关机器学习推理",
+  "summary": "作者展示了使用 ncnn 的 Vulkan 后端在生产边缘设备上实现与厂商无关的机器学习推理，在 NVIDIA 4070 上对人脸嵌入和检测模型实现了比 ONNX CPU 推理快 10 倍的加速。 这种方法消除了厂商锁定和用户安装专有运行时的需要，使 GPU 加速的机器学习推理在边缘设备的多种硬件（NVIDIA、AMD、Intel、Apple Silicon）上变得实用。 在 RTX 4070 上，ArcFace R50 从 30 毫秒（ONNX CPU）降至 3 毫秒（ncnn Vulkan），SCRFD 人脸检测从 25 毫秒降至 2.5 毫秒。模型大小也从 174 MB（ONNX fp32）减半至 87 MB（ncnn fp16 权重存储）。",
+  "score": 8,
+  "tags": [
+    "machine-learning",
+    "inference",
+    "vulkan",
+    "edge-devices",
+    "cross-platform"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/ppchaos"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1v9s4mz/vendoragnostic_ml_inference_on_production_edge/",
+  "originalSite": "reddit.com",
+  "context": "ncnn 是一个为移动、嵌入式和桌面平台优化的高性能神经网络推理框架，无第三方运行时依赖。Vulkan 是一个跨平台 GPU API，提供跨厂商的统一计算接口，无需供应商特定代码即可实现 GPU 加速。两者结合使开发者能够在任何 GPU 上运行机器学习模型，而无需强制用户安装额外运行时。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform · GitHub",
+      "url": "https://github.com/Tencent/ncnn"
+    },
+    {
+      "title": "ncnn download | SourceForge.net",
+      "url": "https://sourceforge.net/projects/ncnn.mirror/"
+    },
+    {
+      "title": "ncnn · PyPI",
+      "url": "https://pypi.org/project/ncnn/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

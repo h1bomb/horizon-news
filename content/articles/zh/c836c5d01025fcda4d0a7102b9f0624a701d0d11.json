@@ -1,0 +1,45 @@
+{
+  "id": "c836c5d01025fcda4d0a7102b9f0624a701d0d11",
+  "canonicalId": "a02c8e7a55b5942b9c762cd229ce44a417625e8b",
+  "slug": "handbookmd-基准显示-llm-代理无法可靠遵循长政策",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T13:01:00Z",
+  "lang": "zh",
+  "title": "Handbook.md 基准显示 LLM 代理无法可靠遵循长政策",
+  "summary": "一篇新论文《HANDBOOK.md》提出了一个基于真实员工手册的 65 项任务基准，发现 LLM 代理无法可靠地遵循长政策文档，且性能随上下文长度增加而下降。 这一发现凸显了在客服、编程助手等真实场景中部署 LLM 代理时的关键可靠性缺口——遵循冗长政策指令至关重要；它挑战了长上下文模型在代理任务中的实际效用。 该基准使用真实员工手册创建了 65 项任务，代理一致地忽略或误解政策，准确率随文档变长而急剧下降；论文证实了已知的长上下文限制，如 KV 缓存瓶颈和不良采样。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "long-context",
+    "AI agents",
+    "policy",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "spIrr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49096969"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2607.25398",
+  "originalSite": "arxiv.org",
+  "context": "长上下文 LLM 声称支持数百万 token，但研究表明它们实际仅有效利用上下文的 10-20%，尤其在复杂任务中。“大海捞针”问题持续存在：模型难以从长文本中定位并应用相关信息。本文测试了一个实际的代理场景——代理必须在执行任务时遵循手册规则，揭示即使最先进的模型也无法可靠做到。",
+  "discussion": "评论者普遍认同这些发现。一位用户指出，即使 CLAUDE.md 中有明确指令，Claude 在持续交互后也会忽略它们，暗示存在实际的“遗忘”效应。另一人认为，代理 AI 需要针对领域特定数据进行大量强化学习后训练，否则长上下文遵循就会失败。讨论反映了共识：长上下文可靠性仍是一个未解决的主要问题。",
+  "references": [
+    {
+      "title": "[2607.25398] HANDBOOK . md : A Benchmark for Long-Context Agentic...",
+      "url": "https://arxiv.org/abs/2607.25398"
+    },
+    {
+      "title": "Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack",
+      "url": "https://neurips.cc/virtual/2024/poster/97462"
+    },
+    {
+      "title": "HANDBOOK . md — Surge AI benchmark keeps frontier... | AI/TLDR",
+      "url": "https://ai-tldr.dev/releases/surge-ai-handbook-benchmark/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "e44dc37fbbf5a1afee7735427ca6f1a6f12c3750",
+  "canonicalId": "97854c7d008de2a91cf65ec609dc92b5342bf9ab",
+  "slug": "turbofieldfare-run-gemma-4-26b-on-m-series-mac-with-2gb-ram",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T15:05:00Z",
+  "lang": "en",
+  "title": "TurboFieldfare: Run Gemma 4 26B on M-series Mac with 2GB RAM",
+  "summary": "TurboFieldfare is an open-source inference engine written in Swift and Metal that runs a 4-bit quantized Gemma 4 26B-A4B-IT model on M-series Macs using only about 2GB of RAM, by streaming Mixture-of-Experts weights from SSD. It achieves 5–6 tok/s on an 8GB M2 MacBook Air and 31–35 tok/s on an M5 MacBook Pro. This innovation makes powerful large language models accessible on consumer hardware without expensive memory upgrades, potentially democratizing on-device AI for Mac users. It also demonstrates a practical approach to SSD offloading for MoE models, which could influence future inference engine design. The model&\\#x27;s 4-bit quantized weights occupy roughly 14GB, but TurboFieldfare keeps only shared layers and KV cache in RAM while streaming routed experts from SSD using bounded parallel pread and a small expert cache. The engine includes an experimental OpenAI-compatible local server with streaming and tool call support.",
+  "score": 8,
+  "tags": [
+    "inference engine",
+    "on-device AI",
+    "Gemma",
+    "model optimization",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gitpusher42",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49098510"
+    }
+  ],
+  "originalUrl": "https://github.com/drumih/turbo-fieldfare",
+  "originalSite": "github.com",
+  "context": "Gemma 4 26B is a Mixture-of-Experts \\(MoE\\) model where only a subset of parameters \\(experts\\) are activated per token, making it more efficient than dense models. 4-bit quantization compresses model weights to reduce memory footprint, while SSD offloading stores rarely used weights on disk and loads them on demand. These techniques together allow running models that would otherwise require far more RAM.",
+  "discussion": "Community members noted similarities to llama.cpp&\\#x27;s mmap approach but praised TurboFieldfare&\\#x27;s expert-specific SSD streaming optimization. One user reported successful compilation on M1 MBA with a minor code tweak, achieving similar speed. Another developer expressed interest in collaborating on a DiffusionGemma project, suggesting potential synergy.",
+  "references": [
+    {
+      "title": "What Is Mixture of Experts ( MoE )? How It Works, Use... | DataCamp",
+      "url": "https://www.datacamp.com/blog/mixture-of-experts-moe"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "SSD Offloading for LLM Mixture-of-Experts Weights Considered...",
+      "url": "https://arxiv.org/pdf/2508.06978"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

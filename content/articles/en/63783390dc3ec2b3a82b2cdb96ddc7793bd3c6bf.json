@@ -1,0 +1,45 @@
+{
+  "id": "63783390dc3ec2b3a82b2cdb96ddc7793bd3c6bf",
+  "canonicalId": "fb768030d745cb9c71fbfcfb764eb8e5a36e57d2",
+  "slug": "mitchell-hashimoto-announces-superlogical",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T15:41:00Z",
+  "lang": "en",
+  "title": "Mitchell Hashimoto Announces Superlogical",
+  "summary": "Mitchell Hashimoto, creator of Ghostty, has announced Superlogical, a new company that will build on the open source libghostty library, after transferring ownership of Ghostty to a non-profit organization. This move sets an exemplary model for open source sustainability, where the core project is owned by a non-profit while a commercial entity builds proprietary products on top of the same open source foundation, ensuring community benefit and commercial viability. Superlogical will consume the same MIT-licensed libghostty components available to everyone else and plans to upstream shared terminal improvements. The company aims to build terminal applications using libghostty as a public building block.",
+  "score": 8,
+  "tags": [
+    "open source",
+    "terminal",
+    "software engineering",
+    "ghostty",
+    "mitchell hashimoto"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "yan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49098965"
+    }
+  ],
+  "originalUrl": "https://www.superlogical.com/",
+  "originalSite": "superlogical.com",
+  "context": "Ghostty is a fast, feature-rich, cross-platform terminal emulator using platform-native UI and GPU acceleration. libghostty is an embeddable C-compatible library that allows any application to integrate a full Ghostty terminal emulator. By transferring Ghostty to a non-profit, Hashimoto ensures the core remains community-governed.",
+  "discussion": "The community largely praised the open source licensing and architecture, with user simonw highlighting the model of building a company on an open source dependency owned by a non-profit. Some commenters, like rixed, criticized the enigmatic title, while others drew parallels to OLE/COM or shared related projects.",
+  "references": [
+    {
+      "title": "Ghostty",
+      "url": "https://ghostty.org/"
+    },
+    {
+      "title": "GitHub - ghostty-org/ghostty: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "url": "https://github.com/ghostty-org/ghostty"
+    },
+    {
+      "title": "Libghostty Is Coming - Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/libghostty-is-coming"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

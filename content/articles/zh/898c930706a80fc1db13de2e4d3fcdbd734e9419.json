@@ -1,0 +1,44 @@
+{
+  "id": "898c930706a80fc1db13de2e4d3fcdbd734e9419",
+  "canonicalId": "2a58c8ebd3b148b600ee93e6c5cf08b4484453b4",
+  "slug": "报告hugging-face-被滥用于生成深度伪造裸照",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T08:20:00Z",
+  "lang": "zh",
+  "title": "报告：Hugging Face 被滥用于生成深度伪造裸照",
+  "summary": "欧洲非营利组织 AI Forensics 于 7 月 28 日发布报告，指出开源模型托管平台 Hugging Face 正被广泛用于制作非自愿深度伪造裸照，且平台防护措施严重不足。 这凸显了 AI 模型托管平台在伦理和安全方面的严重缺陷，可能影响数百万用户，并促使对深度伪造内容审核实施更严格的监管。 报告设置的蜜罐在 7 天内收到超过 1000 条请求，其中 73% 涉及性内容，近 7% 针对儿童。排名前九的图像编辑模型中有七个能轻易按简单提示为女性“脱衣”。",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "deepfake",
+    "platform safety",
+    "content moderation",
+    "Hugging Face"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+  "originalSite": "theverge.com",
+  "context": "Hugging Face 是一个流行的机器学习模型托管与分享平台，包括图像生成模型。深度伪造技术利用 AI 生成逼真的虚假图像或视频。蜜罐是设置的诱饵系统，用于吸引和监控恶意活动。提示词过滤和输出扫描是阻止有害内容生成的常见安全措施。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "《网络 空 间 欺骗：构筑欺骗防御的科学基石》一2.2.1 基于Honey...",
+      "url": "https://developer.aliyun.com/article/214627"
+    },
+    {
+      "title": "防护规则模板-Web应用防火墙(WAF) - 阿里云帮助文档",
+      "url": "https://help.aliyun.com/zh/waf/web-application-firewall-3-0/user-guide/cue-word-attack-protection"
+    },
+    {
+      "title": "【突破性研究】通过提示词重写越狱文本到视频系统：语义保留攻击揭示模型安全过滤器脆弱性_牛喀网-具身智能开发者生态",
+      "url": "https://i-newcar.com/index.php?m=home&amp;c=View&amp;a=index&amp;aid=4575"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

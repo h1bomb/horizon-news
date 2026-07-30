@@ -1,0 +1,44 @@
+{
+  "id": "51f6331b12b71a01c49384a1a39ff056698fec40",
+  "canonicalId": "2a58c8ebd3b148b600ee93e6c5cf08b4484453b4",
+  "slug": "hugging-face-widely-used-for-deepfake-nudes-report",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T08:20:00Z",
+  "lang": "en",
+  "title": "Hugging Face Widely Used for Deepfake Nudes: Report",
+  "summary": "A report by European nonprofit AI Forensics, released on July 28, finds that Hugging Face, a major open-source model hosting platform, is extensively used to generate non-consensual deepfake nude images, with minimal safeguards in place. This highlights serious ethical and security flaws in AI model hosting platforms, potentially affecting millions of users and prompting stricter regulations on deepfake content moderation. The report set up honeypots that received over 1,000 requests in seven days, with 73% involving sexual content and nearly 7% targeting children. Among the top nine image-editing models, seven could easily undress women with simple prompts.",
+  "score": 8,
+  "tags": [
+    "AI ethics",
+    "deepfake",
+    "platform safety",
+    "content moderation",
+    "Hugging Face"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+  "originalSite": "theverge.com",
+  "context": "Hugging Face is a popular platform for hosting and sharing machine learning models, including image generation models. Deepfake technology uses AI to create realistic but fake images or videos. Honeypots are decoy systems set up to attract and monitor malicious activity. Prompt filtering and output scanning are common safety measures to block harmful content generation.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "《网络 空 间 欺骗：构筑欺骗防御的科学基石》一2.2.1 基于Honey...",
+      "url": "https://developer.aliyun.com/article/214627"
+    },
+    {
+      "title": "防护规则模板-Web应用防火墙(WAF) - 阿里云帮助文档",
+      "url": "https://help.aliyun.com/zh/waf/web-application-firewall-3-0/user-guide/cue-word-attack-protection"
+    },
+    {
+      "title": "【突破性研究】通过提示词重写越狱文本到视频系统：语义保留攻击揭示模型安全过滤器脆弱性_牛喀网-具身智能开发者生态",
+      "url": "https://i-newcar.com/index.php?m=home&amp;c=View&amp;a=index&amp;aid=4575"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

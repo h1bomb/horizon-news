@@ -1,0 +1,43 @@
+{
+  "id": "283104b2655b26624a69f6fb22c501e0d635a868",
+  "canonicalId": "cb633e0eeb2dca82611ee907c5c9c81271345e72",
+  "slug": "cryptographer-green-aix27s-moment-in-post-quantum-transition",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T18:18:00Z",
+  "lang": "en",
+  "title": "Cryptographer Green: AI&\\#x27;s moment in post-quantum transition",
+  "summary": "Matthew Green highlights that the ongoing migration from traditional public-key algorithms to post-quantum algorithms creates a perfect window for AI to advance cryptanalysis, potentially strengthening confidence in new cryptographic problems. This intersection of a historic cryptographic transition and emerging AI capabilities could reshape security standards and validation of post-quantum algorithms, affecting future encryption practices globally. Green references the HAWK signature scheme as an example of new standards, and notes the possibility of AI undermining hard problems or living in Impagliazzo&\\#x27;s Minicrypt world.",
+  "score": 8,
+  "tags": [
+    "cryptography",
+    "post-quantum",
+    "AI",
+    "cryptanalysis"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+  "originalSite": "simonwillison.net",
+  "context": "Post-quantum cryptography \\(PQC\\) refers to algorithms resistant to quantum computer attacks. The transition is driven by the need to replace RSA and elliptic-curve cryptosystems. Impagliazzo&\\#x27;s Five Worlds classify cryptographic possibilities; Minicrypt implies one-way functions exist but no public-key cryptography. AI&\\#x27;s role in cryptanalysis could help verify the security of new PQC schemes.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Computational Complexity: Impagliazzo&#x27;s Five Worlds",
+      "url": "https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html"
+    },
+    {
+      "title": "Post - Quantum HAWK Signature Acceleration with... | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/11433250"
+    },
+    {
+      "title": "Claude has identified theoretical vulnerabilities in post - quantum ...",
+      "url": "https://theunum.io/en/news/read/claude-has-identified-theoretical-vulnerabilities-in-post-quantum-encryption-algorithms"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

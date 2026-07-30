@@ -1,0 +1,45 @@
+{
+  "id": "0b09936ff2bb3a1c2141871f59f8e534b36c371c",
+  "canonicalId": "a02c8e7a55b5942b9c762cd229ce44a417625e8b",
+  "slug": "handbookmd-benchmark-reveals-llm-agents-fail-on-long-policies",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T13:01:00Z",
+  "lang": "en",
+  "title": "Handbook.md Benchmark Reveals LLM Agents Fail on Long Policies",
+  "summary": "A new paper, &\\#x27;HANDBOOK.md,&\\#x27; introduces a benchmark of 65 tasks derived from real employee handbooks and finds that LLM agents fail to reliably follow long policy documents, with performance declining as context length increases. This finding underscores a critical reliability gap for LLM agents deployed in real-world scenarios like customer service and coding assistants, where adhering to lengthy policy instructions is essential; it challenges the practical utility of long-context models for agentic tasks. The benchmark uses real employee handbooks to create 65 tasks, and agents consistently ignore or misinterpret policies, with accuracy dropping sharply as documents grow longer; the paper corroborates known long-context limitations, such as the KV cache bottleneck and poor sampling.",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "long-context",
+    "AI agents",
+    "policy",
+    "benchmark"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "spIrr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49096969"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2607.25398",
+  "originalSite": "arxiv.org",
+  "context": "Long-context LLMs claim to support millions of tokens, but research shows they effectively use only 10-20% of the context, especially in complex tasks. The &\\#x27;needle in a haystack&\\#x27; problem persists: models struggle to locate and apply relevant information from long texts. This paper tests a practical agentic scenario where agents must follow a handbook&\\#x27;s rules while performing tasks, revealing that even state-of-the-art models cannot reliably do so.",
+  "discussion": "Commenters largely agree with the findings. One user notes that even with explicit instructions in CLAUDE.md, Claude ignores them after sustained interaction, suggesting a practical &\\#x27;forgetting&\\#x27; effect. Another argues that agentic AI requires extensive RL post-training on domain-specific data, and without it, long-context adherence fails. The discussion reflects a consensus that long-context reliability remains a major unsolved problem.",
+  "references": [
+    {
+      "title": "[2607.25398] HANDBOOK . md : A Benchmark for Long-Context Agentic...",
+      "url": "https://arxiv.org/abs/2607.25398"
+    },
+    {
+      "title": "Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack",
+      "url": "https://neurips.cc/virtual/2024/poster/97462"
+    },
+    {
+      "title": "HANDBOOK . md — Surge AI benchmark keeps frontier... | AI/TLDR",
+      "url": "https://ai-tldr.dev/releases/surge-ai-handbook-benchmark/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

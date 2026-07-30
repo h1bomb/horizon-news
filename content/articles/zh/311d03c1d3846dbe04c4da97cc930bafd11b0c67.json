@@ -1,0 +1,41 @@
+{
+  "id": "311d03c1d3846dbe04c4da97cc930bafd11b0c67",
+  "canonicalId": "c67f0599e5bd73268acbaeac57024b49a85291a7",
+  "slug": "kimi-k3-256k-模型半价同质",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T19:25:00Z",
+  "lang": "zh",
+  "title": "Kimi K3-256k 模型：半价同质",
+  "summary": "月之暗面发布了 K3-256k 模型，即 K3 模型的 256K 上下文版本，其配额成本仅为原始 1M 上下文版本的一半。 此次降价使高级编程辅助更加普及，推动了大型语言模型的商品化，并对 OpenAI 等竞争对手施加了压力。 K3-256k 在 256K 上下文内提供与完整 K3 相同的结果；此前，1M 上下文仅限高级套餐，而 256K 在 Moderato 套餐即可使用。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLM",
+    "cost-efficiency",
+    "coding assistant",
+    "context window"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "monneyboi",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49101852"
+    }
+  ],
+  "originalUrl": "https://www.kimi.com/code/docs/en/kimi-code/models",
+  "originalSite": "kimi.com",
+  "context": "Kimi K3 是一个 2.8 万亿参数的开源多模态推理模型，拥有 1M token 的上下文窗口，在编程和推理方面达到前沿性能。许多编程任务很少超过 200K 上下文，因此更便宜的 256K 版本对大多数用户来说很实用。",
+  "discussion": "用户对降价表示欢迎，评论指出 1M 上下文通常不必要，并称大语言模型正在迅速成为商品。有人表示个人习惯保持上下文在 200K 以下。",
+  "references": [
+    {
+      "title": "Model Configuration | Kimi Code Docs",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/models"
+    },
+    {
+      "title": "Kimi K3 - API Pricing &amp; Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/moonshotai/kimi-k3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

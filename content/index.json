@@ -1,6 +1,378 @@
 {
   "articles": [
     {
+      "id": "1faa795daa2427360f6484ad542cf8fa2f0f9a6d",
+      "canonicalId": "2823386c5716abd719526e02e90eedf715e74557",
+      "slug": "文档承载的-ai-蠕虫通过-word-版-copilot-自我传播",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "文档承载的 AI 蠕虫通过 Word 版 Copilot 自我传播",
+      "score": 9,
+      "tags": [
+        "AI security",
+        "LLM attacks",
+        "Copilot",
+        "adversarial attacks",
+        "software vulnerabilities"
+      ],
+      "originalSite": "enklypesalt.com"
+    },
+    {
+      "id": "4401d83c808964707ebc1b532338e29de34addaf",
+      "canonicalId": "97854c7d008de2a91cf65ec609dc92b5342bf9ab",
+      "slug": "turbofieldfare在-m-系列-mac-上仅用-2gb-内存运行-gemma-4-26b",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "TurboFieldfare：在 M 系列 Mac 上仅用 2GB 内存运行 Gemma 4 26B",
+      "score": 8,
+      "tags": [
+        "inference engine",
+        "on-device AI",
+        "Gemma",
+        "model optimization",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "00879f7c5666aa41504d64111b7e5a3b787c17df",
+      "canonicalId": "fb768030d745cb9c71fbfcfb764eb8e5a36e57d2",
+      "slug": "mitchell-hashimoto-宣布成立-superlogical",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "Mitchell Hashimoto 宣布成立 Superlogical",
+      "score": 8,
+      "tags": [
+        "open source",
+        "terminal",
+        "software engineering",
+        "ghostty",
+        "mitchell hashimoto"
+      ],
+      "originalSite": "superlogical.com"
+    },
+    {
+      "id": "311d03c1d3846dbe04c4da97cc930bafd11b0c67",
+      "canonicalId": "c67f0599e5bd73268acbaeac57024b49a85291a7",
+      "slug": "kimi-k3-256k-模型半价同质",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "Kimi K3-256k 模型：半价同质",
+      "score": 8,
+      "tags": [
+        "AI",
+        "LLM",
+        "cost-efficiency",
+        "coding assistant",
+        "context window"
+      ],
+      "originalSite": "kimi.com"
+    },
+    {
+      "id": "c836c5d01025fcda4d0a7102b9f0624a701d0d11",
+      "canonicalId": "a02c8e7a55b5942b9c762cd229ce44a417625e8b",
+      "slug": "handbookmd-基准显示-llm-代理无法可靠遵循长政策",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "Handbook.md 基准显示 LLM 代理无法可靠遵循长政策",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "long-context",
+        "AI agents",
+        "policy",
+        "benchmark"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "a2945bf0d58010459f0ab01d93c158f0e60fc8b5",
+      "canonicalId": "cb633e0eeb2dca82611ee907c5c9c81271345e72",
+      "slug": "密码学家格林ai-在后量子过渡中的时机",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "密码学家格林：AI 在后量子过渡中的时机",
+      "score": 8,
+      "tags": [
+        "cryptography",
+        "post-quantum",
+        "AI",
+        "cryptanalysis"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "3d98e3e85bee1f21cb2fd05a3719ba93ea8274f0",
+      "canonicalId": "fa442220645ed79cdd32722bfa79c6c8b8df3903",
+      "slug": "gcc-指导委员会通过-ai-贡献政策",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "GCC 指导委员会通过 AI 贡献政策",
+      "score": 8,
+      "tags": [
+        "GCC",
+        "AI policy",
+        "open source",
+        "compiler",
+        "LLM"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "db8e349d3b0a87c5ea2d5b8ebca4a9739d20e8fc",
+      "canonicalId": "9c0393ea2af2791cbbbbe4c987553854aaf730b3",
+      "slug": "通过-ncnn-vulkan-实现边缘设备上的厂商无关机器学习推理",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "通过 ncnn Vulkan 实现边缘设备上的厂商无关机器学习推理",
+      "score": 8,
+      "tags": [
+        "machine-learning",
+        "inference",
+        "vulkan",
+        "edge-devices",
+        "cross-platform"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "a56d3700831d746aea02efb6eec012a888535395",
+      "canonicalId": "7ea9afddfcd39c0beda266b4b18d583b7a79ae08",
+      "slug": "俄联邦安全局指控-telegram-创始人协助恐怖活动",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "俄联邦安全局指控 Telegram 创始人协助恐怖活动",
+      "score": 8,
+      "tags": [
+        "Telegram",
+        "Pavel Durov",
+        "Russia",
+        "cybersecurity",
+        "legal"
+      ],
+      "originalSite": "interfax.ru"
+    },
+    {
+      "id": "898c930706a80fc1db13de2e4d3fcdbd734e9419",
+      "canonicalId": "2a58c8ebd3b148b600ee93e6c5cf08b4484453b4",
+      "slug": "报告hugging-face-被滥用于生成深度伪造裸照",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "报告：Hugging Face 被滥用于生成深度伪造裸照",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "deepfake",
+        "platform safety",
+        "content moderation",
+        "Hugging Face"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "2ba69de67edca11b6c003603e26e95907573ec8c",
+      "canonicalId": "55a47ab47b276b4b92bd78b3634b7c746004f0aa",
+      "slug": "月之暗面融资-35-亿美元估值-350-亿美元kimi-k3-模型推动",
+      "date": "2026-07-29",
+      "lang": "zh",
+      "title": "月之暗面融资 35 亿美元，估值 350 亿美元，Kimi K3 模型推动",
+      "score": 8,
+      "tags": [
+        "AI",
+        "funding",
+        "Moonshot AI",
+        "Kimi K3",
+        "China AI"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "2f54a405b17ae609bc626b94bcdae2ea47f8ced1",
+      "canonicalId": "2823386c5716abd719526e02e90eedf715e74557",
+      "slug": "document-borne-ai-worm-self-propagates-through-copilot-for-word",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Document-borne AI worm self-propagates through Copilot for Word",
+      "score": 9,
+      "tags": [
+        "AI security",
+        "LLM attacks",
+        "Copilot",
+        "adversarial attacks",
+        "software vulnerabilities"
+      ],
+      "originalSite": "enklypesalt.com"
+    },
+    {
+      "id": "e44dc37fbbf5a1afee7735427ca6f1a6f12c3750",
+      "canonicalId": "97854c7d008de2a91cf65ec609dc92b5342bf9ab",
+      "slug": "turbofieldfare-run-gemma-4-26b-on-m-series-mac-with-2gb-ram",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "TurboFieldfare: Run Gemma 4 26B on M-series Mac with 2GB RAM",
+      "score": 8,
+      "tags": [
+        "inference engine",
+        "on-device AI",
+        "Gemma",
+        "model optimization",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "63783390dc3ec2b3a82b2cdb96ddc7793bd3c6bf",
+      "canonicalId": "fb768030d745cb9c71fbfcfb764eb8e5a36e57d2",
+      "slug": "mitchell-hashimoto-announces-superlogical",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Mitchell Hashimoto Announces Superlogical",
+      "score": 8,
+      "tags": [
+        "open source",
+        "terminal",
+        "software engineering",
+        "ghostty",
+        "mitchell hashimoto"
+      ],
+      "originalSite": "superlogical.com"
+    },
+    {
+      "id": "822045d5618749e637a1cc67427a1ba8676af584",
+      "canonicalId": "c67f0599e5bd73268acbaeac57024b49a85291a7",
+      "slug": "kimi-k3-256k-model-half-price-same-quality",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Kimi K3-256k Model: Half Price, Same Quality",
+      "score": 8,
+      "tags": [
+        "AI",
+        "LLM",
+        "cost-efficiency",
+        "coding assistant",
+        "context window"
+      ],
+      "originalSite": "kimi.com"
+    },
+    {
+      "id": "0b09936ff2bb3a1c2141871f59f8e534b36c371c",
+      "canonicalId": "a02c8e7a55b5942b9c762cd229ce44a417625e8b",
+      "slug": "handbookmd-benchmark-reveals-llm-agents-fail-on-long-policies",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Handbook.md Benchmark Reveals LLM Agents Fail on Long Policies",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "long-context",
+        "AI agents",
+        "policy",
+        "benchmark"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "283104b2655b26624a69f6fb22c501e0d635a868",
+      "canonicalId": "cb633e0eeb2dca82611ee907c5c9c81271345e72",
+      "slug": "cryptographer-green-aix27s-moment-in-post-quantum-transition",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Cryptographer Green: AI&\\#x27;s moment in post-quantum transition",
+      "score": 8,
+      "tags": [
+        "cryptography",
+        "post-quantum",
+        "AI",
+        "cryptanalysis"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "a82956ded93035c4f5d3a49affc6535f66099bd4",
+      "canonicalId": "fa442220645ed79cdd32722bfa79c6c8b8df3903",
+      "slug": "gcc-steering-committee-adopts-ai-contributions-policy",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "GCC Steering Committee Adopts AI Contributions Policy",
+      "score": 8,
+      "tags": [
+        "GCC",
+        "AI policy",
+        "open source",
+        "compiler",
+        "LLM"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "dc2e2891885a8fd4da9e89a72762213dc0238e57",
+      "canonicalId": "9c0393ea2af2791cbbbbe4c987553854aaf730b3",
+      "slug": "vendor-agnostic-ml-inference-on-edge-devices-via-ncnn-vulkan",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Vendor-agnostic ML inference on edge devices via ncnn Vulkan",
+      "score": 8,
+      "tags": [
+        "machine-learning",
+        "inference",
+        "vulkan",
+        "edge-devices",
+        "cross-platform"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "edbd16203f290faa6dc766166767d1fa0dd6d4af",
+      "canonicalId": "7ea9afddfcd39c0beda266b4b18d583b7a79ae08",
+      "slug": "russiax27s-fsb-charges-telegram-founder-with-aiding-terrorism",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Russia&\\#x27;s FSB Charges Telegram Founder with Aiding Terrorism",
+      "score": 8,
+      "tags": [
+        "Telegram",
+        "Pavel Durov",
+        "Russia",
+        "cybersecurity",
+        "legal"
+      ],
+      "originalSite": "interfax.ru"
+    },
+    {
+      "id": "51f6331b12b71a01c49384a1a39ff056698fec40",
+      "canonicalId": "2a58c8ebd3b148b600ee93e6c5cf08b4484453b4",
+      "slug": "hugging-face-widely-used-for-deepfake-nudes-report",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Hugging Face Widely Used for Deepfake Nudes: Report",
+      "score": 8,
+      "tags": [
+        "AI ethics",
+        "deepfake",
+        "platform safety",
+        "content moderation",
+        "Hugging Face"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "1c910738f1141e8fb3e43f0799722ad48c241816",
+      "canonicalId": "55a47ab47b276b4b92bd78b3634b7c746004f0aa",
+      "slug": "moonshot-ai-raises-35b-at-35b-valuation-after-kimi-k3-model",
+      "date": "2026-07-29",
+      "lang": "en",
+      "title": "Moonshot AI Raises $3.5B at $35B Valuation After Kimi K3 Model",
+      "score": 8,
+      "tags": [
+        "AI",
+        "funding",
+        "Moonshot AI",
+        "Kimi K3",
+        "China AI"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
       "id": "a51c6b1ad9be36c8a1ad146eead766fa4406c6b1",
       "canonicalId": "ca8c38f8c562c11bd47876d804e0a0f87794681e",
       "slug": "ai-代理入侵-openai-的详细时间线",
@@ -5635,276 +6007,6 @@
         "AI infrastructure"
       ],
       "originalSite": "reuters.com"
-    },
-    {
-      "id": "df89fa2a6bea42f9c7185deff752282c3a058c22",
-      "canonicalId": "3ea32098d2b90ffcf09f708d7538856ecce5adaf",
-      "slug": "telegram-的-tme-域名因注册局操作被暂停",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "Telegram 的 t.me 域名因注册局操作被暂停",
-      "score": 9,
-      "tags": [
-        "Telegram",
-        "domain suspension",
-        "ICANN",
-        "DNS",
-        "legal investigation"
-      ],
-      "originalSite": "whois.com"
-    },
-    {
-      "id": "23021f370bcb80e23e55e2ffb8b91ef0b3d5d5e2",
-      "canonicalId": "ab40e50be5ec1ba40667a2185a7d16c9f66fec98",
-      "slug": "苹果-speechanalyzer-api-与-whisper-的基准测试",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "苹果 SpeechAnalyzer API 与 Whisper 的基准测试",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "SpeechAnalyzer",
-        "ASR",
-        "Whisper",
-        "benchmark"
-      ],
-      "originalSite": "get-inscribe.com"
-    },
-    {
-      "id": "4287fbf26de905edcc5dfb545b3cef5a1a81aa31",
-      "canonicalId": "3195dff0ffcaa0e7920767333057b415a622f1d6",
-      "slug": "climategov-被摧毁开放数据拯救了它",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "Climate.gov 被摧毁，开放数据拯救了它",
-      "score": 8,
-      "tags": [
-        "open data",
-        "government transparency",
-        "data preservation",
-        "climate data"
-      ],
-      "originalSite": "werd.io"
-    },
-    {
-      "id": "688c63ce102e43acfd9707885c8e685f9d475780",
-      "canonicalId": "a1fa564a6b63733db901fd47d48dc66895a9882a",
-      "slug": "samsung-health-威胁拒绝-ai-训练将删除数据",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "Samsung Health 威胁：拒绝 AI 训练将删除数据",
-      "score": 8,
-      "tags": [
-        "privacy",
-        "health data",
-        "AI training",
-        "Samsung",
-        "data rights"
-      ],
-      "originalSite": "neow.in"
-    },
-    {
-      "id": "95f074d8d91ff224e6146b1ef6e1db4f2b88ef0f",
-      "canonicalId": "22a0d236596d7312317ac486d840e26494e37778",
-      "slug": "在-lsfmmbpf-大会上展示基于-bpf-的内核漏洞屏蔽技术",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "在 LSFMM+BPF 大会上展示基于 BPF 的内核漏洞屏蔽技术",
-      "score": 8,
-      "tags": [
-        "BPF",
-        "kernel security",
-        "exploit mitigation",
-        "Linux kernel",
-        "Cisco"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "681ce130fce09b2c8c541f1587fed56fe6110581",
-      "canonicalId": "ac6a9469909557be6d7f0144714a36c70cb10921",
-      "slug": "思维链是扩展陷阱潜在推理方法兴起",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "思维链是扩展陷阱，潜在推理方法兴起。",
-      "score": 8,
-      "tags": [
-        "LLM Reasoning",
-        "Chain of Thought",
-        "Latent Reasoning",
-        "CoT Critique",
-        "Machine Learning"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "bc3e59e415aae97515e21d097749831a1d54ce0b",
-      "canonicalId": "5f93cfd600edc02c8b94bc180656bb3ca723b925",
-      "slug": "gpuhedge-将无服务器-gpu-冷启动延迟降低-4-倍",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "GPUHedge 将无服务器 GPU 冷启动延迟降低 4 倍",
-      "score": 8,
-      "tags": [
-        "serverless GPU",
-        "cold start latency",
-        "speculative execution",
-        "ML deployment",
-        "open source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "7f95218b0f2128960b4ae15000d9ab52e437a41b",
-      "canonicalId": "82e521af53be2f5cb22e1887e9eb6a54d26cdb20",
-      "slug": "在-qwen3-4b-上评估-j-space-熵作为错误预测器",
-      "date": "2026-07-13",
-      "lang": "zh",
-      "title": "在 Qwen3-4B 上评估 J-space 熵作为错误预测器",
-      "score": 8,
-      "tags": [
-        "Jacobian Lens",
-        "entropy",
-        "error prediction",
-        "language models",
-        "interpretability"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "f2dbc208bb80d94f7c5db979a4a86803e3e29d21",
-      "canonicalId": "3ea32098d2b90ffcf09f708d7538856ecce5adaf",
-      "slug": "telegramx27s-tme-domain-suspended-due-to-registry-action",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "Telegram&\\#x27;s t.me domain suspended due to registry action",
-      "score": 9,
-      "tags": [
-        "Telegram",
-        "domain suspension",
-        "ICANN",
-        "DNS",
-        "legal investigation"
-      ],
-      "originalSite": "whois.com"
-    },
-    {
-      "id": "5cb7c0bc6cd8ed045b5b7eb9cc16153a177d89d5",
-      "canonicalId": "ab40e50be5ec1ba40667a2185a7d16c9f66fec98",
-      "slug": "applex27s-speechanalyzer-api-benchmarked-against-whisper",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "Apple&\\#x27;s SpeechAnalyzer API Benchmarked Against Whisper",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "SpeechAnalyzer",
-        "ASR",
-        "Whisper",
-        "benchmark"
-      ],
-      "originalSite": "get-inscribe.com"
-    },
-    {
-      "id": "d38521d79883a270673e56a70e2183f84767528f",
-      "canonicalId": "3195dff0ffcaa0e7920767333057b415a622f1d6",
-      "slug": "climategov-was-destroyed-open-data-saved-it",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "Climate.gov Was Destroyed, Open Data Saved It",
-      "score": 8,
-      "tags": [
-        "open data",
-        "government transparency",
-        "data preservation",
-        "climate data"
-      ],
-      "originalSite": "werd.io"
-    },
-    {
-      "id": "0ae4327cd7f990ed22bacf2b87f6297e25909d64",
-      "canonicalId": "a1fa564a6b63733db901fd47d48dc66895a9882a",
-      "slug": "samsung-health-threatens-data-deletion-over-ai-training-opt-out",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "Samsung Health Threatens Data Deletion Over AI Training Opt-Out",
-      "score": 8,
-      "tags": [
-        "privacy",
-        "health data",
-        "AI training",
-        "Samsung",
-        "data rights"
-      ],
-      "originalSite": "neow.in"
-    },
-    {
-      "id": "3349d965df286d49cf3f53ae4e140549125df362",
-      "canonicalId": "22a0d236596d7312317ac486d840e26494e37778",
-      "slug": "bpf-based-kernel-exploit-shielding-presented-at-lsfmmbpf",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "BPF-based kernel exploit shielding presented at LSFMM+BPF",
-      "score": 8,
-      "tags": [
-        "BPF",
-        "kernel security",
-        "exploit mitigation",
-        "Linux kernel",
-        "Cisco"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "ec67efa6d37e5d8e077d7805b1a5640e2771f2ae",
-      "canonicalId": "ac6a9469909557be6d7f0144714a36c70cb10921",
-      "slug": "cot-is-a-scaling-trap-latent-reasoning-methods-emerge",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "CoT is a scaling trap; latent reasoning methods emerge.",
-      "score": 8,
-      "tags": [
-        "LLM Reasoning",
-        "Chain of Thought",
-        "Latent Reasoning",
-        "CoT Critique",
-        "Machine Learning"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "aa2570e52d29b99c2b88e84116fdcd4524f99889",
-      "canonicalId": "5f93cfd600edc02c8b94bc180656bb3ca723b925",
-      "slug": "gpuhedge-reduces-serverless-gpu-cold-start-latency-by-4x",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "GPUHedge reduces serverless GPU cold start latency by 4x",
-      "score": 8,
-      "tags": [
-        "serverless GPU",
-        "cold start latency",
-        "speculative execution",
-        "ML deployment",
-        "open source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "d8f3129028a31c4d8602654c008a10daca0d4432",
-      "canonicalId": "82e521af53be2f5cb22e1887e9eb6a54d26cdb20",
-      "slug": "j-space-entropy-as-error-predictor-evaluated-on-qwen3-4b",
-      "date": "2026-07-13",
-      "lang": "en",
-      "title": "J-space entropy as error predictor evaluated on Qwen3-4B",
-      "score": 8,
-      "tags": [
-        "Jacobian Lens",
-        "entropy",
-        "error prediction",
-        "language models",
-        "interpretability"
-      ],
-      "originalSite": "reddit.com"
     }
   ]
 }

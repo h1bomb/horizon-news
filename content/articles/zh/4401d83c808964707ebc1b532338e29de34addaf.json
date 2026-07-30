@@ -1,0 +1,45 @@
+{
+  "id": "4401d83c808964707ebc1b532338e29de34addaf",
+  "canonicalId": "97854c7d008de2a91cf65ec609dc92b5342bf9ab",
+  "slug": "turbofieldfare在-m-系列-mac-上仅用-2gb-内存运行-gemma-4-26b",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T15:05:00Z",
+  "lang": "zh",
+  "title": "TurboFieldfare：在 M 系列 Mac 上仅用 2GB 内存运行 Gemma 4 26B",
+  "summary": "TurboFieldfare 是一个用 Swift 和 Metal 编写的开源推理引擎，通过从 SSD 流式传输混合专家（MoE）权重，在 M 系列 Mac 上仅用约 2GB 内存运行 4 位量化的 Gemma 4 26B-A4B-IT 模型。在 8GB M2 MacBook Air 上实现 5-6 tok/s，在 M5 MacBook Pro 上实现 31-35 tok/s。 这项创新使得强大的大语言模型无需昂贵的内存升级即可在消费级硬件上运行，有可能为 Mac 用户普及设备端 AI。它还为 MoE 模型的 SSD 卸载提供了一种实用方法，可能影响未来的推理引擎设计。 模型的 4 位量化权重约为 14GB，但 TurboFieldfare 仅将共享层和 KV 缓存保留在 RAM 中，通过有界并行 pread 和小型专家缓存从 SSD 流式传输路由专家。该引擎包含一个实验性的 OpenAI 兼容本地服务器，支持流式传输和工具调用。",
+  "score": 8,
+  "tags": [
+    "inference engine",
+    "on-device AI",
+    "Gemma",
+    "model optimization",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gitpusher42",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49098510"
+    }
+  ],
+  "originalUrl": "https://github.com/drumih/turbo-fieldfare",
+  "originalSite": "github.com",
+  "context": "Gemma 4 26B 是一个混合专家（MoE）模型，每个 token 仅激活一部分参数（专家），比密集模型更高效。4 位量化压缩模型权重以减少内存占用，而 SSD 卸载将不常用的权重存储在磁盘上并按需加载。这些技术共同使得运行原本需要更多内存的模型成为可能。",
+  "discussion": "社区成员指出其与 llama.cpp 的 mmap 方法相似，但称赞 TurboFieldfare 针对专家特定 SSD 流式传输的优化。一位用户通过小幅代码调整在 M1 MBA 上成功编译，并获得了类似速度。另一位开发者表达了在 DiffusionGemma 项目上合作的兴趣，认为可能存在协同效应。",
+  "references": [
+    {
+      "title": "What Is Mixture of Experts ( MoE )? How It Works, Use... | DataCamp",
+      "url": "https://www.datacamp.com/blog/mixture-of-experts-moe"
+    },
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://huggingface.co/blog/moe"
+    },
+    {
+      "title": "SSD Offloading for LLM Mixture-of-Experts Weights Considered...",
+      "url": "https://arxiv.org/pdf/2508.06978"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

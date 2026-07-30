@@ -1,0 +1,41 @@
+{
+  "id": "822045d5618749e637a1cc67427a1ba8676af584",
+  "canonicalId": "c67f0599e5bd73268acbaeac57024b49a85291a7",
+  "slug": "kimi-k3-256k-model-half-price-same-quality",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T19:25:00Z",
+  "lang": "en",
+  "title": "Kimi K3-256k Model: Half Price, Same Quality",
+  "summary": "Moonshot AI released the K3-256k model, a 256K context version of its K3 model, at half the quota cost of the original 1M context version. This price cut makes advanced coding assistance more accessible, fueling the commoditization of large language models and pressuring competitors like OpenAI. The K3-256k delivers identical results to the full K3 within 256K context; previously, 1M context was limited to higher-tier plans, while 256K is available on the Moderato plan.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "LLM",
+    "cost-efficiency",
+    "coding assistant",
+    "context window"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "monneyboi",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49101852"
+    }
+  ],
+  "originalUrl": "https://www.kimi.com/code/docs/en/kimi-code/models",
+  "originalSite": "kimi.com",
+  "context": "Kimi K3 is a 2.8 trillion parameter open-weight multimodal reasoning model with a 1M token context window, capable of frontier performance in coding and reasoning. Many coding tasks rarely exceed 200K context, making a cheaper 256K variant practical for most users.",
+  "discussion": "Users welcomed the lower price, with comments noting that 1M context is often unnecessary and describing LLMs as rapidly becoming commodities. Some appreciated staying under 200K context personally.",
+  "references": [
+    {
+      "title": "Model Configuration | Kimi Code Docs",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/models"
+    },
+    {
+      "title": "Kimi K3 - API Pricing &amp; Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/moonshotai/kimi-k3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

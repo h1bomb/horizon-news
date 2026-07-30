@@ -1,0 +1,45 @@
+{
+  "id": "2f54a405b17ae609bc626b94bcdae2ea47f8ced1",
+  "canonicalId": "2823386c5716abd719526e02e90eedf715e74557",
+  "slug": "document-borne-ai-worm-self-propagates-through-copilot-for-word",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T11:44:00Z",
+  "lang": "en",
+  "title": "Document-borne AI worm self-propagates through Copilot for Word",
+  "summary": "Researcher Håkon Måløy demonstrated a novel prompt injection technique that turns Microsoft Copilot for Word into a self-replicating AI worm, capable of spreading malicious instructions across documents without user intervention. This discovery reveals a critical security gap in AI-integrated productivity tools, showing that AI agents can be weaponized to autonomously propagate attacks, potentially affecting enterprises and individuals relying on Copilot for daily work. The worm operates by hiding adversarial instructions in document content—such as white text or Unicode tricks—which Copilot interprets as user commands, leading to payload execution and propagation to new documents via email or sharing. No robust mitigation exists as of publication.",
+  "score": 9,
+  "tags": [
+    "AI security",
+    "LLM attacks",
+    "Copilot",
+    "adversarial attacks",
+    "software vulnerabilities"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Canopy9560",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49096188"
+    }
+  ],
+  "originalUrl": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+  "originalSite": "enklypesalt.com",
+  "context": "Prompt injection attacks exploit the inability of large language models \\(LLMs\\) to distinguish between user instructions and untrusted data. AI worms are a new class of malware that use LLMs to autonomously spread across systems. Microsoft Copilot for Word can process text in documents as part of its context, making it vulnerable to such injections.",
+  "discussion": "Commenters expressed strong concern, noting that mixing instructions with data is an inherent design flaw that cannot be easily fixed. Some predicted the situation will worsen as users grant excessive access to AI agents. Others shared practical tricks like white text injection that already bypass defenses.",
+  "references": [
+    {
+      "title": "Context Collapse, Part 3 - AI Worming through Word | En Klype Salt",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/"
+    },
+    {
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "url": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html"
+    },
+    {
+      "title": "Self-Propagating Worm Created to Target Generative AI Systems - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/worm-created-generative-ai-systems/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

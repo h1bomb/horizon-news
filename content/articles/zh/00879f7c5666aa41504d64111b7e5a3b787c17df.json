@@ -1,0 +1,45 @@
+{
+  "id": "00879f7c5666aa41504d64111b7e5a3b787c17df",
+  "canonicalId": "fb768030d745cb9c71fbfcfb764eb8e5a36e57d2",
+  "slug": "mitchell-hashimoto-宣布成立-superlogical",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T15:41:00Z",
+  "lang": "zh",
+  "title": "Mitchell Hashimoto 宣布成立 Superlogical",
+  "summary": "Ghostty 的创建者 Mitchell Hashimoto 宣布成立新公司 Superlogical，该公司将基于开源库 libghostty 构建，此前他已将 Ghostty 所有权转让给一家非营利组织。 这一举措为开源可持续性树立了典范：核心项目由非营利组织拥有，而商业实体在相同的开源基础上构建专有产品，从而确保社区利益和商业可行性。 Superlogical 将使用与其他人相同的 MIT 许可的 libghostty 组件，并计划将共享的终端改进上游贡献。该公司旨在利用 libghostty 作为公共构建块来构建终端应用程序。",
+  "score": 8,
+  "tags": [
+    "open source",
+    "terminal",
+    "software engineering",
+    "ghostty",
+    "mitchell hashimoto"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "yan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49098965"
+    }
+  ],
+  "originalUrl": "https://www.superlogical.com/",
+  "originalSite": "superlogical.com",
+  "context": "Ghostty 是一个快速、功能丰富、跨平台的终端模拟器，使用平台原生 UI 和 GPU 加速。libghostty 是一个可嵌入的兼容 C 的库，允许任何应用集成完整的 Ghostty 终端模拟器。通过将 Ghostty 转让给非营利组织，Hashimoto 确保核心部分保持社区治理。",
+  "discussion": "社区普遍称赞其开源许可和架构，用户 simonw 强调了在非营利组织拥有的开源依赖上建立公司的模式。一些评论者（如 rixed）批评标题过于隐晦，而其他人则将其与 OLE/COM 相提并论或分享了相关项目。",
+  "references": [
+    {
+      "title": "Ghostty",
+      "url": "https://ghostty.org/"
+    },
+    {
+      "title": "GitHub - ghostty-org/ghostty: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "url": "https://github.com/ghostty-org/ghostty"
+    },
+    {
+      "title": "Libghostty Is Coming - Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/libghostty-is-coming"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

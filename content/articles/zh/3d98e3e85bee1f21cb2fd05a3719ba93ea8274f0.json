@@ -1,0 +1,36 @@
+{
+  "id": "3d98e3e85bee1f21cb2fd05a3719ba93ea8274f0",
+  "canonicalId": "fa442220645ed79cdd32722bfa79c6c8b8df3903",
+  "slug": "gcc-指导委员会通过-ai-贡献政策",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T14:38:00Z",
+  "lang": "zh",
+  "title": "GCC 指导委员会通过 AI 贡献政策",
+  "summary": "GCC 指导委员会通过了一项政策，拒绝包含 LLM 生成内容的具有法律意义的贡献，并将“具有法律意义”定义为大约 15 行代码或文本。该政策由 GCC AI 政策工作组推荐。 该政策为其他应对 AI 生成代码的开源项目树立了先例，解决了版权和法律问题。它影响 GCC 贡献者和维护者，可能改变 LLM 在编译器开发中的使用方式。 该政策不禁止将 LLM 用于研究、分析、漏洞发现和补丁审查，只要输出不包含在贡献中。但维护者可以自行决定接受由 LLM 生成的具有法律意义的测试用例。",
+  "score": 8,
+  "tags": [
+    "GCC",
+    "AI policy",
+    "open source",
+    "compiler",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1086041/",
+  "originalSite": "lwn.net",
+  "context": "GCC（GNU 编译器套件）是一个支持多种编程语言的主要开源编译器项目。像许多开源项目一样，GCC 依赖明确的贡献政策来确保法律清晰性和软件质量。AI 辅助编程的兴起促使制定新政策，以解决版权和原创性问题，特别是对于版权性具有法律意义的贡献。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GCC Establishes Working Group To Decide On AI/LLM Policy - Phoronix",
+      "url": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

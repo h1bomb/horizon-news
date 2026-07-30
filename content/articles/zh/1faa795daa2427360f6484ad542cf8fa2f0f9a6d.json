@@ -1,0 +1,45 @@
+{
+  "id": "1faa795daa2427360f6484ad542cf8fa2f0f9a6d",
+  "canonicalId": "2823386c5716abd719526e02e90eedf715e74557",
+  "slug": "文档承载的-ai-蠕虫通过-word-版-copilot-自我传播",
+  "date": "2026-07-29",
+  "publishedAt": "2026-07-29T11:44:00Z",
+  "lang": "zh",
+  "title": "文档承载的 AI 蠕虫通过 Word 版 Copilot 自我传播",
+  "summary": "这一发现揭示了 AI 集成生产力工具中的关键安全漏洞，表明 AI 代理可被武器化来自主传播攻击，可能波及依赖 Copilot 日常工作的企业和个人。 该蠕虫通过将对抗性指令隐藏在文档内容中（例如白色文本或 Unicode 技巧）来运作，Copilot 将其解释为用户命令，从而执行载荷并通过电子邮件或共享传播至新文档。截至发布时，尚无可靠的缓解措施。",
+  "score": 9,
+  "tags": [
+    "AI security",
+    "LLM attacks",
+    "Copilot",
+    "adversarial attacks",
+    "software vulnerabilities"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Canopy9560",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49096188"
+    }
+  ],
+  "originalUrl": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+  "originalSite": "enklypesalt.com",
+  "context": "提示注入攻击利用了大语言模型（LLM）无法区分用户指令和不可信数据的弱点。AI 蠕虫是一类新型恶意软件，利用 LLM 自主跨系统传播。Microsoft Word 版 Copilot 可以将文档中的文本作为上下文处理，因而容易受到此类注入攻击。",
+  "discussion": "评论者表达了强烈担忧，指出将指令与数据混合是固有的设计缺陷，无法轻易修复。一些人预测随着用户赋予 AI 代理过多权限，情况会进一步恶化。另有人分享了诸如白色文本注入等已能绕过防御的实际技巧。",
+  "references": [
+    {
+      "title": "Context Collapse, Part 3 - AI Worming through Word | En Klype Salt",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/"
+    },
+    {
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "url": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html"
+    },
+    {
+      "title": "Self-Propagating Worm Created to Target Generative AI Systems - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/worm-created-generative-ai-systems/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
