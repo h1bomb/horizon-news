@@ -1,0 +1,45 @@
+{
+  "id": "5d94c099a3b0f1d1c4a3c9ca35c15fb8188bbd90",
+  "canonicalId": "7a6592c940a7648406618069127bd1ef9b1c3eec",
+  "slug": "github-stacked-prs-now-in-public-preview",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T16:26:00Z",
+  "lang": "en",
+  "title": "GitHub Stacked PRs Now in Public Preview",
+  "summary": "GitHub has launched Stacked PRs in public preview, allowing developers to break large changes into small, reviewable pull requests organized in a stack. This is a major workflow change for GitHub, enabling incremental development and reviews, which can improve code quality and developer productivity. It exposes a wider audience to stacked workflows, potentially transforming how large features are shipped. Stacked PRs are an ordered series of pull requests each representing a focused layer of a change, with CLI \\(gh-stack\\) and UI support. However, users have reported issues with merging entire stacks and re-approval requirements when using squash-and-merge with required reviews.",
+  "score": 9,
+  "tags": [
+    "github",
+    "pull-requests",
+    "developer-tools",
+    "workflow",
+    "version-control"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tomzorz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49112232"
+    }
+  ],
+  "originalUrl": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+  "originalSite": "github.blog",
+  "context": "Traditionally, pull requests are monolithic, making large changes hard to review. Stacked PRs allow splitting a large feature into smaller, dependent PRs that can be reviewed and merged incrementally. This workflow has been popular in some open-source communities but lacked native GitHub support until now.",
+  "discussion": "The community response is mixed: notable developer steveklabnik praised it as one of the biggest changes to GitHub, while user matharmin reported bugs like broken stack merging. The GitHub team acknowledged issues and invited feedback, aiming to fix them soon.",
+  "references": [
+    {
+      "title": "Stacked pull requests are now in public preview - GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
+    },
+    {
+      "title": "GitHub Stacked PRs | GitHub Stacked PRs",
+      "url": "https://github.github.com/gh-stack/"
+    },
+    {
+      "title": "r/programming on Reddit: GitHub Stacked PRs",
+      "url": "https://www.reddit.com/r/programming/comments/1sl4erj/github_stacked_prs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

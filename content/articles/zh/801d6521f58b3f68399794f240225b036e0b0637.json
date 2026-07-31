@@ -1,0 +1,45 @@
+{
+  "id": "801d6521f58b3f68399794f240225b036e0b0637",
+  "canonicalId": "7a6592c940a7648406618069127bd1ef9b1c3eec",
+  "slug": "github-stacked-prs-现已公开预览",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T16:26:00Z",
+  "lang": "zh",
+  "title": "GitHub Stacked PRs 现已公开预览",
+  "summary": "GitHub 已推出 Stacked PRs 公开预览版，让开发者能够将大型变更拆分为小型、可审查的拉取请求，并以堆栈形式组织。 这是 GitHub 工作流程的重大变革，支持增量开发和审查，可提升代码质量和开发者效率。它让更多开发者接触到堆栈式工作流，有望改变大型功能的上线方式。 Stacked PRs 是一系列有序的拉取请求，每个代表变更的一个聚焦层，支持 CLI \\(gh-stack\\) 和 UI。但用户反馈合并整个堆栈存在漏洞，且在需要审查时使用 squash-and-merge 需重新批准。",
+  "score": 9,
+  "tags": [
+    "github",
+    "pull-requests",
+    "developer-tools",
+    "workflow",
+    "version-control"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tomzorz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49112232"
+    }
+  ],
+  "originalUrl": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+  "originalSite": "github.blog",
+  "context": "传统上，拉取请求是整体式的，大型变更难以审查。Stacked PRs 允许将大型功能拆分为小型、相互依赖的 PR，可增量审查和合并。这种工作流在一些开源社区中很流行，但此前 GitHub 缺乏原生支持。",
+  "discussion": "社区反应不一：知名开发者 steveklabnik 称赞这是 GitHub 的最大变革之一，而用户 matharmin 报告了堆栈合并破坏等漏洞。GitHub 团队承认问题并邀请反馈，承诺尽快修复。",
+  "references": [
+    {
+      "title": "Stacked pull requests are now in public preview - GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
+    },
+    {
+      "title": "GitHub Stacked PRs | GitHub Stacked PRs",
+      "url": "https://github.github.com/gh-stack/"
+    },
+    {
+      "title": "r/programming on Reddit: GitHub Stacked PRs",
+      "url": "https://www.reddit.com/r/programming/comments/1sl4erj/github_stacked_prs/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

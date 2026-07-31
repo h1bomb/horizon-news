@@ -1,0 +1,44 @@
+{
+  "id": "896f99a1ec8f9c6640dd04f38201a8bbe9df39d8",
+  "canonicalId": "37b58119ad78eff48ea088f5f4fe10c8cf31a185",
+  "slug": "claude-ai-在-60-小时内发现-nist-后量子候选算法-hawk-弱点",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T05:47:00Z",
+  "lang": "zh",
+  "title": "Claude AI 在 60 小时内发现 NIST 后量子候选算法 HAWK 弱点",
+  "summary": "Anthropic 的 Claude Mythos Preview 模型发现 NIST 后量子数字签名算法 HAWK 的严重弱点，将其有效密钥强度减半。攻击耗时约 60 小时，耗费 10 万美元 API 费用，而人类专家此前两年未能发现。 这表明 AI 在发现后量子密码候选算法漏洞方面可超越人类密码分析员，可能重塑 NIST 标准化进程。它强调了密码敏捷性的必要性，以及应依赖经证明的标准而非等待完美算法。 该攻击针对 HAWK-256，将其安全性从 2^64 降至 2^38 次操作，但攻击并非多项式时间，因此更大密钥仍安全。此外，该模型改进了对七轮 AES-128 的最优攻击，但完整 AES-128（10 轮）不受影响。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "密码学",
+    "后量子密码学",
+    "NIST",
+    "HAWK"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://startupfortune.com/claude-mythos-broke-hawk-and-the-nist-post-quantum-timeline-may-not-survive-it/",
+  "originalSite": "startupfortune.com",
+  "context": "HAWK 是一种基于格的数字签名方案，是 NIST 后量子密码&\\#x27;附加数字签名&\\#x27;阶段第三轮中唯一的格基候选算法。根据 2026 年行政令，NIST 正在标准化抗量子攻击的算法，要求联邦机构在 2030-2031 年前迁移至抗量子密码体系。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI Cracks Post-Quantum Cipher in 60 Hours After Two Years of Human Review Failed",
+      "url": "https://www.techtimes.com/articles/321876/20260728/ai-cracks-post-quantum-cipher-60-hours-after-two-years-human-review-failed.htm"
+    },
+    {
+      "title": "Anthropic finds weakness in Hawk post-quantum digital signature algorithm | CSO Online",
+      "url": "https://www.csoonline.com/article/4202920/mythos-takes-its-first-shot-at-post-quantum-cryptography.html"
+    },
+    {
+      "title": "NIST Post-Quantum Cryptography Standardization",
+      "url": "https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Standardization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

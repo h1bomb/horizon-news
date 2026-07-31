@@ -1,0 +1,44 @@
+{
+  "id": "1ba2fc4e5a415ef99529b540d35c03ea3760a548",
+  "canonicalId": "89a95d0b4d3ad6189f1f9d195e3a1ddd45673889",
+  "slug": "kimi-k3-开源权重模型以新颖架构达到前沿水平",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T16:37:00Z",
+  "lang": "zh",
+  "title": "Kimi K3 开源权重模型以新颖架构达到前沿水平",
+  "summary": "月之暗面科技（Moonshot AI）发布了 Kimi K3，这是一个开源权重的大语言模型，在 580 个模型中排名第四，仅次于 Claude Opus 5、Fable 5 和 GPT-5.6 Sol。它引入了三项关键创新：Kimi Delta Attention（用每个头 128×128 的矩阵替代 KV 缓存）、Quantile Balancing（用于平衡每层 896 个专家的负载）以及 AgentENV（一个用于强化学习训练的 Firecracker 微虚拟机运行时）。 Kimi K3 证明了开源权重模型能够与最好的专有前沿模型竞争，可能加速 AI 研究和部署。其架构创新——尤其是内存高效的注意力机制和无超参数的负载均衡——可能会影响整个行业的未来模型设计。 Kimi K3 在 93 层中的 69 层使用了 Kimi Delta Attention，将 100 万 token 上下文的显存占用从 104.6 GiB 降低到 27.2 GiB。Quantile Balancing 直接从单次批次的路由器分数边距计算偏置，避免了 DeepSeek-V3 使用的固定步长偏置调整。AgentENV 在 RL 训练期间创建了 5100 万个沙箱，检查点耗时 133 毫秒，恢复耗时 49 毫秒。",
+  "score": 9,
+  "tags": [
+    "attention mechanisms",
+    "mixture of experts",
+    "large language models",
+    "model efficiency",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/noninertialframe96"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/",
+  "originalSite": "reddit.com",
+  "context": "大语言模型通常使用 KV 缓存来存储注意力键值对，其大小随上下文长度线性增长，限制了长上下文性能。混合专家（MoE）模型使用多个专门的子网络（专家）按 token 激活，需要负载均衡以确保所有专家被均匀利用。基于人类反馈的强化学习（RLHF）或代理强化学习通过与环境交互来训练模型，传统上需要专用基础设施，成本高且速度慢。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Linear Attention : Kimi Delta Attention | Jianyu Huang’s Blog",
+      "url": "https://jianyuh.github.io/attention/2025/12/13/KDA.html"
+    },
+    {
+      "title": "Mixture of Experts Quantile Balancing: Validated at 32B-A5B (1e22 FLOPs) Scale | Open Athena",
+      "url": "https://openathena.ai/blog/quantile-balancing/"
+    },
+    {
+      "title": "GitHub - kvcache-ai/AgentENV: AgentENV (AENV) is a ...",
+      "url": "https://github.com/kvcache-ai/AgentENV"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

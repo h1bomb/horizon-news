@@ -1,0 +1,45 @@
+{
+  "id": "dab59cee7310a8216190c8e978a8290ab93286c7",
+  "canonicalId": "82c2a5cb1208ca691c70cb873f76ced86d738e3d",
+  "slug": "gemini-robotics-2-enables-whole-body-robot-intelligence",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T15:15:00Z",
+  "lang": "en",
+  "title": "Gemini Robotics 2 Enables Whole-Body Robot Intelligence",
+  "summary": "Google DeepMind released Gemini Robotics 2 on July 30, 2026, a set of three vision-language-action models that enable whole-body control, fine dexterity, and multi-robot collaboration for humanoid robots. This release moves robotics beyond table-top manipulation to full-body coordination, representing a significant step toward versatile humanoid robots that can operate in real-world environments. It showcases the integration of large multimodal AI with physical action, potentially accelerating the deployment of robots in homes and workplaces. Gemini Robotics 2 is based on Gemini 2.0 and ships as three separate models with different access levels, currently restricted to trusted testers like Boston Dynamics. The models convert vision and language input into motor commands, enabling whole-body tasks like walking, manipulation, and teamwork.",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Robotics",
+    "DeepMind",
+    "Multimodal AI",
+    "Gemini"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ai2027",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49111237"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+  "originalSite": "deepmind.google",
+  "context": "Vision-Language-Action \\(VLA\\) models are AI systems that process visual and textual inputs to directly output robotic actions. Previous robotics models often focused on isolated skills like grasping or navigation. Gemini Robotics 2 extends this to whole-body control, meaning the robot uses its entire body—legs, torso, arms, hands—to perform coordinated tasks. The previous version, Gemini Robotics, was launched in March 2025 and focused on table-top manipulation.",
+  "discussion": "Community comments express excitement about Google DeepMind&\\#x27;s broad AI portfolio and the potential for rapid progress, but also skepticism about current robot speed and actuator quality. Some users request honest assessments of real-world capabilities, while others compare the slow but promising start to early LLMs.",
+  "references": [
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    },
+    {
+      "title": "Gemini Robotics",
+      "url": "https://en.wikipedia.org/wiki/Gemini_Robotics"
+    },
+    {
+      "title": "Google DeepMind Ships Three Physical AI Models For Whole Body ...",
+      "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

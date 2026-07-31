@@ -1,0 +1,32 @@
+{
+  "id": "57cc26289e02ff9d5ebb5a830afdad8e18285332",
+  "canonicalId": "fa442220645ed79cdd32722bfa79c6c8b8df3903",
+  "slug": "gcc-指导委员会宣布-ai-政策",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T11:45:00Z",
+  "lang": "zh",
+  "title": "GCC 指导委员会宣布 AI 政策",
+  "summary": "GCC 指导委员会宣布了一项政策，限制 AI 生成的贡献，理由是版权和开源伦理问题。 该政策为大型开源项目处理 AI 贡献树立了先例，可能影响更广泛的自由软件生态。 该政策明确针对大语言模型的贡献，指出此类输出可能不受版权保护，这与 GPL 对版权的依赖相冲突。",
+  "score": 8,
+  "tags": [
+    "GCC",
+    "AI Policy",
+    "Open Source",
+    "GNU",
+    "Contributions"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "arto",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49108685"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1086041/",
+  "originalSite": "lwn.net",
+  "context": "GCC（GNU 编译器套件）是 GNU 项目的核心组件，采用 GPL 许可，该许可利用版权来强制执行 copyleft 原则。如果 AI 生成的代码不受版权保护，则无法使用 GPL 许可，这可能动摇自由软件的法律基础。",
+  "discussion": "社区评论表达了支持与担忧的混合态度。一些人赞赏该政策对贡献者的指导，而另一些人则辩论其对自由软件的版权影响，有评论引用道：“AI 的真正目的是让财富获得技能，而不让技能获得财富。”",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

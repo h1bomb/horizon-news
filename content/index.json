@@ -1,6 +1,512 @@
 {
   "articles": [
     {
+      "id": "801d6521f58b3f68399794f240225b036e0b0637",
+      "canonicalId": "7a6592c940a7648406618069127bd1ef9b1c3eec",
+      "slug": "github-stacked-prs-现已公开预览",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "GitHub Stacked PRs 现已公开预览",
+      "score": 9,
+      "tags": [
+        "github",
+        "pull-requests",
+        "developer-tools",
+        "workflow",
+        "version-control"
+      ],
+      "originalSite": "github.blog"
+    },
+    {
+      "id": "28a5b8450c0415a166cc28d420569720fc7a9f53",
+      "canonicalId": "fc362ba711f59d44f4f1c69c201956c28bef036a",
+      "slug": "openai-gpt-56-luna-降价-80",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "OpenAI GPT-5.6 Luna 降价 80%",
+      "score": 9,
+      "tags": [
+        "GPT-5.6",
+        "OpenAI",
+        "AI cost reduction",
+        "language models",
+        "price-performance"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "1ba2fc4e5a415ef99529b540d35c03ea3760a548",
+      "canonicalId": "89a95d0b4d3ad6189f1f9d195e3a1ddd45673889",
+      "slug": "kimi-k3-开源权重模型以新颖架构达到前沿水平",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "Kimi K3 开源权重模型以新颖架构达到前沿水平",
+      "score": 9,
+      "tags": [
+        "attention mechanisms",
+        "mixture of experts",
+        "large language models",
+        "model efficiency",
+        "open-source"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "896f99a1ec8f9c6640dd04f38201a8bbe9df39d8",
+      "canonicalId": "37b58119ad78eff48ea088f5f4fe10c8cf31a185",
+      "slug": "claude-ai-在-60-小时内发现-nist-后量子候选算法-hawk-弱点",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "Claude AI 在 60 小时内发现 NIST 后量子候选算法 HAWK 弱点",
+      "score": 9,
+      "tags": [
+        "AI",
+        "密码学",
+        "后量子密码学",
+        "NIST",
+        "HAWK"
+      ],
+      "originalSite": "startupfortune.com"
+    },
+    {
+      "id": "31df3b39fa1ef3843a31c64bc3ab206a0e3d1cf2",
+      "canonicalId": "1084994b58226d540e78a250a626bbec8d8cc4bd",
+      "slug": "deepmind-解散-alphafold-团队核心成员跳槽-anthropic",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "DeepMind 解散 AlphaFold 团队，核心成员跳槽 Anthropic",
+      "score": 9,
+      "tags": [
+        "AlphaFold",
+        "DeepMind",
+        "Anthropic",
+        "AI Research",
+        "Talent Movement"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "48afffb5364354067d7c5e0bea3dd3b3bf579a2d",
+      "canonicalId": "82c2a5cb1208ca691c70cb873f76ced86d738e3d",
+      "slug": "gemini-robotics-2-实现机器人全身智能",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "Gemini Robotics 2 实现机器人全身智能",
+      "score": 8,
+      "tags": [
+        "AI",
+        "Robotics",
+        "DeepMind",
+        "Multimodal AI",
+        "Gemini"
+      ],
+      "originalSite": "deepmind.google"
+    },
+    {
+      "id": "569c488a36bbe9285fe06168635461aa7bc5744e",
+      "canonicalId": "0745d07b9211d52a2b665850f5d836ee5bd48695",
+      "slug": "欧足联及-55-个成员协会抵制-fifa-赛事",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "欧足联及 55 个成员协会抵制 FIFA 赛事",
+      "score": 8,
+      "tags": [
+        "sports",
+        "governance",
+        "FIFA",
+        "UEFA",
+        "corruption"
+      ],
+      "originalSite": "uefa.com"
+    },
+    {
+      "id": "1ef6772693a16915450380643fda466196a0aeab",
+      "canonicalId": "ea881c2991882ea408e5fbeed825837c374e8c7b",
+      "slug": "缪子谜题破解旧结果不再吻合",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "缪子谜题破解，旧结果不再吻合",
+      "score": 8,
+      "tags": [
+        "physics",
+        "muon",
+        "particle physics",
+        "quantum mechanics"
+      ],
+      "originalSite": "quantamagazine.org"
+    },
+    {
+      "id": "971d5d5b39746620a8337791c8f3a54b09610788",
+      "canonicalId": "dafe9a2bbb836aa98bb51205e906790c2b6cbb7c",
+      "slug": "重构的经济效益分析",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "重构的经济效益分析",
+      "score": 8,
+      "tags": [
+        "refactoring",
+        "software engineering",
+        "economics",
+        "AI-assisted development",
+        "best practices"
+      ],
+      "originalSite": "martinfowler.com"
+    },
+    {
+      "id": "57cc26289e02ff9d5ebb5a830afdad8e18285332",
+      "canonicalId": "fa442220645ed79cdd32722bfa79c6c8b8df3903",
+      "slug": "gcc-指导委员会宣布-ai-政策",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "GCC 指导委员会宣布 AI 政策",
+      "score": 8,
+      "tags": [
+        "GCC",
+        "AI Policy",
+        "Open Source",
+        "GNU",
+        "Contributions"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "03e4c4a934fc8a3a935acbf2968c2ab5faec1e93",
+      "canonicalId": "64e5d885f1df4641043c57d54cdb9adb771d1078",
+      "slug": "教授因同行评审流程失去三位潜在博士生",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "教授因同行评审流程失去三位潜在博士生",
+      "score": 8,
+      "tags": [
+        "peer review",
+        "academic publishing",
+        "machine learning",
+        "PhD students"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "5c6812462cb447f1b1cc999e8609e07902c887a0",
+      "canonicalId": "fcbbc6343013f16593ce15e25d669b1b99ca5db1",
+      "slug": "字节重组-to-b飞书并入豆包和火山引擎",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "字节重组 To B：飞书并入豆包和火山引擎",
+      "score": 8,
+      "tags": [
+        "ByteDance",
+        "AI Business",
+        "Enterprise Software",
+        "Organizational Change",
+        "Feishu"
+      ],
+      "originalSite": "news.qq.com"
+    },
+    {
+      "id": "17d2476dca04453aec8ef676dd3da00ea7803d6d",
+      "canonicalId": "e21dbf55206b6870193f9c560d15af6eaf21fb72",
+      "slug": "美委员会代表团访华遭华为deepseek-等拒见",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "美委员会代表团访华遭华为、DeepSeek 等拒见",
+      "score": 8,
+      "tags": [
+        "US-China relations",
+        "tech policy",
+        "Huawei",
+        "DeepSeek",
+        "security review"
+      ],
+      "originalSite": "tech.ifeng.com"
+    },
+    {
+      "id": "11d7ce62227d8f3fff9c7f611af7655be90e21fa",
+      "canonicalId": "8267ea6523366ebb1cea145b88eb6c388c0faaa4",
+      "slug": "澳大利亚起诉-telegram-涉恐内容面临-5460-万澳元罚款",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "澳大利亚起诉 Telegram 涉恐内容，面临 5460 万澳元罚款",
+      "score": 8,
+      "tags": [
+        "platform regulation",
+        "content moderation",
+        "Telegram",
+        "Australia",
+        "terrorism"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "2397ebce08c6d165807d44c1a63752ef98f104b6",
+      "canonicalId": "66fa8d635234ba0fc4c33d164c8d785f9bfcab10",
+      "slug": "欧盟启动-ai-超级工厂招标-拟撬动-3000-亿欧元投资",
+      "date": "2026-07-30",
+      "lang": "zh",
+      "title": "欧盟启动 AI 超级工厂招标 拟撬动 3000 亿欧元投资",
+      "score": 8,
+      "tags": [
+        "AI",
+        "Europe",
+        "supercomputing",
+        "investment",
+        "policy"
+      ],
+      "originalSite": "wsj.com"
+    },
+    {
+      "id": "5d94c099a3b0f1d1c4a3c9ca35c15fb8188bbd90",
+      "canonicalId": "7a6592c940a7648406618069127bd1ef9b1c3eec",
+      "slug": "github-stacked-prs-now-in-public-preview",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "GitHub Stacked PRs Now in Public Preview",
+      "score": 9,
+      "tags": [
+        "github",
+        "pull-requests",
+        "developer-tools",
+        "workflow",
+        "version-control"
+      ],
+      "originalSite": "github.blog"
+    },
+    {
+      "id": "d16f60e1961df0d6f56a7b9d418f4949f2467a62",
+      "canonicalId": "fc362ba711f59d44f4f1c69c201956c28bef036a",
+      "slug": "openai-gpt-56-luna-price-cut-80",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "OpenAI GPT-5.6 Luna price cut 80%",
+      "score": 9,
+      "tags": [
+        "GPT-5.6",
+        "OpenAI",
+        "AI cost reduction",
+        "language models",
+        "price-performance"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "1f50e65047b71c7a8fca255418d26ea3ca25f1c7",
+      "canonicalId": "89a95d0b4d3ad6189f1f9d195e3a1ddd45673889",
+      "slug": "kimi-k3-open-weight-model-reaches-frontier-with-novel-architecture",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Kimi K3 Open-Weight Model Reaches Frontier with Novel Architecture",
+      "score": 9,
+      "tags": [
+        "attention mechanisms",
+        "mixture of experts",
+        "large language models",
+        "model efficiency",
+        "open-source"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "0276fc178b1c7f210cc2deffd3a9e05a298225b8",
+      "canonicalId": "37b58119ad78eff48ea088f5f4fe10c8cf31a185",
+      "slug": "claude-ai-weakens-nist-post-quantum-candidate-hawk-in-60-hours",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Claude AI Weakens NIST Post-Quantum Candidate HAWK in 60 Hours",
+      "score": 9,
+      "tags": [
+        "AI",
+        "密码学",
+        "后量子密码学",
+        "NIST",
+        "HAWK"
+      ],
+      "originalSite": "startupfortune.com"
+    },
+    {
+      "id": "943f5a2a4fbe2263004d180343b10a8ca46a35d8",
+      "canonicalId": "1084994b58226d540e78a250a626bbec8d8cc4bd",
+      "slug": "google-deepmind-disbands-alphafold-team-core-members-move-to-anthropic",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Google DeepMind Disbands AlphaFold Team, Core Members Move to Anthropic",
+      "score": 9,
+      "tags": [
+        "AlphaFold",
+        "DeepMind",
+        "Anthropic",
+        "AI Research",
+        "Talent Movement"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "dab59cee7310a8216190c8e978a8290ab93286c7",
+      "canonicalId": "82c2a5cb1208ca691c70cb873f76ced86d738e3d",
+      "slug": "gemini-robotics-2-enables-whole-body-robot-intelligence",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Gemini Robotics 2 Enables Whole-Body Robot Intelligence",
+      "score": 8,
+      "tags": [
+        "AI",
+        "Robotics",
+        "DeepMind",
+        "Multimodal AI",
+        "Gemini"
+      ],
+      "originalSite": "deepmind.google"
+    },
+    {
+      "id": "fc35824f99bc2a6413cc04540f8f7fdcfe64692d",
+      "canonicalId": "0745d07b9211d52a2b665850f5d836ee5bd48695",
+      "slug": "uefa-and-55-associations-boycott-fifa-competitions",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "UEFA and 55 associations boycott FIFA competitions",
+      "score": 8,
+      "tags": [
+        "sports",
+        "governance",
+        "FIFA",
+        "UEFA",
+        "corruption"
+      ],
+      "originalSite": "uefa.com"
+    },
+    {
+      "id": "645b5e4646c624c0b99632ae5ebdf21ebf364ed8",
+      "canonicalId": "ea881c2991882ea408e5fbeed825837c374e8c7b",
+      "slug": "muon-mystery-solved-old-results-now-inconsistent",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Muon Mystery Solved, Old Results Now Inconsistent",
+      "score": 8,
+      "tags": [
+        "physics",
+        "muon",
+        "particle physics",
+        "quantum mechanics"
+      ],
+      "originalSite": "quantamagazine.org"
+    },
+    {
+      "id": "a48d0347eaae9599c6ceff521c8e6d7f36860666",
+      "canonicalId": "dafe9a2bbb836aa98bb51205e906790c2b6cbb7c",
+      "slug": "economic-benefit-of-refactoring-analyzed",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Economic Benefit of Refactoring Analyzed",
+      "score": 8,
+      "tags": [
+        "refactoring",
+        "software engineering",
+        "economics",
+        "AI-assisted development",
+        "best practices"
+      ],
+      "originalSite": "martinfowler.com"
+    },
+    {
+      "id": "672fa304f2779aa61ab16410c9db3db8029e9a7a",
+      "canonicalId": "fa442220645ed79cdd32722bfa79c6c8b8df3903",
+      "slug": "gcc-steering-committee-announces-ai-policy",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "GCC Steering Committee Announces AI Policy",
+      "score": 8,
+      "tags": [
+        "GCC",
+        "AI Policy",
+        "Open Source",
+        "GNU",
+        "Contributions"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "17e281c0393608841abb0a7e8ea1fb392eb7cc08",
+      "canonicalId": "64e5d885f1df4641043c57d54cdb9adb771d1078",
+      "slug": "professor-loses-three-phd-candidates-over-review-process-frustrations",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Professor loses three PhD candidates over review process frustrations",
+      "score": 8,
+      "tags": [
+        "peer review",
+        "academic publishing",
+        "machine learning",
+        "PhD students"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "ccf105a99f15f3a3560d1d11a81b4ef26287ebe7",
+      "canonicalId": "fcbbc6343013f16593ce15e25d669b1b99ca5db1",
+      "slug": "bytedance-merges-feishu-into-doubao-and-volcano-engine-in-major-to-b-restructuring",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "ByteDance Merges Feishu into Doubao and Volcano Engine in Major To B Restructuring",
+      "score": 8,
+      "tags": [
+        "ByteDance",
+        "AI Business",
+        "Enterprise Software",
+        "Organizational Change",
+        "Feishu"
+      ],
+      "originalSite": "news.qq.com"
+    },
+    {
+      "id": "80a9c3756955b29287f37a14b6c55e8e68305122",
+      "canonicalId": "e21dbf55206b6870193f9c560d15af6eaf21fb72",
+      "slug": "uscc-delegation-denied-meetings-with-huawei-deepseek-in-china",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "USCC Delegation Denied Meetings with Huawei, DeepSeek in China",
+      "score": 8,
+      "tags": [
+        "US-China relations",
+        "tech policy",
+        "Huawei",
+        "DeepSeek",
+        "security review"
+      ],
+      "originalSite": "tech.ifeng.com"
+    },
+    {
+      "id": "4b8f9ed64f1cd91dbb9fe456e9b871094cdd9117",
+      "canonicalId": "8267ea6523366ebb1cea145b88eb6c388c0faaa4",
+      "slug": "australia-sues-telegram-over-extremist-content-faces-546m-fine",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "Australia sues Telegram over extremist content, faces $54.6M fine",
+      "score": 8,
+      "tags": [
+        "platform regulation",
+        "content moderation",
+        "Telegram",
+        "Australia",
+        "terrorism"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "f7316f487cd7feec2109b9533f1886b6b41e6ad0",
+      "canonicalId": "66fa8d635234ba0fc4c33d164c8d785f9bfcab10",
+      "slug": "eu-launches-ai-gigafactory-tender-to-mobilize-300b-euros",
+      "date": "2026-07-30",
+      "lang": "en",
+      "title": "EU launches AI gigafactory tender to mobilize 300B euros",
+      "score": 8,
+      "tags": [
+        "AI",
+        "Europe",
+        "supercomputing",
+        "investment",
+        "policy"
+      ],
+      "originalSite": "wsj.com"
+    },
+    {
       "id": "1faa795daa2427360f6484ad542cf8fa2f0f9a6d",
       "canonicalId": "2823386c5716abd719526e02e90eedf715e74557",
       "slug": "文档承载的-ai-蠕虫通过-word-版-copilot-自我传播",
@@ -5537,476 +6043,6 @@
         "deployment"
       ],
       "originalSite": "core.telegram.org"
-    },
-    {
-      "id": "97fa5bcafa4a48e33f72fd806454ace19dd6c376",
-      "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
-      "slug": "bonsai-27b通过量化在手机上运行的-270-亿参数模型",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "Bonsai 27B：通过量化在手机上运行的 270 亿参数模型",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Model Compression",
-        "On-Device AI",
-        "Quantization",
-        "Large Language Models"
-      ],
-      "originalSite": "prismml.com"
-    },
-    {
-      "id": "e9dee92ce3ad08c44ace816cc5327881adb13282",
-      "canonicalId": "f29a74f942810df123ef35e296e5888ab0bf978d",
-      "slug": "armin-ronacher-探讨可组合性与-ai-代理的塔隐喻",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "Armin Ronacher 探讨可组合性与 AI 代理的‘塔’隐喻",
-      "score": 8,
-      "tags": [
-        "composability",
-        "software-architecture",
-        "AI-agents",
-        "lisp-curse",
-        "essay"
-      ],
-      "originalSite": "lucumr.pocoo.org"
-    },
-    {
-      "id": "3aabd34f4517c754a90bfab9ff53c68c734b3b5f",
-      "canonicalId": "9bca5dae0eb3746a2bc8a84ea4d7e2f7e953d0b3",
-      "slug": "cursor-ide-0day-漏洞未修补可任意执行-exe-文件",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "Cursor IDE 0day 漏洞：未修补，可任意执行 EXE 文件",
-      "score": 8,
-      "tags": [
-        "security",
-        "vulnerability",
-        "Cursor IDE",
-        "0day",
-        "disclosure"
-      ],
-      "originalSite": "mindgard.ai"
-    },
-    {
-      "id": "7017e5133a6e611c6ee7dded9451773cf595186f",
-      "canonicalId": "0ed32a73888e7302126fb35e73aab22fd5333486",
-      "slug": "linux-输入延迟测试x11-对比-waylandvrrdxvk",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "Linux 输入延迟测试：X11 对比 Wayland、VRR、DXVK",
-      "score": 8,
-      "tags": [
-        "Linux",
-        "input latency",
-        "Wayland",
-        "X11",
-        "gaming"
-      ],
-      "originalSite": "marco-nett.de"
-    },
-    {
-      "id": "a433c1b059ab6212418c7004afd7c826812b4ed4",
-      "canonicalId": "15773b9ccf27d00e24ad128dcd3c447771c65809",
-      "slug": "用现实给自己一拳",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "用现实给自己一拳",
-      "score": 8,
-      "tags": [
-        "AI",
-        "programming",
-        "software engineering",
-        "productivity",
-        "reflection"
-      ],
-      "originalSite": "adi.bio"
-    },
-    {
-      "id": "60859deb6613212844c2b66d8005c73286e74898",
-      "canonicalId": "87fb36a4c3ad440e0b6dfbe358697ab33b5823b3",
-      "slug": "摩擦即共识armin-ronacher-谈-ai-代理",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "摩擦即共识：Armin Ronacher 谈 AI 代理",
-      "score": 8,
-      "tags": [
-        "software engineering",
-        "AI agents",
-        "shared understanding",
-        "team dynamics",
-        "code review"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "d3a036a297b29518fea05fcce4759327a728bbf0",
-      "canonicalId": "53288cccce93491e23826b81f489b6c8b82b2215",
-      "slug": "新-alem-基准测试评估-llm-多智能体协调能力",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "新 ALEM 基准测试评估 LLM 多智能体协调能力",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "Benchmark",
-        "Multi-Agent",
-        "Coordination",
-        "AI Research"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "c227646f1e24b8fb63ee650b2cc60a4d9c252e80",
-      "canonicalId": "d418c4dcb2ef840e77478cea1aa998506d8e37c2",
-      "slug": "构建增量索引管道的经验教训",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "构建增量索引管道的经验教训",
-      "score": 8,
-      "tags": [
-        "vector store",
-        "incremental indexing",
-        "data pipeline",
-        "idempotency",
-        "partial updates"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "bef95e74b13fe0e32f93209b9c39e5eb940c0b16",
-      "canonicalId": "d1391d716dfb731c636dbe7904770645240fe0df",
-      "slug": "2026-年菲尔兹奖得主疑通过-icm-网站代码泄露",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "2026 年菲尔兹奖得主疑通过 ICM 网站代码泄露",
-      "score": 8,
-      "tags": [
-        "Fields Medal",
-        "mathematics",
-        "leak",
-        "ICM",
-        "predictions"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "9eb4853314867da01cd2b61c46987da0ff2d8b13",
-      "canonicalId": "6e82b3f37b7a84d6be77b9b7e300b19e4db8d81c",
-      "slug": "cloudflare-推出-precursor通过鼠标和键盘行为持续检测机器人",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "Cloudflare 推出 Precursor，通过鼠标和键盘行为持续检测机器人",
-      "score": 8,
-      "tags": [
-        "Cloudflare",
-        "Bot Detection",
-        "AI",
-        "Security",
-        "Behavioral Verification"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "b026fdb9e08b96901e0b7dbaf39f07998309ed86",
-      "canonicalId": "9da69b4c5d63ba208c1994c53f3a94ce46af97de",
-      "slug": "deepseek-启动新一轮融资估值-710-亿美元",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "DeepSeek 启动新一轮融资，估值 710 亿美元",
-      "score": 8,
-      "tags": [
-        "AI融资",
-        "DeepSeek",
-        "AI芯片",
-        "估值"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "b92488c0971f66bbb6d79d3ef40fb295b36fd1da",
-      "canonicalId": "fd885fb42c2eb3c7642572158a32f3b975e7c5b4",
-      "slug": "高德发布世界模型工坊支持任意门穿越",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "高德发布世界模型工坊，支持任意门穿越",
-      "score": 8,
-      "tags": [
-        "world model",
-        "3D generation",
-        "open source",
-        "AI",
-        "Alibaba"
-      ],
-      "originalSite": "ithome.com"
-    },
-    {
-      "id": "65b9990812f48b33a60042504d1e98de4a7a8415",
-      "canonicalId": "cb9db543cbd4130697549f9a38ed5b84a3b81a48",
-      "slug": "deepmind-ceo-呼吁美国主导成立全球-ai-监管机构",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "DeepMind CEO 呼吁美国主导成立全球 AI 监管机构",
-      "score": 8,
-      "tags": [
-        "AI regulation",
-        "AI safety",
-        "governance",
-        "DeepMind"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "fe3adae0dcc0ef72036ba2d78bd99fc69ac77794",
-      "canonicalId": "4e5ebc0960aaeee64c857aee90d709e0bbf223d2",
-      "slug": "纽约成为全美首个暂停大型数据中心建设的州",
-      "date": "2026-07-14",
-      "lang": "zh",
-      "title": "纽约成为全美首个暂停大型数据中心建设的州",
-      "score": 8,
-      "tags": [
-        "data centers",
-        "energy policy",
-        "regulation",
-        "AI infrastructure"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "b17d17a5e0dd1a72812d48f9529eda737dbc940c",
-      "canonicalId": "449874491314fa9e936cd2bd1d068a497e5abeca",
-      "slug": "bonsai-27b-27b-parameter-model-runs-on-phones-via-quantization",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Bonsai 27B: 27B-parameter model runs on phones via quantization",
-      "score": 8,
-      "tags": [
-        "AI",
-        "Model Compression",
-        "On-Device AI",
-        "Quantization",
-        "Large Language Models"
-      ],
-      "originalSite": "prismml.com"
-    },
-    {
-      "id": "290507ee501c61ab7074043ce02f9db124debfeb",
-      "canonicalId": "f29a74f942810df123ef35e296e5888ab0bf978d",
-      "slug": "armin-ronacher-on-the-tower-of-composability-and-ai-agents",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Armin Ronacher on the Tower of Composability and AI Agents",
-      "score": 8,
-      "tags": [
-        "composability",
-        "software-architecture",
-        "AI-agents",
-        "lisp-curse",
-        "essay"
-      ],
-      "originalSite": "lucumr.pocoo.org"
-    },
-    {
-      "id": "620c3f668ee2bf853a074220645ffd9d0492e775",
-      "canonicalId": "9bca5dae0eb3746a2bc8a84ea4d7e2f7e953d0b3",
-      "slug": "cursor-ide-0day-unpatched-vulnerability-allows-arbitrary-exe-execution",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Cursor IDE 0day: Unpatched Vulnerability Allows Arbitrary EXE Execution",
-      "score": 8,
-      "tags": [
-        "security",
-        "vulnerability",
-        "Cursor IDE",
-        "0day",
-        "disclosure"
-      ],
-      "originalSite": "mindgard.ai"
-    },
-    {
-      "id": "fe46c88668caa1434c6b464d042c8d05acb0b5e5",
-      "canonicalId": "0ed32a73888e7302126fb35e73aab22fd5333486",
-      "slug": "linux-input-latency-tested-x11-vs-wayland-vrr-dxvk",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Linux Input Latency Tested: X11 vs Wayland, VRR, DXVK",
-      "score": 8,
-      "tags": [
-        "Linux",
-        "input latency",
-        "Wayland",
-        "X11",
-        "gaming"
-      ],
-      "originalSite": "marco-nett.de"
-    },
-    {
-      "id": "85439dd637e96de7c051457c7a3c68c817d07e8a",
-      "canonicalId": "15773b9ccf27d00e24ad128dcd3c447771c65809",
-      "slug": "punch-yourself-in-the-face-with-reality",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Punch yourself in the face with reality",
-      "score": 8,
-      "tags": [
-        "AI",
-        "programming",
-        "software engineering",
-        "productivity",
-        "reflection"
-      ],
-      "originalSite": "adi.bio"
-    },
-    {
-      "id": "c68af8e550776051e10e495de29806a09e43bdca",
-      "canonicalId": "87fb36a4c3ad440e0b6dfbe358697ab33b5823b3",
-      "slug": "friction-as-shared-understanding-armin-ronacher-on-ai-agents",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Friction as Shared Understanding: Armin Ronacher on AI Agents",
-      "score": 8,
-      "tags": [
-        "software engineering",
-        "AI agents",
-        "shared understanding",
-        "team dynamics",
-        "code review"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "d5c9d3b10cfde4f173d579ba248fbfbd4a20a24b",
-      "canonicalId": "53288cccce93491e23826b81f489b6c8b82b2215",
-      "slug": "new-alem-benchmark-tests-llm-multi-agent-coordination",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "New ALEM Benchmark Tests LLM Multi-Agent Coordination",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "Benchmark",
-        "Multi-Agent",
-        "Coordination",
-        "AI Research"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "01fd6fb79e3ce16eff2a4d16f81d31963e9c72b5",
-      "canonicalId": "d418c4dcb2ef840e77478cea1aa998506d8e37c2",
-      "slug": "lessons-from-building-incremental-indexing-pipelines",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Lessons from Building Incremental Indexing Pipelines",
-      "score": 8,
-      "tags": [
-        "vector store",
-        "incremental indexing",
-        "data pipeline",
-        "idempotency",
-        "partial updates"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "278393b527281df27f1076340db7ee8a34efbb47",
-      "canonicalId": "d1391d716dfb731c636dbe7904770645240fe0df",
-      "slug": "fields-medal-2026-winners-leaked-via-icm-website-code",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Fields Medal 2026 Winners Leaked via ICM Website Code",
-      "score": 8,
-      "tags": [
-        "Fields Medal",
-        "mathematics",
-        "leak",
-        "ICM",
-        "predictions"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "ef5a7c083074bc5bfde206012f3ec572e3a32b00",
-      "canonicalId": "6e82b3f37b7a84d6be77b9b7e300b19e4db8d81c",
-      "slug": "cloudflare-launches-precursor-for-continuous-bot-detection-via-mouse-and-keystroke-analysis",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Cloudflare Launches Precursor for Continuous Bot Detection via Mouse and Keystroke Analysis",
-      "score": 8,
-      "tags": [
-        "Cloudflare",
-        "Bot Detection",
-        "AI",
-        "Security",
-        "Behavioral Verification"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "dfa427686ab884f5f5afa37ce17a540f873ecd4e",
-      "canonicalId": "9da69b4c5d63ba208c1994c53f3a94ce46af97de",
-      "slug": "deepseek-launches-new-funding-round-at-71b-valuation",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "DeepSeek Launches New Funding Round at $71B Valuation",
-      "score": 8,
-      "tags": [
-        "AI融资",
-        "DeepSeek",
-        "AI芯片",
-        "估值"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "0bec14cf5501c8a8a26ac3a6da6170cf216c52bf",
-      "canonicalId": "fd885fb42c2eb3c7642572158a32f3b975e7c5b4",
-      "slug": "gaode-releases-world-model-workshop-with-teleportation",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "Gaode Releases World Model Workshop with Teleportation",
-      "score": 8,
-      "tags": [
-        "world model",
-        "3D generation",
-        "open source",
-        "AI",
-        "Alibaba"
-      ],
-      "originalSite": "ithome.com"
-    },
-    {
-      "id": "b194d99afb786eb1f7b5959a2d319f8380b8d89c",
-      "canonicalId": "cb9db543cbd4130697549f9a38ed5b84a3b81a48",
-      "slug": "deepmind-ceo-calls-for-us-led-global-ai-watchdog",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "DeepMind CEO calls for US-led global AI watchdog",
-      "score": 8,
-      "tags": [
-        "AI regulation",
-        "AI safety",
-        "governance",
-        "DeepMind"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "bc054b7d4feb8449588665194dac7dbb40e74c15",
-      "canonicalId": "4e5ebc0960aaeee64c857aee90d709e0bbf223d2",
-      "slug": "new-york-first-us-state-to-pause-large-data-center-construction",
-      "date": "2026-07-14",
-      "lang": "en",
-      "title": "New York first US state to pause large data center construction",
-      "score": 8,
-      "tags": [
-        "data centers",
-        "energy policy",
-        "regulation",
-        "AI infrastructure"
-      ],
-      "originalSite": "reuters.com"
     }
   ]
 }

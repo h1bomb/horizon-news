@@ -1,0 +1,45 @@
+{
+  "id": "d16f60e1961df0d6f56a7b9d418f4949f2467a62",
+  "canonicalId": "fc362ba711f59d44f4f1c69c201956c28bef036a",
+  "slug": "openai-gpt-56-luna-price-cut-80",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T17:15:00Z",
+  "lang": "en",
+  "title": "OpenAI GPT-5.6 Luna price cut 80%",
+  "summary": "OpenAI announced an 80% price reduction for GPT-5.6 Luna, its fastest and most affordable model, alongside 15% efficiency gains from kernel optimizations and experiments. This drastic cost reduction reshapes AI model economics, making high-quality inference accessible at a fraction of previous cost, and signals a new era of falling prices after a year of increases. The 80% cut means Luna is now 5x cheaper, achieved through kernel work reducing serving cost by 20% and token-generation efficiency gains over 15%. This applies to both API and consumer usage.",
+  "score": 9,
+  "tags": [
+    "GPT-5.6",
+    "OpenAI",
+    "AI cost reduction",
+    "language models",
+    "price-performance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tedsanders",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49112867"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+  "originalSite": "openai.com",
+  "context": "GPT-5.6 is a family of models from OpenAI released in July 2026, with three variants: Luna \\(cheapest\\), Terra \\(balanced\\), and Sol \\(flagship\\). Luna was already very capable and affordable; this update further slashes costs dramatically.",
+  "discussion": "The community expressed shock and excitement, with comments noting the transition feels like dial-up to broadband and speculation about billions in monthly savings for inference providers. Some highlighted the difficulty of choosing models optimally.",
+  "references": [
+    {
+      "title": "GPT-5.6 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GPT-5.6"
+    },
+    {
+      "title": "GPT‑5.6: Frontier intelligence that scales with ... - OpenAI",
+      "url": "https://openai.com/index/gpt-5-6/"
+    },
+    {
+      "title": "GPT-5.6 Luna Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

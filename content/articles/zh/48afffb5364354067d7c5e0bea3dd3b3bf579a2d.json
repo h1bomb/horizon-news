@@ -1,0 +1,45 @@
+{
+  "id": "48afffb5364354067d7c5e0bea3dd3b3bf579a2d",
+  "canonicalId": "82c2a5cb1208ca691c70cb873f76ced86d738e3d",
+  "slug": "gemini-robotics-2-实现机器人全身智能",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T15:15:00Z",
+  "lang": "zh",
+  "title": "Gemini Robotics 2 实现机器人全身智能",
+  "summary": "2026 年 7 月 30 日，谷歌 DeepMind 发布了 Gemini Robotics 2，这是一组三个视觉-语言-动作模型，能够实现对完整人形机器人的全身智能控制、精细灵巧操作以及多机器人协作。 此次发布将机器人技术从桌面操作推进到全身协调，是迈向能够在现实环境中运行的通用人形机器人的重要一步。它展示了大模型与物理行动的结合，可能加速机器人在家庭和工作场所的部署。 Gemini Robotics 2 基于 Gemini 2.0，以三个独立模型形式发布，访问权限受限，目前仅向波士顿动力等受信任的测试者开放。这些模型将视觉和语言输入转化为电机指令，可完成行走、操作和团队协作等全身任务。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Robotics",
+    "DeepMind",
+    "Multimodal AI",
+    "Gemini"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ai2027",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49111237"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+  "originalSite": "deepmind.google",
+  "context": "视觉-语言-动作模型是一种人工智能系统，能处理视觉和文本输入并直接输出机器人动作。此前的机器人模型常专注于抓取或导航等孤立技能。Gemini Robotics 2 将这种能力扩展到全身控制，即机器人使用整个身体（腿、躯干、手臂、手）执行协调任务。之前的版本 Gemini Robotics 于 2025 年 3 月发布，专注于桌面操作。",
+  "discussion": "社区评论对谷歌 DeepMind 广泛的 AI 组合以及快速进步的潜力表示兴奋，但也对当前机器人速度和执行器质量表示怀疑。一些用户请求对现实世界能力进行诚实评估，其他人则将其与早期大语言模型相比，认为起步缓慢但前景光明。",
+  "references": [
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    },
+    {
+      "title": "Gemini Robotics",
+      "url": "https://en.wikipedia.org/wiki/Gemini_Robotics"
+    },
+    {
+      "title": "Google DeepMind Ships Three Physical AI Models For Whole Body ...",
+      "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "0276fc178b1c7f210cc2deffd3a9e05a298225b8",
+  "canonicalId": "37b58119ad78eff48ea088f5f4fe10c8cf31a185",
+  "slug": "claude-ai-weakens-nist-post-quantum-candidate-hawk-in-60-hours",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T05:47:00Z",
+  "lang": "en",
+  "title": "Claude AI Weakens NIST Post-Quantum Candidate HAWK in 60 Hours",
+  "summary": "Anthropic&\\#x27;s Claude Mythos Preview model discovered a critical weakness in the NIST post-quantum digital signature algorithm HAWK, reducing its effective key strength by half. The attack took approximately 60 hours and cost $100,000 in API fees, whereas human experts had missed it for two years. This demonstrates that AI can outperform human cryptanalysts in finding vulnerabilities in post-quantum cryptographic candidates, potentially reshaping the NIST standardization timeline. It underscores the need for cryptographic agility and reliance on proven standards rather than waiting for perfect algorithms. The attack targets HAWK-256, reducing its security from 2^64 to 2^38 operations, but it does not run in polynomial time, so larger key sizes remain secure. Additionally, the model improved the best known attack on a 7-round version of AES-128, though full AES-128 \\(10 rounds\\) is unaffected.",
+  "score": 9,
+  "tags": [
+    "AI",
+    "密码学",
+    "后量子密码学",
+    "NIST",
+    "HAWK"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://startupfortune.com/claude-mythos-broke-hawk-and-the-nist-post-quantum-timeline-may-not-survive-it/",
+  "originalSite": "startupfortune.com",
+  "context": "HAWK is a lattice-based digital signature scheme and the only such candidate in NIST&\\#x27;s Round 3 of the &\\#x27;Additional Digital Signatures&\\#x27; phase for post-quantum cryptography. NIST is standardizing algorithms resistant to quantum computer attacks, following a 2026 executive order requiring federal agencies to migrate to quantum-resistant cryptography by 2030-2031.",
+  "discussion": "",
+  "references": [
+    {
+      "title": "AI Cracks Post-Quantum Cipher in 60 Hours After Two Years of Human Review Failed",
+      "url": "https://www.techtimes.com/articles/321876/20260728/ai-cracks-post-quantum-cipher-60-hours-after-two-years-human-review-failed.htm"
+    },
+    {
+      "title": "Anthropic finds weakness in Hawk post-quantum digital signature algorithm | CSO Online",
+      "url": "https://www.csoonline.com/article/4202920/mythos-takes-its-first-shot-at-post-quantum-cryptography.html"
+    },
+    {
+      "title": "NIST Post-Quantum Cryptography Standardization",
+      "url": "https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Standardization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

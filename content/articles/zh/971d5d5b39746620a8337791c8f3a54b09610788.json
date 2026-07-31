@@ -1,0 +1,32 @@
+{
+  "id": "971d5d5b39746620a8337791c8f3a54b09610788",
+  "canonicalId": "dafe9a2bbb836aa98bb51205e906790c2b6cbb7c",
+  "slug": "重构的经济效益分析",
+  "date": "2026-07-30",
+  "publishedAt": "2026-07-30T15:10:00Z",
+  "lang": "zh",
+  "title": "重构的经济效益分析",
+  "summary": "Martin Fowler 的文章定量分析了重构的经济效益，特别是在 AI 工具辅助下，通过实际测量展示了成本节约和质量改进。 该分析将 AI 辅助软件工程置于具体数据之上，超越了模糊的评论，为考虑采用 AI 的开发者和组织提供了可操作的见解。 该文章可能比较了重构前后的 token 消耗等指标，证明 AI 辅助重构可以降低成本并提高代码质量。",
+  "score": 8,
+  "tags": [
+    "refactoring",
+    "software engineering",
+    "economics",
+    "AI-assisted development",
+    "best practices"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "javaeeeee",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49111176"
+    }
+  ],
+  "originalUrl": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+  "originalSite": "martinfowler.com",
+  "context": "重构是指在保持外部行为不变的情况下重组现有代码，以改善内部结构。随着 GitHub Copilot 等 AI 编程助手的兴起，理解重构的经济影响对采用这些工具的团队至关重要。",
+  "discussion": "评论者赞赏其基于实际、量化的方法，与模糊的 AI 评论形成对比。有人指出，人类开发者的最佳实践正在被 AI 重新发现，另一些人则强调在自主重构中需要人类监督。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
