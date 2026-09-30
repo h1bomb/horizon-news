@@ -1,0 +1,45 @@
+{
+  "id": "1c5e7636464d6306dab9f0d41741b6a9f9599556",
+  "canonicalId": "96e95b323f03d32f4d87b517ddeb9d3466f55e5a",
+  "slug": "glm-称用超-10-万国产加速器承载-glm-53-flash-推理",
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-17T08:27:00Z",
+  "lang": "zh",
+  "title": "GLM 称用超 10 万国产加速器承载 GLM-5.3-Flash 推理",
+  "summary": "GLM 工程博客称，GLM-5.3-Flash 的全部生产推理已跑在超过 10 万颗中国制造的 AI 加速器集群上，由 GLM-5.3 驱动的 Infra Agent 协助搭建，从模型适配到上线耗时不到两周，端到端吞吐量提升约 3 倍。团队通过分层测试、日志、追踪和基准测试形成“密集反馈”循环，让智能体持续定位问题并优化代码，但称这尚未达到递归自我改进。这些数字和效果来自团队自述，目前尚无独立验证。",
+  "score": 8,
+  "tags": [
+    "AI inference",
+    "LLM serving",
+    "AI accelerators",
+    "GLM",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "whiteros\\_e",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49737922"
+    }
+  ],
+  "originalUrl": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+  "originalSite": "z.ai",
+  "context": "智谱的 GLM-5.3 曾在 2026 年 8 月 29 日的日报中被报道为开源发布：它与 GLM-5.2 共用同一基础模型、能力提升全部来自后训练，并采用自定义的 GLM-5.3 License，个人与中小企业可自由使用，而连续 12 个月营收超过 100 亿美元并对外提供模型即服务的公司须先通过 Z.AI 安全审查。本次的 GLM-5.3-Flash 属于同一型号家族，因此这条报道讨论的是该系列模型在生产环境中的部署方式，而非一次新的模型发布。",
+  "discussion": "对需要在出口管制环境下部署大模型推理的团队而言，这条工程记录提供了一个十万卡级国产加速器的可参照实现；外部报道显示，华为、海光、摩尔线程等受美国制裁的国产芯片此前已在 Z.ai 的一次试运行中承载 62 万亿 token 的前沿级推理，而美国对华 AI 芯片出口限制仍在收紧。但服务侧体验仍是短板：有 HN 用户报告经 z.ai 使用 GLM 时响应很慢，且用量限制严格到无法让它整夜运行，说明集群规模本身并不等于终端可用吞吐。\n\nHN 评论者关注硬件自主程度，有人质疑 10 万颗加速器是否真正端到端国产（含光刻、内存、设计等），也有人认为美国出口限制反而迫使中国加速自研 AI 芯片。另有用户报告通过 z.ai 使用 GLM 时速度很慢，且用量限制严格，难以长时间运行。",
+  "references": [
+    {
+      "title": "2026-08-29 — 智谱开源 GLM-5.3，专注智能体编程与网络防御",
+      "url": "http://z.ai/"
+    },
+    {
+      "title": "Nvidia AI Chip Sales to China Face New U.S. Export Restrictions",
+      "url": "https://products.news/2026-07-01-nvidia-ai-chip-china-face-export-restrictions.html"
+    },
+    {
+      "title": "Sanctioned Chinese Chips Just Served 62 Trillion AI Tokens at ...",
+      "url": "https://www.techtimes.com/articles/325872/20260828/sanctioned-chinese-chips-just-served-62-trillion-ai-tokens-frontier-scale.htm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

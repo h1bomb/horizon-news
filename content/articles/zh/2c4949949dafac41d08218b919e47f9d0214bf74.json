@@ -1,0 +1,31 @@
+{
+  "id": "2c4949949dafac41d08218b919e47f9d0214bf74",
+  "canonicalId": "f7b924deeab1ada9dce41fc484dc6faabfe62986",
+  "slug": "gdb-181-发布新增命令目标支持与-python-api",
+  "date": "2026-09-27",
+  "publishedAt": "2026-09-26T15:03:00Z",
+  "lang": "zh",
+  "title": "GDB 18.1 发布：新增命令、目标支持与 Python API",
+  "summary": "GDB 18.1 已发布，可从 GNU FTP 服务器下载 gdb-18.1.tar.xz（22MiB）和 gdb-18.1.tar.gz（37MiB）。该版本新增 set/show/unset local-environment、save history、save skip、save user、info proc environ（仅 Linux）等命令，新增 GNU/Linux/MicroBlaze（gdbserver）与 AArch64 MinGW 两个调试目标，并在 Python API 中加入 gdb.Corefile、gdb.Style 类以及 selected\\_context、corefile\\_changed 事件等接口。Windows 原生目标获得非停止模式（需 Windows 10 或更高版本）、scheduler-locking 和原生线程局部存储（TLS）变量支持，文件路径在 CLI、TUI、GDB/MI 和 DAP 中统一使用正斜杠。发布说明还指出 GDB 现在会把所有类型符号写入 .gdb\\_index，并建议重新生成已有索引。",
+  "score": 7,
+  "tags": [
+    "GDB",
+    "debuggers",
+    "developer-tools",
+    "open-source",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096897/",
+  "originalSite": "lwn.net",
+  "context": "GDB 是 GNU 项目的源码级调试器，支持 Ada、C、C++、Fortran、Go、Rust 等语言，可调试十余种处理器架构上运行的程序，本身也能运行在主流 GNU/Linux、Unix 和 Windows 系统上，并以自由软件许可发布。按发布公告的说法，18.1 的完整改动清单位于 binutils-gdb 源码树中的 NEWS 文件，本文所依据的公告本身只列出条目概要，并未给出深入的技术说明或独立验证。",
+  "discussion": "依赖旧 .gdb\\_index 的用户需要重新生成索引，否则 GDB 仍可能因索引缺少类型符号而找不到某些类型。使用 Windows 原生目标的开发者需运行 Windows 10 或更高版本才能启用非停止模式，而任意波特率串口连接则依赖 libc 通过 cfsetispeed/cfsetospeed 支持（如 glibc 2.42 及以后版本）。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

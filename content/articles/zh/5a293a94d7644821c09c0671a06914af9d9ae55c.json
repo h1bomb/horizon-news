@@ -1,0 +1,49 @@
+{
+  "id": "5a293a94d7644821c09c0671a06914af9d9ae55c",
+  "canonicalId": "dd66acaed2a04b44cad22fd2bd31d13ed4bc8e27",
+  "slug": "openai-gpt-61-sol宣称接近-astra-智能价格仅五分之一",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T17:06:00Z",
+  "lang": "zh",
+  "title": "OpenAI GPT-6.1 Sol：宣称接近 Astra 智能，价格仅五分之一",
+  "summary": "Hacker News 上出现关于 OpenAI GPT-6.1 Sol 的提交，标题宣称其以约五分之一的价格提供接近 Astra 的智能；但所给材料没有公告正文或独立技术细节，无法核实该性能、定价或可用性是否已经正式发布。现有信息只能确认存在这一提交及社区讨论，其中一条评论引述称 GPT-6.1 Sol 缓存输入为每百万 token 0.10 美元，比标准输入低 95%、比 GPT-6 Sol 缓存输入低 50%。这些价格数字来自评论转述，并非本条目提供的官方规格。",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "GPT-6.1 Sol",
+    "LLM pricing",
+    "AI model competition",
+    "community skepticism"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "crorella",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49896586"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
+  "originalSite": "openai.com",
+  "context": "这次发布处在同一系列的连续更新之中。Horizon 9 月 23 日的日报曾报道，OpenAI 于 9 月 22 日发布 GPT-6 Sol 与 GPT-6 Luna，两者定价约为 GPT-5.6 对应型号的一半（Sol 为每百万 token 输入 2 美元、输出 10 美元），同时指出当时缺少公告正文，参数规模、可用范围与兼容性均未获确认。相比 GPT-6 Sol，OpenAI 的 GPT-6.1 Sol 页面显示该模型尚未在 ChatGPT 中提供，开发者可通过 API 以 gpt-6.1-sol 调用，标准价格为每百万输入 token 2 美元、缓存输入 0.10 美元、输出 10 美元。",
+  "discussion": "评论者围绕实际使用价值发生分歧：proxysna 称 DeepSeek 更便宜且体验差距可忽略，愿意为性价比落后“前沿”约六个月；the\\_duke 则报告 GPT-6 Sol 相比 Sol 5.6 出现明显质量回退并转用 Opus 5.5，因此对 6.1 持怀疑态度。revolvingthrow 猜测 Sol 6.1 可能是文件中出现的 Astra-Minor 因 Sol 6 表现不佳而紧急改名，minimaxir 认为缓存输入降价才是本次发布最关键的部分，这些均属社区观点而非已确认事实。",
+  "references": [
+    {
+      "title": "2026-09-23 — Claude Opus 5.5 与 GPT-6 Sol/Luna 同日发布，价格战升温",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+    },
+    {
+      "title": "2026-09-23 — OpenAI 发布 GPT-6 Sol 与 Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    },
+    {
+      "title": "Introducing GPT - 6 . 1 Sol | OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+    },
+    {
+      "title": "OpenAI ’s Price War with Anthropic Could Undermine Its IPO",
+      "url": "https://beincrypto.com/openai-price-cuts-anthropic-ipo/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,48 @@
+{
+  "id": "793d85f25347eb82f2c9a7555c01ddbba752db12",
+  "canonicalId": "05db07f33fba6879d42b46779e65a8c3279ec56b",
+  "slug": "simon-willison-推荐-python-猴子补丁库-wrapture",
+  "date": "2026-09-12",
+  "publishedAt": "2026-09-11T13:51:00Z",
+  "lang": "zh",
+  "title": "Simon Willison 推荐 Python 猴子补丁库 wrapture",
+  "summary": "Simon Willison 在其博客中推荐 Graham Dumpleton 的新 Python 猴子补丁库 wrapture，称其正逐渐成为 Python 开发者不可或缺的工具，并惊讶于外界关注之少。wrapture 于 8 月 31 日首次发布，可同时服务于测试与可观测性（类似 New Relic 风格的追踪），此后 Dumpleton 几乎每天发布一篇教程。教程内容涵盖用它完成 unittest.mock 式的单元测试、将方法调用记录为时间线并以树形结构处理与展示、安排被补丁方法在多次调用中改变行为，以及对属性、字典和生成器进行猴子补丁。教程还涉及实时追踪应用、通过独立的 TOML 文件实现零代码追踪、记录单次与聚合的耗时以定位慢代码，以及将追踪导出到 OpenTelemetry；配套的 wrapture-instrumentation 包为 Flask 应用及 aiohttp.client、aiohttp.web、django、fastapi、flask、grpc、http.client、httpx、jinja2、requests、sqlalchemy、sqlite3、starlette、urllib.request、urllib3、uvicorn、werkzeug.serving、wsgiref.simple\\_server、xmlrpc.client、xmlrpc.server 提供插桩。Willison 指出 wrapture 仍是 alpha 软件但已相当可用，尤其因为可以只通过 TOML 文件配置、完全不修改 Python 代码就试用；此外还有一套以 JupyterLab notebook 实现的交互式工作坊。",
+  "score": 7,
+  "tags": [
+    "Python",
+    "monkey patching",
+    "testing",
+    "observability",
+    "libraries"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/11/wrapture/",
+  "originalSite": "simonwillison.net",
+  "context": "Python 中的 monkey patching（猴子补丁）指在运行时替换或包装已有的函数与属性，常用于构造测试替身，也被用于类似 New Relic 式的调用追踪等可观测性场景。wrapture 由 Graham Dumpleton 开发，构建在他早先的包装库 wrapt 之上，通过把绑定附加到调用点来打补丁、测试和追踪 Python 代码，而不修改被观察的代码；作者说明该包是在其指导下由 AI 编写的。wrapture 于 2026 年 8 月 31 日首次发布，此后作者几乎每天发布教程，这构成了理解其同时服务于测试与可观测性定位的背景。",
+  "discussion": "对于 Python 开发者而言，wrapture 虽仍处于 alpha 阶段，但已能通过 TOML 文件在不修改任何 Python 代码的前提下配置追踪，并借助独立的 wrapture-instrumentation 包覆盖 Flask、Django、FastAPI、SQLAlchemy、httpx、gRPC 等常用框架与库，因此可低成本地在测试与可观测性场景中先行试用。其 alpha 状态意味着在生产环境大规模采用前仍需谨慎评估。",
+  "references": [
+    {
+      "title": "GitHub - GrahamDumpleton/wrapture: Monkey patch, test, and trace Python by attaching bindings to call sites, without modifying the code being observed. Built on wrapt. · GitHub",
+      "url": "https://github.com/GrahamDumpleton/wrapture"
+    },
+    {
+      "title": "Introducing wrapture - Graham Dumpleton",
+      "url": "https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/"
+    },
+    {
+      "title": "Don&#x27;t sleep on wrapture",
+      "url": "https://simonwillison.net/2026/Sep/11/wrapture/"
+    },
+    {
+      "title": "GitHub - GrahamDumpleton/wrapture: Monkey patch, test, and trace Python by attaching bindings to call sites, without modifying the code being observed. Built on wrapt. · GitHub",
+      "url": "https://github.com/GrahamDumpleton/wrapture"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

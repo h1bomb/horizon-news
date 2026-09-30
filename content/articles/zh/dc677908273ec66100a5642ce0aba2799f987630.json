@@ -1,0 +1,52 @@
+{
+  "id": "dc677908273ec66100a5642ce0aba2799f987630",
+  "canonicalId": "7e7cf51a2f38432b19c624ae3ef1c386141dbee6",
+  "slug": "nix-包可通过浏览器内的-qemu-wasm-虚拟机直接启动",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T23:44:00Z",
+  "lang": "zh",
+  "title": "Nix 包可通过浏览器内的 qemu-wasm 虚拟机直接启动",
+  "summary": "Farid Zakaria 发布了 trynix.dev，他称其为自己在 Nix 工作上的“magnum opus”（代表作）。该站点基于 ktock 的 qemu-wasm，在浏览器中通过 WebAssembly 完整运行一台 x86\\_64 Linux 虚拟机，无需任何服务器，并可载入过去 13 年间的任意 Nix 包。页面采用 URL 寻址，例如访问 https://trynix.dev/?pkg=python3%403.6.2 并点击“Load”，即可获得一个运行 2017 年 Python 3.6.2 的交互式 shell。Zakaria 还在此基础上构建了 trynix-preview：这是一个 GitHub Action，会在 pull request 上评论一条链接，让评审者直接在浏览器中启动该 PR 的构建并进行评审。Simon Willison 转述了这一进展。",
+  "score": 8,
+  "tags": [
+    "nix",
+    "webassembly",
+    "virtualization",
+    "developer-tools",
+    "reproducible-builds"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/10/trynix/",
+  "originalSite": "simonwillison.net",
+  "context": "Nix 是声明式包管理与构建系统，其包集合 nixpkgs 历年由 Hydra 等持续集成构建出的二进制产物保存在 Nix 二进制缓存中，因此可以按具体版本回溯取回某个包精确的 store 路径。QEMU-WASM 把 QEMU 模拟器编译为 WebAssembly，使 x86\\_64 Linux 内核与虚拟机能够在浏览器标签页内运行，完全不需要服务器端支持。trynix 在此基础上结合 nixpkgs-multiverse 索引，将包及其依赖闭包放入内存中的 Nix store，而包本身通过普通 HTTP 从 Nix 二进制缓存下载。",
+  "discussion": "对 Nix 开发者而言，trynix-preview 这一 GitHub Action 会在拉取请求上自动评论一个链接，使审查者无需检出分支或自备服务器，即可在浏览器标签页中直接启动该 PR 的构建产物。",
+  "references": [
+    {
+      "title": "trynix",
+      "url": "https://trynix.dev/"
+    },
+    {
+      "title": "TryNix runs any Nix package in a browser tab",
+      "url": "https://techaiwire.com/articles/trynix-nix-packages-in-browser-wasm/"
+    },
+    {
+      "title": "Any Nix package, live in your browser | Farid Zakaria’s Blog",
+      "url": "https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser"
+    },
+    {
+      "title": "trynix preview · Actions · GitHub Marketplace · GitHub",
+      "url": "https://github.com/marketplace/actions/trynix-preview"
+    },
+    {
+      "title": "Review a pull request by booting it | Farid Zakaria’s Blog",
+      "url": "https://fzakaria.com/2026/09/09/review-a-pull-request-by-booting-it"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

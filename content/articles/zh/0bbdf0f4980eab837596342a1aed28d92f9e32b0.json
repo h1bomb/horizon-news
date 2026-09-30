@@ -1,0 +1,41 @@
+{
+  "id": "0bbdf0f4980eab837596342a1aed28d92f9e32b0",
+  "canonicalId": "81b3da03dd64eeb7ade30468836e4ff236b64347",
+  "slug": "博文称-chatgpt-借广告采集器获知用户站外活动",
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-20T15:18:00Z",
+  "lang": "zh",
+  "title": "博文称 ChatGPT 借广告采集器获知用户站外活动",
+  "summary": "一篇在 Hacker News 上引发讨论的博文（发布于 2026 年 9 月 20 日）声称，ChatGPT 现在使用广告技术采集器，从而能够推断用户在其他网站上的活动。该说法目前仅来自这一篇博文，未获独立验证，并且有评论者质疑文章可能是用 AI 生成的。评论者普遍指出，这套机制本身属于标准广告技术，真正没有先例的是把它用在 AI 聊天产品上。",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "adtech",
+    "ChatGPT",
+    "web-tracking",
+    "AI-products"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lmbbuchodi",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49776729"
+    }
+  ],
+  "originalUrl": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+  "originalSite": "buchodi.com",
+  "context": "OpenAI 此前宣布开始在 ChatGPT 中测试广告，以支持免费访问，并表示广告会被明确标注、不影响回答的独立性，同时提供较强的隐私保护和用户控制选项（tool-1-1）。这是理解“ChatGPT 通过广告采集器获知站外行为”这类说法的前提：广告投放通常伴随基于浏览器或设备的受众测量机制，而该机制用于 AI 聊天产品正是争议所在。",
+  "discussion": "对 ChatGPT 用户来说，最直接的实操后果来自浏览器差异：有评论者援引 MDN 指出，Firefox、Brave 和 Safari 会阻止这类浏览器内归因机制，而 Chrome 和 Edge 不会，因此同一账号在不同浏览器下的可被推断范围并不相同。不过，整项说法目前仅出自一篇博客文章，未被独立核实，还被部分评论者质疑为 AI 生成，所以应将其视为待验证的报告，而非已确认的产品能力。追踪技术本身长期被隐私从业者视为高隐私风险领域，也是欧盟监管持续关注的对象。\n\n评论者围绕隐私预期展开争论：有人认为，用户与 AI 对话时的隐私预期不同于浏览 Facebook 这类免费广告平台时，而 ChatGPT 是付费订阅的。在防护手段上，有评论者引用 MDN 文档称 Firefox、Brave 和 Safari 会阻止这类机制，Chrome 和 Edge 不会；另有评论者认为欧盟的相关立法虽有扰人之处，但对消费者数据隐私总体是正面的。",
+  "references": [
+    {
+      "title": "Testing ads in ChatGPT | OpenAI",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt/"
+    },
+    {
+      "title": "Tracking Technologies: The Hidden Backbone of AdTech ... | TrustArc",
+      "url": "https://trustarc.com/resource/tracking-technologies-adtech-privacy-minefield/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

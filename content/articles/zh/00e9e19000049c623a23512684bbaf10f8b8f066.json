@@ -1,0 +1,36 @@
+{
+  "id": "00e9e19000049c623a23512684bbaf10f8b8f066",
+  "canonicalId": "170c28ecfa44e4118244977e2b9951d7136ba102",
+  "slug": "claude-code-云会话正式上线promax-可领云端额度",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T02:45:00Z",
+  "lang": "zh",
+  "title": "Claude Code 云会话正式上线，Pro/Max 可领云端额度",
+  "summary": "Anthropic 宣布 Claude Code 云会话结束研究预览并正式上线：用户合上笔记本后任务仍可在云端继续运行，并可从浏览器、手机、桌面应用或终端随时查看和接管。该功能面向 Pro、Max、Team 及 Enterprise 用户开放，现有订阅用户可领取一次性体验额度，Pro 为 100 美元、Max 为 250 美元，额度仅可用于 Cloud sessions。领取需通过官方领取页登录或在 Claude Code 中执行 /claim-credit，截止时间为太平洋时间 10 月 7 日 23:59，额度有效期至 11 月 4 日 23:59。官方注明资格需登录后按账号及条款判定，并非所有用户都能领取，且当前支持地区名单不含中国大陆、香港和澳门。",
+  "score": 7,
+  "tags": [
+    "Claude Code",
+    "AI coding agents",
+    "cloud sessions",
+    "Anthropic",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://code.claude.com/docs/en/claude-code-on-the-web",
+  "originalSite": "code.claude.com",
+  "context": "云会话此前以研究预览形式提供，本次发布将其转为 Pro、Max、Team 和 Enterprise 用户的正式功能。Anthropic 帮助中心 8 月 19 日的文档显示，Pro 与 Max 订阅本身已可用于 Claude Code，但受订阅用量限额约束，需要高强度编码时官方建议改用 Claude Console 账户购买 API 用量额度；而本次发放的一次性额度按公告仅限 Cloud sessions 使用。",
+  "discussion": "对符合条件的 Pro 和 Max 订阅者来说，需要留意两项时间限制：额度必须在太平洋时间 10 月 7 日 23:59 前领取，且使用期限到 11 月 4 日 23:59，逾期即失效；同时该额度只能用于云会话，不能抵扣其他 Claude Code 用量。中国大陆、香港和澳门的开发者不在当前支持地区名单内，即使订阅也无法通过该渠道使用云会话。",
+  "references": [
+    {
+      "title": "Use Claude Code with your Pro or Max plan | Claude Help Center",
+      "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

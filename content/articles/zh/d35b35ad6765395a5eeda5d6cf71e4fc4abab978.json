@@ -1,0 +1,52 @@
+{
+  "id": "d35b35ad6765395a5eeda5d6cf71e4fc4abab978",
+  "canonicalId": "f182df22e16f1e3cf3821d524d9bbce0b983b8aa",
+  "slug": "openai-法庭文件称苹果-chatgpt-集成表现不佳",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T05:15:00Z",
+  "lang": "zh",
+  "title": "OpenAI 法庭文件称苹果 ChatGPT 集成表现不佳",
+  "summary": "据《金融时报》报道，OpenAI 在 2026 年 9 月 23 日提交的法庭文件中称，苹果的 ChatGPT 集成「表现严重不佳」，并对用户缺乏兴趣表示失望。该文件称，两家公司 2024 年达成协议由 ChatGPT 为 Apple 智能提供支持，但集成默认关闭、需多步骤激活，被指是采用率偏低的原因。这份文件出自 xAI 提起的反垄断诉讼；报道还称双方关系随后恶化，包括苹果对 OpenAI 提起商业秘密诉讼，以及苹果今年 1 月与谷歌合作、用 Gemini 重建 Siri AI。以上均为该文件与报道中的说法，集成实际使用数据未在材料中给出。",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "Apple",
+    "Apple Intelligence",
+    "antitrust",
+    "AI partnerships"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ft.com/content/256c4b36-a6c8-49ee-aa15-81cb089b2ced",
+  "originalSite": "ft.com",
+  "context": "这一争议建立在 2024 年苹果与 OpenAI 达成的协议之上：由 ChatGPT 为 Apple Intelligence 提供支持，但该集成默认关闭、需要多步骤才能激活，这也被指为采用率偏低的原因。相关法庭文件并非双方互诉，而是源于 2025 年 8 月马斯克旗下的 xAI（现属 SpaceX）针对苹果与 OpenAI 这项合作提起的反垄断诉讼（tool-2-1）；OpenAI 已请求法院驳回该诉讼，并在其中披露 Apple Intelligence 的 ChatGPT 集成表现远低于预期（tool-2-3）。",
+  "discussion": "对 Apple 智能的用户与开发者来说，最直接的后果是 ChatGPT 集成不再被视为 Siri 的长期模型路径：苹果已在 2026 年 1 月确认与谷歌达成多年协议，由 Gemini 驱动新版 Siri，而 OpenAI 据报是有意不参与该合作。叠加苹果对 OpenAI 的商业秘密诉讼，正在做长期技术规划的开发者应把 Gemini 作为 Apple 智能的主要对接模型，而不是继续押注这一默认关闭、激活步骤繁琐的 ChatGPT 集成。",
+  "references": [
+    {
+      "title": "Apple’s ChatGPT tools ‘dramatically underperformed’, OpenAI ...",
+      "url": "https://www.ft.com/content/256c4b36-a6c8-49ee-aa15-81cb089b2ced?syn-25a6b1a6=1"
+    },
+    {
+      "title": "OpenAI Seeks Dismissal of xAI&#x27;s Antitrust Lawsuit",
+      "url": "https://theoutpost.ai/news-story/open-ai-asks-court-to-dismiss-x-ai-s-antitrust-lawsuit-as-apple-intelligence-integration-underperformed-31275/"
+    },
+    {
+      "title": "Apple will pay billions for Gemini after OpenAI declined",
+      "url": "https://9to5mac.com/2026/01/15/apple-will-pay-billions-for-gemini-openai-decided-against-siri-deal-ft/?ref=upstract.com"
+    },
+    {
+      "title": "The End of the Siri - OpenAI Era? Everything You... | Bolder Apps Blog",
+      "url": "https://www.bolderapps.com/blog-posts/the-end-of-the-siri-openai-era-everything-you-need-to-know-about-the-apple-google-gemini-pact"
+    },
+    {
+      "title": "Apple Sues OpenAI for Trade Secret Theft — Siri Switches to Google...",
+      "url": "https://tetono.com/en/news/apple-sues-openai-siri-gemini-2026-07/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

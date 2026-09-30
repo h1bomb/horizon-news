@@ -1,0 +1,53 @@
+{
+  "id": "a5ff73adc107d0cce8fff5899643e30325dcc736",
+  "canonicalId": "54422eea02357412a8d8c9e8f98d07cc31fbaa2a",
+  "slug": "三星据报拟将-hbm4hbm4e-产量提高一倍以上",
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-20T17:38:00Z",
+  "lang": "zh",
+  "title": "三星据报拟将 HBM4/HBM4E 产量提高一倍以上",
+  "summary": "据 Sedaily 报道，三星被指计划在明年把 HBM4 与 HBM4E DRAM 的产量提高一倍以上。该消息来自未具名消息人士，三星尚未确认，因此目前属于扩产传闻而非已落地的产能。HBM4 是面向 AI 加速器的新一代高带宽内存，若扩产属实，将影响 AI 硬件供应链与 DRAM 市场供给。报道未给出具体产能数字、时间表或客户信息。",
+  "score": 7,
+  "tags": [
+    "HBM4",
+    "Samsung",
+    "DRAM",
+    "AI hardware",
+    "semiconductor supply chain"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "giuliomagnifico",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49778029"
+    }
+  ],
+  "originalUrl": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+  "originalSite": "en.sedaily.com",
+  "context": "AI 算力需求推动的高带宽内存（HBM）紧缺已持续一段时间：6 月 23 日的日报曾报道，美光宣布 2000 亿美元扩产计划以缓解 AI 内存供应瓶颈，其中爱达荷州两座新厂的首座预计 2027 年中期开始生产面向 HBM 的 DRAM，而此前一年 DRAM 价格涨幅超过 170%。6 月 24 日的日报另报道，中国长鑫存储（CXMT）正筹备 IPO 并推进 HBM3 生产与晶圆产能扩张，准备在 DRAM 与 HBM 市场挑战三星、SK 海力士和美光，三星此次扩产正处在这一供给竞赛的背景下。",
+  "discussion": "对内存采购方而言，这轮扩产更可能延续而非缓解结构性挤压：三家主要 DRAM 供应商 2026 年的 HBM 产出已被描述为基本被预订、售罄或集中于单一主要客户，HBM 需求正把晶圆与封装产能从传统内存中抽走，消费级 DDR5 零售价也已明显上涨。因此 AI 加速器厂商需要更早锁定长期供货协议，而 PC 等依赖标准 DRAM 的买家在短期内难以指望 HBM4/HBM4E 增产带来价格回落。\n\n评论者把关注点放在产能而非算力芯片上：有评论称限制中国 AI 加速器产量的瓶颈是 CXMT 的 HBM 产能而非处理器或 ASML 设备，也有人担心 HBM 扩产会挤占产能、令消费级 DRAM 价格进一步上涨；另有评论提到芯片减薄（die thinning）这一平时少被公开讨论的工艺环节。这些均属评论者的个人观察或推测，未在报道中得到证实。",
+  "references": [
+    {
+      "title": "2026-06-23 — Micron plans $200B expansion to ease AI memory shortage",
+      "url": "https://t.me/zaihuapd/42101"
+    },
+    {
+      "title": "2026-06-24 — CXMT Set to Challenge DRAM Leaders with IPO and HBM Push",
+      "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram"
+    },
+    {
+      "title": "HBM, DRAM &amp; AI Demand: Memory Supply and Price Trends",
+      "url": "https://intuitionlabs.ai/articles/hbm-dram-ai-memory-demand"
+    },
+    {
+      "title": "2026 HBM and DRAM Supply Chain Analysis: Navigating AI-Driven ...",
+      "url": "https://supplyics.com/insights/market-intelligence/2026-hbm-dram-memory-supply-chain-analysis/"
+    },
+    {
+      "title": "DRAM Prices Climb as AI Triggers a Memory Supercycle",
+      "url": "https://ecmsource.com/dram-hbm-memory-supercycle-ai-shortage-june-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

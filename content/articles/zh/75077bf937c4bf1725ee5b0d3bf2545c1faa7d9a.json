@@ -1,0 +1,44 @@
+{
+  "id": "75077bf937c4bf1725ee5b0d3bf2545c1faa7d9a",
+  "canonicalId": "d58e0f89362182c1a07ba1515528ffdf74af3599",
+  "slug": "腾讯混元发布开源音频编辑模型-auk-与-auk-flash",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T11:56:00Z",
+  "lang": "zh",
+  "title": "腾讯混元发布开源音频编辑模型 AuK 与 AuK-Flash",
+  "summary": "腾讯混元宣布正式发布开源音频编辑模型 AuK。该模型可通过自然语言指令与参考音频统一完成语音生成与编辑，支持零样本文本转语音、音色/风格/情绪编辑、去口音及多人语音分离等功能。同时发布的 AuK-Flash 采用 4 步推理，在匹配条件下速度约提升 4.5 倍；代码、模型权重和演示均已上线。不过官方此次仅发布简短说明，未提供论文、基准测试或独立验证结果。",
+  "score": 7,
+  "tags": [
+    "audio editing",
+    "text-to-speech",
+    "open source",
+    "Tencent Hunyuan",
+    "speech synthesis"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/TencentHunyuan/status/2097996926876795197",
+  "originalSite": "x.com",
+  "context": "语音生成（如零样本文本转语音）与语音编辑以往通常由不同模型分别处理，AuK 则试图用同一套自然语言指令接口统一这些任务。据第三方解读，AuK 是一个 1.5B 参数的语音基础模型，训练数据包含 30.3 亿条指令—音频实例和 195 万小时监督数据，覆盖 TTS、内容编辑、增强分离与副语言编辑；其训练方式枚举同一说话人的成对语句且不提供提示音频的转写，从而迫使模型解耦说话人特征与语句级信息，这也是它能用几秒参考音频克隆音色的基础。AuK-Flash 是配套的蒸馏版本，采用 4 步推理，权重以 MIT 协议发布。",
+  "discussion": "对音频与语音开发者而言，AuK 以开源形式提供统一的生成与编辑能力，并附带权重与演示，可能降低构建语音编辑应用的门槛，但其实际性能因缺乏基准测试与独立验证仍需自行评估。",
+  "references": [
+    {
+      "title": "腾讯混元开源AuK:1.5B语音模型统一生成与编辑,4步推理快4.5倍",
+      "url": "https://www.aimodeling.com/news/slug/tencent-hunyuan-auk-speech-editing"
+    },
+    {
+      "title": "AuK：腾讯混元开源的语音生成与编辑统一基础模型深度解读 - fox_charo...",
+      "url": "https://www.cnblogs.com/foxcharon/p/22918448"
+    },
+    {
+      "title": "AuK - 腾讯混元开源的语音生成与编辑基础模型 | AI工具集",
+      "url": "https://ai-bot.cn/auk/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

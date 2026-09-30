@@ -1,0 +1,49 @@
+{
+  "id": "79a30882589a92aff30a7ce634de6d0ff49e3306",
+  "canonicalId": "ad1c7d356fc8afb92c481b85903b841bd52eff85",
+  "slug": "微软将-rust-列为一级语言",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T13:39:00Z",
+  "lang": "zh",
+  "title": "微软将 Rust 列为一级语言",
+  "summary": "微软已将 Rust 列为一级（tier-1）语言，这一消息来自 Rust 基金会网站上的一篇客座文章。对于系统编程和软件工程而言，这被视为重要行业信号，可能影响 Rust 在微软产品与 MSVC 工具链中的采用，并强化内存安全优先级。不过，当前提供的内容没有给出微软官方支持范围、版本、时间表或具体产品，因此尚不能确认这一级别划分在实际开发流程中的约束与承诺。相关讨论还提到微软大规模将 C/C++ 代码迁移到 Rust 的目标，但这些属于社区转述与延伸，需以官方信息为准。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "Microsoft",
+    "systems programming",
+    "memory safety",
+    "programming languages"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mmastrac",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49643546"
+    }
+  ],
+  "originalUrl": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+  "originalSite": "rustfoundation.org",
+  "context": "Rust 是一种通用编程语言，强调性能、类型安全、并发和内存安全。微软将 Rust 列为 Tier-1 语言，意味着它在微软内部获得与既有主流语言同等的支持级别；不过 C++ 在数十年积累后仍占主导，且微软的生产软件需要经过严格的安全与质量流程。",
+  "discussion": "获得 Tier-1 工程地位后，Microsoft 内部团队和 Windows 平台的 Rust 开发者将得到从本地开发到生产的受支持路径，包括安全工具链构建、生产力工具、质量流程、SDL 合规以及直连 MSVC 后端，从而能在 Windows 上以更原生的方式使用 Rust 进行系统编程，而不必维持并行的 LLVM 栈。\n\n评论者普遍认为这是重要信号：有人提到微软设定了到 2030 年通过自动化工具将 10 亿行代码转换为 Rust 的目标（“1 名工程师、1 个月、100 万行代码”），以及 DARPA 资助的 6 支团队尝试自动把 C 代码转成 Rust；也有人强调 Rust 已是成熟、可与 C++/C\\# 竞争的“更好 C/C++”选择。另有评论关注 MSVC 集成传闻，称这次变化的关键是改用 MSVC 后端而非 LLVM，并引用 Azure CTO Mark Russinovich 关于 70% CVE 属于内存安全问题的说法。",
+  "references": [
+    {
+      "title": "Rust (programming language ) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rust_%28programming_language%29"
+    },
+    {
+      "title": "Guest Post : Rust Is Tier - 1 Language at Microsoft",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/"
+    },
+    {
+      "title": "Guest Post: Rust Is Tier-1 Language at Microsoft",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/"
+    },
+    {
+      "title": "Microsoft Makes Rust a Tier-1 Language, Ships Custom MSVC ...",
+      "url": "https://mangodeveloper.com/articles/microsoft-makes-rust-a-tier-1-language-ships-custom-msvc-backend"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

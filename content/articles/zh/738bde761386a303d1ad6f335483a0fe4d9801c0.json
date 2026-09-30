@@ -1,0 +1,31 @@
+{
+  "id": "738bde761386a303d1ad6f335483a0fe4d9801c0",
+  "canonicalId": "985e6c19fe0b72ab075621229ee106865c6f56fd",
+  "slug": "用-rseq-操作修复-tcmalloc-在-linux-619-的回归",
+  "date": "2026-09-08",
+  "publishedAt": "2026-09-07T14:33:00Z",
+  "lang": "zh",
+  "title": "用 RSEQ 操作修复 TCMalloc 在 Linux 6.19 的回归",
+  "summary": "Linux 6.19 合入的 restartable sequences（RSEQ）性能优化移除了对 struct rseq 中 cpu\\_id\\_start 字段的无条件设置，破坏了 TCMalloc 依赖该字段被内核重置来检测线程中断的未文档化用法，造成回归。Olivier Dion 提出为 RSEQ API 增加“RSEQ operations”机制：用户空间通过 prctl\\(\\) 的 PR\\_RSEQ\\_OP\\_REGISTER/UNREGISTER 注册操作，内核在每次返回用户空间时执行 RSEQ\\_OP\\_RESET 或按 CPU/虚拟 CPU ID 步进的写操作，从而在不让未使用该特性的线程付出性能代价的前提下恢复 TCMalloc 所需行为。该补丁把操作节点链表留在用户空间内存，总数上限为 2048，目前仍处于 RFC 阶段，尚未收到大量评审意见。提案刻意避开需要 CAP\\_BPF 的 BPF 方案，但已有维护者担心它会逐渐演变成另一个字节码解释器。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "TCMalloc",
+    "restartable sequences",
+    "memory allocation",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1092555/",
+  "originalSite": "lwn.net",
+  "context": "可重启序列是一种内核与用户空间共享 struct rseq 的机制，用户空间可以执行无锁操作，若在操作期间被抢占，内核会通知其重新执行；cpu\\_id\\_start 字段由内核维护并应视为只读。TCMalloc 却向该字段写入哨兵值，并通过内核将其重置为有效 CPU 号来感知线程执行被打断；6.19 的 RSEQ 优化不再无条件设置该字段，因此破坏了这一技巧，内核目前需为旧 API 使用者保留兼容行为，造成代码复杂度和性能损失。",
+  "discussion": "若该 API 被合入，TCMalloc 将可迁移到当前 RSEQ 接口，恢复与 glibc 的兼容性，并消除现有兼容路径带来的代码复杂度和性能损失；由于补丁仍处 RFC 阶段，最终接口形态和是否合入尚不确定。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

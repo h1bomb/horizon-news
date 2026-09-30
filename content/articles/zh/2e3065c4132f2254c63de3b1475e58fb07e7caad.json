@@ -1,0 +1,47 @@
+{
+  "id": "2e3065c4132f2254c63de3b1475e58fb07e7caad",
+  "canonicalId": "4e69396feb63bee283a81c8cd44b7f22ce5ed32b",
+  "slug": "shinyhunters-声称入侵-fbi-并掌握员工及申请者数据",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T05:00:00Z",
+  "lang": "zh",
+  "title": "ShinyHunters 声称入侵 FBI 并掌握员工及申请者数据",
+  "summary": "黑客组织 ShinyHunters 声称已入侵多个与 FBI 相关的服务，并窃取所有 FBI 员工及求职申请者的数据。据 404 Media 报道，该组织提供的一份样本包含约 5,000 名所谓 FBI 员工的信息，可能涉及姓名、住址、电话号码以及配偶等家属信息。FBI 尚未确认这一说法，因此目前这仍是一项未经验证的入侵与数据窃取声明。",
+  "score": 7,
+  "tags": [
+    "cybersecurity",
+    "data breach",
+    "FBI",
+    "ShinyHunters"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+  "originalSite": "404media.co",
+  "context": "ShinyHunters 是一个此前已有大规模入侵记录的黑客组织：Horizon 5 月 9 日的日报曾报道该组织入侵 Canvas 学习管理系统，导致近 9,000 所学校或机构受影响、超过 300 TB 数据泄露（tool-1-2）。就本次事件而言，外媒报道称 FBI 正在调查针对 FBIjobs.gov 的活动，该组织则声称数据来自一次 PeopleSoft 漏洞利用，并涉及存放员工与申请者信息的 AWS GovCloud 环境，但它宣称的入侵规模以及所谓零日漏洞都尚未得到证实（tool-2-1、tool-2-2、tool-2-3）。",
+  "discussion": "如果这些数据确实泄露，住址、电话和家属信息可能被用于跟踪、骚扰或威胁 FBI 员工及其家属，并给美国执法和情报系统带来安全与反情报风险；但在 FBI 确认或独立验证前，这一后果仍是潜在风险而非已确认事实。",
+  "references": [
+    {
+      "title": "2026-05-09 — Canvas hacked by ShinyHunters, disrupting US schools finals week",
+      "url": "https://www.cnn.com/2026/05/07/us/canvas-hack-strands-college-students-finals-week"
+    },
+    {
+      "title": "ShinyHunters Claims an FBI Breach : What the... — Hive Security",
+      "url": "https://hivesecurity.gitlab.io/blog/shinyhunters-fbi-jobs-breach-claims-2026/"
+    },
+    {
+      "title": "FBI Investigates Hackers&#x27; Claim of Major Data Breach | Newsmax.com",
+      "url": "https://www.newsmax.com/newsfront/shinyhunters-cyberattack-fbi/2026/09/23/id/1270448/"
+    },
+    {
+      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day...",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

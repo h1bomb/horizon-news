@@ -1,0 +1,44 @@
+{
+  "id": "cc93cb601ebc0459b6deda7bb4c5610417caa71c",
+  "canonicalId": "d1deb1aedf14b81598f5d8b5d51accc0d56ccb69",
+  "slug": "sglang-v0520-发布新增多模型并退役-cuda-12",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T22:41:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.20 发布：新增多模型并退役 CUDA 12",
+  "summary": "面向 LLM 推理服务的开源框架 sgl-project/sglang 发布 v0.5.20，包含来自 237 名贡献者的 713 个 PR，并新增 GLM-5.3-Flash、Hy4-Preview、Qwen3.8-Flash-Next、K2 Horizon 等自回归模型以及 SenseNova-U1.5-8B-MoT、MiniMax-H3 蒸馏版等扩散模型支持。该版本还加入 RL rollout 的 return\\_sampling\\_mask、统一 radix tree、DSpark PD 解码上下文并行、仅 CPU 的 SGLang Simulator，并让 Intel XPU 进入正式发布镜像。发布说明称，采样掩码在重叠调度下使 Qwen3-8B 解码吞吐在 batch 1/64 分别提升 17%/52%，统一 radix tree 在 DeepSeek-V4-Flash 上把共享系统提示的 token 命中率从 43.8% 提高到 60.8%。破坏性变更包括 CUDA 12 lane 退役（v0.5.19 是最后一个带 -cu12x wheel/镜像的版本）、Prefill context parallelism v1 移除，以及 /v1/responses 存储改为必须显式启用 --enable-response-store，否则相关检索和链式请求返回 400，且 PD 部署无法启用该选项。",
+  "score": 7,
+  "tags": [
+    "SGLang",
+    "LLM inference",
+    "open source",
+    "model serving",
+    "release notes"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Qiaolin-Yu"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-09 — SGLang v0.5.17 发布：支持 Kimi K3 与 MiniMax-H3",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
+    },
+    {
+      "title": "Releases · sgl-project/sglang - GitHub",
+      "url": "https://github.com/sgl-project/sglang/releases"
+    },
+    {
+      "title": "SGLang v0.5.20 Released: New Models and Optimizations",
+      "url": "https://localmodelwatch.tsuchitsuchi.com/en/2026/09/19/sglang-v0-5-20-released/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

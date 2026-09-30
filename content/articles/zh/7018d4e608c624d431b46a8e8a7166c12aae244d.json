@@ -1,0 +1,31 @@
+{
+  "id": "7018d4e608c624d431b46a8e8a7166c12aae244d",
+  "canonicalId": "422456be4eba693126ef4c4fd4a3cba25e137af5",
+  "slug": "模型定制微调lora-与-qlora-指南",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T15:30:00Z",
+  "lang": "zh",
+  "title": "模型定制：微调、LoRA 与 QLoRA 指南",
+  "summary": "rss · ByteByteGo · 9月23日 15:30\n\n**「背景」** 提示词和检索增强生成（RAG）只在请求时向模型提供信息，并不改变其已学到的参数。作者指出，当模型反复在分类、摘要或写作风格上达不到预期时，就需要考虑微调，让期望行为更稳固地成为模型默认能力的一部分。\n\n**「方案」** 文章把微调解释为在已有能力上做定向调整：监督微调用输入—目标输出示例计算损失并更新权重；全量微调允许所有权重变化，但需保存权重、更新状态和中间结果，显存开销很高。LoRA 冻结原权重，只在部分计算旁挂小型适配器——两个低秩矩阵，学习“如何调整”而非重学全部语言能力；rank 控制适配器容量，越高容量越大，但开销和过拟合风险也上升。QLoRA 进一步把冻结基座量化为 4 位存储、适配器保持较高精度，以降低显存，但量化会引入近似误差，省显存也不等于等比例加速。训练流程上，作者建议先选合适的基座模型并用精心设计的提示建立基线，再准备一致、正确的示例，划分训练、验证、测试集并避免泄漏；配置涉及 rank、学习率、batch size、梯度累积和梯度检查点，可先试 1–3 个 epoch，验证集变差是过拟合信号。评估要针对真实任务，也要检查模型原本依赖的其他能力；部署时适配器可单独保存或合并回基座，并需评估实际量化版本。\n\n**「启示」** 作者的核心结论是：LoRA 和 QLoRA 降低的是适配成本，不能替代好示例与严格评估；只有任务清晰、基座合适、训练数据有代表性，并且能在新输入上带来看得见的改进，微调才值得投入。\n\n**标签**: `#fine-tuning`, `#LoRA`, `#QLoRA`, `#LLM customization`, `#parameter-efficient fine-tuning`",
+  "score": 6,
+  "tags": [
+    "fine-tuning",
+    "LoRA",
+    "QLoRA",
+    "LLM customization",
+    "parameter-efficient fine-tuning"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-to-customize-a-model-to-learn",
+  "originalSite": "blog.bytebytego.com",
+  "context": "提示词和检索增强生成（RAG）只在请求时向模型提供信息，并不改变其已学到的参数。作者指出，当模型反复在分类、摘要或写作风格上达不到预期时，就需要考虑微调，让期望行为更稳固地成为模型默认能力的一部分。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

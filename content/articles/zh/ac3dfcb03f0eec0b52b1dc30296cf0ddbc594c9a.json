@@ -1,0 +1,30 @@
+{
+  "id": "ac3dfcb03f0eec0b52b1dc30296cf0ddbc594c9a",
+  "canonicalId": "331f7a1c6f4ab8e5818c254344415670ef90790a",
+  "slug": "api-设计概念速览与系统设计要点汇总",
+  "date": "2026-09-20",
+  "publishedAt": "2026-09-19T15:31:00Z",
+  "lang": "zh",
+  "title": "API 设计概念速览与系统设计要点汇总",
+  "summary": "rss · ByteByteGo · 9月19日 15:31\n\n**「背景」** 大多数工程师每天都在使用 API，发送请求、读取 JSON 并不难，真正复杂的是设计出他人可以长期依赖的 API。ByteByteGo 指出，许多问题恰恰源于看起来微不足道的 HTTP 细节——方法、状态码、请求格式与响应结构，它们决定了 API 是清晰可预测，还是混乱且不一致。\n\n**「方案」** 作者将 API 设计问题归为几个层面。首先是基础 HTTP 语义的一致性；其次是架构选型：REST、GraphQL、gRPC、webhook 与 WebSocket 各自适用于不同场景，关键在于判断哪种真正契合系统与用例。还有一些决策容易在早期被忽视，却决定 API 是否易于使用与维护，包括命名、分页、版本管理、错误响应和向后兼容性。安全方面，API key、OAuth、JWT、scope 与权限“说起来容易、做对很难”，一旦出错代价不菲；可靠性则涉及超时、重试、幂等性、限流与缓存，这些问题往往在系统承压后才被重视。API 规模增长后，文档、规范、可观测性与契约测试成为让团队敢于信任、无需猜测使用方式的关键支撑。作为延伸，文章还给出防御提示注入的两类思路：模型级防御包括用 &lt;UNTRUSTED&gt; 标签包裹不可信文本的“聚光灯”法，以及让模型将开发者系统提示置于用户消息和第三方内容之上的指令层级微调；系统级防御包括最小权限工具、敏感操作人工审批，以及规划器/执行器分离——规划器可调用工具但不见不可信内容，执行器读取不可信内容但无工具权限。文中还简要对比了单体、微服务与无服务器架构：单体适合小团队快速交付，但代码膨胀后小改动需整体重新部署；微服务可独立扩展与部署，却引入服务发现、分布式追踪与请求路由的复杂度；无服务器按触发执行、按用量计费，但要面对冷启动延迟、跨无状态函数的调试困难，以及对单一云运行时的依赖。作者认为生产系统通常是混合的——核心是单体，按需拆分若干服务，无服务器多用于通知或后台任务等场景。\n\n**「启示」** 作者的核心主张是：API 设计的成败往往不取决于能否发出请求，而取决于早期是否认真对待命名、分页、版本、错误与安全等细节，以及在架构选型上是否选择真正契合用例的方案；同样，提示注入没有单一解法，只能靠分层防御互相补位。\n\n**标签**: `#API design`, `#system design`, `#prompt injection`, `#software architecture`",
+  "score": 4,
+  "tags": [
+    "API design",
+    "system design",
+    "prompt injection",
+    "software architecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/ep226-api-concepts-every-software",
+  "originalSite": "blog.bytebytego.com",
+  "context": "大多数工程师每天都在使用 API，发送请求、读取 JSON 并不难，真正复杂的是设计出他人可以长期依赖的 API。ByteByteGo 指出，许多问题恰恰源于看起来微不足道的 HTTP 细节——方法、状态码、请求格式与响应结构，它们决定了 API 是清晰可预测，还是混乱且不一致。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "725a36cf7c9bb8c237cc6ecd5b7d343f140336cb",
+  "canonicalId": "01f5b49be869456a742d6b0122d04012e4bb2986",
+  "slug": "llm-如何在大量文档中找到答案",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T15:31:00Z",
+  "lang": "zh",
+  "title": "LLM 如何在大量文档中找到答案",
+  "summary": "rss · ByteByteGo · 9月16日 15:31\n\n**「背景」** 文章以一个员工因航班取消而询问能否报销酒店费用的场景切入：公司有数千份旅行、报销、保险等文档，而 LLM 本身并不知道这些私有文档的内容。问题的核心因此不是生成，而是检索——找到语义匹配、属于正确政策且当前有效的段落，否则模型可能给出看似合理却过时或遗漏条件的答案。\n\n**「方案」** 为让文档可检索，应用先按语义把文档切成 chunk，并尽量保留完整规则、条件与标题上下文；再用嵌入模型把查询和 chunk 映射到同一向量空间，通过余弦相似度、欧氏距离或点积比较，这种检索增强生成模式即 RAG。集合增大后，平坦索引逐条比较虽精确但工作量随向量数线性增长，IVF 用聚类分组、HNSW 用分层图导航来近似搜索，以召回风险换取速度与内存效率；nprobe、M、ef\\_construction、ef\\_search 等参数需按真实问题和评测调优。作者提醒相似度分数只描述向量关系，不保证答案正确，因此还要用元数据过滤限定地区、版本和生效日期，并处理政策更新，避免新旧版本同时被检索。最后，混合检索结合语义与关键词，再通过重排选出最有用证据；系统也应承认文档中可能没有答案。\n\n**「启示」** 作者的核心结论是，LLM 回答的质量在生成之前就由检索流程决定：只有分块、嵌入、索引、过滤、更新与重排共同作用，才能找到当前有效且保留条件的证据，而不是仅靠相似度最高的段落。\n\n**标签**: `#RAG`, `#vector-search`, `#embeddings`, `#approximate-nearest-neighbor`, `#retrieval`",
+  "score": 5,
+  "tags": [
+    "RAG",
+    "vector-search",
+    "embeddings",
+    "approximate-nearest-neighbor",
+    "retrieval"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-llms-can-find-a-needle-in-a-haystack",
+  "originalSite": "blog.bytebytego.com",
+  "context": "文章以一个员工因航班取消而询问能否报销酒店费用的场景切入：公司有数千份旅行、报销、保险等文档，而 LLM 本身并不知道这些私有文档的内容。问题的核心因此不是生成，而是检索——找到语义匹配、属于正确政策且当前有效的段落，否则模型可能给出看似合理却过时或遗漏条件的答案。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

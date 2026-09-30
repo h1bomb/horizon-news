@@ -1,0 +1,61 @@
+{
+  "id": "fbfa2db04a5539680751697ef47b115ebb475677",
+  "canonicalId": "da05411f0a2d0ba1fde21b1a11ce407642414b05",
+  "slug": "陶哲轩谈-ai-与数学界的严重错位",
+  "date": "2026-09-12",
+  "publishedAt": "2026-09-11T17:45:00Z",
+  "lang": "zh",
+  "title": "陶哲轩谈 AI 与数学界的严重错位",
+  "summary": "2026 年 9 月 11 日，数学家陶哲轩（Terry Tao）发表博文《A severe misalignment of AI in mathematics》，讨论 AI 与数学研究之间的严重错位；《经济学人》同日刊出《顶尖数学家对 OpenAI 的做法感到愤怒》，报道相关争议，Hacker News 上的讨论帖将两者并列并引发大量评论。争议焦点并非 AI 能否解决数学难题，而是 AI 产生结果的方式如何冲击数学界分配学术 credit 的惯例，以及数学家通过彼此理解与交流来积累知识这一传统。评论者对后果判断不一：有人以望月新一与其 abc 猜想为例，指出即便出现难以理解的巨型证明，社区仍会通过会议、论文与讨论逐步消化。另有观点认为，这些难题已悬置数十年，即便阻止 AI 实验室发布证明，普通用户迟早也能通过通用模型得到结果，因此限制发布意义有限。需要说明的是，本条目的可见内容主要是该讨论串及所链接的两篇文章，未包含两篇原文的完整论证细节。",
+  "score": 7,
+  "tags": [
+    "artificial intelligence",
+    "mathematics",
+    "OpenAI",
+    "research culture",
+    "scientific credit"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "meredydd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49662371"
+    }
+  ],
+  "originalUrl": "https://mathandai.org/",
+  "originalSite": "mathandai.org",
+  "context": "背景是，近月来人工智能在解决重大数学问题上的表现接连登上头条，并引发数学界对研究规范与理解的争论。Terence Tao 于 2026 年 9 月 11 日发表《A Severe Misalignment of AI in Mathematics》，mathandai.org 同时发布相关《Declaration》，而《经济学人》同日报道称，24 位菲尔兹奖得主警告 AI 在人类缺乏理解的情况下解决数学问题，可能威胁数学与智力工作的根基。报道还提到 OpenAI 于 9 月 8 日宣称解决了千禧年大奖难题之一的纳维-斯托克斯方程（Navier-Stokes），似抢先了 Tristan Buckmaster 与 Levent Alpöge 的工作；TechCrunch 则称 25 位顶尖数学家签署公开信，指 AI 实验室正威胁其智力劳动。",
+  "discussion": "对数学研究者而言，最直接的后果是学术信用与评价体系受到冲击：当 AI 能够生成证明时，长期以来用“解决未解难题”来衡量贡献的标尺被削弱，研究价值重心可能转向验证与理解。与此同时，AI 实质参与证明或猜想时，署名与知识产权归属成为数学界刚刚开始面对的伦理问题，具体影响程度仍有待观察。\n\n评论区的共同前提是 AI 已具备相应能力、单纯封锁难以奏效，分歧在于损害的性质：jeremysalwen 认为被摧毁的不是数学家发展并共享理解的能力，而是“解决未解难题”这一衡量贡献的标尺，tmhn2 则以望月新一 abc 猜想的先例保持乐观，Footnote7341 强调优先权与声望对这些陈旧难题而言并不重要。david-gpu 把陶哲轩的批评类比为 19 世纪波德莱尔对摄影的指责——机械复制只能记录既有之物、无法像绘画那样改造现实，以此反问对 AI 的贬抑是否成立。",
+  "references": [
+    {
+      "title": "A Severe Misalignment of AI in Mathematics | What&#x27;s new",
+      "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/"
+    },
+    {
+      "title": "Declaration — Math and AI",
+      "url": "https://mathandai.org/"
+    },
+    {
+      "title": "Top mathematicians are outraged by OpenAI’s methods",
+      "url": "https://www.economist.com/science-and-technology/2026/09/11/top-mathematicians-are-outraged-by-openais-methods"
+    },
+    {
+      "title": "Top mathematicians are outraged by OpenAI’s methods",
+      "url": "https://archive.ph/baq6d"
+    },
+    {
+      "title": "OpenAI&#x27;s feud with mathematicians is only escalating | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/"
+    },
+    {
+      "title": "The impact of AI on mathematical research",
+      "url": "https://www.allscientificjournal.com/assets/archives/2026/vol11issue2/11055.pdf"
+    },
+    {
+      "title": "Mathematics in the Age of AI: Research and Values",
+      "url": "https://www.emergentmind.com/papers/2608.16753"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

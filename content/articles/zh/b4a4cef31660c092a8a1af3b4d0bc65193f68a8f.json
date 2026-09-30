@@ -1,0 +1,44 @@
+{
+  "id": "b4a4cef31660c092a8a1af3b4d0bc65193f68a8f",
+  "canonicalId": "da734e5832a6e3400487c81292935151a349866e",
+  "slug": "gitlab-紧急修复-cvss-100-未授权任意文件读取漏洞",
+  "date": "2026-09-12",
+  "publishedAt": "2026-09-11T11:05:00Z",
+  "lang": "zh",
+  "title": "GitLab 紧急修复 CVSS 10.0 未授权任意文件读取漏洞",
+  "summary": "GitLab 于 9 月 10 日发布 19.3.2、19.2.6 和 19.1.8 三个分支的紧急补丁，修复编号为 CVE-2026-85706 的漏洞，官方给出的 CVSS 评分为满分 10.0。该漏洞源于代码仓库 commits API 的路径约束与认证缺陷，在特定条件下未认证用户可读取 GitLab 服务器上的任意文件。受影响范围包括 18.7 至 19.1.8 之前的版本、19.2.6 之前的 19.2 版本，以及 19.3.2 之前的 19.3 版本。GitLab 强烈建议自建实例立即升级至对应修复版本，GitLab.com 已完成修复，GitLab Dedicated 用户无需操作。该漏洞由研究员 s3ntago 通过 HackerOne 报告，官方尚未公开具体利用前置条件，网上也没有可复现的公开 PoC，暂无证据表明该漏洞已遭在野利用。",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerability",
+    "GitLab",
+    "self-hosted",
+    "patching"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+  "originalSite": "docs.gitlab.com",
+  "context": "",
+  "discussion": "尚未升级的自建 GitLab 实例面临未认证攻击者读取服务器任意文件的风险，管理员应立即升级到 19.1.8、19.2.6 或 19.3.2；由于利用前置条件未公开且尚无在野利用证据，实际暴露程度仍不确定。",
+  "references": [
+    {
+      "title": "GitLab CVSS 10 File - Read Flaw Draws In-the-Wild Probes After...",
+      "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
+    },
+    {
+      "title": "guneykabel/ cve - 2026 - 85706 : CVE - 2026 - 85706 an unauthenticated ...",
+      "url": "https://github.com/guneykabel/cve-2026-85706"
+    },
+    {
+      "title": "GitLab Patches Critical Flaws Enabling Arbitrary File Read ...",
+      "url": "https://cybersecuritynews.com/gitlab-patches-critical-flaws/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

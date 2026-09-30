@@ -1,0 +1,44 @@
+{
+  "id": "d142f0eabdcc431bd1e89e6b30fd6c7fb4c35440",
+  "canonicalId": "f086abec2927775f202c71109ca392499be2c2bc",
+  "slug": "寒序科技公布-mram-推理路线uhbm-带宽-24tbs",
+  "date": "2026-09-01",
+  "publishedAt": "2026-08-31T13:41:00Z",
+  "lang": "zh",
+  "title": "寒序科技公布 MRAM 推理路线：uHBM 带宽 24TB/s",
+  "summary": "国内首家 MRAM 磁计算公司寒序科技公布了面向 AI 推理的 uHBM 与 uLPU 架构路线图。首代 uHBM 片内读带宽设计值为 24 TB/s；uLPU 面向 4B 多模态模型提出超 2000 Tokens/s Decode 目标。方案将模型权重驻留在 Persistent MRAM 阵列，并在同片完成矩阵-向量运算以减少权重搬运。验证芯片 SpinPU-ED01 已通过第三方检测及 24 小时稳定运行验证。公司披露了从芯片到 2U Tray 及 Rack 的产品路线，但相关性能目标仍属自报，尚无独立验证。",
+  "score": 7,
+  "tags": [
+    "MRAM",
+    "AI inference",
+    "hardware",
+    "uHBM",
+    "processing-in-memory"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/adyFanNueXUHKnxr9m64kg",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "MRAM（磁阻随机存取存储器）是一种非易失性存储技术，与 DRAM/SRAM 相比可在断电后保留数据，并具备较高读写速度。寒序科技是国内首家将 MRAM 与计算单元深度整合的芯片公司；其验证芯片 SpinPU-ED01 集成 120 个 MRAM Bank，实测片上访存带宽密度约 0.105 TB/\\(mm²·s\\)。这类“权重驻留计算”思路旨在让模型权重常驻存储阵列并在同片完成矩阵-向量运算，从而减少推理时反复搬运权重。",
+  "discussion": "对 AI 硬件观察者而言，这项路线图显示了 MRAM 在推理侧减少权重搬运、提高能效的潜力；实际带宽与吞吐仍需等量产产品验证。",
+  "references": [
+    {
+      "title": "2000 Tokens/s！寒序科技推出国产LPU推理芯片：让权重不再“搬家”",
+      "url": "https://www.sohu.com/a/1070079029_121948416"
+    },
+    {
+      "title": "寒序科技，重新发明“HBM”_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260831A07BY700"
+    },
+    {
+      "title": "寒序科技，重新发明“HBM”",
+      "url": "https://www.icviews.cn/news/35216/7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

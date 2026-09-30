@@ -1,0 +1,30 @@
+{
+  "id": "7a929ce1d491c0045d6c2222b776919657b5ec5e",
+  "canonicalId": "10bcda943db86cbc3afc9c0e83ee3db44f688106",
+  "slug": "python-3150-rc2-发布生态需准备-10-月正式版",
+  "date": "2026-09-02",
+  "publishedAt": "2026-09-01T14:59:00Z",
+  "lang": "zh",
+  "title": "Python 3.15.0 RC2 发布：生态需准备 10 月正式版",
+  "summary": "Python 3.15.0 候选版 2（RC2）已由发布经理 Hugo van Kemenade 公布，这是 3.15 的最后一个候选版，正式版计划于 10 月发布。自进入 RC 阶段起，只允许合入经评审的明确缺陷修复；团队强烈建议第三方项目维护者在此期间针对 3.15 测试并发布 PyPI wheel，并明确表示基于 3.15.0 候选版构建的二进制 wheel 将与未来 3.15 版本兼容。Simon Willison 提醒，GitHub Actions 尚未更新到 RC2，但可通过 actions/setup-python@v7 配合 allow-prereleases 和 check-latest，在测试矩阵中加入 &quot;3.14&quot; 与 &quot;3.15&quot; 来提前验证。目前这种方式会先使用 RC1，待 RC2 和正式版发布后会自动切换。",
+  "score": 7,
+  "tags": [
+    "python",
+    "release",
+    "programming",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+  "originalSite": "simonwillison.net",
+  "context": "Python 的 release candidate（RC）阶段意味着功能冻结，此后只接收明确的 bug 修复，直至最终发布。3.15.0 是继 3.14 之后的下一个特性版本，由同一发布经理 Hugo van Kemenade 负责。第三方项目尽早利用 RC 构建 wheel，可以确保正式版发布时有可用的二进制兼容包。",
+  "discussion": "第三方 Python 包维护者应趁 RC 阶段完成 3.15 兼容性测试并发布 wheel，否则可能在 10 月正式版发布后延迟提供二进制支持。用户则可以立即用 GitHub Actions 矩阵提前验证 CI 是否兼容。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "69ff30e2816a2fde13a1d88503a24854be2fddec",
+  "canonicalId": "3df5fbd9b80322fba0d8bbd3190c288144e7914f",
+  "slug": "anthropic-发布-claude-fable-51-与-claude-mythos-51",
+  "date": "2026-09-02",
+  "publishedAt": "2026-09-01T17:53:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+  "summary": "Anthropic 发布了 Claude Fable 5.1 与 Claude Mythos 5.1，并同步更新了系统卡与平台文档。此次更新的显著变化是缓存读取定价从每百万 token $1 降至 $0.25，使 Fable 5.1 的缓存读取成本仅为 Opus（$0.5/M）的一半。新版本在写作风格和科学任务表现上有所改进，同时三个破坏性变更均用于修复思维链（chain-of-thought）意外泄露问题，例如通过伪造的 think\\_deeply 工具强制模型输出原始思考。社区评价认为 Fable 5.1 的写作更自然且更听从风格指令，但若剔除 terminal-Bench-Science 0.1 的结果，整体能力提升可能有限。",
+  "score": 8,
+  "tags": [
+    "anthropic",
+    "claude",
+    "large language models",
+    "AI models",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "denysvitali",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49525378"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "originalSite": "anthropic.com",
+  "context": "Claude Fable 5.1 和 Claude Mythos 5.1 是 Anthropic 于 2026 年 9 月 1 日发布的新模型版本，两者本质上是同一模型，但安全防护级别不同：Fable 5.1 已普遍可用，而 Mythos 5.1 仅通过受信任访问计划提供，其安全措施专为网络安全和生命科学领域设计。作为 Claude Fable 5 的延续，该版本在输入和输出价格不变的基础上，将缓存读取成本降至四分之一，并增强了长时运行的智能体编码、多步骤研究以及文档、电子表格和幻灯片处理能力。",
+  "discussion": "对依赖缓存读取的 API 用户和开发者来说，缓存读取成本降至每百万 token $0.25 会直接减少长期运行或高缓存命中场景的支出；但此次更新的能力提升在部分基准上并不明显，实际收益可能主要来自成本优化和写作体验。\n\n有 Anthropic 员工称 Fable 5.1 的写作风格大幅改进，不那么像“典型 Claude”，对风格指令的遵循也更可靠。也有评论指出，除 terminal-Bench-Science 0.1 外难以观察到明显提升，并注意到三个破坏性变更实际是修补思维链泄露漏洞。",
+  "references": [
+    {
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 ...",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    {
+      "title": "What&#x27;s new in Claude Fable 5.1 - Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1"
+    },
+    {
+      "title": "Anthropic Releases Claude Fable 5.1 and Mythos 5.1 | Let&#x27;s ...",
+      "url": "https://letsdatascience.com/news/anthropic-releases-claude-fable-51-and-mythos-51-0e33494c"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

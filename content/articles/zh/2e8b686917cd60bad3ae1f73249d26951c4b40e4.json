@@ -1,0 +1,60 @@
+{
+  "id": "2e8b686917cd60bad3ae1f73249d26951c4b40e4",
+  "canonicalId": "47882b4aa216fd52fa7443c08c81ef6ab7959bca",
+  "slug": "麒麟-9050-pro-评测3d-堆叠提升性能与能效",
+  "date": "2026-09-14",
+  "publishedAt": "2026-09-13T13:22:00Z",
+  "lang": "zh",
+  "title": "麒麟 9050 Pro 评测：3D 堆叠提升性能与能效",
+  "summary": "根据极客湾的评测，华为麒麟 9050 Pro 采用微观电路 3D 堆叠设计。其 9 核 16 线程 CPU 在 2.75 GHz 同频下，功耗较前代降低超过 30%，而 3.1 GHz 峰值频率下功耗未明显增加。马良 955 GPU 的 3DMark 成绩较前代提升近 40%，NPU 实测 INT8 算力为 67.7 TOPS。Mate XT 2 在三款重载手游中的整体表现达到骁龙 8 Elite 级别，不过上述数据来自单一视频评测，尚待独立验证。",
+  "score": 7,
+  "tags": [
+    "3D stacking",
+    "mobile SoC",
+    "Huawei Kirin",
+    "hardware benchmarks",
+    "semiconductors"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bilibili.com/video/BV1HEYv6XETo",
+  "originalSite": "bilibili.com",
+  "context": "3D 堆叠（华为称“逻辑折叠”，LogicFolding）指把逻辑单元分层立体堆叠、而非平面铺开，是华为在先进制程迭代受限的情况下从封装与架构层面寻找性能提升的路线；麒麟 9050 Pro 是华为首款采用该设计的芯片，首发机型为向内折叠的三折叠手机 Mate XT 2（中国起售价 19999 元）。极客湾是国内以芯片实测著称的硬件评测频道，本次关于麒麟 9050 Pro 的功耗、GPU 与 NPU 数据以及 Mate XT 2 的游戏表现均出自其评测视频。该芯片的马良 GPU 还首次为麒麟移动芯片引入硬件光线追踪。",
+  "discussion": "若极客湾的评测数据得到独立验证，搭载麒麟 9050 Pro 的 Mate XT 2 将在三款重载手游中接近骁龙 8 Elite 的水平，华为旗舰 SoC 与高通在游戏性能上的差距将明显收窄，3D 堆叠也可能成为移动 SoC 能效竞争的新方向。但上述功耗、GPU 与 NPU 数字目前仅出自单一视频评测，尚无独立复现或官方确认，实际量产机型表现仍待验证。",
+  "references": [
+    {
+      "title": "极客湾实测麒麟9050 Pro 性能表现亮眼",
+      "url": "https://weibo.com/2/detail/5342779326334299"
+    },
+    {
+      "title": "极客湾实测麒麟9050Pro：工艺无迭代下性能显著提升",
+      "url": "https://weibo.com/2/detail/5342773956054055"
+    },
+    {
+      "title": "极客湾公布麒麟9050 Pro实测：3D堆叠技术加持游戏满帧",
+      "url": "https://weibo.com/2/detail/5342773951600637"
+    },
+    {
+      "title": "Huawei Kirin 9050 Pro Launches: LogicFolding Moves From...",
+      "url": "https://www.techtimes.com/articles/326836/20260907/huawei-kirin-9050-pro-launches-logicfolding-moves-roadmap-silicon.htm"
+    },
+    {
+      "title": "Huawei Mate XT 2 : Is This the Best Tri-Fold Yet? - YouTube",
+      "url": "https://www.youtube.com/watch?v=VMwkuY6DNSU"
+    },
+    {
+      "title": "Huawei Mate XT 2 launches with Kirin 9050 Pro from KES... - tech-ish",
+      "url": "https://tech-ish.com/2026/09/13/huawei-mate-xt-2-launches-with-kirin-9050-pro-from-kes-385600/"
+    },
+    {
+      "title": "Qualcomm Snapdragon 8 Gen 4 Elite Advanced Packaging Quick Look Analysis | TechInsights",
+      "url": "https://www.techinsights.com/blog/qualcomm-snapdragon-8-gen-4-elite-advanced-packaging-quick-look-analysis"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

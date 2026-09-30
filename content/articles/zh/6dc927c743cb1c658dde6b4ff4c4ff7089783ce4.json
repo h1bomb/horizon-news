@@ -1,0 +1,49 @@
+{
+  "id": "6dc927c743cb1c658dde6b4ff4c4ff7089783ce4",
+  "canonicalId": "50e18c5419845c26792b56969688ef4397e64552",
+  "slug": "anthropic-发布-sonnet-55社区关注基准对比与定价竞争",
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-28T17:58:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Sonnet 5.5，社区关注基准对比与定价竞争",
+  "summary": "Anthropic 发布 Claude Sonnet 5.5，Hacker News 讨论中有人引用 Sonnet 5.5 系统卡第 8.5 节指出，Sonnet 5.5 在 Terminal-Bench 上得分 70.6，高于 Opus 5.5 的 66.4；不过 Opus 5.5 有 10% 的试验由备用模型作答，而 Sonnet 5.5 仅 1.5%，因此该差距可能被回退率差异解释。系统卡还称 Sonnet 5.5 的网络能力较 Sonnet 5 大幅提升，并采用与 Opus 5.5 类似的安全措施，高风险网络安全任务会回退到 Sonnet 5。以上均为讨论中引述的厂商系统卡内容，并非独立验证结果。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Anthropic Claude",
+    "model release",
+    "benchmarking",
+    "AI industry"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "D2OQZG8l5BI1S06",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49881850"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+  "originalSite": "anthropic.com",
+  "context": "Horizon 9 月 23 日的日报曾报道，Anthropic 发布 Opus 5.5 时预告 Sonnet 5.5 与 Haiku 5.5 即将推出，同时 OpenAI 同日发布 GPT-6 Sol/Luna，并伴随一轮降价；本次 Sonnet 5.5 是该预告的后续发布。按 Anthropic 的系统卡和发布说明，Sonnet 5.5 是首个采用与 Opus 5.5 类似网络安全防护与回退机制的 Sonnet 模型，触发高风险分类器的请求会回退到 Claude Sonnet 5，而常规开发与大部分生命科学工作不受影响。这种回退机制会直接影响基准可比性：被回退的测试请求实际由另一模型作答，因此不同模型或不同版本之间的回退比例差异，可能使 Terminal-Bench 等分数不能直接比较。",
+  "discussion": "评论区争论 Sonnet 5.5 的实际必要性：Sol- 表示 Opus 5.5 的效率已使其 5x 套餐限额足够日常使用，不确定何时会用到 Sonnet 5.5；azuanrb 则认为在非顶级模型场景下，GLM、DeepSeek 等中国模型以更低价格提供了很强的竞争力，用户需要按用例挑选。wongarsu 则关注 Anthropic 模型在高风险网络安全任务上普遍回退到更弱模型的现象。",
+  "references": [
+    {
+      "title": "2026-09-23 — Claude Opus 5.5 与 GPT-6 Sol/Luna 同日发布，价格战升温",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+    },
+    {
+      "title": "System Card: Claude Sonnet 5.5 September 28, 2026 anthropic.com",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card"
+    },
+    {
+      "title": "Introducing Claude Sonnet 5.5 \\ Anthropic",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5"
+    },
+    {
+      "title": "DeepSeek API Pricing 2026: V4-Flash &amp; V4-Pro Per-Token Costs",
+      "url": "https://deepseek.ai/pricing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

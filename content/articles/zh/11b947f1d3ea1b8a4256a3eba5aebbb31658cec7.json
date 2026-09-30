@@ -1,0 +1,53 @@
+{
+  "id": "11b947f1d3ea1b8a4256a3eba5aebbb31658cec7",
+  "canonicalId": "32d3feab4f141b56bec7f39c7cc6a136ece2661a",
+  "slug": "americagov-被指用-gemini-驱动政府服务助手",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T14:04:00Z",
+  "lang": "zh",
+  "title": "America.gov 被指用 Gemini 驱动政府服务助手",
+  "summary": "这个 Hacker News 条目指向 America.gov，并把它描述为一个由 Google Gemini 驱动、供公众查找政府服务的助手。评论者 sssilver 称其实现方式看起来是“Gemini + 防护栏”，并引用 Google 博客称 Google 是该计划的“技术合作伙伴”，要借助 Gemini 帮助超过 1 亿人更快获取关键公共资源。由于条目本身没有提供页面内容，具体功能、覆盖的服务范围、上线状态和可用性仍不明确。",
+  "score": 7,
+  "tags": [
+    "AI in government",
+    "Google Gemini",
+    "LLM applications",
+    "public services",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "plesiv",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49893509"
+    }
+  ],
+  "originalUrl": "https://america.gov/",
+  "originalSite": "america.gov",
+  "context": "",
+  "discussion": "对需要办理联邦事务的用户而言，America.gov 把原本分散的入口合并成单一问答界面（有报道称目标是整合近 3 万个联邦政府网站），但据 CNBC 报道，美国首席设计官 Joe Gebbia 表示该聊天机器人由 Google 的 Gemini 与 Elon Musk 的 Grok 共同驱动，其回答属于生成式回复，而非机构的正式裁定。因此在福利资格、法律义务或截止期限等关键事项上，用户仍应回到相应联邦机构的官方页面核对，而不能把聊天结果直接当作可依赖的结论。\n\n评论总体分歧集中在实用性与可信度：maherbeg、mellosouls 和 cush 认为它能解决政府服务信息迷宫和钓鱼风险，属于 LLM 少见的真正有用场景；lrvick 则称其回答“比预期诚实”，并引用关于国会大厦违法行为与总统鼓励不改变合法性的表述。这些都是评论者观点，并非对系统准确性或安全性的独立验证。",
+  "references": [
+    {
+      "title": "Trump admin AI website uses Gemini , Grok: Joe Gebbia",
+      "url": "https://www.cnbc.com/2026/09/29/trump-ai-gemini-grok.html"
+    },
+    {
+      "title": "Google helps power America . gov , a new AI government portal",
+      "url": "https://www.androidauthority.com/america-gov-google-ai-federal-services-3716919/"
+    },
+    {
+      "title": "Frequently asked questions | America . gov",
+      "url": "https://america.gov/faq"
+    },
+    {
+      "title": "Trump admin AI website uses Gemini , Grok: Joe Gebbia",
+      "url": "https://www.cnbc.com/2026/09/29/trump-ai-gemini-grok.html"
+    },
+    {
+      "title": "Trump Launches America . Gov Website Simplifying... | ZeroHedge",
+      "url": "https://www.zerohedge.com/political/trump-launches-americagov-website-simplifying-access-government-services"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

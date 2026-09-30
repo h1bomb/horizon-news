@@ -1,0 +1,52 @@
+{
+  "id": "e33dacf9f461bfb670036be1b8fe29ef13bbe84a",
+  "canonicalId": "e09c59999fdb9e0e13bc76c54db6446966b59095",
+  "slug": "calif-research-发布-weworm-零点击微信通话蠕虫演示",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T00:56:00Z",
+  "lang": "zh",
+  "title": "Calif Research 发布 WeWorm 零点击微信通话蠕虫演示",
+  "summary": "Calif Research 发布了名为 WeWorm 的演示，声称这是首个通过微信通话在 iOS 和 Android 上传播的零点击蠕虫。据其描述，受害者无需接听电话或对手机做任何操作；即使接听，也听不到声音，漏洞利用依然成功。该团队表示，他们借助 AI 在大约两天内找到了漏洞并写出首个远程代码执行（RCE）利用，随后又用一周时间构建出蠕虫。他们称，过去这种规模的蠕虫需要更大团队花费数月，而 AI 已能完成大部分工作，团队只负责目标判断与安全测试。目前这只是一段缺乏详细技术说明且未经独立验证的演示声明。",
+  "score": 8,
+  "tags": [
+    "AI security",
+    "zero-click exploit",
+    "WeChat",
+    "remote code execution",
+    "AI-assisted exploitation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/10/calif-research/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "若该演示获得独立验证，iOS 与 Android 上的微信用户将面临无需接听、无需任何操作即可被蠕虫感染并接管账号的零点击风险，潜在波及规模可达十亿级账户；但当前仅有厂商自行发布的演示，缺少技术细节与第三方复现，且“零点击”攻击仍以受害软件处理攻击者可控输入为前提。",
+  "references": [
+    {
+      "title": "WeWorm | Calif",
+      "url": "https://calif.io/research/weworm"
+    },
+    {
+      "title": "&quot;Zero-click&quot; WeChat worm could hijack accounts and spread via a single call - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/09/08/wechat-weworm-vulnerability-exploit-account-hijacking/"
+    },
+    {
+      "title": "WeWorm",
+      "url": "https://blog.calif.io/p/weworm"
+    },
+    {
+      "title": "WeChat Zero - Click Worm Built by AI in Days: VoIP Bug Put Billion...",
+      "url": "https://www.techtimes.com/articles/327153/20260910/wechat-zero-click-worm-built-ai-days-voip-bug-put-billion-accounts-risk.htm"
+    },
+    {
+      "title": "WeChat Zero - Click Worm : How AI Turned a VoIP Vulnerability Into...",
+      "url": "https://www.1950.ai/post/wechat-zero-click-worm-how-ai-turned-a-voip-vulnerability-into-a-self-spreading-account-hijacking-t"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

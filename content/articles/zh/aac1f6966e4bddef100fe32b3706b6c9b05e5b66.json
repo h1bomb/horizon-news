@@ -1,0 +1,48 @@
+{
+  "id": "aac1f6966e4bddef100fe32b3706b6c9b05e5b66",
+  "canonicalId": "4a34b417a07923550b623517ede555b1843229f8",
+  "slug": "claude-opus-55-与-gpt-6-solluna-同日发布价格战升温",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T23:46:00Z",
+  "lang": "zh",
+  "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 同日发布，价格战升温",
+  "summary": "2026 年 9 月 22 日，Anthropic 发布 Claude Opus 5.5，约一小时后 OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna，Simon Willison 当天记录了随之而来的定价变化。GPT-6 Luna 的输入、缓存输入、输出价格分别为每百万 token 0.10/0.01/0.50 美元，是 GPT-5.6 Luna（0.20/1.20 美元）的一半，GPT-6 Sol 的 2/10 美元也是 GPT-5.6 Sol（4/20 美元）的一半——但 GPT-5.6 已计划在 11 月涨价 25%，所以对比基准是促销价。Claude Opus 5.5 从 Opus 4.5 至 5 一直沿用的每百万 token 5 美元输入、25 美元输出降至 4 美元和 20 美元（降幅 20%），缓存读取价格下降 60%，Anthropic 称 Sonnet 5.5 和 Haiku 5.5 即将推出。作者强调这些只是初步印象而非深入评测：Opus 5.5 在“max”思考档两次都在生成 SVG 测试中耗尽 12.8 万最大输出 token 而未返回结果，每次花费 2.56 美元、耗时近 20 分钟。",
+  "score": 9,
+  "tags": [
+    "large language models",
+    "OpenAI",
+    "Anthropic",
+    "AI pricing",
+    "model releases"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+  "originalSite": "simonwillison.net",
+  "context": "Horizon 9 月 2 日的日报曾报道，Anthropic 发布 Claude Fable 5.1 时将缓存读取价格从每百万 token $1 降至 $0.25；本次 Opus 5.5 又把缓存读取价降至 $0.20/M，而 Fable 5.1 仍维持在 $10/$50 的高端价位（tool-1-1）。Horizon 8 月 24 日的日报还提到，Fable 的高成本一度促使团队重新评估哪些编码任务值得使用昂贵模型；当前 Opus 5.5 与 GPT-6 Sol/Luna 的降价正是在这一成本压力背景下展开（tool-1-3）。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-09-02 — Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    {
+      "title": "2026-08-24 — Fable 高成本促使团队重新分配编码模型",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/"
+    },
+    {
+      "title": "OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 ...",
+      "url": "https://wccftech.com/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-gpt-6-luna-now-priced-below-claude-opus-5-5-and-deepseeks-v4-1-flash-respectively-negating-the-rationale-for-open-weight-models/"
+    },
+    {
+      "title": "Anthropic launches Opus 5.5 as OpenAI ships GPT-6 Sol and Luna",
+      "url": "https://runtimewire.com/article/opus-5-5-and-gpt-6-sol-double-launch-today-what-we-know"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

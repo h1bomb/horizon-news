@@ -1,0 +1,53 @@
+{
+  "id": "3e9a15a3289b8969eaf170e904bd288b133b5a03",
+  "canonicalId": "245d063e08eba24c3e01699478b6806f4355a345",
+  "slug": "五角大楼报告过度依赖-ai-致伊朗学校遭导弹袭击",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T19:03:00Z",
+  "lang": "zh",
+  "title": "五角大楼报告：过度依赖 AI 致伊朗学校遭导弹袭击",
+  "summary": "五角大楼一份报告认定，对人工智能的过度依赖是美军导弹击中伊朗一所学校的致因之一。报告称，美方“未能尽一切可行努力核实”该学校属于军事目标，这一失职“超出单纯疏忽”，并且是在明知存在击中民用物体的重大风险、对可能后果漫不经心的情况下下令打击该校建筑。据报道，Minab 目标因数据过时被登记为伊斯兰革命卫队设施，与其他候选目标一并输入 Maven 系统后成为推荐目标；有官员表示部分用户以为 Maven 会标出过时记录或情报矛盾，但报道未解释他们为何这样认为。上述细节主要经评论者引述报道原文，来源为彭博的一篇新闻分析，未附独立核实。",
+  "score": 8,
+  "tags": [
+    "AI safety",
+    "military AI",
+    "human accountability",
+    "AI limitations",
+    "defense technology"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "devonnull",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49806430"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+  "originalSite": "bloomberg.com",
+  "context": "",
+  "discussion": "袭击发生后，五角大楼修改了 Maven 的目标审核流程：据 AI Weekly 报道，Palantir 为 Maven 增加了重新审查底层情报、标记人工审核者可能遗漏的排除性因素与矛盾之处的功能；彭博社的报道则称美军调整了 AI 与致命目标打击流程，包括细化目标核查程序并接入开源数据源，以便更好地掌握平民情况。这意味着使用该系统的情报与作战人员需要遵循新的复核步骤，不过上述改动目前仍属供应商与军方的说法，尚未见独立验证。\n\n多位评论者认为责任不该归于 AI 本身：有人强调 AI 无法被送上法庭，把大量决策权交给 AI 的人必须为包括致死后果在内的每次行动负责；也有人批评不理解 AI 局限的人对系统抱有不切实际的期望，认为系统存在大量未知盲区。另有评论者质疑五角大楼与 Palantir 相互推责——前者指向软件，后者归咎于输入数据——把造成平民死亡的军事决策当作一次企业软件部署中的沟通失误。",
+  "references": [
+    {
+      "title": "2026-04-29 — Google Signs Classified AI Deal with Pentagon",
+      "url": "https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition"
+    },
+    {
+      "title": "Pentagon probe cites Palantir Maven in Iran school strike",
+      "url": "https://aiweekly.co/alerts/pentagon-probe-cites-palantir-maven-in-iran-school-strike"
+    },
+    {
+      "title": "Pentagon Investigators Say Overreliance on Palantir AI Tech ...",
+      "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477"
+    },
+    {
+      "title": "Pentagon Rewires Palantir Maven After Iran School Strike | AI ...",
+      "url": "https://aiweekly.co/alerts/pentagon-rewires-palantir-maven-after-iran-school-strike"
+    },
+    {
+      "title": "US Military Modifies AI, Combat Targeting After Iran Minab ...",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/us-military-modifies-ai-combat-targeting-after-iran-minab-school-strike"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

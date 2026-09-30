@@ -1,0 +1,45 @@
+{
+  "id": "10d965ff65a2f221691cca6845c46cb118ce045e",
+  "canonicalId": "351e020d2441a918ba1c6c34bc75996bd3d251cb",
+  "slug": "用-llm-阅读-68000-汇编将-1993-年-amiga-游戏移植到-godot",
+  "date": "2026-09-04",
+  "publishedAt": "2026-09-03T14:28:00Z",
+  "lang": "zh",
+  "title": "用 LLM 阅读 68000 汇编，将 1993 年 Amiga 游戏移植到 Godot",
+  "summary": "一篇技术文章讲述了作者将 1993 年在巴格达用 MC68000 汇编为 Amiga 开发的游戏移植到 Godot 引擎的过程，使用 Claude Fable 5 在去年七月假期期间完成，移植本身用一个晚上，但调整手感并发布又花了几个周末和晚上。作者称该模型先在 Mac 上用 vasm 汇编代码，直到二进制与原始发布文件逐字节一致；曾出现约 108 字节差异，原因是当年 AsmOne 在内存中汇编并以运行后的内存快照存盘，因此原始文件并非干净汇编输出。作者在投稿前请 Claude 生成初稿，然后基于自己 33 年的记忆、笔记和 git 仓库逐行编辑了一周，唯一未亲自验证的是那段 108 字节解释。作者还介绍了这一过程中获得的深层见解，并宣布免费发布原版游戏。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "legacy code porting",
+    "Godot",
+    "Amiga",
+    "reverse engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rabahs",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49550375"
+    }
+  ],
+  "originalUrl": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+  "originalSite": "babyloniantwins.com",
+  "context": "Babylonian Twins 是一款 1993 年在伊拉克巴格达用 MC68000 汇编语言为 Amiga 开发的解谜平台游戏；作者现已发布原始游戏供免费游玩，并推出了包含原版 Amiga 游戏的重制版。原作者后来用 LLM（Claude）将这款 68000 汇编游戏移植到 Godot 引擎，并用 vasm 汇编器验证生成的目标代码与原版二进制字节级一致。",
+  "discussion": "对从事软件考古、逆向工程和 AI 辅助移植的开发者而言，这个案例展示了用 LLM 把 68000 汇编移植到现代引擎的可行路径，并以二进制逐字节一致作为有力验证标准；同时原作者的回忆和笔记能显著提升模型对历史代码的理解质量。\n\n评论区整体以惊叹和鼓励为主，有人提到自己也用 Claude 把 ZX81 内存转储成功转换为 Go 代码，感叹亲历个人电脑早期时代后再被 AI 视为考古对象；也有人回忆 Amiga 硬件手册和《Gods: Into the Wonderful》的相似风格并询问灵感来源，还有开发者询问当年的调试故事。另有评论者表示正计划用同样方法移植另一款已被人遗忘的游戏，并希望 Claude Code 能导出类似移植的工程指南。",
+  "references": [
+    {
+      "title": "Babylonian Twins — The Amiga Original &amp; Heritage Editions",
+      "url": "https://babyloniantwins.com/1993/"
+    },
+    {
+      "title": "Babylonian Twins on Steam",
+      "url": "https://store.steampowered.com/app/4981370/Babylonian_Twins/"
+    },
+    {
+      "title": "Babylonian Twins | Steambase",
+      "url": "https://steambase.io/games/babylonian-twins/info"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

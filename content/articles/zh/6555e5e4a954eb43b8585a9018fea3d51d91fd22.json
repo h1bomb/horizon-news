@@ -1,0 +1,41 @@
+{
+  "id": "6555e5e4a954eb43b8585a9018fea3d51d91fd22",
+  "canonicalId": "8b3759fdb1e4e5d84a1345a5573d8879aeacf5ec",
+  "slug": "cloudflare-用数学优化再省-100tb-内存",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T18:51:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 用数学优化再省 100TB 内存",
+  "summary": "Cloudflare 的工程博客发布文章《Saving another 100TB of RAM》，介绍一项由数学推导驱动的内存优化，称其又节省了约 100TB 内存。文章涉及哈希相关优化：有评论指出其中一节用 Rust 改进了存储哈希的结构，但质疑为每个任务/每台机器保存哈希时节省 2 字节是否值得。另有评论称赞了文中（补充文章里）的微积分推导过程。这是 Cloudflare 工程团队自述的成果，目前没有独立的基准测试或外部验证来确认这 100TB 的节省。",
+  "score": 8,
+  "tags": [
+    "memory optimization",
+    "performance engineering",
+    "Cloudflare",
+    "hashing",
+    "technical deep-dive"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "f311a",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49758580"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Cloudflare 此前已做过一轮约 100 TB 的内存优化：8 月 28 日的日报曾报道其针对 1.1.1.1 DNS 解析器缓存，通过减少独立内存分配、合并多个列表结构等手段达成这一数字（tool-1-1）。本次所谓“又一个 100TB”针对的是另一处目标——一个基于 Pingora 的服务，外部报道称其做法是压缩哈希环、把虚拟节点数量削减约 90%（tool-2-2）。两者属于同一家公司不同服务上的独立优化，不能相互印证具体收益。",
+  "discussion": "对维护大规模哈希表或键值存储的团队来说，评论者提醒：只有当哈希数量极大时，把存储结构缩小 2 字节才可能带来可观收益，因此类似优化不一定能直接移植。同时，这类高度复杂的数学优化会提高代码的理解门槛，ricardobeat 担心公司内部因此形成“不可穿透的孤岛”。\n\n评论整体称赞优化的技术深度，尤其是 agosta 表示很享受阅读 Kevin 关于微积分推导的补充文章。但也有质疑：proc0 问，为每个任务/每台机器保存哈希时，2 字节的节省是否真有那么重要，并指出文章没有展开说明。ricardobeat 则担心这类优化会让公司变成难以理解的孤岛，不过他认为 AI 或许能加快代码探索。",
+  "references": [
+    {
+      "title": "2026-08-28 — 优化 1.1.1.1 的 DNS 缓存节省 100TB 内存",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/"
+    },
+    {
+      "title": "Cloudflare says smaller hash rings reclaimed more than 100TB ...",
+      "url": "https://runtimewire.com/article/cloudflare-pingora-hash-rings-reclaim-100tb-ram"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

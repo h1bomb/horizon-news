@@ -1,0 +1,44 @@
+{
+  "id": "f242b8777e4f3130d9391fa189bf9b60342b97e3",
+  "canonicalId": "60fc44718067c1c19670e2d0ef09dbc28283e75f",
+  "slug": "meta-muse-macos-应用零日漏洞可劫持账户",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T07:27:00Z",
+  "lang": "zh",
+  "title": "Meta Muse macOS 应用零日漏洞可劫持账户",
+  "summary": "安全研究员 Patrick Wardle 披露，Meta 面向 macOS 用户的 Muse 应用存在名为“Not-a-Mused”的零日漏洞。攻击者可修改隐藏语音配置项以劫持账户并获取认证 Token，进而访问邮件、日历和 WhatsApp 等关联应用；本地进程或诱导用户执行终端命令即可利用，无需复杂恶意软件。Meta 已发布热修复，移除了相关调试功能。",
+  "score": 7,
+  "tags": [
+    "security vulnerability",
+    "zero-day",
+    "Meta Muse",
+    "macOS",
+    "account hijacking"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/1/007/126.htm",
+  "originalSite": "ithome.com",
+  "context": "Muse 是 Meta 面向 macOS 用户的 AI 助手，可访问邮件、日历和 WhatsApp 等关联应用；这类助手正从单纯问答转向能调用已连接服务、代为执行任务的代理形态，因此认证凭据一旦泄露后果更重。据外部报道，Mac 安全研究员 Patrick Wardle 于 2026 年 9 月 21 日公布了名为 not-a-mused 的概念验证：Muse 中一个未公开的隐藏设置可被 Mac 上任意非特权进程翻转，把用户的语音提示与音频静默转发到攻击者控制的服务器，他称这足以让 Muse 变成“终极后门”。",
+  "discussion": "在安装热修复前，macOS 版 Muse 用户可能因本地进程或诱导执行的终端命令而遭遇账户劫持和认证 Token 泄露，并波及已关联的邮件、日历与 WhatsApp 访问；Meta 已发布移除相关调试功能的热修复，用户应尽快更新。",
+  "references": [
+    {
+      "title": "Meta Muse Hit by Zero-Day Flaw: Is Your Mac Safe?",
+      "url": "https://www.androidheadlines.com/2026/09/meta-muse-ai-mac-zero-day-vulnerability.html"
+    },
+    {
+      "title": "Meta’s Muse AI assistant has a zero-day that can turn it into ...",
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/09/metas-muse-ai-assistant-has-a-zero-day-that-can-turn-it-into-a-mac-backdoor"
+    },
+    {
+      "title": "Meta Muse Zero-Day: Hidden Setting Enables Backdoor",
+      "url": "https://tech-insider.org/meta-muse-zero-day-backdoor-vulnerability-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

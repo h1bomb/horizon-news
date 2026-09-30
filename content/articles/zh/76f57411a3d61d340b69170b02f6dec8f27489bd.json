@@ -1,0 +1,52 @@
+{
+  "id": "76f57411a3d61d340b69170b02f6dec8f27489bd",
+  "canonicalId": "f750c368f5424b29a50b7408a373b92c06f28427",
+  "slug": "forgejo-1604-与-1508-修复严重-rce-漏洞",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T20:05:00Z",
+  "lang": "zh",
+  "title": "Forgejo 16.0.4 与 15.0.8 修复严重 RCE 漏洞",
+  "summary": "Forgejo 软件托管项目发布了 16.0.4 和 15.0.8 两个版本，修复了两个安全漏洞，其中一个是可导致远程代码执行（RCE）的严重缺陷。该问题出在从模板仓库生成新仓库的流程中：Forgejo 会克隆模板仓库、删除其 .git 目录、对 .forgejo/template 中列出的文件执行变量模板展开，然后初始化一个新的 git 仓库。恶意模板仓库可借助变量模板展开重新创建一个 .git 目录，git 在初始化新仓库时会接收并采用该目录，从而使攻击者能够读取 Forgejo 主机上的任意数据，并以 RCE 方式在主机上执行任意进程。修复措施是在变量展开完成后、初始化 git 仓库之前，删除目录中任何已存在的 .git 目录。项目建议用户尽快升级到最新版本。",
+  "score": 8,
+  "tags": [
+    "Forgejo",
+    "security vulnerability",
+    "remote code execution",
+    "open source",
+    "Git"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1093671/",
+  "originalSite": "lwn.net",
+  "context": "Forgejo 是一个自托管、轻量级的软件协作平台（software forge），用于托管 Git 仓库与项目协作，并由 Codeberg e.V. 非营利组织框架下的社区维护。它最初源自 Gitea 项目，因与 Gitea Ltd. 的分歧而独立发展。模板仓库是 Forgejo 的一项功能，允许用户基于预置文件和变量生成新仓库；本次漏洞正发生在生成新仓库时对模板内容及 \\`.git\\` 目录的处理流程中。",
+  "discussion": "运行受影响版本（16.0.4 与 15.0.8 之前的版本）的 Forgejo 实例，任何能创建或使用恶意模板仓库的用户都可能在服务器上读取任意数据并执行任意进程，因此管理员应尽快升级。",
+  "references": [
+    {
+      "title": "Forgejo – Beyond coding. We forge .",
+      "url": "https://forgejo.org/"
+    },
+    {
+      "title": "https://codeberg.org/ forgejo / forgejo | Ecosyste.ms: Awesome",
+      "url": "https://awesome.ecosyste.ms/projects/codeberg.org/forgejo/forgejo"
+    },
+    {
+      "title": "Forgejo : Discover 6 keys to master this Git platform",
+      "url": "https://lionel-peramo.com/posts/forgejo-git-tool/"
+    },
+    {
+      "title": "Forgejo 16.0.4 and 15.0.8 address critical security vulnerability | Noise",
+      "url": "https://noise.getoto.net/2026/09/10/forgejo-16-0-4-and-15-0-8-address-critical-security-vulnerability/"
+    },
+    {
+      "title": "Forgejo 16.0.4 and 15.0.8 address critical security vulnerability [LWN.net]",
+      "url": "https://lwn.net/Articles/1093671/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

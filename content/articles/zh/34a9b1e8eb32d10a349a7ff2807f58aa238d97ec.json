@@ -1,0 +1,56 @@
+{
+  "id": "34a9b1e8eb32d10a349a7ff2807f58aa238d97ec",
+  "canonicalId": "e93d9e207a8c2a860c9892802fa097cd853906bd",
+  "slug": "小米-mimo-26-实时后训练仪表盘获关注",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T20:09:00Z",
+  "lang": "zh",
+  "title": "小米 MiMo 2.6 实时后训练仪表盘获关注",
+  "summary": "小米在 mimo.xiaomi.com/rl/ 上线 MiMo 2.6 实时后训练仪表盘，并在 Hacker News 引发讨论。该页面旨在展示后训练过程的实时进展，但当前条目主要是仪表盘链接，未提供详细方法说明或已确认的 MiMo 2.6 基准结果。社区评论既有开发者报告 MiMo-V2.5 在软件工程任务中的高性价比，也有人指出 Mimo-v2.5-Pro 在 DeepSWE 1.1 上仅得 19%，远低于 Fable 的 70%、Kimi K3 的 69% 和 Astra 的 74%。这些讨论把焦点放在模型质量、成本和训练透明度上，但对 MiMo 2.6 的实际能力仍缺少可验证数据。",
+  "score": 7,
+  "tags": [
+    "Xiaomi MiMo",
+    "LLM post-training",
+    "AI benchmarking",
+    "open source AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "krackers",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49732270"
+    }
+  ],
+  "originalUrl": "https://mimo.xiaomi.com/rl/",
+  "originalSite": "mimo.xiaomi.com",
+  "context": "小米 MiMo 是小米开发的大语言模型系列，最早于 2025 年 4 月以 MiMo-7B 发布，目前通过 API 向开发者提供，并作为小米“人车家全生态”中的关键 AI 模型。此次引发关注的页面标注为 mimo-v2.6-pro 与 mimo-v2.6-flash 强化学习训练指标的实时仪表盘，数据直接来自训练器日志。它让外界能实时查看后训练（post-training）阶段的训练进展，而相关 Hacker News 讨论中还有人称此前不知道约三分之二的训练数据会是源代码。",
+  "discussion": "对关注模型选型的开发者而言，现有 MiMo 版本已出现成本极低、质量接近 Anthropic 模型的实践反馈，但 MiMo-v2.5-Pro 在 DeepSWE 1.1 上仅得 19%（对比 Kimi K3 的 69%、Astra 的 74%），显示其在代理式编码任务上仍有明显短板。这种实时公开后训练看板的做法是否会促使其他模型厂商跟进，目前仍是讨论中的开放问题。\n\n有开发者报告 MiMo-V2.5 在软件工程工作中性价比极高，智能水平接近其此前使用的 Anthropic 模型，但偶尔遇到幻觉循环，需停止后继续；另一位评论者试用疑似下一代模型一周，认为 2.5-pro 像一位健忘但能力尚可、初来项目的高级工程师，不太擅长多任务。与此同时，有人引用 Mimo-v2.5-Pro 在 DeepSWE 1.1 上仅 19% 的得分，与 Fable 70%、Kimi K3 69%、Astra 74% 形成反差，并有人反问为何其他模型厂商不采用类似的透明度做法。",
+  "references": [
+    {
+      "title": "Xiaomi MiMo - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_MiMo"
+    },
+    {
+      "title": "mimo -v 2 . 6 RL",
+      "url": "https://mimo.xiaomi.com/rl/"
+    },
+    {
+      "title": "Xiami Mimo 2 . 6 Live Training Dashboard | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49732270"
+    },
+    {
+      "title": "Xiaomi MiMo - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_MiMo"
+    },
+    {
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49732270"
+    },
+    {
+      "title": "GitHub - XiaomiMiMo/MiMo: MiMo: Unlocking the Reasoning Potential of Language Model – From Pretraining to Posttraining",
+      "url": "https://github.com/xiaomimimo/mimo"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

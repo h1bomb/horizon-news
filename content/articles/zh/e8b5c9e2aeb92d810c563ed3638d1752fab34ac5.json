@@ -1,0 +1,57 @@
+{
+  "id": "e8b5c9e2aeb92d810c563ed3638d1752fab34ac5",
+  "canonicalId": "782d6bbf2b5289c7a17049b3c21f4bf16eb01af3",
+  "slug": "openai-与未发表数学研究者的信任争议",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T06:49:00Z",
+  "lang": "zh",
+  "title": "OpenAI 与未发表数学：研究者的信任争议",
+  "summary": "一个 Hacker News 讨论帖汇集了多位研究者与开发者的担忧：在研究人员把未发表的数学工作交给 OpenAI 模型协作之后，OpenAI 是否值得信任，涉及署名、数据使用与研究伦理。质疑方把 OpenAI 比作人类合作者，认为若一位人类研究者利用合作中获得的思路发表成果却不予署名，会被视为严重不道德。也有评论者主张两件事可以同时成立：聊天记录可能进入预训练并提升模型的潜在表示；而在可验证数学任务上做强化学习并投入大规模算力，模型也可能自行发现与具体聊天内容关系不大的解题技巧。讨论中提及 OpenAI 曾为至少 10 万名研究者提供免费访问，以及有说法称其内部模型正以异常快的速度解决开放问题；还有人质疑 OpenAI 在得知某重要数学证明可能已存在于训练数据后，仍从训练中的模型生成 3000 亿输出 token。由于原帖只是链接聚合、没有一手技术说明，上述指控与解释均未获得独立证实。",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "research ethics",
+    "AI math",
+    "attribution",
+    "research trust"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pred\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49639408"
+    }
+  ],
+  "originalUrl": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+  "originalSite": "mathstodon.xyz",
+  "context": "这场争论的背景是 OpenAI 宣称在纳维-斯托克斯方程相关问题上取得突破，而该问题由克莱数学研究所于 2000 年列为七个千禧年难题之一，据《卫报》报道其 GPT-6 Astra 用约 17 小时验证了该解。数学家 Tristan Buckmaster 在 9 月 7 日发布的四页声明中称，他此前在与 OpenAI 通话时询问过该模型“是否被训练于、或能够访问我们在 Codex 中的会话”；据报道他与 Alpöge 在研究中确实使用过包括 Claude 和 Codex 在内的多个 AI 模型，而 OpenAI 方面的 Sébastien Bubeck 则提出可以让 Buckmaster 先发表结果。由此引出的核心信任问题是：研究人员能否安全地把未发表成果交给前沿实验室的工具，以及大型语言模型究竟只能调用训练数据中的既有想法，还是能把“思考过程”迁移到全新问题上——这一分歧目前仍无定论。",
+  "discussion": "对考虑与 OpenAI 共享未发表数学成果的研究者而言，这场讨论凸显出署名与数据使用规则不透明所带来的实际风险，可能促使他们在合作前要求更明确的归属与保密条款。\n\n评论区并未形成共识：一方认为不署名地使用合作中获得的思路在伦理上不可接受，另一方强调预训练记忆与强化学习自发发现的技巧是两回事、需要分别评估，也有人用“平行构造”来形容 OpenAI 的一系列举动看起来可疑。",
+  "references": [
+    {
+      "title": "More questions about whether researchers can trust OpenAI with ...",
+      "url": "https://news.ycombinator.com/item?id=49639408"
+    },
+    {
+      "title": "OpenAI Math Risk: Mathematicians Want Definitive Proof",
+      "url": "https://www.progressiverobot.com/2026/09/10/openai-math-mathematicians-want-proof-didnt-use-their-work/"
+    },
+    {
+      "title": "OpenAI Cracked a 90-Year-Old Math Problem in 88 Hours. - Banandre",
+      "url": "https://www.banandre.com/blog/openai-navier-stokes-millennium-problem-ai-proof-controversy"
+    },
+    {
+      "title": "The Mathematician Crushed Between OpenAI and Anthropic Over...",
+      "url": "https://www.nytimes.com/2026/09/10/science/tristan-buckmaster-openai-math-navier-stokes.html"
+    },
+    {
+      "title": "OpenAI &#x27;s Big Math Breakthrough Claim Sparks... - Business Insider",
+      "url": "https://www.businessinsider.com/openai-navier-stokes-math-breakthrough-drama-2026-9"
+    },
+    {
+      "title": "OpenAI claims to have solved maths problem that... | The Guardian",
+      "url": "https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

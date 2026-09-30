@@ -1,0 +1,31 @@
+{
+  "id": "4fbfb2a3f2bdb9aeed70e7ed21da922314cb2951",
+  "canonicalId": "c580c743e6d433c54d6caa10f258c8b2f4ba2955",
+  "slug": "git-2560-发布新增-git-history-drop-与更安全的冲突解决",
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-28T17:33:00Z",
+  "lang": "zh",
+  "title": "Git 2.56.0 发布：新增 git history drop 与更安全的冲突解决",
+  "summary": "Git 2.56.0 已发布，包含自 6 月的 v2.55.0 以来的 748 个非合并提交，由 104 名开发者贡献，其中 39 人为首次参与者。新特性包括更安全的冲突解决工作流、更小的 path-walk 重新打包，以及实验性 \\`git history\\` 命令新增的 \\`drop\\` 子命令——删除某个提交并把其后代重放到其父提交上。其他变化还有：\\`git refs\\` 工具箱新增 create、delete、update、rename 子命令；新增 \\`fetch.followRemoteHEAD\\` 配置；\\`git log --follow\\` 改善了对非线性历史中路径重命名的处理。该公告本身较为简短，仅指向 LWN 与 GitHub 博客的更详细技术说明，未给出各项特性的基准测试或独立验证结果。",
+  "score": 7,
+  "tags": [
+    "Git",
+    "version control",
+    "open source",
+    "developer tools",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1097213/",
+  "originalSite": "lwn.net",
+  "context": "Git 的功能版本以数月为间隔发布：上一个功能版本 Git 2.55 于 2026 年 6 月发布，本次 2.56.0 距其约三个月，期间累积了 748 个非合并提交。LWN 在本次发布前已专门梳理过 Git 2.56 的改动，公告同时指向 GitHub 博客对 2.56 的长文解读。",
+  "discussion": "最直接的兼容性影响在脚本与包装工具上：\\`git rev-parse --parseopt\\` 以及大多数 Git 子命令在用户直接请求 \\`-h\\` 或 \\`--help\\` 时改为以退出码 0 结束（此前为 129），依赖旧退出码判断帮助请求的自动化流程需要相应调整。此外，\\`git history drop\\` 属于仍被标注为实验性的 \\`git history\\` 命令，尚不适合作为稳定接口依赖。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

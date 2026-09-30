@@ -1,0 +1,53 @@
+{
+  "id": "987fd1a370bb13c0a1c8a8ca863f2d6d62de3209",
+  "canonicalId": "3d48e529ad7a20b189a9c01e1c4d34221cb0505e",
+  "slug": "openai-发布-gpt-6-sol-与-luna",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T18:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-6 Sol 与 Luna",
+  "summary": "OpenAI 于 2026 年 9 月 22 日在官方站点发布 GPT-6 系列的两款模型 Sol 与 Luna。提供的材料中没有公告正文，因此模型的参数规模、上下文长度、定价、可用范围和兼容性等具体信息均未获确认，目前只能确认发布行为本身。该消息在 Hacker News 上获得 1082 分和 563 条评论，开发者讨论主要围绕它与此前 GPT-5.6 Sol、GPT-5.6 Luna 以及 GPT-6 Astra 的对比——这些对比属于社区说法，未经独立验证。",
+  "score": 9,
+  "tags": [
+    "OpenAI",
+    "GPT-6",
+    "large language models",
+    "AI model release",
+    "developer workflows"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "OfficialTurkey",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49805509"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "originalSite": "openai.com",
+  "context": "GPT-6 Sol 与 Luna 沿用了上一代的双模型命名与分层思路：2026 年 8 月 7 日的 Horizon 日报曾记录，OpenAI 在 ChatGPT 中推出 GPT-5.6 Luna 与 GPT-5.6 Sol，付费用户使用 Sol、免费用户默认升级到 Luna，并给出两者在 factual 提问上事实错误分别减少约 62% 和 68% 的内部评估。价格分层此前已被改写——2026 年 7 月 31 日的 Horizon 日报显示，OpenAI 将 GPT-5.6 Luna 降价 80%，降至输入每百万 token 0.20 美元、输出每百万 token 1.20 美元，低于当时 Gemini 3.1 Flash-Lite 与 Claude Haiku 4.5 的报价。另据搜索结果中的第三方对比文章（非 OpenAI 原文），GPT-6 于 9 月初先以单一模型 Astra 亮相，Sol 与 Luna 属同一训练代际中价格更低、深度更浅的档位。",
+  "discussion": "讨论集中在三处：simonw 称 GPT-6 Luna 的价格是 GPT-5.6 Luna 的一半，并用「鹈鹕」绘图测试对 Sol、Luna 和此前的 Astra 做了横向对比；jeffnash 表示在 Claude Code 20x 与 Codex Pro 20x 之间取舍时，用量上限、重置窗口以及 ChatGPT 用量是否计入额度是决定性因素，目前更倾向 Codex；m\\_fayer 则说更习惯 GPT-5.6 Sol 的沟通方式和工程直觉，担心后续模型「技术上更强但用起来不自然」。这些都是个人经验和主观判断，高热度讨论并不等于对模型能力或定价已形成共识。",
+  "references": [
+    {
+      "title": "2026-08-07 — OpenAI 升级 ChatGPT GPT-5.6 系列并扩大免费权限",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+    },
+    {
+      "title": "2026-07-31 — GPT-5.6 大幅降价，Luna 成本降 80%",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"
+    },
+    {
+      "title": "GPT-6 Sol and Luna: OpenAI Halves Its API Prices - felloai.com",
+      "url": "https://felloai.com/gpt-6-sol-luna/"
+    },
+    {
+      "title": "GPT - 6 Sol and Luna : Pricing , Benchmarks, Availability | Coursiv Blog",
+      "url": "https://coursiv.io/blog/gpt-6-sol-luna"
+    },
+    {
+      "title": "GPT - 6 Sol and Luna push the cost efficiency frontier | Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

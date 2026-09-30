@@ -1,0 +1,31 @@
+{
+  "id": "bc1925ebe7622513bc335bc6fc98a3390a35e79e",
+  "canonicalId": "2fd0114f55be45f726eceb3e10bbde3dad84f743",
+  "slug": "llm-辅助的-linux-内核构建加速补丁系列",
+  "date": "2026-09-12",
+  "publishedAt": "2026-09-11T14:15:00Z",
+  "lang": "zh",
+  "title": "LLM 辅助的 Linux 内核构建加速补丁系列",
+  "summary": "内核开发者 Lorenzo Stoakes 发布了一个 23 部分的补丁系列，用于显著加快 Linux 内核的构建速度；据其封面信中的总结，allmodconfig 构建最多快 36%，增量构建最多快约 70%，noop 构建最多快约 90%。他借助 LLM 先定位构建瓶颈、再寻找改进办法，但表示 LLM 生成了大量代码且“大部分很丑”，因此自己进行了大量审计与重写，并大幅修改了提交信息、封面信和注释。补丁针对多个具体环节：kallsyms 改为记录哪些 token 出现在哪些符号中，只在其可能成功的位置尝试替换（提速 2–6%）；并直接输出汇编器可用的二进制数据，替代 37MB 的汇编文件（最好情况提速 11%）。在不需要时关闭 nm 的排序、让中间链接阶段不输出重定位数据，各带来约 2% 的提升；用 kallsyms 直接读取 ELF 取代 mksysmap 的 sed 流程，最好情况提速 12%；此外还引入 depcheck 工具以更高效地做依赖检查、缓存编译器特性探测结果、不分配 .modinfo 段、缓存对象是否属于模块的信息，以及按文件而非逐字节计算 modpost 的 MD4 哈希（最高提速 6%）。Linus Torvalds 对部分改动表示赞赏，并建议让 kallsyms 直接输出 ELF 对象以彻底绕开汇编器，同时提出陈旧的依赖检查机制或许可以干脆删除。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "build systems",
+    "LLM-assisted development",
+    "performance optimization",
+    "patch series"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1093398/",
+  "originalSite": "lwn.net",
+  "context": "内核开发者需要频繁构建内核，而内核体积大、构建系统复杂，很少有开发者真正理解它，更少有人愿意去改进它。构建过程中，kallsyms 程序会生成一张包含全部内核符号（函数与变量名）的表，由于符号数量超过 15 万个、表体积可观且可能驻留内存，它实现了把未用字符码映射到高频子串的特殊压缩算法；构建还大量依赖 nm、modpost 等工具，以及头文件带来的庞大依赖关系。Stoakes 的工作就是在这些环节中寻找并削减不必要的开销。",
+  "discussion": "若该系列被合并，频繁构建内核的开发者将直接受益，尤其是增量构建和 noop 构建场景；不过目前它仍是 v1 系列，Torvalds 已建议部分做法可以更彻底或被替换，最终形态尚不确定。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

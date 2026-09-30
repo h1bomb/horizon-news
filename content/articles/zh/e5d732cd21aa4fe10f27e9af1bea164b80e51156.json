@@ -1,0 +1,40 @@
+{
+  "id": "e5d732cd21aa4fe10f27e9af1bea164b80e51156",
+  "canonicalId": "8177773d4513e61565733a4f12ecc67a44d48bd9",
+  "slug": "systemd-v262-发布支持静态单二进制构建与-openssl-4",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T14:51:00Z",
+  "lang": "zh",
+  "title": "systemd v262 发布：支持静态单二进制构建与 OpenSSL 4",
+  "summary": "systemd v262 已发布。该版本的新特性包括：可将 systemd 构建为单个静态链接的二进制文件，以便用于小型容器；支持 Linux 6.17 引入的内核 coredump socket 协议；以及新增对 OpenSSL 4 的支持。完整变更列表见其 GitHub v262 发布说明。",
+  "score": 7,
+  "tags": [
+    "systemd",
+    "Linux",
+    "open source",
+    "containers",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096204/",
+  "originalSite": "lwn.net",
+  "context": "systemd 是多数主流 Linux 发行版默认采用的初始化系统与服务管理器，负责启动服务、管理单元依赖，并处理日志、核心转储等系统级任务。v262 的部分新特性需要外部组件配合：内核 coredump socket 协议由 Linux 6.17 引入，OpenSSL 4 支持则对应新版加密库，而单文件静态链接构建主要面向体积受限的容器场景。",
+  "discussion": "依赖最小化容器镜像的构建者现在可以选择把 systemd 编译成单个静态链接的二进制文件，从而省去在镜像中携带动态库依赖的步骤；需要使用内核 coredump socket 的用户则必须搭配 Linux 6.17 或更新的内核，旧内核上该功能不可用。新增的 OpenSSL 4 支持意味着已升级到 OpenSSL 4 的发行版在构建 systemd 时不会因版本不兼容而受阻。",
+  "references": [
+    {
+      "title": "Systemd v262 released [LWN.net]",
+      "url": "https://lwn.net/Articles/1096204/"
+    },
+    {
+      "title": "Releases · openssl / openssl · GitHub",
+      "url": "https://github.com/openssl/openssl/releases"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

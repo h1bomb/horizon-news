@@ -1,0 +1,44 @@
+{
+  "id": "46d77f2d0cb6808592355aedfefcbeeb0539ec11",
+  "canonicalId": "4096ef147ccaddc7ee5da5ec92ac297f0abf98b4",
+  "slug": "cloudflare-推出可保留搜索收录并禁止-ai-训练的域名级设置",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T05:46:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 推出可保留搜索收录并禁止 AI 训练的域名级设置",
+  "summary": "Cloudflare 于 9 月 15 日宣布推出“禁止 AI 训练”设置，允许网站继续被搜索引擎收录，同时阻止不符合要求的训练爬虫。苹果、谷歌和微软已符合或承诺符合相关要求，主要厂商的配合是该设置能否实际生效的关键。该设置按域名配置；若选择“阻止”，包括混合爬虫在内的所有爬虫都会被拦截，搜索收录也会受到影响。Cloudflare 还计划明年初让网站控制内容被 AI 摘要引用的比例。",
+  "score": 7,
+  "tags": [
+    "AI crawling",
+    "Cloudflare",
+    "web indexing",
+    "AI training opt-out",
+    "content licensing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "此前网站若选择阻止 AI 训练爬虫，往往会连同“混合用途爬虫”一起拦截，导致搜索收录也受影响，因为这类爬虫同时承担搜索索引和 AI 训练抓取。Cloudflare 为此推出“Disallow AI Training”设置，并配套“Accountable”（可问责）认定，让站点在 robots.txt 中发布对应 Disallow 指令，从而拒绝 AI 训练用途、同时保留符合要求的搜索访问。Cloudflare 还要求被其认定为 Accountable 的运营方必须为站点所有者提供退出 AI 摘要的方式，目前这一退出是逐家运营方的“是/否”选择。",
+  "discussion": "网站运营者现在可按域名在保留搜索收录的同时阻止 AI 训练爬虫，但若选择“阻止”模式，则会连混合爬虫一并拦截并连带影响搜索收录。",
+  "references": [
+    {
+      "title": "Have it both ways: stay discoverable in search while disallowing AI ...",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/"
+    },
+    {
+      "title": "Cloudflare Launches Controls to Block AI Training While Keeping...",
+      "url": "https://analyticsindiamag.com/ai-news/cloudflare-launches-controls-to-block-ai-training-while-keeping-search-access"
+    },
+    {
+      "title": "Cloudflare Helps End the Search -or- AI - Training Tradeoff",
+      "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Helps-End-the-Search-or-AI-Training-Tradeoff/default.aspx"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

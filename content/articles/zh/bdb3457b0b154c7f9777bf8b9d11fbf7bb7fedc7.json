@@ -1,0 +1,31 @@
+{
+  "id": "bdb3457b0b154c7f9777bf8b9d11fbf7bb7fedc7",
+  "canonicalId": "0f424fc95f66615debcc210edbd1eefbf834832e",
+  "slug": "openai-gpt-live-全双工语音架构解析",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T15:32:00Z",
+  "lang": "zh",
+  "title": "OpenAI GPT-Live 全双工语音架构解析",
+  "summary": "rss · ByteByteGo · 9月22日 15:32\n\n**「背景」** 传统语音助手只能听或说其一，用户稍作停顿就会被抢话，这是因为级联架构（ASR+LLM+TTS）与轮次式端到端模型都依赖一个独立的 turn detector 来判断轮次，判断过早会打断用户，过晚则产生尴尬延迟。2026 年 7 月 OpenAI 发布全双工语音模型家族 GPT-Live-1，模型持续输入输出音频 token，静音本身也是一种 token，约每 80 毫秒一帧，因而取消了轮次检测器。但这也带来两个新难题：模型永不空闲，服务成本高，且必须毫秒级响应，容量不能太大。以上细节来自 ByteByteGo 对 GPT Voice 团队 Zahan Malkani 与 Justin Uberti 的访谈，属厂商侧叙述，缺少独立测量。\n\n**「方案」** 作者指出 GPT-Live 的核心思路是“说与想分离”：一个小而快的语音模型负责维持对话，把需要检索或工具的复杂问题委派给前沿模型（文中例子是 GPT-5.5），在前者思考时对话继续进行，并借此获得可替换前沿模型的模块化收益。服务层相应拆成两条路径：live path 只承载音频，按固定时钟在客户端与语音模型之间往返，任何瓶颈都会变成可听见的杂音；async path 承担委派与工具调用，慢任务只拖慢自己而不阻塞音频。为压低 live path 延迟，OpenAI 自建 WARP 协议，把标准 WebRTC 的六步握手压缩为一次往返——在 60 毫秒 RTT 的移动网络上，光建连原本就要花掉三分之一秒以上；会话常驻 GPU 显存，新帧只处理单帧而非重读整段历史；实例需下线或更新时，由托管交接机制在替换实例上预载完整对话后再切换，上下文压缩走同一路径。async 路径的关键则是提前 prefill：会话一开始就为前沿模型建立推理 session，使首次委派时无需再读一遍提示。评测方式也随之改变：全双工没有轮次，改为分别评估对话行为（endpointing 与 barge-in 判定是否正确）、流的健康度，以及真实流量。由于模型持续运行，p95 每 20 次推理就出现一次，必须按 p999 设计并保证快速恢复；小比例流量的 silent launch 则暴露出 CPU 侧服务先于 GPU 耗尽容量。\n\n**「启示」** 作者由此得出的结论是：实时服务的度量与容量规划逻辑不同于传统请求式服务——用户听到的是最差的那一帧，尾部远比均值重要，容量应按并发会话而非请求数来衡量；同时应把复杂度尽量移入模型内部，留在模型外的组件要小而专注，只做实时性的工作。\n\n**标签**: `#Realtime Voice AI`, `#Full-Duplex Architecture`, `#Latency Engineering`, `#System Design`, `#Model Evaluation`",
+  "score": 8,
+  "tags": [
+    "Realtime Voice AI",
+    "Full-Duplex Architecture",
+    "Latency Engineering",
+    "System Design",
+    "Model Evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-openai-built-gpt-live",
+  "originalSite": "blog.bytebytego.com",
+  "context": "传统语音助手只能听或说其一，用户稍作停顿就会被抢话，这是因为级联架构（ASR+LLM+TTS）与轮次式端到端模型都依赖一个独立的 turn detector 来判断轮次，判断过早会打断用户，过晚则产生尴尬延迟。2026 年 7 月 OpenAI 发布全双工语音模型家族 GPT-Live-1，模型持续输入输出音频 token，静音本身也是一种 token，约每 80 毫秒一帧，因而取消了轮次检测器。但这也带来两个新难题：模型永不空闲，服务成本高，且必须毫秒级响应，容量不能太大。以上细节来自 ByteByteGo 对 GPT Voice 团队 Zahan Malkani 与 Justin Uberti 的访谈，属厂商侧叙述，缺少独立测量。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

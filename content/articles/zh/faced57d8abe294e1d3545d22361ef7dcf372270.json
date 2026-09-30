@@ -1,0 +1,45 @@
+{
+  "id": "faced57d8abe294e1d3545d22361ef7dcf372270",
+  "canonicalId": "cdb477377ba300062c26aa1b9c595544eac3e6cd",
+  "slug": "claude-opus-55-max-推理档基准页成本减半与评测稳定性讨论",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T16:51:00Z",
+  "lang": "zh",
+  "title": "Claude Opus 5.5 max 推理档基准页：成本减半与评测稳定性讨论",
+  "summary": "Artificial Analysis 的 Claude Opus 5.5 基准页面（针对 &quot;max&quot; 推理档）在 Hacker News 上被分享，评论者 simonw 指出同一模型另设有 xhigh 档与默认的 medium 档独立页面。讨论中提到的两项具体数据是：在高推理档位下与 Opus 5 对比，每个任务的成本约减半；以及 max 档在生成 SVG 的测试中两次耗尽 128,000 token 推理预算而未能完成。需要说明的是，本次提供的材料不含该基准页面正文，上述数字与结果均来自讨论中的转述，Hacker News 侧的评论本身也不构成独立验证。",
+  "score": 7,
+  "tags": [
+    "LLM benchmarking",
+    "Anthropic Claude",
+    "AI model pricing",
+    "reasoning models",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "theanonymousone",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49804316"
+    }
+  ],
+  "originalUrl": "https://artificialanalysis.ai/models/claude-opus-5-5",
+  "originalSite": "artificialanalysis.ai",
+  "context": "",
+  "discussion": "对把 Opus 5.5 跑在 max 推理档的开发者而言，直接影响是输出 token 消耗与由此产生的每任务成本：Artificial Analysis 的测量显示 max 档每任务约消耗 11.9 万输出 token，而 Opus 5 约 7.3 万、GPT-6 Astra 约 2.7 万（tool-2-2），Hacker News 评论者 simonw 也报告两次让 max 档生成 SVG，结果在 128,000 token 预算内推理尚未结束就耗尽预算而失败。该评测页面列出的最低每任务成本为 0.55 美元（低努力、默认回退档），并指出不同模型之间价格可相差 11 倍（tool-2-1），因此按任务选择推理档位并为长推理预留 token 预算，比一律使用 max 更实际。\n\n评论者 simonw 报告在 max 档下两次尝试生成“骑自行车的鹈鹕”SVG，都因推理过程耗尽 128,000 token 预算而失败；breckenedge 称自己对内部数据集复测后发现某模型表现已回落到与另一模型持平（仅一次运行），并担心发布初期的评测成绩会随时间变化。linuxrebe1 表示因 Opus 5 容易中途偏离任务而退回使用 Opus 4.8，cmiles8 则认为前沿闭源模型相对开放权重模型的优势有限、价格却高出约 100 倍，另有评论者强调高推理档位下每任务成本约为 Opus 5 的一半。",
+  "references": [
+    {
+      "title": "2026-08-17 — Anthropic 发布 Claude 系统提示词，开发者追踪版本差异",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts"
+    },
+    {
+      "title": "Claude Opus 5 . 5 Models - Intelligence... | Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/releases/claude-opus-5-5"
+    },
+    {
+      "title": "Claude Opus 5 . 5 : Specs, Benchmarks, Pricing and How It... - Kingy AI",
+      "url": "https://kingy.ai/blog/claude-opus-5-5-specs-benchmarks-pricing-comparison/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

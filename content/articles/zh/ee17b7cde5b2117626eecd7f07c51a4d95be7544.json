@@ -1,0 +1,31 @@
+{
+  "id": "ee17b7cde5b2117626eecd7f07c51a4d95be7544",
+  "canonicalId": "a79613a3a9db26bae3b7bdf8cc1c527852588406",
+  "slug": "在廉价硬件上跑大模型的技术",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T15:32:00Z",
+  "lang": "zh",
+  "title": "在廉价硬件上跑大模型的技术",
+  "summary": "rss · ByteByteGo · 9月21日 15:32\n\n**「背景」** 下载大模型不等于能运行：8B 模型以 16 位存权重约占 16GB，再加临时计算与 KV 缓存，32GB 内存加 8GB 显存的桌面很容易不够。作者把障碍归为容量、带宽和算力三类，并指出本地运行有隐私、离线与版本控制价值，但未必更便宜。\n\n**「方案」** 文章按“先降低占用、再优化执行”展开。量化用更少比特表示权重，4 位可把 8B 模型权重的理论大小从 16GB 压到约 4GB，但可能损失质量，且低精度存储不保证同比例加速。层间卸载把权重留在内存或磁盘、按需搬到 GPU；作者用假设的 10GB/s 传输估算每步约需 1 秒，说明省显存往往换来更高延迟。MoE 只激活部分专家，区分总参数与激活参数，但未激活专家仍需存储，例如假设的 40B 参数 4 位权重仍约 20GB，不能自动适配低内存笔记本。蒸馏与剪枝分别让大模型教小模型、移除低贡献权重或结构，后者要省算力需压缩表示与执行引擎配合。KV 缓存随上下文增长，可通过检索、限制历史、量化或换出到 CPU 缓解；FlashAttention、PagedAttention 等运行时优化减少显存流量与碎片，投机解码用小模型草拟、大模型验证，可提升并行度但多占内存，也不能让过大的目标模型装下。这些手段作用于不同环节，节省不会简单相乘，应按答案质量、峰值内存、首 token 时间和生成速度评测。\n\n**「启示」** 作者的核心结论是：在廉价硬件上跑大模型不是单一技巧问题，而是按容量、带宽和算力约束组合取舍；优化须以真实任务上的质量与响应时间验证，且文中关键算例多为假设而非实测。\n\n**标签**: `#LLM inference`, `#quantization`, `#local AI hardware`, `#KV cache`, `#speculative decoding`",
+  "score": 5,
+  "tags": [
+    "LLM inference",
+    "quantization",
+    "local AI hardware",
+    "KV cache",
+    "speculative decoding"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-to-run-a-big-model-on-cheap-hardware",
+  "originalSite": "blog.bytebytego.com",
+  "context": "下载大模型不等于能运行：8B 模型以 16 位存权重约占 16GB，再加临时计算与 KV 缓存，32GB 内存加 8GB 显存的桌面很容易不够。作者把障碍归为容量、带宽和算力三类，并指出本地运行有隐私、离线与版本控制价值，但未必更便宜。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

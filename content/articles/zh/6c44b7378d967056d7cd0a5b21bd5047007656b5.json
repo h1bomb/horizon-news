@@ -1,0 +1,48 @@
+{
+  "id": "6c44b7378d967056d7cd0a5b21bd5047007656b5",
+  "canonicalId": "dfa5dcc7a3330d421efa2914612b85e3096825ec",
+  "slug": "postgresql-开发者谈-linux-内核的助力与阻碍",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T15:42:00Z",
+  "lang": "zh",
+  "title": "PostgreSQL 开发者谈 Linux 内核的助力与阻碍",
+  "summary": "LWN 报道，PostgreSQL 性能开发者 Andres Freund 在 2026 年 Kernel Recipes 大会上介绍了 PostgreSQL 与 Linux 内核长期打交道的经验。他称内核在 writeback 与 reclaim 上有 2 到 4 倍的改进，新增的 RWF\\_ATOMIC 原子写请求是重大进步，io\\_uring 也很有价值；但 Linux 目前只支持原子 direct I/O，而 PostgreSQL 仍以缓冲 I/O 为主，因此他期待带缓冲的原子写支持能尽快就绪。问题方面，他展示了一条客户端数增长时吞吐先线性上升、随后跌落并平台化的曲线，关闭 cpuidle 子系统可消除该现象；futex 提供的 32 位应用状态不够用，内核内哈希查找在某些情况下占用 25% CPU，优先级继承 futex 状态更少、几乎不可用。他还提到 PostgreSQL 正缓慢从进程模型转向线程模型，并试验了 io\\_uring 与时间片扩展，后者因对可执行操作的限制过严而收益有限；相关性能数据来自其演讲幻灯片，未见独立验证。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "PostgreSQL",
+    "database performance",
+    "Kernel Recipes",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096827/",
+  "originalSite": "lwn.net",
+  "context": "PostgreSQL 长期依赖缓冲 I/O，而 Linux 的原子写（多块写入整体成功或失败）此前只支持直接 I/O。Horizon 3 月 3 日的日报曾报道，ext4 与 XFS 已支持原子直接 I/O，但原子缓冲写入仍处于多份提案阶段、尚无实现，社区对其必要性与复杂度存在分歧，PostgreSQL 被列为最主要潜在用户；5 月 15 日的日报记录了 LSFMM+BPF 2026 上的后续讨论，其中提出 PostgreSQL 需要 8KB 原子写以及基于 writethrough 的新方案，以减少预写日志中的整页写入和写放大。",
+  "discussion": "对 PostgreSQL 开发者来说，原子写带来的收益目前受 I/O 模式限制：内核的 RWF\\_ATOMIC（Linux 6.11 引入）只支持原子 direct I/O，而 PostgreSQL 尚未使用 direct I/O，因此 Freund 期望的“缩小日志”效果要等缓冲原子写支持就绪；由于 PostgreSQL 大概率不会把 direct I/O 设为默认，运维方短期内不应指望这一优化落地。另一个可直接操作的点是 cpuidle：他给出的客户端扩展性曲线在中等负载处掉入平台期，而禁用 cpuidle 能“解决”该问题，因此做 PostgreSQL 基准测试或容量规划时，CPU 空闲状态管理应作为排查项，否则可能得到不一致的性能结果。",
+  "references": [
+    {
+      "title": "2026-03-03 — Linux kernel developers debate approaches to implement atomic buffered writes",
+      "url": "https://lwn.net/Articles/1060063/"
+    },
+    {
+      "title": "2026-05-15 — Atomic buffered writes discussed at LSFMM+BPF 2026",
+      "url": "https://lwn.net/Articles/1072019/"
+    },
+    {
+      "title": "pread / pwrite and RWF flags - Linux Kernel Internals",
+      "url": "https://kernel-internals.org/io/pread-pwrite/"
+    },
+    {
+      "title": "Supporting untorn buffered writes [LWN.net]",
+      "url": "https://lwn.net/Articles/1016015/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "f1d1beb2928533125124d1cadc8859464fd7bcb5",
+  "canonicalId": "685a03460968997ddf56de4a1311abe38ac7cab0",
+  "slug": "strix-称-ai-代理-25-分钟取得-baseten-生产-github-权限",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T18:11:00Z",
+  "lang": "zh",
+  "title": "Strix 称 AI 代理 25 分钟取得 Baseten 生产 GitHub 权限",
+  "summary": "安全厂商 Strix.ai 在一篇博客中声称，其 AI 渗透测试代理在约 25 分钟内发现了一个泄露的 Baseten GitHub 个人访问令牌（PAT），该令牌属于 basetenbot，并可访问 Baseten 的生产相关仓库。据其描述，该令牌拥有对 Baseten 主产品仓库、驱动其集群的 GitOps 仓库和 Homebrew tap 的管理员/推送权限，还对其他私有仓库（包括按客户划分的特定仓库）有读写权限。令牌据称是在找到 Baseten 的镜像仓库后，从 Docker 构建历史中发现的。社区评论中引述的披露时间线显示，7 月 13 日 23:10 报告了活跃的 basetenbot 令牌、公开的 Harbor 项目和仓库权限；7 月 14 日上午 Harbor 项目被设为私有但令牌仍有效；7 月 14 日 16:34 Baseten 安全团队的 Anton 确认其为严重问题，将 Harbor 项目设为私有并轮换了令牌，同时要求安全删除已拉取的镜像。这一披露来自安全厂商博客，带有推广性质，且评论对其合法性、伦理和营销方式提出质疑，因此具体影响仍需谨慎看待。",
+  "score": 7,
+  "tags": [
+    "security",
+    "DevOps",
+    "GitHub",
+    "secrets management",
+    "AI agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bearsyankees",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49716476"
+    }
+  ],
+  "originalUrl": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+  "originalSite": "strix.ai",
+  "context": "",
+  "discussion": "对 Baseten 及其客户而言，该 basetenbot PAT 拥有主产品仓库、驱动集群的 GitOps 仓库和 Homebrew tap 的写入权限，并可按客户对特定私有仓库读写，一旦被滥用即构成 CI/CD 与供应链投毒的直接风险；该令牌据报长期存在于公开 Docker 仓库中（可追溯到 2023 年 3 月），因此暴露窗口取决于轮换前的时长。由于目前细节主要来自 Strix 的披露，Baseten 一方的完整公开说明尚不充分，实际波及范围仍有不确定性。\n\n评论对事件态度不一：swyx 引述时间线并认为 Baseten 处理得当，aatd86 称这是 Strix 的好营销、对 Baseten 却很差，codemog 质疑这种行为是否合法，nrmitchi 对安全厂商把真实客户/供应商当作营销案例并点名“受害者”感到不适，wxw 则追问这类代理驱动安全利用还有多少。总体共识是 Baseten 的响应相对及时，但争议集中在 Strix 的披露方式、授权边界和推广动机上。",
+  "references": [
+    {
+      "title": "We wanted to use Baseten for inference. We ended up with admin access to their GitHub - Strix",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover"
+    },
+    {
+      "title": "GitHub - usestrix/strix: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "title": "Strix - AI Penetration Testing &amp; Autonomous Security",
+      "url": "https://www.strix.ai/"
+    },
+    {
+      "title": "GitHub Token : How Strix Found Admin Access at Baseten",
+      "url": "https://elsolitario.org/en/2026/09/15/github-token-admin-baseten-harbor/"
+    },
+    {
+      "title": "We wanted to use Baseten for inference. We ended up with... - Strix",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

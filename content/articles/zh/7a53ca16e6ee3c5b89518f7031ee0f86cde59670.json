@@ -1,0 +1,52 @@
+{
+  "id": "7a53ca16e6ee3c5b89518f7031ee0f86cde59670",
+  "canonicalId": "80e4ef842b12917f0321c3aa765810b018c97c11",
+  "slug": "anthropic-评估智谱-glm-53-网络攻击能力",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T23:58:00Z",
+  "lang": "zh",
+  "title": "Anthropic 评估智谱 GLM-5.3 网络攻击能力",
+  "summary": "Anthropic 前沿红队发布评估称，智谱 AI（Z.ai）的 GLM-5.3 已能自主完成端到端网络攻击：在二进制漏洞利用基准的 100 项随机任务中，4% 的尝试实现了完整的控制流劫持，而 Claude Mythos Preview 为 6%。作为对照，Anthropic 称较早的 Claude Opus 4.6 与 GLM-5.2 在这些任务中一次都未成功。据转述，该评估还报告 GLM-5.3 的安全防护可被简单方法绕过，模拟测试成功率为 64% 至 100%，且开放权重允许用户改造模型以削弱拒答。上述数字来自 Anthropic 单方评估（经 Telegram 频道转述），目前尚无独立验证。",
+  "score": 8,
+  "tags": [
+    "AI安全",
+    "网络安全",
+    "开源模型",
+    "模型评测",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+  "originalSite": "anthropic.com",
+  "context": "GLM-5.3 是智谱 AI（Z.ai）开源的模型，与 GLM-5.2 共用同一基础模型、全部提升来自后训练，官方定位为智能体编程与网络防御；Horizon 8 月 29 日的日报曾报道其权重已开放下载、运行和定制。Anthropic 在报告中以自家 Claude Mythos Preview 为参照，称后者是五个月前发布的首个能自主构建端到端攻击链的模型。NIST 下属 CAISI 于 2026 年 9 月 17 日的评估则称 GLM-5.3 是迄今网络能力最强的开放权重模型，但仍显著低于美国当前的前沿模型。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-29 — 智谱开源 GLM-5.3，专注智能体编程与网络防御",
+      "url": "http://z.ai/"
+    },
+    {
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+      "title": "CAISI’s Assessment of Z.ai’s GLM-5.3 Cyber Capabilities | NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities"
+    },
+    {
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+      "title": "CAISI’s Assessment of Z.ai’s GLM-5.3 Cyber Capabilities | NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

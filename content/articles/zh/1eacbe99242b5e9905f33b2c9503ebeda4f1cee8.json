@@ -1,0 +1,31 @@
+{
+  "id": "1eacbe99242b5e9905f33b2c9503ebeda4f1cee8",
+  "canonicalId": "408676d377960be126dc37d24f5c37f534b4337b",
+  "slug": "用-rust-收听无线电rustconf-2026-演讲",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T14:26:00Z",
+  "lang": "zh",
+  "title": "用 Rust 收听无线电：RustConf 2026 演讲",
+  "summary": "在 RustConf 2026 上，Thomas Eckert 介绍了用 Rust 配合约 30 美元的 RTL-SDR Blog V3 接收器解码无线电传输。他现场演示了接收 AM/FM 广播，以及解码 1090 MHz 的飞机 ADS-B 应答机信号（每条消息 120 µs、112 位）。相关幻灯片和示例代码已发布在 GitHub 上。由于该接收器最高采样率为 2.4 MHz，ADS-B 每个半码元只有 1.2 个采样点，已处于能否正确解码的边界。",
+  "score": 7,
+  "tags": [
+    "software-defined radio",
+    "Rust",
+    "digital signal processing",
+    "radio decoding",
+    "RustConf"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1095721/",
+  "originalSite": "lwn.net",
+  "context": "软件定义无线电（SDR）让硬件只负责把天线收到的无线电波数字化，解调全部交给软件完成：RTL-SDR Blog V3 这类约 30 美元的 USB 接收器输出的是 I/Q 采样流，即同一信号的正交分量，采样点到原点的距离对应幅度、相邻采样点的旋转速度对应频率。Eckert 在演讲中指出，这种 dongle 内部使用的是原本为电视接收器设计的芯片，只做数字化，本身没有任何 AM 或 FM 解调电路，因此从低通滤波、鉴频到还原音频都必须由代码实时完成。",
+  "discussion": "对打算用 Rust 做实时 SDR 解码的开发者来说，演讲表明在百万级样本/秒下，每样本只有约一微秒的处理预算，任何几毫秒的停顿都会造成音频可闻中断，因此需要选择具有可预测性能的运行时。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

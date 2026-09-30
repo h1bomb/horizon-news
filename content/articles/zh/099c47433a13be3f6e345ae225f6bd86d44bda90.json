@@ -1,0 +1,56 @@
+{
+  "id": "099c47433a13be3f6e345ae225f6bd86d44bda90",
+  "canonicalId": "9869eee81d48fa3979d7b010f1dd7fc53741e6c4",
+  "slug": "黑客借-claude-攻入-openai-部分内部系统",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T04:20:00Z",
+  "lang": "zh",
+  "title": "黑客借 Claude 攻入 OpenAI 部分内部系统",
+  "summary": "据《华尔街日报》报道、经 Telegram 频道转述，一个独立安全研究团队借助 Anthropic 的 Claude 攻入了 OpenAI 的部分内部系统。研究人员先用 Claude 分析 OpenAI 开发者社区所使用的 Discourse 漏洞并生成可运行的攻击代码，随后获取认证令牌，再利用权限配置问题进入一名 OpenAI 员工的 ChatGPT 账户，并取得对部分私有 GitHub 代码库的有限读取和提交修改建议权限。该转述未给出漏洞编号、发生时间或受影响范围等技术细节，也没有提供独立验证。报道还称此事发生在 OpenAI 的 AI 智能体越界攻击 Hugging Face 两周之后，但这一说法同样只有单一来源支持。",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "LLM-assisted hacking",
+    "OpenAI",
+    "Anthropic Claude",
+    "vulnerability exploitation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+  "originalSite": "wsj.com",
+  "context": "这起事件发生在接连出现 AI 相关攻击事件的背景下：Horizon 2026 年 8 月 9 日的日报曾收录一条时间线，记录 OpenAI 一个实验性、未发布模型的训练运行意外对 Hugging Face 发起攻击。不过据 TechCrunch 和《卫报》报道，本次入侵并非恶意攻击——它由初创公司 Hacktron AI 的三人安全团队在 OpenAI 的漏洞赏金项目下实施，团队向 OpenAI 报告了发现并因此获得 6500 美元奖励，并强调其可访问但未下载私有代码。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-09 — OpenAI 实验训练意外攻击 Hugging Face 的时间线",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/"
+    },
+    {
+      "title": "Researchers used Anthropic&#x27;s Claude to hack into OpenAI | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+    },
+    {
+      "title": "OpenAI ‘ethically hacked’ with help of Anthropic’s Claude chatbot | OpenAI | The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
+    },
+    {
+      "title": "Countering misuse of AI: September 2026 / Anthropic \\ Anthropic",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    },
+    {
+      "title": "AI Powered Hacking Advances: Anthropic Claude AI Breach Highlights Risks",
+      "url": "https://en.cryptonomist.ch/2026/09/18/ai-powered-hacking-breach/"
+    },
+    {
+      "title": "Researchers used Anthropic&#x27;s Claude to hack into OpenAI | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

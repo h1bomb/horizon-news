@@ -1,0 +1,40 @@
+{
+  "id": "d27851520288f6895acd091c7b9345eb30e8694e",
+  "canonicalId": "ff1c78cd980c5796ece1858c08b433d88cae19c6",
+  "slug": "cloudflare-推出面向-ai-agent-的-cf-cli-开放测试版",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T13:46:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 推出面向 AI Agent 的 cf CLI 开放测试版",
+  "summary": "Cloudflare 发布了面向开发者和 AI Agent 的 cf CLI 开放测试版，目标是通过命令行调用 Cloudflare 全部 API。与现有 Wrangler 覆盖约 280 种操作不同，cf 由 API Schema 生成，覆盖超过 3,000 项 API 操作。它默认输出 JSON，并支持命令搜索和引导，便于 Agent 自动发现、执行操作并处理结果；Cloudflare 举例称，Agent 可用同一工具创建和部署 Worker、监控服务、配置 Access 与 WAF，甚至购买域名。该工具目前仍处于 beta 阶段。",
+  "score": 7,
+  "tags": [
+    "Cloudflare",
+    "CLI",
+    "AI Agent",
+    "Developer Tools",
+    "API Automation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Cloudflare 此前面向开发者的命令行工具是 Wrangler，覆盖约 280 项操作，主要用于 Workers 等开发工作流，命令与具体产品绑定，需要人工选择。新发布的 cf CLI 改由 Cloudflare API Schema 自动生成，操作范围扩展到 3,000 项以上，并把 JSON 设为默认输出格式，这一生成方式与输出约定是它能被 AI Agent 用于自动发现和调用 API 的前提。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/"
+    },
+    {
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API | daily.dev",
+      "url": "https://daily.dev/posts/introducing-cf-the-agentic-cli-for-the-entire-cloudflare-api-2x4miixan"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

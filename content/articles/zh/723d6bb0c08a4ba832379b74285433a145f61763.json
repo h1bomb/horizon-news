@@ -1,0 +1,45 @@
+{
+  "id": "723d6bb0c08a4ba832379b74285433a145f61763",
+  "canonicalId": "2a70d59635a98d40767aff3b928a9620a5334a64",
+  "slug": "训练-4b-模型生成比-postgres-快-81的查询计划",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T18:50:00Z",
+  "lang": "zh",
+  "title": "训练 4B 模型生成比 Postgres 快 81%的查询计划",
+  "summary": "一篇博客文章介绍了训练一个 4B 参数模型来生成查询计划，作者称在受限基准上其产出的计划比 Postgres 生成的计划快 81%，几何平均加速为 1.81 倍、总延迟下降 44.7%。该评测使用的是完全装入内存的 8GB 数据集，shared\\_buffers 被限制为该数据集的很小一部分，查询在测量前经过预热，并且只涉及只读 SELECT。作者表示为此花费约 800 美元从 Lambda 租用 2×H100 SXM 节点约 95 小时，并花费约 400 美元 OpenAI API 费用生成“Astra”轨迹示范数据。由于评测范围仅限这一受限的只读工作负载，社区对这些计划在更大规模和更接近 OLTP 的场景下是否真的优于 Postgres 的启发式方法提出质疑。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "query optimization",
+    "databases",
+    "Postgres",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "polyphilz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49731285"
+    }
+  ],
+  "originalUrl": "https://rohanbansal.com/qorl",
+  "originalSite": "rohanbansal.com",
+  "context": "数据库在执行一条查询前，会由查询规划器把 SQL 转换成物理执行计划，而 PostgreSQL 主要依靠基于代价的启发式规则在众多候选计划中做选择。Qorl 的思路并不是替换 PostgreSQL 的规划器，而是用一个 4B 参数的蒸馏模型（Qwen3.8-4B-Distill 加 LoRA 适配器，约 2120 万可训练参数）去引导它选出更快的物理计划。由于查询的执行时间是一个可验证的单一优化目标，这类任务适合用强化学习来奖励那些能引导模型产出更快查询计划的行为。",
+  "discussion": "对数据库开发者而言，目前证据只能支持该 4B 模型在内存中只读分析型负载上的效果，尚不足以证明 LLM 生成的查询计划可以安全用于生产 OLTP 系统，实际采用前还需在更大规模和更真实负载下验证。\n\nHN 评论者 refibrillator 指出，81%的加速建立在 8GB 全内存数据集、受限 shared\\_buffers、预热查询和只读 SELECT 之上，提醒当心过拟合，并质疑这些计划在大规模和更真实 OLTP 负载下是否真的更优。另有评论者担忧 LLM 规划器可能偶发幻觉而漏掉索引、需要反复重跑，hamilyon2 认为查询计划构造数学与算法密集、LLM 是过于笨重的工具，更期待 AlphaGo 式的神经网络启发方法，devsda 则提到公开承认蒸馏可能招致争议。",
+  "references": [
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl"
+    },
+    {
+      "title": "Qorl — a 4B model plans Postgres queries 1.81x… | AI/TLDR",
+      "url": "https://ai-tldr.dev/releases/rohan-bansal-qorl/"
+    },
+    {
+      "title": "Small 4B AI Model Generates Query Plans 81% Faster Than PostgreSQL",
+      "url": "https://shortsingh.com/article/small-4b-ai-model-generates-query-plans-81-faster-than-postgresql"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

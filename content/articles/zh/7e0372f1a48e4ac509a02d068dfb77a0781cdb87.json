@@ -1,0 +1,45 @@
+{
+  "id": "7e0372f1a48e4ac509a02d068dfb77a0781cdb87",
+  "canonicalId": "4eb97e7acd8207b7f7ef255cdf7fc4e8972fec2b",
+  "slug": "asahi-linux-官方支持-apple-m3",
+  "date": "2026-09-07",
+  "publishedAt": "2026-09-06T14:08:00Z",
+  "lang": "zh",
+  "title": "Asahi Linux 官方支持 Apple M3",
+  "summary": "Asahi Linux 宣布正式支持 Apple M3 芯片，这标志着在 Apple Silicon 上运行 Linux 的重要进展。该项目通过逆向工程和驱动开发，使 M3 设备能够运行 Linux，相关报道由 Phoronix 发布。此次发布被视为 Linux 社区在 Apple 硬件上获得更多自主性的里程碑，但公告本身较为简短，未提供深入的技术细节或支持范围说明。对于使用 M3 Mac 的用户而言，这意味着多系统启动和原生 Linux 使用变得更加可行。",
+  "score": 8,
+  "tags": [
+    "asahi-linux",
+    "apple-m3",
+    "linux",
+    "open-source",
+    "drivers"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mdp2021",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49586698"
+    }
+  ],
+  "originalUrl": "https://asahilinux.org/2026/09/m2-episode-1/",
+  "originalSite": "asahilinux.org",
+  "context": "",
+  "discussion": "Apple M3 Mac 用户现在拥有了官方支持的 Linux 安装途径，进一步摆脱对 macOS 的依赖。不过，社区反馈显示实际采用仍受限于设备睡眠、HDMI 输出等功能尚不完善，且某些计算负载相比原生 Metal 后端存在明显性能差距。\n\n社区普遍赞赏 Asahi Linux 团队的工作，但也表达了“不得不这么做”的挫败感。多位用户指出，缺乏睡眠支持和 HDMI 输出是实际采用的主要障碍；还有用户反映在 Mac Studio（M1 Ultra）上运行 llama.cpp 时，性能远不如使用 Metal 后端。",
+  "references": [
+    {
+      "title": "M3 Series Feature Support - Asahi Linux Documentation",
+      "url": "https://asahilinux.org/docs/platform/feature-support/m3/"
+    },
+    {
+      "title": "M2: Episode 1 (or, Asahi Linux on M3) - Asahi Linux",
+      "url": "https://asahilinux.org/2026/09/m2-episode-1/"
+    },
+    {
+      "title": "Asahi Linux Now Officially Supports Apple M3 Macs - With ...",
+      "url": "https://www.phoronix.com/news/Asahi-Linux-Official-M3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

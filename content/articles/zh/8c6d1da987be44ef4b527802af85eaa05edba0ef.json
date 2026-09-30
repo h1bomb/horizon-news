@@ -1,0 +1,48 @@
+{
+  "id": "8c6d1da987be44ef4b527802af85eaa05edba0ef",
+  "canonicalId": "1c18de282b50389e766913218a200fbfc1d1242d",
+  "slug": "prismml-在-snapdragon-ar1-gen-1-平台演示-1-bit-bonsai-模型",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T13:06:00Z",
+  "lang": "zh",
+  "title": "PrismML 在 Snapdragon AR1 Gen 1 平台演示 1-bit Bonsai 模型",
+  "summary": "AI 实验室 PrismML 开发了 20 亿参数的 1-bit 量化 Bonsai LLM，并在高通 Snapdragon Summit 上演示该模型可本地运行于 Snapdragon AR1 Gen 1 智能眼镜平台，针对视觉和语言调优，用户可就眼前所见实时提问。PrismML 尚未公布搭载该模型的智能眼镜产品，也未披露基准测试、延迟或功耗数据。",
+  "score": 7,
+  "tags": [
+    "on-device AI",
+    "edge LLM",
+    "smart glasses",
+    "Qualcomm Snapdragon",
+    "1-bit quantization"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+  "originalSite": "techcrunch.com",
+  "context": "这项演示的关键在于极低位宽量化：PrismML 称 1-bit Bonsai 视觉语言模型由 Bonsai 1.7B 扩展至 20 亿参数，在相同内存限制下，1-bit 版本可容纳的参数数量约为原来的 4 倍；一篇相关分析给出的数字是 LLM 权重占用 0.43 GB，对比版本为 1.66 GB。这些数字分别出自厂商说明与外部分析，PrismML 尚未公布搭载该模型的商用智能眼镜。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PrismML Brings 1 - Bit Bonsai Models to AI Smart Glasses Powered...",
+      "url": "https://prismml.com/news/prismml-brings-1-bit-bonsai-models-to-ai-smart-glasses-powered-by-snapdragon"
+    },
+    {
+      "title": "Bonsai on Smart Glasses : A 2 B 1 - Bit VLM on Snapdragon",
+      "url": "https://www.orcarouter.ai/blog/bonsai-1-bit-vlm-smart-glasses-snapdragon"
+    },
+    {
+      "title": "PrismML — PrismML Brings 1 -Bit Bonsai Models to AI Smart Glasses ...",
+      "url": "https://prismml.com/news/prismml-brings-1-bit-bonsai-models-to-ai-smart-glasses-powered-by-snapdragon"
+    },
+    {
+      "title": "Bonsai on Smart Glasses : A 2B 1 -Bit VLM on Snapdragon",
+      "url": "https://www.orcarouter.ai/blog/bonsai-1-bit-vlm-smart-glasses-snapdragon"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

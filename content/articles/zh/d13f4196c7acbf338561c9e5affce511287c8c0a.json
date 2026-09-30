@@ -1,0 +1,31 @@
+{
+  "id": "d13f4196c7acbf338561c9e5affce511287c8c0a",
+  "canonicalId": "19ea2d209c73680e72b51436a31fbbc796aa259f",
+  "slug": "llm-的记忆其实由应用层重建",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T15:31:00Z",
+  "lang": "zh",
+  "title": "LLM 的“记忆”其实由应用层重建",
+  "summary": "rss · ByteByteGo · 9月15日 15:31\n\n**「背景」** 在同一段对话中，LLM 能引用几条消息前说过的内容，但新开一个聊天就“忘光”了，仿佛只有金鱼般的记忆。文章要解释的是：既然模型本身不存储对话，这种“记得”究竟从何而来。\n\n**「方案」** 作者把“记忆”拆成三层：训练权重只含一般知识，用户说“我常用 TypeScript”并不会改写权重；上下文窗口是当前响应的“工作台”，模型只能用放在台上的材料；持久记忆存放在模型之外的数据库或向量库，需要时再取回插入上下文。多数 API 是无状态的，多轮对话必须由应用重发历史；即便 API 提供会话 ID 的服务器端状态，也只是服务器在重建上下文，作者称之为“重建式记忆”。窗口是 token 预算：假设 100K 的窗口里系统指令 3,000、工具定义 8,000、历史 55,000、检索文档 20,000、当前问题 1,000，只剩 13,000 留给回答；窗口大也不保证召回，信息越多越容易被无关或矛盾内容干扰，即“context rot”。每轮约 1,000 token，第 10 次请求要处理约 10,000 token，十次累计约 55K 输入；提示缓存只是复用重复前缀的优化，不构成记忆。窗口写满时，应用会丢弃旧消息、滚动窗口或压缩成摘要，而摘要有损，反复摘要会像复印件的复印件一样扭曲原意。作者列举的扩展手段包括滑动窗口、对话摘要、结构化实体抽取（把偏好与已确认决策存成字段）、向量库语义检索（按嵌入找片段，可能召回无关或过时内容，需配合元数据）和长期用户画像；跨会话记忆的关键一步，仍是把检索到的内容放进新对话的上下文。\n\n**「启示」** 所谓记忆是上下文重建、摘要、检索与持久存储共同搭建的系统，其质量至少同样取决于模型之外的架构。有读者据此认为，人类每轮对话都会内化进长期记忆，而 LLM 的等价物是逐轮微调、代价过高，因此当前技术难以实现真正的 AGI。\n\n**标签**: `#LLM memory`, `#context windows`, `#retrieval-augmented generation`, `#prompt caching`, `#conversation state`",
+  "score": 6,
+  "tags": [
+    "LLM memory",
+    "context windows",
+    "retrieval-augmented generation",
+    "prompt caching",
+    "conversation state"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/do-llms-have-the-memory-of-a-goldfish",
+  "originalSite": "blog.bytebytego.com",
+  "context": "在同一段对话中，LLM 能引用几条消息前说过的内容，但新开一个聊天就“忘光”了，仿佛只有金鱼般的记忆。文章要解释的是：既然模型本身不存储对话，这种“记得”究竟从何而来。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

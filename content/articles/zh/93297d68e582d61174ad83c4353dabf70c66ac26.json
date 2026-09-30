@@ -1,0 +1,36 @@
+{
+  "id": "93297d68e582d61174ad83c4353dabf70c66ac26",
+  "canonicalId": "3a09c87aa734f3e57a5a91a88414564b03e2693e",
+  "slug": "anthropic-实验claude-代理替-201-名员工换书",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T04:40:00Z",
+  "lang": "zh",
+  "title": "Anthropic 实验：Claude 代理替 201 名员工换书",
+  "summary": "Anthropic 公布了一项实验：201 名员工各自提供一本书，先与 Claude 进行约五分钟的简短对话，随后由 Claude 代理组成的市场相互议价换书，目标是带回员工想读的书。结果显示，仅凭这次短对话，Claude 对书单的排序与员工本人的排序有 61% 一致；市场未达到最优配置，主要原因被归结为代理对参与者了解不足，而不是谈判能力差。模型越强，成交效率越高，参与者平均满意度为 7.2/10，并愿意把约三成年度购书预算交给代理。",
+  "score": 7,
+  "tags": [
+    "LLM agents",
+    "multi-agent negotiation",
+    "preference learning",
+    "Anthropic",
+    "human-AI delegation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/project-swap",
+  "originalSite": "anthropic.com",
+  "context": "",
+  "discussion": "对开发个人代理或委托式 agent 的团队而言，这项实验把瓶颈指向偏好获取与表示：五分钟对话只能达到 61% 的排序一致，而市场低效主要源于代理不了解参与者，因此提升代理对委托人偏好的理解，比单纯优化议价策略更可能改善成交结果。参与者只愿委托约三成年度购书预算，也说明信任和授权范围仍是实际部署中的限制。",
+  "references": [
+    {
+      "title": "Project Swap : What happens when agents trade for us? \\ Anthropic",
+      "url": "https://www.anthropic.com/research/project-swap"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2d03d8825e5a101f88989b8bc0294b7feb38e64c",
+  "canonicalId": "bf2ea8abc504ecbb8e01c33f450a0872e2fda822",
+  "slug": "cloudflare-python-workers-结束预览正式可用",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T13:38:00Z",
+  "lang": "zh",
+  "title": "Cloudflare Python Workers 结束预览正式可用",
+  "summary": "Cloudflare 宣布其 Workers 平台的 Python 支持在约两年预览后正式可用（GA），称 Python 现为 Cloudflare Developer Platform 上的一等、完全受支持的语言。该运行时通过 WebAssembly 上的 Pyodide 执行 Python，并借助 JSPI 让 Requests 等 HTTP 客户端直接走 JavaScript 的 fetch API；Cloudflare 表示相关上游贡献已使这些客户端能在 WebAssembly 环境中正常路由请求。Pyodide/Emscripten 支持已通过 PEP 783 标准化，但实际性能与兼容性仍取决于具体运行时实现。",
+  "score": 8,
+  "tags": [
+    "serverless",
+    "WebAssembly",
+    "Python",
+    "Cloudflare Workers",
+    "edge computing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "torutofu",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49787142"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/python-workers-ga/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Cloudflare 的 Python Workers 建立在 Pyodide 之上，后者是把 CPython 移植到 WebAssembly/Emscripten 的发行版，可通过 micropip 在 WebAssembly 环境中安装并运行 Python 包（tool-2-2）。与之配套的 PEP 783（Emscripten Packaging）近期被接受，使开发者可以正式为 Pyodide 的 CPython 发行版发布 wheel，从而把此前分散的 Python WebAssembly 打包方式标准化（tool-2-1、tool-2-3）。据本次公告，Python Workers 在进入正式可用前已经历约两年的预览期。",
+  "discussion": "urllib3 维护者 illia-v 指出，urllib3 数年前合并了添加 Pyodide/Emscripten 支持的大型贡献，之后的 JSPI 支持才使 Requests 得以工作，且资金给了外部实现者而非 urllib3 维护者。竞争运行时 Wasmer 的 syrusakbary 肯定包支持方面以 PEP 783 标准化取得进展，但表示主要架构顾虑仍在；另有评论者询问 WebAssembly 带来的冷启动开销是否已解决。",
+  "references": [
+    {
+      "title": "PEP 783 – Emscripten Packaging | peps .python.org",
+      "url": "https://peps.python.org/pep-0783/"
+    },
+    {
+      "title": "Pyodide — Version 314.0.7",
+      "url": "https://pyodide.org/"
+    },
+    {
+      "title": "Building Emscripten wheels for Pyodide and PyPI ( PEP 783 )",
+      "url": "https://pydantic.dev/articles/emscripten-wheels-pydantic"
+    },
+    {
+      "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/python-workers-advancements/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

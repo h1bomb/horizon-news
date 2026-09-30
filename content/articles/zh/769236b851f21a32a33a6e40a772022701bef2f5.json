@@ -1,0 +1,45 @@
+{
+  "id": "769236b851f21a32a33a6e40a772022701bef2f5",
+  "canonicalId": "b30711547eb72ee23ff3e40448c15eb4a35cfc78",
+  "slug": "what-sun-got-wrongsun-失败复盘引发讨论",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T14:03:00Z",
+  "lang": "zh",
+  "title": "《What Sun got wrong》：Sun 失败复盘引发讨论",
+  "summary": "系统技术博客 bcantrill.dtrace.org 发表了题为《What Sun got wrong》的回顾文章，分析 Sun Microsystems 的失败及其对技术行业的教训，并在 Hacker News 上引发大量评论。根据可获取的信息，这是一篇历史与行业分析，而非产品发布或突发事件，因此不属于即时新闻。本次材料未包含文章正文，仅有标题、标签与用户讨论内容，故下文所述具体论点主要来自评论者，而非文章本身。",
+  "score": 7,
+  "tags": [
+    "Sun Microsystems",
+    "Solaris",
+    "tech industry history",
+    "systems engineering",
+    "SPARC"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "chmaynard",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49787436"
+    }
+  ],
+  "originalUrl": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+  "originalSite": "bcantrill.dtrace.org",
+  "context": "这篇《What Sun got wrong》的作者 Bryan Cantrill 是 DTrace 的创造者，曾在 Sun Microsystems 担任高级工程师，并因该系统追踪工具入选《麻省理工科技评论》2005 年 TR35；Sun 被甲骨文收购后他转入甲骨文，现任 Oxide Computer 联合创始人兼 CTO。正因为这一内部亲历者身份，他的复盘与 Hacker News 上关于 Sun 衰落的讨论，才被放在“当事人回顾”的语境中阅读。",
+  "discussion": "评论者各自补充了经历与判断：coreyh14444 回忆 1990 年代末从 Sun 或 DEC 采购需要销售会议和反复修改报价，远不如 Dell 便捷，一台 Alpha 服务器的导轨和电源线甚至贵过次日送达的整台 Dell 服务器；cryptonector 列举 Sun 在 2000 年代的失误，包括 2002 年一度取消 x86 版 Solaris，以及因坚持要求 Google 透露其服务器数量而未能达成交易；jedberg 则不同意文章中“Sun 已厌倦经营企业”的说法，认为 Sun 从来就不以经营为重心。这些都属评论者个人观点，并非已证实的事实，其中“百年市盈率”式的股票回忆（labrador 称在互联网泡沫顶点以每股 70 美元卖出 Sun 股票，数月后跌至 7 美元）同样只是个人经历。",
+  "references": [
+    {
+      "title": "Bryan Cantrill - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bryan_Cantrill"
+    },
+    {
+      "title": "Bryan Cantrill talks Sun Microsystems , DTrace, and... - YouTube",
+      "url": "https://www.youtube.com/watch?v=_IYzD_NR0W4"
+    },
+    {
+      "title": "Sun Software Engineer Bryan Cantrill on... | MIT Technology Review",
+      "url": "https://www.technologyreview.com/2006/08/11/100594/sun-software-engineer-bryan-cantrill-on-software-perfection/574/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

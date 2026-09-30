@@ -1,0 +1,48 @@
+{
+  "id": "9f0590ab50efd6677f4348b75b8b39b5c4126f14",
+  "canonicalId": "917e839c7e46b1c1ae893c015c5bf9f04f11f2d4",
+  "slug": "openai-发布心理健康基准-mentalhealthbench",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T06:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布心理健康基准 MentalHealthBench",
+  "summary": "OpenAI 发布了开放基准 MentalHealthBench，用于评估 AI 在真实心理健康对话中的回应。该基准由 22 个国家/地区的 80 多名持证心理健康专家共同制定，衡量安全、收集背景信息、维护用户自主权以及提供可行建议等行为，覆盖成人、青少年、照护者和临床人员场景。OpenAI 表示结果显示 AI 应对心理健康问题取得稳步进展，但 ChatGPT 不能替代专业治疗。",
+  "score": 7,
+  "tags": [
+    "AI safety",
+    "mental health",
+    "benchmark",
+    "OpenAI",
+    "evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/zh-Hans-CN/index/introducing-mentalhealthbench/",
+  "originalSite": "openai.com",
+  "context": "根据 OpenAI 随基准发布的技术报告，MentalHealthBench 由 1,215 段贴近真实场景的心理健康对话构成（tool-2-3）；参与构建的 80 多名持证心理学家和精神科医生来自 22 个国家，共使用 19 种语言（tool-2-2）。此前 Horizon 3 月 29 日的日报曾报道过一项研究：包括 OpenAI、Anthropic、Google、Meta、Qwen、DeepSeek、Mistral 在内的 11 个面向用户的生产级模型，在回答个人建议类提问时会过度附和用户（tool-1-3）。",
+  "discussion": "对开发心理健康相关对话功能的团队而言，MentalHealthBench 的公开题目覆盖安全、背景信息收集、用户自主权与可行建议，并包含成人、青少年、照护者和临床人员场景，可直接作为上线前自查的参照；这一基准出现的背景是，有资料提到美国已有州级立法要求降低未成年人使用 AI 聊天机器人时的自杀风险（tool-3-2）。不过源信息未公布题量、评分方式或开放许可细节，也未给出任何具体模型的分数，因此目前还不能据此判断某款产品是否合规或达到临床标准。",
+  "references": [
+    {
+      "title": "2026-03-29 — Research reveals AI models overly affirm users seeking personal advice",
+      "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research"
+    },
+    {
+      "title": "OpenAI releases benchmark to test AI mental health responses",
+      "url": "https://www.beckersbehavioralhealth.com/ai-2/openai-releases-benchmark-to-test-ai-mental-health-responses/"
+    },
+    {
+      "title": "[PDF] An Expert-Informed Benchmark of AI Capabilities in Realistic Mental ...",
+      "url": "https://cdn.openai.com/ctf-cdn/MentalHealthBench_A_Comprehensive_Benchmark_of_AI_Capabilities_in_Realistic_Mental_Health_Conversations.pdf"
+    },
+    {
+      "title": "AI in Addiction Medicine: Chatbot Safety , Empathy, and... | ZayedMD",
+      "url": "https://zayedmd.com/clinical-ai/ai-addiction-medicine-chatbot-safety/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "e5e20b8da34359281e6423aee0dbf8d4497e0b6d",
+  "canonicalId": "66deb2c0d67784e8e06bd10cab52c7ff9c256b2e",
+  "slug": "gzip-能否充当语言模型hn-讨论压缩与预测",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T06:08:00Z",
+  "lang": "zh",
+  "title": "gzip 能否充当语言模型？HN 讨论压缩与预测",
+  "summary": "一篇博客文章（nathan.rs/posts/gzip-lm/）探讨 gzip 能否作为语言模型，Hacker News 讨论将其与压缩和下一 token 预测的关系联系起来。评论中给出用 gzip 做文本分类的具体做法：将测试文件分别与等长的体育、政治、商业等主题文档拼接后用 gzip -9 压缩，压缩后体积最小的类别即判定结果；有评论者称 Witten 在 Waikato 大学的研究组可能是最早做这类工作。另有评论者指出，这种生成或续写方式无法有效搜索庞大的序列空间，因此只能给出 gzip 作为续写“合理性检验器”效果的下界。还有评论者提到压缩与下一 token 预测密切相关，并引用 ts\\_zip 与 Hutter Prize 作为相关项目。",
+  "score": 7,
+  "tags": [
+    "gzip",
+    "compression",
+    "language-models",
+    "information-theory",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "networked",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49797323"
+    }
+  ],
+  "originalUrl": "https://nathan.rs/posts/gzip-lm/",
+  "originalSite": "nathan.rs",
+  "context": "Horizon 在 2026 年 8 月 12 日的日报曾报道 ngrok 博客《Compression is prediction》，其中论证压缩与预测是同一问题的两面：预测越准确，就只需编码预测错误的部分即可实现压缩，因此智能系统可被视为高效的压缩器。该文在 Hacker News 的讨论还补充了 PPM、Kolmogorov 复杂度和归一化压缩距离等相关概念。当前这篇文章把同一逻辑具体落到 gzip 上，追问一个传统无损压缩算法能否充当语言模型。",
+  "discussion": "对开发者而言，最直接的可用产物是 gzip 分类基线：把同一测试文件分别与体育、政治、商业等各领域等长样本文档一起用 gzip -9 压缩，压缩后体积最小的那一类即为预测结果，不需要模型权重或额外依赖（评论者 jll29 给出的做法）。但它不宜当作生成式语言模型使用——如评论者 mg 指出，续写要在无法有效穷举的序列空间中搜索，得到的结果只能视为压缩效果的下界；而“压缩即智能”这层等价关系有更正式的评测形式，例如以压缩人类知识为任务的 Hutter 奖（名义奖金 50 万欧元），以及用语言模型做压缩的 ts\\_zip 尝试。\n\nHN 评论者对 gzip 作为语言模型的价值存在分歧：jll29 给出了 gzip 分类的可用示例并称 Waikato 大学 Witten 团队可能是先行者，adamgordonbell 也认为压缩与下一 token 预测高度相关并引用 ts\\_zip 和 Hutter Prize；但 mg 质疑无法对序列空间进行有意义搜索，认为结果只提供下界。",
+  "references": [
+    {
+      "title": "2026-08-12 — 压缩即预测：AI 背后的信息论联系",
+      "url": "https://ngrok.com/blog/compression-is-prediction"
+    },
+    {
+      "title": "Ts_zip: Text Compression Using Large Language Models | Hacker ...",
+      "url": "https://news.ycombinator.com/item?id=37152978"
+    },
+    {
+      "title": "Human Knowledge Compression Contest: Frequently Asked ...",
+      "url": "http://prize.hutter1.net/hfaq.htm"
+    },
+    {
+      "title": "500&#x27;000€ Prize for Compressing Human Knowledge",
+      "url": "https://prize.hutter1.net/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "afe159e0bed1f5d10aaa868645c36220f79736fe",
+  "canonicalId": "4bdcfcbd9f2569d15b85150de00bbe86fb84f457",
+  "slug": "文件通知攻击研究linux-击键计时与-kde-点击劫持",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T17:40:00Z",
+  "lang": "zh",
+  "title": "文件通知攻击研究：Linux 击键计时与 KDE 点击劫持",
+  "summary": "格拉茨技术大学的研究人员发布了跨平台文件通知攻击研究，覆盖 Android、Linux、macOS 和 Windows，并公开了论文与演示网站。在 Linux 上，攻击者可用 inotifywatch 监控目录，在无文件读取权限的情况下实施击键间隔计时攻击。他们还发现针对 KDE 5 和 KDE 6 的 UI-redress（点击劫持）方法：监控 /usr/bin/pkexec 判断 Polkit 何时弹出认证提示，再绘制假密码窗口骗取凭据。文章称这些缺陷目前仍存在；Linux 内核的一项修复仅提供部分缓解，该修复随 1 月发布的 5.10.248、5.15.198、6.1.160、6.6.120、6.12.65 和 6.18.3 内核提供。",
+  "score": 8,
+  "tags": [
+    "security",
+    "Linux",
+    "privacy",
+    "side-channel attacks",
+    "vulnerability research"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096431/",
+  "originalSite": "lwn.net",
+  "context": "inotify 是 Linux 内核提供的文件系统事件通知接口，用户态工具（如 inotifywatch）可注册监视某个目录的创建、修改、访问等事件；关键在于这类通知不要求调用者拥有目录内文件的读取权限，因此事件时序本身可泄露操作行为。KDE 桌面在需要提权时会通过 Polkit 调用 /usr/bin/pkexec 弹出认证窗口，该进程的启动同样会产生可被监视的文件事件，这构成了本次研究报告所利用的两个前提条件。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2025-68788 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2025-68788"
+    },
+    {
+      "title": "CVE-2025-68788 | Ubuntu",
+      "url": "https://ubuntu.com/security/CVE-2025-68788"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

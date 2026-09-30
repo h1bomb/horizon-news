@@ -1,0 +1,41 @@
+{
+  "id": "c1712f0b3062d49cd9caaaa55e6b3124cf332f05",
+  "canonicalId": "b827197a221e37ae7e43cad30b3242a72c74394d",
+  "slug": "dan-abramov-用-ai-尝试证明-conway-猜想",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T14:36:00Z",
+  "lang": "zh",
+  "title": "Dan Abramov 用 AI 尝试证明 Conway 猜想",
+  "summary": "Dan Abramov 在个人博客 overreacted.io 发布《I vibed a proof of Conway&\\#x27;s conjecture》，记录他借助 AI 工具尝试证明 Conway 猜想，并附上 GitHub 仓库 gaearon/conway-refinement；仓库中有一节解释他为何认为证明正确。帖子在提供的材料中主要给出仓库链接，未展示完整证明细节，证明的正确性与新颖性也未获独立验证，因此不能据此认为该猜想已被证明。对关注 LLM 数学推理的读者，这是一份具体但尚未定论的过程记录。",
+  "score": 7,
+  "tags": [
+    "AI for mathematics",
+    "LLMs",
+    "automated reasoning",
+    "proof verification",
+    "vibe coding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "m-hodges",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49755024"
+    }
+  ],
+  "originalUrl": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+  "originalSite": "overreacted.io",
+  "context": "这篇博文尝试用 AI 证明约翰·康威（John Conway）提出的一个猜想。康威既以提出超实数（surreal numbers）这套包含所有实数（0、–5、36.6、√2 等）的数系而知名，也留下了多个至今悬而未决的数学问题；检索到的资料把 thrackle 猜想列为其中之一——康威猜测任意 thrackle 的边数不超过顶点数，而该猜想目前只在每条边为 x-单调曲线、每条垂线至多与一条边相交的绘制条件下得到证明。",
+  "discussion": "HN 评论中，一位受过训练并发表过论文的数学爱好者建议作者继续简化证明并逐步理解，直到自己能跟上每一步，并提议查问 AI 各证明部分是否已在别处出现；另一位评论者则用无限猴子定理比喻 LLM，认为数学总产出会增加，但数学家需要花更多工夫梳理和验证 AI 找到的结果。这些是社区观点，不构成对证明正确性的确认。",
+  "references": [
+    {
+      "title": "Thrackle - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thrackle"
+    },
+    {
+      "title": "How I Vibed a Proof of Conway ’ s Conjecture — overreacted",
+      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

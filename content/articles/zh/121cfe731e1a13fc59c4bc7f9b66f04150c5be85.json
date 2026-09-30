@@ -1,0 +1,53 @@
+{
+  "id": "121cfe731e1a13fc59c4bc7f9b66f04150c5be85",
+  "canonicalId": "e0bea100c91b53ad70f1f4a504954380d5814f27",
+  "slug": "shopify-从-react-native-迁回-swift-与-kotlin",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T14:09:00Z",
+  "lang": "zh",
+  "title": "Shopify 从 React Native 迁回 Swift 与 Kotlin",
+  "summary": "Shopify 工程博客宣布，将其移动应用从 React Native 迁回原生 Swift 和 Kotlin。此举之所以受关注，是因为它来自一家大型生产级应用，直接触及跨平台共享代码与原生开发之间的长期权衡。由于本条未附原文正文，除迁移方向外，具体迁移范围、时间表、性能数据与版本信息无法从现有材料确认。该话题在 Hacker News 获得 704 分和 467 条评论，讨论集中在原生性能、共享代码维护成本以及 LLM 辅助迁移等议题。",
+  "score": 8,
+  "tags": [
+    "React Native",
+    "Swift",
+    "Kotlin",
+    "mobile development",
+    "cross-platform"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "fnthawar2",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49643982"
+    }
+  ],
+  "originalUrl": "https://shopify.engineering/back-to-native",
+  "originalSite": "shopify.engineering",
+  "context": "React Native 是 Meta 推出的跨平台移动开发框架，其核心卖点是让 iOS 和 Android 共用一套 JavaScript 代码，开发者无需为同一功能分别用 Swift 和 Kotlin 各写一遍。Shopify 当年正是基于这一逻辑采用 React Native 的，其理由包括：不再重复构建同一功能、让开发者跨全栈而非困在单一平台、减少追逐功能对齐的时间以便更快交付。2026 年 9 月 10 日，Shopify 发布工程文章《Native is now the future of mobile at Shopify》，说明其移动应用正从 React Native 迁回原生 Swift 与 Kotlin。",
+  "discussion": "评论中对迁回原生或新项目直接采用原生总体偏向支持，一名 iOS 工程师称这验证了自己长期反对单纯追求共享代码库的立场；但关于 LLM 是否使这类迁移变得可行存在明显分歧。有人用 Codex 等工具在一夜之间完成约 15–20 个屏幕的小型应用迁移，也有人指出自己参与的中型 React Native 转 Swift/Kotlin 迁移主要发生在 2026 年 1 月前且没有 LLM 代码辅助，另有评论警告不能因 AI 而低估复杂度成本。",
+  "references": [
+    {
+      "title": "Native is now the future of mobile at Shopify (2026) - Shopify",
+      "url": "https://shopify.engineering/back-to-native"
+    },
+    {
+      "title": "Shopify Is Moving Its Mobile Apps Back to Native . - DEV Community",
+      "url": "https://dev.to/jamilxt/shopify-is-moving-its-mobile-apps-back-to-native-coding-agents-made-it-cheaper-to-build-twice-than-4bf9"
+    },
+    {
+      "title": "Native is now the future of mobile at Shopify (2026) - Shopify",
+      "url": "https://shopify.engineering/back-to-native"
+    },
+    {
+      "title": "Shopify Is Moving Its Mobile Apps Back to Native. Coding Agents Made It Cheaper to Build Twice Than to Share One Codebase. - DEV Community",
+      "url": "https://dev.to/jamilxt/shopify-is-moving-its-mobile-apps-back-to-native-coding-agents-made-it-cheaper-to-build-twice-than-4bf9"
+    },
+    {
+      "title": "Migrating Shop app from React Native to native (2026) - Shopify",
+      "url": "https://shopify.engineering/shop-app-migration"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

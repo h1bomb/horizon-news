@@ -1,0 +1,44 @@
+{
+  "id": "40099f77235e47901b49772bd9e83eaf57dd65db",
+  "canonicalId": "5d6d5bc0c03d1cd256404fc533952af8e0db172f",
+  "slug": "git-贡献者峰会纪要发布涉及-git-30安全流程与-llm-使用",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T15:12:00Z",
+  "lang": "zh",
+  "title": "Git 贡献者峰会纪要发布：涉及 Git 3.0、安全流程与 LLM 使用",
+  "summary": "Johannes Schindelin 发布了一份 2026 年 Git 贡献者峰会的详细纪要，议题包括 Git 3.0、安全流程、文档、可插拔对象数据库以及 LLM 的使用。该内容是对峰会讨论的记录，并非版本发布、功能交付或路线图承诺；来源未披露各议题达成的具体决定、版本时间表或可用的实现细节。因此，对关注 Git 项目方向的开发者与维护者而言，目前可确认的只是讨论范围本身。",
+  "score": 7,
+  "tags": [
+    "Git",
+    "open source",
+    "version control",
+    "Git 3.0",
+    "LLMs"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096819/",
+  "originalSite": "lwn.net",
+  "context": "Git 贡献者峰会（Git Contributors&\\#x27; Summit）是 Git 开发者面对面讨论项目方向的场合，其产出是讨论记录，而非已发布的版本或正式承诺；这份总结由 Johannes Schindelin 发布，他同时也是 Git for Windows 的维护者，因此文中涉及 Git 3.0、可插拔对象数据库等议题应理解为社区正在讨论的方向。",
+  "discussion": "本次峰会讨论的 Git 3.0 仍属开发者内部的方向性讨论，并非已发布版本，因此普通用户短期内不会感受到变化；不过外部分析指出，这将是 2014 年 Git 2.0 以来首次主版本号跃升，依赖 Git 的开发者与维护者需要为可能出现的、允许不兼容改动的大版本提前做好准备（DeployHQ）。同一批讨论中的 reftable 等存储层改造虽不会让开发者立刻感知，但对超大仓库和重视安全的环境更具实际价值（Stackademic 的分析）。",
+  "references": [
+    {
+      "title": "dscho ( Johannes Schindelin ) · GitHub",
+      "url": "https://github.com/dscho"
+    },
+    {
+      "title": "Git 3.0: Release Date, Features, and What Developers Need to Know",
+      "url": "https://www.deployhq.com/blog/git-3-0-on-the-horizon-what-git-users-need-to-know-about-the-next-major-release"
+    },
+    {
+      "title": "Git’s New Era: What Git 2.52 and the Road to Git 3.0 Mean for Developers in 2026 | by Faisal haque | Stackademic",
+      "url": "https://blog.stackademic.com/gits-new-era-what-git-2-52-and-the-road-to-git-3-0-mean-for-developers-in-2026-eb2c3b4e6e79?gi=0df192a78784"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

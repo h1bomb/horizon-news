@@ -1,0 +1,40 @@
+{
+  "id": "47e0c74df0394f99d9436d96bac560e0f8d4cdf2",
+  "canonicalId": "5608ebd184e5130246cbba6a6bc708e0a4579859",
+  "slug": "semianalysis-测算中国已交付数据中心容量超-24gw",
+  "date": "2026-09-28",
+  "publishedAt": "2026-09-27T08:36:00Z",
+  "lang": "zh",
+  "title": "SemiAnalysis 测算：中国已交付数据中心容量超 24GW",
+  "summary": "SemiAnalysis 的模型测算显示，中国已交付的数据中心容量已超过 24GW，分布在 60 余家运营商、1000 多个设施中，规模超过 EMEA 与亚太其他地区之和；这一数字来自第三方测算模型而非官方统计。该报告称，此前被市场低估的存量零售型机房正通过高密电气与液冷改造，被快速翻新为 AI 集群。在算力争夺上，字节跳动一家包揽全国约 20% 的已交付容量，并在核心节点实现“12 个月落地 100MW”；阿里、腾讯、百度 2026 年第二季度合计资本开支增至 200 亿美元（同比翻倍），并首次集体录得负自由现金流。",
+  "score": 8,
+  "tags": [
+    "AI基础设施",
+    "数据中心",
+    "中国科技",
+    "大厂资本开支",
+    "液冷与高密电气"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "大厂资本开支的抬升已有可追溯的前一站：Horizon 8 月 13 日的日报曾报道，腾讯 2026 年第二季度资本开支同比接近翻三倍至 528 亿元人民币，单季自由现金流为负 138 亿元（公司称剔除 AI 算力预付款后为 376 亿元）；本次 SemiAnalysis 的测算把这一现金流变化扩展到阿里、腾讯、百度三家，并给出合计口径。Horizon 8 月 24 日的日报还报道高盛统计乌兰察布自 2016 年以来已开业或开工近 100 个数据中心、企业承诺容量 12.5GW，说明中国的算力扩张由多地项目累积而成，不过该数字是承诺容量口径，与本次 24GW 的“已交付”口径不同。",
+  "discussion": "这一轮扩张的账直接落在两处。阿里、腾讯、百度在 2026Q2 合计资本开支同比翻倍至约 200 亿美元并首次同时录得负自由现金流，意味着产能建设已无法由经营现金流自给，SemiAnalysis 测算的 24GW 之上的增量将更取决于外部融资环境与开支节奏的取舍。其二是路径上的连带效应：按 SemiAnalysis 的描述，新增 AI 容量相当一部分来自存量零售机房的电气与液冷翻新，因此电力与高密机柜的紧张会先传导到仍依赖这些零售托管资源的企业客户。",
+  "references": [
+    {
+      "title": "2026-08-13 — 腾讯 Q2 营收超预期，资本开支激增致自由现金流转负",
+      "url": "https://wallstreetcn.com/articles/3779275"
+    },
+    {
+      "title": "2026-08-24 — 乌兰察布成中国 AI 算力热土，承诺容量 12.5 吉瓦",
+      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

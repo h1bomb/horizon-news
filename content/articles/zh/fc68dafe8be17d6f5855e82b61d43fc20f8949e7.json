@@ -1,0 +1,31 @@
+{
+  "id": "fc68dafe8be17d6f5855e82b61d43fc20f8949e7",
+  "canonicalId": "df921c0181414d74e8c1b49624180dd2710cae53",
+  "slug": "数据库并发控制初探从丢失更新说起",
+  "date": "2026-09-04",
+  "publishedAt": "2026-09-03T15:31:00Z",
+  "lang": "zh",
+  "title": "数据库并发控制初探：从丢失更新说起",
+  "summary": "rss · ByteByteGo · 9月3日 15:31\n\n**「背景」** 作者用一个银行账户例子说明并发问题：余额 100 美元，两个各取 10 美元的请求几乎同时到达，结果却只剩 90 美元。单独看两个请求都没有出错，都读了正确余额、做了正确计算，但因为事务重叠，最后余额错误。作者强调这类重叠不是罕见情况，而是数据库运行的常态，并发写同一批记录时只需几毫秒的碰撞就可能产生 bug。\n\n**「方案」** 从这篇文章的引言看，作者要讲解的是“数据库如何保持清醒”：先说明数据因多个事务而损坏的方式，并列出四种损坏类型；然后介绍两类冲突处理思路——悲观锁提前阻止所有人，乐观锁先尝试、之后再做检查；接着讨论数据库如何让读写方不必互相等待，以及如何通过隔离级别选择合适的数据保护程度。作者还预告了“让最安全设置变得可用”的思路，即可能是 MVCC 这类机制，但本段节选只是规划了目录，尚未真正展开这些技术的细节、取舍或实现。\n\n**「启示」** 作者的核心观点是，并发事务造成的问题并不源于单次操作有误，而源于事务重叠，因此数据库必须借助并发控制机制来维持正确性。这篇文章的价值在于清楚地点出问题与解决方向，更深层的机制还需要从后续内容中获得。\n\n**标签**: `#concurrency control`, `#database transactions`, `#lost updates`, `#locking`, `#isolation levels`",
+  "score": 4,
+  "tags": [
+    "concurrency control",
+    "database transactions",
+    "lost updates",
+    "locking",
+    "isolation levels"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-databases-keep-their-sanity-with",
+  "originalSite": "blog.bytebytego.com",
+  "context": "作者用一个银行账户例子说明并发问题：余额 100 美元，两个各取 10 美元的请求几乎同时到达，结果却只剩 90 美元。单独看两个请求都没有出错，都读了正确余额、做了正确计算，但因为事务重叠，最后余额错误。作者强调这类重叠不是罕见情况，而是数据库运行的常态，并发写同一批记录时只需几毫秒的碰撞就可能产生 bug。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

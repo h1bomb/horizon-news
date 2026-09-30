@@ -1,0 +1,41 @@
+{
+  "id": "2df1233010a15b7a401bd6138ec67da051e56648",
+  "canonicalId": "f94c0a1e56c738b9711fcfeb1582c88ce7987126",
+  "slug": "无法解释的软件故障正被正常化",
+  "date": "2026-09-28",
+  "publishedAt": "2026-09-27T15:26:00Z",
+  "lang": "zh",
+  "title": "无法解释的软件故障正被正常化",
+  "summary": "一篇发布在 ihatethefuture.com 的文章警告，无法解释的软件故障正被正常化，作者将此与 AI 辅助开发（agent-assisted development）的普及和可靠性期望的削弱联系起来。文章的核心论点是，人们日益接受“大多数时候能用”的 AI 生成代码，这会侵蚀可复现性与问责制。Hacker News 上的讨论显示了不同经验：有人坚持可复现性和确定性，同时也在使用 AI 辅助开发；也有评论者担忧这种容忍会从用户端应用蔓延到库、基础设施和编译器，拖慢整个软件生态。",
+  "score": 7,
+  "tags": [
+    "software reliability",
+    "AI-assisted development",
+    "software engineering",
+    "reproducibility",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pxx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49867486"
+    }
+  ],
+  "originalUrl": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+  "originalSite": "ihatethefuture.com",
+  "context": "在 AI 辅助开发逐渐普及的背景下，Horizon 2026 年 6 月 24 日的日报曾报道“The Coming Loop”，指出使用 AI 编码代理会不可避免进入反复澄清规格的循环，开发重心转向规格编写与审查，瓶颈从写代码变成规格清晰度。当前这篇随笔正是在这一趋势下警告：若对代理辅助产生的失败习以为常，可靠性预期可能被系统性拉低。",
+  "discussion": "评论者 pmarreck 表示自己既重视可复现性、确定性和测试，也积极使用 AI 辅助开发，并认为后者需要全套检查才能保持生产力；他报告见过自己不会引入的 bug，也见过 AI 修复自己的 bug。adamddev1 则警告，若把“大多数时候能用”的容忍从用户端应用扩展到库、基础设施和编译器，整个生态将陷入不可靠并拖慢所有人；另有评论者引用文章关于“归责缺失”的论点，并质疑算法“置信度”这一拟人化概念。",
+  "references": [
+    {
+      "title": "2026-06-24 — The Inevitable Spec Loop in AI Coding",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/"
+    },
+    {
+      "title": "Measuring AI Coding Assistant ROI: Throughput vs. Quality in 2026",
+      "url": "https://rruc.org/measuring-ai-coding-assistant-roi-throughput-vs.-quality-in-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

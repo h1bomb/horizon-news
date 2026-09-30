@@ -1,0 +1,40 @@
+{
+  "id": "d5c6d44c5f55ccab3f6b3632fb52fae7bed28f28",
+  "canonicalId": "c8ad10868a1706c16be73c2bf17adc6208a6fa69",
+  "slug": "苹果考虑搭载英伟达技术重返服务器市场",
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-17T02:40:00Z",
+  "lang": "zh",
+  "title": "苹果考虑搭载英伟达技术重返服务器市场",
+  "summary": "据 The Information 报道、路透社转述，苹果正考虑重返企业服务器市场，计划推出搭载自研 M8 Ultra 芯片的 AI 服务器，并可能采用英伟达的 NVLink Fusion 网络技术。报道称该产品将提供双芯片和四芯片两种版本，面向 AI 开发者、企业及政府客户，最早 2029 年上市。上述内容仍属未经确认的报道，项目存在被取消或放弃使用英伟达技术的可能；若最终落地，这将是苹果自 2011 年停产 Xserve 以来首次推出专用服务器硬件。",
+  "score": 7,
+  "tags": [
+    "Apple",
+    "NVIDIA",
+    "AI infrastructure",
+    "servers",
+    "semiconductors"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reuters.com/technology/apple-considers-nvidia-tech-return-server-market-information-reports-2026-09-16/",
+  "originalSite": "reuters.com",
+  "context": "英伟达的 NVLink Fusion 面向第三方芯片提供 scale-up 互连能力，其芯片设计服务目前已通过 MediaTek、Marvell、Alchip、Astera Labs、Synopsys 和 Cadence 等合作方提供，这也是非英伟达加速器接入 NVLink 生态的途径。此前 8 月 26 日的 Horizon 日报曾报道苹果发布 M6 与 M5 Ultra，官方称其在性能与 AI 算力上有大幅提升，延续了苹果以自研芯片统一 Mac 产品线的做法；此次传闻中的 M8 Ultra 服务器属于同一自研芯片家族，但指向机架级、双芯片与四芯片的部署形态。",
+  "discussion": "由于报道本身标注了“可能取消”和“最早 2029 年”两个前提，企业用户在近期的 AI 算力采购决策中没有可纳入规划的苹果服务器选项。对苹果而言，采用 NVLink Fusion 意味着其服务器芯片需接入英伟达的互联生态，而非延续完全自研的封闭路线；是否接受这一条件，是该项目能否推进的关键变量之一。",
+  "references": [
+    {
+      "title": "2026-08-26 — 苹果发布 M6 与 M5 Ultra：性能与 AI 算力大幅跃升",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+    },
+    {
+      "title": "NVIDIA 推出 NVLink Fusion ，助力行业用户通过 NVIDIA ...",
+      "url": "https://blogs-nvidia-cn.nproxy.org/blog/nvidia-nvlink-fusion-semi-custom-ai-infrastructure-partner-ecosystem"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

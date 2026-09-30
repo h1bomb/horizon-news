@@ -1,0 +1,45 @@
+{
+  "id": "e3f1e906edb121bf82a7c780b6add4950453c984",
+  "canonicalId": "78ec933d8f3c9110a6b74409b1a00980245e1cd9",
+  "slug": "google-发布-gemini-38-live-与-38-live-extended-thinking",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T17:38:00Z",
+  "lang": "zh",
+  "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
+  "summary": "Google 发布了 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking，这是一组面向实时语音交互的 Gemini 模型更新，其中后者带有“扩展思考”变体。公告在 Hacker News 上获得 260 分和 177 条评论，表明开发者社区对此高度关注。当前提供的材料主要是博客公告链接，没有基准测试、技术架构或版本差异等实质细节，因此无法量化新模型相较前代的具体提升。版本号 3.8 也暗示这可能是一次增量更新，而非重大范式转变。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "Google",
+    "voice assistants",
+    "LLM releases",
+    "multimodal AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "leumon",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49715947"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+  "originalSite": "blog.google",
+  "context": "Gemini Live 是 Google 面向实时语音对话的交互模式，用户可以直接与模型进行低延迟的口语交流；本次发布的「3.8 Live Extended Thinking」则是在此基础上增加扩展思考（更长的推理过程）的变体，并支持对话中切换语言，已通过 Gemini API 与 Google AI Studio 提供，Gemini Enterprise 处于私密预览阶段。该发布属于 Gemini 3.8 系列的一部分，此前 Gemini 3.8 Flash 已在约两天前进入 Gemini 应用、AI Mode、Sheets 及开发者工具，并配有截至 2026 年 12 月的入门 API 价格，因此本次更新是同一代模型的增量扩展而非全新代际。",
+  "discussion": "对依赖实时语音交互的用户来说，最直接的后果是这套模型已可在 Workspace 账号中使用，而此前不少新发布在这些账号上常处于“既不够个人、也不够企业”的可用性空白；社区反馈同时指出其延迟较低、对浓重口音处理良好，因此已在语言练习、车载对话等场景产生实际价值。需要说明的是，原始博文未提供基准测试或架构细节，上述判断目前主要来自用户自述，而非官方量化数据。\n\n评论整体正面：用户报告延迟低、对口音处理良好，并称该模型已可在 Workspace 账户中使用；一位用户表示用 Gemini 进行南非荷兰语实时对话和语法练习体验极佳，另一位认为 Gemini Live 虽“更笨”，但实际对话感优于 GPT Voice。批评与担忧包括 Google AI Plus 用户尚未获得 Gemini 3.8，以及 Google 在竞争中仍落后于 Fable 和 Astra、有人追问 Gemini 4 何时发布。",
+  "references": [
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+    },
+    {
+      "title": "After ChatGPT and Claude comes Gemini 3.8 Live",
+      "url": "https://aivy.com.au/news/gemini-3-8-live-launch/"
+    },
+    {
+      "title": "Gemini 3.8 Flash Arrives in Gemini App and AI Mode",
+      "url": "https://techjournal.org/gemini-3-8-flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

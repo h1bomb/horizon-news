@@ -1,0 +1,41 @@
+{
+  "id": "0b0c2c8fccc676e50a51a6612206ce672f375fa1",
+  "canonicalId": "8fc9916b017847469524a4382a7c022a73a46648",
+  "slug": "git-bug嵌入-git-的离线优先分布式-bug-跟踪器",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T11:38:00Z",
+  "lang": "zh",
+  "title": "Git-bug：嵌入 Git 的离线优先分布式 bug 跟踪器",
+  "summary": "Git-bug 是一个把问题跟踪数据存进 Git 的离线优先分布式 bug 跟踪器；此次 Hacker News 讨论并未发布新版本，作者 michaelmure 在评论中列出了近期路线图，包括让 Web UI 接受 GitHub OAuth 等外部认证、把 Web UI 做成公开门户以接受外部互动、暴露 Git remote 端点，以及调整身份系统并可能用 did:plc（Bluesky 的身份系统，但不属于 ATProto）来分发公钥、让身份更自然地在仓库间共享。这些是计划而非已交付能力；用户 jason\\_oster 报告 git-bug issue \\#1023 是实际使用中的“showstopper”，虽有 workaround 但不优雅，并给出用普通免 ssh-agent 的 Git 命令推送/拉取 bug 和身份的 gist。",
+  "score": 7,
+  "tags": [
+    "git",
+    "distributed-systems",
+    "developer-tools",
+    "issue-tracking",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "alentred",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49843174"
+    }
+  ],
+  "originalUrl": "https://github.com/git-bug/git-bug",
+  "originalSite": "github.com",
+  "context": "git-bug 的核心设计是把 issue、评论等内容作为 Git 对象（而不是普通文件）写进仓库，因此它们能像代码一样被 push/pull 到一个或多个远端，在离线状态下同样可以创建和修改（工具结果 tool-2-1、tool-2-3）。它还提供与其他缺陷跟踪系统之间的 bridge，可充当本地或远端接口使用（tool-2-1）。把缺陷跟踪直接放进 Git 并非全新思路，讨论中有评论者指出此前已经出现过多个分布式 bug 跟踪器项目。",
+  "discussion": "对于想让问题跟踪随代码留在 Git 仓库中的开发者和团队，当前可直接上手的路径仍受 issue \\#1023 限制：jason\\_oster 描述该问题为 showstopper，需要不太优雅的 workaround 才能正常 push/pull bug 和身份。作者提出的外部认证、Git remote 端点和 did:plc 身份机制都还只是路线图，需要公开 Web 门户或跨仓库身份共享的团队不能把它当作已具备的能力。\n\n评论区的实质性分歧主要集中在可用性：jason\\_oster 认为 issue \\#1023 是拦路虎并给出 workaround，imagent 则因为缺少 Markdown 编辑器来编辑工单而自己做了 ticketry，并同时推荐 git-appraise 做纯 Git 代码评审；teddyh 补充这类分布式 bug 跟踪器已有很多先例。michaelmure 作为作者回应了路线图，但这些方向尚未交付。",
+  "references": [
+    {
+      "title": "GitHub - git-bug/git-bug: Distributed, offline-first bug ...",
+      "url": "https://github.com/git-bug/git-bug"
+    },
+    {
+      "title": "GitHub - git-bug/git-bug: Distributed, offline-first bug ...",
+      "url": "https://github.com/git-bug/git-bug?tab=readme-ov-file"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

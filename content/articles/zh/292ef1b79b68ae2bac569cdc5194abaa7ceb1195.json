@@ -1,0 +1,45 @@
+{
+  "id": "292ef1b79b68ae2bac569cdc5194abaa7ceb1195",
+  "canonicalId": "3c64bb95b2372803669c026cd504728641c497cd",
+  "slug": "llm-token-或比-grep-更便宜成本趋势引争论",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T09:21:00Z",
+  "lang": "zh",
+  "title": "LLM token 或比 grep 更便宜，成本趋势引争论",
+  "summary": "一篇题为“Tokens too cheap to meter”的分析文章提出，LLM token 的成本可能降到低于 grep 等传统工具调用的水平，并认为按当前进展速度这一转折可能很快到来。评论者引述原文称，对 GPT-5.6 Luna 的调用目前仅比 grep 贵 4–5 个数量级。该文属于推测性分析，并非已发布的模型能力或独立实测结果；对构建 AI 代理和开发者工具的人而言，其核心含义是若成本趋势成立，工具链可能更多用模型调用替代本地检索命令。",
+  "score": 7,
+  "tags": [
+    "LLM inference economics",
+    "AI cost trends",
+    "AI agents",
+    "developer tooling",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "teoruiz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49813482"
+    }
+  ],
+  "originalUrl": "https://jyn.dev/tokens-too-cheap-to-meter/",
+  "originalSite": "jyn.dev",
+  "context": "文章标题借用的是 1954 年 Lewis Strauss 关于核电“便宜到无需计量”（too cheap to meter）的承诺，而这一承诺并未兑现：核电成本随后走高，计量也从未停止。更直接的背景是，Horizon 7 月 31 日的日报曾报道 OpenAI 对 GPT-5.6 系列大幅降价，其中 Luna 降价 80%，输入价格降至每百万 token 0.20 美元、输出 1.20 美元，低于 Google Gemini 3.1 Flash-Lite 和 Anthropic Claude Haiku 4.5——这正是讨论中把 Luna 单次调用成本与 grep 对比时所依据的价格基准。",
+  "discussion": "对开发者和工具链团队而言，一个具体后果是：若把架构或采购决策建立在“LLM 调用会永久比 grep 便宜”的假设上，就要面对商业模式可持续性风险。评论者 cs702 指出，各厂商正投入巨额基础设施并预期未来利润兑现，而原文未充分分析这一点，因此当前 token 价格下降不应被当作可无限外推的承诺。\n\n评论者 jetrink 以斯坦因定律（“不能永远持续的事终将停止”）质疑效率改进和成本下降会无限延续；cs702 认为原文对商业模式可行性分析不足，因为各厂商的巨额基础设施投入依赖未来利润；abirch 则用 1954 年核能“电力便宜到无需计量”的承诺作类比。",
+  "references": [
+    {
+      "title": "Too cheap to meter - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Too_cheap_to_meter"
+    },
+    {
+      "title": "The Metering - Synthetic Taxonomy",
+      "url": "https://synthetictaxonomy.com/blog/2026-02-metering/"
+    },
+    {
+      "title": "2026-07-31 — GPT-5.6 大幅降价，Luna 成本降 80%",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

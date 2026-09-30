@@ -1,0 +1,57 @@
+{
+  "id": "5ac20f7f88b132d27f2f85e941706d0d68fa726c",
+  "canonicalId": "be949a9f15682a13292fdd13ddd64368589f3fe6",
+  "slug": "zcode-被指静默上传-git-历史zai-回应",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T06:11:00Z",
+  "lang": "zh",
+  "title": "ZCode 被指静默上传 Git 历史，z.ai 回应",
+  "summary": "一篇报告称，AI 编程工具 ZCode 静默将 Git 历史记录上传至云端，受影响的是使用该工具的开发者。Hacker News 讨论中引述的 z.ai 声明显示，该公司已道歉并启动内部审查，称问题源于其“codebase indexing”功能；该声明属于厂商说法，尚未独立验证。现有材料未说明上传范围、默认开启状态或受影响版本等具体细节。",
+  "score": 8,
+  "tags": [
+    "AI coding tools",
+    "privacy",
+    "security",
+    "data exfiltration",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "csmantle",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49750694"
+    }
+  ],
+  "originalUrl": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+  "originalSite": "blog.ferstar.org",
+  "context": "ZCode 是智谱（Z.ai）面向 GLM 系列模型的编程代理，其“代码库索引”（codebase indexing）一类功能通常需要读取本地源码，才能为模型提供上下文。外部报道进一步给出了机制与版本细节：对 ZCode 3.12.3 的只读取证复查发现，它会把整个工作区打包成加密快照上传，快照清单中 98.9% 为 .git 内容，并存在一条从凭证到阿里云 OSS 的完整上传路径，而界面上的开关无法阻止上传。",
+  "discussion": "对使用 ZCode 的开发者而言，直接后果是仓库历史中的私有代码与可能存在的凭证随工作区一并被上传到阿里云 OSS：公开的逆向分析称上传范围不限于提示中选中的文件，还包括 Git 对象、reflog 和缓存的大文件，其中一个案例为 345 MB 的工作区，而 ZCode 提供的两项隐私设置并未阻止上传，压缩包又使用只有 Z.ai 持有的密钥加密，用户无法自行解密核验内容。因此在调查结论明确前，受影响团队应把相关仓库视为已暴露，轮换其中出现过的密钥与令牌，并保留证据以备安全审计。\n\n评论者争论 AI 编程代理的权限边界：ectoloph 认为代理迟早会意外或恶意访问磁盘，自动模式下的权限分类器只是模型猜测，沙箱也可能被绕过；nolok 与 philbo 则分别报告 Windows Defender 频繁请求上传 Codex 工作文件，以及 GLM、Deepseek 倾向读取 dotfiles 和 .gitignore 中的文件。Iolaum 表示，出于对厂商激励的担忧，他选择继续使用 OpenCode。",
+  "references": [
+    {
+      "title": "ZCode uploads your git history; Z.ai holds the only key",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload"
+    },
+    {
+      "title": "Z.ai&#x27;s ZCode uploads full Git histories without a working opt ...",
+      "url": "https://runtimewire.com/article/zai-zcode-uploads-git-history-without-opt-out"
+    },
+    {
+      "title": "Developers Asked Where ZCode Was Sending Their Git History ...",
+      "url": "https://glbai.com/en/posts/zcode-silent-git-history-upload/"
+    },
+    {
+      "title": "ZCode Git History Upload Turns a Coding Convenience Into a ...",
+      "url": "https://www.remio.ai/post/zcode-git-history-upload-turns-a-coding-convenience-into-a-trust-problem"
+    },
+    {
+      "title": "Z.ai&#x27;s ZCode uploads full Git histories without a working opt ...",
+      "url": "https://runtimewire.com/article/zai-zcode-uploads-git-history-without-opt-out"
+    },
+    {
+      "title": "ZCode Uploads Your Git History: Settings Do Nothing",
+      "url": "https://byteiota.com/zcode-uploads-your-git-history-settings-do-nothing/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

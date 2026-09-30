@@ -1,0 +1,53 @@
+{
+  "id": "beac86fd6b3e5fbf7e00e78ef0732b9ba8988916",
+  "canonicalId": "f82afb648776b0979dfc3530a9c045662279b45f",
+  "slug": "anthropic-称-claude-发现-crispr-样重复序列系统",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T18:06:00Z",
+  "lang": "zh",
+  "title": "Anthropic 称 Claude 发现 CRISPR 样重复序列系统",
+  "summary": "Anthropic 报告称，Claude 发现了一个类似 CRISPR 的重复序列系统。根据提供的摘要，Claude 是在编码一种已知逆转录酶（RT）的 DNA 附近识别出串联重复阵列，并将其称为 CRISPR 样重复系统；这是厂商公告，所给材料中没有独立验证或完整方法细节。对关注 AI for science 的读者而言，值得注意的是 AI 代理被用于从原始基因组序列中提出候选系统，而评论者提醒该发现可能只是已知逆转录酶周围的未描述排列，并非全新酶系统。",
+  "score": 7,
+  "tags": [
+    "AI for science",
+    "CRISPR",
+    "genomics",
+    "AI agents",
+    "scientific discovery"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "raahelb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49820134"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "originalSite": "anthropic.com",
+  "context": "这一发现发生在 Anthropic 推进生命科学布局的背景下：Horizon 9 月 19 日的日报曾报道，该公司在旧金山湾区设立湿实验室开展实体生物学实验，目标是让 Claude 在实验室指挥机器人，此前还推出了 Claude Science 软件（tool-1-1）。就本次发现本身而言，核心的逆转录酶并非首次出现——据外部报道，它此前已在一株巨型噬菌体中被发现，Claude 首次识别出的是更大的系统组合，即该酶、一个功能未知的辅助蛋白以及相邻的重复序列阵列（tool-2-3）；相关论文摘要还称，该逆转录酶不属于任何已描述的类别（tool-2-2）。",
+  "discussion": "评论者 Spacecosmonaut 认为，更稳妥的表述是 Claude 识别出已知逆转录酶附近一个此前未描述的基因组排列，而非全新酶系统，并指出当前 evolved Cas9 变体已高效，治疗应用的主要瓶颈是递送。另有评论者 sashank\\_1509 敦促 Anthropic 明确其想推动的是人机协作发现还是代理自主发现，jokoon 则怀疑 LLM 能否真正推理生化问题。",
+  "references": [
+    {
+      "title": "2026-09-19 — Anthropic 设湿实验室推进 AI 药物计划",
+      "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+    },
+    {
+      "title": "Autonomous AI agents discover reverse transcriptases with ...",
+      "url": "https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf"
+    },
+    {
+      "title": "Claude Found a CRISPR-Like Enzyme System in 21 Hours ...",
+      "url": "https://techtrendsnewsupdate.substack.com/p/claude-found-a-crispr-like-enzyme"
+    },
+    {
+      "title": "Claude &#x27;s CRISPR Moment: Anthropic Claims Novel Enzyme ...",
+      "url": "https://llmtracker.de/en/news/claude-s-crispr-moment-anthropic-claims-novel-enzyme-discovery-but-the-community"
+    },
+    {
+      "title": "Claude discovers a novel enzyme system \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

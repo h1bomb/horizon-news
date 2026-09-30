@@ -1,0 +1,45 @@
+{
+  "id": "4c41d0dada395f742cf15e9975c0289aa7cfe392",
+  "canonicalId": "e0645c8a9048bb685811389e643e4b8c2df1dbd6",
+  "slug": "go-介绍实验性平台无关-simd-设计",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T11:47:00Z",
+  "lang": "zh",
+  "title": "Go 介绍实验性平台无关 SIMD 设计",
+  "summary": "Go 官方博客发布了一项实验性平台无关 SIMD 设计，面向需要向量化优化的 Go 开发者，但目前仍是实验，而非已发布的稳定能力。该设计试图用可移植的方式覆盖不同架构，社区评论特别指出它比许多可移植 SIMD 方案更便于支持 SVE、RISC-V RVV 等非固定宽度向量。Hacker News 讨论中的基准显示，在一个浏览器内 WASM 图像调色板交换示例里，可移植 SIMD 比架构专用 SIMD 慢约 11%，但两者都比非 SIMD 标量实现快约 5 倍。",
+  "score": 8,
+  "tags": [
+    "Go",
+    "SIMD",
+    "Performance Optimization",
+    "Compilers and Runtimes",
+    "Portable Vectorization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "yurivish",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49843269"
+    }
+  ],
+  "originalUrl": "https://go.dev/blog/simd-experiment",
+  "originalSite": "go.dev",
+  "context": "Go 标准库此前没有官方的 SIMD 支持，需要向量化的项目通常依赖第三方代码生成包——例如 simd 包在运行时按 CPU 选择 SSE2、AVX2、AVX-512、NEON、SVE2、RVV 等内核，并为不支持的平台保留纯 Go 回退路径——或手写汇编与 intrinsics（tool-2-2）。Phoronix 的报道同样把这篇博客形容为 Go 在平台无关 SIMD API 上的实验性探索（tool-2-1）。在 Rust 等语言中，可移植 SIMD 与平台特定 intrinsics 之间的取舍早已存在：可移植接口易用，但某些特定指令仍须直接调用 intrinsics，Rust 直到 1.87 才允许安全调用平台特定 intrinsics（tool-2-3）。",
+  "discussion": "对 Go 性能开发者而言，这项实验如果继续推进，可能让同一份向量代码跨架构运行，减少为每个架构单独维护专用 SIMD 路径的需求；但当前仍属实验，且社区基准显示可移植版本比架构专用版本慢约 11%，采用时需在可移植性与峰值性能之间做权衡。\n\n评论者 mshockwave 称赞这是其见过的可移植 SIMD 方案中首个让 SVE、RVV 等非固定宽度向量更易支持的实现；ImJasonH 分享了一个 WASM 图像调色板基准，可移植 SIMD 比架构专用慢约 11%，但比标量快约 5 倍。burntcaramel 则把 WebAssembly SIMD、Mojo 和 Go SIMD 归为三种不同的平台无关 SIMD 取向。",
+  "references": [
+    {
+      "title": "Go &#x27;s Improving SIMD Support, Platform - Independent ... - Phoronix",
+      "url": "https://www.phoronix.com/news/Go-SIMD-2026"
+    },
+    {
+      "title": "simd package - github.com/sebishogun/ simd - Go Packages",
+      "url": "https://pkg.go.dev/github.com/sebishogun/simd"
+    },
+    {
+      "title": "The state of SIMD in Rust in 2026 | Sergey &quot;Shnatsel&quot; Davidoff",
+      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

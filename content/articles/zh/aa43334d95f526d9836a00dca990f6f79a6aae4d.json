@@ -1,0 +1,31 @@
+{
+  "id": "aa43334d95f526d9836a00dca990f6f79a6aae4d",
+  "canonicalId": "b3d6245033600a8259e4118d15c0c32a781a6a07",
+  "slug": "blanket多线程-python-的确定性测试工具",
+  "date": "2026-09-05",
+  "publishedAt": "2026-09-04T15:29:00Z",
+  "lang": "zh",
+  "title": "blanket：多线程 Python 的确定性测试工具",
+  "summary": "LWN 报道了 Larry Hastings 在 PyCon US 上关于其新项目 blanket 的演讲。blanket 是一个旨在通过确定性机制测试多线程 Python 代码的库，其首次发布就在演讲前一晚完成，名称意为“使用线程的覆盖率”。它提供与 threading 模块中七个同步原语等价的确定性替代品，开发者可通过模块的 Scenario 对象（如 scenario.Lock\\(\\)）显式控制线程事件的顺序。Hastings 演示了因操作系统调度而产生的非确定性：三个线程竞争锁和屏障时共有 36 种可能的执行顺序，而 blanket 能让任意竞态条件按需重现。该工具对于开发自由线程版 Python（即无 GIL）并发库并追求 100% 测试覆盖率的开发者尤为重要。",
+  "score": 8,
+  "tags": [
+    "python",
+    "multithreading",
+    "testing",
+    "concurrency",
+    "free-threaded-python"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1090579/",
+  "originalSite": "lwn.net",
+  "context": "传统 CPython 通过全局解释器锁（GIL）限制同一时刻只能有一个线程执行 Python 字节码，而自由线程版 Python 移除了这一锁，使多线程代码能真正并行运行，也随之带来更多竞态条件。多线程程序测试困难的根源在于，线程执行顺序取决于操作系统调度，这种非确定性导致相同代码每次运行的顺序都可能不同，难以稳定复现问题。blanket 通过替换 threading 的锁、屏障等同步原语，让开发者可以控制线程执行顺序，从而把部分随机性变为可预测的测试场景。",
+  "discussion": "对于需要测试无 GIL 或普通多线程 Python 代码、希望稳定复现竞态条件并达到 100% 测试覆盖率的开发者，blanket 提供了一种可控制执行顺序的确定性测试方案，能够显著降低并发代码的调试和回归测试难度。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

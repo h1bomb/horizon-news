@@ -1,0 +1,49 @@
+{
+  "id": "d8a94d77298c3ddc85bd5fda46613f54b0c21bba",
+  "canonicalId": "0c90c73c08cf283551a15d6fbe9450700fca3b21",
+  "slug": "anthropic-发布-claude-opus-55token-价格下调约-20",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T16:29:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Claude Opus 5.5，token 价格下调约 20%",
+  "summary": "Anthropic 发布 Claude Opus 5.5，这是 5.x 系列的点版本更新，主要变化是每百万 token 价格下调约 20%：输入由 5 美元降至 4 美元、输出由 25 美元降至 20 美元、缓存读取由 0.50 美元降至 0.20 美元、缓存写入由 6.25 美元降至 5 美元（这些对比数字来自社区评论的整理，而非独立验证）。官方还宣称新版本“沟通更自然”，早期测试者认为其写作更清晰易读、更早给出重点，但目前只有厂商说法和测试者印象，没有基准测试或其他能力证据。该版本被定位为 Anthropic 呼吁“为前沿模型定速（pacing the frontier）”之后的首个发布，但现有材料未说明它与 Claude Opus 5 的具体兼容性差异或可用渠道。",
+  "score": 8,
+  "tags": [
+    "LLMs",
+    "Anthropic",
+    "model release",
+    "AI pricing",
+    "AI industry"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "km144",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49803892"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/claude-opus-5-5",
+  "originalSite": "anthropic.com",
+  "context": "Claude Opus 5.5 是 Claude Opus 5 的直接后继版本，也是 Anthropic 新 Claude 5.5 系列的首个模型；据 Unite.AI 报道，它于 2026 年 9 月 22 日发布，相较前代每百万输入 token 5 美元、输出 25 美元的定价降低了约 20%（tool-2-2）。Horizon 6 月 10 日的日报曾报道 Anthropic 发布 Claude Fable 5、早期使用者评价不一，而按 Anthropic 的说法，Opus 5.5 在大多数工作上达到 Claude Fable 5.1 的水平（tool-1-1、tool-2-3）。",
+  "discussion": "对以长上下文或智能体流程调用 Opus 的开发者来说，最直接的后果是缓存读取价格从每百万 token 0.50 美元降到 0.20 美元，降幅约 60%，明显大于输入 token（5 降至 4 美元）和输出 token（25 降至 20 美元）约 20% 的降幅，因此缓存命中率高的用量节省会超过名义上的两成。需要注意的是，除价格和厂商自述的沟通风格改进外，来源中没有基准或能力数据可供评估，是否从 Opus 5 迁移仍需自行测试；评论中已有开发者表示会继续使用 DeepSeek v4.1 等更便宜的替代方案。\n\n评论者主要围绕价格与替代方案争论：有人逐项列出各档价格，并称 Opus 5 是 OpenRouter 上任务支出最高的模型；也有人表示会继续用更便宜、在 agent 类任务上“很能干活”的 DeepSeek v4.1。另有评论者批评 Anthropic 刚呼吁为前沿定速，这次发布却用具体降价和宣传展示自己并未减速。",
+  "references": [
+    {
+      "title": "2026-06-10 — Anthropic Releases Claude Fable 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "title": "Anthropic Releases Claude Opus 5.5 With Lower Pricing and New ...",
+      "url": "https://www.unite.ai/anthropic-releases-claude-opus-5-5-with-lower-pricing-and-new-safeguards/"
+    },
+    {
+      "title": "Introducing Claude Opus 5.5 \\ Anthropic",
+      "url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    {
+      "title": "Anthropic releases Opus 5.5 and cuts pricing by 20%. Your ...",
+      "url": "https://thenewstack.io/claude-opus-5-5-release/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

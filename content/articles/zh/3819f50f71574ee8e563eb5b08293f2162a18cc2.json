@@ -1,0 +1,30 @@
+{
+  "id": "3819f50f71574ee8e563eb5b08293f2162a18cc2",
+  "canonicalId": "c7c5eb70477711799f7f842094b7a337c2e3fad6",
+  "slug": "rust-的-never-类型稳定两年多努力终于落地",
+  "date": "2026-09-09",
+  "publishedAt": "2026-09-08T13:34:00Z",
+  "lang": "zh",
+  "title": "Rust 的 never 类型稳定：两年多努力终于落地",
+  "summary": "Rust 编译器贡献者 waffle 经过两年多的工作，最终在 2026 年 8 月 24 日稳定了 never 类型（\\`\\!\\`）——用于标记永远不会返回的函数或永远不会产生的值；该稳定化带来一处针对旧版 Rust 的小型破坏性变更，维护者需确认其不会影响大量真实代码。\\`\\!\\` 会自动转换到任意类型，标准库中 \\`FromStr::Err = \\!\\` 这样的写法可让编译器消除错误分支，同时也统一了无限循环等表达式的类型推断。为兼容旧代码，Rust 将 2024 edition 中不确定类型的 fallback 从 \\`\\(\\)\\` 改为 \\`\\!\\`；这本身是破坏性变更，但与按计划让标准库 \\`Infallible\\` 成为 \\`\\!\\` 别名的改动几乎相互抵消。LWN 记者 Daroc Alden 于 2026 年 9 月 8 日对此作了报道。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "type system",
+    "language stabilization",
+    "compiler"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1091015/",
+  "originalSite": "lwn.net",
+  "context": "在 Rust 中，许多语法结构（如 \\`if\\`、\\`loop\\`）都是表达式，需要类型推断；\\`\\!\\` 代表不可能产生的值，并可自动转换为任意类型，因此编译器可用它统一处理无限循环等永远不会返回结果的情况。由于 Rust 的 edition 机制允许前端行为出现破坏性变化，维护者可以在新版 edition 中把未解析类型的默认回退从 \\`\\(\\)\\` 调整为 \\`\\!\\`，而旧代码继续按旧规则编译。",
+  "discussion": "对 Rust 开发者而言，稳定后的 \\`\\!\\` 可以在稳定版代码中直接使用，且按计划标准库的 \\`Infallible\\` 会成为 \\`\\!\\` 的别名，使既有代码自动获得更好的代码生成。由于 \\`\\!\\` 能隐式转换为其他类型，少数原本依赖类型推断得到 \\`Infallible\\` 的代码可能需要额外类型标注。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "25512f6877ce2e9462b295a3658405987df61eb3",
+  "canonicalId": "642a1494ec3f8e04cc795f0d96e5fb4993a97fb7",
+  "slug": "typesafeai-发布-system-one-models-与-jev",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T19:25:00Z",
+  "lang": "zh",
+  "title": "Typesafe.ai 发布 System One Models 与 Jev",
+  "summary": "Typesafe.ai 发布了 System One Models 和 Jev，将其定位为面向结构化输出的类型化推理替代方案，而非通用 LLM 生成。该发布在 Hacker News 引发讨论，评论者认可其新颖性，但质疑其速度对比是否公平：通用生成模型能输出图灵完备语言代码，理论上可完成计算机能做的任何事，而 Jev 据称只能生成结构化输出。社区从文档中理解到，模型可能接收一个状态（是否为结构化文本、是否多模态尚不明确）和一个问题（Choice、Score 或 Noul 等类型），并输出选择、概率和置信度等结果，此外还可附加增强。评论还将其与设计契约、编码器模型等已有方法比较，并提到 AI primer 页面涉及 RLCD 过程，但具体内容不完整。整体上，发布帖和评论是当前唯一证据，尚无独立验证或行业影响证明。",
+  "score": 7,
+  "tags": [
+    "System One Models",
+    "Jev",
+    "structured inference",
+    "type systems",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "albelfio",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49717558"
+    }
+  ],
+  "originalUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+  "originalSite": "typesafe.ai",
+  "context": "TypeSafe AI 是一家构建面向自动化的机器原生智能基础设施、目标是让模型在软件内做决策的 AI 实验室。\\[tool-1-1\\] System One 模型是该公司提出的一类模型，主打快速、结构化决策，而非通用文本生成；Jev 是 TypeSafe 的首个、也是旗舰 System One 模型，已开放早期访问。\\[tool-1-2\\]\\[tool-1-3\\] 目前公开信息称 Jev 用类型化或结构化推断取代文本生成，但其最大性能宣称仍依赖内部测试，尚无独立验证。\\[tool-1-3\\]",
+  "discussion": "对需要分类、评分或结构化抽取的开发者与团队来说，Jev 可能提供比通用文本生成更快的类型化推理路径，但其能力边界明显更窄，且速度优势尚未被独立验证。\n\nHN 评论整体认为该工作新颖且对分类/结构化任务有潜力，但主要分歧在于速度对比的公平性：有人指出 Jev 不能像图灵完备的代码生成模型那样通用。另有评论表示官方文档比发布帖中与 LLM token 的对比更清楚，并将其与设计契约、编码器模型等已有思路联系起来。",
+  "references": [
+    {
+      "title": "Introducing System One Models &amp; Jev - TypeSafe AI Blog",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+    },
+    {
+      "title": "System One - TypeSafe AI",
+      "url": "https://docs.typesafe.ai/concepts/system-one"
+    },
+    {
+      "title": "TypeSafe opens Jev early access for fast, typed AI decisions",
+      "url": "https://runtimewire.com/article/typesafe-jev-system-one-ai-model-early-access"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

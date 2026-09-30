@@ -1,0 +1,36 @@
+{
+  "id": "3bebe21e5e0ad0e6a5cc4f8e6bb7920b8dfdb8eb",
+  "canonicalId": "3e20fb1e379f8fa69110f71a41d6c45f436ef5a7",
+  "slug": "io-uring-以线程身份交换消除异步阻塞开销",
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-17T13:49:00Z",
+  "lang": "zh",
+  "title": "io\\_uring 以线程身份交换消除异步阻塞开销",
+  "summary": "io\\_uring 维护者 Jens Axboe 在 2026 年 9 月发布 RFC 补丁集，提出用“线程身份交换”（thread identity handoff）解决“可能阻塞的操作必须交给工作线程”所带来的开销：后者在操作实际并未阻塞时，唤醒工作线程和上下文切换的成本会占去请求执行的很大一部分。补丁在 task\\_struct 的 flags 字段中加入 PF\\_IO\\_HANDOFF 标志，并在调度器中挂接新函数 io\\_uring\\_task\\_sleeping\\(\\)，使 io\\_uring 无需改动内核各系统调用路径就能得知某处即将阻塞；一旦发生阻塞，io\\_uring 就从线程池取一个工作线程并交换两者的 task\\_struct（包括线程 ID、信号处理等），由原线程以工作线程身份继续阻塞并完成操作，工作线程则以提交线程的身份继续处理提交环并最终返回用户态。由此只有操作真正阻塞时才付出引入工作线程的代价；无法安全交换身份的情形（如被 ptrace 跟踪或正在跟踪他人、使用 perf 事件、内核中记录 futex 所有权、运行在实时调度器下、持有 core scheduling cookie、执行 vfork\\(\\) 等）会由 thread\\_handoff\\_allowed\\(\\) 和 thread\\_handoff\\_compatible\\(\\) 中的一长串条件排除，退回旧方式执行。该系列目前仍是 RFC，尚未合并；文章作者 Jonathan Corbet 认为，确保内核中没有其他代码持有这两个 task\\_struct 的引用，是整套方案中最危险、最脆弱的部分。",
+  "score": 7,
+  "tags": [
+    "io\\_uring",
+    "Linux kernel",
+    "asynchronous I/O",
+    "performance",
+    "RFC patch"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1094303/",
+  "originalSite": "lwn.net",
+  "context": "io\\_uring 让应用通过提交队列条目（SQE）和 io\\_uring\\_enter\\(\\) 发起异步 I/O，并承诺除非显式要求，调用不会阻塞。由于内核中不少路径并非为异步执行设计，现有内核会把任何“可能阻塞”的操作交给单独的工作线程执行，以保证提交线程不被卡住，但这会带来唤醒工作线程和上下文切换的额外开销。Axboe 的 RFC 试图改变这一权衡：在 task\\_struct 中增加 PF\\_IO\\_HANDOFF 标志，由调度器在真正即将阻塞时通知 io\\_uring，从而只在确实需要阻塞时才让工作线程介入。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Axboe RFC : io _ uring hands off thread identity on actual block",
+      "url": "https://freenode.net/article/axboe-rfc-io-uring-hands-off-thread-identity-on-actual-block"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bd6425900e98d585b25cb62a3b733c6d4435dbbc",
+  "canonicalId": "8c13889dc16ced6e20b6ca38f02a3302eddcbeef",
+  "slug": "坎特里尔回应-ai-灭绝论恐惧驱动推演不可取",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T21:18:00Z",
+  "lang": "zh",
+  "title": "坎特里尔回应 AI 灭绝论：恐惧驱动推演不可取",
+  "summary": "2026 年 9 月 14 日，Simon Willison 在其博客中重点推介了 Bryan Cantrill 于 9 月 13 日发表的《The contagion of fear》一文。该文回应前 Anthropic 员工 Jacob Coxon 的推文，后者称许多 Anthropic 研究人员相信 AI「可能在本十年末杀死全人类」。Cantrill 指出这类说法依赖含糊的未来外推——例如 Coxon 提到的「入侵关键基础设施」和「灭绝级生物武器」都未作进一步论证，而他本人既非关键基础设施专家，也非生物武器或灭绝研究专家。他回顾自己年轻时因技术失误让非技术同行产生不必要恐慌的经历，强调专家凭专业身份天然获得公众信任，因此在发出警报时尤其应当审慎，举证责任应由提出主张者承担。Willison 还提到，Cantrill 在两人共同参与的 Oxide and Friends 播客「The open-weight revolution」一期中（约 51 分 44 秒起）已表达对生物武器担忧的怀疑，质疑所谓「AI 能造出生物武器」究竟如何实现，并呼吁由生物学家或有生物武器经验的人出面评估。",
+  "score": 7,
+  "tags": [
+    "AI safety",
+    "existential risk",
+    "AI discourse",
+    "Anthropic",
+    "tech commentary"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+  "originalSite": "simonwillison.net",
+  "context": "Bryan Cantrill 是美国软件工程师，曾在 Sun Microsystems 任职并参与设计 DTrace，目前是 Oxide Computer Company 的联合创始人兼 CTO，长期专注于系统软件。2026 年 9 月，前 Anthropic 研究员 Jacob Coxon 公开称 AI 可能在本十年内杀死全人类，并提到“攻击关键基础设施”和“灭绝级生物武器”等风险路径；Anthropic 现任对齐负责人转发该帖，称这类担忧确实是“真诚的”，并估计未来十年内发生概率超过 10%。这轮争论属于 AI 存在性风险（existential risk）话语的一部分，批评者认为此类论断缺乏关键基础设施、生物武器和灭绝生物学等领域专家的具体论证。",
+  "discussion": "这场讨论把 AI 存在性风险主张的举证责任明确推给提出者，可能影响研究人员与开发者在公开谈论 AI 风险时的措辞与证据标准。",
+  "references": [
+    {
+      "title": "Bryan Cantrill - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bryan_Cantrill"
+    },
+    {
+      "title": "DTrace at 21: Reflections on Fully-grown Software - P99 CONF",
+      "url": "https://p99conf.io/session/dtrace-at-21-reflections-on-fully-grown-software/"
+    },
+    {
+      "title": "Bryan Cantrill on Containers, Linux, Triton and Illumos... - InfoQ",
+      "url": "https://www.infoq.com/interviews/cantrill-containers/"
+    },
+    {
+      "title": "An ex-Anthropic researcher claims that AI could kill us all. But he fails to answer the most essential question: What are we supposed to do about it? | Fortune",
+      "url": "https://fortune.com/2026/09/10/ex-anthropic-researcher-jacob-coxon-ai-could-end-humanity-fails-to-answer-most-essential-question/"
+    },
+    {
+      "title": "Jacob Coxon : Former Anthropic researcher Jacob Coxon resigns, warns AI could ‘kill us all by the end of the decade’: ‘They are racing straight to self-improving superintelligence’ | - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/former-anthropic-researcher-jacob-coxon-resigns-warns-ai-could-kill-us-all-by-the-end-of-the-decade-they-are-racing-straight-to-self-improving-superintelligence/articleshow/134029385.cms"
+    },
+    {
+      "title": "Who Is Jacob Coxon? Anthropic Researcher Quits—Warns AI Could Kill Everyone - Newsweek",
+      "url": "https://www.newsweek.com/anthropic-researcher-quits-warns-ai-could-kill-everyone-12418798"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

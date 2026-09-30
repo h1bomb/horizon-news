@@ -1,0 +1,31 @@
+{
+  "id": "83a40bd79d596798efab89a3aeedc0595cd6fdbb",
+  "canonicalId": "661197600e78b896dd41e996e6da1bbc176d419e",
+  "slug": "rustls-十周年回顾-023-稳定路线并展望-10",
+  "date": "2026-09-10",
+  "publishedAt": "2026-09-09T18:11:00Z",
+  "lang": "zh",
+  "title": "Rustls 十周年：回顾 0.23 稳定路线并展望 1.0",
+  "summary": "LWN 报道了 Joe Birr-Pixton 为 Rustls TLS 库项目撰写的十周年回顾博客，其中介绍了项目的历史、当前状态以及对 0.24 版本和最终 1.0 版本的规划。Rustls 的首个提交于 2016 年 5 月 2 日完成，一个月后即可与当时大多数网站互操作，首个版本 0.1.0 于 2016 年 8 月 27 日发布。项目经过多年迭代后形成了 0.23 发布线，该版本于 2024 年 2 月 29 日发布，此后共出现了 43 个非破坏性更新。0.23 系列引入了 FIPS 认证的密码学选项、证书压缩、Encrypted ClientHello、后量子密码学以及多项性能改进。项目目前正朝着 0.24 版本和最终的 1.0 版本推进。",
+  "score": 7,
+  "tags": [
+    "rustls",
+    "tls",
+    "rust",
+    "security",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1093391/",
+  "originalSite": "lwn.net",
+  "context": "Rustls 是一个使用 Rust 语言编写的 TLS 协议实现，旨在提供内存安全、易于使用且默认安全的加密通信能力，常用于替代 OpenSSL 等 C 语言实现的 TLS 库。Joe Birr-Pixton 是该项目的主要维护者之一；其十周年博客不仅回顾了项目早期的快速进展，也说明了长期稳定发布线如何为后续正式 1.0 版本奠定基础。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

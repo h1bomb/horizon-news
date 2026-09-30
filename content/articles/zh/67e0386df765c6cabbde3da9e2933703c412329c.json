@@ -1,0 +1,41 @@
+{
+  "id": "67e0386df765c6cabbde3da9e2933703c412329c",
+  "canonicalId": "dcd46da33dcb96e84afc9ff4efd2cb6590e16ec2",
+  "slug": "web-与移动端对话式-ai-代理隐私分析",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T09:03:00Z",
+  "lang": "zh",
+  "title": "Web 与移动端对话式 AI 代理隐私分析",
+  "summary": "一篇针对 Web 与移动端对话式 AI 代理的技术隐私分析（PDF）于 2026 年 9 月 29 日发布到 Hacker News。当前提供的材料没有论文正文，无法核实其具体测量方法、样本范围或结论；条目说明只概括了该分析主题，并提到社区讨论凸显主要 AI 聊天服务的跟踪与数据处理风险。",
+  "score": 8,
+  "tags": [
+    "privacy",
+    "conversational AI",
+    "web tracking",
+    "mobile apps",
+    "LLM agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "damaru2",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49890226"
+    }
+  ],
+  "originalUrl": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-%28clean%29.pdf",
+  "originalSite": "jorgegarciaherrero.com",
+  "context": "根据 IMDEA 机构库中的论文摘要，这项研究对九款主流对话式 AI 服务的网页版与移动版部署做了系统性隐私分析，结合静态与动态分析方法，考察其中第三方广告与追踪服务的存在及行为（tool-2-1）。此前 9 月 21 日的 Horizon 日报曾报道，一篇 Hacker News 博文声称 ChatGPT 通过广告技术采集器推断用户在其他网站上的活动；该说法当时仅出自单一博文、未获独立验证，评论者认为其机制本身属于标准广告技术，真正没有先例的是把它用在 AI 聊天产品上（tool-1-1）。",
+  "discussion": "对使用相关聊天服务的用户而言，评论中报告的风险是：会话 URL 中的 UUID 并不构成隐私边界，访问历史会话链接可能暴露完整对话，因此这类链接不应被视为可安全分享的匿名地址；至于关闭营销隐私开关等缓解措施是否有效，评论中并未给出验证结果。\n\n讨论中，有用户报告 ChatGPT 网页版会在点击发送前把未完成的提示词周期性地发往 conversation/prepare 端点，并担心服务端可借此分析写作节奏和思路演变；也有用户将此类隐私问题与训练数据争议类比，主张使用本地或开源模型，并询问关闭营销隐私设置后这些风险是否仍存在。",
+  "references": [
+    {
+      "title": "2026-09-21 — 博文称 ChatGPT 借广告采集器获知用户站外活动",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/"
+    },
+    {
+      "title": "Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of ...",
+      "url": "https://dspace.networks.imdea.org/handle/20.500.12761/2073"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

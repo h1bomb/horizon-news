@@ -1,0 +1,57 @@
+{
+  "id": "3c57ff7b7f15fc465288d9a8d5dd714b70e746e9",
+  "canonicalId": "1704ec300ffe2f68c3b91aa3624fb3b2a6aa0537",
+  "slug": "grapheneos-称-android-17-首次未随-aosp-发布即新增-api",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T19:03:00Z",
+  "lang": "zh",
+  "title": "GrapheneOS 称 Android 17 首次未随 AOSP 发布即新增 API",
+  "summary": "GrapheneOS 在社交平台发帖称，Android 17 是自 Android 3.x 以来第一个在未同步发布 AOSP 源码的情况下就新增 API 的版本，并据此批评 Google 对 Android 季度源码发布的控制正在收紧。这是 GrapheneOS 单方面提出的说法，目前没有一手文档或 Google 官方说明作为佐证，其具体范围仍有争议。Hacker News 讨论中的技术澄清认为，关键细节可能在于部分季度补丁（每年第一和第三次）仅面向 Pixel 提供，而非新 API 本身为 Pixel 专有。",
+  "score": 7,
+  "tags": [
+    "Android",
+    "AOSP",
+    "open source",
+    "GrapheneOS",
+    "platform governance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "theanonymousone",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49758736"
+    }
+  ],
+  "originalUrl": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+  "originalSite": "grapheneos.social",
+  "context": "季度平台版本（QPR）是 Pixel 设备在年度大版本之外获得的中间更新。Horizon 6 月 18 日的日报曾报道 Android 17 向 Pixel 推送并开放了源代码（tool-1-2）；而随后出现的报道称，随 9 月 Pixel Drop 抵达的 Android 17 QPR1 包含 Pixel 优先的功能、开发者 API 与安全修复，并未同步通过 AOSP 提供（tool-2-3），另有报道提到 Google 对 QPR1 与 QPR3 这类中间周期的源代码予以扣留，使新平台 API 只能在 Pixel 硬件上运行（tool-2-1）。",
+  "discussion": "对自定义 ROM 开发者和 GrapheneOS 这类下游项目来说，具体后果是：若新 API 只随 Pixel 季度更新发布而不进入当期 AOSP 源码，它们就无法同步实现该功能，只能等到下一次半年度源码投放，从而与官方 Pixel 版本产生阶段性功能差距。这一趋势此前已有迹可循——2025 年 6 月的社区报道指出 Google 不再发布 Pixel 设备树、二进制与内核提交历史，为 Pixel 构建 ROM 需要自行重建这些内容；同年 7 月的讨论中 GrapheneOS 开发者称相关变更会拖慢并增加 Android 16 的开发难度。另有 2026 年 5 月的分析将这种 Pixel 优先策略描述为部分更新绕过 AOSP、新功能更晚才进入自定义 ROM，因此开发者需要先确认某个 API 是 Pixel 独占还是仅延迟到下次 AOSP 投放，再决定是否等待。\n\nHacker News 上评论者 bri3d 梳理了流程：Google 每半年向 OEM 与公众发布一次真正的 Android 源码更新，而 Pixel 每年有四次更新（含文档与 SDK），因此新 API 只出现在 Pixel 专属的更新中；Ajedi32 则引用 GrapheneOS 的后续帖子，认为争议点不是新 API 为 Pixel 独有，而是每年第一和第三次季度补丁为 Pixel 独有。另有用户 wps 批评 Google 对 GrapheneOS 设下延迟上游补丁、禁运、认证等障碍，barbazoo 表示自己使用 GrapheneOS 后不愿再回到 Google Android 或 iOS——这些均为评论者个人观点，并非已核实的事实。",
+  "references": [
+    {
+      "title": "2026-06-18 — Android 17 Released: Mandatory Large-Screen Support, AI Integration",
+      "url": "https://android-developers.googleblog.com/2026/06/Android-17.html"
+    },
+    {
+      "title": "GrapheneOS calls out Google for Pixel-exclusive Android 17 ...",
+      "url": "https://me.mashable.com/tech/76206/grapheneos-calls-out-google-for-pixel-exclusive-android-17-qpr1-platform-code"
+    },
+    {
+      "title": "GrapheneOS Says Android 17 QPR1 Code and Security Fixes ...",
+      "url": "https://www.gsmdome.com/grapheneos-says-android-17-qpr1-code-and-security-fixes-reached-pixels-ahead-of-aosp"
+    },
+    {
+      "title": "r/Android on Reddit: AOSP isn&#x27;t dead, but Google just landed a huge blow to custom ROM developers - It&#x27;s no longer releasing Pixel device trees, binaries, or kernel source code commit history",
+      "url": "https://www.reddit.com/r/Android/comments/1l9g3tl/aosp_isnt_dead_but_google_just_landed_a_huge_blow/"
+    },
+    {
+      "title": "General - Changes to AOSP and effect on Pixel development | XDA Forums",
+      "url": "https://xdaforums.com/t/changes-to-aosp-and-effect-on-pixel-development.4746704/"
+    },
+    {
+      "title": "Google Shifts to Biannual AOSP Releases, What It Means for Custom ROMs | TheCustomRom",
+      "url": "https://thecustomrom.com/news/google-aosp-biannual-release-impact"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5db380e83aa7be2d645c502ef9b2db4b2c323d8c",
+  "canonicalId": "e61359e960f83497c13408c8ac6ce0e2bb907448",
+  "slug": "gemini-38-tts-模型发布附-byok-试听工具",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T17:12:00Z",
+  "lang": "zh",
+  "title": "Gemini 3.8 TTS 模型发布，附 BYOK 试听工具",
+  "summary": "Google 发布了 gemini-3.8-flash-tts 和 gemini-3.8-flash-lite-tts 两款 Gemini 文本转语音模型，提供 2000 多种预置音色，并支持仅用一段 30 秒的音频样本创建自定义音色。Simon Willison 随后发布了 Gemini 3.8 TTS Playground，这是一个自带 API key（BYOK）的浏览器试验工具，支持定义多说话人对话，为每个说话人分别指定音色和语气风格。该工具借助 Gemini API 的开放 CORS 策略直接从前端调用，API key 只保留在页面内存中，不写入浏览器存储。Willison 的实测显示，用 Flash TTS（非更便宜的 Flash-Lite）生成 1 分 18 秒音频约耗时 20 秒，成本 2.74 美分。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "text-to-speech",
+    "voice cloning",
+    "developer tools",
+    "Google AI"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+  "originalSite": "simonwillison.net",
+  "context": "就在一周前，Horizon 9 月 16 日的日报曾报道 Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 两款语音到语音模型，Simon Willison 同日也发布了基于浏览器的 Gemini Live 语音测试界面（tool-1-1）；这次的 gemini-3.8-flash-tts 与 gemini-3.8-flash-lite-tts 属于同一 Gemini 3.8 语音家族中偏文本转语音的一支，因此 Willison 再次用浏览器工具的形式提供了试用入口。第三方资料显示，两款模型于 2026 年 9 月 23 日上线 Gemini API 与 Google AI Studio，定价为输入文本每百万 token 0.50 美元、输出音频每百万 token 9.00 美元（tool-2-2）。",
+  "discussion": "由于底层 API 采用开放 CORS 且工具为 BYOK 模式，开发者无需自建服务端代理即可在浏览器中直接调用这些 TTS 模型、调试多说话人脚本，但请求会消耗使用者自己的 Gemini API 账户配额并按量计费；Playground 把编排设置保存在 URL 中以便分享，API key 则被排除在外。",
+  "references": [
+    {
+      "title": "2026-09-16 — Simon Willison 发布 Gemini 3.8 Live 浏览器语音测试界面",
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/"
+    },
+    {
+      "title": "Gemini 3 . 8 Flash TTS - API Pricing &amp; Providers | OpenRouter",
+      "url": "https://openrouter.ai/google/gemini-3.8-flash-tts"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

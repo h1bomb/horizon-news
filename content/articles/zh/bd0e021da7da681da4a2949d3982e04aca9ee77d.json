@@ -1,0 +1,31 @@
+{
+  "id": "bd0e021da7da681da4a2949d3982e04aca9ee77d",
+  "canonicalId": "bc796ee1b309d432bb0f7459b8bd262cdd360164",
+  "slug": "dynamo-triton-多-gpu-tensorrt-推理cosmos-3-视频生成实测",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T21:51:00Z",
+  "lang": "zh",
+  "title": "Dynamo-Triton 多 GPU TensorRT 推理：Cosmos 3 视频生成实测",
+  "summary": "rss · NVIDIA Inference Performance Blog · 9月21日 21:51\n\n**「背景」** 生成式 AI 的算力与显存需求已超出单 GPU 所能提供的范围，而多 GPU 加速此前很难直接变成一个可调用的推理服务。作者介绍的是 TensorRT 多设备推理（TensorRT 11.0 起正式支持）与 NVIDIA Dynamo-Triton 26.07 的集成，说明它如何弥合这一落差。\n\n**「方案」** 该能力让单个 TensorRT 网络借助 NCCL 集合通信跨多 GPU 执行，同时保留 TensorRT 的推理优化。在 Dynamo-Triton 中，一个 KIND\\_MODEL 实例即可持有多个 GPU，按 rank 创建 TensorRT 执行上下文、CUDA 流与 NCCL 通信器并对每个请求统一启动；应用只需调用一个 gRPC 模型端点，不必自行协调各 rank，rank 与通信器的生命周期代码也留在服务端。作者以 Cosmos 3 Nano 视频生成为例：Diffusers 负责提示、潜变量、CFG、调度、VAE 解码与后处理，Dynamo-Triton 服务占单卡生成时间 93.4% 的 36 层去噪 transformer，并用 Ulysses 上下文并行把 44,160 个视频 token 分布到最多 8 张 GPU。CP8 时每个 rank 在注意力之外处理 5,520 个 token，2,992 token 的文本路径保持复制；在每层注意力处切换切分轴，使各 rank 对不重叠的头子集处理完整序列。分布式图在部署前就编译进 TensorRT plan（Torch-TensorRT 导出，并经三个转换器把 reduce-scatter、all-to-all、all-gather 降到公开的分布式集合通信层），拓扑为两次 reduce-scatter、108 次 all-to-all 和一次 all-gather；Dynamo-Triton 只激活计划，并不把单设备引擎转成分布式引擎。八 GPU 同机测试使用 1280×720、189 帧 24 FPS、35 步去噪，每项一次预热加五次完整生成，端到端延迟从单卡的 156.595 秒降到 CP8 的 34.183 秒（4.58×），transformer RPC 部分加速 6.09×；RPC 占比由 93.4% 降至 70.2%，而 RPC 之外约 10.2–10.5 秒的开销基本不变，因而逐渐成为瓶颈。作者还用相同种子与配置抽样校验输出，CP2/CP4/CP8 均满足 MAE ≤ 25、PSNR ≥ 18 dB（CP8 为 MAE 16.316、PSNR 19.400 dB），并明确不声称结果像素级一致。\n\n**「启示」** 作者认为这为延迟敏感的生成式媒体工作流提供了“以更多 GPU 换更短等待时间”的实际选项，且应用侧仍沿用常规模型服务接口。但该基准未测量并发请求吞吐、单条生成视频成本或总体拥有成本（TCO），团队仍需结合自身 SLO 与部署经济性在资源与延迟之间权衡。\n\n**标签**: `#NVIDIA TensorRT`, `#Dynamo-Triton`, `#multi-GPU inference`, `#context parallelism`, `#video generation`",
+  "score": 7,
+  "tags": [
+    "NVIDIA TensorRT",
+    "Dynamo-Triton",
+    "multi-GPU inference",
+    "context parallelism",
+    "video generation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
+  "originalSite": "developer.nvidia.com",
+  "context": "生成式 AI 的算力与显存需求已超出单 GPU 所能提供的范围，而多 GPU 加速此前很难直接变成一个可调用的推理服务。作者介绍的是 TensorRT 多设备推理（TensorRT 11.0 起正式支持）与 NVIDIA Dynamo-Triton 26.07 的集成，说明它如何弥合这一落差。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

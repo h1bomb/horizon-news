@@ -1,0 +1,53 @@
+{
+  "id": "8e5176dfd581da84f6d831fce1456cd308e1e4b7",
+  "canonicalId": "f6fab29d98448a1b7c59daea535e7ea593d0e282",
+  "slug": "gemini-38-文本转语音加入-30-秒声音克隆",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T15:29:00Z",
+  "lang": "zh",
+  "title": "Gemini 3.8 文本转语音加入 30 秒声音克隆",
+  "summary": "Google 发布 Gemini 3.8 文本转语音，新增用 30 秒音频样本复刻一致声音的“声音复制”功能。该功能附带同意验证、SynthID 水印和 C2PA 凭证，以保护开发者与声音提供者。相关讨论指出 Google 的消费级、专业级和云平台在可用性与模型能力上并不一致。由于没有独立实测或完整源内容，实际效果与完整可用范围仍不明确。",
+  "score": 7,
+  "tags": [
+    "text-to-speech",
+    "Google Gemini",
+    "voice cloning",
+    "AI model releases",
+    "SynthID watermarking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "swolpers",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49817615"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+  "originalSite": "blog.google",
+  "context": "Horizon 9 月 16 日的日报曾报道 Google 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两款实时语音到语音模型，并有第三方为它们做了浏览器试听界面；本次文本转语音是同一 3.8 语音产品线上的另一条分支，据第三方报道分为 Gemini 3.8 Flash TTS 与 Gemini 3.8 Flash-Lite TTS 两档，音频输出定价为每百万 token 9 美元。两者面向的场景不同：Live 用于实时双向语音对话，TTS 用于批量配音、音频内容生成和语音智能体。",
+  "discussion": "评论中，rcr-anti 抱怨 Google 的消费级、专业级和云平台缺乏对齐，并以 Omni Flash 为例称模型能力在不同平台不一致（消费级/专业级为视频与文本输出，GCP 仅视频输出）；simonw 则认为声音克隆在其他供应商已足够普及，Google 因此不再犹豫推出该功能。另有开发者报告本地托管的 KeenLore 借助 Gemma 4 实现无云、无 token 费用的有声书朗读，作为替代方案。",
+  "references": [
+    {
+      "title": "2026-09-16 — Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+    },
+    {
+      "title": "Gemini 3 . 8 Flash TTS : Google &#x27;s Speech Line Splits in Two",
+      "url": "https://www.orcarouter.ai/blog/gemini-3-8-tts-says-hello"
+    },
+    {
+      "title": "EU AI Act Art.50 Synthetic Voice &amp; Audio AI Disclosure ...",
+      "url": "https://sota.io/blog/eu-ai-act-art50-synthetic-voice-audio-ai-disclosure-tts-voice-cloning-2026"
+    },
+    {
+      "title": "AI Voice Cloning Regulation in 2026: Consent, Liability, and ...",
+      "url": "https://agentbrisk.com/news/ai-voice-cloning-regulation-2026/"
+    },
+    {
+      "title": "SynthID &amp; Co: AI Watermarking &amp; Content Provenance 2026",
+      "url": "https://www.pragma-code.de/en/blog-synthid-ai-watermarking-content-provenance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

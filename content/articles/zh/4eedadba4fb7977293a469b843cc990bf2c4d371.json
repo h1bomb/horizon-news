@@ -1,0 +1,36 @@
+{
+  "id": "4eedadba4fb7977293a469b843cc990bf2c4d371",
+  "canonicalId": "4f41057ade813b58a9ca9d6a6b179d660adbd518",
+  "slug": "谷歌修复-firebase-analytics-服务端故障致-ios-应用启动崩溃",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T16:29:00Z",
+  "lang": "zh",
+  "title": "谷歌修复 Firebase Analytics 服务端故障致 iOS 应用启动崩溃",
+  "summary": "谷歌确认，Google Analytics for Firebase 的 iOS 服务端曾返回格式错误的数据，导致集成该组件的 iOS 应用在启动时崩溃。故障始于 2026 年 9 月 28 日 17:41（美国太平洋夏令时），修复于当日 19:52 完成推出，持续约两小时。谷歌表示开发者无需更新 SDK 或应用；受缓存影响，部分应用在修复后最长可能继续崩溃约 4 小时，残余问题会自行消退。",
+  "score": 7,
+  "tags": [
+    "Firebase",
+    "iOS",
+    "Google Analytics",
+    "Production Incident",
+    "Mobile Development"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/firebase/firebase-ios-sdk/issues/16728",
+  "originalSite": "github.com",
+  "context": "Firebase Analytics 的 iOS SDK 在应用启动时会向服务端端点 sdk-exp 拉取配置；相关 issue \\#16729 报告称，GoogleAppMeasurement 12.10.0 在解析该响应时因 key 为 nil 抛出 NSInvalidArgumentException，从而终止进程。这解释了为何服务端返回格式错误数据会导致集成该组件的应用在启动时崩溃。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NSInvalidArgumentException in GoogleAppMeasurement during sdk-exp fetch: key cannot be nil · Issue #16729 · firebase/firebase-ios-sdk",
+      "url": "https://github.com/firebase/firebase-ios-sdk/issues/16729"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

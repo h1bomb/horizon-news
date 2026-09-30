@@ -1,0 +1,31 @@
+{
+  "id": "1c830a1a47a72689bf7651411fddcd788121a6a7",
+  "canonicalId": "0cead52277ad499cd99da171f0991038ec9744db",
+  "slug": "nemotron-3-ultra-nim-全栈优化的-25-倍吞吐",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T16:55:00Z",
+  "lang": "zh",
+  "title": "Nemotron 3 Ultra NIM 全栈优化的 2.5 倍吞吐",
+  "summary": "rss · NVIDIA Inference Performance Blog · 9月10日 16:55\n\n**「背景」** 部署大语言模型只是第一步，生产团队还要在现有 GPU 上尽可能多地服务并发用户，同时保持交互延迟；对代理式 AI 而言，长提示、跨步骤复用上下文和流式长响应让这一权衡更尖锐。\n\n**「方案」** NVIDIA NIM 把模型与 GPU 感知的推理优化封装为可部署微服务，让团队从验证过的配置出发，同时保留用自有流量做基准测试的空间；NIM Certified 还提供推理栈更新、CVE 处理、硬件验证和商业支持。其 Nemotron 3 Ultra 案例在 4 张 B200 上，以 64K/400/76% KV 复用/50 TPS 每用户（20 ms ITL）的代理式负载为定义，对比未启用 NIM 的基线 718 tok/s 与启用 NIM 2.0.12 优化栈的 1,997 tok/s，作者称达到约 2.5 倍吞吐。作者强调增益来自相互作用的配置组合，而非可简单相加的开关：包括自动调优的 MoE/Mamba 内核与精度、张量并行及专家感知执行、前缀缓存/部分前缀匹配和 Mamba 状态缓存、调度/批处理/显存分配调优，以及 MTP 推测解码。作者建议把公开曲线当作起点，用 Mooncake JSONL 轨迹或受控请求、AIPerf 和固定镜像版本回放代表流量，并扫描并发以选择满足 SLO 的 Pareto 点。\n\n**「启示」** 作者的结论是，全栈、模型与硬件协同的推理工程能在给定延迟目标下显著提升并发服务能力，因此经过验证的 NIM 配置可作为代理式负载的生产起点；但适配度最终仍要用自己的流量与 SLO 来验证。\n\n**标签**: `#NVIDIA NIM`, `#LLM inference serving`, `#benchmarking`, `#speculative decoding`, `#agentic AI`",
+  "score": 4,
+  "tags": [
+    "NVIDIA NIM",
+    "LLM inference serving",
+    "benchmarking",
+    "speculative decoding",
+    "agentic AI"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
+  "originalSite": "developer.nvidia.com",
+  "context": "部署大语言模型只是第一步，生产团队还要在现有 GPU 上尽可能多地服务并发用户，同时保持交互延迟；对代理式 AI 而言，长提示、跨步骤复用上下文和流式长响应让这一权衡更尖锐。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "d4e7eb8a17f285ef58b0d68eeb14b8b0bce83315",
+  "canonicalId": "91b1986b6835f2d40126677650f275eeb3f1d660",
+  "slug": "bend用证明约束-ai-代码的-cpugpu-语言",
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-17T20:36:00Z",
+  "lang": "zh",
+  "title": "Bend：用证明约束 AI 代码的 CPU/GPU 语言",
+  "summary": "一个名为 Bend 的证明导向编程语言在 Hacker News 上受到关注；其作者称它通过证明来阻止 AI 写出的代码犯错，并能在 CPU 和 GPU 上运行。目前可见的反馈主要来自用户试用：有人报告在让 AI 修改小型任务或游戏逻辑时，Bend 的不变量/证明拦住了若干越界修改。但评论也指出，该语言仍处于早期，基础库只自带极少量定律，常用引理和定律体系尚不完整。",
+  "score": 7,
+  "tags": [
+    "programming languages",
+    "formal verification",
+    "GPU computing",
+    "AI code generation",
+    "type systems"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nicolas-siplis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49746163"
+    }
+  ],
+  "originalUrl": "https://bend-lang.com/",
+  "originalSite": "bend-lang.com",
+  "context": "Bend 的核心机制是让开发者在 LAWS.bend 文件中声明“定律”，此后代码必须附带满足这些定律的证明；项目页面还宣称同一套逻辑可在 CPU 和 GPU 上运行，并称 pow2 能在 4,096 个 GPU 核心上执行。这是一种把形式化验证约束前置到 AI 生成代码流程中的早期尝试，与“先生成、后测试”的常见路径不同。",
+  "discussion": "对尝试用 AI 生成代码的开发者而言，Bend 可作为 CI 中额外的形式化约束：有评论者报告，把类似证明检查加入 CI 能在代理做出不合理修改时提供拦截。但若现在采用，需要预期基础库只自带少量算术定律，常见引理要按项目自行补齐，并人为冻结关键定律，以防 AI 或开发者改写定律从而绕过约束。\n\n社区讨论既包含实测经验，也包含对方法本身的质疑。有用户报告 Bend 的约束拦住了“跳过墙”“把旗子传送过来”“把世界变成 3D”等 AI 修改尝试，也有用户称用 Claude Opus 移植日历定时任务基本成功，但抱怨基础库只有 U32.add\\_comm，缺少序理论等约 60 行常见引理；另有评论者担心定律会被改写以迁就新功能，因此关键定律需要冻结，或仍需人工判断和 CI 检查。",
+  "references": [
+    {
+      "title": "Bend",
+      "url": "https://www.bend-lang.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

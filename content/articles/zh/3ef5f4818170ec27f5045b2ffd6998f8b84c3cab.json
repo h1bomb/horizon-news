@@ -1,0 +1,53 @@
+{
+  "id": "3ef5f4818170ec27f5045b2ffd6998f8b84c3cab",
+  "canonicalId": "5e8bd66ca873dc86ab449f9eff652125dbfa8969",
+  "slug": "美上诉法院维持对-anthropic-的供应链风险认定",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T15:29:00Z",
+  "lang": "zh",
+  "title": "美上诉法院维持对 Anthropic 的供应链风险认定",
+  "summary": "美国一家联邦上诉法院维持了将 Anthropic 认定为供应链风险的指定，CNBC 于 2026 年 9 月 25 日报道了这一裁决。来源未提供报道正文，因此裁决的具体理由、适用机构范围与后续合规影响均不明确；只能确认上诉法院没有推翻原有的风险认定。这一结果直接关系到 Anthropic 模型在政府及国防采购中的可用性，也被视为对本国 AI 供应商适用国家安全类指定的先例。",
+  "score": 8,
+  "tags": [
+    "AI regulation",
+    "Anthropic",
+    "US government",
+    "supply chain risk",
+    "national security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cramer4next",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49845977"
+    }
+  ],
+  "originalUrl": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+  "originalSite": "cnbc.com",
+  "context": "",
+  "discussion": "有评论者认为这是“教科书式”的行政指定：Anthropic 希望对军方使用其 AI 设限，军方因此不愿在供应链中继续使用它，属于双方立场直接冲突的结果。另一些评论者则担忧，一项本为防范外国对手而设的法律工具被用于本国私营企业，可能被后续政府选择性滥用；也有人对事件本身感到困惑，认为国防部要求不受限访问、Anthropic 拒绝后被排除，结果反而与 Anthropic 的诉求一致。这些均为评论者个人观点，来源中并无对裁决理由的说明可供验证。",
+  "references": [
+    {
+      "title": "2026-08-01 — 联邦法官质疑证据，Anthropic 禁令或永久撤销",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/"
+    },
+    {
+      "title": "US appeals court upholds Pentagon’s supply chain risk label on Anthropic",
+      "url": "https://thenextweb.com/news/anthropic-pentagon-supply-chain-risk-appeals-court-ruling"
+    },
+    {
+      "title": "What Hegseth’s “Supply Chain Risk” Designation of Anthropic Does and Doesn’t Mean",
+      "url": "https://www.justsecurity.org/132851/anthropic-supply-chain-risk-designation/"
+    },
+    {
+      "title": "Pentagon&#x27;s Anthropic Supply Chain Risk Designation Ruled &#x27;Illegal and Baseless&#x27;: What Security Leaders Must Learn About Third-Party AI Risk Governance | Security Arsenal | Security Arsenal",
+      "url": "https://securityarsenal.com/blog/pentagons-anthropic-supply-chain-risk-designation-ruled-illegal-and-baseless-what-security-leaders-must-learn-about-third-party-ai-risk-governance"
+    },
+    {
+      "title": "Appeals court allows Pentagon to label Anthropic a national security risk - POLITICO",
+      "url": "https://www.politico.com/news/2026/09/25/anthropic-national-security-risk-pentagon-ruling-01093285"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

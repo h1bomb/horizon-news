@@ -1,0 +1,31 @@
+{
+  "id": "95b1f3b034f3787a6b8e51332d7819eb9b2c05d7",
+  "canonicalId": "bc1158df6d469d6b6974afb778c73b3447b5a8c4",
+  "slug": "mppai-代理的-http-402-支付协议",
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-28T15:31:00Z",
+  "lang": "zh",
+  "title": "MPP：AI 代理的 HTTP 402 支付协议",
+  "summary": "rss · ByteByteGo · 9月28日 15:31\n\n**「背景」** 互联网支付长期假设客户是人：人浏览页面、填卡号、点购买。但作者引用 Cloudflare 报告称，自动化系统已产生约 57.5% 的 HTTP 内容请求，AI 正从聊天机器人变成能规划并执行任务的代理，原有面向人的结账与注册流程因此不再匹配。\n\n**「方案」** 为此，Stripe 与 Tempo 共同提出 Machine Payments Protocol（MPP），作者称其于 2026 年 3 月 18 日发布，核心规范已作为 Payment HTTP Authentication Schema 提交 IETF。它的流程是：服务端对未付费请求返回 HTTP 402，并在 WWW-Authenticate: Payment 头中给出 Challenge，包含 ID、金额、币种、收款方、支付方式、意图与有效期；代理用签名后的 Authorization: Payment 头回传 Credential，服务端验证后返回资源并附 Payment-Receipt。签名使用托管密钥，带周期消费上限、过期时间、允许收款方与作用域，可按部署吊销；未付费请求不得产生副作用，凭证一次性使用，验证失败则返回带结构化错误的新 402。针对小额高频支付，MPP 用会话与签名 IOU 累积请求，结束时一次性结算，把单笔手续费摊薄；作者举例说代理可从 Tempo 钱包按篇支付 ByteByteGo 文章。作者也指出局限：支付只证明密钥控制者，不再提供身份、防滥用与客户历史；消费上限防止超支但不防花在对的地方；MPP 未定义退款流程，一次性付款的退款依赖卡组织或区块链。截至 2026 年 8 月，MPP 约有 3 万笔交易，作者认为量小但新客户类型才刚开始。\n\n**「启示」** 作者的结论是，MPP 试图把支付变成代理可发现的通用 HTTP 协议层，让机器像人一样跨服务交易；但要让这种经济真正成立，身份、纠纷与退款必须作为独立层补齐，而不只是完成一次 402 握手。\n\n**标签**: `#agentic payments`, `#Machine Payments Protocol`, `#HTTP 402`, `#AI agents`, `#payment protocol design`",
+  "score": 7,
+  "tags": [
+    "agentic payments",
+    "Machine Payments Protocol",
+    "HTTP 402",
+    "AI agents",
+    "payment protocol design"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/ai-agents-can-think-now-they-can",
+  "originalSite": "blog.bytebytego.com",
+  "context": "互联网支付长期假设客户是人：人浏览页面、填卡号、点购买。但作者引用 Cloudflare 报告称，自动化系统已产生约 57.5% 的 HTTP 内容请求，AI 正从聊天机器人变成能规划并执行任务的代理，原有面向人的结账与注册流程因此不再匹配。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

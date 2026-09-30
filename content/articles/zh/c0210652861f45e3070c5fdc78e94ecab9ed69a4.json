@@ -1,0 +1,31 @@
+{
+  "id": "c0210652861f45e3070c5fdc78e94ecab9ed69a4",
+  "canonicalId": "50df749c84d4f0253a1756a99fb363e9615a992f",
+  "slug": "智能模型路由如何显著降低-llm-成本",
+  "date": "2026-09-10",
+  "publishedAt": "2026-09-09T15:30:00Z",
+  "lang": "zh",
+  "title": "智能模型路由如何显著降低 LLM 成本",
+  "summary": "rss · ByteByteGo · 9月9日 15:30\n\n**「背景」** 作者指出，许多 LLM 应用为了省事，把所有请求都发给能力最强、价格也最高的模型。但实际业务中不少请求只是分类、提取、改写等简单任务，并不需要那么强的推理能力，因此成本被白白抬高。\n\n**「方案」** 模型路由的思路是在请求进入模型前判断难度，把简单任务交给小模型、困难任务交给大模型。作者以一个定价为大模型 1/20 的小模型和 1/5 的中型模型为例：当 85%请求走小模型、10%走中型模型、只有 5%走大模型时，平均成本约为全部使用最强模型的 11%，接近 10 倍节省。实现路由的策略包括：用小模型做难度分类并返回结构化推荐，同时配合固定安全规则；先让小模型作答，再用自动化检查或测试判断是否需要升级到更强模型的级联；用向量嵌入做语义路由，将请求按意图分给专用模型；以及用历史请求和评测结果训练分类器进行学习式路由。作者强调，路由需要综合考虑任务类型、风险、上下文规模和输出要求，并警惕过度路由、路由不足、用户提示注入，以及模型或价格变化后路由策略失效等问题。\n\n**「启示」** 作者的核心理念是：用便宜的小模型处理常规工作，用强模型处理难题，再用验证机制兜住路由错误。只要模型价差大、简单请求占比高、路由判断可靠，智能路由就能在不大幅牺牲质量的前提下显著降低 LLM 总成本。\n\n**标签**: `#LLM routing`, `#cost optimization`, `#model selection`, `#AI infrastructure`, `#prompt classification`",
+  "score": 5,
+  "tags": [
+    "LLM routing",
+    "cost optimization",
+    "model selection",
+    "AI infrastructure",
+    "prompt classification"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-smart-model-routing-can-cut-llm",
+  "originalSite": "blog.bytebytego.com",
+  "context": "作者指出，许多 LLM 应用为了省事，把所有请求都发给能力最强、价格也最高的模型。但实际业务中不少请求只是分类、提取、改写等简单任务，并不需要那么强的推理能力，因此成本被白白抬高。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "7822e71d1f80385bd61f57ab041338f6119e6d34",
+  "canonicalId": "164af9b8614259faa4e3be66b532624b49b74548",
+  "slug": "调查报告21-万张批量生成的最佳软件页正被-ai-引用",
+  "date": "2026-09-03",
+  "publishedAt": "2026-09-02T13:59:00Z",
+  "lang": "zh",
+  "title": "调查报告：21 万张批量生成的“最佳软件”页正被 AI 引用",
+  "summary": "Trellner 的一份报告发现，三个网站生成了 215,128 个“最佳软件”推荐页面，而这些大规模生产、低质量的内容正被 Perplexity 等 AI 搜索与推荐工具作为答案来源引用。报告认为，这表明 AI 推荐系统缺乏对来源动机与可信度的判断，会系统地采信为搜索引擎优化或 AI 引擎优化而批量制造的内容。此类页面往往并非真实人工评测，却因数量庞大和结构看似权威而获得高排名或高引用，进而损害搜索结果的可信度和软件推荐的有效性。该问题同时涉及 AI 训练数据与内容溯源：当模型学会模仿这类文本，真实用户的实践经验可能更难被优先呈现。目前尚未披露这些网站的具体域名，报告的完整数据与验证方法也需要进一步公开核对。",
+  "score": 8,
+  "tags": [
+    "AI search",
+    "content quality",
+    "software recommendations",
+    "web spam",
+    "LLM reliability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jakobgreenfeld",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49536375"
+    }
+  ],
+  "originalUrl": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+  "originalSite": "trellner.com",
+  "context": "这项调查针对的是“面向 AI 的引擎优化”（AEO）与批量生成内容的现象：一些网站专门制作海量“最佳软件”评测页面，目的不是吸引人类读者，而是为了被 AI 搜索和推荐系统引用。调查发现，在 380 个软件类别中，59.8%的 AI 推荐来源来自访问量排名前 10 万以外的网站，其中几个最常被引用的网站正是这种为模型阅读而构建的站点。这反映出 AI 系统在训练与推理时缺乏对内容来源动机和质量的判断力，可能将机器生成的宣传内容当作客观依据。",
+  "discussion": "这项发现意味着依赖 Perplexity 等 AI 搜索的用户，可能会把由三个网站批量生成的 21.5 万多页“最佳软件”推荐当作可靠结果；这些页面被系统性地引用，进一步削弱了 AI 搜索的可信度。相关研究也表明，LLM 在不知情时往往偏好 AI 生成内容而非人类撰写内容，这可能会放大此类批量生成内容的操纵效果。\n\n评论者普遍认同问题的严重性：有用户指出 LLM 常偏爱 AI 生成文本，并举例 Claude 会优先选择自己生成或 AI 生成的代码与网站内容；另有人提到，AI 甚至会自信地虚构现实中不存在的地点，比如为某不知名小镇编造一个“Foobar 广场”。也有用户结合自身 Perplexity 使用体验表示，工具追求响应速度后，结果质量和引用参考都明显下降，并认为模型目前缺少对信息来源动机的怀疑能力，但这种被利用的窗口会随时间关闭。",
+  "references": [
+    {
+      "title": "Three sites made 215 , 128 &quot; best software &quot; pages for AI . Perplexity ...",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/"
+    },
+    {
+      "title": "Three sites made 215 , 128 &quot; best software &quot; pages for AI . Perplexity ...",
+      "url": "https://news.ycombinator.com/item?id=49536375"
+    },
+    {
+      "title": "AI–AI Bias: Why LLMs Prefer AI Content Over Humans",
+      "url": "https://www.stanventures.com/news/ai-ai-bias-study-reveals-language-models-may-favor-their-own-kind-over-humans-4092/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

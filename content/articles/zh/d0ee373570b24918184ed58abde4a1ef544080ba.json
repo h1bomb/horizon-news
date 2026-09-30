@@ -1,0 +1,31 @@
+{
+  "id": "d0ee373570b24918184ed58abde4a1ef544080ba",
+  "canonicalId": "9fea26445f75de98c5feeb960a23ba9ee7de8692",
+  "slug": "bioir-高通量蛋白质结构预测教程与基准",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T15:00:00Z",
+  "lang": "zh",
+  "title": "BioIR 高通量蛋白质结构预测教程与基准",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 9月10日 15:00\n\n**「背景」** 蛋白质结构预测已在蛋白质组规模运行，真正的挑战是如何高效吞吐整个工作列表。NVIDIA BioNeMo Inference Runtime（BioIR）面向 NVIDIA GPU 加速受支持的生物分子结构预测模型，同时保留 PyTorch 工作流。\n\n**「方案」** 作者以 Boltz-2 为例演示端到端处理器：输入需带 A3M MSA，可选模板，流程覆盖解析、分词、特征生成、GPU 推理到 PDB/mmCIF 写出；可先用串行执行器验证单条记录，再用 Ray 在每个可见 GPU 上放置完整模型副本并行处理独立输入。Ray 流水线按 Parser→Tokenizer→Feature generator→Folding engine→Writer 五阶段配置 compute、num\\_cpus、memory 和 num\\_gpus，容量规则为 engine\\_stage.compute × num\\_gpus ≤ 可见 GPU 数，且该教程只覆盖单节点。作者把优化分为内核选择、optimize\\(\\) CUDA Graph 模块优化和 Ray 流水线扩展：前两者减少单副本模型前向时间，Ray 用 CPU/GPU 重叠和多副本提高吞吐，但不会把单次前向拆到多卡。受控基准在 8×H100 上跑 1,000 个人类二聚体目标（总长低于 2,800 残基，3 次 recycle、200 采样步、5 个 diffusion 样本），作者报告 BioIR 的 Boltz-2 达 58.5K 残基/GPU 小时，公开实现为 20.2K，约 2.90×，后者有 29 个目标 OOM。作者还外推到百万目标，估计折叠阶段 11 vs 35 MWh（TDP）或 21 vs 64 MWh（整机最大功率），但强调这是估算，排除 MSA 生成、预处理、存储、重试和工程开销。BioIR 也曾用于 AFDB 扩展，覆盖 4,777 个蛋白质组、约 3,100 万候选复合物，其中 181 万为高置信预测。\n\n**「启示」** 文章的核心论点是：BioIR 同时提供单副本模型前向加速和流水线级吞吐扩展，但二者必须分开度量；受控折叠基准能证明其效率优势，端到端部署收益仍需按真实工作列表和工程开销单独验证。\n\n**标签**: `#BioNeMo Inference Runtime`, `#protein structure prediction`, `#Ray`, `#GPU throughput`, `#benchmarking`",
+  "score": 6,
+  "tags": [
+    "BioNeMo Inference Runtime",
+    "protein structure prediction",
+    "Ray",
+    "GPU throughput",
+    "benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime/",
+  "originalSite": "developer.nvidia.com",
+  "context": "蛋白质结构预测已在蛋白质组规模运行，真正的挑战是如何高效吞吐整个工作列表。NVIDIA BioNeMo Inference Runtime（BioIR）面向 NVIDIA GPU 加速受支持的生物分子结构预测模型，同时保留 PyTorch 工作流。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

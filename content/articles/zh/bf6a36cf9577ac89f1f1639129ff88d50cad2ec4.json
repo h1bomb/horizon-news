@@ -1,0 +1,48 @@
+{
+  "id": "bf6a36cf9577ac89f1f1639129ff88d50cad2ec4",
+  "canonicalId": "671c1e7a90de1875ea64e05776405a21f5ebc5bd",
+  "slug": "radicle-网络协议曝两项严重安全漏洞",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T14:20:00Z",
+  "lang": "zh",
+  "title": "Radicle 网络协议曝两项严重安全漏洞",
+  "summary": "Radicle 项目披露了其节点网络协议中的两个严重漏洞：协议未能提供预期的机密性，任何能观察两个节点间网络流量的人都可以读取交换的数据；对等节点身份验证也已失效，攻击者可以伪造 Node ID，从而读取本无权访问的私有仓库。两者结合使用时，路径上的攻击者能看到连接两端的 Node ID（通常都在允许列表中），一边读取交换内容，一边用看到的 Node ID 按需拉取整个仓库。官方在安全更新发布前就公开了漏洞，并表示目前已有可用的临时缓解措施，一项不向后兼容的重大更新正在开发中。",
+  "score": 7,
+  "tags": [
+    "security-vulnerabilities",
+    "peer-to-peer",
+    "Radicle",
+    "network-protocol",
+    "authentication"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096200/",
+  "originalSite": "lwn.net",
+  "context": "Radicle 是构建在 Git 之上的点对点代码协作网络，节点之间直接交换并复制仓库，用 Node ID 标识对端身份，并以允许列表控制私有仓库的访问；Horizon 5 月 16 日的日报曾介绍其作为去中心化代码托管的定位，并提到它支持私有仓库。Radicle 的协议说明称，该网络在无需可信第三方的前提下依靠密码学签名维持数据真实性，而本次披露的问题正出在这套节点间网络协议的机密性与对端认证上。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-05-16 — Radicle: Peer-to-Peer Code Forge Built on Git",
+      "url": "https://radicle.dev/"
+    },
+    {
+      "title": "Radicle Protocol Guide",
+      "url": "https://radicle.dev/guides/protocol"
+    },
+    {
+      "title": "Radicle tells users to stop using private repositories over its network",
+      "url": "https://runtimewire.com/article/radicle-network-protocol-vulnerabilities-private-repositories"
+    },
+    {
+      "title": "Radicle : Disclosure of Vulnerability in the Network Protocol",
+      "url": "https://wesearch.press/s/radicle-disclosure-of-vulnerability-in-the-network-protocol-775d4017"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

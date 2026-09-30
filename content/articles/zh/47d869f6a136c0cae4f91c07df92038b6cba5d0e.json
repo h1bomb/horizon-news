@@ -1,0 +1,41 @@
+{
+  "id": "47d869f6a136c0cae4f91c07df92038b6cba5d0e",
+  "canonicalId": "2368646fcf5a82cdd1159ab4386141a71a7f0ebe",
+  "slug": "恶意软件如何骗过-google-ads-审查实操揭露",
+  "date": "2026-09-10",
+  "publishedAt": "2026-09-09T11:43:00Z",
+  "lang": "zh",
+  "title": "恶意软件如何骗过 Google Ads 审查：实操揭露",
+  "summary": "署名 xlii 的实操文章详细描述了一种让恶意软件通过 Google Ads 审核的方法，核心论点是 Google 广告平台的审核机制存在系统性安全缺陷。该文属于单篇技术揭露而非研究级安全披露，文章本身没有提供官方漏洞编号或修复方案，但强调这类恶意广告能够实际经过官方流程上线。文章经 Hacker News 传播后引发大量讨论，多位读者以亲身经历佐证 Google 依赖自动系统、缺乏人工复审的问题。",
+  "score": 8,
+  "tags": [
+    "security",
+    "google-ads",
+    "malvertising",
+    "ad-fraud",
+    "cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "xlii",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49624856"
+    }
+  ],
+  "originalUrl": "https://xlii.space/eng/malicious-software-on-google-ads/",
+  "originalSite": "xlii.space",
+  "context": "Google Ads 的政策明确禁止投放恶意软件或通过伪装（cloaking）等手段规避审核系统。xlii 的文章演示了如何让恶意软件通过 Google Ads 审核；配套检查显示，Search Console 安全报告未报告任何被入侵页面或恶意下载，而文章也指出这些扫描并未说明 Google Ads 实际检测到了什么，且不确定两套系统是否采用相同标准。",
+  "discussion": "这一披露使 Google Ads 广告审核缺陷再次进入公众视野；作者自述账户在 Hacker News 曝光后被恢复，但从已有信息无法判断 Google 是否已修复所述漏洞，因此对广告主和用户的实际风险仍然存在不确定性。\n\n评论中的共识是 Google 的自动审核和申诉自动化程度过高，用户几乎无法获得有效人工复审；有读者称在禁用广告拦截后看到的广告全部为诈骗，另有读者回忆起约十年前类似案例是由于合法网站被入侵后在隐蔽路径托管恶意广告。作者 xlii 更新称自己账号已恢复，并承认此事被 Hacker News 放大后才得到解决。",
+  "references": [
+    {
+      "title": "How I advertise malicious software on Google Ads - xlii.space",
+      "url": "https://xlii.space/eng/malicious-software-on-google-ads/"
+    },
+    {
+      "title": "Malicious Software - Advertising Policies Help - Google Help",
+      "url": "https://support.google.com/adspolicy/answer/15939580?hl=en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

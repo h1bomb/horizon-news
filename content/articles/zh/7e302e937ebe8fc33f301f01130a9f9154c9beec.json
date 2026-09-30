@@ -1,0 +1,57 @@
+{
+  "id": "7e302e937ebe8fc33f301f01130a9f9154c9beec",
+  "canonicalId": "fd2d42c80a8380479c53fe7fa829fcfca390fcc8",
+  "slug": "clay-研究所就-navier-stokes-问题发布公告",
+  "date": "2026-09-13",
+  "publishedAt": "2026-09-12T04:09:00Z",
+  "lang": "zh",
+  "title": "Clay 研究所就 Navier-Stokes 问题发布公告",
+  "summary": "Clay 数学研究所发布了一份关于 Navier-Stokes 问题“显然已被解决”的公告，并将其描述为全球数学界值得关注的消息。公告措辞高层且中立，没有提供技术细节，也没有点名解决者或 OpenAI，同时表示希望外界分析和审视这项工作背后的创新。相关结果目前仍被视为未经正式发表或验证的里程碑，其数学技术意义以及对 AI、验证和署名争议的具体影响尚不清楚。因此，这一公告目前更像是表达关注并等待审查，而非确认千禧年大奖问题已经解决。",
+  "score": 8,
+  "tags": [
+    "Navier-Stokes",
+    "Millennium Prize",
+    "AI research",
+    "OpenAI",
+    "research verification"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rvz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49668706"
+    }
+  ],
+  "originalUrl": "https://www.claymath.org/news/navier-stokes-announcement/",
+  "originalSite": "claymath.org",
+  "context": "纳维-斯托克斯方程的存在性与光滑性问题是克莱数学研究所的七个千禧年大奖难题之一，奖金 100 万美元。近期 OpenAI 发布了其证明、论文与 Lean 形式化，声称该结果确立了千禧年问题表述中的陈述 C 和 D，并表示不会申领奖金；但克莱研究所尚未接受该结果，且该证明针对的是带光滑外力项的三维方程，而千禧年问题要求的是无外力项的情形。社区讨论还提到，克莱的规则要求成果在合格期刊发表至少两年后才可能被接受，因此该结果目前仍处于“显然解决”但未经同行评议确认的阶段。",
+  "discussion": "由于 Clay 数学研究所规定解答须在合格期刊发表至少两年后才可能被受理，OpenAI 所声称的 Navier-Stokes 证明目前仍处于未验证状态，这导致围绕其署名与训练数据的争议持续，并已促使 25 位菲尔兹奖得主联署批评 AI 公司在数学领域的“严重错位”。\n\n社区评论主要围绕 CMI 的接受规则展开：有评论者引用其规则 PDF 称，任何解答须在合格渠道发表至少两年后才可能被接受，因此由于 OpenAI 的证明尚未正式发表，审查时钟尚未启动；也有人认为 CMI 等到争议平息后才发布如此中立的声明是明智之举，因为它完全不提解决者和 OpenAI。另有评论者追问该结果是否带来推动数学发展的新技术或新理解，并强调公告中的“apparently”承担着关键限定作用；还有人认为 CMI 是在表明解答已被推定解决、审查时钟已启动，但刻意不评论署名争议和菲尔兹奖得主公开信。",
+  "references": [
+    {
+      "title": "OpenAI publishes its Navier-Stokes proof and says it will not claim the Millennium Prize",
+      "url": "https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize"
+    },
+    {
+      "title": "Clay Institute Won&#x27;t Call Navier-Stokes Solved by OpenAI",
+      "url": "https://www.implicator.ai/clay-institute-navier-stokes-openai-proof-claim/"
+    },
+    {
+      "title": "OpenAI Says It Solved Navier-Stokes, but a Mathematician Cries Foul",
+      "url": "https://pasqualepillitteri.it/en/news/15191/openai-navier-stokes-millennium-prize"
+    },
+    {
+      "title": "OpenAI Navier-Stokes Proof: Credit Dispute Explained ...",
+      "url": "https://explainx.ai/blog/openai-navier-stokes-solution-agent-swarm-2026"
+    },
+    {
+      "title": "Fields Medalists vs OpenAI: The Math AI Declaration (2026 ...",
+      "url": "https://www.explainx.ai/blog/fields-medalists-ai-math-declaration-openai-2026"
+    },
+    {
+      "title": "OpenAI Navier-Stokes proof: what was claimed — for (geeks)",
+      "url": "https://forgeeks.net/openai-navier-stokes-math-dispute/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

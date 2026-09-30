@@ -1,0 +1,40 @@
+{
+  "id": "c68aeb580b08ce6b598a58b4cc5ecf4fadcb860c",
+  "canonicalId": "30c3ab9e97c888deada0090be7a6c9138517d3e0",
+  "slug": "emacs-任意代码执行漏洞修复不完整",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T15:20:00Z",
+  "lang": "zh",
+  "title": "Emacs 任意代码执行漏洞修复不完整",
+  "summary": "Sean Whitton 宣布，Emacs 任意代码执行漏洞 CVE-2024-53920 的原始修复并不完整。Bas Alberts 发现，查看或编辑不受信任文件时，即使不使用 Emacs 的 Lisp 模式，也可能导致任意代码执行。该问题影响所有受 CVE-2024-53920 影响的 Emacs 版本，即 Emacs 24 及更新版本，也可能影响更早版本。一个最小修复已附加并排队等待随 Emacs 31.2 发布。Emacs 上游维护者表示，他们预计不会自行将该修复回溯移植到较旧的 Emacs 版本。",
+  "score": 8,
+  "tags": [
+    "Emacs",
+    "security vulnerability",
+    "arbitrary code execution",
+    "CVE-2024-53920",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1094224/",
+  "originalSite": "lwn.net",
+  "context": "CVE-2024-53920 是 GNU Emacs 中的一个任意代码执行漏洞，攻击者可借助不安全的 Lisp 宏展开让受影响的 Emacs 执行任意代码，该漏洞于 2024 年 11 月前后被披露，LWN 曾在 2024 年 12 月报道过原始漏洞及其修复。该问题影响 Emacs 24 及更新版本，也可能波及更早的版本。由于最初发布的上游修复并不完整，攻击面从 Emacs Lisp 模式扩展到了其他处理不受信任文件的主模式。",
+  "discussion": "在 Emacs 31.2 发布前，使用 Emacs 24 及更新版本查看或编辑不受信任文件的用户仍面临任意代码执行风险，且旧版本不会获得上游回溯修复。",
+  "references": [
+    {
+      "title": "CVE-2024-53920: GNU Emacs RCE Vulnerability - SentinelOne",
+      "url": "https://www.sentinelone.com/vulnerability-database/cve-2024-53920/"
+    },
+    {
+      "title": "Incomplete Emacs CVE-2024-53920 fix still allows code execution",
+      "url": "https://freenode.net/article/incomplete-emacs-cve-2024-53920-fix-still-allows-code-execution"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "08089fca52663a47ff78677291cd72ecb0778521",
+  "canonicalId": "c9a269061424d5c4027c249bb82ded3cc5ff35eb",
+  "slug": "simon-willison-发布-gemini-38-live-浏览器语音测试界面",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T22:47:00Z",
+  "lang": "zh",
+  "title": "Simon Willison 发布 Gemini 3.8 Live 浏览器语音测试界面",
+  "summary": "Google 发布了 Gemini 3.8 Live 和 3.8 Live Extended Thinking 两款语音到语音（speech-to-speech）模型，形态与 OpenAI 的 GPT-Live 模型类似。Simon Willison 同日发布了一个基于浏览器的 Gemini Live audio 工具，用于试用这两款新模型。该界面支持选择模型和语音预设、输入可选的系统提示词，并通过浏览器发起语音对话，还能在模型说话时打断它。实现不依赖任何库，连接 wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket 端点，并使用 Web Audio API 的 AudioContext 完成采集与播放。页面提供转录文本的下载和清除，并提示发送文字消息会打断当前回复，转录可能包含播放前被中断的语音。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "speech-to-speech",
+    "voice AI",
+    "Google models",
+    "developer tooling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+  "originalSite": "simonwillison.net",
+  "context": "语音到语音（speech-to-speech）模型让音频直接进出模型，不必先转写为文本再合成语音，因此能降低往返延迟并保留语调、停顿等非语言信息。OpenAI 于 2026 年 7 月推出 GPT-Live，把对话控制权交给语音模型本身，而更深的推理与工具调用异步进行；Google 在 2026 年 9 月 15 日发布的 Gemini 3.8 Live 与 3.8 Live Extended Thinking 属于同类形态，支持后台工具调用，其中 Extended Thinking 版本面向更复杂的任务，并宣称覆盖 97 种语言。这些模型可通过 Gemini API、Google AI Studio、Gemini Enterprise、Search Live 及 Gemini 应用等渠道试用。",
+  "discussion": "对开发者而言，这个零依赖浏览器界面可直接用于实际操作和评估 Gemini 3.8 Live 模型，无需先搭建客户端；其 WebSocket 加 Web Audio API 的实现也给出了语音双向交互的最小集成范例。不过来源未提供基准测试或延迟数据，实际性能仍需自行验证。",
+  "references": [
+    {
+      "title": "Gemini 3.8 Live &amp; Gemini 3.8 Live Extended Thinking - The Keyword",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+    },
+    {
+      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended ...",
+      "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/"
+    },
+    {
+      "title": "How we built a realtime system for responsive voice AI in six months | OpenAI",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

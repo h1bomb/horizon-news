@@ -1,0 +1,41 @@
+{
+  "id": "b5e6f6da8ff35915c81c0cf92244873606be9901",
+  "canonicalId": "6f4d6774f94fc35286e386a78d644f83e4a7a6a0",
+  "slug": "verisign-终止既有-name-三级域名注册",
+  "date": "2026-09-04",
+  "publishedAt": "2026-09-03T14:54:00Z",
+  "lang": "zh",
+  "title": "Verisign 终止既有 .name 三级域名注册",
+  "summary": "据相关报道与讨论，Verisign 将终止既有 .name 三级域名（形如 x.y.name）的注册，并释放对应用户曾依赖的 y.name 二级域。二级 .name 域名（例如本人直接注册的 dvt.name）并未被整体终止，但依赖 x.y.name 作为邮箱或个人网站地址的用户可能面临服务中断；有用户表示尚未收到官方通知。批评者认为这种任意终止与 ICANN 确保互联网标识稳定安全运行的使命相矛盾，并担心二级域解禁后可能被抢注。讨论中较受支持的做法是停止新注册但继续承认既有注册，并在一段时间内保留对应二级域；最终条款仍需以 Verisign 和 ICANN 的正式公告为准。",
+  "score": 7,
+  "tags": [
+    "domains",
+    "ICANN",
+    "Verisign",
+    "internet policy",
+    ".name"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pavel\\_lishin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49550772"
+    }
+  ],
+  "originalUrl": "https://neil.fraser.name/news/2026/09/03/",
+  "originalSite": "neil.fraser.name",
+  "context": ".name 是 ICANN 于 2000 年首轮批准的一个通用顶级域（gTLD），曾允许用户注册形如 x.y.name 的三级域名，并提供个性化电子邮件转发服务。2026 年 7 月 28 日，ICANN 批准了 Verisign 的请求，停止三级域名注册及电子邮件转发服务，并让 Verisign 单方面终止现有三级域名注册，以便对应的二级域名 y.name 开放注册。",
+  "discussion": "对使用 x.y.name 作为邮箱或网站入口的用户，最直接的影响是原有地址失效后可能需要抢注 y.name 来维持服务；通知不足使部分用户处于不确定状态。\n\n社区普遍认为直接终止现有注册过于激进，并建议只停止新增而继续承认旧注册。也有用户澄清这不是整个 .name 终止，而是三级域名不再保留；同时有人质疑 Verisign 是否会预留二级域以防止抢注，称决策与 ICANN 使命相悖。",
+  "references": [
+    {
+      "title": ".name - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/.name"
+    },
+    {
+      "title": "Discontinuation of third-level .name domains leaves some in a lurch - Domain Name Wire | Domain Name News",
+      "url": "https://domainnamewire.com/2026/09/03/third-level-dot-name/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

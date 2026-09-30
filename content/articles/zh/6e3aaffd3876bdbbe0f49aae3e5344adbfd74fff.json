@@ -1,0 +1,31 @@
+{
+  "id": "6e3aaffd3876bdbbe0f49aae3e5344adbfd74fff",
+  "canonicalId": "eead47041f0fe4698c97e6006296c8e182a36aae",
+  "slug": "cutile-python-到-rust-的智能体内核翻译",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T16:28:00Z",
+  "lang": "zh",
+  "title": "cuTile Python 到 Rust 的智能体内核翻译",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 9月16日 16:28\n\n**「背景」** TileGym 已积累大量用 cuTile Python 与 Triton-TileIR 编写的生产级 GPU 内核，而 cuTile Rust 希望以安全、惯用的 Rust 方式提供同等能力。主要难点在于：cuTile Python 的 JIT 在调用时隐式特化内核，Rust 却要求把每个特化都显式写进内核签名。\n\n**「方案」** 作者的核心洞察是：cuTile Python、Triton-TileIR 和 cuTile Rust 都下落到同一个 CUDA Tile IR（cuda\\_tile dialect）并共用 tileiras 编译器，因此移植不是重新优化，而是用更安全的主机语言重述同一 tile 程序，并且可以用 IR diff 在跑测试前做结构校验。围绕这一判断，作者构建了受限的多智能体流水线：分析器选定参考实现并导出 Tile IR 与 analysis.json 规格，内核编写器只产出 kernel.rs，并通过无 FFI 的流水线测试与 IR 自检，主机/FFI 构建器负责 C-ABI 启动器、Python 包装与 TileGym 全量 dtype/shape 测试，性能验证器按 CUPTI 协议要求几何均值落在参考 5% 内；失败时 IR-diff 分析师与残余性能调查员只读 IR 定位问题。每个阶段以机器可检查的 verdict 结束，编排器仅按退出码和表格路由，没有阶段依赖 LLM 解释另一 LLM 的文本，并有硬性重试上限。实践中，24 个公开算子（约 40 个内核）全部移植，平均达到 cuTile Python 的 99.5%，整体 geomean 0.995，所有算子通过 0.95 门槛，约三分之一反超参考；这些数字来自 NVIDIA DGX B200 上 347 个配对配置的 CI 基准。作者也说明 Rust 前端需要显式声明特化，FFI 不复制、不分配、不接管所有权，并希望后续把仍用非安全 API 的内核迁移到安全接口。\n\n**「启示」** 作者认为，共享 IR 让跨前端内核移植从经验性重写变成可结构验证的翻译，而由工件、契约和判定驱动的多智能体流水线使 24 个无人值守转换可重复，并因构造而继承参考性能。\n\n**标签**: `#CUDA Tile IR`, `#Rust`, `#GPU kernels`, `#agentic AI`, `#code translation`",
+  "score": 8,
+  "tags": [
+    "CUDA Tile IR",
+    "Rust",
+    "GPU kernels",
+    "agentic AI",
+    "code translation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+  "originalSite": "developer.nvidia.com",
+  "context": "TileGym 已积累大量用 cuTile Python 与 Triton-TileIR 编写的生产级 GPU 内核，而 cuTile Rust 希望以安全、惯用的 Rust 方式提供同等能力。主要难点在于：cuTile Python 的 JIT 在调用时隐式特化内核，Rust 却要求把每个特化都显式写进内核签名。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

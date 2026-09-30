@@ -1,0 +1,40 @@
+{
+  "id": "bb9dc9865500a31b34da1873e0d7f967cc77f63d",
+  "canonicalId": "dd9294605b3618823109042c332bdc7258d22a86",
+  "slug": "kde-获近-130-万欧元资助推进企业功能",
+  "date": "2026-09-26",
+  "publishedAt": "2026-09-25T15:59:00Z",
+  "lang": "zh",
+  "title": "KDE 获近 130 万欧元资助推进企业功能",
+  "summary": "KDE 从 Sovereign Tech Agency（STA）获得近 130 万欧元投资，资助将持续至 2027 年。在 2026 年奥地利格拉茨举行的 Akademy 上，Nate Graham 和 Kevin Ottens 介绍了这笔资金如何谈成，以及它将用于加速企业级功能开发：基于镜像的 KDE Linux 发行版配合移动设备管理（MDM）系统进行部署，并重振 KDE PIM（包括 Kontact、KMail、KOrganizer）。两人强调外部投资并非项目运转的必需条件，而是用于加速已有工作，并分享了把愿景拆解为可估算工作包的具体方法。",
+  "score": 7,
+  "tags": [
+    "KDE",
+    "open-source funding",
+    "Sovereign Tech Agency",
+    "Akademy 2026",
+    "enterprise features"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096245/",
+  "originalSite": "lwn.net",
+  "context": "STA（Sovereign Tech Agency）是德国联邦颠覆性创新局（Federal Agency for Breakthrough Innovation）的子公司，受联邦经济与气候行动部委托，专门为开源数字基础设施提供资金支持（tool-2-1）。Horizon 5 月 14 日的日报曾报道 STA 向 KDE 投入逾 100 万欧元，用于 Plasma、KDE Linux 及通信框架等核心基础设施的安全与可靠性；本次报道的近 130 万欧元投资则覆盖到 2027 年，重点转向面向大型机构部署的企业功能与 KDE PIM（tool-1-1）。",
+  "discussion": "对计划大规模部署 KDE 的企业和机构而言，这笔资助的目标是让基于镜像的 KDE Linux 能通过 MDM 自动配置新设备，员工首次开机输入邮箱和密码后即完成邮件、日历和默认应用设置；同时 KDE PIM 将重新获得开发投入，以应对用户转向 Thunderbird 的趋势。",
+  "references": [
+    {
+      "title": "2026-05-14 — German Sovereign Tech Fund invests €1M+ in KDE security",
+      "url": "https://lwn.net/Articles/1072565/"
+    },
+    {
+      "title": "Sovereign Tech Agency - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sovereign_Tech_Agency"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

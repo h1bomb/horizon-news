@@ -1,0 +1,39 @@
+{
+  "id": "3b0619f736a11a54b049d7f182be12d3cf5e876c",
+  "canonicalId": "5d66eee063272dff7964cef7fb6f941122659e53",
+  "slug": "rustconf-2026提案让-gpu-成为普通-rust-编译目标",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T17:57:00Z",
+  "lang": "zh",
+  "title": "RustConf 2026：提案让 GPU 成为普通 Rust 编译目标",
+  "summary": "rust-gpu 与 Rust CUDA 的维护者 Christian Legnitto 在 RustConf 2026 的演讲中提出，让 GPU 成为普通 Rust 代码的常规编译目标，无需专门库或额外生态支持；该设想尚未完整实现，他正在准备发布一个原型，但截至报道时原型与演讲幻灯片都还没有公开。这个方案采用“Rust 优先”而非“GPU 优先”的设计，把 GPU kernel 对应为进程、warp 对应为线程、硬件 lane 对应为 CPU 的 SIMD，文件系统交互等操作则转发给主机 CPU 处理。他给出的示例使用 thread::spawn 和 i32x4 SIMD 内建函数，同一段代码不经修改也能在 CPU 上运行；他承认部分实现方式（例如让空闲的 kernel 实例忙等）效率不高，但认为问题不大，并称该方法理论上不会比手写 CUDA 代码慢。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "GPU programming",
+    "compilers",
+    "RustConf 2026"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1095731/",
+  "originalSite": "lwn.net",
+  "context": "把 Rust 送上 GPU 并非始于这次演讲：Horizon 8 月 18 日的日报曾报道一篇 arXiv 论文，介绍一个以可移植、安全为目标的 Rust GPU 卸载模块，但其设计当时尚未进入上游，也没有公开源代码（tool-1-2）；9 月 9 日的日报则收录了 NVIDIA 一篇文章，讨论用 Rust 原生编写 GPU 内核的两条路径（tool-1-1）。这些先行努力要么依赖专门的卸载机制，要么仍是厂商给出的并行路线，而本次 RustConf 2026 演讲主张的是让 GPU 成为普通编译目标、使未经修改的常规 Rust 代码直接运行，且同样只进展到尚未发布的原型阶段。",
+  "discussion": "对目前依赖 rust-gpu、Rust CUDA 等库编写 GPU 代码的开发者而言，最直接的约束是原型尚未发布，因此现在还不能据此迁移代码或调整技术选型，各库之间互不兼容造成的生态割裂也仍然存在。Legnitto 称这一方案理论上不会比现有做法慢、使用线程加 SIMD 的 Rust 程序性能可与手写 CUDA 相当，但这是演讲中的主张而非独立测量结果；“现有库和语言特性可直接复用、并可逐步引入线程与 SIMD（这部分改进在 CPU 上同样有效）”同样要等原型公开后才能验证。",
+  "references": [
+    {
+      "title": "2026-09-09 — CUDA Rust 两条路径：用 Rust 原生写 GPU 内核",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
+    },
+    {
+      "title": "2026-08-18 — Rust GPU 卸载模块：可移植、安全且快速",
+      "url": "https://arxiv.org/abs/2608.13759"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

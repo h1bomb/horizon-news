@@ -1,0 +1,52 @@
+{
+  "id": "0449a9a5b61560efb6698e74836936f064fa4646",
+  "canonicalId": "86a4bb9e41c9fd7e4d4723c7b853858c0058c5f1",
+  "slug": "aws-bedrock-接入-kimi-k3月之暗面与海外云厂商分成模式落地",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T06:44:00Z",
+  "lang": "zh",
+  "title": "AWS Bedrock 接入 Kimi K3，月之暗面与海外云厂商分成模式落地",
+  "summary": "亚马逊云科技（AWS）的大模型服务平台 Amazon Bedrock 宣布接入开源大模型 Kimi K3，全球企业开发者可通过 Bedrock 直接调用该模型。据该报道，此前传闻的月之暗面与海外云厂商收入分成合作由此正式落地：云厂商在自家平台上架 Kimi 模型，并按模型调用量与月之暗面分成，月之暗面目前正与多家海外云厂商推进此类合作。报道称这是中国大模型公司首次以分成模式向全球三大云厂商输出模型能力。需要说明的是，该信息来自简讯，未披露分成比例、定价、可用区域或性能基准等细节，相关表述仍属媒体报道而非厂商的完整披露。",
+  "score": 7,
+  "tags": [
+    "Kimi K3",
+    "Amazon Bedrock",
+    "large language models",
+    "AI cloud distribution",
+    "revenue-sharing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://36kr.com/newsflashes/3992769217428488",
+  "originalSite": "36kr.com",
+  "context": "Kimi K3 是月之暗面的开源大模型：Horizon 8 月 9 日的日报曾报道 SGLang v0.5.17 为该模型提供 Day-0 生产级支持，并列出其 2.8T 参数多模态架构、1M token 上下文与原生 MXFP4 权重等特征；8 月 27 日的日报又记录了 vLLM v0.28.0 针对 Kimi-K3 的解码、前缀缓存与投机解码优化。这些框架支持说明该模型已具备公开权重和可部署的推理路径，第三方云平台托管调用在技术上可行；据外媒报道，微软此前已通过 Fireworks AI 提供 Kimi K3，早于此次 AWS Bedrock 上架。",
+  "discussion": "对使用 AWS 的企业开发者来说，Kimi K3 进入 Bedrock 意味着无需再单独与月之暗面签约或接入另一套 API，可直接在已有的 Bedrock 调用流程中选用该模型，但上架区域、定价与调用配额等条件尚未在现有信息中披露，需以 Bedrock 控制台实际可选项为准。据此前报道，月之暗面在与微软、亚马逊、谷歌的谈判中寻求最高约 30% 的模型调用收入分成（tool-3-2、tool-3-3），若该比例适用于已落地的合作，将直接构成云厂商转售 Kimi K3 的成本项，并影响企业侧的最终调用价格；需要注意 30% 是当时的谈判诉求，并非已确认的合同条款。",
+  "references": [
+    {
+      "title": "2026-08-09 — SGLang v0.5.17 发布：支持 Kimi K3 与 MiniMax-H3",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
+    },
+    {
+      "title": "2026-08-27 — vLLM v0.28.0 发布：深度优化 Kimi-K3 与 DeepSeek V4 推理性能",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0"
+    },
+    {
+      "title": "Kimi K3 Integrated with AWS; Reuters Reports Potential 30% Revenue Share Discussions | KuCoin",
+      "url": "https://www.kucoin.com/news/flash/kimi-k3-integrated-into-aws-reuters-reports-potential-30-revenue-share-talks"
+    },
+    {
+      "title": "Moonshot AI Seeks 30% Kimi K3 Cloud Revenue Share",
+      "url": "https://www.channelinsider.com/ai/news-moonshot-kimi-k3-revenue-share-us-cloud-apac-china/"
+    },
+    {
+      "title": "Moonshot AI Seeks 30% Revenue Share from Microsoft, Amazon ...",
+      "url": "https://best-ai.org/ai-news/moonshot-ai-seeks-30-revenue-share-from-microsoft-amazon-google-cloud-deals-for-kimi-k3-model-hh2vs6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

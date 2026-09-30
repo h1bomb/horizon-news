@@ -1,0 +1,40 @@
+{
+  "id": "c50113813c98e5e986051bec2a768e00f8ade10e",
+  "canonicalId": "c70184feffa65f5211fbabe129b65e3a0e2276ce",
+  "slug": "kernel-recipesc-语言未定义行为与内存安全讨论",
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-28T15:16:00Z",
+  "lang": "zh",
+  "title": "Kernel Recipes：C 语言未定义行为与内存安全讨论",
+  "summary": "在 Kernel Recipes 2026 上，Martin Uecker 面向 C 开发者与内核社区发表了关于 C 语言未定义行为（UB）的演讲，探讨 C 是否最终能成为内存安全语言。他回顾了 C89 抽象机模型下 UB 的来源，并举例说明编译器在除以零、结构体填充字节读取以及 volatile 写入与除法顺序等场景中的分歧或误编译；C23 已加入“禁止时间旅行”规定，而 C++ 则需用 std::observable\\_checkpoint\\(\\) 显式阻止提升。C 委员会设有三个分别关注内存对象模型、内存安全和 UB 的研究组，标准中目前约有 100 处 UB，C2y 草案已删除其中 45 处，同时编译器警告、静态分析器和 sanitizer 等工具也在增多。由于本文在演讲进入具体改进方案之前被截断，尚无法得知其完整建议与结论。",
+  "score": 7,
+  "tags": [
+    "C language",
+    "undefined behavior",
+    "memory safety",
+    "Linux",
+    "programming languages"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1095811/",
+  "originalSite": "lwn.net",
+  "context": "C 标准并不直接规定机器实际执行的指令，而是借助“抽象机”定义语言语义：程序的可观察行为（例如对 volatile 变量的访问）必须与抽象机一致，其余细节则由编译器实现自行决定。cppreference 指出，由于合法程序本应不含未定义行为，编译器在开启优化时对实际含有 UB 的程序可能给出意外结果。正因如此，C 委员会同时设有内存对象模型、内存安全与未定义行为三个研究组；C23 已加入禁止“时间旅行”式优化的规定，进行中的 C2y 草案则从约 100 处未定义行为中删除了 45 处。",
+  "discussion": "对 C 开发者而言，最直接的后果是标准条款与编译器实际行为之间存在落差：演讲指出指针相等比较是标准始终定义的行为，但 Clang 和 GCC 都会将其错误编译，因此单凭标准条款无法保证正确性，需要借助 sanitizer、静态分析器，或 GCC 中新增的缓冲区溢出警告等工具来发现并加固问题。编译器允许做的优化也在改变：C23 加入了“no time travel”规定，禁止把除法提升到对 volatile 变量赋值之前，而 C++ 中必须显式插入 std::observable\\_checkpoint\\(\\) 才能阻止这种提升，这意味着依赖旧有激进优化行为的代码需要重新检查。C2y 草案已从约 100 处未定义行为中删除 45 处，但删除未定义行为同时意味着必须为原先未定义的情形定义语义，围绕未初始化内存访问应如何处理仍存在争议。",
+  "references": [
+    {
+      "title": "Undefined behavior - cppreference.com",
+      "url": "https://en.cppreference.com/cpp/language/ub"
+    },
+    {
+      "title": "If we must, let&#x27;s talk about safety | cor3ntin",
+      "url": "https://cor3ntin.github.io/posts/safety/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

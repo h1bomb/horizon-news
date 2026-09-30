@@ -1,0 +1,45 @@
+{
+  "id": "72a5c3662218bdde6dec17b01468390e93640d56",
+  "canonicalId": "81104d8861cf94c4a9d210c4e00f274552b2e569",
+  "slug": "xai-发布-grok-47增量升级引发性能与定价争论",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T15:50:00Z",
+  "lang": "zh",
+  "title": "xAI 发布 Grok 4.7：增量升级引发性能与定价争论",
+  "summary": "xAI 发布了 Grok 4.7，这是继 Grok 4.6 之后的一次前沿模型点版本更新。条目未提供官方发布说明，因此模型能力、上下文长度、许可与可用性等细节均无法核实；Hacker News 评论者转述称，4.7 的权重比 4.6 多约 40%，而输入 2 美元、输出 6 美元的定价保持不变。多名评论者将此次发布视为增量升级：有人报告 4.7 比 4.6 更慢、更贵，也有人认为 xAI 的发布节奏正在加快，并预期年内会出现 Grok 5。",
+  "score": 7,
+  "tags": [
+    "large language models",
+    "xAI",
+    "Grok",
+    "model releases",
+    "benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "meetpateltech",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49788838"
+    }
+  ],
+  "originalUrl": "https://x.ai/news/grok-4-7",
+  "originalSite": "x.ai",
+  "context": "Horizon 2026 年 8 月 13 日的日报曾报道 xAI 发布 Grok 4.6，将其定位为面向长时间运行智能体任务的前沿模型，并提到第三方机构 Artificial Analysis 已发布相关基准测试与分析。Grok 4.7 是该系列的后续版本；据 xAI 官方页面介绍，它使用比 Grok 4.6 更大的基座模型，并经过更长的强化学习训练，任务组合更难、更偏向需要数小时才能完成的问题，同时在自我验证与长上下文管理上有所改进。",
+  "discussion": "评论者对这次升级的价值判断不一：mchusma 表示 Grok 4.6 在其编码和 agent 工作流中不达标，而 4.7 更慢也更贵，感觉像是靠多消耗 token 去抬升基准分数，尚不确定是否越过其可用门槛；moojacob 则以权重增加而价格不变、发布比原计划推迟近两周为由，推测 xAI 自己对 4.7 的结果并不满意，并预期传闻中的 Opus 5.5 会在基准上胜出，同时表示自己对基准本身已持怀疑态度。vesenes 看法较乐观，认为发布节奏加快、质量持续改善，并预计年内 Grok 5 会有更大幅度的提升。",
+  "references": [
+    {
+      "title": "2026-08-13 — xAI 发布 Grok 4.6，聚焦长时间智能体任务",
+      "url": "https://x.ai/news/grok-4-6"
+    },
+    {
+      "title": "Introducing Grok 4 . 7 | SpaceXAI",
+      "url": "https://x.ai/news/grok-4-7"
+    },
+    {
+      "title": "Polymarket Favors New Anthropic Opus Release as AI Safety...",
+      "url": "https://coinalertnews.com/news/2026/09/21/anthropic-opus-polymarket-safety"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "3dd66055e6a80b1584c205340b7bf170be8d7839",
+  "canonicalId": "50c0b912a0edf25f07ef0c234fbb94ca651e5bd0",
+  "slug": "f-droid-20-发布完整重设计与-fpe-淘汰讨论",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T15:26:00Z",
+  "lang": "zh",
+  "title": "F-Droid 2.0 发布：完整重设计与 FPE 淘汰讨论",
+  "summary": "F-Droid 项目宣布发布 F-Droid 2.0，这是官方应用的一次完整重设计，面向现有用户和希望更容易发现、安装免费开源 Android 应用的新用户。公告称 2.0 带来更现代界面、更好的应用发现、更多有用分类、改进搜索和更简化的使用体验；这些是项目方对本次发布的说明，尚无独立性能或兼容性数据。社区评论中还提到 F-Droid Privileged Extension（FPE）正被逐步淘汰，有用户对此表示欢迎，并称过去在 LineageOS 等系统上配置该扩展很麻烦。",
+  "score": 8,
+  "tags": [
+    "F-Droid",
+    "Android",
+    "open source",
+    "app distribution",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "daveoc64",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49831968"
+    }
+  ],
+  "originalUrl": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+  "originalSite": "f-droid.org",
+  "context": "F-Droid 是一个由社区维护、只收录自由与开源软件的 Android 应用仓库，其官方客户端此前长期以功能优先、界面陈旧著称；检索到的报道称，2.0 是该项目十年来规模最大的一次客户端更新，开发历时一年多，且属于官方客户端的完整重设计（tool-2-1、tool-2-2）。此外，此次涉及的 F-Droid Privileged Extension（FPE）是一个需要单独安装和配置的特权扩展，评论区用户反映它在此前的 LineageOS 手机上“配置起来很麻烦”，并对其被淘汰表示欢迎。",
+  "discussion": "对 F-Droid 的用户和贡献者而言，2.0 的界面与搜索改进降低的是使用门槛，而不是分发门槛：2026 年 3 月的报道指出，Google 的 Android 开发者验证计划要求即便只在网页上发布 APK 或提供侧载的开发者也要注册，F-Droid 方面曾称该计划对替代应用商店构成“生存性”威胁，因为其许多贡献者出于原则保持匿名（tool-3-2、tool-3-3）。若该计划按既定时间表执行，用户在 F-Droid 上能发现和安装的应用范围可能受制于开发者的注册与执法进度，这一约束不会因 2.0 的重新设计而改变（tool-3-1）。\n\n有评论者批评新界面沿用当前常见做法，不划分区域边界、不明确哪些元素可点击以及点击后会发生什么，也不提示可滚动区域，并称这是不加思考的追潮流；另有人指出首张截图中 “Syncthing-For k” 的 k 单独换行，认为展示重设计时不应出现这种排版问题。用户 silverbluep 表示，因 F-Droid 旧界面糟糕且特权扩展在 LineageOS 上配置麻烦，自己多年在 GrapheneOS 上使用 Droid-ify，并对这次大改版和 FPE 被淘汰感到高兴。",
+  "references": [
+    {
+      "title": "F-Droid 2.0: A New Chapter for Android Freedom",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
+    },
+    {
+      "title": "F-Droid 2.0 changes almost everything in its biggest update ...",
+      "url": "https://www.notebookcheck.net/F-Droid-2-0-changes-almost-everything-in-its-biggest-update-in-10-years.1407672.0.html"
+    },
+    {
+      "title": "Will F‑Droid and Other Alternative App Stores Remain U...",
+      "url": "https://factually.co/fact-checks/technology/f-droid-alternative-app-stores-google-sideloading-rules-usability-9a31cf"
+    },
+    {
+      "title": "F-Droid says Google&#x27;s Android developer verification plan is an &#x27;existential&#x27; threat to alternative app stores - The New Stack",
+      "url": "https://thenewstack.io/f-droid-says-googles-android-developer-verification-plan-is-an-existential-threat-to-alternative-app-stores/"
+    },
+    {
+      "title": "Android Is Losing Its Freedom: Google&#x27;s 2026 Developer Verification Explained - DEV Community",
+      "url": "https://dev.to/dev-arafat-alim/android-is-losing-its-freedom-googles-2026-developer-verification-explained-2b5p"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

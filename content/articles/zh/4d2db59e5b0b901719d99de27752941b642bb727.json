@@ -1,0 +1,57 @@
+{
+  "id": "4d2db59e5b0b901719d99de27752941b642bb727",
+  "canonicalId": "a1a80e7505d3eaa8e0d88e0b5257212122a8eab7",
+  "slug": "flock-摄像头硬编码凭据漏洞",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T13:18:00Z",
+  "lang": "zh",
+  "title": "Flock 摄像头硬编码凭据漏洞",
+  "summary": "据 Wired 报道及关联安全研究，黑客成功入侵了一台 Flock 摄像头，暴露了该系统存在硬编码凭据、不安全设计以及漏洞披露流程缺陷。攻击者利用硬编码的 API 密钥请求以明文存储的凭据，这些凭据可能使其获得对 Flock 服务器的访问权限。社区讨论指出，Flock 的漏洞披露政策将必须与设备或服务“交互”或下载数据的披露排除在外，实质上限制了研究者报告漏洞；同时该产品部署在物理可访问的公共空间，却未做好安全启动和密钥管理。Distributed Denial of Secrets 已发布该摄像头的分区镜像，进一步表明其中的数据未充分加密，任何物理接触者都可能直接获取。",
+  "score": 8,
+  "tags": [
+    "security",
+    "IoT surveillance",
+    "vulnerability disclosure",
+    "hardcoded credentials",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "driverdan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49726586"
+    }
+  ],
+  "originalUrl": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
+  "originalSite": "wired.com",
+  "context": "Flock Safety 是一家生产自动车牌识别（ALPR）摄像头的厂商，其设备被美国多地警方与社区用来记录车辆和行人的移动轨迹。2025 年已有研究披露该品牌摄像头存在硬编码凭据、明文存储以及启用调试接口等问题，Flock 当时回应称利用这些漏洞需要物理接触设备。此次事件中，黑客直接从路杆上取下摄像头并复制了其内部数据，并将其交给 404 Media、WIRED 以及透明组织 Distributed Denial of Secrets，使争议从“理论上的漏洞”转向了实际的数据提取。",
+  "discussion": "对部署 Flock 自动车牌识别摄像头的城市和执法机构而言，硬编码凭据与不安全的设备设计意味着任何具备物理接触条件的人都可能提取凭据与数据，从而威胁到 Flock 服务器及全国性数据库的访问安全。由于 ACLU 与 EFF 等组织长期批评这类系统扩大公共监控并侵犯隐私，此次事件可能进一步加大其部署所面临的公众与法律阻力。\n\n社区评论普遍认为，硬编码凭据和明文存储暴露了开发过程中的严重疏忽，Flock 的漏洞披露政策被批评为只是做样子，实际上限制研究者报告漏洞。也有评论强调，此类设备部署在公共空间，威胁模型必须包含物理访问，使用现成硬件和软件栈几乎注定会遭到攻击。",
+  "references": [
+    {
+      "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Really Works | WIRED",
+      "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/"
+    },
+    {
+      "title": "Hackers Stole Flock’s Camera Software, Revealing How the Company Tracks Cars and People",
+      "url": "https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2/"
+    },
+    {
+      "title": "Flock Safety - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flock_Safety"
+    },
+    {
+      "title": "Flock Safety - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flock_Safety"
+    },
+    {
+      "title": "Fight Creepy ALPR Cameras | American Civil Liberties Union",
+      "url": "https://www.aclu.org/campaigns-initiatives/get-the-flock-out"
+    },
+    {
+      "title": "Despite &#x27;New&#x27; Updates, Flock&#x27;s Creepy Cameras Remain Major Civil Liberties Threat | American Civil Liberties Union",
+      "url": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/despite-new-updates-flocks-creepy-cameras-remain-major-civil-liberties-threat"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

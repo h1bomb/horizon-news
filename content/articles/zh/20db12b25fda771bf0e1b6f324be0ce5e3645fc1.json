@@ -1,0 +1,31 @@
+{
+  "id": "20db12b25fda771bf0e1b6f324be0ce5e3645fc1",
+  "canonicalId": "720fb61d67390b349bd16213d1a5fe866ace28aa",
+  "slug": "groq-3-lpx-确定性执行与能效优化",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T16:55:00Z",
+  "lang": "zh",
+  "title": "Groq 3 LPX 确定性执行与能效优化",
+  "summary": "rss · NVIDIA Inference Performance Blog · 9月15日 16:55\n\n**「背景」** AI 工厂受功耗硬约束，性能功耗比而非原始吞吐成为衡量平台的关键。Vera Rubin 用工厂级 DSX MaxLPS 和机架级智能功率平滑管理电力，但高交互层级仍需 Groq 3 LPX 提供低延迟推理。\n\n**「方案」** 文章核心是 Groq 3 LPX 的确定性执行：编译器在运行前为整个机架的 256 颗 LPU 生成逐时钟周期调度，明确数据何时移动到哪个计算单元、何时执行；MXM、VXM、SXM 等功能单元、片上 SRAM 和 LPU 直连，加上同步时钟，使计算、访存与通信周期可重复。编译器因此能预测每周期电流需求，并用 Preemptive Power 提前让供电网络调压，减少去耦电容的补偿缺口；Clock Period Synthesis 则拉长或缩短特定时钟周期，尤其拉长电流尖峰周期以降低 di/dt。作者称这使电压跌落减少&gt;60%，持续基线电压降高个位数百分比，并因功率与电压平方成正比（电压高 10%约多耗 21%功率），最终让同负载功耗降低低两位数百分比。NVIDIA 还称，Groq 3 LPX 与 Vera Rubin NVL72 组合在 2T+参数、长上下文和高交互场景下，每兆瓦吞吐可达上一代 GB200 NVL72 的 35 倍，计划 2026 年下半年推出。但这些数字均属厂商内部测试或估算，未提供方法、基准或独立验证，也未展开实现成本与局限。\n\n**「启示」** 作者的论点是，确定性执行把不可预测的电流需求变成可提前调度的逐周期时间表，从而压缩电压保护带、把更多电力留给推理；不过其能效与吞吐优势目前仍是厂商主张，需独立验证。\n\n**标签**: `#deterministic execution`, `#power efficiency`, `#voltage droop`, `#AI inference hardware`, `#NVIDIA Vera Rubin`",
+  "score": 4,
+  "tags": [
+    "deterministic execution",
+    "power efficiency",
+    "voltage droop",
+    "AI inference hardware",
+    "NVIDIA Vera Rubin"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
+  "originalSite": "developer.nvidia.com",
+  "context": "AI 工厂受功耗硬约束，性能功耗比而非原始吞吐成为衡量平台的关键。Vera Rubin 用工厂级 DSX MaxLPS 和机架级智能功率平滑管理电力，但高交互层级仍需 Groq 3 LPX 提供低延迟推理。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

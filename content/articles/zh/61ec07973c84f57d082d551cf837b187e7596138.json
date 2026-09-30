@@ -1,0 +1,57 @@
+{
+  "id": "61ec07973c84f57d082d551cf837b187e7596138",
+  "canonicalId": "dcbc9a79c4e9a221c36977fa0d9c58915f18df08",
+  "slug": "第九巡回法院审理亚马逊诉-perplexity-上诉案",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T21:05:00Z",
+  "lang": "zh",
+  "title": "第九巡回法院审理亚马逊诉 Perplexity 上诉案",
+  "summary": "美国第九巡回上诉法院正在审理 Amazon 诉 Perplexity 案的上诉（案号 26-1444），该案围绕 Perplexity 的 Comet 浏览器工具被指未经授权访问亚马逊网站而展开。根据社区引用的起诉内容，Amazon.com Services, LLC 以 Perplexity AI, Inc. 违反联邦《计算机欺诈与滥用法》（CFAA）为由提起诉讼，争议焦点在于 AI 代理代表用户操作网站是否构成非法访问。此案可能影响 AI 购物代理、网页自动化和 headless commerce 的合法边界，因此受到技术社区关注。目前上诉仍在第九巡回法院进行，具体裁决结果和时间尚不确定。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "e-commerce",
+    "CFAA",
+    "web scraping",
+    "legal precedent"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "neom",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49704008"
+    }
+  ],
+  "originalUrl": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
+  "originalSite": "law.justia.com",
+  "context": "Amazon.com Services 起诉 Perplexity AI，指其智能体浏览器工具 Comet 未经授权访问 Amazon 网站，违反了联邦《计算机欺诈与滥用法》（CFAA）以及加州《综合计算机数据访问与欺诈法》（CDAFA），并请求法院颁布初步禁令，禁止该工具在 Amazon.com 上使用。第九巡回上诉法院合议庭于 2026 年 8 月 4 日撤销了地区法院的这项初步禁令，认为根据现有记录，就 CFAA 而言，执行“访问”行为的是用户而非 Perplexity 本身。CFAA 是美国规制未经授权访问计算机系统的核心联邦法律，因此本案的关键法律争点在于：当 AI 代理代替用户操作浏览器时，“访问”行为和授权范围应如何归属。",
+  "discussion": "对 AI 智能体开发者而言，第九巡回法院的裁定意味着当智能体按用户指示代为操作时，依据 CFAA 及加州 CDAFA 提起的索赔可能难以成立，从而为其提供了一定程度的抗辩保护；但网站运营者仍可诉诸违反服务条款等其他法律理论，因此这种保护并非绝对。\n\nHacker News 讨论中，多位评论者认为 AI 代理对亚马逊的广告业务构成结构性威胁，因为无头商务会削弱其广告变现；也有人质疑亚马逊在本案中的诉讼资格，认为 Perplexity 的行为类似浏览器代表用户访问网站。另有评论担忧平台通过法律手段限制用户代理，导致从亚马逊转向 ChatGPT 等新中介。",
+  "references": [
+    {
+      "title": "UNITED STATES COURT OF APPEALS FOR THE NINTH CIRCUIT",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
+    },
+    {
+      "title": "AMAZON.COM SERVICES, LLC V. PERPLEXITY AI, INC., No. 26-1444 ...",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html"
+    },
+    {
+      "title": "Ninth Circuit Vacates CFAA Injunction Against Perplexity&#x27;s ...",
+      "url": "https://www.jonesday.com/en/insights/2026/09/ninth-circuit-vacates-cfaa-injunction-against-perplexitys-comet-ai-agent"
+    },
+    {
+      "title": "Ninth Circuit Rules on AI Agent ‘Access’ to Third-Party Websites Under CFAA // Cooley // Global Law Firm",
+      "url": "https://www.cooley.com/news/insight/2026/2026-08-06-ninth-circuit-rules-on-ai-agent-access-to-third-party-websites-under-cfaa"
+    },
+    {
+      "title": "Tool or Intruder? What Amazon v. Perplexity Means for Agentic AI and the CFAA | Insights | Ropes &amp; Gray LLP",
+      "url": "https://www.ropesgray.com/en/insights/alerts/2026/08/tool-or-intruder-what-amazon-v-perplexity-means-for-agentic-ai-and-the-cfaa"
+    },
+    {
+      "title": "Ninth Circuit Addresses CFAA and Agentic AI Tools in Groundbreaking Decision | Wilson Sonsini",
+      "url": "https://www.wsgr.com/en/insights/ninth-circuit-addresses-cfaa-and-agentic-ai-tools-in-groundbreaking-decision.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

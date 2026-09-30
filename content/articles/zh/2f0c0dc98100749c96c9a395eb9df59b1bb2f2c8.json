@@ -1,0 +1,37 @@
+{
+  "id": "2f0c0dc98100749c96c9a395eb9df59b1bb2f2c8",
+  "canonicalId": "2c4626fc164acba5e8648a433b282dbf7322552d",
+  "slug": "tokio-高性能应用原则与社区补充",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T15:27:00Z",
+  "lang": "zh",
+  "title": "Tokio 高性能应用原则与社区补充",
+  "summary": "这篇由 Tokio 维护者 carllerche 发布的文章《Principles for Fast Tokio Applications》面向 Rust 异步运行时性能优化，提出了编写快速 Tokio 应用的原则。社区评论认为文中“谨慎使用互斥锁”的建议有价值，并补充了 Tokio 提供的各类 channel 作为替代方案，指出部分 channel 甚至无需启用 runtime feature 即可使用。对于更高性能场景，评论者提出线程忙等待、CPU 绑核、SPSC/MPSC 环形缓冲区，以及 ef\\_vi/DPDK 与 SPDK 等低层方案。另有评论者表示，agentic coding 可用于加入非常细粒度的 tracing instrumentation，以辅助这类优化。jeffbee 则指出，许多生产服务器应用把大部分 CPU 时间花在进入/退出 epoll、从自身窃取工作等元操作上，这让该文原则显得重要但容易被违反。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "Tokio",
+    "async runtime",
+    "performance optimization",
+    "concurrency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "carllerche",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49698607"
+    }
+  ],
+  "originalUrl": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
+  "originalSite": "dial9-rs.github.io",
+  "context": "Tokio 是 Rust 生态中广泛使用的异步运行时，通过任务调度器在少量操作系统线程上并发执行大量异步任务。当代码执行文件系统操作等阻塞型工作时，Tokio 在没有 io\\_uring 的情况下会把这些操作放到共享的阻塞线程池，而每次调用 spawn\\_blocking 也有额外开销，因此把连续阻塞操作合并成更大的阻塞段落或改用专用操作系统线程往往更高效。这篇文章由 Tokio 的主要维护者撰写，系统性地总结了编写高性能 Tokio 应用时应遵循的原则，因此在 Rust 异步社区引发讨论。",
+  "discussion": "对使用 Rust/Tokio 构建高吞吐服务的开发者而言，这些原则与讨论提供了排查调度、同步和 I/O 元操作开销的切入点；不过评论中的忙等待、绑核和内核旁路方案收益依赖具体负载，需要基准测试验证。\n\n评论整体认可文章方向，并补充 Tokio channel 可替代互斥锁、极致性能可考虑忙等待/绑核/环形缓冲区和 DPDK/SPDK 等实践；jeffbee 的经验强调生产服务常被 epoll 进出与工作窃取等元操作拖累，说明这些原则虽正确却容易在实践中被违反。",
+  "references": [
+    {
+      "title": "Principles for fast Tokio applications",
+      "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

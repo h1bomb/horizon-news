@@ -1,0 +1,44 @@
+{
+  "id": "18198b26a9e0428d29026e63cb11c0f941c85161",
+  "canonicalId": "18451593c2e52c078161ce00361bd5c223c5bb63",
+  "slug": "julia-113-发布加快包预编译并改进-repl",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T13:23:00Z",
+  "lang": "zh",
+  "title": "Julia 1.13 发布：加快包预编译并改进 REPL",
+  "summary": "Julia 编程语言 1.13 版已发布，官方公布的亮点包括更快的包预编译、REPL 的改进，以及为版本管理器 Juliaup 提供的图形界面。完整变更清单收录在该版本的发布说明（NEWS.md）中。LWN 曾于 2025 年 11 月报道 Julia 1.12。目前公布的摘要较为简短，具体性能提升幅度、REPL 各项改动细节及 Juliaup 图形界面的功能范围均未在本条目中给出，需查阅官方发布说明与亮点博客确认。",
+  "score": 7,
+  "tags": [
+    "Julia",
+    "Programming Languages",
+    "Open Source",
+    "Release",
+    "REPL"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1093567/",
+  "originalSite": "lwn.net",
+  "context": "Julia 是一门面向科学计算与数值分析的开源动态编程语言，其 1.12 版本于 2025 年 11 月发布。包预编译指在安装或首次加载包时提前完成 Julia 代码的编译并缓存产物，其耗时长期是影响用户体验的环节。Juliaup 是 Julia 的安装器兼版本管理器，可安装指定 Julia 版本、在新版本发布时提醒用户，并提供发布渠道（channel）抽象；它最早以 Windows 应用商店分发的方式出现，主要用于管理同一系统上的多个 Julia 版本。",
+  "discussion": "对 Julia 用户和依赖其工具链的开发者而言，1.13 的包预编译提速可直接缩短安装与加载包的等待时间，从而加快开发迭代；Juliaup 新增图形界面则使不习惯命令行的用户也能管理多个 Julia 版本。具体提速幅度与兼容性影响尚待官方发布说明核实。",
+  "references": [
+    {
+      "title": "Julia 1.13 Highlights",
+      "url": "https://julialang.org/blog/2026/09/julia-1.13-highlights/index.html"
+    },
+    {
+      "title": "GitHub - JuliaLang/ juliaup : Julia installer and version manager",
+      "url": "https://github.com/JuliaLang/juliaup"
+    },
+    {
+      "title": "[ANN] Juliaup Preview - Julia version manager and Windows Store...",
+      "url": "https://discourse.julialang.org/t/ann-juliaup-preview-julia-version-manager-and-windows-store-installer/61920"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

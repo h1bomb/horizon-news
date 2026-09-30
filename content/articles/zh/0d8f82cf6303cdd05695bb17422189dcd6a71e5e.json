@@ -1,0 +1,57 @@
+{
+  "id": "0d8f82cf6303cdd05695bb17422189dcd6a71e5e",
+  "canonicalId": "65539846fc8ff9423ea6ef5e1fae46bbf0179fbe",
+  "slug": "小米发布-mimo-v26公开训练看板与技术报告",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T20:12:00Z",
+  "lang": "zh",
+  "title": "小米发布 MiMo v2.6，公开训练看板与技术报告",
+  "summary": "小米发布大语言模型 MiMo v2.6，并在此次发布中罕见地公开了训练细节：除技术报告外，还提供了训练期间的实时 RL 看板（mimo.xiaomi.com/rl/），分析摘要将其评价为透明度突出的做法。评论者提到可通过 API 调用 Pro 与 Flash 两个版本以及 none/low/medium/high 等档位，但 medium/high 档位会消耗大量 token 并导致请求超时，尚不清楚这是 API 故障还是模型本身 token 效率偏低。由于该条目没有可用的官方页面正文，模型规模、基准成绩、价格与正式可用范围等信息无法从现有材料确认。",
+  "score": 7,
+  "tags": [
+    "LLM release",
+    "open-weight models",
+    "training transparency",
+    "Xiaomi",
+    "API performance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "volf\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49792730"
+    }
+  ],
+  "originalUrl": "https://mimo.xiaomi.com/mimo-v2-6",
+  "originalSite": "mimo.xiaomi.com",
+  "context": "Horizon 在 9 月 17 日的日报中已报道，小米上线了 MiMo 2.6 的实时后训练仪表盘（mimo.xiaomi.com/rl/）并在 Hacker News 引发讨论，但当时的条目只有仪表盘链接，没有 MiMo 2.6 的可验证基准数据，社区关注点仍停留在上一代 MiMo-V2.5 的质量、成本与训练透明度上。此次则是小米正式发布并开源 MiMo-V2.6 系列（官方表述为“Scaling Up Reinforcement Learning for Self-Improvement”），模型已在小米 MiMo 开放平台上线，API 定价与 V2.5 保持一致。",
+  "discussion": "多条评论赞赏这种训练透明度，其中一位用户称实时训练看板对其学习帮助极大；讨论也延伸到中国模型的性价比优势，以及有人主张中国凭借电力与电网建设将在长期 AI 竞赛中占优。另一方面，有用户报告实际试用时只有 Pro 与 Flash 的 none、low 档位可用，medium/high 档位因 token 消耗过大而全部超时，怀疑模型 token 效率低、基本不可用。",
+  "references": [
+    {
+      "title": "2026-09-17 — 小米 MiMo 2.6 实时后训练仪表盘获关注",
+      "url": "https://mimo.xiaomi.com/rl/"
+    },
+    {
+      "title": "Xiaomi MiMo Home",
+      "url": "https://mimo.mi.com/docs/en-US/news/latest/v2-6"
+    },
+    {
+      "title": "MiMo - V 2 . 6 | Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6"
+    },
+    {
+      "title": "MiMo - V 2 . 6 | Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6"
+    },
+    {
+      "title": "MiMo - V 2 . 6 -Flash - API Pricing &amp; Providers | OpenRouter",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+    },
+    {
+      "title": "MiMo - V 2 . 6 -Flash API : ID, context window and token cost | Tokenator",
+      "url": "https://tokenator.cloud/en/models/mimo-v2.6-flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "d1ea75e567d1d02eadd86fec9551a905aac970c1",
+  "canonicalId": "24e4fba4ebe2e0de960b43794a35b43132e9b396",
+  "slug": "微软补丁致-windows-音频远程访问与粘贴功能出错",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T16:09:00Z",
+  "lang": "zh",
+  "title": "微软补丁致 Windows 音频、远程访问与粘贴功能出错",
+  "summary": "微软最新发布的 Windows 与 Excel 补丁在修复问题的同时引入了新的回归缺陷，导致音频、远程访问和粘贴功能出现故障。社区用户报告了更多受影响的功能，其中有人指出新更新中存在一个编号为 KB5124008 的严重 RDP 缺陷，且目前尚无修复方案。另有用户表示最近的更新破坏了文件历史记录服务，直到尝试还原文件旧版本时才发现。这些反馈同时伴随着对微软补丁质量连年下滑的抱怨，以及对该公司大量使用 AI 编写代码的质疑。",
+  "score": 7,
+  "tags": [
+    "Microsoft",
+    "Windows Update",
+    "software regressions",
+    "remote desktop",
+    "Excel"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Alephinitesimal",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49699297"
+    }
+  ],
+  "originalUrl": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
+  "originalSite": "theregister.com",
+  "context": "微软每月通过“补丁星期二”向 Windows 推送以 KB 编号标识的累积安全更新，并维护一份“已知问题”列表，用来记录已被官方确认、尚待修复的回归缺陷。2026 年 9 月的安全更新（如 KB5124008 和 KB5124012）已被微软确认可能导致部分系统上的 USB 音频设备失效、麦克风无响应，并干扰远程桌面服务。除 Windows 之外，同批 Excel 更新还破坏了粘贴功能，这使外界对微软声称正在改善更新质量的说法产生了更多质疑。",
+  "discussion": "对依赖远程桌面和文件历史记录的用户与 IT 管理员而言，KB5124008 目前没有可用修复，可能需要推迟更新或执行回滚，而粘贴和音频故障也会直接影响日常办公。\n\n评论者普遍认为微软的补丁质量近年持续下滑，有人因此开始考虑转向 Linux，也有人把问题归因于该公司宣称由 AI 编写大量代码。有用户给出实用提醒：使用文件历史记录功能的人应主动检查该服务是否仍然正常。",
+  "references": [
+    {
+      "title": "Microsoft: September updates break audio on some Windows PCs",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/"
+    },
+    {
+      "title": "Microsoft patches Windows and Excel – breaks audio, remote ...",
+      "url": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085"
+    },
+    {
+      "title": "Microsoft confirms Windows 11&#x27;s update kills audio on some ...",
+      "url": "https://www.windowslatest.com/2026/09/13/microsoft-confirms-windows-11s-update-kills-audio-on-some-pcs-and-the-bugs-keep-piling-up/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

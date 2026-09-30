@@ -1,0 +1,65 @@
+{
+  "id": "e5b9d23712b5ea8b94d778f594af6ebf3bca64aa",
+  "canonicalId": "b2e24dfd6d9603cf2febd1dac8267df8f87db25a",
+  "slug": "回顾性逆向工程分析-apple-神经引擎",
+  "date": "2026-09-13",
+  "publishedAt": "2026-09-12T07:54:00Z",
+  "lang": "zh",
+  "title": "回顾性逆向工程分析 Apple 神经引擎",
+  "summary": "eiln.github.io 上的一篇文章对 Apple 神经引擎（ANE）进行了回顾性逆向工程分析，并在 Hacker News 上引发技术讨论。由于来源未附正文，目前可确认的核心是文章主题聚焦 ANE 的逆向工程，而非产品发布或官方规格变更。评论把这项工作与更新的 M4 ANE 逆向研究、M5+（及 A 系列对应型号）GPU 中的 Neural Accelerator（NAX）以及 Apple 即将推出的 Core AI 框架联系起来。讨论还强调 ANE 自 2017 年随 A 系列芯片引入，并且 ANE 与 GPU 里的 Neural Accelerator 是不同部件，Apple 仍在继续开发 ANE。",
+  "score": 8,
+  "tags": [
+    "Apple Neural Engine",
+    "reverse engineering",
+    "hardware acceleration",
+    "Apple silicon",
+    "machine learning systems"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zdw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49670032"
+    }
+  ],
+  "originalUrl": "https://eiln.github.io/posts/ane.html",
+  "originalSite": "eiln.github.io",
+  "context": "Apple 神经引擎（ANE）是 Apple 芯片上独立于 CPU 和 GPU 的专用 AI 加速单元，官方宣传其算力可达 38 TOPS，开发者长期主要通过 Core ML 框架访问，而 Core ML 主要面向图像分类等经典机器学习任务。本文是开发者 Eileen Yoon 于 2026 年 9 月 12 日发布的回顾性逆向分析，重拾她三年前搁置的 M1 ANE Linux 驱动工作，重点从“在加速器上运行算子”转向记录其内部的计算、调度、内存与执行模型。此前后续出现了针对 M4 ANE 的逆向研究，可不依赖 Core ML 训练 API、直接用私有 API 在 ANE 上训练神经网络，而 Apple 也在 WWDC 2026 推出 Core AI 框架取代 Core ML，原生支持大语言模型、多模态与生成式流程。",
+  "discussion": "对关注 Apple 端侧推理的开发者而言，这篇分析与讨论最实际的提醒是不要混淆 ANE 与 GPU 中的 Neural Accelerator，并应关注 Core AI 如何跨 CPU、GPU 与神经引擎支持最新模型架构和推理技术。\n\n评论区整体认可文章质量，称其并非 AI 炒作且写得引人入胜；有读者表示由此第一次理解 ANE 及周边数据管线为何更适合 CNN 而非 transformer。讨论也出现澄清性分歧：有人指出不要把 ANE 与 M5+ GPU 中的 Neural Accelerator 混为一谈，并询问 M4 及之后的 ANE 是否只是性能迭代；另有评论补充 Apple 的 Core AI 会把最新模型架构和推理技术扩展到 CPU、GPU 与神经引擎，并提到作者还发现了 ANE DMA 相关 bug。",
+  "references": [
+    {
+      "title": "Retrospectively Reverse-Engineering Apple&#x27;s Neural Engine",
+      "url": "https://upstract.com/x/4dbf9745ec99d1b9"
+    },
+    {
+      "title": "Retrospectively Reverse-Engineering Apple&#x27;s Neural Engine M1 Neural Engine Reverse-Engineering Maps Apple&#x27;s CNN-Era ... Apple Neural Engine (ANE) Reverse Engineering - GitHub GitHub - eiln/ane: Reverse engineered Linux driver for the ... Retrospectively Reverse-Engineering Apple&#x27;s Neural Engine Apple’s Apple Neural Engine (ANE) Chip Was Just ... - Medium",
+      "url": "https://www.youtube.com/watch?v=Mm8cB9ToA0Q"
+    },
+    {
+      "title": "M1 Neural Engine Reverse-Engineering Maps Apple&#x27;s CNN-Era ...",
+      "url": "https://www.neotechnews.com/article/retrospectively-reverse-engineering-apple-s-neural-engine-49670032"
+    },
+    {
+      "title": "Inside the M4 Apple Neural Engine, Part 1: Reverse Engineering",
+      "url": "https://maderix.substack.com/p/inside-the-m4-apple-neural-engine"
+    },
+    {
+      "title": "GitHub - maderix/ANE: Training neural networks on Apple ...",
+      "url": "https://github.com/maderix/ANE"
+    },
+    {
+      "title": "Core AI | Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation/coreai"
+    },
+    {
+      "title": "Core ML | Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation/coreml"
+    },
+    {
+      "title": "Apple Core AI Replaces Core ML — What It Means for iOS 27",
+      "url": "https://aiautomationglobal.com/blog/apple-core-ai-framework-wwdc-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "d1be7b5c253e8ddaf6f0544d5988e495e9158e0a",
+  "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
+  "slug": "qwen-发布-image-217b-开源权重图像模型许可证更严格",
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-20T13:09:00Z",
+  "lang": "zh",
+  "title": "Qwen 发布 Image 2.1：7B 开源权重图像模型，许可证更严格",
+  "summary": "Qwen 在其官方博客发布了 Image 2.1 图像生成模型。据 Hacker News 评论者描述，该模型为开放权重、参数量约 7B，比 Qwen-Image 1 的约 20B 明显缩小，并原生支持透明背景，小字号文字渲染质量也有提升。评论者 jfoster 指出，该模型采用的许可证比许多早期 Qwen 模型使用的 Apache 条款严格得多，具体条件应以仓库中的 LICENSE 文件为准。以上参数、能力与许可信息均出自厂商博客和评论者说法，尚未见到独立基准或第三方验证。",
+  "score": 7,
+  "tags": [
+    "open-weight models",
+    "image generation",
+    "Qwen",
+    "model licensing",
+    "text rendering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jmillikin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49775499"
+    }
+  ],
+  "originalUrl": "https://qwen.ai/blog?id=qwen-image-2.1",
+  "originalSite": "qwen.ai",
+  "context": "Qwen-Image 2.1 是 Qwen 图像生成系列的新版本，其视觉生成组件为 7B 参数（32 层 Single-Stream DiT），把文生图、多图编辑与原生透明输出整合在同一个可下载模型中。评论者称前代 Qwen-Image 1 约为 20B 参数，因此这是同一产品线内一次明显的体量收缩；与此同时，外部报道和模型仓库信息显示该权重对商用设有限制，需要另行向 Qwen 取得授权，这与此前部分 Qwen 模型采用的宽松许可形成差别。",
+  "discussion": "评论者 jjcm 用自建对比工具比较了 gpt-image-2 与 Qwen 2.1 的输出，认为其小字号文字保真度好于当前开源权重市场上的其他模型，并称即便有许可证顾虑该模型仍值得关注；fishfasell 则表示本地图像生成的质量和速度体验优于本地代码生成。jfoster 强调许可证比以往 Apache 授权的 Qwen 模型更严格，vunderba 也把 7B 的体量、原生透明支持和更强文字渲染列为正面因素。这些均为评论者的个人测试与判断，不等同于经过核实的基准结论。",
+  "references": [
+    {
+      "title": "Alibaba releases Qwen-Image-2.1 with transparent editing and ...",
+      "url": "https://runtimewire.com/article/alibaba-qwen-image-2-1-transparent-editing-research-license"
+    },
+    {
+      "title": "GitHub - QwenLM/Qwen-Image-2.1: Qwen&#x27;s most powerful open ...",
+      "url": "https://github.com/QwenLM/Qwen-Image-2.1"
+    },
+    {
+      "title": "Alibaba releases Qwen-Image-2.1 with transparent editing and ...",
+      "url": "https://runtimewire.com/article/alibaba-qwen-image-2-1-transparent-editing-research-license"
+    },
+    {
+      "title": "LICENSE · Qwen/Qwen-Image-2.1 at main - Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE"
+    },
+    {
+      "title": "Qwen-Image/LICENSE at main · QwenLM/Qwen-Image · GitHub",
+      "url": "https://github.com/QwenLM/Qwen-Image/blob/main/LICENSE"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

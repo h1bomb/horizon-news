@@ -1,0 +1,52 @@
+{
+  "id": "62a8fe386f56ab9041d56c7d9334f8648d5f0f53",
+  "canonicalId": "4e410dad70fb92989558aa8ff122fdd9cabd1589",
+  "slug": "openai-api-上线-gpt-live-1-实时语音模型",
+  "date": "2026-09-12",
+  "publishedAt": "2026-09-11T03:09:00Z",
+  "lang": "zh",
+  "title": "OpenAI API 上线 GPT-Live-1 实时语音模型",
+  "summary": "OpenAI 于 2026 年 9 月 10 日将 GPT‑Live‑1 上线 API，这是一个可同时听说（全双工）的实时语音模型。该模型支持自然打断、背景噪声处理、长对话以及电话语音代理场景，并可将复杂推理与工具调用交给后端模型处理。OpenAI 表示，GPT‑Live‑1 在 Full Duplex Bench 上的表现较 GPT‑Realtime‑2.1 提升 30 个百分点。API 的语音前端定价为每分钟 0.05 美元。上述信息来自一份简短的二次转述，尚未经过独立验证，相关性能数据均出自 OpenAI 自身说法。",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "API",
+    "real-time speech",
+    "voice agents",
+    "AI models"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+  "originalSite": "openai.com",
+  "context": "全双工语音模型指模型可同时听与说，而不必像传统轮次式语音 AI 那样等用户说完再回应，因而能在对话中自然打断和切换话轮；GPT‑Live‑1 即属于这类面向实时对话的全双工语音模型。在 OpenAI 的实时语音 API 路线中，此前的系列是 GPT‑Realtime，其首个正式可用版本可经 WebRTC、WebSocket 或 SIP 实时处理音频与文本输入，而本次报道以 GPT‑Realtime‑2.1 作为对比基线。来源提到的 Full Duplex Bench 即是用于衡量上述双工语音对话能力的基准。",
+  "discussion": "对构建实时语音代理的开发者而言，GPT‑Live‑1 以每分钟 0.05 美元的语音前端价格和更强的全双工打断处理，为电话语音等场景提供了一个可与 Gemini Live、ElevenLabs 等原生语音到语音方案直接比价的新选项。需注意，30 个百分点的提升目前来自 OpenAI 自报的 Full Duplex Bench，尚无第三方基准复现。",
+  "references": [
+    {
+      "title": "OpenAI launches GPT-Live-1 voice AI API for simultaneous listening and speaking",
+      "url": "https://www.digitaltoday.co.kr/en/view/102692/openai-launches-gpt-live-1-voice-ai-api-for-simultaneous-listening-and-speaking"
+    },
+    {
+      "title": "GPT-Live 1 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-live-1"
+    },
+    {
+      "title": "GPT-Realtime Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-realtime"
+    },
+    {
+      "title": "Gemini Live vs OpenAI Realtime: Complete Voice AI Comparison ...",
+      "url": "https://edesy.in/ai-voice-assistant/blog/gemini-live-vs-openai-realtime"
+    },
+    {
+      "title": "Realtime vs Gemini Live vs ElevenLabs: Voice AI Latency 2026 ...",
+      "url": "https://tokenmix.ai/blog/voice-ai-api-realtime-vs-gemini-live-vs-elevenlabs-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

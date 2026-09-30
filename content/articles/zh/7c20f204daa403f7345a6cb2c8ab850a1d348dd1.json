@@ -1,0 +1,57 @@
+{
+  "id": "7c20f204daa403f7345a6cb2c8ab850a1d348dd1",
+  "canonicalId": "96d0250dcbd828a7c77303cb74c3cfd4c6dad818",
+  "slug": "wayback-machine-访问保护与抓取压力更新",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T17:52:00Z",
+  "lang": "zh",
+  "title": "Wayback Machine 访问保护与抓取压力更新",
+  "summary": "互联网档案馆（Internet Archive）就 Wayback Machine 的访问状况发布更新，称其遭遇多轮高流量自动化请求，并已部署保护措施以维持服务运行。讨论中引述的说法认为，这些抓取者试图通过访问 Wayback Machine 的存档副本，绕过对原始站点的访问封锁，给这家非营利基础设施带来额外负载，并已促使部分网站选择退出。相关影响包括用户不时遇到 429 错误、服务可用性不稳定，但仍有用户报告可通过 Tor 匿名访问、不经过 Cloudflare 等中心化网关。社区普遍赞扬档案馆维持开放访问，同时担心 AI 训练与数据抓取竞赛带来的附带损害，并讨论监管、罚款等可能应对方式。",
+  "score": 7,
+  "tags": [
+    "Internet Archive",
+    "Wayback Machine",
+    "AI scraping",
+    "web archiving",
+    "internet infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ChrisArchitect",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49716176"
+    }
+  ],
+  "originalUrl": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+  "originalSite": "blog.archive.org",
+  "context": "Internet Archive 是一家非营利机构，其 Wayback Machine 长期免费提供网页历史快照，是研究者、记者与普通用户回溯已删除或已变更网页的重要公共档案。该服务按请求量进行限流，超出阈值时会返回 HTTP 429“请求过多”状态码，因此当自动抓取流量激增时，这类防护往往会同时波及正常访问的用户。据 Internet Archive 的说明，本次更新是为应对高流量自动访问而新增并调整的访问保护与 429 错误处理方式，但相关措施仍在拦截合法用户，受影响者可向该机构提供自己的 IP、浏览器和操作系统信息以寻求解决。",
+  "discussion": "对依赖 Wayback Machine 的研究者、记者和普通用户而言，最直接的后果是访问可能继续遭遇限流或间歇性中断。与此同时，《卫报》《纽约时报》等出版方已因担忧 AI 抓取而限制或停止被存档，这可能进一步缩小这一收录超过 1 万亿次网页抓取的档案的可用范围；目前公开信息尚未说明这些保护措施的持续时间和具体触发条件。\n\n评论者普遍称赞互联网档案馆在多方压力下仍尽量维持开放访问，并有人以 Tor 匿名访问和移动网络可用作为反例，说明影响并非一概而论；主要担忧集中在 AI 抓取对公共网络资源的附带破坏，以及监管或高额罚款能否奏效，也有人不确定 429 错误是否完全由档案馆的保护措施导致。",
+  "references": [
+    {
+      "title": "An Update on Wayback Machine Access | Internet Archive Blogs",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/"
+    },
+    {
+      "title": "Why Is the Internet Archive Blocking Users? Blame the Bots",
+      "url": "https://www.pcmag.com/news/why-is-the-internet-archive-blocking-users-blame-the-bots"
+    },
+    {
+      "title": "Wayback Machine Tightens Access Against Bot Traffic",
+      "url": "https://aicrier.com/post/zp0pbpmzqg1ome2hrzvy"
+    },
+    {
+      "title": "Internet Archive - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Internet_Archive"
+    },
+    {
+      "title": "Outlets like The Guardian and The New York Times are scrutinizing digital archives as ... - Facebook",
+      "url": "https://www.facebook.com/niemanfoundation/posts/outlets-like-the-guardian-and-the-new-york-times-are-scrutinizing-digital-archiv/1478564767604770/"
+    },
+    {
+      "title": "News outlets are blocking Wayback Machine from archiving their pages — 23 outlets concerned AI companies might abuse fair use and use it to train their models : r/pcmasterrace - Reddit",
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1sl7eu1/news_outlets_are_blocking_wayback_machine_from/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

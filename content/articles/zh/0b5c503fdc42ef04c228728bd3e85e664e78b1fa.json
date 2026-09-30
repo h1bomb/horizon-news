@@ -1,0 +1,44 @@
+{
+  "id": "0b5c503fdc42ef04c228728bd3e85e664e78b1fa",
+  "canonicalId": "82b7c1ad7628107c5442f8a3aa61528a75ba7795",
+  "slug": "typesafe-ai-发布-jev返回类型化概率决策的决策模型",
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-21T23:09:00Z",
+  "lang": "zh",
+  "title": "TypeSafe AI 发布 Jev：返回类型化概率决策的决策模型",
+  "summary": "TypeSafe AI 发布了 Jev，这是其称为“System One 模型”（Simon Willison 等人更倾向称为“决策模型”）的首个示例：它接受文本输入，但不生成文本，而是返回类型化概率输出——0 到 1 之间的置信度（即其称为 Noul 的伯努利式是非问题）、各选项上的概率分布（选择问题）以及数值评分（评分问题）。Jev 的 API 只按输入 token 计费、输出免费，首个模型输入价格为每百万 token 0.042 美元，低于 OpenAI GPT-5 Nano 的 0.05 美元，并且对同一份 state 提交的多个问题会并行评估。需要说明的是，目前信息来自厂商发布和 Simon Willison 的体验文章，尚无模型架构、公开基准或独立验证，具体的可用范围也未在材料中说明。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "decision models",
+    "AI model releases",
+    "typed outputs",
+    "TypeSafe AI"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Sep/21/jev/",
+  "originalSite": "simonwillison.net",
+  "context": "TypeSafe 的 Jev 属于该公司所称的“System One 模型”（Simon Willison 与 Maggie Appleton 更倾向叫“决策模型”）：输入是文本或半结构化的“状态”加若干类型化问题，输出是浮点概率、选项分布或评分而非文本。Jev 于 2026 年 9 月 15 日发布（tool-2-1），Horizon 9 月 16 日的日报已报道过这次发布（tool-1-1），当时评论者认可其新颖性，但质疑与通用生成模型作速度对比是否公平，并指出其输出仅限结构化结果。",
+  "discussion": "对打算把 Jev 用于分类、打标或检索重排的团队来说，最直接的后果是它只回传浮点数与概率分布、不给出任何判断依据，因此既有的 LLM 提示调试与“让模型解释理由”的做法在这里行不通，必须事先准备标注数据并做阈值校准与评测（原文作者也据此提醒不要把这类分数用于简历筛选等高风险排序）。与此同时，围绕“Jev 类决策模型”的第三方评测已经出现，例如 JevBench v1.2 声称在 534 个决策（含 220 个难题）上对 52 个系统排名，选型时可用这类基准做横向比较的起点。",
+  "references": [
+    {
+      "title": "2026-09-16 — Typesafe.ai 发布 System One Models 与 Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+    },
+    {
+      "title": "What is Jev ? TypeSafe AI &#x27;s System One decision model explained",
+      "url": "https://jev-agent.com/"
+    },
+    {
+      "title": "Jev-class decision models — JevBench v1.2 | Benchmark Heaven",
+      "url": "https://benchmarkheaven.com/jev-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

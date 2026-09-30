@@ -1,0 +1,31 @@
+{
+  "id": "8040ba19df3d2b5e7c0c1844013202e893157a24",
+  "canonicalId": "3d09a31147336d0de25ba9ecd5b535075120eff3",
+  "slug": "张一鸣亲自督导字节跳动筹备空间视频模型",
+  "date": "2026-09-09",
+  "publishedAt": "2026-09-08T04:05:00Z",
+  "lang": "zh",
+  "title": "张一鸣亲自督导字节跳动筹备空间视频模型",
+  "summary": "知情人士称，字节跳动创始人张一鸣正亲自督导一款实时空间视频生成模型，最快可能在 2026 年 10 月发布，但发布时间仍可能调整。该模型基于字节跳动的 Seedance 基础，可生成响应 Pico 头显用户语音或动作的互动虚拟世界；它计划以约 0.05 秒延迟、每秒 20 帧的速度生成视频，并把高强度计算转移到云端，以降低虚拟现实设备的硬件门槛。消息源自彭博社报道，是字节跳动在生成式 AI 与 VR 结合方向的重要进展。",
+  "score": 8,
+  "tags": [
+    "spatial video",
+    "ByteDance",
+    "world models",
+    "virtual reality",
+    "AI generation"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-09-07/bytedance-founder-joins-ai-elite-in-race-to-perfect-world-models",
+  "originalSite": "bloomberg.com",
+  "context": "空间视频生成模型与一次性生成固定片段的传统视频生成不同，它需要根据用户输入实时生成可交互的虚拟场景。字节跳动此前已有 Seedance 这一视频生成基础模型，本次项目是在其基础上扩展出面向 Pico 头显的实时空间能力；而 Pico 是面向消费者的虚拟现实头显设备。要满足头显用户的自然交互，系统必须同时解决低延迟响应、连续帧生成与设备端算力限制等关键问题。",
+  "discussion": "若这一目标实现，Pico 头显用户将可通过语音或动作获得约 0.05 秒延迟、每秒 20 帧的互动虚拟世界，且设备端无需承担高强度计算，从而降低 VR 硬件门槛；但这同时意味着流畅体验将更依赖云端处理能力和网络质量。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

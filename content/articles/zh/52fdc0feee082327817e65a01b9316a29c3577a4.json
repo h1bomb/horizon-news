@@ -1,0 +1,44 @@
+{
+  "id": "52fdc0feee082327817e65a01b9316a29c3577a4",
+  "canonicalId": "d6dce00fbe66c3e54bfe41020e743eeba7fe0d18",
+  "slug": "debian-前-dpl-tille-分享任期经验与-llm-决议看法",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T15:34:00Z",
+  "lang": "zh",
+  "title": "Debian 前 DPL Tille 分享任期经验与 LLM 决议看法",
+  "summary": "2026 年 9 月 14 日，LWN 的 Joe Brockmeier 报道了前 Debian 项目负责人（DPL）Andreas Tille 在瑞士温特图尔 MiniDebConf 上的演讲，他回顾了连续两届 DPL 任期中的经验、推动的举措与失误，并谈及 Debian 关于大语言模型（LLM）使用的一般决议（GR）。Tille 介绍了“每日一 Bug”计划以吸引新贡献者，并说明了在 Debian 13 “trixie” 发布后数月才将 ftpmaster 团队拆分为负责基础设施的 Archive Operations Team 和负责新队列审核的 DFSG、Licensing &amp; New Packages Team。他还提到 Debian 数据保护团队三名成员同时请辞并公开征召新成员，认为这种主动宣布离职促成了平稳交接；他提出的限时委任（time-limited delegations）想法在公布后引发了比预期更大的争议，部分代表认为他应事先询问他们。文章和演讲幻灯片、视频均已公开，但所给内容在 Tille 谈及代表反应处中断。",
+  "score": 7,
+  "tags": [
+    "Debian",
+    "open source governance",
+    "LLM policy",
+    "project leadership",
+    "community"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1093381/",
+  "originalSite": "lwn.net",
+  "context": "Debian 项目领导人（DPL）由 Debian 社区依照其章程选举产生，Andreas Tille 在连续担任两届 DPL 后于 2026 年卸任，Sruthi Chandran 当选为接任者。Debian 的重要决策可通过全体开发者投票的“一般决议”（General Resolution）作出；2026 年关于是否允许在 Debian 中使用大语言模型（LLM）生成贡献的讨论，就是通过这一机制展开，并提出了包括明确禁止 LLM 贡献在内的多项方案。Tille 在 MiniDebConf Winterthur 上回顾任内经验并评论该 LLM 决议，背景涉及 Debian 的社区自治、团队授权与交接等治理流程。",
+  "discussion": "对 Debian 贡献者和治理观察者而言，Tille 的经验表明拆分 ftpmaster 已加快新队列处理并提高透明度，但限时委任等治理改革仍需更充分的协商才能获得代表认同。",
+  "references": [
+    {
+      "title": "List of Debian project leaders — Grokipedia",
+      "url": "https://grokipedia.com/page/List_of_Debian_project_leaders"
+    },
+    {
+      "title": "General Resolution : LLM usage in Debian",
+      "url": "https://www.debian.org/vote/2026/vote_002"
+    },
+    {
+      "title": "Debian Votes Again on LLM Written Contributions | PeopleAreGeek",
+      "url": "https://peoplearegeek.com/articles/debian-general-resolution-llm-contributions/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

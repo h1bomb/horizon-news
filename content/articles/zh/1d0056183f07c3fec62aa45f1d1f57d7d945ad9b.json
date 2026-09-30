@@ -1,0 +1,31 @@
+{
+  "id": "1d0056183f07c3fec62aa45f1d1f57d7d945ad9b",
+  "canonicalId": "4b2ac32b486c5e125a4cc07f8e9d316125da8cf6",
+  "slug": "linux-内核补丁提议为-blk-iocost-引入-bpf-成本模型",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T14:37:00Z",
+  "lang": "zh",
+  "title": "Linux 内核补丁提议为 blk-iocost 引入 BPF 成本模型",
+  "summary": "Tao Cui 提交的补丁系列（第三版 RFC）提议为 Linux 内核的 blk-iocost 块 I/O 控制器加入 BPF 支持，使 I/O 成本计算可由加载的自定义程序决定。该系列引入一种新的 struct\\_ops 程序类型 iocost\\_model\\_ops，其中核心且唯一必需的操作是 calc\\_cost\\(\\)，其参数包括请求标志 opf、请求字节数 nbytes、扇区位置 sector、发起请求的块控制组 blkcg，以及可能含 IOCOST\\_COST\\_F\\_MERGE 标志的 model\\_flags，返回值即为该请求被计入的成本；可选的 blkcg\\_online\\(\\) 与 blkcg\\_offline\\(\\) 在该控制器被加入或移出控制组时调用，供 BPF 程序做簿记。加载程序本身不会把新成本函数绑定到设备，需要向控制组目录中的 io.cost.model 文件写入结构中 16 字节的 name 来选用模型。该改动只覆盖成本计算部分，每几毫秒运行一次、负责重新分配带宽并调整设备 vtime 推进速率的规划阶段保持不变。补丁集附带一个示例程序，用 BPF map 跟踪最多四个独立 I/O 流，若请求在任一被跟踪流中看似顺序访问就按顺序请求计费，以改善含多个顺序 I/O 进程的控制组的表现。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "BPF",
+    "block I/O",
+    "I/O scheduling",
+    "blk-iocost"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1093661/",
+  "originalSite": "lwn.net",
+  "context": "blk-iocost 最初在 2019 年以 io.weight 之名被介绍，2024 年又被重新讨论；它按控制组分配块设备带宽比例，为每个 I/O 操作估算其占用的设备时间作为成本，并通过设备与控制组各自的虚拟时钟（vtime）决定何时下发请求。现有成本模型把判定为顺序的请求赋予较低成本，把看似随机的请求赋以高达 112 倍的成本，而判断随机性的启发式对不同工作负载并不总是有效。struct\\_ops 是 BPF 的一种机制，允许 BPF 程序替换内核中的一组函数指针，此前已被用于其他内核子系统。",
+  "discussion": "若该系列最终被合并，内核与存储开发者将能针对具体设备特性定制块 I/O 成本模型，而不必修改内核代码；但该工作仍处于第三版 RFC 阶段，接口自 9 月 8 日首版发布以来已大幅演进，合并前很可能继续调整。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

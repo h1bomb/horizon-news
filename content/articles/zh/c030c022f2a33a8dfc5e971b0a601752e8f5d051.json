@@ -1,0 +1,31 @@
+{
+  "id": "c030c022f2a33a8dfc5e971b0a601752e8f5d051",
+  "canonicalId": "7caf17636d424d1f85aa5e6a8606a1d41bee1849",
+  "slug": "postgresql-19-后期补丁质量引担忧新增一个-beta",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T17:29:00Z",
+  "lang": "zh",
+  "title": "PostgreSQL 19 后期补丁质量引担忧，新增一个 beta",
+  "summary": "PostgreSQL 19 原定于 2026 年 9 月发布，但在 4 月 8 日进入功能冻结后，多项后期补丁暴露出异常多的缺陷，引发开发者对发布质量的担忧。8 月 25 日，贡献者 Robert Haas 发出主题为“scary patch contest”的邮件，称他让 Claude 根据冻结后修复缺陷的数量和类型评估哪些 v19 补丁最“吓人”。被点名的包括：Amit Langote 与 Junwang Zhao 的外键快速路径补丁，冻结后约需 16 次修复，涉及跨类型、域、列顺序、可空键、非 btree 索引等五类外键约束错误，并重新设计了事务模型，其中批处理部分已从 19 移除但保留在 20 开发分支；Antonín Houska 的 REPACK 与 REPACK CONCURRENTLY 补丁累计 28 次修复，含数据丢失和两处安全相关 ACL 修复；以及 Daniel Gustafsson 与 Magnus Hagander 的在线启用或禁用数据校验和补丁，约 25 次实质性修复，包括误报校验和失败。目前至少一个补丁已被回退，多个补丁仍在密集修订，并额外增加了一个 beta 版用于测试。",
+  "score": 8,
+  "tags": [
+    "PostgreSQL",
+    "database",
+    "open source",
+    "release engineering",
+    "software quality"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1092003/",
+  "originalSite": "lwn.net",
+  "context": "PostgreSQL 每年发布一个大版本，开发周期超过一年：补丁先在 CommitFest 接受评审，随后进入功能冻结，再经过若干 beta 与候选版本，最终发布正式版（GA）。冻结后的稳定化阶段通常以缺陷修复为主，而本次争议的核心正是若干在冻结后仍需反复修正的功能是否已足够可靠。",
+  "discussion": "对于计划升级到 PostgreSQL 19 的用户和运维团队，这意味着 REPACK、在线数据校验和开关以及外键批处理等功能可能被回退或推迟，正式发布前也将多出一个 beta 测试窗口。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

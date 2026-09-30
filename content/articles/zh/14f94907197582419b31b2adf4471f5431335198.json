@@ -1,0 +1,56 @@
+{
+  "id": "14f94907197582419b31b2adf4471f5431335198",
+  "canonicalId": "43141a4db000c1bc17f6556cb850ae576ac62b5d",
+  "slug": "deepseek-v41-flash-发布552b-参数与-api-路由调整",
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-10T05:54:00Z",
+  "lang": "zh",
+  "title": "DeepSeek V4.1 Flash 发布：552B 参数与 API 路由调整",
+  "summary": "DeepSeek 发布 V4.1 Flash，称其为全新模型结构系列中最小尺寸的模型，采用 552B 参数的 Causal-Encoder-Decoder 结构，输入与输出激活参数分别为 8B 和 16B，并原生支持多模态视觉理解。该模型已上线 DeepSeek API，模型名为 deepseek-flash。新价格于 2026 年 9 月 10 日 12:00 生效；2026 年 9 月 14 日 12:00 后，deepseek-v4-pro 请求将路由至 V4.1 Flash，并按 V4.1 Flash 的价格计费。所给信息来自聚合式 Telegram/微信帖子，包含推广措辞，且没有提供官方一手来源确认，因此上述发布与计费安排仍需以 DeepSeek 官方公告为准。",
+  "score": 7,
+  "tags": [
+    "DeepSeek",
+    "large language models",
+    "model release",
+    "multimodal",
+    "API pricing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "DeepSeek 此前已发布 V4 系列模型（如 V4 Pro），据外部报道其总参数约 1.6T、推理时激活参数约 49B，属于混合专家（MoE）架构：模型虽拥有庞大规模参数，但每次推理只激活其中一小部分，以此控制算力与成本。V4.1 Flash 延续这一思路，官方称其采用新的 Causal Encoder–Decoder 架构，总参数 552B，输入侧仅激活 8B、输出侧激活 16B，从而在规模缩小的同时降低成本。官方资料还显示，该模型原生处理图像与文本并自回归生成文本，支持的上下文长度最高达 100 万 token；这也解释了为何此前使用 deepseek-v4-pro 的请求会被统一路由到这一更小、更便宜的模型。",
+  "discussion": "自 2026 年 9 月 14 日 12:00（北京时间）起，调用 deepseek-v4-pro 的请求将被自动路由至 V4.1 Flash 并按 Flash 价格计费，直至未来 V4.1 Pro 发布，这意味着既有 Pro 集成的开发者无需改动代码就会切换到另一模型，同时按更低价格结算。不过据第三方报道，该模型的基准测试数据尚未公布，实际能力差异仍需验证。",
+  "references": [
+    {
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash: Powerful 552B MoE at a Surprising Price",
+      "url": "https://www.progressiverobot.com/2026/09/10/deepseek-v4-1-flash-552b-moe-model-hugging-face/"
+    },
+    {
+      "title": "DeepSeek | Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
+      "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+    },
+    {
+      "title": "Models &amp; Pricing | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing/"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash: Pro Routing, Prices and Early Tests",
+      "url": "https://www.digitalapplied.com/blog/deepseek-v4-1-flash-pro-routing-prices-early-tests"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash: Release Date, Pricing, and Pro Routing Explained",
+      "url": "https://www.intelligentliving.co/deepseek-flash-release-pricing/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

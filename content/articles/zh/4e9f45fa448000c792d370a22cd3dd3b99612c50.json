@@ -1,0 +1,57 @@
+{
+  "id": "4e9f45fa448000c792d370a22cd3dd3b99612c50",
+  "canonicalId": "cf789b4b12a0527ab4fa514075edec0063d65769",
+  "slug": "apple-在英国撤回-icloud-高级数据保护",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T10:39:00Z",
+  "lang": "zh",
+  "title": "Apple 在英国撤回 iCloud 高级数据保护",
+  "summary": "Apple 在英国撤回 iCloud 高级数据保护（ADP），使当地用户形成两档加密——这是该分析文章的核心。受影响的英国 iCloud 数据，包括 iCloud 备份、照片、备忘录和 iCloud Drive 等原本依赖 ADP 的类别，回落到标准数据保护，Apple 保留密钥并可响应合法法律程序；iCloud 钥匙串、健康等 14 个默认端到端加密类别不受影响，而 ADP 原可把端到端加密类别总数从 14 增加到 23。文章将这一选择描述为：面对要求更改 ADP 所依赖安全架构的法律命令，Apple 选择停止提供该功能，而不是构建例外访问机制。",
+  "score": 8,
+  "tags": [
+    "UK encryption policy",
+    "Apple Advanced Data Protection",
+    "iCloud security",
+    "end-to-end encryption",
+    "privacy law"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ReturnoftheHack",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49828731"
+    }
+  ],
+  "originalUrl": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+  "originalSite": "macanorak.com",
+  "context": "Apple 于 2025 年 2 月停止向英国新用户提供 Advanced Data Protection（ADP）；已经启用该功能的英国用户则被要求在期限内自行关闭，否则无法继续使用其 iCloud 账户（tool-2-1）。此后围绕英国政府技术能力通知（Technical Capability Notice）的争议持续：有报道称英方撤回了第一份通知，随后又发出第二份针对英国用户的通知，Apple 的法律挑战一度因“情况变化”被驳回（tool-2-2）。到 2026 年 9 月，Apple 与公民自由团体围绕加密 iCloud 数据访问以及技术能力通知权力的争议又回到调查权力法庭（Investigatory Powers Tribunal）（tool-2-3）。",
+  "discussion": "评论中的主要争论是 Apple 应否拒绝英国的要求：egorfine 认为 Apple 在 2015 年敢于对抗，如今却不再敢，并称 iPhone 设置中强制的年龄确认（部分国家还涉及 KYC）说明其立场已松动；Hasz 则表示自己购买 MacBook 的部分原因正是 Tim Cook 当年公开拒绝 FBI 的后门要求，希望 Apple 退出英国市场并停止向英国政府提供服务。spr-alex 反驳“撤回 ADP 不影响默认 14 个端到端加密类别”的说法，称英国用户的端到端加密密钥在常见使用场景下仍可能暴露；codedokode 则指出政府可以要求创建后门并禁止披露，实质上等同于禁止端到端加密。",
+  "references": [
+    {
+      "title": "Apple Advanced Data Protection and the UK Technical ...",
+      "url": "https://cunicula.com/en/articles/uk-apple-adp-technical-capability-notice"
+    },
+    {
+      "title": "PI Apple TCN Challenge | Privacy International",
+      "url": "https://privacyinternational.org/legal-action/pi-apple-tcn-challenge"
+    },
+    {
+      "title": "Apple Data Access Fight Reaches UK Tribunal | Lawyer Monthly",
+      "url": "https://www.lawyer-monthly.com/2026/09/apple-data-access-secrecy-challenged-at-uk-tribunal/"
+    },
+    {
+      "title": "Apple can no longer offer Advanced Data Protection in the United Kingdom to new users - Apple Support",
+      "url": "https://support.apple.com/en-us/122234"
+    },
+    {
+      "title": "Apple pulls data protection tool after UK government security row - BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cgj54eq4vejo"
+    },
+    {
+      "title": "Apple pulls Advanced Data Protection in UK, sparking concerns | TechTarget",
+      "url": "https://www.techtarget.com/cybersecurity/news/366619638/Apple-pulls-Advanced-Data-Protection-in-UK-sparking-concerns"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

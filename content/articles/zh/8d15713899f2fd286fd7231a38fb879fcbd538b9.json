@@ -1,0 +1,41 @@
+{
+  "id": "8d15713899f2fd286fd7231a38fb879fcbd538b9",
+  "canonicalId": "8545341ecba92f72ffbfc1f2a7b6e1e2c07be3a0",
+  "slug": "逆向工程演示劫持-ps5-的-rtmp-串流",
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-28T15:35:00Z",
+  "lang": "zh",
+  "title": "逆向工程演示：劫持 PS5 的 RTMP 串流",
+  "summary": "一篇新的逆向工程文章展示了如何拦截并重定向 PS5 的 RTMP 串流：通过找出并替换其 RTMP\\(S\\) 端点，向原本的推流路径注入自定义输出。该文发布到 Hacker News 后，评论者质疑相关数据在 2026 年仍可能以未加密方式传输，并指出文章从 RTMPS 到明文 RTMP、以及从找出真实主机名到串流出现在 YouTube 之间存在步骤缺失。评论还提到，Lightstream 曾用类似方式为主机提供串流叠加，微软后来将其纳入官方目标并改用更好的协议。该演示属于小众的主机串流逆向，并非已独立验证的通用漏洞或官方能力。",
+  "score": 7,
+  "tags": [
+    "reverse engineering",
+    "RTMP/streaming protocols",
+    "console hacking",
+    "network security",
+    "man-in-the-middle"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49879702"
+    }
+  ],
+  "originalUrl": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+  "originalSite": "yashgarg.dev",
+  "context": "RTMP 是游戏主机向 Twitch、YouTube 等平台推流时常用的传输协议，要替换或叠加画面，就必须在主机与平台之间接管这条流。第三方云服务此前已用类似思路实现主机直播定制：Lightstream Studio 提供面向 Xbox 和 PlayStation 的云端采集推流，其文档称叠加图形延迟低于 500 毫秒，并设有 RTMP 目的地功能，用于向平台原生支持之外的平台推流（tool-2-1、tool-2-2）。本次做法则是直接针对 PS5 自身的推流路径，拦截并改写其 RTMP\\(S\\) 端点以注入自定义输出。",
+  "discussion": "对想在主机推流中加入自定义叠加的开发者或用户而言，这篇演示给出的可行路径是本地端点重定向；但 barake 提到 Lightstream 已用类似 MITM 方式产品化，微软后来也将其作为官方目标并改用更好协议。这意味着类似功能如今更应优先考虑官方集成，而不是复制这种劫持路径。\n\nHN 评论中，londons\\_explore 质疑 2026 年这些数据仍走未加密传输，并担忧协议攻击面；barake 则指出 Lightstream 早就用类似方式做主机串流叠加，微软后来把它纳入官方目标并使用更好协议。另有 jprjr\\_ 和 mixdup 表示文章存在步骤缺失：作者先提到 PS5 使用 RTMPS 推流到 Twitch，随后却变成明文 RTMP，且从找出真实主机名到串流在 YouTube 出现之间没有交代清楚。",
+  "references": [
+    {
+      "title": "What is an RTMP destination in Lightstream Studio? – Lightstream",
+      "url": "https://support.golightstream.com/hc/en-us/articles/39317411572761-What-is-an-RTMP-destination-in-Lightstream-Studio"
+    },
+    {
+      "title": "Lightstream Studio - Personalize Xbox &amp; PlayStation streams",
+      "url": "https://golightstream.com/gamer/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "a92ff8124d40d6d95cba5092681b264e867b1a29",
+  "canonicalId": "094f19f81d08dbafb40a145aeaf6a3558801aebe",
+  "slug": "wordpress-修复-get-page-template-未认证-rce-漏洞",
+  "date": "2026-09-24",
+  "publishedAt": "2026-09-23T13:55:00Z",
+  "lang": "zh",
+  "title": "WordPress 修复 get\\_page\\_template\\(\\) 未认证 RCE 漏洞",
+  "summary": "WordPress 披露了页面模板解析函数 get\\_page\\_template\\(\\) 中的一个严重漏洞，在特定受限条件下，未经认证的攻击者可能借此实现远程代码执行（RCE）。项目已为最新分支提供更新，并把修复回溯到 4.7 及之后的各分支；漏洞报告列出了触发 RCE 所需的具体条件。该漏洞同样影响 WordPress 的分支项目 ClassicPress，但后者尚未发布安全更新。LWN 建议这两个内容管理系统的用户尽快升级。",
+  "score": 7,
+  "tags": [
+    "WordPress",
+    "remote code execution",
+    "security vulnerability",
+    "open source CMS",
+    "ClassicPress"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096195/",
+  "originalSite": "lwn.net",
+  "context": "get\\_page\\_template\\(\\) 是 WordPress 核心中负责页面模板解析的函数：当访客请求一个页面时，核心依赖它决定加载哪个模板文件来渲染内容，因此该函数处于未认证请求可直接触达的代码路径上。此次修复被回迁到 4.7 分支，意味着受影响范围覆盖从 4.7 起直至最新版的多个长期维护分支。ClassicPress 是 WordPress 的分支项目，与 WordPress 共享这部分核心代码，因而同样受该漏洞影响，但当时尚未发布相应的安全更新。",
+  "discussion": "对站点运营者而言，直接的后果是必须立即升级 WordPress：修复已覆盖最新分支，并回移植到 4.7 以来的各分支，未打补丁的站点会因为 get\\_page\\_template\\(\\) 的模板解析问题而暴露在无需认证的请求下。外部漏洞库将这一漏洞编号为 CVE-2026-87902，并将该路径遍历/本地文件包含问题评为 CVSS 9.2，称攻击者可让受影响版本包含活动主题之外可读的本地 PHP 文件。ClassicPress 分支同样受影响，但截至公告时尚未提供安全更新，因此该分支用户目前只能等待上游修复或自行采取临时缓解措施。",
+  "references": [
+    {
+      "title": "CVE-2026-87902: A working PoC for WordPress&#x27;s critical path ...",
+      "url": "https://hadrian.io/vulnerability-alerts/cve-2026-87902-working-poc-wordpress-critical-path-traversal"
+    },
+    {
+      "title": "CVE-2026-87902: WordPress: An unauthenticated ... - Rapid7",
+      "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-87902/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

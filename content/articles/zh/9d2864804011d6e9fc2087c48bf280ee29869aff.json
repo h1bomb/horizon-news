@@ -1,0 +1,40 @@
+{
+  "id": "9d2864804011d6e9fc2087c48bf280ee29869aff",
+  "canonicalId": "e67dfc736323ddbfc70348964fc63f06534f9b38",
+  "slug": "阿里发布真武-v900-ai-芯片宣称算力为-m890-三倍",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T03:30:00Z",
+  "lang": "zh",
+  "title": "阿里发布真武 V900 AI 芯片，宣称算力为 M890 三倍",
+  "summary": "在 2026 云栖大会上，阿里平头哥发布 AI 芯片真武 V900，宣称算力达到上一代真武 M890 的 3 倍，单一集群可扩展至 50 万卡。阿里 CEO 吴泳铭称，自研 M890 超节点已支撑 2 万亿参数大模型推理，本季度将规模化上架阿里云。他同时表示 Qwen 计划训练 5 至 10T 参数的新模型，目标是到 2032 年阿里云全球数据中心规模超过 20GW。上述算力倍数、集群规模和上架计划均为阿里方面公布的说法，未提供技术架构细节或独立基准测试结果。",
+  "score": 7,
+  "tags": [
+    "AI chips",
+    "Alibaba",
+    "cloud infrastructure",
+    "large language models",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://finance.sina.com.cn/stock/bxjj/2026-09-22/doc-inissitf7048094.shtml",
+  "originalSite": "finance.sina.com.cn",
+  "context": "真武 M890 是平头哥的上一代 AI 芯片，阿里称基于它的超节点已能支撑 2 万亿参数大模型推理，并将在本季度规模化上架阿里云，V900 则是其后续型号；据赢政天下报道，V900 配备 216GB 显存与 1200GB/s 片间互联带宽，搭载它的磐久超节点服务器计划 2027 年第一季度量产，也就是说发布会当时尚未出货。模型规模方面也有可对照的进展：Horizon 8 月 17 日的日报曾报道 Qwen 发布 Apache 2 许可的 27B 参数模型 Qwen 3.8 27B，而此次阿里提出的新目标是训练 5 至 10T 参数级别的 Qwen 模型。",
+  "discussion": "对使用阿里云的开发者和模型团队来说，可预期的近期变化是 M890 超节点本季度在阿里云规模化上架，从而提供 2 万亿参数级模型的推理能力。但 V900 的 3 倍算力只是与自家 M890 的对比宣称，且缺少架构披露与第三方验证，选型时不宜将其直接当作对其他厂商芯片的 3 倍优势。",
+  "references": [
+    {
+      "title": "2026-08-17 — Qwen 3.8 27B 能力出色，但默认过度思考需调低推理档位",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+    },
+    {
+      "title": "阿里平头哥发布真武V900：性能三倍跃升，量产等到2027年 | 赢政天下 A...",
+      "url": "https://www.yingzheng.com/article/alibaba-pingtouhe-zhenwu-v900-ai-chip-launch-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

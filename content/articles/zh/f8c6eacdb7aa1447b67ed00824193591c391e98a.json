@@ -1,0 +1,31 @@
+{
+  "id": "f8c6eacdb7aa1447b67ed00824193591c391e98a",
+  "canonicalId": "1f165f82a56ba8ec68fbc4933b700652908fdb91",
+  "slug": "用-aiperf-在-vllm-上规模化基准测试-llm-推理",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T19:04:00Z",
+  "lang": "zh",
+  "title": "用 AIPerf 在 vLLM 上规模化基准测试 LLM 推理",
+  "summary": "rss · NVIDIA Inference Performance Blog · 9月18日 19:04\n\n**「背景」** 模型部署起来后，判断“够不够快”并不容易：发 curl、手写 asyncio 脚本或临时拼一个压测器，都受单进程与 Python GIL 限制，参照系还是自建的，结果难以取信，需求一变工具又得重写。\n\n**「方案」** NVIDIA 的 AIPerf 是 GenAI-Perf 的继任者，从零重写、不再架在 Perf Analyzer 之上。作者称其关键设计是让客户端不成为瓶颈：多进程架构由 worker 进程产生负载、独立记录服务处理结果、以 ZMQ 协调；它支持 15+ 端点类型、ShareGPT 等数据集以及 Mooncake、Baseten、WEKA（AgentX）等轨迹回放，并提供恒定、Poisson、gamma 到达模式与 vLLM/SGLang range-ratio 等合成分布。作者以 Qwen3-0.6B + vLLM 演示测量闭环：静态跑用 stddev 0 把输入输出固定为 128/128 令牌，配 min\\_tokens 与 ignore\\_eos 确保真的生成 128 个令牌，--streaming 才能测到 TTFT 与 ITL；再改用 Poisson 到达（--request-rate 10、指数间隔）、512±128 输入、128±32 输出和 --random-seed 42 保证可复现。指标含 TTFT、ITL、请求延迟与输出令牌吞吐，均给出 p25–p99 分位及最值、均值、标准差，并可借 DCGM/pynvml 关联 GPU 功耗、利用率与显存。作者报告 Poisson 下输入长度在 154–818 令牌间波动、TTFT 分布明显变宽，并指出单并发只是理想化情形，TTFT 最低却牺牲吞吐。\n\n**「启示」** 作者的核心论点是：可信的推理基准取决于客户端不成为瓶颈、负载形状贴近真实流量，并用分位数而非均值暴露长尾；但文中未给出实测数字，架构优势仍属厂商主张，需独立验证。\n\n**标签**: `#LLM inference benchmarking`, `#AIPerf`, `#vLLM`, `#latency metrics`, `#Poisson load patterns`",
+  "score": 5,
+  "tags": [
+    "LLM inference benchmarking",
+    "AIPerf",
+    "vLLM",
+    "latency metrics",
+    "Poisson load patterns"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+  "originalSite": "developer.nvidia.com",
+  "context": "模型部署起来后，判断“够不够快”并不容易：发 curl、手写 asyncio 脚本或临时拼一个压测器，都受单进程与 Python GIL 限制，参照系还是自建的，结果难以取信，需求一变工具又得重写。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "1265d8e69add80431f135b035ef1d0509b80228f",
+  "canonicalId": "bf5dba8048fd7a78710000420ddca1fcfe34e8b9",
+  "slug": "hister为浏览页面和本地文件建立私有索引的开源搜索引擎",
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-17T16:25:00Z",
+  "lang": "zh",
+  "title": "Hister：为浏览页面和本地文件建立私有索引的开源搜索引擎",
+  "summary": "Hister 是一个开源的个人搜索引擎，由 Searx 创建者 asciimoo 发布；它会从访问过的页面、书签、浏览器历史、本地文件以及抓取的网站建立个人索引，并以离线预览形式保存已提取的内容。作者称这样可让信息在原始页面不可用时仍可搜索，但当前材料未提供基准测试、版本号或成熟度细节。该项目在 Hacker News 上获得 417 分和 124 条评论，讨论集中在实际工作流、索引范围和打包信任问题。",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "search-engine",
+    "open-source",
+    "local-first",
+    "personal-knowledge-management"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bookofjoe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49743097"
+    }
+  ],
+  "originalUrl": "https://github.com/asciimoo/hister",
+  "originalSite": "github.com",
+  "context": "Hister 的作者 asciimoo 此前创建了隐私元搜索引擎 Searx；他在讨论中说明，正是因为元搜索依赖第三方引擎、无法索引用户自己的内容，他才转向自建个人索引这条路线。按照项目页面的描述，Hister 索引访问过的页面与本地文件的完整内容，可通过网页界面、终端或经 MCP 连接的 AI 助手检索（tool-2-2）。另有评论者指出，Chrome 早在 2008 年就提供过对全部访问页面的离线全文搜索，约在 2013 年因技术限制被移除，此后类似能力长期缺位——这属于评论者回忆，而非项目方或工具结果的确认。",
+  "discussion": "评论者 jval43 指出 Chrome 早在 2008 年就提供过对访问页面全文的离线搜索，并在约 2013 年因技术限制移除，表示会尝试 Hister；rao-v 则希望增加“标签页可见约 4 秒以上才收录”的设置，以免快速浏览的页面污染索引。computator 表达了对未经其 Linux 发行版审核打包的软件持谨慎态度，即使风险仅 1%。",
+  "references": [
+    {
+      "title": "GitHub - asciimoo/hister: Your own search engine · GitHub",
+      "url": "http://github.toolset.workers.dev/asciimoo/hister"
+    },
+    {
+      "title": "History Index files removed from Chrome v30 - dfir.blog",
+      "url": "https://dfir.blog/history-index-files-removed-from-chrome-v30/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

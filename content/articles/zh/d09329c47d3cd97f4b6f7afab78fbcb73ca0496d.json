@@ -1,0 +1,31 @@
+{
+  "id": "d09329c47d3cd97f4b6f7afab78fbcb73ca0496d",
+  "canonicalId": "3e4ee3d2249833946410173dea9eb2a82019c25c",
+  "slug": "python-指导委员会暂停-cpython-jit-新开发等待-pep-获接受",
+  "date": "2026-09-02",
+  "publishedAt": "2026-09-01T14:40:00Z",
+  "lang": "zh",
+  "title": "Python 指导委员会暂停 CPython JIT 新开发，等待 PEP 获接受",
+  "summary": "Python 指导委员会已宣布，在指导委员会接受相关 PEP 之前，CPython 主分支不再接收 JIT 编译器的新开发，仅保留 bug 和安全修复。这项决定源于 JIT 长期以非正式状态推进：Python 3.13 在 2024 年以实验特性加入 JIT，依据的是信息类 PEP 744，而非具有约束力的标准流程 PEP。为回应委员会要求，社区已提出 PEP 836（“JIT Go Brrr: The Path to a Supported JIT Compiler for CPython”），目前正在讨论中。委员会给出六个月窗口，若届时没有 PEP 被接受，JIT 代码将被移出主分支，开发只能在该仓库之外继续。Python 3.15 仍以实验特性提供 JIT 并包含主要更新，但其在 Python 3.16（2027 年）中默认启用的目标现在存在不确定性。",
+  "score": 7,
+  "tags": [
+    "Python",
+    "JIT",
+    "CPython",
+    "performance",
+    "steering council"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1090385/",
+  "originalSite": "lwn.net",
+  "context": "CPython 社区通过 Python 增强提案（PEP）提出和记录重大变更；标准流程 PEP 代表社区共识并具有约束力，而信息类 PEP 仅提供参考。JIT 编译器在 2024 年 1 月由 Brandt Bucher 合入，之后才产生信息类 PEP 744，因此委员会希望以标准流程 PEP 为 JIT 的长期维护、兼容性、架构稳定性和可衡量指标提供明确承诺。",
+  "discussion": "该暂停直接影响希望向 CPython 主分支合入 JIT 改进的核心开发者，并让依赖 Python 性能路线图的团队必须等待 PEP 836 的审议结果。若六个月内 PEP 未获接受，JIT 开发将被迫转移到 CPython 仓库外，3.16 默认启用 JIT 的计划可能无法实现。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

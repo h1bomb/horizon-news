@@ -1,0 +1,41 @@
+{
+  "id": "55efbd98d7215fc5c7ee1c214b4123c5a63530e3",
+  "canonicalId": "185ddb0abcfc6b08da60c0e454dca6b9220f67e5",
+  "slug": "whiteboard人类与编码智能体共同设计的开源-ide",
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-24T17:21:00Z",
+  "lang": "zh",
+  "title": "Whiteboard：人类与编码智能体共同设计的开源 IDE",
+  "summary": "Whiteboard 是一个以 MIT 许可开源的桌面应用，支持 macOS 与 Linux，让人类和编码智能体在同一画布上共同设计软件：它接入 Claude Code、Codex 等工具，并为智能体提供 SDK，让其在应用内画布上绘制时序图、ER 图等图示。应用基于 CodeOSS 构建，点击图示元素或智能体轨迹片段可直接跳转到对应代码，并自带用 Rust 编写的 AST 语义 diff 查看器（diffr，默认把大函数摘要为伪代码、折叠单测和大段文档改动）以及记录智能体自主决策的 Decision Log。团队称 Salesforce、Modal 等公司已把它用作架构或规格级变更的评审工具，但这属于厂商说法；当前版本仍是早期 MVP，用户无法在 Whiteboard 内编辑文件。团队计划未来对托管网页版（负责会议创建、轨迹存储、多人评审）收费，同时承诺一切始终可自托管。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "developer tools",
+    "software architecture",
+    "open source",
+    "IDEs"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sidharthkmenon",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49833867"
+    }
+  ],
+  "originalUrl": "https://github.com/devdotfast/whiteboard",
+  "originalSite": "github.com",
+  "context": "Whiteboard 团队把自身要解决的问题归因于「认知债务」（cognitive debt），并在帖子里明确把这一说法归功于 Notion 设计工程师 Geoffrey Litt 于 2026 年 7 月发表的演讲/文章《Understanding is the new bottleneck》；该文主张在智能体辅助开发中，瓶颈已从代码生成转向人类对系统的理解，因为「理解才能参与」，把理解外包出去就会失去提出新想法的能力（tool-2-1、tool-2-2）。Whiteboard 试图用可视化画布、图与代码互跳以及决策日志来应对这一瓶颈，而其早期形态是基于 HTML 产物的 MVP，团队称正是因为难以把规格/示意图与代码关联起来才改用 CodeOSS 底座重新实现。",
+  "discussion": "对希望把它当编辑器用的人来说，限制很明确：Whiteboard 目前不能编辑文件，官方只是建议有需求就提 issue，其定位更接近与 Greptile 等自动评审工具配合、把需要人工判断的改动“升级”为画布会话的评审界面。由于基于 CodeOSS，代码导航的键位绑定与 LSP 支持开箱即用，降低了上手成本，但安装包目前只覆盖 macOS 和 Linux；语义 diff 的默认折叠行为可通过 WASM 插件系统自定义。\n\n评论者 icar 指出当前无法在 Whiteboard 中编辑文件，并追问这样是否还能算 IDE；tnspacetime 则认为语义 diff 查看器的方向很有价值，很多编码工具在这方面做得还不够好，另有评论者对画布式的高层架构协作给出了正面评价。8organicbits 对图示准确性提出具体质疑：示例中“no”分支后回到 session service 的“wait for release”标签在展示的 diff 里找不到对应，并担心 LLM 开发工具会画出并不存在的结构。",
+  "references": [
+    {
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck"
+    },
+    {
+      "title": "Understanding is the new bottleneck | AI Engineer",
+      "url": "https://ai.engineer/talks/understanding-is-the-new-bottleneck"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

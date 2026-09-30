@@ -1,0 +1,31 @@
+{
+  "id": "5928ec8f6a918c0513c9af500e5e0b2388916473",
+  "canonicalId": "84a222ae95f1c442d0e2590f22345602fc9faa2a",
+  "slug": "llm-评估从黄金数据集到-llm-裁判",
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-14T15:31:00Z",
+  "lang": "zh",
+  "title": "LLM 评估：从黄金数据集到 LLM 裁判",
+  "summary": "rss · ByteByteGo · 9月14日 15:31\n\n**「背景」** LLM 应用和普通软件一样要测试，但输出非确定、质量多维且依赖上下文，无法用“输入相同就必须输出相同”的传统断言判断。作者因此主张从正确性、安全、速度、可靠性和成本等维度评估，并区分模型问题与提示、检索、工具调用或数据问题。\n\n**「方案」** 文章把“LLM-as-a-Judge”放回完整评估栈中。底层是权限、schema、数据库写入等确定性软件测试；其上用黄金数据集提供可重复场景，案例应涵盖常见请求、高风险错误、歧义、缺资料、恶意注入、边界情况和历史失败，并划分开发集与保留集。自动指标负责 JSON、必填字段、精确值、引用结构和时延等快速但狭窄的检查；BLEU/ROUGE 和语义相似度只衡量词面或语义接近，不能等同正确。LLM 裁判按评分标准评估相关性、事实支持、完整性和指令遵循，可用 1-5 分、通过/失败、成对比较和错误识别；成对比较更易做但需交换顺序以缓解位置偏差，评分制则要写清每一档含义。人工评审用于校准裁判、处理高风险或主观案例，并先测量评审者一致性；生产监控和把线上新失败加入测试集形成闭环。\n\n**「启示」** 作者的核心结论是，评估不是寻找一个完美准确率，而是建立信心：在真正重要的场景中，整个应用是否持续准确、有用、安全、可靠、快速且可负担，并有证据发现变化。\n\n**标签**: `#LLM evaluation`, `#LLM-as-a-judge`, `#golden datasets`, `#RAG evaluation`, `#AI observability`",
+  "score": 6,
+  "tags": [
+    "LLM evaluation",
+    "LLM-as-a-judge",
+    "golden datasets",
+    "RAG evaluation",
+    "AI observability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/llms-as-a-judge-how-to-know-if-your",
+  "originalSite": "blog.bytebytego.com",
+  "context": "LLM 应用和普通软件一样要测试，但输出非确定、质量多维且依赖上下文，无法用“输入相同就必须输出相同”的传统断言判断。作者因此主张从正确性、安全、速度、可靠性和成本等维度评估，并区分模型问题与提示、检索、工具调用或数据问题。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

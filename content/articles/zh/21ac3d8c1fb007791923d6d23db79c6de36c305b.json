@@ -1,0 +1,36 @@
+{
+  "id": "21ac3d8c1fb007791923d6d23db79c6de36c305b",
+  "canonicalId": "bf2ea8abc504ecbb8e01c33f450a0872e2fda822",
+  "slug": "cloudflare-python-workers-正式-ga成为平台一级语言",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T04:00:00Z",
+  "lang": "zh",
+  "title": "Cloudflare Python Workers 正式 GA，成为平台一级语言",
+  "summary": "Cloudflare 于 9 月 21 日宣布 Python Workers 正式全面可用（GA），Python 由此成为其开发者平台上的一级支持语言，可直接接入 Workers AI、R2、D1 等服务。GA 后运行时原生支持 FastAPI、Django、Flask 等框架，并新增底层网络能力，可在 Workers 内直接运行 PostgreSQL 等数据库以及 LangChain 等 AI 库。该功能两年前推出，此次公告本身较为简短，未给出性能数据、运行时限制或迁移细节。",
+  "score": 8,
+  "tags": [
+    "Cloudflare Workers",
+    "Python",
+    "serverless",
+    "edge computing",
+    "LangChain"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/python-workers-ga/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Cloudflare 早前为 Workers 引入 Python 时依赖 Pyodide 和 WebAssembly，只能运行由 Pyodide 提供的一部分 Python 包，例如 numpy、httpx、FastAPI 和 Langchain（tool-2-2）。这一早期方案的包支持范围有限，正是此次 GA 声明所针对的起点。",
+  "discussion": "对 Python 开发者而言，GA 意味着在 Cloudflare 的边缘/serverless 平台上可以用 Python 而非仅 JavaScript/TypeScript 编写 Workers，并复用 FastAPI、Django、Flask 等既有框架及 LangChain、PostgreSQL 客户端等库。但公告未说明运行时限制、依赖兼容性和从早期版本迁移的具体条件，计划上线的团队仍需自行核实目标框架与库在 Workers 运行时中的实际支持情况。",
+  "references": [
+    {
+      "title": "Bringing Python to Workers using Pyodide and WebAssembly | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/python-workers/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

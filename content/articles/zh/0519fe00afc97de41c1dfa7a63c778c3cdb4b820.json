@@ -1,0 +1,49 @@
+{
+  "id": "0519fe00afc97de41c1dfa7a63c778c3cdb4b820",
+  "canonicalId": "fee1ad50a626385e218406c7d77a1ebf830e6087",
+  "slug": "把-20-美元-4g-热点改造成可收发短信的设备",
+  "date": "2026-09-16",
+  "publishedAt": "2026-09-15T13:20:00Z",
+  "lang": "zh",
+  "title": "把 20 美元 4G 热点改造成可收发短信的设备",
+  "summary": "一位开发者将售价约 20 美元的 4G 无线热点改造成可以收发短信的设备，并把改造过程发布在项目页面上。该作品属于嵌入式硬件 DIY 方向，涉及 4G LTE 模块与嵌入式 Linux，目标是让廉价热点承担类似「傻瓜手机」的短信与验证码查看功能。社区评论中，有人表示自己刚买了约 10 美元的 4G 上网棒，打算拆开查看内部结构，并指出部分基于 MSM8916 的上网棒虽然没有显示屏却仍运行 Android 界面。还有评论建议加装可容纳两节并联 18650 电池的电池仓以显著延长续航，并认为复用 Clicks 键盘是巧妙的设计，成品可视为一台体积不大的「赛博甲板」（cyberdeck）。讨论普遍把实用场景落在用低成本硬件替代手机处理短信与 OTP 验证码。",
+  "score": 7,
+  "tags": [
+    "hardware-hacking",
+    "4g-lte",
+    "embedded-linux",
+    "open-source",
+    "diy-electronics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bobili1234",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49712102"
+    }
+  ],
+  "originalUrl": "https://bkovac.github.io/modem-thing/",
+  "originalSite": "bkovac.github.io",
+  "context": "近年来市场上出现大量基于高通 MSM8916 芯片组的廉价 4G 热点与上网棒，它们通常内置 WiFi、蓝牙、电池和存储，整机价格可低至 4 至 20 美元，因而成为硬件爱好者拆解和改造的对象。这类设备原本只提供上网功能和网页管理界面，但社区已为其移植基于 postmarketOS 内核的 OpenStick 等第三方固件，使其能运行更通用的 Linux 环境，从而支持外接显示、键盘等扩展。本次改造正是把这种廉价热点与 Clicks 键盘、Sharp 记忆液晶屏组合起来，做成可以收发短信的便携设备。",
+  "discussion": "对于希望用廉价 4G 热点替代手机处理短信和 OTP 验证码的用户，这类改造提供了一条成本极低、可自行复现的路径，但其续航、稳定性与硬件兼容性仍取决于具体热点型号，尚需更多实际使用验证。\n\n评论总体认可项目思路，讨论集中在硬件细节与用途：有人计划拆解自己约 10 美元的 4G 上网棒，有人建议并联两节 18650 电池来延长续航，也有用户表示平时就用热点代替手机上网，只是查看短信和 OTP 不便。另有评论设想在这类设备上运行 AI 代理系统，前提是 OpenStick 构建有足够的 RAM 和存储。",
+  "references": [
+    {
+      "title": "Converting a $20 4G wireless hotspot into a texting device",
+      "url": "https://blog.adafruit.com/2026/09/15/converting-a-20-4g-wireless-hotspot-into-a-texting-device/"
+    },
+    {
+      "title": "Converting a $20 4G wireless hotspot into a texting device",
+      "url": "https://vuink.com/post/oxbinp-d-dtvguho-d-dvb/modem-thing"
+    },
+    {
+      "title": "How To: OpenStick - Dmitry Brant",
+      "url": "https://dmitrybrant.com/openstick"
+    },
+    {
+      "title": "Talking of cheap and powerful devices one can also look at Chinese UZ801 4G LTE ...",
+      "url": "https://news.ycombinator.com/item?id=45250676"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

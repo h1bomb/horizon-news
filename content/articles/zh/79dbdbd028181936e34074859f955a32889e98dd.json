@@ -1,0 +1,52 @@
+{
+  "id": "79dbdbd028181936e34074859f955a32889e98dd",
+  "canonicalId": "5f7f4a10dc871f5b2dee58a7227fe17d9868ce48",
+  "slug": "openai-开发者大会据称推出-dots-常驻智能体与-gpt-61-系列",
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-29T17:52:00Z",
+  "lang": "zh",
+  "title": "OpenAI 开发者大会据称推出 dots 常驻智能体与 GPT-6.1 系列",
+  "summary": "一则 Telegram 汇总称，OpenAI 在开发者大会 DevDay 2026 上推出 20 余项更新，包括可全天候自主运转、深入学习用户习惯并主动接管长线复杂工作的常驻智能体 Dots，以及 GPT-6.1 Sol 和 Astra Ultrafast 模型。开发者侧还提到 Codex 登陆云端并支持语音操控与自动修障、原生开放电脑操控并支持 AWS Bedrock 托管的 Agents API，以及面向 Luna 模型能力的轻量实时决策接口 Decisions API（用于文本/图像输入下的有限选项分类、路由与 Agent 动作决策）。生态方面称推出 “Sign in with ChatGPT”，可将订阅额度划拨至 Devin、Notion 等第三方工具；套餐方面则有新 Pro 500 档位，算力额度据称为 Plus 的 25 倍并专享 Astra Ultrafast，后者速度最高为标准版 Astra 的 8 倍，而 GPT-6.1 Sol 被描述为以五分之一的价格达到接近 Astra 的智能水平。上述内容均出自二手汇总，未提供独立验证、具体价格、上线时间或兼容性说明，应视为发布方的主张而非已证实的已交付能力。",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "AI agents",
+    "GPT-6.1",
+    "developer APIs",
+    "AI industry news"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/zh-Hant/index/devday-2026-recap/",
+  "originalSite": "openai.com",
+  "context": "Horizon 9 月 4 日的日报曾报道 OpenAI 发布旗舰模型 GPT-6 Astra 并随附部署安全系统卡，当时将其定位为下一代完整模型版本而非点版本更新；本次 DevDay 提到的 Astra Ultrafast 与 Pro 500 专享的加速能力，即建立在这一 Astra 之上。9 月 23 日的日报还报道过 GPT-6 系列 Sol 与 Luna 两款模型的发布，但当时公告正文缺失，参数规模、上下文长度、定价、可用范围等均未获确认；本次的 GPT-6.1 Sol 与 Decisions API 所依托的 Luna 与它们名称对应，属同一产品线的后续版本，其具体能力目前仍主要来自厂商与二手汇总的说法。",
+  "discussion": "对于希望把智能体跑在自有云环境中的开发者，Agents API 可经由 Bedrock Managed Agents 直接在 AWS 上运行，并使用 AWS 的鉴权与执行环境，而不必依赖 OpenAI 侧的托管运行时。不过该托管方式在 DevDay 2026 上仅以限量预览（limited preview）形式推出，团队在接入前需要先具备相应的 AWS 与 Bedrock 配置。",
+  "references": [
+    {
+      "title": "2026-09-23 — OpenAI 发布 GPT-6 Sol 与 Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    },
+    {
+      "title": "2026-09-04 — OpenAI 发布 GPT-6 Astra，系统卡与基准讨论同步展开",
+      "url": "https://openai.com/index/gpt-6-astra/"
+    },
+    {
+      "title": "Bedrock Managed Agents | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/bedrock-managed-agents"
+    },
+    {
+      "title": "OpenAI frontier models on Amazon Bedrock – AWS",
+      "url": "https://aws.amazon.com/bedrock/openai/"
+    },
+    {
+      "title": "OpenAI’s agents can now run entirely inside Amazon’s cloud",
+      "url": "https://thenextweb.com/news/openai-bedrock-managed-agents-aws-devday"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

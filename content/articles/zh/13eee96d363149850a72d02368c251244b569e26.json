@@ -1,0 +1,48 @@
+{
+  "id": "13eee96d363149850a72d02368c251244b569e26",
+  "canonicalId": "f3600c5021feea3dd288a672591d06ba8f7fa127",
+  "slug": "homebrew-700-发布官方-macos-图形界面与安全增强",
+  "date": "2026-09-14",
+  "publishedAt": "2026-09-13T11:23:00Z",
+  "lang": "zh",
+  "title": "Homebrew 7.0.0 发布：官方 macOS 图形界面与安全增强",
+  "summary": "Homebrew 发布 7.0.0 版本，重点提升安装与升级速度，并引入更严格的沙箱保护、内置漏洞检查与安全公告数据库，同时首次提供官方 macOS 原生图形界面。该版本在平台支持上作出较大调整：停止支持 macOS 10.15 及更早版本，Intel Mac 被调整为 Tier 3，不再提供新的预编译包。Linux 方面，沙箱机制由 Bubblewrap 改用 Landlock。这些变化意味着使用较旧 macOS 或 Intel Mac 的用户需要自行从源码构建，安全性与易用性提升则以牺牲旧平台便利性为代价。",
+  "score": 8,
+  "tags": [
+    "Homebrew",
+    "package management",
+    "macOS",
+    "open source",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+  "originalSite": "brew.sh",
+  "context": "Homebrew 是 macOS 和 Linux 上广泛使用的开源包管理器，主要通过命令行公式（formula）和 cask 安装与管理软件，本次发布的 7.0.0 是继 6.0.0 之后的又一主要版本。Homebrew 以 Tier 分级表示各平台的支持程度，被列为 Tier 3 通常意味着支持力度较低，这也是 Intel Mac 在新预编译包方面受限的背景。在 Linux 上，Homebrew 此前依赖 Bubblewrap 实现沙箱，而 Landlock 是 Linux 内核提供的非特权沙箱机制，可用于限制进程对环境资源的访问权限。",
+  "discussion": "对仍在使用 Intel Mac 的开发者而言，其平台已从原先的预编译支持层级降为 Tier 3，不再获得新的预编译包（bottle），只能自行从源码构建或依赖其他渠道，安装与升级成本随之上升；而运行 macOS 10.15 及更早版本的用户则完全失去官方支持。Linux 端沙箱由 Bubblewrap 改为 Landlock，也可能影响相关环境的兼容性。",
+  "references": [
+    {
+      "title": "Homebrew : 7 . 0 . 0",
+      "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/"
+    },
+    {
+      "title": "Landlock : Unprivileged Sandboxing — Landlock documentation",
+      "url": "https://landlock.io/"
+    },
+    {
+      "title": "Homebrew : 7 . 0 . 0",
+      "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/"
+    },
+    {
+      "title": "Homebrew 7 . 0 . 0 lands with a native Mac app and a vulnerability...",
+      "url": "https://pasqualepillitteri.it/en/news/16056/homebrew-7-mac-app-vulns-intel-tier-3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

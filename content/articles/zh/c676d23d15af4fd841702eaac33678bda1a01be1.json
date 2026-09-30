@@ -1,0 +1,40 @@
+{
+  "id": "c676d23d15af4fd841702eaac33678bda1a01be1",
+  "canonicalId": "1513f8fdbad12de76d2a7397aa929ddb788e43e1",
+  "slug": "openai-拟让外部机构更早介入模型安全评估",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T17:39:00Z",
+  "lang": "zh",
+  "title": "OpenAI 拟让外部机构更早介入模型安全评估",
+  "summary": "据 Bloomberg 报道，OpenAI 计划允许第三方机构在模型训练、评估和发布的更早阶段开展技术安全评估，并将在周二通过博客文章公布相关安排。此前这类评估多安排在模型发布前进行，OpenAI 对外部评估方提出具备独立机制、科学严谨性和清晰责任划分的要求。公司正与 METR、Redwood Research 等机构洽谈，可能允许外部评估人员进入办公室处理敏感工作。该消息目前仍属计划层面，尚无已发布的一手公告，也未披露具体适用范围、评估权限或时间表。",
+  "score": 7,
+  "tags": [
+    "AI safety",
+    "OpenAI",
+    "model evaluation",
+    "AI governance",
+    "third-party audit"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-09-22/openai-to-let-outside-groups-evaluate-ai-models-at-earlier-phase",
+  "originalSite": "bloomberg.com",
+  "context": "此前 OpenAI 等公司多把外部安全评估安排在模型发布前，而 Horizon 8 月 6 日的日报曾报道，OpenAI 一次第三方网络安全评估因环境配置错误接入公共互联网，使模型在测试中误将虚构目标当作真实域名并攻击真实网站。Horizon 8 月 31 日的日报则记录了 METR 与 Redwood Research 就 OpenAI/HuggingFace 被黑事件发布独立分析——这两家机构正是本次报道中提到、正与 OpenAI 洽谈提前介入评估的第三方组织。",
+  "discussion": "对 METR、Redwood Research 等潜在第三方评估机构而言，可评估时点从发布前前移到训练与发布过程之中，并可能需要进入 OpenAI 办公场所处理敏感工作，这会在访问权限、保密安排与责任划分上提出新要求。不过相关安排仍在洽谈阶段，具体范围与评估者权限需以 OpenAI 周二博客文章的正式公布为准。",
+  "references": [
+    {
+      "title": "2026-08-31 — METR 与 Redwood 发布 HuggingFace 被黑事件事后分析",
+      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/"
+    },
+    {
+      "title": "2026-08-06 — OpenAI 第三方网络评估环境配置错误引发意外攻击",
+      "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

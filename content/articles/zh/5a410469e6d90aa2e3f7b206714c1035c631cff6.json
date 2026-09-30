@@ -1,0 +1,44 @@
+{
+  "id": "5a410469e6d90aa2e3f7b206714c1035c631cff6",
+  "canonicalId": "e05c91be5980befc9b75f2f96ae65a4056a59a16",
+  "slug": "中文低质赌场网站被用作-apt-攻击基础设施",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-16T07:31:00Z",
+  "lang": "zh",
+  "title": "中文低质赌场网站被用作 APT 攻击基础设施",
+  "summary": "据 The Register 报道，一家网络安全公司发现，大量中文赌博和成人网站看似普通娱乐站点，实际可能充当网络攻击基础设施。该公司追踪到约 170 万个中文赌场网站，其中部分被用于恶意软件传播和间谍活动。自 2023 年以来，与中国有关联的 APT 组织利用名为“PeckBirdy”的框架，把恶意软件的命令控制（C2）域名隐藏在低质量赌博网站中，并通过虚假软件更新诱骗用户下载恶意程序。由于这些网站外观与普通赌博网站高度相似，安全人员容易把相关访问误判为员工违规浏览而忽略。该报道为简要总结，未展开更多技术细节。",
+  "score": 7,
+  "tags": [
+    "cybersecurity",
+    "APT",
+    "malware",
+    "C2 infrastructure",
+    "threat intelligence"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theregister.com/security/2026/09/15/low-quality-casino-sites-conceal-highly-dangerous-threat-actors/5296652",
+  "originalSite": "theregister.com",
+  "context": "高级持续性威胁（APT）通常需要在受害者环境中维持长期隐蔽的远程控制通道，即恶意软件与攻击者服务器通信的命令控制（C2）基础设施，这类域名或地址一旦被识别就容易被封锁。把 C2 隐藏在规模庞大、质量低下且长期被安全团队忽视的中文赌博与成人网站域名之下，可以让恶意流量伪装成普通的赌博访问，从而降低被发现的概率。据 Infoblox 研究人员介绍，自 2023 年起与中国有关联的 APT 组织便借助名为 PeckBirdy 的框架采用这一手法，并呼吁安全社区更重视这类站点。",
+  "discussion": "对防御方而言，最直接的后果是 C2 流量可能被误判为员工违规上网，从而绕过安全监控并延误对 APT 活动的发现与响应。",
+  "references": [
+    {
+      "title": "PeckBirdy Malware Uses Chinese Casino and Adult Websites to ...",
+      "url": "https://cyberpress.org/peckbirdy-hides-in-casinos/"
+    },
+    {
+      "title": "China-Aligned Hackers Hide PeckBirdy Malware C2 Inside Casino ...",
+      "url": "https://gbhackers.com/peckbirdy-malware-c2/"
+    },
+    {
+      "title": "Chinese casino websites hide PeckBirdy malware, Infoblox says ...",
+      "url": "https://cybernews.com/security/chinese-online-casinos-malware/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

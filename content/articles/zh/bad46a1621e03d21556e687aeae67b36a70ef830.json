@@ -1,0 +1,45 @@
+{
+  "id": "bad46a1621e03d21556e687aeae67b36a70ef830",
+  "canonicalId": "83121cda738b80f0767604a056c7282a1db9b4a9",
+  "slug": "meta-发布-muse-spark-13登顶-deepswe-且价格低廉",
+  "date": "2026-09-03",
+  "publishedAt": "2026-09-02T19:35:00Z",
+  "lang": "zh",
+  "title": "Meta 发布 Muse Spark 1.3，登顶 DeepSWE 且价格低廉",
+  "summary": "Meta 发布了 Muse Spark 1.3，这是其成本极低、面向软件工程任务的 AI 模型。该模型在 DeepSWE 基准上取得 75.4 分，成为目前最高分，超过了当天早些时候领先的 Google Gemini 3.8 Flash。开发者实测生成一个 SVG 示例仅需约 4.23 美分和 38 秒，并认为 1.3 版本相比 1.2 在输出质量上有可见提升。该模型延续高性价比路线，还通过 contributor 定价明确区分是否允许 Meta 使用用户数据进行训练，在开发者社区中引起正面讨论。",
+  "score": 8,
+  "tags": [
+    "Meta",
+    "Muse Spark",
+    "large language models",
+    "benchmarks",
+    "AI development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bvaldivielso",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49541256"
+    }
+  ],
+  "originalUrl": "https://developer.meta.com/ai/models/muse-spark/",
+  "originalSite": "developer.meta.com",
+  "context": "Muse Spark 是 Meta 推出的面向编程与智能体（agentic）任务的推理模型，Muse Spark 1.3 是五个月内发布的第三个版本，于 2026 年 9 月 2 日推出，Meta 称其在编码和智能体任务上相较 1.2 有显著提升。该模型的上下文窗口为 1,048,576 个 token，按 OpenRouter 的定价为每百万输入 token 1.25 美元、每百万输出 token 4.25 美元，属于成本很低的模型。此次发布正值 Anthropic、OpenAI、Google 等厂商本周密集发布新模型，反映出 Meta 在编程与智能体模型赛道上的竞争态势。",
+  "discussion": "对于愿意让 Meta 利用其数据进行训练的开发者，contributor 版本提供了更低价格的选择；同时 Muse Spark 1.3 的性价比表现可能进一步推动编码模型市场的价格竞争。\n\n评论中，Simon Willison 用\\`llm -m meta-ai/muse-spark-1.3\\`生成 SVG，并认为 1.3 的自行车车架、翅膀和鹈鹕帽子都比 1.2 更好；长期用户表示 Spark 系列虽然不是前沿模型，但价格便宜且适合不需要顶尖效果的工作。还有评论认可 Meta 明确标出 contributor 定价的做法，认为这清楚展示了数据训练的价值。",
+  "references": [
+    {
+      "title": "Meta debuts Muse Spark 1 . 3",
+      "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues"
+    },
+    {
+      "title": "Meta ships Muse Spark 1 . 3 , its biggest coding jump yet",
+      "url": "https://pasqualepillitteri.it/en/news/14145/meta-muse-spark-1-3-coding-model"
+    },
+    {
+      "title": "Muse Spark 1 . 3 - API Pricing &amp; Providers | OpenRouter",
+      "url": "https://openrouter.ai/meta/muse-spark-1.3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "c99b805ef92699e199fcb020af7a3a9ffe7b7c9d",
+  "canonicalId": "5a4bcd51fb7a6f934266017ab059913e4cf7ddad",
+  "slug": "anthropic-设湿实验室推进-ai-药物计划",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T13:17:00Z",
+  "lang": "zh",
+  "title": "Anthropic 设湿实验室推进 AI 药物计划",
+  "summary": "知情人士向路透社透露，Anthropic 已在旧金山湾区悄然设立湿实验室，开展实体生物学实验，以推进其 AI 药物研发计划。公司生命科学负责人证实，目标是让 Claude 在实验室指挥机器人执行实验。Anthropic 表示希望聚焦罕见病，并暂不开展临床试验，以避免与药企竞争。此前公司推出 Claude Science 软件，并被披露以约 4 亿美元收购初创公司 Coefficient Bio。",
+  "score": 8,
+  "tags": [
+    "AI drug discovery",
+    "Anthropic",
+    "lab automation",
+    "biotech",
+    "AI for science"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+  "originalSite": "reuters.com",
+  "context": "Anthropic 进入实体实验环节前，已先在科学软件层面布局：Horizon 2026 年 9 月 1 日的日报曾记录 Claude Science 与 NVIDIA BioNeMo NIM 微服务结合的蛋白质结构预测工作流，说明 Claude 已被用于计算侧的结构预测任务（tool-1-1）。据新闻汇总报道，Anthropic 还以近 4 亿美元收购生物技术初创公司 Coefficient Bio，这笔交易被视为其深入药物发现领域的前置动作（tool-2-1）；当前报道中的湾区湿实验室与实验室机器人，则是把这一布局从计算预测延伸至由模型指挥的实体实验。",
+  "discussion": "对从事 AI 驱动实验的团队而言，最直接的变化是 Anthropic 把 Claude 定位为可控制湿实验室机器人的实验执行层，而不只是文献或建模工具；但由于当前没有临床试验计划，该能力暂不会直接进入药物管线，也尚无外部验证可证明机器人执行实验的效果。",
+  "references": [
+    {
+      "title": "2026-09-01 — Claude Science 与 BioNeMo NIM 的蛋白质结构预测工作流",
+      "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/"
+    },
+    {
+      "title": "Google News - Anthropic acquires Coefficient Bio in stock deal...",
+      "url": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lleHV2ckVCR1RMNTFEbzJLZXBTZ0FQAQ?hl=en-IN&amp;gl=IN&amp;ceid=IN:en"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

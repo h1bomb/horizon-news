@@ -1,0 +1,40 @@
+{
+  "id": "b815cf17f5f92b7c41c18f3a51bede1f0136aa31",
+  "canonicalId": "49c023466b3cd598707302e0fa9563b1a016eaac",
+  "slug": "vllm-v0300-发布新增多款模型支持与启动缓存优化",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T05:20:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.30.0 发布：新增多款模型支持与启动缓存优化",
+  "summary": "vLLM 发布 v0.30.0，包含来自 315 位贡献者（其中 104 位新贡献者）的 762 个提交，新增 DeepSeek-V4.1-Flash、DeepSeek-V4-Flash-Vision-Exp、GLM-5.3-Flash、K2-Horizon、Cohere Compass、Bailing V3 VL 以及通过 Transformers 后端的 Nanbeige4.2 等模型支持，并提供 DeepSeek-V4 的 CPU 后端。启动优化方面，Fast Start 引入常驻的每 GPU 权重缓存守护进程，将量化后、按 TP 切分的权重保存在显存中，重启引擎时通过 CUDA IPC 映射（\\`--load-format ipc\\_cache\\`）而非从磁盘重新加载，现已覆盖 FP4 检查点和多节点 TP。本次发布同时包含破坏性变更：普通 \\`vllm serve\\` 的 scale-out 端点改为通过 \\`--enable-scale-out\\` opt-in，移除 GPTQ 激活排序（\\`g\\_idx\\`），并删除 0.29 已弃用项（含 \\`VLLM\\_PREFIX\\_CACHE\\_RETENTION\\_INTERVAL\\` 与 \\`VLLM\\_MM\\_HASHER\\_ALGORITHM\\` 环境变量）。发布产物包括 PyPI 上 CUDA 13.0 的 \\`pip install vllm\\`、ROCm 与 XPU 的额外索引 wheel，以及 CUDA 12.9/13.0、ROCm、CPU、XPU 的 Docker 镜像。",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "open source",
+    "model support",
+    "GPU optimization"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+  "originalSite": "github.com",
+  "context": "vLLM 的 0.x 版本迭代节奏较快：Horizon 9 月 10 日的日报曾报道 v0.29.0 将 Model Runner V2（MRV2）设为所有模型的默认执行路径（少量 ROCm 模型仍保留 MRV1），本次 v0.30.0 的多项 MRV2 改进——如 eager 模式与 FULL CUDA graphs 下的双批次 overlap、流水线并行下的 MTP 和 EAGLE3/DFlash/DSpark 投机解码——正是在这条已默认启用的执行路径上继续叠加。Horizon 8 月 27 日的日报记录了 v0.28.0 对 Kimi-K3、DeepSeek V4 的推理优化和一轮破坏性变更（移除 calculate\\_kv\\_scales 等 API），v0.30.0 延续了针对同一批模型的内核与缓存优化，也延续了每次发布清理上一版弃用项的做法（0.29.0 移除十个已弃用模型架构，0.30.0 移除为 0.29 弃用的环境变量等）。",
+  "discussion": "升级到 v0.30.0 的用户需注意兼容性调整：原先依赖环境变量 \\`VLLM\\_ENABLE\\_SCALE\\_OUT\\_ENDPOINTS\\` 暴露 scale-out 端点的部署，现在必须在 \\`vllm serve\\` 命令行显式加上 \\`--enable-scale-out\\`，否则这些端点不再对外提供；使用带 \\`g\\_idx\\` 的 GPTQ 检查点也将不再受支持。希望缩短重启时间的部署可对新版本启用 \\`--load-format ipc\\_cache\\`，但该优化依赖先前启动留下的常驻权重缓存守护进程。",
+  "references": [
+    {
+      "title": "2026-08-27 — vLLM v0.28.0 发布：深度优化 Kimi-K3 与 DeepSeek V4 推理性能",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0"
+    },
+    {
+      "title": "2026-09-10 — vLLM 0.29.0 默认启用 Model Runner V2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "7085d46d947610eeaa836ce1b0a06a243fae46ee",
+  "canonicalId": "3894b4a8e426acceb3d9d8b5348b94dd7ab34e2f",
+  "slug": "gccrs-推进-linux-内核编译但仍不可用",
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-22T15:27:00Z",
+  "lang": "zh",
+  "title": "gccrs 推进 Linux 内核编译，但仍不可用",
+  "summary": "在 RustConf 2026 上，gccrs 项目开发者 Pierre-Emmanuel Patry 和 Arthur Cohen 介绍了这个 GCC Rust 前端编译 Linux 内核的进展，并明确表示 gccrs 目前仍无法编译内核。两人把当前目标称为“错误编译内核”：先让 gccrs 无报错接受内核的 Rust 代码并产出可测试的二进制，再验证输出能否成为可用内核。项目策略已从孤立编译小段 Rust 代码，转向先让 core crate 编译通过，再沿依赖图推进到 alloc 等 crate；过去三年他们主要在处理名称解析。两人曾被裁员，Open Source Security 随后接手了他们的合同；此外，用 rustc 编译内核过程宏的临时方案仍在讨论中，尚未确定。",
+  "score": 7,
+  "tags": [
+    "gccrs",
+    "Rust",
+    "GCC",
+    "Linux kernel",
+    "compilers"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1095553/",
+  "originalSite": "lwn.net",
+  "context": "gccrs 是 GNU 工具链中的 Rust 前端，目标是在 GCC 里提供一个独立于 rustc 的完整 Rust 实现；它把编译 Linux 内核中的 Rust 代码列为主要目标，原因之一是 GCC 支持的后端架构比 rustc 更多，而且不少既有项目依赖 GCC 的自定义插件。LWN 此前一篇关于该工作进展的报道曾指出，当重心转向编译内核所用的各个 crate 时，gccrs 在编译器属性和 crate 元数据的处理上暴露出进一步的问题。",
+  "discussion": "对于依赖 GCC 后端架构或编译器插件、又想在 Linux 内核中使用 Rust 的开发者，gccrs 仍不提供可用路径；Kangrejos 上讨论的变通方案——用 rustc 编译过程宏以提前测试 gccrs——尚未落实，因为 Patry 担心造成过程宏与生成代码之间的不兼容，而 Gary Guo 指出支持分配会同时解决 BTreeSet 等依赖。",
+  "references": [
+    {
+      "title": "Progress toward compiling Linux with gccrs [ LWN .net]",
+      "url": "https://lwn.net/Articles/1083202/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

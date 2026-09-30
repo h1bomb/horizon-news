@@ -1,0 +1,31 @@
+{
+  "id": "a20d871d202f72f3e3925219b09c3ff491a6476d",
+  "canonicalId": "098820a9eca6a0774c094422138049af34580092",
+  "slug": "更快的模型会把瓶颈推向开发体验",
+  "date": "2026-09-14",
+  "publishedAt": "2026-09-14T00:00:00Z",
+  "lang": "zh",
+  "title": "更快的模型会把瓶颈推向开发体验",
+  "summary": "rss · Sean Goedecke · 9月14日 00:00\n\n**「背景」** 作者指出，如今开发体验常以秒衡量：测试 1 秒算好，30 秒算糟，再快也无感，因为时间主要花在思考或等待 AI 代理。若模型推理变得足够快，这一假设会改变。\n\n**「方案」** 作者的核心判断是：当生成 token 不再是瓶颈，工具调用与测试延迟就会凸显。他举例称，当前模型 GPT-6-Astra 约 60 token/秒，仍需等待；而 Taalas 的 LLaMA-3.1-8B 在 Jimmy 上可达 1.7 万 token/秒，回答几乎瞬时返回。若模型本身够强，读文件 100ms 对 10ms、测试 500ms 对 2 秒，就会决定代理是近乎即时还是让用户等几分钟。因此，作者预计会出现巨大压力：让代理式编程转向编译和测试更快的语言（如 Go），并紧密优化代理代码库的开发循环；曾经在 2010 年代后被裁撤到骨架的 DevEx 团队，可能在 2020 年代末以加速 AI 代理体验为目标回归。作者也怀疑模型提供商靠无限延长推理就能维持等待时间，因为多数普通工程问题并不需要多花百万 token 思考。\n\n**「启示」** 作者的结论是，模型越快，开发者体验的瓶颈越会从“人”转向代理的工具链与开发循环；未来竞争力可能取决于能否让代理少等工具调用和测试。\n\n**标签**: `#AI agents`, `#developer experience`, `#inference latency`, `#agentic coding`, `#tool calls`",
+  "score": 5,
+  "tags": [
+    "AI agents",
+    "developer experience",
+    "inference latency",
+    "agentic coding",
+    "tool calls"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/slow-devex-will-bottleneck-fast-models/",
+  "originalSite": "seangoedecke.com",
+  "context": "作者指出，如今开发体验常以秒衡量：测试 1 秒算好，30 秒算糟，再快也无感，因为时间主要花在思考或等待 AI 代理。若模型推理变得足够快，这一假设会改变。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

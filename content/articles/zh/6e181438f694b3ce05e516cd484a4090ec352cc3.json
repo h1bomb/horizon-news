@@ -1,0 +1,56 @@
+{
+  "id": "6e181438f694b3ce05e516cd484a4090ec352cc3",
+  "canonicalId": "6135ef1a19c49882127ece6d36502348e835528e",
+  "slug": "anthropic-改版-claude-项目并在-claude-code-开启-beta",
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-18T00:18:00Z",
+  "lang": "zh",
+  "title": "Anthropic 改版 Claude 项目并在 Claude Code 开启 beta",
+  "summary": "Anthropic 推出改版后的 Claude Projects，并已在 Claude Code 中开启 beta 测试：用户只需描述目标，Claude 便会自行拆解请求、分配并行线程、审查产出并汇总结果；任务在用户离开电脑后仍继续运行，并可用手机随时跟进。首批面向部分 Claude Pro 和 Max 订阅用户，官方称未来一周扩大至更多 Claude Code 用户，之后再覆盖全部 Claude 及 Team、Enterprise 方案。上述内容来自一条转载的 Telegram 摘要，未给出具体版本号、性能数据或独立验证，除订阅分层外，各项功能的具体可用范围与限制尚不明确。",
+  "score": 7,
+  "tags": [
+    "Anthropic",
+    "Claude Code",
+    "AI agents",
+    "developer tools",
+    "product update"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://claude.com/blog/projects-redesigned",
+  "originalSite": "claude.com",
+  "context": "Claude 的 Projects 此前以文件夹方式组织对话，本次改版把它变成可长期运行的对话形态（来源标题即“从文件夹到对话”）；据 Anthropic 博客，Pro 和 Max 方案上已有的 Projects 仍按现有方式工作，改版后的体验随后才覆盖全部 Claude 及 Team、Enterprise 方案。Horizon 2026 年 8 月 9 日的日报曾报道，Claude Code 自 8 月 14 日起对 Pro、Max 和 Team 新会话默认启用自动模式，由分类器检查每次工具调用以拦截不可逆或破坏性操作；8 月 28 日的日报记录了研究员 Johann Rehberger 演示的提示注入攻击，其宣称约 80% 的次数可绕过该防护。这些此前的进展说明，让代理在无人看管时持续执行任务并非新问题，其防护可靠性仍是开放议题。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-09 — Claude Code 默认启用自动模式拦截危险命令",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+    },
+    {
+      "title": "2026-08-28 — Claude Code 自动模式被曝 80% 可绕过的提示注入攻击",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
+    },
+    {
+      "title": "Projects redesigned: from folder to conversation | Claude by ...",
+      "url": "https://claude.com/blog/projects-redesigned"
+    },
+    {
+      "title": "Anthropic Brings Parallel Coding Workflows to Claude Projects - DevOps.com",
+      "url": "https://devops.com/anthropic-brings-parallel-coding-workflows-to-claude-projects/"
+    },
+    {
+      "title": "Anthropic launches new Claude Code Projects with parallel AI agents and shared memory",
+      "url": "https://www.datastudios.org/post/anthropic-launches-new-claude-code-projects-with-parallel-ai-agents-and-shared-memory"
+    },
+    {
+      "title": "Claude Code Overhauls Projects With Parallel Cloud Sessions and Shared Memory | XenoSpectrum",
+      "url": "https://xenospectrum.com/en/claude-code-projects-redesign/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

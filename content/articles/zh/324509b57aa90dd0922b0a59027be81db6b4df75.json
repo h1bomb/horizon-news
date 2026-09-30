@@ -1,0 +1,31 @@
+{
+  "id": "324509b57aa90dd0922b0a59027be81db6b4df75",
+  "canonicalId": "b28b532a9c4831dd4fe0ba6f59a7b8a323979391",
+  "slug": "投机解码协作设计五条选-d-与草稿机制的准则",
+  "date": "2026-09-03",
+  "publishedAt": "2026-09-02T16:04:00Z",
+  "lang": "zh",
+  "title": "投机解码协作设计：五条选 D 与草稿机制的准则",
+  "summary": "rss · NVIDIA Inference Performance Blog · 9月2日 16:04\n\n**「背景」** 大语言模型的自回归解码逐步生成 token，延迟高且内存受限。投机解码让一个小草稿模型先预测一串 token，再由目标模型并行验证。作者指出，是否加速取决于草稿长度 D、接受长度 AL 与草稿成本的综合权衡，而非只看草稿多长。\n\n**「方案」** 作者把验证 GEMM 和注意力 kernel 的行为作为切入点。D 增大时，验证线性层的 GEMM-M 变大，使模型更早进入计算受限区，例如 D=7 时约只需 D=0 的 1/8 批次即可达到峰值，这有利于稀疏 MoE 和长上下文。但如果 attention 占主导，草稿 token 共享 KV，算术强度约 2G\\(1+D\\)，建议以 D=128/G−1 为起点；过大则 attention 从带宽受限转为计算受限，若需更大 D，让 G\\(1+D\\)保持在 128 倍数可避免 tile 浪费。在低延迟端，草稿开销会随层数线性积累，作者建议用层数比估算，并仅在 AL 增长够大时增加 D。草稿机制上，DFlash/DSpark 可一次并行生成 D 个 token，比 MTP 逐层串行更适合小模型；还需用接近真实负载的 benchmark 度量 AL 与草稿开销，且微调目标模型后要重新验证接受率。\n\n**「启示」** 作者的核心结论是：没有普适最优的 D 或草稿机制，只有根据硬件 kernel 边界、批次、注意力组大小和延迟范围来协同设计模型与推理方案，才能实现不损失精度的加速。\n\n**标签**: `#speculative decoding`, `#LLM inference`, `#kernel optimization`, `#draft length selection`, `#attention tiling`",
+  "score": 8,
+  "tags": [
+    "speculative decoding",
+    "LLM inference",
+    "kernel optimization",
+    "draft length selection",
+    "attention tiling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+  "originalSite": "developer.nvidia.com",
+  "context": "大语言模型的自回归解码逐步生成 token，延迟高且内存受限。投机解码让一个小草稿模型先预测一串 token，再由目标模型并行验证。作者指出，是否加速取决于草稿长度 D、接受长度 AL 与草稿成本的综合权衡，而非只看草稿多长。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
