@@ -63,6 +63,12 @@ async function main() {
   const allItems = briefings.flatMap((b) => b.items);
   console.log(`> ${allItems.length} items across ${briefings.length} briefings.`);
 
+  if (allItems.length === 0) {
+    throw new Error(
+      "Briefings parsed but yielded 0 items (upstream format may have changed) — refusing to write an empty store.",
+    );
+  }
+
   if (args.noFetch) {
     for (const it of allItems) enrichments.set(it.id, { fullText: null, image: null });
   } else {

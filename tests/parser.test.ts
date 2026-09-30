@@ -91,4 +91,35 @@ describe("parseBriefing", () => {
     expect(items).toEqual([]);
     expect(daySummary).toBe("Analyzed 25 items, but none met the importance threshold.");
   });
+
+  it("parses the current upstream ZH format (category anchors, ### headings, 「」 markers)", () => {
+    const { date, lang, daySummary, items } = parseBriefing(fixture("2026-09-30-summary-zh.md"));
+    expect(date).toBe("2026-09-30");
+    expect(lang).toBe("zh");
+    expect(daySummary).toBe("从 41 条内容中筛选出 12 条重要资讯。");
+    // The TOC lists 12 entries but only one full item block exists in the fixture.
+    expect(items.length).toBe(1);
+
+    const first = items[0];
+    expect(first.title).toBe("Web 与移动端对话式 AI 代理隐私分析");
+    expect(first.originalUrl).toBe(
+      "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-%28clean%29.pdf",
+    );
+    expect(first.score).toBe(8.0);
+    expect(first.tags).toEqual(["privacy", "conversational AI", "web tracking", "mobile apps", "LLM agents"]);
+    expect(first.sources[0]).toEqual({
+      platform: "hackernews",
+      author: "damaru2",
+      discussionUrl: "https://news.ycombinator.com/item?id=49890226",
+    });
+    expect(first.publishedAt).toBe("2026-09-29T09:03:00Z");
+    expect(first.context).toContain("九款主流对话式 AI 服务");
+    // 「影响」 is merged into discussion ahead of 「社区讨论」.
+    expect(first.discussion).toContain("会话 URL 中的 UUID 并不构成隐私边界");
+    expect(first.discussion).toContain("conversation/prepare");
+    expect(first.references.length).toBe(2);
+    expect(first.references[1].url).toBe("https://dspace.networks.imdea.org/handle/20.500.12761/2073");
+    expect(first.summary).toContain("技术隐私分析");
+    expect(first.summary).not.toContain("hackernews");
+  });
 });

@@ -31,12 +31,16 @@ export interface ParsedBriefing {
   items: ParsedItem[];
 }
 
-const ITEM_ANCHOR_RE = /^<a id="item-(\d+)"><\/a>\s*$/;
-const HEADING_RE = /^##\s+\[(.+?)\]\((https?:\/\/[^)]+)\)\s+⭐️\s+([\d.]+)\/10\s*$/m;
-const BG_RE_EN = /\*\*Background\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
-const BG_RE_ZH = /\*\*背景\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
-const DISC_RE_EN = /\*\*Discussion\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
-const DISC_RE_ZH = /\*\*社区讨论\*\*:\s*([\s\S]*?)(?=\n\*\*[^*]+\*\*:|(?![\s\S]))/;
+const ITEM_ANCHOR_RE = /^<a id="item-([\w-]+)"><\/a>\s*$/;
+const HEADING_RE = /^#{2,3}\s+\[(.+?)\]\((https?:\/\/[^)]+)\)\s+⭐️\s+([\d.]+)\/10\s*$/m;
+// Section terminator: the next "**...**" marker line, a <details> block, or end of text.
+// Markers come in two styles: "**背景**:" (legacy) and "**「背景」**" (current upstream).
+const SECTION_END = String.raw`(?=\n\*\*[^*\n]+\*\*:?|\n<details|$)`;
+const BG_RE_EN = new RegExp(String.raw`\*\*Background\*\*:\s*([\s\S]*?)${SECTION_END}`);
+const BG_RE_ZH = new RegExp(String.raw`\*\*(?:背景|「背景」)\*\*:?\s*([\s\S]*?)${SECTION_END}`);
+const IMPACT_RE_ZH = new RegExp(String.raw`\*\*「影响」\*\*\s*([\s\S]*?)${SECTION_END}`);
+const DISC_RE_EN = new RegExp(String.raw`\*\*Discussion\*\*:\s*([\s\S]*?)${SECTION_END}`);
+const DISC_RE_ZH = new RegExp(String.raw`\*\*(?:社区讨论|「社区讨论」)\*\*:?\s*([\s\S]*?)${SECTION_END}`);
 const TAGS_RE_EN = /^\*\*Tags\*\*:\s*(.*)$/m;
 const TAGS_RE_ZH = /^\*\*标签\*\*:\s*(.*)$/m;
 const DETAILS_RE = /<details>[\s\S]*?<\/details>/i;
@@ -115,11 +119,14 @@ function buildItem(
   const withoutDetails = detailsMatch ? afterHeading.replace(detailsMatch[0], "") : afterHeading;
 
   const bgMatch = withoutDetails.match(bgRe);
+  const impactMatch = lang === "zh" ? withoutDetails.match(IMPACT_RE_ZH) : null;
   const discMatch = withoutDetails.match(discRe);
   const tagsMatch = withoutDetails.match(tagsRe);
 
   const context = bgMatch ? bgMatch[1].trim() : "";
-  const discussion = discMatch ? discMatch[1].trim() : "";
+  // The current upstream format splits the old "社区讨论" section into "「影响」"
+  // and "「社区讨论」"; merge them back into discussion in document order.
+  const discussion = [impactMatch?.[1].trim(), discMatch?.[1].trim()].filter(Boolean).join("\n\n");
   const tags = tagsMatch ? parseTags(tagsMatch[1]) : [];
 
   const references = detailsMatch ? parseReferences(detailsMatch[0]) : [];
@@ -169,7 +176,12 @@ function extractSummary(text: string): string {
 
 function extractSourceLine(text: string, lang: Lang, date: string, year: number) {
   const lines = text.split("\n");
-  const idx = lines.findIndex((l) => /^[a-z]/i.test(l.trim()) && l.includes("·"));
+  // The source line carries the discussion link in both the legacy and the current
+  // upstream format; prefer it over the looser heuristic below so a "·" inside a
+  // summary paragraph can never be mistaken for the source line.
+  const discMarker = lang === "zh" ? "[社区讨论](" : "[Discussion](";
+  let idx = lines.findIndex((l) => l.includes(discMarker));
+  if (idx === -1) idx = lines.findIndex((l) => /^[a-z]/i.test(l.trim()) && l.includes("·"));
   if (idx === -1)
     return {
       platform: "unknown",
