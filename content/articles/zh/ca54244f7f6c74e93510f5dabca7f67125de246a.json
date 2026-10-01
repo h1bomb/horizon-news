@@ -1,0 +1,31 @@
+{
+  "id": "ca54244f7f6c74e93510f5dabca7f67125de246a",
+  "canonicalId": "e189d148aef66b39fa65a9ba98b4dcbd55654f38",
+  "slug": "doordash-的-agent-gateway企业-ai-工具访问治理",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T15:31:00Z",
+  "lang": "zh",
+  "title": "DoorDash 的 Agent Gateway：企业 AI 工具访问治理",
+  "summary": "rss · ByteByteGo · 9月30日 15:31\n\n**「背景」** 当 AI agent 需要查代码库、读工单或开 PR 时，工具调用就必须接入真实系统。MCP（Model Context Protocol）统一了工具的描述、发现和调用方式，却没有解决企业内的权限、凭据、工具暴露范围、审计与公司规则问题；DoorDash 因此构建共享 Agent Gateway，把这些职责从各 agent 与 MCP 服务器中收拢。\n\n**「方案」** 该网关分为数据平面的代理和控制平面的注册中心：代理负责验证调用者、鉴权、限流、注入下游凭据、转发请求并记录结果；注册中心保存 agent 与 MCP 服务器的注册、所有权、认证模式、策略、工具目录及暴露配置。作者强调，认证回答“谁在调用”，授权回答“能做什么”，策略可综合 agent、用户、工具、环境和读写属性来判断，并把身份贯穿路由与审计。身份与凭据被分开处理：网关支持内部服务身份、网关持有 token、按用户 OAuth 和服务主体四类凭据，原始 vendor key 与 OAuth refresh token 不交给 agent，而由网关加密存储、刷新、轮换和撤销；用户授权时，支持 MCP elicitation 的客户端可暂停原工具请求，在浏览器完成 OAuth 后恢复，不支持的客户端则收到授权必要响应和连接 URL。工具面通过 bundle 与 filter 收敛：bundle 把多个下游 MCP 服务器的工具组合成一个逻辑端点，filter 按 bundle、agent、用户组、环境等决定可见工具，并用命名空间或别名减少歧义。发现阶段 tools/list 会 fan-out 到多个服务器，经授权过滤后返回合并目录；执行阶段 tools/call 会再次检查策略、限流、选择下游并注入凭据，因为出现在目录中并不等于允许执行。所有调用经过网关也带来可观测性：结构化事件和指标覆盖服务器、工具、bundle、所有权、身份、授权结果、错误、时延、OAuth 刷新、限流与成本。DoorDash 以自助注册界面和 API 推动采用，并报告已有 200+ 注册 MCP 服务器、30+ agent 与服务、数千员工使用、每周数百万次工具调用；后续方向包括 agent 加密身份、按用户/任务/工具限定的短生命周期委派凭据，以及基于任务和策略的动态工具发现。\n\n**「启示」** MCP 解决的是连接标准化，而企业级 agent 工具生态的核心挑战在于集中治理：把鉴权、凭据隔离、工具策展和审计放进共享网关，才能让 agent 在可扩展的同时保持安全、可控和可观测。\n\n**标签**: `#MCP`, `#AI agents`, `#agent gateway`, `#OAuth`, `#observability`",
+  "score": 6,
+  "tags": [
+    "MCP",
+    "AI agents",
+    "agent gateway",
+    "OAuth",
+    "observability"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-doordash-built-a-toolbox-for",
+  "originalSite": "blog.bytebytego.com",
+  "context": "当 AI agent 需要查代码库、读工单或开 PR 时，工具调用就必须接入真实系统。MCP（Model Context Protocol）统一了工具的描述、发现和调用方式，却没有解决企业内的权限、凭据、工具暴露范围、审计与公司规则问题；DoorDash 因此构建共享 Agent Gateway，把这些职责从各 agent 与 MCP 服务器中收拢。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

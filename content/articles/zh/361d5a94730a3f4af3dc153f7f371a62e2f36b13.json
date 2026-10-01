@@ -1,0 +1,53 @@
+{
+  "id": "361d5a94730a3f4af3dc153f7f371a62e2f36b13",
+  "canonicalId": "9e57e69aee78667d7c2d81cadc59430fc2302453",
+  "slug": "谷歌发布-gemini-4-argon暂限早期测试者",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T20:04:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemini 4 Argon，暂限早期测试者",
+  "summary": "谷歌在官方博客发布了 Gemini 4 Argon 模型，该消息被提交至 Hacker News 后获得 861 分、577 条评论。根据评论中引述的公告原文，Argon 尚未向开发者、企业和消费者开放，谷歌称会继续收集早期测试者的反馈并迭代防护措施（guardrails），之后&quot;尽快&quot;提供。提供的材料未包含模型规格、基准测试成绩或定价等技术细节，因此这些能力描述目前只是厂商说法，尚无独立验证。公告还提到 Argon 智能体正在将谷歌内部的 C/C++ 代码库迁移到 Rust。",
+  "score": 9,
+  "tags": [
+    "Gemini 4 Argon",
+    "large language models",
+    "AI model releases",
+    "Google AI",
+    "AI competition"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bradleyg223",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49913571"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "originalSite": "blog.google",
+  "context": "Horizon 9 月 16 日的日报曾报道 Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking，这是一组面向实时语音交互的更新，当时只有博客公告链接，缺少基准测试与架构细节，因此被判断为可能是增量更新而非重大换代（tool-1-1）。两周后 Google 把版本号推进到 4：官方公告与外部报道将 Argon 定位为面向复杂软件工程、法律与金融专业工作以及网络防御等长周期任务的前沿模型，并给出 100 万 token 的上下文长度（tool-2-1、tool-2-2、tool-2-3）。",
+  "discussion": "对开发者和企业来说，最直接的后果是 Argon 目前仍处于早期测试阶段：Google 表示会继续收集早期测试者反馈、迭代安全护栏，之后才“尽快”向开发者、企业和消费者开放，因此现阶段不宜把关键工作流迁移到该模型。第三方分析提到其定价为“引入价”（introductory price），后续可能调整，接入时需把这一价格不确定性计入成本预估。\n\n评论者的主要分歧在于今年的&quot;互相超越&quot;是否只是暂时现象：nickysielicki 认为这再次说明 Dario Amodei 关于 AI 是赢家通吃、会&quot;集中化&quot;的判断有误，而 juanre 建议无论采用什么工作流，都要确保模型和供应商可以替换，把技能、经验和基础设施掌握在自己手中。babelfish 则以&quot;Gemini 摆脱不了无法发布模型的指控&quot;讽刺其迟迟不开放；taylorfinley 称 Gemini 3.8 flash 曾在其 Strix Halo 上通过 GDB 调试 GPU 驱动并编写 LD\\_PRELOAD 垫片解决了 ROCm 与 llama.cpp 的兼容问题，这属于个人经验描述。",
+  "references": [
+    {
+      "title": "2026-09-16 — Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+    },
+    {
+      "title": "Introducing Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+      "title": "Gemini 4 Argon : what Google &#x27;s new model changes · GPTunneL",
+      "url": "https://www.gptunnel.ru/en/blog/gemini-4-argon"
+    },
+    {
+      "title": "Google rolls out Gemini 4 Argon , its most advanced model",
+      "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html"
+    },
+    {
+      "title": "Gemini 4 Argon : Price , Access and Benchmarks - DEV Community",
+      "url": "https://dev.to/projedefteri/gemini-4-argon-price-access-and-benchmarks-1g43"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

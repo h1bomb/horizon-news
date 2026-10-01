@@ -1,0 +1,52 @@
+{
+  "id": "3baa1e95d8b311e983e4b2abee9054de50f7f09d",
+  "canonicalId": "7808c62cb7368ce09bd64619446a721d7a077a47",
+  "slug": "报道微软雇数百外包工评估-copilot-图像生成内容",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T07:13:00Z",
+  "lang": "zh",
+  "title": "报道：微软雇数百外包工评估 Copilot 图像生成内容",
+  "summary": "据 404 Media 报道，微软雇佣数百名外包合同工，对 Microsoft Copilot 的图片生成与编辑功能进行评估，以改进相关效果。报道称这些审查人员日常需要面对大量冲击性内容，包括低俗、疑似“偷拍”的露骨性暗示照片，甚至可能违法的动物祭祀影像，并因此承受精神创伤。报道据此指出，用户输入的提示词、请求以及上传的私人照片在云端并非完全保密，后台人员可能对其逐条审阅。上述说法来自媒体报道，来源未提供微软的回应或确认。",
+  "score": 7,
+  "tags": [
+    "Microsoft Copilot",
+    "AI privacy",
+    "content moderation",
+    "trust and safety",
+    "outsourced labor"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.404media.co/humans-reading-copilot-prompts-images/",
+  "originalSite": "404media.co",
+  "context": "主流生成式 AI 服务通常同时依赖自动化过滤与人工审核：为评估模型输出效果并排查违规内容，厂商会把部分用户提示词、上传图片及模型生成结果送入人工复核流程。404 Media 获得的内部文件，以及 Cybernews、Malwarebytes 的后续报道均显示，Copilot 的图片生成与编辑功能也采用这种人工审核方式，因此用户与 Copilot 的对话和上传内容并非端到端保密。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Depraved Microsoft Copilot prompts reviewed by human contractors",
+      "url": "https://cybernews.com/ai-news/copilot-human-reviewers-sexual-ai-content-prompts/"
+    },
+    {
+      "title": "Humans Are Reading Copilot Prompts — And They&#x27;re Horrified",
+      "url": "https://www.404media.co/humans-reading-copilot-prompts-images/"
+    },
+    {
+      "title": "Humans are reviewing Copilot users&#x27; bizarre and... | Malwarebytes",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/09/humans-are-reviewing-copilot-users-bizarre-and-abusive-image-editing-requests"
+    },
+    {
+      "title": "IHRB - Content moderation is a new factory floor of ...",
+      "url": "https://www.ihrb.org/latest/content-moderation-is-a-new-factory-floor-of-exploitation-labour-protections-must-catch-up"
+    },
+    {
+      "title": "Labor Exploitation in AI Sector - antitraffickingresponse.org",
+      "url": "https://www.antitraffickingresponse.org/wp-content/uploads/2026/02/Fact-Sheet-Labor-exploitation-AI-industry.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

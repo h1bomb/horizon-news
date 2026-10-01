@@ -1,0 +1,44 @@
+{
+  "id": "1ba247747c750f6cabcbb2cf59f30dc61ce21bc4",
+  "canonicalId": "637eb1ce0081325a2bea3917d96fb005f0ebdc7e",
+  "slug": "b-站开源-index-translate-多语言翻译模型",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T14:08:00Z",
+  "lang": "zh",
+  "title": "B 站开源 Index-Translate 多语言翻译模型",
+  "summary": "哔哩哔哩 Index LLM 团队于 9 月 30 日开源 Index-Translate 多语言翻译模型家族，并已在 Hugging Face 与 ModelScope 放出 2B、9B 和 35B-A3B（preview）文本模型权重。该系列基于 Qwen3.5 构建，支持 150 种语言，并支持术语、格式和保留内容等翻译指令。团队还表示模型能力扩展至语音、音节可控翻译和长文档翻译，但现有材料未给出基准测试或技术细节。",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "translation",
+    "LLM",
+    "multilingual",
+    "model-release"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/1/008/914.htm",
+  "originalSite": "ithome.com",
+  "context": "Index-Translate 是哔哩哔哩 Index LLM 团队基于 Qwen3.5 主干构建的多语言翻译模型家族。其 GitHub 仓库与官方页面显示，除文本翻译模型外，还有面向语音转写与语音到语音翻译的 Echo、音节可控配音的 Homura 以及整篇文档翻译的 NativeLong 等独立检查点。官方介绍称团队在把翻译能力泛化到低资源语言的同时，重点打磨指令遵循与网络流行语翻译，以贴近真实使用场景。",
+  "discussion": "对开发者而言，2B 和 9B 权重已开放下载，可用于部署测试；35B-A3B 标注为 preview，选用时应将其视为预览版本而非稳定生产版本。",
+  "references": [
+    {
+      "title": "GitHub - bilibili/Index-Translate",
+      "url": "https://github.com/bilibili/Index-Translate"
+    },
+    {
+      "title": "Index-translate: Bringing Meaning Across Languages, from Text ...",
+      "url": "https://index-translate.bilibili.com/"
+    },
+    {
+      "title": "Bilibili Open-Sources Index-Translate 35B MoE for 150 ...",
+      "url": "https://aiweekly.co/alerts/bilibili-open-sources-index-translate-35b-moe-for-150-languages"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

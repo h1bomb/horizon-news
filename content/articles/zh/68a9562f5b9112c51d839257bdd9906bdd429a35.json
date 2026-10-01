@@ -1,0 +1,40 @@
+{
+  "id": "68a9562f5b9112c51d839257bdd9906bdd429a35",
+  "canonicalId": "16d3fa97285977d54e6d5c951d514341a88e7834",
+  "slug": "kimi-k3-经-baseten-接入-openai-codex-企业付费通道",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T11:23:00Z",
+  "lang": "zh",
+  "title": "Kimi K3 经 Baseten 接入 OpenAI Codex 企业付费通道",
+  "summary": "美国 AI 基础设施公司 Baseten 宣布，企业用户可在 OpenAI 的编程工具 Codex 中使用中国开源模型 Kimi K3，相关调用费用直接计入企业已有的 OpenAI 采购承诺额度，无需新增供应商采购流程。36 氪报道称，这意味着 Kimi K3 进入 OpenAI 企业客户的主流付费结算通道，也是中国开源模型首次进入这一企业采购体系。该消息来自一则简短快讯，未披露具体技术细节，也没有独立验证，Baseten 与 OpenAI 之间该接入的覆盖范围与生效时间均不明确。",
+  "score": 7,
+  "tags": [
+    "Kimi K3",
+    "OpenAI Codex",
+    "enterprise AI procurement",
+    "open-source models",
+    "AI coding tools"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://36kr.com/newsflashes/4005691489112198",
+  "originalSite": "36kr.com",
+  "context": "据 Baseten 与 OpenAI 的合作说明，OpenAI 企业客户可以动用既有的采购承诺额度，调用由 Baseten 托管的开源模型，使用入口包括 Codex 和 Responses API，这正是本次 Kimi K3 计费方式得以成立的机制基础（tool-2-2）。Horizon 9 月 22 日的日报曾报道，Amazon Bedrock 接入 Kimi K3，月之暗面以按调用量分成的方式向海外云厂商输出模型能力，当时未披露分成比例、定价或可用区域（tool-1-1）；与那次经云厂商自有平台上架不同，本次的关键变化是分发与计费落到了 OpenAI 的企业采购结算通道。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-09-22 — AWS Bedrock 接入 Kimi K3，月之暗面与海外云厂商分成模式落地",
+      "url": "https://36kr.com/newsflashes/3992769217428488"
+    },
+    {
+      "title": "Announcing our partnership with OpenAI",
+      "url": "https://www.baseten.co/blog/baseten-openai-partnership/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

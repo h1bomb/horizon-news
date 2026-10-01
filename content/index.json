@@ -1,6 +1,159 @@
 {
   "articles": [
     {
+      "id": "361d5a94730a3f4af3dc153f7f371a62e2f36b13",
+      "canonicalId": "9e57e69aee78667d7c2d81cadc59430fc2302453",
+      "slug": "谷歌发布-gemini-4-argon暂限早期测试者",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "谷歌发布 Gemini 4 Argon，暂限早期测试者",
+      "score": 9,
+      "tags": [
+        "Gemini 4 Argon",
+        "large language models",
+        "AI model releases",
+        "Google AI",
+        "AI competition"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "651fa41749c3725fd0110f273e3e34e1f12eb6a3",
+      "canonicalId": "f9d283d850cc3a9188564c3d8f1687eda5b6a95d",
+      "slug": "you-said-no-mcpmcp-立场反转引争论",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "《You said no MCP》：MCP 立场反转引争论",
+      "score": 7,
+      "tags": [
+        "Model Context Protocol",
+        "AI tooling",
+        "developer tools",
+        "LLM agents",
+        "Hacker News discussion"
+      ],
+      "originalSite": "earendil.com"
+    },
+    {
+      "id": "1faa754f2359472ae430a1a1fc016451eee02e13",
+      "canonicalId": "f5de8c0fcf346920be160ee56627b1db112e3893",
+      "slug": "fossy-2026google-与-igalia-的-chromium-开发对比",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "FOSSY 2026：Google 与 Igalia 的 Chromium 开发对比",
+      "score": 7,
+      "tags": [
+        "Chromium",
+        "open source",
+        "browser development",
+        "software engineering culture",
+        "corporate open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "d7b90f45d188571dc9b24696491fafc1ef0c1225",
+      "canonicalId": "03c14955cb01ec9421e38b582de3ab750b05d773",
+      "slug": "特朗普与六大科技公司签署一页-ai-安全协议",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "特朗普与六大科技公司签署一页 AI 安全协议",
+      "score": 7,
+      "tags": [
+        "AI安全",
+        "AI治理",
+        "科技政策",
+        "大模型",
+        "行业协议"
+      ],
+      "originalSite": "zaobao.com.sg"
+    },
+    {
+      "id": "ad2451e3365b55f1fe4091b29dd9b778ba6ee088",
+      "canonicalId": "d385a22532007727d05c18ef84afa76fa59deca2",
+      "slug": "cloudflare-宣布计划成为公共证书颁发机构",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "Cloudflare 宣布计划成为公共证书颁发机构",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "Public CA",
+        "TLS certificates",
+        "Post-Quantum",
+        "ACME"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "3baa1e95d8b311e983e4b2abee9054de50f7f09d",
+      "canonicalId": "7808c62cb7368ce09bd64619446a721d7a077a47",
+      "slug": "报道微软雇数百外包工评估-copilot-图像生成内容",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "报道：微软雇数百外包工评估 Copilot 图像生成内容",
+      "score": 7,
+      "tags": [
+        "Microsoft Copilot",
+        "AI privacy",
+        "content moderation",
+        "trust and safety",
+        "outsourced labor"
+      ],
+      "originalSite": "404media.co"
+    },
+    {
+      "id": "68a9562f5b9112c51d839257bdd9906bdd429a35",
+      "canonicalId": "16d3fa97285977d54e6d5c951d514341a88e7834",
+      "slug": "kimi-k3-经-baseten-接入-openai-codex-企业付费通道",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "Kimi K3 经 Baseten 接入 OpenAI Codex 企业付费通道",
+      "score": 7,
+      "tags": [
+        "Kimi K3",
+        "OpenAI Codex",
+        "enterprise AI procurement",
+        "open-source models",
+        "AI coding tools"
+      ],
+      "originalSite": "36kr.com"
+    },
+    {
+      "id": "1ba247747c750f6cabcbb2cf59f30dc61ce21bc4",
+      "canonicalId": "637eb1ce0081325a2bea3917d96fb005f0ebdc7e",
+      "slug": "b-站开源-index-translate-多语言翻译模型",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "B 站开源 Index-Translate 多语言翻译模型",
+      "score": 7,
+      "tags": [
+        "open-source",
+        "translation",
+        "LLM",
+        "multilingual",
+        "model-release"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "ca54244f7f6c74e93510f5dabca7f67125de246a",
+      "canonicalId": "e189d148aef66b39fa65a9ba98b4dcbd55654f38",
+      "slug": "doordash-的-agent-gateway企业-ai-工具访问治理",
+      "date": "2026-10-01",
+      "lang": "zh",
+      "title": "DoorDash 的 Agent Gateway：企业 AI 工具访问治理",
+      "score": 6,
+      "tags": [
+        "MCP",
+        "AI agents",
+        "agent gateway",
+        "OAuth",
+        "observability"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
       "id": "67e0386df765c6cabbde3da9e2933703c412329c",
       "canonicalId": "dcd46da33dcb96e84afc9ff4efd2cb6590e16ec2",
       "slug": "web-与移动端对话式-ai-代理隐私分析",
@@ -4531,243 +4684,6 @@
         "regulation change"
       ],
       "originalSite": "m.cnfin.com"
-    },
-    {
-      "id": "68edf4d0eb32e6ba65520b1706fb803f684e2169",
-      "canonicalId": "313e6f4d324a84535890cbace30ebe54d4aafe09",
-      "slug": "谷歌移除-mv2-扩展ublock-origin-下架",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "谷歌移除 MV2 扩展，uBlock Origin 下架",
-      "score": 8,
-      "tags": [
-        "chrome",
-        "manifest-v3",
-        "ad-blocking",
-        "ublock-origin",
-        "firefox"
-      ],
-      "originalSite": "webiterate.dev"
-    },
-    {
-      "id": "2e7a20059ad27983a0888d6b3636592bc89dc0a9",
-      "canonicalId": "e51a24d1c3de935913ce20042b54f74f53d58a3d",
-      "slug": "linux-73-合并窗口收官提交量创历史第二",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "Linux 7.3 合并窗口收官：提交量创历史第二",
-      "score": 8,
-      "tags": [
-        "linux-kernel",
-        "merge-window",
-        "operating-systems",
-        "kernel-development",
-        "lwn"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "d4fe9943e4b934c0c93e5ac59461f00b6ce0cffa",
-      "canonicalId": "dd101b4bf9029aef2637005ac244645595e071fc",
-      "slug": "库克卸任苹果-ceo特努斯接棒主打-ai-与折叠屏",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "库克卸任苹果 CEO，特努斯接棒主打 AI 与折叠屏",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "CEO transition",
-        "AI strategy",
-        "foldable iPhone",
-        "Siri"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "b7c83886278cd8a72d47c2e90de754bfdcba2054",
-      "canonicalId": "95a2ddd09c0769fb7c14015b2dd327a95521f815",
-      "slug": "nat-与互联网中心化历史反思与技术争论",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "NAT 与互联网中心化：历史反思与技术争论",
-      "score": 7,
-      "tags": [
-        "NAT",
-        "networking",
-        "internet architecture",
-        "centralization",
-        "systems"
-      ],
-      "originalSite": "dreamstation.systems"
-    },
-    {
-      "id": "4c501b50b30c3c67e0b6620f599c207f174177c6",
-      "canonicalId": "a8080320e24b3f3336c3e2e3bfcd1ab7a9d40219",
-      "slug": "openclaw-20史上最大更新16-万-pr",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "OpenClaw 2.0：史上最大更新，1.6 万 PR",
-      "score": 7,
-      "tags": [
-        "open source",
-        "AI assistant",
-        "software release",
-        "collaboration"
-      ],
-      "originalSite": "openclaw.ai"
-    },
-    {
-      "id": "938c7d54d79b8c16235834b7afebc4d3917c1c23",
-      "canonicalId": "9f32692ecb45fd59e9d552327e8e54efb2819b0a",
-      "slug": "deepseek-发布-v4-flash-视觉实验版权重",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "DeepSeek 发布 V4-Flash 视觉实验版权重",
-      "score": 7,
-      "tags": [
-        "deepseek",
-        "multimodal",
-        "vision-language-model",
-        "machine-learning",
-        "huggingface"
-      ],
-      "originalSite": "huggingface.co"
-    },
-    {
-      "id": "d142f0eabdcc431bd1e89e6b30fd6c7fb4c35440",
-      "canonicalId": "f086abec2927775f202c71109ca392499be2c2bc",
-      "slug": "寒序科技公布-mram-推理路线uhbm-带宽-24tbs",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "寒序科技公布 MRAM 推理路线：uHBM 带宽 24TB/s",
-      "score": 7,
-      "tags": [
-        "MRAM",
-        "AI inference",
-        "hardware",
-        "uHBM",
-        "processing-in-memory"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "d4104c9eac5c0a8f477b6373dd4cc36afd883595",
-      "canonicalId": "d9dd76da60bf1885893a85b88163b19d043e6772",
-      "slug": "欧盟将-chatgptredditroblox-列为超大型服务",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "欧盟将 ChatGPT、Reddit、Roblox 列为超大型服务",
-      "score": 7,
-      "tags": [
-        "EU regulation",
-        "Digital Services Act",
-        "ChatGPT",
-        "online platforms",
-        "tech policy"
-      ],
-      "originalSite": "euronews.com"
-    },
-    {
-      "id": "53d2356b1ac0d3dc4221835638a97e59ca333036",
-      "canonicalId": "5a5240101ab873d95e272eac6b0f6b6ff65071e3",
-      "slug": "按下回车后聊天机器人内部发生了什么",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "按下回车后，聊天机器人内部发生了什么",
-      "score": 8,
-      "tags": [
-        "LLM inference",
-        "context engineering",
-        "tokenization",
-        "KV cache",
-        "AI systems"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "44b526ae6f37dc3cf3ff8aa1976e196218673c68",
-      "canonicalId": "305c45c1a95f4fc178f17bc3b15152bcbad1f8cb",
-      "slug": "claude-science-与-bionemo-nim-的蛋白质结构预测工作流",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "Claude Science 与 BioNeMo NIM 的蛋白质结构预测工作流",
-      "score": 8,
-      "tags": [
-        "protein structure prediction",
-        "multiple sequence alignment",
-        "BioNeMo",
-        "agentic AI",
-        "Claude Science"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "c0caaa9ffccba0810f71551cb9bf408e74d80d25",
-      "canonicalId": "c6ff01b6b74c4324de1c9e0f3881d79b2feab1ee",
-      "slug": "沃什鹰派讲话后市场大幅押注美联储-9-月加息",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "沃什鹰派讲话后，市场大幅押注美联储 9 月加息",
-      "score": 8,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "interest rates",
-        "inflation",
-        "market expectations"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "974d9450ee69ab7f76f6f438be3a68c906c20c91",
-      "canonicalId": "4f59127b8eb9f7f2c8daac9e4b01d4ddd5afea3a",
-      "slug": "aon-以-170-亿美元收购-usi打造美国中端市场保险平台",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "Aon 以 170 亿美元收购 USI，打造美国中端市场保险平台",
-      "score": 8,
-      "tags": [
-        "Aon",
-        "USI",
-        "mergers and acquisitions",
-        "insurance brokerage",
-        "middle market"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "01177760b0bfa506172993aa0965a526848f4416",
-      "canonicalId": "a79bda03f54649ddd652b231bc96117922a5e54b",
-      "slug": "华为-2026-年上半年净利润同比降-37",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "华为 2026 年上半年净利润同比降 37%",
-      "score": 8,
-      "tags": [
-        "Huawei",
-        "earnings",
-        "semiconductors",
-        "smartphones",
-        "cash flow"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "310f4e2dc39e3a79a2116f9528d9c1b138c9dff0",
-      "canonicalId": "157769372f968f64c3e519adf073105d27294052",
-      "slug": "中国法院冻结安世半导体约-3-亿美元资产闻泰索赔-80-亿元",
-      "date": "2026-09-01",
-      "lang": "zh",
-      "title": "中国法院冻结安世半导体约 3 亿美元资产，闻泰索赔 80 亿元",
-      "score": 8,
-      "tags": [
-        "semiconductor",
-        "asset freeze",
-        "litigation",
-        "Nexperia",
-        "Wingtech"
-      ],
-      "originalSite": "reuters.com"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": "651fa41749c3725fd0110f273e3e34e1f12eb6a3",
+  "canonicalId": "f9d283d850cc3a9188564c3d8f1687eda5b6a95d",
+  "slug": "you-said-no-mcpmcp-立场反转引争论",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T09:55:00Z",
+  "lang": "zh",
+  "title": "《You said no MCP》：MCP 立场反转引争论",
+  "summary": "一篇题为《You said no MCP》的博文在 Hacker News 引发讨论，核心是作者公开改变此前对 MCP（Model Context Protocol）的拒绝立场。评论者围绕 MCP 与 CLI 的取舍展开争论，有人称早在 2026 年 3 月就认为 MCP 会胜出，并批评当时将 MCP 判死、力推 CLI 的舆论忽视了安全、可观测性/遥测和部署运维等因素。另有开发者报告已在 rcmd、Clop、Lunar 等 macOS 应用中集成 MCP，用于通过自然语言配置工具。博文本身未提供可验证的新版本或性能数据，讨论主要停留在立场反转与实践经验层面。",
+  "score": 7,
+  "tags": [
+    "Model Context Protocol",
+    "AI tooling",
+    "developer tools",
+    "LLM agents",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "yarapavan",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49906637"
+    }
+  ],
+  "originalUrl": "https://earendil.com/posts/you-said-no-mcp/",
+  "originalSite": "earendil.com",
+  "context": "MCP 与 CLI 的路线之争在此前已有公开交锋：Horizon 的 2026 年 3 月 2 日日报曾收录一篇引发社区讨论的文章，集中比较 MCP 服务器与传统 CLI 工具在 AI 智能体工作流中的可靠性、成本和集成复杂度（tool-1-1）。本次文章作者此前也在 pi.dev 上明确声明 Pi 不支持 MCP，并在相关播客中多次表达对 MCP 的否定（tool-2-1），这使当前立场转变成为讨论焦点。",
+  "discussion": "对 macOS 应用开发者，评论者 alin23 报告把 MCP 用于 rcmd、Clop、Lunar 等应用后，用户可用自然语言配置原本复杂的工具行为；这说明 MCP 的采用场景可能不限于编码助手，但评论中提到的安全、可观测性/遥测和部署运维权衡仍需在集成前评估。\n\n评论区的分歧在于是否应为 MCP 的普及性容忍其缺陷：\\_fw 承认 MCP 次优，但类比 USB-C、NVMe、HDMI，认为广泛兼容和易用性更重要且会逐步改进，而 CharlieDigital 则认为 2026 年 3 月把 MCP 判死、力推 CLI 的舆论忽视了安全、可观测性和运维。gk1 则赞赏团队公开承认立场反转，并引用 Armin 关于强观点与过时论据的论述。",
+  "references": [
+    {
+      "title": "2026-03-02 — Technical debate: When to use Model Context Protocol (MCP) versus CLI tools for AI agents",
+      "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html"
+    },
+    {
+      "title": "“ You Said No MCP !” | Earendil",
+      "url": "https://earendil.com/posts/you-said-no-mcp/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

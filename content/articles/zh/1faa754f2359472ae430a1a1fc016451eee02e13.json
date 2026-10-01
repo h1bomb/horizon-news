@@ -1,0 +1,36 @@
+{
+  "id": "1faa754f2359472ae430a1a1fc016451eee02e13",
+  "canonicalId": "f5de8c0fcf346920be160ee56627b1db112e3893",
+  "slug": "fossy-2026google-与-igalia-的-chromium-开发对比",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T14:16:00Z",
+  "lang": "zh",
+  "title": "FOSSY 2026：Google 与 Igalia 的 Chromium 开发对比",
+  "summary": "在 FOSSY 2026 最后一天，现任 Igalia 开发者的 Sharon Yang 讲述了她在 Google Chrome 团队工作六年后转投 Igalia 的经历，比较两家公司如何影响 Chromium 的开发方式。她指出两者规模悬殊：Google 约 18 万名员工、去年营收逾 4000 亿美元，Igalia 约 180 人、营收不到 10 亿美元，且 Igalia 由员工持股、全球全员同薪。尽管实体差异巨大，她在两边使用同一个 Chromium 代码仓库、通过同样的 Slack 等渠道与同一批人协作，部分 Igalia 工作（经由 Linux Foundation 项目）的资金也间接来自 Google。她描述的外部贡献者摩擦包括：Chromium 快速构建系统对 Google 员工即时可用、外部用户须申请；一次 bug 追踪器迁移后，本应公开的 bug 仅对 Google 员工可见，她大约每周要处理一次访问权限；部分信息存于未共享的 Google Docs 中，bug 追踪等工具由 Google 维护，外部无法反馈需求。项目类型也不同：Google 侧重管理链看重的功能或指标，Igalia 承接的多为代码健康与技术债类工作，例如组件化 Chromium 代码库，以及当前的浏览器间 web-platform-test 互操作性改进。",
+  "score": 7,
+  "tags": [
+    "Chromium",
+    "open source",
+    "browser development",
+    "software engineering culture",
+    "corporate open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1094721/",
+  "originalSite": "lwn.net",
+  "context": "Chromium 是 Google Chrome 及其他浏览器所基于的开源项目，而 Google Chrome 在此基础上加入了 DRM、AI 集成等专有部分；Igalia 则是一家员工持股的开源咨询合作社，也是 Chromium 最大的非浏览器厂商贡献者。Sharon Yang 在 Google 工作六年后转入 Igalia，仍在同一 Chromium 仓库并使用许多相同工具，这使她能够从内部比较两种组织模式对开发流程的影响。",
+  "discussion": "对 Google 以外的 Chromium 贡献者及下游浏览器项目来说，实际后果是需要额外申请快速构建系统的访问权限，并周期性处理本应公开的 bug 不可见的问题，这增加了参与成本。演讲者称这些属于「相对轻微」的摩擦、修正也不难，但来源未给出任何修复计划或政策变更。",
+  "references": [
+    {
+      "title": "Igalia at FOSSY 2026 | Igalia",
+      "url": "https://www.igalia.com/2026/08/06/Igalia-at-FOSSY-2026.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

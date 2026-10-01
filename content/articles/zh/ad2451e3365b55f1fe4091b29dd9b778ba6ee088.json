@@ -1,0 +1,44 @@
+{
+  "id": "ad2451e3365b55f1fe4091b29dd9b778ba6ee088",
+  "canonicalId": "d385a22532007727d05c18ef84afa76fa59deca2",
+  "slug": "cloudflare-宣布计划成为公共证书颁发机构",
+  "date": "2026-10-01",
+  "publishedAt": "2026-09-30T06:26:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 宣布计划成为公共证书颁发机构",
+  "summary": "Cloudflare 宣布计划成为公共证书颁发机构，已申请加入 Chrome、Apple、Microsoft 和 Mozilla 的根证书计划，并与 GlobalSign 签署协议收购一个受广泛信任的根证书。该公司表示目前尚未开始签发证书。新 CA 将优先支持 ACME 自动签发和续期，并计划在 2027 年第一季度签发生产级默克尔树证书（MTC），以服务后量子互联网。",
+  "score": 7,
+  "tags": [
+    "Cloudflare",
+    "Public CA",
+    "TLS certificates",
+    "Post-Quantum",
+    "ACME"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Cloudflare 大约十二年前推出 Universal SSL，让大量站点获得 TLS 证书，但证书签发一直依赖外部证书颁发机构；此次它并未选择自建根证书，而是通过收购 GlobalSign 的公开受信任根证书密钥材料来取得信任基础（tool-2-2、tool-2-3）。后量子准备是这次计划中 MTC 部分的直接动因：Horizon 2026 年 8 月 25 日的日报曾报道，量子计算对 ECDSA 等公钥密码的威胁在加速，主流浏览器已默认启用 X25519MLKEM768 混合密钥交换，而 Cloudflare 计划 2027 年第一季度签发的生产级默克尔树证书正对应这一迁移方向（tool-1-1）。",
+  "discussion": "对依赖 ACME 自动化的开发者和运维团队而言，现在还没有可切换的新证书来源：Cloudflare 尚未签发证书，且需先获根证书计划信任；若后续按计划开放签发，它可能成为现有 CA 之外的一个自动化选项。2027 年 Q1 的生产级 MTC 目前仍是公告中的计划，而非已交付能力。",
+  "references": [
+    {
+      "title": "2026-08-25 — 量子计算威胁 ECDSA，软件需提前迁移后量子密码",
+      "url": "https://lwn.net/Articles/1088305/"
+    },
+    {
+      "title": "Building a certificate authority for the whole Internet",
+      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/"
+    },
+    {
+      "title": "Cloudflare Certificate Authority: What It Means | My-SSL",
+      "url": "https://my-ssl.com/learn/cloudflare-certificate-authority"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
