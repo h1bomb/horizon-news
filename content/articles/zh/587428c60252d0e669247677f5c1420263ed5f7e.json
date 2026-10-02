@@ -1,0 +1,52 @@
+{
+  "id": "587428c60252d0e669247677f5c1420263ed5f7e",
+  "canonicalId": "6860a783c56445b7bbf043ee738bdd2978990b87",
+  "slug": "reddit-将停用-rss-订阅并关闭公开-api",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T00:27:00Z",
+  "lang": "zh",
+  "title": "Reddit 将停用 RSS 订阅并关闭公开 API",
+  "summary": "Reddit 宣布将于 11 月 13 日停止 RSS 订阅支持，并在 2027 年 3 月关闭公开 API，理由是这些渠道已成为大规模抓取与自动化滥用的常见入口，尤其是 AI 机器人。公司建议版主改用 Discord Relay，并提醒第三方应用与机器人开发者须在 2027 年 1 月 12 日前完成注册，否则将被移除 API 访问权限。上述内容为 Reddit 公布的计划与截止日期，RSS 与公开 API 目前尚未关闭，第三方开发者能否在注册后继续获得同等访问权限也未在现有信息中说明。",
+  "score": 8,
+  "tags": [
+    "Reddit",
+    "API access",
+    "RSS",
+    "AI scraping",
+    "platform policy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+  "originalSite": "techcrunch.com",
+  "context": "RSS（Really Simple Syndication / Rich Site Summary）是一种标准化的网站更新订阅格式，让用户和第三方应用以统一方式获取网站内容，Reddit 此前也把它作为公开订阅入口之一。Reddit 给出的停用理由是 RSS 已成为大规模抓取和自动化滥用、尤其是 AI 机器人的常见渠道；Horizon 5 月 14 日的日报曾报道同类举措——Cloudflare 默认屏蔽 AI 爬虫抓取、Google 收紧免费搜索层级并计划于 2027 年 1 月 1 日关停——说明平台收紧自动化访问并非孤例。",
+  "discussion": "依赖 Reddit 数据的第三方应用、机器人和 RSS 阅读器将面临实际中断：RSS 订阅支持于 11 月 13 日停止，公开 API 于 2027 年 3 月关闭。获批的第三方应用与机器人开发者必须在 2027 年 1 月 12 日前完成注册，否则其 API 访问权限将被移除；受影响的还包括研究工具、社交监听产品以及读取 Reddit 内容的 AI 系统。",
+  "references": [
+    {
+      "title": "2026-05-14 — Google Shuts Free Search, Cloudflare Blocks AI Bots: Community Seeks Alternatives",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tcaboi/websearch_is_coming_to_a_screeching_performance/"
+    },
+    {
+      "title": "Reddit is killing RSS feeds and ending public API ... | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+    },
+    {
+      "title": "Reddit is killing RSS feeds and ending public API ... | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+    },
+    {
+      "title": "Reddit Ends RSS on 13 November, Public API Closes March 2027",
+      "url": "https://www.how2shout.com/news/reddit-rss-public-api-shutdown-dates.html"
+    },
+    {
+      "title": "Reddit Ends RSS Feeds Amid AI Scraping Crackdown",
+      "url": "https://superintelligencenews.com/ai-fields/large-language-models/reddit-rss-feeds-ai-scraping-crackdown/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

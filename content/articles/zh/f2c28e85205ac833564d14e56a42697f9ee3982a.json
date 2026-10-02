@@ -1,0 +1,45 @@
+{
+  "id": "f2c28e85205ac833564d14e56a42697f9ee3982a",
+  "canonicalId": "317971da35b148b97cc4914c72e77fb99e55982a",
+  "slug": "cloudflare-发布-clef-开放权重决策模型与-rl-微调平台",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T16:18:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 发布 Clef 开放权重决策模型与 RL 微调平台",
+  "summary": "Cloudflare 宣布推出名为 Clef 的开放权重决策模型，并发布新的强化学习（RL）微调平台，面向需要部署决策模型或进行 RL 微调的 ML 工程师。现有条目未给出模型版本、许可条款、输出定价或平台可用性等厂商细节；Hacker News 讨论则集中在它与名为 Jev 的同类方案之间的价格差、开放权重不等于可复现开源，以及 Clef 基于 Qwen 系列模型等具体问题上。",
+  "score": 7,
+  "tags": [
+    "open-weight models",
+    "RL fine-tuning",
+    "Cloudflare",
+    "AI pricing",
+    "open source licensing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jasondavies",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49923692"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/clef-decision-models/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "Horizon 2026 年 9 月 16 日的日报曾报道 Typesafe.ai 发布 System One Models 与 Jev，将其定位为不做通用文本生成、而是返回类型化概率输出（0 到 1 的置信度、选项上的概率分布、数值评分）的“决策模型”（tool-1-2）；9 月 22 日的日报进一步记录，Jev 只按输入 token 计费、输出免费，首个模型价格为每百万输入 token 0.042 美元，且当时尚无公开架构、基准或独立验证（tool-1-1）。Cloudflare 的 Clef 与 Clef-flash 属于同一决策模型范式，区别在于它们托管在 Workers AI 上、面向高速分类与 agent 工作流，并同时发布一个可用自有数据微调决策模型的强化学习平台（tool-2-1）。",
+  "discussion": "对考虑采用 Clef 的团队，评论中的成本估算显示按每次 300 tokens 计算，一百万次决策在 Clef 上约需 72 美元，而在 Jev 上约需 12.60 美元，因此具备资源与能力的团队可能更适合自托管 Clef；需要审计或复现训练流程的团队则要留意它只开放权重，未公开数据和训练管线。\n\n评论者就 Clef 的定价与开放性展开争论：ssiddharth 指出 Clef 每百万输入 token 0.24 美元约为 Jev 的 6 倍，但 Clef-flash 的 0.09 美元更具竞争力；buildbuildbuild 认为开放权重不是开源，因为数据与训练管线未公开。bityard 称 Clef 基于 Qwen3.8-27B，Clef-flash 基于 Qwen3.5-9B（他原先写的是 Qwen3.8-9B，后更正），manlymuppet 则询问该模型是否基于 Typesafe 的新范式，并称按 Typesafe 自身排名优于 Jev；这些说法均来自评论，未经来源确认。",
+  "references": [
+    {
+      "title": "2026-09-22 — TypeSafe AI 发布 Jev：返回类型化概率决策的决策模型",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/"
+    },
+    {
+      "title": "2026-09-16 — Typesafe.ai 发布 System One Models 与 Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+    },
+    {
+      "title": "Introducing Clef : our open -source decision models ... | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-decision-models/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "16cdbafc79c497034c5fd3696b9c5ab4c3521f8f",
+  "canonicalId": "a4d5be1f0220da1fb13b3143fa29fdbdce9f0baa",
+  "slug": "turbopuffer-博文rip-vector-database引发索引设计讨论",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T16:01:00Z",
+  "lang": "zh",
+  "title": "turbopuffer 博文《RIP, vector database》引发索引设计讨论",
+  "summary": "turbopuffer 发布了一篇题为《RIP, vector database》的工程博客，讨论把向量数据库作为独立抽象是否合理；评论中引用的博文内容称，v3 的关键改动是「不再以 ANN 地址作为索引键」，博文同时承认写放大已大到使索引吞吐调优开始出现收益递减。这一改动与构建检索和 AI 基础设施的工程师直接相关，但本条未提供博客正文，v3 的具体实现方式、发布时间与可用范围无法从现有材料确认。",
+  "score": 7,
+  "tags": [
+    "vector databases",
+    "database indexing",
+    "AI infrastructure",
+    "retrieval systems",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "razin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49923466"
+    }
+  ],
+  "originalUrl": "https://turbopuffer.com/blog/rip-vector-database",
+  "originalSite": "turbopuffer.com",
+  "context": "",
+  "discussion": "turbopuffer 官方页面称其是基于对象存储的向量与全文搜索数据库，支持数十亿向量并保持低延迟；评论中提到的 v3 索引设计变更（不再以 ANN 地址为键）意味着开发者升级或迁移前需重新评估重建索引成本与查询延迟之间的权衡。\n\n评论者 gopalv 把这次设计调整类比为从 Postgres 模式转向 MySQL 模式：两者的区别在于重建索引成本与查询成本的权衡，Postgres 更偏向优化查询。real\\_faxenoff 称自己在约 5000 万行代码的项目上试用主流向量数据库后对性能失望，最终改用在 SQLite 上构建的多数据库方案；gk1 则认为向量数据库的价值一直在于检索而非向量或存储本身，而 croemer 指出博客链接的 v3 仪表盘最后更新于 9 月 7 日、启动于 9 月 5 日，质疑其是否仍在推进。",
+  "references": [
+    {
+      "title": "RIP, vector database",
+      "url": "https://turbopuffer.com/blog/rip-vector-database"
+    },
+    {
+      "title": "Turbopuffer | LLMS3",
+      "url": "https://llms3.com/node/turbopuffer"
+    },
+    {
+      "title": "turbopuffer - fast search engine built on object storage",
+      "url": "https://turbopuffer.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

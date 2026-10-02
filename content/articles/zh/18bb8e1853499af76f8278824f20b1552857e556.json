@@ -1,0 +1,52 @@
+{
+  "id": "18bb8e1853499af76f8278824f20b1552857e556",
+  "canonicalId": "7abd4d2d77e4231c1b1c8d0904ddcc86d0c8d48d",
+  "slug": "deepmind-推出-synthid-bio为-ai-设计蛋白质嵌入水印",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T03:40:00Z",
+  "lang": "zh",
+  "title": "DeepMind 推出 SynthID Bio，为 AI 设计蛋白质嵌入水印",
+  "summary": "据 Ars Technica 报道，DeepMind 推出 SynthID Bio，能在 AI 设计的蛋白质氨基酸序列中嵌入可检测水印，用于识别可信来源并辅助生物安全筛查。研究人员将其与 ProteinMPNN 结合，仅在不影响蛋白质功能时采纳水印建议的氨基酸；相关 Nature 论文报告称，实验中的水印蛋白仍能与目标蛋白结合，检测效果也较好。但验证目前主要限于特定设计流程和少数目标，短蛋白、不同设计工具以及人为去除或稀释水印仍是局限。它是潜在的来源验证工具，不是能自动判断蛋白质是否危险的检测器。",
+  "score": 7,
+  "tags": [
+    "AI蛋白质设计",
+    "SynthID Bio",
+    "生物安全水印",
+    "ProteinMPNN",
+    "DeepMind"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+  "originalSite": "arstechnica.com",
+  "context": "SynthID 是 Google 已有的水印技术家族，此前主要用于标识 AI 生成的媒体内容：Horizon 9 月 24 日的日报曾报道，Gemini 3.8 文本转语音的声音复制功能就附带 SynthID 水印与 C2PA 凭证。SynthID Bio 把这一思路从音频等媒体延伸到生物序列，据 DeepMind 介绍，其验证流程将启用 SynthID Bio 的 ProteinMPNN（常用的蛋白质序列生成方法）与 AlphaProteo 结合，并在 VEGF-A、SARS-CoV-2 刺突蛋白 RBD 和 PD-L1 三个靶点上完成湿实验测试。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-09-24 — Gemini 3.8 文本转语音加入 30 秒声音克隆",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+    },
+    {
+      "title": "SynthID Bio: Watermarking methods for synthetic biology",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+    },
+    {
+      "title": "Introducing SynthID Bio : Google DeepMind Puts Watermarks Inside...",
+      "url": "https://www.remio.ai/post/introducing-synthid-bio-google-deepmind-puts-watermarks-inside-ai-designed-prote"
+    },
+    {
+      "title": "Innovation Enables Responsibility: Watermarking to Strengthen DNA ...",
+      "url": "https://www.nti.org/risky-business/innovation-enables-responsibility-watermarking-to-strengthen-dna-synthesis-screening/"
+    },
+    {
+      "title": "Google DeepMind’s watermarked AI proteins still work in the lab",
+      "url": "https://thenextweb.com/news/google-deepmind-synthid-bio-watermark-ai-designed-proteins"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

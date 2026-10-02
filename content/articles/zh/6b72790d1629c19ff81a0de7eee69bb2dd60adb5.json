@@ -1,0 +1,32 @@
+{
+  "id": "6b72790d1629c19ff81a0de7eee69bb2dd60adb5",
+  "canonicalId": "4f45a66ba9a41bdd5d4f9098fba9ece86694842c",
+  "slug": "cloudflare-k2对象存储上的无服务器事件流",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T14:09:00Z",
+  "lang": "zh",
+  "title": "Cloudflare K2：对象存储上的无服务器事件流",
+  "summary": "Cloudflare 宣布推出 K2，一种构建在对象存储之上的无服务器事件流服务，采用不同于 Kafka topic/partition 的流模型。该服务面向需要事件流但不想自行维护磁盘与分区的开发者。现有材料未披露具体版本、定价或正式可用性。",
+  "score": 7,
+  "tags": [
+    "serverless",
+    "event-streaming",
+    "cloudflare",
+    "object-storage",
+    "distributed-systems"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "elffjs",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49921923"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "传统事件流系统（如 Kafka）通常以 topic/partition 模型组织数据，消费者需要自行处理分区分配、偏移量与消费确认；评论者指出，这种建模方式对多数人而言存在不少陷阱和复杂度。Cloudflare K2 的定位是构建在对象存储之上的无服务器事件流服务，其设计刻意不沿用 Kafka 式的 topic/partition 路线，这也与评论中提到的“对象存储优先”架构趋势相呼应。",
+  "discussion": "对于考虑采用 K2 的开发者，现有材料没有给出它与 Kafka 客户端或既有事件流管道的兼容性细节；评论中讨论的 ack 语义意味着接入前需要确认消费者如何提交确认位点、是否必须确认整批数据，以及有序与无序消费的适用边界。\n\n评论者 psanford 认为对象存储正成为新的核心数据底座，并期待更多“对象存储优先”的系统；addisonj 则指出流系统本身复杂，Kafka 式 topic/partition 建模存在不少坑，把单条流做得便宜易用是一种简化。K2 技术负责人 necubi 在帖中回答提问，pcthrowaway 还追问为何要求消费者确认整批数据，而不是在 consume 请求中提交批尾 ID。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

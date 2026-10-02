@@ -1,0 +1,45 @@
+{
+  "id": "f7ca73d2f1e926656db72b9f1d98dc4e3928988f",
+  "canonicalId": "7a23387a9be1de75a62480545b9e3a55d4d739f6",
+  "slug": "多个项目在-esp32-中发现未公开-sdr-接收能力",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T15:07:00Z",
+  "lang": "zh",
+  "title": "多个项目在 ESP32 中发现未公开 SDR 接收能力",
+  "summary": "多个独立项目发现，ESP32 微控制器具有未公开的软件定义无线电（SDR）接收能力；相关实现目前将范围限制在仅接收（RX-only），并非 Espressif 官方发布或承诺的功能。现有信息尚未给出可验证的信号质量指标，讨论还提到认证、合规与出口管制可能影响这类能力能否继续存在。是否能在更多 ESP32 型号或通过官方接口使用，目前也没有确定结论。",
+  "score": 7,
+  "tags": [
+    "ESP32",
+    "software-defined radio",
+    "embedded systems",
+    "RF hacking",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nkw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49922674"
+    }
+  ],
+  "originalUrl": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+  "originalSite": "rtl-sdr.com",
+  "context": "软件定义无线电（SDR）指将射频信号数字化为 I/Q 基带采样后交由软件处理，而非依赖固定功能的专用收发芯片。ESP32 这类低成本微控制器的集成射频前端原本只支持固定的 Wi‑Fi 与蓝牙协议，并不向用户开放原始基带采样；此次多个项目利用的未公开工作模式，正是让固件绕过这些固定协议栈，直接输出原始 I/Q 基带采样。",
+  "discussion": "评论者大多持谨慎乐观态度：有人指出许多廉价无线 IC 都有未公开的 SDR 能力，但常因认证、合规和出口管制而不被文档化，ESP32 项目把范围限制在 RX-only 是正确做法，不过若任意 TX 也可行，Espressif 可能被迫修补。另有评论称目前把数据传给电脑仍依赖 FPGA+USB3，新的 ESP32-S31 的 1 GBit/s 接口或可支持约 20–40 MSPS，并认为这可能利好 13cm/5cm 业余无线电；还有人报告 eSpDR 项目在五天前修复了相位噪声问题。",
+  "references": [
+    {
+      "title": "Various Projects Independently Find Hidden SDR Capabilities in...",
+      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/comment-page-258/"
+    },
+    {
+      "title": "ESP32-S31 Series Datasheet",
+      "url": "https://documentation.espressif.com/esp32-s31_datasheet_en.html"
+    },
+    {
+      "title": "ESP32-S31 Dual-Core RISC-V + Multi-Protocol SoC",
+      "url": "https://www.espressif.com/en/products/socs/esp32-s31"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

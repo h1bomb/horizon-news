@@ -1,0 +1,44 @@
+{
+  "id": "42c8a5930a466b0d4c14d09b69953a8a6075abe0",
+  "canonicalId": "f796b39f9fcc2117565beb828789ebebf211430b",
+  "slug": "pi-10-发布面向本地模型的轻量-ai-编程代理",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T19:33:00Z",
+  "lang": "zh",
+  "title": "Pi 1.0 发布：面向本地模型的轻量 AI 编程代理",
+  "summary": "AI 编程代理 Pi 发布 1.0 版本，Hacker News 讨论获得 652 分和 216 条评论，但源条目除标题和相关链接外没有提供更新日志或技术细节。社区评论显示，Pi 的实用点集中在本地模型、极简系统提示词以及扩展/技能机制：有用户称它能在性能有限的笔记本上运行本地模型，而其他代理因庞大的系统提示词预填充过慢而难以使用。评论还提到 Pi 捆绑了 Anthropic 模型缓存预热功能、在模型推理时历史视图可能跳回开头，并有人希望它改成单个静态编译二进制而非 npm 全局安装；这些说法均来自用户，并非源条目的官方说明。",
+  "score": 7,
+  "tags": [
+    "AI coding agents",
+    "developer tools",
+    "local models",
+    "software releases"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sergiotapia",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49926069"
+    }
+  ],
+  "originalUrl": "https://earendil.com/posts/pi-1-0/",
+  "originalSite": "earendil.com",
+  "context": "Pi 是 Earendil 推出的 AI 智能体工具集：其 GitHub 仓库把它拆分为 pi-ai（统一的多提供商 LLM API，覆盖 OpenAI、Anthropic、Google 等）、pi-agent-core（带工具调用与状态管理的运行时）和 pi-coding-agent（交互式编码智能体 CLI）等包；其官网把 Pi 描述为基于终端的编码智能体，支持 skills 与 AGENTS.md 文件，并因系统提示词极小而在 token 使用上更省。Earendil 在 1.0 发布文章中表示，希望把 Pi 的极简风格延伸到编码智能体与终端之外，让它能从不同界面调用、并支持运行时间更长的对话与任务。",
+  "discussion": "评论区的分歧主要在打包与实现方式：有用户质疑 Anthropic 缓存预热为何必须捆绑在“最小化”代理中，也有人批评 Pi 用 TypeScript/Python 写成、内存占用高，希望提供省内存的静态二进制。另有用户表示 Pi 在本地模型上“几乎裸配置”运行数月，并提到推理期间历史视图跳回开头这一恼人 bug；这些是用户经验，不代表共识或官方确认。",
+  "references": [
+    {
+      "title": "Pi 1 . 0 | Earendil",
+      "url": "https://earendil.com/posts/pi-1-0/"
+    },
+    {
+      "title": "GitHub - earendil -works/ pi : AI agent toolkit: unified LLM API, agent ...",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "title": "A terminal-based coding agent",
+      "url": "https://pi.dev/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

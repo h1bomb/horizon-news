@@ -1,0 +1,31 @@
+{
+  "id": "66ab1c6b6ff3fd9b1258db4e4dbb97a15d6e895b",
+  "canonicalId": "98aa449f70f178545fafb5f3d3ef1b6bd8713e66",
+  "slug": "用-c-与-tensorrt-rtx-样例构建本地-ai-应用",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T17:59:00Z",
+  "lang": "zh",
+  "title": "用 C++ 与 TensorRT RTX 样例构建本地 AI 应用",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 10月1日 17:59\n\n**「背景」** 把 AI 模型嵌入本地应用，需要可移植模型格式、可靠运行时和跨目标系统的加速；作者介绍的 DIN Deploy 是 NVIDIA 开源 C++ 样例集，目标是打通从模型检查点到 Windows/Linux 原生应用的路径。\n\n**「方案」** 每个样例先用 Python 导出器从 Hugging Face 下载检查点并转成 ONNX，再由基于 ONNX Runtime（ORT）的原生 C++ CLI 运行，从而把模型转换与部署逻辑分开，并让应用不依赖模型专用运行时；同一 ORT API 也可通过 WinML 2.0 访问。共享代码主要使用 ORT 的 session 与 tensor API，CUDA 等厂商代码只出现在可选加速路径，支持所需 ORT tensor API 的执行提供程序都能复用；ORT 的 copy tensor API 管理数据局部性，FLUX.2 样例则用 ORT 1.25 的图形互操作配合 Vulkan 和 DirectX 做采样。仓库提供 Windows、Linux 及 Arm64 的 CMake 预设，DirectX 仅限 Windows，并默认下载 ONNX Runtime 与 TensorRT RTX。任务覆盖 ASR（Whisper 离线、Parakeet TDT 与 Nemotron ASR Streaming 流式）、SAM 2.1 图像/视频交互式掩码，以及 FLUX.2-klein-4B 提示词图像生成；后者用 NVIDIA Model Optimizer 做 PTQ，量化模型因 ONNX 接口不变可无代码改动替换。作者还给出 DGX Spark 上部分工作负载 GPU 相对 CPU 的加速（如 58.5x、39.01x、206.41x；SAM 2.1 为 38.3 FPS 对 0.5 FPS），但未说明测量方法。\n\n**「启示」** 作者的核心论点是，ORT 加 TensorRT RTX 执行提供程序为本地 C++ AI 应用提供了可移植、硬件加速且与模型转换解耦的落地路径，尤其适合已在 TensorRT RTX 上工作的开发者；但文章偏厂商概览，性能与取舍仍需读者自行验证。\n\n**标签**: `#ONNX Runtime`, `#TensorRT RTX`, `#C++ inference`, `#model deployment`, `#quantization`",
+  "score": 5,
+  "tags": [
+    "ONNX Runtime",
+    "TensorRT RTX",
+    "C++ inference",
+    "model deployment",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
+  "originalSite": "developer.nvidia.com",
+  "context": "把 AI 模型嵌入本地应用，需要可移植模型格式、可靠运行时和跨目标系统的加速；作者介绍的 DIN Deploy 是 NVIDIA 开源 C++ 样例集，目标是打通从模型检查点到 Windows/Linux 原生应用的路径。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

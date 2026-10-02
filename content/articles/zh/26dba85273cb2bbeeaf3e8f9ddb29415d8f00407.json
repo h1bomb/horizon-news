@@ -1,0 +1,48 @@
+{
+  "id": "26dba85273cb2bbeeaf3e8f9ddb29415d8f00407",
+  "canonicalId": "6a91381a429232e70fbbeaf70fa7952678ddb1b1",
+  "slug": "openai-称瓦解模型蒸馏活动指向月之暗面相关人员",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T01:18:00Z",
+  "lang": "zh",
+  "title": "OpenAI 称瓦解模型蒸馏活动，指向月之暗面相关人员",
+  "summary": "OpenAI 表示已瓦解一起协调性的模型蒸馏活动，攻击者通过操纵交互来提取受保护的推理内容。该活动最早出现在 2026 年 7 月初，7 月 24 日至 25 日达到高峰，涉及 4000 多名用户的 1.6 万次请求；截至 7 月 28 日，OpenAI 称已瓦解 1.5 万余名用户的相关活动。OpenAI 将核心活动归因于与月之暗面（Kimi 开发商）有关的人员，并表示已通过 Frontier Model Forum 等渠道与业界和政府共享信息。上述规模数字与归因均出自 OpenAI 的单方面陈述，目前没有独立证实。",
+  "score": 7,
+  "tags": [
+    "model distillation",
+    "OpenAI",
+    "Moonshot AI / Kimi",
+    "AI security &amp; IP",
+    "AI industry policy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+  "originalSite": "openai.com",
+  "context": "模型蒸馏的合法性此前已在业界引发公开争论：Horizon 2026 年 8 月 3 日的日报曾报道，微软牵头的《开放权重与美国 AI 领导力》公开信把蒸馏列为合法的模型开发技术，而 Anthropic 的 Dario Amodei 则呼吁打击工业化的蒸馏运营（tool-1-2）。Horizon 2026 年 9 月 10 日的日报还记载了一项指控 Qwen 3.8 疑似蒸馏自 GPT-5.5 Pro 的研究，但该结论基于被恢复的推理前缀，社区提出了同源训练数据等替代解释，并未得到确证（tool-1-3）。",
+  "discussion": "对参与 Frontier Model Forum 的厂商而言，这起事件的具体后果是攻击模式数据在主要实验室之间共享，使针对对抗性蒸馏的检测与封堵手段能够跨公司复用（tool-3-2）。但归因本身仍存争议：《环球时报》引述的评论指出，模型蒸馏的法律边界尚不清晰，且美国 AI 公司此前指控中国公司非法蒸馏时未能提供证据，因此这类指控在缺乏公开证据时难以支撑法律定性（tool-3-1）。",
+  "references": [
+    {
+      "title": "2026-08-03 — AI 公开信：企业支持开放权重，员工呼吁管控前沿",
+      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
+    },
+    {
+      "title": "2026-09-10 — 研究者称 Qwen 3.8 复现 GPT-5.5 Pro 推理前缀，或涉蒸馏",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3"
+    },
+    {
+      "title": "US AI companies reportedly zoom in on Chinese firms&#x27; model ...",
+      "url": "https://www.globaltimes.cn/page/202604/1358378.shtml?id=11"
+    },
+    {
+      "title": "US AI Labs Form Coalition to Block Model Theft",
+      "url": "https://nexchron.com/security/openai-anthropic-google-anti-distillation-coalition"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

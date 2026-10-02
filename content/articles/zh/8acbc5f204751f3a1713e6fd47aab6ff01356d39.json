@@ -1,0 +1,41 @@
+{
+  "id": "8acbc5f204751f3a1713e6fd47aab6ff01356d39",
+  "canonicalId": "f7c3330b4cdd1cbb0d8adf2831c9e4c12aa12a7c",
+  "slug": "streetcomplete-进入-ios-公测阶段",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T10:59:00Z",
+  "lang": "zh",
+  "title": "StreetComplete 进入 iOS 公测阶段",
+  "summary": "长期仅提供 Android 版本的 OpenStreetMap 简易编辑器 StreetComplete 已进入 iOS 公测。项目在 GitHub issue \\#5421 中宣布了这一消息，测试通过 Apple TestFlight 分发，评论中有人贴出了可直接加入的 TestFlight 邀请链接。该应用面向不具备 OSM 标注知识的普通用户，会自动寻找附近需要实地勘察的地点并以简单问题形式呈现，答案直接用于编辑 OpenStreetMap 数据。有评论引用项目说明称，iOS 版开发曾获德国联邦教育与研究部 Prototype Fund 第 15 轮（2024 年 3 月至 8 月）以及 NLnet 的资助。",
+  "score": 7,
+  "tags": [
+    "OpenStreetMap",
+    "open-source software",
+    "iOS",
+    "mobile app",
+    "crowdsourced mapping"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Snowly",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49920160"
+    }
+  ],
+  "originalUrl": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+  "originalSite": "github.com",
+  "context": "StreetComplete 是一款面向 OpenStreetMap 的简易编辑器，此前只有 Android 版本：用户无需掌握 OSM 标注体系，应用会把附近需要实地调查的地点显示为问题标记，并将回答直接用于编辑和改进 OSM 数据（tool-2-1）。据该项目在生态目录中的记录，NLnet 基金会曾以欧盟委员会资金分四轮资助开发，其中 2025 年的一笔资助用于把应用迁移为多平台版本，使其也能在 iOS 上运行（tool-2-2）。",
+  "discussion": "对 iPhone 用户而言，这使他们不必再依赖 Android 设备就能用同一套问答式任务贡献 OpenStreetMap 数据，编辑同样进入公共 OSM 数据并接受其他贡献者检视。由于尚处公测阶段，功能完整度与稳定性应以实际测试版本为准；测试通过 TestFlight 分发，参与者需使用该应用加入。\n\n评论整体持欢迎态度，有用户称 StreetComplete 是 Hacker News 上谈到 OpenStreetMap 时经常被推荐的入门工具。也有用户报告了不愉快经历：自己按任务在社区内实地调查并完成大量编辑后，被其他测绘者以“没有禁止通行的官方标志”等理由回退，认为这类争议性标注争论影响了贡献体验。",
+  "references": [
+    {
+      "title": "GitHub - prototypefund/runde8- 15 - StreetComplete : Easy to use...",
+      "url": "https://github.com/prototypefund/runde8-15-StreetComplete"
+    },
+    {
+      "title": "StreetComplete | Ecosystem Directory | market.dev",
+      "url": "https://explore.market.dev/ecosystems/android/projects/streetcomplete"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

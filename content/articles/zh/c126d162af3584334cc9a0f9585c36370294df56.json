@@ -1,0 +1,41 @@
+{
+  "id": "c126d162af3584334cc9a0f9585c36370294df56",
+  "canonicalId": "8d8c225d2284d88856c5451287d4794a51885b68",
+  "slug": "pi-durable面向无人值守长运行-ai-代理的持久化框架",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T19:24:00Z",
+  "lang": "zh",
+  "title": "Pi Durable：面向无人值守长运行 AI 代理的持久化框架",
+  "summary": "Pi Durable 是一个面向长期运行、可无人值守 AI 代理的持久化 agent harness，由 Pi 推出，目标是让代理在长时间任务中保持状态。评论者称其持久化主要依赖本地保存 JSON 文档并尽量减少内存中的上下文/数据（即使使用 SQLite 模式），沙箱则需要自带（BYO），目前没有内置策略引擎；这些描述来自社区讨论而非项目方独立验证。评论区还提到，不含测试的源码约 15,000 行，按 token 计在 GPT 下约 150,000、在 Claude 下约 250,000，差距显著。材料未给出具体版本号、独立性能测试或兼容性细节，相关链接指向 2026 年 10 月的 Pi 1.0 讨论（184 条评论）。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "durable execution",
+    "agent harness",
+    "long-running agents",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "paulsmith",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49925969"
+    }
+  ],
+  "originalUrl": "https://earendil.com/posts/pi-durable/",
+  "originalSite": "earendil.com",
+  "context": "Pi 是一个 AI agent 工具包（GitHub 上的 earendil-works/pi），包含统一的多模型 LLM API，以及带工具调用和状态管理的 agent 运行时；其编码智能体设计在（远程）机器的终端中运行，由单人驱动。Pi Durable 是它之上的 harness，并不替代 Pi 编码智能体，而是一个用来构建包括编码智能体在内任意智能体应用的框架。",
+  "discussion": "对开发者而言，当前材料显示 Pi Durable 把沙箱隔离交给使用者自带且缺少内置策略引擎，因此部署无人值守代理前需要自行补上隔离与权限控制；社区正讨论通过 NVIDIA openshell 扩展来满足这一需求。跨模型使用时也要重估上下文与成本预算：同一约 15,000 行源码的 token 估算在 GPT 与 Claude 间相差约 10 万。\n\n评论区有人最看重多用户能力，认为这能让远程控制工具更易实现，因为此前 TUI 占用实例时无法使用 ACP；也有人追问这类“无限运行”代理的实际用途。另有评论者将 Pi Durable 放入 LangChain Deep Agents、Vercel Eve、OpenAI Agents API、Anthropic Managed Agents 等持久化代理产品趋势中讨论，并对仅靠本地 JSON 持久化是否足够持保留态度。",
+  "references": [
+    {
+      "title": "Pi Durable | Earendil",
+      "url": "https://earendil.com/posts/pi-durable/"
+    },
+    {
+      "title": "GitHub - earendil -works/ pi : AI agent toolkit: unified LLM API, agent ...",
+      "url": "https://github.com/earendil-works/pi"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

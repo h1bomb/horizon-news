@@ -1,6 +1,260 @@
 {
   "articles": [
     {
+      "id": "a5052acd237341ccf509a61765ea9fdbc60ed022",
+      "canonicalId": "91d1779c50424b7e0c6b8167f7c3d3ba1e4f7741",
+      "slug": "rust-编译器-2026-年-9-月提速约-5-加速与借用检查器改进",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Rust 编译器 2026 年 9 月提速：约 5% 加速与借用检查器改进",
+      "score": 8,
+      "tags": [
+        "Rust",
+        "compiler performance",
+        "open source",
+        "software engineering",
+        "performance optimization"
+      ],
+      "originalSite": "nnethercote.github.io"
+    },
+    {
+      "id": "0f0fbaf7f1ad6cbf7abb148f63d4960a9c838ce5",
+      "canonicalId": "89ed10d59c95d20ff24f7863b767bee1148278d4",
+      "slug": "matthew-green沙箱不足以阻止-ai-智能体间的蠕虫式传播",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Matthew Green：沙箱不足以阻止 AI 智能体间的蠕虫式传播",
+      "score": 8,
+      "tags": [
+        "AI agents",
+        "security",
+        "sandboxing",
+        "prompt injection",
+        "multi-agent systems"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "a7e34df597f470741b5fdcb5dc542ea04bbdbffa",
+      "canonicalId": "63211fb0b2100dd2b5cdd92b94d99c51641df11b",
+      "slug": "linux-内核安全团队回应-llm-漏洞报告激增",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Linux 内核安全团队回应 LLM 漏洞报告激增",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "security",
+        "LLM",
+        "open source maintenance",
+        "CVE"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "587428c60252d0e669247677f5c1420263ed5f7e",
+      "canonicalId": "6860a783c56445b7bbf043ee738bdd2978990b87",
+      "slug": "reddit-将停用-rss-订阅并关闭公开-api",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Reddit 将停用 RSS 订阅并关闭公开 API",
+      "score": 8,
+      "tags": [
+        "Reddit",
+        "API access",
+        "RSS",
+        "AI scraping",
+        "platform policy"
+      ],
+      "originalSite": "techcrunch.com"
+    },
+    {
+      "id": "42c8a5930a466b0d4c14d09b69953a8a6075abe0",
+      "canonicalId": "f796b39f9fcc2117565beb828789ebebf211430b",
+      "slug": "pi-10-发布面向本地模型的轻量-ai-编程代理",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Pi 1.0 发布：面向本地模型的轻量 AI 编程代理",
+      "score": 7,
+      "tags": [
+        "AI coding agents",
+        "developer tools",
+        "local models",
+        "software releases"
+      ],
+      "originalSite": "earendil.com"
+    },
+    {
+      "id": "f2c28e85205ac833564d14e56a42697f9ee3982a",
+      "canonicalId": "317971da35b148b97cc4914c72e77fb99e55982a",
+      "slug": "cloudflare-发布-clef-开放权重决策模型与-rl-微调平台",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Cloudflare 发布 Clef 开放权重决策模型与 RL 微调平台",
+      "score": 7,
+      "tags": [
+        "open-weight models",
+        "RL fine-tuning",
+        "Cloudflare",
+        "AI pricing",
+        "open source licensing"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "c126d162af3584334cc9a0f9585c36370294df56",
+      "canonicalId": "8d8c225d2284d88856c5451287d4794a51885b68",
+      "slug": "pi-durable面向无人值守长运行-ai-代理的持久化框架",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Pi Durable：面向无人值守长运行 AI 代理的持久化框架",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "durable execution",
+        "agent harness",
+        "long-running agents",
+        "software engineering"
+      ],
+      "originalSite": "earendil.com"
+    },
+    {
+      "id": "8acbc5f204751f3a1713e6fd47aab6ff01356d39",
+      "canonicalId": "f7c3330b4cdd1cbb0d8adf2831c9e4c12aa12a7c",
+      "slug": "streetcomplete-进入-ios-公测阶段",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "StreetComplete 进入 iOS 公测阶段",
+      "score": 7,
+      "tags": [
+        "OpenStreetMap",
+        "open-source software",
+        "iOS",
+        "mobile app",
+        "crowdsourced mapping"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "16cdbafc79c497034c5fd3696b9c5ab4c3521f8f",
+      "canonicalId": "a4d5be1f0220da1fb13b3143fa29fdbdce9f0baa",
+      "slug": "turbopuffer-博文rip-vector-database引发索引设计讨论",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "turbopuffer 博文《RIP, vector database》引发索引设计讨论",
+      "score": 7,
+      "tags": [
+        "vector databases",
+        "database indexing",
+        "AI infrastructure",
+        "retrieval systems",
+        "Hacker News discussion"
+      ],
+      "originalSite": "turbopuffer.com"
+    },
+    {
+      "id": "f7ca73d2f1e926656db72b9f1d98dc4e3928988f",
+      "canonicalId": "7a23387a9be1de75a62480545b9e3a55d4d739f6",
+      "slug": "多个项目在-esp32-中发现未公开-sdr-接收能力",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "多个项目在 ESP32 中发现未公开 SDR 接收能力",
+      "score": 7,
+      "tags": [
+        "ESP32",
+        "software-defined radio",
+        "embedded systems",
+        "RF hacking",
+        "hardware"
+      ],
+      "originalSite": "rtl-sdr.com"
+    },
+    {
+      "id": "6b72790d1629c19ff81a0de7eee69bb2dd60adb5",
+      "canonicalId": "4f45a66ba9a41bdd5d4f9098fba9ece86694842c",
+      "slug": "cloudflare-k2对象存储上的无服务器事件流",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "Cloudflare K2：对象存储上的无服务器事件流",
+      "score": 7,
+      "tags": [
+        "serverless",
+        "event-streaming",
+        "cloudflare",
+        "object-storage",
+        "distributed-systems"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "26dba85273cb2bbeeaf3e8f9ddb29415d8f00407",
+      "canonicalId": "6a91381a429232e70fbbeaf70fa7952678ddb1b1",
+      "slug": "openai-称瓦解模型蒸馏活动指向月之暗面相关人员",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "OpenAI 称瓦解模型蒸馏活动，指向月之暗面相关人员",
+      "score": 7,
+      "tags": [
+        "model distillation",
+        "OpenAI",
+        "Moonshot AI / Kimi",
+        "AI security &amp; IP",
+        "AI industry policy"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "18bb8e1853499af76f8278824f20b1552857e556",
+      "canonicalId": "7abd4d2d77e4231c1b1c8d0904ddcc86d0c8d48d",
+      "slug": "deepmind-推出-synthid-bio为-ai-设计蛋白质嵌入水印",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "DeepMind 推出 SynthID Bio，为 AI 设计蛋白质嵌入水印",
+      "score": 7,
+      "tags": [
+        "AI蛋白质设计",
+        "SynthID Bio",
+        "生物安全水印",
+        "ProteinMPNN",
+        "DeepMind"
+      ],
+      "originalSite": "arstechnica.com"
+    },
+    {
+      "id": "66ab1c6b6ff3fd9b1258db4e4dbb97a15d6e895b",
+      "canonicalId": "98aa449f70f178545fafb5f3d3ef1b6bd8713e66",
+      "slug": "用-c-与-tensorrt-rtx-样例构建本地-ai-应用",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "用 C++ 与 TensorRT RTX 样例构建本地 AI 应用",
+      "score": 5,
+      "tags": [
+        "ONNX Runtime",
+        "TensorRT RTX",
+        "C++ inference",
+        "model deployment",
+        "quantization"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "4bde399f91a8d22aa481daac86347e5c18567f38",
+      "canonicalId": "65d2818f537ade2f2c4223dfd4f152d31bed768f",
+      "slug": "腾讯据报以约-70-亿美元向甲骨文租用-10-万枚-ai-芯片",
+      "date": "2026-10-02",
+      "lang": "zh",
+      "title": "腾讯据报以约 70 亿美元向甲骨文租用 10 万枚 AI 芯片",
+      "score": 8,
+      "tags": [
+        "Tencent",
+        "Oracle",
+        "AI chips",
+        "data centers",
+        "export controls"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
       "id": "361d5a94730a3f4af3dc153f7f371a62e2f36b13",
       "canonicalId": "9e57e69aee78667d7c2d81cadc59430fc2302453",
       "slug": "谷歌发布-gemini-4-argon暂限早期测试者",
@@ -4498,192 +4752,6 @@
         "climate change"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "69ff30e2816a2fde13a1d88503a24854be2fddec",
-      "canonicalId": "3df5fbd9b80322fba0d8bbd3190c288144e7914f",
-      "slug": "anthropic-发布-claude-fable-51-与-claude-mythos-51",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "score": 8,
-      "tags": [
-        "anthropic",
-        "claude",
-        "large language models",
-        "AI models",
-        "model release"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "f7589674def9376da1ff088b4aa29e264766b3ef",
-      "canonicalId": "56a6fd93c2ee67ea2f1e2cfb6f711e36a7cb483e",
-      "slug": "对-ed-zitron-ai-怀疑论预测的准确性评估",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "对 Ed Zitron AI 怀疑论预测的准确性评估",
-      "score": 8,
-      "tags": [
-        "AI",
-        "predictions",
-        "skepticism",
-        "analysis",
-        "tech industry"
-      ],
-      "originalSite": "danluu.com"
-    },
-    {
-      "id": "1c2a00c091018ed2acd3839ba10c6c5e3f6cff77",
-      "canonicalId": "44526c1223b0d00a89457953ed7a246fcdaa7032",
-      "slug": "15-小时训练的小型-transformer-在-arc-上胜过许多-llm",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "1.5 小时训练的小型 Transformer 在 ARC 上胜过许多 LLM",
-      "score": 8,
-      "tags": [
-        "ARC",
-        "transformer",
-        "efficient training",
-        "AI research",
-        "deep learning"
-      ],
-      "originalSite": "mvakde.github.io"
-    },
-    {
-      "id": "35567a91799e9a5d851c719461834da63594858c",
-      "canonicalId": "8419d30dfc04d2a7c63516c3fdfb052e880183f6",
-      "slug": "virtualizor-更新遭-bgp-劫持恶意包植入-root-后门",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "Virtualizor 更新遭 BGP 劫持，恶意包植入 root 后门",
-      "score": 8,
-      "tags": [
-        "security",
-        "BGP hijacking",
-        "supply chain attack",
-        "Virtualizor",
-        "rootkit"
-      ],
-      "originalSite": "virtualizor.com"
-    },
-    {
-      "id": "7a929ce1d491c0045d6c2222b776919657b5ec5e",
-      "canonicalId": "10bcda943db86cbc3afc9c0e83ee3db44f688106",
-      "slug": "python-3150-rc2-发布生态需准备-10-月正式版",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "Python 3.15.0 RC2 发布：生态需准备 10 月正式版",
-      "score": 7,
-      "tags": [
-        "python",
-        "release",
-        "programming",
-        "software engineering"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "d09329c47d3cd97f4b6f7afab78fbcb73ca0496d",
-      "canonicalId": "3e4ee3d2249833946410173dea9eb2a82019c25c",
-      "slug": "python-指导委员会暂停-cpython-jit-新开发等待-pep-获接受",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "Python 指导委员会暂停 CPython JIT 新开发，等待 PEP 获接受",
-      "score": 7,
-      "tags": [
-        "Python",
-        "JIT",
-        "CPython",
-        "performance",
-        "steering council"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "9117ea5fc29dbcae839c1190297e31a6c0e0e4d3",
-      "canonicalId": "3791fc85a6325fd0966e973a03cfaa5f43084f33",
-      "slug": "压缩大语言模型的三种方法及其代价",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "压缩大语言模型的三种方法及其代价",
-      "score": 6,
-      "tags": [
-        "model compression",
-        "quantization",
-        "pruning",
-        "knowledge distillation",
-        "LLM inference"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "f342aeda1afd04eb765913ceb393e9ceee215f86",
-      "canonicalId": "ad44e0391318d9d24a154f816276465e85ef43e5",
-      "slug": "韩国万亿主权-ai-投资英伟达受益海力士承压",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "韩国万亿主权 AI 投资：英伟达受益，海力士承压",
-      "score": 5,
-      "tags": [
-        "AI investment",
-        "South Korea",
-        "Nvidia",
-        "Semiconductors",
-        "Open source"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "29700bd48b52965c36fd3a3faec8baaa105d101d",
-      "canonicalId": "8e5330d2b3a3173c2c4a4edb2b650b6a3bcd2b1e",
-      "slug": "光伏装机首超煤电成为中国第一大电源",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "光伏装机首超煤电成为中国第一大电源",
-      "score": 9,
-      "tags": [
-        "光伏",
-        "能源结构",
-        "煤电",
-        "电力行业",
-        "可再生能源"
-      ],
-      "originalSite": "content-static.cctvnews.cctv.com"
-    },
-    {
-      "id": "3e05a40b69c09f2d6dbba11c9dcb174e73bdbde3",
-      "canonicalId": "f3abdb805e199946b4564f25ff37895a376089df",
-      "slug": "美联储理事巴尔表示若通胀不回落将支持加息",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "美联储理事巴尔表示若通胀不回落将支持加息",
-      "score": 8,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "inflation",
-        "interest rates",
-        "FOMC"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "f7c8fb0dffc7538d0fad577f69e7e75c9bb25e84",
-      "canonicalId": "ed19b1aba11d7ba84be0eacac34ed5def7c52fd7",
-      "slug": "外籍个人股息红利将被按-20征收个税",
-      "date": "2026-09-02",
-      "lang": "zh",
-      "title": "外籍个人股息红利将被按 20%征收个税",
-      "score": 8,
-      "tags": [
-        "China tax policy",
-        "foreign investment",
-        "individual income tax",
-        "dividends",
-        "regulation change"
-      ],
-      "originalSite": "m.cnfin.com"
     }
   ]
 }

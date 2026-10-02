@@ -1,0 +1,49 @@
+{
+  "id": "a5052acd237341ccf509a61765ea9fdbc60ed022",
+  "canonicalId": "91d1779c50424b7e0c6b8167f7c3d3ba1e4f7741",
+  "slug": "rust-编译器-2026-年-9-月提速约-5-加速与借用检查器改进",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T12:44:00Z",
+  "lang": "zh",
+  "title": "Rust 编译器 2026 年 9 月提速：约 5% 加速与借用检查器改进",
+  "summary": "nnethercote 的博客发布了 2026 年 9 月的 Rust 编译器提速更新，面向 Rust 开发者与编译器工程师总结当月性能优化工作。社区评论称，这轮改动在改进借用检查器、让此前可能被拒绝的代码通过验证的同时，仍带来约 5% 的编译加速；还有评论提出通过更早输出函数类型元数据来提前启动下游 crate 的并行化思路。由于原文内容未提供，具体优化项、适用版本、测量方法及 5% 数字的测试条件均无法核实。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "compiler performance",
+    "open source",
+    "software engineering",
+    "performance optimization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "trickypr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49920896"
+    }
+  ],
+  "originalUrl": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+  "originalSite": "nnethercote.github.io",
+  "context": "Nicholas Nethercote 长期以系列文章跟踪 Rust 编译器的性能改进，此前已发布过 2026 年 7 月的同类报告。这类持续优化的背景是 Rust 编译器近年在换用新的借用检查器与新的 trait solver：二者在多数情况下更快，但在少数情况下反而更慢，因此仍需不断做性能回补。",
+  "discussion": "对编译大型 Rust 项目的开发者来说，直接结果是构建等待时间缩短：社区转述的幅度约为 5%，且是在借用检查器能通过更多此前会被它拦下的代码的同时取得的，因此看起来不需要为此改写代码；不过这一数字来自项目方博客与社区转述，并非独立测量。企业投入方面，Rust 基金会的 Maintainers Fund（2026 年 6 月公布）集中接收并定向分配个人与公司捐款，评论者认为这类可量化的收益是促使企业继续为维护者出资的依据。\n\n评论者 bryanlarsen 认为约 5% 的加速是在改进借用检查器、能验证更多代码的同时取得的，属于难得的两全；knuckleheads 分享了一个尚未提交的私有分支思路，称更早输出函数类型元数据可让下游 crate 更早启动，并提到约 40% 的墙钟时间提升（评论原文被截断）。slowin 则称因编译迭代速度已从 Rust 转向 Go，而 adamch 与 maherbeg 讨论了企业捐赠或资源投入对 Rust 性能维护的价值。",
+  "references": [
+    {
+      "title": "How to speed up the Rust compiler in September 2026",
+      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html"
+    },
+    {
+      "title": "Nicholas Nethercote RSS feed... | Feeder – RSS Feed Reader",
+      "url": "https://feeder.co/discover/cd262d3e0b/nnethercote-github-io"
+    },
+    {
+      "title": "Funding - Rust Programming Language",
+      "url": "https://rust-lang.org/funding/"
+    },
+    {
+      "title": "Launching the Rust Foundation Maintainers Fund | Rust Blog",
+      "url": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

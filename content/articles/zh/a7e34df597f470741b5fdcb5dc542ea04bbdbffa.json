@@ -1,0 +1,40 @@
+{
+  "id": "a7e34df597f470741b5fdcb5dc542ea04bbdbffa",
+  "canonicalId": "63211fb0b2100dd2b5cdd92b94d99c51641df11b",
+  "slug": "linux-内核安全团队回应-llm-漏洞报告激增",
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-01T15:03:00Z",
+  "lang": "zh",
+  "title": "Linux 内核安全团队回应 LLM 漏洞报告激增",
+  "summary": "在 2026 年 Kernel Recipes 会议上，Greg Kroah-Hartman 介绍了 Linux 内核安全团队如何应对主要由 LLM 辅助发现引发的漏洞报告激增：每个内核版本修复的 CVE 数量从此前约 500 个（约每周 50 个）上升到每天约 33 个，他称社区的准备工作与工具链扛住了这一量级，核心态度是「不要恐慌」。他以被宣传「发现 79 个内核漏洞」的 Mythos LLM 为例说明报告质量：24 个仅称「某处崩溃」而无细节，14 个并非漏洞，3 个基于编造数据，15 个已在当前内核版本中修复，还有 6 个重复，最终只有 10 个真正需要并得到了修复，约等于内核社区一小时的工作量（他也指出这些数字加起来并不等于 79，LLM 的算术并不总可靠）。他警告真正值得担心的是从漏洞发现到出现利用的时间，已从 2018 年的 63 天缩短到 2026 年的 7 天，而最大的问题是人们不更新系统。此外他表示最好的模型生成的补丁仍有约 50% 是错的，并称这些模型会读取邮件列表，因此常「发现」别人前一天已公开报告的漏洞。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "security",
+    "LLM",
+    "open source maintenance",
+    "CVE"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096908/",
+  "originalSite": "lwn.net",
+  "context": "在这类 AI 生成的报告涌入之前，Greg Kroah-Hartman 已经在 staging 子系统拒绝接受 LLM 生成的补丁（合法安全修复除外），内核更新后的指南也提醒，未经人工核实的 AI 报告只会浪费维护者时间（tool-2-1）。这种按单个 CVE 逐个发布的维护节奏此前已有体现：Horizon 8 月 29 日的日报曾报道，他一次性发布了 7.2.2、7.1.12、6.18.48、6.12.107、6.6.155、6.1.186、5.15.219 和 5.10.268 共 8 个稳定内核版本，每个版本只包含针对 CVE-2026-80590 的单一修复（tool-1-2）。",
+  "discussion": "对内核维护者与发行版而言，直接后果是 CVE 报告以天为单位涌入，同时列表上出现大量未经测试的 LLM 生成补丁；Kroah-Hartman 建议维护者不必勉强接受，而应直接反问「你如何测试的？」并警惕诸如把 mutex\\_unlock\\(\\) 误改为 mutex\\_destroy\\(\\) 之类的模式。对用户和运维方而言，由于漏洞发现到被利用的窗口缩短到约 7 天，继续运行旧内核的风险明显上升，及时更新系统比以往更关键。",
+  "references": [
+    {
+      "title": "2026-08-29 — 八个稳定内核版本修复可致内核崩溃的漏洞",
+      "url": "https://lwn.net/Articles/1091118/"
+    },
+    {
+      "title": "Linux kernel nears record 2,000 vulnerabilities per release as AI bug...",
+      "url": "https://tech.yahoo.com/ai/articles/linux-kernel-nears-record-2-093000473.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
