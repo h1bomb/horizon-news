@@ -1,0 +1,40 @@
+{
+  "id": "84216b5bdfe609185e0fb77a8b80a2da7afdd966",
+  "canonicalId": "614df4e29c361cdc5612194bff3bbcc9dfb65a9a",
+  "slug": "sglang-v0521-发布779-个-pr新增多款模型与性能改进",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T01:09:00Z",
+  "lang": "zh",
+  "title": "SGLang v0.5.21 发布：779 个 PR，新增多款模型与性能改进",
+  "summary": "SGLang 发布 v0.5.21，该版本包含来自 227 位贡献者的 779 个 PR（PR 数量与贡献者数出自官方发布说明）。新增支持一批模型，覆盖 LLM/VLM 与扩散模型：DeepSeek-V4.1 Flash、GigaChat 3.5、IQuest-Q1、MiMo-V2.6 / MiMo-V2.6-Pro、Ling-3.0-flash-VL，以及 DiffusionGemma、Qwen-Image 2.1、Anima Base v1.0、Ming-Image 0.1 和 FLUX 3 Action。关键变化包括：PD 实例可在不重启的情况下在 prefill 与 decode 之间动态切换；前缀缓存默认改为运行在 Rust 核心上；新增 \\`/v1/decisions\\` 决策 API 和 \\`/v1/score\\` 打分 API。发布说明还给出厂商自报的性能数据：DeepSeek-V4.1 长提示词首 token 快 22%，Kimi K3 在 PD 服务中 prefill 吞吐提升 20.6%，GLM-5.3-Flash 现可在 AMD MI355X 上运行并支持 FP8 / MXFP4 MoE 与 MTP 推测解码。安装命令为 \\`uv pip install --prerelease=allow sglang==0.5.21\\`，同时提供 NVIDIA CUDA 13、AMD MI35x / MI30x、Intel GPU 与 Intel CPU 的 Docker 镜像。",
+  "score": 7,
+  "tags": [
+    "SGLang",
+    "LLM inference",
+    "model serving",
+    "open source",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "Fridge003"
+    }
+  ],
+  "originalUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+  "originalSite": "github.com",
+  "context": "Horizon 5 月 17 日的日报曾报道 SGLang v0.5.12 首次为 DeepSeek V4 提供完整推理支持（含张量/专家并行、DeepGemm 内核与 PD 分离），本次 v0.5.21 新增的是 DeepSeek-V4.1 Flash 的 LLM/VLM 支持，并在发布说明中称其长 prompt 首 token 快 22%。Horizon 5 月 6 日的日报曾报道 v0.5.11 把推测解码 V2 设为默认并引入 DFLASH 内核，本次发布则继续沿这条路径扩展，包括流水线并行与推测解码（EAGLE/MTP）兼容以及为 Kimi K3 支持 DFLASH。",
+  "discussion": "对已部署 PD（prefill/decode 分离）架构的运维者而言，最直接的收益是可以在线切换实例角色而无需重启，这可能简化扩缩容与故障处置流程。同时，使用 pip 安装该版本需显式加上 \\`--prerelease=allow\\`，说明它被标记为预发布版本；在生产环境升级前建议先按平台选用对应的 Docker 镜像（CUDA 13、ROCm MI35x / MI30x、Intel XPU / Xeon），并自行复核上述性能数字，因为它们来自发布说明而非独立测试。",
+  "references": [
+    {
+      "title": "2026-05-17 — sglang v0.5.12 Adds Full DeepSeek V4 Inference Support",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12"
+    },
+    {
+      "title": "2026-05-06 — SGLang v0.5.11 Boosts Inference with CUDA 13 and Speculative Decoding",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.11"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

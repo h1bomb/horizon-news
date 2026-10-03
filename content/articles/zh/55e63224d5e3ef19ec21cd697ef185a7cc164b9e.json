@@ -1,0 +1,41 @@
+{
+  "id": "55e63224d5e3ef19ec21cd697ef185a7cc164b9e",
+  "canonicalId": "0a4cfd02f5729f8d5b90c6288e921994821c59a7",
+  "slug": "zig-v0170-发布说明",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T20:56:00Z",
+  "lang": "zh",
+  "title": "Zig v0.17.0 发布说明",
+  "summary": "Zig 项目发布了 v0.17.0 的发布说明，面向使用该语言及其工具链的开发者。现有素材未包含发布说明正文，因此无法核实编译器、构建系统、目标平台支持或标准库的具体变更。",
+  "score": 8,
+  "tags": [
+    "Zig",
+    "programming languages",
+    "systems programming",
+    "compilers",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ErenayDev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49938521"
+    }
+  ],
+  "originalUrl": "https://ziglang.org/download/0.17.0/release-notes.html",
+  "originalSite": "ziglang.org",
+  "context": "Zig 尚未发布 1.0，长期以 0.x 版本迭代，每个版本都可能包含破坏性变更。据 byteiota 的报道，上一个版本 0.16 历时一年多、主要是一次大规模编译器重构，而 0.17 的范围相对收敛，核心为构建系统重做与 LLVM 22 升级，并称对现有用户的迁移多数只需改动一处函数调用（tool-2-3）。从官方的 0.17.0 里程碑看，Zig 团队在发版前把修复回归与错误编译、解除对第三方项目的阻塞、以及尽早落地破坏性变更列为收尾标准（tool-2-2）。",
+  "discussion": "在 Hacker News 讨论中，评论者 ubavic 称使用 Zig 一年后认为它是自己试过设计最好的语言之一，但指出它仍不稳定、生态仍小；vitaminCPP 则称赞其目标平台支持并期待 stackless coroutine IO 与一等公民模糊测试工具。另有评论提到 Andrew Kelley 对用 LLM 发现漏洞的态度似有松动，并询问事件化 IO/io\\_uring 的现状。",
+  "references": [
+    {
+      "title": "0.17.0 - ziglang/zig - Codeberg.org",
+      "url": "https://codeberg.org/ziglang/zig/milestone/69474"
+    },
+    {
+      "title": "Zig Build System Rework: 90% Faster, Ships in 0.17 | byteiota",
+      "url": "https://byteiota.com/zig-build-system-rework-90-faster-ships-in-0-17/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

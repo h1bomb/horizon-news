@@ -1,0 +1,52 @@
+{
+  "id": "08d014fb7c403eb6603c7bd319c1b8bdae9af7e3",
+  "canonicalId": "4bf53d05f5992ac6de69226efbfadc8cefff275f",
+  "slug": "google-提出-cogentic多智能体协作发现数学证明",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T12:04:00Z",
+  "lang": "zh",
+  "title": "Google 提出 Cogentic：多智能体协作发现数学证明",
+  "summary": "Google 的一篇论文提出 Cogentic，一套用于自动发现数学证明的多智能体系统：多个独立证明器分头探索不同方向，由专门组件进行对抗式验证，并把确认过的结果写入可复用的验证账本。该工作以 Gemini 为基础模型，据称在在线学习、拍卖理论和机制设计三个领域的 5 个开放问题上产出了新结果，并称这些结果已由领域专家独立验证、在配套论文中展开。上述内容目前仅来自一条简短的 Telegram 摘要，缺少技术细节，且给出的 arXiv 编号与当前日期不符，尚无法独立核实，因此这些“专家验证的新结果”仍属未经证实的说法。",
+  "score": 7,
+  "tags": [
+    "multi-agent systems",
+    "automated theorem proving",
+    "AI for mathematics",
+    "Google Research",
+    "Gemini"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2609.40324v1",
+  "originalSite": "arxiv.org",
+  "context": "单次调用前沿语言模型虽能产生不错的数学想法，但在开放研究问题上往往不足以直接得出完整证明，Cogentic 以多个独立证明器加专门对抗式验证组件的“证明—验证”循环，正是针对这一局限（arXiv 摘要原文称 single-shot generation is often insufficient）。Horizon 的 8 月 21 日日报曾报道陶哲轩援引 First-Proof 第二轮结果——10 道未发表研究题由 4 个 AI 系统测试、其中 7 道至少被一个系统判为合格，每题成本为数十至数百美元——并警告数学可能从证明稀缺走向证明过剩、无人能清晰讲解的证明应被视为不完整。这两点构成了理解本次“结果由领域专家独立验证”这一环节为何被特别强调的背景。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-21 — 陶哲轩：AI 或致数学证明过剩与基础危机",
+      "url": "https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/"
+    },
+    {
+      "title": "[ 2609 . 40324 ] Cogentic : Multi - Agent Orchestration for Automated...",
+      "url": "https://arxiv.org/abs/2609.40324"
+    },
+    {
+      "title": "[2609.40324] Cogentic: Multi-Agent Orchestration for ...",
+      "url": "https://arxiv.org/abs/2609.40324"
+    },
+    {
+      "title": "Google Research Cogentic Reports Five Open Math Results",
+      "url": "https://fourweekmba.com/ai-google-research-cogentic-multi-agent-math/"
+    },
+    {
+      "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+      "url": "https://arxiv.org/html/2609.40324v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

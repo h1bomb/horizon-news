@@ -1,0 +1,44 @@
+{
+  "id": "8df665bf008dd950d27d99cffa8ade844e142286",
+  "canonicalId": "5d095f0fff9f11a9734afc3f0aa568baa7558a71",
+  "slug": "rustbeyond-the-amp计划让自定义智能指针贴近内建引用",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T15:11:00Z",
+  "lang": "zh",
+  "title": "Rust「Beyond the &amp;」计划：让自定义智能指针贴近内建引用",
+  "summary": "在 RustConf 2026 上，Rust 项目语言团队负责人 Tyler Mandry 介绍了名为「Beyond the &amp;」的设计工作：该工作贯穿 2026 年，目标是让用户自定义的智能指针在借用检查器眼中与内建引用一样灵活。问题场景是，把 \\`&amp;mut RenderState\\` 换成 \\`MutexGuard\\` 后，借用检查器无法再识别 \\`state.cache\\` 与 \\`state.template\\` 访问的是不相交字段，只能报错，除非手动写成 \\`&amp;mut \\*state.lock\\(\\).unwrap\\(\\)\\` 重新借用。团队依据 Nadrieril 与 Benno Lossin 的工作，提出把编译器内部「place（位置）」概念暴露给用户代码：为每种智能指针配一个 handle 类型，用户通过实现 \\`ReadPlace\\`、\\`WritePlace\\`、\\`ProjectPlace\\`、\\`BorrowPlace\\` 等 trait 来告诉借用检查器如何读写、投影字段和创建借用。这仍是设计与讨论阶段的内容，不是已发布的语言特性；Mandry 表示团队尚未就 \\`BorrowPlace\\` 创建智能指针的语法达成一致，用 \\`&amp;\\` 可能造成混淆并影响类型推断。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "programming languages",
+    "smart pointers",
+    "language design",
+    "RustConf"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096028/",
+  "originalSite": "lwn.net",
+  "context": "“Beyond the &amp;” 是 Rust 项目 2026 年路线图中列出的一项语言设计目标，其官方目标描述是让用户自定义智能指针在语法和人体工程学上与内建引用难以区分，具体包括为自愿加入的指针类型提供自动重借用、与借用检查器完全集成的字段投影，以及语言级的原地初始化 \\[tool-2-1\\]\\[tool-2-2\\]。Rust 项目的路线图通常需要数年才能推进完成，因此该项目属于长期设计工作，而非已经交付的语言特性 \\[tool-2-3\\]。",
+  "discussion": "若该设计落地，受影响最大的是智能指针库作者：他们需要为自己的类型新增 handle 类型并实现这些 trait，其中 \\`WritePlace\\` 等实现被标记为 \\`unsafe\\`，因为实现错误会让借用检查器做出错误判断、导致不健全行为。对普通用户而言，收益是 \\`MutexGuard\\` 这类类型可能不再需要手动重新借用即可通过借用检查；但由于语法仍未确定，现在无法据此调整代码。",
+  "references": [
+    {
+      "title": "Beyond the `&amp;` - Rust Project Goals",
+      "url": "https://goals.rust-lang.org/2026/roadmap-beyond-the-ampersand.html"
+    },
+    {
+      "title": "goals/src/2026/roadmap-beyond-the-ampersand.md at main · rust ...",
+      "url": "https://github.com/rust-lang/goals/blob/main/src/2026/roadmap-beyond-the-ampersand.md"
+    },
+    {
+      "title": "Roadmaps - Rust Project Goals",
+      "url": "https://goals.rust-lang.org/2026/roadmaps.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

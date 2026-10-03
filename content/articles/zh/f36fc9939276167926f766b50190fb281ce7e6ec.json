@@ -1,0 +1,45 @@
+{
+  "id": "f36fc9939276167926f766b50190fb281ce7e6ec",
+  "canonicalId": "f52e74133e2d25d6d706b167a088a0d71f74e510",
+  "slug": "ai-以更低训练成本在-stratego-上击败顶尖人类玩家",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T14:11:00Z",
+  "lang": "zh",
+  "title": "AI 以更低训练成本在 Stratego 上击败顶尖人类玩家",
+  "summary": "Ars Technica 报道称，一套新 AI 系统在隐藏信息的棋盘游戏 Stratego 中击败了顶尖人类玩家，且学习效率优于此前的方法。报道给出的主要是一篇 Nature 文章和一篇 arXiv 预印本的链接，现有材料中没有该系统的名称、算法细节或实验设置。评论区引述报道称，该算法训练所用对局数比 DeepMind 2022 年的 DeepNash 少约 34 倍，最终棋力却更强；由于提供的内容以链接和评论为主，这一数字与相关说法目前无法从现有材料独立核实。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "game AI",
+    "hidden-information games",
+    "Stratego",
+    "reinforcement learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "PaulHoule",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49933740"
+    }
+  ],
+  "originalUrl": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+  "originalSite": "arstechnica.com",
+  "context": "Stratego 是少数长期未被 AI 攻克的经典棋盘游戏之一，其难点在于双方都无法看到对方的棋子身份。DeepMind 的 DeepNash 在 2022 年发表的论文中达到了人类专家水平，但当时并未真正超越顶尖人类棋手。此次新工作（arXiv 2511.07312）在摘要中把自身定位为性能与成本的“阶跃式”变化：据 MIT News 报道，来自 MIT、卡内基梅隆大学、纽约大学和斯坦福大学的研究者所开发的系统以较大优势击败了排名靠前的人类选手。",
+  "discussion": "如果“训练对局数约为 DeepNash 的 1/34”这一引述成立，那么隐藏信息博弈的研究者在算力有限时也有机会复现同类水平的对弈系统，而不必投入与 2022 年工作相当的训练量。不过现有材料没有给出硬件、训练时长或代码是否公开，因此该方法能否直接迁移到其他不完全信息任务尚不明确。\n\n评论者 janalsncm 认为学习效率才是这套方法可行的关键：在隐藏信息博弈中最佳着法取决于自己不知道的信息，常规的“我这样走、对方那样应”的前向搜索无法直接成立。评论者 smokel 把这一结果与 2022 年 DeepMind 的 “Mastering the Game of Stratego” 工作对照，认为当年的“掌握”并未真正超越人类，四年后的新方法似乎才做到这一点；另有评论者以童年对局中棋子上有暗记的玩笑回应“隐藏信息”这一主题。",
+  "references": [
+    {
+      "title": "Scalable decision-making for games of imperfect information",
+      "url": "https://www.nature.com/articles/s41586-026-11036-y"
+    },
+    {
+      "title": "[2511.07312] Superhuman AI for Stratego Using Self-Play ... Mastering the Game of Stratego with Model-Free Multiagent ... Superhuman AI for Stratego Using Self-Play Reinforcement ... This game-playing AI is the new champ at Stratego - MIT News Mastering the game of Stratego with model-free multiagent ... Mastering the game of Stratego with model-free multiagent ...",
+      "url": "https://arxiv.org/abs/2511.07312"
+    },
+    {
+      "title": "Mastering the Game of Stratego with Model-Free Multiagent ...",
+      "url": "https://arxiv.org/pdf/2206.15378v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

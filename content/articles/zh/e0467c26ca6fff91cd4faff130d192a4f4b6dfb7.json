@@ -1,0 +1,44 @@
+{
+  "id": "e0467c26ca6fff91cd4faff130d192a4f4b6dfb7",
+  "canonicalId": "42bc44344a8d8b610064e0fc8fc84d258d2910c1",
+  "slug": "claude-code-推出-modstypescript-改写提示词与界面",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T12:32:00Z",
+  "lang": "zh",
+  "title": "Claude Code 推出 mods：TypeScript 改写提示词与界面",
+  "summary": "Anthropic 为 Claude Code 推出 mods 自定义扩展功能，开发者用少量 TypeScript 代码即可改写提示词、新增界面或替换内置功能。Mods 随插件分发，现已支持 CLI 和桌面版。官方说明 mods 与 Claude Code 权限相同且不设沙箱，因此提醒用户只安装可信来源，用户也可以让 Claude 自行编写 mods。部分内置功能已改用 mods 实现，官方计划后续迁移更多。",
+  "score": 7,
+  "tags": [
+    "Claude Code",
+    "Anthropic",
+    "插件系统",
+    "AI 编程助手",
+    "开发者工具"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://claude.com/blog/claude-code-mods",
+  "originalSite": "claude.com",
+  "context": "Claude Code 是 Anthropic 的 AI 编程工具，其 mods 是随插件分发的扩展机制：这类扩展通常与宿主应用在同一进程和权限下运行，边界取决于宿主本身，而不是扩展自带的隔离层。Horizon 6 月 7 日的日报曾报道另一条思路，即把 MicroPython 编译为 WebAssembly，在 Datasette 等应用内以沙箱执行不受信任的 Python 代码（当时仍为 alpha），用以说明第三方扩展代码的沙箱问题在插件生态中由来已久。这也解释了 Anthropic 为何强调 mods 与 Claude Code 权限相同且无沙箱，只应安装可信来源。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-06-07 — MicroPython 编译为 WebAssembly 实现 Python 沙箱",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything"
+    },
+    {
+      "title": "Claude Code Mods：安装、安全性与功能详解",
+      "url": "https://aireiter.com/zh/blog/claude-code-mods-security-installation-guide"
+    },
+    {
+      "title": "Customize Claude Code with mods in TypeScript | Claude by ...",
+      "url": "https://claude.com/blog/claude-code-mods"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

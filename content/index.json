@@ -1,6 +1,175 @@
 {
   "articles": [
     {
+      "id": "f36fc9939276167926f766b50190fb281ce7e6ec",
+      "canonicalId": "f52e74133e2d25d6d706b167a088a0d71f74e510",
+      "slug": "ai-以更低训练成本在-stratego-上击败顶尖人类玩家",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "AI 以更低训练成本在 Stratego 上击败顶尖人类玩家",
+      "score": 8,
+      "tags": [
+        "AI",
+        "game AI",
+        "hidden-information games",
+        "Stratego",
+        "reinforcement learning"
+      ],
+      "originalSite": "arstechnica.com"
+    },
+    {
+      "id": "55e63224d5e3ef19ec21cd697ef185a7cc164b9e",
+      "canonicalId": "0a4cfd02f5729f8d5b90c6288e921994821c59a7",
+      "slug": "zig-v0170-发布说明",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "Zig v0.17.0 发布说明",
+      "score": 8,
+      "tags": [
+        "Zig",
+        "programming languages",
+        "systems programming",
+        "compilers",
+        "open source"
+      ],
+      "originalSite": "ziglang.org"
+    },
+    {
+      "id": "74583fa79a600bcc46bf8e0c72650a1ff9409bf6",
+      "canonicalId": "774f7412d1a369d1c04ab0bb964614cd55e7e294",
+      "slug": "kroah-hartman-评-mythos-的-79-个-llm-内核漏洞报告",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "Kroah-Hartman 评 Mythos 的 79 个 LLM 内核漏洞报告",
+      "score": 8,
+      "tags": [
+        "Linux kernel security",
+        "LLM security",
+        "AI vulnerability reporting",
+        "open source maintenance"
+      ],
+      "originalSite": "youtube.com"
+    },
+    {
+      "id": "84216b5bdfe609185e0fb77a8b80a2da7afdd966",
+      "canonicalId": "614df4e29c361cdc5612194bff3bbcc9dfb65a9a",
+      "slug": "sglang-v0521-发布779-个-pr新增多款模型与性能改进",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "SGLang v0.5.21 发布：779 个 PR，新增多款模型与性能改进",
+      "score": 7,
+      "tags": [
+        "SGLang",
+        "LLM inference",
+        "model serving",
+        "open source",
+        "release"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "8df665bf008dd950d27d99cffa8ade844e142286",
+      "canonicalId": "5d095f0fff9f11a9734afc3f0aa568baa7558a71",
+      "slug": "rustbeyond-the-amp计划让自定义智能指针贴近内建引用",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "Rust「Beyond the &amp;」计划：让自定义智能指针贴近内建引用",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "programming languages",
+        "smart pointers",
+        "language design",
+        "RustConf"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "0373e891a744ec38695312057b3de3e55178aa16",
+      "canonicalId": "f8e186ca5b249b48236323a734f0e24924970ba9",
+      "slug": "arxiv-自-10-月-1-日起每人每月限投-2-篇",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "arXiv 自 10 月 1 日起每人每月限投 2 篇",
+      "score": 7,
+      "tags": [
+        "arXiv",
+        "AI research",
+        "academic publishing",
+        "research integrity",
+        "submission policy"
+      ],
+      "originalSite": "huxiu.com"
+    },
+    {
+      "id": "08d014fb7c403eb6603c7bd319c1b8bdae9af7e3",
+      "canonicalId": "4bf53d05f5992ac6de69226efbfadc8cefff275f",
+      "slug": "google-提出-cogentic多智能体协作发现数学证明",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "Google 提出 Cogentic：多智能体协作发现数学证明",
+      "score": 7,
+      "tags": [
+        "multi-agent systems",
+        "automated theorem proving",
+        "AI for mathematics",
+        "Google Research",
+        "Gemini"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "e0467c26ca6fff91cd4faff130d192a4f4b6dfb7",
+      "canonicalId": "42bc44344a8d8b610064e0fc8fc84d258d2910c1",
+      "slug": "claude-code-推出-modstypescript-改写提示词与界面",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "Claude Code 推出 mods：TypeScript 改写提示词与界面",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "插件系统",
+        "AI 编程助手",
+        "开发者工具"
+      ],
+      "originalSite": "claude.com"
+    },
+    {
+      "id": "dd2a429e688996e30f49735ddfe695df7abc6a76",
+      "canonicalId": "111e23128f595364f4f60dbf8076c5f83210d821",
+      "slug": "超级说服会看起来像贿赂",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "超级说服会看起来像贿赂",
+      "score": 5,
+      "tags": [
+        "AI safety",
+        "superpersuasion",
+        "persuasion",
+        "AI alignment",
+        "rationalism"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "3ae7e7f6c4bdbeaf57ee988339627591f9ed5334",
+      "canonicalId": "f34789707ceb91f89d26ad8db9f7db4cf5d0a88f",
+      "slug": "就业数据疲软交易员大幅下调美联储-10-月加息押注",
+      "date": "2026-10-03",
+      "lang": "zh",
+      "title": "就业数据疲软，交易员大幅下调美联储 10 月加息押注",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "jobs report",
+        "inflation",
+        "market expectations"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "a5052acd237341ccf509a61765ea9fdbc60ed022",
       "canonicalId": "91d1779c50424b7e0c6b8167f7c3d3ba1e4f7741",
       "slug": "rust-编译器-2026-年-9-月提速约-5-加速与借用检查器改进",
@@ -4514,244 +4683,6 @@
         "isolation levels"
       ],
       "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "ec2e997d50527ab793a9c082654b771e1a3bae28",
-      "canonicalId": "723d6e5056c64094c8eb4d8499326ac607e89cff",
-      "slug": "英伟达发布-dlss-5神经渲染随-nba-2k27-上线",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "英伟达发布 DLSS 5，神经渲染随 NBA 2K27 上线",
-      "score": 9,
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Neural Rendering",
-        "Real-Time Graphics",
-        "RTX 50"
-      ],
-      "originalSite": "nvidia.com"
-    },
-    {
-      "id": "bad46a1621e03d21556e687aeae67b36a70ef830",
-      "canonicalId": "83121cda738b80f0767604a056c7282a1db9b4a9",
-      "slug": "meta-发布-muse-spark-13登顶-deepswe-且价格低廉",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "Meta 发布 Muse Spark 1.3，登顶 DeepSWE 且价格低廉",
-      "score": 8,
-      "tags": [
-        "Meta",
-        "Muse Spark",
-        "large language models",
-        "benchmarks",
-        "AI development"
-      ],
-      "originalSite": "developer.meta.com"
-    },
-    {
-      "id": "f93cb077c0ed14dacdc1bbdb3c574fefdb94d6d6",
-      "canonicalId": "7bf309317e3edd1e5a56dcebf916551fe5d6aca4",
-      "slug": "谷歌推出-gemini-38-flash-与-flash-cyber",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "谷歌推出 Gemini 3.8 Flash 与 Flash Cyber",
-      "score": 8,
-      "tags": [
-        "Gemini",
-        "AI models",
-        "Google DeepMind",
-        "LLM benchmarks",
-        "machine learning"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "7822e71d1f80385bd61f57ab041338f6119e6d34",
-      "canonicalId": "164af9b8614259faa4e3be66b532624b49b74548",
-      "slug": "调查报告21-万张批量生成的最佳软件页正被-ai-引用",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "调查报告：21 万张批量生成的“最佳软件”页正被 AI 引用",
-      "score": 8,
-      "tags": [
-        "AI search",
-        "content quality",
-        "software recommendations",
-        "web spam",
-        "LLM reliability"
-      ],
-      "originalSite": "trellner.com"
-    },
-    {
-      "id": "37c8af126e46114e149c96a9498e7742b10cf38c",
-      "canonicalId": "0b7b6272faafd263a3f9d89c1970b72b9a758f48",
-      "slug": "luks-挂起密钥残留漏洞的修复",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "LUKS 挂起密钥残留漏洞的修复",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "security",
-        "full-disk encryption",
-        "LUKS",
-        "cold-boot attack"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "79b2ba380d0f43816a9be8fe93f615e4816341c7",
-      "canonicalId": "cd5da1960a4afcad7e4926ab40f6aad1d8b8468f",
-      "slug": "paintnet-开发者用-claude-生成内部-direct2d-重写版以支持-winelinux",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "Paint.NET 开发者用 Claude 生成内部 Direct2D 重写版以支持 WINE/Linux",
-      "score": 7,
-      "tags": [
-        "AI-assisted development",
-        "clean-room reverse engineering",
-        "Direct2D",
-        "WINE",
-        "Paint.NET"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "9327e8e3cf36cb669c07e0b8921c95ea7ba93c84",
-      "canonicalId": "6cd2493141f92d917d311aaadba012cb1f22d1b9",
-      "slug": "gnome-技术治理演进团队指导委员会与-rfc-流程",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "GNOME 技术治理演进：团队、指导委员会与 RFC 流程",
-      "score": 7,
-      "tags": [
-        "GNOME",
-        "open-source governance",
-        "software engineering",
-        "coordination",
-        "RFC"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "96881d94a1dd6fa6fdc1f17659224be8ecbb9a7f",
-      "canonicalId": "4bebfc639e901cd01024114b8a2eccfccd405492",
-      "slug": "mac-app-store-应用可弃用-intel-mactahoe-为最后支持版",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "Mac App Store 应用可弃用 Intel Mac，Tahoe 为最后支持版",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "Mac App Store",
-        "Intel Mac",
-        "macOS",
-        "developer policy"
-      ],
-      "originalSite": "macrumors.com"
-    },
-    {
-      "id": "3c43dff6527ad414d1a77692848f1f2dde53ba5d",
-      "canonicalId": "0374bf72fbbec45f514e17fcd2ebb0966841ecf6",
-      "slug": "阿里发布-qwen38-max-0902-登顶-codearena-编程榜",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "阿里发布 Qwen3.8-Max-0902 登顶 CodeArena 编程榜",
-      "score": 7,
-      "tags": [
-        "artificial intelligence",
-        "language models",
-        "coding benchmarks",
-        "Qwen",
-        "software engineering"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "8924a5075a306eb156ceb68a92aa71f64eb4e5a7",
-      "canonicalId": "8224b1bfabeef0bda48b5b3f229d8472a120218c",
-      "slug": "nexus-暗网兜售-153-亿驾照扫描件-fbi-调查",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "Nexus 暗网兜售 1.53 亿驾照扫描件 FBI 调查",
-      "score": 7,
-      "tags": [
-        "cybersecurity",
-        "data breach",
-        "privacy",
-        "identity theft",
-        "dark web"
-      ],
-      "originalSite": "krebsonsecurity.com"
-    },
-    {
-      "id": "324509b57aa90dd0922b0a59027be81db6b4df75",
-      "canonicalId": "b28b532a9c4831dd4fe0ba6f59a7b8a323979391",
-      "slug": "投机解码协作设计五条选-d-与草稿机制的准则",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "投机解码协作设计：五条选 D 与草稿机制的准则",
-      "score": 8,
-      "tags": [
-        "speculative decoding",
-        "LLM inference",
-        "kernel optimization",
-        "draft length selection",
-        "attention tiling"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "8af8926201ce6df54cf68f8273cb1c6f5b2b754d",
-      "canonicalId": "2434039bb33f20e0620763f80847dbdd7682a6f7",
-      "slug": "为什么-rag-系统的质量取决于嵌入模型",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "为什么 RAG 系统的质量取决于嵌入模型",
-      "score": 7,
-      "tags": [
-        "RAG",
-        "embeddings",
-        "vector retrieval",
-        "AI infrastructure",
-        "Matryoshka embeddings"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "b00fd9054e58ec286b02a0cd8b542abd0e83d07e",
-      "canonicalId": "5388059e8d9bbbba2e20e51e4f011404b6c58ef7",
-      "slug": "现代-cuda-工具箱实战68-秒优化到-23-毫秒的逐步指南",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "现代 CUDA 工具箱实战：6.8 秒优化到 23 毫秒的逐步指南",
-      "score": 7,
-      "tags": [
-        "CUDA",
-        "Compute Sanitizer",
-        "Nsight Systems",
-        "CCCL",
-        "GPU optimization"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "51fd0a6818f66f2a325195fd664deea7f86c1930",
-      "canonicalId": "7da5c73b83de1ca9eb10e4ff2ee61caee4639ed8",
-      "slug": "尼泊尔冰川洪灾重建或需-50-亿美元登山旅游旺季遭退订",
-      "date": "2026-09-03",
-      "lang": "zh",
-      "title": "尼泊尔冰川洪灾：重建或需 50 亿美元，登山旅游旺季遭退订",
-      "score": 9,
-      "tags": [
-        "Nepal",
-        "flood disaster",
-        "tourism",
-        "economic impact",
-        "climate change"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }

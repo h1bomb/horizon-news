@@ -1,0 +1,36 @@
+{
+  "id": "74583fa79a600bcc46bf8e0c72650a1ff9409bf6",
+  "canonicalId": "774f7412d1a369d1c04ab0bb964614cd55e7e294",
+  "slug": "kroah-hartman-评-mythos-的-79-个-llm-内核漏洞报告",
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-02T02:51:00Z",
+  "lang": "zh",
+  "title": "Kroah-Hartman 评 Mythos 的 79 个 LLM 内核漏洞报告",
+  "summary": "Greg Kroah-Hartman 在 Kernel Recipes 2026 的演讲中审视 LLM 时代的内核安全漏洞报告，并重点讨论了 Anthropic 的 Mythos 项目宣称发现的 79 个漏洞。根据 Hacker News 评论对幻灯片的转述，这 79 个中有 24 个完全没有细节、14 个并非漏洞、3 个数据系捏造、15 个已在最新版本修复（其中 11 个由他人修复、4 个由 Anthropic 修复），只有 20 个需要修复；有评论引述演讲说法称，整件事最终相当于一小时的内核开发工作。评论还提到，Greg KH 称 Mythos 的做法是把过去几十年内核开发者补丁中的模式匹配后套用到别处，且未引用最初修复这些漏洞的开发者。",
+  "score": 8,
+  "tags": [
+    "Linux kernel security",
+    "LLM security",
+    "AI vulnerability reporting",
+    "open source maintenance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "usernomdeguerre",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49929391"
+    }
+  ],
+  "originalUrl": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+  "originalSite": "youtube.com",
+  "context": "",
+  "discussion": "对内核维护者和下游发行版而言，这意味着不能把 LLM 生成的漏洞或 CVE 列表直接当作已验证结论并触发紧急更新；至少需要复现细节、版本状态和原始修复者信息，才能判断是否实际需要修补。\n\nHN 评论者 usernomdeguerre 转录了幻灯片，djoldman 认为安全营销话术与漏洞报告质量之间的反差明显，devy 则批评 Mythos 只是模式匹配且未给原内核漏洞修复者署名；blinkingled 认为当前成果不佳，但未来用内核专用数据训练的专业模型仍可能加快漏洞发现、分析和修复。",
+  "references": [
+    {
+      "title": "Greg Kroah - Hartman – Security in the LLM Age [video] | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49929391"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
