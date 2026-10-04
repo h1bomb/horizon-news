@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "id": "103f6c11b6f8445bdfebfbde5912e3c9130e320e",
+      "canonicalId": "304a460f0627840f7a27e693a0d4dad7624360b9",
+      "slug": "zig-017-发布重做构建系统并引入-build-server-protocol",
+      "date": "2026-10-04",
+      "lang": "zh",
+      "title": "Zig 0.17 发布：重做构建系统并引入 Build Server Protocol",
+      "score": 8,
+      "tags": [
+        "Zig",
+        "programming languages",
+        "compilers",
+        "build systems",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "25e466c97e018c7b1c3ac3835ac75344af0287de",
+      "canonicalId": "a650c74fe354cb9f07b74f64ee2a44ec35c59eab",
+      "slug": "aleph-alpha-发布开放权重智能体模型-kolibri",
+      "date": "2026-10-04",
+      "lang": "zh",
+      "title": "Aleph Alpha 发布开放权重智能体模型 Kolibri",
+      "score": 7,
+      "tags": [
+        "open-weight LLMs",
+        "agentic AI",
+        "AI sovereignty",
+        "hallucination mitigation",
+        "model transparency"
+      ],
+      "originalSite": "aleph-alpha.com"
+    },
+    {
+      "id": "7c2f72443ebd13a5bb9688a38a1c73c1e35e063c",
+      "canonicalId": "3ba89625595d441660969d2fe678f22c0efbe6fa",
+      "slug": "simon-willison-呼吁按量付费服务默认设硬性预算上限",
+      "date": "2026-10-04",
+      "lang": "zh",
+      "title": "Simon Willison 呼吁按量付费服务默认设硬性预算上限",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "API cost controls",
+        "cloud billing",
+        "developer tooling"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "1c607156c06d6b348e61645af589e1ad5e7cc48f",
+      "canonicalId": "25ae276626e4d9e26b41718eb6ba3ee0c87a0ebe",
+      "slug": "qt-612-lts-发布首次将-harmonyos-纳入官方支持平台",
+      "date": "2026-10-04",
+      "lang": "zh",
+      "title": "Qt 6.12 LTS 发布，首次将 HarmonyOS 纳入官方支持平台",
+      "score": 7,
+      "tags": [
+        "Qt",
+        "HarmonyOS",
+        "LTS",
+        "cross-platform development",
+        "software releases"
+      ],
+      "originalSite": "qt.io"
+    },
+    {
+      "id": "8f7b3f795ecc0163a6e3aabf4bd0073c1cf4d92e",
+      "canonicalId": "9c9edc0469c1c329363e078ba60194c797fa5a8b",
+      "slug": "美国-9-月新增非农就业-29-万人-远低于预期",
+      "date": "2026-10-04",
+      "lang": "zh",
+      "title": "美国 9 月新增非农就业 2.9 万人 远低于预期",
+      "score": 8,
+      "tags": [
+        "US nonfarm payrolls",
+        "labor market",
+        "Federal Reserve",
+        "macroeconomic data",
+        "market reaction"
+      ],
+      "originalSite": "xinhuanet.com"
+    },
+    {
       "id": "f36fc9939276167926f766b50190fb281ce7e6ec",
       "canonicalId": "f52e74133e2d25d6d706b167a088a0d71f74e510",
       "slug": "ai-以更低训练成本在-stratego-上击败顶尖人类玩家",
@@ -4547,142 +4631,6 @@
         "supply-chain"
       ],
       "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "4d4c5ce6021eec25c28108528389705fd4e145e7",
-      "canonicalId": "0f3b76bc480d3619c3aaf50d3bb915575c29f5aa",
-      "slug": "openai-发布-gpt-6-astra系统卡与基准讨论同步展开",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "OpenAI 发布 GPT-6 Astra，系统卡与基准讨论同步展开",
-      "score": 9,
-      "tags": [
-        "OpenAI",
-        "GPT-6",
-        "artificial intelligence",
-        "model release",
-        "benchmarks"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "10d965ff65a2f221691cca6845c46cb118ce045e",
-      "canonicalId": "351e020d2441a918ba1c6c34bc75996bd3d251cb",
-      "slug": "用-llm-阅读-68000-汇编将-1993-年-amiga-游戏移植到-godot",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "用 LLM 阅读 68000 汇编，将 1993 年 Amiga 游戏移植到 Godot",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "legacy code porting",
-        "Godot",
-        "Amiga",
-        "reverse engineering"
-      ],
-      "originalSite": "babyloniantwins.com"
-    },
-    {
-      "id": "299c54a367b2e6c1b5761c8001ff714d4d1a1a60",
-      "canonicalId": "d75e0275a80166c7591bf651506cb4c443ce1f91",
-      "slug": "audacity-40-发布qt6-界面与-aup4-项目格式",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "Audacity 4.0 发布：Qt6 界面与 .aup4 项目格式",
-      "score": 8,
-      "tags": [
-        "open source",
-        "audio editing",
-        "Audacity",
-        "Qt6",
-        "software release"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "b5e6f6da8ff35915c81c0cf92244873606be9901",
-      "canonicalId": "6f4d6774f94fc35286e386a78d644f83e4a7a6a0",
-      "slug": "verisign-终止既有-name-三级域名注册",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "Verisign 终止既有 .name 三级域名注册",
-      "score": 7,
-      "tags": [
-        "domains",
-        "ICANN",
-        "Verisign",
-        "internet policy",
-        ".name"
-      ],
-      "originalSite": "neil.fraser.name"
-    },
-    {
-      "id": "112aa4e46e202d1164baa94ee31c6fa74239d1ae",
-      "canonicalId": "39f0e38f44668ee8b57a043b53f55533f2ba2f43",
-      "slug": "申真谞让两子击败围棋-ai-katago引发-ai-稳健性质疑",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "申真谞让两子击败围棋 AI KataGo，引发 AI 稳健性质疑",
-      "score": 7,
-      "tags": [
-        "Go",
-        "KataGo",
-        "Game AI",
-        "AI robustness",
-        "Human-AI Competitions"
-      ],
-      "originalSite": "kedglobal.com"
-    },
-    {
-      "id": "eb416f0c15c27300d0a7510f25b1cac76d3725e9",
-      "canonicalId": "579c2c1e19ae3d24518191560330ebdf4be1d9f7",
-      "slug": "linux-内存分层最新进展热页提升与-memcg-感知",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "Linux 内存分层最新进展：热页提升与 memcg 感知",
-      "score": 7,
-      "tags": [
-        "linux-kernel",
-        "memory-management",
-        "CXL",
-        "tiered-memory",
-        "performance"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "9ee787ff37f19da8cd69375078eec7716a5b4258",
-      "canonicalId": "97e7ad2c386d4f427ea0e7779c52dd232c21efa6",
-      "slug": "美国政府对纽约时报诉-openai-案表态支持-ai-训练合理使用",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "美国政府对纽约时报诉 OpenAI 案表态支持 AI 训练合理使用",
-      "score": 7,
-      "tags": [
-        "AI training",
-        "copyright law",
-        "fair use",
-        "OpenAI",
-        "legal"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "fc68dafe8be17d6f5855e82b61d43fc20f8949e7",
-      "canonicalId": "df921c0181414d74e8c1b49624180dd2710cae53",
-      "slug": "数据库并发控制初探从丢失更新说起",
-      "date": "2026-09-04",
-      "lang": "zh",
-      "title": "数据库并发控制初探：从丢失更新说起",
-      "score": 4,
-      "tags": [
-        "concurrency control",
-        "database transactions",
-        "lost updates",
-        "locking",
-        "isolation levels"
-      ],
-      "originalSite": "blog.bytebytego.com"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": "25e466c97e018c7b1c3ac3835ac75344af0287de",
+  "canonicalId": "a650c74fe354cb9f07b74f64ee2a44ec35c59eab",
+  "slug": "aleph-alpha-发布开放权重智能体模型-kolibri",
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-03T09:36:00Z",
+  "lang": "zh",
+  "title": "Aleph Alpha 发布开放权重智能体模型 Kolibri",
+  "summary": "Aleph Alpha 发布了开放权重智能体 LLM Kolibri，面向需要自行部署或评估智能体与编码能力的开发者。随发布提供的技术报告详细说明了数据集构建和训练流程，并称模型用弃答数据和 Merlin-Arthur 协议训练，在上下文没有答案时会说“我不知道”。Hacker News 上的讨论还提到一篇附加技术文章，并围绕透明度与“主权”定位展开。",
+  "score": 7,
+  "tags": [
+    "open-weight LLMs",
+    "agentic AI",
+    "AI sovereignty",
+    "hallucination mitigation",
+    "model transparency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bastitx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49942706"
+    }
+  ],
+  "originalUrl": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+  "originalSite": "aleph-alpha.com",
+  "context": "阿莱夫·阿尔法（Aleph Alpha）是一家总部位于海德堡的德国企业级 AI 公司，主打面向政府和受监管行业的“主权 AI”，即由客户自己掌控的模型；Kolibri 以开放权重形式发布，正是这一思路下的产物，因此“主权”标签成为讨论焦点。媒体此前报道该公司将与加拿大 Cohere 合并，新公司估值 200 亿美元，但关于交易是否已经完成，不同报道说法并不一致，这也让“德国主权模型”的说法在评论中受到质疑。Kolibri 让模型在上下文无答案时回答“我不知道”的做法，则延续了 Aleph Alpha 此前公开的 Merlin-Arthur 协议，该协议针对的正是幻觉约束问题。",
+  "discussion": "对希望自行托管或微调的团队，开放权重和详尽技术报告降低了复现与评估门槛；其弃答训练使模型在上下文缺少答案时可给出“我不知道”，开发者可将这一行为纳入智能体或问答流程，但实际效果仍待独立基准验证。\n\n社区评论中，有人称技术报告像教程般详述一切，是首次见到如此程度的开放，另有评论者把 Kolibri-1 免费托管数天供人试用；一名训练团队成员表示这是成立不到一年团队的首次发布。也有评论者批评强调“主权”却不提公司计划与加拿大 Cohere 合并有误导性，但认为非美、非中的公司需要分摊研发成本。",
+  "references": [
+    {
+      "title": "Cohere Merges with Aleph Alpha | TechCrunch posted on... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/techcrunch_cohere-acquires-merges-with-germany-based-activity-7453557950134005760-NAsy"
+    },
+    {
+      "title": "Cohere Merges With Aleph Alpha to Build... | AlphaSignal",
+      "url": "https://alphasignal.ai/news/cohere-merges-with-aleph-alpha-to-build-a-20b-openai-rival"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

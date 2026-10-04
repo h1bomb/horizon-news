@@ -1,0 +1,36 @@
+{
+  "id": "103f6c11b6f8445bdfebfbde5912e3c9130e320e",
+  "canonicalId": "304a460f0627840f7a27e693a0d4dad7624360b9",
+  "slug": "zig-017-发布重做构建系统并引入-build-server-protocol",
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-03T11:31:00Z",
+  "lang": "zh",
+  "title": "Zig 0.17 发布：重做构建系统并引入 Build Server Protocol",
+  "summary": "Zig 0.17 已发布，官方称这一版本包含 5 个月的工作、206 位贡献者的 925 次提交。发布说明指出，原计划更短的发布周期最终变得相当可观：构建系统被重做，并引入了 Build Server Protocol；ELF 链接器也得到增强，官方预期在 x86\\_64-linux 上增量编译将“对所有人可用”。需要注意的是，增量编译是发布说明中的预期，而非已独立测量的结果；该版本也不是 1.0。",
+  "score": 8,
+  "tags": [
+    "Zig",
+    "programming languages",
+    "compilers",
+    "build systems",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098412/",
+  "originalSite": "lwn.net",
+  "context": "Zig 的增量编译依赖链接器支持，相关工作此前已持续进行：Horizon 5 月 31 日的日报曾报道，Zig 团队在 devlog 中详细介绍 ELF 链接器的改进，重点是加快增量编译与链接、缩短开发迭代时间（tool-1-2）。0.17 把这些链接器改进带入正式版本，官方预计 x86\\_64-linux 上的所有用户都能用上增量编译。",
+  "discussion": "对在 x86\\_64-linux 上开发并频繁重建项目的人来说，0.17 的 ELF 链接器改动指向更快的增量编译，但官方表述是“预期可用”，实际效果仍需使用者验证。构建系统重做并新增 Build Server Protocol，意味着依赖 Zig 构建流程或编辑器集成的开发者和工具作者需要按 0.17 的说明检查自己的用法。",
+  "references": [
+    {
+      "title": "2026-05-31 — Zig&#x27;s ELF Linker Improvements Detailed in Devlog",
+      "url": "https://ziglang.org/devlog/2026/#2026-05-30"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

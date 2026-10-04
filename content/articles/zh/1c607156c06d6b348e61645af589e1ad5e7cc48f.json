@@ -1,0 +1,48 @@
+{
+  "id": "1c607156c06d6b348e61645af589e1ad5e7cc48f",
+  "canonicalId": "25ae276626e4d9e26b41718eb6ba3ee0c87a0ebe",
+  "slug": "qt-612-lts-发布首次将-harmonyos-纳入官方支持平台",
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-03T04:52:00Z",
+  "lang": "zh",
+  "title": "Qt 6.12 LTS 发布，首次将 HarmonyOS 纳入官方支持平台",
+  "summary": "Qt 6.12 LTS 于 2026 年 9 月 30 日发布，提供 5 年维护支持，并首次将华为 HarmonyOS 纳入 Qt 的 LTS 官方支持平台。这意味着 HarmonyOS 被列入 Qt 长期支持平台的官方名单。目前公开的信息仅为简短发布通告，未披露具体的平台版本要求、模块覆盖范围、兼容性条件或迁移注意事项。",
+  "score": 7,
+  "tags": [
+    "Qt",
+    "HarmonyOS",
+    "LTS",
+    "cross-platform development",
+    "software releases"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.qt.io/blog/qt-6.12-released",
+  "originalSite": "qt.io",
+  "context": "Qt 是跨平台应用开发框架，其 LTS 版本会为受支持的平台提供与其他主要平台同等的稳定性、维护与长期支持保障（tool-2-2）。在此之前 HarmonyOS 并非 Qt 的 LTS 官方支持平台；该系统由华为推出，应用场景涵盖物联网、汽车、PC 与平板等设备（tool-2-1、tool-2-3）。",
+  "discussion": "对使用 Qt 的开发者来说，HarmonyOS 成为官方 LTS 平台意味着面向该系统的项目可与 Qt 其他主要平台一样，获得相同的稳定性、维护与支持保证，并覆盖 5 年支持周期。需要这一官方支持的团队因此要把项目基线放在 Qt 6.12 LTS 这条版本线上，而非停留在更早的 LTS 版本。",
+  "references": [
+    {
+      "title": "HarmonyOS - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HarmonyOS"
+    },
+    {
+      "title": "Qt 6 . 12 LTS Released !",
+      "url": "https://www.qt.io/blog/qt-6.12-released"
+    },
+    {
+      "title": "Qt 6 . 12 LTS Released With QML Hot Reloading, StyleKit In... - Phoronix",
+      "url": "https://www.phoronix.com/news/Qt-6.12-LTS-Released"
+    },
+    {
+      "title": "Qt 6 . 12 LTS Released!",
+      "url": "https://www.qt.io/blog/qt-6.12-released"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
