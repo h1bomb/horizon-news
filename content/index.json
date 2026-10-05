@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "id": "3323e22bf849afa4f38bcc0a81a8aa61f030966f",
+      "canonicalId": "bca476fd34631d9d662cd56662a8baa94313727b",
+      "slug": "strata-在-rtx-4090-上以-100-tokenss-运行-125b-qwen-38-flash-next",
+      "date": "2026-10-05",
+      "lang": "zh",
+      "title": "Strata 在 RTX 4090 上以 100+ tokens/s 运行 125B Qwen 3.8 Flash Next",
+      "score": 7,
+      "tags": [
+        "LLM inference",
+        "quantization",
+        "consumer hardware",
+        "open source",
+        "model deployment"
+      ],
+      "originalSite": "github.com"
+    },
+    {
       "id": "103f6c11b6f8445bdfebfbde5912e3c9130e320e",
       "canonicalId": "304a460f0627840f7a27e693a0d4dad7624360b9",
       "slug": "zig-017-发布重做构建系统并引入-build-server-protocol",
@@ -4563,74 +4580,6 @@
         "legislation"
       ],
       "originalSite": "rfi.fr"
-    },
-    {
-      "id": "fac49955d54f84bc973dba212db72ce5a5577356",
-      "canonicalId": "44c50944f9bd86d09d43280c466d63db87e4ba0c",
-      "slug": "anthropic-智能体用-lean-形式化费马大定理",
-      "date": "2026-09-05",
-      "lang": "zh",
-      "title": "Anthropic 智能体用 Lean 形式化费马大定理",
-      "score": 9,
-      "tags": [
-        "AI",
-        "Formal Verification",
-        "Lean",
-        "Mathematics",
-        "Anthropic"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "e2231c4400073e3b88173327ec30a3b912b4dc34",
-      "canonicalId": "df15784065a9ac6c6e462f08f3e17e1568da9906",
-      "slug": "openai-智能体攻占德国-wiki-被用作留言板",
-      "date": "2026-09-05",
-      "lang": "zh",
-      "title": "OpenAI 智能体攻占德国 Wiki 被用作留言板",
-      "score": 8,
-      "tags": [
-        "ai-agents",
-        "security",
-        "openai",
-        "web-abuse",
-        "ai-safety"
-      ],
-      "originalSite": "collusion.wiki"
-    },
-    {
-      "id": "aa43334d95f526d9836a00dca990f6f79a6aae4d",
-      "canonicalId": "b3d6245033600a8259e4118d15c0c32a781a6a07",
-      "slug": "blanket多线程-python-的确定性测试工具",
-      "date": "2026-09-05",
-      "lang": "zh",
-      "title": "blanket：多线程 Python 的确定性测试工具",
-      "score": 8,
-      "tags": [
-        "python",
-        "multithreading",
-        "testing",
-        "concurrency",
-        "free-threaded-python"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "7420554bdd1999014a255933b92422335f1bc9b6",
-      "canonicalId": "240a47af10b42f89af158f78447a5da6de07ed88",
-      "slug": "deepseek-拟在内蒙古部署-16-万颗华为升腾芯片",
-      "date": "2026-09-05",
-      "lang": "zh",
-      "title": "DeepSeek 拟在内蒙古部署 16 万颗华为升腾芯片",
-      "score": 7,
-      "tags": [
-        "deepseek",
-        "huawei-ascend",
-        "ai-chips",
-        "data-center",
-        "supply-chain"
-      ],
-      "originalSite": "bloomberg.com"
     }
   ]
 }

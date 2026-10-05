@@ -1,0 +1,45 @@
+{
+  "id": "3323e22bf849afa4f38bcc0a81a8aa61f030966f",
+  "canonicalId": "bca476fd34631d9d662cd56662a8baa94313727b",
+  "slug": "strata-在-rtx-4090-上以-100-tokenss-运行-125b-qwen-38-flash-next",
+  "date": "2026-10-05",
+  "publishedAt": "2026-10-04T12:51:00Z",
+  "lang": "zh",
+  "title": "Strata 在 RTX 4090 上以 100+ tokens/s 运行 125B Qwen 3.8 Flash Next",
+  "summary": "GitHub 项目 Strata 被发布在 Hacker News 上，声称可在消费级 GPU 上运行 125B 的 Qwen 3.8 Flash Next，并在 RTX 4090 上达到 100 tokens/s 以上。Hacker News 用户 snehesht 称在自己的 RTX 4090、128GB DDR5、Ryzen 7950X3D 机器上实测 124 tokens/s，但该结果尚未获得独立验证。同一讨论中，Jackson\\_\\_ 报告在相同 GGUF 与视觉适配器权重下，Strata 在 50 张图像的坐标定位基准中位误差为 154.8 像素、平均 168.8 像素，而 llama.cpp 分别为 46.5 和 81.4 像素，提示低比特推理可能带来质量退化。a11r 也对低于 4-bit 的量化表示怀疑，并称 4-bit 量化在 RTX Pro 6000 上足以处理困难但范围明确的编码任务。",
+  "score": 7,
+  "tags": [
+    "LLM inference",
+    "quantization",
+    "consumer hardware",
+    "open source",
+    "model deployment"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "snehesht",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
+    }
+  ],
+  "originalUrl": "https://github.com/Niko1221/Strata",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "评论区的分歧集中在速度与质量能否兼得：Jackson\\_\\_ 的视觉基准显示 Strata 相比 llama.cpp 误差更大，而 a11r 认为低于 4-bit 的量化可能显著降低质量。与此同时，AntiRush 报告在 RTX 6000 Pro 上使用 ds4 的 Q4 量化可达到 255.26 tokens/s 解码并支持 4 路并发，kamranjon 也称 ds4 的 Q4 量化日常表现良好。",
+  "references": [
+    {
+      "title": "2026-08-27 — Qwen3.8-Flash-Next：新架构以 1/9 成本超越 Qwen3.7-Plus",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
+    },
+    {
+      "title": "Qwen / Qwen 3 . 8 - Flash - Next · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+    },
+    {
+      "title": "GitHub - Niko1221/Strata: Qwen3.8-Flash-Next on any consumer ...",
+      "url": "https://github.com/Niko1221/Strata"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
