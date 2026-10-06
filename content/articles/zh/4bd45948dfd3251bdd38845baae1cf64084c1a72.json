@@ -1,0 +1,44 @@
+{
+  "id": "4bd45948dfd3251bdd38845baae1cf64084c1a72",
+  "canonicalId": "31932eede74ed237aecacc0a51d8637f010b6969",
+  "slug": "彭博行业研究美国对华-ai-性能优势缩至-3",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T07:32:00Z",
+  "lang": "zh",
+  "title": "彭博行业研究：美国对华 AI 性能优势缩至 3%",
+  "summary": "彭博行业研究称，美国 AI 公司对中国同行的性能优势已缩小至约 3% 的历史低位，这一变化出现在 DeepSeek 于 2026 年 9 月发布 V4.1 Flash 之后。报告称，中国头部模型在基准测试中仅落后美国模型 3%，低于 5 月的约 9% 和年初的 15%；中国 AI 进步被归因于技术积累及对国产硬件的优化，也使美国技术出口限制的效果受到质疑。报告还提到，DeepSeek V4.1 Flash 在 2026 年 9 月的 LiveBench 全球排名第六，但中国模型仍只占前 15 名中的 3 个；这些均为彭博行业研究的评估结论，现有转述未披露具体评测方法。",
+  "score": 7,
+  "tags": [
+    "AI models",
+    "DeepSeek",
+    "US-China tech",
+    "AI benchmarks",
+    "export controls"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says",
+  "originalSite": "bloomberg.com",
+  "context": "",
+  "discussion": "差距数据直接触及美国出口管制的论证基础：彭博行业研究把中国模型的进步部分归因于技术积累与对国产硬件的优化，因此在美方限制先进芯片出口的背景下，管制能否继续维持性能代差将面临重新评估。对开发者来说，替代选项已明显靠近前沿——DeepSeek V4.1 Flash 在 LiveBench 上得 81.1 分，与 Anthropic 领先模型的 83.4 分相差 2.3 分——但中国模型仍只占该榜前 15 名中的 3 席，选型时不能把单点接近等同于整体生态对等。",
+  "references": [
+    {
+      "title": "2026-09-11 — DeepSeek V4.1 Flash 发布：552B 参数与 API 路由调整",
+      "url": "https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg"
+    },
+    {
+      "title": "US Lead in AI Over China Narrows After DeepSeek Gains, BI Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash narrows US-China AI gap to 3% on LiveBench",
+      "url": "https://aiweekly.co/alerts/deepseek-v41-flash-narrows-us-china-ai-gap-to-3-on-livebench"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

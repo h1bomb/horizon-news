@@ -1,0 +1,48 @@
+{
+  "id": "affe41db9c217eb0d5cc7301c2cfbc10681055b5",
+  "canonicalId": "78ad53815846c15cf66038ceb51792507cbc3ef4",
+  "slug": "openai-将在欧盟为部分-ai-生成文本添加隐形水印",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T15:25:00Z",
+  "lang": "zh",
+  "title": "OpenAI 将在欧盟为部分 AI 生成文本添加隐形水印",
+  "summary": "OpenAI 宣布，计划在未来几周为欧盟地区符合条件的 ChatGPT 和 Codex 文本输出加入机器可识别的隐形水印，以配合《欧盟人工智能法案》的内容透明要求。API 用户也可为部分模型选择开启水印，但默认关闭；OpenAI 还开放研究人员和专业机构申请使用文本水印检测器。目前披露仍属计划性安排，未提供具体模型版本、检测准确率或明确部署完成时间等技术细节。",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "AI watermarking",
+    "EU AI Act",
+    "AI content provenance",
+    "ChatGPT Codex"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/eu-text-provenance/",
+  "originalSite": "openai.com",
+  "context": "",
+  "discussion": "对使用 API 的开发者而言，水印默认关闭意味着通过 API 生成的文本默认不带可检测的溯源标记，需要为欧盟合规留痕的团队必须主动为部分模型开启该选项，并自行确认所调用模型是否在支持范围内。研究人员与专业机构须申请后才能使用文本水印检测器，检测能力的覆盖范围因此仍受审批限制；此外，水印只能用于建立内容来源，并不直接检测滥用，不应被视为防范 AI 滥用的通用方案。",
+  "references": [
+    {
+      "title": "EU AI Act Article 50 Transparency Obligations Go Live | Baker Botts",
+      "url": "https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live"
+    },
+    {
+      "title": "Article 50 Ready — EU AI Act chatbot disclosure compliance in 10...",
+      "url": "https://article50ready.com/"
+    },
+    {
+      "title": "Article 50 AI Act : transparency obligations 2026 | Bliss",
+      "url": "https://blissagency.it/en/artificial-intelligence/ai-act-article-50-transparency-obligations/"
+    },
+    {
+      "title": "Position: LLM Watermarking Should Align Stakeholders’ Incentives for...",
+      "url": "https://arxiv.org/html/2510.18333"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

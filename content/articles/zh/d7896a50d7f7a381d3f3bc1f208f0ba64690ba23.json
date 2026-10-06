@@ -1,0 +1,31 @@
+{
+  "id": "d7896a50d7f7a381d3f3bc1f208f0ba64690ba23",
+  "canonicalId": "2cd88d3174becd46392fce28ace9bcc9989a34b4",
+  "slug": "为何大模型会忽略长提示的中段",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T15:30:00Z",
+  "lang": "zh",
+  "title": "为何大模型会忽略长提示的中段",
+  "summary": "rss · ByteByteGo · 10月5日 15:30\n\n**「背景」** ByteByteGo 的文章解释“中间迷失”盲区：即使所需信息已经放进上下文窗口，模型仍可能因其位于长提示中段而在回答中忽略它；例如编码助手见到审计日志需保留 37 天，却写出 30 天删除的清理函数。\n\n**「方案」** 作者强调，这不同于条目未被发送、对话被截断或检索选错段落，而是信息在场却未被有效利用。2023 年提出、2024 年发表的“Lost in the Middle”研究显示，准确率常呈 U 形：开头和结尾较高，分别对应首因与近因倾向，中段较低；但这只是趋势，并非所有模型和任务都如此。机制上，生成式 transformer 的注意力会给不同位置不同权重，因果掩码让早期 token 有更多路径影响后续表示，而结尾又因靠近问题和答案而占优；不过作者提醒，因果掩码并不会直接向答案隐藏中段，可被注意不等于获得足够权重。因此更大的上下文窗口只提高容量，不保证有效上下文；RULER 对 17 个模型的评测发现随输入变长性能普遍下降，但其局限是未控制证据位置。缓解手段包括优化提示结构（明确任务、关键约束与请求，用标题、标签划界，必要时简短重复关键约束）、裁剪无关上下文而非设任意 token 上限，以及用 RAG 先检索相关材料；但 RAG 仍可能漏掉关键内容或重新制造“中间迷失”。\n\n**「启示」** 这些策略只能降低遗漏概率，无法保证完美答案；作者也留下一个未决问题：如果把问题移到开头，“中段”与“远离问题”便不再重合，U 形曲线可能改变。\n\n**标签**: `#LLM`, `#lost in the middle`, `#context windows`, `#attention mechanisms`, `#RAG`",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "lost in the middle",
+    "context windows",
+    "attention mechanisms",
+    "RAG"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/the-llm-blindspot-why-models-forget",
+  "originalSite": "blog.bytebytego.com",
+  "context": "ByteByteGo 的文章解释“中间迷失”盲区：即使所需信息已经放进上下文窗口，模型仍可能因其位于长提示中段而在回答中忽略它；例如编码助手见到审计日志需保留 37 天，却写出 30 天删除的清理函数。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

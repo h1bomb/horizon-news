@@ -1,0 +1,44 @@
+{
+  "id": "4a6bbb3a28d172bc08d7d8b69b88a11b16f7095f",
+  "canonicalId": "d3bb8174c0e8fc42cf41da56dfe4ef49d560cc49",
+  "slug": "quad9-拒绝法国-dns-封锁令或面临每日-58-万欧元罚款",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T08:05:00Z",
+  "lang": "zh",
+  "title": "Quad9 拒绝法国 DNS 封锁令，或面临每日 58 万欧元罚款",
+  "summary": "瑞士非营利 DNS 服务商 Quad9 拒绝执行法国法院针对盗版体育直播的域名封锁令。beIN Sports 请求法院按每个域名每日 1 万欧元处罚，涉及 58 个域名，合计每日最高 58 万欧元；巴黎法院上周四开庭，裁决预计三周内作出，罚款尚未实际判定。Quad9 表示自己从未封锁过任何域名，且因不收集用户数据而无法只对法国用户实施封锁，只能在全球封锁与退出法国市场之间二选一。它还批评法国 7 月通过的可实时自动将域名加黑的法律「鲁莽且危险」。",
+  "score": 7,
+  "tags": [
+    "DNS",
+    "Internet censorship",
+    "Privacy",
+    "France",
+    "Piracy blocking"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://torrentfreak.com/dns-resolver-quad9-rejects-french-piracy-blocks-weighs-exit-as-bein-seeks-up-to-e580k-a-day/",
+  "originalSite": "torrentfreak.com",
+  "context": "法国原本主要通过法院逐案裁定要求接入商封锁盗版站点，而据 ARCOM 于 2026 年 5 月 22 日发布的指引，该机制正转向集中化的自动封锁清单，搜索引擎、VPN 与 DNS 解析器通过接口合同接入，这正是 Quad9 所批评的 7 月自动化加黑法律的由来。国家强制令与全球性 DNS 服务之间的同类冲突已有先例：Horizon 3 月 19 日的日报曾报道，意大利 AGCOM 因 Cloudflare 拒绝在其 1.1.1.1 DNS 服务上封锁盗版站点而对其罚款 1420 万欧元，Cloudflare 提出抗辩并威胁撤出意大利城市的服务器。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-03-19 — Italy fines Cloudflare €14.2 million for refusing to block pirate sites on its 1.1.1.1 DNS service.",
+      "url": "https://t.me/zaihuapd/40348"
+    },
+    {
+      "title": "France Has Turned Sports-Piracy Blocking Into an Automated ...",
+      "url": "https://peopleofinternet.com/articles/france-has-turned-sports-piracy-blocking-into-an-automated-p.html"
+    },
+    {
+      "title": "DNS - Resolvers -2025-Final",
+      "url": "https://digitalmedusa.org/wp-content/uploads/2025/04/DNS-Resolvers-2025-Final.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

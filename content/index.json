@@ -1,6 +1,227 @@
 {
   "articles": [
     {
+      "id": "910e654cecea6b2a60b012532add75d12fbef636",
+      "canonicalId": "20a57e552aef7b98423e794a38d0c4ef46cddec0",
+      "slug": "vllm-v0310-发布性能内核与破坏性变更",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "vLLM v0.31.0 发布：性能内核与破坏性变更",
+      "score": 8,
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "model serving",
+        "GPU kernels",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "2d1eb978b18941f0d5119303cec710ac84c251ca",
+      "canonicalId": "7ded5c03aba57f680f22552c6d116234727948e8",
+      "slug": "reflection-发布-501b-开源权重-moe-模型-beam",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Reflection 发布 501B 开源权重 MoE 模型 Beam",
+      "score": 8,
+      "tags": [
+        "large language models",
+        "open-weight models",
+        "Mixture-of-Experts",
+        "model release",
+        "AI/ML"
+      ],
+      "originalSite": "reflection.ai"
+    },
+    {
+      "id": "8bd493bdf7bbe36e96037c74ab6c1db54c7b0b0c",
+      "canonicalId": "0456b04488ab0cc9f71adf050db70305bac1d8ef",
+      "slug": "sashikollm-内核补丁评审系统的进展",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Sashiko：LLM 内核补丁评审系统的进展",
+      "score": 8,
+      "tags": [
+        "LLM code review",
+        "Linux kernel",
+        "open source",
+        "AI-assisted development",
+        "software engineering"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "3e6ad18b5cab2e0c6fa995b418d077f82187a2bb",
+      "canonicalId": "ec9915c4fbdd328c884dba2e7d30a23ee328f548",
+      "slug": "opus-55-智能体报告两个室温磁性半导体候选材料",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Opus 5.5 智能体报告两个室温磁性半导体候选材料",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "materials discovery",
+        "magnetic semiconductors",
+        "DFT",
+        "spintronics"
+      ],
+      "originalSite": "vals.ai"
+    },
+    {
+      "id": "342cb3f127e0cd2a5aa3ab7a5f578dae6e27a103",
+      "canonicalId": "ecc2a8b76eaca4e71fcd437380a0784c39b433bc",
+      "slug": "cloudflare-推出-web-search-api",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Cloudflare 推出 Web Search API",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "Web Search API",
+        "AI Agents",
+        "Developer Tools",
+        "Search Infrastructure"
+      ],
+      "originalSite": "developers.cloudflare.com"
+    },
+    {
+      "id": "130995f9e6524bc343011bc2de8d0bc04b56b6d2",
+      "canonicalId": "489333482e1898d7a4f87f4b89e5de1dd69ba714",
+      "slug": "anthropic-被指将用户-claude-日记报告警方女子面临重罪指控",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Anthropic 被指将用户 Claude 日记报告警方，女子面临重罪指控",
+      "score": 7,
+      "tags": [
+        "AI privacy",
+        "LLM surveillance",
+        "law enforcement",
+        "Anthropic",
+        "free speech"
+      ],
+      "originalSite": "techspot.com"
+    },
+    {
+      "id": "5bc88fd0652ba0f69c0933917bb6fa3f69e8e1eb",
+      "canonicalId": "97a929f5a10e7c5c5f91be46ffb8b697a80b8edb",
+      "slug": "stratechery-谈-apple-与-ai-代理未来",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Stratechery 谈 Apple 与 AI 代理未来",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "AI agents",
+        "security",
+        "privacy",
+        "platform strategy"
+      ],
+      "originalSite": "stratechery.com"
+    },
+    {
+      "id": "cc260fcecb2083d410554ebca605ec2149089854",
+      "canonicalId": "0f899899c9bce69f6f57c43091e1db0d15694a76",
+      "slug": "高通与华为就-logicfolding-芯片技术达成专利授权",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "高通与华为就 LogicFolding 芯片技术达成专利授权",
+      "score": 7,
+      "tags": [
+        "semiconductors",
+        "Huawei",
+        "Qualcomm",
+        "patents",
+        "chip-design"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "3235e200ae8f53f7883fb57d2c6071482d0b2937",
+      "canonicalId": "cbee4f83437993a6e84fad6a308299abb5c45f19",
+      "slug": "anthropic-cowork-将-vm-与推理迁入云端独立沙箱",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Anthropic Cowork 将 VM 与推理迁入云端独立沙箱",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "cloud sandboxing",
+        "Claude",
+        "VM architecture",
+        "desktop integration"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "4bd45948dfd3251bdd38845baae1cf64084c1a72",
+      "canonicalId": "31932eede74ed237aecacc0a51d8637f010b6969",
+      "slug": "彭博行业研究美国对华-ai-性能优势缩至-3",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "彭博行业研究：美国对华 AI 性能优势缩至 3%",
+      "score": 7,
+      "tags": [
+        "AI models",
+        "DeepSeek",
+        "US-China tech",
+        "AI benchmarks",
+        "export controls"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "4a6bbb3a28d172bc08d7d8b69b88a11b16f7095f",
+      "canonicalId": "d3bb8174c0e8fc42cf41da56dfe4ef49d560cc49",
+      "slug": "quad9-拒绝法国-dns-封锁令或面临每日-58-万欧元罚款",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "Quad9 拒绝法国 DNS 封锁令，或面临每日 58 万欧元罚款",
+      "score": 7,
+      "tags": [
+        "DNS",
+        "Internet censorship",
+        "Privacy",
+        "France",
+        "Piracy blocking"
+      ],
+      "originalSite": "torrentfreak.com"
+    },
+    {
+      "id": "affe41db9c217eb0d5cc7301c2cfbc10681055b5",
+      "canonicalId": "78ad53815846c15cf66038ceb51792507cbc3ef4",
+      "slug": "openai-将在欧盟为部分-ai-生成文本添加隐形水印",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "OpenAI 将在欧盟为部分 AI 生成文本添加隐形水印",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "AI watermarking",
+        "EU AI Act",
+        "AI content provenance",
+        "ChatGPT Codex"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "d7896a50d7f7a381d3f3bc1f208f0ba64690ba23",
+      "canonicalId": "2cd88d3174becd46392fce28ace9bcc9989a34b4",
+      "slug": "为何大模型会忽略长提示的中段",
+      "date": "2026-10-06",
+      "lang": "zh",
+      "title": "为何大模型会忽略长提示的中段",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "lost in the middle",
+        "context windows",
+        "attention mechanisms",
+        "RAG"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
       "id": "3323e22bf849afa4f38bcc0a81a8aa61f030966f",
       "canonicalId": "bca476fd34631d9d662cd56662a8baa94313727b",
       "slug": "strata-在-rtx-4090-上以-100-tokenss-运行-125b-qwen-38-flash-next",
@@ -4546,40 +4767,6 @@
         "financial policy"
       ],
       "originalSite": "news.cn"
-    },
-    {
-      "id": "024f3c855efce92d69cac1d96bc8690c1bc7759e",
-      "canonicalId": "4c1db802f844371c1609fd4b6a84ecd023e525e4",
-      "slug": "德国私营火箭从欧洲本土成功入轨创历史",
-      "date": "2026-09-06",
-      "lang": "zh",
-      "title": "德国私营火箭从欧洲本土成功入轨创历史",
-      "score": 8,
-      "tags": [
-        "space",
-        "rocketry",
-        "private aerospace",
-        "European space",
-        "Isar Aerospace"
-      ],
-      "originalSite": "space.com"
-    },
-    {
-      "id": "ea4e4bc1b6f7672a703803fe1bf6f9535895a1ad",
-      "canonicalId": "f558e6502fb04492c64dc89920c65bffaf1e96b9",
-      "slug": "美国车企敦促国会永久禁止中国网联车及软硬件",
-      "date": "2026-09-06",
-      "lang": "zh",
-      "title": "美国车企敦促国会永久禁止中国网联车及软硬件",
-      "score": 8,
-      "tags": [
-        "US automotive industry",
-        "China",
-        "connected vehicles",
-        "trade policy",
-        "legislation"
-      ],
-      "originalSite": "rfi.fr"
     }
   ]
 }

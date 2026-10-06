@@ -1,0 +1,49 @@
+{
+  "id": "2d1eb978b18941f0d5119303cec710ac84c251ca",
+  "canonicalId": "7ded5c03aba57f680f22552c6d116234727948e8",
+  "slug": "reflection-发布-501b-开源权重-moe-模型-beam",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T19:16:00Z",
+  "lang": "zh",
+  "title": "Reflection 发布 501B 开源权重 MoE 模型 Beam",
+  "summary": "Reflection 发布了 Beam，一款总参数 501B、激活参数 23B 的开源权重稀疏 Mixture-of-Experts（MoE）模型，面向编程、推理和智能体（agentic）工作负载。公告称其预训练使用 23.8 万亿 token，并在预训练和强化学习（RL）上均有大量投入，目标是匹配或超越同规模开源基座模型。模型权重已开放，但公告中的性能对比和泛化演示属于厂商自述，尚未得到独立验证；Hacker News 上已有用户将其与 DeepSeek V4.1 Flash 进行参数和训练数据对比。",
+  "score": 8,
+  "tags": [
+    "large language models",
+    "open-weight models",
+    "Mixture-of-Experts",
+    "model release",
+    "AI/ML"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Philpax",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49969183"
+    }
+  ],
+  "originalUrl": "https://reflection.ai/blog/introducing-beam",
+  "originalSite": "reflection.ai",
+  "context": "Beam 采用稀疏混合专家（MoE）架构：5010 亿总参数决定模型的知识容量，而每个 token 只激活约 230 亿参数，因此推理开销更接近一个 230 亿参数的稠密模型，而不是 5010 亿参数规模。据外部报道，该模型以 Apache 2.0 许可发布，厂商还声称在推理成绩相近的情况下，其所需推理算力比 GLM-5.2 少 3–4 倍。",
+  "discussion": "评论者对 Beam 的泛化演示提出质疑：Ariarule 指出该谜题仅出现数天、理论上不会进入训练数据，Beam 在此测试中达到 95.5% 覆盖率，高于 Opus 5 的 92.5%，但低于未完整引用的 Fable。wren6991 的对比显示 Beam 激活参数（23B）高于 DeepSeek V4.1 Flash（预填充 8B/解码 16B），但其表中预训练 token 为 28T（公告引述为 23.8T），且没有 N-gram/PLE 参数；NorwegianDude 则认为西方开源模型仍落后于中国模型，呼吁更多竞争。",
+  "references": [
+    {
+      "title": "Introducing Beam : Reflection ’s 501 B open - weight model — Reflection",
+      "url": "https://reflection.ai/blog/introducing-beam"
+    },
+    {
+      "title": "Reflection AI &#x27;s Beam Challenges DeepSeek With 501 B Open - Weight ...",
+      "url": "https://alphasignal.ai/news/reflection-ai-s-beam-challenges-deepseek-with-501b-open-weight-reasoning-model"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash Benchmarks: Open-Weights Model Beats GPT ...",
+      "url": "https://flowtivity.ai/blog/deepseek-v4-1-flash-benchmarks/"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash - VRAM, Specs &amp; Benchmarks",
+      "url": "https://apxml.com/models/deepseek-v4-1-flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

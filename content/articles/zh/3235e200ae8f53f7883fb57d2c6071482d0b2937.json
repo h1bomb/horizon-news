@@ -1,0 +1,40 @@
+{
+  "id": "3235e200ae8f53f7883fb57d2c6071482d0b2937",
+  "canonicalId": "cbee4f83437993a6e84fad6a308299abb5c45f19",
+  "slug": "anthropic-cowork-将-vm-与推理迁入云端独立沙箱",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T23:56:00Z",
+  "lang": "zh",
+  "title": "Anthropic Cowork 将 VM 与推理迁入云端独立沙箱",
+  "summary": "Anthropic 的 Felix Rieseberg 在 X 上说明，Cowork 的“新”版本把模型推理和 VM 都放在云端运行，每个会话获得自己的沙箱、不与其他会话共享状态；当 VM 需要用户设备上的文件时，由桌面应用负责执行该文件访问工具调用。他描述的“旧”版本是云端做推理、但把 Anthropic 提供的 VM 下发到用户电脑上本地执行工具调用，只映射用户显式加入该会话的数据。据其说法，用户不满的是本地 VM 带来的磁盘、电池和性能开销，以及合上笔记本后工作就停止；新架构正是针对这些问题，并支持从手机使用 Cowork、让工作持续运行。以上均为厂商人员在引用中的描述，尚无独立验证。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "cloud sandboxing",
+    "Claude",
+    "VM architecture",
+    "desktop integration"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+  "originalSite": "simonwillison.net",
+  "context": "Claude Cowork 早前的做法是把 Claude Code 放进用户电脑上的本地虚拟机来运行，让不写代码的人也能用它处理报销、整理知识库一类任务；Felix Rieseberg 在今年 3 月的 Latent Space 播客中就是这样介绍它的（tool-2-2、tool-2-3）。按 Rieseberg 现在的说法，这台本地 VM 当初是为能力、安全和隔离而加入的，只映射用户明确加入会话的数据，但用户并不喜欢它带来的磁盘、电量和性能开销。此次改动正是把这台 VM 连同模型推理一起搬出本地。",
+  "discussion": "对使用者来说，最直接的差别是会话可以在云端继续运行而不占用本地磁盘和电池，并且可以借助手机发起或延续工作；但涉及本地文件的工具调用改由桌面应用代理，因此这类会话仍依赖桌面端在线并完成授权，纯网页或移动端的本地文件操作受此限制。",
+  "references": [
+    {
+      "title": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix ...",
+      "url": "https://podsumo.io/episode/latent-space-the-ai-engineer-podcast/why-anthropic-thinks-ai-should-have-its-own-computer-felix-rieseberg-of-claude"
+    },
+    {
+      "title": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix ...",
+      "url": "https://podwise.ai/episodes/7542058"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

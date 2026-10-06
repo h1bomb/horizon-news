@@ -1,0 +1,44 @@
+{
+  "id": "8bd493bdf7bbe36e96037c74ab6c1db54c7b0b0c",
+  "canonicalId": "0456b04488ab0cc9f71adf050db70305bac1d8ef",
+  "slug": "sashikollm-内核补丁评审系统的进展",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T15:10:00Z",
+  "lang": "zh",
+  "title": "Sashiko：LLM 内核补丁评审系统的进展",
+  "summary": "在 2026 年 Kernel Recipes 会议上，Sashiko 维护者 Roman Gushchin 介绍了这个基于大语言模型的 Linux 内核补丁自动评审系统：其代码全部开源并已捐赠给 Linux Foundation，主实例运行在 Google 的 Gemini 模型上，评审结果发布在 Google 赞助的 sashiko.dev。系统目前采用 11 阶段流水线，前 7 个阶段分别从锁、资源控制、安全等不同角度评审补丁，后续阶段负责去重、冲突解决、验证与严重度校准并生成报告；它每天需处理 1500 个以上补丁，上线前六个月共产生逾 17 万条评审、覆盖 91 个邮件列表，并调用 Git 超过 1800 万次，单次评审耗时从 15 小时降至 15 至 30 分钟。在由 1000 个已知回归构建的基准上，Sashiko 目前能找出略超过一半的缺陷，而这些缺陷当初都通过了人工评审；同时新增了可用 \\`cargo install sashiko\\` 安装的本地终端评审模式。Gushchin 也承认系统仍有限制：对大型改动的评审质量明显更差、会在未改动的代码上反复报出同一问题，并且仍会虚构不存在的缺陷；他并说明由于系统太新，目前还难以衡量它是否真正改善了内核代码质量。",
+  "score": 8,
+  "tags": [
+    "LLM code review",
+    "Linux kernel",
+    "open source",
+    "AI-assisted development",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1096963/",
+  "originalSite": "lwn.net",
+  "context": "Linux 内核的补丁评审长期受限于人手不足，这正是 Sashiko 用 LLM 自动生成评审、以减轻维护者负担的出发点。Horizon 5 月 26 日的日报曾报道，2026 年 LSFMM+BPF 峰会已就 LLM 辅助内核补丁评审展开专题讨论，并以 Sashiko 为例给出假阳性率约 10%、真阳性率约 85% 的早期基准数据；本次 Kernel Recipes 2026 的演讲则是维护者 Roman Gushchin 在系统运行约六个月后，对其架构、扩展计划和现存局限的更新。",
+  "discussion": "对内核维护者而言，最直接的变化是可以在本地终端运行评审：Sashiko 已提供本地模式，可用 \\`cargo install sashiko\\` 安装，再配置自己的 LLM 密钥即可运行；其代码、提示词和评审结果全部公开，且可与你使用的多个常见模型配合。同时，Sashiko 原先在补丁评审中顺带报出的既有代码缺陷已被抑制并转入独立数据库，目前约 5,000 条，只有 \\`MAINTAINERS\\` 中被点名的人可查询其子系统内的条目，而该库尚无人负责清理已修复项。需要注意的兼容性与准确性限制是：大型改动的评审质量明显差于小型改动，系统会对未改动的旧代码反复报出新问题，也会编造并不存在的缺陷——基准测试显示它只能发现略过半数的已知回归，因此维护者仍需人工核实每条结论，而不是直接采信。",
+  "references": [
+    {
+      "title": "2026-05-26 — LLM-based kernel patch review debated at LSFMM+BPF",
+      "url": "https://lwn.net/Articles/1073583/"
+    },
+    {
+      "title": "GitHub - sashiko-dev/sashiko: Agentic review of Linux Kernel ...",
+      "url": "https://github.com/sashiko-dev/sashiko"
+    },
+    {
+      "title": "Google engineers release “Sashiko”, an AI code review system ...",
+      "url": "https://lilting.ch/en/articles/sashiko-linux-kernel-ai-code-review"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

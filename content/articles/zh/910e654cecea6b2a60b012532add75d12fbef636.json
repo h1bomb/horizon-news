@@ -1,0 +1,40 @@
+{
+  "id": "910e654cecea6b2a60b012532add75d12fbef636",
+  "canonicalId": "20a57e552aef7b98423e794a38d0c4ef46cddec0",
+  "slug": "vllm-v0310-发布性能内核与破坏性变更",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T06:44:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.31.0 发布：性能内核与破坏性变更",
+  "summary": "vLLM 项目发布 v0.31.0，面向使用该 LLM 推理与服务引擎的开发者，包含 717 次提交、307 名贡献者（其中 96 名新贡献者）。该版本加入 FlashMLA mega attention（在 SM100 上配合 DeepSeek-V4.1-Flash NVFP4 压缩 KV 缓存成为默认）、DeepGEMM 稀疏 MQA logits、Mega-Gate 等内核融合，并新增 \\`vllm preload\\` 权重缓存守护进程以在引擎重启间保持量化后权重驻留 GPU，以及带 \\`/health\\` 端点和就绪等待的快速重启能力。同时带来 Model Runner V2 上的草稿模型投机解码、MoonEP 均衡 EP all2all 后端、\\`--max-num-active-seqs\\` 等调度控制，并收紧按请求多模态参数的安全门控。注意多项破坏性变更：\\`tokenizer\\_mode=&quot;slow&quot;\\` 被移除、\\`--enable-mamba-fine-grained-prefix-cache\\` 改名、\\`quantization=&quot;fp8&quot;\\` 由 \\`fp8\\_per\\_tensor\\` 取代、AllSpark INT8 W8A16 后端移除，且 \\`--enforce-eager\\` 还会禁用 JIT 内核预热；官方提供 CUDA 13.0/12.9、ROCm、CPU 和 XPU 的 wheel 与 Docker 镜像。",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "model serving",
+    "GPU kernels",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-09-23 — vLLM v0.30.0 发布：新增多款模型支持与启动缓存优化",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
+    },
+    {
+      "title": "2026-09-10 — vLLM 0.29.0 默认启用 Model Runner V2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

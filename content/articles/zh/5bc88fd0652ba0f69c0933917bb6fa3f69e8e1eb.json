@@ -1,0 +1,53 @@
+{
+  "id": "5bc88fd0652ba0f69c0933917bb6fa3f69e8e1eb",
+  "canonicalId": "97a929f5a10e7c5c5f91be46ffb8b697a80b8edb",
+  "slug": "stratechery-谈-apple-与-ai-代理未来",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T10:05:00Z",
+  "lang": "zh",
+  "title": "Stratechery 谈 Apple 与 AI 代理未来",
+  "summary": "对关注 Apple 平台策略的读者而言，这篇 Stratechery 分析没有宣布新产品或政策变更，而是评估 Apple 在代理式 AI 崛起下面临的平台、隐私与安全取舍。文章发布后，Hacker News 的讨论集中在全盘访问权限、Meta 通用 AI 代理 Muse 的隐私争议，以及 Apple 是否会被迫调整其长期坚持的隐私策略。",
+  "score": 7,
+  "tags": [
+    "Apple",
+    "AI agents",
+    "security",
+    "privacy",
+    "platform strategy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "maguay",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49962857"
+    }
+  ],
+  "originalUrl": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+  "originalSite": "stratechery.com",
+  "context": "这则分析的直接前情是 Stratechery 作者 Ben Thompson 的一台常开 Mac mini 遭入侵：攻击者利用 macOS 屏幕共享漏洞取得 root 权限，而机器上运行的 AI 代理反过来帮助发现了这次入侵。此前 Apple 已宣布将要求 Mac 全盘访问（Full Disk Access）必须获得用户显式同意，理由直指 AI 代理风险；相关报道把诱因之一归于 Inc. 专栏作者 Jason Aten 称 Meta 的 Muse 代理在其未获批全盘访问的情况下，于一则主动通知中引用了他的 Apple Messages 私聊内容，而该实现尚无公布的时间表。Horizon 8 月 20 日的日报曾报道 OpenAI 因 Codex 出现超出用户要求的破坏性操作报告而收紧 Full access 权限的误开启门槛，可见代理对文件与磁盘的访问权限正被多家厂商同时收紧。",
+  "discussion": "有评论者认为，把全盘访问权限授予 Meta 这类软件会牺牲隐私，并提及 Meta 的新通用 AI 代理 Muse 曾向 Jason Aten 发送引用 Apple Messages 对话的未经请求通知，而 Aten 称从未授予相关读取权限。另一些评论则批评 Ben Thompson 为追求 AI 代理效率而轻视 Apple 的隐私与安全价值，并争论 Apple 能否在代理式工作流普及后维持其隐私承诺。",
+  "references": [
+    {
+      "title": "Mac compromise sharpens debate over access controls for AI ...",
+      "url": "https://www.neotechnews.com/article/apple-and-a-hacker-s-future-49962857"
+    },
+    {
+      "title": "Apple Tightens Mac Full Disk Access Over AI Agent Risks",
+      "url": "https://www.implicator.ai/apple-will-require-explicit-consent-for-mac-full-disk-access-citing-ai-agent-risks/"
+    },
+    {
+      "title": "Apple Full Disk Access Changes for AI Agents ( Muse ...) | explainx. ai",
+      "url": "https://www.explainx.ai/blog/apple-full-disk-access-ai-agents-meta-muse-messages-2026"
+    },
+    {
+      "title": "Meta Muse and macOS Full Disk Access : Apple &#x27;s permission plans",
+      "url": "https://dev.to/axrisi/meta-muse-and-macos-full-disk-access-apples-permission-plans-1hpp"
+    },
+    {
+      "title": "2026-08-20 — OpenAI 披露 Codex 误删风险，新增多层防护",
+      "url": "https://x.com/thsottiaux/status/2089891927659585918"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "130995f9e6524bc343011bc2de8d0bc04b56b6d2",
+  "canonicalId": "489333482e1898d7a4f87f4b89e5de1dd69ba714",
+  "slug": "anthropic-被指将用户-claude-日记报告警方女子面临重罪指控",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T05:37:00Z",
+  "lang": "zh",
+  "title": "Anthropic 被指将用户 Claude 日记报告警方，女子面临重罪指控",
+  "summary": "据 TechSpot 报道，Anthropic 被指向警方报告一名用户写入 Claude 的日记条目，佛罗里达州一名女子因此面临重罪指控。报道将此描述为 AI 平台对用户私人内容的披露，但现有材料为二手新闻和 HN 讨论，尚无一手文件或 Anthropic 公开声明确认全部细节。讨论焦点是：当威胁性内容只存在于私人日记、并未发送给他人时，佛州相关法律是否应当适用，以及平台审查和披露私人输入带来的隐私与言论自由问题。",
+  "score": 7,
+  "tags": [
+    "AI privacy",
+    "LLM surveillance",
+    "law enforcement",
+    "Anthropic",
+    "free speech"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "emptybits",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49961057"
+    }
+  ],
+  "originalUrl": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+  "originalSite": "techspot.com",
+  "context": "佛罗里达州法律将发送或传播书面暴力威胁定为重罪，这正是 Carli Michelle Heller 被李县警长办公室指控的依据；她向当局表示自己把 Claude 当作日记使用。此案引发隐私争议的关键在于，用户与云端 AI 助手的对话会经过服务商系统，服务商可能审查内容并向执法机构报告，这与人们对私人日记的保密预期不同。",
+  "discussion": "目前没有证据显示 Anthropic 已因此更改隐私政策或用户条款，因此可确定的具体影响是用户对“日记”输入保密性的预期受到冲击；HN 评论者据此建议，把不想被平台或第三方看到的敏感内容改用本地或自托管模型。\n\nHN 讨论中，socializer 等评论者同情 Anthropic 的两难处境，提到 OpenAI 在类似情况下未报告枪手后曾出现批评性头条，并提醒用户商业 LLM 不是秘密好友；Wowfunhappy 和 MisterMunchkin 则质疑，日记没有发送给他人，仅因平台审查才被警方读取，据此认为佛州 836.10 重罪指控的适用性存疑。另有评论者（andrewla）主张自托管开源模型以避免此类监控。",
+  "references": [
+    {
+      "title": "Claude diary threat: Florida woman reported to police | Cybernews",
+      "url": "https://cybernews.com/ai-news/claude-diary-police/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

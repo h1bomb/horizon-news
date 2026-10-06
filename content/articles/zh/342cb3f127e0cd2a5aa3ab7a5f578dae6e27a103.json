@@ -1,0 +1,49 @@
+{
+  "id": "342cb3f127e0cd2a5aa3ab7a5f578dae6e27a103",
+  "canonicalId": "ecc2a8b76eaca4e71fcd437380a0784c39b433bc",
+  "slug": "cloudflare-推出-web-search-api",
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-05T10:47:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 推出 Web Search API",
+  "summary": "Cloudflare 在开发者文档更新日志中发布了一项 Web Search API，条目日期为 2026 年 10 月 2 日，面向需要检索网页内容的开发者与 AI 代理场景。所提供的材料中没有该接口的技术细节，未说明定价、调用限额、结果存储与再分发条款，也未给出实现方式或独立测试数据，因此目前只能确认这是 Cloudflare 新增的一项搜索接口，而非已验证的性能或能力表现。该消息在 Hacker News 上引发讨论，获得 474 分和 215 条评论。",
+  "score": 7,
+  "tags": [
+    "Cloudflare",
+    "Web Search API",
+    "AI Agents",
+    "Developer Tools",
+    "Search Infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tosh",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49963171"
+    }
+  ],
+  "originalUrl": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+  "originalSite": "developers.cloudflare.com",
+  "context": "Web Search API 面向需要实时联网检索的 AI Agent。据外部报道，Cloudflare 以开放测试版形式提供该接口：这是一个普通 HTTP 端点，Agent 可检索网页并获取标题、链接和简短描述，请求经由 AI Gateway 转发。",
+  "discussion": "有开发者提出，搜索 API 最关键的问题是能否存储并再分发检索结果——否则代理系统就无法提供“分享对话记录”这类功能——而相关条款通常深埋在服务条款中，并举例称 Ceramic 的条款禁止聚合其内容。另有评论者认为 Gemini Flash Lite 2.5 仍是低成本搜索的最佳选择（每天 1000 次 Google 搜索免费，而 Flash Lite 3.x 为每月 5000 次、之后按次计费），同时有人质疑 Cloudflare 作为中间层的必要性，并提到用 hister 这类本地索引配合浏览器插件缓存网页来应对反爬。",
+  "references": [
+    {
+      "title": "Cloudflare Web Search API : поиск в интернете для ИИ-агента",
+      "url": "https://ai4coding.ru/articles/cloudflare-web-search-api"
+    },
+    {
+      "title": "Web Search APIs for AI Agents Compared: Price and Limits",
+      "url": "https://www.digitalapplied.com/blog/web-search-apis-for-ai-agents-compared-2026"
+    },
+    {
+      "title": "The honest 2026 comparison: web search APIs for AI agents",
+      "url": "https://parallel.ai/articles/the-honest-2026-comparison-web-search-apis-for-ai-agents"
+    },
+    {
+      "title": "7 Best Web Search APIs for Grounding LLMs in 2026",
+      "url": "https://www.confident-ai.com/knowledge-base/compare/best-web-search-apis-grounding-llms-reducing-hallucinations-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
