@@ -1,0 +1,52 @@
+{
+  "id": "9c7d48135a2e413921507d471c48365cb561b18e",
+  "canonicalId": "0bcdb04f2da441f5092d275a3caed6604fc36026",
+  "slug": "openssh-106-发布启用抗量子签名算法",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T13:42:00Z",
+  "lang": "zh",
+  "title": "OpenSSH 10.6 发布：启用抗量子签名算法",
+  "summary": "OpenSSH 10.6 已发布，该版本启用了混合后量子签名算法 ssh-mldsa44-ed25519，为 sftp 的 lmkdir/mkdir 命令新增 -p 选项，并出于缓解侧信道泄漏的考虑在 ssh 与 sshd 中停用 LZ77 字典编码器（这会降低 Compression 选项的效果）。由于存在安全风险，允许在两个远程主机之间复制的 scp -R 选项已被弃用，未来该选项将被忽略。开发团队表示近期收到大量 AI 辅助生成的安全缺陷报告，并欢迎这些报告，尤其是附带人工分类、分析、测试用例乃至修复方案的报告，因此项目预计将更频繁地发布版本，以便更快地把修复推送给用户，而不是等到下一个计划版本再批量发布。",
+  "score": 7,
+  "tags": [
+    "open-source",
+    "security",
+    "cryptography",
+    "networking",
+    "post-quantum"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098980/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenSSH 10.4 Released with Multiple Security Fixes, Post - Quantum ...",
+      "url": "https://www.linkedin.com/pulse/openssh-104-released-multiple-security-fixes-post-quantum-ju0re"
+    },
+    {
+      "title": "OpenSSH first brings hybrid post - quantum signatures | heise online",
+      "url": "https://www.heise.de/en/news/OpenSSH-first-brings-hybrid-post-quantum-signatures-11356758.html"
+    },
+    {
+      "title": "AI Bug Reports Are Drowning Open Source: And the Fix Isn&#x27;t ...",
+      "url": "https://falcao.org/posts/ai-bug-reports-open-source/"
+    },
+    {
+      "title": "Google Tightens Open-Source Bug Bounty Rules After Surge in ...",
+      "url": "https://cyberpress.org/google-tightens-open-source-bug-bounty-rules/"
+    },
+    {
+      "title": "AI slop in bug bounties: why open source needs clearer rules",
+      "url": "https://cyber-ivy.com/en/articles/ai-slop-bug-reports-open-source-security-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

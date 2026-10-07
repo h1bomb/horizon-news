@@ -1,0 +1,45 @@
+{
+  "id": "c89e9f8005a47ae49d030a60ca4b0391d29b179f",
+  "canonicalId": "800d460c0ed7ba8e4b1a240d7441035ef1daeebb",
+  "slug": "gleam-编译器不再生成-erlang-源码改为输出抽象形式",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T08:08:00Z",
+  "lang": "zh",
+  "title": "Gleam 编译器不再生成 Erlang 源码，改为输出抽象形式",
+  "summary": "Gleam 官方宣布其编译器后端不再生成 Erlang 源码，而是直接输出 Erlang 抽象形式（abstract forms）。抽象形式是 Erlang 编译器所使用的 AST 表示，由 Erlang 项构成，并可借助标准库例程进行操作。该公告未在提供的内容中给出具体版本号、发布日期或可量化的性能数据，因此这是一项已发布的编译后端变更，而非可独立验证的基准结果。",
+  "score": 7,
+  "tags": [
+    "Gleam",
+    "Erlang",
+    "compilers",
+    "BEAM",
+    "programming languages"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ingve",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49975619"
+    }
+  ],
+  "originalUrl": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+  "originalSite": "gleam.run",
+  "context": "Erlang abstract forms 是 Erlang 编译器内部使用的中间表示，由 Erlang term 构成，可直接交给编译器的后续阶段处理。据 daily.dev、gleam.run 与 hn.today 的摘要，Gleam 此前的做法是先生成 Erlang 源代码，再由 Erlang 编译器从头解析；v1.19.0 重写的 Erlang 代码生成器改为直接输出 abstract forms，从而跳过 Erlang 编译器的前半部分。",
+  "discussion": "对依赖生成产物做后续处理的工具链而言，若此前读取 Gleam 输出的 .erl 源码文件，就需要改为消费抽象形式；评论者指出该表示正是 Elixir 的编译目标，也是 parse transform 所操作的对象，因此这类集成方需要相应调整。\n\n有评论者解释抽象形式就是 Erlang 编译器的 AST、也是 Elixir 的编译目标和 parse transform 的操作对象，并称从标准库操作它相当方便（0x69420）。其他评论则表达对 Gleam 的喜爱，同时提出两点期望与担忧：希望它能像 Rust 或 Go 那样编译到原生目标（MichaelNolan），以及在 LLM 代写代码的时代小众语言可能更难获得采用（tmountain）。",
+  "references": [
+    {
+      "title": "Gleam doesn&#x27;t compile to Erlang source anymore - daily.dev",
+      "url": "https://daily.dev/posts/gleam-doesn-t-compile-to-erlang-source-anymore-ljfylvksh"
+    },
+    {
+      "title": "Gleam doesn&#x27;t compile to Erlang source anymore",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/"
+    },
+    {
+      "title": "Gleam doesn&#x27;t compile to Erlang source anymore - hn.today",
+      "url": "https://hn.today/s/gleam-doesnt-compile-to-erlang-source-anymore-49975619"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

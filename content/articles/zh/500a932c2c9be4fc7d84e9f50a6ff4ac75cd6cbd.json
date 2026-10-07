@@ -1,0 +1,31 @@
+{
+  "id": "500a932c2c9be4fc7d84e9f50a6ff4ac75cd6cbd",
+  "canonicalId": "578d6254cc1271b845731d2f26b631a89efdc172",
+  "slug": "cuda-green-contexts显式划分-gpu-执行资源",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T15:00:00Z",
+  "lang": "zh",
+  "title": "CUDA Green Contexts：显式划分 GPU 执行资源",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 10月6日 15:00\n\n**「背景」** GPU 应用常在同一进程内同时运行多个独立组件，例如延迟敏感的算子与吞吐型后台内核、数据预处理与模型推理，它们会相互干扰。传统 CUDA 上下文偏重、带有硬件上下文切换开销，且难以精细划分资源；流优先级也无法保证高优先级内核在批量工作占满全部 SM 时立即执行。\n\n**「方案」** 作者的切入点是：与其依赖隐式的当前设备/上下文和流优先级，不如让应用显式声明要使用的 GPU 资源。Green contexts 允许应用选择一部分 SM 与 workqueue 资源，并把流和内核提交直接绑定到该上下文；它自 CUDA 12.4 起出现在 Driver API，CUDA 13.1 起可通过 Runtime API 使用。创建轻量且不会隐式同步无关工作，API 上由 cudaGreenCtxCreate\\(\\) 返回句柄，再用 cudaExecutionCtxStreamCreate\\(\\) 建流，之后仍沿用 CUDA 流式编程模型。作者用 Blackwell（148 SM）上的重叠场景演示：一个极小整数关键内核与 20 次背靠背、每次 4M 线程的 sqrtf 批量内核竞争。结果，Green context 将关键内核延迟压到 0.007 ms，而默认上下文加高优先级流为 0.140 ms，等优先级为 3.727 ms；作者据此称流优先级比等优先级快约 27 倍，但仍有等待批量块排空的约 20 倍损失，Green contexts 通过把 8 个 SM 专供关键工作、140 个 SM 留给批量工作来免除该等待，代价是批量可用 SM 减少。作者也指出，显式 provision workqueue 可减少共享工作队列造成的假串行化，且该特性是可选的增量能力。该结果来自作者的一次厂商基准示例，未给出误差范围或完整方法细节。\n\n**「启示」** 作者的结论是，Green contexts 把 GPU 资源分配从隐式设备状态改为显式声明，可在同一 GPU 上让延迟敏感工作与吞吐工作更可预测地共存；它并不取代传统模型，而是面向单进程多组件、需要资源确定性的场景的增量补充。\n\n**标签**: `#CUDA`, `#GPU scheduling`, `#SM partitioning`, `#stream priority`, `#workqueue isolation`",
+  "score": 6,
+  "tags": [
+    "CUDA",
+    "GPU scheduling",
+    "SM partitioning",
+    "stream priority",
+    "workqueue isolation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+  "originalSite": "developer.nvidia.com",
+  "context": "GPU 应用常在同一进程内同时运行多个独立组件，例如延迟敏感的算子与吞吐型后台内核、数据预处理与模型推理，它们会相互干扰。传统 CUDA 上下文偏重、带有硬件上下文切换开销，且难以精细划分资源；流优先级也无法保证高优先级内核在批量工作占满全部 SM 时立即执行。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

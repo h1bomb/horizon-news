@@ -1,0 +1,53 @@
+{
+  "id": "09b25c9b041ba1a18501d9c930f6906fc2dd40f6",
+  "canonicalId": "47b9255d8fa0f8e89c91be9f3fca6f4f2b924e04",
+  "slug": "openai-发布数学-ai-进展宣称证明多个开放问题",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T22:17:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布数学 AI 进展，宣称证明多个开放问题",
+  "summary": "OpenAI 发布了题为“Sharing AI Progress in Mathematics”的公告，并在 GitHub 上公开 openai/math 仓库，其中包含预印本。社区评论中引述的结果包括对 Barnette 猜想的证明，以及一份声称完整解决了 proofatlas.ai 前 500 个开放问题中 90 个的列表，其中排名较高的有 Hilbert 第十问题（ℚ 上）和 Unique Games 等。这些目前均为 OpenAI 及评论者引述的宣称，来源正文只提供一个 GitHub 链接，尚未见到独立验证或同行评审结论。",
+  "score": 9,
+  "tags": [
+    "AI for mathematics",
+    "automated theorem proving",
+    "OpenAI",
+    "mathematical conjectures",
+    "research announcements"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "OfficialTurkey",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49984923"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+  "originalSite": "openai.com",
+  "context": "OpenAI 公开数学成果并非首次：Horizon 的 2026 年 9 月 23 日日报曾报道，OpenAI 于 9 月 21 日宣布在普林斯顿高等研究院设立独立的数学与人工智能顾问组，负责评估研究成果并协调对外发布，同时称其模型已解决 100 多个数学未决问题，但当时没有提供技术细节或独立验证。更早的 8 月 1 日，OpenAI 也曾公布数学与理论计算机科学领域的十项进展。与这些以声明为主的阶段相比，本次发布直接链接到 GitHub 仓库中的预印本材料，外部读者因此可以查看具体证明内容。",
+  "discussion": "社区讨论中，有评论者称 Barnette 猜想的证明乍看可读，并提到自己此前用最先进模型尝试该猜想失败；另一条评论统计称该列表声称完整解决了前 500 个开放问题中的 90 个，包括 Hilbert 第十问题（ℚ 上）和 Unique Games 等。另有评论者指出其中三机单位作业调度结果虽不如 UGC 重要，但自 1979 年以来一直开放，也有评论者引用 Kevin Buzzard 的话来感叹 AI 对数学研究速度的影响。",
+  "references": [
+    {
+      "title": "2026-09-23 — OpenAI 设立数学与 AI 顾问组，称模型解决百余未决问题",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/"
+    },
+    {
+      "title": "Algorithmic proof of Barnette’s Conjecture - arXiv.org",
+      "url": "https://arxiv.org/html/0904.3431v1"
+    },
+    {
+      "title": "GitHub - EnLilaSko/Barnettes-Conjecture",
+      "url": "https://github.com/EnLilaSko/Barnettes-Conjecture"
+    },
+    {
+      "title": "Barnettes-Conjecture/data/Proof 2026-02-07.txt at main ...",
+      "url": "https://github.com/EnLilaSko/Barnettes-Conjecture/blob/main/data/Proof+2026-02-07.txt"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

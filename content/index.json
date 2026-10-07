@@ -1,6 +1,176 @@
 {
   "articles": [
     {
+      "id": "09b25c9b041ba1a18501d9c930f6906fc2dd40f6",
+      "canonicalId": "47b9255d8fa0f8e89c91be9f3fca6f4f2b924e04",
+      "slug": "openai-发布数学-ai-进展宣称证明多个开放问题",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "OpenAI 发布数学 AI 进展，宣称证明多个开放问题",
+      "score": 9,
+      "tags": [
+        "AI for mathematics",
+        "automated theorem proving",
+        "OpenAI",
+        "mathematical conjectures",
+        "research announcements"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "68874e9e626e9e2cf871fea65a51b13b9e1c66d3",
+      "canonicalId": "0522fc02b69ef4b7667277529061c190b47b50e3",
+      "slug": "mistral-large-4-预览版发布1-万亿参数承诺月底开源权重",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "Mistral Large 4 预览版发布：1 万亿参数，承诺月底开源权重",
+      "score": 9,
+      "tags": [
+        "Mistral Large 4",
+        "large language models",
+        "open weights",
+        "reasoning models",
+        "AI infrastructure"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "9257bfdd4e8446c5170b64858cd8016c05420b29",
+      "canonicalId": "0a7d6e8e8b6e889979dc0a12221511f0a054640c",
+      "slug": "google-发布-embeddinggemma-2-轻量多模态嵌入模型",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "Google 发布 EmbeddingGemma 2 轻量多模态嵌入模型",
+      "score": 8,
+      "tags": [
+        "embedding-models",
+        "multimodal-ai",
+        "open-source",
+        "apache-2.0",
+        "on-device-ai"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "c89e9f8005a47ae49d030a60ca4b0391d29b179f",
+      "canonicalId": "800d460c0ed7ba8e4b1a240d7441035ef1daeebb",
+      "slug": "gleam-编译器不再生成-erlang-源码改为输出抽象形式",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "Gleam 编译器不再生成 Erlang 源码，改为输出抽象形式",
+      "score": 7,
+      "tags": [
+        "Gleam",
+        "Erlang",
+        "compilers",
+        "BEAM",
+        "programming languages"
+      ],
+      "originalSite": "gleam.run"
+    },
+    {
+      "id": "52a50f32fb583b7788ad749ea3638dbd489d6017",
+      "canonicalId": "ba649422ea9b7584d6fa62333029e6ab37a1f0cf",
+      "slug": "gentoo-放弃维护-chromium-软件包并将其屏蔽",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "Gentoo 放弃维护 Chromium 软件包并将其屏蔽",
+      "score": 7,
+      "tags": [
+        "Gentoo",
+        "Chromium",
+        "Linux distributions",
+        "Software packaging",
+        "Open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "9c7d48135a2e413921507d471c48365cb561b18e",
+      "canonicalId": "0bcdb04f2da441f5092d275a3caed6604fc36026",
+      "slug": "openssh-106-发布启用抗量子签名算法",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "OpenSSH 10.6 发布：启用抗量子签名算法",
+      "score": 7,
+      "tags": [
+        "open-source",
+        "security",
+        "cryptography",
+        "networking",
+        "post-quantum"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "0cc256c566b202753c8279a50937753f7f93dcc0",
+      "canonicalId": "c96cf12dc0f8f6adc24a71bdaddab029c8c8e76e",
+      "slug": "本田与大成建设开发行驶中无线充电基础技术",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "本田与大成建设开发行驶中无线充电基础技术",
+      "score": 7,
+      "tags": [
+        "电动汽车",
+        "无线充电",
+        "交通基础设施",
+        "硬件技术",
+        "汽车产业"
+      ],
+      "originalSite": "china.kyodonews.net"
+    },
+    {
+      "id": "293cfb1ddd45f655e6b2344250b8ef640d5a5256",
+      "canonicalId": "d9eef010e3f6acaa078a1c2e0a3a3dd7eea44733",
+      "slug": "llm-为何在用户错误时仍附和",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "LLM 为何在用户错误时仍附和",
+      "score": 6,
+      "tags": [
+        "LLM sycophancy",
+        "RLHF",
+        "AI evaluation",
+        "red teaming",
+        "model alignment"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "500a932c2c9be4fc7d84e9f50a6ff4ac75cd6cbd",
+      "canonicalId": "578d6254cc1271b845731d2f26b631a89efdc172",
+      "slug": "cuda-green-contexts显式划分-gpu-执行资源",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "CUDA Green Contexts：显式划分 GPU 执行资源",
+      "score": 6,
+      "tags": [
+        "CUDA",
+        "GPU scheduling",
+        "SM partitioning",
+        "stream priority",
+        "workqueue isolation"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "f4203757f5d350f65bdc90cc0f20bb36e6b3eb89",
+      "canonicalId": "efa012f4f90cfca1b8538d9977f7dea55a78db41",
+      "slug": "doca-gpunetio统一-gpu-发起网络与-gda-ki-实现",
+      "date": "2026-10-07",
+      "lang": "zh",
+      "title": "DOCA GPUNetIO：统一 GPU 发起网络与 GDA-KI 实现",
+      "score": 6,
+      "tags": [
+        "GPU-initiated networking",
+        "RDMA",
+        "NVIDIA DOCA",
+        "GPUNetIO",
+        "GDA-KI"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
       "id": "910e654cecea6b2a60b012532add75d12fbef636",
       "canonicalId": "20a57e552aef7b98423e794a38d0c4ef46cddec0",
       "slug": "vllm-v0310-发布性能内核与破坏性变更",
@@ -4665,108 +4835,6 @@
         "circuit breakers"
       ],
       "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "423d8d0691c454fb6fbf2644578f6271a9f47874",
-      "canonicalId": "2b97fcb197077f0f26b5b1649a4c17a98872e862",
-      "slug": "isar-aerospace-第二次飞行入轨并部署载荷欧洲商业航天里程碑",
-      "date": "2026-09-07",
-      "lang": "zh",
-      "title": "Isar Aerospace 第二次飞行入轨并部署载荷，欧洲商业航天里程碑",
-      "score": 8,
-      "tags": [
-        "spaceflight",
-        "European space industry",
-        "Isar Aerospace",
-        "orbital launch",
-        "private aerospace"
-      ],
-      "originalSite": "isaraerospace.com"
-    },
-    {
-      "id": "7e0372f1a48e4ac509a02d068dfb77a0781cdb87",
-      "canonicalId": "4eb97e7acd8207b7f7ef255cdf7fc4e8972fec2b",
-      "slug": "asahi-linux-官方支持-apple-m3",
-      "date": "2026-09-07",
-      "lang": "zh",
-      "title": "Asahi Linux 官方支持 Apple M3",
-      "score": 8,
-      "tags": [
-        "asahi-linux",
-        "apple-m3",
-        "linux",
-        "open-source",
-        "drivers"
-      ],
-      "originalSite": "asahilinux.org"
-    },
-    {
-      "id": "fdebd691cd929fb74bc961c2448414d4c55ba428",
-      "canonicalId": "0c4cbb7ffcc5f1b9dca075e4e727bb71181f088d",
-      "slug": "不披露-llm-写作有损智识真诚",
-      "date": "2026-09-07",
-      "lang": "zh",
-      "title": "不披露 LLM 写作有损智识真诚",
-      "score": 7,
-      "tags": [
-        "artificial-intelligence",
-        "llm",
-        "tech-writing",
-        "ethics",
-        "discussion"
-      ],
-      "originalSite": "bcantrill.dtrace.org"
-    },
-    {
-      "id": "c00f1da4674f4008a475bc0486115ed71e4503a5",
-      "canonicalId": "a8e8f9dc895a026b51bbe8a83b4fa897c6604f10",
-      "slug": "openai-发文谈外星心智与-ai-对齐挑战",
-      "date": "2026-09-07",
-      "lang": "zh",
-      "title": "OpenAI 发文谈“外星心智”与 AI 对齐挑战",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "AI alignment",
-        "AGI",
-        "AI safety",
-        "technology industry"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "cd2c403f0c7871c93ad6d605b68fc8c5385ee2b2",
-      "canonicalId": "c052e2fb8d7cfd9b9b302d57e746ccf754ffc222",
-      "slug": "中国首款-ai-辅助研发创新药附条件获批上市",
-      "date": "2026-09-07",
-      "lang": "zh",
-      "title": "中国首款 AI 辅助研发创新药附条件获批上市",
-      "score": 7,
-      "tags": [
-        "AI drug discovery",
-        "artificial intelligence",
-        "biotech",
-        "China",
-        "pharmaceuticals"
-      ],
-      "originalSite": "gelonghui.com"
-    },
-    {
-      "id": "6ae68263c022aefaef24df60a43797259c8f8b8e",
-      "canonicalId": "0b25fd2fb9cd8fec803e9ea49c5e87f1bf88dd8e",
-      "slug": "8-家中央金融企业拟增资-3600-亿元补充核心一级资本",
-      "date": "2026-09-07",
-      "lang": "zh",
-      "title": "8 家中央金融企业拟增资 3600 亿元，补充核心一级资本",
-      "score": 9,
-      "tags": [
-        "China",
-        "bank recapitalization",
-        "core tier 1 capital",
-        "Ministry of Finance",
-        "financial policy"
-      ],
-      "originalSite": "news.cn"
     }
   ]
 }

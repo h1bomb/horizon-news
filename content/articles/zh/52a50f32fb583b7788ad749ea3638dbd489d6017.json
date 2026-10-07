@@ -1,0 +1,31 @@
+{
+  "id": "52a50f32fb583b7788ad749ea3638dbd489d6017",
+  "canonicalId": "ba649422ea9b7584d6fa62333029e6ab37a1f0cf",
+  "slug": "gentoo-放弃维护-chromium-软件包并将其屏蔽",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T13:44:00Z",
+  "lang": "zh",
+  "title": "Gentoo 放弃维护 Chromium 软件包并将其屏蔽",
+  "summary": "Gentoo 的 www-client/chromium 软件包维护者 Sam James 于 9 月 24 日宣布对该包执行“last rites”（停止维护宣告），随后该软件包在 Gentoo ebuild 仓库中被屏蔽，已安装用户尝试升级时会收到已屏蔽的警告。维护者此前已多次接近采取这一步骤，原因是 Chromium 构建系统复杂、上游捆绑大量依赖、发布频繁，且用户长期抱怨软件包版本过旧。Roman Žilka 在 9 月 9 日的 bug 报告中称，当时最新稳定版 Chromium 151.0.7922.169 含有 602 个已知漏洞；到 9 月 18 日，Chromium 153.0.8010.47 已在 Arch Linux、openSUSE、SUSE 和 Ubuntu 中可用，而 Gentoo 仍未更新。Gentoo 目前也没有 Chromium 的二进制包，原因是用专有编解码器构建时存在问题。",
+  "score": 7,
+  "tags": [
+    "Gentoo",
+    "Chromium",
+    "Linux distributions",
+    "Software packaging",
+    "Open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1097760/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "对依赖 Gentoo 打包 Chromium 的用户而言，已安装该包的用户在尝试升级时会收到软件包已被屏蔽的警告，无法再通过 Portage 获得官方维护的更新；他们需要转向第三方 overlay（例如 Bentoo 或 Fireburn，但有人报告并非都能顺利编译）、手动使用非官方 ebuild，或改用其他浏览器。另外，在非 x86-64 架构上编译 Chromium 必须使用 -bundled-toolchain USE 标志，而 Roman Žilka 提交的新版 ebuild 已注明启用该标志时无法工作。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

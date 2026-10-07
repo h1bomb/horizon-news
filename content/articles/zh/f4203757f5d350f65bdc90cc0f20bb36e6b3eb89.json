@@ -1,0 +1,31 @@
+{
+  "id": "f4203757f5d350f65bdc90cc0f20bb36e6b3eb89",
+  "canonicalId": "efa012f4f90cfca1b8538d9977f7dea55a78db41",
+  "slug": "doca-gpunetio统一-gpu-发起网络与-gda-ki-实现",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T19:07:00Z",
+  "lang": "zh",
+  "title": "DOCA GPUNetIO：统一 GPU 发起网络与 GDA-KI 实现",
+  "summary": "rss · NVIDIA NCCL Technical Blog · 10月6日 19:07\n\n**「背景」** GPU 应用越来越希望网络与数据移动像 GPU 控制的操作，而不是由 CPU 代理的托管服务；CPU 介入每次网络事务会增加延迟并成为关键路径瓶颈。此前每个通信库各自实现 GDA-KI 风格的 GPU 发起 RDMA，代码、假设和维护彼此独立，造成重复工程与行为碎片化。\n\n**「方案」** DOCA GPUNetIO 是 GPU 中心的网络 SDK 层，把 GPUDirect RDMA、GPUDirect Async Kernel-Initiated（GDA-KI）和 GDRCopy 等结合，让 CUDA 内核直接驱动 Ethernet、RDMA、Verbs 与 DMA。其编程模型分两段：CPU 控制路径初始化设备、创建网络队列，并通过 GPUNetIO 函数把传输对象导出到 GPU 内存；GPU 数据路径的内核则提交 WQE、敲响门铃并轮询 CQE。API 分高层与低层：高层提供线程安全的复合操作，低层提供基础原语但需应用自行同步；门铃有常规、BlueFlame 和 CPU 辅助三种模式，后者用于 DGX Spark 这类无直接 GPU-NIC 连接的系统。NVIDIA 以双形态发布：开源版聚焦 RDMA Verbs，DOCA SDK 版为超集并含更丰富 RDMA、Ethernet 和 DMA，且开源版可在运行时通过 dlopen 调用 SDK。集成方面，NCCL GIN 自 2.27 起使用开源 GPUNetIO Verbs 路径，NVSHMEM 3.7 新增 GPUNetIO transport 并通过环境变量启用 GDA-KI；NVQLink/HSB 的 GPU RoCE Transceiver 也构建在其上。作者报告 NVSHMEM shmem\\_put\\_bw 中 GDA-KI 消除了 CPU 代理瓶颈，改善 CTA/QP 扩展并在小消息上更早达到峰值带宽；NVQLink 在 IGX Thor/Blackwell 与 ConnectX-7 对 Xilinx RFSoC FPGA 的测试中，最小/中位往返转发延迟约 2.6/2.7 微秒。\n\n**「启示」** 作者的核心论点是：将 GDA-KI 统一到 GPUNetIO 可让多个通信库共享同一实现、优化与修复，减少重复维护和碎片化，并把 CPU 移出关键路径；其生态价值已在 NVSHMEM、NCCL 与 NVQLink 等集成中体现，但这些性能结果主要来自 NVIDIA 自身报告。\n\n**标签**: `#GPU-initiated networking`, `#RDMA`, `#NVIDIA DOCA`, `#GPUNetIO`, `#GDA-KI`",
+  "score": 6,
+  "tags": [
+    "GPU-initiated networking",
+    "RDMA",
+    "NVIDIA DOCA",
+    "GPUNetIO",
+    "GDA-KI"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA NCCL Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+  "originalSite": "developer.nvidia.com",
+  "context": "GPU 应用越来越希望网络与数据移动像 GPU 控制的操作，而不是由 CPU 代理的托管服务；CPU 介入每次网络事务会增加延迟并成为关键路径瓶颈。此前每个通信库各自实现 GDA-KI 风格的 GPU 发起 RDMA，代码、假设和维护彼此独立，造成重复工程与行为碎片化。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

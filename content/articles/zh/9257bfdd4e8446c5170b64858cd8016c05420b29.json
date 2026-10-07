@@ -1,0 +1,57 @@
+{
+  "id": "9257bfdd4e8446c5170b64858cd8016c05420b29",
+  "canonicalId": "0a7d6e8e8b6e889979dc0a12221511f0a054640c",
+  "slug": "google-发布-embeddinggemma-2-轻量多模态嵌入模型",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T16:03:00Z",
+  "lang": "zh",
+  "title": "Google 发布 EmbeddingGemma 2 轻量多模态嵌入模型",
+  "summary": "谷歌发布了 EmbeddingGemma 2，这是一个以 Apache 2.0 许可开放的轻量多模态嵌入模型，定位为可在本地和端侧运行的语义检索与多模态检索方案。评论区给出的规格是：纯文本版本约 270M 参数，文本加视觉合计约 440M 参数（此为评论者说法，官方博客正文未提供可核实的细节）。评论者 aabhay 指出，与早前的端侧嵌入模型不同，该模型采用 MRL 而非 MatFormers 训练，因此降低嵌入维度时无法同步缩小模型权重。目前尚未见到独立评测结果。",
+  "score": 8,
+  "tags": [
+    "embedding-models",
+    "multimodal-ai",
+    "open-source",
+    "apache-2.0",
+    "on-device-ai"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ilreb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49980487"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+  "originalSite": "blog.google",
+  "context": "Horizon 2026 年 3 月 11 日的日报曾报道，Google 的 Gemini Embedding 2 能把文本、图片、视频、音频和文档映射到统一向量空间，但只能通过 Gemini API 与 Vertex AI 调用。与之相对，EmbeddingGemma 2 以 Apache 2.0 许可开放权重，按 270M 纯文本、440M 文本+视觉、740M 全模态（含音频编码器）三档提供，并与 Gemma 4 共享分词器，用于端侧 RAG 等本地场景。",
+  "discussion": "simonw 赞同 Apache 2.0 许可，理由是嵌入模型一旦被用于生成并长期保存成千上万条向量，闭源托管模型随时可能被供应商下架；minimaxir 称此前缺少中等规模嵌入模型，并提到自己已为 EmbeddingGemma 校准了一套本地加速生成嵌入的工具。aabhay 则提醒 MRL 训练带来的权重无法随低维嵌入一起缩减这一限制。以上均为评论者个人观点，非已验证结论。",
+  "references": [
+    {
+      "title": "2026-03-11 — Google Launches Gemini Embedding 2, a Native Multimodal Vector Model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/"
+    },
+    {
+      "title": "embeddinggemma - 2 : 440 m",
+      "url": "https://ollama.com/library/embeddinggemma-2:440m"
+    },
+    {
+      "title": "EmbeddingGemma 2 : The Developer Guide - Google Developers Blog",
+      "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/?ref=communeify.com"
+    },
+    {
+      "title": "google/ embeddinggemma - 2 · Hugging Face",
+      "url": "https://huggingface.co/google/embeddinggemma-2"
+    },
+    {
+      "title": "EmbeddingGemma 2 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2"
+    },
+    {
+      "title": "EmbeddingGemma 2 : The Developer Guide - Google Developers Blog",
+      "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/?ref=communeify.com"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

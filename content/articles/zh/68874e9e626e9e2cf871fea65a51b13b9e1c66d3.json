@@ -1,0 +1,48 @@
+{
+  "id": "68874e9e626e9e2cf871fea65a51b13b9e1c66d3",
+  "canonicalId": "0522fc02b69ef4b7667277529061c190b47b50e3",
+  "slug": "mistral-large-4-预览版发布1-万亿参数承诺月底开源权重",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-06T20:18:00Z",
+  "lang": "zh",
+  "title": "Mistral Large 4 预览版发布：1 万亿参数，承诺月底开源权重",
+  "summary": "Mistral 发布 Mistral Large 4 预览版：这是一个 1 万亿总参数、490 亿激活参数的模型，在公司位于欧洲的自有集群上使用 3800 块 NVIDIA Grace Blackwell GPU 训练，目前仅通过 Mistral API 提供。官方承诺在本月底发布开放权重版本，因此开源目前只是承诺而非已交付的能力。API 只支持 &quot;none&quot; 与 &quot;high&quot; 两档推理，Simon Willison 的测试显示两者差别不大——&quot;high&quot; 档甚至只用了 2,717 个输出 token，少于 &quot;none&quot; 档的 3,275 个。在 Artificial Analysis 上该模型得分为 38，略低于参数量 552B 的 DeepSeek 4.1 Flash，但相比去年 12 月的 Mistral Large 3（得分仅 9）有巨大提升。",
+  "score": 9,
+  "tags": [
+    "Mistral Large 4",
+    "large language models",
+    "open weights",
+    "reasoning models",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "originalSite": "simonwillison.net",
+  "context": "Large 4 的直接前代是去年 12 月的 Mistral Large 3。此后 Mistral 主要通过较小的开放权重模型推进：3 月 17 日的日报曾记录 Mistral Small 4 以 Apache 2.0 许可发布，把推理、多模态与编码能力首次合并进 1190 亿参数的一套权重；4 月 30 日的日报则报道 Mistral Medium 3.5 为稠密 1280 亿参数，支持 256k 上下文和可配置的推理强度。相比之下，Large 4 预览只提供 none 与 high 两档推理强度。",
+  "discussion": "Plotly 的 chriddyp 报告称，在其数据分析基准上该模型正确率从 58% 提升到 74%，且比 4 月的 Mistral Medium 3.5 便宜 10 倍，认为这是“代际跃迁”，但尚未进入帕累托前沿。另有评论者 abixb 提出疑问：用约 3800 块 GB GPU 从零训练 1T 参数模型就能接近顶级闭源模型，这对其他实验室意味着什么；prodigycorp 则称其视觉与网络安全基准表现强劲，适合作为日常使用模型。",
+  "references": [
+    {
+      "title": "2026-04-30 — Mistral Releases Dense 128B Model with 256k Context",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+    },
+    {
+      "title": "2026-03-17 — Mistral AI releases Mistral Small 4, a 119B-parameter open-source model with unified reasoning, multimodal, and coding capabilities.",
+      "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything"
+    },
+    {
+      "title": "Mistral has released Mistral Large 4 , making... | Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai"
+    },
+    {
+      "title": "Introducing Mistral Large 4 | Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
