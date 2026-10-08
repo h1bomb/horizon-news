@@ -1,0 +1,48 @@
+{
+  "id": "3a2115b5247fca686525062d9950f0806e0d35e4",
+  "canonicalId": "632bf0c84f6a3176b6b4fbdd326c977aeea88d62",
+  "slug": "charon为-rustc-内部信息提供稳定-api-的-rust-分析项目",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T15:19:00Z",
+  "lang": "zh",
+  "title": "Charon：为 rustc 内部信息提供稳定 API 的 Rust 分析项目",
+  "summary": "Nadrieril 在 Kangrejos 2026 上介绍的 Charon 项目，旨在为访问 rustc 内部信息提供稳定 API，让外部工具无需重新实现编译器即可分析 Rust crate。在演示中，\\`charon cargo\\` 会像 cargo 一样编译项目，并额外输出 \\`.llbc\\` JSON 文件，其中包含 crate 的完整类型、trait 和函数信息；它还能将输出美化打印为显式标出 drop、unwind 等隐式行为的类 Rust 语言。与尽量少做抽象、仅暴露 rustc 接口的 rustc\\_public 不同，Charon 对信息做更多包装以提供简化、规整、易解析的格式；它已提供由自身源码生成的 OCaml 绑定，并被用于 Rust 到 C/Lean 的翻译（Rust 到 C 目前仅针对安全 Rust）。Nadrieril 还展示了用 Charon 查看 bindgen 为内核生成的 \\`list\\_head\\` 等结构的布局及编译器版本间稳定性保证，并表示展示不同优化遍效果的功能尚未实现但应该不难添加。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "compiler tooling",
+    "program analysis",
+    "Charon",
+    "rustc"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1097198/",
+  "originalSite": "lwn.net",
+  "context": "rustc 的内部接口被官方明确标注为不稳定，而 Rust 中大量语义是隐式或自动的，外部工具若想理解代码实际行为，通常只能直接链接编译器库并忍受接口随版本变动而失效的风险。Rust 官方为此设有 rustc\\_public（原 Stable MIR）项目，目标是在编译器中间表示 MIR 之上提供符合 SemVer 的稳定 API 与稳定数据结构，让工具生态能与编译器开发并行维护\\[1\\]\\[2\\]\\[3\\]。源报道中 Nadrieril 将两者描述为同一光谱的两端：rustc\\_public 只做最小限度的接口暴露，Charon 则额外把信息包装成规则、易解析的格式。",
+  "discussion": "对需要分析 Rust 代码的工具开发者而言，Charon 的意义在于把跟随 rustc 内部接口变化的兼容负担集中到项目自身：会上演示的自定义 linter（检查程序是否调用 std::thread::spawn）约 60 行即可写成，Nadrieril 也认为 Rust 版 Coccinelle 可用它替代 rust-analyzer。限制同样明确——Rust 到 C 的翻译只针对 safe Rust，Aeneas 验证工具链所依赖的 LLBC 目前支持的也仍是安全、顺序的 Rust 代码；而按不同优化 pass 展示代码变化的功能尚未实现，Nadrieril 只是认为添加起来并不困难。",
+  "references": [
+    {
+      "title": "Stable MIR (StableMIR / rustc _ public ) | rust -lang/ rust | DeepWiki",
+      "url": "https://deepwiki.com/rust-lang/rust/3.10-stable-mir-%28stablemir-rustc_public%29"
+    },
+    {
+      "title": "GitHub - rust -lang/ rustc _ public : Define compiler intermediate...",
+      "url": "https://github.com/rust-lang/rustc_public"
+    },
+    {
+      "title": "Publish first version of StableMIR on crates.io - Rust Project Goals",
+      "url": "https://goals.rust-lang.org/2025h1/stable-mir.html"
+    },
+    {
+      "title": "Projects | Aeneas , a Verification Framework for Rust",
+      "url": "https://aeneasverif.github.io/projects/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,294 @@
 {
   "articles": [
     {
+      "id": "ddd7bf756dc52f8ed50f06017a9041befe8b34aa",
+      "canonicalId": "0ca1450969b5beb55904e9fac4f7d0e7720785ad",
+      "slug": "openai-宣布-gpt-6-与-intelligent-ui",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "OpenAI 宣布 GPT-6 与 Intelligent UI",
+      "score": 9,
+      "tags": [
+        "GPT-6",
+        "OpenAI",
+        "AI models",
+        "Intelligent UI",
+        "AI safety"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "ff38f88639d495613998e8c3fc1a30991b3a91c8",
+      "canonicalId": "e36111052c2863f4a62e6129696e474236fe75e3",
+      "slug": "chrome-开始内置支持-jpeg-xl-图像格式",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "Chrome 开始内置支持 JPEG XL 图像格式",
+      "score": 8,
+      "tags": [
+        "JPEG XL",
+        "Chrome",
+        "web images",
+        "browser support",
+        "image compression"
+      ],
+      "originalSite": "developer.chrome.com"
+    },
+    {
+      "id": "1f800dbc165025d8d7331d52076f224b7529de10",
+      "canonicalId": "437cdfb1286393c6c70ac1b1bd24aea975d5f516",
+      "slug": "psp-web-recomppsp战神重编译为-webassembly-在浏览器运行",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "psp-web-recomp：PSP《战神》重编译为 WebAssembly 在浏览器运行",
+      "score": 8,
+      "tags": [
+        "WebAssembly",
+        "static recompilation",
+        "emulation",
+        "game preservation",
+        "WebGL2"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "e5138eb83fe080eba6feb966cdd87452d2c97648",
+      "canonicalId": "50e357203d2a1cc3668efe8a796d94819c524e7b",
+      "slug": "维基媒体确认发现-openai-智能体未授权活动",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "维基媒体确认发现 OpenAI 智能体未授权活动",
+      "score": 8,
+      "tags": [
+        "AI agents",
+        "OpenAI",
+        "Wikimedia",
+        "security",
+        "bot activity"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "7ab3dac6c423ae0db64b4ebac06bc04c97ec5f84",
+      "canonicalId": "61c53b9655ded3769ad339344764085919ab5d90",
+      "slug": "lavd-调度器从游戏场景演进到服务器工作负载",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "LAVD 调度器从游戏场景演进到服务器工作负载",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "CPU scheduling",
+        "sched\\_ext",
+        "BPF",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "04773e7d990e90f5ed24f2b715958b02a5516cc2",
+      "canonicalId": "e4feb1bf5e6900f4a7b1671708c44d6f48d4ab28",
+      "slug": "openai-发布内部模型生成的数学成果合集",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "OpenAI 发布内部模型生成的数学成果合集",
+      "score": 8,
+      "tags": [
+        "AI",
+        "mathematics",
+        "Lean",
+        "formal verification",
+        "OpenAI"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "4fc0fb53f52ff90815d54d3464d67a0b80d55178",
+      "canonicalId": "4bb428a07b2a9a894359b0d63ae89b1801d7736f",
+      "slug": "anthropic-发布-claude-haiku-55-小型模型成本降约-75",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "Anthropic 发布 Claude Haiku 5.5 小型模型，成本降约 75%",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "Claude Haiku 5.5",
+        "LLM release",
+        "AI pricing",
+        "Cloud AI"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "0bbac21a1965f5d695d0c3cc3c0b53e90e44ddce",
+      "canonicalId": "ffaeefda6df4a38864b15dfdc5bc81056807ef88",
+      "slug": "阿波罗计划软件负责人玛格丽特汉密尔顿去世",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "阿波罗计划软件负责人玛格丽特·汉密尔顿去世",
+      "score": 7,
+      "tags": [
+        "software engineering history",
+        "Apollo program",
+        "computing pioneer",
+        "obituary"
+      ],
+      "originalSite": "news.mit.edu"
+    },
+    {
+      "id": "50945a359aa64d98806c5db392958fffebee2f61",
+      "canonicalId": "4201f3de1d49e58589307a8b4879dfe481614146",
+      "slug": "预印本称-llm-的-navierstokes-lean-形式化偏离自然语言证明",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "预印本称 LLM 的 Navier–Stokes Lean 形式化偏离自然语言证明",
+      "score": 7,
+      "tags": [
+        "formal-verification",
+        "Lean",
+        "Navier-Stokes",
+        "AI-assisted-proofs",
+        "LLM-formalization"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "3a2115b5247fca686525062d9950f0806e0d35e4",
+      "canonicalId": "632bf0c84f6a3176b6b4fbdd326c977aeea88d62",
+      "slug": "charon为-rustc-内部信息提供稳定-api-的-rust-分析项目",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "Charon：为 rustc 内部信息提供稳定 API 的 Rust 分析项目",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "compiler tooling",
+        "program analysis",
+        "Charon",
+        "rustc"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "b77915a1d086679900e62a21b7ab3773d36bb8ee",
+      "canonicalId": "5b56a4a76b7f9c553f1118272ddf87b2305f1f58",
+      "slug": "google-发布-740m-参数开放权重模型-embeddinggemma-2",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "Google 发布 740M 参数开放权重模型 EmbeddingGemma 2",
+      "score": 7,
+      "tags": [
+        "on-device AI",
+        "multimodal embeddings",
+        "open-weights models",
+        "Google DeepMind",
+        "edge inference"
+      ],
+      "originalSite": "developers.googleblog.com"
+    },
+    {
+      "id": "eb3732ac9ccfd19176b1707323d8617e9a2237f3",
+      "canonicalId": "0fa13121f0824c56e3831e00a55317a21991eaaf",
+      "slug": "谷歌向全球用户开放-synthid-detector",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "谷歌向全球用户开放 SynthID Detector",
+      "score": 7,
+      "tags": [
+        "AI内容溯源",
+        "数字水印",
+        "Google SynthID",
+        "生成式AI",
+        "内容检测"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "ac20ce40cc61e0d428ebfe2472feb103ffc97bf6",
+      "canonicalId": "8898b4cd60b8da95b5aaae535e1340d40852a127",
+      "slug": "nvidia-cuopt-mpdlp多-gpu-扩展到亿级-lp",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "NVIDIA cuOpt mPDLP：多 GPU 扩展到亿级 LP",
+      "score": 8,
+      "tags": [
+        "linear programming",
+        "PDLP",
+        "GPU optimization",
+        "distributed computing",
+        "graph partitioning"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "3950ef7c74ab1db735db95502ecf4165de6fb0a9",
+      "canonicalId": "94a2f042cf7375c8884f594cf362f8fd0fcb0879",
+      "slug": "netflix-genrec用-llm-改造推荐排序",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "Netflix GenRec：用 LLM 改造推荐排序",
+      "score": 6,
+      "tags": [
+        "Netflix",
+        "recommender systems",
+        "LLM serving",
+        "context engineering",
+        "ranking"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "34a46ad76291a2c186734860bc15d6c55df055ad",
+      "canonicalId": "54d9a34ff6ce8112770c5f86cf37de0eca8d10c7",
+      "slug": "nvidia-cuphotongpu-原生科学图像分析流水线",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "NVIDIA cuPhoton：GPU 原生科学图像分析流水线",
+      "score": 5,
+      "tags": [
+        "GPU computing",
+        "scientific imaging",
+        "astronomy",
+        "image subtraction",
+        "NVIDIA cuPhoton"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "c5967483362d506361798d3b3e871f1fd2ef5f8a",
+      "canonicalId": "e1098bba56f8bc1da0916290e04ce8f129b84bdf",
+      "slug": "美联储会议纪要多数官员预计年底前再加息一次但未定时间",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "美联储会议纪要：多数官员预计年底前再加息一次，但未定时间",
+      "score": 9,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "Treasury yields"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "133f83d4288a73ac26fcd0f2cf9ce140905938d4",
+      "canonicalId": "d4d8ffb6e7eb4f87e02424b1307d55034a07d720",
+      "slug": "imf-总裁ai-既是全球增长引擎也是通胀与不平等压力来源",
+      "date": "2026-10-08",
+      "lang": "zh",
+      "title": "IMF 总裁：AI 既是全球增长引擎，也是通胀与不平等压力来源",
+      "score": 8,
+      "tags": [
+        "IMF",
+        "AI investment",
+        "global debt",
+        "inflation",
+        "bond markets"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "09b25c9b041ba1a18501d9c930f6906fc2dd40f6",
       "canonicalId": "47b9255d8fa0f8e89c91be9f3fca6f4f2b924e04",
       "slug": "openai-发布数学-ai-进展宣称证明多个开放问题",
@@ -4716,125 +5004,6 @@
         "Tile IR"
       ],
       "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "7773537da0dae028ebb763632ec79456d41f87eb",
-      "canonicalId": "e114bfb8159697189431b6ef5355195fe897bd6d",
-      "slug": "asahi-linux-宣布支持-apple-m3-系列-mac",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "Asahi Linux 宣布支持 Apple M3 系列 Mac",
-      "score": 8,
-      "tags": [
-        "Asahi Linux",
-        "Apple Silicon",
-        "Linux",
-        "M3",
-        "Hardware Support"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "a1a061b08cf25b047c4451eb86f394394a478956",
-      "canonicalId": "6b13cc6124d3aff699e50b76cf76ddbf6f719f92",
-      "slug": "华为发布麒麟-9050-pro-芯片",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "华为发布麒麟 9050 Pro 芯片",
-      "score": 8,
-      "tags": [
-        "hardware",
-        "semiconductors",
-        "Huawei",
-        "chip-design",
-        "mobile-computing"
-      ],
-      "originalSite": "news.cn"
-    },
-    {
-      "id": "fd25fbd027916f3e73038c047cbcb763553630a9",
-      "canonicalId": "774f7412d1a369d1c04ab0bb964614cd55e7e294",
-      "slug": "lg-智能电视隐私争议屏幕关闭仍记录音频并嗅探局域网",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "LG 智能电视隐私争议：屏幕关闭仍记录音频并嗅探局域网",
-      "score": 7,
-      "tags": [
-        "privacy",
-        "smart TV",
-        "LG",
-        "IoT security",
-        "surveillance"
-      ],
-      "originalSite": "youtube.com"
-    },
-    {
-      "id": "6b4c384f0339b3e94bf7c9c39de1fd960b5239f5",
-      "canonicalId": "e6c5f1c2340cfe282029626e1ebbb4c4c74419e8",
-      "slug": "cern-从-centos-linux-迁移至-debian",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "CERN 从 CentOS Linux 迁移至 Debian",
-      "score": 7,
-      "tags": [
-        "Debian",
-        "CentOS",
-        "migration",
-        "CERN",
-        "Linux"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "738bde761386a303d1ad6f335483a0fe4d9801c0",
-      "canonicalId": "985e6c19fe0b72ab075621229ee106865c6f56fd",
-      "slug": "用-rseq-操作修复-tcmalloc-在-linux-619-的回归",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "用 RSEQ 操作修复 TCMalloc 在 Linux 6.19 的回归",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "TCMalloc",
-        "restartable sequences",
-        "memory allocation",
-        "performance"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "5106833ff1ecc0ffd0187698ce1a4edc4a115286",
-      "canonicalId": "52a329c64ea99e4c8dfb47866a7439da79bd6036",
-      "slug": "最高法发布-ai-纠纷司法解释明确换脸与算法杀熟责任",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "最高法发布 AI 纠纷司法解释，明确换脸与算法杀熟责任",
-      "score": 7,
-      "tags": [
-        "AI regulation",
-        "deepfakes",
-        "algorithmic discrimination",
-        "privacy",
-        "China"
-      ],
-      "originalSite": "cnr.cn"
-    },
-    {
-      "id": "9dc77123909b6b1c79a15f3349c3a465af5b8c37",
-      "canonicalId": "cd10a736fdc3cd9c1f281fba927143d4d4a7292d",
-      "slug": "llm-应用错误处理的韧性设计",
-      "date": "2026-09-08",
-      "lang": "zh",
-      "title": "LLM 应用错误处理的韧性设计",
-      "score": 6,
-      "tags": [
-        "LLM applications",
-        "error handling",
-        "resiliency",
-        "retries",
-        "circuit breakers"
-      ],
-      "originalSite": "blog.bytebytego.com"
     }
   ]
 }

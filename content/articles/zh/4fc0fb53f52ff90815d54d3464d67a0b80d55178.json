@@ -1,0 +1,40 @@
+{
+  "id": "4fc0fb53f52ff90815d54d3464d67a0b80d55178",
+  "canonicalId": "4bb428a07b2a9a894359b0d63ae89b1801d7736f",
+  "slug": "anthropic-发布-claude-haiku-55-小型模型成本降约-75",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T18:07:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Claude Haiku 5.5 小型模型，成本降约 75%",
+  "summary": "Anthropic 发布 Claude Haiku 5.5，官方定位为速度最快、成本最低的小型模型，面向高吞吐业务与子代理（Subagent）协作。其综合成本较前代下降约 75%，在不超过 10 万 Tokens 的请求上定价为 $0.10/百万 tokens，并首次支持调节推理努力（reasoning effort）档位。模型已在 AWS、GCP 与 Azure 上线；Sonnet 5.5 的缓存读取价格同步减半，Max 5x、Max 20x 与 Team 订阅用户每月分别获得 $100、$200 及最高 $500（团队内共享）的 API 额度。上述定价、额度与可用性均出自该发布消息（经 Telegram 聚合渠道转述），尚无独立技术验证。",
+  "score": 8,
+  "tags": [
+    "Anthropic",
+    "Claude Haiku 5.5",
+    "LLM release",
+    "AI pricing",
+    "Cloud AI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/claude-haiku-5-5",
+  "originalSite": "anthropic.com",
+  "context": "Claude Haiku 是 Anthropic 面向高吞吐、成本敏感场景的小型模型档位，前代为 Haiku 4.5；官方将本次发布的 Haiku 5.5 描述为「目前最快、最便宜、能力最强的小型模型」。Horizon 7 月 31 日的日报曾记录，OpenAI 将 GPT-5.6 Luna 降到每百万 token 输入 0.20 美元、输出 1.20 美元，已低于 Claude Haiku 4.5 的 1/5 美元，低价模型档位的价格竞争因此加剧。",
+  "discussion": "对 Max 与 Team 订阅用户而言，新增的每月 API 额度把 Claude Platform 的调用纳入既有订阅，不必再单独按量付费；开发者在把子代理或批处理流水线接进来时，需要按 $100/$200/最高 $500 的月度上限规划用量。\n\n社区对定价结构的质疑最集中：minimaxir 指出 Haiku 5.5 只在 ≤10 万 tokens 的请求上享受输入 $0.10、输出 $0.50 每百万 tokens 的价格，超过该阈值后升至 $0.50 与 $2.50，认为这一阈值偏低，做 Agent 时很快会超出。实测方面，simonw 用“骑自行车的鹈鹕”测试各推理档位，称 low 会画坏车架而 medium/high/xhigh/max 均正确，最高档耗时 5 分 9 秒、花费 3.3826 美分；chriddyp 报告在其 DataAnalyticsBench 上该模型比 Haiku 4.5 便宜约 9 倍且成绩高两个等级。",
+  "references": [
+    {
+      "title": "2026-07-31 — GPT-5.6 大幅降价，Luna 成本降 80%",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"
+    },
+    {
+      "title": "Introducing Claude Haiku 5 . 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

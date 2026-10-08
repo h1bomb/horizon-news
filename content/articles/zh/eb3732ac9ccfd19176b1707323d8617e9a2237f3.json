@@ -1,0 +1,40 @@
+{
+  "id": "eb3732ac9ccfd19176b1707323d8617e9a2237f3",
+  "canonicalId": "0fa13121f0824c56e3831e00a55317a21991eaaf",
+  "slug": "谷歌向全球用户开放-synthid-detector",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T17:37:00Z",
+  "lang": "zh",
+  "title": "谷歌向全球用户开放 SynthID Detector",
+  "summary": "谷歌宣布向全球用户开放 AI 内容检测工具 SynthID Detector。用户可上传图片、视频或音频，检测其中是否包含谷歌开发的 SynthID 数字水印，从而判断内容是否由 AI 生成；该水印不影响内容正常使用，但能被专门的检测系统识别。谷歌表示，自 2023 年推出 SynthID 以来，已为超过 1800 亿张图片和视频以及约 24 万年的音频内容添加水印，并称 OpenAI、英伟达等企业已支持该技术，苹果也计划加入。需要注意的是，该工具只检测谷歌的 SynthID 水印，而非通用的 AI 生成内容。",
+  "score": 7,
+  "tags": [
+    "AI内容溯源",
+    "数字水印",
+    "Google SynthID",
+    "生成式AI",
+    "内容检测"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+  "originalSite": "blog.google",
+  "context": "SynthID 是谷歌 DeepMind 自 2023 年起推出的数字水印技术，可在不影响内容正常使用的情况下嵌入可被专门检测系统识别的标记，因此该工具检测的是 SynthID 水印，而非通用的 AI 生成内容识别。Horizon 在 2026 年 5 月 21 日的日报中曾报道，谷歌已将 SynthID 检测集成到搜索和 Chrome 中（通过 Google Lens 或“圈选即搜”），OpenAI 同期也发布了可检查 C2PA 元数据和 SynthID 水印的验证工具；此次变化是将检测能力从这些既有入口扩展为一个面向全球用户、可直接上传图片、视频或音频的独立门户。",
+  "discussion": "对内容审核和平台透明度流程来说，SynthID Detector 只会确认内容是否带有谷歌的 SynthID 水印，未检出并不能证明内容由人类创作，因此不宜作为单独判定依据。有实务指引建议只对高曝光或高风险内容调用水印检测，以控制成本与误报（tool-3-3）。",
+  "references": [
+    {
+      "title": "2026-05-21 — 谷歌与 OpenAI 推出 AI 内容检测工具",
+      "url": "https://9to5google.com/2026/05/19/google-is-adding-ai-detection-for-photos-videos-and-audio-to-search-and-chrome/"
+    },
+    {
+      "title": "Watermarking &amp; AI Content Provenance in 2025: Practical Guidance...",
+      "url": "https://www.linkedin.com/pulse/watermarking-ai-content-provenance-2025-practical-guidance-edxxf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,48 @@
+{
+  "id": "04773e7d990e90f5ed24f2b715958b02a5516cc2",
+  "canonicalId": "e4feb1bf5e6900f4a7b1671708c44d6f48d4ab28",
+  "slug": "openai-发布内部模型生成的数学成果合集",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T01:25:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布内部模型生成的数学成果合集",
+  "summary": "OpenAI 发布了一个由内部未公开前沿模型生成的数学成果合集，托管在 GitHub，包含 722 篇手稿和 372 个结果系列，称涉及长期未解问题。仓库称其中许多证明已用 Lean 形式化验证；模型在每个结果上平均消耗约 3 小时 ChatGPT Pro 思考算力，评估期间约尝试 4000 道题，并提供 10 份推理摘要。该消息来自二手聚合，部分结果仍处于验证阶段，尚不能视为已独立确认的数学突破。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "mathematics",
+    "Lean",
+    "formal verification",
+    "OpenAI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+  "originalSite": "theverge.com",
+  "context": "Lean 是一款交互式证明助手，要求把数学论证写成机器可逐步检验的形式化代码，因此“已用 Lean 验证”比自然语言论文更容易被复核。Horizon 2026 年 8 月 2 日的日报曾报道，OpenAI 称其下一代模型 Astra 的内部版本在十个长期未解的数学与理论计算机科学问题上取得成果，相关论证在 Lean 4 中完成形式化验证，并发布了 GitHub 仓库，同时指出这些成果当时尚未经过独立验证（tool-1-2）。Horizon 2026 年 9 月 5 日的日报还记录，Anthropic 的研究团队用 AI 智能体在 Lean 中完成了费马大定理的形式化（tool-1-1）；“AI 生成结果 + Lean 形式化检验 + 公开仓库”已成为此类发布的标准做法。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-09-05 — Anthropic 智能体用 Lean 形式化费马大定理",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+    },
+    {
+      "title": "2026-08-02 — OpenAI Astra 宣称攻克十项长期数学难题",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/"
+    },
+    {
+      "title": "OpenAI’s 722 Math Manuscripts: The Results, Proofs, Compute ...",
+      "url": "https://kingy.ai/blog/openai-math-722-manuscripts-results-proofs-compute-costs/"
+    },
+    {
+      "title": "OpenAI&#x27;s 722 Math Manuscripts and What Lean Proofs Verify",
+      "url": "https://www.metirai.com/blog/openai-722-math-manuscripts-unreleased-model-lean-proofs-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

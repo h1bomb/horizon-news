@@ -1,0 +1,45 @@
+{
+  "id": "ddd7bf756dc52f8ed50f06017a9041befe8b34aa",
+  "canonicalId": "0ca1450969b5beb55904e9fac4f7d0e7720785ad",
+  "slug": "openai-宣布-gpt-6-与-intelligent-ui",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T18:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 宣布 GPT-6 与 Intelligent UI",
+  "summary": "OpenAI 在官网发布页宣布 GPT-6 和“Intelligent UI”，标题称其面向所有人，但所提供的来源没有正文，因此无法确认具体版本、可用地区、定价或上线时间。现有材料中也没有可独立验证的性能数据；社区讨论主要围绕新界面的视觉设计和系统卡中的安全评估结果展开。",
+  "score": 9,
+  "tags": [
+    "GPT-6",
+    "OpenAI",
+    "AI models",
+    "Intelligent UI",
+    "AI safety"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "joshuawright11",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49996425"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/gpt-6-for-everyone/",
+  "originalSite": "openai.com",
+  "context": "Horizon 9 月 23 日的日报曾记录，OpenAI 于 9 月 22 日发布 GPT-6 系列的 Sol 与 Luna 两款模型，但当时没有可用的公告正文，参数规模、上下文长度、定价和可用范围均未获确认（tool-2-1）。本次 10 月更新是同一系列模型的后续版本：按随附系统卡，GPT-6 Sol \\(October\\) 与 GPT-6 Luna \\(October\\) 在 Preparedness Framework 下于网络安全、生物与化学两个领域被列为 High capability，在 AI 自我改进领域未达到 High 阈值（tool-1-1）。更早的 8 月 7 日日报曾报道 GPT-5.6 Luna 与 GPT-5.6 Sol 在 ChatGPT 中的升级，当时免费用户默认切换至 GPT-5.6 Luna 并获得无限文本对话（tool-2-3）。",
+  "discussion": "对准备采用 GPT-6 的开发者或组织而言，若社区引述的系统卡内容准确，迁移前应重点核对 GPT-6 Sol/Luna 在自伤、暴力和性内容等维度的防护变化，尤其是评论中提到的相对 GPT-5.6 的统计显著回退，因为这可能影响内容审核与合规评估。\n\nHacker News 用户对 GPT-6 的界面设计出现分歧：有人虽然认为多数人会偏好 GPT-6，但反感大量留白、图片和清单式呈现，觉得被居高临下对待；也有人认为自动生成交互式讲解已令人惊叹。另有评论贴出系统卡链接并称 GPT-6 Sol（October）在标准自伤评估上、GPT-6 Luna（October）在自伤、血腥和性内容上相对 GPT-5.6 出现统计显著回退。",
+  "references": [
+    {
+      "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update - cdn.openai.com",
+      "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf"
+    },
+    {
+      "title": "2026-09-23 — OpenAI 发布 GPT-6 Sol 与 Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    },
+    {
+      "title": "2026-08-07 — OpenAI 升级 ChatGPT GPT-5.6 系列并扩大免费权限",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ff38f88639d495613998e8c3fc1a30991b3a91c8",
+  "canonicalId": "e36111052c2863f4a62e6129696e474236fe75e3",
+  "slug": "chrome-开始内置支持-jpeg-xl-图像格式",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T11:25:00Z",
+  "lang": "zh",
+  "title": "Chrome 开始内置支持 JPEG XL 图像格式",
+  "summary": "Chrome 官方开发者博客发布文章《Shipping JPEG XL in Chrome》，宣布 Chrome 开始支持 JPEG XL（JXL）这一图像格式。这是该格式在早前从 Chromium 移除之后被重新引入，社区评论也以此为核心背景指出，此前因最主流浏览器缺席，JXL 在网页上的实际使用受到很大限制。现有材料未给出具体生效版本号、默认启用范围，也未提供与 AVIF 的实测对比数据，因此这些方面的落地程度仍有待确认。",
+  "score": 8,
+  "tags": [
+    "JPEG XL",
+    "Chrome",
+    "web images",
+    "browser support",
+    "image compression"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "AshleysBrain",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49991227"
+    }
+  ],
+  "originalUrl": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+  "originalSite": "developer.chrome.com",
+  "context": "Horizon 8 月 26 日的日报曾报道，Mozilla 宣布 Firefox 157 将在所有平台默认启用 JPEG XL，不再需要偏好设置或实验开关，并提到 Chromium 也在推进类似的默认支持 \\[tool-1-1\\]。Chrome 此前曾在 110 版本弃用、随后从 Chromium 移除该格式，社区评论还列出了当时的讨论记录，因此这次是同款浏览器对同一格式的重新引入；有评论指出，10 月起 JPEG XL 将从仅 Safari 支持扩大到多数浏览器覆盖。外部报道称该支持随 Chrome 155 提供，并采用新的 Rust 解码器 \\[tool-2-1\\]。",
+  "discussion": "评论总体欢迎这一变化：有评论者称 Firefox 将在 10 月把 JXL 带入稳定版，届时覆盖将从仅 Safari 变为多数浏览器，也有评论者认为缺乏最大浏览器的支持一直是 JXL 推广的主要阻力。另有评论者提醒生态支持仍不普遍，并称在部分 iOS 与 macOS 版本上 .jxl 的预览和缩略图表现仍有差异，较新版本才正常显示。",
+  "references": [
+    {
+      "title": "2026-08-26 — Firefox 157 将在所有平台默认启用 JPEG XL",
+      "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
+    },
+    {
+      "title": "JPEG XL возвращается в Chrome с декодером на Rust | Дзен",
+      "url": "https://dzen.ru/a/asZBk6g6UjmzmJmd"
+    },
+    {
+      "title": "JPEG XL Browser Support 2026: JXL vs AVIF and WebP",
+      "url": "https://fastedit.net/blog/jpeg-xl-browser-support-2026"
+    },
+    {
+      "title": "JPEG XL support converges across all major browsers",
+      "url": "https://blog.invidelabs.com/firefox-chrome-jpeg-xl-support/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "b77915a1d086679900e62a21b7ab3773d36bb8ee",
+  "canonicalId": "5b56a4a76b7f9c553f1118272ddf87b2305f1f58",
+  "slug": "google-发布-740m-参数开放权重模型-embeddinggemma-2",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T00:35:00Z",
+  "lang": "zh",
+  "title": "Google 发布 740M 参数开放权重模型 EmbeddingGemma 2",
+  "summary": "Google DeepMind 发布 EmbeddingGemma 2，一款 740M 参数的开放权重多模态嵌入模型，可将文本、图像、视频帧和音频映射到统一向量空间，主打本地隐私检索。配套的 Google AI Edge Gallery 新增即时媒体搜索与视频时刻查找演示，Mac 版 Foresight 则提供本地会议助手。Google 表示该模型将在未来数周内通过 ML Kit 向 Android 开放，这属于计划中的分发路径，尚未上线。公告未提供基准测试结果或架构细节。",
+  "score": 7,
+  "tags": [
+    "on-device AI",
+    "multimodal embeddings",
+    "open-weights models",
+    "Google DeepMind",
+    "edge inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
+  "originalSite": "developers.googleblog.com",
+  "context": "嵌入模型不生成文字，而是把内容编码成向量，检索时依靠向量相似度而非关键词匹配。EmbeddingGemma 2 所强调的“统一向量空间”，指的是文本、图像、视频帧和音频被映射进同一套坐标，因此可以直接用一段文字去检索画面或声音，而不必为每种模态各建一套索引；模型在本地运行，检索过程不需要把原始媒体送到云端。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

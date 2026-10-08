@@ -1,0 +1,48 @@
+{
+  "id": "7ab3dac6c423ae0db64b4ebac06bc04c97ec5f84",
+  "canonicalId": "61c53b9655ded3769ad339344764085919ab5d90",
+  "slug": "lavd-调度器从游戏场景演进到服务器工作负载",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T13:33:00Z",
+  "lang": "zh",
+  "title": "LAVD 调度器从游戏场景演进到服务器工作负载",
+  "summary": "在 Kernel Recipes 2026 大会上，Changwoo Min 与 Gavin Guo 介绍了 sched\\_ext/BPF 调度器 LAVD 的演进：它最初于 2023 年为 SteamOS 和 Steam Deck 的游戏场景设计，目标是缓解延迟尖峰、改善尾延迟，此后逐步扩展到其他 CPU 类型，并最终面向数据中心工作负载。该调度器以“紧急度”（criticality）为核心，由每个任务的等待频率、唤醒频率和平均运行时间计算得出，并用它缩放虚拟截止时间，使更紧急的任务更早运行。据演讲介绍，项目已有 42 名开发者提交 900 多次 commit、代码约 1.2 万行；LAVD 按 L3 缓存域维护分派队列，用缓存“热度”衰减值判断是否迁移任务，并倾向于只保持较少 CPU 活跃、让其余核心休眠，以避免低性能与高功耗并存。需要说明的是，这是会议演讲所描述的演进过程而非新版本发布，且原文在讨论任务分散策略处被截断，相关细节未完整呈现。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "CPU scheduling",
+    "sched\\_ext",
+    "BPF",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1097209/",
+  "originalSite": "lwn.net",
+  "context": "LAVD 是运行在 sched\\_ext 这一「可扩展调度器类」上的 BPF 调度器，sched\\_ext 允许开发者用 BPF 编写自定义 CPU 调度器。Horizon 6 月 15 日的日报曾报道 Linux 7.1 内核发布，其中包含最初的 sched\\_ext 子调度器支持，为这类调度器进入主线内核提供了基础。按本次 Kernel Recipes 2026 演讲的说法，LAVD 项目始于 2023 年，最初针对 SteamOS/Steam Deck 的单类型 CPU 系统，目标是缓解游戏中的延迟尖峰，此后才逐步扩展到非异构 CPU 与数据中心负载。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-06-15 — Linux 7.1 kernel released with major subsystem improvements",
+      "url": "https://lwn.net/Articles/1077758/"
+    },
+    {
+      "title": "scx_lavd - sched_ext",
+      "url": "https://sched-ext.com/docs/scheds/rust/scx_lavd"
+    },
+    {
+      "title": "scx/scheds/rust/scx_lavd/README.md at main · sched-ext/scx",
+      "url": "https://github.com/sched-ext/scx/blob/main/scheds/rust/scx_lavd/README.md"
+    },
+    {
+      "title": "scx_lavd - Latency-Aware Virtual Deadline Scheduler | sched ...",
+      "url": "https://deepwiki.com/sched-ext/scx/3.2-scx_lavd-latency-aware-virtual-deadline-scheduler"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

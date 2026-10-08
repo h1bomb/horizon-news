@@ -1,0 +1,41 @@
+{
+  "id": "50945a359aa64d98806c5db392958fffebee2f61",
+  "canonicalId": "4201f3de1d49e58589307a8b4879dfe481614146",
+  "slug": "预印本称-llm-的-navierstokes-lean-形式化偏离自然语言证明",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T15:24:00Z",
+  "lang": "zh",
+  "title": "预印本称 LLM 的 Navier–Stokes Lean 形式化偏离自然语言证明",
+  "summary": "arXiv 预印本 2610.08144《Navier–Stokes Lost in Translation》在 Hacker News 上引发讨论，作者声称一个大语言模型为 Navier–Stokes 方程解爆破证明生成的 Lean 形式化，与其自然语言证明并不对应，从而对一项被宣称为 AI 辅助的数学结果提出质疑。该文目前只是预印本，来源未提供正文，相关主张尚未独立验证；分析摘要还指出其 arXiv 编号相对于当前日期显得未来化。对形式验证和 AI 辅助证明社区而言，争点集中在自然语言证明与 Lean 定理是否等价，而不是已经确认 Lean 证明本身有误。",
+  "score": 7,
+  "tags": [
+    "formal-verification",
+    "Lean",
+    "Navier-Stokes",
+    "AI-assisted-proofs",
+    "LLM-formalization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nill0",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49994145"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2610.08144",
+  "originalSite": "arxiv.org",
+  "context": "Horizon 9 月 9 日日报曾报道，OpenAI 宣布其内部未发布模型于 9 月 5 日解决了纳维-斯托克斯存在性与光滑性问题，并用 GPT-6 Astra 在 17 小时内完成 Lean 形式化验证；但该声明当时尚无同行评审或独立数学验证，且存在优先权争议。9 月 13 日日报又记录了 Clay 研究所的公告，该公告把这一问题“显然已被解决”的说法描述为值得关注、但仍未经正式发表或验证的里程碑。当前这篇预印本正是在这一背景下，检查该 AI 自动形式化得到的 Lean 证明是否真正对应自然语言证明。",
+  "discussion": "对使用 Lean 验证 AI 生成证明的研究者或评审者来说，这次争议意味着需要单独审计自然语言证明、Lean 定理陈述和原始问题（例如 Clay 研究所的表述）三者是否等价；仅凭 Lean 通过检查，不足以证明最初宣称的数学命题已经成立。\n\n评论中的核心分歧在于：ComplexSystems 认为该预印本若成立，等于质疑 OpenAI 并未真正证明 Navier–Stokes；infogulch 则强调，只有当 Lean 定理不等价于 Clay 研究所发布的原始问题陈述时，自然语言与 Lean 证明不匹配才会影响证明有效性。vanyle 称该文“large amount of nothing”，认为自然语言本就不如 Lean 精确、翻译 LLM 只是写得精简，buzzy\\_hacker 则追问争议针对的是等价性还是 Lean 证明本身的正确性。",
+  "references": [
+    {
+      "title": "2026-09-13 — Clay 研究所就 Navier-Stokes 问题发布公告",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/"
+    },
+    {
+      "title": "2026-09-09 — OpenAI 称 AI 解决纳维-斯托克斯千禧年问题遭质疑",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

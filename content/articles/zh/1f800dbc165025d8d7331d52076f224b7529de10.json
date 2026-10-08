@@ -1,0 +1,49 @@
+{
+  "id": "1f800dbc165025d8d7331d52076f224b7529de10",
+  "canonicalId": "437cdfb1286393c6c70ac1b1bd24aea975d5f516",
+  "slug": "psp-web-recomppsp战神重编译为-webassembly-在浏览器运行",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T11:27:00Z",
+  "lang": "zh",
+  "title": "psp-web-recomp：PSP《战神》重编译为 WebAssembly 在浏览器运行",
+  "summary": "开源项目 psp-web-recomp 把 PSP 版《战神》的 MIPS 机器码提前（AOT）翻译为 C++，再编译为 WebAssembly，并链接到一个小型重实现的 PSP 操作系统和图形芯片层，在浏览器中用 WebGL2 绘制和运行。该项目发布在 GitHub，不是索尼官方发布，也没有提供兼容性清单、发行渠道或性能保证。Hacker News 上该条目获得 150 分和 80 条评论，讨论集中在它是否仍属于模拟，以及原版 PSP《战神》的图形水平。",
+  "score": 8,
+  "tags": [
+    "WebAssembly",
+    "static recompilation",
+    "emulation",
+    "game preservation",
+    "WebGL2"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sn001",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49991243"
+    }
+  ],
+  "originalUrl": "https://github.com/snuri00/psp-web-recomp",
+  "originalSite": "github.com",
+  "context": "背景上可以把它和传统模拟器区分开：传统模拟器通常在运行时解释或即时编译（JIT）PSP 的 MIPS 指令，而这个项目是在构建阶段把游戏的 MIPS 机器码提前翻译成 C++，再编译为 WebAssembly，浏览器只负责执行重编译后的产物。项目仓库和第三方 README 摘要显示，它还要链接一个对 PSP 操作系统内核与图形芯片的轻量重实现（HLE），并通过 WebGL2 绘制；给出的可运行示例包括 God of War: Chains of Olympus 和手机触屏控制。\\[tool-2-1\\]\\[tool-2-2\\]",
+  "discussion": "评论者 wren6991 认为这仍是一套模拟栈：许多模拟器本来也会在目标机上对机器码做 lift+JIT，只是不通过 WebAssembly；accrual 补充说 PSP《战神》原版在 2008 和 2010 年属于该平台图形最出色的作品之一，IGN 曾称其画质好于不少 PS2 游戏。pier25 则猜测索尼可能会要求下架，但这只是未经证实的担忧。",
+  "references": [
+    {
+      "title": "GitHub - snuri 00 / psp - web - recomp : PSP games in the browser ...",
+      "url": "https://github.com/snuri00/psp-web-recomp"
+    },
+    {
+      "title": "snuri 00 / psp - web - recomp — what it is and what it’s for | GitNova",
+      "url": "https://gitnova.dev/en/r/snuri00/psp-web-recomp"
+    },
+    {
+      "title": "GitHub - snuri00/psp-web-recomp: PSP games in the browser ...",
+      "url": "https://github.com/snuri00/psp-web-recomp"
+    },
+    {
+      "title": "Pokemon Emerald at 100k FPS in the Browser - The WASM ...",
+      "url": "https://braindetox.kr/en/posts/pokemon_emerald_webassembly_2026.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

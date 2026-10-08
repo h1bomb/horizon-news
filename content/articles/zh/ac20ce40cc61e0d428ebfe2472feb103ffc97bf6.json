@@ -1,0 +1,31 @@
+{
+  "id": "ac20ce40cc61e0d428ebfe2472feb103ffc97bf6",
+  "canonicalId": "8898b4cd60b8da95b5aaae535e1340d40852a127",
+  "slug": "nvidia-cuopt-mpdlp多-gpu-扩展到亿级-lp",
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-07T15:45:00Z",
+  "lang": "zh",
+  "title": "NVIDIA cuOpt mPDLP：多 GPU 扩展到亿级 LP",
+  "summary": "rss · NVIDIA NCCL Technical Blog · 10月7日 15:45\n\n**「背景」** 供应链、能源等规划中的线性规划（LP）模型正扩展到上亿变量，而单 GPU 求解器虽已比 CPU 快 10 倍以上，最大实例仍可能耗尽显存或需数小时收敛。NVIDIA 的 cuOpt mPDLP 试图用 NVLink 互联的多 GPU 突破这一瓶颈。\n\n**「方案」** PDLP 是一阶原始-对偶混合梯度法，热循环是稀疏矩阵向量乘（SpMV）加逐元素映射，真正需要分布式的只有内存带宽受限的 SpMV；NVLink、NVSwitch 与 NCCL 把多张 GPU 连成一台共享机器。与此前 D-PDLP 将二维分块后的每次 SpMV 独立处理不同，mPDLP 对约束矩阵 A 构造二部图并做 k 路最小割划分：把连续两次 SpMV 之间通过 x、y 向量共享依赖的行列尽量放在同一 GPU，只有被割开的边需要跨卡通信。作者称在超过 100 个 LP 实例上以 1e-6 容差、1 小时时限测试，端到端加速在非零元数超过 10^7 后变得明显；仅计 PDLP 迭代，tsp-gaia-10m 上最高 11.4 倍，端到端则为 4.2 倍。相比 D-PDLP，多数 nnz&gt;10^7 的实例加速 1.2–2.5 倍，但三个超大规模基准上更慢，作者认为其稀疏结构可能不代表真实负载且样本有限。作者也指出小问题会被通信开销拖累，最小割后边割比例高的结构会抵消甚至逆转加速。合作案例中，Kinaxis 在 8 张 H100 上对超 1.35 亿变量供应链 LP 获 3.3 倍加速，PSR 在 8 张 B200 上对 1.85 亿变量能源模型获超 5 倍加速；文中还称相比单 GPU PDLP 每 GPU 峰值内存最多降低 6 倍。后续方向包括权重感知/超图最小割、拆分本地与远程矩阵以隐藏通信、以及可行性打磨。\n\n**「启示」** 作者的核心结论是：把 SpMV 依赖纳入最小割划分，可让多 GPU PDLP 在足够大的 LP 上把求解扩展到上亿变量；但收益取决于问题规模和稀疏结构，且当前证据主要来自 NVIDIA 及其合作伙伴的厂商基准。\n\n**标签**: `#linear programming`, `#PDLP`, `#GPU optimization`, `#distributed computing`, `#graph partitioning`",
+  "score": 8,
+  "tags": [
+    "linear programming",
+    "PDLP",
+    "GPU optimization",
+    "distributed computing",
+    "graph partitioning"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA NCCL Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+  "originalSite": "developer.nvidia.com",
+  "context": "供应链、能源等规划中的线性规划（LP）模型正扩展到上亿变量，而单 GPU 求解器虽已比 CPU 快 10 倍以上，最大实例仍可能耗尽显存或需数小时收敛。NVIDIA 的 cuOpt mPDLP 试图用 NVLink 互联的多 GPU 突破这一瓶颈。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
