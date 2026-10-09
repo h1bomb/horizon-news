@@ -1,0 +1,40 @@
+{
+  "id": "4c64c7bb3d1a8fa58fe59b8e29888add0af82dd3",
+  "canonicalId": "077dea1e8a7adb2ecc693b38c1b71a2d4ebc694c",
+  "slug": "openai-封禁俄伊两起-chatgpt-影响行动",
+  "date": "2026-10-09",
+  "publishedAt": "2026-10-08T15:52:00Z",
+  "lang": "zh",
+  "title": "OpenAI 封禁俄伊两起 ChatGPT 影响行动",
+  "summary": "OpenAI 表示已封禁两起利用 ChatGPT 的隐蔽影响行动：俄罗斯行动涉嫌冒用身份控制拉美一个“研究平台”，传播损害乌克兰声誉并影响当地政治的虚假内容；伊朗行动以 7 个“记者”人设向全球中小网络媒体投稿，并批量生成社交媒体评论。OpenAI 将俄罗斯行动评为影响行动突破量表的第 5 类，称这是其开始报告以来首次；伊朗行动为第 4 类，产出近 100 篇署名文章。两起行动都结合传统手段与 AI，部分内容进入了主流媒体；上述严重级别与影响描述来自 OpenAI。",
+  "score": 7,
+  "tags": [
+    "AI misuse",
+    "influence operations",
+    "OpenAI",
+    "disinformation",
+    "platform governance"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+  "originalSite": "openai.com",
+  "context": "OpenAI 此前已多次发布报告，披露并封禁利用其模型的国家关联影响行动：其首份模型滥用报告称阻断了来自俄罗斯、中国和伊朗等方的五个行动，之后又披露过俄罗斯冒用一家以色列智库名义、推广亲俄叙事并批评西方的隐蔽 campaign。OpenAI 在报告中用一套影响行动突破量表对封禁行动评级。",
+  "discussion": "对接收投稿的媒体和平台而言，具体后果是已发布内容不会随 ChatGPT 账号封禁自动消失：伊朗行动产出的近 100 篇署名文章和俄罗斯行动的部分内容已进入主流媒体，因此相关编辑部需要回溯核查这些投稿的作者身份、来源和事实。OpenAI 的处置主要限制相关账户使用 ChatGPT，不等于已发表内容已被撤回或更正。",
+  "references": [
+    {
+      "title": "Disrupting a new covert influence campaign from Russia | OpenAI",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/"
+    },
+    {
+      "title": "OpenAI models used in nation-state influence campaigns, company...",
+      "url": "https://therecord.media/openai-report-china-russia-iran-influence-operations"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

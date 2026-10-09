@@ -1,0 +1,44 @@
+{
+  "id": "6b2f1dafd63897dacba1770632c8d629bd682dc9",
+  "canonicalId": "4cf9cb482d4977c23f981e09880a9efd43ab8797",
+  "slug": "中国团队实现钍-229-核光钟稳定运行",
+  "date": "2026-10-09",
+  "publishedAt": "2026-10-08T05:19:00Z",
+  "lang": "zh",
+  "title": "中国团队实现钍-229 核光钟稳定运行",
+  "summary": "清华大学研究团队利用自主研制的 148 纳米连续波真空紫外激光和掺钍-229 氟化钙晶体，报告研制出核光钟并实现稳定运行，成果发表于《自然》。该时钟以钍-229 原子核能级跃迁为计时基准，有望成为新一代时间频率基准。这是研究团队在《自然》论文中报告的实验结果，尚非已部署的计时标准。",
+  "score": 8,
+  "tags": [
+    "nuclear clock",
+    "thorium-229",
+    "precision timing",
+    "metrology",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.nature.com/articles/s41586-026-11122-1",
+  "originalSite": "nature.com",
+  "context": "原子钟以原子外层电子的能级跃迁作为计时基准，核光钟则改用原子核内部的能级跃迁，理论上对外界电磁扰动更不敏感。钍-229 的特殊之处在于它存在能量异常低的核跃迁，对应 148 纳米真空紫外波段，可在掺钍晶体中以激光激发；《自然》刊出的相关研究已分别实现该跃迁的连续波激光吸收谱测量，以及将连续波激光锁定到这一核跃迁的反馈方案（tool-2-1、tool-2-2、tool-2-3）。",
+  "discussion": "对时间频率计量和卫星导航等领域的研发者来说，该成果把钍-229 核跃迁推进到稳定运行的核光钟阶段；不过现有证据仅来自论文报告，尚未显示其已替代或兼容现有原子钟体系。",
+  "references": [
+    {
+      "title": "A thorium-229 optical nuclear clock with feedback loop | Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11084-4"
+    },
+    {
+      "title": "Continuous-wave laser absorption spectroscopy of the thorium ...",
+      "url": "https://www.nature.com/articles/s41586-026-11011-7"
+    },
+    {
+      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "url": "https://arxiv.org/html/2606.04997"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

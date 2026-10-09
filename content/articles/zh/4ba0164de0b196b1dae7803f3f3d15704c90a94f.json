@@ -1,0 +1,49 @@
+{
+  "id": "4ba0164de0b196b1dae7803f3f3d15704c90a94f",
+  "canonicalId": "f33b64fe9640bfa04378fc5d415b9d6579728c61",
+  "slug": "deepseek-41-flash-为何未引发行业恐慌",
+  "date": "2026-10-09",
+  "publishedAt": "2026-10-08T00:14:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 4.1 Flash 为何未引发行业恐慌",
+  "summary": "一篇 dgt.is 博客文章与随后的 Hacker News 讨论提出疑问：DeepSeek 4.1 Flash 推出后，为什么没有像其他前沿模型那样引发业界警觉。评论者给出的主要解释是，多数用户实际使用的是厂商大幅补贴的订阅套餐，而按 OpenRouter 等平台的 API 价格直接调用并不便宜——有评论者称几天就花掉了 50 美元。另一条线索是开放权重模型对显存的要求：评论者列举出 FP16 约 1664 GB、INT8 约 832 GB、INT4 约 416 GB，但这些数字以及该模型的具体规格在讨论中都没有官方来源。",
+  "score": 7,
+  "tags": [
+    "DeepSeek",
+    "GPU VRAM",
+    "AI model pricing",
+    "open-weight models",
+    "LLM deployment"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jonotime",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50000488"
+    }
+  ],
+  "originalUrl": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+  "originalSite": "dgt.is",
+  "context": "Horizon 2026 年 9 月 11 日的日报曾报道，DeepSeek 发布 V4.1 Flash，称其为该全新模型结构系列中尺寸最小的模型，采用 552B 参数的 Causal-Encoder-Decoder 结构（输入与输出激活参数分别为 8B 和 16B），原生支持多模态视觉理解；该模型以 deepseek-flash 之名上线 API，新价格自 2026 年 9 月 10 日生效，并计划在 9 月 14 日后把 deepseek-v4-pro 请求路由至 V4.1 Flash 并按新价格计费（该条目来自聚合式帖子，当时未获官方一手来源确认）。更早的 2026 年 8 月 5 日日报则报道上一代 V4 Flash 凭借原生 MXFP4 量化装入单块 144GB 的 AMD MI300X、以约每秒 150 token 运行，显示量化精度与部署硬件成本一直是围绕该系列模型的讨论焦点。",
+  "discussion": "对使用 DeepSeek API 的开发者来说，最直接的后果是模型标识变更：官方公告称 V4-Flash 与 V4-Flash-Vision-Exp 已退役，需要把请求中的模型改为 deepseek-flash，并可按需启用原生多模态能力（tool-3-2）。在 OpenRouter 上该模型的定价为每百万输入 token 0.02 美元、每百万输出 token 0.60 美元（tool-3-3），这一 API 价格也抬高了自托管的门槛——有评论者按精度估算，FP16 推理约需 1664 GB 显存、INT8 约 832 GB、INT4 约 416 GB，意味着需要多卡服务器集群。\n\n围绕“为何不恐慌”，一方以亲身体验支持补贴论：有评论者称高强度使用 DeepSeek 4.1 Flash 一个多月，全天运行每天仅花 1–2 美元且速度很快，不再像 20 美元套餐下那样很快撞上 Claude/Codex 的 5 小时额度，但认为它不擅长通过追问来敲定技术决策；另一位评论者则表示，一旦补贴停止，开放权重模型就难以竞争。反方认为在同样使用补贴订阅时成本差距并不明显（如 Z.ai 100 美元/月的 GLM 5.3 对 Claude 100 美元/月的 Opus 5.5），并质疑后者的前沿模型地位——这些都属于个人使用经验，而非独立评测。",
+  "references": [
+    {
+      "title": "2026-09-11 — DeepSeek V4.1 Flash 发布：552B 参数与 API 路由调整",
+      "url": "https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg"
+    },
+    {
+      "title": "2026-08-05 — DeepSeek V4 Flash 在单块 AMD MI300X 上以约 150 tokens/s 运行",
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x"
+    },
+    {
+      "title": "Introducing DeepSeek -V 4 . 1 - Flash : smarter, faster, more efficient.",
+      "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+    },
+    {
+      "title": "DeepSeek V 4 . 1 Flash - API Pricing &amp; Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

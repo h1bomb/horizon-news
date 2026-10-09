@@ -1,0 +1,36 @@
+{
+  "id": "0cad7817f7984eb919f62f45974e2d7be5831d48",
+  "canonicalId": "9f4670d83de9867d7b77b39f5cd50cc1eec98393",
+  "slug": "linux-内核-vswap-与-xswap-的-swap-虚拟化方案分歧未决",
+  "date": "2026-10-09",
+  "publishedAt": "2026-10-08T13:43:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 vswap 与 xswap 的 swap 虚拟化方案分歧未决",
+  "summary": "Linux 内核交换层中 swap cache 槽位与持久 swap 文件空间直接绑定的问题仍未解决，Nhat Pham 的 vswap 与 Baoquan He、Chris Li 的 xswap 两个竞争方案都尚未达到可合并状态。问题核心在于，zswap 中的每个 folio 仍必须在持久 swap 设备上占用一个槽位，即使该空间通常用不到，这会让大型数据中心为实际不落盘的数据预留大量闪存。vswap 在现有 swap 设备上增加虚拟化层，用 xarray 跟踪可映射到物理 swap 文件、zswap 或无槽位的虚拟槽位，并且其 swap 区域可随负载动态伸缩；xswap 则提供一个没有后备存储的虚拟 swap 设备，用稀疏映射地址范围做簿记，但要求一开始就预留完整地址空间，因而限制设备最大容量和 zswap 可存放的 folio 数。关于合并顺序的讨论未达成结论，He 最近发布了三部分的新 xswap 实现，其中第 2 部分补上了此前缺失的物理回写，讨论仍在继续。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "memory management",
+    "zswap",
+    "swap subsystem",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098399/",
+  "originalSite": "lwn.net",
+  "context": "zswap 的工作方式是拦截原本要写入交换文件的 folio，把内容压缩后留在内存里，但现行设计仍要求每个 folio 在持久交换设备上占有一个槽位，这部分存储空间通常被闲置浪费；vswap 与 xswap 的分歧正是围绕如何解除这一绑定展开。Horizon 在 2026 年 8 月 17 日的日报中曾报道 Linux 7.2 正式发布并包含 swap 子系统改进，说明该层在过去一年已有多项改动落地，而本次讨论涉及的问题属于其中尚未解决的部分。",
+  "discussion": "对于运行 zswap 的系统管理员，这一未决状态意味着仍需为每个进入 zswap 的 folio 预留持久 swap 空间，大型数据中心可能继续为实际不落盘的压缩页配置并占用闪存容量。在任一方案被主线接受之前，尚无内核级修复可用。",
+  "references": [
+    {
+      "title": "2026-08-17 — Linux 内核 7.2 发布：引入 BPF、调度器及文件系统多项改进",
+      "url": "https://lwn.net/Articles/1088991/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

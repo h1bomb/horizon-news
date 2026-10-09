@@ -1,6 +1,108 @@
 {
   "articles": [
     {
+      "id": "6b2f1dafd63897dacba1770632c8d629bd682dc9",
+      "canonicalId": "4cf9cb482d4977c23f981e09880a9efd43ab8797",
+      "slug": "中国团队实现钍-229-核光钟稳定运行",
+      "date": "2026-10-09",
+      "lang": "zh",
+      "title": "中国团队实现钍-229 核光钟稳定运行",
+      "score": 8,
+      "tags": [
+        "nuclear clock",
+        "thorium-229",
+        "precision timing",
+        "metrology",
+        "hardware"
+      ],
+      "originalSite": "nature.com"
+    },
+    {
+      "id": "4ba0164de0b196b1dae7803f3f3d15704c90a94f",
+      "canonicalId": "f33b64fe9640bfa04378fc5d415b9d6579728c61",
+      "slug": "deepseek-41-flash-为何未引发行业恐慌",
+      "date": "2026-10-09",
+      "lang": "zh",
+      "title": "DeepSeek 4.1 Flash 为何未引发行业恐慌",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "GPU VRAM",
+        "AI model pricing",
+        "open-weight models",
+        "LLM deployment"
+      ],
+      "originalSite": "dgt.is"
+    },
+    {
+      "id": "0cad7817f7984eb919f62f45974e2d7be5831d48",
+      "canonicalId": "9f4670d83de9867d7b77b39f5cd50cc1eec98393",
+      "slug": "linux-内核-vswap-与-xswap-的-swap-虚拟化方案分歧未决",
+      "date": "2026-10-09",
+      "lang": "zh",
+      "title": "Linux 内核 vswap 与 xswap 的 swap 虚拟化方案分歧未决",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "memory management",
+        "zswap",
+        "swap subsystem",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "4c64c7bb3d1a8fa58fe59b8e29888add0af82dd3",
+      "canonicalId": "077dea1e8a7adb2ecc693b38c1b71a2d4ebc694c",
+      "slug": "openai-封禁俄伊两起-chatgpt-影响行动",
+      "date": "2026-10-09",
+      "lang": "zh",
+      "title": "OpenAI 封禁俄伊两起 ChatGPT 影响行动",
+      "score": 7,
+      "tags": [
+        "AI misuse",
+        "influence operations",
+        "OpenAI",
+        "disinformation",
+        "platform governance"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "9a0cee4d375a2780dd653d2e4d547e22e630931c",
+      "canonicalId": "10b85bf6538bb078af6cd38ab433f11f652f6791",
+      "slug": "人社部就新就业形态劳动者权益保障办法公开征求意见",
+      "date": "2026-10-09",
+      "lang": "zh",
+      "title": "人社部就新就业形态劳动者权益保障办法公开征求意见",
+      "score": 8,
+      "tags": [
+        "新就业形态",
+        "劳动者权益",
+        "平台经济监管",
+        "算法治理",
+        "中国政策"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "83edb59bc02cab7376def2cc99b2a09f1418210a",
+      "canonicalId": "db7ddb6b79e639fe7c7b6f7d27a9c224795e9d00",
+      "slug": "美政府以欺诈指控暂停微软绿卡申请资格",
+      "date": "2026-10-09",
+      "lang": "zh",
+      "title": "美政府以欺诈指控暂停微软绿卡申请资格",
+      "score": 8,
+      "tags": [
+        "immigration policy",
+        "H-1B visas",
+        "Microsoft",
+        "tech industry",
+        "labor market"
+      ],
+      "originalSite": "apnews.com"
+    },
+    {
       "id": "ddd7bf756dc52f8ed50f06017a9041befe8b34aa",
       "canonicalId": "0ca1450969b5beb55904e9fac4f7d0e7720785ad",
       "slug": "openai-宣布-gpt-6-与-intelligent-ui",
@@ -4884,124 +4986,6 @@
         "NVIDIA",
         "release notes",
         "development tools"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "41540c3c5141a86ad1d01d8b6be4a5cd429e88d1",
-      "canonicalId": "93b4203e0c5379ede009d886cee79af7453ed50c",
-      "slug": "alphagenome-atlas人类-dna-变化的高分辨率预测图谱",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "AlphaGenome Atlas：人类 DNA 变化的高分辨率预测图谱",
-      "score": 8,
-      "tags": [
-        "artificial intelligence",
-        "genomics",
-        "deep learning",
-        "bioinformatics",
-        "research"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "10a904ba0c4ee7ea74b282a4482a19489046d351",
-      "canonicalId": "048aa76fa30eaedcfb781239b745168746c39536",
-      "slug": "openai-称-ai-解决纳维-斯托克斯千禧年问题遭质疑",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "OpenAI 称 AI 解决纳维-斯托克斯千禧年问题遭质疑",
-      "score": 8,
-      "tags": [
-        "Artificial Intelligence",
-        "Mathematics",
-        "OpenAI",
-        "Navier-Stokes",
-        "Research Ethics"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "3819f50f71574ee8e563eb5b08293f2162a18cc2",
-      "canonicalId": "c7c5eb70477711799f7f842094b7a337c2e3fad6",
-      "slug": "rust-的-never-类型稳定两年多努力终于落地",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "Rust 的 never 类型稳定：两年多努力终于落地",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "type system",
-        "language stabilization",
-        "compiler"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "8040ba19df3d2b5e7c0c1844013202e893157a24",
-      "canonicalId": "3d09a31147336d0de25ba9ecd5b535075120eff3",
-      "slug": "张一鸣亲自督导字节跳动筹备空间视频模型",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "张一鸣亲自督导字节跳动筹备空间视频模型",
-      "score": 8,
-      "tags": [
-        "spatial video",
-        "ByteDance",
-        "world models",
-        "virtual reality",
-        "AI generation"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "310be5526ddbda1f126b36336cbdd3cbf79956c1",
-      "canonicalId": "763c756d7844167b3801a0a9d02fce12408e21a8",
-      "slug": "中国规划-2030-年智能算力达-9800-eflops",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "中国规划 2030 年智能算力达 9800 EFLOPS",
-      "score": 8,
-      "tags": [
-        "China",
-        "AI infrastructure",
-        "computing power",
-        "policy",
-        "chips"
-      ],
-      "originalSite": "scmp.com"
-    },
-    {
-      "id": "dd5546cc60d078d5a041fa6a6a946fee843c2047",
-      "canonicalId": "af75c3b537a336c7914fbd1af7bc6462b25d78ce",
-      "slug": "可靠支付的单元化架构american-express-如何处理大规模交易",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "可靠支付的单元化架构：American Express 如何处理大规模交易",
-      "score": 8,
-      "tags": [
-        "cell-based architecture",
-        "payment processing",
-        "reliability",
-        "microservices",
-        "tradeoffs"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "0e8e519960b8f15ac8bda170a320bf4d84cf805e",
-      "canonicalId": "89bbdfee897665a8d3219237194e77f80fa5e342",
-      "slug": "cuda-rust-两条路径用-rust-原生写-gpu-内核",
-      "date": "2026-09-09",
-      "lang": "zh",
-      "title": "CUDA Rust 两条路径：用 Rust 原生写 GPU 内核",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "CUDA",
-        "GPU programming",
-        "SIMT",
-        "Tile IR"
       ],
       "originalSite": "developer.nvidia.com"
     }
