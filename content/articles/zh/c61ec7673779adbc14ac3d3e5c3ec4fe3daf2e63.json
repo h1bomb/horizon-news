@@ -1,0 +1,40 @@
+{
+  "id": "c61ec7673779adbc14ac3d3e5c3ec4fe3daf2e63",
+  "canonicalId": "481f8bd7cecf7f8bc5b81e4f49cf422daf6115e8",
+  "slug": "gcc-加入内核前向边-cfi-检查补丁",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T17:06:00Z",
+  "lang": "zh",
+  "title": "GCC 加入内核前向边 CFI 检查补丁",
+  "summary": "在 2026 年 GNU Tools Cauldron 上，Kees Cook 介绍了为 GCC 添加内核前向边控制流完整性（CFI）检查的补丁系列，目标是在间接函数调用时校验目标函数原型，防止攻击者劫持控制流。该实现引入 -fsanitize=kcfi 选项，在函数入口前放置由函数原型生成的类型 ID 哈希（现用 FNV-1a），调用点存该哈希的二进制补码取反，相加为零才允许调用；类型改编沿用 Clang 的 Itanium C++ mangler 以保持兼容，后端已覆盖 x86-32、x86-64、Arm64 和 RISC-V。校验失败时，宽松模式仅告警，严格模式则触发 panic；Cook 称约一半补丁是回归测试，但该系列尚未合并，且他表示很难找到能评审整个编译器栈的评审者，GCC 全球评审 Andrea Pinski 回应完整评审即将进行。作为背景，Clang 在 2022 年已实现同类前向边 CFI，Linux 内核自 6.1 起可使用该特性。",
+  "score": 7,
+  "tags": [
+    "kernel security",
+    "control-flow integrity",
+    "compilers",
+    "GCC",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098670/",
+  "originalSite": "lwn.net",
+  "context": "控制流完整性（CFI）的目标是阻止攻击者劫持间接函数调用或函数返回，从而把内核中的任意写漏洞升级为代码执行；其中保护间接调用称为“前向边”CFI，保护返回则称为“后向边”CFI，后者通常交由硬件处理。与仅标记函数入口的硬件辅助方案不同，前向边 CFI 用函数原型哈希生成类型 ID，并在每个间接调用点校验目标函数，因此可以排除跳转到某个完全不同函数的情况。这类检查早在 2022 年就已由 Clang 实现，Linux 内核自 6.1 起可使用该功能，而 GCC 此前一直没有等价实现。",
+  "discussion": "该补丁系列目前仍未合入 GCC：GCC 邮件列表 1 月的讨论指出，由于提交时间过晚、已经赶不上 GCC 16 的 stage 4，评审者预计它最早要在 GCC 17 stage 1（约 3 月中下旬）才有机会落地（tool-2-1、tool-2-2）；而据 10 月 Cauldron 上的演讲，这套跨前端、RTL 与后端四个架构的补丁仍在等待完整评审。对希望在内核中启用前向边 CFI 的用户而言，短期内仍只能依赖 2022 年就已实现的 Clang 支持（内核自 6.1 起可用），使用 GCC 构建内核时尚无法获得同等检查。",
+  "references": [
+    {
+      "title": "[PATCH v9 0/7] Introduce Kernel Control Flow Integrity ABI ...",
+      "url": "https://gcc.gnu.org/pipermail/gcc-patches/2026-January/705447.html"
+    },
+    {
+      "title": "[PATCH v9 0/7] Introduce Kernel Control Flow Integrity ABI ...",
+      "url": "https://gcc.gnu.org/pipermail/gcc-patches/2026-January/705309.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

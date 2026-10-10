@@ -1,0 +1,40 @@
+{
+  "id": "afcc42978f4a03a5a8324155cfcea25beb578aee",
+  "canonicalId": "dfc97f5c7bb74103b53fc4e90a7600cba1eb9335",
+  "slug": "telegram-desktop-729-以下版本曝一键窃取文件漏洞",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T09:51:00Z",
+  "lang": "zh",
+  "title": "Telegram Desktop 7.2.9 以下版本曝一键窃取文件漏洞",
+  "summary": "据 Telegram 聚合频道援引 OpenNET 的通报，Telegram Desktop 7.2.9 以下版本存在严重漏洞（CVE-2026-107181），用户点击恶意 tg:// 链接后，系统文件可能在无确认的情况下被悄悄窃取。漏洞成因是链接中的分号未被转义、被当作独立 IPC 命令处理，配合 interpret: 处理器可读取文档、浏览器会话、SSH 密钥、加密钱包等任意文件。通报称官方已在 7.2.9 版本中修复，并建议尽快升级、警惕异常 tg:// 链接并启用本地密码。目前该信息来自简短的安全提醒而非详细的一手分析，修复情况尚未独立验证。",
+  "score": 7,
+  "tags": [
+    "security vulnerability",
+    "Telegram Desktop",
+    "CVE-2026-107181",
+    "software update",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://telegram.me/zaihuapd/44307",
+  "originalSite": "telegram.me",
+  "context": "该漏洞被外部漏洞库归类为 Telegram Desktop 核心沙箱（Core::Sandbox）中的 IPC 记录分隔符注入（record-separator injection）问题，影响 7.2.9 之前的版本。这类注入的成因是应用在进程间传递命令时依赖分隔符切分消息，若输入未正确转义，攻击者就能让一个链接参数被当作额外 IPC 命令执行。",
+  "discussion": "对仍运行 7.2.9 之前版本的桌面用户而言，最直接的做法是升级到 7.2.9，并在升级前避免点击来源不明的 tg:// 链接；来源同时建议启用本地密码，以降低文件被静默读取的风险。",
+  "references": [
+    {
+      "title": "CVE - 2026 - 107181 : IPC Record-Separation Injection Vulnerability in...",
+      "url": "https://securityvulnerability.io/vulnerability/CVE-2026-107181"
+    },
+    {
+      "title": "CVE - 2026 - 107181",
+      "url": "https://security-tracker.debian.org/tracker/CVE-2026-107181"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

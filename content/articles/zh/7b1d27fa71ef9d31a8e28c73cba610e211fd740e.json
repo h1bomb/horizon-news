@@ -1,0 +1,41 @@
+{
+  "id": "7b1d27fa71ef9d31a8e28c73cba610e211fd740e",
+  "canonicalId": "4eb26ae0c1214047126982aba803b1695a6faeac",
+  "slug": "windows-与-mac-键盘差异分析引发切换成本讨论",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T03:08:00Z",
+  "lang": "zh",
+  "title": "Windows 与 Mac 键盘差异分析引发切换成本讨论",
+  "summary": "一篇详细分析 Windows 与 Mac 键盘差异的文章（unsung.aresluna.org）在 Hacker News 上引发广泛讨论，焦点是跨平台切换的实际成本。讨论涉及 macOS 的 ⌘ Command、⌥ Option、⌃ Control、⇧ Shift 与 Windows 键盘习惯的差异，以及用右 Alt 输入波兰语变音字符等国际布局问题。该帖获得 320 分和 259 条评论，属于经验与技术细节交流，而非重大产品发布。",
+  "score": 7,
+  "tags": [
+    "keyboards",
+    "human-computer interaction",
+    "macOS",
+    "Windows",
+    "platform differences"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sohkamyung",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50015515"
+    }
+  ],
+  "originalUrl": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+  "originalSite": "unsung.aresluna.org",
+  "context": "跨平台 Web 应用往往用同一套代码同时服务 Windows 和 macOS，而两个平台在键盘层面的差异远不止「把 Ctrl 换成 ⌘ Command」这一处：修饰键的数量、按键上的标注、快捷键的书写方式，以及文本框内的光标导航规则都不相同。Unsung 的这篇深度整理把数十项此类差异集中记录成一份参考清单，供同时面向两个平台的开发者对照使用。",
+  "discussion": "评论者 szszrk 称 Control/Command 混淆以及用右 Alt 输入波兰语变音字符不直观，最终让他放弃 Mac，并提到认识其他放弃 Mac 的人；RobGR 也分享说，帮助不熟悉 Windows/Mac 的用户时需要重新教授 Ctrl-C/X/A/V 等基础操作。bombcar 则解释 Delete 键差异源于 Windows 继承 DOS 的“光标在字符上”模型，而 Mac 的光标在字符之间。",
+  "references": [
+    {
+      "title": "Keyboard differences between Windows and Macs #Shorts Keyboard differences between Windows and Macs create hidden ... Deeper dive: Keyboard differences between Windows and Macs Mac vs Windows Keyboard: Key Differences &amp; Useful Shortcuts Keyboard differences between Windows and Macs Keyboard differences between Windows and Macs - thenote.app",
+      "url": "https://www.youtube.com/watch?v=l6opGxv5UDE"
+    },
+    {
+      "title": "Keyboard differences between Windows and Macs create hidden ...",
+      "url": "https://news.lavx.hu/article/keyboard-differences-between-windows-and-macs-create-hidden-friction-for-cross-platform-developers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "e5a98690b9ed8e17b5eda3b9c5bd1850bac8f5cc",
+  "canonicalId": "35b14c13d81be0818849389eeba52df1365ad7cf",
+  "slug": "carrier-explode解码-iphonepixel-和-galaxy-运营商设置",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T18:10:00Z",
+  "lang": "zh",
+  "title": "Carrier-Explode：解码 iPhone、Pixel 和 Galaxy 运营商设置",
+  "summary": "Carrier-Explode 是作者 simplyalec 在 Hacker News 上展示的侧项目，持续归档 iPhone、Pixel 和 Galaxy 等主要手机品牌的运营商设置，并提供常见基带配置的解码器和说明。作者表示仍有许多假设需要验证，但该工具已在一些爱好者群体中被证明有用。它并非厂商发布的官方工具，而是一个个人维护的参考站点。",
+  "score": 7,
+  "tags": [
+    "mobile networking",
+    "carrier settings",
+    "baseband",
+    "iOS",
+    "Android"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "simplyalec",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50024499"
+    }
+  ],
+  "originalUrl": "https://carrierexplode.com/",
+  "originalSite": "carrierexplode.com",
+  "context": "运营商设置（carrier settings / carrier bundle）是随 iOS、Android 下发的配置文件，用于控制 VoLTE、5G 独立组网等基带行为，普通用户通常只会在系统提示「运营商设置更新」时察觉到它的存在。2026 年 10 月初 Tidbits 报道，iPhone 18 Pro Max 的 AT&amp;T 用户被建议升级到 iOS 27.0.1 并安装新的运营商设置，以规避可能中断服务、甚至需要更换硬件的缺陷；AT&amp;T 的支持页面也分别说明了该机型的运营商锁定状态查询以及 LTE/5G 语音与数据设置切换。这说明运营商设置的内容并非无关紧要的细节，而是会直接影响设备可用性。",
+  "discussion": "有评论者提到该工具曾在 MacRumors 关于 AT&amp;T iPhone 18 Pro Max 死机问题的讨论中被引用，并称 AT&amp;T/Apple 可能通过禁用 5G Standalone 模式来避免硬件损坏，但官方除更换受影响硬件外尚未发布说明。另有用户赞赏它覆盖自己国家的运营商而非仅限美国，还有人建议向 GNOME 的 mobile-broadband-provider-info 项目贡献数据。",
+  "references": [
+    {
+      "title": "Apple iPhone 18 Pro Max - Checking if your phone is carrier ...",
+      "url": "https://www.att.com/device-support/article/155195/apple/iphone-18-pro-max/"
+    },
+    {
+      "title": "Apple iPhone 18 Pro Max - Switching LTE or 5G Voice ... - AT&amp;T",
+      "url": "https://www.att.com/device-support/article/155226/apple/iphone-18-pro-max/"
+    },
+    {
+      "title": "iPhone 18 Pro Max AT&amp;T Users: Update to iOS 27.0.1 and New ...",
+      "url": "https://tidbits.com/2026/10/06/iphone-18-pro-max-att-users-update-to-ios-27-0-1-and-new-carrier-settings/"
+    },
+    {
+      "title": "iPhone, Pixel and Galaxy carrier settings, decoded · carrier ...",
+      "url": "https://carrierexplode.com/"
+    },
+    {
+      "title": "carrier-explode makes phone firmware searchable for carrier ...",
+      "url": "https://runtimewire.com/article/carrier-explode-alec-dusheck-carrier-settings"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2410b371cb05ac7e50269fccfd769a3267676715",
+  "canonicalId": "137db262de4d370ee69858894d849c5dec0e42ba",
+  "slug": "letx27s-encrypt-将于-2027-年-2-月启用-64-天期证书",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T14:02:00Z",
+  "lang": "zh",
+  "title": "Let&\\#x27;s Encrypt 将于 2027 年 2 月启用 64 天期证书",
+  "summary": "Let&\\#x27;s Encrypt 宣布，自 2027 年 2 月 10 日起，其在该日期当天及之后签发或续期的所有证书有效期将变为 64 天，预计最后一张 90 天期证书会在 2027 年 5 月 11 日到期；该机构还表示不会因此吊销现有的有效证书。这是 Let&\\#x27;s Encrypt 于 2025 年公布的过渡计划的第二阶段，最终目标是在 2028 年改为 45 天有效期，以满足 CA/Browser Forum 基线要求。上述内容目前仍是已宣布的安排，尚未生效。",
+  "score": 7,
+  "tags": [
+    "TLS",
+    "certificates",
+    "Let&\\#x27;s Encrypt",
+    "PKI",
+    "web security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099588/",
+  "originalSite": "lwn.net",
+  "context": "Let&\\#x27;s Encrypt 长期签发 90 天有效期的免费 TLS 证书，而公开信任证书的有效期上限由 CA/Browser Forum 的 Baseline Requirements 规定。据 SSL Insights 报道，该论坛已于 2025 年 4 月投票要求最迟在 2029 年 3 月把上限降至 47 天；DigiCert 则称自 2027 年 3 月 15 日起上限先降至 100 天。Let&\\#x27;s Encrypt 在 2025 年公布的“从 90 天到 45 天”路线图选择比强制要求更早行动，此次 64 天有效期是该路线图中的中间一步，2028 年再切换至 45 天。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Let&#x27;s Encrypt mTLS Deprecation &amp; 45 - Day Certificates",
+      "url": "https://sslinsights.com/lets-encrypt-mtls-deprecation-45-day-certificates/"
+    },
+    {
+      "title": "TLS Certificate Lifetimes Will Officially Reduce to 47 Days | DigiCert",
+      "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days"
+    },
+    {
+      "title": "Let ’ s Encrypt cuts SSL cert lifetimes to 64 days , automation or bust",
+      "url": "https://www.geekslop.com/technology-articles/computers-programming/hacking-and-security-technology-articles/2026/lets-encrypt-64-day-ssl-certs"
+    },
+    {
+      "title": "Let &#x27; s Encrypt cuts certificate lifetimes to 64 days ... - Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/"
+    },
+    {
+      "title": "64 - Day Certificate Lifetimes Coming Feb 2027 - Let &#x27; s Encrypt",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

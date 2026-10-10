@@ -1,0 +1,52 @@
+{
+  "id": "5d6afa48bb07fee909d18c564985fa65d268a8f6",
+  "canonicalId": "ecaa805484ea16e28f34227b284a09b1df98d499",
+  "slug": "anthropic-推出-oss-scanner-开源漏洞扫描服务",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T02:00:00Z",
+  "lang": "zh",
+  "title": "Anthropic 推出 OSS Scanner 开源漏洞扫描服务",
+  "summary": "Anthropic 推出 OSS Scanner，面向符合条件的开源项目提供免费、自愿接入的漏洞扫描服务。报告由 Claude 等模型生成且不经人工审核，包含漏洞复现、漏洞说明，并尽可能给出补丁建议，可能存在错误。Anthropic 称过去半年发现逾 2.9 万个候选漏洞，人工审查约 6000 个；早期测试的 97 个高危或严重漏洞中，85 个符合其披露流程要求。符合条件项目的核心维护者可提交 GitHub PR 申请使用该服务。",
+  "score": 8,
+  "tags": [
+    "AI security",
+    "open source security",
+    "vulnerability scanning",
+    "Anthropic",
+    "Claude"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+  "originalSite": "anthropic.com",
+  "context": "据外部报道，OSS Scanner 的做法来自 Anthropic 在 Project Glasswing 中利用 Claude 寻找漏洞的经验，该服务对登记项目进行周期性扫描。此前 Horizon 10 月 3 日的日报曾报道，Greg Kroah-Hartman 在 Kernel Recipes 2026 演讲中审视 Anthropic 的 Mythos 项目宣称发现的 79 个内核漏洞，称其中 24 个没有任何细节、14 个并非漏洞、只有 20 个需要修复，这一插曲反映了 LLM 生成的漏洞报告此前受到内核维护者质疑，也凸显新服务为何强调项目自愿接入并对约 6000 份报告做人工审查。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-10-03 — Kroah-Hartman 评 Mythos 的 79 个 LLM 内核漏洞报告",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"
+    },
+    {
+      "title": "An opt - in vulnerability -finding service for open - source software",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    {
+      "title": "An opt-in vulnerability-finding service for open-source ...",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    {
+      "title": "New Anthropic OSS Scanner Tool to Scan Open-source ...",
+      "url": "https://cybersecuritynews.com/anthropic-oss-scanner/"
+    },
+    {
+      "title": "OSS Scanner - red.anthropic.com",
+      "url": "https://red.anthropic.com/oss-scanner/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "c398ffb101d635a10998c0014c909517639768ee",
+  "canonicalId": "9fb1ac358db9501189b1261d37b72693fd867e82",
+  "slug": "systemd-2026-状态季度发布落地ai-提交令审查承压",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T14:58:00Z",
+  "lang": "zh",
+  "title": "systemd 2026 状态：季度发布落地，AI 提交令审查承压",
+  "summary": "在 2026 年 All Systems Go\\! 大会上，维护者 Luca Boccassi 与 Zbigniew Jędrzejewski-Szmek 做了年度项目状态报告，随后 Boccassi、Jędrzejewski-Szmek、Daan De Meyer 和项目负责人 Lennart Poettering 参加圆桌讨论，并明确表示 systemd 不会取代 Kubernetes。项目把发布节奏从 v258 所需的约九个月改为季度发布——两个月合并功能、一个月稳定与候选版本，2026 年迄今已发布 v260、v261、v262 三个大版本，2025 年则发布了 v258、v259 以及 40 个点版本。Boccassi 称 2025 年合并了来自 379 名贡献者的 6,160 个提交，低于 2024 年的 7,372 个，而到 2026 年 9 月底贡献者已达 480 人，他称增长主要源于人们使用 LLM 编程工具。Jędrzejewski-Szmek 则表示未解决 issue 已达 3,000 个，自 2025 年中期起 PR 数量呈指数增长，若继续下去项目将无法继续审查，而提交合并速度基本不变，他的假设是实际参与审查的人数没有太大变化。",
+  "score": 7,
+  "tags": [
+    "systemd",
+    "Linux",
+    "open source",
+    "init systems",
+    "service management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099024/",
+  "originalSite": "lwn.net",
+  "context": "systemd 是大多数主流 Linux 发行版使用的初始化与服务管理系统，其维护者在每年 All Systems Go\\! 会议上的“项目状态”环节公布发布节奏、贡献者规模与项目健康度。Horizon 2026 年 6 月 20 日的日报曾报道 v261 发布，新增面向云环境的 IMDS 子系统、在无 TPM 机器上使用的“boot secret”机制，以及对内核 Live Update Orchestration 与 Kexec Handover 的支持（tool-1-1）；LWN 本次报道中所说的 2026 年三次大版本发布（v260、v261、v262）和转向季度发布节奏，对应的正是这一系列持续迭代。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-06-20 — Systemd v261 released with IMDS, boot secrets, and live update support",
+      "url": "https://lwn.net/Articles/1078708/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,227 @@
 {
   "articles": [
     {
+      "id": "50cad49eaf0311a0a83a02c34d35feec02e32bb2",
+      "canonicalId": "11660db6783062d951800a1c69680f848e58421a",
+      "slug": "cloudflare-收购-deno运行时一年后停止官方开发",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Cloudflare 收购 Deno，运行时一年后停止官方开发",
+      "score": 9,
+      "tags": [
+        "Deno",
+        "Cloudflare",
+        "JavaScript runtime",
+        "open source sustainability",
+        "acquisition"
+      ],
+      "originalSite": "deno.com"
+    },
+    {
+      "id": "fed1e4c99b83de6beca8f2fd0de0f722ad070718",
+      "canonicalId": "c6713b0aa2c19e626e1ec1902c25e1a3f406fe2a",
+      "slug": "python-315-发布新增-sentinel-与-frozendict-类型",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Python 3.15 发布：新增 sentinel 与 frozendict 类型",
+      "score": 9,
+      "tags": [
+        "Python",
+        "programming languages",
+        "open source",
+        "software releases",
+        "JIT compilation"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "5d6afa48bb07fee909d18c564985fa65d268a8f6",
+      "canonicalId": "ecaa805484ea16e28f34227b284a09b1df98d499",
+      "slug": "anthropic-推出-oss-scanner-开源漏洞扫描服务",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Anthropic 推出 OSS Scanner 开源漏洞扫描服务",
+      "score": 8,
+      "tags": [
+        "AI security",
+        "open source security",
+        "vulnerability scanning",
+        "Anthropic",
+        "Claude"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "e5a98690b9ed8e17b5eda3b9c5bd1850bac8f5cc",
+      "canonicalId": "35b14c13d81be0818849389eeba52df1365ad7cf",
+      "slug": "carrier-explode解码-iphonepixel-和-galaxy-运营商设置",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Carrier-Explode：解码 iPhone、Pixel 和 Galaxy 运营商设置",
+      "score": 7,
+      "tags": [
+        "mobile networking",
+        "carrier settings",
+        "baseband",
+        "iOS",
+        "Android"
+      ],
+      "originalSite": "carrierexplode.com"
+    },
+    {
+      "id": "7b1d27fa71ef9d31a8e28c73cba610e211fd740e",
+      "canonicalId": "4eb26ae0c1214047126982aba803b1695a6faeac",
+      "slug": "windows-与-mac-键盘差异分析引发切换成本讨论",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Windows 与 Mac 键盘差异分析引发切换成本讨论",
+      "score": 7,
+      "tags": [
+        "keyboards",
+        "human-computer interaction",
+        "macOS",
+        "Windows",
+        "platform differences"
+      ],
+      "originalSite": "unsung.aresluna.org"
+    },
+    {
+      "id": "ca1597767934715f0a960d3473f66603567ecc57",
+      "canonicalId": "1f785e46a47efefb6ac902903b1e0179e20b2732",
+      "slug": "微软开源-mxc统一封装多平台沙箱执行",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "微软开源 MXC：统一封装多平台沙箱执行",
+      "score": 7,
+      "tags": [
+        "sandboxing",
+        "code execution",
+        "security",
+        "open source",
+        "AI agents"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "2956d4fed9b90c7d1f87d230d732f28400b75071",
+      "canonicalId": "301544ff1a07499c14f9c3afe5266f0a2f65b9ef",
+      "slug": "openai-解雇三名安全研究员-当事人否认指控",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "OpenAI 解雇三名安全研究员 当事人否认指控",
+      "score": 7,
+      "tags": [
+        "AI safety",
+        "OpenAI",
+        "AI governance",
+        "tech industry",
+        "ethics"
+      ],
+      "originalSite": "techcrunch.com"
+    },
+    {
+      "id": "958fd8281f6e2f713aa16c651854a0701d3dbfaf",
+      "canonicalId": "963b8184663b383e0d072f57bf518f0be43c0423",
+      "slug": "matthew-greenai-带来的密码学意外或快于标准更替",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Matthew Green：AI 带来的密码学意外或快于标准更替",
+      "score": 7,
+      "tags": [
+        "cryptography",
+        "AI risk",
+        "public-key encryption",
+        "security standards",
+        "Minicrypt"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "c61ec7673779adbc14ac3d3e5c3ec4fe3daf2e63",
+      "canonicalId": "481f8bd7cecf7f8bc5b81e4f49cf422daf6115e8",
+      "slug": "gcc-加入内核前向边-cfi-检查补丁",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "GCC 加入内核前向边 CFI 检查补丁",
+      "score": 7,
+      "tags": [
+        "kernel security",
+        "control-flow integrity",
+        "compilers",
+        "GCC",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "c398ffb101d635a10998c0014c909517639768ee",
+      "canonicalId": "9fb1ac358db9501189b1261d37b72693fd867e82",
+      "slug": "systemd-2026-状态季度发布落地ai-提交令审查承压",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "systemd 2026 状态：季度发布落地，AI 提交令审查承压",
+      "score": 7,
+      "tags": [
+        "systemd",
+        "Linux",
+        "open source",
+        "init systems",
+        "service management"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "2410b371cb05ac7e50269fccfd769a3267676715",
+      "canonicalId": "137db262de4d370ee69858894d849c5dec0e42ba",
+      "slug": "letx27s-encrypt-将于-2027-年-2-月启用-64-天期证书",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Let&\\#x27;s Encrypt 将于 2027 年 2 月启用 64 天期证书",
+      "score": 7,
+      "tags": [
+        "TLS",
+        "certificates",
+        "Let&\\#x27;s Encrypt",
+        "PKI",
+        "web security"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "afcc42978f4a03a5a8324155cfcea25beb578aee",
+      "canonicalId": "dfc97f5c7bb74103b53fc4e90a7600cba1eb9335",
+      "slug": "telegram-desktop-729-以下版本曝一键窃取文件漏洞",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "Telegram Desktop 7.2.9 以下版本曝一键窃取文件漏洞",
+      "score": 7,
+      "tags": [
+        "security vulnerability",
+        "Telegram Desktop",
+        "CVE-2026-107181",
+        "software update",
+        "privacy"
+      ],
+      "originalSite": "telegram.me"
+    },
+    {
+      "id": "d9391045298863a276e4401edcfa8b8e35b9e59b",
+      "canonicalId": "07118cb026cc6e731c38697c4f55d17ba0f07e66",
+      "slug": "软件工程的半人马时代或将持续数十年",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "title": "软件工程的“半人马时代”或将持续数十年",
+      "score": 5,
+      "tags": [
+        "AI-assisted software engineering",
+        "centaur age",
+        "software engineering careers",
+        "LLM coding agents",
+        "industry analysis"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
       "id": "6b2f1dafd63897dacba1770632c8d629bd682dc9",
       "canonicalId": "4cf9cb482d4977c23f981e09880a9efd43ab8797",
       "slug": "中国团队实现钍-229-核光钟稳定运行",
@@ -4782,210 +5003,6 @@
         "benchmarking",
         "speculative decoding",
         "agentic AI"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "2ca22c81f7dcc2937f46d3629260af539b2e4a5d",
-      "canonicalId": "162b159ab6c385272a685894a4465ed986bd5acb",
-      "slug": "vllm-0290-默认启用-model-runner-v2",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "vLLM 0.29.0 默认启用 Model Runner V2",
-      "score": 8,
-      "tags": [
-        "vllm",
-        "LLM inference",
-        "open source",
-        "AI infrastructure",
-        "model runner"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "94a32ed94a9658f1ee9b3e510cfe6577582377f0",
-      "canonicalId": "4a117c1be7e3b1a93aaebd552d263e78cd15fd06",
-      "slug": "苹果发布折叠设备-iphone-duo",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "苹果发布折叠设备 iPhone Duo",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "hardware",
-        "mobile",
-        "foldable",
-        "consumer technology"
-      ],
-      "originalSite": "apple.com"
-    },
-    {
-      "id": "e7e450b13a52763ae27c782ae4d00f876e1f026f",
-      "canonicalId": "8ef59f4ca466321bed683def9b2265d6804ebbe4",
-      "slug": "shopify-acquisisce-tailwind-framework-css-sotto-nuova-proprietà",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "Shopify acquisisce Tailwind: framework CSS sotto nuova proprietà",
-      "score": 8,
-      "tags": [
-        "Tailwind",
-        "Shopify",
-        "acquisition",
-        "CSS",
-        "open source"
-      ],
-      "originalSite": "tailwindcss.com"
-    },
-    {
-      "id": "d3aa0c54ad944bc3d9d2636cfca4730945514ae0",
-      "canonicalId": "44084287147f6737176b69adf6e595baa9748e77",
-      "slug": "gpt-6-astra循环-transformer-与隐藏推理解读",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "GPT-6 Astra、循环 Transformer 与隐藏推理解读",
-      "score": 8,
-      "tags": [
-        "GPT-6",
-        "transformers",
-        "AI research",
-        "OpenAI",
-        "LLM internals"
-      ],
-      "originalSite": "magazine.sebastianraschka.com"
-    },
-    {
-      "id": "47d869f6a136c0cae4f91c07df92038b6cba5d0e",
-      "canonicalId": "2368646fcf5a82cdd1159ab4386141a71a7f0ebe",
-      "slug": "恶意软件如何骗过-google-ads-审查实操揭露",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "恶意软件如何骗过 Google Ads 审查：实操揭露",
-      "score": 8,
-      "tags": [
-        "security",
-        "google-ads",
-        "malvertising",
-        "ad-fraud",
-        "cybersecurity"
-      ],
-      "originalSite": "xlii.space"
-    },
-    {
-      "id": "63ff96bcae940cf743a6bb6cd14f2a445f6a258b",
-      "canonicalId": "e8ac74305a2976f6101633278745e851ec7057d3",
-      "slug": "研究者称-qwen-38-复现-gpt-55-pro-推理前缀或涉蒸馏",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "研究者称 Qwen 3.8 复现 GPT-5.5 Pro 推理前缀，或涉蒸馏",
-      "score": 7,
-      "tags": [
-        "AI",
-        "distillation",
-        "Qwen",
-        "reasoning models",
-        "benchmarking"
-      ],
-      "originalSite": "gist.github.com"
-    },
-    {
-      "id": "d6acda9eb45565163e9ccb6cc5adffbf549bf57d",
-      "canonicalId": "8977bb1e0a96503aa98575f486fe85fb45de68bd",
-      "slug": "gnu-radio-在浏览器中运行用-webassembly-开启-sdr-实验",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "GNU Radio 在浏览器中运行：用 WebAssembly 开启 SDR 实验",
-      "score": 7,
-      "tags": [
-        "GNU Radio",
-        "WebAssembly",
-        "Software-Defined Radio",
-        "DSP",
-        "Open Source"
-      ],
-      "originalSite": "gnuradioworld.com"
-    },
-    {
-      "id": "981eb7e0d956b6cf12e1ccdf7a156088f8b2aaf4",
-      "canonicalId": "928ae2e79333242934905dd2cc2996f7caa51855",
-      "slug": "陶哲轩ai-正在耗尽开放数学问题",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "陶哲轩：AI 正在耗尽开放数学问题",
-      "score": 7,
-      "tags": [
-        "ai-ethics",
-        "mathematics",
-        "open-science",
-        "ai-impact",
-        "research"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "83a40bd79d596798efab89a3aeedc0595cd6fdbb",
-      "canonicalId": "661197600e78b896dd41e996e6da1bbc176d419e",
-      "slug": "rustls-十周年回顾-023-稳定路线并展望-10",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "Rustls 十周年：回顾 0.23 稳定路线并展望 1.0",
-      "score": 7,
-      "tags": [
-        "rustls",
-        "tls",
-        "rust",
-        "security",
-        "software engineering"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "05f5c7d81979fc6e9c62d7372c5d53070030ea24",
-      "canonicalId": "95254ea51d2feea41d8dce296f3244d4940963f7",
-      "slug": "openai-用-ai-设计芯片并称成本低于开源模型",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "OpenAI 用 AI 设计芯片并称成本低于开源模型",
-      "score": 7,
-      "tags": [
-        "AI chip design",
-        "OpenAI",
-        "custom silicon",
-        "cost optimization",
-        "LLM deployment"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "c0210652861f45e3070c5fdc78e94ecab9ed69a4",
-      "canonicalId": "50df749c84d4f0253a1756a99fb363e9615a992f",
-      "slug": "智能模型路由如何显著降低-llm-成本",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "智能模型路由如何显著降低 LLM 成本",
-      "score": 5,
-      "tags": [
-        "LLM routing",
-        "cost optimization",
-        "model selection",
-        "AI infrastructure",
-        "prompt classification"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "75830f6398dd0a732da15a95d015fbf6b54a68e8",
-      "canonicalId": "6a34428ef866785f3de02730daf53554d589cc4d",
-      "slug": "cuda-134-新特性windows-on-arm-与共享-gpu-管控",
-      "date": "2026-09-10",
-      "lang": "zh",
-      "title": "CUDA 13.4 新特性：Windows on Arm 与共享 GPU 管控",
-      "score": 4,
-      "tags": [
-        "CUDA",
-        "GPU programming",
-        "NVIDIA",
-        "release notes",
-        "development tools"
       ],
       "originalSite": "developer.nvidia.com"
     }

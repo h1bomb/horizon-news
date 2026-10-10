@@ -1,0 +1,41 @@
+{
+  "id": "ca1597767934715f0a960d3473f66603567ecc57",
+  "canonicalId": "1f785e46a47efefb6ac902903b1e0179e20b2732",
+  "slug": "微软开源-mxc统一封装多平台沙箱执行",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T05:51:00Z",
+  "lang": "zh",
+  "title": "微软开源 MXC：统一封装多平台沙箱执行",
+  "summary": "Hacker News 上受到关注的是微软的开源项目 MXC（github.com/microsoft/mxc），它把 bubblewrap、seatbelt、processcontainer 等操作系统沙箱原语抽象为一致的沙箱化代码执行接口。据 HN 评论，该项目提供用于探测运行时所需权限的 learning 模式，采用 MIT 许可证，并披露了可选遥测；其 Rust SDK 的 API 也被认为较易使用。讨论同时指出，macOS 后端缺少 Windows 和 Linux 已支持的细粒度网络控制，包括按主机名以及按 IP、CIDR、端口或协议允许/拒绝。另有评论称项目约 35 万行、以 Rust 为主，且未 vendor 上游沙箱。",
+  "score": 7,
+  "tags": [
+    "sandboxing",
+    "code execution",
+    "security",
+    "open source",
+    "AI agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nreece",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50016489"
+    }
+  ],
+  "originalUrl": "https://github.com/microsoft/mxc",
+  "originalSite": "github.com",
+  "context": "MXC（Microsoft eXecution Container）是一个用于在 Windows、Linux 和 macOS 上运行不受信任代码（如模型输出、插件和工具）的沙箱化执行系统。它的设计要点是把多种隔离后端——从操作系统原生进程沙箱一直到完整虚拟机——收敛到统一的 containment 模型、配置 schema 和类型化 SDK 之下；Linux 的 bubblewrap、macOS 的 seatbelt、Windows 的 processcontainer 在这里是可替换的后端实现，而非各自独立的使用方式。",
+  "discussion": "对需要在 Linux、Windows 和 macOS 上运行不可信代码的开发者，MXC 可避免手写 bubblewrap、seatbelt 或 processcontainer 配置带来的不一致和出错风险。但若强依赖 macOS 上的网络隔离，当前需接受缺少按主机名、IP、CIDR、端口或协议控制的条件，或另行补充网络限制。\n\nHN 评论认为 MXC 作为 bubblewrap、seatbelt 和 processcontainer 的一致封装有实用价值：dannyw 称手工配置沙箱很容易出错，并称赞 learning 模式、MIT 许可证、遥测披露和文档。simonw 指出 macOS 后端缺少细粒度网络控制；neobrain 追问是否存在从最小沙箱开始、按需异步添加且可撤销权限的动态授权机制，kernc 则对约 35 万行、以 Rust 为主的代码量和未 vendor 上游沙箱的可审计性表示保留。",
+  "references": [
+    {
+      "title": "GitHub - microsoft/mxc: Policy-driven, layered isolation and ...",
+      "url": "https://github.com/microsoft/mxc"
+    },
+    {
+      "title": "GitHub - microsoft/mxc: Policy-driven, layered isolation and ...",
+      "url": "https://github.com/microsoft/mxc/blob/main/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "50cad49eaf0311a0a83a02c34d35feec02e32bb2",
+  "canonicalId": "11660db6783062d951800a1c69680f848e58421a",
+  "slug": "cloudflare-收购-deno运行时一年后停止官方开发",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T13:03:00Z",
+  "lang": "zh",
+  "title": "Cloudflare 收购 Deno，运行时一年后停止官方开发",
+  "summary": "Cloudflare 已收购 Deno。根据讨论中引述的公告，Deno 运行时还将获得一年支持，期间每月发布缺陷修复和安全更新；一年后 Deno 团队将结束对该运行时的开发。公告称 Deno 仍将保持开源，并欢迎其他人继续开发，因此除非有外部接手，Deno 将不再获得官方支持。",
+  "score": 9,
+  "tags": [
+    "Deno",
+    "Cloudflare",
+    "JavaScript runtime",
+    "open source sustainability",
+    "acquisition"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ilreb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50019911"
+    }
+  ],
+  "originalUrl": "https://deno.com/blog/cloudflare",
+  "originalSite": "deno.com",
+  "context": "Deno 团队在今年 8 月发布了 celld 的首个版本，这是他们对 Cloudflare Workers 的 Durable Objects 模式的开源实现；Deno 官方把「Deno → Deno Deploy → celld」这条演进路径视为此次加入 Cloudflare 的技术铺垫。Cloudflare 方面表示，Deno 团队将与 Workers 和 Durable Objects 团队合并工作，目标是简化 Workers 与 Durable Objects 的自托管，让开发者能在 Cloudflare 网络或自有基础设施上使用同一套编程原语。",
+  "discussion": "对使用 Deno 运行时的开发者和团队而言，现在有一年的官方维护窗口来规划迁移或接手维护；一年后若无人继续，生产环境将不再有新的缺陷修复和安全更新。由于 Deno 仍将开源，社区接管或分叉在许可上可行，但发布节奏、安全响应和维护责任将转由接手方承担。\n\n评论者对 Deno 的结局普遍感到惋惜，并争论其衰落原因：一些人认为转向 npm 兼容性使 Deno 从简洁变得臃肿，另一些人批评项目未采用付费或捐赠模式而依赖风投。也有用户希望 Cloudflare 的 workerd 能采纳 Deno 的安全机制。",
+  "references": [
+    {
+      "title": "Deno is joining Cloudflare | Deno",
+      "url": "https://deno.com/blog/cloudflare"
+    },
+    {
+      "title": "Deno is joining Cloudflare | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/"
+    },
+    {
+      "title": "Deno is joining Cloudflare - simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

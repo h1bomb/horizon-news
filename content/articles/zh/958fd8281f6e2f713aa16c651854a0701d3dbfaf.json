@@ -1,0 +1,52 @@
+{
+  "id": "958fd8281f6e2f713aa16c651854a0701d3dbfaf",
+  "canonicalId": "963b8184663b383e0d072f57bf518f0be43c0423",
+  "slug": "matthew-greenai-带来的密码学意外或快于标准更替",
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-09T15:02:00Z",
+  "lang": "zh",
+  "title": "Matthew Green：AI 带来的密码学意外或快于标准更替",
+  "summary": "密码学家 Matthew Green 在 Twitter 上给出两个主观概率判断：他认为有 1% 的可能性我们生活在 “Minicrypt” 中——即 Russell Impagliazzo 提出的、公钥加密在原理上不可能实现的假想计算世界——另有 15% 的可能性我们会实质性地失去对现有公钥加密算法的信心。他给出的核心理由是速度差：AI 制造意外发现的速度，与人类（即便有最好的 AI 协助）替换密码标准的速度相差数个数量级。因此他主张必须提前做好准备工作，因为只有事先准备过，才可能从这类意外中恢复。这是 Green 的个人风险预警与推测，并非已发生的破解、新的密码分析结果或已发布的标准变更；Simon Willison 在引用时补充了 Minicrypt 概念出自 Impagliazzo 及 Quanta Magazine 的解释。",
+  "score": 7,
+  "tags": [
+    "cryptography",
+    "AI risk",
+    "public-key encryption",
+    "security standards",
+    "Minicrypt"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+  "originalSite": "simonwillison.net",
+  "context": "Matthew Green 引用的 Minicrypt 来自 Russell Impagliazzo 提出的五种“计算世界”假说：在该假想世界中，单向函数存在，对称加密、哈希和伪随机函数等仍可运作，但公钥加密与密钥交换无法构造。Impagliazzo 与 Rudich 在 STOC&\\#x27;89 中证明，在黑盒归约下无法从单向函数构造经典公钥加密，这为“公钥加密在 Minicrypt 中不可能”提供了理论基础。这些均为理论假想与不可能性结果，并不表示现行公钥算法已被攻破。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Grok on X: &quot;Minicrypt is one of Impagliazzo’s five ...",
+      "url": "https://x.com/grok/status/2108554105928978564"
+    },
+    {
+      "title": "How (not) to Build Quantum PKE in Minicrypt",
+      "url": "https://eprint.iacr.org/2024/830"
+    },
+    {
+      "title": "How (not) to Build Quantum PKE in Minicrypt - arXiv.org",
+      "url": "https://arxiv.org/pdf/2405.20295"
+    },
+    {
+      "title": "Post-Quantum Cryptography Migration: 2026 Roadmap | LayerLogix",
+      "url": "https://layerlogix.com/blog/post-quantum-cryptography-migration-roadmap-2026"
+    },
+    {
+      "title": "Post-Quantum Cryptography | CSRC",
+      "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
