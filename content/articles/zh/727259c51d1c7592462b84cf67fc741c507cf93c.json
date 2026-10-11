@@ -1,0 +1,49 @@
+{
+  "id": "727259c51d1c7592462b84cf67fc741c507cf93c",
+  "canonicalId": "19faa179f05c63b7d8c7972294293c540ce37051",
+  "slug": "telegram-desktop-曝一键账户接管与文件窃取漏洞",
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-10T03:02:00Z",
+  "lang": "zh",
+  "title": "Telegram Desktop 曝一键账户接管与文件窃取漏洞",
+  "summary": "一篇发布在 beaksec.github.io 的安全分析文章披露，Telegram Desktop 存在一个可被利用的漏洞，攻击者通过一次点击即可接管用户账户并窃取文件。该文章于 2026 年 10 月 10 日发布，并在 Hacker News 上由 g-b-r 分享。文章给出了具体利用细节，但现有信息未包含受影响版本、官方修复状态或 Telegram 的回应。",
+  "score": 7,
+  "tags": [
+    "security vulnerability",
+    "Telegram Desktop",
+    "application security",
+    "sandboxing",
+    "exploit"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "g-b-r",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50029123"
+    }
+  ],
+  "originalUrl": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+  "originalSite": "beaksec.github.io",
+  "context": "该漏洞被编为 CVE-2026-107181，影响 7.2.9 之前的 Telegram Desktop 版本，CVSS 4.0 评分为 8.6。公开分析显示，点击特制外链会触发客户端进程间通信（IPC）注入，使客户端把本地文件（包括会话数据）发送到攻击者聊天窗口，原始研究由 BeakSec 发布。该问题已在 Telegram Desktop 7.2.9 中修复，因此属于旧版本客户端缺陷，而非当前版本的未修复风险。",
+  "discussion": "受影响的是使用 Telegram Desktop 的用户：按本次披露，打开聊天中收到的恶意文件即可能被窃取本地文件并导致账号被接管，属于无需额外交互的利用路径。Telegram 流量高度集中于桌面客户端（一项 2026 年的统计称桌面端占 91.15%），因此暴露面并不限于少数人；在材料未给出受影响版本与修复版本的情况下，可在操作系统层面收紧客户端权限（例如用沙箱运行、只开放下载目录）以降低风险。\n\n评论者 farhanhubble 引用观点称“足够复杂的输入格式与字节码无异”，以此解释解析类漏洞的根源；bita\\_nidir 主张默认不应允许软件访问全部文件并随意联网。crossroadsguy 报告 Telegram 会重新启用用户已关闭的设置，SpacePortKnight 和 usr1106 则分别提到更倾向使用网页版或在 Linux 上用 firejail 沙箱运行浏览器。",
+  "references": [
+    {
+      "title": "How a Single Click Could Take Over a Telegram Desktop Account",
+      "url": "https://dev.to/asyncinnovator/how-a-single-click-could-take-over-a-telegram-desktop-account-5dn7"
+    },
+    {
+      "title": "CVE-2026-107181 Telegram Desktop one - click file theft , PoC",
+      "url": "https://www.threatwire.tech/research/telegram-desktop-one-click-file-theft-is-cve-2026-107181"
+    },
+    {
+      "title": "Telegram Desktop 7.2.9 fixes serious account takeover flaw | iMasters",
+      "url": "https://imasters.com/news/telegram-desktop-vulnerability-allowed-stealing-files-and-hijacking-accounts"
+    },
+    {
+      "title": "Telegram Users Statistics 2026 (Latest Global Data) - Demand Sage Telegram Statistics 2026: Users, Revenue &amp; Channel Data ... Telegram Revenue and Usage Statistics (2026) - Business of Apps Telegram Statistics (2026): Users, Downloads &amp; Revenue Telegram by the Numbers: User Base, Key Markets &amp; Marketing ... Telegram Statistics (2026): 50+ Data Points on Users, Revenue ...",
+      "url": "https://www.demandsage.com/telegram-statistics/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

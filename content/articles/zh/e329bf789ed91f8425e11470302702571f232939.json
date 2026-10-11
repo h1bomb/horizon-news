@@ -1,0 +1,49 @@
+{
+  "id": "e329bf789ed91f8425e11470302702571f232939",
+  "canonicalId": "92fe947eb54aa9f42ab4d7ae5b8f3831e9708870",
+  "slug": "rea-reverse-引发-ai-逆向工程讨论",
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-10T00:37:00Z",
+  "lang": "zh",
+  "title": "REA Reverse 引发 AI 逆向工程讨论",
+  "summary": "Hacker News 上出现了围绕 REA Reverse 的讨论，这是一个 AI 辅助逆向工程工具。评论者报告了实际使用 LLM 进行反编译和二进制补丁的经验：有人称 Touhou 4 的 AI 反编译质量高于不少同类结果，另一人称将 Windows 远程桌面客户端二进制交给 Claude 后修补了两个长期存在的 bug。这些均为评论者个人报告，而非项目方发布的基准或独立验证结果；提交本身未提供工具细节、版本或可用性信息。",
+  "score": 7,
+  "tags": [
+    "reverse-engineering",
+    "AI-assisted-decompilation",
+    "LLM-tooling",
+    "binary-patching",
+    "developer-tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "modinfo",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50028275"
+    }
+  ],
+  "originalUrl": "https://rea.tools/",
+  "originalSite": "rea.tools",
+  "context": "REA 的官网与 GitHub 仓库把它定位为给编码代理（coding agent）使用的逆向工程工具：代理可以检查程序并获取反编译代码、选定汇编、调用跟踪和运行数据，REA 在后台自动安装和管理逆向工具，并提供 capture-process、compare-process-captures 等命令，其中文件系统证据命令和 MCP 文件工具需操作者先批准绝对根路径才会启用。Horizon 2026 年 8 月 28 日的日报曾记录一位开发者在 84 天内用 LLM 辅助工作流反编译 Nintendo 64 游戏《Snowboard Kids》，表明让大模型参与反编译和逆向分析的做法在 REA 出现前已有可复用的实例。",
+  "discussion": "若这些经验可复现，逆向工程师和需要维护无源码二进制的人员可把 LLM 用于辅助反编译或修补旧 bug，但当前证据仅来自个人评论，且缺少工具版本、可访问性和独立测试，实际用于生产补丁前仍需人工复核和回归验证。\n\nInvisibleUp 称 Touhou 4 的 AI 反编译质量高于其见过的大多数 AI 反编译，变量命名合理、注释简洁，但文件结构更像为 AI 使用而优化，而非还原开发者意图；SyzygyRhythm 报告 Claude 直接修补了 Windows 远程桌面客户端的两个长期 bug，用 NOP 和栈偏移调整完成修复，并称修复有效。两者都是评论者个人经验，未经独立验证。",
+  "references": [
+    {
+      "title": "REA — Reverse Engineering for Your Coding Agent",
+      "url": "https://rea.tools/"
+    },
+    {
+      "title": "REA - AI Developer Tool | TopAI. tools",
+      "url": "https://topai.tools/t/rea-tools"
+    },
+    {
+      "title": "GitHub - morluto/ rea : Reverse engineer anything with agents, from...",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "title": "2026-08-28 — 84 天用 LLM 辅助反编译 N64 游戏《Snowboard Kids》",
+      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

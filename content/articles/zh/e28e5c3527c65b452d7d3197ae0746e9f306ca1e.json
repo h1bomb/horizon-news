@@ -1,0 +1,52 @@
+{
+  "id": "e28e5c3527c65b452d7d3197ae0746e9f306ca1e",
+  "canonicalId": "b8176024bc2bb4e0cfd95166b491b2951e9a9295",
+  "slug": "claude-动态多智能体工作流进入公开测试",
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-10T08:30:00Z",
+  "lang": "zh",
+  "title": "Claude 动态多智能体工作流进入公开测试",
+  "summary": "据该公告，Anthropic 的 Claude Managed Agents 动态工作流（Dynamic Workflows）已进入公开测试。它采用分阶段的多智能体编排：主智能体先编写计划，再运行多个子智能体，并汇总各阶段结果；工作流由服务器在后台执行，默认时限 24 小时，状态可通过事件流追踪。该功能面向单个对话难以完成的大规模任务，例如审阅数百份文档，并支持并行展开子智能体和在阶段间传递结果。不过，该帖未提供 API/技术细节、性能基准或独立验证，实际可用范围与效果仍需以官方文档或实测为准。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "multi-agent systems",
+    "Anthropic Claude",
+    "agent orchestration",
+    "LLM tooling"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/ClaudeDevs/status/2108591328732856655",
+  "originalSite": "x.com",
+  "context": "Claude Managed Agents 是 Anthropic 的托管智能体服务，其智能体由服务器在后台运行，而不是在用户本地执行；本次进入公开测试的动态工作流是其中的一项能力，按 Anthropic 发布说明，它让托管智能体编写并运行一个由多个智能体组成的程序，分阶段调度子智能体并汇总各阶段结果（tool-2-2、tool-2-3）。外部报道称该功能的公开测试于 2026 年 10 月 9 日开放（tool-2-1、tool-2-3）。与单个智能体在单次对话中完成任务相比，这种分阶段、可并行的编排主要面向审阅数百份文档等大规模任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Multiagent Orchestration in Claude : Powerful, Essential Beta",
+      "url": "https://www.progressiverobot.com/2026/10/09/multiagent-orchestration-claude-public-beta-dynamic-workflows/"
+    },
+    {
+      "title": "Claude Dynamic Workflows Beta : Can It Beat One Agent ? - Kingy AI",
+      "url": "https://kingy.ai/blog/claude-managed-agents-dynamic-workflows-beta/"
+    },
+    {
+      "title": "Claude Managed Agents Adds Dynamic Workflows ( Beta )",
+      "url": "https://tsnmedia.org/claude-managed-agents-dynamic-workflows-beta-many-agents-in-phases/"
+    },
+    {
+      "title": "Claude Managed Agents overview - Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/managed-agents/overview"
+    },
+    {
+      "title": "Claude Managed Agents Pricing: A Complete Breakdown for 2026",
+      "url": "https://www.truefoundry.com/blog/claude-managed-agents-pricing"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

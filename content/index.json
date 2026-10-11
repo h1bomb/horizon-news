@@ -1,6 +1,108 @@
 {
   "articles": [
     {
+      "id": "e329bf789ed91f8425e11470302702571f232939",
+      "canonicalId": "92fe947eb54aa9f42ab4d7ae5b8f3831e9708870",
+      "slug": "rea-reverse-引发-ai-逆向工程讨论",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "title": "REA Reverse 引发 AI 逆向工程讨论",
+      "score": 7,
+      "tags": [
+        "reverse-engineering",
+        "AI-assisted-decompilation",
+        "LLM-tooling",
+        "binary-patching",
+        "developer-tools"
+      ],
+      "originalSite": "rea.tools"
+    },
+    {
+      "id": "727259c51d1c7592462b84cf67fc741c507cf93c",
+      "canonicalId": "19faa179f05c63b7d8c7972294293c540ce37051",
+      "slug": "telegram-desktop-曝一键账户接管与文件窃取漏洞",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "title": "Telegram Desktop 曝一键账户接管与文件窃取漏洞",
+      "score": 7,
+      "tags": [
+        "security vulnerability",
+        "Telegram Desktop",
+        "application security",
+        "sandboxing",
+        "exploit"
+      ],
+      "originalSite": "beaksec.github.io"
+    },
+    {
+      "id": "203554d81ed59e337d5d377131c60b36eb1fcbe3",
+      "canonicalId": "d78bb69c492519f99206f8fe057e7a1330d9211a",
+      "slug": "anthropic-智能体误交-20-份签证申请暂停评测联网",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "title": "Anthropic 智能体误交 20 份签证申请，暂停评测联网",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "AI safety",
+        "Anthropic",
+        "cybersecurity",
+        "unintended actions"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "6bb04b4899968a0fa11158a034ef988900aa9a34",
+      "canonicalId": "e11cc7b8c3b0556ba9e164872841612492756388",
+      "slug": "超微电脑承包商认罪涉非法转运-25-亿美元英伟达-ai-服务器",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "title": "超微电脑承包商认罪：涉非法转运 25 亿美元英伟达 AI 服务器",
+      "score": 7,
+      "tags": [
+        "export controls",
+        "Nvidia",
+        "AI hardware",
+        "Super Micro",
+        "US-China tech"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "f088c34cfb16b8559d1406a194cdb4e4f053c69f",
+      "canonicalId": "c1f88cb238569e12af11d2b901e02512f4ea0952",
+      "slug": "红海冲突下谷歌-meta-启用伊拉克陆路光纤备用线路",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "title": "红海冲突下谷歌 Meta 启用伊拉克陆路光纤备用线路",
+      "score": 7,
+      "tags": [
+        "internet infrastructure",
+        "subsea cables",
+        "geopolitics",
+        "Google",
+        "Meta"
+      ],
+      "originalSite": "restofworld.org"
+    },
+    {
+      "id": "e28e5c3527c65b452d7d3197ae0746e9f306ca1e",
+      "canonicalId": "b8176024bc2bb4e0cfd95166b491b2951e9a9295",
+      "slug": "claude-动态多智能体工作流进入公开测试",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "title": "Claude 动态多智能体工作流进入公开测试",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "multi-agent systems",
+        "Anthropic Claude",
+        "agent orchestration",
+        "LLM tooling"
+      ],
+      "originalSite": "x.com"
+    },
+    {
       "id": "50cad49eaf0311a0a83a02c34d35feec02e32bb2",
       "canonicalId": "11660db6783062d951800a1c69680f848e58421a",
       "slug": "cloudflare-收购-deno运行时一年后停止官方开发",
@@ -4784,227 +4886,6 @@
         "AI models"
       ],
       "originalSite": "openai.com"
-    },
-    {
-      "id": "121cfe731e1a13fc59c4bc7f9b66f04150c5be85",
-      "canonicalId": "e0bea100c91b53ad70f1f4a504954380d5814f27",
-      "slug": "shopify-从-react-native-迁回-swift-与-kotlin",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "Shopify 从 React Native 迁回 Swift 与 Kotlin",
-      "score": 8,
-      "tags": [
-        "React Native",
-        "Swift",
-        "Kotlin",
-        "mobile development",
-        "cross-platform"
-      ],
-      "originalSite": "shopify.engineering"
-    },
-    {
-      "id": "79a30882589a92aff30a7ce634de6d0ff49e3306",
-      "canonicalId": "ad1c7d356fc8afb92c481b85903b841bd52eff85",
-      "slug": "微软将-rust-列为一级语言",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "微软将 Rust 列为一级语言",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "Microsoft",
-        "systems programming",
-        "memory safety",
-        "programming languages"
-      ],
-      "originalSite": "rustfoundation.org"
-    },
-    {
-      "id": "dc677908273ec66100a5642ce0aba2799f987630",
-      "canonicalId": "7e7cf51a2f38432b19c624ae3ef1c386141dbee6",
-      "slug": "nix-包可通过浏览器内的-qemu-wasm-虚拟机直接启动",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "Nix 包可通过浏览器内的 qemu-wasm 虚拟机直接启动",
-      "score": 8,
-      "tags": [
-        "nix",
-        "webassembly",
-        "virtualization",
-        "developer-tools",
-        "reproducible-builds"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "e33dacf9f461bfb670036be1b8fe29ef13bbe84a",
-      "canonicalId": "e09c59999fdb9e0e13bc76c54db6446966b59095",
-      "slug": "calif-research-发布-weworm-零点击微信通话蠕虫演示",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "Calif Research 发布 WeWorm 零点击微信通话蠕虫演示",
-      "score": 8,
-      "tags": [
-        "AI security",
-        "zero-click exploit",
-        "WeChat",
-        "remote code execution",
-        "AI-assisted exploitation"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "76f57411a3d61d340b69170b02f6dec8f27489bd",
-      "canonicalId": "f750c368f5424b29a50b7408a373b92c06f28427",
-      "slug": "forgejo-1604-与-1508-修复严重-rce-漏洞",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "Forgejo 16.0.4 与 15.0.8 修复严重 RCE 漏洞",
-      "score": 8,
-      "tags": [
-        "Forgejo",
-        "security vulnerability",
-        "remote code execution",
-        "open source",
-        "Git"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "c030c022f2a33a8dfc5e971b0a601752e8f5d051",
-      "canonicalId": "7caf17636d424d1f85aa5e6a8606a1d41bee1849",
-      "slug": "postgresql-19-后期补丁质量引担忧新增一个-beta",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "PostgreSQL 19 后期补丁质量引担忧，新增一个 beta",
-      "score": 8,
-      "tags": [
-        "PostgreSQL",
-        "database",
-        "open source",
-        "release engineering",
-        "software quality"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "e8b5c9e2aeb92d810c563ed3638d1752fab34ac5",
-      "canonicalId": "782d6bbf2b5289c7a17049b3c21f4bf16eb01af3",
-      "slug": "openai-与未发表数学研究者的信任争议",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "OpenAI 与未发表数学：研究者的信任争议",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "research ethics",
-        "AI math",
-        "attribution",
-        "research trust"
-      ],
-      "originalSite": "mathstodon.xyz"
-    },
-    {
-      "id": "18198b26a9e0428d29026e63cb11c0f941c85161",
-      "canonicalId": "18451593c2e52c078161ce00361bd5c223c5bb63",
-      "slug": "julia-113-发布加快包预编译并改进-repl",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "Julia 1.13 发布：加快包预编译并改进 REPL",
-      "score": 7,
-      "tags": [
-        "Julia",
-        "Programming Languages",
-        "Open Source",
-        "Release",
-        "REPL"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "14f94907197582419b31b2adf4471f5431335198",
-      "canonicalId": "43141a4db000c1bc17f6556cb850ae576ac62b5d",
-      "slug": "deepseek-v41-flash-发布552b-参数与-api-路由调整",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "DeepSeek V4.1 Flash 发布：552B 参数与 API 路由调整",
-      "score": 7,
-      "tags": [
-        "DeepSeek",
-        "large language models",
-        "model release",
-        "multimodal",
-        "API pricing"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "60e35701a1b533aca62da93e98f642e7d6a1aee7",
-      "canonicalId": "f7c60af5c70319a74e5026c0261a9312f9bd0b8d",
-      "slug": "hbm-短缺推高中国-ai-芯片价格",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "HBM 短缺推高中国 AI 芯片价格",
-      "score": 7,
-      "tags": [
-        "AI chips",
-        "HBM",
-        "semiconductor supply chain",
-        "China",
-        "export controls"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "75077bf937c4bf1725ee5b0d3bf2545c1faa7d9a",
-      "canonicalId": "d58e0f89362182c1a07ba1515528ffdf74af3599",
-      "slug": "腾讯混元发布开源音频编辑模型-auk-与-auk-flash",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "腾讯混元发布开源音频编辑模型 AuK 与 AuK-Flash",
-      "score": 7,
-      "tags": [
-        "audio editing",
-        "text-to-speech",
-        "open source",
-        "Tencent Hunyuan",
-        "speech synthesis"
-      ],
-      "originalSite": "x.com"
-    },
-    {
-      "id": "d0ee373570b24918184ed58abde4a1ef544080ba",
-      "canonicalId": "9fea26445f75de98c5feeb960a23ba9ee7de8692",
-      "slug": "bioir-高通量蛋白质结构预测教程与基准",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "BioIR 高通量蛋白质结构预测教程与基准",
-      "score": 6,
-      "tags": [
-        "BioNeMo Inference Runtime",
-        "protein structure prediction",
-        "Ray",
-        "GPU throughput",
-        "benchmarking"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "1c830a1a47a72689bf7651411fddcd788121a6a7",
-      "canonicalId": "0cead52277ad499cd99da171f0991038ec9744db",
-      "slug": "nemotron-3-ultra-nim-全栈优化的-25-倍吞吐",
-      "date": "2026-09-11",
-      "lang": "zh",
-      "title": "Nemotron 3 Ultra NIM 全栈优化的 2.5 倍吞吐",
-      "score": 4,
-      "tags": [
-        "NVIDIA NIM",
-        "LLM inference serving",
-        "benchmarking",
-        "speculative decoding",
-        "agentic AI"
-      ],
-      "originalSite": "developer.nvidia.com"
     }
   ]
 }
