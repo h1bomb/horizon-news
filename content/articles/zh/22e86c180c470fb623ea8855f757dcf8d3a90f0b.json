@@ -1,0 +1,44 @@
+{
+  "id": "22e86c180c470fb623ea8855f757dcf8d3a90f0b",
+  "canonicalId": "24714ab5db8c7ad2d8e38b7b67481a252e6d7ab7",
+  "slug": "日本宣布网络空间紧急状态逾-20-家企业遭攻击",
+  "date": "2026-10-12",
+  "publishedAt": "2026-10-11T06:32:00Z",
+  "lang": "zh",
+  "title": "日本宣布网络空间紧急状态，逾 20 家企业遭攻击",
+  "summary": "据《金融时报》报道，日本政府宣布进入“网络空间紧急状态”。近几周，超过 20 家大型企业遭攻击，涉及铁路、汽车、医院和政府设施，数千万条客户数据可能泄露；金融厅要求银行停用驾照作为新开户身份证明，改收带芯片证件。JR 东日本称订票系统可能泄露 167 万名客户邮箱，多起事件与软银旗下 IDC Frontier 的勒索软件攻击有关。专家称日本防御薄弱，AI 正降低复杂攻击门槛，但暂无证据表明最新攻击与 AI 有关。",
+  "score": 8,
+  "tags": [
+    "网络安全",
+    "日本",
+    "勒索软件",
+    "数据泄露",
+    "关键基础设施"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ft.com/content/2d4333d1-8119-44a4-a5a5-2ee9ef2544fa?syn-25a6b1a6=1",
+  "originalSite": "ft.com",
+  "context": "据外部报道，软银旗下数据中心与云服务商 IDC Frontier 于 2026 年 10 月 7 日确认遭第三方勒索软件攻击，导致 IDCF Cloud 中断，公司隔离了东日本区域 1 数据中心，约 495 家客户受影响。该攻击是日本近期针对关键基础设施和大型企业的一系列事件之一。",
+  "discussion": "对日本企业和用户而言，最直接的后果是身份验证流程的强制变更：金融厅已要求银行停止接受驾照作为新开户身份证明，改收带芯片的证件，这意味着新开户客户需改用 My Number 卡等芯片证件办理。同时，JR 东日本表示订票系统可能泄露 167 万名客户的邮箱地址，相关用户应警惕以此为基础的钓鱼邮件。",
+  "references": [
+    {
+      "title": "IDCF Cloud ransomware hits 495 Japanese clients | sakuttoAI",
+      "url": "https://sakutto.ai/en/articles/idcf-cloud-ransomware"
+    },
+    {
+      "title": "Ransomware attack disrupts Japan &#x27;s IDCF Cloud used by govt clients",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"
+    },
+    {
+      "title": "IDC Frontier Ransomware Hits IDCF Cloud, 495 Down",
+      "url": "https://shattered.io/idc-frontier-idcf-cloud-ransomware-attack-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

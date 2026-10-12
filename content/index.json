@@ -1,6 +1,40 @@
 {
   "articles": [
     {
+      "id": "fd2c6ab19c7e191a00ff152ffc0c6d4beb0be99f",
+      "canonicalId": "0d8dcb1c8fdb2f2160c8349bea3b179d21af921e",
+      "slug": "terence-taomath-20幻灯片谈-ai-与数学实践",
+      "date": "2026-10-12",
+      "lang": "zh",
+      "title": "Terence Tao《Math 2.0》幻灯片谈 AI 与数学实践",
+      "score": 8,
+      "tags": [
+        "AI for mathematics",
+        "proof assistants",
+        "machine learning",
+        "scientific epistemology",
+        "Terence Tao"
+      ],
+      "originalSite": "teorth.github.io"
+    },
+    {
+      "id": "22e86c180c470fb623ea8855f757dcf8d3a90f0b",
+      "canonicalId": "24714ab5db8c7ad2d8e38b7b67481a252e6d7ab7",
+      "slug": "日本宣布网络空间紧急状态逾-20-家企业遭攻击",
+      "date": "2026-10-12",
+      "lang": "zh",
+      "title": "日本宣布网络空间紧急状态，逾 20 家企业遭攻击",
+      "score": 8,
+      "tags": [
+        "网络安全",
+        "日本",
+        "勒索软件",
+        "数据泄露",
+        "关键基础设施"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
       "id": "e329bf789ed91f8425e11470302702571f232939",
       "canonicalId": "92fe947eb54aa9f42ab4d7ae5b8f3831e9708870",
       "slug": "rea-reverse-引发-ai-逆向工程讨论",
@@ -4784,108 +4818,6 @@
         "US economy"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "b4a4cef31660c092a8a1af3b4d0bc65193f68a8f",
-      "canonicalId": "da734e5832a6e3400487c81292935151a349866e",
-      "slug": "gitlab-紧急修复-cvss-100-未授权任意文件读取漏洞",
-      "date": "2026-09-12",
-      "lang": "zh",
-      "title": "GitLab 紧急修复 CVSS 10.0 未授权任意文件读取漏洞",
-      "score": 8,
-      "tags": [
-        "security",
-        "vulnerability",
-        "GitLab",
-        "self-hosted",
-        "patching"
-      ],
-      "originalSite": "docs.gitlab.com"
-    },
-    {
-      "id": "fbfa2db04a5539680751697ef47b115ebb475677",
-      "canonicalId": "da05411f0a2d0ba1fde21b1a11ce407642414b05",
-      "slug": "陶哲轩谈-ai-与数学界的严重错位",
-      "date": "2026-09-12",
-      "lang": "zh",
-      "title": "陶哲轩谈 AI 与数学界的严重错位",
-      "score": 7,
-      "tags": [
-        "artificial intelligence",
-        "mathematics",
-        "OpenAI",
-        "research culture",
-        "scientific credit"
-      ],
-      "originalSite": "mathandai.org"
-    },
-    {
-      "id": "793d85f25347eb82f2c9a7555c01ddbba752db12",
-      "canonicalId": "05db07f33fba6879d42b46779e65a8c3279ec56b",
-      "slug": "simon-willison-推荐-python-猴子补丁库-wrapture",
-      "date": "2026-09-12",
-      "lang": "zh",
-      "title": "Simon Willison 推荐 Python 猴子补丁库 wrapture",
-      "score": 7,
-      "tags": [
-        "Python",
-        "monkey patching",
-        "testing",
-        "observability",
-        "libraries"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "bc1925ebe7622513bc335bc6fc98a3390a35e79e",
-      "canonicalId": "2fd0114f55be45f726eceb3e10bbde3dad84f743",
-      "slug": "llm-辅助的-linux-内核构建加速补丁系列",
-      "date": "2026-09-12",
-      "lang": "zh",
-      "title": "LLM 辅助的 Linux 内核构建加速补丁系列",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "build systems",
-        "LLM-assisted development",
-        "performance optimization",
-        "patch series"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "3a496e4a6aaa274aab1c1930e5aa7070058e4370",
-      "canonicalId": "c0aa795715601731dbb8a91ef900c26417871068",
-      "slug": "openai-考虑放缓前沿-ai-开发",
-      "date": "2026-09-12",
-      "lang": "zh",
-      "title": "OpenAI 考虑放缓前沿 AI 开发",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "frontier AI",
-        "AI safety",
-        "AI industry",
-        "Sam Altman"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "62a8fe386f56ab9041d56c7d9334f8648d5f0f53",
-      "canonicalId": "4e410dad70fb92989558aa8ff122fdd9cabd1589",
-      "slug": "openai-api-上线-gpt-live-1-实时语音模型",
-      "date": "2026-09-12",
-      "lang": "zh",
-      "title": "OpenAI API 上线 GPT-Live-1 实时语音模型",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "API",
-        "real-time speech",
-        "voice agents",
-        "AI models"
-      ],
-      "originalSite": "openai.com"
     }
   ]
 }

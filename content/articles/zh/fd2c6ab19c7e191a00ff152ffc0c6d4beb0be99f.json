@@ -1,0 +1,45 @@
+{
+  "id": "fd2c6ab19c7e191a00ff152ffc0c6d4beb0be99f",
+  "canonicalId": "0d8dcb1c8fdb2f2160c8349bea3b179d21af921e",
+  "slug": "terence-taomath-20幻灯片谈-ai-与数学实践",
+  "date": "2026-10-12",
+  "publishedAt": "2026-10-11T13:16:00Z",
+  "lang": "zh",
+  "title": "Terence Tao《Math 2.0》幻灯片谈 AI 与数学实践",
+  "summary": "Terence Tao 的幻灯片《Math 2.0》在 Hacker News 上被分享，讨论 AI 正在如何改变数学实践，涉及形式化、解释以及机器生成结果的可信度。目前可得材料是幻灯片，而非论文或可复现实验；源内容未提供，因此无法核实其中具体主张、案例或技术细节。对数学研究者、证明助手开发者和关注 AI 科研应用的人来说，这是一份用于讨论研究实践变化的材料，而不是已证实的突破。",
+  "score": 8,
+  "tags": [
+    "AI for mathematics",
+    "proof assistants",
+    "machine learning",
+    "scientific epistemology",
+    "Terence Tao"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Anon84",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50043026"
+    }
+  ],
+  "originalUrl": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+  "originalSite": "teorth.github.io",
+  "context": "这份 Caltech 2026 讲稿延续了陶哲轩近几个月围绕 AI 与数学的公开论述：Horizon 8 月 21 日的日报曾报道，他为 2026 年国际数学家大会撰文警告 AI 可能让数学从「证明稀缺」转向「证明过剩」，并称即便通过形式验证、无人能清晰讲解的证明也应视为不完整；Horizon 9 月 20 日的日报又报道，他主张数学界应更充分地认可证明之外的贡献。同一主题的 ICM 2026 公开演讲幻灯片《Mathematics in the Age of AI》也发布在同一站点（teorth.github.io/tao-web/slides/）上，与本次的《Math 2.0》讲稿同属一个系列的公开材料。",
+  "discussion": "对使用证明助手或评估 AI 数学结果的研究者而言，直接后果是验证与整合成本可能上升：正确但难以解释的机器生成证明仍需人类理解并纳入现有理论体系。\n\n评论者 dekhn 和 squidmaster 质疑 Tao 关于癌症药物的类比，认为许多药物机制本就未被完全理解，医生未必会因机制不明而拒绝有效疗法；thomasahle 则用软件代码库类比解释 Tao 的观点，称当前数学 AI 不善于以优雅方式扩展现有理论。samuelknight 还提到 10 月 8 日一场有 100 多个反应和 100 多个解答的活动，并转述一些研究者称长期问题被 AI 解答后需要重写资助申请或感到研究方向受冲击。",
+  "references": [
+    {
+      "title": "2026-08-21 — 陶哲轩：AI 或致数学证明过剩与基础危机",
+      "url": "https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/"
+    },
+    {
+      "title": "2026-09-20 — 陶哲轩发文呼吁数学界重视证明之外贡献",
+      "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/"
+    },
+    {
+      "title": "Mathematics in the age of AI - Public lecture, International ...",
+      "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
