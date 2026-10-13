@@ -1,0 +1,57 @@
+{
+  "id": "6d5a16d2d9809ac86f61bf94debc5c28db9cc158",
+  "canonicalId": "048fcb30e5f3e85ffa9aeefd797ee783872f956a",
+  "slug": "ai-编码代理产出更多代码却未带来更多软件",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T17:14:00Z",
+  "lang": "zh",
+  "title": "AI 编码代理产出更多代码，却未带来更多软件",
+  "summary": "Ars Technica 的一篇文章及 Hacker News 上的讨论指出，AI 编码代理虽然让代码产出量上升，却没有带来等比例的软件交付成果，瓶颈转移到代码审查与代码质量上。讨论中的从业者表示，代码审查原本就是显著瓶颈，在代理式编码下更加突出；尝试更多依赖自动化审查迄今没有转化为实际改善。有评论提醒，相关研究描述的是研究进行时的状况，主要涉及 Claude 3.5 至 Sonnet 4.5、GPT-4.1 至 GPT-5、Gemini 2.5 等模型，论文写作与发表存在滞后，因此反映的是 2025 年前后的图景，未必代表当前模型能力。需要说明的是，所依据的材料为分析摘要与社区讨论，未包含原文全文。",
+  "score": 7,
+  "tags": [
+    "AI coding agents",
+    "developer productivity",
+    "code review",
+    "software engineering",
+    "LLM limitations"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gumby",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50059523"
+    }
+  ],
+  "originalUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "originalSite": "arstechnica.com",
+  "context": "围绕 AI 编程代理究竟是否提升交付效率的争论早于这项研究。Horizon 2026 年 3 月 26 日的日报曾报道，代理框架 Pi 的作者 Mario Zechner 批评当时的代理化工程趋势把最大化代码产出置于软件工程纪律之上，并警告缺少人工监督会让错误与复杂度迅速累积（tool-1-2）。据二手报道，这项研究由哈佛研究者 Fiona Chen 与 James Stratton 完成，基于 700 多家软件公司的约 3 亿条工程活动记录，数据截止于 2026 年 3 月，其涉及的主导模型大致为 Claude 3.5 至 Sonnet 4.5、GPT-4.1 至 GPT-5 和 Gemini 2.5（tool-2-1、tool-2-2）。",
+  "discussion": "评论者 staminade 称其职业经历与文章相符：代码审查一直是并愈发成为代理式编码的瓶颈，团队讨论过更多依赖自动审查，但未取得实际改善，资深工程师仍难以放弃逐行审查；jacquesm 补充说，代理生成的代码往往重复、缺少抽取与重构、冗长难读，还会在不必要处过度注释、在必要处缺少文档。jefftk 提醒这是学术论文，反映的其实是 2025 年（主要涉及 Claude 3.5 至 Sonnet 4.5、GPT-4.1 至 GPT-5、Gemini 2.5）的模型状态，而 blauditore 以赛车引擎与轮胎作比，认为编码只占整体工作的一小部分，引擎变强后瓶颈会转移到其他环节。",
+  "references": [
+    {
+      "title": "2026-03-26 — Critique of AI Agent Speed: Advocating for Discipline Over Code Output",
+      "url": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything"
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    },
+    {
+      "title": "AI Coding Agents Write More Code, But Ship No More Software",
+      "url": "https://lumienai.com/news/ai-coding-agents-more-code-not-more-software-output"
+    },
+    {
+      "title": "The AI Code Review Bottleneck, By the 2026 Numbers | FlowVerify",
+      "url": "https://www.flowverify.co/blog/ai-code-review-bottleneck-2026-data"
+    },
+    {
+      "title": "AI Code Review Bottleneck 2026: PR Crisis | Alex Cloudstar",
+      "url": "https://alexcloudstar.com/blog/ai-code-review-bottleneck-2026/"
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "53bd87244ec1bce3cce843fae133b2a8fed3baf2",
+  "canonicalId": "a31dac6d0b53e097a95e96d4e556c2c7237540fb",
+  "slug": "python-315-发布pep-810-惰性导入与-310-支持终止",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T18:15:00Z",
+  "lang": "zh",
+  "title": "Python 3.15 发布：PEP 810 惰性导入与 3.10 支持终止",
+  "summary": "Python 3.15 已正式发布（python.org 提供下载），其 What&\\#x27;s new 指南由 3.14 和 3.15 发布经理 Hugo van Kemenade 整理。最受关注的新特性是 PEP 810 显式惰性导入，允许用 \\`lazy import json\\` 或 \\`lazy from pathlib import Path\\` 将实际导入推迟到首次使用，Simon Willison 称这直接解决了 LLM CLI 插件因加载 \\`sentence\\_transformers\\` 等重依赖而给每次 \\`llm\\` 命令增加数秒启动开销的问题。此外，PEP 798 为列表、集合和字典推导式加入 \\`\\[\\*L for L in lists\\]\\` 等解包语法，标准库新增采样分析器 \\`profiling.sampling\\`（代号 Tachyon），原有的 \\`cProfile\\` 追踪分析器更名为 \\`profiling.tracing\\`。随着 Python 3.10 结束支持，Simon 表示他将不再兼容 3.10，转而采用 3.11 的特性；Miguel Grinberg 对 3.15.0rc3 的独立测试显示，3.15 整体性能与 3.14 大致相同，但实验性 JIT 在斐波那契测试中带来 1.2 倍加速，这是他首次观察到 JIT 的显著提升。",
+  "score": 9,
+  "tags": [
+    "Python 3.15",
+    "PEP 810",
+    "lazy imports",
+    "programming languages",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+  "originalSite": "simonwillison.net",
+  "context": "Horizon 9 月 2 日的日报曾报道，Python 3.15.0 RC2 是 3.15 的最后一个候选版，正式版计划于 10 月发布；进入 RC 阶段后仅允许合入经评审的明确缺陷修复，当时还建议第三方项目维护者提前针对 3.15 测试并发布 PyPI wheel，并说明基于候选版构建的二进制 wheel 与后续 3.15 版本兼容。如今正式版按该计划落地，同时 Python 3.10 已不再处于受支持版本之列：对需要覆盖所有受支持版本的维护者而言，支持矩阵的下限由此从 3.10 上移到 3.11。",
+  "discussion": "对于 LLM CLI 插件开发者，PEP 810 的 \\`lazy import\\` 可取代此前文档中建议的手动惰性导入，避免安装 \\`sentence\\_transformers\\` 等重依赖的插件拖慢每次 \\`llm\\` 命令的启动。对于库维护者，Python 3.10 结束支持意味着可将最低支持版本提升到 3.11，而直接引用旧 \\`cProfile\\` 名称的代码需要迁移到 \\`profiling.tracing\\`。",
+  "references": [
+    {
+      "title": "2026-09-02 — Python 3.15.0 RC2 发布：生态需准备 10 月正式版",
+      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

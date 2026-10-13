@@ -1,0 +1,31 @@
+{
+  "id": "b5f539ee4d1f04ac0ffdc4140eca1a61ae6bae22",
+  "canonicalId": "bc7f5e9ec54d2f951eb3f41c462fe7a01cf8d64b",
+  "slug": "下一概念建模快速并行的由粗到细文本生成",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T07:00:00Z",
+  "lang": "zh",
+  "title": "下一概念建模：快速并行的由粗到细文本生成",
+  "summary": "rss · Stanford Hazy Research Blog · 10月12日 07:00\n\n**「背景」** 自回归模型逐词生成，输出变长后推理成本高，扩散语言模型（DLM）虽并行细化多个 token，却仍需较多采样步、每步处理整条序列，并多次遍历训练数据。作者由此提出一种介于两者之间的非自回归路线。\n\n**「方案」** Next-Concept Modeling（NCM）把文本表示为由短到长的离散码层级：高层级只含少量码、捕捉整体结构，低层级逐步补足细节。第一阶段训练多尺度 tokenizer，借鉴 VAR 的图像做法并为文本改动：每层独立码本、用嵌套 dropout 迫使浅层不依赖深层也能承载有效信息、以 token 级重建目标保证还原准确。第二阶段冻结 tokenizer，训练 transformer 依据前面各层的累积重建预测下一层，一次前向传播覆盖所有层，并损坏一部分条件码以增强对生成错误的鲁棒性；推理时逐层生成、层内所有码并行预测，最后由解码器还原文本。作者报告在 TinyStories、LM1B、OpenWebText 上生成困惑度不劣于或优于最强扩散基线，且函数评估次数（NFE）更少；在单张 H100 SXM 80GB 上，LM1B 无条件生成快 21 倍、OpenWebText 快 10 倍，XSum 上 ROUGE-L 持平同时快 31 倍，WMT14 De-En 与 Sudoku 推理同样不劣于甚至更好，作者认为先定结构的粗到细生成有助于全局规划。训练方面，计入 tokenizer 与生成器后，LM1B 与 OpenWebText 分别少用约 4.9 倍与 4 倍 token；初步规模实验显示参数增加持续改善困惑度，而快速采样使 MBR 测试时扩展能在相同时限内生成更多候选，从而超过扩散基线。\n\n**「启示」** 作者认为 NCM 说明“由粗到细、层内并行”是一条可行的第三条语言建模路线，并已给出有竞争力的早期结果；但它随参数、FLOPs 与数据规模的进一步扩展、表示与生成联合训练，以及按样本难度自适应分配计算，仍是尚未解答的问题。\n\n**标签**: `#non-autoregressive language models`, `#coarse-to-fine generation`, `#diffusion language models`, `#multiscale tokenization`, `#text generation`",
+  "score": 6,
+  "tags": [
+    "non-autoregressive language models",
+    "coarse-to-fine generation",
+    "diffusion language models",
+    "multiscale tokenization",
+    "text generation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Stanford Hazy Research Blog"
+    }
+  ],
+  "originalUrl": "https://hazyresearch.stanford.edu/blog/2026-10-12-ncm",
+  "originalSite": "hazyresearch.stanford.edu",
+  "context": "自回归模型逐词生成，输出变长后推理成本高，扩散语言模型（DLM）虽并行细化多个 token，却仍需较多采样步、每步处理整条序列，并多次遍历训练数据。作者由此提出一种介于两者之间的非自回归路线。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

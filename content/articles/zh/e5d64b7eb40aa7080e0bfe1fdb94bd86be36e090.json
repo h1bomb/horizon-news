@@ -1,0 +1,36 @@
+{
+  "id": "e5d64b7eb40aa7080e0bfe1fdb94bd86be36e090",
+  "canonicalId": "6a89024d2a7542cbf326dc43ffe67fe8d74a9bae",
+  "slug": "lineageos-240-发布重新基于-android-17",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T13:13:00Z",
+  "lang": "zh",
+  "title": "LineageOS 24.0 发布，重新基于 Android 17",
+  "summary": "LineageOS 项目宣布发布 LineageOS 24.0，将这个社区 Android 发行版重新基于 Android 17——项目称 Android 17 的首个版本于今年 6 月发布。LineageOS 表示，由于此前几代已经适应了 Google 的大幅代码重构，这次迁移到 Android 17 代码库比预期更快，因此发布时间早于往年。公告称 Android 17 的首个版本主要包含迭代改进和部分 UI/UX 调整，但公告本身未列出受支持机型或新增功能清单。项目还提到，LineageOS 将于 2026 年 12 月 24 日迎来成立十周年。",
+  "score": 7,
+  "tags": [
+    "LineageOS",
+    "Android",
+    "open source",
+    "mobile OS",
+    "custom ROM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099950/",
+  "originalSite": "lwn.net",
+  "context": "LineageOS 的这次重基依赖上游 Android 代码库的开放。Horizon 6 月 18 日的日报曾报道，Android 17 已面向 Pixel 设备发布并开放源代码，当时的主要变化包括强制大屏支持、通过 AppFunctions 接入 Gemini 的 AI 集成，以及全面转向 Jetpack Compose（该条目的日期为日报日期，并非已验证的事件日期）。LineageOS 此次正是在 Android 17 发布后重基其改动与功能，并称因前几个版本已适应 Google 的重构，此次进度快于预期。",
+  "discussion": "对用户而言，LineageOS 24.0 提供了较新的 Android 17 基线，但升到新基线需要各机型维护者跟进适配，因此某一具体设备能否获得 24.0 取决于它是否仍有活跃维护者——公告也把“让众多设备延续生命”归功于维护者群体。由于公告未给出受支持设备列表，用户应以各机型的构建状态为准。",
+  "references": [
+    {
+      "title": "2026-06-18 — Android 17 Released: Mandatory Large-Screen Support, AI Integration",
+      "url": "https://android-developers.googleblog.com/2026/06/Android-17.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

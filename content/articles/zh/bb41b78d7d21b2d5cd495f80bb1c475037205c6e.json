@@ -1,0 +1,31 @@
+{
+  "id": "bb41b78d7d21b2d5cd495f80bb1c475037205c6e",
+  "canonicalId": "55338a2f5e2cb58f883e9a95f661f85dba4ed5b6",
+  "slug": "replayssm缓存-ssm-输入而非状态",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T16:00:00Z",
+  "lang": "zh",
+  "title": "ReplaySSM：缓存 SSM 输入而非状态",
+  "summary": "rss · NVIDIA Inference Performance Blog · 10月12日 16:00\n\n**「背景」** 混合模型把 SSM 层与少量注意力层交错，SSM 用固定状态代替随上下文增长的 KV 缓存；但作者指出，在服务批量下，SSM 层可在最长约 100K token 的上下文中成为解码瓶颈，并使投机解码和量化更复杂。\n\n**「方案」** ReplaySSM 的核心是缓存最近的 SSM 输入而非完整状态，把状态表示成“检查点 + 输入缓冲区”。非 flush 步只追加当前输入，并用检查点和缓冲区计算输出，不写状态；缓冲区（最优窗口 L=16）填满后，flush 步把缓冲输入折叠进检查点并写一次 HBM，从而把输出计算与状态更新解耦。作者在 Nemotron 3（Mamba-2）和 Qwen3.5（GDN）的四个模型、H100 与 B300 上评估，batch 256 下内核提速 1.46–1.80×、解码步提速 1.20–1.47×，但 batch 1 无收益。投机解码只需追加草稿输入并按接受前缀推进缓冲区指针，不保存状态快照；配合 output-only 计算，GSM8K、T=4、batch 512 下吞吐达 vLLM 投机解码的 1.85–2.10×（接受长度匹配）。量化也被拆分：高精度检查点用于循环更新，低精度副本只用于非 flush 读，舍入误差不再回灌；Qwen3.5-4B 上 NVFP4 读加 FP32 循环把 128K token 的 KL 从 0.136 降到 0.0038，GPQA-Diamond 上共享 NVFP4 检查点损失 3–31 个百分点，分离精度则恢复到多数模型约 2 个百分点内。\n\n**「启示」** 作者的核心结论是：把 SSM 状态从每步读写的矩阵改为检查点加近期输入缓冲，能让 SSM 层重新变快，并把投机回滚与读写精度解耦；这一表示层改动已进入 TensorRT-LLM、vLLM、SGLang、FlashInfer 以及 GLM-5.3-Flash、Kimi-K3 的生产服务。\n\n**标签**: `#SSM`, `#speculative decoding`, `#quantization`, `#inference optimization`, `#hybrid models`",
+  "score": 9,
+  "tags": [
+    "SSM",
+    "speculative decoding",
+    "quantization",
+    "inference optimization",
+    "hybrid models"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+  "originalSite": "developer.nvidia.com",
+  "context": "混合模型把 SSM 层与少量注意力层交错，SSM 用固定状态代替随上下文增长的 KV 缓存；但作者指出，在服务批量下，SSM 层可在最长约 100K token 的上下文中成为解码瓶颈，并使投机解码和量化更复杂。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

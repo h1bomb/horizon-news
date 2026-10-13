@@ -1,0 +1,32 @@
+{
+  "id": "73c5963ab85881d17718a98c89a3421f786c6f68",
+  "canonicalId": "6001ee7ed96b9e1ada0c53cbd087627698197eed",
+  "slug": "codex-cli-默认装入自更新后台守护进程",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T18:29:00Z",
+  "lang": "zh",
+  "title": "Codex CLI 默认装入自更新后台守护进程",
+  "summary": "据 GitHub issue 及 Hacker News 讨论，OpenAI 的 Codex CLI 默认会安装一个常驻的自更新后台守护进程（daemon），用户称没有官方文档化的关闭选项，只能通过 ~/.codex/config.toml 中的特性开关 \\[features\\] daemon\\_auto\\_start = false 停用。有用户报告该守护进程在自动更新时会破坏文件权限、导致 .git 变为只读，并因保留旧版本占用约 12 GB 磁盘空间；这些均属用户报告，现有材料中没有 OpenAI 的回应或确认。",
+  "score": 7,
+  "tags": [
+    "Codex CLI",
+    "background daemon",
+    "OpenAI",
+    "developer tooling",
+    "software bugs"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "whimblepop",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50060694"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/codex/issues/48195",
+  "originalSite": "github.com",
+  "context": "Codex CLI 的守护进程自动启动并非一直默认开启：检索结果显示，Codex 0.157 将 \\`features.daemon\\_auto\\_start\\` 默认打开，使交互式会话运行在一个共享后台服务器中（tool-2-2）。在同一 0.157.0 版本上，若要在没有后台服务器的情况下运行，需要加上 \\`--no-daemon\\`（tool-2-3）。相关问题报告要求把该标志改回按需启用（opt-in），并指出守护进程通过 \\`codex app-server --managed-daemon\\` 启动，在无 TTY 的独立会话中持续运行（tool-2-1）。",
+  "discussion": "有用户称该守护进程自动更新时会随机弄坏权限、使 .git 变为只读，因此不敢再依赖它执行任务；另有人表示已改用只提供极少工具、主要靠 bash 的简易 harness（hax），认为比这类“过度工程化”的工具更省心。也有评论质疑 ChatGPT/Codex 桌面端与 Android 应用的前端质量，这属于个人意见而非常规事实。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

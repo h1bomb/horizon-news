@@ -1,6 +1,244 @@
 {
   "articles": [
     {
+      "id": "53bd87244ec1bce3cce843fae133b2a8fed3baf2",
+      "canonicalId": "a31dac6d0b53e097a95e96d4e556c2c7237540fb",
+      "slug": "python-315-发布pep-810-惰性导入与-310-支持终止",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "Python 3.15 发布：PEP 810 惰性导入与 3.10 支持终止",
+      "score": 9,
+      "tags": [
+        "Python 3.15",
+        "PEP 810",
+        "lazy imports",
+        "programming languages",
+        "open source"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "16f268b51a4842a0867a2af164e377bf6d055038",
+      "canonicalId": "ca43aef1e63668cb484179a721ddffbe2ecc8381",
+      "slug": "黑客触发欧洲超市冷柜自动化霜",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "黑客触发欧洲超市冷柜自动化霜",
+      "score": 8,
+      "tags": [
+        "cybersecurity",
+        "IoT security",
+        "operational technology",
+        "embedded systems",
+        "refrigeration controllers"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "ceb2c150ac42e4c7fecb08f4cd63a572ad9d0e5f",
+      "canonicalId": "d268e81a3a1d6e96ee014784913426ce2ff9947b",
+      "slug": "github-项目把-wifi-7-路由器变成-320-msps-sdr-接收机",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "GitHub 项目把 WiFi 7 路由器变成 320 Msps SDR 接收机",
+      "score": 8,
+      "tags": [
+        "software-defined-radio",
+        "wifi-7",
+        "hardware-hacking",
+        "embedded-systems",
+        "wireless-communication"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "19802cdc5d720a922af3ba23bdf9c06408bc6953",
+      "canonicalId": "4aaf92f254c0ade1ac1fc34b38f7de96a9318a4e",
+      "slug": "用-c-构建并部署现代-web-应用",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "用 C 构建并部署现代 Web 应用",
+      "score": 7,
+      "tags": [
+        "C",
+        "web development",
+        "CGI/FastCGI",
+        "systems programming",
+        "privilege separation"
+      ],
+      "originalSite": "prophitt.me"
+    },
+    {
+      "id": "73c5963ab85881d17718a98c89a3421f786c6f68",
+      "canonicalId": "6001ee7ed96b9e1ada0c53cbd087627698197eed",
+      "slug": "codex-cli-默认装入自更新后台守护进程",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "Codex CLI 默认装入自更新后台守护进程",
+      "score": 7,
+      "tags": [
+        "Codex CLI",
+        "background daemon",
+        "OpenAI",
+        "developer tooling",
+        "software bugs"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "6598dd7859ccee3f87e87f72074b965c9411a1a8",
+      "canonicalId": "6672e99a5764e399a118d8705e1c4b5f6a75463b",
+      "slug": "show-hnps2-游戏静态重编译为-webassembly",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "Show HN：PS2 游戏静态重编译为 WebAssembly",
+      "score": 7,
+      "tags": [
+        "WebAssembly",
+        "static recompilation",
+        "PS2 emulation",
+        "reverse engineering",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "3aefa851ab4385abb93a83079a3dc0f79e69ca08",
+      "canonicalId": "5a6b7e23ee06a3b96d38399c6635fb893f0d0037",
+      "slug": "rich-hickey-撰文称-ai-不是工具引发-hn-讨论",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "Rich Hickey 撰文称 AI 不是工具，引发 HN 讨论",
+      "score": 7,
+      "tags": [
+        "AI",
+        "LLM",
+        "software engineering",
+        "AI criticism",
+        "Hacker News discussion"
+      ],
+      "originalSite": "linkedin.com"
+    },
+    {
+      "id": "6d5a16d2d9809ac86f61bf94debc5c28db9cc158",
+      "canonicalId": "048fcb30e5f3e85ffa9aeefd797ee783872f956a",
+      "slug": "ai-编码代理产出更多代码却未带来更多软件",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "AI 编码代理产出更多代码，却未带来更多软件",
+      "score": 7,
+      "tags": [
+        "AI coding agents",
+        "developer productivity",
+        "code review",
+        "software engineering",
+        "LLM limitations"
+      ],
+      "originalSite": "arstechnica.com"
+    },
+    {
+      "id": "8e2571d945e9b123e1546ca038923eb405bc8fa9",
+      "canonicalId": "71efce2f5c7655f9273de1ecc2a3585e11c75382",
+      "slug": "linux-内核维护者峰会sashiko-调整与-assisted-by-标签取消",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "Linux 内核维护者峰会：Sashiko 调整与 Assisted-by 标签取消",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "open source",
+        "LLM",
+        "maintainership",
+        "security"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "e5d64b7eb40aa7080e0bfe1fdb94bd86be36e090",
+      "canonicalId": "6a89024d2a7542cbf326dc43ffe67fe8d74a9bae",
+      "slug": "lineageos-240-发布重新基于-android-17",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "LineageOS 24.0 发布，重新基于 Android 17",
+      "score": 7,
+      "tags": [
+        "LineageOS",
+        "Android",
+        "open source",
+        "mobile OS",
+        "custom ROM"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "bb41b78d7d21b2d5cd495f80bb1c475037205c6e",
+      "canonicalId": "55338a2f5e2cb58f883e9a95f661f85dba4ed5b6",
+      "slug": "replayssm缓存-ssm-输入而非状态",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "ReplaySSM：缓存 SSM 输入而非状态",
+      "score": 9,
+      "tags": [
+        "SSM",
+        "speculative decoding",
+        "quantization",
+        "inference optimization",
+        "hybrid models"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "0ea46f6aa8035158d09326926243dcba76b0bae0",
+      "canonicalId": "8894d3c13f2e1cc70175cf6fd089c7f69e4aa068",
+      "slug": "不用语言的模型能量基推理如何解约束问题",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "不用语言的模型：能量基推理如何解约束问题",
+      "score": 7,
+      "tags": [
+        "energy-based models",
+        "latent reasoning",
+        "constraint satisfaction",
+        "LLM limitations",
+        "AI verification"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "b5f539ee4d1f04ac0ffdc4140eca1a61ae6bae22",
+      "canonicalId": "bc7f5e9ec54d2f951eb3f41c462fe7a01cf8d64b",
+      "slug": "下一概念建模快速并行的由粗到细文本生成",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "下一概念建模：快速并行的由粗到细文本生成",
+      "score": 6,
+      "tags": [
+        "non-autoregressive language models",
+        "coarse-to-fine generation",
+        "diffusion language models",
+        "multiscale tokenization",
+        "text generation"
+      ],
+      "originalSite": "hazyresearch.stanford.edu"
+    },
+    {
+      "id": "2697d9e861d6c6c446921d4ab6b3768415f44513",
+      "canonicalId": "637cbca668131b4674007aef636df9a078d0e344",
+      "slug": "中国下调新能源汽车出口退税率-13降至-9",
+      "date": "2026-10-13",
+      "lang": "zh",
+      "title": "中国下调新能源汽车出口退税率 13%降至 9%",
+      "score": 8,
+      "tags": [
+        "中国",
+        "新能源汽车",
+        "出口退税",
+        "税收政策",
+        "电子烟"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
       "id": "fd2c6ab19c7e191a00ff152ffc0c6d4beb0be99f",
       "canonicalId": "0d8dcb1c8fdb2f2160c8349bea3b179d21af921e",
       "slug": "terence-taomath-20幻灯片谈-ai-与数学实践",
@@ -4699,125 +4937,6 @@
         "tool calls"
       ],
       "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "e5b9d23712b5ea8b94d778f594af6ebf3bca64aa",
-      "canonicalId": "b2e24dfd6d9603cf2febd1dac8267df8f87db25a",
-      "slug": "回顾性逆向工程分析-apple-神经引擎",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "回顾性逆向工程分析 Apple 神经引擎",
-      "score": 8,
-      "tags": [
-        "Apple Neural Engine",
-        "reverse engineering",
-        "hardware acceleration",
-        "Apple silicon",
-        "machine learning systems"
-      ],
-      "originalSite": "eiln.github.io"
-    },
-    {
-      "id": "7e302e937ebe8fc33f301f01130a9f9154c9beec",
-      "canonicalId": "fd2d42c80a8380479c53fe7fa829fcfca390fcc8",
-      "slug": "clay-研究所就-navier-stokes-问题发布公告",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "Clay 研究所就 Navier-Stokes 问题发布公告",
-      "score": 8,
-      "tags": [
-        "Navier-Stokes",
-        "Millennium Prize",
-        "AI research",
-        "OpenAI",
-        "research verification"
-      ],
-      "originalSite": "claymath.org"
-    },
-    {
-      "id": "1dfcc23e692f6c11f520bf8e4e17a7523ce83333",
-      "canonicalId": "6481e999f333c4a3d45d96068c98d12d9846968e",
-      "slug": "报告称-openai-智能体或于-5-月攻击-rubygems",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "报告称 OpenAI 智能体或于 5 月攻击 RubyGems",
-      "score": 8,
-      "tags": [
-        "AI agents",
-        "software supply chain security",
-        "RubyGems",
-        "OpenAI",
-        "security incident"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "f3c9e2a0e292ad5cdb0dfbffd7180a370219533e",
-      "canonicalId": "c63b548b05372ee57e40d76f2516b313002d2018",
-      "slug": "经济学人将英伟达比作ai-经济的央行",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "《经济学人》将英伟达比作“AI 经济的央行”",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "AI industry economics",
-        "semiconductors",
-        "corporate governance",
-        "Hacker News discussion"
-      ],
-      "originalSite": "economist.com"
-    },
-    {
-      "id": "30f8864ca973a131ffc73f664f906883e25c5da2",
-      "canonicalId": "98264c64ca8186ab1294412110abc057527891ca",
-      "slug": "dario-amodei-主张控制前沿-ai-发展节奏",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "Dario Amodei 主张控制前沿 AI 发展节奏",
-      "score": 7,
-      "tags": [
-        "AI policy",
-        "AI safety",
-        "frontier AI",
-        "AI regulation",
-        "Hacker News discussion"
-      ],
-      "originalSite": "darioamodei.com"
-    },
-    {
-      "id": "0de1f7e6dfe876b612c49605df816c0446230d51",
-      "canonicalId": "da05411f0a2d0ba1fde21b1a11ce407642414b05",
-      "slug": "25-位菲尔兹奖得主警告-ai-或与数学研究目标错位",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "25 位菲尔兹奖得主警告 AI 或与数学研究目标错位",
-      "score": 7,
-      "tags": [
-        "AI and mathematics",
-        "research integrity",
-        "LLM benchmarks",
-        "academic publishing",
-        "AI ethics"
-      ],
-      "originalSite": "mathandai.org"
-    },
-    {
-      "id": "c6f4162b017ecbb179c78ec5d3cc22f4c65b6507",
-      "canonicalId": "72d094022dd923ae0178d3f74df3ba06dcb9e7ea",
-      "slug": "美国-8-月通胀-34再超工资增速实际时薪同比下降-03",
-      "date": "2026-09-13",
-      "lang": "zh",
-      "title": "美国 8 月通胀 3.4%再超工资增速，实际时薪同比下降 0.3%",
-      "score": 8,
-      "tags": [
-        "inflation",
-        "wage growth",
-        "consumer spending",
-        "energy prices",
-        "US economy"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }

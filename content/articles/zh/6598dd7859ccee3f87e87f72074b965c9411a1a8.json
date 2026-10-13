@@ -1,0 +1,49 @@
+{
+  "id": "6598dd7859ccee3f87e87f72074b965c9411a1a8",
+  "canonicalId": "6672e99a5764e399a118d8705e1c4b5f6a75463b",
+  "slug": "show-hnps2-游戏静态重编译为-webassembly",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T06:46:00Z",
+  "lang": "zh",
+  "title": "Show HN：PS2 游戏静态重编译为 WebAssembly",
+  "summary": "Hacker News 的 Show HN 栏目出现了 deadxwarrior 提交的 ps2-web-recomp 项目，它把 PS2 游戏静态重编译为 WebAssembly。该仓库的目标是让这类游戏能在 WebAssembly 环境（包括浏览器）中运行。提供材料没有给出已支持游戏列表、兼容性范围、性能数据或发行版本，因此这目前更像是一个技术演示或开源方向，而非已经验证可广泛使用的方案。",
+  "score": 7,
+  "tags": [
+    "WebAssembly",
+    "static recompilation",
+    "PS2 emulation",
+    "reverse engineering",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "deadxwarrior",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50052251"
+    }
+  ],
+  "originalUrl": "https://github.com/snuri00/ps2-web-recomp",
+  "originalSite": "github.com",
+  "context": "这类项目走的是静态重编译（AOT）路线：与在运行时解释指令并模拟硬件的传统模拟器不同，它先把游戏的 Emotion Engine 机器码整体翻译成 C++，再编译为 WebAssembly，并链接到对该主机操作系统与硬件的重实现，由 WebGPU 负责绘制（tool-2-1、tool-2-3）。同一作者此前已把相同方法用于掌机：Horizon 10 月 8 日的日报曾报道 snuri00 的 psp-web-recomp，该项目把 PSP《战神》的 MIPS 机器码提前翻译为 C++ 再编译成 WebAssembly，链接到一个小型重实现的 PSP 操作系统和图形层，用 WebGL2 绘制，并且没有提供兼容性清单或性能保证（tool-1-1、tool-2-2）。本次可视为这条路线从 PSP 扩展到 PS2，渲染后端由 WebGL2 换成了 WebGPU。",
+  "discussion": "对想尝试的玩家和开发者来说，最直接的行动影响是信任与审查：静态重编译产物不像成熟模拟器那样已有社区审查记录，评论者明确担心其中可能隐藏恶意软件，因此在运行或分发前应检查源码与构建来源。\n\n评论者 aceazzameen 担心，越来越多的静态重编译项目以原生方式运行，但其信任与审查水平还不及模拟器社区，可能带来隐藏恶意软件风险。开发者 kodablah 则报告自己用类似思路为 PS Vita 做了 ARM-to-WASM 转译器，目前只测试了少量游戏，仍处早期，但在旗舰 Android 手机的 Chrome 上运行得相当好。",
+  "references": [
+    {
+      "title": "2026-10-08 — psp-web-recomp：PSP《战神》重编译为 WebAssembly 在浏览器运行",
+      "url": "https://github.com/snuri00/psp-web-recomp"
+    },
+    {
+      "title": "GitHub - snuri00/ps2-web-recomp: PS2 games in the browser ...",
+      "url": "https://github.com/snuri00/ps2-web-recomp"
+    },
+    {
+      "title": "GitHub - snuri00/psp-web-recomp: PSP games in the browser ...",
+      "url": "https://github.com/snuri00/psp-web-recomp"
+    },
+    {
+      "title": "PS2 games in browser: static recompilation to WebAssembly ...",
+      "url": "https://blog.adafruit.com/2026/10/12/ps2-games-in-browser-static-recompilation-to-webassembly-with-a-native-runtime/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

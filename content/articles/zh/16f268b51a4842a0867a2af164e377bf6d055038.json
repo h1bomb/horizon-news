@@ -1,0 +1,41 @@
+{
+  "id": "16f268b51a4842a0867a2af164e377bf6d055038",
+  "canonicalId": "ca43aef1e63668cb484179a721ddffbe2ecc8381",
+  "slug": "黑客触发欧洲超市冷柜自动化霜",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T12:16:00Z",
+  "lang": "zh",
+  "title": "黑客触发欧洲超市冷柜自动化霜",
+  "summary": "媒体报道称，法国多家超市连锁遭遇一起针对联网制冷控制器的网络攻击，攻击者远程触发自动化霜，导致冷柜停机并影响门店运营。路透相关报道点名 Intermarché，称有 150 家门店被针对；《世界报》则报道法国超市连锁表示网络攻击迫使冷柜关机，事件波及欧洲多国的超市冷链。安全公司 Claroty 的 Team82 研究曾披露 Danfoss 制冷控制器漏洞，但目前报道未确认本次攻击利用的具体 CVE、攻击者身份或确切损失。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "IoT security",
+    "operational technology",
+    "embedded systems",
+    "refrigeration controllers"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Zeekaas",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50055304"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+  "originalSite": "tomshardware.com",
+  "context": "本条报道所附的相关资料中，包含 Claroty 的 Team82 对 Danfoss 制冷控制器漏洞的分析（题为《Freeze the controller, defrost the food》），但检索结果指出，目前没有已读到的来源把这次事件直接归因于 Claroty 披露的漏洞。同一检索结果称，法新社在报道中点名了 AK-SM800、AK-SC355 等早已停产的旧型号，Danfoss 也提到相关设备固件陈旧（tool-2-3）；Danfoss 表示受影响的多数设备已处于生命周期终点（tool-2-1）。报道附带的相关链接还指向 2026 年 8 月 Hacker News 上关于美军基地冷柜疑似遭入侵的讨论帖。",
+  "discussion": "对 Intermarché 等受影响超市而言，除制冷控制被干扰外，tool-3-1 报道该攻击还导致近 30 万名客户个人数据被窃，受影响客户需按通知防范钓鱼和身份盗用。对仍运行联网旧款制冷控制器的零售商，tool-3-2 指出这类事件暴露的过时软件、弱访问控制和第三方风险意味着应优先盘点并限制控制器的互联网暴露面。\n\n评论者争论冷柜为何要联网：有人引用 Danfoss 的宣传称远程诊断和启动化霜可减少上门服务并提升能效，也有人指出嫌疑设备包括已停止支持的旧控制器（如 2021 年 EOS 的 SM800、2016 年 EOS 的 SC355），并称一线轮班运维缺乏安全审查和更换预算。另有评论提到医院实验室设备因订阅制也必须联网，并猜测本次事件可能与 2026 年 8 月底美国军事基地冷柜遭入侵有关，但这些关联尚未得到证实。",
+  "references": [
+    {
+      "title": "Intermarché cyberattack 2026 : Nearly 300,000 customers&#x27; data stolen...",
+      "url": "https://www.connexionfrance.com/news/intermarche-cyberattack-affects-nearly-300000-customers/806317"
+    },
+    {
+      "title": "How the Intermarché Cyberattack Exposed Critical Flaws in...",
+      "url": "https://insights.made-in-china.com/How-the-Intermarch-Cyberattack-Exposed-Critical-Flaws-in-U-S-Retail-Cybersecurity_STXAwugOfxIF.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

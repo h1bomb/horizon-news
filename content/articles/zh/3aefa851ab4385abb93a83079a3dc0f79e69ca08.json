@@ -1,0 +1,49 @@
+{
+  "id": "3aefa851ab4385abb93a83079a3dc0f79e69ca08",
+  "canonicalId": "5a6b7e23ee06a3b96d38399c6635fb893f0d0037",
+  "slug": "rich-hickey-撰文称-ai-不是工具引发-hn-讨论",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T18:00:00Z",
+  "lang": "zh",
+  "title": "Rich Hickey 撰文称 AI 不是工具，引发 HN 讨论",
+  "summary": "软件工程界知名人物 Rich Hickey 发表文章《AI Is Not a Tool》，主张不应把对话式 AI 系统简单称为“工具”。根据 Hacker News 讨论中的引述，Hickey 承认 LLM 本身可看作一种用自然语言查询、内置摘要的有损知识库；他批评的是把这类系统包装成做作业、研究、编程、写作的“工具”的说法。该文在 Hacker News 上引发关于 LLM 的能动性、工具与代理边界以及软件工程实践的讨论；帖子本身只给出 gist 链接，未提供更多技术细节。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "LLM",
+    "software engineering",
+    "AI criticism",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "svieira",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50060269"
+    }
+  ],
+  "originalUrl": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+  "originalSite": "linkedin.com",
+  "context": "这篇随笔延续了 Rich Hickey 此前对 AI 的批评立场：据外部分析，他在题为《Thanks, AI》的演讲中把 AI 直接产出代码视为绕过了软件开发中最难的部分——理解问题本身（tool-2-2）。Hickey 以设计 Clojure 为开发者所熟知（tool-2-1）。讨论涉及的核心概念是“工具”与具备自主性的“代理”之间的区分：有评论者认为 LLM 处在从“工具性”到“代理性”的连续谱上，而 Hickey 在回复中澄清，他针对的不是 LLM 本身，而是那些被宣传为做作业、研究、编程、写作“工具”的对话式系统。",
+  "discussion": "评论者 atleastoptimal 认为 LLM 位于“工具到代理”的连续谱上，人类也处于同一谱系；didibus 引用 Hickey 的回复说，争论焦点是对话系统被宣传为学习、研究、编程工具，而非否认 LLM 可作为有损知识库。iLemming 则报告自己在最近的 Conj 上问过 Hickey，后者称“不参与这个实验”、未深入研究 LLM，并对其效果及道德、经济等问题持怀疑态度。",
+  "references": [
+    {
+      "title": "Maybe Not - Rich Hickey - YouTube",
+      "url": "https://www.youtube.com/watch?v=YR5WdGrpoug"
+    },
+    {
+      "title": "Rich Hickey &#x27;s &quot;Thanks AI &quot;: A Critical Analysis",
+      "url": "https://karangoyal.cc/blog/rich-hickey-thanks-ai-analysis"
+    },
+    {
+      "title": "&#x27;AI&#x27; Is Not a Tool by Rich Hickey | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50060269"
+    },
+    {
+      "title": "&#x27;AI&#x27; Is Not a Tool by Rich Hickey | Remix Hacker News",
+      "url": "https://news.mcan.sh/item/50060269"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

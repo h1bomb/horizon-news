@@ -1,0 +1,31 @@
+{
+  "id": "0ea46f6aa8035158d09326926243dcba76b0bae0",
+  "canonicalId": "8894d3c13f2e1cc70175cf6fd089c7f69e4aa068",
+  "slug": "不用语言的模型能量基推理如何解约束问题",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T15:00:00Z",
+  "lang": "zh",
+  "title": "不用语言的模型：能量基推理如何解约束问题",
+  "summary": "rss · ByteByteGo · 10月12日 15:00\n\n**「背景」** 大语言模型逐 token 从左到右生成，输出又是离散的，因此在数独这类需要同时满足多重约束的问题上很吃力：据 Logical Intelligence 的一场公开演示，GPT-5.2、Claude Opus 4.5、Gemini 3 Pro、DeepSeek V3.2 等前沿模型合计只解出 2%，烧掉约 1.1 万美元 API 费用，而参数量小约千倍的 Kona 解出 96.2%、仅用 4 美元 GPU 时间（均为厂商自报数据）。作者由此提出：大多数日常任务本就不是语言问题，语言只是智能的界面，而非智能本身。\n\n**「方案」** Logical Intelligence 的替代方案是能量基推理模型（EBRM）：它不生成 token，而是学习能量函数 E\\(x,y\\)，能量越低表示候选答案与问题越一致。训练用对比损失压低正确答案、抬高错误答案（可由扰动正确答案或模型自身搜索产生），从而形成连续的能量地形；推理从随机噪声出发，沿能量下降梯度迭代至能量不再下降，对多步问题还会对每一步中间状态打分，即作者所说的“在理解而非数据上导航”。Kona 平均 313 毫秒收敛，LLM 单题最长要 90 秒；随后用机器可校验的检查（数独用简单程序，定理证明用 Lean 4）判定，不通过就回到搜索——中间是概率性的，末端是精确的。作者强调能量只是规则的近似、搜索依赖起点，低能量是强证据而非证明，约束是否写对仍靠人；EBRM 也不擅长需要判断与表达的写作任务，且文中未与经典约束求解器对比。\n\n**「启示」** 作者的核心论点是：语言是智能的界面而非智能本身，硬约束、可机器验证的任务更适合小模型加潜空间搜索，未来更可能是专用模型与语言模型分工协作的生态，而非单一通用大模型包打天下。\n\n**标签**: `#energy-based models`, `#latent reasoning`, `#constraint satisfaction`, `#LLM limitations`, `#AI verification`",
+  "score": 7,
+  "tags": [
+    "energy-based models",
+    "latent reasoning",
+    "constraint satisfaction",
+    "LLM limitations",
+    "AI verification"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-to-build-models-without-language",
+  "originalSite": "blog.bytebytego.com",
+  "context": "大语言模型逐 token 从左到右生成，输出又是离散的，因此在数独这类需要同时满足多重约束的问题上很吃力：据 Logical Intelligence 的一场公开演示，GPT-5.2、Claude Opus 4.5、Gemini 3 Pro、DeepSeek V3.2 等前沿模型合计只解出 2%，烧掉约 1.1 万美元 API 费用，而参数量小约千倍的 Kona 解出 96.2%、仅用 4 美元 GPU 时间（均为厂商自报数据）。作者由此提出：大多数日常任务本就不是语言问题，语言只是智能的界面，而非智能本身。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

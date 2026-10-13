@@ -1,0 +1,41 @@
+{
+  "id": "19802cdc5d720a922af3ba23bdf9c06408bc6953",
+  "canonicalId": "4aaf92f254c0ade1ac1fc34b38f7de96a9318a4e",
+  "slug": "用-c-构建并部署现代-web-应用",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T16:13:00Z",
+  "lang": "zh",
+  "title": "用 C 构建并部署现代 Web 应用",
+  "summary": "面向希望在 C 中构建 Web 应用的开发者，这篇文章演示了如何用 CGI/FastCGI、通过 pledge/chroot 等方式降权并进行部署。由于原文正文未提供，具体代码、版本和步骤无法核实；以下信息来自分析摘要与 Hacker News 讨论。评论者总体上认可文章的降权思路，ramses0 称其中相关内容“100% 真实且推理充分”，并补充 BusyBox 内置 cgi-bin 支持，同时有人比较 Go 等单二进制替代方案。",
+  "score": 7,
+  "tags": [
+    "C",
+    "web development",
+    "CGI/FastCGI",
+    "systems programming",
+    "privilege separation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "prophittcorey",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50058528"
+    }
+  ],
+  "originalUrl": "https://prophitt.me/writing/a-modern-web-app-in-c",
+  "originalSite": "prophitt.me",
+  "context": "这篇文章展示的做法建立在 CGI 之上：按文章所述，1994 年想做动态网站，就是写一个 C 程序放进 cgi-bin 目录，让 Apache 在每个请求时 fork 一次（tool-1-2）。作者 Corey Prophitt 用 BCHS 栈（OpenBSD、C、httpd）上线了商业产品 marketyour.games，属于把这条老技术路径重新用于实际部署（tool-1-1）。正因为如此，文中关于 FastCGI、权限隔离与部署方式的取舍才成为讨论焦点。",
+  "discussion": "如果开发者按该文路线用 C 部署 Web 应用，就需要自行处理 CGI/FastCGI 的进程模型、降权与并发问题；评论中提到 fork/exec 后 .bss/.data 段仍需初始化，而 Go 可通过 CGO\\_ENABLED=0 生成内含 HTTP/TLS 的单二进制程序，减少对 nginx 等传统 Web 服务器的依赖。\n\nramses0 认可文章的降权思路，并补充 BusyBox 自带 CGI 支持以及 rclone serve webdav；assimpleaspossi 分享早年用 C/FastCGI 交付订餐系统的经验，称系统被加盟商收购后改用微软技术栈反而问题不断。benlivengood 则认为 Go 的单二进制、CGO\\_ENABLED=0 和内置 HTTP/TLS 更适合替代传统 Web 服务器，并指出 C 并发编程和 fork/exec 后的数据段初始化是实际难点。",
+  "references": [
+    {
+      "title": "A Modern Web App in C · Hacker News | Zeli",
+      "url": "https://zeli.app/story/50058528"
+    },
+    {
+      "title": "A Modern Web App in C - upstract.com",
+      "url": "https://upstract.com/x/ff7e87d60c67529f"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

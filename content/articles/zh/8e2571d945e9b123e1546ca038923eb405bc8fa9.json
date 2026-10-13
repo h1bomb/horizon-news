@@ -1,0 +1,40 @@
+{
+  "id": "8e2571d945e9b123e1546ca038923eb405bc8fa9",
+  "canonicalId": "71efce2f5c7655f9273de1ecc2a3585e11c75382",
+  "slug": "linux-内核维护者峰会sashiko-调整与-assisted-by-标签取消",
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-12T15:27:00Z",
+  "lang": "zh",
+  "title": "Linux 内核维护者峰会：Sashiko 调整与 Assisted-by 标签取消",
+  "summary": "对 Linux 内核维护者和贡献者而言，补丁审查流程将出现几项变化：Sashiko 自动审查不再在补丁审查中报告已存在的旧缺陷，而是将其存入单独数据库；补丁的 Assisted-by 标签要求也将被移除。这些是 2026 年 10 月 8 日在布拉格举行的维护者峰会上的讨论结论，约 30 名内核开发者参加，会议还涉及 LLM 对开发社区的影响、安全漏洞洪流和长期接班规划。据 Jonathan Corbet 的会议记录，Linus Torvalds 认为问题不在 LLM 本身，而在于不熟悉内核和工具的使用者，并主张对低质量贡献给予低优先级；部分最紧急的安全修复可能绕过维护者直接交给 Torvalds。Corbet 强调这些结论是他的个人解读，并非峰会的官方公告。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "open source",
+    "LLM",
+    "maintainership",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099594/",
+  "originalSite": "lwn.net",
+  "context": "本次峰会上争议的中心——Sashiko——是一个基于大语言模型的内核补丁自动评审系统：5 月 26 日的日报曾报道，LSFMM+BPF 峰会为其举行了专题讨论，当时社区关注的是它能否减轻人工维护者的负担（tool-1-1）；10 月 6 日的日报则报道了维护者 Roman Gushchin 在 Kernel Recipes 上介绍的最新进展，其中已明确提到该系统会在未改动的代码上反复报出同一问题（tool-1-2）。峰会围绕“既有缺陷不再出现在补丁评审中、改为存入单独数据库”的争论，正是对这一已知局限的后续处理。",
+  "discussion": "内核贡献者提交补丁时不再需要添加 Assisted-by 标签，但维护者仍会追问补丁是否由 LLM 生成；同时 Sashiko 审查不再列出已存在的旧缺陷，因此提交者不会被要求在处理自己改动前先修复这些旧问题。",
+  "references": [
+    {
+      "title": "2026-05-26 — LLM-based kernel patch review debated at LSFMM+BPF",
+      "url": "https://lwn.net/Articles/1073583/"
+    },
+    {
+      "title": "2026-10-06 — Sashiko：LLM 内核补丁评审系统的进展",
+      "url": "https://lwn.net/Articles/1096963/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
