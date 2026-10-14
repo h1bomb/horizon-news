@@ -1,0 +1,36 @@
+{
+  "id": "f1507e8a25e47b9e2d61d6298d30f80b0ae66627",
+  "canonicalId": "a00c4a27dd7484d5d14df127d5cbc2a85d858c9a",
+  "slug": "postgresql-19-测试期多项功能被撤回核心成员归因于-llm-辅助审查",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T13:21:00Z",
+  "lang": "zh",
+  "title": "PostgreSQL 19 测试期多项功能被撤回，核心成员归因于 LLM 辅助审查",
+  "summary": "PostgreSQL 核心团队成员 Peter Eisentraut 在博客中回顾了进入 beta 阶段后被撤回的“异常多”的 PostgreSQL 19 功能。他表示，部分被撤回的功能存在难以在 beta 期间快速修复的重大架构缺陷，但还有一长串涉及边缘情况、本身相对无害的问题；LLM 辅助代码审查让这类问题被发现得快得多，于是面对约 40 份缺陷报告，即便平均每个只需三行修复，逐项处理的固定开销也会让人耗尽时间。他指出，这些被撤回的功能大多写于 LLM 辅助审查还不那么有用的年代，相当于在功能编写并提交之后，有效质量门槛被抬高了；他认为除非 LLM 辅助审查的能力持续按当前速度提升，未来开发周期里这种情况会自行缓解，而且这基本不属于“vibe coding”。LWN 曾在 9 月报道过 PostgreSQL 19 功能所需的异常多 bug 修复。",
+  "score": 7,
+  "tags": [
+    "PostgreSQL",
+    "open source",
+    "LLM-assisted code review",
+    "database development",
+    "software process"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100182/",
+  "originalSite": "lwn.net",
+  "context": "PostgreSQL 19 原定于 2026 年 9 月发布、4 月 8 日进入功能冻结，但后期补丁暴露出异常多的缺陷：Horizon 9 月 11 日的日报曾报道，贡献者 Robert Haas 发起“scary patch contest”，点名外键快速路径、REPACK/REPACK CONCURRENTLY 以及在线启用或禁用数据校验和等补丁在功能冻结后分别需要约 16、28、25 次修复，其中至少一个补丁已被回退，并因此额外增加了一个 beta。Eisentraut 的这篇反思正建立在同一轮进程之上——当缺陷无法在 beta 期内快速修复时，相关功能会被整体撤出 19 版本，而不是零散修补。",
+  "discussion": "计划依赖这些被撤回功能的 PostgreSQL 19 使用者需要等到后续版本，或自行实现替代方案，因为相关功能已从这一即将发布的版本中移除。与此同时，贡献者应预期在 beta 阶段收到更密集的边缘缺陷报告：按 Eisentraut 的说法，功能提交后 LLM 辅助审查可能抬高有效质量门槛，而每份报告都有不可分摊的处理开销。",
+  "references": [
+    {
+      "title": "2026-09-11 — PostgreSQL 19 后期补丁质量引担忧，新增一个 beta",
+      "url": "https://lwn.net/Articles/1092003/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

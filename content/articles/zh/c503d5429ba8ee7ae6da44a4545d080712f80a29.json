@@ -1,0 +1,44 @@
+{
+  "id": "c503d5429ba8ee7ae6da44a4545d080712f80a29",
+  "canonicalId": "d69a9201b696635272bdb2f1ec574a850fadf807",
+  "slug": "nix-与-lix-披露本地提权漏洞并发布修复版本",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T16:13:00Z",
+  "lang": "zh",
+  "title": "Nix 与 Lix 披露本地提权漏洞并发布修复版本",
+  "summary": "Nix 和 Lix 项目联合披露了一组本地权限提升漏洞，可用于在运行 Lix 或 Nix 守护进程的系统上将权限提升至 root。公告称“所有构建不可信 derivation 的系统均受影响”，但未提供 CVE 编号（称尚未申请），也未披露漏洞的技术细节。两个项目表示修复版本已在公告发布当天提供，来源未说明具体版本号。",
+  "score": 7,
+  "tags": [
+    "Nix",
+    "Lix",
+    "security vulnerability",
+    "privilege escalation",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100247/",
+  "originalSite": "lwn.net",
+  "context": "官方把问题定位在 Nix 与 Lix 各自的守护进程实现上，oss-security 邮件列表上的通告同样将其描述为「守护进程中的本地权限提升」，并提示读者查阅受影响版本、修复版本与缓解措施（tool-2-2、tool-2-3）。受影响条件的表述是「所有构建不可信 derivation 的系统」，说明风险出现在守护进程以特权身份处理来自不可信构建的输入这一环节，而本次是两个项目联合发布的同一份通告。",
+  "discussion": "对多用户安装而言，Nix 守护进程以 root 身份运行，而 allowed-users 的默认值为 \\`\\*\\`，即本机任何用户都能连接该守护进程，NixOS 与标准多用户安装均沿用这一默认配置，因此受影响面较广。尚未修复的部署应尽快升级到各项目发布的修复版本；无法立即升级时，收紧 allowed-users 并避免构建不受信任的 derivation 可缩小暴露范围。",
+  "references": [
+    {
+      "title": "oss-security - Nix / Lix : local privilege escalation in daemon process",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/04/32"
+    },
+    {
+      "title": "oss-sec: Nix / Lix : local privilege escalation in daemon process",
+      "url": "https://seclists.org/oss-sec/2026/q2/401"
+    },
+    {
+      "title": "Brief Summary: CVE- 2026 -44028 Local Privilege Escalation in Nix ...",
+      "url": "https://zeropath.com/blog/cve-2026-44028-nix-lix-nar-parser-stack-overflow"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

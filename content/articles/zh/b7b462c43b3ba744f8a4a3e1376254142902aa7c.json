@@ -1,0 +1,31 @@
+{
+  "id": "b7b462c43b3ba744f8a4a3e1376254142902aa7c",
+  "canonicalId": "a8c5a79e07c538360195d6d2575ac0967377a372",
+  "slug": "从傅里叶热学到-llm-位置编码",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T15:30:00Z",
+  "lang": "zh",
+  "title": "从傅里叶热学到 LLM 位置编码",
+  "summary": "rss · ByteByteGo · 10月13日 15:30\n\n**「背景」** 1822 年傅里叶用正弦和余弦函数表示复杂温度分布；近两个世纪后，同样的函数出现在 Transformer 的位置编码中。作者指出，语言中词序本身携带信息（如“Alice 信任 Bob”与“Bob 信任 Alice”含义不同），但基础注意力机制并不自动把序列顺序变成可用特征——数组索引不会自动参与计算。\n\n**「方案」** 位置编码把序列位置转换成数值表示，使模型同时获得词的身份与位置；原始 Transformer 将同维度的位置编码加到词嵌入上，同一词换位置或不同词同位置都会改变组合输入。作者认为，用正弦/余弦而非单个整数，是因为它们提供有界、多尺度的结构化特征：一个“手”绕圆旋转给出坐标，多个速度不同的“手”能在周期重复后继续区分位置，但并非无限可区分。这种表示还带来可复用的相对位移结构——前进固定步数时各频率对旋转固定角度，因此线性变换可映射到偏移后的编码，供模型训练学习利用。RoPE 把同样的旋转数学放进注意力，对查询和键的分量对按位置旋转，使比较结果依赖相对旋转即相对位置。作者也列出可学习位置嵌入、ALiBi 和因果掩码等替代或补充机制，并强调能算出很大位置的编码不等于能可靠理解任意长文档。\n\n**「启示」** 正弦和余弦的价值不在于比位置编号多出信息，而在于它们把位置表达成有界、多尺度且在平移下关系一致的数值语言，训练再教会模型把这种位置结构与词义和上下文结合起来。\n\n**标签**: `#positional encoding`, `#transformers`, `#Fourier analysis`, `#RoPE`, `#LLM architecture`",
+  "score": 6,
+  "tags": [
+    "positional encoding",
+    "transformers",
+    "Fourier analysis",
+    "RoPE",
+    "LLM architecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-the-math-used-in-19th-century",
+  "originalSite": "blog.bytebytego.com",
+  "context": "1822 年傅里叶用正弦和余弦函数表示复杂温度分布；近两个世纪后，同样的函数出现在 Transformer 的位置编码中。作者指出，语言中词序本身携带信息（如“Alice 信任 Bob”与“Bob 信任 Alice”含义不同），但基础注意力机制并不自动把序列顺序变成可用特征——数组索引不会自动参与计算。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

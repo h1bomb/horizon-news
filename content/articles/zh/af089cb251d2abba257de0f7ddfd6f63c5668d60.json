@@ -1,0 +1,40 @@
+{
+  "id": "af089cb251d2abba257de0f7ddfd6f63c5668d60",
+  "canonicalId": "68669b0c138bf7f10c66fefbafac5291a6844f3b",
+  "slug": "asterinas-0190-发布新增可运行-xorg-的图形子系统",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T12:55:00Z",
+  "lang": "zh",
+  "title": "Asterinas 0.19.0 发布：新增可运行 X.org 的图形子系统",
+  "summary": "用 Rust 编写操作系统内核的 Asterinas 项目发布了 0.19.0 版本。此次更新包含一个能够运行 X.org 的新图形子系统、“最小但可用”的 64 位 Arm 支持，以及更好的虚拟化支持。LWN 曾在 2025 年报道过该项目，本次发布信息来自 LWN 的报道与项目公告。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "operating systems",
+    "kernel",
+    "open source",
+    "ARM"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100055/",
+  "originalSite": "lwn.net",
+  "context": "Asterinas 是一个用 Rust 编写、以兼容 Linux ABI 为目标的操作系统内核，其代码库将安全性与可维护性置于优先位置。该项目此前已按架构逐步扩展：项目公告显示，0.16.0 版本首次加入对 LoongArch 架构的支持，0.19.0 的 64 位 Arm 支持延续了这条多架构移植路线。",
+  "discussion": "对希望在非 x86 平台或图形环境中试用 Asterinas 的开发者而言，0.19.0 提供了新的可运行目标：图形子系统可支撑 X.org，而 64 位 Arm 支持仍被项目自己描述为“最小但可用”，因此 Arm 上的功能覆盖仍有限，实际部署前需自行确认所需特性是否已具备。",
+  "references": [
+    {
+      "title": "GitHub - asterinas / asterinas : Asterinas aims to be...",
+      "url": "https://github.com/asterinas/asterinas"
+    },
+    {
+      "title": "Announcing Asterinas 0 .16.0",
+      "url": "https://asterinas.github.io/2025/08/04/announcing-asterinas-0.16.0.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

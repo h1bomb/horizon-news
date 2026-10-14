@@ -1,6 +1,244 @@
 {
   "articles": [
     {
+      "id": "a4d11a907676d7cb4cabc0f76cbedbac259fbaf1",
+      "canonicalId": "d1f8258ec212ab0708b24e4755458972f67c69d5",
+      "slug": "谷歌-deepmind-发布-gemini-4-argon-大模型",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "谷歌 DeepMind 发布 Gemini 4 Argon 大模型",
+      "score": 8,
+      "tags": [
+        "artificial intelligence",
+        "large language models",
+        "Google DeepMind",
+        "Gemini",
+        "model release"
+      ],
+      "originalSite": "deepmind.google"
+    },
+    {
+      "id": "b2615b699eb99bbc2c0820217b2e6bf604bc5e0b",
+      "canonicalId": "8c17f1f1ac30a4ed7675999bf42cfdc439a732b4",
+      "slug": "anthropic-重新设计-monorepo-源代码控制",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Anthropic 重新设计 monorepo 源代码控制",
+      "score": 8,
+      "tags": [
+        "source control",
+        "monorepo",
+        "developer infrastructure",
+        "AI-assisted coding",
+        "Git"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "6301508a6b41978a2c3c23f066f68c6c3e9ef486",
+      "canonicalId": "1609f5d4ca7309cc4d2d3a5b373cc93c5c64c3d0",
+      "slug": "google-发布-gemini-4-argon-机器人模型",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Google 发布 Gemini 4 Argon 机器人模型",
+      "score": 8,
+      "tags": [
+        "AI",
+        "robotics",
+        "Gemini",
+        "embodied AI",
+        "LLM control"
+      ],
+      "originalSite": "developers.googleblog.com"
+    },
+    {
+      "id": "9c93b4a1e385494c3328536635fc420897d473b6",
+      "canonicalId": "c35eb0d88f916a3dccb9f4a0ecda4964378cd3f6",
+      "slug": "长鑫存储称年底前推出-4f²-数据中心内存或领先三星与海力士",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "长鑫存储称年底前推出 4F² 数据中心内存，或领先三星与海力士",
+      "score": 8,
+      "tags": [
+        "DRAM",
+        "长鑫存储\\(CXMT\\)",
+        "4F² 内存设计",
+        "数据中心内存",
+        "半导体行业"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "8fbbf2200ad306071aec1c045373b2ef551ed98d",
+      "canonicalId": "183ae684f51b17aa5aeb556516bb9343b8568ecb",
+      "slug": "apple-推出-homeview-家用设备主打-a18-secure-exclaves",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Apple 推出 HomeView 家用设备，主打 A18 Secure Exclaves",
+      "score": 7,
+      "tags": [
+        "Apple hardware",
+        "smart home",
+        "secure enclave",
+        "on-device privacy",
+        "platform ecosystem"
+      ],
+      "originalSite": "apple.com"
+    },
+    {
+      "id": "cddf45c7f6fb9ea9fc0605a9f01303c235dba070",
+      "canonicalId": "75ff0b04c5a4ab3ddf649157bca097be3ce8a370",
+      "slug": "rust-借用检查器曝出-11-年前的不健全性缺陷",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Rust 借用检查器曝出 11 年前的不健全性缺陷",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "borrow checker",
+        "compiler soundness",
+        "programming languages",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "128e6c4eacbc2df1a2b54c80bbd858970fa51184",
+      "canonicalId": "994797c2417fc3f8475b41fc55f2acdf7fe3697a",
+      "slug": "将-embeddinggemma-2-改造成语音转文字模型",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "将 EmbeddingGemma 2 改造成语音转文字模型",
+      "score": 7,
+      "tags": [
+        "EmbeddingGemma 2",
+        "speech-to-text",
+        "ASR",
+        "local-inference",
+        "multimodal-embeddings"
+      ],
+      "originalSite": "eg2.haku.sh"
+    },
+    {
+      "id": "6538fa35984168fcd9ba2ff649818d0b7c634852",
+      "canonicalId": "61514929f532a5bfba4a41fb0d1d744d4312064e",
+      "slug": "characterai-申请第-11-章破产并拟向迪士尼出售部分资产",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Character.ai 申请第 11 章破产并拟向迪士尼出售部分资产",
+      "score": 7,
+      "tags": [
+        "AI industry",
+        "generative AI",
+        "bankruptcy/M&amp;A",
+        "startup economics",
+        "Character.ai"
+      ],
+      "originalSite": "blog.character.ai"
+    },
+    {
+      "id": "c503d5429ba8ee7ae6da44a4545d080712f80a29",
+      "canonicalId": "d69a9201b696635272bdb2f1ec574a850fadf807",
+      "slug": "nix-与-lix-披露本地提权漏洞并发布修复版本",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Nix 与 Lix 披露本地提权漏洞并发布修复版本",
+      "score": 7,
+      "tags": [
+        "Nix",
+        "Lix",
+        "security vulnerability",
+        "privilege escalation",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "d2bc6695cd8fea10976c721543df7a472d988cd2",
+      "canonicalId": "e3650ff667efaa824b722a46a9c603e8fc0176da",
+      "slug": "rust-for-linux-提出-ownable-trait-管理-c-分配对象",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Rust for Linux 提出 Ownable trait 管理 C 分配对象",
+      "score": 7,
+      "tags": [
+        "Rust for Linux",
+        "Rust",
+        "C interoperability",
+        "Linux kernel",
+        "ownership semantics"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "f1507e8a25e47b9e2d61d6298d30f80b0ae66627",
+      "canonicalId": "a00c4a27dd7484d5d14df127d5cbc2a85d858c9a",
+      "slug": "postgresql-19-测试期多项功能被撤回核心成员归因于-llm-辅助审查",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "PostgreSQL 19 测试期多项功能被撤回，核心成员归因于 LLM 辅助审查",
+      "score": 7,
+      "tags": [
+        "PostgreSQL",
+        "open source",
+        "LLM-assisted code review",
+        "database development",
+        "software process"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "af089cb251d2abba257de0f7ddfd6f63c5668d60",
+      "canonicalId": "68669b0c138bf7f10c66fefbafac5291a6844f3b",
+      "slug": "asterinas-0190-发布新增可运行-xorg-的图形子系统",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "Asterinas 0.19.0 发布：新增可运行 X.org 的图形子系统",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "operating systems",
+        "kernel",
+        "open source",
+        "ARM"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "b7b462c43b3ba744f8a4a3e1376254142902aa7c",
+      "canonicalId": "a8c5a79e07c538360195d6d2575ac0967377a372",
+      "slug": "从傅里叶热学到-llm-位置编码",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "从傅里叶热学到 LLM 位置编码",
+      "score": 6,
+      "tags": [
+        "positional encoding",
+        "transformers",
+        "Fourier analysis",
+        "RoPE",
+        "LLM architecture"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "120a57ef1d86f885b8af2fc60bea011d0312f0eb",
+      "canonicalId": "3882ee21bd04acd29761a04b1ce35170004fa6b8",
+      "slug": "香港证监会暂停茶百道交易指其-ipo-涉嫌被操纵",
+      "date": "2026-10-14",
+      "lang": "zh",
+      "title": "香港证监会暂停茶百道交易，指其 IPO 涉嫌被操纵",
+      "score": 8,
+      "tags": [
+        "Hong Kong SFC",
+        "IPO manipulation",
+        "trading suspension",
+        "ChaBaidu",
+        "regulatory enforcement"
+      ],
+      "originalSite": "apps.sfc.hk"
+    },
+    {
       "id": "53bd87244ec1bce3cce843fae133b2a8fed3baf2",
       "canonicalId": "a31dac6d0b53e097a95e96d4e556c2c7237540fb",
       "slug": "python-315-发布pep-810-惰性导入与-310-支持终止",
@@ -4852,91 +5090,6 @@
         "Iran war"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "029d3afec0d13e9bc6aae927b3f09884bac0d125",
-      "canonicalId": "ae1c0b143270a4ac61c2a35f0271395cd8f4c03d",
-      "slug": "bengio-文章引发-ai-智能体撒谎与协同讨论",
-      "date": "2026-09-14",
-      "lang": "zh",
-      "title": "Bengio 文章引发 AI 智能体撒谎与协同讨论",
-      "score": 8,
-      "tags": [
-        "AI agents",
-        "AI safety",
-        "LLM alignment",
-        "multi-agent systems",
-        "AI accountability"
-      ],
-      "originalSite": "yoshuabengio.org"
-    },
-    {
-      "id": "13eee96d363149850a72d02368c251244b569e26",
-      "canonicalId": "f3600c5021feea3dd288a672591d06ba8f7fa127",
-      "slug": "homebrew-700-发布官方-macos-图形界面与安全增强",
-      "date": "2026-09-14",
-      "lang": "zh",
-      "title": "Homebrew 7.0.0 发布：官方 macOS 图形界面与安全增强",
-      "score": 8,
-      "tags": [
-        "Homebrew",
-        "package management",
-        "macOS",
-        "open source",
-        "security"
-      ],
-      "originalSite": "brew.sh"
-    },
-    {
-      "id": "b289430e1bbda6fbea673124dd50200005890cc3",
-      "canonicalId": "ed4dc19a3249738c6c00e72a6417d4d38e1ddad5",
-      "slug": "astra-与-fable-仍钻-2025-对齐评估空子",
-      "date": "2026-09-14",
-      "lang": "zh",
-      "title": "Astra 与 Fable 仍钻 2025 对齐评估空子",
-      "score": 7,
-      "tags": [
-        "AI alignment",
-        "LLM evaluation",
-        "reward hacking",
-        "AI safety",
-        "model behavior"
-      ],
-      "originalSite": "lesswrong.com"
-    },
-    {
-      "id": "2e8b686917cd60bad3ae1f73249d26951c4b40e4",
-      "canonicalId": "47882b4aa216fd52fa7443c08c81ef6ab7959bca",
-      "slug": "麒麟-9050-pro-评测3d-堆叠提升性能与能效",
-      "date": "2026-09-14",
-      "lang": "zh",
-      "title": "麒麟 9050 Pro 评测：3D 堆叠提升性能与能效",
-      "score": 7,
-      "tags": [
-        "3D stacking",
-        "mobile SoC",
-        "Huawei Kirin",
-        "hardware benchmarks",
-        "semiconductors"
-      ],
-      "originalSite": "bilibili.com"
-    },
-    {
-      "id": "a20d871d202f72f3e3925219b09c3ff491a6476d",
-      "canonicalId": "098820a9eca6a0774c094422138049af34580092",
-      "slug": "更快的模型会把瓶颈推向开发体验",
-      "date": "2026-09-14",
-      "lang": "zh",
-      "title": "更快的模型会把瓶颈推向开发体验",
-      "score": 5,
-      "tags": [
-        "AI agents",
-        "developer experience",
-        "inference latency",
-        "agentic coding",
-        "tool calls"
-      ],
-      "originalSite": "seangoedecke.com"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": "6301508a6b41978a2c3c23f066f68c6c3e9ef486",
+  "canonicalId": "1609f5d4ca7309cc4d2d3a5b373cc93c5c64c3d0",
+  "slug": "google-发布-gemini-4-argon-机器人模型",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T16:55:00Z",
+  "lang": "zh",
+  "title": "Google 发布 Gemini 4 Argon 机器人模型",
+  "summary": "Google 开发者博客宣布推出 Gemini 4 Argon，定位为面向机器人/具身 AI 的模型，用于以视觉和语言控制机器人动作。Hacker News 上的讨论显示，已有开发者在实际机器人上尝试零样本视觉控制和动作原语，即让通用 LLM 通过一组预定义动作来指挥机器人。所提供的材料没有给出模型规格、支持的机器人平台、价格或可用地区等细节，这些方面仍不明确。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "robotics",
+    "Gemini",
+    "embodied AI",
+    "LLM control"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "xnx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50074869"
+    }
+  ],
+  "originalUrl": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+  "originalSite": "developers.googleblog.com",
+  "context": "Google DeepMind 在机器人模型上已有前代积累：Gemini Robotics 系列包含负责具身推理的 Gemini Robotics-ER，以及可在机器人本地硬件上运行的轻量 VLA 版本 On-Device（tool-2-1）。Horizon 2026 年 7 月 31 日的日报曾报道 Gemini Robotics 2 主打全身智能，但演示中的成功率约 60%、准确率约 80%，当时尚未达到生产就绪水平（tool-1-1）。本次 Gemini 4 Argon 可视为这一路线在 Gemini 4 世代上的延续；Hacker News 评论者指出，目前常见做法是让通用大模型通过一组预定义的动作原语来指挥机器人，而不是端到端直接输出电机指令。",
+  "discussion": "对机器人开发者而言，这条路线可能把集成重点从为每个任务训练专用策略转向设计安全的动作原语和视觉接入；评论者报告 Argon 4 在其 Unitree 人形机器人上比 Opus/Astra 更会避免撞墙，但同一实践也指出 LIDAR 数据尚未接入，说明感知冗余与安全约束仍需自行处理。该后果基于社区实践描述，并非独立验证。\n\n有评论者报告在 Unitree 人形机器人上做实验：此前用 Opus 和 Astra 会撞上桌子、床和表面，而 Argon 4 更谨慎地避开墙壁和物体；该评论同时承认尚未使用 LIDAR 数据。另一位开发者把“视觉外设 + 动作原语”的零样本控制视为值得关注的做法，但也有评论质疑现有模型的功耗和推理速度离机器人在非校车大小的平台上长时间自主运行还很远。",
+  "references": [
+    {
+      "title": "2026-07-31 — Gemini Robotics 2 为机器人带来全身智能",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    },
+    {
+      "title": "Gemini Robotics — Google DeepMind",
+      "url": "https://deepmind.google/models/gemini-robotics/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

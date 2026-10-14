@@ -1,0 +1,37 @@
+{
+  "id": "cddf45c7f6fb9ea9fc0605a9f01303c235dba070",
+  "canonicalId": "75ff0b04c5a4ab3ddf649157bca097be3ce8a370",
+  "slug": "rust-借用检查器曝出-11-年前的不健全性缺陷",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T10:27:00Z",
+  "lang": "zh",
+  "title": "Rust 借用检查器曝出 11 年前的不健全性缺陷",
+  "summary": "一个 Rust 编译器 GitHub issue（\\#164250）报告借用检查器存在已持续约 11 年的不健全性缺陷：编译器接受了一段按 Rust 生命周期规则本应被拒绝的代码。该问题目前处于被报告和讨论的阶段，尚无证据表明官方已发布修复或已确认受影响的 crate 清单。评论者认为这不是类型系统本身的问题，修复方向是让编译器按既有生命周期规则拒绝该代码，因此相对直接，但该缺陷是否影响真实代码仍待确认。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "borrow checker",
+    "compiler soundness",
+    "programming languages",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "formerly\\_proven",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50069499"
+    }
+  ],
+  "originalUrl": "https://github.com/rust-lang/rust/issues/164250",
+  "originalSite": "github.com",
+  "context": "Rust 的借用检查器（borrow checker）是编译器在编译期执行所有权与生命周期规则的组件；“不可靠性”（unsoundness）指编译器接受了按类型系统规则本应被拒绝的代码，从而使安全代码可能触发未定义行为。Rust 仓库此前就出现过借用检查器不可靠性的报告，例如涉及 union 的 issue \\#45157（tool-2-1），说明这类问题并非首次出现。",
+  "discussion": "评论者 GrantMoyer 认为该 bug 容易修，因为它只涉及编译器未按既有生命周期规则拒绝代码，而非类型系统规则有误；weinzierl 补充称 Rust 仓库目前有 100 多个 unsound 标签 issue，新的 trait solver 可能为其中部分修复解除阻碍，但不一定包括本案。Eridrus 则质疑这类问题是否真正影响实际代码，并关注修复后是否会导致某些 crate 无法编译。",
+  "references": [
+    {
+      "title": "Borrow checker unsoundness with unions · Issue #45157...",
+      "url": "https://github.com/rust-lang/rust/issues/45157"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

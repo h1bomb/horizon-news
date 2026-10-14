@@ -1,0 +1,32 @@
+{
+  "id": "b2615b699eb99bbc2c0820217b2e6bf604bc5e0b",
+  "canonicalId": "8c17f1f1ac30a4ed7675999bf42cfdc439a732b4",
+  "slug": "anthropic-重新设计-monorepo-源代码控制",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T15:49:00Z",
+  "lang": "zh",
+  "title": "Anthropic 重新设计 monorepo 源代码控制",
+  "summary": "Anthropic 在其工程博客中介绍，为内部大型 monorepo 重新设计了源代码控制，核心是把 Git 历史摄取到 Scion 的管道，并借助 AI 辅助完成大规模代码迁移。这是一篇关于内部开发基础设施的工程披露，而不是面向外部用户的产品发布；根据现有材料，Scion 的版本、开源计划和对外可用性均未说明。",
+  "score": 8,
+  "tags": [
+    "source control",
+    "monorepo",
+    "developer infrastructure",
+    "AI-assisted coding",
+    "Git"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Philpax",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/engineering/redesigning-source-control",
+  "originalSite": "anthropic.com",
+  "context": "Anthropic 的 monorepo 规模被认为已超出 Git 原本的设计空间：社区评论引用原帖称，仅主分支的历史就接近 100 GB，这使合并与仓库管理本身成为需要重新设计的对象，工程团队因此搭建了从 Git 向 Scion 摄取（ingestion）的流水线，并用 Scion 承载该仓库。评论者将其类比为 SVN/Perforce 式的服务端版本控制系统，并指出它目前没有公司外部的生产使用、不支持非文本资产，且 Anthropic 未公布会开源相关代码——这些是社区基于文章的推断，而非已公开验证的能力。",
+  "discussion": "评论区的一条争论是 zmmmmm 质疑是否应先重新考虑 monorepo 策略，而不是直接从 monorepo 走向重新设计版本控制。trnvll 引述博客称，Claude Mythos Preview 重写 Git-to-Scion 摄取管道后内存占用降至 1/20、速度提升 4 倍；tancop 则把 Scion 类比为 SVN/Perforce 式服务器端 VCS 和 Epic 的 Lore，并指出它未对外发布、不支持非文本资产。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

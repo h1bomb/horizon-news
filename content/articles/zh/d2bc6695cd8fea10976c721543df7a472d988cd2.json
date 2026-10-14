@@ -1,0 +1,36 @@
+{
+  "id": "d2bc6695cd8fea10976c721543df7a472d988cd2",
+  "canonicalId": "e3650ff667efaa824b722a46a9c603e8fc0176da",
+  "slug": "rust-for-linux-提出-ownable-trait-管理-c-分配对象",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T13:33:00Z",
+  "lang": "zh",
+  "title": "Rust for Linux 提出 Ownable trait 管理 C 分配对象",
+  "summary": "在 Kangrejos 2026 上，Andreas Hindborg 介绍了 Rust for Linux 的一个补丁系列（邮件列表中的 v21 版本，2026 年 9 月发布），它新增 Ownable trait 和 Owned 智能指针，让 Rust 代码可以持有由 C 代码分配的对象，并在使用完毕后负责清理（但不一定释放内存）。Owned 像 KBox 一样提供对所指值的唯一访问，但生命期结束时调用 release\\(\\) 而非 free，因此只能指向实现了 Ownable 的 C 类型，例如块层中可复用的 bio 请求结构。该系列尚未合并，Hindborg 希望在数月邮件列表讨论后达成共识；主要争议在于 Owned 与 ARef 之间的转换可能破坏健全性，他提议把 AlwaysRefCounted 拆成两个 trait，并禁止同时实现 Ownable 的类型将内建引用升级为 ARef。讨论还涉及 page 结构是否可实现 Ownable，以及 IOMMU 页表、Rust binder 驱动和 USB 驱动等潜在使用场景。",
+  "score": 7,
+  "tags": [
+    "Rust for Linux",
+    "Rust",
+    "C interoperability",
+    "Linux kernel",
+    "ownership semantics"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099015/",
+  "originalSite": "lwn.net",
+  "context": "Rust for Linux 项目已经提供 KBox 和 ARef 等适配类型，用来在 Rust 代码中表达所有权与引用计数语义；其中 KBox 假定内存由 Rust 侧分配，ARef 则假定对象始终采用引用计数。内核块子系统把 I/O 请求放在 C 代码管理的内存池中复用，请求以 bio 结构表示，由驱动处理后再交还块层，因此这两种既有抽象都无法直接覆盖该场景。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "rust : add ` Ownable ` trait and `Owned` type [LWN.net]",
+      "url": "https://lwn.net/Articles/1079571/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

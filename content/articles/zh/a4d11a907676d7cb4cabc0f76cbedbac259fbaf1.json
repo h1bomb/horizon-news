@@ -1,0 +1,41 @@
+{
+  "id": "a4d11a907676d7cb4cabc0f76cbedbac259fbaf1",
+  "canonicalId": "d1f8258ec212ab0708b24e4755458972f67c69d5",
+  "slug": "谷歌-deepmind-发布-gemini-4-argon-大模型",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T16:03:00Z",
+  "lang": "zh",
+  "title": "谷歌 DeepMind 发布 Gemini 4 Argon 大模型",
+  "summary": "谷歌 DeepMind 发布了新的大语言模型 Gemini 4 Argon，Hacker News 上的相关讨论获得 918 分、705 条评论。来源条目本身没有提供官方基准、版本号细节或模型规模，因此目前可确证的是发布这一事实，具体能力描述主要来自用户的主观体验。多名评论者称其在写作质量和回答结构上有明显提升，也有人反馈官网的试用入口存在落差：点击 Gemini 4 页面的“Try in Gemini”后默认进入的是 Gemini 3.6，且没有不升级即可试用 Gemini 4 的选项。",
+  "score": 8,
+  "tags": [
+    "artificial intelligence",
+    "large language models",
+    "Google DeepMind",
+    "Gemini",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "737max",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/models/gemini/",
+  "originalSite": "deepmind.google",
+  "context": "Horizon 10 月 1 日的日报曾报道，谷歌在官方博客发布 Gemini 4 Argon，并指出当时该模型只面向早期测试者，尚未向开发者、企业和消费者开放，且公告材料中没有模型规格、基准成绩或定价信息（tool-1-1）。与那次报道相比，本次 Hacker News 讨论中的评论者已表示正通过 API 使用该模型，也有人描述在 Gemini 页面和订阅流程中尝试访问时遇到的限制，这暗示访问范围至少部分扩大，但这些都只是用户个人描述，并非官方确认。第三方整理帖称 Argon 于 2026 年 9 月 30 日发布，支持最高 100 万 token 输出，定价为每百万输入 token 2 美元、每百万输出 token 10 美元，此类数字尚待官方或独立验证（tool-2-3）。",
+  "discussion": "对想尝试新模型的用户来说，当前的直接障碍在访问与付费路径而非模型能力：有评论者称从 Gemini 4 介绍页进入后只得到默认的 Gemini 3.6 页面，另有用户表示注册 Google 账号后既找不到明确的入口，又无法用信用卡或 PayPal 购买小型 Gemini AI Ultra 套餐；相比之下，已有开发者表示可以通过 API 直接调用该模型。\n\n正面反馈集中在文本能力上，有评论者认为它回答直击要点、逻辑清晰，并倾向于生成可调参数的模拟与模型，也有通过 API 使用的开发者特别称赞其语言表达，认为这比常见的图像渲染演示更能体现模型水平。批评则集中在 Google 的试用和购买流程上，一位评论者称点击“Try in Gemini”后被引导到 Gemini 3.6 并提示升级，认为这种引导与“可试用”的暗示不符——这些均为个人体验陈述，尚无官方说明佐证。",
+  "references": [
+    {
+      "title": "2026-10-01 — 谷歌发布 Gemini 4 Argon，暂限早期测试者",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+      "title": "Gemini 4 Argon : Google &#x27;s 1M output token model | DataNorth AI",
+      "url": "https://datanorth.ai/news/google-releases-gemini-4-argon"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

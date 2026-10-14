@@ -1,0 +1,49 @@
+{
+  "id": "128e6c4eacbc2df1a2b54c80bbd858970fa51184",
+  "canonicalId": "994797c2417fc3f8475b41fc55f2acdf7fe3697a",
+  "slug": "将-embeddinggemma-2-改造成语音转文字模型",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T11:27:00Z",
+  "lang": "zh",
+  "title": "将 EmbeddingGemma 2 改造成语音转文字模型",
+  "summary": "一位开发者把 EmbeddingGemma 2 改造成语音转文字模型，做法是利用该模型中文本与音频共享同一向量空间，将音频映射到文本表示。创作者在 Hacker News 评论中表示，这个实验“能跑通”，准确率不错但低于云端模型，日常使用尚可，速度提升只是附带结果，并非最初目标。该实验并非正式发布的产品，给定材料未说明模型权重、代码或使用条件是否公开。",
+  "score": 7,
+  "tags": [
+    "EmbeddingGemma 2",
+    "speech-to-text",
+    "ASR",
+    "local-inference",
+    "multimodal-embeddings"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "amrrs",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50069971"
+    }
+  ],
+  "originalUrl": "https://eg2.haku.sh/",
+  "originalSite": "eg2.haku.sh",
+  "context": "EmbeddingGemma 2 是 Google DeepMind 发布的 740M 参数开放权重多模态嵌入模型，可将文本、代码、图像、视频帧与音频映射到同一个向量空间，主要用于本地隐私检索与多模态搜索，Horizon 10 月 8 日的日报曾报道其发布及配套的端侧演示（tool-1-3）。该模型本身面向嵌入与检索而非语音识别，因此这次实验的切入点正是它“文本与音频共享同一向量空间”这一特性：作者借此把音频表示直接对应到文本，从而在没有专门 ASR 架构的情况下完成转写（tool-2-1）。",
+  "discussion": "评论中的实用讨论集中在本地 ASR 加速与替代方案：有人建议把这类模型转成 CoreML 以在 macOS 神经引擎上运行，并称自己在多个音频/模型转换上有类似成功经验；另有用户报告在旧款 M1 MacBook Air 上用 Parakeet v3 配合 MacWhisper 转录“快得以为失败了”，以及 Apple 端上转录模型在自己的电脑上比官方报告结果慢约 3 倍、但错误率相近。这些均为用户个人报告，不是对模型性能的独立评测。",
+  "references": [
+    {
+      "title": "2026-10-08 — Google 发布 740M 参数开放权重模型 EmbeddingGemma 2",
+      "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/"
+    },
+    {
+      "title": "EmbeddingGemma 2 : Google&#x27;s Open Multimodal Model",
+      "url": "https://www.analyticsvidhya.com/blog/2026/10/embeddinggemma-2-multimodal-embeddings-guide/"
+    },
+    {
+      "title": "Fastest Local Speech -to-Text on a Mac : 3 Compared",
+      "url": "https://localaimaster.com/blog/best-speech-to-text-mac"
+    },
+    {
+      "title": "Parakeet vs Whisper on Mac : Speed vs Coverage — MetaWhisp",
+      "url": "https://metawhisp.com/blog/parakeet-vs-whisper-mac/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

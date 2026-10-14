@@ -1,0 +1,45 @@
+{
+  "id": "8fbbf2200ad306071aec1c045373b2ef551ed98d",
+  "canonicalId": "183ae684f51b17aa5aeb556516bb9343b8568ecb",
+  "slug": "apple-推出-homeview-家用设备主打-a18-secure-exclaves",
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-13T13:02:00Z",
+  "lang": "zh",
+  "title": "Apple 推出 HomeView 家用设备，主打 A18 Secure Exclaves",
+  "summary": "Apple 发布了名为 HomeView 的家用设备，其 A18 芯片包含 Secure Exclaves，按产品描述，摄像头与麦克风的数据在一个操作系统和 Apple 都无法访问的隔离区内处理，使设备能在不向系统暴露音视频数据的情况下识别人脸与语音。该设备不提供 App Store 访问。上述处理方式目前来自产品页面的描述，尚无独立验证；我掌握的资料中没有价格、上市时间和地区可用性信息。",
+  "score": 7,
+  "tags": [
+    "Apple hardware",
+    "smart home",
+    "secure enclave",
+    "on-device privacy",
+    "platform ecosystem"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "etothet",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50071017"
+    }
+  ],
+  "originalUrl": "https://www.apple.com/apple-homeview/",
+  "originalSite": "apple.com",
+  "context": "HomeView 所强调的 Secure Exclaves 并非全新机制：据相关报道，苹果最早随 M4 版 iPad Pro 引入这一隐私隔离特性，随后将其带到搭载 A18 芯片的 iPhone 16。按 HomeView 产品页的说明，其内置的 A18 芯片正是用 Secure Exclaves 把摄像头与麦克风数据放在操作系统和苹果都无法访问的隔离区域中处理，以便在不向系统暴露音视频素材的前提下识别人脸与声音。此外，苹果的 “Welcome Home” 活动还介绍了可与 Apple Home 生态衔接的安防摄像头、智能门锁、可视门铃与恒温器等设备类别。",
+  "discussion": "对用户和第三方开发者而言，最直接的约束是这台设备只能运行 Apple 内置的功能：没有 App Store 意味着开发者无法为其发布应用，用户也无法像使用 iPad 那样通过安装第三方应用来扩展用途。潜在买家的取舍因此取决于设备自带功能是否覆盖其日常使用场景。\n\n评论中一个主要观点认为 HomeView 最大的竞争对手是“旧 iPad”：schmichael 列举旧 iPad 有电池可脱离电源线、能装应用、且有大量第三方支架与挂墙配件。Brendinooo 表示，如果没有“足够完整”的 App Store 访问权限自己就不会购买，因为他家的通话和音乐播放都依赖 Messenger、Snapchat、Plexamp 等第三方应用；fmarasho 则对 Secure Exclaves 的隔离处理方式表示感兴趣。以上均为评论者的个人看法，不构成共识。",
+  "references": [
+    {
+      "title": "Apple HomeView - Apple",
+      "url": "https://www.apple.com/apple-homeview/"
+    },
+    {
+      "title": "Apple Brings New Privacy Feature &#x27; Secure Exclave &#x27; From M4 iPad...",
+      "url": "https://www.mymobileindia.com/apple-brings-new-privacy-feature-secure-exclave-from-m4-ipad-pro-to-iphone-16-with-a18-chip/"
+    },
+    {
+      "title": "Here is a recap of Apple ’s &quot;Welcome Home &quot; event where... - YouTube",
+      "url": "https://www.youtube.com/post/UgkxpMpv8PEILpsn6f5Nn0eGRCN4g_6apd8C"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
