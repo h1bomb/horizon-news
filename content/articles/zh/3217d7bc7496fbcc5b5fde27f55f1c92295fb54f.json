@@ -1,0 +1,41 @@
+{
+  "id": "3217d7bc7496fbcc5b5fde27f55f1c92295fb54f",
+  "canonicalId": "91731c3dcfc6dc58aa4448f448a85beba3bcbdd5",
+  "slug": "google-被指悄然跨账户关联用户手机号",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T16:28:00Z",
+  "lang": "zh",
+  "title": "Google 被指悄然跨账户关联用户手机号",
+  "summary": "据 Android Authority 报道，Google 正在静默地把用户手机号码关联到所有已登录账户，而不仅是最初使用该号码的账户。报道称这会影响 Android 用户和 Google 账户持有者，并引发对隐私与账户安全的担忧。目前缺乏 Google 官方说明，关联的触发条件、覆盖范围以及用户能否退出或解除关联仍不明确。",
+  "score": 7,
+  "tags": [
+    "Google",
+    "privacy",
+    "account security",
+    "phone number verification",
+    "Android"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Brajeshwar",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50090349"
+    }
+  ],
+  "originalUrl": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+  "originalSite": "androidauthority.com",
+  "context": "据搜索结果，Google 在 Android 上把电话号码验证改为默认开启（opt-out）：设备上的电话号码会自动验证并关联到该设备已登录的每一个 Google 账号，包括次要账号、工作账号和其他替代配置，用户不会收到明确提示（tool-2-1、tool-2-2）。这一机制是本次报道所讨论隐私与账号安全问题的直接背景。",
+  "discussion": "HN 评论区普遍批评这一做法；declan\\_roberts 认为手机号已成为“互联网的社会安全号码”，rdtsc 则担心一个 Google 账户出问题会连带锁死其他账户。也有用户提到，像 GrapheneOS 这样去 Google 化的设备可能因银行 App 的年龄验证要求而遇到使用障碍。",
+  "references": [
+    {
+      "title": "PSA: Google is silently linking your phone number across all ...",
+      "url": "https://ccstartup.com/blog/2026/10/14/psa-google-is-silently-linking-your-phone-number-across-all-signed-in-accounts/"
+    },
+    {
+      "title": "Google Is Silently Linking Your Phone Number Across All ...",
+      "url": "https://article.wn.com/view/2026/10/14/Google_Is_Silently_Linking_Your_Phone_Number_Across_All_Sign/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

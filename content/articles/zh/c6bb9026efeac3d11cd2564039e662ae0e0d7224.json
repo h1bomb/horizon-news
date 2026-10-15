@@ -1,0 +1,40 @@
+{
+  "id": "c6bb9026efeac3d11cd2564039e662ae0e0d7224",
+  "canonicalId": "b0e702832e00df4e30dc169b2e90e6d18d293247",
+  "slug": "linus-torvalds-发布首个-llm-辅助内核补丁系列",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T13:50:00Z",
+  "lang": "zh",
+  "title": "Linus Torvalds 发布首个 LLM 辅助内核补丁系列",
+  "summary": "Linux 内核创始人 Linus Torvalds 已将他首个借助大语言模型（LLM）编写的补丁系列提交评审，该系列共十个补丁。其做法是在检测到 folio 处于“热”状态时，把它的释放延迟到 RCU 宽限期之后，从而不仅像以往一样在 RCU 保护下完成 folio 查找，还让实际的 folio 数据访问本身也在这段 RCU 区域内进行——当用户态拷贝不触发缺页时，这条快路径无需获取引用计数。按 Torvalds 的说法，这使一个以 read\\(\\) 为主的基准测试获得约一个数量级的加速；但评审已指出代码中存在竞态条件，因此仍需进一步修改，该系列目前仍处于评审阶段、尚未合并。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "LLM-assisted development",
+    "RCU",
+    "memory management",
+    "performance optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100449/",
+  "originalSite": "lwn.net",
+  "context": "据 Horizon 10 月 13 日的日报，在布拉格举行的内核维护者峰会上，Linus Torvalds 已谈及 LLM 对开发社区的影响，认为问题不在 LLM 本身，而在于不熟悉内核和工具的使用者，并主张对低质量贡献给予低优先级（tool-1-2）。同一峰会还决定调整 Sashiko 自动审查并取消 Assisted-by 标签，显示内核社区正在重新划定 LLM 辅助贡献的审查规则。Torvalds 随后发布首个 LLM 辅助补丁系列，可视为这一讨论进入具体代码审查阶段。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-10-13 — Linux 内核维护者峰会：Sashiko 调整与 Assisted-by 标签取消",
+      "url": "https://lwn.net/Articles/1099594/"
+    },
+    {
+      "title": "Linus Torvalds is using AI to develop Linux kernel code now - ZDNET",
+      "url": "https://www.zdnet.com/innovation/linus-torvalds-uses-ai-to-write-linux-kernel-patch/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

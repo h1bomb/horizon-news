@@ -1,0 +1,41 @@
+{
+  "id": "f669fb4944d8f2e53709bc57c67d2437a4f110fb",
+  "canonicalId": "1f9db072441be3e9b4e78f24d0669e8f0461b02b",
+  "slug": "go-127-改进-http1-连接复用",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T16:29:00Z",
+  "lang": "zh",
+  "title": "Go 1.27 改进 HTTP/1 连接复用",
+  "summary": "Go 官方博客发布文章，介绍 Go 1.27 中 net/http 针对 HTTP/1 连接复用的改进。这是一次标准库层面的增量更新，面向把 net/http 当作 HTTP/1 客户端、依赖连接复用来减少重复建连开销的服务与工具。由于该条目未附原文内容，具体实现方式与生效条件（例如是否默认启用、是否需要显式配置）暂无来源可确认。",
+  "score": 7,
+  "tags": [
+    "Go",
+    "net/http",
+    "HTTP/1",
+    "connection reuse",
+    "standard library"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "allddd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50090369"
+    }
+  ],
+  "originalUrl": "https://go.dev/blog/http-connection-reuse",
+  "originalSite": "go.dev",
+  "context": "在 Go 中，调用 Response.Body.Close\\(\\) 的语义并不总是物理关闭底层 TCP 连接，而是把连接归还给 net/http 维护的连接池，以便后续请求复用而不是重新建连（tool-2-1）。正因如此，能否真正复用连接取决于响应体是否被完整读取等具体条件，这也是使用 net/http 作为 HTTP 客户端时长期容易踩坑的地方（tool-2-3）。",
+  "discussion": "这一改动触及长期困扰 Go HTTP 客户端的问题：响应体需要被完整读取并关闭，HTTP/1 连接才会被复用；评论者 jamesponddotco 表示自己因此可以停用第三方辅助库 xhttp.DrainResponseBody，说明部分自定义的 drain 逻辑可能变得多余。另一方面，评论者 jerf 指出 net/http 的文档并未说明与连接复用相关的 Close 行为，因此在升级前后仍需自行验证如何强制关闭连接，而不能只依赖官方说明。\n\n讨论的主要分歧在文档而非实现：jerf 认为 net/http 未记录与连接复用相关的 Close 行为，而这恰恰是使用 Go 写 HTTP 客户端的常见疑问；rkuska 则补充了一个边界情况，用 json.Decoder 读取响应体时，若数据后残留换行符仍可能导致连接无法复用，并建议解码后检查 Decoder.More。另有评论者 giancarlostoro 追问标准库何时支持 HTTP/3，并强调 Go 开箱即用的 HTTP 支持是其普及的重要原因。",
+  "references": [
+    {
+      "title": "Response Body and Connection Reuse in Go | Igor&#x27;s Tech Corner",
+      "url": "https://yngvest.github.io/blog/posts/go-pconn/"
+    },
+    {
+      "title": "go - HTTP reuse connection condition - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/44747374/http-reuse-connection-condition"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

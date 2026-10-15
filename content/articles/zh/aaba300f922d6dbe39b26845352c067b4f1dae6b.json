@@ -1,0 +1,44 @@
+{
+  "id": "aaba300f922d6dbe39b26845352c067b4f1dae6b",
+  "canonicalId": "8f35af6ee12f2c4e4055d0e7f1dc7093f0874898",
+  "slug": "gcc-出台限制-llm-生成代码贡献的政策",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T13:13:00Z",
+  "lang": "zh",
+  "title": "GCC 出台限制 LLM 生成代码贡献的政策",
+  "summary": "GCC 项目正式出台了关于在编译器套件开发中使用大语言模型的政策，其核心是拒绝任何包含或衍生于 LLM 生成内容的、具有法律意义的贡献；项目认为这一领域的法律尚未确定，因而采取保守立场。政策并非一刀切：对测试套件的补充限制更宽松，而借助 LLM 理解代码、查找缺陷、审查补丁等辅助用途仍然允许，Jeff Law 表示政策会定期审查并可能在近期修订。在 2026 年 GNU Tools Cauldron 上，Law 与 Kyrill Tkachov 介绍了实际用法：LLM 擅长找出错误或缺失的测试、构造最小复现、定位根因（可检查 GIMPLE 和 RTL 中间表示并提出修复），Law 还用 QEMU 插件找出热点代码交给模型评估，称在查看的每个基准测试上都找到了改进。两人同时指出局限：补丁审查结果中只有约 20% 有用，最难的是写好提示词，用第二个 LLM 为第一个写提示词更是「惨败」，所有输出仍需人工复核。",
+  "score": 7,
+  "tags": [
+    "open source",
+    "LLM policy",
+    "GCC",
+    "compilers",
+    "AI-assisted development"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098672/",
+  "originalSite": "lwn.net",
+  "context": "本次讨论的对象——GCC 的 AI 贡献政策——并非会议期间才出现：此前 GCC 指导委员会已接受其 AI 政策工作组建议的贡献政策，核心条款是拒绝任何“包含 LLM 生成内容或由 LLM 生成内容衍生的具法律意义的贡献”，外部报道称该政策于 2026 年 7 月底在 gcc 邮件列表公布，并附件说明约 15 行以上的 LLM 生成补丁属于受限范围（测试用例除外）。因此 2026 年 GNU Tools Cauldron 上这次分享的新内容不是政策本身，而是维护者在政策约束下把 LLM 用于找 bug、根因定位、原型验证和补丁评审的实际经验与局限。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GCC steering committee announces AI policy [LWN.net]",
+      "url": "https://lwn.net/Articles/1086041/"
+    },
+    {
+      "title": "GCC Will Decline LLM Written Patches, With One... | PeopleAreGeek",
+      "url": "https://peoplearegeek.com/articles/gcc-declines-llm-generated-contributions/"
+    },
+    {
+      "title": "The Sashiko patch-review system - lwn.net",
+      "url": "https://lwn.net/Articles/1063292/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

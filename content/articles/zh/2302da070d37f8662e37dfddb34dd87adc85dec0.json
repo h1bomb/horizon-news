@@ -1,0 +1,41 @@
+{
+  "id": "2302da070d37f8662e37dfddb34dd87adc85dec0",
+  "canonicalId": "d99ce6561eba5656272e1c36437478c2cfe2f0b7",
+  "slug": "cloudflareyandex-宕机期间恶意机器人未消失而是转移",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T20:29:00Z",
+  "lang": "zh",
+  "title": "Cloudflare：Yandex 宕机期间恶意机器人未消失而是转移",
+  "summary": "Cloudflare 的一篇博客根据其网络数据称，在 Yandex 宕机期间，恶意机器人流量没有停摆，而是发生了转移。该分析关注的是大型服务中断期间恶意机器人活动是否真的减少，以及这些流量可能转向何处。Hacker News 评论者则围绕这一结论争论其对俄罗斯社交媒体操纵机器人的含义。",
+  "score": 7,
+  "tags": [
+    "Cloudflare",
+    "bot traffic",
+    "network outage",
+    "internet measurement",
+    "cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "coloneltcb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50094673"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/yandex-outage/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "此事的前情是无人机袭击导致 Yandex 多个数据中心受损，据 Tom&\\#x27;s Hardware 引述 Cloudflare 数据，来自 Yandex 网络的 HTTP 请求量在两周内一度跌至峰值的约 0.4%。但研究者 antibot4navalny 在 X 上指出，被广泛传播的那张流量骤降图表实际统计的是 Yandex 的自动网页爬虫，而非人们通常联想到的社交平台舆论机器人，The Verge 也据此认为不能把这次下降等同于俄罗斯机器人活动整体停摆。Cloudflare 的分析因此把两件事区分开：搜索爬虫停止抓取，而恶意机器人只是迁移到其他网络继续活动。",
+  "discussion": "对防御方而言，这意味着不能把大型服务宕机当作恶意机器人活动减弱的信号；监测和拦截策略需要预期机器人活动会继续而非随之中断。\n\n评论者 gruez 强调博客的核心结论是没有证据显示相关事件让社交媒体操纵活动下线，直接反驳了“俄罗斯水军因攻击而消失”的说法；taeric 则提出社交媒体当时看似安静，可能只是这些账号依赖新闻抓取机器人来定位回应目标。fierycatnet 和 Bender 也分别质疑相关流量可能是搜索引擎爬虫，并称个人观察到的机器人数量并未减少。",
+  "references": [
+    {
+      "title": "The Yandex outage probably didn’t blitz Russian bots | The Verge",
+      "url": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk"
+    },
+    {
+      "title": "Russia&#x27;s Yandex bot traffic nearly eliminated... | Tom&#x27;s Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

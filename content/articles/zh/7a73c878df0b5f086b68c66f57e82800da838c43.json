@@ -1,0 +1,36 @@
+{
+  "id": "7a73c878df0b5f086b68c66f57e82800da838c43",
+  "canonicalId": "0215634a1b297f19eeae928174fd529013714cb2",
+  "slug": "kde-plasma-68-发布改进无障碍集成-kup并移除-x11-会话",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T13:41:00Z",
+  "lang": "zh",
+  "title": "KDE Plasma 6.8 发布：改进无障碍、集成 Kup，并移除 X11 会话",
+  "summary": "KDE 项目发布了 KDE Plasma 6.8，并将发布时间安排在 Matthias Ettrich 宣布 KDE 项目 30 周年之际。该版本带来无障碍改进，将 Kup 备份工具纳入 Plasma，并允许 Spectacle 屏幕录制加入系统音频和麦克风输入。Plasma 6.8 同时不再支持 Plasma X11 会话，这一决定已于 2025 年 11 月公布；X11 应用仍可通过 XWayland 运行，KDE 应用也将在可预见的未来继续支持 X11。",
+  "score": 7,
+  "tags": [
+    "KDE Plasma",
+    "Linux desktop",
+    "open source",
+    "accessibility",
+    "screen recording"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100429/",
+  "originalSite": "lwn.net",
+  "context": "这是 Plasma 6.7 之后的下一个功能版本：Horizon 2026 年 6 月 17 日的日报曾报道 6.7 引入多显示器下各屏幕独立的虚拟桌面、更快的桌面切换以及 Union 主题系统的技术预览。关于本次移除 Plasma X11 会话，KDE 已在 2025 年 11 月公布全面转向 Wayland 的计划，X11 应用仍可通过 XWayland 运行。Kup 原本是独立于 Plasma 的 KDE 备份工具，此次被纳入 Plasma 成为桌面的一部分。",
+  "discussion": "对仍依赖 Plasma X11 会话的用户来说，升级到 6.8 后该会话将不可用，需要改用 Wayland；依赖仅支持 X11 的老应用时可通过 XWayland 继续运行，但不应再指望 Plasma 提供原生 X11 会话。",
+  "references": [
+    {
+      "title": "2026-06-17 — KDE Plasma 6.7 released with per-screen virtual desktops and Union theming",
+      "url": "https://lwn.net/Articles/1078160/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

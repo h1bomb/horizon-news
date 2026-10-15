@@ -1,0 +1,45 @@
+{
+  "id": "adfb772d00a6996737358e63fe606c3cb6017773",
+  "canonicalId": "be362ab16722e13d698b655a7552f04cac4d56c9",
+  "slug": "timescale-发布-pg-vectorsearchprism-索引宣称快于-pgvector-的-ivfflat-与-hnsw",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T11:47:00Z",
+  "lang": "zh",
+  "title": "Timescale 发布 pg\\_vectorsearch：PRISM 索引宣称快于 pgvector 的 IVFFlat 与 HNSW",
+  "summary": "Timescale（Tiger Data）在 GitHub 发布了 pg\\_vectorsearch，这是一个基于量化 IVF 结构、名为 PRISM 的 PostgreSQL 向量索引扩展，项目方宣称其性能优于 pgvector 的 IVFFlat 与 HNSW。这一性能说法目前来自项目自身的说明以及该公司 CTO 撰写的技术文章，尚无独立复现的基准数据。社区成员指出两项采用门槛：PRISM 的向量维度上限为 1968 维，超过该维度的现有 HNSW 索引无法直接迁移；该扩展要求 PostgreSQL 18 或更高版本。此外，该索引目前只支持后置过滤（post-filtering），这限制了按租户或权限范围进行高效检索的场景。",
+  "score": 7,
+  "tags": [
+    "PostgreSQL",
+    "vector search",
+    "indexing",
+    "pgvector",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jascha\\_eng",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50086165"
+    }
+  ],
+  "originalUrl": "https://github.com/timescale/pg_vectorsearch",
+  "originalSite": "github.com",
+  "context": "pgvector 是 PostgreSQL 上应用最广的向量检索扩展，提供 IVFFlat（量化倒排索引）与 HNSW（图结构索引）两条技术路线，长期被视作该场景的比较基准。Timescale 此次发布的 pg\\_vectorsearch 引入名为 PRISM 的量化 IVF 索引，按项目方的说法，它用分区加压缩取代 HNSW 的图结构，从而在查询与索引构建上更快、内存占用更低。",
+  "discussion": "评论者 Rapzid 指出 pg\\_vectorsearch 目前仅支持后置过滤，认为这让按租户、用户或权限范围的高效检索很难实现；用户 EgregiousCube 则表示自己正在使用竞品 VectorChord，并乐见低内存向量索引工具出现更多竞争。还有评论者 arunmu 质疑为何不在此前似乎已缺乏维护的 pgvectorscale 上继续改进，而要另起一个新的索引，Tiger Data 的 CTO（mfreed）在讨论中发布了介绍 PRISM 架构的技术文章链接作为回应。",
+  "references": [
+    {
+      "title": "GitHub - timescale/pg_vectorsearch: High-performance vector ...",
+      "url": "https://github.com/timescale/pg_vectorsearch"
+    },
+    {
+      "title": "pg_vectorsearch: PRISM Index Beats IVFFlat and HNSW",
+      "url": "https://imasters.com/news/timescale-unveils-pg-vectorsearch-to-outperform-pgvector"
+    },
+    {
+      "title": "Announcing pg_vectorsearch: Scalable Open-Source Vector ...",
+      "url": "https://www.tigerdata.com/blog/announcing-pg_vectorsearch-scalable-open-source-vector-search-postgresql"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,278 @@
 {
   "articles": [
     {
+      "id": "c6bb9026efeac3d11cd2564039e662ae0e0d7224",
+      "canonicalId": "b0e702832e00df4e30dc169b2e90e6d18d293247",
+      "slug": "linus-torvalds-发布首个-llm-辅助内核补丁系列",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Linus Torvalds 发布首个 LLM 辅助内核补丁系列",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "LLM-assisted development",
+        "RCU",
+        "memory management",
+        "performance optimization"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "d2889a21e8f0398594fcc1517daf5caf306cab3d",
+      "canonicalId": "7db63d362d928ed7bf24240584b456744d4aa1af",
+      "slug": "opencode-20-发布重构代理循环技能与插件自动重载",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "OpenCode 2.0 发布：重构代理循环，技能与插件自动重载",
+      "score": 7,
+      "tags": [
+        "AI coding agents",
+        "open source",
+        "developer tools",
+        "software releases",
+        "Effect"
+      ],
+      "originalSite": "anoma.ly"
+    },
+    {
+      "id": "322732bdbaac067a793689133745dd23f7869525",
+      "canonicalId": "4c6dccd918712eb7937b6a317c665f72c41be205",
+      "slug": "scott-helme-回应通行密钥是陷阱之争问题在实现",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Scott Helme 回应“通行密钥是陷阱”之争：问题在实现",
+      "score": 7,
+      "tags": [
+        "passkeys",
+        "authentication",
+        "web security",
+        "FIDO2",
+        "privacy"
+      ],
+      "originalSite": "scotthelme.co.uk"
+    },
+    {
+      "id": "f669fb4944d8f2e53709bc57c67d2437a4f110fb",
+      "canonicalId": "1f9db072441be3e9b4e78f24d0669e8f0461b02b",
+      "slug": "go-127-改进-http1-连接复用",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Go 1.27 改进 HTTP/1 连接复用",
+      "score": 7,
+      "tags": [
+        "Go",
+        "net/http",
+        "HTTP/1",
+        "connection reuse",
+        "standard library"
+      ],
+      "originalSite": "go.dev"
+    },
+    {
+      "id": "4e9c3bc991aa460281ec7c5957920199e9f4c5e7",
+      "canonicalId": "1d15ef475cf5e3700c484ba533550aac3b79deb4",
+      "slug": "专家ai-黑客事件根源是隔离与监控失败",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "专家：AI 黑客事件根源是隔离与监控失败",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "AI safety",
+        "security",
+        "sandboxing",
+        "frontier labs"
+      ],
+      "originalSite": "csoonline.com"
+    },
+    {
+      "id": "2302da070d37f8662e37dfddb34dd87adc85dec0",
+      "canonicalId": "d99ce6561eba5656272e1c36437478c2cfe2f0b7",
+      "slug": "cloudflareyandex-宕机期间恶意机器人未消失而是转移",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Cloudflare：Yandex 宕机期间恶意机器人未消失而是转移",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "bot traffic",
+        "network outage",
+        "internet measurement",
+        "cybersecurity"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "3217d7bc7496fbcc5b5fde27f55f1c92295fb54f",
+      "canonicalId": "91731c3dcfc6dc58aa4448f448a85beba3bcbdd5",
+      "slug": "google-被指悄然跨账户关联用户手机号",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Google 被指悄然跨账户关联用户手机号",
+      "score": 7,
+      "tags": [
+        "Google",
+        "privacy",
+        "account security",
+        "phone number verification",
+        "Android"
+      ],
+      "originalSite": "androidauthority.com"
+    },
+    {
+      "id": "adfb772d00a6996737358e63fe606c3cb6017773",
+      "canonicalId": "be362ab16722e13d698b655a7552f04cac4d56c9",
+      "slug": "timescale-发布-pg-vectorsearchprism-索引宣称快于-pgvector-的-ivfflat-与-hnsw",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Timescale 发布 pg\\_vectorsearch：PRISM 索引宣称快于 pgvector 的 IVFFlat 与 HNSW",
+      "score": 7,
+      "tags": [
+        "PostgreSQL",
+        "vector search",
+        "indexing",
+        "pgvector",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "7a73c878df0b5f086b68c66f57e82800da838c43",
+      "canonicalId": "0215634a1b297f19eeae928174fd529013714cb2",
+      "slug": "kde-plasma-68-发布改进无障碍集成-kup并移除-x11-会话",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "KDE Plasma 6.8 发布：改进无障碍、集成 Kup，并移除 X11 会话",
+      "score": 7,
+      "tags": [
+        "KDE Plasma",
+        "Linux desktop",
+        "open source",
+        "accessibility",
+        "screen recording"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "aaba300f922d6dbe39b26845352c067b4f1dae6b",
+      "canonicalId": "8f35af6ee12f2c4e4055d0e7f1dc7093f0874898",
+      "slug": "gcc-出台限制-llm-生成代码贡献的政策",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "GCC 出台限制 LLM 生成代码贡献的政策",
+      "score": 7,
+      "tags": [
+        "open source",
+        "LLM policy",
+        "GCC",
+        "compilers",
+        "AI-assisted development"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "b4e4c0d1c2c6a99cd0a8a8e168b079189b69f83f",
+      "canonicalId": "8c17f1f1ac30a4ed7675999bf42cfdc439a732b4",
+      "slug": "anthropic-用自研-scion-替换-git称五个月完成迁移",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Anthropic 用自研 Scion 替换 Git，称五个月完成迁移",
+      "score": 7,
+      "tags": [
+        "version control",
+        "Git",
+        "Anthropic",
+        "CI/CD",
+        "developer infrastructure"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "c3dc92249c297e821b22a34ce85da94661e0dafa",
+      "canonicalId": "5cb1618c1db568b5987239fb7604905d493f5d44",
+      "slug": "deepmind-与新加坡推出端侧-gemma-反诈模型",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "DeepMind 与新加坡推出端侧 Gemma 反诈模型",
+      "score": 7,
+      "tags": [
+        "on-device AI",
+        "scam detection",
+        "Gemma",
+        "AI privacy",
+        "DeepMind"
+      ],
+      "originalSite": "deepmind.google"
+    },
+    {
+      "id": "82aa5ade702e5d7440782007a8f2a8a7f9a67eb8",
+      "canonicalId": "5223d04b69b1282b64cf6d8cf421ad4ce0014b29",
+      "slug": "science-corporation-为-stargardt-病患者植入-prima-视觉芯片",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "Science Corporation 为 Stargardt 病患者植入 PRIMA 视觉芯片",
+      "score": 7,
+      "tags": [
+        "neurotechnology",
+        "visual prosthesis",
+        "medical devices",
+        "retinal implant",
+        "hardware"
+      ],
+      "originalSite": "science.xyz"
+    },
+    {
+      "id": "7e1c444f07c37024790e8bbcc1b7c616d96a3e70",
+      "canonicalId": "8d034068db5e4e02b9af7cd6cbed5394177e482e",
+      "slug": "涌现性错位一次窄微调如何改变模型整体行为",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "涌现性错位：一次窄微调如何改变模型整体行为",
+      "score": 7,
+      "tags": [
+        "emergent misalignment",
+        "LLM fine-tuning",
+        "AI safety evaluation",
+        "inductive backdoors",
+        "persona features"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "ddd8cfc4a7a9c8bb8b4386ee0ea4314cc1f7d809",
+      "canonicalId": "f39a16a4a873ad7ccabbfb88a8d49a2c92705a3d",
+      "slug": "美国银行三季度利润降-17营收不及预期并遭-12-亿美元监管罚款",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "美国银行三季度利润降 17%：营收不及预期并遭 12 亿美元监管罚款",
+      "score": 8,
+      "tags": [
+        "Bank of America",
+        "Q3 earnings",
+        "regulatory penalty",
+        "trading revenue",
+        "bank stocks"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "76aaa61d4e715600d6940a07d0c65bba2c258117",
+      "canonicalId": "33f3a2683eb5e17c07fdeee165101844d6ddad2d",
+      "slug": "中国-9-月出口同比增-363进口增-31双双超出预期",
+      "date": "2026-10-15",
+      "lang": "zh",
+      "title": "中国 9 月出口同比增 36.3%、进口增 31%，双双超出预期",
+      "score": 8,
+      "tags": [
+        "China economy",
+        "international trade",
+        "exports",
+        "imports",
+        "trade surplus"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "a4d11a907676d7cb4cabc0f76cbedbac259fbaf1",
       "canonicalId": "d1f8258ec212ab0708b24e4755458972f67c69d5",
       "slug": "谷歌-deepmind-发布-gemini-4-argon-大模型",
@@ -4884,210 +5156,6 @@
         "fixed-asset investment",
         "credit growth",
         "macro policy"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "ea65d894479ccf5003061d70abbbdd19e6bf1290",
-      "canonicalId": "03f1b5d4496010a687484d059969c9e7882e4ec1",
-      "slug": "苹果发布-ios-27ipados-27-与-macos-27",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "苹果发布 iOS 27、iPadOS 27 与 macOS 27",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "iOS/macOS release",
-        "Safari MCP server",
-        "platform updates",
-        "developer tools"
-      ],
-      "originalSite": "apple.com"
-    },
-    {
-      "id": "c60e147baf876f2c3cefcc500b1481d6d6ed1a3f",
-      "canonicalId": "dce815e05e9f3d478b46512032a8ed78605fe7a9",
-      "slug": "openai-机器人早已知晓-rubygems-缓存漏洞",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "OpenAI 机器人早已知晓 RubyGems 缓存漏洞",
-      "score": 8,
-      "tags": [
-        "AI agents",
-        "open source security",
-        "RubyGems",
-        "vulnerability disclosure",
-        "AI liability"
-      ],
-      "originalSite": "tenderlovemaking.com"
-    },
-    {
-      "id": "2f0c0dc98100749c96c9a395eb9df59b1bb2f2c8",
-      "canonicalId": "2c4626fc164acba5e8648a433b282dbf7322552d",
-      "slug": "tokio-高性能应用原则与社区补充",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "Tokio 高性能应用原则与社区补充",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "Tokio",
-        "async runtime",
-        "performance optimization",
-        "concurrency"
-      ],
-      "originalSite": "dial9-rs.github.io"
-    },
-    {
-      "id": "c68aeb580b08ce6b598a58b4cc5ecf4fadcb860c",
-      "canonicalId": "30c3ab9e97c888deada0090be7a6c9138517d3e0",
-      "slug": "emacs-任意代码执行漏洞修复不完整",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "Emacs 任意代码执行漏洞修复不完整",
-      "score": 8,
-      "tags": [
-        "Emacs",
-        "security vulnerability",
-        "arbitrary code execution",
-        "CVE-2024-53920",
-        "open source"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "61ec07973c84f57d082d551cf837b187e7596138",
-      "canonicalId": "dcbc9a79c4e9a221c36977fa0d9c58915f18df08",
-      "slug": "第九巡回法院审理亚马逊诉-perplexity-上诉案",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "第九巡回法院审理亚马逊诉 Perplexity 上诉案",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "e-commerce",
-        "CFAA",
-        "web scraping",
-        "legal precedent"
-      ],
-      "originalSite": "law.justia.com"
-    },
-    {
-      "id": "b6a2f8da9ec75fc4cde9b2cb8f50af20202f483a",
-      "canonicalId": "b656700a8612e1733f9c81e54fab46b3ac5d40da",
-      "slug": "数学的开端ai-与数学研究评估之辩",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "《数学的开端》：AI 与数学研究评估之辩",
-      "score": 7,
-      "tags": [
-        "AI in mathematics",
-        "research evaluation",
-        "human-AI collaboration",
-        "academia",
-        "AI-assisted workflows"
-      ],
-      "originalSite": "daniellitt.com"
-    },
-    {
-      "id": "d1ea75e567d1d02eadd86fec9551a905aac970c1",
-      "canonicalId": "24e4fba4ebe2e0de960b43794a35b43132e9b396",
-      "slug": "微软补丁致-windows-音频远程访问与粘贴功能出错",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "微软补丁致 Windows 音频、远程访问与粘贴功能出错",
-      "score": 7,
-      "tags": [
-        "Microsoft",
-        "Windows Update",
-        "software regressions",
-        "remote desktop",
-        "Excel"
-      ],
-      "originalSite": "theregister.com"
-    },
-    {
-      "id": "bd6425900e98d585b25cb62a3b733c6d4435dbbc",
-      "canonicalId": "8c13889dc16ced6e20b6ca38f02a3302eddcbeef",
-      "slug": "坎特里尔回应-ai-灭绝论恐惧驱动推演不可取",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "坎特里尔回应 AI 灭绝论：恐惧驱动推演不可取",
-      "score": 7,
-      "tags": [
-        "AI safety",
-        "existential risk",
-        "AI discourse",
-        "Anthropic",
-        "tech commentary"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "52fdc0feee082327817e65a01b9316a29c3577a4",
-      "canonicalId": "d6dce00fbe66c3e54bfe41020e743eeba7fe0d18",
-      "slug": "debian-前-dpl-tille-分享任期经验与-llm-决议看法",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "Debian 前 DPL Tille 分享任期经验与 LLM 决议看法",
-      "score": 7,
-      "tags": [
-        "Debian",
-        "open source governance",
-        "LLM policy",
-        "project leadership",
-        "community"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "b9361c735e5a2125f0b2b746bb6093915230bf01",
-      "canonicalId": "f2d0534a9607accb430ba3b3b27d893795397ef3",
-      "slug": "特朗普拒绝放缓-ai-发展呼吁强调不落后中国",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "特朗普拒绝放缓 AI 发展呼吁，强调不落后中国",
-      "score": 7,
-      "tags": [
-        "AI regulation",
-        "AI policy",
-        "Trump administration",
-        "US-China tech competition",
-        "technology industry"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "5928ec8f6a918c0513c9af500e5e0b2388916473",
-      "canonicalId": "84a222ae95f1c442d0e2590f22345602fc9faa2a",
-      "slug": "llm-评估从黄金数据集到-llm-裁判",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "LLM 评估：从黄金数据集到 LLM 裁判",
-      "score": 6,
-      "tags": [
-        "LLM evaluation",
-        "LLM-as-a-judge",
-        "golden datasets",
-        "RAG evaluation",
-        "AI observability"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "c2c7dbff92d35b945e253d774aa511870c814d76",
-      "canonicalId": "62cdd0a7620f8def6bec5a2ac0bf498a4b06a5e4",
-      "slug": "美联储本周预计加息沃什的公信力面临考验",
-      "date": "2026-09-15",
-      "lang": "zh",
-      "title": "美联储本周预计加息：沃什的公信力面临考验",
-      "score": 8,
-      "tags": [
-        "Federal Reserve",
-        "Interest rates",
-        "Inflation",
-        "Trump tariffs",
-        "Iran war"
       ],
       "originalSite": "cnbc.com"
     }

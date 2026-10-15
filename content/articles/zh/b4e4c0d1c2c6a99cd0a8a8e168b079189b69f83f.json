@@ -1,0 +1,48 @@
+{
+  "id": "b4e4c0d1c2c6a99cd0a8a8e168b079189b69f83f",
+  "canonicalId": "8c17f1f1ac30a4ed7675999bf42cfdc439a732b4",
+  "slug": "anthropic-用自研-scion-替换-git称五个月完成迁移",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T02:30:00Z",
+  "lang": "zh",
+  "title": "Anthropic 用自研 Scion 替换 Git，称五个月完成迁移",
+  "summary": "Anthropic 宣布用自研版本控制系统 Scion 全面替换 Git，并在五个月内完成主仓库迁移，参与迁移的团队仅七人。据该转述，其日合并代码量从 2026 年 5 月的约 2500 次增至 9 月的超过 3 万次。Scion 的设计是客户端始终在线、计算由服务端承担、数据分布式存储；Anthropic 称其 CPU 与内存占用约为原 Git 镜像架构的 1/200，CI 检出速度提升约百倍，CI 算力节省 25%。上述规模与性能数字均为 Anthropic 自述，来源是一则简短的社交平台转述，尚无独立验证或第三方复现。",
+  "score": 7,
+  "tags": [
+    "version control",
+    "Git",
+    "Anthropic",
+    "CI/CD",
+    "developer infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/engineering/redesigning-source-control",
+  "originalSite": "anthropic.com",
+  "context": "在迁移之前，Anthropic 的 monorepo 跑在一套基于 git 的镜像架构上，而这套基础设施是按人类提交代码的节奏设计的；随着 Claude 自身产出代码的数量上升，Anthropic 表示原有方案已难以承载合并负载，替换因此成为必然。据其工程博客，Scion 只是这次改造的一部分，同期还构建并上线了代码评审界面 Antique、代码搜索以及源代码控制 IAM 系统。",
+  "discussion": "对 Anthropic 内部工程而言，收益集中在 CI 环节：官方工程博客称团队用五个月完成向自研系统的迁移后，编码已不再是构建系统或开展研究的瓶颈（tool-3-1）；第三方报道给出的量化结果是 CI 检出速度提升约百倍、CI 算力节省 25%，支撑这一效果的是客户端常在线、计算放到服务端、数据分布式存储的架构（tool-3-3）。由于 Scion 被描述为内部自研系统而非对外发布的产品，其他组织无法直接采用，可借鉴的是这一服务端架构取向，而不是一条与现有 Git 工具链兼容的迁移路径。",
+  "references": [
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+      "title": "Anthropic Builds In-house Version Of Git Called Scion After ...",
+      "url": "https://officechai.com/ai/anthropic-builds-in-house-version-of-git-called-scion-after-code-merges-rise-12x-in-4-months/"
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+      "title": "Anthropic Builds Scion to Replace Git After Merges Hit 30,000 ...",
+      "url": "https://aiweekly.co/alerts/anthropic-builds-scion-to-replace-git-after-merges-hit-30000day"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

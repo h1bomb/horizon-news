@@ -1,0 +1,41 @@
+{
+  "id": "d2889a21e8f0398594fcc1517daf5caf306cab3d",
+  "canonicalId": "7db63d362d928ed7bf24240584b456744d4aa1af",
+  "slug": "opencode-20-发布重构代理循环技能与插件自动重载",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T20:48:00Z",
+  "lang": "zh",
+  "title": "OpenCode 2.0 发布：重构代理循环，技能与插件自动重载",
+  "summary": "开源 AI 编码代理 OpenCode 发布 2.0 版本，其说明页面于 10 月 14 日出现在 Hacker News 上；本次条目未附带原文正文，具体改动主要来自评论者的描述。多位评论者称 V2 解决了 V1 的若干痛点：技能与插件现在会自动重载，任务可以转入后台（但据称还不会自动后台化），内置了用于编辑配置的技能，前端界面得到改进，代理循环据称基于 Effect 重新架构，配置改为从创建会话所在的文件夹加载。一名评论者还提到，可以用原生应用连接 OpenCode 服务器，从而在远程主机上运行会话。",
+  "score": 7,
+  "tags": [
+    "AI coding agents",
+    "open source",
+    "developer tools",
+    "software releases",
+    "Effect"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gmays",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50094994"
+    }
+  ],
+  "originalUrl": "https://anoma.ly/notes/opencode-2-0/",
+  "originalSite": "anoma.ly",
+  "context": "OpenCode 是一个开源 AI 编码代理，提供终端界面、桌面应用和网页应用三种形态（npm 包通过 postinstall 脚本选择对应平台的原生二进制文件）。据 OpenCode 2.0 的项目说明，它从一开始就采用客户端/服务器架构，但此前默认并未真正加以利用，主要只有高级用户在用；2.0 让这个服务器自动作为单一后台进程在用户机器上运行。",
+  "discussion": "对在远程主机上运行长时间会话的开发者，评论者 afruitpie 表示 OpenCode 的原生应用加服务器模式能让会话在重连后继续存在，并称 Claude Code 的桌面应用会在重连时重启并覆盖长时间运行的会话。该对比目前仅来自评论者体验，未在条目正文中得到确认。\n\n评论者 solarkraft 认为 V2 消除了 V1 的多数烦人之处，而 denysvitali 报告 curl \\| bash 安装脚本因进度条渲染而异常缓慢（6 分钟才到 10%），并称改为 \\`curl ... \\| bash 2&gt;&amp;1 \\| cat\\` 可绕过。讨论中还有一处未解决的分歧：unrented7977 指出 OpenCode 曾被改名为 Crush、原开发者转去做新项目，因此质疑 2.0 从何而来、是否为 fork，所给材料中没有回应。",
+  "references": [
+    {
+      "title": "Intro | OpenCode",
+      "url": "https://opencode.ai/v2/docs"
+    },
+    {
+      "title": "OpenCode 2 . 0",
+      "url": "https://anoma.ly/notes/opencode-2-0/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

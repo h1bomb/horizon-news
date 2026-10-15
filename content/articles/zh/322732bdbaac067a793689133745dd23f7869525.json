@@ -1,0 +1,45 @@
+{
+  "id": "322732bdbaac067a793689133745dd23f7869525",
+  "canonicalId": "4c6dccd918712eb7937b6a317c665f72c41be205",
+  "slug": "scott-helme-回应通行密钥是陷阱之争问题在实现",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T15:15:00Z",
+  "lang": "zh",
+  "title": "Scott Helme 回应“通行密钥是陷阱”之争：问题在实现",
+  "summary": "署名 Scott Helme 的安全博文《Passkeys are not a trap》反驳了把通行密钥（passkeys）定性为“陷阱”的既有论述，主张通行密钥机制本身并非陷阱，争议涉及的核心是认证器证明（attestation）、平台锁定风险与用户体验。该文在 Hacker News 上引发约 607 条评论的讨论，但原文内容未被提供，本条仅依据标题、分析摘要与社区评论整理，无法核实文中具体的技术论证与例证。",
+  "score": 7,
+  "tags": [
+    "passkeys",
+    "authentication",
+    "web security",
+    "FIDO2",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speckx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50088935"
+    }
+  ],
+  "originalUrl": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+  "originalSite": "scotthelme.co.uk",
+  "context": "在本文之前，Hacker News 上流传一篇题为“Passkeys are a trap. Do not use them.”的文章，称通行密钥所依赖的 WebAuthn 认证声明（attestation）机制可能让网站要求证明凭据由何种设备或软件创建，从而限制用户。Scott Helme 的《Passkeys are not a trap》正是对此的回应，讨论重点是 WebAuthn 认证声明的实际工作方式，以及面向消费者的同步通行密钥与托管环境中硬件认证器之间的区别。",
+  "discussion": "评论者 bonzog 表示自己无法判断通行密钥是否算“陷阱”，但作为用户认为其设置流程“令人困惑”；ShakataGaNai 则认为通行密钥本身没问题，是“实现很糟”，缺陷在于各站点策略不一且缺乏密钥存储工具间的迁移路径，同时主张其安全性远高于现有其他方案且更便捷。关于证明机制，coaksford 与 NoidFonsense 都认为真正的担忧不是今天的证明，而是未来可以提高限制级别、强制要求硬件与操作系统证明，NoidFonsense 并称银行等场景已经这样做了。",
+  "references": [
+    {
+      "title": "Passkeys Are Not a Trap - scotthelme.co.uk",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/"
+    },
+    {
+      "title": "Passkeys Aren&#x27;t a Trap: Scott Helme Debunks Viral Hacker News ...",
+      "url": "https://mangodeveloper.com/articles/passkeys-arent-a-trap-scott-helme-debunks-viral-hacker-news-post"
+    },
+    {
+      "title": "Security researcher disputes claim that passkeys create a ...",
+      "url": "https://businesswisconsin.com/article/passkeys-are-not-a-trap-50088935"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

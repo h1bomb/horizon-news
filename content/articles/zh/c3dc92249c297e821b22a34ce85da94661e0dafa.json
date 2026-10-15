@@ -1,0 +1,40 @@
+{
+  "id": "c3dc92249c297e821b22a34ce85da94661e0dafa",
+  "canonicalId": "5cb1618c1db568b5987239fb7604905d493f5d44",
+  "slug": "deepmind-与新加坡推出端侧-gemma-反诈模型",
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-14T03:11:00Z",
+  "lang": "zh",
+  "title": "DeepMind 与新加坡推出端侧 Gemma 反诈模型",
+  "summary": "Google DeepMind 与新加坡政府科技局宣布合作推出端侧诈骗检测模型，该模型基于轻量级 Gemma 微调，可在手机上本地分析对话并实时提醒用户，无需将内容上传云端。该模型在 2026 年新加坡国际网络周上展示，但现有信息未说明具体上线时间、支持机型或准确率等指标。新加坡方面称诈骗占报案犯罪过半，2019 年以来相关损失超 40 亿新元，其中社会工程类诈骗占损失的 80%。",
+  "score": 7,
+  "tags": [
+    "on-device AI",
+    "scam detection",
+    "Gemma",
+    "AI privacy",
+    "DeepMind"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+  "originalSite": "deepmind.google",
+  "context": "端到端加密的通信平台不允许云端查看消息内容，因此这类诈骗检测只能在设备本地完成推理，以在不牺牲隐私的前提下分析对话。通用模型往往难以识别本地化的欺骗话术，据 DeepMind 介绍，其做法是用新加坡本地的诈骗对话微调轻量级 Gemma，覆盖冒充公共机构、银行、本地人物以及区域性流行骗局等类型。另据媒体报道，该系统采用两阶段流程——轻量筛查器先行过滤，再由微调后的 Gemma 确认威胁，以控制耗电，并在测试中保持训练数据隔离、不使用公民信息。",
+  "discussion": "若该模型按公告在本地运行，受影响的新加坡手机用户可在不上传对话的前提下获得实时反诈提醒；但机型适配、误报率和实际拦截效果尚未披露，部署范围仍需观望。",
+  "references": [
+    {
+      "title": "On-Device AI Against Scams: Google DeepMind &amp; MDDI",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    },
+    {
+      "title": "Google DeepMind and GovTech Unveil On-Device Scam Detection ...",
+      "url": "https://www.unite.ai/google-deepmind-and-govtech-unveil-on-device-scam-detection-model/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
