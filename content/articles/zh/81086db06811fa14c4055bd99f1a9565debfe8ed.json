@@ -1,0 +1,37 @@
+{
+  "id": "81086db06811fa14c4055bd99f1a9565debfe8ed",
+  "canonicalId": "3ce9f7ea5dc3113c0fac13c93f743e753bd424d3",
+  "slug": "citizen-lab-报告定向广告被指用作零点击间谍软件投放通道",
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-15T10:43:00Z",
+  "lang": "zh",
+  "title": "Citizen Lab 报告：定向广告被指用作零点击间谍软件投放通道",
+  "summary": "公民实验室（Citizen Lab）的报告指控以色列公司 Discover Tech 将定向广告变成投放通道，用于向目标设备安装“零点击”雇佣兵间谍软件；该报告经 Hacker News 讨论及《卫报》《The Verge》报道扩散。报告对广告分发与命令控制（C2）环节有较具体描述，但没有清楚说明广告究竟通过何种机制触发恶意代码安装，因此“零点击”这一定性目前仍属研究方说法，缺乏可供独立核验的技术细节。对受影响用户与平台来说，触发机制与可问责主体这两个关键问题都尚未解决。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "spyware",
+    "adtech",
+    "privacy",
+    "zero-click-exploit"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jcomp",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50101813"
+    }
+  ],
+  "originalUrl": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+  "originalSite": "citizenlab.ca",
+  "context": "零点击攻击指不需要受害者点击链接或打开文件即可触发利用的攻击方式。Horizon 在 5 月 16 日的日报中曾报道 Google Project Zero 对 Pixel 10 一条零点击利用链的详细分析，其中指出 AI 功能会在用户交互前预处理消息与媒体，从而扩大攻击面，并强调即便修补速度很快，这类攻击仍是持续威胁。此次 Citizen Lab 的报告把这种攻击类型与广告投放环节联系起来，指控定向广告被用作了向目标设备投递雇佣间谍软件的通道，但报告对具体激活机制的说明仍不充分。",
+  "discussion": "由于报告未公开触发安装的具体机制，平台与安全团队目前难以据此制定针对性的检测或缓解措施；而讨论中一位广告技术从业者指出，广告技术生态里并不存在单一的“广告提供方”，这让事后追责与切断投放链路都更加困难。\n\nHacker News 讨论中，一位自称从业 13 年的广告技术工程师认为报告在“零点击”这一点上相当耸动：它描述了分发与 C2，却对以零点击方式激活恶意代码的机制语焉不详，并反驳“应由广告提供方负责”的说法，称广告技术生态中并不存在单一的“广告提供方”。另有评论者主张干脆禁止整个在线广告行业，也有人据此质疑以色列网络安全公司是否可被视为独立可信的实体。",
+  "references": [
+    {
+      "title": "2026-05-16 — Pixel 10 0-click exploit chain detailed by Project Zero",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

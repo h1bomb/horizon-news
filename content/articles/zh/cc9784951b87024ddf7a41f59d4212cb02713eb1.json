@@ -1,0 +1,53 @@
+{
+  "id": "cc9784951b87024ddf7a41f59d4212cb02713eb1",
+  "canonicalId": "44e4355d7e2b06941fc846ea33750dc506187951",
+  "slug": "libreboot-2610-发布加入-uefiedk-支持与-233-款-chromebook-移植",
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-15T12:52:00Z",
+  "lang": "zh",
+  "title": "Libreboot 26.10 发布：加入 UEFI/EDK 支持与 233 款 Chromebook 移植",
+  "summary": "Libreboot 26.10（代号 “Ominous Olive”）发布，新增 UEFI/EDK 支持，并从 MrChromebox 的 coreboot 发行版导入 233 款当前受支持的 Chromebook 移植。据社区评论引述的发布说明，其中 Baytrail（Kip）已完成测试，其余设备仍需测试；本次 Chromebook 支持为 source-only，即必须从源码构建，发布时不提供二进制文件。发布中还包含一项针对 LLM 辅助贡献的严格政策，部分讨论者认为这是本次发布最重要的部分。",
+  "score": 8,
+  "tags": [
+    "open-source firmware",
+    "Libreboot",
+    "UEFI",
+    "Chromebooks",
+    "coreboot"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "iamnothere",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50102923"
+    }
+  ],
+  "originalUrl": "https://libreboot.org/news/libreboot2610.html",
+  "originalSite": "libreboot.org",
+  "context": "Libreboot 是基于 coreboot 的自由开源引导固件，目标是在特定 Intel/AMD x86 与 ARM 主板上替换专有的 BIOS/UEFI 固件（tool-2-1）。coreboot 通过不同载荷提供启动环境：SeaBIOS 提供传统 PC BIOS 服务，edk2 提供 UEFI 服务，而 Chromebook 则使用定制引导器 depthcharge（tool-2-2、tool-2-3）。因此，Libreboot 引入 UEFI/EDK 与 Chromebook 支持，意味着它的固件栈开始覆盖此前由这些其他载荷和 Chromebook 引导路径所对应的设备类型。",
+  "discussion": "对 Chromebook 用户来说，此版本新增的 233 个机型支持目前仅有源码、不提供现成固件，必须自行从源码构建，且只有 Baytrail（Kip）经过测试，其余机型是否可用尚待验证，因此想刷机的人应预期自行承担构建与调试成本。UEFI/EDK 载荷的引入方式与 MrChromebox 用 edk2 充当现代 UEFI 引导载荷的做法一致，这意味着后续 Chromebook 机型移植可能更直接。\n\n评论者 iamnothere 认为真正重要的是 UEFI/EDK 集成与 Chromebook 支持，称这让 Libreboot 可用设备数量成倍增加、未来移植更容易，而讨论热度却被 AI 政策占据。AdmiralAsshat 提醒这些 Chromebook 支持目前仅为源码形式且多数未测试，cwiggs 则报告 Heads 项目中已合入首个基于 MrChromebox 代码的 ChromeOS 移植 PR，第二、第三个移植正在进行；另有评论者对项目限制 LLM 辅助贡献的严格政策表示支持。",
+  "references": [
+    {
+      "title": "Libreboot – Free and Open Source BIOS/ UEFI boot firmware",
+      "url": "https://libreboot.org/"
+    },
+    {
+      "title": "Welcome to the coreboot documentation — coreboot ...",
+      "url": "https://doc.coreboot.org/"
+    },
+    {
+      "title": "Payloads and External Firmware | coreboot / coreboot | DeepWiki",
+      "url": "https://deepwiki.com/coreboot/coreboot/16-payloads-and-external-firmware"
+    },
+    {
+      "title": "MrChromebox .tech",
+      "url": "https://mrchromebox.tech/"
+    },
+    {
+      "title": "Distributions — coreboot 26.06-1170-gb34a744391b documentation",
+      "url": "https://doc.coreboot.org/distributions.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

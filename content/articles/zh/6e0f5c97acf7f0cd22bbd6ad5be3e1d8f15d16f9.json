@@ -1,0 +1,53 @@
+{
+  "id": "6e0f5c97acf7f0cd22bbd6ad5be3e1d8f15d16f9",
+  "canonicalId": "6cb5a4950314cfda60edc40d131bf2328846d069",
+  "slug": "ai-数学进展为何令数学家感到不安",
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-15T13:44:00Z",
+  "lang": "zh",
+  "title": "AI 数学进展为何令数学家感到不安",
+  "summary": "Derek Thompson 发表文章《I know why the mathematicians weep》，主张 AI 在数学领域的进展触动数学家的存在性与职业焦虑，因为其地位、声望和收入所依赖的能力可能被商品化。该文在 Hacker News 引发广泛辩论；现有材料表明这是一篇评论/分析，而非已验证的技术突破、模型发布或工程成果。由于源内容未提供，文中具体论证、案例和技术细节无法独立核对。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "mathematics",
+    "LLMs",
+    "epistemology",
+    "future of work"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "RickJWagner",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50103630"
+    }
+  ],
+  "originalUrl": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+  "originalSite": "derekthompson.org",
+  "context": "Horizon 10 月 7 日的日报曾报道，OpenAI 发布“Sharing AI Progress in Mathematics”并公开 GitHub 仓库，其中包含声称证明 Barnette 猜想、以及解决 proofatlas.ai 前 500 个开放问题中 90 个的预印本，但这些均属未经独立验证的宣称（tool-1-1）。8 月 13 日的日报则记录了菲尔兹奖得主 Timothy Gowers 的判断：当前 LLM 更擅长采样式数学，而非人类式定理证明，更适合用作辅助工具（tool-1-2）；厂商宣称的快速进展与专家对能力边界的保留，构成了这篇随笔及其 Hacker News 讨论的直接背景。",
+  "discussion": "对数学研究者而言，最直接的后果是验证负担前移：已有论述指出 AI 已能以形式化与非形式化两种方式证明研究级定理，并据此建议数学家持续跟进该技术、正视其对数学实践方式的扰动（tool-3-1），这意味着从业者需要把更多精力投入校对、形式化与判定证明是否成立，而不能仅因结果被发布就予以接受。对外部宣称也应保持同样的核验标准：目前已有资料专门区分“已被证明”与“仅被声称”的 2026 年数学成果（tool-3-2），而个别报道所称 OpenAI 一夜解决 722 道数学题、证明“准黎曼假设”之类的说法（tool-3-3）尚属未经独立验证的声明，不宜直接当作已确立的能力结论使用。\n\n有评论者认为，真正令人哀悼的不是岗位被替代，而是寻求真理的欲望与验证机制被削弱：AI 生成的论文和结论未经阅读、验证就被当作已解决。也有评论者借 Robert Brandom 的规范性实践理论指出，LLM 编码了语言中的规范规律，却可能在理由交换和概念系统的社会维持上有根本缺陷；另有评论者以中世纪织工行会衰落为类比，提醒被技术抛下的人未必得到历史善待。",
+  "references": [
+    {
+      "title": "2026-10-07 — OpenAI 发布数学 AI 进展，宣称证明多个开放问题",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    },
+    {
+      "title": "2026-08-13 — 高尔斯：LLM 擅长采样式数学，而非人类式定理证明",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/"
+    },
+    {
+      "title": "Mathematicians in the Age of AI 1footnote 11footnote 1I am grateful to...",
+      "url": "https://arxiv.org/html/2603.03684"
+    },
+    {
+      "title": "AI Solved Math Problems: What Is Proven in 2026",
+      "url": "https://felloai.com/ai-solved-math-problems/"
+    },
+    {
+      "title": "Mathematics Big Bang: OpenAI Solved 722 Complex Math Problems...",
+      "url": "https://eu.36kr.com/en/p/4015128916676736"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

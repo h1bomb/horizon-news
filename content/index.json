@@ -1,6 +1,159 @@
 {
   "articles": [
     {
+      "id": "81086db06811fa14c4055bd99f1a9565debfe8ed",
+      "canonicalId": "3ce9f7ea5dc3113c0fac13c93f743e753bd424d3",
+      "slug": "citizen-lab-报告定向广告被指用作零点击间谍软件投放通道",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "Citizen Lab 报告：定向广告被指用作零点击间谍软件投放通道",
+      "score": 8,
+      "tags": [
+        "cybersecurity",
+        "spyware",
+        "adtech",
+        "privacy",
+        "zero-click-exploit"
+      ],
+      "originalSite": "citizenlab.ca"
+    },
+    {
+      "id": "cc9784951b87024ddf7a41f59d4212cb02713eb1",
+      "canonicalId": "44e4355d7e2b06941fc846ea33750dc506187951",
+      "slug": "libreboot-2610-发布加入-uefiedk-支持与-233-款-chromebook-移植",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "Libreboot 26.10 发布：加入 UEFI/EDK 支持与 233 款 Chromebook 移植",
+      "score": 8,
+      "tags": [
+        "open-source firmware",
+        "Libreboot",
+        "UEFI",
+        "Chromebooks",
+        "coreboot"
+      ],
+      "originalSite": "libreboot.org"
+    },
+    {
+      "id": "a59d00c388cb8f0b53fc21885927bb9b633f0718",
+      "canonicalId": "34bf133078de58bf25dce317eec6455575fe6c35",
+      "slug": "meta-发布-816b-开放权重模型-muse-spark-open",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "Meta 发布 816B 开放权重模型 Muse Spark Open",
+      "score": 7,
+      "tags": [
+        "open-weight LLM",
+        "Meta",
+        "model licensing",
+        "Mac Studio inference",
+        "AI community debate"
+      ],
+      "originalSite": "research.meta.ai"
+    },
+    {
+      "id": "d0136a641aff2a2dd725e90535f35fd5cf238b4e",
+      "canonicalId": "bc34be66cc81e86b9c2e9a32938594498455a2a6",
+      "slug": "nick-cammarata-称神经网络干净引发可解释性争论",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "Nick Cammarata 称神经网络“干净”，引发可解释性争论",
+      "score": 7,
+      "tags": [
+        "mechanistic interpretability",
+        "neural networks",
+        "AI alignment",
+        "polysemanticity",
+        "AI safety"
+      ],
+      "originalSite": "already-clean.goodfire.com"
+    },
+    {
+      "id": "6e0f5c97acf7f0cd22bbd6ad5be3e1d8f15d16f9",
+      "canonicalId": "6cb5a4950314cfda60edc40d131bf2328846d069",
+      "slug": "ai-数学进展为何令数学家感到不安",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "AI 数学进展为何令数学家感到不安",
+      "score": 7,
+      "tags": [
+        "AI",
+        "mathematics",
+        "LLMs",
+        "epistemology",
+        "future of work"
+      ],
+      "originalSite": "derekthompson.org"
+    },
+    {
+      "id": "374f11d027863ce3607f79b9f731fd1cf5076e4b",
+      "canonicalId": "40b611a330c7478c028f8a5cac8062e80ead7ceb",
+      "slug": "anthropic-ipo-前披露季度营收-168-亿美元环比增近-50",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "Anthropic IPO 前披露季度营收 168 亿美元，环比增近 50%",
+      "score": 7,
+      "tags": [
+        "AI industry",
+        "Anthropic",
+        "business/financials",
+        "IPO",
+        "model distillation"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "b633a4cdb5d29a03cf5c16bb24c77d9fd7c4768f",
+      "canonicalId": "44deb5f8e9264f63f4c2816a30c75895e81231d1",
+      "slug": "lpc-2026android-内核约-800-个厂商钩子维护者寻求减少",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "LPC 2026：Android 内核约 800 个厂商钩子，维护者寻求减少",
+      "score": 7,
+      "tags": [
+        "Android kernel",
+        "Linux kernel",
+        "vendor hooks",
+        "Linux Plumbers Conference",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "9348a8bae1bf9d46d368f3e60dd074a398c51606",
+      "canonicalId": "9a8257e81b9a6d6f25701e26cd573005a6461886",
+      "slug": "linux-发布七个稳定版内核修复-skb-checksum-help-严重漏洞",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "Linux 发布七个稳定版内核，修复 skb\\_checksum\\_help\\(\\) 严重漏洞",
+      "score": 7,
+      "tags": [
+        "linux-kernel",
+        "security",
+        "cve",
+        "stable-releases",
+        "networking"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "da7a88bce3407213e30c8ae3946055461fd696db",
+      "canonicalId": "d3c53a07cf5b972a8acb30d99e24211b774c2fef",
+      "slug": "库克称-apple-智能-10-月底在华发测试版不含-siri-ai",
+      "date": "2026-10-16",
+      "lang": "zh",
+      "title": "库克称 Apple 智能 10 月底在华发测试版，不含 Siri AI",
+      "score": 7,
+      "tags": [
+        "Apple Intelligence",
+        "阿里千问",
+        "AI 在中国",
+        "Siri",
+        "科技监管"
+      ],
+      "originalSite": "jiemian.com"
+    },
+    {
       "id": "c6bb9026efeac3d11cd2564039e662ae0e0d7224",
       "canonicalId": "b0e702832e00df4e30dc169b2e90e6d18d293247",
       "slug": "linus-torvalds-发布首个-llm-辅助内核补丁系列",
@@ -4952,210 +5105,6 @@
         "monetary policy",
         "FOMC",
         "market reaction"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "25512f6877ce2e9462b295a3658405987df61eb3",
-      "canonicalId": "642a1494ec3f8e04cc795f0d96e5fb4993a97fb7",
-      "slug": "typesafeai-发布-system-one-models-与-jev",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Typesafe.ai 发布 System One Models 与 Jev",
-      "score": 7,
-      "tags": [
-        "System One Models",
-        "Jev",
-        "structured inference",
-        "type systems",
-        "LLM"
-      ],
-      "originalSite": "typesafe.ai"
-    },
-    {
-      "id": "7c20f204daa403f7345a6cb2c8ab850a1d348dd1",
-      "canonicalId": "96d0250dcbd828a7c77303cb74c3cfd4c6dad818",
-      "slug": "wayback-machine-访问保护与抓取压力更新",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Wayback Machine 访问保护与抓取压力更新",
-      "score": 7,
-      "tags": [
-        "Internet Archive",
-        "Wayback Machine",
-        "AI scraping",
-        "web archiving",
-        "internet infrastructure"
-      ],
-      "originalSite": "blog.archive.org"
-    },
-    {
-      "id": "e3f1e906edb121bf82a7c780b6add4950453c984",
-      "canonicalId": "78ec933d8f3c9110a6b74409b1a00980245e1cd9",
-      "slug": "google-发布-gemini-38-live-与-38-live-extended-thinking",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
-      "score": 7,
-      "tags": [
-        "Gemini",
-        "Google",
-        "voice assistants",
-        "LLM releases",
-        "multimodal AI"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "f1d1beb2928533125124d1cadc8859464fd7bcb5",
-      "canonicalId": "685a03460968997ddf56de4a1311abe38ac7cab0",
-      "slug": "strix-称-ai-代理-25-分钟取得-baseten-生产-github-权限",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Strix 称 AI 代理 25 分钟取得 Baseten 生产 GitHub 权限",
-      "score": 7,
-      "tags": [
-        "security",
-        "DevOps",
-        "GitHub",
-        "secrets management",
-        "AI agents"
-      ],
-      "originalSite": "strix.ai"
-    },
-    {
-      "id": "0011e35ce68cbce30fb39941adff05b8e1d53a32",
-      "canonicalId": "a516aa444b42a60acdb51e81a8f10f7fc0f1a205",
-      "slug": "capsule把-html-应用和数据打包为单个-sqlite-文件",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Capsule：把 HTML 应用和数据打包为单个 SQLite 文件",
-      "score": 7,
-      "tags": [
-        "SQLite",
-        "Tauri",
-        "Rust",
-        "web apps",
-        "local-first"
-      ],
-      "originalSite": "withcapsule.app"
-    },
-    {
-      "id": "0519fe00afc97de41c1dfa7a63c778c3cdb4b820",
-      "canonicalId": "fee1ad50a626385e218406c7d77a1ebf830e6087",
-      "slug": "把-20-美元-4g-热点改造成可收发短信的设备",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "把 20 美元 4G 热点改造成可收发短信的设备",
-      "score": 7,
-      "tags": [
-        "hardware-hacking",
-        "4g-lte",
-        "embedded-linux",
-        "open-source",
-        "diy-electronics"
-      ],
-      "originalSite": "bkovac.github.io"
-    },
-    {
-      "id": "eb5ffb8c09145947df32a79ad07a5a7f17d1103d",
-      "canonicalId": "d7845e38c4255ad23ecab1c8000957f8b7ac7fcf",
-      "slug": "schneier-发文25-年大规模监控已经够了",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Schneier 发文：25 年大规模监控已经够了",
-      "score": 7,
-      "tags": [
-        "mass surveillance",
-        "privacy",
-        "security policy",
-        "civil liberties",
-        "technology ethics"
-      ],
-      "originalSite": "schneier.com"
-    },
-    {
-      "id": "08089fca52663a47ff78677291cd72ecb0778521",
-      "canonicalId": "c9a269061424d5c4027c249bb82ded3cc5ff35eb",
-      "slug": "simon-willison-发布-gemini-38-live-浏览器语音测试界面",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Simon Willison 发布 Gemini 3.8 Live 浏览器语音测试界面",
-      "score": 7,
-      "tags": [
-        "Gemini",
-        "speech-to-speech",
-        "voice AI",
-        "Google models",
-        "developer tooling"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "1d0056183f07c3fec62aa45f1d1f57d7d945ad9b",
-      "canonicalId": "4b2ac32b486c5e125a4cc07f8e9d316125da8cf6",
-      "slug": "linux-内核补丁提议为-blk-iocost-引入-bpf-成本模型",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Linux 内核补丁提议为 blk-iocost 引入 BPF 成本模型",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "BPF",
-        "block I/O",
-        "I/O scheduling",
-        "blk-iocost"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "d13f4196c7acbf338561c9e5affce511287c8c0a",
-      "canonicalId": "19ea2d209c73680e72b51436a31fbbc796aa259f",
-      "slug": "llm-的记忆其实由应用层重建",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "LLM 的“记忆”其实由应用层重建",
-      "score": 6,
-      "tags": [
-        "LLM memory",
-        "context windows",
-        "retrieval-augmented generation",
-        "prompt caching",
-        "conversation state"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "20db12b25fda771bf0e1b6f324be0ce5e3645fc1",
-      "canonicalId": "720fb61d67390b349bd16213d1a5fe866ace28aa",
-      "slug": "groq-3-lpx-确定性执行与能效优化",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "Groq 3 LPX 确定性执行与能效优化",
-      "score": 4,
-      "tags": [
-        "deterministic execution",
-        "power efficiency",
-        "voltage droop",
-        "AI inference hardware",
-        "NVIDIA Vera Rubin"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "dfa20d78d7b1666b2db75a94c005e07ae0353729",
-      "canonicalId": "f12efff129f4c5d02fe9e545fef6b44cbea37e0e",
-      "slug": "中国-8-月零售增速低于预期投资降幅加深",
-      "date": "2026-09-16",
-      "lang": "zh",
-      "title": "中国 8 月零售增速低于预期，投资降幅加深",
-      "score": 8,
-      "tags": [
-        "China economy",
-        "retail sales",
-        "fixed-asset investment",
-        "credit growth",
-        "macro policy"
       ],
       "originalSite": "cnbc.com"
     }

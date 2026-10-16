@@ -1,0 +1,41 @@
+{
+  "id": "a59d00c388cb8f0b53fc21885927bb9b633f0718",
+  "canonicalId": "34bf133078de58bf25dce317eec6455575fe6c35",
+  "slug": "meta-发布-816b-开放权重模型-muse-spark-open",
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-15T17:47:00Z",
+  "lang": "zh",
+  "title": "Meta 发布 816B 开放权重模型 Muse Spark Open",
+  "summary": "Meta 发布了 Muse Spark Open，这是一个 816B 参数（模型名标注为 A42B）的开放权重模型，官方称其针对 Mac Studio 运行做了优化，并提供从 Unsloth 到 MLX 的多种推理器部署支持，模型权重与部署文档已上线 Hugging Face 和 dev.meta.ai。社区用户核对许可证后指出，该许可基本允许自由使用，但含 Model-as-a-Service 条款：若被许可方及其关联方通过 API 或类似接口向第三方提供模型输出，且合计毛收入超过两千万美元，则超出授权范围。性能评价并非来自 Meta 的宣称，而是社区引用的 Artificial Analysis 对比结果，称其落后于可在单张 B300 上运行的 Qwen3.8 Flash Next 与 GLM 5.3 Flash；有评论者提醒，这类榜单通常只覆盖最高推理档位，未必反映高并发生产场景。",
+  "score": 7,
+  "tags": [
+    "open-weight LLM",
+    "Meta",
+    "model licensing",
+    "Mac Studio inference",
+    "AI community debate"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bigwheels",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50107379"
+    }
+  ],
+  "originalUrl": "https://research.meta.ai/blog/muse-spark-open",
+  "originalSite": "research.meta.ai",
+  "context": "Muse Spark Open 属于开放权重（open-weight）模型：权重可下载后自行部署，但使用受许可证约束——其 Hugging Face 模型卡标注为 816B 总参数／42B 激活参数、100 万 token 上下文，采用 Meta 自有的 Muse Model License，而非 Apache 等标准开源许可。Horizon 2026 年 8 月 16 日的日报曾报道，阿里开放权重模型半年内下载量超过 30 亿次，同期 Meta 为 2.27 亿次、谷歌为 4.18 亿次，显示 Meta 在开放权重生态的采用度上此前落后于竞争对手。",
+  "discussion": "争论最集中的是许可性质：有评论者逐条核对后认为除 Model-as-a-Service 收入条款外基本可自由使用，而社区中另一部分观点认为这仍不算完全开源；a11r 引用 Artificial Analysis 认为 Muse Spark Open 不及 Qwen3.8 Flash Next 和 GLM 5.3 Flash，并抱怨该榜单只提供最高推理档位的比较。armcat 强调 Meta 在推理器适配上投入很大（从 Unsloth 到 MLX 皆可运行），simonw 则表示自己没有能承载该规模模型的机器，只能通过 OpenRouter 调用。",
+  "references": [
+    {
+      "title": "2026-08-16 — 阿里开放权重模型下载量超 30 亿，超越 Meta 与谷歌",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google"
+    },
+    {
+      "title": "meta- models / Muse - Spark - Open -816B-A42B · Hugging Face",
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

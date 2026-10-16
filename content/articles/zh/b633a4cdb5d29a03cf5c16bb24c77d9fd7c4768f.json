@@ -1,0 +1,31 @@
+{
+  "id": "b633a4cdb5d29a03cf5c16bb24c77d9fd7c4768f",
+  "canonicalId": "44deb5f8e9264f63f4c2816a30c75895e81231d1",
+  "slug": "lpc-2026android-内核约-800-个厂商钩子维护者寻求减少",
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-15T15:09:00Z",
+  "lang": "zh",
+  "title": "LPC 2026：Android 内核约 800 个厂商钩子，维护者寻求减少",
+  "summary": "在 2026 年 Linux Plumbers Conference 的 Android 专场中，Todd Kjos 介绍了 Android 内核的 vendor hook（厂商钩子）机制：它本质上是加在 Android 内核里的专用 tracepoint，厂商设备加载内核模块挂接到该 tracepoint，即可拦截控制流、修改数据结构甚至短路主线代码。他给出的数字是，当前使用最广的 Android 6.6 内核带有 3,100 多个树外补丁，其中 1,531 个是新内核特性的回移、287 个是已在邮件列表讨论但尚未进入主线的改动，剩余 1,306 个（约 42%）为“纯 Android”改动，其中三分之一以上是厂商钩子；内核中厂商钩子总数约 800 个，近一半位于内存管理子系统与 CPU 调度器。Kjos 说采用厂商钩子的主要原因是紧迫性——上游流程太慢——加上有些硬件没有上游驱动，而 Android 维护者自认缺乏判断所有改动是否必要的专业能力，因此对新增钩子采取宽松政策，同时表示希望减少这一数量。这是会议演讲的总结，并非内核功能发布或已生效的代码变更。",
+  "score": 7,
+  "tags": [
+    "Android kernel",
+    "Linux kernel",
+    "vendor hooks",
+    "Linux Plumbers Conference",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098493/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "对内核与 Android 平台开发者来说，最直接的技术约束是：Android 试图为这些钩子维持稳定 ABI，Kjos 明确表示这经常限制钩子所在代码路径能做的改动，意味着在被大量钩子覆盖的调度器和内存管理区域，主线与小版本变更都需考虑厂商模块的兼容性。现场讨论也显示这一局面短期难解：Kjos 一方面说 sched\\_ext 现已在 Android 内核中得到支持，另一方面承认 sched\\_ext 基础设施又被加上了厂商钩子，他宁可保留现有钩子也不愿转向完全树外的调度器实现。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

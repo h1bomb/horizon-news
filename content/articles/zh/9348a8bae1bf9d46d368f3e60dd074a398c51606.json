@@ -1,0 +1,40 @@
+{
+  "id": "9348a8bae1bf9d46d368f3e60dd074a398c51606",
+  "canonicalId": "9a8257e81b9a6d6f25701e26cd573005a6461886",
+  "slug": "linux-发布七个稳定版内核修复-skb-checksum-help-严重漏洞",
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-15T13:01:00Z",
+  "lang": "zh",
+  "title": "Linux 发布七个稳定版内核，修复 skb\\_checksum\\_help\\(\\) 严重漏洞",
+  "summary": "Greg Kroah-Hartman 发布了 7.2.11、6.18.57、6.12.113、6.6.159、6.1.190、5.15.223 和 5.10.272 七个稳定版内核，均包含对 CVE-2026-99999 的修复。该漏洞位于 skb\\_checksum\\_help\\(\\)，补丁作者 Michael S. Tsirkin 称，带有错误校验和元数据的 IPv4 数据包可能“破坏网络头并造成一系列麻烦”。LWN 表示这一系列发布还包含其他改动，并按惯例建议所有用户升级。目前可确认的只是该修复已进入这些稳定版内核，来源摘要未提供更多技术细节，也没有独立的漏洞验证结果。",
+  "score": 7,
+  "tags": [
+    "linux-kernel",
+    "security",
+    "cve",
+    "stable-releases",
+    "networking"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100611/",
+  "originalSite": "lwn.net",
+  "context": "Linux 稳定内核由 Greg Kroah-Hartman 维护，安全修复通常在同一天回合并发到多条长期维护分支（5.10、5.15、6.1、6.6、6.12、6.18、7.2）。Horizon 8 月 29 日的日报曾报道同一模式：八个稳定内核（最高到 7.2.2、5.10.268）各自包含对 CVE-2026-80590 的修复，该漏洞允许非特权用户把 IPv4/IPv6 分片标记为 GSO 而触发内核崩溃；本次则是同一组分支的版本号继续推进，修复对象换成 CVE-2026-99999。Horizon 8 月 17 日的日报还记录了 7.2 主线版本本身的发布，本次的 7.2.11 属于该分支的后续稳定更新。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-29 — 八个稳定内核版本修复可致内核崩溃的漏洞",
+      "url": "https://lwn.net/Articles/1091118/"
+    },
+    {
+      "title": "2026-08-17 — Linux 内核 7.2 发布：引入 BPF、调度器及文件系统多项改进",
+      "url": "https://lwn.net/Articles/1088991/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
