@@ -1,0 +1,41 @@
+{
+  "id": "a5a1a207518239803371c34e256c829d1ab0802f",
+  "canonicalId": "3d3011b3b2f663f46f2b7f57f71e6f8ca911b550",
+  "slug": "starskirmish-bench-v02gemini-4-argon-等模型写代码玩星际争霸",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T14:18:00Z",
+  "lang": "zh",
+  "title": "StarSkirmish Bench v0.2：Gemini 4 Argon 等模型写代码玩《星际争霸》",
+  "summary": "作者在 Hacker News 发布了 StarSkirmish Bench v0.2，刷新了这个让大语言模型通过编写代码来玩《星际争霸：母巢之战》的基准测试，并给出 OpenAI、Anthropic、Google 和 Muse 旗舰模型的新结果；对想比较代理式编码模型的开发者而言，这是跨实验室的又一组参考排名。根据社区评论转述，榜单包含 Gemini 4 Argon、GPT-6 Astra、Claude Opus 5.5 等模型，但这些都是该基准项目自身的测试结果，而非独立复现。评论中对该方法的描述称，每个模型在其实验室的一方 CLI 工具中、以可用的最高推理设置运行，且没有联网或网页抓取。",
+  "score": 7,
+  "tags": [
+    "LLM benchmarking",
+    "StarCraft",
+    "AI agents",
+    "code generation",
+    "game AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_\\_cayenne\\_\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50118688"
+    }
+  ],
+  "originalUrl": "https://starskirmish.com/bench/v0-2/",
+  "originalSite": "starskirmish.com",
+  "context": "StarSkirmish Bench 的评测方式并非让模型直接操控游戏，而是给每个模型 1 小时挂钟时间，由它编写一个《星际争霸：母巢之战》机器人，再让该程序与一批人类编写的竞技机器人及演示机器人对战，以胜率计分（tool-2-1、tool-2-3）。该基准此前已有 v0.1 版本页面（tool-2-3），本次发布的 v0.2 是结果刷新，汇总了 OpenAI、Anthropic、Google 与 Muse 各家旗舰模型的最新排名。",
+  "discussion": "若开发者把该榜单用于选型，需要注意结果与运行条件绑定：评论中描述每个模型跑在各自的 CLI harness 和最高推理设置下，并禁用联网，因此这些排名不能直接外推到 API 调用、较低推理预算或不同工具配置下的表现。\n\n评论者 GodelNumbering 称，v0.2 排名（GPT-6 Astra ＞ GPT-6.1 Sol ＞ Gemini 4 Argon ＞ Claude Opus 5.5 ＞ Claude Fable 5.1 ＞ Claude Sonnet 5.5）与其朋友用 KataGo 作 Elo 锚点的 9x9 围棋基准排序完全一致，并认为这可能反映跨任务的通用能力排序。cgearhart 则质疑一小时时限下智能体写的机器人是否只是较差的真人脚本，以及它们是否可能从人类机器人代码中训练而来。",
+  "references": [
+    {
+      "title": "StarSkirmish Bench",
+      "url": "https://starskirmish.com/bench/"
+    },
+    {
+      "title": "StarSkirmish Bench",
+      "url": "https://starskirmish.com/bench/v0-1/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

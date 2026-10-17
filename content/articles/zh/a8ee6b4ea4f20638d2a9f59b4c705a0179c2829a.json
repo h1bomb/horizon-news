@@ -1,0 +1,49 @@
+{
+  "id": "a8ee6b4ea4f20638d2a9f59b4c705a0179c2829a",
+  "canonicalId": "7a6a342eb9583796b00ba8488e92f11c4c3f9a88",
+  "slug": "claude-溯源-nist-椭圆曲线种子来自-lrand48",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T18:55:00Z",
+  "lang": "zh",
+  "title": "Claude 溯源 NIST 椭圆曲线种子：来自 lrand48",
+  "summary": "据 Anthropic 的研究页面及社区引述的相关文章，Claude 在不到半小时内找出了 NIST P-192、P-224、P-256、P-384 和 P-521 曲线种子的可能来源：它们并非任何哈希算法的输出，而是 C 库 lrand48 随机数生成器以 Unix 时间戳为种子的结果。这解决的是长年被猜测的种子生成方式问题，并不等于证明这些曲线当初被人为挑选，也不代表 ECDSA 本身被攻破。第五个二进制种子 B-163 目前仍无法用该方法解释，保持未解状态。",
+  "score": 8,
+  "tags": [
+    "cryptography",
+    "AI-assisted research",
+    "elliptic curves",
+    "NIST standards",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ahlCVA",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "originalSite": "anthropic.com",
+  "context": "NIST 于 2000 年在 FIPS 186-2 中发布了 P-192、P-224、P-256、P-384 和 P-521 等椭圆曲线；按 ANSI X9.62 的流程，曲线参数由一个“任意种子”经 SHA-1 散列派生，但种子的具体来源长期未公开，成为密码学界延续多年的疑团。Anthropic 称 Claude 发现这些种子来自 C 库的 lrand48 随机数生成器、并以 Unix 时间戳为种子；其中素数曲线所用的种子取自同一生成器但每个输出保留的比特更少，因此需要借助 LLL 格基约化算法，从被截断的线性同余生成器输出中恢复其内部状态。",
+  "discussion": "对使用 NIST P-192、P-224、P-256、P-384、P-521 的开发者与机构而言，这次溯源不带来迁移或兼容性动作：曲线参数与标准本身未变，报道也称未发现蓄意后门的证据。留下的具体疑点是 B-163 这一二进制种子仍无法解释，且如社区所指出，确认生成方式并不等于证明当年的曲线筛选过程无偏，因此以“种子来源可疑”为由替换曲线的理由被削弱，但并未被完全排除。\n\n有评论者指出，确认生成方法并不能说明曲线的挑选过程：由于无法看到当时生成后被丢弃的候选值，理论上仍可能通过遍历时间戳来搜出具有特定性质的曲线，只是这样做需要事先知道要挑什么性质。另有评论者对未解的 B-163 种子提出最简解释——它与其余种子生成方式相同，只是在发布过程中被误抄了一位数字；还有评论者称赞 Anthropic 选择了更高的赏金并将其捐给 ISRG。",
+  "references": [
+    {
+      "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+      "url": "https://words.filippo.io/seeds-solved/"
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins \\ Anthropic",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "title": "ECDSA Curve Seeds Solved: Claude Found lrand48 (2026 ...",
+      "url": "https://www.explainx.ai/blog/claude-ecdsa-nist-curve-seeds-lrand48-anthropic-frontier-red-team-backdoor-question-2026"
+    },
+    {
+      "title": "Claude traces NIST P-256 seed to a 1997 random number ...",
+      "url": "https://cryptobriefing.com/claude-traces-nist-p256-seed-origins/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "171ce54ad6d4d7cccebe6681f9d7b95f9b6cee77",
+  "canonicalId": "8aa23feb44152baefaf4d9e60ebac262b6bfc1d4",
+  "slug": "linux-nfs-服务器近期与未来变更概览",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T14:26:00Z",
+  "lang": "zh",
+  "title": "Linux NFS 服务器近期与未来变更概览",
+  "summary": "在 2026 年 Linux Plumbers Conference 上，NFS 开发者 Jeff Layton 介绍了 Linux NFS 服务器的一系列近期增强与后续计划。已落地的功能包括：用于同一主机上客户端/服务器（如容器化负载）的 LOCALIO，可绕过大部分协议处理直接把请求交给文件系统；异步远程复制已实现并默认启用；服务器可选择用直接 I/O 或显式关闭缓存来执行非缓存 I/O；RPC 帧上限提升到 4MB，服务器缓冲区可达 8MB；线程池支持按需动态增减（默认关闭）；以按连接划分的互斥锁取代旧的全局互斥锁。管理接口方面新增 netlink API 与 nfs-utils 中的 nfsdctl 命令，新功能将只能通过该 API 控制，旧的 /proc/fs/nfsd 接口已被弃用，mountd 也已迁移到 netlink。其他进展包括签名文件句柄、NFSv4.1 属性委派（RFC 9754）、目录委派与写委派扩展、NFSv4.2 POSIX ACL 扩展，以及用 xdrgen 自动生成 XDR 代码，并计划日后改为生成 Rust。",
+  "score": 7,
+  "tags": [
+    "NFS",
+    "Linux kernel",
+    "filesystems",
+    "Linux Plumbers Conference",
+    "networking"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1098611/",
+  "originalSite": "lwn.net",
+  "context": "目录委托（directory delegation）是 NFSv4.1 的机制，允许客户端缓存目录项并在服务端发生变更时收到异步通知，从而减少往返服务器确认的开销。Horizon 2026 年 9 月 1 日的日报曾报道，Linux 7.3 合并窗口为 NFS 服务器加入了目录委托的 CB\\_NOTIFY 支持，这属于同一功能线的前一步；本次 LPC 演讲则给出了该特性在服务端与客户端两侧更完整的实现状态与遗留缺口。",
+  "discussion": "对 NFS 服务器管理员而言，最直接的兼容性影响是管理接口切换：新功能只能通过 netlink API（配合 nfs-utils 的 nfsdctl）配置，旧有的 /proc/fs/nfsd 接口已被弃用，因此依赖该虚拟文件系统接口的脚本和部署需要迁移。非缓存 I/O 目前由服务器选项控制，未来将作为 exports 文件中的选项暴露。",
+  "references": [
+    {
+      "title": "2026-09-01 — Linux 7.3 合并窗口收官：提交量创历史第二",
+      "url": "https://lwn.net/Articles/1089791/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

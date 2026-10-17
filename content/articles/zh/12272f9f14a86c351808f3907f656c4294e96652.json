@@ -1,0 +1,36 @@
+{
+  "id": "12272f9f14a86c351808f3907f656c4294e96652",
+  "canonicalId": "f2bd1235f81be29077d3e23a0bfb4920c051c9d1",
+  "slug": "可灵-kling-40-全量上线预告-4khdr-与开发者-api",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T04:30:00Z",
+  "lang": "zh",
+  "title": "可灵 Kling 4.0 全量上线，预告 4K/HDR 与开发者 API",
+  "summary": "10 月 15 日，可灵 Kling 4.0 在 klingai.com 全量上线，创作页面同步完成升级。官方称后续将推出 4K 以及 1080p 10-bit HDR 格式输出，属于尚未交付的计划。可灵表示 Kling 4.0 的能力已接入 MCP/CLI，面向企业与开发者的 API 服务将于近期开放。该公告未披露模型参数、性能对比、定价或具体开放时间等细节。",
+  "score": 7,
+  "tags": [
+    "AI 视频生成",
+    "可灵 Kling 4.0",
+    "开发者 API",
+    "MCP/CLI",
+    "模型发布"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/Dn2jAxV0m6kpt7y4edRvdg",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "可灵（Kling）是 AI 视频生成产品，其官网现已将 Kling 4.0 列为主打版本，并以音画表现和稳定动态为主要卖点（tool-2-1）。从此次上线公告看，4.0 的能力是分阶段释放的：全量上线当天同步升级的是创作页面，MCP/CLI 已可接入，而 4K、1080p 10-bit HDR 输出以及面向企业与开发者的 API 服务均被表述为「后续」或「近期」推出，因此并不属于本次已经交付的部分。",
+  "discussion": "对开发者与企业而言，当前可直接调用 Kling 4.0 的入口只有已接入的 MCP/CLI，官方 API 仍处于“近期开放”的预告阶段，因此已把视频生成接入自有产品或流水线的团队暂时无法通过 API 升级到 4.0，需要等待实际开放时间。需要 4K 或 1080p 10-bit HDR 输出的用户同样要等后续推送，现阶段仍应按官方公告的既有格式规格来规划交付。",
+  "references": [
+    {
+      "title": "Kling AI: Next-Gen AI Video &amp; Image Generator",
+      "url": "https://kling.ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

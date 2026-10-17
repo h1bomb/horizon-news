@@ -1,0 +1,41 @@
+{
+  "id": "5b0af3e80cf7a84e43802f693f652c743a4efd8c",
+  "canonicalId": "98e6a11f87f3c75ff09f029c60c62757139be47d",
+  "slug": "apple-mlx-在四台-mac-studio-上分布式运行-muse-spark-open",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T13:43:00Z",
+  "lang": "zh",
+  "title": "Apple MLX 在四台 Mac Studio 上分布式运行 Muse Spark Open",
+  "summary": "Apple ML 研究团队介绍了一项用分布式 MLX 在四台 Mac Studio 上运行近万亿参数模型 Muse Spark Open 的方案，文章称该集群生成速度超过 36 tokens/秒，单台 Mac Studio 最高支持 512GB 统一内存并可向外扩展，所用最新版 MLX 同日发布。这是 Apple 描述的方案与厂商展示，并非独立复现；社区讨论同时质疑其基准公平性和 8K 上下文的实用性。",
+  "score": 7,
+  "tags": [
+    "MLX",
+    "Apple Silicon",
+    "local LLM inference",
+    "distributed inference",
+    "model benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "antipaul",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50118320"
+    }
+  ],
+  "originalUrl": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+  "originalSite": "machinelearning.apple.com",
+  "context": "MLX 是苹果面向 Apple Silicon 的本地推理框架，此前主要用于在单台 Mac 上运行大模型，把模型切分到多台机器上的分布式推理是其新扩展的方向。Horizon 6 月 21 日的日报曾报道，LM Studio 与苹果在 WWDC 上用预览版 LM Studio 在四台 Mac Studio 组成的集群上运行了 1 万亿参数的 Kimi K2.6（tool-2-1）；此次则是苹果自家 MLX 的分布式方案搭配接近万亿参数的 Muse Spark Open，硬件仍是四台 Mac Studio。Horizon 8 月 26 日的日报还报道了搭载 M5 Max 与 M5 Ultra、支持 Thunderbolt 5 且内存带宽最高 1.2TB/s 的新款 Mac Studio，苹果当时已把本地 AI 作为核心卖点（tool-2-2）。",
+  "discussion": "对打算本地部署的开发者来说，Muse Spark Open 是 816B 总参数、42B 激活参数的 MoE 模型，权重支持最长 1,048,576 token 的上下文（tool-3-1、tool-3-2），而苹果演示的吞吐数据只覆盖 8,192 token 上下文，因此多台 Mac Studio 在长上下文下的实际速度与内存表现仍待验证；同时分布式推理依赖当天发布的最新 MLX 版本，演示中 Meta 模型用 4-bit、Qwen 用原生 BF16 的对比也不能直接换算成其他量化配置下的性能。该模型另有 BF16 与 NVFP4 权重可在自有 GPU 上运行（tool-3-3），四台 Mac Studio 集群只是其中一条本地部署路径。\n\nHN 评论中，peri-cl 质疑基准不公平：Muse Spark Open 以 4-bit 量化对比原生 BF16 的 Qwen，且未展示其他量化结果，并称 Muse Spark 并非其会优先考虑的模型；mrboatshoepants 则指出 15–36 tokens/秒的柱状图对应 8,192 token 上下文，认为这一长度已不够实用。liuliu 分享单台 M5 Ultra（256GiB）运行 DeepSeek 4.1 Flash 0910 约 3200 tokens/秒预填充、约 45 tokens/秒生成，并用 MathArena Apex、GPQA Diamond 等检查质量；这些均为社区经验，未经独立验证。",
+  "references": [
+    {
+      "title": "2026-06-21 — LM Studio and Apple Run 1T-Parameter Model on Four Mac Studios",
+      "url": "https://x.com/lmstudio/status/2067301278976180531"
+    },
+    {
+      "title": "2026-08-26 — 新款 Mac Studio 搭载 M5 Max 与 M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

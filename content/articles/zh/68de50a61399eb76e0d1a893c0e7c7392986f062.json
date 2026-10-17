@@ -1,0 +1,36 @@
+{
+  "id": "68de50a61399eb76e0d1a893c0e7c7392986f062",
+  "canonicalId": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55",
+  "slug": "kangrejos-2026用-pin-init-在-rust-内核中安全实现自引用结构",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T18:30:00Z",
+  "lang": "zh",
+  "title": "Kangrejos 2026：用 pin\\_init 在 Rust 内核中安全实现自引用结构",
+  "summary": "在 Kangrejos 2026 大会上，Gary Guo 提出了一种基于内核 pin\\_init crate 的方法，使自引用数据结构无需 unsafe 代码即可实现；这是会议演讲中展示的设计方案，并非已合入内核的改动。该方案借助 Rust 的子类型、well-formedness 规则与仅限于生命周期参数的高阶多态（如 &amp;dyn for&lt;&\\#x27;a&gt; Fn\\(&amp;&\\#x27;a u32\\)）来处理过去难以满足的生命周期约束。按演讲所述，它有望移除 Nova GPU 驱动中大部分与生命周期相关的 unsafe 代码，并可能逐步推广到其他 Rust-for-Linux 组件。原文指出问题的根源在于设备资源（例如设备内存）只在设备绑定期间有效：原有的 Devres 类型内部使用 Revocable 指针，强制每次访问都做可失败检查，给驱动代码引入了大量冗余的失败路径。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "Linux kernel",
+    "memory safety",
+    "self-referential data structures",
+    "Nova GPU driver"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099224/",
+  "originalSite": "lwn.net",
+  "context": "内核 Rust 中，设备资源只在设备绑定期间有效，而设备随时可能被拔出解绑；最初的 Rust 驱动绑定用 \\`Devres\\`/\\`Revocable\\` 指针强制每次访问都检查设备是否仍存在，使驱动代码遍布可失败的访问路径，而当某个进行中的补丁集需要在 \\`Drop\\` 实现（不允许失败）里访问设备时，这套抽象就不够用了——这正是自引用结构所针对的场景。Horizon 的 8 月 29 日日报曾报道，一组补丁把 Rust 版 rnull 块驱动提升到与 C 版 \\`null\\_blk\\` 功能对等，其中已使用 \\`pin\\_init\\_scope\\(\\)\\` 做固定初始化，说明 Guo 这次扩展所依托的 \\`pin\\_init\\` crate（用于创建不可移动、通常面向 C 互操作的数据结构）已在内核 Rust 驱动中实际投入使用。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-29 — Rust rnull 块驱动达到与 C null_blk 功能对等",
+      "url": "https://lwn.net/Articles/1090378/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

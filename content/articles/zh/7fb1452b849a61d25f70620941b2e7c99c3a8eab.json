@@ -1,0 +1,45 @@
+{
+  "id": "7fb1452b849a61d25f70620941b2e7c99c3a8eab",
+  "canonicalId": "ff9286355f7e922bd06d600c6a56bd36af2191f0",
+  "slug": "jpeg-xl-与-avif-网页用例对比及编码权衡讨论",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T16:12:00Z",
+  "lang": "zh",
+  "title": "JPEG XL 与 AVIF 网页用例对比及编码权衡讨论",
+  "summary": "一篇对比 JPEG XL 与 AVIF 在网页图像交付中适用场景的技术文章发布，面向需要选择网页图片格式的前端与性能工程师。文章覆盖编码速度、压缩率、视觉质量等实际权衡，并涉及 AVIF 的实用编码设置。这是一篇技术比较而非新格式版本或标准发布，相关社区讨论补充了大量实测数据与分歧。",
+  "score": 7,
+  "tags": [
+    "image compression",
+    "JPEG XL",
+    "AVIF",
+    "web performance",
+    "frontend"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "farlight",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50120224"
+    }
+  ],
+  "originalUrl": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+  "originalSite": "jakearchibald.com",
+  "context": "JPEG XL 此前因主流浏览器长期缺席而在网页上难以实际部署。Horizon 8 月 26 日的日报曾报道 Mozilla 宣布 Firefox 157 将在所有平台默认启用 JPEG XL，不再需要偏好设置或实验标志；10 月 8 日的日报则报道 Chrome 官方开发者博客宣布 Chrome 开始支持该格式，并指出这是它在早前被从 Chromium 移除后的重新引入。正因两大浏览器的支持刚刚落地，把它与 AVIF 这类已在网页中使用的格式做压缩效率与编码速度的实测对比，才具备现实参考意义。",
+  "discussion": "评论者就编码器成熟度与画质取舍展开争论：有评论指出 libjxl 在最大 effort 下比默认慢 50–180 倍（9–46 秒），照片仅缩小 2–7%、截图和插画约缩小 25%，而 jixel 能在数秒内得到相同结果；另有评论认为 JXL 编码器目前不佳，更好的编码器可把无损示例再缩小 30–39%。关于 AVIF，有评论者称其在 F1 图片中抹掉了车身高光细节，质疑其不适合需要细看的图像，但也承认它适合大尺寸博客头图等整体观感场景；另有评论者分享了面向 2K 以内图片、可保留透明度的 ffmpeg 编码设置。",
+  "references": [
+    {
+      "title": "2026-10-08 — Chrome 开始内置支持 JPEG XL 图像格式",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
+    },
+    {
+      "title": "2026-08-26 — Firefox 157 将在所有平台默认启用 JPEG XL",
+      "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
+    },
+    {
+      "title": "JPEG XL vs AVIF vs WebP: Which Format Wins in 2026 ?",
+      "url": "https://pixotter.com/blog/jpeg-xl-vs-avif-vs-webp/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

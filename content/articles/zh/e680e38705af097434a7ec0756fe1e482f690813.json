@@ -1,0 +1,40 @@
+{
+  "id": "e680e38705af097434a7ec0756fe1e482f690813",
+  "canonicalId": "d11bdcfc2234737f90fff1b05661ac3bc05251a7",
+  "slug": "阶跃星辰发布-step-5-preview-智能体旗舰模型",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T06:36:00Z",
+  "lang": "zh",
+  "title": "阶跃星辰发布 Step 5 Preview 智能体旗舰模型",
+  "summary": "阶跃星辰在 Hugging Face 发布了旗舰智能体模型 Step 5 Preview，采用稀疏 MoE 架构，总参数 6000 亿、激活参数 270 亿，支持最高 100 万 token 上下文，并可接收文本、图像和视频输入。该模型定位智能体工作，厂商称其在软件工程、长周期智能体执行和金融等专业知识任务上表现领先，但作为预览版，这些性能宣称尚未提供独立基准验证。模型可通过 OpenAI 兼容 API 配合 vLLM 或 SGLang 部署，采用 StepFun Model License 1.0 许可。",
+  "score": 8,
+  "tags": [
+    "LLM release",
+    "sparse MoE",
+    "agentic AI",
+    "long-context",
+    "multimodal"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+  "originalSite": "huggingface.co",
+  "context": "Step 5 Preview 并非首次亮相：据 DataLearner 页面，阶跃星辰已于 2026 年 9 月 20 日正式发布该模型，并在当日通过自有产品与开放平台 API（模型 ID 为 step-5-preview）对外提供服务，此次在 Hugging Face 上线则使其可被下载并配合 vLLM 或 SGLang 自行部署。按掘金与思否转载的介绍，官方将该模型定位为“面向真实世界 Agentic 任务的主力工作模型”，强调在能力、成本、效率和场景覆盖之间取得平衡。其采用的稀疏 MoE 架构指每次推理只激活部分参数，因此 6000 亿总参数下实际激活 270 亿，这也是其控制推理成本的关键设计。",
+  "discussion": "对于需要自部署的开发者，模型支持 vLLM 和 SGLang 的 OpenAI 兼容接口，可降低现有 OpenAI API 应用的迁移成本，但 StepFun Model License 1.0 的具体条款以及预览版状态需要在生产采用前评估。",
+  "references": [
+    {
+      "title": "Step 5 Preview ： 阶 跃 星 辰 600B MoE 旗舰基座模型 | DataLearner",
+      "url": "https://www.datalearner.com/ai-models/pretrained-models/step-5-preview"
+    },
+    {
+      "title": "阶 跃 星 辰 发 布 Step 5 Preview ：600B MoE...",
+      "url": "https://juejin.cn/post/7687542245026922496"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

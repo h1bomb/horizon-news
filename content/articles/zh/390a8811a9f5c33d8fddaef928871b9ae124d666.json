@@ -1,0 +1,45 @@
+{
+  "id": "390a8811a9f5c33d8fddaef928871b9ae124d666",
+  "canonicalId": "0342f39befa102611a3964a64d81ac28b555e319",
+  "slug": "github-项目-ps5lm越狱-ps5-上原生运行-gguf-模型",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T18:32:00Z",
+  "lang": "zh",
+  "title": "GitHub 项目 PS5LM：越狱 PS5 上原生运行 GGUF 模型",
+  "summary": "开源项目 cobanov/PS5LM 在 GitHub 上展示如何让越狱后的 PlayStation 5 通过 llama.cpp 原生运行 GGUF 格式模型，面向愿意折腾越狱主机的本地推理用户。该条目未附带项目正文，因此具体支持的模型、量化方式、内存占用与实际推理速度均无法核实，现有性能数字都来自社区评论而非项目方或第三方实测。",
+  "score": 7,
+  "tags": [
+    "llama.cpp",
+    "GGUF",
+    "PS5 homebrew",
+    "local LLM inference",
+    "hardware hacking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Anon84",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122431"
+    }
+  ],
+  "originalUrl": "https://github.com/cobanov/PS5LM",
+  "originalSite": "github.com",
+  "context": "llama.cpp 是常用的本地大模型推理引擎，GGUF 是其配套的量化模型格式，通常运行在 PC 或服务器上。PS5 的官方系统限制非签名代码，因此要在主机上运行这类模型需先越狱；该项目正是面向已越狱的 PS5，把 llama.cpp 的 GGUF 推理搬到主机硬件上。",
+  "discussion": "对想低成本跑本地模型的用户而言，更易获得的硬件可能不是 PS5 本身：社区指出 AMD BC-250 矿板搭载的“Cyan Skillfish”正是 PS5 定制 APU 的削减版，二手价约 150–200 美元，同一套 llama.cpp 思路有望覆盖这类板卡。该项目目前只托管在 GitHub，有评论者担心索尼可能要求下架，建议改用自有域名，因此依赖该仓库的用户应留意可用性风险。\n\n评论者 jjcm 认为，即便只能在 2-bit 量化下运行 Qwen 27B 级模型，这种每天约 0.7 美元电费、可长期挂机的推理对监控错误率、安防画面之类的任务依然实用，属于个人判断而非实测结论。另一位评论者主张项目不应把 GitHub 作为主要托管地，认为 Sony 可能随时下架页面，建议改用自有域名；还有人提出基于 AMD “Cyan Skillfish” APU 的 BC250 矿卡（eBay 上约 150–200 美元）可能同样适用，但这一说法未经验证。",
+  "references": [
+    {
+      "title": "GitHub - TechMakesArt/ llama . cpp - bc 250 : llama . cpp fork with Vulkan...",
+      "url": "https://github.com/TechMakesArt/llama.cpp-bc250"
+    },
+    {
+      "title": "Introduction - AMD BC 250 Documentation",
+      "url": "https://elektricm.github.io/amd-bc250-docs/getting-started/introduction/"
+    },
+    {
+      "title": "AMD BC - 250 Guide: Specs , BIOS, Linux Setup, Unlock and Gaming",
+      "url": "https://oldrigrevive.com/guides/amd-bc-250/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2e5a8d37faa50b897dec4330ce34308b4f8836aa",
+  "canonicalId": "e083958888c9d24605ed92a68b2e3d113a6677eb",
+  "slug": "big-fish利用-openbsd-存在-37-年的内核漏洞",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T14:44:00Z",
+  "lang": "zh",
+  "title": "Big Fish：利用 OpenBSD 存在 37 年的内核漏洞",
+  "summary": "安全研究文章《Big Fish》介绍了如何利用 OpenBSD 内核中一个存在 37 年之久的漏洞。文章及随后的 Hacker News 讨论聚焦于该缺陷为何能长期躲过代码审计，以及为什么仅靠人工审查难以发现这一类漏洞。由于原始内容未提供更多细节，受影响的具体内核组件、版本范围与修复状态在现有材料中尚不明确。",
+  "score": 8,
+  "tags": [
+    "OpenBSD",
+    "kernel security",
+    "vulnerability exploitation",
+    "security research",
+    "operating systems"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rs\\_rs\\_rs\\_rs\\_rs",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50118977"
+    }
+  ],
+  "originalUrl": "https://calif.io/research/big-fish",
+  "originalSite": "calif.io",
+  "context": "该漏洞的根源是 System V 共享内存的挂接计数器被声明为有符号 16 位 short，这一写法可追溯到最初的 BSD 源码，已存在约 37 年。外部报道称，研究团队在 OpenBSD 7.9 上把这一整数溢出与另一处内核缺陷（IP 组播选项处理中的越界写）串联起来实现本地提权，并绕过了 OpenBSD 的 KARL 内核地址随机化以及 SMAP、SMEP 硬件防护。",
+  "discussion": "该利用需要攻击者先在目标主机上取得本地执行权限，再串联一个约 37 年前的整数溢出缺陷与另一个内核缺陷，将权限提升至 root，因此风险集中在 OpenBSD 7.9 的多用户主机、共享环境与托管服务上。相关缺陷已被修补，而 Calif 已于 2026 年 10 月 16 日公开概念验证代码，所以运维方应尽快升级到含修复的版本，而不是依赖事后审计来发现问题。\n\n评论者 phendrenad2 指出，该缺陷似乎是在 1999 年 8 月 NetBSD 重写相关代码时被顺带修复的。ozereray1 认为，一个漏洞能在被高度审计的代码库中存活 37 年，说明单靠代码审查很难捕获这一类问题，并追问模糊测试或静态分析是否真能发现它，还是必须由人去思考利用原语。",
+  "references": [
+    {
+      "title": "37-Year-Old Kernel Flaw Exploited to Gain Root Access on ...",
+      "url": "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/"
+    },
+    {
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year ...",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html"
+    },
+    {
+      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "url": "https://daily.dev/posts/big-fish-exploiting-a-37-year-old-kernel-bug-in-openbsd-u6hc8g4lt"
+    },
+    {
+      "title": "37-Year-Old Kernel Bug in OpenBSD Finally Patched After Root ...",
+      "url": "https://thedailytechfeed.com/37-year-old-kernel-bug-in-openbsd-finally-patched-after-root-exploit-poc/"
+    },
+    {
+      "title": "OpenBSD Root Exploit: Chaining a 37-Year-Old Bug for ...",
+      "url": "https://shounkaku.com/article/openbsd-root-exploit-chaining-a-37-year-old-bug-for-privilege-escalation"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dcc58920ea1ee1200c75b79159b42bfbc877e07a",
+  "canonicalId": "7fd7e06ab2f4b840c01c364743d2c0e2fcb3de17",
+  "slug": "anthropic-的-claude-code-团队谈代码审查自动化",
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-16T19:04:00Z",
+  "lang": "zh",
+  "title": "Anthropic 的 Claude Code 团队谈代码审查自动化",
+  "summary": "Anthropic 的 Claude Code 团队发布博文，介绍其内部如何处理代码审查：大部分流程自动化，人的注意力被引导到风险所在处；评测会随每次事故增长，对审查器的每次改动都会用整个评测集打分。评论区引用的博文内容还显示，文档、文案、内部功能以及藏在开关后的增量改动被列为低风险，在自动审查和安全检查通过后无需人工审查。这些是 Anthropic 对其内部实践的描述，而非独立测量的结果，完整博文也未被提供。",
+  "score": 7,
+  "tags": [
+    "AI code review",
+    "Anthropic",
+    "software engineering",
+    "developer productivity",
+    "code review automation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pretext",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50122951"
+    }
+  ],
+  "originalUrl": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "originalSite": "claude.dev",
+  "context": "Anthropic 此前已在 Claude Code 中推进代码审查与代理式工作流：其官方文章介绍过如何在 Claude Code 中组织代理任务来完成代码审查（tool-2-2）。Horizon 9 月 19 日的日报也曾报道，改版后的 Claude Projects 在 Claude Code 中开启 beta，Claude 会自行拆解目标、分配并行线程并审查产出（tool-1-1）。这些早期能力与说法，是理解该团队为何要公开讨论代理生成代码审查流程的前提。",
+  "discussion": "对想借鉴该流程的团队，关键动作是先把自动审查和安全检查做成可信的放行条件，再按风险划分哪些改动可免人工审查；否则“低风险”豁免就没有依据。评论区对这种低风险豁免是否安全、以及自动审查能否覆盖新增失败模式存在明显质疑。\n\n评论区的核心分歧在于自动化能走多远：有评论质疑没人能跟上每天约 3 万次 pull request，因而只能依赖 AI 自行审查，并追问 churn rate 和每行代码成本；也有人批评博文中“低风险文档改动在自动检查通过后无需人工审查”的做法，认为让 LLM 写文档却无人阅读不可接受。另有评论指出“放慢速度会降低错误率，但主要是因为做得更少”混淆了比率，还有人怀疑文章本身是否由 AI 撰写。",
+  "references": [
+    {
+      "title": "2026-09-19 — Anthropic 改版 Claude 项目并在 Claude Code 开启 beta",
+      "url": "https://claude.com/blog/projects-redesigned"
+    },
+    {
+      "title": "Code Review for Claude Code | Claude by Anthropic",
+      "url": "https://claude.com/resources/articles/code-review"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
