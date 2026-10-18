@@ -1,0 +1,37 @@
+{
+  "id": "e08581f1e86cc94fe8895236a017869d3ddd537e",
+  "canonicalId": "1557ed18b56735c6b8c5e8615009133e164a2ec5",
+  "slug": "llmspeed购机前预览本地-llm-推理速度的网页工具",
+  "date": "2026-10-18",
+  "publishedAt": "2026-10-17T04:36:00Z",
+  "lang": "zh",
+  "title": "Llmspeed：购机前预览本地 LLM 推理速度的网页工具",
+  "summary": "Llmspeed 以 Show HN 形式发布，是一个网页工具，让开发者在为本地 LLM 采购硬件之前，先查看特定模型与显卡组合的推理速度（tok/s）预估。站内数字来自基准测试，属于某一时点的性能快照，而不是在用户自己机器上实测的结果。它面向想在消费级或旧款 GPU 上跑本地模型、又不愿先花钱试错的人。",
+  "score": 7,
+  "tags": [
+    "local LLMs",
+    "hardware benchmarking",
+    "inference performance",
+    "developer tools",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "albinstman",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50127979"
+    }
+  ],
+  "originalUrl": "https://llmspeed.dev/",
+  "originalSite": "llmspeed.dev",
+  "context": "本地 LLM 的速度数字高度依赖量化格式、推理引擎和针对硬件的调优，而不只取决于模型与显卡型号。Horizon 2026 年 8 月 23 日的日报曾收录一场讨论，其中指出本地模型表现不佳往往源于推理配置而非模型本身，并举例称在合适配置下同一类硬件可以达到显著更高的 tok/s。Llmspeed 这类按硬件配置预估推理速度的工具，正是在这一前提下试图帮助用户在购机前获得可比较的参考值。",
+  "discussion": "对打算按站内数字购机的用户，评论区给出的实测提醒应把这些数值当作上限：Jabdoa2 称真实的 agentic 编码负载通常是 6 万至 14 万 token 的提示加数千 token 输出，解码吞吐只有基准值的一半到三分之一。按此折算，选卡时需结合自己的上下文长度、推理引擎和参数调优重新估算，而不能直接套用页面上的 tok/s。\n\nkgeist 称站点给出 Qwen3.6-27b 4 bit 在 RTX 5090 上 46 tok/s，而他在小上下文下（5 bit 权重、8 bit KV 缓存）能跑到 60–70 tok/s，大上下文降至 40 tok/s，加上 ngram 推测在代码场景可超过 100 tok/s；layoric 则认为软件迭代很快，这类数字只能当作快照。多位评论者强调推理引擎实现与参数调优对结果影响很大，而这些变量并未体现在页面中。",
+  "references": [
+    {
+      "title": "2026-08-23 — 为什么你的本地 LLM 感觉比实际更笨",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

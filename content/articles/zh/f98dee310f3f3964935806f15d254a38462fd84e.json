@@ -1,0 +1,45 @@
+{
+  "id": "f98dee310f3f3964935806f15d254a38462fd84e",
+  "canonicalId": "49b49c1c440ebc796b6b099adc26ba6bc62e3540",
+  "slug": "opencode-console-泄露约-14-用户-api-密钥",
+  "date": "2026-10-18",
+  "publishedAt": "2026-10-17T18:01:00Z",
+  "lang": "zh",
+  "title": "OpenCode Console 泄露约 1.4% 用户 API 密钥",
+  "summary": "OpenCode 开发商确认其 Console 服务在一场大规模蒸馏攻击中泄露了约 1.4% Console 用户存储的 OpenAI、Anthropic 和 Google API 密钥，并已通过邮件通知受影响账户。公司表示正与三家厂商协同处置，但暂无法确认这些密钥是否已被恶意使用。官方建议用户在对应平台后台吊销并重签密钥、检查 10 月 17 日以来的用量，并设置支出上限。",
+  "score": 7,
+  "tags": [
+    "security-incident",
+    "credential-leak",
+    "api-keys",
+    "opencode",
+    "incident-response"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pranshuchittora",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50133401"
+    }
+  ],
+  "originalUrl": "https://twitter.com/opencode/status/2111516673953935833",
+  "originalSite": "twitter.com",
+  "context": "",
+  "discussion": "有评论者澄清，泄露发生在类似 OpenRouter 的 OpenCode Console，而非 OpenCode 编程智能体本身；仅使用该编程智能体的用户不受影响。另有评论者主张，API 密钥系统应提供批量失效端点，使泄漏发生时可由平台或白帽人员主动吊销全部密钥，而不是让每个用户各自抢时间处理。",
+  "references": [
+    {
+      "title": "OpenCode Console Breach: Rotate Your API Keys Now (1.4% ...",
+      "url": "https://www.explainx.ai/blog/opencode-console-breach-stored-api-keys-distillation-attack-what-to-do-2026"
+    },
+    {
+      "title": "OpenCode discloses distillation attack that hit 1.4% of ...",
+      "url": "https://cryptobriefing.com/opencode-distillation-attack-api-key-breach/"
+    },
+    {
+      "title": "2026-10-15 — OpenCode 2.0 发布：重构代理循环，技能与插件自动重载",
+      "url": "https://anoma.ly/notes/opencode-2-0/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

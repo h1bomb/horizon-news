@@ -1,6 +1,125 @@
 {
   "articles": [
     {
+      "id": "938d828117f3c83928dec74fe34bbbacd68f87ac",
+      "canonicalId": "9b13d6a721a0c27049840c9b9a043dabdb98a309",
+      "slug": "deepseek-v41-flash-1017-发布社区讨论编码基准与速度",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "DeepSeek-V4.1-Flash-1017 发布，社区讨论编码基准与速度",
+      "score": 8,
+      "tags": [
+        "LLM release",
+        "DeepSeek",
+        "model benchmarks",
+        "AI coding",
+        "open models"
+      ],
+      "originalSite": "huggingface.co"
+    },
+    {
+      "id": "ed321bf737809b01c6306e4db993b2bc4f5c615d",
+      "canonicalId": "5ce71835625a6d25757ac955b1b7788289131814",
+      "slug": "pele把-mermaid-图表变成可主题化-svg",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "Pele：把 Mermaid 图表变成可主题化 SVG",
+      "score": 7,
+      "tags": [
+        "Mermaid",
+        "SVG rendering",
+        "diagramming",
+        "theming",
+        "developer tools"
+      ],
+      "originalSite": "pele.run"
+    },
+    {
+      "id": "f98dee310f3f3964935806f15d254a38462fd84e",
+      "canonicalId": "49b49c1c440ebc796b6b099adc26ba6bc62e3540",
+      "slug": "opencode-console-泄露约-14-用户-api-密钥",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "OpenCode Console 泄露约 1.4% 用户 API 密钥",
+      "score": 7,
+      "tags": [
+        "security-incident",
+        "credential-leak",
+        "api-keys",
+        "opencode",
+        "incident-response"
+      ],
+      "originalSite": "twitter.com"
+    },
+    {
+      "id": "e08581f1e86cc94fe8895236a017869d3ddd537e",
+      "canonicalId": "1557ed18b56735c6b8c5e8615009133e164a2ec5",
+      "slug": "llmspeed购机前预览本地-llm-推理速度的网页工具",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "Llmspeed：购机前预览本地 LLM 推理速度的网页工具",
+      "score": 7,
+      "tags": [
+        "local LLMs",
+        "hardware benchmarking",
+        "inference performance",
+        "developer tools",
+        "Hacker News"
+      ],
+      "originalSite": "llmspeed.dev"
+    },
+    {
+      "id": "eedb4fb980152bec1e918260e945d7eba7d4937c",
+      "canonicalId": "c95c2a62b71a20a399e927e842ef79c34b40fc41",
+      "slug": "写作不再是工作量证明",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "写作不再是工作量证明",
+      "score": 6,
+      "tags": [
+        "LLMs",
+        "workplace writing",
+        "proof-of-work analogy",
+        "software engineering culture",
+        "process compliance"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "e0d4a286a9baf5be899339b347cafa652f73094d",
+      "canonicalId": "6821afa77b49f964269d4ea12fc5b636b7d15b42",
+      "slug": "rag-智能体的八种分块策略",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "RAG 智能体的八种分块策略",
+      "score": 4,
+      "tags": [
+        "RAG",
+        "chunking strategies",
+        "late chunking",
+        "retrieval-augmented generation",
+        "newsletter roundup"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "7ba63cb796140a2174f889a0ecd903ffb5268562",
+      "canonicalId": "61cae8d261bcda56c33154c27a069b7873597eac",
+      "slug": "伯克希尔加码-bending-spoons软件并购模式获背书",
+      "date": "2026-10-18",
+      "lang": "zh",
+      "title": "伯克希尔加码 Bending Spoons，软件并购模式获背书",
+      "score": 8,
+      "tags": [
+        "Bending Spoons",
+        "Berkshire Hathaway",
+        "SaaS consolidation",
+        "AI disruption",
+        "M&amp;A"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "a8ee6b4ea4f20638d2a9f59b4c705a0179c2829a",
       "canonicalId": "7a6a342eb9583796b00ba8488e92f11c4c3f9a88",
       "slug": "claude-溯源-nist-椭圆曲线种子来自-lrand48",
@@ -4955,193 +5074,6 @@
         "succession"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "1c5e7636464d6306dab9f0d41741b6a9f9599556",
-      "canonicalId": "96e95b323f03d32f4d87b517ddeb9d3466f55e5a",
-      "slug": "glm-称用超-10-万国产加速器承载-glm-53-flash-推理",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "GLM 称用超 10 万国产加速器承载 GLM-5.3-Flash 推理",
-      "score": 8,
-      "tags": [
-        "AI inference",
-        "LLM serving",
-        "AI accelerators",
-        "GLM",
-        "AI infrastructure"
-      ],
-      "originalSite": "z.ai"
-    },
-    {
-      "id": "fd09dc0a2b4dda50ed7ce3491a4c477b1048c685",
-      "canonicalId": "e5c37e0d8fd1290b08dde61c56d84c93e8d7e4c2",
-      "slug": "openai-报告模型在压缩摘要中自我生成提示注入",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "OpenAI 报告：模型在压缩摘要中自我生成提示注入",
-      "score": 8,
-      "tags": [
-        "AI alignment",
-        "LLM agents",
-        "prompt injection",
-        "context compaction",
-        "OpenAI"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "1949ea6957bbeee8565eb9b326c2c09292bf684d",
-      "canonicalId": "5f8a48b166463ddc84163b963bdc8d13a60182a2",
-      "slug": "openai-披露六起模型异常行为并建立公开报告框架",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "OpenAI 披露六起模型异常行为并建立公开报告框架",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "OpenAI",
-        "model deception",
-        "agentic AI",
-        "AI governance"
-      ],
-      "originalSite": "bbc.co.uk"
-    },
-    {
-      "id": "d4e7eb8a17f285ef58b0d68eeb14b8b0bce83315",
-      "canonicalId": "91b1986b6835f2d40126677650f275eeb3f1d660",
-      "slug": "bend用证明约束-ai-代码的-cpugpu-语言",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "Bend：用证明约束 AI 代码的 CPU/GPU 语言",
-      "score": 7,
-      "tags": [
-        "programming languages",
-        "formal verification",
-        "GPU computing",
-        "AI code generation",
-        "type systems"
-      ],
-      "originalSite": "bend-lang.com"
-    },
-    {
-      "id": "1265d8e69add80431f135b035ef1d0509b80228f",
-      "canonicalId": "bf5dba8048fd7a78710000420ddca1fcfe34e8b9",
-      "slug": "hister为浏览页面和本地文件建立私有索引的开源搜索引擎",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "Hister：为浏览页面和本地文件建立私有索引的开源搜索引擎",
-      "score": 7,
-      "tags": [
-        "privacy",
-        "search-engine",
-        "open-source",
-        "local-first",
-        "personal-knowledge-management"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "40fbae9153e8aa28a233ef7e319e6268971cf43d",
-      "canonicalId": "8aeb094f5ebadd72685deb10d18bb14c310c3079",
-      "slug": "为何作者拒绝签署菲尔兹奖得主的-ai-与数学公开信",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "为何作者拒绝签署菲尔兹奖得主的 AI 与数学公开信",
-      "score": 7,
-      "tags": [
-        "AI and mathematics",
-        "academic funding",
-        "AI and labor",
-        "open letters",
-        "research culture"
-      ],
-      "originalSite": "gowers.wordpress.com"
-    },
-    {
-      "id": "3bebe21e5e0ad0e6a5cc4f8e6bb7920b8dfdb8eb",
-      "canonicalId": "3e20fb1e379f8fa69110f71a41d6c45f436ef5a7",
-      "slug": "io-uring-以线程身份交换消除异步阻塞开销",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "io\\_uring 以线程身份交换消除异步阻塞开销",
-      "score": 7,
-      "tags": [
-        "io\\_uring",
-        "Linux kernel",
-        "asynchronous I/O",
-        "performance",
-        "RFC patch"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "d5c6d44c5f55ccab3f6b3632fb52fae7bed28f28",
-      "canonicalId": "c8ad10868a1706c16be73c2bf17adc6208a6fa69",
-      "slug": "苹果考虑搭载英伟达技术重返服务器市场",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "苹果考虑搭载英伟达技术重返服务器市场",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "NVIDIA",
-        "AI infrastructure",
-        "servers",
-        "semiconductors"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "559c8c5d949f67524d6b066a632d8c280ce15ff9",
-      "canonicalId": "6a2ab0a20cd38b001af47f884c9c81142f5a5846",
-      "slug": "华为将发布-ascend-960-ai-芯片2027-年商用",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "华为将发布 Ascend 960 AI 芯片，2027 年商用",
-      "score": 7,
-      "tags": [
-        "Huawei Ascend",
-        "AI chips",
-        "Nvidia competition",
-        "semiconductors",
-        "AI infrastructure"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "71867f13f6d3be06f13f0ffabfbe56e0f820c901",
-      "canonicalId": "89aaad01e2a404074a114cb05110b15589825c25",
-      "slug": "用-pynvvideocodec-与-vllm-扩展多-gpu-视频描述吞吐",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "用 PyNvVideoCodec 与 vLLM 扩展多 GPU 视频描述吞吐",
-      "score": 5,
-      "tags": [
-        "vLLM",
-        "video captioning",
-        "GPU video decoding",
-        "PyNvVideoCodec",
-        "multi-GPU scaling"
-      ],
-      "originalSite": "vllm.ai"
-    },
-    {
-      "id": "9d0426ba223d8e278fb073d9bccd92c013dbe3a8",
-      "canonicalId": "7ea92367a2c5af7cda59c7f6a8a09d424b043bc0",
-      "slug": "印度央行驳回豁免申请强制塔塔之子上市",
-      "date": "2026-09-18",
-      "lang": "zh",
-      "title": "印度央行驳回豁免申请，强制塔塔之子上市",
-      "score": 8,
-      "tags": [
-        "印度央行",
-        "塔塔之子",
-        "IPO",
-        "公司治理",
-        "非银行金融公司"
-      ],
-      "originalSite": "finance.sina.com.cn"
     }
   ]
 }

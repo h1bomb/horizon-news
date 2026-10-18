@@ -1,0 +1,49 @@
+{
+  "id": "ed321bf737809b01c6306e4db993b2bc4f5c615d",
+  "canonicalId": "5ce71835625a6d25757ac955b1b7788289131814",
+  "slug": "pele把-mermaid-图表变成可主题化-svg",
+  "date": "2026-10-18",
+  "publishedAt": "2026-10-17T15:55:00Z",
+  "lang": "zh",
+  "title": "Pele：把 Mermaid 图表变成可主题化 SVG",
+  "summary": "Pele 是一款把 Mermaid 图表输出为可主题化 SVG 的工具，并在 Hacker News 上引发讨论。它的重点是让生成的 SVG 支持主题定制；现有条目未说明版本、授权方式或兼容范围。",
+  "score": 7,
+  "tags": [
+    "Mermaid",
+    "SVG rendering",
+    "diagramming",
+    "theming",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dchest",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50132193"
+    }
+  ],
+  "originalUrl": "https://pele.run/",
+  "originalSite": "pele.run",
+  "context": "Mermaid 是一套以文字描述流程图、时序图等图表的语法。Pele 的 GitHub 说明将其定位为小型、同步且无依赖的渲染器，可把 Mermaid 图表输出成 SVG，并以 CSS 变数控制颜色与字体；它支援 Mermaid 12.1.0 内建的所有图表类型。该专案以 MIT 授权开源，官网称它是为 Obsidian 快速渲染图表而开发。",
+  "discussion": "有评论者称，Mermaid 在稍复杂的图表上常产生难以理解且拓扑结构不佳的布局，相比之下样式问题反倒次要；另一名评论者询问官方 Mermaid 是否仍需完整或无头浏览器来布局 SVG，并认为若能摆脱该限制，Pele 对在浏览器外嵌入渲染会很有价值。还有人报告 playground 中的 Mermaid 预览无法使用，并表示在 github.com/obsidianmd/pele 找到了源码。",
+  "references": [
+    {
+      "title": "GitHub - obsidianmd/pele: A fast and safe renderer for ...",
+      "url": "https://github.com/obsidianmd/pele"
+    },
+    {
+      "title": "Pele · Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/"
+    },
+    {
+      "title": "GitHub - zkrebbekx/go-mermaid: Render Mermaid diagrams to SVG ...",
+      "url": "https://github.com/zkrebbekx/go-mermaid"
+    },
+    {
+      "title": "GitHub - speajus/mermaid-to-svg: Make mermaid charts not ...",
+      "url": "https://github.com/speajus/mermaid-to-svg"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

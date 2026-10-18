@@ -1,0 +1,31 @@
+{
+  "id": "e0d4a286a9baf5be899339b347cafa652f73094d",
+  "canonicalId": "6821afa77b49f964269d4ea12fc5b636b7d15b42",
+  "slug": "rag-智能体的八种分块策略",
+  "date": "2026-10-18",
+  "publishedAt": "2026-10-17T15:30:00Z",
+  "lang": "zh",
+  "title": "RAG 智能体的八种分块策略",
+  "summary": "rss · ByteByteGo · 10月17日 15:30\n\n**「背景」** RAG 智能体要先把文档切成可检索的片段，边界如何确定会直接影响检索质量、上下文完整性与处理成本。\n\n**「方案」** ByteByteGo 的这篇短文并列梳理了八种思路：固定大小按 token 切分并保留少量重叠；递归法先从段落切，过大再退到行、词和字符；文档型利用标题、章节或 HTML 标签等原有结构；语义法比较相邻句向量，在相似度骤降处开新块。其余四种中，LLM 型让模型把文本改写成独立命题，质量高但大语料成本昂贵；智能体型由代理判断文件类型（代码、合同、表格）后逐文件选择方法；晚分块先让整篇文档经过嵌入模型，再按常规边界切分并在边界内做均值池化；分层法则按章节、段落、句子组织成层级。文章基本停留在概念说明，没有实现细节、基准或系统性的权衡比较。原文附带的读者评论进一步指出，晚分块受嵌入模型上下文窗口约束（原论文使用的 jina-embeddings-v2 为 8K token），超长文档仍要先切宏块，因此只是把边界选择推到更粗粒度；它能让“其营收增长 3%”保留全文中的指代，但智能体分块是否优于“递归切分加重排序器”仍缺少实测。\n\n**「启示」** 从这篇概览可见，分块没有单一最优解，实际系统要在结构保真、语义连贯、窗口限制和成本之间折中。在缺乏对照评测时，更复杂的分块未必胜过简单的递归切分配合重排序器。\n\n**标签**: `#RAG`, `#chunking strategies`, `#late chunking`, `#retrieval-augmented generation`, `#newsletter roundup`",
+  "score": 4,
+  "tags": [
+    "RAG",
+    "chunking strategies",
+    "late chunking",
+    "retrieval-augmented generation",
+    "newsletter roundup"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/ep229-8-chunking-strategies-for-rag",
+  "originalSite": "blog.bytebytego.com",
+  "context": "RAG 智能体要先把文档切成可检索的片段，边界如何确定会直接影响检索质量、上下文完整性与处理成本。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

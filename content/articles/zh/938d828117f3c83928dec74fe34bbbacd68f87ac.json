@@ -1,0 +1,41 @@
+{
+  "id": "938d828117f3c83928dec74fe34bbbacd68f87ac",
+  "canonicalId": "9b13d6a721a0c27049840c9b9a043dabdb98a309",
+  "slug": "deepseek-v41-flash-1017-发布社区讨论编码基准与速度",
+  "date": "2026-10-18",
+  "publishedAt": "2026-10-17T08:21:00Z",
+  "lang": "zh",
+  "title": "DeepSeek-V4.1-Flash-1017 发布，社区讨论编码基准与速度",
+  "summary": "DeepSeek 推出 DeepSeek-V4.1-Flash-1017，Hacker News 提交条目仅给出 DeepSeek API 文档新闻页和 OpenRouter 模型页两个链接，提交材料本身未附基准方法、定价或上下文长度等信息。评论者称这是对 DeepSeek-V4.1-Flash 的“小版本更新”，在推理、编码和智能体任务上有“大幅改进”；还有人转述公司新闻页称，该模型在多个编码基准上显著提升，并在 11 项中赢下 10 项、超过 Sol 5.6，但同一讨论指出 Sol 6.1 已是最新版本，这些数字也未在提交材料中给出，无法独立核验。对通过 DeepSeek API 或 OpenRouter 调用模型的开发者而言，目前可从材料确认的是发布与入口链接，而非可复现的实测性能。",
+  "score": 8,
+  "tags": [
+    "LLM release",
+    "DeepSeek",
+    "model benchmarks",
+    "AI coding",
+    "open models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "theykk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "originalSite": "huggingface.co",
+  "context": "Horizon 9 月 11 日的日报曾报道，DeepSeek 发布 V4.1 Flash，称其为新模型结构系列中尺寸最小的模型，采用 552B 参数的 Causal-Encoder-Decoder 结构，输入与输出激活参数分别为 8B 和 16B，并以 deepseek-flash 的模型名上线 API；当时的日报同时注明，这些信息来自聚合式社交帖子，尚需 DeepSeek 官方一手来源确认。此次的 1017 版本是同一 V4.1 Flash 系列的新检查点：OpenRouter 页面将其标注为 2026 年 10 月 17 日的快照，仍由 DeepSeek 以 deepseek-flash 这一 API 模型名提供服务。",
+  "discussion": "考虑切换的开发者应把社区提到的吞吐量和首 token 延迟优势视为待验证体验，而不是基准结论：评论者称 DeepSeek 的 token/s 和 TTFT 表现让智能体等待更少，并把可查看 CoT、较少被网络安全审查拦截列为开放性优势，但这些都不是受控测量。生产采用前，应以目标任务和相同服务商复测编码、审查及智能体工作流，并核对 OpenRouter 或 DeepSeek API 页面上的实际可用性、定价和限制，因为提交材料没有提供这些信息。\n\n讨论的核心分歧是基准与体感：一方认为 DeepSeek 在 token/s、首 token 延迟和开放性（可查看 CoT、较少被网络安全审查拦截）上让智能体等待更少，即便基准不占优也“感觉更好”。另一方给出同一脏代码库的对照体验：DeepSeek v4.1 Flash 经 API 花 20 分钟只找到 1 个相关 P1 和 1 个无关 P2，而 GPT 5.6 Sol 用 5 分 30 秒找到 2 个相关问题、GPT 6.1 Sol 用 4 分 30 秒找到 3 个相关问题；也有评论转述公司新闻页的 10/11 编码基准胜绩，但指出 Sol 6.1 才是最新版。",
+  "references": [
+    {
+      "title": "2026-09-11 — DeepSeek V4.1 Flash 发布：552B 参数与 API 路由调整",
+      "url": "https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg"
+    },
+    {
+      "title": "DeepSeek V 4 . 1 Flash 1017 - API Pricing &amp; Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
