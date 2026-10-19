@@ -1,0 +1,36 @@
+{
+  "id": "b08436b5a3e09fa6f4c7570de52c053376ebfd2a",
+  "canonicalId": "51299d4c7c9cbf0baeebd63aa41d947e0714e9b2",
+  "slug": "vllm-v0320-发布新增结构化决策端点并扩展低精度-kv-缓存",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T06:50:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.32.0 发布：新增结构化决策端点并扩展低精度 KV 缓存",
+  "summary": "vLLM v0.32.0 发布，包含 814 个提交和 363 名贡献者；新增默认提供的 \\`POST /v1/systemone\\` 端点，用于对结构化状态回答 \\`choice\\`、\\`noul\\` 和 \\`score\\` 问题，并支持 \\`Cloudflare/clef-omni\\` 等模型。新增 \\`--tool-call-parser hf\\` 与 \\`--reasoning-parser hf\\`，通过读取 checkpoint 的 \\`response\\_template\\`，让自带该模板的模型无需专用解析器，Python 和 Rust 前端均支持。低精度 KV 缓存扩展到更多 NVIDIA 架构和 ROCm：NVFP4 覆盖 SM8x、SM12x 和 SM90，GLM-5.x 在 SM100 默认使用 FP8 KV 缓存，发布说明引用的 PR 基准称每个 rank 的 KV 内存减半、吞吐提高 2.3-5.5%，但 TTFT 增加 7-11%；ROCm 新增 \\`ultraquant\\_4bit\\`，密度约为 FP8 的 2 倍。该版本还包含破坏性变更：停止支持 Python 3.10、默认限制 CORS 来源、收紧 transformers/tokenizers 版本范围，并移除 cascade attention 等。",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "KV cache",
+    "structured outputs",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+  "originalSite": "github.com",
+  "context": "Horizon 2026 年 8 月 5 日的日报曾解释，长上下文推理的成本主要来自 KV 缓存：模型需要为每个已处理的 token 保留注意力键值，上下文越长，显存占用越大。vLLM v0.32.0 的多项改动正针对这一瓶颈，例如 GLM-5.x 在 SM100 上默认启用 FP8 KV 缓存以把每卡 KV 显存减半，ROCm 端新增的 4-bit \\`ultraquant\\_4bit\\` 缓存密度约为 FP8 的两倍。与此同时，该版本把依赖下限提高到 \\`transformers&gt;=5.16.1,&lt;5.20.0\\` 和 \\`tokenizers&gt;=0.23.2\\`，并停止支持 Python 3.10，升级前需先核对运行环境。",
+  "discussion": "对自建推理服务的团队，升级前应检查仍在使用 Python 3.10 的环境、依赖宽松跨域设置的浏览器客户端，以及依赖 Responses API 旧推理流事件名或旧 \\`max\\_tokens\\` 上下文预留行为的集成，因为这些都在此版本中发生了破坏性变更。",
+  "references": [
+    {
+      "title": "2026-08-05 — LLM 长上下文推理为何昂贵：KV 缓存与优化",
+      "url": "https://blog.bytebytego.com/p/why-an-llms-memory-gets-expensive"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

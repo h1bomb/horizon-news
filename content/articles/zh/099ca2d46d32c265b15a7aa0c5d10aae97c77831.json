@@ -1,0 +1,45 @@
+{
+  "id": "099ca2d46d32c265b15a7aa0c5d10aae97c77831",
+  "canonicalId": "643666daab59db726febdf9a370e3f7bb11438fa",
+  "slug": "reprapmicron开源微米级-3d-打印项目-wiki-引发讨论",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T13:48:00Z",
+  "lang": "zh",
+  "title": "RepRapMicron：开源微米级 3D 打印项目 wiki 引发讨论",
+  "summary": "RepRapMicron 的项目 wiki 在 Hacker News 上引起关注，该项目试图沿 RepRap 的开源硬件路线，把 3D 打印推进到微米尺度。此次提供的条目只是指向该 wiki 的链接，未附可核验的打印精度、速度、材料清单或第三方复现结果，因此它应被视为进行中的开源探索，而非已展示的突破。讨论的焦点也不在当前能力，而在这类设备若成熟，对芯片类设计从软件走向实体硬件意味着什么。",
+  "score": 7,
+  "tags": [
+    "open-source hardware",
+    "3D printing",
+    "micron-scale fabrication",
+    "RepRap",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "RobotToaster",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50141076"
+    }
+  ],
+  "originalUrl": "https://github.com/VikOlliver/RepRapMicron/wiki",
+  "originalSite": "github.com",
+  "context": "RepRapMicron（又称 μRepRap）是开源 RepRap 3D 打印机项目的延伸，目标是把微米级制造推广到更广泛的用户群体。项目资料将其描述为一套三轴 3D 打印机构，精度可达几微米、特征尺寸约为 10–20 微米，并设计为兼容标准 3D 打印机和 CNC 控制器，可由普通 3D 打印或 CNC 爱好者组装。",
+  "discussion": "mikewarot 把当前进展类比为 1790 年代 Ramsden 的圆分度、Maudslay 的螺纹车床和 Wilkinson 的镗床，认为其意义在于把原本依赖手艺的精密加工变成可稳定制造的东西。samayashar 期待能廉价、可持续地把只存在于软件里的芯片设计打印出来；godber 则以“18 个月后就能自己做内存”调侃其时间尺度，le-mark 则质疑让机器打印自身千分之一尺寸版本的设想究竟为了什么。",
+  "references": [
+    {
+      "title": "RepRapMicron - RepRap GitHub - VikOlliver/RepRapMicron: μRepRap - A 3D printer ... RepRapMicron Micron Scale 3D Printer by vik - Thingiverse RepRapMicron Micron Scale 3D Printer by vik - Thingiverse RepRapMicron - The Next Small Thing In 3D Printing - Vik ... RepRapMicron – Hackaday RepRapMicron/Presentations at main · VikOlliver/RepRapMicron",
+      "url": "https://reprap.org/wiki/RepRapMicron"
+    },
+    {
+      "title": "GitHub - VikOlliver/RepRapMicron: μRepRap - A 3D printer ...",
+      "url": "https://github.com/VikOlliver/RepRapMicron"
+    },
+    {
+      "title": "RepRapMicron Micron Scale 3D Printer by vik - Thingiverse",
+      "url": "https://www.thingiverse.com/thing:7029371"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

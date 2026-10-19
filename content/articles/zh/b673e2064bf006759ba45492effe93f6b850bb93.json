@@ -1,0 +1,37 @@
+{
+  "id": "b673e2064bf006759ba45492effe93f6b850bb93",
+  "canonicalId": "a5bb32320853f4db899f960fab78f0afa3dea1e6",
+  "slug": "混合智能体潜空间推理文本行动的-llm-agent",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T20:48:00Z",
+  "lang": "zh",
+  "title": "混合智能体：潜空间推理、文本行动的 LLM Agent",
+  "summary": "一篇 arXiv 论文提出“混合推理智能体”（Hybrid Reasoning Agents）：模型在潜空间（latent space）中完成推理，再通过文本动作与外部环境交互，从而把内部思考与可观测的输出动作分开。作者同时放出配套资源：GitHub 上的 togethercomputer/HybridAgent 代码库、HuggingFace 上的模型与数据集合，以及论文第 5 节的评测结果。这属于论文加开源代码、模型的发布，而非已交付的产品能力；实际效果需以论文评测和第三方复现为准。",
+  "score": 7,
+  "tags": [
+    "LLM agents",
+    "latent reasoning",
+    "hybrid reasoning",
+    "arxiv paper",
+    "open-source models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "allinonai",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50145337"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2610.18861",
+  "originalSite": "arxiv.org",
+  "context": "",
+  "discussion": "讨论集中在两点：一是上述 14B 量化模型在 llama.cpp 中的循环失败，被视为对本地可运行性的质疑；二是设计取向之争，有评论者建议既然生成文本时已付出接近完整潜空间模式的计算成本，不如让模型在文本模式下也持续进行潜空间推理，另有人期待把该混合方案用于 Qwen 3.8 27B 以减少其推理输出中的重复复述。这些均为个人观点与个例体验，尚不构成对该方法有效性的共识。",
+  "references": [
+    {
+      "title": "Hybrid Reasoning Agents - arXiv.org",
+      "url": "https://arxiv.org/html/2610.18861v1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

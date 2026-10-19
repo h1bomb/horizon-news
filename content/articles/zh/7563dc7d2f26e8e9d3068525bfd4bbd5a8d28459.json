@@ -1,0 +1,41 @@
+{
+  "id": "7563dc7d2f26e8e9d3068525bfd4bbd5a8d28459",
+  "canonicalId": "fcc34260855a04c1ebaf728dbebda0c6a75cf625",
+  "slug": "open-micromanipulator开源亚微米级三维运动平台",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T11:16:00Z",
+  "lang": "zh",
+  "title": "Open MicroManipulator：开源亚微米级三维运动平台",
+  "summary": "Open MicroManipulator 是一个在 Hacker News 上受到关注的开源硬件项目，目标是为硬件爱好者和精密仪器搭建者提供亚微米级三维运动控制平台。该项目以 GitHub 仓库形式发布，相关讨论集中在 DIY 纳米定位的替代方案和实际搭建经验上。现有条目没有提供独立测量数据或完整复现信息，因此其亚微米定位能力和实际可用性仍需以项目文档和第三方验证为准。",
+  "score": 7,
+  "tags": [
+    "open-source hardware",
+    "precision motion control",
+    "DIY instrumentation",
+    "sub-micrometer positioning",
+    "nanopositioning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_Microft",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50140001"
+    }
+  ],
+  "originalUrl": "https://github.com/0x23/MicroManipulatorStepper",
+  "originalSite": "github.com",
+  "context": "亚微米级定位通常依赖压电致动器或柔性铰链机构，成本较高。Open MicroManipulator 则采用现成步进电机加机械减速的方案，据项目介绍可实现低至 50 纳米的步进，用于光学对准、电子元件探测和显微观察等场景。",
+  "discussion": "评论者指出 RepRap Micron 在做类似的事，并讨论了用压电粘滑致动器实现潜在亚纳米分辨率、成本约 1000 美元的 DIY 路线，同时引用了一篇相关论文。还有评论者称正在搭建该项目的非电动手动版本，准备改装后用于点衍射干涉仪；另一人表示刚花了一个周末组装该项目。",
+  "references": [
+    {
+      "title": "GitHub - 0x23/MicroManipulatorStepper: A sub-micrometer 3D ...",
+      "url": "https://github.com/0x23/MicroManipulatorStepper"
+    },
+    {
+      "title": "Open MicroManipulator – A sub-micrometer 3D motion control ...",
+      "url": "https://daily.dev/posts/open-micromanipulator-a-sub-micrometer-3d-motion-control-plattform-xceqae2du"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

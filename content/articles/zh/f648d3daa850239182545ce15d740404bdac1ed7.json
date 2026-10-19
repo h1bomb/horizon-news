@@ -1,0 +1,39 @@
+{
+  "id": "f648d3daa850239182545ce15d740404bdac1ed7",
+  "canonicalId": "47822cd9ee4644799dab7e281408e8ab085d61b0",
+  "slug": "linux-73-内核发布逾-18-万次提交74-合并窗口开启",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T23:45:00Z",
+  "lang": "zh",
+  "title": "Linux 7.3 内核发布：逾 1.8 万次提交，7.4 合并窗口开启",
+  "summary": "Linus Torvalds 已按预期发布 Linux 7.3 内核。据 LWN 统计，本次发布创下纪录：包含 18,765 个非合并提交，来自 3,021 名开发者，其中 807 人是首次参与内核开发。已列出的重要变更包括 binfmt\\_misc 的扩展、面向大型系统的分组调度改进、新增“所有操作都失败”的 failfs 文件系统、fchroot\\(\\) 系统调用、BPF 程序的全局 per-CPU 数据、sched\\_ext 子调度器特性的完成、虚拟机的 working-set 跟踪、ntfs3 的备用数据流支持，以及一批 SMB 服务端改进。随着 7.3 发布，7.4 的合并窗口于次日开启，但 Torvalds 表示正值年度家庭休假，他当天大部分时间会在船上和水下，因此合并节奏在一段时间内将不太常规。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "open source",
+    "kernel release",
+    "systems software"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1101143/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "对内核开发者来说，7.4 合并窗口虽已开启，但维护者在假期期间的合并安排可能异常，提交与跟进的时间预期需要相应放宽。希望评估新接口的人可以在 7.3 上直接试用 failfs、fchroot\\(\\) 与 sched\\_ext；LWN 的合并窗口摘要第一、第二部分及 KernelNewbies 7.3 页面给出了比发布公告更细的说明。",
+  "references": [
+    {
+      "title": "2026-08-21 — Linux 7.3 合并窗口开始：组调度重构与架构弃用更新",
+      "url": "https://lwn.net/Articles/1089244/"
+    },
+    {
+      "title": "2026-09-01 — Linux 7.3 合并窗口收官：提交量创历史第二",
+      "url": "https://lwn.net/Articles/1089791/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

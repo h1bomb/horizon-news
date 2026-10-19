@@ -1,0 +1,36 @@
+{
+  "id": "d79e988e7a027ff408bc2defc69491a9eb47bb38",
+  "canonicalId": "925dc66c41e155a4573e4b90cff2892cfef845dd",
+  "slug": "linux-内核-cve-2026-99999-可致-kvm-访客逃逸",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T09:47:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 CVE-2026-99999 可致 KVM 访客逃逸",
+  "summary": "PWN.AI 研究人员披露 Linux 内核漏洞 CVE-2026-99999：网络校验和元数据可在内核完成校验后改写 IPv4 头，导致 32 字节主机内存信息泄露。该团队称已在自有 KVM 环境中演示了访客到宿主机逃逸，但现有报道未说明受影响内核版本或具体利用条件。Linux 主线内核已于 2026 年 10 月 14 日合并修复补丁，报道未说明各发行版是否已提供回移更新。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "KVM",
+    "virtualization security",
+    "guest escape",
+    "vulnerability disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "http://pwn.ai/",
+  "originalSite": "pwn.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-10-16 — Linux 发布七个稳定版内核，修复 skb_checksum_help() 严重漏洞",
+      "url": "https://lwn.net/Articles/1100611/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

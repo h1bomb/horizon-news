@@ -1,6 +1,124 @@
 {
   "articles": [
     {
+      "id": "b08436b5a3e09fa6f4c7570de52c053376ebfd2a",
+      "canonicalId": "51299d4c7c9cbf0baeebd63aa41d947e0714e9b2",
+      "slug": "vllm-v0320-发布新增结构化决策端点并扩展低精度-kv-缓存",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "vLLM v0.32.0 发布：新增结构化决策端点并扩展低精度 KV 缓存",
+      "score": 8,
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "KV cache",
+        "structured outputs",
+        "release"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "d79e988e7a027ff408bc2defc69491a9eb47bb38",
+      "canonicalId": "925dc66c41e155a4573e4b90cff2892cfef845dd",
+      "slug": "linux-内核-cve-2026-99999-可致-kvm-访客逃逸",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "Linux 内核 CVE-2026-99999 可致 KVM 访客逃逸",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "KVM",
+        "virtualization security",
+        "guest escape",
+        "vulnerability disclosure"
+      ],
+      "originalSite": "pwn.ai"
+    },
+    {
+      "id": "b673e2064bf006759ba45492effe93f6b850bb93",
+      "canonicalId": "a5bb32320853f4db899f960fab78f0afa3dea1e6",
+      "slug": "混合智能体潜空间推理文本行动的-llm-agent",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "混合智能体：潜空间推理、文本行动的 LLM Agent",
+      "score": 7,
+      "tags": [
+        "LLM agents",
+        "latent reasoning",
+        "hybrid reasoning",
+        "arxiv paper",
+        "open-source models"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "099ca2d46d32c265b15a7aa0c5d10aae97c77831",
+      "canonicalId": "643666daab59db726febdf9a370e3f7bb11438fa",
+      "slug": "reprapmicron开源微米级-3d-打印项目-wiki-引发讨论",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "RepRapMicron：开源微米级 3D 打印项目 wiki 引发讨论",
+      "score": 7,
+      "tags": [
+        "open-source hardware",
+        "3D printing",
+        "micron-scale fabrication",
+        "RepRap",
+        "hardware"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "7563dc7d2f26e8e9d3068525bfd4bbd5a8d28459",
+      "canonicalId": "fcc34260855a04c1ebaf728dbebda0c6a75cf625",
+      "slug": "open-micromanipulator开源亚微米级三维运动平台",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "Open MicroManipulator：开源亚微米级三维运动平台",
+      "score": 7,
+      "tags": [
+        "open-source hardware",
+        "precision motion control",
+        "DIY instrumentation",
+        "sub-micrometer positioning",
+        "nanopositioning"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "f648d3daa850239182545ce15d740404bdac1ed7",
+      "canonicalId": "47822cd9ee4644799dab7e281408e8ab085d61b0",
+      "slug": "linux-73-内核发布逾-18-万次提交74-合并窗口开启",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "Linux 7.3 内核发布：逾 1.8 万次提交，7.4 合并窗口开启",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "open source",
+        "kernel release",
+        "systems software"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "a78d3ae878e11c0a0b57ab9ed62dd7d4907d3dd0",
+      "canonicalId": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
+      "slug": "google-开源-harness²不改权重递归优化-llm-智能体",
+      "date": "2026-10-19",
+      "lang": "zh",
+      "title": "Google 开源 Harness²：不改权重递归优化 LLM 智能体",
+      "score": 7,
+      "tags": [
+        "LLM agents",
+        "recursive optimization",
+        "open-source frameworks",
+        "Google Research",
+        "benchmarking"
+      ],
+      "originalSite": "github.com"
+    },
+    {
       "id": "938d828117f3c83928dec74fe34bbbacd68f87ac",
       "canonicalId": "9b13d6a721a0c27049840c9b9a043dabdb98a309",
       "slug": "deepseek-v41-flash-1017-发布社区讨论编码基准与速度",
@@ -4819,261 +4937,6 @@
         "software architecture"
       ],
       "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "6555e5e4a954eb43b8585a9018fea3d51d91fd22",
-      "canonicalId": "8b3759fdb1e4e5d84a1345a5573d8879aeacf5ec",
-      "slug": "cloudflare-用数学优化再省-100tb-内存",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "Cloudflare 用数学优化再省 100TB 内存",
-      "score": 8,
-      "tags": [
-        "memory optimization",
-        "performance engineering",
-        "Cloudflare",
-        "hashing",
-        "technical deep-dive"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "5ac20f7f88b132d27f2f85e941706d0d68fa726c",
-      "canonicalId": "be949a9f15682a13292fdd13ddd64368589f3fe6",
-      "slug": "zcode-被指静默上传-git-历史zai-回应",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "ZCode 被指静默上传 Git 历史，z.ai 回应",
-      "score": 8,
-      "tags": [
-        "AI coding tools",
-        "privacy",
-        "security",
-        "data exfiltration",
-        "developer tools"
-      ],
-      "originalSite": "blog.ferstar.org"
-    },
-    {
-      "id": "c99b805ef92699e199fcb020af7a3a9ffe7b7c9d",
-      "canonicalId": "5a4bcd51fb7a6f934266017ab059913e4cf7ddad",
-      "slug": "anthropic-设湿实验室推进-ai-药物计划",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "Anthropic 设湿实验室推进 AI 药物计划",
-      "score": 8,
-      "tags": [
-        "AI drug discovery",
-        "Anthropic",
-        "lab automation",
-        "biotech",
-        "AI for science"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "1a43f01d4cf8a93372dfbdcdd7e156fd6eb55b2a",
-      "canonicalId": "6a21ca84e1e0a521d34606fc540d464b1aa59641",
-      "slug": "谷歌确认-gemini-在安全测试中自主入侵三家公司",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "谷歌确认 Gemini 在安全测试中自主入侵三家公司",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "cybersecurity",
-        "Google Gemini",
-        "autonomous agents",
-        "AI incidents"
-      ],
-      "originalSite": "wsj.com"
-    },
-    {
-      "id": "cc93cb601ebc0459b6deda7bb4c5610417caa71c",
-      "canonicalId": "d1deb1aedf14b81598f5d8b5d51accc0d56ccb69",
-      "slug": "sglang-v0520-发布新增多模型并退役-cuda-12",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "SGLang v0.5.20 发布：新增多模型并退役 CUDA 12",
-      "score": 7,
-      "tags": [
-        "SGLang",
-        "LLM inference",
-        "open source",
-        "model serving",
-        "release notes"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "3c57ff7b7f15fc465288d9a8d5dd714b70e746e9",
-      "canonicalId": "1704ec300ffe2f68c3b91aa3624fb3b2a6aa0537",
-      "slug": "grapheneos-称-android-17-首次未随-aosp-发布即新增-api",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "GrapheneOS 称 Android 17 首次未随 AOSP 发布即新增 API",
-      "score": 7,
-      "tags": [
-        "Android",
-        "AOSP",
-        "open source",
-        "GrapheneOS",
-        "platform governance"
-      ],
-      "originalSite": "grapheneos.social"
-    },
-    {
-      "id": "c1712f0b3062d49cd9caaaa55e6b3124cf332f05",
-      "canonicalId": "b827197a221e37ae7e43cad30b3242a72c74394d",
-      "slug": "dan-abramov-用-ai-尝试证明-conway-猜想",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "Dan Abramov 用 AI 尝试证明 Conway 猜想",
-      "score": 7,
-      "tags": [
-        "AI for mathematics",
-        "LLMs",
-        "automated reasoning",
-        "proof verification",
-        "vibe coding"
-      ],
-      "originalSite": "overreacted.io"
-    },
-    {
-      "id": "8a693a509296ecc5de51c23221ba36748a461e14",
-      "canonicalId": "0789abb96b121c09bf4b179710ea0dfca8616b4c",
-      "slug": "韩国据报道将数据泄露罚款上限提至收入-10",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "韩国据报道将数据泄露罚款上限提至收入 10%",
-      "score": 7,
-      "tags": [
-        "data privacy",
-        "cybersecurity regulation",
-        "tech policy",
-        "South Korea",
-        "data breaches"
-      ],
-      "originalSite": "koreajoongangdaily.com"
-    },
-    {
-      "id": "6e181438f694b3ce05e516cd484a4090ec352cc3",
-      "canonicalId": "6135ef1a19c49882127ece6d36502348e835528e",
-      "slug": "anthropic-改版-claude-项目并在-claude-code-开启-beta",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "Anthropic 改版 Claude 项目并在 Claude Code 开启 beta",
-      "score": 7,
-      "tags": [
-        "Anthropic",
-        "Claude Code",
-        "AI agents",
-        "developer tools",
-        "product update"
-      ],
-      "originalSite": "claude.com"
-    },
-    {
-      "id": "92d17fe42c4afab3658567e496665dd2839b3524",
-      "canonicalId": "363bbead77de9f9f7dbfde1a4706ff9439e8bd8d",
-      "slug": "openai-推出法律-ai-基础-astra-for-law",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "OpenAI 推出法律 AI 基础 Astra for Law",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "Legal AI",
-        "GPT-6 Astra",
-        "AI Benchmark",
-        "API"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "099c47433a13be3f6e345ae225f6bd86d44bda90",
-      "canonicalId": "9869eee81d48fa3979d7b010f1dd7fc53741e6c4",
-      "slug": "黑客借-claude-攻入-openai-部分内部系统",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "黑客借 Claude 攻入 OpenAI 部分内部系统",
-      "score": 7,
-      "tags": [
-        "AI security",
-        "LLM-assisted hacking",
-        "OpenAI",
-        "Anthropic Claude",
-        "vulnerability exploitation"
-      ],
-      "originalSite": "wsj.com"
-    },
-    {
-      "id": "7bea8de654010df98c2d5c698f7a9594f15cbc8b",
-      "canonicalId": "8cc4d0e567b12d22da664c47063062aa2e0c02b4",
-      "slug": "联合国与谷歌共建-mcp-数据平台",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "联合国与谷歌共建 MCP 数据平台",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "MCP",
-        "open data",
-        "UN-Google partnership",
-        "data platforms"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "f8c6eacdb7aa1447b67ed00824193591c391e98a",
-      "canonicalId": "1f165f82a56ba8ec68fbc4933b700652908fdb91",
-      "slug": "用-aiperf-在-vllm-上规模化基准测试-llm-推理",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "用 AIPerf 在 vLLM 上规模化基准测试 LLM 推理",
-      "score": 5,
-      "tags": [
-        "LLM inference benchmarking",
-        "AIPerf",
-        "vLLM",
-        "latency metrics",
-        "Poisson load patterns"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "af13ebb3055c45b8e4707a43344a675e67a661d4",
-      "canonicalId": "7805b683c26b004a12ce26c4fec590c6ee1f0a5c",
-      "slug": "沃什称加息是移除一剂宽松华尔街猜测后续加息幅度",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "沃什称加息是移除“一剂宽松”，华尔街猜测后续加息幅度",
-      "score": 8,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "interest rates",
-        "market expectations",
-        "inflation"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "29bbf1d2258a550160c1a2c10742fcf07e6eb2c8",
-      "canonicalId": "042b687ba7c29ba66b9931bcc03ade74b85804ac",
-      "slug": "巴菲特卸任伯克希尔董事长其子霍华德接任",
-      "date": "2026-09-19",
-      "lang": "zh",
-      "title": "巴菲特卸任伯克希尔董事长，其子霍华德接任",
-      "score": 8,
-      "tags": [
-        "Berkshire Hathaway",
-        "Warren Buffett",
-        "leadership transition",
-        "corporate governance",
-        "succession"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }

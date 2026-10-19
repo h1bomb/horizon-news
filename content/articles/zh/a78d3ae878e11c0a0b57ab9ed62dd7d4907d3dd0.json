@@ -1,0 +1,40 @@
+{
+  "id": "a78d3ae878e11c0a0b57ab9ed62dd7d4907d3dd0",
+  "canonicalId": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
+  "slug": "google-开源-harness²不改权重递归优化-llm-智能体",
+  "date": "2026-10-19",
+  "publishedAt": "2026-10-18T11:24:00Z",
+  "lang": "zh",
+  "title": "Google 开源 Harness²：不改权重递归优化 LLM 智能体",
+  "summary": "Google Research 开源了 Harness²，一个通过两层递归在不更新模型权重的前提下优化 LLM 智能体表现的框架。据项目方说法，该框架在 WorkBuddy-Bench 等测试中最高带来 11.5 分提升，并支持并行与顺序两种递归模式，已集成多款基准测试，以 Apache 2.0 协议发布。上述分数为项目方自述，目前来源仅为一条简报，尚无独立复现或实现细节披露。",
+  "score": 7,
+  "tags": [
+    "LLM agents",
+    "recursive optimization",
+    "open-source frameworks",
+    "Google Research",
+    "benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/google-research/harness2",
+  "originalSite": "github.com",
+  "context": "这里的“harness”指包裹 LLM 的执行脚手架；Harness² 优化的是这一层，而不是模型权重。按项目与论文页面的说明，它把递归分成任务级的反复改进和跨任务的 harness 持续学习两层，并强调在开放环境中处理设计时未见过的新任务。",
+  "discussion": "对智能体开发者来说，这意味着可以在不重新训练、不改动模型权重的情况下，直接套用该框架及其已集成的基准来调优 agent 流程，Apache 2.0 协议也便于修改和商用集成。但由于缺少实现细节与第三方复现，11.5 分的提升能否迁移到自有任务上仍需自行验证。",
+  "references": [
+    {
+      "title": "GitHub - google - research / harness 2 · GitHub",
+      "url": "https://github.com/google-research/harness2"
+    },
+    {
+      "title": "Paper page - Harness ^2: Recursive Agent Harnessing for an Open...",
+      "url": "https://huggingface.co/papers/2610.14224"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
