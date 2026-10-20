@@ -1,0 +1,36 @@
+{
+  "id": "6f7a8f5ab779619569eabd02e19cb42cf5fd552e",
+  "canonicalId": "bde91a39be71a8840958a64cc3cb560bef86eadb",
+  "slug": "rust-跨-crate-前向声明进入-nightly",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T13:50:00Z",
+  "lang": "zh",
+  "title": "Rust 跨 crate 前向声明进入 nightly",
+  "summary": "在 Kangrejos 2026 上，Rust 编译器贡献者 Jana Dönszelmann 介绍了 nightly 中已可用的“外部可实现项”（externally implementable items，用 \\#\\[eii\\] 标注）：一个 crate 可声明由其他 crate 实现的函数，作为 C 弱符号链接的受检查替代；编译器保证至多一个定义，并在既无外部定义又无回退实现时报错。该机制目前依靠弱链接实现，以便各 crate 并行生成代码，但受 Windows 弱链接限制，仅支持类 Unix 平台。她还演示了基于该机制的 -Coverflow-checks=report 原型和 report\\_integer\\_overflow\\(\\)：发生整数溢出时调用可返回的处理函数，默认仍转入 panic，使用者需启用该编译选项并自行定义处理函数。她认为这套溢出检查改动不大，但尚未正式提议纳入语言，而是先征求内核开发者意见，尤其是 Rust for Linux 当前溢出即 panic 与 Linus Torvalds 认为意外溢出不应使整个内核崩溃之间的分歧。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "language design",
+    "linking",
+    "kernel",
+    "conference"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1099596/",
+  "originalSite": "lwn.net",
+  "context": "Rust 通常依靠 crate 内与顺序无关的名字解析，跨 crate 的“先声明、后由其他 crate 实现”此前只在 panic handler、自定义分配器和调试日志等少数标准库特例中出现；externally implementable items 试图把这种模式变成受编译器检查的语言机制，并以 weak linking 实现。Horizon 2026 年 4 月 9 日的日报曾报道，Linux 内核开发者就一套用 \\_\\_ob\\_wrap/\\_\\_ob\\_trap 注解处理整数溢出的 C API 达成共识；本次讨论则针对内核中默认 panic-on-overflow 的 Rust 代码，提出可报告并继续执行的替代路径。",
+  "discussion": "如果该原型被接受，Rust for Linux 可在不触发 panic 的情况下报告整数溢出并继续运行，但前提是使用 nightly 编译器、启用 -Coverflow-checks=report 并提供自定义处理函数；当前外部可实现项还只支持类 Unix 目标，因此这尚不能视为可直接用于生产内核的能力。",
+  "references": [
+    {
+      "title": "2026-04-09 — Linux kernel developers reach consensus on a new API for handling integer overflow errors.",
+      "url": "https://lwn.net/Articles/1065889/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

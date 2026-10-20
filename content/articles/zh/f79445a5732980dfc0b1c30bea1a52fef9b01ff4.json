@@ -1,0 +1,49 @@
+{
+  "id": "f79445a5732980dfc0b1c30bea1a52fef9b01ff4",
+  "canonicalId": "f30a44480c497b17dc53e12aa212b5f24780430d",
+  "slug": "inception-labs-发布-mercury-3-扩散语言模型",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T17:27:00Z",
+  "lang": "zh",
+  "title": "Inception Labs 发布 Mercury 3 扩散语言模型",
+  "summary": "Inception Labs 发布扩散式语言模型 Mercury 3，早期用户称其能力明显强于上一代。一位试用者表示最初较慢，随后达到约 300–400 tokens/s，虽未接近 1000 tokens/s，但比其常用模型快得多；另一位用户称它在多轮 HTML 修改任务中表现更可靠。目前这些均为早期体验，缺少独立基准或系统性评测，尚不能确认其相对其他模型的真实性能。",
+  "score": 7,
+  "tags": [
+    "diffusion-models",
+    "llm",
+    "inception-labs",
+    "model-release",
+    "inference-speed"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cmrdporcupine",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50155245"
+    }
+  ],
+  "originalUrl": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+  "originalSite": "inceptionlabs.ai",
+  "context": "Mercury 是 Inception Labs 的扩散语言模型（dLLM）系列，其 arXiv 论文将该系列描述为用扩散方式生成文本、以高速高质量输出为目标的一类模型。与逐 token 生成的自回归模型不同，扩散模型通过对整块 token 并行迭代去噪和修正来出文，这既是其速度优势的来源，也带来并行解码中的误差累积难题；Horizon 4 月 11 日的日报曾报道新加坡国立大学的 DMax，正是针对这一误差累积提出的渐进式自我修正方案。",
+  "discussion": "有评论者认可速度带来的体验提升，称 300–400 tps 虽低于 1000 tps 仍远快于常用模型，并认为快速 LLM 能支持新的交互方式；也有人称 Mercury 3 在多轮 HTML 更新中比前代更可靠。另有评论提到可通过 OpenRouter 或 Inception API 调用，并质疑 Google 的 Gemini Diffusion 演示此后缺乏明显后续。",
+  "references": [
+    {
+      "title": "2026-04-11 — National University of Singapore Introduces DMax for Aggressive Parallel Decoding in Diffusion Language Models",
+      "url": "https://v.redd.it/buzbtk1hdeug1"
+    },
+    {
+      "title": "Mercury: Ultra-FastLanguageModelsBasedonDiffusion",
+      "url": "https://arxiv.org/pdf/2506.17298"
+    },
+    {
+      "title": "Diffusion at Scale: Introducing Mercury 3 – Inception",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+    },
+    {
+      "title": "Inception Launches Mercury 3, Setting a New Pareto Frontier ...",
+      "url": "https://www.morningstar.com/news/business-wire/20261019090400/inception-launches-mercury-3-setting-a-new-pareto-frontier-in-speed-and-intelligence"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

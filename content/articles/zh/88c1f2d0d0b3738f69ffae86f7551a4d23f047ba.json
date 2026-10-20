@@ -1,0 +1,31 @@
+{
+  "id": "88c1f2d0d0b3738f69ffae86f7551a4d23f047ba",
+  "canonicalId": "5d44067f2d19c9de9d333881060b1b60688f05e8",
+  "slug": "用-cutile-加速-mamba-2-前向核",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T17:00:00Z",
+  "lang": "zh",
+  "title": "用 cuTile 加速 Mamba-2 前向核",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 10月19日 17:00\n\n**「背景」** Mamba-2 兼顾 RNN 的固定大小隐状态与注意力式可并行训练，但前向既要沿序列递推状态，又要把主要计算落到 Tensor Core 上。NVIDIA cuTile 用 Python 的 tile 级 DSL 把线程与 warp 调度交给编译器，本文讲述 Jane Street 与 NVIDIA 如何用它实现并优化 Mamba-2 前向核。\n\n**「方案」** 作者按块重写递推：在对数域用累积和 G 表示衰减，把状态跳转写成 h\\_\\{t+T\\}=exp\\(G\\_last\\)h\\_t+\\(exp\\(G\\_last−G\\)·B\\)X^T，输出写成 Y=exp\\(G\\)Ch\\_\\{kT\\}+\\(exp\\(G−G^T\\)·\\(CB^T\\)·M\\)X+DX，M 为因果掩码，从而把主体计算变成 Tensor Core 矩阵乘。实现分为三个核：chunk\\_cumsum 计算块内累积衰减并以 log2 尺度保存；fwd\\_pass\\_state 在每个网格点内顺序遍历块，用 ct.mma 完成状态跳转；compute\\_out 将 CB^T、携带状态、衰减掩码与 Dx 融合，避免把巨大的块间交互矩阵写回全局内存。作者还给 load/store 加延迟提示，利用 Blackwell Tensor Core 操作数不对称的特点，以转置恒等式把融合项 b\\_dt\\_d 放到 A 操作数来缓解共享内存争用；把 dt 与 decay\\_cumsum 改为按 token 连续以启用 TMA，并用自动调参搜索块大小与占用率。在单张 B300 上，该前向核比 Triton 版 mamba\\_ssm 快 1.14–1.82 倍，序列越长、状态越大收益越明显；但这些仅限内核级，端到端训练还取决于文中未覆盖的反向传播。\n\n**「启示」** 作者表明，经过块化重写与硬件感知的布局、操作数调度，Mamba-2 前向可以高效映射到 Tensor Core；cuTile 也能在保持 Python 可读性的同时产出有竞争力的内核，而完整训练性能仍待反向核补齐。\n\n**标签**: `#Mamba-2`, `#CUDA Tile`, `#GPU kernels`, `#Tensor Cores`, `#performance optimization`",
+  "score": 8,
+  "tags": [
+    "Mamba-2",
+    "CUDA Tile",
+    "GPU kernels",
+    "Tensor Cores",
+    "performance optimization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+  "originalSite": "developer.nvidia.com",
+  "context": "Mamba-2 兼顾 RNN 的固定大小隐状态与注意力式可并行训练，但前向既要沿序列递推状态，又要把主要计算落到 Tensor Core 上。NVIDIA cuTile 用 Python 的 tile 级 DSL 把线程与 warp 调度交给编译器，本文讲述 Jane Street 与 NVIDIA 如何用它实现并优化 Mamba-2 前向核。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "f21ce158f7a37bc85d7d7028d247c372c0220cc3",
+  "canonicalId": "76a5f348416759f795f56b4ebc31cba07679a186",
+  "slug": "macapk-让-android-应用在-apple-silicon-mac-上原生运行",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T16:45:00Z",
+  "lang": "zh",
+  "title": "Mac.apk 让 Android 应用在 Apple Silicon Mac 上原生运行",
+  "summary": "GitHub 上的 Mac.apk 项目由 kksimp 发布，目标是让 Android 应用在 Apple Silicon Mac 上原生运行，无需模拟器、虚拟机或底层 Linux。它面向希望在 macOS 桌面直接使用部分 Android 应用的用户，但现有材料没有给出已验证应用清单、性能数据或具体兼容范围。该项目在 Hacker News 上引发讨论，实际可用性仍需结合应用依赖来判断。",
+  "score": 7,
+  "tags": [
+    "Android",
+    "macOS",
+    "Apple Silicon",
+    "cross-platform compatibility",
+    "open-source tool"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "flocked",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50154624"
+    }
+  ],
+  "originalUrl": "https://github.com/kksimp/Mac.apk",
+  "originalSite": "github.com",
+  "context": "Android 应用中的原生库大多编译为 ARM64 机器码，与 Apple Silicon 属于同一指令集架构，因此在 Mac 上运行 APK 时，CPU 指令本身不需要模拟；真正缺的是 Android 运行时和框架层。Mac.apk 的做法是在 macOS 之上重新实现这一层：应用安装后以普通 macOS 进程启动，通过 Mac 的 GPU 绘制，并有 Dock 图标、独立窗口以及随系统切换的明暗模式（据其 GitHub 仓库与一篇技术说明）。这也解释了为何它不需要模拟器、虚拟机或底层 Linux。",
+  "discussion": "如果目标应用依赖 Google Play Services，采用这一方案前应先确认其能否在没有相应服务的情况下运行；评论者认为这类依赖会削弱项目的实际适用范围。\n\n有评论者称项目“很酷”，但 Google Play Services 等依赖会让其实用性低于预期；另一名用户报告，自己想用它运行 Android 版 Minecraft Bedrock，以便与主机玩家联机。",
+  "references": [
+    {
+      "title": "GitHub - kksimp/Mac.apk: Mac.apk: Run Android apps natively ...",
+      "url": "https://github.com/kksimp/Mac.apk"
+    },
+    {
+      "title": "Mac.apk on Apple Silicon: How It Works Without an Emulator",
+      "url": "https://elsolitario.org/en/2026/10/19/mac-apk-android-on-apple-silicon-without-emulator/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

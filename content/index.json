@@ -1,6 +1,244 @@
 {
   "articles": [
     {
+      "id": "71ce52b8b3e96bffc6b5801653eaaf807ea62fc0",
+      "canonicalId": "9a7560747adbbd47eb4b9408e1b410ae86677471",
+      "slug": "linux-73-内核开发统计提交量首破-2-万",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Linux 7.3 内核开发统计：提交量首破 2 万",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "open source",
+        "development statistics",
+        "LLM-assisted development",
+        "code review"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "0e8c403e8157e2e79ddace6be71e8ebd828759d8",
+      "canonicalId": "774f7412d1a369d1c04ab0bb964614cd55e7e294",
+      "slug": "单电机无人机用特殊铰链控制旋翼",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "单电机无人机用特殊铰链控制旋翼",
+      "score": 7,
+      "tags": [
+        "robotics",
+        "underactuated control",
+        "drone design",
+        "DIY hardware",
+        "mechanical engineering"
+      ],
+      "originalSite": "youtube.com"
+    },
+    {
+      "id": "4b8e2e65d9e48238248c0e754162a3a330846cf9",
+      "canonicalId": "4e9388f1c6e3bc6ee00fba86e57fbbd569a1fdca",
+      "slug": "wine-移植到-openbsd改动保持平台专用",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Wine 移植到 OpenBSD，改动保持平台专用",
+      "score": 7,
+      "tags": [
+        "Wine",
+        "OpenBSD",
+        "software porting",
+        "open source",
+        "Windows compatibility"
+      ],
+      "originalSite": "marc.info"
+    },
+    {
+      "id": "f21ce158f7a37bc85d7d7028d247c372c0220cc3",
+      "canonicalId": "76a5f348416759f795f56b4ebc31cba07679a186",
+      "slug": "macapk-让-android-应用在-apple-silicon-mac-上原生运行",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Mac.apk 让 Android 应用在 Apple Silicon Mac 上原生运行",
+      "score": 7,
+      "tags": [
+        "Android",
+        "macOS",
+        "Apple Silicon",
+        "cross-platform compatibility",
+        "open-source tool"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "8e8a0e35cc59cbf96cf94e38572cb3741d7aeac6",
+      "canonicalId": "3a11e60ee8cf431d325202d6163c1c157e9bbeab",
+      "slug": "mistral-推出-timestral-时间序列基础模型系列",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Mistral 推出 Timestral 时间序列基础模型系列",
+      "score": 7,
+      "tags": [
+        "time-series",
+        "foundation-models",
+        "mistral",
+        "forecasting",
+        "machine-learning"
+      ],
+      "originalSite": "mistral.ai"
+    },
+    {
+      "id": "72d1819ee1ba5006b310cc637d31590c6df881bc",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "ask-hn交付不理解的-ai-代码该如何应对",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Ask HN：交付不理解的 AI 代码该如何应对",
+      "score": 7,
+      "tags": [
+        "AI-assisted coding",
+        "LLM code generation",
+        "software engineering",
+        "code review",
+        "testing"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "f79445a5732980dfc0b1c30bea1a52fef9b01ff4",
+      "canonicalId": "f30a44480c497b17dc53e12aa212b5f24780430d",
+      "slug": "inception-labs-发布-mercury-3-扩散语言模型",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Inception Labs 发布 Mercury 3 扩散语言模型",
+      "score": 7,
+      "tags": [
+        "diffusion-models",
+        "llm",
+        "inception-labs",
+        "model-release",
+        "inference-speed"
+      ],
+      "originalSite": "inceptionlabs.ai"
+    },
+    {
+      "id": "6f7a8f5ab779619569eabd02e19cb42cf5fd552e",
+      "canonicalId": "bde91a39be71a8840958a64cc3cb560bef86eadb",
+      "slug": "rust-跨-crate-前向声明进入-nightly",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Rust 跨 crate 前向声明进入 nightly",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "language design",
+        "linking",
+        "kernel",
+        "conference"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "494f4e44601d98e0e3e08cae08098b5c137c44d0",
+      "canonicalId": "97f19cb2fd3a7a0c0af86239e83fc34984a2b934",
+      "slug": "apollo-research-称-glm-53-偶现更新感知推理",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Apollo Research 称 GLM-5.3 偶现更新感知推理",
+      "score": 7,
+      "tags": [
+        "AI safety",
+        "alignment faking",
+        "update-aware reasoning",
+        "GLM-5.3",
+        "Apollo Research"
+      ],
+      "originalSite": "apolloresearch.ai"
+    },
+    {
+      "id": "b48e7a0b78b04ec3649d64dc2821f0f9c24d276e",
+      "canonicalId": "f4386eec9e48ac51531e61b0db5531a6803c4b7e",
+      "slug": "xnu-内核移植红米-note-10-pro启动-ios-16716",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "XNU 内核移植红米 Note 10 Pro，启动 iOS 16.7.16",
+      "score": 7,
+      "tags": [
+        "XNU kernel",
+        "iOS",
+        "mobile OS porting",
+        "Snapdragon",
+        "open source"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "4bd95114bf4ec96fab107f43683c52d09942d20c",
+      "canonicalId": "a9e511d3af4ef6b8da4929c7cff0564bbb055dc7",
+      "slug": "美国土安全部下令联邦文职部门排除-deepseek-产品",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "美国土安全部下令联邦文职部门排除 DeepSeek 产品",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "DeepSeek",
+        "government procurement",
+        "supply-chain security",
+        "AI regulation"
+      ],
+      "originalSite": "federalregister.gov"
+    },
+    {
+      "id": "88c1f2d0d0b3738f69ffae86f7551a4d23f047ba",
+      "canonicalId": "5d44067f2d19c9de9d333881060b1b60688f05e8",
+      "slug": "用-cutile-加速-mamba-2-前向核",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "用 cuTile 加速 Mamba-2 前向核",
+      "score": 8,
+      "tags": [
+        "Mamba-2",
+        "CUDA Tile",
+        "GPU kernels",
+        "Tensor Cores",
+        "performance optimization"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "921e8297d436f9e2c54653f4e8cff065f47968b7",
+      "canonicalId": "af9076f8cfd4975f14b54e58bdf5afa5c2dd932a",
+      "slug": "uber-genie面向工程支持的-rag-问答系统",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "Uber Genie：面向工程支持的 RAG 问答系统",
+      "score": 6,
+      "tags": [
+        "RAG",
+        "LLM evaluation",
+        "internal support",
+        "knowledge retrieval",
+        "production architecture"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "cd714694e506c12699c4170af21bd015027950bd",
+      "canonicalId": "57872a162d965352eca54c5953393ed6bc8922dc",
+      "slug": "中国三季度-gdp-同比增长-45高于经济学家预期",
+      "date": "2026-10-20",
+      "lang": "zh",
+      "title": "中国三季度 GDP 同比增长 4.5%，高于经济学家预期",
+      "score": 8,
+      "tags": [
+        "China GDP",
+        "macroeconomic data",
+        "exports",
+        "fiscal stimulus",
+        "local government debt"
+      ],
+      "originalSite": "stats.gov.cn"
+    },
+    {
       "id": "b08436b5a3e09fa6f4c7570de52c053376ebfd2a",
       "canonicalId": "51299d4c7c9cbf0baeebd63aa41d947e0714e9b2",
       "slug": "vllm-v0320-发布新增结构化决策端点并扩展低精度-kv-缓存",
@@ -4887,56 +5125,6 @@
         "memory chips"
       ],
       "originalSite": "m.thepaper.cn"
-    },
-    {
-      "id": "7854a6a5683014046e50be80ebdb384930a1b691",
-      "canonicalId": "fd4a46a548bd8021cccfa25474dd04c64838101d",
-      "slug": "陶哲轩发文呼吁数学界重视证明之外贡献",
-      "date": "2026-09-20",
-      "lang": "zh",
-      "title": "陶哲轩发文呼吁数学界重视证明之外贡献",
-      "score": 7,
-      "tags": [
-        "mathematics",
-        "AI automation",
-        "academia",
-        "philosophy of proof",
-        "Terry Tao"
-      ],
-      "originalSite": "terrytao.wordpress.com"
-    },
-    {
-      "id": "b1a6987a160296a6f3668bdd3fd3af91c6927381",
-      "canonicalId": "935e1e2f1d193244fe7fb94b0393f40aa003d7db",
-      "slug": "加州州长签令拟强制上报-ai-失控事件并考虑紧急关停",
-      "date": "2026-09-20",
-      "lang": "zh",
-      "title": "加州州长签令拟强制上报 AI 失控事件并考虑紧急关停",
-      "score": 7,
-      "tags": [
-        "AI监管",
-        "AI安全",
-        "加州政策",
-        "AI治理",
-        "科技行业"
-      ],
-      "originalSite": "finance.sina.com.cn"
-    },
-    {
-      "id": "ac3dfcb03f0eec0b52b1dc30296cf0ddbc594c9a",
-      "canonicalId": "331f7a1c6f4ab8e5818c254344415670ef90790a",
-      "slug": "api-设计概念速览与系统设计要点汇总",
-      "date": "2026-09-20",
-      "lang": "zh",
-      "title": "API 设计概念速览与系统设计要点汇总",
-      "score": 4,
-      "tags": [
-        "API design",
-        "system design",
-        "prompt injection",
-        "software architecture"
-      ],
-      "originalSite": "blog.bytebytego.com"
     }
   ]
 }

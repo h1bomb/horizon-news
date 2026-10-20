@@ -1,0 +1,40 @@
+{
+  "id": "71ce52b8b3e96bffc6b5801653eaaf807ea62fc0",
+  "canonicalId": "9a7560747adbbd47eb4b9408e1b410ae86677471",
+  "slug": "linux-73-内核开发统计提交量首破-2-万",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T15:45:00Z",
+  "lang": "zh",
+  "title": "Linux 7.3 内核开发统计：提交量首破 2 万",
+  "summary": "Linux 7.3 于 2026 年 10 月 18 日发布，开发周期首次超过 20,000 次提交，其中 18,765 个为非合并提交；这些提交新增近 92 万行、删除逾 27 万行，净增约 65 万行。共有 3,021 名开发者参与，超过 7.2 周期刚创下的 2,652 人纪录，LWN 称本轮周期受到 LLM 辅助贡献的强劲推动。9,545 个提交（50.9%）带有 Reviewed-by 标签、1,399 个（7.5%）带有 Tested-by 标签，评审标签占比在连续几个周期下降后回升。7.3 预计成为下一个长期支持（LTS）内核，LWN 同时尝试评估自动化补丁评审是否减少了引入的缺陷。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "open source",
+    "development statistics",
+    "LLM-assisted development",
+    "code review"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100241/",
+  "originalSite": "lwn.net",
+  "context": "Horizon 8 月 18 日的日报曾报道，Linux 7.2 于 8 月 17 日发布，该周期共有 16,418 个非合并提交和 2,652 名开发者，创下当时的开发者人数纪录，并指出带 Reviewed-by 标签的提交比例已连续几个周期小幅下滑。更早的 6 月 16 日日报则记录了 7.1 的 15,849 个非合并提交与 2,479 名开发者。7.3 把这轮增长继续推高：开发者人数升至 3,021 人，Reviewed-by 比例回升至 50.9%，与 7.2 周期观察到的下降趋势相反。",
+  "discussion": "对以 LTS 为采用基线的发行版和企业用户而言，7.3 目前只是预计成为下一个 LTS 的候选版本，统计发布时尚未成为已确认的长期维护承诺，因此基于它做长期认证和测试仍需等待 LTS 身份明确。",
+  "references": [
+    {
+      "title": "2026-08-18 — Linux 内核 7.2 开发统计：提交数创历史第二高",
+      "url": "https://lwn.net/Articles/1088776/"
+    },
+    {
+      "title": "2026-06-16 — Linux 7.1 Kernel Sets Developer Record with 15,849 Commits",
+      "url": "https://lwn.net/Articles/1077425/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "b48e7a0b78b04ec3649d64dc2821f0f9c24d276e",
+  "canonicalId": "f4386eec9e48ac51531e61b0db5531a6803c4b7e",
+  "slug": "xnu-内核移植红米-note-10-pro启动-ios-16716",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T06:30:00Z",
+  "lang": "zh",
+  "title": "XNU 内核移植红米 Note 10 Pro，启动 iOS 16.7.16",
+  "summary": "开发者将苹果开源的 XNU 内核移植到红米 Note 10 Pro（骁龙 732G），并于 10 月 18 日启动到主屏，运行未经修改的 iPhone X 版 iOS 16.7.16 用户空间。目前触摸和实体按键可用，画面完全由 CPU 渲染，约 20–30 帧/秒；GPU 驱动、Wi-Fi 和相机尚不可用。代码已在 GitHub 开源，这仍是早期概念验证，并非可供日常使用的系统。",
+  "score": 7,
+  "tags": [
+    "XNU kernel",
+    "iOS",
+    "mobile OS porting",
+    "Snapdragon",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/hackintosh/comments/1x95qq0/ios_16716_booting_on_a_snapdragon_732g_redmi_note/?sort=new",
+  "originalSite": "reddit.com",
+  "context": "XNU 是苹果开源的 Darwin 内核核心，iOS 与 macOS 均构建于其上，但 iOS 的用户空间部分并不开源，且历来只与苹果自研芯片及驱动栈配套发布。把 iOS 用户空间搬到非苹果硬件的主要障碍，是为目标 SoC 补齐显示、GPU、Wi-Fi 等外设驱动；本次移植所用红米 Note 10 Pro 搭载骁龙 732G，原本运行 Android，目前缺少 GPU 驱动，只能以 CPU 渲染画面。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

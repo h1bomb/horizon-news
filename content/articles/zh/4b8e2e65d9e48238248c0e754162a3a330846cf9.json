@@ -1,0 +1,37 @@
+{
+  "id": "4b8e2e65d9e48238248c0e754162a3a330846cf9",
+  "canonicalId": "4e9388f1c6e3bc6ee00fba86e57fbbd569a1fdca",
+  "slug": "wine-移植到-openbsd改动保持平台专用",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T13:35:00Z",
+  "lang": "zh",
+  "title": "Wine 移植到 OpenBSD，改动保持平台专用",
+  "summary": "Wine 已被移植到 OpenBSD，相关讨论出现在 OpenBSD ports 邮件列表。移植者把面向 OpenBSD 的改动统一标记为仅在该平台启用，以简化开发并明确区分通用代码；他预计这些改动中不会有太多被合并到上游。评论引述的邮件举例称，\\`%gs\\` stub 不会在 Linux 上构建，因为 Linux 已正确设置 \\`%gs\\`，而 SIGUSR1 相关处理虽能工作但不够优化。现有材料未提供 Wine 版本、软件包状态或正式支持范围。",
+  "score": 7,
+  "tags": [
+    "Wine",
+    "OpenBSD",
+    "software porting",
+    "open source",
+    "Windows compatibility"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "iamnothere",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50152307"
+    }
+  ],
+  "originalUrl": "https://marc.info/?l=openbsd-ports&amp;m=179236125692175",
+  "originalSite": "marc.info",
+  "context": "Wine 是在非 Windows 系统上转译 Windows API 的兼容层，但 OpenBSD 此前一直缺少可用移植。此次移植的主要技术障碍是 %gs/gsbase：OpenBSD 不允许用户态程序设置该寄存器，移植者改为用软件模拟指令中的 %gs 前缀，才使其余移植工作得以推进。",
+  "discussion": "对 OpenBSD 用户来说，该移植提供了运行部分 Windows 程序的途径，但兼容性依赖 OpenBSD 专用补丁；若这些改动难以进入上游 Wine，后续更新和问题排查将更多依赖 OpenBSD ports 维护者。",
+  "references": [
+    {
+      "title": "Wine ported to OpenBSD - Adafruit Industries",
+      "url": "https://blog.adafruit.com/2026/10/19/wine-ported-to-openbsd/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

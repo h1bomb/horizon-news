@@ -1,0 +1,57 @@
+{
+  "id": "8e8a0e35cc59cbf96cf94e38572cb3741d7aeac6",
+  "canonicalId": "3a11e60ee8cf431d325202d6163c1c157e9bbeab",
+  "slug": "mistral-推出-timestral-时间序列基础模型系列",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T09:59:00Z",
+  "lang": "zh",
+  "title": "Mistral 推出 Timestral 时间序列基础模型系列",
+  "summary": "Mistral 宣布推出 Timestral，一组面向时间序列预测的基础模型。现有公开材料未给出模型规模、训练数据、基准成绩或访问方式，因此尚无法判断它相对现有预测方法的实际改进。",
+  "score": 7,
+  "tags": [
+    "time-series",
+    "foundation-models",
+    "mistral",
+    "forecasting",
+    "machine-learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "groar",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50150434"
+    }
+  ],
+  "originalUrl": "https://mistral.ai/news/timestral/",
+  "originalSite": "mistral.ai",
+  "context": "时间序列基础模型是指在大规模、跨领域的序列数据上预训练，并可直接对未见过的序列做零样本预测的模型；其思路是把通用的时序模式迁移到具体预测任务，而不是为每条序列单独训练模型。Mistral 此前没有推出过这类模型，Timestral 是其首个时间序列模型家族，包含参数规模从 5M 到 209M 的四个版本，可在 CPU 上运行，并以修改版 MIT 许可发布。",
+  "discussion": "评论中，logancbrown 认为基础模型的价值在于同时预测成千上万条历史很短的序列，而 joefourier 质疑把所有“时间序列”归入一个模型是否合理；Trusteando 则主张用高信噪比、经典方法能够捕捉信号的生成过程来检验预测模型。也有评论者提到对另一款模型的实际体验不佳，并据此表达谨慎，但未提供 Timestral 的基准证据。",
+  "references": [
+    {
+      "title": "Timestral: Mistral&#x27;s time-series foundation models | Mistral",
+      "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+      "title": "Timestral: Mistral Releases Time-Series Foundation Models ...",
+      "url": "https://explainx.ai/blog/timestral-mistral-time-series-foundation-models-209m-cpu-forecasting-2026"
+    },
+    {
+      "title": "Mistral AI Releases Timestral: A 209M Forecasting Model ...",
+      "url": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/"
+    },
+    {
+      "title": "Timestral : Mistral &#x27;s time - series foundation models | Mistral",
+      "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+      "title": "mistralai/ Timestral -209M · Hugging Face",
+      "url": "https://huggingface.co/mistralai/Timestral-209M"
+    },
+    {
+      "title": "GitHub - mistralai/ timestral · GitHub",
+      "url": "https://github.com/mistralai/timestral"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

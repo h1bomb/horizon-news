@@ -1,0 +1,31 @@
+{
+  "id": "921e8297d436f9e2c54653f4e8cff065f47968b7",
+  "canonicalId": "af9076f8cfd4975f14b54e58bdf5afa5c2dd932a",
+  "slug": "uber-genie面向工程支持的-rag-问答系统",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-19T15:31:00Z",
+  "lang": "zh",
+  "title": "Uber Genie：面向工程支持的 RAG 问答系统",
+  "summary": "rss · ByteByteGo · 10月19日 15:31\n\n**「背景」** Uber 内部平台团队每月在 Slack 支持频道收到约 4.5 万个问题，答案却散落在 Engwiki、内部 Stack Overflow 等文档里，重复问答持续消耗工程师时间。\n\n**「方案」** Genie 选择检索增强生成（RAG）而非微调：可直接利用现有文档，文档更新也无需重训模型，但仍需大量收集、整理和评估知识。离线侧用 Spark ETL 抽取内容，经 LangChain 分块、OpenAI 嵌入模型生成向量，再由 Sia 向量库和 Terrablob 索引供 serving leaves 检索；在线侧 Slack 问题进入 Knowledge Service，检索片段后把每个片段连同来源 URL 作为子上下文交给 LLM，要求依据材料作答并附引用，从而把检索失败与生成失败分开排查。回答还提供追问、标记解决和转人工按钮；信息不足时转给平台 on-call，人工接管后 Genie 静音。用户反馈分为 Resolved、Helpful、Not Helpful、Not Relevant，经 Kafka 汇入 Hive 并形成看板；评估用 LLM-as-judge 检查答案的幻觉与相关性，也评估源文档质量并给出改进建议。Uber 报告 Genie 于 2023 年 9 月上线，一年内覆盖 154 个 Slack 频道、回答逾 7 万个问题，helpfulness 为 48.9%，节省约 1.3 万工程小时。\n\n**「启示」** Genie 的意义不在单个模型，而在于把知识摄取、来源引用、人工兜底和反馈评估连成可运营的支持闭环；把检索与生成分开评估，并将源文档质量纳入闭环，是更可迁移的经验。\n\n**标签**: `#RAG`, `#LLM evaluation`, `#internal support`, `#knowledge retrieval`, `#production architecture`",
+  "score": 6,
+  "tags": [
+    "RAG",
+    "LLM evaluation",
+    "internal support",
+    "knowledge retrieval",
+    "production architecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-uber-built-a-genie-to-answer-051",
+  "originalSite": "blog.bytebytego.com",
+  "context": "Uber 内部平台团队每月在 Slack 支持频道收到约 4.5 万个问题，答案却散落在 Engwiki、内部 Stack Overflow 等文档里，重复问答持续消耗工程师时间。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
