@@ -1,0 +1,41 @@
+{
+  "id": "e06bff249c812840090d1b6460f77e6b64200473",
+  "canonicalId": "fa355b2fea6d055892ca1a1f546fbb5a6aaa4060",
+  "slug": "rust-编译器-2026-年路线图求解器polonius-与产物体积",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T13:53:00Z",
+  "lang": "zh",
+  "title": "Rust 编译器 2026 年路线图：求解器、Polonius 与产物体积",
+  "summary": "Rust 编译器贡献者 panstromek 撰文展望 2026 年 Rust 编译器的工作重点，帖文在 Hacker News 引发讨论。由于原文正文未随讨论一并提供，具体版本号、落地时间表与已完成状态均无法核实；从讨论内容看，涉及的核心议题是 trait 求解器（solver）、Polonius 借用检查、长期停滞的 specialization，以及 target 目录体积。评论者引用了文中一句评价，称这项工作“解决了编译器开发者多年来梦寐以求的一大块技术债”，但该引文本身没有点明具体对应哪个组件。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "compilers",
+    "programming languages",
+    "compile times",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "panstromek",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166502"
+    }
+  ],
+  "originalUrl": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+  "originalSite": "yoyo-code.com",
+  "context": "Rust 编译器团队重写 trait solver 已持续多年：Horizon 3 月 31 日的日报曾报道，这项重写接近完成，目标是修复健全性缺陷、改善编译时间并简化 trait 系统的后续改动。与之并行的是新的借用检查器 Polonius，其项目目标先是稳定 alpha 分析，再逐步提升表达力，让更多借用模式通过编译。这篇 2026 年路线图文章所谈的，正是这些长期项目在同一时间点走向成熟。",
+  "discussion": "对日常使用 Rust 的开发者来说，最直接可感知的收益是 target 目录体积与编译时间——评论者对缩小 target 目录的反应最为具体；而求解器与 Polonius 能否真正解锁 specialization，仍取决于尚未公布的落地进度，依赖该 nightly 特性的库作者目前没有可据以规划的时间点。\n\n一位自称多年参与编译器贡献的评论者认为 Rust 已不再是“未来”，理由是项目规模膨胀拖慢编译，他期待出现一门兼具 Go 的平实、Zig 的编译速度与 Rust 安全性的新语言。另一位评论者则表示自己等求解器已等了大约五年，希望它与 Polonius 一起让停滞多年的 specialization 解冻；作者本人另在评论中抱怨帖子标题被提交平台反复改错。",
+  "references": [
+    {
+      "title": "2026-03-31 — Rust&#x27;s next-generation trait solver nears completion to fix soundness bugs and improve compile times.",
+      "url": "https://lwn.net/Articles/1063124/"
+    },
+    {
+      "title": "Stabilize and model Polonius Alpha - Rust Project Goals",
+      "url": "https://goals.rust-lang.org/2026/polonius.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

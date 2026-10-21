@@ -1,0 +1,41 @@
+{
+  "id": "f59a9c714e892b43bec5082a2eb285465c009736",
+  "canonicalId": "621250faf996ff4b43cb3fff87ab4ba7a9b3e366",
+  "slug": "作者称推动移除-300-多个恶意-tor-出口节点",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T13:39:00Z",
+  "lang": "zh",
+  "title": "作者称推动移除 300 多个恶意 Tor 出口节点",
+  "summary": "一篇帖子称，作者通过调查推动移除了 300 多个恶意 Tor 出口节点；帖子将此事与 SSH 中间人攻击的检测和处置联系起来。材料没有提供攻击时间线、涉及的具体托管商或独立验证结果，因此这仍是作者自述的调查结果。对 Tor 用户和出口节点运营者而言，帖子呈现的关键点是：恶意出口节点可参与 SSH 流量劫持，而 SSH 的主机密钥警告和密钥认证是讨论中的主要检测与防护手段。",
+  "score": 7,
+  "tags": [
+    "Tor",
+    "network security",
+    "SSH",
+    "threat intelligence",
+    "privacy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kabakabakaba",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166257"
+    }
+  ],
+  "originalUrl": "https://kaba.cx/posts/20261020_Tor/",
+  "originalSite": "kaba.cx",
+  "context": "Tor 出口节点是流量离开 Tor 网络、进入公开互联网的最后一跳，控制出口节点者可以观察甚至篡改未端到端加密的流量；SSH 中间人攻击则针对登录凭据和会话。此前 ESET 对 Ebury 僵尸网络的记录显示，这一 OpenSSH 后门曾感染包括 Tor 出口节点在内的大量主机，且单一托管商在 2023 年就有 7 万台服务器被感染，说明出口节点与 SSH 层入侵结合并非新问题。",
+  "discussion": "评论中，exitmap 的作者表示该工具已使用十余年；多位评论者认为攻击者选择 SSH 反而失策，因为 SSH 的 MITM 警告横幅使攻击立即暴露，并让管理员更容易追踪受感染节点。也有评论者质疑 Tor 出口节点数量只有约 3000，认为这一规模过小。",
+  "references": [
+    {
+      "title": "400K Linux Servers Recruited by Resurrected Ebury Botnet",
+      "url": "https://www.darkreading.com/threat-intelligence/400k-linux-servers-recruited-by-resurrected-ebury-botnet"
+    },
+    {
+      "title": "Single host saw 70,000 servers hit with Ebury backdoor",
+      "url": "https://www.thestack.technology/single-host-saw-70-000-servers-hit-with-ebury-backdoor/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

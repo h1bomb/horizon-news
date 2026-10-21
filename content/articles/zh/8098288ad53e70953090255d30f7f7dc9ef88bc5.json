@@ -1,0 +1,31 @@
+{
+  "id": "8098288ad53e70953090255d30f7f7dc9ef88bc5",
+  "canonicalId": "708a5adaaaec716d4c572669c1456e6289ec0197",
+  "slug": "shopify-从-react-native-转向原生开发",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T15:31:00Z",
+  "lang": "zh",
+  "title": "Shopify 从 React Native 转向原生开发",
+  "summary": "rss · ByteByteGo · 10月20日 15:31\n\n**「背景」** 2020 年 Shopify 全面采用 React Native，是为了避免 iOS 与 Android 各写一遍、团队被平台栈割裂，并维持双端功能对齐；但框架本身、性能优化和依赖升级也带来持续维护成本。到 2025 年，作者认为 AI 编码代理显著改变了这笔账：让 Swift 与 Kotlin 双端实现的成本不再像过去那样高。\n\n**「方案」** Shopify 先用 Swift 和 Kotlin 重写部分核心模块做试验，发现代理能拿一个平台的实现当参考生成另一个平台代码，再由开发者按平台惯例审查；Shopify 称，代理已把重复实现的负担降到不再像 2020 年那样主导决策，因此他们选择全新原生重写（greenfield），先迁面向消费者的 Shop 应用，再迁拥有 300 多个屏幕、小组件和 Watch 应用的商家版。为避免模型一次性重写大功能导致代码难维护、难审查，团队构建 Helix，把迁移拆成有顺序的小检查点：先确定屏幕结构与导航，再逐步处理订单摘要等部分；每个检查点都要经过行为测试、与旧版对比的视觉审查、对抗式代码审查和开发者复核，才能成为下一块的基础。应用逻辑与 UI 分离，业务逻辑可无头运行，并通过 CLI 暴露状态和操作，让代理直接断言状态而不是解析截图。按文中引用的 Shopify 数据，Shop 原生版 12 周上线；iOS 启动从 3200 ms 降至约 2400 ms，Android 从约 4400 ms 降至 2200 ms，Android 包体从 293 MB 降至 184 MB，无崩溃会话占比上升。不过这篇二手整理没有说明 300 多个屏幕的视觉审查究竟如何执行，这仍是该方案未展开的环节。\n\n**「启示」** 作者的核心结论是：AI 代理让双端原生开发重新可行，但大规模迁移能否安全推进，取决于能否用小型可审查检查点和快速、可断言的反馈闭环来验证代理产出，而不只是代码生成能力本身。\n\n**标签**: `#react-native`, `#mobile-development`, `#ai-coding-agents`, `#migration-strategy`, `#developer-tooling`",
+  "score": 5,
+  "tags": [
+    "react-native",
+    "mobile-development",
+    "ai-coding-agents",
+    "migration-strategy",
+    "developer-tooling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/why-shopify-migrated-from-react-native",
+  "originalSite": "blog.bytebytego.com",
+  "context": "2020 年 Shopify 全面采用 React Native，是为了避免 iOS 与 Android 各写一遍、团队被平台栈割裂，并维持双端功能对齐；但框架本身、性能优化和依赖升级也带来持续维护成本。到 2025 年，作者认为 AI 编码代理显著改变了这笔账：让 Swift 与 Kotlin 双端实现的成本不再像过去那样高。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

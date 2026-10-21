@@ -1,0 +1,41 @@
+{
+  "id": "f652a0cbfdfb6d998767ef3107c3eea89ca5566e",
+  "canonicalId": "0c0643e13635f1ed03988c1a1d2c31664a6fc797",
+  "slug": "google-cloud-europe-west2-故障波及多家银行",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T10:26:00Z",
+  "lang": "zh",
+  "title": "Google Cloud europe-west2 故障波及多家银行",
+  "summary": "Google Cloud 的状态页显示，europe-west2 区域自 2026-10-19 23:08 PDT 起有多项服务受影响，原因是 europe-west2-b 可用区发生供电事件；状态页称供电事件已缓解，并预计在 30 分钟内部分恢复基础设施服务。据 Neowin 汇总，汇丰、Revolut、苏格兰银行、劳埃德和 Equifax 等欧洲服务出现中断，但现有证据不足以支持标题中近乎全面停摆的说法。一名汇丰客户在评论中称其服务正常，并指出 Downdetector 主要依赖用户上报，不能作为权威宕机证据。",
+  "score": 7,
+  "tags": [
+    "google-cloud",
+    "cloud-outage",
+    "europe-west2",
+    "banking",
+    "cloud-reliability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "paweladamczuk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50163961"
+    }
+  ],
+  "originalUrl": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+  "originalSite": "neowin.net",
+  "context": "Google Cloud 按区域（region）和可用区（zone）组织基础设施，europe-west2 是区域标识，europe-west2-b 是该区域内的一个可用区。有评论引用其状态页称，europe-west2 的多项服务从 2026-10-19 23:08 PDT 起受影响，起因是 europe-west2-b 发生电力事件，这有助于理解为何同一区域的银行等服务会同时受波及。",
+  "discussion": "对依赖 europe-west2 的银行客户，最直接的后果是登录、取款和刷卡支付一度中断；The Register 报道称该区域多个服务出现高错误率和间歇性网络故障，且当时“暂无变通方案”，BBC 也报道 HSBC、Lloyds 和 Revolut 等服务受影响。这意味着受影响机构只能等待该区域恢复，业务连续性会受制于单一云区域，跨区域故障切换成为实际关切。\n\n评论中的亲身经历并不一致：一位 Revolut 用户称当天早上起无法登录、取现或刷卡，且没有电话客服可联系；一位 HSBC 用户则说服务一切正常。后者还批评 Downdetector 主要反映用户上报而非真实宕机状态，提醒对报道中的受影响范围保持谨慎。",
+  "references": [
+    {
+      "title": "Google Cloud &#x27;s London zones takes a nap, multiple services disrupted",
+      "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-clouds-london-zones-takes-a-nap-multiple-services-disrupted/5304084"
+    },
+    {
+      "title": "Google Cloud says services are recovering after outage hit banks ...",
+      "url": "https://www.bbc.com/news/live/c58jd2kjp93xt"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

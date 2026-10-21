@@ -1,0 +1,41 @@
+{
+  "id": "d0e5d29ed570fb56cb13f17af449281b6bf5de05",
+  "canonicalId": "afe5d96a9d4684fb96de500346e2384550461c1d",
+  "slug": "mistral-发布-voxtral-3-与实时语音代理-sdk",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T16:02:00Z",
+  "lang": "zh",
+  "title": "Mistral 发布 Voxtral 3 与实时语音代理 SDK",
+  "summary": "Mistral 宣布推出 Voxtral 3，并发布一套实时语音代理 SDK；该 SDK 将听取语音、推理、工具调用和语音回复整合到电话或网页的实时对话中。公告未披露基准测试、模型许可或架构细节，因此其语音识别质量、延迟和本地部署条件仍无法核实。",
+  "score": 7,
+  "tags": [
+    "speech-recognition",
+    "voice-agents",
+    "Mistral AI",
+    "real-time AI",
+    "speech-to-text"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ilreb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50168396"
+    }
+  ],
+  "originalUrl": "https://mistral.ai/news/voxtral-3/",
+  "originalSite": "mistral.ai",
+  "context": "",
+  "discussion": "评论者对实际效果和演示可信度提出质疑：一位开发者称已商用 Voxtral Mini 4B Realtime 的离线推理，在 4GB 显存、Ryzen 5 5600U 集显的笔记本上超过实时速度，并正在移植 Linux；另有评论称 Voxtral 3 是闭源模型，认为这不利于本地部署。还有用户抱怨 Teams 和 8x8 的现成转写质量太差，希望把音频流接入更好的模型，并有人指出演示中的法国皮肤科预约速度不现实。",
+  "references": [
+    {
+      "title": "Voxtral 3: Voice Agent SDK &amp; Speech Models in 50+ Languages",
+      "url": "https://mistral.ai/news/voxtral-3/"
+    },
+    {
+      "title": "2026-03-27 — Mistral AI releases Voxtral TTS, a 3B-parameter open-weights model outperforming ElevenLabs Flash v2.5",
+      "url": "https://www.reddit.com/gallery/1s46ylj"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

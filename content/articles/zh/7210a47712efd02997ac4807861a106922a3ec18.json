@@ -1,0 +1,45 @@
+{
+  "id": "7210a47712efd02997ac4807861a106922a3ec18",
+  "canonicalId": "9636bb4edcb64e9ea30503b5a3fc094df007db39",
+  "slug": "emudhra-中间-ca-私钥被指仅一字节",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T13:58:00Z",
+  "lang": "zh",
+  "title": "eMudhra 中间 CA 私钥被指仅一字节",
+  "summary": "eMudhra 的中间 CA 事件出现关键细节：社区讨论称，8 个被列为遭攻破的 CA 私钥都只有一个字节，其中一个私钥就是“4”，但这一说法目前仍是社区指认，尚未经过独立验证。引用 Mozilla Bugzilla 的讨论称，eMudhra 初步归因于当天生成这些 ECC 签发者时使用的 KGC 脚本存在缺陷，并提到一项经批准的对常规 KGC 的偏离。评论者 galadran 表示，Firefox 已通过 OneCRL 在数小时内自动吊销相关证书，用户无需更新；Chrome、Apple 和 Microsoft 也有类似工具，但生态中其他依赖方对吊销的投入仍然不足。",
+  "score": 8,
+  "tags": [
+    "PKI",
+    "TLS certificates",
+    "CA compromise",
+    "browser security",
+    "cryptography"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "galadran",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
+    }
+  ],
+  "originalUrl": "https://emudhra.we-have-a-problem.com/",
+  "originalSite": "emudhra.we-have-a-problem.com",
+  "context": "浏览器和操作系统并不逐一信任所有站点证书，而是信任一组根证书；根证书签发中间 CA，中间 CA 再签发站点的叶证书，因此中间 CA 的私钥一旦泄露，攻击者无需触碰根证书就能签发被信任的伪造证书。据 Mozilla 说明，其于 10 月 17 日 20:06 UTC 收到报告，涉及 8 张 eMudhra 中间证书的私钥泄露，而这些中间证书链到 Mozilla、Microsoft、Apple 和 Chrome 根计划以及众多下游信任库所信任的根。eMudhra 在 Mozilla 的 bug 报告中初步表示，问题源于当天用于生成这批 ECC 签发者的密钥生成（KGC）脚本存在缺陷，并提及这是对其常规流程的一次经批准的偏离。",
+  "discussion": "eqvinox 用“一个字节、其中一个就是 4”强调这些私钥的弱度，并称很难把这种情况称为真正意义上的“攻破”；hypfer 则称相关密钥疑似出现在 repository.emsign.com 的证书路径下，但同时承认自己可能误读，呼吁有资质的人给出可信解释。tech234a 摘录了 eMudhra 在 Mozilla Bugzilla 中的初步说明，galadran 则把讨论拉回吊销机制：浏览器端处理很快，但浏览器之外的生态响应参差。",
+  "references": [
+    {
+      "title": "EMudhra Intermediate CA Compromise | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50166579"
+    },
+    {
+      "title": "Protecting Firefox users following the compromise of eMudhra ...",
+      "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"
+    },
+    {
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

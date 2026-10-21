@@ -1,0 +1,37 @@
+{
+  "id": "f85f66989e948fc53f21ac6a91fe7b74d6b9c8cd",
+  "canonicalId": "5e241867830c6ea756cb5669edfdfc987329709d",
+  "slug": "tsrs用-rust-移植-typescript-编译器",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T13:18:00Z",
+  "lang": "zh",
+  "title": "tsrs：用 Rust 移植 TypeScript 编译器",
+  "summary": "Cloudflare 博客的一篇文章介绍了 tsrs：一个把 TypeScript 编译移植到 Rust 的项目。据评论者引用的移植文档，它用永不释放的 arena 安放长生命周期对象，以在没有 GC 的 Rust 中模拟 GC；另一名评论者称，项目动机之一是获得能在 WASM-only 沙箱中运行的编译器，避免 tsc 的 Go 版本附带完整 Go 运行时。该评论者还称 Rust 版本快于参考的 tsc/Go 实现。现有材料没有说明 tsrs 的发布状态、与 tsc 的兼容范围或可复现的基准数据，因此这些速度说法仍需核实。",
+  "score": 8,
+  "tags": [
+    "TypeScript",
+    "Rust",
+    "compilers",
+    "WebAssembly",
+    "memory management"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hnisjafx40",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50165953"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/typescript-rust-port/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "TypeScript 官方编译器 tsc 用 TypeScript 编写，运行时依赖 JavaScript 引擎的垃圾回收来管理 AST、符号表等长期存活的对象；若要在 Rust 中重写，就必须重新安排这些数据的生命周期，这也是长期阻碍用 Rust 重写 tsc 的原因之一。Cloudflare 参与合作的 tsrs 还服务于另一个具体约束：让编译器能够在只有 WebAssembly 的沙箱中运行。Cloudflare 博客称，该 Rust 版本的编译速度最高提升 8 倍，内存占用减少约 70%。",
+  "discussion": "对需要在 WASM 沙箱中运行 TypeScript 编译的团队，这条路径的直接影响是可能不必随编译器打包完整 Go 运行时；但 tsrs 是否已发布、覆盖哪些 TypeScript 版本和编译选项尚不清楚，采用前需要先确认兼容性和性能数据。\n\nTypeScript 团队成员 DanRosenwasser 表示，tsrs 的速度不只取决于语言选择，其中一些优化也会让 TS 7.1 更快、更精简；评论者 afdbcreid 则强调其 arena 内存模型是绕开 Rust 无 GC 的关键。egonschiele 对速度提升表示期待，但对博客所述完全由 AI 生成移植的方式持保留态度，并提到博客作者称自己未写代码。",
+  "references": [
+    {
+      "title": "Introducing tsrs : a Port of TypeScript to Rust | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

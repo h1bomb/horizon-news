@@ -1,0 +1,40 @@
+{
+  "id": "0a50d41335cf77f95179eaab037f834f1d258fbc",
+  "canonicalId": "bd05ae8977d887b47b84caadc43c894ee4153e9e",
+  "slug": "deepseek-据报深度参与华为未来-ai-芯片设计",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T05:10:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 据报深度参与华为未来 AI 芯片设计",
+  "summary": "据 The Information 援引知情人士报道，DeepSeek 正深度参与华为未来 AI 芯片设计：华为工程师长期驻场 DeepSeek 办公室，并将 DeepSeek 在模型计算和处理器间数据传输方面的建议，纳入面向 2027 年及以后推出的芯片。报道称，这种超出常规供应商沟通的合作可能降低中国构建前沿 AI 模型时对英伟达技术的依赖；但 DeepSeek 并未放弃英伟达，仍在寻求获取其先进处理器。上述内容来自未具名消息源，尚无独立验证。",
+  "score": 7,
+  "tags": [
+    "AI chips",
+    "Huawei",
+    "DeepSeek",
+    "Nvidia",
+    "China AI"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
+  "originalSite": "theinformation.com",
+  "context": "此前已有迹象显示 DeepSeek 与华为的绑定超出普通采购关系：Horizon 9 月 5 日的日报曾援引彭博社报道称，DeepSeek 计划在内蒙古新建数据中心部署至少 16 万颗华为升腾 950DT 芯片。Horizon 9 月 18 日的日报则报道，华为在上海发布新一代 Ascend 960，但要到 2027 年才商用——这与本次报道中“涉及 2027 年及以后推出的芯片”的时间窗口吻合，说明 DeepSeek 此次是从买方变成参与设计方。两项早期报道同样基于匿名消息源，未获 DeepSeek 或华为确认。",
+  "discussion": "若该合作按报道推进，计划在 2027 年及以后采用华为 AI 芯片的训练和推理团队，可能获得更贴合 DeepSeek 模型计算与处理器间数据传输特点的硬件设计。但报道未披露具体芯片规格、软件兼容性或性能提升，现有 DeepSeek 工作负载能否迁移、能获得多少收益仍无法判断，采购方宜将英伟达供应与华为软件栈适配作为并行方案评估。",
+  "references": [
+    {
+      "title": "2026-09-05 — DeepSeek 拟在内蒙古部署 16 万颗华为升腾芯片",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center"
+    },
+    {
+      "title": "2026-09-18 — 华为将发布 Ascend 960 AI 芯片，2027 年商用",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/huawei-set-to-unveil-china-s-best-answer-to-nvidia-ai-chip-reign"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

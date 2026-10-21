@@ -1,6 +1,227 @@
 {
   "articles": [
     {
+      "id": "7464be27a4278d58afa8eb2ca9f9966bdcff835a",
+      "canonicalId": "2f990e26e9aeea90981c3313d605e88dfa8ebd72",
+      "slug": "google-开源-torchtputpu-原生-pytorch-后端",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "Google 开源 TorchTPU：TPU 原生 PyTorch 后端",
+      "score": 8,
+      "tags": [
+        "PyTorch",
+        "TPU",
+        "ML systems",
+        "open source",
+        "hardware acceleration"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "7210a47712efd02997ac4807861a106922a3ec18",
+      "canonicalId": "9636bb4edcb64e9ea30503b5a3fc094df007db39",
+      "slug": "emudhra-中间-ca-私钥被指仅一字节",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "eMudhra 中间 CA 私钥被指仅一字节",
+      "score": 8,
+      "tags": [
+        "PKI",
+        "TLS certificates",
+        "CA compromise",
+        "browser security",
+        "cryptography"
+      ],
+      "originalSite": "emudhra.we-have-a-problem.com"
+    },
+    {
+      "id": "f85f66989e948fc53f21ac6a91fe7b74d6b9c8cd",
+      "canonicalId": "5e241867830c6ea756cb5669edfdfc987329709d",
+      "slug": "tsrs用-rust-移植-typescript-编译器",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "tsrs：用 Rust 移植 TypeScript 编译器",
+      "score": 8,
+      "tags": [
+        "TypeScript",
+        "Rust",
+        "compilers",
+        "WebAssembly",
+        "memory management"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "2f6efb713525cf45a7dacb7827fefbb6c94230e1",
+      "canonicalId": "79e072c528493212dadbe0626496c7bede00d5c2",
+      "slug": "deepseek-上线-deepinfer-推理框架仓库细节与基准尚未披露",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "DeepSeek 上线 DeepInfer 推理框架仓库，细节与基准尚未披露",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "LLM inference",
+        "open source",
+        "model serving",
+        "Hacker News"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "d0e5d29ed570fb56cb13f17af449281b6bf5de05",
+      "canonicalId": "afe5d96a9d4684fb96de500346e2384550461c1d",
+      "slug": "mistral-发布-voxtral-3-与实时语音代理-sdk",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "Mistral 发布 Voxtral 3 与实时语音代理 SDK",
+      "score": 7,
+      "tags": [
+        "speech-recognition",
+        "voice-agents",
+        "Mistral AI",
+        "real-time AI",
+        "speech-to-text"
+      ],
+      "originalSite": "mistral.ai"
+    },
+    {
+      "id": "f652a0cbfdfb6d998767ef3107c3eea89ca5566e",
+      "canonicalId": "0c0643e13635f1ed03988c1a1d2c31664a6fc797",
+      "slug": "google-cloud-europe-west2-故障波及多家银行",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "Google Cloud europe-west2 故障波及多家银行",
+      "score": 7,
+      "tags": [
+        "google-cloud",
+        "cloud-outage",
+        "europe-west2",
+        "banking",
+        "cloud-reliability"
+      ],
+      "originalSite": "neowin.net"
+    },
+    {
+      "id": "f59a9c714e892b43bec5082a2eb285465c009736",
+      "canonicalId": "621250faf996ff4b43cb3fff87ab4ba7a9b3e366",
+      "slug": "作者称推动移除-300-多个恶意-tor-出口节点",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "作者称推动移除 300 多个恶意 Tor 出口节点",
+      "score": 7,
+      "tags": [
+        "Tor",
+        "network security",
+        "SSH",
+        "threat intelligence",
+        "privacy"
+      ],
+      "originalSite": "kaba.cx"
+    },
+    {
+      "id": "e06bff249c812840090d1b6460f77e6b64200473",
+      "canonicalId": "fa355b2fea6d055892ca1a1f546fbb5a6aaa4060",
+      "slug": "rust-编译器-2026-年路线图求解器polonius-与产物体积",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "Rust 编译器 2026 年路线图：求解器、Polonius 与产物体积",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "compilers",
+        "programming languages",
+        "compile times",
+        "open source"
+      ],
+      "originalSite": "yoyo-code.com"
+    },
+    {
+      "id": "509635f40c4f8ca962c495741d107097fbaae99d",
+      "canonicalId": "f0d466a7f367bac0fe2827b519650d37047a8fe2",
+      "slug": "suse-工程师推动系统级禁用-setuidsetgid",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "SUSE 工程师推动系统级禁用 setuid/setgid",
+      "score": 7,
+      "tags": [
+        "Linux security",
+        "setuid",
+        "SUSE",
+        "system hardening",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "a67114252be9c17e48f7c570238b532f8673b9e1",
+      "canonicalId": "2ed29ef8b35fa9208a9bf113deb2f5441918c203",
+      "slug": "kangrejos-2026-谨慎讨论用-rust-重写-xarray",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "Kangrejos 2026 谨慎讨论用 Rust 重写 XArray",
+      "score": 7,
+      "tags": [
+        "rust",
+        "linux-kernel",
+        "xfs",
+        "xarray",
+        "filesystems"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "6c0e3522345a98fc334748bfa8393ca36f0071cf",
+      "canonicalId": "cf637d353ea8bc6fa1e578ea06e7070eac034312",
+      "slug": "openbsd-80-发布arm64-支持休眠amd64-内核空间达-512gb",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "OpenBSD 8.0 发布：arm64 支持休眠，amd64 内核空间达 512GB",
+      "score": 7,
+      "tags": [
+        "openbsd",
+        "operating-systems",
+        "bsd",
+        "release",
+        "arm64"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "0a50d41335cf77f95179eaab037f834f1d258fbc",
+      "canonicalId": "bd05ae8977d887b47b84caadc43c894ee4153e9e",
+      "slug": "deepseek-据报深度参与华为未来-ai-芯片设计",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "DeepSeek 据报深度参与华为未来 AI 芯片设计",
+      "score": 7,
+      "tags": [
+        "AI chips",
+        "Huawei",
+        "DeepSeek",
+        "Nvidia",
+        "China AI"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
+      "id": "8098288ad53e70953090255d30f7f7dc9ef88bc5",
+      "canonicalId": "708a5adaaaec716d4c572669c1456e6289ec0197",
+      "slug": "shopify-从-react-native-转向原生开发",
+      "date": "2026-10-21",
+      "lang": "zh",
+      "title": "Shopify 从 React Native 转向原生开发",
+      "score": 5,
+      "tags": [
+        "react-native",
+        "mobile-development",
+        "ai-coding-agents",
+        "migration-strategy",
+        "developer-tooling"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
       "id": "71ce52b8b3e96bffc6b5801653eaaf807ea62fc0",
       "canonicalId": "9a7560747adbbd47eb4b9408e1b410ae86677471",
       "slug": "linux-73-内核开发统计提交量首破-2-万",
@@ -5040,91 +5261,6 @@
         "speculative decoding"
       ],
       "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "e44bb3fb2d36b7087886f527e066b585d2f6e334",
-      "canonicalId": "176ec7b3e8f00f608e600ac223189823fe87796b",
-      "slug": "ai-编造情报险致美军拦截中国船只",
-      "date": "2026-09-21",
-      "lang": "zh",
-      "title": "AI 编造情报险致美军拦截中国船只",
-      "score": 8,
-      "tags": [
-        "AI hallucinations",
-        "military AI",
-        "AI safety",
-        "intelligence analysis",
-        "US-China"
-      ],
-      "originalSite": "cnn.com"
-    },
-    {
-      "id": "a5ff73adc107d0cce8fff5899643e30325dcc736",
-      "canonicalId": "54422eea02357412a8d8c9e8f98d07cc31fbaa2a",
-      "slug": "三星据报拟将-hbm4hbm4e-产量提高一倍以上",
-      "date": "2026-09-21",
-      "lang": "zh",
-      "title": "三星据报拟将 HBM4/HBM4E 产量提高一倍以上",
-      "score": 7,
-      "tags": [
-        "HBM4",
-        "Samsung",
-        "DRAM",
-        "AI hardware",
-        "semiconductor supply chain"
-      ],
-      "originalSite": "en.sedaily.com"
-    },
-    {
-      "id": "0bbdf0f4980eab837596342a1aed28d92f9e32b0",
-      "canonicalId": "81b3da03dd64eeb7ade30468836e4ff236b64347",
-      "slug": "博文称-chatgpt-借广告采集器获知用户站外活动",
-      "date": "2026-09-21",
-      "lang": "zh",
-      "title": "博文称 ChatGPT 借广告采集器获知用户站外活动",
-      "score": 7,
-      "tags": [
-        "privacy",
-        "adtech",
-        "ChatGPT",
-        "web-tracking",
-        "AI-products"
-      ],
-      "originalSite": "buchodi.com"
-    },
-    {
-      "id": "d1be7b5c253e8ddaf6f0544d5988e495e9158e0a",
-      "canonicalId": "56038e3ac8f9efd9a10828077ac5cff3c8368778",
-      "slug": "qwen-发布-image-217b-开源权重图像模型许可证更严格",
-      "date": "2026-09-21",
-      "lang": "zh",
-      "title": "Qwen 发布 Image 2.1：7B 开源权重图像模型，许可证更严格",
-      "score": 7,
-      "tags": [
-        "open-weight models",
-        "image generation",
-        "Qwen",
-        "model licensing",
-        "text rendering"
-      ],
-      "originalSite": "qwen.ai"
-    },
-    {
-      "id": "200969878affeca1f9b8d66bb2ee167fc0c75739",
-      "canonicalId": "baf37756d114ca3e118829fc41913e5caa5d8360",
-      "slug": "长鑫科技宣布第五代-dram-平台量产",
-      "date": "2026-09-21",
-      "lang": "zh",
-      "title": "长鑫科技宣布第五代 DRAM 平台量产",
-      "score": 7,
-      "tags": [
-        "DRAM",
-        "semiconductor manufacturing",
-        "LPDDR5X",
-        "China tech supply chain",
-        "memory chips"
-      ],
-      "originalSite": "m.thepaper.cn"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "2f6efb713525cf45a7dacb7827fefbb6c94230e1",
+  "canonicalId": "79e072c528493212dadbe0626496c7bede00d5c2",
+  "slug": "deepseek-上线-deepinfer-推理框架仓库细节与基准尚未披露",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T09:08:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 上线 DeepInfer 推理框架仓库，细节与基准尚未披露",
+  "summary": "DeepSeek 在 GitHub 上发布了名为 DeepInfer 的仓库，并将其定位为面向 DeepSeek 模型的高性能推理框架，该仓库在 Hacker News 上引发了大量讨论。但本次条目未附带任何仓库内容，既没有文档，也没有版本号、基准数据或硬件兼容清单，因此其吞吐、延迟与部署成本目前无法核实。讨论中的具体性能数字均来自评论者转述的第三方文章，而非官方材料。",
+  "score": 7,
+  "tags": [
+    "DeepSeek",
+    "LLM inference",
+    "open source",
+    "model serving",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ggcr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
+    }
+  ],
+  "originalUrl": "https://github.com/deepseek-ai/DeepInfer",
+  "originalSite": "github.com",
+  "context": "此前，DeepSeek 的 V4 系列模型主要依靠第三方推理框架部署：Horizon 4 月 28 日的日报显示，vLLM v0.20.0 首次加入对 DeepSeek V4 的支持；5 月 17 日的日报又记录 SGLang v0.5.12 提供完整的 DeepSeek V4 推理支持，涵盖张量并行与专家并行、DeepGemm 内核以及预填充与解码分离。据 MarkTechPost 报道，此次开源的 DeepInfer 最初主要基于 vLLM 构建，并以 Apache 2.0 许可发布；当前版本只覆盖离线推理，包含大规模服务所需的核心功能。",
+  "discussion": "评论者 schneehertz 引用一篇知乎文章，称基于该框架已为“DeepSeek V4.1 Flash”提供大规模服务，单集群日吞吐达 155 万亿 token、单卡每小时收入 38 美元（非高峰定价）；这些数字未经独立核实，也只是转述。另有评论把仓库发布时间与美国 DHS 的相关命令联系起来，属于个人推测而非已证事实。",
+  "references": [
+    {
+      "title": "2026-05-17 — sglang v0.5.12 Adds Full DeepSeek V4 Inference Support",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12"
+    },
+    {
+      "title": "2026-04-28 — vLLM v0.20.0 Released with DeepSeek V4 and CUDA 13.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0"
+    },
+    {
+      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework ...",
+      "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/"
+    },
+    {
+      "title": "DeepSeek open-sources DeepInfer, its V4.1-Flash serving stack",
+      "url": "https://aiweekly.co/alerts/deepseek-open-sources-deepinfer-its-v41-flash-serving-stack"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "a67114252be9c17e48f7c570238b532f8673b9e1",
+  "canonicalId": "2ed29ef8b35fa9208a9bf113deb2f5441918c203",
+  "slug": "kangrejos-2026-谨慎讨论用-rust-重写-xarray",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T15:46:00Z",
+  "lang": "zh",
+  "title": "Kangrejos 2026 谨慎讨论用 Rust 重写 XArray",
+  "summary": "在 Kangrejos 2026 上，Daniel Gomez 提议试验用 Rust 重写内核的 XArray 数据结构，目标是减少 XFS 大块大小支持中难以发现的缺陷。他提到 XFS 曾因 folio 支持引入文件系统损坏，问题多年未被发现，最终定位到 XArray API 的锁误用；XArray 在内核中有 351 个使用点、126 个维护者条目，2026 年已有 3 个 CVE 与误用有关。与会者持谨慎态度：核心内核功能在 Rust 中重写面临架构支持、为 C 调用者提供接口的接受度等问题。目前这仍是探索性讨论，没有作出重写决定，也没有已合入的代码。",
+  "score": 7,
+  "tags": [
+    "rust",
+    "linux-kernel",
+    "xfs",
+    "xarray",
+    "filesystems"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100520/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "短期内对 XFS 用户没有直接的兼容性或行为变化，因为该重写仍处于实验和讨论阶段；若继续推进，最先的现实约束是 351 个内核使用点和 126 个维护者条目如何迁移或保持 C 接口兼容。Tyr GPU 驱动提供了一个具体落点：其作业队列原计划使用 C 版 XArray，开发者表示若 Rust 版出现，Tyr 可能成为首个 Rust 使用者。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

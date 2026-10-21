@@ -1,0 +1,36 @@
+{
+  "id": "6c0e3522345a98fc334748bfa8393ca36f0071cf",
+  "canonicalId": "cf637d353ea8bc6fa1e578ea06e7070eac034312",
+  "slug": "openbsd-80-发布arm64-支持休眠amd64-内核空间达-512gb",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T13:07:00Z",
+  "lang": "zh",
+  "title": "OpenBSD 8.0 发布：arm64 支持休眠，amd64 内核空间达 512GB",
+  "summary": "OpenBSD 8.0 已发布。该版本为 arm64 平台增加休眠支持，将 amd64 的内核虚拟地址空间扩大到 512GB，并改进了支持高通 Wi-Fi 6 设备的 qwx 驱动。官方还列出了更多变更，细节见完整更新日志。",
+  "score": 7,
+  "tags": [
+    "openbsd",
+    "operating-systems",
+    "bsd",
+    "release",
+    "arm64"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1101536/",
+  "originalSite": "lwn.net",
+  "context": "OpenBSD 的 arm64 休眠功能会把内存状态写入磁盘后断电，恢复时再读回，因此内核必须在睡眠和恢复路径上完整保存设备与内存状态；amd64 的内核虚拟地址空间则是内核用来映射自身代码、数据及物理内存的地址范围，扩大该空间可缓解大内存机器上的映射压力。此前 10 月 17 日的日报曾报道，研究人员演示了 OpenBSD 内核中一个存在 37 年的漏洞，但当时材料未说明受影响的具体组件、版本范围与修复状态，因此无法从现有信息确认 8.0 是否包含相关修复。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-10-17 — Big Fish：利用 OpenBSD 存在 37 年的内核漏洞",
+      "url": "https://calif.io/research/big-fish"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

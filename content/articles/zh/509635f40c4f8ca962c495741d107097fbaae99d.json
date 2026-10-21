@@ -1,0 +1,31 @@
+{
+  "id": "509635f40c4f8ca962c495741d107097fbaae99d",
+  "canonicalId": "f0d466a7f367bac0fe2827b519650d37047a8fe2",
+  "slug": "suse-工程师推动系统级禁用-setuidsetgid",
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-20T18:36:00Z",
+  "lang": "zh",
+  "title": "SUSE 工程师推动系统级禁用 setuid/setgid",
+  "summary": "SUSE 杰出工程师 Thorsten Kukuk 在 2026 年 All Systems Go\\! 会议上介绍了一项仍在推进的工作：通过让 systemd 的 PID 1 设置 NoNewPrivileges=yes，在内核层为所有进程启用 no\\_new\\_privs，从而阻止 execve\\(\\) 赋予 setuid、setgid 或文件能力，目标是系统级禁用这类二进制。该标志会跨 fork\\(\\)、clone\\(\\) 和 execve\\(\\) 保持，但不会阻止已有特权的任务直接调用 setuid\\(\\) 或 setresuid\\(\\)。为处理账户管理，他开发了 scan-caps 和 account-utils，并以经 varlink 通信、仅能访问 /etc/passwd 与 /etc/shadow 的 pwaccessd/pwupdd 服务替代 shadow-utils、PAM 等需要特权的客户端。报道没有说明该方案已在 SUSE 产品中默认启用；sudo 改用 run0 等“侵入性包”会把 sudoers 配置变为 polkit 规则，构成破坏性变更。",
+  "score": 7,
+  "tags": [
+    "Linux security",
+    "setuid",
+    "SUSE",
+    "system hardening",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100257/",
+  "originalSite": "lwn.net",
+  "context": "setuid 和 setgid 二进制在执行时会获得文件所有者或所属组的权限，因此程序一旦存在缺陷，就可能成为提权入口；SUSE 的安全团队此前已在 openSUSE 打包规范中禁止未经审查和明确许可的 setuid/setgid 二进制。Linux 内核的 no\\_new\\_privs 标志会让后续 execve\\(\\) 不再因 setuid、setgid 或文件 capabilities 而增加权限，并且该设置会跨 fork\\(\\)、clone\\(\\) 和 execve\\(\\) 持续生效。Kukuk 的方案正是尝试通过 systemd 为 PID 1 启用 NoNewPrivileges=yes，把这一限制推广到全系统。",
+  "discussion": "对使用 sudo 的服务器管理员而言，采用该路线意味着需要把 sudoers 规则迁移为 polkit 规则，而不是仅替换二进制；其他被替换工具则被要求保持配置和行为不变。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
