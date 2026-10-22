@@ -1,0 +1,36 @@
+{
+  "id": "fdd61f3f73f9344bc7c3498c264d71efdaeb1b58",
+  "canonicalId": "6f436e206df60a0d34e6e9664c01a95118371493",
+  "slug": "linux-内核模块哈希校验兼顾可复现构建",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T16:14:00Z",
+  "lang": "zh",
+  "title": "Linux 内核模块哈希校验兼顾可复现构建",
+  "summary": "在 2026 年 Linux Plumbers Conference 上，Thomas Weißschuh 介绍了一套经过多轮修订的内核模块完整性补丁：它用模块哈希来辅助验证，而不只依赖 X.509 签名，目标是在阻止未授权模块加载的同时保持发行版构建可复现。现有签名模块把签名附在 .ko 文件末尾；若要让签名后的模块逐位可复现，就需要保留私钥，而常见的临时密钥方案虽然安全，却无法在事后重建相同签名。早期方案把全部授权模块的哈希列表放进内核镜像，但 5000 个模块的 SHA-256 值就要占用约 150KB 常驻内存；他讨论了改用 Merkle 树，使内存中只需保留根哈希和树深度，模块的校验路径可随 .ko 加载后丢弃。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "reproducible builds",
+    "module integrity",
+    "security",
+    "Linux Plumbers Conference"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100026/",
+  "originalSite": "lwn.net",
+  "context": "可复现构建要求：使用相同源码、构建环境和构建指令的任何一方，都能逐位重建出完全相同的产物。Horizon 2026 年 5 月 12 日的日报曾报道，Debian 发布团队已启用迁移检查，阻止不可复现或出现可复现性回归的软件包进入 testing 仓库；这为理解当前内核模块完整性方案为何要在签名验证与可复现构建之间做取舍提供了直接背景。",
+  "discussion": "如果该设计进入内核，发行版维护者就可能在不保留模块签名私钥的情况下提供可复现的内核模块包，并可能去掉运行时的 X.509 证书处理和构建时的 OpenSSL 依赖；但模块加载器需要按模块索引验证 Merkle 路径，且这套补丁仍在评审和继续完善中。",
+  "references": [
+    {
+      "title": "2026-05-12 — Debian enforces reproducible builds in testing",
+      "url": "https://lwn.net/Articles/1072314/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

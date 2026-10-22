@@ -1,0 +1,40 @@
+{
+  "id": "e5c3dd5f5da3975f85138510a421680507e21564",
+  "canonicalId": "6b8e1c38d38f9ec36a36382878b6975afd846937",
+  "slug": "uber-autoclean-自动清理过期-feature-flag",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T06:45:00Z",
+  "lang": "zh",
+  "title": "Uber AutoClean 自动清理过期 feature flag",
+  "summary": "Uber 发布博客介绍其内部系统 AutoClean：过去几年，该系统已在生产代码中清理逾 16000 个过期 feature flag 和 100 多万行代码。AutoClean 在多个 monorepo 中持续运行，先用 AI agent 结合确定性代码变换工具 PolyglotPiranha 重写代码，再修复 CI 失败并反复验证，随后由静态检查和多 agent 校验系统 CodeCourt 审核，最后交由人类工程师评审。Uber 表示，这一流程让评审者只需判断是否应移除某个 flag，而不必检查机械性的正确性问题。",
+  "score": 7,
+  "tags": [
+    "AI 代码清理",
+    "技术债",
+    "feature flag",
+    "软件工程",
+    "代码审核自动化"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.uber.com/us/en/blog/ai-code-cleanup/",
+  "originalSite": "uber.com",
+  "context": "",
+  "discussion": "对采用 monorepo 和 feature flag 的工程团队而言，AutoClean 把人工评审集中到“是否应移除该 flag”这一判断上，机械性修改由确定性变换、CI 验证和 CodeCourt 审核承担；人类工程师仍保留最终评审环节，并非完全无人值守删除。",
+  "references": [
+    {
+      "title": "GitHub - uber/piranha: A tool for refactoring code related to ... Introducing Piranha: An Open Source Tool to ... - Uber Stale Feature Flag Cleanup | uber/piranha | DeepWiki GitHub - fork-the-planet/uber___piranha: A tool for ... PolyglotPiranha: scope limits and forked grammars Piranha: Automated Flag Debt Refactoring at Uber - Medium",
+      "url": "https://github.com/uber/piranha"
+    },
+    {
+      "title": "Introducing Piranha: An Open Source Tool to ... - Uber",
+      "url": "https://www.uber.com/us/en/blog/piranha/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

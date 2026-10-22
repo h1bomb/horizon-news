@@ -1,0 +1,52 @@
+{
+  "id": "a95a50523b8e032702a0f55bb9f50a26735eaa51",
+  "canonicalId": "e31bf18aa91a4628a3cc17e713329c6ebb65ab63",
+  "slug": "nodejs-修复-brotli-越界写入等-10-个漏洞",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T14:49:00Z",
+  "lang": "zh",
+  "title": "Node.js 修复 Brotli 越界写入等 10 个漏洞",
+  "summary": "Node.js 项目为 26.x、24.x 和 22.x 分支发布安全更新，共修复 10 个漏洞，最高严重级别为高危（High）。其中，Brotli 解码器越界写入（CVE-2026-111497）被描述为可导致远程代码执行；另一个已报告的问题是 TLS 非规范 IP 地址处理（CVE-2026-106069、CVE-2026-106072）。此次更新还修复了 DNS 解析空字节验证（CVE-2026-105482）、TLS IP 规范化回归（CVE-2026-105483），以及 HTTP 代理、加密快照、zlib 和权限等中低严重性问题。项目建议使用最新版本，并指出已终止支持（EOL）的版本同样受这些漏洞影响。",
+  "score": 8,
+  "tags": [
+    "Node.js",
+    "security vulnerabilities",
+    "CVE",
+    "remote code execution",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+  "originalSite": "nodejs.org",
+  "context": "Node.js 采用多条发布线并行维护，安全修复通常以新的补丁版本同时覆盖这些版本线；此次官方公告列出的修复线为 26.x、24.x 和 22.x。Brotli 解码器内置于这三个版本线中，因此同一个越界写入问题会同时波及三者。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+    },
+    {
+      "title": "Node.js Releases Security Updates to Fix High-Severity TLS ...",
+      "url": "https://cybersecuritynews.com/node-js-releases-security-updates/"
+    },
+    {
+      "title": "Node.js Releases Security Updates to Fix High-Severity TLS ...",
+      "url": "https://cybersecuritynews.com/node-js-releases-security-updates/"
+    },
+    {
+      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+    },
+    {
+      "title": "CVE-2026-111497 | Tenable®",
+      "url": "https://www.tenable.com/cve/CVE-2026-111497"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

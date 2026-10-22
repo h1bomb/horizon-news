@@ -1,0 +1,40 @@
+{
+  "id": "fb8f1ecf0f950a13e984daad11ee4ca45287b707",
+  "canonicalId": "bcf23d80258f94aa0bac3a91d5f30c37bf751a61",
+  "slug": "lwn-解析-nix-flakes实验特性下的可复现构建",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T14:33:00Z",
+  "lang": "zh",
+  "title": "LWN 解析 Nix flakes：实验特性下的可复现构建",
+  "summary": "LWN 发布了一篇由 Tyler Langlois 撰写的 Nix flakes 解释文章，面向希望在跨发行版项目中固定依赖、构建环境和测试流程的开发者。文章说明 flake.nix 用 URL 式 inputs 和 outputs 定义包、开发环境等产物，nix flake lock 生成 flake.lock，把每个输入锚定到具体的上游提交，类似 Cargo.lock 或 Gemfile.lock。文章还强调 flakes 仍属实验特性，启用时需在命令中加入 --experimental-features &\\#x27;nix-command flakes&\\#x27;，或在 nix.conf 中设置该选项，而其稳定化路径仍不确定。",
+  "score": 7,
+  "tags": [
+    "Nix",
+    "Nix flakes",
+    "package management",
+    "reproducible builds",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1094226/",
+  "originalSite": "lwn.net",
+  "context": "Nix flakes 于 2021 年 11 月 1 日随 Nix 2.4 引入，但至今仍被标记为实验性功能。由于实验性功能在稳定之前仍可能发生破坏性变更，flakes 的接口与稳定化时间表也因此存在不确定性。",
+  "discussion": "对采用 flakes 的项目而言，贡献者必须先在 Nix 中显式启用实验特性；依赖需要更新时要运行 nix flake update，而在纯求值模式下读取环境变量或进行任意网络访问需用 --impure 放宽限制。",
+  "references": [
+    {
+      "title": "Flakes - NixOS Wiki",
+      "url": "https://nixos.wiki/wiki/Flakes"
+    },
+    {
+      "title": "A call for the Nix team to present a unified front on... - NixOS Discourse",
+      "url": "https://discourse.nixos.org/t/a-call-for-the-nix-team-to-present-a-unified-front-on-the-outcome-and-strategy-around-nix-flakes/54959/113"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

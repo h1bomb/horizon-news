@@ -1,6 +1,346 @@
 {
   "articles": [
     {
+      "id": "696a67781ac75567622a0414b6844dd0953dc747",
+      "canonicalId": "764a23f0c296d60d725440ef791fd9dcafe9c5e9",
+      "slug": "duckdb-200-lts-发布多核扩展客户端-服务器与触发器",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "DuckDB 2.0.0 LTS 发布：多核扩展、客户端-服务器与触发器",
+      "score": 9,
+      "tags": [
+        "DuckDB",
+        "databases",
+        "analytics",
+        "open source",
+        "release"
+      ],
+      "originalSite": "duckdb.org"
+    },
+    {
+      "id": "98428480af472c8228b75403f4e169d1d633f689",
+      "canonicalId": "11e92edf73fbbb01d6eb6c5489810e1d7111241b",
+      "slug": "php-8235-安全更新修复两项未认证-rce-漏洞",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "PHP 8.2.35 安全更新修复两项未认证 RCE 漏洞",
+      "score": 9,
+      "tags": [
+        "PHP",
+        "security",
+        "RCE",
+        "coordinated disclosure",
+        "AI security"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "05f1a99de136ecd9bcec01aa6da1678760b4715e",
+      "canonicalId": "5699ea0146a98f847ef4646a2c965924a2f84dc0",
+      "slug": "railway-发布安全披露社区称环境变量被第三方使用",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "Railway 发布安全披露，社区称环境变量被第三方使用",
+      "score": 8,
+      "tags": [
+        "security-incident",
+        "cloud-platform",
+        "secrets-management",
+        "environment-variables",
+        "railway"
+      ],
+      "originalSite": "blog.railway.com"
+    },
+    {
+      "id": "7c32a0542f49c46419ec05d33f715bf063550787",
+      "canonicalId": "a0e7a23f62c47cb2f9eddbfbd1783756bf2c7da2",
+      "slug": "litellm-11070-被曝在-pypi-植入凭据窃取与后门",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "LiteLLM 1.107.0 被曝在 PyPI 植入凭据窃取与后门",
+      "score": 8,
+      "tags": [
+        "supply chain security",
+        "LiteLLM",
+        "PyPI",
+        "credential stealing",
+        "open source security"
+      ],
+      "originalSite": "safedep.io"
+    },
+    {
+      "id": "33e943d91e5eb767c4f6844d5aa4168a099dab6c",
+      "canonicalId": "14e022775599965be7ecfbb405361aa9b2282724",
+      "slug": "emudhra-中间-ca-私钥仅-256-种可能firefox-等紧急封锁",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "eMudhra 中间 CA 私钥仅 256 种可能，Firefox 等紧急封锁",
+      "score": 8,
+      "tags": [
+        "TLS",
+        "certificate authorities",
+        "cryptography",
+        "security vulnerability",
+        "public key infrastructure"
+      ],
+      "originalSite": "scotthelme.co.uk"
+    },
+    {
+      "id": "a95a50523b8e032702a0f55bb9f50a26735eaa51",
+      "canonicalId": "e31bf18aa91a4628a3cc17e713329c6ebb65ab63",
+      "slug": "nodejs-修复-brotli-越界写入等-10-个漏洞",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "Node.js 修复 Brotli 越界写入等 10 个漏洞",
+      "score": 8,
+      "tags": [
+        "Node.js",
+        "security vulnerabilities",
+        "CVE",
+        "remote code execution",
+        "open source"
+      ],
+      "originalSite": "nodejs.org"
+    },
+    {
+      "id": "1737712f6bd92a38c75b523a147364f3c33615d5",
+      "canonicalId": "af5d3897eb075e9452e942e6e2bcc54bc1710019",
+      "slug": "新墨西哥州在剑桥分析相关案件中获对-meta-250-亿美元罚款",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "新墨西哥州在剑桥分析相关案件中获对 Meta 250 亿美元罚款",
+      "score": 7,
+      "tags": [
+        "Meta",
+        "privacy regulation",
+        "Cambridge Analytica",
+        "tech policy",
+        "New Mexico"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "0598cd96eaa0f17b7a5fbe3e61aca82d07694d15",
+      "canonicalId": "61f4d0141ff303c02405716db977e4c6353bca59",
+      "slug": "openai-模型将进驻-google-cloud-model-garden",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "OpenAI 模型将进驻 Google Cloud Model Garden",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "AI infrastructure",
+        "cloud competition",
+        "enterprise AI"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "b51b81cf95d811be00c2df244513032bdf7befa4",
+      "canonicalId": "7cd25ce54ea6a92776982875699c581836189fa7",
+      "slug": "gitlab-发布-1951-关键补丁应对正则漏洞",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "GitLab 发布 19.5.1 关键补丁应对正则漏洞",
+      "score": 7,
+      "tags": [
+        "gitlab",
+        "security-vulnerability",
+        "cve",
+        "regex",
+        "patch-release"
+      ],
+      "originalSite": "docs.gitlab.com"
+    },
+    {
+      "id": "43b2842befe8b4979f2d28f85a6427d4c37da18b",
+      "canonicalId": "1f0065db775ebb7fae137cf9ad2fb21e345ec297",
+      "slug": "nodejs-修复-brotli-远程代码执行漏洞musl-libc-公布越界写问题",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "Node.js 修复 Brotli 远程代码执行漏洞，musl libc 公布越界写问题",
+      "score": 7,
+      "tags": [
+        "security vulnerabilities",
+        "Node.js",
+        "musl libc",
+        "remote code execution",
+        "vulnerability disclosure"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "fdd61f3f73f9344bc7c3498c264d71efdaeb1b58",
+      "canonicalId": "6f436e206df60a0d34e6e9664c01a95118371493",
+      "slug": "linux-内核模块哈希校验兼顾可复现构建",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "Linux 内核模块哈希校验兼顾可复现构建",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "reproducible builds",
+        "module integrity",
+        "security",
+        "Linux Plumbers Conference"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "fb8f1ecf0f950a13e984daad11ee4ca45287b707",
+      "canonicalId": "bcf23d80258f94aa0bac3a91d5f30c37bf751a61",
+      "slug": "lwn-解析-nix-flakes实验特性下的可复现构建",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "LWN 解析 Nix flakes：实验特性下的可复现构建",
+      "score": 7,
+      "tags": [
+        "Nix",
+        "Nix flakes",
+        "package management",
+        "reproducible builds",
+        "software engineering"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "c4c23a9c6807abaf5500e99ac45cdecd7702af3f",
+      "canonicalId": "b4b1f48ec5f3699b08109cbc25ce6c704ccbd3a0",
+      "slug": "amd-fsr-41-扩展至-rx-6000-与-xboxvulkan-支持待落地",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "AMD FSR 4.1 扩展至 RX 6000 与 Xbox，Vulkan 支持待落地",
+      "score": 7,
+      "tags": [
+        "AMD FSR",
+        "GPU upscaling",
+        "RX 6000",
+        "Vulkan",
+        "Xbox"
+      ],
+      "originalSite": "newsroom.amd.com"
+    },
+    {
+      "id": "eb9a3859c80b7cf425af884c0f86ac53c94788a1",
+      "canonicalId": "0181caf4503d6b19e5a1c6ab21d03e7ea7a45237",
+      "slug": "spacex-下月首次尝试同时回收星舰与助推器",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "SpaceX 下月首次尝试同时回收星舰与助推器",
+      "score": 7,
+      "tags": [
+        "SpaceX",
+        "Starship",
+        "可复用火箭",
+        "航天",
+        "硬件"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "e5c3dd5f5da3975f85138510a421680507e21564",
+      "canonicalId": "6b8e1c38d38f9ec36a36382878b6975afd846937",
+      "slug": "uber-autoclean-自动清理过期-feature-flag",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "Uber AutoClean 自动清理过期 feature flag",
+      "score": 7,
+      "tags": [
+        "AI 代码清理",
+        "技术债",
+        "feature flag",
+        "软件工程",
+        "代码审核自动化"
+      ],
+      "originalSite": "uber.com"
+    },
+    {
+      "id": "1134b401adfd175733370e734a787aebd4e52c89",
+      "canonicalId": "c269a6da1e51c72790fdda81cbd8cd574bab6200",
+      "slug": "英特尔-amd-合作整合-x86-cpu-ai-优化",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "英特尔 AMD 合作整合 x86 CPU AI 优化",
+      "score": 7,
+      "tags": [
+        "x86",
+        "oneDNN",
+        "PyTorch",
+        "AMD",
+        "AI infrastructure"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "be7354ae3bc565e6b957a21999d39f576eec728a",
+      "canonicalId": "b907d27ced0f33b211066a929a90174486c58aa9",
+      "slug": "英伟达扩展-isaac-平台新增人形机器人框架与-isaac-lab-30",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "英伟达扩展 Isaac 平台，新增人形机器人框架与 Isaac Lab 3.0",
+      "score": 7,
+      "tags": [
+        "NVIDIA",
+        "robotics",
+        "Isaac Platform",
+        "simulation",
+        "AI training"
+      ],
+      "originalSite": "nvidianews.nvidia.com"
+    },
+    {
+      "id": "f862276572cff4c7ca2b42209528c6e40c6b3866",
+      "canonicalId": "7a316966da68001aceff862643547a5164ac5a55",
+      "slug": "go-修复-cve-2026-111943-证书验证问题缓解-mitm-风险",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "Go 修复 CVE-2026-111943 证书验证问题，缓解 MITM 风险",
+      "score": 7,
+      "tags": [
+        "Go",
+        "crypto/x509",
+        "certificate validation",
+        "CVE",
+        "MITM"
+      ],
+      "originalSite": "access.redhat.com"
+    },
+    {
+      "id": "d719f88ed1f47c63b1cef65fe68f33f75e77f196",
+      "canonicalId": "c83d7267f480811b0009996bb9b36778e907809d",
+      "slug": "llm-提示缓存与语义缓存对比",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "LLM 提示缓存与语义缓存对比",
+      "score": 6,
+      "tags": [
+        "LLM caching",
+        "prompt caching",
+        "semantic caching",
+        "KV cache",
+        "cache invalidation"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "c30cc3f517c49172a34d9706541f39615ade2291",
+      "canonicalId": "eb16235ac421051a71858f3494a3580bd972ed84",
+      "slug": "rfd4-proteina-的奖励引导推理时搜索",
+      "date": "2026-10-22",
+      "lang": "zh",
+      "title": "RFD4-Proteina 的奖励引导推理时搜索",
+      "score": 6,
+      "tags": [
+        "protein-design",
+        "inference-time-search",
+        "generative-models",
+        "NVIDIA-BioNeMo",
+        "tutorial"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
       "id": "7464be27a4278d58afa8eb2ca9f9966bdcff835a",
       "canonicalId": "2f990e26e9aeea90981c3313d605e88dfa8ebd72",
       "slug": "google-开源-torchtputpu-原生-pytorch-后端",
@@ -5108,159 +5448,6 @@
         "NVIDIA Isaac ROS"
       ],
       "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "2d03d8825e5a101f88989b8bc0294b7feb38e64c",
-      "canonicalId": "bf2ea8abc504ecbb8e01c33f450a0872e2fda822",
-      "slug": "cloudflare-python-workers-结束预览正式可用",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "Cloudflare Python Workers 结束预览正式可用",
-      "score": 8,
-      "tags": [
-        "serverless",
-        "WebAssembly",
-        "Python",
-        "Cloudflare Workers",
-        "edge computing"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "0d8f82cf6303cdd05695bb17422189dcd6a71e5e",
-      "canonicalId": "65539846fc8ff9423ea6ef5e1fae46bbf0179fbe",
-      "slug": "小米发布-mimo-v26公开训练看板与技术报告",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "小米发布 MiMo v2.6，公开训练看板与技术报告",
-      "score": 7,
-      "tags": [
-        "LLM release",
-        "open-weight models",
-        "training transparency",
-        "Xiaomi",
-        "API performance"
-      ],
-      "originalSite": "mimo.xiaomi.com"
-    },
-    {
-      "id": "769236b851f21a32a33a6e40a772022701bef2f5",
-      "canonicalId": "b30711547eb72ee23ff3e40448c15eb4a35cfc78",
-      "slug": "what-sun-got-wrongsun-失败复盘引发讨论",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "《What Sun got wrong》：Sun 失败复盘引发讨论",
-      "score": 7,
-      "tags": [
-        "Sun Microsystems",
-        "Solaris",
-        "tech industry history",
-        "systems engineering",
-        "SPARC"
-      ],
-      "originalSite": "bcantrill.dtrace.org"
-    },
-    {
-      "id": "72a5c3662218bdde6dec17b01468390e93640d56",
-      "canonicalId": "81104d8861cf94c4a9d210c4e00f274552b2e569",
-      "slug": "xai-发布-grok-47增量升级引发性能与定价争论",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "xAI 发布 Grok 4.7：增量升级引发性能与定价争论",
-      "score": 7,
-      "tags": [
-        "large language models",
-        "xAI",
-        "Grok",
-        "model releases",
-        "benchmarks"
-      ],
-      "originalSite": "x.ai"
-    },
-    {
-      "id": "35ebf1cd00565a8fab334a25e2d9b54c51946205",
-      "canonicalId": "3df0788a23acd733c72119b78236ad68fc67c1bd",
-      "slug": "faa-称光纤被切断美国东海岸多个机场航班暂停",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "FAA 称光纤被切断，美国东海岸多个机场航班暂停",
-      "score": 7,
-      "tags": [
-        "network-infrastructure",
-        "fiber-optics",
-        "critical-infrastructure",
-        "system-reliability",
-        "aviation-safety"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "0b5c503fdc42ef04c228728bd3e85e664e78b1fa",
-      "canonicalId": "82b7c1ad7628107c5442f8a3aa61528a75ba7795",
-      "slug": "typesafe-ai-发布-jev返回类型化概率决策的决策模型",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "TypeSafe AI 发布 Jev：返回类型化概率决策的决策模型",
-      "score": 7,
-      "tags": [
-        "LLM",
-        "decision models",
-        "AI model releases",
-        "typed outputs",
-        "TypeSafe AI"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "0449a9a5b61560efb6698e74836936f064fa4646",
-      "canonicalId": "86a4bb9e41c9fd7e4d4723c7b853858c0058c5f1",
-      "slug": "aws-bedrock-接入-kimi-k3月之暗面与海外云厂商分成模式落地",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "AWS Bedrock 接入 Kimi K3，月之暗面与海外云厂商分成模式落地",
-      "score": 7,
-      "tags": [
-        "Kimi K3",
-        "Amazon Bedrock",
-        "large language models",
-        "AI cloud distribution",
-        "revenue-sharing"
-      ],
-      "originalSite": "36kr.com"
-    },
-    {
-      "id": "bd0e021da7da681da4a2949d3982e04aca9ee77d",
-      "canonicalId": "bc796ee1b309d432bb0f7459b8bd262cdd360164",
-      "slug": "dynamo-triton-多-gpu-tensorrt-推理cosmos-3-视频生成实测",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "Dynamo-Triton 多 GPU TensorRT 推理：Cosmos 3 视频生成实测",
-      "score": 7,
-      "tags": [
-        "NVIDIA TensorRT",
-        "Dynamo-Triton",
-        "multi-GPU inference",
-        "context parallelism",
-        "video generation"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "ee17b7cde5b2117626eecd7f07c51a4d95be7544",
-      "canonicalId": "a79613a3a9db26bae3b7bdf8cc1c527852588406",
-      "slug": "在廉价硬件上跑大模型的技术",
-      "date": "2026-09-22",
-      "lang": "zh",
-      "title": "在廉价硬件上跑大模型的技术",
-      "score": 5,
-      "tags": [
-        "LLM inference",
-        "quantization",
-        "local AI hardware",
-        "KV cache",
-        "speculative decoding"
-      ],
-      "originalSite": "blog.bytebytego.com"
     }
   ]
 }

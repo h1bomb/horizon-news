@@ -1,0 +1,37 @@
+{
+  "id": "05f1a99de136ecd9bcec01aa6da1678760b4715e",
+  "canonicalId": "5699ea0146a98f847ef4646a2c965924a2f84dc0",
+  "slug": "railway-发布安全披露社区称环境变量被第三方使用",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T21:58:00Z",
+  "lang": "zh",
+  "title": "Railway 发布安全披露，社区称环境变量被第三方使用",
+  "summary": "Railway 于 2026 年 10 月 21 日发布安全披露，但提供的条目只有标题和链接，没有正文，因此受影响范围、根本原因、修复状态及官方确认的泄露细节都无法核实。评论者称，有第三方读取并使用了 Railway 上存储的环境变量，并引用 Postiz 创始人的说法称其密钥已被使用、Railway 在其公开发声前未作说明；这些均属社区陈述，而非已核实的官方结论。对在 Railway 上存放凭据的团队来说，评论中的紧迫建议是立即轮换可能暴露的密钥并排查使用情况，但在披露正文缺失时不应假定影响边界。",
+  "score": 8,
+  "tags": [
+    "security-incident",
+    "cloud-platform",
+    "secrets-management",
+    "environment-variables",
+    "railway"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "passenger",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50188228"
+    }
+  ],
+  "originalUrl": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+  "originalSite": "blog.railway.com",
+  "context": "Railway 这类部署平台通常把数据库密码、API 密钥等配置以环境变量注入应用，静态存储时会加密，但应用运行时仍须解密供进程读取。Railway 在 10 月 21 日的披露中称，调查显示未经授权的第三方可能访问了加密的环境变量，并对其中一部分取得了明文内容。",
+  "discussion": "多条评论称，Railway Discord 中有用户确认其存储在 Railway 的密钥已被第三方使用，这使评论者推测攻击者能够读取解密后的环境变量；相关说法尚未由披露正文证实。也有评论将此次事件与同日曝出的其他安全问题并论，并担心此类紧急修补和泄露可能趋于常态。",
+  "references": [
+    {
+      "title": "Security Disclosure : Wednesday October 21 st | Railway Blog",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

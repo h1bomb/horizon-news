@@ -1,0 +1,41 @@
+{
+  "id": "0598cd96eaa0f17b7a5fbe3e61aca82d07694d15",
+  "canonicalId": "61f4d0141ff303c02405716db977e4c6353bca59",
+  "slug": "openai-模型将进驻-google-cloud-model-garden",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T12:53:00Z",
+  "lang": "zh",
+  "title": "OpenAI 模型将进驻 Google Cloud Model Garden",
+  "summary": "OpenAI 宣布，其前沿模型和 Codex 智能体工作流将接入 Google Cloud 的 Model Garden，企业可通过 Google Cloud Marketplace 购买，并用现有 GCP 承诺消费额度抵扣。相关模型还计划进入 Google Antigravity 和 Gemini Agent，预计数周内正式开放，因此目前是已宣布的合作计划，而非已全面可用的服务。OpenAI 表示微软仍是其主要云合作伙伴；现有信息未披露具体模型版本、定价或区域可用范围。",
+  "score": 7,
+  "tags": [
+    "OpenAI",
+    "Google Cloud",
+    "AI infrastructure",
+    "cloud competition",
+    "enterprise AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "armcat",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50180079"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/openai-models-google-cloud/",
+  "originalSite": "openai.com",
+  "context": "Horizon 4 月 28 日的日报曾报道，微软与 OpenAI 结束了独家收入分成协议，不再要求 OpenAI 只能使用 Azure，从而为 OpenAI 接入其他云厂商扫清了障碍；4 月 29 日的日报随后记录了 OpenAI 模型（含 GPT-4o 与 Codex）上线 Amazon Bedrock，并推出由 OpenAI 驱动的 Bedrock Managed Agents。此次进入 Google Cloud Model Garden，是同一多云端分发路线在 AWS 之后的延伸，而 OpenAI 仍强调微软是其首要云合作伙伴。",
+  "discussion": "对已持有 GCP 承诺消费额度的企业，OpenAI 模型采购可计入承诺抵扣，从而在现有 Google Cloud 合同内消化部分支出，而不必单独走新的采购渠道。实际可用性仍取决于数周后的正式开放和 Marketplace 条款，现阶段不宜据此调整采购计划。\n\nHN 评论中，有人强调公告底部的“微软仍是 OpenAI 主要云合作伙伴”是重要限定；也有评论争论 Google 允许用 GCP 承诺额度抵扣，是否等于把已确认收入让出去。另有评论认为，这更像是 OpenAI 通过第三方云分发推理、与已通过多家云提供的 Anthropic 竞争，而不应解读为 Gemini 失去 Alphabet 的支持。",
+  "references": [
+    {
+      "title": "2026-04-29 — OpenAI Models to Launch on Amazon Bedrock",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/"
+    },
+    {
+      "title": "2026-04-28 — Microsoft and OpenAI End Exclusive Revenue-Sharing Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "d719f88ed1f47c63b1cef65fe68f33f75e77f196",
+  "canonicalId": "c83d7267f480811b0009996bb9b36778e907809d",
+  "slug": "llm-提示缓存与语义缓存对比",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T15:31:00Z",
+  "lang": "zh",
+  "title": "LLM 提示缓存与语义缓存对比",
+  "summary": "rss · ByteByteGo · 10月21日 15:31\n\n**「背景」** LLM 请求的成本和延迟来自输入与输出 token；长指令、手册和历史对话被反复发送，相似问题又常以不同措辞出现，造成重复计算与生成。普通缓存难以直接套用，因为 LLM 的重复既发生在输入计算，也发生在答案层面，文章因此区分提示缓存与语义缓存。\n\n**「方案」** 提示缓存复用 Transformer 预填充阶段的 KV 状态，按共享前缀精确匹配：稳定指令和参考资料必须放在最前，时间戳、请求 ID 或措辞变化都会让后续内容无法复用。它只省输入处理，输出仍需生成；以 Anthropic 的定价为例，缓存读取约为常规输入价的十分之一，写入更贵，因此只有多次复用才划算，从不复用就没有收益。语义缓存位于模型之外，把问题转成向量并检索相似问题，命中就返回旧答案；阈值越松命中率越高，却可能混淆“发货前/后取消订单”这类近义但答案相反的问题，0.92 的相似度也不等于 92% 的正确率。它还要把租户、权限、版本、语言、对话状态纳入范围，并用 TTL、版本化和提示变更来失效。两者可组合：先查精确或语义缓存，未命中再调用 LLM 并利用前缀缓存；但语义命中会跳过生成，也可能使前缀缓存失去刷新机会。\n\n**「启示」** 作者认为，提示缓存适合共享上下文下仍需生成新答案的场景，语义缓存适合答案稳定的 FAQ；二者都不免费也不天然安全，应分别衡量前缀复用率与缓存答案的接受率、时效和适用范围，而非只看命中率。\n\n**标签**: `#LLM caching`, `#prompt caching`, `#semantic caching`, `#KV cache`, `#cache invalidation`",
+  "score": 6,
+  "tags": [
+    "LLM caching",
+    "prompt caching",
+    "semantic caching",
+    "KV cache",
+    "cache invalidation"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/llm-prompt-caching-versus-semantic",
+  "originalSite": "blog.bytebytego.com",
+  "context": "LLM 请求的成本和延迟来自输入与输出 token；长指令、手册和历史对话被反复发送，相似问题又常以不同措辞出现，造成重复计算与生成。普通缓存难以直接套用，因为 LLM 的重复既发生在输入计算，也发生在答案层面，文章因此区分提示缓存与语义缓存。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "7c32a0542f49c46419ec05d33f715bf063550787",
+  "canonicalId": "a0e7a23f62c47cb2f9eddbfbd1783756bf2c7da2",
+  "slug": "litellm-11070-被曝在-pypi-植入凭据窃取与后门",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T14:00:00Z",
+  "lang": "zh",
+  "title": "LiteLLM 1.107.0 被曝在 PyPI 植入凭据窃取与后门",
+  "summary": "据 safedep.io 的安全报告，PyPI 上的 LiteLLM 1.107.0 被篡改，安装该版本会植入凭据窃取程序和后门。LiteLLM 是广泛使用的 LLM 访问库，因此直接安装该版本、或通过依赖解析引入该版本的开发者与 CI 环境是主要暴露面。该说法目前来自安全报告，所给材料未提供独立验证的感染范围或样本细节；使用该版本的团队应按凭据可能已泄露来处理。",
+  "score": 8,
+  "tags": [
+    "supply chain security",
+    "LiteLLM",
+    "PyPI",
+    "credential stealing",
+    "open source security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "abhisek",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50181114"
+    }
+  ],
+  "originalUrl": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+  "originalSite": "safedep.io",
+  "context": "LiteLLM 并非首次遭遇供应链攻击：据 Horizon 3 月 25 日的日报，PyPI 上的 1.82.7 和 1.82.8 版本曾被植入恶意代码，其中 1.82.8 通过在 site-packages 中放置 litellm\\_init.pth，让凭据窃取程序在安装时即自动执行，无需导入该包，PyPI 随后隔离了这些版本。同一份日报还记载，维护者将当时的入口追溯到 CI/CD 流程中使用的 trivy 工具存在的漏洞。本次 1.107.0 的载荷延续了同一手法：在任何 Python 进程启动时运行，即使该进程从未导入 litellm。",
+  "discussion": "对受影响项目，具体动作是审查 requirements、lockfile 和构建日志，确认是否解析到 1.107.0，并轮换该安装环境中可访问的 API 密钥、令牌等凭据。若 CI 从 PyPI 安装依赖且未锁定版本，构建阶段的依赖解析也可能把恶意版本带入。\n\n评论者 crossroadsguy 认为，沙箱和防火墙规则难以防住这类攻击，权限弹窗疲劳以及对 brew、npm 安装的习以为常会削弱警惕；linsomniac 则推荐用 canarytokens 做凭据泄露告警。rsanheim 称这已是 LiteLLM 一两年内第二次重大供应链攻击，并提到自己今年 3 月曾审计依赖；abhikap 则称事件已较快受控，并链接到 LiteLLM 的 2026 年 10 月 21 日安全公告。",
+  "references": [
+    {
+      "title": "2026-03-25 — Malicious litellm_init.pth in LiteLLM 1.82.8 steals credentials upon installation",
+      "url": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything"
+    },
+    {
+      "title": "2026-03-25 — LiteLLM PyPI versions 1.82.7 and 1.82.8 compromised with malicious code",
+      "url": "https://github.com/BerriAI/litellm/issues/24512"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

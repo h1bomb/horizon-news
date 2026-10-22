@@ -1,0 +1,44 @@
+{
+  "id": "f862276572cff4c7ca2b42209528c6e40c6b3866",
+  "canonicalId": "7a316966da68001aceff862643547a5164ac5a55",
+  "slug": "go-修复-cve-2026-111943-证书验证问题缓解-mitm-风险",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T15:26:00Z",
+  "lang": "zh",
+  "title": "Go 修复 CVE-2026-111943 证书验证问题，缓解 MITM 风险",
+  "summary": "Go 更新了 crypto/x509 的证书验证逻辑，阻止与已失陷 CA 关联的中级证书被当作可信证书接受，以修复 CVE-2026-111943 带来的中间人攻击风险。Red Hat 将该问题评为 Important，CVSS 3.1 评分为 6.8；利用该问题需要特定网络位置和由不可信中继机构签发的证书，Red Hat 称其难以被大规模滥用。报道附带的一则群友评论称，根因是印度证书机构失陷后 Go 未拦截相关证书，并非 Go 代码中存在可远程利用的漏洞；该说法来自群友，未经独立核实。",
+  "score": 7,
+  "tags": [
+    "Go",
+    "crypto/x509",
+    "certificate validation",
+    "CVE",
+    "MITM"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://access.redhat.com/security/cve/cve-2026-111943",
+  "originalSite": "access.redhat.com",
+  "context": "TLS 客户端验证服务器证书时，会沿着由根证书、中级 CA 和服务器证书组成的证书链逐级校验；只要链上某个中级 CA 仍被信任，它签发的证书就可能被接受。此次事件的关键前提是相关证书机构失陷，而 Go 的 crypto/x509 未能拦截与失陷 CA 关联的中级证书，从而使攻击者有了冒充合法服务器实施中间人攻击的空间。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE - 2026 - 111943 : eMudhra CA Key Compromise",
+      "url": "https://socprime.com/blog/cve-2026-111943-analysis/"
+    },
+    {
+      "title": "1 known exploit for CVE - 2026 - 111943",
+      "url": "https://sploitus.com/cve/CVE-2026-111943"
+    },
+    {
+      "title": "crypto / x 509 : mitigation for security concerns with a specific Certificate...",
+      "url": "https://github.com/golang/go/issues/82345"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

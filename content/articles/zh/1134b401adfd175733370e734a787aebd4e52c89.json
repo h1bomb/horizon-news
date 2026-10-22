@@ -1,0 +1,40 @@
+{
+  "id": "1134b401adfd175733370e734a787aebd4e52c89",
+  "canonicalId": "c269a6da1e51c72790fdda81cbd8cd574bab6200",
+  "slug": "英特尔-amd-合作整合-x86-cpu-ai-优化",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T08:55:00Z",
+  "lang": "zh",
+  "title": "英特尔 AMD 合作整合 x86 CPU AI 优化",
+  "summary": "英特尔与 AMD 宣布合作，将各自针对 PyTorch 的 x86 CPU 优化汇入开源深度学习库 oneDNN，目标是给开发者一条通用软件路径、减少 x86 AI 软件碎片化。AMD 正在把 ZenDNN 优化整合进 oneDNN，并以指导委员会成员身份加入 UXL 基金会。双方还表示将在面向 x86 的下一代 AI 计算扩展指令集上合作，并计划未来通过 oneDNN 将其进一步集成到 PyTorch。",
+  "score": 7,
+  "tags": [
+    "x86",
+    "oneDNN",
+    "PyTorch",
+    "AMD",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/JcEFssHmhyL0drohofQNkg",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "oneDNN 是面向 x86 CPU 的开源深度学习加速库，此次 Intel 与 AMD 同意将其作为 PyTorch 在 x86 上的默认加速库；AMD 此前维护自家的 ZenDNN 优化，现在将其并入 oneDNN。承载这类项目的 UXL 基金会于 2023 年成立，接收了多个原 oneAPI 软件项目，成员包括 Intel、三星、Qualcomm 和 Arm，AMD 此次以指导委员会成员身份加入。该合作是在 x86 生态系统咨询小组的建议下推进的。",
+  "discussion": "这项合作能否实际简化开发，取决于 ZenDNN 整合和未来指令集支持能否进入 oneDNN 并被 PyTorch 采用；来源目前只说明 AMD 正在整合、未来再集成，尚未给出时间表或可用版本。",
+  "references": [
+    {
+      "title": "AMD and Intel Collaborate to Simplify AI Development on x86 ...",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/amd-intel-simplify-x86-ai-development-with-pytorch.html"
+    },
+    {
+      "title": "Intel &amp; AMD Now Collaborating On Software Optimizations With ...",
+      "url": "https://www.phoronix.com/news/Intel-AMD-oneDNN-Optimize"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

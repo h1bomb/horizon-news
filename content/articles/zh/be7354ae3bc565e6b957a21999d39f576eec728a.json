@@ -1,0 +1,31 @@
+{
+  "id": "be7354ae3bc565e6b957a21999d39f576eec728a",
+  "canonicalId": "b907d27ced0f33b211066a929a90174486c58aa9",
+  "slug": "英伟达扩展-isaac-平台新增人形机器人框架与-isaac-lab-30",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T11:21:00Z",
+  "lang": "zh",
+  "title": "英伟达扩展 Isaac 平台，新增人形机器人框架与 Isaac Lab 3.0",
+  "summary": "英伟达在 GTC 大会上宣布扩展 Isaac 机器人开发平台，新增人形机器人参考框架、仿真工作流和训练数据工具，覆盖数据生成、AI 训练、仿真测试到部署。此次更新包括支持多 GPU 训练的 Isaac Lab 3.0、含 2000 多种仿真资产的资源库以及人类动作数据集。上述内容来自英伟达的发布公告，公告未说明各项工具的正式可用时间、许可条件或硬件要求。",
+  "score": 7,
+  "tags": [
+    "NVIDIA",
+    "robotics",
+    "Isaac Platform",
+    "simulation",
+    "AI training"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+  "originalSite": "nvidianews.nvidia.com",
+  "context": "Isaac 是英伟达面向机器人开发的平台，覆盖数据生成、AI 训练、仿真测试和实际部署。此次更新把训练组件推进到 Isaac Lab 3.0，并加入多 GPU 训练支持；版本号说明这是该训练组件的迭代版本，但来源未披露上一版本的具体能力或迁移细节。",
+  "discussion": "对机器人 AI 开发者而言，多 GPU 训练、现成仿真资产和人类动作数据可减少从零搭建训练环境与采集动作数据的工作；但在采用前仍需确认这些工具的实际开放时间、许可条款及其与现有 Isaac 工作流的兼容性。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "b51b81cf95d811be00c2df244513032bdf7befa4",
+  "canonicalId": "7cd25ce54ea6a92776982875699c581836189fa7",
+  "slug": "gitlab-发布-1951-关键补丁应对正则漏洞",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T19:01:00Z",
+  "lang": "zh",
+  "title": "GitLab 发布 19.5.1 关键补丁应对正则漏洞",
+  "summary": "GitLab 发布了 19.5.1 关键补丁版本，用于应对一个被描述为严重的正则表达式编译器漏洞；相关分析称该漏洞可在未认证情况下触发。现有公告对技术细节披露有限，社区称相关 CVE 仍处于禁运状态，只提到涉及正则编译器中的整数溢出。现有报告和补丁也不足以判断缺陷位于 GitLab 本身还是 Ruby 组件，尚无独立验证的利用细节。",
+  "score": 7,
+  "tags": [
+    "gitlab",
+    "security-vulnerability",
+    "cve",
+    "regex",
+    "patch-release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "artooro",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50185869"
+    }
+  ],
+  "originalUrl": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+  "originalSite": "docs.gitlab.com",
+  "context": "Horizon 9 月 12 日的日报曾报道，GitLab 在 9 月 10 日紧急发布 19.3.2、19.2.6 和 19.1.8，修复 CVSS 10.0 的未授权任意文件读取漏洞 CVE-2026-85706，同样要求自建实例立即升级；这次 19.5.1 延续了同一类紧急补丁节奏。本次的 CVE-2026-110264 是正则表达式编译器中的整数溢出，据 The Hacker News 报道可让未认证用户在自建服务器上执行任意代码，影响范围可追溯到 7.0 版本，而 GitLab 公告本身对技术细节披露很少。",
+  "discussion": "有评论者指出，这已是 GitLab 过去几周内第二个与正则表达式相关的 CVE，并担忧该端点可未认证访问；他们同时认可官方提供了检查日志以发现利用尝试的指引。另有人质疑漏洞究竟出在 GitLab 还是 Ruby，并把当天 musl libc 正则编译器整数溢出公告视为可能相关或由同一类安全问题引出的线索。",
+  "references": [
+    {
+      "title": "2026-09-12 — GitLab 紧急修复 CVSS 10.0 未授权任意文件读取漏洞",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/"
+    },
+    {
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE...",
+      "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

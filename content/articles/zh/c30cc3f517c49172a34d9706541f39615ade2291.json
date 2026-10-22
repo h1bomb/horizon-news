@@ -1,0 +1,31 @@
+{
+  "id": "c30cc3f517c49172a34d9706541f39615ade2291",
+  "canonicalId": "eb16235ac421051a71858f3494a3580bd972ed84",
+  "slug": "rfd4-proteina-的奖励引导推理时搜索",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T12:30:00Z",
+  "lang": "zh",
+  "title": "RFD4-Proteina 的奖励引导推理时搜索",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 10月21日 12:30\n\n**「背景」** 蛋白质序列的组合空间大到无法穷举，NVIDIA BioNeMo 与华盛顿大学蛋白质设计研究所联合推出的 RFD4-Proteina，试图用从自然中学到的模式联合设计序列和全原子结构，并用奖励引导搜索把算力集中到更有希望的候选上。\n\n**「方案」** 作者以 PD-L1 为靶点演示完整流程：用条件规范固定靶标序列和骨架、允许侧链重包装，并把生成引向 Tyr56、Met115、Tyr123 热点，设计 100–150 残基的结合蛋白，开放模型与 NIM 共用同一套输入。模型延续 Proteina-Complexa 的部分潜变量思路，把显式骨架坐标与潜表示结合，由解码器同时产出序列和全原子结构，省去 ProteinMPNN 式逆折叠交接。搜索在去噪轨迹的检查点打分，保留并分叉高分部分状态；示例采用 2 个分支、束宽 3、检查点 0/20/40/50/60，以 OpenFold3 pLDDT 为奖励，下限 50、保存分数不低于 80 的中间设计。工程上，残基级潜表示、约 60 步采样和 CUDA 加速的 OF3/tmol 降低开销；作者报告 BioIR 后端在六种 Hopper 配置上比默认编译后端快 1.37–1.73 倍，H100 PCIe 套件总时长从 161 秒降到 111 秒、约省 31%，但基准仅为 batch size 1、覆盖 15 个序列长度。作者提醒 pLDDT 衡量的是预测置信度而非结合证据，搜索产出数量也会变化，需另行检查界面、重折叠、冲突和多样性；至于跨任务 SOTA 与实验验证，教程主要指向伴随手稿，未展开证据。\n\n**「启示」** 这篇文章的核心不是“生成即命中”，而是把蛋白质设计组织成可评估、可迭代的搜索：快速联合生成提供候选，奖励引导搜索按目标分配算力，实验反馈再收紧约束。其价值在 NVIDIA 工具链内较具体，但读者应把 pLDDT 和厂商的 SOTA 说法当作待验证信号。\n\n**标签**: `#protein-design`, `#inference-time-search`, `#generative-models`, `#NVIDIA-BioNeMo`, `#tutorial`",
+  "score": 6,
+  "tags": [
+    "protein-design",
+    "inference-time-search",
+    "generative-models",
+    "NVIDIA-BioNeMo",
+    "tutorial"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+  "originalSite": "developer.nvidia.com",
+  "context": "蛋白质序列的组合空间大到无法穷举，NVIDIA BioNeMo 与华盛顿大学蛋白质设计研究所联合推出的 RFD4-Proteina，试图用从自然中学到的模式联合设计序列和全原子结构，并用奖励引导搜索把算力集中到更有希望的候选上。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

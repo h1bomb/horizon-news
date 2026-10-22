@@ -1,0 +1,32 @@
+{
+  "id": "33e943d91e5eb767c4f6844d5aa4168a099dab6c",
+  "canonicalId": "14e022775599965be7ecfbb405361aa9b2282724",
+  "slug": "emudhra-中间-ca-私钥仅-256-种可能firefox-等紧急封锁",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T09:08:00Z",
+  "lang": "zh",
+  "title": "eMudhra 中间 CA 私钥仅 256 种可能，Firefox 等紧急封锁",
+  "summary": "eMudhra 的 8 张中间 CA 私钥被发现在生成时随机性极弱，只有 256 种可能，可被快速穷举还原；其中 6 张可签发 TLS 网站证书，2 张可签发代码签名证书。Mozilla 在 10 月 17 日收到报告后 3 小时内向所有 Firefox 用户自动推送封锁，无需重启；Google 同日屏蔽受影响公钥，并计划在 10 月 27 日移除相关根证书，Apple 和 Microsoft 也在跟进。上述处置意味着依赖这些中间证书的网站、软件发布者和嵌入式设备需要关注信任链失效，而不能更新信任库的设备风险最高。",
+  "score": 8,
+  "tags": [
+    "TLS",
+    "certificate authorities",
+    "cryptography",
+    "security vulnerability",
+    "public key infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hkc",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50177916"
+    }
+  ],
+  "originalUrl": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+  "originalSite": "scotthelme.co.uk",
+  "context": "",
+  "discussion": "最初报告者 Wayne 在评论中表示，发现来自 Google 的 paranoid\\_crypto 工具，开箱即用；他随后检查了 CCADB 中现有证书，未再发现其他命中。多位评论者则把焦点放在无法更新信任库的 IoT/嵌入式设备上，认为这比更新普通系统中的 CA bundle 更难，也有人以“信任 100 个 CA 可能过多”表达对 CA 模型的质疑。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

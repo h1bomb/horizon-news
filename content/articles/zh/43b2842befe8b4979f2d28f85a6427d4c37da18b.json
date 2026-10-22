@@ -1,0 +1,40 @@
+{
+  "id": "43b2842befe8b4979f2d28f85a6427d4c37da18b",
+  "canonicalId": "1f0065db775ebb7fae137cf9ad2fb21e345ec297",
+  "slug": "nodejs-修复-brotli-远程代码执行漏洞musl-libc-公布越界写问题",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T17:09:00Z",
+  "lang": "zh",
+  "title": "Node.js 修复 Brotli 远程代码执行漏洞，musl libc 公布越界写问题",
+  "summary": "Node.js 项目发布了多项安全更新，修复了多个漏洞，其中包括一个影响使用 Brotli 压缩的程序的远程代码执行漏洞。musl libc 项目同时公布了一个越界写漏洞，该漏洞可能被用于远程代码执行，但报道明确指出这一点尚未得到演示。该消息本身是一篇简讯，链接到相关公告，未给出受影响的具体版本号或修复版本。",
+  "score": 7,
+  "tags": [
+    "security vulnerabilities",
+    "Node.js",
+    "musl libc",
+    "remote code execution",
+    "vulnerability disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1102044/",
+  "originalSite": "lwn.net",
+  "context": "Brotli 是一种通用压缩算法，Node.js 通过内置模块向程序提供压缩与解压能力，因此解压路径一旦存在内存破坏缺陷，受影响的就是直接处理不可信压缩数据的进程。musl libc 则是与 glibc 并列的一种轻量级 C 标准库，常被嵌入式系统和部分 Linux 发行版采用，其缺陷会随链接该库的程序扩散。两个项目此次都只发布了修复更新与漏洞公告，尚未给出已被实际利用的证据。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+    },
+    {
+      "title": "Node.js Releases Security Updates to Fix High-Severity TLS ...",
+      "url": "https://cybersecuritynews.com/node-js-releases-security-updates/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

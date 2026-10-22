@@ -1,0 +1,32 @@
+{
+  "id": "98428480af472c8228b75403f4e169d1d633f689",
+  "canonicalId": "11e92edf73fbbb01d6eb6c5489810e1d7111241b",
+  "slug": "php-8235-安全更新修复两项未认证-rce-漏洞",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T13:45:00Z",
+  "lang": "zh",
+  "title": "PHP 8.2.35 安全更新修复两项未认证 RCE 漏洞",
+  "summary": "PHP 项目发布 8.5.12、8.4.27、8.3.36 和 8.2.35，修复两个可导致未认证远程代码执行的漏洞 CVE-2026-109618 与 CVE-2026-109619，CVSS 4.0 评分均为 9.2。公告称所有处理 Web 请求的 PHP 部署都受影响，包括 PHP-FPM、Apache mod\\_php、php-cgi、FrankenPHP 和 LiteSpeed，其中 mod\\_php 风险最高，已有未认证请求在应用代码运行前触发攻击的演示。官方只为仍受支持的 8.2 至 8.5 分支提供更新；8.1 及更早版本已停止常规维护，但项目为 7.4、8.0 和 8.1 提供了供回移使用的最小源码补丁，并称 Linux 发行版已提前收到补丁。PHP 基金会表示，两个 CVE 编号及一个错误的 10.0 评分提前外泄，报告方又误发了 PoC 视频，促使发布提前并加速了利用代码传播。",
+  "score": 9,
+  "tags": [
+    "PHP",
+    "security",
+    "RCE",
+    "coordinated disclosure",
+    "AI security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "tuyuri",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50180873"
+    }
+  ],
+  "originalUrl": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+  "originalSite": "github.com",
+  "context": "PHP 官方只为仍在维护的分支提供常规安全更新，当前对应 8.2、8.3、8.4 和 8.5；8.1 及更早版本已停止维护，因此这次只能为 7.4、8.0、8.1 提供用于回移的最小源码补丁。据 PHP 基金会说明，修复从 8 月报告到 10 月发布耗时数月，原因是安全团队需以共识方式在几种修复方案间取舍：这些方案要么破坏向后兼容，要么带来新的拒绝服务风险，要么需要协调大量第三方扩展，加之核心开发者人手有限，工作反复停滞，基金会自认这是“结构性失败”。",
+  "discussion": "使用 mod\\_php 的站点应优先升级，因为公告称攻击可在任何应用代码运行前触发；官方强调调整配置只能阻断部分路径，安装完整补丁才是根本解决办法，而 8.1 及更早版本需要自行编译额外源码补丁，或收敛公网访问。\n\n在 Hacker News 讨论中，有用户报告发布后 Docker 镜像未及时可用：8.4.27 标签已出现，但超过两小时后仍缺少 amd64 镜像；另一位有 20 年 PHP 托管经验的用户称从未因 PHP 漏洞预防性下线服务器，但认为此次处理仍有改进空间。另有评论者贴出链接声称存在第二个漏洞，该说法未在给定材料中获得官方确认。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

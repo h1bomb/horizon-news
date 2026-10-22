@@ -1,0 +1,31 @@
+{
+  "id": "c4c23a9c6807abaf5500e99ac45cdecd7702af3f",
+  "canonicalId": "b4b1f48ec5f3699b08109cbc25ce6c704ccbd3a0",
+  "slug": "amd-fsr-41-扩展至-rx-6000-与-xboxvulkan-支持待落地",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T04:40:00Z",
+  "lang": "zh",
+  "title": "AMD FSR 4.1 扩展至 RX 6000 与 Xbox，Vulkan 支持待落地",
+  "summary": "AMD 随 Adrenalin 26.10.1 驱动发布 FSR Upscaling 4.1，将支持范围扩展至 RX 6000 系列显卡、Ryzen AI Max 处理器、Ryzen AI 9 笔记本和 Z2 Extreme 等掌机；Xbox Series X\\|S 被列为“即将支持”。AMD 称其画质较 FSR 3.1 明显提升，并计划增加 Vulkan API 支持，但 Xbox 和 Vulkan 支持尚未作为已上线能力提供。FSR 4 于 2025 年首发时仅支持 RX 9000 系列，2026 年 7 月才扩展至 RX 7000 系列。",
+  "score": 7,
+  "tags": [
+    "AMD FSR",
+    "GPU upscaling",
+    "RX 6000",
+    "Vulkan",
+    "Xbox"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://newsroom.amd.com/news/amd-fsr-upscaling-4-1-boosts-frames-image-quality/",
+  "originalSite": "newsroom.amd.com",
+  "context": "FSR 是 AMD 的超分辨率放大技术，FSR 4 于 2025 年首发时仅支持 RX 9000 系列显卡，2026 年 7 月才扩展至 RX 7000 系列。此次 4.1 版本继续把支持范围下探到 RX 6000 系列，并首次覆盖 Ryzen AI Max 处理器、Ryzen AI 9 笔记本与 Z2 Extreme 掌机等非独立显卡设备。",
+  "discussion": "RX 6000 系列及所列 Ryzen AI 设备、掌机用户需要更新到 Adrenalin 26.10.1，才能在支持游戏中获得 FSR 4.1；Xbox 与 Vulkan 路径仍取决于后续发布，不能按当前驱动视为已覆盖。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

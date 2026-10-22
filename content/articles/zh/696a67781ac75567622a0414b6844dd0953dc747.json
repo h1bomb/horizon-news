@@ -1,0 +1,37 @@
+{
+  "id": "696a67781ac75567622a0414b6844dd0953dc747",
+  "canonicalId": "764a23f0c296d60d725440ef791fd9dcafe9c5e9",
+  "slug": "duckdb-200-lts-发布多核扩展客户端-服务器与触发器",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-21T14:01:00Z",
+  "lang": "zh",
+  "title": "DuckDB 2.0.0 LTS 发布：多核扩展、客户端-服务器与触发器",
+  "summary": "DuckDB 2.0.0 LTS（代号“Cinnamon Teal”）已发布。发布信息称，该版本带来多核性能提升、客户端-服务器使用方式和触发器能力。社区用户 RobinL 报告，在 EC2 高核心数实例上，2.0 不仅从 S3 读取更快，计算也更快；CPU 利用率可接近 100%，直到约 128–192 vCPU，而此前扩展性大约在 64 vCPU 见顶。这些是用户实测经验，不是官方基准；另有用户指出，可通过 Postgres 线协议或 Arrow Flight 接入现有工具，但 DuckDB 自有的 Quack 协议客户端支持仍然有限。",
+  "score": 9,
+  "tags": [
+    "DuckDB",
+    "databases",
+    "analytics",
+    "open source",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nnx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50181136"
+    }
+  ],
+  "originalUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+  "originalSite": "duckdb.org",
+  "context": "",
+  "discussion": "对于在云上运行大规模分析的组织，2.0 的扩展上限提高到约 128–192 vCPU，容量规划可据此减少节点数；但超过约 192 vCPU 仍难获得额外加速，超大工作负载仍需横向拆分。\n\nRobinL 报告称，2.0 在高核心数 EC2 上的计算和 S3 读取都更快，约 128–192 vCPU 内 CPU 利用率可接近 100%，超过 192 vCPU 通常不再加速。nicoritschel 称曾在生产环境运行 alpha 版本，并通过自建扩展使用 Postgres 线协议或 Arrow Flight，指出 Quack 协议客户端支持仍很有限；另有评论认为，客户端-服务器架构和触发器会推动 DuckDB 替代部分现有数据栈。",
+  "references": [
+    {
+      "title": "2026-05-13 — DuckDB Unveils Quack Protocol for Client-Server Mode",
+      "url": "https://duckdb.org/2026/05/12/quack-remote-protocol"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
