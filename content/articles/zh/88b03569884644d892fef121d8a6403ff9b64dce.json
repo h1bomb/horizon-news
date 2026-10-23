@@ -1,0 +1,49 @@
+{
+  "id": "88b03569884644d892fef121d8a6403ff9b64dce",
+  "canonicalId": "49bb51281ca6ef207fa3f3e3ea667e00f978aed1",
+  "slug": "switch-2-越狱与-llm-代理自动化漏洞研究",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T08:01:00Z",
+  "lang": "zh",
+  "title": "Switch 2 越狱与 LLM 代理自动化漏洞研究",
+  "summary": "一篇 10 月 22 日发布的博客文章公开描述了针对 Nintendo Switch 2 的越狱，并介绍了为自动化漏洞研究搭建的硬件与 LLM 代理环境。文章称使用 JetKVM 通过 USB 向主机发送手柄输入、通过 HDMI 获取视频输出，让 Codex 参与研究流程，并在主机崩溃时用蓝牙开关装置按压电源键重启。材料未提供原文内容，也未给出所利用漏洞、适用固件版本或独立复现结果，因此这些说法目前只能视为博客作者的自述。",
+  "score": 8,
+  "tags": [
+    "console hacking",
+    "security research",
+    "LLM agents",
+    "hardware automation",
+    "Nintendo Switch 2"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ledoge",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50192536"
+    }
+  ],
+  "originalUrl": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+  "originalSite": "pepsipu.com",
+  "context": "据 GBAtemp 和 Notebookcheck 报道，此次披露的 ns2jb 是一个纯软件的用户态（userland）漏洞利用，据称可在最新的 23.0.1 固件上运行，能够加载自制程序和游戏模组，但属于需要重新触发的「有线」（tethered）利用，重启后并非永久有效。用户态意味着代码运行在游戏应用所在的权限层，而不是 bootrom 或内核层，因此这类利用在持久性和可修补性上与硬件漏洞不同。此前 8 月的日报曾报道，任天堂在同一天向 GitHub 提交 7 份 DMCA 通知，下架了 400 多个 Switch 模拟器仓库（仅针对 suyu 的就有 311 个），显示其对该生态的法律执行力度。",
+  "discussion": "评论者 hturan 认为，若博客所述可解密并以读写方式挂载 \\`fs\\` 属实，Switch 2 游戏转储可能很快出现，并可能通过 recomp/decomp 在非原生硬件上运行；这是有条件的推测，而非已证实的结果。另一名评论者 rootsudo 则报告了相反的使用体验，称 Codex 在调查旧 Android ROM 的 CVE 时拒绝配合，但在 Microsoft 漏洞赏金相关任务中可以使用，引发了对这类代理安全研究限制的讨论。",
+  "references": [
+    {
+      "title": "2026-08-23 — 任天堂单日下架 400 余个 Switch 模拟器仓库，suyu 占 311 个",
+      "url": "https://torrentfreak.com/nintendo-wipes-out-400-switch-emulator-repos-in-single-day-github-sweep/"
+    },
+    {
+      "title": "Switch 2 jailbreak &quot;ns2jb&quot; released. Software-only exploit ...",
+      "url": "https://gbatemp.net/news/switch-2-jailbreak-ns2jb-released-software-only-exploit-tethered.685698/"
+    },
+    {
+      "title": "The Nintendo Switch 2 has reportedly been jailbroken through ...",
+      "url": "https://www.notebookcheck.net/The-Nintendo-Switch-2-has-reportedly-been-jailbroken-through-a-software-only-exploit.1431060.0.html"
+    },
+    {
+      "title": "The Nintendo Switch 2 Has Been Hacked, As First Jailbreak Blows...",
+      "url": "https://wccftech.com/nintendo-switch-2-hacked-jailbreak/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,278 @@
 {
   "articles": [
     {
+      "id": "168e5861b24fd6d3f143fbc57c66d11f6ac98fbb",
+      "canonicalId": "c857d00b04e61c1b9d3b351f90d7d33670dcc71c",
+      "slug": "emudhra-宣布退出全球-ssltls-证书业务",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "eMudhra 宣布退出全球 SSL/TLS 证书业务",
+      "score": 8,
+      "tags": [
+        "SSL/TLS",
+        "certificate authorities",
+        "PKI security",
+        "browser trust stores",
+        "security incidents"
+      ],
+      "originalSite": "emudhra.com"
+    },
+    {
+      "id": "88b03569884644d892fef121d8a6403ff9b64dce",
+      "canonicalId": "49bb51281ca6ef207fa3f3e3ea667e00f978aed1",
+      "slug": "switch-2-越狱与-llm-代理自动化漏洞研究",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "Switch 2 越狱与 LLM 代理自动化漏洞研究",
+      "score": 8,
+      "tags": [
+        "console hacking",
+        "security research",
+        "LLM agents",
+        "hardware automation",
+        "Nintendo Switch 2"
+      ],
+      "originalSite": "pepsipu.com"
+    },
+    {
+      "id": "7802da89526d2ffafa998d86632098164bf4d718",
+      "canonicalId": "d2f362921d4537c89286ab65d5a381f12f0dcb03",
+      "slug": "quad9-因-dns-封锁争议拟退出法国",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "Quad9 因 DNS 封锁争议拟退出法国",
+      "score": 8,
+      "tags": [
+        "DNS",
+        "internet infrastructure",
+        "geo-blocking",
+        "legal policy",
+        "Quad9"
+      ],
+      "originalSite": "quad9.net"
+    },
+    {
+      "id": "7fc7db80e3c29782e5918620ee1e642ce342047f",
+      "canonicalId": "84d93a6b8ab7a4b067da1fd3c6b76c80f5a9cacd",
+      "slug": "澳法院令苹果-2027-年开放第三方应用商店",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "澳法院令苹果 2027 年开放第三方应用商店",
+      "score": 8,
+      "tags": [
+        "Apple",
+        "antitrust",
+        "app stores",
+        "Australia",
+        "Epic Games"
+      ],
+      "originalSite": "9to5mac.com"
+    },
+    {
+      "id": "0e77ff3fe1b965931e4dedb71c0e9012324025b6",
+      "canonicalId": "4dcdb955782720745c63884f1e5a19f3e6e44932",
+      "slug": "openshell面向自主-ai-代理集群的受控运行时",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "OpenShell：面向自主 AI 代理集群的受控运行时",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "agent security",
+        "sandboxed runtime",
+        "container isolation",
+        "NVIDIA"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "a6f1ce8787b963dcfe6740ed74a900fe0f7cdc5d",
+      "canonicalId": "81e96efb7f3eb63ba9b0236e331e5ba93b82c22e",
+      "slug": "earstrip-三角剖分-370-万地图多边形耗时-489-毫秒",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "Earstrip 三角剖分 370 万地图多边形耗时 489 毫秒",
+      "score": 7,
+      "tags": [
+        "computational-geometry",
+        "triangulation",
+        "performance-optimization",
+        "webassembly",
+        "gis"
+      ],
+      "originalSite": "globus.software"
+    },
+    {
+      "id": "ce784891bceb68c8ded9b028dd89449c94b48588",
+      "canonicalId": "a816b657efa82b583f97f23ccbf913e3a7f6d913",
+      "slug": "getting-ready-to-operate-gnu-taler-in-germany",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "Getting ready to operate GNU Taler in Germany",
+      "score": 7,
+      "tags": [
+        "GNU Taler",
+        "digital payments",
+        "privacy",
+        "open source",
+        "Germany"
+      ],
+      "originalSite": "taler.net"
+    },
+    {
+      "id": "58aa3fa5bde294c895fa3f91ddcb349a8156b384",
+      "canonicalId": "340d69bec7861ecaa20682f17bb6d03674276ef1",
+      "slug": "github-项目声称在-android-与-qemu-上运行-ios-165",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "GitHub 项目声称在 Android 与 QEMU 上运行 iOS 16.5",
+      "score": 7,
+      "tags": [
+        "iOS",
+        "Android",
+        "XNU",
+        "QEMU",
+        "systems hacking"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "2b33863c832e2466db3402c113b40ab3c989adc4",
+      "canonicalId": "f29afd1567254e522e6c18a4627730e71ee39ae7",
+      "slug": "anthropic-将-agent-skills-标准捐赠给-agentic-ai-foundation",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "Anthropic 将 Agent Skills 标准捐赠给 Agentic AI Foundation",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "open standards",
+        "Anthropic",
+        "Linux Foundation",
+        "Model Context Protocol"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "6d436babc83d04c2bbd259686319b2f46ba5398f",
+      "canonicalId": "1ae6e5747c76d07e41e3291ea968efb73695a180",
+      "slug": "keepassxc-280-发布迁移-qt6-并支持-wayland-自动输入",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "KeePassXC 2.8.0 发布，迁移 Qt6 并支持 Wayland 自动输入",
+      "score": 7,
+      "tags": [
+        "open source",
+        "password management",
+        "security",
+        "Linux",
+        "software release"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "c95bfb6f3676f9eaa0c58b4e9d4abb088c136bac",
+      "canonicalId": "45779fe8f11c71dbcbc731c6f0e655d9626bd53a",
+      "slug": "研究部分智能电视关闭-acr-后仍上传观看数据",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "研究：部分智能电视关闭 ACR 后仍上传观看数据",
+      "score": 7,
+      "tags": [
+        "智能电视",
+        "ACR",
+        "隐私安全",
+        "IoT",
+        "明文传输"
+      ],
+      "originalSite": "watchingthewatchers.github.io"
+    },
+    {
+      "id": "ea8a30ab8cca70ede14614cf36cff2e2fe78ee9f",
+      "canonicalId": "a9a5015e53821a351b8a78fd3cbd753239c06d1f",
+      "slug": "米哈游与清华开源-gamescaling-键鼠操作模型",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "米哈游与清华开源 GameScaling 键鼠操作模型",
+      "score": 7,
+      "tags": [
+        "game AI",
+        "vision-language models",
+        "open source",
+        "model scaling",
+        "keyboard-mouse control"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "0bb036d2c9519bc76561587daceb7d8a27ad150e",
+      "canonicalId": "621250faf996ff4b43cb3fff87ab4ba7a9b3e366",
+      "slug": "333-个-tor-出口节点因-ebury-后门被下线",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "333 个 Tor 出口节点因 Ebury 后门被下线",
+      "score": 7,
+      "tags": [
+        "Tor",
+        "网络安全",
+        "Ebury后门",
+        "SSH凭据窃取",
+        "出口节点"
+      ],
+      "originalSite": "kaba.cx"
+    },
+    {
+      "id": "ab5573a74d3d1bc3772331526fb55c780bebcc69",
+      "canonicalId": "d08cae0a993282161828166eb5e5bfa7f1f53e31",
+      "slug": "报告称中国国资融资购入禁运的英伟达-b300-服务器",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "报告称中国国资融资购入禁运的英伟达 B300 服务器",
+      "score": 7,
+      "tags": [
+        "Nvidia B300",
+        "export controls",
+        "AI hardware",
+        "China",
+        "semiconductor supply chain"
+      ],
+      "originalSite": "theinference.org"
+    },
+    {
+      "id": "81bbead5b67cbffcc4c972441fea91acb4163d75",
+      "canonicalId": "78be2fcdc5232780c9fd337385b06bf3854b7447",
+      "slug": "软件慢在设计而非慢语言",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "软件慢在设计，而非慢语言",
+      "score": 6,
+      "tags": [
+        "performance-optimization",
+        "software-design",
+        "amdahls-law",
+        "profiling",
+        "io-bound"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "5ce13115e2a14ed16c3d6b79f50298c3c5f1955b",
+      "canonicalId": "50b4ed3837a418af3bbbaf4b1042b9c8a14d2ee8",
+      "slug": "沪深-300-较-6-月高点回落-20a-股逼近熊市",
+      "date": "2026-10-23",
+      "lang": "zh",
+      "title": "沪深 300 较 6 月高点回落 20%，A 股逼近熊市",
+      "score": 8,
+      "tags": [
+        "China A-shares",
+        "CSI 300",
+        "bear market",
+        "Hang Seng Tech",
+        "CATL earnings"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
       "id": "696a67781ac75567622a0414b6844dd0953dc747",
       "canonicalId": "764a23f0c296d60d725440ef791fd9dcafe9c5e9",
       "slug": "duckdb-200-lts-发布多核扩展客户端-服务器与触发器",
@@ -5176,278 +5448,6 @@
         "金融稳定"
       ],
       "originalSite": "reuters.com"
-    },
-    {
-      "id": "987fd1a370bb13c0a1c8a8ca863f2d6d62de3209",
-      "canonicalId": "3d48e529ad7a20b189a9c01e1c4d34221cb0505e",
-      "slug": "openai-发布-gpt-6-sol-与-luna",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "OpenAI 发布 GPT-6 Sol 与 Luna",
-      "score": 9,
-      "tags": [
-        "OpenAI",
-        "GPT-6",
-        "large language models",
-        "AI model release",
-        "developer workflows"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "aac1f6966e4bddef100fe32b3706b6c9b05e5b66",
-      "canonicalId": "4a34b417a07923550b623517ede555b1843229f8",
-      "slug": "claude-opus-55-与-gpt-6-solluna-同日发布价格战升温",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 同日发布，价格战升温",
-      "score": 9,
-      "tags": [
-        "large language models",
-        "OpenAI",
-        "Anthropic",
-        "AI pricing",
-        "model releases"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "b815cf17f5f92b7c41c18f3a51bede1f0136aa31",
-      "canonicalId": "49c023466b3cd598707302e0fa9563b1a016eaac",
-      "slug": "vllm-v0300-发布新增多款模型支持与启动缓存优化",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "vLLM v0.30.0 发布：新增多款模型支持与启动缓存优化",
-      "score": 8,
-      "tags": [
-        "vLLM",
-        "LLM inference",
-        "open source",
-        "model support",
-        "GPU optimization"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "d8a94d77298c3ddc85bd5fda46613f54b0c21bba",
-      "canonicalId": "0c90c73c08cf283551a15d6fbe9450700fca3b21",
-      "slug": "anthropic-发布-claude-opus-55token-价格下调约-20",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "Anthropic 发布 Claude Opus 5.5，token 价格下调约 20%",
-      "score": 8,
-      "tags": [
-        "LLMs",
-        "Anthropic",
-        "model release",
-        "AI pricing",
-        "AI industry"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "3e9a15a3289b8969eaf170e904bd288b133b5a03",
-      "canonicalId": "245d063e08eba24c3e01699478b6806f4355a345",
-      "slug": "五角大楼报告过度依赖-ai-致伊朗学校遭导弹袭击",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "五角大楼报告：过度依赖 AI 致伊朗学校遭导弹袭击",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "military AI",
-        "human accountability",
-        "AI limitations",
-        "defense technology"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "21ac3d8c1fb007791923d6d23db79c6de36c305b",
-      "canonicalId": "bf2ea8abc504ecbb8e01c33f450a0872e2fda822",
-      "slug": "cloudflare-python-workers-正式-ga成为平台一级语言",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "Cloudflare Python Workers 正式 GA，成为平台一级语言",
-      "score": 8,
-      "tags": [
-        "Cloudflare Workers",
-        "Python",
-        "serverless",
-        "edge computing",
-        "LangChain"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "5c3d145217e9eb7cf9e8754d2b907873d0c60bf6",
-      "canonicalId": "4e69396feb63bee283a81c8cd44b7f22ce5ed32b",
-      "slug": "shinyhunters-声称获取-fbi-全体员工数据",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "ShinyHunters 声称获取 FBI 全体员工数据",
-      "score": 7,
-      "tags": [
-        "cybersecurity",
-        "data breach",
-        "FBI",
-        "ShinyHunters",
-        "privacy"
-      ],
-      "originalSite": "404media.co"
-    },
-    {
-      "id": "faced57d8abe294e1d3545d22361ef7dcf372270",
-      "canonicalId": "cdb477377ba300062c26aa1b9c595544eac3e6cd",
-      "slug": "claude-opus-55-max-推理档基准页成本减半与评测稳定性讨论",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "Claude Opus 5.5 max 推理档基准页：成本减半与评测稳定性讨论",
-      "score": 7,
-      "tags": [
-        "LLM benchmarking",
-        "Anthropic Claude",
-        "AI model pricing",
-        "reasoning models",
-        "Hacker News discussion"
-      ],
-      "originalSite": "artificialanalysis.ai"
-    },
-    {
-      "id": "e5e20b8da34359281e6423aee0dbf8d4497e0b6d",
-      "canonicalId": "66deb2c0d67784e8e06bd10cab52c7ff9c256b2e",
-      "slug": "gzip-能否充当语言模型hn-讨论压缩与预测",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "gzip 能否充当语言模型？HN 讨论压缩与预测",
-      "score": 7,
-      "tags": [
-        "gzip",
-        "compression",
-        "language-models",
-        "information-theory",
-        "machine-learning"
-      ],
-      "originalSite": "nathan.rs"
-    },
-    {
-      "id": "7085d46d947610eeaa836ce1b0a06a243fae46ee",
-      "canonicalId": "3894b4a8e426acceb3d9d8b5348b94dd7ab34e2f",
-      "slug": "gccrs-推进-linux-内核编译但仍不可用",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "gccrs 推进 Linux 内核编译，但仍不可用",
-      "score": 7,
-      "tags": [
-        "gccrs",
-        "Rust",
-        "GCC",
-        "Linux kernel",
-        "compilers"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "79ba9a3cba4f185c5e4b2817bec2f3bb707840af",
-      "canonicalId": "60d6567d7f21d99b61d74ed2f77901eba89698f5",
-      "slug": "openai-设立数学与-ai-顾问组称模型解决百余未决问题",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "OpenAI 设立数学与 AI 顾问组，称模型解决百余未决问题",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "AI mathematics",
-        "research governance",
-        "AI research",
-        "TechCrunch"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "9d2864804011d6e9fc2087c48bf280ee29869aff",
-      "canonicalId": "e67dfc736323ddbfc70348964fc63f06534f9b38",
-      "slug": "阿里发布真武-v900-ai-芯片宣称算力为-m890-三倍",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "阿里发布真武 V900 AI 芯片，宣称算力为 M890 三倍",
-      "score": 7,
-      "tags": [
-        "AI chips",
-        "Alibaba",
-        "cloud infrastructure",
-        "large language models",
-        "hardware"
-      ],
-      "originalSite": "finance.sina.com.cn"
-    },
-    {
-      "id": "b2a6a3a349feab57970ff4119d72bb8831239874",
-      "canonicalId": "b31e10574f45c2ceca2d65f805a0cd3ff8b22600",
-      "slug": "deepseek-据报本周向联合国安理会通报-ai-风险",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "DeepSeek 据报本周向联合国安理会通报 AI 风险",
-      "score": 7,
-      "tags": [
-        "AI governance",
-        "policy &amp; regulation",
-        "DeepSeek",
-        "UN Security Council",
-        "industry news"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "c676d23d15af4fd841702eaac33678bda1a01be1",
-      "canonicalId": "1513f8fdbad12de76d2a7397aa929ddb788e43e1",
-      "slug": "openai-拟让外部机构更早介入模型安全评估",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "OpenAI 拟让外部机构更早介入模型安全评估",
-      "score": 7,
-      "tags": [
-        "AI safety",
-        "OpenAI",
-        "model evaluation",
-        "AI governance",
-        "third-party audit"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "bdb3457b0b154c7f9777bf8b9d11fbf7bb7fedc7",
-      "canonicalId": "0f424fc95f66615debcc210edbd1eefbf834832e",
-      "slug": "openai-gpt-live-全双工语音架构解析",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "OpenAI GPT-Live 全双工语音架构解析",
-      "score": 8,
-      "tags": [
-        "Realtime Voice AI",
-        "Full-Duplex Architecture",
-        "Latency Engineering",
-        "System Design",
-        "Model Evaluation"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "8aed0b895844920be4aeb873dec40cea98c25498",
-      "canonicalId": "4877741994c965930e19cdba57671aba1345cb52",
-      "slug": "用-rosidlbuffer-消除-ros-2-节点边界的-gpu-主机拷贝",
-      "date": "2026-09-23",
-      "lang": "zh",
-      "title": "用 rosidl::Buffer 消除 ROS 2 节点边界的 GPU 主机拷贝",
-      "score": 6,
-      "tags": [
-        "ROS 2",
-        "CUDA",
-        "zero-copy transport",
-        "robotics",
-        "NVIDIA Isaac ROS"
-      ],
-      "originalSite": "developer.nvidia.com"
     }
   ]
 }

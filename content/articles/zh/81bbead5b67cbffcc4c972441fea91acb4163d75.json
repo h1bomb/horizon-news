@@ -1,0 +1,31 @@
+{
+  "id": "81bbead5b67cbffcc4c972441fea91acb4163d75",
+  "canonicalId": "78be2fcdc5232780c9fd337385b06bf3854b7447",
+  "slug": "软件慢在设计而非慢语言",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-23T00:00:00Z",
+  "lang": "zh",
+  "title": "软件慢在设计，而非慢语言",
+  "summary": "rss · Sean Goedecke · 10月23日 00:00\n\n**「背景」** 近来不少人期待让 AI 把软件重写成 C 或 Rust 来大幅提速。Sean Goedecke 认为这条路通常走不通：C 也许比 Python 快五十倍，但重写并不会带来五十倍加速。\n\n**「方案」** 他的核心论据是，真实程序多为 I/O 密集型——一次 CRUD 请求可能有约一半时间花在数据库查询上，重写只能作用于剩余部分（即 Amdahl 定律），实际大概只有 1.5 倍提升。即便是明显的 CPU 密集工作，慢语言也往往已通过 cmark-gfm、NumPy 与 GPU 这类库把计算交给高度优化的 C 或汇编；tiktoken 的汇编重写虽在作者笔记本上约快 5 倍，但作者认为这更多来自去掉正则依赖的重设计，且分词只占推理时间的一小部分。Bryan Cantrill 曾试图把一段精心优化的 C 程序直译为 Rust，因借用检查器受阻后改用朴素写法，结果反而快 30%，原因是 Rust 默认的 B 树比二叉搜索树更缓存友好——即便在 CPU 密集场景，设计也压过语言。作者自己经历的显著提速几乎都来自让程序少做工作：缓存慢调用、把慢操作异步化或移出请求周期、并行化、合并 N+1 查询、换掉慢 SQL、跳过不必要的取数；而高级语言反而更容易一眼看出这些机会。\n\n**「启示」** 因此，语言重写并不是严肃的优化手段；更有效的做法是让 AI 去剖析性能热点并重设计程序，只有在罕见的、无法再减少工作量的 CPU 热点上，才值得局部改写。\n\n**标签**: `#performance-optimization`, `#software-design`, `#amdahls-law`, `#profiling`, `#io-bound`",
+  "score": 6,
+  "tags": [
+    "performance-optimization",
+    "software-design",
+    "amdahls-law",
+    "profiling",
+    "io-bound"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
+  "originalSite": "seangoedecke.com",
+  "context": "近来不少人期待让 AI 把软件重写成 C 或 Rust 来大幅提速。Sean Goedecke 认为这条路通常走不通：C 也许比 Python 快五十倍，但重写并不会带来五十倍加速。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

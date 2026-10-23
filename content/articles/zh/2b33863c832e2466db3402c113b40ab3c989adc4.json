@@ -1,0 +1,31 @@
+{
+  "id": "2b33863c832e2466db3402c113b40ab3c989adc4",
+  "canonicalId": "f29afd1567254e522e6c18a4627730e71ee39ae7",
+  "slug": "anthropic-将-agent-skills-标准捐赠给-agentic-ai-foundation",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T18:09:00Z",
+  "lang": "zh",
+  "title": "Anthropic 将 Agent Skills 标准捐赠给 Agentic AI Foundation",
+  "summary": "Anthropic 宣布把 Agent Skills 标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation（AAIF），目标是让这一智能体互操作标准保持开放、由社区驱动并保持厂商中立。该基金会由 Anthropic 去年与 Block、OpenAI 共同创立，Anthropic 此前已把 Model Context Protocol（MCP）捐赠给它。Simon Willison 指出，他在 2025 年 12 月 Anthropic 首次称 Agent Skills 为“开放标准”时就预料到会如此。此次公告未说明移交的时间表、具体治理规则或技术变更。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "open standards",
+    "Anthropic",
+    "Linux Foundation",
+    "Model Context Protocol"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "对实现或依赖 Agent Skills 的开发者来说，标准演进的控制权从单一厂商转交给一个多方基金会的治理流程，因此后续的规范制定和兼容性决策将不再由 Anthropic 单方面制定；但公告未给出过渡安排，现阶段无法判断现有实现的兼容性是否会受影响。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

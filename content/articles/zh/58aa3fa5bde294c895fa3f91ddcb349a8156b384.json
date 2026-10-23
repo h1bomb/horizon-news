@@ -1,0 +1,41 @@
+{
+  "id": "58aa3fa5bde294c895fa3f91ddcb349a8156b384",
+  "canonicalId": "340d69bec7861ecaa20682f17bb6d03674276ef1",
+  "slug": "github-项目声称在-android-与-qemu-上运行-ios-165",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T15:26:00Z",
+  "lang": "zh",
+  "title": "GitHub 项目声称在 Android 与 QEMU 上运行 iOS 16.5",
+  "summary": "一个名为 hackios-xnu-kernel 的 GitHub 项目声称可在 Android 设备与 QEMU 上运行完整 iOS 16.5 固件/XNU 内核；提交者在 Hacker News 称，它已在 QEMU、POCO X5 Pro 5G 及部分小米设备上工作。现有材料中未见独立验证或详细技术说明，且有评论者称该项目是“研究台而非 ROM”：每次会话仅持续设定的秒数，随后内核返回加载器并交出日志。因此这更像是受控环境中的实验演示，而不是可供日常使用的 iOS 移植。",
+  "score": 7,
+  "tags": [
+    "iOS",
+    "Android",
+    "XNU",
+    "QEMU",
+    "systems hacking"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "aghuang",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50196718"
+    }
+  ],
+  "originalUrl": "https://github.com/oosexgang/hackios-xnu-kernel",
+  "originalSite": "github.com",
+  "context": "XNU 是 iOS 的底层内核，要把它和 iOS 用户空间搬到 Android 硬件上，需要自行补齐引导链、内核补丁和设备驱动，而不是安装一个普通 ROM。Horizon 10 月 20 日的日报曾记录过同一方向的尝试：将 XNU 移植到红米 Note 10 Pro 并启动未修改的 iPhone X 版 iOS 16.7.16 用户空间；当时触摸和实体按键可用、画面由 CPU 渲染，但 GPU、Wi-Fi 和相机仍不可用，属于早期概念验证。当前仓库列出了 XNU 补丁、EFI 加载器、UEFI 移植、Wi-Fi、QEMU 脚本及预编译的 kernel/loader/UEFI，表明它同样是一套面向引导与硬件适配的研究工具链。",
+  "discussion": "按现有描述，这套方案不是可刷入并日常使用的 ROM，普通用户无法依赖它获得完整的 iOS 应用与手机功能兼容性。开发者的关注点更可能集中在受控会话中的启动流程、内核日志以及 QEMU 复现实验。\n\n评论区的关键区别在于它究竟算不算“运行 iOS”：提交者强调 QEMU 与多款小米设备上的启动效果，而有评论者强调它只是限时返回日志的研究台，并非可用的 ROM。另有人提醒，这类演示可能让二手市场上的仿冒 iPhone 更难辨认。",
+  "references": [
+    {
+      "title": "GitHub - oosexgang/ hackios - xnu - kernel · GitHub",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel"
+    },
+    {
+      "title": "2026-10-20 — XNU 内核移植红米 Note 10 Pro，启动 iOS 16.7.16",
+      "url": "https://www.reddit.com/r/hackintosh/comments/1x95qq0/ios_16716_booting_on_a_snapdragon_732g_redmi_note/?sort=new"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

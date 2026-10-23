@@ -1,0 +1,45 @@
+{
+  "id": "168e5861b24fd6d3f143fbc57c66d11f6ac98fbb",
+  "canonicalId": "c857d00b04e61c1b9d3b351f90d7d33670dcc71c",
+  "slug": "emudhra-宣布退出全球-ssltls-证书业务",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T13:33:00Z",
+  "lang": "zh",
+  "title": "eMudhra 宣布退出全球 SSL/TLS 证书业务",
+  "summary": "eMudhra 宣布将退出全球 SSL/TLS 证书业务，这一决定出现在该公司因一起事件受到审查之际。公司称，围绕该事件的社交媒体放大带来了与其 SSL/TLS 业务占比不相称的审查，并强调其全球 SSL/TLS 基础设施与其他业务隔离运行。公司还表示，受影响 CA 未签发终端实体证书。",
+  "score": 8,
+  "tags": [
+    "SSL/TLS",
+    "certificate authorities",
+    "PKI security",
+    "browser trust stores",
+    "security incidents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bo0tzz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50195110"
+    }
+  ],
+  "originalUrl": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+  "originalSite": "emudhra.com",
+  "context": "",
+  "discussion": "对依赖 eMudhra 全球 TLS 证书的网站运营方来说，直接后果是需要另选 CA、重签证书并更新信任链；同时应核对现有证书的有效期，以及浏览器和操作系统对其根证书的信任状态。\n\n评论者批评 eMudhra 以“社交媒体放大”解释外界审查，却没有说明事件是人为错误还是流程错误；也有人质疑“受影响 CA 未签发终端实体证书”的说法，称任何人都可以从受影响的 CA 签发证书。另有评论指向 Chrome 团队在 Mozilla Bugzilla 上对该公司的公开质询。",
+  "references": [
+    {
+      "title": "2026-10-21 — eMudhra 中间 CA 私钥被指仅一字节",
+      "url": "https://emudhra.we-have-a-problem.com/"
+    },
+    {
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate ...",
+      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
+    },
+    {
+      "title": "eMudhra to Exit global SSL/TLS Certificate Business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

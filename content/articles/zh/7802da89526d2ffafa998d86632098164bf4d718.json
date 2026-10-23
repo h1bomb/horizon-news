@@ -1,0 +1,37 @@
+{
+  "id": "7802da89526d2ffafa998d86632098164bf4d718",
+  "canonicalId": "d2f362921d4537c89286ab65d5a381f12f0dcb03",
+  "slug": "quad9-因-dns-封锁争议拟退出法国",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T14:32:00Z",
+  "lang": "zh",
+  "title": "Quad9 因 DNS 封锁争议拟退出法国",
+  "summary": "Quad9 计划退出法国，此前该国法院围绕 DNS 封锁产生纠纷，并对其处以藐视法庭罚款。Quad9 首席技术官（CTO）在评论中表示，公司很可能在 11 月 24 日之后用 geoIP 过滤阻止法国用户访问其服务，并承认这与「geoIP 无法按域名选择性封锁」的立场存在冲突。评论中引述的案情称，Sony Music 曾通过 VPN 从德国访问被封锁内容，法院据此认定 Quad9 未遵守命令。",
+  "score": 8,
+  "tags": [
+    "DNS",
+    "internet infrastructure",
+    "geo-blocking",
+    "legal policy",
+    "Quad9"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "farrokhi",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50195959"
+    }
+  ],
+  "originalUrl": "https://quad9.net/news/blog/au-revoir-france/",
+  "originalSite": "quad9.net",
+  "context": "10 月 6 日的 Horizon 日报曾报道，Quad9 拒绝执行法国法院针对盗版体育直播的域名封锁令；beIN Sports 请求按每个域名每日 1 万欧元、共 58 个域名处罚，合计最高每日 58 万欧元，当时裁决尚未作出。Quad9 当时表示，由于不收集用户数据，它无法按国家精确执行针对特定域名的封锁，只能在全球封锁与退出法国市场之间选择。",
+  "discussion": "若该计划执行，法国用户届时将无法通过 Quad9 解析域名，需要改用其他公共 DNS；对解析器运营者而言，在法国提供服务可能因未执行域名封锁而面临法律处罚。\n\n评论中，有人把处罚 DNS 解析器比作因电话簿收录罪犯号码而惩罚电话簿公司，质疑让解析器承担封锁责任是否合理；另有人指出 Sony 用 VPN 绕过 geoIP 后 Quad9 仍被罚，认为这暴露了 geoIP 封锁的局限。也有评论主张，Quad9 应停止解析起诉方相关的域名作为回应。",
+  "references": [
+    {
+      "title": "2026-10-06 — Quad9 拒绝法国 DNS 封锁令，或面临每日 58 万欧元罚款",
+      "url": "https://torrentfreak.com/dns-resolver-quad9-rejects-french-piracy-blocks-weighs-exit-as-bein-seeks-up-to-e580k-a-day/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

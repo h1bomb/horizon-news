@@ -1,0 +1,36 @@
+{
+  "id": "c95bfb6f3676f9eaa0c58b4e9d4abb088c136bac",
+  "canonicalId": "45779fe8f11c71dbcbc731c6f0e655d9626bd53a",
+  "slug": "研究部分智能电视关闭-acr-后仍上传观看数据",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T09:50:00Z",
+  "lang": "zh",
+  "title": "研究：部分智能电视关闭 ACR 后仍上传观看数据",
+  "summary": "Watching the Watchers 的一项实测研究对 10 家厂商的 12 台美国智能电视进行了 5,943 次受控实验，发现部分机型在用户关闭自动内容识别（ACR）后仍会发送与观看内容相关的流量。研究称，VIDAA OS 的数据通过明文 MQTT 传输，包含不可重置的设备 ID 和音频指纹；Vizio 的 WatchFree+ 则把节目名写入未加密的域名查询，且用户无法关闭。对测试涉及的机型而言，仅关闭 ACR 开关不足以阻止这些观看相关数据外传。",
+  "score": 7,
+  "tags": [
+    "智能电视",
+    "ACR",
+    "隐私安全",
+    "IoT",
+    "明文传输"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://watchingthewatchers.github.io/watchingthewatchers/index.html",
+  "originalSite": "watchingthewatchers.github.io",
+  "context": "ACR（自动内容识别）是智能电视用来判断用户正在观看什么内容的技术：电视会截取屏幕画面或录制音频片段，再将其发送到远程服务器进行匹配。由于这套机制运行在系统层，设置中的“关闭”开关是否真正停止采集和上传，取决于厂商的具体实现，这也正是此类实测研究要验证的问题。",
+  "discussion": "对受影响的 VIDAA 和 Vizio 用户而言，电视设置中的 ACR 开关不能作为停止观看数据外传的保证：前者在关闭后仍发送含不可重置设备 ID 和音频指纹的明文 MQTT 数据，后者把节目名暴露在无法关闭的未加密 DNS 查询中。",
+  "references": [
+    {
+      "title": "Смарт-телевизоры Samsung и Vizio продолжают отправлять...",
+      "url": "https://trashbox.ru/link/2026-10-22-otkaz-ot-slezhki-ne-srabotal-televizory-samsung-i-vizio-prodolzhili-otpravlyat-d"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

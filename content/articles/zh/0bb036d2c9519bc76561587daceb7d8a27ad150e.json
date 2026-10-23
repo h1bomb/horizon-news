@@ -1,0 +1,40 @@
+{
+  "id": "0bb036d2c9519bc76561587daceb7d8a27ad150e",
+  "canonicalId": "621250faf996ff4b43cb3fff87ab4ba7a9b3e366",
+  "slug": "333-个-tor-出口节点因-ebury-后门被下线",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T14:52:00Z",
+  "lang": "zh",
+  "title": "333 个 Tor 出口节点因 Ebury 后门被下线",
+  "summary": "一名 Tor 运营者扫描约 3000 个出口中继后发现，333 个（约 10%）被植入 Ebury 后门，可将 22 端口 SSH 连接劫持至 12 台拦截服务器以窃取凭据。这些节点于 10 月 4 日被标记为 BadExit，次日全部下线。攻击者据称今年 8 月已入侵相关服务器，并屏蔽部分端口以专门收集未加密邮件流量，但入侵途径尚无定论。上述细节来自单一运营者扫描和 Telegram 聚合帖，尚待独立验证。",
+  "score": 7,
+  "tags": [
+    "Tor",
+    "网络安全",
+    "Ebury后门",
+    "SSH凭据窃取",
+    "出口节点"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://kaba.cx/posts/20261020_Tor/",
+  "originalSite": "kaba.cx",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How I got over 300 Tor exit nodes removed - KABA",
+      "url": "https://kaba.cx/posts/20261020_Tor/"
+    },
+    {
+      "title": "Relay Operators | Tor Project | Support",
+      "url": "https://support.torproject.org/relay-operators/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

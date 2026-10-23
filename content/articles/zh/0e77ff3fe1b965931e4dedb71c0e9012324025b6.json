@@ -1,0 +1,41 @@
+{
+  "id": "0e77ff3fe1b965931e4dedb71c0e9012324025b6",
+  "canonicalId": "4dcdb955782720745c63884f1e5a19f3e6e44932",
+  "slug": "openshell面向自主-ai-代理集群的受控运行时",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T17:44:00Z",
+  "lang": "zh",
+  "title": "OpenShell：面向自主 AI 代理集群的受控运行时",
+  "summary": "NVIDIA 在 GitHub 上开源了 OpenShell，一个面向需要批量运行自主 AI 代理的团队的受控运行时。它的目标是在代理读取文件、安装软件包、调用 API 和使用凭据时施加访问控制，而不是让它们无限制地接触数据、密钥和网络。项目将其定位为安全、私密的代理运行环境，但当前公开材料未提供独立技术验证，也未说明具体的隔离强度、支持平台或版本兼容性。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "agent security",
+    "sandboxed runtime",
+    "container isolation",
+    "NVIDIA"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "niemandhier",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50198675"
+    }
+  ],
+  "originalUrl": "https://github.com/NVIDIA/OpenShell",
+  "originalSite": "github.com",
+  "context": "Horizon 2026 年 9 月 29 日日报曾报道，英伟达发布 Open Agent Safety Platform，其中 OpenShell 是运行在 CPU 上、用于限制智能体可执行操作的组件，Sentry 则负责网络层监控；当时报道指出尚无具体版本、开放时间或独立验证结果。此次条目指向 GitHub 上的 OpenShell 仓库，把它作为面向成批自主智能体的独立运行时，提供受控的文件、软件包、API 与凭据访问。",
+  "discussion": "评论者肯定这类运行时的实用价值：mfro 认为代理本就应该跑在容器里，而 OpenShell 提供了管理这些容器的方式；razuba 表示已在用 OpenShell，并在其上增加团队策略、安全 Git 使用和 SCA/SAST 层。另一些评论指出限制仍未被完全解决：fennecbutt 说按域名限制网络和替换凭据仍难以阻止代码库等数据外泄，smallnix 则认为“给足权限又保持安全”存在张力，项目描述容易显得过度承诺。",
+  "references": [
+    {
+      "title": "2026-09-29 — 英伟达发布 Open Agent Safety Platform 智能体安全平台",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
+    },
+    {
+      "title": "Nvidia Launches AI Agents Kill Switch to Monitor, Quarantine, and...",
+      "url": "https://bravenewcoin.com/insights/nvidia-launches-ai-agents-kill-switch-to-monitor-quarantine-and-stop-rogue-ai-systems"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

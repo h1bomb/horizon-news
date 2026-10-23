@@ -1,0 +1,36 @@
+{
+  "id": "ea8a30ab8cca70ede14614cf36cff2e2fe78ee9f",
+  "canonicalId": "a9a5015e53821a351b8a78fd3cbd753239c06d1f",
+  "slug": "米哈游与清华开源-gamescaling-键鼠操作模型",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T11:32:00Z",
+  "lang": "zh",
+  "title": "米哈游与清华开源 GameScaling 键鼠操作模型",
+  "summary": "米哈游崩坏 AI 团队与清华大学等合作者发布并开源 GameScaling：一套基于 Qwen3.5 视觉语言模型继续预训练的游戏键鼠操作模型，参数规模覆盖 0.8B 至 27B，每次预测未来 200 毫秒的键盘和鼠标动作。团队以 Apache-2.0 开放八个检查点和推理客户端，但未包含训练代码。论文称，用 120 组训练配置发现，数据量增加会提升同源游戏表现，数据多样性有助于迁移到相近游戏，但对差异较大的游戏提升有限。",
+  "score": 7,
+  "tags": [
+    "game AI",
+    "vision-language models",
+    "open source",
+    "model scaling",
+    "keyboard-mouse control"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2610.28698v1",
+  "originalSite": "arxiv.org",
+  "context": "视觉语言模型原本以图像加文本为输入、以文本为输出，要让这类模型直接操作游戏，就需要额外训练，把屏幕画面映射为键盘和鼠标动作。GameScaling 的做法是在 Qwen3.5 上做继续预训练，让模型每次预测未来 200 毫秒内的键鼠动作序列；这样一来，模型输出的是连续控制，而不是单帧指令，因此动作预测的时间跨度又会与模型规模、训练数据量和数据多样性相互影响。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - THUSI-Lab/GameScaling: Scaling in Games: Continued ...",
+      "url": "https://github.com/THUSI-Lab/GameScaling"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

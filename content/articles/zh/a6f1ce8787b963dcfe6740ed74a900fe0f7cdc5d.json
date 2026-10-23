@@ -1,0 +1,32 @@
+{
+  "id": "a6f1ce8787b963dcfe6740ed74a900fe0f7cdc5d",
+  "canonicalId": "81e96efb7f3eb63ba9b0236e331e5ba93b82c22e",
+  "slug": "earstrip-三角剖分-370-万地图多边形耗时-489-毫秒",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-22T09:31:00Z",
+  "lang": "zh",
+  "title": "Earstrip 三角剖分 370 万地图多边形耗时 489 毫秒",
+  "summary": "一篇性能导向的工程文章展示了评论中称为 Earstrip 的三角剖分库：作者称其在约 370 万个地图多边形组成的语料上完成剖分仅用 489 毫秒，快于广泛使用的 earcut。文章公开了数据集，earcut 作者也参与了技术讨论；这仍是作者自测的基准，尚非独立复现的通用结论。对处理大规模 GIS 或图形几何的开发者，这一结果值得用自己的数据复测，并同时考察包体积与输出三角形质量。",
+  "score": 7,
+  "tags": [
+    "computational-geometry",
+    "triangulation",
+    "performance-optimization",
+    "webassembly",
+    "gis"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "molind",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50193170"
+    }
+  ],
+  "originalUrl": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+  "originalSite": "globus.software",
+  "context": "",
+  "discussion": "对考虑替换 earcut 的团队，评估时不能只看 489 毫秒，还要把 WASM 包体积和输出三角形质量纳入同一基准；earcut 作者强调 4.1 kB min/gz 的小体积是其刻意取舍，另有评论者质疑大量细长三角形对 GPU 光栅化的影响。\n\nearcut 作者 mourner 称会看看是否有技巧可借用到 JS 版本，但指出自己为控制包体积（4.1 kB min/gz）刻意拒绝了一些优化；Delaunay32 作者 morishuz 则希望在同一语料上比较分治式约束 Delaunay 三角剖分。stymaar 还质疑结果中大量细长三角形是否不利于 GPU 光栅化。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
