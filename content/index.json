@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "id": "8542df7e12adfb56abe5a1dc562d56cb7a65f595",
+      "canonicalId": "6c51129e93f61d6bfd1eb8442e4c471f06be25fd",
+      "slug": "kimi-k31-pro-上线-api权重定于-11-月-4-日前开放",
+      "date": "2026-10-24",
+      "lang": "zh",
+      "title": "Kimi K3.1 Pro 上线 API，权重定于 11 月 4 日前开放",
+      "score": 8,
+      "tags": [
+        "large language models",
+        "model release",
+        "Moonshot AI",
+        "AI benchmarks",
+        "API pricing"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "b51546789edcca66d626de12507449f97707a649",
+      "canonicalId": "2ca67924f9fca88f90b4b29f6c6565e8ee2418b1",
+      "slug": "block-的-dessa-全双工语音模型宣称可本地运行",
+      "date": "2026-10-24",
+      "lang": "zh",
+      "title": "Block 的 Dessa 全双工语音模型宣称可本地运行",
+      "score": 7,
+      "tags": [
+        "full-duplex-speech",
+        "voice-ai",
+        "local-inference",
+        "model-efficiency"
+      ],
+      "originalSite": "block.xyz"
+    },
+    {
+      "id": "d651697d43c0f9f799ec693bd517e2b012cd8361",
+      "canonicalId": "46834880ed25d1918810644c48a44d28f7c2bbfb",
+      "slug": "iphone-攻破演示引来越狱锁定模式与安全研究访问权争论",
+      "date": "2026-10-24",
+      "lang": "zh",
+      "title": "iPhone 攻破演示引来越狱、锁定模式与安全研究访问权争论",
+      "score": 7,
+      "tags": [
+        "iPhone security",
+        "jailbreaking",
+        "exploit research",
+        "Lockdown Mode",
+        "AI security access"
+      ],
+      "originalSite": "blog.calif.io"
+    },
+    {
+      "id": "3d14896d04f7d50fc0776cebf53c263e2a76c2a2",
+      "canonicalId": "7a2ad2dcd8c80fc0dc1b3737e77654b031818136",
+      "slug": "lpc-2026linux-内核尝试缩小-16kb-线程栈",
+      "date": "2026-10-24",
+      "lang": "zh",
+      "title": "LPC 2026：Linux 内核尝试缩小 16KB 线程栈",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "kernel stacks",
+        "memory management",
+        "Linux Plumbers Conference",
+        "Arm/x86"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "8e394dd6fd8750f3c4d27cfccd9863d808abb7fc",
+      "canonicalId": "e3559133c3afcc343b82ebcc05147c95ef29abf7",
+      "slug": "trainium3-训练栈体验原生-pytorch-与-neuron-explorer",
+      "date": "2026-10-24",
+      "lang": "zh",
+      "title": "Trainium3 训练栈体验：原生 PyTorch 与 Neuron Explorer",
+      "score": 6,
+      "tags": [
+        "AWS Trainium",
+        "PyTorch",
+        "ML training",
+        "profiling",
+        "hardware accelerators"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
       "id": "168e5861b24fd6d3f143fbc57c66d11f6ac98fbb",
       "canonicalId": "c857d00b04e61c1b9d3b351f90d7d33670dcc71c",
       "slug": "emudhra-宣布退出全球-ssltls-证书业务",
@@ -5194,260 +5278,6 @@
         "mortgage lending"
       ],
       "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "beac86fd6b3e5fbf7e00e78ef0732b9ba8988916",
-      "canonicalId": "f82afb648776b0979dfc3530a9c045662279b45f",
-      "slug": "anthropic-称-claude-发现-crispr-样重复序列系统",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "Anthropic 称 Claude 发现 CRISPR 样重复序列系统",
-      "score": 7,
-      "tags": [
-        "AI for science",
-        "CRISPR",
-        "genomics",
-        "AI agents",
-        "scientific discovery"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "8e5176dfd581da84f6d831fce1456cd308e1e4b7",
-      "canonicalId": "f6fab29d98448a1b7c59daea535e7ea593d0e282",
-      "slug": "gemini-38-文本转语音加入-30-秒声音克隆",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "Gemini 3.8 文本转语音加入 30 秒声音克隆",
-      "score": 7,
-      "tags": [
-        "text-to-speech",
-        "Google Gemini",
-        "voice cloning",
-        "AI model releases",
-        "SynthID watermarking"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "292ef1b79b68ae2bac569cdc5194abaa7ceb1195",
-      "canonicalId": "3c64bb95b2372803669c026cd504728641c497cd",
-      "slug": "llm-token-或比-grep-更便宜成本趋势引争论",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "LLM token 或比 grep 更便宜，成本趋势引争论",
-      "score": 7,
-      "tags": [
-        "LLM inference economics",
-        "AI cost trends",
-        "AI agents",
-        "developer tooling",
-        "Hacker News discussion"
-      ],
-      "originalSite": "jyn.dev"
-    },
-    {
-      "id": "360e7423d239e04434bc02f11527aaafad960d5f",
-      "canonicalId": "3186e672f1e7c481addfec921659a3e0c327c132",
-      "slug": "stripe-详解内部知识-ai-平台-kai",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "Stripe 详解内部知识 AI 平台 Kai",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "enterprise AI",
-        "internal platforms",
-        "LLM applications",
-        "knowledge management"
-      ],
-      "originalSite": "stripe.dev"
-    },
-    {
-      "id": "6edbf2a0c8d17c4988cd25bffdac131a461b1c27",
-      "canonicalId": "ef3d9040bfd72ea32e94624cf9e0984fa1f460ca",
-      "slug": "西雅图市议会通过法案禁止食品杂货监控定价",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "西雅图市议会通过法案禁止食品杂货“监控定价”",
-      "score": 7,
-      "tags": [
-        "surveillance-pricing",
-        "consumer-privacy",
-        "algorithmic-pricing",
-        "tech-policy",
-        "price-discrimination"
-      ],
-      "originalSite": "advocacy.consumerreports.org"
-    },
-    {
-      "id": "5db380e83aa7be2d645c502ef9b2db4b2c323d8c",
-      "canonicalId": "e61359e960f83497c13408c8ac6ce0e2bb907448",
-      "slug": "gemini-38-tts-模型发布附-byok-试听工具",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "Gemini 3.8 TTS 模型发布，附 BYOK 试听工具",
-      "score": 7,
-      "tags": [
-        "Gemini",
-        "text-to-speech",
-        "voice cloning",
-        "developer tools",
-        "Google AI"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "e5d732cd21aa4fe10f27e9af1bea164b80e51156",
-      "canonicalId": "8177773d4513e61565733a4f12ecc67a44d48bd9",
-      "slug": "systemd-v262-发布支持静态单二进制构建与-openssl-4",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "systemd v262 发布：支持静态单二进制构建与 OpenSSL 4",
-      "score": 7,
-      "tags": [
-        "systemd",
-        "Linux",
-        "open source",
-        "containers",
-        "release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "bf6a36cf9577ac89f1f1639129ff88d50cad2ec4",
-      "canonicalId": "671c1e7a90de1875ea64e05776405a21f5ebc5bd",
-      "slug": "radicle-网络协议曝两项严重安全漏洞",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "Radicle 网络协议曝两项严重安全漏洞",
-      "score": 7,
-      "tags": [
-        "security-vulnerabilities",
-        "peer-to-peer",
-        "Radicle",
-        "network-protocol",
-        "authentication"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "a92ff8124d40d6d95cba5092681b264e867b1a29",
-      "canonicalId": "094f19f81d08dbafb40a145aeaf6a3558801aebe",
-      "slug": "wordpress-修复-get-page-template-未认证-rce-漏洞",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "WordPress 修复 get\\_page\\_template\\(\\) 未认证 RCE 漏洞",
-      "score": 7,
-      "tags": [
-        "WordPress",
-        "remote code execution",
-        "security vulnerability",
-        "open source CMS",
-        "ClassicPress"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "a70642978d666927722cbd2d9c771bec1f74c692",
-      "canonicalId": "3fb450c978a200c427617ac592d9f3675c6d4c9e",
-      "slug": "高通发布骁龙-8-elite-extreme-gen-6oryon-cpu-首破-5-ghz",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "高通发布骁龙 8 Elite Extreme Gen 6：Oryon CPU 首破 5 GHz",
-      "score": 7,
-      "tags": [
-        "Qualcomm",
-        "Snapdragon",
-        "mobile SoC",
-        "AI hardware",
-        "smartphone hardware"
-      ],
-      "originalSite": "qualcomm.com"
-    },
-    {
-      "id": "2e3065c4132f2254c63de3b1475e58fb07e7caad",
-      "canonicalId": "4e69396feb63bee283a81c8cd44b7f22ce5ed32b",
-      "slug": "shinyhunters-声称入侵-fbi-并掌握员工及申请者数据",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "ShinyHunters 声称入侵 FBI 并掌握员工及申请者数据",
-      "score": 7,
-      "tags": [
-        "cybersecurity",
-        "data breach",
-        "FBI",
-        "ShinyHunters"
-      ],
-      "originalSite": "404media.co"
-    },
-    {
-      "id": "8c24fe66fdfd97b97d1d3fd597ff6ab7a2ca2b9d",
-      "canonicalId": "50368c4f572fe1c3e8c3bea753d0696278a6988d",
-      "slug": "豆包对话团队收缩通用-session-团队预计减员近半",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "豆包对话团队收缩：通用 Session 团队预计减员近半",
-      "score": 7,
-      "tags": [
-        "AI industry",
-        "Doubao",
-        "team restructuring",
-        "commercialization",
-        "layoffs"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "7018d4e608c624d431b46a8e8a7166c12aae244d",
-      "canonicalId": "422456be4eba693126ef4c4fd4a3cba25e137af5",
-      "slug": "模型定制微调lora-与-qlora-指南",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "模型定制：微调、LoRA 与 QLoRA 指南",
-      "score": 6,
-      "tags": [
-        "fine-tuning",
-        "LoRA",
-        "QLoRA",
-        "LLM customization",
-        "parameter-efficient fine-tuning"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "11f9ce4718020534e4d8977794fc88565298c05f",
-      "canonicalId": "05e5c239263bf5595c83639d032b6bb230669526",
-      "slug": "nvcre在-ai-负载落地前验证-gpu-集群就绪",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "NVCRE：在 AI 负载落地前验证 GPU 集群就绪",
-      "score": 5,
-      "tags": [
-        "GPU cluster validation",
-        "Kubernetes operators",
-        "NCCL",
-        "AI infrastructure",
-        "fault isolation"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "3671eed40a3a08040c0d5be6ad3c6c860fd45970",
-      "canonicalId": "074e1523789a21e51b1cd0cdbb1de7617fa865d5",
-      "slug": "报道称中国监管机构要求银行不将万科逾期贷款列为不良",
-      "date": "2026-09-24",
-      "lang": "zh",
-      "title": "报道称中国监管机构要求银行不将万科逾期贷款列为不良",
-      "score": 9,
-      "tags": [
-        "中国房地产",
-        "万科",
-        "银行不良资产",
-        "监管干预",
-        "金融稳定"
-      ],
-      "originalSite": "reuters.com"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "id": "3d14896d04f7d50fc0776cebf53c263e2a76c2a2",
+  "canonicalId": "7a2ad2dcd8c80fc0dc1b3737e77654b031818136",
+  "slug": "lpc-2026linux-内核尝试缩小-16kb-线程栈",
+  "date": "2026-10-24",
+  "publishedAt": "2026-10-23T14:59:00Z",
+  "lang": "zh",
+  "title": "LPC 2026：Linux 内核尝试缩小 16KB 线程栈",
+  "summary": "在 2026 年 Linux Plumbers Conference 的内存管理微会议上，Will Deacon 讨论了 64 位 Arm 和 x86 上每个线程固定占用 16KB 不可分页内存的内核栈；Android 空闲设备就可能有 5,000 个线程，云端大规模线程也会放大这项开销。用 8KB 栈构建的内核通过了大部分测试，但在内存压力测试中失败，并在涉及直接回收（direct reclaim）的路径上崩溃；4KB 栈则无法启动。会上提到的补丁系列允许通过内核命令行设置栈大小，目前可运行 12KB 栈；另有专用异常栈和把直接回收移到工作线程的方案，目标是为 8KB 铺路。默认配置仍是 16KB，这些属于会上介绍的补丁方向。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "kernel stacks",
+    "memory management",
+    "Linux Plumbers Conference",
+    "Arm/x86"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100271/",
+  "originalSite": "lwn.net",
+  "context": "Arm64 在 3.7 内核（2012 年）合并时使用 8KB 栈，3.11（2013 年）因 SpecWeb 基准测试失败增至 16KB；x86 在 3.16 跟进，理由包括 Arm64 已这样做，以及部分 GCC 版本会生成更大的栈帧。4.14 引入虚拟映射内核栈后，又要求内核栈按 32KB 对齐，使缩小栈更复杂。",
+  "discussion": "若 8KB 栈最终进入主线，Android 和云厂商每个线程的内核栈内存可减半；但 8KB 内核目前在内存压力下仍会崩溃，短期内可先尝试 12KB 等过渡方案，而且厂商现有的树外动态栈实现难以在通用内核镜像（GKI）上通过 vendor hooks 落地。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

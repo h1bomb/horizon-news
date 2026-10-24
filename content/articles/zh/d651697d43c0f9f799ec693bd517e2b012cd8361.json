@@ -1,0 +1,41 @@
+{
+  "id": "d651697d43c0f9f799ec693bd517e2b012cd8361",
+  "canonicalId": "46834880ed25d1918810644c48a44d28f7c2bbfb",
+  "slug": "iphone-攻破演示引来越狱锁定模式与安全研究访问权争论",
+  "date": "2026-10-24",
+  "publishedAt": "2026-10-23T16:21:00Z",
+  "lang": "zh",
+  "title": "iPhone 攻破演示引来越狱、锁定模式与安全研究访问权争论",
+  "summary": "博客文章《Today, we hacked what we&\\#x27;d set out to hack: the iPhone》（blog.calif.io，10 月 23 日）宣称完成了一次针对 iPhone 的攻破演示，并在 Hacker News 上引发大量讨论。所提供材料只有标题和评论，没有披露具体的漏洞链、受影响的 iOS 版本、利用条件，也没有说明是否真正获得 root 权限，因此该演示的技术细节和可复现性目前无法核实。评论区把焦点放在三件事上：越狱是否会导致 Apple 封锁 iCloud、iMessage 等云服务，Lockdown Mode 对这类攻击是否实际有效，以及前沿实验室只向少数合作方开放“受信任网络访问”是否让外部研究者难以参与。",
+  "score": 7,
+  "tags": [
+    "iPhone security",
+    "jailbreaking",
+    "exploit research",
+    "Lockdown Mode",
+    "AI security access"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pavel\\_lishin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50211474"
+    }
+  ],
+  "originalUrl": "https://blog.calif.io/p/iphone",
+  "originalSite": "blog.calif.io",
+  "context": "Calif 在巴黎 Hexacon 安全会议上公布的是四组 iPhone 攻击演示，而非立即公开的完整利用代码；博文点名了 Signal 一键利用和 iMessage 攻击面，并称细节将“在适当时候”发布。此前同一账号还发布过 iPhone Duo 越狱视频，说明这次演示延续了其围绕 iPhone 越狱与漏洞利用的公开展示路线。",
+  "discussion": "有评论者（reacharavindh）认为，如今生态锁定使得越狱代价过高：即便不升级系统，Apple 也能检测到越狱并切断 iCloud、iMessage 等服务，设备会退化成“高级 iPod touch”。另有人（slowin）表示希望获得手机 root 权限，并询问这样做是否会阻止 Apple 推送更新或移除该改动；jeroenhd 则追问 Lockdown Mode 是否真能挡住这些漏洞利用，这些疑问在材料中均未得到回答。jinseokim 从研究者角度批评前沿实验室的“受信任网络访问”计划只惠及圈内公司，使圈外安全研究者无法参与。",
+  "references": [
+    {
+      "title": "iPhone - Calif Newsletter",
+      "url": "https://blog.calif.io/p/iphone"
+    },
+    {
+      "title": "&quot; Today , we hacked what we &#x27; d set out to hack : the iPhone .&quot;",
+      "url": "https://news.ycombinator.com/item?id=50211474"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

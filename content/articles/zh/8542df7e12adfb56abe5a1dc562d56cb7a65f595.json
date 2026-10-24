@@ -1,0 +1,40 @@
+{
+  "id": "8542df7e12adfb56abe5a1dc562d56cb7a65f595",
+  "canonicalId": "6c51129e93f61d6bfd1eb8442e4c471f06be25fd",
+  "slug": "kimi-k31-pro-上线-api权重定于-11-月-4-日前开放",
+  "date": "2026-10-24",
+  "publishedAt": "2026-10-23T19:40:00Z",
+  "lang": "zh",
+  "title": "Kimi K3.1 Pro 上线 API，权重定于 11 月 4 日前开放",
+  "summary": "Moonshot 已在 Kimi API 上线 Kimi K3.1 Pro，但模型权重尚未开放，公司承诺 2026 年 11 月 4 日前发布完整权重。API 定价为每百万输入 token 2 美元、每百万输出 token 10 美元，与 GPT-6.1 Sol 相同，为 Claude Opus 5.5 的一半；另有一个速度快 2–3 倍的 Highspeed 版本，价格翻倍，但输入 token 缓存命中的价格不变。Moonshot 自行发布的基准显示其与 Opus 5.5、GPT-6 Astra 大致相当；第三方 Artificial Analysis 给出 55 分，低于 Opus 5.5 的 58 分，高于 Claude Fable 5.1、GPT-6 Astra 和 Gemini 4 Argon 的 53 分。作者称，这是首个即将开放权重的模型在对前沿模型的评测中达到如此高的分数。",
+  "score": 8,
+  "tags": [
+    "large language models",
+    "model release",
+    "Moonshot AI",
+    "AI benchmarks",
+    "API pricing"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "对需要通过 API 选型的开发者，K3.1 Pro 现已可用，并可按作者演示的方式通过 OpenAI 兼容端点接入，按每百万 token 2/10 美元计费；若需要低延迟，Highspeed 版本的成本翻倍，缓存输入除外。由于权重只是承诺在 11 月 4 日前开放，在此之前无法自托管，需等待实际发布后再评估本地部署。\n\n有评论称 Kimi 的回答比美国模型更直白、更好争辩；另有用户报告，其 99 美元/月订阅在单次会话进行到 47 分钟时就触发了 5 小时配额，提醒订阅额度可能与预期不符。一位评论者分享的 Pac-Man 测试结果显示，K3.1 Pro 与 Claude Sonnet 5.5 同为 93 分，但成本 0.68 美元、耗时 11 分钟，低于 Sonnet 5.5 的 1.61 美元和 14 分钟。",
+  "references": [
+    {
+      "title": "2026-06-13 — Kimi open-sources coding model K2.7-Code with benchmark gains",
+      "url": "https://mp.weixin.qq.com/s/NBw1VAA9MjpKv-Rirq9qDg"
+    },
+    {
+      "title": "2026-08-09 — SGLang v0.5.17 发布：支持 Kimi K3 与 MiniMax-H3",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

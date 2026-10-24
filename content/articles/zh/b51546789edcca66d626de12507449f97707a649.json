@@ -1,0 +1,40 @@
+{
+  "id": "b51546789edcca66d626de12507449f97707a649",
+  "canonicalId": "2ca67924f9fca88f90b4b29f6c6565e8ee2418b1",
+  "slug": "block-的-dessa-全双工语音模型宣称可本地运行",
+  "date": "2026-10-24",
+  "publishedAt": "2026-10-23T19:09:00Z",
+  "lang": "zh",
+  "title": "Block 的 Dessa 全双工语音模型宣称可本地运行",
+  "summary": "Block 宣布推出 Dessa 全双工语音模型，其特点是能同时听说，而不是传统的轮流发言。据评论引述的帖子内容，Dessa 具备低延迟本地推理能力，可在 MacBook Pro M4 Max 或更高配置上运行，并仅用一台 NVIDIA GB200 NVL72 完成训练。上述性能、硬件门槛和训练效率均来自公布方说法；目前公开材料以宣传为主，缺少可独立验证的技术细节和复现结果。",
+  "score": 7,
+  "tags": [
+    "full-duplex-speech",
+    "voice-ai",
+    "local-inference",
+    "model-efficiency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dsr12",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50213925"
+    }
+  ],
+  "originalUrl": "https://block.xyz/dessa",
+  "originalSite": "block.xyz",
+  "context": "全双工语音指模型可以边听边说，不必等对方说完再轮流发言，并能处理打断和附和。Horizon 2026 年 9 月 12 日的日报曾报道，OpenAI 将可同时听说的 GPT‑Live‑1 上线 API，并称其在 Full Duplex Bench 上较 GPT‑Realtime‑2.1 提升 30 个百分点，该数据出自 OpenAI 自身说法；2026 年 8 月 6 日的日报则报道，字节跳动的音视频全双工模型 SeedRealtime 已在豆包 App 全量上线。",
+  "discussion": "对语音代理开发者而言，最直接的可操作结论是先验证硬件门槛：帖子把本地运行限定在 M4 Max 或更高配置，训练则称只需一台 GB200 NVL72；在独立复现前，不应把低延迟和表现力当作已交付的部署保证。\n\nHacker News 评论对演示效果看法不一：有人对低延迟、表现力和本地运行所需硬件感到惊讶，也有人认为同时说话、频繁打断的演示显得人工化，并担心这类语音技术的主要用途会变成冒充真人。一位评论者表示，会用只有熟人知道的共享记忆问题来筛查可疑来电。",
+  "references": [
+    {
+      "title": "2026-09-12 — OpenAI API 上线 GPT-Live-1 实时语音模型",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+    },
+    {
+      "title": "2026-08-06 — 豆包上线原生音视频全双工模型 SeedRealtime",
+      "url": "https://seed.bytedance.com/zh/blog/seedrealtime-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-%E8%B5%B0%E5%90%91%E5%85%A8%E6%A8%A1%E6%80%81%E8%87%AA%E7%84%B6%E4%BA%A4%E4%BA%92"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
