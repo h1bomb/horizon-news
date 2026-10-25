@@ -1,0 +1,45 @@
+{
+  "id": "9d33248e467f68a491bb7927d42f1ef61ecfad95",
+  "canonicalId": "84c9b463e77e350073151a77b3e64b6ccdd6507c",
+  "slug": "goose不共享并发的实验性语言",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-24T19:06:00Z",
+  "lang": "zh",
+  "title": "Goose：不共享并发的实验性语言",
+  "summary": "作者 Aardappel 在 Hacker News 上公布了实验性编程语言 Goose，并给出 GitHub 仓库，讨论集中在其内存模型和并发设计。Goose 采用“线程不共享数据”的模型：worker 被编译成拥有独立内存的独立程序，扁平值通过带类型的队列以 memcpy 传递，语言中不存在数据竞争、锁、原子操作和内存序；它还使用多个数据栈、可调整大小的字段、相对引用和内置二进制结构校验，以支持直接映射文件或网络数据。现有信息只表明这是一个实验性项目，未显示成熟度、采用情况或独立性能测量。",
+  "score": 7,
+  "tags": [
+    "programming languages",
+    "language design",
+    "memory management",
+    "concurrency",
+    "experimental languages"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bobbydigitales",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50224100"
+    }
+  ],
+  "originalUrl": "https://aardappel.github.io/goose/",
+  "originalSite": "aardappel.github.io",
+  "context": "Goose 的作者是 Wouter van Oortmerssen（Hacker News 网名 aardappel），他此前开发过 Lobster 编程语言，其 GitHub 主页还列出 FlatBuffers 序列化库，并参与过 AmigaE、Bla、Aardappel 等早期语言及 Cube 引擎。作者在讨论串中确认项目并给出 GitHub 仓库；考虑到他长期从事游戏引擎、编程语言与工具开发，Goose 的实验性设计更适合放在这一背景下看待。",
+  "discussion": "对准备试用 Goose 的开发者，最直接的约束是并发 worker 各自拥有独立内存、只能通过带类型队列传递扁平值，因此不能依赖共享可变状态、锁或原子操作来协调任务，需要按消息传递重新设计数据交换。\n\n有评论者批评说明文字像 AI 生成内容，称即使设计有可取之处也会因此放弃阅读；另有评论追问固定数量的数据栈如何表示任意数量、可随机增删的动态大小值（例如字符串哈希表），现有评论中未见解答。还有评论将这种不共享数据的 worker 模型类比为 Dart Isolates。",
+  "references": [
+    {
+      "title": "aardappel ( Wouter van Oortmerssen ) · GitHub",
+      "url": "https://github.com/aardappel"
+    },
+    {
+      "title": "Wouter van Oortmerssen",
+      "url": "https://strlen.com/"
+    },
+    {
+      "title": "Lobster , Programming Languages , and Game Engines with Wouter ...",
+      "url": "https://www.youtube.com/watch?v=hDT79xdqf3k"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

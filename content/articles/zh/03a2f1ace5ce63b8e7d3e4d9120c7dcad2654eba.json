@@ -1,0 +1,45 @@
+{
+  "id": "03a2f1ace5ce63b8e7d3e4d9120c7dcad2654eba",
+  "canonicalId": "69696c78864a6bdc51e36a5fa86c5c93e4287f5d",
+  "slug": "node2shell-演变为-http2shellbrotli-漏洞影响众多-http-库",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-24T08:06:00Z",
+  "lang": "zh",
+  "title": "Node2Shell 演变为 HTTP2Shell，Brotli 漏洞影响众多 HTTP 库",
+  "summary": "Aikido 的博客以 HTTP2Shell 为名披露一个 Brotli 解码相关漏洞，称其编号为 CVE-2026-111497，影响大量 HTTP 库和应用，并可导致未认证远程代码执行。该漏洞此前以 Node2Shell 为人所知，此次披露把影响面扩展到更广泛的 HTTP 软件。现有材料没有给出受影响项目的完整清单，也没有说明各库在常见配置下是否真的会解压 Brotli 请求体，因此实际波及范围仍不清楚。",
+  "score": 8,
+  "tags": [
+    "security",
+    "vulnerabilities",
+    "HTTP",
+    "Brotli",
+    "RCE"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "theanonymousone",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50219177"
+    }
+  ],
+  "originalUrl": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+  "originalSite": "aikido.dev",
+  "context": "该漏洞源自 Node.js 的 Brotli 解码器：Horizon 10 月 22 日的日报曾报道，Node.js 为 26.x、24.x 和 22.x 分支发布安全更新，修复了包括 CVE-2026-111497 在内的 10 个漏洞，当时把其中的 Brotli 越界写入描述为可导致远程代码执行。外部披露材料称，该漏洞在公开后一天内就出现了可用的 PoC（tool-2-1），Imperva 研究人员还在官方 Node.js 24.22.0 构建上演示了完整代码执行（tool-2-2）。此次争议的焦点在于，问题是否已经超出 Node.js，扩大到其他自行实现 Brotli 解码的 HTTP 库和应用；现有材料尚未明确实际受影响的范围。",
+  "discussion": "对使用相关 HTTP 库或应用的维护者来说，需要先确认自己的服务是否在常见配置中解压 Brotli 请求体，再查明所用版本是否包含 CVE-2026-111497 的修复；由于现有材料未列出受影响项目和修复版本，无法据此确定具体的升级目标。\n\n评论者批评 HTTP2Shell 这个名称过于宽泛、没有准确描述问题；pimterry 认为手动进行 Brotli 解码也可能触发该漏洞，HTTP 只是最常见的场景，bawolff 则质疑文章夸大了影响范围，并指出尚不清楚有多少库在常见配置下支持解压 Brotli 请求体。Rapzid 引用文章内容称，该漏洞早在 2 月就已报告并修复，但当时未被当作安全问题，因此质疑为何无人重视。",
+  "references": [
+    {
+      "title": "2026-10-22 — Node.js 修复 Brotli 越界写入等 10 个漏洞",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+    },
+    {
+      "title": "Node2Shell (CVE-2026-111497): Detecting the Node.js Brotli ...",
+      "url": "https://www.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce"
+    },
+    {
+      "title": "CVE-2026-111497: Node2Shell RCE in Node.js Brotli Decoder ...",
+      "url": "https://securityarsenal.com/blog/cve-2026-111497-node2shell-rce-in-nodejs-brotli-decoder-detection-and-remediation-guide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

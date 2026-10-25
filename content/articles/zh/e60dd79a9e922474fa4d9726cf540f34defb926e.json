@@ -1,0 +1,32 @@
+{
+  "id": "e60dd79a9e922474fa4d9726cf540f34defb926e",
+  "canonicalId": "f80c4bbdb8d6f14796b2ac73993c90b835082432",
+  "slug": "philip-ox27toole-回顾十二年分布式-sqlite-实践",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-24T01:16:00Z",
+  "lang": "zh",
+  "title": "Philip O&\\#x27;Toole 回顾十二年分布式 SQLite 实践",
+  "summary": "rqlite 作者 Philip O&\\#x27;Toole 发表《Twelve years of distributed SQLite》，以个人经验复盘十二年来在分布式 SQLite 方向的工作。文章引发 Hacker News 对同类引擎的详细比较，讨论集中在事务支持、可靠性和外部依赖等选型因素上。现有材料没有给出新版本、性能数字或正式基准，读者应把它当作实践回顾而非产品发布。",
+  "score": 7,
+  "tags": [
+    "distributed-sqlite",
+    "sqlite",
+    "rqlite",
+    "distributed-systems",
+    "databases"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "otoolep",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50217500"
+    }
+  ],
+  "originalUrl": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+  "originalSite": "philipotoole.com",
+  "context": "rqlite 是 Philip O&\\#x27;Toole 发起的开源分布式数据库，它把 SQLite 当作单机存储引擎，在外层用 Raft 共识算法把写操作复制到多个节点，因此写入需要通过 leader 完成。这篇文章是他对项目十二年开发历程的回顾。讨论中有读者指出，rqlite 官方并不支持 BEGIN/COMMIT 形式的多语句事务，这也是它与支持完整 SQLite 事务的引擎之间的一个重要区别。",
+  "discussion": "对考虑采用分布式 SQLite 的团队，事务支持是实际的选型门槛：依赖 BEGIN/COMMIT 的应用需要先确认目标引擎是否提供完整事务，而不能只看 SQLite 语法兼容。\n\nHacker News 评论比较了多种方案：有人称 Cloudflare D1 在生产中不够可靠，也有人把完整事务支持视为关键分界线，并指出 rqlite 未正式支持 BEGIN/COMMIT。另有评论认为，借助 agent 工具后直接管理 PostgreSQL 已变得容易，可能比远程 SQLite 更合适，同时仍肯定 SQLite 在本地工具中的价值。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

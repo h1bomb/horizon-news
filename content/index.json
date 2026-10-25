@@ -1,6 +1,91 @@
 {
   "articles": [
     {
+      "id": "3ffc4a56280f555351bee85f6d113ef1a0646e1d",
+      "canonicalId": "8acda1e9f09f44481907bcbab7330308abce9b0b",
+      "slug": "gpu-unlock-打包-rtx-3000-固件漏洞以提升-fpbf16-发射率",
+      "date": "2026-10-25",
+      "lang": "zh",
+      "title": "GPU-unlock 打包 RTX 3000 固件漏洞以提升 FP/BF16 发射率",
+      "score": 8,
+      "tags": [
+        "Nvidia GPUs",
+        "firmware exploitation",
+        "FP/BF16",
+        "GPU performance",
+        "hardware modding"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "03a2f1ace5ce63b8e7d3e4d9120c7dcad2654eba",
+      "canonicalId": "69696c78864a6bdc51e36a5fa86c5c93e4287f5d",
+      "slug": "node2shell-演变为-http2shellbrotli-漏洞影响众多-http-库",
+      "date": "2026-10-25",
+      "lang": "zh",
+      "title": "Node2Shell 演变为 HTTP2Shell，Brotli 漏洞影响众多 HTTP 库",
+      "score": 8,
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "HTTP",
+        "Brotli",
+        "RCE"
+      ],
+      "originalSite": "aikido.dev"
+    },
+    {
+      "id": "a3f292fe81e10befad5ed15738b3d364b6caf129",
+      "canonicalId": "f9113fa394af665d9a884ec84e1384cce3233098",
+      "slug": "openai-前沿模型训练改为离线进行",
+      "date": "2026-10-25",
+      "lang": "zh",
+      "title": "OpenAI 前沿模型训练改为离线进行",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "AI safety",
+        "cybersecurity",
+        "sandbox escape",
+        "side-channel"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "9d33248e467f68a491bb7927d42f1ef61ecfad95",
+      "canonicalId": "84c9b463e77e350073151a77b3e64b6ccdd6507c",
+      "slug": "goose不共享并发的实验性语言",
+      "date": "2026-10-25",
+      "lang": "zh",
+      "title": "Goose：不共享并发的实验性语言",
+      "score": 7,
+      "tags": [
+        "programming languages",
+        "language design",
+        "memory management",
+        "concurrency",
+        "experimental languages"
+      ],
+      "originalSite": "aardappel.github.io"
+    },
+    {
+      "id": "e60dd79a9e922474fa4d9726cf540f34defb926e",
+      "canonicalId": "f80c4bbdb8d6f14796b2ac73993c90b835082432",
+      "slug": "philip-ox27toole-回顾十二年分布式-sqlite-实践",
+      "date": "2026-10-25",
+      "lang": "zh",
+      "title": "Philip O&\\#x27;Toole 回顾十二年分布式 SQLite 实践",
+      "score": 7,
+      "tags": [
+        "distributed-sqlite",
+        "sqlite",
+        "rqlite",
+        "distributed-systems",
+        "databases"
+      ],
+      "originalSite": "philipotoole.com"
+    },
+    {
       "id": "8542df7e12adfb56abe5a1dc562d56cb7a65f595",
       "canonicalId": "6c51129e93f61d6bfd1eb8442e4c471f06be25fd",
       "slug": "kimi-k31-pro-上线-api权重定于-11-月-4-日前开放",
@@ -5041,243 +5126,6 @@
         "6th Circuit"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "3dd66055e6a80b1584c205340b7bf170be8d7839",
-      "canonicalId": "50c0b912a0edf25f07ef0c234fbb94ca651e5bd0",
-      "slug": "f-droid-20-发布完整重设计与-fpe-淘汰讨论",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "F-Droid 2.0 发布：完整重设计与 FPE 淘汰讨论",
-      "score": 8,
-      "tags": [
-        "F-Droid",
-        "Android",
-        "open source",
-        "app distribution",
-        "privacy"
-      ],
-      "originalSite": "f-droid.org"
-    },
-    {
-      "id": "4e9f45fa448000c792d370a22cd3dd3b99612c50",
-      "canonicalId": "cf789b4b12a0527ab4fa514075edec0063d65769",
-      "slug": "apple-在英国撤回-icloud-高级数据保护",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "Apple 在英国撤回 iCloud 高级数据保护",
-      "score": 8,
-      "tags": [
-        "UK encryption policy",
-        "Apple Advanced Data Protection",
-        "iCloud security",
-        "end-to-end encryption",
-        "privacy law"
-      ],
-      "originalSite": "macanorak.com"
-    },
-    {
-      "id": "afe159e0bed1f5d10aaa868645c36220f79736fe",
-      "canonicalId": "4bdcfcbd9f2569d15b85150de00bbe86fb84f457",
-      "slug": "文件通知攻击研究linux-击键计时与-kde-点击劫持",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "文件通知攻击研究：Linux 击键计时与 KDE 点击劫持",
-      "score": 8,
-      "tags": [
-        "security",
-        "Linux",
-        "privacy",
-        "side-channel attacks",
-        "vulnerability research"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "55efbd98d7215fc5c7ee1c214b4123c5a63530e3",
-      "canonicalId": "185ddb0abcfc6b08da60c0e454dca6b9220f67e5",
-      "slug": "whiteboard人类与编码智能体共同设计的开源-ide",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "Whiteboard：人类与编码智能体共同设计的开源 IDE",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "developer tools",
-        "software architecture",
-        "open source",
-        "IDEs"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "8f6c2d6ad174fb499d0d7a5aa2bfcca9b32adb70",
-      "canonicalId": "e82bf04022f67ea023bd8765bd448cacfc42841f",
-      "slug": "transluce-报告-urlquerynet-上的早期-ai-代理活动与入侵尝试",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "Transluce 报告 urlquery.net 上的早期 AI 代理活动与入侵尝试",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "AI safety",
-        "cybersecurity",
-        "OpenAI"
-      ],
-      "originalSite": "transluce.org"
-    },
-    {
-      "id": "1eacbe99242b5e9905f33b2c9503ebeda4f1cee8",
-      "canonicalId": "408676d377960be126dc37d24f5c37f534b4337b",
-      "slug": "用-rust-收听无线电rustconf-2026-演讲",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "用 Rust 收听无线电：RustConf 2026 演讲",
-      "score": 7,
-      "tags": [
-        "software-defined radio",
-        "Rust",
-        "digital signal processing",
-        "radio decoding",
-        "RustConf"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "00e9e19000049c623a23512684bbaf10f8b8f066",
-      "canonicalId": "170c28ecfa44e4118244977e2b9951d7136ba102",
-      "slug": "claude-code-云会话正式上线promax-可领云端额度",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "Claude Code 云会话正式上线，Pro/Max 可领云端额度",
-      "score": 7,
-      "tags": [
-        "Claude Code",
-        "AI coding agents",
-        "cloud sessions",
-        "Anthropic",
-        "developer tools"
-      ],
-      "originalSite": "code.claude.com"
-    },
-    {
-      "id": "d35b35ad6765395a5eeda5d6cf71e4fc4abab978",
-      "canonicalId": "f182df22e16f1e3cf3821d524d9bbce0b983b8aa",
-      "slug": "openai-法庭文件称苹果-chatgpt-集成表现不佳",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "OpenAI 法庭文件称苹果 ChatGPT 集成表现不佳",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "Apple",
-        "Apple Intelligence",
-        "antitrust",
-        "AI partnerships"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "9f0590ab50efd6677f4348b75b8b39b5c4126f14",
-      "canonicalId": "917e839c7e46b1c1ae893c015c5bf9f04f11f2d4",
-      "slug": "openai-发布心理健康基准-mentalhealthbench",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "OpenAI 发布心理健康基准 MentalHealthBench",
-      "score": 7,
-      "tags": [
-        "AI safety",
-        "mental health",
-        "benchmark",
-        "OpenAI",
-        "evaluation"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "7f6a2cb97f50a0682855bc81949a31e207c1d12a",
-      "canonicalId": "7812c6f721af3a010f32fcac24d3e6f2466358eb",
-      "slug": "用分组专家内核与-mxfp8-加速生物基础模型-moe-训练",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "用分组专家内核与 MXFP8 加速生物基础模型 MoE 训练",
-      "score": 6,
-      "tags": [
-        "Mixture-of-Experts",
-        "Transformer Engine",
-        "MXFP8",
-        "Kernel Fusion",
-        "BioNeMo"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "fc53b0bc8bdd61a3081bdb96c399887fa6a84c74",
-      "canonicalId": "9bd3557d0e90c097319443cbee77752c5921ae84",
-      "slug": "费城联储保尔森或需小幅进一步加息以压低通胀",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "费城联储保尔森：或需“小幅”进一步加息以压低通胀",
-      "score": 8,
-      "tags": [
-        "monetary policy",
-        "Federal Reserve",
-        "interest rates",
-        "inflation",
-        "bond market"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "93600d39d70905527c6adf0b88c7290eff7b351f",
-      "canonicalId": "2d258589731f5a704db3fb2f392c7338cb59b9ec",
-      "slug": "中国确认与美举行首次人工智能磋商并释放延长贸易休战信号",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "中国确认与美举行首次人工智能磋商，并释放延长贸易休战信号",
-      "score": 8,
-      "tags": [
-        "US-China trade",
-        "AI policy",
-        "tariffs",
-        "rare earths",
-        "semiconductors"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "9c44faf900507d4eb19ae769e67bd102e02b048d",
-      "canonicalId": "81c6bc7bff6c12a2cd856ec6881c45080b7a0fd1",
-      "slug": "美中贸易休战延长两个月至-1-月-10-日",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "美中贸易休战延长两个月至 1 月 10 日",
-      "score": 8,
-      "tags": [
-        "US-China trade",
-        "tariffs",
-        "rare earths",
-        "Xi Jinping state visit",
-        "trade policy"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "f4032151cbb976785b1f7cc418c3d374b782688e",
-      "canonicalId": "ea5234e6adcca620d27db6d46a0ec6ede34ce043",
-      "slug": "北京发布商品房预售新政封顶方可预售",
-      "date": "2026-09-25",
-      "lang": "zh",
-      "title": "北京发布商品房预售新政：封顶方可预售",
-      "score": 8,
-      "tags": [
-        "China real estate",
-        "Beijing policy",
-        "home presales",
-        "land payments",
-        "mortgage lending"
-      ],
-      "originalSite": "mp.weixin.qq.com"
     }
   ]
 }

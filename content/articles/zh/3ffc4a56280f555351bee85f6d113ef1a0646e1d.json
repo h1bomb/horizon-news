@@ -1,0 +1,32 @@
+{
+  "id": "3ffc4a56280f555351bee85f6d113ef1a0646e1d",
+  "canonicalId": "8acda1e9f09f44481907bcbab7330308abce9b0b",
+  "slug": "gpu-unlock-打包-rtx-3000-固件漏洞以提升-fpbf16-发射率",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-24T09:58:00Z",
+  "lang": "zh",
+  "title": "GPU-unlock 打包 RTX 3000 固件漏洞以提升 FP/BF16 发射率",
+  "summary": "GPU-unlock 将针对 Nvidia RTX 3000 系列显卡固件的漏洞利用打包成工具，目标是提高 FP/BF16 指令发射率，面向希望免于修改 Nvidia 驱动的 RTX 30 系用户。项目作者 Zagitta 表示，漏洞利用思路并非原创，他的工作是把流程封装得更省事，灵感来自通过独立 UEFI 模块链式加载操作系统的 CMP90/50 Windows 解锁方案。评论中有人称自测结果属实，但提醒该方案依赖固件漏洞；也有用户指出，部分显卡要获得收益需把功耗上限提高到 450W，发热将超出原装散热器的设计范围。",
+  "score": 8,
+  "tags": [
+    "Nvidia GPUs",
+    "firmware exploitation",
+    "FP/BF16",
+    "GPU performance",
+    "hardware modding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "fragebogen",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50219700"
+    }
+  ],
+  "originalUrl": "https://github.com/Zagitta/gpu-unlock",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "评论者报告的实际体验并不只是性能收益：Tiberium 称自测有效，但承认方案利用启动器中的缓冲区溢出执行 ROP，因而有风险；jacquesm 则强调 450W 功耗上限和额外散热是实际门槛。另有评论提到 Turing 架构已有类似解锁项目，且该修改可与现有 P2P 解锁叠加。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
