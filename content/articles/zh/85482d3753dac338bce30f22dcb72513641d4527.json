@@ -1,0 +1,32 @@
+{
+  "id": "85482d3753dac338bce30f22dcb72513641d4527",
+  "canonicalId": "1dc75a32fc6a65d3604d6f07708a6a4cf8951ef5",
+  "slug": "10-年前-cnn-在皮肤癌诊断上胜过前沿-llm",
+  "date": "2026-10-26",
+  "publishedAt": "2026-10-25T17:15:00Z",
+  "lang": "zh",
+  "title": "10 年前 CNN 在皮肤癌诊断上胜过前沿 LLM",
+  "summary": "一篇博客实验报告称，一个基于 10 年前 Inception v3 架构、在 68,011 张皮肤镜和临床图像上微调的 CNN，在 200 个未见皮肤病变测试样本上的诊断表现优于两个前沿 LLM。实验者称，测试病灶以及同一患者或同一病灶的其他照片已从包括验证集在内的训练数据中移除，模型在单张 H100 上完成训练。该结果来自单一实验设置，并非临床验证或已部署产品，不能直接外推到真实诊疗。",
+  "score": 7,
+  "tags": [
+    "machine-learning",
+    "medical-imaging",
+    "LLMs",
+    "model-evaluation",
+    "model-specialization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sungam",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50233779"
+    }
+  ],
+  "originalUrl": "https://lynchlab.net/llm-skin-cancer",
+  "originalSite": "lynchlab.net",
+  "context": "评论中引述的博文方法显示，作为对照的是一个约 10 年前提出的 Inception v3 卷积网络：它先在普通照片上预训练，再用 ISIC Archive 的 68,011 张皮肤镜和临床图像做全层微调。这属于典型的“预训练＋领域微调”专用分类器路线，与直接让通用大模型判读图像是两种不同的建模范式。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

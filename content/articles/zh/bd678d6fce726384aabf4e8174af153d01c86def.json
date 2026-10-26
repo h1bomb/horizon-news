@@ -1,0 +1,40 @@
+{
+  "id": "bd678d6fce726384aabf4e8174af153d01c86def",
+  "canonicalId": "69696c78864a6bdc51e36a5fa86c5c93e4287f5d",
+  "slug": "brotli-高危漏洞波及-python-与-nodejs-http-组件",
+  "date": "2026-10-26",
+  "publishedAt": "2026-10-25T02:42:00Z",
+  "lang": "zh",
+  "title": "Brotli 高危漏洞波及 Python 与 Node.js HTTP 组件",
+  "summary": "Brotli 解码器漏洞 CVE-2026-111497 影响 1.0.3 至 1.2.0 版本，并波及 Python 与 Node.js 的 HTTP 组件，CVSS 4.0 评分为 9.2。远程未认证攻击者可发送特制压缩流，造成内存损坏、敏感数据泄露、进程崩溃，并可能执行任意代码。Python 的 Brotli 需升级至 1.2.1、brotlicffi 至 1.2.1.0；Node.js 的修复版本为 22.23.4、24.22.1 或 26.12.1。该漏洞最初以 Node2Shell 披露，后称 HTTP2Shell；OpenAI 表示于今年 2 月发现该问题。",
+  "score": 8,
+  "tags": [
+    "Brotli",
+    "CVE-2026-111497",
+    "security vulnerability",
+    "Node.js",
+    "Python"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+  "originalSite": "aikido.dev",
+  "context": "Brotli 是常用的 HTTP 压缩算法，其解码器需处理来自外部的不可信压缩流，因此解码环节一旦出现内存安全缺陷，通常可由未认证的远程请求触发。10 月 22 日的日报曾报道，Node.js 已针对该 CVE-2026-111497 的 Brotli 越界写入问题发布安全更新，覆盖 26.x、24.x 和 22.x 分支，并称其可导致远程代码执行（tool-1-1）；另有一篇简讯提到，同一轮更新还涉及 musl libc 的越界写问题（tool-1-2）。此次披露的变化在于，同一漏洞的受影响范围已不再局限于 Node.js，还扩展到 Python 的 Brotli 及 brotlicffi 等 HTTP 组件，并各自给出了修复版本。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-10-22 — Node.js 修复 Brotli 越界写入等 10 个漏洞",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+    },
+    {
+      "title": "2026-10-22 — Node.js 修复 Brotli 远程代码执行漏洞，musl libc 公布越界写问题",
+      "url": "https://lwn.net/Articles/1102044/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

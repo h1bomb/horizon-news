@@ -1,6 +1,74 @@
 {
   "articles": [
     {
+      "id": "bd678d6fce726384aabf4e8174af153d01c86def",
+      "canonicalId": "69696c78864a6bdc51e36a5fa86c5c93e4287f5d",
+      "slug": "brotli-高危漏洞波及-python-与-nodejs-http-组件",
+      "date": "2026-10-26",
+      "lang": "zh",
+      "title": "Brotli 高危漏洞波及 Python 与 Node.js HTTP 组件",
+      "score": 8,
+      "tags": [
+        "Brotli",
+        "CVE-2026-111497",
+        "security vulnerability",
+        "Node.js",
+        "Python"
+      ],
+      "originalSite": "aikido.dev"
+    },
+    {
+      "id": "85482d3753dac338bce30f22dcb72513641d4527",
+      "canonicalId": "1dc75a32fc6a65d3604d6f07708a6a4cf8951ef5",
+      "slug": "10-年前-cnn-在皮肤癌诊断上胜过前沿-llm",
+      "date": "2026-10-26",
+      "lang": "zh",
+      "title": "10 年前 CNN 在皮肤癌诊断上胜过前沿 LLM",
+      "score": 7,
+      "tags": [
+        "machine-learning",
+        "medical-imaging",
+        "LLMs",
+        "model-evaluation",
+        "model-specialization"
+      ],
+      "originalSite": "lynchlab.net"
+    },
+    {
+      "id": "e126c0d3530b6be9b18c165146f5312c58f5d411",
+      "canonicalId": "2325af3360e067168cf6af742b1faed065229386",
+      "slug": "cerebras-称其硬件可部署万亿参数模型",
+      "date": "2026-10-26",
+      "lang": "zh",
+      "title": "Cerebras 称其硬件可部署万亿参数模型",
+      "score": 7,
+      "tags": [
+        "Cerebras",
+        "AI inference",
+        "wafer-scale hardware",
+        "frontier models",
+        "Hacker News"
+      ],
+      "originalSite": "cerebras.ai"
+    },
+    {
+      "id": "5a59b6c7f09508d48c66bddb56670b8525dc4314",
+      "canonicalId": "a9582b88e618f0b9aa6bd353cc7573ee2d83a87d",
+      "slug": "苹果据报本周三发布首款触屏-macbook-pro",
+      "date": "2026-10-26",
+      "lang": "zh",
+      "title": "苹果据报本周三发布首款触屏 MacBook Pro",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "touchscreen",
+        "OLED",
+        "consumer hardware"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
       "id": "3ffc4a56280f555351bee85f6d113ef1a0646e1d",
       "canonicalId": "8acda1e9f09f44481907bcbab7330308abce9b0b",
       "slug": "gpu-unlock-打包-rtx-3000-固件漏洞以提升-fpbf16-发射率",
@@ -4939,193 +5007,6 @@
         "清盘人诉讼"
       ],
       "originalSite": "wallstreetcn.com"
-    },
-    {
-      "id": "4c41d0dada395f742cf15e9975c0289aa7cfe392",
-      "canonicalId": "e0645c8a9048bb685811389e643e4b8c2df1dbd6",
-      "slug": "go-介绍实验性平台无关-simd-设计",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "Go 介绍实验性平台无关 SIMD 设计",
-      "score": 8,
-      "tags": [
-        "Go",
-        "SIMD",
-        "Performance Optimization",
-        "Compilers and Runtimes",
-        "Portable Vectorization"
-      ],
-      "originalSite": "go.dev"
-    },
-    {
-      "id": "3ef5f4818170ec27f5045b2ffd6998f8b84c3cab",
-      "canonicalId": "5e8bd66ca873dc86ab449f9eff652125dbfa8969",
-      "slug": "美上诉法院维持对-anthropic-的供应链风险认定",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "美上诉法院维持对 Anthropic 的供应链风险认定",
-      "score": 8,
-      "tags": [
-        "AI regulation",
-        "Anthropic",
-        "US government",
-        "supply chain risk",
-        "national security"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "0b0c2c8fccc676e50a51a6612206ce672f375fa1",
-      "canonicalId": "8fc9916b017847469524a4382a7c022a73a46648",
-      "slug": "git-bug嵌入-git-的离线优先分布式-bug-跟踪器",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "Git-bug：嵌入 Git 的离线优先分布式 bug 跟踪器",
-      "score": 7,
-      "tags": [
-        "git",
-        "distributed-systems",
-        "developer-tools",
-        "issue-tracking",
-        "open-source"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "5f949432f787e90ade967548080dc5377bde97df",
-      "canonicalId": "44842586bfdd27cfa097855402c24312d890a47a",
-      "slug": "john-gruber-评-meta-muse强大且危险消费者未必了解",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "John Gruber 评 Meta Muse：强大且危险，消费者未必了解",
-      "score": 7,
-      "tags": [
-        "agentic AI",
-        "AI security",
-        "Meta Muse",
-        "virtual machines",
-        "consumer AI"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "bb9dc9865500a31b34da1873e0d7f967cc77f63d",
-      "canonicalId": "dd9294605b3618823109042c332bdc7258d22a86",
-      "slug": "kde-获近-130-万欧元资助推进企业功能",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "KDE 获近 130 万欧元资助推进企业功能",
-      "score": 7,
-      "tags": [
-        "KDE",
-        "open-source funding",
-        "Sovereign Tech Agency",
-        "Akademy 2026",
-        "enterprise features"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "40099f77235e47901b49772bd9e83eaf57dd65db",
-      "canonicalId": "5d6d5bc0c03d1cd256404fc533952af8e0db172f",
-      "slug": "git-贡献者峰会纪要发布涉及-git-30安全流程与-llm-使用",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "Git 贡献者峰会纪要发布：涉及 Git 3.0、安全流程与 LLM 使用",
-      "score": 7,
-      "tags": [
-        "Git",
-        "open source",
-        "version control",
-        "Git 3.0",
-        "LLMs"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "93297d68e582d61174ad83c4353dabf70c66ac26",
-      "canonicalId": "3a09c87aa734f3e57a5a91a88414564b03e2693e",
-      "slug": "anthropic-实验claude-代理替-201-名员工换书",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "Anthropic 实验：Claude 代理替 201 名员工换书",
-      "score": 7,
-      "tags": [
-        "LLM agents",
-        "multi-agent negotiation",
-        "preference learning",
-        "Anthropic",
-        "human-AI delegation"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "f242b8777e4f3130d9391fa189bf9b60342b97e3",
-      "canonicalId": "60fc44718067c1c19670e2d0ef09dbc28283e75f",
-      "slug": "meta-muse-macos-应用零日漏洞可劫持账户",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "Meta Muse macOS 应用零日漏洞可劫持账户",
-      "score": 7,
-      "tags": [
-        "security vulnerability",
-        "zero-day",
-        "Meta Muse",
-        "macOS",
-        "account hijacking"
-      ],
-      "originalSite": "ithome.com"
-    },
-    {
-      "id": "a0f133194cea77a2f85fa80330da2596ad238021",
-      "canonicalId": "c9b6dd7b22a4e54aff34394a04ef52f31f0b544c",
-      "slug": "微软发布-copilot-超级应用整合聊天编码与智能体",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "微软发布 Copilot 超级应用：整合聊天、编码与智能体",
-      "score": 7,
-      "tags": [
-        "Microsoft Copilot",
-        "AI agents",
-        "developer tools",
-        "AI industry",
-        "product launch"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "8c6d1da987be44ef4b527802af85eaa05edba0ef",
-      "canonicalId": "1c18de282b50389e766913218a200fbfc1d1242d",
-      "slug": "prismml-在-snapdragon-ar1-gen-1-平台演示-1-bit-bonsai-模型",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "PrismML 在 Snapdragon AR1 Gen 1 平台演示 1-bit Bonsai 模型",
-      "score": 7,
-      "tags": [
-        "on-device AI",
-        "edge LLM",
-        "smart glasses",
-        "Qualcomm Snapdragon",
-        "1-bit quantization"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "a33e4e2856a8a8f51424a4e7bd88079616338da6",
-      "canonicalId": "16f0db458a1945f5f1a6246d78737161935cc970",
-      "slug": "美国上诉法院裁定各州可监管-kalshi-体育预测合约",
-      "date": "2026-09-26",
-      "lang": "zh",
-      "title": "美国上诉法院裁定各州可监管 Kalshi 体育预测合约",
-      "score": 8,
-      "tags": [
-        "Prediction markets",
-        "Kalshi",
-        "CFTC jurisdiction",
-        "Sports betting regulation",
-        "6th Circuit"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }
