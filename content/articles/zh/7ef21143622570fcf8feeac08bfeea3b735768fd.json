@@ -1,0 +1,36 @@
+{
+  "id": "7ef21143622570fcf8feeac08bfeea3b735768fd",
+  "canonicalId": "83d5cf45a1dd51695abd547d177bd830b98ca0a3",
+  "slug": "python-实验性-jit-将退出-cpython-主线",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-26T15:45:00Z",
+  "lang": "zh",
+  "title": "Python 实验性 JIT 将退出 CPython 主线",
+  "summary": "Python 指导委员会此前要求 JIT 维护者在六个月内提交并获批一份标准跟踪 PEP，明确维护承诺、兼容性和成功指标，否则就须从 CPython 主线移除该 JIT。维护者随后提出 PEP 836，但在数月讨论后将其撤回。这个 JIT 于 2024 年为 CPython 3.13 加入，属于实验性功能；随着 PEP 撤回，这项主线 JIT 开发实际上已告终止，代码也预计将从主线移除。",
+  "score": 7,
+  "tags": [
+    "Python",
+    "CPython",
+    "JIT",
+    "language runtime",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1102102/",
+  "originalSite": "lwn.net",
+  "context": "CPython 的 JIT 是 2024 年随 Python 3.13 以实验特性加入的，依据是仅提供信息、不构成正式共识的 PEP 744，而非标准跟踪 PEP。Horizon 2026 年 9 月 2 日的日报曾报道，指导委员会已暂停主分支上的 JIT 新开发，并要求在六个月内提交并获接受相关 PEP，否则将移除代码；如今 PEP 836 被撤回，正是这一期限和条件的直接后续。",
+  "discussion": "围绕 CPython 主线 JIT 构建的基准、打包或调试集成需要重新评估，因为指导委员会明确提到该实验与 instrumentation、调试、性能分析以及 CinderX 等外部 JIT 的兼容和共存问题。依赖这一实验性功能获取性能收益的开发者，也不能再把它当作受支持的 CPython 组件来规划生产部署。",
+  "references": [
+    {
+      "title": "2026-09-02 — Python 指导委员会暂停 CPython JIT 新开发，等待 PEP 获接受",
+      "url": "https://lwn.net/Articles/1090385/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

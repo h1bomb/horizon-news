@@ -1,0 +1,41 @@
+{
+  "id": "e07da70a951d63a1fc9828a45a6b068cc3c03f08",
+  "canonicalId": "d1a3b4fa5d93fb49d3ffb0461ed4419c6c113f01",
+  "slug": "raschka-推出从零构建推理模型视频课程",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-26T15:11:00Z",
+  "lang": "zh",
+  "title": "Raschka 推出从零构建推理模型视频课程",
+  "summary": "Sebastian Raschka 推出了一套从零构建推理模型的视频课程，面向希望按步骤理解推理模型实现过程的学习者。课程以视频形式提供，但现有信息未披露时长、价格、是否附带代码以及练习所需算力，因此其完整范围和上手门槛仍不明确。",
+  "score": 7,
+  "tags": [
+    "LLM reasoning",
+    "from-scratch learning",
+    "machine learning education",
+    "Sebastian Raschka",
+    "AI engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sgiannopoulos",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
+    }
+  ],
+  "originalUrl": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+  "originalSite": "magazine.sebastianraschka.com",
+  "context": "",
+  "discussion": "Hacker News 评论者肯定 Raschka 的讲解直观、相关书稿易读，同时有人提醒这类“从零”教程的目标不是训练可用的 LLM，因为真实训练还受算力、数据和工程问题限制；也有读者追问本地运行所需的硬件成本。上述均为个人经验与观点，评论未就课程效果形成一致结论。",
+  "references": [
+    {
+      "title": "Build a Reasoning Model (From Scratch) | Sebastian Raschka, PhD",
+      "url": "https://sebastianraschka.com/reasoning-from-scratch/"
+    },
+    {
+      "title": "Building Reasoning Models from the Ground Up: A Video Course",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

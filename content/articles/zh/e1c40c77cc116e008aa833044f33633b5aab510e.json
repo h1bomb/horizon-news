@@ -1,0 +1,41 @@
+{
+  "id": "e1c40c77cc116e008aa833044f33633b5aab510e",
+  "canonicalId": "f16aefe89a6e3f3b8efed940fa1afba45d52bb2d",
+  "slug": "openai-宣称-eth-为假并公布三项数学物理结果",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-26T21:35:00Z",
+  "lang": "zh",
+  "title": "OpenAI 宣称 ETH 为假并公布三项数学物理结果",
+  "summary": "OpenAI 公布与学术社区合作的研究成果，声称在调和分析与 Kakeya 猜想、复杂性理论和量子场论三个方向取得发现，其中最引人注目的是“指数时间假设（ETH）为假”。评论中引述的公告还称，模型于 2026 年 9 月 9 日生成 Yang–Mills 存在性的自然语言证明、9 月 18 日生成 QCD 证明，并等到 Lean 形式化完成后才发布，Yang–Mills 部分的形式化于 10 月 16 日完成。上述结果目前仅是 OpenAI 的声明，所给材料没有提供独立验证或论文细节，因此应视为待核实的重大主张。",
+  "score": 9,
+  "tags": [
+    "complexity theory",
+    "mathematics",
+    "quantum field theory",
+    "OpenAI",
+    "research announcements"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jonluca",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50251344"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+  "originalSite": "openai.com",
+  "context": "",
+  "discussion": "评论者主要围绕“ETH 为假”的分量展开：martinhath 称 ETH 是参数化复杂性中许多边界与硬度证明长期依赖的假设，并对这一结果感到震惊；mlinsey 则追问，这是否会显著提高其对 P=NP 的先验判断。另有评论以“2026 年很怪”“重大猜想接连倒下”表达惊讶，但这些属于情绪反应，而非对结果的验证。",
+  "references": [
+    {
+      "title": "OpenAI Exponential Time Hypothesis Disproved? 3 Claims ...",
+      "url": "https://www.explainx.ai/blog/openai-exponential-time-hypothesis-false-kakeya-yang-mills-three-results-lean-collaborations-2026"
+    },
+    {
+      "title": "Exponential time hypothesis - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Exponential_time_hypothesis"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

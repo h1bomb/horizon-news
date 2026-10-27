@@ -1,6 +1,159 @@
 {
   "articles": [
     {
+      "id": "e1c40c77cc116e008aa833044f33633b5aab510e",
+      "canonicalId": "f16aefe89a6e3f3b8efed940fa1afba45d52bb2d",
+      "slug": "openai-宣称-eth-为假并公布三项数学物理结果",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "OpenAI 宣称 ETH 为假并公布三项数学物理结果",
+      "score": 9,
+      "tags": [
+        "complexity theory",
+        "mathematics",
+        "quantum field theory",
+        "OpenAI",
+        "research announcements"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "60fde09afce9197ed50bf6f885865243379ea77d",
+      "canonicalId": "d7b6b5fce56b21ea09673052fb7b55eade7a174a",
+      "slug": "anthropic-提交-s-1财务与算力承诺成焦点",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "Anthropic 提交 S-1，财务与算力承诺成焦点",
+      "score": 9,
+      "tags": [
+        "AI industry",
+        "Anthropic",
+        "IPO/SEC filings",
+        "AI economics",
+        "open-weight models"
+      ],
+      "originalSite": "sec.gov"
+    },
+    {
+      "id": "c143964e4b0384da51dd09decdf8a63321fc3dc8",
+      "canonicalId": "2693f45a7074e61487baf466a4e847e325e600cf",
+      "slug": "微软提出-python-专用-type-server-protocol",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "微软提出 Python 专用 Type Server Protocol",
+      "score": 7,
+      "tags": [
+        "Python",
+        "type checking",
+        "developer tooling",
+        "protocols",
+        "LSP"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "a9e2679439eb1de6f83a4a99d7e0f0488970ea3c",
+      "canonicalId": "22fd1d0b13226c4a5bb3555d12037295b1fcd944",
+      "slug": "微软向约四分之一员工提出买断方案",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "微软向约四分之一员工提出买断方案",
+      "score": 7,
+      "tags": [
+        "Microsoft",
+        "tech industry",
+        "workforce reduction",
+        "layoffs",
+        "corporate strategy"
+      ],
+      "originalSite": "seattletimes.com"
+    },
+    {
+      "id": "e07da70a951d63a1fc9828a45a6b068cc3c03f08",
+      "canonicalId": "d1a3b4fa5d93fb49d3ffb0461ed4419c6c113f01",
+      "slug": "raschka-推出从零构建推理模型视频课程",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "Raschka 推出从零构建推理模型视频课程",
+      "score": 7,
+      "tags": [
+        "LLM reasoning",
+        "from-scratch learning",
+        "machine learning education",
+        "Sebastian Raschka",
+        "AI engineering"
+      ],
+      "originalSite": "magazine.sebastianraschka.com"
+    },
+    {
+      "id": "7801184d58de67940ec64999e71b342f5e2751b6",
+      "canonicalId": "1758535ac6be3e6bbbbd229f2163da1b6bc77452",
+      "slug": "openai-发布-gpt-61-terra标准-api-价格减半",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "OpenAI 发布 GPT-6.1 Terra，标准 API 价格减半",
+      "score": 7,
+      "tags": [
+        "openai",
+        "llm-release",
+        "reasoning-models",
+        "model-pricing",
+        "hacker-news"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "7ef21143622570fcf8feeac08bfeea3b735768fd",
+      "canonicalId": "83d5cf45a1dd51695abd547d177bd830b98ca0a3",
+      "slug": "python-实验性-jit-将退出-cpython-主线",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "Python 实验性 JIT 将退出 CPython 主线",
+      "score": 7,
+      "tags": [
+        "Python",
+        "CPython",
+        "JIT",
+        "language runtime",
+        "open source"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "2434946bb5288a52551f1a7756ea22677362e986",
+      "canonicalId": "ba7ccac6f9244da1741769c0715f5be595d57ffb",
+      "slug": "ifixit-拆解-iphone-duo510-可维修性内屏更换-999-美元",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "iFixit 拆解 iPhone Duo：5/10 可维修性，内屏更换 999 美元",
+      "score": 7,
+      "tags": [
+        "iFixit",
+        "iPhone Duo",
+        "foldable phones",
+        "repairability",
+        "display technology"
+      ],
+      "originalSite": "ifixit.com"
+    },
+    {
+      "id": "c09c7f8e3cfb4d7656536f2b83447b9a24b09db0",
+      "canonicalId": "8b1ade103034b97ebb0e7f1881e64f5f397b6209",
+      "slug": "拆解-salesforce-agentforce-的智能体技术栈",
+      "date": "2026-10-27",
+      "lang": "zh",
+      "title": "拆解 Salesforce Agentforce 的智能体技术栈",
+      "score": 6,
+      "tags": [
+        "AI agents",
+        "agent reliability",
+        "context engineering",
+        "Salesforce Agentforce",
+        "MCP"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
       "id": "bd678d6fce726384aabf4e8174af153d01c86def",
       "canonicalId": "69696c78864a6bdc51e36a5fa86c5c93e4287f5d",
       "slug": "brotli-高危漏洞波及-python-与-nodejs-http-组件",
@@ -4939,74 +5092,6 @@
         "credit markets"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "2c4949949dafac41d08218b919e47f9d0214bf74",
-      "canonicalId": "f7b924deeab1ada9dce41fc484dc6faabfe62986",
-      "slug": "gdb-181-发布新增命令目标支持与-python-api",
-      "date": "2026-09-27",
-      "lang": "zh",
-      "title": "GDB 18.1 发布：新增命令、目标支持与 Python API",
-      "score": 7,
-      "tags": [
-        "GDB",
-        "debuggers",
-        "developer-tools",
-        "open-source",
-        "release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "66a741c9bc858458feafb6bc3cb1eb05096e40b6",
-      "canonicalId": "a7fc94a8f10dc722d7f6010517a663c4b5fcde33",
-      "slug": "openai-称其-ai-智能体越界访问网站并转移用户图片",
-      "date": "2026-09-27",
-      "lang": "zh",
-      "title": "OpenAI 称其 AI 智能体越界访问网站并转移用户图片",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "AI safety",
-        "data privacy",
-        "OpenAI",
-        "security incident"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "fbe4b02f5827bf8d4a543f12dab2e0bb0d798e5c",
-      "canonicalId": "0a065731ab4183581fed62ae6ecd6f64c17a10a5",
-      "slug": "10-年期美债收益率升至-523创-2007-年以来最高",
-      "date": "2026-09-27",
-      "lang": "zh",
-      "title": "10 年期美债收益率升至 5.23%，创 2007 年以来最高",
-      "score": 8,
-      "tags": [
-        "US Treasury yields",
-        "Federal Reserve",
-        "bond issuance",
-        "AI infrastructure spending",
-        "inflation expectations"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "9cc9e709bf3a708c10299cfcbd53540ae822a390",
-      "canonicalId": "b6de488c4bf690248b34f516e4347dc19ac466d4",
-      "slug": "香港证监会与普华永道就恒大审计达成-10-亿港元和解",
-      "date": "2026-09-27",
-      "lang": "zh",
-      "title": "香港证监会与普华永道就恒大审计达成 10 亿港元和解",
-      "score": 8,
-      "tags": [
-        "恒大",
-        "普华永道",
-        "香港证监会",
-        "审计和解",
-        "清盘人诉讼"
-      ],
-      "originalSite": "wallstreetcn.com"
     }
   ]
 }

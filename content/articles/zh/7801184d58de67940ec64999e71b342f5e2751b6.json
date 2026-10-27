@@ -1,0 +1,41 @@
+{
+  "id": "7801184d58de67940ec64999e71b342f5e2751b6",
+  "canonicalId": "1758535ac6be3e6bbbbd229f2163da1b6bc77452",
+  "slug": "openai-发布-gpt-61-terra标准-api-价格减半",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-26T18:01:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-6.1 Terra，标准 API 价格减半",
+  "summary": "OpenAI 发布 GPT-6.1 Terra，主打视觉理解与电脑操作，并已向 ChatGPT Work 和 Codex 的 Plus、Pro、Enterprise、Edu 用户开放。标准 API 定价为每百万输入 token 1 美元、每百万缓存输入 token 0.05 美元、每百万输出 token 5 美元，较 GPT-5.6 Terra 低 50%。发布信息称，其在基准测试中比 GPT-5.6 Terra 高 15 个百分点、成本约为三分之一，低推理强度下错误率从 53.6% 降至 16.7%。",
+  "score": 7,
+  "tags": [
+    "openai",
+    "llm-release",
+    "reasoning-models",
+    "model-pricing",
+    "hacker-news"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "meetpateltech",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50248124"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-6-1-terra/",
+  "originalSite": "openai.com",
+  "context": "Horizon 7 月 31 日的日报曾报道，OpenAI 对 GPT-5.6 系列降价，其中 Terra 降 20%、Luna 降 80%；此次 GPT-6.1 Terra 的标准 API 价格被描述为 GPT-5.6 Terra 的一半，这延续了 GPT-5.6 Terra 的定价降低趋势。Horizon 9 月 30 日的日报还记录了 Hacker News 上关于 GPT-6.1 Sol 的提交，该提交宣称以约五分之一 Astra 的价格提供接近 Astra 的智能，但当时没有公告正文可核实；现在 GPT-6.1 Terra 把同一 6.1 代次扩展到另一款模型。",
+  "discussion": "对使用 OpenAI API 的开发者来说，直接影响是模型选型和成本核算方式需要调整：OpenRouter 将 GPT-6.1 Terra 列为每百万输入 token 1 美元、每百万输出 token 5 美元，上下文窗口为 1,050,000 token，单次最多可输出 128,000 token；OpenAI 称，在中等推理强度下，它的表现与 GPT-6 Astra 相当，而每 token 价格约为 Astra 的十分之一。原先为追求更高能力而选用 Astra 的批处理或长上下文任务，现在可以改选 Terra 以降低单价，但在迁移前应按实际任务重新计算总成本，不能只凭每 token 价格或推理档位推断。\n\nHacker News 讨论中，simonw 观察到“none”和“low”推理档位似乎都不消耗推理 token，low 反而比 none 更便宜，而 medium 用了 496 个推理 token 却未返回可见推理轨迹；minimaxir 则认为 Terra 仍夹在变强的 Luna 与大幅降价的 Sol 之间，TerminalBench 4.0 的每任务成本让人不清楚为何选 Terra 而非 Sol。Silagi 质疑 Terra 和 Sonnet 的独立价值，称其测试中总能通过升降模型档位与推理档位获得更便宜或更强的结果。",
+  "references": [
+    {
+      "title": "2026-07-31 — GPT-5.6 大幅降价，Luna 成本降 80%",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"
+    },
+    {
+      "title": "2026-09-30 — OpenAI GPT-6.1 Sol：宣称接近 Astra 智能，价格仅五分之一",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

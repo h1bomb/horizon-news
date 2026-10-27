@@ -1,0 +1,31 @@
+{
+  "id": "c09c7f8e3cfb4d7656536f2b83447b9a24b09db0",
+  "canonicalId": "8b1ade103034b97ebb0e7f1881e64f5f397b6209",
+  "slug": "拆解-salesforce-agentforce-的智能体技术栈",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-26T15:30:00Z",
+  "lang": "zh",
+  "title": "拆解 Salesforce Agentforce 的智能体技术栈",
+  "summary": "rss · ByteByteGo · 10月26日 15:30\n\n**「背景」** Salesforce 首版 Agentforce 把规则、数据查询和工具说明全放进一个提示词，规则一多模型就漏指令；在医疗、招聘等场景，这不可接受。\n\n**「方案」** 新架构把四项职责移出提示词：Agent Script 用代码写确定性规则，经 Agent Graph 由 Atlas 引擎执行，只在推理时调用模型；Data 360 跨源取数、对齐字段并解析身份，生成统一画像；Agent Context Engine 负责解析、规划、排序、治理和编译上下文，只送入当前问题所需数据；Agent Identity 给智能体独立身份，执行前同时校验用户与智能体权限。对外，AIforce 与 Headless Toolkit 通过 API、skills 和 MCP 接入 Slack、Claude，MCP Server 以 discover、describe、dispatch 等四个工具按需检索工具定义，避免数百个工具占满上下文。Salesforce 称首版约 8 条指令后模型开始丢规则，IFScale 中最强模型在 500 条指令下也只遵循 68%；其演示称上下文引擎把同一问题的输入从 12.4 万 token 降至 9 千。作者提醒代码只适合可预测部分，并追问 ACE 治理时用的是用户与智能体权限的交集，还是只看用户权限？若是后者，智能体仍可能把无权调用的数据编进回答。\n\n**「启示」** 作者的核心结论是：智能体可靠性来自代码、数据、上下文和身份系统的分层约束，而非更长的提示词；但 Salesforce 的效果多为厂商叙述，权限一致性等细节仍待验证。\n\n**标签**: `#AI agents`, `#agent reliability`, `#context engineering`, `#Salesforce Agentforce`, `#MCP`",
+  "score": 6,
+  "tags": [
+    "AI agents",
+    "agent reliability",
+    "context engineering",
+    "Salesforce Agentforce",
+    "MCP"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/a-deep-dive-into-salesforces-agent",
+  "originalSite": "blog.bytebytego.com",
+  "context": "Salesforce 首版 Agentforce 把规则、数据查询和工具说明全放进一个提示词，规则一多模型就漏指令；在医疗、招聘等场景，这不可接受。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

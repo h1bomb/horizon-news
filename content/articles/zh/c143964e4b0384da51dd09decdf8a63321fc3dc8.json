@@ -1,0 +1,45 @@
+{
+  "id": "c143964e4b0384da51dd09decdf8a63321fc3dc8",
+  "canonicalId": "2693f45a7074e61487baf466a4e847e325e600cf",
+  "slug": "微软提出-python-专用-type-server-protocol",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-26T18:14:00Z",
+  "lang": "zh",
+  "title": "微软提出 Python 专用 Type Server Protocol",
+  "summary": "微软在 pylance-release 仓库发布 Type Server Protocol（TSP）文档，提出一套仅面向 Python 的类型检查服务器协议，供编辑器、IDE 与类型检查工具对接使用。该文档目前是提案而非已交付的通用标准，具体实现和跨工具兼容性尚未由来源内容说明。相关讨论集中在协议命名、LSP 是否已足够，以及 Python 类型检查器生态碎片化的问题上。",
+  "score": 7,
+  "tags": [
+    "Python",
+    "type checking",
+    "developer tooling",
+    "protocols",
+    "LSP"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "adamnemecek",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50248371"
+    }
+  ],
+  "originalUrl": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+  "originalSite": "github.com",
+  "context": "TSP 被定位为在 LSP 之上扩展的开放标准，目的是让编辑器或工具把任意类型检查器作为一等后端接入；在此之前，Pylance 与 Pyright 同编辑器扩展紧密耦合。按协议文档，类型服务器负责维护工作区的类型分析状态，并响应协议版本、快照、Python 搜索路径、导入解析以及计算、声明和预期类型等查询。",
+  "discussion": "评论中，有用户指出 basedpyright 维护者 DetachHead 曾批评 TSP，而 Astral 的 Ty 据称将支持 TSP；另有评论者质疑一个仅面向 Python 的协议为何使用通用的 “Type Server Protocol” 名称，并追问单靠 LSP 是否不足以支持 Python 类型查询。还有开发者报告称自己改用 Pyrefly 后工作流稳定，并认为 pyright、pylance、basedpyright 等分支造成跨 IDE 结果不一致。",
+  "references": [
+    {
+      "title": "pylance-release/docs/tsp/type-server-protocol.md at main ...",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md"
+    },
+    {
+      "title": "Pylance + Pyrefly: bring your preferred type checker to ...",
+      "url": "https://devblogs.microsoft.com/python/announcing-tsp/"
+    },
+    {
+      "title": "Should ty support the Type Server Protocol? #1190 - GitHub",
+      "url": "https://github.com/astral-sh/ty/issues/1190"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
