@@ -1,0 +1,56 @@
+{
+  "id": "f3bcf03fceaed0cf79f3fb7351935ceff505a591",
+  "canonicalId": "5754561852654c6d6e67fd26bac955dfc673c6b6",
+  "slug": "微软修复安卓-authenticator-高危漏洞恶意应用可窃取工作账户令牌",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T12:04:00Z",
+  "lang": "zh",
+  "title": "微软修复安卓 Authenticator 高危漏洞，恶意应用可窃取工作账户令牌",
+  "summary": "微软已发布 Android 版 Microsoft Authenticator 6.2606.4246，修复一个高危漏洞：设备上已安装并运行的恶意应用无需申请 Android 权限，即可获取已登录工作账户的令牌。研究人员称无需用户进一步操作；微软则认为攻击者需要诱使用户完成身份验证。微软首次发布公告时表示，未发现该漏洞被实际利用。",
+  "score": 7,
+  "tags": [
+    "security vulnerability",
+    "Microsoft Authenticator",
+    "Android",
+    "authentication tokens",
+    "CVE-2026-80097"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-80097",
+  "originalSite": "msrc.microsoft.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps ...",
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+    },
+    {
+      "title": "Microsoft Authenticator Flaw Lets Malicious Android Apps ...",
+      "url": "https://cybersecuritynews.com/microsoft-authenticator-flaw/"
+    },
+    {
+      "title": "CVE-2026-80097: Update Microsoft Authenticator for Android to ...",
+      "url": "https://windowsforum.com/news/cve-2026-80097-update-microsoft-authenticator-for-android-to-block-work-token-theft.450026/"
+    },
+    {
+      "title": "CVE-2026-80097: Update Microsoft Authenticator for Android to ...",
+      "url": "https://windowsforum.com/news/cve-2026-80097-update-microsoft-authenticator-for-android-to-block-work-token-theft.450026/"
+    },
+    {
+      "title": "CVE-2026-80097 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2026-80097"
+    },
+    {
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps ...",
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

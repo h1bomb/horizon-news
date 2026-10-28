@@ -1,0 +1,44 @@
+{
+  "id": "f400db82ed8baf72e581b74cd103b1735496ef3f",
+  "canonicalId": "f16aefe89a6e3f3b8efed940fa1afba45d52bb2d",
+  "slug": "openai-称模型产出三项科研结果待外部验证",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T15:00:00Z",
+  "lang": "zh",
+  "title": "OpenAI 称模型产出三项科研结果，待外部验证",
+  "summary": "OpenAI 公布其内部模型产出的三项结果：各维度局部光滑化猜想的证明、指数时间假设（ETH）不成立的反证，以及四维杨–米尔斯理论的存在性证明。OpenAI 将这些结果描述为“原始研究数据”，并邀请外部专家分组解读和验证；计算机科学组已即时公开证明及 Lean 形式化，物理组则暂缓发布。三项结果目前均未经外部独立验证，若最终成立将构成相关领域的重大突破，但现阶段应视为待核实的模型产出。",
+  "score": 8,
+  "tags": [
+    "AI for science",
+    "mathematical proofs",
+    "computational complexity",
+    "Lean formalization",
+    "Yang-Mills"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+  "originalSite": "openai.com",
+  "context": "指数时间假设（ETH）是细粒度复杂性理论所依赖的核心假设，四维杨–米尔斯存在性则是克雷数学研究所七大千禧年难题之一，二者都属于长期未解的基础问题。Horizon 8 月 4 日的日报曾报道，OpenAI 发布《数学领域的十项进展》，综述 AI 在数学与理论计算机科学的成果；此次 OpenAI 则把三项具体结果交给外部专家分组解读与验证。菲尔兹奖得主高尔斯在 8 月的分析中认为，当前 LLM 更接近“采样式”的候选生成，距离产出人类式的新颖证明仍有差距（Horizon 8 月 13 日日报），这也解释了 OpenAI 为何强调这些结果仍需外部验证。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-08-13 — 高尔斯：LLM 擅长采样式数学，而非人类式定理证明",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/"
+    },
+    {
+      "title": "2026-08-04 — OpenAI 概述 AI 在数学与理论计算机科学的十项进展",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/"
+    },
+    {
+      "title": "Exponential time hypothesis - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Exponential_time_hypothesis"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "596bdcd5fe786feaa98b90a549fe3d8c5cc44a6f",
+  "canonicalId": "2fb0f351f38405364daa1e0520141fa488c415a6",
+  "slug": "tailscale-发布-ssh-漏洞调查与修复更新",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T19:55:00Z",
+  "lang": "zh",
+  "title": "Tailscale 发布 SSH 漏洞调查与修复更新",
+  "summary": "Tailscale 发布了针对 Tailscale SSH 的漏洞调查与修复更新，涉及通过 ACL 授权 SSH 访问的部署场景。由于所给来源没有正文，具体漏洞编号、受影响版本、修复版本和发布时间均无法核实；目前只能确认这是厂商的修复更新，尚不能从材料判断修复是否已覆盖所有部署。",
+  "score": 7,
+  "tags": [
+    "Tailscale",
+    "SSH",
+    "security vulnerability",
+    "access control",
+    "remediation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "figmert",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50264857"
+    }
+  ],
+  "originalUrl": "https://tailscale.com/ssh-investigation-update",
+  "originalSite": "tailscale.com",
+  "context": "Tailscale SSH 是 Tailscale 提供的托管式 SSH 访问功能，它用 tailnet 身份和 ACL 规则授权登录，而不是依赖静态 SSH 密钥或 OpenSSH 配置。此次更新发布前，外部报道已称存在未修补的 Tailscale SSH 权限提升问题，Tailscale 随后确认相关问题并预计在一天内发布补丁；本次更新即是其调查与修复进展说明。",
+  "discussion": "评论中，一名自称前 Tailscale 员工的用户称，按其审查，漏洞只影响通过 ACL 允许 Tailscale SSH 登录、但没有通往 sudoers/root 路径的配置；若用户本无 SSH 访问或节点连通性，则不会因此获得入口。其他评论者则质疑让 Tailscale 同时处理 VPN 和服务认证会增加单点故障与攻击面，并表示因此继续使用原生 OpenSSH 或改用 WireGuard。",
+  "references": [
+    {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach...",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
+    },
+    {
+      "title": "Manage SSH Keys Securely with Tailscale",
+      "url": "https://tailscale.com/tailscale-ssh"
+    },
+    {
+      "title": "Tailscale SSH Flaw TS-2026-009 Allowed Root Access Through ...",
+      "url": "https://gikiewicz.com/tailscale-ssh-flaw-ts-2026-009-allowed-root-access-through"
+    },
+    {
+      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across ...",
+      "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

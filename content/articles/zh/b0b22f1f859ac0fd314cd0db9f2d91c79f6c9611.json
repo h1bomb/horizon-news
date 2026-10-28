@@ -1,0 +1,31 @@
+{
+  "id": "b0b22f1f859ac0fd314cd0db9f2d91c79f6c9611",
+  "canonicalId": "b44da20eb7420f359a8650d264840063bd00af6d",
+  "slug": "triton-390-发布新增原子加载与存储",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T18:56:00Z",
+  "lang": "zh",
+  "title": "Triton 3.9.0 发布：新增原子加载与存储",
+  "summary": "Triton 3.9.0 发布，面向使用该 GPU 内核语言和编译器的开发者，新增 \\`tl.atomic\\_load\\`、\\`tl.atomic\\_store\\` 和 \\`tl.atomic\\_poll\\`，并加入 \\`tl.fdiv\\(..., approx=True\\)\\` 快速 FP32 除法及链式比较等语法改进。后端方面，带 \\`acquire\\`、\\`release\\` 或 \\`acq\\_rel\\` 语义的原子操作现在会插入 CTA 级屏障，读改写和 CAS 原子默认使用 \\`acq\\_rel\\`，可传 \\`sem=&quot;relaxed&quot;\\` 避免屏障；发布说明称 NVIDIA 上批量 MMAv2 dot 最高快 40 倍。该版本还改变了 E8M0 特殊值的解码：\\`0x00\\` 从零变为 \\`2^-127\\`，\\`0xFF\\` 从无穷变为 NaN，使用这些值的核函数结果会变化。",
+  "score": 7,
+  "tags": [
+    "Triton",
+    "GPU compiler",
+    "release notes",
+    "AI infrastructure",
+    "atomic operations"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "warrendeng"
+    }
+  ],
+  "originalUrl": "https://github.com/triton-lang/triton/releases/tag/v3.9.0",
+  "originalSite": "github.com",
+  "context": "Triton 是面向 GPU 内核的编程语言与编译器，开发者用 Python 风格代码编写可在 NVIDIA 和 AMD GPU 上编译执行的内核。此前其原子能力以读改写和 CAS 为主，3.9.0 将原子加载、原子存储和按值轮询补充为独立的前端原语，因此这次变化直接影响内核源码和编译结果。",
+  "discussion": "现有内核若依赖原子操作的内存序或使用 E8M0 的 \\`0x00\\`、\\`0xFF\\` 值，需要复查行为：原子读改写和 CAS 默认的 \\`acq\\_rel\\` 会引入 CTA 级屏障，必要时可用 \\`sem=&quot;relaxed&quot;\\` 避免；E8M0 解码变化则可能改变计算结果。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

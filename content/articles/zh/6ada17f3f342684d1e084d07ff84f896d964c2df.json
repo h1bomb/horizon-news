@@ -1,0 +1,31 @@
+{
+  "id": "6ada17f3f342684d1e084d07ff84f896d964c2df",
+  "canonicalId": "c660494836a3b01f70b17aa664ab92c254de4ea1",
+  "slug": "cuda-134-与-kai-scheduler-的-gpu-内存强制共享",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T20:50:00Z",
+  "lang": "zh",
+  "title": "CUDA 13.4 与 KAI Scheduler 的 GPU 内存强制共享",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 10月27日 20:50\n\n**「背景」** 许多 AI 工作负载只需 GPU 的一小部分，整卡分配会浪费容量；MIG（硬件隔离）、时间切片（轮流使用）和 MPS（并发运行）各有限制，且缺少应用透明的内存强制，难以直接由 Kubernetes 调度。\n\n**「方案」** NVIDIA 称 CUDA 13.4 新增内存强制机制，可在时间共享模式下设定应用透明的内存上限：既能申请精确大小，也能获得保底内存并在空闲时增长到上限，还可选用 sm-sharing 计算共享。仅靠 CUDA 不够，节点上的 gpu-fractioning 开源 Operator 负责运行并监管 MPS 等守护进程、在容器启动前施加限制，并按份额而非整卡统计用量。调度器选卡后把每个容器的内存请求、上限、计算模式和设备列表写入 Pod 注解，Operator 读取并执行；KAI Scheduler 从 v0.18.0 起以 NvFractions 模式首个集成，安装时一并部署该 Operator。请求可用绝对大小或 gpu-fraction 比例表达，上限可选，省略时等于请求；gpu-fraction-num-devices 让请求按每卡计算。时间切片按序轮流执行，各工作负载拥有独立错误域；sm-sharing 并行分配 SM、共用同一个错误域，因此同一 GPU 不能混用两种模式。原文以功能说明和 YAML 示例为主，未给出性能、隔离开销或故障模式的实测数据。\n\n**「启示」** 其意义在于把 GPU 内存份额变成节点上可强制执行的资源，使 Kubernetes 无需改造应用即可细分 GPU；但效果依赖调度器与 Operator 的配合，sm-sharing 的共享错误域也要求谨慎选择工作负载。\n\n**标签**: `#GPU sharing`, `#Kubernetes`, `#NVIDIA CUDA`, `#MPS`, `#KAI Scheduler`",
+  "score": 6,
+  "tags": [
+    "GPU sharing",
+    "Kubernetes",
+    "NVIDIA CUDA",
+    "MPS",
+    "KAI Scheduler"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
+  "originalSite": "developer.nvidia.com",
+  "context": "许多 AI 工作负载只需 GPU 的一小部分，整卡分配会浪费容量；MIG（硬件隔离）、时间切片（轮流使用）和 MPS（并发运行）各有限制，且缺少应用透明的内存强制，难以直接由 Kubernetes 调度。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

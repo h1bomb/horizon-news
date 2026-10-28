@@ -1,0 +1,36 @@
+{
+  "id": "eb2b296937a8c85381100903c5b5b0d493f9a01a",
+  "canonicalId": "7b7c829233c69e1989491348d09650481ef26716",
+  "slug": "中国团队称-24-芯光纤实现-32-pbs-实时传输纪录",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T03:45:00Z",
+  "lang": "zh",
+  "title": "中国团队称 24 芯光纤实现 3.2 Pb/s 实时传输纪录",
+  "summary": "据 Tom&\\#x27;s Hardware 报道，中国团队声称利用 24 芯光纤实现 3.2 Pb/s 的实时光纤传输，足以在一秒内传输超过 2 万部 4K 电影；这一速率较该团队今年早些时候的 2.5 Pb/s 纪录提升近 30%。报道称，测试采用商用兼容硬件架构，并验证了空分复用和 S+C+L 多波段传输技术。该结果目前来自二手简短报道，尚无论文或独立验证；报道还提到，实验室光纤传输纪录曾达 5.29 Pb/s，但使用的是更先进或实验性的设备与信号处理。",
+  "score": 7,
+  "tags": [
+    "optical networking",
+    "fiber optics",
+    "space-division multiplexing",
+    "multi-band transmission",
+    "networking hardware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.tomshardware.com/networking/3-2-pb-s-real-time-optical-fiber-transfer-speed-world-record-claimed-by-chinese-team-speed-fast-enough-to-download-more-than-20-000-4k-movies-in-one-second",
+  "originalSite": "tomshardware.com",
+  "context": "空分复用通过在单根光纤内集成多根纤芯来并行承载信号；S+C+L 多波段则是在常规 C 波段之外扩展可用光谱。两者都是提升单纤容量的主要技术路线，本次测试还要求在商用兼容硬件上完成实时收发，而不是靠离线信号处理事后还原。报道同时提到，实验室光纤传输纪录曾达到 5.29 Pb/s，但依赖先进或实验性设备与信号处理，因此与实时 3.2 Pb/s 的结果不属同一可比条件；该团队今年早些时候的实时纪录为 2.5 Pb/s。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "China claims 3.2 Pb/s optical fiber record — could send ...",
+      "url": "https://www.notebookcheck.net/China-claims-3-2-Pb-s-optical-fiber-record-could-send-20-000-4K-movies-per-second.1434319.0.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

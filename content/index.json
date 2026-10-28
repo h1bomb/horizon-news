@@ -1,6 +1,278 @@
 {
   "articles": [
     {
+      "id": "8468794505709a2bb0369299e504ad414acb46ff",
+      "canonicalId": "07281666d13cd0ef0092ff2f91ad60458b786c05",
+      "slug": "有限单群分类在-lean-中形式化的公告",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "有限单群分类在 Lean 中形式化的公告",
+      "score": 9,
+      "tags": [
+        "Lean",
+        "formal mathematics",
+        "proof assistants",
+        "finite group theory",
+        "CFSG"
+      ],
+      "originalSite": "cfsg.axiommath.ai"
+    },
+    {
+      "id": "6c0b43060cab8542d5a4b58a1a396f8e107a4470",
+      "canonicalId": "5ef94984dce414f6cd0dec7eb033a3aff5071eaa",
+      "slug": "deepmind-发布-genie-4-世界模型支持实时音画与对话",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "DeepMind 发布 Genie 4 世界模型，支持实时音画与对话",
+      "score": 8,
+      "tags": [
+        "world models",
+        "generative AI",
+        "DeepMind",
+        "video generation",
+        "multimodal AI"
+      ],
+      "originalSite": "deepmind.google"
+    },
+    {
+      "id": "ead3f8356ff70b50a383e7aabc4d917a5a3b7230",
+      "canonicalId": "6cae593d0f4e7105ed3f9d82b21cb9ce3e8557c3",
+      "slug": "anthropic-确认内部系统遭访问称模型权重未受影响",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "Anthropic 确认内部系统遭访问，称模型权重未受影响",
+      "score": 8,
+      "tags": [
+        "AI security",
+        "cybersecurity",
+        "Anthropic",
+        "autonomous agents",
+        "incident disclosure"
+      ],
+      "originalSite": "washingtonpost.com"
+    },
+    {
+      "id": "f400db82ed8baf72e581b74cd103b1735496ef3f",
+      "canonicalId": "f16aefe89a6e3f3b8efed940fa1afba45d52bb2d",
+      "slug": "openai-称模型产出三项科研结果待外部验证",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "OpenAI 称模型产出三项科研结果，待外部验证",
+      "score": 8,
+      "tags": [
+        "AI for science",
+        "mathematical proofs",
+        "computational complexity",
+        "Lean formalization",
+        "Yang-Mills"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "b0b22f1f859ac0fd314cd0db9f2d91c79f6c9611",
+      "canonicalId": "b44da20eb7420f359a8650d264840063bd00af6d",
+      "slug": "triton-390-发布新增原子加载与存储",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "Triton 3.9.0 发布：新增原子加载与存储",
+      "score": 7,
+      "tags": [
+        "Triton",
+        "GPU compiler",
+        "release notes",
+        "AI infrastructure",
+        "atomic operations"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "b08a69214d08baa0ef35b2aa364af4f6d8cf4936",
+      "canonicalId": "1688335f378e11598690d353097d2852d6425b00",
+      "slug": "cpython-实验性-jit-将被移除",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "CPython 实验性 JIT 将被移除",
+      "score": 7,
+      "tags": [
+        "Python",
+        "CPython",
+        "JIT compilation",
+        "free-threading",
+        "language performance"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "596bdcd5fe786feaa98b90a549fe3d8c5cc44a6f",
+      "canonicalId": "2fb0f351f38405364daa1e0520141fa488c415a6",
+      "slug": "tailscale-发布-ssh-漏洞调查与修复更新",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "Tailscale 发布 SSH 漏洞调查与修复更新",
+      "score": 7,
+      "tags": [
+        "Tailscale",
+        "SSH",
+        "security vulnerability",
+        "access control",
+        "remediation"
+      ],
+      "originalSite": "tailscale.com"
+    },
+    {
+      "id": "733be49c21889ea31927e28f290be1ac094d9060",
+      "canonicalId": "acb3a24ef951cfe3981520356b377d13c83d2f40",
+      "slug": "ieee-spectrum维基百科清理-ai-生成内容",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "IEEE Spectrum：维基百科清理 AI 生成内容",
+      "score": 7,
+      "tags": [
+        "AI-generated content",
+        "Wikipedia",
+        "content moderation",
+        "open knowledge",
+        "generative AI"
+      ],
+      "originalSite": "spectrum.ieee.org"
+    },
+    {
+      "id": "a0a7d14901d59ee67a8b824c13a2f66a50d557c3",
+      "canonicalId": "a4c44e96b0a94df51038ee6157b11679115f6b1d",
+      "slug": "报道称-anthropic-用非法获取的斯坦福教授著作训练-claude",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "报道称 Anthropic 用非法获取的斯坦福教授著作训练 Claude",
+      "score": 7,
+      "tags": [
+        "AI copyright",
+        "training data",
+        "Anthropic",
+        "Claude",
+        "AI ethics"
+      ],
+      "originalSite": "stanforddaily.com"
+    },
+    {
+      "id": "6659c71c1d6bfba5be8cd9091c73cabb4918c95c",
+      "canonicalId": "0b3125572ad0f1010de96d0d082d48f2e6ab420e",
+      "slug": "kangrejos-讨论-rust-内核代码的-panic-准则",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "Kangrejos 讨论 Rust 内核代码的 panic 准则",
+      "score": 7,
+      "tags": [
+        "Rust for Linux",
+        "kernel development",
+        "error handling",
+        "panics",
+        "Kangrejos 2026"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "eb2b296937a8c85381100903c5b5b0d493f9a01a",
+      "canonicalId": "7b7c829233c69e1989491348d09650481ef26716",
+      "slug": "中国团队称-24-芯光纤实现-32-pbs-实时传输纪录",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "中国团队称 24 芯光纤实现 3.2 Pb/s 实时传输纪录",
+      "score": 7,
+      "tags": [
+        "optical networking",
+        "fiber optics",
+        "space-division multiplexing",
+        "multi-band transmission",
+        "networking hardware"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "f3bcf03fceaed0cf79f3fb7351935ceff505a591",
+      "canonicalId": "5754561852654c6d6e67fd26bac955dfc673c6b6",
+      "slug": "微软修复安卓-authenticator-高危漏洞恶意应用可窃取工作账户令牌",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "微软修复安卓 Authenticator 高危漏洞，恶意应用可窃取工作账户令牌",
+      "score": 7,
+      "tags": [
+        "security vulnerability",
+        "Microsoft Authenticator",
+        "Android",
+        "authentication tokens",
+        "CVE-2026-80097"
+      ],
+      "originalSite": "msrc.microsoft.com"
+    },
+    {
+      "id": "398abd9b49d77e8dd57c06bf480a077ce1663c5a",
+      "canonicalId": "5a012bc20118eed0acfb803bb41559c7ef211c1b",
+      "slug": "苹果入门-macbook-pro-与-imac-升级-m6",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "苹果入门 MacBook Pro 与 iMac 升级 M6",
+      "score": 7,
+      "tags": [
+        "Apple Silicon",
+        "MacBook Pro",
+        "2nm process",
+        "hardware launch",
+        "on-device AI"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "4e140297708613f1df1e11761c033ee3b8f9484d",
+      "canonicalId": "c6329a986f18633d400948017268d24fe4c5af9f",
+      "slug": "dgx-spark-上加速-moe-推理的三项优化",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "DGX Spark 上加速 MoE 推理的三项优化",
+      "score": 8,
+      "tags": [
+        "MoE inference",
+        "speculative decoding",
+        "FP8 quantization",
+        "LLM inference optimization",
+        "DGX Spark"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "feda505074e92ea9c7668ef40d6e82fb52291b3d",
+      "canonicalId": "2862aed6fff3043ffbb140ed305b980650e8d171",
+      "slug": "apple-如何在-iphone-上装下-30-亿参数模型",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "Apple 如何在 iPhone 上装下 30 亿参数模型",
+      "score": 6,
+      "tags": [
+        "on-device LLM",
+        "quantization",
+        "KV cache",
+        "LoRA adapters",
+        "Apple Intelligence"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
+      "id": "6ada17f3f342684d1e084d07ff84f896d964c2df",
+      "canonicalId": "c660494836a3b01f70b17aa664ab92c254de4ea1",
+      "slug": "cuda-134-与-kai-scheduler-的-gpu-内存强制共享",
+      "date": "2026-10-28",
+      "lang": "zh",
+      "title": "CUDA 13.4 与 KAI Scheduler 的 GPU 内存强制共享",
+      "score": 6,
+      "tags": [
+        "GPU sharing",
+        "Kubernetes",
+        "NVIDIA CUDA",
+        "MPS",
+        "KAI Scheduler"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
       "id": "e1c40c77cc116e008aa833044f33633b5aab510e",
       "canonicalId": "f16aefe89a6e3f3b8efed940fa1afba45d52bb2d",
       "slug": "openai-宣称-eth-为假并公布三项数学物理结果",
@@ -4988,108 +5260,6 @@
         "trade policy",
         "consumer goods",
         "agriculture"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "47e0c74df0394f99d9436d96bac560e0f8d4cdf2",
-      "canonicalId": "5608ebd184e5130246cbba6a6bc708e0a4579859",
-      "slug": "semianalysis-测算中国已交付数据中心容量超-24gw",
-      "date": "2026-09-28",
-      "lang": "zh",
-      "title": "SemiAnalysis 测算：中国已交付数据中心容量超 24GW",
-      "score": 8,
-      "tags": [
-        "AI基础设施",
-        "数据中心",
-        "中国科技",
-        "大厂资本开支",
-        "液冷与高密电气"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "2df1233010a15b7a401bd6138ec67da051e56648",
-      "canonicalId": "f94c0a1e56c738b9711fcfeb1582c88ce7987126",
-      "slug": "无法解释的软件故障正被正常化",
-      "date": "2026-09-28",
-      "lang": "zh",
-      "title": "无法解释的软件故障正被正常化",
-      "score": 7,
-      "tags": [
-        "software reliability",
-        "AI-assisted development",
-        "software engineering",
-        "reproducibility",
-        "Hacker News"
-      ],
-      "originalSite": "ihatethefuture.com"
-    },
-    {
-      "id": "2cb7b2e2ca6f7f712827a1150af6892bd18a187d",
-      "canonicalId": "056694a3b2e7b72a1823f66a16b002d79bdf9e7a",
-      "slug": "东方星链与地卫二发布太空之弦计算星座计划",
-      "date": "2026-09-28",
-      "lang": "zh",
-      "title": "东方星链与地卫二发布“太空之弦”计算星座计划",
-      "score": 7,
-      "tags": [
-        "space computing",
-        "satellite constellation",
-        "AI infrastructure",
-        "inter-satellite laser links",
-        "China tech"
-      ],
-      "originalSite": "thepaper.cn"
-    },
-    {
-      "id": "33ad45ab85a9ad90b3c2f57bde21e20d5cbd65dc",
-      "canonicalId": "aa5fcfdfa5326ca5f1d77e3d95264847a25d0348",
-      "slug": "波音-737-max-曝降落自动导航软件缺陷",
-      "date": "2026-09-28",
-      "lang": "zh",
-      "title": "波音 737 MAX 曝降落自动导航软件缺陷",
-      "score": 7,
-      "tags": [
-        "Boeing 737 MAX",
-        "software defect",
-        "avionics",
-        "safety-critical systems",
-        "FAA investigation"
-      ],
-      "originalSite": "zaobao.com.sg"
-    },
-    {
-      "id": "3f6fd27a9a47bac4454c962f4b2d51bbe50e4155",
-      "canonicalId": "e17d8695a2adfa2bafed004c712e022f2eb6e765",
-      "slug": "澳大利亚参议院-ai-调查传唤-openai-与-anthropic-ceo",
-      "date": "2026-09-28",
-      "lang": "zh",
-      "title": "澳大利亚参议院 AI 调查传唤 OpenAI 与 Anthropic CEO",
-      "score": 7,
-      "tags": [
-        "AI regulation",
-        "AI safety incident",
-        "AI agents",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "3a603ae2732acf343ef6c645e22deff0131b9448",
-      "canonicalId": "94dfe2e76bbb7171bda8755ad3d85da5e4b5aa55",
-      "slug": "国债收益率飙升依赖发债的-ai-公司融资成本上升",
-      "date": "2026-09-28",
-      "lang": "zh",
-      "title": "国债收益率飙升，依赖发债的 AI 公司融资成本上升",
-      "score": 8,
-      "tags": [
-        "AI infrastructure",
-        "corporate debt",
-        "Treasury yields",
-        "data centers",
-        "credit markets"
       ],
       "originalSite": "cnbc.com"
     }

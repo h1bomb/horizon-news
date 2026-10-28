@@ -1,0 +1,31 @@
+{
+  "id": "4e140297708613f1df1e11761c033ee3b8f9484d",
+  "canonicalId": "c6329a986f18633d400948017268d24fe4c5af9f",
+  "slug": "dgx-spark-上加速-moe-推理的三项优化",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T15:00:00Z",
+  "lang": "zh",
+  "title": "DGX Spark 上加速 MoE 推理的三项优化",
+  "summary": "rss · NVIDIA Inference Performance Blog · 10月27日 15:00\n\n**「背景」** 在 NVIDIA DGX Spark 上以 batch size 1 运行 Ling-3.0-flash 时，剖析显示解码受内存带宽限制，每一步都要读取模型权重，其中 MoE 计算和词表输出投影（LM head）尤其突出。\n\n**「方案」** 作者据此评估了三项互补优化：用 Humming 的 MXFP4 MoE 内核按实际形状在运行时编译，使合成负载吞吐提高 9.3%；仅对 LM head 做在线 FP8 量化以减半其权重读取，累计提高 21.7%；再用模型自带的 NEXTN 层做 MTP 推测解码（3 个草稿步、4 个验证位置），把合成吞吐从 36.09 提升到 102.88 tok/s，累计提升 185.1%。MTP 的验证成本主要来自 MoE 专家激活而非注意力：普通解码每个 token 激活 8 个专家，验证 4 个 token 时最多激活 32 个，验证成本约为普通解码步的 2.26 倍。三项叠加还有个隐蔽陷阱：启用 FP8 LM head 与 MTP 时，草稿模型必须共享完整的 LM-head 模块而非仅权重；否则框架会静默把 FP8 权重当 BF16 使用，接受长度跌至 1.00，性能反而低于基线。在 1,319 道 GSM8K 题的端到端测试中，三项优化使吞吐提高 42.5%、平均延迟降低 24.5%，准确率几乎不变（96.89%→96.82%）；作者提醒合成负载的 185.1% 因接受长度更高（3.90 对 2.68）及采样、输出长度不同而被高估。\n\n**「启示」** 作者的核心结论是，在内存受限的解码中，降低每步权重读取与减少解码步数可以叠加，但真实收益强烈依赖工作负载；部署时必须显式确认每项优化确实生效，而不能只凭最终性能反推配置。\n\n**标签**: `#MoE inference`, `#speculative decoding`, `#FP8 quantization`, `#LLM inference optimization`, `#DGX Spark`",
+  "score": 8,
+  "tags": [
+    "MoE inference",
+    "speculative decoding",
+    "FP8 quantization",
+    "LLM inference optimization",
+    "DGX Spark"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA Inference Performance Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
+  "originalSite": "developer.nvidia.com",
+  "context": "在 NVIDIA DGX Spark 上以 batch size 1 运行 Ling-3.0-flash 时，剖析显示解码受内存带宽限制，每一步都要读取模型权重，其中 MoE 计算和词表输出投影（LM head）尤其突出。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ead3f8356ff70b50a383e7aabc4d917a5a3b7230",
+  "canonicalId": "6cae593d0f4e7105ed3f9d82b21cb9ce3e8557c3",
+  "slug": "anthropic-确认内部系统遭访问称模型权重未受影响",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T12:43:00Z",
+  "lang": "zh",
+  "title": "Anthropic 确认内部系统遭访问，称模型权重未受影响",
+  "summary": "Anthropic 确认，网络安全初创公司 Cathedral 的研究人员访问了其部分销售、人力和 IT 系统；据《华盛顿邮报》报道，Cathedral 利用第三方商业软件漏洞进入，AI 代理在不足 12 小时内找到通路，并触及会议记录、薪资与录用信息及 Slack 消息。Anthropic 表示，客户发给模型的消息、模型回复、AI 系统代码和模型权重均未被访问，监控系统在 Cathedral 报告前已发现部分活动并关闭了通路。Anthropic 还称 Cathedral 夸大了国家安全影响、未完整披露在系统内的活动；Cathedral 则称遵循安全研究惯例，并将数据访问限制在必要的最低程度。",
+  "score": 8,
+  "tags": [
+    "AI security",
+    "cybersecurity",
+    "Anthropic",
+    "autonomous agents",
+    "incident disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/",
+  "originalSite": "washingtonpost.com",
+  "context": "据《华盛顿邮报》报道，Cathedral 是一家由前美国政府效率部（DOGE）成员创办的网络安全初创公司；多家报道称，其 AI 代理通过串联相互连接的服务中的缺陷，在不到 12 小时内就找到了进入 Anthropic 内部业务系统的路径。这类自动化漏洞发现工具把过去依靠人工渗透测试完成的侦察与漏洞串联压缩到数小时，而企业内部系统普遍依赖的第三方商业软件正是此次的入口。Anthropic 则表示，其监控系统在 Cathedral 报告前已发现部分活动并关闭了这条通路。",
+  "discussion": "对依赖第三方商业软件的企业安全团队而言，这起事件显示需要把 AI 代理的自动漏洞探测纳入监控与访问控制，并预先约定研究披露和厂商调查的协调流程；Anthropic 与 Cathedral 对影响范围和披露充分性的分歧也表明，事件定级可能难以迅速一致。",
+  "references": [
+    {
+      "title": "Researchers at cybersecurity start-up Cathedral got inside ...",
+      "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/"
+    },
+    {
+      "title": "Researchers Use AI Agents to Breach Anthropic’s Internal ...",
+      "url": "https://cybersecuritynews.com/anthropic-internal-system-breach/"
+    },
+    {
+      "title": "Cathedral AI Agents Access Anthropic Internal Systems in ...",
+      "url": "https://www.gate.com/news/detail/cathedral-ai-agents-access-anthropic-internal-systems-in-under-12-hours-25216157"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

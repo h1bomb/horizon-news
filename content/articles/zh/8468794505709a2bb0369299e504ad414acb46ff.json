@@ -1,0 +1,41 @@
+{
+  "id": "8468794505709a2bb0369299e504ad414acb46ff",
+  "canonicalId": "07281666d13cd0ef0092ff2f91ad60458b786c05",
+  "slug": "有限单群分类在-lean-中形式化的公告",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T16:29:00Z",
+  "lang": "zh",
+  "title": "有限单群分类在 Lean 中形式化的公告",
+  "summary": "据该条目，项目方宣布已在 Lean 中形式化有限单群分类（CFSG）。现有材料没有说明这次形式化覆盖了分类定理的哪些部分、依赖哪些公理，也没有给出可构建的代码或独立验证结果，因此目前应把它视为项目方公告，而非已经复核的完整证明。",
+  "score": 9,
+  "tags": [
+    "Lean",
+    "formal mathematics",
+    "proof assistants",
+    "finite group theory",
+    "CFSG"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pfdietz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261647"
+    }
+  ],
+  "originalUrl": "https://cfsg.axiommath.ai/",
+  "originalSite": "cfsg.axiommath.ai",
+  "context": "有限单群分类（CFSG）是有限群论的核心定理，其第一代证明篇幅巨大、分散在大量文献中；一篇介绍性报道称原证明约有 1.5 万页。Lean 是带内核检查器的定理证明器，形式化要求把定义、引理和证明步骤写成 Lean 能接受的形式，并由内核逐项验证；Axiom Math 的发布页称此次工作完整覆盖了 CFSG 的第一代证明。",
+  "discussion": "对 Lean 用户而言，实际影响取决于该形式化是否提供可构建、可导入的代码以及其公理依赖；在这些信息公布前，不能把它直接当作可替代文献证明的库依赖。\n\n有评论者对形式化仍基于集合论基础、而非同伦类型论表示遗憾；另一条评论则认为自动形式化对 CFSG 特别有用，因为历史上曾出现误以为分类完成、后来才发现遗漏类或散在群的情况，并提到原证明由约百名数学家合作完成。",
+  "references": [
+    {
+      "title": "The Classification of Finite Simple Groups, formalized in Lean",
+      "url": "https://cfsg.axiommath.ai/"
+    },
+    {
+      "title": "Axiom 15,000-Page Lean Proof in 24 Days: Claimed vs Verified ...",
+      "url": "https://explainx.ai/blog/axiom-classification-finite-simple-groups-lean-24-days-claimed-vs-verified-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

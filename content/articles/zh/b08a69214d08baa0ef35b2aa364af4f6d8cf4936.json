@@ -1,0 +1,41 @@
+{
+  "id": "b08a69214d08baa0ef35b2aa364af4f6d8cf4936",
+  "canonicalId": "1688335f378e11598690d353097d2852d6425b00",
+  "slug": "cpython-实验性-jit-将被移除",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T11:17:00Z",
+  "lang": "zh",
+  "title": "CPython 实验性 JIT 将被移除",
+  "summary": "LWN 报道称，CPython 的实验性 JIT 将被移除。现有材料没有给出对应的 Python 版本、具体时间表，也没有提供替代优化方案或性能数据；标题表述为“将被移除”，尚不能据此确认该变更已经合入或发布。对关注 CPython 性能路线和 free-threading 的开发者而言，细节仍需以 LWN 原文和 CPython 官方信息为准。",
+  "score": 7,
+  "tags": [
+    "Python",
+    "CPython",
+    "JIT compilation",
+    "free-threading",
+    "language performance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "f311a",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50257419"
+    }
+  ],
+  "originalUrl": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+  "originalSite": "lwn.net",
+  "context": "CPython 的 JIT 自 Python 3.13 起作为实验特性存在，依据的是信息类 PEP 744 而非有约束力的标准流程 PEP；Horizon 3 月 18 日的日报曾记录，面向 Python 3.15 的 JIT 在 macOS AArch64 上取得 11–12%、在 x86\\_64 Linux 上取得 5–6% 的性能提升。Horizon 9 月 2 日的日报进一步报道，Python 指导委员会已暂停主分支上 JIT 的新开发，只保留 bug 与安全修复，并给出六个月窗口：若届时没有相关 PEP 被接受，JIT 代码将被移出主分支；社区随后提出 PEP 836 以争取让 JIT 成为受支持特性。此次移除正是该窗口到期后的结果。",
+  "discussion": "评论者对此看法不一：有人惋惜 JIT 在被 SC 要求提交新 PEP 前已有快速进展，并认为它原本可能抵消 free-threading 带来的性能损失；也有人认为 PEP 流程虽然繁琐，却有助于保证 Python 的质量，技术上的反对意见可能同样成立。另有评论者比较 Ruby 和 JavaScript 的 JIT 经验、讨论资金因素，并提出用装饰器内联 Cython 作为替代思路。",
+  "references": [
+    {
+      "title": "2026-03-18 — CPython JIT for Python 3.15 achieves 11-12% performance gains on macOS AArch64 and 5-6% on x86_64 Linux ahead of schedule",
+      "url": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything"
+    },
+    {
+      "title": "2026-09-02 — Python 指导委员会暂停 CPython JIT 新开发，等待 PEP 获接受",
+      "url": "https://lwn.net/Articles/1090385/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

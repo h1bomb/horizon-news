@@ -1,0 +1,31 @@
+{
+  "id": "6659c71c1d6bfba5be8cd9091c73cabb4918c95c",
+  "canonicalId": "0b3125572ad0f1010de96d0d082d48f2e6ab420e",
+  "slug": "kangrejos-讨论-rust-内核代码的-panic-准则",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T13:56:00Z",
+  "lang": "zh",
+  "title": "Kangrejos 讨论 Rust 内核代码的 panic 准则",
+  "summary": "在 Kangrejos 2026 上，Alexandre Courbot 没有发布新代码，而是就 Rust for Linux 中“何时允许 panic、如何做错误处理”征求开发者意见。他提出一条按优先级排列的处理阶梯：尽量写不会失败的代码，其次用编译期检查（保证捕获或尽力捕获），再次用运行时 Result，最后才 panic；并用 Nova vGPU 状态枚举、udelay\\(\\) 越界参数和 binder 的 add\\_death\\(\\) 等案例说明边界。现有内核 Rust 编码指南只有一处提到 panic，仅表示优先使用 Result；讨论中 Miguel Ojeda 认为，在没有安全降级方案时，维护者可以接受 panic；Ard Biesheuvel 则指出 panic 已嵌入 Rust 语言、无法完全消除。报道未显示这些准则已被正式采纳。",
+  "score": 7,
+  "tags": [
+    "Rust for Linux",
+    "kernel development",
+    "error handling",
+    "panics",
+    "Kangrejos 2026"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1100873/",
+  "originalSite": "lwn.net",
+  "context": "Rust for Linux 是在 Linux 内核中引入 Rust 代码的持续工作，相关代码需遵循内核的 Rust 编码指南；该指南此前只在提到 panic 时建议优先使用 Result。内核中的 panic 可能导致整个内核崩溃，因此哪些错误必须用 Result 返回、哪些情形可以 panic，属于代码审查中需要逐案判断的问题。",
+  "discussion": "对 Rust for Linux 的评审者和驱动作者而言，目前仍需逐案判断：Nova vGPU 这类非法状态可用类型设计消除，udelay\\(\\) 可选择钳制参数后继续，即所谓 erroneous behavior；但 binder 的死亡列表若传入错误对象，没有安全的继续语义，维护者可能接受直接 panic。报道没有显示参会者形成统一书面规则，因此代码审查仍依赖维护者判断。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "733be49c21889ea31927e28f290be1ac094d9060",
+  "canonicalId": "acb3a24ef951cfe3981520356b377d13c83d2f40",
+  "slug": "ieee-spectrum维基百科清理-ai-生成内容",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T11:08:00Z",
+  "lang": "zh",
+  "title": "IEEE Spectrum：维基百科清理 AI 生成内容",
+  "summary": "IEEE Spectrum 报道了维基百科清理 AI 生成内容的做法，受影响的是维护条目的编辑和依赖这些条目的读者。报道把这项工作描述为内容审核与社区治理问题，而非技术突破。Hacker News 讨论中，有编辑称自己修正 AI 生成的低质量内容后，修改被维基百科的 AI 机器人立即回退。",
+  "score": 7,
+  "tags": [
+    "AI-generated content",
+    "Wikipedia",
+    "content moderation",
+    "open knowledge",
+    "generative AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "rbanffy",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50257326"
+    }
+  ],
+  "originalUrl": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+  "originalSite": "spectrum.ieee.org",
+  "context": "生成式 AI 降低了批量生产文本的门槛，在线社区因此需要投入更多人工巡查和自动化工具来识别低质量内容。Horizon 5 月 8 日的日报曾汇总一篇博客，称 AI 生成内容正涌入在线社区、令版主疲于应对；这次报道把焦点放到维基百科的清理工作。",
+  "discussion": "对维基百科编辑而言，清理 AI 内容的成本不只在识别低质文本，还在于与自动审核协调：有评论者称，其人工修正被维基百科的 AI 机器人立即回退，最终放弃。这使得愿意修复条目的编辑可能因一次回退而退出，除非回退可被方便地申诉或复核。\n\n多名评论者支持平台清理 AI 内容，但执行方式引发分歧：有评论者报告，自己修复 AI 生成的低质编辑后反被维基百科的 AI 机器人回退；也有人认为，维基百科学校项目鼓励对主题缺乏兴趣的人供稿，部分造成了低质内容。另有评论者引用报道中的说法，称 AI 正从“清理对象”变成“清理工具”。",
+  "references": [
+    {
+      "title": "2026-05-08 — AI slop is killing online communities",
+      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

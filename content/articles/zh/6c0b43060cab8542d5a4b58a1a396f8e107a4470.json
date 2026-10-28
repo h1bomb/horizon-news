@@ -1,0 +1,37 @@
+{
+  "id": "6c0b43060cab8542d5a4b58a1a396f8e107a4470",
+  "canonicalId": "5ef94984dce414f6cd0dec7eb033a3aff5071eaa",
+  "slug": "deepmind-发布-genie-4-世界模型支持实时音画与对话",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T16:06:00Z",
+  "lang": "zh",
+  "title": "DeepMind 发布 Genie 4 世界模型，支持实时音画与对话",
+  "summary": "Google DeepMind 发布世界模型 Genie 4，可实时生成画面与环境音、进行可交互对话，并允许用自然语言随时改动场景。模型由 Gemini 家族支撑，Gemini 3.8 Flash 担任引导 agent 来拆解多步任务。该模型目前以研究预览形式向可信测试者开放，按计划随后提供给 Project Genie 的 Ultra 订阅者以及 Gemini API、AI Studio 合作伙伴，生成内容带有 SynthID 水印。",
+  "score": 8,
+  "tags": [
+    "world models",
+    "generative AI",
+    "DeepMind",
+    "video generation",
+    "multimodal AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "acossta",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261319"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "originalSite": "deepmind.google",
+  "context": "世界模型指能够依据动作或提示持续生成可交互环境画面的生成模型，这一方向此前已有其他厂商推进：Horizon 在 2026 年 5 月 17 日的日报中曾报道，NVIDIA 发布了 26 亿参数的 SANA-WM，可在 6 自由度相机控制下生成 1 分钟 720p 视频，但其权重当时标注为“即将发布”。相比之下，本次 Genie 4 强调的是实时生成画面、环境音与可交互对话，并允许用自然语言随时改动场景。",
+  "discussion": "目前只有可信测试者可试用，Gemini API 与 AI Studio 合作伙伴要等到后续阶段；接入方还需处理带 SynthID 水印的生成内容。\n\n有评论者用示例指出，Genie 4 在物体离开画面再返回后会出现一致性断裂，例如龙示例多出一座城堡、站台行人变化、摩托车骑手先无头盔后有头盔，因此认为它更像在维持画面内一致性，而非真正的世界模拟。另有评论称，提示词要求萨克斯时生成的是单簧管声音，且强调照片写实的提示仍产出游戏画面感。",
+  "references": [
+    {
+      "title": "2026-05-17 — NVIDIA&#x27;s SANA-WM: 2.6B Parameter World Model for 1-Minute 720p Video",
+      "url": "https://nvlabs.github.io/Sana/WM/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

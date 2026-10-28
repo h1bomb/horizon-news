@@ -1,0 +1,37 @@
+{
+  "id": "a0a7d14901d59ee67a8b824c13a2f66a50d557c3",
+  "canonicalId": "a4c44e96b0a94df51038ee6157b11679115f6b1d",
+  "slug": "报道称-anthropic-用非法获取的斯坦福教授著作训练-claude",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T15:28:00Z",
+  "lang": "zh",
+  "title": "报道称 Anthropic 用非法获取的斯坦福教授著作训练 Claude",
+  "summary": "据《斯坦福日报》报道，Anthropic 在训练 Claude 时使用了据称以非法手段获取的斯坦福教授所著书籍副本。该报道把争议集中在训练数据来源与版权责任上，涉及这些教授能否控制作品使用并获得报酬；但所给材料没有提供 Anthropic 的回应，也没有独立证据确认这一核心指控。",
+  "score": 7,
+  "tags": [
+    "AI copyright",
+    "training data",
+    "Anthropic",
+    "Claude",
+    "AI ethics"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "car",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50260814"
+    }
+  ],
+  "originalUrl": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+  "originalSite": "stanforddaily.com",
+  "context": "Claude 是 Anthropic 开发的大语言模型，这类模型的训练通常依赖大规模文本语料。AI 公司使用书籍等受版权保护的内容训练模型时，数据获取渠道是否合法、是否需要逐件取得授权，已成为相关版权争议的核心问题。",
+  "discussion": "Hacker News 评论者围绕责任是否被平等追究展开争论：有人以 Aaron Swartz 案作比较，质疑 Anthropic 的相关数据获取为何主要停留在民事和解，也有人指出标题不准确，称报道说的是书籍副本非法取得、并未判定训练本身违法，并提到教授们正推动许可模式。另有评论批评把版权侵权形容为“奴役劳动”过于夸张。",
+  "references": [
+    {
+      "title": "Claude",
+      "url": "https://claude.ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

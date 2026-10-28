@@ -1,0 +1,31 @@
+{
+  "id": "feda505074e92ea9c7668ef40d6e82fb52291b3d",
+  "canonicalId": "2862aed6fff3043ffbb140ed305b980650e8d171",
+  "slug": "apple-如何在-iphone-上装下-30-亿参数模型",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-27T15:31:00Z",
+  "lang": "zh",
+  "title": "Apple 如何在 iPhone 上装下 30 亿参数模型",
+  "summary": "rss · ByteByteGo · 10月27日 15:31\n\n**「背景」** Apple 要把一个 30 亿参数的大模型放到 iPhone 上，首先要面对的是内存约束：16 位权重就接近 6GB，还要同时容纳提示词、KV 缓存、系统和其它应用。更麻烦的是内存带宽、功耗、散热，以及不能拖慢手机其它功能。\n\n**「方案」** 作者梳理的核心思路，是同时压缩权重和推理缓存。权重侧采用调色板量化，把相似数值映射到小查找表；早期模型混合 2 位和 4 位、平均 3.7 位/权重，把 30 亿权重压到约 1.39GB，后续模型进一步让主解码器用 2 位、嵌入表用 4 位，并用量化感知训练适应这种精度。缓存侧采用跨层 KV 共享，按 5:3 把模型分成两段，后段复用前段最后一层的键值，使 KV 缓存内存下降 37.5%。功能侧不再为摘要、改写等任务复制整个模型，而是共享基础模型，加载 rank-16、16 位、约数十 MB 的 LoRA 适配器；运行时再结合 CPU、GPU、ANE，优化数据布局、数组切分和内存拷贝。简单任务留在设备端，复杂请求转到 Private Cloud Compute，以加密方式隔离处理并用混合专家并行计算；作者还提到 2026 年的 AFM 3 Core、总参数 20B 但仅激活 1–4B 的 Core Advanced，以及 PCC 使用 NVIDIA GPU/Google Cloud，不过全文基于公开资料，缺少实测的权衡数据。\n\n**「启示」** 作者最终强调的是运行时资源决定模型能力：通过压缩、共享、适配器和云端回退，让同一个基础模型在不同硬件与任务上伸缩，而不是把完整大模型硬塞进手机。\n\n**标签**: `#on-device LLM`, `#quantization`, `#KV cache`, `#LoRA adapters`, `#Apple Intelligence`",
+  "score": 6,
+  "tags": [
+    "on-device LLM",
+    "quantization",
+    "KV cache",
+    "LoRA adapters",
+    "Apple Intelligence"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-apple-fits-an-llm-on-your-iphone",
+  "originalSite": "blog.bytebytego.com",
+  "context": "Apple 要把一个 30 亿参数的大模型放到 iPhone 上，首先要面对的是内存约束：16 位权重就接近 6GB，还要同时容纳提示词、KV 缓存、系统和其它应用。更麻烦的是内存带宽、功耗、散热，以及不能拖慢手机其它功能。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
