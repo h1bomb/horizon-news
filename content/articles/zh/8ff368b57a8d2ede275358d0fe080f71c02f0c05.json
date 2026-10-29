@@ -1,0 +1,45 @@
+{
+  "id": "8ff368b57a8d2ede275358d0fe080f71c02f0c05",
+  "canonicalId": "97373eedda74b8cd62be18654abeb2c2a1bd8276",
+  "slug": "dayjob-tax-用-50-个专业税务任务评估-ai-代理",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T15:46:00Z",
+  "lang": "zh",
+  "title": "Dayjob: Tax 用 50 个专业税务任务评估 AI 代理",
+  "summary": "surgehq.ai 的博客文章介绍了 Dayjob: Tax，这项基准用 50 个专业税务任务评估 AI 代理，面向关注代理在真实财务工作流中可靠性的开发者和税务从业者。现有材料未包含模型得分、评分方法或数据集是否公开，因此无法据此判断代理在税务任务上的准确率。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "LLM evaluation",
+    "tax preparation",
+    "benchmarks",
+    "professional workflows"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "landonxi",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
+    }
+  ],
+  "originalUrl": "https://surgehq.ai/blog/dayjob-tax",
+  "originalSite": "surgehq.ai",
+  "context": "DAYJOB 是 Surge AI 的专业工作基准系列，早先已发布医疗和金融版本，做法是把真实客户材料交给 AI 智能体，再按专业标准评分。此次税务版把同一框架扩展到税务申报、合规和咨询，包含 50 个环境、1,789 份客户文件，并以 95% 的严格阈值判定是否通过。",
+  "discussion": "评论中的从业者经历提示，团队若把代理用于报税，应把人工逐项核对退款金额和字段映射作为必要步骤；代理发现错误的能力，不能直接证明它能独立完成申报。\n\n评论者对代理在报税中的可靠性看法不一。lexandstuff 称用 Astra 与 Codex 处理复杂申报后，交给会计的表格仍有大量错误，退款少了近 2000 美元且字段错填，需多轮修正；waiwai933 则报告 Claude 发现过错误汇率并解释出错原因，但也因缺少上下文误报问题。RGS1811 正在把 IRS 表格和工作表形式化，称已覆盖约 60% 的美国联邦税务情形，bluejay2387 则质疑该基准是否只是给通用代理一桌文档再观察结果。",
+  "references": [
+    {
+      "title": "DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work",
+      "url": "https://surgehq.ai/blog/dayjob-tax"
+    },
+    {
+      "title": "Dayjob: Tax Benchmark: Best AI Agent Passes 10.8% - explainx.ai",
+      "url": "https://explainx.ai/blog/surge-ai-dayjob-tax-benchmark-50-tax-assignments-sonnet-5-5-10-8-percent-hn-2026"
+    },
+    {
+      "title": "DAYJOB: Tax — best AI agent passes only 10.8% of… | AI/TLDR",
+      "url": "https://ai-tldr.dev/releases/surge-dayjob-tax-benchmark/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

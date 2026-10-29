@@ -1,6 +1,176 @@
 {
   "articles": [
     {
+      "id": "124327ca2a053d6a7330b252b75ca17d275de387",
+      "canonicalId": "6318bf62f2c5750d4debc093ba5deffe66f9f836",
+      "slug": "谷歌宣布-gemini-4-carbon可用性与层级命名受质疑",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "谷歌宣布 Gemini 4 Carbon，可用性与层级命名受质疑",
+      "score": 8,
+      "tags": [
+        "Google Gemini",
+        "AI models",
+        "benchmarks",
+        "model naming",
+        "Hacker News discussion"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "64fab9ddcafe829c19d9939edf9e0ff9127fc3ac",
+      "canonicalId": "c1abda2ec708e7902beb16f2d1f8a660c19fa248",
+      "slug": "apple-系统-git-仍信任已失陷的-emudhra-证书",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Apple 系统 git 仍信任已失陷的 eMudhra 证书",
+      "score": 8,
+      "tags": [
+        "macOS",
+        "TLS certificates",
+        "git",
+        "security",
+        "Apple"
+      ],
+      "originalSite": "emudhra.we-have-a-problem.com"
+    },
+    {
+      "id": "8230c3c9d5f658003bd76be8b24124f306aa43d7",
+      "canonicalId": "2365cd15a3284330e09c4eecdb39661d19b94b34",
+      "slug": "why-is-this-fingerprinting-script-creating-bioweapons",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "score": 7,
+      "tags": [
+        "fingerprinting",
+        "anti-scraping",
+        "LLM crawlers",
+        "prompt injection",
+        "JavaScript obfuscation"
+      ],
+      "originalSite": "nullpt.rs"
+    },
+    {
+      "id": "8ff368b57a8d2ede275358d0fe080f71c02f0c05",
+      "canonicalId": "97373eedda74b8cd62be18654abeb2c2a1bd8276",
+      "slug": "dayjob-tax-用-50-个专业税务任务评估-ai-代理",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Dayjob: Tax 用 50 个专业税务任务评估 AI 代理",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "LLM evaluation",
+        "tax preparation",
+        "benchmarks",
+        "professional workflows"
+      ],
+      "originalSite": "surgehq.ai"
+    },
+    {
+      "id": "04e2f1062cd998eb33934a6881e13adf01fe7d05",
+      "canonicalId": "d6316526146016648924f0aa6a158baa8209f764",
+      "slug": "2026-年-10-月氛围编程游戏进入新拐点",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "2026 年 10 月：氛围编程游戏进入新拐点",
+      "score": 7,
+      "tags": [
+        "AI coding agents",
+        "vibe coding",
+        "game development",
+        "LLMs",
+        "developer tools"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "1e2ca0d99db08f48496d2e33b5a31b2f1bfd6a34",
+      "canonicalId": "cf7263c76277a5ab4665bbc44c290186f29f26de",
+      "slug": "northstar-申请进入-debian-与-arch-引发审查争议",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Northstar 申请进入 Debian 与 Arch 引发审查争议",
+      "score": 7,
+      "tags": [
+        "open source governance",
+        "Linux distributions",
+        "AI-generated code",
+        "browser engines",
+        "software security"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "a2928815e7051badb797aef91a80505c8fe45eca",
+      "canonicalId": "feb4caa835f163bd378978a5179817d24a9feb99",
+      "slug": "google-提出睡眠框架缓解大模型持续学习遗忘",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Google 提出睡眠框架，缓解大模型持续学习遗忘",
+      "score": 7,
+      "tags": [
+        "LLM continual learning",
+        "catastrophic forgetting",
+        "Google Research",
+        "long-context",
+        "AI research"
+      ],
+      "originalSite": "research.google"
+    },
+    {
+      "id": "340270221dab68980bc7731a9b160a6469193bec",
+      "canonicalId": "f587abfb7b9e0546cf9c82a45a16cae590df130d",
+      "slug": "长鑫存储-hbm3e-送样良率仅两三成",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "长鑫存储 HBM3E 送样，良率仅两三成",
+      "score": 7,
+      "tags": [
+        "HBM3E",
+        "CXMT",
+        "AI memory",
+        "semiconductor manufacturing",
+        "export controls"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "0f0b27e132eeadf4511ebdba7208dc9fd21fba26",
+      "canonicalId": "d8103b8af50d92a575c9127581138be20d91954c",
+      "slug": "apple-新款-macbook-pro-首发-proled-xdr-屏并加入触控",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Apple 新款 MacBook Pro 首发 PROLED XDR 屏并加入触控",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "hardware launch",
+        "OLED display",
+        "Apple Silicon"
+      ],
+      "originalSite": "apple.com"
+    },
+    {
+      "id": "a35fbe05ce00415c2ec6da09bb1d8506546fed94",
+      "canonicalId": "ccdcae5827c6090af8d2291439604f37d1d5961a",
+      "slug": "uber-如何为-ai-代理构建-mcp-网关",
+      "date": "2026-10-29",
+      "lang": "zh",
+      "title": "Uber 如何为 AI 代理构建 MCP 网关",
+      "score": 6,
+      "tags": [
+        "MCP",
+        "AI agents",
+        "API gateway",
+        "tool discovery",
+        "platform architecture"
+      ],
+      "originalSite": "blog.bytebytego.com"
+    },
+    {
       "id": "8468794505709a2bb0369299e504ad414acb46ff",
       "canonicalId": "07281666d13cd0ef0092ff2f91ad60458b786c05",
       "slug": "有限单群分类在-lean-中形式化的公告",
@@ -5092,176 +5262,6 @@
         "central bank"
       ],
       "originalSite": "jrs.mof.gov.cn"
-    },
-    {
-      "id": "6dc927c743cb1c658dde6b4ff4c4ff7089783ce4",
-      "canonicalId": "50e18c5419845c26792b56969688ef4397e64552",
-      "slug": "anthropic-发布-sonnet-55社区关注基准对比与定价竞争",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "Anthropic 发布 Sonnet 5.5，社区关注基准对比与定价竞争",
-      "score": 8,
-      "tags": [
-        "LLM",
-        "Anthropic Claude",
-        "model release",
-        "benchmarking",
-        "AI industry"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "8bf541a4bafcd110daa4dd7404d30ce57ba454f2",
-      "canonicalId": "210404a0fc87307a3458f268f33a448adf3fda07",
-      "slug": "spacex-星舰首次入轨并部署-26-颗-starlink-卫星",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "SpaceX 星舰首次入轨并部署 26 颗 Starlink 卫星",
-      "score": 8,
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "Starlink",
-        "航天发射",
-        "硬件工程"
-      ],
-      "originalSite": "apnews.com"
-    },
-    {
-      "id": "8d15713899f2fd286fd7231a38fb879fcbd538b9",
-      "canonicalId": "8545341ecba92f72ffbfc1f2a7b6e1e2c07be3a0",
-      "slug": "逆向工程演示劫持-ps5-的-rtmp-串流",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "逆向工程演示：劫持 PS5 的 RTMP 串流",
-      "score": 7,
-      "tags": [
-        "reverse engineering",
-        "RTMP/streaming protocols",
-        "console hacking",
-        "network security",
-        "man-in-the-middle"
-      ],
-      "originalSite": "yashgarg.dev"
-    },
-    {
-      "id": "4fbfb2a3f2bdb9aeed70e7ed21da922314cb2951",
-      "canonicalId": "c580c743e6d433c54d6caa10f258c8b2f4ba2955",
-      "slug": "git-2560-发布新增-git-history-drop-与更安全的冲突解决",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "Git 2.56.0 发布：新增 git history drop 与更安全的冲突解决",
-      "score": 7,
-      "tags": [
-        "Git",
-        "version control",
-        "open source",
-        "developer tools",
-        "release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "c50113813c98e5e986051bec2a768e00f8ade10e",
-      "canonicalId": "c70184feffa65f5211fbabe129b65e3a0e2276ce",
-      "slug": "kernel-recipesc-语言未定义行为与内存安全讨论",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "Kernel Recipes：C 语言未定义行为与内存安全讨论",
-      "score": 7,
-      "tags": [
-        "C language",
-        "undefined behavior",
-        "memory safety",
-        "Linux",
-        "programming languages"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "75a01c4b4837504df25e9a27054417f4719b0f07",
-      "canonicalId": "d525ecb6226127aac5582ff627e4f10343f69bfb",
-      "slug": "英伟达发布-open-agent-safety-platform-智能体安全平台",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "英伟达发布 Open Agent Safety Platform 智能体安全平台",
-      "score": 7,
-      "tags": [
-        "AI agent security",
-        "NVIDIA",
-        "open source",
-        "AI safety",
-        "sandbox monitoring"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "9c3aed7ed0e88aad5061dda97a04c5c246ad46a9",
-      "canonicalId": "db3e7ecf1a9ad10c3a17ecd030e7bff6a1c56b5f",
-      "slug": "中国将顶尖-ai-人才出境限制扩至直系亲属",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "中国将顶尖 AI 人才出境限制扩至直系亲属",
-      "score": 7,
-      "tags": [
-        "AI policy",
-        "China AI",
-        "talent mobility",
-        "semiconductor industry",
-        "geopolitics"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "80cfa540b1d5a2f39f300b51cc5f45c091782cd8",
-      "canonicalId": "639ff83c8a1e2a412a2aae0a5bb2fa9efdf6c43f",
-      "slug": "manus-20-发布cascade-框架云电脑与-cue-应用",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "Manus 2.0 发布：Cascade 框架、云电脑与 Cue 应用",
-      "score": 7,
-      "tags": [
-        "AI Agents",
-        "Manus 2.0",
-        "Agent Frameworks",
-        "Automation",
-        "Product Launch"
-      ],
-      "originalSite": "manus.im"
-    },
-    {
-      "id": "95b1f3b034f3787a6b8e51332d7819eb9b2c05d7",
-      "canonicalId": "bc1158df6d469d6b6974afb778c73b3447b5a8c4",
-      "slug": "mppai-代理的-http-402-支付协议",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "MPP：AI 代理的 HTTP 402 支付协议",
-      "score": 7,
-      "tags": [
-        "agentic payments",
-        "Machine Payments Protocol",
-        "HTTP 402",
-        "AI agents",
-        "payment protocol design"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "51ca7da3b810fe4584b9b59fbd3d9791484a285d",
-      "canonicalId": "089ca5a3b2841d78a45f67af2baa227c8d170813",
-      "slug": "中美计划相互下调约-300-亿美元商品关税",
-      "date": "2026-09-29",
-      "lang": "zh",
-      "title": "中美计划相互下调约 300 亿美元商品关税",
-      "score": 8,
-      "tags": [
-        "US-China trade",
-        "tariffs",
-        "trade policy",
-        "consumer goods",
-        "agriculture"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }

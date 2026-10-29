@@ -1,0 +1,49 @@
+{
+  "id": "64fab9ddcafe829c19d9939edf9e0ff9127fc3ac",
+  "canonicalId": "c1abda2ec708e7902beb16f2d1f8a660c19fa248",
+  "slug": "apple-系统-git-仍信任已失陷的-emudhra-证书",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T11:03:00Z",
+  "lang": "zh",
+  "title": "Apple 系统 git 仍信任已失陷的 eMudhra 证书",
+  "summary": "据 Hacker News 上的一篇报道，macOS 自带的 git 以及其他依赖系统证书库的工具，仍会接受已失陷的 eMudhra 证书。报道称，Apple 给出的缓解方式是手动编辑证书链，但评论者指出，这一改动可能在系统更新时被还原，而且至少已经发生过一次。该问题不限于 git；所有按操作系统信任设置校验证书的程序都可能受影响。目前提供的材料没有显示该问题已被在野利用。",
+  "score": 8,
+  "tags": [
+    "macOS",
+    "TLS certificates",
+    "git",
+    "security",
+    "Apple"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "galadran",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50271640"
+    }
+  ],
+  "originalUrl": "https://emudhra.we-have-a-problem.com/apple.html",
+  "originalSite": "emudhra.we-have-a-problem.com",
+  "context": "Horizon 10 月 21 日的日报曾报道，eMudhra 中间 CA 私钥被指遭攻破，社区称相关私钥仅有一个字节，但这一说法尚未经过独立验证；当时 Firefox 已通过 OneCRL 在数小时内自动吊销相关证书，而其他依赖方对吊销机制的覆盖仍受关注。随后 Apple 在支持文档中表示，自 10 月 19 日起已在 Safari、Mail 以及使用其网络与安全框架的应用中阻止这些证书，但 macOS 随附的 git 等开发者工具仍依赖系统信任链。",
+  "discussion": "对依赖 macOS 系统 git 以及其他会调用系统信任库的开发者来说，按讨论中引用的 Apple 指引手工编辑证书链只能提供临时缓解；系统更新可能把改动还原，因此每次更新后都需要重新检查。由于 eMudhra 的根证书仍在 Apple 根存储中，而该 CA 已宣布退出 TLS 业务，未清理相应信任项的环境会继续接受可被伪造的证书链，直到 Apple 在系统信任库中移除这些证书。\n\n评论者强调，受影响的不只是 git，而是所有信任 macOS 系统证书库的实用工具；他们还报告，按 Apple 指引手动编辑证书链的缓解措施可能在系统更新后失效。有人表示自己改用 Homebrew 安装的 git 和 curl，但尚未确认这样做能否规避该问题。",
+  "references": [
+    {
+      "title": "2026-10-21 — eMudhra 中间 CA 私钥被指仅一字节",
+      "url": "https://emudhra.we-have-a-problem.com/"
+    },
+    {
+      "title": "Apple Addresses Web Security Threat, Working on macOS Update...",
+      "url": "https://www.macrumors.com/2026/10/25/apple-blocks-compromised-emudhra-certificates/"
+    },
+    {
+      "title": "Disgraced eMudhra drops out of TLS business after... - Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/"
+    },
+    {
+      "title": "Eight eMudhra CA Keys Compromised , Triggering Emergency Fixes...",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

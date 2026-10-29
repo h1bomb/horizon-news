@@ -1,0 +1,36 @@
+{
+  "id": "04e2f1062cd998eb33934a6881e13adf01fe7d05",
+  "canonicalId": "d6316526146016648924f0aa6a158baa8209f764",
+  "slug": "2026-年-10-月氛围编程游戏进入新拐点",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T13:55:00Z",
+  "lang": "zh",
+  "title": "2026 年 10 月：氛围编程游戏进入新拐点",
+  "summary": "Simon Willison 认为，2026 年 10 月是“氛围编程”（vibe coding）游戏的新拐点：Claude Opus 5.5 在 3D 建模、音乐生成和游戏设计上都有明显提升，让模型不只做出看起来像游戏的东西，还能做出真正好玩的游戏。他说自己最近在完全不看代码的情况下做了四款在浏览器中运行的 HTML/JavaScript 游戏，分别是 Tree Appreciator、Emberwick、Battle Drones 和 Pumpkin Farmer。上述判断来自他的个人体验，并非系统性研究；他还表示 GPT-6 Astra 目前尚未完全达到同样水准，但预计 OpenAI 年底前会追上。",
+  "score": 7,
+  "tags": [
+    "AI coding agents",
+    "vibe coding",
+    "game development",
+    "LLMs",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+  "originalSite": "simonwillison.net",
+  "context": "“vibe coding”指完全不看代码、只用自然语言提示让模型写出程序；文中链接的 Willison 2025 年 3 月文章给出了这一说法。据 Horizon 2026 年 4 月 3 日日报，他此前已把 2025 年 11 月 GPT-5.1 与 Claude Opus 4.5 的发布描述为编码智能体的拐点，即这类工具从演示品变成工程师可日常依赖的工具。本次他把同一判断移到游戏领域，并强调变化在于模型开始能处理“游戏设计”，而不只是生成看起来像游戏的东西。",
+  "discussion": "对想尝试游戏开发的人来说，最直接的变化是可以用自然语言描述需求，再配合 three.js 快速生成可玩的浏览器游戏；其中 Tree Appreciator 甚至一次提示就完成，并能适配移动端。难点也随之从实现基础玩法转向构思新颖、令人愉悦且离不开 AI 辅助的游戏概念；但目前的结论仍基于少量个人项目，而不是可复现的基准测试。",
+  "references": [
+    {
+      "title": "2026-04-03 — Simon Willison discusses AI inflection point and agentic engineering on Lenny&#x27;s Podcast",
+      "url": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

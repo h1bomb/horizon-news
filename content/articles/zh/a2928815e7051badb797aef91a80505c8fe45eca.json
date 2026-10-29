@@ -1,0 +1,40 @@
+{
+  "id": "a2928815e7051badb797aef91a80505c8fe45eca",
+  "canonicalId": "feb4caa835f163bd378978a5179817d24a9feb99",
+  "slug": "google-提出睡眠框架缓解大模型持续学习遗忘",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T01:46:00Z",
+  "lang": "zh",
+  "title": "Google 提出睡眠框架，缓解大模型持续学习遗忘",
+  "summary": "据该条摘要，Google Research 提出“睡眠框架”，在持续学习中插入离线“睡眠”阶段，让大语言模型把短期上下文巩固为长期参数，以缓解灾难性遗忘。模型在主动交互与离线巩固之间周期切换，据报道在 1000 万 token 长上下文、持续翻译和数学推理测试中超过 GPT-4、SFT 等基线。上述基准结果仅来自二手摘要，尚缺论文细节和独立验证，不能视为已发布产品或可复现结论。",
+  "score": 7,
+  "tags": [
+    "LLM continual learning",
+    "catastrophic forgetting",
+    "Google Research",
+    "long-context",
+    "AI research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+  "originalSite": "research.google",
+  "context": "持续学习的关键难题是灾难性遗忘：模型为学习新任务而更新参数时，往往会破坏此前已掌握的知识。Google Research 与康奈尔大学的这篇论文认为，传统机器学习把训练与部署截然分开的假设并不适合需要不断适应环境的智能体，因此提出让模型在主动交互与离线“睡眠”巩固两种状态之间切换。",
+  "discussion": "若该方法成立，持续学习流程需要把在线交互与离线巩固分开安排，并评估额外训练阶段带来的算力开销；开发者采用前应核对论文中的基线设置与可复现性。",
+  "references": [
+    {
+      "title": "The sleep framework : A new way for LLMs to retain knowledge in...",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+    },
+    {
+      "title": "Google Researchers Introduce Sleep Phase for Continual Learning ...",
+      "url": "https://www.linkedin.com/posts/malkeshdalia_artificialintelligence-ai-airesearch-activity-7483139400915345410-JtIs"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

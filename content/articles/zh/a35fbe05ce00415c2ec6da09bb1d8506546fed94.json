@@ -1,0 +1,31 @@
+{
+  "id": "a35fbe05ce00415c2ec6da09bb1d8506546fed94",
+  "canonicalId": "ccdcae5827c6090af8d2291439604f37d1d5961a",
+  "slug": "uber-如何为-ai-代理构建-mcp-网关",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T15:31:00Z",
+  "lang": "zh",
+  "title": "Uber 如何为 AI 代理构建 MCP 网关",
+  "summary": "rss · ByteByteGo · 10月28日 15:31\n\n**「背景」** 企业内的大模型要回答系统内部问题，必须借助可调用工具；但 Uber 各团队各自接入 MCP，造成工具发现分散、权限与运维重复，且后端混用 HTTP、gRPC 和 TChannel。\n\n**「方案」** 文章梳理的 MCP Gateway 以控制面/数据面分离为核心：MCP Registry 保存服务器与工具目录、启停配置和变更记录，Proxy Gateway 处理实际请求并返回 MCP 兼容结果。AutoCrawler 从现有 IDL 提取方法、请求响应结构和工具 schema，并用 LLM 改进描述；对原生 MCP 服务器则靠心跳和 listTools 注册。新发现的工具默认禁用，需属主审核、批准差异后才能启用，并可回滚。运行时网关周期性刷新内存映射，生成虚拟 MCP 服务器，把调用转成 gRPC/Protobuf、HTTP 或 TChannel 请求；权限可按服务器或单个工具配置，还支持 PII 脱敏和第三方 token 交换。面对海量工具，Omni MCP 提供渐进发现，Response Projection 裁剪返回字段，Code Mode 让编码代理用 shell 和文件处理结果。文章也留下疑问：禁用能否绕过刷新间隔立即生效，以及渐进发现和字段选择带来的额外往返与决策成本。\n\n**「启示」** 作者的核心结论是，让代理接入企业能力的最快路径是复用现有 API，而不是重写服务；生产级代理系统最难的部分也不是模型本身，而是发现、安全与可靠性这类连接组织。\n\n**标签**: `#MCP`, `#AI agents`, `#API gateway`, `#tool discovery`, `#platform architecture`",
+  "score": 6,
+  "tags": [
+    "MCP",
+    "AI agents",
+    "API gateway",
+    "tool discovery",
+    "platform architecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "ByteByteGo"
+    }
+  ],
+  "originalUrl": "https://blog.bytebytego.com/p/how-uber-built-a-gateway-for-ai-agents",
+  "originalSite": "blog.bytebytego.com",
+  "context": "企业内的大模型要回答系统内部问题，必须借助可调用工具；但 Uber 各团队各自接入 MCP，造成工具发现分散、权限与运维重复，且后端混用 HTTP、gRPC 和 TChannel。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

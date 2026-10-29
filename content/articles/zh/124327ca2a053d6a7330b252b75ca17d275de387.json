@@ -1,0 +1,41 @@
+{
+  "id": "124327ca2a053d6a7330b252b75ca17d275de387",
+  "canonicalId": "6318bf62f2c5750d4debc093ba5deffe66f9f836",
+  "slug": "谷歌宣布-gemini-4-carbon可用性与层级命名受质疑",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T17:01:00Z",
+  "lang": "zh",
+  "title": "谷歌宣布 Gemini 4 Carbon，可用性与层级命名受质疑",
+  "summary": "谷歌宣布 Gemini 4 Carbon，现有信息将其概括为一次以基准成绩为主的公告，但没有列出具体基准数字、价格或上线时间。社区讨论也把它视为一次基准披露，而非已经普遍可用的模型更新，因此受影响的主要是希望评估或迁移到新模型、却还无法确认访问方式的开发者和 Workspace 用户。由于官方页面正文未随条目提供，Gemini 4 Carbon 的实际发布范围和可用性仍无法确认。",
+  "score": 8,
+  "tags": [
+    "Google Gemini",
+    "AI models",
+    "benchmarks",
+    "model naming",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "acossta",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "originalSite": "blog.google",
+  "context": "",
+  "discussion": "对希望试用或迁移的开发者而言，当前最直接的障碍是确认入口与订阅层级：评论提到手机端 Gemini 应用最新只显示 3.8 Pro，且 Ultra 订阅状态不明。在 Google 说明 Gemini 4 Carbon 与各应用、Workspace 套餐的对应关系前，团队需要先确认实际可用性，再制定迁移计划。\n\n评论者主要批评两点：一是只公布基准而不开放使用，认为在模型快速迭代下这类成绩很快会过时；二是层级命名混乱，用户难以判断 4 Argon、3.8 Pro 与 Ultra 订阅之间的关系。也有评论提议行业像 SEMVER 一样统一 Ultra、Pro、Flash、Lite 的层级命名，但这只是社区建议，并非 Google 公布的方案。",
+  "references": [
+    {
+      "title": "2026-10-14 — 谷歌 DeepMind 发布 Gemini 4 Argon 大模型",
+      "url": "https://deepmind.google/models/gemini/"
+    },
+    {
+      "title": "2026-10-01 — 谷歌发布 Gemini 4 Argon，暂限早期测试者",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

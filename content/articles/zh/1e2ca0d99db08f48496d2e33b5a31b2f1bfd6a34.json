@@ -1,0 +1,31 @@
+{
+  "id": "1e2ca0d99db08f48496d2e33b5a31b2f1bfd6a34",
+  "canonicalId": "cf7263c76277a5ab4665bbc44c290186f29f26de",
+  "slug": "northstar-申请进入-debian-与-arch-引发审查争议",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-28T14:26:00Z",
+  "lang": "zh",
+  "title": "Northstar 申请进入 Debian 与 Arch 引发审查争议",
+  "summary": "由 LLM 生成代码的 Nordstjernen 项目维护者 Andreas Røsdal 正推动其浏览器进入 Debian 和 Arch Linux；他于 7 月 23 日为 GPLv3 授权的极简版 Northstar 提交 Debian ITP 并寻找赞助者，10 月 18 日又向 debian-devel 列表求助。Northstar 复用 Nordstjernen 的引擎，Røsdal 称后者现有约 24.5 万行 C 代码、易于完整审计，但他不是 Debian 维护者，且后来建议 Debian 优先打包更成熟的 Nordstjernen、对外使用 Northstar 名称。Debian 开发者 Gard Spreemann 按仓库历史统计出约 262 万次插入和 153 万次删除，质疑如此变动量下难以审计，并追问项目代码是否由负责人人工审查，Røsdal 未回答该问题。报道还记录了 Nordstjernen 授权说明不一致，以及 Debian 稳定版安全更新需要回移补丁、与项目频繁发版之间的维护矛盾。",
+  "score": 7,
+  "tags": [
+    "open source governance",
+    "Linux distributions",
+    "AI-generated code",
+    "browser engines",
+    "software security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1102738/",
+  "originalSite": "lwn.net",
+  "context": "Linux 上可用的浏览器几乎都派生自三大引擎：Chromium 的 Blink、Firefox 的 Gecko 和 WebKit，长期缺少独立实现；这正是 Røsdal 以“真正的浏览器引擎多样性”为由申请打包的依据。Debian 方面，非维护者不能自行上传软件包，须先在缺陷跟踪系统提交 intent to package（ITP）并找到赞助者，而且软件一旦进入稳定版，安全问题只能靠只修该问题、其余保持发布时状态的回溯补丁解决，不能直接推送上游新版本，这决定了此类申请要面对的实际维护门槛。",
+  "discussion": "对 Debian 打包者和用户而言，若 Northstar 进入稳定版，安全修复不能简单上传新版本，而需只回移安全补丁并保持其余代码不变；这与 Røsdal 预期的频繁发布直接冲突，也是赞助者需要先解决的维护条件。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
