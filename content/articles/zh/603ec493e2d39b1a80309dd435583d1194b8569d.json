@@ -1,0 +1,45 @@
+{
+  "id": "603ec493e2d39b1a80309dd435583d1194b8569d",
+  "canonicalId": "482dcd575b14905eb44d09f5779dbd8b87cf9f40",
+  "slug": "厂商报告php2shell-漏洞链控制-25-台服务器含政府系统",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T10:42:00Z",
+  "lang": "zh",
+  "title": "厂商报告：PHP2Shell 漏洞链控制 25 台服务器，含政府系统",
+  "summary": "Dream Group 在一篇博客中报告，攻击者把 PHP 到 shell 的“PHP2Shell”利用与 Linux 内核 XFRM ESP-in-TCP 子系统漏洞串联，入侵了 25 台服务器，其中包括美国政府系统。该报告称这是一次多阶段链式攻击，但来源条目没有提供原文，也没有独立验证，因此服务器数量、受影响目标和具体漏洞细节都应视为该厂商的单方面说法。对运行 PHP 应用和 Linux 服务器的管理员来说，目前可核实的只是有人公开声称存在这样一条利用链，其完整技术细节和影响范围仍待确认。",
+  "score": 8,
+  "tags": [
+    "cybersecurity",
+    "exploit-chains",
+    "PHP",
+    "Linux-kernel",
+    "vulnerability-disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "882542F3884314B",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50286987"
+    }
+  ],
+  "originalUrl": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+  "originalSite": "dreamgroup.com",
+  "context": "这里的“链式”利用指先利用 PHP 层漏洞取得 Web 进程权限，再借 Linux 内核漏洞完成本地提权、获得 root。公开分析称，攻击针对 Linux 内核的 XFRM ESP-in-TCP 子系统；启用 ESP 处理后，内核会就地解密排队数据，并可通过操纵 AES-GCM 密钥流造成页缓存受控破坏，从而形成内核本地提权路径。",
+  "discussion": "评论对这条利用链的成熟度看法不一：一位评论者称自己用 DeepSeek 构建过 PHP2Shell 概念验证，只做到约 2 倍缩减，因此对报告披露的利用手法之粗糙感到意外，并引用了“A1 — Memory Exhaustion \\(~383MB\\)”阶段；另一位则根据文中逐字出现的 PAN-OS 设置和 SELinux 配置，推测涉事防火墙厂商是 Palo Alto Networks，但明确表示这只是推测。还有评论者借另一个 Linux TCP 漏洞（CVE-2026-98432）讨论内核攻击面，称已在不需要的系统上禁用 mptcp，并追问能否同样关闭 XFRM。",
+  "references": [
+    {
+      "title": "Linux Kernel Vulnerabilities Expose 17M Servers to Root... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/resiliant_linux-bitten-by-second-severe-vulnerability-activity-7460364748434444288-egGz"
+    },
+    {
+      "title": "Fragnesia: Linux Kernel Local Privilege Escalation via ESP - in - TCP",
+      "url": "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp"
+    },
+    {
+      "title": "PHP 2 Shell Attack Roots 25 Servers , Breaches...",
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

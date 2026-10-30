@@ -1,0 +1,41 @@
+{
+  "id": "090e2fe1f96d5bee85f22467312bcd555f61c288",
+  "canonicalId": "739e0b5535e3ec061840356572d3233664c1c295",
+  "slug": "martin-fowler-谈-llm-文本特有的声音",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T14:57:00Z",
+  "lang": "zh",
+  "title": "Martin Fowler 谈 LLM 文本特有的“声音”",
+  "summary": "Martin Fowler 在 bliki 发表分析文章，讨论 LLM 生成文本所特有的一种“声音”（voice）。这是一篇风格分析，并非产品发布或实测结果。Hacker News 的讨论中，多位读者描述了具体的阅读体验：信息密度低、行文冗长发散，常常读到一半就放弃。也有评论提出解释，认为人理解语言依赖对作者心智的内部模拟，而 LLM 文本持续、微妙地偏离预期，会让这种模拟不断出错。",
+  "score": 7,
+  "tags": [
+    "LLM writing style",
+    "AI-generated content",
+    "readability",
+    "human communication",
+    "information density"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50290177"
+    }
+  ],
+  "originalUrl": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "originalSite": "martinfowler.com",
+  "context": "关于 LLM 写作的争论此前已涉及披露与内容治理：Horizon 2026-09-07 的日报曾收录一篇观点文章，认为不披露使用 LLM 的写作会削弱智识真诚；2026-10-28 的日报则报道了维基百科编辑清理 AI 生成内容、并遇到回退的情况。Fowler 这次讨论的“声音”问题延续了同一脉络，但焦点从是否该用或该标注 LLM，转向读者为何会觉得这类文本不自然、难以持续阅读。",
+  "discussion": "对使用 LLM 辅助写作的开发者而言，讨论中给出的可操作建议是让模型只做客观批评，而不让它提供具体词句；有评论者认为，越是觉得 LLM 建议的措辞好，越可能是在让模型侵蚀作者自己的声音。对内容平台来说，一位自称强烈支持 AI 的读者表示，所在站点被大量低质 AI 生成内容淹没，已导致其减少阅读。\n\n评论者普遍认同 LLM 文本读起来重复、信息密度低且难以持续吸引注意力，其中一位自称“强烈支持 AI”的读者也持同样看法，说明这并非单纯的立场之争。讨论还延伸到成因：有评论者用“心智模拟出错”来解释为何这类文本让人不适，另一些人则更关注实际用法，主张把 LLM 限定为批评工具而非代笔工具。",
+  "references": [
+    {
+      "title": "2026-10-28 — IEEE Spectrum：维基百科清理 AI 生成内容",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup"
+    },
+    {
+      "title": "2026-09-07 — 不披露 LLM 写作有损智识真诚",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

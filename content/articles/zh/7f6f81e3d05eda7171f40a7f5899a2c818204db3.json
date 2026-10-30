@@ -1,0 +1,31 @@
+{
+  "id": "7f6f81e3d05eda7171f40a7f5899a2c818204db3",
+  "canonicalId": "80e5637a67e1a525d570c7c95fcdd592c0bc6c4c",
+  "slug": "anthropic-用-claude-将-messages-api-重写为-rust",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T03:13:00Z",
+  "lang": "zh",
+  "title": "Anthropic 用 Claude 将 Messages API 重写为 Rust",
+  "summary": "Anthropic 将其 Messages API 从运行在单一 GCP 区域的 Python 单体服务迁移到 Rust。工程师负责系统设计与验证，Claude 负责生成实现代码，团队通过比对新旧系统输出来验证迁移结果。团队报告迁移后 CPU 用量降低约 40% 至 50%，首个 token 响应时间缩短约 10% 至 20%；这些为团队自述数据，且未披露区域覆盖或接口变更。",
+  "score": 8,
+  "tags": [
+    "Anthropic",
+    "Rust migration",
+    "Claude",
+    "AI-assisted programming",
+    "API performance"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://latent.space/p/opus55/",
+  "originalSite": "latent.space",
+  "context": "",
+  "discussion": "对 Messages API 使用者而言，报道中可感知的收益是首个 token 延迟降低约 10% 至 20%；CPU 用量下降则主要减轻 Anthropic 的服务运行成本。由于来源未说明接口、限流或区域部署是否有变化，开发者暂不应据此预期兼容性或容量调整。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

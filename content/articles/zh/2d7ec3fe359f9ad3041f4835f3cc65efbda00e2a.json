@@ -1,0 +1,31 @@
+{
+  "id": "2d7ec3fe359f9ad3041f4835f3cc65efbda00e2a",
+  "canonicalId": "8a4b15c66b1180e7c227babae793da6426d13c10",
+  "slug": "tensor-core-fp32-加速-pet-势函数评测",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T15:00:00Z",
+  "lang": "zh",
+  "title": "Tensor Core FP32 加速 PET 势函数评测",
+  "summary": "rss · NVIDIA CUDA Technical Blog · 10月29日 15:00\n\n**「背景」** 机器学习原子间势（MLIP）用神经网络预测能量和力，在接近 DFT 精度的同时降低计算成本，但推理仍多采用 FP32。分子动力学对力误差高度敏感，误差会沿时间步累积，因此不能简单改用低精度 Tensor Core。\n\n**「方案」** NVIDIA 作者以 PET-MAD 为例，评测两条不改模型权重和架构的 Tensor Core FP32 路径：Blackwell 上的 BF16x9 把每个 FP32 操作数拆成三个 BF16 分量，计算九个乘积后以 FP32 累加；Ampere 上的 TF32x3 用前导和残差 TF32 分量计算三个交叉项并省略最小项，通过 CUTLASS 自定义线性层同时覆盖能量与梯度。在 26M 和 255M 参数、192 与 17,280 原子体系上，BF16x9 使大 GEMM 提速 2.2–2.5 倍，MD 步进在大体系提速 1.7 倍、小体系 1.2 倍；TF32x3 使 GEMM 提速约 1.7–1.9 倍，MD 步进在较大体系为 1.5 倍，255M 模型上为 1.4 倍。作者报告 BF16x9 的误差低于模型自身非确定性，TF32x3 的力误差约为 FP32 重编译差异的三倍（3.9×10⁻⁶ eV/Å）；CO/Pt\\(111\\)势能曲线与 NVE 能量守恒测试接近 FP32，而单次 TF32 出现波动和漂移，Cantor 合金弛豫中 TF32x3 用 218–222 步达到容差，单次 TF32 在 500 步内未收敛。作者也指出，收益取决于体系大小、GEMM 占比和内核调优，且 TF32x3 仍需按模型的精度与物理稳定性要求验证。\n\n**「启示」** 作者的核心结论是，Tensor Core FP32 可作为无需重训练或改架构的独立性能层，在保持接近 FP32 物理行为的同时显著加速以 GEMM 为主的 MLIP 推理；其普适性仍需在更多模型和硬件上验证。\n\n**标签**: `#Tensor Cores`, `#mixed-precision`, `#machine learning interatomic potentials`, `#molecular dynamics`, `#GPU benchmarking`",
+  "score": 7,
+  "tags": [
+    "Tensor Cores",
+    "mixed-precision",
+    "machine learning interatomic potentials",
+    "molecular dynamics",
+    "GPU benchmarking"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "NVIDIA CUDA Technical Blog"
+    }
+  ],
+  "originalUrl": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+  "originalSite": "developer.nvidia.com",
+  "context": "机器学习原子间势（MLIP）用神经网络预测能量和力，在接近 DFT 精度的同时降低计算成本，但推理仍多采用 FP32。分子动力学对力误差高度敏感，误差会沿时间步累积，因此不能简单改用低精度 Tensor Core。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

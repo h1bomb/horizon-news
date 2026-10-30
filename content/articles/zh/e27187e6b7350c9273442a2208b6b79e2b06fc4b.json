@@ -1,0 +1,36 @@
+{
+  "id": "e27187e6b7350c9273442a2208b6b79e2b06fc4b",
+  "canonicalId": "5bb1b87db247d8b58151e0ce9fec4f7f3f1e00cd",
+  "slug": "linux-内核-rfc-拟以-cells-让容器成为一等对象",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T14:02:00Z",
+  "lang": "zh",
+  "title": "Linux 内核 RFC 拟以 cells 让容器成为一等对象",
+  "summary": "Linux 内核社区出现一份由 Josef Bacik 提出的 RFC，拟用名为“cells”的新概念让容器成为内核正式识别的对象，面向内核和容器运行时开发者；该提案尚未合入主线。每个 cell 由非特权的 cell\\_create\\(\\) 创建并返回一个不可复制的 cellfd，初始为空，进程只能出生在 cell 内而不能通过 setns\\(\\) 进入，关闭 cellfd 会立即杀死整个 cell。cell\\_configure\\(\\) 可设置 hostname、网络命名空间和根文件系统，并要求每个 cell 配置独立的 cgroup budget，之后必须用 CELL\\_CMD\\_SEAL 封存。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "containers",
+    "kernel design",
+    "namespaces",
+    "cgroups"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1102593/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "若该设计被采纳，依赖 setns\\(\\) 将已有进程放入新命名空间的容器运行时需要改造为“先建 cell、配置并封存、再在其中创建进程”的模型；同时构建器必须为每个 cell 提供独立的 cgroup，并保持 cellfd 开启，因为关闭它就会终止整个 cell。",
+  "references": [
+    {
+      "title": "2026-08-05 — Linux 进程构建 API 补丁：替代 fork/exec 的探索",
+      "url": "https://lwn.net/Articles/1086330/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

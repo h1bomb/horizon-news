@@ -1,0 +1,44 @@
+{
+  "id": "d2d80855e8506eebcd79dd948efcef099db235c5",
+  "canonicalId": "d7e14d5839c195911dddc0c0816d93ae4063d42f",
+  "slug": "黑客据称经-okta-泄露逾-41-万-dhs-员工记录",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T07:04:00Z",
+  "lang": "zh",
+  "title": "黑客据称经 Okta 泄露逾 4.1 万 DHS 员工记录",
+  "summary": "据该报道，黑客组织“和平部”（Department of Peace）声称通过美国国土安全部（DHS）使用的 Okta 身份管理服务获取了逾 4.1 万名 DHS 员工的记录，内容包括姓名、职务、电话、邮箱和办公地点。这批记录涉及 ICE、CBP 和 CISA 等机构，其中约 2.1 万条属于 CBP、近 7000 条属于 ICE。相关数据集由 DDoSecrets 以“Icepick”名义托管，据称还包含这些机构可用的监控工具信息。DHS 未回应置评请求，上述泄露范围和来源尚未得到独立确认。",
+  "score": 7,
+  "tags": [
+    "cybersecurity",
+    "data breach",
+    "Okta",
+    "government",
+    "identity management"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
+  "originalSite": "theverge.com",
+  "context": "Okta 是身份与访问管理服务，机构用它集中管理员工账号、登录认证和应用访问权限；美国国土安全部也使用 Okta 的身份服务。DDoSecrets 则是一个公开泄露数据的协作平台，此次以「Icepick」名义托管相关数据集。由于身份服务通常连接人事目录与内部应用，这类事件中流出的往往不只是登录入口，还可能包括员工的组织与联系方式。",
+  "discussion": "对 ICE、CBP 等机构员工而言，泄露的姓名、职务、电话、邮箱和办公地点可被用于定向钓鱼、骚扰或人身定位；据 Cybernews 报道，数据集还包含部分卧底行动关联信息，进一步放大了实地安全风险。DHS 表示已知悉可能的泄露并正在处理，但在 Okta 单点登录入口被指为来源的情况下，受影响机构应核查身份提供商日志、重置相关凭据，并提醒员工警惕社工攻击。",
+  "references": [
+    {
+      "title": "DHS employee data leak exposes 41,000 staff records",
+      "url": "https://cybernews.com/security/massive-breach-hits-dhs-41000-employees-exposed/"
+    },
+    {
+      "title": "U.S. DHS officials&#x27; details apparently exposed in massive ...",
+      "url": "https://www.cnbc.com/2026/10/29/dhs-data-breach-ice-cdp-deportations.html"
+    },
+    {
+      "title": "Over 41,000 DHS Employee Records Leaked Online - SecurityWeek",
+      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

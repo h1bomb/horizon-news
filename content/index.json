@@ -1,6 +1,159 @@
 {
   "articles": [
     {
+      "id": "fbafe00b258a9596183ad5ee3e1759ce1c6f0ea3",
+      "canonicalId": "8ccea7e89b7030862a9f53eb527a17d29d33f0d5",
+      "slug": "mistral-large-4-开放权重商用许可仍受限",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "Mistral Large 4 开放权重，商用许可仍受限",
+      "score": 8,
+      "tags": [
+        "Mistral Large 4",
+        "open-weight models",
+        "AI licensing",
+        "LLM pricing",
+        "model release"
+      ],
+      "originalSite": "mistral.ai"
+    },
+    {
+      "id": "603ec493e2d39b1a80309dd435583d1194b8569d",
+      "canonicalId": "482dcd575b14905eb44d09f5779dbd8b87cf9f40",
+      "slug": "厂商报告php2shell-漏洞链控制-25-台服务器含政府系统",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "厂商报告：PHP2Shell 漏洞链控制 25 台服务器，含政府系统",
+      "score": 8,
+      "tags": [
+        "cybersecurity",
+        "exploit-chains",
+        "PHP",
+        "Linux-kernel",
+        "vulnerability-disclosure"
+      ],
+      "originalSite": "dreamgroup.com"
+    },
+    {
+      "id": "7f6f81e3d05eda7171f40a7f5899a2c818204db3",
+      "canonicalId": "80e5637a67e1a525d570c7c95fcdd592c0bc6c4c",
+      "slug": "anthropic-用-claude-将-messages-api-重写为-rust",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "Anthropic 用 Claude 将 Messages API 重写为 Rust",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "Rust migration",
+        "Claude",
+        "AI-assisted programming",
+        "API performance"
+      ],
+      "originalSite": "latent.space"
+    },
+    {
+      "id": "090e2fe1f96d5bee85f22467312bcd555f61c288",
+      "canonicalId": "739e0b5535e3ec061840356572d3233664c1c295",
+      "slug": "martin-fowler-谈-llm-文本特有的声音",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "Martin Fowler 谈 LLM 文本特有的“声音”",
+      "score": 7,
+      "tags": [
+        "LLM writing style",
+        "AI-generated content",
+        "readability",
+        "human communication",
+        "information density"
+      ],
+      "originalSite": "martinfowler.com"
+    },
+    {
+      "id": "aba2577d82ae1b0d51192e9296b7fa416aa8a18c",
+      "canonicalId": "72c27fdbb2d3b08f483515da05921b53d8c509ab",
+      "slug": "2016-年长文h264-is-magic重登-hacker-news引发编码器讨论",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "2016 年长文《H.264 Is Magic》重登 Hacker News，引发编码器讨论",
+      "score": 7,
+      "tags": [
+        "video compression",
+        "H.264",
+        "codecs",
+        "x264",
+        "technical deep-dive"
+      ],
+      "originalSite": "sidbala.com"
+    },
+    {
+      "id": "e27187e6b7350c9273442a2208b6b79e2b06fc4b",
+      "canonicalId": "5bb1b87db247d8b58151e0ce9fec4f7f3f1e00cd",
+      "slug": "linux-内核-rfc-拟以-cells-让容器成为一等对象",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "Linux 内核 RFC 拟以 cells 让容器成为一等对象",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "containers",
+        "kernel design",
+        "namespaces",
+        "cgroups"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "d2d80855e8506eebcd79dd948efcef099db235c5",
+      "canonicalId": "d7e14d5839c195911dddc0c0816d93ae4063d42f",
+      "slug": "黑客据称经-okta-泄露逾-41-万-dhs-员工记录",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "黑客据称经 Okta 泄露逾 4.1 万 DHS 员工记录",
+      "score": 7,
+      "tags": [
+        "cybersecurity",
+        "data breach",
+        "Okta",
+        "government",
+        "identity management"
+      ],
+      "originalSite": "theverge.com"
+    },
+    {
+      "id": "2d7ec3fe359f9ad3041f4835f3cc65efbda00e2a",
+      "canonicalId": "8a4b15c66b1180e7c227babae793da6426d13c10",
+      "slug": "tensor-core-fp32-加速-pet-势函数评测",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "Tensor Core FP32 加速 PET 势函数评测",
+      "score": 7,
+      "tags": [
+        "Tensor Cores",
+        "mixed-precision",
+        "machine learning interatomic potentials",
+        "molecular dynamics",
+        "GPU benchmarking"
+      ],
+      "originalSite": "developer.nvidia.com"
+    },
+    {
+      "id": "bc3408bf0204bd3634fd680a4efb955cd99ecfbe",
+      "canonicalId": "9b7dd4a7a6853f5d5578ec65f1b81b44ef5537c2",
+      "slug": "谷歌将-ai-模式搜索广告推向全球核心搜索广告增速降至-12",
+      "date": "2026-10-30",
+      "lang": "zh",
+      "title": "谷歌将 AI 模式搜索广告推向全球，核心搜索广告增速降至 12%",
+      "score": 8,
+      "tags": [
+        "Alphabet",
+        "Google Search ads",
+        "AI advertising",
+        "earnings",
+        "market reaction"
+      ],
+      "originalSite": "techcrunch.com"
+    },
+    {
       "id": "124327ca2a053d6a7330b252b75ca17d275de387",
       "canonicalId": "6318bf62f2c5750d4debc093ba5deffe66f9f836",
       "slug": "谷歌宣布-gemini-4-carbon可用性与层级命名受质疑",
@@ -5059,209 +5212,6 @@
         "observability"
       ],
       "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "67e0386df765c6cabbde3da9e2933703c412329c",
-      "canonicalId": "dcd46da33dcb96e84afc9ff4efd2cb6590e16ec2",
-      "slug": "web-与移动端对话式-ai-代理隐私分析",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "Web 与移动端对话式 AI 代理隐私分析",
-      "score": 8,
-      "tags": [
-        "privacy",
-        "conversational AI",
-        "web tracking",
-        "mobile apps",
-        "LLM agents"
-      ],
-      "originalSite": "jorgegarciaherrero.com"
-    },
-    {
-      "id": "6c44b7378d967056d7cd0a5b21bd5047007656b5",
-      "canonicalId": "dfa5dcc7a3330d421efa2914612b85e3096825ec",
-      "slug": "postgresql-开发者谈-linux-内核的助力与阻碍",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "PostgreSQL 开发者谈 Linux 内核的助力与阻碍",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "PostgreSQL",
-        "database performance",
-        "Kernel Recipes",
-        "open source"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "79dbdbd028181936e34074859f955a32889e98dd",
-      "canonicalId": "5f7f4a10dc871f5b2dee58a7227fe17d9868ce48",
-      "slug": "openai-开发者大会据称推出-dots-常驻智能体与-gpt-61-系列",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "OpenAI 开发者大会据称推出 dots 常驻智能体与 GPT-6.1 系列",
-      "score": 8,
-      "tags": [
-        "OpenAI",
-        "AI agents",
-        "GPT-6.1",
-        "developer APIs",
-        "AI industry news"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "7a53ca16e6ee3c5b89518f7031ee0f86cde59670",
-      "canonicalId": "80e4ef842b12917f0321c3aa765810b018c97c11",
-      "slug": "anthropic-评估智谱-glm-53-网络攻击能力",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "Anthropic 评估智谱 GLM-5.3 网络攻击能力",
-      "score": 8,
-      "tags": [
-        "AI安全",
-        "网络安全",
-        "开源模型",
-        "模型评测",
-        "Anthropic"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "5a293a94d7644821c09c0671a06914af9d9ae55c",
-      "canonicalId": "dd66acaed2a04b44cad22fd2bd31d13ed4bc8e27",
-      "slug": "openai-gpt-61-sol宣称接近-astra-智能价格仅五分之一",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "OpenAI GPT-6.1 Sol：宣称接近 Astra 智能，价格仅五分之一",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "GPT-6.1 Sol",
-        "LLM pricing",
-        "AI model competition",
-        "community skepticism"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "11b947f1d3ea1b8a4256a3eba5aebbb31658cec7",
-      "canonicalId": "32d3feab4f141b56bec7f39c7cc6a136ece2661a",
-      "slug": "americagov-被指用-gemini-驱动政府服务助手",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "America.gov 被指用 Gemini 驱动政府服务助手",
-      "score": 7,
-      "tags": [
-        "AI in government",
-        "Google Gemini",
-        "LLM applications",
-        "public services",
-        "Hacker News"
-      ],
-      "originalSite": "america.gov"
-    },
-    {
-      "id": "3b0619f736a11a54b049d7f182be12d3cf5e876c",
-      "canonicalId": "5d66eee063272dff7964cef7fb6f941122659e53",
-      "slug": "rustconf-2026提案让-gpu-成为普通-rust-编译目标",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "RustConf 2026：提案让 GPU 成为普通 Rust 编译目标",
-      "score": 7,
-      "tags": [
-        "Rust",
-        "GPU programming",
-        "compilers",
-        "RustConf 2026"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "648322778d851b05acd2b9e4aa92e7aeed304922",
-      "canonicalId": "2f27d4adaa0721861a25882e21e91e7affb3bace",
-      "slug": "cnnic中国生成式-ai-用户破-7-亿普及率超-50",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "CNNIC：中国生成式 AI 用户破 7 亿，普及率超 50%",
-      "score": 7,
-      "tags": [
-        "generative AI",
-        "AI adoption",
-        "China AI market",
-        "AI infrastructure",
-        "CNNIC report"
-      ],
-      "originalSite": "ysxw.cctv.cn"
-    },
-    {
-      "id": "d27851520288f6895acd091c7b9345eb30e8694e",
-      "canonicalId": "ff1c78cd980c5796ece1858c08b433d88cae19c6",
-      "slug": "cloudflare-推出面向-ai-agent-的-cf-cli-开放测试版",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "Cloudflare 推出面向 AI Agent 的 cf CLI 开放测试版",
-      "score": 7,
-      "tags": [
-        "Cloudflare",
-        "CLI",
-        "AI Agent",
-        "Developer Tools",
-        "API Automation"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "4eedadba4fb7977293a469b843cc990bf2c4d371",
-      "canonicalId": "4f41057ade813b58a9ca9d6a6b179d660adbd518",
-      "slug": "谷歌修复-firebase-analytics-服务端故障致-ios-应用启动崩溃",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "谷歌修复 Firebase Analytics 服务端故障致 iOS 应用启动崩溃",
-      "score": 7,
-      "tags": [
-        "Firebase",
-        "iOS",
-        "Google Analytics",
-        "Production Incident",
-        "Mobile Development"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "9db44ffb3e3da2136c4a1d13417ffffc51d47d0e",
-      "canonicalId": "a9d0b575c8fd4f631ad1ee4f0fd71fd6c575d5c0",
-      "slug": "llm-为何说谎幻觉机制与缓解",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "LLM 为何“说谎”：幻觉机制与缓解",
-      "score": 6,
-      "tags": [
-        "LLM hallucinations",
-        "RAG",
-        "LLM evaluation",
-        "tool use",
-        "AI reliability"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "e0fea2fe0d4a58557400ba7db9955b7cc32ccb5f",
-      "canonicalId": "026d6781adb9f8c064138b326e87407b2cb626c6",
-      "slug": "三部门通知10-月-1-日起首套住房商业贷款贴息年化-1-个百分点最长-5-年",
-      "date": "2026-09-30",
-      "lang": "zh",
-      "title": "三部门通知：10 月 1 日起首套住房商业贷款贴息年化 1 个百分点、最长 5 年",
-      "score": 8,
-      "tags": [
-        "China housing policy",
-        "mortgage interest subsidy",
-        "fiscal policy",
-        "real estate market",
-        "central bank"
-      ],
-      "originalSite": "jrs.mof.gov.cn"
     }
   ]
 }

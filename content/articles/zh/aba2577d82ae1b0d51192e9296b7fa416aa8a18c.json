@@ -1,0 +1,37 @@
+{
+  "id": "aba2577d82ae1b0d51192e9296b7fa416aa8a18c",
+  "canonicalId": "72c27fdbb2d3b08f483515da05921b53d8c509ab",
+  "slug": "2016-年长文h264-is-magic重登-hacker-news引发编码器讨论",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T15:53:00Z",
+  "lang": "zh",
+  "title": "2016 年长文《H.264 Is Magic》重登 Hacker News，引发编码器讨论",
+  "summary": "一篇 2016 年的技术长文《H.264 Is Magic》于 2026 年 10 月 29 日再次出现在 Hacker News 上，文章解释了 H.264 为何能在有限码率下实现高效压缩。本轮讨论没有涉及新版本或新的测量结果，而是集中在既有工具的实践细节：x264 的切片多线程前瞻、H.264 的无损编码模式，以及 AV1、AV2 等后继编码器。原文只是针对成熟技术的旧文，这次重新出现并不伴随任何新发布或性能数据。",
+  "score": 7,
+  "tags": [
+    "video compression",
+    "H.264",
+    "codecs",
+    "x264",
+    "technical deep-dive"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ea016",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50291054"
+    }
+  ],
+  "originalUrl": "https://sidbala.com/h-264-is-magic/",
+  "originalSite": "sidbala.com",
+  "context": "H.264（ITU-T 与 ISO/IEC 于 2003 年发布的 MPEG-4 AVC）长期是网络视频、广播与光盘发行的默认编码格式，其帧内/帧间预测加变换、量化、熵编码的结构后来成为衡量新一代编码器的参照基线，x264 等开源实现则让它在实时编码场景中普及。后续世代近年仍在推进：Horizon 2026 年 6 月 1 日的日报曾记录，AOMedia 的 AV2 参考编码器打出首个 1.0.0 版本，目标是比 AV1 再提升约 30% 的压缩率，这也是一篇 2016 年的解释性文章会在此刻被重新翻出的语境。",
+  "discussion": "评论者 tgtweak 回忆，2011 年曾与 Jason Garrett-Glaser（DarkShikari）合作改进 x264 的切片多线程前瞻，目标是降低游戏串流编码延迟。Hasz 则把压缩类比为智能，并希望看到用大语言模型去挑战 Hutter 奖这类压缩问题；pwython 认为 2026 年的对应物已是 AV1，并提到 AV2 即将到来。",
+  "references": [
+    {
+      "title": "2026-06-01 — AV2 Reference Encoder Reaches First 1.0.0 Release",
+      "url": "https://videocardz.com/newz/aomedias-av2-encoder-gets-first-1-0-0-release"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fbafe00b258a9596183ad5ee3e1759ce1c6f0ea3",
+  "canonicalId": "8ccea7e89b7030862a9f53eb527a17d29d33f0d5",
+  "slug": "mistral-large-4-开放权重商用许可仍受限",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-29T14:13:00Z",
+  "lang": "zh",
+  "title": "Mistral Large 4 开放权重，商用许可仍受限",
+  "summary": "Mistral 发布了 Mistral Large 4 的模型权重，但许可证规定：若使用方或其关联公司经营模型即服务（Model as a Service）业务，须先与 Mistral 单独签署商业许可，才能将该模型或其衍生作品用于任何商业目的。与此同时，正式版 API 定价降至每百万输入 token 0.70 美元、每百万输出 token 2.10 美元，约为此前预览版 1.36 美元和 4.18 美元的一半。社区评论提到，权重已发布在 Hugging Face 的 mistralai/Mistral-Large-4-1T-A52B 仓库，并围绕“开放权重”这一定义展开争论。",
+  "score": 8,
+  "tags": [
+    "Mistral Large 4",
+    "open-weight models",
+    "AI licensing",
+    "LLM pricing",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kuberwastaken",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50289418"
+    }
+  ],
+  "originalUrl": "https://mistral.ai/news/mistral-large-4-oss/",
+  "originalSite": "mistral.ai",
+  "context": "Horizon 10 月 7 日的日报曾报道，Mistral 发布了 Mistral Large 4 预览版：该模型为 1 万亿总参数、490 亿激活参数，当时仅通过 Mistral API 提供，并承诺在月底发布开放权重版本，因此开放权重当时只是承诺，尚未交付。此次发布兑现了该承诺，使 Mistral Large 4 从仅能通过 API 调用变为可获取模型权重。",
+  "discussion": "有评论者批评，把带有模型即服务限制的许可证称为“开放权重”具有误导性，并将其与 Redis、Elasticsearch 等此前的许可证争议相提并论。另一方面，有开发者报告称，正式版价格约为预览版的一半，值得重新评估；也有欧洲企业用户表示，通过 Mistral API 同时调用其自有和第三方模型，使用体验良好。",
+  "references": [
+    {
+      "title": "2026-10-07 — Mistral Large 4 预览版发布：1 万亿参数，承诺月底开源权重",
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
