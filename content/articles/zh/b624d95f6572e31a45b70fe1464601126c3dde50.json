@@ -1,0 +1,44 @@
+{
+  "id": "b624d95f6572e31a45b70fe1464601126c3dde50",
+  "canonicalId": "4ac1d97cc6450c640bf719ea97197e5466e31683",
+  "slug": "linux-多路径-tcp-曝可远程触发的释放后使用漏洞",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T15:45:00Z",
+  "lang": "zh",
+  "title": "Linux 多路径 TCP 曝可远程触发的释放后使用漏洞",
+  "summary": "Linux 内核多路径 TCP（MPTCP）中被披露一个可远程触发的释放后使用漏洞 CVE-2026-98432：攻击者可让重传 SYN 包的响应与另一线程中的连接建立同时发生，使第一个线程在第二个线程已释放连接选项结构后仍访问该结构，从而泄露内核内存，或造成缓冲区溢出并写入攻击者控制的数据。上游修复提交（e3f33b0a1d89）改为仅在 RCU 宽限期结束后才释放该结构。Anthropic 于 10 月 27 日公开该漏洞，Go 安全团队于 10 月 29 日提示，用 Go 编写的程序默认使用多路径 TCP。受影响的仅是开启了 MPTCP 监听器的系统；各发行版何时提供已打补丁的内核尚不清楚，来源摘要也未说明是否已出现实际利用。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "security vulnerability",
+    "multipath TCP",
+    "remote code execution",
+    "use-after-free"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1104192/",
+  "originalSite": "lwn.net",
+  "context": "",
+  "discussion": "对运行受影响内核且开放多路径 TCP 监听的主机，攻击者无需本地权限或用户交互，即可通过 IPv4 TCP 触发内核内存破坏或系统崩溃；Red Hat 将该漏洞列为 RHEL 的 Critical 级，第三方评估给出 CVSS 9.8。Go 安全团队称 Go 程序默认使用多路径 TCP，因此运维方应排查相关监听端口，并尽快升级到发行版提供的已修复内核；在补丁可用前，减少不必要的 MPTCP 暴露可降低风险。",
+  "references": [
+    {
+      "title": "CVE-2026-98432 - Red Hat Customer Portal",
+      "url": "https://access.redhat.com/security/cve/cve-2026-98432"
+    },
+    {
+      "title": "CVE-2026-98432: Critical Linux Kernel TCP Vulnerability (CVSS ...",
+      "url": "https://securityarsenal.com/blog/cve-2026-98432-critical-linux-kernel-tcp-vulnerability-cvss-98-detection-and-remediation-guide"
+    },
+    {
+      "title": "CVE-2026-98432: Linux Kernel TCP 9.8 CVSS Flaw Hits Ubuntu ...",
+      "url": "https://aviatrix.ai/threat-research-center/linux-kernel-tcp-flaw-98-cvss-cve-2026-98432-ubuntu-rhel/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

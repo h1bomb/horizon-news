@@ -1,0 +1,41 @@
+{
+  "id": "8d89f7271841aac95a9a5d8e9b7ff5e92ef85a61",
+  "canonicalId": "58bdc6b4d6104e60ef38c4c9c3957fc4f143c208",
+  "slug": "show-hn约-1gb-qwen-权重内实现可运行的-nes-模拟器",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T16:40:00Z",
+  "lang": "zh",
+  "title": "Show HN：约 1GB Qwen 权重内实现可运行的 NES 模拟器",
+  "summary": "Show HN 项目 nesformer 据称在约 1GB 的 Qwen 模型权重中实现了一个可运行的 NES 模拟器，面向想验证“LLM 即虚拟机”的开发者。它把 NES 的 CPU 与内存状态放进模型的前向计算，而不是交给传统解释器；评论中引用的数据称其速度比真实主机慢 150–290 倍。社区评论还指出，项目连 RAM 也在模型内模拟（据称借助 gated DeltaNet 架构），因此不只是模拟 CPU。",
+  "score": 7,
+  "tags": [
+    "LLM emulation",
+    "Nintendo Entertainment System",
+    "Qwen",
+    "model weights",
+    "Show HN"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dbreunig",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50306442"
+    }
+  ],
+  "originalUrl": "https://github.com/dbreunig/nesformer",
+  "originalSite": "github.com",
+  "context": "这一项目沿用了 Qwenputer 的思路：据其仓库和博客，Qwenputer 把一台 CHIP-8 机器——CPU、大数运算库和内存——写成 transformer 层并附加到 Qwen 3.5-4B 原始权重上，同时还演示了在模型内构建可运行的 RISC-V CPU，其关键在于 Qwen 3-Next/3.5 多数注意力层采用 Gated DeltaNet，每个 head 的状态矩阵可持续保存并更新状态。nesformer 的作者在评论中说明，他先让模型阅读 Qwenputer 的文章和相关源码，再要求它探索能否用同样方式在权重中模拟 NES 的芯片与 RAM，以及需要多大的模型。",
+  "discussion": "对想用 LLM 内部执行程序或工具链的人，这个演示给出的直接约束是：可行性已具备，但 150–290 倍的减速和相应算力开销意味着它目前不能替代真实 NES 模拟器，也不适合交互式负载。若要沿此路线构建 VM，性能与成本是首先需要解决的工程约束。\n\n评论中，armcat 认为可把小型 VM、Python 解释器和 shell 工具编译进权重，用矩阵运算替代缓慢的外部工具调用；pbohun 和 jacquesm 则强调这更像可行性演示，150–290 倍减速与算力差距说明确定性程序仍高效得多。cafebeen 还指出，项目连 RAM 也在模型内模拟，而不只是 CPU，并称这部分通过 gated DeltaNet 架构实现。",
+  "references": [
+    {
+      "title": "GitHub - divagr 18/ qwenputer : A computer, compiled into the weights ...",
+      "url": "https://github.com/divagr18/qwenputer"
+    },
+    {
+      "title": "Qwenputer : a fully functioning, deterministic RISC-V CPU inside...",
+      "url": "https://divagr.com/blog/qwenputer"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

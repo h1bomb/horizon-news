@@ -1,0 +1,41 @@
+{
+  "id": "b3102acde2d24fd8ddf32bfe667a2ec2927b6b09",
+  "canonicalId": "92d1bce2e693dd62518f8569c7cd32289b24f80d",
+  "slug": "tangled-发布基于-at-protocol-的联邦代码托管平台",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T15:44:00Z",
+  "lang": "zh",
+  "title": "Tangled 发布基于 AT Protocol 的联邦代码托管平台",
+  "summary": "Tangled 面向开发者发布了基于 AT Protocol 的联邦代码托管平台。联合创始人称，团队已稳定 AT Protocol lexicon、全面重构架构与界面，并加入组织支持；整套服务栈或其中部分组件的自托管也已简化。私有仓库计划在未来几周推出。有评论引用报道称，Tangled 已完成 380 万欧元融资。",
+  "score": 7,
+  "tags": [
+    "federated code forge",
+    "AT Protocol",
+    "open-source hosting",
+    "self-hosting",
+    "Git collaboration"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zlliang",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50305573"
+    }
+  ],
+  "originalUrl": "https://tangled.org/blog/forge/",
+  "originalSite": "tangled.org",
+  "context": "Tangled 在 2026 年 3 月宣布 380 万欧元种子轮时已说明其基于 AT Protocol 构建，并已提供 stacked PR 等功能。Horizon 2026 年 4 月 30 日的日报还报道过 Tangled 提出的“代码托管平台联邦”设想，即用 ForgeFed 等现有协议连接不同 forge；此次发布则是该项目的重构版本，称已稳定 AT Protocol lexicons、重构架构和 UI，并支持自托管和组织。",
+  "discussion": "对打算自托管的团队，联合创始人表示可以运行完整服务栈，也可以只部署部分组件；但私有仓库尚未可用，需要它的组织要等未来几周的推出。\n\n有评论者计划把侧项目从自托管 Gitea 迁到 Tangled，用其承载代码、发布和潜在 CI，同时保留 GitHub 用于发现、备份和命名空间占位，但还在等 git-bug 的 Tangled 桥接。另有反馈认为首页和时间线信息过密、个人页活动图可以简化，并有人追问已定稿的 lexicon 是否会把 issue、PR 和评论记录从用户范围移到仓库范围，这条追问在提供的讨论中未见答复。",
+  "references": [
+    {
+      "title": "2026-04-30 — Proposal for a Federation of Forges",
+      "url": "https://blog.tangled.org/federation/"
+    },
+    {
+      "title": "Announcing our €3,8M seed round — Tangled&#x27;s Blog",
+      "url": "https://blog.tangled.org/seed/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

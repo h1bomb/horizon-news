@@ -1,0 +1,48 @@
+{
+  "id": "432542c830c27cd5a8914289ba1100bd66709482",
+  "canonicalId": "878f4166da45f59e45154940f9cd716c8cf5b420",
+  "slug": "haas-谈-postgresql-19-延期与-llm-缺陷发现压力",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T16:52:00Z",
+  "lang": "zh",
+  "title": "Haas 谈 PostgreSQL 19 延期与 LLM 缺陷发现压力",
+  "summary": "PostgreSQL 19 的发布出现延迟。PostgreSQL 开发者 Robert Haas 表示，这次延期本身并不特别令人担忧，它直接来自项目对质量的关注；他真正担心的是长期维护能力。Haas 指出，LLM 有能力发现人类四十年都未能找到的缺陷，维护者可能永远追不上，这会威胁 PostgreSQL 的持续创新；他称自己和许多人正在努力寻找答案，但尚未提出具体方案。",
+  "score": 7,
+  "tags": [
+    "PostgreSQL",
+    "LLM bug discovery",
+    "open-source maintenance",
+    "release management",
+    "software quality"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1104210/",
+  "originalSite": "lwn.net",
+  "context": "9 月 11 日的 Horizon 日报曾报道，PostgreSQL 19 原定于 2026 年 9 月发布，但后期补丁暴露出异常多的缺陷，项目因此新增了一个 beta；10 月 14 日的 Horizon 日报又记录，核心成员 Peter Eisentraut 称 beta 阶段被撤回的功能异常多，LLM 辅助代码审查让边缘问题被发现得更快，这相当于在功能提交后抬高了有效质量门槛。Haas 此次讨论的延期，正是在这一轮质量排查和功能撤回之后出现的。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "2026-09-11 — PostgreSQL 19 后期补丁质量引担忧，新增一个 beta",
+      "url": "https://lwn.net/Articles/1092003/"
+    },
+    {
+      "title": "2026-10-14 — PostgreSQL 19 测试期多项功能被撤回，核心成员归因于 LLM 辅助审查",
+      "url": "https://lwn.net/Articles/1100182/"
+    },
+    {
+      "title": "PostgreSQL 19 Delayed : Key Feature Reversions &amp; Release Updates",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgresql-19-release-delay-feature-reverts/"
+    },
+    {
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans...",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "223d9a2c6455530251d4dccd0fc38568454fdbc3",
+  "canonicalId": "bf5aaab63512aa2419db23810d284897ea273c39",
+  "slug": "cursor-扩展市场短暂出现带-ssh-后门的-claude-code-扩展",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T07:09:00Z",
+  "lang": "zh",
+  "title": "Cursor 扩展市场短暂出现带 SSH 后门的 Claude Code 扩展",
+  "summary": "10 月 29 日，Cursor 扩展市场短暂上架了被篡改的 \\`Anthropic.claude-code 2.1.313\\`；Cursor 称该版本并非 Anthropic 开发，最多 5,000 名用户受影响。该扩展会收集主机信息，并向 \\`~/.ssh/authorized\\_keys\\` 追加标记为 \\`svc-telemetry\\` 的攻击者公钥，进而尝试建立长期 SSH 后门，但 Cursor 表示多数主机因需要管理员权限而未能建成隧道。Cursor 已下架该版本、暂时关闭整个市场、轮换密钥后重新开放，并称攻击者服务器已下线；Anthropic 表示其官方发布渠道和系统未受影响，事件仅涉及 Cursor 用户。",
+  "score": 8,
+  "tags": [
+    "supply-chain-security",
+    "ai-coding-tools",
+    "vs-code-extension",
+    "security-incident",
+    "cursor-marketplace"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_chall",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50300683"
+    }
+  ],
+  "originalUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+  "originalSite": "phorion.io",
+  "context": "VS Code 扩展以开发者本人的权限运行，可以读写本地文件、执行命令，因此扩展市场长期被视为软件供应链攻击的高价值入口。Horizon 5 月 21 日的日报曾记录，GitHub 确认一名员工因安装恶意 VS Code 扩展而导致约 3,800 个内部仓库被未授权访问，说明这类攻击已有先例而非理论风险。Cursor 的扩展市场基于 Open VSX 提供 VS Code 扩展，第三方可通过该渠道分发以厂商命名空间标识的包，本次被篡改的 Anthropic.claude-code 即由此而来，而非 Anthropic 官方渠道。",
+  "discussion": "在暴露窗口安装过该版本的 Cursor 用户应按公告检查 \\`~/.ssh/authorized\\_keys\\` 是否出现 \\`svc-telemetry\\` 条目；即使隧道因权限不足未建立，也不能排除公钥已被写入，发现后应按受影响主机处理并审查 SSH 访问。\n\nAnthropic 员工 felixrieseberg 在评论中澄清，这不是 Anthropic 系统或员工电脑被攻破，而是攻击者利用 Cursor 市场权限发布了篡改副本；另有评论者建议 Anthropic 暂时下架官方扩展，直到 Cursor 修复发布流程。也有评论者贴出 Reuters 报道的时间窗口和 Cursor 公告中的检测命令。",
+  "references": [
+    {
+      "title": "2026-05-21 — GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "url": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "a15583713509def4774b88f32079056200607327",
+  "canonicalId": "ae7973e4c5616e3118635c9a86c790714503f46f",
+  "slug": "linux-74-移除-c-版-binderrust-实现成为必需",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T17:46:00Z",
+  "lang": "zh",
+  "title": "Linux 7.4 移除 C 版 Binder，Rust 实现成为必需",
+  "summary": "在 Kangrejos 2026 的演讲中，Carlos Llamas 宣布删除 Android Binder 驱动的 C 实现；会后移除补丁已并入 Linux 7.4 合并窗口，因此从 7.4 起 Binder 只保留 Rust 实现。该迁移历时五年多，Rust 版沿用相同算法，但重点处理尾延迟和锁竞争，并通过将部分操作移出锁、改用自旋锁解决优先级反转问题。旧稳定内核仍保留 C Binder 并继续接收安全修复，7.3 被指定为 2026 年的长期支持版本。由于部分厂商钩子无法由 Rust 版完全复现，许多 Android 厂商需先更新代码才能迁移。",
+  "score": 8,
+  "tags": [
+    "Linux kernel",
+    "Rust",
+    "Android Binder",
+    "IPC",
+    "Kangrejos"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1102982/",
+  "originalSite": "lwn.net",
+  "context": "Binder 自 2008 年进入内核以来一直是 Android 的主要进程间通信机制，也因攻击面大而成为长期的安全和维护负担；正因如此，内核社区从 2021 年起着手用 Rust 重写，首个公开版本到 2023 年才出现。Horizon 2 月 23 日的日报曾报道，Linux 7.0 已结束 Rust 的实验阶段，使其成为内核的永久组成部分；这意味着在 C 版 Binder 被删除前，Rust 已具备内核正式组件的身份。",
+  "discussion": "对 Android 设备厂商而言，停留在旧稳定内核可暂时继续使用 C Binder，但一旦升级到 7.4 或更新内核，就必须适配 Rust Binder 并处理厂商钩子无法完全复现的问题；使用 GCC 构建内核的发行版还需面对 Rust 侧目前依赖 LLVM 的工具链安排。",
+  "references": [
+    {
+      "title": "2026-02-23 — Linux 7.0 ends Rust&#x27;s experimental phase, establishing it as a permanent kernel component.",
+      "url": "https://t.me/zaihuapd/39806"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "68203a673c647af83b61b6ed0adea05233559873",
+  "canonicalId": "b804da29a44db35ec279d0e5296660cd80397299",
+  "slug": "azure-曝出五条完整跨租户入侵路径",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T10:06:00Z",
+  "lang": "zh",
+  "title": "Azure 曝出五条完整跨租户入侵路径",
+  "summary": "一篇 Binary Security 安全研究文章列出 Azure 的五条完整跨租户入侵路径；随附讨论重点质疑管理员同意（admin consent）回调伪造，并提到路径遍历和 IDOR 类问题。文章面向 Azure 租户管理员和开发者，但当前材料没有给出各路径的利用前提、受影响服务或微软修复状态，因此这些说法仍需以原报告和厂商确认为准。",
+  "score": 8,
+  "tags": [
+    "Azure",
+    "cloud security",
+    "cross-tenant vulnerabilities",
+    "vulnerability research",
+    "IDOR"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "swq115",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50301854"
+    }
+  ],
+  "originalUrl": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+  "originalSite": "binarysecurity.no",
+  "context": "",
+  "discussion": "对使用管理员同意流程的 Azure 租户，评论者提出的具体风险是：攻击者只要知道另一客户的租户 ID 就能伪造回调，因此租户 ID 不能被当作认证或授权秘密。由于材料未说明微软是否已修复，受影响组织应先向微软确认状态，并检查同意回调是否独立校验来源。\n\n评论中最具体的技术质疑集中在 adminconsent：undoch 称只要知道其他客户的租户 ID 就能伪造回调，并认为文档中的警告不能替代可用的用户认证方式。另有评论者推测路径遍历和 IDOR 可能自相关能力推出以来就存在，并把“给资源名加随机性”的建议与之联系起来，但这只是猜测。",
+  "references": [
+    {
+      "title": "Azure &#x27; s Weakest Link - Five Full Cross - Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

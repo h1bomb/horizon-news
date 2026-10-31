@@ -1,6 +1,176 @@
 {
   "articles": [
     {
+      "id": "68203a673c647af83b61b6ed0adea05233559873",
+      "canonicalId": "b804da29a44db35ec279d0e5296660cd80397299",
+      "slug": "azure-曝出五条完整跨租户入侵路径",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Azure 曝出五条完整跨租户入侵路径",
+      "score": 8,
+      "tags": [
+        "Azure",
+        "cloud security",
+        "cross-tenant vulnerabilities",
+        "vulnerability research",
+        "IDOR"
+      ],
+      "originalSite": "binarysecurity.no"
+    },
+    {
+      "id": "223d9a2c6455530251d4dccd0fc38568454fdbc3",
+      "canonicalId": "bf5aaab63512aa2419db23810d284897ea273c39",
+      "slug": "cursor-扩展市场短暂出现带-ssh-后门的-claude-code-扩展",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Cursor 扩展市场短暂出现带 SSH 后门的 Claude Code 扩展",
+      "score": 8,
+      "tags": [
+        "supply-chain-security",
+        "ai-coding-tools",
+        "vs-code-extension",
+        "security-incident",
+        "cursor-marketplace"
+      ],
+      "originalSite": "phorion.io"
+    },
+    {
+      "id": "a15583713509def4774b88f32079056200607327",
+      "canonicalId": "ae7973e4c5616e3118635c9a86c790714503f46f",
+      "slug": "linux-74-移除-c-版-binderrust-实现成为必需",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Linux 7.4 移除 C 版 Binder，Rust 实现成为必需",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "Rust",
+        "Android Binder",
+        "IPC",
+        "Kangrejos"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "b624d95f6572e31a45b70fe1464601126c3dde50",
+      "canonicalId": "4ac1d97cc6450c640bf719ea97197e5466e31683",
+      "slug": "linux-多路径-tcp-曝可远程触发的释放后使用漏洞",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Linux 多路径 TCP 曝可远程触发的释放后使用漏洞",
+      "score": 8,
+      "tags": [
+        "Linux kernel",
+        "security vulnerability",
+        "multipath TCP",
+        "remote code execution",
+        "use-after-free"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "b3102acde2d24fd8ddf32bfe667a2ec2927b6b09",
+      "canonicalId": "92d1bce2e693dd62518f8569c7cd32289b24f80d",
+      "slug": "tangled-发布基于-at-protocol-的联邦代码托管平台",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Tangled 发布基于 AT Protocol 的联邦代码托管平台",
+      "score": 7,
+      "tags": [
+        "federated code forge",
+        "AT Protocol",
+        "open-source hosting",
+        "self-hosting",
+        "Git collaboration"
+      ],
+      "originalSite": "tangled.org"
+    },
+    {
+      "id": "5fbf67081af4193c733f55ef9d694a90a99de579",
+      "canonicalId": "0e232296f4e5fbe9e696223c52fb0620ab0aae86",
+      "slug": "northflank-据报遭入侵社区讨论多租户-saas-风险",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Northflank 据报遭入侵，社区讨论多租户 SaaS 风险",
+      "score": 7,
+      "tags": [
+        "security breach",
+        "cloud infrastructure",
+        "SaaS",
+        "infrastructure security",
+        "multi-tenant"
+      ],
+      "originalSite": "status.northflank.com"
+    },
+    {
+      "id": "8d89f7271841aac95a9a5d8e9b7ff5e92ef85a61",
+      "canonicalId": "58bdc6b4d6104e60ef38c4c9c3957fc4f143c208",
+      "slug": "show-hn约-1gb-qwen-权重内实现可运行的-nes-模拟器",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Show HN：约 1GB Qwen 权重内实现可运行的 NES 模拟器",
+      "score": 7,
+      "tags": [
+        "LLM emulation",
+        "Nintendo Entertainment System",
+        "Qwen",
+        "model weights",
+        "Show HN"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "432542c830c27cd5a8914289ba1100bd66709482",
+      "canonicalId": "878f4166da45f59e45154940f9cd716c8cf5b420",
+      "slug": "haas-谈-postgresql-19-延期与-llm-缺陷发现压力",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Haas 谈 PostgreSQL 19 延期与 LLM 缺陷发现压力",
+      "score": 7,
+      "tags": [
+        "PostgreSQL",
+        "LLM bug discovery",
+        "open-source maintenance",
+        "release management",
+        "software quality"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "7b1100d75f04821540bf6fe1cd53a53b40825301",
+      "canonicalId": "d839f750ee0a6deff0822e6d22a6585b670bf95f",
+      "slug": "apple-智能首批功能-11-月-4-日在中国启动测试",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "Apple 智能首批功能 11 月 4 日在中国启动测试",
+      "score": 7,
+      "tags": [
+        "Apple Intelligence",
+        "China market",
+        "Alibaba Qwen",
+        "iOS",
+        "AI localization"
+      ],
+      "originalSite": "apple.com.cn"
+    },
+    {
+      "id": "60bdc3d9c1b2a84e53f9ff875e9d6a2afaea61b7",
+      "canonicalId": "eb64622d3441644b337186ff19ba6eca8fef5752",
+      "slug": "deepseek-二轮融资报道募资-1055-亿元估值超-6155-亿元",
+      "date": "2026-10-31",
+      "lang": "zh",
+      "title": "DeepSeek 二轮融资报道：募资 1055 亿元，估值超 6155 亿元",
+      "score": 8,
+      "tags": [
+        "DeepSeek",
+        "AI financing",
+        "China tech",
+        "state-backed investment",
+        "private markets"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
       "id": "fbafe00b258a9596183ad5ee3e1759ce1c6f0ea3",
       "canonicalId": "8ccea7e89b7030862a9f53eb527a17d29d33f0d5",
       "slug": "mistral-large-4-开放权重商用许可仍受限",
@@ -5059,159 +5229,6 @@
         "export controls"
       ],
       "originalSite": "ft.com"
-    },
-    {
-      "id": "361d5a94730a3f4af3dc153f7f371a62e2f36b13",
-      "canonicalId": "9e57e69aee78667d7c2d81cadc59430fc2302453",
-      "slug": "谷歌发布-gemini-4-argon暂限早期测试者",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "谷歌发布 Gemini 4 Argon，暂限早期测试者",
-      "score": 9,
-      "tags": [
-        "Gemini 4 Argon",
-        "large language models",
-        "AI model releases",
-        "Google AI",
-        "AI competition"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "651fa41749c3725fd0110f273e3e34e1f12eb6a3",
-      "canonicalId": "f9d283d850cc3a9188564c3d8f1687eda5b6a95d",
-      "slug": "you-said-no-mcpmcp-立场反转引争论",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "《You said no MCP》：MCP 立场反转引争论",
-      "score": 7,
-      "tags": [
-        "Model Context Protocol",
-        "AI tooling",
-        "developer tools",
-        "LLM agents",
-        "Hacker News discussion"
-      ],
-      "originalSite": "earendil.com"
-    },
-    {
-      "id": "1faa754f2359472ae430a1a1fc016451eee02e13",
-      "canonicalId": "f5de8c0fcf346920be160ee56627b1db112e3893",
-      "slug": "fossy-2026google-与-igalia-的-chromium-开发对比",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "FOSSY 2026：Google 与 Igalia 的 Chromium 开发对比",
-      "score": 7,
-      "tags": [
-        "Chromium",
-        "open source",
-        "browser development",
-        "software engineering culture",
-        "corporate open source"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "d7b90f45d188571dc9b24696491fafc1ef0c1225",
-      "canonicalId": "03c14955cb01ec9421e38b582de3ab750b05d773",
-      "slug": "特朗普与六大科技公司签署一页-ai-安全协议",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "特朗普与六大科技公司签署一页 AI 安全协议",
-      "score": 7,
-      "tags": [
-        "AI安全",
-        "AI治理",
-        "科技政策",
-        "大模型",
-        "行业协议"
-      ],
-      "originalSite": "zaobao.com.sg"
-    },
-    {
-      "id": "ad2451e3365b55f1fe4091b29dd9b778ba6ee088",
-      "canonicalId": "d385a22532007727d05c18ef84afa76fa59deca2",
-      "slug": "cloudflare-宣布计划成为公共证书颁发机构",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "Cloudflare 宣布计划成为公共证书颁发机构",
-      "score": 7,
-      "tags": [
-        "Cloudflare",
-        "Public CA",
-        "TLS certificates",
-        "Post-Quantum",
-        "ACME"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "3baa1e95d8b311e983e4b2abee9054de50f7f09d",
-      "canonicalId": "7808c62cb7368ce09bd64619446a721d7a077a47",
-      "slug": "报道微软雇数百外包工评估-copilot-图像生成内容",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "报道：微软雇数百外包工评估 Copilot 图像生成内容",
-      "score": 7,
-      "tags": [
-        "Microsoft Copilot",
-        "AI privacy",
-        "content moderation",
-        "trust and safety",
-        "outsourced labor"
-      ],
-      "originalSite": "404media.co"
-    },
-    {
-      "id": "68a9562f5b9112c51d839257bdd9906bdd429a35",
-      "canonicalId": "16d3fa97285977d54e6d5c951d514341a88e7834",
-      "slug": "kimi-k3-经-baseten-接入-openai-codex-企业付费通道",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "Kimi K3 经 Baseten 接入 OpenAI Codex 企业付费通道",
-      "score": 7,
-      "tags": [
-        "Kimi K3",
-        "OpenAI Codex",
-        "enterprise AI procurement",
-        "open-source models",
-        "AI coding tools"
-      ],
-      "originalSite": "36kr.com"
-    },
-    {
-      "id": "1ba247747c750f6cabcbb2cf59f30dc61ce21bc4",
-      "canonicalId": "637eb1ce0081325a2bea3917d96fb005f0ebdc7e",
-      "slug": "b-站开源-index-translate-多语言翻译模型",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "B 站开源 Index-Translate 多语言翻译模型",
-      "score": 7,
-      "tags": [
-        "open-source",
-        "translation",
-        "LLM",
-        "multilingual",
-        "model-release"
-      ],
-      "originalSite": "ithome.com"
-    },
-    {
-      "id": "ca54244f7f6c74e93510f5dabca7f67125de246a",
-      "canonicalId": "e189d148aef66b39fa65a9ba98b4dcbd55654f38",
-      "slug": "doordash-的-agent-gateway企业-ai-工具访问治理",
-      "date": "2026-10-01",
-      "lang": "zh",
-      "title": "DoorDash 的 Agent Gateway：企业 AI 工具访问治理",
-      "score": 6,
-      "tags": [
-        "MCP",
-        "AI agents",
-        "agent gateway",
-        "OAuth",
-        "observability"
-      ],
-      "originalSite": "blog.bytebytego.com"
     }
   ]
 }
