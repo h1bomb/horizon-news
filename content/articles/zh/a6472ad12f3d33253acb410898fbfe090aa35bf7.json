@@ -1,0 +1,40 @@
+{
+  "id": "a6472ad12f3d33253acb410898fbfe090aa35bf7",
+  "canonicalId": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
+  "slug": "hacktron-称可经-gnu-savannah-漏洞推送-bash-仓库",
+  "date": "2026-11-01",
+  "publishedAt": "2026-10-31T14:00:00Z",
+  "lang": "zh",
+  "title": "Hacktron 称可经 GNU Savannah 漏洞推送 Bash 仓库",
+  "summary": "安全团队 Hacktron 在博客中称，他们利用 GNU Savannah 协作平台的输入处理缺陷，使任意注册用户仅凭形如 \\`touch$\\{IFS\\}/tmp/savane-rce-proof\\`@attacker.example 的邮箱地址就能在后端执行代码，并进一步把自己的账户提升为超级用户。该团队称，随后它冒充 Bash 维护者，确认可以添加具有上游 Bash 仓库推送权限的 SSH 密钥；它还利用一个未打补丁的内核获得 root 权限，并访问了一台 GNU 备份服务器。上述步骤表明，攻击者本可向该平台托管的项目注入恶意代码，但现有报道并未称已发生实际恶意推送；Hacktron 表示已于 2026 年 5 月 11 日向 FSF 报告，LWN 的摘要未说明漏洞的修复状态。",
+  "score": 8,
+  "tags": [
+    "security",
+    "supply-chain",
+    "open-source-infrastructure",
+    "GNU Savannah",
+    "Bash"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "LWN.net"
+    }
+  ],
+  "originalUrl": "https://lwn.net/Articles/1104262/",
+  "originalSite": "lwn.net",
+  "context": "GNU Savannah 是 GNU 项目的协作式代码托管平台，Bash 的上游仓库也位于该平台，因此平台后台权限直接关系到下游发行版和用户获取的源码。Hacktron 表示已于 2026 年 5 月 11 日向 FSF 报告相关漏洞。",
+  "discussion": "由于 GNU Savannah 承载 Bash 和 Coreutils 等项目的开发，这次演示说明：攻击者一旦取得该平台的普通注册账号，就可能借邮件地址注入获得代码执行，并进一步取得上游仓库的推送权限。相关报道称，Savannah 在暴露约两年后已修补漏洞；依赖这些仓库的下游发行版和维护者仍应审计仓库的 SSH 公钥、推送权限及备份访问记录，确认没有未授权变更。",
+  "references": [
+    {
+      "title": "In the news | Hacktron AI",
+      "url": "https://www.hacktron.ai/news"
+    },
+    {
+      "title": "Hacktron раскрыла атаку на GNU Savannah : скомпрометированы...",
+      "url": "https://techora.ru/news/hacktron-raskryla-ataku-na-gnu-savannah-2026-10-31"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

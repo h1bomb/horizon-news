@@ -1,6 +1,142 @@
 {
   "articles": [
     {
+      "id": "dbcef7948c9f818c29f58c7ceaf2751b93950221",
+      "canonicalId": "6bd209feefbeab17a3f5fb389d25b5a774e46e10",
+      "slug": "linux-tcp-释放后重用漏洞-cvss-98ubuntu-与-rhel-尚无补丁",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "Linux TCP 释放后重用漏洞 CVSS 9.8，Ubuntu 与 RHEL 尚无补丁",
+      "score": 8,
+      "tags": [
+        "Linux",
+        "security",
+        "CVE",
+        "TCP/IP",
+        "kernel"
+      ],
+      "originalSite": "atlasum.net"
+    },
+    {
+      "id": "3a322756ac7a4e0abc6a815432052f33c4708328",
+      "canonicalId": "a2dd8ba86336037cb0facc722f090fc277c40ba5",
+      "slug": "gcc-如何将-switch-降低为跳转表与决策树",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "GCC 如何将 switch 降低为跳转表与决策树",
+      "score": 8,
+      "tags": [
+        "compilers",
+        "GCC",
+        "switch statements",
+        "code generation",
+        "optimization"
+      ],
+      "originalSite": "xoranth.net"
+    },
+    {
+      "id": "135e143d037c88be68d1efc6e6d33f6fb3ad3bf1",
+      "canonicalId": "810faf01d51623255c20e09086023c983545c151",
+      "slug": "jepsen-审计particledb-114-存在严重正确性故障",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "Jepsen 审计：ParticleDB 1.1.4 存在严重正确性故障",
+      "score": 8,
+      "tags": [
+        "databases",
+        "distributed systems",
+        "correctness",
+        "Jepsen",
+        "data loss"
+      ],
+      "originalSite": "jepsen.io"
+    },
+    {
+      "id": "a6a6314238c18dffc3feda10f54eb8606acc66e7",
+      "canonicalId": "dd35d009aad680f7bdb8901c179d770026e55ae7",
+      "slug": "chatgpt-html-预览沙箱漏洞可劫持账户",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "ChatGPT HTML 预览沙箱漏洞可劫持账户",
+      "score": 8,
+      "tags": [
+        "ChatGPT",
+        "security",
+        "sandbox escape",
+        "AI security",
+        "web security"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "a6472ad12f3d33253acb410898fbfe090aa35bf7",
+      "canonicalId": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
+      "slug": "hacktron-称可经-gnu-savannah-漏洞推送-bash-仓库",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "Hacktron 称可经 GNU Savannah 漏洞推送 Bash 仓库",
+      "score": 8,
+      "tags": [
+        "security",
+        "supply-chain",
+        "open-source-infrastructure",
+        "GNU Savannah",
+        "Bash"
+      ],
+      "originalSite": "lwn.net"
+    },
+    {
+      "id": "cc0942efc417803d5f2cb3a36b81eaee530b44dc",
+      "canonicalId": "5e24b260a3151075a46dac737416d39895f8ecfa",
+      "slug": "anthropic-自动化红队发现可规避监控的微调数据",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "Anthropic 自动化红队发现可规避监控的微调数据",
+      "score": 8,
+      "tags": [
+        "AI safety",
+        "automated red teaming",
+        "deceptive alignment",
+        "fine-tuning",
+        "monitor evasion"
+      ],
+      "originalSite": "alignment.anthropic.com"
+    },
+    {
+      "id": "adc68dfb88a396dccfc81d63957465318759c331",
+      "canonicalId": "f5feb8f2c3e5113c58143fc5212579709c1f5e72",
+      "slug": "长鑫第六代-dram-平台完成工程样片验证",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "长鑫第六代 DRAM 平台完成工程样片验证",
+      "score": 7,
+      "tags": [
+        "DRAM",
+        "4F² architecture",
+        "semiconductor manufacturing",
+        "ChangXin Technology",
+        "memory"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
+      "id": "ef4f8b0fa3161be7bd8546135617df6c0ab9e7b7",
+      "canonicalId": "5f17c0ac289550337670e5daafcabb129978118c",
+      "slug": "大厂工程师如何获得重要项目",
+      "date": "2026-11-01",
+      "lang": "zh",
+      "title": "大厂工程师如何获得重要项目",
+      "score": 6,
+      "tags": [
+        "big tech careers",
+        "engineering management",
+        "organizational incentives",
+        "reputation",
+        "career strategy"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
       "id": "68203a673c647af83b61b6ed0adea05233559873",
       "canonicalId": "b804da29a44db35ec279d0e5296660cd80397299",
       "slug": "azure-曝出五条完整跨租户入侵路径",
@@ -4975,260 +5111,6 @@
         "market expectations"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "a5052acd237341ccf509a61765ea9fdbc60ed022",
-      "canonicalId": "91d1779c50424b7e0c6b8167f7c3d3ba1e4f7741",
-      "slug": "rust-编译器-2026-年-9-月提速约-5-加速与借用检查器改进",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Rust 编译器 2026 年 9 月提速：约 5% 加速与借用检查器改进",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "compiler performance",
-        "open source",
-        "software engineering",
-        "performance optimization"
-      ],
-      "originalSite": "nnethercote.github.io"
-    },
-    {
-      "id": "0f0fbaf7f1ad6cbf7abb148f63d4960a9c838ce5",
-      "canonicalId": "89ed10d59c95d20ff24f7863b767bee1148278d4",
-      "slug": "matthew-green沙箱不足以阻止-ai-智能体间的蠕虫式传播",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Matthew Green：沙箱不足以阻止 AI 智能体间的蠕虫式传播",
-      "score": 8,
-      "tags": [
-        "AI agents",
-        "security",
-        "sandboxing",
-        "prompt injection",
-        "multi-agent systems"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "a7e34df597f470741b5fdcb5dc542ea04bbdbffa",
-      "canonicalId": "63211fb0b2100dd2b5cdd92b94d99c51641df11b",
-      "slug": "linux-内核安全团队回应-llm-漏洞报告激增",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Linux 内核安全团队回应 LLM 漏洞报告激增",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "security",
-        "LLM",
-        "open source maintenance",
-        "CVE"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "587428c60252d0e669247677f5c1420263ed5f7e",
-      "canonicalId": "6860a783c56445b7bbf043ee738bdd2978990b87",
-      "slug": "reddit-将停用-rss-订阅并关闭公开-api",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Reddit 将停用 RSS 订阅并关闭公开 API",
-      "score": 8,
-      "tags": [
-        "Reddit",
-        "API access",
-        "RSS",
-        "AI scraping",
-        "platform policy"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "42c8a5930a466b0d4c14d09b69953a8a6075abe0",
-      "canonicalId": "f796b39f9fcc2117565beb828789ebebf211430b",
-      "slug": "pi-10-发布面向本地模型的轻量-ai-编程代理",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Pi 1.0 发布：面向本地模型的轻量 AI 编程代理",
-      "score": 7,
-      "tags": [
-        "AI coding agents",
-        "developer tools",
-        "local models",
-        "software releases"
-      ],
-      "originalSite": "earendil.com"
-    },
-    {
-      "id": "f2c28e85205ac833564d14e56a42697f9ee3982a",
-      "canonicalId": "317971da35b148b97cc4914c72e77fb99e55982a",
-      "slug": "cloudflare-发布-clef-开放权重决策模型与-rl-微调平台",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Cloudflare 发布 Clef 开放权重决策模型与 RL 微调平台",
-      "score": 7,
-      "tags": [
-        "open-weight models",
-        "RL fine-tuning",
-        "Cloudflare",
-        "AI pricing",
-        "open source licensing"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "c126d162af3584334cc9a0f9585c36370294df56",
-      "canonicalId": "8d8c225d2284d88856c5451287d4794a51885b68",
-      "slug": "pi-durable面向无人值守长运行-ai-代理的持久化框架",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Pi Durable：面向无人值守长运行 AI 代理的持久化框架",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "durable execution",
-        "agent harness",
-        "long-running agents",
-        "software engineering"
-      ],
-      "originalSite": "earendil.com"
-    },
-    {
-      "id": "8acbc5f204751f3a1713e6fd47aab6ff01356d39",
-      "canonicalId": "f7c3330b4cdd1cbb0d8adf2831c9e4c12aa12a7c",
-      "slug": "streetcomplete-进入-ios-公测阶段",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "StreetComplete 进入 iOS 公测阶段",
-      "score": 7,
-      "tags": [
-        "OpenStreetMap",
-        "open-source software",
-        "iOS",
-        "mobile app",
-        "crowdsourced mapping"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "16cdbafc79c497034c5fd3696b9c5ab4c3521f8f",
-      "canonicalId": "a4d5be1f0220da1fb13b3143fa29fdbdce9f0baa",
-      "slug": "turbopuffer-博文rip-vector-database引发索引设计讨论",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "turbopuffer 博文《RIP, vector database》引发索引设计讨论",
-      "score": 7,
-      "tags": [
-        "vector databases",
-        "database indexing",
-        "AI infrastructure",
-        "retrieval systems",
-        "Hacker News discussion"
-      ],
-      "originalSite": "turbopuffer.com"
-    },
-    {
-      "id": "f7ca73d2f1e926656db72b9f1d98dc4e3928988f",
-      "canonicalId": "7a23387a9be1de75a62480545b9e3a55d4d739f6",
-      "slug": "多个项目在-esp32-中发现未公开-sdr-接收能力",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "多个项目在 ESP32 中发现未公开 SDR 接收能力",
-      "score": 7,
-      "tags": [
-        "ESP32",
-        "software-defined radio",
-        "embedded systems",
-        "RF hacking",
-        "hardware"
-      ],
-      "originalSite": "rtl-sdr.com"
-    },
-    {
-      "id": "6b72790d1629c19ff81a0de7eee69bb2dd60adb5",
-      "canonicalId": "4f45a66ba9a41bdd5d4f9098fba9ece86694842c",
-      "slug": "cloudflare-k2对象存储上的无服务器事件流",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "Cloudflare K2：对象存储上的无服务器事件流",
-      "score": 7,
-      "tags": [
-        "serverless",
-        "event-streaming",
-        "cloudflare",
-        "object-storage",
-        "distributed-systems"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "26dba85273cb2bbeeaf3e8f9ddb29415d8f00407",
-      "canonicalId": "6a91381a429232e70fbbeaf70fa7952678ddb1b1",
-      "slug": "openai-称瓦解模型蒸馏活动指向月之暗面相关人员",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "OpenAI 称瓦解模型蒸馏活动，指向月之暗面相关人员",
-      "score": 7,
-      "tags": [
-        "model distillation",
-        "OpenAI",
-        "Moonshot AI / Kimi",
-        "AI security &amp; IP",
-        "AI industry policy"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "18bb8e1853499af76f8278824f20b1552857e556",
-      "canonicalId": "7abd4d2d77e4231c1b1c8d0904ddcc86d0c8d48d",
-      "slug": "deepmind-推出-synthid-bio为-ai-设计蛋白质嵌入水印",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "DeepMind 推出 SynthID Bio，为 AI 设计蛋白质嵌入水印",
-      "score": 7,
-      "tags": [
-        "AI蛋白质设计",
-        "SynthID Bio",
-        "生物安全水印",
-        "ProteinMPNN",
-        "DeepMind"
-      ],
-      "originalSite": "arstechnica.com"
-    },
-    {
-      "id": "66ab1c6b6ff3fd9b1258db4e4dbb97a15d6e895b",
-      "canonicalId": "98aa449f70f178545fafb5f3d3ef1b6bd8713e66",
-      "slug": "用-c-与-tensorrt-rtx-样例构建本地-ai-应用",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "用 C++ 与 TensorRT RTX 样例构建本地 AI 应用",
-      "score": 5,
-      "tags": [
-        "ONNX Runtime",
-        "TensorRT RTX",
-        "C++ inference",
-        "model deployment",
-        "quantization"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "4bde399f91a8d22aa481daac86347e5c18567f38",
-      "canonicalId": "65d2818f537ade2f2c4223dfd4f152d31bed768f",
-      "slug": "腾讯据报以约-70-亿美元向甲骨文租用-10-万枚-ai-芯片",
-      "date": "2026-10-02",
-      "lang": "zh",
-      "title": "腾讯据报以约 70 亿美元向甲骨文租用 10 万枚 AI 芯片",
-      "score": 8,
-      "tags": [
-        "Tencent",
-        "Oracle",
-        "AI chips",
-        "data centers",
-        "export controls"
-      ],
-      "originalSite": "ft.com"
     }
   ]
 }

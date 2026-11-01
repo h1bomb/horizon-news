@@ -1,0 +1,53 @@
+{
+  "id": "dbcef7948c9f818c29f58c7ceaf2751b93950221",
+  "canonicalId": "6bd209feefbeab17a3f5fb389d25b5a774e46e10",
+  "slug": "linux-tcp-释放后重用漏洞-cvss-98ubuntu-与-rhel-尚无补丁",
+  "date": "2026-11-01",
+  "publishedAt": "2026-10-31T19:16:00Z",
+  "lang": "zh",
+  "title": "Linux TCP 释放后重用漏洞 CVSS 9.8，Ubuntu 与 RHEL 尚无补丁",
+  "summary": "Linux IPv4/TCP 栈的释放后重用漏洞 CVE-2026-98432 被列为 CVSS 9.8 的严重问题，受影响的是 Linux 系统，而不涉及 BSD、macOS 或 Windows。评论中引述的说明称，它并非 MPTCP 专属漏洞；通过互联网利用的可能性不高，因为许多 ISP 路由器会丢弃带 IP options 的数据包，而且成功利用需要多个 CPU 核心参与数据包处理。评论者还指出 Ubuntu 和 Red Hat 的 CVE 页面尚未列出补丁，并将自行丢弃带 IP options 的数据包描述为有帮助但不完整的缓解措施。",
+  "score": 8,
+  "tags": [
+    "Linux",
+    "security",
+    "CVE",
+    "TCP/IP",
+    "kernel"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "oger",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50319143"
+    }
+  ],
+  "originalUrl": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+  "originalSite": "atlasum.net",
+  "context": "CVE-2026-98432 是 IPv4 TCP 握手中由竞态触发的释放后使用（use-after-free）问题：据 dbugs 汇总的漏洞描述，tcp\\_v4\\_syn\\_recv\\_sock\\(\\) 在把 ireq-&gt;ireq\\_opt 的所有权转交给子套接字时并未复制该结构，从而可能访问已被释放的内存。被列为受影响的主线版本为 7.2 至 7.2.9 及 7.3 至 7.3-rc6；据 Atlas 的报道，上游修复于 10 月 15 日完成，而 NolimitCloud 给出的稳定分支修复版本为 5.10.272、5.15.223 或更高。这也解释了为何讨论的焦点落在各发行版是否已回移补丁，而非漏洞本身是否已被上游确认。",
+  "discussion": "评论区的争议集中在标题和发行版响应上：有人批评 HN 标题删掉“Linux”会让非 Linux 用户误判风险，也有人质疑 Ubuntu 和 RHEL 为何在服务器场景下仍无补丁。另有评论补充了利用条件，认为单核系统或把包处理固定到单核的系统不受影响。",
+  "references": [
+    {
+      "title": "CVE - 2026 - 98432 : Linux IPv 4 TCP Use - After - Free ... | NolimitCloud",
+      "url": "https://nolimitcloud.eu/blogs/security/cve-2026-98432-linux-ipv4-uaf"
+    },
+    {
+      "title": "Linux &#x27;s October 2026 TCP Use - After - Free : CVE - 2026 - 98432 — Atlas",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf"
+    },
+    {
+      "title": "CVE - 2026 - 98432 — Use After Free in Linux Linux Kernel | dbugs",
+      "url": "https://dbu.gs/vulnerability/CVE-2026-98432"
+    },
+    {
+      "title": "CVE - 2026 - 98432 Linux TCP Flaw, Ubuntu Patch and Mitigation ...",
+      "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/"
+    },
+    {
+      "title": "Linux Kernel CVE - 2026 - 98432 : Critical TCP Use-After-Free, No RHEL ...",
+      "url": "https://www.rescana.com/post/linux-kernel-tcp-cve-2026-98432-use-after-free-prepare-now"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

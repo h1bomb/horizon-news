@@ -1,0 +1,37 @@
+{
+  "id": "3a322756ac7a4e0abc6a815432052f33c4708328",
+  "canonicalId": "a2dd8ba86336037cb0facc722f090fc277c40ba5",
+  "slug": "gcc-如何将-switch-降低为跳转表与决策树",
+  "date": "2026-11-01",
+  "publishedAt": "2026-10-31T08:02:00Z",
+  "lang": "zh",
+  "title": "GCC 如何将 switch 降低为跳转表与决策树",
+  "summary": "文章解释 GCC 在编译时如何把 switch 语句降低为跳转表和决策树，并梳理这一代码生成路径。内容面向希望理解 GCC 内部实现与优化选择的编译器、系统工程师。",
+  "score": 8,
+  "tags": [
+    "compilers",
+    "GCC",
+    "switch statements",
+    "code generation",
+    "optimization"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "signa11",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50314085"
+    }
+  ],
+  "originalUrl": "https://xoranth.net/gcc-switch/",
+  "originalSite": "xoranth.net",
+  "context": "switch 语句本身并不是机器指令，编译器必须把它“下沉”为跳转表、比较链或决策树等具体形式：跳转表适合 case 值分布密集的情形，用一次边界检查加间接跳转取代多次比较。Stack Overflow 上一个关于 GCC 9.4.0 的提问显示，该版本在 -O0 至 -Ofast 各优化级别下都把 switch 编译成带 sanity check 边界检查块的跳转表。本次讨论关注的正是 GCC 在这些下沉策略之间如何取舍。",
+  "discussion": "评论中，有人称在 .NET 的 System.HashCode 场景里决策树比跳转表明显更快；也有人报告超大稀疏 switch 在 LLVM 开启优化后编译耗时接近半小时，最终改用完美哈希，并批评 GCC 与 Clang 仍未为大型稀疏 switch 实现这类优化。",
+  "references": [
+    {
+      "title": "c - Disabling sanity checks in generated jump tables - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79610308/disabling-sanity-checks-in-generated-jump-tables"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

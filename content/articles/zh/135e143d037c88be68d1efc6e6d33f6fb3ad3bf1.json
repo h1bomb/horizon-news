@@ -1,0 +1,41 @@
+{
+  "id": "135e143d037c88be68d1efc6e6d33f6fb3ad3bf1",
+  "canonicalId": "810faf01d51623255c20e09086023c983545c151",
+  "slug": "jepsen-审计particledb-114-存在严重正确性故障",
+  "date": "2026-11-01",
+  "publishedAt": "2026-10-31T13:39:00Z",
+  "lang": "zh",
+  "title": "Jepsen 审计：ParticleDB 1.1.4 存在严重正确性故障",
+  "summary": "Jepsen 发布对 ParticleDB 1.1.4 的审计，结论是该版本存在严重的正确性与持久性故障，建议用户停止继续部署并尽快迁移到其他数据库。报告称，这个自称 PostgreSQL 兼容的数据库在几乎各项测量中都出现事务异常，包括已提交写入丢失、内部一致性违例、G1a（Aborted Read）、G1b（Intermediate Read）和 P4（Lost Update）；在追加负载中，成功追加的值会从后续读取中消失。报告共列出 96 个问题，涵盖崩溃、死锁、数据丢失、无法删除的半可见行、WHERE 4 = 5、被删除的表以扭曲形式重新出现、列混淆以及字符串变成整数等。ParticleDB 官网曾宣称通过 TLA+ 形式化证明，但 Jepsen 表示合作期间没有可用的 TLA+ 规范，因此无法确认究竟证明了什么属性，也无法确认这些属性是否针对实际构建出的 ParticleDB。",
+  "score": 8,
+  "tags": [
+    "databases",
+    "distributed systems",
+    "correctness",
+    "Jepsen",
+    "data loss"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "aphyr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50316100"
+    }
+  ],
+  "originalUrl": "https://jepsen.io/analyses/particledb-1.1.4",
+  "originalSite": "jepsen.io",
+  "context": "Jepsen 以在故障注入和并发压力下检验数据库的事务隔离与持久性保证而著称；这次它测试的是面向 AI 工作负载的多模型数据库 ParticleDB，覆盖 1.1.4 至 1.1.18.11.rc-22 等版本。ParticleDB 此前宣称具备“完整 ACID”能力，因此这次分析关注的是其核心一致性承诺是否成立，而不只是普通缺陷。",
+  "discussion": "对已经部署 ParticleDB 1.1.4 的团队，Jepsen 的建议是停止进一步部署并迁移，并在可能时从更可靠的来源检查或重建数据库状态；这意味着当前库中的数据不能被视为可信来源，需要安排校验、导出和回滚方案。\n\n评论者 wofo 将问题归因于“vibecode 数据库”，tensegrist 则强调官网的 TLA+“形式化证明”说法与实际找不到规范之间的落差；这些是评论者观点，不是独立验证。amluto 提出一种区分：有些软件是“构造正确”的，故障多为局部缺陷；另一些则是“构造错误”的，只能靠绕过错误设计来运行，而 AI 很擅长找这些绕过点。",
+  "references": [
+    {
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4"
+    },
+    {
+      "title": "ParticleDB1.1 - jepsen.io",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

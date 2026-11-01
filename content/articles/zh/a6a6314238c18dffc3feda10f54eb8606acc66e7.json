@@ -1,0 +1,31 @@
+{
+  "id": "a6a6314238c18dffc3feda10f54eb8606acc66e7",
+  "canonicalId": "dd35d009aad680f7bdb8901c179d770026e55ae7",
+  "slug": "chatgpt-html-预览沙箱漏洞可劫持账户",
+  "date": "2026-11-01",
+  "publishedAt": "2026-10-31T23:15:00Z",
+  "lang": "zh",
+  "title": "ChatGPT HTML 预览沙箱漏洞可劫持账户",
+  "summary": "据 Simon Willison 转述，Parameter Labs 披露了一条针对 ChatGPT HTML 预览的复杂利用链；HTML 预览指在沙箱 iframe 中运行的交互式自定义 HTML 应用。沙箱内代码可通过 postMessage 触发父页面的 MathLive 虚拟键盘，而该键盘的接收端使用 innerHTML，且未限制其他沙箱 frame，因此能注入不受沙箱限制的新 iframe；随后又利用 CSP 允许的 YouTube oEmbed 反射执行 JavaScript，读取并外传私有数据。该文称，攻击者可构造 ChatGPT 分享链接，其他已登录用户访问后，其数据可能被窃取，或攻击者可以该用户身份执行操作。文章称 OpenAI 已封堵漏洞并支付 5,000 美元赏金；上述结论来自 Parameter Labs 的披露和 Simon Willison 的转述，而非独立复现。",
+  "score": 8,
+  "tags": [
+    "ChatGPT",
+    "security",
+    "sandbox escape",
+    "AI security",
+    "web security"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "对使用沙箱 iframe 或 postMessage 的开发者而言，这条利用链说明仅靠 iframe sandbox 与 CSP 域名白名单不够：消息接收方必须校验来源，避免把不可信内容交给 innerHTML，并应审查 YouTube 等被信任域名的反射或 JSONP 端点是否可能成为脚本执行通道。\n\nHN 评论主要批评 OpenAI 为这一漏洞仅支付 5,000 美元赏金，认为金额过低可能削弱安全研究者报告问题的意愿；也有评论者认为原文叙述难以让人看清实际攻击路径。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
