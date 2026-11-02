@@ -1,0 +1,36 @@
+{
+  "id": "81f51f492f7d9343cba8b22e1dde8f971c013628",
+  "canonicalId": "6027d45d4d249463dec4f4923b08c7f663f2aef1",
+  "slug": "clear-报告部分语言-ai-分词成本最高相差-17-倍",
+  "date": "2026-11-02",
+  "publishedAt": "2026-11-01T16:06:00Z",
+  "lang": "zh",
+  "title": "CLEAR 报告：部分语言 AI 分词成本最高相差 17 倍",
+  "summary": "CLEAR 研究联盟发布的报告称，主流 AI 模型的分词器明显偏向英语和高资源语言，不同语言处理相同内容时的 Token 消耗差距最高达 17 倍。报告举例称，同一句话用英语需 13 个 Token，用马拉雅拉姆语需 26 个，用阿姆哈拉语则需 78 个；研究覆盖约 200 种语言。报告指出，这种“分词器税”会推高按 Token 计费场景下的使用成本，并增加响应延迟、压缩模型的有效上下文容量。",
+  "score": 7,
+  "tags": [
+    "tokenization",
+    "multilingual AI",
+    "LLM cost",
+    "AI fairness",
+    "NLP research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://clear-languages.org/blog/the-tokenizer-tax",
+  "originalSite": "clear-languages.org",
+  "context": "分词器会把文本切成模型实际处理的子词单元，其词表规模和训练语料决定了同一段内容会消耗多少 token；英语等高资源语言通常能获得更细、更高效的切分。CLEAR 的报告正是基于这一机制比较约 200 种语言，而 arXiv 上一项相关研究的摘要称，改用 XLM-R、o200k\\_base 等多语言分词器可把 Indic 语言的分词器税平均降低 73%，说明差距部分来自词表设计，而非语言本身。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2607.24276] The Tokenizer Tax : Quantifying and Explaining the...",
+      "url": "https://arxiv.org/abs/2607.24276"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

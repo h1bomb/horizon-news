@@ -1,0 +1,41 @@
+{
+  "id": "ea64f0583fe069826ca565d18ae017cb902eb963",
+  "canonicalId": "8cb5e1eef3d683de464966b489eb57915975a112",
+  "slug": "联想指纹-u-盘被指内部只是未加密-sd-卡",
+  "date": "2026-11-02",
+  "publishedAt": "2026-11-01T14:34:00Z",
+  "lang": "zh",
+  "title": "联想指纹 U 盘被指内部只是未加密 SD 卡",
+  "summary": "有报道称，联想一款以加密和指纹认证为卖点的 USB 存储设备，内部只是一张未加密的 SD 卡装在外壳里，存储介质本身并没有受到加密保护。对购买该产品的用户而言，这意味着不能把设备宣传的“加密”当作数据保护依据；在联想回应或独立验证出现前，相关安全性仍属未证实。",
+  "score": 7,
+  "tags": [
+    "hardware security",
+    "encryption",
+    "consumer electronics",
+    "Lenovo",
+    "fingerprint authentication"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "entryleveljobsc",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50326099"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+  "originalSite": "reddit.com",
+  "context": "联想以 ThinkPlus FU 100 的名称销售这款指纹 U 盘，并宣称其具备 AES-256 硬件加密。据 Tom&\\#x27;s Hardware 报道，安全研究员 Xiusheng Li 在 3 月的一次会议演讲中称，该产品的指纹模块只控制 U 盘与电脑的连接，内部实际是一张存放未加密文件的普通 SD 卡，因此能接触设备的人可直接取出存储卡读取数据。",
+  "discussion": "评论者质疑联想为何还能被信任制造安全硬件，有人认为这已不是普通漏洞，而是设计审查和产品审批失效；也有评论主张不要依赖厂商的封闭加密，而应在设备之上使用自由软件加密。",
+  "references": [
+    {
+      "title": "Lenovo &#x27;s &#x27; encrypted &#x27; fingerprint USB drive is just... | Tom &#x27; s ...",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products"
+    },
+    {
+      "title": "Lenovo ThinkPlus FU 100 с отпечатком пальца хранила... | Дзен",
+      "url": "https://dzen.ru/a/audnrfxZjwBIzYOC"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
