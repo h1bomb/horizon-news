@@ -1,0 +1,48 @@
+{
+  "id": "cbe3787e12998a2c0eaf7138480e0e25749890dc",
+  "canonicalId": "9b3ba0441179b738a4b3bfc2d8045d6914ada724",
+  "slug": "aircraft-noise-plus-ads-b-data-can-geolocate-a-video-osint-demo-shows",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T05:32:00Z",
+  "lang": "en",
+  "title": "Aircraft noise plus ADS-B data can geolocate a video, OSINT demo shows",
+  "summary": "In a YouTube video, researcher Colsto demonstrates an OSINT technique that extracts nearly imperceptible aircraft background noise from a video&\\#x27;s soundtrack, derives the planes&\\#x27; Doppler curves, and cross-references them against ADS-B flight data. By combining speed, distance, and the gaps between different overflights, the method can narrow a recording to a specific location, according to Simon Willison&\\#x27;s link post, which calls it a &quot;genius piece of OSINT.&quot; The post is brief and points to the video rather than independently verifying the result, so the exact-location claim rests on the demonstration itself.",
+  "score": 7,
+  "tags": [
+    "OSINT",
+    "privacy",
+    "geolocation",
+    "ADS-B",
+    "audio analysis"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "I discovered a sound that leaks your exact location ... - YouTube",
+      "url": "https://www.youtube.com/watch?v=UytYrhYLOKI"
+    },
+    {
+      "title": "Digg - News, before it trends",
+      "url": "https://digg.com/"
+    },
+    {
+      "title": "ADS-B Privacy - honeywellaerospace.com",
+      "url": "https://www.honeywellaerospace.com/us/en/insights/articles/ads-b-privacy"
+    },
+    {
+      "title": "ADS-B Privacy Concerns: Navigating New Challenges - E3 Aviation",
+      "url": "https://e3aviationassociation.com/aviation-articles/ads-b-privacy-concerns/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

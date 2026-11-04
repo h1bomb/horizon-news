@@ -1,0 +1,45 @@
+{
+  "id": "46fc913d4fa04240d8cb672bec62b41c58dd495b",
+  "canonicalId": "da9a5824109ffaf4d36b11b44e51a59070ea60b1",
+  "slug": "github-议题指-postman-静默安装-ai-插件并上传-api-数据",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T17:22:00Z",
+  "lang": "zh",
+  "title": "GitHub 议题指 Postman 静默安装 AI 插件并上传 API 数据",
+  "summary": "Postman 官方 GitHub 支持仓库中的一则议题指控，Postman 客户端会静默安装 AI 插件，并将 API 请求数据发送到其服务器，其中包括通过 \\{\\{secret\\}\\} 模板填入查询参数的实际密钥值。该说法来自议题及 Hacker News 讨论，现有材料未提供 Postman 的回应或独立验证。评论者还称，屏蔽相关日志端点会导致应用无法正常工作，并有人据此认为 Postman 不符合 HIPAA 要求。",
+  "score": 8,
+  "tags": [
+    "postman",
+    "privacy",
+    "security",
+    "api-tools",
+    "telemetry"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sidgarimella",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50354960"
+    }
+  ],
+  "originalUrl": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "originalSite": "github.com",
+  "context": "Postman 是开发者用来保存 API 请求定义、环境变量和鉴权信息的客户端；请求中常用 \\{\\{some\\_secret\\}\\} 这类模板变量引用环境变量里的密钥，因此日志是否记录替换后的实际值，直接关系到密钥会不会被发送到外部服务器。GitHub 议题 \\#14370 报告称，macOS 上的 Postman 12.33.4 会自动安装 Codex 1.1.0 与 Claude Code 2.0.1 插件，并写入启动钩子和 MCP 配置，这为当前围绕静默安装与数据外发的争议提供了具体背景。",
+  "discussion": "对处理受保护健康信息（PHI）或把密钥放进请求参数的团队，这一报道凸显了合规与凭据管理风险：Stedi 的分析指出，Postman 的同步功能会让请求数据在设备和 Web 客户端间可用，默认并不适合承载 PHI 的请求。讨论中已有医疗行业开发者称，其安全团队因此停用 Postman 并迁往 Bruno；若相关行为属实，团队应重新评估遥测/同步设置，或把敏感请求定义迁到可本地存储、可审计的工具。\n\n有评论者认为 Postman 已变得臃肿缓慢，称自己已迁移到 Bruno，并把请求定义存入 Git；一名医疗行业从业者称其团队因网络安全审查在一夜之间全部改用 Bruno。另有评论批评 Postman 的融资规模、强制登录和订阅模式，认为这背离了其最初轻量开发者工具的定位。",
+  "references": [
+    {
+      "title": "[SEVERE] Desktop auto-installs Codex/Claude plugins ... - GitHub",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+    },
+    {
+      "title": "Postman 12.33.4 Plugin Report - Issue 14370 Log and Checks",
+      "url": "https://braindetox.kr/en/posts/postman_ai_plugin_auto_install_report.html"
+    },
+    {
+      "title": "Postman is probably not HIPAA - compliant - Stedi",
+      "url": "https://www.stedi.com/blog/postman-is-probably-not-hipaa-compliant"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

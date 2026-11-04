@@ -1,6 +1,414 @@
 {
   "articles": [
     {
+      "id": "46fc913d4fa04240d8cb672bec62b41c58dd495b",
+      "canonicalId": "da9a5824109ffaf4d36b11b44e51a59070ea60b1",
+      "slug": "github-议题指-postman-静默安装-ai-插件并上传-api-数据",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "GitHub 议题指 Postman 静默安装 AI 插件并上传 API 数据",
+      "score": 8,
+      "tags": [
+        "postman",
+        "privacy",
+        "security",
+        "api-tools",
+        "telemetry"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "b291657e2af24f21b4a1ec2d4a9c45301558ffd8",
+      "canonicalId": "435a4449f912b507603706a886a9649b02c07643",
+      "slug": "astra-读写-qwen-权重说法被指误导",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "Astra 读写 Qwen 权重说法被指误导",
+      "score": 7,
+      "tags": [
+        "AI research criticism",
+        "mechanistic interpretability",
+        "LLM steering",
+        "Qwen",
+        "Hacker News discussion"
+      ],
+      "originalSite": "honnibal.dev"
+    },
+    {
+      "id": "7c935bb58571cfd4af5fe7383c453565bb804f50",
+      "canonicalId": "9b0f1b3870f8f7bfef142b6cf7e94bd9b847c298",
+      "slug": "qwen-38-27b-在笔记本上从权重识别游戏",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "Qwen 3.8 27B 在笔记本上从权重识别游戏",
+      "score": 7,
+      "tags": [
+        "weight-space programming",
+        "LLM interpretability",
+        "model weights",
+        "Qwen",
+        "research replication"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "762a45c3c1ea84643d1d9b0c9498387c13402ce0",
+      "canonicalId": "0b48a22c90c16f33261c92e6e1c401035e94301e",
+      "slug": "现代国际象棋引擎跑在-90-年代硬件上能击败-1996-年的卡斯帕罗夫吗",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "现代国际象棋引擎跑在 90 年代硬件上，能击败 1996 年的卡斯帕罗夫吗",
+      "score": 7,
+      "tags": [
+        "chess engines",
+        "AI algorithms",
+        "hardware performance",
+        "search algorithms",
+        "Hacker News discussion"
+      ],
+      "originalSite": "nicholas.carlini.com"
+    },
+    {
+      "id": "e000f4d1ec53cac56d0bab358527f13268a664fd",
+      "canonicalId": "f3900be82c6f7ae65c769c93e0203c426c120a5b",
+      "slug": "日经称美科技巨头-ai-隐性债务半年增-90至-32-万亿美元",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "《日经》称美科技巨头 AI 隐性债务半年增 90%至 3.2 万亿美元",
+      "score": 7,
+      "tags": [
+        "AI infrastructure",
+        "tech finance",
+        "cloud computing",
+        "data centers",
+        "industry analysis"
+      ],
+      "originalSite": "asia.nikkei.com"
+    },
+    {
+      "id": "d18e691086934a010725ce99dd358d48fe496429",
+      "canonicalId": "0093518f68d3f6707dd6ba809990dcebc50af6d2",
+      "slug": "在数据中心规模运行-mac-的工程挑战",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "在数据中心规模运行 Mac 的工程挑战",
+      "score": 7,
+      "tags": [
+        "macOS",
+        "infrastructure",
+        "CI/CD",
+        "Apple",
+        "data centers"
+      ],
+      "originalSite": "namespace.so"
+    },
+    {
+      "id": "62f31b3734331d7fe05d08216d6d8a1633cd8e4b",
+      "canonicalId": "7da3b08fd70d7f5417f7b3db10fa44ebe892389b",
+      "slug": "safari-273-推出自适应深色模式",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "Safari 27.3 推出自适应深色模式",
+      "score": 7,
+      "tags": [
+        "Safari",
+        "WebKit",
+        "dark mode",
+        "web development",
+        "CSS"
+      ],
+      "originalSite": "webkit.org"
+    },
+    {
+      "id": "b509cf7a27d63359d45ad470ec2e17ae804d742d",
+      "canonicalId": "9b3ba0441179b738a4b3bfc2d8045d6914ada724",
+      "slug": "飞机背景声配合-ads-b-可定位视频地点",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "飞机背景声配合 ADS-B 可定位视频地点",
+      "score": 7,
+      "tags": [
+        "OSINT",
+        "privacy",
+        "geolocation",
+        "ADS-B",
+        "audio analysis"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "2f05a4ccbb4fa6d30feeb43a8e9f7df0c9d1f8c3",
+      "canonicalId": "a437782712b76522ca8d1d6151db35415b479b8f",
+      "slug": "纽约时报等媒体起诉-brave-抓取内容转售-ai-公司",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "纽约时报等媒体起诉 Brave 抓取内容转售 AI 公司",
+      "score": 7,
+      "tags": [
+        "AI copyright",
+        "web scraping",
+        "Brave browser",
+        "AI training data",
+        "publishing industry"
+      ],
+      "originalSite": "techcrunch.com"
+    },
+    {
+      "id": "94353795fc77b7f68d3514b654acbba899eb7028",
+      "canonicalId": "3767000bc23990bba644d46a771fdd3a0f9844fc",
+      "slug": "传英伟达要求数据中心中国客户业务占比不超-49",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "传英伟达要求数据中心中国客户业务占比不超 49%",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "China",
+        "data centers",
+        "AI infrastructure",
+        "export controls"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "56ac5a570c0fa4588b81c4210b397a579992c6ae",
+      "canonicalId": "523895a892ae623def60a6d4e13e6e036926bc5b",
+      "slug": "监管层据报暂停-ipo-与大股东减持以稳定股市",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "监管层据报暂停 IPO 与大股东减持以稳定股市",
+      "score": 8,
+      "tags": [
+        "China stocks",
+        "IPO suspension",
+        "securities regulation",
+        "CSI 300",
+        "shareholder reductions"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "d0edd3baf6830f7e6e31c50cdece11b8fde7fd6a",
+      "canonicalId": "1548083042627f03415166d51490ddab4e1612b2",
+      "slug": "anthropic-修订版-s-1第三季度人力成本-17-亿美元人均月逾-10-万美元",
+      "date": "2026-11-04",
+      "lang": "zh",
+      "title": "Anthropic 修订版 S-1：第三季度人力成本 17 亿美元，人均月逾 10 万美元",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "IPO filing",
+        "AI industry",
+        "employee compensation",
+        "stock-based compensation"
+      ],
+      "originalSite": "businessinsider.com"
+    },
+    {
+      "id": "73509c284a6ca160b2acfa86d475b11ab98bf270",
+      "canonicalId": "da9a5824109ffaf4d36b11b44e51a59070ea60b1",
+      "slug": "postman-accused-of-auto-installing-ai-plugins-and-sending-api-data-to-its-servers",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Postman accused of auto-installing AI plugins and sending API data to its servers",
+      "score": 8,
+      "tags": [
+        "postman",
+        "privacy",
+        "security",
+        "api-tools",
+        "telemetry"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "12eb2cc1dc7a87f736ed00669689875098d26286",
+      "canonicalId": "435a4449f912b507603706a886a9649b02c07643",
+      "slug": "blog-post-disputes-claim-that-astra-weight-editing-improves-qwen",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Blog post disputes claim that Astra weight editing improves Qwen",
+      "score": 7,
+      "tags": [
+        "AI research criticism",
+        "mechanistic interpretability",
+        "LLM steering",
+        "Qwen",
+        "Hacker News discussion"
+      ],
+      "originalSite": "honnibal.dev"
+    },
+    {
+      "id": "73b31d80565c99a259e652f4bd72c87f49dda2aa",
+      "canonicalId": "9b0f1b3870f8f7bfef142b6cf7e94bd9b847c298",
+      "slug": "qwen-38-27b-identifies-games-from-raw-weights-on-a-laptop",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Qwen 3.8 27B identifies games from raw weights on a laptop",
+      "score": 7,
+      "tags": [
+        "weight-space programming",
+        "LLM interpretability",
+        "model weights",
+        "Qwen",
+        "research replication"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "adb646bd1cf062322939c0b2d6932c59d54edfb0",
+      "canonicalId": "0b48a22c90c16f33261c92e6e1c401035e94301e",
+      "slug": "could-a-modern-engine-on-a-pentium-have-beaten-kasparov",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Could a Modern Engine on a Pentium Have Beaten Kasparov?",
+      "score": 7,
+      "tags": [
+        "chess engines",
+        "AI algorithms",
+        "hardware performance",
+        "search algorithms",
+        "Hacker News discussion"
+      ],
+      "originalSite": "nicholas.carlini.com"
+    },
+    {
+      "id": "d4dcdd1060b8327a4c455fa838dc5175b099aeac",
+      "canonicalId": "f3900be82c6f7ae65c769c93e0203c426c120a5b",
+      "slug": "nikkei-us-tech-ai-obligations-jump-90-to-32t",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Nikkei: US tech AI obligations jump 90% to $3.2T",
+      "score": 7,
+      "tags": [
+        "AI infrastructure",
+        "tech finance",
+        "cloud computing",
+        "data centers",
+        "industry analysis"
+      ],
+      "originalSite": "asia.nikkei.com"
+    },
+    {
+      "id": "ee76c1b9783d92eec0f27032590014bb1d3ccf4a",
+      "canonicalId": "0093518f68d3f6707dd6ba809990dcebc50af6d2",
+      "slug": "mac-at-any-scale-workarounds-for-macos-data-center-ci",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Mac at Any Scale: Workarounds for macOS Data-Center CI",
+      "score": 7,
+      "tags": [
+        "macOS",
+        "infrastructure",
+        "CI/CD",
+        "Apple",
+        "data centers"
+      ],
+      "originalSite": "namespace.so"
+    },
+    {
+      "id": "f5328813760d731bfe0ec328a38cebe03b7ba524",
+      "canonicalId": "7da3b08fd70d7f5417f7b3db10fa44ebe892389b",
+      "slug": "safari-273-adds-adaptive-dark-mode-for-unsupported-sites",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Safari 27.3 Adds Adaptive Dark Mode for Unsupported Sites",
+      "score": 7,
+      "tags": [
+        "Safari",
+        "WebKit",
+        "dark mode",
+        "web development",
+        "CSS"
+      ],
+      "originalSite": "webkit.org"
+    },
+    {
+      "id": "cbe3787e12998a2c0eaf7138480e0e25749890dc",
+      "canonicalId": "9b3ba0441179b738a4b3bfc2d8045d6914ada724",
+      "slug": "aircraft-noise-plus-ads-b-data-can-geolocate-a-video-osint-demo-shows",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Aircraft noise plus ADS-B data can geolocate a video, OSINT demo shows",
+      "score": 7,
+      "tags": [
+        "OSINT",
+        "privacy",
+        "geolocation",
+        "ADS-B",
+        "audio analysis"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "a59602bda507325efe8f76c2def069f821eaa35f",
+      "canonicalId": "a437782712b76522ca8d1d6151db35415b479b8f",
+      "slug": "new-york-times-sues-brave-over-alleged-scraping-and-ai-data-sales",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "New York Times sues Brave over alleged scraping and AI data sales",
+      "score": 7,
+      "tags": [
+        "AI copyright",
+        "web scraping",
+        "Brave browser",
+        "AI training data",
+        "publishing industry"
+      ],
+      "originalSite": "techcrunch.com"
+    },
+    {
+      "id": "6b0075430a8234dab0c528e898f7d976c31fadcf",
+      "canonicalId": "3767000bc23990bba644d46a771fdd3a0f9844fc",
+      "slug": "report-nvidia-said-to-cap-chinese-business-at-49-for-new-data-center-contracts",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Report: Nvidia Said to Cap Chinese Business at 49% for New Data-Center Contracts",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "China",
+        "data centers",
+        "AI infrastructure",
+        "export controls"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "535f7d55f7ad01a3dbdf610b598d0fa9399e6383",
+      "canonicalId": "523895a892ae623def60a6d4e13e6e036926bc5b",
+      "slug": "china-regulator-reportedly-suspends-ipos-and-large-shareholder-sales-to-stabilize-slumping-stocks",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "China Regulator Reportedly Suspends IPOs and Large Shareholder Sales to Stabilize Slumping Stocks",
+      "score": 8,
+      "tags": [
+        "China stocks",
+        "IPO suspension",
+        "securities regulation",
+        "CSI 300",
+        "shareholder reductions"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "6d92f1b925899d0bb72f5ea65095da0a5965a435",
+      "canonicalId": "1548083042627f03415166d51490ddab4e1612b2",
+      "slug": "anthropicx27s-revised-ipo-filing-shows-17-billion-in-quarterly-personnel-costs",
+      "date": "2026-11-04",
+      "lang": "en",
+      "title": "Anthropic&\\#x27;s revised IPO filing shows $1.7 billion in quarterly personnel costs",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "IPO filing",
+        "AI industry",
+        "employee compensation",
+        "stock-based compensation"
+      ],
+      "originalSite": "businessinsider.com"
+    },
+    {
       "id": "fd593d4759c3ea94477cd50a7f87de2d2c935b1d",
       "canonicalId": "280630936cfd1bf795435dd42e70dbe4ff491483",
       "slug": "mathematics-has-changed-letx27s-act-like-it",
@@ -4926,107 +5334,6 @@
         "RAG"
       ],
       "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "3323e22bf849afa4f38bcc0a81a8aa61f030966f",
-      "canonicalId": "bca476fd34631d9d662cd56662a8baa94313727b",
-      "slug": "strata-在-rtx-4090-上以-100-tokenss-运行-125b-qwen-38-flash-next",
-      "date": "2026-10-05",
-      "lang": "zh",
-      "title": "Strata 在 RTX 4090 上以 100+ tokens/s 运行 125B Qwen 3.8 Flash Next",
-      "score": 7,
-      "tags": [
-        "LLM inference",
-        "quantization",
-        "consumer hardware",
-        "open source",
-        "model deployment"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "103f6c11b6f8445bdfebfbde5912e3c9130e320e",
-      "canonicalId": "304a460f0627840f7a27e693a0d4dad7624360b9",
-      "slug": "zig-017-发布重做构建系统并引入-build-server-protocol",
-      "date": "2026-10-04",
-      "lang": "zh",
-      "title": "Zig 0.17 发布：重做构建系统并引入 Build Server Protocol",
-      "score": 8,
-      "tags": [
-        "Zig",
-        "programming languages",
-        "compilers",
-        "build systems",
-        "open source"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "25e466c97e018c7b1c3ac3835ac75344af0287de",
-      "canonicalId": "a650c74fe354cb9f07b74f64ee2a44ec35c59eab",
-      "slug": "aleph-alpha-发布开放权重智能体模型-kolibri",
-      "date": "2026-10-04",
-      "lang": "zh",
-      "title": "Aleph Alpha 发布开放权重智能体模型 Kolibri",
-      "score": 7,
-      "tags": [
-        "open-weight LLMs",
-        "agentic AI",
-        "AI sovereignty",
-        "hallucination mitigation",
-        "model transparency"
-      ],
-      "originalSite": "aleph-alpha.com"
-    },
-    {
-      "id": "7c2f72443ebd13a5bb9688a38a1c73c1e35e063c",
-      "canonicalId": "3ba89625595d441660969d2fe678f22c0efbe6fa",
-      "slug": "simon-willison-呼吁按量付费服务默认设硬性预算上限",
-      "date": "2026-10-04",
-      "lang": "zh",
-      "title": "Simon Willison 呼吁按量付费服务默认设硬性预算上限",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "API cost controls",
-        "cloud billing",
-        "developer tooling"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "1c607156c06d6b348e61645af589e1ad5e7cc48f",
-      "canonicalId": "25ae276626e4d9e26b41718eb6ba3ee0c87a0ebe",
-      "slug": "qt-612-lts-发布首次将-harmonyos-纳入官方支持平台",
-      "date": "2026-10-04",
-      "lang": "zh",
-      "title": "Qt 6.12 LTS 发布，首次将 HarmonyOS 纳入官方支持平台",
-      "score": 7,
-      "tags": [
-        "Qt",
-        "HarmonyOS",
-        "LTS",
-        "cross-platform development",
-        "software releases"
-      ],
-      "originalSite": "qt.io"
-    },
-    {
-      "id": "8f7b3f795ecc0163a6e3aabf4bd0073c1cf4d92e",
-      "canonicalId": "9c9edc0469c1c329363e078ba60194c797fa5a8b",
-      "slug": "美国-9-月新增非农就业-29-万人-远低于预期",
-      "date": "2026-10-04",
-      "lang": "zh",
-      "title": "美国 9 月新增非农就业 2.9 万人 远低于预期",
-      "score": 8,
-      "tags": [
-        "US nonfarm payrolls",
-        "labor market",
-        "Federal Reserve",
-        "macroeconomic data",
-        "market reaction"
-      ],
-      "originalSite": "xinhuanet.com"
     }
   ]
 }

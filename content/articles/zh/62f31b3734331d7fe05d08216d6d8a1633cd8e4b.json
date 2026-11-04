@@ -1,0 +1,45 @@
+{
+  "id": "62f31b3734331d7fe05d08216d6d8a1633cd8e4b",
+  "canonicalId": "7da3b08fd70d7f5417f7b3db10fa44ebe892389b",
+  "slug": "safari-273-推出自适应深色模式",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T21:39:00Z",
+  "lang": "zh",
+  "title": "Safari 27.3 推出自适应深色模式",
+  "summary": "Safari 27.3 引入自适应深色模式，可自动调整没有提供深色主题的网站显示。WebKit 将这项能力放在浏览器层实现，用户不必依赖每个站点单独设计深色版本。现有信息未给出具体适配算法、支持平台或开发者控制选项的完整细节。",
+  "score": 7,
+  "tags": [
+    "Safari",
+    "WebKit",
+    "dark mode",
+    "web development",
+    "CSS"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "paddingtone",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50358562"
+    }
+  ],
+  "originalUrl": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+  "originalSite": "webkit.org",
+  "context": "Adaptive Dark Mode 只在系统使用深色外观、且网站未声明支持深色模式时自动适配；已经声明深色模式支持的网站不受影响。WebKit 同时提供了 CSS 层面的退出机制：开发者可用 \\`color-scheme: light only\\` 针对单个元素或整页关闭适配，但该 \\`only\\` 关键字在 Safari 27.3 beta 1 中尚不受支持。",
+  "discussion": "有评论者欢迎这种“让浏览器兜底”的做法，认为 CRM、后台管理面板等只做一套浅色设计的工具会直接受益；也有人担心自动转换会破坏原本以浅色设计的站点体验。关于退出机制，评论提到可用 \\`color-scheme: light only\\` 声明避免被自动转换；另有用户提出希望反向把深色站点转为浅色，以照顾散光等阅读困难。",
+  "references": [
+    {
+      "title": "Introducing Adaptive Dark Mode | WebKit",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/"
+    },
+    {
+      "title": "Safari 27.3 Beta Adds Adaptive Dark Mode for Light Websites",
+      "url": "https://www.technobezz.com/news/safari-beta-adds-adaptive-dark-mode"
+    },
+    {
+      "title": "Dear Samsung Internet: Please Fix Your Forced Dark Mode !",
+      "url": "https://www.v01.io/posts/2024/04/samsung-internet-dark-mode/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

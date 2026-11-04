@@ -1,0 +1,49 @@
+{
+  "id": "73509c284a6ca160b2acfa86d475b11ab98bf270",
+  "canonicalId": "da9a5824109ffaf4d36b11b44e51a59070ea60b1",
+  "slug": "postman-accused-of-auto-installing-ai-plugins-and-sending-api-data-to-its-servers",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T17:22:00Z",
+  "lang": "en",
+  "title": "Postman accused of auto-installing AI plugins and sending API data to its servers",
+  "summary": "A GitHub issue filed against postmanlabs/postman-app-support \\(\\#14370\\) alleges that Postman silently installs AI plugins and transmits API request data to its own servers, including the resolved values of templated variables such as \\`\\{\\{some\\_secret\\}\\}\\` used in query parameters. Commenters in the associated Hacker News thread \\(roughly 993 points and 329 comments\\) report that blocking traffic to the logging endpoint breaks the application, and that the tool does not meet HIPAA requirements. The claims come from the issue and community discussion and were not independently verified in the supplied material, and Postman has not responded in the available evidence. Some developers say they have already moved to the Git-friendly alternative Bruno as a result.",
+  "score": 8,
+  "tags": [
+    "postman",
+    "privacy",
+    "security",
+    "api-tools",
+    "telemetry"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "sidgarimella",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50354960"
+    }
+  ],
+  "originalUrl": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[SEVERE] Desktop auto-installs Codex/Claude plugins ... - GitHub",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+    },
+    {
+      "title": "Postman 12.33.4 Plugin Report - Issue 14370 Log and Checks",
+      "url": "https://braindetox.kr/en/posts/postman_ai_plugin_auto_install_report.html"
+    },
+    {
+      "title": "Postman is probably not HIPAA - compliant - Stedi",
+      "url": "https://www.stedi.com/blog/postman-is-probably-not-hipaa-compliant"
+    },
+    {
+      "title": "Postman HIPAA Compliance · Issue #8104...",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/8104"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

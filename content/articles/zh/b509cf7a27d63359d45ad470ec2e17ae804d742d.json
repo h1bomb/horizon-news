@@ -1,0 +1,44 @@
+{
+  "id": "b509cf7a27d63359d45ad470ec2e17ae804d742d",
+  "canonicalId": "9b3ba0441179b738a4b3bfc2d8045d6914ada724",
+  "slug": "飞机背景声配合-ads-b-可定位视频地点",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T05:32:00Z",
+  "lang": "zh",
+  "title": "飞机背景声配合 ADS-B 可定位视频地点",
+  "summary": "Simon Willison 的链接帖介绍 Colsto 的一项 OSINT 演示：从视频音轨中提取几乎听不见的飞机背景噪声，分析其多普勒曲线，再与 ADS-B 航班数据交叉比对，依据飞机速度、距离以及不同航班之间的间隔推断视频的精确拍摄位置。该帖认为方法很巧妙，但只是简短链接式介绍，未给出定位误差或可复现的验证数据，因此应把它视为一项已演示的技术，而非经过独立评测的通用定位工具。",
+  "score": 7,
+  "tags": [
+    "OSINT",
+    "privacy",
+    "geolocation",
+    "ADS-B",
+    "audio analysis"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+  "originalSite": "simonwillison.net",
+  "context": "这类定位依赖两个前提：ADS-B 信号让飞机广播自身的位置和速度，而飞机相对录音设备运动时，其声音会出现多普勒频移。工具结果显示，演示会用插值后的 ADS-B 数据计算飞机发声时刻的径向速度，生成候选地点的预期多普勒曲线，再与视频频谱图比对；有汇总称该演示将录音定位到约 100 米范围内。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "I discovered a sound that leaks your exact location ... - YouTube",
+      "url": "https://www.youtube.com/watch?v=UytYrhYLOKI"
+    },
+    {
+      "title": "Digg - News, before it trends",
+      "url": "https://digg.com/"
+    },
+    {
+      "title": "ADS-B Privacy Concerns: Navigating New Challenges - E3 Aviation",
+      "url": "https://e3aviationassociation.com/aviation-articles/ads-b-privacy-concerns/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

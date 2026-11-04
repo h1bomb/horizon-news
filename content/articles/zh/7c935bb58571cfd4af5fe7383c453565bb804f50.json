@@ -1,0 +1,41 @@
+{
+  "id": "7c935bb58571cfd4af5fe7383c453565bb804f50",
+  "canonicalId": "9b0f1b3870f8f7bfef142b6cf7e94bd9b847c298",
+  "slug": "qwen-38-27b-在笔记本上从权重识别游戏",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T16:29:00Z",
+  "lang": "zh",
+  "title": "Qwen 3.8 27B 在笔记本上从权重识别游戏",
+  "summary": "Simon Willison 用 17GB 的 Qwen 3.8 27B（Q4\\_K\\_M 量化版）在笔记本上通过 LM Studio 复现了一项“无工具读权重”测试：模型只看到简化网格游戏策略网络的浮点权重，就在 46 分 12 秒、43,506 个推理 token 后判断出这是 Pac-Man 风格游戏，并给出 72% 置信度；他还称同一方法识别出了 Pong。该测试源自 Rikiya Takehi 等人以博客形式发布的“Weight-Space Programming”文章，后者声称 GPT-6 Astra 能直接读懂权重，并通过修改 Qwen3.5-0.8B 的 0.016% 权重把 MATH-500 从 7.9% 提到 48.1%、IFEval 提升 3 倍。这些能力目前来自作者自述和 Willison 的个别演示，并非独立复现的基准结果。Matthew Honnibal 批评该文把“无工具读权重”和“借助代码改权重”混为一谈，Sean Goedecke 也认为 Qwen3.5-0.8B 的改权重案例更像人类研究员的标准流程。",
+  "score": 7,
+  "tags": [
+    "weight-space programming",
+    "LLM interpretability",
+    "model weights",
+    "Qwen",
+    "research replication"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50355251"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+  "originalSite": "simonwillison.net",
+  "context": "背景是前一日发布的博文式论文《Sparks of Weight-Space Programming》：作者把训练好的小型策略网络权重以浮点数文本直接交给模型，在禁止代码执行和工具调用的条件下让模型判断网络对应哪款游戏（tool-2-1）。该工作把“原生读取权重”与“借助代码修改权重”并列展示，但批评者指出两者技术路径不同，认为混在一起会高估模型对权重的直接理解能力（tool-3-2）。",
+  "discussion": "评论者对这类演示的可靠性意见不一：variaga 借用《亨利四世》的典故追问“能解读”是否等于“解读正确”，data-ottawa 则质疑模型究竟是在理解权重，还是依赖训练中见过的旧世代 Qwen 行为，并追问它能否修改同代 Qwen 3.8 的权重。另一方面，zkmon 称赞 Qwen 3.8 27B 在人类充当架构师时能达到前沿模型的效果，并认为前沿模型收费对应的正是这类高层指导工作。",
+  "references": [
+    {
+      "title": "Sparks of Weight - Space Programming : LLMs can natively read...",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+    },
+    {
+      "title": "The &#x27; Astra can read and write weights to improve Qwen &#x27; post is...",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

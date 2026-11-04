@@ -1,0 +1,41 @@
+{
+  "id": "d18e691086934a010725ce99dd358d48fe496429",
+  "canonicalId": "0093518f68d3f6707dd6ba809990dcebc50af6d2",
+  "slug": "在数据中心规模运行-mac-的工程挑战",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T14:53:00Z",
+  "lang": "zh",
+  "title": "在数据中心规模运行 Mac 的工程挑战",
+  "summary": "这篇 Hacker News 文章《Mac at Any Scale》讨论在数据中心规模运行 Mac 所需的工程工作，核心是绕开 Apple 平台限制并搭建 macOS 测试基础设施。由于正文未提供，文章的具体实现、硬件型号、规模和可用性无法核实；现有信息仅来自条目摘要与读者评论。",
+  "score": 7,
+  "tags": [
+    "macOS",
+    "infrastructure",
+    "CI/CD",
+    "Apple",
+    "data centers"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "anner\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50352758"
+    }
+  ],
+  "originalUrl": "https://namespace.so/blog/mac-at-any-scale",
+  "originalSite": "namespace.so",
+  "context": "在数据中心运行 macOS 长期缺乏服务器级硬件和带外管理手段：Namespace 在文中指出，Mac mini 虽然更适合机架部署，但远程管理非常基础、没有冗余电源，其机箱外形也让散热变得困难。据对该文的转述，Namespace 最终把数百台 MacBook 装入机架以替代 Mac mini，直接原因是 1 月下单的 Mac mini 直到 7 月才交付，而客户需要更早用上新处理器。",
+  "discussion": "对需要 macOS CI 或托管 iOS 测试设备的团队，评论中的实际经验提示无人值守运维仍需处理启动解锁、电池膨胀和散热等问题；TestingBot 表示已用 Virtualization.Framework 部署 Mac mini M6 测试实例。\n\n有评论者批评 Apple 的数据中心与自动化工具不成熟，认为 Xcode Cloud 等方案难以支撑规模化开发。另有评论者关注 Mac mini 主板的微型化并设想高密度液冷刀片设计，同时分享了 macOS 服务器启动需解锁、iOS 测试设备电池膨胀等经历。",
+  "references": [
+    {
+      "title": "Mac at any scale | Namespace",
+      "url": "https://namespace.so/blog/mac-at-any-scale"
+    },
+    {
+      "title": "Namespace поставила сотни MacBook в стойки вместо Mac mini ...",
+      "url": "https://dzen.ru/b/auobbcRL2iIDzEZm"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

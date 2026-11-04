@@ -1,0 +1,41 @@
+{
+  "id": "762a45c3c1ea84643d1d9b0c9498387c13402ce0",
+  "canonicalId": "0b48a22c90c16f33261c92e6e1c401035e94301e",
+  "slug": "现代国际象棋引擎跑在-90-年代硬件上能击败-1996-年的卡斯帕罗夫吗",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-03T07:56:00Z",
+  "lang": "zh",
+  "title": "现代国际象棋引擎跑在 90 年代硬件上，能击败 1996 年的卡斯帕罗夫吗",
+  "summary": "这篇文章以“现代国际象棋引擎运行在 1990 年代硬件上，能否击败 1996 年的卡斯帕罗夫”为设问，讨论棋力提升究竟来自算法还是硬件。文章把评估函数、搜索策略等算法改进与 90 年代可获得的算力放在同一框架下比较，属于技术反事实分析，而非新的比赛结果或引擎发布。",
+  "score": 7,
+  "tags": [
+    "chess engines",
+    "AI algorithms",
+    "hardware performance",
+    "search algorithms",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "markusw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50349276"
+    }
+  ],
+  "originalUrl": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+  "originalSite": "nicholas.carlini.com",
+  "context": "",
+  "discussion": "评论者 k2052 认同现代引擎的棋力提升主要来自评估与搜索等算法改进，但提醒在 90 年代算力下，现代引擎为深度所做的取舍会留下可被卡斯帕罗夫团队利用的弱点。另有评论者 FartyMcFarter 质疑文中关于特级大师与业余棋手分析着法数量相近的说法，Sharlin 则纠正了对 Pentium Pro 与 Pentium MMX 定位的调侃。",
+  "references": [
+    {
+      "title": "Deep Blue versus Garry Kasparov - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
+    },
+    {
+      "title": "Deep Blue versus Kasparov, 1996, Game 1 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Kasparov,_1996,_Game_1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
