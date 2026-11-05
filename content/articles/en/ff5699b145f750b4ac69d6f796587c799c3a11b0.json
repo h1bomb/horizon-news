@@ -1,0 +1,44 @@
+{
+  "id": "ff5699b145f750b4ac69d6f796587c799c3a11b0",
+  "canonicalId": "a26e9e7983ca307eb768dddd54bc0bae694d2ebc",
+  "slug": "huginn-looped-transformer-profiling-on-b200-finds-weight-sharing-alone-does-not-cut-hbm-reads",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T16:26:00Z",
+  "lang": "en",
+  "title": "Huginn looped-transformer profiling on B200 finds weight sharing alone does not cut HBM reads",
+  "summary": "A technical post profiling Huginn-style looped transformers on a B200 reports that sharing one set of recurrent weights saves storage but, by itself, does not prevent the GPU from rereading those weights from HBM at every iteration. In a synthetic chain of eight matmuls, one shared 72 MiB weight ran 24% faster than eight identical copies and read almost nothing from HBM; at 288 MiB, which exceeds L2, the advantage disappeared. In the full Huginn Core teaching implementation with random weights, eight iterations took roughly eight times as long and read about eight times as much HBM data as one. The author links the code and raw Nsight Compute data and asks whether persistent kernels could keep recurrent weights on chip across iterations.",
+  "score": 7,
+  "tags": [
+    "looped transformers",
+    "HBM bandwidth",
+    "GPU profiling",
+    "weight reuse",
+    "Nsight Compute"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/2dayyy6"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is a Looped Transformer ? Complete Guide to Recurrent Depth...",
+      "url": "https://tosea.ai/blog/looped-transformer-recurrent-depth-astra-guide"
+    },
+    {
+      "title": "NVIDIA B200 SXM 192 GB: Detailed Specifications and Benchmark ...",
+      "url": "https://cputronic.com/gpu/nvidia-b200-sxm-192-gb"
+    },
+    {
+      "title": "NVIDIA B200 Full Specs - HMC",
+      "url": "https://hmc-tech.com/gpus/nvidia-b200"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

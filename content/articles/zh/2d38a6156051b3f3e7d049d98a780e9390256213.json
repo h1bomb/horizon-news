@@ -1,0 +1,37 @@
+{
+  "id": "2d38a6156051b3f3e7d049d98a780e9390256213",
+  "canonicalId": "a4f4c423c54260333db70d9834764f1b9740c579",
+  "slug": "openai-称自动流水线发现-948-个-linux-提权漏洞",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T23:33:00Z",
+  "lang": "zh",
+  "title": "OpenAI 称自动流水线发现 948 个 Linux 提权漏洞",
+  "summary": "OpenAI 在一篇文章中称，其自主漏洞研究流水线在 2026 年 10 月的一次 Linux 内核扫描中复现了 1,724 个漏洞，并生成 948 个可让本地低权限用户获得 root 权限的可用提权利用程序，另有 291 个信息泄露 PoC。OpenAI 称总 API 成本为 1,213,430 美元，平均每个成功 LPE 利用程序为 1,279 美元；这些数字属于厂商自述，尚未经过独立验证。帖子还称至少发现 10 种经第三方专家确认为新颖的 Linux 利用技术，包括新的缓存喷洒持久化对象、page grooming、纯数据提权和任意类型混淆。",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "privilege-escalation",
+    "vulnerability-research",
+    "ai-security",
+    "open-source-security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dangelosaurus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50372929"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+  "originalSite": "openai.com",
+  "context": "本地提权（LPE）指攻击者已经能在目标机器上以低权限运行代码后，再利用内核或系统服务缺陷取得 root 权限；在 Linux 中，用户态与内核共享同一套权限边界，因此内核漏洞往往直接决定普通账户能否变成管理员。OpenAI 将此次结果描述为由自主漏洞研究流水线完成发现和验证，而非人工逐项审计的产物，这让 948 个 LPE 的数量更适合放在自动化漏洞研究的背景下理解。",
+  "discussion": "在 Hacker News 讨论中，有评论者追问内核为何会有上千条提权路径，质疑其复杂度或安全模型是否本身就有问题；也有人表示 Linux 本地提权并不意外，但 948 个仍令人震惊。OpenAI 团队成员在评论中确认这是其团队的工作，并表示愿意回答提问。",
+  "references": [
+    {
+      "title": "A thousand fewer paths to root | OpenAI",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

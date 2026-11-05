@@ -1,0 +1,32 @@
+{
+  "id": "b5317da8b9cf800317bd79699bd875bc1bbdf05e",
+  "canonicalId": "aed4d9c60c01ceb3818ed5a1d0c9c94a9cab6edf",
+  "slug": "go-announces-encodingjsonv2-a-new-standard-library-json-api",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T17:52:00Z",
+  "lang": "en",
+  "title": "Go announces encoding/json/v2, a new standard-library JSON API",
+  "summary": "Go has announced a new JSON API centered on encoding/json/v2, a redesign of how the standard library handles JSON, according to the Go blog. The naming casts it as a successor to the existing encoding/json package rather than a separate third-party library. The announcement as supplied does not detail release timing, specific version numbers, or backward-compatibility guarantees, so those remain unconfirmed.",
+  "score": 8,
+  "tags": [
+    "Go",
+    "JSON",
+    "API design",
+    "standard library",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "olexsmir",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50369106"
+    }
+  ],
+  "originalUrl": "https://go.dev/blog/jsonv2",
+  "originalSite": "go.dev",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

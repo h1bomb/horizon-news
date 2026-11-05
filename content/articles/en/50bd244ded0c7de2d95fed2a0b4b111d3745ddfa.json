@@ -1,0 +1,41 @@
+{
+  "id": "50bd244ded0c7de2d95fed2a0b4b111d3745ddfa",
+  "canonicalId": "d94c9f77ddafc83a4b47ea337b95eddf94c7dda0",
+  "slug": "anthropic-publishes-flashprove-specification-and-code-for-provable-llm-inference",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T17:17:00Z",
+  "lang": "en",
+  "title": "Anthropic publishes FlashProve specification and code for provable LLM inference",
+  "summary": "Anthropic has published a technical specification and code for FlashProve, a cryptographic system intended to prove that a given LLM output was produced by a specified model and set of weights. The approach calls for providers to publish a model fingerprint that can be matched against outputs without disclosing the weights, and Anthropic says verification can run locally. The company describes the research as ongoing and says it has no deployment plan; the stated goals include detecting model substitution and checking third-party claims about which model performed a task.",
+  "score": 8,
+  "tags": [
+    "provable inference",
+    "LLM verification",
+    "cryptography",
+    "zero-knowledge proofs",
+    "AI trust and safety"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ltononro",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50368626"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/provable-inference",
+  "originalSite": "anthropic.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Maverick: Private and Verifiable LLM Inference Made Practical ...",
+      "url": "https://arxiv.org/html/2609.10264v1"
+    },
+    {
+      "title": "Maverick: Private and Verifiable LLM Inference Made Practical ...",
+      "url": "https://eprint.iacr.org/2026/1955"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

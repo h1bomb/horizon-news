@@ -1,0 +1,32 @@
+{
+  "id": "d56e31ac7236dbef2e07497538180469ba26350d",
+  "canonicalId": "aed4d9c60c01ceb3818ed5a1d0c9c94a9cab6edf",
+  "slug": "go-公布新-json-apiencodingjsonv2-设计",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T17:52:00Z",
+  "lang": "zh",
+  "title": "Go 公布新 JSON API：encoding/json/v2 设计",
+  "summary": "Go 官方博客宣布了一项新的 JSON API，核心是 \\`encoding/json/v2\\` 的设计，面向所有依赖 Go 标准库处理 JSON 的开发者。现有条目未提供完整接口清单或可用时间，具体兼容性仍需查阅官方文档。社区讨论主要集中在迁移成本、\\`MarshalIndent\\` 等常用接口的取舍，以及 \\`jsontext\\` 包在解析性能和错误信息上的表现。",
+  "score": 8,
+  "tags": [
+    "Go",
+    "JSON",
+    "API design",
+    "standard library",
+    "software engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "olexsmir",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50369106"
+    }
+  ],
+  "originalUrl": "https://go.dev/blog/jsonv2",
+  "originalSite": "go.dev",
+  "context": "Go 标准库此前由 encoding/json 承担 JSON 编解码，开发者已广泛依赖其字段标签、接口和错误处理方式。此次公告提出 encoding/json/v2，意味着标准库的 JSON API 进入重新设计阶段，后续迁移与兼容性讨论都围绕新旧接口的差异展开。",
+  "discussion": "对已大量使用 \\`encoding/json\\` 的 Go 项目，若采用新 API，需要重点检查缩进输出等常用写法；社区反馈称 \\`MarshalIndent\\` 未被保留，等价实现更复杂，升级前应预留改写和测试成本。\n\n有开发者认可 \\`encoding/json/v2\\` 的方向，但抱怨去掉 \\`MarshalIndent\\` 后生成可读 JSON 的等价代码复杂、迁移不便；另一位开发者报告在公司用 \\`jsontext\\` 为苛刻客户端做解析，能按错误类型给出具体信息且性能很好。上述均为个人使用体验，不能据此推断整个社区已形成共识。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

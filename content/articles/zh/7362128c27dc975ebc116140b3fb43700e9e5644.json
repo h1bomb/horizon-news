@@ -1,0 +1,41 @@
+{
+  "id": "7362128c27dc975ebc116140b3fb43700e9e5644",
+  "canonicalId": "7838c87736f9082fb144453a5a532f0d0cfd974f",
+  "slug": "月之暗面开源-kimi-k31-pro-权重并开放-api",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T15:30:00Z",
+  "lang": "zh",
+  "title": "月之暗面开源 Kimi K3.1 Pro 权重并开放 API",
+  "summary": "月之暗面在 Hugging Face 发布 Kimi K3.1 Pro 的开放权重，称其为原生多模态智能体模型，总参数 2.8T、激活 104B、上下文约 100 万 token，是 K3.1 系列首个模型；权重以 MXFP4 量化形式提供。官方同步在 platform.kimi.ai 开放 API，模型名为 kimi-k3.1-pro，兼容 OpenAI 与 Anthropic 接口。上述参数与能力来自发布方说明，帖子本身没有给出可核验的基准测试结果。",
+  "score": 8,
+  "tags": [
+    "open-weight models",
+    "LLM release",
+    "Moonshot AI",
+    "model benchmarks",
+    "LLM inference"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "abrarthought",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366999"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "originalSite": "huggingface.co",
+  "context": "",
+  "discussion": "对想自建部署的团队，评论者估计需要约 8 张 B300 的节点，这一门槛尚未由官方确认；对应用开发者，官方 API 兼容 OpenAI 与 Anthropic 接口，可减少现有调用代码的改动。\n\n评论对基准可信度分歧明显：有人称 K3.1 在 Hy4 的内部基准上不如 Opus5.5、疑似“benchmaxxed”，也有测试者称实际测试未观察到这一点，认为它是略低于前沿但适合多数场景的强开源模型。另有评论称 OpenRouter 等第三方已托管该模型，Together 在同价下吞吐似乎约为官方端点两倍，Modal 再翻倍。",
+  "references": [
+    {
+      "title": "moonshotai/ Kimi -K3 · Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3"
+    },
+    {
+      "title": "The largest open model ever runs on 3.7 percent of itself",
+      "url": "https://researchaudio.io/p/the-largest-open-model-ever-runs-on-3-7-percent-of-itself"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

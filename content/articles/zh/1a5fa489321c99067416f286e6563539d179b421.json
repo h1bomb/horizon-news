@@ -1,0 +1,36 @@
+{
+  "id": "1a5fa489321c99067416f286e6563539d179b421",
+  "canonicalId": "a26e9e7983ca307eb768dddd54bc0bae694d2ebc",
+  "slug": "实测-huginn-循环-transformer权重共享未必减少-hbm-读取",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T16:26:00Z",
+  "lang": "zh",
+  "title": "实测 Huginn 循环 Transformer：权重共享未必减少 HBM 读取",
+  "summary": "一位作者在 Reddit 技术帖中公布了对 Huginn 式循环 Transformer 的 B200 性能剖析：在由 8 个矩阵乘法组成的链中，单个共享的 72 MiB 权重比 8 份相同副本快 24%，且几乎不从 HBM 读取数据；当权重增至 288 MiB、超出 L2 缓存后，这一差距消失。作者还用随机权重的教学版 Huginn Core 测得，8 次迭代的耗时和 HBM 读取量都约为 1 次迭代的 8 倍。结论是权重共享本身节省存储，但除非权重能留在缓存中，否则并不能阻止 GPU 在每次迭代时重新从 HBM 读取权重。上述为作者基于 Nsight Compute 数据的单方测量，完整模型结果来自教学实现。",
+  "score": 7,
+  "tags": [
+    "looped transformers",
+    "HBM bandwidth",
+    "GPU profiling",
+    "weight reuse",
+    "Nsight Compute"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/2dayyy6"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What Is a Looped Transformer ? Complete Guide to Recurrent Depth...",
+      "url": "https://tosea.ai/blog/looped-transformer-recurrent-depth-astra-guide"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "799b8d6fb3fb70cd93be07c3cea408debbec6ac4",
+  "canonicalId": "68c44263a0af55942d00f413b692ebe06ba48987",
+  "slug": "ieee-spectrum-argues-ai-vulnerability-discovery-forces-technical-debt-repayment",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T11:52:00Z",
+  "lang": "en",
+  "title": "IEEE Spectrum argues AI vulnerability discovery forces technical debt repayment",
+  "summary": "An IEEE Spectrum article argues that AI-assisted vulnerability discovery is exposing decades of accumulated technical debt in software and forcing organizations to remediate it. The piece is an argument about software maintenance and security practice, not the announcement of a specific tool, version, or independently measured result, and the supplied material provides no remediation figures. It is aimed at software engineers and security teams facing a larger volume of vulnerability fixes.",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "vulnerability discovery",
+    "technical debt",
+    "open source security",
+    "cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pseudolus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50364336"
+    }
+  ],
+  "originalUrl": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+  "originalSite": "spectrum.ieee.org",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PHP2Shell Is a Wakeup Call for AI in Cybersecurity - IEEE ...",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+    },
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt - hn.today",
+      "url": "https://hn.today/s/ai-is-forcing-us-to-pay-off-40-years-of-technical-debt"
+    },
+    {
+      "title": "PHP2Shell: Exploitation Before Disclosure for an AI-Found Flaw",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-php2shell-pre-disclosure-exploitation-2026/"
+    },
+    {
+      "title": "AI-Assisted Research Uncovers Critical PHP2Shell RCE ...",
+      "url": "https://tech.yahoo.com/cybersecurity/articles/ai-assisted-research-uncovers-critical-012743884.html"
+    },
+    {
+      "title": "OpenAI&#x27;s PHP2Shell Exposes 70% of Websites to Remote Code ...",
+      "url": "https://alphasignal.ai/news/openai-s-php2shell-exposes-70-of-websites-to-remote-code-attacks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

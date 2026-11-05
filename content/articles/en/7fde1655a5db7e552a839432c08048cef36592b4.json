@@ -1,0 +1,40 @@
+{
+  "id": "7fde1655a5db7e552a839432c08048cef36592b4",
+  "canonicalId": "2d25bd998a07fb92ec7a3c35b48c4be6cc562bc5",
+  "slug": "nki-megakernels-cut-glm-53-flash-decode-on-trainium2-to-242-ms",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T21:47:00Z",
+  "lang": "en",
+  "title": "NKI megakernels cut GLM-5.3-Flash decode on Trainium2 to 24.2 ms",
+  "summary": "RunAnywhere open-sourced an AWS Trainium2 inference engine for GLM-5.3-Flash, a 320B Mixture-of-Experts model with a 1M-token context, that serves the model on one trn2.48xlarge and rewrites each layer half as a single NKI kernel, or each whole layer for sparse-attention layers. On the same layout, a batch-8 decode step fell from 32.2 ms in the 17 October build to 24.2 ms on 1 November; the author attributes the gap to long chains of small vector-engine instructions at about 153 ns fixed cost each, HBM writes at every kernel boundary, and 125 cross-chip collectives per step. The remaining 24.2 ms includes a 6.1 ms memory floor, 10.0 ms of engines busy beyond it, 4.6 ms of waits inside kernels, and 2.8 ms of exposed collectives. An approximation remains in sparse-attention prefill on 1.2% of selections, shifting next-token log-probabilities by 0.012 to 0.021 nats on average and changing the top token at 3 of 448 positions; no task-level evaluation has been run on this build.",
+  "score": 8,
+  "tags": [
+    "AWS Trainium",
+    "LLM inference",
+    "kernel optimization",
+    "Mixture-of-Experts",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/WildCard727"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Z.ai Releases GLM-5.3-Flash: A 320B-A18B Natively Multimodal ...",
+      "url": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/"
+    },
+    {
+      "title": "GLM-5.3-Flash: 320B MoE Beats GLM-5.2, Formerly Ox Alpha",
+      "url": "https://local-ai-zone.github.io/blog/glm-5-3-flash-deep-dive.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

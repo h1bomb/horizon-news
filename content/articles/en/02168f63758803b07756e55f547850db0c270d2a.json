@@ -1,0 +1,32 @@
+{
+  "id": "02168f63758803b07756e55f547850db0c270d2a",
+  "canonicalId": "a4f4c423c54260333db70d9834764f1b9740c579",
+  "slug": "openai-says-pipeline-found-948-linux-root-exploits-in-one-scan",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T23:33:00Z",
+  "lang": "en",
+  "title": "OpenAI says pipeline found 948 Linux root exploits in one scan",
+  "summary": "OpenAI says its autonomous vulnerability-research pipeline dynamically reproduced 1,724 Linux kernel vulnerabilities in a single October 2026 scan and generated 948 working local privilege-escalation \\(LPE\\) exploits that let an unprivileged local user obtain root, plus 291 information-leak proof-of-concepts. The company put total API cost at $1,213,430, or about $1,279 per successful LPE exploit, and cites roughly $359 as the lower marginal development cost; it also says at least 10 exploitation techniques were confirmed novel by third-party experts, including new cache-spraying objects, page grooming, data-only arbitrary-write escalation, and arbitrary type confusion. These figures are OpenAI&\\#x27;s own account, and the post does not say how many of the flaws were previously known, already patched, or reported upstream.",
+  "score": 8,
+  "tags": [
+    "linux-kernel",
+    "privilege-escalation",
+    "vulnerability-research",
+    "ai-security",
+    "open-source-security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dangelosaurus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50372929"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+  "originalSite": "openai.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

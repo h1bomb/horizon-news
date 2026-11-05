@@ -1,0 +1,41 @@
+{
+  "id": "2434f6084d1399f16e134c42252fc79d8fb927d6",
+  "canonicalId": "7838c87736f9082fb144453a5a532f0d0cfd974f",
+  "slug": "moonshot-ai-publishes-kimi-k31-pro-open-weights",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T15:30:00Z",
+  "lang": "en",
+  "title": "Moonshot AI publishes Kimi K3.1 Pro open weights",
+  "summary": "Moonshot AI has published open weights for Kimi K3.1 Pro on Hugging Face, the first model in its K3.1 series. The model is natively multimodal and agent-oriented, with 2.8 trillion total parameters, 104 billion active parameters, and roughly 1 million tokens of context; the weights are released in MXFP4 quantization. Moonshot also offers an API through platform.kimi.ai under the kimi-k3.1-pro identifier, compatible with OpenAI and Anthropic interfaces. The supplied material does not include verified benchmark results.",
+  "score": 8,
+  "tags": [
+    "open-weight models",
+    "LLM release",
+    "Moonshot AI",
+    "model benchmarks",
+    "LLM inference"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "abrarthought",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366999"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "originalSite": "huggingface.co",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "moonshotai/ Kimi -K3 · Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3"
+    },
+    {
+      "title": "The largest open model ever runs on 3.7 percent of itself",
+      "url": "https://researchaudio.io/p/the-largest-open-model-ever-runs-on-3-7-percent-of-itself"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "08a56ecda7468f3c86c86c97367a7b311f0685b1",
+  "canonicalId": "d94c9f77ddafc83a4b47ea337b95eddf94c7dda0",
+  "slug": "anthropic-开源-flashprove用加密证明核验-llm-推理",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T17:17:00Z",
+  "lang": "zh",
+  "title": "Anthropic 开源 FlashProve：用加密证明核验 LLM 推理",
+  "summary": "Anthropic 发布并开源了 FlashProve 的技术规范与代码，该系统用加密证明验证某段输出确实由指定模型及其权重生成。模型提供方需为发布的模型公开指纹，供后续比对输出；指纹不会披露权重，验证也可在本地设备上完成，因此可用于识别模型被替换，或核实第三方关于模型执行任务的说法。Anthropic 表示研究仍在进行，目前没有部署计划。",
+  "score": 8,
+  "tags": [
+    "provable inference",
+    "LLM verification",
+    "cryptography",
+    "zero-knowledge proofs",
+    "AI trust and safety"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ltononro",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50368626"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/provable-inference",
+  "originalSite": "anthropic.com",
+  "context": "可验证推理要解决的是“输出是否确由某组权重算出”这一信任问题：提供方先公开不泄露权重的模型指纹，再为每次请求生成证明，客户端可在本地校验。此前已有研究尝试让私有且可验证的大语言模型推理变得实用，例如 2026 年 9 月的 Maverick 论文就指出，既有方案往往带来显著的服务器开销或额外信任假设；Anthropic 的 FlashProve 也属于这一方向。",
+  "discussion": "评论者 neuwirth 称 FlashProve 建立在其担任 MARS 研究员期间完成的工作 VerInf 之上，却几乎没有署名；nemo1618 则指出，对开源权重模型而言，直接重新计算推理即可完成验证，速度更快、成本更低，而且不需要零知识证明。vessenes 认为这是对既有 zk 结果的显著改进，但闭源模型的推理证明要困难得多，用四家独立推理服务商对同一非批处理提示做概率性交叉验证，成本远低于他所说的 90–100 倍计算开销；gopalv 引用论文数据称，承诺约 6.5 MB、覆盖约 1600 万次请求，单次证明校验在 24 线程上需 17 秒。",
+  "references": [
+    {
+      "title": "Maverick: Private and Verifiable LLM Inference Made Practical ...",
+      "url": "https://eprint.iacr.org/2026/1955"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

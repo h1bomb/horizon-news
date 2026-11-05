@@ -1,0 +1,41 @@
+{
+  "id": "6d3cb9d85b5964d561798979dec48748c36f1ca0",
+  "canonicalId": "07dbf5f156f1068a4a8397ac6f11762c9c9fc014",
+  "slug": "tencent-hy4-open-weight-model-adds-hycell-hypde-and-game-engine-support",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T14:11:00Z",
+  "lang": "en",
+  "title": "Tencent Hy4 Open-Weight Model Adds HyCell, HyPDE, and Game Engine Support",
+  "summary": "Tencent has released Hy4, an open-weight foundation model, with open-sourced HyCell and HyPDE models for single-cell representation and physical-field modeling. For game development, Tencent says it worked with its Interactive Entertainment Group to curate training data and evaluations covering feature implementation, gameplay logic, state tracking, and asset pipelines, and adapted Hy4 for Unreal Engine, Unity, and Godot plus multiplayer development. The release acknowledges a gap between Hy4 and top proprietary models on internal benchmarks for research-level mathematics, long-horizon coding, model self-improvement, and advanced visual question answering, and says it will continue scaling pre-training and post-training.",
+  "score": 8,
+  "tags": [
+    "open-weight models",
+    "foundation models",
+    "AI research",
+    "game development",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Philpax",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50365780"
+    }
+  ],
+  "originalUrl": "https://hy.tencent.ai/research/hy4",
+  "originalSite": "hy.tencent.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Tencent Launches Hy 4 , Joining the Ranks of the... - Tencent",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+    },
+    {
+      "title": "China&#x27;s Tencent Hy 4 challenges world&#x27;s top models with 7.2% error rate",
+      "url": "https://interestingengineering.com/ai-robotics/tencent-hy4-open-source-model"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

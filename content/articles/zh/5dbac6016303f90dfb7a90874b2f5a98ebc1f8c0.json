@@ -1,0 +1,40 @@
+{
+  "id": "5dbac6016303f90dfb7a90874b2f5a98ebc1f8c0",
+  "canonicalId": "2d25bd998a07fb92ec7a3c35b48c4be6cc562bc5",
+  "slug": "glm-53-flash-在-trainium2-上的-nki-巨型内核",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T21:47:00Z",
+  "lang": "zh",
+  "title": "GLM-5.3-Flash 在 Trainium2 上的 NKI 巨型内核",
+  "summary": "RunAnywhere 开源了一套面向 AWS Trainium2 的推理引擎，可在单台 trn2.48xlarge 上服务 320B MoE、1M token 上下文的 GLM-5.3-Flash，并把每个层的一半计算改写为单个 NKI 巨型内核（稀疏注意力层则整层一个）。作者称，同一布局下 batch 8 解码步从 10 月 17 日构建的 32.2 ms 降至 11 月 1 日构建的 24.2 ms；融合稀疏注意力层省 3.2 ms，KDA 与 MoE 内核合计再省 3.2 ms，而 24.2 ms 中仍有 6.1 ms 内存下限、10.0 ms 超出下限的引擎忙碌和 2.8 ms 暴露的集合通信。在作者自跑的 SemiAnalysis AgentX 上，单机最高 28.9 个 agent 请求/分钟，16 个 agent 时中位解码 35.9 tokens/s；但作者明确说没有 AWS 原生基线、没有 GPU 同轨迹对比，也未做任务级评测。精度方面，稀疏注意力 prefill 的一处近似影响 1.2% 的选择，相对精确重跑使下一 token 对数概率平均偏移 0.012–0.021 nats，并在 448 个位置中的 3 个改变了最高概率 token。",
+  "score": 8,
+  "tags": [
+    "AWS Trainium",
+    "LLM inference",
+    "kernel optimization",
+    "Mixture-of-Experts",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/WildCard727"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws/",
+  "originalSite": "reddit.com",
+  "context": "GLM-5.3-Flash 是 Z.ai 发布的开放权重模型：320B 总参数、每 token 激活 18B 的 MoE，上下文长度 1,048,576 token，并把 KDA 线性注意力与稀疏注意力混合在同一模型里（工具结果 2-2、2-3）。正因每层分属 KDA、稀疏注意力或 MoE 三类结构，这个 Trainium2 引擎才按层类型分别编写 NKI 内核。作者同时指出 Neuron 侧没有可直接对照的现成基线：最新 vLLM Neuron 插件不注册 GLM 模型，NxD Inference 已进入维护模式。",
+  "discussion": "对在 Trainium2 上部署 GLM 的团队，现实约束是缺少可直接对照的原生路径：最新 vLLM Neuron 插件不注册 GLM 模型，NxD Inference 处于维护模式；采用这类自建内核栈前，需要自行补做任务级评测并验证那处稀疏注意力近似。代码和 docs/RESULTS.md 的重跑命令已公开，但上述性能数字均为作者自测，尚无独立复现或 GPU 对照。",
+  "references": [
+    {
+      "title": "Z.ai Releases GLM-5.3-Flash: A 320B-A18B Natively Multimodal ...",
+      "url": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/"
+    },
+    {
+      "title": "GLM-5.3-Flash: 320B MoE Beats GLM-5.2, Formerly Ox Alpha",
+      "url": "https://local-ai-zone.github.io/blog/glm-5-3-flash-deep-dive.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

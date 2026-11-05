@@ -1,0 +1,53 @@
+{
+  "id": "ab0a4b222b2c81fddea845f80bcf1b1a57a41fe8",
+  "canonicalId": "68c44263a0af55942d00f413b692ebe06ba48987",
+  "slug": "ieee-spectrumai-漏洞挖掘正迫使偿还四十年技术债",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-04T11:52:00Z",
+  "lang": "zh",
+  "title": "IEEE Spectrum：AI 漏洞挖掘正迫使偿还四十年技术债",
+  "summary": "IEEE Spectrum 的一篇分析文章提出，AI 辅助的漏洞发现正在把过去四十年累积的软件技术债集中暴露出来，并迫使维护者着手修复，而不是继续长期搁置。文章的核心论点是：这类工具让原本依赖人工审计、难以覆盖的旧代码缺陷被批量找出，修复工作因而从可选变为必须。需要注意的是，这是一篇观点与分析文章，并未给出可独立验证的测量数据或具体版本信息，其“被迫偿还”的判断仍属作者论证而非已证实的结果。",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "vulnerability discovery",
+    "technical debt",
+    "open source security",
+    "cybersecurity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pseudolus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50364336"
+    }
+  ],
+  "originalUrl": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+  "originalSite": "spectrum.ieee.org",
+  "context": "",
+  "discussion": "在 Hacker News 的讨论中，swatcoder 质疑“偿还技术债”这一说法，认为不少缺陷需要重构而非逐个打补丁，因此更可能变成长期、与功能无关的修补 treadmill；xbmcuser 则认为开源软件长期依赖“总会有人审计”的假设，AI 审计让这一承诺更接近现实。以上均为评论者的个人判断，而非已证实的结论。",
+  "references": [
+    {
+      "title": "PHP2Shell Is a Wakeup Call for AI in Cybersecurity - IEEE ...",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+    },
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt - hn.today",
+      "url": "https://hn.today/s/ai-is-forcing-us-to-pay-off-40-years-of-technical-debt"
+    },
+    {
+      "title": "PHP2Shell: Exploitation Before Disclosure for an AI-Found Flaw",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-php2shell-pre-disclosure-exploitation-2026/"
+    },
+    {
+      "title": "AI-Assisted Research Uncovers Critical PHP2Shell RCE ...",
+      "url": "https://tech.yahoo.com/cybersecurity/articles/ai-assisted-research-uncovers-critical-012743884.html"
+    },
+    {
+      "title": "OpenAI&#x27;s PHP2Shell Exposes 70% of Websites to Remote Code ...",
+      "url": "https://alphasignal.ai/news/openai-s-php2shell-exposes-70-of-websites-to-remote-code-attacks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
