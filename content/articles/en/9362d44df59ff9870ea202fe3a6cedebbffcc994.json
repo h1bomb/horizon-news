@@ -1,0 +1,41 @@
+{
+  "id": "9362d44df59ff9870ea202fe3a6cedebbffcc994",
+  "canonicalId": "56e817ac2ab89b1020c9beee6097ec00766414ca",
+  "slug": "obscure-audio-codec-adapted-for-n64x27s-rsp",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T12:51:00Z",
+  "lang": "en",
+  "title": "Obscure audio codec adapted for N64&\\#x27;s RSP",
+  "summary": "A technical write-up explores adapting an obscure audio codec to the Nintendo 64&\\#x27;s constrained RSP environment. The post presents the codec as a good fit for the hardware and discusses implementation constraints; it does not describe an official Nintendo release or a shipped commercial game.",
+  "score": 7,
+  "tags": [
+    "audio codecs",
+    "N64",
+    "retro hardware",
+    "homebrew",
+    "hardware constraints"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "frostbyte7",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50378508"
+    }
+  ],
+  "originalUrl": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+  "originalSite": "phoboslab.org",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Why this Obscure Audio Codec is a Perfect Fit for the N64",
+      "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec"
+    },
+    {
+      "title": "GitHub - phoboslab/ulc64: ulc-codec on the n64 · GitHub",
+      "url": "https://github.com/phoboslab/ulc64"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

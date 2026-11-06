@@ -1,0 +1,31 @@
+{
+  "id": "eebc5f32e21194d186c44311a4610e33cb912e94",
+  "canonicalId": "3aa780057fc8ee52758380d1e861a86a606604ac",
+  "slug": "hugging-face-发布-moe-训练手册逐项拆解-megatron-lm-配置",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T19:13:00Z",
+  "lang": "zh",
+  "title": "Hugging Face 发布 MoE 训练手册：逐项拆解 Megatron-LM 配置",
+  "summary": "Hugging Face 的 Nouamane（曾参与 Ultra-Scale 与 Smol Training Playbooks）发布了《The Ultimate MoE Training Handbook》，在 Hugging Face Spaces 上免费阅读，面向已经训练过稠密模型、下一步想训练 Mixture-of-Experts 的工程师。手册第 2 章是可执行的 Megatron-LM 流程：测试硬件、构建镜像、训练稠密基线，再在单节点上训练第一个 MoE 并与该基线对比；第 3 章拆解 MoE 层（路由器、路由、负载均衡、专家、block 布局、训练与系统），每部分都给出 Megatron-LM 代码、需要观察的地方、作者建议以及前沿 MoE 模型的选择；第 4 章延伸到推理服务与强化学习，第 3、4 章无需 GPU 即可阅读。作者称经验来自 CSCS 的 Alps 集群上约 80 万 GH200 GPU 小时的 MoE 训练，并同时放出 55 张图的图库、脚本 gist，以及把全部推荐 flag 汇总进一个 Megatron-LM 配置块。这是作者自行发布的教程，并非新模型或性能突破：关于前沿模型的论断标注了论文、配置或代码出处，作者自跑结果与玩具模拟均单独标注。",
+  "score": 8,
+  "tags": [
+    "mixture-of-experts",
+    "Megatron-LM",
+    "model-training",
+    "LLM-systems",
+    "Hugging Face"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Norlax\\_42"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+  "originalSite": "reddit.com",
+  "context": "混合专家（MoE）把 Transformer 的前馈层拆成多个“专家”，由路由按 token 选择其中一部分参与计算，从而在扩大总参数量的同时只激活少量参数；Megatron-LM 则是支持专家并行等多种并行策略的训练框架。该手册作者此前参与编写了 Hugging Face 的 Ultra-Scale 与 Smol Training Playbook，这次的内容面向已经训练过稠密模型、想接着训练 MoE 或想了解 MoE 训练如何运作的工程师。",
+  "discussion": "对准备从稠密模型迁移到 MoE 的团队，手册给出的顺序是先验证硬件、跑通稠密基线，再在单节点上训练 MoE 并与该基线对比，这样引入路由带来的差异可以与硬件、镜像问题分开测量；由于第 3、4 章不需 GPU，读者可以先评审路由、负载均衡与并行配置，再申请大规模算力。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

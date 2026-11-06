@@ -1,0 +1,31 @@
+{
+  "id": "26800f79cdb667738fef3c7d63f41bdd8fe9f8ca",
+  "canonicalId": "8e567e636c74c99640c707880664b76edf52fd2e",
+  "slug": "dialfork-发布衡量对话智能体流程幻觉的基准",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T10:44:00Z",
+  "lang": "zh",
+  "title": "DialFork 发布：衡量对话智能体流程幻觉的基准",
+  "summary": "Idiap 研究院与 Logitech 的作者发布了 DialFork，一个衡量对话式 LLM 智能体“流程幻觉”的基准：这类智能体每轮表达流畅、工具调用也正确，却偏离了规定的对话流程。基准从 24 个任务、12 个领域出发，通过重放对话并在选定轮次注入漂移指令，构造出逾 3.6 万段对话，并由 30 名人工标注者和一个经这些标注校准的 LLM 评判器核验。作者表示，据其所知，这是首个针对该维度的基准；数据、代码、论文以及三个任务在 Hugging Face 上的公开排行榜均已开放。",
+  "score": 7,
+  "tags": [
+    "LLM agents",
+    "benchmarks",
+    "hallucination",
+    "conversational AI",
+    "tool use"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/sergbur"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+  "originalSite": "reddit.com",
+  "context": "现有智能体评测通常分别检查事实准确性和工具调用是否正确，但对话流程中大量步骤是询问、确认和告知结果等非工具动作。DialFork 将“该说什么、按什么顺序说”作为第三个评估轴，并把偏离这些步骤定义为流程幻觉。",
+  "discussion": "对构建智能体的团队来说，按轮检测漂移的 Task 3 可用作实时护栏，而集合级的 Task 1 可用于模型升级后监测智能体或用户模拟器的对话推进方式是否改变；提交自己的方法只需一份 CSV 预测文件。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

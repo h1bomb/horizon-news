@@ -1,0 +1,49 @@
+{
+  "id": "4f5a6629eb3c60c0a0ab7b4896f01d2de28a8a38",
+  "canonicalId": "bcd084fbddc00f6d5f79cf4d92b2bde0e8db0bed",
+  "slug": "cve-2026-83844-remote-code-execution-flaw-reported-in-ms-paint",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T20:43:00Z",
+  "lang": "en",
+  "title": "CVE-2026-83844: Remote Code Execution Flaw Reported in MS Paint",
+  "summary": "A CVE record, CVE-2026-83844, describes a remote code execution vulnerability in MS Paint, the long-standing Windows drawing app. The record&\\#x27;s wording, quoted in the discussion, states that &quot;an unauthenticated attacker could exploit this vulnerability by sending a specially crafted packet to an affected service over the network&quot; — phrasing that implies a network-reachable service rather than a purely local file-parsing bug. The supplied record carries no CVSS score, no listed affected versions or platforms, and no explicit statement about whether exploitation requires user interaction, so the practical severity remains unclear from the available material. In the comments, one user reported that Windows Update did not offer a fix and that the patched version had to be obtained from the Microsoft Store, a claim not independently verified here.",
+  "score": 7,
+  "tags": [
+    "security",
+    "vulnerability",
+    "remote-code-execution",
+    "windows",
+    "microsoft-paint"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kuberwastaken",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50384233"
+    }
+  ],
+  "originalUrl": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+  "originalSite": "cve.org",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-83844 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2026-83844"
+    },
+    {
+      "title": "CVE-2026-83844 - Windows Paint Remote Code Execution ...",
+      "url": "https://cvefeed.io/vuln/detail/CVE-2026-83844"
+    },
+    {
+      "title": "CVE-2026-83844 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2026-83844"
+    },
+    {
+      "title": "CVE-2026-83844: Windows 11 Paint RCE Fix Confusion and How to ...",
+      "url": "https://windowsforum.com/news/cve-2026-83844-windows-11-paint-rce-fix-confusion-and-how-to-check-your-version.451018/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

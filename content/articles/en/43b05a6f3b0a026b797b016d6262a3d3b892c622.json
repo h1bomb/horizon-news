@@ -1,0 +1,31 @@
+{
+  "id": "43b05a6f3b0a026b797b016d6262a3d3b892c622",
+  "canonicalId": "51318c175f43cb3607406b01e49209a42fd0c717",
+  "slug": "semianalysis-benchmarks-tpuv7-on-agentic-inference-claims-tokens-per-dollar-edge",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T19:03:00Z",
+  "lang": "en",
+  "title": "SemiAnalysis benchmarks TPUv7 on agentic inference, claims tokens-per-dollar edge",
+  "summary": "SemiAnalysis published what it describes as the first long-context, multi-turn agentic inference results for Google&\\#x27;s TPUv7 \\(Ironwood\\) on the InferenceX/AgentX benchmark, covering four models served through vLLM and SGLang by ecosystem contributors including Inferact and RadixArk. On GLM-5.2 \\(FP8\\), the authors report TPUv7 as the cheapest FP8 option at 1.2x to 2.7x the tokens per dollar of B200, B300 and MI355X between 60 and 300 tok/s/user, while noting NVIDIA NVFP4 still wins with an acknowledged accuracy/quality loss; Kimi K3 \\(MXFP4\\) is reported at 1.15x to 2.5x the tokens per dollar of GB200, B200, B300 and MI355X. Qwen3.5 \\(FP8\\) with llm-d disaggregated serving is said to beat GB300 FP8 at every interactivity level, whereas Muse Spark Open \\(NVFP4 weights\\) is only described as competitive. These are SemiAnalysis-authored, partly community-submitted measurements rather than independent audits, and the piece cites Google&\\#x27;s partnerships with Meta&\\#x27;s PyTorch team, vLLM, SGLang, llm-d and Ray as evidence it is contesting NVIDIA&\\#x27;s software moat.",
+  "score": 8,
+  "tags": [
+    "Google TPU",
+    "AI inference",
+    "AI accelerators",
+    "ML infrastructure",
+    "open-source ecosystem"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

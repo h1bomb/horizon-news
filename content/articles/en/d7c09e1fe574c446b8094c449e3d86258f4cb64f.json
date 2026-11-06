@@ -1,0 +1,45 @@
+{
+  "id": "d7c09e1fe574c446b8094c449e3d86258f4cb64f",
+  "canonicalId": "8d147319103619c5058d77599a00ba04c7a9fae7",
+  "slug": "openssh-106p2-fixes-alpine-long-password-authentication-bypass",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T12:19:00Z",
+  "lang": "en",
+  "title": "OpenSSH 10.6p2 fixes Alpine long-password authentication bypass",
+  "summary": "OpenSSH 10.6p2, released Nov. 5, fixes a flaw in which crypt\\(3\\)&\\#x27;s treatment of special password-hash values as in-band signals let 257- to 1,024-byte passwords bypass SSH authentication on Alpine Linux, potentially logging an attacker into passwordless key-based accounts if they already have network access and a valid account name. Alpine has published fixed packages for 3.16 and newer, and administrators who cannot upgrade immediately can set PasswordAuthentication no to disable password logins. No exploitation has been reported.",
+  "score": 8,
+  "tags": [
+    "security",
+    "OpenSSH",
+    "authentication",
+    "crypt",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "josemrb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
+    }
+  ],
+  "originalUrl": "https://sshhole.com/",
+  "originalSite": "sshhole.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenSSH Bypass : CVE -2026-123158 | OX Security",
+      "url": "https://www.ox.security/blog/openssh-authentication-bypass-cve-2026-123158/"
+    },
+    {
+      "title": "Security advisory: openssh -server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/"
+    },
+    {
+      "title": "OpenSSH flaw lets attackers log into password -disabled Linux accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

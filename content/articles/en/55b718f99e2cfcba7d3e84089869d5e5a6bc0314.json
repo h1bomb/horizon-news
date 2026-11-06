@@ -1,0 +1,31 @@
+{
+  "id": "55b718f99e2cfcba7d3e84089869d5e5a6bc0314",
+  "canonicalId": "8e567e636c74c99640c707880664b76edf52fd2e",
+  "slug": "dialfork-benchmark-targets-x27procedural-hallucinationx27-in-tool-using-agents",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T10:44:00Z",
+  "lang": "en",
+  "title": "DialFork benchmark targets &\\#x27;procedural hallucination&\\#x27; in tool-using agents",
+  "summary": "Researchers at the Idiap Research Institute, in joint work with Logitech, have released DialFork, a benchmark for what they call &quot;procedural hallucination&quot;: conversational agents that produce fluent, factual turns and correct tool calls but stop following the prescribed dialogue procedure. DialFork was built from simulated dialogues across 24 tasks and 12 domains; the authors replay each correct dialogue and inject an instruction at a chosen turn that makes the agent drift, producing more than 36k dialogues with known drift start points, checked by 30 human annotators and an LLM judge calibrated on their judgments. It defines three tasks—locating the drift turn in a dialogue, measuring procedural distance between a correct dialogue and its hallucinated versions, and comparing sets of dialogues as distributions—with first results reported for embedding-based distances, streaming detectors, and zero-shot LLMs. Data, code, paper, all paper predictions, and human judgments are open, and each task has a track on a public Hugging Face leaderboard that accepts a CSV of predictions; the authors describe DialFork as the first benchmark for this axis &quot;to our knowledge.&quot;",
+  "score": 7,
+  "tags": [
+    "LLM agents",
+    "benchmarks",
+    "hallucination",
+    "conversational AI",
+    "tool use"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/sergbur"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

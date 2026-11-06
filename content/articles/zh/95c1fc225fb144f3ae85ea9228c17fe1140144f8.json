@@ -1,0 +1,31 @@
+{
+  "id": "95c1fc225fb144f3ae85ea9228c17fe1140144f8",
+  "canonicalId": "51318c175f43cb3607406b01e49209a42fd0c717",
+  "slug": "semianalysis-公布-tpuv7-的-agentx-智能体推理基准",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T19:03:00Z",
+  "lang": "zh",
+  "title": "SemiAnalysis 公布 TPUv7 的 AgentX 智能体推理基准",
+  "summary": "SemiAnalysis 发布了其称为首批的 TPUv7 Ironwood 在 InferenceX/AgentX 长上下文、多轮智能体推理基准上的结果，覆盖 Muse Spark、GLM-5.2、Qwen3.5 和 Kimi K3 四个模型，部分由 RadixArk（SGLang）和 Inferact（vLLM）等开源生态开发者提交。在 FP8 下，TPUv7 的每美元 token 数在 GLM-5.2 上达到 B200、B300 和 MI355X 的 1.2 至 2.7 倍，在 Kimi K3 上达到 GB200、B200、B300 和 MI355X 的 1.15 至 2.5 倍；Qwen3.5 配合 llm-d 分离式服务在各级交互性上超过 GB300 FP8，并在更高精度下与 GB300 FP4 持平。文章同时指出，NVIDIA NVFP4 在 GLM-5.2 上仍胜过 TPUv7 FP8，但存在精度/质量损失；上述数字来自 SemiAnalysis 基准及生态方提交，并非独立全面复现。SemiAnalysis 还称 Google 正与 Meta PyTorch 团队、vLLM、SGLang、llm-d、Ray 等上游维护者合作，以补齐软件生态。",
+  "score": 8,
+  "tags": [
+    "Google TPU",
+    "AI inference",
+    "AI accelerators",
+    "ML infrastructure",
+    "open-source ecosystem"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "Google 过去主要通过云服务提供 TPU，而 SemiAnalysis 在 2025 年 11 月的文章中称 Google 已开始向外部客户出售 TPU，并称此后 Oracle、OpenAI、Anthropic、Meta 相继成为 TPU 客户——这些均为该机构的说法。2026 年 9 月的文章进一步阐述了 TPU 的“外部化”战略，并给出首批第三方 TPUv7（Ironwood）在 InferenceX 单轮工作负载上的成绩：在 Qwen 3.5 397B 的 FP8 同等条件下，每美元性能比 B200、B300 最多高 50%。NVIDIA 的护城河历来被认为是软件与开发者生态，因此与 vLLM、SGLang 等上游维护者的合作，以及这次面向长上下文、多轮智能体场景的 AgentX 结果，才是衡量 TPU 能否在推理侧立足的关键。",
+  "discussion": "对考虑用 TPU 运行智能体推理的团队而言，这些结果把评估重点从单轮吞吐转向长上下文、多轮场景下的每美元 token 成本；若采用 TPUv7，需同时验证 FP8 与 NVFP4 的精度取舍，以及 vLLM、SGLang、llm-d 等软件栈在实际工作负载中的成熟度。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

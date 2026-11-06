@@ -1,0 +1,31 @@
+{
+  "id": "962bcf5ded06a982a25698de19172c4eeab89ad2",
+  "canonicalId": "3aa780057fc8ee52758380d1e861a86a606604ac",
+  "slug": "hugging-face-publishes-megatron-lm-moe-training-handbook-setting-by-setting",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T19:13:00Z",
+  "lang": "en",
+  "title": "Hugging Face publishes Megatron-LM MoE training handbook, setting by setting",
+  "summary": "Hugging Face authors have released a handbook for training and serving Mixture-of-Experts models with Megatron-LM, aimed at engineers who have trained a dense model and want to move to MoE. Chapter 2 is a runbook covering hardware testing, building the image, training a dense baseline, and then training a first MoE on one node to compare against that baseline. Chapter 3 takes the MoE layer apart—router, routing, load balancing, experts, block layout, training and systems—giving the Megatron-LM code, what to watch, a recommendation, and what frontier MoEs chose for each part; Chapter 4 follows the model into serving and RL, and chapters 3 and 4 require no GPU. The release includes the handbook, a gallery of 55 figures, the scripts, and every recommended flag collected in one Megatron-LM block; the authors say the lessons draw on roughly 800k GH200 GPU-hours on the Alps cluster at CSCS, label results from their own runs, cite papers, configs or code for frontier-model claims, and mark toy simulations as such.",
+  "score": 8,
+  "tags": [
+    "mixture-of-experts",
+    "Megatron-LM",
+    "model-training",
+    "LLM-systems",
+    "Hugging Face"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Norlax\\_42"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

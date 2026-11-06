@@ -1,0 +1,37 @@
+{
+  "id": "cbe5325391063b2f9dd50ede6906253503dbe89d",
+  "canonicalId": "56e817ac2ab89b1020c9beee6097ec00766414ca",
+  "slug": "冷门音频编解码器移植到-n64几乎占满-rsp-指令内存",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T12:51:00Z",
+  "lang": "zh",
+  "title": "冷门音频编解码器移植到 N64：几乎占满 RSP 指令内存",
+  "summary": "phoboslab.org 于 11 月 5 日发布的一篇技术文章，详细介绍了将一款冷门音频编解码器适配到 Nintendo 64 的过程，关键在于让解码器在 N64 RSP（Reality Signal Processor）极为有限的指令内存中运行。据讨论中读者的引述，解码器几乎占满了 RSP 的 4 KB 指令内存（IMEM）。文章还提供了可试听的演示；读者指出，演示中人声含糊、断续并非移植缺陷，而是原始音轨本身就如此。目前没有独立测量能证实该编解码器在真实 N64 游戏中的可用性，讨论中对其是否会挤占图形所需的硬件资源仍有疑问。",
+  "score": 7,
+  "tags": [
+    "audio codecs",
+    "N64",
+    "retro hardware",
+    "homebrew",
+    "hardware constraints"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "frostbyte7",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50378508"
+    }
+  ],
+  "originalUrl": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+  "originalSite": "phoboslab.org",
+  "context": "N64 的音频存储与播放选择一向有限：卡带容量紧张，解码音频还要占用 RSP 和 CPU 资源。ULC 是一种冷门的低复杂度音频编解码器，作者将其移植到 N64 上，目标是在 44.1 kHz 立体声下达到接近 Opus 的码率，同时只消耗约 4% 的 CPU 时间。",
+  "discussion": "一位评论者回顾说，1999 年前后的编解码器专利环境如同雷区，N64 的 MP3 解码器曾两次实现，最终由 Nintendo/Rare 向 RAD Game Tools 付费、取得 Fraunhofer 的 MP3 专利授权，才获得法律上的保护，因此他怀疑这款编解码器在当时很难通过专利审查。另有读者追问，解码器几乎占满 4 KB 的 IMEM 是否会与游戏图形所需的空间冲突，还有人提出它或许同样适合 MAS3507D 这类 MP3 解码芯片，只是该芯片程序格式缺乏公开文档。",
+  "references": [
+    {
+      "title": "Why this Obscure Audio Codec is a Perfect Fit for the N64",
+      "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

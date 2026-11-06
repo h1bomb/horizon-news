@@ -1,0 +1,40 @@
+{
+  "id": "e1ebdacf13f733733fa19498ee8ed73549fa6f40",
+  "canonicalId": "5e71e5a9879094e71614821c58a0c9481b74e585",
+  "slug": "google-推出-gemini-omni-12-flash-视频生成模型",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T00:21:00Z",
+  "lang": "zh",
+  "title": "Google 推出 Gemini Omni 1.2 Flash 视频生成模型",
+  "summary": "Google 宣布推出由 Google DeepMind 开发的视频生成模型 Gemini Omni 1.2 Flash。官方称其生成更快、成本降低 30%：可先生成 360p 或 720p 草稿（0.07 美元/秒），再放大至 1080p 或 4K。该模型支持 3 至 15 秒时长（最长 15 秒），并可通过对话逐轮修改背景、主体或光照；Google 还称多说话人语音与唇形同步更自然、镜头运动更可控且跳切更少。上述性能与价格均为 Google 的发布说法，尚缺独立验证。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "video generation",
+    "Google DeepMind",
+    "AI models",
+    "pricing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/Google/status/2118390406316728555",
+  "originalSite": "x.com",
+  "context": "草稿到高分辨率放大的工作流，核心是先在较低分辨率下生成视频草稿，再通过放大步骤得到 1080p 或 4K 成片；对话式编辑则指在已有视频上逐轮修改背景、主体或光照，而不是每次从头重新生成。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemini Omni 1.2 Flash now GA: cost-effective video | Google ...",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: 15-second video and lower pricing",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

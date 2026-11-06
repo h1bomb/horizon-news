@@ -1,0 +1,41 @@
+{
+  "id": "2a5bc42606bb0bf641556c9eb207ae82c27d74a1",
+  "canonicalId": "8d147319103619c5058d77599a00ba04c7a9fae7",
+  "slug": "openssh-106p2-修复-alpine-长密码认证绕过",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-05T12:19:00Z",
+  "lang": "zh",
+  "title": "OpenSSH 10.6p2 修复 Alpine 长密码认证绕过",
+  "summary": "OpenSSH 于 11 月 5 日发布 10.6p2，紧急修复一个在 Alpine Linux 上可用 257 至 1024 字节长密码绕过 SSH 认证的问题。攻击者仍需具备服务器网络访问权和目标账户名；成功后可登录未设置密码的密钥账户，目前尚无利用报告。Alpine 已为 3.16 以后版本提供修复包，无法立即升级者可设置 PasswordAuthentication no 关闭密码登录。",
+  "score": 8,
+  "tags": [
+    "security",
+    "OpenSSH",
+    "authentication",
+    "crypt",
+    "vulnerability"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "josemrb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50378228"
+    }
+  ],
+  "originalUrl": "https://sshhole.com/",
+  "originalSite": "sshhole.com",
+  "context": "",
+  "discussion": "评论者将根因归为 crypt\\(3\\) 把“\\*”“\\!”等特殊密码哈希值当作带内信号处理，并批评这种“魔法字符串”设计容易引发认证错误。有评论者还指出，musl 曾在一个 crypt 路径上规避同类失败，却漏掉了 SHA 路径，因此实际受影响的路径较窄。",
+  "references": [
+    {
+      "title": "Security advisory: openssh -server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/"
+    },
+    {
+      "title": "OpenSSH flaw lets attackers log into password -disabled Linux accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "81b8e00caf8122c667d8b8402941112b1f9e545f",
+  "canonicalId": "493708bde30496160fc5eee1d9e0c7d9aa982b64",
+  "slug": "why-databases-are-global-variables-we-tolerate",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T00:00:00Z",
+  "lang": "en",
+  "title": "Why Databases Are Global Variables We Tolerate",
+  "summary": "rss · Sean Goedecke · Nov 6, 00:00\n\n**「Background」** Common programming advice treats global variables as harmful, yet many elegant systems rely on databases. Since any part of a program can read or write a database row, the author asks whether database records are effectively global variables—and, if so, why they escape the usual criticism.\n\n**「Solution」** The author first notes that databases share the two main problems of globals: they let any code pass data implicitly, and they couple components through shared assumptions, including incorrect beliefs about column shape or nullability. He then weighs five explanations. Database-backed apps might simply be messy, which he finds plausible but incomplete; ACID guarantees might soften the damage, which he rejects because the objection is to shared state existing at all; databases might be more explicit, which he largely accepts because queries require visible connection and query calls, though ORMs can hide them; databases might be less flexible, which he accepts only for untyped languages; and programmers might simply have stronger norms around database use, which he also accepts, citing habitual column-type checks and limited use cases. He concludes that explicitness and usage conventions are the strongest explanations, but stresses that both are contingent: disciplined conventions around global variables could plausibly make them no worse.\n\n**「Takeaway」** The essay&\\#x27;s larger claim is that the database exception rests on contingent practices—explicit access and restrained use—not on something inherent to databases, so the two dogmas are partially inconsistent. Because design knowledge remains a pile of loose heuristics, the author argues, appeals to “best practice” should be backed by concrete reasons.\n\n**Tags**: `#databases`, `#global variables`, `#software design`, `#coupling`, `#engineering heuristics`",
+  "score": 6,
+  "tags": [
+    "databases",
+    "global variables",
+    "software design",
+    "coupling",
+    "engineering heuristics"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/a-database-is-a-store-for-global-variables/",
+  "originalSite": "seangoedecke.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
