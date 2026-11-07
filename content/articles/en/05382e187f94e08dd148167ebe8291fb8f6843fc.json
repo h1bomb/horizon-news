@@ -1,0 +1,32 @@
+{
+  "id": "05382e187f94e08dd148167ebe8291fb8f6843fc",
+  "canonicalId": "f441801c064cce85972f578b6c32c3afb1af080c",
+  "slug": "firecracker-escape-write-up-exploits-already-disclosed-pwnescape-without-jailer",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T19:33:00Z",
+  "lang": "en",
+  "title": "Firecracker escape write-up exploits already-disclosed PwnEscape without jailer",
+  "summary": "The PwnEscape Part 2 write-up walks through a practical escape from a Firecracker microVM by exploiting the already-disclosed PwnEscape vulnerability, presenting itself as an exploit-development guide rather than a new disclosure. The configuration tested had no Firecracker jailer; the write-up notes that production containment also drops privileges and restricts the VMM with namespaces and seccomp, so a jailed deployment needs a separate assessment of the privileges and resources available after VMM compromise.",
+  "score": 7,
+  "tags": [
+    "Firecracker",
+    "VM escape",
+    "virtualization security",
+    "exploit development",
+    "cloud security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "SerCe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50397219"
+    }
+  ],
+  "originalUrl": "https://pwn.ai/blog/firecracker-escape",
+  "originalSite": "pwn.ai",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

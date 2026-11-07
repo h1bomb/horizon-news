@@ -1,0 +1,32 @@
+{
+  "id": "2dd8e715131678acd540a6935d90202ac6470722",
+  "canonicalId": "68be897c8b54bcd75a9c92a21f06821a33e74f45",
+  "slug": "libghostty-10-首个稳定版发布",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T23:30:00Z",
+  "lang": "zh",
+  "title": "Libghostty 1.0 首个稳定版发布",
+  "summary": "Libghostty 1.0 已发布，这是 Ghostty 将其终端模拟能力打包为可嵌入库后的首个稳定版本，面向希望在自己的应用中复用终端模拟功能的开发者。给定材料确认了版本号和库的定位，但没有说明具体平台支持、API 兼容范围或分发方式。",
+  "score": 7,
+  "tags": [
+    "terminal emulators",
+    "open source",
+    "software libraries",
+    "Ghostty",
+    "developer tools"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mfiguiere",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50399933"
+    }
+  ],
+  "originalUrl": "https://mitchellh.com/writing/libghostty-1-0",
+  "originalSite": "mitchellh.com",
+  "context": "Ghostty 是 Mitchell Hashimoto 主导开发的终端模拟器，Libghostty 则把它负责终端模拟的核心部分抽出来，做成可被其他程序嵌入的库。按照本次发布说明，1.0 是该库的第一个稳定版本；在此之前，外部开发者已经在预发布形态上试用，评论中提到有人用它做 Android 项目和 Emacs 终端前端 Ghostel。",
+  "discussion": "对终端应用开发者而言，直接后果是可以在自有项目中复用 Ghostty 的终端模拟层；有评论者称已在个人终端项目和 Emacs 前端 Ghostel 中使用 Libghostty，并因此节省了大量底层实现工作。实际采用前仍需核对目标平台与 API 支持，因为现有材料未给出兼容性细节。\n\n评论整体正面，开发者主要分享复用经验：有人提到曾在 Android 项目中试用 Libghostty，另有人表示自己的终端项目因此省去大量底层工作，还有人用它实现了 Emacs 终端前端 Ghostel。评论未出现实质性技术分歧。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

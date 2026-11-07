@@ -1,0 +1,36 @@
+{
+  "id": "c43f22c9f771c1619263d70b7c3755bc0a275537",
+  "canonicalId": "12858662da0c0dd0d27392b628f174177a4c1988",
+  "slug": "百度开源文心-55-flash-base支持百万级上下文",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T05:41:00Z",
+  "lang": "zh",
+  "title": "百度开源文心 5.5 Flash Base，支持百万级上下文",
+  "summary": "百度宣布开源基座模型文心 5.5 Flash Base。该模型采用 MoE 架构，总参数量为 2800 亿，每个 Token 激活 140 亿参数；预训练使用 33.5 万亿 Token，预训练上下文最长 128K，微调与推理支持最长 100 万 Token 上下文。目前公布的信息未包含基准测试、许可证、权重下载地址等发布细节，实际可用性和商用条件仍待确认。",
+  "score": 7,
+  "tags": [
+    "open-source models",
+    "LLM",
+    "Baidu Wenxin",
+    "Mixture-of-Experts",
+    "long context"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.news.cn/info/20261105/f3bbdb6854f5441ca9fb34062f213875/c.html",
+  "originalSite": "news.cn",
+  "context": "文心 5.5 Flash Base 所称“基座模型”，指主要经过大规模预训练、供下游微调或二次开发的通用模型，通常不是直接面向对话的指令对齐版本。它采用 MoE（混合专家）架构：总参数 2800 亿，但每个 Token 只激活 140 亿参数，以降低单次推理的计算量；Hugging Face 上的 baidu/ERNIE-5.5-Flash-Base 模型卡也列出了这一配置。",
+  "discussion": "对需要超长上下文的开发者而言，100 万 Token 的推理支持是主要卖点；但在许可证、权重获取方式和基准结果公布前，能否商用以及实际效果仍无法判断。",
+  "references": [
+    {
+      "title": "baidu /ERNIE- 5 . 5 - Flash - Base · Hugging Face",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

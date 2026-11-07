@@ -1,0 +1,36 @@
+{
+  "id": "01a3572b2c65175d53ec2c1e21c91071b5051f8e",
+  "canonicalId": "12858662da0c0dd0d27392b628f174177a4c1988",
+  "slug": "baidu-open-sources-wenxin-55-flash-base-a-280b-moe-model",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T05:41:00Z",
+  "lang": "en",
+  "title": "Baidu open-sources Wenxin 5.5 Flash Base, a 280B MoE model",
+  "summary": "Baidu has open-sourced Wenxin 5.5 Flash Base, a mixture-of-experts base model with 280 billion total parameters and 14 billion activated per token, according to Xinhua. The model was pretrained on 33.5 trillion tokens with a 128K-token context, and fine-tuning and inference are said to support contexts up to 1 million tokens. The report gives no license, repository link, benchmark results, or independent verification, so public availability and performance remain unconfirmed.",
+  "score": 7,
+  "tags": [
+    "open-source models",
+    "LLM",
+    "Baidu Wenxin",
+    "Mixture-of-Experts",
+    "long context"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.news.cn/info/20261105/f3bbdb6854f5441ca9fb34062f213875/c.html",
+  "originalSite": "news.cn",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "baidu /ERNIE- 5 . 5 - Flash - Base · Hugging Face",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

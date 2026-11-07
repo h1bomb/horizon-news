@@ -1,0 +1,40 @@
+{
+  "id": "33a70eb5bb31ec9abd139ea7030db0928c6eac86",
+  "canonicalId": "4573ee052f7c6d9e6259156720d23e0079ac999e",
+  "slug": "boson-ai-unveils-higgs-realtime-duplex-a-45b-full-duplex-multimodal-model",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T20:23:00Z",
+  "lang": "en",
+  "title": "Boson AI unveils Higgs Realtime Duplex, a 45B full-duplex multimodal model",
+  "summary": "Boson AI announced Higgs Realtime Duplex, a 45B mixture-of-experts multimodal model designed to process audio, video and text in 160 ms chunks while listening, watching and speaking concurrently. Unlike turn-based voice models, it keeps thinking, calling tools and delegating harder problems to a larger backend model as background spans in the same stream, and can begin speaking before staged tool results are complete. The model is not open weights: access to the Duplex API is waitlisted, while the earlier turn-based Higgs Realtime is available now. Boson&\\#x27;s reported comparison shows the model competitive with, but on five of seven benchmarks 1–5 points behind, OpenAI&\\#x27;s best settings, with turn-taking its weakest area.",
+  "score": 7,
+  "tags": [
+    "full-duplex models",
+    "multimodal LLM",
+    "speech AI",
+    "mixture-of-experts",
+    "real-time inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Cali\\_Cobarde"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Higgs Realtime Duplex: Face to Face, Working in the ...",
+      "url": "https://www.boson.ai/blog/higgs-realtime-duplex"
+    },
+    {
+      "title": "Mira Murati&#x27;s Interaction Models : Full - Duplex AI... - DEV Community",
+      "url": "https://dev.to/akaranjkar08/mira-muratis-interaction-models-full-duplex-ai-responds-in-04-seconds-4c25"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

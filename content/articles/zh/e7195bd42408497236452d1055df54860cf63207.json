@@ -1,0 +1,36 @@
+{
+  "id": "e7195bd42408497236452d1055df54860cf63207",
+  "canonicalId": "4573ee052f7c6d9e6259156720d23e0079ac999e",
+  "slug": "boson-ai-发布-45b-全双工-moe-模型-higgs-realtime-duplex",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T20:23:00Z",
+  "lang": "zh",
+  "title": "Boson AI 发布 45B 全双工 MoE 模型 Higgs Realtime Duplex",
+  "summary": "Boson AI 发布了 Higgs Realtime Duplex：一个 45B 混合专家（MoE）全双工多模态模型，可同时处理音频、视频和文本流，并在说话的同时于同一条流中执行思考、工具调用和任务委派。所有输入被切成 160 毫秒的块——音频输入每块 1 个 token（约 6.25 token/s），音频输出每块 2 个 token（12.5 token/s），每 6 块送入一帧约 12 token 的摄像头画面；静音同样以块表示，模型据此决定何时接话、打断或保持安静。模型从文本预训练 LLM 出发，在约 2T token 的文本、音频和视频上继续预训练，再以多教师 on-policy 蒸馏把经 RL 训练的专家合并为单一学生模型；声音和形象在部署时用一段参考音频和一张图片零样本设定，无需微调。目前权重不开放，Duplex API 需排队申请（上一代回合制 Higgs Realtime 已可用），且公布的基准为厂商自测：Big Bench Audio 为 98.9，高于其对比的 TML Interaction Small 96.5 与 OpenAI 97，但 Full-Duplex-Bench v1.5 为 75.5，落后 TML 的 77.8，OpenAI 在七项基准中的五项领先。",
+  "score": 7,
+  "tags": [
+    "full-duplex models",
+    "multimodal LLM",
+    "speech AI",
+    "mixture-of-experts",
+    "real-time inference"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Cali\\_Cobarde"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+  "originalSite": "reddit.com",
+  "context": "Boson AI 此前提供的 Higgs Realtime 采用“先听、等轮次结束、再思考、后说话”的轮流对话方式；据其发布博客，Duplex 是 Higgs Realtime 的下一代产品，也是该公司首个全双工交互式全模态模型。此次发布将这一轮流流程改为同时处理音频、视频和文本流，并在说话时继续在后台思考、调用工具和委派任务。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Higgs Realtime Duplex: Face to Face, Working in the ...",
+      "url": "https://www.boson.ai/blog/higgs-realtime-duplex"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

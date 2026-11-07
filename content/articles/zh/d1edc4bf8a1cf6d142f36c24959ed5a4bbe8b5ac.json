@@ -1,0 +1,30 @@
+{
+  "id": "d1edc4bf8a1cf6d142f36c24959ed5a4bbe8b5ac",
+  "canonicalId": "b4464cc2e438ecdc82dd9a12206b5870cc2f318f",
+  "slug": "与设计师协作的观察",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-07T00:00:00Z",
+  "lang": "zh",
+  "title": "与设计师协作的观察",
+  "summary": "rss · Sean Goedecke · 11月7日 00:00\n\n**「背景」** 作为一名前端工程师，作者喜欢和设计师合作，认为他们能带来工程师难以想象的价值；但他也根据自身经验提出，一个团队里出现多名设计师往往弊大于利，并对设计系统抱有复杂的负面看法。\n\n**「方案」** 作者认为设计角色很特殊：设计师的产出好坏一眼可见，且与工程师文化距离较远，这反而有利于建立信任。他用自己的经历说明“一次一个设计师”更稳妥：一名设计师被两名资深设计师替换后，产品被整体重做，前端样式大量重写；两名设计师又不断互相推翻，页面来回改了三四次，最后在截止前一周由管理层出面冻结设计。他猜测，这是因为设计只能依赖品味，缺少延迟、缺陷数等客观指标，而且设计改动会影响用户对整个产品的感知。设计系统试图用统一组件库扩展一致性，却带来激励冲突：维护团队追求组件始终美观，产品团队要满足特殊甚至不优雅的客户需求；结果是团队用 CSS 侵入或重写组件绕过系统。系统还常基于最新框架，而存量前端技术栈混杂，版本差异让人看到的和能实现的不一致。即便如此，作者仍认为设计系统优于其他方案，并指出 API、账单对账、Markdown/PDF 渲染等无视觉组件的产品未必需要设计师；设计不佳的产品也可能成功。\n\n**「启示」** 作者的结论是：设计的价值真实存在，但协作上应尽量保持一名设计师对一支团队；设计系统虽有激励与兼容性摩擦，仍是维护大规模一致性的更好选择，而并非所有产品都需要专职设计。\n\n**标签**: `#design systems`, `#frontend engineering`, `#team dynamics`, `#design collaboration`",
+  "score": 6,
+  "tags": [
+    "design systems",
+    "frontend engineering",
+    "team dynamics",
+    "design collaboration"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/working-with-designers/",
+  "originalSite": "seangoedecke.com",
+  "context": "作为一名前端工程师，作者喜欢和设计师合作，认为他们能带来工程师难以想象的价值；但他也根据自身经验提出，一个团队里出现多名设计师往往弊大于利，并对设计系统抱有复杂的负面看法。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

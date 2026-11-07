@@ -1,0 +1,30 @@
+{
+  "id": "49a95419ac939165d3cfef428c3a00bf96b3983c",
+  "canonicalId": "b4464cc2e438ecdc82dd9a12206b5870cc2f318f",
+  "slug": "why-one-designer-per-team-often-works-best",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-07T00:00:00Z",
+  "lang": "en",
+  "title": "Why One Designer Per Team Often Works Best",
+  "summary": "rss · Sean Goedecke · Nov 7, 00:00\n\n**「Background」** Sean Goedecke reflects from frontend experience on why designers are unusually valuable yet culturally distant from engineers, and why scaling their work creates organizational friction.\n\n**「Solution」** His central practical claim is that a team should have at most one designer. He describes a product with three: after the original designer rotated off, two senior designers replaced them, redesigned the UI, then repeatedly reversed each other&\\#x27;s changes page by page until management froze the design near the deadline. He offers two speculative explanations: engineering disputes can lean on concrete measures such as latency or bugs, whereas design disputes rest on taste; and design changes are product-wide because users experience one interface, while many engineering choices remain invisible. Design systems, which he dislikes but considers better than the alternatives, suffer from misaligned incentives—owners want elegant reusable components while product teams need awkward customer requirements—and compatibility problems when the system targets a modern framework but production code mixes old technologies. Engineers then hack around it with CSS or reimplement components, and version differences create mismatches with designers&\\#x27; mockups. He also argues that some teams, such as APIs, billing, or rendering, lack a meaningful visual surface, and that poorly designed products can still succeed, so design is not always business-critical.\n\n**「Takeaway」** Goedecke&\\#x27;s conclusion is not that design matters less, but that its organizational cost is uneven: one embedded designer can transform a product, while multiple designers and rigid design systems can consume engineering effort without guaranteeing better outcomes.\n\n**Tags**: `#design systems`, `#frontend engineering`, `#team dynamics`, `#design collaboration`",
+  "score": 6,
+  "tags": [
+    "design systems",
+    "frontend engineering",
+    "team dynamics",
+    "design collaboration"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/working-with-designers/",
+  "originalSite": "seangoedecke.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "933133ff59387dade3f044ea524b7f3de4e04f0c",
+  "canonicalId": "3fa5bea399beaf49d02e86fd12ba3b38e47e19b5",
+  "slug": "淘宝-mnn-开源-03b-手机端模型-mnn-pocket-03b",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T15:13:00Z",
+  "lang": "zh",
+  "title": "淘宝 MNN 开源 0.3B 手机端模型 MNN-Pocket-0.3B",
+  "summary": "淘宝 MNN 团队开源了约 3 亿参数的端侧模型 MNN-Pocket-0.3B，目标是让手机完全离线运行小型语言模型。团队称该模型在 iPhone 18 Pro 上平均解码约 350 token/s，INT4 部署文件为 173 MB，但上述性能尚未见到独立验证。MNN-Pocket-0.3B 最终采用 28 层结构，词表从 151K 精简至 64K，官方目标为峰值内存低于 300 MB、解码超过 200 token/s，并按预训练、后训练和端侧部署分别开源多个版本。",
+  "score": 7,
+  "tags": [
+    "on-device AI",
+    "small language models",
+    "model optimization",
+    "open source",
+    "mobile inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/1/023/212.htm",
+  "originalSite": "ithome.com",
+  "context": "MNN-Pocket-0.3B 已在 Hugging Face 的 taobao-mnn 组织下发布，页面提供了配套库和本地应用的使用入口。据公开报道，该版本通过模型结构、词表、训练与推理引擎的协同设计，在 0.3B 参数规模下兼顾任务能力、速度和低资源占用。",
+  "discussion": "若低于 300 MB 的峰值内存目标能在实际设备上成立，移动应用开发者就可在不依赖云端的情况下集成离线生成能力；实际采用前仍需在目标机型上验证内存占用、解码速度和量化后的输出质量，并基于其端侧部署版本做适配。",
+  "references": [
+    {
+      "title": "taobao- mnn / MNN - Pocket - 0 . 3 B · Hugging Face",
+      "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B"
+    },
+    {
+      "title": "淘 宝 MNN 团队 开 源 0 . 3 B 手 机 模 型 ，iPhone 18 Pro上离线跑出 350 token / s",
+      "url": "https://tool.lu/article/88c/detail"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

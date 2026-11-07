@@ -1,0 +1,40 @@
+{
+  "id": "8478942f13bf24b256031f4ac8fd2ffe4b91e2bb",
+  "canonicalId": "3fa5bea399beaf49d02e86fd12ba3b38e47e19b5",
+  "slug": "taobao-mnn-team-open-sources-03b-phone-model",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T15:13:00Z",
+  "lang": "en",
+  "title": "Taobao MNN team open-sources 0.3B phone model",
+  "summary": "Taobao’s MNN team has reportedly open-sourced MNN-Pocket-0.3B, an approximately 300-million-parameter model designed to run fully offline on phones. The release includes separate versions for pretraining, post-training, and on-device deployment, with an INT4 deployment file said to be 173 MB and a target peak memory below 300 MB. The team reportedly used a 28-layer structure, cut the vocabulary from 151K to 64K, and claims average decoding of about 350 token/s on an iPhone 18 Pro, against a target of more than 200 token/s. Those speed and memory figures are source claims from a brief secondary report and have not been independently verified.",
+  "score": 7,
+  "tags": [
+    "on-device AI",
+    "small language models",
+    "model optimization",
+    "open source",
+    "mobile inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.ithome.com/1/023/212.htm",
+  "originalSite": "ithome.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "taobao- mnn / MNN - Pocket - 0 . 3 B · Hugging Face",
+      "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B"
+    },
+    {
+      "title": "淘 宝 MNN 团队 开 源 0 . 3 B 手 机 模 型 ，iPhone 18 Pro上离线跑出 350 token / s",
+      "url": "https://tool.lu/article/88c/detail"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

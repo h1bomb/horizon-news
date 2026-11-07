@@ -1,0 +1,44 @@
+{
+  "id": "ce0daf6b5ad5041b3bac92879943e3d3dfe2ec06",
+  "canonicalId": "21093c7b96e67a8d66b76fe66c96884a104f828d",
+  "slug": "月之暗面据报洽谈在欧洲租用逾-8000-颗英伟达-blackwell-gpu",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-06T05:02:00Z",
+  "lang": "zh",
+  "title": "月之暗面据报洽谈在欧洲租用逾 8000 颗英伟达 Blackwell GPU",
+  "summary": "据 CNBC 援引知情人士报道，月之暗面正洽谈从欧洲新兴云厂商（neocloud）的数据中心租用 8000 颗以上英伟达 Blackwell GPU，主要用于推理，也涉及训练；该交易尚未得到公司或供应商确认。由于美国出口管制禁止向中国进口 Blackwell，通过海外云服务远程使用被视为可能的绕道方式。报道还称，有方案要求月之暗面比非中国买家多支付 30% 至 50% 的预付款。白宫今年 7 月曾称，该公司经泰国设施获取过 Blackwell 芯片。",
+  "score": 7,
+  "tags": [
+    "AI compute",
+    "Nvidia Blackwell",
+    "export controls",
+    "Moonshot AI",
+    "cloud computing"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+  "originalSite": "cnbc.com",
+  "context": "美国出口管制禁止向中国出口 Nvidia Blackwell 系列芯片，而通过境外数据中心的云服务远程调用算力，一直被视为可能的绕道途径。2026 年 7 月 22 日，白宫公开指责月之暗面经由泰国设施使用受限制的 Nvidia GB300 Blackwell 芯片，显示管制关注点已从芯片进口延伸到境外算力使用。",
+  "discussion": "对月之暗面而言，比非中国买家多付 30%–50% 的预付款意味着在获得算力前需锁定更大规模现金，而用途以推理为主会使单位服务成本相应上升。对欧洲 neocloud 而言，这类交易需自行承担出口管制的合规风险：经海外云远程使用 Blackwell 已被视为绕道途径，相关法律风险并未消除；且 neocloud 普遍采用 take-or-pay 合约，预付款正是其转移风险的主要手段。",
+  "references": [
+    {
+      "title": "China&#x27;s Moonshot AI accessed banned Nvidia chips, U.S ... - CNBC",
+      "url": "https://www.cnbc.com/2026/07/23/moonshot-kimi-nvidia-ai-chips-export-ban.html"
+    },
+    {
+      "title": "White House Accuses Moonshot AI of Accessing Banned Nvidia ...",
+      "url": "https://mlq.ai/news/white-house-accuses-moonshot-ai-of-accessing-banned-nvidia-gb300-chips-via-thailand-1/"
+    },
+    {
+      "title": "Neocloud : How the GPU Cloud Business Works | ModulEdge",
+      "url": "https://www.moduledge.com/blog/neocloud"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
