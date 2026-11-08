@@ -1,0 +1,36 @@
+{
+  "id": "66b23aab8b833b1d5e7f2b3ee0433880b57b59b2",
+  "canonicalId": "69af5f8a122011ad538ccd4f462b04fe25ea9963",
+  "slug": "githubx27s-rubicon-storage-reports-7200-pushes-per-second",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T14:12:00Z",
+  "lang": "en",
+  "title": "GitHub&\\#x27;s Rubicon storage reports 7,200 pushes per second",
+  "summary": "GitHub has introduced Rubicon, a new Git storage architecture designed for large numbers of AI agents operating concurrently on a single repository. In internal testing, it supported 5,000 agents working together and processed 7,200 pushes per second while keeping read latency low; these are vendor-reported results from a limited private preview, not a broadly available or independently measured capability. The architecture stores Git objects in Azure Blob Storage, manages reference state with Ref-CAS, uses virtual replicas for reads and writes, and relies on background nodes to compact packfiles. GitHub says it will gradually expand the preview.",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "Git storage architecture",
+    "AI agents",
+    "Azure Blob Storage",
+    "distributed systems"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+  "originalSite": "github.blog",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Inside GitHub’s new Git storage architecture - The GitHub Blog",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

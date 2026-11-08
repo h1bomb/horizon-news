@@ -1,0 +1,37 @@
+{
+  "id": "f8a01e47bed27aabdeec4cd6096785d3ee416d15",
+  "canonicalId": "f7fffb994d85a6077ae0e4fe82068f528565d828",
+  "slug": "maxxbench-质疑-deepswe-编码基准的分数稳健性",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T17:19:00Z",
+  "lang": "zh",
+  "title": "MaxxBench 质疑 DeepSWE 编码基准的分数稳健性",
+  "summary": "MaxxBench 在其研究页面发布分析，质疑 DeepSWE 编码基准的高分在任务描述被改动后是否依然成立：其做法是系统性地扰动任务规格，观察分数随之变化的幅度，并称在 DeepSWE 中发现若干缺陷。文章面向依赖 LLM 编码评测的开发者与评测机构，核心主张是单一基准分数不足以代表模型的真实能力。需要说明的是，这些结论目前仅出自 MaxxBench 一家来源，本文未获得原文内容，也没有独立复现或验证。",
+  "score": 8,
+  "tags": [
+    "llm-benchmarks",
+    "evaluation-methodology",
+    "benchmark-validity",
+    "ai-software-engineering",
+    "hacker-news-discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "antiuniverse",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50406222"
+    }
+  ],
+  "originalUrl": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+  "originalSite": "maxxbench.unlap.ai",
+  "context": "DeepSWE 是用于比较 LLM 编码能力的基准，其排行榜分数常被直接当作模型实力的证据。MaxxBench 的这项分析对 89 个 DeepSWE 任务做指令或初始代码扰动（例如要求小写文件名、UTC 时间戳），中位补丁改动仅 17 行（3.5%），以此检验分数在任务表述稍变时是否仍然成立。",
+  "discussion": "对依据 DeepSWE 排名来挑选编码模型的团队来说，这意味着模型间的分差可能随任务描述的措辞而改变，被指出的基准缺陷也可能干扰跨版本、跨模型的比较；在把分数当作选型或上线依据之前，宜在自建的任务变体上重测一遍。\n\n评论者普遍认可“只改一个参数、看分数漂移多少”这类检验思路，有人据此指出图中分数下滑最明显的是较小的 -flash 类模型，但同时提醒其中部分同名系列其实属于不同代际，不能一概而论。也有评论者认为根源在于实验室构建强化学习环境时不够严谨，而非直接针对基准训练，并对一个使用广泛的基准至今仍存在缺陷表示意外。",
+  "references": [
+    {
+      "title": "MaxxBench – &quot;Nice DeepSWE score. But is it true?&quot;",
+      "url": "https://daily.dev/posts/maxxbench-nice-deepswe-score-but-is-it-true--ue9ulip60"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

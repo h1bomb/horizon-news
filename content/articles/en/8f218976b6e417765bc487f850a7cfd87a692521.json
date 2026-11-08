@@ -1,0 +1,45 @@
+{
+  "id": "8f218976b6e417765bc487f850a7cfd87a692521",
+  "canonicalId": "5ec03af4da1d836d9dad8f0be411db409e6bd298",
+  "slug": "researcher-claims-every-mac-since-2022-runs-an-undocumented-personal-knowledge-graph",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T09:46:00Z",
+  "lang": "en",
+  "title": "Researcher claims every Mac since 2022 runs an undocumented personal knowledge graph",
+  "summary": "A researcher posting as infwhispers has published an investigation at 8rank.ai arguing that every Mac released since 2022 ships a pair of undocumented daemons that build a personal knowledge graph — who the user is, who they know, how those people relate to each other, and how, where, and when the user communicates with them — including what the title calls a family-member classifier. The author confirmed authorship in the discussion thread and linked follow-up research on the knowledge graph. The claims are the researcher&\\#x27;s own reverse-engineering analysis rather than an Apple announcement: no Apple documentation or independent verification of the daemons&\\#x27; scope appears in the supplied material, and the post describes a capability that is already shipping rather than a new release.",
+  "score": 7,
+  "tags": [
+    "Apple Intelligence",
+    "privacy",
+    "personal knowledge graph",
+    "macOS",
+    "reverse engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "infwhispers",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
+    }
+  ],
+  "originalUrl": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+  "originalSite": "8rank.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Apple&#x27;s Hidden Personal Knowledge Graph: Understanding macOS ...",
+      "url": "https://techplanet.today/post/apples-hidden-personal-knowledge-graph-understanding-macoss-undocumented-family-classifier"
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://techbytes.app/posts/every-mac-comes-with-an-undocumented-family-member-classifier/"
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://daily.dev/posts/every-mac-comes-with-an-undocumented-family-member-classifier-s3lfxwdun"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

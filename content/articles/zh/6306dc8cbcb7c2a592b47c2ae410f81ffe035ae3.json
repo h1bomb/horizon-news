@@ -1,0 +1,36 @@
+{
+  "id": "6306dc8cbcb7c2a592b47c2ae410f81ffe035ae3",
+  "canonicalId": "3b58ffb304e7b124cccfb142a59a8052fc0d1e06",
+  "slug": "claude-code-被指联网请求泄露登录邮箱拦截可被绕过",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T08:09:00Z",
+  "lang": "zh",
+  "title": "Claude Code 被指联网请求泄露登录邮箱，拦截可被绕过",
+  "summary": "Claude Code 被指在联网请求中携带用户登录邮箱，一名开发者投诉称因此每天收到大量诈骗邮件，并称邮箱曾被发送给 Wikipedia、美国证券交易委员会等站点；该问题早在今年 7 月就有人报告。Anthropic 工程师表示，把登录邮箱放入模型上下文原本是为了解决 Claude 乱填作者名的问题；2.1.317 版已加入拦截，但可用 Python 脚本绕过。公司计划在下一版本从模型上下文中移除登录邮箱，但目前尚无已发布版本完成这一修复。",
+  "score": 7,
+  "tags": [
+    "Claude Code",
+    "privacy",
+    "security vulnerability",
+    "AI coding tools",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/anthropics/claude-code/issues/107757",
+  "originalSite": "github.com",
+  "context": "Claude Code 的联网请求会携带模型上下文中的信息；据 Anthropic 工程师在 issue 中的说法，登录邮箱最初被放入上下文，是为了避免模型在需要填写作者名等字段时随意编造。该问题早在今年 7 月就有人报告，涉及邮箱被发送至 Wikipedia、美国证券交易委员会等站点。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Bug Report: Privacy violation in User-Agent header · Issue # 107757 ...",
+      "url": "https://github.com/anthropics/claude-code/issues/107757"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

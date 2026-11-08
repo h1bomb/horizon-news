@@ -1,0 +1,41 @@
+{
+  "id": "9391cbcbc3101d5b809c75e018156424df7664aa",
+  "canonicalId": "5ec03af4da1d836d9dad8f0be411db409e6bd298",
+  "slug": "mac-被指内置未公开的家庭成员分类器",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T09:46:00Z",
+  "lang": "zh",
+  "title": "Mac 被指内置未公开的家庭成员分类器",
+  "summary": "一篇发布在 8rank.ai 的调查文章声称，自 2022 年起的每台 Mac 都内置了未公开的守护进程，用来构建关于用户本人、联系人和家庭成员关系的个人知识图谱；文章作者在 Hacker News 评论区确认了自己的研究者身份。该文把其中一个组件描述为家庭成员分类器，讨论随之集中在本地关系推断的隐私影响，以及它可能为 Siri 等本地 LLM 提供消歧上下文；由于目前只有标题、分析摘要和评论、没有正文，具体技术证据和分类准确度无法独立核实。",
+  "score": 7,
+  "tags": [
+    "Apple Intelligence",
+    "privacy",
+    "personal knowledge graph",
+    "macOS",
+    "reverse engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "infwhispers",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403097"
+    }
+  ],
+  "originalUrl": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+  "originalSite": "8rank.ai",
+  "context": "Apple Intelligence 的个性化功能依赖设备端的数据索引，但外界此前并不清楚这些索引如何组织，以及它与联系人、照片人物识别等已有数据之间的关系。此次研究称，macOS 13（2022 年）以来的系统内置 knowledgeconstructiond 与 intelligenceplatformd 两个守护进程，共同在本地构建“个人知识图谱”，数据存放在 ~/Library/IntelligencePlatform 下约 51 个明文 SQLite 数据库中，并受 TCC 完全磁盘访问权限保护。研究者是在对 macOS 26 的 Apple Intelligence 组件做安全分析时发现这套架构的。",
+  "discussion": "若该机制确实存在并默认运行，受影响的将是相关 macOS 版本上的 Mac 用户：现有材料没有说明这些守护进程是否默认启用、关系图是否可由用户查看或删除，这使用户难以判断哪些家庭关系数据已被推断和保留。\n\n有评论者认为这类数据若为选择性加入会很有趣，但如今令人疲惫，并担心日常交谈被系统记录会改变社交默契；也有人表示并不意外，因为 Photos 早已识别人脸和宠物，并引用乔布斯 2010 年关于隐私要“用平实语言反复告知用户”的说法。另有评论从功能角度指出，这种关系图是为本地 LLM 提供上下文，以便在“给 James 发消息”或“告诉老板”时判断指代对象。",
+  "references": [
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://techbytes.app/posts/every-mac-comes-with-an-undocumented-family-member-classifier/"
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://daily.dev/posts/every-mac-comes-with-an-undocumented-family-member-classifier-s3lfxwdun"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

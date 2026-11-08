@@ -1,0 +1,32 @@
+{
+  "id": "ff3d285dcc7ef180bfaf77d3ff801c0592d915bb",
+  "canonicalId": "fe4697100c8e8c62b9b9ba2a8d5a4ba18b2a7d75",
+  "slug": "asahi-linux-73-进度报告fedora-asahi-remix-首次同日跟进",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T05:20:00Z",
+  "lang": "zh",
+  "title": "Asahi Linux 7.3 进度报告：Fedora Asahi Remix 首次同日跟进",
+  "summary": "Asahi Linux 发布 7.3 进度报告，核心变化是 Fedora Asahi Remix 的发布节奏：评论中引用的报告内容称，Fedora Linux 45 于 11 月 3 日发布，Remix 当天跟进，这是该项目首次实现与上游 Fedora 同日发布。报告同时覆盖 Apple Silicon 上 Linux 支持的持续开发，但现有材料没有给出完整硬件兼容清单或独立性能测试结果。对 Fedora Asahi Remix 用户来说，同日跟进意味着可更快获得新上游版本；实际可用性仍取决于具体机型的硬件支持。",
+  "score": 7,
+  "tags": [
+    "Asahi Linux",
+    "Apple Silicon",
+    "Linux",
+    "Fedora",
+    "Open Source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ackyshake",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50401867"
+    }
+  ],
+  "originalUrl": "https://asahilinux.org/2026/11/progress-report-7-3/",
+  "originalSite": "asahilinux.org",
+  "context": "Asahi Linux 是一个把 Linux 移植到 Apple Silicon Mac 上的开源项目，其面向这些机型的官方发行版 Fedora Asahi Remix 由项目与 Fedora 社区协作维护；项目平时以进度报告的形式披露内核、驱动与发行版的同步情况。据社区评论引述，本期报告提到上游 Fedora Linux 45 于 11 月 3 日发布，而 Fedora Asahi Remix 首次做到同日跟进；评论中讨论的 USB-C 外接显示器支持缺口，以及项目对宽松许可证被第三方利用的担忧，都是报告涉及的具体议题。",
+  "discussion": "希望留在 Fedora 生态的 Apple Silicon 用户可更快获得 Fedora 45 的更新，减少下游重构建造成的版本滞后；但采用前仍应按具体 Mac 机型核查外设兼容性，尤其是评论中提到的 USB-C 外接显示器支持。\n\n评论中，一位用户称 USB-C 外接显示器支持是他多次考虑安装 Asahi Linux 却始终放弃的唯一阻塞点；另一位评论者则追问报告提到的“利用宽松许可证劫持项目”是否指 Omarchy，并对项目曾采用 MIT 许可证表示意外。上述均为评论者个人说法，现有材料未给出报告原文对应细节。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

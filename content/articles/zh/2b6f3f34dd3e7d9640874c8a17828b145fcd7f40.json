@@ -1,0 +1,45 @@
+{
+  "id": "2b6f3f34dd3e7d9640874c8a17828b145fcd7f40",
+  "canonicalId": "273bbe1e419702dfc391cf508a95fefa2cae14d8",
+  "slug": "极品飞车地下狂飙-2浏览器重实现支持在线多人",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T09:36:00Z",
+  "lang": "zh",
+  "title": "《极品飞车：地下狂飙 2》浏览器重实现支持在线多人",
+  "summary": "玩家现在可以在浏览器中运行《极品飞车：地下狂飙 2》的重实现版本，并参与在线多人比赛。该实现依赖 WebGPU；有评论者报告，Linux 上的 Chromium 需要启用不安全的 WebGPU 功能，而在手机上可以正常游玩。站点目前只提供入口，没有公开架构说明或源码信息，因此具体实现方式仍不清楚。评论者还指出，这款游戏已属于不再可得的 abandonware，站点使用受版权保护内容的法律地位不稳。",
+  "score": 7,
+  "tags": [
+    "webgpu",
+    "browser-gaming",
+    "reverse-engineering",
+    "abandonware",
+    "emulation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "fluxusars",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50403052"
+    }
+  ],
+  "originalUrl": "https://nfsu2.xyz/",
+  "originalSite": "nfsu2.xyz",
+  "context": "《Need for Speed: Underground 2》是 2004 年的赛车游戏，此次受到关注的 nfsu2.xyz 是爱好者制作的浏览器版本，并非官方发行。据项目页面和相关报道，它通过静态 WebAssembly 重编译把原游戏搬进 Chrome 与 Firefox，图形渲染依赖 WebGPU，并提供最高 120 fps 的宽屏画面、手柄支持以及联机自由漫游和好友对战。",
+  "discussion": "对想尝试的玩家来说，首要门槛是浏览器图形支持：Linux 上的 Chromium 用户据评论需启用不安全的 WebGPU 功能，移动端已有可正常游玩的报告。由于游戏已不再可得、站点又依赖受版权保护的内容，其可访问性和联机服务能否持续没有保障。\n\n评论者分享了实际体验：有人在手机上顺利游玩，有人称联机地图上大量车辆同时生成、互相鸣笛和烧胎，场面混乱。讨论中也出现分歧，一方希望这类已停售游戏被保留下来，另一方则认为为受版权保护内容募捐“非常可疑”，并预计它走红后会收到下架通知。",
+  "references": [
+    {
+      "title": "nfsu2.xyz - Underground 2 Revived",
+      "url": "https://nfsu2.xyz/"
+    },
+    {
+      "title": "Need for Speed: Underground 2 in Browser: 120 FPS &amp; WebGPU ...",
+      "url": "https://pro-gamer.gg/need-for-speed-underground-2-playable-browser-120-fps-webgpu-multiplayer-free-roam/"
+    },
+    {
+      "title": "Need for Speed: Underground 2 Gets a WebGPU Browser Port With ...",
+      "url": "https://www.gsmdome.com/need-for-speed-underground-2-gets-a-webgpu-browser-port-with-online-multiplayer"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

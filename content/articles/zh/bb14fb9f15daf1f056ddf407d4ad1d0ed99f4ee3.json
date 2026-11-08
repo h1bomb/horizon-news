@@ -1,0 +1,36 @@
+{
+  "id": "bb14fb9f15daf1f056ddf407d4ad1d0ed99f4ee3",
+  "canonicalId": "69af5f8a122011ad538ccd4f462b04fe25ea9963",
+  "slug": "github-新-git-存储架构-rubicon-开启有限私有预览",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T14:12:00Z",
+  "lang": "zh",
+  "title": "GitHub 新 Git 存储架构 Rubicon 开启有限私有预览",
+  "summary": "GitHub 推出代号 Rubicon 的新 Git 存储架构，面向大量 AI 智能体并发读写同一仓库的场景，目前处于有限私有预览阶段。按 GitHub 公布的信息，内部测试中 5000 个智能体同时协作时，系统每秒处理 7200 次推送，读取延迟保持在较低水平。该架构把 Git 对象存入 Azure Blob Storage，由 Ref-CAS 管理引用状态，并用虚拟副本处理读写、后台节点压缩数据包。这些数字来自内部测试，GitHub 尚未说明广泛开放时间或提供外部验证结果。",
+  "score": 8,
+  "tags": [
+    "GitHub",
+    "Git storage architecture",
+    "AI agents",
+    "Azure Blob Storage",
+    "distributed systems"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+  "originalSite": "github.blog",
+  "context": "Git 仓库由不可变的对象和可变的引用组成，推送时需要原子更新引用；当大量智能体同时读写同一仓库时，引用争用和对象存储容易成为并发瓶颈。Rubicon 把对象存入 Azure Blob Storage、用 Ref-CAS 管理引用状态，正是针对这种高并发访问模式做出的拆分。",
+  "discussion": "对依赖多个 AI 智能体并发写入同一仓库的团队来说，7,200 次/秒和 5,000 个智能体目前只是 GitHub 的内部测试结果，新架构也仅处于有限私有预览，尚不能作为容量规划或服务等级承诺的依据。现有用户和集成的兼容性影响在材料中未说明，需要等待 GitHub 扩大预览范围并公布启用或迁移条件。",
+  "references": [
+    {
+      "title": "Inside GitHub’s new Git storage architecture - The GitHub Blog",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "76a342ee6a40857a7270947b071130d4d50b59ba",
+  "canonicalId": "5186d80b7eef562645f5a129edb9b36422b5932f",
+  "slug": "claude-code-本地设置文件被提交1122-个公开-github-文件暴露密钥",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T20:45:00Z",
+  "lang": "zh",
+  "title": "Claude Code 本地设置文件被提交，1,122 个公开 GitHub 文件暴露密钥",
+  "summary": "安全厂商 Apiiro 的博客称，它在公开 GitHub 仓库中扫描到 1,122 个含密钥的文件；这些密钥出现在 Claude Code 的 .claude/settings.local.json 中被批准的条目里：用户点击“Don&\\#x27;t Ask Again”后，含明文密码或 API key 的整条命令会被写入该文件。Claude Code 团队的 Boris 在讨论中回应，该文件本应只留在本地，由 Claude 创建时会被自动写入 .gitignore；此次涉及的仓库是用户手动创建并手动提交的文件，他还承认 Claude Code 此前不做密钥清理，正在研究如何防止此类情况。报道中的数字来自单一厂商的扫描，泄露需同时满足“命令中直接写入密钥”和“仓库公开”两个条件，因此标题暗示的“点一下按钮就泄露”并不成立。",
+  "score": 7,
+  "tags": [
+    "Claude Code",
+    "security",
+    "secret leakage",
+    "AI coding agents",
+    "GitHub"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "shmulc",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
+    }
+  ],
+  "originalUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+  "originalSite": "apiiro.com",
+  "context": "Claude Code 的“不再询问”会把用户批准的完整命令写入项目内的 \\`.claude/settings.local.json\\` 权限允许列表。该文件按设计只应留在本地：Claude Code 团队成员在讨论中说明，当 Claude 自动创建此文件时会将其加入 \\`.gitignore\\`，但手动创建并提交到仓库的情况不受保护。此次暴露的前提正是开发者把该本地设置文件提交到公开仓库，而其中保存的命令又直接包含密码或密钥。",
+  "discussion": "对已将 .claude/settings.local.json 提交到公开仓库的开发者，应尽快轮换曾出现在其中的凭据，并把该文件移出版本控制、加入 .gitignore；仅删除当前文件不够，因为明文命令仍留在 Git 历史中可被检索。\n\n评论者 Aurornis 认为标题有误导性：单按“Don&\\#x27;t Ask Again”不会泄露，必须是用户把含密钥命令的本地设置提交并公开仓库。tsergiu 表示对 agent 权限十分警惕，采用每个任务一个隔离网络的临时虚拟机、开启 --dangerously-skip-permissions，并配合 API 代理限制其访问的外部服务；binarymax 则把凭据放在 1Password，由 Claude 调用 op CLI 并在需要时用指纹授权。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

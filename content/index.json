@@ -1,6 +1,448 @@
 {
   "articles": [
     {
+      "id": "f8a01e47bed27aabdeec4cd6096785d3ee416d15",
+      "canonicalId": "f7fffb994d85a6077ae0e4fe82068f528565d828",
+      "slug": "maxxbench-质疑-deepswe-编码基准的分数稳健性",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "MaxxBench 质疑 DeepSWE 编码基准的分数稳健性",
+      "score": 8,
+      "tags": [
+        "llm-benchmarks",
+        "evaluation-methodology",
+        "benchmark-validity",
+        "ai-software-engineering",
+        "hacker-news-discussion"
+      ],
+      "originalSite": "maxxbench.unlap.ai"
+    },
+    {
+      "id": "670fa13285abbd0d0dac137ed5e3856abb96f6b0",
+      "canonicalId": "881c7e199684ed12ee836083b29623db8e71fbb3",
+      "slug": "semianalysis-探访内蒙古-galaxy-数据中心规划-800mw首期成本约为美国五分之一",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "SemiAnalysis 探访内蒙古 Galaxy 数据中心：规划 800MW，首期成本约为美国五分之一",
+      "score": 8,
+      "tags": [
+        "AI infrastructure",
+        "datacenters",
+        "China AI",
+        "cost efficiency",
+        "vertical integration"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
+      "id": "bb14fb9f15daf1f056ddf407d4ad1d0ed99f4ee3",
+      "canonicalId": "69af5f8a122011ad538ccd4f462b04fe25ea9963",
+      "slug": "github-新-git-存储架构-rubicon-开启有限私有预览",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "GitHub 新 Git 存储架构 Rubicon 开启有限私有预览",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "Git storage architecture",
+        "AI agents",
+        "Azure Blob Storage",
+        "distributed systems"
+      ],
+      "originalSite": "github.blog"
+    },
+    {
+      "id": "df69fd536f33fae742d49af53b5a109b31b7eaee",
+      "canonicalId": "ef7df344ebc60b9cf9587d3c12b07978eb0fb18d",
+      "slug": "微软研究院-ai-frontiers-小组据报结束john-langford-离职",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "微软研究院 AI Frontiers 小组据报结束，John Langford 离职",
+      "score": 7,
+      "tags": [
+        "AI research",
+        "Microsoft Research",
+        "AI industry",
+        "research culture",
+        "transformer models"
+      ],
+      "originalSite": "hunch.net"
+    },
+    {
+      "id": "76a342ee6a40857a7270947b071130d4d50b59ba",
+      "canonicalId": "5186d80b7eef562645f5a129edb9b36422b5932f",
+      "slug": "claude-code-本地设置文件被提交1122-个公开-github-文件暴露密钥",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "Claude Code 本地设置文件被提交，1,122 个公开 GitHub 文件暴露密钥",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "security",
+        "secret leakage",
+        "AI coding agents",
+        "GitHub"
+      ],
+      "originalSite": "apiiro.com"
+    },
+    {
+      "id": "2b6f3f34dd3e7d9640874c8a17828b145fcd7f40",
+      "canonicalId": "273bbe1e419702dfc391cf508a95fefa2cae14d8",
+      "slug": "极品飞车地下狂飙-2浏览器重实现支持在线多人",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "《极品飞车：地下狂飙 2》浏览器重实现支持在线多人",
+      "score": 7,
+      "tags": [
+        "webgpu",
+        "browser-gaming",
+        "reverse-engineering",
+        "abandonware",
+        "emulation"
+      ],
+      "originalSite": "nfsu2.xyz"
+    },
+    {
+      "id": "ff3d285dcc7ef180bfaf77d3ff801c0592d915bb",
+      "canonicalId": "fe4697100c8e8c62b9b9ba2a8d5a4ba18b2a7d75",
+      "slug": "asahi-linux-73-进度报告fedora-asahi-remix-首次同日跟进",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "Asahi Linux 7.3 进度报告：Fedora Asahi Remix 首次同日跟进",
+      "score": 7,
+      "tags": [
+        "Asahi Linux",
+        "Apple Silicon",
+        "Linux",
+        "Fedora",
+        "Open Source"
+      ],
+      "originalSite": "asahilinux.org"
+    },
+    {
+      "id": "67263c42830d1d65b06708b9abd572c31e277d50",
+      "canonicalId": "75033d6b18a041016defb8f632069a9bc19c7159",
+      "slug": "coldframe伪装超市制冷控制器的-python-蜜罐",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "Coldframe：伪装超市制冷控制器的 Python 蜜罐",
+      "score": 7,
+      "tags": [
+        "honeypot",
+        "ICS/OT security",
+        "Shodan",
+        "CVE-2025-41450",
+        "Python"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "9391cbcbc3101d5b809c75e018156424df7664aa",
+      "canonicalId": "5ec03af4da1d836d9dad8f0be411db409e6bd298",
+      "slug": "mac-被指内置未公开的家庭成员分类器",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "Mac 被指内置未公开的家庭成员分类器",
+      "score": 7,
+      "tags": [
+        "Apple Intelligence",
+        "privacy",
+        "personal knowledge graph",
+        "macOS",
+        "reverse engineering"
+      ],
+      "originalSite": "8rank.ai"
+    },
+    {
+      "id": "6306dc8cbcb7c2a592b47c2ae410f81ffe035ae3",
+      "canonicalId": "3b58ffb304e7b124cccfb142a59a8052fc0d1e06",
+      "slug": "claude-code-被指联网请求泄露登录邮箱拦截可被绕过",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "Claude Code 被指联网请求泄露登录邮箱，拦截可被绕过",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "privacy",
+        "security vulnerability",
+        "AI coding tools",
+        "Anthropic"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "f0b5f94b49c104f5e54c807c7f1379fda7113eeb",
+      "canonicalId": "cca1463f644bde11ea9b8ce8126465c638f054df",
+      "slug": "苹果-halo-人形机器人系统采用两个千问模型",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "苹果 HALO 人形机器人系统采用两个千问模型",
+      "score": 7,
+      "tags": [
+        "humanoid robotics",
+        "sim-to-real",
+        "LLM robotics",
+        "Apple research",
+        "open-source code"
+      ],
+      "originalSite": "weibo.com"
+    },
+    {
+      "id": "209a12e2b9b6b35970c5eec7b201cf1088ab2797",
+      "canonicalId": "0cd5dc65a670fc8b168691e10f7bdf22f876253c",
+      "slug": "伯克希尔第三季度回购规模翻倍至-96-亿美元营业利润下降-58",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "伯克希尔第三季度回购规模翻倍至 96 亿美元，营业利润下降 5.8%",
+      "score": 7,
+      "tags": [
+        "Berkshire Hathaway",
+        "share buybacks",
+        "earnings",
+        "insurance",
+        "cash reserves"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "b10f52972518ec37464cdc06695e12b24bf9629e",
+      "canonicalId": "d8797cd10480f8e0f216872b0c7d3e3c6c3cb3da",
+      "slug": "软银与-abb-考虑分拆中国机器人业务以挽救-54-亿美元收购",
+      "date": "2026-11-08",
+      "lang": "zh",
+      "title": "软银与 ABB 考虑分拆中国机器人业务以挽救 54 亿美元收购",
+      "score": 7,
+      "tags": [
+        "SoftBank",
+        "ABB",
+        "robotics M&amp;A",
+        "China foreign investment review",
+        "corporate carve-out"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "e5579349442b91d5d65a1eb137aa6dddb93908f6",
+      "canonicalId": "f7fffb994d85a6077ae0e4fe82068f528565d828",
+      "slug": "maxxbench-tests-whether-deepswe-scores-survive-task-spec-changes",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "MaxxBench tests whether DeepSWE scores survive task-spec changes",
+      "score": 8,
+      "tags": [
+        "llm-benchmarks",
+        "evaluation-methodology",
+        "benchmark-validity",
+        "ai-software-engineering",
+        "hacker-news-discussion"
+      ],
+      "originalSite": "maxxbench.unlap.ai"
+    },
+    {
+      "id": "da6b5c1076f9ab92d765bb879769a0232e610ba9",
+      "canonicalId": "881c7e199684ed12ee836083b29623db8e71fbb3",
+      "slug": "semianalysis-tours-envisionx27s-800mw-galaxy-ai-campus-in-inner-mongolia",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "SemiAnalysis tours Envision&\\#x27;s 800MW Galaxy AI campus in Inner Mongolia",
+      "score": 8,
+      "tags": [
+        "AI infrastructure",
+        "datacenters",
+        "China AI",
+        "cost efficiency",
+        "vertical integration"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
+      "id": "66b23aab8b833b1d5e7f2b3ee0433880b57b59b2",
+      "canonicalId": "69af5f8a122011ad538ccd4f462b04fe25ea9963",
+      "slug": "githubx27s-rubicon-storage-reports-7200-pushes-per-second",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "GitHub&\\#x27;s Rubicon storage reports 7,200 pushes per second",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "Git storage architecture",
+        "AI agents",
+        "Azure Blob Storage",
+        "distributed systems"
+      ],
+      "originalSite": "github.blog"
+    },
+    {
+      "id": "2a41313715e91853122619abbe5c5b6164af802c",
+      "canonicalId": "ef7df344ebc60b9cf9587d3c12b07978eb0fb18d",
+      "slug": "reported-end-of-microsoft-research-ai-frontiers-and-langfordx27s-exit",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Reported end of Microsoft Research AI Frontiers and Langford&\\#x27;s exit",
+      "score": 7,
+      "tags": [
+        "AI research",
+        "Microsoft Research",
+        "AI industry",
+        "research culture",
+        "transformer models"
+      ],
+      "originalSite": "hunch.net"
+    },
+    {
+      "id": "90324a64a34e60944b875fa05aad19f975701f64",
+      "canonicalId": "5186d80b7eef562645f5a129edb9b36422b5932f",
+      "slug": "claude-code-local-settings-with-secrets-found-in-1122-github-files",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Claude Code local settings with secrets found in 1,122 GitHub files",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "security",
+        "secret leakage",
+        "AI coding agents",
+        "GitHub"
+      ],
+      "originalSite": "apiiro.com"
+    },
+    {
+      "id": "36931f2847ca074a2789319889ff6eac3682b4d7",
+      "canonicalId": "273bbe1e419702dfc391cf508a95fefa2cae14d8",
+      "slug": "need-for-speed-underground-2-reimplementation-runs-in-browser-with-multiplayer",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Need for Speed: Underground 2 reimplementation runs in browser with multiplayer",
+      "score": 7,
+      "tags": [
+        "webgpu",
+        "browser-gaming",
+        "reverse-engineering",
+        "abandonware",
+        "emulation"
+      ],
+      "originalSite": "nfsu2.xyz"
+    },
+    {
+      "id": "14f3997fcbb687cf431842717672e76421343c68",
+      "canonicalId": "fe4697100c8e8c62b9b9ba2a8d5a4ba18b2a7d75",
+      "slug": "asahi-linux-73-report-first-same-day-fedora-asahi-remix-release",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Asahi Linux 7.3 report: first same-day Fedora Asahi Remix release",
+      "score": 7,
+      "tags": [
+        "Asahi Linux",
+        "Apple Silicon",
+        "Linux",
+        "Fedora",
+        "Open Source"
+      ],
+      "originalSite": "asahilinux.org"
+    },
+    {
+      "id": "6cd052418246afec82d800ee0652cafb26e5b7bf",
+      "canonicalId": "75033d6b18a041016defb8f632069a9bc19c7159",
+      "slug": "coldframe-honeypot-mimics-danfoss-and-dixell-refrigeration-controllers",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Coldframe honeypot mimics Danfoss and Dixell refrigeration controllers",
+      "score": 7,
+      "tags": [
+        "honeypot",
+        "ICS/OT security",
+        "Shodan",
+        "CVE-2025-41450",
+        "Python"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "8f218976b6e417765bc487f850a7cfd87a692521",
+      "canonicalId": "5ec03af4da1d836d9dad8f0be411db409e6bd298",
+      "slug": "researcher-claims-every-mac-since-2022-runs-an-undocumented-personal-knowledge-graph",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Researcher claims every Mac since 2022 runs an undocumented personal knowledge graph",
+      "score": 7,
+      "tags": [
+        "Apple Intelligence",
+        "privacy",
+        "personal knowledge graph",
+        "macOS",
+        "reverse engineering"
+      ],
+      "originalSite": "8rank.ai"
+    },
+    {
+      "id": "ad6027be6f8315094b085003d2a8687fb8d8030d",
+      "canonicalId": "3b58ffb304e7b124cccfb142a59a8052fc0d1e06",
+      "slug": "claude-code-report-alleges-web-requests-leaked-login-emails",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Claude Code report alleges web requests leaked login emails",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "privacy",
+        "security vulnerability",
+        "AI coding tools",
+        "Anthropic"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "1c13333589ef62905040b2e97c1193fafe4f3865",
+      "canonicalId": "cca1463f644bde11ea9b8ce8126465c638f054df",
+      "slug": "apple-discloses-halo-humanoid-control-system-using-two-qwen-models",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Apple discloses HALO humanoid control system using two Qwen models",
+      "score": 7,
+      "tags": [
+        "humanoid robotics",
+        "sim-to-real",
+        "LLM robotics",
+        "Apple research",
+        "open-source code"
+      ],
+      "originalSite": "weibo.com"
+    },
+    {
+      "id": "cf29ddecd2125c27c2643f73e425871cada4f6f6",
+      "canonicalId": "0cd5dc65a670fc8b168691e10f7bdf22f876253c",
+      "slug": "berkshire-more-than-doubles-q3-buybacks-as-operating-earnings-decline",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "Berkshire more than doubles Q3 buybacks as operating earnings decline",
+      "score": 7,
+      "tags": [
+        "Berkshire Hathaway",
+        "share buybacks",
+        "earnings",
+        "insurance",
+        "cash reserves"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "1848ba9853edb2f963838cc0e845460eddfe97f7",
+      "canonicalId": "d8797cd10480f8e0f216872b0c7d3e3c6c3cb3da",
+      "slug": "softbank-abb-weigh-china-carve-out-to-salvage-54-billion-robotics-deal",
+      "date": "2026-11-08",
+      "lang": "en",
+      "title": "SoftBank, ABB Weigh China Carve-Out to Salvage $5.4 Billion Robotics Deal",
+      "score": 7,
+      "tags": [
+        "SoftBank",
+        "ABB",
+        "robotics M&amp;A",
+        "China foreign investment review",
+        "corporate carve-out"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
       "id": "d528ed2e6f2f0063a79540d9ef478615d4d70219",
       "canonicalId": "51ae65540e1b07d1c7fcc41f117e48ce6159b299",
       "slug": "长江存储武汉第四厂拟-2027-年开工国产设备占比最高-70",
@@ -5348,278 +5790,6 @@
         "regulatory enforcement"
       ],
       "originalSite": "apps.sfc.hk"
-    },
-    {
-      "id": "53bd87244ec1bce3cce843fae133b2a8fed3baf2",
-      "canonicalId": "a31dac6d0b53e097a95e96d4e556c2c7237540fb",
-      "slug": "python-315-发布pep-810-惰性导入与-310-支持终止",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "Python 3.15 发布：PEP 810 惰性导入与 3.10 支持终止",
-      "score": 9,
-      "tags": [
-        "Python 3.15",
-        "PEP 810",
-        "lazy imports",
-        "programming languages",
-        "open source"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "16f268b51a4842a0867a2af164e377bf6d055038",
-      "canonicalId": "ca43aef1e63668cb484179a721ddffbe2ecc8381",
-      "slug": "黑客触发欧洲超市冷柜自动化霜",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "黑客触发欧洲超市冷柜自动化霜",
-      "score": 8,
-      "tags": [
-        "cybersecurity",
-        "IoT security",
-        "operational technology",
-        "embedded systems",
-        "refrigeration controllers"
-      ],
-      "originalSite": "tomshardware.com"
-    },
-    {
-      "id": "ceb2c150ac42e4c7fecb08f4cd63a572ad9d0e5f",
-      "canonicalId": "d268e81a3a1d6e96ee014784913426ce2ff9947b",
-      "slug": "github-项目把-wifi-7-路由器变成-320-msps-sdr-接收机",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "GitHub 项目把 WiFi 7 路由器变成 320 Msps SDR 接收机",
-      "score": 8,
-      "tags": [
-        "software-defined-radio",
-        "wifi-7",
-        "hardware-hacking",
-        "embedded-systems",
-        "wireless-communication"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "19802cdc5d720a922af3ba23bdf9c06408bc6953",
-      "canonicalId": "4aaf92f254c0ade1ac1fc34b38f7de96a9318a4e",
-      "slug": "用-c-构建并部署现代-web-应用",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "用 C 构建并部署现代 Web 应用",
-      "score": 7,
-      "tags": [
-        "C",
-        "web development",
-        "CGI/FastCGI",
-        "systems programming",
-        "privilege separation"
-      ],
-      "originalSite": "prophitt.me"
-    },
-    {
-      "id": "73c5963ab85881d17718a98c89a3421f786c6f68",
-      "canonicalId": "6001ee7ed96b9e1ada0c53cbd087627698197eed",
-      "slug": "codex-cli-默认装入自更新后台守护进程",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "Codex CLI 默认装入自更新后台守护进程",
-      "score": 7,
-      "tags": [
-        "Codex CLI",
-        "background daemon",
-        "OpenAI",
-        "developer tooling",
-        "software bugs"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "6598dd7859ccee3f87e87f72074b965c9411a1a8",
-      "canonicalId": "6672e99a5764e399a118d8705e1c4b5f6a75463b",
-      "slug": "show-hnps2-游戏静态重编译为-webassembly",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "Show HN：PS2 游戏静态重编译为 WebAssembly",
-      "score": 7,
-      "tags": [
-        "WebAssembly",
-        "static recompilation",
-        "PS2 emulation",
-        "reverse engineering",
-        "open source"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "3aefa851ab4385abb93a83079a3dc0f79e69ca08",
-      "canonicalId": "5a6b7e23ee06a3b96d38399c6635fb893f0d0037",
-      "slug": "rich-hickey-撰文称-ai-不是工具引发-hn-讨论",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "Rich Hickey 撰文称 AI 不是工具，引发 HN 讨论",
-      "score": 7,
-      "tags": [
-        "AI",
-        "LLM",
-        "software engineering",
-        "AI criticism",
-        "Hacker News discussion"
-      ],
-      "originalSite": "linkedin.com"
-    },
-    {
-      "id": "6d5a16d2d9809ac86f61bf94debc5c28db9cc158",
-      "canonicalId": "048fcb30e5f3e85ffa9aeefd797ee783872f956a",
-      "slug": "ai-编码代理产出更多代码却未带来更多软件",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "AI 编码代理产出更多代码，却未带来更多软件",
-      "score": 7,
-      "tags": [
-        "AI coding agents",
-        "developer productivity",
-        "code review",
-        "software engineering",
-        "LLM limitations"
-      ],
-      "originalSite": "arstechnica.com"
-    },
-    {
-      "id": "8e2571d945e9b123e1546ca038923eb405bc8fa9",
-      "canonicalId": "71efce2f5c7655f9273de1ecc2a3585e11c75382",
-      "slug": "linux-内核维护者峰会sashiko-调整与-assisted-by-标签取消",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "Linux 内核维护者峰会：Sashiko 调整与 Assisted-by 标签取消",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "open source",
-        "LLM",
-        "maintainership",
-        "security"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "e5d64b7eb40aa7080e0bfe1fdb94bd86be36e090",
-      "canonicalId": "6a89024d2a7542cbf326dc43ffe67fe8d74a9bae",
-      "slug": "lineageos-240-发布重新基于-android-17",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "LineageOS 24.0 发布，重新基于 Android 17",
-      "score": 7,
-      "tags": [
-        "LineageOS",
-        "Android",
-        "open source",
-        "mobile OS",
-        "custom ROM"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "bb41b78d7d21b2d5cd495f80bb1c475037205c6e",
-      "canonicalId": "55338a2f5e2cb58f883e9a95f661f85dba4ed5b6",
-      "slug": "replayssm缓存-ssm-输入而非状态",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "ReplaySSM：缓存 SSM 输入而非状态",
-      "score": 9,
-      "tags": [
-        "SSM",
-        "speculative decoding",
-        "quantization",
-        "inference optimization",
-        "hybrid models"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "0ea46f6aa8035158d09326926243dcba76b0bae0",
-      "canonicalId": "8894d3c13f2e1cc70175cf6fd089c7f69e4aa068",
-      "slug": "不用语言的模型能量基推理如何解约束问题",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "不用语言的模型：能量基推理如何解约束问题",
-      "score": 7,
-      "tags": [
-        "energy-based models",
-        "latent reasoning",
-        "constraint satisfaction",
-        "LLM limitations",
-        "AI verification"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "b5f539ee4d1f04ac0ffdc4140eca1a61ae6bae22",
-      "canonicalId": "bc7f5e9ec54d2f951eb3f41c462fe7a01cf8d64b",
-      "slug": "下一概念建模快速并行的由粗到细文本生成",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "下一概念建模：快速并行的由粗到细文本生成",
-      "score": 6,
-      "tags": [
-        "non-autoregressive language models",
-        "coarse-to-fine generation",
-        "diffusion language models",
-        "multiscale tokenization",
-        "text generation"
-      ],
-      "originalSite": "hazyresearch.stanford.edu"
-    },
-    {
-      "id": "2697d9e861d6c6c446921d4ab6b3768415f44513",
-      "canonicalId": "637cbca668131b4674007aef636df9a078d0e344",
-      "slug": "中国下调新能源汽车出口退税率-13降至-9",
-      "date": "2026-10-13",
-      "lang": "zh",
-      "title": "中国下调新能源汽车出口退税率 13%降至 9%",
-      "score": 8,
-      "tags": [
-        "中国",
-        "新能源汽车",
-        "出口退税",
-        "税收政策",
-        "电子烟"
-      ],
-      "originalSite": "news.cn"
-    },
-    {
-      "id": "fd2c6ab19c7e191a00ff152ffc0c6d4beb0be99f",
-      "canonicalId": "0d8dcb1c8fdb2f2160c8349bea3b179d21af921e",
-      "slug": "terence-taomath-20幻灯片谈-ai-与数学实践",
-      "date": "2026-10-12",
-      "lang": "zh",
-      "title": "Terence Tao《Math 2.0》幻灯片谈 AI 与数学实践",
-      "score": 8,
-      "tags": [
-        "AI for mathematics",
-        "proof assistants",
-        "machine learning",
-        "scientific epistemology",
-        "Terence Tao"
-      ],
-      "originalSite": "teorth.github.io"
-    },
-    {
-      "id": "22e86c180c470fb623ea8855f757dcf8d3a90f0b",
-      "canonicalId": "24714ab5db8c7ad2d8e38b7b67481a252e6d7ab7",
-      "slug": "日本宣布网络空间紧急状态逾-20-家企业遭攻击",
-      "date": "2026-10-12",
-      "lang": "zh",
-      "title": "日本宣布网络空间紧急状态，逾 20 家企业遭攻击",
-      "score": 8,
-      "tags": [
-        "网络安全",
-        "日本",
-        "勒索软件",
-        "数据泄露",
-        "关键基础设施"
-      ],
-      "originalSite": "ft.com"
     }
   ]
 }

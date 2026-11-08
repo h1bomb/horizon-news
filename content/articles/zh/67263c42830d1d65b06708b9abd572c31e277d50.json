@@ -1,0 +1,45 @@
+{
+  "id": "67263c42830d1d65b06708b9abd572c31e277d50",
+  "canonicalId": "75033d6b18a041016defb8f632069a9bc19c7159",
+  "slug": "coldframe伪装超市制冷控制器的-python-蜜罐",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T17:27:00Z",
+  "lang": "zh",
+  "title": "Coldframe：伪装超市制冷控制器的 Python 蜜罐",
+  "summary": "作者在 Show HN 发布了 Coldframe：一个只用 Python 标准库、单文件实现的蜜罐，伪装成 Danfoss AK-SM 800A 和 Dixell XWEB 超市制冷控制器。作者称其按 Shodan 上的真实设备记录匹配响应头顺序、页面标题、证书字段和 TLS 版本，因此两个实例被 Shodan 识别为真实设备而非蜜罐，并能识别 CVE-2025-41450“当日代码”登录绕过及另外三个 Danfoss CVE 和 XWEB 漏洞的尝试。默认口令会进入一个带除霜按钮的假门店面板，以观察攻击者的后续操作；但两个实例仅上线一天，目前只看到通用扫描器和 Shodan 爬虫 refrigerator.census.shodan.io，尚无真实攻击样本。",
+  "score": 7,
+  "tags": [
+    "honeypot",
+    "ICS/OT security",
+    "Shodan",
+    "CVE-2025-41450",
+    "Python"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hedgerow-dev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50406292"
+    }
+  ],
+  "originalUrl": "https://github.com/hedgerow-dev/coldframe",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "对 OT/ICS 安全研究者而言，这个单文件、无第三方依赖的诱饵可用于捕获默认登录后的第二阶段行为，并记录提交的“当日代码”是否正确，而不只是统计扫描量。不过，当前公开证据只覆盖一天的两个实例和通用扫描流量，Shodan 指纹匹配也不能证明它能骗过定向攻击者，部署者不应把其识别结果当作生产设备暴露面的完整评估。\n\n有评论者质疑用 Shodan 数据校准设备指纹的可靠性，称自己制作摄像头蜜罐时发现网上大量设备本身就是蜜罐或已被入侵，建议改用真实漏洞设备进行探测验证。作者则回应称超市通常没有安全团队，若制冷控制器需要打补丁、VPN 和强密码才安全，这些工作应由厂商或安装商默认提供。",
+  "references": [
+    {
+      "title": "DSA-2025-03-01 | Danfoss",
+      "url": "https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories/dsa-2025-03-01/"
+    },
+    {
+      "title": "NVD-CVE-2025-41450",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2025-41450"
+    },
+    {
+      "title": "French Supermarket Cyberattack: Danfoss Refrigeration ...",
+      "url": "https://thecybersecguru.com/news/french-supermarket-refrigeration-cyberattack/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

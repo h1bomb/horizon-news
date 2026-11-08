@@ -1,0 +1,40 @@
+{
+  "id": "1c13333589ef62905040b2e97c1193fafe4f3865",
+  "canonicalId": "cca1463f644bde11ea9b8ce8126465c638f054df",
+  "slug": "apple-discloses-halo-humanoid-control-system-using-two-qwen-models",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T13:35:00Z",
+  "lang": "en",
+  "title": "Apple discloses HALO humanoid control system using two Qwen models",
+  "summary": "Apple researchers reported on arXiv on Nov. 4 that they built HALO, a three-layer autonomous control system for humanoid robots, and validated it on a Unitree G1 by transferring motions learned in simulation to an unfamiliar real room. The top layer uses Qwen3.6-35B-A3B to orchestrate tasks, the middle layer uses Qwen3.5-2B to generate motions, and the bottom layer is a reinforcement-learning-trained action tracker. The team released code for data generation, model training, and deployment, according to the report, though the item is a secondary social-media relay and does not supply the arXiv identifier.",
+  "score": 7,
+  "tags": [
+    "humanoid robotics",
+    "sim-to-real",
+    "LLM robotics",
+    "Apple research",
+    "open-source code"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://weibo.com/1642634100/RqjjGllvw",
+  "originalSite": "weibo.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Perceptive Humanoid Motion from Simulation - arXiv.org",
+      "url": "https://arxiv.org/html/2611.06908"
+    },
+    {
+      "title": "GitHub - apple-aiml-research/ml-halo: HALO: Perceptive ...",
+      "url": "https://github.com/apple-aiml-research/ml-halo"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

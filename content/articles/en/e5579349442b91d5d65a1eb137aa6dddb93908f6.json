@@ -1,0 +1,37 @@
+{
+  "id": "e5579349442b91d5d65a1eb137aa6dddb93908f6",
+  "canonicalId": "f7fffb994d85a6077ae0e4fe82068f528565d828",
+  "slug": "maxxbench-tests-whether-deepswe-scores-survive-task-spec-changes",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T17:19:00Z",
+  "lang": "en",
+  "title": "MaxxBench tests whether DeepSWE scores survive task-spec changes",
+  "summary": "For developers who use DeepSWE to compare coding models, MaxxBench has published a critique arguing that strong scores should not be taken at face value and testing whether they hold when task specifications are varied. The analysis also reports bugs in DeepSWE, and the Hacker News thread debated benchmark validity, score robustness, and whether smaller models are disproportionately affected. The claims come from a single research source and were not independently verified in the supplied material.",
+  "score": 8,
+  "tags": [
+    "llm-benchmarks",
+    "evaluation-methodology",
+    "benchmark-validity",
+    "ai-software-engineering",
+    "hacker-news-discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "antiuniverse",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50406222"
+    }
+  ],
+  "originalUrl": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+  "originalSite": "maxxbench.unlap.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MaxxBench – &quot;Nice DeepSWE score. But is it true?&quot;",
+      "url": "https://daily.dev/posts/maxxbench-nice-deepswe-score-but-is-it-true--ue9ulip60"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

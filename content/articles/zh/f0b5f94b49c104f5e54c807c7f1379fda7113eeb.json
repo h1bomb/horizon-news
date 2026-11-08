@@ -1,0 +1,36 @@
+{
+  "id": "f0b5f94b49c104f5e54c807c7f1379fda7113eeb",
+  "canonicalId": "cca1463f644bde11ea9b8ce8126465c638f054df",
+  "slug": "苹果-halo-人形机器人系统采用两个千问模型",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T13:35:00Z",
+  "lang": "zh",
+  "title": "苹果 HALO 人形机器人系统采用两个千问模型",
+  "summary": "据社交媒体转述，苹果研究团队在 11 月 4 日提交至 arXiv 的论文中披露了人形机器人自主控制系统 HALO，并在宇树 G1 上验证了从仿真到陌生真实房间的动作迁移。系统分为三层：上层用 Qwen3.6-35B-A3B 负责任务编排，中层用 Qwen3.5-2B 生成动作，底层是经强化学习训练的动作跟踪器。转述还称，团队已公开数据生成、模型训练与部署代码。该消息未附 arXiv 链接，论文和代码发布情况尚待独立核对。",
+  "score": 7,
+  "tags": [
+    "humanoid robotics",
+    "sim-to-real",
+    "LLM robotics",
+    "Apple research",
+    "open-source code"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://weibo.com/1642634100/RqjjGllvw",
+  "originalSite": "weibo.com",
+  "context": "人形机器人的“仿真到现实”（sim-to-real）指先在仿真环境中生成数据、训练策略，再迁移到真实硬件；难点在于真实房间的光照、布局和接触条件与仿真不同。HALO 的全称是 Humanoid Autonomy, Learned in simulation, running Onboard，其数据管线在仿真中生成第一视角的视觉—语言—动作数据，训练出的策略完全在机器人本机运行。",
+  "discussion": "对开发者而言，若公开代码的链接和许可证可用，可参照其数据生成、训练与部署流程，在宇树 G1 等平台上评估“LLM 规划加强化学习动作跟踪”的组合；采用前需核对许可证及真实硬件的适配范围。",
+  "references": [
+    {
+      "title": "Perceptive Humanoid Motion from Simulation - arXiv.org",
+      "url": "https://arxiv.org/html/2611.06908"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

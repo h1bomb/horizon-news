@@ -1,0 +1,36 @@
+{
+  "id": "ad6027be6f8315094b085003d2a8687fb8d8030d",
+  "canonicalId": "3b58ffb304e7b124cccfb142a59a8052fc0d1e06",
+  "slug": "claude-code-report-alleges-web-requests-leaked-login-emails",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T08:09:00Z",
+  "lang": "en",
+  "title": "Claude Code report alleges web requests leaked login emails",
+  "summary": "A developer report alleges that Claude Code inserted users&\\#x27; login email addresses into outbound web requests, leading to a large volume of scam emails. An Anthropic engineer said the email had been placed in model context to stop Claude inventing author names; the issue was reported in July and emails were sent to sites including Wikipedia and the U.S. Securities and Exchange Commission. Version 2.1.317 added a block, but it can be bypassed with a Python script, and Anthropic plans to remove the login email from model context in the next version.",
+  "score": 7,
+  "tags": [
+    "Claude Code",
+    "privacy",
+    "security vulnerability",
+    "AI coding tools",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/anthropics/claude-code/issues/107757",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Bug Report: Privacy violation in User-Agent header · Issue # 107757 ...",
+      "url": "https://github.com/anthropics/claude-code/issues/107757"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

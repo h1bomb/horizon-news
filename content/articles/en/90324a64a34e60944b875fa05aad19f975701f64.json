@@ -1,0 +1,32 @@
+{
+  "id": "90324a64a34e60944b875fa05aad19f975701f64",
+  "canonicalId": "5186d80b7eef562645f5a129edb9b36422b5932f",
+  "slug": "claude-code-local-settings-with-secrets-found-in-1122-github-files",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T20:45:00Z",
+  "lang": "en",
+  "title": "Claude Code local settings with secrets found in 1,122 GitHub files",
+  "summary": "A security blog post reports finding 1,122 public GitHub files containing Claude Code \\`.claude/settings.local.json\\` entries where commands approved through “Don&\\#x27;t Ask Again” embedded passwords or keys. The exposure is conditional: a developer had to manually create and commit the local settings file and put a secret directly in an approved command; a Claude Code team member identified as Boris said the file is meant to stay local and is auto-gitignored when Claude creates it. Boris said Claude Code has not historically scrubbed secrets but the team is looking into preventing this.",
+  "score": 7,
+  "tags": [
+    "Claude Code",
+    "security",
+    "secret leakage",
+    "AI coding agents",
+    "GitHub"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "shmulc",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
+    }
+  ],
+  "originalUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+  "originalSite": "apiiro.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

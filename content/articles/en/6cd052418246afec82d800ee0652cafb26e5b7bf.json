@@ -1,0 +1,41 @@
+{
+  "id": "6cd052418246afec82d800ee0652cafb26e5b7bf",
+  "canonicalId": "75033d6b18a041016defb8f632069a9bc19c7159",
+  "slug": "coldframe-honeypot-mimics-danfoss-and-dixell-refrigeration-controllers",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-07T17:27:00Z",
+  "lang": "en",
+  "title": "Coldframe honeypot mimics Danfoss and Dixell refrigeration controllers",
+  "summary": "Coldframe is a new open-source Python honeypot that impersonates Danfoss AK-SM 800A and Dixell XWEB supermarket refrigeration controllers, using only the standard library in a single file. Its author tuned the fake interfaces against Shodan records of real units—matching header order, page titles, certificate fields, and TLS versions—and says both personas are currently classified by Shodan as real devices rather than honeypots. The tool recognizes attempts to exploit CVE-2025-41450, Danfoss&\\#x27;s &quot;code of the day&quot; login bypass, records whether the submitted code is valid for that day, and tags probes for three other Danfoss CVEs and XWEB vulnerabilities. Default logins open a fake store dashboard with defrost controls, and after one day on two live instances the author reported only generic scanners and Shodan&\\#x27;s crawler, refrigerator.census.shodan.io.",
+  "score": 7,
+  "tags": [
+    "honeypot",
+    "ICS/OT security",
+    "Shodan",
+    "CVE-2025-41450",
+    "Python"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hedgerow-dev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50406292"
+    }
+  ],
+  "originalUrl": "https://github.com/hedgerow-dev/coldframe",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "DSA-2025-03-01 | Danfoss",
+      "url": "https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories/dsa-2025-03-01/"
+    },
+    {
+      "title": "French Supermarket Cyberattack: Danfoss Refrigeration ...",
+      "url": "https://thecybersecguru.com/news/french-supermarket-refrigeration-cyberattack/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
