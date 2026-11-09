@@ -1,0 +1,41 @@
+{
+  "id": "165b41cf9ce0776b7a9aa1fff6103161588b7558",
+  "canonicalId": "ec6779b05ebb24a90fced8bee83eb63c45b6ac78",
+  "slug": "outlookcom-据报拒收未配置-dmarc-的域名邮件",
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-08T19:20:00Z",
+  "lang": "zh",
+  "title": "Outlook.com 据报拒收未配置 DMARC 的域名邮件",
+  "summary": "据 Mailroute 博文，Outlook.com 正在拒收未发布 DMARC 记录的域名所发送的邮件，这会影响向 Outlook.com 用户投递事务邮件、营销邮件或自建邮件服务器邮件的发件人。该报道未提供微软官方确认、措施生效日期或具体 SMTP 错误细节，因此目前应将其视为一项已报告的执行变化，而非已由微软公告确认的政策。",
+  "score": 7,
+  "tags": [
+    "email deliverability",
+    "DMARC",
+    "email security",
+    "Microsoft Outlook",
+    "SMTP"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "xmddmx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50416158"
+    }
+  ],
+  "originalUrl": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+  "originalSite": "mailroute.net",
+  "context": "DMARC 是一项发布在 DNS 中的电子邮件策略，建立在 SPF 和 DKIM 之上，用来告诉收件方当邮件未通过身份对齐检查时该如何处理，并接收汇总报告。没有发布 DMARC 记录的域名不会向收件方提供这类处置指令，因此收件方只能依据自身策略决定接收、隔离或拒绝。",
+  "discussion": "评论者 Neikius 抱怨 Outlook.com 还会依据不公开且难以申诉的屏蔽列表拒信，并对无 DMARC 拒收是静默发生表示不满；dwm 则称这并不静默，而是返回 5xx 永久投递失败。codethief 报告自己运营邮件服务器时，即使 SPF、DKIM、DMARC 都配置正确，邮件也会被 Outlook.com 接收后未进入收件箱。",
+  "references": [
+    {
+      "title": "Outlook.com Is Quietly Rejecting Email From Domains Without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+    },
+    {
+      "title": "Outlook.com now rejects email from domains without DMARC",
+      "url": "https://tosend.com/articles/outlook-rejects-email-without-dmarc/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

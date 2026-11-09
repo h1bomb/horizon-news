@@ -1,0 +1,45 @@
+{
+  "id": "19b04d26e7cb8d3bf90ea48db96a30acbe6b9f20",
+  "canonicalId": "ec6779b05ebb24a90fced8bee83eb63c45b6ac78",
+  "slug": "outlookcom-reportedly-rejects-email-from-domains-without-dmarc",
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-08T19:20:00Z",
+  "lang": "en",
+  "title": "Outlook.com Reportedly Rejects Email From Domains Without DMARC",
+  "summary": "Outlook.com is reportedly rejecting email from domains that do not publish a DMARC record, according to a Mailroute blog post discussed on Hacker News. The reported change affects anyone sending mail to Outlook.com addresses, including operators of their own mail servers and transactional email senders. The supplied material does not establish when enforcement began, how broadly it applies, or whether Microsoft has documented the policy.",
+  "score": 7,
+  "tags": [
+    "email deliverability",
+    "DMARC",
+    "email security",
+    "Microsoft Outlook",
+    "SMTP"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "xmddmx",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50416158"
+    }
+  ],
+  "originalUrl": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+  "originalSite": "mailroute.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Outlook.com Is Quietly Rejecting Email From Domains Without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+    },
+    {
+      "title": "Outlook.com Rejecting Email Without DMARC | AnIntent",
+      "url": "https://anintent.com/blog/outlook-rejecting-email-dmarc/"
+    },
+    {
+      "title": "Outlook.com now rejects email from domains without DMARC",
+      "url": "https://tosend.com/articles/outlook-rejects-email-without-dmarc/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

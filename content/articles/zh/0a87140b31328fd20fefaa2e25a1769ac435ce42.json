@@ -1,0 +1,41 @@
+{
+  "id": "0a87140b31328fd20fefaa2e25a1769ac435ce42",
+  "canonicalId": "2fab79d06b7a4b4ba55c4a6019c9aa9cb4241e54",
+  "slug": "ketchup基于-rust-和-webgpu-的开源浏览器建模工具",
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-08T22:35:00Z",
+  "lang": "zh",
+  "title": "KetchUp：基于 Rust 和 WebGPU 的开源浏览器建模工具",
+  "summary": "KetchUp 是一个用 Rust 和 WebGPU 构建的开源、浏览器端 SketchUp 替代工具，应用已在 ketchup3d.github.io/app/ 提供使用。它面向需要在浏览器内进行类似 SketchUp 建模的用户，但目前仍处于早期阶段，交互和功能展示尚不完整。",
+  "score": 7,
+  "tags": [
+    "Rust",
+    "WebGPU",
+    "open source",
+    "3D modeling",
+    "browser apps"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dcoulmbe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50418176"
+    }
+  ],
+  "originalUrl": "https://ketchup3d.github.io/app/",
+  "originalSite": "ketchup3d.github.io",
+  "context": "SketchUp 在被 Google 收购后，又于 2012 年出售给 Trimble；此后它既有免费网页版，也提供三档付费订阅，Trimble 还在 2013 年推出过面向个人与教育用途的免费版 SketchUp Make。正是这段所有权更迭以及免费/付费模式的变化，构成了社区将 KetchUp 称为 SketchUp“精神续作”的背景。",
+  "discussion": "对希望免安装、在浏览器里完成简单 3D 建模的用户，KetchUp 提供了一个开源选项；但当前交互主要面向鼠标，触控板用户需要外接鼠标或等待后续适配。\n\n有评论者称其 Rust UI 和浏览器内文字渲染效果令人印象深刻，并建议在首页补充功能展示。另一位用户则报告触控板无法操作，认为目前仅支持鼠标。",
+  "references": [
+    {
+      "title": "Everything You Need To Know About SketchUp | Scan2CAD",
+      "url": "https://www.scan2cad.com/blog/cad/everything-about-sketchup/"
+    },
+    {
+      "title": "SketchUp - Wikiwand",
+      "url": "https://www.wikiwand.com/en/articles/Google_SketchUp"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
