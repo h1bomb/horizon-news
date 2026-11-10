@@ -1,0 +1,45 @@
+{
+  "id": "a2827c1a725e0f4c335c68d57519f4aea25ae95f",
+  "canonicalId": "ed213adeba37dce7c28882655e6450243906bd0b",
+  "slug": "谷歌发布-tpu-8tx-与-8i-max-两款专用芯片",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T21:56:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 TPU 8tx 与 8i Max 两款专用芯片",
+  "summary": "谷歌宣布推出两款新的张量处理单元：面向政府机构及受严格监管行业、用于处理安全机密数据的 TPU 8tx，以及面向超长上下文窗口 AI 应用的 TPU 8i Max。TPU 8tx 将与 AMD 芯片协同工作；TPU 8i Max 则把两颗 TPU 芯片集成在同一封装内，以提供更强算力和更大内存容量。谷歌今年连续扩充 TPU 产品线，打破过去每两年推出一款新处理器的节奏，来源还提到苹果、Meta、甲骨文和 Anthropic 等已成为客户。现有材料未给出两款芯片的上市时间、价格或能效数据，相关能力仍以谷歌公布的信息为准。",
+  "score": 7,
+  "tags": [
+    "TPU",
+    "Google Cloud",
+    "AI infrastructure",
+    "hardware",
+    "agentic AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_benx\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50432831"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+  "originalSite": "blog.google",
+  "context": "这两款产品属于谷歌第八代 TPU 产品线：TPU 8tx 是在 TPU 8t 基础上搭配第五代 AMD EPYC 处理器、并在处理过程中保护数据和模型权重的安全方案，面向政府及高安全要求行业。谷歌过去通常每两年推出一款新 TPU，今年改为按安全推理和超长上下文等场景连续扩充产品线。",
+  "discussion": "对开发和采购方的直接影响是获取途径与集成成本：TPU 8tx 需与 AMD 芯片协同工作，部署方要为此准备异构硬件与配套软件栈；8i Max 面向超长上下文场景，目前只有谷歌自有基础设施提供，评论中也在追问谷歌为何不直接对外销售。社区还指出，Colab 上能拿到的最强 TPU 仍是 v6e-1，独立开发者短期内难以直接使用新芯片。此次公布没有给出瓦/Token 或美元/Token 数据，采购方无法据此做单位成本比较；第三方分析同样强调，每 Token 成本取决于小时价格、实际吞吐以及迁移和供应商锁定的摊销，而非峰值算力。\n\n多位评论者询问缺少每 token 功耗与成本数据，并要求与英伟达同价位产品比较；也有人指出 Google Colab 目前可用的最强 TPU 仍是 v6e-1，规模不足以做严肃工作，并追问谷歌为何不直接出售这些芯片。这些是评论者的疑问与使用体验，并非对产品性能的独立验证。",
+  "references": [
+    {
+      "title": "Introducing TPU 8 tx and TPU 8 i Max",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+    },
+    {
+      "title": "Google расширила линейку тензорных процессоров ( TPU )... | Дзен",
+      "url": "https://dzen.ru/a/avHlCl56vGiwEiaH"
+    },
+    {
+      "title": "TPU 8i vs NVIDIA Rubin vs B200: Cost Per Token | Calcaas",
+      "url": "https://calcaas.com/blog/tpu-8i-vs-nvidia-rubin-b200-cost-per-token-llm-inference-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

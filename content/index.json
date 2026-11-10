@@ -1,6 +1,380 @@
 {
   "articles": [
     {
+      "id": "3565d72fe6a27dd86677e89b036ae4eb939331eb",
+      "canonicalId": "796a7f7ee338b70fa58b8f6d3d2f21d8f08f0e22",
+      "slug": "anthropic-发布-claude-fable-52-与-mythos-52",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+      "score": 7,
+      "tags": [
+        "AI models",
+        "Anthropic",
+        "LLM benchmarks",
+        "coding assistants",
+        "Hacker News"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "1896d9fd7cf17a8e678a548408ab8005008b1b5f",
+      "canonicalId": "4f9270c0ec3d4c03ed328a1f898451233fc9617a",
+      "slug": "e-means-宣称以十分之一轮次超越-k-means",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "E-means 宣称以十分之一轮次超越 k-means",
+      "score": 7,
+      "tags": [
+        "k-means",
+        "clustering",
+        "algorithms",
+        "machine-learning",
+        "performance"
+      ],
+      "originalSite": "e-means.github.io"
+    },
+    {
+      "id": "a2827c1a725e0f4c335c68d57519f4aea25ae95f",
+      "canonicalId": "ed213adeba37dce7c28882655e6450243906bd0b",
+      "slug": "谷歌发布-tpu-8tx-与-8i-max-两款专用芯片",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "谷歌发布 TPU 8tx 与 8i Max 两款专用芯片",
+      "score": 7,
+      "tags": [
+        "TPU",
+        "Google Cloud",
+        "AI infrastructure",
+        "hardware",
+        "agentic AI"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "aa30a1774f13d54fb60c5dad94a443c9770bc555",
+      "canonicalId": "1b18e8c9acf73639c21b05ec6b44f20b8e848ba7",
+      "slug": "hn-讨论消费级-gemini-连接应用数据或经人工审核",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "HN 讨论：消费级 Gemini 连接应用数据或经人工审核",
+      "score": 7,
+      "tags": [
+        "Google Gemini",
+        "AI privacy",
+        "human annotation",
+        "consumer data",
+        "Google Workspace"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "d976af2420f08a676ffdab98e09330592e237f95",
+      "canonicalId": "020c05e5c6f65ee40201bece9e9ff1b9e47d4d9d",
+      "slug": "watchedearth查询一周内过境卫星及其影像",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "watched.earth：查询一周内过境卫星及其影像",
+      "score": 7,
+      "tags": [
+        "satellite-imagery",
+        "orbital-mechanics",
+        "geospatial",
+        "gpu-rendering",
+        "show-hn"
+      ],
+      "originalSite": "watched.earth"
+    },
+    {
+      "id": "44364479a509777f48ff59cb6bf5b732a72e99d7",
+      "canonicalId": "baaf713b11e387f5b65769226381068c2d5d4743",
+      "slug": "用-claude-code-造-beep-locator多设备定位神秘蜂鸣",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "用 Claude Code 造 Beep Locator，多设备定位神秘蜂鸣",
+      "score": 7,
+      "tags": [
+        "AI-assisted coding",
+        "Claude Code",
+        "sound localization",
+        "web audio",
+        "DIY project"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "af3e624124e9ac5404e6a17f449b3f8255275ee2",
+      "canonicalId": "024092f492060619fa37daf616329c475079024f",
+      "slug": "lingbot-touchjepa-式潜空间预测在触觉预训练中胜过重建",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "LingBot-Touch：JEPA 式潜空间预测在触觉预训练中胜过重建",
+      "score": 7,
+      "tags": [
+        "self-supervised-learning",
+        "tactile-sensing",
+        "robotics",
+        "representation-learning",
+        "JEPA"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "800e9b3a17e7c7db9e320befbb0eb6ff63e36e90",
+      "canonicalId": "e80eb2588cd60725908199a898810593f3510c71",
+      "slug": "字节发布-seedream-55支持百轮连续编辑与透明素材",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "字节发布 Seedream 5.5：支持百轮连续编辑与透明素材",
+      "score": 7,
+      "tags": [
+        "generative AI",
+        "image generation",
+        "image editing",
+        "ByteDance",
+        "Seedream"
+      ],
+      "originalSite": "seed.bytedance.com"
+    },
+    {
+      "id": "189ec723354e74feddb85e070515b0168ad9bc41",
+      "canonicalId": "3b6b38e52d82f1cbb4e69fdf64d370a6a87ac5ee",
+      "slug": "oppovivo小米荣耀上线-adv-侧载开发者验证并互认结果",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "OPPO、vivo、小米、荣耀上线 ADV 侧载开发者验证并互认结果",
+      "score": 7,
+      "tags": [
+        "Android",
+        "app sideloading",
+        "developer verification",
+        "mobile security",
+        "China tech"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "727a08331e922f852c228a004bdb4ff6a39a7afe",
+      "canonicalId": "0b80c5851be9ff9f7d6e55f64a4c97f13833a55e",
+      "slug": "英伟达董事会调查黄仁勋预测市场认为其近期离职概率低",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "英伟达董事会调查黄仁勋，预测市场认为其近期离职概率低",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "corporate governance",
+        "prediction markets",
+        "national security"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "601efe19187b72cd93604fc2c99fe7d807b801ca",
+      "canonicalId": "08316341dfd7f1e4412e2e96dd420d4a6afd92a7",
+      "slug": "前三季度中国新能源乘用车出口-3887-万辆同比增长-1388",
+      "date": "2026-11-10",
+      "lang": "zh",
+      "title": "前三季度中国新能源乘用车出口 388.7 万辆，同比增长 138.8%",
+      "score": 7,
+      "tags": [
+        "中国新能源汽车",
+        "汽车出口",
+        "国内零售",
+        "购车补贴与购置税",
+        "乘用车市场"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
+      "id": "894f2ed7a7e5104d3ba72475a3d82878bb3f4df2",
+      "canonicalId": "796a7f7ee338b70fa58b8f6d3d2f21d8f08f0e22",
+      "slug": "anthropic-ships-claude-fable-52-and-mythos-52-as-incremental-updates",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 as incremental updates",
+      "score": 7,
+      "tags": [
+        "AI models",
+        "Anthropic",
+        "LLM benchmarks",
+        "coding assistants",
+        "Hacker News"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "a8450f6d27a63be1f67073883165f9a1a96c1664",
+      "canonicalId": "4f9270c0ec3d4c03ed328a1f898451233fc9617a",
+      "slug": "e-means-project-claims-k-means-speedup-with-one-tenth-epochs",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "E-means project claims k-means speedup with one-tenth epochs",
+      "score": 7,
+      "tags": [
+        "k-means",
+        "clustering",
+        "algorithms",
+        "machine-learning",
+        "performance"
+      ],
+      "originalSite": "e-means.github.io"
+    },
+    {
+      "id": "1064f384cb55bd9b1773f9b32447f7168bf4b7a0",
+      "canonicalId": "ed213adeba37dce7c28882655e6450243906bd0b",
+      "slug": "google-announces-tpu-8tx-for-secure-data-and-8i-max-for-long-context",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "Google announces TPU 8tx for secure data and 8i Max for long context",
+      "score": 7,
+      "tags": [
+        "TPU",
+        "Google Cloud",
+        "AI infrastructure",
+        "hardware",
+        "agentic AI"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "2cf9726b98715878e23dd7ba8b4ef91358ffadc5",
+      "canonicalId": "1b18e8c9acf73639c21b05ec6b44f20b8e848ba7",
+      "slug": "hacker-news-thread-questions-human-review-of-geminix27s-connected-drive-and-gmail-data",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "Hacker News thread questions human review of Gemini&\\#x27;s connected Drive and Gmail data",
+      "score": 7,
+      "tags": [
+        "Google Gemini",
+        "AI privacy",
+        "human annotation",
+        "consumer data",
+        "Google Workspace"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "19d5bc88cd16c232f4dd4cfce9ea296db393e4de",
+      "canonicalId": "020c05e5c6f65ee40201bece9e9ff1b9e47d4d9d",
+      "slug": "show-hn-watchedearth-finds-a-week-of-satellite-passes-and-their-photos",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "Show HN: Watched.earth finds a week of satellite passes and their photos",
+      "score": 7,
+      "tags": [
+        "satellite-imagery",
+        "orbital-mechanics",
+        "geospatial",
+        "gpu-rendering",
+        "show-hn"
+      ],
+      "originalSite": "watched.earth"
+    },
+    {
+      "id": "4bbf0930f3c664172ced0d043430deebcdcf50ef",
+      "canonicalId": "baaf713b11e387f5b65769226381068c2d5d4743",
+      "slug": "simon-willison-built-beep-locator-with-claude-code-to-find-a-beeping-device",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "Simon Willison built Beep Locator with Claude Code to find a beeping device",
+      "score": 7,
+      "tags": [
+        "AI-assisted coding",
+        "Claude Code",
+        "sound localization",
+        "web audio",
+        "DIY project"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "1a6548523ce255863117d72193a74d966857d6a8",
+      "canonicalId": "024092f492060619fa37daf616329c475079024f",
+      "slug": "lingbot-touch-jepa-latent-prediction-outperforms-reconstruction-for-tactile-pretraining",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "LingBot-Touch: JEPA latent prediction outperforms reconstruction for tactile pretraining",
+      "score": 7,
+      "tags": [
+        "self-supervised-learning",
+        "tactile-sensing",
+        "robotics",
+        "representation-learning",
+        "JEPA"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "3c43589dd173f99900ed06afc9ae940bca5a05d8",
+      "canonicalId": "e80eb2588cd60725908199a898810593f3510c71",
+      "slug": "bytedance-releases-seedream-55-with-100-round-editing-and-transparent-assets",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "ByteDance releases Seedream 5.5 with 100-round editing and transparent assets",
+      "score": 7,
+      "tags": [
+        "generative AI",
+        "image generation",
+        "image editing",
+        "ByteDance",
+        "Seedream"
+      ],
+      "originalSite": "seed.bytedance.com"
+    },
+    {
+      "id": "267444ea2804376c48cb462afe1b71bf46805dfd",
+      "canonicalId": "3b6b38e52d82f1cbb4e69fdf64d370a6a87ac5ee",
+      "slug": "oppo-vivo-xiaomi-honor-launch-joint-android-sideloading-verification",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "OPPO, vivo, Xiaomi, Honor Launch Joint Android Sideloading Verification",
+      "score": 7,
+      "tags": [
+        "Android",
+        "app sideloading",
+        "developer verification",
+        "mobile security",
+        "China tech"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "be1b9b334b663ffd6fa654a9e004f3e360bf972e",
+      "canonicalId": "0b80c5851be9ff9f7d6e55f64a4c97f13833a55e",
+      "slug": "nvidia-board-investigates-ceo-jensen-huang-shares-fall",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "Nvidia board investigates CEO Jensen Huang; shares fall",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "corporate governance",
+        "prediction markets",
+        "national security"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "a30397cffb8bdca78fa60cb913d577ce354ab775",
+      "canonicalId": "08316341dfd7f1e4412e2e96dd420d4a6afd92a7",
+      "slug": "china-new-energy-passenger-vehicle-exports-rise-1388",
+      "date": "2026-11-10",
+      "lang": "en",
+      "title": "China New-Energy Passenger Vehicle Exports Rise 138.8%",
+      "score": 7,
+      "tags": [
+        "中国新能源汽车",
+        "汽车出口",
+        "国内零售",
+        "购车补贴与购置税",
+        "乘用车市场"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
       "id": "0a87140b31328fd20fefaa2e25a1769ac435ce42",
       "canonicalId": "2fab79d06b7a4b4ba55c4a6019c9aa9cb4241e54",
       "slug": "ketchup基于-rust-和-webgpu-的开源浏览器建模工具",
@@ -5025,363 +5399,6 @@
         "M&amp;A"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "a8ee6b4ea4f20638d2a9f59b4c705a0179c2829a",
-      "canonicalId": "7a6a342eb9583796b00ba8488e92f11c4c3f9a88",
-      "slug": "claude-溯源-nist-椭圆曲线种子来自-lrand48",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "Claude 溯源 NIST 椭圆曲线种子：来自 lrand48",
-      "score": 8,
-      "tags": [
-        "cryptography",
-        "AI-assisted research",
-        "elliptic curves",
-        "NIST standards",
-        "security"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "2e5a8d37faa50b897dec4330ce34308b4f8836aa",
-      "canonicalId": "e083958888c9d24605ed92a68b2e3d113a6677eb",
-      "slug": "big-fish利用-openbsd-存在-37-年的内核漏洞",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "Big Fish：利用 OpenBSD 存在 37 年的内核漏洞",
-      "score": 8,
-      "tags": [
-        "OpenBSD",
-        "kernel security",
-        "vulnerability exploitation",
-        "security research",
-        "operating systems"
-      ],
-      "originalSite": "calif.io"
-    },
-    {
-      "id": "e680e38705af097434a7ec0756fe1e482f690813",
-      "canonicalId": "d11bdcfc2234737f90fff1b05661ac3bc05251a7",
-      "slug": "阶跃星辰发布-step-5-preview-智能体旗舰模型",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "阶跃星辰发布 Step 5 Preview 智能体旗舰模型",
-      "score": 8,
-      "tags": [
-        "LLM release",
-        "sparse MoE",
-        "agentic AI",
-        "long-context",
-        "multimodal"
-      ],
-      "originalSite": "huggingface.co"
-    },
-    {
-      "id": "390a8811a9f5c33d8fddaef928871b9ae124d666",
-      "canonicalId": "0342f39befa102611a3964a64d81ac28b555e319",
-      "slug": "github-项目-ps5lm越狱-ps5-上原生运行-gguf-模型",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "GitHub 项目 PS5LM：越狱 PS5 上原生运行 GGUF 模型",
-      "score": 7,
-      "tags": [
-        "llama.cpp",
-        "GGUF",
-        "PS5 homebrew",
-        "local LLM inference",
-        "hardware hacking"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "7fb1452b849a61d25f70620941b2e7c99c3a8eab",
-      "canonicalId": "ff9286355f7e922bd06d600c6a56bd36af2191f0",
-      "slug": "jpeg-xl-与-avif-网页用例对比及编码权衡讨论",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "JPEG XL 与 AVIF 网页用例对比及编码权衡讨论",
-      "score": 7,
-      "tags": [
-        "image compression",
-        "JPEG XL",
-        "AVIF",
-        "web performance",
-        "frontend"
-      ],
-      "originalSite": "jakearchibald.com"
-    },
-    {
-      "id": "5b0af3e80cf7a84e43802f693f652c743a4efd8c",
-      "canonicalId": "98e6a11f87f3c75ff09f029c60c62757139be47d",
-      "slug": "apple-mlx-在四台-mac-studio-上分布式运行-muse-spark-open",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "Apple MLX 在四台 Mac Studio 上分布式运行 Muse Spark Open",
-      "score": 7,
-      "tags": [
-        "MLX",
-        "Apple Silicon",
-        "local LLM inference",
-        "distributed inference",
-        "model benchmarking"
-      ],
-      "originalSite": "machinelearning.apple.com"
-    },
-    {
-      "id": "dcc58920ea1ee1200c75b79159b42bfbc877e07a",
-      "canonicalId": "7fd7e06ab2f4b840c01c364743d2c0e2fcb3de17",
-      "slug": "anthropic-的-claude-code-团队谈代码审查自动化",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "Anthropic 的 Claude Code 团队谈代码审查自动化",
-      "score": 7,
-      "tags": [
-        "AI code review",
-        "Anthropic",
-        "software engineering",
-        "developer productivity",
-        "code review automation"
-      ],
-      "originalSite": "claude.dev"
-    },
-    {
-      "id": "a5a1a207518239803371c34e256c829d1ab0802f",
-      "canonicalId": "3d3011b3b2f663f46f2b7f57f71e6f8ca911b550",
-      "slug": "starskirmish-bench-v02gemini-4-argon-等模型写代码玩星际争霸",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "StarSkirmish Bench v0.2：Gemini 4 Argon 等模型写代码玩《星际争霸》",
-      "score": 7,
-      "tags": [
-        "LLM benchmarking",
-        "StarCraft",
-        "AI agents",
-        "code generation",
-        "game AI"
-      ],
-      "originalSite": "starskirmish.com"
-    },
-    {
-      "id": "68de50a61399eb76e0d1a893c0e7c7392986f062",
-      "canonicalId": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55",
-      "slug": "kangrejos-2026用-pin-init-在-rust-内核中安全实现自引用结构",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "Kangrejos 2026：用 pin\\_init 在 Rust 内核中安全实现自引用结构",
-      "score": 7,
-      "tags": [
-        "Rust",
-        "Linux kernel",
-        "memory safety",
-        "self-referential data structures",
-        "Nova GPU driver"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "171ce54ad6d4d7cccebe6681f9d7b95f9b6cee77",
-      "canonicalId": "8aa23feb44152baefaf4d9e60ebac262b6bfc1d4",
-      "slug": "linux-nfs-服务器近期与未来变更概览",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "Linux NFS 服务器近期与未来变更概览",
-      "score": 7,
-      "tags": [
-        "NFS",
-        "Linux kernel",
-        "filesystems",
-        "Linux Plumbers Conference",
-        "networking"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "12272f9f14a86c351808f3907f656c4294e96652",
-      "canonicalId": "f2bd1235f81be29077d3e23a0bfb4920c051c9d1",
-      "slug": "可灵-kling-40-全量上线预告-4khdr-与开发者-api",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "可灵 Kling 4.0 全量上线，预告 4K/HDR 与开发者 API",
-      "score": 7,
-      "tags": [
-        "AI 视频生成",
-        "可灵 Kling 4.0",
-        "开发者 API",
-        "MCP/CLI",
-        "模型发布"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "be9f2fd714ee6d238db29b36aac5aeb4f14da429",
-      "canonicalId": "4c98a05b188cd68ed2ff5277cf06160d34cd78ff",
-      "slug": "商务部拟修订技术出口目录涉人工智能生物医药光伏-40-项技术",
-      "date": "2026-10-17",
-      "lang": "zh",
-      "title": "商务部拟修订技术出口目录，涉人工智能、生物医药、光伏 40 项技术",
-      "score": 8,
-      "tags": [
-        "export-controls",
-        "China-policy",
-        "artificial-intelligence",
-        "biotechnology",
-        "solar"
-      ],
-      "originalSite": "aqygzj.mofcom.gov.cn"
-    },
-    {
-      "id": "81086db06811fa14c4055bd99f1a9565debfe8ed",
-      "canonicalId": "3ce9f7ea5dc3113c0fac13c93f743e753bd424d3",
-      "slug": "citizen-lab-报告定向广告被指用作零点击间谍软件投放通道",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "Citizen Lab 报告：定向广告被指用作零点击间谍软件投放通道",
-      "score": 8,
-      "tags": [
-        "cybersecurity",
-        "spyware",
-        "adtech",
-        "privacy",
-        "zero-click-exploit"
-      ],
-      "originalSite": "citizenlab.ca"
-    },
-    {
-      "id": "cc9784951b87024ddf7a41f59d4212cb02713eb1",
-      "canonicalId": "44e4355d7e2b06941fc846ea33750dc506187951",
-      "slug": "libreboot-2610-发布加入-uefiedk-支持与-233-款-chromebook-移植",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "Libreboot 26.10 发布：加入 UEFI/EDK 支持与 233 款 Chromebook 移植",
-      "score": 8,
-      "tags": [
-        "open-source firmware",
-        "Libreboot",
-        "UEFI",
-        "Chromebooks",
-        "coreboot"
-      ],
-      "originalSite": "libreboot.org"
-    },
-    {
-      "id": "a59d00c388cb8f0b53fc21885927bb9b633f0718",
-      "canonicalId": "34bf133078de58bf25dce317eec6455575fe6c35",
-      "slug": "meta-发布-816b-开放权重模型-muse-spark-open",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "Meta 发布 816B 开放权重模型 Muse Spark Open",
-      "score": 7,
-      "tags": [
-        "open-weight LLM",
-        "Meta",
-        "model licensing",
-        "Mac Studio inference",
-        "AI community debate"
-      ],
-      "originalSite": "research.meta.ai"
-    },
-    {
-      "id": "d0136a641aff2a2dd725e90535f35fd5cf238b4e",
-      "canonicalId": "bc34be66cc81e86b9c2e9a32938594498455a2a6",
-      "slug": "nick-cammarata-称神经网络干净引发可解释性争论",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "Nick Cammarata 称神经网络“干净”，引发可解释性争论",
-      "score": 7,
-      "tags": [
-        "mechanistic interpretability",
-        "neural networks",
-        "AI alignment",
-        "polysemanticity",
-        "AI safety"
-      ],
-      "originalSite": "already-clean.goodfire.com"
-    },
-    {
-      "id": "6e0f5c97acf7f0cd22bbd6ad5be3e1d8f15d16f9",
-      "canonicalId": "6cb5a4950314cfda60edc40d131bf2328846d069",
-      "slug": "ai-数学进展为何令数学家感到不安",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "AI 数学进展为何令数学家感到不安",
-      "score": 7,
-      "tags": [
-        "AI",
-        "mathematics",
-        "LLMs",
-        "epistemology",
-        "future of work"
-      ],
-      "originalSite": "derekthompson.org"
-    },
-    {
-      "id": "374f11d027863ce3607f79b9f731fd1cf5076e4b",
-      "canonicalId": "40b611a330c7478c028f8a5cac8062e80ead7ceb",
-      "slug": "anthropic-ipo-前披露季度营收-168-亿美元环比增近-50",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "Anthropic IPO 前披露季度营收 168 亿美元，环比增近 50%",
-      "score": 7,
-      "tags": [
-        "AI industry",
-        "Anthropic",
-        "business/financials",
-        "IPO",
-        "model distillation"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "b633a4cdb5d29a03cf5c16bb24c77d9fd7c4768f",
-      "canonicalId": "44deb5f8e9264f63f4c2816a30c75895e81231d1",
-      "slug": "lpc-2026android-内核约-800-个厂商钩子维护者寻求减少",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "LPC 2026：Android 内核约 800 个厂商钩子，维护者寻求减少",
-      "score": 7,
-      "tags": [
-        "Android kernel",
-        "Linux kernel",
-        "vendor hooks",
-        "Linux Plumbers Conference",
-        "open source"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "9348a8bae1bf9d46d368f3e60dd074a398c51606",
-      "canonicalId": "9a8257e81b9a6d6f25701e26cd573005a6461886",
-      "slug": "linux-发布七个稳定版内核修复-skb-checksum-help-严重漏洞",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "Linux 发布七个稳定版内核，修复 skb\\_checksum\\_help\\(\\) 严重漏洞",
-      "score": 7,
-      "tags": [
-        "linux-kernel",
-        "security",
-        "cve",
-        "stable-releases",
-        "networking"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "da7a88bce3407213e30c8ae3946055461fd696db",
-      "canonicalId": "d3c53a07cf5b972a8acb30d99e24211b774c2fef",
-      "slug": "库克称-apple-智能-10-月底在华发测试版不含-siri-ai",
-      "date": "2026-10-16",
-      "lang": "zh",
-      "title": "库克称 Apple 智能 10 月底在华发测试版，不含 Siri AI",
-      "score": 7,
-      "tags": [
-        "Apple Intelligence",
-        "阿里千问",
-        "AI 在中国",
-        "Siri",
-        "科技监管"
-      ],
-      "originalSite": "jiemian.com"
     }
   ]
 }

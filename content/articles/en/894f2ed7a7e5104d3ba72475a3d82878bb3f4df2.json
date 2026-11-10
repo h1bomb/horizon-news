@@ -1,0 +1,37 @@
+{
+  "id": "894f2ed7a7e5104d3ba72475a3d82878bb3f4df2",
+  "canonicalId": "796a7f7ee338b70fa58b8f6d3d2f21d8f08f0e22",
+  "slug": "anthropic-ships-claude-fable-52-and-mythos-52-as-incremental-updates",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:01:00Z",
+  "lang": "en",
+  "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 as incremental updates",
+  "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2, version bumps that Hacker News commenters treated as incremental rather than a generational jump. The linked announcement itself is not reproduced here, so the specific benchmark tables, pricing, context limits, and availability details behind the release are unverified; the discussion references comparisons against models named Opus 5.5, Sonnet 5.5, Carbon, and Argon. Commenters disputed how those comparisons were drawn, asking why Fable was run at xHigh effort against Carbon at medium, why Carbon — positioned mainly as a cyber model — was absent from the cyber benchmark, and why the robot-manipulation comparison switched to Argon. Hands-on reports in the thread were mixed-positive: one user said Fable 5.2 is hard to distinguish from Opus 5.5 on ordinary coding work unless prompts are pushed harder, while another reported a 36x speedup on a 600k-line Fortran materials-science codebase within two days.",
+  "score": 7,
+  "tags": [
+    "AI models",
+    "Anthropic",
+    "LLM benchmarks",
+    "coding assistants",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lairv",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429068"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "originalSite": "anthropic.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Claude Fable 5.2 &amp; Claude Mythos 5.2 System Card",
+      "url": "https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

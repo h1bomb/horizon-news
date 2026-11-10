@@ -1,0 +1,31 @@
+{
+  "id": "af3e624124e9ac5404e6a17f449b3f8255275ee2",
+  "canonicalId": "024092f492060619fa37daf616329c475079024f",
+  "slug": "lingbot-touchjepa-式潜空间预测在触觉预训练中胜过重建",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:52:00Z",
+  "lang": "zh",
+  "title": "LingBot-Touch：JEPA 式潜空间预测在触觉预训练中胜过重建",
+  "summary": "Robbyant 发布的自监督触觉编码器 LingBot-Touch 采用 JEPA 式训练：预测被遮挡接触区域的潜表征，而不是重建原始传感器信号；推理代码和 checkpoint 已公开。论文在与同规模 MAE、VAE 重建模型同数据对比时报告，1K 小时数据下触觉到视频的 top-5 召回为 32.1%，MAE 为 5.6%、VAE 为 4.4%；到 4K 小时 JEPA 升至 49.3%，MAE 仍低于 9%，VAE 反而降到 3.1%。作者将此归因于触觉片段大部分是接近零的背景，重建损失可以在不学到真实接触的情况下下降；两项关键设计是掩码率在 300 步内从 40% 预热到 80%（初始高掩码会遮住稀疏信号中的全部接触 taxel 并引发梯度爆炸），以及把磁性、压阻、视触觉三种传感器经指尖规范坐标与 5D RoPE（时间、手指、三维位置）送入同一个共享 Transformer。在 26 个真实机器人任务、4 个策略下，冻结编码器特征在 104 个策略与任务组合中的 89 个取得最高分；在预训练中未出现过的磁性手上，LingBot-VLA 从 57.21 提升到 75.04。这些数字来自论文摘要和帖子总结，尚未经独立验证；作者也观察到 Tiny 模型约在 4K 小时趋于饱和，而 Small 仍在提升。",
+  "score": 7,
+  "tags": [
+    "self-supervised-learning",
+    "tactile-sensing",
+    "robotics",
+    "representation-learning",
+    "JEPA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Zealousideal-War7154"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+  "originalSite": "reddit.com",
+  "context": "自监督学习常用“掩码重建”路线：遮住部分输入，再还原原始信号（如 MAE、VAE）；JEPA 类方法则改为在潜空间中预测被遮挡部分的目标表示，不要求逐点还原原始读数。触觉片段中大部分时间接近零背景，重建损失可能在无关区域下降，这正是该论文比较两类预训练目标的出发点。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2cf9726b98715878e23dd7ba8b4ef91358ffadc5",
+  "canonicalId": "1b18e8c9acf73639c21b05ec6b44f20b8e848ba7",
+  "slug": "hacker-news-thread-questions-human-review-of-geminix27s-connected-drive-and-gmail-data",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:24:00Z",
+  "lang": "en",
+  "title": "Hacker News thread questions human review of Gemini&\\#x27;s connected Drive and Gmail data",
+  "summary": "A Hacker News submission, posted as a GitHub page with no linked primary documentation, argues that consumer Google Gemini with Connected Apps enabled can route personal Drive files and Gmail messages to human annotators. Commenters drew a scope line: Workspace Gemini and Workspace Intelligence are, according to Google&\\#x27;s admin documentation cited in the thread, still described as not subject to human review, so the concern applies to consumer accounts that explicitly authorize the Gmail or Drive apps. The item supplies no Google policy text, test, or measurement, so the routing claim is an unverified allegation from the submitter rather than a demonstrated capability. Users who need the no-human-review guarantee are pointed toward Workspace accounts or revoking connected-app access.",
+  "score": 7,
+  "tags": [
+    "Google Gemini",
+    "AI privacy",
+    "human annotation",
+    "consumer data",
+    "Google Workspace"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gf74918",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429426"
+    }
+  ],
+  "originalUrl": "https://github.com/thisisme6598/gemini_files/",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Does Google Gemini Train on Your Data? What the Policy Says (2026)",
+      "url": "https://www.deai.org/news/does-google-gemini-train-on-your-data"
+    },
+    {
+      "title": "Stop Gemini from accessing your emails with these two hidden settings",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/stop-gemini-accessing-emails-two-103013901.html"
+    },
+    {
+      "title": "Google Gemini Warning: Don’t Share Confidential Information Generative AI in Google Workspace Privacy Hub Google Gemini policy change, Gemini Apps Privacy Notice ... Gemini Apps Privacy Notice | Google Gemini | ConductAtlas Google Gemini Routes Personal Drive, Gmail to Human Reviewers",
+      "url": "https://www.searchenginejournal.com/google-gemini-privacy-warning/507818/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

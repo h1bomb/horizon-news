@@ -1,0 +1,45 @@
+{
+  "id": "aa30a1774f13d54fb60c5dad94a443c9770bc555",
+  "canonicalId": "1b18e8c9acf73639c21b05ec6b44f20b8e848ba7",
+  "slug": "hn-讨论消费级-gemini-连接应用数据或经人工审核",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:24:00Z",
+  "lang": "zh",
+  "title": "HN 讨论：消费级 Gemini 连接应用数据或经人工审核",
+  "summary": "Hacker News 上的一则讨论称，启用“已连接应用”的消费级 Google Gemini 可能把 Gmail、Drive 等个人数据交由人工标注者查看；该说法目前仅有讨论标题和评论，缺少所附的一手技术材料佐证。评论者指出，Workspace 版 Gemini 及面向企业的 Workspace Intelligence 仍声称不受人工审核约束，因此争议主要落在消费级账户及用户主动授权连接的应用上。讨论还提醒，连接 Gmail 等工具后，Gemini 可调用该工具读取邮件，相关数据是否进入训练或审核流程取决于具体产品条款，不能把消费级与企业级政策混为一谈。",
+  "score": 7,
+  "tags": [
+    "Google Gemini",
+    "AI privacy",
+    "human annotation",
+    "consumer data",
+    "Google Workspace"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gf74918",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429426"
+    }
+  ],
+  "originalUrl": "https://github.com/thisisme6598/gemini_files/",
+  "originalSite": "github.com",
+  "context": "Gemini 的 Connected Apps 机制需用户授权，授权后助手可调用 Gmail 等 Google 应用中的数据；在设置中关闭 Google Workspace 连接后，Gemini 就不能再访问邮件。相关报道梳理的 Google 政策显示，免费消费级 Gemini 的对话可能被人工审阅并用于改进产品，而付费 Gemini API、Vertex AI 和 Workspace 层级则称数据不用于训练。",
+  "discussion": "评论中最有用的区分是消费级 Gemini 与 Workspace/企业版政策不同：bri3d 指出 Workspace Gemini 仍声称不受人工审核，而消费级连接应用可能触发数据读取与后续处理。另有评论者 rustyhancock 报告 Gemini 的回答似乎“恰好”贴合其收到的邮件内容，但这是个人经验，不能单独证明人工审核存在；hek2sch 则担忧人工标注者可能接触或泄露数据。",
+  "references": [
+    {
+      "title": "Does Google Gemini Train on Your Data? What the Policy Says (2026)",
+      "url": "https://www.deai.org/news/does-google-gemini-train-on-your-data"
+    },
+    {
+      "title": "Stop Gemini from accessing your emails with these two hidden settings",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/stop-gemini-accessing-emails-two-103013901.html"
+    },
+    {
+      "title": "Google Gemini Warning: Don’t Share Confidential Information Generative AI in Google Workspace Privacy Hub Google Gemini policy change, Gemini Apps Privacy Notice ... Gemini Apps Privacy Notice | Google Gemini | ConductAtlas Google Gemini Routes Personal Drive, Gmail to Human Reviewers",
+      "url": "https://www.searchenginejournal.com/google-gemini-privacy-warning/507818/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

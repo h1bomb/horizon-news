@@ -1,0 +1,53 @@
+{
+  "id": "1064f384cb55bd9b1773f9b32447f7168bf4b7a0",
+  "canonicalId": "ed213adeba37dce7c28882655e6450243906bd0b",
+  "slug": "google-announces-tpu-8tx-for-secure-data-and-8i-max-for-long-context",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T21:56:00Z",
+  "lang": "en",
+  "title": "Google announces TPU 8tx for secure data and 8i Max for long context",
+  "summary": "Google announced two new tensor processing units: TPU 8tx, aimed at government agencies and tightly regulated industries handling sensitive data, and TPU 8i Max, aimed at ultra-long-context AI applications. TPU 8tx will work alongside AMD chips, while TPU 8i Max integrates two TPU chips in one package to provide more compute and memory capacity. Google is expanding its TPU lineup with workload-specific chips this year, breaking from its previous roughly two-year cadence. The supplied report did not include pricing, availability, or performance figures.",
+  "score": 7,
+  "tags": [
+    "TPU",
+    "Google Cloud",
+    "AI infrastructure",
+    "hardware",
+    "agentic AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_benx\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50432831"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+  "originalSite": "blog.google",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing TPU 8 tx and TPU 8 i Max",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+    },
+    {
+      "title": "Google расширила линейку тензорных процессоров ( TPU )... | Дзен",
+      "url": "https://dzen.ru/a/avHlCl56vGiwEiaH"
+    },
+    {
+      "title": "Google , 8. nesil yapay zeka işlemci ailesine TPU 8 tx ve... - Son Dakika",
+      "url": "https://www.sondakika.com/guncel/haber-google-8-nesil-yapay-zeka-islemci-ailesine-tpu-8tx-20411491/"
+    },
+    {
+      "title": "Google TPU 8i vs NVIDIA Rubin and B200 for LLM Inference:",
+      "url": "https://www.spheron.network/blog/google-tpu-8i-vs-nvidia-rubin-b200-llm-inference/"
+    },
+    {
+      "title": "TPU 8i vs NVIDIA Rubin vs B200: Cost Per Token | Calcaas",
+      "url": "https://calcaas.com/blog/tpu-8i-vs-nvidia-rubin-b200-cost-per-token-llm-inference-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

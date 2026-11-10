@@ -1,0 +1,31 @@
+{
+  "id": "44364479a509777f48ff59cb6bf5b732a72e99d7",
+  "canonicalId": "baaf713b11e387f5b65769226381068c2d5d4743",
+  "slug": "用-claude-code-造-beep-locator多设备定位神秘蜂鸣",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T23:57:00Z",
+  "lang": "zh",
+  "title": "用 Claude Code 造 Beep Locator，多设备定位神秘蜂鸣",
+  "summary": "Simon Willison 用 Claude Code 构建了开源项目 Beep Locator：一台机器运行 Python Web 服务器，其他手机、平板和笔记本通过二维码或链接加入，作为浏览器端监听器。监听器持续保留 60 秒音频缓冲，用 FFT 和高通滤波做蜂鸣检测并把事件发给服务器；服务器让往返延迟最低的设备播放一段短 chirp，再要求所有监听器上传蜂鸣前后约 0.6～0.8 秒的片段，用 chirp 对齐各设备录音后三角定位声源。设备互相播音来估算彼此位置的效果不佳，因此他加入“Rough mode”，先手动拖拽设备的大致位置再由声音校正；另设拍手模式用于验证定位能力。最终系统把他家中间歇蜂鸣的位置锁定在约 40 厘米范围内，他据此翻找纸箱，找到一台亟待更换电池的老旧一氧化碳探测器。",
+  "score": 7,
+  "tags": [
+    "AI-assisted coding",
+    "Claude Code",
+    "sound localization",
+    "web audio",
+    "DIY project"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+  "originalSite": "simonwillison.net",
+  "context": "Claude 在项目初期检索到 2007 年 Chunyi Peng 等人的论文《BeepBeep: A High-Accuracy Acoustic-Based System for Ranging and Localization Using COTS Devices》，该论文只用扬声器、麦克风和设备间通信，通过双向感知、自录音和采样计数实现高精度声学测距。Beep Locator 的“播放 chirp 对齐多设备录音”正是沿用了这一思路。",
+  "discussion": "对想复用的开发者而言，门槛主要在硬件与现场条件：需要一台跑 Python 服务的机器、若干带麦克风和扬声器且能打开浏览器的设备，并逐台授权麦克风；设备自动测距不可靠，通常得靠 Rough mode 人工给出粗略布局。系统还会在日志中标出“到达时间在物理上不可能”的情况，提示回声或混入了别的声音，这类告警需要人工复核后再确认蜂鸣。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

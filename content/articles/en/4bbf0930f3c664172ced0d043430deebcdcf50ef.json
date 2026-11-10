@@ -1,0 +1,31 @@
+{
+  "id": "4bbf0930f3c664172ced0d043430deebcdcf50ef",
+  "canonicalId": "baaf713b11e387f5b65769226381068c2d5d4743",
+  "slug": "simon-willison-built-beep-locator-with-claude-code-to-find-a-beeping-device",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T23:57:00Z",
+  "lang": "en",
+  "title": "Simon Willison built Beep Locator with Claude Code to find a beeping device",
+  "summary": "Simon Willison describes having Claude Code build Beep Locator, a DIY system for triangulating an intermittent beep in a cluttered room. A Python web server hosts the main UI; other phones, tablets and laptops join via URL or QR code and act as listeners through browser microphone access and WebSockets, keeping a 60-second audio buffer and running an FFT-based beep detector. When a beep is reported, the server has one device emit a chirp so each listener&\\#x27;s uploaded clip \\(roughly 0.6s before to 0.8s after\\) can be aligned, and the arrival times are used to estimate a position. Willison reports the tool located the beep to within about 40cm, leading him to an old carbon monoxide detector that needed new batteries; the accuracy is his own account, not an independent measurement.",
+  "score": 7,
+  "tags": [
+    "AI-assisted coding",
+    "Claude Code",
+    "sound localization",
+    "web audio",
+    "DIY project"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

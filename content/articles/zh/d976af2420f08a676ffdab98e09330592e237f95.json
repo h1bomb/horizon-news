@@ -1,0 +1,41 @@
+{
+  "id": "d976af2420f08a676ffdab98e09330592e237f95",
+  "canonicalId": "020c05e5c6f65ee40201bece9e9ff1b9e47d4d9d",
+  "slug": "watchedearth查询一周内过境卫星及其影像",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T17:51:00Z",
+  "lang": "zh",
+  "title": "watched.earth：查询一周内过境卫星及其影像",
+  "summary": "作者在 Show HN 发布了 watched.earth：用户输入任意地点后，它会在浏览器中用 CelesTrak 目录运行 SGP4，约半秒内找出过去 7 天经过该地上空的卫星，并调取这些过境对应的 Sentinel-2、Landsat 和 NASA 实际影像。作者称过境搜索已针对极点、跨 180° 经线和极窄扫幅与暴力算法核对，漏检为 0；界面把约 1.7 万个在轨物体交给 GPU 渲染，并每帧求解开普勒方程。工具只在确有影像时标记“watched”，并称不存储用户位置；作者还提到 Sentinel-2 时间戳常与实际过境时刻相差 5–10 分钟，已作处理。",
+  "score": 7,
+  "tags": [
+    "satellite-imagery",
+    "orbital-mechanics",
+    "geospatial",
+    "gpu-rendering",
+    "show-hn"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "a585gupt",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50428907"
+    }
+  ],
+  "originalUrl": "https://www.watched.earth/",
+  "originalSite": "watched.earth",
+  "context": "",
+  "discussion": "评论者普遍称赞其视觉呈现与工程完成度，认为它把轨道、地面轨迹、过境时间序列和多种影像源整合得很顺畅。一位自称从事地理空间的用户表示，能看到卫星实际拍摄的影像使该站区别于常见卫星概览；另一名用于规划背包徒步的评论者称它适合规划路线，并认为比 Copernicus 更易用、数据源更多。",
+  "references": [
+    {
+      "title": "Copernicus Browser",
+      "url": "https://browser.dataspace.copernicus.eu/"
+    },
+    {
+      "title": "Landsat Data Access | U.S. Geological Survey - USGS.gov",
+      "url": "https://www.usgs.gov/landsat-missions/landsat-data-access"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

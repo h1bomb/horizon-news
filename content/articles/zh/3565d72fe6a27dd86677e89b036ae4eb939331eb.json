@@ -1,0 +1,41 @@
+{
+  "id": "3565d72fe6a27dd86677e89b036ae4eb939331eb",
+  "canonicalId": "796a7f7ee338b70fa58b8f6d3d2f21d8f08f0e22",
+  "slug": "anthropic-发布-claude-fable-52-与-mythos-52",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:01:00Z",
+  "lang": "zh",
+  "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+  "summary": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，面向使用其模型与编程助手的开发者；Hacker News 条目只提供标题和讨论，未附产品规格、价格或可用性信息，具体改动范围无法确认。讨论集中在基准对比方法：有人质疑将 Fable 的 xHigh 档与 Carbon 的 Med 档并列、Carbon 的“努力—智能”曲线异常，以及在 cyber 基准和 robodojo 对比中改用或漏掉特定模型。另有评论给出 Fable 5.2 的早期编程案例，但这些属于个人试用反馈，尚非独立验证。",
+  "score": 7,
+  "tags": [
+    "AI models",
+    "Anthropic",
+    "LLM benchmarks",
+    "coding assistants",
+    "Hacker News"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lairv",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429068"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "originalSite": "anthropic.com",
+  "context": "Anthropic 延续了同一模型发布两种配置的做法：Claude Fable 5.2 面向一般用途，并附加防护以阻止其在生物学、网络安全等高风险双用途领域执行某些任务；Claude Mythos 5.2 则是另一套配置。系统卡称，此前同类模型也采用这种双版本形式。据 CNBC 报道，这两款模型于 11 月 9 日（周一）发布。",
+  "discussion": "对于依赖 Anthropic 模型选型的团队，有评论者认为 Fable 5.2 与 Opus 5.5 在普通编码任务上的差异并不明显，需要更强的高难度提示才能看出区分；这意味着选型时应按实际高难度任务做对比测试，而不能只看版本号。\n\n一位开发者称 Fable 5.2 在 60 万行 Fortran 代码库上把材料计算工作加速了 36 倍，并已决定开源结果；另有评论提到 1,000 个 Fable 5.2 智能体用 30 小时完成费马大定理形式化的说法。上述数字和案例均来自评论者自述，未经独立核实。",
+  "references": [
+    {
+      "title": "Claude Fable 5.2 &amp; Claude Mythos 5.2 System Card",
+      "url": "https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf"
+    },
+    {
+      "title": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2 ...",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

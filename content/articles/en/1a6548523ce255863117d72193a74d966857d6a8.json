@@ -1,0 +1,31 @@
+{
+  "id": "1a6548523ce255863117d72193a74d966857d6a8",
+  "canonicalId": "024092f492060619fa37daf616329c475079024f",
+  "slug": "lingbot-touch-jepa-latent-prediction-outperforms-reconstruction-for-tactile-pretraining",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:52:00Z",
+  "lang": "en",
+  "title": "LingBot-Touch: JEPA latent prediction outperforms reconstruction for tactile pretraining",
+  "summary": "Robbyant released LingBot-Touch, a self-supervised tactile encoder that predicts latent representations of masked contact rather than reconstructing raw sensor signals, with inference code and checkpoints already public. In the paper&\\#x27;s controlled comparisons against same-size MAE and VAE reconstruction baselines trained on the same data, tactile-to-video top-5 recall at 1K hours reached 32.1% for the JEPA-style model versus 5.6% for MAE and 4.4% for VAE; at 4K hours JEPA reached 49.3% while MAE stayed under 9% and VAE fell to 3.1%. The authors attribute the gap to tactile clips being mostly near-zero background, letting reconstruction loss shrink without learning about contact, and they note the masking ratio warms up from 40% to 80% over 300 steps because starting high masked every contacting taxel and caused gradient explosions. Three sensor types \\(magnetic, piezoresistive, visuotactile\\) feed one shared Transformer via canonical fingertip coordinates with 5D RoPE, and frozen encoder features scored highest in 89 of 104 policy-task combinations across 26 real robot tasks with 4 policies; these are the paper&\\#x27;s reported results, not independently verified. The Tiny model plateaus around 4K hours while Small keeps improving, which the authors frame as motivation for scaling.",
+  "score": 7,
+  "tags": [
+    "self-supervised-learning",
+    "tactile-sensing",
+    "robotics",
+    "representation-learning",
+    "JEPA"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Zealousideal-War7154"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

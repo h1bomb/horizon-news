@@ -1,0 +1,32 @@
+{
+  "id": "1896d9fd7cf17a8e678a548408ab8005008b1b5f",
+  "canonicalId": "4f9270c0ec3d4c03ed328a1f898451233fc9617a",
+  "slug": "e-means-宣称以十分之一轮次超越-k-means",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T18:45:00Z",
+  "lang": "zh",
+  "title": "E-means 宣称以十分之一轮次超越 k-means",
+  "summary": "E-means 项目页面提出一种面向聚类和向量索引的 k-means（Lloyd 算法）替代方法，宣称只需约十分之一的迭代轮次就能取得更好结果。该说法目前主要来自项目自述和早期社区试用，尚不能视为独立验证。已有开发者报告将其适配到 GPU 上的 IVF 索引后获得 146 倍加速，另有项目称索引整体重建快 2.5 倍，但常规增量插入的总耗时变化不大。也有人把它用于球面等面积网格松弛时发现效果反而更差。",
+  "score": 7,
+  "tags": [
+    "k-means",
+    "clustering",
+    "algorithms",
+    "machine-learning",
+    "performance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "porridgeraisin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429734"
+    }
+  ],
+  "originalUrl": "https://e-means.github.io/",
+  "originalSite": "e-means.github.io",
+  "context": "",
+  "discussion": "对考虑替换 Lloyd 算法的团队而言，这些初步报告表明收益取决于工作负载：大规模数据扫描或索引重建可能明显受益，而球面网格等场景可能退化；实际替换前应按自身数据和硬件做基准测试。\n\n评论者对适用范围存在分歧：real\\_faxenoff 和 kingcauchy 报告了显著提速，jlhawn 则在球面网格实验中测得更差，说明至少在该场景并不适用。shiandow 还从理论上将其与期望最大化或模拟退火类比，并指出更新规则会把质心限制在凸包内。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

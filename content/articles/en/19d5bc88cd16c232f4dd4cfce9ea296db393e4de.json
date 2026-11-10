@@ -1,0 +1,32 @@
+{
+  "id": "19d5bc88cd16c232f4dd4cfce9ea296db393e4de",
+  "canonicalId": "020c05e5c6f65ee40201bece9e9ff1b9e47d4d9d",
+  "slug": "show-hn-watchedearth-finds-a-week-of-satellite-passes-and-their-photos",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-09T17:51:00Z",
+  "lang": "en",
+  "title": "Show HN: Watched.earth finds a week of satellite passes and their photos",
+  "summary": "Watched.earth, a browser-based tool released as a Show HN project, takes any place name and finds every satellite that passed over it in the previous seven days, then retrieves the actual Sentinel-2, Landsat and NASA images captured on those passes. The author says pass prediction runs client-side via SGP4 on the CelesTrak catalog in roughly half a second and was checked against a brute-force search at the poles, the antimeridian and narrow swaths with zero passes missed — a self-reported validation, not an independent test. The site renders all ~17,000 catalogued orbital objects on the GPU while solving Kepler&\\#x27;s equation each frame, and compensates for Sentinel-2 timestamps that are typically 5–10 minutes off from the satellite&\\#x27;s actual crossing of the selected point. It labels a location &quot;watched&quot; only when a real image exists, does not store the user&\\#x27;s location, and the code is on GitHub; the author is asking for suggestions on additional data sources.",
+  "score": 7,
+  "tags": [
+    "satellite-imagery",
+    "orbital-mechanics",
+    "geospatial",
+    "gpu-rendering",
+    "show-hn"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "a585gupt",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50428907"
+    }
+  ],
+  "originalUrl": "https://www.watched.earth/",
+  "originalSite": "watched.earth",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
