@@ -1,0 +1,41 @@
+{
+  "id": "db8ab719a636d03d988e53576bd997eadc9ad6b1",
+  "canonicalId": "ae3c6c28ceab44c439869fe49aa425fb62291258",
+  "slug": "glasswing-七个月后ai-漏洞报告质量引发争论",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T22:17:00Z",
+  "lang": "zh",
+  "title": "Glasswing 七个月后：AI 漏洞报告质量引发争论",
+  "summary": "VulnCheck 于 11 月 10 日发布博客，回顾 Anthropic 的 Glasswing AI 漏洞研究项目开展七个月后的情况，标题称其以大量价值不高的发现让维护者不堪重负。Hacker News 上的讨论随即质疑这一判断：开发者 pizlonator 表示自己收到 9 份针对 Fil-C 的报告，全部是真实缺陷、没有误报，报告质量“出色”，但附带的修复方案只算“尚可”。另有评论者指出，公开 CVE 数据集无法反映私有代码库中的发现，用公开漏洞数据衡量 Glasswing 的效果会低估其实际作用。",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "vulnerability research",
+    "open-source maintenance",
+    "Anthropic",
+    "community debate"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "panic",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50447074"
+    }
+  ],
+  "originalUrl": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+  "originalSite": "vulncheck.com",
+  "context": "Project Glasswing 是 Anthropic 使用 Mythos 级模型开展漏洞挖掘与协调披露的项目，其公开的漏洞披露台账被外界当作衡量成效的主要依据。据 VulnCheck 对台账的梳理，该项目此前已标记超过 26,000 个潜在漏洞，但五个月后只有 202 个得到修复，这一修复进度落差正是此次“七个月更新”引发争论的背景。",
+  "discussion": "讨论的核心分歧在于如何评价这批 AI 生成的漏洞报告：pizlonator 以 9 份 Fil-C 报告零误报的经历认为质量极高，而 rurcliped 和 enthuse 等评论者认为，博客用只覆盖开源协调披露的“账本”数据来评判主要发生在合作伙伴私有代码库中的 Glasswing 发现，属于用不相关的数据源误导读者。snowwrestler 则提到 PHP2Shell 案例：前沿模型在 PHP 中找到的重点问题基于一个已知但极难利用的逻辑缺陷，实际影响似乎有限。",
+  "references": [
+    {
+      "title": "Project Glasswing CVE List 2026: All Confirmed Vulnerabilities and...",
+      "url": "https://www.decryptiondigest.com/blog/project-glasswing-cve-list-2026"
+    },
+    {
+      "title": "Anthropic &#x27;s Project Glasswing Vulnerability Disclosure... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/vulncheck_anthropic-says-project-glasswing-has-identified-activity-7503914616016744448-ksr1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

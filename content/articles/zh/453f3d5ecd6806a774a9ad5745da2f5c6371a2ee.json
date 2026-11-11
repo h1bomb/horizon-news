@@ -1,0 +1,45 @@
+{
+  "id": "453f3d5ecd6806a774a9ad5745da2f5c6371a2ee",
+  "canonicalId": "f8c1a7370c130fe58cc9d833fbc0c3d7d581f8a4",
+  "slug": "deepmind-发布-alphaproof-code瞄准形式化代码验证",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T12:11:00Z",
+  "lang": "zh",
+  "title": "DeepMind 发布 AlphaProof Code，瞄准形式化代码验证",
+  "summary": "DeepMind 发布了 AlphaProof Code，一个用于形式化代码验证的 AI 系统；它的目标是为代码生成可由 Lean 等证明助手进行机器检查的证明，而不只是依赖测试。现有素材没有给出它的具体验证范围、基准结果、支持的编程语言或开放使用方式，因此其证明能力仍待独立核实。",
+  "score": 8,
+  "tags": [
+    "formal verification",
+    "AI coding agents",
+    "Lean theorem proving",
+    "DeepMind",
+    "software correctness"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ilreb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50439193"
+    }
+  ],
+  "originalUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "originalSite": "deepmind.google",
+  "context": "形式验证的关键前提是把安全目标写成可机器检查的规范，再由 Lean 这类证明助手逐步校验，因此它不同于渗透测试或人工设计审查。DeepMind 在 11 月 10 日的材料中称，AlphaProof Code 让多个由 Gemini 驱动的智能体分工生成超过 600 万行 Lean 证明，并在约四周内对 Signal 协议实际运行代码的部分安全属性完成机器检查。",
+  "discussion": "对打算采用此类工具的团队来说，验收重点应放在规格是否经过人工审查并覆盖真实需求；如果只验证实现与给定命题的一致性，那么“零 bug”的结果不能直接等同于系统正确。\n\n评论者对证明的实际覆盖范围分歧明显：hedora 质疑，对一个历史上出过 bug 的真实库做完整形式化验证却报告零 bug，可能意味着定理写错或只证明了狭窄性质；thibsrn 认为该系统似乎只验证实现、不挑战规格，并追问它与普通编码代理写 Lean/Rocq 有何区别。r0ze-at-hn 还提醒，AI 写 Lean 时可能“作弊”，即证明看似通过但未真正满足意图。",
+  "references": [
+    {
+      "title": "Formal Verification of Signal’s Protocol with Gemini",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    },
+    {
+      "title": "AlphaProof Code: Signal Protocol Verified in 4 Weeks ...",
+      "url": "https://explainx.ai/blog/google-deepmind-alphaproof-code-signal-protocol-formal-verification-2026"
+    },
+    {
+      "title": "DeepMind&#x27;s AlphaProof Code formally verifies Signal&#x27;s ...",
+      "url": "https://codingislove.com/alphaproof-code-signal/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

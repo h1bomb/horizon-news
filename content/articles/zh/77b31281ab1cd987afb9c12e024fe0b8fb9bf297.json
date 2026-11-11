@@ -1,0 +1,41 @@
+{
+  "id": "77b31281ab1cd987afb9c12e024fe0b8fb9bf297",
+  "canonicalId": "de95d8349f73200c8d7ad76a6f1f5016aa2787bb",
+  "slug": "chips-and-cheese-解析-amd-zen-6-的微架构与-chiplet-设计",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T17:02:00Z",
+  "lang": "zh",
+  "title": "Chips and Cheese 解析 AMD Zen 6 的微架构与 chiplet 设计",
+  "summary": "Chips and Cheese 发布了对 AMD Zen 6 家族的技术分析，覆盖核心微架构以及 chiplet 与内存子系统设计；Zen 6 尚未正式发布，因此这是对规划中产品的解析，而非独立实测。评论者把 AM5 平台 Zen 4 和 Zen 5 的内存控制器视为主要短板，称双通道下很难超过 3600 MT/s，并期待 Zen 6 改用更小制程的新 I/O chiplet 来改善。他们还转述了每 chiplet 32 个 C 核心、L3 缓存增加、整数乘法单元从三个减至两个、PDEP/PEXT 吞吐从每周期三条降至两条，以及每周期四条 256 位及以下向量加载等变化，但这些细节来自评论，而非条目中的原文。",
+  "score": 8,
+  "tags": [
+    "AMD Zen 6",
+    "CPU architecture",
+    "chiplet design",
+    "memory controller",
+    "branch prediction"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pixelpoet",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50443090"
+    }
+  ],
+  "originalUrl": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+  "originalSite": "chipsandcheese.com",
+  "context": "",
+  "discussion": "对 AM5 平台用户来说，是否升级到 Zen 6 的关键观察点将是新 I/O chiplet 下内存控制器的实测表现；在官方规格和第三方测试公布前，双通道高频兼容性仍不能根据现有评论确认。\n\n评论区最有价值的讨论集中在两点：一是 AM5 上 Zen 4 和 Zen 5 的内存控制器在双通道下很难超过 3600 MT/s，读者期待 Zen 6 的新 I/O chiplet 能解决这一瓶颈；二是有人质疑整数乘法单元从三个减到两个与 PDEP/PEXT 吞吐下降是否共享电路，以及文章表述是否清楚。另有读者对每 chiplet 32 核后的 NUMA 与调度层级提出疑问。",
+  "references": [
+    {
+      "title": "Zen 6 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zen_6"
+    },
+    {
+      "title": "AMD’s Zen 6 Family: Feeding the Beast - by George Cozma",
+      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

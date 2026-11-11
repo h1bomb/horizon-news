@@ -1,0 +1,36 @@
+{
+  "id": "62ba74625afde2ed68d072221d4077de03025b59",
+  "canonicalId": "6f6fff482120edafdf852ed13e31c73dc13944a7",
+  "slug": "anthropic-建议提示-claude-fable-52-时声明代码归属",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T05:34:00Z",
+  "lang": "zh",
+  "title": "Anthropic 建议提示 Claude Fable 5.2 时声明代码归属",
+  "summary": "Anthropic 在其 Claude Fable 5.2 提示工程文档中新增一条建议：如果希望模型在写代码的同时改进代码结构，应在提示词中明确说明这个代码库归模型自己所有，例如「This codebase is yours: what it&\\#x27;s for and how it&\\#x27;s built are your call, and you&\\#x27;ll keep building on it.」。文档称，在针对小型编码任务的内部测试中，加入这句话后，模型在约一半的尝试中合并了重复代码；不加这句话时，这一比例不到十分之一。文档还指出，如果提示词完全不提归属，或者把代码库描述成别人的，模型倾向于在现有结构上继续追加代码，即使这会重复已有代码。上述数字来自 Anthropic 自己的测试，并非独立验证，且测试范围限于小型编码任务。",
+  "score": 7,
+  "tags": [
+    "prompt engineering",
+    "LLM behavior",
+    "Claude",
+    "AI-assisted coding",
+    "coding agents"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+  "originalSite": "simonwillison.net",
+  "context": "Anthropic 的这份文档是按模型版本整理的提示模式指南，面向 Claude Fable 5.2 与 Claude Mythos 5.2，列出代码归属、审批、子代理等具体做法。代码归属只是其中一节；Simon Willison 摘录了该节关于模型如何对待“自己的代码库”的测试结论与推荐提示句。",
+  "discussion": "对使用 Claude 辅助编码的开发者而言，这条发现意味着只需在提示词里加一句归属声明，就能明显改变模型的行为倾向：默认偏保守追加大约转向主动合并重复代码，因此适合在有意重构时使用。反过来，如果只想做局部、增量的修改，这种表述可能带来预期之外的结构调整，需要通过代码审查和测试来约束。",
+  "references": [
+    {
+      "title": "Prompting Claude Fable 5.2 - Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

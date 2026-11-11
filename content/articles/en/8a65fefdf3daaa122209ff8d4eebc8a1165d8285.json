@@ -1,0 +1,41 @@
+{
+  "id": "8a65fefdf3daaa122209ff8d4eebc8a1165d8285",
+  "canonicalId": "52fb6312db3acf9e8637149390aa157637112fd3",
+  "slug": "net-11-runtime-adds-runtime-async-and-decimal-compatibility-changes",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T12:20:00Z",
+  "lang": "en",
+  "title": ".NET 11 runtime adds runtime async and decimal compatibility changes",
+  "summary": "Microsoft&\\#x27;s .NET 11 runtime documentation covers new runtime async support and compatibility changes for .NET developers. One flagged compatibility change affects decimal conversion: the double literal 0.1 becomes 0.1 on .NET 10 but 0.1000000000000000055511151231 on .NET 11. The supplied material does not provide independent performance measurements or a complete list of runtime features.",
+  "score": 9,
+  "tags": [
+    ".NET",
+    "runtime",
+    "C\\#",
+    "async",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "stevefan1999",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50439284"
+    }
+  ],
+  "originalUrl": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+  "originalSite": "learn.microsoft.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "What&#x27;s new in .NET 11 runtime | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime"
+    },
+    {
+      "title": "Breaking change: Decimal and BigInteger floating-point ...",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/11/decimal-biginteger-floating-point-conversions"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "40a851126ad656399c53006c97faf9f00d9e4fdd",
+  "canonicalId": "ae3c6c28ceab44c439869fe49aa425fb62291258",
+  "slug": "anthropicx27s-glasswing-vulnerability-findings-draw-maintainer-debate",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T22:17:00Z",
+  "lang": "en",
+  "title": "Anthropic&\\#x27;s Glasswing vulnerability findings draw maintainer debate",
+  "summary": "Seven months into Anthropic&\\#x27;s Project Glasswing, a VulnCheck blog post argues that the AI vulnerability-research effort has produced underwhelming findings, according to the Hacker News discussion. Commenters pushed back on that framing: one Fil-C maintainer said all nine reports Anthropic sent were real bugs with no false positives, while others argued the blog&\\#x27;s public-CVE dataset covers only Anthropic&\\#x27;s open-source coordinated disclosure ledger and misses Glasswing partner work in proprietary code. The thread therefore turns less on whether AI can find bugs than on which population of findings is being counted.",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "vulnerability research",
+    "open-source maintenance",
+    "Anthropic",
+    "community debate"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "panic",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50447074"
+    }
+  ],
+  "originalUrl": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+  "originalSite": "vulncheck.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Anthropic &#x27;s Project Glasswing Vulnerability Disclosure... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/vulncheck_anthropic-says-project-glasswing-has-identified-activity-7503914616016744448-ksr1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

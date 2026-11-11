@@ -1,0 +1,41 @@
+{
+  "id": "3668b6d1f9b8967d502df8e211b32bd8a86b4016",
+  "canonicalId": "5175b6a2b765750a6d5cc37ad8b4945c20190f28",
+  "slug": "chrome-led-modern-web-guidance-10-steers-coding-agents-to-native-apis",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T18:01:00Z",
+  "lang": "en",
+  "title": "Chrome-led Modern Web Guidance 1.0 steers coding agents to native APIs",
+  "summary": "A Chrome-led team has released Modern Web Guidance 1.0, an open-source collection of more than 200 curated web-platform best-practice guides \\(about 1.7 MB\\) meant to steer coding agents doing frontend work toward native HTML, CSS, and browser APIs rather than legacy div-and-JavaScript patterns. It was built in collaboration with Firefox, MDN, and Edge and ships as an npm-installable agent skill and CLI, including a deterministic legacy-scan for finding outdated patterns that the authors say was trained on 30,000 GitHub repositories. The project reports that its test agents improved from 55% to 92% passing across 200 tasks and roughly 1,700 Playwright- and AST-based assertions, but those are author-run results and have not been independently verified.",
+  "score": 7,
+  "tags": [
+    "coding-agents",
+    "web-platform-apis",
+    "developer-tooling",
+    "open-source",
+    "frontend-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "paulirish",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
+    }
+  ],
+  "originalUrl": "https://github.com/GoogleChrome/modern-web-guidance",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "The Future of CSS - Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/"
+    },
+    {
+      "title": "Functions in CSS?! - CSS-Tricks",
+      "url": "https://css-tricks.com/functions-in-css/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

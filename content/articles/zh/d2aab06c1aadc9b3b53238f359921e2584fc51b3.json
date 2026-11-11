@@ -1,0 +1,41 @@
+{
+  "id": "d2aab06c1aadc9b3b53238f359921e2584fc51b3",
+  "canonicalId": "52fb6312db3acf9e8637149390aa157637112fd3",
+  "slug": "net-11-运行时运行时异步与-decimal-兼容性变化",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T12:20:00Z",
+  "lang": "zh",
+  "title": ".NET 11 运行时：运行时异步与 decimal 兼容性变化",
+  "summary": "微软公布了 .NET 11 运行时的新增功能，面向准备升级的 .NET 开发者，包含运行时异步（runtime async）支持，以及会改变 decimal 结果的兼容性行为。社区引用的兼容性示例显示，\\(decimal\\)0.1 在 .NET 10 中为 0.1，在 .NET 11 中为 0.1000000000000000055511151231，升级前需要检查依赖该行为的代码。评论还提到官方版本管理器 dotnetup，并讨论运行时异步能否在不使用编译器状态机的情况下保持相近性能。",
+  "score": 9,
+  "tags": [
+    ".NET",
+    "runtime",
+    "C\\#",
+    "async",
+    "release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "stevefan1999",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50439284"
+    }
+  ],
+  "originalUrl": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+  "originalSite": "learn.microsoft.com",
+  "context": "长期以来，C\\# 的 async 方法由编译器改写成状态机，以支持挂起和恢复；.NET 11 的 Runtime Async V2 则把这一机制移到运行时，由运行时管理挂起与恢复（tool-1-1）。另一个需要留意的兼容性前提是，从 .NET 11 起，Decimal 与二进制浮点类型之间以及 BigInteger 到二进制浮点类型的转换改为正确舍入，因此结果可能与旧版不同（tool-1-3）。",
+  "discussion": "计划升级到 .NET 11 的团队应针对 decimal 兼容性行为增加回归测试；若代码依赖 \\(decimal\\)0.1 等于 0.1，或对十进制值做精确比较，升级后可能得到不同结果。\n\n评论对运行时异步整体偏正面，有人惊讶于它能在代码中不使用状态机的情况下保持相近性能；同时，一条兼容性提醒用 \\(decimal\\)0.1 的例子警告升级时要留意 decimal 行为变化。另有开发者认为 .NET 因历史包袱被低估，仍有人误以为它只能在 Windows 上运行。",
+  "references": [
+    {
+      "title": "What&#x27;s new in .NET 11 runtime | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime"
+    },
+    {
+      "title": "Breaking change: Decimal and BigInteger floating-point ...",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/11/decimal-biginteger-floating-point-conversions"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

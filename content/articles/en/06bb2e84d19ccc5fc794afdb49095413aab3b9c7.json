@@ -1,0 +1,36 @@
+{
+  "id": "06bb2e84d19ccc5fc794afdb49095413aab3b9c7",
+  "canonicalId": "6f6fff482120edafdf852ed13e31c73dc13944a7",
+  "slug": "anthropic-guidance-ownership-framing-makes-claude-fable-52-merge-repeated-code",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T05:34:00Z",
+  "lang": "en",
+  "title": "Anthropic guidance: ownership framing makes Claude Fable 5.2 merge repeated code",
+  "summary": "Anthropic&\\#x27;s prompting guidance for Claude Fable 5.2 states that the model responds closely to who a prompt says owns the code it works on. In the vendor&\\#x27;s testing on small coding tasks, when a prompt said nothing about ownership or presented the codebase as someone else&\\#x27;s, the model tended to add to the existing structure even when that repeated existing code. Adding the sentence &quot;This codebase is yours: what it&\\#x27;s for and how it&\\#x27;s built are your call, and you&\\#x27;ll keep building on it&quot; led the model to merge repeated code in about half of attempts, versus under a tenth without it. These are Anthropic&\\#x27;s own reported results on small coding tasks, not an independently measured benchmark.",
+  "score": 7,
+  "tags": [
+    "prompt engineering",
+    "LLM behavior",
+    "Claude",
+    "AI-assisted coding",
+    "coding agents"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Prompting Claude Fable 5.2 - Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

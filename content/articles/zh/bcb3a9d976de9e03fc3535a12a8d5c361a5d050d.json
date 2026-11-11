@@ -1,0 +1,37 @@
+{
+  "id": "bcb3a9d976de9e03fc3535a12a8d5c361a5d050d",
+  "canonicalId": "5175b6a2b765750a6d5cc37ad8b4945c20190f28",
+  "slug": "chrome-联合-firefoxmdnedge-发布-modern-web-guidance-10",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T18:01:00Z",
+  "lang": "zh",
+  "title": "Chrome 联合 Firefox、MDN、Edge 发布 modern-web-guidance 1.0",
+  "summary": "Chrome 团队联合 Firefox、MDN 和 Edge 发布开源项目 modern-web-guidance 1.0，面向使用编码代理的前端开发者，提供 200 多篇、约 1.7MB 的精选指南，引导代理优先使用原生 Web API，而不是沿用 div+JS 的旧模式。该项目以 agent skill 和约 7MB 的纯 JS 本地 RAG CLI 形式分发，可通过 \\`npx modern-web-guidance@latest install\\` 安装，并用 \\`search\\` 查询、用 \\`legacy-scan\\` 扫描旧模式。项目方称，\\`legacy-scan\\` 基于 3 万个 GitHub 仓库训练，在留出仓库上平均精确率 92%；在 200 个任务、约 1700 条 Playwright/AST 断言上，代理通过率从无指南的 55% 提升到有指南的 92%。上述评测来自项目方自建的评测基础设施，目前尚未见独立复现。",
+  "score": 7,
+  "tags": [
+    "coding-agents",
+    "web-platform-apis",
+    "developer-tooling",
+    "open-source",
+    "frontend-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "paulirish",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
+    }
+  ],
+  "originalUrl": "https://github.com/GoogleChrome/modern-web-guidance",
+  "originalSite": "github.com",
+  "context": "编码代理往往沿用训练数据中更常见的 \\`&lt;div&gt;\\` 加 JavaScript 写法；即使模型知道 \\`CSS.highlights\\`、\\`&lt;dialog&gt;\\` 等原生能力，也不会优先采用。Chrome 团队因此把约 200 篇经人工整理的 Web 平台实现指南做成可安装的 agent skill 和本地 RAG CLI，让代理在前端任务中检索并套用这些模式，而不是只依赖模型记忆。",
+  "discussion": "评论区的实质性分歧集中在兼容性与治理：\\`surround\\` 列出 \\`CSS @function\\`、\\`calc-size\\(\\)\\`、\\`interpolate-size\\` 等指南推荐特性仅在 Chrome 稳定、Firefox 和 Safari 尚不支持；\\`advisedwang\\` 则担心让各家的 LLM 遵循 Chrome 团队的 Web 开发指南，会加剧单一浏览器的影响力。\\`simonw\\` 还建议在 GitHub Pages 发布可用 grep 搜索的 Markdown 索引，而不是只靠 npm 安装。",
+  "references": [
+    {
+      "title": "The Future of CSS - Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

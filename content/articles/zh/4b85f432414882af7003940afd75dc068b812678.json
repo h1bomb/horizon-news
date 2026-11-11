@@ -1,0 +1,31 @@
+{
+  "id": "4b85f432414882af7003940afd75dc068b812678",
+  "canonicalId": "096f075e11080075a0e306c97f7fe06ab6ca19d9",
+  "slug": "llm-gemini-036-加入-gemini-4-carbon-支持",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-10T20:09:00Z",
+  "lang": "zh",
+  "title": "llm-gemini 0.36 加入 Gemini 4 Carbon 支持",
+  "summary": "llm-gemini 0.36 已发布，新增对 Google Gemini 4 Carbon 的支持，并提供低、中、高三档思考强度选项，默认使用中档。该模型两周前仅向部分网络安全防御者开放，现在已面向所有用户可用；发布价为每百万输入 token 2 美元、每百万输出 token 10 美元，并计划在 12 月 1 日翻倍至 4 美元和 20 美元。插件作者还在 Google Antigravity IDE 中用同一提示词测试了该模型生成 Three.js 场景的效果，并通过追加提示得到了不依赖外部文件的单文件 HTML。",
+  "score": 7,
+  "tags": [
+    "llm-gemini",
+    "Gemini 4 Carbon",
+    "model release",
+    "API pricing",
+    "CLI tooling"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+  "originalSite": "simonwillison.net",
+  "context": "Gemini 4 Carbon 并非首次亮相：两周前 Google 已宣布该模型，但仅向“部分网络安全防御人员”开放。此次 llm-gemini 0.36 的更新发生在 Google 将其开放给其他所有用户之后，因此插件用户才能开始调用这一模型。",
+  "discussion": "对 llm-gemini 用户而言，升级后可以直接在命令行中选用 Gemini 4 Carbon，并通过思考强度档位控制调用行为；如果要在 12 月 1 日之后继续使用，则需要按照翻倍后的价格评估成本。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
