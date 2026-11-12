@@ -1,6 +1,480 @@
 {
   "articles": [
     {
+      "id": "e7deb9833c1cd2ad619caa63ced87a80adff98c1",
+      "canonicalId": "70a69d3bb58228021bc9cc8347babadc9bc0bc9b",
+      "slug": "aws-发布本地模拟器-aws-emulator由-ai-智能体三周提交近-3-万次",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "AWS 发布本地模拟器 aws-emulator，由 AI 智能体三周提交近 3 万次",
+      "score": 8,
+      "tags": [
+        "AWS",
+        "cloud emulation",
+        "AI agents",
+        "developer tooling",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "b1acb8644b3099ff1b7d11903a18651ba7855d00",
+      "canonicalId": "081caafcc522c70ea94ec58c75de815289eca637",
+      "slug": "wsj-报道称英伟达准备罢免-ceo-黄仁勋",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "WSJ 报道称英伟达准备罢免 CEO 黄仁勋",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "AI hardware",
+        "corporate governance",
+        "semiconductor industry"
+      ],
+      "originalSite": "wsj.com"
+    },
+    {
+      "id": "893089f26863c192bc6a5c53d7ee9fb273a75b08",
+      "canonicalId": "e82f105c45bc3b2d82d03cd5caadff75d485d2e4",
+      "slug": "用电压毛刺解锁矿卡中被熔丝禁用的-a100",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "用电压毛刺解锁矿卡中被熔丝禁用的 A100",
+      "score": 8,
+      "tags": [
+        "hardware hacking",
+        "voltage glitching",
+        "GPU",
+        "reverse engineering",
+        "NVIDIA"
+      ],
+      "originalSite": "blog.kate.land"
+    },
+    {
+      "id": "e97ad37ee5ade6ad65828fa248af15eb2e4d1031",
+      "canonicalId": "9623c7701a3b9276318032ac5851b9a11ed57184",
+      "slug": "the-information-调查alice-huang-协助约-24-万颗受限英伟达芯片入华",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "The Information 调查：Alice Huang 协助约 24 万颗受限英伟达芯片入华",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "AI chips",
+        "export controls",
+        "semiconductor industry",
+        "China tech policy"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "01cc44fae4d965def990d5430bb60fc58aa96bb0",
+      "canonicalId": "8363ca58553c4aa2e57cb9809360a956ead22e4d",
+      "slug": "python-核心开发者-tim-peters-去世",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "Python 核心开发者 Tim Peters 去世",
+      "score": 7,
+      "tags": [
+        "python",
+        "open-source-community",
+        "obituary",
+        "timsort",
+        "software-engineering-culture"
+      ],
+      "originalSite": "discuss.python.org"
+    },
+    {
+      "id": "6f8a311f58483b1615eb101a9afb3a189730694e",
+      "canonicalId": "d05830646ed0694b15bb5899187f05502af6ef76",
+      "slug": "emacs-社区出现无-llm-分支倡议",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "Emacs 社区出现无 LLM 分支倡议",
+      "score": 7,
+      "tags": [
+        "Emacs",
+        "LLM-generated code",
+        "open source governance",
+        "software freedom",
+        "AI coding"
+      ],
+      "originalSite": "commandlinesystems.com"
+    },
+    {
+      "id": "24b88b8686c9633a7b608d875a93c833927a63b0",
+      "canonicalId": "fc15b1445ad5b30be3d06fb0e6fc484727e44229",
+      "slug": "线性规划能否实现权重空间编程",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "线性规划能否实现权重空间编程？",
+      "score": 7,
+      "tags": [
+        "linear programming",
+        "model editing",
+        "neural networks",
+        "optimization",
+        "machine learning"
+      ],
+      "originalSite": "nathan.rs"
+    },
+    {
+      "id": "c65089716d5bea78425d4aef0d98383cb024af6c",
+      "canonicalId": "12a9550d1f6a0c049713ed1352e00f23431a40da",
+      "slug": "误报烟雾警报险些致-jane-street-纽约唯一数据中心停机",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "误报烟雾警报险些致 Jane Street 纽约唯一数据中心停机",
+      "score": 7,
+      "tags": [
+        "data centers",
+        "incident response",
+        "site reliability",
+        "emergency procedures"
+      ],
+      "originalSite": "michael.bacarella.com"
+    },
+    {
+      "id": "76b83ec7fd6ee552c587582a9b62686c0a1cec9d",
+      "canonicalId": "cce714811b519a82922e4ba72c95cc2532e1ab7f",
+      "slug": "谷歌发布-gemini-decisions-api支持多模态封闭式决策",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "谷歌发布 Gemini Decisions API，支持多模态封闭式决策",
+      "score": 7,
+      "tags": [
+        "Gemini",
+        "Google",
+        "API",
+        "AI models",
+        "multimodal AI"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "472d373c8b1a9efbb2e1955af153fa3bdf44c328",
+      "canonicalId": "7a69c1b89eda0814b73757a63fb89b12fb26d384",
+      "slug": "苹果研究帖介绍更快的-rag-检索方法",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "苹果研究帖介绍更快的 RAG 检索方法",
+      "score": 7,
+      "tags": [
+        "RAG",
+        "information retrieval",
+        "LLM efficiency",
+        "machine learning",
+        "Apple"
+      ],
+      "originalSite": "machinelearning.apple.com"
+    },
+    {
+      "id": "f6052e16926a4168865f45a1280862624c3273f3",
+      "canonicalId": "ac992cc25d49f443577c9eb2195325572aa92cb0",
+      "slug": "llm-0372-修复-api-密钥泄露至第三方端点问题",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "LLM 0.37.2 修复 API 密钥泄露至第三方端点问题",
+      "score": 7,
+      "tags": [
+        "security",
+        "llm",
+        "open-source",
+        "api-keys",
+        "cli"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "e7aad46394ec143818d355f34377a5a61585dd79",
+      "canonicalId": "6734a79295b9f50e42757c553fa82e1fff8cd545",
+      "slug": "anthropic-ipo-路演视频披露四芯片训练与推理策略",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "Anthropic IPO 路演视频披露四芯片训练与推理策略",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "AI infrastructure",
+        "AI compute",
+        "IPOs",
+        "multi-chip"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "004e5b03b749ed585f78ce4ec3ed7f0c30ef8e1c",
+      "canonicalId": "33a677852d378a79d1a974da1177e2636388b37f",
+      "slug": "芝加哥联储行长称-10-月通胀报告近乎令人不安",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "芝加哥联储行长称 10 月通胀报告“近乎令人不安”",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "inflation",
+        "CPI",
+        "interest rates"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "efa748e02f97a8877ec3f9c89bc0c2e984600019",
+      "canonicalId": "1530323d3d320c9f672a5c316328fc57963b4232",
+      "slug": "离岸信托收益征税过渡期结束累计申报个税超-1600-亿元",
+      "date": "2026-11-12",
+      "lang": "zh",
+      "title": "离岸信托收益征税过渡期结束，累计申报个税超 1600 亿元",
+      "score": 8,
+      "tags": [
+        "offshore trusts",
+        "personal income tax",
+        "tax enforcement",
+        "China fiscal policy",
+        "high-net-worth individuals"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
+      "id": "6f96aa5271272462dcdee351b31d93641b951e0a",
+      "canonicalId": "70a69d3bb58228021bc9cc8347babadc9bc0bc9b",
+      "slug": "aws-publishes-aws-emulator-a-local-aws-clone-built-by-ai-agents",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "AWS Publishes aws-emulator, a Local AWS Clone Built by AI Agents",
+      "score": 8,
+      "tags": [
+        "AWS",
+        "cloud emulation",
+        "AI agents",
+        "developer tooling",
+        "open source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "b6ea68d096830a14f5ca85214113e85d0a041cf7",
+      "canonicalId": "081caafcc522c70ea94ec58c75de815289eca637",
+      "slug": "wsj-report-says-nvidia-is-preparing-to-oust-ceo-jensen-huang",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "WSJ report says Nvidia is preparing to oust CEO Jensen Huang",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "AI hardware",
+        "corporate governance",
+        "semiconductor industry"
+      ],
+      "originalSite": "wsj.com"
+    },
+    {
+      "id": "e58f1ba20cf02d12559bc167931466e47946dc5c",
+      "canonicalId": "e82f105c45bc3b2d82d03cd5caadff75d485d2e4",
+      "slug": "voltage-glitching-unlocks-disabled-a100-hardware-in-mining-card",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Voltage Glitching Unlocks Disabled A100 Hardware in Mining Card",
+      "score": 8,
+      "tags": [
+        "hardware hacking",
+        "voltage glitching",
+        "GPU",
+        "reverse engineering",
+        "NVIDIA"
+      ],
+      "originalSite": "blog.kate.land"
+    },
+    {
+      "id": "b9391318c2e40acc4d005254585e244ef46662e0",
+      "canonicalId": "9623c7701a3b9276318032ac5851b9a11ed57184",
+      "slug": "report-alleges-alice-huang-helped-move-240000-nvidia-chips-to-china",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Report Alleges Alice Huang Helped Move 240,000 Nvidia Chips to China",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "AI chips",
+        "export controls",
+        "semiconductor industry",
+        "China tech policy"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "78cae8fa7cddc914caec55647debc86ce78664d5",
+      "canonicalId": "8363ca58553c4aa2e57cb9809360a956ead22e4d",
+      "slug": "tim-peters-zen-of-python-author-and-timsort-creator-dies",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Tim Peters, Zen of Python author and Timsort creator, dies",
+      "score": 7,
+      "tags": [
+        "python",
+        "open-source-community",
+        "obituary",
+        "timsort",
+        "software-engineering-culture"
+      ],
+      "originalSite": "discuss.python.org"
+    },
+    {
+      "id": "0ace52ad1889bf3447b782858d6755cfb9c16532",
+      "canonicalId": "d05830646ed0694b15bb5899187f05502af6ef76",
+      "slug": "emacs-essay-and-hn-thread-debate-an-llm-free-fork",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Emacs Essay and HN Thread Debate an LLM-Free Fork",
+      "score": 7,
+      "tags": [
+        "Emacs",
+        "LLM-generated code",
+        "open source governance",
+        "software freedom",
+        "AI coding"
+      ],
+      "originalSite": "commandlinesystems.com"
+    },
+    {
+      "id": "6f120822a6a3dd03e4fbdcafd39e5e7efde6e414",
+      "canonicalId": "fc15b1445ad5b30be3d06fb0e6fc484727e44229",
+      "slug": "blog-post-asks-whether-a-linear-program-can-do-weight-space-model-editing",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Blog Post Asks Whether a Linear Program Can Do Weight-Space Model Editing",
+      "score": 7,
+      "tags": [
+        "linear programming",
+        "model editing",
+        "neural networks",
+        "optimization",
+        "machine learning"
+      ],
+      "originalSite": "nathan.rs"
+    },
+    {
+      "id": "cd6fcee88ad0fc1b144e4c3e175eca27a9b353fc",
+      "canonicalId": "12a9550d1f6a0c049713ed1352e00f23431a40da",
+      "slug": "false-smoke-alarm-nearly-downed-jane-streets-only-nyc-datacenter",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "False Smoke Alarm Nearly Downed Jane Street’s Only NYC Datacenter",
+      "score": 7,
+      "tags": [
+        "data centers",
+        "incident response",
+        "site reliability",
+        "emergency procedures"
+      ],
+      "originalSite": "michael.bacarella.com"
+    },
+    {
+      "id": "9e4ce45177e3243229270cb4b89f4f5b5a53a117",
+      "canonicalId": "cce714811b519a82922e4ba72c95cc2532e1ab7f",
+      "slug": "google-launches-gemini-decisions-api-for-multimodal-closed-ended-decisions",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Google launches Gemini Decisions API for multimodal closed-ended decisions",
+      "score": 7,
+      "tags": [
+        "Gemini",
+        "Google",
+        "API",
+        "AI models",
+        "multimodal AI"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "3d36d9be3875599c7680bc6eb710bd0958ffb3ba",
+      "canonicalId": "7a69c1b89eda0814b73757a63fb89b12fb26d384",
+      "slug": "apple-research-describes-faster-retrieval-for-rag",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Apple Research Describes Faster Retrieval for RAG",
+      "score": 7,
+      "tags": [
+        "RAG",
+        "information retrieval",
+        "LLM efficiency",
+        "machine learning",
+        "Apple"
+      ],
+      "originalSite": "machinelearning.apple.com"
+    },
+    {
+      "id": "bd2d9dce5448347ad3c36157cf4c80fbe0e05b2f",
+      "canonicalId": "ac992cc25d49f443577c9eb2195325572aa92cb0",
+      "slug": "llm-0372-fixes-api-key-leak-to-third-party-endpoints",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "LLM 0.37.2 fixes API key leak to third-party endpoints",
+      "score": 7,
+      "tags": [
+        "security",
+        "llm",
+        "open-source",
+        "api-keys",
+        "cli"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "f9541213b163b6e26d3b165efe31cc2b6fc976e4",
+      "canonicalId": "6734a79295b9f50e42757c553fa82e1fff8cd545",
+      "slug": "anthropicx27s-ipo-roadshow-details-multi-chip-claude-training-across-four-chip-families",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Anthropic&\\#x27;s IPO roadshow details multi-chip Claude training across four chip families",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "AI infrastructure",
+        "AI compute",
+        "IPOs",
+        "multi-chip"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "f49b4ce8b49ca54cc560bd011b759e707a5c3990",
+      "canonicalId": "33a677852d378a79d1a974da1177e2636388b37f",
+      "slug": "fedx27s-goolsbee-calls-october-inflation-report-x27borderline-disturbingx27-as-officials-weigh-more-hikes",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "Fed&\\#x27;s Goolsbee calls October inflation report &\\#x27;borderline disturbing&\\#x27; as officials weigh more hikes",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "inflation",
+        "CPI",
+        "interest rates"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "327c9416b3edb0a04d08ac94fc8f527e55f83045",
+      "canonicalId": "1530323d3d320c9f672a5c316328fc57963b4232",
+      "slug": "china-ends-offshore-trust-income-tax-transition-with-over-rmb160-billion-declared",
+      "date": "2026-11-12",
+      "lang": "en",
+      "title": "China ends offshore trust income tax transition with over RMB160 billion declared",
+      "score": 8,
+      "tags": [
+        "offshore trusts",
+        "personal income tax",
+        "tax enforcement",
+        "China fiscal policy",
+        "high-net-worth individuals"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
       "id": "d2aab06c1aadc9b3b53238f359921e2584fc51b3",
       "canonicalId": "52fb6312db3acf9e8637149390aa157637112fd3",
       "slug": "net-11-运行时运行时异步与-decimal-兼容性变化",
@@ -5043,465 +5517,6 @@
         "tutorial"
       ],
       "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "7464be27a4278d58afa8eb2ca9f9966bdcff835a",
-      "canonicalId": "2f990e26e9aeea90981c3313d605e88dfa8ebd72",
-      "slug": "google-开源-torchtputpu-原生-pytorch-后端",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "Google 开源 TorchTPU：TPU 原生 PyTorch 后端",
-      "score": 8,
-      "tags": [
-        "PyTorch",
-        "TPU",
-        "ML systems",
-        "open source",
-        "hardware acceleration"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "7210a47712efd02997ac4807861a106922a3ec18",
-      "canonicalId": "9636bb4edcb64e9ea30503b5a3fc094df007db39",
-      "slug": "emudhra-中间-ca-私钥被指仅一字节",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "eMudhra 中间 CA 私钥被指仅一字节",
-      "score": 8,
-      "tags": [
-        "PKI",
-        "TLS certificates",
-        "CA compromise",
-        "browser security",
-        "cryptography"
-      ],
-      "originalSite": "emudhra.we-have-a-problem.com"
-    },
-    {
-      "id": "f85f66989e948fc53f21ac6a91fe7b74d6b9c8cd",
-      "canonicalId": "5e241867830c6ea756cb5669edfdfc987329709d",
-      "slug": "tsrs用-rust-移植-typescript-编译器",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "tsrs：用 Rust 移植 TypeScript 编译器",
-      "score": 8,
-      "tags": [
-        "TypeScript",
-        "Rust",
-        "compilers",
-        "WebAssembly",
-        "memory management"
-      ],
-      "originalSite": "blog.cloudflare.com"
-    },
-    {
-      "id": "2f6efb713525cf45a7dacb7827fefbb6c94230e1",
-      "canonicalId": "79e072c528493212dadbe0626496c7bede00d5c2",
-      "slug": "deepseek-上线-deepinfer-推理框架仓库细节与基准尚未披露",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "DeepSeek 上线 DeepInfer 推理框架仓库，细节与基准尚未披露",
-      "score": 7,
-      "tags": [
-        "DeepSeek",
-        "LLM inference",
-        "open source",
-        "model serving",
-        "Hacker News"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "d0e5d29ed570fb56cb13f17af449281b6bf5de05",
-      "canonicalId": "afe5d96a9d4684fb96de500346e2384550461c1d",
-      "slug": "mistral-发布-voxtral-3-与实时语音代理-sdk",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "Mistral 发布 Voxtral 3 与实时语音代理 SDK",
-      "score": 7,
-      "tags": [
-        "speech-recognition",
-        "voice-agents",
-        "Mistral AI",
-        "real-time AI",
-        "speech-to-text"
-      ],
-      "originalSite": "mistral.ai"
-    },
-    {
-      "id": "f652a0cbfdfb6d998767ef3107c3eea89ca5566e",
-      "canonicalId": "0c0643e13635f1ed03988c1a1d2c31664a6fc797",
-      "slug": "google-cloud-europe-west2-故障波及多家银行",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "Google Cloud europe-west2 故障波及多家银行",
-      "score": 7,
-      "tags": [
-        "google-cloud",
-        "cloud-outage",
-        "europe-west2",
-        "banking",
-        "cloud-reliability"
-      ],
-      "originalSite": "neowin.net"
-    },
-    {
-      "id": "f59a9c714e892b43bec5082a2eb285465c009736",
-      "canonicalId": "621250faf996ff4b43cb3fff87ab4ba7a9b3e366",
-      "slug": "作者称推动移除-300-多个恶意-tor-出口节点",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "作者称推动移除 300 多个恶意 Tor 出口节点",
-      "score": 7,
-      "tags": [
-        "Tor",
-        "network security",
-        "SSH",
-        "threat intelligence",
-        "privacy"
-      ],
-      "originalSite": "kaba.cx"
-    },
-    {
-      "id": "e06bff249c812840090d1b6460f77e6b64200473",
-      "canonicalId": "fa355b2fea6d055892ca1a1f546fbb5a6aaa4060",
-      "slug": "rust-编译器-2026-年路线图求解器polonius-与产物体积",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "Rust 编译器 2026 年路线图：求解器、Polonius 与产物体积",
-      "score": 7,
-      "tags": [
-        "Rust",
-        "compilers",
-        "programming languages",
-        "compile times",
-        "open source"
-      ],
-      "originalSite": "yoyo-code.com"
-    },
-    {
-      "id": "509635f40c4f8ca962c495741d107097fbaae99d",
-      "canonicalId": "f0d466a7f367bac0fe2827b519650d37047a8fe2",
-      "slug": "suse-工程师推动系统级禁用-setuidsetgid",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "SUSE 工程师推动系统级禁用 setuid/setgid",
-      "score": 7,
-      "tags": [
-        "Linux security",
-        "setuid",
-        "SUSE",
-        "system hardening",
-        "open source"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "a67114252be9c17e48f7c570238b532f8673b9e1",
-      "canonicalId": "2ed29ef8b35fa9208a9bf113deb2f5441918c203",
-      "slug": "kangrejos-2026-谨慎讨论用-rust-重写-xarray",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "Kangrejos 2026 谨慎讨论用 Rust 重写 XArray",
-      "score": 7,
-      "tags": [
-        "rust",
-        "linux-kernel",
-        "xfs",
-        "xarray",
-        "filesystems"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "6c0e3522345a98fc334748bfa8393ca36f0071cf",
-      "canonicalId": "cf637d353ea8bc6fa1e578ea06e7070eac034312",
-      "slug": "openbsd-80-发布arm64-支持休眠amd64-内核空间达-512gb",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "OpenBSD 8.0 发布：arm64 支持休眠，amd64 内核空间达 512GB",
-      "score": 7,
-      "tags": [
-        "openbsd",
-        "operating-systems",
-        "bsd",
-        "release",
-        "arm64"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "0a50d41335cf77f95179eaab037f834f1d258fbc",
-      "canonicalId": "bd05ae8977d887b47b84caadc43c894ee4153e9e",
-      "slug": "deepseek-据报深度参与华为未来-ai-芯片设计",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "DeepSeek 据报深度参与华为未来 AI 芯片设计",
-      "score": 7,
-      "tags": [
-        "AI chips",
-        "Huawei",
-        "DeepSeek",
-        "Nvidia",
-        "China AI"
-      ],
-      "originalSite": "theinformation.com"
-    },
-    {
-      "id": "8098288ad53e70953090255d30f7f7dc9ef88bc5",
-      "canonicalId": "708a5adaaaec716d4c572669c1456e6289ec0197",
-      "slug": "shopify-从-react-native-转向原生开发",
-      "date": "2026-10-21",
-      "lang": "zh",
-      "title": "Shopify 从 React Native 转向原生开发",
-      "score": 5,
-      "tags": [
-        "react-native",
-        "mobile-development",
-        "ai-coding-agents",
-        "migration-strategy",
-        "developer-tooling"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "71ce52b8b3e96bffc6b5801653eaaf807ea62fc0",
-      "canonicalId": "9a7560747adbbd47eb4b9408e1b410ae86677471",
-      "slug": "linux-73-内核开发统计提交量首破-2-万",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Linux 7.3 内核开发统计：提交量首破 2 万",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "open source",
-        "development statistics",
-        "LLM-assisted development",
-        "code review"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "0e8c403e8157e2e79ddace6be71e8ebd828759d8",
-      "canonicalId": "774f7412d1a369d1c04ab0bb964614cd55e7e294",
-      "slug": "单电机无人机用特殊铰链控制旋翼",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "单电机无人机用特殊铰链控制旋翼",
-      "score": 7,
-      "tags": [
-        "robotics",
-        "underactuated control",
-        "drone design",
-        "DIY hardware",
-        "mechanical engineering"
-      ],
-      "originalSite": "youtube.com"
-    },
-    {
-      "id": "4b8e2e65d9e48238248c0e754162a3a330846cf9",
-      "canonicalId": "4e9388f1c6e3bc6ee00fba86e57fbbd569a1fdca",
-      "slug": "wine-移植到-openbsd改动保持平台专用",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Wine 移植到 OpenBSD，改动保持平台专用",
-      "score": 7,
-      "tags": [
-        "Wine",
-        "OpenBSD",
-        "software porting",
-        "open source",
-        "Windows compatibility"
-      ],
-      "originalSite": "marc.info"
-    },
-    {
-      "id": "f21ce158f7a37bc85d7d7028d247c372c0220cc3",
-      "canonicalId": "76a5f348416759f795f56b4ebc31cba07679a186",
-      "slug": "macapk-让-android-应用在-apple-silicon-mac-上原生运行",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Mac.apk 让 Android 应用在 Apple Silicon Mac 上原生运行",
-      "score": 7,
-      "tags": [
-        "Android",
-        "macOS",
-        "Apple Silicon",
-        "cross-platform compatibility",
-        "open-source tool"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "8e8a0e35cc59cbf96cf94e38572cb3741d7aeac6",
-      "canonicalId": "3a11e60ee8cf431d325202d6163c1c157e9bbeab",
-      "slug": "mistral-推出-timestral-时间序列基础模型系列",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Mistral 推出 Timestral 时间序列基础模型系列",
-      "score": 7,
-      "tags": [
-        "time-series",
-        "foundation-models",
-        "mistral",
-        "forecasting",
-        "machine-learning"
-      ],
-      "originalSite": "mistral.ai"
-    },
-    {
-      "id": "72d1819ee1ba5006b310cc637d31590c6df881bc",
-      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
-      "slug": "ask-hn交付不理解的-ai-代码该如何应对",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Ask HN：交付不理解的 AI 代码该如何应对",
-      "score": 7,
-      "tags": [
-        "AI-assisted coding",
-        "LLM code generation",
-        "software engineering",
-        "code review",
-        "testing"
-      ],
-      "originalSite": "news.ycombinator.com"
-    },
-    {
-      "id": "f79445a5732980dfc0b1c30bea1a52fef9b01ff4",
-      "canonicalId": "f30a44480c497b17dc53e12aa212b5f24780430d",
-      "slug": "inception-labs-发布-mercury-3-扩散语言模型",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Inception Labs 发布 Mercury 3 扩散语言模型",
-      "score": 7,
-      "tags": [
-        "diffusion-models",
-        "llm",
-        "inception-labs",
-        "model-release",
-        "inference-speed"
-      ],
-      "originalSite": "inceptionlabs.ai"
-    },
-    {
-      "id": "6f7a8f5ab779619569eabd02e19cb42cf5fd552e",
-      "canonicalId": "bde91a39be71a8840958a64cc3cb560bef86eadb",
-      "slug": "rust-跨-crate-前向声明进入-nightly",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Rust 跨 crate 前向声明进入 nightly",
-      "score": 7,
-      "tags": [
-        "Rust",
-        "language design",
-        "linking",
-        "kernel",
-        "conference"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "494f4e44601d98e0e3e08cae08098b5c137c44d0",
-      "canonicalId": "97f19cb2fd3a7a0c0af86239e83fc34984a2b934",
-      "slug": "apollo-research-称-glm-53-偶现更新感知推理",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Apollo Research 称 GLM-5.3 偶现更新感知推理",
-      "score": 7,
-      "tags": [
-        "AI safety",
-        "alignment faking",
-        "update-aware reasoning",
-        "GLM-5.3",
-        "Apollo Research"
-      ],
-      "originalSite": "apolloresearch.ai"
-    },
-    {
-      "id": "b48e7a0b78b04ec3649d64dc2821f0f9c24d276e",
-      "canonicalId": "f4386eec9e48ac51531e61b0db5531a6803c4b7e",
-      "slug": "xnu-内核移植红米-note-10-pro启动-ios-16716",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "XNU 内核移植红米 Note 10 Pro，启动 iOS 16.7.16",
-      "score": 7,
-      "tags": [
-        "XNU kernel",
-        "iOS",
-        "mobile OS porting",
-        "Snapdragon",
-        "open source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "4bd95114bf4ec96fab107f43683c52d09942d20c",
-      "canonicalId": "a9e511d3af4ef6b8da4929c7cff0564bbb055dc7",
-      "slug": "美国土安全部下令联邦文职部门排除-deepseek-产品",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "美国土安全部下令联邦文职部门排除 DeepSeek 产品",
-      "score": 7,
-      "tags": [
-        "AI policy",
-        "DeepSeek",
-        "government procurement",
-        "supply-chain security",
-        "AI regulation"
-      ],
-      "originalSite": "federalregister.gov"
-    },
-    {
-      "id": "88c1f2d0d0b3738f69ffae86f7551a4d23f047ba",
-      "canonicalId": "5d44067f2d19c9de9d333881060b1b60688f05e8",
-      "slug": "用-cutile-加速-mamba-2-前向核",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "用 cuTile 加速 Mamba-2 前向核",
-      "score": 8,
-      "tags": [
-        "Mamba-2",
-        "CUDA Tile",
-        "GPU kernels",
-        "Tensor Cores",
-        "performance optimization"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "921e8297d436f9e2c54653f4e8cff065f47968b7",
-      "canonicalId": "af9076f8cfd4975f14b54e58bdf5afa5c2dd932a",
-      "slug": "uber-genie面向工程支持的-rag-问答系统",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "Uber Genie：面向工程支持的 RAG 问答系统",
-      "score": 6,
-      "tags": [
-        "RAG",
-        "LLM evaluation",
-        "internal support",
-        "knowledge retrieval",
-        "production architecture"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "cd714694e506c12699c4170af21bd015027950bd",
-      "canonicalId": "57872a162d965352eca54c5953393ed6bc8922dc",
-      "slug": "中国三季度-gdp-同比增长-45高于经济学家预期",
-      "date": "2026-10-20",
-      "lang": "zh",
-      "title": "中国三季度 GDP 同比增长 4.5%，高于经济学家预期",
-      "score": 8,
-      "tags": [
-        "China GDP",
-        "macroeconomic data",
-        "exports",
-        "fiscal stimulus",
-        "local government debt"
-      ],
-      "originalSite": "stats.gov.cn"
     }
   ]
 }

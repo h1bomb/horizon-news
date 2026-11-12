@@ -1,0 +1,31 @@
+{
+  "id": "f9541213b163b6e26d3b165efe31cc2b6fc976e4",
+  "canonicalId": "6734a79295b9f50e42757c553fa82e1fff8cd545",
+  "slug": "anthropicx27s-ipo-roadshow-details-multi-chip-claude-training-across-four-chip-families",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T15:11:00Z",
+  "lang": "en",
+  "title": "Anthropic&\\#x27;s IPO roadshow details multi-chip Claude training across four chip families",
+  "summary": "Anthropic opened its IPO roadshow on November 10, and the accompanying video contains previously unreleased detail on how the company runs its business; Simon Willison highlighted the &quot;Approach to compute&quot; section featuring co-founder Tom Brown. Brown says Anthropic now trains and serves Claude across all four major chip families — AWS Trainium, Google TPUs, NVIDIA GPUs and AMD GPUs — an early multi-chip bet he says many considered not worth the effort because each chip needs its own tailored software and inference stack. As a concrete example, he says Anthropic began working with AMD GPUs this year and that a system called Mythos got Claude running on AMD in three days with &quot;basically no human intervention,&quot; porting or writing almost 100% of the kernels, where adding a new chip platform previously took dozens of engineers months. Brown also frames compute strategy around &quot;compute multipliers&quot; — total effective compute as physical capacity multiplied by discovered multipliers — and claims these stack and could grow faster as Anthropic approaches recursive self-improvement; these are company claims made in a promotional roadshow video, which has no official transcript \\(Willison published one he extracted with MacWhisper\\).",
+  "score": 7,
+  "tags": [
+    "Anthropic",
+    "AI infrastructure",
+    "AI compute",
+    "IPOs",
+    "multi-chip"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

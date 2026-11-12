@@ -1,0 +1,49 @@
+{
+  "id": "6f120822a6a3dd03e4fbdcafd39e5e7efde6e414",
+  "canonicalId": "fc15b1445ad5b30be3d06fb0e6fc484727e44229",
+  "slug": "blog-post-asks-whether-a-linear-program-can-do-weight-space-model-editing",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T12:30:00Z",
+  "lang": "en",
+  "title": "Blog Post Asks Whether a Linear Program Can Do Weight-Space Model Editing",
+  "summary": "A post on nathan.rs poses the question of whether linear programming can be used for weight-space programming — editing a neural network&\\#x27;s weights directly to change its behavior — and the Hacker News thread took up how such a method would actually be applied. The framing is exploratory: the supplied material describes an examination of LP as a weight-editing tool and includes no benchmark results, released code, or measured comparison against existing editing methods, so the post&\\#x27;s conclusions could not be checked here. Commenters extended the idea in several directions, including weight-space distillation, sparse weight edits, and enforcing the constraints during training rather than after it.",
+  "score": 7,
+  "tags": [
+    "linear programming",
+    "model editing",
+    "neural networks",
+    "optimization",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "emschwartz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452655"
+    }
+  ],
+  "originalUrl": "https://nathan.rs/posts/weight-space-lp/",
+  "originalSite": "nathan.rs",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Weight-space programming - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Weight-space_programming"
+    },
+    {
+      "title": "Can a Linear Program Do Weight-Space Programming? · proomt",
+      "url": "https://proomt.com/item/can-a-linear-program-do-weight-space-programming-d1a13007-a589-44d0-b87e-067ea543171c"
+    },
+    {
+      "title": "Weight-Space Programming: How Astra Edits Weights",
+      "url": "https://elsolitario.org/en/2026/11/02/mit-csail-astra-edits-0-016-of-qwen3-weights/"
+    },
+    {
+      "title": "GPT-6 Astra Edits Qwen Weights: MATH-500 7.9% to 48.1% ...",
+      "url": "https://explainx.ai/blog/weight-space-programming-gpt-6-astra-edits-qwen3-5-0-8b-weights-math-7-9-to-48-1-mit-csail-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

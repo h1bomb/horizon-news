@@ -1,0 +1,45 @@
+{
+  "id": "76b83ec7fd6ee552c587582a9b62686c0a1cec9d",
+  "canonicalId": "cce714811b519a82922e4ba72c95cc2532e1ab7f",
+  "slug": "谷歌发布-gemini-decisions-api支持多模态封闭式决策",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T18:32:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemini Decisions API，支持多模态封闭式决策",
+  "summary": "谷歌发布了 Gemini Decisions API，面向工具选择、策略检查和模型路由等封闭式决策，并称其基于新的 Gemini Decision 1 模型。该 API 支持文本、图像、音频、视频和 PDF 输入，单次最多可对 1000 个问题打分，返回概率与置信度，公布端到端延迟约 150—250 毫秒。定价为每百万输入 tokens 0.10 美元、输出 token 不收费，谷歌称这比 Gemini 3.5 Flash-Lite 方案便宜近 5 倍；服务现已在 Google AI Studio 提供。上述价格和延迟均为谷歌公布数据，尚无独立评测。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "Google",
+    "API",
+    "AI models",
+    "multimodal AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "iamdelirium",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50456791"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "originalSite": "blog.google",
+  "context": "",
+  "discussion": "有 Hacker News 评论者指出，该服务价格高于同类的其他决策模型，但可接受音频和视频输入，在这些场景可能很有用；也有人询问决策模型目前在编码工具中的实际用法。另有评论认为 AI 推理已足够便宜，用 10 万 tokens 上下文追问数百个短问题，成本约相当于一次 Google 搜索 API 调用，并可借此细化同一问题的不同变体。",
+  "references": [
+    {
+      "title": "Gemini Decisions API : Fast multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    },
+    {
+      "title": "Gemini Decision 1 - API Pricing &amp; Providers | OpenRouter",
+      "url": "https://openrouter.ai/google/gemini-decision-1"
+    },
+    {
+      "title": "Google Gemini API Pricing June 2026 — Official Per-Million ...",
+      "url": "https://the-rogue-marketing.github.io/google-gemini-api-pricing-may-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

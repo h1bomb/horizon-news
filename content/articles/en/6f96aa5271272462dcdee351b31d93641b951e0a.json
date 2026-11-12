@@ -1,0 +1,37 @@
+{
+  "id": "6f96aa5271272462dcdee351b31d93641b951e0a",
+  "canonicalId": "70a69d3bb58228021bc9cc8347babadc9bc0bc9b",
+  "slug": "aws-publishes-aws-emulator-a-local-aws-clone-built-by-ai-agents",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T18:21:00Z",
+  "lang": "en",
+  "title": "AWS Publishes aws-emulator, a Local AWS Clone Built by AI Agents",
+  "summary": "AWS has published an official \\`aws-emulator\\` repository that lets developers run tests against local clones of many AWS services without a paid API key. The emulator is written in Rust and, according to the accompanying account, was produced by a swarm of autonomous agents that generated 29,684 commits in the project&\\#x27;s first three weeks; Swami Sivasubramanian describes the effort in a guest post on Werner Vogels&\\#x27; blog. On macOS and Windows it currently requires Docker, and the emulator&\\#x27;s security documentation says not to use it for IAM policies and permissions boundaries, resource-based policies, KMS key policies, cross-account or cross-Region access, or other security controls.",
+  "score": 8,
+  "tags": [
+    "AWS",
+    "cloud emulation",
+    "AI agents",
+    "developer tooling",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "super\\_linear",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50456631"
+    }
+  ],
+  "originalUrl": "https://github.com/aws/aws-emulator",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "floci -io/ floci : Light, fluffy, and always free - The AWS Local Emulator ...",
+      "url": "https://github.com/floci-io/floci"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

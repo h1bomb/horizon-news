@@ -1,0 +1,37 @@
+{
+  "id": "9e4ce45177e3243229270cb4b89f4f5b5a53a117",
+  "canonicalId": "cce714811b519a82922e4ba72c95cc2532e1ab7f",
+  "slug": "google-launches-gemini-decisions-api-for-multimodal-closed-ended-decisions",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T18:32:00Z",
+  "lang": "en",
+  "title": "Google launches Gemini Decisions API for multimodal closed-ended decisions",
+  "summary": "Google announced the Gemini Decisions API, built on Gemini Decision 1, for closed-ended tasks such as tool selection, policy checks, and model routing. According to the announcement, it accepts text, images, audio, video, and PDFs, can score up to 1,000 questions per call, and returns probabilities and confidence scores with 150–250 ms end-to-end latency. Pricing is $0.10 per million input tokens with no charge for output tokens—a claimed roughly 5x cost reduction versus a Gemini 3.5 Flash-Lite approach—and it is available in Google AI Studio.",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "Google",
+    "API",
+    "AI models",
+    "multimodal AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "iamdelirium",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50456791"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "originalSite": "blog.google",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Gemini Decision 1 - API Pricing &amp; Providers | OpenRouter",
+      "url": "https://openrouter.ai/google/gemini-decision-1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "472d373c8b1a9efbb2e1955af153fa3bdf44c328",
+  "canonicalId": "7a69c1b89eda0814b73757a63fb89b12fb26d384",
+  "slug": "苹果研究帖介绍更快的-rag-检索方法",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T16:57:00Z",
+  "lang": "zh",
+  "title": "苹果研究帖介绍更快的 RAG 检索方法",
+  "summary": "苹果发布了一篇关于 RAG 更快检索的研究帖，主题是让检索环节更快并提升 RAG 效率。现有材料只有标题、链接和评论，没有给出具体方法、基准数据、代码或产品可用性，因此无法核实提速幅度、适用模型或部署条件。现有信息显示这是研究帖，而非已发布的产品能力。",
+  "score": 7,
+  "tags": [
+    "RAG",
+    "information retrieval",
+    "LLM efficiency",
+    "machine learning",
+    "Apple"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zerop",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50455633"
+    }
+  ],
+  "originalUrl": "https://machinelearning.apple.com/research/faster-retrieval",
+  "originalSite": "machinelearning.apple.com",
+  "context": "RAG 的检索阶段通常要在向量库上做最大内积搜索（MIPS），候选规模一大，这一步就成为延迟与算力的瓶颈。据 Grafy News 引述 Apple 机器学习研究页面，这项工作题为《Amortizing Maximum Inner Product Search with Learned Support Functions》，已在 ICML 2026 发表，思路是用学习到的支撑函数把 MIPS 的开销分摊出去；Apple 研究页面同时强调，针对可能的输入分布做专门设计，而非追求在所有可能输入上的普适性能，是更高效利用算力的做法。",
+  "discussion": "评论者对学习式检索的适用范围有分歧：armcat 认为苹果、Spotify 这类方法主要适合超大规模场景，mickeyp 则质疑嵌入/BERT 检索在代码库等任务上未必胜过 grep。comandillos 还提出，检索排序可能把启发式偏差带入 LLM，进而影响最终输出质量。",
+  "references": [
+    {
+      "title": "Faster Retrieval for Better, More Efficient RAG - Apple ...",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval"
+    },
+    {
+      "title": "Apple trains small neural nets to speed up — Grafy News",
+      "url": "https://grafy.ai/news/apple-trains-small-neural-nets-to-speed-up-rag-retrieval"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

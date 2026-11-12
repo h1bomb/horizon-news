@@ -1,0 +1,41 @@
+{
+  "id": "01cc44fae4d965def990d5430bb60fc58aa96bb0",
+  "canonicalId": "8363ca58553c4aa2e57cb9809360a956ead22e4d",
+  "slug": "python-核心开发者-tim-peters-去世",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T07:03:00Z",
+  "lang": "zh",
+  "title": "Python 核心开发者 Tim Peters 去世",
+  "summary": "Python 社区在官方论坛发布纪念帖，宣布核心开发者 Tim Peters 已于 2026 年去世（1952–2026）。他以《Python 之禅》、Timsort 排序算法和《Python Cookbook》第二版等工作闻名，并对 Python 的设计哲学和标准库留下深远影响。社区评论还提到，他与 Gary Robinson 等人将 Paul Graham 的“A Plan for Spam”思路实现为 SpamBayes。",
+  "score": 7,
+  "tags": [
+    "python",
+    "open-source-community",
+    "obituary",
+    "timsort",
+    "software-engineering-culture"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ayhanfuat",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50450488"
+    }
+  ],
+  "originalUrl": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+  "originalSite": "discuss.python.org",
+  "context": "Tim Peters 是 CPython 早期核心开发者，Python 用户执行 \\`import this\\` 时看到的《Python 之禅》就出自他手。2002 年，他为 Python 列表设计了 Timsort 混合排序算法；该算法后来被 Java 和 Android 采用，成为理解他对 Python 日常排序与性能影响的关键背景。",
+  "discussion": "Python 开发者运行 \\`import this\\` 时仍会看到署名为 Tim Peters 的《Python 之禅》，而 CPython 的排序实现长期以 Timsort 为基础。\n\n评论者贴出 \\`import this\\` 的完整输出，以此纪念《Python 之禅》；也有人补充 SpamBayes 的多人贡献，并回忆从 Tim Peters 的邮件列表帖子、《Python Cookbook》和“Uncle Timmy”绰号中受到的教益。",
+  "references": [
+    {
+      "title": "Tim Peters (software engineer) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tim_Peters_%28software_engineer%29"
+    },
+    {
+      "title": "In Memoriam: Tim Peters 1952–2026 - Core Development ...",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

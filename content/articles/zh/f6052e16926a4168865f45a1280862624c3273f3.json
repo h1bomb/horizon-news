@@ -1,0 +1,31 @@
+{
+  "id": "f6052e16926a4168865f45a1280862624c3273f3",
+  "canonicalId": "ac992cc25d49f443577c9eb2195325572aa92cb0",
+  "slug": "llm-0372-修复-api-密钥泄露至第三方端点问题",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T17:19:00Z",
+  "lang": "zh",
+  "title": "LLM 0.37.2 修复 API 密钥泄露至第三方端点问题",
+  "summary": "LLM 0.37.2 已发布，修复由 Daniel de Araujo 报告的两个安全问题（GHSA-v9h7-jj4g-f862 和 GHSA-r639-rr7r-x72w）：这两处缺陷都可能把用户配置的 OpenAI API 密钥意外发送给第三方 OpenAI 兼容 API 提供商。相关配置依赖 extra-openai-models.yaml，而 0.37 版新增的 \\`llm openai endpoint add\\` 命令现已接管该文件的管理。触发条件有两个：\\`api\\_key\\_name\\` 指定的密钥从未被存储；或者对带有 \\`responses: true\\` 的模型使用 \\`-o chat\\_completions 1\\` 运行。此次发布是针对性补丁版本，并非广泛的功能更新。",
+  "score": 7,
+  "tags": [
+    "security",
+    "llm",
+    "open-source",
+    "api-keys",
+    "cli"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/11/llm/",
+  "originalSite": "simonwillison.net",
+  "context": "LLM 的 \\`extra-openai-models.yaml\\` 机制用于配置其他厂商提供的 OpenAI 兼容 API 端点。0.37 版新增 \\`llm openai endpoint add\\` 命令来管理这类端点，使自定义端点与 OpenAI 官方端点共用同一套配置，因而需要明确区分 API 密钥应发送到哪个服务。",
+  "discussion": "使用 extra-openai-models.yaml 或 \\`llm openai endpoint add\\` 接入第三方 OpenAI 兼容端点的用户应升级到 0.37.2，以免在密钥未存储或强制使用 chat\\_completions 的配置下把 OpenAI 凭据交给第三方服务。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

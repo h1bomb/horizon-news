@@ -1,0 +1,45 @@
+{
+  "id": "6f8a311f58483b1615eb101a9afb3a189730694e",
+  "canonicalId": "d05830646ed0694b15bb5899187f05502af6ef76",
+  "slug": "emacs-社区出现无-llm-分支倡议",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T20:26:00Z",
+  "lang": "zh",
+  "title": "Emacs 社区出现无 LLM 分支倡议",
+  "summary": "一项针对 Emacs 的“LLM-free”分支倡议在 Hacker News 讨论中公开，相关声明链接到 human-emacs.org，称将不顾 GNU 最终政策，继续使用并开发不含 LLM 生成贡献的 Emacs，即使它不是 GNU Emacs。触发讨论的是一篇题为《Emacs in the Age of Magic》的文章，主题是 LLM 辅助开发与 Emacs/GNU 自由软件原则之间的张力。目前这仍是意向声明：没有证据表明该分支已经发布，也没有迹象显示 GNU 已调整政策。",
+  "score": 7,
+  "tags": [
+    "Emacs",
+    "LLM-generated code",
+    "open source governance",
+    "software freedom",
+    "AI coding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ggcr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50458208"
+    }
+  ],
+  "originalUrl": "https://commandlinesystems.com/magic.txt",
+  "originalSite": "commandlinesystems.com",
+  "context": "GNU Emacs 目前对 LLM 生成代码实行临时禁令；2026 年 10 月底，部分 Emacs 开发者和用户发起 Human Emacs，明确拒绝 LLM 贡献，并表示如果 GNU Emacs 解除禁令、接受此类代码，他们将另立一个不含 LLM 代码的分支。Human Emacs 承认 Emacs 的分支历史一向争议大、成功案例不多，但称在此事上没有太多选择。",
+  "discussion": "若该分支真的推进，最直接的兼容性问题是补丁和包能否同时服务 GNU Emacs 与分支：上游若允许 LLM 生成贡献，坚持无 LLM 来源的维护者就需自行审查或另立流程，下游打包者也可能要分别适配。\n\n评论中，支持者把无 LLM 分支视为对 GNU 政策的施压手段；怀疑者则反问：若需求足够强，为何至今没人做出替代品，认为争论多于刚需。另有评论从可维护性出发，主张用明确 API 隔离 AI 生成的代码块，并担心 AI 让使用者失去对代码如何工作的理解。",
+  "references": [
+    {
+      "title": "Human Emacs",
+      "url": "https://human-emacs.org/"
+    },
+    {
+      "title": "Human Emacs - lists.gnu.org",
+      "url": "https://lists.gnu.org/archive/html/emacs-devel/2026-10/msg00508.html"
+    },
+    {
+      "title": "Emacs group vows fork if project accepts LLM-generated code",
+      "url": "https://freenode.net/article/emacs-group-vows-fork-if-project-accepts-llm-generated-code"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

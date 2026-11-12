@@ -1,0 +1,36 @@
+{
+  "id": "c65089716d5bea78425d4aef0d98383cb024af6c",
+  "canonicalId": "12a9550d1f6a0c049713ed1352e00f23431a40da",
+  "slug": "误报烟雾警报险些致-jane-street-纽约唯一数据中心停机",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T16:38:00Z",
+  "lang": "zh",
+  "title": "误报烟雾警报险些致 Jane Street 纽约唯一数据中心停机",
+  "summary": "一篇署名 mbac32768 的文章复盘了一次误报烟雾警报如何险些导致 Jane Street 在纽约市唯一的数据中心停机，并把重点放在应急操作和数据中心韧性上。文章未提供报警设备型号、停机时长或 Jane Street 的正式声明，相关经过仍以作者叙述为准。",
+  "score": 7,
+  "tags": [
+    "data centers",
+    "incident response",
+    "site reliability",
+    "emergency procedures"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mbac32768",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50455394"
+    }
+  ],
+  "originalUrl": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+  "originalSite": "michael.bacarella.com",
+  "context": "在数据中心，烟雾探测通常与空调和灭火系统联动：一旦报警，空调可能停机，喷淋管路也可能被加压，因此误报不只是警报，而会直接改变机房的环境控制状态。",
+  "discussion": "有评论者质疑该数据中心为何至少没有在机房内设置可一键断电的物理紧急断电（EPO）按钮，并让烟雾报警联动断电；另一位评论者则以所在数据厅的操作顺序为例，称其特意不在烟雾报警时关闭 CRAC，并援引《国际机械规范》中关于 2000 cfm 以上、仅服务单一空间的风机不易扩散烟雾的条款。还有评论者提到飓风桑迪期间纽约机房靠人工搬运柴油维持发电，强调应急电源与现场人员安排的重要性。",
+  "references": [
+    {
+      "title": "False Smoke Alarm Nearly Floods Jane Street&#x27;s NYC Datacenter",
+      "url": "https://o-server.main.jp/hacker-news/en/articles/2026/11/10/false-smoke-alarm-nearly-floods-jane-street-s-nyc-datacenter-50455394.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

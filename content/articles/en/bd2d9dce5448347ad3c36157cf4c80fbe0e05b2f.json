@@ -1,0 +1,31 @@
+{
+  "id": "bd2d9dce5448347ad3c36157cf4c80fbe0e05b2f",
+  "canonicalId": "ac992cc25d49f443577c9eb2195325572aa92cb0",
+  "slug": "llm-0372-fixes-api-key-leak-to-third-party-endpoints",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T17:19:00Z",
+  "lang": "en",
+  "title": "LLM 0.37.2 fixes API key leak to third-party endpoints",
+  "summary": "LLM 0.37.2 fixes two security issues, reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w, that could expose a configured OpenAI API key to third-party OpenAI-compatible API providers. The key could be sent if the key named by \\`api\\_key\\_name\\` had never been stored, or if a \\`responses: true\\` model was run with \\`-o chat\\_completions 1\\`. The patch covers the \\`extra-openai-models.yaml\\` mechanism, now managed by the \\`llm openai endpoint add\\` command introduced in 0.37.",
+  "score": 7,
+  "tags": [
+    "security",
+    "llm",
+    "open-source",
+    "api-keys",
+    "cli"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/11/llm/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

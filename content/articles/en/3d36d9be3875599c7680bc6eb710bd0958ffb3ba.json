@@ -1,0 +1,41 @@
+{
+  "id": "3d36d9be3875599c7680bc6eb710bd0958ffb3ba",
+  "canonicalId": "7a69c1b89eda0814b73757a63fb89b12fb26d384",
+  "slug": "apple-research-describes-faster-retrieval-for-rag",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T16:57:00Z",
+  "lang": "en",
+  "title": "Apple Research Describes Faster Retrieval for RAG",
+  "summary": "Apple has published a research post describing a faster retrieval approach for retrieval-augmented generation \\(RAG\\). The supplied item provides no method details, benchmark figures, code, or availability information, so the claimed speedup cannot be independently assessed. The work is aimed at LLM systems that use retrieval, but whether the technique applies beyond Apple&\\#x27;s setup is unclear.",
+  "score": 7,
+  "tags": [
+    "RAG",
+    "information retrieval",
+    "LLM efficiency",
+    "machine learning",
+    "Apple"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zerop",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50455633"
+    }
+  ],
+  "originalUrl": "https://machinelearning.apple.com/research/faster-retrieval",
+  "originalSite": "machinelearning.apple.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Faster Retrieval for Better, More Efficient RAG - Apple ...",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval"
+    },
+    {
+      "title": "Apple trains small neural nets to speed up — Grafy News",
+      "url": "https://grafy.ai/news/apple-trains-small-neural-nets-to-speed-up-rag-retrieval"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

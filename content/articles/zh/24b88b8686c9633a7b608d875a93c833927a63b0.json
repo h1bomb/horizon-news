@@ -1,0 +1,49 @@
+{
+  "id": "24b88b8686c9633a7b608d875a93c833927a63b0",
+  "canonicalId": "fc15b1445ad5b30be3d06fb0e6fc484727e44229",
+  "slug": "线性规划能否实现权重空间编程",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T12:30:00Z",
+  "lang": "zh",
+  "title": "线性规划能否实现权重空间编程？",
+  "summary": "一篇博客文章探讨线性规划（LP）能否用于神经网络的权重空间编程，也就是用线性约束来编辑模型权重。文章把这个问题作为探索性设想提出，并未报告一个已验证的突破或可复现结果。Hacker News 的讨论将其延伸到权重空间蒸馏、训练时正则化以及稀疏权重编辑等方向；从现有材料看，文章未给出具体实验、版本或基准。",
+  "score": 7,
+  "tags": [
+    "linear programming",
+    "model editing",
+    "neural networks",
+    "optimization",
+    "machine learning"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "emschwartz",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452655"
+    }
+  ],
+  "originalUrl": "https://nathan.rs/posts/weight-space-lp/",
+  "originalSite": "nathan.rs",
+  "context": "Weight-space programming 指把神经网络权重当作语言模型可直接读写的媒介，让模型代替优化器来定位并修改权重（tool-1-1）。此前 MIT CSAIL 的 Astra 工作演示了从原始权重推断行为，并用极小的权重编辑修复 Qwen3.5-0.8B 的推理循环（tool-2-1、tool-2-2）；当前博文追问的是，这类编辑搜索能否写成线性规划（tool-1-3）。",
+  "discussion": "评论者主要讨论把 LP 用于权重编辑有哪些可行扩展：jsw97 认为，可以在“消除某种行为、保留另一种行为”等线性约束下，用 LP 辅助 Astra 式权重编辑；mirekrusin 则提出用配对样本发现行为方向，再用 LP 寻找稀疏权重编辑，以执行权重空间蒸馏。dansitu 认为这种做法足够简洁，说明相关约束或许应在训练时通过正则化实现；bcmyguest 则追问，它在更大模型和多变量奖励下能走多远。这些均为个人判断，并非已验证结论。",
+  "references": [
+    {
+      "title": "Weight-space programming - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Weight-space_programming"
+    },
+    {
+      "title": "Can a Linear Program Do Weight-Space Programming? · proomt",
+      "url": "https://proomt.com/item/can-a-linear-program-do-weight-space-programming-d1a13007-a589-44d0-b87e-067ea543171c"
+    },
+    {
+      "title": "Astra Directly Edits Neural Weights to Improve Qwen - CCTest",
+      "url": "https://cctest.ai/en/articles/astra-reads-and-writes-neural-weights-to-improve-qwen"
+    },
+    {
+      "title": "Weight-Space Programming: How Astra Edits Weights",
+      "url": "https://elsolitario.org/en/2026/11/02/mit-csail-astra-edits-0-016-of-qwen3-weights/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

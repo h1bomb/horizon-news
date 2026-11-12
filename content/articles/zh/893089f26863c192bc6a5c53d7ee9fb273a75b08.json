@@ -1,0 +1,49 @@
+{
+  "id": "893089f26863c192bc6a5c53d7ee9fb273a75b08",
+  "canonicalId": "e82f105c45bc3b2d82d03cd5caadff75d485d2e4",
+  "slug": "用电压毛刺解锁矿卡中被熔丝禁用的-a100",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-11T10:48:00Z",
+  "lang": "zh",
+  "title": "用电压毛刺解锁矿卡中被熔丝禁用的 A100",
+  "summary": "一篇第一手硬件逆向博文记录了作者如何对自家矿卡实施电压毛刺（voltage glitching）攻击，绕过熔丝禁用的 GPU 功能，从而释放被屏蔽的 A100 硬件。文中给出的是一条具体的故障注入路径，涉及熔丝、供电时序与反复上电操作，而非 NVIDIA 官方支持的能力。需要区分的是，这是个人实验记录；评论者指出涉事卡为 8GB 版本，同系列型号此前只能部分访问被屏蔽的显存。",
+  "score": 8,
+  "tags": [
+    "hardware hacking",
+    "voltage glitching",
+    "GPU",
+    "reverse engineering",
+    "NVIDIA"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lae",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50451903"
+    }
+  ],
+  "originalUrl": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+  "originalSite": "blog.kate.land",
+  "context": "NVIDIA 的 CMP 170HX 矿卡与 A100 数据中心 GPU 基于同一颗 GA100 芯片，但出厂时通过熔丝关闭了相当一部分计算单元：8 GB 版 CMP 170HX 仅启用 4480 个着色器单元，而完全启用的 A100 SXM4 40 GB 为 6912 个。由于这些限制固化在芯片熔丝层面而非驱动中，作者选择在启动阶段用电压毛刺（voltage glitching）进行故障注入，使芯片绕过被熔断禁用的部分；理解“限制位于熔丝层”这一点，才能明白此次解锁为何属于硬件攻击而非刷写固件。",
+  "discussion": "评论区里，一位读者称自己正用软件方式尝试解锁 CMP 170HX 的 80GB 显存，两周未果，并认为走熔丝这条路风险更高；另一位则提出这些熔丝可能本就用于标记制造缺陷（binning），因此把芯片降级为矿卡是更可能的情形。还有人建议用带独立电源的外部 PCIe 转接卡代替主机 ACPI S3 休眠来加速反复上电，并有人感叹这类卡的价格已从约 200 美元涨到 1000 美元。",
+  "references": [
+    {
+      "title": "NVIDIA CMP 170HX 8 GB Specs | TechPowerUp GPU Database",
+      "url": "https://www.techpowerup.com/gpu-specs/cmp-170hx-8-gb.c3830"
+    },
+    {
+      "title": "CMP 170HX for Gaming and AI: Specs, Driver Patch, Unlocks ...",
+      "url": "https://www.minerlist.com/mining-cards/cmp-170hx"
+    },
+    {
+      "title": "Using voltage glitching to unleash the A 100 in my mining card",
+      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/"
+    },
+    {
+      "title": "Using voltage glitching to unleash the A 100 in my mining card",
+      "url": "https://news.ycombinator.com/item?id=50451903"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
