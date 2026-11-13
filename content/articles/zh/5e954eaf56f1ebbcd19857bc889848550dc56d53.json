@@ -1,0 +1,31 @@
+{
+  "id": "5e954eaf56f1ebbcd19857bc889848550dc56d53",
+  "canonicalId": "47e68dc764ba8338864c78906ee3c11c101a4f0a",
+  "slug": "microsoft-365-邮件服务出现长时间降级",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T18:20:00Z",
+  "lang": "zh",
+  "title": "Microsoft 365 邮件服务出现长时间降级",
+  "summary": "Microsoft 365 正经历服务降级，讨论中多名管理员报告企业邮箱连续数小时无法收发邮件，其中一人称所在组织 1.5 万多名员工的邮箱受影响；同一时间 Teams 聊天和会议仍可使用，Azure 基础设施据报正常。根据评论中引用的状态更新，微软在部分受影响基础设施上验证了替代健康检查方法并使该部分服务器恢复，随后尝试扩大应用，但美东时间晚 10 点的更新称变更未按预期生效，正在寻找其他增加容量的方案。截至讨论时，有用户称邮件已约 8 小时未恢复，讨论中未见明确恢复时间。",
+  "score": 7,
+  "tags": [
+    "Microsoft 365",
+    "service outage",
+    "cloud reliability",
+    "incident response"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dkpk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471731"
+    }
+  ],
+  "originalUrl": "https://status.cloud.microsoft/",
+  "originalSite": "status.cloud.microsoft",
+  "context": "Microsoft 365 是微软的云端办公套件，Exchange 邮件、Teams 等服务的可用性通常由 status.cloud.microsoft 状态页披露。此次讨论中，有评论者称该状态页本身也不稳定，只能通过订阅其 RSS 源获取事件更新。",
+  "discussion": "对依赖 Microsoft 365 邮件的组织，连续数小时无法收发邮件会迫使关键沟通转向仍可用的 Teams，并在官方状态页被指不稳定时改用其 RSS 源跟踪进展。\n\n评论者就故障范围与原因存在分歧：有人把中断归因于微软对 AI 的投入挤占了基础设施维护，并称 GitHub、Azure、Entra、Intune 等也“不稳定”；另一些管理员则报告 Azure 基础设施正常、问题集中在 Microsoft 365，且这是其组织自 2019 年使用 M365 以来最严重的一次中断。还有评论指出官方状态页本身难以访问，只能靠 RSS 获取更新。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

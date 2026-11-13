@@ -1,0 +1,37 @@
+{
+  "id": "e40ff426903a1a9f9caae23b5328596adf4e9610",
+  "canonicalId": "0667a519c65042ee1fcd1979931dcd332e244f0b",
+  "slug": "smolmaxxing-publishes-kernels-for-llms-on-sub-1gb-devices",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T15:23:00Z",
+  "lang": "en",
+  "title": "smolmaxxing publishes kernels for LLMs on sub-1GB devices",
+  "summary": "The open-source smolmaxxing project has published custom kernels and modified model weights aimed at running LLMs on devices with less than 1GB of usable memory. Its author reports reaching 16B-parameter models on a first-generation iPad Air and a Xiaomi TV box, claiming &quot;decent speeds&quot; but providing no benchmark numbers in the supplied material. The work is offered for reproduction through GitHub and Hugging Face, but the memory, speed, and compatibility claims have not been independently verified here.",
+  "score": 7,
+  "tags": [
+    "local LLMs",
+    "edge inference",
+    "model optimization",
+    "open source",
+    "low-memory hardware"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mrashad74",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
+    }
+  ],
+  "originalUrl": "https://github.com/hyperionaidev/smolmaxxing/",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - hyperionaidev / smolmaxxing : maxxing the ability to run...",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

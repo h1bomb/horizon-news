@@ -1,0 +1,41 @@
+{
+  "id": "5c9f0e1c6a6a71ef9cfbf93b7a10c02cc09e1d4a",
+  "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
+  "slug": "rust-1100-稳定-never-类型与自定义分配器",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T18:39:00Z",
+  "lang": "zh",
+  "title": "Rust 1.100 稳定 never 类型与自定义分配器",
+  "summary": "Rust 1.100 发布，稳定了 never 类型和自定义分配器，并为 Cargo 引入「依赖冷却」配置：设定最小发布年龄后，解析器会忽略发布时间晚于该阈值的版本，除非该版本已存在于 Cargo.lock（RFC 3923）。Cargo 现在默认以 warn 级别报告未使用的依赖，\\`cargo install\\` 也默认使用 .crate 包内已有的 lockfile，使 \\`--locked\\` 成为空操作（\\#17388）。据社区评论补充，此版本还稳定了 \\`bool::toggle\\(\\)\\`、\\`Box::map\\(\\)\\`、\\`str::trim\\_prefix\\(\\)\\`/\\`trim\\_suffix\\(\\)\\` 与 \\`Path::trim\\_prefix\\(\\)\\` 等未在发布博文中逐一列出的 API。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "programming languages",
+    "Cargo",
+    "language features",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mbStavola",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
+    }
+  ],
+  "originalUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+  "originalSite": "blog.rust-lang.org",
+  "context": "Rust 通过 rustup 分发稳定版，已安装旧版本的用户可用 \\`rustup update stable\\` 升级到 1.100.0。never type 用于表示不会正常返回的表达式（例如 panic 或无限循环）；此次稳定化后，这类类型可在稳定版 Rust 中直接使用。Cargo 解析依赖时通常会选择符合约束的最新版本，而 minimum publish age（依赖冷却）会让解析器忽略发布时间晚于设定阈值的版本，除非该版本已经记录在 Cargo.lock 中。",
+  "discussion": "对维护供应链安全敏感的团队，依赖冷却提供了一个可配置的缓和手段：新发布的 crate 版本不会在阈值期内被自动拉入，但已在 Cargo.lock 中的版本不受影响。未使用依赖警告默认开启，现有项目升级后可能新增警告，需要清理依赖或调整 \\`cargo::unused\\_dependencies\\` 的 lint 级别；而脚本中依赖 \\`cargo install --locked\\` 行为的用户需注意该参数已不再产生效果。\n\n有评论者认为这次发布内容多到博文都漏掉了若干实用 API，并自行列出了 \\`bool::toggle\\(\\)\\`、\\`Box::map\\(\\)\\` 与若干字符串/路径裁剪方法。另一位用户则追问编译器是否变快，抱怨编译耗时以及每天需要 \\`cargo clean\\` 清理数十 GB 临时文件，讨论中未见针对该问题的答复。",
+  "references": [
+    {
+      "title": "Announcing Rust 1.100.0 | Rust Blog",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+    },
+    {
+      "title": "1.100.0 | Rust Changelogs - releases.rs",
+      "url": "https://releases.rs/docs/1.100.0/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

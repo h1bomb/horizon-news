@@ -1,0 +1,41 @@
+{
+  "id": "ded9c1d9094f3bcfdda5fa5a5ec260a96cba6d03",
+  "canonicalId": "5b3e85fd4334d620f71399560b4fa929fe296e36",
+  "slug": "postgresql-22-年类型混淆原语被串成-rce-利用链",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T18:22:00Z",
+  "lang": "zh",
+  "title": "PostgreSQL 22 年类型混淆原语被串成 RCE 利用链",
+  "summary": "一篇技术文章详细展示了如何将 PostgreSQL 中存续约 22 年的类型混淆原语串联成远程代码执行（RCE）利用链，并将其编号为 CVE-2026-6460。文章面向数据库内核与漏洞利用研究者，重点在利用链的构造过程。现有材料未说明受影响版本、利用前置条件和修复状态。",
+  "score": 8,
+  "tags": [
+    "PostgreSQL",
+    "vulnerability research",
+    "type confusion",
+    "CVE",
+    "exploit development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ozirus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471761"
+    }
+  ],
+  "originalUrl": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+  "originalSite": "mehmetince.net",
+  "context": "",
+  "discussion": "评论者 logophobia 和 jmuguy 认为，这条利用链需要已认证的数据库访问，本质上更接近权限提升而非 RCE；logophobia 还认为主要风险集中在多租户数据库。另有评论者称赞作者公开了从原语到利用链的思路，但这些分类判断仍属社区意见，不能替代厂商确认。",
+  "references": [
+    {
+      "title": "CVE-2026-6460 - Red Hat Customer Portal",
+      "url": "https://access.redhat.com/security/cve/cve-2026-6460"
+    },
+    {
+      "title": "CVE-2026-6460 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2026-6460"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

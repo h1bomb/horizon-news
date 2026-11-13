@@ -1,0 +1,31 @@
+{
+  "id": "6f287f15a3e4804c810161616e123ef4094c6f1f",
+  "canonicalId": "779ca2fd9635347a712590fc726aae6d07550db0",
+  "slug": "umap-06-adds-recursive-init-new-optimizers-faster-search",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T13:51:00Z",
+  "lang": "en",
+  "title": "UMAP 0.6 adds recursive init, new optimizers, faster search",
+  "summary": "UMAP 0.6 is released with a recursive initialization scheme, new optimizers using hard-negative mining, and nearest-neighbor search the maintainer says is about 4x faster through better use of PyNNDescent. The maintainer reports that on 3 million arXiv papers a full run finishes in under 5 minutes with the new optimizers, versus 52 minutes for a seeded UMAP 0.5 run that was single-threaded, and that seeded 0.6 runs are reproducible while using all cores. The new initialization and optimizers are said to improve million-scale cluster detail, but they are opt-in via compatibility\\_layout=False because they change the output; future versions are planned to make them default.",
+  "score": 8,
+  "tags": [
+    "UMAP",
+    "dimensionality reduction",
+    "machine learning",
+    "open source",
+    "performance optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/lmcinnes"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

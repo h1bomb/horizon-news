@@ -1,0 +1,41 @@
+{
+  "id": "0fc090b2fedf424bd8a1c554452addb2c14ff474",
+  "canonicalId": "5b3e85fd4334d620f71399560b4fa929fe296e36",
+  "slug": "postgresql-type-confusion-primitive-chained-into-rce-in-cve-2026-6460",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T18:22:00Z",
+  "lang": "en",
+  "title": "PostgreSQL type-confusion primitive chained into RCE in CVE-2026-6460",
+  "summary": "A new technical write-up describes CVE-2026-6460, tracing a PostgreSQL type-confusion primitive back 22 years and walking through an exploit chain that turns it into remote code execution. The author presents exploit-development research rather than a vendor advisory, so the RCE claim rests on the write-up&\\#x27;s chain. The main dispute in discussion is whether &quot;RCE&quot; is the right label: commenters argue the starting point appears to be an authenticated SQL or database account, making it privilege escalation in practice.",
+  "score": 8,
+  "tags": [
+    "PostgreSQL",
+    "vulnerability research",
+    "type confusion",
+    "CVE",
+    "exploit development"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ozirus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471761"
+    }
+  ],
+  "originalUrl": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+  "originalSite": "mehmetince.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-6460 - Red Hat Customer Portal",
+      "url": "https://access.redhat.com/security/cve/cve-2026-6460"
+    },
+    {
+      "title": "CVE-2026-6460 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2026-6460"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

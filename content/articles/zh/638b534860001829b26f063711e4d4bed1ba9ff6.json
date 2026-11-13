@@ -1,0 +1,41 @@
+{
+  "id": "638b534860001829b26f063711e4d4bed1ba9ff6",
+  "canonicalId": "19edf142065b40b14f81499a53f5a22df712ac2b",
+  "slug": "chips-and-cheese-与-amd-的-mike-clark-深入讨论-zen-6",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T14:12:00Z",
+  "lang": "zh",
+  "title": "Chips and Cheese 与 AMD 的 Mike Clark 深入讨论 Zen 6",
+  "summary": "Chips and Cheese 发布了一篇与 AMD 的 Mike Clark 就 Zen 6 展开的长篇技术对谈，内容形式是设计者访谈，而非产品发布或规格公布。所给材料只包含标题、来源与简短说明，没有访谈正文，因此文中涉及的具体微架构细节、核心数量、制程或时间表都无法在此核实或转述。可确认的只有一点：这是一次由 AMD 芯片设计者本人参与、面向硬件与系统读者的深度技术讨论。",
+  "score": 7,
+  "tags": [
+    "AMD Zen 6",
+    "CPU architecture",
+    "semiconductors",
+    "hardware engineering",
+    "technical interview"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dverlaeckt80",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50467460"
+    }
+  ],
+  "originalUrl": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+  "originalSite": "chipsandcheese.com",
+  "context": "Mike Clark 是 AMD 的 Zen 首席架构师，Zen 6 则是该系列正在推进的新一代 CPU 核心架构。Zen 最初的设计思路是用一套可扩展的微架构覆盖从低功耗到高性能的完整产品线，而不是分别为不同功耗段开发不同核心，这一路线此后延续到各代 Zen 产品。此次内容是他围绕 Zen 6 的技术访谈，而非新品发布。",
+  "discussion": "Hacker News 用户 koutakun 认为文章很有意思，并指出 CPU 设计者愿意如此深入地讲解并不常见。这只是读者对访谈形式的主观评价，并未涉及任何技术论点或具体内容。",
+  "references": [
+    {
+      "title": "Everything Zen : AMD Presents New... | Tom&#x27;s Hardware",
+      "url": "https://www.tomshardware.com/news/amd-zen-cpu-microarchitecture,32540.html"
+    },
+    {
+      "title": "AMD executives say Zen 6 was not designed specifically for... | Межа",
+      "url": "https://mezha.net/eng/news/mezha-385a51640a816c08fe1be1d3_amd_executives_say/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

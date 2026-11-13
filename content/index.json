@@ -1,6 +1,514 @@
 {
   "articles": [
     {
+      "id": "5c9f0e1c6a6a71ef9cfbf93b7a10c02cc09e1d4a",
+      "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
+      "slug": "rust-1100-稳定-never-类型与自定义分配器",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "Rust 1.100 稳定 never 类型与自定义分配器",
+      "score": 8,
+      "tags": [
+        "Rust",
+        "programming languages",
+        "Cargo",
+        "language features",
+        "open source"
+      ],
+      "originalSite": "blog.rust-lang.org"
+    },
+    {
+      "id": "c312f049c84d7798e001574f74ed4fc73466645b",
+      "canonicalId": "8e60012da5d1451ad2f0254b069daa01d166949a",
+      "slug": "黄仁勋被曝辞任英伟达-ceo消息未获证实",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "黄仁勋被曝辞任英伟达 CEO，消息未获证实",
+      "score": 8,
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "AI hardware",
+        "export controls",
+        "Hacker News"
+      ],
+      "originalSite": "apnews.com"
+    },
+    {
+      "id": "e04a8631b46f86541b8784f86e71482f6b552824",
+      "canonicalId": "f101ffad2bb3a11309d8d81bf89cac5b5f4011f0",
+      "slug": "anthropic-ipo-发行细节引发估值争论",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "Anthropic IPO 发行细节引发估值争论",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI industry",
+        "LLM business model",
+        "Hacker News"
+      ],
+      "originalSite": "ipo.anthropic.com"
+    },
+    {
+      "id": "ded9c1d9094f3bcfdda5fa5a5ec260a96cba6d03",
+      "canonicalId": "5b3e85fd4334d620f71399560b4fa929fe296e36",
+      "slug": "postgresql-22-年类型混淆原语被串成-rce-利用链",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "PostgreSQL 22 年类型混淆原语被串成 RCE 利用链",
+      "score": 8,
+      "tags": [
+        "PostgreSQL",
+        "vulnerability research",
+        "type confusion",
+        "CVE",
+        "exploit development"
+      ],
+      "originalSite": "mehmetince.net"
+    },
+    {
+      "id": "0b68da5255ec9077a4bed4c0fdc7bdf49bb9870b",
+      "canonicalId": "779ca2fd9635347a712590fc726aae6d07550db0",
+      "slug": "umap-06-发布新初始化与优化器提速",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "UMAP 0.6 发布：新初始化与优化器提速",
+      "score": 8,
+      "tags": [
+        "UMAP",
+        "dimensionality reduction",
+        "machine learning",
+        "open source",
+        "performance optimization"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "9d194b9a88ddca8795ca6af7f2af52b737bdb324",
+      "canonicalId": "8fdb0296ea11e78cab6bcde925dfee4f06270cbf",
+      "slug": "gemini-4-hydrogen-发布统一-token-定价",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "Gemini 4 Hydrogen 发布：统一 token 定价",
+      "score": 8,
+      "tags": [
+        "Google Gemini",
+        "AI model release",
+        "LLM pricing",
+        "agentic coding",
+        "benchmarks"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "638b534860001829b26f063711e4d4bed1ba9ff6",
+      "canonicalId": "19edf142065b40b14f81499a53f5a22df712ac2b",
+      "slug": "chips-and-cheese-与-amd-的-mike-clark-深入讨论-zen-6",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "Chips and Cheese 与 AMD 的 Mike Clark 深入讨论 Zen 6",
+      "score": 7,
+      "tags": [
+        "AMD Zen 6",
+        "CPU architecture",
+        "semiconductors",
+        "hardware engineering",
+        "technical interview"
+      ],
+      "originalSite": "chipsandcheese.com"
+    },
+    {
+      "id": "5e954eaf56f1ebbcd19857bc889848550dc56d53",
+      "canonicalId": "47e68dc764ba8338864c78906ee3c11c101a4f0a",
+      "slug": "microsoft-365-邮件服务出现长时间降级",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "Microsoft 365 邮件服务出现长时间降级",
+      "score": 7,
+      "tags": [
+        "Microsoft 365",
+        "service outage",
+        "cloud reliability",
+        "incident response"
+      ],
+      "originalSite": "status.cloud.microsoft"
+    },
+    {
+      "id": "5173865a17741a13ea457128e5533f4e9f732b3c",
+      "canonicalId": "0667a519c65042ee1fcd1979931dcd332e244f0b",
+      "slug": "smolmaxxing在不足-1gb-内存旧设备上跑-16b-模型",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "smolmaxxing：在不足 1GB 内存旧设备上跑 16B 模型",
+      "score": 7,
+      "tags": [
+        "local LLMs",
+        "edge inference",
+        "model optimization",
+        "open source",
+        "low-memory hardware"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "a5c743831751e3e150378cc8885ff551904572a9",
+      "canonicalId": "1137121a8ec3bd6100cd0acb27cd6b37a14d4fd8",
+      "slug": "独立测试未发现-tribe-v2-的视网膜与音调拓扑图",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "独立测试未发现 TRIBE v2 的视网膜与音调拓扑图",
+      "score": 7,
+      "tags": [
+        "TRIBE v2",
+        "fMRI decoding",
+        "model evaluation",
+        "retinotopy",
+        "neuroAI"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "c7829727f8682ce1eb38c2c1b276ac16a5c9f32f",
+      "canonicalId": "b6cab54de45545caf83836f6b808f1f42754323b",
+      "slug": "美商务部将定稿远程用芯规则管制扩至新加坡等七国",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "美商务部将定稿远程用芯规则，管制扩至新加坡等七国",
+      "score": 7,
+      "tags": [
+        "出口管制",
+        "AI芯片",
+        "半导体供应链",
+        "美中科技政策",
+        "数据中心"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
+      "id": "b72026879a645084d5c13a2abfc76080d6009fd8",
+      "canonicalId": "fa3da548c99baf0fb978902221e96875c05f78c4",
+      "slug": "苹果详解-secure-exclaves隔离音视频处理并硬件校验录音指示点",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "苹果详解 Secure Exclaves：隔离音视频处理并硬件校验录音指示点",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "security architecture",
+        "privacy",
+        "secure enclaves",
+        "audio/video"
+      ],
+      "originalSite": "security.apple.com"
+    },
+    {
+      "id": "0fd7e828fb763ca1283fa9cd3973a362be01d398",
+      "canonicalId": "1ba52ba6ab374716f98073496e0372d618a44867",
+      "slug": "美联储调整会议安排2027-年-10-月会议不进行利率投票",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "美联储调整会议安排：2027 年 10 月会议不进行利率投票",
+      "score": 7,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "FOMC",
+        "central bank communication",
+        "meeting schedule"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "4b5c27e8a1591c71e38eca76dea59007b114e26e",
+      "canonicalId": "6e0a9a613845665be54fa118dd37e4b21e8f9688",
+      "slug": "特朗普称无需伊朗协议后油价上涨",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "特朗普称无需伊朗协议后油价上涨",
+      "score": 7,
+      "tags": [
+        "oil prices",
+        "Iran",
+        "Strait of Hormuz",
+        "geopolitical risk",
+        "energy markets"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "f5e1cfe7cf9d145b41e927772d6aa678d61b63b4",
+      "canonicalId": "ae5db489df9bdc42c2a41a9b48bcc4f940b25d57",
+      "slug": "礼来口服减重药奥氟格列隆在华获批系国内首个口服-glp-1-减重药",
+      "date": "2026-11-13",
+      "lang": "zh",
+      "title": "礼来口服减重药奥氟格列隆在华获批，系国内首个口服 GLP-1 减重药",
+      "score": 7,
+      "tags": [
+        "pharmaceutical regulation",
+        "GLP-1",
+        "Eli Lilly",
+        "China healthcare",
+        "obesity treatment"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "233bf012df91a74a4488574f89da60b0ba9bd983",
+      "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
+      "slug": "rust-1100-stabilizes-never-type-and-custom-allocators-adds-cargo-cooldowns",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Rust 1.100 stabilizes never type and custom allocators, adds Cargo cooldowns",
+      "score": 8,
+      "tags": [
+        "Rust",
+        "programming languages",
+        "Cargo",
+        "language features",
+        "open source"
+      ],
+      "originalSite": "blog.rust-lang.org"
+    },
+    {
+      "id": "f80ba760bae0d6af7d256bce0fcc21a19df8edd0",
+      "canonicalId": "8e60012da5d1451ad2f0254b069daa01d166949a",
+      "slug": "hacker-news-post-alleges-jensen-huang-has-resigned-as-nvidia-ceo",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Hacker News post alleges Jensen Huang has resigned as NVIDIA CEO",
+      "score": 8,
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "AI hardware",
+        "export controls",
+        "Hacker News"
+      ],
+      "originalSite": "apnews.com"
+    },
+    {
+      "id": "7132e366d9c169f0d0b8d4a225d0355a914eb68a",
+      "canonicalId": "f101ffad2bb3a11309d8d81bf89cac5b5f4011f0",
+      "slug": "anthropic-ipo-page-lists-7078-price-range-968b-implied-valuation",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Anthropic IPO page lists $70–78 price range, ~$968B implied valuation",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI industry",
+        "LLM business model",
+        "Hacker News"
+      ],
+      "originalSite": "ipo.anthropic.com"
+    },
+    {
+      "id": "0fc090b2fedf424bd8a1c554452addb2c14ff474",
+      "canonicalId": "5b3e85fd4334d620f71399560b4fa929fe296e36",
+      "slug": "postgresql-type-confusion-primitive-chained-into-rce-in-cve-2026-6460",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "PostgreSQL type-confusion primitive chained into RCE in CVE-2026-6460",
+      "score": 8,
+      "tags": [
+        "PostgreSQL",
+        "vulnerability research",
+        "type confusion",
+        "CVE",
+        "exploit development"
+      ],
+      "originalSite": "mehmetince.net"
+    },
+    {
+      "id": "6f287f15a3e4804c810161616e123ef4094c6f1f",
+      "canonicalId": "779ca2fd9635347a712590fc726aae6d07550db0",
+      "slug": "umap-06-adds-recursive-init-new-optimizers-faster-search",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "UMAP 0.6 adds recursive init, new optimizers, faster search",
+      "score": 8,
+      "tags": [
+        "UMAP",
+        "dimensionality reduction",
+        "machine learning",
+        "open source",
+        "performance optimization"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "a1daa2955598949911a9655f8b5e7aec696e3b99",
+      "canonicalId": "8fdb0296ea11e78cab6bcde925dfee4f06270cbf",
+      "slug": "google-releases-gemini-4-hydrogen-claims-25-speedup-and-unified-pricing",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Google releases Gemini 4 Hydrogen, claims 2.5× speedup and unified pricing",
+      "score": 8,
+      "tags": [
+        "Google Gemini",
+        "AI model release",
+        "LLM pricing",
+        "agentic coding",
+        "benchmarks"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "1536fc8d20002f3dd1631b102c935c74778db994",
+      "canonicalId": "19edf142065b40b14f81499a53f5a22df712ac2b",
+      "slug": "chips-and-cheese-interviews-amds-mike-clark-on-zen-6",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Chips and Cheese Interviews AMD’s Mike Clark on Zen 6",
+      "score": 7,
+      "tags": [
+        "AMD Zen 6",
+        "CPU architecture",
+        "semiconductors",
+        "hardware engineering",
+        "technical interview"
+      ],
+      "originalSite": "chipsandcheese.com"
+    },
+    {
+      "id": "582ca2c9f8932b53e5d6f1e33bd92979e38ebe36",
+      "canonicalId": "47e68dc764ba8338864c78906ee3c11c101a4f0a",
+      "slug": "microsoft-365-degradation-leaves-some-email-down-for-hours",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Microsoft 365 degradation leaves some email down for hours",
+      "score": 7,
+      "tags": [
+        "Microsoft 365",
+        "service outage",
+        "cloud reliability",
+        "incident response"
+      ],
+      "originalSite": "status.cloud.microsoft"
+    },
+    {
+      "id": "e40ff426903a1a9f9caae23b5328596adf4e9610",
+      "canonicalId": "0667a519c65042ee1fcd1979931dcd332e244f0b",
+      "slug": "smolmaxxing-publishes-kernels-for-llms-on-sub-1gb-devices",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "smolmaxxing publishes kernels for LLMs on sub-1GB devices",
+      "score": 7,
+      "tags": [
+        "local LLMs",
+        "edge inference",
+        "model optimization",
+        "open source",
+        "low-memory hardware"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "bdbf431346118dc3945b73410fb50c132bf4caae",
+      "canonicalId": "1137121a8ec3bd6100cd0acb27cd6b37a14d4fd8",
+      "slug": "reddit-audit-of-tribe-v2-finds-motion-selectivity-but-no-retinotopytonotopy",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Reddit audit of TRIBE v2 finds motion selectivity but no retinotopy/tonotopy",
+      "score": 7,
+      "tags": [
+        "TRIBE v2",
+        "fMRI decoding",
+        "model evaluation",
+        "retinotopy",
+        "neuroAI"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "e94cecdadd7a055ae9bbc0e11747293982ab0e62",
+      "canonicalId": "b6cab54de45545caf83836f6b808f1f42754323b",
+      "slug": "us-commerce-finalizing-rule-to-block-chinese-ai-remote-chip-access",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "US Commerce finalizing rule to block Chinese AI remote chip access",
+      "score": 7,
+      "tags": [
+        "出口管制",
+        "AI芯片",
+        "半导体供应链",
+        "美中科技政策",
+        "数据中心"
+      ],
+      "originalSite": "theinformation.com"
+    },
+    {
+      "id": "54176d6e4862f5f7c92a03e7f5cc22d46a6977d1",
+      "canonicalId": "fa3da548c99baf0fb978902221e96875c05f78c4",
+      "slug": "apple-details-secure-exclaves-audiovideo-privacy-and-recording-indicator-checks",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Apple details Secure Exclaves audio/video privacy and recording-indicator checks",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "security architecture",
+        "privacy",
+        "secure enclaves",
+        "audio/video"
+      ],
+      "originalSite": "security.apple.com"
+    },
+    {
+      "id": "877e1b092616d776d5bd871437cc3c7850d1b89f",
+      "canonicalId": "1ba52ba6ab374716f98073496e0372d618a44867",
+      "slug": "fed-to-skip-rate-vote-at-october-2027-meeting",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Fed to Skip Rate Vote at October 2027 Meeting",
+      "score": 7,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "FOMC",
+        "central bank communication",
+        "meeting schedule"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "28f095dc681d5dfde1a5c2204f06a28acd7b0610",
+      "canonicalId": "6e0a9a613845665be54fa118dd37e4b21e8f9688",
+      "slug": "oil-prices-climb-after-trump-says-no-iran-deal-needed",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "Oil prices climb after Trump says no Iran deal needed",
+      "score": 7,
+      "tags": [
+        "oil prices",
+        "Iran",
+        "Strait of Hormuz",
+        "geopolitical risk",
+        "energy markets"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "682afa1c7200751a307711b5903cbe025d6d4de5",
+      "canonicalId": "ae5db489df9bdc42c2a41a9b48bcc4f940b25d57",
+      "slug": "礼来口服减重药在中国获批成为国内首个口服-glp-1",
+      "date": "2026-11-13",
+      "lang": "en",
+      "title": "礼来口服减重药在中国获批，成为国内首个口服 GLP-1",
+      "score": 7,
+      "tags": [
+        "pharmaceutical regulation",
+        "GLP-1",
+        "Eli Lilly",
+        "China healthcare",
+        "obesity treatment"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
       "id": "e7deb9833c1cd2ad619caa63ced87a80adff98c1",
       "canonicalId": "70a69d3bb58228021bc9cc8347babadc9bc0bc9b",
       "slug": "aws-发布本地模拟器-aws-emulator由-ai-智能体三周提交近-3-万次",
@@ -4905,618 +5413,6 @@
         "hardware accelerators"
       ],
       "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "168e5861b24fd6d3f143fbc57c66d11f6ac98fbb",
-      "canonicalId": "c857d00b04e61c1b9d3b351f90d7d33670dcc71c",
-      "slug": "emudhra-宣布退出全球-ssltls-证书业务",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "eMudhra 宣布退出全球 SSL/TLS 证书业务",
-      "score": 8,
-      "tags": [
-        "SSL/TLS",
-        "certificate authorities",
-        "PKI security",
-        "browser trust stores",
-        "security incidents"
-      ],
-      "originalSite": "emudhra.com"
-    },
-    {
-      "id": "88b03569884644d892fef121d8a6403ff9b64dce",
-      "canonicalId": "49bb51281ca6ef207fa3f3e3ea667e00f978aed1",
-      "slug": "switch-2-越狱与-llm-代理自动化漏洞研究",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "Switch 2 越狱与 LLM 代理自动化漏洞研究",
-      "score": 8,
-      "tags": [
-        "console hacking",
-        "security research",
-        "LLM agents",
-        "hardware automation",
-        "Nintendo Switch 2"
-      ],
-      "originalSite": "pepsipu.com"
-    },
-    {
-      "id": "7802da89526d2ffafa998d86632098164bf4d718",
-      "canonicalId": "d2f362921d4537c89286ab65d5a381f12f0dcb03",
-      "slug": "quad9-因-dns-封锁争议拟退出法国",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "Quad9 因 DNS 封锁争议拟退出法国",
-      "score": 8,
-      "tags": [
-        "DNS",
-        "internet infrastructure",
-        "geo-blocking",
-        "legal policy",
-        "Quad9"
-      ],
-      "originalSite": "quad9.net"
-    },
-    {
-      "id": "7fc7db80e3c29782e5918620ee1e642ce342047f",
-      "canonicalId": "84d93a6b8ab7a4b067da1fd3c6b76c80f5a9cacd",
-      "slug": "澳法院令苹果-2027-年开放第三方应用商店",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "澳法院令苹果 2027 年开放第三方应用商店",
-      "score": 8,
-      "tags": [
-        "Apple",
-        "antitrust",
-        "app stores",
-        "Australia",
-        "Epic Games"
-      ],
-      "originalSite": "9to5mac.com"
-    },
-    {
-      "id": "0e77ff3fe1b965931e4dedb71c0e9012324025b6",
-      "canonicalId": "4dcdb955782720745c63884f1e5a19f3e6e44932",
-      "slug": "openshell面向自主-ai-代理集群的受控运行时",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "OpenShell：面向自主 AI 代理集群的受控运行时",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "agent security",
-        "sandboxed runtime",
-        "container isolation",
-        "NVIDIA"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "a6f1ce8787b963dcfe6740ed74a900fe0f7cdc5d",
-      "canonicalId": "81e96efb7f3eb63ba9b0236e331e5ba93b82c22e",
-      "slug": "earstrip-三角剖分-370-万地图多边形耗时-489-毫秒",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "Earstrip 三角剖分 370 万地图多边形耗时 489 毫秒",
-      "score": 7,
-      "tags": [
-        "computational-geometry",
-        "triangulation",
-        "performance-optimization",
-        "webassembly",
-        "gis"
-      ],
-      "originalSite": "globus.software"
-    },
-    {
-      "id": "ce784891bceb68c8ded9b028dd89449c94b48588",
-      "canonicalId": "a816b657efa82b583f97f23ccbf913e3a7f6d913",
-      "slug": "getting-ready-to-operate-gnu-taler-in-germany",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "Getting ready to operate GNU Taler in Germany",
-      "score": 7,
-      "tags": [
-        "GNU Taler",
-        "digital payments",
-        "privacy",
-        "open source",
-        "Germany"
-      ],
-      "originalSite": "taler.net"
-    },
-    {
-      "id": "58aa3fa5bde294c895fa3f91ddcb349a8156b384",
-      "canonicalId": "340d69bec7861ecaa20682f17bb6d03674276ef1",
-      "slug": "github-项目声称在-android-与-qemu-上运行-ios-165",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "GitHub 项目声称在 Android 与 QEMU 上运行 iOS 16.5",
-      "score": 7,
-      "tags": [
-        "iOS",
-        "Android",
-        "XNU",
-        "QEMU",
-        "systems hacking"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "2b33863c832e2466db3402c113b40ab3c989adc4",
-      "canonicalId": "f29afd1567254e522e6c18a4627730e71ee39ae7",
-      "slug": "anthropic-将-agent-skills-标准捐赠给-agentic-ai-foundation",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "Anthropic 将 Agent Skills 标准捐赠给 Agentic AI Foundation",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "open standards",
-        "Anthropic",
-        "Linux Foundation",
-        "Model Context Protocol"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "6d436babc83d04c2bbd259686319b2f46ba5398f",
-      "canonicalId": "1ae6e5747c76d07e41e3291ea968efb73695a180",
-      "slug": "keepassxc-280-发布迁移-qt6-并支持-wayland-自动输入",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "KeePassXC 2.8.0 发布，迁移 Qt6 并支持 Wayland 自动输入",
-      "score": 7,
-      "tags": [
-        "open source",
-        "password management",
-        "security",
-        "Linux",
-        "software release"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "c95bfb6f3676f9eaa0c58b4e9d4abb088c136bac",
-      "canonicalId": "45779fe8f11c71dbcbc731c6f0e655d9626bd53a",
-      "slug": "研究部分智能电视关闭-acr-后仍上传观看数据",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "研究：部分智能电视关闭 ACR 后仍上传观看数据",
-      "score": 7,
-      "tags": [
-        "智能电视",
-        "ACR",
-        "隐私安全",
-        "IoT",
-        "明文传输"
-      ],
-      "originalSite": "watchingthewatchers.github.io"
-    },
-    {
-      "id": "ea8a30ab8cca70ede14614cf36cff2e2fe78ee9f",
-      "canonicalId": "a9a5015e53821a351b8a78fd3cbd753239c06d1f",
-      "slug": "米哈游与清华开源-gamescaling-键鼠操作模型",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "米哈游与清华开源 GameScaling 键鼠操作模型",
-      "score": 7,
-      "tags": [
-        "game AI",
-        "vision-language models",
-        "open source",
-        "model scaling",
-        "keyboard-mouse control"
-      ],
-      "originalSite": "arxiv.org"
-    },
-    {
-      "id": "0bb036d2c9519bc76561587daceb7d8a27ad150e",
-      "canonicalId": "621250faf996ff4b43cb3fff87ab4ba7a9b3e366",
-      "slug": "333-个-tor-出口节点因-ebury-后门被下线",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "333 个 Tor 出口节点因 Ebury 后门被下线",
-      "score": 7,
-      "tags": [
-        "Tor",
-        "网络安全",
-        "Ebury后门",
-        "SSH凭据窃取",
-        "出口节点"
-      ],
-      "originalSite": "kaba.cx"
-    },
-    {
-      "id": "ab5573a74d3d1bc3772331526fb55c780bebcc69",
-      "canonicalId": "d08cae0a993282161828166eb5e5bfa7f1f53e31",
-      "slug": "报告称中国国资融资购入禁运的英伟达-b300-服务器",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "报告称中国国资融资购入禁运的英伟达 B300 服务器",
-      "score": 7,
-      "tags": [
-        "Nvidia B300",
-        "export controls",
-        "AI hardware",
-        "China",
-        "semiconductor supply chain"
-      ],
-      "originalSite": "theinference.org"
-    },
-    {
-      "id": "81bbead5b67cbffcc4c972441fea91acb4163d75",
-      "canonicalId": "78be2fcdc5232780c9fd337385b06bf3854b7447",
-      "slug": "软件慢在设计而非慢语言",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "软件慢在设计，而非慢语言",
-      "score": 6,
-      "tags": [
-        "performance-optimization",
-        "software-design",
-        "amdahls-law",
-        "profiling",
-        "io-bound"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "5ce13115e2a14ed16c3d6b79f50298c3c5f1955b",
-      "canonicalId": "50b4ed3837a418af3bbbaf4b1042b9c8a14d2ee8",
-      "slug": "沪深-300-较-6-月高点回落-20a-股逼近熊市",
-      "date": "2026-10-23",
-      "lang": "zh",
-      "title": "沪深 300 较 6 月高点回落 20%，A 股逼近熊市",
-      "score": 8,
-      "tags": [
-        "China A-shares",
-        "CSI 300",
-        "bear market",
-        "Hang Seng Tech",
-        "CATL earnings"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "696a67781ac75567622a0414b6844dd0953dc747",
-      "canonicalId": "764a23f0c296d60d725440ef791fd9dcafe9c5e9",
-      "slug": "duckdb-200-lts-发布多核扩展客户端-服务器与触发器",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "DuckDB 2.0.0 LTS 发布：多核扩展、客户端-服务器与触发器",
-      "score": 9,
-      "tags": [
-        "DuckDB",
-        "databases",
-        "analytics",
-        "open source",
-        "release"
-      ],
-      "originalSite": "duckdb.org"
-    },
-    {
-      "id": "98428480af472c8228b75403f4e169d1d633f689",
-      "canonicalId": "11e92edf73fbbb01d6eb6c5489810e1d7111241b",
-      "slug": "php-8235-安全更新修复两项未认证-rce-漏洞",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "PHP 8.2.35 安全更新修复两项未认证 RCE 漏洞",
-      "score": 9,
-      "tags": [
-        "PHP",
-        "security",
-        "RCE",
-        "coordinated disclosure",
-        "AI security"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "05f1a99de136ecd9bcec01aa6da1678760b4715e",
-      "canonicalId": "5699ea0146a98f847ef4646a2c965924a2f84dc0",
-      "slug": "railway-发布安全披露社区称环境变量被第三方使用",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "Railway 发布安全披露，社区称环境变量被第三方使用",
-      "score": 8,
-      "tags": [
-        "security-incident",
-        "cloud-platform",
-        "secrets-management",
-        "environment-variables",
-        "railway"
-      ],
-      "originalSite": "blog.railway.com"
-    },
-    {
-      "id": "7c32a0542f49c46419ec05d33f715bf063550787",
-      "canonicalId": "a0e7a23f62c47cb2f9eddbfbd1783756bf2c7da2",
-      "slug": "litellm-11070-被曝在-pypi-植入凭据窃取与后门",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "LiteLLM 1.107.0 被曝在 PyPI 植入凭据窃取与后门",
-      "score": 8,
-      "tags": [
-        "supply chain security",
-        "LiteLLM",
-        "PyPI",
-        "credential stealing",
-        "open source security"
-      ],
-      "originalSite": "safedep.io"
-    },
-    {
-      "id": "33e943d91e5eb767c4f6844d5aa4168a099dab6c",
-      "canonicalId": "14e022775599965be7ecfbb405361aa9b2282724",
-      "slug": "emudhra-中间-ca-私钥仅-256-种可能firefox-等紧急封锁",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "eMudhra 中间 CA 私钥仅 256 种可能，Firefox 等紧急封锁",
-      "score": 8,
-      "tags": [
-        "TLS",
-        "certificate authorities",
-        "cryptography",
-        "security vulnerability",
-        "public key infrastructure"
-      ],
-      "originalSite": "scotthelme.co.uk"
-    },
-    {
-      "id": "a95a50523b8e032702a0f55bb9f50a26735eaa51",
-      "canonicalId": "e31bf18aa91a4628a3cc17e713329c6ebb65ab63",
-      "slug": "nodejs-修复-brotli-越界写入等-10-个漏洞",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "Node.js 修复 Brotli 越界写入等 10 个漏洞",
-      "score": 8,
-      "tags": [
-        "Node.js",
-        "security vulnerabilities",
-        "CVE",
-        "remote code execution",
-        "open source"
-      ],
-      "originalSite": "nodejs.org"
-    },
-    {
-      "id": "1737712f6bd92a38c75b523a147364f3c33615d5",
-      "canonicalId": "af5d3897eb075e9452e942e6e2bcc54bc1710019",
-      "slug": "新墨西哥州在剑桥分析相关案件中获对-meta-250-亿美元罚款",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "新墨西哥州在剑桥分析相关案件中获对 Meta 250 亿美元罚款",
-      "score": 7,
-      "tags": [
-        "Meta",
-        "privacy regulation",
-        "Cambridge Analytica",
-        "tech policy",
-        "New Mexico"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "0598cd96eaa0f17b7a5fbe3e61aca82d07694d15",
-      "canonicalId": "61f4d0141ff303c02405716db977e4c6353bca59",
-      "slug": "openai-模型将进驻-google-cloud-model-garden",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "OpenAI 模型将进驻 Google Cloud Model Garden",
-      "score": 7,
-      "tags": [
-        "OpenAI",
-        "Google Cloud",
-        "AI infrastructure",
-        "cloud competition",
-        "enterprise AI"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "b51b81cf95d811be00c2df244513032bdf7befa4",
-      "canonicalId": "7cd25ce54ea6a92776982875699c581836189fa7",
-      "slug": "gitlab-发布-1951-关键补丁应对正则漏洞",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "GitLab 发布 19.5.1 关键补丁应对正则漏洞",
-      "score": 7,
-      "tags": [
-        "gitlab",
-        "security-vulnerability",
-        "cve",
-        "regex",
-        "patch-release"
-      ],
-      "originalSite": "docs.gitlab.com"
-    },
-    {
-      "id": "43b2842befe8b4979f2d28f85a6427d4c37da18b",
-      "canonicalId": "1f0065db775ebb7fae137cf9ad2fb21e345ec297",
-      "slug": "nodejs-修复-brotli-远程代码执行漏洞musl-libc-公布越界写问题",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "Node.js 修复 Brotli 远程代码执行漏洞，musl libc 公布越界写问题",
-      "score": 7,
-      "tags": [
-        "security vulnerabilities",
-        "Node.js",
-        "musl libc",
-        "remote code execution",
-        "vulnerability disclosure"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "fdd61f3f73f9344bc7c3498c264d71efdaeb1b58",
-      "canonicalId": "6f436e206df60a0d34e6e9664c01a95118371493",
-      "slug": "linux-内核模块哈希校验兼顾可复现构建",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "Linux 内核模块哈希校验兼顾可复现构建",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "reproducible builds",
-        "module integrity",
-        "security",
-        "Linux Plumbers Conference"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "fb8f1ecf0f950a13e984daad11ee4ca45287b707",
-      "canonicalId": "bcf23d80258f94aa0bac3a91d5f30c37bf751a61",
-      "slug": "lwn-解析-nix-flakes实验特性下的可复现构建",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "LWN 解析 Nix flakes：实验特性下的可复现构建",
-      "score": 7,
-      "tags": [
-        "Nix",
-        "Nix flakes",
-        "package management",
-        "reproducible builds",
-        "software engineering"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "c4c23a9c6807abaf5500e99ac45cdecd7702af3f",
-      "canonicalId": "b4b1f48ec5f3699b08109cbc25ce6c704ccbd3a0",
-      "slug": "amd-fsr-41-扩展至-rx-6000-与-xboxvulkan-支持待落地",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "AMD FSR 4.1 扩展至 RX 6000 与 Xbox，Vulkan 支持待落地",
-      "score": 7,
-      "tags": [
-        "AMD FSR",
-        "GPU upscaling",
-        "RX 6000",
-        "Vulkan",
-        "Xbox"
-      ],
-      "originalSite": "newsroom.amd.com"
-    },
-    {
-      "id": "eb9a3859c80b7cf425af884c0f86ac53c94788a1",
-      "canonicalId": "0181caf4503d6b19e5a1c6ab21d03e7ea7a45237",
-      "slug": "spacex-下月首次尝试同时回收星舰与助推器",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "SpaceX 下月首次尝试同时回收星舰与助推器",
-      "score": 7,
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "可复用火箭",
-        "航天",
-        "硬件"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "e5c3dd5f5da3975f85138510a421680507e21564",
-      "canonicalId": "6b8e1c38d38f9ec36a36382878b6975afd846937",
-      "slug": "uber-autoclean-自动清理过期-feature-flag",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "Uber AutoClean 自动清理过期 feature flag",
-      "score": 7,
-      "tags": [
-        "AI 代码清理",
-        "技术债",
-        "feature flag",
-        "软件工程",
-        "代码审核自动化"
-      ],
-      "originalSite": "uber.com"
-    },
-    {
-      "id": "1134b401adfd175733370e734a787aebd4e52c89",
-      "canonicalId": "c269a6da1e51c72790fdda81cbd8cd574bab6200",
-      "slug": "英特尔-amd-合作整合-x86-cpu-ai-优化",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "英特尔 AMD 合作整合 x86 CPU AI 优化",
-      "score": 7,
-      "tags": [
-        "x86",
-        "oneDNN",
-        "PyTorch",
-        "AMD",
-        "AI infrastructure"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "be7354ae3bc565e6b957a21999d39f576eec728a",
-      "canonicalId": "b907d27ced0f33b211066a929a90174486c58aa9",
-      "slug": "英伟达扩展-isaac-平台新增人形机器人框架与-isaac-lab-30",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "英伟达扩展 Isaac 平台，新增人形机器人框架与 Isaac Lab 3.0",
-      "score": 7,
-      "tags": [
-        "NVIDIA",
-        "robotics",
-        "Isaac Platform",
-        "simulation",
-        "AI training"
-      ],
-      "originalSite": "nvidianews.nvidia.com"
-    },
-    {
-      "id": "f862276572cff4c7ca2b42209528c6e40c6b3866",
-      "canonicalId": "7a316966da68001aceff862643547a5164ac5a55",
-      "slug": "go-修复-cve-2026-111943-证书验证问题缓解-mitm-风险",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "Go 修复 CVE-2026-111943 证书验证问题，缓解 MITM 风险",
-      "score": 7,
-      "tags": [
-        "Go",
-        "crypto/x509",
-        "certificate validation",
-        "CVE",
-        "MITM"
-      ],
-      "originalSite": "access.redhat.com"
-    },
-    {
-      "id": "d719f88ed1f47c63b1cef65fe68f33f75e77f196",
-      "canonicalId": "c83d7267f480811b0009996bb9b36778e907809d",
-      "slug": "llm-提示缓存与语义缓存对比",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "LLM 提示缓存与语义缓存对比",
-      "score": 6,
-      "tags": [
-        "LLM caching",
-        "prompt caching",
-        "semantic caching",
-        "KV cache",
-        "cache invalidation"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "c30cc3f517c49172a34d9706541f39615ade2291",
-      "canonicalId": "eb16235ac421051a71858f3494a3580bd972ed84",
-      "slug": "rfd4-proteina-的奖励引导推理时搜索",
-      "date": "2026-10-22",
-      "lang": "zh",
-      "title": "RFD4-Proteina 的奖励引导推理时搜索",
-      "score": 6,
-      "tags": [
-        "protein-design",
-        "inference-time-search",
-        "generative-models",
-        "NVIDIA-BioNeMo",
-        "tutorial"
-      ],
-      "originalSite": "developer.nvidia.com"
     }
   ]
 }

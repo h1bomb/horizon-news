@@ -1,0 +1,40 @@
+{
+  "id": "a5c743831751e3e150378cc8885ff551904572a9",
+  "canonicalId": "1137121a8ec3bd6100cd0acb27cd6b37a14d4fd8",
+  "slug": "独立测试未发现-tribe-v2-的视网膜与音调拓扑图",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T17:16:00Z",
+  "lang": "zh",
+  "title": "独立测试未发现 TRIBE v2 的视网膜与音调拓扑图",
+  "summary": "一位研究者用棋盘格楔形和环形、半视野闪烁、运动点和音调扫频等经典映射刺激，测试 Meta 的 TRIBE v2 fMRI 预测模型，报告未发现视网膜拓扑图（d=0.05，不显著）或音调拓扑图（ρ=-0.07，不显著，控制响度后依然不显著），但在 MT+ 区域发现强烈且定位准确的运动选择性（d=4.31，为随机水平的 52 倍）。该研究者还称，偏心度结果在加入三种刺激几何控制后，由不显著变为显著且方向“正确”，提示此前的空间信号可能是图像统计造成的混杂，而非真正的位点编码。上述结果来自个人自费项目的 Reddit 帖及公开代码和论文，尚未经过同行评审，应作为独立复现线索，不宜视为定论。",
+  "score": 7,
+  "tags": [
+    "TRIBE v2",
+    "fMRI decoding",
+    "model evaluation",
+    "retinotopy",
+    "neuroAI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Own\\_Tank1283"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xuillf/does_metas_brainresponse_model_tribe_v2_actually/",
+  "originalSite": "reddit.com",
+  "context": "TRIBE v2 是 Meta 于 2026 年 3 月 26 日发布的脑编码基础模型，用视频、音频和文本预测自然刺激下的 fMRI 响应，并把多模态表征映射到皮层表面。视网膜拓扑图、音调拓扑图和 MT+ 运动选择性是经典的 fMRI 定位范式，用来检验模型是否保留位置与感觉通道的空间组织；此次讨论正是围绕这些经典图谱展开。",
+  "discussion": "对使用 TRIBE v2 或类似视频/脑编码模型的研究者而言，这项测试提示：在声称模型恢复了视网膜拓扑、音调拓扑或空间位置编码之前，需要加入刺激几何和图像统计控制，并分别验证空间位置信息（WHERE）与内容信息（WHAT）；否则预测表现可能被误读为脑区组织。MT+ 的运动选择性则可作为该模型相对可靠的正向对照。",
+  "references": [
+    {
+      "title": "Introducing TRIBE v2: A Predictive Foundation Model Trained ...",
+      "url": "https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/"
+    },
+    {
+      "title": "GitHub - facebookresearch/tribev2: This repository contains ...",
+      "url": "https://github.com/facebookresearch/tribev2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

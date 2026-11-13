@@ -1,0 +1,31 @@
+{
+  "id": "0b68da5255ec9077a4bed4c0fdc7bdf49bb9870b",
+  "canonicalId": "779ca2fd9635347a712590fc726aae6d07550db0",
+  "slug": "umap-06-发布新初始化与优化器提速",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T13:51:00Z",
+  "lang": "zh",
+  "title": "UMAP 0.6 发布：新初始化与优化器提速",
+  "summary": "UMAP 维护者 lmcinnes 发布了 0.6 版，引入递归初始化、新优化器和更快的近邻搜索。维护者称，借助对 PyNNDescent 的更充分利用，近邻搜索约快 4 倍；在 300 万篇 arXiv 论文数据上，0.6 不到 5 分钟完成，而固定随机种子的 0.5 运行需 52 分钟且为单线程。新初始化用 UMAP 自身从粗粒度图逐层细化，新优化器加入高效硬负采样并放宽对斥力强度的限制，维护者称这提升了百万级数据上的细节分辨率和 kNN 召回。新初始化和优化器目前需设置 compatibility\\_layout=False 启用，因为它们会改变输出；未来版本才计划设为默认，用户可通过 pip 或 conda-forge 升级。",
+  "score": 8,
+  "tags": [
+    "UMAP",
+    "dimensionality reduction",
+    "machine learning",
+    "open source",
+    "performance optimization"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/lmcinnes"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
+  "originalSite": "reddit.com",
+  "context": "UMAP 通过构建最近邻图、再以吸引—排斥的随机梯度优化把高维数据铺到低维空间，初始布局离最终结果越远，优化所需轮次就越多。此前的 0.5 版以谱分解（spectral）或 PCA 作为初始布局，这些起点与最终结构相差较大；据该发布说明，0.5 在固定随机种子下只能单线程运行，处理约 300 万篇 arXiv 论文耗时 52 分钟。0.6 版正是针对这两个环节——初始化与优化器——与 0.5 作对照。",
+  "discussion": "启用 compatibility\\_layout=False 的用户应预期嵌入坐标和聚类结果与 0.5 不同，需要重跑依赖固定布局的下游分析；若必须保持旧输出，应继续使用默认兼容模式或固定旧版本。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

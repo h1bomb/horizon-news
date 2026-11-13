@@ -1,0 +1,41 @@
+{
+  "id": "5173865a17741a13ea457128e5533f4e9f732b3c",
+  "canonicalId": "0667a519c65042ee1fcd1979931dcd332e244f0b",
+  "slug": "smolmaxxing在不足-1gb-内存旧设备上跑-16b-模型",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T15:23:00Z",
+  "lang": "zh",
+  "title": "smolmaxxing：在不足 1GB 内存旧设备上跑 16B 模型",
+  "summary": "开源项目 smolmaxxing 公开了自定义内核、修改后的模型和复现结果，目标是让大语言模型在内存极小的老旧硬件上完成推理。项目作者称，已在可用内存不足 1GB 的第一代 iPad Air 和小米电视盒子上运行 16B 模型，并在这些硬件上达到“尚可”的速度；相关修改模型已放在 Hugging Face。上述 16B 模型和速度数据均为作者自述，尚未看到独立验证，材料中也没有给出具体吞吐量或内存占用数字。",
+  "score": 7,
+  "tags": [
+    "local LLMs",
+    "edge inference",
+    "model optimization",
+    "open source",
+    "low-memory hardware"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mrashad74",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
+    }
+  ],
+  "originalUrl": "https://github.com/hyperionaidev/smolmaxxing/",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "对本地和边缘推理开发者而言，公开的内核与模型权重便于在旧 ARM 设备上复现实验；但采用前仍需自行核验真实内存占用、吞吐和数值正确性，因为当前只有作者报告。\n\n评论区既有质疑也有实践反馈：一位评论者认为现代编码代理已能一次性生成这类推理引擎，真正困难的是找到旧硬件并开放 SSH；另一位则分享了自己从 Qwen 2.5 0.5B 微调到可在本地运行的 6.5M 参数推理模型的经验。也有用户表示，旧 Maxwell/Pascal 显卡上小模型的工具调用输出正变得可用，但这仍属个人实验反馈。",
+  "references": [
+    {
+      "title": "GitHub - hyperionaidev / smolmaxxing : maxxing the ability to run...",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/"
+    },
+    {
+      "title": "16 млрд параметров на ТВ-приставке: 5,1 токена в секунду Xiaomi ...",
+      "url": "https://dzen.ru/b/avYB4oD4cDo6u0G6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

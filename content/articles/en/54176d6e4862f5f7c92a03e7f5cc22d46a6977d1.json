@@ -1,0 +1,40 @@
+{
+  "id": "54176d6e4862f5f7c92a03e7f5cc22d46a6977d1",
+  "canonicalId": "fa3da548c99baf0fb978902221e96875c05f78c4",
+  "slug": "apple-details-secure-exclaves-audiovideo-privacy-and-recording-indicator-checks",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T09:13:00Z",
+  "lang": "en",
+  "title": "Apple details Secure Exclaves audio/video privacy and recording-indicator checks",
+  "summary": "Apple published a Nov. 12 explainer on Secure Exclaves, an isolated security environment that processes audio and video so the main system and apps in ambient-sensing modes receive only the recognition results they need rather than raw data. Apple says the architecture is used in HomeView&\\#x27;s face and sound recognition and in the iPhone 18 Pro privacy indicator. On the iPhone 18 Pro, Apple says dedicated hardware verifies the microphone dot&\\#x27;s color, brightness, and visibility before audio can enter the main system, and that relevant Siri audio sessions must keep the dot displayed for at least three seconds. These are Apple&\\#x27;s described mechanisms; the supplied report does not include independent verification or API-level details.",
+  "score": 7,
+  "tags": [
+    "Apple",
+    "security architecture",
+    "privacy",
+    "secure enclaves",
+    "audio/video"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://security.apple.com/blog/secure-exclaves/",
+  "originalSite": "security.apple.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MacRumors: Apple News and Rumors",
+      "url": "https://www.macrumors.com/"
+    },
+    {
+      "title": "About Audio Intelligence features on Apple Watch... - Apple Support",
+      "url": "https://support.apple.com/en-us/148354"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

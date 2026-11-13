@@ -1,0 +1,36 @@
+{
+  "id": "9d194b9a88ddca8795ca6af7f2af52b737bdb324",
+  "canonicalId": "8fdb0296ea11e78cab6bcde925dfee4f06270cbf",
+  "slug": "gemini-4-hydrogen-发布统一-token-定价",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-13T02:02:00Z",
+  "lang": "zh",
+  "title": "Gemini 4 Hydrogen 发布：统一 token 定价",
+  "summary": "据一则 Telegram 简报，谷歌发布了 Gemini 4 Hydrogen，面向日常编程和智能体工作流，并已向开发者、企业和普通用户开放。简报称其价格为每百万输入 token 1.5 美元、输出 token 7.5 美元，速度比 Gemini 3.8 Flash 快 2.5 倍，Terminal-Bench 4.1 得分从 18.2% 升至 57%，默认档在 Artificial Analysis 指数上超过 Argon。上述性能与基准数据来自该简报的转述，未在提供的材料中独立验证。",
+  "score": 8,
+  "tags": [
+    "Google Gemini",
+    "AI model release",
+    "LLM pricing",
+    "agentic coding",
+    "benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+  "originalSite": "blog.google",
+  "context": "现有资料显示，Google 把 Gemini 4 Hydrogen 放进一个组合式系统中：由 Orchestrator 调用 Carbon 负责推理、让 Hydrogen 负责更快的执行，并声称这种搭配可少用 24% 配额。这有助于理解该模型为何被定位为编程与智能体工作流中的快速执行层，而不是单独承担全部推理。",
+  "discussion": "对开发者而言，4 Hydrogen 的编程与智能体工作流按每百万输入 1.5 美元、输出 7.5 美元计费，输出 token 单价是输入的 5 倍，成本会随输出占比上升；在独立基准公布前，不宜只凭简报中的 Terminal-Bench 数字做选型。\n\nHacker News 评论者质疑“Hydrogen”的命名和定价定位：元素名让人直觉以为它比 Flash 更低端，但有用户称界面中的 3.8 Flash 已被它替换；还有人指出其标价与未打折的 3.8 Flash 相同，高于当前实际支付的 3.8 Flash 或 3.5 Flash Lite，担心谷歌放弃“快而便宜”的档位。这些是评论者观点，不是已确认的产品策略。",
+  "references": [
+    {
+      "title": "Google launches Gemini 4 Hydrogen for faster coding and agentic...",
+      "url": "https://interestingengineering.com/ai-robotics/google-gemini-4-hydrogen-coding-benchmark"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

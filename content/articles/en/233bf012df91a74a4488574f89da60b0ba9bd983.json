@@ -1,0 +1,41 @@
+{
+  "id": "233bf012df91a74a4488574f89da60b0ba9bd983",
+  "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
+  "slug": "rust-1100-stabilizes-never-type-and-custom-allocators-adds-cargo-cooldowns",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T18:39:00Z",
+  "lang": "en",
+  "title": "Rust 1.100 stabilizes never type and custom allocators, adds Cargo cooldowns",
+  "summary": "Rust 1.100 stabilizes the never type and custom allocators, and adds Cargo dependency cooldowns that let the resolver ignore crate versions published more recently than a configured minimum age unless those versions are already in Cargo.lock. Cargo also begins warning about unused dependencies, with \\`cargo::unused\\_dependencies\\` set to \\`warn\\` by default. The release makes \\`cargo install\\` use the lockfile inside the \\`.crate\\` tarball by default, so \\`--locked\\` becomes a no-op.",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "programming languages",
+    "Cargo",
+    "language features",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "mbStavola",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
+    }
+  ],
+  "originalUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+  "originalSite": "blog.rust-lang.org",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "1.100.0 | Rust Changelogs - releases.rs",
+      "url": "https://releases.rs/docs/1.100.0/"
+    },
+    {
+      "title": "Rust 1.100.0: never type, Allocator API and Cargo cooldowns",
+      "url": "https://braindetox.kr/en/posts/rust_1_100_never_type_allocator.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

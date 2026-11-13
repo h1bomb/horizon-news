@@ -1,0 +1,36 @@
+{
+  "id": "b72026879a645084d5c13a2abfc76080d6009fd8",
+  "canonicalId": "fa3da548c99baf0fb978902221e96875c05f78c4",
+  "slug": "苹果详解-secure-exclaves隔离音视频处理并硬件校验录音指示点",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T09:13:00Z",
+  "lang": "zh",
+  "title": "苹果详解 Secure Exclaves：隔离音视频处理并硬件校验录音指示点",
+  "summary": "苹果于 11 月 12 日发文详解 Secure Exclaves 架构，将音视频处理隔离在独立安全环境中，使主系统及 App 在环境感知模式下只获取必要的识别结果，而不接触原始数据。苹果称该架构已用于 HomeView 的人脸与声音识别，以及 iPhone 18 Pro 的隐私指示器。在 iPhone 18 Pro 上，专用硬件会验证麦克风指示点的颜色、亮度和可见性，确认符合要求后才允许音频进入主系统；相关 Siri 音频会话还须持续显示指示点，总显示时间至少三秒。上述内容均为苹果的自述，源内容未提供独立验证或更细的技术参数。",
+  "score": 7,
+  "tags": [
+    "Apple",
+    "security architecture",
+    "privacy",
+    "secure enclaves",
+    "audio/video"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://security.apple.com/blog/secure-exclaves/",
+  "originalSite": "security.apple.com",
+  "context": "Secure Exclave 是集成在 Apple 芯片中的硬件隔离分区，传感器数据由它与主系统分开处理。Apple 的支持文档称，原始音频不会直接暴露给主系统，而是流入该隔离区内的受保护缓冲区。",
+  "discussion": "按苹果的描述，需要在设备端自行处理原始音视频的环境感知 App 将受到影响：在该模式下，主系统和 App 只能取得必要的识别结果，开发者需改为使用系统输出，而无法直接访问原始数据。",
+  "references": [
+    {
+      "title": "About Audio Intelligence features on Apple Watch... - Apple Support",
+      "url": "https://support.apple.com/en-us/148354"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

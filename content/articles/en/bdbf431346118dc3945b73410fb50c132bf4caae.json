@@ -1,0 +1,40 @@
+{
+  "id": "bdbf431346118dc3945b73410fb50c132bf4caae",
+  "canonicalId": "1137121a8ec3bd6100cd0acb27cd6b37a14d4fd8",
+  "slug": "reddit-audit-of-tribe-v2-finds-motion-selectivity-but-no-retinotopytonotopy",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-12T17:16:00Z",
+  "lang": "en",
+  "title": "Reddit audit of TRIBE v2 finds motion selectivity but no retinotopy/tonotopy",
+  "summary": "A researcher on Reddit reports running classic retinotopy, tonotopy, and motion-localizer stimuli through Meta&\\#x27;s TRIBE v2 fMRI prediction model and fitting standard topographic models. They report no significant retinotopic map \\(d=0.05\\) or tonotopic map \\(ρ=-0.07, even with loudness controlled\\), but strong motion selectivity in MT+ \\(d=4.31, 52× enrichment over chance\\). An eccentricity effect became significant and &quot;correct&quot; only under three stimulus-geometry controls, which the author interprets as an image-statistics confound rather than a positional code. The work is a self-funded solo project posted with code and a paper link, not peer-reviewed; according to the post, TRIBE v2&\\#x27;s own paper did not test these topographic maps.",
+  "score": 7,
+  "tags": [
+    "TRIBE v2",
+    "fMRI decoding",
+    "model evaluation",
+    "retinotopy",
+    "neuroAI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/Own\\_Tank1283"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xuillf/does_metas_brainresponse_model_tribe_v2_actually/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing TRIBE v2: A Predictive Foundation Model Trained ...",
+      "url": "https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/"
+    },
+    {
+      "title": "GitHub - facebookresearch/tribev2: This repository contains ...",
+      "url": "https://github.com/facebookresearch/tribev2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
