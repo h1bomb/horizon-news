@@ -1,0 +1,36 @@
+{
+  "id": "279bd46dc0ff63cea6cd5d0464e08128a2450f16",
+  "canonicalId": "4ae8a5de23e19e94da54d72cacf841bea33b40b5",
+  "slug": "deepseek-开放应用-api支持工具编排与多模态",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-13T14:27:00Z",
+  "lang": "zh",
+  "title": "DeepSeek 开放应用 API，支持工具编排与多模态",
+  "summary": "据发布信息，DeepSeek 在原有 API 中开放应用级能力：开发者开启相应参数后，可获得深度思考搜索、文件输入、链接阅读和语音等对话能力，工具调用与上下文拼接由服务端完成。V4.1-Flash 模型已在三个接口提供支持，Search、Fetch、OCR、ASR、TTS 也可单独调用；官方同时开源了可导入历史对话的前端 Demo，用于本地部署网页端聊天界面。现有披露未给出定价、配额、限流或完整接口文档细节，全部能力的开放范围与计费方式仍不明确。",
+  "score": 7,
+  "tags": [
+    "DeepSeek",
+    "API",
+    "AI agents",
+    "multimodal",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/78KBHc4-4N5b2vfL9SkutQ",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "DeepSeek 的 API 文档显示，其模型调用采用 OpenAI 兼容格式，开发者可用现有 SDK 和脚本发起请求。服务端工具编排是指平台在对话过程中调用搜索、网页抓取、OCR 或语音等外部能力，并把结果拼回上下文；此次更新把这条流程收进原有 API 的参数开关中。",
+  "discussion": "对已使用 DeepSeek API 的开发者，开启参数即可复用服务端的搜索、抓取、OCR 和语音工具链，减少自行拼接工具调用与上下文的工作；但在定价、配额和限流尚未披露前，接入方应先确认计费与容量条件，再评估生产环境使用。",
+  "references": [
+    {
+      "title": "Your First API Call | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

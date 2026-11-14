@@ -1,0 +1,31 @@
+{
+  "id": "1f6a2dc90d4bdcfe5430b90e8acbcc711883cf23",
+  "canonicalId": "9780773c454bba325c999f4018b50fc79df764b6",
+  "slug": "torchtitan-trains-1t-parameter-moe-at-1300-tokenss-per-gpu-on-384-gh200s",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-13T16:28:00Z",
+  "lang": "en",
+  "title": "TorchTitan trains 1T-parameter MoE at 1,300 tokens/s per GPU on 384 GH200s",
+  "summary": "A practitioner report from a team working with TorchTitan and PyTorch maintainers describes training a roughly 1-trillion-parameter mixture-of-experts model at about 1,300 tokens/s per GPU on 384 GH200 GPUs, a 14x improvement over its starting point. The setup uses 384-way FSDP plus 4-way expert parallelism kept inside each node and deliberately skips pipeline parallelism to avoid long steps. Reported gains come from full activation checkpointing, offloading checkpoint activations to Grace, the Muon optimizer, FlexShard expert sharding, running Newton-Schulz on GPU, attention-cost load balancing, bf16 expert-gradient all-to-all with local fp32 accumulation, FP8 expert all-gathers, and fixing stream-pool allocator fragmentation. The post is practitioner documentation rather than an independently verified benchmark, and some techniques, such as group-limited routing, which added 7% throughput but may affect training, remain under evaluation.",
+  "score": 8,
+  "tags": [
+    "mixture-of-experts",
+    "TorchTitan",
+    "distributed training",
+    "GH200",
+    "FSDP"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/f14-bertolotti"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

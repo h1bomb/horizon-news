@@ -1,0 +1,31 @@
+{
+  "id": "357de87a91ed427be1dc0ac6a0c85dbacc2220b3",
+  "canonicalId": "996fac7e74779e7fa92286c0cbc32691c3366de9",
+  "slug": "python-早期贡献者-tim-peters-去世享年-74-岁",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-13T09:55:00Z",
+  "lang": "zh",
+  "title": "Python 早期贡献者 Tim Peters 去世，享年 74 岁",
+  "summary": "Python 创造者 Guido van Rossum 宣布，Python 社区早期贡献者 Tim Peters 去世，享年 74 岁。据科技媒体 It&\\#x27;s FOSS 转述，Peters 是 Python 的第二位真实用户，撰写了《Python 之禅》（PEP 20），并创作了以他命名的 Timsort 排序算法。他还在 Python 软件基金会董事会任职 13 年。上述身份与任职年限来自 Guido van Rossum 的说明及该条转述，具体去世时间与原因未在材料中披露。",
+  "score": 7,
+  "tags": [
+    "Python",
+    "open source",
+    "community",
+    "Tim Peters",
+    "Timsort"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/Itsfoss/status/2120957452937998716",
+  "originalSite": "x.com",
+  "context": "Timsort 是 Python 列表排序所采用的算法，PEP 20 则是他用一系列短箴言总结 Python 设计取向的文档，即通常所说的《Python 之禅》。这两项工作一项进入语言的标准实现，一项进入社区的设计共识，都属于 Python 早期成型阶段的基础性贡献。",
+  "discussion": "对普通 Python 开发者而言，日常调用列表排序时实际运行的仍是 Timsort 实现，因此这一贡献会随 CPython 继续存在于现有代码路径中；本次消息不涉及版本变更或兼容性调整。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

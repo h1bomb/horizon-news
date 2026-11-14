@@ -1,0 +1,40 @@
+{
+  "id": "cfbaf929e33ccc290bcd447dccc53b15eb0dcade",
+  "canonicalId": "4ae8a5de23e19e94da54d72cacf841bea33b40b5",
+  "slug": "deepseek-opens-app-level-api-with-tool-orchestration-and-multimodal-endpoints",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-13T14:27:00Z",
+  "lang": "en",
+  "title": "DeepSeek opens app-level API with tool orchestration and multimodal endpoints",
+  "summary": "DeepSeek announced an expansion of its API that exposes app-level conversational capabilities: developers enable the corresponding parameters in the existing API to get deep-thinking search, file input, link reading and voice, with tool invocation and context assembly handled server-side. The company said the V4.1-Flash model is supported across three interfaces, and that Search, Fetch, OCR, ASR and TTS can also be called individually. It also open-sourced a frontend chat demo \\(deepseek-ai/chat-demo, with a hosted instance at deepseek-ai.github.io/chat-demo\\) that can import existing conversation history, so developers can run a DeepSeek web-style client locally against the API. The post did not disclose pricing, rate limits, regional availability, or independent performance results.",
+  "score": 7,
+  "tags": [
+    "DeepSeek",
+    "API",
+    "AI agents",
+    "multimodal",
+    "open source"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/78KBHc4-4N5b2vfL9SkutQ",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Your First API Call | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/"
+    },
+    {
+      "title": "DeepSeek Flash API adds web search, file parsing, and OCR ...",
+      "url": "https://extrapolator.ai/2026/11/13/deepseek-flash-api-adds-web-search-file-parsing-and-ocr-tools/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

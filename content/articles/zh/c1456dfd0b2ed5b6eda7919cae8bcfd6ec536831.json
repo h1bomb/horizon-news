@@ -1,0 +1,53 @@
+{
+  "id": "c1456dfd0b2ed5b6eda7919cae8bcfd6ec536831",
+  "canonicalId": "9c247e0875927c874a6ab72fe1de294e14a1383e",
+  "slug": "美国联邦航空管理局发布全国范围停飞令",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-13T21:05:00Z",
+  "lang": "zh",
+  "title": "美国联邦航空管理局发布全国范围停飞令",
+  "summary": "2026 年 11 月 13 日，美国联邦航空管理局（FAA）发布全国性停飞令，暂停所有离港航班；FAA 的通告页面只给出日期与编号，没有公开技术原因。社区评论引述的《华尔街日报》报道称，中断似乎出在 L3Harris Technologies 负责维护的一张电信网络上，该网络承载空管员与飞行员通话所用的关键无线电频率，目前尚不清楚雷达数据是否同样受影响。同日稍晚，有评论引述《纽约时报》称停飞令已经解除，但另有评论引述国土安全部长 Mullin 的说法称这很可能是一次较长时间的中断、“不会在一小时内解决”，两种说法相互矛盾，恢复范围与持续时间仍未获独立确认。整体上，官方披露极少，评论者指出媒体信息主要来自部长在社交平台上的发帖，机场离港信息牌大面积显示延误或取消。",
+  "score": 7,
+  "tags": [
+    "FAA",
+    "air traffic control",
+    "critical infrastructure",
+    "network outage",
+    "AI deployment"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "zulln",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50489641"
+    }
+  ],
+  "originalUrl": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+  "originalSite": "nbcnews.com",
+  "context": "在此次全国停飞发生三天前，FAA 于 11 月 10 日将 AI 辅助空中交通管理系统 SMART 扩展至全美所有 22 个空管中心，用于优化航路和减少延误。停飞后外界质疑两者是否相关，但 FAA 否认 SMART 是原因，并将事件指向电信网络故障；DHS 部长则未排除这种可能性。",
+  "discussion": "评论者对起因分成两派：一派根据《华尔街日报》的报道指向 L3Harris 承载的空管甚高频通信网络中断，另一派则怀疑与 FAA 前一天宣布在全国 22 个管制中心推广的 SMART 人工智能工具仓促上线有关，但两种说法都没有得到官方证实。多位评论者还抱怨官方信息异常稀少、机场网站因流量过载无法显示离港信息，只能靠零散的社交平台发帖拼凑情况。",
+  "references": [
+    {
+      "title": "2026 FAA communication outage - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FAA_communication_outage"
+    },
+    {
+      "title": "FAA SMART AI Nationwide: $875M Tool, Ground Stop Denial ...",
+      "url": "https://explainx.ai/blog/faa-smart-ai-nationwide-rollout-november-2026-ground-stop"
+    },
+    {
+      "title": "2026 FAA communication outage - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FAA_communication_outage"
+    },
+    {
+      "title": "FAA lifts ground stop after four hours, but flight ... - CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+    },
+    {
+      "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or ...",
+      "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

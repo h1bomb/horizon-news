@@ -1,0 +1,31 @@
+{
+  "id": "a12d9e583df3c40dabc432c32947984575bb6ade",
+  "canonicalId": "9780773c454bba325c999f4018b50fc79df764b6",
+  "slug": "torchtitan-在-384-块-gh200-上训练-1t-moe",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-13T16:28:00Z",
+  "lang": "zh",
+  "title": "TorchTitan 在 384 块 GH200 上训练 1T MoE",
+  "summary": "一份技术报告称，团队与 TorchTitan/PyTorch 维护者合作，在 JUPITER 的 384 块 GH200 上采用 384 路 FSDP 加节点内 4 路专家并行，把约 1T 参数 MoE 的训练吞吐做到约 1,300 tokens/s/GPU，较起点提升 14 倍。报告将初始瓶颈归因于跨节点 InfiniBand 仅约 25 GB/s/GPU：基线每步 84 秒中有 68 秒耗在网络等待。团队采用了全量激活重计算、将检查点激活卸载到 Grace、用 Muon 替代 Adam、用 FlexShard 按完整专家切分，并把专家梯度归约改为 bf16 all-to-all 后在本地以 fp32 累加。他们还向 TorchTitan 提交了让 Newton-Schulz 在 GPU 上运行的修复，称优化器步从 42 秒降到约 2 秒、吞吐提升 35%；这些数字来自该团队的经验报告，并非独立复现。",
+  "score": 8,
+  "tags": [
+    "mixture-of-experts",
+    "TorchTitan",
+    "distributed training",
+    "GH200",
+    "FSDP"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/f14-bertolotti"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "对在 GH200 这类 Grace-Hopper 平台上训练大 MoE 的团队，报告给出的直接动作是检查 FSDP 的梯度归约是否先把 bf16 梯度上采样成 fp32 再走 InfiniBand；改为 bf16 all-to-all、由接收方本地做 fp32 累加后，报告称跨节点梯度流量减半，数值结果仅受求和顺序影响。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

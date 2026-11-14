@@ -1,6 +1,278 @@
 {
   "articles": [
     {
+      "id": "a12d9e583df3c40dabc432c32947984575bb6ade",
+      "canonicalId": "9780773c454bba325c999f4018b50fc79df764b6",
+      "slug": "torchtitan-在-384-块-gh200-上训练-1t-moe",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "TorchTitan 在 384 块 GH200 上训练 1T MoE",
+      "score": 8,
+      "tags": [
+        "mixture-of-experts",
+        "TorchTitan",
+        "distributed training",
+        "GH200",
+        "FSDP"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "c1456dfd0b2ed5b6eda7919cae8bcfd6ec536831",
+      "canonicalId": "9c247e0875927c874a6ab72fe1de294e14a1383e",
+      "slug": "美国联邦航空管理局发布全国范围停飞令",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "美国联邦航空管理局发布全国范围停飞令",
+      "score": 7,
+      "tags": [
+        "FAA",
+        "air traffic control",
+        "critical infrastructure",
+        "network outage",
+        "AI deployment"
+      ],
+      "originalSite": "nbcnews.com"
+    },
+    {
+      "id": "357de87a91ed427be1dc0ac6a0c85dbacc2220b3",
+      "canonicalId": "996fac7e74779e7fa92286c0cbc32691c3366de9",
+      "slug": "python-早期贡献者-tim-peters-去世享年-74-岁",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "Python 早期贡献者 Tim Peters 去世，享年 74 岁",
+      "score": 7,
+      "tags": [
+        "Python",
+        "open source",
+        "community",
+        "Tim Peters",
+        "Timsort"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "e43cf260bde7599ba01ad2a1dca3b73b9d609e16",
+      "canonicalId": "8d91f23dbc9f7d6dfc5c1e901b78b1dbac7d4669",
+      "slug": "微软-outlookteams-与-copilot-全球宕机逾-12-小时",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "微软 Outlook、Teams 与 Copilot 全球宕机逾 12 小时",
+      "score": 7,
+      "tags": [
+        "microsoft-365",
+        "cloud-outage",
+        "service-reliability",
+        "enterprise-software",
+        "incident-response"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "279bd46dc0ff63cea6cd5d0464e08128a2450f16",
+      "canonicalId": "4ae8a5de23e19e94da54d72cacf841bea33b40b5",
+      "slug": "deepseek-开放应用-api支持工具编排与多模态",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "DeepSeek 开放应用 API，支持工具编排与多模态",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "API",
+        "AI agents",
+        "multimodal",
+        "open source"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "d7251cb5864cac894ec58838ab69d56c481206aa",
+      "canonicalId": "5bf4951adbe9698dd9e45df17c29fd95e4f30a2d",
+      "slug": "openai-推出-chatgpt-wallet-令牌化支付钱包",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "OpenAI 推出 ChatGPT Wallet 令牌化支付钱包",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "AI agents",
+        "digital payments",
+        "tokenization",
+        "product launch"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "b9d2bfdfd6f1671960dde81d53bc6d0e6dca2942",
+      "canonicalId": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+      "slug": "卢特尼克因英伟达芯片走私问题被质询其子执掌的公司与英伟达关系深厚",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "卢特尼克因英伟达芯片走私问题被质询，其子执掌的公司与英伟达关系深厚",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "U.S. export controls",
+        "Howard Lutnick",
+        "Cantor Fitzgerald",
+        "corporate governance"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "f8f4da30ac7cfccb7380c0645de2666c4dc0d414",
+      "canonicalId": "d8c2d586f296ebecd56ab5d513211c2899d06616",
+      "slug": "芝加哥联储古尔斯比美联储在通胀问题上肯定还有工作要做",
+      "date": "2026-11-14",
+      "lang": "zh",
+      "title": "芝加哥联储古尔斯比：美联储在通胀问题上“肯定还有工作要做”",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "inflation",
+        "monetary policy",
+        "PPI",
+        "interest rates"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "1f6a2dc90d4bdcfe5430b90e8acbcc711883cf23",
+      "canonicalId": "9780773c454bba325c999f4018b50fc79df764b6",
+      "slug": "torchtitan-trains-1t-parameter-moe-at-1300-tokenss-per-gpu-on-384-gh200s",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "TorchTitan trains 1T-parameter MoE at 1,300 tokens/s per GPU on 384 GH200s",
+      "score": 8,
+      "tags": [
+        "mixture-of-experts",
+        "TorchTitan",
+        "distributed training",
+        "GH200",
+        "FSDP"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "34ac02b3e7acd17de643d8682b0fcd0990101365",
+      "canonicalId": "9c247e0875927c874a6ab72fe1de294e14a1383e",
+      "slug": "faa-orders-nationwide-ground-stop-of-departing-flights",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "FAA orders nationwide ground stop of departing flights",
+      "score": 7,
+      "tags": [
+        "FAA",
+        "air traffic control",
+        "critical infrastructure",
+        "network outage",
+        "AI deployment"
+      ],
+      "originalSite": "nbcnews.com"
+    },
+    {
+      "id": "a32f856cfe15498d8cd9879e168d7faf66d022f3",
+      "canonicalId": "996fac7e74779e7fa92286c0cbc32691c3366de9",
+      "slug": "python-early-contributor-tim-peters-dies-at-74",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "Python early contributor Tim Peters dies at 74",
+      "score": 7,
+      "tags": [
+        "Python",
+        "open source",
+        "community",
+        "Tim Peters",
+        "Timsort"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "6bdc4587b0e83103822851a797371ab43b8d1260",
+      "canonicalId": "8d91f23dbc9f7d6dfc5c1e901b78b1dbac7d4669",
+      "slug": "microsoft-outlook-teams-global-outage-exceeds-12-hours",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "Microsoft Outlook, Teams global outage exceeds 12 hours",
+      "score": 7,
+      "tags": [
+        "microsoft-365",
+        "cloud-outage",
+        "service-reliability",
+        "enterprise-software",
+        "incident-response"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "cfbaf929e33ccc290bcd447dccc53b15eb0dcade",
+      "canonicalId": "4ae8a5de23e19e94da54d72cacf841bea33b40b5",
+      "slug": "deepseek-opens-app-level-api-with-tool-orchestration-and-multimodal-endpoints",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "DeepSeek opens app-level API with tool orchestration and multimodal endpoints",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "API",
+        "AI agents",
+        "multimodal",
+        "open source"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "edc687d557aaa4eb15d5f45d43d390bb5e6bf844",
+      "canonicalId": "5bf4951adbe9698dd9e45df17c29fd95e4f30a2d",
+      "slug": "openai-launches-chatgpt-wallet-for-us-agent-payments",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "OpenAI launches ChatGPT Wallet for US agent payments",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "AI agents",
+        "digital payments",
+        "tokenization",
+        "product launch"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "1f14698dafa7745ed007cd1008f5d4a778aeba39",
+      "canonicalId": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+      "slug": "cantor-fitzgeraldx27s-nvidia-stake-cut-draws-scrutiny-amid-lutnick-spy-case-questions",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "Cantor Fitzgerald&\\#x27;s Nvidia stake cut draws scrutiny amid Lutnick spy-case questions",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "U.S. export controls",
+        "Howard Lutnick",
+        "Cantor Fitzgerald",
+        "corporate governance"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "213229b69427c50758a06d0506ccb772b82efea7",
+      "canonicalId": "d8c2d586f296ebecd56ab5d513211c2899d06616",
+      "slug": "chicago-fedx27s-goolsbee-says-fed-has-x27work-to-dox27-on-inflation",
+      "date": "2026-11-14",
+      "lang": "en",
+      "title": "Chicago Fed&\\#x27;s Goolsbee Says Fed Has &\\#x27;Work to Do&\\#x27; on Inflation",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "inflation",
+        "monetary policy",
+        "PPI",
+        "interest rates"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "5c9f0e1c6a6a71ef9cfbf93b7a10c02cc09e1d4a",
       "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
       "slug": "rust-1100-稳定-never-类型与自定义分配器",
@@ -5244,175 +5516,6 @@
         "consumer hardware"
       ],
       "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "3ffc4a56280f555351bee85f6d113ef1a0646e1d",
-      "canonicalId": "8acda1e9f09f44481907bcbab7330308abce9b0b",
-      "slug": "gpu-unlock-打包-rtx-3000-固件漏洞以提升-fpbf16-发射率",
-      "date": "2026-10-25",
-      "lang": "zh",
-      "title": "GPU-unlock 打包 RTX 3000 固件漏洞以提升 FP/BF16 发射率",
-      "score": 8,
-      "tags": [
-        "Nvidia GPUs",
-        "firmware exploitation",
-        "FP/BF16",
-        "GPU performance",
-        "hardware modding"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "03a2f1ace5ce63b8e7d3e4d9120c7dcad2654eba",
-      "canonicalId": "69696c78864a6bdc51e36a5fa86c5c93e4287f5d",
-      "slug": "node2shell-演变为-http2shellbrotli-漏洞影响众多-http-库",
-      "date": "2026-10-25",
-      "lang": "zh",
-      "title": "Node2Shell 演变为 HTTP2Shell，Brotli 漏洞影响众多 HTTP 库",
-      "score": 8,
-      "tags": [
-        "security",
-        "vulnerabilities",
-        "HTTP",
-        "Brotli",
-        "RCE"
-      ],
-      "originalSite": "aikido.dev"
-    },
-    {
-      "id": "a3f292fe81e10befad5ed15738b3d364b6caf129",
-      "canonicalId": "f9113fa394af665d9a884ec84e1384cce3233098",
-      "slug": "openai-前沿模型训练改为离线进行",
-      "date": "2026-10-25",
-      "lang": "zh",
-      "title": "OpenAI 前沿模型训练改为离线进行",
-      "score": 8,
-      "tags": [
-        "OpenAI",
-        "AI safety",
-        "cybersecurity",
-        "sandbox escape",
-        "side-channel"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "9d33248e467f68a491bb7927d42f1ef61ecfad95",
-      "canonicalId": "84c9b463e77e350073151a77b3e64b6ccdd6507c",
-      "slug": "goose不共享并发的实验性语言",
-      "date": "2026-10-25",
-      "lang": "zh",
-      "title": "Goose：不共享并发的实验性语言",
-      "score": 7,
-      "tags": [
-        "programming languages",
-        "language design",
-        "memory management",
-        "concurrency",
-        "experimental languages"
-      ],
-      "originalSite": "aardappel.github.io"
-    },
-    {
-      "id": "e60dd79a9e922474fa4d9726cf540f34defb926e",
-      "canonicalId": "f80c4bbdb8d6f14796b2ac73993c90b835082432",
-      "slug": "philip-ox27toole-回顾十二年分布式-sqlite-实践",
-      "date": "2026-10-25",
-      "lang": "zh",
-      "title": "Philip O&\\#x27;Toole 回顾十二年分布式 SQLite 实践",
-      "score": 7,
-      "tags": [
-        "distributed-sqlite",
-        "sqlite",
-        "rqlite",
-        "distributed-systems",
-        "databases"
-      ],
-      "originalSite": "philipotoole.com"
-    },
-    {
-      "id": "8542df7e12adfb56abe5a1dc562d56cb7a65f595",
-      "canonicalId": "6c51129e93f61d6bfd1eb8442e4c471f06be25fd",
-      "slug": "kimi-k31-pro-上线-api权重定于-11-月-4-日前开放",
-      "date": "2026-10-24",
-      "lang": "zh",
-      "title": "Kimi K3.1 Pro 上线 API，权重定于 11 月 4 日前开放",
-      "score": 8,
-      "tags": [
-        "large language models",
-        "model release",
-        "Moonshot AI",
-        "AI benchmarks",
-        "API pricing"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "b51546789edcca66d626de12507449f97707a649",
-      "canonicalId": "2ca67924f9fca88f90b4b29f6c6565e8ee2418b1",
-      "slug": "block-的-dessa-全双工语音模型宣称可本地运行",
-      "date": "2026-10-24",
-      "lang": "zh",
-      "title": "Block 的 Dessa 全双工语音模型宣称可本地运行",
-      "score": 7,
-      "tags": [
-        "full-duplex-speech",
-        "voice-ai",
-        "local-inference",
-        "model-efficiency"
-      ],
-      "originalSite": "block.xyz"
-    },
-    {
-      "id": "d651697d43c0f9f799ec693bd517e2b012cd8361",
-      "canonicalId": "46834880ed25d1918810644c48a44d28f7c2bbfb",
-      "slug": "iphone-攻破演示引来越狱锁定模式与安全研究访问权争论",
-      "date": "2026-10-24",
-      "lang": "zh",
-      "title": "iPhone 攻破演示引来越狱、锁定模式与安全研究访问权争论",
-      "score": 7,
-      "tags": [
-        "iPhone security",
-        "jailbreaking",
-        "exploit research",
-        "Lockdown Mode",
-        "AI security access"
-      ],
-      "originalSite": "blog.calif.io"
-    },
-    {
-      "id": "3d14896d04f7d50fc0776cebf53c263e2a76c2a2",
-      "canonicalId": "7a2ad2dcd8c80fc0dc1b3737e77654b031818136",
-      "slug": "lpc-2026linux-内核尝试缩小-16kb-线程栈",
-      "date": "2026-10-24",
-      "lang": "zh",
-      "title": "LPC 2026：Linux 内核尝试缩小 16KB 线程栈",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "kernel stacks",
-        "memory management",
-        "Linux Plumbers Conference",
-        "Arm/x86"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "8e394dd6fd8750f3c4d27cfccd9863d808abb7fc",
-      "canonicalId": "e3559133c3afcc343b82ebcc05147c95ef29abf7",
-      "slug": "trainium3-训练栈体验原生-pytorch-与-neuron-explorer",
-      "date": "2026-10-24",
-      "lang": "zh",
-      "title": "Trainium3 训练栈体验：原生 PyTorch 与 Neuron Explorer",
-      "score": 6,
-      "tags": [
-        "AWS Trainium",
-        "PyTorch",
-        "ML training",
-        "profiling",
-        "hardware accelerators"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
     }
   ]
 }
