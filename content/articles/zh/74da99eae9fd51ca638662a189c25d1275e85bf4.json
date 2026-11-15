@@ -1,0 +1,41 @@
+{
+  "id": "74da99eae9fd51ca638662a189c25d1275e85bf4",
+  "canonicalId": "9f394f52c81397194e4177c1acfef8ddde929a0f",
+  "slug": "lovable-应用因-rls-不足泄露护照信息与逾-20-万私信",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-14T17:43:00Z",
+  "lang": "zh",
+  "title": "Lovable 应用因 RLS 不足泄露护照信息与逾 20 万私信",
+  "summary": "一份安全研究报告称，部分由 Lovable 生成的应用因行级安全（RLS）配置不足，暴露了护照信息和超过 20 万条私信。Lovable 安全负责人 Igor 在 Hacker News 回应称，根因正是其扫描功能要捕捉的 RLS 不足，并称平台会在发布前自动扫描每个应用、向所有用户免费提供更深入的 SAST 扫描，以及“修复”、后台自动修复和发布阻断等选项。上述信息来自研究文章和厂商在讨论中的回应。",
+  "score": 8,
+  "tags": [
+    "security vulnerability",
+    "AI app builders",
+    "Supabase RLS",
+    "data exposure",
+    "platform defaults"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "armcat",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
+    }
+  ],
+  "originalUrl": "https://www.crissyfield.de/research/lovable-en/",
+  "originalSite": "crissyfield.de",
+  "context": "",
+  "discussion": "如果 RLS 未正确配置，应用即使界面正常，私信和身份信息仍可能通过浏览器网络请求被读取；使用 Lovable 和 Supabase 的开发者因此需要以未登录或普通用户身份逐表验证读取权限，而不能只依赖界面隐藏或平台扫描。\n\n评论区的争论集中在责任归属：有评论者把部分责任归给 Supabase，称其早年为了降低上手门槛而采用宽松默认值，并提到相关修复据称已在 10 月 30 日完成、但有报告称现有项目仍沿用旧默认值；也有人主张平台应默认拒绝、最小权限并自动测试鉴权，让不安全的 AI 生成部署更难发生。另有评论指出，数据泄露并非 AI 时代才有，但这类应用数量多、攻击门槛低，普通用户往往不知道风险。",
+  "references": [
+    {
+      "title": "7,403 Lovable sites with readable data: what happened and how to...",
+      "url": "https://lockship.dev/guides/lovable-exposed-databases-check"
+    },
+    {
+      "title": "Connect to Supabase - Lovable Documentation",
+      "url": "https://docs.lovable.dev/integrations/supabase"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

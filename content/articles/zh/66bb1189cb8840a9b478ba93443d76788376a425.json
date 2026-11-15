@@ -1,0 +1,40 @@
+{
+  "id": "66bb1189cb8840a9b478ba93443d76788376a425",
+  "canonicalId": "1838248a60d9044040f647fbae585a096108889a",
+  "slug": "project-zero-将漏洞披露期限设为-90-天并计划逐步缩短",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-14T11:13:00Z",
+  "lang": "zh",
+  "title": "Project Zero 将漏洞披露期限设为 90 天并计划逐步缩短",
+  "summary": "Project Zero 将漏洞披露窗口设定为向厂商报告后 90 天公开。社区讨论中引述的公告时间表称，这一窗口将在 2027 年 2 月 2 日缩短至 60 天，并在 2028 年 1 月 3 日进一步缩短至 30 天；由于提交材料没有完整政策文本，例外条件和延期机制尚不明确。",
+  "score": 7,
+  "tags": [
+    "vulnerability disclosure",
+    "Project Zero",
+    "security policy",
+    "Google"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "hacb",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50496051"
+    }
+  ],
+  "originalUrl": "https://projectzero.google/2026/11/disclosure-policy.html",
+  "originalSite": "projectzero.google",
+  "context": "",
+  "discussion": "对依赖上游协调的厂商和发行版而言，固定 90 天倒计时压缩了评估、修复、测试与回移植的时间；社区评论以 Ubuntu 为例指出，下游发行版可能需要远超这一窗口的时间，若 30 天阶段如期实施，补丁合并与发布流程需提前调整。\n\n评论者争论缩短窗口是否现实：一人认为 Ubuntu 等发行版需要远多于 90 天的时间，另一人则主张立即公开，认为只有披露压力才能迫使厂商修复。这些都属于评论者判断，而非公告文本确认的细节。",
+  "references": [
+    {
+      "title": "Policy and Disclosure: 2026 Edition - Project Zero",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html"
+    },
+    {
+      "title": "Vulnerability Disclosure FAQ - Project Zero",
+      "url": "https://projectzero.google/vulnerability-disclosure-faq.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

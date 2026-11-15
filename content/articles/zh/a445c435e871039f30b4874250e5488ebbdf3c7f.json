@@ -1,0 +1,41 @@
+{
+  "id": "a445c435e871039f30b4874250e5488ebbdf3c7f",
+  "canonicalId": "ad8b3d5bdfd0d7ff6bc7be05d05e550781855268",
+  "slug": "约-200-行纯-jax-实现-deepseek-v3-推理",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-14T15:04:00Z",
+  "lang": "zh",
+  "title": "约 200 行纯 JAX 实现 DeepSeek V3 推理",
+  "summary": "项目作者 VaibhaavTiwari 在 Show HN 发布了 deepseek-v3-jax，用约 200 行纯 JAX 代码重实现 DeepSeek V3 推理，定位为便于理解推理流程的精简实现。它是非官方项目，现有材料没有给出与官方实现的速度、显存占用或数值一致性对比，因此目前只能确认其教学与实验价值，不能据此判断生产可用性。仓库已公开在 GitHub，讨论集中在学习体验和硬件兼容性上。",
+  "score": 7,
+  "tags": [
+    "JAX",
+    "DeepSeek-V3",
+    "LLM inference",
+    "model reimplementation",
+    "ROCm"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "VaibhaavTiwari",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
+    }
+  ],
+  "originalUrl": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "originalSite": "github.com",
+  "context": "DeepSeek-V3 是 DeepSeek 推出的混合专家（MoE）语言模型，总参数 671B、每个 token 激活约 37B；其注意力与 MoE 路由结构比稠密模型更绕，因此常被选作「从零手写推理」的教学对象。该 Show HN 讨论帖中提到，这份约 190 行的实现所配套的演示模型只有 36.2M 参数，是在 MacBook Air M5（24 GB）上用 jax-metal 在 207 本旧侦探小说上训练 12,000 步、耗时约 2.6 小时得到的，并非直接加载完整的 671B 权重。",
+  "discussion": "评论者普遍肯定从第一性原理重建模型的教学价值，有人表示要照着复刻，也有人询问系统学习推理的路线图；这些属于主观学习体验，并非对实现正确性或性能的独立验证。",
+  "references": [
+    {
+      "title": "Show HN: DeepSeek V 3 in ~200 lines of pure Jax | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50497589"
+    },
+    {
+      "title": "GitHub - deepseek -ai/ DeepSeek - V 3 · GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

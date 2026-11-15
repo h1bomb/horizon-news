@@ -1,0 +1,41 @@
+{
+  "id": "eba91f5a319cd9c0f29bcbfc8f262a6c4f8e91ef",
+  "canonicalId": "ad8b3d5bdfd0d7ff6bc7be05d05e550781855268",
+  "slug": "show-hn-deepseek-v3-inference-reimplemented-in-200-lines-of-jax",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-14T15:04:00Z",
+  "lang": "en",
+  "title": "Show HN: DeepSeek V3 inference reimplemented in ~200 lines of JAX",
+  "summary": "A Show HN project by VaibhaavTiwari reimplements DeepSeek V3 inference in roughly 200 lines of pure JAX. The code is presented as a readable, from-scratch reference rather than a production serving stack, and commenters singled out its educational clarity. Because it targets JAX rather than CUDA-specific tooling, readers also report using it as a starting point on AMD GPUs via ROCm, though that compatibility comes from user reports rather than a stated support commitment in the project description.",
+  "score": 7,
+  "tags": [
+    "JAX",
+    "DeepSeek-V3",
+    "LLM inference",
+    "model reimplementation",
+    "ROCm"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "VaibhaavTiwari",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
+    }
+  ],
+  "originalUrl": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Show HN: DeepSeek V 3 in ~200 lines of pure Jax | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50497589"
+    },
+    {
+      "title": "GitHub - deepseek -ai/ DeepSeek - V 3 · GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "47e2ac2c381064ac7950bd9f5080c6c75348f22b",
+  "canonicalId": "9f394f52c81397194e4177c1acfef8ddde929a0f",
+  "slug": "lovable-built-apps-exposed-passport-data-200k-messages-via-weak-rls",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-14T17:43:00Z",
+  "lang": "en",
+  "title": "Lovable-built apps exposed passport data, 200K messages via weak RLS",
+  "summary": "A security report found that apps built with Lovable exposed passport details and more than 200,000 private messages because their databases lacked sufficient Row-Level Security \\(RLS\\). Lovable&\\#x27;s head of security confirmed that insufficient RLS was the root cause and said the platform automatically scans every app before publishing, offers a free deeper SAST scan, and lets users apply fixes or enable auto-fix. The report and discussion focus on whether underlying defaults, including Supabase&\\#x27;s, make such exposure too easy for AI-generated apps.",
+  "score": 8,
+  "tags": [
+    "security vulnerability",
+    "AI app builders",
+    "Supabase RLS",
+    "data exposure",
+    "platform defaults"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "armcat",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
+    }
+  ],
+  "originalUrl": "https://www.crissyfield.de/research/lovable-en/",
+  "originalSite": "crissyfield.de",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Connect to Supabase - Lovable Documentation",
+      "url": "https://docs.lovable.dev/integrations/supabase"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
