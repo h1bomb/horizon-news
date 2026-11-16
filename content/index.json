@@ -1,6 +1,310 @@
 {
   "articles": [
     {
+      "id": "5df2dc1165b2dea711f84ae232eabcddf8d9704b",
+      "canonicalId": "85b327ef34b9e9c995cf1a52efa7e0b51ddac425",
+      "slug": "meta-fair-与-nyu视觉编码器预训练可选专属参数必需",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "Meta FAIR 与 NYU：视觉编码器预训练可选、专属参数必需",
+      "score": 8,
+      "tags": [
+        "multimodal learning",
+        "vision encoders",
+        "MLLM training",
+        "model architecture",
+        "research preprint"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "eb9e861e297cf9fca9da27761e2452033038855f",
+      "canonicalId": "6fc6bc2d3ff2654d4f57b2ec9a8b06d714bedab5",
+      "slug": "美团开源-longcat-2516-万亿参数称全程用升腾训练",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "美团开源 LongCat-2.5：1.6 万亿参数，称全程用升腾训练",
+      "score": 8,
+      "tags": [
+        "open-source AI",
+        "large language models",
+        "Huawei Ascend",
+        "AI agents",
+        "model benchmarks"
+      ],
+      "originalSite": "the-decoder.com"
+    },
+    {
+      "id": "76daba9be83275b3b79a1fe15cd841d6d19664df",
+      "canonicalId": "966523945edb28bbdc2e3dc0dd7fb4e838a51ba5",
+      "slug": "protomaps自托管地图瓦片变得便宜又简单",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "Protomaps：自托管地图瓦片变得便宜又简单",
+      "score": 7,
+      "tags": [
+        "protomaps",
+        "map-tiles",
+        "self-hosting",
+        "open-source",
+        "pmtiles"
+      ],
+      "originalSite": "bruceroettgers.eu"
+    },
+    {
+      "id": "94d348800b45028d41b5dfa8625a34048581ca7e",
+      "canonicalId": "950ac38f23f2d5a7b62eb3e171ad86cac2083969",
+      "slug": "现代-llm-位置嵌入实现解释与群表示视角",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "现代 LLM 位置嵌入：实现解释与群表示视角",
+      "score": 7,
+      "tags": [
+        "positional embeddings",
+        "LLMs",
+        "transformer architectures",
+        "deep learning theory"
+      ],
+      "originalSite": "magazine.sebastianraschka.com"
+    },
+    {
+      "id": "3b70d93f5af479147a61f3862ad19b75c0ee2290",
+      "canonicalId": "b8c0d8bf4f3051d3aa45ca4b3565ca46cbebedb0",
+      "slug": "开源工具称将-b300-上页式-cudamemcpy-提速约-5-倍",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "开源工具称将 B300 上页式 cudaMemcpy 提速约 5 倍",
+      "score": 7,
+      "tags": [
+        "cuda",
+        "gpu-memory-transfer",
+        "performance-optimization",
+        "ml-systems",
+        "open-source-tools"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "3e50ad099778b59bf576984fd891855f91f16c15",
+      "canonicalId": "64e82a8f8aca1818bca73d05d769825c67d054a4",
+      "slug": "华为云-maas-上线-openpangu-21-pro",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "华为云 MaaS 上线 openPangu-2.1-Pro",
+      "score": 7,
+      "tags": [
+        "Huawei Cloud",
+        "Pangu",
+        "open-source LLM",
+        "AI agents",
+        "AI coding"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "85f94e16876429a363fabeb82ec6d2d7973816f3",
+      "canonicalId": "db53abe02dfac117928ca2a2cf2f553910e6c6d5",
+      "slug": "中美俄领导人计划在深圳-apec-场边举行三方会晤",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "中美俄领导人计划在深圳 APEC 场边举行三方会晤",
+      "score": 8,
+      "tags": [
+        "geopolitics",
+        "US-China-Russia",
+        "APEC",
+        "diplomacy",
+        "market risk"
+      ],
+      "originalSite": "apnews.com"
+    },
+    {
+      "id": "707d122c7b97d161c9275c1ddca18b308f9d0d81",
+      "canonicalId": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+      "slug": "卢特尼克因英伟达关系受审视cantor-申报持股降约-49",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "卢特尼克因英伟达关系受审视，Cantor 申报持股降约 49%",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "US-China tech",
+        "export controls",
+        "ethics/conflicts",
+        "semiconductor policy"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "226403ba3c39bf92fa94e0733bd72b4fde657da7",
+      "canonicalId": "5d036594fd6c66c50c5a31b4deeaac58508133e5",
+      "slug": "美法官驳回美光三星sk-海力士-dram-价格操纵案撤诉动议",
+      "date": "2026-11-16",
+      "lang": "zh",
+      "title": "美法官驳回美光、三星、SK 海力士 DRAM 价格操纵案撤诉动议",
+      "score": 7,
+      "tags": [
+        "DRAM",
+        "antitrust litigation",
+        "semiconductor industry",
+        "price-fixing",
+        "Micron/Samsung/SK Hynix"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
+      "id": "88c8ae8a68d79503a6ff301aeaa0f988fd746a74",
+      "canonicalId": "85b327ef34b9e9c995cf1a52efa7e0b51ddac425",
+      "slug": "meta-fairnyu-200-mllms-show-encoder-pretraining-optional-vision-only-parameters-required",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Meta FAIR/NYU: 200+ MLLMs show encoder pretraining optional, vision-only parameters required",
+      "score": 8,
+      "tags": [
+        "multimodal learning",
+        "vision encoders",
+        "MLLM training",
+        "model architecture",
+        "research preprint"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "76a65f8d68d3c502ccc72d1654eeec043c977eaa",
+      "canonicalId": "6fc6bc2d3ff2654d4f57b2ec9a8b06d714bedab5",
+      "slug": "meituan-open-sources-longcat-25-a-16t-parameter-agent-model-trained-on-huawei-ascend",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Meituan open-sources LongCat-2.5, a 1.6T-parameter agent model trained on Huawei Ascend",
+      "score": 8,
+      "tags": [
+        "open-source AI",
+        "large language models",
+        "Huawei Ascend",
+        "AI agents",
+        "model benchmarks"
+      ],
+      "originalSite": "the-decoder.com"
+    },
+    {
+      "id": "402202da2485654966dc70d39c736a4669020baf",
+      "canonicalId": "966523945edb28bbdc2e3dc0dd7fb4e838a51ba5",
+      "slug": "protomaps-makes-self-hosted-map-tiles-cheap-and-easy-blog-argues",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Protomaps makes self-hosted map tiles cheap and easy, blog argues",
+      "score": 7,
+      "tags": [
+        "protomaps",
+        "map-tiles",
+        "self-hosting",
+        "open-source",
+        "pmtiles"
+      ],
+      "originalSite": "bruceroettgers.eu"
+    },
+    {
+      "id": "06b0b8b56ba87601d19b1937a62542a74c87e485",
+      "canonicalId": "950ac38f23f2d5a7b62eb3e171ad86cac2083969",
+      "slug": "positional-embeddings-explainer-prompts-group-theory-framing-on-hacker-news",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Positional embeddings explainer prompts group-theory framing on Hacker News",
+      "score": 7,
+      "tags": [
+        "positional embeddings",
+        "LLMs",
+        "transformer architectures",
+        "deep learning theory"
+      ],
+      "originalSite": "magazine.sebastianraschka.com"
+    },
+    {
+      "id": "7f7eaf7d602d85cb982ad4fd8ca114ea2259412c",
+      "canonicalId": "b8c0d8bf4f3051d3aa45ca4b3565ca46cbebedb0",
+      "slug": "tool-claims-5x-faster-pageable-cudamemcpy-on-nvidia-b300",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Tool claims 5x faster pageable cudaMemcpy on NVIDIA B300",
+      "score": 7,
+      "tags": [
+        "cuda",
+        "gpu-memory-transfer",
+        "performance-optimization",
+        "ml-systems",
+        "open-source-tools"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "cda938fff1a002ca61e0ccffecef8ca07ce8412b",
+      "canonicalId": "64e82a8f8aca1818bca73d05d769825c67d054a4",
+      "slug": "huawei-cloud-launches-openpangu-21-pro-on-maas-with-token-pricing",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Huawei Cloud launches openPangu-2.1-Pro on MaaS with token pricing",
+      "score": 7,
+      "tags": [
+        "Huawei Cloud",
+        "Pangu",
+        "open-source LLM",
+        "AI agents",
+        "AI coding"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "1daa130bf24c8991f67bf9909a087b4e47a9a1bf",
+      "canonicalId": "db53abe02dfac117928ca2a2cf2f553910e6c6d5",
+      "slug": "china-says-us-chinese-and-russian-leaders-to-hold-first-trilateral-meeting-at-apec",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "China Says US, Chinese and Russian Leaders to Hold First Trilateral Meeting at APEC",
+      "score": 8,
+      "tags": [
+        "geopolitics",
+        "US-China-Russia",
+        "APEC",
+        "diplomacy",
+        "market risk"
+      ],
+      "originalSite": "apnews.com"
+    },
+    {
+      "id": "e93b211264c53c57b88e2cb52c9c80f851342011",
+      "canonicalId": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+      "slug": "lutnick-faces-questions-over-cantor-fitzgeraldx27s-nvidia-holdings",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "Lutnick Faces Questions Over Cantor Fitzgerald&\\#x27;s Nvidia Holdings",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "US-China tech",
+        "export controls",
+        "ethics/conflicts",
+        "semiconductor policy"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "250f8f3e43c342ad497abab3e1a72497898deb67",
+      "canonicalId": "5d036594fd6c66c50c5a31b4deeaac58508133e5",
+      "slug": "us-judge-denies-micron-samsung-and-sk-hynix-bid-to-dismiss-dram-price-fixing-lawsuit",
+      "date": "2026-11-16",
+      "lang": "en",
+      "title": "U.S. judge denies Micron, Samsung and SK Hynix bid to dismiss DRAM price-fixing lawsuit",
+      "score": 7,
+      "tags": [
+        "DRAM",
+        "antitrust litigation",
+        "semiconductor industry",
+        "price-fixing",
+        "Micron/Samsung/SK Hynix"
+      ],
+      "originalSite": "tomshardware.com"
+    },
+    {
       "id": "74da99eae9fd51ca638662a189c25d1275e85bf4",
       "canonicalId": "9f394f52c81397194e4177c1acfef8ddde929a0f",
       "slug": "lovable-应用因-rls-不足泄露护照信息与逾-20-万私信",
@@ -5089,448 +5393,6 @@
         "market reaction"
       ],
       "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "124327ca2a053d6a7330b252b75ca17d275de387",
-      "canonicalId": "6318bf62f2c5750d4debc093ba5deffe66f9f836",
-      "slug": "谷歌宣布-gemini-4-carbon可用性与层级命名受质疑",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "谷歌宣布 Gemini 4 Carbon，可用性与层级命名受质疑",
-      "score": 8,
-      "tags": [
-        "Google Gemini",
-        "AI models",
-        "benchmarks",
-        "model naming",
-        "Hacker News discussion"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "64fab9ddcafe829c19d9939edf9e0ff9127fc3ac",
-      "canonicalId": "c1abda2ec708e7902beb16f2d1f8a660c19fa248",
-      "slug": "apple-系统-git-仍信任已失陷的-emudhra-证书",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Apple 系统 git 仍信任已失陷的 eMudhra 证书",
-      "score": 8,
-      "tags": [
-        "macOS",
-        "TLS certificates",
-        "git",
-        "security",
-        "Apple"
-      ],
-      "originalSite": "emudhra.we-have-a-problem.com"
-    },
-    {
-      "id": "8230c3c9d5f658003bd76be8b24124f306aa43d7",
-      "canonicalId": "2365cd15a3284330e09c4eecdb39661d19b94b34",
-      "slug": "why-is-this-fingerprinting-script-creating-bioweapons",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Why is this fingerprinting script creating bioweapons?",
-      "score": 7,
-      "tags": [
-        "fingerprinting",
-        "anti-scraping",
-        "LLM crawlers",
-        "prompt injection",
-        "JavaScript obfuscation"
-      ],
-      "originalSite": "nullpt.rs"
-    },
-    {
-      "id": "8ff368b57a8d2ede275358d0fe080f71c02f0c05",
-      "canonicalId": "97373eedda74b8cd62be18654abeb2c2a1bd8276",
-      "slug": "dayjob-tax-用-50-个专业税务任务评估-ai-代理",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Dayjob: Tax 用 50 个专业税务任务评估 AI 代理",
-      "score": 7,
-      "tags": [
-        "AI agents",
-        "LLM evaluation",
-        "tax preparation",
-        "benchmarks",
-        "professional workflows"
-      ],
-      "originalSite": "surgehq.ai"
-    },
-    {
-      "id": "04e2f1062cd998eb33934a6881e13adf01fe7d05",
-      "canonicalId": "d6316526146016648924f0aa6a158baa8209f764",
-      "slug": "2026-年-10-月氛围编程游戏进入新拐点",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "2026 年 10 月：氛围编程游戏进入新拐点",
-      "score": 7,
-      "tags": [
-        "AI coding agents",
-        "vibe coding",
-        "game development",
-        "LLMs",
-        "developer tools"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "1e2ca0d99db08f48496d2e33b5a31b2f1bfd6a34",
-      "canonicalId": "cf7263c76277a5ab4665bbc44c290186f29f26de",
-      "slug": "northstar-申请进入-debian-与-arch-引发审查争议",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Northstar 申请进入 Debian 与 Arch 引发审查争议",
-      "score": 7,
-      "tags": [
-        "open source governance",
-        "Linux distributions",
-        "AI-generated code",
-        "browser engines",
-        "software security"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "a2928815e7051badb797aef91a80505c8fe45eca",
-      "canonicalId": "feb4caa835f163bd378978a5179817d24a9feb99",
-      "slug": "google-提出睡眠框架缓解大模型持续学习遗忘",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Google 提出睡眠框架，缓解大模型持续学习遗忘",
-      "score": 7,
-      "tags": [
-        "LLM continual learning",
-        "catastrophic forgetting",
-        "Google Research",
-        "long-context",
-        "AI research"
-      ],
-      "originalSite": "research.google"
-    },
-    {
-      "id": "340270221dab68980bc7731a9b160a6469193bec",
-      "canonicalId": "f587abfb7b9e0546cf9c82a45a16cae590df130d",
-      "slug": "长鑫存储-hbm3e-送样良率仅两三成",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "长鑫存储 HBM3E 送样，良率仅两三成",
-      "score": 7,
-      "tags": [
-        "HBM3E",
-        "CXMT",
-        "AI memory",
-        "semiconductor manufacturing",
-        "export controls"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "0f0b27e132eeadf4511ebdba7208dc9fd21fba26",
-      "canonicalId": "d8103b8af50d92a575c9127581138be20d91954c",
-      "slug": "apple-新款-macbook-pro-首发-proled-xdr-屏并加入触控",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Apple 新款 MacBook Pro 首发 PROLED XDR 屏并加入触控",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "MacBook Pro",
-        "hardware launch",
-        "OLED display",
-        "Apple Silicon"
-      ],
-      "originalSite": "apple.com"
-    },
-    {
-      "id": "a35fbe05ce00415c2ec6da09bb1d8506546fed94",
-      "canonicalId": "ccdcae5827c6090af8d2291439604f37d1d5961a",
-      "slug": "uber-如何为-ai-代理构建-mcp-网关",
-      "date": "2026-10-29",
-      "lang": "zh",
-      "title": "Uber 如何为 AI 代理构建 MCP 网关",
-      "score": 6,
-      "tags": [
-        "MCP",
-        "AI agents",
-        "API gateway",
-        "tool discovery",
-        "platform architecture"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "8468794505709a2bb0369299e504ad414acb46ff",
-      "canonicalId": "07281666d13cd0ef0092ff2f91ad60458b786c05",
-      "slug": "有限单群分类在-lean-中形式化的公告",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "有限单群分类在 Lean 中形式化的公告",
-      "score": 9,
-      "tags": [
-        "Lean",
-        "formal mathematics",
-        "proof assistants",
-        "finite group theory",
-        "CFSG"
-      ],
-      "originalSite": "cfsg.axiommath.ai"
-    },
-    {
-      "id": "6c0b43060cab8542d5a4b58a1a396f8e107a4470",
-      "canonicalId": "5ef94984dce414f6cd0dec7eb033a3aff5071eaa",
-      "slug": "deepmind-发布-genie-4-世界模型支持实时音画与对话",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "DeepMind 发布 Genie 4 世界模型，支持实时音画与对话",
-      "score": 8,
-      "tags": [
-        "world models",
-        "generative AI",
-        "DeepMind",
-        "video generation",
-        "multimodal AI"
-      ],
-      "originalSite": "deepmind.google"
-    },
-    {
-      "id": "ead3f8356ff70b50a383e7aabc4d917a5a3b7230",
-      "canonicalId": "6cae593d0f4e7105ed3f9d82b21cb9ce3e8557c3",
-      "slug": "anthropic-确认内部系统遭访问称模型权重未受影响",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "Anthropic 确认内部系统遭访问，称模型权重未受影响",
-      "score": 8,
-      "tags": [
-        "AI security",
-        "cybersecurity",
-        "Anthropic",
-        "autonomous agents",
-        "incident disclosure"
-      ],
-      "originalSite": "washingtonpost.com"
-    },
-    {
-      "id": "f400db82ed8baf72e581b74cd103b1735496ef3f",
-      "canonicalId": "f16aefe89a6e3f3b8efed940fa1afba45d52bb2d",
-      "slug": "openai-称模型产出三项科研结果待外部验证",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "OpenAI 称模型产出三项科研结果，待外部验证",
-      "score": 8,
-      "tags": [
-        "AI for science",
-        "mathematical proofs",
-        "computational complexity",
-        "Lean formalization",
-        "Yang-Mills"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "b0b22f1f859ac0fd314cd0db9f2d91c79f6c9611",
-      "canonicalId": "b44da20eb7420f359a8650d264840063bd00af6d",
-      "slug": "triton-390-发布新增原子加载与存储",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "Triton 3.9.0 发布：新增原子加载与存储",
-      "score": 7,
-      "tags": [
-        "Triton",
-        "GPU compiler",
-        "release notes",
-        "AI infrastructure",
-        "atomic operations"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "b08a69214d08baa0ef35b2aa364af4f6d8cf4936",
-      "canonicalId": "1688335f378e11598690d353097d2852d6425b00",
-      "slug": "cpython-实验性-jit-将被移除",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "CPython 实验性 JIT 将被移除",
-      "score": 7,
-      "tags": [
-        "Python",
-        "CPython",
-        "JIT compilation",
-        "free-threading",
-        "language performance"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "596bdcd5fe786feaa98b90a549fe3d8c5cc44a6f",
-      "canonicalId": "2fb0f351f38405364daa1e0520141fa488c415a6",
-      "slug": "tailscale-发布-ssh-漏洞调查与修复更新",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "Tailscale 发布 SSH 漏洞调查与修复更新",
-      "score": 7,
-      "tags": [
-        "Tailscale",
-        "SSH",
-        "security vulnerability",
-        "access control",
-        "remediation"
-      ],
-      "originalSite": "tailscale.com"
-    },
-    {
-      "id": "733be49c21889ea31927e28f290be1ac094d9060",
-      "canonicalId": "acb3a24ef951cfe3981520356b377d13c83d2f40",
-      "slug": "ieee-spectrum维基百科清理-ai-生成内容",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "IEEE Spectrum：维基百科清理 AI 生成内容",
-      "score": 7,
-      "tags": [
-        "AI-generated content",
-        "Wikipedia",
-        "content moderation",
-        "open knowledge",
-        "generative AI"
-      ],
-      "originalSite": "spectrum.ieee.org"
-    },
-    {
-      "id": "a0a7d14901d59ee67a8b824c13a2f66a50d557c3",
-      "canonicalId": "a4c44e96b0a94df51038ee6157b11679115f6b1d",
-      "slug": "报道称-anthropic-用非法获取的斯坦福教授著作训练-claude",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "报道称 Anthropic 用非法获取的斯坦福教授著作训练 Claude",
-      "score": 7,
-      "tags": [
-        "AI copyright",
-        "training data",
-        "Anthropic",
-        "Claude",
-        "AI ethics"
-      ],
-      "originalSite": "stanforddaily.com"
-    },
-    {
-      "id": "6659c71c1d6bfba5be8cd9091c73cabb4918c95c",
-      "canonicalId": "0b3125572ad0f1010de96d0d082d48f2e6ab420e",
-      "slug": "kangrejos-讨论-rust-内核代码的-panic-准则",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "Kangrejos 讨论 Rust 内核代码的 panic 准则",
-      "score": 7,
-      "tags": [
-        "Rust for Linux",
-        "kernel development",
-        "error handling",
-        "panics",
-        "Kangrejos 2026"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "eb2b296937a8c85381100903c5b5b0d493f9a01a",
-      "canonicalId": "7b7c829233c69e1989491348d09650481ef26716",
-      "slug": "中国团队称-24-芯光纤实现-32-pbs-实时传输纪录",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "中国团队称 24 芯光纤实现 3.2 Pb/s 实时传输纪录",
-      "score": 7,
-      "tags": [
-        "optical networking",
-        "fiber optics",
-        "space-division multiplexing",
-        "multi-band transmission",
-        "networking hardware"
-      ],
-      "originalSite": "tomshardware.com"
-    },
-    {
-      "id": "f3bcf03fceaed0cf79f3fb7351935ceff505a591",
-      "canonicalId": "5754561852654c6d6e67fd26bac955dfc673c6b6",
-      "slug": "微软修复安卓-authenticator-高危漏洞恶意应用可窃取工作账户令牌",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "微软修复安卓 Authenticator 高危漏洞，恶意应用可窃取工作账户令牌",
-      "score": 7,
-      "tags": [
-        "security vulnerability",
-        "Microsoft Authenticator",
-        "Android",
-        "authentication tokens",
-        "CVE-2026-80097"
-      ],
-      "originalSite": "msrc.microsoft.com"
-    },
-    {
-      "id": "398abd9b49d77e8dd57c06bf480a077ce1663c5a",
-      "canonicalId": "5a012bc20118eed0acfb803bb41559c7ef211c1b",
-      "slug": "苹果入门-macbook-pro-与-imac-升级-m6",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "苹果入门 MacBook Pro 与 iMac 升级 M6",
-      "score": 7,
-      "tags": [
-        "Apple Silicon",
-        "MacBook Pro",
-        "2nm process",
-        "hardware launch",
-        "on-device AI"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "4e140297708613f1df1e11761c033ee3b8f9484d",
-      "canonicalId": "c6329a986f18633d400948017268d24fe4c5af9f",
-      "slug": "dgx-spark-上加速-moe-推理的三项优化",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "DGX Spark 上加速 MoE 推理的三项优化",
-      "score": 8,
-      "tags": [
-        "MoE inference",
-        "speculative decoding",
-        "FP8 quantization",
-        "LLM inference optimization",
-        "DGX Spark"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "feda505074e92ea9c7668ef40d6e82fb52291b3d",
-      "canonicalId": "2862aed6fff3043ffbb140ed305b980650e8d171",
-      "slug": "apple-如何在-iphone-上装下-30-亿参数模型",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "Apple 如何在 iPhone 上装下 30 亿参数模型",
-      "score": 6,
-      "tags": [
-        "on-device LLM",
-        "quantization",
-        "KV cache",
-        "LoRA adapters",
-        "Apple Intelligence"
-      ],
-      "originalSite": "blog.bytebytego.com"
-    },
-    {
-      "id": "6ada17f3f342684d1e084d07ff84f896d964c2df",
-      "canonicalId": "c660494836a3b01f70b17aa664ab92c254de4ea1",
-      "slug": "cuda-134-与-kai-scheduler-的-gpu-内存强制共享",
-      "date": "2026-10-28",
-      "lang": "zh",
-      "title": "CUDA 13.4 与 KAI Scheduler 的 GPU 内存强制共享",
-      "score": 6,
-      "tags": [
-        "GPU sharing",
-        "Kubernetes",
-        "NVIDIA CUDA",
-        "MPS",
-        "KAI Scheduler"
-      ],
-      "originalSite": "developer.nvidia.com"
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "id": "88c8ae8a68d79503a6ff301aeaa0f988fd746a74",
+  "canonicalId": "85b327ef34b9e9c995cf1a52efa7e0b51ddac425",
+  "slug": "meta-fairnyu-200-mllms-show-encoder-pretraining-optional-vision-only-parameters-required",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T17:38:00Z",
+  "lang": "en",
+  "title": "Meta FAIR/NYU: 200+ MLLMs show encoder pretraining optional, vision-only parameters required",
+  "summary": "An author-posted preprint from Meta FAIR and NYU reports that training 200+ multimodal LLMs from scratch on identical data shows separate vision-encoder pretraining is optional, vision-only parameters are not, and placement of the encoder before the LLM is optional. Encoder pretraining was counted against the same lifetime compute budget; main comparisons used Qwen3-1.7B and 4B backbones with 0.4B parameters of vision capacity, plus a scaling ladder from 0.6B to 6.4B, evaluated on 16 Cambrian VQA benchmarks at 448 px and 12 language benchmarks. Pretrained encoders built with contrastive, self-supervised, and two captioning objectives at best tied a from-scratch encoder at matched compute, and pretraining MetaCLIP 6.5x longer raised ImageNet linear-probe accuracy from 80.4% to 84.4% without improving VQA; encoder-free models trailed at every size and needed about 3x the compute to catch up. The authors&\\#x27; &quot;in-fusion&quot; variant adds zero-initialized vision-only attention projections and FFNs to the LLM&\\#x27;s first eight layers, matching an encoder from 1.7B to 6.4B with about 13% lower time to first token \\(45.0 vs 44.4 VQA at 1.7B\\), though these remain preprint claims that have not been peer-reviewed.",
+  "score": 8,
+  "tags": [
+    "multimodal learning",
+    "vision encoders",
+    "MLLM training",
+    "model architecture",
+    "research preprint"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/trungh98"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "google/ gemma - 4 - 12 B · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-4-12B"
+    },
+    {
+      "title": "Gemma 4 12 B : The Developer Guide - Google Developers Blog",
+      "url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

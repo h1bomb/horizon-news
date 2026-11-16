@@ -1,0 +1,44 @@
+{
+  "id": "7f7eaf7d602d85cb982ad4fd8ca114ea2259412c",
+  "canonicalId": "b8c0d8bf4f3051d3aa45ca4b3565ca46cbebedb0",
+  "slug": "tool-claims-5x-faster-pageable-cudamemcpy-on-nvidia-b300",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T18:20:00Z",
+  "lang": "en",
+  "title": "Tool claims 5x faster pageable cudaMemcpy on NVIDIA B300",
+  "summary": "A Reddit author \\(/u/makneeee\\) released an open-source tuner, cudamemcpy-tuner, that claims to speed up pageable cudaMemcpy transfers on an NVIDIA B300. In the posted benchmark, copying a 1 GB uint8 tensor from CPU to GPU ran at 10.2 GB/s unmodified and 51.5 GB/s after wrapping the same script with \\`cmt tune -- python bench.py\\`. The claim covers only pageable CPU-to-GPU copies on a single GPU model, comes from the author&\\#x27;s own unrun-by-others measurement, and the terse post defers technical detail to a linked blog and the GitHub repository; no independent verification is provided.",
+  "score": 7,
+  "tags": [
+    "cuda",
+    "gpu-memory-transfer",
+    "performance-optimization",
+    "ml-systems",
+    "open-source-tools"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/makneeee"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How to Optimize Data Transfers in CUDA C/C++ | NVIDIA ...",
+      "url": "https://developer.nvidia.com/blog/how-optimize-data-transfers-cuda-cc/"
+    },
+    {
+      "title": "CUDA Memory: Global, Shared, Constant &amp; Pinned Memory",
+      "url": "https://cuda.live/tutorials/memory-model"
+    },
+    {
+      "title": "NVIDIA B300 Specs: ~$2.26/hr, 268 GB HBM3e | InferenceX",
+      "url": "https://inferencex.semianalysis.com/chips/b300"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

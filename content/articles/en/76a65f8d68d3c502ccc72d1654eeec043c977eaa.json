@@ -1,0 +1,44 @@
+{
+  "id": "76a65f8d68d3c502ccc72d1654eeec043c977eaa",
+  "canonicalId": "6fc6bc2d3ff2654d4f57b2ec9a8b06d714bedab5",
+  "slug": "meituan-open-sources-longcat-25-a-16t-parameter-agent-model-trained-on-huawei-ascend",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T11:08:00Z",
+  "lang": "en",
+  "title": "Meituan open-sources LongCat-2.5, a 1.6T-parameter agent model trained on Huawei Ascend",
+  "summary": "Meituan&\\#x27;s LongCat team published the weights for LongCat-2.5 about a week after unveiling the model, releasing them under the MIT license, which permits commercial use. The mixture-of-experts model totals roughly 1.6 trillion parameters with about 48 billion active per token, and accepts text, image, and video input; it is positioned for agents that carry out long, multi-step tasks, especially coding. Meituan says training used only Chinese silicon — Huawei Ascend accelerator cards — with no Nvidia GPUs, and reports a Terminal Bench v2.1 score of 88.4, just below the 89.1 it attributes to Claude Opus 5. The account comes from a Telegram aggregator citing The Decoder, and the training-hardware and benchmark claims have not been independently verified.",
+  "score": 8,
+  "tags": [
+    "open-source AI",
+    "large language models",
+    "Huawei Ascend",
+    "AI agents",
+    "model benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+  "originalSite": "the-decoder.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Meituan Trained a Frontier Model Without Nvidia – TemperatureZero",
+      "url": "https://temperaturezero.com/2026/07/05/meituan-trained-frontier-model-without-nvidia/"
+    },
+    {
+      "title": "#61 - LongCat edges out GPT-5.5 | AI Coding Weekly",
+      "url": "https://aicodingweekly.datadriftpress.com/p/61-longcat-edges-out-gpt-5-5"
+    },
+    {
+      "title": "How Meituan Built a Trillion - Parameter AI Model on 50,000 Domestic...",
+      "url": "https://www.ainchina.com/blog/meituan-longcat-2-trillion-domestic-chips-china-ai-independence-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "76daba9be83275b3b79a1fe15cd841d6d19664df",
+  "canonicalId": "966523945edb28bbdc2e3dc0dd7fb4e838a51ba5",
+  "slug": "protomaps自托管地图瓦片变得便宜又简单",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T19:26:00Z",
+  "lang": "zh",
+  "title": "Protomaps：自托管地图瓦片变得便宜又简单",
+  "summary": "一篇博文结合实践说明，用 Protomaps 自托管地图瓦片如今成本低、上手也容易；文章讲的是自建瓦片服务的做法与开销，并未涉及新版本或新功能发布。讨论主要围绕 PMTiles 格式配合对象存储（如 Cloudflare R2）的组合展开：评论者表示可以把瓦片放在自己的存储上对外提供，从而自己掌握地图基础设施。需要区分的是，这些均为博客作者与评论者的实践描述，没有第三方基准或厂商数据佐证“便宜”的具体幅度。",
+  "score": 7,
+  "tags": [
+    "protomaps",
+    "map-tiles",
+    "self-hosting",
+    "open-source",
+    "pmtiles"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "bcye",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50509837"
+    }
+  ],
+  "originalUrl": "https://bruceroettgers.eu/blog/protomaps/",
+  "originalSite": "bruceroettgers.eu",
+  "context": "Protomaps 是一个开源世界地图项目，可把地图数据打包成单个静态文件放在云存储上，客户端直接读取瓦片，因此无需自建瓦片服务器。Supabase 的示例也采用这种做法，将 Protomaps 瓦片直接从 Supabase Storage 提供给 MapLibre 地图。",
+  "discussion": "对有地图需求的小团队和独立开发者来说，最直接的后果是不必再绑定 Mapbox 或 Google Maps 的按量计费与 API key 体系：一位评论者称，正因为 Protomaps，他才觉得这个维基百科步行游戏在副业预算内可行。但这个方案有容量上限：另一位评论者为提供离线访问而自建北美卫星影像拼接图时，受存储预估限制只能停到 z17，并称高分辨率全球覆盖可能达到数百 TB 量级，已超出“放对象存储加个 worker”的范围。\n\n评论者 boramalper 推荐了同类项目 OpenFreeMap，其公共实例声称不限地图浏览量与请求数、无需注册和 API key，靠捐赠覆盖运行成本；neomantra 则介绍了用 Cloudflare R2 承载 PMTiles 的做法，动机是隐私与访问控制，并提到自己的工具目前对大瓦片（&gt;128M）和部分栅格格式的支持仍有问题。",
+  "references": [
+    {
+      "title": "supabase.com/blog/ self - host - maps -storage- protomaps .md",
+      "url": "https://supabase.com/blog/self-host-maps-storage-protomaps.md"
+    },
+    {
+      "title": "Protomaps - The open source map in a file",
+      "url": "https://protomaps.com/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

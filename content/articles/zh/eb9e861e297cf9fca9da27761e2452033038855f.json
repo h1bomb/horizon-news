@@ -1,0 +1,40 @@
+{
+  "id": "eb9e861e297cf9fca9da27761e2452033038855f",
+  "canonicalId": "6fc6bc2d3ff2654d4f57b2ec9a8b06d714bedab5",
+  "slug": "美团开源-longcat-2516-万亿参数称全程用升腾训练",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T11:08:00Z",
+  "lang": "zh",
+  "title": "美团开源 LongCat-2.5：1.6 万亿参数，称全程用升腾训练",
+  "summary": "美团 LongCat 团队在模型正式发布一周后公布了 LongCat-2.5 的权重；该模型总参数约 1.6 万亿，采用 MIT 许可证，允许商用。它面向能够自主完成冗长、多步骤任务（尤其是编程任务）的智能体，每个 token 激活约 480 亿参数，并支持文本、图像和视频输入。团队称其训练全程使用华为升腾加速卡、未使用英伟达 GPU，在 Terminal Bench v2.1 上得分 88.4，略低于 Claude Opus 5 的 89.1；这些硬件与跑分声明尚待独立验证。",
+  "score": 8,
+  "tags": [
+    "open-source AI",
+    "large language models",
+    "Huawei Ascend",
+    "AI agents",
+    "model benchmarks"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+  "originalSite": "the-decoder.com",
+  "context": "据 TemperatureZero 报道，美团 LongCat 团队于 6 月 30 日开源了 LongCat-2.0：该模型拥有 1.6 万亿参数，并称在 5 万颗国产芯片上端到端训练，且未使用英伟达 GPU。该版本以 MIT 许可证发布，因此 LongCat-2.5 是在同一参数级别和同一开放许可下的一次版本更新，并非首次转向国产算力。",
+  "discussion": "对希望商用或修改权重的智能体开发团队而言，MIT 许可证降低了法律门槛，但 1.6 万亿总参数仍意味着高昂的推理部署成本。官方给出的 Terminal Bench 得分只比 Claude Opus 5 低 0.7 分，并不保证在自有编程任务上同样接近，团队在上线前仍需用自身任务集复测。",
+  "references": [
+    {
+      "title": "Meituan Trained a Frontier Model Without Nvidia – TemperatureZero",
+      "url": "https://temperaturezero.com/2026/07/05/meituan-trained-frontier-model-without-nvidia/"
+    },
+    {
+      "title": "How Meituan Built a Trillion - Parameter AI Model on 50,000 Domestic...",
+      "url": "https://www.ainchina.com/blog/meituan-longcat-2-trillion-domestic-chips-china-ai-independence-2026/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

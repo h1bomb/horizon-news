@@ -1,0 +1,36 @@
+{
+  "id": "06b0b8b56ba87601d19b1937a62542a74c87e485",
+  "canonicalId": "950ac38f23f2d5a7b62eb3e171ad86cac2083969",
+  "slug": "positional-embeddings-explainer-prompts-group-theory-framing-on-hacker-news",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T12:14:00Z",
+  "lang": "en",
+  "title": "Positional embeddings explainer prompts group-theory framing on Hacker News",
+  "summary": "A technical explainer titled &quot;Understanding Positional Embeddings in Modern LLMs&quot; describes how positional embeddings are implemented in current transformer-based language models. It is an educational deep-dive rather than a report of a new method, result, or release, and the supplied material contains only a summary with no article text, so its specific architectural claims and examples could not be checked. In the accompanying Hacker News thread, commenter programjames argued that implementation coverage alone is insufficient, framing positional embeddings as group representations and describing rotary positional embeddings as representations of the translation group, which the commenter notes is abelian in ℝⁿ.",
+  "score": 7,
+  "tags": [
+    "positional embeddings",
+    "LLMs",
+    "transformer architectures",
+    "deep learning theory"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vismit2000",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50506376"
+    }
+  ],
+  "originalUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+  "originalSite": "magazine.sebastianraschka.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Beyond Standard Attention: Demystifying GQA and RoPE in Modern ...",
+      "url": "https://micrologics.org/blog/beyond-standard-attention-demystifying-gqa-and-rope-in-modern-llm-architectures"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

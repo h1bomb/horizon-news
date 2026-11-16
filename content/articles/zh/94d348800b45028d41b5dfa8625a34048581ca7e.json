@@ -1,0 +1,40 @@
+{
+  "id": "94d348800b45028d41b5dfa8625a34048581ca7e",
+  "canonicalId": "950ac38f23f2d5a7b62eb3e171ad86cac2083969",
+  "slug": "现代-llm-位置嵌入实现解释与群表示视角",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T12:14:00Z",
+  "lang": "zh",
+  "title": "现代 LLM 位置嵌入：实现解释与群表示视角",
+  "summary": "Sebastian Raschka 的文章讨论现代大语言模型中位置嵌入的实现方式，面向希望理解具体机制的开发者。文章在 Hacker News 的讨论进一步延伸到群论解释。",
+  "score": 7,
+  "tags": [
+    "positional embeddings",
+    "LLMs",
+    "transformer architectures",
+    "deep learning theory"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "vismit2000",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50506376"
+    }
+  ],
+  "originalUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+  "originalSite": "magazine.sebastianraschka.com",
+  "context": "位置编码用于让 Transformer 在并行处理 token 时仍能获得顺序信息。Rotary Position Embeddings（RoPE）由 Su 等人提出，它通过对 Query 和 Key 向量施加旋转来编码相对位置；这篇解释文章从不同位置编码方法讲到 RoPE 的工作方式，并讨论了近期开源 LLM 的选择。",
+  "discussion": "评论者 programjames 主张，要真正理解位置嵌入，就必须理解其理论：位置嵌入是群表示，这也是找到它们并对其参数化、使其可微且可学习的方式。他以旋转位置嵌入为例，称其是平移群的表示，并指出 n 维平移群 ℝⁿ 是阿贝尔群；这些是评论者的观点，不是文章结论。",
+  "references": [
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+    },
+    {
+      "title": "Beyond Standard Attention: Demystifying GQA and RoPE in Modern ...",
+      "url": "https://micrologics.org/blog/beyond-standard-attention-demystifying-gqa-and-rope-in-modern-llm-architectures"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

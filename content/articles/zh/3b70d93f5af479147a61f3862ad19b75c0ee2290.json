@@ -1,0 +1,44 @@
+{
+  "id": "3b70d93f5af479147a61f3862ad19b75c0ee2290",
+  "canonicalId": "b8c0d8bf4f3051d3aa45ca4b3565ca46cbebedb0",
+  "slug": "开源工具称将-b300-上页式-cudamemcpy-提速约-5-倍",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T18:20:00Z",
+  "lang": "zh",
+  "title": "开源工具称将 B300 上页式 cudaMemcpy 提速约 5 倍",
+  "summary": "一位开发者在 Reddit 发布开源工具 cudamemcpy-tuner，声称在 NVIDIA B300 上把页式（pageable）cudaMemcpy 的 CPU→GPU 传输速度从约 10.2 GB/s 提升到 51.5 GB/s，约 5 倍。作者给出的示例用 1 GB uint8 张量、连续 5 次复制并同步计时，并链接了博客与 GitHub 代码。该结果目前是作者自测，尚未独立验证，且仅覆盖单一 GPU 型号和页式传输场景。",
+  "score": 7,
+  "tags": [
+    "cuda",
+    "gpu-memory-transfer",
+    "performance-optimization",
+    "ml-systems",
+    "open-source-tools"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/makneeee"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "How to Optimize Data Transfers in CUDA C/C++ | NVIDIA ...",
+      "url": "https://developer.nvidia.com/blog/how-optimize-data-transfers-cuda-cc/"
+    },
+    {
+      "title": "CUDA Memory: Global, Shared, Constant &amp; Pinned Memory",
+      "url": "https://cuda.live/tutorials/memory-model"
+    },
+    {
+      "title": "NVIDIA B300 Specs: ~$2.26/hr, 268 GB HBM3e | InferenceX",
+      "url": "https://inferencex.semianalysis.com/chips/b300"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

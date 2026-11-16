@@ -1,0 +1,44 @@
+{
+  "id": "3e50ad099778b59bf576984fd891855f91f16c15",
+  "canonicalId": "64e82a8f8aca1818bca73d05d769825c67d054a4",
+  "slug": "华为云-maas-上线-openpangu-21-pro",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T16:03:00Z",
+  "lang": "zh",
+  "title": "华为云 MaaS 上线 openPangu-2.1-Pro",
+  "summary": "11 月 15 日，华为云 MaaS 模型即服务平台上线 openPangu-2.1-Pro，称该模型围绕 Agent 开发、AI 编码和推理优化升级能力。公告称其基于 10 万余条专项数据优化 Skills 触发与工具调用，并适配鸿蒙 ArkTS 开发、升腾算子生成，接入智果 AgentArts、码道 CodeArts、果办 OfficeAce 等产品。推理定价为输入 0.8 元/百万 tokens、输出 3.2 元/百万 tokens，缓存命中输入 0.016 元/百万 tokens。公告未披露模型规模、基准测试结果和开源许可证，也尚无独立评测。",
+  "score": 7,
+  "tags": [
+    "Huawei Cloud",
+    "Pangu",
+    "open-source LLM",
+    "AI agents",
+    "AI coding"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/8JfFmscBTDl_mPQMycD8Nw",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "",
+  "discussion": "对鸿蒙和升腾相关开发者而言，该模型可直接通过华为云 MaaS 调用并按 token 计费；但在生产采用前，仍需自行验证其 Skills 触发、工具调用及 ArkTS/升腾算子生成效果，因为公告未提供基准测试结果或许可证信息。",
+  "references": [
+    {
+      "title": "消息称 华 为 云 MaaS 平台 11 月 15 日更新上线 openPangu - 2 . 1 - Pro ...",
+      "url": "https://www.ithome.com/1/022/974.htm"
+    },
+    {
+      "title": "华 为 小艺Work率先上线 openPangu - 2 . 1 - Pro 模 型 ，主打“鸿蒙任务增强”",
+      "url": "https://www.163.com/dy/article/LAUGH8N10511B8LM.html"
+    },
+    {
+      "title": "lovedheart/ openPangu - 2 .0-Flash-FP8 · Hugging Face",
+      "url": "https://huggingface.co/lovedheart/openPangu-2.0-Flash-FP8"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5df2dc1165b2dea711f84ae232eabcddf8d9704b",
+  "canonicalId": "85b327ef34b9e9c995cf1a52efa7e0b51ddac425",
+  "slug": "meta-fair-与-nyu视觉编码器预训练可选专属参数必需",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-15T17:38:00Z",
+  "lang": "zh",
+  "title": "Meta FAIR 与 NYU：视觉编码器预训练可选、专属参数必需",
+  "summary": "Meta FAIR 与 NYU 的一篇预印本报告称，他们从零训练了 200 多个多模态大模型，在相同数据和包含编码器预训练的总算力预算下，分别检验视觉编码器的三项常见绑定选择。结果显示，单独预训练视觉编码器在匹配算力下至多与随 LLM 从零训练的编码器打平，并未带来 VQA 增益；但仅视觉 token 使用的专属参数不可少，无编码器模型在 0.6B 到 6.4B 各规模均落后，约需 3 倍算力才能追上。编码器放在 LLM 之前同样非必需：把零初始化的视觉专属权重注入 LLM 前 8 层（“in-fusion”）在 1.7B 到 6.4B 与编码器方案相当，并报告首 token 时间低约 13%。主要对比基于 Qwen3-1.7B/4B 骨干和 0.4B 视觉容量，评测覆盖 Cambrian 的 16 个 448px VQA 基准及 12 个语言基准；作者在帖子中披露了身份，结论仍属未经同行评审的预印本。",
+  "score": 8,
+  "tags": [
+    "multimodal learning",
+    "vision encoders",
+    "MLLM training",
+    "model architecture",
+    "research preprint"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/trungh98"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/",
+  "originalSite": "reddit.com",
+  "context": "多模态大模型通常把视觉编码器作为独立预训练组件接在 LLM 之前，并且该编码器的参数只用于处理视觉 token；这实际上把三项选择捆绑在一起：是否单独预训练、是否保留视觉专用参数、是否把编码器放在 LLM 前面。由于已发布模型所用的数据与算力不同，很难直接比较它们来判断这三项中哪一项才是必要的。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "google/ gemma - 4 - 12 B · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-4-12B"
+    },
+    {
+      "title": "Gemma 4 12 B : The Developer Guide - Google Developers Blog",
+      "url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
