@@ -1,0 +1,45 @@
+{
+  "id": "0fbe35547235c4bbc866ac566cd006760e0f3351",
+  "canonicalId": "5c4fbe651718d4da5c59ec884e3a3072acbb109d",
+  "slug": "optimizely-据报被入侵并向-zoomgitlab-投放恶意代码",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T23:00:00Z",
+  "lang": "zh",
+  "title": "Optimizely 据报被入侵并向 Zoom、GitLab 投放恶意代码",
+  "summary": "据 Report-uri 博客，Optimizely 被入侵，并被用来通过第三方脚本向包括 Zoom、GitLab 在内的网站访问者投放恶意代码。攻击者如何获得对大量不相关客户项目的写入权限尚不明确，可能是 Optimizely 系统被攻破、跨客户凭证泄露或其他原因；评论引述的报道称，这不是 CDN 缓存投毒，Optimizely 自家 www 和登录站点的脚本片段也包含该代码。相关细节仍主要来自该博客和评论，尚无 Optimizely 的完整说明或独立验证。",
+  "score": 7,
+  "tags": [
+    "supply-chain-security",
+    "web-security",
+    "third-party-scripts",
+    "malware",
+    "Optimizely"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kristjansson",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50524767"
+    }
+  ],
+  "originalUrl": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+  "originalSite": "blog.report-uri.com",
+  "context": "Optimizely 通过嵌入客户网站的 JavaScript 片段提供 A/B 测试和个性化功能，这类第三方脚本在访问者浏览器中以站点自身权限执行。因此，一旦供应商交付的脚本被篡改，所有引用该片段的页面都可能被动加载恶意代码，而不需要攻击者逐个入侵这些网站。",
+  "discussion": "评论者把矛头指向标签管理器模式：stickfigure 认为 Google Tag Manager 让营销团队无需工程介入即可添加标签，导致页面加载大量 JavaScript，并希望此次事件促使各方重新评估；mcoliver 则主张供应商和大型站点应设置发布冷却、分阶段推送与安全检查，并质疑是否应直接托管第三方脚本。也有评论提出用 NoScript 缩小暴露面，但这些都属于个人观点，并未独立验证事件范围。",
+  "references": [
+    {
+      "title": "Malware served through Optimizely hit BBC, Zoom and 176 other ...",
+      "url": "https://runtimewire.com/article/malware-optimizely-bbc-zoom-178-organisations"
+    },
+    {
+      "title": "Optimizely Supply Chain Attack: Flaw Put Malicious JavaScript ...",
+      "url": "https://vinish.dev/optimizely-web-experimentation-supply-chain-attack-malicious-javascript"
+    },
+    {
+      "title": "Optimizely Supply-Chain Attack Hits 178 Major Websites",
+      "url": "https://blog.redsidesecurity.com/post/optimizely-supply-chain-attack-injects-malicious-javascript-into-178-major-websites"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

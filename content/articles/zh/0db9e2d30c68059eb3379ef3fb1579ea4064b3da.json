@@ -1,0 +1,31 @@
+{
+  "id": "0db9e2d30c68059eb3379ef3fb1579ea4064b3da",
+  "canonicalId": "6d3739127e37d025b6472eb782afeab5a5f24225",
+  "slug": "vllm-v0340-发布kv-缓存默认按实际空闲显存分配",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T23:22:00Z",
+  "lang": "zh",
+  "title": "vLLM v0.34.0 发布：KV 缓存默认按实际空闲显存分配",
+  "summary": "vLLM 发布 v0.34.0，包含 1,061 个提交和 412 名贡献者，新增 Mistral Large 4、MiniMax-M3.1-Flash 等 10 个模型。该版本在 CUDA 和 ROCm 上默认启用可扩展 KV 缓存，按 warmup 与 CUDA graph 捕获后实际空闲的显存确定缓存大小（示例：H200 上的 MiniMax-M3 从 43.3 万 token 提升到 67.2 万 token），但发布说明也指出部分模型在并发 128 时每 token 解码延迟（TPOT）上升 6%–18%，可用 --gpu-memory-utilization 0.9 或 --no-enable-extensible-kv-cache 关闭。Model Runner V1 已被移除，默认 block size 从 16 改为 64，ROCm 7.2 构建不再发布，并要求 huggingface\\_hub &gt;= 2.0.0；发布说明还称 GB200 上最高有 1.95 倍解码加速、GLM-5.3-Flash 吞吐提升 1.6 倍，这些均为厂商自测数据。",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "KV cache",
+    "GPU performance",
+    "release notes"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+  "originalSite": "github.com",
+  "context": "KV 缓存保存已处理 token 的键值状态，其可分配容量直接影响并发批量、吞吐和首 token 延迟。此前 vLLM 主要按预设的 \\`gpu\\_memory\\_utilization\\` 估算缓存容量；v0.34.0 改为在 CUDA graph 捕获和预热后按实际空闲显存分配，因此同一 GPU 往往能容纳更多缓存 token，但部分模型在高并发下的单 token 解码延迟可能上升。",
+  "discussion": "仍依赖 Model Runner V1 的部署升级后会直接启动失败，因为设置 VLLM\\_USE\\_V2\\_MODEL\\_RUNNER=0 不再被接受，需将 V1 logits processor 迁移到 vllm.v1.worker.gpu.sample.logits\\_processor。对每 token 解码延迟敏感的负载还应评估默认 KV 缓存策略带来的 TPOT 上升，并通过 --gpu-memory-utilization 0.9 或 --no-enable-extensible-kv-cache 回退到原有行为。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

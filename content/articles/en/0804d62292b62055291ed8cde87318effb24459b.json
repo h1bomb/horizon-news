@@ -1,0 +1,40 @@
+{
+  "id": "0804d62292b62055291ed8cde87318effb24459b",
+  "canonicalId": "aa50bdae09bdcc61e2ea020ede5ec97613000ee6",
+  "slug": "duetto-steers-a-pretrained-music-transformer-into-a-real-time-jazz-partner",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T09:19:00Z",
+  "lang": "en",
+  "title": "duetto steers a pretrained music transformer into a real-time jazz partner",
+  "summary": "duetto released a demo and code for a real-time MIDI-keyboard jazz partner that uses the pretrained Anticipatory Music Transformer unchanged and controls it at sampling time rather than by fine-tuning. Before each note sample, a rule layer masks disallowed events \\(such as a hand that must wait, an out-of-register pitch, or an off-beat bass note\\) and biases likely ones \\(current chord tones, downbeat guide tones, or quoted phrases\\), while the server samples about one second ahead and resamples unplayed music as the player plays. The author reports roughly 12 ms/note for the medium model and 18 ms/note for the large model on a 3080 Ti, and about 90 ms/note for the large model on a Jetson Orin Nano, but says the system can drift from the player, is hard to predict, and depends on a fragile balance between model ideas and rules; the code is free for noncommercial use.",
+  "score": 7,
+  "tags": [
+    "AI music generation",
+    "music transformer",
+    "real-time interaction",
+    "logit steering",
+    "MIDI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/GGAllin43"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xxkyh3/steering_a_pretrained_music_transformer_at/",
+  "originalSite": "reddit.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2306.08620] Anticipatory Music Transformer - arXiv.org",
+      "url": "https://arxiv.org/abs/2306.08620"
+    },
+    {
+      "title": "Anticipatory Music Transformer: A Controllable Infilling ...",
+      "url": "https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "65c79ead239e7f96ce05a23c00a97033289ccd3c",
+  "canonicalId": "aa50bdae09bdcc61e2ea020ede5ec97613000ee6",
+  "slug": "duetto-用采样时-logit-引导预训练音乐-transformer-实时伴奏",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T09:19:00Z",
+  "lang": "zh",
+  "title": "duetto 用采样时 logit 引导预训练音乐 Transformer 实时伴奏",
+  "summary": "名为 duetto 的项目发布了实时爵士 MIDI 键盘伴奏演示和代码（免费用于非商业用途），它把演奏者与模型的音符放在同一事件序列中逐音续写，可独奏、伴奏或演奏行走贝斯。与微调不同，duetto 直接使用预训练的 Anticipatory Music Transformer（Thickstun 等，2023），在每次采样前由规则层修改 logits：屏蔽不允许的音符（如需等待的手部、音域外音高、非拍上贝斯音），并偏向当前和弦音、强拍导音和待引用乐句的下一音。作者报告在 3080 Ti 上约 12 ms/音（medium）和 18 ms/音（large），large 在 Jetson Orin Nano 上约 90 ms/音；服务器提前采样约 1 秒，并在演奏者输入后重采样未播放部分。演示中约 61% 的独奏音符来自引用乐句或主题；作者也指出它会偏离演奏者、响应难以预测，模型与规则的平衡很脆弱。",
+  "score": 7,
+  "tags": [
+    "AI music generation",
+    "music transformer",
+    "real-time interaction",
+    "logit steering",
+    "MIDI"
+  ],
+  "sources": [
+    {
+      "platform": "reddit",
+      "author": "/u/GGAllin43"
+    }
+  ],
+  "originalUrl": "https://www.reddit.com/r/MachineLearning/comments/1xxkyh3/steering_a_pretrained_music_transformer_at/",
+  "originalSite": "reddit.com",
+  "context": "duetto 所依赖的 Anticipatory Music Transformer 是 Thickstun 等人于 2023 年提出的符号音乐生成模型，其核心能力是把一部分音乐事件作为固定控制条件，让模型补全序列的其余部分，从而实现可控的 infilling 生成。该项目没有重新训练这一预训练模型，而是在逐音符采样时改写 logits，把原本面向补全任务的控制方式用于实时爵士伴奏。",
+  "discussion": "对交互式音乐系统开发者而言，duetto 提供了不微调预训练符号音乐模型的可复用控制路径：用规则层在采样前修改 logits，并用约 1 秒的前瞻缓冲吸收实时输入；但作者报告的偏离、不可预测响应和规则/模型平衡脆弱意味着采用前需要针对这些条件做评估。",
+  "references": [
+    {
+      "title": "[2306.08620] Anticipatory Music Transformer - arXiv.org",
+      "url": "https://arxiv.org/abs/2306.08620"
+    },
+    {
+      "title": "Anticipatory Music Transformer: A Controllable Infilling ...",
+      "url": "https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

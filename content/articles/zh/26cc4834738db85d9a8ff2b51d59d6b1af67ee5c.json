@@ -1,0 +1,37 @@
+{
+  "id": "26cc4834738db85d9a8ff2b51d59d6b1af67ee5c",
+  "canonicalId": "36cf899b1962ca458278be2d442587bf9a4714c5",
+  "slug": "jiff-10-发布rust-日期时间库的新选项",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T16:53:00Z",
+  "lang": "zh",
+  "title": "Jiff 1.0 发布：Rust 日期时间库的新选项",
+  "summary": "Jiff 1.0 已发布，这是一个面向 Rust 的日期时间库，作者为 burntsushi。该项目在 Hacker News 上引发讨论，关注点集中在其 API 设计，以及它相较 chrono 等现有方案可能带来的改进。现有材料未提供具体的性能对比或迁移兼容性细节，因此这些改进仍属于社区期待，尚未经过独立验证。",
+  "score": 8,
+  "tags": [
+    "Rust",
+    "datetime",
+    "open-source libraries",
+    "time zones",
+    "chrono"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "burntsushi",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50519744"
+    }
+  ],
+  "originalUrl": "https://burntsushi.net/jiff/",
+  "originalSite": "burntsushi.net",
+  "context": "Jiff 是 Andrew Gallant（burntsushi）开发的 Rust 日期时间库，项目自述其重点是把时区处理放在 API 的核心位置，并与 Time Zone Database 自动集成，从而自动处理夏令时等常见问题。Rust 生态此前已有 chrono 等日期时间库，Jiff 1.0 的发布因此被放在重新审视日期时间 API 的易用性与正确性这一背景下讨论。",
+  "discussion": "对需要在 Rust 中处理日期时间的开发者来说，Jiff 1.0 提供了一个 chrono 之外的可选库；是否采用仍取决于它的具体 API 能否与现有代码及生态依赖相匹配，而现有材料未提供兼容层或迁移工具的信息。\n\n曾维护 chrono 约五年的 quodlibetor 表示，他接手维护正是因为旧 API 不理想，但用户看重 API 稳定，任何小幅改进都会遇到阻力，最终他因倦怠停止维护，并对 Jiff 的出现表示感激。另有评论者赞赏 Jiff 明确说明自己并非适用于所有场景。",
+  "references": [
+    {
+      "title": "GitHub - BurntSushi/jiff: A datetime library for Rust that ...",
+      "url": "https://github.com/BurntSushi/jiff"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

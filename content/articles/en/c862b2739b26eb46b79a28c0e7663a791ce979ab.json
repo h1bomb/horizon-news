@@ -1,0 +1,45 @@
+{
+  "id": "c862b2739b26eb46b79a28c0e7663a791ce979ab",
+  "canonicalId": "81bd7f76e2a9d5f39cbb790e84ff5f92dff05d8a",
+  "slug": "report-windows-11-telemetry-tracks-coding-agents-and-developer-tools",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T22:58:00Z",
+  "lang": "en",
+  "title": "Report: Windows 11 Telemetry Tracks Coding Agents and Developer Tools",
+  "summary": "A post on xusheng.dev reports that Windows 11 is collecting telemetry on which coding agents and developer tools a user runs. The item is a single author&\\#x27;s write-up rather than a Microsoft disclosure or an independent measurement, and the supplied material does not establish the scope of the collection, which specific tools are covered, whether opt-outs exist, or how the data is used. Treat the claim as an unverified report until Microsoft documentation or reproducible testing confirms the details.",
+  "score": 7,
+  "tags": [
+    "Windows 11",
+    "telemetry",
+    "privacy",
+    "developer tools",
+    "AI coding agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cwaffles",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50524736"
+    }
+  ],
+  "originalUrl": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+  "originalSite": "xusheng.dev",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Manage telemetry in enterprise environments",
+      "url": "https://code.visualstudio.com/docs/enterprise/telemetry"
+    },
+    {
+      "title": "Microsoft Execution Containers and AWS Strands Box | TSN",
+      "url": "https://tsnmedia.org/agent-sandboxes-microsoft-execution-containers-aws-strands-box/"
+    },
+    {
+      "title": "Microsoft MXC Guide 2026: Sandbox AI Agents at the OS Level",
+      "url": "https://www.developersdigest.tech/blog/microsoft-mxc-developer-guide-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

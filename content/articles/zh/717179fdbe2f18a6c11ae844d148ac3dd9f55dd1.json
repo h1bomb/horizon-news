@@ -1,0 +1,49 @@
+{
+  "id": "717179fdbe2f18a6c11ae844d148ac3dd9f55dd1",
+  "canonicalId": "81bd7f76e2a9d5f39cbb790e84ff5f92dff05d8a",
+  "slug": "windows-11-被指收集编程代理与开发者工具遥测",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T22:58:00Z",
+  "lang": "zh",
+  "title": "Windows 11 被指收集编程代理与开发者工具遥测",
+  "summary": "一篇 Hacker News 帖子所引述的报告称，Windows 11 会收集开发者工具和编程代理的使用遥测数据，涉及在该系统上使用这些工具的开发者和 AI 代理用户。所给材料未说明具体收集哪些字段、覆盖哪些工具或版本，也未提供可核实的范围与严重程度。相关讨论集中在隐私、AI 代理沙箱以及改用 Linux 等替代方案，但这些属于评论意见，尚不能视为已确认的平台行为细节。",
+  "score": 7,
+  "tags": [
+    "Windows 11",
+    "telemetry",
+    "privacy",
+    "developer tools",
+    "AI coding agents"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cwaffles",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50524736"
+    }
+  ],
+  "originalUrl": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+  "originalSite": "xusheng.dev",
+  "context": "对开发者工具收集遥测并非新做法：微软在 VS Code 的企业文档中说明，遥测可分级设置并由组织集中管理，说明这类数据收集通常配有可配置的开关。Windows 11 长期因遥测范围受到关注，社区也一直维护 PowerShell 脚本等工具来屏蔽 Windows 10/11 的遥测和相关服务。这为理解“操作系统层面统计开发者使用哪些工具”提供了参照，但现有材料没有说明本次收集的具体字段、默认状态和关闭方式。",
+  "discussion": "有评论者认为，转向 Linux 的调整成本已明显降低，单机游戏大多可用，但多人游戏仍有兼容问题；也有人指出驱动和浏览器同样可能收集可执行文件名、路径或浏览记录，并提醒这类收集往往取决于是否选择退出。另有评论者称，Windows 的 AI 代理沙箱支持仍不完整，提到 MXC 于 10 月 7 日推出而 Claude Code 尚未支持，因此开发者会运行未沙箱代理或改用 WSL。",
+  "references": [
+    {
+      "title": "Manage telemetry in enterprise environments",
+      "url": "https://code.visualstudio.com/docs/enterprise/telemetry"
+    },
+    {
+      "title": "N0tHorizon/WindowsTelemetryBlocker: A PowerShell based tool to...",
+      "url": "https://github.com/N0tHorizon/WindowsTelemetryBlocker"
+    },
+    {
+      "title": "Microsoft Execution Containers and AWS Strands Box | TSN",
+      "url": "https://tsnmedia.org/agent-sandboxes-microsoft-execution-containers-aws-strands-box/"
+    },
+    {
+      "title": "Microsoft MXC Guide 2026: Sandbox AI Agents at the OS Level",
+      "url": "https://www.developersdigest.tech/blog/microsoft-mxc-developer-guide-2026"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

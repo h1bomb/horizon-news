@@ -1,0 +1,31 @@
+{
+  "id": "805f1fe523e1f6ab8c47fa6d4068c3e36f178089",
+  "canonicalId": "6d3739127e37d025b6472eb782afeab5a5f24225",
+  "slug": "vllm-v0340-defaults-to-extensible-kv-cache-and-drops-model-runner-v1",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T23:22:00Z",
+  "lang": "en",
+  "title": "vLLM v0.34.0 defaults to extensible KV cache and drops Model Runner V1",
+  "summary": "vLLM v0.34.0 is out, adding 10 models including Mistral Large 4 and Nemotron-3.5-Transcribe while making extensible KV-cache sizing the default on CUDA and ROCm. The new default sizes the cache from memory actually free after warmup rather than an estimate; the release cites MiniMax-M3 on H200 growing from 433k to 672k tokens, with a trade-off of 6–18% higher per-token decode latency at concurrency 128 on some models. Model Runner V1 is removed, leaving Model Runner V2 as the only GPU runner, the default block size changes from 16 to 64, ROCm 7.2 artifacts are dropped, and huggingface\\_hub &gt;= 2.0.0 plus tokenizers &gt;= 0.23.3 and timm &gt;= 1.0.30 are required. The release also reports up to 1.95× decode for Step5 NVFP4 MoE on 4×GB200, 1.6× output throughput for GLM-5.3-Flash, and 1.24–1.40× faster long-prompt TTFT for GLM-5.3 on GB200.",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "LLM inference",
+    "KV cache",
+    "GPU performance",
+    "release notes"
+  ],
+  "sources": [
+    {
+      "platform": "github",
+      "author": "khluu"
+    }
+  ],
+  "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

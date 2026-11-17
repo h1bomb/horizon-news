@@ -1,0 +1,45 @@
+{
+  "id": "563e7ef9c9f4c4452fa45bab9340e581c1a374f1",
+  "canonicalId": "8148552b8a3c54fde953244f8da2723bac435667",
+  "slug": "linebender-维基的-squircle-条目引发曲线连续性讨论",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T07:55:00Z",
+  "lang": "zh",
+  "title": "Linebender 维基的 squircle 条目引发曲线连续性讨论",
+  "summary": "Linebender 维基上的一篇关于 squircle（超椭圆式圆角方形）的技术条目在 Hacker News 上被 raphlinus 提交并引发讨论，内容聚焦这类形状的几何性质，以及它在 UI 与图形工作中获得平滑曲线的作用。讨论把话题延伸到样条、超椭圆、回旋曲线（clothoid）和导数连续性等相邻概念。该条目属于参考性文档，现有信息中没有附带版本、API 或性能数据。",
+  "score": 7,
+  "tags": [
+    "squircles",
+    "curves",
+    "UI graphics",
+    "geometric modeling",
+    "spline continuity"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "raphlinus",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50515151"
+    }
+  ],
+  "originalUrl": "https://linebender.org/wiki/curves/squircle/",
+  "originalSite": "linebender.org",
+  "context": "方圆形（squircle）是介于正方形与圆形之间的形状，常见数学定义来自超椭圆（Lamé 曲线），即 \\|x/a\\|^n + \\|y/b\\|^n = 1，取 n=4 时得到典型的 x^4 + y^4 = 1。UI 和图形设计常用这类曲率连续变化的轮廓替代普通圆角，Linebender 的条目也涉及超椭圆参数、G2 连续性以及与 Chromium/CSS 实现的对应关系。",
+  "discussion": "对需要在界面里绘制圆角的开发者，这类讨论的实际落点是角与直边衔接处的导数连续性，因为它决定轮廓看上去是否顺滑，而不只是圆角半径的大小。由于该条目是维基参考文档，读者拿不到可直接引入的实现或参数，落地仍需自行拟合曲线或依赖设计工具。\n\n有评论者以 Zune 第二代的方向键为例，认为 squircle 造型让翻选音乐的手感顺滑，同时还能像普通方向键那样按压。另有人推荐超椭球体（sphube）的论文，并分享自己正在开发的样条、超椭圆、回旋曲线创作工具；这位评论者自述该工具仍处探索阶段、界面粗糙。还有评论认为，正是没有导数不连续的曲线，才让图形在与物理世界交互时显得平滑。",
+  "references": [
+    {
+      "title": "Squircle - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Squircle"
+    },
+    {
+      "title": "Superellipse - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Superellipse"
+    },
+    {
+      "title": "Squircles - Linebender",
+      "url": "https://linebender.org/wiki/curves/squircle/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

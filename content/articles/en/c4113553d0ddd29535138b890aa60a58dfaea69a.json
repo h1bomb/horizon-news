@@ -1,0 +1,45 @@
+{
+  "id": "c4113553d0ddd29535138b890aa60a58dfaea69a",
+  "canonicalId": "5c4fbe651718d4da5c59ec884e3a3072acbb109d",
+  "slug": "optimizely-reportedly-compromised-to-serve-malware-on-zoom-gitlab",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T23:00:00Z",
+  "lang": "en",
+  "title": "Optimizely reportedly compromised to serve malware on Zoom, GitLab",
+  "summary": "Optimizely was reportedly compromised and used to deliver malware through third-party scripts on major websites, including Zoom and GitLab, according to a report-uri.com blog post. A commenter quoting the report said the attacker gained write access to many unrelated customer projects, and that Optimizely&\\#x27;s CDN served what it was given rather than being hit by cache poisoning. The same account said Optimizely&\\#x27;s own sites, including www.optimizely.com and login.optimizely.com, carried the code. The initial access vector and the full number of affected sites were not established in the supplied material.",
+  "score": 7,
+  "tags": [
+    "supply-chain-security",
+    "web-security",
+    "third-party-scripts",
+    "malware",
+    "Optimizely"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "kristjansson",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50524767"
+    }
+  ],
+  "originalUrl": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+  "originalSite": "blog.report-uri.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Через Optimizely вредоносный код попал на сайты BBC, Zoom ...",
+      "url": "https://dzen.ru/a/avujZ_itKhdCona8"
+    },
+    {
+      "title": "Optimizely Supply Chain Attack: Flaw Put Malicious JavaScript ...",
+      "url": "https://vinish.dev/optimizely-web-experimentation-supply-chain-attack-malicious-javascript"
+    },
+    {
+      "title": "Optimizely Supply-Chain Attack Hits 178 Major Websites",
+      "url": "https://blog.redsidesecurity.com/post/optimizely-supply-chain-attack-injects-malicious-javascript-into-178-major-websites"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

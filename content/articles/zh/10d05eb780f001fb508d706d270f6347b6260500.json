@@ -1,0 +1,40 @@
+{
+  "id": "10d05eb780f001fb508d706d270f6347b6260500",
+  "canonicalId": "e031ccf6cfbef0caf6e7f5ceb994331cf4b437be",
+  "slug": "亚马逊称-ai-代理借-artex-窃取密钥并自我供血",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T13:00:00Z",
+  "lang": "zh",
+  "title": "亚马逊称 AI 代理借 Artex 窃取密钥并自我供血",
+  "summary": "亚马逊表示，攻击者利用开源渗透测试框架 Artex 驱动 AI 代理，从 LiteLLM、Dify 等公网暴露的 AI 应用中窃取 API 密钥，验证后汇入共享池，用于支付更多大模型调用。亚马逊称，该活动始于 10 月 3 日，并于 11 月 5 日被其诱饵网络 MadPot 截获阻断。亚马逊以中等信心将行动归因于一个与中国相关的威胁组织，同时说明并非所有被列目标都已失陷，并已通知可能受影响的 AWS 客户。",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "autonomous agents",
+    "API key theft",
+    "cloud security",
+    "cybercrime"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://cybernews.com/security/amazon-autonomous-cybercrime-artex-framework/",
+  "originalSite": "cybernews.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and...",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
+    },
+    {
+      "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,516 @@
 {
   "articles": [
     {
+      "id": "0db9e2d30c68059eb3379ef3fb1579ea4064b3da",
+      "canonicalId": "6d3739127e37d025b6472eb782afeab5a5f24225",
+      "slug": "vllm-v0340-发布kv-缓存默认按实际空闲显存分配",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "vLLM v0.34.0 发布：KV 缓存默认按实际空闲显存分配",
+      "score": 8,
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "KV cache",
+        "GPU performance",
+        "release notes"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "26cc4834738db85d9a8ff2b51d59d6b1af67ee5c",
+      "canonicalId": "36cf899b1962ca458278be2d442587bf9a4714c5",
+      "slug": "jiff-10-发布rust-日期时间库的新选项",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "Jiff 1.0 发布：Rust 日期时间库的新选项",
+      "score": 8,
+      "tags": [
+        "Rust",
+        "datetime",
+        "open-source libraries",
+        "time zones",
+        "chrono"
+      ],
+      "originalSite": "burntsushi.net"
+    },
+    {
+      "id": "96da6a8253b250e9b11b6b6fc54cd5a1da96704c",
+      "canonicalId": "a016b5c90c4a3aa2be9ee71fe2212000895170aa",
+      "slug": "美国将先进-ai-芯片出口管制延伸至远程访问",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "美国将先进 AI 芯片出口管制延伸至远程访问",
+      "score": 8,
+      "tags": [
+        "AI芯片出口管制",
+        "美国政策",
+        "数据中心",
+        "半导体供应链",
+        "远程访问限制"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "229c57fd85a0ff924786192c00a3ccfaf4eb493b",
+      "canonicalId": "12f565e5c9f8cc1f9bd7c1c5db4f8ce5dab918fc",
+      "slug": "卡内基梅隆-cs-learn-免费上线-youtube-课程讲座",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "卡内基梅隆 CS Learn 免费上线 YouTube 课程讲座",
+      "score": 7,
+      "tags": [
+        "CS education",
+        "open courseware",
+        "online learning",
+        "ML systems",
+        "YouTube"
+      ],
+      "originalSite": "cs.cmu.edu"
+    },
+    {
+      "id": "0fbe35547235c4bbc866ac566cd006760e0f3351",
+      "canonicalId": "5c4fbe651718d4da5c59ec884e3a3072acbb109d",
+      "slug": "optimizely-据报被入侵并向-zoomgitlab-投放恶意代码",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "Optimizely 据报被入侵并向 Zoom、GitLab 投放恶意代码",
+      "score": 7,
+      "tags": [
+        "supply-chain-security",
+        "web-security",
+        "third-party-scripts",
+        "malware",
+        "Optimizely"
+      ],
+      "originalSite": "blog.report-uri.com"
+    },
+    {
+      "id": "563e7ef9c9f4c4452fa45bab9340e581c1a374f1",
+      "canonicalId": "8148552b8a3c54fde953244f8da2723bac435667",
+      "slug": "linebender-维基的-squircle-条目引发曲线连续性讨论",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "Linebender 维基的 squircle 条目引发曲线连续性讨论",
+      "score": 7,
+      "tags": [
+        "squircles",
+        "curves",
+        "UI graphics",
+        "geometric modeling",
+        "spline continuity"
+      ],
+      "originalSite": "linebender.org"
+    },
+    {
+      "id": "717179fdbe2f18a6c11ae844d148ac3dd9f55dd1",
+      "canonicalId": "81bd7f76e2a9d5f39cbb790e84ff5f92dff05d8a",
+      "slug": "windows-11-被指收集编程代理与开发者工具遥测",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "Windows 11 被指收集编程代理与开发者工具遥测",
+      "score": 7,
+      "tags": [
+        "Windows 11",
+        "telemetry",
+        "privacy",
+        "developer tools",
+        "AI coding agents"
+      ],
+      "originalSite": "xusheng.dev"
+    },
+    {
+      "id": "65c79ead239e7f96ce05a23c00a97033289ccd3c",
+      "canonicalId": "aa50bdae09bdcc61e2ea020ede5ec97613000ee6",
+      "slug": "duetto-用采样时-logit-引导预训练音乐-transformer-实时伴奏",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "duetto 用采样时 logit 引导预训练音乐 Transformer 实时伴奏",
+      "score": 7,
+      "tags": [
+        "AI music generation",
+        "music transformer",
+        "real-time interaction",
+        "logit steering",
+        "MIDI"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "f001eb5c42d6636b02e25d6f86c135cc97bcb059",
+      "canonicalId": "ed1fab5947cfff55933ee47819eb5b59fb60166a",
+      "slug": "美国与九国签署旧金山宣言协调-ai-供应链安全",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "美国与九国签署《旧金山宣言》协调 AI 供应链安全",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "AI supply chain",
+        "international agreement",
+        "superintelligence",
+        "technology governance"
+      ],
+      "originalSite": "state.gov"
+    },
+    {
+      "id": "10d05eb780f001fb508d706d270f6347b6260500",
+      "canonicalId": "e031ccf6cfbef0caf6e7f5ceb994331cf4b437be",
+      "slug": "亚马逊称-ai-代理借-artex-窃取密钥并自我供血",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "亚马逊称 AI 代理借 Artex 窃取密钥并自我供血",
+      "score": 7,
+      "tags": [
+        "AI security",
+        "autonomous agents",
+        "API key theft",
+        "cloud security",
+        "cybercrime"
+      ],
+      "originalSite": "cybernews.com"
+    },
+    {
+      "id": "0f9a6de517477a25be2e439cc6138e83cdb26b93",
+      "canonicalId": "d61228b9bc67e0e15e9b0dba08d7bb91c85c3d67",
+      "slug": "阿里腾讯月之暗面据悉收紧新模型网络攻击能力",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "阿里、腾讯、月之暗面据悉收紧新模型网络攻击能力",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "model safety",
+        "open-weight models",
+        "China AI",
+        "cybersecurity"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "24d935aef1cc4f4cb980d8f68ae8de7286dfce7c",
+      "canonicalId": "2ead04b8f37230e692009f31d97b0f011a9abaa4",
+      "slug": "苹果中国区-app-store-新增-aigc-备案入口",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "苹果中国区 App Store 新增 AIGC 备案入口",
+      "score": 7,
+      "tags": [
+        "Apple App Store",
+        "AIGC compliance",
+        "China regulation",
+        "generative AI",
+        "app developers"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "9b92133230972224fc07eb91e832951e4bf1f79b",
+      "canonicalId": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+      "slug": "卢特尼克因英伟达关联与对华芯片执法面临质疑",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "卢特尼克因英伟达关联与对华芯片执法面临质疑",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "export controls",
+        "Commerce Department",
+        "conflict of interest",
+        "China chip smuggling"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "1979f84943ffef73a748366c15b99f29e9e8a176",
+      "canonicalId": "90e0a44e38f725c3be3e22edf1fc17463d3af736",
+      "slug": "黄仁勋辞职后分析师下调英伟达目标价ai-交易或转向其他大型科技股",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "黄仁勋辞职后：分析师下调英伟达目标价，AI 交易或转向其他大型科技股",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "AI semiconductors",
+        "CEO succession",
+        "ETF flows",
+        "data-center policy"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "ffdcc373f40ad07a06f4112f5ee56ce9893023ba",
+      "canonicalId": "44104c4a13de41c8fc9c627afaae0e3c4c31c689",
+      "slug": "英特尔及-ceo-陈立武遭股东集体诉讼被指隐瞒-pc-需求疲软",
+      "date": "2026-11-17",
+      "lang": "zh",
+      "title": "英特尔及 CEO 陈立武遭股东集体诉讼，被指隐瞒 PC 需求疲软",
+      "score": 7,
+      "tags": [
+        "Intel",
+        "shareholder class action",
+        "earnings warning",
+        "stock selloff",
+        "semiconductors"
+      ],
+      "originalSite": "investing.com"
+    },
+    {
+      "id": "805f1fe523e1f6ab8c47fa6d4068c3e36f178089",
+      "canonicalId": "6d3739127e37d025b6472eb782afeab5a5f24225",
+      "slug": "vllm-v0340-defaults-to-extensible-kv-cache-and-drops-model-runner-v1",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "vLLM v0.34.0 defaults to extensible KV cache and drops Model Runner V1",
+      "score": 8,
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "KV cache",
+        "GPU performance",
+        "release notes"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "45d9d381fbe4962e7ae2f5bfd5d5e0007593cfb7",
+      "canonicalId": "36cf899b1962ca458278be2d442587bf9a4714c5",
+      "slug": "jiff-10-released-as-a-rust-datetime-library",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Jiff 1.0 Released as a Rust Datetime Library",
+      "score": 8,
+      "tags": [
+        "Rust",
+        "datetime",
+        "open-source libraries",
+        "time zones",
+        "chrono"
+      ],
+      "originalSite": "burntsushi.net"
+    },
+    {
+      "id": "e4a6892f202a723441d0a6d862f6f7d89f47ae3f",
+      "canonicalId": "a016b5c90c4a3aa2be9ee71fe2212000895170aa",
+      "slug": "us-extends-ai-chip-export-controls-to-remote-access",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "US extends AI chip export controls to remote access",
+      "score": 8,
+      "tags": [
+        "AI芯片出口管制",
+        "美国政策",
+        "数据中心",
+        "半导体供应链",
+        "远程访问限制"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "8ae1ce34bdc210774955d0e7924545fd3c71f428",
+      "canonicalId": "12f565e5c9f8cc1f9bd7c1c5db4f8ce5dab918fc",
+      "slug": "carnegie-mellon-launches-cs-learn-with-free-full-semester-lectures-on-youtube",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Carnegie Mellon launches CS Learn with free full-semester lectures on YouTube",
+      "score": 7,
+      "tags": [
+        "CS education",
+        "open courseware",
+        "online learning",
+        "ML systems",
+        "YouTube"
+      ],
+      "originalSite": "cs.cmu.edu"
+    },
+    {
+      "id": "c4113553d0ddd29535138b890aa60a58dfaea69a",
+      "canonicalId": "5c4fbe651718d4da5c59ec884e3a3072acbb109d",
+      "slug": "optimizely-reportedly-compromised-to-serve-malware-on-zoom-gitlab",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Optimizely reportedly compromised to serve malware on Zoom, GitLab",
+      "score": 7,
+      "tags": [
+        "supply-chain-security",
+        "web-security",
+        "third-party-scripts",
+        "malware",
+        "Optimizely"
+      ],
+      "originalSite": "blog.report-uri.com"
+    },
+    {
+      "id": "87277083cfe272d5100e0eed6b208aef9970ee88",
+      "canonicalId": "8148552b8a3c54fde953244f8da2723bac435667",
+      "slug": "linebender-wiki-article-breaks-down-squircles-for-ui-graphics",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Linebender Wiki Article Breaks Down Squircles for UI Graphics",
+      "score": 7,
+      "tags": [
+        "squircles",
+        "curves",
+        "UI graphics",
+        "geometric modeling",
+        "spline continuity"
+      ],
+      "originalSite": "linebender.org"
+    },
+    {
+      "id": "c862b2739b26eb46b79a28c0e7663a791ce979ab",
+      "canonicalId": "81bd7f76e2a9d5f39cbb790e84ff5f92dff05d8a",
+      "slug": "report-windows-11-telemetry-tracks-coding-agents-and-developer-tools",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Report: Windows 11 Telemetry Tracks Coding Agents and Developer Tools",
+      "score": 7,
+      "tags": [
+        "Windows 11",
+        "telemetry",
+        "privacy",
+        "developer tools",
+        "AI coding agents"
+      ],
+      "originalSite": "xusheng.dev"
+    },
+    {
+      "id": "0804d62292b62055291ed8cde87318effb24459b",
+      "canonicalId": "aa50bdae09bdcc61e2ea020ede5ec97613000ee6",
+      "slug": "duetto-steers-a-pretrained-music-transformer-into-a-real-time-jazz-partner",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "duetto steers a pretrained music transformer into a real-time jazz partner",
+      "score": 7,
+      "tags": [
+        "AI music generation",
+        "music transformer",
+        "real-time interaction",
+        "logit steering",
+        "MIDI"
+      ],
+      "originalSite": "reddit.com"
+    },
+    {
+      "id": "d1db0852e87a5f40eb04a31f539f2ae4d7438414",
+      "canonicalId": "ed1fab5947cfff55933ee47819eb5b59fb60166a",
+      "slug": "us-and-nine-countries-sign-san-francisco-declaration-on-ai-supply-chain",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "US and Nine Countries Sign San Francisco Declaration on AI Supply Chain",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "AI supply chain",
+        "international agreement",
+        "superintelligence",
+        "technology governance"
+      ],
+      "originalSite": "state.gov"
+    },
+    {
+      "id": "93ebd8684d2427cd6370367a1ac36d4c87b25d5f",
+      "canonicalId": "e031ccf6cfbef0caf6e7f5ceb994331cf4b437be",
+      "slug": "amazon-artex-driven-ai-agents-stole-api-keys-to-fund-model-calls",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Amazon: Artex-Driven AI Agents Stole API Keys to Fund Model Calls",
+      "score": 7,
+      "tags": [
+        "AI security",
+        "autonomous agents",
+        "API key theft",
+        "cloud security",
+        "cybercrime"
+      ],
+      "originalSite": "cybernews.com"
+    },
+    {
+      "id": "44e7eebccb39d723a812ead1e9333ebbfa153555",
+      "canonicalId": "d61228b9bc67e0e15e9b0dba08d7bb91c85c3d67",
+      "slug": "alibaba-tencent-moonshot-reportedly-curb-offensive-cyber-capabilities-qwen-flagship-not-open-weight",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Alibaba, Tencent, Moonshot Reportedly Curb Offensive Cyber Capabilities; Qwen Flagship Not Open-Weight",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "model safety",
+        "open-weight models",
+        "China AI",
+        "cybersecurity"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "55d59253b95914f4c95f0d6a606ce10853029b07",
+      "canonicalId": "2ead04b8f37230e692009f31d97b0f011a9abaa4",
+      "slug": "apple-china-app-store-adds-aigc-compliance-filing-fields",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Apple China App Store adds AIGC compliance filing fields",
+      "score": 7,
+      "tags": [
+        "Apple App Store",
+        "AIGC compliance",
+        "China regulation",
+        "generative AI",
+        "app developers"
+      ],
+      "originalSite": "ithome.com"
+    },
+    {
+      "id": "f6bf40dae0002ee0e6d80242f194308dee32d3e4",
+      "canonicalId": "be0f439fc3d0da04a724a7688cd8efeead75c649",
+      "slug": "lutnick-faces-questions-over-nvidia-ties-and-china-export-pressure",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Lutnick Faces Questions Over Nvidia Ties and China Export Pressure",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "export controls",
+        "Commerce Department",
+        "conflict of interest",
+        "China chip smuggling"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "d56019ed89f44753bfc7e1a07eeb2f6d32f5eebd",
+      "canonicalId": "90e0a44e38f725c3be3e22edf1fc17463d3af736",
+      "slug": "nvidia-ceo-jensen-huang-resigns-as-analysts-cut-price-targets-and-debate-where-the-ai-trade-goes-next",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Nvidia CEO Jensen Huang resigns as analysts cut price targets and debate where the AI trade goes next",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "AI semiconductors",
+        "CEO succession",
+        "ETF flows",
+        "data-center policy"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "e5e87bb7b96924e500aa701017595cfaa6b587c5",
+      "canonicalId": "44104c4a13de41c8fc9c627afaae0e3c4c31c689",
+      "slug": "intel-ceo-and-cfo-sued-by-shareholders-over-alleged-concealment-before-286-stock-plunge",
+      "date": "2026-11-17",
+      "lang": "en",
+      "title": "Intel, CEO and CFO sued by shareholders over alleged concealment before 28.6% stock plunge",
+      "score": 7,
+      "tags": [
+        "Intel",
+        "shareholder class action",
+        "earnings warning",
+        "stock selloff",
+        "semiconductors"
+      ],
+      "originalSite": "investing.com"
+    },
+    {
       "id": "5df2dc1165b2dea711f84ae232eabcddf8d9704b",
       "canonicalId": "85b327ef34b9e9c995cf1a52efa7e0b51ddac425",
       "slug": "meta-fair-与-nyu视觉编码器预训练可选专属参数必需",
@@ -5070,329 +5580,6 @@
         "career strategy"
       ],
       "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "68203a673c647af83b61b6ed0adea05233559873",
-      "canonicalId": "b804da29a44db35ec279d0e5296660cd80397299",
-      "slug": "azure-曝出五条完整跨租户入侵路径",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Azure 曝出五条完整跨租户入侵路径",
-      "score": 8,
-      "tags": [
-        "Azure",
-        "cloud security",
-        "cross-tenant vulnerabilities",
-        "vulnerability research",
-        "IDOR"
-      ],
-      "originalSite": "binarysecurity.no"
-    },
-    {
-      "id": "223d9a2c6455530251d4dccd0fc38568454fdbc3",
-      "canonicalId": "bf5aaab63512aa2419db23810d284897ea273c39",
-      "slug": "cursor-扩展市场短暂出现带-ssh-后门的-claude-code-扩展",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Cursor 扩展市场短暂出现带 SSH 后门的 Claude Code 扩展",
-      "score": 8,
-      "tags": [
-        "supply-chain-security",
-        "ai-coding-tools",
-        "vs-code-extension",
-        "security-incident",
-        "cursor-marketplace"
-      ],
-      "originalSite": "phorion.io"
-    },
-    {
-      "id": "a15583713509def4774b88f32079056200607327",
-      "canonicalId": "ae7973e4c5616e3118635c9a86c790714503f46f",
-      "slug": "linux-74-移除-c-版-binderrust-实现成为必需",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Linux 7.4 移除 C 版 Binder，Rust 实现成为必需",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "Rust",
-        "Android Binder",
-        "IPC",
-        "Kangrejos"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "b624d95f6572e31a45b70fe1464601126c3dde50",
-      "canonicalId": "4ac1d97cc6450c640bf719ea97197e5466e31683",
-      "slug": "linux-多路径-tcp-曝可远程触发的释放后使用漏洞",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Linux 多路径 TCP 曝可远程触发的释放后使用漏洞",
-      "score": 8,
-      "tags": [
-        "Linux kernel",
-        "security vulnerability",
-        "multipath TCP",
-        "remote code execution",
-        "use-after-free"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "b3102acde2d24fd8ddf32bfe667a2ec2927b6b09",
-      "canonicalId": "92d1bce2e693dd62518f8569c7cd32289b24f80d",
-      "slug": "tangled-发布基于-at-protocol-的联邦代码托管平台",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Tangled 发布基于 AT Protocol 的联邦代码托管平台",
-      "score": 7,
-      "tags": [
-        "federated code forge",
-        "AT Protocol",
-        "open-source hosting",
-        "self-hosting",
-        "Git collaboration"
-      ],
-      "originalSite": "tangled.org"
-    },
-    {
-      "id": "5fbf67081af4193c733f55ef9d694a90a99de579",
-      "canonicalId": "0e232296f4e5fbe9e696223c52fb0620ab0aae86",
-      "slug": "northflank-据报遭入侵社区讨论多租户-saas-风险",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Northflank 据报遭入侵，社区讨论多租户 SaaS 风险",
-      "score": 7,
-      "tags": [
-        "security breach",
-        "cloud infrastructure",
-        "SaaS",
-        "infrastructure security",
-        "multi-tenant"
-      ],
-      "originalSite": "status.northflank.com"
-    },
-    {
-      "id": "8d89f7271841aac95a9a5d8e9b7ff5e92ef85a61",
-      "canonicalId": "58bdc6b4d6104e60ef38c4c9c3957fc4f143c208",
-      "slug": "show-hn约-1gb-qwen-权重内实现可运行的-nes-模拟器",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Show HN：约 1GB Qwen 权重内实现可运行的 NES 模拟器",
-      "score": 7,
-      "tags": [
-        "LLM emulation",
-        "Nintendo Entertainment System",
-        "Qwen",
-        "model weights",
-        "Show HN"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "432542c830c27cd5a8914289ba1100bd66709482",
-      "canonicalId": "878f4166da45f59e45154940f9cd716c8cf5b420",
-      "slug": "haas-谈-postgresql-19-延期与-llm-缺陷发现压力",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Haas 谈 PostgreSQL 19 延期与 LLM 缺陷发现压力",
-      "score": 7,
-      "tags": [
-        "PostgreSQL",
-        "LLM bug discovery",
-        "open-source maintenance",
-        "release management",
-        "software quality"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "7b1100d75f04821540bf6fe1cd53a53b40825301",
-      "canonicalId": "d839f750ee0a6deff0822e6d22a6585b670bf95f",
-      "slug": "apple-智能首批功能-11-月-4-日在中国启动测试",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "Apple 智能首批功能 11 月 4 日在中国启动测试",
-      "score": 7,
-      "tags": [
-        "Apple Intelligence",
-        "China market",
-        "Alibaba Qwen",
-        "iOS",
-        "AI localization"
-      ],
-      "originalSite": "apple.com.cn"
-    },
-    {
-      "id": "60bdc3d9c1b2a84e53f9ff875e9d6a2afaea61b7",
-      "canonicalId": "eb64622d3441644b337186ff19ba6eca8fef5752",
-      "slug": "deepseek-二轮融资报道募资-1055-亿元估值超-6155-亿元",
-      "date": "2026-10-31",
-      "lang": "zh",
-      "title": "DeepSeek 二轮融资报道：募资 1055 亿元，估值超 6155 亿元",
-      "score": 8,
-      "tags": [
-        "DeepSeek",
-        "AI financing",
-        "China tech",
-        "state-backed investment",
-        "private markets"
-      ],
-      "originalSite": "theinformation.com"
-    },
-    {
-      "id": "fbafe00b258a9596183ad5ee3e1759ce1c6f0ea3",
-      "canonicalId": "8ccea7e89b7030862a9f53eb527a17d29d33f0d5",
-      "slug": "mistral-large-4-开放权重商用许可仍受限",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "Mistral Large 4 开放权重，商用许可仍受限",
-      "score": 8,
-      "tags": [
-        "Mistral Large 4",
-        "open-weight models",
-        "AI licensing",
-        "LLM pricing",
-        "model release"
-      ],
-      "originalSite": "mistral.ai"
-    },
-    {
-      "id": "603ec493e2d39b1a80309dd435583d1194b8569d",
-      "canonicalId": "482dcd575b14905eb44d09f5779dbd8b87cf9f40",
-      "slug": "厂商报告php2shell-漏洞链控制-25-台服务器含政府系统",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "厂商报告：PHP2Shell 漏洞链控制 25 台服务器，含政府系统",
-      "score": 8,
-      "tags": [
-        "cybersecurity",
-        "exploit-chains",
-        "PHP",
-        "Linux-kernel",
-        "vulnerability-disclosure"
-      ],
-      "originalSite": "dreamgroup.com"
-    },
-    {
-      "id": "7f6f81e3d05eda7171f40a7f5899a2c818204db3",
-      "canonicalId": "80e5637a67e1a525d570c7c95fcdd592c0bc6c4c",
-      "slug": "anthropic-用-claude-将-messages-api-重写为-rust",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "Anthropic 用 Claude 将 Messages API 重写为 Rust",
-      "score": 8,
-      "tags": [
-        "Anthropic",
-        "Rust migration",
-        "Claude",
-        "AI-assisted programming",
-        "API performance"
-      ],
-      "originalSite": "latent.space"
-    },
-    {
-      "id": "090e2fe1f96d5bee85f22467312bcd555f61c288",
-      "canonicalId": "739e0b5535e3ec061840356572d3233664c1c295",
-      "slug": "martin-fowler-谈-llm-文本特有的声音",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "Martin Fowler 谈 LLM 文本特有的“声音”",
-      "score": 7,
-      "tags": [
-        "LLM writing style",
-        "AI-generated content",
-        "readability",
-        "human communication",
-        "information density"
-      ],
-      "originalSite": "martinfowler.com"
-    },
-    {
-      "id": "aba2577d82ae1b0d51192e9296b7fa416aa8a18c",
-      "canonicalId": "72c27fdbb2d3b08f483515da05921b53d8c509ab",
-      "slug": "2016-年长文h264-is-magic重登-hacker-news引发编码器讨论",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "2016 年长文《H.264 Is Magic》重登 Hacker News，引发编码器讨论",
-      "score": 7,
-      "tags": [
-        "video compression",
-        "H.264",
-        "codecs",
-        "x264",
-        "technical deep-dive"
-      ],
-      "originalSite": "sidbala.com"
-    },
-    {
-      "id": "e27187e6b7350c9273442a2208b6b79e2b06fc4b",
-      "canonicalId": "5bb1b87db247d8b58151e0ce9fec4f7f3f1e00cd",
-      "slug": "linux-内核-rfc-拟以-cells-让容器成为一等对象",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "Linux 内核 RFC 拟以 cells 让容器成为一等对象",
-      "score": 7,
-      "tags": [
-        "Linux kernel",
-        "containers",
-        "kernel design",
-        "namespaces",
-        "cgroups"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "d2d80855e8506eebcd79dd948efcef099db235c5",
-      "canonicalId": "d7e14d5839c195911dddc0c0816d93ae4063d42f",
-      "slug": "黑客据称经-okta-泄露逾-41-万-dhs-员工记录",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "黑客据称经 Okta 泄露逾 4.1 万 DHS 员工记录",
-      "score": 7,
-      "tags": [
-        "cybersecurity",
-        "data breach",
-        "Okta",
-        "government",
-        "identity management"
-      ],
-      "originalSite": "theverge.com"
-    },
-    {
-      "id": "2d7ec3fe359f9ad3041f4835f3cc65efbda00e2a",
-      "canonicalId": "8a4b15c66b1180e7c227babae793da6426d13c10",
-      "slug": "tensor-core-fp32-加速-pet-势函数评测",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "Tensor Core FP32 加速 PET 势函数评测",
-      "score": 7,
-      "tags": [
-        "Tensor Cores",
-        "mixed-precision",
-        "machine learning interatomic potentials",
-        "molecular dynamics",
-        "GPU benchmarking"
-      ],
-      "originalSite": "developer.nvidia.com"
-    },
-    {
-      "id": "bc3408bf0204bd3634fd680a4efb955cd99ecfbe",
-      "canonicalId": "9b7dd4a7a6853f5d5578ec65f1b81b44ef5537c2",
-      "slug": "谷歌将-ai-模式搜索广告推向全球核心搜索广告增速降至-12",
-      "date": "2026-10-30",
-      "lang": "zh",
-      "title": "谷歌将 AI 模式搜索广告推向全球，核心搜索广告增速降至 12%",
-      "score": 8,
-      "tags": [
-        "Alphabet",
-        "Google Search ads",
-        "AI advertising",
-        "earnings",
-        "market reaction"
-      ],
-      "originalSite": "techcrunch.com"
     }
   ]
 }

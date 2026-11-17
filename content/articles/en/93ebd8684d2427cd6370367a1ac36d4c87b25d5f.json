@@ -1,0 +1,40 @@
+{
+  "id": "93ebd8684d2427cd6370367a1ac36d4c87b25d5f",
+  "canonicalId": "e031ccf6cfbef0caf6e7f5ceb994331cf4b437be",
+  "slug": "amazon-artex-driven-ai-agents-stole-api-keys-to-fund-model-calls",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-16T13:00:00Z",
+  "lang": "en",
+  "title": "Amazon: Artex-Driven AI Agents Stole API Keys to Fund Model Calls",
+  "summary": "Amazon says attackers used the open-source penetration-testing framework Artex to drive AI agents that harvested API keys from internet-exposed AI applications, including LiteLLM and Dify, validated the keys, and pooled them to pay for additional large-model calls. The campaign began on October 3 and was disrupted on November 5 by Amazon&\\#x27;s MadPot decoy network, according to the company. Amazon attributed the activity to a China-linked threat group with medium confidence, said not all listed targets were actually compromised, and stated it has notified potentially affected AWS customers. The account is a vendor claim with limited independent technical detail released so far.",
+  "score": 7,
+  "tags": [
+    "AI security",
+    "autonomous agents",
+    "API key theft",
+    "cloud security",
+    "cybercrime"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://cybernews.com/security/amazon-autonomous-cybercrime-artex-framework/",
+  "originalSite": "cybernews.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and...",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
+    },
+    {
+      "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
