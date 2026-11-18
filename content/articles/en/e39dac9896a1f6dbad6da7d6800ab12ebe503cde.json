@@ -1,0 +1,57 @@
+{
+  "id": "e39dac9896a1f6dbad6da7d6800ab12ebe503cde",
+  "canonicalId": "86aeaafbc09d88846590d14f9b44eedf44af460f",
+  "slug": "java4shell-unauthenticated-rce-in-openjdk-base64-processing",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T21:11:00Z",
+  "lang": "en",
+  "title": "Java4Shell: Unauthenticated RCE in OpenJDK Base64 Processing",
+  "summary": "A technical report describes Java4Shell, an unauthenticated remote code execution flaw tracked as CVE-2026-114938 with a CVSS 4.0 score of 9.2, in OpenJDK when processing Base64. It is reported to affect Java 17 from 17.0.6 onward across the entire 17 line, plus Java 21, 25, and 27; standard Java 8 and 11 are usually unaffected, except Oracle Java 8 Performance Pack. The flaw is limited to x86-64 processors with AVX-512 VBMI—roughly Intel Ice Lake and newer Xeon chips and AMD Zen 4 and newer EPYC/Ryzen—while ARM64 is unaffected. The reported attack uses network heap grooming that is sensitive to round-trip time and jitter, with low, stable latency preferred for reliable exploitation.",
+  "score": 8,
+  "tags": [
+    "OpenJDK",
+    "remote code execution",
+    "vulnerability research",
+    "heap grooming",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "werrett",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
+    }
+  ],
+  "originalUrl": "https://calif.io/java4shell/",
+  "originalSite": "calif.io",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-114938: Java4Shell Base64 Overflow | Horizon3",
+      "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/"
+    },
+    {
+      "title": "Java4Shell (CVE-2026-114938): Inside a Critical Flaw in Java ...",
+      "url": "https://blackpointcyber.com/blog/java4shell-cve-2026-114938-java-base64-decoder-flaw/"
+    },
+    {
+      "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/"
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE...",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+    },
+    {
+      "title": "CVE - 2026 - 114938 : Reported Critical Pre-authentication Remote Code...",
+      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17/"
+    },
+    {
+      "title": "Java4Shell CVE - 2026 - 114938 : Affected Versions &amp; Mitigation",
+      "url": "https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

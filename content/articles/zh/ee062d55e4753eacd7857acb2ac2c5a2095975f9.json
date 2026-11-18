@@ -1,0 +1,49 @@
+{
+  "id": "ee062d55e4753eacd7857acb2ac2c5a2095975f9",
+  "canonicalId": "851193cad36bf6af71b873f0ccd8762e02d71765",
+  "slug": "英伟达停止披露新加坡销售营收达-1040-亿美元",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T17:12:00Z",
+  "lang": "zh",
+  "title": "英伟达停止披露新加坡销售，营收达 1040 亿美元",
+  "summary": "据《金融时报》报道，英伟达已停止披露新加坡销售额，相关营收数字达到 1040 亿美元。报道将这一披露变化与外界对经新加坡转接订单、供应链透明度以及出口管制审查的关注联系起来。现有信息只能确认披露口径发生变化，尚不足以判断这些收入的最终去向或新加坡本地的实际需求。",
+  "score": 7,
+  "tags": [
+    "Nvidia",
+    "AI hardware",
+    "export controls",
+    "Singapore",
+    "supply chain"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "louiereederson",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50534631"
+    }
+  ],
+  "originalUrl": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+  "originalSite": "ft.com",
+  "context": "英伟达的销售额按下单的法人实体计入，新加坡子公司承接的订单可能只是经由 OEM/ODM 和经销商体系路由，并不代表芯片最终在新加坡使用，这是解读“新加坡收入”的关键口径。此前有报道称，美国当局调查过新加坡公司 Megaspeed 是否帮助中国客户获取受限制的英伟达芯片，该调查后来被转交美国司法部。",
+  "discussion": "评论中最实质的澄清是，1040 亿美元被理解为英伟达新加坡子公司的对外收入，其中可能包含经由新加坡实体转接的 GPU 订单，而不等于当地最终需求；这一说法来自评论者 tamarind44。另有评论者认为这主要是收入归属的会计问题，不能说明芯片最终流向，也有人围绕出口管制和 Megaspeed 相关调查展开推测，但这些推测未获证据支持。",
+  "references": [
+    {
+      "title": "Inside Megaspeed : The Little-Known Firm Linking Jensen and Alice...",
+      "url": "https://www.techtimes.co.uk/megaspeed-nvidia-hardware-imports-chip-scrutiny-1809823"
+    },
+    {
+      "title": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After...",
+      "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html"
+    },
+    {
+      "title": "Singapore does not condone businesses who use local ties to bypass...",
+      "url": "https://www.channelnewsasia.com/singapore/nvidia-ai-chips-us-export-controls-singapore-deepseek-china-4944231"
+    },
+    {
+      "title": "US probing whether DeepSeek got Nvidia AI chips ... | The Straits Times",
+      "url": "https://www.straitstimes.com/business/us-looking-if-deepseek-got-nvidia-ai-chips-through-singapore-others"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

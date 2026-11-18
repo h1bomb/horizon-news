@@ -1,0 +1,31 @@
+{
+  "id": "edd4d817199f647f50a8f73f9eb4652c0b60724d",
+  "canonicalId": "5b158888670aa71bf751807e6c390657b9ec97e9",
+  "slug": "datasette-lite-rewritten-to-run-full-datasette-in-browser",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T16:48:00Z",
+  "lang": "en",
+  "title": "Datasette Lite rewritten to run full Datasette in browser",
+  "summary": "Datasette Lite has been completely rewritten around service workers and Pyodide, letting the full Datasette Python application run in the browser, according to Simon Willison. The URL-driven tool can load a released Datasette version from PyPI, a commit, tag, or branch from GitHub, more than 100 SQLite versions, and plugins from PyPI or wheel URLs, while browsing SQLite, JSON, CSV, or SQL inputs. It can also load remote databases and metadata, though those URLs need open CORS headers. Willison says the result is almost indistinguishable from server-side Datasette and is already being used to link to bug reproductions and work-in-progress feature demos.",
+  "score": 8,
+  "tags": [
+    "Datasette",
+    "Pyodide",
+    "WebAssembly",
+    "service workers",
+    "SQLite"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

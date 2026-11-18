@@ -1,0 +1,41 @@
+{
+  "id": "ba460a931f3859706b50fcc078c941d8b70a4df8",
+  "canonicalId": "340c2ff0827fd3fe7b0b05f19a9d3a248385dc97",
+  "slug": "quad9-因-dns-过滤裁决退出法国",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T22:13:00Z",
+  "lang": "zh",
+  "title": "Quad9 因 DNS 过滤裁决退出法国",
+  "summary": "据 Cloudflare 博文，Quad9 因法国一项与 DNS 过滤相关的法院裁决退出法国，法国用户因此失去该公共 DNS 解析器服务。博文将此事与互联网碎片化和隐私风险联系起来，认为 DNS 解析层正被纳入内容过滤执法。目前公开材料未给出裁决细节、退出时间表或对其他国家的直接影响。",
+  "score": 7,
+  "tags": [
+    "DNS",
+    "internet regulation",
+    "privacy",
+    "France",
+    "Cloudflare"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "subset",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538994"
+    }
+  ],
+  "originalUrl": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+  "originalSite": "blog.cloudflare.com",
+  "context": "公共 DNS 解析器负责把域名转换为 IP 地址，也因此成为法院要求屏蔽网站时的执行环节。法国法院此前命令瑞士非营利机构 Quad9 拦截被指侵犯版权的网站，Quad9 于 2026 年 10 月表示将自 11 月 24 日起停止为法国用户提供解析服务（tool-2-3）。Cloudflare 的文章还提到，比利时法院近期发出命令，要求 Cloudflare、Google 和 Cisco 在 2027 年 1 月初前通过公共解析器屏蔽相关网站，否则将面临重罚（tool-2-1）。",
+  "discussion": "Quad9 的 CTO 在评论中表示，IETF 127 现场对其立场“100% 支持”，并称业界对 DNS 相关案件普遍感到担忧。另有评论者批评 Cloudflare 博文立场含糊，追问其若上诉失败是否会承诺退出受影响国家。",
+  "references": [
+    {
+      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/"
+    },
+    {
+      "title": "French Court’s Site-Blocking Orders Drive Quad9 Out Of France",
+      "url": "https://www.eff.org/deeplinks/2026/10/french-courts-site-blocking-orders-drive-quad9-out-france"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

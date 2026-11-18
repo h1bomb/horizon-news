@@ -1,0 +1,45 @@
+{
+  "id": "5a1cf240cdbbffc6e00b769ad1af57ad1a9321f5",
+  "canonicalId": "549a77347d5e1e5f25e081258d641a2b8758c868",
+  "slug": "openai-releases-gpt-62-astra-and-sol-with-cheaper-astra",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T17:46:00Z",
+  "lang": "en",
+  "title": "OpenAI releases GPT-6.2 Astra and Sol, with cheaper Astra",
+  "summary": "OpenAI released GPT-6.2 Astra, a frontier model for demanding projects, and GPT-6.2 Sol, an efficient model for everyday work, both available in the API as gpt-6.2-astra and gpt-6.2-sol. Astra is priced at $8 per million input tokens and $40 per million output tokens—80% of GPT-6 Astra&\\#x27;s $10/$50—with cached input at $0.40 per million versus $1 for the older model; Sol stays at $2/$10, the same as GPT-6.1 Sol and GPT-6 Sol. Early response is mixed: the source reports Astra trailing Claude Fable 5.2 on some benchmarks and complaints about its communication style, while commenters describe large cost reductions in analytics tasks but poor office-document examples. This is an announcement plus early user testing, not an independent technical evaluation.",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "GPT-6.2",
+    "LLM evaluation",
+    "inference cost",
+    "AI models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jasondavies",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+  "originalSite": "openai.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GPT - 6 . 2 Sol - API Pricing &amp; Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6.2-sol"
+    },
+    {
+      "title": "Introducing GPT - 6 . 2 Astra and Sol | OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol | OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

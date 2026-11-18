@@ -1,0 +1,32 @@
+{
+  "id": "53d61d75f792ac3b8bbbba3f367555ba41ad24ed",
+  "canonicalId": "0818b59eab9ac65f87f68c4629610ab49441ff56",
+  "slug": "phrack-第-73-期发布",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T18:31:00Z",
+  "lang": "zh",
+  "title": "Phrack 第 73 期发布",
+  "summary": "Phrack 第 73 期已发布，社区讨论集中在本期的漏洞利用内容、SSH 历史分析，以及这本刊物在安全文化中的角色。源材料没有提供目录或正文，因此各篇文章的具体技术细节和漏洞披露状态无法独立核实。",
+  "score": 7,
+  "tags": [
+    "computer security",
+    "exploit development",
+    "vulnerability disclosure",
+    "Phrack",
+    "SSH history"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "notmine1337",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535992"
+    }
+  ],
+  "originalUrl": "https://phrack.org/issues/73/introduction_md",
+  "originalSite": "phrack.org",
+  "context": "Phrack 是一份历史悠久的黑客与计算机安全刊物；评论区读者回忆自己在上世纪 90 年代至 2000 年代首次接触它，并提到更早的第 36 期。第 73 期收录了回顾 2000 年 SSH1 漏洞利用史的文章，也涉及 Docker 逃逸等议题，因此这次发布被放在该刊长期追踪漏洞与利用技术的脉络中理解。",
+  "discussion": "有评论者询问，像本期提到的 Docker 逃逸这类漏洞利用是否事先经过负责任披露并分配 CVE，还是直接公开；另一位评论者推荐本期关于 SSH1 漏洞历史的文章，认为它有助于理解安全问题演进的速度。也有读者怀念早期安全杂志不加修饰的文风，认为这种开放氛围更利于表达。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

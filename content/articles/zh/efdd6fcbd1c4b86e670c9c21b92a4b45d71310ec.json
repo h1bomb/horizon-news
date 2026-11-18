@@ -1,0 +1,41 @@
+{
+  "id": "efdd6fcbd1c4b86e670c9c21b92a4b45d71310ec",
+  "canonicalId": "701f6c3f030a7aefe1641fefa081ccf5698099df",
+  "slug": "solidjs-发布-20新增服务端-rpclive-与-broadcast强化调试诊断",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T18:56:00Z",
+  "lang": "zh",
+  "title": "SolidJS 发布 2.0：新增服务端 RPC、live 与 broadcast，强化调试诊断",
+  "summary": "JavaScript UI 框架 SolidJS 发布 2.0 主版本。从社区讨论看，此次更新的重点是服务端集成：提供 server RPC 以及 live、broadcast 能力，试图补上前端与后端之间缺失的中间层；同时改进了调试诊断体验。发布文章还设有“Built to Be Written by Agents”一节，但有评论者认为这部分实质上是更好的调试诊断，与代理式（agentic）开发并无专属关系，可能只是营销措辞。来源未提供具体版本号、破坏性变更清单、迁移指南或分发渠道等细节，因此 2.0 的实际升级成本尚不明确。",
+  "score": 7,
+  "tags": [
+    "SolidJS",
+    "JavaScript frameworks",
+    "frontend development",
+    "web development",
+    "server RPC"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "pier25",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50536387"
+    }
+  ],
+  "originalUrl": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+  "originalSite": "solidjs.com",
+  "context": "Solid 2.0 稳定版是在 2026 年 8 月的 2.0 RC 之后推出的；该 RC 说明了 2.0 周期的架构调整：server functions 进入核心，serving layer 归入 start mode，文件系统路由移到不绑定特定路由器的包中。Solid 博客称，2.0 从启动到稳定经历了五年，因此这次发布是在长期重构后落地，并非一次短期增量更新。",
+  "discussion": "有评论者认为 Solid 的服务端 RPC、live 和 broadcast 衔接顺畅，用起来比 LiveView 或 htmx/datastar 更自然，并称 Remix 早年提出的“前后端中间层”定位始终未能真正落地。另一位评论者指出，发布文章里“为代理编写”的特性其实是更好的调试诊断，对人类手写代码同样有帮助，未必与代理开发直接相关。此外还有用户提到自己在等待 Vue 3.6 Vapor 发布，期待它在性能上与 Svelte、Solid 这类框架竞争。",
+  "references": [
+    {
+      "title": "Solid 2.0 RC: The Big | SolidJS",
+      "url": "https://www.solidjs.com/blog/solid-2-0-rc-the-big-reveal"
+    },
+    {
+      "title": "Solid 2.0 - The Long Hold - solidjs.com",
+      "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

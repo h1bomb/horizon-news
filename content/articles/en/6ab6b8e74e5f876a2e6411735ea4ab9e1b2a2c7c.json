@@ -1,0 +1,31 @@
+{
+  "id": "6ab6b8e74e5f876a2e6411735ea4ab9e1b2a2c7c",
+  "canonicalId": "c60558e98558e0e78eb2b5031d637972770c4378",
+  "slug": "external-sandbox-pattern-for-coding-agents-gains-three-implementations",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T22:52:00Z",
+  "lang": "en",
+  "title": "External sandbox pattern for coding agents gains three implementations",
+  "summary": "Simon Willison and Prime Radiant released three server implementations of an external sandbox pattern for coding agents, in which agent-run code executes in a dedicated sandbox while the agent stays outside it. The options are external-sandbox-v86, a Node.js server running Alpine Linux under v86 in WebAssembly; external-sandbox-container, a Python server running Alpine Linux in an Apple Containers instance; and external-sandbox-quicksand, a Python server using Microsoft&\\#x27;s Quicksand library, which bundles QEMU and Alpine Linux. All expose the same localhost API, so Pi, Claude Code, or Codex can be configured to send code-execution calls to the sandbox, and they include an optional HTTP/HTTPS allow-list proxy plus credential replacement for authenticated API calls without sharing the secret with the agent.",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "sandboxing",
+    "code execution security",
+    "prompt injection",
+    "local models"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

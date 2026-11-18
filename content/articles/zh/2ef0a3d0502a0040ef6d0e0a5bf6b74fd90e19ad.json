@@ -1,0 +1,31 @@
+{
+  "id": "2ef0a3d0502a0040ef6d0e0a5bf6b74fd90e19ad",
+  "canonicalId": "c60558e98558e0e78eb2b5031d637972770c4378",
+  "slug": "编码代理的外部沙箱及三种实现",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T22:52:00Z",
+  "lang": "zh",
+  "title": "编码代理的外部沙箱及三种实现",
+  "summary": "Simon Willison 与 Prime Radiant 发布“外部沙箱”模式：编码代理本身留在沙箱外，由其触发的代码在独立沙箱内执行，目的是降低试用本地模型时因误操作或提示注入造成破坏的风险。项目提供三个使用同一 localhost API 的服务端实现：external-sandbox-v86 用 Node.js 经 v86 在 WebAssembly 中运行 Alpine Linux；external-sandbox-container 用 Python 服务在 Apple Containers 中运行 Alpine Linux；external-sandbox-quicksand 用 Python 服务调用 Microsoft Quicksand，后者将 QEMU 和 Alpine Linux 打包进 Python 包。用户可将 Pi、Claude Code 或 Codex 配置为在需要执行代码时调用该 API，并可启用可选的 HTTP/HTTPS 主机允许列表代理和凭据替换，让代理代码发起带认证的 API 调用而无需向其暴露密钥。",
+  "score": 7,
+  "tags": [
+    "AI agents",
+    "sandboxing",
+    "code execution security",
+    "prompt injection",
+    "local models"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+  "originalSite": "simonwillison.net",
+  "context": "编码智能体通常需要在本地执行其生成的命令和代码；一旦模型被提示注入或自身出错，直接运行就可能影响宿主机。外部沙箱把智能体进程留在沙箱外，只把待执行的代码送进独立环境，并通过统一的 localhost API 接入 Pi、Claude Code 或 Codex，从而将代码执行权限与智能体推理环境隔开。",
+  "discussion": "对需要运行代理生成代码的开发者，这提供了一种将执行环境与代理进程分离、并通过主机允许列表限制沙箱出站访问的方式；但三种后端依赖不同运行时，采用时需按所选实现准备相应环境。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,6 +1,414 @@
 {
   "articles": [
     {
+      "id": "ece018a4794ea398047ed689330bfdca0795b59a",
+      "canonicalId": "86aeaafbc09d88846590d14f9b44eedf44af460f",
+      "slug": "java4shellopenjdk-处理-base64-时存在-rce-漏洞",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "Java4Shell：OpenJDK 处理 Base64 时存在 RCE 漏洞",
+      "score": 8,
+      "tags": [
+        "OpenJDK",
+        "remote code execution",
+        "vulnerability research",
+        "heap grooming",
+        "security"
+      ],
+      "originalSite": "calif.io"
+    },
+    {
+      "id": "c4595112a797a71d91708679d49e7230456d8436",
+      "canonicalId": "549a77347d5e1e5f25e081258d641a2b8758c868",
+      "slug": "openai-发布-gpt-62-astra-与-solapi-价格下调",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol，API 价格下调",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "GPT-6.2",
+        "LLM evaluation",
+        "inference cost",
+        "AI models"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "7e4343c8dca0183a4c8236fe0605481e808e3b16",
+      "canonicalId": "5b158888670aa71bf751807e6c390657b9ec97e9",
+      "slug": "datasette-lite-用-service-worker-在浏览器运行完整应用",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "Datasette Lite 用 Service Worker 在浏览器运行完整应用",
+      "score": 8,
+      "tags": [
+        "Datasette",
+        "Pyodide",
+        "WebAssembly",
+        "service workers",
+        "SQLite"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "32b04cdcbce681d3e1f64c865fbcc318b2a3d302",
+      "canonicalId": "1f0a78839277701cb667ea15be0907398e122d9a",
+      "slug": "微软-onnx-runtime-的-github-仓库据报消失",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "微软 ONNX Runtime 的 GitHub 仓库据报消失",
+      "score": 7,
+      "tags": [
+        "onnx-runtime",
+        "github",
+        "open-source",
+        "supply-chain-security",
+        "ai-infrastructure"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "53d61d75f792ac3b8bbbba3f367555ba41ad24ed",
+      "canonicalId": "0818b59eab9ac65f87f68c4629610ab49441ff56",
+      "slug": "phrack-第-73-期发布",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "Phrack 第 73 期发布",
+      "score": 7,
+      "tags": [
+        "computer security",
+        "exploit development",
+        "vulnerability disclosure",
+        "Phrack",
+        "SSH history"
+      ],
+      "originalSite": "phrack.org"
+    },
+    {
+      "id": "5969bb07609e22f9d3974a8c4defde341faae3d3",
+      "canonicalId": "23791fed6fa0ce2cf147df5fff91647eae30b11e",
+      "slug": "微软发布-mai-code-2-与-code-2-flash-编程模型",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "微软发布 MAI Code 2 与 Code 2 Flash 编程模型",
+      "score": 7,
+      "tags": [
+        "Microsoft",
+        "AI coding models",
+        "LLMs",
+        "developer tools",
+        "model release"
+      ],
+      "originalSite": "microsoft.ai"
+    },
+    {
+      "id": "ee062d55e4753eacd7857acb2ac2c5a2095975f9",
+      "canonicalId": "851193cad36bf6af71b873f0ccd8762e02d71765",
+      "slug": "英伟达停止披露新加坡销售营收达-1040-亿美元",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "英伟达停止披露新加坡销售，营收达 1040 亿美元",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "AI hardware",
+        "export controls",
+        "Singapore",
+        "supply chain"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "efdd6fcbd1c4b86e670c9c21b92a4b45d71310ec",
+      "canonicalId": "701f6c3f030a7aefe1641fefa081ccf5698099df",
+      "slug": "solidjs-发布-20新增服务端-rpclive-与-broadcast强化调试诊断",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "SolidJS 发布 2.0：新增服务端 RPC、live 与 broadcast，强化调试诊断",
+      "score": 7,
+      "tags": [
+        "SolidJS",
+        "JavaScript frameworks",
+        "frontend development",
+        "web development",
+        "server RPC"
+      ],
+      "originalSite": "solidjs.com"
+    },
+    {
+      "id": "ba460a931f3859706b50fcc078c941d8b70a4df8",
+      "canonicalId": "340c2ff0827fd3fe7b0b05f19a9d3a248385dc97",
+      "slug": "quad9-因-dns-过滤裁决退出法国",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "Quad9 因 DNS 过滤裁决退出法国",
+      "score": 7,
+      "tags": [
+        "DNS",
+        "internet regulation",
+        "privacy",
+        "France",
+        "Cloudflare"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "2ef0a3d0502a0040ef6d0e0a5bf6b74fd90e19ad",
+      "canonicalId": "c60558e98558e0e78eb2b5031d637972770c4378",
+      "slug": "编码代理的外部沙箱及三种实现",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "编码代理的外部沙箱及三种实现",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "sandboxing",
+        "code execution security",
+        "prompt injection",
+        "local models"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "3708ada76a98ae4bdc8f69c0a365a15cfe492f19",
+      "canonicalId": "53eb4eb9051147ff1201b18e4c967638ad828e86",
+      "slug": "中国完成-qv-频段双向-27gbps-无线通信验证",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "中国完成 Q/V 频段双向 27Gbps 无线通信验证",
+      "score": 7,
+      "tags": [
+        "6G",
+        "Q/V-band",
+        "wireless communications",
+        "satellite internet",
+        "millimeter-wave"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
+      "id": "f4efaec743afb3bfd65aad42b2f8a11c61bb3b42",
+      "canonicalId": "3dce01c3120c88980ad1d0cf4c2f10ed6eb5bac2",
+      "slug": "中汽协受工信部委托评估-17-家车企的供应商账期",
+      "date": "2026-11-18",
+      "lang": "zh",
+      "title": "中汽协受工信部委托评估 17 家车企的供应商账期",
+      "score": 7,
+      "tags": [
+        "汽车产业",
+        "供应链金融",
+        "应收账款账期",
+        "工信部监管",
+        "中小企业"
+      ],
+      "originalSite": "caam.org.cn"
+    },
+    {
+      "id": "e39dac9896a1f6dbad6da7d6800ab12ebe503cde",
+      "canonicalId": "86aeaafbc09d88846590d14f9b44eedf44af460f",
+      "slug": "java4shell-unauthenticated-rce-in-openjdk-base64-processing",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Java4Shell: Unauthenticated RCE in OpenJDK Base64 Processing",
+      "score": 8,
+      "tags": [
+        "OpenJDK",
+        "remote code execution",
+        "vulnerability research",
+        "heap grooming",
+        "security"
+      ],
+      "originalSite": "calif.io"
+    },
+    {
+      "id": "5a1cf240cdbbffc6e00b769ad1af57ad1a9321f5",
+      "canonicalId": "549a77347d5e1e5f25e081258d641a2b8758c868",
+      "slug": "openai-releases-gpt-62-astra-and-sol-with-cheaper-astra",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "OpenAI releases GPT-6.2 Astra and Sol, with cheaper Astra",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "GPT-6.2",
+        "LLM evaluation",
+        "inference cost",
+        "AI models"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "edd4d817199f647f50a8f73f9eb4652c0b60724d",
+      "canonicalId": "5b158888670aa71bf751807e6c390657b9ec97e9",
+      "slug": "datasette-lite-rewritten-to-run-full-datasette-in-browser",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Datasette Lite rewritten to run full Datasette in browser",
+      "score": 8,
+      "tags": [
+        "Datasette",
+        "Pyodide",
+        "WebAssembly",
+        "service workers",
+        "SQLite"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "da8c827ab0040bdec38ed31576c52d00a87b5d94",
+      "canonicalId": "1f0a78839277701cb667ea15be0907398e122d9a",
+      "slug": "microsoftx27s-onnx-runtime-repository-reportedly-disappears-from-github",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Microsoft&\\#x27;s ONNX Runtime repository reportedly disappears from GitHub",
+      "score": 7,
+      "tags": [
+        "onnx-runtime",
+        "github",
+        "open-source",
+        "supply-chain-security",
+        "ai-infrastructure"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "18cf905cab412cb65533bdf05e2f67cfd28027b9",
+      "canonicalId": "0818b59eab9ac65f87f68c4629610ab49441ff56",
+      "slug": "phrack-issue-73-released-drawing-exploit-and-ssh-history-discussion",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Phrack Issue 73 Released, Drawing Exploit and SSH History Discussion",
+      "score": 7,
+      "tags": [
+        "computer security",
+        "exploit development",
+        "vulnerability disclosure",
+        "Phrack",
+        "SSH history"
+      ],
+      "originalSite": "phrack.org"
+    },
+    {
+      "id": "1b334784ac03b8ee748549dc61b151e1bbaf4862",
+      "canonicalId": "23791fed6fa0ce2cf147df5fff91647eae30b11e",
+      "slug": "microsoft-announces-mai-code-2-and-mai-code-2-flash-coding-models",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Microsoft announces MAI Code 2 and MAI Code 2 Flash coding models",
+      "score": 7,
+      "tags": [
+        "Microsoft",
+        "AI coding models",
+        "LLMs",
+        "developer tools",
+        "model release"
+      ],
+      "originalSite": "microsoft.ai"
+    },
+    {
+      "id": "71256d0321658ca65a205f735bcda505d3988637",
+      "canonicalId": "851193cad36bf6af71b873f0ccd8762e02d71765",
+      "slug": "nvidia-stops-disclosing-singapore-sales-as-reported-revenue-reaches-104b",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Nvidia stops disclosing Singapore sales as reported revenue reaches $104B",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "AI hardware",
+        "export controls",
+        "Singapore",
+        "supply chain"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "cc24a3bc0dff5bf82c624945d10b717afeabdb76",
+      "canonicalId": "701f6c3f030a7aefe1641fefa081ccf5698099df",
+      "slug": "solidjs-20-adds-server-rpc-live-updates-and-diagnostics",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "SolidJS 2.0 adds server RPC, live updates, and diagnostics",
+      "score": 7,
+      "tags": [
+        "SolidJS",
+        "JavaScript frameworks",
+        "frontend development",
+        "web development",
+        "server RPC"
+      ],
+      "originalSite": "solidjs.com"
+    },
+    {
+      "id": "bf722f2eb639936e007fa94346adc69410c6d8ab",
+      "canonicalId": "340c2ff0827fd3fe7b0b05f19a9d3a248385dc97",
+      "slug": "quad9-exits-france-after-dns-filtering-ruling",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "Quad9 exits France after DNS filtering ruling",
+      "score": 7,
+      "tags": [
+        "DNS",
+        "internet regulation",
+        "privacy",
+        "France",
+        "Cloudflare"
+      ],
+      "originalSite": "blog.cloudflare.com"
+    },
+    {
+      "id": "6ab6b8e74e5f876a2e6411735ea4ab9e1b2a2c7c",
+      "canonicalId": "c60558e98558e0e78eb2b5031d637972770c4378",
+      "slug": "external-sandbox-pattern-for-coding-agents-gains-three-implementations",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "External sandbox pattern for coding agents gains three implementations",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "sandboxing",
+        "code execution security",
+        "prompt injection",
+        "local models"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "a7ef51345a5f3ceab7c8858454867aff4297008f",
+      "canonicalId": "53eb4eb9051147ff1201b18e4c967638ad828e86",
+      "slug": "chinax27s-qv-band-wireless-link-reaches-27-gbps-bidirectional",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "China&\\#x27;s Q/V-band wireless link reaches 27 Gbps bidirectional",
+      "score": 7,
+      "tags": [
+        "6G",
+        "Q/V-band",
+        "wireless communications",
+        "satellite internet",
+        "millimeter-wave"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
+      "id": "d6d6cc47dc4050abb7e526520fd48998275c20af",
+      "canonicalId": "3dce01c3120c88980ad1d0cf4c2f10ed6eb5bac2",
+      "slug": "chinax27s-auto-association-reviews-17-automakersx27-60-day-supplier-payment-terms",
+      "date": "2026-11-18",
+      "lang": "en",
+      "title": "China&\\#x27;s auto association reviews 17 automakers&\\#x27; 60-day supplier payment terms",
+      "score": 7,
+      "tags": [
+        "汽车产业",
+        "供应链金融",
+        "应收账款账期",
+        "工信部监管",
+        "中小企业"
+      ],
+      "originalSite": "caam.org.cn"
+    },
+    {
       "id": "0db9e2d30c68059eb3379ef3fb1579ea4064b3da",
       "canonicalId": "6d3739127e37d025b6472eb782afeab5a5f24225",
       "slug": "vllm-v0340-发布kv-缓存默认按实际空闲显存分配",
@@ -5359,227 +5767,6 @@
         "stock-based compensation"
       ],
       "originalSite": "businessinsider.com"
-    },
-    {
-      "id": "fd593d4759c3ea94477cd50a7f87de2d2c935b1d",
-      "canonicalId": "280630936cfd1bf795435dd42e70dbe4ff491483",
-      "slug": "mathematics-has-changed-letx27s-act-like-it",
-      "date": "2026-11-02",
-      "lang": "zh",
-      "title": "Mathematics has changed. Let&\\#x27;s act like it",
-      "score": 8,
-      "tags": [
-        "AI in mathematics",
-        "proof verification",
-        "research culture",
-        "human-AI collaboration",
-        "scientific credit"
-      ],
-      "originalSite": "terrytao.wordpress.com"
-    },
-    {
-      "id": "d855bffe7558ef253dee03ee8186e30ac24349ce",
-      "canonicalId": "761e5e0baaa44518e6ec8e34ee31abebde9850a3",
-      "slug": "the-ai-cost-of-javascript-frameworks",
-      "date": "2026-11-02",
-      "lang": "zh",
-      "title": "The AI cost of JavaScript frameworks",
-      "score": 7,
-      "tags": [
-        "JavaScript frameworks",
-        "AI coding agents",
-        "web development",
-        "software architecture",
-        "developer productivity"
-      ],
-      "originalSite": "nolanlawson.com"
-    },
-    {
-      "id": "ea64f0583fe069826ca565d18ae017cb902eb963",
-      "canonicalId": "8cb5e1eef3d683de464966b489eb57915975a112",
-      "slug": "联想指纹-u-盘被指内部只是未加密-sd-卡",
-      "date": "2026-11-02",
-      "lang": "zh",
-      "title": "联想指纹 U 盘被指内部只是未加密 SD 卡",
-      "score": 7,
-      "tags": [
-        "hardware security",
-        "encryption",
-        "consumer electronics",
-        "Lenovo",
-        "fingerprint authentication"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "81f51f492f7d9343cba8b22e1dde8f971c013628",
-      "canonicalId": "6027d45d4d249463dec4f4923b08c7f663f2aef1",
-      "slug": "clear-报告部分语言-ai-分词成本最高相差-17-倍",
-      "date": "2026-11-02",
-      "lang": "zh",
-      "title": "CLEAR 报告：部分语言 AI 分词成本最高相差 17 倍",
-      "score": 7,
-      "tags": [
-        "tokenization",
-        "multilingual AI",
-        "LLM cost",
-        "AI fairness",
-        "NLP research"
-      ],
-      "originalSite": "clear-languages.org"
-    },
-    {
-      "id": "1b2258943d39186f55d9989a13477df5ac36e8de",
-      "canonicalId": "3a8d2a3ccb3eca9da7ec78dd3d23e08b7f25c957",
-      "slug": "数据中心反弹跨党派中期选举与-2028-年管道风险",
-      "date": "2026-11-02",
-      "lang": "zh",
-      "title": "数据中心反弹跨党派：中期选举与 2028 年管道风险",
-      "score": 7,
-      "tags": [
-        "datacenter policy",
-        "power infrastructure",
-        "permitting risk",
-        "US midterms",
-        "capacity forecasting"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "dbcef7948c9f818c29f58c7ceaf2751b93950221",
-      "canonicalId": "6bd209feefbeab17a3f5fb389d25b5a774e46e10",
-      "slug": "linux-tcp-释放后重用漏洞-cvss-98ubuntu-与-rhel-尚无补丁",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "Linux TCP 释放后重用漏洞 CVSS 9.8，Ubuntu 与 RHEL 尚无补丁",
-      "score": 8,
-      "tags": [
-        "Linux",
-        "security",
-        "CVE",
-        "TCP/IP",
-        "kernel"
-      ],
-      "originalSite": "atlasum.net"
-    },
-    {
-      "id": "3a322756ac7a4e0abc6a815432052f33c4708328",
-      "canonicalId": "a2dd8ba86336037cb0facc722f090fc277c40ba5",
-      "slug": "gcc-如何将-switch-降低为跳转表与决策树",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "GCC 如何将 switch 降低为跳转表与决策树",
-      "score": 8,
-      "tags": [
-        "compilers",
-        "GCC",
-        "switch statements",
-        "code generation",
-        "optimization"
-      ],
-      "originalSite": "xoranth.net"
-    },
-    {
-      "id": "135e143d037c88be68d1efc6e6d33f6fb3ad3bf1",
-      "canonicalId": "810faf01d51623255c20e09086023c983545c151",
-      "slug": "jepsen-审计particledb-114-存在严重正确性故障",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "Jepsen 审计：ParticleDB 1.1.4 存在严重正确性故障",
-      "score": 8,
-      "tags": [
-        "databases",
-        "distributed systems",
-        "correctness",
-        "Jepsen",
-        "data loss"
-      ],
-      "originalSite": "jepsen.io"
-    },
-    {
-      "id": "a6a6314238c18dffc3feda10f54eb8606acc66e7",
-      "canonicalId": "dd35d009aad680f7bdb8901c179d770026e55ae7",
-      "slug": "chatgpt-html-预览沙箱漏洞可劫持账户",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "ChatGPT HTML 预览沙箱漏洞可劫持账户",
-      "score": 8,
-      "tags": [
-        "ChatGPT",
-        "security",
-        "sandbox escape",
-        "AI security",
-        "web security"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "a6472ad12f3d33253acb410898fbfe090aa35bf7",
-      "canonicalId": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
-      "slug": "hacktron-称可经-gnu-savannah-漏洞推送-bash-仓库",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "Hacktron 称可经 GNU Savannah 漏洞推送 Bash 仓库",
-      "score": 8,
-      "tags": [
-        "security",
-        "supply-chain",
-        "open-source-infrastructure",
-        "GNU Savannah",
-        "Bash"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "cc0942efc417803d5f2cb3a36b81eaee530b44dc",
-      "canonicalId": "5e24b260a3151075a46dac737416d39895f8ecfa",
-      "slug": "anthropic-自动化红队发现可规避监控的微调数据",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "Anthropic 自动化红队发现可规避监控的微调数据",
-      "score": 8,
-      "tags": [
-        "AI safety",
-        "automated red teaming",
-        "deceptive alignment",
-        "fine-tuning",
-        "monitor evasion"
-      ],
-      "originalSite": "alignment.anthropic.com"
-    },
-    {
-      "id": "adc68dfb88a396dccfc81d63957465318759c331",
-      "canonicalId": "f5feb8f2c3e5113c58143fc5212579709c1f5e72",
-      "slug": "长鑫第六代-dram-平台完成工程样片验证",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "长鑫第六代 DRAM 平台完成工程样片验证",
-      "score": 7,
-      "tags": [
-        "DRAM",
-        "4F² architecture",
-        "semiconductor manufacturing",
-        "ChangXin Technology",
-        "memory"
-      ],
-      "originalSite": "finance.sina.com.cn"
-    },
-    {
-      "id": "ef4f8b0fa3161be7bd8546135617df6c0ab9e7b7",
-      "canonicalId": "5f17c0ac289550337670e5daafcabb129978118c",
-      "slug": "大厂工程师如何获得重要项目",
-      "date": "2026-11-01",
-      "lang": "zh",
-      "title": "大厂工程师如何获得重要项目",
-      "score": 6,
-      "tags": [
-        "big tech careers",
-        "engineering management",
-        "organizational incentives",
-        "reputation",
-        "career strategy"
-      ],
-      "originalSite": "seangoedecke.com"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "1b334784ac03b8ee748549dc61b151e1bbaf4862",
+  "canonicalId": "23791fed6fa0ce2cf147df5fff91647eae30b11e",
+  "slug": "microsoft-announces-mai-code-2-and-mai-code-2-flash-coding-models",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T18:25:00Z",
+  "lang": "en",
+  "title": "Microsoft announces MAI Code 2 and MAI Code 2 Flash coding models",
+  "summary": "Microsoft announced MAI Code 2 and MAI Code 2 Flash, two models aimed at AI-assisted software development, per the company&\\#x27;s announcement post. The supplied material includes no benchmark figures, parameter counts, pricing, licensing terms, or release dates, so the claimed coding capabilities have not been independently verified. A commenter reported that GitHub Copilot was offering MAI Code 2 at a 50% discount on the day of release, and that the model resolved Python build problems under Windows WSL/Ubuntu, generated test cases that all passed, and fixed Azure Bicep deployment errors — a single anecdotal account rather than a measured evaluation.",
+  "score": 7,
+  "tags": [
+    "Microsoft",
+    "AI coding models",
+    "LLMs",
+    "developer tools",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lemonish97",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535885"
+    }
+  ],
+  "originalUrl": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+  "originalSite": "microsoft.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "MAI - Code -1- Flash Benchmarks , Pricing &amp; Context Window",
+      "url": "https://llm-stats.com/models/mai-code-1-flash"
+    },
+    {
+      "title": "MAI -Image- 2 .7 Flash - Image Generation API Pricing | OpenRouter",
+      "url": "https://openrouter.ai/microsoft/mai-image-2.7-flash"
+    },
+    {
+      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+    },
+    {
+      "title": "Microsoft AI Releases MAI Code 2 and MAI Code 2 Flash for ...",
+      "url": "https://www.unite.ai/microsoft-ai-releases-mai-code-2-and-mai-code-2-flash-for-enterprises/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

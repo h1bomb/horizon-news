@@ -1,0 +1,49 @@
+{
+  "id": "ece018a4794ea398047ed689330bfdca0795b59a",
+  "canonicalId": "86aeaafbc09d88846590d14f9b44eedf44af460f",
+  "slug": "java4shellopenjdk-处理-base64-时存在-rce-漏洞",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T21:11:00Z",
+  "lang": "zh",
+  "title": "Java4Shell：OpenJDK 处理 Base64 时存在 RCE 漏洞",
+  "summary": "安全研究者公开的 Java4Shell 报告声称，OpenJDK 在处理 Base64 时存在无需认证的远程代码执行漏洞 CVE-2026-114938，CVSS 4.0 评分为 9.2，且据称已潜伏近四年。报告称受影响版本包括 Java 17（17.0.6 及之后的全部 17 线）、21、25 和 27；标准 Java 8/11 通常不受影响，但 Oracle Java 8 Performance Pack 例外。利用条件限于搭载 AVX-512 VBMI 的 x86-64 服务器处理器，大致对应 2021 年及以后发布的 Intel Ice Lake 及更新世代 Xeon，以及 2022 年及以后发布的 AMD Zen 4 及更新 EPYC/Ryzen；ARM64 不受影响。报告还描述了通过公网实施的远程堆布局，称攻击对 RTT 和抖动敏感，低且稳定的往返时延更有利于稳定利用。",
+  "score": 8,
+  "tags": [
+    "OpenJDK",
+    "remote code execution",
+    "vulnerability research",
+    "heap grooming",
+    "security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "werrett",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538240"
+    }
+  ],
+  "originalUrl": "https://calif.io/java4shell/",
+  "originalSite": "calif.io",
+  "context": "该漏洞对应 CVE-2026-114938，外部厂商分析将其称为 Java4Shell，并定位为 HotSpot JVM 的 AVX-512 Base64 解码器堆溢出（tool-1-1、tool-1-3）。换言之，风险来自 JVM 针对支持 AVX-512 VBMI 的 x86-64 处理器启用的向量化解码路径，而不是普通 Java 代码中的 Base64 调用；这也解释了受影响主机为何与 CPU 代际和指令集直接相关。",
+  "discussion": "Semgrep 的 ievans 表示已发布免费检测脚本，用于检查五个条件，并认为利用条件虽具体，但受影响主机数量仍可能很大；AgentME 则转述 Twitter 上未经证实的说法，称可通过 -XX:UseAVX=2 绕过 AVX-512 的 Base64 解码路径。",
+  "references": [
+    {
+      "title": "CVE-2026-114938: Java4Shell Base64 Overflow | Horizon3",
+      "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/"
+    },
+    {
+      "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/"
+    },
+    {
+      "title": "CVE - 2026 - 114938 : Reported Critical Pre-authentication Remote Code...",
+      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17/"
+    },
+    {
+      "title": "Java4Shell CVE - 2026 - 114938 : Affected Versions &amp; Mitigation",
+      "url": "https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

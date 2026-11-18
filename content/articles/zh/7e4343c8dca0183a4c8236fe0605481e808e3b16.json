@@ -1,0 +1,31 @@
+{
+  "id": "7e4343c8dca0183a4c8236fe0605481e808e3b16",
+  "canonicalId": "5b158888670aa71bf751807e6c390657b9ec97e9",
+  "slug": "datasette-lite-用-service-worker-在浏览器运行完整应用",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T16:48:00Z",
+  "lang": "zh",
+  "title": "Datasette Lite 用 Service Worker 在浏览器运行完整应用",
+  "summary": "Simon Willison 发布了 Datasette Lite 的完全重写版：它通过 service workers 和 Pyodide 在浏览器中运行完整的 Datasette Python 应用，作者称效果已“几乎与真正的服务端应用无法区分”。用户现在可用精心构造的 URL 指定从 PyPI 加载某个 Datasette 发行版、从 GitHub 加载特定 commit、tag 或分支、选择 100 多个 SQLite 版本，并从 PyPI 或 wheel URL 安装插件。URL 支持 ?install= 安装插件、?url= 加载 SQLite、JSON、CSV 或 SQL 文件、?metadata= 加载元数据，以及 \\#/... 片段定位到具体页面；远程数据 URL 需提供开放的 CORS 响应头。此次重写取代了 2022 年初版通过 Pyodide web worker 模拟请求并用 innerHTML 注入 HTML 的做法，旧方案会导致依赖 JavaScript 的功能失效。",
+  "score": 8,
+  "tags": [
+    "Datasette",
+    "Pyodide",
+    "WebAssembly",
+    "service workers",
+    "SQLite"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+  "originalSite": "simonwillison.net",
+  "context": "Datasette Lite 并非新项目：作者早在 2022 年就发布了第一版，当时是把 Datasette 跑在 Pyodide web worker 里，模拟请求后把生成的 HTML 用 innerHTML 注入顶层页面。这种做法虽然能让基础功能运行，但凡是依赖 JavaScript 的特性都会失效，因为通过 innerHTML 插入的 script 标签不会执行。此次重写改用 service worker，正是为了让浏览器内的完整应用自己处理请求，而不再依赖这种注入式的取巧办法。",
+  "discussion": "对开发者而言，最直接的后果是可用一条 URL 固定 Datasette 版本、Git ref、SQLite 版本和插件，分享可复现的演示或 bug 复现，而无需启动 Web 服务器；文中就用 ?ref=1.0a42 与 ?ref=1.0a43 的链接对比了分页 bug 的旧行为与修复。使用时需注意，通过 ?url= 加载的数据库等文件必须带有开放的 CORS 响应头。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

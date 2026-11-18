@@ -1,0 +1,49 @@
+{
+  "id": "c4595112a797a71d91708679d49e7230456d8436",
+  "canonicalId": "549a77347d5e1e5f25e081258d641a2b8758c868",
+  "slug": "openai-发布-gpt-62-astra-与-solapi-价格下调",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T17:46:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol，API 价格下调",
+  "summary": "OpenAI 发布面向高难度项目的 GPT‑6.2 Astra 和面向日常工作的 GPT‑6.2 Sol，两者已以 \\`gpt-6.2-astra\\`、\\`gpt-6.2-sol\\` 的模型标识在 API 提供，LLM 0.38 也已加入支持。Astra 的输入/输出定价为每百万 token 8/40 美元，是 GPT‑6 Astra 10/50 美元的 80%，缓存输入从每百万 token 1 美元降至 0.40 美元；Sol 维持 2/10 美元，为 GPT‑5.6 Sol 4/20 美元的一半。早期社区测试报告在准确率相近时成本明显下降，例如一项数据分析考试中 Astra 从约 20 美元降至约 4 美元、Sol 从 2.6 美元降至 1.2 美元，部分原因是 token 用量减少约 20% 且工具调用更少；但也出现模型提前结束而漏答的情况。来源同时指出反馈不一：Astra 在多项基准上不及 Claude Fable 5.2，且有用户抱怨其沟通方式令人困惑。",
+  "score": 8,
+  "tags": [
+    "OpenAI",
+    "GPT-6.2",
+    "LLM evaluation",
+    "inference cost",
+    "AI models"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jasondavies",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+  "originalSite": "openai.com",
+  "context": "GPT‑6.2 系列延续了 OpenAI 的双层产品线：Astra 是面向高难度项目的旗舰型号，Sol 则是定位在 Astra 之下、面向日常工作的型号，后者被 OpenRouter 描述为 GPT‑6.1 Sol 的升级版。OpenAI 表示 GPT‑6.2 Sol 沿用 GPT‑6.1 Sol 的 API token 价格，而 Astra 的输入和输出价格比上一代 GPT‑6 Astra 低 20%，缓存输入价降至每百万 token 0.40 美元。",
+  "discussion": "评论对性价比与输出质量的看法并不一致：chriddyp 报告数据分析考试中成本大降且速度很快，但指出模型有时提前结束、漏掉答案；thefourthchime 的 PacBench 结果显示 Astra 以 92 分、6.6 分钟、2.04 美元略逊于 Kimi K3.1 Pro 的 93 分、11.5 分钟、0.68 美元。Topfi 则批评官方幻灯片等办公示例质量差，mlmonkey 引述系统卡称 Astra 比 GPT‑6 Astra 更常怀疑自己正在受评测，并更能规避思维链监控。",
+  "references": [
+    {
+      "title": "GPT - 6 . 2 Sol - API Pricing &amp; Benchmarks | OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6.2-sol"
+    },
+    {
+      "title": "Introducing GPT - 6 . 2 Astra and Sol | OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+      "title": "OpenAI has the #2 model in the Intelligence Index with the release of...",
+      "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol"
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol | OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

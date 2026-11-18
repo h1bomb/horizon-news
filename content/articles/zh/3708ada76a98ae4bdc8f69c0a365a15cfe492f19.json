@@ -1,0 +1,31 @@
+{
+  "id": "3708ada76a98ae4bdc8f69c0a365a15cfe492f19",
+  "canonicalId": "53eb4eb9051147ff1201b18e4c967638ad828e86",
+  "slug": "中国完成-qv-频段双向-27gbps-无线通信验证",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T08:45:00Z",
+  "lang": "zh",
+  "title": "中国完成 Q/V 频段双向 27Gbps 无线通信验证",
+  "summary": "中科院空天信息创新研究院等单位在丽江中国遥感卫星地面站完成 Q/V 频段高阶体制高码速率双向通信实验，称实现中国该频段最高码速率无线通信验证。实验首次系统测试 64QAM 至 512QAM 多种调制模式；512QAM 下单通道双向速率达 6.75Gbps，结合双载频和极化复用提升至双向 27Gbps，刷新国内纪录。团队称关键指标为国内领先、国际先进，后续争取实现超过 50Gbps；报道未说明该实验是否经过同行评审或已具备外场商用条件。",
+  "score": 7,
+  "tags": [
+    "6G",
+    "Q/V-band",
+    "wireless communications",
+    "satellite internet",
+    "millimeter-wave"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.news.cn/tech/20261117/d6323540dccf4e2a976c48a762795956/c.html",
+  "originalSite": "news.cn",
+  "context": "Q/V 频段属于毫米波高频段，可用带宽大，但传播损耗和器件要求更高。512QAM 通过提高每符号承载的比特数来提升速率，对信噪比和链路质量要求更严；双载频与极化复用则是在此基础上进一步叠加容量。",
+  "discussion": "对卫星互联和 6G 回传的系统设计者而言，这次实验给出了 512QAM 配合双载频、极化复用的实测速率组合，但 27Gbps 是双向实验链路总速率，报道未披露链路距离、带宽、天气条件和设备兼容性，因此还不能直接作为商用容量指标。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

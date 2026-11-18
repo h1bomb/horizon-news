@@ -1,0 +1,41 @@
+{
+  "id": "32b04cdcbce681d3e1f64c865fbcc318b2a3d302",
+  "canonicalId": "1f0a78839277701cb667ea15be0907398e122d9a",
+  "slug": "微软-onnx-runtime-的-github-仓库据报消失",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-17T23:18:00Z",
+  "lang": "zh",
+  "title": "微软 ONNX Runtime 的 GitHub 仓库据报消失",
+  "summary": "据报，微软 ONNX Runtime 的 GitHub 仓库在没有任何预先通知的情况下从 GitHub 消失，影响了依赖该仓库获取代码、构建软件和运行评估流程的开发者。发帖者称，其团队当天发现评估流水线开始失败，并提到该仓库约有 2.2 万个星标；但目前微软和 GitHub 均未给出官方确认或解释。现有信息无法判断这是仓库被删除、转为私有、临时故障，还是安全处置。",
+  "score": 7,
+  "tags": [
+    "onnx-runtime",
+    "github",
+    "open-source",
+    "supply-chain-security",
+    "ai-infrastructure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nvader",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50539610"
+    }
+  ],
+  "originalUrl": "https://github.com/microsoft/onnxruntime",
+  "originalSite": "github.com",
+  "context": "ONNX Runtime 是微软提供的跨平台推理运行时，用于加载并执行 ONNX 格式的模型；其 GitHub 仓库长期是开发者获取源码、提交问题和跟进版本的主要渠道。对于依赖该仓库进行源码构建、模型评估或推理服务部署的团队，仓库的可访问性本身就是供应链的一部分。",
+  "discussion": "评论中有人猜测，这可能与相关软件包遭入侵后的清理有关，也有人批评 ONNX 默认收集遥测数据且难以关闭；这些说法均未获证实。另有用户提到，Intel 维护的 onnxruntime 分支可作为替代，但包含 OpenVINO 相关修改。",
+  "references": [
+    {
+      "title": "GitHub - microsoft/onnxruntime: ONNX Runtime: cross-platform ...",
+      "url": "https://github.com/microsoft/onnxruntime"
+    },
+    {
+      "title": "ONNX Runtime | Home",
+      "url": "https://onnxruntime.ai/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
