@@ -1,0 +1,36 @@
+{
+  "id": "72b0d39da762ceec2ba4cabc44ecc1541da5f871",
+  "canonicalId": "99a5066253ce99fbe5b9cc4cc8bdb7e2714f6594",
+  "slug": "微信小微测试日活达-3000-万接入聊天等场景",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T11:35:00Z",
+  "lang": "zh",
+  "title": "微信小微测试日活达 3000 万，接入聊天等场景",
+  "summary": "腾讯在 2026 年第三季度财报中称，微信 AI 助手小微的测试范围已扩大，日活跃用户达到 3000 万，并正逐步融入微信聊天、朋友圈、公众号和视频号等场景。小微采用面向成本效率优化的 WeLM 定制模型，腾讯称其推理成本较低且持续下降。腾讯还预计未来部分推理任务将在用户设备端运行，但未披露测试准入条件、正式上线时间或独立性能数据。",
+  "score": 7,
+  "tags": [
+    "WeChat",
+    "AI assistant",
+    "Tencent",
+    "WeLM",
+    "on-device inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/r3NthxJZQJgztyLADwNV4A",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "微信小微是直接嵌入微信本体的原生 AI 助手，并非独立 App 或小程序；腾讯为其定制了自研的 WeLM 大模型，并把推理成本作为主要优化目标。此前小微只在小范围测试，本次腾讯在季度财报中首次给出 3000 万日活这一规模数据，说明测试已从灰度阶段扩展到更大范围；有用户帖子提到部分场景还会调用 DeepSeek 辅助，但财报内容未涉及这一点。",
+  "discussion": "对测试范围内的用户而言，小微正逐步出现在微信的原生场景中，而非仅依赖单独入口；但腾讯尚未说明各场景的具体功能差异、设备兼容要求以及向其他用户全面开放的时间。",
+  "references": [
+    {
+      "title": "不扎堆做独立AI App...",
+      "url": "https://post.smzdm.com/p/a03633d9/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

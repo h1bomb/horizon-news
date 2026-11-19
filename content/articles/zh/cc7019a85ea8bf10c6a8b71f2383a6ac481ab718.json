@@ -1,0 +1,45 @@
+{
+  "id": "cc7019a85ea8bf10c6a8b71f2383a6ac481ab718",
+  "canonicalId": "abe03c170f0b92ca170ea0d248104d2e6bc83bbe",
+  "slug": "google-deepmind-宣布-genie-4-可用适用范围仍不明确",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T18:49:00Z",
+  "lang": "zh",
+  "title": "Google DeepMind 宣布 Genie 4 可用，适用范围仍不明确",
+  "summary": "Google DeepMind 宣布 Genie 4 已可用，这是其世界模型的新版本；但现有材料没有给出模型参数、生成能力、定价，也没有给出正式的地区和账户适用范围。公告标题只说明“现已可用”，无法据此判断这是全面上线还是有限开放；评论中有人报告，页面把使用资格指向“符合条件的 Google AI Ultra 订阅者”，而该用户的工作区账户无法订阅，非工作区页面又显示 Ultra 对应 Genie 3。该用户怀疑这与英国地区或此前仅限美国有关，实际开放条件仍不明确。",
+  "score": 7,
+  "tags": [
+    "Google DeepMind",
+    "world models",
+    "generative AI",
+    "product release",
+    "AI pricing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "leumon",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50550415"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+  "originalSite": "blog.google",
+  "context": "Genie 是 Google DeepMind 的世界模型系列，旨在生成可实时交互的虚拟环境；Genie 4 的模型卡称其可同时生成音乐、环境声和交互对白等音频。Project Genie 是提供该系列模型体验的产品入口，此次更新将 Genie 4 接入其中，但模型页面显示它先面向受信任测试者进行内测，之后才逐步开放给 Google AI Ultra 订阅者及 Gemini API、AI Studio 的早期访问伙伴。",
+  "discussion": "评论区有人认为这类技术可能带来严重的负面后果，表示“我不想要这些”；也有人赞赏 DeepMind 似乎更重技术本身而非盈利，并猜测世界模型未来可能成为游戏引擎、用于重制《GTA》或形成更开放的 Roblox 式平台。关于可用性和付费条件的抱怨同样突出，但这些均属用户经验与观点，不是官方规则。",
+  "references": [
+    {
+      "title": "Genie 4 — Google DeepMind",
+      "url": "https://deepmind.google/models/genie/"
+    },
+    {
+      "title": "Project Genie update featuring Genie 4 - The Keyword",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+    },
+    {
+      "title": "Genie 4 - Model Card — Google DeepMind",
+      "url": "https://deepmind.google/models/model-cards/genie-4/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

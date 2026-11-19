@@ -1,0 +1,41 @@
+{
+  "id": "f5236af069f4ac379e28dd05d53d0d1b95e328ab",
+  "canonicalId": "b2c084a41275137173e812609f66e708e4fc8ea8",
+  "slug": "谷歌发布-gemini-4-neon主打软件工程与科研工作流",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T21:34:00Z",
+  "lang": "zh",
+  "title": "谷歌发布 Gemini 4 Neon，主打软件工程与科研工作流",
+  "summary": "谷歌发布 Gemini 4 Neon，面向复杂软件工程、知识工作与科研工作流的快速端到端执行，已向开发者、企业以及 Google AI Pro/Ultra 订阅用户开放。公布价格为每百万输入 token 3 美元（缓存输入 0.15 美元）、输出 15 美元，支持 100 万 token 上下文。发布材料称其在 Artificial Analysis 编程智能体指数上以 58.6 分排名第一、智能指数 xhigh 档以 61 分位列总榜第三，Terminal-Bench 4.1 得分 65.2%，默认 high 档单任务成本比 Carbon 低 32%。上述分数与成本对比均为发布方给出的数据，现有材料未提供可独立核验的评测细节。",
+  "score": 8,
+  "tags": [
+    "Gemini 4",
+    "LLM releases",
+    "Google AI",
+    "model benchmarking",
+    "AI industry"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "yigitdemirag",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
+    }
+  ],
+  "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+  "originalSite": "blog.google",
+  "context": "",
+  "discussion": "对需要在 Neon 与 Carbon 之间做选择的开发者而言，默认 high 档单任务成本比 Carbon 低 32%、以及 100 万 token 上下文，是可以直接换算的选型依据；但评论区指出 Carbon 仍被定位为“长时程”模型，在 CritPt 等研究级推理评测上得分更高，因此仅凭综合总分切换到 Neon 未必适合长周期任务。\n\n评论者一方面抱怨模型命名难以对应到具体用例，称 Sol、Astra、Neon、Carbon、Opus、Haiku 等名称令人疲劳（stillpointlab），另一方面讨论定位差异：Neon 综合分数更高，但 Carbon 仍被定位为“长时程”模型，在研究级推理评测上更强（declanjackson）。另有用户报告在 OpenRouter 上测得 Neon 约 127 tokens/秒，远快于 Carbon 的 46 tokens/秒，并对此感到困惑（seizethecheese）。",
+  "references": [
+    {
+      "title": "Google launches Gemini 4 Neon , claims it&#x27;s three times... - Neowin",
+      "url": "https://www.neowin.net/news/google-launches-gemini-4-neon-claims-its-three-times-faster-than-carbon/"
+    },
+    {
+      "title": "Gemini 4 Neon - Model Card — Google DeepMind",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

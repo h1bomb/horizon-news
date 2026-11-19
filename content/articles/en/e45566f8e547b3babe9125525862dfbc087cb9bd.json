@@ -1,0 +1,40 @@
+{
+  "id": "e45566f8e547b3babe9125525862dfbc087cb9bd",
+  "canonicalId": "8961a54690dd3bb713ce4f791ff3d9f5f6fcef93",
+  "slug": "xint-discloses-nginx2root-chain-from-nginx-to-host-root",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T16:21:00Z",
+  "lang": "en",
+  "title": "Xint discloses NGINX2Root chain from nginx to host root",
+  "summary": "Xint has publicly disclosed NGINX2Root, a claimed chain of five nginx vulnerabilities plus a Linux kernel flaw that takes an nginx visitor to host root. The main flaw, CVE-2026-123007, is described as an unauthenticated HTTP/2 flow-control memory-corruption bug that allows command execution in an nginx worker. The disclosure says nginx 1.30.7 and 1.31.9 fixed 10 CVEs on Nov 18, that Rapid7 has released a PoC, and that no in-the-wild exploitation is known; operators who cannot upgrade should disable external HTTP/2. Because the item is a terse Telegram post rather than a primary advisory, the CVE identifier and fix details are not independently confirmed.",
+  "score": 8,
+  "tags": [
+    "nginx",
+    "vulnerability disclosure",
+    "remote code execution",
+    "HTTP/2",
+    "patching"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://nginx2root.com/",
+  "originalSite": "nginx2root.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "10-Year-Old NGINX HTTP / 2 Flaw Lets Unauthenticated Attackers...",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+    },
+    {
+      "title": "Unauthenticated Remote Code Execution in NGINX ... | Wiz Blog",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

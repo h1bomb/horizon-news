@@ -1,0 +1,45 @@
+{
+  "id": "9de13df90144908028742140494c1c1f77f03004",
+  "canonicalId": "04ea7dca74f4d708b5505bcb9d3e174dd931a5b2",
+  "slug": "quad9-退出法国dns-解析器不是反盗版执法点",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T13:18:00Z",
+  "lang": "zh",
+  "title": "Quad9 退出法国：DNS 解析器不是反盗版执法点",
+  "summary": "一篇分析文章以 Quad9 退出法国为案例，论证 DNS 解析器不应成为打击盗版的封锁执行点。文章认为，要求递归解析器在 DNS 层屏蔽被指侵权的站点，会把中立基础设施变成内容审查节点，并影响法国用户对公共解析服务的选择。由于原文未提供法国裁决的具体条款或封锁域名清单，相关法律细节仍不明确。",
+  "score": 7,
+  "tags": [
+    "DNS",
+    "internet governance",
+    "privacy",
+    "copyright enforcement",
+    "Quad9"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ritzaco",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50545958"
+    }
+  ],
+  "originalUrl": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+  "originalSite": "techstackups.com",
+  "context": "",
+  "discussion": "对法国用户和把 Quad9 地址写进设备或企业配置的管理员来说，最直接的后果是需要切换到其他解析器或准备备用 DNS，否则在 Quad9 退出法国后可能无法正常解析域名。\n\n评论者 trentnix 认为，不以起诉盗版者为核心的反盗版措施容易变成政府压制言论的后门；skrebbel 则追问，这是法院的错误裁决，还是法官在忠实适用一条荒唐法律，责任该由法院还是立法者承担。bemtevi 主张用更好的付费观看体验竞争，AppalachianEng 则质疑为何不优先追究商业盗版。",
+  "references": [
+    {
+      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/"
+    },
+    {
+      "title": "DNS Resolver Quad9 Will Leave France After Court Orders ...",
+      "url": "https://torrentfreak.com/dns-resolver-quad9-will-leave-france-after-court-orders-piracy-blocking-penalty/"
+    },
+    {
+      "title": "French Court’s Site-Blocking Orders Drive Quad9 Out Of France",
+      "url": "https://www.eff.org/deeplinks/2026/10/french-courts-site-blocking-orders-drive-quad9-out-france"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "9c66867da0cc1c7592d03367d45574e9cd685721",
+  "canonicalId": "4b9feb41ff3655d4b0d86f5fba0bc6fed54b2e37",
+  "slug": "show-hn拆解旅行者-1-号细至单颗内存芯片",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T16:18:00Z",
+  "lang": "zh",
+  "title": "Show HN：拆解旅行者 1 号，细至单颗内存芯片",
+  "summary": "开发者 raj-shekhar 在 Hacker News 发布了一个交互式网站，能把旅行者 1 号逐层拆到数据计算机的单颗内存芯片，并查看核电池的 24 个钚球、通信系统和金唱片封套。作者称旅行者 1 号在发帖当天距地球达到一光日；站点还显示两艘探测器当前的位置、正在接收信号的深空网络天线，以及它如何通过无线电被修复。作者另制作了一段 4 分钟影片。",
+  "score": 7,
+  "tags": [
+    "Voyager",
+    "interactive-visualization",
+    "computer-hardware",
+    "space-technology",
+    "technical-education"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "raj-shekhar",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50548161"
+    }
+  ],
+  "originalUrl": "https://rshekhar.com/voyager/",
+  "originalSite": "rshekhar.com",
+  "context": "“一光日”在这里是距离单位，指光在 24 小时内行进的距离；旅行者 1 号达到该距离后，地面发出的信号单程约需 24 小时，收到回复约需两天。旅行者 1 号在旅行者 2 号之后 16 天发射，并通过 NASA 深空网络接收常规指令、回传数据。",
+  "discussion": "对想理解旅行者 1 号硬件层次的读者和教学者，站点提供了从整器到单颗芯片的可点击路径；评论区还补上了核电池、数据计算机内存和命令计算机单比特等难找页面的直达链接，便于按图索骥地讲解或自学。\n\n有评论者称赞这种可视化，同时提出两类实质追问：项目是否由 AI“vibecoded”生成、是否经过原始研究与权威资料核对，以及 CMOS 存储芯片长期读值出错究竟对应怎样的模拟失效机理。作者则在评论中补发了核电池、内存芯片和单比特等页面的直达链接。",
+  "references": [
+    {
+      "title": "Voyager 1 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voyager_1"
+    },
+    {
+      "title": "Voyager 1 : What Is a Light - Day - NASA Science",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+    },
+    {
+      "title": "NASA’s Voyager 1 hits record one light - day distance , 50... | Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/18/nasas-voyager-1-hits-record-one-light-day-distance-50-years-after-launch"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

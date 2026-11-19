@@ -1,0 +1,52 @@
+{
+  "id": "c4e9bfb8e4d94d847c3dbd5b2ee51c253d35bad7",
+  "canonicalId": "8961a54690dd3bb713ce4f791ff3d9f5f6fcef93",
+  "slug": "xint-公开-nginx-漏洞链称可取得主机-root",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T16:21:00Z",
+  "lang": "zh",
+  "title": "Xint 公开 nginx 漏洞链，称可取得主机 root",
+  "summary": "Xint 公开了名为 NGINX2Root 的漏洞链，称 5 个 nginx 漏洞与一个 Linux 内核缺陷串联后，可从 nginx 访客取得主机 root；其中 CVE-2026-123007 被描述为 HTTP/2 流控内存破坏，未认证即可在 worker 进程中执行命令。该披露称 nginx 1.30.7 和 1.31.9 已于 11 月 18 日修复 10 个 CVE，Rapid7 已发布 PoC，但暂无在野利用。上述 CVE 编号、版本与修复细节来自该披露及 Telegram 聚合信息，尚未见独立确认；无法升级者被建议关闭对外 HTTP/2。",
+  "score": 8,
+  "tags": [
+    "nginx",
+    "vulnerability disclosure",
+    "remote code execution",
+    "HTTP/2",
+    "patching"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://nginx2root.com/",
+  "originalSite": "nginx2root.com",
+  "context": "这组漏洞的核心是 nginx HTTP/2 模块中的整数下溢（CVE-2026-123007）：Rapid7 与 Wiz 的分析指出，该缺陷自 2015 年 9 月 22 日发布的 nginx 1.9.5 起就存在于开源代码中，且只有在服务器启用 HTTP/2 时才可被触发。攻击者先利用它在 nginx worker 进程中实现代码执行，再借助一个 Linux 内核 SCTP 缺陷把 worker 权限提升到主机 root，这正是“nginx 2 root”这一名称的由来；对应的修复版本是 nginx 1.31.9 与 1.30.7。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Rapid 7 discloses a critical vulnerability affecting NGINX HTTP / 2 that...",
+      "url": "https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed/"
+    },
+    {
+      "title": "10-Year-Old NGINX HTTP / 2 Flaw Lets Unauthenticated Attackers...",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+    },
+    {
+      "title": "Unauthenticated Remote Code Execution in NGINX ... | Wiz Blog",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+    },
+    {
+      "title": "NGINX 2 Root : New Remote Code Execution Vulnerabilities in nginx ...",
+      "url": "https://xint.io/blog/nginx2root-remote-code-execution"
+    },
+    {
+      "title": "nginx 2 root : Five nginx RCE Flaws and a Kernel Bug...",
+      "url": "https://www.getastra.com/blog/security-advisory/nginx2root/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

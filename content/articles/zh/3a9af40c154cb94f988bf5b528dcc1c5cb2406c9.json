@@ -1,0 +1,32 @@
+{
+  "id": "3a9af40c154cb94f988bf5b528dcc1c5cb2406c9",
+  "canonicalId": "ff0c2dfa0648642ca1968842bb7f10fba7afac77",
+  "slug": "nginx-http2-被报未认证远程代码执行漏洞",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T15:19:00Z",
+  "lang": "zh",
+  "title": "Nginx HTTP/2 被报未认证远程代码执行漏洞",
+  "summary": "Wiz 的博客报告 Nginx 的 HTTP/2 处理存在未认证远程代码执行漏洞，关联 CVE-2026-123633 与 CVE-2026-123007。现有材料没有给出受影响版本、修复版本或厂商通告的具体内容，因此漏洞范围和修复状态仍不明确。社区讨论称 HTTP/2 并非 Nginx 默认启用、约 12% 的服务器启用它，并认为实际利用条件较苛刻。",
+  "score": 8,
+  "tags": [
+    "nginx",
+    "http2",
+    "remote code execution",
+    "security vulnerability",
+    "CVE"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speedping",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
+    }
+  ],
+  "originalUrl": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+  "originalSite": "wiz.io",
+  "context": "NGINX 对 HTTP/2 的支持并非默认开启，需要在配置中显式启用，因此实际暴露面取决于各站点是否主动开启了该协议。Wiz 的这份报告对应 CVE-2026-123633 和 CVE-2026-123007 两个编号。这也不是 NGINX 今年首次出现严重的远程代码执行问题：搜索结果中的报道显示，2026 年 5 月披露的 CVE-2026-42945 同样被评为严重的远程代码执行漏洞，而本次披露的是与之相互独立的另一个缺陷。",
+  "discussion": "评论者对严重性看法不一：testtestmetest 称利用需要 128GB 的 HTTP/2 流量和特定 CPU 指令，因而认为是“非问题”，fduran 则强调 HTTP/2 未默认开启但仍有约 12% 的服务器暴露。black3r 还批评修复先在开源仓库出现、相关方未提前发布 PSA，认为存在被静默利用的时间窗。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

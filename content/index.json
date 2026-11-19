@@ -1,6 +1,482 @@
 {
   "articles": [
     {
+      "id": "f5236af069f4ac379e28dd05d53d0d1b95e328ab",
+      "canonicalId": "b2c084a41275137173e812609f66e708e4fc8ea8",
+      "slug": "谷歌发布-gemini-4-neon主打软件工程与科研工作流",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "谷歌发布 Gemini 4 Neon，主打软件工程与科研工作流",
+      "score": 8,
+      "tags": [
+        "Gemini 4",
+        "LLM releases",
+        "Google AI",
+        "model benchmarking",
+        "AI industry"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "3a9af40c154cb94f988bf5b528dcc1c5cb2406c9",
+      "canonicalId": "ff0c2dfa0648642ca1968842bb7f10fba7afac77",
+      "slug": "nginx-http2-被报未认证远程代码执行漏洞",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "Nginx HTTP/2 被报未认证远程代码执行漏洞",
+      "score": 8,
+      "tags": [
+        "nginx",
+        "http2",
+        "remote code execution",
+        "security vulnerability",
+        "CVE"
+      ],
+      "originalSite": "wiz.io"
+    },
+    {
+      "id": "c4e9bfb8e4d94d847c3dbd5b2ee51c253d35bad7",
+      "canonicalId": "8961a54690dd3bb713ce4f791ff3d9f5f6fcef93",
+      "slug": "xint-公开-nginx-漏洞链称可取得主机-root",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "Xint 公开 nginx 漏洞链，称可取得主机 root",
+      "score": 8,
+      "tags": [
+        "nginx",
+        "vulnerability disclosure",
+        "remote code execution",
+        "HTTP/2",
+        "patching"
+      ],
+      "originalSite": "nginx2root.com"
+    },
+    {
+      "id": "dd8f0eace15a9b41e95a63ea583d2d24300b21a2",
+      "canonicalId": "5dbbce44001a69bf9259130b9dd3a13c5b5899f4",
+      "slug": "微软发布七款新-ai-模型强调可扩展性价比",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "微软发布七款新 AI 模型，强调可扩展性价比",
+      "score": 7,
+      "tags": [
+        "Microsoft",
+        "AI models",
+        "MAI Code 2",
+        "LLM pricing",
+        "model competition"
+      ],
+      "originalSite": "microsoft.ai"
+    },
+    {
+      "id": "9c66867da0cc1c7592d03367d45574e9cd685721",
+      "canonicalId": "4b9feb41ff3655d4b0d86f5fba0bc6fed54b2e37",
+      "slug": "show-hn拆解旅行者-1-号细至单颗内存芯片",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "Show HN：拆解旅行者 1 号，细至单颗内存芯片",
+      "score": 7,
+      "tags": [
+        "Voyager",
+        "interactive-visualization",
+        "computer-hardware",
+        "space-technology",
+        "technical-education"
+      ],
+      "originalSite": "rshekhar.com"
+    },
+    {
+      "id": "9de13df90144908028742140494c1c1f77f03004",
+      "canonicalId": "04ea7dca74f4d708b5505bcb9d3e174dd931a5b2",
+      "slug": "quad9-退出法国dns-解析器不是反盗版执法点",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "Quad9 退出法国：DNS 解析器不是反盗版执法点",
+      "score": 7,
+      "tags": [
+        "DNS",
+        "internet governance",
+        "privacy",
+        "copyright enforcement",
+        "Quad9"
+      ],
+      "originalSite": "techstackups.com"
+    },
+    {
+      "id": "cc7019a85ea8bf10c6a8b71f2383a6ac481ab718",
+      "canonicalId": "abe03c170f0b92ca170ea0d248104d2e6bc83bbe",
+      "slug": "google-deepmind-宣布-genie-4-可用适用范围仍不明确",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "Google DeepMind 宣布 Genie 4 可用，适用范围仍不明确",
+      "score": 7,
+      "tags": [
+        "Google DeepMind",
+        "world models",
+        "generative AI",
+        "product release",
+        "AI pricing"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "72b0d39da762ceec2ba4cabc44ecc1541da5f871",
+      "canonicalId": "99a5066253ce99fbe5b9cc4cc8bdb7e2714f6594",
+      "slug": "微信小微测试日活达-3000-万接入聊天等场景",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "微信小微测试日活达 3000 万，接入聊天等场景",
+      "score": 7,
+      "tags": [
+        "WeChat",
+        "AI assistant",
+        "Tencent",
+        "WeLM",
+        "on-device inference"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "507304c164a620fa1d257506b958b4e5122636bd",
+      "canonicalId": "a6fe09f047b944f8bda52aaaa14aa18e05aa53c1",
+      "slug": "美政府据报考虑要求企业披露中国-ai-使用",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "美政府据报考虑要求企业披露中国 AI 使用",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "China AI",
+        "open-weight models",
+        "AI regulation",
+        "corporate disclosure"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "b63b8909370d24c4aeada45198c295197e787e6d",
+      "canonicalId": "3a261481b7465902a7fb18d4bfe5654533d512a3",
+      "slug": "美联储会议纪要几乎所有官员认为需进一步加息并警示-ai-相关风险",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "美联储会议纪要：几乎所有官员认为需进一步加息，并警示 AI 相关风险",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "inflation",
+        "interest rates",
+        "AI financial risk"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "db7b21d1f075d950e98231731bc6a51c16ed91cd",
+      "canonicalId": "b6b70931238e808df55917c5c4bad1ecf54447ca",
+      "slug": "美联储理事沃勒12-月或需加息-05-个百分点以震动市场",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "美联储理事沃勒：12 月或需加息 0.5 个百分点以“震动”市场",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "Christopher Waller"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "d10b9d5b9ee1dbc239c65d5b3dd76185ea3bf3d8",
+      "canonicalId": "77154ded1f31ea0a209b58e41b82e6a208f4ef7a",
+      "slug": "特朗普习近平与普京本周齐聚深圳-apec-峰会",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "特朗普、习近平与普京本周齐聚深圳 APEC 峰会",
+      "score": 7,
+      "tags": [
+        "US-China relations",
+        "APEC summit",
+        "trade policy",
+        "geopolitics",
+        "AI technology restrictions"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "63b78032001826de8ae4f282fbd69b01724f9fe9",
+      "canonicalId": "e7cd49be8bcf050b3a08307b577790fe14ba6202",
+      "slug": "腾讯三季度营收增-8ai-资本开支飙升自由现金流转负",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "腾讯三季度营收增 8%，AI 资本开支飙升、自由现金流转负",
+      "score": 7,
+      "tags": [
+        "腾讯",
+        "财报",
+        "AI资本开支",
+        "自由现金流",
+        "大模型Token用量"
+      ],
+      "originalSite": "api3.cls.cn"
+    },
+    {
+      "id": "c647e743f5df4d19e6732180b9d19243e0e31ba6",
+      "canonicalId": "07b881537f4afef07ae1d91532505bba10cf2cf9",
+      "slug": "中韩宣布自贸协定服务与投资后续谈判实质性结束",
+      "date": "2026-11-19",
+      "lang": "zh",
+      "title": "中韩宣布自贸协定服务与投资后续谈判实质性结束",
+      "score": 7,
+      "tags": [
+        "China-South Korea FTA",
+        "services trade",
+        "investment liberalization",
+        "audiovisual and gaming",
+        "trade policy"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "552504e3aa3eea26ac05c04efe785a476f28ad0b",
+      "canonicalId": "b2c084a41275137173e812609f66e708e4fc8ea8",
+      "slug": "google-releases-gemini-4-neon-for-coding-and-research",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Google Releases Gemini 4 Neon for Coding and Research",
+      "score": 8,
+      "tags": [
+        "Gemini 4",
+        "LLM releases",
+        "Google AI",
+        "model benchmarking",
+        "AI industry"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "636567c9bd29f45ca0e193735e2de07ef1b4005e",
+      "canonicalId": "ff0c2dfa0648642ca1968842bb7f10fba7afac77",
+      "slug": "wiz-reports-unauthenticated-rce-in-nginx-http2",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Wiz reports unauthenticated RCE in Nginx HTTP/2",
+      "score": 8,
+      "tags": [
+        "nginx",
+        "http2",
+        "remote code execution",
+        "security vulnerability",
+        "CVE"
+      ],
+      "originalSite": "wiz.io"
+    },
+    {
+      "id": "e45566f8e547b3babe9125525862dfbc087cb9bd",
+      "canonicalId": "8961a54690dd3bb713ce4f791ff3d9f5f6fcef93",
+      "slug": "xint-discloses-nginx2root-chain-from-nginx-to-host-root",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Xint discloses NGINX2Root chain from nginx to host root",
+      "score": 8,
+      "tags": [
+        "nginx",
+        "vulnerability disclosure",
+        "remote code execution",
+        "HTTP/2",
+        "patching"
+      ],
+      "originalSite": "nginx2root.com"
+    },
+    {
+      "id": "680e636e4971f38c35e8f8160bff88135c2d5736",
+      "canonicalId": "5dbbce44001a69bf9259130b9dd3a13c5b5899f4",
+      "slug": "microsoft-announces-seven-ai-models-at-ignite-2026",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Microsoft announces seven AI models at Ignite 2026",
+      "score": 7,
+      "tags": [
+        "Microsoft",
+        "AI models",
+        "MAI Code 2",
+        "LLM pricing",
+        "model competition"
+      ],
+      "originalSite": "microsoft.ai"
+    },
+    {
+      "id": "728e456761a9a1cc78e29370d6aa26f2c6bb803a",
+      "canonicalId": "4b9feb41ff3655d4b0d86f5fba0bc6fed54b2e37",
+      "slug": "show-hn-voyager-1-tour-goes-down-to-individual-memory-chips",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Show HN: Voyager 1 tour goes down to individual memory chips",
+      "score": 7,
+      "tags": [
+        "Voyager",
+        "interactive-visualization",
+        "computer-hardware",
+        "space-technology",
+        "technical-education"
+      ],
+      "originalSite": "rshekhar.com"
+    },
+    {
+      "id": "fa0766e99071aa3a39350bb6a63f29d71206fe3e",
+      "canonicalId": "04ea7dca74f4d708b5505bcb9d3e174dd931a5b2",
+      "slug": "quad9x27s-france-exit-and-the-argument-against-dns-piracy-blocking",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Quad9&\\#x27;s France exit and the argument against DNS piracy blocking",
+      "score": 7,
+      "tags": [
+        "DNS",
+        "internet governance",
+        "privacy",
+        "copyright enforcement",
+        "Quad9"
+      ],
+      "originalSite": "techstackups.com"
+    },
+    {
+      "id": "965d833fa1c7b317a3a47dac6aabbe9cc2ae4a15",
+      "canonicalId": "abe03c170f0b92ca170ea0d248104d2e6bc83bbe",
+      "slug": "google-deepmind-says-genie-4-is-available-to-eligible-ai-ultra-subscribers",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Google DeepMind says Genie 4 is available to eligible AI Ultra subscribers",
+      "score": 7,
+      "tags": [
+        "Google DeepMind",
+        "world models",
+        "generative AI",
+        "product release",
+        "AI pricing"
+      ],
+      "originalSite": "blog.google"
+    },
+    {
+      "id": "0d254573b6d0edf21a6ed42e667df25c9c2a8232",
+      "canonicalId": "99a5066253ce99fbe5b9cc4cc8bdb7e2714f6594",
+      "slug": "tencent-says-wechat-xiaowei-reaches-30m-daily-users-in-expanded-test",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Tencent says WeChat Xiaowei reaches 30M daily users in expanded test",
+      "score": 7,
+      "tags": [
+        "WeChat",
+        "AI assistant",
+        "Tencent",
+        "WeLM",
+        "on-device inference"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "5cffae39c10a4ca6d50566405a73bc1b6c22604f",
+      "canonicalId": "a6fe09f047b944f8bda52aaaa14aa18e05aa53c1",
+      "slug": "us-weighs-public-disclosure-of-chinese-ai-use-by-firms",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "US Weighs Public Disclosure of Chinese AI Use by Firms",
+      "score": 7,
+      "tags": [
+        "AI policy",
+        "China AI",
+        "open-weight models",
+        "AI regulation",
+        "corporate disclosure"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "10c0d5df9a1e61d23efb3e8ea0e9ff7cd745727b",
+      "canonicalId": "3a261481b7465902a7fb18d4bfe5654533d512a3",
+      "slug": "fed-minutes-show-officials-expect-more-rate-hikes-flag-ai-inflation-risk",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Fed minutes show officials expect more rate hikes, flag AI inflation risk",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "inflation",
+        "interest rates",
+        "AI financial risk"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "0f68935a09e9d4a1ca7720aa3a3f292a9edc66ca",
+      "canonicalId": "b6b70931238e808df55917c5c4bad1ecf54447ca",
+      "slug": "fed-governor-waller-says-a-half-point-rate-hike-may-be-needed-in-december",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Fed Governor Waller says a half-point rate hike may be needed in December",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "Christopher Waller"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "b05ea6a934f1b1918de6af3e3d39429227546fc4",
+      "canonicalId": "77154ded1f31ea0a209b58e41b82e6a208f4ef7a",
+      "slug": "trump-xi-and-putin-to-gather-at-apec-summit-in-shenzhen-as-trade-truce-talks-resume",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "Trump, Xi and Putin to gather at APEC summit in Shenzhen as trade truce talks resume",
+      "score": 7,
+      "tags": [
+        "US-China relations",
+        "APEC summit",
+        "trade policy",
+        "geopolitics",
+        "AI technology restrictions"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "c4486cdf9f9c10f9eadb52ce5eae941c660a2a53",
+      "canonicalId": "e7cd49be8bcf050b3a08307b577790fe14ba6202",
+      "slug": "腾讯三季度资本开支升至814亿元自由现金流为负691亿元",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "腾讯三季度资本开支升至814亿元，自由现金流为负691亿元",
+      "score": 7,
+      "tags": [
+        "腾讯",
+        "财报",
+        "AI资本开支",
+        "自由现金流",
+        "大模型Token用量"
+      ],
+      "originalSite": "api3.cls.cn"
+    },
+    {
+      "id": "a38cc03a86c37932dde612f9a733c1ade7f65b10",
+      "canonicalId": "07b881537f4afef07ae1d91532505bba10cf2cf9",
+      "slug": "中国与韩国宣布自贸协定服务与投资后续谈判实质性结束",
+      "date": "2026-11-19",
+      "lang": "en",
+      "title": "中国与韩国宣布自贸协定服务与投资后续谈判实质性结束",
+      "score": 7,
+      "tags": [
+        "China-South Korea FTA",
+        "services trade",
+        "investment liberalization",
+        "audiovisual and gaming",
+        "trade policy"
+      ],
+      "originalSite": "x.com"
+    },
+    {
       "id": "ece018a4794ea398047ed689330bfdca0795b59a",
       "canonicalId": "86aeaafbc09d88846590d14f9b44eedf44af460f",
       "slug": "java4shellopenjdk-处理-base64-时存在-rce-漏洞",
@@ -5359,414 +5835,6 @@
         "data centers"
       ],
       "originalSite": "tradingview.com"
-    },
-    {
-      "id": "46fc913d4fa04240d8cb672bec62b41c58dd495b",
-      "canonicalId": "da9a5824109ffaf4d36b11b44e51a59070ea60b1",
-      "slug": "github-议题指-postman-静默安装-ai-插件并上传-api-数据",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "GitHub 议题指 Postman 静默安装 AI 插件并上传 API 数据",
-      "score": 8,
-      "tags": [
-        "postman",
-        "privacy",
-        "security",
-        "api-tools",
-        "telemetry"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "b291657e2af24f21b4a1ec2d4a9c45301558ffd8",
-      "canonicalId": "435a4449f912b507603706a886a9649b02c07643",
-      "slug": "astra-读写-qwen-权重说法被指误导",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "Astra 读写 Qwen 权重说法被指误导",
-      "score": 7,
-      "tags": [
-        "AI research criticism",
-        "mechanistic interpretability",
-        "LLM steering",
-        "Qwen",
-        "Hacker News discussion"
-      ],
-      "originalSite": "honnibal.dev"
-    },
-    {
-      "id": "7c935bb58571cfd4af5fe7383c453565bb804f50",
-      "canonicalId": "9b0f1b3870f8f7bfef142b6cf7e94bd9b847c298",
-      "slug": "qwen-38-27b-在笔记本上从权重识别游戏",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "Qwen 3.8 27B 在笔记本上从权重识别游戏",
-      "score": 7,
-      "tags": [
-        "weight-space programming",
-        "LLM interpretability",
-        "model weights",
-        "Qwen",
-        "research replication"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "762a45c3c1ea84643d1d9b0c9498387c13402ce0",
-      "canonicalId": "0b48a22c90c16f33261c92e6e1c401035e94301e",
-      "slug": "现代国际象棋引擎跑在-90-年代硬件上能击败-1996-年的卡斯帕罗夫吗",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "现代国际象棋引擎跑在 90 年代硬件上，能击败 1996 年的卡斯帕罗夫吗",
-      "score": 7,
-      "tags": [
-        "chess engines",
-        "AI algorithms",
-        "hardware performance",
-        "search algorithms",
-        "Hacker News discussion"
-      ],
-      "originalSite": "nicholas.carlini.com"
-    },
-    {
-      "id": "e000f4d1ec53cac56d0bab358527f13268a664fd",
-      "canonicalId": "f3900be82c6f7ae65c769c93e0203c426c120a5b",
-      "slug": "日经称美科技巨头-ai-隐性债务半年增-90至-32-万亿美元",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "《日经》称美科技巨头 AI 隐性债务半年增 90%至 3.2 万亿美元",
-      "score": 7,
-      "tags": [
-        "AI infrastructure",
-        "tech finance",
-        "cloud computing",
-        "data centers",
-        "industry analysis"
-      ],
-      "originalSite": "asia.nikkei.com"
-    },
-    {
-      "id": "d18e691086934a010725ce99dd358d48fe496429",
-      "canonicalId": "0093518f68d3f6707dd6ba809990dcebc50af6d2",
-      "slug": "在数据中心规模运行-mac-的工程挑战",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "在数据中心规模运行 Mac 的工程挑战",
-      "score": 7,
-      "tags": [
-        "macOS",
-        "infrastructure",
-        "CI/CD",
-        "Apple",
-        "data centers"
-      ],
-      "originalSite": "namespace.so"
-    },
-    {
-      "id": "62f31b3734331d7fe05d08216d6d8a1633cd8e4b",
-      "canonicalId": "7da3b08fd70d7f5417f7b3db10fa44ebe892389b",
-      "slug": "safari-273-推出自适应深色模式",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "Safari 27.3 推出自适应深色模式",
-      "score": 7,
-      "tags": [
-        "Safari",
-        "WebKit",
-        "dark mode",
-        "web development",
-        "CSS"
-      ],
-      "originalSite": "webkit.org"
-    },
-    {
-      "id": "b509cf7a27d63359d45ad470ec2e17ae804d742d",
-      "canonicalId": "9b3ba0441179b738a4b3bfc2d8045d6914ada724",
-      "slug": "飞机背景声配合-ads-b-可定位视频地点",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "飞机背景声配合 ADS-B 可定位视频地点",
-      "score": 7,
-      "tags": [
-        "OSINT",
-        "privacy",
-        "geolocation",
-        "ADS-B",
-        "audio analysis"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "2f05a4ccbb4fa6d30feeb43a8e9f7df0c9d1f8c3",
-      "canonicalId": "a437782712b76522ca8d1d6151db35415b479b8f",
-      "slug": "纽约时报等媒体起诉-brave-抓取内容转售-ai-公司",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "纽约时报等媒体起诉 Brave 抓取内容转售 AI 公司",
-      "score": 7,
-      "tags": [
-        "AI copyright",
-        "web scraping",
-        "Brave browser",
-        "AI training data",
-        "publishing industry"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "94353795fc77b7f68d3514b654acbba899eb7028",
-      "canonicalId": "3767000bc23990bba644d46a771fdd3a0f9844fc",
-      "slug": "传英伟达要求数据中心中国客户业务占比不超-49",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "传英伟达要求数据中心中国客户业务占比不超 49%",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "China",
-        "data centers",
-        "AI infrastructure",
-        "export controls"
-      ],
-      "originalSite": "tomshardware.com"
-    },
-    {
-      "id": "56ac5a570c0fa4588b81c4210b397a579992c6ae",
-      "canonicalId": "523895a892ae623def60a6d4e13e6e036926bc5b",
-      "slug": "监管层据报暂停-ipo-与大股东减持以稳定股市",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "监管层据报暂停 IPO 与大股东减持以稳定股市",
-      "score": 8,
-      "tags": [
-        "China stocks",
-        "IPO suspension",
-        "securities regulation",
-        "CSI 300",
-        "shareholder reductions"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "d0edd3baf6830f7e6e31c50cdece11b8fde7fd6a",
-      "canonicalId": "1548083042627f03415166d51490ddab4e1612b2",
-      "slug": "anthropic-修订版-s-1第三季度人力成本-17-亿美元人均月逾-10-万美元",
-      "date": "2026-11-04",
-      "lang": "zh",
-      "title": "Anthropic 修订版 S-1：第三季度人力成本 17 亿美元，人均月逾 10 万美元",
-      "score": 7,
-      "tags": [
-        "Anthropic",
-        "IPO filing",
-        "AI industry",
-        "employee compensation",
-        "stock-based compensation"
-      ],
-      "originalSite": "businessinsider.com"
-    },
-    {
-      "id": "73509c284a6ca160b2acfa86d475b11ab98bf270",
-      "canonicalId": "da9a5824109ffaf4d36b11b44e51a59070ea60b1",
-      "slug": "postman-accused-of-auto-installing-ai-plugins-and-sending-api-data-to-its-servers",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Postman accused of auto-installing AI plugins and sending API data to its servers",
-      "score": 8,
-      "tags": [
-        "postman",
-        "privacy",
-        "security",
-        "api-tools",
-        "telemetry"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "12eb2cc1dc7a87f736ed00669689875098d26286",
-      "canonicalId": "435a4449f912b507603706a886a9649b02c07643",
-      "slug": "blog-post-disputes-claim-that-astra-weight-editing-improves-qwen",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Blog post disputes claim that Astra weight editing improves Qwen",
-      "score": 7,
-      "tags": [
-        "AI research criticism",
-        "mechanistic interpretability",
-        "LLM steering",
-        "Qwen",
-        "Hacker News discussion"
-      ],
-      "originalSite": "honnibal.dev"
-    },
-    {
-      "id": "73b31d80565c99a259e652f4bd72c87f49dda2aa",
-      "canonicalId": "9b0f1b3870f8f7bfef142b6cf7e94bd9b847c298",
-      "slug": "qwen-38-27b-identifies-games-from-raw-weights-on-a-laptop",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Qwen 3.8 27B identifies games from raw weights on a laptop",
-      "score": 7,
-      "tags": [
-        "weight-space programming",
-        "LLM interpretability",
-        "model weights",
-        "Qwen",
-        "research replication"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "adb646bd1cf062322939c0b2d6932c59d54edfb0",
-      "canonicalId": "0b48a22c90c16f33261c92e6e1c401035e94301e",
-      "slug": "could-a-modern-engine-on-a-pentium-have-beaten-kasparov",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Could a Modern Engine on a Pentium Have Beaten Kasparov?",
-      "score": 7,
-      "tags": [
-        "chess engines",
-        "AI algorithms",
-        "hardware performance",
-        "search algorithms",
-        "Hacker News discussion"
-      ],
-      "originalSite": "nicholas.carlini.com"
-    },
-    {
-      "id": "d4dcdd1060b8327a4c455fa838dc5175b099aeac",
-      "canonicalId": "f3900be82c6f7ae65c769c93e0203c426c120a5b",
-      "slug": "nikkei-us-tech-ai-obligations-jump-90-to-32t",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Nikkei: US tech AI obligations jump 90% to $3.2T",
-      "score": 7,
-      "tags": [
-        "AI infrastructure",
-        "tech finance",
-        "cloud computing",
-        "data centers",
-        "industry analysis"
-      ],
-      "originalSite": "asia.nikkei.com"
-    },
-    {
-      "id": "ee76c1b9783d92eec0f27032590014bb1d3ccf4a",
-      "canonicalId": "0093518f68d3f6707dd6ba809990dcebc50af6d2",
-      "slug": "mac-at-any-scale-workarounds-for-macos-data-center-ci",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Mac at Any Scale: Workarounds for macOS Data-Center CI",
-      "score": 7,
-      "tags": [
-        "macOS",
-        "infrastructure",
-        "CI/CD",
-        "Apple",
-        "data centers"
-      ],
-      "originalSite": "namespace.so"
-    },
-    {
-      "id": "f5328813760d731bfe0ec328a38cebe03b7ba524",
-      "canonicalId": "7da3b08fd70d7f5417f7b3db10fa44ebe892389b",
-      "slug": "safari-273-adds-adaptive-dark-mode-for-unsupported-sites",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Safari 27.3 Adds Adaptive Dark Mode for Unsupported Sites",
-      "score": 7,
-      "tags": [
-        "Safari",
-        "WebKit",
-        "dark mode",
-        "web development",
-        "CSS"
-      ],
-      "originalSite": "webkit.org"
-    },
-    {
-      "id": "cbe3787e12998a2c0eaf7138480e0e25749890dc",
-      "canonicalId": "9b3ba0441179b738a4b3bfc2d8045d6914ada724",
-      "slug": "aircraft-noise-plus-ads-b-data-can-geolocate-a-video-osint-demo-shows",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Aircraft noise plus ADS-B data can geolocate a video, OSINT demo shows",
-      "score": 7,
-      "tags": [
-        "OSINT",
-        "privacy",
-        "geolocation",
-        "ADS-B",
-        "audio analysis"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "a59602bda507325efe8f76c2def069f821eaa35f",
-      "canonicalId": "a437782712b76522ca8d1d6151db35415b479b8f",
-      "slug": "new-york-times-sues-brave-over-alleged-scraping-and-ai-data-sales",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "New York Times sues Brave over alleged scraping and AI data sales",
-      "score": 7,
-      "tags": [
-        "AI copyright",
-        "web scraping",
-        "Brave browser",
-        "AI training data",
-        "publishing industry"
-      ],
-      "originalSite": "techcrunch.com"
-    },
-    {
-      "id": "6b0075430a8234dab0c528e898f7d976c31fadcf",
-      "canonicalId": "3767000bc23990bba644d46a771fdd3a0f9844fc",
-      "slug": "report-nvidia-said-to-cap-chinese-business-at-49-for-new-data-center-contracts",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Report: Nvidia Said to Cap Chinese Business at 49% for New Data-Center Contracts",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "China",
-        "data centers",
-        "AI infrastructure",
-        "export controls"
-      ],
-      "originalSite": "tomshardware.com"
-    },
-    {
-      "id": "535f7d55f7ad01a3dbdf610b598d0fa9399e6383",
-      "canonicalId": "523895a892ae623def60a6d4e13e6e036926bc5b",
-      "slug": "china-regulator-reportedly-suspends-ipos-and-large-shareholder-sales-to-stabilize-slumping-stocks",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "China Regulator Reportedly Suspends IPOs and Large Shareholder Sales to Stabilize Slumping Stocks",
-      "score": 8,
-      "tags": [
-        "China stocks",
-        "IPO suspension",
-        "securities regulation",
-        "CSI 300",
-        "shareholder reductions"
-      ],
-      "originalSite": "ft.com"
-    },
-    {
-      "id": "6d92f1b925899d0bb72f5ea65095da0a5965a435",
-      "canonicalId": "1548083042627f03415166d51490ddab4e1612b2",
-      "slug": "anthropicx27s-revised-ipo-filing-shows-17-billion-in-quarterly-personnel-costs",
-      "date": "2026-11-04",
-      "lang": "en",
-      "title": "Anthropic&\\#x27;s revised IPO filing shows $1.7 billion in quarterly personnel costs",
-      "score": 7,
-      "tags": [
-        "Anthropic",
-        "IPO filing",
-        "AI industry",
-        "employee compensation",
-        "stock-based compensation"
-      ],
-      "originalSite": "businessinsider.com"
     }
   ]
 }

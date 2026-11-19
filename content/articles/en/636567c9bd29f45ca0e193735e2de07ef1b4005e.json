@@ -1,0 +1,32 @@
+{
+  "id": "636567c9bd29f45ca0e193735e2de07ef1b4005e",
+  "canonicalId": "ff0c2dfa0648642ca1968842bb7f10fba7afac77",
+  "slug": "wiz-reports-unauthenticated-rce-in-nginx-http2",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T15:19:00Z",
+  "lang": "en",
+  "title": "Wiz reports unauthenticated RCE in Nginx HTTP/2",
+  "summary": "Wiz has published a report on unauthenticated remote code execution vulnerabilities in Nginx&\\#x27;s HTTP/2 handling, linking to CVE-2026-123633 and CVE-2026-123007. The supplied material does not specify affected Nginx versions, the precise exploit conditions, or whether either flaw has been exploited in the wild. It is a vulnerability write-up rather than an Nginx advisory with fixed releases or a remediation timeline.",
+  "score": 8,
+  "tags": [
+    "nginx",
+    "http2",
+    "remote code execution",
+    "security vulnerability",
+    "CVE"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "speedping",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
+    }
+  ],
+  "originalUrl": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+  "originalSite": "wiz.io",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

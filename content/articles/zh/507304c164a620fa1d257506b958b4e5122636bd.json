@@ -1,0 +1,44 @@
+{
+  "id": "507304c164a620fa1d257506b958b4e5122636bd",
+  "canonicalId": "a6fe09f047b944f8bda52aaaa14aa18e05aa53c1",
+  "slug": "美政府据报考虑要求企业披露中国-ai-使用",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T02:30:00Z",
+  "lang": "zh",
+  "title": "美政府据报考虑要求企业披露中国 AI 使用",
+  "summary": "据路透社报道，特朗普政府正在考虑要求美国企业公开披露其使用中国 AI 模型的情况；美国财政部与白宫科技政策办公室已讨论该方案。方案若落地，使用阿里 Qwen 支撑客服等业务的企业须在官网公示，报道以 Airbnb 为例。此举意在通过“公开点名”抑制企业对低价中国开放权重模型的依赖，而非出台新的限制；该方案是否获得政府内部支持、是否会进入正式立法程序尚不明朗。",
+  "score": 7,
+  "tags": [
+    "AI policy",
+    "China AI",
+    "open-weight models",
+    "AI regulation",
+    "corporate disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/",
+  "originalSite": "reuters.com",
+  "context": "开放权重模型指厂商公开发布可下载的模型参数，企业可自行部署，成本通常明显低于按调用量计费的闭源 API，这也是 Airbnb 等公司采用阿里 Qwen 的现实动因。据路透社报道，美国国会此前已就相关问题启动调查，这为行政部门酝酿公开披露要求提供了政治铺垫。",
+  "discussion": "若该披露方案最终实施，Airbnb 这类以自托管阿里 Qwen 支撑客服的美国企业将须在官网公开说明其使用中国 AI 的情况；相关企业需要梳理可公开的模型来源、部署方式和用途清单。方案目前仍处讨论阶段，适用范围与是否进入立法程序尚不明确。",
+  "references": [
+    {
+      "title": "Trump administration weighs forcing US firms to disclose ...",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/trump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use/articleshow/135962485.cms"
+    },
+    {
+      "title": "Airbnb Bet Its Support Desk on a Chinese AI Model It Can Drop",
+      "url": "https://aiadopters.club/p/airbnb-bet-its-support-desk-on-a"
+    },
+    {
+      "title": "US Reviews Disclosure Rule for Companies Using Chinese AI ...",
+      "url": "https://www.gate.com/news/detail/ABNB/us-reviews-disclosure-rule-for-companies-using-chinese-ai-models-25705130"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
