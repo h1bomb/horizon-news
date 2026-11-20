@@ -1,0 +1,57 @@
+{
+  "id": "b4fdc521408a19b38f3d2f29c9b9f073f9eb783a",
+  "canonicalId": "21575d48062cf7968a0874dbba33dede06d118fb",
+  "slug": "openjdk-pr-32781-关联-java-rce-报告披露过程引争议",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T11:47:00Z",
+  "lang": "zh",
+  "title": "OpenJDK PR 32781 关联 Java RCE 报告，披露过程引争议",
+  "summary": "Hacker News 讨论聚焦于 OpenJDK 拉取请求 PR 32781，该 PR 与一份 Java 远程代码执行（RCE）漏洞报告相关；目前可见信息没有给出 CVE 编号、严重级别、受影响版本或修复范围。讨论者主要关注 Oracle 对披露流程的介入，以及 LLM 辅助研究是否独立发现或复现了该问题。由于原始来源没有正文，所给材料不足以确认漏洞是否已经修复及其实际影响。",
+  "score": 7,
+  "tags": [
+    "Java security",
+    "OpenJDK",
+    "RCE vulnerability",
+    "vulnerability disclosure",
+    "LLM-assisted security research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "notmine1337",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50558906"
+    }
+  ],
+  "originalUrl": "https://github.com/openjdk/jdk/pull/32781",
+  "originalSite": "github.com",
+  "context": "Java4Shell 即 CVE-2026-114938，是 2026 年 11 月 17 日由 Oracle 与 OpenJDK 漏洞小组披露的 JVM 内存损坏漏洞，问题出在 JVM 编译器的 Base64 解码组件。社区评论引用的 Adoptium 支持 issue 显示，报告者早在 10 月 1 日就表示 Oracle 要求其在获得批准前不要提交 PR，10 月 28 日又称该问题已由 Oracle 接管。该 PR 的讨论正是围绕这一漏洞的修复与披露过程展开。",
+  "discussion": "有评论引用 Adoptium issue 1480 称，PR 作者表示 Oracle 曾要求其在获得批准前不要推进 PR，后来又称相关工作已由 Oracle 接管。另有评论者声称自己在披露前通过模糊测试独立发现了该问题，但承认无法排除训练数据包含相关报告的可能；其他人则质疑 LLM 辅助研究是否只是读取了旧报告。",
+  "references": [
+    {
+      "title": "Java4Shell CVE-2026-114938: Patch Vulnerable OpenJDK ...",
+      "url": "https://computingforgeeks.com/java4shell-cve-2026-114938/"
+    },
+    {
+      "title": "Java4Shell: A Closer Look and Patch Analysis (CVE-2026-114938)",
+      "url": "https://www.akamai.com/blog/security-research/java4shell-closer-look-patch-analysis-cve-2026-114938"
+    },
+    {
+      "title": "Java4Shell (CVE-2026-114938): Risks and Mitigations",
+      "url": "https://www.paloaltonetworks.com/blog/cloud-security/java4shell-cve-2026-114938-risks-mitigations/"
+    },
+    {
+      "title": "Java 4 Shell RCE : Affected Versions &amp; Fix ( CVE -2026-114938)",
+      "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938"
+    },
+    {
+      "title": "Java 4 Shell CVE -2026-114938: Affected Versions &amp; Mitigation",
+      "url": "https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/"
+    },
+    {
+      "title": "Addressing Java 4 Shell CVE -2026-114938: upgrade guidance and...",
+      "url": "https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/addressing-java4shell-cve-2026-114938-upgrade-guidance-and-azure-waf-mitigations/4574305"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

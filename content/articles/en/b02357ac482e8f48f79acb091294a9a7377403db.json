@@ -1,0 +1,40 @@
+{
+  "id": "b02357ac482e8f48f79acb091294a9a7377403db",
+  "canonicalId": "4ba1303d2ee21d77bd190f7afe21aa7ea2259664",
+  "slug": "postgresql-19-released-with-wait-for-lsn-for-standby-reads",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T20:43:00Z",
+  "lang": "en",
+  "title": "PostgreSQL 19 released with WAIT FOR LSN for standby reads",
+  "summary": "PostgreSQL 19 is out, roughly two months later than the project&\\#x27;s usual September release; the delay was attributed mainly to issues the team handled amid a wave of AI-reported vulnerability reports. The release adds WAIT FOR LSN, which lets a session on a standby wait until that standby has replayed WAL up to a specified log sequence number before running a query, enabling read-your-writes consistency for applications that send reads to replicas. Applications can capture pg\\_current\\_wal\\_insert\\_lsn\\(\\) after a write and later issue WAIT FOR LSN with an optional timeout, which returns an error if the replica does not catch up in time.",
+  "score": 9,
+  "tags": [
+    "PostgreSQL",
+    "databases",
+    "open source",
+    "release",
+    "WAIT FOR LSN"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Read your writes : WAIT FOR in PostgreSQL 19 | ClickHouse",
+      "url": "https://clickhouse.com/blog/postgresql-19-wait-for-read-your-writes"
+    },
+    {
+      "title": "Reading your own writes with WAIT FOR LSN in Postgres 19",
+      "url": "https://rednafi.com/system/pg-wait-for-lsn/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

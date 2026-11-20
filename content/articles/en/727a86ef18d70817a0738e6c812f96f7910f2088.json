@@ -1,0 +1,52 @@
+{
+  "id": "727a86ef18d70817a0738e6c812f96f7910f2088",
+  "canonicalId": "d4f4cd770ab01bf6e8a7461da90ce492db83e9f4",
+  "slug": "reported-php-flaw-disables-tls-for-mixed-case-https-schemes",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T03:04:00Z",
+  "lang": "en",
+  "title": "Reported PHP Flaw Disables TLS for Mixed-Case HTTPS Schemes",
+  "summary": "A reported PHP vulnerability causes the HTTP and FTP stream wrappers to treat mixed-case schemes such as HTTPS://, httpS:// and FTPS:// as plaintext HTTP/FTP, silently disabling TLS and potentially exposing credentials, cookies, POST bodies and FTP logins. The flaw is tracked as CVE-2026-128064 \\(GHSA-f6gg-rchx-xw8j\\) with a CVSS 4.0 score of 8.2, and fixes are available in PHP 8.2.36, 8.3.37, 8.4.28, 8.5.13 and 8.6.0. PHP 8.1 and earlier are end-of-life and will not receive a fix, so affected users must lower-case URL schemes themselves; the claim that the bug went unnoticed for 20 years comes from the source and has not been independently verified here.",
+  "score": 8,
+  "tags": [
+    "PHP",
+    "TLS",
+    "security vulnerability",
+    "CVE",
+    "web security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/ljachowicz/status/2123477025268924514",
+  "originalSite": "x.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-128064 - Vulnerability Details - OpenCVE",
+      "url": "https://app.opencve.io/cve/CVE-2026-128064"
+    },
+    {
+      "title": "CVE-2026-128064: PHP Group PHP: Mixed-case HTTPS and FTPS ...",
+      "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-128064/"
+    },
+    {
+      "title": "CVE-2026-128064 - Mixed-case HTTPS and FTPS URLs can expose ...",
+      "url": "https://cvefeed.io/vuln/detail/CVE-2026-128064"
+    },
+    {
+      "title": "CVE - 2026 - 128064 : Mixed-case HTTPS and FTPS URLs can expose...",
+      "url": "https://everycve.com/CVE-2026-128064"
+    },
+    {
+      "title": "phpAfterShell ( CVE - 2026 -126714): Live PHP RCE Updates",
+      "url": "https://www.precursorsecurity.com/blog/phpaftershell-critical-php-rce-vulnerabilities"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

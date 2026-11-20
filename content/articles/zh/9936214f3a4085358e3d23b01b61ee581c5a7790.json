@@ -1,0 +1,40 @@
+{
+  "id": "9936214f3a4085358e3d23b01b61ee581c5a7790",
+  "canonicalId": "4ba1303d2ee21d77bd190f7afe21aa7ea2259664",
+  "slug": "postgresql-19-发布新增-wait-for-lsn-实现从库读己之写",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T20:43:00Z",
+  "lang": "zh",
+  "title": "PostgreSQL 19 发布，新增 WAIT FOR LSN 实现从库读己之写",
+  "summary": "PostgreSQL 19 已发布，比通常的 9 月发布窗口晚约两个月；消息称延迟主要与团队需处理大量由 AI 报告的漏洞问题有关。该版本新增 WAIT FOR LSN：从库上的会话可先等待预写日志（WAL）回放到指定日志序列号（LSN），再执行查询，从而读取主库刚写入的数据，实现“读己之写”一致性。用法是先在主库调用 pg\\_current\\_wal\\_insert\\_lsn\\(\\) 取得 LSN，再把该值传给从库的 WAIT FOR LSN，并可选用 WITH \\(TIMEOUT &\\#x27;0.1s&\\#x27;\\)；若从库未在时限内追上，则会返回错误。",
+  "score": 9,
+  "tags": [
+    "PostgreSQL",
+    "databases",
+    "open source",
+    "release",
+    "WAIT FOR LSN"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+  "originalSite": "simonwillison.net",
+  "context": "背景在于，当应用从异步备库读取时，备库回放 WAL 可能落后于主库，因此应用刚在主库完成写入后立刻从备库读取，未必能读到自己的修改。PostgreSQL 19 之前，这类“读己之写”一致性通常要由应用记录 WAL 位点并等待备库追赶，Wikipedia/MediaWiki 就曾基于 MySQL 复制手工实现类似逻辑；WAIT FOR LSN 把这一等待步骤内置到 PostgreSQL 会话中，并可选设置超时。",
+  "discussion": "对把读请求分流到从库的应用而言，这提供了数据库内建的等待复制追上机制，不再必须自行轮询复制位点。应用需要把主库返回的 LSN 随会话或后续请求保存，并处理 WAIT FOR LSN 超时时的错误，例如决定重试或改走主库。",
+  "references": [
+    {
+      "title": "Read your writes : WAIT FOR in PostgreSQL 19 | ClickHouse",
+      "url": "https://clickhouse.com/blog/postgresql-19-wait-for-read-your-writes"
+    },
+    {
+      "title": "Reading your own writes with WAIT FOR LSN in Postgres 19",
+      "url": "https://rednafi.com/system/pg-wait-for-lsn/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

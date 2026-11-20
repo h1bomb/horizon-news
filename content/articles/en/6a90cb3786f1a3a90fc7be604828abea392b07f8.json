@@ -1,0 +1,36 @@
+{
+  "id": "6a90cb3786f1a3a90fc7be604828abea392b07f8",
+  "canonicalId": "c7d3ecb006439a135768f56529a5adc2ad0eb57f",
+  "slug": "openai-reports-ai-chip-design-gains-up-to-14-amd-gpu-ppa",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T09:30:00Z",
+  "lang": "en",
+  "title": "OpenAI reports AI chip-design gains, up to 14% AMD GPU PPA",
+  "summary": "OpenAI says its models helped design its Jalapeño inference chip and optimize AMD flagship GPU IP, reducing vector-unit standard-cell area by about 13% and matrix-unit area by about 10% in the former, and improving power, performance, and area by up to 14% over a highly optimized baseline in the latter. Some AMD changes have entered manufacturing design, and OpenAI says the Jalapeño optimizations were validated during chip bring-up. OpenAI also announced a partnership with Synopsys to train a GPT-Synopsys model. The figures are self-reported, with no independent verification or methodological detail in the supplied item.",
+  "score": 7,
+  "tags": [
+    "AI for chip design",
+    "EDA",
+    "OpenAI",
+    "AMD",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
+  "originalSite": "openai.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Synopsys, Inc. | OpenAI and Synopsys Announce GPT-Synopsys ...",
+      "url": "https://investor.synopsys.com/news/news-details/2026/OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design/default.aspx"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

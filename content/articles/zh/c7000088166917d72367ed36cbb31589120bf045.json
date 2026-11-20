@@ -1,0 +1,40 @@
+{
+  "id": "c7000088166917d72367ed36cbb31589120bf045",
+  "canonicalId": "c7d3ecb006439a135768f56529a5adc2ad0eb57f",
+  "slug": "openai-称其模型参与-jalapeño-芯片设计amd-gpu-ip-的-ppa-最高提升-14",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T09:30:00Z",
+  "lang": "zh",
+  "title": "OpenAI 称其模型参与 Jalapeño 芯片设计，AMD GPU IP 的 PPA 最高提升 14%",
+  "summary": "OpenAI 在官方发布中称，其模型参与了自研推理芯片 Jalapeño 的设计，使向量单元标准单元面积减少约 13%、矩阵单元减少约 10%，相关优化已通过芯片点亮验证。在与 AMD 的合作中，这些模型把旗舰 GPU IP 的功耗、性能、面积（PPA）指标相对原本已高度优化的基线最高提升了 14%，部分改动已进入送厂制造的设计阶段。OpenAI 同时宣布与 Synopsys 合作训练 GPT-Synopsys 模型。上述数字均来自 OpenAI 单方面披露，未附方法论细节，也没有独立验证或同行评审。",
+  "score": 7,
+  "tags": [
+    "AI for chip design",
+    "EDA",
+    "OpenAI",
+    "AMD",
+    "hardware"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
+  "originalSite": "openai.com",
+  "context": "EDA（电子设计自动化）工具是芯片从设计、验证到签核的核心软件链。Synopsys 于 2026 年 9 月 30 日宣布与 OpenAI 签署多年协议，共同开发 GPT-Synopsys；该专用模型结合 OpenAI 的前沿模型与 Synopsys 的 EDA 工具及领域知识，目标是理解芯片设计与验证，并直接操作 Synopsys 工具。",
+  "discussion": "对正在评估 AI 辅助设计流程的芯片团队来说，这些收益是相对“已高度优化基线”取得的，并且 OpenAI 没有公开基线设置与评估方法，因此外界暂时无法复现或判断这些收益能否迁移到自家工艺与设计上；相对可核查的进展是 AMD 部分改动已进入流片设计，以及 Synopsys 合作尚处于模型训练阶段、未有交付时间表。",
+  "references": [
+    {
+      "title": "OpenAI and Synopsys Announce GPT-Synopsys: Frontier ...",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design"
+    },
+    {
+      "title": "Synopsys, Inc. | OpenAI and Synopsys Announce GPT-Synopsys ...",
+      "url": "https://investor.synopsys.com/news/news-details/2026/OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design/default.aspx"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

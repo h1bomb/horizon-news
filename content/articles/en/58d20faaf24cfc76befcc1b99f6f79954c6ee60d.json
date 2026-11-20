@@ -1,0 +1,49 @@
+{
+  "id": "58d20faaf24cfc76befcc1b99f6f79954c6ee60d",
+  "canonicalId": "21575d48062cf7968a0874dbba33dede06d118fb",
+  "slug": "openjdk-pull-request-tied-to-reported-java-rce-stirs-disclosure-debate",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T11:47:00Z",
+  "lang": "en",
+  "title": "OpenJDK pull request tied to reported Java RCE stirs disclosure debate",
+  "summary": "A Hacker News discussion on 19 November 2026 examined OpenJDK pull request \\#32781, which is tied to a reported Java remote-code-execution vulnerability that the submission calls java4shell and says was reported in September 2026. The available material did not include a CVE identifier, severity rating, or affected-version list, so the technical scope remains unconfirmed. Commenters pointed to an Adoptium support issue in which the pull request&\\#x27;s author said on 1 October that Oracle had asked them not to proceed until approval, and on 28 October that Oracle had taken the work over. The thread also debated whether an LLM-assisted research effort independently discovered the flaw or had read earlier public reports about it.",
+  "score": 7,
+  "tags": [
+    "Java security",
+    "OpenJDK",
+    "RCE vulnerability",
+    "vulnerability disclosure",
+    "LLM-assisted security research"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "notmine1337",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50558906"
+    }
+  ],
+  "originalUrl": "https://github.com/openjdk/jdk/pull/32781",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Java4Shell: A Closer Look and Patch Analysis (CVE-2026-114938)",
+      "url": "https://www.akamai.com/blog/security-research/java4shell-closer-look-patch-analysis-cve-2026-114938"
+    },
+    {
+      "title": "Java4Shell (CVE-2026-114938): Risks and Mitigations",
+      "url": "https://www.paloaltonetworks.com/blog/cloud-security/java4shell-cve-2026-114938-risks-mitigations/"
+    },
+    {
+      "title": "Java 4 Shell RCE : Affected Versions &amp; Fix ( CVE -2026-114938)",
+      "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938"
+    },
+    {
+      "title": "Addressing Java 4 Shell CVE -2026-114938: upgrade guidance and...",
+      "url": "https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/addressing-java4shell-cve-2026-114938-upgrade-guidance-and-azure-waf-mitigations/4574305"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

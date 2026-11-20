@@ -1,0 +1,44 @@
+{
+  "id": "dc647326d3198f55a2eccdc4131263747b15a324",
+  "canonicalId": "d4f4cd770ab01bf6e8a7461da90ce492db83e9f4",
+  "slug": "php-混合大小写-https-静默关闭-tls修复已发布",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T03:04:00Z",
+  "lang": "zh",
+  "title": "PHP 混合大小写 HTTPS 静默关闭 TLS，修复已发布",
+  "summary": "PHP 的 HTTP/FTP 流包装器被曝在识别混合大小写协议名时，只有第五个字符为小写 s 才启用 TLS，因此 HTTPS://、httpS:// 和 FTPS:// 会被当作明文 HTTP/FTP 发出。该漏洞编号为 CVE-2026-128064（GHSA-f6gg-rchx-xw8j），CVSS 4.0 评分为 8.2，可能导致令牌、Basic 认证、Cookie、POST 请求体和 FTP 登录信息在直接请求或第三方重定向场景下暴露。修复已在 PHP 8.2.36、8.3.37、8.4.28、8.5.13 和 8.6.0 发布。8.1 及更早版本已 EOL，不会获得修复，使用者需自行将 URL 协议名统一转换为小写。",
+  "score": 8,
+  "tags": [
+    "PHP",
+    "TLS",
+    "security vulnerability",
+    "CVE",
+    "web security"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/ljachowicz/status/2123477025268924514",
+  "originalSite": "x.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-128064: PHP Group PHP: Mixed-case HTTPS and FTPS ...",
+      "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-128064/"
+    },
+    {
+      "title": "CVE-2026-128064 - Mixed-case HTTPS and FTPS URLs can expose ...",
+      "url": "https://cvefeed.io/vuln/detail/CVE-2026-128064"
+    },
+    {
+      "title": "CVE - 2026 - 128064 : Mixed-case HTTPS and FTPS URLs can expose...",
+      "url": "https://everycve.com/CVE-2026-128064"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

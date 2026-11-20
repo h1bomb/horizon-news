@@ -1,6 +1,312 @@
 {
   "articles": [
     {
+      "id": "9936214f3a4085358e3d23b01b61ee581c5a7790",
+      "canonicalId": "4ba1303d2ee21d77bd190f7afe21aa7ea2259664",
+      "slug": "postgresql-19-发布新增-wait-for-lsn-实现从库读己之写",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "PostgreSQL 19 发布，新增 WAIT FOR LSN 实现从库读己之写",
+      "score": 9,
+      "tags": [
+        "PostgreSQL",
+        "databases",
+        "open source",
+        "release",
+        "WAIT FOR LSN"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "37ce5e8ce4ffba5b4be98d526271890c10631bd9",
+      "canonicalId": "f0d0f469e0bfee91cfaeea08eb03e00e33b59b48",
+      "slug": "anthropic-登陆纳斯达克首日收盘较开盘价跌约-13",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "Anthropic 登陆纳斯达克，首日收盘较开盘价跌约 13%",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "Nasdaq listing",
+        "AI industry",
+        "public markets",
+        "technology valuations"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "1d1e03300ea9e3d1b2f7ca3952bf3c690f1b1ddc",
+      "canonicalId": "3580245413f2f58af5cb88ad65c15dd738915714",
+      "slug": "英国政府被迫承认曾向苹果发出秘密加密令",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "英国政府被迫承认曾向苹果发出秘密加密令",
+      "score": 8,
+      "tags": [
+        "encryption",
+        "privacy",
+        "Apple",
+        "UK government",
+        "surveillance"
+      ],
+      "originalSite": "macanorak.com"
+    },
+    {
+      "id": "dc647326d3198f55a2eccdc4131263747b15a324",
+      "canonicalId": "d4f4cd770ab01bf6e8a7461da90ce492db83e9f4",
+      "slug": "php-混合大小写-https-静默关闭-tls修复已发布",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "PHP 混合大小写 HTTPS 静默关闭 TLS，修复已发布",
+      "score": 8,
+      "tags": [
+        "PHP",
+        "TLS",
+        "security vulnerability",
+        "CVE",
+        "web security"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "65e631b331aea043ab99b625e21925ad46fd40fd",
+      "canonicalId": "122be7cf5dd943624859eb922e7e62a45c813402",
+      "slug": "anthropic-称-claude-参与解决两个黑洞物理开放问题",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "Anthropic 称 Claude 参与解决两个黑洞物理开放问题",
+      "score": 7,
+      "tags": [
+        "AI for science",
+        "black hole physics",
+        "large language models",
+        "Anthropic",
+        "research validation"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "b4fdc521408a19b38f3d2f29c9b9f073f9eb783a",
+      "canonicalId": "21575d48062cf7968a0874dbba33dede06d118fb",
+      "slug": "openjdk-pr-32781-关联-java-rce-报告披露过程引争议",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "OpenJDK PR 32781 关联 Java RCE 报告，披露过程引争议",
+      "score": 7,
+      "tags": [
+        "Java security",
+        "OpenJDK",
+        "RCE vulnerability",
+        "vulnerability disclosure",
+        "LLM-assisted security research"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "c7000088166917d72367ed36cbb31589120bf045",
+      "canonicalId": "c7d3ecb006439a135768f56529a5adc2ad0eb57f",
+      "slug": "openai-称其模型参与-jalapeño-芯片设计amd-gpu-ip-的-ppa-最高提升-14",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "OpenAI 称其模型参与 Jalapeño 芯片设计，AMD GPU IP 的 PPA 最高提升 14%",
+      "score": 7,
+      "tags": [
+        "AI for chip design",
+        "EDA",
+        "OpenAI",
+        "AMD",
+        "hardware"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "187f0fd3c4bac6a1e2427119d7fff5e54476c1d2",
+      "canonicalId": "906e14507c7f8c8cf2f134915e06c3bf432c19ae",
+      "slug": "gemini-在-mac-上新增电脑操作可后台运行并暂停",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "Gemini 在 Mac 上新增电脑操作，可后台运行并暂停",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "Google Gemini",
+        "macOS",
+        "desktop automation",
+        "human-in-the-loop"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "4c2aeef6b32b7014b4f491018fae610016040a51",
+      "canonicalId": "e35788a009b53e8052ba3122f3b0c882ddb2b88e",
+      "slug": "anthropic-纳斯达克上市首日开盘涨-34市值约-15-万亿美元",
+      "date": "2026-11-20",
+      "lang": "zh",
+      "title": "Anthropic 纳斯达克上市首日开盘涨 34%，市值约 1.5 万亿美元",
+      "score": 8,
+      "tags": [
+        "IPO",
+        "Anthropic",
+        "AI",
+        "Nasdaq",
+        "private placement"
+      ],
+      "originalSite": "cls.cn"
+    },
+    {
+      "id": "b02357ac482e8f48f79acb091294a9a7377403db",
+      "canonicalId": "4ba1303d2ee21d77bd190f7afe21aa7ea2259664",
+      "slug": "postgresql-19-released-with-wait-for-lsn-for-standby-reads",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "PostgreSQL 19 released with WAIT FOR LSN for standby reads",
+      "score": 9,
+      "tags": [
+        "PostgreSQL",
+        "databases",
+        "open source",
+        "release",
+        "WAIT FOR LSN"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "6a7d94976459b0421081913d747ba9f3de45f106",
+      "canonicalId": "f0d0f469e0bfee91cfaeea08eb03e00e33b59b48",
+      "slug": "anthropic-debuts-on-nasdaq-in-a-test-of-ai-valuations",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "Anthropic debuts on Nasdaq in a test of AI valuations",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "Nasdaq listing",
+        "AI industry",
+        "public markets",
+        "technology valuations"
+      ],
+      "originalSite": "reuters.com"
+    },
+    {
+      "id": "cd180e4901a8f1918d2b8695c7d8da6407f1fc44",
+      "canonicalId": "3580245413f2f58af5cb88ad65c15dd738915714",
+      "slug": "uk-government-forced-to-admit-secret-apple-encryption-order",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "UK government forced to admit secret Apple encryption order",
+      "score": 8,
+      "tags": [
+        "encryption",
+        "privacy",
+        "Apple",
+        "UK government",
+        "surveillance"
+      ],
+      "originalSite": "macanorak.com"
+    },
+    {
+      "id": "727a86ef18d70817a0738e6c812f96f7910f2088",
+      "canonicalId": "d4f4cd770ab01bf6e8a7461da90ce492db83e9f4",
+      "slug": "reported-php-flaw-disables-tls-for-mixed-case-https-schemes",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "Reported PHP Flaw Disables TLS for Mixed-Case HTTPS Schemes",
+      "score": 8,
+      "tags": [
+        "PHP",
+        "TLS",
+        "security vulnerability",
+        "CVE",
+        "web security"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "a0eecf6bdfe2f7ce28062648a793ea783ec40e68",
+      "canonicalId": "122be7cf5dd943624859eb922e7e62a45c813402",
+      "slug": "anthropic-reports-claude-contributions-to-two-black-hole-physics-problems",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "Anthropic reports Claude contributions to two black-hole physics problems",
+      "score": 7,
+      "tags": [
+        "AI for science",
+        "black hole physics",
+        "large language models",
+        "Anthropic",
+        "research validation"
+      ],
+      "originalSite": "anthropic.com"
+    },
+    {
+      "id": "58d20faaf24cfc76befcc1b99f6f79954c6ee60d",
+      "canonicalId": "21575d48062cf7968a0874dbba33dede06d118fb",
+      "slug": "openjdk-pull-request-tied-to-reported-java-rce-stirs-disclosure-debate",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "OpenJDK pull request tied to reported Java RCE stirs disclosure debate",
+      "score": 7,
+      "tags": [
+        "Java security",
+        "OpenJDK",
+        "RCE vulnerability",
+        "vulnerability disclosure",
+        "LLM-assisted security research"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "6a90cb3786f1a3a90fc7be604828abea392b07f8",
+      "canonicalId": "c7d3ecb006439a135768f56529a5adc2ad0eb57f",
+      "slug": "openai-reports-ai-chip-design-gains-up-to-14-amd-gpu-ppa",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "OpenAI reports AI chip-design gains, up to 14% AMD GPU PPA",
+      "score": 7,
+      "tags": [
+        "AI for chip design",
+        "EDA",
+        "OpenAI",
+        "AMD",
+        "hardware"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "f83aea8804317747c485fc09799c5c773811c2d9",
+      "canonicalId": "906e14507c7f8c8cf2f134915e06c3bf432c19ae",
+      "slug": "gemini-adds-mac-desktop-control-for-us-paid-subscribers",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "Gemini adds Mac desktop control for US paid subscribers",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "Google Gemini",
+        "macOS",
+        "desktop automation",
+        "human-in-the-loop"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "078a3c7ab717e1785a39b052a03a86228239643d",
+      "canonicalId": "e35788a009b53e8052ba3122f3b0c882ddb2b88e",
+      "slug": "anthropic-reportedly-opens-34-above-ipo-price-in-nasdaq-debut",
+      "date": "2026-11-20",
+      "lang": "en",
+      "title": "Anthropic reportedly opens 34% above IPO price in Nasdaq debut",
+      "score": 8,
+      "tags": [
+        "IPO",
+        "Anthropic",
+        "AI",
+        "Nasdaq",
+        "private placement"
+      ],
+      "originalSite": "cls.cn"
+    },
+    {
       "id": "f5236af069f4ac379e28dd05d53d0d1b95e328ab",
       "canonicalId": "b2c084a41275137173e812609f66e708e4fc8ea8",
       "slug": "谷歌发布-gemini-4-neon主打软件工程与科研工作流",
@@ -5461,380 +5767,6 @@
         "memory chip costs"
       ],
       "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "d56e31ac7236dbef2e07497538180469ba26350d",
-      "canonicalId": "aed4d9c60c01ceb3818ed5a1d0c9c94a9cab6edf",
-      "slug": "go-公布新-json-apiencodingjsonv2-设计",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "Go 公布新 JSON API：encoding/json/v2 设计",
-      "score": 8,
-      "tags": [
-        "Go",
-        "JSON",
-        "API design",
-        "standard library",
-        "software engineering"
-      ],
-      "originalSite": "go.dev"
-    },
-    {
-      "id": "2d38a6156051b3f3e7d049d98a780e9390256213",
-      "canonicalId": "a4f4c423c54260333db70d9834764f1b9740c579",
-      "slug": "openai-称自动流水线发现-948-个-linux-提权漏洞",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "OpenAI 称自动流水线发现 948 个 Linux 提权漏洞",
-      "score": 8,
-      "tags": [
-        "linux-kernel",
-        "privilege-escalation",
-        "vulnerability-research",
-        "ai-security",
-        "open-source-security"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "42f170094ab7e44e6ccc5c2a30a6de9f7c2d5cd4",
-      "canonicalId": "07dbf5f156f1068a4a8397ac6f11762c9c9fc014",
-      "slug": "腾讯发布开放权重模型-hy4开源科研模型并适配三大游戏引擎",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "腾讯发布开放权重模型 Hy4，开源科研模型并适配三大游戏引擎",
-      "score": 8,
-      "tags": [
-        "open-weight models",
-        "foundation models",
-        "AI research",
-        "game development",
-        "open source"
-      ],
-      "originalSite": "hy.tencent.ai"
-    },
-    {
-      "id": "08a56ecda7468f3c86c86c97367a7b311f0685b1",
-      "canonicalId": "d94c9f77ddafc83a4b47ea337b95eddf94c7dda0",
-      "slug": "anthropic-开源-flashprove用加密证明核验-llm-推理",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "Anthropic 开源 FlashProve：用加密证明核验 LLM 推理",
-      "score": 8,
-      "tags": [
-        "provable inference",
-        "LLM verification",
-        "cryptography",
-        "zero-knowledge proofs",
-        "AI trust and safety"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "7362128c27dc975ebc116140b3fb43700e9e5644",
-      "canonicalId": "7838c87736f9082fb144453a5a532f0d0cfd974f",
-      "slug": "月之暗面开源-kimi-k31-pro-权重并开放-api",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "月之暗面开源 Kimi K3.1 Pro 权重并开放 API",
-      "score": 8,
-      "tags": [
-        "open-weight models",
-        "LLM release",
-        "Moonshot AI",
-        "model benchmarks",
-        "LLM inference"
-      ],
-      "originalSite": "huggingface.co"
-    },
-    {
-      "id": "5dbac6016303f90dfb7a90874b2f5a98ebc1f8c0",
-      "canonicalId": "2d25bd998a07fb92ec7a3c35b48c4be6cc562bc5",
-      "slug": "glm-53-flash-在-trainium2-上的-nki-巨型内核",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "GLM-5.3-Flash 在 Trainium2 上的 NKI 巨型内核",
-      "score": 8,
-      "tags": [
-        "AWS Trainium",
-        "LLM inference",
-        "kernel optimization",
-        "Mixture-of-Experts",
-        "open source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "ab0a4b222b2c81fddea845f80bcf1b1a57a41fe8",
-      "canonicalId": "68c44263a0af55942d00f413b692ebe06ba48987",
-      "slug": "ieee-spectrumai-漏洞挖掘正迫使偿还四十年技术债",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "IEEE Spectrum：AI 漏洞挖掘正迫使偿还四十年技术债",
-      "score": 7,
-      "tags": [
-        "AI security",
-        "vulnerability discovery",
-        "technical debt",
-        "open source security",
-        "cybersecurity"
-      ],
-      "originalSite": "spectrum.ieee.org"
-    },
-    {
-      "id": "1a5fa489321c99067416f286e6563539d179b421",
-      "canonicalId": "a26e9e7983ca307eb768dddd54bc0bae694d2ebc",
-      "slug": "实测-huginn-循环-transformer权重共享未必减少-hbm-读取",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "实测 Huginn 循环 Transformer：权重共享未必减少 HBM 读取",
-      "score": 7,
-      "tags": [
-        "looped transformers",
-        "HBM bandwidth",
-        "GPU profiling",
-        "weight reuse",
-        "Nsight Compute"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "fb985c4fbead49b42dda231eeafa202509b89d7f",
-      "canonicalId": "197b9342d37132c30721b6e793717199aebcd299",
-      "slug": "华为据报要求客户自购升腾-960dt-的-hbm",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "华为据报要求客户自购升腾 960DT 的 HBM",
-      "score": 7,
-      "tags": [
-        "Huawei",
-        "Ascend 960DT",
-        "HBM",
-        "AI chips",
-        "supply chain"
-      ],
-      "originalSite": "thenextweb.com"
-    },
-    {
-      "id": "5d4ad5ab43789f57f8283374d23a81d7cb8a049d",
-      "canonicalId": "ae3d97c761805cd9cca57d81644fcac8f6221fd7",
-      "slug": "苹果将在-273-系统检查-icloud-公共链接内容",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "苹果将在 27.3 系统检查 iCloud 公共链接内容",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "iCloud",
-        "content moderation",
-        "privacy",
-        "platform policy"
-      ],
-      "originalSite": "9to5mac.com"
-    },
-    {
-      "id": "fda76cb1aa9f9907b11f993f955bf49f69e683eb",
-      "canonicalId": "b30fbad71641ea5fa95c057f1de9284204403b72",
-      "slug": "甲骨文据报取消与腾讯约-70-亿美元-ai-芯片租赁协议",
-      "date": "2026-11-05",
-      "lang": "zh",
-      "title": "甲骨文据报取消与腾讯约 70 亿美元 AI 芯片租赁协议",
-      "score": 7,
-      "tags": [
-        "US-China tech policy",
-        "AI chips",
-        "Oracle",
-        "Tencent",
-        "data centers"
-      ],
-      "originalSite": "tradingview.com"
-    },
-    {
-      "id": "b5317da8b9cf800317bd79699bd875bc1bbdf05e",
-      "canonicalId": "aed4d9c60c01ceb3818ed5a1d0c9c94a9cab6edf",
-      "slug": "go-announces-encodingjsonv2-a-new-standard-library-json-api",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Go announces encoding/json/v2, a new standard-library JSON API",
-      "score": 8,
-      "tags": [
-        "Go",
-        "JSON",
-        "API design",
-        "standard library",
-        "software engineering"
-      ],
-      "originalSite": "go.dev"
-    },
-    {
-      "id": "02168f63758803b07756e55f547850db0c270d2a",
-      "canonicalId": "a4f4c423c54260333db70d9834764f1b9740c579",
-      "slug": "openai-says-pipeline-found-948-linux-root-exploits-in-one-scan",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "OpenAI says pipeline found 948 Linux root exploits in one scan",
-      "score": 8,
-      "tags": [
-        "linux-kernel",
-        "privilege-escalation",
-        "vulnerability-research",
-        "ai-security",
-        "open-source-security"
-      ],
-      "originalSite": "openai.com"
-    },
-    {
-      "id": "6d3cb9d85b5964d561798979dec48748c36f1ca0",
-      "canonicalId": "07dbf5f156f1068a4a8397ac6f11762c9c9fc014",
-      "slug": "tencent-hy4-open-weight-model-adds-hycell-hypde-and-game-engine-support",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Tencent Hy4 Open-Weight Model Adds HyCell, HyPDE, and Game Engine Support",
-      "score": 8,
-      "tags": [
-        "open-weight models",
-        "foundation models",
-        "AI research",
-        "game development",
-        "open source"
-      ],
-      "originalSite": "hy.tencent.ai"
-    },
-    {
-      "id": "50bd244ded0c7de2d95fed2a0b4b111d3745ddfa",
-      "canonicalId": "d94c9f77ddafc83a4b47ea337b95eddf94c7dda0",
-      "slug": "anthropic-publishes-flashprove-specification-and-code-for-provable-llm-inference",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Anthropic publishes FlashProve specification and code for provable LLM inference",
-      "score": 8,
-      "tags": [
-        "provable inference",
-        "LLM verification",
-        "cryptography",
-        "zero-knowledge proofs",
-        "AI trust and safety"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "2434f6084d1399f16e134c42252fc79d8fb927d6",
-      "canonicalId": "7838c87736f9082fb144453a5a532f0d0cfd974f",
-      "slug": "moonshot-ai-publishes-kimi-k31-pro-open-weights",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Moonshot AI publishes Kimi K3.1 Pro open weights",
-      "score": 8,
-      "tags": [
-        "open-weight models",
-        "LLM release",
-        "Moonshot AI",
-        "model benchmarks",
-        "LLM inference"
-      ],
-      "originalSite": "huggingface.co"
-    },
-    {
-      "id": "7fde1655a5db7e552a839432c08048cef36592b4",
-      "canonicalId": "2d25bd998a07fb92ec7a3c35b48c4be6cc562bc5",
-      "slug": "nki-megakernels-cut-glm-53-flash-decode-on-trainium2-to-242-ms",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "NKI megakernels cut GLM-5.3-Flash decode on Trainium2 to 24.2 ms",
-      "score": 8,
-      "tags": [
-        "AWS Trainium",
-        "LLM inference",
-        "kernel optimization",
-        "Mixture-of-Experts",
-        "open source"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "799b8d6fb3fb70cd93be07c3cea408debbec6ac4",
-      "canonicalId": "68c44263a0af55942d00f413b692ebe06ba48987",
-      "slug": "ieee-spectrum-argues-ai-vulnerability-discovery-forces-technical-debt-repayment",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "IEEE Spectrum argues AI vulnerability discovery forces technical debt repayment",
-      "score": 7,
-      "tags": [
-        "AI security",
-        "vulnerability discovery",
-        "technical debt",
-        "open source security",
-        "cybersecurity"
-      ],
-      "originalSite": "spectrum.ieee.org"
-    },
-    {
-      "id": "ff5699b145f750b4ac69d6f796587c799c3a11b0",
-      "canonicalId": "a26e9e7983ca307eb768dddd54bc0bae694d2ebc",
-      "slug": "huginn-looped-transformer-profiling-on-b200-finds-weight-sharing-alone-does-not-cut-hbm-reads",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Huginn looped-transformer profiling on B200 finds weight sharing alone does not cut HBM reads",
-      "score": 7,
-      "tags": [
-        "looped transformers",
-        "HBM bandwidth",
-        "GPU profiling",
-        "weight reuse",
-        "Nsight Compute"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "7df7fe5e455fd424ec311a683f45bfecf24af529",
-      "canonicalId": "197b9342d37132c30721b6e793717199aebcd299",
-      "slug": "huawei-reportedly-asks-ascend-960dt-buyers-to-source-samsung-sk-hynix-hbm",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Huawei reportedly asks Ascend 960DT buyers to source Samsung, SK Hynix HBM",
-      "score": 7,
-      "tags": [
-        "Huawei",
-        "Ascend 960DT",
-        "HBM",
-        "AI chips",
-        "supply chain"
-      ],
-      "originalSite": "thenextweb.com"
-    },
-    {
-      "id": "d93528b62bca290153c203c72b86f7a1fe825b03",
-      "canonicalId": "ae3d97c761805cd9cca57d81644fcac8f6221fd7",
-      "slug": "apple-to-screen-icloud-public-links-for-harmful-content-in-ios-273",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Apple to screen iCloud public links for harmful content in iOS 27.3",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "iCloud",
-        "content moderation",
-        "privacy",
-        "platform policy"
-      ],
-      "originalSite": "9to5mac.com"
-    },
-    {
-      "id": "91b12145b5c09e8152bd76db633e06654cb9d190",
-      "canonicalId": "b30fbad71641ea5fa95c057f1de9284204403b72",
-      "slug": "oracle-reportedly-cancels-7-billion-tencent-ai-chip-lease",
-      "date": "2026-11-05",
-      "lang": "en",
-      "title": "Oracle Reportedly Cancels $7 Billion Tencent AI Chip Lease",
-      "score": 7,
-      "tags": [
-        "US-China tech policy",
-        "AI chips",
-        "Oracle",
-        "Tencent",
-        "data centers"
-      ],
-      "originalSite": "tradingview.com"
     }
   ]
 }

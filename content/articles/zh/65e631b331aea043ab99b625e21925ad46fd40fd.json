@@ -1,0 +1,41 @@
+{
+  "id": "65e631b331aea043ab99b625e21925ad46fd40fd",
+  "canonicalId": "122be7cf5dd943624859eb922e7e62a45c813402",
+  "slug": "anthropic-称-claude-参与解决两个黑洞物理开放问题",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T17:30:00Z",
+  "lang": "zh",
+  "title": "Anthropic 称 Claude 参与解决两个黑洞物理开放问题",
+  "summary": "Anthropic 的研究公告称，Claude 参与解决了黑洞物理中的两个开放问题；这是一项面向理论物理研究的厂商声明，所提供的材料没有显示独立验证。公告中的结果被描述为不直接描述我们所在的宇宙，也没有实际应用，只用于量子力学与广义相对论如何统一的理论工作。现有材料也没有说明提示词、人工引导程度或可复现实验细节，因此 Claude 的实际贡献仍无法独立判断。",
+  "score": 7,
+  "tags": [
+    "AI for science",
+    "black hole physics",
+    "large language models",
+    "Anthropic",
+    "research validation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "cybermango",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50563148"
+    }
+  ],
+  "originalUrl": "https://www.anthropic.com/research/claude-black-hole-physics",
+  "originalSite": "anthropic.com",
+  "context": "这项工作的起点是 Anthropic 研究员 Hongbin Chen 在 8 月的一次业余测试：他让 Claude 列出一批理论物理中值得研究的开放问题，范围集中在黑洞与“自举”（bootstrap）方法上。自举方法不依赖具体的微观模型，而是用对称性与自洽性条件去限定理论允许的参数范围，因此这类计算往往步骤繁多、容易出错，也需要逐项检验。",
+  "discussion": "对理论物理研究者而言，当前可用的是一组需要独立复核的候选推导，而不是可直接套用的结论：Anthropic 称 Claude Fable 5.2 发现了物理学家漏掉的数值规律，并为该技巧的最简版本算出精确上限、证明其无法再降低。评论中引用的公告同时承认，两项结果都不直接描述我们的宇宙，也没有实际应用；在提示词与验证细节公开前，这些结果应被视为待检验的理论工作。\n\n讨论的焦点之一是“Claude 解决了”这一拟人化表述：有评论批评这种说法让人无法判断人类提示与引导起了什么作用，并指出公告、摘要和两篇论文都没有出现“提示词”一词；也有评论认为，第二项结果，即给定中心电荷下的黑洞质量上限，才是更有意义的理论贡献。另有读者指出，当时的 80 多条评论很少真正讨论论文或原始文章，并提到这项成果被列为 Fable 5.2 发布公告中的一个要点。",
+  "references": [
+    {
+      "title": "Claude Fable 5.2 solves two open problems in the physics of black ...",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+    },
+    {
+      "title": "Claude Fable 5.2 solves two open problems in the physics of black ...",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

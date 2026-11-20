@@ -1,0 +1,45 @@
+{
+  "id": "1d1e03300ea9e3d1b2f7ca3952bf3c690f1b1ddc",
+  "canonicalId": "3580245413f2f58af5cb88ad65c15dd738915714",
+  "slug": "英国政府被迫承认曾向苹果发出秘密加密令",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-19T16:21:00Z",
+  "lang": "zh",
+  "title": "英国政府被迫承认曾向苹果发出秘密加密令",
+  "summary": "英国政府被迫承认，曾向苹果发出过一项秘密加密令，但该命令的具体内容目前仍未公开。现有公开信息只确认了这道命令的存在，没有披露它要求苹果采取什么技术措施、覆盖哪些数据类型或适用于哪些用户。由于内容保密，外界尚无法独立判断该命令对苹果加密能力和用户数据保护的实际影响。",
+  "score": 8,
+  "tags": [
+    "encryption",
+    "privacy",
+    "Apple",
+    "UK government",
+    "surveillance"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "Terretta",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50562113"
+    }
+  ],
+  "originalUrl": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+  "originalSite": "macanorak.com",
+  "context": "此次披露源于英国依据《2016 年调查权力法》向苹果发出的技术能力通知（TCN），该通知此前受保密令约束，苹果甚至被禁止披露其存在。据 TechCrunch 报道，这份秘密命令后来被缩小到允许获取存储在苹果加密云中的英国国民数据，苹果也对第二份命令提出了挑战。调查权力法庭随后裁定苹果可以公开该命令；而在 TCN 于 2025 年 2 月首次曝光后，英国政府一直拒绝置评，直到周四才打破沉默。",
+  "discussion": "对英国的苹果用户和开发者而言，命令内容不公开意味着他们无法判断哪些服务或数据可能受到影响，也无法依据公开信息独立验证苹果的相关安全承诺。\n\n有评论者认为，苹果已把安全承诺的措辞从“任何人都无法访问你的数据”改为“苹果无法访问你的数据”，并称设备上的密钥可能只是用于解开另一把数据密钥的 KEK，因此这种变化具有误导性；另一名评论者援引调查权力法庭的判决指出，媒体是通过机密安全简报得知该命令的，而不是通过泄露，命令内容目前仍属保密。还有评论批评英国在 mass surveillance（大规模监控）问题上长期不重视隐私。",
+  "references": [
+    {
+      "title": "UK government forced to disclose secret Apple backdoor order",
+      "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/"
+    },
+    {
+      "title": "UK court rules Apple can share the top secret order everyone already...",
+      "url": "https://9to5mac.com/2026/11/19/uk-court-rules-apple-can-share-the-top-secret-order-everyone-already-knew/"
+    },
+    {
+      "title": "UK loses bid to keep Apple ‘backdoor’ order secret",
+      "url": "https://www.ft.com/content/46a5cf3c-a827-477f-b72f-e7415565e729?syn-25a6b1a6=1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
