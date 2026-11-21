@@ -1,0 +1,53 @@
+{
+  "id": "92f3b4af09438d735401df0bd96a9944e4436806",
+  "canonicalId": "c4ca83ba5741a42c01bfa6a41a4d6418a4be5d49",
+  "slug": "signal-发文讨论限制移动端-ai-代理抓取数据",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T09:42:00Z",
+  "lang": "zh",
+  "title": "Signal 发文讨论限制移动端 AI 代理抓取数据",
+  "summary": "Signal 在博客文章中讨论针对 AI 代理与移动操作系统平台数据抓取的隐私防护，涉及跨应用数据泄漏和截屏保护等场景。现有材料没有显示这是一项已交付的功能或具体版本更新，因此目前更像是 Signal 对平台访问边界与透明度的防护主张，而非可验证的已上线能力。",
+  "score": 7,
+  "tags": [
+    "privacy",
+    "AI agents",
+    "mobile security",
+    "Signal",
+    "platform policy"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "dotcoma",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50572348"
+    }
+  ],
+  "originalUrl": "https://signal.org/blog/protecting-your-privacy/",
+  "originalSite": "signal.org",
+  "context": "Signal 一直以隐私保护为核心使命，并在此前通过截图拦截来应对 Windows Recall 这类会持续记录屏幕内容的功能。此次 Signal 在博客中表示，将限制移动操作系统内置的 AI 代理获取和存储 Signal 数据；相关报道指出，其做法是在 iOS 27 和 Android 上阻止应用内截图，从而避免 Siri、Gemini 等助手读取屏幕内容。",
+  "discussion": "Signal 在 iOS 27 上阻止应用内截图，并在 Android 上拦截 AI 助手发起的屏幕数据抓取，从而切断这些系统上的 AI 代理读取 Signal 聊天内容的通道；代价是用户无法再直接在 Signal 内截图分享或留存对话。\n\n评论者总体支持限制 AI 代理访问，但在实现路径上有分歧：有人认为仅靠应用层阻止截屏无法长期奏效，应让用户重新掌控操作系统并考虑 GrapheneOS 等替代方案；也有人要求 Signal 公开其取证调查结果，供其他开发者复用。另有用户报告称，Signal 在 VPN 场景下因验证码和反垃圾机制而难以添加联系人，且 Windows 端无法截屏，认为隐私保护不应牺牲基本可用性。",
+  "references": [
+    {
+      "title": "Signal &gt;&gt; Blog &gt;&gt; Signal is Serious About Protecting Your Privacy",
+      "url": "https://signal.org/blog/protecting-your-privacy/"
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your... | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    },
+    {
+      "title": "Signal Adds Screenshot - Blocker to Thwart ‘Windows... - SecurityWeek",
+      "url": "https://www.securityweek.com/signal-adds-screenshot-blocker-to-thwart-windows-recall/"
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your... | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    },
+    {
+      "title": "Signal &gt;&gt; Blog &gt;&gt; Signal is Serious About Protecting Your Privacy",
+      "url": "https://signal.org/blog/protecting-your-privacy/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

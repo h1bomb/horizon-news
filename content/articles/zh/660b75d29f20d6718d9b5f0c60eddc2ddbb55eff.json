@@ -1,0 +1,49 @@
+{
+  "id": "660b75d29f20d6718d9b5f0c60eddc2ddbb55eff",
+  "canonicalId": "bbe099f2944c559d2da8bc280acbad043261b64e",
+  "slug": "alpöge-声称用-claude-证明广义黎曼猜想",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T14:16:00Z",
+  "lang": "zh",
+  "title": "Alpöge 声称用 Claude 证明广义黎曼猜想",
+  "summary": "Anthropic 的数学家 Levent Alpöge 于 11 月 20 日声称，他借助 Claude 证明了黎曼猜想，并称相关证明确认了更广泛的广义黎曼猜想；证明以 Lean 编码发布在个人站点，文稿据称超过 25 万页。Hacker News 评论者称该 Lean 归档约 1.3GB、约 1500 万行，并链接了一份据称完全由人类完成的证明。上述内容目前只是作者与社区的说法，尚未经过独立验证或同行评议，应视为待核实的数学声明。",
+  "score": 7,
+  "tags": [
+    "Riemann Hypothesis",
+    "formal verification",
+    "Lean",
+    "mathematics",
+    "AI theorem proving"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "iamronaldo",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50574968"
+    }
+  ],
+  "originalUrl": "https://alpo.ge/remark.pdf",
+  "originalSite": "alpo.ge",
+  "context": "黎曼猜想由黎曼于 1859 年提出，讨论素数在数轴上的分布规律；广义黎曼猜想则是该猜想的推广形式。Lean 是可用于机器检查数学证明的证明助手，Alpöge 的声明附有 PDF 说明和 Lean 代码，但目前仍是发布在个人网站上的未验证主张，而非已通过同行评审或独立确认的结果。",
+  "discussion": "评论者一方面核对了 Lean 归档的体量（约 1.3GB、1500 万行），并指出另有一份据称完全由人类完成的证明；另一方面有人引用陶哲轩此前对 AI 攻关黎曼猜想的怀疑，也有评论称多路形式验证已足以消除疑问。这些都属于社区意见，不能替代独立验证。",
+  "references": [
+    {
+      "title": "Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean ...",
+      "url": "https://www.unite.ai/levent-alpoges-unverified-riemann-claim-puts-claudes-lean-code-in-focus/"
+    },
+    {
+      "title": "Riemann Hypothesis Proof Claim: Claimed vs Verified ...",
+      "url": "https://explainx.ai/blog/levent-alpoge-anthropic-riemann-hypothesis-claude-lean-proof-claimed-vs-verified-2026"
+    },
+    {
+      "title": "Generalized Riemann hypothesis - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis"
+    },
+    {
+      "title": "What the Riemann hypothesis proof really... | Scientific American",
+      "url": "https://www.scientificamerican.com/article/what-the-riemann-hypothesis-proof-really-means-about-ai-and-the-future/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

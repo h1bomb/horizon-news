@@ -1,0 +1,40 @@
+{
+  "id": "10fb4fdbe6fe0a78fb0ed20da393bbaf7cf3f2e7",
+  "canonicalId": "f80afcc4785757413a9eeca571e8e134ec15b66a",
+  "slug": "kvm-cve-2026-99312-lets-vms-read-amd-host-memory",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T14:23:00Z",
+  "lang": "en",
+  "title": "KVM CVE-2026-99312 lets VMs read AMD host memory",
+  "summary": "A Linux KVM vulnerability, CVE-2026-99312, allows a guest to read host memory on AMD systems when nested virtualization is enabled, according to The Hacker News. Researchers reported reading about 127 GB of host memory from inside a virtual machine on DigitalOcean. An upstream fix shipped on November 18 in stable kernel 7.3.5 and related releases, but Debian, Ubuntu, and other distribution kernels remain unpatched, the report says. Until patches arrive, affected operators can disable nested virtualization.",
+  "score": 8,
+  "tags": [
+    "KVM",
+    "Linux内核",
+    "CVE-2026-99312",
+    "AMD",
+    "虚拟化安全"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+  "originalSite": "thehackernews.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Virtualization , Responsible Disclosure, and CVE - 2026 - 99312",
+      "url": "https://www.digitalocean.com/blog/cve-2026-99312-kvm-patch"
+    },
+    {
+      "title": "KVM Guest-to-Host Escape | Terra Security Research",
+      "url": "https://www.terra.security/blog/kvm-guest-to-host-escape"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

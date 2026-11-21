@@ -1,0 +1,30 @@
+{
+  "id": "f4028336516bfc4b626bf80aced3ccdfaf38e8b3",
+  "canonicalId": "4e8c756f8214738670c33f2f4c90a333a3f69f1d",
+  "slug": "why-caching-visible-llm-outputs-saves-little",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T00:00:00Z",
+  "lang": "en",
+  "title": "Why Caching Visible LLM Outputs Saves Little",
+  "summary": "rss · Sean Goedecke · Nov 21, 00:00\n\n**「Background」** LLM inference cost work usually focuses on caching inputs so conversation history is not recomputed on every message. Sean Goedecke asks whether repeated visible model output—such as quoted code or evidence—should be cached or referenced instead, especially since output tokens are more expensive than input tokens.\n\n**「Solution」** The author acknowledges real repetition in agent workflows: agents restate code snippets or quote long evidence documents, and prompting or fine-tuning them to emit references that the harness expands could eliminate some of it. But he argues this only touches the visible slice of output. From his own agent histories, he estimates about 6% of output tokens are visible, with 50% spent on reasoning and 44% on tool calls. Under Amdahl&\\#x27;s law, even an implausible two-thirds saving in visible output would cut total output tokens by only about 4%. The real target is the invisible 94%, which largely depends on intelligence: a smarter model may cost 5x more per token but need 6x fewer tokens, making it cheaper overall. The author flags the 6% figure as anecdotal and is only moderately confident that frontier models rarely repeat themselves in chain of thought; possible repetition inside tool calls remains an open question.\n\n**「Takeaway」** For the author, caching or de-duplicating visible LLM output is a bounded optimization; meaningful cost savings come from reducing reasoning and tool-call tokens through more capable models and more token-efficient harnesses.\n\n**Tags**: `#LLM inference costs`, `#output token caching`, `#agent workflows`, `#Amdahl&\\#x27;s law`",
+  "score": 6,
+  "tags": [
+    "LLM inference costs",
+    "output token caching",
+    "agent workflows",
+    "Amdahl&\\#x27;s law"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/why-output-caching-doesnt-work/",
+  "originalSite": "seangoedecke.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

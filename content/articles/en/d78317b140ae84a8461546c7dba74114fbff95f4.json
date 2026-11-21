@@ -1,0 +1,45 @@
+{
+  "id": "d78317b140ae84a8461546c7dba74114fbff95f4",
+  "canonicalId": "9fe3e937f57a693052b0cfb8dd8b9c04c11f348c",
+  "slug": "arxiv-paper-claims-llms-can-rewrite-their-own-weights",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T16:29:00Z",
+  "lang": "en",
+  "title": "arXiv Paper Claims LLMs Can Rewrite Their Own Weights",
+  "summary": "An arXiv preprint titled “Language Models Can Rewrite Their Own Weights” claims a model can edit its own weights through its own reasoning, without gradients or training, according to an abstract quoted in the Hacker News discussion. That quoted abstract says the model tests edits on practice problems, submits only working ones, and improves accuracy across eight consecutive sessions; the submission provides no paper text, so these claims are not independently verified here. Commenters note the demonstrated self-improvement was narrow—shortening reasoning traces to avoid a token limit—and compare it with prior weight-space programming and Google’s “sleep” work.",
+  "score": 7,
+  "tags": [
+    "self-modifying models",
+    "weight editing",
+    "LLM research",
+    "AI safety",
+    "arXiv preprint"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lwhsiao",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50577265"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2611.21885",
+  "originalSite": "arxiv.org",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "[2611.21885] Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885"
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights - arXiv.org",
+      "url": "https://arxiv.org/pdf/2611.21885v2"
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxivb.org/abs/2611.21885"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

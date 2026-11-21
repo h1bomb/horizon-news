@@ -1,0 +1,45 @@
+{
+  "id": "790492b667cb8aed0d49a6862c22977c8782b7af",
+  "canonicalId": "a0ebc9ee452b9f3e92b0eb66c701bb0a417ea009",
+  "slug": "inkling-2-mini-open-weight-small-model-uses-looped-transformer",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T20:12:00Z",
+  "lang": "en",
+  "title": "Inkling 2 Mini: open-weight small model uses looped transformer",
+  "summary": "Thinking Machines has released Inkling 2 Mini, an open-weight small model that uses a looped transformer architecture. The release is positioned for local use, with commenters reporting it runs through llama.cpp: one measured about 27 tokens/s decoding on a Ryzen 395 with Vulkan, and another about 10 tokens/s on a 32GB M1 Pro using q4 xl quantization. Benchmark claims circulating with the release put it near a model referred to as Qwen3.8-27B, but those results have not been independently verified in the supplied material. Local users also note unmerged llama.cpp pull requests and a small patch that one report says gives roughly a 30% speed boost.",
+  "score": 8,
+  "tags": [
+    "open-weight models",
+    "looped transformers",
+    "local LLM inference",
+    "llama.cpp",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jasondavies",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    }
+  ],
+  "originalUrl": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "originalSite": "thinkingmachines.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing Inkling 2 Mini - Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+    },
+    {
+      "title": "Thinking Machines has released Inkling 2 Mini, an open ...",
+      "url": "https://artificialanalysis.ai/articles/inkling-2-mini"
+    },
+    {
+      "title": "Introducing Inkling 2 Small - Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

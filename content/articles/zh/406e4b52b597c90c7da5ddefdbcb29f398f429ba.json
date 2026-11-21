@@ -1,0 +1,40 @@
+{
+  "id": "406e4b52b597c90c7da5ddefdbcb29f398f429ba",
+  "canonicalId": "3a13f1cfba684641b70e6168e68c0d9abe08e5f2",
+  "slug": "openai-后台模式支持-8-小时长任务token-费率最高降-40",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T11:15:00Z",
+  "lang": "zh",
+  "title": "OpenAI 后台模式支持 8 小时长任务，Token 费率最高降 40%",
+  "summary": "据该 Telegram 消息，OpenAI 为 API 长耗时请求新增后台模式：开发者设置 background: true，并通过 background\\_options.completion\\_window 选择 2 小时或 8 小时完成时限；不设置则采用默认的 soonest，且没有折扣。选择 2h 或 8h 时，Token 费率分别比标准价低 30% 和 40%，目前该折扣在 GPT-6.2 Astra、GPT-6.2 Sol、GPT-6.1 Terra 和 GPT-6 Luna 上公测。后台模式还会临时存储响应数据，即使 store 设为 false 或启用零数据保留也不例外。",
+  "score": 7,
+  "tags": [
+    "OpenAI API",
+    "background processing",
+    "async inference",
+    "API pricing",
+    "data retention"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://developers.openai.com/api/docs/guides/background",
+  "originalSite": "developers.openai.com",
+  "context": "OpenAI API 此前已为可等待的工作负载提供 Batch API 和 Flex processing 等低于标准价的处理方式。此次后台模式的差别在于把异步执行放到单个请求上，开发者设置 background: true 后可轮询响应对象获取状态，而不是仅面向批量作业。",
+  "discussion": "对需要运行长任务的开发者，这提供了用更长完成时限换取 30% 至 40% Token 折扣的选项；但处理敏感数据的团队需先确认临时存储是否满足合规要求，因为该模式在 store=false 或零数据保留下仍会保留响应数据。",
+  "references": [
+    {
+      "title": "Background mode | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/background"
+    },
+    {
+      "title": "Cost optimization | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/cost-optimization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

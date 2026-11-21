@@ -1,0 +1,44 @@
+{
+  "id": "560ce94e02f5275fa615fa30f57f1411805d7234",
+  "canonicalId": "3a13f1cfba684641b70e6168e68c0d9abe08e5f2",
+  "slug": "openai-api-adds-background-mode-with-2h8h-windows-and-token-discounts",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T11:15:00Z",
+  "lang": "en",
+  "title": "OpenAI API adds background mode with 2h/8h windows and token discounts",
+  "summary": "OpenAI has reportedly added a background mode that moves long-running API requests to asynchronous execution: developers set \\`background: true\\` and choose a completion window of 2h or 8h via \\`background\\_options.completion\\_window\\`, paying token rates 30% and 40% below standard respectively. Leaving the window unset uses a default \\`soonest\\` mode with no discount. The discounts are described as a public beta on GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra and GPT-6 Luna, model names that come only from this secondary Telegram report and are not independently verified. The report also notes that background mode temporarily stores response data even when \\`store\\` is set to false or zero data retention is enabled.",
+  "score": 7,
+  "tags": [
+    "OpenAI API",
+    "background processing",
+    "async inference",
+    "API pricing",
+    "data retention"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://developers.openai.com/api/docs/guides/background",
+  "originalSite": "developers.openai.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Background mode | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/background"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "title": "Cost optimization | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/cost-optimization"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

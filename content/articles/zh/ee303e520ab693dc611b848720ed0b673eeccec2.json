@@ -1,0 +1,41 @@
+{
+  "id": "ee303e520ab693dc611b848720ed0b673eeccec2",
+  "canonicalId": "40329a5dd9821475899697b76efe3af908cf27e8",
+  "slug": "scott-aaronson-博客讨论随机鹦鹉与黎曼猜想",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T20:03:00Z",
+  "lang": "zh",
+  "title": "Scott Aaronson 博客讨论“随机鹦鹉”与黎曼猜想",
+  "summary": "Scott Aaronson 的博客文章以“随机鹦鹉”和黎曼猜想为引子，审视关于这类 AI 系统产出数学突破的声称，并在 Hacker News 上引发讨论。文章把焦点放在机器推理与人类理解上：当模型给出看似完整的数学论述时，读者应如何判断它是否构成可验证的证明。目前提供的材料没有给出具体证明、论文或独立验证细节，因此不能据此认定黎曼猜想已被证明。",
+  "score": 7,
+  "tags": [
+    "AI mathematics",
+    "LLM reasoning",
+    "AI epistemology",
+    "mathematical proof",
+    "Hacker News discussion"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "stratos123",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581084"
+    }
+  ],
+  "originalUrl": "https://scottaaronson.blog/?p=10344",
+  "originalSite": "scottaaronson.blog",
+  "context": "黎曼猜想由黎曼在 1859 年提出，断言 ζ 函数的所有非平凡零点实部均为 1/2，是克雷数学研究所的千禧年大奖难题之一。Scott Aaronson 的这篇博文标题以“随机鹦鹉”指代相关 AI 系统，并称其“显然证明了”该猜想；理解这一说法时，关键在于数学证明要求可复核的推导过程，而不只是给出一个结论。",
+  "discussion": "对使用大语言模型辅助数学或形式化证明的开发者而言，实际影响是验证环节不能省略：模型生成的推导必须经过独立检查或形式化工具验证，不能仅凭叙述连贯就当作证明。\n\n评论区较有实质内容的讨论集中在“解释”上：janalsncm 认为 Stockfish 的评估看似解释，实质仍是大量计算叠加在 NNUE 评估器上的聚合，无法回答人们想要的“为什么”；jstummbillig 则担心人类在科学与工程上会越来越难以理解，并质疑人类能否接受这种角色。elorant 还反问，如果数学家拥有近乎无限的算力，会有多少人取得类似突破。",
+  "references": [
+    {
+      "title": "Shtetl-Optimized » Blog Archive » The stochastic parrots have...",
+      "url": "https://scottaaronson.blog/?p=10344"
+    },
+    {
+      "title": "Riemann Hypothesis - Clay Mathematics Institute",
+      "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

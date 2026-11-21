@@ -1,0 +1,41 @@
+{
+  "id": "2d54b58976f6fa54c6df82c6fcf7f96898cb287a",
+  "canonicalId": "a0ebc9ee452b9f3e92b0eb66c701bb0a417ea009",
+  "slug": "inkling-2-mini-开放权重循环-transformer-模型发布",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T20:12:00Z",
+  "lang": "zh",
+  "title": "Inkling 2 Mini 开放权重循环 Transformer 模型发布",
+  "summary": "Inkling 2 Mini 以开放权重的小型模型形式发布，采用循环 Transformer 架构，面向本地部署场景。社区用户自测称，在 Ryzen 395 上通过 llama.cpp Vulkan 解码约 27 tokens/s，在 32GB M1 Pro 上以 q4 xl 运行约 10 tokens/s；这些数字并非官方基准。有评论称其编码表现接近 Qwen3.8-27B，但该对比在现有材料中未获独立验证；本地用户还需处理多个 llama.cpp 未合并 PR，并应用一个据称约 30% 提速的小补丁。",
+  "score": 8,
+  "tags": [
+    "open-weight models",
+    "looped transformers",
+    "local LLM inference",
+    "llama.cpp",
+    "model release"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "jasondavies",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581260"
+    }
+  ],
+  "originalUrl": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "originalSite": "thinkingmachines.ai",
+  "context": "Inkling 2 Mini 所说的“循环 Transformer”，指模型对每个 token 把中间若干层重复运行三次——这样增加的是单 token 的计算量而非参数量，官方称这能让模型用更少的 token 完成推理密集型任务（如 agentic 编码）。这延续了 Thinking Machines 的 Inkling 2 系列：同系列的 Inkling 2 Small 于 11 月 5 日发布，那一代在攻防与两用 agentic 网络安全基准上较 Inkling Small 有明显提升，但仍落后于开放权重前沿。",
+  "discussion": "有评论者认为，循环架构加上开放权重可能促使更多开放模型跟进，也有人把这类效率优化归因于资源约束，并有人提出安全与可解释性方面的疑问。实际体验方面，有用户报告快速编码测试表现不错，但基准能否在真实场景成立仍待验证。",
+  "references": [
+    {
+      "title": "Introducing Inkling 2 Mini - Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+    },
+    {
+      "title": "Introducing Inkling 2 Small - Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

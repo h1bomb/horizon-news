@@ -1,0 +1,40 @@
+{
+  "id": "58131b4c82e72a3c9e66f578c31c611c98c92895",
+  "canonicalId": "f80afcc4785757413a9eeca571e8e134ec15b66a",
+  "slug": "cve-2026-99312kvm-漏洞致虚拟机可读-amd-宿主内存",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T14:23:00Z",
+  "lang": "zh",
+  "title": "CVE-2026-99312：KVM 漏洞致虚拟机可读 AMD 宿主内存",
+  "summary": "Linux 内核 KVM 被披露编号为 CVE-2026-99312 的漏洞，仅影响启用了嵌套虚拟化的 AMD 主机。研究人员在 DigitalOcean 环境中从虚拟机内部读取到约 127 GB 宿主内存，说明该缺陷可造成跨虚拟机的宿主机数据泄露。上游修复已于 11 月 18 日随稳定内核 7.3.5 等版本发布，但 Debian、Ubuntu 等发行版的内核尚未包含该修复。在补丁到位前，受影响环境可关闭嵌套虚拟化作为临时缓解措施。",
+  "score": 8,
+  "tags": [
+    "KVM",
+    "Linux内核",
+    "CVE-2026-99312",
+    "AMD",
+    "虚拟化安全"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+  "originalSite": "thehackernews.com",
+  "context": "KVM 是 Linux 内核内置的虚拟化层；嵌套虚拟化允许一台虚拟机内部再运行自己的虚拟机管理程序，因此该场景下的隔离边界更复杂。Terra Security 的分析指出，CVE-2026-99312 是早先一次安全修复引入的陈旧指针缺陷，已在内核中潜伏近四年（tool-2-3）；DigitalOcean 同样将其描述为 KVM 中的 stale pointer（tool-2-2）。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Virtualization , Responsible Disclosure, and CVE - 2026 - 99312",
+      "url": "https://www.digitalocean.com/blog/cve-2026-99312-kvm-patch"
+    },
+    {
+      "title": "KVM Guest-to-Host Escape | Terra Security Research",
+      "url": "https://www.terra.security/blog/kvm-guest-to-host-escape"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

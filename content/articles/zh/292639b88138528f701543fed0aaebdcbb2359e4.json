@@ -1,0 +1,30 @@
+{
+  "id": "292639b88138528f701543fed0aaebdcbb2359e4",
+  "canonicalId": "4e8c756f8214738670c33f2f4c90a333a3f69f1d",
+  "slug": "为什么缓存-llm-输出收效甚微",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T00:00:00Z",
+  "lang": "zh",
+  "title": "为什么缓存 LLM 输出收效甚微",
+  "summary": "rss · Sean Goedecke · 11月21日 00:00\n\n**「背景」** LLM 推理成本优化通常依赖输入缓存，避免每轮重算对话历史，但作者认为把同样思路用于输出缓存并不能带来多少节省。\n\n**「方案」** 输出缓存看似有吸引力：编码 agent 常复述代码，调研 agent 会引用证据文档，而输出 token 又比输入 token 贵得多；作者设想的办法是让模型只输出“文件:行号”或历史片段引用，再由代理执行框架（harness）展开。但他指出，这只优化用户可见的重复，模型内部推理未必需要复述；据其自身 agent 历史估计，可见输出仅约 6%，推理 token 占 50%、工具调用占 44%。按 Amdahl 定律（局部优化受占比上限约束），即使乐观地省掉可见输出的三分之二，也只减少约 4% 的总输出 token。真正要降成本，应压缩占 94% 的不可见输出，这更依赖模型智能与 harness 效率；更贵的模型可能单 token 贵 5 倍，却因少用 6 倍 token 而总成本更低。作者也承认 6% 只是个人样本，关于前沿模型思维链不重复的判断带有推测性，并提到推测解码可能已利用重复模式获得速度收益，但这不等于降低 token 成本。\n\n**「启示」** 作者的核心论点是，输出缓存受限于可见输出这块很小的比例，难以成为 LLM 成本优化的主线；更大的杠杆在于提升模型和 harness 的 token 效率，让推理与工具调用本身更精简。\n\n**标签**: `#LLM inference costs`, `#output token caching`, `#agent workflows`, `#Amdahl&\\#x27;s law`",
+  "score": 6,
+  "tags": [
+    "LLM inference costs",
+    "output token caching",
+    "agent workflows",
+    "Amdahl&\\#x27;s law"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/why-output-caching-doesnt-work/",
+  "originalSite": "seangoedecke.com",
+  "context": "LLM 推理成本优化通常依赖输入缓存，避免每轮重算对话历史，但作者认为把同样思路用于输出缓存并不能带来多少节省。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

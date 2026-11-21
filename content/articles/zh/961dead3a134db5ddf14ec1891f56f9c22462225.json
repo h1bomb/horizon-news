@@ -1,0 +1,41 @@
+{
+  "id": "961dead3a134db5ddf14ec1891f56f9c22462225",
+  "canonicalId": "9fe3e937f57a693052b0cfb8dd8b9c04c11f348c",
+  "slug": "语言模型改写自身权重论文与争议",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T16:29:00Z",
+  "lang": "zh",
+  "title": "语言模型改写自身权重：论文与争议",
+  "summary": "一篇 arXiv 预印本《Language Models Can Rewrite Their Own Weights》声称，语言模型能依靠自身推理直接改写权重，在不使用梯度、不进行训练的情况下变好：它在练习题上测试每次编辑、只保留有效修改，并在连续八个会话中保持准确率上升。对关注自修改模型、权重编辑和 AI 安全的研究者而言，这提供了新的讨论对象；但在现有材料中，这仍是论文自身的说法，未见独立复现。Hacker News 评论者则指出，演示出的改进可能只是缩短推理链以避免 token 上限，并质疑这与既有工作的差异。",
+  "score": 7,
+  "tags": [
+    "self-modifying models",
+    "weight editing",
+    "LLM research",
+    "AI safety",
+    "arXiv preprint"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lwhsiao",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50577265"
+    }
+  ],
+  "originalUrl": "https://arxiv.org/abs/2611.21885",
+  "originalSite": "arxiv.org",
+  "context": "大语言模型通常在训练完成后就被冻结，要让它变强，往往需要再做一次训练，或者依赖提示、外部框架和推理时的额外计算，而这些手段在任务结束后并不会留在模型里。该论文（arXiv 2611.21885）把“自我重写”作为第三条路径提出：模型用自己的推理直接修改自身权重，并声称整个过程不依赖梯度、不需要训练。理解“训练后冻结、改进只能靠外部手段”这一前提，才能看清这一说法为何被当作不同的机制来讨论。",
+  "discussion": "Hacker News 讨论的焦点是新颖性与风险：有评论者认为论文展示的自我改进只是缩短推理链以避开 token 上限，并与近期“权重空间编程”的结果相似；也有人把“无梯度”的表述类比为训练，并担忧自主模型可识别和压制与安全对齐相关的激活。上述均为评论者观点，不是已确认的结论。",
+  "references": [
+    {
+      "title": "[2611.21885] Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885"
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights - arXiv.org",
+      "url": "https://arxiv.org/pdf/2611.21885v2"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

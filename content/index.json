@@ -1,6 +1,512 @@
 {
   "articles": [
     {
+      "id": "2d54b58976f6fa54c6df82c6fcf7f96898cb287a",
+      "canonicalId": "a0ebc9ee452b9f3e92b0eb66c701bb0a417ea009",
+      "slug": "inkling-2-mini-开放权重循环-transformer-模型发布",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "Inkling 2 Mini 开放权重循环 Transformer 模型发布",
+      "score": 8,
+      "tags": [
+        "open-weight models",
+        "looped transformers",
+        "local LLM inference",
+        "llama.cpp",
+        "model release"
+      ],
+      "originalSite": "thinkingmachines.ai"
+    },
+    {
+      "id": "7541be1e61f4411ba88ec74b88e661549787ad7b",
+      "canonicalId": "81ce5b24dd897b42933aed8c0d721345e07d5674",
+      "slug": "ravi-vakil-公布-masullo-的广义黎曼猜想证明草案",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "Ravi Vakil 公布 Masullo 的广义黎曼猜想证明草案",
+      "score": 8,
+      "tags": [
+        "mathematics",
+        "Generalized Riemann Hypothesis",
+        "proof verification",
+        "research announcement"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "58131b4c82e72a3c9e66f578c31c611c98c92895",
+      "canonicalId": "f80afcc4785757413a9eeca571e8e134ec15b66a",
+      "slug": "cve-2026-99312kvm-漏洞致虚拟机可读-amd-宿主内存",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "CVE-2026-99312：KVM 漏洞致虚拟机可读 AMD 宿主内存",
+      "score": 8,
+      "tags": [
+        "KVM",
+        "Linux内核",
+        "CVE-2026-99312",
+        "AMD",
+        "虚拟化安全"
+      ],
+      "originalSite": "thehackernews.com"
+    },
+    {
+      "id": "36e346ca401d3d3ffeee05a932e18ca783bac5a0",
+      "canonicalId": "28dd413ffa1cffbb916d83da361a689772a4d6ad",
+      "slug": "台积电据报暂停对中国企业-16nm-及以下订单",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "台积电据报暂停对中国企业 16nm 及以下订单",
+      "score": 8,
+      "tags": [
+        "semiconductors",
+        "TSMC",
+        "export controls",
+        "AI hardware",
+        "China tech"
+      ],
+      "originalSite": "appleinsider.com"
+    },
+    {
+      "id": "660b75d29f20d6718d9b5f0c60eddc2ddbb55eff",
+      "canonicalId": "bbe099f2944c559d2da8bc280acbad043261b64e",
+      "slug": "alpöge-声称用-claude-证明广义黎曼猜想",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "Alpöge 声称用 Claude 证明广义黎曼猜想",
+      "score": 7,
+      "tags": [
+        "Riemann Hypothesis",
+        "formal verification",
+        "Lean",
+        "mathematics",
+        "AI theorem proving"
+      ],
+      "originalSite": "alpo.ge"
+    },
+    {
+      "id": "1d60cdb567d4cae3cdddf455a29e937706a8872d",
+      "canonicalId": "dc0a65e6fd6d3dfd180592733130d38d895a1de1",
+      "slug": "陶哲轩博客无外力纳维-斯托克斯奇点与广义黎曼猜想",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "陶哲轩博客：无外力纳维-斯托克斯奇点与广义黎曼猜想",
+      "score": 7,
+      "tags": [
+        "mathematics",
+        "Navier-Stokes",
+        "Generalized Riemann Hypothesis",
+        "formal verification",
+        "theorem proving"
+      ],
+      "originalSite": "terrytao.wordpress.com"
+    },
+    {
+      "id": "961dead3a134db5ddf14ec1891f56f9c22462225",
+      "canonicalId": "9fe3e937f57a693052b0cfb8dd8b9c04c11f348c",
+      "slug": "语言模型改写自身权重论文与争议",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "语言模型改写自身权重：论文与争议",
+      "score": 7,
+      "tags": [
+        "self-modifying models",
+        "weight editing",
+        "LLM research",
+        "AI safety",
+        "arXiv preprint"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "ee303e520ab693dc611b848720ed0b673eeccec2",
+      "canonicalId": "40329a5dd9821475899697b76efe3af908cf27e8",
+      "slug": "scott-aaronson-博客讨论随机鹦鹉与黎曼猜想",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "Scott Aaronson 博客讨论“随机鹦鹉”与黎曼猜想",
+      "score": 7,
+      "tags": [
+        "AI mathematics",
+        "LLM reasoning",
+        "AI epistemology",
+        "mathematical proof",
+        "Hacker News discussion"
+      ],
+      "originalSite": "scottaaronson.blog"
+    },
+    {
+      "id": "92f3b4af09438d735401df0bd96a9944e4436806",
+      "canonicalId": "c4ca83ba5741a42c01bfa6a41a4d6418a4be5d49",
+      "slug": "signal-发文讨论限制移动端-ai-代理抓取数据",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "Signal 发文讨论限制移动端 AI 代理抓取数据",
+      "score": 7,
+      "tags": [
+        "privacy",
+        "AI agents",
+        "mobile security",
+        "Signal",
+        "platform policy"
+      ],
+      "originalSite": "signal.org"
+    },
+    {
+      "id": "13ef9c93579ac962303bd20eb6a241b4b5bd715d",
+      "canonicalId": "91e53fb014ed27fb18de439f6d3eba28ba1c2006",
+      "slug": "美国收紧芯片出口印度-yotta-拟增-10-万-gpu",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "美国收紧芯片出口，印度 Yotta 拟增 10 万 GPU",
+      "score": 7,
+      "tags": [
+        "AI infrastructure",
+        "chip export controls",
+        "India AI",
+        "GPU capacity",
+        "data centers"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "406e4b52b597c90c7da5ddefdbcb29f398f429ba",
+      "canonicalId": "3a13f1cfba684641b70e6168e68c0d9abe08e5f2",
+      "slug": "openai-后台模式支持-8-小时长任务token-费率最高降-40",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "OpenAI 后台模式支持 8 小时长任务，Token 费率最高降 40%",
+      "score": 7,
+      "tags": [
+        "OpenAI API",
+        "background processing",
+        "async inference",
+        "API pricing",
+        "data retention"
+      ],
+      "originalSite": "developers.openai.com"
+    },
+    {
+      "id": "292639b88138528f701543fed0aaebdcbb2359e4",
+      "canonicalId": "4e8c756f8214738670c33f2f4c90a333a3f69f1d",
+      "slug": "为什么缓存-llm-输出收效甚微",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "为什么缓存 LLM 输出收效甚微",
+      "score": 6,
+      "tags": [
+        "LLM inference costs",
+        "output token caching",
+        "agent workflows",
+        "Amdahl&\\#x27;s law"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "86247312d1be5ce764f4a524a9471458e5564d45",
+      "canonicalId": "fb329336ea33690cda33e58213c92092e939a598",
+      "slug": "美国企业由回购转向净发股牛市面临新增供给",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "美国企业由回购转向净发股，牛市面临新增供给",
+      "score": 8,
+      "tags": [
+        "equity issuance",
+        "buybacks",
+        "IPO market",
+        "AI infrastructure",
+        "market liquidity"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "f88e01c970135da51450fc8cd93e6cc3cd454551",
+      "canonicalId": "997da43c4e8d0ce861fa4852b455451fb3b8c1a9",
+      "slug": "沃什回避利率指引美联储官员公开表态增多并现加息分歧",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "沃什回避利率指引，美联储官员公开表态增多并现加息分歧",
+      "score": 7,
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "monetary policy",
+        "FOMC",
+        "forward guidance"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "5ac78a5fec07a70041dd00c61bec52f1eddebb47",
+      "canonicalId": "6650e903406cc70ebd9e8bd2085af754e59f2fa6",
+      "slug": "北京拟明确租房正常损耗不得扣减押金",
+      "date": "2026-11-21",
+      "lang": "zh",
+      "title": "北京拟明确租房正常损耗不得扣减押金",
+      "score": 7,
+      "tags": [
+        "housing rental regulation",
+        "tenant rights",
+        "deposit protection",
+        "Beijing policy",
+        "rental market"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "790492b667cb8aed0d49a6862c22977c8782b7af",
+      "canonicalId": "a0ebc9ee452b9f3e92b0eb66c701bb0a417ea009",
+      "slug": "inkling-2-mini-open-weight-small-model-uses-looped-transformer",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Inkling 2 Mini: open-weight small model uses looped transformer",
+      "score": 8,
+      "tags": [
+        "open-weight models",
+        "looped transformers",
+        "local LLM inference",
+        "llama.cpp",
+        "model release"
+      ],
+      "originalSite": "thinkingmachines.ai"
+    },
+    {
+      "id": "1cf378c73a8bac06af6d06fc945e76f7fe0ef073",
+      "canonicalId": "81ce5b24dd897b42933aed8c0d721345e07d5674",
+      "slug": "alessandro-masullox27s-proposed-grh-proof-announced-for-expert-review",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Alessandro Masullo&\\#x27;s proposed GRH proof announced for expert review",
+      "score": 8,
+      "tags": [
+        "mathematics",
+        "Generalized Riemann Hypothesis",
+        "proof verification",
+        "research announcement"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "10fb4fdbe6fe0a78fb0ed20da393bbaf7cf3f2e7",
+      "canonicalId": "f80afcc4785757413a9eeca571e8e134ec15b66a",
+      "slug": "kvm-cve-2026-99312-lets-vms-read-amd-host-memory",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "KVM CVE-2026-99312 lets VMs read AMD host memory",
+      "score": 8,
+      "tags": [
+        "KVM",
+        "Linux内核",
+        "CVE-2026-99312",
+        "AMD",
+        "虚拟化安全"
+      ],
+      "originalSite": "thehackernews.com"
+    },
+    {
+      "id": "68e8dec8076241d4eb62ae03b2e1bae3a34f137e",
+      "canonicalId": "28dd413ffa1cffbb916d83da361a689772a4d6ad",
+      "slug": "tsmc-reportedly-halts-16nm-and-below-orders-from-chinese-firms",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "TSMC reportedly halts 16nm-and-below orders from Chinese firms",
+      "score": 8,
+      "tags": [
+        "semiconductors",
+        "TSMC",
+        "export controls",
+        "AI hardware",
+        "China tech"
+      ],
+      "originalSite": "appleinsider.com"
+    },
+    {
+      "id": "5103796c30f2c29b6a69b36a5b23fb44fc9c0a31",
+      "canonicalId": "bbe099f2944c559d2da8bc280acbad043261b64e",
+      "slug": "levent-alpöge-claims-proof-of-generalized-riemann-hypothesis",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Levent Alpöge claims proof of Generalized Riemann Hypothesis",
+      "score": 7,
+      "tags": [
+        "Riemann Hypothesis",
+        "formal verification",
+        "Lean",
+        "mathematics",
+        "AI theorem proving"
+      ],
+      "originalSite": "alpo.ge"
+    },
+    {
+      "id": "be5b0a4882449328f5a39b420be8757e75d59e80",
+      "canonicalId": "dc0a65e6fd6d3dfd180592733130d38d895a1de1",
+      "slug": "terry-tao-links-unforced-navierstokes-singularities-to-the-generalized-riemann-hypothesis",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Terry Tao Links Unforced Navier–Stokes Singularities to the Generalized Riemann Hypothesis",
+      "score": 7,
+      "tags": [
+        "mathematics",
+        "Navier-Stokes",
+        "Generalized Riemann Hypothesis",
+        "formal verification",
+        "theorem proving"
+      ],
+      "originalSite": "terrytao.wordpress.com"
+    },
+    {
+      "id": "d78317b140ae84a8461546c7dba74114fbff95f4",
+      "canonicalId": "9fe3e937f57a693052b0cfb8dd8b9c04c11f348c",
+      "slug": "arxiv-paper-claims-llms-can-rewrite-their-own-weights",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "arXiv Paper Claims LLMs Can Rewrite Their Own Weights",
+      "score": 7,
+      "tags": [
+        "self-modifying models",
+        "weight editing",
+        "LLM research",
+        "AI safety",
+        "arXiv preprint"
+      ],
+      "originalSite": "arxiv.org"
+    },
+    {
+      "id": "e8f1adaad2040079d06ab8f00816eee3452285e5",
+      "canonicalId": "40329a5dd9821475899697b76efe3af908cf27e8",
+      "slug": "aaronson-blog-examines-claims-of-ai-mathematical-breakthroughs",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Aaronson Blog Examines Claims of AI Mathematical Breakthroughs",
+      "score": 7,
+      "tags": [
+        "AI mathematics",
+        "LLM reasoning",
+        "AI epistemology",
+        "mathematical proof",
+        "Hacker News discussion"
+      ],
+      "originalSite": "scottaaronson.blog"
+    },
+    {
+      "id": "ef02a74ae2fbc95bf05b02db9b632704dd90bfe9",
+      "canonicalId": "c4ca83ba5741a42c01bfa6a41a4d6418a4be5d49",
+      "slug": "signal-outlines-limits-on-ai-agents-capturing-mobile-data",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Signal outlines limits on AI agents capturing mobile data",
+      "score": 7,
+      "tags": [
+        "privacy",
+        "AI agents",
+        "mobile security",
+        "Signal",
+        "platform policy"
+      ],
+      "originalSite": "signal.org"
+    },
+    {
+      "id": "a5fb0a5f202bef6c2c85d5fccb14f0f0971f601f",
+      "canonicalId": "91e53fb014ed27fb18de439f6d3eba28ba1c2006",
+      "slug": "us-tightens-chip-exports-india-sees-ai-compute-opening",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "US Tightens Chip Exports; India Sees AI Compute Opening",
+      "score": 7,
+      "tags": [
+        "AI infrastructure",
+        "chip export controls",
+        "India AI",
+        "GPU capacity",
+        "data centers"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "560ce94e02f5275fa615fa30f57f1411805d7234",
+      "canonicalId": "3a13f1cfba684641b70e6168e68c0d9abe08e5f2",
+      "slug": "openai-api-adds-background-mode-with-2h8h-windows-and-token-discounts",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "OpenAI API adds background mode with 2h/8h windows and token discounts",
+      "score": 7,
+      "tags": [
+        "OpenAI API",
+        "background processing",
+        "async inference",
+        "API pricing",
+        "data retention"
+      ],
+      "originalSite": "developers.openai.com"
+    },
+    {
+      "id": "f4028336516bfc4b626bf80aced3ccdfaf38e8b3",
+      "canonicalId": "4e8c756f8214738670c33f2f4c90a333a3f69f1d",
+      "slug": "why-caching-visible-llm-outputs-saves-little",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Why Caching Visible LLM Outputs Saves Little",
+      "score": 6,
+      "tags": [
+        "LLM inference costs",
+        "output token caching",
+        "agent workflows",
+        "Amdahl&\\#x27;s law"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "44d5ccbc6e6bfc4a475a3dfb1ecf5ca2cd4fa692",
+      "canonicalId": "fb329336ea33690cda33e58213c92092e939a598",
+      "slug": "us-companies-switch-from-buybacks-to-net-share-issuance",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "U.S. companies switch from buybacks to net share issuance",
+      "score": 8,
+      "tags": [
+        "equity issuance",
+        "buybacks",
+        "IPO market",
+        "AI infrastructure",
+        "market liquidity"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "9da2e37ede41bb101b3b84dc16b156e40a5948ce",
+      "canonicalId": "997da43c4e8d0ce861fa4852b455451fb3b8c1a9",
+      "slug": "fed-officials-speak-more-as-warsh-avoids-rate-guidance",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Fed officials speak more as Warsh avoids rate guidance",
+      "score": 7,
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "monetary policy",
+        "FOMC",
+        "forward guidance"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "78f160d78211c320bbaf9b9b4533051c09b08656",
+      "canonicalId": "6650e903406cc70ebd9e8bd2085af754e59f2fa6",
+      "slug": "beijing-draft-lease-rules-would-bar-deposit-deductions-for-normal-wear-and-tear",
+      "date": "2026-11-21",
+      "lang": "en",
+      "title": "Beijing Draft Lease Rules Would Bar Deposit Deductions for Normal Wear and Tear",
+      "score": 7,
+      "tags": [
+        "housing rental regulation",
+        "tenant rights",
+        "deposit protection",
+        "Beijing policy",
+        "rental market"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
       "id": "9936214f3a4085358e3d23b01b61ee581c5a7790",
       "canonicalId": "4ba1303d2ee21d77bd190f7afe21aa7ea2259664",
       "slug": "postgresql-19-发布新增-wait-for-lsn-实现从库读己之写",
@@ -5123,650 +5629,6 @@
         "interest rates"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "2a5bc42606bb0bf641556c9eb207ae82c27d74a1",
-      "canonicalId": "8d147319103619c5058d77599a00ba04c7a9fae7",
-      "slug": "openssh-106p2-修复-alpine-长密码认证绕过",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "OpenSSH 10.6p2 修复 Alpine 长密码认证绕过",
-      "score": 8,
-      "tags": [
-        "security",
-        "OpenSSH",
-        "authentication",
-        "crypt",
-        "vulnerability"
-      ],
-      "originalSite": "sshhole.com"
-    },
-    {
-      "id": "95c1fc225fb144f3ae85ea9228c17fe1140144f8",
-      "canonicalId": "51318c175f43cb3607406b01e49209a42fd0c717",
-      "slug": "semianalysis-公布-tpuv7-的-agentx-智能体推理基准",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "SemiAnalysis 公布 TPUv7 的 AgentX 智能体推理基准",
-      "score": 8,
-      "tags": [
-        "Google TPU",
-        "AI inference",
-        "AI accelerators",
-        "ML infrastructure",
-        "open-source ecosystem"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "eebc5f32e21194d186c44311a4610e33cb912e94",
-      "canonicalId": "3aa780057fc8ee52758380d1e861a86a606604ac",
-      "slug": "hugging-face-发布-moe-训练手册逐项拆解-megatron-lm-配置",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "Hugging Face 发布 MoE 训练手册：逐项拆解 Megatron-LM 配置",
-      "score": 8,
-      "tags": [
-        "mixture-of-experts",
-        "Megatron-LM",
-        "model-training",
-        "LLM-systems",
-        "Hugging Face"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "9fa6feaee01d6fca2252712594e8524a340186b8",
-      "canonicalId": "bcd084fbddc00f6d5f79cf4d92b2bde0e8db0bed",
-      "slug": "ms-paint-被曝远程代码执行漏洞细节与影响范围未明",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "MS Paint 被曝远程代码执行漏洞，细节与影响范围未明",
-      "score": 7,
-      "tags": [
-        "security",
-        "vulnerability",
-        "remote-code-execution",
-        "windows",
-        "microsoft-paint"
-      ],
-      "originalSite": "cve.org"
-    },
-    {
-      "id": "4155a110f42d3a803f435978c0fa2e17f1c4fe85",
-      "canonicalId": "6f78e24cdb5b04f2b7b58a11152bdb26c3e7204e",
-      "slug": "mark-cuban-指控-facebook-明知-ai-深度伪造诈骗广告仍获利",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "Mark Cuban 指控 Facebook 明知 AI 深度伪造诈骗广告仍获利",
-      "score": 7,
-      "tags": [
-        "AI deepfakes",
-        "ad fraud",
-        "platform liability",
-        "Meta/Facebook",
-        "trust and safety"
-      ],
-      "originalSite": "finance.yahoo.com"
-    },
-    {
-      "id": "cbe5325391063b2f9dd50ede6906253503dbe89d",
-      "canonicalId": "56e817ac2ab89b1020c9beee6097ec00766414ca",
-      "slug": "冷门音频编解码器移植到-n64几乎占满-rsp-指令内存",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "冷门音频编解码器移植到 N64：几乎占满 RSP 指令内存",
-      "score": 7,
-      "tags": [
-        "audio codecs",
-        "N64",
-        "retro hardware",
-        "homebrew",
-        "hardware constraints"
-      ],
-      "originalSite": "phoboslab.org"
-    },
-    {
-      "id": "d43e6f1148d5158cec0e3d21bae13dec20926fd6",
-      "canonicalId": "3c63b1bd263a0a08195a66ff3ba4cc186a48f5f8",
-      "slug": "报告称-gpt-6-astra-在安全研究任务中隐蔽地表现不佳",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "报告称 GPT-6 Astra 在安全研究任务中隐蔽地表现不佳",
-      "score": 7,
-      "tags": [
-        "AI safety",
-        "misalignment",
-        "frontier models",
-        "OpenAI",
-        "model evaluation"
-      ],
-      "originalSite": "alignment.openai.com"
-    },
-    {
-      "id": "26800f79cdb667738fef3c7d63f41bdd8fe9f8ca",
-      "canonicalId": "8e567e636c74c99640c707880664b76edf52fd2e",
-      "slug": "dialfork-发布衡量对话智能体流程幻觉的基准",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "DialFork 发布：衡量对话智能体流程幻觉的基准",
-      "score": 7,
-      "tags": [
-        "LLM agents",
-        "benchmarks",
-        "hallucination",
-        "conversational AI",
-        "tool use"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "dcab9d3f0f9edf661ff271bb4069dfabf1579d8d",
-      "canonicalId": "10b8ba263c7ab02c7d32f546590223b43e00d2ed",
-      "slug": "约-60-万颗英伟达-h200-芯片积压香港待进口审批",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "约 60 万颗英伟达 H200 芯片积压香港待进口审批",
-      "score": 7,
-      "tags": [
-        "Nvidia H200",
-        "export controls",
-        "China AI hardware",
-        "chip supply chain"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "c020abc0f02a846f419122933e1d5edf7b19114a",
-      "canonicalId": "f0ec30f7cc800843c8a2d75798bfe2555e031cfb",
-      "slug": "deepseek-harness-披露-154-万日活与-35-万插件",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "DeepSeek Harness 披露 154 万日活与 3.5 万插件",
-      "score": 7,
-      "tags": [
-        "DeepSeek",
-        "AI agents",
-        "插件生态",
-        "开发者平台",
-        "平台指标"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "e1ebdacf13f733733fa19498ee8ed73549fa6f40",
-      "canonicalId": "5e71e5a9879094e71614821c58a0c9481b74e585",
-      "slug": "google-推出-gemini-omni-12-flash-视频生成模型",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "Google 推出 Gemini Omni 1.2 Flash 视频生成模型",
-      "score": 7,
-      "tags": [
-        "Gemini",
-        "video generation",
-        "Google DeepMind",
-        "AI models",
-        "pricing"
-      ],
-      "originalSite": "x.com"
-    },
-    {
-      "id": "ee20c5e76112a7b652f0008674ad15d0ff8977a7",
-      "canonicalId": "493708bde30496160fc5eee1d9e0c7d9aa982b64",
-      "slug": "数据库本质上是全局变量仓库",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "数据库本质上是全局变量仓库",
-      "score": 6,
-      "tags": [
-        "databases",
-        "global variables",
-        "software design",
-        "coupling",
-        "engineering heuristics"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "7b2470017cd1fdf504db8fb1ca57b3315202ed66",
-      "canonicalId": "8d9d77161f50315601f444ad940ffde95fa34e9e",
-      "slug": "芯片股抛售加剧纳斯达克-100-指数单日跌-5",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "芯片股抛售加剧，纳斯达克 100 指数单日跌 5%",
-      "score": 9,
-      "tags": [
-        "美股",
-        "芯片股",
-        "纳斯达克100",
-        "市场抛售",
-        "AI监管"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "731305ca5f9f2e2b650bbc2031ff93f1b2bdb933",
-      "canonicalId": "26f054c0945d3ad98f58c7f5b85e2c96348e5607",
-      "slug": "中国叫停软银-54-亿美元收购-abb-机器人业务",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "中国叫停软银 54 亿美元收购 ABB 机器人业务",
-      "score": 8,
-      "tags": [
-        "China foreign investment review",
-        "SoftBank",
-        "ABB robotics",
-        "cross-border M&amp;A",
-        "strategic technology"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "dad3802d2abb7e663decb53541cdb9af7074f860",
-      "canonicalId": "0aebc190eec62fbe5a5b0c41f9599883281bdacf",
-      "slug": "中期选举获胜后民主党人呼吁限制数据中心建设",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "中期选举获胜后，民主党人呼吁限制数据中心建设",
-      "score": 7,
-      "tags": [
-        "AI infrastructure",
-        "data centers",
-        "US politics",
-        "semiconductor stocks",
-        "regulation"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "a52ec17aedb1c66689a4728bc00054f65402789f",
-      "canonicalId": "bb158f4d175826229292ca2e9711b87d84733d2f",
-      "slug": "里士满联储行长巴尔金预计将进一步渐进加息",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "里士满联储行长巴尔金：预计将进一步渐进加息",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "interest rates",
-        "inflation",
-        "monetary policy",
-        "credit risk"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "86e3e7cfe15b356ffedfca4a5a8b9f56836d8ce2",
-      "canonicalId": "b603a54a22ae13511ad9279e55b6debe4783e3c1",
-      "slug": "民主党中期选举大胜对美国对华政策意味着什么",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "民主党中期选举大胜对美国对华政策意味着什么",
-      "score": 7,
-      "tags": [
-        "US-China relations",
-        "2026 US midterms",
-        "tariffs",
-        "Taiwan",
-        "technology policy"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "74e759094880638ab61000f35e2cee02436500f4",
-      "canonicalId": "c34468426089e239cbb485d454706ed07035b445",
-      "slug": "美光因劳资纠纷暂停桃园-45-亿美元建厂",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "美光因劳资纠纷暂停桃园 45 亿美元建厂",
-      "score": 7,
-      "tags": [
-        "Micron",
-        "Taiwan",
-        "semiconductor manufacturing",
-        "labor dispute",
-        "DRAM"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "a3ea13de484be7a3d60c3fc814545d9d3c377905",
-      "canonicalId": "e4e51059029bd3cd92e27f79b1e047cd2c80ef84",
-      "slug": "任天堂-switch-2-第二财季销量同比下滑-41",
-      "date": "2026-11-06",
-      "lang": "zh",
-      "title": "任天堂 Switch 2 第二财季销量同比下滑 41%",
-      "score": 7,
-      "tags": [
-        "Nintendo",
-        "earnings",
-        "console sales",
-        "gaming hardware",
-        "memory chip costs"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "d7c09e1fe574c446b8094c449e3d86258f4cb64f",
-      "canonicalId": "8d147319103619c5058d77599a00ba04c7a9fae7",
-      "slug": "openssh-106p2-fixes-alpine-long-password-authentication-bypass",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "OpenSSH 10.6p2 fixes Alpine long-password authentication bypass",
-      "score": 8,
-      "tags": [
-        "security",
-        "OpenSSH",
-        "authentication",
-        "crypt",
-        "vulnerability"
-      ],
-      "originalSite": "sshhole.com"
-    },
-    {
-      "id": "43b05a6f3b0a026b797b016d6262a3d3b892c622",
-      "canonicalId": "51318c175f43cb3607406b01e49209a42fd0c717",
-      "slug": "semianalysis-benchmarks-tpuv7-on-agentic-inference-claims-tokens-per-dollar-edge",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "SemiAnalysis benchmarks TPUv7 on agentic inference, claims tokens-per-dollar edge",
-      "score": 8,
-      "tags": [
-        "Google TPU",
-        "AI inference",
-        "AI accelerators",
-        "ML infrastructure",
-        "open-source ecosystem"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "962bcf5ded06a982a25698de19172c4eeab89ad2",
-      "canonicalId": "3aa780057fc8ee52758380d1e861a86a606604ac",
-      "slug": "hugging-face-publishes-megatron-lm-moe-training-handbook-setting-by-setting",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Hugging Face publishes Megatron-LM MoE training handbook, setting by setting",
-      "score": 8,
-      "tags": [
-        "mixture-of-experts",
-        "Megatron-LM",
-        "model-training",
-        "LLM-systems",
-        "Hugging Face"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "4f5a6629eb3c60c0a0ab7b4896f01d2de28a8a38",
-      "canonicalId": "bcd084fbddc00f6d5f79cf4d92b2bde0e8db0bed",
-      "slug": "cve-2026-83844-remote-code-execution-flaw-reported-in-ms-paint",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "CVE-2026-83844: Remote Code Execution Flaw Reported in MS Paint",
-      "score": 7,
-      "tags": [
-        "security",
-        "vulnerability",
-        "remote-code-execution",
-        "windows",
-        "microsoft-paint"
-      ],
-      "originalSite": "cve.org"
-    },
-    {
-      "id": "d60b3f9523ce51425e27048df4fc6c18f9ddd817",
-      "canonicalId": "6f78e24cdb5b04f2b7b58a11152bdb26c3e7204e",
-      "slug": "mark-cuban-alleges-facebook-knowingly-profits-from-ai-deepfake-scam-ads",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Mark Cuban alleges Facebook knowingly profits from AI deepfake scam ads",
-      "score": 7,
-      "tags": [
-        "AI deepfakes",
-        "ad fraud",
-        "platform liability",
-        "Meta/Facebook",
-        "trust and safety"
-      ],
-      "originalSite": "finance.yahoo.com"
-    },
-    {
-      "id": "9362d44df59ff9870ea202fe3a6cedebbffcc994",
-      "canonicalId": "56e817ac2ab89b1020c9beee6097ec00766414ca",
-      "slug": "obscure-audio-codec-adapted-for-n64x27s-rsp",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Obscure audio codec adapted for N64&\\#x27;s RSP",
-      "score": 7,
-      "tags": [
-        "audio codecs",
-        "N64",
-        "retro hardware",
-        "homebrew",
-        "hardware constraints"
-      ],
-      "originalSite": "phoboslab.org"
-    },
-    {
-      "id": "06498dcae3d6ec874f58db34862fd3aed3877dac",
-      "canonicalId": "3c63b1bd263a0a08195a66ff3ba4cc186a48f5f8",
-      "slug": "report-alleges-gpt-6-astra-covertly-underperforms-on-safety-research",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Report Alleges GPT-6 Astra Covertly Underperforms on Safety Research",
-      "score": 7,
-      "tags": [
-        "AI safety",
-        "misalignment",
-        "frontier models",
-        "OpenAI",
-        "model evaluation"
-      ],
-      "originalSite": "alignment.openai.com"
-    },
-    {
-      "id": "55b718f99e2cfcba7d3e84089869d5e5a6bc0314",
-      "canonicalId": "8e567e636c74c99640c707880664b76edf52fd2e",
-      "slug": "dialfork-benchmark-targets-x27procedural-hallucinationx27-in-tool-using-agents",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "DialFork benchmark targets &\\#x27;procedural hallucination&\\#x27; in tool-using agents",
-      "score": 7,
-      "tags": [
-        "LLM agents",
-        "benchmarks",
-        "hallucination",
-        "conversational AI",
-        "tool use"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "031dacd8c6874fedbb0f9ed1732d671dc95ea5ca",
-      "canonicalId": "10b8ba263c7ab02c7d32f546590223b43e00d2ed",
-      "slug": "report-600000-nvidia-h200-chips-stuck-in-hong-kong-awaiting-china-import-approval",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Report: 600,000 Nvidia H200 Chips Stuck in Hong Kong Awaiting China Import Approval",
-      "score": 7,
-      "tags": [
-        "Nvidia H200",
-        "export controls",
-        "China AI hardware",
-        "chip supply chain"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "9f0ccf137c08bc339f53bbbc199ec4b762b369c0",
-      "canonicalId": "f0ec30f7cc800843c8a2d75798bfe2555e031cfb",
-      "slug": "deepseek-harness-reports-154m-daily-users-and-35k-plugins",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "DeepSeek Harness reports 1.54M daily users and 35K plugins",
-      "score": 7,
-      "tags": [
-        "DeepSeek",
-        "AI agents",
-        "插件生态",
-        "开发者平台",
-        "平台指标"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "1575509b5551cbe81bb6babce5a962f054a9d36d",
-      "canonicalId": "5e71e5a9879094e71614821c58a0c9481b74e585",
-      "slug": "google-announces-gemini-omni-12-flash-video-model",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Google announces Gemini Omni 1.2 Flash video model",
-      "score": 7,
-      "tags": [
-        "Gemini",
-        "video generation",
-        "Google DeepMind",
-        "AI models",
-        "pricing"
-      ],
-      "originalSite": "x.com"
-    },
-    {
-      "id": "81b8e00caf8122c667d8b8402941112b1f9e545f",
-      "canonicalId": "493708bde30496160fc5eee1d9e0c7d9aa982b64",
-      "slug": "why-databases-are-global-variables-we-tolerate",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Why Databases Are Global Variables We Tolerate",
-      "score": 6,
-      "tags": [
-        "databases",
-        "global variables",
-        "software design",
-        "coupling",
-        "engineering heuristics"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "a74d5483a670ee5c586fbcfb916f24281b33b7f7",
-      "canonicalId": "8d9d77161f50315601f444ad940ffde95fa34e9e",
-      "slug": "chip-selloff-pushes-nasdaq-100-down-5",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Chip selloff pushes Nasdaq 100 down 5%",
-      "score": 9,
-      "tags": [
-        "美股",
-        "芯片股",
-        "纳斯达克100",
-        "市场抛售",
-        "AI监管"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "fc083d66664064c8b6c6e1bb5d030d559f62ab00",
-      "canonicalId": "26f054c0945d3ad98f58c7f5b85e2c96348e5607",
-      "slug": "china-bars-softbanks-54-billion-abb-robotics-deal-locally",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "China Bars SoftBank’s $5.4 Billion ABB Robotics Deal Locally",
-      "score": 8,
-      "tags": [
-        "China foreign investment review",
-        "SoftBank",
-        "ABB robotics",
-        "cross-border M&amp;A",
-        "strategic technology"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "c15eba1fdec793d612ded4e065747cae47298377",
-      "canonicalId": "0aebc190eec62fbe5a5b0c41f9599883281bdacf",
-      "slug": "democrats-push-data-center-restrictions-after-midterm-wins",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Democrats Push Data Center Restrictions After Midterm Wins",
-      "score": 7,
-      "tags": [
-        "AI infrastructure",
-        "data centers",
-        "US politics",
-        "semiconductor stocks",
-        "regulation"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "968368d8cd091a683401ee63b6e495bf4b9d81f8",
-      "canonicalId": "bb158f4d175826229292ca2e9711b87d84733d2f",
-      "slug": "fedx27s-barkin-says-further-gradual-rate-hikes-may-be-needed",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Fed&\\#x27;s Barkin says further gradual rate hikes may be needed",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "interest rates",
-        "inflation",
-        "monetary policy",
-        "credit risk"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "fac055b0237a50693ea73df8c59bc2dc80523c69",
-      "canonicalId": "b603a54a22ae13511ad9279e55b6debe4783e3c1",
-      "slug": "democratic-midterm-sweep-raises-hawkish-risks-in-us-china-policy-analysts-say",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Democratic midterm sweep raises hawkish risks in U.S.-China policy, analysts say",
-      "score": 7,
-      "tags": [
-        "US-China relations",
-        "2026 US midterms",
-        "tariffs",
-        "Taiwan",
-        "technology policy"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "8d439da3ceac18b2bfc9a15f7bd06adeb6f19542",
-      "canonicalId": "c34468426089e239cbb485d454706ed07035b445",
-      "slug": "micron-pauses-45-billion-taoyuan-plant-amid-labor-dispute",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Micron Pauses $4.5 Billion Taoyuan Plant Amid Labor Dispute",
-      "score": 7,
-      "tags": [
-        "Micron",
-        "Taiwan",
-        "semiconductor manufacturing",
-        "labor dispute",
-        "DRAM"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "aa12833982bdc5912fbc60b03eb6eff4b39043e9",
-      "canonicalId": "e4e51059029bd3cd92e27f79b1e047cd2c80ef84",
-      "slug": "nintendo-switch-2-quarterly-sales-fall-41-earnings-miss",
-      "date": "2026-11-06",
-      "lang": "en",
-      "title": "Nintendo Switch 2 quarterly sales fall 41%; earnings miss",
-      "score": 7,
-      "tags": [
-        "Nintendo",
-        "earnings",
-        "console sales",
-        "gaming hardware",
-        "memory chip costs"
-      ],
-      "originalSite": "mp.weixin.qq.com"
     }
   ]
 }

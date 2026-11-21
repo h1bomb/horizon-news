@@ -1,0 +1,41 @@
+{
+  "id": "1d60cdb567d4cae3cdddf455a29e937706a8872d",
+  "canonicalId": "dc0a65e6fd6d3dfd180592733130d38d895a1de1",
+  "slug": "陶哲轩博客无外力纳维-斯托克斯奇点与广义黎曼猜想",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-20T17:21:00Z",
+  "lang": "zh",
+  "title": "陶哲轩博客：无外力纳维-斯托克斯奇点与广义黎曼猜想",
+  "summary": "陶哲轩（Terry Tao）于 2026 年 11 月 20 日在其个人博客发表文章，标题将无外力欧拉方程奇点、无外力纳维-斯托克斯方程奇点与广义黎曼猜想并列讨论。该条目未随附原文正文，因此文章给出的具体命题、证明路径与成立条件无法在此核实，读者需以博客原文为准。Hacker News 上的讨论则明显偏向形式化验证工具与 AI 对数学研究方式的影响，而非结果本身的数学细节。",
+  "score": 7,
+  "tags": [
+    "mathematics",
+    "Navier-Stokes",
+    "Generalized Riemann Hypothesis",
+    "formal verification",
+    "theorem proving"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "archon1410",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50578358"
+    }
+  ],
+  "originalUrl": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+  "originalSite": "terrytao.wordpress.com",
+  "context": "三维不可压缩纳维–斯托克斯方程解的存在性与光滑性，是克雷数学研究所悬赏 100 万美元的千禧年难题之一，其核心问题是：从光滑初值出发的流体演化能否在有限时间内形成奇点。陶哲轩这篇博客讨论的是无外力情形下的欧拉与纳维–斯托克斯奇点问题，并将其与广义黎曼猜想联系起来；所给材料显示这是博客层面的论述，并未提供经同行评议确认的完整结果。",
+  "discussion": "有评论者引用 Lean 相关的 Zulip 讨论，称两个相互独立的内核都接受了该结果，因此内核被利用出 bug 的可能性较低——这一说法来自社区，未经独立验证。另有评论者（如 sega\\_sai、actusual）表达了职业上的不安，认为 AI 在数学等以“纸笔”推演为主的领域进展迅速，令科研人员的空间变得不确定；也有人追问，这类工作能否创造出新的抽象与概念，而不只是运用既有的 Langlands 纲领等框架。",
+  "references": [
+    {
+      "title": "Navier – Stokes existence and smoothness - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness"
+    },
+    {
+      "title": "$1 million dollar unsolved math problem: Navier – Stokes singularity ...",
+      "url": "https://www.youtube.com/watch?v=9gcTWy2pNFU"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
