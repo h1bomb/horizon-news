@@ -1,0 +1,49 @@
+{
+  "id": "826c5cffff490323e799079f6b947500eeb5cf34",
+  "canonicalId": "4cb2fb025b2b820fd6440fa4cfbdd8b7b18acef6",
+  "slug": "gpgme-漏洞影响-230-之前版本rce-定性存争议",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T08:32:00Z",
+  "lang": "zh",
+  "title": "GPGME 漏洞影响 2.3.0 之前版本，RCE 定性存争议",
+  "summary": "根据社区评论，GPGME 的一个安全漏洞于 2026 年 11 月 20 日公开；评论称，所有把 2.3.0 之前版本用作共享库、DLL 或静态链接的软件都受影响，包括 Gpg4win、多数邮件客户端、部分 XMPP 客户端、Samba 以及 GitLab 的签名提交路径。该条目的标题称存在远程代码执行（RCE），但评论者指出这实际上是双重释放（double free）缺陷，并非已证明的 RCE 利用链。披露时间原定为 11 月 25 日协调公开，后因 GitLab 需为新的 Ruby2Shell 漏洞提前更新而提前。上述影响范围与漏洞定性来自社区评论，尚缺公告正文可供独立核实。",
+  "score": 8,
+  "tags": [
+    "security",
+    "GnuPG",
+    "GPGME",
+    "open source",
+    "vulnerability disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gdgghhhhh",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50587208"
+    }
+  ],
+  "originalUrl": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+  "originalSite": "lists.gnupg.org",
+  "context": "GPGME 是供其他应用程序调用 GnuPG 功能的库。GnuPG 的公告称，该漏洞由 Johan Carlsson 发现、GitLab 于 2026 年 11 月 12 日告知项目；原定 11 月 25 日协调披露，但因 Ruby2Shell 漏洞导致 GitLab 提前更新，披露提前至 11 月 20 日。修复版本为 GPGME 2.3.1，2.3.0 从未公开发布。",
+  "discussion": "评论者对漏洞定性存在分歧：一方认为这是双重释放而非 RCE 利用链，并质疑报告夸大；另一方则强调 GitLab 支持签名提交，若该路径可执行代码，后果严重。还有评论者称 Red Hat 五年前已修补该问题而上游遗漏，并提醒下游软件排查静态链接的旧版 GPGME。",
+  "references": [
+    {
+      "title": "GnuPG Security Advisory for GPGME (T8557,CVE-2026-129975)",
+      "url": "https://lists.gnu.org/archive/html/info-gnu/2026-11/msg00006.html"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via ...",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via ...",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+    },
+    {
+      "title": "GnuPG Security Advisory for GPGME (T8557,CVE-2026-129975)",
+      "url": "https://lists.gnu.org/archive/html/info-gnu/2026-11/msg00006.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

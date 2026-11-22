@@ -1,0 +1,49 @@
+{
+  "id": "184f4e411b29c0dfff8df86c56a79dde35150740",
+  "canonicalId": "4cb2fb025b2b820fd6440fa4cfbdd8b7b18acef6",
+  "slug": "reported-gpgme-vulnerability-affects-pre-230-apps-rce-framing-disputed",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T08:32:00Z",
+  "lang": "en",
+  "title": "Reported GPGME vulnerability affects pre-2.3.0 apps; RCE framing disputed",
+  "summary": "A reported vulnerability in GPGME, a library used by GnuPG-related and downstream applications, affects software built against versions before 2.3.0, according to a commenter who listed Gpg4win, GnuPG Desktop, most mail clients, many XMPP clients, Samba, and Flatpak. The same discussion disputes the “RCE” framing, with one commenter describing the flaw as a double-free bug rather than a proven remote-code-execution chain. A commenter said they were informed by GitLab on 2026-11-12 and disclosed the GPGME bug on 2026-11-20, earlier than a planned 2026-11-25 coordinated date because GitLab had to update for the Ruby2Shell bug. Upstream source content was not available, so the affected-version and severity details remain community-reported.",
+  "score": 8,
+  "tags": [
+    "security",
+    "GnuPG",
+    "GPGME",
+    "open source",
+    "vulnerability disclosure"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gdgghhhhh",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50587208"
+    }
+  ],
+  "originalUrl": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+  "originalSite": "lists.gnupg.org",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GnuPG Security Advisory for GPGME (T8557,CVE-2026-129975)",
+      "url": "https://lists.gnu.org/archive/html/info-gnu/2026-11/msg00006.html"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via ...",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via ...",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+    },
+    {
+      "title": "[Announce] GnuPG Security Advisory for GPGME (T8557,CVE-2026 ...",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "425e2204762a708c520b92895d51575ee4c89d83",
+  "canonicalId": "8fbfc9b53771c9add0f62a90ad38ecfd32289b4e",
+  "slug": "微软预览-usb4-分布式推理多台-pc-合跑本地模型",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T06:13:00Z",
+  "lang": "zh",
+  "title": "微软预览 USB4 分布式推理：多台 PC 合跑本地模型",
+  "summary": "微软发布了 Windows 的 RDMA over USB4 开发者预览，多台 PC 可通过普通 USB4 连接共享内存与 GPU 算力，运行同一个本地 AI 大模型，无需专用网卡或交换机。演示中三台搭载 AMD Ryzen AI Max+ 395 的 PC 以 4-bit 量化运行 Qwen3-235B-A22B，速度约为 18.5 token/s。该功能将通过 Windows Insider 推送。",
+  "score": 7,
+  "tags": [
+    "local AI",
+    "RDMA",
+    "USB4",
+    "Windows",
+    "distributed inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/microsoft-brings-rdma-over-usb4-to-windows-allowing-multiple-pcs-to-run-one-local-ai-model",
+  "originalSite": "videocardz.com",
+  "context": "",
+  "discussion": "对开发者而言，这提供了一条不依赖专用网络硬件的本地分布式推理路径，可用 USB4 把多台机器的内存和 GPU 资源合并起来运行单个模型。不过当前演示依赖三台特定 AMD 设备，且仍是开发者预览，尚不能据此推断普遍硬件兼容性。",
+  "references": [
+    {
+      "title": "Introducing RDMA over USB 4 ® on Windows : run larger local AI ...",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftusbblog/introducing-rdma-over-usb4%C2%AE-on-windows-run-larger-local-ai-models-across-pcs/4574602"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "a1d059faa4eb37d65aa4409707078b1c3370edfa",
+  "canonicalId": "e3142f2708c0814d132acf00c0cf41da51935e69",
+  "slug": "显示器-usb-链路导致下载速度下降-75",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T10:36:00Z",
+  "lang": "zh",
+  "title": "显示器 USB 链路导致下载速度下降 75%",
+  "summary": "一篇硬件调试文章称，作者的有线下载速度被显示器 USB 链路削减了约 75%，根因是数据先经过显示器 USB 集线器再进入以太网适配器所带来的额外延迟，而不是宽带线路本身。该延迟使笔记本无法及时确认收到的数据包，导致以太网适配器缓冲区被填满并开始丢包。作者换用确认频率更低的适配器后，问题得到解决。",
+  "score": 7,
+  "tags": [
+    "USB",
+    "networking",
+    "hardware debugging",
+    "packet loss",
+    "latency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "soheilpro",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50587875"
+    }
+  ],
+  "originalUrl": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+  "originalSite": "blog.tymscar.com",
+  "context": "",
+  "discussion": "使用显示器 USB 集线器或雷电扩展坞连接有线网络的用户，如果遇到无法用带宽解释的吞吐量骤降，应把 USB 链路延迟和适配器缓冲行为列入排查，并通过更换适配器或启用流控来隔离问题；评论中已有 MacBook 加雷电扩展坞的类似经历。\n\n评论者 manarth 认为更准确的描述是“USB 网络交换机拖慢下载”，显示器本身并非关键；fancyfredbot 则补充，真正机制是经过显示器产生的额外延迟使确认不及时、适配器缓冲溢出并丢包。另一位使用 MacBook 和雷电扩展坞的读者表示遇到过同类问题，启用流控后才勉强可用。",
+  "references": [
+    {
+      "title": "My monitor was cutting my download speed by 75% | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50587875"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

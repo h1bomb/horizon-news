@@ -1,6 +1,278 @@
 {
   "articles": [
     {
+      "id": "e6448377dcdcc4e2e9176c836909a439af4ec4a2",
+      "canonicalId": "18d9f9bc59b30c8a09cac823260f4f4782cd2398",
+      "slug": "lean-社区博客展示黎曼猜想的机器验证",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "Lean 社区博客展示黎曼猜想的机器验证",
+      "score": 9,
+      "tags": [
+        "formal verification",
+        "Lean",
+        "theorem proving",
+        "AI-assisted mathematics",
+        "Riemann Hypothesis"
+      ],
+      "originalSite": "leanprover-community.github.io"
+    },
+    {
+      "id": "826c5cffff490323e799079f6b947500eeb5cf34",
+      "canonicalId": "4cb2fb025b2b820fd6440fa4cfbdd8b7b18acef6",
+      "slug": "gpgme-漏洞影响-230-之前版本rce-定性存争议",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "GPGME 漏洞影响 2.3.0 之前版本，RCE 定性存争议",
+      "score": 8,
+      "tags": [
+        "security",
+        "GnuPG",
+        "GPGME",
+        "open source",
+        "vulnerability disclosure"
+      ],
+      "originalSite": "lists.gnupg.org"
+    },
+    {
+      "id": "06308ccf001cca0fa0c994ffaf466dc34fe09afd",
+      "canonicalId": "2a22dd9ef3db573f2ce03f0b0b6892c93056266a",
+      "slug": "浙江大学称首次在天目-2-号芯片真机实现-qram",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "浙江大学称首次在“天目 2 号”芯片真机实现 QRAM",
+      "score": 8,
+      "tags": [
+        "quantum computing",
+        "QRAM",
+        "superconducting qubits",
+        "quantum hardware",
+        "research"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
+      "id": "a1d059faa4eb37d65aa4409707078b1c3370edfa",
+      "canonicalId": "e3142f2708c0814d132acf00c0cf41da51935e69",
+      "slug": "显示器-usb-链路导致下载速度下降-75",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "显示器 USB 链路导致下载速度下降 75%",
+      "score": 7,
+      "tags": [
+        "USB",
+        "networking",
+        "hardware debugging",
+        "packet loss",
+        "latency"
+      ],
+      "originalSite": "blog.tymscar.com"
+    },
+    {
+      "id": "e75156adbe2f332e770618fc98673c33c5b089f8",
+      "canonicalId": "21bd1d482ae20679bdd42e3a7cc50b6c89d8ae11",
+      "slug": "muru面向-asgi-与-wsgi-的-ai-辅助-rust-服务器",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "Muru：面向 ASGI 与 WSGI 的 AI 辅助 Rust 服务器",
+      "score": 7,
+      "tags": [
+        "Python web servers",
+        "ASGI",
+        "WSGI",
+        "Rust",
+        "mod\\_wsgi"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "425e2204762a708c520b92895d51575ee4c89d83",
+      "canonicalId": "8fbfc9b53771c9add0f62a90ad38ecfd32289b4e",
+      "slug": "微软预览-usb4-分布式推理多台-pc-合跑本地模型",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "微软预览 USB4 分布式推理：多台 PC 合跑本地模型",
+      "score": 7,
+      "tags": [
+        "local AI",
+        "RDMA",
+        "USB4",
+        "Windows",
+        "distributed inference"
+      ],
+      "originalSite": "videocardz.com"
+    },
+    {
+      "id": "30a684dcb94cb239b7e716f3ef7fed6594b5d918",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "openrouter-警告-minimax-模型提示词疑遭第三方读取",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "OpenRouter 警告 MiniMax 模型提示词疑遭第三方读取",
+      "score": 7,
+      "tags": [
+        "AI privacy",
+        "API security",
+        "LLM providers",
+        "data retention",
+        "OpenRouter"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "f8e6da1e903f233414165c2afae074154e5ad87d",
+      "canonicalId": "7d3496dec4a8924833bbbe2b34ef28c72501b89f",
+      "slug": "写好代码的关键是避免灾难性失误",
+      "date": "2026-11-22",
+      "lang": "zh",
+      "title": "写好代码的关键是避免灾难性失误",
+      "score": 6,
+      "tags": [
+        "software engineering",
+        "code quality",
+        "codebase maintainability",
+        "consistency",
+        "requirements management"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "8460e9281693845caa2bd25ac2ca51981a17f613",
+      "canonicalId": "18d9f9bc59b30c8a09cac823260f4f4782cd2398",
+      "slug": "lean-verification-of-riemann-hypothesis-reported-as-ai-assisted-result",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Lean verification of Riemann Hypothesis reported as AI-assisted result",
+      "score": 9,
+      "tags": [
+        "formal verification",
+        "Lean",
+        "theorem proving",
+        "AI-assisted mathematics",
+        "Riemann Hypothesis"
+      ],
+      "originalSite": "leanprover-community.github.io"
+    },
+    {
+      "id": "184f4e411b29c0dfff8df86c56a79dde35150740",
+      "canonicalId": "4cb2fb025b2b820fd6440fa4cfbdd8b7b18acef6",
+      "slug": "reported-gpgme-vulnerability-affects-pre-230-apps-rce-framing-disputed",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Reported GPGME vulnerability affects pre-2.3.0 apps; RCE framing disputed",
+      "score": 8,
+      "tags": [
+        "security",
+        "GnuPG",
+        "GPGME",
+        "open source",
+        "vulnerability disclosure"
+      ],
+      "originalSite": "lists.gnupg.org"
+    },
+    {
+      "id": "98387ca1fa26cd5c5a3b21c66f9883e1378502e9",
+      "canonicalId": "2a22dd9ef3db573f2ce03f0b0b6892c93056266a",
+      "slug": "zhejiang-university-reports-first-real-device-qram-on-superconducting-chip",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Zhejiang University reports first real-device QRAM on superconducting chip",
+      "score": 8,
+      "tags": [
+        "quantum computing",
+        "QRAM",
+        "superconducting qubits",
+        "quantum hardware",
+        "research"
+      ],
+      "originalSite": "finance.sina.com.cn"
+    },
+    {
+      "id": "b8faf5af73c5bf9558cc34d938839d47fc5016fc",
+      "canonicalId": "e3142f2708c0814d132acf00c0cf41da51935e69",
+      "slug": "monitorx27s-usb-ethernet-path-cut-download-speed-by-75",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Monitor&\\#x27;s USB Ethernet Path Cut Download Speed by 75%",
+      "score": 7,
+      "tags": [
+        "USB",
+        "networking",
+        "hardware debugging",
+        "packet loss",
+        "latency"
+      ],
+      "originalSite": "blog.tymscar.com"
+    },
+    {
+      "id": "7b147a5692ab380f9eee3998e616fdfa0425611d",
+      "canonicalId": "21bd1d482ae20679bdd42e3a7cc50b6c89d8ae11",
+      "slug": "graham-dumpleton-introduces-muru-an-ai-assisted-rust-server-for-python",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Graham Dumpleton introduces Muru, an AI-assisted Rust server for Python",
+      "score": 7,
+      "tags": [
+        "Python web servers",
+        "ASGI",
+        "WSGI",
+        "Rust",
+        "mod\\_wsgi"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "0fa9f56bda2af2f30533dd02f51d5c30e4520703",
+      "canonicalId": "8fbfc9b53771c9add0f62a90ad38ecfd32289b4e",
+      "slug": "microsoft-previews-rdma-over-usb4-for-multi-pc-local-ai-inference",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Microsoft previews RDMA over USB4 for multi-PC local AI inference",
+      "score": 7,
+      "tags": [
+        "local AI",
+        "RDMA",
+        "USB4",
+        "Windows",
+        "distributed inference"
+      ],
+      "originalSite": "videocardz.com"
+    },
+    {
+      "id": "b571bac545581bfe77ebf5a7bd6e9f30090f3a1f",
+      "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+      "slug": "openrouter-warns-minimax-prompts-may-have-been-read-by-third-parties",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "OpenRouter warns MiniMax prompts may have been read by third parties",
+      "score": 7,
+      "tags": [
+        "AI privacy",
+        "API security",
+        "LLM providers",
+        "data retention",
+        "OpenRouter"
+      ],
+      "originalSite": "news.ycombinator.com"
+    },
+    {
+      "id": "82a444573e54c93ce3db2bb2c510877ba15ae230",
+      "canonicalId": "7d3496dec4a8924833bbbe2b34ef28c72501b89f",
+      "slug": "avoiding-blunders-beats-cleverness-in-good-coding",
+      "date": "2026-11-22",
+      "lang": "en",
+      "title": "Avoiding Blunders Beats Cleverness in Good Coding",
+      "score": 6,
+      "tags": [
+        "software engineering",
+        "code quality",
+        "codebase maintainability",
+        "consistency",
+        "requirements management"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
       "id": "2d54b58976f6fa54c6df82c6fcf7f96898cb287a",
       "canonicalId": "a0ebc9ee452b9f3e92b0eb66c701bb0a417ea009",
       "slug": "inkling-2-mini-开放权重循环-transformer-模型发布",
@@ -5257,378 +5529,6 @@
         "corporate carve-out"
       ],
       "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "d528ed2e6f2f0063a79540d9ef478615d4d70219",
-      "canonicalId": "51ae65540e1b07d1c7fcc41f117e48ce6159b299",
-      "slug": "长江存储武汉第四厂拟-2027-年开工国产设备占比最高-70",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "长江存储武汉第四厂拟 2027 年开工，国产设备占比最高 70%",
-      "score": 8,
-      "tags": [
-        "YMTC",
-        "NAND flash",
-        "semiconductor equipment localization",
-        "China chips",
-        "export controls"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "2dd8e715131678acd540a6935d90202ac6470722",
-      "canonicalId": "68be897c8b54bcd75a9c92a21f06821a33e74f45",
-      "slug": "libghostty-10-首个稳定版发布",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "Libghostty 1.0 首个稳定版发布",
-      "score": 7,
-      "tags": [
-        "terminal emulators",
-        "open source",
-        "software libraries",
-        "Ghostty",
-        "developer tools"
-      ],
-      "originalSite": "mitchellh.com"
-    },
-    {
-      "id": "f2a1fb4ac3f60f0d6dc4d05454a93e741316bf72",
-      "canonicalId": "f441801c064cce85972f578b6c32c3afb1af080c",
-      "slug": "firecracker-逃逸实战针对已披露-pwnescape-漏洞的无-jailer-演示",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "Firecracker 逃逸实战：针对已披露 PwnEscape 漏洞的无 jailer 演示",
-      "score": 7,
-      "tags": [
-        "Firecracker",
-        "VM escape",
-        "virtualization security",
-        "exploit development",
-        "cloud security"
-      ],
-      "originalSite": "pwn.ai"
-    },
-    {
-      "id": "e7195bd42408497236452d1055df54860cf63207",
-      "canonicalId": "4573ee052f7c6d9e6259156720d23e0079ac999e",
-      "slug": "boson-ai-发布-45b-全双工-moe-模型-higgs-realtime-duplex",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "Boson AI 发布 45B 全双工 MoE 模型 Higgs Realtime Duplex",
-      "score": 7,
-      "tags": [
-        "full-duplex models",
-        "multimodal LLM",
-        "speech AI",
-        "mixture-of-experts",
-        "real-time inference"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "ce0daf6b5ad5041b3bac92879943e3d3dfe2ec06",
-      "canonicalId": "21093c7b96e67a8d66b76fe66c96884a104f828d",
-      "slug": "月之暗面据报洽谈在欧洲租用逾-8000-颗英伟达-blackwell-gpu",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "月之暗面据报洽谈在欧洲租用逾 8000 颗英伟达 Blackwell GPU",
-      "score": 7,
-      "tags": [
-        "AI compute",
-        "Nvidia Blackwell",
-        "export controls",
-        "Moonshot AI",
-        "cloud computing"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "c43f22c9f771c1619263d70b7c3755bc0a275537",
-      "canonicalId": "12858662da0c0dd0d27392b628f174177a4c1988",
-      "slug": "百度开源文心-55-flash-base支持百万级上下文",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "百度开源文心 5.5 Flash Base，支持百万级上下文",
-      "score": 7,
-      "tags": [
-        "open-source models",
-        "LLM",
-        "Baidu Wenxin",
-        "Mixture-of-Experts",
-        "long context"
-      ],
-      "originalSite": "news.cn"
-    },
-    {
-      "id": "933133ff59387dade3f044ea524b7f3de4e04f0c",
-      "canonicalId": "3fa5bea399beaf49d02e86fd12ba3b38e47e19b5",
-      "slug": "淘宝-mnn-开源-03b-手机端模型-mnn-pocket-03b",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "淘宝 MNN 开源 0.3B 手机端模型 MNN-Pocket-0.3B",
-      "score": 7,
-      "tags": [
-        "on-device AI",
-        "small language models",
-        "model optimization",
-        "open source",
-        "mobile inference"
-      ],
-      "originalSite": "ithome.com"
-    },
-    {
-      "id": "d1edc4bf8a1cf6d142f36c24959ed5a4bbe8b5ac",
-      "canonicalId": "b4464cc2e438ecdc82dd9a12206b5870cc2f318f",
-      "slug": "与设计师协作的观察",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "与设计师协作的观察",
-      "score": 6,
-      "tags": [
-        "design systems",
-        "frontend engineering",
-        "team dynamics",
-        "design collaboration"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "892228e94903659837ef207d969fc421a8cee860",
-      "canonicalId": "9c5da62bab376f7f6e2b3db1f3362d87942b654b",
-      "slug": "ai-数据中心借贷成本上升coreweave-2032-年债券收益率突破-16",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "AI 数据中心借贷成本上升：CoreWeave 2032 年债券收益率突破 16%",
-      "score": 8,
-      "tags": [
-        "AI data centers",
-        "credit markets",
-        "CoreWeave",
-        "credit default swaps",
-        "corporate debt"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "3114bc3cc9f26a68afefd4fed1856169c74f119c",
-      "canonicalId": "810f7cfcaa930112c61356752bc72ebc1290931a",
-      "slug": "纳斯达克指数跌入回调区间历史走势显示短期或继续承压",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "纳斯达克指数跌入回调区间，历史走势显示短期或继续承压",
-      "score": 8,
-      "tags": [
-        "Nasdaq correction",
-        "US equities",
-        "semiconductors",
-        "midterm elections",
-        "data center policy"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "67a0362099ceb88c9bad09fd8d236e46819d07bb",
-      "canonicalId": "42717f6da7632dae04de3abd95583decdf411259",
-      "slug": "旧金山联储主席戴利预计还需进一步加息",
-      "date": "2026-11-07",
-      "lang": "zh",
-      "title": "旧金山联储主席戴利：预计还需进一步加息",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "inflation",
-        "labor market",
-        "interest rates"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "cc82f79afdb472eeeac43ffd4a3cafd1ec32c8c9",
-      "canonicalId": "51ae65540e1b07d1c7fcc41f117e48ce6159b299",
-      "slug": "yangtze-memory-plans-wuhan-fab-with-up-to-70-domestic-equipment",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Yangtze Memory plans Wuhan fab with up to 70% domestic equipment",
-      "score": 8,
-      "tags": [
-        "YMTC",
-        "NAND flash",
-        "semiconductor equipment localization",
-        "China chips",
-        "export controls"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "c81658798ec55f866d61fa9742dba99eb3dc99d1",
-      "canonicalId": "68be897c8b54bcd75a9c92a21f06821a33e74f45",
-      "slug": "libghostty-10-released-as-embeddable-terminal-library",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Libghostty 1.0 Released as Embeddable Terminal Library",
-      "score": 7,
-      "tags": [
-        "terminal emulators",
-        "open source",
-        "software libraries",
-        "Ghostty",
-        "developer tools"
-      ],
-      "originalSite": "mitchellh.com"
-    },
-    {
-      "id": "05382e187f94e08dd148167ebe8291fb8f6843fc",
-      "canonicalId": "f441801c064cce85972f578b6c32c3afb1af080c",
-      "slug": "firecracker-escape-write-up-exploits-already-disclosed-pwnescape-without-jailer",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Firecracker escape write-up exploits already-disclosed PwnEscape without jailer",
-      "score": 7,
-      "tags": [
-        "Firecracker",
-        "VM escape",
-        "virtualization security",
-        "exploit development",
-        "cloud security"
-      ],
-      "originalSite": "pwn.ai"
-    },
-    {
-      "id": "33a70eb5bb31ec9abd139ea7030db0928c6eac86",
-      "canonicalId": "4573ee052f7c6d9e6259156720d23e0079ac999e",
-      "slug": "boson-ai-unveils-higgs-realtime-duplex-a-45b-full-duplex-multimodal-model",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Boson AI unveils Higgs Realtime Duplex, a 45B full-duplex multimodal model",
-      "score": 7,
-      "tags": [
-        "full-duplex models",
-        "multimodal LLM",
-        "speech AI",
-        "mixture-of-experts",
-        "real-time inference"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "9fa0e537e16b27a2b3a79c91d78288efa9d5cb8a",
-      "canonicalId": "21093c7b96e67a8d66b76fe66c96884a104f828d",
-      "slug": "moonshot-ai-reportedly-seeks-8000-nvidia-blackwell-gpus-in-europe",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Moonshot AI reportedly seeks 8,000+ Nvidia Blackwell GPUs in Europe",
-      "score": 7,
-      "tags": [
-        "AI compute",
-        "Nvidia Blackwell",
-        "export controls",
-        "Moonshot AI",
-        "cloud computing"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "01a3572b2c65175d53ec2c1e21c91071b5051f8e",
-      "canonicalId": "12858662da0c0dd0d27392b628f174177a4c1988",
-      "slug": "baidu-open-sources-wenxin-55-flash-base-a-280b-moe-model",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Baidu open-sources Wenxin 5.5 Flash Base, a 280B MoE model",
-      "score": 7,
-      "tags": [
-        "open-source models",
-        "LLM",
-        "Baidu Wenxin",
-        "Mixture-of-Experts",
-        "long context"
-      ],
-      "originalSite": "news.cn"
-    },
-    {
-      "id": "8478942f13bf24b256031f4ac8fd2ffe4b91e2bb",
-      "canonicalId": "3fa5bea399beaf49d02e86fd12ba3b38e47e19b5",
-      "slug": "taobao-mnn-team-open-sources-03b-phone-model",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Taobao MNN team open-sources 0.3B phone model",
-      "score": 7,
-      "tags": [
-        "on-device AI",
-        "small language models",
-        "model optimization",
-        "open source",
-        "mobile inference"
-      ],
-      "originalSite": "ithome.com"
-    },
-    {
-      "id": "49a95419ac939165d3cfef428c3a00bf96b3983c",
-      "canonicalId": "b4464cc2e438ecdc82dd9a12206b5870cc2f318f",
-      "slug": "why-one-designer-per-team-often-works-best",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Why One Designer Per Team Often Works Best",
-      "score": 6,
-      "tags": [
-        "design systems",
-        "frontend engineering",
-        "team dynamics",
-        "design collaboration"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "8dcd452cb6bb32d55b490d0657c80cb71b51006b",
-      "canonicalId": "9c5da62bab376f7f6e2b3db1f3362d87942b654b",
-      "slug": "coreweave-bond-yield-tops-16-as-ai-data-center-credit-stress-rises",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "CoreWeave Bond Yield Tops 16% as AI Data-Center Credit Stress Rises",
-      "score": 8,
-      "tags": [
-        "AI data centers",
-        "credit markets",
-        "CoreWeave",
-        "credit default swaps",
-        "corporate debt"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "1b69c69d798af3e17af20d8a1c6fee2193cc00b8",
-      "canonicalId": "810f7cfcaa930112c61356752bc72ebc1290931a",
-      "slug": "nasdaq-closes-in-correction-territory-after-5-one-day-slide",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Nasdaq closes in correction territory after 5% one-day slide",
-      "score": 8,
-      "tags": [
-        "Nasdaq correction",
-        "US equities",
-        "semiconductors",
-        "midterm elections",
-        "data center policy"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "ce968e242604e6ddc28817c6b08ad699d661ff83",
-      "canonicalId": "42717f6da7632dae04de3abd95583decdf411259",
-      "slug": "fedx27s-daly-says-further-rate-hikes-likely-as-inflation-persists",
-      "date": "2026-11-07",
-      "lang": "en",
-      "title": "Fed&\\#x27;s Daly Says Further Rate Hikes Likely as Inflation Persists",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "inflation",
-        "labor market",
-        "interest rates"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }

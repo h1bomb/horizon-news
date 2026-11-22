@@ -1,0 +1,31 @@
+{
+  "id": "82a444573e54c93ce3db2bb2c510877ba15ae230",
+  "canonicalId": "7d3496dec4a8924833bbbe2b34ef28c72501b89f",
+  "slug": "avoiding-blunders-beats-cleverness-in-good-coding",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T00:00:00Z",
+  "lang": "en",
+  "title": "Avoiding Blunders Beats Cleverness in Good Coding",
+  "summary": "rss · Sean Goedecke · Nov 22, 00:00\n\n**「Background」** In Sean Goedecke&\\#x27;s essay, he argues that engineers wrongly treat programming as a search for brilliant insights; in his view, the main skill is avoiding catastrophic mistakes, much as steady chess or tennis play beats opponents who blunder. He scopes the advice to large commercial codebases worked on by big teams.\n\n**「Solution」** Programming differs, Goedecke says, because unlike basketball, a lead cannot protect you: one bad decision can turn an elegant codebase janky. He lists characteristic blunders—introducing a parallel system for an existing task, creating a second source of truth, converting safe synchronous code into delicate async code, adding subtle failure points, or complicating a key interface. The underlying sins are inconsistency and unnecessary requirements. Inconsistency destroys trust, forcing engineers to hunt for surprises instead of assuming sensible behavior. Unnecessary requirements persist because later maintainers lack the context to remove them, and they interact combinatorially with each new feature, making large codebases hard to change. His prescription is to place a task in the most normal existing path and trim it to the smallest requirement set, leaving no attention for clever patterns or extra credit. He notes that coding agents match humans on consistency but lag on avoiding unnecessary requirements.\n\n**「Takeaway」** Goedecke&\\#x27;s thesis is that great programming depends less on cleverness than on disciplined attention: maintain consistency and refuse unnecessary requirements, because avoiding blunders is the durable advantage.\n\n**Tags**: `#software engineering`, `#code quality`, `#codebase maintainability`, `#consistency`, `#requirements management`",
+  "score": 6,
+  "tags": [
+    "software engineering",
+    "code quality",
+    "codebase maintainability",
+    "consistency",
+    "requirements management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/to-code-well-avoid-blunders/",
+  "originalSite": "seangoedecke.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

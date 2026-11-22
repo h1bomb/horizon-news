@@ -1,0 +1,31 @@
+{
+  "id": "f8e6da1e903f233414165c2afae074154e5ad87d",
+  "canonicalId": "7d3496dec4a8924833bbbe2b34ef28c72501b89f",
+  "slug": "写好代码的关键是避免灾难性失误",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T00:00:00Z",
+  "lang": "zh",
+  "title": "写好代码的关键是避免灾难性失误",
+  "summary": "rss · Sean Goedecke · 11月22日 00:00\n\n**「背景」** 许多工程师把编程想象成追求灵光一现的巧妙抽象，但作者认为，写好代码的关键恰恰是避免灾难性失误，而不是比谁更聪明。\n\n**「方案」** 作者以国际象棋和网球作类比：只要不送子、能把球稳稳回过去，就能赢过大多数对手。编程之所以如此，是因为它无法积累持久优势——篮球 99 比 1 领先时，一次失误最多变成 99 比 4，而代码库里一个失误就能让优雅的系统变得摇摇欲坠。他列举的典型失误包括：为同一任务另起一套并行系统、为关键数据制造第二个事实来源、把安全的同步操作改成脆弱的异步操作、增加细微的新失败点、把关键接口复杂化。根源是不一致与不必要的需求：哪怕一点不一致也会破坏信任，工程师不再能假设代码按常理工作，而要四处提防意外；不必要需求的危险则在于“粘性”（后来者难以判断其是否必要，只能保留）和组合爆炸（支持了 X 之后，每个新功能都要考虑与 X 的交互，这正是大型代码库难做的原因）。因此作者主张：把任务放进代码库最“正常”的位置，并裁剪到最小的需求集合；一旦冒出“可以用某个巧妙模式实现”的念头，就该视为分心和行将失误的警告。他限定讨论范围是大团队维护的大型商业代码库，并猜测“从不失误”约相当于 1600–1700 的国际象棋等级分。\n\n**「启示」** 作者的核心论点是：写出优秀的代码并不需要聪明，聪明有时反而是劣势；真正需要的是对细节的关注，以及把“保持一致、砍掉多余需求”放在首位的专注。\n\n**标签**: `#software engineering`, `#code quality`, `#codebase maintainability`, `#consistency`, `#requirements management`",
+  "score": 6,
+  "tags": [
+    "software engineering",
+    "code quality",
+    "codebase maintainability",
+    "consistency",
+    "requirements management"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/to-code-well-avoid-blunders/",
+  "originalSite": "seangoedecke.com",
+  "context": "许多工程师把编程想象成追求灵光一现的巧妙抽象，但作者认为，写好代码的关键恰恰是避免灾难性失误，而不是比谁更聪明。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

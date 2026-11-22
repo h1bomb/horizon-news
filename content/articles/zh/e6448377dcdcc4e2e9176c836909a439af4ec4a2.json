@@ -1,0 +1,57 @@
+{
+  "id": "e6448377dcdcc4e2e9176c836909a439af4ec4a2",
+  "canonicalId": "18d9f9bc59b30c8a09cac823260f4f4782cd2398",
+  "slug": "lean-社区博客展示黎曼猜想的机器验证",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T14:36:00Z",
+  "lang": "zh",
+  "title": "Lean 社区博客展示黎曼猜想的机器验证",
+  "summary": "Lean 社区博客发布文章，展示黎曼猜想的 Lean 形式化验证；社区讨论将其描述为一次大规模、AI 辅助的数学形式化工作。但提供的材料没有给出证明脚本、Lean 版本、依赖、作者名单或可复现步骤，也没有说明验证对象是黎曼猜想还是广义黎曼猜想（评论中两者混用），因此这仍是待独立核验的声明。对形式化数学社区而言，下一步关键是确认证明是否通过 Lean 内核检查、使用了哪些公理和依赖，以及所谓独立检查器是否真的相互独立。",
+  "score": 9,
+  "tags": [
+    "formal verification",
+    "Lean",
+    "theorem proving",
+    "AI-assisted mathematics",
+    "Riemann Hypothesis"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "g-b-r",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50589618"
+    }
+  ],
+  "originalUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+  "originalSite": "leanprover-community.github.io",
+  "context": "Lean 的核（kernel）是一个小型证明检查器；形式化证明只有通过它以及可选的外部检查器，才会被视为机器验证。这项验证承接前一日的事态：Anthropic 的 Levent Alpöge 于 2026 年 11 月 20 日称与 Claude 找到黎曼猜想的证明，并称其方法可处理广义黎曼猜想，同时公开了 PDF 说明和 Lean 代码。当时报道对验证状态并不一致：有报道称归档可编译、可经 Lean 内核重放并通过 nanoda 检查，但完整论证仍待独立审阅；也有报道称 Lean FRO 与 Mathlib 已发布联合声明认定其正确。",
+  "discussion": "有评论认为，由于存在多个不同实现的内核及各自的一致性证明，黎曼猜想证明因内核 bug 而失效的可能性已经很小；但也有人提醒，过去曾有假的反驳通过某个检查器，因此不能把“独立检查”当成绝对保证。另有评论把主要功劳归于 Levent 对 Claude 的调度，并追问这类大结果是否会引出更重大的数学问题。",
+  "references": [
+    {
+      "title": "Riemann Hypothesis Proof Claim: Claimed vs Verified ...",
+      "url": "https://explainx.ai/blog/levent-alpoge-anthropic-riemann-hypothesis-claude-lean-proof-claimed-vs-verified-2026"
+    },
+    {
+      "title": "Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean ...",
+      "url": "https://www.unite.ai/levent-alpoges-unverified-riemann-claim-puts-claudes-lean-code-in-focus/"
+    },
+    {
+      "title": "Lean Community Certifies Levent Alpöge’s Claude-Assisted ...",
+      "url": "https://officechai.com/ai/lean-community-certifies-levent-alpoges-claude-assisted-proof-of-the-riemann-hypothesis-as-correct/"
+    },
+    {
+      "title": "Anthropic mathematician claims AI - assisted proof of the Riemann ...",
+      "url": "https://www.newscientist.com/article/2600134-anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis/"
+    },
+    {
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and...",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+      "title": "Claude helped prove 167-year-old Riemann hypothesis , researcher...",
+      "url": "https://interestingengineering.com/ai-robotics/anthropic-167-year-old-riemann-hypothesis-claude"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

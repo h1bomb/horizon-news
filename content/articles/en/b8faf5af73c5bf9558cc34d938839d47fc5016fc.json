@@ -1,0 +1,37 @@
+{
+  "id": "b8faf5af73c5bf9558cc34d938839d47fc5016fc",
+  "canonicalId": "e3142f2708c0814d132acf00c0cf41da51935e69",
+  "slug": "monitorx27s-usb-ethernet-path-cut-download-speed-by-75",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T10:36:00Z",
+  "lang": "en",
+  "title": "Monitor&\\#x27;s USB Ethernet Path Cut Download Speed by 75%",
+  "summary": "The blog post traces a 75% download-speed loss to the USB networking path built into a monitor, not to the Ethernet link itself. Extra latency through the monitor&\\#x27;s USB hub delayed packet acknowledgements; the Ethernet adapter&\\#x27;s buffer filled and began dropping packets. A different adapter that required less frequent acknowledgement resolved the problem.",
+  "score": 7,
+  "tags": [
+    "USB",
+    "networking",
+    "hardware debugging",
+    "packet loss",
+    "latency"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "soheilpro",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50587875"
+    }
+  ],
+  "originalUrl": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+  "originalSite": "blog.tymscar.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "My monitor was cutting my download speed by 75% | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50587875"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "30a684dcb94cb239b7e716f3ef7fed6594b5d918",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "openrouter-警告-minimax-模型提示词疑遭第三方读取",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T06:53:00Z",
+  "lang": "zh",
+  "title": "OpenRouter 警告 MiniMax 模型提示词疑遭第三方读取",
+  "summary": "OpenRouter 通过邮件通知用户，发往 MiniMax 模型的请求内容可能已被第三方读取；安全研究者在 2026 年 7 月至 10 月向这些模型发送了含测试 URL 的提示词，第三方在 40 至 130 小时后访问了这些 URL。OpenRouter 将问题指向 MiniMax 及其转发方 AtlasCloud、Novita 和 StreamLake，并已移除相关端点的“零数据保留”标签。OpenRouter 建议曾传递敏感凭证的用户更换 API Key 和密码。上述说法来自 Telegram 摘要，该摘要转述了 Hacker News 的内容；OpenRouter 官网暂未公布相关消息，目前尚无原始公告或独立确认。",
+  "score": 7,
+  "tags": [
+    "AI privacy",
+    "API security",
+    "LLM providers",
+    "data retention",
+    "OpenRouter"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=50585962",
+  "originalSite": "news.ycombinator.com",
+  "context": "OpenRouter 是代理层，会把用户请求转发给实际模型提供方，因此端点标注的数据政策取决于上游提供商如何处理请求。OpenRouter 将端点数据政策分为 ZDR、Safety Retention 和 Retention and Training 三档，用户可据此判断相关端点采用哪一档保留与训练规则。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenRouter FAQ",
+      "url": "https://openrouter.ai/docs/faq"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

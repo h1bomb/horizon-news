@@ -1,0 +1,31 @@
+{
+  "id": "06308ccf001cca0fa0c994ffaf466dc34fe09afd",
+  "canonicalId": "2a22dd9ef3db573f2ce03f0b0b6892c93056266a",
+  "slug": "浙江大学称首次在天目-2-号芯片真机实现-qram",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T08:31:00Z",
+  "lang": "zh",
+  "title": "浙江大学称首次在“天目 2 号”芯片真机实现 QRAM",
+  "summary": "浙江大学团队称，已在自主制备的超导量子芯片“天目 2 号”上全球首次于真机实现量子随机存储器（QRAM），相关成果发表于《自然·物理》。芯片上运行了可调取 4 位和 8 位数据的原型，准确率分别为 80.9%和 60.4%，线路深度较未优化方案降低 30%以上，并首次验证该架构具备局部抗噪特性。团队下一步将推进 QRAM 的规模化研究，但 8 位原型 60.4%的准确率表明该能力仍处于早期验证阶段。",
+  "score": 8,
+  "tags": [
+    "quantum computing",
+    "QRAM",
+    "superconducting qubits",
+    "quantum hardware",
+    "research"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3530826.shtml",
+  "originalSite": "finance.sina.com.cn",
+  "context": "QRAM（量子随机存储器）被设想为量子计算机的内存层，使量子算法能以叠加方式调取数据，而不必先把数据转成经典信息。其物理实现通常需要大量量子比特和较深的线路，这也是该架构长期难以在真机上落地的原因之一。",
+  "discussion": "对量子算法与硬件团队而言，这一原型表明 QRAM 已能在超导芯片上运行；若用于短期演示，则需把 8 位模式约四成的不准确率计入误差预算。4 位与 8 位准确率的明显差距意味着，规模化仍需重新评估保真度与线路设计。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "b571bac545581bfe77ebf5a7bd6e9f30090f3a1f",
+  "canonicalId": "49db83e253edbf0771d468b99bafbdd0476979fa",
+  "slug": "openrouter-warns-minimax-prompts-may-have-been-read-by-third-parties",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T06:53:00Z",
+  "lang": "en",
+  "title": "OpenRouter warns MiniMax prompts may have been read by third parties",
+  "summary": "OpenRouter has reportedly notified users that prompts sent to MiniMax models may have been read by third parties, and it removed the &quot;zero data retention&quot; labels from affected MiniMax endpoints and the forwarding providers AtlasCloud, Novita, and StreamLake. The warning says security researchers sent prompts containing test URLs to MiniMax models between July and October 2026 and that third parties accessed those URLs 40 to 130 hours later. OpenRouter advised users who may have exposed sensitive credentials to rotate API keys and passwords, but no primary advisory is available and OpenRouter&\\#x27;s website had not published the notice.",
+  "score": 7,
+  "tags": [
+    "AI privacy",
+    "API security",
+    "LLM providers",
+    "data retention",
+    "OpenRouter"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://news.ycombinator.com/item?id=50585962",
+  "originalSite": "news.ycombinator.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "OpenRouter FAQ",
+      "url": "https://openrouter.ai/docs/faq"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

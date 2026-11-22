@@ -1,0 +1,36 @@
+{
+  "id": "e75156adbe2f332e770618fc98673c33c5b089f8",
+  "canonicalId": "21bd1d482ae20679bdd42e3a7cc50b6c89d8ae11",
+  "slug": "muru面向-asgi-与-wsgi-的-ai-辅助-rust-服务器",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T23:56:00Z",
+  "lang": "zh",
+  "title": "Muru：面向 ASGI 与 WSGI 的 AI 辅助 Rust 服务器",
+  "summary": "Graham Dumpleton（mod\\_wsgi 的创建者）发布了 Muru，这是一个用 Rust 编写、借助 AI 辅助开发的 Python Web 服务器，目标是在开发和部署环境中运行 ASGI 与 WSGI 应用。Simon Willison 在 2026 年 11 月 21 日的文章中介绍了该项目，并链接了 Dumpleton 自 11 月 4 日起约三周内发布的十余篇开发记录，内容涉及 worker 结构、开发环境 HTTPS、WSGI 与 ASGI 共存、不重启发布、金丝雀发布、Kubernetes 集成、缩容到零以及带追踪的工具栏。该项目仍处于早期阶段，没有正式版本或独立的生产验证；Dumpleton 表示 AI 承担了大量表面工作，但判断哪些部分还不够好仍由他负责，他会持续打磨到可信任为止。",
+  "score": 7,
+  "tags": [
+    "Python web servers",
+    "ASGI",
+    "WSGI",
+    "Rust",
+    "mod\\_wsgi"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/21/muru/",
+  "originalSite": "simonwillison.net",
+  "context": "WSGI 与 ASGI 是 Python Web 应用连接服务器的两套接口，前者面向传统同步应用，后者支持异步。Graham Dumpleton 二十年前启动了 mod\\_wsgi，并持续思考生产环境中的 Python Web 应用托管方式；Muru 正是这一思路下同时支持 ASGI 和 WSGI 的新服务器。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Muru : WSGI and ASGI together - Graham Dumpleton",
+      "url": "https://grahamdumpleton.me/posts/2026/11/muru-wsgi-and-asgi-together/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

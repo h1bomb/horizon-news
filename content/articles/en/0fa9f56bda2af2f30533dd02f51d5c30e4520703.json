@@ -1,0 +1,36 @@
+{
+  "id": "0fa9f56bda2af2f30533dd02f51d5c30e4520703",
+  "canonicalId": "8fbfc9b53771c9add0f62a90ad38ecfd32289b4e",
+  "slug": "microsoft-previews-rdma-over-usb4-for-multi-pc-local-ai-inference",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T06:13:00Z",
+  "lang": "en",
+  "title": "Microsoft previews RDMA over USB4 for multi-PC local AI inference",
+  "summary": "Microsoft released a Windows developer preview of RDMA over USB4 that lets multiple PCs share memory and GPU resources to run a single local AI model without a dedicated network card or switch. In a demo, three systems with AMD Ryzen AI Max+ 395 chips ran 4-bit quantized Qwen3-235B-A22B at about 18.5 tokens per second. Microsoft says the preview will be distributed through Windows Insider.",
+  "score": 7,
+  "tags": [
+    "local AI",
+    "RDMA",
+    "USB4",
+    "Windows",
+    "distributed inference"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://videocardz.com/newz/microsoft-brings-rdma-over-usb4-to-windows-allowing-multiple-pcs-to-run-one-local-ai-model",
+  "originalSite": "videocardz.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Introducing RDMA over USB 4 ® on Windows : run larger local AI ...",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftusbblog/introducing-rdma-over-usb4%C2%AE-on-windows-run-larger-local-ai-models-across-pcs/4574602"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

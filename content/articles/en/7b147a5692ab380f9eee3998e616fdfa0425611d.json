@@ -1,0 +1,36 @@
+{
+  "id": "7b147a5692ab380f9eee3998e616fdfa0425611d",
+  "canonicalId": "21bd1d482ae20679bdd42e3a7cc50b6c89d8ae11",
+  "slug": "graham-dumpleton-introduces-muru-an-ai-assisted-rust-server-for-python",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-21T23:56:00Z",
+  "lang": "en",
+  "title": "Graham Dumpleton introduces Muru, an AI-assisted Rust server for Python",
+  "summary": "Graham Dumpleton, creator of mod\\_wsgi, has introduced Muru, an early-stage AI-assisted Rust server for running ASGI and WSGI Python applications in development and production. Muru is not presented as a finished release; Dumpleton has published 18 detailed posts between November 4 and November 21, 2026, covering worker architecture, HTTPS in development, combined WSGI/ASGI support, releases without restarts, canaries, Kubernetes integration, scaling to zero, and tracing. Dumpleton says AI is doing much of the surface work, but that he decides what is not good enough yet, drawing on 20 years of mod\\_wsgi experience, and that he will keep polishing Muru until he would trust it.",
+  "score": 7,
+  "tags": [
+    "Python web servers",
+    "ASGI",
+    "WSGI",
+    "Rust",
+    "mod\\_wsgi"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/21/muru/",
+  "originalSite": "simonwillison.net",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Muru : WSGI and ASGI together - Graham Dumpleton",
+      "url": "https://grahamdumpleton.me/posts/2026/11/muru-wsgi-and-asgi-together/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
