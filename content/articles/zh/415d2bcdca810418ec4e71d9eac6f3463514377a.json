@@ -1,0 +1,36 @@
+{
+  "id": "415d2bcdca810418ec4e71d9eac6f3463514377a",
+  "canonicalId": "8711b167141dcb274c9438cef56e114e2c1ee53d",
+  "slug": "windows-server-2028-将默认移除-wow6432-位应用需手动装回",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T03:03:00Z",
+  "lang": "zh",
+  "title": "Windows Server 2028 将默认移除 WoW64，32 位应用需手动装回",
+  "summary": "微软在 Ignite 2026 上宣布，Windows Server 2028 将默认不包含 WoW64 兼容子系统，因此系统初始状态下无法运行 32 位应用；该版本计划于 2027 年秋季与 Windows 11 27H2 一同发布。需要兼容旧软件的管理员可以通过按需功能（FoD）手动装回 WoW64，在 Server Core 上通常使用 PowerShell 或 DISM 添加。微软给出的理由是缩小攻击面、阻止 32 位恶意软件，但这是否适用于所有部署场景尚未说明。Windows 11 目前仍保留 WoW64，微软未公布移除计划。",
+  "score": 7,
+  "tags": [
+    "Windows Server",
+    "WoW64",
+    "32-bit compatibility",
+    "Microsoft",
+    "enterprise IT"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.windowslatest.com/2026/11/23/32-bit-apps-days-are-numbered-as-microsoft-strips-support-bit-by-bit-starting-with-windows-server-2028-but-windows-11-is-safe-for-now/",
+  "originalSite": "windowslatest.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Windows Server 2028 to remove 32-bit app support for improved ...",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-is-removing-32-bit-app-support-from-the-next-version-of-windows-server-wow64-subsystem-to-become-optional-component-to-reduce-malware-attack-surface"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

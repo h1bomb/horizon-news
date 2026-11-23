@@ -1,0 +1,40 @@
+{
+  "id": "8ade2059aa5cd49749ec6eef61c4de403bf90276",
+  "canonicalId": "8711b167141dcb274c9438cef56e114e2c1ee53d",
+  "slug": "windows-server-2028-to-drop-wow64-by-default-32-bit-apps-need-manual-add",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T03:03:00Z",
+  "lang": "en",
+  "title": "Windows Server 2028 to drop WoW64 by default, 32-bit apps need manual add",
+  "summary": "Microsoft said at Ignite 2026 that Windows Server 2028 will ship without the WoW64 compatibility subsystem by default, so 32-bit applications will not run out of the box. The release is planned for fall 2027 alongside Windows 11 27H2. Administrators who need 32-bit support can add WoW64 back as a Feature on Demand, typically through PowerShell or DISM on Server Core. Microsoft cited reducing attack surface and blocking 32-bit malware as the rationale; Windows 11 still includes WoW64 and Microsoft has not announced a removal plan for it.",
+  "score": 7,
+  "tags": [
+    "Windows Server",
+    "WoW64",
+    "32-bit compatibility",
+    "Microsoft",
+    "enterprise IT"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.windowslatest.com/2026/11/23/32-bit-apps-days-are-numbered-as-microsoft-strips-support-bit-by-bit-starting-with-windows-server-2028-but-windows-11-is-safe-for-now/",
+  "originalSite": "windowslatest.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Windows Server 2028 to remove 32-bit app support for improved ...",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-is-removing-32-bit-app-support-from-the-next-version-of-windows-server-wow64-subsystem-to-become-optional-component-to-reduce-malware-attack-surface"
+    },
+    {
+      "title": "32-bit Windows apps won&#x27;t run by default on Windows Server 2028",
+      "url": "https://mezha.net/eng/news/mezha-568ac4f109c1bdf3a06d55a8_32-bit_windows_apps/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

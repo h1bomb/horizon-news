@@ -1,0 +1,41 @@
+{
+  "id": "3d50dd4d165a14d819f0534448ea5a66eb64f3b7",
+  "canonicalId": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+  "slug": "openai-发文主张低困惑度对应更强模型智能",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-22T17:06:00Z",
+  "lang": "zh",
+  "title": "OpenAI 发文主张低困惑度对应更强模型智能",
+  "summary": "OpenAI 发布一篇概念性文章，主张更低的下一 token 困惑度对应更强的模型智能，并把这一简单指标与日益复杂的模型评测方式相提并论。现有材料没有提供文章全文，也没有显示 OpenAI 同时发布新模型、新数据集或可独立复现的评测结果，因此其具体论据和实验范围仍无法核实。",
+  "score": 7,
+  "tags": [
+    "llm-evaluation",
+    "perplexity",
+    "scaling-laws",
+    "benchmarking",
+    "openai"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "acossta",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50601525"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/perplexity-and-intelligence/",
+  "originalSite": "openai.com",
+  "context": "困惑度（perplexity）衡量语言模型预测下一个 token 时的平均不确定性：数值越低，表示模型对文本越不“意外”。在 GPT‑2 时期，OpenAI 曾以在旧数据集上刷新困惑度最优成绩来展示其生成连贯段落的能力；如今这篇由首席科学家 Jakub Pachocki 署名的文章再次把预训练模型的测试集困惑度与模型能力联系起来，因而需要区分该指标测的是下一 token 预测器本身的表现。",
+  "discussion": "对模型评测者而言，这篇文章的实际影响是促使人们重新审视困惑度作为简单、可解释候选指标的适用边界；但要用它做横向比较，必须固定分词方式、词表和评测序列，否则不同模型的数值不可直接对照。\n\n评论中，hazrmard 指出原文并未定义困惑度，并解释其最差情况等于词表大小、最好情况为 1；jrflo 对强化学习时代交叉熵损失仍显示清晰趋势感到意外，同时欢迎比复杂基准更简单的指标。d\\_burfoot 则认为预测率即压缩率，困惑度与智能的对应“事后看理所当然”，并引用自己 2008 年的论文支持这一观点。",
+  "references": [
+    {
+      "title": "Perplexity and Intelligence | OpenAI",
+      "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+      "title": "Perplexity and Intelligence | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50601525"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

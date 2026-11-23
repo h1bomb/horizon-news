@@ -1,6 +1,208 @@
 {
   "articles": [
     {
+      "id": "3d50dd4d165a14d819f0534448ea5a66eb64f3b7",
+      "canonicalId": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+      "slug": "openai-发文主张低困惑度对应更强模型智能",
+      "date": "2026-11-23",
+      "lang": "zh",
+      "title": "OpenAI 发文主张低困惑度对应更强模型智能",
+      "score": 7,
+      "tags": [
+        "llm-evaluation",
+        "perplexity",
+        "scaling-laws",
+        "benchmarking",
+        "openai"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "76aaa40889b5d5ba8c19f3052a51904d1b797c65",
+      "canonicalId": "0fed198089e6566a7b1851b8081e98b2e8b63042",
+      "slug": "英媒指太子集团相关网络涉走私英伟达芯片入华",
+      "date": "2026-11-23",
+      "lang": "zh",
+      "title": "英媒指太子集团相关网络涉走私英伟达芯片入华",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "chip smuggling",
+        "export controls",
+        "AI hardware supply chain"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "415d2bcdca810418ec4e71d9eac6f3463514377a",
+      "canonicalId": "8711b167141dcb274c9438cef56e114e2c1ee53d",
+      "slug": "windows-server-2028-将默认移除-wow6432-位应用需手动装回",
+      "date": "2026-11-23",
+      "lang": "zh",
+      "title": "Windows Server 2028 将默认移除 WoW64，32 位应用需手动装回",
+      "score": 7,
+      "tags": [
+        "Windows Server",
+        "WoW64",
+        "32-bit compatibility",
+        "Microsoft",
+        "enterprise IT"
+      ],
+      "originalSite": "windowslatest.com"
+    },
+    {
+      "id": "7da5a2a6bde7e9fc849a7db85938783ca2f1bedb",
+      "canonicalId": "c9db62b254d2b30946f2f2620be5e1e683f96b77",
+      "slug": "在不确定中主动试探",
+      "date": "2026-11-23",
+      "lang": "zh",
+      "title": "在不确定中主动试探",
+      "score": 6,
+      "tags": [
+        "engineering-judgment",
+        "experimentation",
+        "feedback-loops",
+        "product-discovery",
+        "organizational-engineering"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "b1d4bcc9410b7dfdf70a056a39a87e6b3730073c",
+      "canonicalId": "bdbb6790d49d22d1cfda199eed036ac30ba2b2a2",
+      "slug": "美股科技股大幅下挫亚洲多地推出稳市措施",
+      "date": "2026-11-23",
+      "lang": "zh",
+      "title": "美股科技股大幅下挫，亚洲多地推出稳市措施",
+      "score": 9,
+      "tags": [
+        "US tech stocks",
+        "market selloff",
+        "Asia market policy",
+        "margin requirements",
+        "short-selling restrictions"
+      ],
+      "originalSite": "news.bjd.com.cn"
+    },
+    {
+      "id": "e7e7e705b5b75c723e930cff883e04d1b5f00f38",
+      "canonicalId": "4235871e0ac7c7d67a8cc5d352fe435ecc59c0ab",
+      "slug": "蚂蚁集团领投-simplexity-robotics-1-亿美元-pre-a-轮投后估值-16-亿美元",
+      "date": "2026-11-23",
+      "lang": "zh",
+      "title": "蚂蚁集团领投 Simplexity Robotics 1 亿美元 pre-A 轮，投后估值 16 亿美元",
+      "score": 7,
+      "tags": [
+        "embodied AI",
+        "humanoid robotics",
+        "venture financing",
+        "Ant Group",
+        "China tech"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "fa90d5c2345659459e1e14e47b9b7d4fa7cecf0f",
+      "canonicalId": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+      "slug": "openai-argues-lower-perplexity-tracks-greater-model-intelligence",
+      "date": "2026-11-23",
+      "lang": "en",
+      "title": "OpenAI Argues Lower Perplexity Tracks Greater Model Intelligence",
+      "score": 7,
+      "tags": [
+        "llm-evaluation",
+        "perplexity",
+        "scaling-laws",
+        "benchmarking",
+        "openai"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "335044e2e007381063427e036e68dbdb27e9a4f3",
+      "canonicalId": "0fed198089e6566a7b1851b8081e98b2e8b63042",
+      "slug": "ft-report-alleges-prince-group-figure-helped-smuggle-nvidia-chips-to-china",
+      "date": "2026-11-23",
+      "lang": "en",
+      "title": "FT report alleges Prince Group figure helped smuggle Nvidia chips to China",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "chip smuggling",
+        "export controls",
+        "AI hardware supply chain"
+      ],
+      "originalSite": "ft.com"
+    },
+    {
+      "id": "8ade2059aa5cd49749ec6eef61c4de403bf90276",
+      "canonicalId": "8711b167141dcb274c9438cef56e114e2c1ee53d",
+      "slug": "windows-server-2028-to-drop-wow64-by-default-32-bit-apps-need-manual-add",
+      "date": "2026-11-23",
+      "lang": "en",
+      "title": "Windows Server 2028 to drop WoW64 by default, 32-bit apps need manual add",
+      "score": 7,
+      "tags": [
+        "Windows Server",
+        "WoW64",
+        "32-bit compatibility",
+        "Microsoft",
+        "enterprise IT"
+      ],
+      "originalSite": "windowslatest.com"
+    },
+    {
+      "id": "7968107c5bcad446c65514cc4ae5d4afc705aa51",
+      "canonicalId": "c9db62b254d2b30946f2f2620be5e1e683f96b77",
+      "slug": "deliberate-flailing-as-a-strategy-under-uncertainty",
+      "date": "2026-11-23",
+      "lang": "en",
+      "title": "Deliberate Flailing as a Strategy Under Uncertainty",
+      "score": 6,
+      "tags": [
+        "engineering-judgment",
+        "experimentation",
+        "feedback-loops",
+        "product-discovery",
+        "organizational-engineering"
+      ],
+      "originalSite": "seangoedecke.com"
+    },
+    {
+      "id": "65624b28fdbdb0978f675a7ca15a8fea100c3860",
+      "canonicalId": "bdbb6790d49d22d1cfda199eed036ac30ba2b2a2",
+      "slug": "us-tech-selloff-met-with-asian-market-stability-measures",
+      "date": "2026-11-23",
+      "lang": "en",
+      "title": "U.S. Tech Selloff Met With Asian Market-Stability Measures",
+      "score": 9,
+      "tags": [
+        "US tech stocks",
+        "market selloff",
+        "Asia market policy",
+        "margin requirements",
+        "short-selling restrictions"
+      ],
+      "originalSite": "news.bjd.com.cn"
+    },
+    {
+      "id": "83dbe1d8fa0ea9a8b21c607a2c34e4e1035cf4dc",
+      "canonicalId": "4235871e0ac7c7d67a8cc5d352fe435ecc59c0ab",
+      "slug": "ant-group-leads-100-million-round-in-chinese-embodied-ai-startup-simplexity-at-16-billion-valuation",
+      "date": "2026-11-23",
+      "lang": "en",
+      "title": "Ant Group leads $100 million round in Chinese embodied-AI startup Simplexity at $1.6 billion valuation",
+      "score": 7,
+      "tags": [
+        "embodied AI",
+        "humanoid robotics",
+        "venture financing",
+        "Ant Group",
+        "China tech"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
       "id": "e6448377dcdcc4e2e9176c836909a439af4ec4a2",
       "canonicalId": "18d9f9bc59b30c8a09cac823260f4f4782cd2398",
       "slug": "lean-社区博客展示黎曼猜想的机器验证",
@@ -5087,448 +5289,6 @@
         "tech industry news"
       ],
       "originalSite": "nvidianews.nvidia.com"
-    },
-    {
-      "id": "f8a01e47bed27aabdeec4cd6096785d3ee416d15",
-      "canonicalId": "f7fffb994d85a6077ae0e4fe82068f528565d828",
-      "slug": "maxxbench-质疑-deepswe-编码基准的分数稳健性",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "MaxxBench 质疑 DeepSWE 编码基准的分数稳健性",
-      "score": 8,
-      "tags": [
-        "llm-benchmarks",
-        "evaluation-methodology",
-        "benchmark-validity",
-        "ai-software-engineering",
-        "hacker-news-discussion"
-      ],
-      "originalSite": "maxxbench.unlap.ai"
-    },
-    {
-      "id": "670fa13285abbd0d0dac137ed5e3856abb96f6b0",
-      "canonicalId": "881c7e199684ed12ee836083b29623db8e71fbb3",
-      "slug": "semianalysis-探访内蒙古-galaxy-数据中心规划-800mw首期成本约为美国五分之一",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "SemiAnalysis 探访内蒙古 Galaxy 数据中心：规划 800MW，首期成本约为美国五分之一",
-      "score": 8,
-      "tags": [
-        "AI infrastructure",
-        "datacenters",
-        "China AI",
-        "cost efficiency",
-        "vertical integration"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "bb14fb9f15daf1f056ddf407d4ad1d0ed99f4ee3",
-      "canonicalId": "69af5f8a122011ad538ccd4f462b04fe25ea9963",
-      "slug": "github-新-git-存储架构-rubicon-开启有限私有预览",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "GitHub 新 Git 存储架构 Rubicon 开启有限私有预览",
-      "score": 8,
-      "tags": [
-        "GitHub",
-        "Git storage architecture",
-        "AI agents",
-        "Azure Blob Storage",
-        "distributed systems"
-      ],
-      "originalSite": "github.blog"
-    },
-    {
-      "id": "df69fd536f33fae742d49af53b5a109b31b7eaee",
-      "canonicalId": "ef7df344ebc60b9cf9587d3c12b07978eb0fb18d",
-      "slug": "微软研究院-ai-frontiers-小组据报结束john-langford-离职",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "微软研究院 AI Frontiers 小组据报结束，John Langford 离职",
-      "score": 7,
-      "tags": [
-        "AI research",
-        "Microsoft Research",
-        "AI industry",
-        "research culture",
-        "transformer models"
-      ],
-      "originalSite": "hunch.net"
-    },
-    {
-      "id": "76a342ee6a40857a7270947b071130d4d50b59ba",
-      "canonicalId": "5186d80b7eef562645f5a129edb9b36422b5932f",
-      "slug": "claude-code-本地设置文件被提交1122-个公开-github-文件暴露密钥",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "Claude Code 本地设置文件被提交，1,122 个公开 GitHub 文件暴露密钥",
-      "score": 7,
-      "tags": [
-        "Claude Code",
-        "security",
-        "secret leakage",
-        "AI coding agents",
-        "GitHub"
-      ],
-      "originalSite": "apiiro.com"
-    },
-    {
-      "id": "2b6f3f34dd3e7d9640874c8a17828b145fcd7f40",
-      "canonicalId": "273bbe1e419702dfc391cf508a95fefa2cae14d8",
-      "slug": "极品飞车地下狂飙-2浏览器重实现支持在线多人",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "《极品飞车：地下狂飙 2》浏览器重实现支持在线多人",
-      "score": 7,
-      "tags": [
-        "webgpu",
-        "browser-gaming",
-        "reverse-engineering",
-        "abandonware",
-        "emulation"
-      ],
-      "originalSite": "nfsu2.xyz"
-    },
-    {
-      "id": "ff3d285dcc7ef180bfaf77d3ff801c0592d915bb",
-      "canonicalId": "fe4697100c8e8c62b9b9ba2a8d5a4ba18b2a7d75",
-      "slug": "asahi-linux-73-进度报告fedora-asahi-remix-首次同日跟进",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "Asahi Linux 7.3 进度报告：Fedora Asahi Remix 首次同日跟进",
-      "score": 7,
-      "tags": [
-        "Asahi Linux",
-        "Apple Silicon",
-        "Linux",
-        "Fedora",
-        "Open Source"
-      ],
-      "originalSite": "asahilinux.org"
-    },
-    {
-      "id": "67263c42830d1d65b06708b9abd572c31e277d50",
-      "canonicalId": "75033d6b18a041016defb8f632069a9bc19c7159",
-      "slug": "coldframe伪装超市制冷控制器的-python-蜜罐",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "Coldframe：伪装超市制冷控制器的 Python 蜜罐",
-      "score": 7,
-      "tags": [
-        "honeypot",
-        "ICS/OT security",
-        "Shodan",
-        "CVE-2025-41450",
-        "Python"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "9391cbcbc3101d5b809c75e018156424df7664aa",
-      "canonicalId": "5ec03af4da1d836d9dad8f0be411db409e6bd298",
-      "slug": "mac-被指内置未公开的家庭成员分类器",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "Mac 被指内置未公开的家庭成员分类器",
-      "score": 7,
-      "tags": [
-        "Apple Intelligence",
-        "privacy",
-        "personal knowledge graph",
-        "macOS",
-        "reverse engineering"
-      ],
-      "originalSite": "8rank.ai"
-    },
-    {
-      "id": "6306dc8cbcb7c2a592b47c2ae410f81ffe035ae3",
-      "canonicalId": "3b58ffb304e7b124cccfb142a59a8052fc0d1e06",
-      "slug": "claude-code-被指联网请求泄露登录邮箱拦截可被绕过",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "Claude Code 被指联网请求泄露登录邮箱，拦截可被绕过",
-      "score": 7,
-      "tags": [
-        "Claude Code",
-        "privacy",
-        "security vulnerability",
-        "AI coding tools",
-        "Anthropic"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "f0b5f94b49c104f5e54c807c7f1379fda7113eeb",
-      "canonicalId": "cca1463f644bde11ea9b8ce8126465c638f054df",
-      "slug": "苹果-halo-人形机器人系统采用两个千问模型",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "苹果 HALO 人形机器人系统采用两个千问模型",
-      "score": 7,
-      "tags": [
-        "humanoid robotics",
-        "sim-to-real",
-        "LLM robotics",
-        "Apple research",
-        "open-source code"
-      ],
-      "originalSite": "weibo.com"
-    },
-    {
-      "id": "209a12e2b9b6b35970c5eec7b201cf1088ab2797",
-      "canonicalId": "0cd5dc65a670fc8b168691e10f7bdf22f876253c",
-      "slug": "伯克希尔第三季度回购规模翻倍至-96-亿美元营业利润下降-58",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "伯克希尔第三季度回购规模翻倍至 96 亿美元，营业利润下降 5.8%",
-      "score": 7,
-      "tags": [
-        "Berkshire Hathaway",
-        "share buybacks",
-        "earnings",
-        "insurance",
-        "cash reserves"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "b10f52972518ec37464cdc06695e12b24bf9629e",
-      "canonicalId": "d8797cd10480f8e0f216872b0c7d3e3c6c3cb3da",
-      "slug": "软银与-abb-考虑分拆中国机器人业务以挽救-54-亿美元收购",
-      "date": "2026-11-08",
-      "lang": "zh",
-      "title": "软银与 ABB 考虑分拆中国机器人业务以挽救 54 亿美元收购",
-      "score": 7,
-      "tags": [
-        "SoftBank",
-        "ABB",
-        "robotics M&amp;A",
-        "China foreign investment review",
-        "corporate carve-out"
-      ],
-      "originalSite": "bloomberg.com"
-    },
-    {
-      "id": "e5579349442b91d5d65a1eb137aa6dddb93908f6",
-      "canonicalId": "f7fffb994d85a6077ae0e4fe82068f528565d828",
-      "slug": "maxxbench-tests-whether-deepswe-scores-survive-task-spec-changes",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "MaxxBench tests whether DeepSWE scores survive task-spec changes",
-      "score": 8,
-      "tags": [
-        "llm-benchmarks",
-        "evaluation-methodology",
-        "benchmark-validity",
-        "ai-software-engineering",
-        "hacker-news-discussion"
-      ],
-      "originalSite": "maxxbench.unlap.ai"
-    },
-    {
-      "id": "da6b5c1076f9ab92d765bb879769a0232e610ba9",
-      "canonicalId": "881c7e199684ed12ee836083b29623db8e71fbb3",
-      "slug": "semianalysis-tours-envisionx27s-800mw-galaxy-ai-campus-in-inner-mongolia",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "SemiAnalysis tours Envision&\\#x27;s 800MW Galaxy AI campus in Inner Mongolia",
-      "score": 8,
-      "tags": [
-        "AI infrastructure",
-        "datacenters",
-        "China AI",
-        "cost efficiency",
-        "vertical integration"
-      ],
-      "originalSite": "newsletter.semianalysis.com"
-    },
-    {
-      "id": "66b23aab8b833b1d5e7f2b3ee0433880b57b59b2",
-      "canonicalId": "69af5f8a122011ad538ccd4f462b04fe25ea9963",
-      "slug": "githubx27s-rubicon-storage-reports-7200-pushes-per-second",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "GitHub&\\#x27;s Rubicon storage reports 7,200 pushes per second",
-      "score": 8,
-      "tags": [
-        "GitHub",
-        "Git storage architecture",
-        "AI agents",
-        "Azure Blob Storage",
-        "distributed systems"
-      ],
-      "originalSite": "github.blog"
-    },
-    {
-      "id": "2a41313715e91853122619abbe5c5b6164af802c",
-      "canonicalId": "ef7df344ebc60b9cf9587d3c12b07978eb0fb18d",
-      "slug": "reported-end-of-microsoft-research-ai-frontiers-and-langfordx27s-exit",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Reported end of Microsoft Research AI Frontiers and Langford&\\#x27;s exit",
-      "score": 7,
-      "tags": [
-        "AI research",
-        "Microsoft Research",
-        "AI industry",
-        "research culture",
-        "transformer models"
-      ],
-      "originalSite": "hunch.net"
-    },
-    {
-      "id": "90324a64a34e60944b875fa05aad19f975701f64",
-      "canonicalId": "5186d80b7eef562645f5a129edb9b36422b5932f",
-      "slug": "claude-code-local-settings-with-secrets-found-in-1122-github-files",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Claude Code local settings with secrets found in 1,122 GitHub files",
-      "score": 7,
-      "tags": [
-        "Claude Code",
-        "security",
-        "secret leakage",
-        "AI coding agents",
-        "GitHub"
-      ],
-      "originalSite": "apiiro.com"
-    },
-    {
-      "id": "36931f2847ca074a2789319889ff6eac3682b4d7",
-      "canonicalId": "273bbe1e419702dfc391cf508a95fefa2cae14d8",
-      "slug": "need-for-speed-underground-2-reimplementation-runs-in-browser-with-multiplayer",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Need for Speed: Underground 2 reimplementation runs in browser with multiplayer",
-      "score": 7,
-      "tags": [
-        "webgpu",
-        "browser-gaming",
-        "reverse-engineering",
-        "abandonware",
-        "emulation"
-      ],
-      "originalSite": "nfsu2.xyz"
-    },
-    {
-      "id": "14f3997fcbb687cf431842717672e76421343c68",
-      "canonicalId": "fe4697100c8e8c62b9b9ba2a8d5a4ba18b2a7d75",
-      "slug": "asahi-linux-73-report-first-same-day-fedora-asahi-remix-release",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Asahi Linux 7.3 report: first same-day Fedora Asahi Remix release",
-      "score": 7,
-      "tags": [
-        "Asahi Linux",
-        "Apple Silicon",
-        "Linux",
-        "Fedora",
-        "Open Source"
-      ],
-      "originalSite": "asahilinux.org"
-    },
-    {
-      "id": "6cd052418246afec82d800ee0652cafb26e5b7bf",
-      "canonicalId": "75033d6b18a041016defb8f632069a9bc19c7159",
-      "slug": "coldframe-honeypot-mimics-danfoss-and-dixell-refrigeration-controllers",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Coldframe honeypot mimics Danfoss and Dixell refrigeration controllers",
-      "score": 7,
-      "tags": [
-        "honeypot",
-        "ICS/OT security",
-        "Shodan",
-        "CVE-2025-41450",
-        "Python"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "8f218976b6e417765bc487f850a7cfd87a692521",
-      "canonicalId": "5ec03af4da1d836d9dad8f0be411db409e6bd298",
-      "slug": "researcher-claims-every-mac-since-2022-runs-an-undocumented-personal-knowledge-graph",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Researcher claims every Mac since 2022 runs an undocumented personal knowledge graph",
-      "score": 7,
-      "tags": [
-        "Apple Intelligence",
-        "privacy",
-        "personal knowledge graph",
-        "macOS",
-        "reverse engineering"
-      ],
-      "originalSite": "8rank.ai"
-    },
-    {
-      "id": "ad6027be6f8315094b085003d2a8687fb8d8030d",
-      "canonicalId": "3b58ffb304e7b124cccfb142a59a8052fc0d1e06",
-      "slug": "claude-code-report-alleges-web-requests-leaked-login-emails",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Claude Code report alleges web requests leaked login emails",
-      "score": 7,
-      "tags": [
-        "Claude Code",
-        "privacy",
-        "security vulnerability",
-        "AI coding tools",
-        "Anthropic"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "1c13333589ef62905040b2e97c1193fafe4f3865",
-      "canonicalId": "cca1463f644bde11ea9b8ce8126465c638f054df",
-      "slug": "apple-discloses-halo-humanoid-control-system-using-two-qwen-models",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Apple discloses HALO humanoid control system using two Qwen models",
-      "score": 7,
-      "tags": [
-        "humanoid robotics",
-        "sim-to-real",
-        "LLM robotics",
-        "Apple research",
-        "open-source code"
-      ],
-      "originalSite": "weibo.com"
-    },
-    {
-      "id": "cf29ddecd2125c27c2643f73e425871cada4f6f6",
-      "canonicalId": "0cd5dc65a670fc8b168691e10f7bdf22f876253c",
-      "slug": "berkshire-more-than-doubles-q3-buybacks-as-operating-earnings-decline",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "Berkshire more than doubles Q3 buybacks as operating earnings decline",
-      "score": 7,
-      "tags": [
-        "Berkshire Hathaway",
-        "share buybacks",
-        "earnings",
-        "insurance",
-        "cash reserves"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "1848ba9853edb2f963838cc0e845460eddfe97f7",
-      "canonicalId": "d8797cd10480f8e0f216872b0c7d3e3c6c3cb3da",
-      "slug": "softbank-abb-weigh-china-carve-out-to-salvage-54-billion-robotics-deal",
-      "date": "2026-11-08",
-      "lang": "en",
-      "title": "SoftBank, ABB Weigh China Carve-Out to Salvage $5.4 Billion Robotics Deal",
-      "score": 7,
-      "tags": [
-        "SoftBank",
-        "ABB",
-        "robotics M&amp;A",
-        "China foreign investment review",
-        "corporate carve-out"
-      ],
-      "originalSite": "bloomberg.com"
     }
   ]
 }

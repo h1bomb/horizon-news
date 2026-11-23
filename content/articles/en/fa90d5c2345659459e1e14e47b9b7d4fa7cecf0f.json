@@ -1,0 +1,41 @@
+{
+  "id": "fa90d5c2345659459e1e14e47b9b7d4fa7cecf0f",
+  "canonicalId": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+  "slug": "openai-argues-lower-perplexity-tracks-greater-model-intelligence",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-22T17:06:00Z",
+  "lang": "en",
+  "title": "OpenAI Argues Lower Perplexity Tracks Greater Model Intelligence",
+  "summary": "OpenAI published a post arguing that lower next-token perplexity corresponds to greater model intelligence, pitching a simple metric against increasingly complex benchmarks for evaluation-focused readers. The supplied item does not include the article text, and a commenter notes that the post never defines perplexity; the claim is an OpenAI argument, not an independently measured result. Hacker News discussion questioned whether cross-entropy loss remains meaningful as reinforcement learning takes on a larger training role.",
+  "score": 7,
+  "tags": [
+    "llm-evaluation",
+    "perplexity",
+    "scaling-laws",
+    "benchmarking",
+    "openai"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "acossta",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50601525"
+    }
+  ],
+  "originalUrl": "https://openai.com/index/perplexity-and-intelligence/",
+  "originalSite": "openai.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Perplexity and Intelligence | OpenAI",
+      "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+      "title": "Perplexity and Intelligence | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50601525"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

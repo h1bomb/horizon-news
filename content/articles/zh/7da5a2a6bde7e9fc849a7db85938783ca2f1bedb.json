@@ -1,0 +1,31 @@
+{
+  "id": "7da5a2a6bde7e9fc849a7db85938783ca2f1bedb",
+  "canonicalId": "c9db62b254d2b30946f2f2620be5e1e683f96b77",
+  "slug": "在不确定中主动试探",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "lang": "zh",
+  "title": "在不确定中主动试探",
+  "summary": "rss · Sean Goedecke · 11月23日 00:00\n\n**「背景」** 在缺乏明确指导、不知道什么有用的情境里，工程师常倾向于谨慎等待，先理解再行动，但作者 Sean Goedecke 认为这往往不是最好的办法，尤其面对模糊的产品、复杂系统或组织问题时。\n\n**「方案」** 他的核心建议是主动“乱撞”：尽可能多地尝试不同做法，直接接触现实，同时因为多数计划本来就会失败，必须非常仔细地读取来自专家和实际结果的反馈。只试一个方案容易押错并过度投入，试十个方案则更可能有一个奏效，也更容易无情丢掉没有正反馈的方案；作者也提醒，做得不好会损害声誉。产品上，他举例说自己在 GitHub Models（现已退役）做过许多不成功的功能和集成，但“用 GitHub Actions token 运行 AI 推理”意外地有粘性，后来成为“Continuous AI”的种子。工程上，他认为现代大型系统太复杂、变化太快，不必先彻底读懂再动手，而应做一批投机性改动，看效果再决定深入或立即放弃，AI 代理可以帮忙生成多个重构候选。组织上，面对团队互不沟通或无人能说清不满根源的局面，可以尝试自动化手工工作、主动接手任务或提出长期方案；这时尤其要敏感于反馈，及时撤回失败举措能建立信任，否则不满可能转向你。\n\n**「启示」** 作者的核心论点是，信息不足时不应等待完全理解，而应提高实验密度、紧贴反馈并快速止损；那种内心像在乱撞的感觉，是有效工程师需要跨过的心理障碍，而不是陷入麻烦的证据。\n\n**标签**: `#engineering-judgment`, `#experimentation`, `#feedback-loops`, `#product-discovery`, `#organizational-engineering`",
+  "score": 6,
+  "tags": [
+    "engineering-judgment",
+    "experimentation",
+    "feedback-loops",
+    "product-discovery",
+    "organizational-engineering"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Sean Goedecke"
+    }
+  ],
+  "originalUrl": "https://seangoedecke.com/when-in-doubt-flail-about/",
+  "originalSite": "seangoedecke.com",
+  "context": "在缺乏明确指导、不知道什么有用的情境里，工程师常倾向于谨慎等待，先理解再行动，但作者 Sean Goedecke 认为这往往不是最好的办法，尤其面对模糊的产品、复杂系统或组织问题时。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
