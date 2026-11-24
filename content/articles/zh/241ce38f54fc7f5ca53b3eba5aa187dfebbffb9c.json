@@ -1,0 +1,32 @@
+{
+  "id": "241ce38f54fc7f5ca53b3eba5aa187dfebbffb9c",
+  "canonicalId": "e82796adc98a0ae27247cdee8f12c8b52451b78b",
+  "slug": "ladybird-发布首个-alphamacos-和-linux-可直接安装",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T16:13:00Z",
+  "lang": "zh",
+  "title": "Ladybird 发布首个 Alpha，macOS 和 Linux 可直接安装",
+  "summary": "Ladybird 发布了首个 Alpha 版，macOS 和 Linux 用户现在可以直接下载安装，无需自行编译。该项目自行实现 HTML 解析、CSS 引擎、布局、JavaScript 和 WebAssembly，仅复用 HarfBuzz、Skia、ffmpeg、SQLite 等外部组件。官方提醒 Alpha 仍会出现网站不兼容和崩溃，并支持从浏览器内报告故障站点；实测中 ffmpeg/WASM 视频压缩和 Pyodide 可运行，但依赖 service worker 的 Datasette Lite 因缺少 navigator.serviceWorker.startMessages 而失败。",
+  "score": 8,
+  "tags": [
+    "Ladybird",
+    "browser engine",
+    "open source",
+    "alpha release",
+    "web compatibility"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "janvdberg",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50614249"
+    }
+  ],
+  "originalUrl": "https://ladybird.org/posts/alpha/",
+  "originalSite": "ladybird.org",
+  "context": "Ladybird 源自更早的 SerenityOS 项目，目标是从零实现 HTML 解析、CSS、布局、JavaScript 和 WebAssembly 等浏览器核心，只把文本整形、2D 图形、视频解码和存储交给 HarfBuzz、Skia、ffmpeg、SQLite 等外部库。2026 年 2 月，项目宣布借助 Claude Code 和 Codex 把部分 LibJS 从 C++ 移植为约 2.5 万行 Rust；10 月的月度更新又称，样式与布局已移到独立线程，并加入新的 JavaScript JIT。Alpha 通常指功能不完整、可能崩溃的早期测试阶段。",
+  "discussion": "有评论者报告实际渲染超出预期：freakynit 称其测试的网站均正确显示，仅滚动略显卡顿；alentred 称 Proxmox/NoVNC 正常，甚至比 Firefox 更流畅。kvuj 认为采用 Skia、SQLite 等成熟组件帮助很大，但少了早期自研的极客气息；drnick1 则呼吁后续认真处理指纹识别问题并限制网站权限。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

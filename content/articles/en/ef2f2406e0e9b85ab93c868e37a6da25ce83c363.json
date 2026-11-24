@@ -1,0 +1,32 @@
+{
+  "id": "ef2f2406e0e9b85ab93c868e37a6da25ce83c363",
+  "canonicalId": "81ecb7742efe538344d71d668a0d262330fe4e45",
+  "slug": "nariq-releases-3-bit-qwen38-27b-gguf-claiming-near-bf16-quality",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T13:42:00Z",
+  "lang": "en",
+  "title": "NariQ releases 3-bit Qwen3.8-27B GGUF claiming near-BF16 quality",
+  "summary": "NariQ has released 3-bit-or-lower GGUF quantizations of Qwen3.8-27B for local inference, including a 10 GB file it says retains near-BF16 quality across agentic, math, multilingual, and image-understanding tasks; running them currently requires NariQ&\\#x27;s llama.cpp fork. In NariQ&\\#x27;s self-reported benchmarks, the 3-bit and 2.5-bit versions are roughly at BF16 parity on several tests—Terminal-Bench 2.1 scores 63.8 and 60.2 versus 62.6 for BF16, and AIME 25+26 scores 98.3 and 96.5 versus 97.7—while the 2-bit version drops to 52.4 and 86.0. NariQ reports decode speed comparable to other quants on an RTX PRO 6000.",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "local LLM inference",
+    "GGUF",
+    "model compression",
+    "benchmark evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "toebee",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50611402"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "originalSite": "huggingface.co",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

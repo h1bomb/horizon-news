@@ -1,0 +1,40 @@
+{
+  "id": "b9367badf47db04cc88bb67bd3346ca9e3492cf3",
+  "canonicalId": "a4a6bb341e487559789c19dfa8438727845b605b",
+  "slug": "codex2api-suspected-supply-chain-backdoor-in-versions-31103112",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T11:21:00Z",
+  "lang": "en",
+  "title": "Codex2api suspected supply-chain backdoor in versions 3.1.10–3.1.12",
+  "summary": "According to a circulating incident report, Codex2api&\\#x27;s author account was compromised and an attacker bypassed the main branch by pushing tags, causing releases to be built with a backdoor. Version 3.1.11 removed authentication, creating an unauthenticated remote command execution path, while a workflow exfiltrated 16 GitHub Actions secrets and affected at least 21 repositories under the same account. Users who installed or updated to versions 3.1.10–3.1.12 are advised to stop using them immediately, roll back to 3.1.9, and rotate the GitHub token, SSH keys, database credentials, DeepSeek keys, and all other related secrets.",
+  "score": 8,
+  "tags": [
+    "supply-chain security",
+    "GitHub Actions",
+    "security incident",
+    "secrets exfiltration",
+    "remote code execution"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/WormW/codex2api-incident-2026-11",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Thousands Of GitHub Accounts Hijacked With wfx-loot CI Secret ...",
+      "url": "https://www.ox.security/blog/thousands-of-github-accounts-hijacked-with-wfx-loot-ci-secret-stealing-malware-via-github-actions-npm/"
+    },
+    {
+      "title": "The wfx Campaign: Hijacked GitHub Accounts Harvest CI Secrets",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-wfx-github-ci-secret-stealer-20261112-csa/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

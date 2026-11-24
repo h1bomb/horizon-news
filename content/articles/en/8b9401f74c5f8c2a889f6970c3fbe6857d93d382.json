@@ -1,0 +1,41 @@
+{
+  "id": "8b9401f74c5f8c2a889f6970c3fbe6857d93d382",
+  "canonicalId": "5094532b4e2e63d2f4ca43eedb036db817dbcfaa",
+  "slug": "zhipux27s-glm-54-debuts-looped-transformer-architecture-for-coding",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T10:06:00Z",
+  "lang": "en",
+  "title": "Zhipu&\\#x27;s GLM-5.4 debuts looped transformer architecture for coding",
+  "summary": "Z.ai released GLM-5.4, its first model built on a looped transformer architecture, in which a group of weight-shared layers runs for multiple iterations to deepen the network without increasing parameter count. The coding-focused model is not available as open weights and cannot currently be reached through Z.ai&\\#x27;s regular API or OpenRouter; access requires the Coding Plan subscription, whose API key works with the same OpenAI-compatible Responses API at https://api.z.ai/api/v1. Simon Willison tested it through that route and found its &quot;pelican riding a bicycle&quot; outputs similar in quality to GLM-5.3, while the architecture description remains a vendor claim without independent benchmark results in the source.",
+  "score": 8,
+  "tags": [
+    "LLMs",
+    "loop transformers",
+    "GLM-5.4",
+    "coding models",
+    "model architecture"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "foohis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
+    }
+  ],
+  "originalUrl": "https://z.ai/blog/glm-5.4",
+  "originalSite": "z.ai",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GLM - 5 . 4 is here! looped transformer ?! no benchmarks ?!",
+      "url": "https://www.youtube.com/watch?v=0dOluS-T4yc"
+    },
+    {
+      "title": "GLM - 5 . 4 - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/llm/glm-5.4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

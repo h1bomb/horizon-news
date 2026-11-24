@@ -1,0 +1,31 @@
+{
+  "id": "dc5a91ec252aec5b04bdfdfa104846a316b9aaff",
+  "canonicalId": "a4a6bb341e487559789c19dfa8438727845b605b",
+  "slug": "codex2api-疑遭供应链投毒3111-移除鉴权",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T11:21:00Z",
+  "lang": "zh",
+  "title": "Codex2api 疑遭供应链投毒，3.1.11 移除鉴权",
+  "summary": "据事件复盘，Codex2api 作者账号疑似被黑，攻击者绕过 main 分支推送 tag，使 Release 构建出带后门的版本。被点名的 v3.1.11 移除了鉴权，可被用于无密码远程执行命令；另有 workflow 将仓库的 16 个 GitHub Actions secrets 外传，波及同一账号下至少 21 个仓库。使用 3.1.10–3.1.12 的用户应立即停用并退回 3.1.9，同时轮换 GitHub token、SSH key、数据库和 DeepSeek 等相关密钥。",
+  "score": 8,
+  "tags": [
+    "supply-chain security",
+    "GitHub Actions",
+    "security incident",
+    "secrets exfiltration",
+    "remote code execution"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/WormW/codex2api-incident-2026-11",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

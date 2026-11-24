@@ -1,0 +1,32 @@
+{
+  "id": "dc74cdeb588d17a2bc488d053f6e1621a325441d",
+  "canonicalId": "e82796adc98a0ae27247cdee8f12c8b52451b78b",
+  "slug": "ladybird-releases-first-alpha-builds-for-macos-and-linux",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T16:13:00Z",
+  "lang": "en",
+  "title": "Ladybird releases first alpha builds for macOS and Linux",
+  "summary": "Ladybird has released its first alpha, providing installable macOS and Linux builds of its from-scratch browser engine instead of requiring users to compile it. The project implements most core browser components itself, including HTML parsing, CSS, layout, JavaScript and WebAssembly, while relying on external HarfBuzz, Skia, ffmpeg and SQLite. It runs tabs in separate processes and handled most sites in a reviewer&\\#x27;s tests, including ffmpeg-in-WebAssembly and Pyodide, but Datasette Lite failed because Service Worker support is incomplete. The alpha announcement warns that some websites will not work and that the browser will sometimes crash.",
+  "score": 8,
+  "tags": [
+    "Ladybird",
+    "browser engine",
+    "open source",
+    "alpha release",
+    "web compatibility"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "janvdberg",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50614249"
+    }
+  ],
+  "originalUrl": "https://ladybird.org/posts/alpha/",
+  "originalSite": "ladybird.org",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "e70cce5149dafe1055c597cb4171cbf3ad5e76c6",
+  "canonicalId": "5094532b4e2e63d2f4ca43eedb036db817dbcfaa",
+  "slug": "glm-54-发布zai-首个循环-transformer-编程模型",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T10:06:00Z",
+  "lang": "zh",
+  "title": "GLM-5.4 发布：Z.ai 首个循环 Transformer 编程模型",
+  "summary": "Z.ai 发布 GLM-5.4，这是其首个采用循环 Transformer（Loop Transformer）架构的模型，定位为通用编程。按 Z.ai 的描述，循环 Transformer 让一组共享权重的层在一次前向传播中多次运行、反复细化隐藏状态，从而在不增加参数量的情况下加深网络。GLM-5.4 目前未以开放权重形式提供，也无法通过常规 API 套餐或 OpenRouter 使用；用户需订阅 Z.ai 的 Coding Plan，其 API key 可访问该模型，端点与常规 API 一样兼容 OpenAI Responses API（https://api.z.ai/api/v1）。Simon Willison 的初步试用显示，其“骑自行车的鹈鹕”SVG 质量与 GLM-5.3 相近，但自行车车架连接有误；这些是个人试用观察，并非独立基准结果。",
+  "score": 8,
+  "tags": [
+    "LLMs",
+    "loop transformers",
+    "GLM-5.4",
+    "coding models",
+    "model architecture"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "foohis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
+    }
+  ],
+  "originalUrl": "https://z.ai/blog/glm-5.4",
+  "originalSite": "z.ai",
+  "context": "标准 Transformer 的每一层在一次前向传播中只运行一次；循环 Transformer 则让一组共享权重的层重复运行多轮，在不增加参数量的情况下增加有效深度，并反复细化隐藏状态。Z.ai 称 GLM-5.4 是其首个采用该架构的模型；此前一周，Thinking Machines Lab 于 11 月 20 日发布的 Inkling 2 Mini 也采用了循环结构，对每个 token 将中间层运行三次。",
+  "discussion": "Hacker News 评论中，有人称赞 Zhipu 披露的技术细节比西方公司的封闭做法更透明，并认为循环 Transformer 是明显方向但仍有问题待解决；也有用户抱怨部分中国模型的“马拉松式思考”会在简单任务上反复自我怀疑，完成时间明显高于前沿模型。另有评论从内存带宽瓶颈解释循环 Transformer 的潜在收益。",
+  "references": [
+    {
+      "title": "GLM - 5 . 4 is here! looped transformer ?! no benchmarks ?!",
+      "url": "https://www.youtube.com/watch?v=0dOluS-T4yc"
+    },
+    {
+      "title": "GLM - 5 . 4 - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/llm/glm-5.4"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "d8caeb4de57d5a4dd93062cd71796db6876db458",
+  "canonicalId": "1cdcc9896ad61248a8fa52e61d23effa8834ad07",
+  "slug": "anthropic-称-claude-发现-vpvnplean-4-证明待审",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T06:02:00Z",
+  "lang": "zh",
+  "title": "Anthropic 称 Claude 发现 VP≠VNP，Lean 4 证明待审",
+  "summary": "11 月 24 日，Anthropic 在 GitHub 的 formal-math 仓库公开论文《VP ≠ VNP over every field》及 Lean 4 形式化证明，并称论文、代码和结果均出自内部研究用 Claude 模型。论文声称给出哈密顿圈多项式的超多项式算术电路下界，据此推出 VP 是 VNP 的真子类；若成立，将解决 Valiant 1979 年的代数复杂度猜想，但该结果仅针对算术电路，不涉及 P 与 NP。仓库称证明经三条标准公理审计和独立内核 nanoda 复核，除预留文件外不含 sorry。该结果尚无人类数学家通读，Lean 无法确认形式化陈述与所声称命题一致，附录 Q 列出出入，仍待独立审阅。",
+  "score": 7,
+  "tags": [
+    "complexity theory",
+    "Lean 4",
+    "formal verification",
+    "AI for mathematics",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/README.md",
+  "originalSite": "github.com",
+  "context": "VP 与 VNP 是 Valiant 用算术电路定义的代数复杂度类，大致对应布尔复杂度中的 P 与 NP；这类电路由加、减、乘门构成并计算多项式。Valiant 在 1979 年提出的 VP ≠ VNP 猜想至今未解决，而此次声称的结果正是针对这一算术电路模型，并不直接涉及 P 与 NP。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

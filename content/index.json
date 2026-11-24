@@ -1,6 +1,448 @@
 {
   "articles": [
     {
+      "id": "241ce38f54fc7f5ca53b3eba5aa187dfebbffb9c",
+      "canonicalId": "e82796adc98a0ae27247cdee8f12c8b52451b78b",
+      "slug": "ladybird-发布首个-alphamacos-和-linux-可直接安装",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "Ladybird 发布首个 Alpha，macOS 和 Linux 可直接安装",
+      "score": 8,
+      "tags": [
+        "Ladybird",
+        "browser engine",
+        "open source",
+        "alpha release",
+        "web compatibility"
+      ],
+      "originalSite": "ladybird.org"
+    },
+    {
+      "id": "e70cce5149dafe1055c597cb4171cbf3ad5e76c6",
+      "canonicalId": "5094532b4e2e63d2f4ca43eedb036db817dbcfaa",
+      "slug": "glm-54-发布zai-首个循环-transformer-编程模型",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "GLM-5.4 发布：Z.ai 首个循环 Transformer 编程模型",
+      "score": 8,
+      "tags": [
+        "LLMs",
+        "loop transformers",
+        "GLM-5.4",
+        "coding models",
+        "model architecture"
+      ],
+      "originalSite": "z.ai"
+    },
+    {
+      "id": "dc5a91ec252aec5b04bdfdfa104846a316b9aaff",
+      "canonicalId": "a4a6bb341e487559789c19dfa8438727845b605b",
+      "slug": "codex2api-疑遭供应链投毒3111-移除鉴权",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "Codex2api 疑遭供应链投毒，3.1.11 移除鉴权",
+      "score": 8,
+      "tags": [
+        "supply-chain security",
+        "GitHub Actions",
+        "security incident",
+        "secrets exfiltration",
+        "remote code execution"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "00dce372217c4efc22b746fe9791cc776a194273",
+      "canonicalId": "e3a79f42fb3c2e50c77ad828dd9d4b6590efc28c",
+      "slug": "英伟达董事会重新任命黄仁勋为-ceo",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "英伟达董事会重新任命黄仁勋为 CEO",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "tech industry",
+        "corporate governance",
+        "US politics",
+        "semiconductors"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "b89a7efb0247dce874dcf29873ba270d5acc91bd",
+      "canonicalId": "81ecb7742efe538344d71d668a0d262330fe4e45",
+      "slug": "nariq-发布-qwen38-27b-低比特-gguf-量化",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "NariQ 发布 Qwen3.8-27B 低比特 GGUF 量化",
+      "score": 7,
+      "tags": [
+        "quantization",
+        "local LLM inference",
+        "GGUF",
+        "model compression",
+        "benchmark evaluation"
+      ],
+      "originalSite": "huggingface.co"
+    },
+    {
+      "id": "f68ab35efb542aa8f0b71d23ab7b81dc68f730fe",
+      "canonicalId": "094006270fbda29ccbb30561819446bb503a54f2",
+      "slug": "黎曼猜想-lean-证明被指空转作者承认代码低劣",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "黎曼猜想 Lean 证明被指空转，作者承认代码低劣",
+      "score": 7,
+      "tags": [
+        "AI proof",
+        "Lean",
+        "formal verification",
+        "Riemann Hypothesis",
+        "AI research controversy"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "a965e1b7c0f15de89b09ca79eafe1b831c955bbd",
+      "canonicalId": "2e0501ad1119f152e97a690974aafd0a4d6520aa",
+      "slug": "黄循财新加坡不会成为规避美国芯片管制的通道",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "黄循财：新加坡不会成为规避美国芯片管制的通道",
+      "score": 7,
+      "tags": [
+        "chip export controls",
+        "AI hardware",
+        "Singapore",
+        "Nvidia",
+        "trade policy"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "d8caeb4de57d5a4dd93062cd71796db6876db458",
+      "canonicalId": "1cdcc9896ad61248a8fa52e61d23effa8834ad07",
+      "slug": "anthropic-称-claude-发现-vpvnplean-4-证明待审",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "Anthropic 称 Claude 发现 VP≠VNP，Lean 4 证明待审",
+      "score": 7,
+      "tags": [
+        "complexity theory",
+        "Lean 4",
+        "formal verification",
+        "AI for mathematics",
+        "Anthropic"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "5113671a768d07b58e06435e9899c71484796afc",
+      "canonicalId": "6ff7c3a619f93aafa5a6084c98cd3c57520d0f8f",
+      "slug": "vllm-以插件形式实现-ernie-55-flash-的-day-0-支持",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "vLLM 以插件形式实现 ERNIE 5.5 Flash 的 Day-0 支持",
+      "score": 7,
+      "tags": [
+        "vLLM",
+        "MoE inference",
+        "kernel fusion",
+        "speculative decoding",
+        "quantization"
+      ],
+      "originalSite": "vllm.ai"
+    },
+    {
+      "id": "a5f2e7615d08b6b4164d5c00740f452ea1bc87ef",
+      "canonicalId": "5b5a2db04132ebbbee762e01962a2e7da042d6f7",
+      "slug": "威廉姆斯通胀回落到-2仍需更多行动未来或进一步加息",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "威廉姆斯：通胀回落到 2%仍需更多行动，未来或进一步加息",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "John Williams"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "2c5a243431ee338a548b64dac0aadda27a16febf",
+      "canonicalId": "57e9306d4824ec91f90b7a44c2984900714e0a0f",
+      "slug": "ai-抛售令-deepseek-与月之暗面上市计划承压",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "AI 抛售令 DeepSeek 与月之暗面上市计划承压",
+      "score": 8,
+      "tags": [
+        "AI selloff",
+        "China tech stocks",
+        "AI IPOs",
+        "Anthropic IPO",
+        "market volatility"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "d8592b545e36dabce5c2e1345e479ba44b797d25",
+      "canonicalId": "28536ef38b53dab9c4d0cabfa09e0fd68666c346",
+      "slug": "上海地铁票价-21-年来首次调整起步价-3-元",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "上海地铁票价 21 年来首次调整，起步价 3 元",
+      "score": 7,
+      "tags": [
+        "上海地铁",
+        "公共交通票价",
+        "票价调整",
+        "通勤成本",
+        "优惠政策"
+      ],
+      "originalSite": "weibo.com"
+    },
+    {
+      "id": "7d6b0330e540dd95710b162c87735fb433785819",
+      "canonicalId": "c970240297e67c0033bbe62c68c9c3c85155c105",
+      "slug": "马斯克据称承认-spacex-ai-落后转而出租算力给-anthropic-和-google",
+      "date": "2026-11-24",
+      "lang": "zh",
+      "title": "马斯克据称承认 SpaceX AI 落后，转而出租算力给 Anthropic 和 Google",
+      "score": 7,
+      "tags": [
+        "SpaceX",
+        "AI compute",
+        "data centers",
+        "Anthropic",
+        "Google"
+      ],
+      "originalSite": "nytimes.com"
+    },
+    {
+      "id": "dc74cdeb588d17a2bc488d053f6e1621a325441d",
+      "canonicalId": "e82796adc98a0ae27247cdee8f12c8b52451b78b",
+      "slug": "ladybird-releases-first-alpha-builds-for-macos-and-linux",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Ladybird releases first alpha builds for macOS and Linux",
+      "score": 8,
+      "tags": [
+        "Ladybird",
+        "browser engine",
+        "open source",
+        "alpha release",
+        "web compatibility"
+      ],
+      "originalSite": "ladybird.org"
+    },
+    {
+      "id": "8b9401f74c5f8c2a889f6970c3fbe6857d93d382",
+      "canonicalId": "5094532b4e2e63d2f4ca43eedb036db817dbcfaa",
+      "slug": "zhipux27s-glm-54-debuts-looped-transformer-architecture-for-coding",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Zhipu&\\#x27;s GLM-5.4 debuts looped transformer architecture for coding",
+      "score": 8,
+      "tags": [
+        "LLMs",
+        "loop transformers",
+        "GLM-5.4",
+        "coding models",
+        "model architecture"
+      ],
+      "originalSite": "z.ai"
+    },
+    {
+      "id": "b9367badf47db04cc88bb67bd3346ca9e3492cf3",
+      "canonicalId": "a4a6bb341e487559789c19dfa8438727845b605b",
+      "slug": "codex2api-suspected-supply-chain-backdoor-in-versions-31103112",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Codex2api suspected supply-chain backdoor in versions 3.1.10–3.1.12",
+      "score": 8,
+      "tags": [
+        "supply-chain security",
+        "GitHub Actions",
+        "security incident",
+        "secrets exfiltration",
+        "remote code execution"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "9540857d904691264ef7c09c7e7e63249341b0e2",
+      "canonicalId": "e3a79f42fb3c2e50c77ad828dd9d4b6590efc28c",
+      "slug": "nvidia-board-reinstates-jensen-huang-as-ceo-after-us-input",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Nvidia Board Reinstates Jensen Huang as CEO After U.S. Input",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "tech industry",
+        "corporate governance",
+        "US politics",
+        "semiconductors"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "ef2f2406e0e9b85ab93c868e37a6da25ce83c363",
+      "canonicalId": "81ecb7742efe538344d71d668a0d262330fe4e45",
+      "slug": "nariq-releases-3-bit-qwen38-27b-gguf-claiming-near-bf16-quality",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "NariQ releases 3-bit Qwen3.8-27B GGUF claiming near-BF16 quality",
+      "score": 7,
+      "tags": [
+        "quantization",
+        "local LLM inference",
+        "GGUF",
+        "model compression",
+        "benchmark evaluation"
+      ],
+      "originalSite": "huggingface.co"
+    },
+    {
+      "id": "7261a062fbc7baf8cab0a227cc923c3426b14e6d",
+      "canonicalId": "094006270fbda29ccbb30561819446bb503a54f2",
+      "slug": "ai-assisted-lean-riemann-hypothesis-proof-alleged-vacuous",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "AI-assisted Lean Riemann Hypothesis proof alleged vacuous",
+      "score": 7,
+      "tags": [
+        "AI proof",
+        "Lean",
+        "formal verification",
+        "Riemann Hypothesis",
+        "AI research controversy"
+      ],
+      "originalSite": "x.com"
+    },
+    {
+      "id": "3e47c3e3ea16554fd8d61076e2a4b05a5cfc758c",
+      "canonicalId": "2e0501ad1119f152e97a690974aafd0a4d6520aa",
+      "slug": "singapore-pm-says-no-chip-control-evasion-route-amid-megaspeed-probe",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Singapore PM says no chip-control evasion route amid Megaspeed probe",
+      "score": 7,
+      "tags": [
+        "chip export controls",
+        "AI hardware",
+        "Singapore",
+        "Nvidia",
+        "trade policy"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "a5f8df3898129c00321b5c4d37b25eed94c0ba9a",
+      "canonicalId": "1cdcc9896ad61248a8fa52e61d23effa8834ad07",
+      "slug": "anthropic-says-internal-claude-model-found-vpvnp-publishes-lean-4-proof",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Anthropic says internal Claude model found VP≠VNP, publishes Lean 4 proof",
+      "score": 7,
+      "tags": [
+        "complexity theory",
+        "Lean 4",
+        "formal verification",
+        "AI for mathematics",
+        "Anthropic"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "828f4c85b0e0f24c9b1b6d6fec18a2dfd6a94e5a",
+      "canonicalId": "6ff7c3a619f93aafa5a6084c98cd3c57520d0f8f",
+      "slug": "vllm-day-0-support-for-ernie-55-flash-via-a-plugin",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "vLLM Day-0 Support for ERNIE 5.5 Flash via a Plugin",
+      "score": 7,
+      "tags": [
+        "vLLM",
+        "MoE inference",
+        "kernel fusion",
+        "speculative decoding",
+        "quantization"
+      ],
+      "originalSite": "vllm.ai"
+    },
+    {
+      "id": "ec70a27a5ae7b10ca3bc8ac2722dab0ab217f536",
+      "canonicalId": "5b5a2db04132ebbbee762e01962a2e7da042d6f7",
+      "slug": "fedx27s-williams-says-more-work-needed-on-inflation",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Fed&\\#x27;s Williams Says More Work Needed on Inflation",
+      "score": 8,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "John Williams"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "98911c6874ae8de8fa8c4b6b299598b39afbdc84",
+      "canonicalId": "57e9306d4824ec91f90b7a44c2984900714e0a0f",
+      "slug": "ai-selloff-casts-shadow-over-deepseek-and-moonshot-listing-plans",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "AI selloff casts shadow over DeepSeek and Moonshot listing plans",
+      "score": 8,
+      "tags": [
+        "AI selloff",
+        "China tech stocks",
+        "AI IPOs",
+        "Anthropic IPO",
+        "market volatility"
+      ],
+      "originalSite": "bloomberg.com"
+    },
+    {
+      "id": "da9bfc4ba3a658c48d1ab574ddbae70ffcdc1fe7",
+      "canonicalId": "28536ef38b53dab9c4d0cabfa09e0fd68666c346",
+      "slug": "shanghai-metro-to-adjust-fares-for-first-time-in-21-years",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Shanghai Metro to Adjust Fares for First Time in 21 Years",
+      "score": 7,
+      "tags": [
+        "上海地铁",
+        "公共交通票价",
+        "票价调整",
+        "通勤成本",
+        "优惠政策"
+      ],
+      "originalSite": "weibo.com"
+    },
+    {
+      "id": "a4d66a1b968893ad44e26996cc67aac3ec718d80",
+      "canonicalId": "c970240297e67c0033bbe62c68c9c3c85155c105",
+      "slug": "report-spacex-rents-ai-computing-power-to-anthropic-and-google",
+      "date": "2026-11-24",
+      "lang": "en",
+      "title": "Report: SpaceX Rents AI Computing Power to Anthropic and Google",
+      "score": 7,
+      "tags": [
+        "SpaceX",
+        "AI compute",
+        "data centers",
+        "Anthropic",
+        "Google"
+      ],
+      "originalSite": "nytimes.com"
+    },
+    {
       "id": "3d50dd4d165a14d819f0534448ea5a66eb64f3b7",
       "canonicalId": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
       "slug": "openai-发文主张低困惑度对应更强模型智能",
@@ -5187,108 +5629,6 @@
         "乘用车市场"
       ],
       "originalSite": "finance.sina.com.cn"
-    },
-    {
-      "id": "0a87140b31328fd20fefaa2e25a1769ac435ce42",
-      "canonicalId": "2fab79d06b7a4b4ba55c4a6019c9aa9cb4241e54",
-      "slug": "ketchup基于-rust-和-webgpu-的开源浏览器建模工具",
-      "date": "2026-11-09",
-      "lang": "zh",
-      "title": "KetchUp：基于 Rust 和 WebGPU 的开源浏览器建模工具",
-      "score": 7,
-      "tags": [
-        "Rust",
-        "WebGPU",
-        "open source",
-        "3D modeling",
-        "browser apps"
-      ],
-      "originalSite": "ketchup3d.github.io"
-    },
-    {
-      "id": "165b41cf9ce0776b7a9aa1fff6103161588b7558",
-      "canonicalId": "ec6779b05ebb24a90fced8bee83eb63c45b6ac78",
-      "slug": "outlookcom-据报拒收未配置-dmarc-的域名邮件",
-      "date": "2026-11-09",
-      "lang": "zh",
-      "title": "Outlook.com 据报拒收未配置 DMARC 的域名邮件",
-      "score": 7,
-      "tags": [
-        "email deliverability",
-        "DMARC",
-        "email security",
-        "Microsoft Outlook",
-        "SMTP"
-      ],
-      "originalSite": "mailroute.net"
-    },
-    {
-      "id": "d2900a45c7473080427bcb84925c1bd167a37ef1",
-      "canonicalId": "a24fdfddefa6b5e43959db83295bc5951bdac094",
-      "slug": "英伟达董事会据报调查针对黄仁勋的间谍案",
-      "date": "2026-11-09",
-      "lang": "zh",
-      "title": "英伟达董事会据报调查针对黄仁勋的间谍案",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "corporate governance",
-        "espionage investigation",
-        "tech industry news"
-      ],
-      "originalSite": "nvidianews.nvidia.com"
-    },
-    {
-      "id": "9252c5e2e44840a2e40aa25a502fdf45f54523df",
-      "canonicalId": "2fab79d06b7a4b4ba55c4a6019c9aa9cb4241e54",
-      "slug": "ketchup-an-open-source-rustwebgpu-sketchup-alternative-for-the-browser",
-      "date": "2026-11-09",
-      "lang": "en",
-      "title": "KetchUp: an open-source Rust/WebGPU SketchUp alternative for the browser",
-      "score": 7,
-      "tags": [
-        "Rust",
-        "WebGPU",
-        "open source",
-        "3D modeling",
-        "browser apps"
-      ],
-      "originalSite": "ketchup3d.github.io"
-    },
-    {
-      "id": "19b04d26e7cb8d3bf90ea48db96a30acbe6b9f20",
-      "canonicalId": "ec6779b05ebb24a90fced8bee83eb63c45b6ac78",
-      "slug": "outlookcom-reportedly-rejects-email-from-domains-without-dmarc",
-      "date": "2026-11-09",
-      "lang": "en",
-      "title": "Outlook.com Reportedly Rejects Email From Domains Without DMARC",
-      "score": 7,
-      "tags": [
-        "email deliverability",
-        "DMARC",
-        "email security",
-        "Microsoft Outlook",
-        "SMTP"
-      ],
-      "originalSite": "mailroute.net"
-    },
-    {
-      "id": "6247e04418cd15eaad45e7d73b821b9c7d41e90f",
-      "canonicalId": "a24fdfddefa6b5e43959db83295bc5951bdac094",
-      "slug": "nvidia-board-reportedly-probes-spying-case-targeting-jensen-huang",
-      "date": "2026-11-09",
-      "lang": "en",
-      "title": "Nvidia Board Reportedly Probes Spying Case Targeting Jensen Huang",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "corporate governance",
-        "espionage investigation",
-        "tech industry news"
-      ],
-      "originalSite": "nvidianews.nvidia.com"
     }
   ]
 }

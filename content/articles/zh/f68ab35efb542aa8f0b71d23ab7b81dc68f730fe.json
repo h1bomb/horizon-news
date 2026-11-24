@@ -1,0 +1,40 @@
+{
+  "id": "f68ab35efb542aa8f0b71d23ab7b81dc68f730fe",
+  "canonicalId": "094006270fbda29ccbb30561819446bb503a54f2",
+  "slug": "黎曼猜想-lean-证明被指空转作者承认代码低劣",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T01:29:00Z",
+  "lang": "zh",
+  "title": "黎曼猜想 Lean 证明被指空转，作者承认代码低劣",
+  "summary": "Alpöge 与 Claude 宣称证明了黎曼猜想及其广义版本，并公开了约 1700 万行 Lean 代码、17.5 万个文件，但没有提供人类可读的证明。Lean 与 Mathlib 社区次日表示，对代码证明了这一命题“有充分信心”。随后有研究者指出，关键定义被写成恒真、几何条件形同虚设，证明可能只是空转。23 日 Alpöge 承认“25 万页是玩笑”，称代码“满是垃圾但能编译”，并认为批评完全合理。",
+  "score": 7,
+  "tags": [
+    "AI proof",
+    "Lean",
+    "formal verification",
+    "Riemann Hypothesis",
+    "AI research controversy"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://x.com/i/web/status/2124987173439209561",
+  "originalSite": "x.com",
+  "context": "",
+  "discussion": "对 Lean 形式化研究者和审稿方而言，这一事件的具体教训是：代码能够编译、文件规模庞大，并不能证明定理陈述有实质内容；审查时需要核查关键定义是否恒真、几何条件是否被实际使用，以及是否存在可读的定理陈述。",
+  "references": [
+    {
+      "title": "AI Helped Prove the Riemann Hypothesis . Nobody Can... - YouTube",
+      "url": "https://www.youtube.com/watch?v=-Tzliv3mzds"
+    },
+    {
+      "title": "Alpöge / Claude proof of the Generalized Riemann Hypothesis",
+      "url": "https://math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

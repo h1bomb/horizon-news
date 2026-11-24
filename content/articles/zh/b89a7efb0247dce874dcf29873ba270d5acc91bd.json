@@ -1,0 +1,32 @@
+{
+  "id": "b89a7efb0247dce874dcf29873ba270d5acc91bd",
+  "canonicalId": "81ecb7742efe538344d71d668a0d262330fe4e45",
+  "slug": "nariq-发布-qwen38-27b-低比特-gguf-量化",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-23T13:42:00Z",
+  "lang": "zh",
+  "title": "NariQ 发布 Qwen3.8-27B 低比特 GGUF 量化",
+  "summary": "NariQ 发布了 Qwen3.8-27B 的 3 位及以下 GGUF 量化版本，面向本地推理用户，并宣称可在 10 GB 文件中保留接近 BF16 的质量，覆盖智能体任务、数学、多语言推理和图像理解。项目方自报的对比中，3-bit 在 DeepSWE、Terminal-Bench 2.1 和 AIME 25+26 上分别为 41.0、63.8 和 98.3，BF16 为 39.8、62.6 和 97.7；2.5-bit 大体接近，而 2-bit 明显下降到 28.6、52.4 和 86.0。这些版本目前需要配套的 nari-llama.cpp 分支运行；项目方称在 RTX PRO 6000 上解码速度与其他量化相当，4K 上下文下 3-bit/2.5-bit/2-bit 为 88.9/99.2/111.7 tok/s，但结果尚未独立复现。",
+  "score": 7,
+  "tags": [
+    "quantization",
+    "local LLM inference",
+    "GGUF",
+    "model compression",
+    "benchmark evaluation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "toebee",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50611402"
+    }
+  ],
+  "originalUrl": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+  "originalSite": "huggingface.co",
+  "context": "GGUF 是 llama.cpp 生态常用的模型文件格式；量化会把权重从 BF16 等较高精度压缩到 3 位或更低，以显著降低存储和显存占用。27B 模型在 BF16 下约需 54 GB，而 3 位量化可压到约 10 GB，代价通常是长链条推理和智能体任务上的精度下降，这也正是该发布用多项基准检验的核心问题。",
+  "discussion": "评论者 rao-v 认为这类高算力量化容易在基准类数据上过拟合，但肯定该项目覆盖多种长程任务并提到“held out”；WithinReason 则依据图表认为大部分增益来自评测框架差异，而非模型本身。另有用户报告在 M3 Pro（18 GB）上 3.0bpw 文件解码约 3.8 tok/s、2.0bpw 约 4.9 tok/s，明显慢于 CUDA。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

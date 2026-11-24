@@ -1,0 +1,31 @@
+{
+  "id": "828f4c85b0e0f24c9b1b6d6fec18a2dfd6a94e5a",
+  "canonicalId": "6ff7c3a619f93aafa5a6084c98cd3c57520d0f8f",
+  "slug": "vllm-day-0-support-for-ernie-55-flash-via-a-plugin",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T00:00:00Z",
+  "lang": "en",
+  "title": "vLLM Day-0 Support for ERNIE 5.5 Flash via a Plugin",
+  "summary": "rss · vLLM Blog · Nov 24, 00:00\n\n**「Background」** Baidu&\\#x27;s ERNIE team and the vLLM team shipped day-0 support for ERNIE 5.5 Flash Preview, a sparse MoE with 280B total and 14B active parameters, a 1M-token context, and a design explicitly optimized for inference cost. That goal produced unfamiliar attention and MoE structures — low-rank VHA cross-head post-mixing, Multi-Router Latent MoE, a MultiMax output head — that are expensive when implemented op by op, with many intermediate tensors paying for memory traffic and kernel launches.\n\n**「Solution」** The teams wrote a dedicated fused kernel for each structure and folded everything precomputable into the weights at load time: the VHA mixing parameters collapse into a single matrix with the downstream FP8 quantization done in registers, the router weights are concatenated so one GEMM yields all logits, MultiMax becomes a single-pass piecewise transform that is bitwise identical to the term-by-term version, and the gate projection shares one GEMM with query up-projection. The authors report per-kernel gains of 1.55×–6.53×, and note these are team-reported figures without described hardware or baselines. The bundled FlashIndexer adds a lightweight head router that picks a few sparse indexer heads per token from its hidden state alone, so routing cost does not grow with context; it needs a roughly 1B-token fine-tune in which the frozen full indexer acts as teacher, and yields a 40% \\(1.4×\\) indexing speedup at 1M context. Quantization is MXFP4 routed experts \\(W4A8, quantized-aware training matched to inference numerics\\), FP8 elsewhere, FP8 KV cache, plus a 3-layer DSpark draft model with mean acceptance above 4.0. Delivery uses a standalone plugin loaded through vllm.general\\_plugins, registering architectures as module paths so other models pay no import cost and hooks fire only for ERNIE; the tradeoff is that plugin fixes ship on the model&\\#x27;s schedule rather than vLLM&\\#x27;s.\n\n**「Takeaway」** The authors argue that a new model can reach a stock vLLM release on day zero without a fork, by pairing load-time weight folding and fused kernels with a plugin that keeps model-specific code and hooks out of vLLM core — provided the model team owns that plugin&\\#x27;s release cadence.\n\n**Tags**: `#vLLM`, `#MoE inference`, `#kernel fusion`, `#speculative decoding`, `#quantization`",
+  "score": 7,
+  "tags": [
+    "vLLM",
+    "MoE inference",
+    "kernel fusion",
+    "speculative decoding",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "vLLM Blog"
+    }
+  ],
+  "originalUrl": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
+  "originalSite": "vllm.ai",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

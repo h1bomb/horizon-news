@@ -1,0 +1,31 @@
+{
+  "id": "5113671a768d07b58e06435e9899c71484796afc",
+  "canonicalId": "6ff7c3a619f93aafa5a6084c98cd3c57520d0f8f",
+  "slug": "vllm-以插件形式实现-ernie-55-flash-的-day-0-支持",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T00:00:00Z",
+  "lang": "zh",
+  "title": "vLLM 以插件形式实现 ERNIE 5.5 Flash 的 Day-0 支持",
+  "summary": "rss · vLLM Blog · 11月24日 00:00\n\n**「背景」** 百度的 ERNIE 5.5 Flash Preview 是一个 280B 总参数、每 token 激活 14B 的稀疏 MoE 模型，支持 100 万 token 上下文、先思考再作答以及长程 Agent 工具调用。为了让这类新模型不必等待 vLLM 主干合并或 nightly 构建，团队选择以独立插件的形式在发布当天提供支持。\n\n**「方案」** 插件通过 vllm.general\\_plugins 入口在启动时注册，模型架构以模块路径而非导入的类登记，因此只有 config.json 命中这些架构时才会导入模型代码，同一环境服务其他模型没有额外开销；注意力、KV cache 管理、投机解码与服务器主体仍来自 vLLM，插件自身的 hook 也只对 ERNIE 架构生效。针对架构中的新结构，团队逐个设计融合 kernel：推理期固定的 VHA 跨头混合参数在加载权重时折叠成单个矩阵，并把下游所需的 FP8 量化放进同一 kernel 在寄存器内完成，省去 BF16 中间结果往返显存；所有 router 权重在加载时拼接，一次 GEMM 产出全部 logits，路由链其余步骤合并为一个 kernel；MultiMax 的四段激活则合并为单次读写。作者报告这些融合比逐算子实现快 1.55×–6.53×，且输出与未融合版本逐位一致。稀疏索引侧，FlashIndexer 用小 head router 按 token 挑选少数索引头并做阈值预过滤，只需冻结主干、以原 DSA 选择为蒸馏目标微调约 10 亿 token 的 router，在 1M 上下文下带来 1.4× 加速。作者也坦承代价：插件修复与特性只能跟随模型的发布节奏，部分 hook 必须限定在 ERNIE 架构上。\n\n**「启示」** 作者的核心论点是：把模型代码与针对性融合 kernel 打包成插件，可以在不改动 vLLM 主干的前提下实现 Day-0 支持，让上游通用能力随版本自然继承。不过文中加速数字均为团队自报，未给出硬件、基线或测量方法，标题所称的端到端加速也缺少吞吐与延迟数据。\n\n**标签**: `#vLLM`, `#MoE inference`, `#kernel fusion`, `#speculative decoding`, `#quantization`",
+  "score": 7,
+  "tags": [
+    "vLLM",
+    "MoE inference",
+    "kernel fusion",
+    "speculative decoding",
+    "quantization"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "vLLM Blog"
+    }
+  ],
+  "originalUrl": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
+  "originalSite": "vllm.ai",
+  "context": "百度的 ERNIE 5.5 Flash Preview 是一个 280B 总参数、每 token 激活 14B 的稀疏 MoE 模型，支持 100 万 token 上下文、先思考再作答以及长程 Agent 工具调用。为了让这类新模型不必等待 vLLM 主干合并或 nightly 构建，团队选择以独立插件的形式在发布当天提供支持。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

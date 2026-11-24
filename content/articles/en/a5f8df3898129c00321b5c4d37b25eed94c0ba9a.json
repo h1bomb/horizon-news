@@ -1,0 +1,31 @@
+{
+  "id": "a5f8df3898129c00321b5c4d37b25eed94c0ba9a",
+  "canonicalId": "1cdcc9896ad61248a8fa52e61d23effa8834ad07",
+  "slug": "anthropic-says-internal-claude-model-found-vpvnp-publishes-lean-4-proof",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T06:02:00Z",
+  "lang": "en",
+  "title": "Anthropic says internal Claude model found VP≠VNP, publishes Lean 4 proof",
+  "summary": "Anthropic published a paper titled &quot;VP ≠ VNP over every field&quot; together with a Lean 4 formalization on November 24; the repository states the result was discovered by an internal research Claude model and that both the paper and code were written by AI. The paper claims a superpolynomial arithmetic-circuit lower bound for the Hamiltonian cycle polynomial, from which it derives that VP is a proper subclass of VNP — a result that, if correct, would resolve Valiant&\\#x27;s 1979 algebraic complexity conjecture, though it addresses arithmetic circuits only and says nothing about P versus NP. The proof passed an audit against three standard axioms and an independent check by the nanoda kernel, with no \\`sorry\\` outside reserved files. No human mathematician has yet read it through, Lean cannot confirm that the formal statement matches the claimed theorem, and Appendix Q lists discrepancies; independent review is pending.",
+  "score": 7,
+  "tags": [
+    "complexity theory",
+    "Lean 4",
+    "formal verification",
+    "AI for mathematics",
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/README.md",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}
