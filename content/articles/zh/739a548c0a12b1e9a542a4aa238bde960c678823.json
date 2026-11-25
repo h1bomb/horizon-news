@@ -1,0 +1,44 @@
+{
+  "id": "739a548c0a12b1e9a542a4aa238bde960c678823",
+  "canonicalId": "db22ce6bdf49656950527d4254c30edae4d04ece",
+  "slug": "broadcom-修复-vcenter-98-分鉴权绕过漏洞",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T14:50:00Z",
+  "lang": "zh",
+  "title": "Broadcom 修复 vCenter 9.8 分鉴权绕过漏洞",
+  "summary": "Broadcom 为 VMware 产品线发布补丁，修复 23 个漏洞，其中 vCenter 目录服务（vmdir）的鉴权绕过漏洞 CVE-2026-123903 被评为 9.8 分。该漏洞允许任何能访问 vCenter 的攻击者绕过认证直接进入系统；据报道，它在披露前几天已被作为零日漏洞利用。补丁已发布，但现有摘要未说明具体受影响版本范围或其他利用前提。",
+  "score": 8,
+  "tags": [
+    "security",
+    "VMware",
+    "vCenter",
+    "vulnerabilities",
+    "zero-day"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+  "originalSite": "thehackernews.com",
+  "context": "vCenter 是 VMware 虚拟化环境的管理中枢，vmdir 则是其目录服务，负责身份与目录相关功能。鉴权绕过意味着攻击者无需有效凭据即可访问受保护接口，因此这类漏洞通常被列为最高风险等级。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-123903: vCenter Auth Bypass, Fix Status",
+      "url": "https://brandefense.io/knowledge-hub/vulnerabilities/cve-2026-123903/"
+    },
+    {
+      "title": "VMware vCenter Auth Bypass CVE-2026-123903 and ESX Code ...",
+      "url": "https://www.rescana.com/post/vmware-vcenter-cve-2026-123903-auth-bypass-and-esx-code-execution-patch-now"
+    },
+    {
+      "title": "VMware patches critical vCenter authentication bypass and ESX ...",
+      "url": "https://securityaffairs.com/203931/security/vmware-patches-critical-vcenter-authentication-bypass-and-esx-flaws.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

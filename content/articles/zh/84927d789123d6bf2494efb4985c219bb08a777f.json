@@ -1,0 +1,41 @@
+{
+  "id": "84927d789123d6bf2494efb4985c219bb08a777f",
+  "canonicalId": "ca7efd0c9bb94d7717e5e3ef24c48e722e36636e",
+  "slug": "ternary-bonsai-25-27b三元量化模型主打本地-128k-上下文",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T20:08:00Z",
+  "lang": "zh",
+  "title": "Ternary Bonsai 2.5 27B：三元量化模型主打本地 128k 上下文",
+  "summary": "Ternary Bonsai 2.5 27B 是一款新发布的三元量化 27B 模型，面向本地推理；HN 评论中的 Q2 GGUF 版本在 Mac Mini M5 Pro（24GB 内存）上报告约 22–25 tokens/s，并可轻松容纳 128k 上下文。当前材料缺少官方技术细节和基准结果，评论中“在 SWE-bench Verified 上相当于 Opus 4.6”的说法被该评论者本人标为不确定。对本地部署者来说，关键看点是长上下文与生成速度能否支撑 agentic coding，但实际能力仍需与同尺寸量化模型做独立对比。",
+  "score": 7,
+  "tags": [
+    "ternary quantization",
+    "local LLMs",
+    "model release",
+    "GGUF",
+    "agentic coding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "b0m",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50633922"
+    }
+  ],
+  "originalUrl": "https://prismml.com/news/bonsai-2-5-27b",
+  "originalSite": "prismml.com",
+  "context": "三元量化把模型权重压缩到 -1、0、1 三档取值，从而把 27B 规模的模型塞进很小的体积：据 PrismML 的发布说明，Bonsai 2.5 27B 维持了约 5.9 GB 的占用，并在此基础上强化了 agentic coding、多轮工具调用与多步任务执行能力。该模型以 GGUF 格式在 Hugging Face 上发布（含 Q2\\_0 量化版本），可通过命令行工具或 vLLM 在本地部署运行，这也是社区能用消费级 Mac 直接测速的前提。",
+  "discussion": "对 24GB 内存级别的本地部署者，这一版本把 128k 上下文和约 22–25 tokens/s 的组合放进可运行范围，但评论者尚未完成 agentic 任务验证；在采用前应先用自有任务对比同尺寸 Q2 模型，并核实内存余量。\n\n评论区的核心分歧在于基准可信度：一位评论者猜测 SWE-bench 表现可能来自“benchmaxxing”、基准漂移或小模型约六个月的追赶，另一位则要求与同等大小的流行 Q1/Q2 量化模型（例如评论提到的 Qwen3.8）直接对比。也有用户用自己的长任务测试报告，Bonsai 2.5 与上一版同样通过 5/8 项，但步数少 17%、耗时少 29%，不过这不是标准化评测。",
+  "references": [
+    {
+      "title": "PrismML — Introducing Ternary Bonsai 2 . 5 27 B : Powering Agentic...",
+      "url": "https://prismml.com/news/bonsai-2-5-27b"
+    },
+    {
+      "title": "prism - ml / Ternary - Bonsai - 2 . 5 - 27 B -GGUF · Hugging Face",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

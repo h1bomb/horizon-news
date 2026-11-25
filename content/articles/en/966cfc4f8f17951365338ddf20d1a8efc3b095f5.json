@@ -1,0 +1,40 @@
+{
+  "id": "966cfc4f8f17951365338ddf20d1a8efc3b095f5",
+  "canonicalId": "db22ce6bdf49656950527d4254c30edae4d04ece",
+  "slug": "broadcom-patches-23-vmware-flaws-including-98-vcenter-auth-bypass",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T14:50:00Z",
+  "lang": "en",
+  "title": "Broadcom patches 23 VMware flaws, including 9.8 vCenter auth bypass",
+  "summary": "Broadcom released patches for 23 vulnerabilities across its VMware product line, centered on an authentication bypass in vCenter&\\#x27;s directory service \\(vmdir\\) tracked as CVE-2026-123903 and rated 9.8. According to the supplied report, anyone who can reach vCenter over the network can bypass authentication and get into the system without credentials. The same report says the flaw was exploited as a zero-day only days before it was disclosed, a claim attributed to the reporting rather than independently confirmed here. Administrators running vCenter should treat the vmdir authentication bypass as the priority item in this patch set.",
+  "score": 8,
+  "tags": [
+    "security",
+    "VMware",
+    "vCenter",
+    "vulnerabilities",
+    "zero-day"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+  "originalSite": "thehackernews.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "CVE-2026-123903: vCenter Auth Bypass, Fix Status",
+      "url": "https://brandefense.io/knowledge-hub/vulnerabilities/cve-2026-123903/"
+    },
+    {
+      "title": "VMware vCenter Auth Bypass CVE-2026-123903 and ESX Code ...",
+      "url": "https://www.rescana.com/post/vmware-vcenter-cve-2026-123903-auth-bypass-and-esx-code-execution-patch-now"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

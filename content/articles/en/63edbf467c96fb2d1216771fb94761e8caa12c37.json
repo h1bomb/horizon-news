@@ -1,0 +1,41 @@
+{
+  "id": "63edbf467c96fb2d1216771fb94761e8caa12c37",
+  "canonicalId": "5ee45fc63309ecc32b708b1ffdc6ce46c1956b4c",
+  "slug": "unverified-preprint-claims-matrix-multiplication-exponent-of-94",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T01:19:00Z",
+  "lang": "en",
+  "title": "Unverified preprint claims matrix-multiplication exponent of 9/4",
+  "summary": "An unverified preprint hosted on GitHub, titled &quot;The matrix multiplication exponent is nine fourths,&quot; claims the matrix-multiplication exponent is 9/4, or Θ\\(n^2.25\\), over every field. Commenters link it to OpenAI&\\#x27;s four new papers and say it addresses open problem \\#25 by refuting a conjecture, but the posting has no disclosed peer review, methodology, or model recipe. If the claim holds, it would be a landmark complexity-theory result; as posted, it has not been independently validated.",
+  "score": 7,
+  "tags": [
+    "complexity-theory",
+    "matrix-multiplication",
+    "ai-for-math",
+    "openai",
+    "research-preprint"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "E-Reverance",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Matrix Multiplication Exponent -- from Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/MatrixMultiplicationExponent.html"
+    },
+    {
+      "title": "OpenAI Says It Has Pinned Down The Exact Speed Limit For ...",
+      "url": "https://officechai.com/ai/openai-says-it-has-pinned-down-the-exact-speed-limit-for-matrix-multiplication-9-4/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

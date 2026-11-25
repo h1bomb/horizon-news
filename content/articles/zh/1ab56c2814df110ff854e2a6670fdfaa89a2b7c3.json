@@ -1,0 +1,45 @@
+{
+  "id": "1ab56c2814df110ff854e2a6670fdfaa89a2b7c3",
+  "canonicalId": "6c787a85e2e6a1c1ac6966f84d3a70268b61580d",
+  "slug": "check-point-管理服务器遭入侵v8-随机数状态被重建",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T16:32:00Z",
+  "lang": "zh",
+  "title": "Check Point 管理服务器遭入侵，V8 随机数状态被重建",
+  "summary": "GreyNoise 报告了一起针对 Check Point 安全管理服务器的活跃入侵活动。攻击者向 HFS 的 loginSrp1 登录端点连续发起 POST 请求，收集由 JavaScript Math.random\\(\\) 生成并写入签名会话 cookie 的 sid，再据此重建 Node.js V8 PRNG 的内部状态，从而恢复 HFS 会话 cookie 的签名密钥并伪造管理员会话。目前公开讨论中，攻击者如何获得初始访问权限仍不清楚；有评论者推测与 CVE-2026-16232 以及相关服务器暴露在互联网上有关，但这只是提问和推测。",
+  "score": 7,
+  "tags": [
+    "security",
+    "vulnerability-research",
+    "Node.js",
+    "PRNG",
+    "exploitation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "louiereederson",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50630594"
+    }
+  ],
+  "originalUrl": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+  "originalSite": "greynoise.io",
+  "context": "",
+  "discussion": "评论者 omh 指出初始访问方式仍不明确：多家 Check Point 客户同时受影响，可能暗示 CVE-2026-16232 是入口，但这也意味着相关安全管理服务器可能暴露在互联网上；这仍是待证实的疑问。另有评论者认为根本问题在于 Math.random\\(\\)，主张让随机数生成器默认具备安全性，而不是要求大量应用各自正确使用。",
+  "references": [
+    {
+      "title": "sk185169 - CVE-2026-16232 - Authentication bypass with ...",
+      "url": "https://support.checkpoint.com/results/sk/sk185169"
+    },
+    {
+      "title": "NVD-CVE-2026-16232",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-16232"
+    },
+    {
+      "title": "Rejetto HFS signs its admin session cookie with Math.random()",
+      "url": "https://dev.to/kozhevniko/rejetto-hfs-signs-its-admin-session-cookie-with-mathrandom-1lgj"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bb8b34942832317ba950cdf8f3383e2cd6cffb28",
+  "canonicalId": "ca7efd0c9bb94d7717e5e3ef24c48e722e36636e",
+  "slug": "ternary-bonsai-25-27b-local-speed-reports-benchmark-questions",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T20:08:00Z",
+  "lang": "en",
+  "title": "Ternary Bonsai 2.5 27B: local speed reports, benchmark questions",
+  "summary": "Ternary Bonsai 2.5 27B is a new 27B ternary-quantized model for local inference, with a reported 128k context window; the supplied item has no vendor page content, so availability and official benchmark results are not independently confirmed. The concrete performance evidence in the supplied material is anecdotal: one commenter measured about 22–25 tokens/s on a Mac Mini M5 Pro with 24 GB RAM, 222.9 tokens/s prompt processing, and 2.12 s to first token on a Python prompt, and said 128k context fit in memory. Another commenter&\\#x27;s long-horizon local test reported Bonsai 2.5 passing 5 of 8 tasks in 76 minutes versus Bonsai2&\\#x27;s 5 of 8 in 107 minutes. Claims that the model matches Opus 4.6 on SWE-bench Verified are community speculation and explicitly questioned, not independently verified here.",
+  "score": 7,
+  "tags": [
+    "ternary quantization",
+    "local LLMs",
+    "model release",
+    "GGUF",
+    "agentic coding"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "b0m",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50633922"
+    }
+  ],
+  "originalUrl": "https://prismml.com/news/bonsai-2-5-27b",
+  "originalSite": "prismml.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "PrismML — Introducing Ternary Bonsai 2 . 5 27 B : Powering Agentic...",
+      "url": "https://prismml.com/news/bonsai-2-5-27b"
+    },
+    {
+      "title": "prism - ml / Ternary - Bonsai - 2 . 5 - 27 B -GGUF · Hugging Face",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

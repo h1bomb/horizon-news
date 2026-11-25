@@ -1,0 +1,36 @@
+{
+  "id": "6ed5bc69c4047609aa6a6d7331bb71ad0fc28bab",
+  "canonicalId": "6ff348e652c905f149dbe6f5cde191d988d550a0",
+  "slug": "simon-willison-回顾-llm-一年内的三个能力拐点",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T23:02:00Z",
+  "lang": "zh",
+  "title": "Simon Willison 回顾 LLM 一年内的三个能力拐点",
+  "summary": "Simon Willison 在其 AI Engineer Code Summit 主题演讲的延伸文章中提出，过去十二个月 LLM 与编程代理的能力出现了三个拐点。第一个是 2025 年 11 月的 Claude Opus 4.5（以及同期的 GPT-5.1 系列），他认为这让 Claude Code 和 Codex 从需要频繁纠正变为大多数日常编程任务可直接给出正确结果；第二个是 2026 年 6–7 月的 Claude Fable 5，他把“给定目标和工具后能主动设法解决问题”的模型称为“Fable 级”，并将 Opus 5.5、GPT-6 Astra、Gemini 4 Neon 也归入此类；第三个是 2026 年 9–10 月，以 Opus 5.5 等模型在 Blender/Three.js 3D 建模和游戏玩法调优上的表现作为标志。文章明确是作者基于个人使用经验的回顾性判断，而非新的基准测试或厂商发布，且源文本在讨论 Fable 5.2 是否构成第四个拐点处被截断。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "coding agents",
+    "AI engineering",
+    "software development",
+    "Anthropic Claude"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Simon Willison"
+    }
+  ],
+  "originalUrl": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+  "originalSite": "simonwillison.net",
+  "context": "这篇回顾发表于 2026 年 11 月 24 日，正好是 Claude Opus 4.5 发布一周年。更早的背景是，Claude Code 于 2025 年 2 月 24 日随 Claude 3.7 Sonnet 推出，到 Opus 4.5 面世时已存在约九个月；作者据此比较该工具在模型升级前后的可用性变化。",
+  "discussion": "对日常写代码的开发者而言，直接的后果是评估编码代理的标准从「能否完成任务」转为「默认输出是否需要频繁纠正」：Willison 称 Opus 4.5 是他第一个默认结果基本正确的模型，这让他把 Claude Code 从偶尔试用变成日常主力工具，而外部汇总给出的 SWE-bench Verified 80.9% 也印证了这一代模型在真实软件工程任务上的定位。他提出的「Fable 类」判据——只要能定义目标并提供工具，模型就能靠蛮力解决问题——意味着团队在模型选型或采购时会把这类能力当作新的最低预期，而不是加分项。",
+  "references": [
+    {
+      "title": "Claude Opus 4.5 Complete Guide: Agents &amp; Coding",
+      "url": "https://www.digitalapplied.com/blog/claude-opus-4-5-complete-guide-agents-coding"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

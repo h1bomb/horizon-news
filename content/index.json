@@ -1,6 +1,278 @@
 {
   "articles": [
     {
+      "id": "739a548c0a12b1e9a542a4aa238bde960c678823",
+      "canonicalId": "db22ce6bdf49656950527d4254c30edae4d04ece",
+      "slug": "broadcom-修复-vcenter-98-分鉴权绕过漏洞",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "Broadcom 修复 vCenter 9.8 分鉴权绕过漏洞",
+      "score": 8,
+      "tags": [
+        "security",
+        "VMware",
+        "vCenter",
+        "vulnerabilities",
+        "zero-day"
+      ],
+      "originalSite": "thehackernews.com"
+    },
+    {
+      "id": "a953a5e01452303e2faf8493c5b935ce6e24ffa2",
+      "canonicalId": "5ee45fc63309ecc32b708b1ffdc6ce46c1956b4c",
+      "slug": "未验证预印本宣称矩阵乘法指数为-94",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "未验证预印本宣称矩阵乘法指数为 9/4",
+      "score": 7,
+      "tags": [
+        "complexity-theory",
+        "matrix-multiplication",
+        "ai-for-math",
+        "openai",
+        "research-preprint"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "84927d789123d6bf2494efb4985c219bb08a777f",
+      "canonicalId": "ca7efd0c9bb94d7717e5e3ef24c48e722e36636e",
+      "slug": "ternary-bonsai-25-27b三元量化模型主打本地-128k-上下文",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "Ternary Bonsai 2.5 27B：三元量化模型主打本地 128k 上下文",
+      "score": 7,
+      "tags": [
+        "ternary quantization",
+        "local LLMs",
+        "model release",
+        "GGUF",
+        "agentic coding"
+      ],
+      "originalSite": "prismml.com"
+    },
+    {
+      "id": "959bd1c8bcc34378f52cfed2029e5faf242f566b",
+      "canonicalId": "3c6728c1bfd198791155e7911f8c578086a9a218",
+      "slug": "openai-称-gpt-6-能设计蛋白质关键序列步骤仍靠专用模型",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "OpenAI 称 GPT-6 能设计蛋白质，关键序列步骤仍靠专用模型",
+      "score": 7,
+      "tags": [
+        "AI for biology",
+        "protein design",
+        "GPT-6",
+        "OpenAI",
+        "specialized models"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "1ab56c2814df110ff854e2a6670fdfaa89a2b7c3",
+      "canonicalId": "6c787a85e2e6a1c1ac6966f84d3a70268b61580d",
+      "slug": "check-point-管理服务器遭入侵v8-随机数状态被重建",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "Check Point 管理服务器遭入侵，V8 随机数状态被重建",
+      "score": 7,
+      "tags": [
+        "security",
+        "vulnerability-research",
+        "Node.js",
+        "PRNG",
+        "exploitation"
+      ],
+      "originalSite": "greynoise.io"
+    },
+    {
+      "id": "6ed5bc69c4047609aa6a6d7331bb71ad0fc28bab",
+      "canonicalId": "6ff348e652c905f149dbe6f5cde191d988d550a0",
+      "slug": "simon-willison-回顾-llm-一年内的三个能力拐点",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "Simon Willison 回顾 LLM 一年内的三个能力拐点",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "coding agents",
+        "AI engineering",
+        "software development",
+        "Anthropic Claude"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "8f2aed64896908bf1c09b84d6012584b7834ac0d",
+      "canonicalId": "f796e127a00ba54d244b6e290295765de290e50e",
+      "slug": "gpt-62-astra-22-分钟破解-1808-年耶鲁素描本作者之谜",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "GPT-6.2 Astra 22 分钟破解 1808 年耶鲁素描本作者之谜",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "LLM applications",
+        "autonomous research",
+        "digital humanities",
+        "historical research"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "663d792b906d3b65347c375ced1bf0dfc4574d46",
+      "canonicalId": "5b5a2db04132ebbbee762e01962a2e7da042d6f7",
+      "slug": "美联储威廉姆斯通胀回到-2仍需进一步行动",
+      "date": "2026-11-25",
+      "lang": "zh",
+      "title": "美联储威廉姆斯：通胀回到 2%仍需进一步行动",
+      "score": 7,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "FOMC"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "966cfc4f8f17951365338ddf20d1a8efc3b095f5",
+      "canonicalId": "db22ce6bdf49656950527d4254c30edae4d04ece",
+      "slug": "broadcom-patches-23-vmware-flaws-including-98-vcenter-auth-bypass",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "Broadcom patches 23 VMware flaws, including 9.8 vCenter auth bypass",
+      "score": 8,
+      "tags": [
+        "security",
+        "VMware",
+        "vCenter",
+        "vulnerabilities",
+        "zero-day"
+      ],
+      "originalSite": "thehackernews.com"
+    },
+    {
+      "id": "63edbf467c96fb2d1216771fb94761e8caa12c37",
+      "canonicalId": "5ee45fc63309ecc32b708b1ffdc6ce46c1956b4c",
+      "slug": "unverified-preprint-claims-matrix-multiplication-exponent-of-94",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "Unverified preprint claims matrix-multiplication exponent of 9/4",
+      "score": 7,
+      "tags": [
+        "complexity-theory",
+        "matrix-multiplication",
+        "ai-for-math",
+        "openai",
+        "research-preprint"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "bb8b34942832317ba950cdf8f3383e2cd6cffb28",
+      "canonicalId": "ca7efd0c9bb94d7717e5e3ef24c48e722e36636e",
+      "slug": "ternary-bonsai-25-27b-local-speed-reports-benchmark-questions",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "Ternary Bonsai 2.5 27B: local speed reports, benchmark questions",
+      "score": 7,
+      "tags": [
+        "ternary quantization",
+        "local LLMs",
+        "model release",
+        "GGUF",
+        "agentic coding"
+      ],
+      "originalSite": "prismml.com"
+    },
+    {
+      "id": "25f11abf9f095a6a3caa41e5c0be25a2eb218d76",
+      "canonicalId": "3c6728c1bfd198791155e7911f8c578086a9a218",
+      "slug": "openai-claims-gpt-62-protein-design-capability-commenters-dispute-x27intrinsicx27-label",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "OpenAI claims GPT-6.2 protein-design capability, commenters dispute &\\#x27;intrinsic&\\#x27; label",
+      "score": 7,
+      "tags": [
+        "AI for biology",
+        "protein design",
+        "GPT-6",
+        "OpenAI",
+        "specialized models"
+      ],
+      "originalSite": "openai.com"
+    },
+    {
+      "id": "4ed67d8ab2fa6c79d4ce382717ae964a590fa04f",
+      "canonicalId": "6c787a85e2e6a1c1ac6966f84d3a70268b61580d",
+      "slug": "greynoise-reports-active-intrusion-campaign-against-check-point-management-servers",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "GreyNoise reports active intrusion campaign against Check Point management servers",
+      "score": 7,
+      "tags": [
+        "security",
+        "vulnerability-research",
+        "Node.js",
+        "PRNG",
+        "exploitation"
+      ],
+      "originalSite": "greynoise.io"
+    },
+    {
+      "id": "e6403cf0194c49ddfb2d63b32b561260eb3ce3b0",
+      "canonicalId": "6ff348e652c905f149dbe6f5cde191d988d550a0",
+      "slug": "simon-willison-traces-three-llm-inflection-points-in-twelve-months",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "Simon Willison traces three LLM inflection points in twelve months",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "coding agents",
+        "AI engineering",
+        "software development",
+        "Anthropic Claude"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "8ebabc806c5179a4a332c74a1bdb7a19411c5bc1",
+      "canonicalId": "f796e127a00ba54d244b6e290295765de290e50e",
+      "slug": "gpt-62-astra-identifies-creator-of-1808-yale-sketchbook",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "GPT-6.2 Astra Identifies Creator of 1808 Yale Sketchbook",
+      "score": 7,
+      "tags": [
+        "AI agents",
+        "LLM applications",
+        "autonomous research",
+        "digital humanities",
+        "historical research"
+      ],
+      "originalSite": "simonwillison.net"
+    },
+    {
+      "id": "6da2179856de81733dba6b24a83b2396d19d6047",
+      "canonicalId": "5b5a2db04132ebbbee762e01962a2e7da042d6f7",
+      "slug": "williams-says-fed-has-more-work-to-do-on-inflation",
+      "date": "2026-11-25",
+      "lang": "en",
+      "title": "Williams Says Fed Has More Work to Do on Inflation",
+      "score": 7,
+      "tags": [
+        "Federal Reserve",
+        "monetary policy",
+        "interest rates",
+        "inflation",
+        "FOMC"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "241ce38f54fc7f5ca53b3eba5aa187dfebbffb9c",
       "canonicalId": "e82796adc98a0ae27247cdee8f12c8b52451b78b",
       "slug": "ladybird-发布首个-alphamacos-和-linux-可直接安装",
@@ -5255,380 +5527,6 @@
         "CPI"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "3565d72fe6a27dd86677e89b036ae4eb939331eb",
-      "canonicalId": "796a7f7ee338b70fa58b8f6d3d2f21d8f08f0e22",
-      "slug": "anthropic-发布-claude-fable-52-与-mythos-52",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
-      "score": 7,
-      "tags": [
-        "AI models",
-        "Anthropic",
-        "LLM benchmarks",
-        "coding assistants",
-        "Hacker News"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "1896d9fd7cf17a8e678a548408ab8005008b1b5f",
-      "canonicalId": "4f9270c0ec3d4c03ed328a1f898451233fc9617a",
-      "slug": "e-means-宣称以十分之一轮次超越-k-means",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "E-means 宣称以十分之一轮次超越 k-means",
-      "score": 7,
-      "tags": [
-        "k-means",
-        "clustering",
-        "algorithms",
-        "machine-learning",
-        "performance"
-      ],
-      "originalSite": "e-means.github.io"
-    },
-    {
-      "id": "a2827c1a725e0f4c335c68d57519f4aea25ae95f",
-      "canonicalId": "ed213adeba37dce7c28882655e6450243906bd0b",
-      "slug": "谷歌发布-tpu-8tx-与-8i-max-两款专用芯片",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "谷歌发布 TPU 8tx 与 8i Max 两款专用芯片",
-      "score": 7,
-      "tags": [
-        "TPU",
-        "Google Cloud",
-        "AI infrastructure",
-        "hardware",
-        "agentic AI"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "aa30a1774f13d54fb60c5dad94a443c9770bc555",
-      "canonicalId": "1b18e8c9acf73639c21b05ec6b44f20b8e848ba7",
-      "slug": "hn-讨论消费级-gemini-连接应用数据或经人工审核",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "HN 讨论：消费级 Gemini 连接应用数据或经人工审核",
-      "score": 7,
-      "tags": [
-        "Google Gemini",
-        "AI privacy",
-        "human annotation",
-        "consumer data",
-        "Google Workspace"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "d976af2420f08a676ffdab98e09330592e237f95",
-      "canonicalId": "020c05e5c6f65ee40201bece9e9ff1b9e47d4d9d",
-      "slug": "watchedearth查询一周内过境卫星及其影像",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "watched.earth：查询一周内过境卫星及其影像",
-      "score": 7,
-      "tags": [
-        "satellite-imagery",
-        "orbital-mechanics",
-        "geospatial",
-        "gpu-rendering",
-        "show-hn"
-      ],
-      "originalSite": "watched.earth"
-    },
-    {
-      "id": "44364479a509777f48ff59cb6bf5b732a72e99d7",
-      "canonicalId": "baaf713b11e387f5b65769226381068c2d5d4743",
-      "slug": "用-claude-code-造-beep-locator多设备定位神秘蜂鸣",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "用 Claude Code 造 Beep Locator，多设备定位神秘蜂鸣",
-      "score": 7,
-      "tags": [
-        "AI-assisted coding",
-        "Claude Code",
-        "sound localization",
-        "web audio",
-        "DIY project"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "af3e624124e9ac5404e6a17f449b3f8255275ee2",
-      "canonicalId": "024092f492060619fa37daf616329c475079024f",
-      "slug": "lingbot-touchjepa-式潜空间预测在触觉预训练中胜过重建",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "LingBot-Touch：JEPA 式潜空间预测在触觉预训练中胜过重建",
-      "score": 7,
-      "tags": [
-        "self-supervised-learning",
-        "tactile-sensing",
-        "robotics",
-        "representation-learning",
-        "JEPA"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "800e9b3a17e7c7db9e320befbb0eb6ff63e36e90",
-      "canonicalId": "e80eb2588cd60725908199a898810593f3510c71",
-      "slug": "字节发布-seedream-55支持百轮连续编辑与透明素材",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "字节发布 Seedream 5.5：支持百轮连续编辑与透明素材",
-      "score": 7,
-      "tags": [
-        "generative AI",
-        "image generation",
-        "image editing",
-        "ByteDance",
-        "Seedream"
-      ],
-      "originalSite": "seed.bytedance.com"
-    },
-    {
-      "id": "189ec723354e74feddb85e070515b0168ad9bc41",
-      "canonicalId": "3b6b38e52d82f1cbb4e69fdf64d370a6a87ac5ee",
-      "slug": "oppovivo小米荣耀上线-adv-侧载开发者验证并互认结果",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "OPPO、vivo、小米、荣耀上线 ADV 侧载开发者验证并互认结果",
-      "score": 7,
-      "tags": [
-        "Android",
-        "app sideloading",
-        "developer verification",
-        "mobile security",
-        "China tech"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "727a08331e922f852c228a004bdb4ff6a39a7afe",
-      "canonicalId": "0b80c5851be9ff9f7d6e55f64a4c97f13833a55e",
-      "slug": "英伟达董事会调查黄仁勋预测市场认为其近期离职概率低",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "英伟达董事会调查黄仁勋，预测市场认为其近期离职概率低",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "corporate governance",
-        "prediction markets",
-        "national security"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "601efe19187b72cd93604fc2c99fe7d807b801ca",
-      "canonicalId": "08316341dfd7f1e4412e2e96dd420d4a6afd92a7",
-      "slug": "前三季度中国新能源乘用车出口-3887-万辆同比增长-1388",
-      "date": "2026-11-10",
-      "lang": "zh",
-      "title": "前三季度中国新能源乘用车出口 388.7 万辆，同比增长 138.8%",
-      "score": 7,
-      "tags": [
-        "中国新能源汽车",
-        "汽车出口",
-        "国内零售",
-        "购车补贴与购置税",
-        "乘用车市场"
-      ],
-      "originalSite": "finance.sina.com.cn"
-    },
-    {
-      "id": "894f2ed7a7e5104d3ba72475a3d82878bb3f4df2",
-      "canonicalId": "796a7f7ee338b70fa58b8f6d3d2f21d8f08f0e22",
-      "slug": "anthropic-ships-claude-fable-52-and-mythos-52-as-incremental-updates",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 as incremental updates",
-      "score": 7,
-      "tags": [
-        "AI models",
-        "Anthropic",
-        "LLM benchmarks",
-        "coding assistants",
-        "Hacker News"
-      ],
-      "originalSite": "anthropic.com"
-    },
-    {
-      "id": "a8450f6d27a63be1f67073883165f9a1a96c1664",
-      "canonicalId": "4f9270c0ec3d4c03ed328a1f898451233fc9617a",
-      "slug": "e-means-project-claims-k-means-speedup-with-one-tenth-epochs",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "E-means project claims k-means speedup with one-tenth epochs",
-      "score": 7,
-      "tags": [
-        "k-means",
-        "clustering",
-        "algorithms",
-        "machine-learning",
-        "performance"
-      ],
-      "originalSite": "e-means.github.io"
-    },
-    {
-      "id": "1064f384cb55bd9b1773f9b32447f7168bf4b7a0",
-      "canonicalId": "ed213adeba37dce7c28882655e6450243906bd0b",
-      "slug": "google-announces-tpu-8tx-for-secure-data-and-8i-max-for-long-context",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "Google announces TPU 8tx for secure data and 8i Max for long context",
-      "score": 7,
-      "tags": [
-        "TPU",
-        "Google Cloud",
-        "AI infrastructure",
-        "hardware",
-        "agentic AI"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "2cf9726b98715878e23dd7ba8b4ef91358ffadc5",
-      "canonicalId": "1b18e8c9acf73639c21b05ec6b44f20b8e848ba7",
-      "slug": "hacker-news-thread-questions-human-review-of-geminix27s-connected-drive-and-gmail-data",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "Hacker News thread questions human review of Gemini&\\#x27;s connected Drive and Gmail data",
-      "score": 7,
-      "tags": [
-        "Google Gemini",
-        "AI privacy",
-        "human annotation",
-        "consumer data",
-        "Google Workspace"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "19d5bc88cd16c232f4dd4cfce9ea296db393e4de",
-      "canonicalId": "020c05e5c6f65ee40201bece9e9ff1b9e47d4d9d",
-      "slug": "show-hn-watchedearth-finds-a-week-of-satellite-passes-and-their-photos",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "Show HN: Watched.earth finds a week of satellite passes and their photos",
-      "score": 7,
-      "tags": [
-        "satellite-imagery",
-        "orbital-mechanics",
-        "geospatial",
-        "gpu-rendering",
-        "show-hn"
-      ],
-      "originalSite": "watched.earth"
-    },
-    {
-      "id": "4bbf0930f3c664172ced0d043430deebcdcf50ef",
-      "canonicalId": "baaf713b11e387f5b65769226381068c2d5d4743",
-      "slug": "simon-willison-built-beep-locator-with-claude-code-to-find-a-beeping-device",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "Simon Willison built Beep Locator with Claude Code to find a beeping device",
-      "score": 7,
-      "tags": [
-        "AI-assisted coding",
-        "Claude Code",
-        "sound localization",
-        "web audio",
-        "DIY project"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "1a6548523ce255863117d72193a74d966857d6a8",
-      "canonicalId": "024092f492060619fa37daf616329c475079024f",
-      "slug": "lingbot-touch-jepa-latent-prediction-outperforms-reconstruction-for-tactile-pretraining",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "LingBot-Touch: JEPA latent prediction outperforms reconstruction for tactile pretraining",
-      "score": 7,
-      "tags": [
-        "self-supervised-learning",
-        "tactile-sensing",
-        "robotics",
-        "representation-learning",
-        "JEPA"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "3c43589dd173f99900ed06afc9ae940bca5a05d8",
-      "canonicalId": "e80eb2588cd60725908199a898810593f3510c71",
-      "slug": "bytedance-releases-seedream-55-with-100-round-editing-and-transparent-assets",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "ByteDance releases Seedream 5.5 with 100-round editing and transparent assets",
-      "score": 7,
-      "tags": [
-        "generative AI",
-        "image generation",
-        "image editing",
-        "ByteDance",
-        "Seedream"
-      ],
-      "originalSite": "seed.bytedance.com"
-    },
-    {
-      "id": "267444ea2804376c48cb462afe1b71bf46805dfd",
-      "canonicalId": "3b6b38e52d82f1cbb4e69fdf64d370a6a87ac5ee",
-      "slug": "oppo-vivo-xiaomi-honor-launch-joint-android-sideloading-verification",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "OPPO, vivo, Xiaomi, Honor Launch Joint Android Sideloading Verification",
-      "score": 7,
-      "tags": [
-        "Android",
-        "app sideloading",
-        "developer verification",
-        "mobile security",
-        "China tech"
-      ],
-      "originalSite": "mp.weixin.qq.com"
-    },
-    {
-      "id": "be1b9b334b663ffd6fa654a9e004f3e360bf972e",
-      "canonicalId": "0b80c5851be9ff9f7d6e55f64a4c97f13833a55e",
-      "slug": "nvidia-board-investigates-ceo-jensen-huang-shares-fall",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "Nvidia board investigates CEO Jensen Huang; shares fall",
-      "score": 7,
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "corporate governance",
-        "prediction markets",
-        "national security"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "a30397cffb8bdca78fa60cb913d577ce354ab775",
-      "canonicalId": "08316341dfd7f1e4412e2e96dd420d4a6afd92a7",
-      "slug": "china-new-energy-passenger-vehicle-exports-rise-1388",
-      "date": "2026-11-10",
-      "lang": "en",
-      "title": "China New-Energy Passenger Vehicle Exports Rise 138.8%",
-      "score": 7,
-      "tags": [
-        "中国新能源汽车",
-        "汽车出口",
-        "国内零售",
-        "购车补贴与购置税",
-        "乘用车市场"
-      ],
-      "originalSite": "finance.sina.com.cn"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": "a953a5e01452303e2faf8493c5b935ce6e24ffa2",
+  "canonicalId": "5ee45fc63309ecc32b708b1ffdc6ce46c1956b4c",
+  "slug": "未验证预印本宣称矩阵乘法指数为-94",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T01:19:00Z",
+  "lang": "zh",
+  "title": "未验证预印本宣称矩阵乘法指数为 9/4",
+  "summary": "一份托管在 OpenAI 的 GitHub 仓库的预印本《The matrix multiplication exponent is nine fourths》声称矩阵乘法的指数为 9/4，即 Θ\\(n^2.25\\)。该预印本尚未经过同行评审，当前可见信息也不足以独立复核其证明，因此应视为未经证实的声明。相关评论称论文给出的是覆盖任意域的精确指数，并否定“指数等于 2”的猜想；若成立，这将确定矩阵乘法的渐近复杂度，而不只是给出一个上界。",
+  "score": 7,
+  "tags": [
+    "complexity-theory",
+    "matrix-multiplication",
+    "ai-for-math",
+    "openai",
+    "research-preprint"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "E-Reverance",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50637220"
+    }
+  ],
+  "originalUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+  "originalSite": "github.com",
+  "context": "矩阵乘法指数 ω 定义为：对任意 ε&gt;0，两个 n×n 矩阵可在 O\\(n^\\{τ+ε\\}\\) 次算术运算内相乘的指数 τ 的下确界（MathWorld）。据 Office Chai 报道，七周前 OpenAI 曾称其内部模型找到了显著更快的理论矩阵乘法方法；本次挂出的 preprint 则声称证明精确指数为 9/4（即 2.25），也就是说无法再做得更好。",
+  "discussion": "对复杂度理论研究者，最直接的后果是这篇预印本会成为需要复核的下界证明：在独立验证前，不应把 ω=2.25 当作既定事实写入依赖快速矩阵乘法的算法分析或教学材料。对一般开发者，目前没有可据以修改实现的算法细节，因此现有矩阵乘法库和实际性能没有明确的改变依据。\n\n评论中最实质的技术分歧是结论表述：orlp 指出标题写成 O\\(n^2.25\\) 不正确，因为该上界早已知道，结果应是 Θ\\(n^2.25\\)；brandonb 进一步称论文证明的是 Ω\\(n^2.25\\) 下界，而 2.25 的上界此前已知。另有评论称这组工作来自未发布模型且未公开配方，并对 OpenAI 连续产出开放问题结果的动机提出猜测。",
+  "references": [
+    {
+      "title": "Matrix Multiplication Exponent -- from Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/MatrixMultiplicationExponent.html"
+    },
+    {
+      "title": "OpenAI Says It Has Pinned Down The Exact Speed Limit For ...",
+      "url": "https://officechai.com/ai/openai-says-it-has-pinned-down-the-exact-speed-limit-for-matrix-multiplication-9-4/"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "4ed67d8ab2fa6c79d4ce382717ae964a590fa04f",
+  "canonicalId": "6c787a85e2e6a1c1ac6966f84d3a70268b61580d",
+  "slug": "greynoise-reports-active-intrusion-campaign-against-check-point-management-servers",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-24T16:32:00Z",
+  "lang": "en",
+  "title": "GreyNoise reports active intrusion campaign against Check Point management servers",
+  "summary": "GreyNoise reports an active intrusion campaign against Check Point security management servers, with attackers targeting the HFS loginSrp1 endpoint to obtain signed session cookies. Each login returned a new &quot;sid&quot; generated with JavaScript&\\#x27;s Math.random\\(\\); by collecting several, the actor reconstructed the Node.js V8 PRNG state, recovered an HFS session-cookie signing key, and forged an admin session cookie. The account leaves the initial-access step unresolved; a commenter suggests CVE-2026-16232 as the likely vector and asks whether affected organizations exposed their management servers to the internet.",
+  "score": 7,
+  "tags": [
+    "security",
+    "vulnerability-research",
+    "Node.js",
+    "PRNG",
+    "exploitation"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "louiereederson",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50630594"
+    }
+  ],
+  "originalUrl": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+  "originalSite": "greynoise.io",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "sk185169 - CVE-2026-16232 - Authentication bypass with ...",
+      "url": "https://support.checkpoint.com/results/sk/sk185169"
+    },
+    {
+      "title": "NVD-CVE-2026-16232",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-16232"
+    },
+    {
+      "title": "Rejetto HFS CVE-2026-61500: Predictable Signing Key Enables ...",
+      "url": "https://dev.to/anoymask/rejetto-hfs-cve-2026-61500-predictable-signing-key-enables-admin-session-forgery-and-rce-477g"
+    },
+    {
+      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session ...",
+      "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
