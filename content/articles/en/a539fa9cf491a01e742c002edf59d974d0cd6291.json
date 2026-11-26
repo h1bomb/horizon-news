@@ -1,0 +1,36 @@
+{
+  "id": "a539fa9cf491a01e742c002edf59d974d0cd6291",
+  "canonicalId": "a53ddce728454982096424272c3f1516528521c6",
+  "slug": "tencent-open-sources-hy4-flash-gguf-weights-smallest-reportedly-runs-on-64-gb-mac-mini",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T09:29:00Z",
+  "lang": "en",
+  "title": "Tencent open-sources Hy4 flash GGUF weights; smallest reportedly runs on 64 GB Mac mini",
+  "summary": "Tencent Hunyuan has released GGUF quantized weights for its 224-billion-parameter Hy4 flash model through its AngelSlim compression toolkit. The original weights are about 410.27 GiB, while the smallest IQ2-AH quantized version is 125.73 GiB, roughly 30% of the original, and is reported to run on a 64 GB Mac mini using the Strata offload framework. The release report cites 89 tokens/s at 10K context on a 48 GB VRAM device and 47 tokens/s at 32K context with Q3\\_K on an M5 Max with 128 GB, plus a score gap of no more than 0.4 points versus the original on DeepSWE v1.1. These figures come from a Telegram aggregator summary and are not independently verified; no methodology was provided.",
+  "score": 7,
+  "tags": [
+    "open-source models",
+    "quantization",
+    "local LLM inference",
+    "model compression",
+    "Tencent Hunyuan"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/o0xxShVQX6g2UllrrEv1WQ",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "tencent / Hy 4 - flash · Hugging Face",
+      "url": "https://huggingface.co/tencent/Hy4-flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

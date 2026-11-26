@@ -1,6 +1,312 @@
 {
   "articles": [
     {
+      "id": "f17bc803c3f54b921e2b4b9143daa840e44480dc",
+      "canonicalId": "2da10ebf7215a41b85e95fba6bbf9246753b6c32",
+      "slug": "1password-确认安全事件部分客户账户信息被窃",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "1Password 确认安全事件，部分客户账户信息被窃",
+      "score": 8,
+      "tags": [
+        "security incident",
+        "password manager",
+        "supply chain security",
+        "SaaS",
+        "phishing"
+      ],
+      "originalSite": "1password.com"
+    },
+    {
+      "id": "6f3916bd53956ec9755482390869fe8ec5f15f7e",
+      "canonicalId": "f63f4cad14680799588db9f6b447a683c8a33a0b",
+      "slug": "grh-lean-验证出现约-76-万行精简版",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "GRH Lean 验证出现约 7.6 万行精简版",
+      "score": 8,
+      "tags": [
+        "Lean",
+        "formal-verification",
+        "theorem-proving",
+        "AI-assisted-mathematics",
+        "open-source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "03033114d62ed3b40451affbeafa76ef98fa8f7e",
+      "canonicalId": "bc2737d3be642da228544c489a094e86a341bbcc",
+      "slug": "ubuntu-安全补丁响应缓慢引发迁移与-qa-争论",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "Ubuntu 安全补丁响应缓慢引发迁移与 QA 争论",
+      "score": 7,
+      "tags": [
+        "Ubuntu",
+        "Linux distributions",
+        "security patching",
+        "open source",
+        "Debian"
+      ],
+      "originalSite": "openwall.com"
+    },
+    {
+      "id": "3e8875a71bfcfdb4287022b70c5a05df4d8534eb",
+      "canonicalId": "a53ddce728454982096424272c3f1516528521c6",
+      "slug": "腾讯开源-hy4-flash-量化权重最小版经-strata-可跑于-64-gb-mac-mini",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "腾讯开源 Hy4 flash 量化权重，最小版经 Strata 可跑于 64 GB Mac mini",
+      "score": 7,
+      "tags": [
+        "open-source models",
+        "quantization",
+        "local LLM inference",
+        "model compression",
+        "Tencent Hunyuan"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "3a738aad999f0376f2ea586ccccb6a6fe46b74fd",
+      "canonicalId": "e688c5616d6f5c944f0695d68302da689c794348",
+      "slug": "minecraft-java-版曝字体-rce-漏洞1205-起受影响",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "Minecraft Java 版曝字体 RCE 漏洞，1.20.5 起受影响",
+      "score": 7,
+      "tags": [
+        "Minecraft",
+        "RCE",
+        "FreeType",
+        "security vulnerability",
+        "Java"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "0173a7efe5083ade88152923c46b64394999eb19",
+      "canonicalId": "d8f1de148e30147a6f79c02107b4f47382831e36",
+      "slug": "三星与-sk-海力士据报交叉许可长江存储-xtacking-技术",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "三星与 SK 海力士据报交叉许可长江存储 Xtacking 技术",
+      "score": 7,
+      "tags": [
+        "semiconductors",
+        "3D NAND",
+        "Xtacking",
+        "Samsung",
+        "SK Hynix"
+      ],
+      "originalSite": "tech.ifeng.com"
+    },
+    {
+      "id": "81ced1f69d7d8b37b8954ffd83e3295b6d5cd69c",
+      "canonicalId": "51748b8b2f104688cce2c442b791299d50f8dc84",
+      "slug": "fcc-批准-spacex-部署百万颗-starmind-数据中心卫星",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "FCC 批准 SpaceX 部署百万颗 Starmind 数据中心卫星",
+      "score": 7,
+      "tags": [
+        "SpaceX",
+        "FCC",
+        "space data centers",
+        "satellite constellations",
+        "regulatory approval"
+      ],
+      "originalSite": "geekwire.com"
+    },
+    {
+      "id": "68563326fd6fe0c0ba5f1423791001d4dfd1a469",
+      "canonicalId": "b4a40c0c01654496e3f0e297df046da5a0aa2dff",
+      "slug": "法庭文件美商务部施压英特尔交出-10股权",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "法庭文件：美商务部施压英特尔交出 10%股权",
+      "score": 9,
+      "tags": [
+        "Intel",
+        "美国政府",
+        "半导体",
+        "股权收购",
+        "产业政策"
+      ],
+      "originalSite": "wired.com"
+    },
+    {
+      "id": "e175af6504d02fd27a8bb37df3ce028e3c3c4c05",
+      "canonicalId": "1e67f5e53bf4997b0f3ad8a9a014ee51ddd2124b",
+      "slug": "美国拟对中国欧盟等-14-个贸易伙伴加征新关税",
+      "date": "2026-11-26",
+      "lang": "zh",
+      "title": "美国拟对中国、欧盟等 14 个贸易伙伴加征新关税",
+      "score": 8,
+      "tags": [
+        "tariffs",
+        "trade policy",
+        "Section 301",
+        "China-US trade",
+        "global trade"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
+      "id": "847193bec7b90087ec8b90ec32fe7dbb85fece82",
+      "canonicalId": "2da10ebf7215a41b85e95fba6bbf9246753b6c32",
+      "slug": "1password-says-breach-exposed-customer-account-metadata-not-vaults",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "1Password says breach exposed customer account metadata, not vaults",
+      "score": 8,
+      "tags": [
+        "security incident",
+        "password manager",
+        "supply chain security",
+        "SaaS",
+        "phishing"
+      ],
+      "originalSite": "1password.com"
+    },
+    {
+      "id": "1bbc82ca5950b5b1ba81730c47e3b7680b0eec00",
+      "canonicalId": "f63f4cad14680799588db9f6b447a683c8a33a0b",
+      "slug": "shorter-lean-version-of-anthropicx27s-grh-verification-discussed",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "Shorter Lean version of Anthropic&\\#x27;s GRH verification discussed",
+      "score": 8,
+      "tags": [
+        "Lean",
+        "formal-verification",
+        "theorem-proving",
+        "AI-assisted-mathematics",
+        "open-source"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "2d4e9cc6095dec9f17ea5540ed0d169ae77cfd37",
+      "canonicalId": "bc2737d3be642da228544c489a094e86a341bbcc",
+      "slug": "ubuntux27s-slow-security-patching-draws-migration-reports",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "Ubuntu&\\#x27;s slow security patching draws migration reports",
+      "score": 7,
+      "tags": [
+        "Ubuntu",
+        "Linux distributions",
+        "security patching",
+        "open source",
+        "Debian"
+      ],
+      "originalSite": "openwall.com"
+    },
+    {
+      "id": "a539fa9cf491a01e742c002edf59d974d0cd6291",
+      "canonicalId": "a53ddce728454982096424272c3f1516528521c6",
+      "slug": "tencent-open-sources-hy4-flash-gguf-weights-smallest-reportedly-runs-on-64-gb-mac-mini",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "Tencent open-sources Hy4 flash GGUF weights; smallest reportedly runs on 64 GB Mac mini",
+      "score": 7,
+      "tags": [
+        "open-source models",
+        "quantization",
+        "local LLM inference",
+        "model compression",
+        "Tencent Hunyuan"
+      ],
+      "originalSite": "mp.weixin.qq.com"
+    },
+    {
+      "id": "fcbeda4e8a75ddd2838eff88aa0e07d1d30f9fd7",
+      "canonicalId": "e688c5616d6f5c944f0695d68302da689c794348",
+      "slug": "minecraft-java-rce-reported-via-resource-pack-truetype-fonts",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "Minecraft Java RCE reported via resource-pack TrueType fonts",
+      "score": 7,
+      "tags": [
+        "Minecraft",
+        "RCE",
+        "FreeType",
+        "security vulnerability",
+        "Java"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "1c710aa153fabb0b16e99ef5f9246adf6d966ff4",
+      "canonicalId": "d8f1de148e30147a6f79c02107b4f47382831e36",
+      "slug": "samsung-and-sk-hynix-reportedly-to-license-ymtcx27s-xtacking-nand-stacking-tech",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "Samsung and SK Hynix reportedly to license YMTC&\\#x27;s Xtacking NAND stacking tech",
+      "score": 7,
+      "tags": [
+        "semiconductors",
+        "3D NAND",
+        "Xtacking",
+        "Samsung",
+        "SK Hynix"
+      ],
+      "originalSite": "tech.ifeng.com"
+    },
+    {
+      "id": "f8e549dd4ef1634f7e515ef3aa3f00da47fef92a",
+      "canonicalId": "51748b8b2f104688cce2c442b791299d50f8dc84",
+      "slug": "fcc-approves-spacexx27s-1-million-satellite-starmind-data-center-constellation",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "FCC approves SpaceX&\\#x27;s 1 million-satellite Starmind data-center constellation",
+      "score": 7,
+      "tags": [
+        "SpaceX",
+        "FCC",
+        "space data centers",
+        "satellite constellations",
+        "regulatory approval"
+      ],
+      "originalSite": "geekwire.com"
+    },
+    {
+      "id": "2bc5859a13560ecbbc8eb8961424a09af2e9ac8f",
+      "canonicalId": "b4a40c0c01654496e3f0e297df046da5a0aa2dff",
+      "slug": "court-filing-us-commerce-department-pressured-intel-for-10-stake",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "Court Filing: US Commerce Department Pressured Intel for 10% Stake",
+      "score": 9,
+      "tags": [
+        "Intel",
+        "美国政府",
+        "半导体",
+        "股权收购",
+        "产业政策"
+      ],
+      "originalSite": "wired.com"
+    },
+    {
+      "id": "8c482c8377cd9145b62e08b961cf41ffaeadd53f",
+      "canonicalId": "1e67f5e53bf4997b0f3ad8a9a014ee51ddd2124b",
+      "slug": "us-reportedly-plans-new-section-301-tariffs-on-14-trading-partners",
+      "date": "2026-11-26",
+      "lang": "en",
+      "title": "US reportedly plans new Section 301 tariffs on 14 trading partners",
+      "score": 8,
+      "tags": [
+        "tariffs",
+        "trade policy",
+        "Section 301",
+        "China-US trade",
+        "global trade"
+      ],
+      "originalSite": "cnbc.com"
+    },
+    {
       "id": "739a548c0a12b1e9a542a4aa238bde960c678823",
       "canonicalId": "db22ce6bdf49656950527d4254c30edae4d04ece",
       "slug": "broadcom-修复-vcenter-98-分鉴权绕过漏洞",
@@ -5187,346 +5493,6 @@
         "high-net-worth individuals"
       ],
       "originalSite": "news.cn"
-    },
-    {
-      "id": "d2aab06c1aadc9b3b53238f359921e2584fc51b3",
-      "canonicalId": "52fb6312db3acf9e8637149390aa157637112fd3",
-      "slug": "net-11-运行时运行时异步与-decimal-兼容性变化",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": ".NET 11 运行时：运行时异步与 decimal 兼容性变化",
-      "score": 9,
-      "tags": [
-        ".NET",
-        "runtime",
-        "C\\#",
-        "async",
-        "release"
-      ],
-      "originalSite": "learn.microsoft.com"
-    },
-    {
-      "id": "453f3d5ecd6806a774a9ad5745da2f5c6371a2ee",
-      "canonicalId": "f8c1a7370c130fe58cc9d833fbc0c3d7d581f8a4",
-      "slug": "deepmind-发布-alphaproof-code瞄准形式化代码验证",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "DeepMind 发布 AlphaProof Code，瞄准形式化代码验证",
-      "score": 8,
-      "tags": [
-        "formal verification",
-        "AI coding agents",
-        "Lean theorem proving",
-        "DeepMind",
-        "software correctness"
-      ],
-      "originalSite": "deepmind.google"
-    },
-    {
-      "id": "77b31281ab1cd987afb9c12e024fe0b8fb9bf297",
-      "canonicalId": "de95d8349f73200c8d7ad76a6f1f5016aa2787bb",
-      "slug": "chips-and-cheese-解析-amd-zen-6-的微架构与-chiplet-设计",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "Chips and Cheese 解析 AMD Zen 6 的微架构与 chiplet 设计",
-      "score": 8,
-      "tags": [
-        "AMD Zen 6",
-        "CPU architecture",
-        "chiplet design",
-        "memory controller",
-        "branch prediction"
-      ],
-      "originalSite": "chipsandcheese.com"
-    },
-    {
-      "id": "db8ab719a636d03d988e53576bd997eadc9ad6b1",
-      "canonicalId": "ae3c6c28ceab44c439869fe49aa425fb62291258",
-      "slug": "glasswing-七个月后ai-漏洞报告质量引发争论",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "Glasswing 七个月后：AI 漏洞报告质量引发争论",
-      "score": 7,
-      "tags": [
-        "AI security",
-        "vulnerability research",
-        "open-source maintenance",
-        "Anthropic",
-        "community debate"
-      ],
-      "originalSite": "vulncheck.com"
-    },
-    {
-      "id": "c0c6aad4a337d4f1051284469fdf9159aecb62d9",
-      "canonicalId": "f2a365891fa20b3c542947e72b9d907497ded8c6",
-      "slug": "synaptics-专利主张致-displaylink-驱动开发停摆",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "Synaptics 专利主张致 DisplayLink 驱动开发停摆",
-      "score": 7,
-      "tags": [
-        "open-source",
-        "software patents",
-        "DisplayLink",
-        "Linux drivers",
-        "hardware compatibility"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "bcb3a9d976de9e03fc3535a12a8d5c361a5d050d",
-      "canonicalId": "5175b6a2b765750a6d5cc37ad8b4945c20190f28",
-      "slug": "chrome-联合-firefoxmdnedge-发布-modern-web-guidance-10",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "Chrome 联合 Firefox、MDN、Edge 发布 modern-web-guidance 1.0",
-      "score": 7,
-      "tags": [
-        "coding-agents",
-        "web-platform-apis",
-        "developer-tooling",
-        "open-source",
-        "frontend-engineering"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "4b85f432414882af7003940afd75dc068b812678",
-      "canonicalId": "096f075e11080075a0e306c97f7fe06ab6ca19d9",
-      "slug": "llm-gemini-036-加入-gemini-4-carbon-支持",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "llm-gemini 0.36 加入 Gemini 4 Carbon 支持",
-      "score": 7,
-      "tags": [
-        "llm-gemini",
-        "Gemini 4 Carbon",
-        "model release",
-        "API pricing",
-        "CLI tooling"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "62ba74625afde2ed68d072221d4077de03025b59",
-      "canonicalId": "6f6fff482120edafdf852ed13e31c73dc13944a7",
-      "slug": "anthropic-建议提示-claude-fable-52-时声明代码归属",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "Anthropic 建议提示 Claude Fable 5.2 时声明代码归属",
-      "score": 7,
-      "tags": [
-        "prompt engineering",
-        "LLM behavior",
-        "Claude",
-        "AI-assisted coding",
-        "coding agents"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "a3368164b3ade0b1e792a4909c5d1a5be08bd0b2",
-      "canonicalId": "6fa4efafca2d62e8df8f8d062fe911667ce18410",
-      "slug": "ai-时代胶水工作仍然有害",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "AI 时代，胶水工作仍然有害",
-      "score": 4,
-      "tags": [
-        "glue work",
-        "software engineering",
-        "AI coding agents",
-        "engineering management",
-        "coordination"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "619cd4a06ea345000059001f2939c63ac2c25cc9",
-      "canonicalId": "79239226f8cb1e2f9df2689ae7c87c557b89597e",
-      "slug": "美联储沃勒12-月加息可能性大不排除-50-个基点",
-      "date": "2026-11-11",
-      "lang": "zh",
-      "title": "美联储沃勒：12 月加息可能性大，不排除 50 个基点",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "interest rates",
-        "monetary policy",
-        "inflation",
-        "CPI"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "8a65fefdf3daaa122209ff8d4eebc8a1165d8285",
-      "canonicalId": "52fb6312db3acf9e8637149390aa157637112fd3",
-      "slug": "net-11-runtime-adds-runtime-async-and-decimal-compatibility-changes",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": ".NET 11 runtime adds runtime async and decimal compatibility changes",
-      "score": 9,
-      "tags": [
-        ".NET",
-        "runtime",
-        "C\\#",
-        "async",
-        "release"
-      ],
-      "originalSite": "learn.microsoft.com"
-    },
-    {
-      "id": "cf82f68e2066fdee0644802c64632be3e7ff9e75",
-      "canonicalId": "f8c1a7370c130fe58cc9d833fbc0c3d7d581f8a4",
-      "slug": "deepmindx27s-alphaproof-code-brings-ai-to-formal-verification-scope-questioned",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "DeepMind&\\#x27;s AlphaProof Code brings AI to formal verification, scope questioned",
-      "score": 8,
-      "tags": [
-        "formal verification",
-        "AI coding agents",
-        "Lean theorem proving",
-        "DeepMind",
-        "software correctness"
-      ],
-      "originalSite": "deepmind.google"
-    },
-    {
-      "id": "be4fe81d6a59781792da66c5573a4a952418c097",
-      "canonicalId": "de95d8349f73200c8d7ad76a6f1f5016aa2787bb",
-      "slug": "amd-zen-6-analyzed-chiplets-memory-controller-core-changes",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "AMD Zen 6 Analyzed: Chiplets, Memory Controller, Core Changes",
-      "score": 8,
-      "tags": [
-        "AMD Zen 6",
-        "CPU architecture",
-        "chiplet design",
-        "memory controller",
-        "branch prediction"
-      ],
-      "originalSite": "chipsandcheese.com"
-    },
-    {
-      "id": "40a851126ad656399c53006c97faf9f00d9e4fdd",
-      "canonicalId": "ae3c6c28ceab44c439869fe49aa425fb62291258",
-      "slug": "anthropicx27s-glasswing-vulnerability-findings-draw-maintainer-debate",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "Anthropic&\\#x27;s Glasswing vulnerability findings draw maintainer debate",
-      "score": 7,
-      "tags": [
-        "AI security",
-        "vulnerability research",
-        "open-source maintenance",
-        "Anthropic",
-        "community debate"
-      ],
-      "originalSite": "vulncheck.com"
-    },
-    {
-      "id": "00750471e1eda06d5c8dacd9d6a9a3b915fb7c78",
-      "canonicalId": "f2a365891fa20b3c542947e72b9d907497ded8c6",
-      "slug": "synaptics-patent-claims-reportedly-stop-displaylink-driver-development",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "Synaptics Patent Claims Reportedly Stop DisplayLink Driver Development",
-      "score": 7,
-      "tags": [
-        "open-source",
-        "software patents",
-        "DisplayLink",
-        "Linux drivers",
-        "hardware compatibility"
-      ],
-      "originalSite": "lwn.net"
-    },
-    {
-      "id": "3668b6d1f9b8967d502df8e211b32bd8a86b4016",
-      "canonicalId": "5175b6a2b765750a6d5cc37ad8b4945c20190f28",
-      "slug": "chrome-led-modern-web-guidance-10-steers-coding-agents-to-native-apis",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "Chrome-led Modern Web Guidance 1.0 steers coding agents to native APIs",
-      "score": 7,
-      "tags": [
-        "coding-agents",
-        "web-platform-apis",
-        "developer-tooling",
-        "open-source",
-        "frontend-engineering"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "6ad527be85235d8a165e6e2b4d5534f834b501d8",
-      "canonicalId": "096f075e11080075a0e306c97f7fe06ab6ca19d9",
-      "slug": "llm-gemini-036-adds-gemini-4-carbon-support",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "llm-gemini 0.36 adds Gemini 4 Carbon support",
-      "score": 7,
-      "tags": [
-        "llm-gemini",
-        "Gemini 4 Carbon",
-        "model release",
-        "API pricing",
-        "CLI tooling"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "06bb2e84d19ccc5fc794afdb49095413aab3b9c7",
-      "canonicalId": "6f6fff482120edafdf852ed13e31c73dc13944a7",
-      "slug": "anthropic-guidance-ownership-framing-makes-claude-fable-52-merge-repeated-code",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "Anthropic guidance: ownership framing makes Claude Fable 5.2 merge repeated code",
-      "score": 7,
-      "tags": [
-        "prompt engineering",
-        "LLM behavior",
-        "Claude",
-        "AI-assisted coding",
-        "coding agents"
-      ],
-      "originalSite": "simonwillison.net"
-    },
-    {
-      "id": "61d72412211fc09e01862d74f05ea384f167a8a6",
-      "canonicalId": "6fa4efafca2d62e8df8f8d062fe911667ce18410",
-      "slug": "ai-doesnt-make-glue-work-more-important",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "AI Doesn’t Make Glue Work More Important",
-      "score": 4,
-      "tags": [
-        "glue work",
-        "software engineering",
-        "AI coding agents",
-        "engineering management",
-        "coordination"
-      ],
-      "originalSite": "seangoedecke.com"
-    },
-    {
-      "id": "ff624565a8262a64660dd9bef4a61f351e17139e",
-      "canonicalId": "79239226f8cb1e2f9df2689ae7c87c557b89597e",
-      "slug": "fed-governor-waller-sees-december-rate-increase-as-likely-weighs-half-point-move",
-      "date": "2026-11-11",
-      "lang": "en",
-      "title": "Fed Governor Waller Sees December Rate Increase as Likely, Weighs Half-Point Move",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "interest rates",
-        "monetary policy",
-        "inflation",
-        "CPI"
-      ],
-      "originalSite": "cnbc.com"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "id": "847193bec7b90087ec8b90ec32fe7dbb85fece82",
+  "canonicalId": "2da10ebf7215a41b85e95fba6bbf9246753b6c32",
+  "slug": "1password-says-breach-exposed-customer-account-metadata-not-vaults",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T17:18:00Z",
+  "lang": "en",
+  "title": "1Password says breach exposed customer account metadata, not vaults",
+  "summary": "1Password confirmed a November 2026 security incident in which an attacker used a compromised employee enterprise GitHub account to access source code and push malicious code to backend services, leading to the download of some customer account information. The data included names, email addresses, account identifiers, and account creation and last-login times, according to the company. 1Password says customer vaults and their contents were not affected and has not disclosed how many users were exposed. The company disabled the involved account, rotated or revoked potentially exposed internal credentials, strengthened verification for invitation and recovery emails, and said users do not need to change their accounts but should watch for phishing.",
+  "score": 8,
+  "tags": [
+    "security incident",
+    "password manager",
+    "supply chain security",
+    "SaaS",
+    "phishing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lxhrstn",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
+    }
+  ],
+  "originalUrl": "https://1password.com/blog/update-on-nov-2026-security-incident",
+  "originalSite": "1password.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Update on a security incident involving... | 1 Password",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

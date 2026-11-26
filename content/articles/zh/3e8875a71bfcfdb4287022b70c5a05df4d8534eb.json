@@ -1,0 +1,36 @@
+{
+  "id": "3e8875a71bfcfdb4287022b70c5a05df4d8534eb",
+  "canonicalId": "a53ddce728454982096424272c3f1516528521c6",
+  "slug": "腾讯开源-hy4-flash-量化权重最小版经-strata-可跑于-64-gb-mac-mini",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T09:29:00Z",
+  "lang": "zh",
+  "title": "腾讯开源 Hy4 flash 量化权重，最小版经 Strata 可跑于 64 GB Mac mini",
+  "summary": "腾讯混元通过 AngelSlim 开源了 224B 参数模型 Hy4 flash 的 GGUF 量化权重：原权重约 410.27 GiB，最小 IQ2-AH 版为 125.73 GiB，约为原版的 30%。腾讯称，借助 Strata offload 框架，64 GB Mac mini 可运行这一最小版本。来源给出的数据还显示，48 GB 显存设备在 10K 上下文下达到 89 token/s，M5 Max 128 GB 上的 Q3\\_K 版在 32K 上下文下为 47 token/s，Q3\\_K 与原始模型在 DeepSWE v1.1 等评测中的分差不超过 0.4 分。上述性能与评测数字均为来源转述，未提供测试方法或独立验证。",
+  "score": 7,
+  "tags": [
+    "open-source models",
+    "quantization",
+    "local LLM inference",
+    "model compression",
+    "Tencent Hunyuan"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://mp.weixin.qq.com/s/o0xxShVQX6g2UllrrEv1WQ",
+  "originalSite": "mp.weixin.qq.com",
+  "context": "Hy4 flash 是腾讯混元的 MoE 模型，官方模型卡称其总参数约 220B（含 64B Engram 参数）、每个 token 仅激活 12B，并支持最长 1M token 的上下文。GGUF 是本地推理工具常用的模型文件格式，IQ2-AH 属于约 2 bit 级的低位宽量化，用一定精度损失换取更小的权重体积；当压缩后的权重仍超过设备可用内存时，Strata offload 通过分层加载避免模型必须全部常驻内存。",
+  "discussion": "对本地推理用户而言，最小版本仍约 125.73 GiB，远超 64 GB 统一内存，因此能否运行取决于 Strata offload 的卸载机制；来源未给出 Mac mini 上的实际生成速度，部署前需把这一性能不确定性计入预期。",
+  "references": [
+    {
+      "title": "tencent / Hy 4 - flash · Hugging Face",
+      "url": "https://huggingface.co/tencent/Hy4-flash"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2d4e9cc6095dec9f17ea5540ed0d169ae77cfd37",
+  "canonicalId": "bc2737d3be642da228544c489a094e86a341bbcc",
+  "slug": "ubuntux27s-slow-security-patching-draws-migration-reports",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T20:38:00Z",
+  "lang": "en",
+  "title": "Ubuntu&\\#x27;s slow security patching draws migration reports",
+  "summary": "An oss-security mailing-list post from November 25, 2026, and the Hacker News thread that followed focused on slow Ubuntu security patch turnaround, with commenters describing operational responses rather than any announced change from Canonical. The original mailing-list message was not included in the supplied material, so the specific packages, vulnerabilities, and timelines at issue could not be verified. The concrete evidence here is anecdotal: one commenter says their employer moved all server images from Ubuntu to Debian over the delay, and another says they chose Debian for a generic Linux VM for the first time for the same reason. No Canonical statement, patch-latency measurement, or independent benchmark was available.",
+  "score": 7,
+  "tags": [
+    "Ubuntu",
+    "Linux distributions",
+    "security patching",
+    "open source",
+    "Debian"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gslin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50647181"
+    }
+  ],
+  "originalUrl": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+  "originalSite": "openwall.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "oss - security - Slow Ubuntu security response times",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9"
+    },
+    {
+      "title": "CVE- 2026 -8674 | Ubuntu",
+      "url": "https://ubuntu.com/security/CVE-2026-8674"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "fcbeda4e8a75ddd2838eff88aa0e07d1d30f9fd7",
+  "canonicalId": "e688c5616d6f5c944f0695d68302da689c794348",
+  "slug": "minecraft-java-rce-reported-via-resource-pack-truetype-fonts",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T12:46:00Z",
+  "lang": "en",
+  "title": "Minecraft Java RCE reported via resource-pack TrueType fonts",
+  "summary": "On November 22, a public proof-of-concept called minecraft2shell reported a high-severity remote code execution flaw in Minecraft Java Edition: a crafted TrueType font delivered through a server resource pack triggers a native out-of-bounds write in FreeType 2.14.3 and earlier and can execute code on a Windows client. The report lists Java 1.20.5 through 1.21.10 and snapshots 26.1 through 26.4 as affected, while 1.20.4 and earlier and Bedrock Edition are not. Mojang still ships lwjgl-freetype 3.4.3 and has no official patch, according to the post; the community m2sfix 1.0.0, published November 24, disables hinting through a Java agent or mod. The claim comes from a Telegram post and a public PoC, not an official advisory, so the exact affected-version and execution details are not independently confirmed here.",
+  "score": 7,
+  "tags": [
+    "Minecraft",
+    "RCE",
+    "FreeType",
+    "security vulnerability",
+    "Java"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/bikini/minecraft2shell",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - bikini/ minecraft 2 shell : Minecraft to native RCE · GitHub",
+      "url": "https://github.com/bikini/minecraft2shell"
+    },
+    {
+      "title": "Minecraft 2 Shell Vulnerability",
+      "url": "https://liquidbounce.net/blog/minecraft2shell-vulnerability-AK0X5CE6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

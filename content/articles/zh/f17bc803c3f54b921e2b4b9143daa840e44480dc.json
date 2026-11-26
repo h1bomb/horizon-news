@@ -1,0 +1,32 @@
+{
+  "id": "f17bc803c3f54b921e2b4b9143daa840e44480dc",
+  "canonicalId": "2da10ebf7215a41b85e95fba6bbf9246753b6c32",
+  "slug": "1password-确认安全事件部分客户账户信息被窃",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T17:18:00Z",
+  "lang": "zh",
+  "title": "1Password 确认安全事件，部分客户账户信息被窃",
+  "summary": "1Password 确认发生安全事件，攻击者访问其内部系统并窃取了部分客户的姓名、邮箱地址、账户标识以及账户创建和最近登录时间；公司表示客户保险库及其中的内容未受影响。公司于 11 月 19 日开始调查员工企业 GitHub 账户被入侵的迹象，攻击者借该账户访问源代码并向后台服务推送恶意代码，导致上述信息被下载。1Password 尚未披露受影响用户数量，已停用涉事账户、轮换或撤销可能暴露的内部凭证，并加强邀请和恢复邮件验证码。公司称用户无需更改账户，但应警惕钓鱼邮件。",
+  "score": 8,
+  "tags": [
+    "security incident",
+    "password manager",
+    "supply chain security",
+    "SaaS",
+    "phishing"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "lxhrstn",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50644817"
+    }
+  ],
+  "originalUrl": "https://1password.com/blog/update-on-nov-2026-security-incident",
+  "originalSite": "1password.com",
+  "context": "1Password 是广泛使用的密码管理器，用户数据存放在加密保险库中，账户管理数据则由后台服务处理。此次披露中被窃取的是姓名、邮箱、账户标识及创建和最近登录时间等账户信息，保险库及其内容未受影响。",
+  "discussion": "对使用 1Password 托管保险库的客户而言，官方称无需更改账户，但仍需警惕伪装成保险库共享、邀请或恢复验证码等主题的钓鱼邮件。\n\n评论中，tptacek 认为员工笔记本被入侵后向 GitHub 推送代码并被部署，是 SaaS 公司长期存在且日益突出的标准攻击路径；ctidd 则批评公告未说明是否缺少分支保护规则或规则如何被绕过。另有用户称收到包含部分个人细节的高质量钓鱼邮件，也有人讨论仅使用本地保险库能否降低此类供应链风险。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

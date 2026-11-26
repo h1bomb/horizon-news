@@ -1,0 +1,37 @@
+{
+  "id": "03033114d62ed3b40451affbeafa76ef98fa8f7e",
+  "canonicalId": "bc2737d3be642da228544c489a094e86a341bbcc",
+  "slug": "ubuntu-安全补丁响应缓慢引发迁移与-qa-争论",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T20:38:00Z",
+  "lang": "zh",
+  "title": "Ubuntu 安全补丁响应缓慢引发迁移与 QA 争论",
+  "summary": "Hacker News 上的一则讨论聚焦 oss-security 帖子所指的 Ubuntu 安全响应缓慢问题，核心是用户对补丁延迟的不满。由于帖子正文未提供，具体延迟时长、受影响版本以及 Ubuntu 官方回应都无法确认。评论中，有用户称已将服务器镜像从 Ubuntu 迁至 Debian；另有用户提醒，补丁速度需要与回归测试权衡。",
+  "score": 7,
+  "tags": [
+    "Ubuntu",
+    "Linux distributions",
+    "security patching",
+    "open source",
+    "Debian"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "gslin",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50647181"
+    }
+  ],
+  "originalUrl": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+  "originalSite": "openwall.com",
+  "context": "这轮讨论围绕 Ubuntu 对严重安全漏洞的修复节奏展开。oss-security 邮件给出的具体案例是远程 TCP 数据破坏漏洞 CVE-2026-98432；发帖者称，Ubuntu 在漏洞披露后数周才提供修复。对依赖发行版安全更新的服务器用户而言，这一案例提供了判断响应是否及时的直接参照。",
+  "discussion": "评论中的主要分歧是补丁速度与稳定性：一方认为 Ubuntu 的慢响应不可接受并称已迁往 Debian，另一方强调 Debian 等发行版的 QA 资源有限，回归风险确实存在。还有评论者引用稳定内核维护者 2025 年的说法，警告随意挑选补丁会留下已知和未知问题。",
+  "references": [
+    {
+      "title": "oss - security - Slow Ubuntu security response times",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

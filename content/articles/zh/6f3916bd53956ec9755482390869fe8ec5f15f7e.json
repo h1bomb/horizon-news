@@ -1,0 +1,41 @@
+{
+  "id": "6f3916bd53956ec9755482390869fe8ec5f15f7e",
+  "canonicalId": "f63f4cad14680799588db9f6b447a683c8a33a0b",
+  "slug": "grh-lean-验证出现约-76-万行精简版",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T21:48:00Z",
+  "lang": "zh",
+  "title": "GRH Lean 验证出现约 7.6 万行精简版",
+  "summary": "GitHub 仓库 lsernau/grh-lean 提供了一个更短的 Anthropic GRH Lean 验证版本，Hacker News 讨论称它比原始形式化更易读并配有文档。讨论中同时出现约 30 万行的可读版本，以及从约 1700 万行降至约 7.6 万行（减少 99.56%）两种说法；所给材料不足以判断它们是否指同一构建。该版本据称区分“已知数学”和“新数学”，但现有材料没有说明它是否与原验证形式等价、依赖哪些公理，也没有独立核实其正确性。",
+  "score": 8,
+  "tags": [
+    "Lean",
+    "formal-verification",
+    "theorem-proving",
+    "AI-assisted-mathematics",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nb-t",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50648050"
+    }
+  ],
+  "originalUrl": "https://github.com/lsernau/grh-lean",
+  "originalSite": "github.com",
+  "context": "广义黎曼猜想（GRH）是黎曼猜想的推广形式，要对其进行形式化验证，就必须把论证改写成机器可以逐步检查的 Lean 代码。此前有报道称，Anthropic 的一位数学家借助 Claude 宣称解决了这一难题（NPR，2026 年 11 月 21 日），而当时的 Lean 形式化体量极为庞大，社区评论提到约 1700 万行。这个新仓库把同样的五个定理收纳进约 7.6 万行的 grh-compact 目录，其中每个目录都是独立的 Lake 项目，并各自带有 README；构建需要 Lean v4.35.0，以及 Mathlib 的 56a00585 提交。",
+  "discussion": "对需要审阅这份形式化的 Lean 用户和数学研究者，较小的代码库与文档据称降低了阅读门槛；但在缺少等价性检查和公理依赖说明的情况下，直接复用或引用前仍需自行核对构建结果。\n\n有评论者欢迎更清晰的文档和“已知数学/新数学”分区，并追问这是否回应了 Tao 一个月前关于“巨大但缺乏洞见的形式化证明”的批评。另有人希望数学家真正理解核心论证，写出传统数学论文并在会议上讲解，而不是只留下 Lean 代码。",
+  "references": [
+    {
+      "title": "GitHub - lsernau / grh - lean : A short Lean 4 proof of the Generalized...",
+      "url": "https://github.com/lsernau/grh-lean"
+    },
+    {
+      "title": "Anthropic worker claims to have solved a Holy Grail of math... : NPR",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

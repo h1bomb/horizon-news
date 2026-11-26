@@ -1,0 +1,40 @@
+{
+  "id": "3a738aad999f0376f2ea586ccccb6a6fe46b74fd",
+  "canonicalId": "e688c5616d6f5c944f0695d68302da689c794348",
+  "slug": "minecraft-java-版曝字体-rce-漏洞1205-起受影响",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T12:46:00Z",
+  "lang": "zh",
+  "title": "Minecraft Java 版曝字体 RCE 漏洞，1.20.5 起受影响",
+  "summary": "一个名为 minecraft2shell 的项目于 11 月 22 日公开，称 Minecraft Java 版可通过服务器资源包中的特制 TrueType 字体触发 FreeType 2.14.3 及更早版本的原生越界写，并在 Java 版 26.3 的 Windows 客户端上执行任意代码。该帖称 1.20.5 至 1.21.10 以及 26.1 至 26.4 快照受影响，1.20.4 及更早版本和基岩版不受影响；目前 Mojang 仍使用 lwjgl-freetype 3.4.3，尚无官方补丁。由于信息来自 Telegram 投稿、未见官方公告，且部分版本表述存在不一致，漏洞范围和修复状态仍需以官方确认为准。",
+  "score": 7,
+  "tags": [
+    "Minecraft",
+    "RCE",
+    "FreeType",
+    "security vulnerability",
+    "Java"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://github.com/bikini/minecraft2shell",
+  "originalSite": "github.com",
+  "context": "Minecraft Java 版通过 LWJGL 调用 FreeType 来渲染游戏内文字，而资源包允许服务器向客户端提供自定义字体文件，因此客户端在加载资源包时会解析其中的 TrueType 字体。LiquidBounce 的说明称，GitHub 用户 bikini 于 11 月 22 日公开了可工作的演示，且事先未通知 Mojang；该演示把触发点定位在 FreeType 加载字形时的 TrueType hinting 阶段。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - bikini/ minecraft 2 shell : Minecraft to native RCE · GitHub",
+      "url": "https://github.com/bikini/minecraft2shell"
+    },
+    {
+      "title": "Minecraft 2 Shell Vulnerability",
+      "url": "https://liquidbounce.net/blog/minecraft2shell-vulnerability-AK0X5CE6"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

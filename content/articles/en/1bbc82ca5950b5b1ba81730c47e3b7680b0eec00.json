@@ -1,0 +1,41 @@
+{
+  "id": "1bbc82ca5950b5b1ba81730c47e3b7680b0eec00",
+  "canonicalId": "f63f4cad14680799588db9f6b447a683c8a33a0b",
+  "slug": "shorter-lean-version-of-anthropicx27s-grh-verification-discussed",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-25T21:48:00Z",
+  "lang": "en",
+  "title": "Shorter Lean version of Anthropic&\\#x27;s GRH verification discussed",
+  "summary": "A GitHub repository by lsernau publishes a much shorter Lean formalization of Anthropic&\\#x27;s GRH verification, which Hacker News commenters describe as far more readable and heavily documented. Commenters report the proof shrinking from roughly 17 million lines to about 76 thousand, a 99.56% reduction, though another commenter refers to a 300k-line proof, so the precise figures are not verified by the item itself. Commenters also note the rewrite separates &quot;known math&quot; from &quot;new math&quot; and includes human-readable documentation throughout. The item supplies no source content, so the artifact&\\#x27;s correctness, completeness, and fidelity to the original formalization remain unestablished here.",
+  "score": 8,
+  "tags": [
+    "Lean",
+    "formal-verification",
+    "theorem-proving",
+    "AI-assisted-mathematics",
+    "open-source"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "nb-t",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50648050"
+    }
+  ],
+  "originalUrl": "https://github.com/lsernau/grh-lean",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "GitHub - lsernau / grh - lean : A short Lean 4 proof of the Generalized...",
+      "url": "https://github.com/lsernau/grh-lean"
+    },
+    {
+      "title": "Anthropic worker claims to have solved a Holy Grail of math... : NPR",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
