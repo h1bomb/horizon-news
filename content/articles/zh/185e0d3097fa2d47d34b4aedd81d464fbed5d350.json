@@ -1,0 +1,41 @@
+{
+  "id": "185e0d3097fa2d47d34b4aedd81d464fbed5d350",
+  "canonicalId": "6f6a6b07f17a726f0cf416f09370755900e04234",
+  "slug": "谷歌拟让-ai-代理使用-workspace-mcpgmail-不能发邮件",
+  "date": "2026-11-27",
+  "publishedAt": "2026-11-26T09:44:00Z",
+  "lang": "zh",
+  "title": "谷歌拟让 AI 代理使用 Workspace MCP，Gmail 不能发邮件",
+  "summary": "据 TechStackUps 报道，谷歌计划让 AI 代理使用其面向 Workspace 的 MCP 服务器，这是一项尚在宣布阶段的安排，面向希望通过代理操作 Workspace 的开发者与企业用户。报道同时指出，Gmail 的 MCP 服务器不能发送邮件，使代理无法完成这一常见工作流。该限制的具体范围和生效时间在现有材料中尚不明确。",
+  "score": 7,
+  "tags": [
+    "MCP",
+    "Google Workspace",
+    "AI agents",
+    "Gmail",
+    "enterprise AI"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ritzaco",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
+    }
+  ],
+  "originalUrl": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+  "originalSite": "techstackups.com",
+  "context": "MCP（Model Context Protocol）是一种让 AI 代理调用外部工具和数据的接口协议，Google Workspace 的 MCP 服务器把 Gmail 等产品封装成可供代理调用的工具。围绕本次限制的讨论指出，MCP 本身已有 elicitation 原语，可让服务器在执行工具调用前暂停并向用户请求确认。",
+  "discussion": "对于准备用 Workspace MCP 构建邮件代理的团队，Gmail 服务器不能发送邮件意味着它无法直接替代发信能力；开发者仍需保留合作伙伴工具或自建 SMTP/IMAP 通道，并在 Google Cloud 项目中启用相应 Workspace 服务、审查代理权限。\n\n有评论者认为，MCP 的 elicitation 机制本可在发送邮件前暂停工具调用并要求用户确认，因此把发送功能设为仅限合作伙伴更像商业决定而非安全措施；也有人预计代理会改用浏览器自动化或 SMTP/IMAP 绕过这一限制。",
+  "references": [
+    {
+      "title": "Configure the Google Workspace MCP servers | Google for Developers",
+      "url": "https://developers.google.com/workspace/guides/configure-mcp-servers"
+    },
+    {
+      "title": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/?m=1"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

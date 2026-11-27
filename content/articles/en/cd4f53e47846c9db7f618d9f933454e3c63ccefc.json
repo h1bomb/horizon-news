@@ -1,0 +1,44 @@
+{
+  "id": "cd4f53e47846c9db7f618d9f933454e3c63ccefc",
+  "canonicalId": "5ef5f4739db10d848e665b8e4c7e808e16422343",
+  "slug": "report-zhipu-and-moonshot-may-delay-flagship-models-to-2027",
+  "date": "2026-11-27",
+  "publishedAt": "2026-11-26T15:14:00Z",
+  "lang": "en",
+  "title": "Report: Zhipu and Moonshot May Delay Flagship Models to 2027",
+  "summary": "Zhipu’s planned flagship GLM-5.5, a roughly 3-trillion-parameter model expected this month, has not shipped and may be delayed until the first quarter of 2027 or later, according to a Reuters report citing people familiar with the matter. The same report says Moonshot AI internally estimates that losing all overseas compute access could stretch its major release cadence from six months to more than a year, potentially pushing its next flagship Kimi K4 to mid-2027. It attributes the pressure to increasingly effective anti-distillation measures and compute limits, saying defenses from Anthropic and OpenAI are making training data harder to obtain and that Moonshot has shifted to distilling models from Google and Meta. The report is unconfirmed, and a screenshot circulating on WeChat shows Zhipu denying it.",
+  "score": 7,
+  "tags": [
+    "China AI",
+    "AI industry",
+    "export controls",
+    "anti-distillation",
+    "model releases"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+  "originalSite": "reuters.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Strengthening our defenses against distillation attacks \\ Anthropic",
+      "url": "https://www.anthropic.com/news/distillation-defenses"
+    },
+    {
+      "title": "GLM - 5 | Zhipu AI&#x27;s Next-Generation Large Language Model",
+      "url": "https://glm5.net/"
+    },
+    {
+      "title": "OpenAI , Anthropic , and Google Just Formed an Alliance. The Target...",
+      "url": "https://majormatters.co/p/openai-anthropic-google-distillation-alliance"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
