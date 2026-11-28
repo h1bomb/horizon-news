@@ -1,0 +1,44 @@
+{
+  "id": "ee0303627b01ef89f840cfd1b4d3b56fb38036b7",
+  "canonicalId": "e7792bf08cf973492fc93c3f1421a404f00e532f",
+  "slug": "semianalysis-details-trainium3-microarchitecture-and-inference-cost-results",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T15:54:00Z",
+  "lang": "en",
+  "title": "SemiAnalysis details Trainium3 microarchitecture and inference cost results",
+  "summary": "SemiAnalysis published a Trainium3 deep dive arguing that AWS&\\#x27;s ML-first design—where tiles are a first-class primitive rather than an addition to a GPU thread model—now has sufficiently mature software to compete on inference. Its UBenchX microbenchmarks report that Trainium&\\#x27;s Descriptor Generation Engines allow peak HBM bandwidth utilization at small message sizes, which the authors say is not possible on Nvidia GPUs, and cover cycle-level SRAM, rack-scale, and attention latency. On InferenceX, the firm reports that Trainium3 PDS with vLLM delivers better performance per TCO than every accelerator except Nvidia Vera Rubin across the TCO-versus-p90-interactivity frontier, while Trainium3 and TPUs trade blows with or beat GB300 on token-generation TCO; the supplied excerpt gives no absolute benchmark figures.",
+  "score": 7,
+  "tags": [
+    "Trainium3",
+    "AWS",
+    "AI hardware",
+    "inference",
+    "microarchitecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Trainium3 competes with Nvidia GB300 in inference performance ...",
+      "url": "https://cryptobriefing.com/trainium3-nvidia-gb300-inference-benchmark/"
+    },
+    {
+      "title": "Trainium3 Inference Cost Benchmark: Neuron vs NVIDIA",
+      "url": "https://blog.eveestatistic.com/blog/trainium3-inference-cost-benchmark"
+    },
+    {
+      "title": "Amazon’s Trainium3 Shows Cost Edge in AI Benchmark",
+      "url": "https://thedefiant.io/frontier/ai/amazon-s-trainium3-shows-cost-edge-in-ai-benchmark"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

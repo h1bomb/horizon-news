@@ -1,0 +1,45 @@
+{
+  "id": "c5d1f47859593286486aa31bb59d174624f0c65c",
+  "canonicalId": "e20b8c05499c1f61c7208754a7055667e1a3f3b9",
+  "slug": "essay-examines-false-computer-checked-proofs-and-checker-soundness",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T15:26:00Z",
+  "lang": "en",
+  "title": "Essay examines false computer-checked proofs and checker soundness",
+  "summary": "A newly published essay hosted at cr.yp.to examines how computer-checked proofs can be false when the proof checker itself has a soundness bug, a concern for formal-methods users working with systems such as Lean and Metamath. It is a technical critique rather than a report of a new compromise, and the supplied material does not identify a specific theorem or deployment that was fooled. The practical question raised is whether acceptance by one checker is enough evidence, given that independent verification and review can catch different failures.",
+  "score": 7,
+  "tags": [
+    "formal verification",
+    "proof assistants",
+    "soundness bugs",
+    "Lean",
+    "Metamath"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_tk\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50667989"
+    }
+  ],
+  "originalUrl": "https://cr.yp.to/proofs/falseccp.html",
+  "originalSite": "cr.yp.to",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "False computer-checked proofs (djb) - cr.yp.to",
+      "url": "https://cr.yp.to/proofs/falseccp.html"
+    },
+    {
+      "title": "Daniel J. Bernstein on X: &quot;Posted new page &quot;False computer ...",
+      "url": "https://x.com/hashbreaker/status/2120889008389837049"
+    },
+    {
+      "title": "D. J. Bernstein catalogs soundness bugs in seven proof ...",
+      "url": "https://news.lavx.hu/article/d-j-bernstein-catalogs-soundness-bugs-in-seven-proof-checkers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e6f1ce1e58c5ddc137b6f69b1c9252a68cca7d18",
+  "canonicalId": "9b67ad13d3381ff0e387a57a33c5a6abfa13647a",
+  "slug": "热门购物网站出现滥用-webrtc-的盗刷脚本",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T15:40:00Z",
+  "lang": "zh",
+  "title": "热门购物网站出现滥用 WebRTC 的盗刷脚本",
+  "summary": "一篇提交至 Hacker News 的报道称，热门购物网站中发现滥用 WebRTC 的信用卡盗刷脚本；现有材料只有标题和评论，没有文章正文，因此受影响站点、脚本数量和发现时间均不明确。评论者认为，问题不在 WebRTC 本身，而在于电商页面嵌入的第三方脚本难以被持续监控，攻击者只是借 WebRTC 规避检测，同样手法也可用普通 HTTP 请求实现。有评论者称，攻击者只针对移动设备是为了降低被发现概率，但这一说法未获现有材料独立验证。",
+  "score": 7,
+  "tags": [
+    "web security",
+    "credit card skimming",
+    "WebRTC",
+    "third-party scripts",
+    "e-commerce"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "scanr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50668145"
+    }
+  ],
+  "originalUrl": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+  "originalSite": "infohawk.com",
+  "context": "评论所讨论的信用卡盗刷脚本，是指在电商结账页面植入恶意 JavaScript、窃取支付信息的攻击；评论者强调，真正的入口通常是网站嵌入的第三方脚本，而不是 WebRTC 本身。WebRTC 是浏览器内置的实时通信接口，可用于建立网络连接；按评论者的说法，它只是较少被用于监测恶意行为的通道，类似手法也可用普通 HTTP 请求实现。",
+  "discussion": "对电商运营者而言，只要页面继续嵌入可执行任意 JavaScript 的第三方脚本，风险就不限于支付表单本身；按评论者的说法，封禁 WebRTC 并不能消除同类盗刷，关键仍是控制第三方代码的加载与执行。\n\n讨论集中在责任归属：有评论者认为这证明拦截广告和第三方脚本合理，也有人强调 WebRTC 只是较少被监控的通道，根因是站点允许第三方代码在浏览器中执行。另有评论提出浏览器应只渲染数据、广告脚本应被沙箱化，但这些属于观点，现有材料未显示已有对应实现。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

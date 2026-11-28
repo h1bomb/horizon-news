@@ -1,0 +1,31 @@
+{
+  "id": "fefa3eccedb954379b7ef286de694bdad7501682",
+  "canonicalId": "43fa9fbe229859a2542ea9d7b1c1d73095b912ff",
+  "slug": "minecraft-bedrock-resource-pack-flaw-affected-26522663-fixed-in-2665",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T18:04:00Z",
+  "lang": "en",
+  "title": "Minecraft Bedrock resource-pack flaw affected 26.52–26.63, fixed in 26.65",
+  "summary": "A publicly reported vulnerability in Minecraft Bedrock allowed resource packs carrying a content.zipe file to alter Ore UI files and run hidden scripts when auto-download was enabled on servers or Realms. Developer 8Crafter said in a November 15 Reddit disclosure that it affected versions 26.52 through 26.63, possibly earlier releases, across PC, mobile and console; Java Edition was unaffected. Mojang fixed the issue in version 26.65, and AxmBro released a Windows read-only detection tool that can find content.zipe but cannot determine whether a resource pack is malicious.",
+  "score": 7,
+  "tags": [
+    "Minecraft Bedrock",
+    "security vulnerability",
+    "resource packs",
+    "game security",
+    "auto-download"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.zaikei.co.jp/article/20261119/878386.html",
+  "originalSite": "zaikei.co.jp",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

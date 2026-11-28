@@ -1,6 +1,312 @@
 {
   "articles": [
     {
+      "id": "13afb5a4bfa417bbeeca5bdcf2c159cc13200c6c",
+      "canonicalId": "77ab3d65a27896e8329a48f48640f73305607972",
+      "slug": "google-research-提出-deepcrossattention-残差连接宣称最高-3-倍加速",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "Google Research 提出 DeepCrossAttention 残差连接，宣称最高 3 倍加速",
+      "score": 7,
+      "tags": [
+        "transformers",
+        "model efficiency",
+        "Google Research",
+        "deep learning architecture",
+        "residual connections"
+      ],
+      "originalSite": "research.google"
+    },
+    {
+      "id": "e6f1ce1e58c5ddc137b6f69b1c9252a68cca7d18",
+      "canonicalId": "9b67ad13d3381ff0e387a57a33c5a6abfa13647a",
+      "slug": "热门购物网站出现滥用-webrtc-的盗刷脚本",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "热门购物网站出现滥用 WebRTC 的盗刷脚本",
+      "score": 7,
+      "tags": [
+        "web security",
+        "credit card skimming",
+        "WebRTC",
+        "third-party scripts",
+        "e-commerce"
+      ],
+      "originalSite": "infohawk.com"
+    },
+    {
+      "id": "bc24dd6cbdc427b8e38938b3b9e0d0b4cdd105a6",
+      "canonicalId": "e3fd524c3c50f8bca16d260c3ce548726ae4c209",
+      "slug": "convex-ai-编码-skill-被指未告知上传应用创意",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "Convex AI 编码 skill 被指未告知上传应用创意",
+      "score": 7,
+      "tags": [
+        "AI coding tools",
+        "privacy",
+        "data exfiltration",
+        "developer trust",
+        "prompt security"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "0dc326b70e621da32f728ff68ddc58bb0fae43f6",
+      "canonicalId": "e20b8c05499c1f61c7208754a7055667e1a3f3b9",
+      "slug": "计算机验证的证明也可能为假检查器健全性争议",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "计算机验证的证明也可能为假：检查器健全性争议",
+      "score": 7,
+      "tags": [
+        "formal verification",
+        "proof assistants",
+        "soundness bugs",
+        "Lean",
+        "Metamath"
+      ],
+      "originalSite": "cr.yp.to"
+    },
+    {
+      "id": "09cc7e53daaa97394ca9b5e9a81da3bfda9bcc7c",
+      "canonicalId": "e7792bf08cf973492fc93c3f1421a404f00e532f",
+      "slug": "semianalysis-微基准trainium3-每美元推理性能仅次于-vera-rubin",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "SemiAnalysis 微基准：Trainium3 每美元推理性能仅次于 Vera Rubin",
+      "score": 7,
+      "tags": [
+        "Trainium3",
+        "AWS",
+        "AI hardware",
+        "inference",
+        "microarchitecture"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
+      "id": "296b127331eb804f79b74b1aeec6d5918b1b3737",
+      "canonicalId": "0e01e5db69b904cfd00767c6a5680a25a519a136",
+      "slug": "opensec-称-linux-nfsd-存在-98-分预认证漏洞",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "OpenSec 称 Linux nfsd 存在 9.8 分预认证漏洞",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "security vulnerability",
+        "NFS",
+        "remote exploitation",
+        "patching"
+      ],
+      "originalSite": "opensec.in"
+    },
+    {
+      "id": "bdc5bbb0b446b6924ab0ebabec14a198e03b0f10",
+      "canonicalId": "43fa9fbe229859a2542ea9d7b1c1d73095b912ff",
+      "slug": "我的世界基岩版资源包漏洞于-2665-修复",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "《我的世界》基岩版资源包漏洞于 26.65 修复",
+      "score": 7,
+      "tags": [
+        "Minecraft Bedrock",
+        "security vulnerability",
+        "resource packs",
+        "game security",
+        "auto-download"
+      ],
+      "originalSite": "zaikei.co.jp"
+    },
+    {
+      "id": "a9c84954ecc21f85a748a09ee9fb3939e59aa86d",
+      "canonicalId": "f798c4cc58c800fb43e7649a02bff1c6a170962c",
+      "slug": "国常会部署完善资本市场稳市机制",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "国常会部署完善资本市场稳市机制",
+      "score": 7,
+      "tags": [
+        "中国资本市场",
+        "国常会",
+        "中央汇金",
+        "平准基金",
+        "中长期资金"
+      ],
+      "originalSite": "tmtpost.com"
+    },
+    {
+      "id": "525cc1e825568d639852ac45b7259a3baaddaed8",
+      "canonicalId": "afc87d7fd9ad37e5451986899041dd507875e3b7",
+      "slug": "央行公布大额存单新规-个人起购门槛降至-10-万元",
+      "date": "2026-11-28",
+      "lang": "zh",
+      "title": "央行公布大额存单新规 个人起购门槛降至 10 万元",
+      "score": 7,
+      "tags": [
+        "中国央行",
+        "大额存单",
+        "存款利率",
+        "金融监管",
+        "个人理财"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
+      "id": "ad87dd806e5060c5436567467fc83d1cf505035c",
+      "canonicalId": "77ab3d65a27896e8329a48f48640f73305607972",
+      "slug": "google-researchx27s-deepcrossattention-claims-up-to-3x-transformer-speedup",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "Google Research&\\#x27;s DeepCrossAttention claims up to 3x transformer speedup",
+      "score": 7,
+      "tags": [
+        "transformers",
+        "model efficiency",
+        "Google Research",
+        "deep learning architecture",
+        "residual connections"
+      ],
+      "originalSite": "research.google"
+    },
+    {
+      "id": "498690e77ef6dd1d06a8989885cdb2a66255eba2",
+      "canonicalId": "9b67ad13d3381ff0e387a57a33c5a6abfa13647a",
+      "slug": "webrtc-based-card-skimming-scripts-reported-on-shopping-sites",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "WebRTC-based card skimming scripts reported on shopping sites",
+      "score": 7,
+      "tags": [
+        "web security",
+        "credit card skimming",
+        "WebRTC",
+        "third-party scripts",
+        "e-commerce"
+      ],
+      "originalSite": "infohawk.com"
+    },
+    {
+      "id": "1b2bfeee0a499bcdcdf2e5e0f81146efdb1b4942",
+      "canonicalId": "e3fd524c3c50f8bca16d260c3ce548726ae4c209",
+      "slug": "convex-ai-coding-skill-accused-of-uploading-app-ideas-without-disclosure",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "Convex AI coding skill accused of uploading app ideas without disclosure",
+      "score": 7,
+      "tags": [
+        "AI coding tools",
+        "privacy",
+        "data exfiltration",
+        "developer trust",
+        "prompt security"
+      ],
+      "originalSite": "github.com"
+    },
+    {
+      "id": "c5d1f47859593286486aa31bb59d174624f0c65c",
+      "canonicalId": "e20b8c05499c1f61c7208754a7055667e1a3f3b9",
+      "slug": "essay-examines-false-computer-checked-proofs-and-checker-soundness",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "Essay examines false computer-checked proofs and checker soundness",
+      "score": 7,
+      "tags": [
+        "formal verification",
+        "proof assistants",
+        "soundness bugs",
+        "Lean",
+        "Metamath"
+      ],
+      "originalSite": "cr.yp.to"
+    },
+    {
+      "id": "ee0303627b01ef89f840cfd1b4d3b56fb38036b7",
+      "canonicalId": "e7792bf08cf973492fc93c3f1421a404f00e532f",
+      "slug": "semianalysis-details-trainium3-microarchitecture-and-inference-cost-results",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "SemiAnalysis details Trainium3 microarchitecture and inference cost results",
+      "score": 7,
+      "tags": [
+        "Trainium3",
+        "AWS",
+        "AI hardware",
+        "inference",
+        "microarchitecture"
+      ],
+      "originalSite": "newsletter.semianalysis.com"
+    },
+    {
+      "id": "4a9c0eced58e9a2d08ec0acadc0eb4052a50c673",
+      "canonicalId": "0e01e5db69b904cfd00767c6a5680a25a519a136",
+      "slug": "opensec-discloses-cve-2026-99362-a-98-pre-auth-root-flaw-in-linux-nfsd",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "OpenSec discloses CVE-2026-99362, a 9.8 pre-auth root flaw in Linux nfsd",
+      "score": 7,
+      "tags": [
+        "Linux kernel",
+        "security vulnerability",
+        "NFS",
+        "remote exploitation",
+        "patching"
+      ],
+      "originalSite": "opensec.in"
+    },
+    {
+      "id": "fefa3eccedb954379b7ef286de694bdad7501682",
+      "canonicalId": "43fa9fbe229859a2542ea9d7b1c1d73095b912ff",
+      "slug": "minecraft-bedrock-resource-pack-flaw-affected-26522663-fixed-in-2665",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "Minecraft Bedrock resource-pack flaw affected 26.52–26.63, fixed in 26.65",
+      "score": 7,
+      "tags": [
+        "Minecraft Bedrock",
+        "security vulnerability",
+        "resource packs",
+        "game security",
+        "auto-download"
+      ],
+      "originalSite": "zaikei.co.jp"
+    },
+    {
+      "id": "caa85434d70695a8a17beff12f908bce27b0889f",
+      "canonicalId": "f798c4cc58c800fb43e7649a02bff1c6a170962c",
+      "slug": "chinax27s-state-council-executive-meeting-calls-for-stronger-market-stabilization-role-by-x27national-teamx27",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "China&\\#x27;s State Council Executive Meeting Calls for Stronger Market-Stabilization Role by &\\#x27;National Team&\\#x27;",
+      "score": 7,
+      "tags": [
+        "中国资本市场",
+        "国常会",
+        "中央汇金",
+        "平准基金",
+        "中长期资金"
+      ],
+      "originalSite": "tmtpost.com"
+    },
+    {
+      "id": "68e65b6291ebf444d78548c7a54f3d99bbbfa6e4",
+      "canonicalId": "afc87d7fd9ad37e5451986899041dd507875e3b7",
+      "slug": "央行公布大额存单新规-个人起购门槛降至-10-万元",
+      "date": "2026-11-28",
+      "lang": "en",
+      "title": "央行公布大额存单新规 个人起购门槛降至 10 万元",
+      "score": 7,
+      "tags": [
+        "中国央行",
+        "大额存单",
+        "存款利率",
+        "金融监管",
+        "个人理财"
+      ],
+      "originalSite": "news.cn"
+    },
+    {
       "id": "7daa7be315c7245673e512be231231cc4ad0aef8",
       "canonicalId": "8f291152e30adfa5608b5cd002e4f874364cfa7e",
       "slug": "neuralink-获-fda-批准开展渐冻症关键脑机接口试验",
@@ -4749,514 +5055,6 @@
         "interest rates"
       ],
       "originalSite": "cnbc.com"
-    },
-    {
-      "id": "5c9f0e1c6a6a71ef9cfbf93b7a10c02cc09e1d4a",
-      "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
-      "slug": "rust-1100-稳定-never-类型与自定义分配器",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "Rust 1.100 稳定 never 类型与自定义分配器",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "programming languages",
-        "Cargo",
-        "language features",
-        "open source"
-      ],
-      "originalSite": "blog.rust-lang.org"
-    },
-    {
-      "id": "c312f049c84d7798e001574f74ed4fc73466645b",
-      "canonicalId": "8e60012da5d1451ad2f0254b069daa01d166949a",
-      "slug": "黄仁勋被曝辞任英伟达-ceo消息未获证实",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "黄仁勋被曝辞任英伟达 CEO，消息未获证实",
-      "score": 8,
-      "tags": [
-        "NVIDIA",
-        "Jensen Huang",
-        "AI hardware",
-        "export controls",
-        "Hacker News"
-      ],
-      "originalSite": "apnews.com"
-    },
-    {
-      "id": "e04a8631b46f86541b8784f86e71482f6b552824",
-      "canonicalId": "f101ffad2bb3a11309d8d81bf89cac5b5f4011f0",
-      "slug": "anthropic-ipo-发行细节引发估值争论",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "Anthropic IPO 发行细节引发估值争论",
-      "score": 8,
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "AI industry",
-        "LLM business model",
-        "Hacker News"
-      ],
-      "originalSite": "ipo.anthropic.com"
-    },
-    {
-      "id": "ded9c1d9094f3bcfdda5fa5a5ec260a96cba6d03",
-      "canonicalId": "5b3e85fd4334d620f71399560b4fa929fe296e36",
-      "slug": "postgresql-22-年类型混淆原语被串成-rce-利用链",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "PostgreSQL 22 年类型混淆原语被串成 RCE 利用链",
-      "score": 8,
-      "tags": [
-        "PostgreSQL",
-        "vulnerability research",
-        "type confusion",
-        "CVE",
-        "exploit development"
-      ],
-      "originalSite": "mehmetince.net"
-    },
-    {
-      "id": "0b68da5255ec9077a4bed4c0fdc7bdf49bb9870b",
-      "canonicalId": "779ca2fd9635347a712590fc726aae6d07550db0",
-      "slug": "umap-06-发布新初始化与优化器提速",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "UMAP 0.6 发布：新初始化与优化器提速",
-      "score": 8,
-      "tags": [
-        "UMAP",
-        "dimensionality reduction",
-        "machine learning",
-        "open source",
-        "performance optimization"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "9d194b9a88ddca8795ca6af7f2af52b737bdb324",
-      "canonicalId": "8fdb0296ea11e78cab6bcde925dfee4f06270cbf",
-      "slug": "gemini-4-hydrogen-发布统一-token-定价",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "Gemini 4 Hydrogen 发布：统一 token 定价",
-      "score": 8,
-      "tags": [
-        "Google Gemini",
-        "AI model release",
-        "LLM pricing",
-        "agentic coding",
-        "benchmarks"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "638b534860001829b26f063711e4d4bed1ba9ff6",
-      "canonicalId": "19edf142065b40b14f81499a53f5a22df712ac2b",
-      "slug": "chips-and-cheese-与-amd-的-mike-clark-深入讨论-zen-6",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "Chips and Cheese 与 AMD 的 Mike Clark 深入讨论 Zen 6",
-      "score": 7,
-      "tags": [
-        "AMD Zen 6",
-        "CPU architecture",
-        "semiconductors",
-        "hardware engineering",
-        "technical interview"
-      ],
-      "originalSite": "chipsandcheese.com"
-    },
-    {
-      "id": "5e954eaf56f1ebbcd19857bc889848550dc56d53",
-      "canonicalId": "47e68dc764ba8338864c78906ee3c11c101a4f0a",
-      "slug": "microsoft-365-邮件服务出现长时间降级",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "Microsoft 365 邮件服务出现长时间降级",
-      "score": 7,
-      "tags": [
-        "Microsoft 365",
-        "service outage",
-        "cloud reliability",
-        "incident response"
-      ],
-      "originalSite": "status.cloud.microsoft"
-    },
-    {
-      "id": "5173865a17741a13ea457128e5533f4e9f732b3c",
-      "canonicalId": "0667a519c65042ee1fcd1979931dcd332e244f0b",
-      "slug": "smolmaxxing在不足-1gb-内存旧设备上跑-16b-模型",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "smolmaxxing：在不足 1GB 内存旧设备上跑 16B 模型",
-      "score": 7,
-      "tags": [
-        "local LLMs",
-        "edge inference",
-        "model optimization",
-        "open source",
-        "low-memory hardware"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "a5c743831751e3e150378cc8885ff551904572a9",
-      "canonicalId": "1137121a8ec3bd6100cd0acb27cd6b37a14d4fd8",
-      "slug": "独立测试未发现-tribe-v2-的视网膜与音调拓扑图",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "独立测试未发现 TRIBE v2 的视网膜与音调拓扑图",
-      "score": 7,
-      "tags": [
-        "TRIBE v2",
-        "fMRI decoding",
-        "model evaluation",
-        "retinotopy",
-        "neuroAI"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "c7829727f8682ce1eb38c2c1b276ac16a5c9f32f",
-      "canonicalId": "b6cab54de45545caf83836f6b808f1f42754323b",
-      "slug": "美商务部将定稿远程用芯规则管制扩至新加坡等七国",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "美商务部将定稿远程用芯规则，管制扩至新加坡等七国",
-      "score": 7,
-      "tags": [
-        "出口管制",
-        "AI芯片",
-        "半导体供应链",
-        "美中科技政策",
-        "数据中心"
-      ],
-      "originalSite": "theinformation.com"
-    },
-    {
-      "id": "b72026879a645084d5c13a2abfc76080d6009fd8",
-      "canonicalId": "fa3da548c99baf0fb978902221e96875c05f78c4",
-      "slug": "苹果详解-secure-exclaves隔离音视频处理并硬件校验录音指示点",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "苹果详解 Secure Exclaves：隔离音视频处理并硬件校验录音指示点",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "security architecture",
-        "privacy",
-        "secure enclaves",
-        "audio/video"
-      ],
-      "originalSite": "security.apple.com"
-    },
-    {
-      "id": "0fd7e828fb763ca1283fa9cd3973a362be01d398",
-      "canonicalId": "1ba52ba6ab374716f98073496e0372d618a44867",
-      "slug": "美联储调整会议安排2027-年-10-月会议不进行利率投票",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "美联储调整会议安排：2027 年 10 月会议不进行利率投票",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "FOMC",
-        "central bank communication",
-        "meeting schedule"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "4b5c27e8a1591c71e38eca76dea59007b114e26e",
-      "canonicalId": "6e0a9a613845665be54fa118dd37e4b21e8f9688",
-      "slug": "特朗普称无需伊朗协议后油价上涨",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "特朗普称无需伊朗协议后油价上涨",
-      "score": 7,
-      "tags": [
-        "oil prices",
-        "Iran",
-        "Strait of Hormuz",
-        "geopolitical risk",
-        "energy markets"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "f5e1cfe7cf9d145b41e927772d6aa678d61b63b4",
-      "canonicalId": "ae5db489df9bdc42c2a41a9b48bcc4f940b25d57",
-      "slug": "礼来口服减重药奥氟格列隆在华获批系国内首个口服-glp-1-减重药",
-      "date": "2026-11-13",
-      "lang": "zh",
-      "title": "礼来口服减重药奥氟格列隆在华获批，系国内首个口服 GLP-1 减重药",
-      "score": 7,
-      "tags": [
-        "pharmaceutical regulation",
-        "GLP-1",
-        "Eli Lilly",
-        "China healthcare",
-        "obesity treatment"
-      ],
-      "originalSite": "reuters.com"
-    },
-    {
-      "id": "233bf012df91a74a4488574f89da60b0ba9bd983",
-      "canonicalId": "b8c82d5c01fe377a81e5d9f29fb289b2eb52ed52",
-      "slug": "rust-1100-stabilizes-never-type-and-custom-allocators-adds-cargo-cooldowns",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Rust 1.100 stabilizes never type and custom allocators, adds Cargo cooldowns",
-      "score": 8,
-      "tags": [
-        "Rust",
-        "programming languages",
-        "Cargo",
-        "language features",
-        "open source"
-      ],
-      "originalSite": "blog.rust-lang.org"
-    },
-    {
-      "id": "f80ba760bae0d6af7d256bce0fcc21a19df8edd0",
-      "canonicalId": "8e60012da5d1451ad2f0254b069daa01d166949a",
-      "slug": "hacker-news-post-alleges-jensen-huang-has-resigned-as-nvidia-ceo",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Hacker News post alleges Jensen Huang has resigned as NVIDIA CEO",
-      "score": 8,
-      "tags": [
-        "NVIDIA",
-        "Jensen Huang",
-        "AI hardware",
-        "export controls",
-        "Hacker News"
-      ],
-      "originalSite": "apnews.com"
-    },
-    {
-      "id": "7132e366d9c169f0d0b8d4a225d0355a914eb68a",
-      "canonicalId": "f101ffad2bb3a11309d8d81bf89cac5b5f4011f0",
-      "slug": "anthropic-ipo-page-lists-7078-price-range-968b-implied-valuation",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Anthropic IPO page lists $70–78 price range, ~$968B implied valuation",
-      "score": 8,
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "AI industry",
-        "LLM business model",
-        "Hacker News"
-      ],
-      "originalSite": "ipo.anthropic.com"
-    },
-    {
-      "id": "0fc090b2fedf424bd8a1c554452addb2c14ff474",
-      "canonicalId": "5b3e85fd4334d620f71399560b4fa929fe296e36",
-      "slug": "postgresql-type-confusion-primitive-chained-into-rce-in-cve-2026-6460",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "PostgreSQL type-confusion primitive chained into RCE in CVE-2026-6460",
-      "score": 8,
-      "tags": [
-        "PostgreSQL",
-        "vulnerability research",
-        "type confusion",
-        "CVE",
-        "exploit development"
-      ],
-      "originalSite": "mehmetince.net"
-    },
-    {
-      "id": "6f287f15a3e4804c810161616e123ef4094c6f1f",
-      "canonicalId": "779ca2fd9635347a712590fc726aae6d07550db0",
-      "slug": "umap-06-adds-recursive-init-new-optimizers-faster-search",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "UMAP 0.6 adds recursive init, new optimizers, faster search",
-      "score": 8,
-      "tags": [
-        "UMAP",
-        "dimensionality reduction",
-        "machine learning",
-        "open source",
-        "performance optimization"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "a1daa2955598949911a9655f8b5e7aec696e3b99",
-      "canonicalId": "8fdb0296ea11e78cab6bcde925dfee4f06270cbf",
-      "slug": "google-releases-gemini-4-hydrogen-claims-25-speedup-and-unified-pricing",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Google releases Gemini 4 Hydrogen, claims 2.5× speedup and unified pricing",
-      "score": 8,
-      "tags": [
-        "Google Gemini",
-        "AI model release",
-        "LLM pricing",
-        "agentic coding",
-        "benchmarks"
-      ],
-      "originalSite": "blog.google"
-    },
-    {
-      "id": "1536fc8d20002f3dd1631b102c935c74778db994",
-      "canonicalId": "19edf142065b40b14f81499a53f5a22df712ac2b",
-      "slug": "chips-and-cheese-interviews-amds-mike-clark-on-zen-6",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Chips and Cheese Interviews AMD’s Mike Clark on Zen 6",
-      "score": 7,
-      "tags": [
-        "AMD Zen 6",
-        "CPU architecture",
-        "semiconductors",
-        "hardware engineering",
-        "technical interview"
-      ],
-      "originalSite": "chipsandcheese.com"
-    },
-    {
-      "id": "582ca2c9f8932b53e5d6f1e33bd92979e38ebe36",
-      "canonicalId": "47e68dc764ba8338864c78906ee3c11c101a4f0a",
-      "slug": "microsoft-365-degradation-leaves-some-email-down-for-hours",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Microsoft 365 degradation leaves some email down for hours",
-      "score": 7,
-      "tags": [
-        "Microsoft 365",
-        "service outage",
-        "cloud reliability",
-        "incident response"
-      ],
-      "originalSite": "status.cloud.microsoft"
-    },
-    {
-      "id": "e40ff426903a1a9f9caae23b5328596adf4e9610",
-      "canonicalId": "0667a519c65042ee1fcd1979931dcd332e244f0b",
-      "slug": "smolmaxxing-publishes-kernels-for-llms-on-sub-1gb-devices",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "smolmaxxing publishes kernels for LLMs on sub-1GB devices",
-      "score": 7,
-      "tags": [
-        "local LLMs",
-        "edge inference",
-        "model optimization",
-        "open source",
-        "low-memory hardware"
-      ],
-      "originalSite": "github.com"
-    },
-    {
-      "id": "bdbf431346118dc3945b73410fb50c132bf4caae",
-      "canonicalId": "1137121a8ec3bd6100cd0acb27cd6b37a14d4fd8",
-      "slug": "reddit-audit-of-tribe-v2-finds-motion-selectivity-but-no-retinotopytonotopy",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Reddit audit of TRIBE v2 finds motion selectivity but no retinotopy/tonotopy",
-      "score": 7,
-      "tags": [
-        "TRIBE v2",
-        "fMRI decoding",
-        "model evaluation",
-        "retinotopy",
-        "neuroAI"
-      ],
-      "originalSite": "reddit.com"
-    },
-    {
-      "id": "e94cecdadd7a055ae9bbc0e11747293982ab0e62",
-      "canonicalId": "b6cab54de45545caf83836f6b808f1f42754323b",
-      "slug": "us-commerce-finalizing-rule-to-block-chinese-ai-remote-chip-access",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "US Commerce finalizing rule to block Chinese AI remote chip access",
-      "score": 7,
-      "tags": [
-        "出口管制",
-        "AI芯片",
-        "半导体供应链",
-        "美中科技政策",
-        "数据中心"
-      ],
-      "originalSite": "theinformation.com"
-    },
-    {
-      "id": "54176d6e4862f5f7c92a03e7f5cc22d46a6977d1",
-      "canonicalId": "fa3da548c99baf0fb978902221e96875c05f78c4",
-      "slug": "apple-details-secure-exclaves-audiovideo-privacy-and-recording-indicator-checks",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Apple details Secure Exclaves audio/video privacy and recording-indicator checks",
-      "score": 7,
-      "tags": [
-        "Apple",
-        "security architecture",
-        "privacy",
-        "secure enclaves",
-        "audio/video"
-      ],
-      "originalSite": "security.apple.com"
-    },
-    {
-      "id": "877e1b092616d776d5bd871437cc3c7850d1b89f",
-      "canonicalId": "1ba52ba6ab374716f98073496e0372d618a44867",
-      "slug": "fed-to-skip-rate-vote-at-october-2027-meeting",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Fed to Skip Rate Vote at October 2027 Meeting",
-      "score": 7,
-      "tags": [
-        "Federal Reserve",
-        "monetary policy",
-        "FOMC",
-        "central bank communication",
-        "meeting schedule"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "28f095dc681d5dfde1a5c2204f06a28acd7b0610",
-      "canonicalId": "6e0a9a613845665be54fa118dd37e4b21e8f9688",
-      "slug": "oil-prices-climb-after-trump-says-no-iran-deal-needed",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "Oil prices climb after Trump says no Iran deal needed",
-      "score": 7,
-      "tags": [
-        "oil prices",
-        "Iran",
-        "Strait of Hormuz",
-        "geopolitical risk",
-        "energy markets"
-      ],
-      "originalSite": "cnbc.com"
-    },
-    {
-      "id": "682afa1c7200751a307711b5903cbe025d6d4de5",
-      "canonicalId": "ae5db489df9bdc42c2a41a9b48bcc4f940b25d57",
-      "slug": "礼来口服减重药在中国获批成为国内首个口服-glp-1",
-      "date": "2026-11-13",
-      "lang": "en",
-      "title": "礼来口服减重药在中国获批，成为国内首个口服 GLP-1",
-      "score": 7,
-      "tags": [
-        "pharmaceutical regulation",
-        "GLP-1",
-        "Eli Lilly",
-        "China healthcare",
-        "obesity treatment"
-      ],
-      "originalSite": "reuters.com"
     }
   ]
 }

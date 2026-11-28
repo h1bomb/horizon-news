@@ -1,0 +1,31 @@
+{
+  "id": "bdc5bbb0b446b6924ab0ebabec14a198e03b0f10",
+  "canonicalId": "43fa9fbe229859a2542ea9d7b1c1d73095b912ff",
+  "slug": "我的世界基岩版资源包漏洞于-2665-修复",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T18:04:00Z",
+  "lang": "zh",
+  "title": "《我的世界》基岩版资源包漏洞于 26.65 修复",
+  "summary": "《我的世界》基岩版被报告存在资源包漏洞：带有 content.zipe 文件的资源包可改动游戏界面框架 Ore UI 的文件并运行隐藏脚本。附加组件开发者 8Crafter 于 11 月 15 日在 Reddit 公开该问题，称已确认影响 26.52 至 26.63 版本，更早版本也可能受影响，覆盖 PC、手机和主机，Java 版不受影响。加入服务器或 Realm 且开启资源包自动下载时，玩家可能无需手动安装就收到问题文件；所列利用方式包括删除全部存档、获取玩家 IP，以及在 Windows 特定条件下无提示打开任意 URI、启动资源包内的批处理文件下载恶意软件。Mojang 已在 26.65 版修复，AxmBro 发布的 Windows 只读检测工具可查找 content.zipe，但不能判定资源包是否恶意；所给汇总未附官方公告或 CVE 级技术细节。",
+  "score": 7,
+  "tags": [
+    "Minecraft Bedrock",
+    "security vulnerability",
+    "resource packs",
+    "game security",
+    "auto-download"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://www.zaikei.co.jp/article/20261119/878386.html",
+  "originalSite": "zaikei.co.jp",
+  "context": "《我的世界》基岩版的资源包可用于替换材质和界面；当玩家加入服务器或 Realm 并开启自动下载时，资源包会不经手动安装直接应用到客户端。此次问题中，资源包携带的 content.zipe 能修改 Ore UI 的界面文件并执行隐藏脚本，因此自动下载成为攻击入口。",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

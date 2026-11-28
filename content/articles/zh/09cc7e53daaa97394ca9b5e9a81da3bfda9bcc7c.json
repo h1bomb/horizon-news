@@ -1,0 +1,40 @@
+{
+  "id": "09cc7e53daaa97394ca9b5e9a81da3bfda9bcc7c",
+  "canonicalId": "e7792bf08cf973492fc93c3f1421a404f00e532f",
+  "slug": "semianalysis-微基准trainium3-每美元推理性能仅次于-vera-rubin",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T15:54:00Z",
+  "lang": "zh",
+  "title": "SemiAnalysis 微基准：Trainium3 每美元推理性能仅次于 Vera Rubin",
+  "summary": "SemiAnalysis 发布了对 AWS Trainium3 的推理与微架构深度分析，并称 Trainium3 与 TPU 已上线其 InferenceX 基准平台，与 TPUv7、Nvidia Rubin NVL72、OpenAI Jalapeño、AMD 等加速器同列对比。在 AgentX 端到端智能体推理测试（回放真实编码智能体会话到 Trainium3 服务器）中，Trainium3 搭配 PDS 与 vLLM 的每美元吞吐（perf/$ TCO）在整个 TCO–p90 交互性曲线上优于除 Vera Rubin 之外的所有加速器；文章还称其在生成 token 的 TCO 上与 Nvidia GB300「互有胜负甚至领先」。微架构上，Trainium 以 tile 为第一类原语、从零为 ML 负载设计，其 Descriptor Generation Engine（DGE，对应 Nvidia TMA 与 AMD MI455X TDM）在微基准中可于较小消息尺寸下达到峰值 HBM 带宽利用率，而文章称这在 Nvidia GPU 上无法实现。需要说明的是，这些数字出自 SemiAnalysis 自有的 UBenchX/InferenceX 测试方法，AWS Annapurna Labs 团队参与了架构讲解与实验验证，且公开摘录在结论段处被截断。",
+  "score": 7,
+  "tags": [
+    "Trainium3",
+    "AWS",
+    "AI hardware",
+    "inference",
+    "microarchitecture"
+  ],
+  "sources": [
+    {
+      "platform": "rss",
+      "author": "Semianalysis"
+    }
+  ],
+  "originalUrl": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
+  "originalSite": "newsletter.semianalysis.com",
+  "context": "要理解这篇分析，需要先知道两条不同的架构路线：Nvidia 的数据中心 GPU 源自图形渲染架构，2017 年以来逐代加装 AI 专用单元——Volta 的 Tensor Core、Hopper 的 TMA、Blackwell 的 Tensor Memory；AWS Trainium 则从一开始就按机器学习负载设计，把 tile 作为一等原语。SemiAnalysis 此次正是围绕这一差异，用微基准测试比较 Trainium3 的推理表现。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Trainium3 competes with Nvidia GB300 in inference performance ...",
+      "url": "https://cryptobriefing.com/trainium3-nvidia-gb300-inference-benchmark/"
+    },
+    {
+      "title": "Amazon’s Trainium3 Shows Cost Edge in AI Benchmark",
+      "url": "https://thedefiant.io/frontier/ai/amazon-s-trainium3-shows-cost-edge-in-ai-benchmark"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

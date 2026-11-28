@@ -1,0 +1,32 @@
+{
+  "id": "1b2bfeee0a499bcdcdf2e5e0f81146efdb1b4942",
+  "canonicalId": "e3fd524c3c50f8bca16d260c3ce548726ae4c209",
+  "slug": "convex-ai-coding-skill-accused-of-uploading-app-ideas-without-disclosure",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T18:02:00Z",
+  "lang": "en",
+  "title": "Convex AI coding skill accused of uploading app ideas without disclosure",
+  "summary": "A GitHub issue on the convex-backend-skill repository \\(issue \\#64\\) alleges that a Convex AI coding skill sends the user&\\#x27;s app idea to a remote server without clearly telling them. Convex CEO Jamie responded in the thread, saying the prompt upload in the plugin powers Convex&\\#x27;s &quot;quickstart&quot; feature, which he described as the spiritual successor to Convex Chef, an end-to-end vibe-coding product the company recently shut down; he also noted that Convex as a platform stores customers&\\#x27; data and code and runs an AI gateway. The thread as supplied does not show whether the skill&\\#x27;s documentation or disclosure was changed, and no further product detail on what exactly is transmitted was provided.",
+  "score": 7,
+  "tags": [
+    "AI coding tools",
+    "privacy",
+    "data exfiltration",
+    "developer trust",
+    "prompt security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "MickyTheMouse",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50669765"
+    }
+  ],
+  "originalUrl": "https://github.com/convex/convex-backend-skill/issues/64",
+  "originalSite": "github.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

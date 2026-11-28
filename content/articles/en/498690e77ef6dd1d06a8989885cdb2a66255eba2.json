@@ -1,0 +1,32 @@
+{
+  "id": "498690e77ef6dd1d06a8989885cdb2a66255eba2",
+  "canonicalId": "9b67ad13d3381ff0e387a57a33c5a6abfa13647a",
+  "slug": "webrtc-based-card-skimming-scripts-reported-on-shopping-sites",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T15:40:00Z",
+  "lang": "en",
+  "title": "WebRTC-based card skimming scripts reported on shopping sites",
+  "summary": "A report published by Infohawk on November 27, 2026 states that credit-card skimming scripts abusing WebRTC were found on popular shopping sites, timing the finding to the Black Friday shopping period. No article body was supplied, so specifics such as the affected merchants, the script names, or the number of compromised sites remain unconfirmed. In the accompanying Hacker News discussion, commenters push back on framing the problem as a WebRTC flaw, arguing the protocol is simply monitored less often for malicious behavior and that the same approach could work over ordinary HTTP requests.",
+  "score": 7,
+  "tags": [
+    "web security",
+    "credit card skimming",
+    "WebRTC",
+    "third-party scripts",
+    "e-commerce"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "scanr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50668145"
+    }
+  ],
+  "originalUrl": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+  "originalSite": "infohawk.com",
+  "context": "",
+  "discussion": "",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "13afb5a4bfa417bbeeca5bdcf2c159cc13200c6c",
+  "canonicalId": "77ab3d65a27896e8329a48f48640f73305607972",
+  "slug": "google-research-提出-deepcrossattention-残差连接宣称最高-3-倍加速",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T23:06:00Z",
+  "lang": "zh",
+  "title": "Google Research 提出 DeepCrossAttention 残差连接，宣称最高 3 倍加速",
+  "summary": "Google Research 在一篇研究博客中介绍了 DeepCrossAttention，这是一种面向 Transformer 残差连接的架构改动，宣称能在模型质量相当的情况下带来最高 3 倍的速度提升。该结果目前仅来自研究博客的公告，尚无独立复现或第三方测量，因此 3 倍加速应视为研究团队的声明，而不是已经验证的性能结论。",
+  "score": 7,
+  "tags": [
+    "transformers",
+    "model efficiency",
+    "Google Research",
+    "deep learning architecture",
+    "residual connections"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ComputedCamp995",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50672565"
+    }
+  ],
+  "originalUrl": "https://research.google/blog/supercharging-transformer-residual-connections/",
+  "originalSite": "research.google",
+  "context": "传统 Transformer 的残差连接会把各层输出直接累加到同一条表示流中，深层网络中较早层的信息可能因此被稀释。Google Research 提出的 DeepCrossAttention 改用可学习权重和跨层交叉注意力来动态组合先前各层的输出，并称仅增加极少量参数。",
+  "discussion": "评论区中，pollorollo 批评结果展示不应使用折线图，因为各方法之间不存在时间或连续关系，应改用柱状图；yieldcrv 则追问该方法能否与 MTP、Dflash 等已有优化叠加，把吞吐提升到 30 倍 tokens/秒。这些是评论者的质疑和提问，并不构成对 3 倍加速声明的独立验证。",
+  "references": [
+    {
+      "title": "Supercharging transformer residual connections - Google Research",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+    },
+    {
+      "title": "[2502.06785] DeepCrossAttention: Supercharging Transformer ...",
+      "url": "https://arxiv.org/abs/2502.06785"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

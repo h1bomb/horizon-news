@@ -1,0 +1,52 @@
+{
+  "id": "4a9c0eced58e9a2d08ec0acadc0eb4052a50c673",
+  "canonicalId": "0e01e5db69b904cfd00767c6a5680a25a519a136",
+  "slug": "opensec-discloses-cve-2026-99362-a-98-pre-auth-root-flaw-in-linux-nfsd",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T12:57:00Z",
+  "lang": "en",
+  "title": "OpenSec discloses CVE-2026-99362, a 9.8 pre-auth root flaw in Linux nfsd",
+  "summary": "OpenSec has disclosed CVE-2026-99362, a CVSS 9.8 pre-authentication heap overflow in the Linux kernel NFS server, nfsd. According to the alert, an unauthenticated attacker can trigger an out-of-bounds kernel heap write with a single connection to tcp/2049 and obtain a root shell; hosts running NFSv4.1 or NFSv4.2 are affected, including file servers, NAS devices and cluster storage nodes, with the flaw present since Linux 3.16 in 2014. Fixes are listed in Linux 6.12.117, 6.18.61, 7.3.2 and 7.4-rc1 and require a kernel upgrade and reboot; systems that cannot be upgraded immediately can restrict access to tcp/2049 at the firewall. The CVE was made public on November 20, 2026, but the item relays a single OpenSec blog post and does not provide root-cause or exploit details, so the version and impact claims could not be independently verified from the supplied material.",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "security vulnerability",
+    "NFS",
+    "remote exploitation",
+    "patching"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+  "originalSite": "opensec.in",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ): pre-auth root in Linux nfsd | OpenSec",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
+    },
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ) on CentOS 7: Fixed Kernel",
+      "url": "https://www.getpagespeed.com/server-setup/security/nfs2root-cve-2026-99362-centos-7"
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
+    },
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ): pre-auth root in Linux nfsd | OpenSec",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
+    },
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ) on CentOS 7: Fixed Kernel",
+      "url": "https://www.getpagespeed.com/server-setup/security/nfs2root-cve-2026-99362-centos-7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

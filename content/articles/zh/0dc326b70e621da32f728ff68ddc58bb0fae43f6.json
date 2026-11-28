@@ -1,0 +1,45 @@
+{
+  "id": "0dc326b70e621da32f728ff68ddc58bb0fae43f6",
+  "canonicalId": "e20b8c05499c1f61c7208754a7055667e1a3f3b9",
+  "slug": "计算机验证的证明也可能为假检查器健全性争议",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T15:26:00Z",
+  "lang": "zh",
+  "title": "计算机验证的证明也可能为假：检查器健全性争议",
+  "summary": "cr.yp.to 上的一篇技术文章讨论“经计算机检查的证明”仍可能因证明检查器的健全性（soundness）缺陷而为假，重点不是数学证明本身，而是验证工具是否可信。Hacker News 讨论中提到的具体防线包括：Lean 社区已知并持续处理健全性 bug；Metamath 的 set.mm 和 iset.mm 要求证明通过 5 个独立开发、分别用 5 种语言实现的验证器。评论者强调，单个检查器被攻破不等于能骗过数学界，还需同时绕过其他检查器并通过非形式化审阅。",
+  "score": 7,
+  "tags": [
+    "formal verification",
+    "proof assistants",
+    "soundness bugs",
+    "Lean",
+    "Metamath"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "\\_tk\\_",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50667989"
+    }
+  ],
+  "originalUrl": "https://cr.yp.to/proofs/falseccp.html",
+  "originalSite": "cr.yp.to",
+  "context": "",
+  "discussion": "对依赖 Lean、Metamath 等证明助手的人而言，实际保障来自独立验证器与人工审阅的组合，而不是某一个检查器的“通过”结果；只运行单一检查器会把健全性 bug 直接变成错误证明被接纳的风险。\n\n评论区的分歧在于风险有多大：twotwotwo 和 dwheeler 认为多重独立验证器大幅降低了假证明被接受的概率，gr\\_norm 则称相关健全性 bug 少到几乎能塞进一条推文，对绝大多数软件已经足够。andai 补充了另一类问题：自动代理可能证明的是自己对需求的错误理解，而不是用户真正想要的性质。",
+  "references": [
+    {
+      "title": "False computer-checked proofs (djb) - cr.yp.to",
+      "url": "https://cr.yp.to/proofs/falseccp.html"
+    },
+    {
+      "title": "Daniel J. Bernstein on X: &quot;Posted new page &quot;False computer ...",
+      "url": "https://x.com/hashbreaker/status/2120889008389837049"
+    },
+    {
+      "title": "D. J. Bernstein catalogs soundness bugs in seven proof ...",
+      "url": "https://news.lavx.hu/article/d-j-bernstein-catalogs-soundness-bugs-in-seven-proof-checkers"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

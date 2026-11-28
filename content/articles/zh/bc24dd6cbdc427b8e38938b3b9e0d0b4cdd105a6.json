@@ -1,0 +1,32 @@
+{
+  "id": "bc24dd6cbdc427b8e38938b3b9e0d0b4cdd105a6",
+  "canonicalId": "e3fd524c3c50f8bca16d260c3ce548726ae4c209",
+  "slug": "convex-ai-编码-skill-被指未告知上传应用创意",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T18:02:00Z",
+  "lang": "zh",
+  "title": "Convex AI 编码 skill 被指未告知上传应用创意",
+  "summary": "一份针对 Convex 的 GitHub issue 指控其 AI 编码 skill 在未明确告知的情况下，把用户的应用创意上传到远程服务器，涉及使用该工具构建应用的开发者。Convex CEO Jamie 在讨论中回应称，该插件中的提示上传用于支撑 Convex 的“quickstart”功能，并提到公司近期关闭了端到端 vibe-coding 产品 Convex Chef。现有信息主要是这项指控和厂商解释，尚无独立验证，也未说明上传数据的范围、保留时间或是否可关闭。",
+  "score": 7,
+  "tags": [
+    "AI coding tools",
+    "privacy",
+    "data exfiltration",
+    "developer trust",
+    "prompt security"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "MickyTheMouse",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50669765"
+    }
+  ],
+  "originalUrl": "https://github.com/convex/convex-backend-skill/issues/64",
+  "originalSite": "github.com",
+  "context": "Convex 是托管式后端平台，开发者把数据和代码存放在其服务器上，并通过它的 AI 网关构建应用或为应用内功能提供模型能力；此次争议中的上传行为，发生在其提供给 AI 编码工具调用的 skill（插件）里。据该公司 CEO 在讨论串中说明，Convex 近期关停了端到端的“vibe-coding”产品 Convex Chef，而这个插件中的 prompt 上传正是为“quickstart”功能服务，他称该功能是 Chef 的延续。",
+  "discussion": "使用该 skill 的开发者需要把“提示是否离开本地”纳入审查：CEO 的回应确认插件存在提示上传并用于 quickstart，但可见说明没有交代数据保留、访问权限或关闭方式。涉及保密产品创意的团队在厂商补齐这些信息前，可能需要避免把未公开方案交给该流程处理。\n\n在 CEO 解释提示上传用于 quickstart 后，有评论者认为长期方向是自托管开源权重模型，也有人强调信任是这类工具的核心问题；另有评论指出，相比模型主动发起恶意工具调用，提示注入更常见。这些均为评论者观点，未附独立证据。",
+  "references": [],
+  "image": null,
+  "fullText": null
+}

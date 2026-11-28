@@ -1,0 +1,48 @@
+{
+  "id": "296b127331eb804f79b74b1aeec6d5918b1b3737",
+  "canonicalId": "0e01e5db69b904cfd00767c6a5680a25a519a136",
+  "slug": "opensec-称-linux-nfsd-存在-98-分预认证漏洞",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T12:57:00Z",
+  "lang": "zh",
+  "title": "OpenSec 称 Linux nfsd 存在 9.8 分预认证漏洞",
+  "summary": "据 Telegram 频道转述 OpenSec 博客，Linux 内核 NFS 服务器组件 nfsd 存在被命名为 CVE-2026-99362 的预认证堆溢出漏洞，CVSS 评分为 9.8；攻击者无需登录，仅通过发往 tcp/2049 的连接即可越界写入内核堆并获取 root，启用 NFSv4.1 或 4.2 的文件服务器、NAS 和集群存储节点受影响，该来源称漏洞自 2014 年的 Linux 3.16 起存在。修复版本列为 6.12.117、6.18.61、7.3.2 和 7.4-rc1，需升级内核并重启；无法立即升级者可限制 tcp/2049 访问。CVE 据称于 2026 年 11 月 20 日公开。上述 CVE 编号、版本和影响范围来自单一转述来源，尚未获得独立核实。",
+  "score": 7,
+  "tags": [
+    "Linux kernel",
+    "security vulnerability",
+    "NFS",
+    "remote exploitation",
+    "patching"
+  ],
+  "sources": [
+    {
+      "platform": "telegram",
+      "author": "zaihuapd"
+    }
+  ],
+  "originalUrl": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+  "originalSite": "opensec.in",
+  "context": "nfsd 是 Linux 内核内的 NFS 服务端实现，默认监听 tcp/2049；NFSv4.1 与 4.2 是常见的默认协议版本，所以只要该端口对外可达，内核在完成任何身份验证之前就必须先解析客户端请求，这正是无需凭据即可触发堆溢出的入口。BleepingComputer 等报道称该缺陷在代码中已存在约 12 年，与来源所称自 2014 年 Linux 3.16 起存在相符。",
+  "discussion": "",
+  "references": [
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ): pre-auth root in Linux nfsd | OpenSec",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
+    },
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ): pre-auth root in Linux nfsd | OpenSec",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
+    },
+    {
+      "title": "NFS2ROOT ( CVE - 2026 - 99362 ) on CentOS 7: Fixed Kernel",
+      "url": "https://www.getpagespeed.com/server-setup/security/nfs2root-cve-2026-99362-centos-7"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}

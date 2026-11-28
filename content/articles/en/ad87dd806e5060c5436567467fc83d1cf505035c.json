@@ -1,0 +1,41 @@
+{
+  "id": "ad87dd806e5060c5436567467fc83d1cf505035c",
+  "canonicalId": "77ab3d65a27896e8329a48f48640f73305607972",
+  "slug": "google-researchx27s-deepcrossattention-claims-up-to-3x-transformer-speedup",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-27T23:06:00Z",
+  "lang": "en",
+  "title": "Google Research&\\#x27;s DeepCrossAttention claims up to 3x transformer speedup",
+  "summary": "Google Research has described DeepCrossAttention, a transformer residual-connection technique that it says can deliver model quality comparable to standard approaches while running up to 3x faster. The claim comes from a research blog post, not independent benchmarks or a shipped product; the available summary does not specify the baseline, workload, or whether the speedup applies to training or inference.",
+  "score": 7,
+  "tags": [
+    "transformers",
+    "model efficiency",
+    "Google Research",
+    "deep learning architecture",
+    "residual connections"
+  ],
+  "sources": [
+    {
+      "platform": "hackernews",
+      "author": "ComputedCamp995",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50672565"
+    }
+  ],
+  "originalUrl": "https://research.google/blog/supercharging-transformer-residual-connections/",
+  "originalSite": "research.google",
+  "context": "",
+  "discussion": "",
+  "references": [
+    {
+      "title": "Supercharging transformer residual connections - Google Research",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+    },
+    {
+      "title": "[2502.06785] DeepCrossAttention: Supercharging Transformer ...",
+      "url": "https://arxiv.org/abs/2502.06785"
+    }
+  ],
+  "image": null,
+  "fullText": null
+}
